@@ -1,0 +1,75 @@
+- title: Trabajando con AM
+  docs:
+  - 1_introduction
+  - 1_2_first_look
+  - 1_3_main_window
+  - 1_4_concurrence
+  - 1_5_summary
+
+- title: Infraestructura
+  docs:
+  - 2_1_introduction
+  - 2_2_basic_concept
+  - 2_3_tables
+  - 2_4_locations
+  - 2_5_kardex_concepts
+  - 2_6_operations
+
+- title: Activos
+  docs:
+  - 3_1_introduction
+  - 3_2_basic_concepts
+  - 3_3_data_sheet
+  - 3_4_parts_list
+
+- title: Almacenes, Materiales y Repuestos
+  docs:
+  - 4_1_introduction
+  - 4_2_basic_concepts
+  - 4_3_spare_coding
+  - 4_4_main_window
+  - 4_5_export
+
+- title: Kárdex
+  docs:
+  - 5_1_introduction
+  - 5_2_basic_concepts
+  - 5_3_movements
+  - 5_4_transactions
+
+- title: Solicitudes de Servicio
+  docs:
+  - 7_1_introduction
+  - 7_2_basics_concepts
+  - 7_3_transactions
+  - 7_4_export
+
+- title: Paros
+  docs:
+  - 8_1_introduction
+  - 8_2_basics_concepts
+  - 8_3_creation
+  - 8_4_tracking_and_closing
+
+- title: Órdenes de Trabajo
+  docs:
+  - 9_1_introduction
+  - 9_2_basic_concepts
+  - 9_3_analysis_and_generation
+  - 9_4_main_window
+  - 9_5_export
+
+- title: Historia de mantenimiento
+  docs:
+  - 10_1_introduction
+  - 10_2_basic_concepts
+  - 10_3_send_to_history
+  - 10_4_main_window
+  - 10_5_export
+
+- title: Programas de mantenimiento
+  docs:
+  - 11_1_introduction
+  - 11_2_basic_concepts
+  - 11_3_main_window
+  - 11_4_services

@@ -1,0 +1,16 @@
+# Boxes include navigation
+
+- title: Primeros pasos
+  desc: Comienza rápidamente con las instrucciones de instalación y configuración
+  icon: cog
+  doc: installation
+
+- title: Guía de usuario
+  desc: Aprende sobre todas las características y cómo usarlas
+  icon: settings
+  doc: hero
+
+- title: Personalización
+  desc: Adapta AM a tus requisitos específicos
+  icon: code
+  doc: customize
