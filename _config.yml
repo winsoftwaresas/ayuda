@@ -136,7 +136,7 @@ defaults:
       layout:       post
   # _docs
   - scope:
-      path:         ""
+      path:         "/ayuda"
       type:         docs
     values:
       layout:       doc
