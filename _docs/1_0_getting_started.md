@@ -15,9 +15,9 @@ Se aprende a elegir e interpretar los comandos y a seleccionar las opciones de l
 
 En este cap&iacute;tulo también se da un vistazo a la organizaci&oacute;n y funciones de&nbsp;**AM**, al igual que un derrotero general sobre su uso e implementaci&oacute;n.
 
-\#Un vistazo a&nbsp;**AM**
+#Un vistazo a **AM**
 
-Esta secci&oacute;n ayuda a entender el programa **AM**&nbsp;Administrador de Mantenimiento, y a implementarlo para lograr la satisfacci&oacute;n de las necesidades de administraci&oacute;n del mantenimiento de los activos en su empresa.
+Esta sección ayuda a entender el programa **AM**&nbsp;Administrador de Mantenimiento, y a implementarlo para lograr la satisfacci&oacute;n de las necesidades de administraci&oacute;n del mantenimiento de los activos en su empresa.
 
 Al analizar la ventana principal se aprecia como el sistema est&aacute; conformado por las siguientes funciones, que componen el men&uacute; principal. Son ellas:
 
