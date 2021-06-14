@@ -8,7 +8,7 @@ published: true
 
 ## ¿Qué es **AM**?
 
-Este primer capítulo contiene información básica para la comprensión y el uso del **AM**.
+Este primer capítulo contiene información básica para la comprensión y el uso de **AM**.
 
 Se plantea una visión general sobre la interfaz de usuario y sobre los elementos que aparecen en pantalla a manera de convenciones generales.
 
@@ -18,37 +18,76 @@ En este capítulo también se da un vistazo a la organización y funciones de **
 
 ## Un vistazo a **AM**
 
-Esta sección ayuda a entender el programa **AM** Administrador de Mantenimiento, y a implementarlo para lograr la satisfacción de las necesidades de administración del mantenimiento de los activos en su empresa.
+Esta sección ayuda a entender el programa **AM** (Administrador de Mantenimiento) y a implementarlo para lograr la satisfacción de las necesidades de administración del mantenimiento de los activos en su empresa.
 
-Al analizar la ventana principal se aprecia como el sistema está conformado por las siguientes funciones, que componen el menú principal. Son ellas:
+Al analizar la ventana principal se aprecia cómo el sistema está conformado por las siguientes funciones, que componen el menú principal.
 
-**Infraestructura \[IE\]:** Función que administra el grupo de datos básicos, parametrizables, de mantenimiento de la empresa: centros de costo, centros responsables, oficios,terceros, responsables, ubicaciones físicas, contratos, tipos de trabajo, tipos de mantenimiento, tipos de actividad, almacenes, unidades de medida, monedas, contadores, características, características biomédicas, riesgos, magnitudes, Otros conceptos de costo, causas de OT pendiente, causas de cierre de OT, acciones técnicas, causas de falla, efectos de falla, conceptos de Kárdex, operaciones, referencias, tipos de régimen,estados. Un grupo de estas tablas, se encuentra preconfigurado, y puede ajustarse según las necesidades y requerimientos de la empresa. Las restantes describen en detalle la cultura técnica organizacional de mantenimiento.
+### **Infraestructura \[IE\]**
 
-**Activos \[AC\]:** Función central del sistema para la definición de los Activos en general, objetos de mantenimiento, equipos, maquinaria, automotores, activos de Servicios,recreativos, \*\*activos de tecnología, informática e infraestructura física, más todos los institucionales, hospitalarios u hoteleros.
+Función que administra el grupo de datos básicos, parametrizables, de mantenimiento de la empresa.
 
-**Almacén \[AL\]:** Es la funcion encargada del registro y control de materiales y repuestos de almacén, se registran por cada ítem su ficha técnica y parámetros de inventario. También se describen las distintas referencias de ese Material o Repuesto, de acuerdo con sus diferentes proveedores.
+| | | | | |
+|----------------------------|----------------------|------------------|--------------------------|------------------------|
+| Centros de Costo           | Centros Responsables | Oficios          | Terceros                 | Responsables           |
+| Ubicaciones Físicas        | Contratos            | Tipos de Trabajo | Tipos de Mantenimiento   | Tipos de Actividad     |
+| Almacenes                  | Unidades de Medida   | Monedas          | Contadores               | Características        |
+| Características Biomédicas | Riesgos              | Magnitudes       | Otros Conceptos de Costo | Causas de OT Pendiente |
+| Causas de Cierre de OT     | Acciones Técnicas    | Causas de Falla  | Efectos de Falla         | Conceptos de Kárdex    |
+| Operaciones                | Referencias          | Tipos de Régimen | Estados                  |                        |
+| | | | | |
 
-**Kárdex de Repuestos \[KX\]:** A través del Kárdex se realiza el registro de todo movimiento de entrada, ajustes, salida de materiales o repuestos de cada almacén. Para su operación, en el módulo “Infraestructura”, en la tabla “Conceptos de Kárdex” se definen y configuran previamente los conceptos de transacciones de movimiento, que serán hábiles en el sistema, para cada Almacén de la compañía.
+Un grupo de estas tablas, se encuentra preconfigurado, y puede ajustarse según las necesidades y requerimientos de la empresa. Las restantes describen en detalle la cultura técnica organizacional de mantenimiento.
 
-**Programas de Mantenimiento \[PM\]:** Es la función que realiza la programación de actividades de mantenimiento rutinarias, cíclicas, sistemáticas o repetitivas en general. Un programa de mantenimiento se define con el objeto de generar órdenes de Trabajo en forma automática y anticipada. Se toman en cuenta trabajos programados de tipo preventivo, predictivo, lubricación, metrología, inspección u Otros.
+### **Activos \[AC\]**
 
-**Solicitudes de Servicio \[SS\]:** Es el módulo mediante el cual todo empleado autorizado de la compañía puede solicitar una atención o servicio por parte del área de Mantenimiento, Una solicitud de servicio puede ser atendida como tal o puede dar origen a una orden de trabajo. El solicitante puede hacer seguimiento permanente del estado de su solicitud. Este módulo tiene una funcionalidad adicional, el registro de acciones técnicas sencillas de mantenimiento, Corto tiempo de ejecución, bajo costo, y ejecutados por un solo responsable.
+Función central del sistema para la definición de los Activos en general, objetos de mantenimiento, equipos, maquinaria, automotores, activos de Servicios, recreativos, activos de tecnología, informática e infraestructura física, más todos los institucionales, hospitalarios u hoteleros.
 
-**Paros/ Averías \[PA\]:** A través de esta función, se hace el registro minucioso de toda actividad de paro de un equipo u objeto de mantenimiento, programado o no programado,que genere tiempos improductivos. Además de los tiempos de paro, se relacionan también la Causa y efecto de la falla y las acciones técnicas respectivas. Un paro puede dar origen a una Orden de Trabajo.
+### **Almacén \[AL\]**
 
-**órdenes de Trabajo \[OT\]:** Es la función que centraliza la administración de las órdenes de trabajo del sistema. cubre, desde la generación automática o la creación manual de las órdenes de trabajo, el seguimiento y consulta integral durante la ejecución de ellas, hasta su cierre y envío posterior a historia de mantenimiento. Se estudia este módulo como el centro de gestión de mantenimiento.
+Es la funcion encargada del registro y control de materiales y repuestos de almacén, se registran por cada ítem su ficha técnica y parámetros de inventario. También se describen las distintas referencias de ese Material o Repuesto, de acuerdo con sus diferentes proveedores.
 
-**Historia de Mantenimiento \[HI\]:** Es el conjunto de funciones que compendian, estudian y analizan la información histórica de mantenimiento. La historia de mantenimiento está conformada por el conjunto de las OS que se han ejecutado, liquidado, cerrado y trasladado hasta la historia de mantenimiento, y por las solicitudes de servicio o los paros que han sido cerrados y son enviados a historia. Esta historia suma y refleja la actividad de mantenimiento ejecutada en la empresa. es a partir del compendio histórico de mantenimiento que se genera el balance periódico de gestión, se generan los índices de seguimiento y de gestión, se realizan una gran variedad de estudios especiales, como análisis de fallas, análisis de pareto por varios criterios, análisis de costos (mano de obra, materiales/repuestos y otros conceptos), análisis de confiabilidad o disponibilidad, análisis sobre consumos de recursos o análisis sobre proveedores de servicio, entre muchos otros.
+### **Kárdex de Repuestos \[KX\]**
 
-**Administración \[AD\]:** Es el centro funcional donde se provee la Administración del Sistema. Cubre aspectos de: configuración personalizada de la compañía, definición de los perfiles de los usuarios en sus diferentes niveles de acceso, listado de reportes y parametrización del idioma.Antes, de entrar en más detalles, se considera útil hacer un acercamiento general al sistema y a la secuencia de operaciones, para poder hacer una planeación básica de su implementación.
+A través del Kárdex se realiza el registro de todo movimiento de entrada, ajustes, salida de materiales o repuestos de cada almacén. Para su operación, en el módulo “Infraestructura”, en la tabla “Conceptos de Kárdex” se definen y configuran previamente los conceptos de transacciones de movimiento, que serán hábiles en el sistema, para cada Almacén de la compañía.
 
-## Presentación Gráfica del \*\* **AM 4G**\- Interfaz de Usuario
+### **Programas de Mantenimiento \[PM\]**
 
-### Ventana Principal **AM 4G**\-\*\*
+Es la función que realiza la programación de actividades de mantenimiento rutinarias, cíclicas, sistemáticas o repetitivas en general. Un programa de mantenimiento se define con el objeto de generar Órdenes de Trabajo (OT) en forma automática y anticipada. Se toman en cuenta trabajos programados de tipo preventivo, predictivo, lubricación, metrología, inspección u otros.
+
+### **Solicitudes de Servicio \[SS\]**
+
+Es el módulo mediante el cual todo empleado autorizado de la compañía puede solicitar una atención o servicio por parte del área de Mantenimiento, Una solicitud de servicio puede ser atendida como tal o puede dar origen a una orden de trabajo. El solicitante puede hacer seguimiento permanente del estado de su solicitud. Este módulo tiene una funcionalidad adicional, el registro de acciones técnicas sencillas de mantenimiento, corto tiempo de ejecución, bajo costo, y ejecutados por un solo responsable.
+
+### **Paros/ Averías \[PA\]**
+
+A través de esta función, se hace el registro minucioso de toda actividad de paro de un equipo u objeto de mantenimiento, programado o no programado, que genere tiempos improductivos. Además de los tiempos de paro, se relacionan también la causa y efecto de la falla y las acciones técnicas respectivas. Un paro puede dar origen a una Orden de Trabajo.
+
+### **Órdenes de Trabajo \[OT\]**
+
+Es la función que centraliza la administración de las órdenes de trabajo del sistema. cubre, desde la generación automática o la creación manual de las órdenes de trabajo, el seguimiento y consulta integral durante la ejecución de ellas, hasta su cierre y envío posterior a historia de mantenimiento. Se estudia este módulo como el centro de gestión de mantenimiento.
+
+### **Historia de Mantenimiento \[HI\]**
+
+Es el conjunto de funciones que compendian, estudian y analizan la información histórica de mantenimiento. La historia de mantenimiento está conformada por el conjunto de las OT que se han ejecutado, liquidado, cerrado y trasladado hasta la historia de mantenimiento, y por las solicitudes de servicio o los paros que han sido cerrados y son enviados a historia. Esta historia suma y refleja la actividad de mantenimiento ejecutada en la empresa. es a partir del compendio histórico de mantenimiento que se genera el balance periódico de gestión, se generan los índices de seguimiento y de gestión, se realizan una gran variedad de estudios especiales, como análisis de fallas, análisis de pareto por varios criterios, análisis de costos (mano de obra, materiales/repuestos y otros conceptos), análisis de confiabilidad o disponibilidad, análisis sobre consumos de recursos o análisis sobre proveedores de servicio, entre muchos otros.
+
+### **Administración \[AD\]**
+
+Es el centro funcional donde se provee la Administración del Sistema. Cubre aspectos de:
+
+- Configuración personalizada de la compañía
+- Definición de los perfiles de los usuarios en sus diferentes niveles de acceso
+- Listado de reportes
+- Parametrización del idioma
+
+Antes, de entrar en más detalles, se considera útil hacer un acercamiento general al sistema y a la secuencia de operaciones para poder hacer una planeación básica de su implementación.
+
+## Interfaz de Usuario
+
+### Ventana Principal **AM**
 
 ![Ventana Principal AM](../../assets/images/cap01/chp01_img01.png)
 
-Aquí se incluye información general sobre los principales elementos presentes en una ventana de **AM 4G**–\*\*. Los elementos que conforman esta vista principal son:
+Aquí se incluye información general sobre los principales elementos presentes en una ventana de **AM**. Los elementos que conforman esta vista principal son:
 
 #### Menú Principal
 
@@ -58,37 +97,37 @@ La porción de Menú Principal normalmente está conformada por la barra de opci
 
 En caso de estar trabajando en Infraestructura, se muestra una ventana que se ubica debajo de ella y que detalla los nombres de cada una de las tablas de la Infraestructura. A través de ellas se posibilita el acceso directo al módulo.
 
-![ventana infraestructura](../../assets/images/cap01/chp01_img03.png)
+![Ventana infraestructura](../../assets/images/cap01/chp01_img03.png)
 
 En caso de estar trabajando en Admón., esta barra se complementa listando todas las compañías existentes.
 
-![ventana administracion  **AM 4G**](../../assets/images/cap01/chp01_img04.png)
+![Ventana administracion AM](../../assets/images/cap01/chp01_img04.png)
 
 #### Submenú
 
-El submenú tiene un conjunto de transacciones que se usan para ejecutar funciones, operaciones o procedimientos especiales que afectan uno, varios o todos los registros del módulo activo. Al **sobreponer** el mouse por un módulo o una opción del menú principal la pantalla muestra debajo de ella un recuadro conformado en general así, como se muestra a continuación:
+El submenú tiene un conjunto de transacciones que se usan para ejecutar funciones, operaciones o procedimientos especiales que afectan uno, varios o todos los registros del módulo activo. Al **sobreponer** el mouse por un módulo o una opción del menú principal la pantalla muestra debajo de ella un recuadro como se muestra a continuación:
 
-![ventana  **AM 4G**](../../assets/images/cap01/chp01_img05.png)
+![Submenú **AM**](../../assets/images/cap01/chp01_img05.png)
 
 Se destacan las siguientes características:
 
-![ventana  **AM 4G**](../../assets/images/cap01/chp01_img06.png)
+![Características **AM**](../../assets/images/cap01/chp01_img06.png)
 
-Identificación del módulo actual en pantalla, (En letra amarilla sobre fondo oscuro)corresponde a la opción del menú seleccionada.
+Identificación del módulo actual en pantalla (En letra amarilla sobre fondo oscuro). Corresponde a la opción del menú seleccionada.
 
-Botón de subgrupo, (Sobre fondo verde) abre la ventana subgrupo en el espacio de la ventana detalle. En la ventana subgrupo se definen los filtros e ingresan los valores respectivos sobre los cuales se hace una preselección de datos, cuyo resultado aparece en la ventana visor.
+Botón de subgrupo (Sobre fondo verde). Abre la ventana subgrupo en el espacio de la ventana detalle. En la ventana subgrupo se definen los filtros e ingresan los valores respectivos sobre los cuales se hace una preselección de datos cuyo resultado aparece en la ventana visor.
 
 Tres secciones de opciones, a manera de grupos de funciones o procedimientos:
 
-**Vistas Parciales:** Para visualizar porciones específicas de datos del módulo activo, módulo que depende de la opción del menú principal seleccionada.
+- **Vistas Parciales:** para visualizar porciones específicas de datos del módulo activo, módulo que depende de la opción del menú principal seleccionada.
 
-**Transacciones:** Para ejecutar funciones, operaciones o procedimientos especiales que afectan uno, varios o todos los registros del módulo activo.
+- **Transacciones:** para ejecutar funciones, operaciones o procedimientos especiales que afectan uno, varios o todos los registros del módulo activo.
 
-**Servicios:** Para la generación de reportes y el manejo de la sesión del usuario actual.
+- **Servicios:** para la generación de reportes y el manejo de la sesión del usuario actual.
 
 #### Ventana Visor
 
-![ventana visor](../../assets/images/cap01/chp01_img07.png)
+![Ventana visor](../../assets/images/cap01/chp01_img07.png)
 
 Es la ventana en la que se lista el total de los registros o aquellos preseleccionados, del módulo activo. Para facilitar su recorrido es posible realizar desplazamientos verticales del cursor tanto hacia el comienzo como hacia el final de la tabla, y desplazamientos horizontales de izquierda a derecha y viceversa.
 
@@ -96,7 +135,7 @@ Los títulos en azul que encabezan las columnas son también botones que permite
 
 Para elegir un registro de la tabla se da un clic del mouse sobre él o se desplaza el cursor con las teclas de desplazamiento.
 
-En la parte superior izquierda de esta ventana se observa la identificación actual del módulo en pantalla que corresponde a la opción del menú seleccionada. También, al lado derecho de esta sección, se encuentra el botón [Nuevo](){: .btn} con el fin de acceder rápidamente a la ventana Detalle con el fin de ingresar un nuevo registro.
+En la parte superior izquierda de esta ventana se observa la identificación actual del módulo en pantalla que corresponde a la opción del menú seleccionada. También, al lado derecho de esta sección, se encuentra el botón [Nuevo](javascript:void(0);){: .btn} con el fin de acceder rápidamente a la ventana Detalle con el fin de ingresar un nuevo registro.
 
 En la parte superior derecha se encuentra un conjunto de transacciones de la ventana Visor del módulo seleccionado, para ejecutar funciones, operaciones o procedimientos especiales que afectan uno, varios o todos los registros del módulo activo. Este conjunto de transacciones varía dependiendo del módulo seleccionado.
 
@@ -104,31 +143,31 @@ En la parte inferior izquierda de esta ventana se encuentra el número de regist
 
 Es por lo anterior que esta fracción se verá afectada al realizarse un “Subgrupo” o filtro en el módulo seleccionado, por lo cual se muestra la cantidad de registros del subgrupo actual en la ventana Visor (N) y el total de registros existentes en el módulo activo (M). Si no hay preselección, los dos números en sus totales son los mismos.
 
-**Nota:** Es posible configurar el número de registros que conforman una página desde el módulo de Administración, en la opción del submenú \*\* “Valores por defecto”\*\*.
+> **Nota:** es posible configurar el número de registros que conforman una página desde el módulo de Administración, en la opción del submenú “Valores por defecto”.
 
 En la parte inferior derecha de esta ventana se observan también varios enlaces para navegar avanzando y retrocediendo páginas completas de registros. Como guía existe un indicador sobre la página relativa actual y la posibilidad de ingresar a la primer o última página, sin importar la página en la que se encuentre.
 
 #### Ventana detalle
 
-![ventana detalle am](../../assets/images/cap01/chp01_img08.png)
+![Ventana detalle AM](../../assets/images/cap01/chp01_img08.png)
 
-Es la porción de la pantalla en que se muestran los datos detallados del registro seleccionado en la ventana Visor. También, se visualiza un conjunto de Vistas Parciales o Pestañas, que se usan para visualizar porciones específicas de datos del módulo activo, módulo que depende de la opción del menú principal seleccionada. Para visualizar la información completa del registro seleccionado y facilitar su recorrido es posible realizar desplazamientos verticales del cursor tanto hacia el comienzo como hacia el final de la tabla.
+Es la porción de la pantalla en la que se muestran los datos detallados del registro seleccionado en la ventana Visor. También se visualiza un conjunto de Vistas Parciales o Pestañas que se usan para visualizar porciones específicas de datos del módulo activo; módulo que depende de la opción del menú principal seleccionada. Para visualizar la información completa del registro seleccionado y facilitar su recorrido es posible realizar desplazamientos verticales del cursor tanto hacia el comienzo como hacia el final de la tabla.
 
-Además de la información detallada de un registro, contiene un grupo de botones, que son estándares para la mayoría de las ventanas Detalle. Son ellos el botón de [Nuevo](){: .btn},[Copiar](){: .btn},[Actualizar](){: .btn} y [nar](){: .btn}; que siempre están en la parte superior **izquierda** de la ventana.
+Además de la información detallada de un registro, contiene un grupo de botones que son estándares para la mayoría de las ventanas Detalle. Son ellos el botón de [Nuevo](javascript:void(0);){: .btn}, [Copiar](javascript:void(0);){: .btn}, [Actualizar](javascript:void(0);){: .btn} y [Eliminar](javascript:void(0);){: .btn}; que siempre están en la parte superior izquierda de la ventana.
 
-El botón [Nuevo](){: .btn} prepara la ventana Detalle para el ingreso de un nuevo registro,blanqueando cada uno de los campos que son objeto de llenado, al crearlo. Al activar el botón [Nuevo](){: .btn}, el sistema reemplaza la línea de 4 botones por una nueva de 2 botones:
+El botón [Nuevo](javascript:void(0);){: .btn} prepara la ventana Detalle para el ingreso de un nuevo registro,blanqueando cada uno de los campos que son objeto de llenado, al crearlo. Al activar el botón [Nuevo](javascript:void(0);){: .btn}, el sistema reemplaza la línea de 4 botones por una nueva de 2 botones:
 
-[Insertar](){: .btn} y [Cancelar](){: .btn}; El botón [Insertar](){: .btn} ingresa el nuevo registro a la base de datos actualizando la ventana Visor, mientras que el botón [Insertar](){: .btn} y [Cancelar](){: .btn}; El botón [Insertar](){: .btn} ingresa el nuevo registro a la base de datos actualizando la ventana Visor, mientras que el botón [Cancelar](){: .btn} aborta el proceso de creación del nuevo registro retornando a la ventana Detalle.
+[Insertar](javascript:void(0);){: .btn} y [Cancelar](javascript:void(0);){: .btn}; El botón [Insertar](javascript:void(0);){: .btn} ingresa el nuevo registro a la base de datos actualizando la ventana Visor, mientras que el botón [Insertar](javascript:void(0);){: .btn} y [Cancelar](javascript:void(0);){: .btn}; El botón [Insertar](javascript:void(0);){: .btn} ingresa el nuevo registro a la base de datos actualizando la ventana Visor, mientras que el botón [Cancelar](javascript:void(0);){: .btn} aborta el proceso de creación del nuevo registro retornando a la ventana Detalle.
 
-[Cancelar](){: .btn} aborta el proceso de creación del nuevo registro retornando a la ventana Detalle.
+[Cancelar](javascript:void(0);){: .btn} aborta el proceso de creación del nuevo registro retornando a la ventana Detalle.
 
-El botón [Copiar](){: .btn}toma una foto o copia instantánea del registro actual, señalado por el cursor en la ventana Visor, y la deja disponible en la ventana Detalle para que sobre ella se hagan las modificaciones necesarias para crear un nuevo registro. Tales modificaciones involucran en la mayoría de los casos aquellos campos clave del registro y otros propios que deben ser particularizados para el nuevo. Al activar el botón [Copiar](){: .btn}, el sistema reemplaza la línea de 4 botones por una nueva de 2 botones: [Insertar](){: .btn} y [Cancelar](){: .btn}.
+El botón [Copiar](javascript:void(0);){: .btn} toma una foto o copia instantánea del registro actual, señalado por el cursor en la ventana Visor, y la deja disponible en la ventana Detalle para que sobre ella se hagan las modificaciones necesarias para crear un nuevo registro. Tales modificaciones involucran en la mayoría de los casos aquellos campos clave del registro y otros propios que deben ser particularizados para el nuevo. Al activar el botón [Copiar](javascript:void(0);){: .btn}, el sistema reemplaza la línea de 4 botones por una nueva de 2 botones: [Insertar](javascript:void(0);){: .btn} y [Cancelar](javascript:void(0);){: .btn}.
 
-El botón [Insertar](){: .btn} ingresa el registro modificado a la base de datos actualizando la ventanaVisor, mientras que el botón [Cancelar](){: .btn} aborta el proceso de creación del nuevo registro, a partir de una copia, retornando a la ventana Detalle.
+El botón [Insertar](javascript:void(0);){: .btn} ingresa el registro modificado a la base de datos actualizando la ventanaVisor, mientras que el botón [Cancelar](javascript:void(0);){: .btn} aborta el proceso de creación del nuevo registro, a partir de una copia, retornando a la ventana Detalle.
 
-El botón [Actualizar](){: .btn} sirve para guardar o salvar en la base de datos la información que se ha modificado en la ventana Detalle, correspondiente al registro señalado por el cursor en la ventana Visor y registrar allí simultáneamente el mismo cambio.
+El botón [Actualizar](javascript:void(0);){: .btn} sirve para guardar o salvar en la base de datos la información que se ha modificado en la ventana Detalle, correspondiente al registro señalado por el cursor en la ventana Visor y registrar allí simultáneamente el mismo cambio.
 
-El botón [Eliminar](){: .btn} se utiliza para borrar un registro de la base de datos y registrar simultáneamente el cambio en la ventana Visor.
+El botón [Eliminar](javascript:void(0);){: .btn} se utiliza para borrar un registro de la base de datos y registrar simultáneamente el cambio en la ventana Visor.
 
 En la parte superior izquierda de esta ventana se observa la identificación actual de la ventana Detalle del módulo en pantalla que corresponde a la opción del menú seleccionada, adicional, el cuadro de chequeo (checkbox) que está ubicado al lado derecho de esta sección,permite habilitarlo para que al finalizar una transacción de inserción, actualización o eliminación, la ventana Detalle permanezca en esta vista.
 
@@ -144,7 +183,7 @@ Esta ventana se ubica en la parte superior derecha del menú principal, Contiene
 
 Segundo, indica el login del usuario conectado en la compañía y en la sección de \*\* “Usuarios Conectados”\*\* que es un contador de los usuarios conectados actualmente al sistema, que, al ser activado con un clic, los despliega e indica al usuario a través de qué aplicativos están conectados.
 
-Tercero, al dar a la opción de \*\* “Inicio”\*\* lleva al usuario a la Ventana Principal de **AM 4G**\-**, cuarto la opción de “Interfases” se usará para definir los criterios de las interfaces que se realizarán a futuro entre el software \*\*AM 4G**\-\*\* y otros sistemas propios de la empresa o institución.
+Tercero, al dar a la opción de \*\* “Inicio”\*\* lleva al usuario a la Ventana Principal de **AM**\-**, cuarto la opción de “Interfases” se usará para definir los criterios de las interfaces que se realizarán a futuro entre el software \*\*AM 4G**\-\*\* y otros sistemas propios de la empresa o institución.
 
 Por último, la quinta opción \*\* “Cerrar Sesión”\*\* se usa para manejar la sesión del usuario actual, con el fin de salir del aplicativo\*\*.
 
@@ -164,75 +203,75 @@ Esta ventana presenta las opciones de impresión de reportes escritos relacionad
 
 **Subtítulo:** Este campo permite registrar un poco menos de una línea de información, tipo documentación del Reporte, para que se imprima bajo el área de títulos estándar.
 
-Después de seleccionar el tipo de registro, se procede a seleccionar el Reporte que se desea imprimir, para esto se debe pulsar el botón [Imprimir](){: .btn}, de esta manera se abre una ventana visor para formatos PDF, que muestra el Reporte seleccionado. Desde esta ventana es posible guardar el reporte y exportarlo a Excel.
+Después de seleccionar el tipo de registro, se procede a seleccionar el Reporte que se desea imprimir, para esto se debe pulsar el botón [Imprimir](javascript:void(0);){: .btn}, de esta manera se abre una ventana visor para formatos PDF, que muestra el Reporte seleccionado. Desde esta ventana es posible guardar el reporte y exportarlo a Excel.
 
 ![ventana reporte impresa](../../assets/images/cap01/chp01_img11.png)
 
-Al dar clic al botón [Exportar](){: .btn} permite exportar el Reporte seleccionado sin necesidad de imprimirlo. Mientras que, al dar clic al botón [Cerrar](){: .btn} se cierra la ventana de la generación de reportes.
+Al dar clic al botón [Exportar](javascript:void(0);){: .btn} permite exportar el Reporte seleccionado sin necesidad de imprimirlo. Mientras que, al dar clic al botón [Cerrar](javascript:void(0);){: .btn} se cierra la ventana de la generación de reportes.
 
 ### Otros elementos de la Interfaz de Usuario
 
 #### Los Botones
 
-[Aceptar](){: .btn} con este botón se salva o graba el registro de datos que se acaba de Ingresar.
+[Aceptar](javascript:void(0);){: .btn} con este botón se salva o graba el registro de datos que se acaba de Ingresar.
 
-[Cancelar](){: .btn} **con este botón se cancela cualquier transacción que se esté realizando**.
+[Cancelar](javascript:void(0);){: .btn} **con este botón se cancela cualquier transacción que se esté realizando**.
 
-[Actualizar](){: .btn} con este botón se salva el registro de datos que se acaba de modificar.
+[Actualizar](javascript:void(0);){: .btn} con este botón se salva el registro de datos que se acaba de modificar.
 
-[Copiar](){: .btn} con este botón se copian los datos del registro activo en pantalla, dejando el nuevo registro listo para ser modificado e insertado.
+[Copiar](javascript:void(0);){: .btn} con este botón se copian los datos del registro activo en pantalla, dejando el nuevo registro listo para ser modificado e insertado.
 
-[Nuevo](){: .btn} este botón inicializa todos los campos para proceder a ingresar un nuevo registro en cualquier módulo de la Base de Datos.
+[Nuevo](javascript:void(0);){: .btn} este botón inicializa todos los campos para proceder a ingresar un nuevo registro en cualquier módulo de la Base de Datos.
 
-[Insertar](){: .btn} almacena los datos del registro que se acaba de copiar o de crear.
+[Insertar](javascript:void(0);){: .btn} almacena los datos del registro que se acaba de copiar o de crear.
 
-[Eliminar](){: .btn}borra el registro que se encuentra activo en pantalla, siempre y cuando no tenga vínculos y/o asociaciones Normalmente aparece un mensaje para confirmar la eliminación.
+[Eliminar](javascript:void(0);){: .btn}borra el registro que se encuentra activo en pantalla, siempre y cuando no tenga vínculos y/o asociaciones Normalmente aparece un mensaje para confirmar la eliminación.
 
-[Cancelar](){: .btn} Con este botón se cancela cualquier transacción que se esté realizando\*\*.
+[Cancelar](javascript:void(0);){: .btn} Con este botón se cancela cualquier transacción que se esté realizando\*\*.
 
-[Aprobar Presupuesto](){: .btn} Este botón se encuentra en el módulo de OT mientras no se haya aprobado el presupuesto de una OT que exige presupuesto. Permite aprobar el presupuesto que ha sido asignado a una OT. Una vez aprobado , es posible iniciar el registro manual del Gasto Real.
+[Aprobar Presupuesto](javascript:void(0);){: .btn} Este botón se encuentra en el módulo de OT mientras no se haya aprobado el presupuesto de una OT que exige presupuesto. Permite aprobar el presupuesto que ha sido asignado a una OT. Una vez aprobado , es posible iniciar el registro manual del Gasto Real.
 
-[Mano Obra Interna](){: .btn} Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ver el detalle de la Mano de Obra Interna presupuestada o usada, respectivamente.
+[Mano Obra Interna](javascript:void(0);){: .btn} Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ver el detalle de la Mano de Obra Interna presupuestada o usada, respectivamente.
 
-[Mano Obra Externa](){: .btn} Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ver el detalle de la Mano de Obra Externa presupuestada o usada, respectivamente.\*
+[Mano Obra Externa](javascript:void(0);){: .btn} Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ver el detalle de la Mano de Obra Externa presupuestada o usada, respectivamente.\*
 
-[Materiales y Repuestos](){: .btn} este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite **ver el detalle** de los Materiales y Repuestos.
+[Materiales y Repuestos](javascript:void(0);){: .btn} este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite **ver el detalle** de los Materiales y Repuestos.
 
-[Otros Conceptos](){: .btn}Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite **ver el detalle** de los Otros Conceptos de Costos.
+[Otros Conceptos](javascript:void(0);){: .btn}Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite **ver el detalle** de los Otros Conceptos de Costos.
 
-[Ir a Matriz](){: .btn} Eeste botón regresa a la vista de matriz de Presupuesto o gasto real en HI, OT y PM, después de **visualizar**, ingresar o modificar información detallada de algún concepto de costo.
+[Ir a Matriz](javascript:void(0);){: .btn} Eeste botón regresa a la vista de matriz de Presupuesto o gasto real en HI, OT y PM, después de **visualizar**, ingresar o modificar información detallada de algún concepto de costo.
 
-[Adicionar Mano Obra Interna](){: .btn} este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ingresar el detalle de la Mano de Obra Interna presupuestada o usada, respectivamente.
+[Adicionar Mano Obra Interna](javascript:void(0);){: .btn} este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ingresar el detalle de la Mano de Obra Interna presupuestada o usada, respectivamente.
 
-[Adicionar Mano Obra Externa](){: .btn}**este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ingresar el detalle de la Mano de Obra Externa presupuestada o usada, respectivamente.**
+[Adicionar Mano Obra Externa](javascript:void(0);){: .btn}**este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ingresar el detalle de la Mano de Obra Externa presupuestada o usada, respectivamente.**
 
-[Adicionar Material de repuesto](){: .btn} Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ingresar el detalle de los Materiales y Repuestos.
+[Adicionar Material de repuesto](javascript:void(0);){: .btn} Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ingresar el detalle de los Materiales y Repuestos.
 
-[Adicionar Otro Concepto](){: .btn} este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ingresar el detalle de los Otros Conceptos de Costos.
+[Adicionar Otro Concepto](javascript:void(0);){: .btn} este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ingresar el detalle de los Otros Conceptos de Costos.
 
-[Asociar](){: .btn} Botón utilizado para **registrar la relación entre Activos y sus Repuestos**.
+[Asociar](javascript:void(0);){: .btn} Botón utilizado para **registrar la relación entre Activos y sus Repuestos**.
 
-[Desasociar](){: .btn} En Almacén de Repuestos RP, permite desasociar uno o varios Activos a uno o varios de sus Repuestos asociados.
+[Desasociar](javascript:void(0);){: .btn} En Almacén de Repuestos RP, permite desasociar uno o varios Activos a uno o varios de sus Repuestos asociados.
 
-[Agregar](){: .btn} Este botón permite adicionar información al registro actual.
+[Agregar](javascript:void(0);){: .btn} Este botón permite adicionar información al registro actual.
 
-[Cancelar](){: .btn} Este botón permite Cancelar la acción que se está ejecutando. Normalmente aparece un mensaje para confirmar la cancelación.
+[Cancelar](javascript:void(0);){: .btn} Este botón permite Cancelar la acción que se está ejecutando. Normalmente aparece un mensaje para confirmar la cancelación.
 
-[Cerrar](){: .btn} Con este botón se cierra la ventana de generación de reportes y regresa a la ventana en proceso.
+[Cerrar](javascript:void(0);){: .btn} Con este botón se cierra la ventana de generación de reportes y regresa a la ventana en proceso.
 
-[Exportar](){: .btn} Este botón permite Exportar los datos qué se encuentran en el visor, a un formato de Excel.
+[Exportar](javascript:void(0);){: .btn} Este botón permite Exportar los datos qué se encuentran en el visor, a un formato de Excel.
 
-[Imprimir](){: .btn} Este botón genera el reporte seleccionado en una nueva ventana. Refiérase a Servicios/ Reportes en la ventana submenú de cada módulo del sistema.
+[Imprimir](javascript:void(0);){: .btn} Este botón genera el reporte seleccionado en una nueva ventana. Refiérase a Servicios/ Reportes en la ventana submenú de cada módulo del sistema.
 
-[Iniciar Sesión](){: .btn} este botón valida el usuario y la contraseña, necesarios para ingresar al **AM 4G**\-\*\*.
+[Iniciar Sesión](javascript:void(0);){: .btn} este botón valida el usuario y la contraseña, necesarios para ingresar al **AM**\-\*\*.
 
-[Enviar a Historia](){: .btn} Este botón ejecuta el envío de registros de Solicitudes de Servicio, órdenes de Trabajo Y Paros/Averías cerradas **y/o canceladas**, hasta el módulo de Historia de Mantenimiento.
+[Enviar a Historia](javascript:void(0);){: .btn} Este botón ejecuta el envío de registros de Solicitudes de Servicio, órdenes de Trabajo Y Paros/Averías cerradas **y/o canceladas**, hasta el módulo de Historia de Mantenimiento.
 
-[Proyectar](){: .btn} Inicia el proceso de proyección en PM, con el objetivo de planear y/o presupuestar un periodo de largo plazo, a partir de los PM activos.
+[Proyectar](javascript:void(0);){: .btn} Inicia el proceso de proyección en PM, con el objetivo de planear y/o presupuestar un periodo de largo plazo, a partir de los PM activos.
 
-[Generar](){: .btn} Este botón convierte en OT reales, aquellas Os que fueron resultado del proceso de Analizar que se acaba de ejecutar, en el módulo de OT.
+[Generar](javascript:void(0);){: .btn} Este botón convierte en OT reales, aquellas Os que fueron resultado del proceso de Analizar que se acaba de ejecutar, en el módulo de OT.
 
-[Modificar FIP](){: .btn} En Programas de Mantenimiento, actualiza el valor de la Fecha de Inicio de Período.
+[Modificar FIP](javascript:void(0);){: .btn} En Programas de Mantenimiento, actualiza el valor de la Fecha de Inicio de Período.
 
 <span class="iconify btn" data-icon="mdi-filter-variant">Buscar</span> Abre una nueva ventana compuesta (Ventana Visor y Ventana Subgrupo) para realizar una selección que facilite la búsqueda de un registro.
 
@@ -244,19 +283,19 @@ Al dar clic al botón [Exportar](){: .btn} permite exportar el Reporte seleccion
 
 <span class="iconify btn" data-icon="check-circle">todos adicionan </span> Con este botón se realiza el subgrupo o filtro de acuerdo a los criterios de selección.
 
-[Todos Reemplazan](){: .btn} activa la función de sumar los nuevos valores a los anteriores en el proceso de actualizar contadores de AC.
+[Todos Reemplazan](javascript:void(0);){: .btn} activa la función de sumar los nuevos valores a los anteriores en el proceso de actualizar contadores de AC.
 
 <span class="iconify btn" data-icon="cloud-upload">Cargar</span> con este botón se realiza la búsqueda de un anexo, documento, imagen, video, entre otros; que será cargado en la pestaña de Multimedia disponible en varios módulos.
 
-[Subir Archivo](){: .btn} con este botón se realiza la carga de un anexo, documento, imagen, video, entre otros; en las opciones de Multimedia disponible en varios módulos.
+[Subir Archivo](javascript:void(0);){: .btn} con este botón se realiza la carga de un anexo, documento, imagen, video, entre otros; en las opciones de Multimedia disponible en varios módulos.
 
-[Ver Diagrama](){: .btn} Con este botón se visualiza en un Diagrama de Gantt, la proyección de los PM activos en el módulo de PM o el listado de las OT analizadas en el módulo de óT.
+[Ver Diagrama](javascript:void(0);){: .btn} Con este botón se visualiza en un Diagrama de Gantt, la proyección de los PM activos en el módulo de PM o el listado de las OT analizadas en el módulo de óT.
 
-[Ver Reportes](){: .btn} Con este botón se visualiza el listado de los Reportes disponibles en PM y OT, como resultado de los procesos de proyección o analizar, respectivamente.
+[Ver Reportes](javascript:void(0);){: .btn} Con este botón se visualiza el listado de los Reportes disponibles en PM y OT, como resultado de los procesos de proyección o analizar, respectivamente.
 
-[Ver RP Asociados](){: .btn} con este botón se visualiza la asociación de uno o varios Repuestos a un Activo, en el módulo de Almacén de Repuestos.
+[Ver RP Asociados](javascript:void(0);){: .btn} con este botón se visualiza la asociación de uno o varios Repuestos a un Activo, en el módulo de Almacén de Repuestos.
 
-[Ver AC Asociados](){: .btn} Con este botón se visualiza la asociación de uno o varios Activos a un Repuesto, en el módulo de Almacén de Repuestos.
+[Ver AC Asociados](javascript:void(0);){: .btn} Con este botón se visualiza la asociación de uno o varios Activos a un Repuesto, en el módulo de Almacén de Repuestos.
 
 <span class="iconify btn" data-icon="arrow-left-right">Navegador</span> entre páginas con este botón se puede navegar avanzando y retrocediendo páginas completas de registros.
 
@@ -270,13 +309,13 @@ Al dar clic al botón [Exportar](){: .btn} permite exportar el Reporte seleccion
 
 <span class="iconify btn" data-icon="message-alert">Indicadores</span> con este botón se muestra el significado de los colores mostrados en la columna de Indicadores de los módulos de Infraestructura, Activos, Almacén de Repuestos, PM, SS, PA, OT e HI.
 
-## Iniciar la ejecución de **AM 4G**
+## Iniciar la ejecución de **AM**
 
-La ejecución del – **AM 4G** se inicia activando **el link correspondiente a través de un navegador como Chrome o Mozilla**.
+La ejecución del – **AM** se inicia activando **el link correspondiente a través de un navegador como Chrome o Mozilla**.
 
-Si se trata de la versión **AM 4G**\-\*\* PRO, el sistema solicita el nombre de usuario, la selección de la Compañía con la cual desea interactuar y su clave de acceso.
+Si se trata de la versión **AM**\-\*\* PRO, el sistema solicita el nombre de usuario, la selección de la Compañía con la cual desea interactuar y su clave de acceso.
 
-Cuando se trata de la versión **AM 4G**\-\*\* ST el sistema solicita el nombre de usuario y su clave de acceso.
+Cuando se trata de la versión **AM**\-\*\* ST el sistema solicita el nombre de usuario y su clave de acceso.
 
 ![ventana acceso directo](../../assets/images/cap01/chp01_img61.png)Cuando se ha hecho el acceso exitoso al sistema se muestra por defecto una ventana con un tablero de entrada que corresponde a un DashBoard Home que permite visualizar conjuntos de indicadores e información que muestran la forma actual de las cosas en distintos módulos del sistema.
 
@@ -284,11 +323,11 @@ Cuando se trata de la versión **AM 4G**\-\*\* ST el sistema solicita el nombre 
 
 También es posible definir que al ingresar al sistema se muestre la tabla de Terceros de la Infraestructura, en lugar del Dashboard Home, esto se define desde el módulo de Administración. Posteriormente, en el capítulo de Administración, se trata más a fondo esta opción del sistema.
 
-## Concurrencia en **AM 4G**\-\*\*
+## Concurrencia en **AM**\-\*\*
 
-Es importante tener en cuenta que en **AM 4G**\-\*\*, un mismo usuario no puede iniciar sesión simultáneamente en dos máquinas diferentes.
+Es importante tener en cuenta que en **AM**\-\*\*, un mismo usuario no puede iniciar sesión simultáneamente en dos máquinas diferentes.
 
-la cantidad de usuarios que pueden trabajar al mismo tiempo en el **AM 4G**\-\*\* depende de la cantidad de licencias adquiridas por la compañía, en un esquema de clientes concurrentes. La cantidad de usuarios creados en el sistema no tiene que ser la misma cantidad de las licencias adquiridas, o sea que es posible definir un número de usuarios mayor al número de licencias disponibles.
+la cantidad de usuarios que pueden trabajar al mismo tiempo en el **AM**\-\*\* depende de la cantidad de licencias adquiridas por la compañía, en un esquema de clientes concurrentes. La cantidad de usuarios creados en el sistema no tiene que ser la misma cantidad de las licencias adquiridas, o sea que es posible definir un número de usuarios mayor al número de licencias disponibles.
 
 ### Un enfoque de implementación
 
@@ -304,7 +343,7 @@ Luego se definen los Repuestos, de acuerdo a un esquema de codificación tambié
 
 Habiendo ingresado Activos/Equipos y Repuestos, **\- \*\*AM 4G**\- permite el ingreso de los Programas de Mantenimiento. A partir de este punto, el programa está habilitado también para la generación de las Ordenes de Trabajo, de las Solicitudes de Servicio y de los Paros/Averías. Este es el paso siguiente.
 
-Es importante saber que **AM 4G**\-\*\* Administrador de mantenimiento NO exige la definición completa y exhaustiva de todos los Activos/Equipos de la empresa para empezar a operar. En muchas ocasiones es conveniente definir un grupo de Activos/Equipos, sus Programas y empezar a operar con ellos, actividades tanto programadas automáticas como manuales. Esto permite obtener resultados del programa en muy corto tiempo, justificando tempranamente la inversión.
+Es importante saber que **AM**\-\*\* Administrador de mantenimiento NO exige la definición completa y exhaustiva de todos los Activos/Equipos de la empresa para empezar a operar. En muchas ocasiones es conveniente definir un grupo de Activos/Equipos, sus Programas y empezar a operar con ellos, actividades tanto programadas automáticas como manuales. Esto permite obtener resultados del programa en muy corto tiempo, justificando tempranamente la inversión.
 
 Las órdenes de Trabajo se pueden haber generado automáticamente (desde Programas de Mantenimiento), se pueden haber generado semiautomáticamente desde una Solicitud de Servicio, un Paro/Avería, o se pueden haber registrado manualmente (Mantenimiento correctivo, por ejemplo).
 
@@ -322,13 +361,13 @@ Se hacen muy diversos estudios y análisis sobre la información acumulada en la
 
 ## Resumen: Como empezar a trabajar
 
-El uso del programa **AM 4G**\- Administrador de Mantenimiento se facilita en gran forma si se atienden los procedimientos básicos que se explican a continuación.
+El uso del programa **AM**\- Administrador de Mantenimiento se facilita en gran forma si se atienden los procedimientos básicos que se explican a continuación.
 
 Estos procedimientos permiten implementar el programa, organizando la estructura de datos en una forma lógica y simple, sin importar la complejidad propia del área de Mantenimiento o de las funciones administrativas, técnicas u operativas que realice.
 
 La guía general para la implementación exitosa del programa **\- \*\*AM 4G**\- Administrador de Mantenimiento incluye la realización de los siguientes pasos en ese justo orden:
 
-* Definición de Compañía(s) y perfiles de Usuarios (en la versión **AM 4G**\-\*\* ST solo es necesario la definición de los perfiles de Usuarios).
+* Definición de Compañía(s) y perfiles de Usuarios (en la versión **AM**\-\*\* ST solo es necesario la definición de los perfiles de Usuarios).
 * Definición de la Infraestructura.
 
 * Definición de Activos, Equipos u Objetos de Mantenimiento y su despiece.
@@ -363,7 +402,7 @@ A continuación, se describe la convención utilizada para la nomenclatura de lo
 
 ### Módulo o Categoría al que pertenece el Reporte:
 
-Corresponden a las siglas establecidas en **AM 4G**\-\*\* para denominar los módulos o las categorías a las que pertenece el Reporte.
+Corresponden a las siglas establecidas en **AM**\-\*\* para denominar los módulos o las categorías a las que pertenece el Reporte.
 
 #### Abreviación de Módulos:
 
@@ -443,9 +482,9 @@ Este indicador permite de forma ágil la naturaleza de cada reporte. A continuac
 
 ## RECOMENDACIONES GENERALES
 
-A continuación, se describen algunas Recomendaciones Generales acerca del manejo funcional del **AM 4G**\-\*\*.
+A continuación, se describen algunas Recomendaciones Generales acerca del manejo funcional del **AM**\-\*\*.
 
-• En el módulo de Administración, del Submenú Valores por Defectos (Programas) se establece el día que inicia la semana número 2 del año, se configura el criterio “Semanas del Año” en Programas de Mantenimiento. De esta manera, **AM 4G**\-\*\* conoce qué día inician las de semanas para el año en curso.
+• En el módulo de Administración, del Submenú Valores por Defectos (Programas) se establece el día que inicia la semana número 2 del año, se configura el criterio “Semanas del Año” en Programas de Mantenimiento. De esta manera, **AM**\-\*\* conoce qué día inician las de semanas para el año en curso.
 
 Para establecer este parámetro, debe tenerse a mano un calendario empresarial de semanas numerado, o en su defecto un calendario normal. Este proceso debe efectuarse al inicio de cada año. Dependiendo de la cultura de trabajo de cada empresa, las semanas pueden iniciar en diferentes días, por ejemplo, los lunes. Debe tenerse en cuenta este tipo de criterios a la hora de establecer dicho parámetro.
 
