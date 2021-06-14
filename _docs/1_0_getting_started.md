@@ -15,7 +15,7 @@ Se aprende a elegir e interpretar los comandos y a seleccionar las opciones de l
 
 En este cap&iacute;tulo también se da un vistazo a la organizaci&oacute;n y funciones de&nbsp;**AM**, al igual que un derrotero general sobre su uso e implementaci&oacute;n.
 
-#Un vistazo a **AM**
+\#Un vistazo a **AM**
 
 Esta secci&oacute;n ayuda a entender el programa **AM**&nbsp;Administrador de Mantenimiento, y a implementarlo para lograr la satisfacci&oacute;n de las necesidades de administraci&oacute;n del mantenimiento de los activos en su empresa.
 
@@ -41,9 +41,9 @@ Al analizar la ventana principal se aprecia como el sistema est&aacute; conforma
 
 **Administraci&oacute;n \[AD\]:** Es el centro funcional donde se provee la Administraci&oacute;n del Sistema. Cubre aspectos de: configuraci&oacute;n personalizada de la compa&ntilde;&iacute;a, definici&oacute;n de los perfiles de los usuarios en sus diferentes niveles de acceso, listado de reportes y parametrizaci&oacute;n del idioma.Antes, de entrar en m&aacute;s detalles, se considera &uacute;til hacer un acercamiento general al sistema y a la secuencia de operaciones, para poder hacer una planeaci&oacute;n b&aacute;sica de su implementaci&oacute;n.
 
-# Presentaci&oacute;n Gr&aacute;fica del \*\* **AM 4G**\- Interfaz de Usuario
+# Interfaz de Usuario
 
-## Ventana Principal **AM 4G**\-\*\*
+## Ventana Principal **AM**
 
 ![Ventana Principal AM](../../assets/images/cap01/chp01_img01.png)
 
@@ -185,7 +185,7 @@ Al dar clic al bot&oacute;n [Exportar](){: .btn} permite exportar el Reporte sel
 
 [Insertar](){: .btn} almacena los datos del registro que se acaba de copiar o de crear.
 
-[Eliminar](){: .btn}borra el registro que se encuentra activo en pantalla, siempre y cuando no tenga v&iacute;nculos y/o asociaciones Normalmente aparece un mensaje para confirmar la eliminaci&oacute;n.
+[Eliminar](){: .btn}&nbsp;borra el registro que se encuentra activo en pantalla, siempre y cuando no tenga v&iacute;nculos y/o asociaciones Normalmente aparece un mensaje para confirmar la eliminaci&oacute;n.
 
 [Cancelar](){: .btn} Con este bot&oacute;n se cancela cualquier transacci&oacute;n que se esté realizando\*\*.
 
@@ -197,13 +197,13 @@ Al dar clic al bot&oacute;n [Exportar](){: .btn} permite exportar el Reporte sel
 
 [Materiales y Repuestos](){: .btn} este bot&oacute;n se encuentra en la opci&oacute;n Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite **ver el detalle** de los Materiales y Repuestos.
 
-[Otros Conceptos](){: .btn}Este bot&oacute;n se encuentra en la opci&oacute;n Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite **ver el detalle** de los Otros Conceptos de Costos.
+[Otros Conceptos](){: .btn}&nbsp;Este bot&oacute;n se encuentra en la opci&oacute;n Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite **ver el detalle** de los Otros Conceptos de Costos.
 
-[Ir a Matriz](){: .btn} Eeste bot&oacute;n regresa a la vista de matriz de Presupuesto o gasto real en HI, OT y PM, después de **visualizar**, ingresar o modificar informaci&oacute;n detallada de alg&uacute;n concepto de costo.
+[Ir a Matriz](){: .btn} Este bot&oacute;n regresa a la vista de matriz de Presupuesto o gasto real en HI, OT y PM, después de **visualizar**, ingresar o modificar informaci&oacute;n detallada de alg&uacute;n concepto de costo.
 
 [Adicionar Mano Obra Interna](){: .btn} este bot&oacute;n se encuentra en la opci&oacute;n Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ingresar el detalle de la Mano de Obra Interna presupuestada o usada, respectivamente.
 
-[Adicionar Mano Obra Externa](){: .btn}**este bot&oacute;n se encuentra en la opci&oacute;n Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ingresar el detalle de la Mano de Obra Externa presupuestada o usada, respectivamente.**
+[Adicionar Mano Obra Externa](){: .btn}&nbsp;**este bot&oacute;n se encuentra en la opci&oacute;n Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ingresar el detalle de la Mano de Obra Externa presupuestada o usada, respectivamente.**
 
 [Adicionar Material de repuesto](){: .btn} Este bot&oacute;n se encuentra en la opci&oacute;n Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ingresar el detalle de los Materiales y Repuestos.
 
