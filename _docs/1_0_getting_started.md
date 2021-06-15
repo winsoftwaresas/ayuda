@@ -27,14 +27,13 @@ Al analizar la ventana principal se aprecia cómo el sistema está conformado po
 Función que administra el grupo de datos básicos, parametrizables, de mantenimiento de la empresa.
 
 | | | | | |
-|----------------------------|----------------------|------------------|--------------------------|------------------------|
+|-|-|-|-|-|
 | Centros de Costo           | Centros Responsables | Oficios          | Terceros                 | Responsables           |
 | Ubicaciones Físicas        | Contratos            | Tipos de Trabajo | Tipos de Mantenimiento   | Tipos de Actividad     |
 | Almacenes                  | Unidades de Medida   | Monedas          | Contadores               | Características        |
 | Características Biomédicas | Riesgos              | Magnitudes       | Otros Conceptos de Costo | Causas de OT Pendiente |
 | Causas de Cierre de OT     | Acciones Técnicas    | Causas de Falla  | Efectos de Falla         | Conceptos de Kárdex    |
 | Operaciones                | Referencias          | Tipos de Régimen | Estados                  |                        |
-| | | | | |
 
 Un grupo de estas tablas, se encuentra preconfigurado, y puede ajustarse según las necesidades y requerimientos de la empresa. Las restantes describen en detalle la cultura técnica organizacional de mantenimiento.
 
@@ -135,7 +134,7 @@ Los títulos en azul que encabezan las columnas son también botones que permite
 
 Para elegir un registro de la tabla se da un clic del mouse sobre él o se desplaza el cursor con las teclas de desplazamiento.
 
-En la parte superior izquierda de esta ventana se observa la identificación actual del módulo en pantalla que corresponde a la opción del menú seleccionada. También, al lado derecho de esta sección, se encuentra el botón [Nuevo](javascript:void(0);){: .btn} con el fin de acceder rápidamente a la ventana Detalle con el fin de ingresar un nuevo registro.
+En la parte superior izquierda de esta ventana se observa la identificación actual del módulo en pantalla que corresponde a la opción del menú seleccionada. También, al lado derecho de esta sección, se encuentra el botón [Nuevo](#0){: .btn} con el fin de acceder rápidamente a la ventana Detalle con el fin de ingresar un nuevo registro.
 
 En la parte superior derecha se encuentra un conjunto de transacciones de la ventana Visor del módulo seleccionado, para ejecutar funciones, operaciones o procedimientos especiales que afectan uno, varios o todos los registros del módulo activo. Este conjunto de transacciones varía dependiendo del módulo seleccionado.
 
@@ -153,21 +152,25 @@ En la parte inferior derecha de esta ventana se observan también varios enlaces
 
 Es la porción de la pantalla en la que se muestran los datos detallados del registro seleccionado en la ventana Visor. También se visualiza un conjunto de Vistas Parciales o Pestañas que se usan para visualizar porciones específicas de datos del módulo activo; módulo que depende de la opción del menú principal seleccionada. Para visualizar la información completa del registro seleccionado y facilitar su recorrido es posible realizar desplazamientos verticales del cursor tanto hacia el comienzo como hacia el final de la tabla.
 
-Además de la información detallada de un registro, contiene un grupo de botones que son estándares para la mayoría de las ventanas Detalle. Son ellos el botón de [Nuevo](javascript:void(0);){: .btn}, [Copiar](javascript:void(0);){: .btn}, [Actualizar](javascript:void(0);){: .btn} y [Eliminar](javascript:void(0);){: .btn}; que siempre están en la parte superior izquierda de la ventana.
+Además de la información detallada de un registro, contiene un grupo de botones estándar para la mayoría de las ventanas Detalle que siempre están en la parte superior izquierda de la ventana.
 
-El botón [Nuevo](javascript:void(0);){: .btn} prepara la ventana Detalle para el ingreso de un nuevo registro,blanqueando cada uno de los campos que son objeto de llenado, al crearlo. Al activar el botón [Nuevo](javascript:void(0);){: .btn}, el sistema reemplaza la línea de 4 botones por una nueva de 2 botones:
+| [Nuevo](#0){: .btn} | [Copiar](#0){: .btn} | [Actualizar](#0){: .btn} | [Eliminar](#0){: .btn} |
 
-[Insertar](javascript:void(0);){: .btn} y [Cancelar](javascript:void(0);){: .btn}; El botón [Insertar](javascript:void(0);){: .btn} ingresa el nuevo registro a la base de datos actualizando la ventana Visor, mientras que el botón [Insertar](javascript:void(0);){: .btn} y [Cancelar](javascript:void(0);){: .btn}; El botón [Insertar](javascript:void(0);){: .btn} ingresa el nuevo registro a la base de datos actualizando la ventana Visor, mientras que el botón [Cancelar](javascript:void(0);){: .btn} aborta el proceso de creación del nuevo registro retornando a la ventana Detalle.
+[Nuevo](#0){: .btn}
 
-[Cancelar](javascript:void(0);){: .btn} aborta el proceso de creación del nuevo registro retornando a la ventana Detalle.
+Prepara la ventana Detalle para el ingreso de un nuevo registro, blanqueando cada uno de los campos que son objeto de llenado. Al activarlo el sistema reemplaza la línea de 4 botones por una nueva de 2 botones:
 
-El botón [Copiar](javascript:void(0);){: .btn} toma una foto o copia instantánea del registro actual, señalado por el cursor en la ventana Visor, y la deja disponible en la ventana Detalle para que sobre ella se hagan las modificaciones necesarias para crear un nuevo registro. Tales modificaciones involucran en la mayoría de los casos aquellos campos clave del registro y otros propios que deben ser particularizados para el nuevo. Al activar el botón [Copiar](javascript:void(0);){: .btn}, el sistema reemplaza la línea de 4 botones por una nueva de 2 botones: [Insertar](javascript:void(0);){: .btn} y [Cancelar](javascript:void(0);){: .btn}.
+[Insertar](#0){: .btn} y [Cancelar](#0){: .btn}; El botón [Insertar](#0){: .btn} ingresa el nuevo registro a la base de datos actualizando la ventana Visor, mientras que el botón [Insertar](#0){: .btn} y [Cancelar](#0){: .btn}; El botón [Insertar](#0){: .btn} ingresa el nuevo registro a la base de datos actualizando la ventana Visor, mientras que el botón [Cancelar](#0){: .btn} aborta el proceso de creación del nuevo registro retornando a la ventana Detalle.
 
-El botón [Insertar](javascript:void(0);){: .btn} ingresa el registro modificado a la base de datos actualizando la ventanaVisor, mientras que el botón [Cancelar](javascript:void(0);){: .btn} aborta el proceso de creación del nuevo registro, a partir de una copia, retornando a la ventana Detalle.
+[Cancelar](#0){: .btn} aborta el proceso de creación del nuevo registro retornando a la ventana Detalle.
 
-El botón [Actualizar](javascript:void(0);){: .btn} sirve para guardar o salvar en la base de datos la información que se ha modificado en la ventana Detalle, correspondiente al registro señalado por el cursor en la ventana Visor y registrar allí simultáneamente el mismo cambio.
+El botón [Copiar](#0){: .btn} toma una foto o copia instantánea del registro actual, señalado por el cursor en la ventana Visor, y la deja disponible en la ventana Detalle para que sobre ella se hagan las modificaciones necesarias para crear un nuevo registro. Tales modificaciones involucran en la mayoría de los casos aquellos campos clave del registro y otros propios que deben ser particularizados para el nuevo. Al activar el botón [Copiar](#0){: .btn}, el sistema reemplaza la línea de 4 botones por una nueva de 2 botones: [Insertar](#0){: .btn} y [Cancelar](#0){: .btn}.
 
-El botón [Eliminar](javascript:void(0);){: .btn} se utiliza para borrar un registro de la base de datos y registrar simultáneamente el cambio en la ventana Visor.
+El botón [Insertar](#0){: .btn} ingresa el registro modificado a la base de datos actualizando la ventanaVisor, mientras que el botón [Cancelar](#0){: .btn} aborta el proceso de creación del nuevo registro, a partir de una copia, retornando a la ventana Detalle.
+
+El botón [Actualizar](#0){: .btn} sirve para guardar o salvar en la base de datos la información que se ha modificado en la ventana Detalle, correspondiente al registro señalado por el cursor en la ventana Visor y registrar allí simultáneamente el mismo cambio.
+
+El botón [Eliminar](#0){: .btn} se utiliza para borrar un registro de la base de datos y registrar simultáneamente el cambio en la ventana Visor.
 
 En la parte superior izquierda de esta ventana se observa la identificación actual de la ventana Detalle del módulo en pantalla que corresponde a la opción del menú seleccionada, adicional, el cuadro de chequeo (checkbox) que está ubicado al lado derecho de esta sección,permite habilitarlo para que al finalizar una transacción de inserción, actualización o eliminación, la ventana Detalle permanezca en esta vista.
 
@@ -203,75 +206,75 @@ Esta ventana presenta las opciones de impresión de reportes escritos relacionad
 
 **Subtítulo:** Este campo permite registrar un poco menos de una línea de información, tipo documentación del Reporte, para que se imprima bajo el área de títulos estándar.
 
-Después de seleccionar el tipo de registro, se procede a seleccionar el Reporte que se desea imprimir, para esto se debe pulsar el botón [Imprimir](javascript:void(0);){: .btn}, de esta manera se abre una ventana visor para formatos PDF, que muestra el Reporte seleccionado. Desde esta ventana es posible guardar el reporte y exportarlo a Excel.
+Después de seleccionar el tipo de registro, se procede a seleccionar el Reporte que se desea imprimir, para esto se debe pulsar el botón [Imprimir](#0){: .btn}, de esta manera se abre una ventana visor para formatos PDF, que muestra el Reporte seleccionado. Desde esta ventana es posible guardar el reporte y exportarlo a Excel.
 
 ![ventana reporte impresa](../../assets/images/cap01/chp01_img11.png)
 
-Al dar clic al botón [Exportar](javascript:void(0);){: .btn} permite exportar el Reporte seleccionado sin necesidad de imprimirlo. Mientras que, al dar clic al botón [Cerrar](javascript:void(0);){: .btn} se cierra la ventana de la generación de reportes.
+Al dar clic al botón [Exportar](#0){: .btn} permite exportar el Reporte seleccionado sin necesidad de imprimirlo. Mientras que, al dar clic al botón [Cerrar](#0){: .btn} se cierra la ventana de la generación de reportes.
 
 ### Otros elementos de la Interfaz de Usuario
 
 #### Los Botones
 
-[Aceptar](javascript:void(0);){: .btn} con este botón se salva o graba el registro de datos que se acaba de Ingresar.
+[Aceptar](#0){: .btn} con este botón se salva o graba el registro de datos que se acaba de Ingresar.
 
-[Cancelar](javascript:void(0);){: .btn} **con este botón se cancela cualquier transacción que se esté realizando**.
+[Cancelar](#0){: .btn} **con este botón se cancela cualquier transacción que se esté realizando**.
 
-[Actualizar](javascript:void(0);){: .btn} con este botón se salva el registro de datos que se acaba de modificar.
+[Actualizar](#0){: .btn} con este botón se salva el registro de datos que se acaba de modificar.
 
-[Copiar](javascript:void(0);){: .btn} con este botón se copian los datos del registro activo en pantalla, dejando el nuevo registro listo para ser modificado e insertado.
+[Copiar](#0){: .btn} con este botón se copian los datos del registro activo en pantalla, dejando el nuevo registro listo para ser modificado e insertado.
 
-[Nuevo](javascript:void(0);){: .btn} este botón inicializa todos los campos para proceder a ingresar un nuevo registro en cualquier módulo de la Base de Datos.
+[Nuevo](#0){: .btn} este botón inicializa todos los campos para proceder a ingresar un nuevo registro en cualquier módulo de la Base de Datos.
 
-[Insertar](javascript:void(0);){: .btn} almacena los datos del registro que se acaba de copiar o de crear.
+[Insertar](#0){: .btn} almacena los datos del registro que se acaba de copiar o de crear.
 
-[Eliminar](javascript:void(0);){: .btn}borra el registro que se encuentra activo en pantalla, siempre y cuando no tenga vínculos y/o asociaciones Normalmente aparece un mensaje para confirmar la eliminación.
+[Eliminar](#0){: .btn}borra el registro que se encuentra activo en pantalla, siempre y cuando no tenga vínculos y/o asociaciones Normalmente aparece un mensaje para confirmar la eliminación.
 
-[Cancelar](javascript:void(0);){: .btn} Con este botón se cancela cualquier transacción que se esté realizando\*\*.
+[Cancelar](#0){: .btn} Con este botón se cancela cualquier transacción que se esté realizando\*\*.
 
-[Aprobar Presupuesto](javascript:void(0);){: .btn} Este botón se encuentra en el módulo de OT mientras no se haya aprobado el presupuesto de una OT que exige presupuesto. Permite aprobar el presupuesto que ha sido asignado a una OT. Una vez aprobado , es posible iniciar el registro manual del Gasto Real.
+[Aprobar Presupuesto](#0){: .btn} Este botón se encuentra en el módulo de OT mientras no se haya aprobado el presupuesto de una OT que exige presupuesto. Permite aprobar el presupuesto que ha sido asignado a una OT. Una vez aprobado , es posible iniciar el registro manual del Gasto Real.
 
-[Mano Obra Interna](javascript:void(0);){: .btn} Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ver el detalle de la Mano de Obra Interna presupuestada o usada, respectivamente.
+[Mano Obra Interna](#0){: .btn} Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ver el detalle de la Mano de Obra Interna presupuestada o usada, respectivamente.
 
-[Mano Obra Externa](javascript:void(0);){: .btn} Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ver el detalle de la Mano de Obra Externa presupuestada o usada, respectivamente.\*
+[Mano Obra Externa](#0){: .btn} Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ver el detalle de la Mano de Obra Externa presupuestada o usada, respectivamente.\*
 
-[Materiales y Repuestos](javascript:void(0);){: .btn} este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite **ver el detalle** de los Materiales y Repuestos.
+[Materiales y Repuestos](#0){: .btn} este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite **ver el detalle** de los Materiales y Repuestos.
 
-[Otros Conceptos](javascript:void(0);){: .btn}Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite **ver el detalle** de los Otros Conceptos de Costos.
+[Otros Conceptos](#0){: .btn}Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite **ver el detalle** de los Otros Conceptos de Costos.
 
-[Ir a Matriz](javascript:void(0);){: .btn} Eeste botón regresa a la vista de matriz de Presupuesto o gasto real en HI, OT y PM, después de **visualizar**, ingresar o modificar información detallada de algún concepto de costo.
+[Ir a Matriz](#0){: .btn} Eeste botón regresa a la vista de matriz de Presupuesto o gasto real en HI, OT y PM, después de **visualizar**, ingresar o modificar información detallada de algún concepto de costo.
 
-[Adicionar Mano Obra Interna](javascript:void(0);){: .btn} este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ingresar el detalle de la Mano de Obra Interna presupuestada o usada, respectivamente.
+[Adicionar Mano Obra Interna](#0){: .btn} este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ingresar el detalle de la Mano de Obra Interna presupuestada o usada, respectivamente.
 
-[Adicionar Mano Obra Externa](javascript:void(0);){: .btn}**este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ingresar el detalle de la Mano de Obra Externa presupuestada o usada, respectivamente.**
+[Adicionar Mano Obra Externa](#0){: .btn}**este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ingresar el detalle de la Mano de Obra Externa presupuestada o usada, respectivamente.**
 
-[Adicionar Material de repuesto](javascript:void(0);){: .btn} Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ingresar el detalle de los Materiales y Repuestos.
+[Adicionar Material de repuesto](#0){: .btn} Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ingresar el detalle de los Materiales y Repuestos.
 
-[Adicionar Otro Concepto](javascript:void(0);){: .btn} este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ingresar el detalle de los Otros Conceptos de Costos.
+[Adicionar Otro Concepto](#0){: .btn} este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ingresar el detalle de los Otros Conceptos de Costos.
 
-[Asociar](javascript:void(0);){: .btn} Botón utilizado para **registrar la relación entre Activos y sus Repuestos**.
+[Asociar](#0){: .btn} Botón utilizado para **registrar la relación entre Activos y sus Repuestos**.
 
-[Desasociar](javascript:void(0);){: .btn} En Almacén de Repuestos RP, permite desasociar uno o varios Activos a uno o varios de sus Repuestos asociados.
+[Desasociar](#0){: .btn} En Almacén de Repuestos RP, permite desasociar uno o varios Activos a uno o varios de sus Repuestos asociados.
 
-[Agregar](javascript:void(0);){: .btn} Este botón permite adicionar información al registro actual.
+[Agregar](#0){: .btn} Este botón permite adicionar información al registro actual.
 
-[Cancelar](javascript:void(0);){: .btn} Este botón permite Cancelar la acción que se está ejecutando. Normalmente aparece un mensaje para confirmar la cancelación.
+[Cancelar](#0){: .btn} Este botón permite Cancelar la acción que se está ejecutando. Normalmente aparece un mensaje para confirmar la cancelación.
 
-[Cerrar](javascript:void(0);){: .btn} Con este botón se cierra la ventana de generación de reportes y regresa a la ventana en proceso.
+[Cerrar](#0){: .btn} Con este botón se cierra la ventana de generación de reportes y regresa a la ventana en proceso.
 
-[Exportar](javascript:void(0);){: .btn} Este botón permite Exportar los datos qué se encuentran en el visor, a un formato de Excel.
+[Exportar](#0){: .btn} Este botón permite Exportar los datos qué se encuentran en el visor, a un formato de Excel.
 
-[Imprimir](javascript:void(0);){: .btn} Este botón genera el reporte seleccionado en una nueva ventana. Refiérase a Servicios/ Reportes en la ventana submenú de cada módulo del sistema.
+[Imprimir](#0){: .btn} Este botón genera el reporte seleccionado en una nueva ventana. Refiérase a Servicios/ Reportes en la ventana submenú de cada módulo del sistema.
 
-[Iniciar Sesión](javascript:void(0);){: .btn} este botón valida el usuario y la contraseña, necesarios para ingresar al **AM**\-\*\*.
+[Iniciar Sesión](#0){: .btn} este botón valida el usuario y la contraseña, necesarios para ingresar al **AM**\-\*\*.
 
-[Enviar a Historia](javascript:void(0);){: .btn} Este botón ejecuta el envío de registros de Solicitudes de Servicio, órdenes de Trabajo Y Paros/Averías cerradas **y/o canceladas**, hasta el módulo de Historia de Mantenimiento.
+[Enviar a Historia](#0){: .btn} Este botón ejecuta el envío de registros de Solicitudes de Servicio, órdenes de Trabajo Y Paros/Averías cerradas **y/o canceladas**, hasta el módulo de Historia de Mantenimiento.
 
-[Proyectar](javascript:void(0);){: .btn} Inicia el proceso de proyección en PM, con el objetivo de planear y/o presupuestar un periodo de largo plazo, a partir de los PM activos.
+[Proyectar](#0){: .btn} Inicia el proceso de proyección en PM, con el objetivo de planear y/o presupuestar un periodo de largo plazo, a partir de los PM activos.
 
-[Generar](javascript:void(0);){: .btn} Este botón convierte en OT reales, aquellas Os que fueron resultado del proceso de Analizar que se acaba de ejecutar, en el módulo de OT.
+[Generar](#0){: .btn} Este botón convierte en OT reales, aquellas Os que fueron resultado del proceso de Analizar que se acaba de ejecutar, en el módulo de OT.
 
-[Modificar FIP](javascript:void(0);){: .btn} En Programas de Mantenimiento, actualiza el valor de la Fecha de Inicio de Período.
+[Modificar FIP](#0){: .btn} En Programas de Mantenimiento, actualiza el valor de la Fecha de Inicio de Período.
 
 <span class="iconify btn" data-icon="mdi-filter-variant">Buscar</span> Abre una nueva ventana compuesta (Ventana Visor y Ventana Subgrupo) para realizar una selección que facilite la búsqueda de un registro.
 
@@ -283,19 +286,19 @@ Al dar clic al botón [Exportar](javascript:void(0);){: .btn} permite exportar e
 
 <span class="iconify btn" data-icon="check-circle">todos adicionan </span> Con este botón se realiza el subgrupo o filtro de acuerdo a los criterios de selección.
 
-[Todos Reemplazan](javascript:void(0);){: .btn} activa la función de sumar los nuevos valores a los anteriores en el proceso de actualizar contadores de AC.
+[Todos Reemplazan](#0){: .btn} activa la función de sumar los nuevos valores a los anteriores en el proceso de actualizar contadores de AC.
 
 <span class="iconify btn" data-icon="cloud-upload">Cargar</span> con este botón se realiza la búsqueda de un anexo, documento, imagen, video, entre otros; que será cargado en la pestaña de Multimedia disponible en varios módulos.
 
-[Subir Archivo](javascript:void(0);){: .btn} con este botón se realiza la carga de un anexo, documento, imagen, video, entre otros; en las opciones de Multimedia disponible en varios módulos.
+[Subir Archivo](#0){: .btn} con este botón se realiza la carga de un anexo, documento, imagen, video, entre otros; en las opciones de Multimedia disponible en varios módulos.
 
-[Ver Diagrama](javascript:void(0);){: .btn} Con este botón se visualiza en un Diagrama de Gantt, la proyección de los PM activos en el módulo de PM o el listado de las OT analizadas en el módulo de óT.
+[Ver Diagrama](#0){: .btn} Con este botón se visualiza en un Diagrama de Gantt, la proyección de los PM activos en el módulo de PM o el listado de las OT analizadas en el módulo de óT.
 
-[Ver Reportes](javascript:void(0);){: .btn} Con este botón se visualiza el listado de los Reportes disponibles en PM y OT, como resultado de los procesos de proyección o analizar, respectivamente.
+[Ver Reportes](#0){: .btn} Con este botón se visualiza el listado de los Reportes disponibles en PM y OT, como resultado de los procesos de proyección o analizar, respectivamente.
 
-[Ver RP Asociados](javascript:void(0);){: .btn} con este botón se visualiza la asociación de uno o varios Repuestos a un Activo, en el módulo de Almacén de Repuestos.
+[Ver RP Asociados](#0){: .btn} con este botón se visualiza la asociación de uno o varios Repuestos a un Activo, en el módulo de Almacén de Repuestos.
 
-[Ver AC Asociados](javascript:void(0);){: .btn} Con este botón se visualiza la asociación de uno o varios Activos a un Repuesto, en el módulo de Almacén de Repuestos.
+[Ver AC Asociados](#0){: .btn} Con este botón se visualiza la asociación de uno o varios Activos a un Repuesto, en el módulo de Almacén de Repuestos.
 
 <span class="iconify btn" data-icon="arrow-left-right">Navegador</span> entre páginas con este botón se puede navegar avanzando y retrocediendo páginas completas de registros.
 
