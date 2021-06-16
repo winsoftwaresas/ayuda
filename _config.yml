@@ -120,7 +120,7 @@ exclude:
   - node_modules
 
 sass:
-  style:            expanded
+  style:            compressed
 
 collections:
   docs:
