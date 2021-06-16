@@ -57,6 +57,10 @@ authors:
       name:         Tom Farrell
       title:        Developer     
       avatar:       avatar-tom.png
+    win:
+      name:         WIN Software
+      title:        Company     
+      avatar:       avatar-tom.png
 
 # Social icons displayed in footer
 social:
@@ -105,7 +109,7 @@ uploads:            /uploads/
 markdown:           kramdown
 highlighter:        rouge
 
-gems:
+plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-gist
@@ -116,7 +120,7 @@ exclude:
   - node_modules
 
 sass:
-  style:            compressed
+  style:            expanded
 
 collections:
   docs:

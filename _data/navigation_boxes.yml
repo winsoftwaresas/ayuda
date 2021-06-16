@@ -1,16 +1,19 @@
 # Boxes include navigation
 
 - title: Primeros pasos
-  desc: Comienza rápidamente con las instrucciones de instalación y configuración
-  icon: cog
-  doc: installation
+  desc: Comienza rápidamente con las nociones generales de AM
+  icon: bolt
+  doc: 1_1_introduction
+  url: ''
 
-- title: Guía de usuario
-  desc: Aprende sobre todas las características y cómo usarlas
-  icon: settings
-  doc: hero
+- title: Blog
+  desc: Aprende con nuestras historias de uso
+  icon: bookmark
+  doc: ''
+  url: /blog/
 
-- title: Personalización
-  desc: Adapta AM a tus requisitos específicos
-  icon: code
-  doc: customize
+- title: Historial de cambios
+  desc: Explora el historial de cambios de AM
+  icon: history
+  doc: ''
+  url: /changelog-timeline/
