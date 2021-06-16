@@ -1,5 +1,5 @@
 ---
-title: OPERACIONES.
+title: Operaciones
 subtitle: Aquí se esfecificarán al detalle las operaciones realizables en AM.
 tags: [setup]
 author: win
