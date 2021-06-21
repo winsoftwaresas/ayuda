@@ -16,7 +16,7 @@ baseurl:            "/ayuda"
 permalink:          /:title/
 
 # Site base hostname & protocol, e.g. http://example.com
-url:                "https://pizaranha.github.io"
+url:                "https://github.com/winsoftwaresas"
 
 # Site logo # e.g. logo.png, upload logo image file to /uploads/ folder
 logo:               
