@@ -1,0 +1,1279 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Exportar | AM</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Exportar" />
+<meta name="author" content="win" />
+<meta property="og:locale" content="es" />
+<meta name="description" content="Al ejecutar esta transacción, se abrirá una ventana la cual se muestra a continuación:" />
+<meta property="og:description" content="Al ejecutar esta transacción, se abrirá una ventana la cual se muestra a continuación:" />
+<link rel="canonical" href="https://winsoftwaresas.github.io/ayuda/docs/4_5_export/" />
+<meta property="og:url" content="https://winsoftwaresas.github.io/ayuda/docs/4_5_export/" />
+<meta property="og:site_name" content="AM" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-06-25T23:00:00-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Exportar" />
+<script type="application/ld+json">
+{"datePublished":"2021-06-25T23:00:00-05:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://winsoftwaresas.github.io/ayuda/docs/4_5_export/"},"dateModified":"2021-06-25T23:00:00-05:00","url":"https://winsoftwaresas.github.io/ayuda/docs/4_5_export/","author":{"@type":"Person","name":"win"},"headline":"Exportar","description":"Al ejecutar esta transacción, se abrirá una ventana la cual se muestra a continuación:","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <meta property="og:image" content="https://winsoftwaresas.github.io/ayuda/uploads/"/>
+  <link rel="stylesheet" href="/ayuda/assets/css/main.css">
+  <link rel="shortcut icon" type="image/png" href="/ayuda/uploads/favicon.png" >
+  <link rel="alternate" type="application/rss+xml" title="AM" href="/ayuda/feed.xml">
+  <script src="/ayuda/assets/js/main.js"></script>
+  
+    <script>
+function searchResults(form) {
+
+    var currentItem = null;
+    var search = document.getElementById(form);
+    var results = document.getElementById(form + "-results");
+    var toggle = document.getElementById(form + "-toggle");
+
+    function removeActive() {
+        for (i = 0; i < results.children.length; i++) {
+            results.children[i].classList.remove("uk-background-muted");
+        }
+    }
+
+    // Detect all clicks on the document
+    document.addEventListener("click", function(event) {
+
+        var isClickSearch = false;
+        var isClickResults = false;
+        var isClickSearchToggle = false;
+
+        if (search !== null) {
+            isClickSearch = search.contains(event.target);
+        }
+
+        if (results !== null) {
+            isClickResults = results.contains(event.target);
+        }
+
+        if (toggle !== null) {
+            isClickSearchToggle = toggle.contains(event.target);
+        }
+
+        if (isClickSearch || isClickSearchToggle) {
+            results.style.display = "block";
+        }        
+
+        if (!isClickResults && !isClickSearch && !isClickSearchToggle) {
+            results.style.display = "none";
+        }        
+        
+    });    
+
+    results.addEventListener("mouseover", function(event) {
+
+        removeActive();
+        event.target.parentElement.classList.add("uk-background-muted");
+        currentItem = null;
+
+    });
+
+    results.addEventListener("mouseout", function(event) {
+        event.target.parentElement.classList.remove("uk-background-muted");
+    });
+
+
+    search.addEventListener("keyup", function(event) {
+
+        var resultItems = results.children;
+        var resultCount = results.children.length;
+                                
+        if (event.keyCode === 40) {
+
+            if (currentItem < (resultCount - 1)) {
+                if (currentItem === null) {
+                    currentItem = 0;
+                } else {
+                    removeActive();
+                    currentItem++;
+                }
+                removeActive();
+                resultItems[currentItem].classList.add("uk-background-muted");
+            }
+            
+        } else if (event.keyCode === 38) {
+
+            if (currentItem > 0) {
+                if (currentItem === null) {
+                    currentItem = 0;
+                } else {
+                    removeActive();
+                    currentItem--;
+                }
+                removeActive();
+                resultItems[currentItem].classList.add("uk-background-muted");
+            }
+
+        } else if (event.keyCode === 13) {
+
+            resultItems[currentItem].children[0].click();
+
+        }
+
+    });
+
+}
+</script>
+  
+  <!-- Hook head -->
+  
+</head>
+
+    <body>
+
+    
+        <div data-uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent; top: 200">
+    <nav class="uk-navbar-container">
+        <div class="uk-container">
+            <div data-uk-navbar>
+                <div class="uk-navbar-left">
+                    <a class="uk-navbar-item uk-logo uk-visible@m" href="/ayuda/">AM</a>
+                    
+                        <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas-docs" data-uk-toggle><span data-uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">AM</span></a>
+                    
+
+                    <ul class="uk-navbar-nav uk-visible@m">
+                        
+                            
+                            
+                            
+                                
+                                    
+                                        <li><a href="/ayuda/docs/1_1_introduction/" >Manual</a></li>
+                                                                                                        
+                                
+                            
+                        
+                            
+                            
+                            
+                                
+                                    
+                                        <li><a href="/ayuda/blog/" >Blog</a></li>
+                                                                                                        
+                                
+                            
+                        
+                            
+                            
+                            
+                                
+                                    
+                                        <li><a href="#">Registro de cambios</a>
+                                        
+                                            <div class="uk-navbar-dropdown">
+                                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                                    
+                                                    
+                                                        
+                                                        
+                                                        <li><a href="/ayuda/changelog-timeline/">Línea de tiempo</a></li>
+                                                    
+                                                    
+                                                    
+                                                        
+                                                        
+                                                        <li><a href="/ayuda/changelog-posts/">Publicaciones</a></li>
+                                                    
+                                                    
+                                                </ul>
+                                            </div>
+                                        
+                                        </li>
+                                                                                                        
+                                
+                            
+                        
+                    </ul>
+                </div>
+                <div class="uk-navbar-center uk-hidden@m">
+                    <a class="uk-navbar-item uk-logo" href="/ayuda/">AM</a>
+                </div>
+                <div class="uk-navbar-right">
+                    
+                        
+                            <div>
+                                <a id="search-navbar-toggle" class="uk-navbar-toggle" uk-search-icon href="#"></a>
+                                <div class="uk-drop uk-background-default uk-border-rounded" uk-drop="mode: click; pos: left-center; offset: 0">
+                                    <form class="uk-search uk-search-navbar uk-width-1-1" onsubmit="return false;">
+                                        <input id="search-navbar" class="uk-search-input" type="search" placeholder="Buscar respuestas" autofocus autocomplete="off">
+                                    </form>
+                                    <ul id="search-navbar-results" class="uk-position-absolute uk-width-1-1 uk-list"></ul>
+                                </div>
+                            </div>
+                            <script>
+                            SimpleJekyllSearch({
+                                searchInput: document.getElementById('search-navbar'),
+                                resultsContainer: document.getElementById('search-navbar-results'),
+                                noResultsText: '<li class="no-results">No encontré resultados</li>',
+                                searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
+                                json: "/ayuda/search.json"
+                            });
+                            searchResults("search-navbar");
+                            </script>
+                        
+                    
+
+                    <ul class="uk-navbar-nav uk-visible@m">
+                        
+                            
+                            
+                            
+                                
+                                    <li><div class="uk-navbar-item"><a class="uk-button uk-button-primary-outline" href="/ayuda/changelog-timeline/" >Registro de cambios</a></div></li>
+                                
+                            
+                        
+                            
+                            
+                            
+                                
+                                    <li><div class="uk-navbar-item"><a class="uk-button uk-button-success" href="/ayuda/contact/" >Contacto</a></div></li>
+                                
+                            
+                        
+                    </ul>
+
+                    
+                        <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas" data-uk-toggle><span data-uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">Menu</span></a>
+                    
+
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+    
+
+    <div class="uk-section">
+    <div class="uk-container">
+        <div class="uk-grid-large" data-uk-grid>
+
+            <div class="sidebar-fixed-width uk-visible@m">
+                <div class="sidebar-docs uk-position-fixed uk-margin-top">
+                    
+                    <h5>Trabajando con AM</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/1_1_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/1_2_first_look/">Un vistazo a AM</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/1_3_main_window/">Ventana Principal **AM 4G**</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/1_4_concurrence/">Concurrencia en AM</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/1_5_summary/">Resumen Como empezar a trabajar</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Infraestructura</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/2_1_introduction/">Infraestructura</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/2_2_basic_concept/">Conceptos Básicos sobre la Infraestructura</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/2_3_tables/">Tablas de Infraestructura</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/2_4_locations/">Ubicaciones Físicas</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/2_5_kardex_concepts/">Conceptos de Kárdex</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/2_6_operations/">Operaciones</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Activos</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/3_1_introduction/">Activos / Equipos, Objetos de Mantenimiento</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/3_2_basic_concepts/">Conceptos Básicos sobre Activos/Equipos</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/3_3_data_sheet/">Ficha Técnica</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/3_4_parts_list/">Despiece de Activos / Equipos</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Almacenes, Materiales y Repuestos</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/4_1_introduction/">Almacenes, Materiales y Repuestos</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/4_2_basic_concepts/">Conceptos Básicos sobre Almacenes, Materiales y Repuestos</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/4_3_spare_coding/">Codificación de Repuestos</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/4_4_main_window/">Ventana Principal de Almacén de Repuestos</a></li>
+                    
+                      
+                      
+                      <li class="uk-active"><a href="/ayuda/docs/4_5_export/">Exportar</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Kárdex</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/5_1_introduction/">Kárdex de Almacén</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/5_2_basic_concepts/">Conceptos Básicos sobre el Kárdex de Almacén</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/5_3_movements/">Ventana Movimientos de Kárdex</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/5_4_transactions/">Transacciones</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Solicitudes de Servicio</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/7_1_introduction/">Solicitudes de Servicio</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/7_2_basics_concepts/">Conceptos Básicos sobre Solicitudes de Servicio</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/7_3_transactions/">Transacciones</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/7_4_export/">Exportar</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Paros</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/8_1_introduction/">introducción.</a></li>
+                    
+                      
+                      
+                      <li class=""><a href=""></a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/8_3_creation/">Conceptos Básicos sobre Paros / Averías.</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/8_4_tracking_and_closing/">Seguimiento y Cierre de Paros / Averías.</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Órdenes de Trabajo</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/9_1_introduction/">introduccion</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/9_2_basic_concepts/">Conceptos Básicos sobre Órdenes de Trabajo</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/9_3_analysis_and_generation/">Análisis y Generación de Órdenes de Trabajo Programadas</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/9_4_main_window/">Ventana Principal de Órdenes de Trabajo</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/9_5_export/">Exportar</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Historia de mantenimiento</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/10_1_introduction/">Historia de Mantenimiento.</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/10_2_basic_concepts/">Conceptos Básicos de la Historia de Mantenimiento.</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/10_3_send_to_history/">Enviar a Historia (Desde Órdenes de Trabajo).</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/10_4_main_window/">Ventana Principal de Historia de Mantenimiento.</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/10_5_export/">Ventana Principal de Historia de Mantenimiento</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Programas de mantenimiento</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/11_1_introduction/">Programas de Mantenimiento</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/11_2_basic_concepts/">11_2_basic_concepts</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/11_3_main_window/">Ventana Principal de Programas de Mantenimiento</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/11_4_services/">Servicios</a></li>
+                    
+                    </ul>
+                    
+                </div>
+            </div>
+
+            <div class="uk-width-1-1 uk-width-expand@m">
+
+                <article class="uk-article">
+
+                    <h1 class="uk-article-title">Exportar</h1>
+
+                    <p class="uk-text-lead uk-text-muted">Esta opción permite la exportación de los Repuestos que aparecen en el visor,  totales o provenientes de un subgrupo, archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso. .</p>
+
+                    <div class="uk-article-meta uk-margin-top uk-margin-medium-bottom uk-flex uk-flex-middle">
+                        
+
+
+  
+  <img class="uk-border-circle avatar" src="https://winsoftwaresas.github.io/ayuda/uploads/avatar-tom.png" alt="WIN Software">
+
+
+<div>
+  
+    Escrito por <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">WIN Software</span></span><br>
+  
+  <time datetime="2021-06-25T23:00:00-05:00" itemprop="datePublished">
+    
+    Jun 25, 2021
+  </time>
+</div>
+                    </div>
+
+                    <div class="article-content link-primary">
+                        <p>Al ejecutar esta transacción, se abrirá una ventana la cual se muestra a continuación:</p>
+
+<p><img src="../../assets/images/cap04/chp04_img26.png" alt="exportar repuestos" /></p>
+
+<p>Al darle clic en el botón <a class="btn">Exportar</a>, se generara un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso, el objetivo de esta exportación es llevar toda la información de los Repuestos contenidos en el visor a un archivo plano, para luego ser analizados.</p>
+
+<p>Adicionalmente, es posible exportar todos los campos de la ventana Detalle de los Repuestos, para esto se da clic en el cuadro llamado <strong>“Exportar Todos Los Campos”</strong>. También, es posible exportar uno o varios campos de la ventana Detalle de los Repuestos, para esto se da clic en cada uno de los cuadros que acompañan los campos.</p>
+
+<h3 id="inventario-final-del-mes">Inventario final del mes</h3>
+
+<p>Esta transacción se lleva a cabo para realizar el cierre de inventario del mes y consiste en tomar una fotografía del inventario hasta la fecha de realizar el cierre de  inventario. A esta opción se llega al sobreponer el cursor del mouse sobre un almacén y al lado derecho se despliega el conjunto de transacciones disponibles para ese almacén, luego se elige la transacción  “Inventario final del mes”.</p>
+
+<p><img src="../../assets/images/cap04/chp04_img27.png" alt="materiales" /></p>
+
+<p>El proceso se realiza eligiendo la opción  “Inventario final del mes”, se abre una ventana donde se muestran dos campos desplegables, uno para seleccionar el año y otro para el mes a realizar el cierre de inventario, respectivamente. Los meses que despliega son todos los meses del año. Se debe escoger el año correspondiente con el mes a cerrar. Se  da  clic en el botón <a class="btn">Cerrar inventario</a> y aparecerá una ventana solicitando confirmación de la operación a realizar, como se muestra a continuación.</p>
+
+<p><img src="../../assets/images/cap04/chp04_img28.png" alt="cerrar inventario" /></p>
+
+<p><img src="../../assets/images/cap04/chp04_img29.png" alt="cerrar inventario" /></p>
+
+<p><img src="../../assets/images/cap04/chp04_img30.png" alt="cerrar inventario" /></p>
+
+<p>Una vez finalizado el proceso anterior, se muestra un mensaje de confirmación del Cierre de Inventario.</p>
+
+<p><img src="../../assets/images/cap04/chp04_img31.png" alt="mensaje de confirmacion" /></p>
+
+<p>Para verificar la información del cierre realizado, existe un reporte con el nombre Inventario
+Final.</p>
+
+<p>El  cierre  de  inventario  en  el  <strong>AM 4G</strong>–<strong>,  no  prohíbe  su  funcionamiento.  Es  decir,  existen software que hasta no cerrar inventario, hasta que no pase de mes, no  permite que se realice ingreso de información solo lo hacen de modo consulta. El **AM 4G</strong>–** está habilitado para seguir su funcionamiento después de haberse ejecutado la transacción Inventario final del mes.</p>
+
+<p>Para  la  realización de  este  proceso,   “Inventario final del mes”, se  debe tener  los  permisos adecuados los cuales permiten ejecutar y volver a iniciar el proceso. Estos  permisos se configuran por usuario en el módulo de Administración.</p>
+
+<h3 id="modificar-masivamente">Modificar Masivamente</h3>
+
+<p>A esta opción se llega al sobreponer el cursor del mouse sobre un almacén y al lado derecho se despliega el conjunto de transacciones disponibles para ese almacén, luego se elige la transacción ** “Modificar Masivamente”.**</p>
+
+<p><img src="../../assets/images/cap04/chp04_img32.png" alt="mensaje de confirmacion" /></p>
+
+<p>Esta transacción  permite cambiar  o modificar masivamente  el  Estado, él Almacén, la Unidad de Consumo, Clase, Proveedor, Clasificación <strong>A,B,C y O</strong> a un subgrupo predeterminado de Repuestos, previamente seleccionados que se encuentran en el Visor. Para ello se debe dar clic al link en azul ** “Modificar Masivamente”** ubicado al lado superior izquierdo de la ventana, seguidamente se muestra las opciones de modificación masiva disponibles.</p>
+
+<p><img src="../../assets/images/cap04/chp04_img33.png" alt="mensaje de confirmacion" /></p>
+
+<p>En  la  gráfica  anterior,  Modificar  Masivamente,  se  aprecian  sus  componentes  y   sus respectivos contenidos.</p>
+
+<p>A   continuación  se  describen  los  campos  que  componen  esta  Ventana   información adicional.</p>
+
+<p><strong>Modificar  Solamente  Este  Repuesto:</strong>Al  escoger  esta  opción,  se  ejecutan los  cambios marcados  (Estado, Almacén, Unidad de Consumo, Clase, Clasificación <strong>A, B,C, O,</strong> y Proveedor)  al  Repuesto  que  se encuentre seleccionado en el visor.</p>
+
+<p><strong>Modificar Todos los Repuestos en el Visor:</strong> Al escoger esta opción, se ejecutan los cambios marcados (Estado, Almacén, Unidad de Consumo, Clase, Clasificación <strong>A, B,C, O,</strong> y Proveedor) a  todos  los Repuestos que se encuentren en el visor.</p>
+
+<p><strong>Modificar Estado:</strong> Se modifica masivamente el estado Activo e Inactivo, de los   Repuestos que están previamente seleccionados en el visor. Los estados predefinidos son: Activo, I-Vencido, I-Otro, I-EOI (Excedente, Obsoleto e Inservible).</p>
+
+<p><img src="../../assets/images/cap04/chp04_img34.png" alt="mensaje de confirmacion" /></p>
+
+<p><strong>Modificar Almacén:</strong> Se modifica masivamente el Almacén, de los Repuestos que están previamente registrados en el visor. El sistema lista los almacenes que se encuentran creados en la tabla de Almacenes en Infraestructura. Adicional, se debe dejar el switche en la posición de  “Cambiar de Almacén”.</p>
+
+<p><img src="../../assets/images/cap04/chp04_img35.png" alt="mensaje de confirmacion" /></p>
+
+<p>Cuando se requiera Copiar un Repuesto existente en un Almacén a otro Almacén, se debe hacer solamente a través de esta funcionalidad, para ello se debe elegir en primer lugar el Almacén al cual se va a asociar el Repuesto que se va a ingresar y en segundo lugar se debe llevar el switche a la posición de  “Copiar y pegar a otro Almacén”.</p>
+
+<p><img src="../../assets/images/cap04/chp04_img36.png" alt="mensaje de confirmacion" /></p>
+
+<p><strong>Modificar Unidad de Consumo:</strong> Se Modifica Masivamente la unidad de consumo de un Repuesto. El sistema lista las unidades de medida que se encuentran creadas en la tabla de Unidades de Medida en Infraestructura.</p>
+
+<p><img src="../../assets/images/cap04/chp04_img37.png" alt="mensaje de confirmacion" /></p>
+
+<p><strong>Modificar Clase:</strong> Se Modifica Masivamente la clase de un Repuesto. El sistema muestra un campo para que el usuario digite la nueva clase.</p>
+
+<p><img src="../../assets/images/cap04/chp04_img38.png" alt="mensaje de confirmacion" /></p>
+
+<p><strong>Modificar Clasificación A, B, C, O:</strong> Se Modifica Masivamente la clasificación <strong>A, B, C, O</strong> de un Repuesto. El sistema muestra un campo para que el usuario digite la nueva clasificación <strong>A,B, C, O.</strong> Por defecto, se muestra un campo con la clasificación ** “O”**.</p>
+
+<p><img src="../../assets/images/cap04/chp04_img39.png" alt="mensaje de confirmacion" /></p>
+
+<p><strong>Modificar Proveedor 1:</strong> Se Modifica Masivamente el Proveedor 1 de un Repuesto. El sistema lista los Proveedores que se encuentran creadas en la tabla de Terceros como tipo PF en el módulo de Infraestructura.</p>
+
+<p><img src="../../assets/images/cap04/chp04_img40.png" alt="mensaje de confirmacion" /></p>
+
+<p><strong>Modificar Proveedor 2:</strong> Se Modifica Masivamente el Proveedor 2 de un Repuesto. El sistema lista los Proveedores que se encuentran creadas en la tabla de Terceros como tipo PF en el módulo de Infraestructura.</p>
+
+<p><img src="../../assets/images/cap04/chp04_img41.png" alt="mensaje de confirmacion" /></p>
+
+<h3 id="reservas">Reservas</h3>
+
+<p>A esta opción se llega al sobreponer el cursor del mouse sobre un almacén y al lado derecho se despliega el conjunto de transacciones disponibles para ese almacén, luego se elige la transacción ** “Reservas”.**</p>
+
+<p><img src="../../assets/images/cap04/chp04_img42.png" alt="mensaje de confirmacion" /></p>
+
+<p>Es una transacción en Repuestos llamada Reservas, la cual como su nombre lo  indica permite  registrar y cancelar reservas, del Repuesto seleccionado  en   el  visor,   al   Almacén  de Repuestos,  Estas  Reservas  son  realizadas  por  el  departamento  de   Mantenimiento, también existe la posibilidad de definir el número de la Orden de Trabajo que va a hacer el consumo del Repuesto Reservado.</p>
+
+<h4 id="ventana-principal-de-reservas">Ventana Principal de Reservas</h4>
+
+<p><img src="../../assets/images/cap04/chp04_img43.png" alt="mensaje de confirmacion" /></p>
+
+<h4 id="ventana-detalle">Ventana Detalle</h4>
+
+<p><img src="../../assets/images/cap04/chp04_img44.png" alt="mensaje de confirmacion" /></p>
+
+<p>A continuación se describen los campos que componen el registro. Sobre cada campo se da        una breve explicación.</p>
+
+<p><strong>Código:</strong> Aquí es asignado automáticamente por el sistema, el código de la reserva. Este campo no es modificable por el usuario.</p>
+
+<p><strong>Fecha de Creación:</strong> Es la fecha en la que se realiza la reserva del Repuesto seleccionado en el visor. No se puede modificar. El programa la toma desde la fecha del sistema.</p>
+
+<p><strong>Fecha de Uso:</strong> Es la fecha en la que se tiene planeado utilizar el Repuesto seleccionado en el visor. De acuerdo con esta fecha, la persona encargada del Almacén debe mantener las unidades reservadas, disponibles sólo para quién registró la reserva.</p>
+
+<p><strong>Estado:</strong> Informa  acerca  del  curso  de  la  Reserva.  Puede  ser  Activa,   Finalizada  o
+Cancelada. El estado Finalizada, solo se puede seleccionar desde el módulo de Kárdex a través de la transacción  “Despachar Reservas”. Para mayor detalle consultar la funcionalidad en el módulo de Kárdex / Ventana Visor de Movimientos de Kárdex. Mientras que el estado Cancelada, sí es posible ejecutarlo desde esta opción, para ello se debe seleccionar la reserva que se va a cancelar, luego seleccionar el estado Cancelada, dar clic al botón <a class="btn">Actualizar</a>., inmediatamente <strong>AM 4G</strong>-** muestra un mensaje de alerta indicándole al usuario si está seguro de modificar esta reserva, para finalizar se da clic en Aceptar.</p>
+
+<p><strong>Reservado por:</strong> Es  la  persona  que  registra  la  Reserva  de  las  unidades  del   Repuesto seleccionado.</p>
+
+<p><strong>Número  de  OT:</strong> En el caso de que las unidades reservadas del Repuesto se  vayan  a consumir con la ejecución de una OT, aquí se asigna el número de la OT,  para que al realizar el Despacho de la Reserva, se registre tal número de OT, en el  movimiento de salida. Es posible escribir directamente el número de la OT o elegir una OT desde una ventana de selección de OT, haciendo clic en el  &lt;span class=”iconify btn” data-icon=filter-variant&gt;icono de filtro&lt;/span&gt;de color azul, al lado derecho del campo.</p>
+
+<p><strong>Cantidad:</strong> Es el número de unidades del Repuesto que se desea Reservar.</p>
+
+<p><strong>Comentario:</strong> Se pueden agregar   aquí,   observaciones o comentarios referentes a  la reserva.</p>
+
+<h4 id="adicionar-repuestos">Adicionar Repuestos</h4>
+
+<p><img src="../../assets/images/cap04/chp04_img45.png" alt="mensaje de confirmacion" /></p>
+
+<p>A   continuación  se  describen  los  campos  que  componen  esta porción de información adicional.</p>
+
+<p><strong>Código RP:</strong> En este campo se elige el código del Repuesto, desde una ventana de selección de Repuestos, haciendo clic en el &lt;span class=”iconify btn” data-icon=filter-variant&gt;icono de filtro&lt;/span&gt; de color azul, al lado derecho del campo. Una vez se selecciona, aparece automáticamente diligenciados la descripción del Repuesto, la cantidad actual y la disponible.</p>
+
+<p><strong>Descripción RP:</strong> En este campo se visualiza la información de la descripción del Repuesto seleccionado. No se puede modificar por parte del usuario.</p>
+
+<p><strong>Cantidad Actual:</strong> En este campo se muestra la cantidad en  existencia del Repuesto seleccionado. No se puede modificar por parte del usuario.</p>
+
+<p><strong>Cantidad Disponible:</strong> En este campo se observa la cantidad disponible del Repuesto seleccionado, es decir, se visualiza la diferencia  entre   “Existencia  Inventario”  menos   “Cantidad Reservada”. Este campo no es modificable por el usuario.</p>
+
+<p><strong>Cantidad a Reservar:</strong> En este campo se define la cantidad que se desea reservar del Repuesto seleccionado. En caso de elegir una cantidad a reservar mayor a la cantidad disponible, el sistema muestra un mensaje de alerta indicando que la cantidad a reservar no está disponible.</p>
+
+<p><img src="../../assets/images/cap04/chp04_img46.png" alt="mensaje alerta" /></p>
+
+<h2 id="servicios">Servicios</h2>
+
+<h3 id="reportes">Reportes</h3>
+
+<p><img src="../../assets/images/cap04/chp04_img47.png" alt="mensaje alerta" /></p>
+
+<p>Los  anteriores  reportes  pueden  ser  seleccionados  para  uno  o  varios   Repuestos:</p>
+
+<p><strong>Todos los Registros:</strong> Con esta opción se imprimen todos los reportes de los Repuestos existentes en la base de datos, sin importar si se ha realizado un subgrupo.</p>
+
+<p><strong>Registros del Visor:</strong> Esta opción permite hacer una impresión de todos los Repuestos que están seleccionados en la Ventana Visor, es decir los registros que están seleccionados en el subgrupo actual.</p>
+
+<p><strong>Registro Seleccionado:</strong> Esta opción permite hacer una impresión del Repuesto que esta seleccionado en la Ventana Visor (el cursor verde se encuentra sobre él).</p>
+
+<p><strong>Subtítulo:</strong> En este campo es posible registrar un poco menos de una línea de información, tipo documentación del Reporte, para que se imprima bajo el área de títulos estándar.</p>
+
+<p>Para visualizar los reportes, se selecciona el reporte y luego se da clic al botón <a class="btn">Imprimir</a>..</p>
+
+
+                        
+                            <div class="share uk-text-center uk-margin-medium-top">
+    
+        <a class="uk-link-muted" href="https://twitter.com/intent/tweet?text=Exportar&url=https://winsoftwaresas.github.io/docs/4_5_export/&via=&related=" rel="nofollow" target="_blank" title="Compartir en Twitter" onclick="window.open(this.href, 'twitter', 'width=550,height=235');return false;"><span data-uk-icon="icon: twitter; ratio: 1.2"></span></a>
+    
+    
+        <a class="uk-link-muted uk-margin-small-left" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwinsoftwaresas.github.io%2Fdocs%2F4_5_export%2F" rel="nofollow" target="_blank" title="Compartir en Facebook" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;"><span data-uk-icon="icon: facebook; ratio: 1.2"></span></a>
+    
+</div>
+                        
+                    </div>
+
+                    <!-- Hook post content doc -->
+
+                    <hr class="uk-margin-medium">
+
+                    
+
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+    <div class="uk-margin-large-top paginate-post">
+        <div class="uk-child-width-expand@s uk-grid-large uk-pagi" data-uk-grid>
+            <div>
+                
+                  
+                  
+                  
+                    <h5></h5>
+                    <div><a class="remove-underline hvr-back" href="/ayuda/docs/4_4_main_window/">&larr; Anterior</a></div>
+                
+            </div>
+            <div>
+                
+                  
+                  
+                  
+                    <h5></h5>
+                    <div class="uk-text-right"><a class="remove-underline hvr-forward" href="/ayuda/docs/5_1_introduction/">Siguiente &rarr;</a></div>
+                
+            </div>
+        </div>
+    </div>
+    
+
+
+                    <div class="uk-margin-large-top">
+    <h3>Temas relacionados</h3>
+
+    
+    
+    
+
+    <ul class="uk-list link-secondary">
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+        <li><a href="/ayuda/docs/10_1_introduction/">Historia de Mantenimiento.</a></li>
+        
+        
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+        <li><a href="/ayuda/docs/11_1_introduction/">Programas de Mantenimiento</a></li>
+        
+        
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+        <li><a href="/ayuda/docs/11_3_main_window/">Ventana Principal de Programas de Mantenimiento</a></li>
+        
+        
+    
+
+    
+
+    
+    
+
+    
+
+    
+        <li><a href="/ayuda/docs/11_4_services/">Servicios</a></li>
+        
+        
+            
+    </ul>
+</div>
+
+
+                    
+                </article>
+
+                <script>
+                    // Table of contents scroll to
+                    UIkit.scroll('#markdown-toc a', {
+                        duration: 400,
+                        offset: 120
+                    });
+                </script>
+
+            </div>
+
+    </div>
+</div>
+
+
+    <div id="offcanvas-docs" data-uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar">
+
+        <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+
+        
+        <h5 class="uk-margin-top">Trabajando con AM</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/1_1_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/1_2_first_look/">Un vistazo a AM</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/1_3_main_window/">Ventana Principal **AM 4G**</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/1_4_concurrence/">Concurrencia en AM</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/1_5_summary/">Resumen Como empezar a trabajar</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Infraestructura</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/2_1_introduction/">Infraestructura</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/2_2_basic_concept/">Conceptos Básicos sobre la Infraestructura</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/2_3_tables/">Tablas de Infraestructura</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/2_4_locations/">Ubicaciones Físicas</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/2_5_kardex_concepts/">Conceptos de Kárdex</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/2_6_operations/">Operaciones</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Activos</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/3_1_introduction/">Activos / Equipos, Objetos de Mantenimiento</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/3_2_basic_concepts/">Conceptos Básicos sobre Activos/Equipos</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/3_3_data_sheet/">Ficha Técnica</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/3_4_parts_list/">Despiece de Activos / Equipos</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Almacenes, Materiales y Repuestos</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/4_1_introduction/">Almacenes, Materiales y Repuestos</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/4_2_basic_concepts/">Conceptos Básicos sobre Almacenes, Materiales y Repuestos</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/4_3_spare_coding/">Codificación de Repuestos</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/4_4_main_window/">Ventana Principal de Almacén de Repuestos</a></li>
+        
+          
+          
+          <li class="uk-active"><a href="/ayuda/docs/4_5_export/">Exportar</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Kárdex</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/5_1_introduction/">Kárdex de Almacén</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/5_2_basic_concepts/">Conceptos Básicos sobre el Kárdex de Almacén</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/5_3_movements/">Ventana Movimientos de Kárdex</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/5_4_transactions/">Transacciones</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Solicitudes de Servicio</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/7_1_introduction/">Solicitudes de Servicio</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/7_2_basics_concepts/">Conceptos Básicos sobre Solicitudes de Servicio</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/7_3_transactions/">Transacciones</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/7_4_export/">Exportar</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Paros</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/8_1_introduction/">introducción.</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda"></a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/8_3_creation/">Conceptos Básicos sobre Paros / Averías.</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/8_4_tracking_and_closing/">Seguimiento y Cierre de Paros / Averías.</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Órdenes de Trabajo</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/9_1_introduction/">introduccion</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/9_2_basic_concepts/">Conceptos Básicos sobre Órdenes de Trabajo</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/9_3_analysis_and_generation/">Análisis y Generación de Órdenes de Trabajo Programadas</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/9_4_main_window/">Ventana Principal de Órdenes de Trabajo</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/9_5_export/">Exportar</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Historia de mantenimiento</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/10_1_introduction/">Historia de Mantenimiento.</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/10_2_basic_concepts/">Conceptos Básicos de la Historia de Mantenimiento.</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/10_3_send_to_history/">Enviar a Historia (Desde Órdenes de Trabajo).</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/10_4_main_window/">Ventana Principal de Historia de Mantenimiento.</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/10_5_export/">Ventana Principal de Historia de Mantenimiento</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Programas de mantenimiento</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/11_1_introduction/">Programas de Mantenimiento</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/11_2_basic_concepts/">11_2_basic_concepts</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/11_3_main_window/">Ventana Principal de Programas de Mantenimiento</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/11_4_services/">Servicios</a></li>
+        
+        </ul>
+        
+
+    </div>
+</div>
+
+
+    <div id="offcanvas" data-uk-offcanvas="flip: true; overlay: true">
+    <div class="uk-offcanvas-bar">
+
+        <a class="uk-logo uk-margin-small-bottom" href="/ayuda/">AM</a>
+     
+        <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+      
+        <ul class="uk-nav uk-nav-primary uk-margin-top">
+            
+                
+
+                
+
+                
+                    <li><a href="/ayuda/" >Inicio</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><a href="/ayuda/docs/1_1_introduction" >Manual</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><a href="/ayuda/blog/" >Blog</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><a href="/ayuda/changelog-timeline/" >Registro de cambios</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><div class="uk-navbar-item"><a class="uk-button uk-button-success" href="/ayuda/contact/" >Contacto</a></div></li>
+                
+            
+        </ul>
+
+        <div class="uk-margin-top uk-text-center">
+            <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-flex-center uk-grid">
+                
+<div class="uk-first-column">
+    <a href="https://twitter.com/winsoftware_am" data-uk-icon="icon: twitter" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+<div>
+    <a href="https://www.facebook.com/winsoftwaream/" data-uk-icon="icon: facebook" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+
+
+<div>
+    <a href="https://co.linkedin.com/in/win-software-s-a-s-122b7952" data-uk-icon="icon: linkedin" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+
+
+
+<div>
+    <a href="https://winsoftware.com.co/" data-uk-icon="icon: link" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+    
+
+    
+        <!-- Hook preclosing body doc -->
+    
+
+    <!-- Hook preclosing body -->
+
+    </body>
+
+</html>

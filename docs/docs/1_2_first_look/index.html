@@ -1,0 +1,1093 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Un vistazo a AM | AM</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Un vistazo a AM" />
+<meta name="author" content="win" />
+<meta property="og:locale" content="es" />
+<meta name="description" content="Al analizar la ventana principal se aprecia como el sistema está conformado por las siguientes funciones, que componen el menú principal. Son ellas:" />
+<meta property="og:description" content="Al analizar la ventana principal se aprecia como el sistema está conformado por las siguientes funciones, que componen el menú principal. Son ellas:" />
+<link rel="canonical" href="https://winsoftwaresas.github.io/ayuda/docs/1_2_first_look/" />
+<meta property="og:url" content="https://winsoftwaresas.github.io/ayuda/docs/1_2_first_look/" />
+<meta property="og:site_name" content="AM" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-06-25T23:00:00-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Un vistazo a AM" />
+<script type="application/ld+json">
+{"datePublished":"2021-06-25T23:00:00-05:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://winsoftwaresas.github.io/ayuda/docs/1_2_first_look/"},"dateModified":"2021-06-25T23:00:00-05:00","url":"https://winsoftwaresas.github.io/ayuda/docs/1_2_first_look/","author":{"@type":"Person","name":"win"},"headline":"Un vistazo a AM","description":"Al analizar la ventana principal se aprecia como el sistema está conformado por las siguientes funciones, que componen el menú principal. Son ellas:","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <meta property="og:image" content="https://winsoftwaresas.github.io/ayuda/uploads/"/>
+  <link rel="stylesheet" href="/ayuda/assets/css/main.css">
+  <link rel="shortcut icon" type="image/png" href="/ayuda/uploads/favicon.png" >
+  <link rel="alternate" type="application/rss+xml" title="AM" href="/ayuda/feed.xml">
+  <script src="/ayuda/assets/js/main.js"></script>
+  
+    <script>
+function searchResults(form) {
+
+    var currentItem = null;
+    var search = document.getElementById(form);
+    var results = document.getElementById(form + "-results");
+    var toggle = document.getElementById(form + "-toggle");
+
+    function removeActive() {
+        for (i = 0; i < results.children.length; i++) {
+            results.children[i].classList.remove("uk-background-muted");
+        }
+    }
+
+    // Detect all clicks on the document
+    document.addEventListener("click", function(event) {
+
+        var isClickSearch = false;
+        var isClickResults = false;
+        var isClickSearchToggle = false;
+
+        if (search !== null) {
+            isClickSearch = search.contains(event.target);
+        }
+
+        if (results !== null) {
+            isClickResults = results.contains(event.target);
+        }
+
+        if (toggle !== null) {
+            isClickSearchToggle = toggle.contains(event.target);
+        }
+
+        if (isClickSearch || isClickSearchToggle) {
+            results.style.display = "block";
+        }        
+
+        if (!isClickResults && !isClickSearch && !isClickSearchToggle) {
+            results.style.display = "none";
+        }        
+        
+    });    
+
+    results.addEventListener("mouseover", function(event) {
+
+        removeActive();
+        event.target.parentElement.classList.add("uk-background-muted");
+        currentItem = null;
+
+    });
+
+    results.addEventListener("mouseout", function(event) {
+        event.target.parentElement.classList.remove("uk-background-muted");
+    });
+
+
+    search.addEventListener("keyup", function(event) {
+
+        var resultItems = results.children;
+        var resultCount = results.children.length;
+                                
+        if (event.keyCode === 40) {
+
+            if (currentItem < (resultCount - 1)) {
+                if (currentItem === null) {
+                    currentItem = 0;
+                } else {
+                    removeActive();
+                    currentItem++;
+                }
+                removeActive();
+                resultItems[currentItem].classList.add("uk-background-muted");
+            }
+            
+        } else if (event.keyCode === 38) {
+
+            if (currentItem > 0) {
+                if (currentItem === null) {
+                    currentItem = 0;
+                } else {
+                    removeActive();
+                    currentItem--;
+                }
+                removeActive();
+                resultItems[currentItem].classList.add("uk-background-muted");
+            }
+
+        } else if (event.keyCode === 13) {
+
+            resultItems[currentItem].children[0].click();
+
+        }
+
+    });
+
+}
+</script>
+  
+  <!-- Hook head -->
+  
+</head>
+
+    <body>
+
+    
+        <div data-uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent; top: 200">
+    <nav class="uk-navbar-container">
+        <div class="uk-container">
+            <div data-uk-navbar>
+                <div class="uk-navbar-left">
+                    <a class="uk-navbar-item uk-logo uk-visible@m" href="/ayuda/">AM</a>
+                    
+                        <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas-docs" data-uk-toggle><span data-uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">AM</span></a>
+                    
+
+                    <ul class="uk-navbar-nav uk-visible@m">
+                        
+                            
+                            
+                            
+                                
+                                    
+                                        <li><a href="/ayuda/docs/1_1_introduction/" >Manual</a></li>
+                                                                                                        
+                                
+                            
+                        
+                            
+                            
+                            
+                                
+                                    
+                                        <li><a href="/ayuda/blog/" >Blog</a></li>
+                                                                                                        
+                                
+                            
+                        
+                            
+                            
+                            
+                                
+                                    
+                                        <li><a href="#">Registro de cambios</a>
+                                        
+                                            <div class="uk-navbar-dropdown">
+                                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                                    
+                                                    
+                                                        
+                                                        
+                                                        <li><a href="/ayuda/changelog-timeline/">Línea de tiempo</a></li>
+                                                    
+                                                    
+                                                    
+                                                        
+                                                        
+                                                        <li><a href="/ayuda/changelog-posts/">Publicaciones</a></li>
+                                                    
+                                                    
+                                                </ul>
+                                            </div>
+                                        
+                                        </li>
+                                                                                                        
+                                
+                            
+                        
+                    </ul>
+                </div>
+                <div class="uk-navbar-center uk-hidden@m">
+                    <a class="uk-navbar-item uk-logo" href="/ayuda/">AM</a>
+                </div>
+                <div class="uk-navbar-right">
+                    
+                        
+                            <div>
+                                <a id="search-navbar-toggle" class="uk-navbar-toggle" uk-search-icon href="#"></a>
+                                <div class="uk-drop uk-background-default uk-border-rounded" uk-drop="mode: click; pos: left-center; offset: 0">
+                                    <form class="uk-search uk-search-navbar uk-width-1-1" onsubmit="return false;">
+                                        <input id="search-navbar" class="uk-search-input" type="search" placeholder="Buscar respuestas" autofocus autocomplete="off">
+                                    </form>
+                                    <ul id="search-navbar-results" class="uk-position-absolute uk-width-1-1 uk-list"></ul>
+                                </div>
+                            </div>
+                            <script>
+                            SimpleJekyllSearch({
+                                searchInput: document.getElementById('search-navbar'),
+                                resultsContainer: document.getElementById('search-navbar-results'),
+                                noResultsText: '<li class="no-results">No encontré resultados</li>',
+                                searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
+                                json: "/ayuda/search.json"
+                            });
+                            searchResults("search-navbar");
+                            </script>
+                        
+                    
+
+                    <ul class="uk-navbar-nav uk-visible@m">
+                        
+                            
+                            
+                            
+                                
+                                    <li><div class="uk-navbar-item"><a class="uk-button uk-button-primary-outline" href="/ayuda/changelog-timeline/" >Registro de cambios</a></div></li>
+                                
+                            
+                        
+                            
+                            
+                            
+                                
+                                    <li><div class="uk-navbar-item"><a class="uk-button uk-button-success" href="/ayuda/contact/" >Contacto</a></div></li>
+                                
+                            
+                        
+                    </ul>
+
+                    
+                        <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas" data-uk-toggle><span data-uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">Menu</span></a>
+                    
+
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+    
+
+    <div class="uk-section">
+    <div class="uk-container">
+        <div class="uk-grid-large" data-uk-grid>
+
+            <div class="sidebar-fixed-width uk-visible@m">
+                <div class="sidebar-docs uk-position-fixed uk-margin-top">
+                    
+                    <h5>Trabajando con AM</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/1_1_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class="uk-active"><a href="/ayuda/docs/1_2_first_look/">Un vistazo a AM</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/1_3_main_window/">Ventana Principal **AM 4G**</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/1_4_concurrence/">Concurrencia en AM</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/1_5_summary/">Resumen Como empezar a trabajar</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Infraestructura</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/2_1_introduction/">Infraestructura</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/2_2_basic_concept/">Conceptos Básicos sobre la Infraestructura</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/2_3_tables/">Tablas de Infraestructura</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/2_4_locations/">Ubicaciones Físicas</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/2_5_kardex_concepts/">Conceptos de Kárdex</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/2_6_operations/">Operaciones</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Activos</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/3_1_introduction/">Activos / Equipos, Objetos de Mantenimiento</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/3_2_basic_concepts/">Conceptos Básicos sobre Activos/Equipos</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/3_3_data_sheet/">Ficha Técnica</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/3_4_parts_list/">Despiece de Activos / Equipos</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Almacenes, Materiales y Repuestos</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/4_1_introduction/">Almacenes, Materiales y Repuestos</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/4_2_basic_concepts/">Conceptos Básicos sobre Almacenes, Materiales y Repuestos</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/4_3_spare_coding/">Codificación de Repuestos</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/4_4_main_window/">Ventana Principal de Almacén de Repuestos</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/4_5_export/">Exportar</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Kárdex</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/5_1_introduction/">Kárdex de Almacén</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/5_2_basic_concepts/">Conceptos Básicos sobre el Kárdex de Almacén</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/5_3_movements/">Ventana Movimientos de Kárdex</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/5_4_transactions/">Transacciones</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Solicitudes de Servicio</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/7_1_introduction/">Solicitudes de Servicio</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/7_2_basics_concepts/">Conceptos Básicos sobre Solicitudes de Servicio</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/7_3_transactions/">Transacciones</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/7_4_export/">Exportar</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Paros</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/8_1_introduction/">introducción.</a></li>
+                    
+                      
+                      
+                      <li class=""><a href=""></a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/8_3_creation/">Conceptos Básicos sobre Paros / Averías.</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/8_4_tracking_and_closing/">Seguimiento y Cierre de Paros / Averías.</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Órdenes de Trabajo</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/9_1_introduction/">introduccion</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/9_2_basic_concepts/">Conceptos Básicos sobre Órdenes de Trabajo</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/9_3_analysis_and_generation/">Análisis y Generación de Órdenes de Trabajo Programadas</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/9_4_main_window/">Ventana Principal de Órdenes de Trabajo</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/9_5_export/">Exportar</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Historia de mantenimiento</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/10_1_introduction/">Historia de Mantenimiento.</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/10_2_basic_concepts/">Conceptos Básicos de la Historia de Mantenimiento.</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/10_3_send_to_history/">Enviar a Historia (Desde Órdenes de Trabajo).</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/10_4_main_window/">Ventana Principal de Historia de Mantenimiento.</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/10_5_export/">Ventana Principal de Historia de Mantenimiento</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Programas de mantenimiento</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/11_1_introduction/">Programas de Mantenimiento</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/11_2_basic_concepts/">11_2_basic_concepts</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/11_3_main_window/">Ventana Principal de Programas de Mantenimiento</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/11_4_services/">Servicios</a></li>
+                    
+                    </ul>
+                    
+                </div>
+            </div>
+
+            <div class="uk-width-1-1 uk-width-expand@m">
+
+                <article class="uk-article">
+
+                    <h1 class="uk-article-title">Un vistazo a AM</h1>
+
+                    <p class="uk-text-lead uk-text-muted">Esta sección lo ayuda a comprender el programa AM e implementarlo para satisfacer las necesidades de gestión de mantenimiento de activos en su negocio.</p>
+
+                    <div class="uk-article-meta uk-margin-top uk-margin-medium-bottom uk-flex uk-flex-middle">
+                        
+
+
+  
+  <img class="uk-border-circle avatar" src="https://winsoftwaresas.github.io/ayuda/uploads/avatar-tom.png" alt="WIN Software">
+
+
+<div>
+  
+    Escrito por <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">WIN Software</span></span><br>
+  
+  <time datetime="2021-06-25T23:00:00-05:00" itemprop="datePublished">
+    
+    Jun 25, 2021
+  </time>
+</div>
+                    </div>
+
+                    <div class="article-content link-primary">
+                        <p>Al analizar la ventana principal se aprecia como el sistema está conformado por las siguientes funciones, que componen el menú principal. Son ellas:</p>
+
+<p><strong>Infraestructura [IE]:</strong> Función que administra el grupo de datos básicos, parametrizables, de mantenimiento de la empresa: centros de costo, centros responsables, oficios,terceros, responsables, ubicaciones físicas, contratos, tipos de trabajo, tipos de mantenimiento, tipos de actividad, almacenes, unidades de medida, monedas, contadores, características, características biomédicas, riesgos, magnitudes, Otros conceptos de costo, causas de OT pendiente, causas de cierre de OT, acciones técnicas, causas de falla, efectos de falla, conceptos de Kárdex, operaciones, referencias, tipos de régimen,estados. Un grupo de estas tablas, se encuentra preconfigurado, y puede ajustarse según las necesidades y requerimientos de la empresa.  Las restantes describen en detalle la cultura técnica organizacional de mantenimiento.</p>
+
+<p><strong>Activos [AC]:</strong> Función central del sistema para la definición de los Activos en general, objetos de mantenimiento, equipos, maquinaria, automotores, activos de Servicios,recreativos, **activos de tecnología, informática e infraestructura física, más todos los institucionales, hospitalarios u hoteleros.</p>
+
+<p><strong>Almacén [AL]:</strong> Es la funcion encargada del registro y control de materiales y repuestos de almacén, se registran por cada ítem su ficha técnica y parámetros de inventario. También se describen las distintas referencias de ese Material o Repuesto, de acuerdo con sus diferentes proveedores.</p>
+
+<p><strong>Kárdex de Repuestos [KX]:</strong> A través del Kárdex se realiza el registro de todo movimiento de entrada, ajustes, salida de materiales o repuestos de cada almacén. Para su operación, en el módulo “Infraestructura”, en la tabla “Conceptos de Kárdex” se definen y configuran previamente los conceptos de transacciones de movimiento, que serán hábiles en el sistema, para cada Almacén de la compañía.</p>
+
+<p><strong>Programas de Mantenimiento [PM]:</strong> Es la función que realiza la programación de actividades de mantenimiento rutinarias, cíclicas, sistemáticas o repetitivas en general. Un programa de mantenimiento se define con el objeto de generar Órdenes de Trabajo en forma automática y anticipada. Se toman en cuenta trabajos programados de tipo preventivo, predictivo, lubricación, metrología, inspección u Otros.</p>
+
+<p><strong>Solicitudes de Servicio [SS]:</strong> Es el módulo mediante el cual todo empleado autorizado de la compañía puede solicitar una atención o servicio por parte del área de Mantenimiento, Una solicitud de servicio puede ser atendida como tal o puede dar origen a una orden de trabajo. El solicitante puede hacer seguimiento permanente del estado de su solicitud. Este módulo tiene una funcionalidad adicional, el registro de acciones técnicas sencillas de mantenimiento, Corto tiempo de ejecución, bajo costo, y ejecutados por un solo responsable.</p>
+
+<p><strong>Paros/ Averías [PA]:</strong> A través de esta función, se hace el registro minucioso de toda actividad de paro de un equipo u objeto de mantenimiento, programado o no programado,que genere tiempos improductivos. Además de los tiempos de paro, se relacionan también la Causa y efecto de la falla y las acciones técnicas respectivas. Un paro puede dar origen a una Orden de Trabajo.</p>
+
+<p><strong>Órdenes de Trabajo [OT]:</strong> Es la función que centraliza la administración de las órdenes de trabajo del sistema. cubre, desde la generación automática o la creación manual de las órdenes de trabajo, el seguimiento y consulta integral durante la ejecución de ellas, hasta su cierre y envío posterior a historia de mantenimiento. Se estudia este módulo como el centro de gestión de mantenimiento.</p>
+
+<p><strong>Historia de Mantenimiento [HI]:</strong>  Es el conjunto de funciones que compendian, estudian y analizan la información histórica de mantenimiento. La historia de mantenimiento está conformada por el conjunto de las OS que se han ejecutado, liquidado, cerrado y trasladado hasta la historia de mantenimiento, y por las solicitudes de servicio o los paros que han sido cerrados y son enviados a historia. Esta historia suma y refleja la actividad de mantenimiento ejecutada en la empresa. es a partir del compendio histórico de mantenimiento que se genera el balance periódico de gestión, se generan los índices de seguimiento y de gestión, se realizan una gran variedad de estudios especiales, como análisis de fallas, análisis de pareto por varios criterios, análisis de costos (mano de obra, materiales/repuestos y otros conceptos), análisis de confiabilidad o disponibilidad, análisis sobre consumos de recursos o análisis sobre proveedores de servicio, entre muchos otros.</p>
+
+<p><strong>Administración [AD]:</strong> Es el centro funcional donde se provee la Administración del Sistema. Cubre aspectos de: configuración personalizada de la compañía, definición de los perfiles de los usuarios en sus diferentes niveles de acceso, listado de reportes y parametrización del idioma.Antes, de entrar en más detalles, se considera útil hacer un acercamiento general al sistema y a la secuencia de operaciones, para poder hacer una planeación básica de su implementación.</p>
+
+
+                        
+                            <div class="share uk-text-center uk-margin-medium-top">
+    
+        <a class="uk-link-muted" href="https://twitter.com/intent/tweet?text=Un vistazo a AM&url=https://winsoftwaresas.github.io/docs/1_2_first_look/&via=&related=" rel="nofollow" target="_blank" title="Compartir en Twitter" onclick="window.open(this.href, 'twitter', 'width=550,height=235');return false;"><span data-uk-icon="icon: twitter; ratio: 1.2"></span></a>
+    
+    
+        <a class="uk-link-muted uk-margin-small-left" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwinsoftwaresas.github.io%2Fdocs%2F1_2_first_look%2F" rel="nofollow" target="_blank" title="Compartir en Facebook" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;"><span data-uk-icon="icon: facebook; ratio: 1.2"></span></a>
+    
+</div>
+                        
+                    </div>
+
+                    <!-- Hook post content doc -->
+
+                    <hr class="uk-margin-medium">
+
+                    
+
+
+  
+  
+
+  
+  
+    <div class="uk-margin-large-top paginate-post">
+        <div class="uk-child-width-expand@s uk-grid-large uk-pagi" data-uk-grid>
+            <div>
+                
+                  
+                  
+                  
+                    <h5></h5>
+                    <div><a class="remove-underline hvr-back" href="/ayuda/docs/1_1_introduction/">&larr; Anterior</a></div>
+                
+            </div>
+            <div>
+                
+                  
+                  
+                  
+                    <h5></h5>
+                    <div class="uk-text-right"><a class="remove-underline hvr-forward" href="/ayuda/docs/1_3_main_window/">Siguiente &rarr;</a></div>
+                
+            </div>
+        </div>
+    </div>
+    
+
+
+                    <div class="uk-margin-large-top">
+    <h3>Temas relacionados</h3>
+
+    
+    
+    
+
+    <ul class="uk-list link-secondary">
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+        <li><a href="/ayuda/docs/10_1_introduction/">Historia de Mantenimiento.</a></li>
+        
+        
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+        <li><a href="/ayuda/docs/11_1_introduction/">Programas de Mantenimiento</a></li>
+        
+        
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+        <li><a href="/ayuda/docs/11_3_main_window/">Ventana Principal de Programas de Mantenimiento</a></li>
+        
+        
+    
+
+    
+
+    
+    
+
+    
+
+    
+        <li><a href="/ayuda/docs/11_4_services/">Servicios</a></li>
+        
+        
+            
+    </ul>
+</div>
+
+
+                    
+                </article>
+
+                <script>
+                    // Table of contents scroll to
+                    UIkit.scroll('#markdown-toc a', {
+                        duration: 400,
+                        offset: 120
+                    });
+                </script>
+
+            </div>
+
+    </div>
+</div>
+
+
+    <div id="offcanvas-docs" data-uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar">
+
+        <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+
+        
+        <h5 class="uk-margin-top">Trabajando con AM</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/1_1_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class="uk-active"><a href="/ayuda/docs/1_2_first_look/">Un vistazo a AM</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/1_3_main_window/">Ventana Principal **AM 4G**</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/1_4_concurrence/">Concurrencia en AM</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/1_5_summary/">Resumen Como empezar a trabajar</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Infraestructura</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/2_1_introduction/">Infraestructura</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/2_2_basic_concept/">Conceptos Básicos sobre la Infraestructura</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/2_3_tables/">Tablas de Infraestructura</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/2_4_locations/">Ubicaciones Físicas</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/2_5_kardex_concepts/">Conceptos de Kárdex</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/2_6_operations/">Operaciones</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Activos</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/3_1_introduction/">Activos / Equipos, Objetos de Mantenimiento</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/3_2_basic_concepts/">Conceptos Básicos sobre Activos/Equipos</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/3_3_data_sheet/">Ficha Técnica</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/3_4_parts_list/">Despiece de Activos / Equipos</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Almacenes, Materiales y Repuestos</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/4_1_introduction/">Almacenes, Materiales y Repuestos</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/4_2_basic_concepts/">Conceptos Básicos sobre Almacenes, Materiales y Repuestos</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/4_3_spare_coding/">Codificación de Repuestos</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/4_4_main_window/">Ventana Principal de Almacén de Repuestos</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/4_5_export/">Exportar</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Kárdex</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/5_1_introduction/">Kárdex de Almacén</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/5_2_basic_concepts/">Conceptos Básicos sobre el Kárdex de Almacén</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/5_3_movements/">Ventana Movimientos de Kárdex</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/5_4_transactions/">Transacciones</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Solicitudes de Servicio</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/7_1_introduction/">Solicitudes de Servicio</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/7_2_basics_concepts/">Conceptos Básicos sobre Solicitudes de Servicio</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/7_3_transactions/">Transacciones</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/7_4_export/">Exportar</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Paros</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/8_1_introduction/">introducción.</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda"></a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/8_3_creation/">Conceptos Básicos sobre Paros / Averías.</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/8_4_tracking_and_closing/">Seguimiento y Cierre de Paros / Averías.</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Órdenes de Trabajo</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/9_1_introduction/">introduccion</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/9_2_basic_concepts/">Conceptos Básicos sobre Órdenes de Trabajo</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/9_3_analysis_and_generation/">Análisis y Generación de Órdenes de Trabajo Programadas</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/9_4_main_window/">Ventana Principal de Órdenes de Trabajo</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/9_5_export/">Exportar</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Historia de mantenimiento</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/10_1_introduction/">Historia de Mantenimiento.</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/10_2_basic_concepts/">Conceptos Básicos de la Historia de Mantenimiento.</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/10_3_send_to_history/">Enviar a Historia (Desde Órdenes de Trabajo).</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/10_4_main_window/">Ventana Principal de Historia de Mantenimiento.</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/10_5_export/">Ventana Principal de Historia de Mantenimiento</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Programas de mantenimiento</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/11_1_introduction/">Programas de Mantenimiento</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/11_2_basic_concepts/">11_2_basic_concepts</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/11_3_main_window/">Ventana Principal de Programas de Mantenimiento</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/11_4_services/">Servicios</a></li>
+        
+        </ul>
+        
+
+    </div>
+</div>
+
+
+    <div id="offcanvas" data-uk-offcanvas="flip: true; overlay: true">
+    <div class="uk-offcanvas-bar">
+
+        <a class="uk-logo uk-margin-small-bottom" href="/ayuda/">AM</a>
+     
+        <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+      
+        <ul class="uk-nav uk-nav-primary uk-margin-top">
+            
+                
+
+                
+
+                
+                    <li><a href="/ayuda/" >Inicio</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><a href="/ayuda/docs/1_1_introduction" >Manual</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><a href="/ayuda/blog/" >Blog</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><a href="/ayuda/changelog-timeline/" >Registro de cambios</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><div class="uk-navbar-item"><a class="uk-button uk-button-success" href="/ayuda/contact/" >Contacto</a></div></li>
+                
+            
+        </ul>
+
+        <div class="uk-margin-top uk-text-center">
+            <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-flex-center uk-grid">
+                
+<div class="uk-first-column">
+    <a href="https://twitter.com/winsoftware_am" data-uk-icon="icon: twitter" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+<div>
+    <a href="https://www.facebook.com/winsoftwaream/" data-uk-icon="icon: facebook" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+
+
+<div>
+    <a href="https://co.linkedin.com/in/win-software-s-a-s-122b7952" data-uk-icon="icon: linkedin" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+
+
+
+<div>
+    <a href="https://winsoftware.com.co/" data-uk-icon="icon: link" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+    
+
+    
+        <!-- Hook preclosing body doc -->
+    
+
+    <!-- Hook preclosing body -->
+
+    </body>
+
+</html>

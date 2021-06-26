@@ -1,0 +1,1447 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Seguimiento y Cierre de Paros / Averías. | AM</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Seguimiento y Cierre de Paros / Averías." />
+<meta name="author" content="win" />
+<meta property="og:locale" content="es" />
+<meta name="description" content="El proceso de cierre de un FDA como tal, es similar, aunque más sencillo, al de una SS. consiste en cambiar el “Estado”, por uno de dos: “Cerrada Ejecutada” o “Cerrado con OT”, Para mayor detalle se debe referir al acápite “Seguimiento y Cierre” de Solicitudes de Servicio." />
+<meta property="og:description" content="El proceso de cierre de un FDA como tal, es similar, aunque más sencillo, al de una SS. consiste en cambiar el “Estado”, por uno de dos: “Cerrada Ejecutada” o “Cerrado con OT”, Para mayor detalle se debe referir al acápite “Seguimiento y Cierre” de Solicitudes de Servicio." />
+<link rel="canonical" href="https://winsoftwaresas.github.io/ayuda/docs/8_4_tracking_and_closing/" />
+<meta property="og:url" content="https://winsoftwaresas.github.io/ayuda/docs/8_4_tracking_and_closing/" />
+<meta property="og:site_name" content="AM" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-06-25T23:00:00-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Seguimiento y Cierre de Paros / Averías." />
+<script type="application/ld+json">
+{"datePublished":"2021-06-25T23:00:00-05:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://winsoftwaresas.github.io/ayuda/docs/8_4_tracking_and_closing/"},"dateModified":"2021-06-25T23:00:00-05:00","url":"https://winsoftwaresas.github.io/ayuda/docs/8_4_tracking_and_closing/","author":{"@type":"Person","name":"win"},"headline":"Seguimiento y Cierre de Paros / Averías.","description":"El proceso de cierre de un FDA como tal, es similar, aunque más sencillo, al de una SS. consiste en cambiar el “Estado”, por uno de dos: “Cerrada Ejecutada” o “Cerrado con OT”, Para mayor detalle se debe referir al acápite “Seguimiento y Cierre” de Solicitudes de Servicio.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <meta property="og:image" content="https://winsoftwaresas.github.io/ayuda/uploads/"/>
+  <link rel="stylesheet" href="/ayuda/assets/css/main.css">
+  <link rel="shortcut icon" type="image/png" href="/ayuda/uploads/favicon.png" >
+  <link rel="alternate" type="application/rss+xml" title="AM" href="/ayuda/feed.xml">
+  <script src="/ayuda/assets/js/main.js"></script>
+  
+    <script>
+function searchResults(form) {
+
+    var currentItem = null;
+    var search = document.getElementById(form);
+    var results = document.getElementById(form + "-results");
+    var toggle = document.getElementById(form + "-toggle");
+
+    function removeActive() {
+        for (i = 0; i < results.children.length; i++) {
+            results.children[i].classList.remove("uk-background-muted");
+        }
+    }
+
+    // Detect all clicks on the document
+    document.addEventListener("click", function(event) {
+
+        var isClickSearch = false;
+        var isClickResults = false;
+        var isClickSearchToggle = false;
+
+        if (search !== null) {
+            isClickSearch = search.contains(event.target);
+        }
+
+        if (results !== null) {
+            isClickResults = results.contains(event.target);
+        }
+
+        if (toggle !== null) {
+            isClickSearchToggle = toggle.contains(event.target);
+        }
+
+        if (isClickSearch || isClickSearchToggle) {
+            results.style.display = "block";
+        }        
+
+        if (!isClickResults && !isClickSearch && !isClickSearchToggle) {
+            results.style.display = "none";
+        }        
+        
+    });    
+
+    results.addEventListener("mouseover", function(event) {
+
+        removeActive();
+        event.target.parentElement.classList.add("uk-background-muted");
+        currentItem = null;
+
+    });
+
+    results.addEventListener("mouseout", function(event) {
+        event.target.parentElement.classList.remove("uk-background-muted");
+    });
+
+
+    search.addEventListener("keyup", function(event) {
+
+        var resultItems = results.children;
+        var resultCount = results.children.length;
+                                
+        if (event.keyCode === 40) {
+
+            if (currentItem < (resultCount - 1)) {
+                if (currentItem === null) {
+                    currentItem = 0;
+                } else {
+                    removeActive();
+                    currentItem++;
+                }
+                removeActive();
+                resultItems[currentItem].classList.add("uk-background-muted");
+            }
+            
+        } else if (event.keyCode === 38) {
+
+            if (currentItem > 0) {
+                if (currentItem === null) {
+                    currentItem = 0;
+                } else {
+                    removeActive();
+                    currentItem--;
+                }
+                removeActive();
+                resultItems[currentItem].classList.add("uk-background-muted");
+            }
+
+        } else if (event.keyCode === 13) {
+
+            resultItems[currentItem].children[0].click();
+
+        }
+
+    });
+
+}
+</script>
+  
+  <!-- Hook head -->
+  
+</head>
+
+    <body>
+
+    
+        <div data-uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent; top: 200">
+    <nav class="uk-navbar-container">
+        <div class="uk-container">
+            <div data-uk-navbar>
+                <div class="uk-navbar-left">
+                    <a class="uk-navbar-item uk-logo uk-visible@m" href="/ayuda/">AM</a>
+                    
+                        <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas-docs" data-uk-toggle><span data-uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">AM</span></a>
+                    
+
+                    <ul class="uk-navbar-nav uk-visible@m">
+                        
+                            
+                            
+                            
+                                
+                                    
+                                        <li><a href="/ayuda/docs/1_1_introduction/" >Manual</a></li>
+                                                                                                        
+                                
+                            
+                        
+                            
+                            
+                            
+                                
+                                    
+                                        <li><a href="/ayuda/blog/" >Blog</a></li>
+                                                                                                        
+                                
+                            
+                        
+                            
+                            
+                            
+                                
+                                    
+                                        <li><a href="#">Registro de cambios</a>
+                                        
+                                            <div class="uk-navbar-dropdown">
+                                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                                    
+                                                    
+                                                        
+                                                        
+                                                        <li><a href="/ayuda/changelog-timeline/">Línea de tiempo</a></li>
+                                                    
+                                                    
+                                                    
+                                                        
+                                                        
+                                                        <li><a href="/ayuda/changelog-posts/">Publicaciones</a></li>
+                                                    
+                                                    
+                                                </ul>
+                                            </div>
+                                        
+                                        </li>
+                                                                                                        
+                                
+                            
+                        
+                    </ul>
+                </div>
+                <div class="uk-navbar-center uk-hidden@m">
+                    <a class="uk-navbar-item uk-logo" href="/ayuda/">AM</a>
+                </div>
+                <div class="uk-navbar-right">
+                    
+                        
+                            <div>
+                                <a id="search-navbar-toggle" class="uk-navbar-toggle" uk-search-icon href="#"></a>
+                                <div class="uk-drop uk-background-default uk-border-rounded" uk-drop="mode: click; pos: left-center; offset: 0">
+                                    <form class="uk-search uk-search-navbar uk-width-1-1" onsubmit="return false;">
+                                        <input id="search-navbar" class="uk-search-input" type="search" placeholder="Buscar respuestas" autofocus autocomplete="off">
+                                    </form>
+                                    <ul id="search-navbar-results" class="uk-position-absolute uk-width-1-1 uk-list"></ul>
+                                </div>
+                            </div>
+                            <script>
+                            SimpleJekyllSearch({
+                                searchInput: document.getElementById('search-navbar'),
+                                resultsContainer: document.getElementById('search-navbar-results'),
+                                noResultsText: '<li class="no-results">No encontré resultados</li>',
+                                searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
+                                json: "/ayuda/search.json"
+                            });
+                            searchResults("search-navbar");
+                            </script>
+                        
+                    
+
+                    <ul class="uk-navbar-nav uk-visible@m">
+                        
+                            
+                            
+                            
+                                
+                                    <li><div class="uk-navbar-item"><a class="uk-button uk-button-primary-outline" href="/ayuda/changelog-timeline/" >Registro de cambios</a></div></li>
+                                
+                            
+                        
+                            
+                            
+                            
+                                
+                                    <li><div class="uk-navbar-item"><a class="uk-button uk-button-success" href="/ayuda/contact/" >Contacto</a></div></li>
+                                
+                            
+                        
+                    </ul>
+
+                    
+                        <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas" data-uk-toggle><span data-uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">Menu</span></a>
+                    
+
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+    
+
+    <div class="uk-section">
+    <div class="uk-container">
+        <div class="uk-grid-large" data-uk-grid>
+
+            <div class="sidebar-fixed-width uk-visible@m">
+                <div class="sidebar-docs uk-position-fixed uk-margin-top">
+                    
+                    <h5>Trabajando con AM</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/1_1_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/1_2_first_look/">Un vistazo a AM</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/1_3_main_window/">Ventana Principal **AM 4G**</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/1_4_concurrence/">Concurrencia en AM</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/1_5_summary/">Resumen Como empezar a trabajar</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Infraestructura</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/2_1_introduction/">Infraestructura</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/2_2_basic_concept/">Conceptos Básicos sobre la Infraestructura</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/2_3_tables/">Tablas de Infraestructura</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/2_4_locations/">Ubicaciones Físicas</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/2_5_kardex_concepts/">Conceptos de Kárdex</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/2_6_operations/">Operaciones</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Activos</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/3_1_introduction/">Activos / Equipos, Objetos de Mantenimiento</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/3_2_basic_concepts/">Conceptos Básicos sobre Activos/Equipos</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/3_3_data_sheet/">Ficha Técnica</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/3_4_parts_list/">Despiece de Activos / Equipos</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Almacenes, Materiales y Repuestos</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/4_1_introduction/">Almacenes, Materiales y Repuestos</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/4_2_basic_concepts/">Conceptos Básicos sobre Almacenes, Materiales y Repuestos</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/4_3_spare_coding/">Codificación de Repuestos</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/4_4_main_window/">Ventana Principal de Almacén de Repuestos</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/4_5_export/">Exportar</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Kárdex</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/5_1_introduction/">Kárdex de Almacén</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/5_2_basic_concepts/">Conceptos Básicos sobre el Kárdex de Almacén</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/5_3_movements/">Ventana Movimientos de Kárdex</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/5_4_transactions/">Transacciones</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Solicitudes de Servicio</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/7_1_introduction/">Solicitudes de Servicio</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/7_2_basics_concepts/">Conceptos Básicos sobre Solicitudes de Servicio</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/7_3_transactions/">Transacciones</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/7_4_export/">Exportar</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Paros</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/8_1_introduction/">introducción.</a></li>
+                    
+                      
+                      
+                      <li class=""><a href=""></a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/8_3_creation/">Conceptos Básicos sobre Paros / Averías.</a></li>
+                    
+                      
+                      
+                      <li class="uk-active"><a href="/ayuda/docs/8_4_tracking_and_closing/">Seguimiento y Cierre de Paros / Averías.</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Órdenes de Trabajo</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/9_1_introduction/">introduccion</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/9_2_basic_concepts/">Conceptos Básicos sobre Órdenes de Trabajo</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/9_3_analysis_and_generation/">Análisis y Generación de Órdenes de Trabajo Programadas</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/9_4_main_window/">Ventana Principal de Órdenes de Trabajo</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/9_5_export/">Exportar</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Historia de mantenimiento</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/10_1_introduction/">Historia de Mantenimiento.</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/10_2_basic_concepts/">Conceptos Básicos de la Historia de Mantenimiento.</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/10_3_send_to_history/">Enviar a Historia (Desde Órdenes de Trabajo).</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/10_4_main_window/">Ventana Principal de Historia de Mantenimiento.</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/10_5_export/">Ventana Principal de Historia de Mantenimiento</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Programas de mantenimiento</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/11_1_introduction/">Programas de Mantenimiento</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/11_2_basic_concepts/">11_2_basic_concepts</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/11_3_main_window/">Ventana Principal de Programas de Mantenimiento</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/ayuda/docs/11_4_services/">Servicios</a></li>
+                    
+                    </ul>
+                    
+                </div>
+            </div>
+
+            <div class="uk-width-1-1 uk-width-expand@m">
+
+                <article class="uk-article">
+
+                    <h1 class="uk-article-title">Seguimiento y Cierre de Paros / Averías.</h1>
+
+                    <p class="uk-text-lead uk-text-muted">El proceso de cierre de un  **FDA** reviste el rigor de un cierre de OT y un proceso similar al de una SS. Se refiere el rigor de una OT a la precisión sobre las fechas y horas y a la clara definición de la Causa de la Falla.</p>
+
+                    <div class="uk-article-meta uk-margin-top uk-margin-medium-bottom uk-flex uk-flex-middle">
+                        
+
+
+  
+  <img class="uk-border-circle avatar" src="https://winsoftwaresas.github.io/ayuda/uploads/avatar-tom.png" alt="WIN Software">
+
+
+<div>
+  
+    Escrito por <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">WIN Software</span></span><br>
+  
+  <time datetime="2021-06-25T23:00:00-05:00" itemprop="datePublished">
+    
+    Jun 25, 2021
+  </time>
+</div>
+                    </div>
+
+                    <div class="article-content link-primary">
+                        <p>El proceso de cierre de un  <strong>FDA</strong> como tal, es similar, aunque más sencillo, al de una  SS. consiste en cambiar el <strong>“Estado”</strong>, por uno de dos: <strong>“Cerrada Ejecutada”</strong> o  <strong>“Cerrado con OT”</strong>, Para mayor detalle se debe referir al acápite <strong>“Seguimiento y Cierre”</strong> de Solicitudes de Servicio.</p>
+
+<p>##Ventana Principal de Paros/Averías</p>
+
+<p><img src="0.images/cap10/chp10_img02.png" alt="Ventana Principal de Paros/Averías" /></p>
+
+<p>A esta ventana se llega haciendo clic sobre la opción Paros del Menú Principal. A través de ella se ejecutan todas las funciones dedicadas a administrar los PA. A continuación, se ilustran las porciones que la componen.</p>
+
+<h2 id="ventana-visor-de-pa---fda">Ventana Visor de PA /  <strong>FDA</strong></h2>
+
+<p><img src="0.images/cap10/chp10_img03.png" alt="Ventana Visor de PA /  **FDA**" /></p>
+
+<p>Desde esta ventana es posible observar los PAROS /  <strong>FDA</strong> existentes. Se listan todos o   una selección o subgrupo de ellos. El conjunto de PAROS /  <strong>FDA</strong> disponibles a ser desplegado se muestra a través de  páginas.                 El tamaño  de  las  páginas  es  configurable  desde  la  opción Administración del menú principal, en la  sección <strong>“Valores por Defecto”</strong> por parte de un usuario autorizado.</p>
+
+<p>Al hacer clic sobre algún registro de PAROS /  <strong>FDA</strong> del Visor, el sistema responde  mostrando la información de ese  <strong>FDA</strong>, en forma detallada, en una ventana llamada Ventana Detalle.</p>
+
+<p>Los títulos en azul que encabezan las columnas son también botones que permiten ordenar la    tabla, según el título seleccionado. Para elegir un registro de la tabla se da un clic del mouse sobre él o se desplaza el cursor con las teclas de desplazamiento.</p>
+
+<h2 id="ventana-detalle-de-parosaverías">Ventana Detalle de Paros/Averías</h2>
+
+<p><img src="0.images/cap10/chp10_img04.png" alt="Ventana Detalle de Paros/Averías" /></p>
+
+<p>En la gráfica anterior, que muestra la ventana Detalle de  <strong>FDA</strong>, se aprecian todos los componentes y sus respectivos contenidos. En esta ventana Detalle de PAROS /  <strong>FDA</strong> se encuentra toda la información relevante al PAROS /  <strong>FDA</strong> seleccionado en el Visor.</p>
+
+<p>A continuación, se describen los campos que componen el registro. Sobre cada campo se da una breve explicación.</p>
+
+<p><strong>Núm. Paro:</strong> En este campo el sistema registra en forma automática el número del PARO /  <strong>FDA</strong>, sobre una base de consecutivo cronológico. El número del PARO /  <strong>FDA</strong> solo es asignado al concluir su proceso de Creación.</p>
+
+<p><strong>F/H Creación:</strong> El sistema registra automáticamente en este campo la fecha y  hora exacta en la que se registra el PARO /  <strong>FDA</strong> en el sistema.</p>
+
+<p><strong>Descripción:</strong>  En  este  campo  se  registra  una  descripción  breve  sobre  el  Paro. La descripción debe tener un tamaño no máximo de 100 caracteres. La funcionalidad de poder definir la descripción del  <strong>FDA</strong>, se parametriza en Administración, Valores por Defecto, en la etiqueta PAROS, la opción <strong>“Solicitar Descripción”</strong>.</p>
+
+<p><strong>Estado:</strong> Permite elegir el  estado de  seguimiento en  el  que  se  encuentra el  PA.  Las opciones de estado son: En Análisis, Cerrado Ejecutado o Cerrado con OT. 
+Un PARO /  <strong>FDA</strong> está en análisis  desde que  se  genera  hasta que  se  le da  atención  y se  finaliza  el  trabajo correctivo. Cuando se finaliza el trabajo, se define si el PARO /  <strong>FDA</strong> debe ser cerrado y enviado a Historia como  <strong>FDA</strong>, porque se pudo resolver en corto tiempo, a bajo costo y por la acción de un solo técnico de mantenimiento.<br />
+También un Paro se puede cerrar como OT, porque los costos en que se incurrió,  o  el  tiempo transcurrido,  o  el  número  de  horas  hombre  fueron  <strong>“mayores”</strong>, o porque la trascendencia del PARO /  <strong>FDA</strong> es grande en el contexto histórico del Equipo/Activo. 
+Al seleccionar el estado <strong>“Cerrado como Paro”</strong> se permite la modificación de cualquier información del PA. Mientras que, si se selecciona el estado <strong>“Cerrado con OT”</strong> no se permite la modificación del PA, porque toda su información se traslada automáticamente a la OT que se crea con el cierre.</p>
+
+<p><strong>Turno:</strong> Indica el turno laboral en el cual se produjo el paro. Se puede elegir entre  los turnos 1, 2, 3 y 4.</p>
+
+<p><strong>Módulo/Posición:</strong> Es un campo de información documental, variable, cuyo uso se define por  necesidades  propias  de  la  Organización. Puede  hacer  referencia  a  una  isla  de producción, a una posición dentro de una máquina, o a un proceso, en medio de los cuales se ubica el PA.</p>
+
+<p><strong>Referencia:</strong> En este campo se puede elegir la Referencia o producto, que se  estaba produciendo en el Equipo/Activo, en el momento en que se produjo el PA. A las  referencias es posible asignarle operaciones, por lo cual es conveniente elegir la  Referencia antes de elegir la Operación actual. Cuando se elige primero la Referencia, las operaciones que se despliegan son las que están relacionadas con ella. Una vez seleccionada la Referencia, se visualiza un link con el nombre de la Referencia seleccionada al lado derecho del botón 
+<span class="iconify btn" data-icon="mdi-filter-variant">Buscar</span> que está contiguo a este campo. La funcionalidad de poder definir una Referencia al   <strong>FDA</strong>, se parametriza en Administración, Valores por Defecto, en la etiqueta PAROS, la opción <strong>“El campo Referencia es obligatorio”</strong>.</p>
+
+<p><strong>Operador(a):</strong> En este campo se debe elegir el operario, registrado en la tabla de Terceros del  módulo de Infraestructura, la persona que  estaba operando el  Equipo/Activo, en  el  momento que  se produjo el PA. Una vez seleccionado el operador, se visualiza un link con el nombre del operador seleccionado al lado derecho del botón <span class="iconify btn" data-icon="mdi-filter-variant">Buscar</span> que está contiguo a este campo. Además, se puede digitar el nombre del operador, sin elegir el operario de la tabla de Terceros.</p>
+
+<p><strong>Óp. Actual:</strong> Permite elegir la Operación, registrada en la tabla Operaciones del módulo de
+Infraestructura, que se estaba ejecutando en el momento en que se produjo el PA.</p>
+
+<p><strong>A qué Activo:</strong> En esta sección se pretende  identificar claramente el  Equipo/Activo  o  el  Objeto  de Mantenimiento que presentó el PA.</p>
+
+<p><strong>Código del Activo:</strong> En este campo se visualiza la información del código del Equipo/Activo seleccionado.</p>
+
+<p><strong>Elección de un Equipo/Activo</strong>:</p>
+
+<p>Consiste en buscar el Equipo/Activo, a través del visor de Equipo/Activos. Para ello se da un clic sobre el icono de filtro de <a class="btn">Equipo/Activos</a> (icono de triángulo invertido).    Acto seguido se muestra la ventana de visor de Equipo/Activos junto con la de subgrupo para poder ubicarlo. Una vez se encuentra el Equipo/Activo en la Tabla de visor de Equipo/Activos, se selecciona dando un clic sobre cualquiera de sus campos. A continuación se da un clic sobre botón <a class="btn"> Aceptar </a> de   esa   ventana   o   se   hace   doble   clic   sobre   el   registro   seleccionado. Inmediatamente ese código aparece en el primer campo de la línea de Equipo/Activo en la forma de registro de paros.</p>
+
+<p><strong>Descripción:</strong> Muestra el nombre o la descripción del Activo seleccionado. Es un campo que no es modificable por el usuario.</p>
+
+<p><strong>FF Fin Garantía:</strong> Muestra la fecha en la que se vence la garantía del Activo seleccionado. Si se encuentra con fecha de garantía vigente se muestra en color negro, mientras que si se encuentra con fecha de garantía vencida se muestra en color rojo. Es un campo que no es modificable por el usuario.</p>
+
+<p><strong>Activo Fijo:</strong> En este campo se visualiza la información del Número de Activo Fijo del
+Equipo/Activo que se haya establecido en la ficha técnica de este mismo. Es un campo que no es modificable por el usuario.</p>
+
+<p><strong>Código de Inventario:</strong> En este campo se visualiza el código del inventario del Equipo/Activo que se haya establecido en la ficha técnica de este mismo. Es un campo que no es modificable por el usuario.</p>
+
+<p><strong>Referencia Externa (Proveedor):</strong> En este campo se visualiza la información de la referencia del Equipo/Activo que se haya establecido en la ficha técnica de este mismo. Es un campo que no es modificable por el usuario.</p>
+
+<p><strong>Serial:</strong> En  este  campo se  visualiza  la información del  Serial  del  Equipo/Activo que se  haya establecido en la ficha técnica de este mismo. Es un campo que no es modificable por el usuario.</p>
+
+<p><strong>Alias:</strong>   En este  campo se  visualiza la  información del  Alias  del  Equipo/Activo que  se  haya establecido en la ficha técnica de este mismo. Es un campo que no es modificable por el usuario.</p>
+
+<p><strong>Solicitante:</strong>   En este campo se define el nombre del Solicitante del Paro y Avería. Cuando la OT es generada desde un  <strong>FDA</strong>, este campo contiene el solicitante ingresado en el PA. El solicitante puede registrar su nombre en el espacio correspondiente. Sin embargo  es posible también seleccionar su nombre de la lista que se habilita como  desplegable al marcar la opción <strong>“Incluido en Terceros”</strong>.</p>
+
+<p><strong>Incluido en TE (RI):</strong> Al seleccionar esta opción, en el campo <strong>“Solicitante”</strong> solo se despliegan los Terceros o Responsables Internos existentes en la tabla de Terceros en infraestructura. Se debe tener  en cuenta que de la tabla de Terceros solo se despliegan los Terceros de Tipo RI. La funcionalidad de poder definir el Solicitante del  <strong>FDA</strong>, se  parametriza  en  Administración, se sobrepone el mouse en una compañía de la lista que se muestra y se da clic en <a class="btn">Valores por defecto</a>, en la etiqueta de Paros, se selecciona la opción <strong>“Preguntar Solicitante”</strong>.</p>
+
+<p>El  solicitante  del   <strong>FDA</strong>,  se  permite  parametrizar  para que  se  defina  el  usuario  logueado  al sistema,  bloqueando  el  campo  para  que  no  se  pueda  modificar.  Para  realizar  tal funcionalidad, se debe ir a Administración, se sobrepone el mouse en una compañía de la lista que se muestra y se da clic en <a class="btn">Valores por defecto</a>, en la etiqueta de Paros, se selecciona la opción <strong>“El solicitante es tomado del usuario logueado y no se puede modificar.”</strong>.</p>
+
+<p><strong>Correo Electrónico:</strong> En este campo se define el correo electrónico del solicitante del  <strong>FDA</strong>, cuando el solicitante es digitado manualmente. Si el solicitante se selecciona con la opción <strong>“Incluido en Terceros”</strong> y allí se tiene definido el correo electrónico, automáticamente se carga a este campo el e-mail definido en el módulo de Terceros. La funcionalidad del envío de correos electrónicos se parametriza en Administración, se sobrepone el mouse en una compañía de la lista que se muestra y se da clic en <a class="btn">Valores por defecto</a>, en la etiqueta de General, se selecciona la opción <strong>“Enviar correo electrónico al solicitante”</strong>.</p>
+
+<p><strong>Centro de Costo:</strong> Este campo permite seleccionar el Centro de Costo o Cliente que es responsable del Objeto de Mantenimiento. Cuando se define un Equipo u Objeto  de Mantenimiento válido, el sistema trae automáticamente a este campo el Centro de Costo asociado. Inicialmente se sugiere el Centro de Costo que tiene asociado el Activo Objeto de  Mantenimiento, aun así, puede cambiarse.</p>
+
+<p><strong>Sub CC:</strong> Este campo siempre está bloqueado y muestra el Código Sub CC asociado al Centro de Costo elegido.</p>
+
+<p><strong>Ubicación Física:</strong> Este campo permite seleccionar la   Ubicación Física en   la que  se encuentra el  Objeto de  Mantenimiento para  el  que  se  genera el PA. Cuando se  define  un  Equipo  u  Objeto  de  Mantenimiento  válido,  el   sistema  trae automáticamente a este campo la Ubicación Física asociada. Inicialmente se sugiere la Ubicación Física que tiene asociada el Activo Objeto de  Mantenimiento, aun así, puede cambiarse.</p>
+
+<p><strong>Centro Responsable</strong>: Se define en este campo el nombre del grupo de Mantenimiento encargado de la ejecución del PA. Para ello, se selecciona uno  de  los  Centros Responsables  que   están  definidos  en  la  tabla  de   <strong>“Centros   Responsables”</strong> en  la Infraestructura.</p>
+
+<p><strong>Responsable:</strong> En esta lista se debe elegir la persona de mantenimiento que dió atención y estuvo al frente de la solución al PA. El responsable es obligante al escoger el estado <strong>“Cerrada Ejecutada”</strong> o <strong>“Cerrado con OT”</strong>. Para ello se selecciona uno de los Responsables que están definidos en la tabla de <strong>“Responsables”</strong> en la Infraestructura. Al lado derecho de este campo existe una caja de selección <strong>“Filtrar  por CR”</strong>, que al ser marcada filtra los Responsables por el Centro Responsable previamente seleccionado.</p>
+
+<p><strong>Filtrar por CR:</strong> Al seleccionar esta opción, en el campo <strong>“Responsable”</strong> solo se despliegan los Responsables correspondientes al Centro Responsable elegido en la opción <strong>“Centro Responsable”</strong>. En otro caso, en el campo <strong>“Responsable”</strong> se despliegan todos los  <strong>“Responsables”</strong> existentes en la tabla respectiva.</p>
+
+<p><strong>Causa de Falla:</strong> Una vez se solucione el PAROS /  <strong>FDA</strong> y se determine la causa, se debe seleccionar en esta lista la causa de la falla que ocasionó el PA. Si no existe la causa de falla en la lista que se despliega, ella se debe crear en la tabla respectiva, Causas de Falla, en el módulo de infraestructura.</p>
+
+<p><strong>Restricción:</strong> Indica si el Equipo/Activo que presentó el  <strong>FDA</strong>, es restrictivo o no. Un Equipo/Activo es restrictivo si el hecho de que pare, detiene la línea de producción a la que pertenece.</p>
+
+<p><strong>T. Trabajo:</strong> –AM 4G– 	predefine  (aunque  pueden  personalizarse) cuatro  tipos  de trabajo: Mecánico (MEC),  Eléctrico (ELE),  Instrumentación/Electrónica (IEL)  y  Otro (OTR). Indica los Tipos de Trabajo que se realizan en el PA. Es posible definir más de un Tipo de Trabajo para un Paro.</p>
+
+<p><strong>T. Mtto:</strong> Este campo indica el Tipo de Mantenimiento a realizar en el Paro y Avería.  Todo Paro debe poseer uno. Si en el Paro se va a registrar un trabajo que no corresponde a una labor de mantenimiento, en este campo se elige <strong>“Otro”</strong> y a continuación, en el tipo de <strong>“Actividad”</strong> se especifica detalladamente, el tipo de labor.</p>
+
+<p>**
+** Aquí se establece el Tipo de Actividad a realizar en el Paro. La Actividad de Mantenimiento para un Paro y Avería, se elige desde la tabla <strong>“Tipos de Actividad”</strong> en el módulo de <strong>“Infraestructura”</strong>. Este campo trabaja en coordinación con el anterior (Tipo de Mantenimiento). Si en el campo anterior se ha hecho la selección de un valor diferente de <strong>“Otro”</strong>, en el tipo de Actividad se debe seleccionar el valor <strong>“Mantto”</strong>, lo que indica que se trata de una actividad que constituye mantenimiento. Si en el  campo  anterior se ha seleccionado el valor <strong>“Otro”</strong>, en el campo Tipo de Actividad se debe seleccionar un valor que defina consistentemente la labor a ejecutar.</p>
+
+<p>Los campos <strong>“T. Trabajo, T. Mtto y T. Actividad”</strong>, se parametrizan de forma opcional desde el módulo de Administración, se sobrepone el mouse en una compañía de la lista que se muestra y se da clic en <a class="btn">Valores por defecto</a>, en la etiqueta de Paros, se selecciona la opción <strong>“Solicitar datos para definir proceso (Tipo Trabajo, Tipo Mantenimiento, Tipo Actividad)”</strong>.</p>
+
+<p><strong>F/H Paro:</strong> Se registra en este campo la fecha y hora exacta en la que  se informa del PARO /  <strong>FDA</strong> a Mantenimiento.</p>
+
+<p><strong>F/H Atención:</strong> Se registra en este campo la fecha y hora exacta en la que se dio atención al paro.</p>
+
+<p><strong>F/H Inicio Trabajo:</strong> Se registra en este campo la fecha y hora exacta en la que se dio inicio a la labor para solucionar el  PA. El trabajo correctivo da inicio una vez  que se cumplan con todos los requerimientos de la labor: Producción ha entregado el Equipo/Activo en estado de ser mantenido y Mantenimiento ha preparado todos los recursos necesarios.</p>
+
+<p><strong>F/H Fin Trabajo:</strong> Se registra en este campo la fecha y hora exacta en la que se culminó la labor correctiva o de reparación del Equipo/Activo, para solucionar el PA.</p>
+
+<p><strong>F/H Cierre:</strong> El sistema registra en este campo, automáticamente, la fecha y hora exacta en la que el usuario encargado, cambia el estado del PARO/  <strong>FDA</strong> a uno de los estados de cierre.</p>
+
+<p><strong>Sugerir Fecha / Hora:</strong> Este botón registra automáticamente la fecha y hora de creación del Paro, en los campos de F/H Paro, F/H Atención, F/H Inicio Trabajo y F/H Fin Trabajo.</p>
+
+<p><strong>Comentarios Trabajo Realizado:</strong> Se registra en este campo la descripción y el trabajo realizado del PA.  Es importante cuando el PARO /  <strong>FDA</strong> se va a cerrar con OT, y no se tiene activo el campo Descripción del  <strong>FDA</strong>, este campo se utiliza para determinar la descripción de la OT.</p>
+
+<p><strong>Ir a la Orden de Trabajo generada:</strong> Cuando el PARO /  <strong>FDA</strong> es cerrado con OT, el sistema crea un vínculo directo a la OT generada en el módulo de Órdenes de Trabajo. En la OT correspondiente también se crea un vínculo hacia el PAROS /  <strong>FDA</strong> que le dio origen.</p>
+
+<h1 id="ventana-submenú-de-paros--averías">Ventana Submenú de Paros / Averías</h1>
+
+<h2 id="indicadores">Indicadores</h2>
+
+<p>Es posible visualizar de manera inmediata, los PAROS /  <strong>FDA</strong> con Multimedia y Servicio Evaluado, directamente desde la ventana visor, a través de la columna <strong>“Indicadores”</strong> que muestra una pelota de color que indica si tiene asociado Multimedia y/o si tiene el Servicio Evaluado. El significado del color de cada pelota, se puede ver en el recuadro de Indicadores, ubicado en la parte superior derecha de la ventana visor.</p>
+
+<p><img src="0.images/cap10/chp10_img05.png" alt="Indicadores" /></p>
+
+<p>El significado de los colores se visualiza al sobreponer el mouse en el icono que se encuentra al extremo superior derecho y su correspondencia es:</p>
+<ul>
+  <li><strong>Naranja:</strong> PARO /  <strong>FDA</strong> que tienen asociados archivos de imágenes, videos y/o documentos en la pestaña Multimedia.</li>
+  <li><strong>Azul:</strong> PARO /  <strong>FDA</strong> en estado Cerrada Ejecutada al que se le realizó la evaluación del Servicio.</li>
+</ul>
+
+<h2 id="subgrupo">Subgrupo</h2>
+
+<p>Se usa para seleccionar grupos de Paros y/o Averías que cumplen con un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al  &lt;span class=”iconify btn” data-icon=filter-variant&gt;icono de filtro&lt;/span&gt;, ubicado en la parte superior derecha de la ventana Visor de Paros.</p>
+
+<p><img src="0.images/cap10/chp10_img05.png" alt="paros fda" /></p>
+
+<p>Cada criterio trabaja en conjunto con los demás, con el operador intersección.</p>
+
+<p>Cada criterio aparece inicializado en un valor global que permite mostrar todos los Paros. Lo que significa que de no escoger un criterio se obtiene como resultado del subgrupo el mismo conjunto de todos los Paros.</p>
+
+<p><strong>AM 4G</strong> mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar.</p>
+
+<p>El programa permite entonces hacer selección de un grupo de Paros de acuerdo con los criterios seleccionados en la siguiente ventana.</p>
+
+<p><img src="0.images/cap10/chp10_img06.png" alt="ventana de paros fda" /></p>
+
+<p>Los campos de datos que constituyen criterio de selección en la Ventana Subgrupo de
+Paros son los siguientes.</p>
+
+<p><strong>1. FILTRAR POR C AMPOS DEL EQUIPO/ACTIVO ASOCI ADO AL PARO</strong></p>
+
+<p><strong>AC - Alias:</strong> Este campo preselecciona los Paros para los Activos cuyo Alias corresponda a los valores aquí definidos. En este campo se pueden utilizar los comodines.</p>
+
+<p><strong>AC – Cód. de Barras Int.:</strong> Permite seleccionar los Paros que se encuentran asociadas al Activo que se encuentre con el Código de Barras Interno que el usuario ingresa en este campo del subgrupo y que posea un Paro.</p>
+
+<p><strong>AC – Cód. de Barras Prov.:</strong> Permite seleccionar los Paros asociadas a un   Activo que se encuentre ligado al Código de Barras del Proveedor que se ingresó al crear el Activo.</p>
+
+<p><strong>AC - Código:</strong> Esta selección agrupa los Paros cuyos Equipo/Activos coincidan con el relacionado en este criterio. Es posible definir el código completo o una porción del mismo. Por ejemplo: si se escribe 341%, se seleccionan todos los Paros cuyo código de Equipo/Activo inicia por 341. Si se escribe %1 se seleccionan todos los Paros cuyo código de Equipo/Activo finaliza en un <strong>“1”</strong>. El porcentaje (%) es un carácter comodín que significa <strong>“todos”</strong>.</p>
+
+<p><strong>AC-Descripción:</strong> Selecciona los Paros asociados a los   Activos según criterios que se fundamenten  en  su  descripción.  Ejemplo: %Motor% selecciona todos los Activos, en cuya descripción, en cualquier posición, tengan la palabra <strong>“Motor”</strong>.</p>
+
+<p><strong>AC-Estado:</strong> Este filtro permite seleccionar los PAROS /  <strong>FDA</strong> de acuerdo con el Estado del Activo u Objeto de Mantenimiento. Así que se pueden filtrar los PAROS /  <strong>FDA</strong> para los cuales el AC correspondiente está activo o inactivo.</p>
+
+<p><strong>AC-Número Activo Fijo:</strong> Este campo preselecciona los PAROS /  <strong>FDA</strong> para el o los Activos cuyo Número de Activo corresponde a los valores aquí definidos. En este campo se pueden utilizar los comodines.</p>
+
+<p><strong>AC-Referencia:</strong> Este filtro permite seleccionar PAROS /  <strong>FDA</strong> de acuerdo con su número de Referencia.</p>
+
+<p><strong>AC-Serial:</strong> Esta alternativa permite seleccionar los Paros de acuerdo con el número serial del Equipo/Activo objeto de mantenimiento. El campo acepta comodines.</p>
+
+<p><strong>AC-Ubicación Física:</strong> Permite la selección de los PAROS /  <strong>FDA</strong> cuyo Activo se encuentre en   una   Ubicación Física   determinada.  Cuando   se   utilizan   comodines, es   posible seleccionar PAROS /  <strong>FDA</strong> cuyo Activo esté en una Ubicación Física  que tenga parte del nombre igual.  Por ejemplo: Cava% selecciona los PAROS /  <strong>FDA</strong> a Activos cuya Ubicación Física empieza por la  palabra  Cava,  independientemente  de   si  se  está  hablando  de  la  Cava  de Fermentación, Maduración o Contrapresión.</p>
+
+<p><strong>AC-Tipo:</strong> Selecciona los PAROS /  <strong>FDA</strong> asociados a los Activos que se   encuentran asociados al tipo ingresado por el usuario.</p>
+
+<p><strong>2. FILTRAR POR C AMPOS DEL P ARO</strong></p>
+
+<p><strong>Causa   de   Falla:</strong>   El  sistema  busca  todos  los  Paros  que  tengan  registrada  la   falla seleccionada de la lista o que cumplan con el criterio de búsqueda utilizado, marcando la opción utilizar comodines.</p>
+
+<p><strong>Centro Responsable:</strong> Agrupa los PAROS /  <strong>FDA</strong> cuyo Centro responsable es el seleccionado.</p>
+
+<p><strong>Estado del Paro:</strong> Este criterio agrupa los PAROS /  <strong>FDA</strong> de acuerdo a un Estado. Al descolgar aparece el listado de todos los Estados posibles para un Paro.</p>
+
+<p><strong>FF de Cierre:</strong> Permite la selección de los Paros cuya fecha de Cierre se encuentren incluidas en el rango especificado en este campo, si no se especifica una de las 2 fechas, el sistema establece un rango abierto para esta fecha, es decir, si se especifica la <strong>“fecha  desde”</strong>, pero no se especifica la <strong>“fecha hasta”</strong>, el sistema utiliza como <strong>“fecha hasta”</strong> la fecha actual.</p>
+
+<p><strong>FF de  **FDA</strong>:** Este campo preselecciona los Paros cuya fecha de Falla, Daño o Avería se encuentre en el rango especificado, si no se especifica una de las 2 fechas, el sistema establece un rango abierto para esta fecha, es decir, si  se especifica la <strong>“fecha  desde”</strong>, pero no se especifica la <strong>“fecha hasta”</strong>, el sistema utiliza como <strong>“fecha hasta”</strong> la fecha actual.</p>
+
+<p><strong>Responsable:</strong> Este criterio agrupa todos los Paros que  hayan sido  atendidos por  el
+Responsable especificado. En este campo se pueden utilizar los comodines.</p>
+
+<p><strong>Solicitante (Digitado manualmente):</strong> Agrupa los Paros cuyo solicitante fue especificado manualmente en este campo. Se pueden utilizar los comodines.</p>
+
+<p><strong>Solicitante (Incluido en TE – Tipo RI)</strong>: Este campo permite seleccionar los Paros activos para el o los Solicitantes aquí definidos. Existen dos formas de definir el Solicitante o grupo de Solicitantes. La primera es seleccionando el  solicitante de la lista desplegable. La  segunda  es dando clic al <span class="iconify btn" data-icon="lock">Candado</span> <strong>“Utilizar  comodines”</strong>  y digitando a continuación segmentos del nombre del Solicitante utilizando comodines.</p>
+
+<p><strong>Tipo de Actividad:</strong> Filtra los Paros por el Tipo de Actividad que aquí se selecciona. Existen dos formas de filtrar el Tipo de Actividad. La primera es seleccionando el Tipo de Actividad de la lista desplegable. La segunda  es dando clic  <span class="iconify btn" data-icon="lock">Candado</span> <strong>“Utilizar  comodines”</strong>  y digitando a continuación segmentos del Tipo de Actividad utilizando comodines.</p>
+
+<p><strong>Tipo de Mantenimiento:</strong> Este criterio de búsqueda filtra los Paros y Averías por el Tipo de
+Mantenimiento que aquí se selecciona.</p>
+
+<p><strong>Tipo de Trabajo:</strong> Este criterio de búsqueda filtra los Paros y Averías por el Tipo de Trabajo que aquí se selecciona.</p>
+
+<p><strong>Referencia:</strong> Este  campo  preselecciona  los  Paros que  tengan  registrada  la  referencia elegida.  En este campo se pueden utilizar los comodines.</p>
+
+<h2 id="vistas-parciales--pestañas">Vistas Parciales / Pestañas</h2>
+
+<h3 id="multimedia">Multimedia</h3>
+
+<p><img src="0.images/cap10/chp10_img07.png" alt="ventana de paros fda" /></p>
+
+<p>En la gráfica anterior, Ventana Multimedia, se aprecian sus componentes y sus respectivos contenidos.</p>
+
+<p>A través de la ventana Multimedia se adjunta información adicional al PARO /  <strong>FDA</strong> en cada una de sus carpetas asignadas. Esta opción permite asociar al  <strong>FDA</strong>, uno o varios documentos, con el  objetivo de facilitar el trabajo a  realizar,  o guiarlo, o detallarlo minuciosamente. Se aceptan documentos de extensiones .DOC, XLS, PDF, JPG, es decir, de Microsoft Word o Microsoft Excel, Acrobat o Imágenes varias.</p>
+
+<p><strong>Los documentos anexos pueden contener:</strong> ayudas necesarias en la ejecución de la OT que se genera desde este PA: planos, manuales técnicos, manuales de normas  técnicas de Mantenimiento o de especificaciones detalladas, normas de seguridad, enfoques de acción, procedimientos sobre cómo realizar la labor, checklists, protocolos de prueba y otra información estándar para su ejecución, en aras de optimizar los recursos de tiempo y de insumos a ser consumidos, como también en aras de preservar la  seguridad del recurso humano.</p>
+
+<p>A continuación se describen las carpetas que componen esta ventana; cuando se quiera actualizar o ingresar nueva información al  <strong>FDA</strong>, se deberán registrar así:</p>
+
+<p><strong>Cuadro Identificación:</strong> Aparece con los campos bloqueados para que el usuario visualice la información básica del Paro al cual se le están definiendo las Características.</p>
+
+<p><strong>Documentos:</strong> En esta carpeta se relacionan toda clase de documentación relacionada al PA. <strong>Ejemplo:</strong> Archivos en Word, pdf, Excel, entre otros.</p>
+
+<p><strong>Imágenes:</strong> En esta carpeta se relacionan toda clase de imágenes relacionadas al PA. <strong>Ejemplo:</strong> Imágenes en formato jpg, png, entre otros.</p>
+
+<p><strong>Videos:</strong> En esta carpeta se relacionan porciones de videos relacionados al PA. Ejemplo: Videos en formato wmv, entre otros.</p>
+
+<p><img src="0.images/cap10/chp10_img08.png" alt="ventana de paros fda" /></p>
+
+<p>Para adicionar un documento, imagen o video, se debe dar clic en la carpeta deseada, luego se da clic al icono <span class="iconify btn" data-icon="cloud-upload">Cargar</span>, a continuación se abre una nueva ventana para realizar la búsqueda del archivo a subir, se selecciona el archivo y se da clic en <a class="btn">Abrir</a>.
+abrir.</p>
+
+<p><img src="0.images/cap10/chp10_img09.png" alt="ventana de paros fda" /></p>
+
+<p>Una vez se da clic en <a class="btn">Abrir</a>, se evidencia al lado derecho el nombre del archivo elegido y aparece un campo en blanco, para que el usuario escriba un nombre adicional del archivo para ser usado como una referenciación del archivo adjunto. Luego, se da clic en el botón <a class="btn">Subir archivo</a>.</p>
+
+<p><img src="0.images/cap10/chp10_img10.png" alt="ventana de paros fda" /></p>
+
+<p>Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic en uno de las imágenes, se visualiza la imagen adjunta.</p>
+
+<p>Para desasociar un documento, o una imagen o un video, al PARO /  <strong>FDA</strong> se da clic al icono de <span class="iconify btn" data-icon="delete">eliminar (basura)</span>) que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro y se da clic en el botón <a class="btn">Aceptar</a>.</p>
+
+<p>Si se desea descargar un archivo adjunto al PARO /  <strong>FDA</strong>, se debe dar clic en el icono de &lt;span class=”iconify btn” data-icon=cloud-download&gt;la nube con flecha hacia abajo&lt;/span&gt;, que se encuentra al lado derecho del archivo que se quiere descargar.</p>
+
+<h3 id="evaluar-servicio">Evaluar Servicio</h3>
+
+<p>Se realiza a través de la pestaña Evaluar Servicio de la ventana Detalle, la evaluación del servicio prestado por el personal de mantenimiento o de servicios, en el Paro seleccionado.  La evaluación la debe realizar un usuario, previamente autorizado, quien fuera el receptor del servicio, una vez se ha ya cerrado el Paro. Esta opción de evaluación se hace disponible, cuando se han definido  las cinco preguntas de  evaluación,  en  <strong>“Parámetros  para Evaluación del  Servicio”</strong>, en <strong>“Valores por Defecto”</strong>, en el módulo de <strong>“Administración”</strong>.</p>
+
+<p><img src="0.images/cap10/chp10_img10.png" alt="ventana paros fda" /></p>
+
+<h2 id="transacciones">Transacciones</h2>
+
+<h3 id="enviar-a-historia">Enviar a Historia</h3>
+
+<p>A esta opción se llega al sobreponer el cursor del mouse sobre el módulo de Paros y al lado derecho se despliega el conjunto de transacciones disponibles para el módulo de Paros, luego se elige la transacción <strong>“Enviar a Historia”</strong>.</p>
+
+<p><img src="0.images/cap11/chp10_img10.png" alt="paros" /></p>
+
+<p>El objetivo de esta transacción es desplazar hacia el módulo de Historia de Mantenimiento, los  registros que  se  hayan  preseleccionados por  un  subgrupo, es   decir, los que se encuentran en el visor,  que además tengan estado de Cerrados y residan todavía en el módulo de Paros. Los estados de  Cierre  que  son  tomados para  este  proceso son:   Cerrada Ejecutada y Cerrado con OT.</p>
+
+<p><img src="0.images/cap11/chp10_img11.png" alt="Ventana PAROS /  **FDA** (Transacciones- Enviar a Historia)" /></p>
+
+<p>En  la  gráfica  anterior, Enviar a Historia, se  aprecian  sus  componentes  y   sus respectivos contenidos.</p>
+
+<p>A   continuación se  describen  los  campos  que  componen  esta  Ventana   información adicional.</p>
+
+<p>En la ventana aparece un botón <a class="btn">Enviar</a> y tres casillas de selección. Estas casillas  de selección parametriza los registros que se desean enviar a Historia.</p>
+
+<p><strong>Todos los registros del visor:</strong> Con esta opción se realiza el envío de todos los Paros existentes en la base de datos, sin importar cualquier subgrupo activo.</p>
+
+<p><strong>Registros del visor:</strong> Esta opción realiza el envío de todos los Paros seleccionados en el visor mediante un subgrupo.</p>
+
+<p><strong>Registro seleccionado:</strong> Esta opción realiza el envío del Paro que está resaltado en el visor (tiene la línea verde del cursor sobre sí).</p>
+
+<h3 id="exportar">Exportar</h3>
+
+<p>Esta opción permite la exportación de los Paros y Averías que aparecen en el visor, totales o provenientes de un subgrupo, a un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso.</p>
+
+<p>Al ejecutar esta transacción, se abrirá una ventana la cual se muestra a continuación.</p>
+
+<p><img src="0.images/cap11/chp10_img12.png" alt="Ventana PAROS /  **FDA** (Transacciones- Exportar)" /></p>
+
+<p>Al darle clic en el botón <a class="btn">Exportar</a>, se generará un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso, el objetivo de esta exportación es llevar toda la información de los Paros contenidos en el visor a un archivo plano, para luego ser analizados.</p>
+
+<p>Adicionalmente, es posible exportar todos los campos de la ventana Detalle de los Paros y Averías, para esto se da clic en el cuadro llamado <strong>“Exportar Todas Las Columnas”</strong>. También, es posible exportar uno o varios campos de la ventana Detalle de los Paros y Averías, para esto se da clic en cada uno de los cuadros que acompañan los campos.</p>
+
+                        
+                            <div class="share uk-text-center uk-margin-medium-top">
+    
+        <a class="uk-link-muted" href="https://twitter.com/intent/tweet?text=Seguimiento y Cierre de Paros / Averías.&url=https://winsoftwaresas.github.io/docs/8_4_tracking_and_closing/&via=&related=" rel="nofollow" target="_blank" title="Compartir en Twitter" onclick="window.open(this.href, 'twitter', 'width=550,height=235');return false;"><span data-uk-icon="icon: twitter; ratio: 1.2"></span></a>
+    
+    
+        <a class="uk-link-muted uk-margin-small-left" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwinsoftwaresas.github.io%2Fdocs%2F8_4_tracking_and_closing%2F" rel="nofollow" target="_blank" title="Compartir en Facebook" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;"><span data-uk-icon="icon: facebook; ratio: 1.2"></span></a>
+    
+</div>
+                        
+                    </div>
+
+                    <!-- Hook post content doc -->
+
+                    <hr class="uk-margin-medium">
+
+                    
+
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+    <div class="uk-margin-large-top paginate-post">
+        <div class="uk-child-width-expand@s uk-grid-large uk-pagi" data-uk-grid>
+            <div>
+                
+                  
+                  
+                  
+                    <h5></h5>
+                    <div><a class="remove-underline hvr-back" href="/ayuda/docs/8_3_creation/">&larr; Anterior</a></div>
+                
+            </div>
+            <div>
+                
+                  
+                  
+                  
+                    <h5></h5>
+                    <div class="uk-text-right"><a class="remove-underline hvr-forward" href="/ayuda/docs/9_1_introduction/">Siguiente &rarr;</a></div>
+                
+            </div>
+        </div>
+    </div>
+    
+
+
+                    <div class="uk-margin-large-top">
+    <h3>Temas relacionados</h3>
+
+    
+    
+    
+
+    <ul class="uk-list link-secondary">
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+        <li><a href="/ayuda/docs/10_1_introduction/">Historia de Mantenimiento.</a></li>
+        
+        
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+        <li><a href="/ayuda/docs/11_1_introduction/">Programas de Mantenimiento</a></li>
+        
+        
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+        <li><a href="/ayuda/docs/11_3_main_window/">Ventana Principal de Programas de Mantenimiento</a></li>
+        
+        
+    
+
+    
+
+    
+    
+
+    
+
+    
+        <li><a href="/ayuda/docs/11_4_services/">Servicios</a></li>
+        
+        
+            
+    </ul>
+</div>
+
+
+                    
+                </article>
+
+                <script>
+                    // Table of contents scroll to
+                    UIkit.scroll('#markdown-toc a', {
+                        duration: 400,
+                        offset: 120
+                    });
+                </script>
+
+            </div>
+
+    </div>
+</div>
+
+
+    <div id="offcanvas-docs" data-uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar">
+
+        <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+
+        
+        <h5 class="uk-margin-top">Trabajando con AM</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/1_1_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/1_2_first_look/">Un vistazo a AM</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/1_3_main_window/">Ventana Principal **AM 4G**</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/1_4_concurrence/">Concurrencia en AM</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/1_5_summary/">Resumen Como empezar a trabajar</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Infraestructura</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/2_1_introduction/">Infraestructura</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/2_2_basic_concept/">Conceptos Básicos sobre la Infraestructura</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/2_3_tables/">Tablas de Infraestructura</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/2_4_locations/">Ubicaciones Físicas</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/2_5_kardex_concepts/">Conceptos de Kárdex</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/2_6_operations/">Operaciones</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Activos</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/3_1_introduction/">Activos / Equipos, Objetos de Mantenimiento</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/3_2_basic_concepts/">Conceptos Básicos sobre Activos/Equipos</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/3_3_data_sheet/">Ficha Técnica</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/3_4_parts_list/">Despiece de Activos / Equipos</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Almacenes, Materiales y Repuestos</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/4_1_introduction/">Almacenes, Materiales y Repuestos</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/4_2_basic_concepts/">Conceptos Básicos sobre Almacenes, Materiales y Repuestos</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/4_3_spare_coding/">Codificación de Repuestos</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/4_4_main_window/">Ventana Principal de Almacén de Repuestos</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/4_5_export/">Exportar</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Kárdex</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/5_1_introduction/">Kárdex de Almacén</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/5_2_basic_concepts/">Conceptos Básicos sobre el Kárdex de Almacén</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/5_3_movements/">Ventana Movimientos de Kárdex</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/5_4_transactions/">Transacciones</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Solicitudes de Servicio</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/7_1_introduction/">Solicitudes de Servicio</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/7_2_basics_concepts/">Conceptos Básicos sobre Solicitudes de Servicio</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/7_3_transactions/">Transacciones</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/7_4_export/">Exportar</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Paros</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/8_1_introduction/">introducción.</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda"></a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/8_3_creation/">Conceptos Básicos sobre Paros / Averías.</a></li>
+        
+          
+          
+          <li class="uk-active"><a href="/ayuda/docs/8_4_tracking_and_closing/">Seguimiento y Cierre de Paros / Averías.</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Órdenes de Trabajo</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/9_1_introduction/">introduccion</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/9_2_basic_concepts/">Conceptos Básicos sobre Órdenes de Trabajo</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/9_3_analysis_and_generation/">Análisis y Generación de Órdenes de Trabajo Programadas</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/9_4_main_window/">Ventana Principal de Órdenes de Trabajo</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/9_5_export/">Exportar</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Historia de mantenimiento</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/10_1_introduction/">Historia de Mantenimiento.</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/10_2_basic_concepts/">Conceptos Básicos de la Historia de Mantenimiento.</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/10_3_send_to_history/">Enviar a Historia (Desde Órdenes de Trabajo).</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/10_4_main_window/">Ventana Principal de Historia de Mantenimiento.</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/10_5_export/">Ventana Principal de Historia de Mantenimiento</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Programas de mantenimiento</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/11_1_introduction/">Programas de Mantenimiento</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/11_2_basic_concepts/">11_2_basic_concepts</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/11_3_main_window/">Ventana Principal de Programas de Mantenimiento</a></li>
+        
+          
+          
+          <li class=""><a href="/ayuda/docs/11_4_services/">Servicios</a></li>
+        
+        </ul>
+        
+
+    </div>
+</div>
+
+
+    <div id="offcanvas" data-uk-offcanvas="flip: true; overlay: true">
+    <div class="uk-offcanvas-bar">
+
+        <a class="uk-logo uk-margin-small-bottom" href="/ayuda/">AM</a>
+     
+        <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+      
+        <ul class="uk-nav uk-nav-primary uk-margin-top">
+            
+                
+
+                
+
+                
+                    <li><a href="/ayuda/" >Inicio</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><a href="/ayuda/docs/1_1_introduction" >Manual</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><a href="/ayuda/blog/" >Blog</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><a href="/ayuda/changelog-timeline/" >Registro de cambios</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><div class="uk-navbar-item"><a class="uk-button uk-button-success" href="/ayuda/contact/" >Contacto</a></div></li>
+                
+            
+        </ul>
+
+        <div class="uk-margin-top uk-text-center">
+            <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-flex-center uk-grid">
+                
+<div class="uk-first-column">
+    <a href="https://twitter.com/winsoftware_am" data-uk-icon="icon: twitter" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+<div>
+    <a href="https://www.facebook.com/winsoftwaream/" data-uk-icon="icon: facebook" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+
+
+<div>
+    <a href="https://co.linkedin.com/in/win-software-s-a-s-122b7952" data-uk-icon="icon: linkedin" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+
+
+
+<div>
+    <a href="https://winsoftware.com.co/" data-uk-icon="icon: link" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+    
+
+    
+        <!-- Hook preclosing body doc -->
+    
+
+    <!-- Hook preclosing body -->
+
+    </body>
+
+</html>

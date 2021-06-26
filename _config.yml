@@ -119,6 +119,9 @@ exclude:
   - Gemfile.lock
   - node_modules
 
+# Destination
+destination:        docs/
+
 sass:
   style:            compressed
 
