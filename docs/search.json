@@ -4,656 +4,656 @@
       "title"    : "Stoppages - Failures, Damages and Breakdowns (FDA)",
       "category" : "",
       "tags"     : "",
-      "url"      : "/ayuda/docs/10_0_history/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/10_0_history/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Historia de Mantenimiento.",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/ayuda/docs/10_1_introduction/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/10_1_introduction/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Conceptos Básicos de la Historia de Mantenimiento.",
       "category" : "",
       "tags"     : "",
-      "url"      : "/ayuda/docs/10_2_basic_concepts/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/10_2_basic_concepts/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Enviar a Historia (Desde Órdenes de Trabajo).",
       "category" : "",
       "tags"     : "",
-      "url"      : "/ayuda/docs/10_3_send_to_history/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/10_3_send_to_history/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Ventana Principal de Historia de Mantenimiento.",
       "category" : "",
       "tags"     : "",
-      "url"      : "/ayuda/docs/10_4_main_window/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/10_4_main_window/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Ventana Principal de Historia de Mantenimiento",
       "category" : "",
       "tags"     : "",
-      "url"      : "/ayuda/docs/10_5_export/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/10_5_export/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Maintenance Programs",
       "category" : "",
       "tags"     : "",
-      "url"      : "/ayuda/docs/11_0_maintenance_manager/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/11_0_maintenance_manager/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Programas de Mantenimiento",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/ayuda/docs/11_1_introduction/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/11_1_introduction/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "11_2_basic_concepts",
       "category" : "",
       "tags"     : "",
-      "url"      : "/ayuda/docs/11_2_basic_concepts/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/11_2_basic_concepts/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Ventana Principal de Programas de Mantenimiento",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/ayuda/docs/11_3_main_window/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/11_3_main_window/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Servicios",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/ayuda/docs/11_4_services/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/11_4_services/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Trabajando con AM",
       "category" : "",
       "tags"     : "",
-      "url"      : "/ayuda/docs/1_0_getting_started/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/1_0_getting_started/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Introducción",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/ayuda/docs/1_1_introduction/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/1_1_introduction/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Un vistazo a AM",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/ayuda/docs/1_2_first_look/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/1_2_first_look/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Ventana Principal **AM 4G**",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/ayuda/docs/1_3_main_window/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/1_3_main_window/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Concurrencia en AM",
       "category" : "",
       "tags"     : "",
-      "url"      : "/ayuda/docs/1_4_concurrence/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/1_4_concurrence/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Resumen Como empezar a trabajar",
       "category" : "",
       "tags"     : "",
-      "url"      : "/ayuda/docs/1_5_summary/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/1_5_summary/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Infraestructura",
       "category" : "",
       "tags"     : "",
-      "url"      : "/ayuda/docs/2_0_infraestructure/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/2_0_infraestructure/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Infraestructura",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/ayuda/docs/2_1_introduction/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/2_1_introduction/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Conceptos Básicos sobre la Infraestructura",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/ayuda/docs/2_2_basic_concept/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/2_2_basic_concept/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Tablas de Infraestructura",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/ayuda/docs/2_3_tables/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/2_3_tables/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Ubicaciones Físicas",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/ayuda/docs/2_4_locations/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/2_4_locations/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Conceptos de Kárdex",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/ayuda/docs/2_5_kardex_concepts/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/2_5_kardex_concepts/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Operaciones",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/ayuda/docs/2_6_operations/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/2_6_operations/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Infraestructura",
       "category" : "",
       "tags"     : "",
-      "url"      : "/ayuda/docs/3_0_assets/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/3_0_assets/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Activos / Equipos, Objetos de Mantenimiento",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/ayuda/docs/3_1_introduction/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/3_1_introduction/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Conceptos Básicos sobre Activos/Equipos",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/ayuda/docs/3_2_basic_concepts/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/3_2_basic_concepts/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Ficha Técnica",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/ayuda/docs/3_3_data_sheet/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/3_3_data_sheet/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Despiece de Activos / Equipos",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/ayuda/docs/3_4_parts_list/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/3_4_parts_list/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "apare parts",
       "category" : "",
       "tags"     : "",
-      "url"      : "/ayuda/docs/4_0_warehouses_materials_and_spare_parts/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/4_0_warehouses_materials_and_spare_parts/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Almacenes, Materiales y Repuestos",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/ayuda/docs/4_1_introduction/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/4_1_introduction/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Conceptos Básicos sobre Almacenes, Materiales y Repuestos",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/ayuda/docs/4_2_basic_concepts/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/4_2_basic_concepts/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Codificación de Repuestos",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/ayuda/docs/4_3_spare_coding/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/4_3_spare_coding/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Ventana Principal de Almacén de Repuestos",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/ayuda/docs/4_4_main_window/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/4_4_main_window/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Exportar",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/ayuda/docs/4_5_export/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/4_5_export/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Kárdex de Almacén",
       "category" : "",
       "tags"     : "",
-      "url"      : "/ayuda/docs/5_0_kardex/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/5_0_kardex/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Kárdex de Almacén",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/ayuda/docs/5_1_introduction/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/5_1_introduction/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Conceptos Básicos sobre el Kárdex de Almacén",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/ayuda/docs/5_2_basic_concepts/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/5_2_basic_concepts/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Ventana Movimientos de Kárdex",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/ayuda/docs/5_3_movements/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/5_3_movements/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Transacciones",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/ayuda/docs/5_4_transactions/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/5_4_transactions/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Service Requests",
       "category" : "",
       "tags"     : "",
-      "url"      : "/ayuda/docs/7_0_service_requests/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/7_0_service_requests/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Solicitudes de Servicio",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/ayuda/docs/7_1_introduction/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/7_1_introduction/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Conceptos Básicos sobre Solicitudes de Servicio",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/ayuda/docs/7_2_basics_concepts/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/7_2_basics_concepts/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Transacciones",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/ayuda/docs/7_3_transactions/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/7_3_transactions/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Exportar",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/ayuda/docs/7_4_export/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/7_4_export/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Stoppages - Failures, Damages and Breakdowns ( **FDA**)",
       "category" : "",
       "tags"     : "",
-      "url"      : "/ayuda/docs/8_0_stoppages/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/8_0_stoppages/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "introducción.",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/ayuda/docs/8_1_introduction/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/8_1_introduction/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Conceptos Básicos sobre Paros / Averías.",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/ayuda/docs/8_2_basic_concepts/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/8_2_basic_concepts/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Conceptos Básicos sobre Paros / Averías.",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/ayuda/docs/8_3_creation/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/8_3_creation/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Seguimiento y Cierre de Paros / Averías.",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/ayuda/docs/8_4_tracking_and_closing/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/8_4_tracking_and_closing/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "work orders",
       "category" : "",
       "tags"     : "",
-      "url"      : "/ayuda/docs/9_0_work_orders/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/9_0_work_orders/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "introduccion",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/ayuda/docs/9_1_introduction/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/9_1_introduction/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Conceptos Básicos sobre Órdenes de Trabajo",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/ayuda/docs/9_2_basic_concepts/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/9_2_basic_concepts/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Análisis y Generación de Órdenes de Trabajo Programadas",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/ayuda/docs/9_3_analysis_and_generation/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/9_3_analysis_and_generation/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Ventana Principal de Órdenes de Trabajo",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/ayuda/docs/9_4_main_window/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/9_4_main_window/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Exportar",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/ayuda/docs/9_5_export/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/9_5_export/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Adding alerts to content",
       "category" : "",
       "tags"     : "features",
-      "url"      : "/ayuda/docs/alerts/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/alerts/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Google Analytics",
       "category" : "",
       "tags"     : "",
-      "url"      : "/ayuda/docs/analytics/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/analytics/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Category boxes section",
       "category" : "",
       "tags"     : "features",
-      "url"      : "/ayuda/docs/boxes/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/boxes/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Creating a changelog",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/ayuda/docs/changelog/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/changelog/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Enabling comments (via Disqus)",
       "category" : "",
       "tags"     : "",
-      "url"      : "/ayuda/docs/comments/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/comments/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Contact form (via FormSpree)",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/ayuda/docs/contact/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/contact/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Call to action section",
       "category" : "",
       "tags"     : "features",
-      "url"      : "/ayuda/docs/cta/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/cta/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Customization",
       "category" : "",
       "tags"     : "customize",
-      "url"      : "/ayuda/docs/customize/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/customize/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Development",
       "category" : "",
       "tags"     : "customize",
-      "url"      : "/ayuda/docs/development/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/development/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Creating docs posts",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/ayuda/docs/docs/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/docs/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Frequently asked questions section",
       "category" : "",
       "tags"     : "features, featured",
-      "url"      : "/ayuda/docs/faq/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/faq/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Fearured docs section",
       "category" : "",
       "tags"     : "features",
-      "url"      : "/ayuda/docs/featured/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/featured/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Footer options",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/ayuda/docs/footer/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/footer/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Hero page header",
       "category" : "",
       "tags"     : "features",
-      "url"      : "/ayuda/docs/hero/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/hero/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Theme installation",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/ayuda/docs/installation/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/installation/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Adding media to post and doc content",
       "category" : "",
       "tags"     : "features, featured",
-      "url"      : "/ayuda/docs/media/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/media/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Navigation bar",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/ayuda/docs/navigation/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/navigation/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Updating your billing credit card",
       "category" : "",
       "tags"     : "othertag",
-      "url"      : "/ayuda/docs/pages/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/pages/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Creating your first post in Jekyll",
       "category" : "",
       "tags"     : "featured",
-      "url"      : "/ayuda/docs/posts/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/posts/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Basic theme setup",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/ayuda/docs/setup/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/setup/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Sources and credits",
       "category" : "",
       "tags"     : "customize",
-      "url"      : "/ayuda/docs/sources/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/sources/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Contacting support",
       "category" : "",
       "tags"     : "help, customize",
-      "url"      : "/ayuda/docs/support/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/support/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Team members section",
       "category" : "",
       "tags"     : "features",
-      "url"      : "/ayuda/docs/team/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/team/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Adding table of contents to docs",
       "category" : "",
       "tags"     : "features",
-      "url"      : "/ayuda/docs/toc/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/toc/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Translation",
       "category" : "",
       "tags"     : "customize",
-      "url"      : "/ayuda/docs/translation/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/translation/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } ,
   
     {
       "title"    : "Video lightbox boxes section",
       "category" : "",
       "tags"     : "features, featured",
-      "url"      : "/ayuda/docs/videos/",
-      "date"     : "2021-06-25 23:00:00 -0500"
+      "url"      : "/docs/videos/",
+      "date"     : "2021-06-26 00:07:12 -0500"
     } 
   
 ]
