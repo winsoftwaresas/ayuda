@@ -7,8 +7,6 @@ title: Infraestructura
 
 Que información constituye la Infraestructura. Cual es cada una de las tablas que  la conforman. En que secuencia se ingresan, y con  qué estructura de codificación.  Todo esto conforma el contenido del presente capítulo sobre los datos de Infraestructura.
 
-
-
 #Conceptos Básicos sobre la Infraestructura
  
 La infraestructura es un conjunto de archivos y tablas parametrizables que sirven para que **AM** se adecue a la organización de mantenimiento de la empresa y sus características.
@@ -217,7 +215,7 @@ realizado una selección es posible hacer otra y unir el resultado de las dos.  
 
 Las Ubicaciones Físicas corresponden a los sitios o áreas geográficas donde se encuentran los Activos, Equipos, Objetos de Mantenimiento y los Repuestos. Es la lista de las áreas  físicas que conforman el  “Layout” de la planta de producción (Industria, Manufactura) o de la planta de servicios (Hoteles, Hospitales, Banca) o simplemente de las facilidades que conforman las instalaciones que son objetos de mantenimiento.
 
-El  concepto  de  Ubicaciones  Físicas  es  netamente  de  geografía,  diferenciado completamente del concepto de Equipo y de Centro de Costo, además la ubicación física puede estar en forma activa o inactiva dentro del **AM**. En ocasiones un Centro de Costo corresponde a una Ubicación Física pero en muchas otras no es así. De igual forma en ocasiones  un equipo o unidad funcional caracteriza a la ubicación física pero en muchas otras no. Por esta razón los tres conceptos se definen independientemente en **AM**eso si con la posibilidad de relacionarlos en distintos contextos.
+El  concepto  de  Ubicaciones  Físicas  es  netamente  de  geografía,  diferenciado completamente del concepto de Equipo y de Centro de Costo, además la ubicación física puede estar en forma activa o inactiva dentro de **AM**. En ocasiones un Centro de Costo corresponde a una Ubicación Física pero en muchas otras no es así. De igual forma en ocasiones  un equipo o unidad funcional caracteriza a la ubicación física pero en muchas otras no. Por esta razón los tres conceptos se definen independientemente en **AM**eso si con la posibilidad de relacionarlos en distintos contextos.
 
 Para ilustrar mejor este concepto definimos a continuación algunos ejemplos de Ubicaciones Físicas.
 
@@ -777,7 +775,7 @@ El Tipo de Actividad puede ser un criterio más de selección y de búsqueda, en
 
 El **AM** suministra una tabla de Tipos de Actividad que incluye una recopilación interesante de ellas, que el usuario puede enriquecer adicionando  nuevas  o modificando las existentes.
 
-Algunos ejemplos de Tipos de Actividad que ya hacen parte del **AM**son los siguientes: 
+Algunos ejemplos de Tipos de Actividad que ya hacen parte de **AM**son los siguientes: 
 
 - EQ-Contrato 
 

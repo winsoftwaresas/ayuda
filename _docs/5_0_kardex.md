@@ -15,7 +15,7 @@ A  través del  Kárdex  se  realiza la  actualización  del  archivo de  repues
 
 Una  única  transacción  del  Kárdex,  mantiene  consistencia  integral  entre  tres   tablas distintas: Repuestos, Órdenes de Trabajo y Kárdex. Esto significa que una  transacción de entrada al  almacén,  registrada en el  Kárdex,  actualiza también el  saldo en la  tabla  de repuestos,  incrementándolo.  Una  transacción  de  salida  del  almacén,  registrada  en  el Kárdex, actualiza el saldo en la tabla de repuestos, decrementándolo y al tiempo actualiza la tabla de Ordenes de Trabajo, cargando el consumo de tales repuestos.
 
-Es  una  herramienta práctica  cuando no  se  dispone  en  la  Organización de  un  Sistema Corporativo de Almacén que administre los Insumos de Mantenimiento, los materiales y los Repuestos. En este caso el Kárdex del **AM**–**, en conjunto con el  módulo de Repuestos, pueden suplir tal necesidad e incluso otras alrededor del tema  de inventarios, como por ejemplo Administrar el Inventario de Materia prima, de producto en proceso, de material de empaque, de útiles de Oficina y de Aseo y otros.
+Es  una  herramienta práctica  cuando no  se  dispone  en  la  Organización de  un  Sistema Corporativo de Almacén que administre los Insumos de Mantenimiento, los materiales y los Repuestos. En este caso el Kárdex de **AM**–**, en conjunto con el  módulo de Repuestos, pueden suplir tal necesidad e incluso otras alrededor del tema  de inventarios, como por ejemplo Administrar el Inventario de Materia prima, de producto en proceso, de material de empaque, de útiles de Oficina y de Aseo y otros.
 
 Pero   también   es   muy   útil   cuando   ya   existe   un   Sistema   externo   dedicado   a   la administración del Inventario de Repuestos de la corporación, a través del cual se  realiza toda gestión y movimiento de entradas y salidas. En este caso **AM**–** debe  enterarse del resultado de   cada movimiento ejecutado a través del   sistema  externo.	Para ello  tal sistema  externo  debe  poder  entregar  un  archivo  a  manera  de  interface,  en  el  que  se comunique a **AM**: los saldos en existencia y el valor unitario vigente de  cada  repuesto, después de aquellos movimientos.
 
@@ -132,7 +132,7 @@ También, es posible crear movimientos, al hacer clic en el boton<span class="ic
 
 ![detalle de documentos kardex](../../assets/images/cap06/chp06_img13.png)
 
-Por otro lado, el botón  <a class="btn"> “Insertar Movimientos</a> se usa para insertar uno o varios registros de movimientos de Materiales o Repuestos, una vez diligenciados todos los campos de la ventana Detalle del movimiento de cada item, se da clic en este botón, con el fin de insertarlos todos juntos en la BD del **AM**. Además, si se desea se puede usar el botón <a class="btn"> “Insertar Movimientos</a> para ir insertando el movimiento de un material o Repuesto uno a uno. 
+Por otro lado, el botón  <a class="btn"> “Insertar Movimientos</a> se usa para insertar uno o varios registros de movimientos de Materiales o Repuestos, una vez diligenciados todos los campos de la ventana Detalle del movimiento de cada item, se da clic en este botón, con el fin de insertarlos todos juntos en la BD de **AM**. Además, si se desea se puede usar el botón <a class="btn"> “Insertar Movimientos</a> para ir insertando el movimiento de un material o Repuesto uno a uno. 
 
 ![detalle de documentos kardex](../../assets/images/cap06/chp06_img14.png)
 
@@ -288,7 +288,7 @@ Cada criterio trabaja en conjunto con los demás, con el operador intersección.
 
 Cada  criterio  aparece  inicializado  en  un  valor  global  que  permite  mostrar  todos   los Movimientos de Kárdex registrados en el sistema. Lo que significa que de no escoger un criterio se obtiene como resultado del subgrupo el mismo conjunto completo de todos los Movimientos de Kárdex.
 
-**- **AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar.
+**AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar.
 
 El programa permite entonces hacer selección de un grupo de Movimientos de Kárdex de acuerdo con los criterios seleccionados en la siguiente ventana.
 

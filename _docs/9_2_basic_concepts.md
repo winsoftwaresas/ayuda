@@ -26,7 +26,7 @@ Tipo de Actividad.
 
 ### Tipo de Trabajo
 
-**-  **AM** Predefine  cuatro  tipos  de  trabajo: 
+**AM** Predefine  cuatro  tipos  de  trabajo: 
 
 - Mecánico  **(MEC)**.
 - Eléctrico   **(ELE)**.
@@ -38,7 +38,7 @@ Pueden  personalizarse,  en la tabla **"Tipos de Trabajo"** del módulo de Infra
 
 ### Tipo de Mantenimiento
 
-**- **AM** predefine ocho Tipos   de   Mantenimiento:   Preventivo, Preventivo Manual, Correctivo, Predictivo, Inspección, Metrología, Lubricación y Otro. Como su nombre lo indica, el Tipo de Mantenimiento caracteriza al Mantenimiento que se realiza. Cada   Orden   de Trabajo permite la definición de uno y sólo un Tipo de Mantenimiento.  
+**AM** predefine ocho Tipos   de   Mantenimiento:   Preventivo, Preventivo Manual, Correctivo, Predictivo, Inspección, Metrología, Lubricación y Otro. Como su nombre lo indica, el Tipo de Mantenimiento caracteriza al Mantenimiento que se realiza. Cada   Orden   de Trabajo permite la definición de uno y sólo un Tipo de Mantenimiento.  
 
 ###	Tipo de Actividad
 
@@ -64,7 +64,7 @@ Las 	**OT** 	Programadas 	se 	generan 	periódicamente, 	mediante		el 	comando *
 
 La ejecución de toda Orden de Trabajo puede generar costos, asociados a los  recursos utilizados: Mano de Obra, Materiales y Repuestos, u otros Conceptos o Gastos indirectos.
 
-**- **AM**  permite Presupuestar estos consumos, de forma anticipada, para establecer cuales recursos y en qué cantidad se necesitan, al igual que su costo aproximado. Para  las Órdenes  de  Trabajo  Programadas,  el  Presupuesto fue  registrado en  el   Programa de Mantenimiento, y en el momento en que se genera la Orden de Trabajo, este Presupuesto se transfiere a ella.   Para las Órdenes de Trabajo Manuales, también es posible definir un Presupuesto, pero éste se crea directamente en la **OT**.
+**AM**  permite Presupuestar estos consumos, de forma anticipada, para establecer cuales recursos y en qué cantidad se necesitan, al igual que su costo aproximado. Para  las Órdenes  de  Trabajo  Programadas,  el  Presupuesto fue  registrado en  el   Programa de Mantenimiento, y en el momento en que se genera la Orden de Trabajo, este Presupuesto se transfiere a ella.   Para las Órdenes de Trabajo Manuales, también es posible definir un Presupuesto, pero éste se crea directamente en la **OT**.
 
 Si una Orden de Trabajo maneja Presupuesto (ya sea una **OT** Programada o Manual), éste debe aprobarse antes de poder registrar el consumo o Gasto Real.  Solo una vez aprobado el Presupuesto, puede iniciarse el registro del Gasto Real, con las cantidades y cifras  de costo reales.   De esta manera es posible contrastar el Presupuesto contra el Gasto Real, en cada **OT**.
 
@@ -76,16 +76,16 @@ Estos   dos   conceptos, en   una Orden  de  Trabajo, son  básicos para la  gen
 
 - **AM**- sugiere como Tiempo de Duración, la diferencia entre la Fecha y Hora de Fin  de Trabajos y la Fecha y Hora de Inicio de Trabajos. Cabe an**OT**ar, que no siempre el Tiempo de Duración es la diferencia entre estas fechas/horas, pues pueden existir  eventos que dejan temporalmente a la **OT** en Estado de ** “Pendiente”**. **AM** permite corregir el tiempo de Duración en una **OT**, para que refleje el tiempo real de la ejecución.
 
-Por ejemplo, si una **OT** tiene como Fecha de Inicio de Trabajos XXXX/12/01 08:30, y como Fecha de Fin de Trabajos XXXX/12/01 16:00, **- **AM** sugiere como Tiempo de Duración, 7 horas y 30 minutos. Sin embargo, si durante ese lapso se tuvo que detener la ejecución por 2 horas, debido a que faltaba un Repuesto o a que el técnico encargado se ausentó a realizar Otra labor, se debe corregir la duración: 5 horas y 30 minutos.
+Por ejemplo, si una **OT** tiene como Fecha de Inicio de Trabajos XXXX/12/01 08:30, y como Fecha de Fin de Trabajos XXXX/12/01 16:00, **AM** sugiere como Tiempo de Duración, 7 horas y 30 minutos. Sin embargo, si durante ese lapso se tuvo que detener la ejecución por 2 horas, debido a que faltaba un Repuesto o a que el técnico encargado se ausentó a realizar Otra labor, se debe corregir la duración: 5 horas y 30 minutos.
 
-Para  **- **AM**,  el  Tiempo Improductivo de   un  Equipo, en  una   Orden de Trabajo, es   la cantidad  Real  de   tiempo  en   que  el   Equipo  estuvo  Improductivo  por   Razones   de Mantenimiento, es  decir,  tiempo en el cual el Equipo debió estar  operando y no pudo hacerlo debido a que durante dicho tiempo se estaba realizando la labor.
+Para  **AM**,  el  Tiempo Improductivo de   un  Equipo, en  una   Orden de Trabajo, es   la cantidad  Real  de   tiempo  en   que  el   Equipo  estuvo  Improductivo  por   Razones   de Mantenimiento, es  decir,  tiempo en el cual el Equipo debió estar  operando y no pudo hacerlo debido a que durante dicho tiempo se estaba realizando la labor.
 
-**- **AM** sugiere como Tiempo Improductivo: la diferencia entre la Fecha y Hora de Fin de Trabajos y la Fecha y Hora Info de Paro (Para Órdenes de Trabajo Correctivas), o como, la diferencia entre la Fecha y Hora de Fin de Trabajos y la Fecha y Hora de Inicio de Trabajos (Para Ordenes de Trabajo no Correctivas). Sin embargo, este valor puede corregirse para reflejar la cantidad Real exacta de Tiempo Improductivo que tuvo el Equipo en cuestión.
+**AM** sugiere como Tiempo Improductivo: la diferencia entre la Fecha y Hora de Fin de Trabajos y la Fecha y Hora Info de Paro (Para Órdenes de Trabajo Correctivas), o como, la diferencia entre la Fecha y Hora de Fin de Trabajos y la Fecha y Hora de Inicio de Trabajos (Para Ordenes de Trabajo no Correctivas). Sin embargo, este valor puede corregirse para reflejar la cantidad Real exacta de Tiempo Improductivo que tuvo el Equipo en cuestión.
 
 Por ejemplo, si una **OT** correctiva tiene como fecha de Info de Paro XXXX/12/01 08:00, y como  fecha  de   Fin   de   Trabajos  XXXX/12/02  12:30,  - **AM**- sugiere   como  Tiempo Improductivo, 1 día, 4 horas y 30 minutos. Sin embargo, si en ese  lapso, el Equipo no trabaja de 10 PM a 6 AM, pues la empresa no labora turno de producción, se debe definir el tiempo improductivo como solamente de 20 horas y 30 minutos.
 
 ## Numeración de las Órdenes de Trabajo
 
-**- **AM** diferencia una Orden de Trabajo de Otra, por su número de **OT**, o consecutivo. Este número está conf ormado por dos valores: Primero, el Año en la cual fue creada la **OT**, y posteriormente, seguido de un guion y el Consecutivo de dicha **OT** en ese año.  Así, si una **OT** tiene como número ** “200X-1503”**, quiere decir que esa **OT** es la número 1503 del año 200X.
+**AM** diferencia una Orden de Trabajo de Otra, por su número de **OT**, o consecutivo. Este número está conf ormado por dos valores: Primero, el Año en la cual fue creada la **OT**, y posteriormente, seguido de un guion y el Consecutivo de dicha **OT** en ese año.  Así, si una **OT** tiene como número ** “200X-1503”**, quiere decir que esa **OT** es la número 1503 del año 200X.
 
 - **AM**- administra automáticamente el número de cada Orden de Trabajo, por lo tanto no es posible modificarlo manualmente.

@@ -44,7 +44,7 @@ También, es posible crear movimientos, al hacer clic en el boton<span class="ic
 
 ![detalle de documentos kardex](../../assets/images/cap06/chp06_img13.png)
 
-Por otro lado, el botón  <a class="btn"> “Insertar Movimientos</a> se usa para insertar uno o varios registros de movimientos de Materiales o Repuestos, una vez diligenciados todos los campos de la ventana Detalle del movimiento de cada item, se da clic en este botón, con el fin de insertarlos todos juntos en la BD del **AM**. Además, si se desea se puede usar el botón <a class="btn"> “Insertar Movimientos</a> para ir insertando el movimiento de un material o Repuesto uno a uno. 
+Por otro lado, el botón  <a class="btn"> “Insertar Movimientos</a> se usa para insertar uno o varios registros de movimientos de Materiales o Repuestos, una vez diligenciados todos los campos de la ventana Detalle del movimiento de cada item, se da clic en este botón, con el fin de insertarlos todos juntos en la BD de **AM**. Además, si se desea se puede usar el botón <a class="btn"> “Insertar Movimientos</a> para ir insertando el movimiento de un material o Repuesto uno a uno. 
 
 ![detalle de documentos kardex](../../assets/images/cap06/chp06_img14.png)
 
@@ -200,7 +200,7 @@ Cada criterio trabaja en conjunto con los demás, con el operador intersección.
 
 Cada  criterio  aparece  inicializado  en  un  valor  global  que  permite  mostrar  todos   los Movimientos de Kárdex registrados en el sistema. Lo que significa que de no escoger un criterio se obtiene como resultado del subgrupo el mismo conjunto completo de todos los Movimientos de Kárdex.
 
-**- **AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar.
+**AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar.
 
 El programa permite entonces hacer selección de un grupo de Movimientos de Kárdex de acuerdo con los criterios seleccionados en la siguiente ventana.
 

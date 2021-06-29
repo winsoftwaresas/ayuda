@@ -13,7 +13,7 @@ Dentro del ciclo de Gestión de Mantenimiento en el **AM**–** los Programas de
 
 Un Programa de Mantenimiento (PM) es un conjunto de información que permite definir labores de Mantenimiento, para que sean ejecutadas en forma cíclica,  repetitiva  y periódica o sistemática,  sobre un Activo. Ella puede ser de tipos: Preventivo, Predictivo, Metrología,  Lubricación, Inspección, Otros, Otros Mantenimiento y los que se definan en la tabla de Tipos de mantenimiento en el módulo de Infraestructura.
 
-Los Programas de Mantenimiento (PMs), son un eje estratégico del **AM**–**.  Ellos son modificables y adecuables mediante la retroalimentación de los resultados obtenidos de distintos análisis sobre la Historia, con el objeto de afinarlos y lograr una proyección para Presupuesto del nuevo periodo, más ajustada y de acuerdo al desempeño real de los periodos anteriores.
+Los Programas de Mantenimiento (PMs), son un eje estratégico de **AM**–**.  Ellos son modificables y adecuables mediante la retroalimentación de los resultados obtenidos de distintos análisis sobre la Historia, con el objeto de afinarlos y lograr una proyección para Presupuesto del nuevo periodo, más ajustada y de acuerdo al desempeño real de los periodos anteriores.
 
 Definir un Plan de Mantenimiento para el largo plazo, a través de un conjunto sólido de Programas, sienta las bases para una gestión avanzada, garantizando al grupo gestor de Mantenimiento, la información permanente de sus  labores  proyectadas   a  futuro  y posibilitando sobre ellas el establecer prioridades y asignar recursos, para garantizar una ejecución eficaz.
 
@@ -109,7 +109,7 @@ En el espacio Contador (Odómetro/Horas) de la sección Última Generación de O
 #	Ventana Principal de Programas de Mantenimiento
 ![Programa de mantenimiento](../../assets/images/cap08/chp08_img01.png)
 
-A esta ventana se accede desde el comando Programas del Menú Principal del **AM**–**.
+A esta ventana se accede desde el comando Programas del Menú Principal de **AM**–**.
 
 A  través  de  esta  ventana  se  crean  y  administran  los  PMs.  La  mayor  parte  de  la información aquí definida, se traslada completamente a la OT, cuando el  Programa la genere.
 
@@ -221,7 +221,7 @@ Cada criterio trabaja en conjunto con los demás, con el operador intersección.
 
 Cada criterio aparece inicializado en un valor global que permite mostrar todos los  PMs. Lo que significa que de no escoger un criterio se obtiene como resultado del subgrupo el mismo conjunto completo de todos los PMs.
 
-**- **AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar.
+**AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar.
 
 El programa permite entonces hacer selección de un grupo de Programas de acuerdo con los criterios seleccionados en la siguiente ventana.
 

@@ -42,11 +42,11 @@ El   primer   proceso básico de creación de datos de   Repuestos consiste en e
 
 El   primer   proceso básico de creación de datos de   Repuestos consiste en el   registro manual, organizado, uno a uno de los códigos de Repuestos del Almacén,  junto con su información característica, en la tabla de Almacén de Repuestos de la Base de Datos de **AM**–**.
 
-El segundo proceso consiste en tomar la información de los Repuestos desde un sistema de Inventarios preexistente y copiarlos en la tabla de Almacén de Repuestos de **AM**–**,  mediante una interfaz automática que se ejecutará en tiempo real o en un momento definido. El detalle del desarrollo de esta interfaz es acordado entre el Cliente y el Proveedor. En este proceso se requiere que se haga una preparación de los datos preexistente, dándoles un formato que facilite su importación a la Base de Datos del **AM**–**.
+El segundo proceso consiste en tomar la información de los Repuestos desde un sistema de Inventarios preexistente y copiarlos en la tabla de Almacén de Repuestos de **AM**–**,  mediante una interfaz automática que se ejecutará en tiempo real o en un momento definido. El detalle del desarrollo de esta interfaz es acordado entre el Cliente y el Proveedor. En este proceso se requiere que se haga una preparación de los datos preexistente, dándoles un formato que facilite su importación a la Base de Datos de **AM**–**.
 
 **AM**–** suministra el formato donde se detalla el diseño del archivo de interface. A este formato se deben acomodar los datos de Repuestos a transferir pues es el único  que **AM**–**  es  capaz  de  interpretar  para  realizar  la  creación  automática  de  la  tabla   de Almacén de Repuestos.
 
-Una vez se encuentre el archivo de interfaz listo, el Cliente lo debe dejar en una tabla intermedia y cuando se ejecute la interfaz automática, **- **AM** importa la información de los Repuestos a la base de datos de **AM**. 
+Una vez se encuentre el archivo de interfaz listo, el Cliente lo debe dejar en una tabla intermedia y cuando se ejecute la interfaz automática, **AM** importa la información de los Repuestos a la base de datos de **AM**. 
 
 Este proceso es útil tanto para crear el archivo de Repuestos, como para actualizarlo. Se recomienda para ello consultar con el asesor en Informática o con Servicio al  Cliente del Proveedor.
 

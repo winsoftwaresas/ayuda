@@ -256,7 +256,7 @@ Cada criterio trabaja en conjunto con los demás, con el operador intersección.
 
 Cada criterio aparece inicializado en un valor global que permite mostrar todos los Activos. Lo que significa que de no escoger un criterio se obtiene como resultado del  subgrupo el mismo conjunto de todos los Activos.
 
-**- **AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar.
+**AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar.
 
 El programa permite entonces hacer selección de un grupo de Activos de acuerdo con los criterios seleccionados en la siguiente ventana.
  
@@ -420,7 +420,7 @@ A   continuación  se  describen  los  campos  que  componen  esta  Ventana info
 
 **Cuadro Identificación:** Aparece con los campos bloqueados para que el usuario visualice la información básica del Activo al cual se le están definiendo las Características. 
 
-**FF Registro:** En este campo se registra la fecha de registro del Activo en el software **- **AM**.
+**FF Registro:** En este campo se registra la fecha de registro del Activo en el software **AM**.
 
 **FF Fabricación:** En este campo se registra la fecha de fabricación del Activo dada por el fabricante.
 

@@ -14,7 +14,7 @@ Es importante tener en cuenta que en **AM**, un mismo usuario no puede iniciar s
 
 # Un enfoque de implementación
 
-El proceso de Implementación del **AM**- es realizado con el apoyo cercano de WIN Software, para ello WIN Software suministra y discute con el Usuario un cronograma detallado, que describe las fases, actividades y tareas del proyecto.     Se ha previsto realizar al menos una sesión de trabajo de Planeación con el Equipo que estará a cargo del proyecto por parte de la Empresa usuaria, para estudiar el cronograma y establecer los niveles de compromiso de los recursos asignados. 
+El proceso de Implementación de **AM**- es realizado con el apoyo cercano de WIN Software, para ello WIN Software suministra y discute con el Usuario un cronograma detallado, que describe las fases, actividades y tareas del proyecto.     Se ha previsto realizar al menos una sesión de trabajo de Planeación con el Equipo que estará a cargo del proyecto por parte de la Empresa usuaria, para estudiar el cronograma y establecer los niveles de compromiso de los recursos asignados. 
 
 La Implementación se desarrolla en paralelo, al mismo ritmo de avance, del proceso de Capacitación. Para habilitar el sistema es necesario definir ante todo la Compañía y algunos perfiles de usuario. Ello a través de la opción Administración del menú principal (en la versión **-AM-ST**, solamente es necesario definir los perfiles de usuario).
 

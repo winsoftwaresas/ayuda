@@ -33,7 +33,7 @@ Tipo de Actividad.
 
 ### Tipo de Trabajo
 
-**-  **AM** Predefine  cuatro  tipos  de  trabajo: 
+**AM** Predefine  cuatro  tipos  de  trabajo: 
 
 - Mecánico  **(MEC)**.
 - Eléctrico   **(ELE)**.
@@ -45,7 +45,7 @@ Pueden  personalizarse,  en la tabla **"Tipos de Trabajo"** del módulo de Infra
 
 ### Tipo de Mantenimiento
 
-**- **AM** predefine ocho Tipos   de   Mantenimiento:   Preventivo, Preventivo Manual, Correctivo, Predictivo, Inspección, Metrología, Lubricación y Otro. Como su nombre lo indica, el Tipo de Mantenimiento caracteriza al Mantenimiento que se realiza. Cada   Orden   de Trabajo permite la definición de uno y sólo un Tipo de Mantenimiento.  
+**AM** predefine ocho Tipos   de   Mantenimiento:   Preventivo, Preventivo Manual, Correctivo, Predictivo, Inspección, Metrología, Lubricación y Otro. Como su nombre lo indica, el Tipo de Mantenimiento caracteriza al Mantenimiento que se realiza. Cada   Orden   de Trabajo permite la definición de uno y sólo un Tipo de Mantenimiento.  
 
 ###	Tipo de Actividad
 
@@ -71,7 +71,7 @@ Las 	**OT** 	Programadas 	se 	generan 	periódicamente, 	mediante		el 	comando *
 
 La ejecución de toda Orden de Trabajo puede generar costos, asociados a los  recursos utilizados: Mano de Obra, Materiales y Repuestos, u otros Conceptos o Gastos indirectos.
 
-**- **AM**  permite Presupuestar estos consumos, de forma anticipada, para establecer cuales recursos y en qué cantidad se necesitan, al igual que su costo aproximado. Para  las Órdenes  de  Trabajo  Programadas,  el  Presupuesto fue  registrado en  el   Programa de Mantenimiento, y en el momento en que se genera la Orden de Trabajo, este Presupuesto se transfiere a ella.   Para las Órdenes de Trabajo Manuales, también es posible definir un Presupuesto, pero éste se crea directamente en la **OT**.
+**AM**  permite Presupuestar estos consumos, de forma anticipada, para establecer cuales recursos y en qué cantidad se necesitan, al igual que su costo aproximado. Para  las Órdenes  de  Trabajo  Programadas,  el  Presupuesto fue  registrado en  el   Programa de Mantenimiento, y en el momento en que se genera la Orden de Trabajo, este Presupuesto se transfiere a ella.   Para las Órdenes de Trabajo Manuales, también es posible definir un Presupuesto, pero éste se crea directamente en la **OT**.
 
 Si una Orden de Trabajo maneja Presupuesto (ya sea una **OT** Programada o Manual), éste debe aprobarse antes de poder registrar el consumo o Gasto Real.  Solo una vez aprobado el Presupuesto, puede iniciarse el registro del Gasto Real, con las cantidades y cifras  de costo reales.   De esta manera es posible contrastar el Presupuesto contra el Gasto Real, en cada **OT**.
 
@@ -83,17 +83,17 @@ Estos   dos   conceptos, en   una Orden  de  Trabajo, son  básicos para la  gen
 
 - **AM**- sugiere como Tiempo de Duración, la diferencia entre la Fecha y Hora de Fin  de Trabajos y la Fecha y Hora de Inicio de Trabajos. Cabe an**OT**ar, que no siempre el Tiempo de Duración es la diferencia entre estas fechas/horas, pues pueden existir  eventos que dejan temporalmente a la **OT** en Estado de ** “Pendiente”**. **AM** permite corregir el tiempo de Duración en una **OT**, para que refleje el tiempo real de la ejecución.
 
-Por ejemplo, si una **OT** tiene como Fecha de Inicio de Trabajos XXXX/12/01 08:30, y como Fecha de Fin de Trabajos XXXX/12/01 16:00, **- **AM** sugiere como Tiempo de Duración, 7 horas y 30 minutos. Sin embargo, si durante ese lapso se tuvo que detener la ejecución por 2 horas, debido a que faltaba un Repuesto o a que el técnico encargado se ausentó a realizar Otra labor, se debe corregir la duración: 5 horas y 30 minutos.
+Por ejemplo, si una **OT** tiene como Fecha de Inicio de Trabajos XXXX/12/01 08:30, y como Fecha de Fin de Trabajos XXXX/12/01 16:00, **AM** sugiere como Tiempo de Duración, 7 horas y 30 minutos. Sin embargo, si durante ese lapso se tuvo que detener la ejecución por 2 horas, debido a que faltaba un Repuesto o a que el técnico encargado se ausentó a realizar Otra labor, se debe corregir la duración: 5 horas y 30 minutos.
 
-Para  **- **AM**,  el  Tiempo Improductivo de   un  Equipo, en  una   Orden de Trabajo, es   la cantidad  Real  de   tiempo  en   que  el   Equipo  estuvo  Improductivo  por   Razones   de Mantenimiento, es  decir,  tiempo en el cual el Equipo debió estar  operando y no pudo hacerlo debido a que durante dicho tiempo se estaba realizando la labor.
+Para  **AM**,  el  Tiempo Improductivo de   un  Equipo, en  una   Orden de Trabajo, es   la cantidad  Real  de   tiempo  en   que  el   Equipo  estuvo  Improductivo  por   Razones   de Mantenimiento, es  decir,  tiempo en el cual el Equipo debió estar  operando y no pudo hacerlo debido a que durante dicho tiempo se estaba realizando la labor.
 
-**- **AM** sugiere como Tiempo Improductivo: la diferencia entre la Fecha y Hora de Fin de Trabajos y la Fecha y Hora Info de Paro (Para Órdenes de Trabajo Correctivas), o como, la diferencia entre la Fecha y Hora de Fin de Trabajos y la Fecha y Hora de Inicio de Trabajos (Para Ordenes de Trabajo no Correctivas). Sin embargo, este valor puede corregirse para reflejar la cantidad Real exacta de Tiempo Improductivo que tuvo el Equipo en cuestión.
+**AM** sugiere como Tiempo Improductivo: la diferencia entre la Fecha y Hora de Fin de Trabajos y la Fecha y Hora Info de Paro (Para Órdenes de Trabajo Correctivas), o como, la diferencia entre la Fecha y Hora de Fin de Trabajos y la Fecha y Hora de Inicio de Trabajos (Para Ordenes de Trabajo no Correctivas). Sin embargo, este valor puede corregirse para reflejar la cantidad Real exacta de Tiempo Improductivo que tuvo el Equipo en cuestión.
 
 Por ejemplo, si una **OT** correctiva tiene como fecha de Info de Paro XXXX/12/01 08:00, y como  fecha  de   Fin   de   Trabajos  XXXX/12/02  12:30,  - **AM**- sugiere   como  Tiempo Improductivo, 1 día, 4 horas y 30 minutos. Sin embargo, si en ese  lapso, el Equipo no trabaja de 10 PM a 6 AM, pues la empresa no labora turno de producción, se debe definir el tiempo improductivo como solamente de 20 horas y 30 minutos.
 
 ## Numeración de las Órdenes de Trabajo
 
-**- **AM** diferencia una Orden de Trabajo de Otra, por su número de **OT**, o consecutivo. Este número está conf ormado por dos valores: Primero, el Año en la cual fue creada la **OT**, y posteriormente, seguido de un guion y el Consecutivo de dicha **OT** en ese año.  Así, si una **OT** tiene como número ** “200X-1503”**, quiere decir que esa **OT** es la número 1503 del año 200X.
+**AM** diferencia una Orden de Trabajo de Otra, por su número de **OT**, o consecutivo. Este número está conf ormado por dos valores: Primero, el Año en la cual fue creada la **OT**, y posteriormente, seguido de un guion y el Consecutivo de dicha **OT** en ese año.  Así, si una **OT** tiene como número ** “200X-1503”**, quiere decir que esa **OT** es la número 1503 del año 200X.
 
 - **AM**- administra automáticamente el número de cada Orden de Trabajo, por lo tanto no es posible modificarlo manualmente.
 
@@ -105,7 +105,7 @@ Se trata de un proceso que es ejecutado periódicamente por  la persona que hace
 
 Es posible sin embargo, por razones particulares, ejecutar este proceso a diario o en Otra periodicidad, o cuando sea requerido. El sistema asegura que un periodo ya programado, no se reprograma. Por eso, si se presenta la necesidad de reprogramar un período, se debe a que se han creado o modificado algunos PMs, para que generen **OT**s adicionales a las ya generadas.
 
-**- **AM** suministra una ayuda que indica cual fue el último período para el que se realizó una Generación Automática, ella se encuentra en la ventana de ** “ANALIZAR/GENERAR”** en la parte superior derecha de la misma.
+**AM** suministra una ayuda que indica cual fue el último período para el que se realizó una Generación Automática, ella se encuentra en la ventana de ** “ANALIZAR/GENERAR”** en la parte superior derecha de la misma.
 
 ![Ventana Principal de Solicitudes de Servicio](manualAM/0.images/cap11/chp011_img01.png)
 
@@ -119,7 +119,7 @@ Lograr un acuerdo con el programa de Producción o con el Responsable del Equipo
 
 #	El ciclo de vida de una Orden de Trabajo
 
-El centro de actividad gerencial en **AM** es el ambiente de las Órdenes de Trabajo. Ya sea recién creada, o ejecutada hace varios años, **- **AM** dispone de  herramientas que permiten la administración efectiva de cada una de ellas.
+El centro de actividad gerencial en **AM** es el ambiente de las Órdenes de Trabajo. Ya sea recién creada, o ejecutada hace varios años, **AM** dispone de  herramientas que permiten la administración efectiva de cada una de ellas.
 
 Una **OT** puede haber sido creada Automática o Manualmente. Las Órdenes Automáticas, son generadas desde los PM (Programas de Mantenimiento), sobre una  base periódica. Las Órdenes de Trabajo Manuales son creadas por los usuarios de mantenimiento, cuando las condiciones ocasionadas por el diario transcurrir de la  empresa lo exijan.  Las  **OT**s manuales son en su mayoría Correctivas, sin embargo pueden ser también de otros tipos, que no corresponden a actividades propias de Mantenimiento, como por ejemplo: Cambios de  Condiciones,  Trabajos  sobre  repuestos,  Servicios  auxiliares  a  Producción  o  a  la Gerencia,  Instalaciones o Montajes, etc. Todas estas actividades deben ser  registradas como **OT**s en el sistema, pues son altamente consumidoras del recurso de Mantenimiento.
 
@@ -186,9 +186,9 @@ En   la   gráfica  anterior,   Ventana  Detalle  de   Ordenes   de  Trabajo,  s
 
 A continuación se describen los campos que componen esta ventana Detalle de Ordenes de Trabajo; además cuando se quiera ingresar una nueva Orden de Trabajo, se deberán diligenciar los siguientes campos.
 
-**OT**:** Aparece el número de **OT** asignado por **AM** a la Orden de Trabajo. Si se está en el proceso de creación de una **OT** Manual, este campo solamente muestra el Año. Una vez se crea (Insertar) la **OT**, **- **AM** asigna un consecutivo a dicha Orden.
+**OT**:** Aparece el número de **OT** asignado por **AM** a la Orden de Trabajo. Si se está en el proceso de creación de una **OT** Manual, este campo solamente muestra el Año. Una vez se crea (Insertar) la **OT**, **AM** asigna un consecutivo a dicha Orden.
 
-**F/H  Creación:** Es  la fecha en la cual se crea la  Orden de Trabajo.  En  el caso  de Órdenes Programadas, esta fecha es asignada automáticamente por el sistema y no es modificable, según el Programa de Mantenimiento que la genera.        Para las Órdenes de Trabajo Manuales, **- **AM** sugiere   la   fecha   actual   del   sistema   (aunque   puede   ser modificada).
+**F/H  Creación:** Es  la fecha en la cual se crea la  Orden de Trabajo.  En  el caso  de Órdenes Programadas, esta fecha es asignada automáticamente por el sistema y no es modificable, según el Programa de Mantenimiento que la genera.        Para las Órdenes de Trabajo Manuales, **AM** sugiere   la   fecha   actual   del   sistema   (aunque   puede   ser modificada).
 
 **Descripción:** Es un texto corto por medio del cual se indica la naturaleza de la  labor  a realizar.  Debe ser conciso y no dar lugar a ambigüedades, este campo tiene una longitud de 80 caracteres.  Se recomienda definir la descripción bajo la siguiente norma: iniciar con un verbo en infinitivo: revisar, corregir, inspeccionar, conectar, etc., continuar con el Objeto de mantenimiento o Activo / Equipo y finalizar con un  complemento explicatorio. Ejemplo: Revisar la transmisión delantera del sistema.  Cambiar a  los  rodillos  la  cobertura  de caucho.
 
@@ -257,7 +257,7 @@ Es posible definir una Actividad, por defecto, en ** “Administración”**, **
 
 **Control  Presupuestal:** Esta  Opción permite  definir  si  la  Orden  de  Trabajo maneja Presupuesto. Para las Órdenes de Trabajo Programadas, esta opción  siempre está  seleccionada, pero  aparece protegida,   ya  que  toda  **OT**   Programada  conlleva el Presupuesto Aprobado.
 
-Para  las  Órdenes  de  Trabajo  Manuales,  esta  opción se  establece en  el  m omento  de creación de la misma.  Esta elección se debe m arcar antes de darle clic al botón <a class="btn">Agregar</a>, de  Otra forma, **- **AM** asume que la **OT** no va a requerir Control Presupuestal y la posibilidad de hacer la marcación se inactiva en el acto.
+Para  las  Órdenes  de  Trabajo  Manuales,  esta  opción se  establece en  el  m omento  de creación de la misma.  Esta elección se debe m arcar antes de darle clic al botón <a class="btn">Agregar</a>, de  Otra forma, **AM** asume que la **OT** no va a requerir Control Presupuestal y la posibilidad de hacer la marcación se inactiva en el acto.
 
 Cuando una Orden de Trabajo Manual exige control presupuestal, y el presupuesto no ha sido aprobado, no es posible registrar ni modificar el Gasto Real en ella.
 
@@ -268,7 +268,7 @@ Este espacio de comentarios sirve para dos efectos:
 Cuando  se  genera  la   **OT**,  como  comentarios  a  priori,  para  especificar  referencias    importantes o ayudas previstas y necesarias en la ejecución posterior de la **OT**: planos, manuales técnicos, manuales de normas técnicas de Mantenimiento o  de especificaciones detalladas; normas de seguridad o enfoques de acción.  Sin embargo, en la gran mayoría de  los casos se utiliza la pestaña Multimedia para registrar estos datos. 
 Cuando ha concluido la ejecución de la **OT**, es posible utilizarlo para registrar hechos   interesantes acerca de la misma ejecución, como el estado del equipo antes de la intervención, detalles de la intervención, estado del mismo equipo  después de ella, recomendaciones a  los   usuarios  del  equipo,  recomendaciones  a  las  personas de mantenimiento y otros conceptos interesantes a juicio de los ejecutantes.
 
-**Contrato:** Para el caso de Órdenes de Trabajo programadas, que se hayan  generado desde un PM asociado a un Contrato que esté vencido o a punto de vencerse, **- **AM** informa al  respecto,  en el campo ** “Comentarios”** junto con la Fecha de vencimiento de aquel.
+**Contrato:** Para el caso de Órdenes de Trabajo programadas, que se hayan  generado desde un PM asociado a un Contrato que esté vencido o a punto de vencerse, **AM** informa al  respecto,  en el campo ** “Comentarios”** junto con la Fecha de vencimiento de aquel.
 
 # Ventana submenú de Órdenes de trabajo
 
@@ -282,7 +282,7 @@ Cada criterio aparece inicializado en un valor global que permite mostrar todas 
 
 Una vez establecido el subgrupo, el **AM** permite mantener activo cualquier subgrupo en cada módulo, hasta ser cambiado por el usuario.
 
-**- **AM** permite entonces hacer selección de un grupo de ots de acuerdo con los criterios seleccionados en la siguiente ventana. 
+**AM** permite entonces hacer selección de un grupo de ots de acuerdo con los criterios seleccionados en la siguiente ventana. 
 
 ![Ventana submenú de Órdenes de trabajo](manualAM/0.images/cap11/chp11_img04.png)
 
@@ -700,7 +700,7 @@ Si se desea descargar un archivo adjunto a la **OT**, se debe dar clic en el <sp
 
 En la gráfica anterior, Analizar / Generar, se aprecian sus componentes y sus respectivos contenidos.
 
-A  través de la  ventana Analizar /  Generar, **- **AM** propone un conjunto de   ots   que debieran ser ejecutadas en el período seleccionado, para ser analizadas y posteriormente generadas como Órdenes de Trabajo Programadas.
+A  través de la  ventana Analizar /  Generar, **AM** propone un conjunto de   ots   que debieran ser ejecutadas en el período seleccionado, para ser analizadas y posteriormente generadas como Órdenes de Trabajo Programadas.
 
 El Procedimiento para efectuar un Análisis y posterior Generación de Órdenes de Trabajo es el siguiente:
 
@@ -842,13 +842,13 @@ A continuación se describen los campos que componen esta ventana; cuando se  qu
 
 **F/H Fin Trabajos:** Es la Fecha y Hora que indica el momento en que finalizan las labores de   mantenimiento,   incluyendo   las   pruebas   o   ensayos,   que   determinaron   el   buen funcionamiento del equipo. La fecha se m aneja en formato AAAA/MM/DD (Año, Mes, día); la hora se m aneja en formato Militar (de 24 horas).
 
-**Tiempo Duración (ttr):** **- **AM** sugiere como Tiempo de Duración, (o time to repair) en este campo, la diferencia entre la Fecha y Hora de Fin de Trabajos y la Fecha y Hora de Inicio de Trabajos. Cabe an**OT**ar, que no siempre el Tiempo de Duración es la  diferencia entre estas fechas/horas, pues  pueden existir  eventos  que dejan  temporalmente a  la **OT**  en Estado de ** “Pendiente”**. **AM** permite corregir el tiempo de Duración en una **OT**, después de que fue calculado por el sistema, para que refleje el tiempo real de la ejecución.
+**Tiempo Duración (ttr):** **AM** sugiere como Tiempo de Duración, (o time to repair) en este campo, la diferencia entre la Fecha y Hora de Fin de Trabajos y la Fecha y Hora de Inicio de Trabajos. Cabe an**OT**ar, que no siempre el Tiempo de Duración es la  diferencia entre estas fechas/horas, pues  pueden existir  eventos  que dejan  temporalmente a  la **OT**  en Estado de ** “Pendiente”**. **AM** permite corregir el tiempo de Duración en una **OT**, después de que fue calculado por el sistema, para que refleje el tiempo real de la ejecución.
 
-Por ejemplo, si una **OT** tiene como Fecha de Inicio de Trabajos XXXX/12/01 08:30, y como Fecha de Fin de Trabajos XXXX/12/01 16:00, **- **AM** sugiere como Tiempo de Duración, 7 horas y 30 minutos. Sin embargo, si durante ese lapso se tuvo que detener la ejecución por 2 horas, debido a que faltaba un Repuesto o a que el técnico encargado se ausentó a realizar Otra labor, se debe corregir la duración: 5 horas y 30 minutos.
+Por ejemplo, si una **OT** tiene como Fecha de Inicio de Trabajos XXXX/12/01 08:30, y como Fecha de Fin de Trabajos XXXX/12/01 16:00, **AM** sugiere como Tiempo de Duración, 7 horas y 30 minutos. Sin embargo, si durante ese lapso se tuvo que detener la ejecución por 2 horas, debido a que faltaba un Repuesto o a que el técnico encargado se ausentó a realizar Otra labor, se debe corregir la duración: 5 horas y 30 minutos.
 
 **T. Improductivo: - **AM** sugiere como Tiempo Improductivo la diferencia entre la Fecha y Hora  de  Fin  de  Trabajos  y la  Fecha  y Hora Info  de  Paro (Para  Órdenes  de  Trabajo Correctivas), o como, la diferencia entre la Fecha y Hora de Fin de Trabajos y la Fecha y Hora de Inicio de Trabajos (Para Ordenes de Trabajo no Correctivas). Sin embargo, este valor  puede  corregirse,  después  de  que  fue  calculado  por  el  sistema,  para  reflejar  la cantidad Real de Tiempo Improductivo que tuvo el Equipo en la **OT** actual.
 
-Por ejemplo, si una **OT** correctiva tiene como fecha de Info de Paro XXXX/12/01 08:00, y como  fecha  de   Fin   de   Trabajos  XXXX/12/02  12:30, **- **AM** sugiere   como  Tiempo Improductivo, 1 día, 4 horas y 30 minutos. Sin embargo, si en ese  lapso, el Equipo no trabaja de 10 PM a 6 AM, pues la empresa no labora este turno de producción, se debe definir el tiempo improductivo como solamente de 20 horas y 30 minutos.
+Por ejemplo, si una **OT** correctiva tiene como fecha de Info de Paro XXXX/12/01 08:00, y como  fecha  de   Fin   de   Trabajos  XXXX/12/02  12:30, **AM** sugiere   como  Tiempo Improductivo, 1 día, 4 horas y 30 minutos. Sin embargo, si en ese  lapso, el Equipo no trabaja de 10 PM a 6 AM, pues la empresa no labora este turno de producción, se debe definir el tiempo improductivo como solamente de 20 horas y 30 minutos.
 
 Estado de la **OT**: Una Orden de Trabajo puede tener uno de los siguientes Estados: 
 

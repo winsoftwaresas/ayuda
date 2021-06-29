@@ -14,7 +14,7 @@ title: Maintenance Programs
 #	Ventana Principal de Programas de Mantenimiento
 ![Programa de mantenimiento](../../assets/images/cap08/chp08_img01.png)
 
-A esta ventana se accede desde el comando Programas del Menú Principal del **AM**–**.
+A esta ventana se accede desde el comando Programas del Menú Principal de **AM**–**.
 
 A  través  de  esta  ventana  se  crean  y  administran  los  PMs.  La  mayor  parte  de  la información aquí definida, se traslada completamente a la OT, cuando el  Programa la genere.
 
@@ -126,7 +126,7 @@ Cada criterio trabaja en conjunto con los demás, con el operador intersección.
 
 Cada criterio aparece inicializado en un valor global que permite mostrar todos los  PMs. Lo que significa que de no escoger un criterio se obtiene como resultado del subgrupo el mismo conjunto completo de todos los PMs.
 
-**- **AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar.
+**AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar.
 
 El programa permite entonces hacer selección de un grupo de Programas de acuerdo con los criterios seleccionados en la siguiente ventana.
 

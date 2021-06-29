@@ -44,11 +44,11 @@ El   primer   proceso básico de creación de datos de   Repuestos consiste en e
 
 El   primer   proceso básico de creación de datos de   Repuestos consiste en el   registro manual, organizado, uno a uno de los códigos de Repuestos del Almacén,  junto con su información característica, en la tabla de Almacén de Repuestos de la Base de Datos de **AM**–**.
 
-El segundo proceso consiste en tomar la información de los Repuestos desde un sistema de Inventarios preexistente y copiarlos en la tabla de Almacén de Repuestos de **AM**–**,  mediante una interfaz automática que se ejecutará en tiempo real o en un momento definido. El detalle del desarrollo de esta interfaz es acordado entre el Cliente y el Proveedor. En este proceso se requiere que se haga una preparación de los datos preexistente, dándoles un formato que facilite su importación a la Base de Datos del **AM**–**.
+El segundo proceso consiste en tomar la información de los Repuestos desde un sistema de Inventarios preexistente y copiarlos en la tabla de Almacén de Repuestos de **AM**–**,  mediante una interfaz automática que se ejecutará en tiempo real o en un momento definido. El detalle del desarrollo de esta interfaz es acordado entre el Cliente y el Proveedor. En este proceso se requiere que se haga una preparación de los datos preexistente, dándoles un formato que facilite su importación a la Base de Datos de **AM**–**.
 
 **AM**–** suministra el formato donde se detalla el diseño del archivo de interface. A este formato se deben acomodar los datos de Repuestos a transferir pues es el único  que **AM**–**  es  capaz  de  interpretar  para  realizar  la  creación  automática  de  la  tabla   de Almacén de Repuestos.
 
-Una vez se encuentre el archivo de interfaz listo, el Cliente lo debe dejar en una tabla intermedia y cuando se ejecute la interfaz automática, **- **AM** importa la información de los Repuestos a la base de datos de **AM**. 
+Una vez se encuentre el archivo de interfaz listo, el Cliente lo debe dejar en una tabla intermedia y cuando se ejecute la interfaz automática, **AM** importa la información de los Repuestos a la base de datos de **AM**. 
 
 Este proceso es útil tanto para crear el archivo de Repuestos, como para actualizarlo. Se recomienda para ello consultar con el asesor en Informática o con Servicio al  Cliente del Proveedor.
 
@@ -362,7 +362,7 @@ A esta opción se llega al sobreponer el cursor del mouse sobre un almacén y al
 
 ![ detalle de materiales y repuestos ](../../assets/images/cap04/chp04_img17.png)
 
-La asociación de los Repuestos con los Activos, inicia al dar clic a los **check box**, que están al lado izquierdo en la primera columna de la porción de Activos y se puede seleccionar uno o  varios, luego se elige uno o varios Repuestos dando clic a los **check box** que serán asociados a los Activos seleccionados y se asigna la cantidad para cada Repuesto, **- **AM** asigna por defecto la cantidad 1, como se muestra a continuación: 
+La asociación de los Repuestos con los Activos, inicia al dar clic a los **check box**, que están al lado izquierdo en la primera columna de la porción de Activos y se puede seleccionar uno o  varios, luego se elige uno o varios Repuestos dando clic a los **check box** que serán asociados a los Activos seleccionados y se asigna la cantidad para cada Repuesto, **AM** asigna por defecto la cantidad 1, como se muestra a continuación: 
 
 ![ detalle de materiales y repuestos ](../../assets/images/cap04/chp04_img18.png)
 
@@ -370,7 +370,7 @@ Para terminar la transacción se da clic al botón <a class="btn">Asociar</a> in
 
 ![activos](../../assets/images/cap04/chp04_img19.png)
 
-Si el usuario desea ver la asociación de un Activo y sus Repuestos asociados, se debe elegir un único Activo del lado izquierdo y se da clic al botón <a class="btn">Ver RP Asociados</a>, **- **AM** mostrará en el lado derecho los Repuestos que fueron asociados al Activo seleccionado.  
+Si el usuario desea ver la asociación de un Activo y sus Repuestos asociados, se debe elegir un único Activo del lado izquierdo y se da clic al botón <a class="btn">Ver RP Asociados</a>, **AM** mostrará en el lado derecho los Repuestos que fueron asociados al Activo seleccionado.  
 
 ![activos](../../assets/images/cap04/chp04_img20.png)
 
@@ -378,7 +378,7 @@ Si se eligen dos o más Activos, el sistema mostrará un mensaje indicando que s
 
 ![activos](../../assets/images/cap04/chp04_img21.png)
 
-Si el usuario desea ver la asociación de un Repuesto y los Activos asociados, se debe elegir un único Repuesto del lado derecho y se da clic al botón a <a class="btn">Ver RP Asociados</a>, **- **AM** mostrará en el lado izquierdo los Activos que tienen asociados el Repuesto seleccionado.  
+Si el usuario desea ver la asociación de un Repuesto y los Activos asociados, se debe elegir un único Repuesto del lado derecho y se da clic al botón a <a class="btn">Ver RP Asociados</a>, **AM** mostrará en el lado izquierdo los Activos que tienen asociados el Repuesto seleccionado.  
 
 ![activos](../../assets/images/cap04/chp04_img22.png)
 
