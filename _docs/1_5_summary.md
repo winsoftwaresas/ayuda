@@ -8,13 +8,13 @@ author: win
 
 # Resumen: Como empezar a trabajar
 
-El uso del programa **AM 4G**-   Administrador de Mantenimiento se facilita en gran forma si se atienden los procedimientos básicos que se explican a continuación.
+El uso del programa **AM**-   Administrador de Mantenimiento se facilita en gran forma si se atienden los procedimientos básicos que se explican a continuación.
 
 Estos procedimientos permiten implementar el   programa, organizando la   estructura de datos en una forma lógica y simple, sin importar la complejidad propia del área de Mantenimiento o de las funciones administrativas, técnicas u operativas que realice.
 
-La guía general para la implementación exitosa del programa   **- **AM 4G**-   Administrador de Mantenimiento incluye la realización de los siguientes pasos en ese justo orden:
+La guía general para la implementación exitosa del programa   **- **AM**-   Administrador de Mantenimiento incluye la realización de los siguientes pasos en ese justo orden:
 
-- Definición de Compañía(s) y perfiles de Usuarios (en la versión **AM 4G**-** ST solo es necesario la definición de los perfiles de Usuarios).
+- Definición de Compañía(s) y perfiles de Usuarios (en la versión **AM** ST solo es necesario la definición de los perfiles de Usuarios).
 - Definición de la Infraestructura.
 
 - Definición de Activos, Equipos u Objetos de Mantenimiento y su despiece. 
@@ -35,7 +35,7 @@ De hecho, los procesos periódicos de Balance de Gestión, Reportes, Índices, P
 
 ##  General – A tener en cuenta
 
-A nivel general dentro del **- **AM 4G** solo es posible especificar campos de minutos (MM) menores o iguales a 59, campos de horas (HH) menores o iguales a 23. De ser necesario el sistema automáticamente convierte los valores ingresados a HH MM. Por ejemplo, si el usuario ingresa 78 MM, el sistema lo interpretará de la siguiente manera: MM se reduce a 18 y se traslada una unidad a HH (78 minutos equivalen a 1 hora y 18 minutos).
+A nivel general dentro del **- **AM** solo es posible especificar campos de minutos (MM) menores o iguales a 59, campos de horas (HH) menores o iguales a 23. De ser necesario el sistema automáticamente convierte los valores ingresados a HH MM. Por ejemplo, si el usuario ingresa 78 MM, el sistema lo interpretará de la siguiente manera: MM se reduce a 18 y se traslada una unidad a HH (78 minutos equivalen a 1 hora y 18 minutos).
 
 La conversión también se da cuando se trata de un campo de días (DD), por ejemplo, si el usuario ingresa 65 HH, el campo HH contendría finalmente 17 y al campo DD se le sumaría
 (265 horas equivalen a 2 días y 17 horas).
@@ -44,13 +44,13 @@ La conversión también se da cuando se trata de un campo de días (DD), por eje
 
 ### Política de Codificación:
 
-A continuación, se describe la convención utilizada para la nomenclatura de los Reportes de **- **AM 4G**. Se ha implementado esta convención con el fin de mejorar el proceso de búsqueda de los mismos.
+A continuación, se describe la convención utilizada para la nomenclatura de los Reportes de **- **AM**. Se ha implementado esta convención con el fin de mejorar el proceso de búsqueda de los mismos.
 
 ![nomenclatura](../../assets/images/cap01/chp01_img63.png)
 
 ## Módulo o Categoría al que pertenece el Reporte:
 
-Corresponden a las siglas establecidas en **AM 4G**-** para denominar los módulos o las categorías a las que pertenece el Reporte.
+Corresponden a las siglas establecidas en **AM** para denominar los módulos o las categorías a las que pertenece el Reporte.
 
 ### Abreviación de Módulos:
 
@@ -130,9 +130,9 @@ Este indicador permite de forma ágil la naturaleza de cada reporte. A continuac
 
 # RECOMENDACIONES GENERALES 
 
-A continuación, se describen algunas Recomendaciones Generales acerca del manejo funcional del **AM 4G**-**.
+A continuación, se describen algunas Recomendaciones Generales acerca del manejo funcional del **AM**.
 
-•	En el módulo de Administración, del Submenú Valores por Defectos (Programas) se establece el día que inicia la semana número 2 del año, se configura el criterio “Semanas del Año” en Programas de Mantenimiento.  De esta manera, **AM 4G**-** conoce qué día inician las de semanas para el año en curso.
+•	En el módulo de Administración, del Submenú Valores por Defectos (Programas) se establece el día que inicia la semana número 2 del año, se configura el criterio “Semanas del Año” en Programas de Mantenimiento.  De esta manera, **AM** conoce qué día inician las de semanas para el año en curso.
 
 Para establecer este parámetro, debe tenerse a mano un calendario empresarial de semanas numerado, o en su defecto un calendario normal.  Este proceso debe efectuarse al inicio de cada año. Dependiendo de la cultura de trabajo de cada empresa, las semanas pueden iniciar en diferentes días, por ejemplo, los lunes. Debe tenerse en cuenta este tipo de criterios a la hora de establecer dicho parámetro.
 

@@ -37,7 +37,7 @@ Se usa para seleccionar grupos de Conceptos de Kárdex que cumplen un conjunto d
 
 ![detalle de contrato](../../assets/images/cap02/chp02_img72.png)
 
-- **AM 4G**- mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar. 
+- **AM**- mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar. 
 
 Cada criterio trabaja en conjunto con los demás, con el operador intersección.
 

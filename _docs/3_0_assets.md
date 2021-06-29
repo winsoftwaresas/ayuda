@@ -17,7 +17,7 @@ Se considera también un Activo /Equipo, a un componente o subcomponente de otro
 
 Por   tanto   un   Activo /Equipo   encaja   en   el   concepto   de   que   es   individual   pero simultáneamente puede ser parte de otro y puede estar conformado por otros.	Esta relación se define muy fácilmente según el esquema de codificación que se  detalla más adelante.
 
-En el **AM 4G**–** hay una tabla de la Base de Datos que está encargada del registro y definición de todo Activo / Equipo.  Se trata de la tabla de Equipos, en la que se definen incluyendo su despiece y Ficha Técnica.
+En el **AM**–** hay una tabla de la Base de Datos que está encargada del registro y definición de todo Activo / Equipo.  Se trata de la tabla de Equipos, en la que se definen incluyendo su despiece y Ficha Técnica.
 
 # Ficha Técnica
 
@@ -27,7 +27,7 @@ Como Objeto de Mantenimiento se define la información técnica del Activo / Equ
 
 **Nota:** Antes de proceder a registrar un Activo (Ficha Técnica), es importante verificar que toda la información prerrequisito ya fue creada en el Sistema.  Para un Activo se considera Información Prerrequisito: su Ubicación Física, Centro de Costo, Proveedor,  Fabricante y Características del Activo.	Esto garantiza una definición ágil del Activo,  al  tiempo que garantiza que cada nuevo Equipo similar, que se copie desde un  original, sea generado con la información integral.
 
-En muchos procesos a través de opciones posteriores el – **AM 4G**- entrega  automáticamente los campos de Ubicación Física, Centro de Costo, Proveedor,  Referencia, etc. con el solo hecho de seleccionar el Activo.  Esta es otra razón para involucrar desde el comienzo tales campos en el registro del Activo/Equipo.
+En muchos procesos a través de opciones posteriores el – **AM**- entrega  automáticamente los campos de Ubicación Física, Centro de Costo, Proveedor,  Referencia, etc. con el solo hecho de seleccionar el Activo.  Esta es otra razón para involucrar desde el comienzo tales campos en el registro del Activo/Equipo.
 
 ## Información Universal
 
@@ -39,7 +39,7 @@ Es un conjunto de datos propio del Activo / Equipo que depende del mismo, de su 
 
 Ninguno  de  estos  parámetros  sin  embargo,  es  de  utilidad  si  la  intención  es  definir  un Equipo   de   cómputo   o   una   instalación   locativa,   en   cuyos   casos   los   parámetros característicos serían muy diferentes.
 
-Sobre  esta  información  característica  el  – **AM 4G**– ofrece  una  tabla  preconfigurada   con nombres de  parámetros que  pueden  ser  escogidos  al  momento de configurar  la ficha técnica. Tales nombres de parámetros son modificables, adecuables,  borrables e incluso es posible adicionar nuevos a la tabla. Se pretende que el tratamiento que se dé a estos parámetros  a  todo  lo  largo  del  sistema  sea  uniforme  y  estandarizado.      Por esto la Administración  de la Tabla de Características es restringida y centralizada.
+Sobre  esta  información  característica  el  – **AM**– ofrece  una  tabla  preconfigurada   con nombres de  parámetros que  pueden  ser  escogidos  al  momento de configurar  la ficha técnica. Tales nombres de parámetros son modificables, adecuables,  borrables e incluso es posible adicionar nuevos a la tabla. Se pretende que el tratamiento que se dé a estos parámetros  a  todo  lo  largo  del  sistema  sea  uniforme  y  estandarizado.      Por esto la Administración  de la Tabla de Características es restringida y centralizada.
 
 ![detalle de activos](../../assets/images/cap03/chp03_img01.png)
 
@@ -52,11 +52,11 @@ Esta  información  se  requiere  sólo  cuando  el  Activo  usa  un  contador  
 En forma alterna, cuando se trata de un Activo / Equipo que no trabaja con base en  una
 Función Uniforme, sino en función de oferta y demanda, como por ejemplo un  compresor.
 
-De respaldo el – **AM 4G**- posibilita definir un Estándar de Planeación, que es un datos promedio del trabajo realizado por ese Activo en una Unidad de Tiempo, y que se debería ser definido para al menos una semana. Este dato se establece con base en registros históricos o estadísticos del desempeño del Activo. Este dato es utilizado por el Módulo de Programas de Mantenimiento, cuando debe realizar una proyección hacia el futuro.
+De respaldo el – **AM**- posibilita definir un Estándar de Planeación, que es un datos promedio del trabajo realizado por ese Activo en una Unidad de Tiempo, y que se debería ser definido para al menos una semana. Este dato se establece con base en registros históricos o estadísticos del desempeño del Activo. Este dato es utilizado por el Módulo de Programas de Mantenimiento, cuando debe realizar una proyección hacia el futuro.
 
 ## Codificación de Activos/Equipos
 
-El **AM 4G**-** está capacitado para aceptar y definir 5 códigos para cada Activo / Equipo.   Cada estructura de  código  es  independiente de  las  otras  y sirve  para  localizar  o   acceder  o estudiar un Activo, partiendo de distinta información que distintos tipos de usuarios puedan tener sobre el mismo.
+El **AM** está capacitado para aceptar y definir 5 códigos para cada Activo / Equipo.   Cada estructura de  código  es  independiente de  las  otras  y sirve  para  localizar  o   acceder  o estudiar un Activo, partiendo de distinta información que distintos tipos de usuarios puedan tener sobre el mismo.
 Las cinco estructuras son: el Código de Mantenimiento (objeto de la presente sección),  el Código  Referencia  (código  externo,  o  dado  por  el  proveedor),  el   Código  de  Activo, el  Código de Inventario, un número de Activo Fijo (normalmente contable), un número de Serie propio del Activo, y un Código Alias (propio de la cultura técnica empresarial).
 
 Como se dijo antes, en esta sección se estudia el Código de Mantenimiento del Activo.
@@ -64,9 +64,9 @@ Como se dijo antes, en esta sección se estudia el Código de Mantenimiento del 
 Se trata entonces de un Código de 18 posiciones. Es  un  código  amplio,  jerárquico,  multinivel,  que  se  estructura  y  diseña flexiblemente de acuerdo con la necesidad o el gusto del usuario.
 
 Estructurar el código de Activo / Equipo es una labor de Implementación que exige estudio, discusiones y participación de varios usuarios entendidos. Al tiempo exige a todo usuario con capacidad de definir códigos de Activos, el compromiso de uso,  ajustado a la norma que lo estructuró.
-– **AM 4G**– es capaz de asumir la estructura de Código que ya exista en la instalación. De todas formas si no se tiene una estructura predefinida o si se desea revisar y modificar la que ya existe, se deben tener en cuenta las siguientes observaciones:
+– **AM**– es capaz de asumir la estructura de Código que ya exista en la instalación. De todas formas si no se tiene una estructura predefinida o si se desea revisar y modificar la que ya existe, se deben tener en cuenta las siguientes observaciones:
 
-**1.** **AM 4G**-** garantiza un conjunto de funciones con base en el Código de Activo, que es estructurado y conformado por niveles jerárquicos. Con base en tal estructuración se posibilita el despiece de los Activos. A manera de ejemplo, una estructuración de los niveles que se menciona, podría ser: Activo/Equipo, Sistema, Subsistema, Componente y Parte, entre otros.
+**1.** **AM** garantiza un conjunto de funciones con base en el Código de Activo, que es estructurado y conformado por niveles jerárquicos. Con base en tal estructuración se posibilita el despiece de los Activos. A manera de ejemplo, una estructuración de los niveles que se menciona, podría ser: Activo/Equipo, Sistema, Subsistema, Componente y Parte, entre otros.
 
 **Por ejemplo:** el código COARCSU se puede descomponer de la siguiente forma:
 
@@ -82,7 +82,7 @@ Estructurar el código de Activo / Equipo es una labor de Implementación que ex
 
 Existen varios criterios para despiezar un Activo / Equipo o uno de sus componentes.   El primero que se menciona es lograr el despiece total del Activo / Equipo hasta asociar cada componente mínimo con un código de Repuesto en el Almacén.
 
-Otro, plantea el despiece a un nuevo nivel, por la necesidad de mantener Historia de Mantenimiento individual y detallada. Para ese nuevo nivel de despiece, el – **AM 4G**- trabaja principalmente bajo este segundo concepto.
+Otro, plantea el despiece a un nuevo nivel, por la necesidad de mantener Historia de Mantenimiento individual y detallada. Para ese nuevo nivel de despiece, el – **AM**- trabaja principalmente bajo este segundo concepto.
 
 Lo anterior posibilita obtener la Historia de Mantenimiento total, detallada de un  Activo / Equipo, en conjunto con la de todos sus componentes de despiece, si es del caso.   Pero también es posible obtener la Historia detallada de un Activo o de algún  componente de despiece,  incluyendo  solamente  las  actividades  relacionadas  con  el  nivel  requerido,  sin incluir más niveles inferiores de despiece. En todo caso, el proceso de definir un nuevo nivel de despiece se centra en la creación de un nuevo nivel jerárquico en la estructura del código actual.   En el ejemplo del  numeral 1 de la sección anterior vemos como el nivel COARCSU es un nuevo nivel de  despiece del nivel anterior, el COARC.
 
@@ -256,7 +256,7 @@ Cada criterio trabaja en conjunto con los demás, con el operador intersección.
 
 Cada criterio aparece inicializado en un valor global que permite mostrar todos los Activos. Lo que significa que de no escoger un criterio se obtiene como resultado del  subgrupo el mismo conjunto de todos los Activos.
 
-**- **AM 4G**-** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar.
+**- **AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar.
 
 El programa permite entonces hacer selección de un grupo de Activos de acuerdo con los criterios seleccionados en la siguiente ventana.
  
@@ -420,7 +420,7 @@ A   continuación  se  describen  los  campos  que  componen  esta  Ventana info
 
 **Cuadro Identificación:** Aparece con los campos bloqueados para que el usuario visualice la información básica del Activo al cual se le están definiendo las Características. 
 
-**FF Registro:** En este campo se registra la fecha de registro del Activo en el software **- **AM 4G**-**.
+**FF Registro:** En este campo se registra la fecha de registro del Activo en el software **- **AM**.
 
 **FF Fabricación:** En este campo se registra la fecha de fabricación del Activo dada por el fabricante.
 

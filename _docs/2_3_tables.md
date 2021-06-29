@@ -148,7 +148,7 @@ Se usa para seleccionar grupos de Terceros que cumplen un conjunto de filtros o 
 ![terceros](../../assets/images/cap02/chp02_img07.png)
 
 
-**AM 4G**-** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar. 
+**AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar. 
 
 Cada criterio trabaja en conjunto con los demás, con el operador intersección.
 

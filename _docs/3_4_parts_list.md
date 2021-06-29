@@ -9,7 +9,7 @@ author: win
 
 Existen varios criterios para despiezar un Activo / Equipo o uno de sus componentes.   El primero que se menciona es lograr el despiece total del Activo / Equipo hasta asociar cada componente mínimo con un código de Repuesto en el Almacén.
 
-Otro, plantea el despiece a un nuevo nivel, por la necesidad de mantener Historia de Mantenimiento individual y detallada. Para ese nuevo nivel de despiece, el – **AM 4G**- trabaja principalmente bajo este segundo concepto.
+Otro, plantea el despiece a un nuevo nivel, por la necesidad de mantener Historia de Mantenimiento individual y detallada. Para ese nuevo nivel de despiece, el – **AM**- trabaja principalmente bajo este segundo concepto.
 
 Lo anterior posibilita obtener la Historia de Mantenimiento total, detallada de un  Activo / Equipo, en conjunto con la de todos sus componentes de despiece, si es del caso.   Pero también es posible obtener la Historia detallada de un Activo o de algún  componente de despiece,  incluyendo  solamente  las  actividades  relacionadas  con  el  nivel  requerido,  sin incluir más niveles inferiores de despiece. En todo caso, el proceso de definir un nuevo nivel de despiece se centra en la creación de un nuevo nivel jerárquico en la estructura del código actual.   En el ejemplo del  numeral 1 de la sección anterior vemos como el nivel COARCSU es un nuevo nivel de  despiece del nivel anterior, el COARC.
 
@@ -183,7 +183,7 @@ Cada criterio trabaja en conjunto con los demás, con el operador intersección.
 
 Cada criterio aparece inicializado en un valor global que permite mostrar todos los Activos. Lo que significa que de no escoger un criterio se obtiene como resultado del  subgrupo el mismo conjunto de todos los Activos.
 
-**- **AM 4G**-** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar.
+**- **AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar.
 
 El programa permite entonces hacer selección de un grupo de Activos de acuerdo con los criterios seleccionados en la siguiente ventana.
  
@@ -347,7 +347,7 @@ A   continuación  se  describen  los  campos  que  componen  esta  Ventana info
 
 **Cuadro Identificación:** Aparece con los campos bloqueados para que el usuario visualice la información básica del Activo al cual se le están definiendo las Características. 
 
-**FF Registro:** En este campo se registra la fecha de registro del Activo en el software **- **AM 4G**-**.
+**FF Registro:** En este campo se registra la fecha de registro del Activo en el software **- **AM**.
 
 **FF Fabricación:** En este campo se registra la fecha de fabricación del Activo dada por el fabricante.
 

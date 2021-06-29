@@ -1,15 +1,15 @@
 ---
-title: Ventana Principal **AM 4G**
+title: Ventana Principal **AM**
 subtitle: Aquí hay información general sobre los elementos principales presentes en una ventana AM 4G
 tags: [setup]
 author: win
 ---
 
-## Ventana Principal **AM 4G**
+## Ventana Principal **AM**
 
 ![Ventana Principal AM](../../assets/images/cap01/chp01_img01.png)
 
-Aquí se incluye información general sobre los principales elementos presentes en una ventana de **AM 4G**. Los elementos que conforman esta vista principal son:
+Aquí se incluye información general sobre los principales elementos presentes en una ventana de **AM**. Los elementos que conforman esta vista principal son:
 
 ### Menú Principal
 La porción de Menú Principal normalmente está conformada por la barra de opciones que se muestra a continuación.
@@ -24,17 +24,17 @@ En caso de estar trabajando en Infraestructura, se muestra una ventana que se ub
 
 En caso de estar trabajando en Admón., esta barra se complementa listando todas las compañías existentes. 
 
-![ventana administracion  **AM 4G**](../../assets/images/cap01/chp01_img04.png)
+![ventana administracion  **AM**](../../assets/images/cap01/chp01_img04.png)
 
 ### Submenú
 
 El submenú tiene un conjunto de transacciones que se usan para ejecutar funciones, operaciones o procedimientos especiales que afectan uno, varios o todos los registros del módulo activo. Al **sobreponer** el mouse por un módulo o una opción del menú principal la pantalla muestra debajo de ella un recuadro conformado en general así, como se muestra a continuación:
 
-![ventana  **AM 4G**](../../assets/images/cap01/chp01_img05.png)
+![ventana  **AM**](../../assets/images/cap01/chp01_img05.png)
 
 Se destacan las siguientes características:
 
-![ventana  **AM 4G**](../../assets/images/cap01/chp01_img06.png)
+![ventana  **AM**](../../assets/images/cap01/chp01_img06.png)
 
 Identificación del módulo actual en pantalla, (En letra amarilla sobre fondo oscuro)corresponde a la opción del menú seleccionada.
 
@@ -107,7 +107,7 @@ Esta ventana se ubica en la parte superior derecha del menú principal, Contiene
 
 Segundo, indica el login del usuario conectado en la compañía y en la sección de ** “Usuarios Conectados”** que es un contador de los usuarios conectados actualmente al sistema, que, al ser activado con un clic, los despliega e indica al usuario a través de qué aplicativos están conectados.
 
-Tercero, al dar  a la opción de ** “Inicio”** lleva al usuario a la Ventana Principal de **AM 4G**-**, cuarto la opción de  “Interfases” se usará para definir los criterios de las interfaces que se realizarán a futuro entre el software **AM 4G**-** y otros sistemas propios de la empresa o institución. 
+Tercero, al dar  a la opción de ** “Inicio”** lleva al usuario a la Ventana Principal de **AM**, cuarto la opción de  “Interfases” se usará para definir los criterios de las interfaces que se realizarán a futuro entre el software **AM** y otros sistemas propios de la empresa o institución. 
 
 Por último, la quinta opción ** “Cerrar Sesión”** se usa para manejar la sesión del usuario actual, con el fin de salir del aplicativo**.       
 
@@ -189,7 +189,7 @@ Al dar clic al botón <a class="btn">Exportar</a> permite exportar el Reporte se
 
 <a class="btn">Iniciar Sesión</a> 
 este botón valida el usuario y la contraseña,
-necesarios para ingresar al **AM 4G**-**.
+necesarios para ingresar al **AM**.
 
 <a class="btn">Enviar a Historia</a> Este botón ejecuta el envío de registros de Solicitudes de Servicio, Órdenes de Trabajo Y Paros/Averías cerradas **y/o canceladas**, hasta el módulo de Historia de Mantenimiento.
 
@@ -241,13 +241,13 @@ Este botón permite 	hacer unión de selecciones dentro de una opción de subgru
 
 <span class="iconify btn" data-icon="message-alert">Indicadores</span>  con este botón se muestra el significado de los colores mostrados en la columna de Indicadores de los módulos de Infraestructura, Activos, Almacén de Repuestos, PM, SS, PA, OT e HI.
 
-# Iniciar la ejecución de **AM 4G**
+# Iniciar la ejecución de **AM**
 
-La ejecución del – **AM 4G** se inicia activando **el link correspondiente a través de un navegador como Chrome o Mozilla**. 
+La ejecución del – **AM** se inicia activando **el link correspondiente a través de un navegador como Chrome o Mozilla**. 
 
-Si se trata de la versión **AM 4G**-** PRO, el sistema solicita el nombre de usuario, la selección de la Compañía con la cual desea interactuar y su clave de acceso.
+Si se trata de la versión **AM** PRO, el sistema solicita el nombre de usuario, la selección de la Compañía con la cual desea interactuar y su clave de acceso.
 
-Cuando se trata de la versión **AM 4G**-** ST el sistema solicita el nombre de usuario y su clave de acceso.
+Cuando se trata de la versión **AM** ST el sistema solicita el nombre de usuario y su clave de acceso.
 
 ![ventana acceso directo](../../assets/images/cap01/chp01_img61.png)Cuando se ha hecho el acceso exitoso al sistema se muestra por defecto una ventana con un tablero de entrada que corresponde a un DashBoard Home que permite visualizar conjuntos de indicadores e información que muestran la forma actual de las cosas en distintos módulos del sistema. 
 

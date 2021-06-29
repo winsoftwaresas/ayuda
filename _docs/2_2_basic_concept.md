@@ -7,9 +7,9 @@ author: win
 
 
  
-La infraestructura es un conjunto de archivos y tablas parametrizables que sirven para que **AM 4G** se adecue a la organización de mantenimiento de la empresa y sus características.
+La infraestructura es un conjunto de archivos y tablas parametrizables que sirven para que **AM** se adecue a la organización de mantenimiento de la empresa y sus características.
 
-A la Infraestructura pertenecen tablas que **AM 4G** utiliza como base para agilizar la definición de  Equipos, Repuestos, Programas de Mantenimiento y sus respectivas Órdenes de Trabajo. Los datos correspondientes a los registros de estas tablas deben ser los primeros en entrar al sistema, después de lo cual se actualizan con una relativa baja frecuencia.
+A la Infraestructura pertenecen tablas que **AM** utiliza como base para agilizar la definición de  Equipos, Repuestos, Programas de Mantenimiento y sus respectivas Órdenes de Trabajo. Los datos correspondientes a los registros de estas tablas deben ser los primeros en entrar al sistema, después de lo cual se actualizan con una relativa baja frecuencia.
 
 Es recomendable ingresar los datos en el siguiente orden: Centros de Costo, Centros Responsables, Oficios, Terceros, Ubicaciones Físicas, Contratos, Almacenes, Unidades  de Medida, Monedas, Contadores, Características, Otros Conceptos de Costo, Causas de Pendiente, Tipos de Actividad, Causas de Cierre, Acciones Técnicas, Causas de Falla, Efectos de Falla, Conceptos de Kárdex, Operaciones, Referencias, Clasificadores y Estados. Estas se consideran las tablas básicas, que deberán, en su mayoría, ser revisadas y personalizadas. Algunas tablas son de utilidad opcional según se use o no el módulo de Repuestos, como por ejemplo la de Unidades de Medida y Monedas. Otras tablas son instaladas con valores preconfigurados (valores por defecto), válidos en muchos contextos a manera de ejemplo; pero de igual forma sus contenidos se pueden modificar, borrar o ser actualizados con información nueva.
 

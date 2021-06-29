@@ -35,7 +35,7 @@ Una vez finalizado el proceso anterior, se muestra un mensaje de confirmación d
 Para verificar la información del cierre realizado, existe un reporte con el nombre Inventario
 Final.
 
-El  cierre  de  inventario  en  el  **AM 4G**–**,  no  prohíbe  su  funcionamiento.  Es  decir,  existen software que hasta no cerrar inventario, hasta que no pase de mes, no  permite que se realice ingreso de información solo lo hacen de modo consulta. El **AM 4G**–** está habilitado para seguir su funcionamiento después de haberse ejecutado la transacción Inventario final del mes.
+El  cierre  de  inventario  en  el  **AM**–**,  no  prohíbe  su  funcionamiento.  Es  decir,  existen software que hasta no cerrar inventario, hasta que no pase de mes, no  permite que se realice ingreso de información solo lo hacen de modo consulta. El **AM**–** está habilitado para seguir su funcionamiento después de haberse ejecutado la transacción Inventario final del mes.
 
 Para  la  realización de  este  proceso,   “Inventario final del mes”, se  debe tener  los  permisos adecuados los cuales permiten ejecutar y volver a iniciar el proceso. Estos  permisos se configuran por usuario en el módulo de Administración.
 
@@ -115,7 +115,7 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 **Fecha de Uso:** Es la fecha en la que se tiene planeado utilizar el Repuesto seleccionado en el visor. De acuerdo con esta fecha, la persona encargada del Almacén debe mantener las unidades reservadas, disponibles sólo para quién registró la reserva.
 
 **Estado:** Informa  acerca  del  curso  de  la  Reserva.  Puede  ser  Activa,   Finalizada  o
-Cancelada. El estado Finalizada, solo se puede seleccionar desde el módulo de Kárdex a través de la transacción  “Despachar Reservas”. Para mayor detalle consultar la funcionalidad en el módulo de Kárdex / Ventana Visor de Movimientos de Kárdex. Mientras que el estado Cancelada, sí es posible ejecutarlo desde esta opción, para ello se debe seleccionar la reserva que se va a cancelar, luego seleccionar el estado Cancelada, dar clic al botón <a class="btn">Actualizar</a>., inmediatamente **AM 4G**-** muestra un mensaje de alerta indicándole al usuario si está seguro de modificar esta reserva, para finalizar se da clic en Aceptar.          
+Cancelada. El estado Finalizada, solo se puede seleccionar desde el módulo de Kárdex a través de la transacción  “Despachar Reservas”. Para mayor detalle consultar la funcionalidad en el módulo de Kárdex / Ventana Visor de Movimientos de Kárdex. Mientras que el estado Cancelada, sí es posible ejecutarlo desde esta opción, para ello se debe seleccionar la reserva que se va a cancelar, luego seleccionar el estado Cancelada, dar clic al botón <a class="btn">Actualizar</a>., inmediatamente **AM** muestra un mensaje de alerta indicándole al usuario si está seguro de modificar esta reserva, para finalizar se da clic en Aceptar.          
 
 **Reservado por:** Es  la  persona  que  registra  la  Reserva  de  las  unidades  del   Repuesto seleccionado.
 

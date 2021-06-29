@@ -12,5 +12,5 @@ Se considera también un Activo /Equipo, a un componente o subcomponente de otro
 
 Por   tanto   un   Activo /Equipo   encaja   en   el   concepto   de   que   es   individual   pero simultáneamente puede ser parte de otro y puede estar conformado por otros.	Esta relación se define muy fácilmente según el esquema de codificación que se  detalla más adelante.
 
-En el **AM 4G**–** hay una tabla de la Base de Datos que está encargada del registro y definición de todo Activo / Equipo.  Se trata de la tabla de Equipos, en la que se definen incluyendo su despiece y Ficha Técnica.
+En el **AM**–** hay una tabla de la Base de Datos que está encargada del registro y definición de todo Activo / Equipo.  Se trata de la tabla de Equipos, en la que se definen incluyendo su despiece y Ficha Técnica.
 

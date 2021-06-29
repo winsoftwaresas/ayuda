@@ -14,7 +14,7 @@ Son las preguntas básicas que obtienen respuesta en el presente capítulo.
 
 ## Paros / Averías ( **FDA**)
 
-El  módulo de Paros / Averías en el  **AM 4G** tiene como objetivo el registro simple  pero detallado, de los hechos y de las actividades que se ejecutan como consecuencia de un Paro o una Avería en la prestación del servicio de un Equipo/Activo. Tal  **FDA** se pudo haber ocasionado en un Fallo, o en un  **FDA**.
+El  módulo de Paros / Averías en el  **AM** tiene como objetivo el registro simple  pero detallado, de los hechos y de las actividades que se ejecutan como consecuencia de un Paro o una Avería en la prestación del servicio de un Equipo/Activo. Tal  **FDA** se pudo haber ocasionado en un Fallo, o en un  **FDA**.
 
 Un Fallo, en la mayoría de los casos es funcional y ocurre cuando el Equipo/Activo se encuentra trabajando anormalmente, a pesar de que todos sus componentes  están en  perfecto estado. Ello denota un problema  de  ensamble,  de  ajuste, de puesta a punto, de mantenimiento o de otros similares.
 
@@ -38,7 +38,7 @@ es aplicable), operador del Equipo/Activo/Activo, efecto de la falla, Equipo/Act
 
 Los demás campos son generados por el sistema o son llenados solo en el momento del cierre del PA.
 
-El  **AM 4G** maneja la siguiente Vista. 
+El  **AM** maneja la siguiente Vista. 
 
 ![ventana  **FDA**](0.images/cap10/chp10_img01.png)
 
@@ -190,7 +190,7 @@ Cada criterio trabaja en conjunto con los demás, con el operador intersección.
 
 Cada criterio aparece inicializado en un valor global que permite mostrar todos los Paros. Lo que significa que de no escoger un criterio se obtiene como resultado del subgrupo el mismo conjunto de todos los Paros.
 
- **AM 4G** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar.
+ **AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar.
 
 El programa permite entonces hacer selección de un grupo de Paros de acuerdo con los criterios seleccionados en la siguiente ventana.
 

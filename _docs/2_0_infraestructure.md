@@ -11,9 +11,9 @@ Que información constituye la Infraestructura. Cual es cada una de las tablas q
 
 #Conceptos Básicos sobre la Infraestructura
  
-La infraestructura es un conjunto de archivos y tablas parametrizables que sirven para que **–  **AM 4G**-** se adecue a la organización de mantenimiento de la empresa y sus características.
+La infraestructura es un conjunto de archivos y tablas parametrizables que sirven para que **AM** se adecue a la organización de mantenimiento de la empresa y sus características.
 
-A la Infraestructura pertenecen tablas que **AM 4G**-** utiliza como base para agilizar la definición de  Equipos, Repuestos, Programas de Mantenimiento y sus respectivas Órdenes de Trabajo. Los datos correspondientes a los registros de estas tablas deben ser los primeros en entrar al sistema, después de lo cual se actualizan con una relativa baja frecuencia.
+A la Infraestructura pertenecen tablas que **AM** utiliza como base para agilizar la definición de  Equipos, Repuestos, Programas de Mantenimiento y sus respectivas Órdenes de Trabajo. Los datos correspondientes a los registros de estas tablas deben ser los primeros en entrar al sistema, después de lo cual se actualizan con una relativa baja frecuencia.
 
 Es recomendable ingresar los datos en el siguiente orden: Centros de Costo, Centros Responsables, Oficios, Terceros, Ubicaciones Físicas, Contratos, Almacenes, Unidades  de Medida, Monedas, Contadores, Características, Otros Conceptos de Costo, Causas de Pendiente, Tipos de Actividad, Causas de Cierre, Acciones Técnicas, Causas de Falla, Efectos de Falla, Conceptos de Kárdex, Operaciones, Referencias, Clasificadores y Estados. Estas se consideran las tablas básicas, que deberán, en su mayoría, ser revisadas y personalizadas. Algunas tablas son de utilidad opcional según se use o no el módulo de Repuestos, como por ejemplo la de Unidades de Medida y Monedas. Otras tablas son instaladas con valores preconfigurados (valores por defecto), válidos en muchos contextos a manera de ejemplo; pero de igual forma sus contenidos se pueden modificar, borrar o ser actualizados con información nueva.
 
@@ -171,7 +171,7 @@ Se usa para seleccionar grupos de Terceros que cumplen un conjunto de filtros o 
 ![terceros](../../assets/images/cap02/chp02_img07.png)
 
 
-**AM 4G**-** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar. 
+**AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar. 
 
 Cada criterio trabaja en conjunto con los demás, con el operador intersección.
 
@@ -217,7 +217,7 @@ realizado una selección es posible hacer otra y unir el resultado de las dos.  
 
 Las Ubicaciones Físicas corresponden a los sitios o áreas geográficas donde se encuentran los Activos, Equipos, Objetos de Mantenimiento y los Repuestos. Es la lista de las áreas  físicas que conforman el  “Layout” de la planta de producción (Industria, Manufactura) o de la planta de servicios (Hoteles, Hospitales, Banca) o simplemente de las facilidades que conforman las instalaciones que son objetos de mantenimiento.
 
-El  concepto  de  Ubicaciones  Físicas  es  netamente  de  geografía,  diferenciado completamente del concepto de Equipo y de Centro de Costo, además la ubicación física puede estar en forma activa o inactiva dentro del **AM 4G**-**. En ocasiones un Centro de Costo corresponde a una Ubicación Física pero en muchas otras no es así. De igual forma en ocasiones  un equipo o unidad funcional caracteriza a la ubicación física pero en muchas otras no. Por esta razón los tres conceptos se definen independientemente en **AM 4G**-**eso si con la posibilidad de relacionarlos en distintos contextos.
+El  concepto  de  Ubicaciones  Físicas  es  netamente  de  geografía,  diferenciado completamente del concepto de Equipo y de Centro de Costo, además la ubicación física puede estar en forma activa o inactiva dentro del **AM**. En ocasiones un Centro de Costo corresponde a una Ubicación Física pero en muchas otras no es así. De igual forma en ocasiones  un equipo o unidad funcional caracteriza a la ubicación física pero en muchas otras no. Por esta razón los tres conceptos se definen independientemente en **AM**eso si con la posibilidad de relacionarlos en distintos contextos.
 
 Para ilustrar mejor este concepto definimos a continuación algunos ejemplos de Ubicaciones Físicas.
 
@@ -294,7 +294,7 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 ![ubicaciones fisicas](../../assets/images/cap02/chp02_img14.png)
 
-**AM 4G**-** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar. 
+**AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar. 
 
 Cada criterio trabaja en conjunto con los demás, con el operador intersección.
 
@@ -349,9 +349,9 @@ realizado una selección es posible hacer otra y unir el resultado de las dos.  
 
 Es la tabla de Infraestructura en la que se definen los distintos Almacenes,  Bodegas o Depósitos de: Materias Primas, Materiales y Repuestos o elementos generales de una organización.
 
-El **AM 4G**-** PRO es un sistema multicompañía y multialmacén, por tanto es posible definir múltiples almacenes en la base de datos para cada compañía; entonces, a una compañía se le pueden definir varios almacenes.
+El **AM** PRO es un sistema multicompañía y multialmacén, por tanto es posible definir múltiples almacenes en la base de datos para cada compañía; entonces, a una compañía se le pueden definir varios almacenes.
 
-El **AM 4G**-** ST es un sistema monocompañía y multialmacén.
+El **AM** ST es un sistema monocompañía y multialmacén.
 
 ![Detalles del Almacen](../../assets/images/cap02/chp02_img23.png)
 
@@ -375,7 +375,7 @@ Utilizar uno u otro método depende de si el Almacén es contable o no. Se recom
 
 **Tipo Almacén:** Esta opción, de tipo combo, muestra tres ítems: Contable y No Contable.
 
-Esta funcionalidad, permitirá a futuro definir si el Almacén seleccionado es Contable, es decir, tendrá una interacción con el sistema contable de la organización la cual  generara un costo o factura de venta; y No Contable hace referencia al Almacén que guarda el inventario de Repuestos para simple funcionalidad del sistema  **AM 4G**. Por defecto, cuando se crea un almacén el tipo se define con NO CONTABLE.
+Esta funcionalidad, permitirá a futuro definir si el Almacén seleccionado es Contable, es decir, tendrá una interacción con el sistema contable de la organización la cual  generara un costo o factura de venta; y No Contable hace referencia al Almacén que guarda el inventario de Repuestos para simple funcionalidad del sistema  **AM**. Por defecto, cuando se crea un almacén el tipo se define con NO CONTABLE.
 
 **Almacén  Corporativo:** Este switche indica si el almacén al cual se está haciendo referencia es el corporativo. Cuando se define si es el almacén corporativo, se declara con la palabra ** “SI”**, en caso contrario se define con la palabra ** “NO”**. Para  definir el almacén corporativo se realiza en el módulo de Administración, en la opción de Valores por defecto, en la etiqueta General, existe la opción de ** “Almacén corporativo”** con un combo desplegable para escoger cual es el almacén.
 
@@ -502,7 +502,7 @@ Se usa para seleccionar grupos de Centros de Costo que cumplen un conjunto de fi
 ![Detalle el centro de costo](../../assets/images/cap02/chp02_img30.png)
 
 
-**AM 4G**-** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar. 
+**AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar. 
 
 Cada criterio trabaja en conjunto con los demás, con el operador intersección.
 
@@ -587,7 +587,7 @@ En primer lugar como Centros especialistas en cada uno de los tipos de  mantenim
 
 Pero pueden ser también Centros técnicos de mantenimiento multiobjetivo,  conformados por especialistas de cada tipo de mantenimiento, que prestan servicio a uno o varios sectores productivos de la organización.
 
-El **AM 4G**-**administra los Centros Responsables de mantenimiento de la empresa cualquiera que sea su forma en la jerarquía organizacional.
+El **AM**administra los Centros Responsables de mantenimiento de la empresa cualquiera que sea su forma en la jerarquía organizacional.
 
 Se debe definir además, como un Centro Responsable, al conjunto de Talleres Externos que prestan servicio a la empresa, por solicitud y a elección de ella,  sin  que exista un compromiso previo contractual.
 
@@ -775,9 +775,9 @@ El objetivo de esta tabla es registrar otros Tipos de Actividad. Los Tipos de Ac
 
 El Tipo de Actividad puede ser un criterio más de selección y de búsqueda, en estudios sobre Órdenes de Trabajo e Historia de Mantenimiento.
 
-El **AM 4G**-** suministra una tabla de Tipos de Actividad que incluye una recopilación interesante de ellas, que el usuario puede enriquecer adicionando  nuevas  o modificando las existentes.
+El **AM** suministra una tabla de Tipos de Actividad que incluye una recopilación interesante de ellas, que el usuario puede enriquecer adicionando  nuevas  o modificando las existentes.
 
-Algunos ejemplos de Tipos de Actividad que ya hacen parte del **AM 4G**-**son los siguientes: 
+Algunos ejemplos de Tipos de Actividad que ya hacen parte del **AM**son los siguientes: 
 
 - EQ-Contrato 
 
@@ -1195,7 +1195,7 @@ Se usa para seleccionar grupos de Conceptos de Kárdex que cumplen un conjunto d
 
 ![detalle de contrato](../../assets/images/cap02/chp02_img72.png)
 
-- **AM 4G**- mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar. 
+- **AM**- mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar. 
 
 Cada criterio trabaja en conjunto con los demás, con el operador intersección.
 

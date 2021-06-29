@@ -1,6 +1,6 @@
 ---
 title:  Conceptos Básicos sobre Paros / Averías.
-subtitle: El  módulo de Paros / Averías en el  **AM 4G** tiene como objetivo el registro simple  pero detallado, de los hechos y de las actividades que se ejecutan como consecuencia de un Paro o una Avería en la prestación del servicio de un Equipo/Activo. Tal  **FDA** se pudo haber ocasionado en un Fallo, o en un  FDA.
+subtitle: El  módulo de Paros / Averías en el  **AM** tiene como objetivo el registro simple  pero detallado, de los hechos y de las actividades que se ejecutan como consecuencia de un Paro o una Avería en la prestación del servicio de un Equipo/Activo. Tal  **FDA** se pudo haber ocasionado en un Fallo, o en un  FDA.
 tags: [setup]
 author: win
 ---
@@ -20,6 +20,6 @@ es aplicable), operador del Equipo/Activo/Activo, efecto de la falla, Equipo/Act
 
 Los demás campos son generados por el sistema o son llenados solo en el momento del cierre del PA.
 
-El  **AM 4G** maneja la siguiente Vista. 
+El  **AM** maneja la siguiente Vista. 
 
 ![ventana  **FDA**](0.images/cap10/chp10_img01.png)

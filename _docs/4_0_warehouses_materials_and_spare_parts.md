@@ -26,29 +26,29 @@ Por ello, un Almacén fundamenta su operación en tres definiciones:
 
 3. 	Un sistema de costeo, que sirve de base para el cálculo del costo unitario de  cada código tras una entrada valorizada. Este costo unitario es normalmente el que se usa para valorizar cada Salida, para consumo o utilización de un ítem del Almacén.
 
-### Almacenes y – **AM 4G**–
+### Almacenes y – **AM**–
 
-**AM 4G**–** Predefine   en   forma   natural   un   Almacén,   en   la   Tabla   de   Almacenes (Infraestructura), y además permite la definición de varios adicionales. Para cada Almacén se definen sus  conceptos de movimiento de  Kárdex  en la Tabla  Conceptos  de Kárdex (Infraestructura). Aunque  existen  conceptos  predefinidos,   siempre  se  pueden  definir nuevos conceptos de Entrada, de Salida y de Ajuste, garantizando la consistencia e integridad de la información.
+**AM**–** Predefine   en   forma   natural   un   Almacén,   en   la   Tabla   de   Almacenes (Infraestructura), y además permite la definición de varios adicionales. Para cada Almacén se definen sus  conceptos de movimiento de  Kárdex  en la Tabla  Conceptos  de Kárdex (Infraestructura). Aunque  existen  conceptos  predefinidos,   siempre  se  pueden  definir nuevos conceptos de Entrada, de Salida y de Ajuste, garantizando la consistencia e integridad de la información.
 
-El módulo de  Almacén de Repuestos permite administrar de manera independiente cada uno de los almacenes creados en la Tabla de Almacenes (Infraestructura) y dependiendo del usuario que ingrese al **AM 4G**-** tendrá sus propios permisos de administración para cada almacén. 
+El módulo de  Almacén de Repuestos permite administrar de manera independiente cada uno de los almacenes creados en la Tabla de Almacenes (Infraestructura) y dependiendo del usuario que ingrese al **AM** tendrá sus propios permisos de administración para cada almacén. 
 
 #### 	Visión General: Funciones Básicas sobre Almacén de Repuestos
 
-Creación de Repuestos: **AM 4G**–** suministra dos procesos básicos para crear y actualizar Repuestos:
+Creación de Repuestos: **AM**–** suministra dos procesos básicos para crear y actualizar Repuestos:
 
 - Creación manual.
 
 - Importación desde  un  Sistema de  Almacén /  Inventario de  Repuestos  corporativo externo a través de una interfaz automática.
 
-El   primer   proceso básico de creación de datos de   Repuestos consiste en el   registro manual, organizado, uno a uno de los códigos de Repuestos del Almacén,  junto con su información característica, en la tabla de Almacén de Repuestos de la Base de Datos de **AM 4G**–**.
+El   primer   proceso básico de creación de datos de   Repuestos consiste en el   registro manual, organizado, uno a uno de los códigos de Repuestos del Almacén,  junto con su información característica, en la tabla de Almacén de Repuestos de la Base de Datos de **AM**–**.
 
-El   primer   proceso básico de creación de datos de   Repuestos consiste en el   registro manual, organizado, uno a uno de los códigos de Repuestos del Almacén,  junto con su información característica, en la tabla de Almacén de Repuestos de la Base de Datos de **AM 4G**–**.
+El   primer   proceso básico de creación de datos de   Repuestos consiste en el   registro manual, organizado, uno a uno de los códigos de Repuestos del Almacén,  junto con su información característica, en la tabla de Almacén de Repuestos de la Base de Datos de **AM**–**.
 
-El segundo proceso consiste en tomar la información de los Repuestos desde un sistema de Inventarios preexistente y copiarlos en la tabla de Almacén de Repuestos de **AM 4G**–**,  mediante una interfaz automática que se ejecutará en tiempo real o en un momento definido. El detalle del desarrollo de esta interfaz es acordado entre el Cliente y el Proveedor. En este proceso se requiere que se haga una preparación de los datos preexistente, dándoles un formato que facilite su importación a la Base de Datos del **AM 4G**–**.
+El segundo proceso consiste en tomar la información de los Repuestos desde un sistema de Inventarios preexistente y copiarlos en la tabla de Almacén de Repuestos de **AM**–**,  mediante una interfaz automática que se ejecutará en tiempo real o en un momento definido. El detalle del desarrollo de esta interfaz es acordado entre el Cliente y el Proveedor. En este proceso se requiere que se haga una preparación de los datos preexistente, dándoles un formato que facilite su importación a la Base de Datos del **AM**–**.
 
-**AM 4G**–** suministra el formato donde se detalla el diseño del archivo de interface. A este formato se deben acomodar los datos de Repuestos a transferir pues es el único  que **AM 4G**–**  es  capaz  de  interpretar  para  realizar  la  creación  automática  de  la  tabla   de Almacén de Repuestos.
+**AM**–** suministra el formato donde se detalla el diseño del archivo de interface. A este formato se deben acomodar los datos de Repuestos a transferir pues es el único  que **AM**–**  es  capaz  de  interpretar  para  realizar  la  creación  automática  de  la  tabla   de Almacén de Repuestos.
 
-Una vez se encuentre el archivo de interfaz listo, el Cliente lo debe dejar en una tabla intermedia y cuando se ejecute la interfaz automática, **- **AM 4G**-** importa la información de los Repuestos a la base de datos de **AM 4G**-**. 
+Una vez se encuentre el archivo de interfaz listo, el Cliente lo debe dejar en una tabla intermedia y cuando se ejecute la interfaz automática, **- **AM** importa la información de los Repuestos a la base de datos de **AM**. 
 
 Este proceso es útil tanto para crear el archivo de Repuestos, como para actualizarlo. Se recomienda para ello consultar con el asesor en Informática o con Servicio al  Cliente del Proveedor.
 
@@ -58,13 +58,13 @@ La actualización de la información general de Repuestos se realiza a través d
 
 **Actualización   de   la   Información   de   Inventarios   de   un   Repuesto:**   Aunque   la actualización de  los  parámetros de inventarios (stock  en  existencia  y costo  unitario  del Repuesto, principalmente) se puede realizar en forma manual, en la  ventana Detalle en Repuestos,  por  parte  de  un  usuario  con  los  permisos  adecuados,  existen  otros  dos mecanismos para hacerlo.
 
-El  primero,  mediante la  misma  interf ase  que  se  utilizó  en  el  proceso  automático  de creación de la tabla de Almacén de Repuestos.  Este caso reviste un escenario  particular cuando el Sistema de Inventario de Repuestos externo a **AM 4G**–** es el oficial  y  el contable, en la Organización. Toda  transacción sobre materiales  o   Repuestos  se  realiza  utilizando  las funciones de este sistema externo: administración de códigos  de materiales y Repuestos, solicitudes y despachos, entradas y salidas, etc. Esto  significa entonces que los módulos de Almacén de Repuestos y de Kárdex de **AM 4G**–** serán  utilizados por el área de Mantenimiento solo como referencia del inventario existente y  del costo unitario vigente, siendo estos últimos actualizados por saldos periódicos desde el sistema externo.
+El  primero,  mediante la  misma  interf ase  que  se  utilizó  en  el  proceso  automático  de creación de la tabla de Almacén de Repuestos.  Este caso reviste un escenario  particular cuando el Sistema de Inventario de Repuestos externo a **AM**–** es el oficial  y  el contable, en la Organización. Toda  transacción sobre materiales  o   Repuestos  se  realiza  utilizando  las funciones de este sistema externo: administración de códigos  de materiales y Repuestos, solicitudes y despachos, entradas y salidas, etc. Esto  significa entonces que los módulos de Almacén de Repuestos y de Kárdex de **AM**–** serán  utilizados por el área de Mantenimiento solo como referencia del inventario existente y  del costo unitario vigente, siendo estos últimos actualizados por saldos periódicos desde el sistema externo.
 
-El uso de dicha interfase es factible pues el proceso de Importación que realiza  **AM 4G**–** consiste solo en  remplazar los saldos  de  Repuestos  existentes,  por  los  saldos  que  se importan desde el sistema externo. No se realizan sumas ni restas, solo el reemplazo de saldos para los Repuestos contenidos en el archivo de  importación para la interfase.  Es claro que  la información a ser importada por **AM 4G**–** se genera en el sistema externo, de acuerdo a un formato predefinido y debe contener la información de los saldos, inmediatamente después de un proceso de actualización o de control en dicho sistema externo.
+El uso de dicha interfase es factible pues el proceso de Importación que realiza  **AM**–** consiste solo en  remplazar los saldos  de  Repuestos  existentes,  por  los  saldos  que  se importan desde el sistema externo. No se realizan sumas ni restas, solo el reemplazo de saldos para los Repuestos contenidos en el archivo de  importación para la interfase.  Es claro que  la información a ser importada por **AM**–** se genera en el sistema externo, de acuerdo a un formato predefinido y debe contener la información de los saldos, inmediatamente después de un proceso de actualización o de control en dicho sistema externo.
 
-La ejecución de la interfase mencionada anteriormente se puede realizar desde el servidor de Base de Datos de **AM 4G**–** mediante la programación de un Paquete de Transformación de Datos (DTS) para ejecución automática. Para esto es necesario disponer de **AM 4G**–** con SQL Server.
+La ejecución de la interfase mencionada anteriormente se puede realizar desde el servidor de Base de Datos de **AM**–** mediante la programación de un Paquete de Transformación de Datos (DTS) para ejecución automática. Para esto es necesario disponer de **AM**–** con SQL Server.
 
-El  segundo,  mediante  el  Kárdex  que  suministra  **AM 4G** –**. Es  el  procedimiento   natural suministrado por el aplicativo. Mediante el Kárdex de Almacén se registran en todo detalle, las Entradas, las Salidas y los Ajustes, de Repuestos y artículos de cada Almacén.
+El  segundo,  mediante  el  Kárdex  que  suministra  **AM** –**. Es  el  procedimiento   natural suministrado por el aplicativo. Mediante el Kárdex de Almacén se registran en todo detalle, las Entradas, las Salidas y los Ajustes, de Repuestos y artículos de cada Almacén.
 
 Una transacción de entrada al Almacén actualiza los saldos en la tabla de Almacén de Repuestos, incrementando  la  cantidad  en  existencia  y  actualizando  el  valor  unitario,  pero  también genera un rastro de la transacción, en el archivo de movimiento de Kárdex.
 
@@ -74,7 +74,7 @@ Una transacción de ajuste, puede ser de 2 tipos: Ajuste por valor o ajuste por 
 
 #	Codificación de Repuestos
 
-**AM 4G**–** está diseñado para trabajar un código de Repuestos de hasta 15 posiciones alfanuméricas, en esquema inteligente por niveles o en esquema de codificación bruta.
+**AM**–** está diseñado para trabajar un código de Repuestos de hasta 15 posiciones alfanuméricas, en esquema inteligente por niveles o en esquema de codificación bruta.
 
 Si no se tiene una codificación de Repuestos definida o sí se desea modificar la existente, se  recomienda  utilizar  el  esquema  inteligente  por  niveles. Es  una  metodología  que requiere de una cuidadosa planeación, en la que se definen los niveles y su longitud, para que  no  exista  el  riesgo  de  que  el  sistema  de  codificación  colapse  en  el  futuro,  y  que además toma en cuenta, desde el contenido del  almacén  hasta el sistema de control de inventarios más adecuado para cada grupo de ítems.
 
@@ -362,7 +362,7 @@ A esta opción se llega al sobreponer el cursor del mouse sobre un almacén y al
 
 ![ detalle de materiales y repuestos ](../../assets/images/cap04/chp04_img17.png)
 
-La asociación de los Repuestos con los Activos, inicia al dar clic a los **check box**, que están al lado izquierdo en la primera columna de la porción de Activos y se puede seleccionar uno o  varios, luego se elige uno o varios Repuestos dando clic a los **check box** que serán asociados a los Activos seleccionados y se asigna la cantidad para cada Repuesto, **- **AM 4G**-** asigna por defecto la cantidad 1, como se muestra a continuación: 
+La asociación de los Repuestos con los Activos, inicia al dar clic a los **check box**, que están al lado izquierdo en la primera columna de la porción de Activos y se puede seleccionar uno o  varios, luego se elige uno o varios Repuestos dando clic a los **check box** que serán asociados a los Activos seleccionados y se asigna la cantidad para cada Repuesto, **- **AM** asigna por defecto la cantidad 1, como se muestra a continuación: 
 
 ![ detalle de materiales y repuestos ](../../assets/images/cap04/chp04_img18.png)
 
@@ -370,7 +370,7 @@ Para terminar la transacción se da clic al botón <a class="btn">Asociar</a> in
 
 ![activos](../../assets/images/cap04/chp04_img19.png)
 
-Si el usuario desea ver la asociación de un Activo y sus Repuestos asociados, se debe elegir un único Activo del lado izquierdo y se da clic al botón <a class="btn">Ver RP Asociados</a>, **- **AM 4G**-** mostrará en el lado derecho los Repuestos que fueron asociados al Activo seleccionado.  
+Si el usuario desea ver la asociación de un Activo y sus Repuestos asociados, se debe elegir un único Activo del lado izquierdo y se da clic al botón <a class="btn">Ver RP Asociados</a>, **- **AM** mostrará en el lado derecho los Repuestos que fueron asociados al Activo seleccionado.  
 
 ![activos](../../assets/images/cap04/chp04_img20.png)
 
@@ -378,7 +378,7 @@ Si se eligen dos o más Activos, el sistema mostrará un mensaje indicando que s
 
 ![activos](../../assets/images/cap04/chp04_img21.png)
 
-Si el usuario desea ver la asociación de un Repuesto y los Activos asociados, se debe elegir un único Repuesto del lado derecho y se da clic al botón a <a class="btn">Ver RP Asociados</a>, **- **AM 4G**-** mostrará en el lado izquierdo los Activos que tienen asociados el Repuesto seleccionado.  
+Si el usuario desea ver la asociación de un Repuesto y los Activos asociados, se debe elegir un único Repuesto del lado derecho y se da clic al botón a <a class="btn">Ver RP Asociados</a>, **- **AM** mostrará en el lado izquierdo los Activos que tienen asociados el Repuesto seleccionado.  
 
 ![activos](../../assets/images/cap04/chp04_img22.png)
 
@@ -428,7 +428,7 @@ Una vez finalizado el proceso anterior, se muestra un mensaje de confirmación d
 Para verificar la información del cierre realizado, existe un reporte con el nombre Inventario
 Final.
 
-El  cierre  de  inventario  en  el  **AM 4G**–**,  no  prohíbe  su  funcionamiento.  Es  decir,  existen software que hasta no cerrar inventario, hasta que no pase de mes, no  permite que se realice ingreso de información solo lo hacen de modo consulta. El **AM 4G**–** está habilitado para seguir su funcionamiento después de haberse ejecutado la transacción Inventario final del mes.
+El  cierre  de  inventario  en  el  **AM**–**,  no  prohíbe  su  funcionamiento.  Es  decir,  existen software que hasta no cerrar inventario, hasta que no pase de mes, no  permite que se realice ingreso de información solo lo hacen de modo consulta. El **AM**–** está habilitado para seguir su funcionamiento después de haberse ejecutado la transacción Inventario final del mes.
 
 Para  la  realización de  este  proceso,   “Inventario final del mes”, se  debe tener  los  permisos adecuados los cuales permiten ejecutar y volver a iniciar el proceso. Estos  permisos se configuran por usuario en el módulo de Administración.
 
@@ -508,7 +508,7 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 **Fecha de Uso:** Es la fecha en la que se tiene planeado utilizar el Repuesto seleccionado en el visor. De acuerdo con esta fecha, la persona encargada del Almacén debe mantener las unidades reservadas, disponibles sólo para quién registró la reserva.
 
 **Estado:** Informa  acerca  del  curso  de  la  Reserva.  Puede  ser  Activa,   Finalizada  o
-Cancelada. El estado Finalizada, solo se puede seleccionar desde el módulo de Kárdex a través de la transacción  “Despachar Reservas”. Para mayor detalle consultar la funcionalidad en el módulo de Kárdex / Ventana Visor de Movimientos de Kárdex. Mientras que el estado Cancelada, sí es posible ejecutarlo desde esta opción, para ello se debe seleccionar la reserva que se va a cancelar, luego seleccionar el estado Cancelada, dar clic al botón <a class="btn">Actualizar</a>., inmediatamente **AM 4G**-** muestra un mensaje de alerta indicándole al usuario si está seguro de modificar esta reserva, para finalizar se da clic en Aceptar.          
+Cancelada. El estado Finalizada, solo se puede seleccionar desde el módulo de Kárdex a través de la transacción  “Despachar Reservas”. Para mayor detalle consultar la funcionalidad en el módulo de Kárdex / Ventana Visor de Movimientos de Kárdex. Mientras que el estado Cancelada, sí es posible ejecutarlo desde esta opción, para ello se debe seleccionar la reserva que se va a cancelar, luego seleccionar el estado Cancelada, dar clic al botón <a class="btn">Actualizar</a>., inmediatamente **AM** muestra un mensaje de alerta indicándole al usuario si está seguro de modificar esta reserva, para finalizar se da clic en Aceptar.          
 
 **Reservado por:** Es  la  persona  que  registra  la  Reserva  de  las  unidades  del   Repuesto seleccionado.
 

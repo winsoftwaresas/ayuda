@@ -44,7 +44,7 @@ También, es posible crear movimientos, al hacer clic en el boton<span class="ic
 
 ![detalle de documentos kardex](../../assets/images/cap06/chp06_img13.png)
 
-Por otro lado, el botón  <a class="btn"> “Insertar Movimientos</a> se usa para insertar uno o varios registros de movimientos de Materiales o Repuestos, una vez diligenciados todos los campos de la ventana Detalle del movimiento de cada item, se da clic en este botón, con el fin de insertarlos todos juntos en la BD del **AM 4G**-**. Además, si se desea se puede usar el botón <a class="btn"> “Insertar Movimientos</a> para ir insertando el movimiento de un material o Repuesto uno a uno. 
+Por otro lado, el botón  <a class="btn"> “Insertar Movimientos</a> se usa para insertar uno o varios registros de movimientos de Materiales o Repuestos, una vez diligenciados todos los campos de la ventana Detalle del movimiento de cada item, se da clic en este botón, con el fin de insertarlos todos juntos en la BD del **AM**. Además, si se desea se puede usar el botón <a class="btn"> “Insertar Movimientos</a> para ir insertando el movimiento de un material o Repuesto uno a uno. 
 
 ![detalle de documentos kardex](../../assets/images/cap06/chp06_img14.png)
 
@@ -93,7 +93,7 @@ La información contenida en el cuadro  “Después de la Transacción” es la 
 
 **CP:** Especifica el código del concepto de kárdex seleccionado. Al dar clic en el campo, se muestra la lista en la que se debe elegir el concepto de kárdex por el cual se realiza el movimiento. La lista se crea de acuerdo al tipo de conceptos que contiene el documento. Ej. Sí el tipo de conceptos que contiene el documento es de  salida, los conceptos que se muestran en la lista son de salida. Los conceptos se definen en la tabla de Conceptos de Kárdex en el módulo de Infraestructura. También, al hacer clic sobre el icono de <span class="iconify btn" data-icon=alert-circle-outline>admiración circulo</span>, que está al lado derecho de este campo, se observa el nombre del concepto de kárdex asociado a ese movimiento de Repuestos.  
 
-**FF Transacción:** Es el campo en el que se establece la fecha en la que ocurrió el movimiento. El **AM 4G**-** Web propone la fecha del día, pero ella puede ser modificada para reflejar la fecha real del  movimiento.  Esta fecha  puede  ser  modificable en el permiso de usuario  “Modificar fecha del movimiento en KX” en la definición de  “Permisos para ejecución de Procesos” que se otorgan al usuario en el módulo de Administración / Modificar permisos básicos.
+**FF Transacción:** Es el campo en el que se establece la fecha en la que ocurrió el movimiento. El **AM** Web propone la fecha del día, pero ella puede ser modificada para reflejar la fecha real del  movimiento.  Esta fecha  puede  ser  modificable en el permiso de usuario  “Modificar fecha del movimiento en KX” en la definición de  “Permisos para ejecución de Procesos” que se otorgan al usuario en el módulo de Administración / Modificar permisos básicos.
 
 
 **Cantidad:**  Es  el  campo  donde  se  registra  la  cantidad  del  repuesto  o  material,  en  las unidades propias del repuesto, que entra o sale del almacén, en la transacción actual.
@@ -158,7 +158,7 @@ La información contenida en el cuadro  “Después de la Transacción” es la 
 
 **CP:** Especifica el código del concepto de kárdex seleccionado. Al dar clic en el campo, se muestra la lista en la que se debe elegir el concepto de kárdex de Ajuste por el cual se realiza el movimiento. La lista se crea de acuerdo al tipo de conceptos que contiene el documento. Además, al hacer clic sobre el icono de <span class="iconify btn" data-icon=alert-circle-outline>admiración circulo</span>, que está al lado derecho de este campo, se observa el nombre del concepto de kárdex asociado a ese movimiento de Repuestos. También, si se elige un concepto de kárdex de ajuste tipo cantidad, se desbloquea el campo  “Cantidad Ajuste”. Mientras que, si se elige un concepto de kárdex de ajuste tipo valor, se desbloquea el campo  “\$ Unit Ajuste”. 
 
-**FF Transacción:** Es el campo en el que se establece la fecha en la que ocurrió el movimiento de Ajuste. El **AM 4G**-** Web propone la fecha del día, pero ella puede ser modificada para reflejar la fecha real del movimiento. Esta fecha  puede  ser  modificable en el permiso de usuario  “Modificar fecha del movimiento en KX” en la definición de  “Permisos para ejecución de Procesos” que se otorgan al usuario en el módulo de Administración / Modificar permisos básicos.
+**FF Transacción:** Es el campo en el que se establece la fecha en la que ocurrió el movimiento de Ajuste. El **AM** Web propone la fecha del día, pero ella puede ser modificada para reflejar la fecha real del movimiento. Esta fecha  puede  ser  modificable en el permiso de usuario  “Modificar fecha del movimiento en KX” en la definición de  “Permisos para ejecución de Procesos” que se otorgan al usuario en el módulo de Administración / Modificar permisos básicos.
 
 **Cantidad Ajuste:** Muestra automáticamente la cantidad actual del material o repuesto. Es  el  campo  donde  se  registra  la  cantidad a ajustar  del  repuesto  o  material,  en  las unidades propias, en la transacción actual. Solo se desbloquea cuando el concepto de kárdex es un Ajuste por Cantidad. Si se registra un valor positivo se realiza un ajuste por encima de la cantidad actual del material o repuesto, en forma de adición. Por ejemplo, si se tiene en la cantidad actual 3 unidades y se ajusta una cantidad de 2 unidades, la cantidad al finalizar la transacción será de 5 unidades. Por otro lado, es posible registrar valores negativos anteponiendo el signo menos (-) antes de digitar la cantidad, entonces se realiza un ajuste por debajo de la cantidad actual del material o repuesto, en forma de sustracción. Por ejemplo, si se tiene en la cantidad actual 3 unidades y se ajusta una cantidad de -2 unidades, la cantidad al finalizar la transacción será de 1 unidad.     
 
@@ -200,7 +200,7 @@ Cada criterio trabaja en conjunto con los demás, con el operador intersección.
 
 Cada  criterio  aparece  inicializado  en  un  valor  global  que  permite  mostrar  todos   los Movimientos de Kárdex registrados en el sistema. Lo que significa que de no escoger un criterio se obtiene como resultado del subgrupo el mismo conjunto completo de todos los Movimientos de Kárdex.
 
-**- **AM 4G**-** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar.
+**- **AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar.
 
 El programa permite entonces hacer selección de un grupo de Movimientos de Kárdex de acuerdo con los criterios seleccionados en la siguiente ventana.
 

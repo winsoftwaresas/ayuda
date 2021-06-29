@@ -8,11 +8,11 @@ author: win
 
 # Conceptos Básicos de Programas de Mantenimiento
 
-Dentro del ciclo de Gestión de Mantenimiento en el **AM 4G**–** los Programas de Mantenimiento (PMs) apoyan las tres primeras etapas del ciclo, siendo la primera la Planeación, la segunda la Presupuestación y la tercera la Programación. Para las dos primeras etapas, éste módulo ejecuta el proceso de Proyección, sobre un periodo futuro, de largo plazo, sin generar Órdenes de Trabajo.  Para la tercera etapa el proceso de Programación se ejecuta en forma idéntica, desde el módulo de Ordenes de Trabajo. A pesar de que  se  ejecuta  desde  allí,  la  base   del  proceso  son  los  Programas  de Mantenimiento.
+Dentro del ciclo de Gestión de Mantenimiento en el **AM**–** los Programas de Mantenimiento (PMs) apoyan las tres primeras etapas del ciclo, siendo la primera la Planeación, la segunda la Presupuestación y la tercera la Programación. Para las dos primeras etapas, éste módulo ejecuta el proceso de Proyección, sobre un periodo futuro, de largo plazo, sin generar Órdenes de Trabajo.  Para la tercera etapa el proceso de Programación se ejecuta en forma idéntica, desde el módulo de Ordenes de Trabajo. A pesar de que  se  ejecuta  desde  allí,  la  base   del  proceso  son  los  Programas  de Mantenimiento.
 
 Un Programa de Mantenimiento (PM) es un conjunto de información que permite definir labores de Mantenimiento, para que sean ejecutadas en forma cíclica,  repetitiva  y periódica o sistemática,  sobre un Activo. Ella puede ser de tipos: Preventivo, Predictivo, Metrología,  Lubricación, Inspección, Otros, Otros Mantenimiento y los que se definan en la tabla de Tipos de mantenimiento en el módulo de Infraestructura.
 
-Los Programas de Mantenimiento (PMs), son un eje estratégico del **AM 4G**–**.  Ellos son modificables y adecuables mediante la retroalimentación de los resultados obtenidos de distintos análisis sobre la Historia, con el objeto de afinarlos y lograr una proyección para Presupuesto del nuevo periodo, más ajustada y de acuerdo al desempeño real de los periodos anteriores.
+Los Programas de Mantenimiento (PMs), son un eje estratégico del **AM**–**.  Ellos son modificables y adecuables mediante la retroalimentación de los resultados obtenidos de distintos análisis sobre la Historia, con el objeto de afinarlos y lograr una proyección para Presupuesto del nuevo periodo, más ajustada y de acuerdo al desempeño real de los periodos anteriores.
 
 Definir un Plan de Mantenimiento para el largo plazo, a través de un conjunto sólido de Programas, sienta las bases para una gestión avanzada, garantizando al grupo gestor de Mantenimiento, la información permanente de sus  labores  proyectadas   a  futuro  y posibilitando sobre ellas el establecer prioridades y asignar recursos, para garantizar una ejecución eficaz.
 
@@ -48,9 +48,9 @@ Las demás actividades que pueden ser ejecutadas por el área de Mantenimiento c
 
 **ejecutar  la  Actividad  de  Mantenimiento. Está  conformado  normalmente  por  cuatro  componentes:** Mano de Obra Interna, Mano de Obra Externa, Materiales / Repuestos y Otros Conceptos de Costo (Gastos indirectos).
 
-Realizar permanentemente un Control Presupuestal de sus Gastos de Mantenimiento es una labor casi obligante para una organización. El **AM 4G**–** brinda esta posibilidad y para ello, permite definir a nivel de cada PM una matriz de presupuesto, que es la base para el logro del objetivo planteado. Cuando un PM genera una OT, la matriz de presupuesto del PM se traslada a la matriz respectiva en la OT generada.
+Realizar permanentemente un Control Presupuestal de sus Gastos de Mantenimiento es una labor casi obligante para una organización. El **AM**–** brinda esta posibilidad y para ello, permite definir a nivel de cada PM una matriz de presupuesto, que es la base para el logro del objetivo planteado. Cuando un PM genera una OT, la matriz de presupuesto del PM se traslada a la matriz respectiva en la OT generada.
 
-Crear  el  Presupuesto  a  un  PM  en  **AM 4G**–**  consiste  en  hacer  una  evaluación  de  las necesidades de recursos de Mano de Obra Interna, Mano de Obra Externa, Materiales / Repuestos, y Otros Conceptos de Costo, todos ellos discriminados por Tipo de Trabajo y Concepto de Gasto. Con ello, se procede a ingresar los valores al Sistema; en la Matriz de Presupuesto.
+Crear  el  Presupuesto  a  un  PM  en  **AM**–**  consiste  en  hacer  una  evaluación  de  las necesidades de recursos de Mano de Obra Interna, Mano de Obra Externa, Materiales / Repuestos, y Otros Conceptos de Costo, todos ellos discriminados por Tipo de Trabajo y Concepto de Gasto. Con ello, se procede a ingresar los valores al Sistema; en la Matriz de Presupuesto.
 
 ##	Fecha de Inicio de Período (FIP)
 
@@ -69,7 +69,7 @@ La FUG y la FIP son iguales la mayor parte del tiempo. Los únicos dos casos en 
 
 A través de ellos se establece cuándo ejecutar las labores de Mantenimiento.  Se coloca énfasis en ellos, pues su dominio y administración, son la herramienta clave para distribuir la  carga  de  la  actividad  de  Mantenimiento  programado,   permitiendo   alcanzar  una distribución factible de  los  recursos  de  Mantenimiento en  un  período,  que  minimiza el tiempo improductivo de los Activos y por ende de los paros programados de Producción.
 **
-**El **AM 4G**–** ofrece variedad de Criterios de Programación:**por Frecuencia, por Semanas del Año y por Contador. Sobre cada uno de ellos se presenta un breve estudio a continuación.
+**El **AM**–** ofrece variedad de Criterios de Programación:**por Frecuencia, por Semanas del Año y por Contador. Sobre cada uno de ellos se presenta un breve estudio a continuación.
 
 ## Frecuencia
 
@@ -81,8 +81,8 @@ El Sistema genera una  OT obedeciendo al Criterio de Programación que  cumpla  
 
 Este criterio de programación permite generar OTs en cualquier semana del año, con base en eventos programados, sin que haya la necesidad de haber cumplido un ciclo o haber sobrepasado una cantidad de trabajo realizado por el Activo. Para ello se  señala una casilla, de las 52, una por cada semana, en las que se ha dividido el año. Entonces, un PM por este criterio, genera una OT para cada semana señalada. Las Ordenes de Trabajo de cada semana se generan cuando al rango de Análisis /  Generación definido, para la próxima generación, corresponda a una o varias de las semanas señaladas.
 
-Cuando se definan PMs por Semanas del Año (SA), se debe especificar al **AM 4G**–**  cuál es la semana número 1 según el calendario de la organización usuaria. Para ello se debe ir a la opción ** “Administración”** del Menú Principal, y a**  “Valores por defecto”** en el submenú.
-Allí se especifica en qué día de Enero inicia la segunda (2ª) semana del año.  El **AM 4G**–** es capaz entonces, con ese dato, de proyectar todas las semanas del año, de  acuerdo al calendario de la organización.
+Cuando se definan PMs por Semanas del Año (SA), se debe especificar al **AM**–**  cuál es la semana número 1 según el calendario de la organización usuaria. Para ello se debe ir a la opción ** “Administración”** del Menú Principal, y a**  “Valores por defecto”** en el submenú.
+Allí se especifica en qué día de Enero inicia la segunda (2ª) semana del año.  El **AM**–** es capaz entonces, con ese dato, de proyectar todas las semanas del año, de  acuerdo al calendario de la organización.
 
 Semanas del Año es un Criterio excluyente en el conjunto.  Por lo tanto no se  puede combinar con ninguno de los otros tres Criterios de Programación.
 
@@ -99,8 +99,8 @@ En el primer caso, por Incremento, el PM genera una Orden de Trabajo múltiples 
 
 En el segundo caso, por Límite, el PM solo genera una Orden de Trabajo y ello  sucede cuando el valor actual del contador del Activo supere el valor contenido en el  PM, en el campo Recurrencia (Valor límite, en este caso).
 
-Cuando se define un PM en función de un contador de un Activo, se debe definir  un mecanismo administrativo: manual o  automático, para  actualizar  y mantener al   día  el contador de ese Activo en el **AM 4G**–**. Se trata de garantizar que tales contadores reflejen permanente  la cantidad de trabajo realizado por el Activo.
+Cuando se define un PM en función de un contador de un Activo, se debe definir  un mecanismo administrativo: manual o  automático, para  actualizar  y mantener al   día  el contador de ese Activo en el **AM**–**. Se trata de garantizar que tales contadores reflejen permanente  la cantidad de trabajo realizado por el Activo.
 
-En los casos en que la actualización de los contadores de los ACs no pueda ser frecuente, el **AM 4G**–** suministra un mecanismo automático que lo simula, mientras se puede realizar una nueva lectura y actualización real a ese contador. Se trata del  campo ** “Estándar de Planeación”** que se encuentra en la parte inferior de la ventana detalle de Activos. Allí se define una cantidad de trabajo estándar que realiza ese Activo por unidad de tiempo. Este valor es definido con base en una estadística real del trabajo de ese Activo en un período considerable, ojala no inferior a los 6 meses.
+En los casos en que la actualización de los contadores de los ACs no pueda ser frecuente, el **AM**–** suministra un mecanismo automático que lo simula, mientras se puede realizar una nueva lectura y actualización real a ese contador. Se trata del  campo ** “Estándar de Planeación”** que se encuentra en la parte inferior de la ventana detalle de Activos. Allí se define una cantidad de trabajo estándar que realiza ese Activo por unidad de tiempo. Este valor es definido con base en una estadística real del trabajo de ese Activo en un período considerable, ojala no inferior a los 6 meses.
 
-En el espacio Contador (Odómetro/Horas) de la sección Última Generación de OT  se encuentra guardado el estado del contador del AC, la última vez que este PM  generó automáticamente una Orden de Trabajo para él.  A continuación se encuentra la fecha en que ocurrió esa generación. El campo del Contador se debe inicializar, la primera vez, en el estado del contador, aunque sea aproximado, de la última vez en que esta actividad de mantenimiento se ejecutó. No es posible inicializar la ** “Fecha de Última Generación”** que se encuentra al lado, pues está protegida y es actualizada automática y únicamente por el **AM 4G**–**, después de la primera generación automática.
+En el espacio Contador (Odómetro/Horas) de la sección Última Generación de OT  se encuentra guardado el estado del contador del AC, la última vez que este PM  generó automáticamente una Orden de Trabajo para él.  A continuación se encuentra la fecha en que ocurrió esa generación. El campo del Contador se debe inicializar, la primera vez, en el estado del contador, aunque sea aproximado, de la última vez en que esta actividad de mantenimiento se ejecutó. No es posible inicializar la ** “Fecha de Última Generación”** que se encuentra al lado, pues está protegida y es actualizada automática y únicamente por el **AM**–**, después de la primera generación automática.
