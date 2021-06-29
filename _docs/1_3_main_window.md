@@ -167,13 +167,13 @@ Al dar clic al botón <a class="btn">Exportar</a> permite exportar el Reporte se
 
 <a class="btn">Adicionar Mano Obra Interna</a> este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ingresar el detalle de la Mano de Obra Interna presupuestada o usada, respectivamente.
 
-<a class="btn">Adicionar Mano Obra Externa</a>**este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ingresar el detalle de la Mano de Obra Externa presupuestada o usada, respectivamente.**
+<a class="btn">Adicionar Mano Obra Externa</a>este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ingresar el detalle de la Mano de Obra Externa presupuestada o usada, respectivamente.
 
 <a class="btn">Adicionar Material de repuesto</a> Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ingresar el detalle de los   Materiales y Repuestos.
 
 <a class="btn"> Adicionar Otro Concepto</a> este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ingresar el detalle de los Otros Conceptos de Costos.
 
-<a class="btn"> Asociar</a> Botón utilizado para **registrar la relación entre Activos y sus Repuestos**.
+<a class="btn"> Asociar</a> Botón utilizado para registrar la relación entre Activos y sus Repuestos.
 
 <a class="btn"> Desasociar</a> En Almacén de Repuestos RP, permite desasociar uno o varios Activos a uno o varios de sus Repuestos asociados.
 
@@ -191,7 +191,7 @@ Al dar clic al botón <a class="btn">Exportar</a> permite exportar el Reporte se
 este botón valida el usuario y la contraseña,
 necesarios para ingresar al **AM**.
 
-<a class="btn">Enviar a Historia</a> Este botón ejecuta el envío de registros de Solicitudes de Servicio, Órdenes de Trabajo Y Paros/Averías cerradas **y/o canceladas**, hasta el módulo de Historia de Mantenimiento.
+<a class="btn">Enviar a Historia</a> Este botón ejecuta el envío de registros de SS, OT, PA con estado cerradas y/o canceladas, hasta el módulo de Historia de Mantenimiento.
 
 <a class="btn">Proyectar</a> Inicia el proceso de proyección en PM, con el objetivo de planear y/o presupuestar un periodo de largo plazo, a partir de los PM activos.
 

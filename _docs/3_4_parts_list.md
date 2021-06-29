@@ -97,27 +97,27 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 **Estado:** El campo estado se utiliza para definir si el  Activo actual se encuentra  Activo (Operativo) o Inactivo (No operativo o dado de baja temporal o totalmente). Este Estado se utiliza durante los procesos de Generación Automática de Ordenes  de Trabajo y de Proyección para un período futuro, pues solamente se tienen en  cuenta aquellos Equipos con Estado Activo.
 
-**A –** Dado en préstamo
+**A ** Dado en préstamo
 
-**A –** Recibido en préstamo
+**A ** Recibido en préstamo
 
-**A –** Dado en arriendo
+**A ** Dado en arriendo
 
-**A –** Recibido en arriendo
+**A ** Recibido en arriendo
 
-**A –** En convenio
+**A ** En convenio
 
-**A –** Otro
+**A ** Otro
 
 Los Activo / Equipos Inactivos pueden tener las siguientes condiciones:
 
-**| –** Dado de baja
+**| ** Dado de baja
 
-**I –** Overhaul
+**I ** Overhaul
 
-**I –** No está en operación
+**I ** No está en operación
 
-**I –** Otro
+**I ** Otro
 
 **Contador:** En este campo se traen automáticamente de la tabla de Infraestructura los diferentes tipos de Contadores que pueden ser definidos para un Equipo o una  máquina. Se  selecciona el  que mejor  refleje  o  sea más  representativo del  trabajo  que  realiza  el Equipo. Se usa además, al definir un Programa de Mantenimiento, en función del trabajo realizado por el mismo  Equipo.
 

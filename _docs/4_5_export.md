@@ -35,7 +35,7 @@ Una vez finalizado el proceso anterior, se muestra un mensaje de confirmación d
 Para verificar la información del cierre realizado, existe un reporte con el nombre Inventario
 Final.
 
-El  cierre  de  inventario  en  el  **AM**–**,  no  prohíbe  su  funcionamiento.  Es  decir,  existen software que hasta no cerrar inventario, hasta que no pase de mes, no  permite que se realice ingreso de información solo lo hacen de modo consulta. El **AM**–** está habilitado para seguir su funcionamiento después de haberse ejecutado la transacción Inventario final del mes.
+El  cierre  de  inventario  en  el  **AM****,  no  prohíbe  su  funcionamiento.  Es  decir,  existen software que hasta no cerrar inventario, hasta que no pase de mes, no  permite que se realice ingreso de información solo lo hacen de modo consulta. El **AM**** está habilitado para seguir su funcionamiento después de haberse ejecutado la transacción Inventario final del mes.
 
 Para  la  realización de  este  proceso,   “Inventario final del mes”, se  debe tener  los  permisos adecuados los cuales permiten ejecutar y volver a iniciar el proceso. Estos  permisos se configuran por usuario en el módulo de Administración.
 

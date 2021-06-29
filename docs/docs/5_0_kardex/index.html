@@ -273,15 +273,15 @@ function searchResults(form) {
 
 <h1 id="conceptos-básicos-sobre-el-kárdex-de-almacén">Conceptos Básicos sobre el Kárdex de Almacén</h1>
 
-<p>El Kárdex de Almacén es el módulo encargado del registro detallado de todo  Movimiento de Entrada, Salida y Ajuste, de los almacenes activos en <strong>AM 4G</strong>–** Administrador de Mantenimiento, en la compañía activa.</p>
+<p>El Kárdex de Almacén es el módulo encargado del registro detallado de todo  Movimiento de Entrada, Salida y Ajuste, de los almacenes activos en <strong>AM 4G</strong>** Administrador de Mantenimiento, en la compañía activa.</p>
 
 <p>A  través del  Kárdex  se  realiza la  actualización  del  archivo de  repuestos,  en  todo  lo concerniente  a   entradas,   salidas y ajustes,   manteniendo   tal   movimiento disponible para consultas o estudios especiales. Su dominio puede ser uno o varios de los Almacenes definidos en la compañía activa.</p>
 
 <p>Una  única  transacción  del  Kárdex,  mantiene  consistencia  integral  entre  tres   tablas distintas: Repuestos, Órdenes de Trabajo y Kárdex. Esto significa que una  transacción de entrada al  almacén,  registrada en el  Kárdex,  actualiza también el  saldo en la  tabla  de repuestos,  incrementándolo.  Una  transacción  de  salida  del  almacén,  registrada  en  el Kárdex, actualiza el saldo en la tabla de repuestos, decrementándolo y al tiempo actualiza la tabla de Ordenes de Trabajo, cargando el consumo de tales repuestos.</p>
 
-<p>Es  una  herramienta práctica  cuando no  se  dispone  en  la  Organización de  un  Sistema Corporativo de Almacén que administre los Insumos de Mantenimiento, los materiales y los Repuestos. En este caso el Kárdex del <strong>AM 4G</strong>–**, en conjunto con el  módulo de Repuestos, pueden suplir tal necesidad e incluso otras alrededor del tema  de inventarios, como por ejemplo Administrar el Inventario de Materia prima, de producto en proceso, de material de empaque, de útiles de Oficina y de Aseo y otros.</p>
+<p>Es  una  herramienta práctica  cuando no  se  dispone  en  la  Organización de  un  Sistema Corporativo de Almacén que administre los Insumos de Mantenimiento, los materiales y los Repuestos. En este caso el Kárdex del <strong>AM 4G</strong>**, en conjunto con el  módulo de Repuestos, pueden suplir tal necesidad e incluso otras alrededor del tema  de inventarios, como por ejemplo Administrar el Inventario de Materia prima, de producto en proceso, de material de empaque, de útiles de Oficina y de Aseo y otros.</p>
 
-<p>Pero   también   es   muy   útil   cuando   ya   existe   un   Sistema   externo   dedicado   a   la administración del Inventario de Repuestos de la corporación, a través del cual se  realiza toda gestión y movimiento de entradas y salidas. En este caso <strong>AM 4G</strong>–** debe  enterarse del resultado de   cada movimiento ejecutado a través del   sistema  externo.	Para ello  tal sistema  externo  debe  poder  entregar  un  archivo  a  manera  de  interface,  en  el  que  se comunique a <strong>AM 4G</strong>-**: los saldos en existencia y el valor unitario vigente de  cada  repuesto, después de aquellos movimientos.</p>
+<p>Pero   también   es   muy   útil   cuando   ya   existe   un   Sistema   externo   dedicado   a   la administración del Inventario de Repuestos de la corporación, a través del cual se  realiza toda gestión y movimiento de entradas y salidas. En este caso <strong>AM 4G</strong>** debe  enterarse del resultado de   cada movimiento ejecutado a través del   sistema  externo.	Para ello  tal sistema  externo  debe  poder  entregar  un  archivo  a  manera  de  interface,  en  el  que  se comunique a <strong>AM 4G</strong>-**: los saldos en existencia y el valor unitario vigente de  cada  repuesto, después de aquellos movimientos.</p>
 
 <p>Es  posible  definir  un  gran  número  de  conceptos  de  entrada  y  salida  de  artículos  del almacén.  Los  Conceptos de  Entrada  son  las  operaciones por  las  cuales  ingresan los repuestos al  Almacén. Se  puede registrar un  número infinito de  conceptos de  entrada. Dentro de los conceptos de entrada existen algunos que se  encuentran predefinidos. Aún así es posible definir cuantos sean requeridos y definir  para cada uno sus requerimientos especiales. Por ejemplo, habrá conceptos de  entrada que podrán exigir la información del Almacén desde donde proviene el repuesto, otros en cambio, podrán  exigir  el  número de  la  Orden  de  Trabajo,  cuando  se  trate  de  una entrada  por devolución de un repuesto al Almacén, desde una Orden de Trabajo que lo solicitó y no lo utilizó.</p>
 
@@ -291,7 +291,7 @@ function searchResults(form) {
 
 <p>acaba de ingresar   se calcula ponderando el   número de unidades que ingresan a    su respectivo costo unitario, con el número de unidades que existían previamente, a su costo unitario.</p>
 
-<p>En el  segundo caso el  Costo Unitario del código que ingresa se convierte en  el  costo unitario de toda la existencia de ese código en el almacén. Este último esquema es valioso en muchos casos, por cuanto los presupuestos de materiales y repuestos pueden ser muy realistas, basados en costos recientes.   Se debería usar cuando el Almacén del sistema <strong>–  **AM 4G</strong>-** We b no es contable en el sentido estricto de la palabra.</p>
+<p>En el  segundo caso el  Costo Unitario del código que ingresa se convierte en  el  costo unitario de toda la existencia de ese código en el almacén. Este último esquema es valioso en muchos casos, por cuanto los presupuestos de materiales y repuestos pueden ser muy realistas, basados en costos recientes.   Se debería usar cuando el Almacén del sistema <strong>–  **AM**</strong>-** We b no es contable en el sentido estricto de la palabra.</p>
 
 <p>Se ha estructurado el módulo de Kárdex, para establecer su control a un nivel superior: el documento.	En un mismo documento, de entradas, se reportan varios  movimientos de entrada. De forma igual sucede con un documento de salidas. A  partir  de esta definición, se  registra  primero  la  información  del  documento,  que   será  general  para  todos  los movimientos asociados al mismo y luego se procede al registro de sus movimientos.</p>
 
@@ -545,7 +545,7 @@ Al terminar de digitar o elegir el Repuesto,  se  muestra información automáti
 
 <p>Cada  criterio  aparece  inicializado  en  un  valor  global  que  permite  mostrar  todos   los Movimientos de Kárdex registrados en el sistema. Lo que significa que de no escoger un criterio se obtiene como resultado del subgrupo el mismo conjunto completo de todos los Movimientos de Kárdex.</p>
 
-<p><strong>- **AM 4G</strong>-** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar.</p>
+<p><strong>- **AM**</strong>-** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar.</p>
 
 <p>El programa permite entonces hacer selección de un grupo de Movimientos de Kárdex de acuerdo con los criterios seleccionados en la siguiente ventana.</p>
 

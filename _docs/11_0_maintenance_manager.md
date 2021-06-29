@@ -9,11 +9,11 @@ Qué es un Programa de Mantenimiento (PM) y cuál es su objetivo. Cómo se defin
 
 # Conceptos Básicos de Programas de Mantenimiento
 
-Dentro del ciclo de Gestión de Mantenimiento en el **AM**–** los Programas de Mantenimiento (PMs) apoyan las tres primeras etapas del ciclo, siendo la primera la Planeación, la segunda la Presupuestación y la tercera la Programación. Para las dos primeras etapas, éste módulo ejecuta el proceso de Proyección, sobre un periodo futuro, de largo plazo, sin generar Órdenes de Trabajo.  Para la tercera etapa el proceso de Programación se ejecuta en forma idéntica, desde el módulo de Ordenes de Trabajo. A pesar de que  se  ejecuta  desde  allí,  la  base   del  proceso  son  los  Programas  de Mantenimiento.
+Dentro del ciclo de Gestión de Mantenimiento en el **AM**** los Programas de Mantenimiento (PMs) apoyan las tres primeras etapas del ciclo, siendo la primera la Planeación, la segunda la Presupuestación y la tercera la Programación. Para las dos primeras etapas, éste módulo ejecuta el proceso de Proyección, sobre un periodo futuro, de largo plazo, sin generar Órdenes de Trabajo.  Para la tercera etapa el proceso de Programación se ejecuta en forma idéntica, desde el módulo de Ordenes de Trabajo. A pesar de que  se  ejecuta  desde  allí,  la  base   del  proceso  son  los  Programas  de Mantenimiento.
 
 Un Programa de Mantenimiento (PM) es un conjunto de información que permite definir labores de Mantenimiento, para que sean ejecutadas en forma cíclica,  repetitiva  y periódica o sistemática,  sobre un Activo. Ella puede ser de tipos: Preventivo, Predictivo, Metrología,  Lubricación, Inspección, Otros, Otros Mantenimiento y los que se definan en la tabla de Tipos de mantenimiento en el módulo de Infraestructura.
 
-Los Programas de Mantenimiento (PMs), son un eje estratégico de **AM**–**.  Ellos son modificables y adecuables mediante la retroalimentación de los resultados obtenidos de distintos análisis sobre la Historia, con el objeto de afinarlos y lograr una proyección para Presupuesto del nuevo periodo, más ajustada y de acuerdo al desempeño real de los periodos anteriores.
+Los Programas de Mantenimiento (PMs), son un eje estratégico de **AM****.  Ellos son modificables y adecuables mediante la retroalimentación de los resultados obtenidos de distintos análisis sobre la Historia, con el objeto de afinarlos y lograr una proyección para Presupuesto del nuevo periodo, más ajustada y de acuerdo al desempeño real de los periodos anteriores.
 
 Definir un Plan de Mantenimiento para el largo plazo, a través de un conjunto sólido de Programas, sienta las bases para una gestión avanzada, garantizando al grupo gestor de Mantenimiento, la información permanente de sus  labores  proyectadas   a  futuro  y posibilitando sobre ellas el establecer prioridades y asignar recursos, para garantizar una ejecución eficaz.
 
@@ -49,9 +49,9 @@ Las demás actividades que pueden ser ejecutadas por el área de Mantenimiento c
 
 **ejecutar  la  Actividad  de  Mantenimiento. Está  conformado  normalmente  por  cuatro  componentes:** Mano de Obra Interna, Mano de Obra Externa, Materiales / Repuestos y Otros Conceptos de Costo (Gastos indirectos).
 
-Realizar permanentemente un Control Presupuestal de sus Gastos de Mantenimiento es una labor casi obligante para una organización. El **AM**–** brinda esta posibilidad y para ello, permite definir a nivel de cada PM una matriz de presupuesto, que es la base para el logro del objetivo planteado. Cuando un PM genera una OT, la matriz de presupuesto del PM se traslada a la matriz respectiva en la OT generada.
+Realizar permanentemente un Control Presupuestal de sus Gastos de Mantenimiento es una labor casi obligante para una organización. El **AM**** brinda esta posibilidad y para ello, permite definir a nivel de cada PM una matriz de presupuesto, que es la base para el logro del objetivo planteado. Cuando un PM genera una OT, la matriz de presupuesto del PM se traslada a la matriz respectiva en la OT generada.
 
-Crear  el  Presupuesto  a  un  PM  en  **AM**–**  consiste  en  hacer  una  evaluación  de  las necesidades de recursos de Mano de Obra Interna, Mano de Obra Externa, Materiales / Repuestos, y Otros Conceptos de Costo, todos ellos discriminados por Tipo de Trabajo y Concepto de Gasto. Con ello, se procede a ingresar los valores al Sistema; en la Matriz de Presupuesto.
+Crear  el  Presupuesto  a  un  PM  en  **AM****  consiste  en  hacer  una  evaluación  de  las necesidades de recursos de Mano de Obra Interna, Mano de Obra Externa, Materiales / Repuestos, y Otros Conceptos de Costo, todos ellos discriminados por Tipo de Trabajo y Concepto de Gasto. Con ello, se procede a ingresar los valores al Sistema; en la Matriz de Presupuesto.
 
 ##	Fecha de Inicio de Período (FIP)
 
@@ -70,7 +70,7 @@ La FUG y la FIP son iguales la mayor parte del tiempo. Los únicos dos casos en 
 
 A través de ellos se establece cuándo ejecutar las labores de Mantenimiento.  Se coloca énfasis en ellos, pues su dominio y administración, son la herramienta clave para distribuir la  carga  de  la  actividad  de  Mantenimiento  programado,   permitiendo   alcanzar  una distribución factible de  los  recursos  de  Mantenimiento en  un  período,  que  minimiza el tiempo improductivo de los Activos y por ende de los paros programados de Producción.
 **
-**El **AM**–** ofrece variedad de Criterios de Programación:**por Frecuencia, por Semanas del Año y por Contador. Sobre cada uno de ellos se presenta un breve estudio a continuación.
+**El **AM**** ofrece variedad de Criterios de Programación:**por Frecuencia, por Semanas del Año y por Contador. Sobre cada uno de ellos se presenta un breve estudio a continuación.
 
 ## Frecuencia
 
@@ -82,8 +82,8 @@ El Sistema genera una  OT obedeciendo al Criterio de Programación que  cumpla  
 
 Este criterio de programación permite generar OTs en cualquier semana del año, con base en eventos programados, sin que haya la necesidad de haber cumplido un ciclo o haber sobrepasado una cantidad de trabajo realizado por el Activo. Para ello se  señala una casilla, de las 52, una por cada semana, en las que se ha dividido el año. Entonces, un PM por este criterio, genera una OT para cada semana señalada. Las Ordenes de Trabajo de cada semana se generan cuando al rango de Análisis /  Generación definido, para la próxima generación, corresponda a una o varias de las semanas señaladas.
 
-Cuando se definan PMs por Semanas del Año (SA), se debe especificar al **AM**–**  cuál es la semana número 1 según el calendario de la organización usuaria. Para ello se debe ir a la opción ** “Administración”** del Menú Principal, y a**  “Valores por defecto”** en el submenú.
-Allí se especifica en qué día de Enero inicia la segunda (2ª) semana del año.  El **AM**–** es capaz entonces, con ese dato, de proyectar todas las semanas del año, de  acuerdo al calendario de la organización.
+Cuando se definan PMs por Semanas del Año (SA), se debe especificar al **AM****  cuál es la semana número 1 según el calendario de la organización usuaria. Para ello se debe ir a la opción ** “Administración”** del Menú Principal, y a**  “Valores por defecto”** en el submenú.
+Allí se especifica en qué día de Enero inicia la segunda (2ª) semana del año.  El **AM**** es capaz entonces, con ese dato, de proyectar todas las semanas del año, de  acuerdo al calendario de la organización.
 
 Semanas del Año es un Criterio excluyente en el conjunto.  Por lo tanto no se  puede combinar con ninguno de los otros tres Criterios de Programación.
 
@@ -100,16 +100,16 @@ En el primer caso, por Incremento, el PM genera una Orden de Trabajo múltiples 
 
 En el segundo caso, por Límite, el PM solo genera una Orden de Trabajo y ello  sucede cuando el valor actual del contador del Activo supere el valor contenido en el  PM, en el campo Recurrencia (Valor límite, en este caso).
 
-Cuando se define un PM en función de un contador de un Activo, se debe definir  un mecanismo administrativo: manual o  automático, para  actualizar  y mantener al   día  el contador de ese Activo en el **AM**–**. Se trata de garantizar que tales contadores reflejen permanente  la cantidad de trabajo realizado por el Activo.
+Cuando se define un PM en función de un contador de un Activo, se debe definir  un mecanismo administrativo: manual o  automático, para  actualizar  y mantener al   día  el contador de ese Activo en el **AM****. Se trata de garantizar que tales contadores reflejen permanente  la cantidad de trabajo realizado por el Activo.
 
-En los casos en que la actualización de los contadores de los ACs no pueda ser frecuente, el **AM**–** suministra un mecanismo automático que lo simula, mientras se puede realizar una nueva lectura y actualización real a ese contador. Se trata del  campo ** “Estándar de Planeación”** que se encuentra en la parte inferior de la ventana detalle de Activos. Allí se define una cantidad de trabajo estándar que realiza ese Activo por unidad de tiempo. Este valor es definido con base en una estadística real del trabajo de ese Activo en un período considerable, ojala no inferior a los 6 meses.
+En los casos en que la actualización de los contadores de los ACs no pueda ser frecuente, el **AM**** suministra un mecanismo automático que lo simula, mientras se puede realizar una nueva lectura y actualización real a ese contador. Se trata del  campo ** “Estándar de Planeación”** que se encuentra en la parte inferior de la ventana detalle de Activos. Allí se define una cantidad de trabajo estándar que realiza ese Activo por unidad de tiempo. Este valor es definido con base en una estadística real del trabajo de ese Activo en un período considerable, ojala no inferior a los 6 meses.
 
-En el espacio Contador (Odómetro/Horas) de la sección Última Generación de OT  se encuentra guardado el estado del contador del AC, la última vez que este PM  generó automáticamente una Orden de Trabajo para él.  A continuación se encuentra la fecha en que ocurrió esa generación. El campo del Contador se debe inicializar, la primera vez, en el estado del contador, aunque sea aproximado, de la última vez en que esta actividad de mantenimiento se ejecutó. No es posible inicializar la ** “Fecha de Última Generación”** que se encuentra al lado, pues está protegida y es actualizada automática y únicamente por el **AM**–**, después de la primera generación automática.
+En el espacio Contador (Odómetro/Horas) de la sección Última Generación de OT  se encuentra guardado el estado del contador del AC, la última vez que este PM  generó automáticamente una Orden de Trabajo para él.  A continuación se encuentra la fecha en que ocurrió esa generación. El campo del Contador se debe inicializar, la primera vez, en el estado del contador, aunque sea aproximado, de la última vez en que esta actividad de mantenimiento se ejecutó. No es posible inicializar la ** “Fecha de Última Generación”** que se encuentra al lado, pues está protegida y es actualizada automática y únicamente por el **AM****, después de la primera generación automática.
 
 #	Ventana Principal de Programas de Mantenimiento
 ![Programa de mantenimiento](../../assets/images/cap08/chp08_img01.png)
 
-A esta ventana se accede desde el comando Programas del Menú Principal de **AM**–**.
+A esta ventana se accede desde el comando Programas del Menú Principal de **AM****.
 
 A  través  de  esta  ventana  se  crean  y  administran  los  PMs.  La  mayor  parte  de  la información aquí definida, se traslada completamente a la OT, cuando el  Programa la genere.
 
@@ -175,13 +175,13 @@ El Responsable puede ser interno (RI),           o también un Responsable Exter
 
 ** Este campo es informativo;** al activarlo le indica a la persona o personas encargada de realizar la labor, si el Activo debe detener su producción para proceder a la realización de la Tarea de Mantenimiento. Cuando se dice que el Activo ** “Genera Tiempo Improductivo”** significa que no está en operación, y por lo tanto, improductivo.
 
-**Prioridad:** Es un número de 1 a 7, de uso subjetivo, que indica la prioridad de realización de la OT. Normalmente, el valor 1 significa un trabajo de gran urgencia, mientras que el 7 significa una labor de baja prioridad. El usuario define qué nivel de prioridad manejar en cada PM.  El Sistema **AM**–**  por defecto sugiere la Prioridad 3.
+**Prioridad:** Es un número de 1 a 7, de uso subjetivo, que indica la prioridad de realización de la OT. Normalmente, el valor 1 significa un trabajo de gran urgencia, mientras que el 7 significa una labor de baja prioridad. El usuario define qué nivel de prioridad manejar en cada PM.  El Sistema **AM****  por defecto sugiere la Prioridad 3.
 
-**Tipo  de  Trabajo:** **AM**–** 	predefine  (aunque  pueden  personalizarse) cuatro  tipos  de trabajo: Mecánico (MEC),  Eléctrico (ELE),  Instrumentación/Electrónica (IEL)  y  Otro (OTR). Un PM debe tener asociado al menos un Tipo de Trabajo, es decir  que  puede tener asignados varios de estos Tipos de Trabajo, dependiendo de la naturaleza  de  la labor que se programa.
+**Tipo  de  Trabajo:** **AM**** 	predefine  (aunque  pueden  personalizarse) cuatro  tipos  de trabajo: Mecánico (MEC),  Eléctrico (ELE),  Instrumentación/Electrónica (IEL)  y  Otro (OTR). Un PM debe tener asociado al menos un Tipo de Trabajo, es decir  que  puede tener asignados varios de estos Tipos de Trabajo, dependiendo de la naturaleza  de  la labor que se programa.
 
 El Sistema por defecto sugiere el primer Tipo de Trabajo definido.
 
-**Tipo Mtto:** El sistema **AM**–** 	predefine siete Tipos de Mantenimiento (aunque pueden personalizarse y crear adicionales) para los  PM: Preventivo, Predictivo, Inspección, Metrología, Lubricación, Otro-Mantto y Otro. Este campo indica el Tipo  de Mantenimiento a realizar en la Orden de Trabajo. Toda OT debe poseer uno. Si en el PM se va a registrar un trabajo que no corresponde a una labor de  mantenimiento,  en este campo  se  elige  ** “Otro”**  y  a  continuación,  en  el  tipo  de   ** “Actividad”**  se  especifica detalladamente  el tipo de labor.
+**Tipo Mtto:** El sistema **AM**** 	predefine siete Tipos de Mantenimiento (aunque pueden personalizarse y crear adicionales) para los  PM: Preventivo, Predictivo, Inspección, Metrología, Lubricación, Otro-Mantto y Otro. Este campo indica el Tipo  de Mantenimiento a realizar en la Orden de Trabajo. Toda OT debe poseer uno. Si en el PM se va a registrar un trabajo que no corresponde a una labor de  mantenimiento,  en este campo  se  elige  ** “Otro”**  y  a  continuación,  en  el  tipo  de   ** “Actividad”**  se  especifica detalladamente  el tipo de labor.
 
 **Tipo  de   Actividad:** Aquí se establece el Tipo de Actividad a realizar en la OT.  La Actividad de Mantenimiento para una OT Manual, se elige desde la tabla  ** “Tipos de Actividad”** en el módulo de ** “Infraestructura”**.   Este campo trabaja en coordinación con  el anterior (Tipo de Mantenimiento).  Si en el campo anterior se ha hecho la selección de un valor diferente de ** “Otro”**, en el tipo de Actividad se debe seleccionar el valor ** “MN:** Mantto”, lo que indica que se trata de una actividad que constituye mantenimiento.  Si en el campo anterior se  ha  seleccionado el  valor  ** “Otro”**, en  el   campo Tipo de  Actividad se  debe seleccionar un valor que defina consistentemente  la labor a ejecutar.
 
@@ -333,7 +333,7 @@ Este  Criterio de  Programación hace caso  omiso de  la  FIP  y se  usa  para  
 
 **Al generar Órdenes de Trabajo se debe tener en cuenta:**
 
-Si un PM definió que se debe generar una Orden de Trabajo la semana X del año,  y el intervalo a Analizar/Generar contiene al menos un día de la semana X, entonces el **AM**–** genera la OT.
+Si un PM definió que se debe generar una Orden de Trabajo la semana X del año,  y el intervalo a Analizar/Generar contiene al menos un día de la semana X, entonces el **AM**** genera la OT.
 
 El Criterio SA es excluyente con los demás Criterios de Programación, es decir no puede coexistir con ninguno otro dentro del mismo PM.
 
@@ -345,7 +345,7 @@ El Criterio SA es excluyente con los demás Criterios de Programación, es decir
 
 Esta opción aparece protegida (su casilla aparece sombreada en gris) si el AC no posee un Contador definido. 
 
-**Contador:** Este campo aplica cuando el Criterio de Programación es por Contador. Al generar un PM que lo requiera, es en este campo donde se establece el valor  real o aproximado  del  contador,  la  última  vez  que  se  realizó  la  labor  que  ahora  se  está programando como rutina. En adelante, el **AM**–**  ubica automáticamente en este campo el valor actual del contador del Activo, en el  momento de generar la Orden de Trabajo. Más adelante se amplía esta explicación, al tratar el criterio de programación por Contador.
+**Contador:** Este campo aplica cuando el Criterio de Programación es por Contador. Al generar un PM que lo requiera, es en este campo donde se establece el valor  real o aproximado  del  contador,  la  última  vez  que  se  realizó  la  labor  que  ahora  se  está programando como rutina. En adelante, el **AM****  ubica automáticamente en este campo el valor actual del contador del Activo, en el  momento de generar la Orden de Trabajo. Más adelante se amplía esta explicación, al tratar el criterio de programación por Contador.
 
 Este Criterio tiene en cuenta la FIP, o sea que si el intervalo a Analizar/Generar  se encuentra antes de la FIP, el PM no genera OTs, así se haya cumplido el Incremento o el Límite por parte del Contador del AC.
 
@@ -353,9 +353,9 @@ Este Criterio tiene en cuenta la FIP, o sea que si el intervalo a Analizar/Gener
 
 **Por Incremento**: Esta opción requiere la definición de una ** “Recurrencia”**. Para que el  PM genere una Orden de Trabajo, el Contador del AC debe haber incrementado  su valor, sobre el  contador de  la  Última generación, en  el  PM,  en  una cantidad  superior a  la Recurrencia. Ej. El cambio  de  aceite y filtro cada 5.000 km. en un automóvil, exige la definición de una recurrencia con valor 5.000.
 
-Cuando se  define un  PM  en  función de  un  contador de  un  Activo, debe  existir  un mecanismo predefinido: manual o automático, para actualizar y mantener al día el contador de  ese  Activo  en  el  **AM**–**.  Se  trata  de  garantizar  que  tales  contadores  reflejen permanentemente la cantidad de trabajo  realizado por el Activo.  De hecho un PM con criterio  Contador,  solo  generará  Ordenes  de  Trabajo,  mientras  haya  variación  en  el contador del Activo.
+Cuando se  define un  PM  en  función de  un  contador de  un  Activo, debe  existir  un mecanismo predefinido: manual o automático, para actualizar y mantener al día el contador de  ese  Activo  en  el  **AM****.  Se  trata  de  garantizar  que  tales  contadores  reflejen permanentemente la cantidad de trabajo  realizado por el Activo.  De hecho un PM con criterio  Contador,  solo  generará  Ordenes  de  Trabajo,  mientras  haya  variación  en  el contador del Activo.
 
-En los casos en que la actualización de los contadores de los ACs no pueda ser frecuente, el **AM**–** suministra un mecanismo automático que lo simula, mientras se puede realizar una nueva lectura y actualización real a ese contador. Se trata del  campo Estándar de Planeación que se encuentra en la parte inferior de la ventana detalle de Activos. Allí se define una cantidad de trabajo estándar que realiza ese Activo por unidad de tiempo. Este valor es definido con base en una estadística real del trabajo de ese Activo en un período considerable, ojalá no inferior a los 6 meses.
+En los casos en que la actualización de los contadores de los ACs no pueda ser frecuente, el **AM**** suministra un mecanismo automático que lo simula, mientras se puede realizar una nueva lectura y actualización real a ese contador. Se trata del  campo Estándar de Planeación que se encuentra en la parte inferior de la ventana detalle de Activos. Allí se define una cantidad de trabajo estándar que realiza ese Activo por unidad de tiempo. Este valor es definido con base en una estadística real del trabajo de ese Activo en un período considerable, ojalá no inferior a los 6 meses.
 
 **Por Límite:** Indica que el Contador del AC debe alcanzar una cantidad tope, definida en  la Recurrencia, para que el PM genere la OT. Por este criterio solo se genera una y solo una Orden de Trabajo, cuando se alcance el Límite definido. Una vez generada la OT desde el PM, este se desactiva y ya no vuelve a generar otras OTs.
 
@@ -365,7 +365,7 @@ En los casos en que la actualización de los contadores de los ACs no pueda ser 
 
 **Fecha de última generación de OT:** Esta fecha es informativa y viene a ser la FUG (fecha de la última generación), por tanto  no  se  puede  modificar,  esta  fecha  es  la  misma  para  todos  los   Criterios  de Programación. Es una fecha real, siempre, que muestra cuando fue  que se realizó la última generación de una Orden de Trabajo desde ese PM.
 
-Para saber si la OT se va a generar o no; el **AM**–**  proyecta el valor del Contador del AC desde la fecha de su última medición hasta el primer día del rango de análisis / generación, y compara el nuevo valor del Contador del AC, con el CUG.  Si el valor de la comparación, es mayor o igual a la Recurrencia, genera la Orden de Trabajo.  De lo contrario, recalcula nuevamente el valor del Contador del AC para el siguiente día  del rango de análisis / generación,  y  hace  la  misma  comparación. Así  recorre todo  el  rango  de  análisis  / generación  hasta  el  último  día,  generando  una  OT,  si   el   valor  de  alguna  de  las comparaciones es mayor o igual a la recurrencia.
+Para saber si la OT se va a generar o no; el **AM****  proyecta el valor del Contador del AC desde la fecha de su última medición hasta el primer día del rango de análisis / generación, y compara el nuevo valor del Contador del AC, con el CUG.  Si el valor de la comparación, es mayor o igual a la Recurrencia, genera la Orden de Trabajo.  De lo contrario, recalcula nuevamente el valor del Contador del AC para el siguiente día  del rango de análisis / generación,  y  hace  la  misma  comparación. Así  recorre todo  el  rango  de  análisis  / generación  hasta  el  último  día,  generando  una  OT,  si   el   valor  de  alguna  de  las comparaciones es mayor o igual a la recurrencia.
 
 Calcular el valor del Contador consiste en sumarle al valor actual del Contador del AC la cantidad que resulte de llevar el Estándar de Planeación a la mínima unidad de tiempo, o sea a días, y multiplicar este valor por el número de días transcurridos desde la fecha de medición del Contador del AC, hasta el día del rango de Análisis / Generación en análisis.
 
@@ -378,7 +378,7 @@ Recuerde que el parámetro ** “Estándar  de Planeación”** es opcional y NO
 
 Resulta de definir simultáneamente un conjunto Frecuencia, Período y una Recurrencia para un contador, por ejemplo, en un mismo PM.
 
-El   sistema actúa de   la   forma ya   descrita independientemente para cada uno de   los criterios, solo que el **–AM 4G–**  al encontrarlos juntos en el mismo PM, hace la  evaluación simultánea de ellos y genera una OT cuando uno de ellos, el que primero lo haga, cumpla la condición.
+El   sistema actúa de   la   forma ya   descrita independientemente para cada uno de   los criterios, solo que el **–AM 4G**  al encontrarlos juntos en el mismo PM, hace la  evaluación simultánea de ellos y genera una OT cuando uno de ellos, el que primero lo haga, cumpla la condición.
  
 
 En síntesis se encuentran disponibles los siguientes criterios que se pueden visualizar en el visor de PMs y también en las OTs que se generaron desde ellos.
@@ -407,7 +407,7 @@ Una vez que un Programa de Mantenimiento acaba de generar una OT, sobre el progr
 **Vlr.** Contador al Inicio del Período
 Fecha de Última Generación (FUG) Fecha de Inicio del Período (FIP)
 
-**Nota.** Cuando se posee el **AM**–** es posible hacer la Programación de las Actividades de Mantenimiento para un período futuro, tanto para el corto como para el largo  plazo, a través de las funciones de Generación y de Proyección. La función de  Generación se encuentra en el submenú de  “Órdenes de Trabajo”. La función Proyección se encuentra en el	submenú   de 	Programas   de	Mantenimiento. Cabe anotar también que esta Programación se   puede realizar con cualquier  anticipación requerida, por   lo   tanto es posible que la Programación de una semana como la 32 se realice en la 28, por ejemplo.
+**Nota.** Cuando se posee el **AM**** es posible hacer la Programación de las Actividades de Mantenimiento para un período futuro, tanto para el corto como para el largo  plazo, a través de las funciones de Generación y de Proyección. La función de  Generación se encuentra en el submenú de  “Órdenes de Trabajo”. La función Proyección se encuentra en el	submenú   de 	Programas   de	Mantenimiento. Cabe anotar también que esta Programación se   puede realizar con cualquier  anticipación requerida, por   lo   tanto es posible que la Programación de una semana como la 32 se realice en la 28, por ejemplo.
 
 Finalmente se aclara que toda actividad que pretenda programar, proyectar o generar OTs a futuro se fundamenta en la programación realizada con los PMs.
 
@@ -592,7 +592,7 @@ Si el Criterio de Programación no depende de una frecuencia, esta fecha FIP det
 
 ### Proyectar
 
-Cuando se posee la herramienta **AM**–** es posible hacer la Programación de  las Actividades de Mantenimiento para un período futuro, tanto para el corto como  para el largo plazo, a través de las funciones de Generación y de Proyección. A esta opción se llega al sobreponer el cursor del mouse sobre el módulo de Programas y al lado derecho se despliega el conjunto de transacciones disponibles para el módulo de Programas, luego se elige la transacción ** “Proyectar”.**
+Cuando se posee la herramienta **AM**** es posible hacer la Programación de  las Actividades de Mantenimiento para un período futuro, tanto para el corto como  para el largo plazo, a través de las funciones de Generación y de Proyección. A esta opción se llega al sobreponer el cursor del mouse sobre el módulo de Programas y al lado derecho se despliega el conjunto de transacciones disponibles para el módulo de Programas, luego se elige la transacción ** “Proyectar”.**
 
 ![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img28.png)
 
@@ -620,9 +620,9 @@ En  la  gráfica  anterior,  Proyectar,  se  aprecian  sus  componentes  y  sus 
 
 A través de la ventana de Proyectar se planean Órdenes de Trabajo Programadas. Procedimiento para efectuar Proyección de PM:
 
-Digitar la fecha ** “Desde”**. **AM**–** sugiere el primer día del año en curso.
+Digitar la fecha ** “Desde”**. **AM**** sugiere el primer día del año en curso.
 
-Digitar la fecha ** “Hasta”**. **AM**–** sugiere el último día del año en curso.
+Digitar la fecha ** “Hasta”**. **AM**** sugiere el último día del año en curso.
 
 Ingresar de manera opcional, los porcentajes respectivos en la sección Asignar Variación Porcentual a los Costos en  el presupuesto: Estos porcentajes  corresponden  a   los  valores  en  que desee incrementen los costos del presupuesto, para cada uno de los diferentes rubros de:
 
@@ -638,12 +638,12 @@ Aparece el siguiente mensaje. Contestar ** “Aceptar”**.
 
 ![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img30.png)
 
-**AM**–** busca en todos los  Programas de Mantenimiento, cuáles deben  proyectar órdenes de trabajo en el rango de fechas estipulado. Durante el  proceso,  puede visualizarse una barra horizontal que va avanzando a medida que se va analizando y el  estado  de  avance  de  la  proyección, en la parte superior derecha, y al finalizar dicho proceso, el sistema muestra el resultado de la proyección de los PMs proyectados del total de PMs registrados en la base de datos. El proceso también se puede cancelar haciendo clic en el botón <a class="btn"> “Cancelar”</a>, y el sistema detiene el proceso sin ningún tipo de perjuicio, es decir, a los datos no son afectados en absoluto.
+**AM**** busca en todos los  Programas de Mantenimiento, cuáles deben  proyectar órdenes de trabajo en el rango de fechas estipulado. Durante el  proceso,  puede visualizarse una barra horizontal que va avanzando a medida que se va analizando y el  estado  de  avance  de  la  proyección, en la parte superior derecha, y al finalizar dicho proceso, el sistema muestra el resultado de la proyección de los PMs proyectados del total de PMs registrados en la base de datos. El proceso también se puede cancelar haciendo clic en el botón <a class="btn"> “Cancelar”</a>, y el sistema detiene el proceso sin ningún tipo de perjuicio, es decir, a los datos no son afectados en absoluto.
 
 
 ![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img30.png)
 
-**AM**–** busca en todos los  Programas de Mantenimiento, cuáles deben  proyectar órdenes de trabajo en el rango de fechas estipulado. Durante el  proceso,  puede visualizarse una barra horizontal que va avanzando a medida que se va analizando y el  estado  de  avance  de  la  proyección, en la parte superior derecha, y al finalizar dicho proceso, el sistema muestra el resultado de la proyección de los PMs proyectados del total de PMs registrados en la base de datos. El proceso también se puede cancelar haciendo clic en el botón <a class="btn">Cancelar</a>., y el sistema detiene el proceso sin ningún tipo de perjuicio, es decir, a los datos no son afectados en absoluto.
+**AM**** busca en todos los  Programas de Mantenimiento, cuáles deben  proyectar órdenes de trabajo en el rango de fechas estipulado. Durante el  proceso,  puede visualizarse una barra horizontal que va avanzando a medida que se va analizando y el  estado  de  avance  de  la  proyección, en la parte superior derecha, y al finalizar dicho proceso, el sistema muestra el resultado de la proyección de los PMs proyectados del total de PMs registrados en la base de datos. El proceso también se puede cancelar haciendo clic en el botón <a class="btn">Cancelar</a>., y el sistema detiene el proceso sin ningún tipo de perjuicio, es decir, a los datos no son afectados en absoluto.
 
 ![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img31.png)
 

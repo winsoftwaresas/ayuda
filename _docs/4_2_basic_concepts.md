@@ -26,25 +26,25 @@ Por ello, un Almacén fundamenta su operación en tres definiciones:
 
 ### Almacenes y – **AM**–
 
-**AM**–** Predefine   en   forma   natural   un   Almacén,   en   la   Tabla   de   Almacenes (Infraestructura), y además permite la definición de varios adicionales. Para cada Almacén se definen sus  conceptos de movimiento de  Kárdex  en la Tabla  Conceptos  de Kárdex (Infraestructura). Aunque  existen  conceptos  predefinidos,   siempre  se  pueden  definir nuevos conceptos de Entrada, de Salida y de Ajuste, garantizando la consistencia e integridad de la información.
+**AM**** Predefine   en   forma   natural   un   Almacén,   en   la   Tabla   de   Almacenes (Infraestructura), y además permite la definición de varios adicionales. Para cada Almacén se definen sus  conceptos de movimiento de  Kárdex  en la Tabla  Conceptos  de Kárdex (Infraestructura). Aunque  existen  conceptos  predefinidos,   siempre  se  pueden  definir nuevos conceptos de Entrada, de Salida y de Ajuste, garantizando la consistencia e integridad de la información.
 
 El módulo de  Almacén de Repuestos permite administrar de manera independiente cada uno de los almacenes creados en la Tabla de Almacenes (Infraestructura) y dependiendo del usuario que ingrese al **AM** tendrá sus propios permisos de administración para cada almacén. 
 
 #### 	Visión General: Funciones Básicas sobre Almacén de Repuestos
 
-Creación de Repuestos: **AM**–** suministra dos procesos básicos para crear y actualizar Repuestos:
+Creación de Repuestos: **AM**** suministra dos procesos básicos para crear y actualizar Repuestos:
 
 - Creación manual.
 
 - Importación desde  un  Sistema de  Almacén /  Inventario de  Repuestos  corporativo externo a través de una interfaz automática.
 
-El   primer   proceso básico de creación de datos de   Repuestos consiste en el   registro manual, organizado, uno a uno de los códigos de Repuestos del Almacén,  junto con su información característica, en la tabla de Almacén de Repuestos de la Base de Datos de **AM**–**.
+El   primer   proceso básico de creación de datos de   Repuestos consiste en el   registro manual, organizado, uno a uno de los códigos de Repuestos del Almacén,  junto con su información característica, en la tabla de Almacén de Repuestos de la Base de Datos de **AM****.
 
-El   primer   proceso básico de creación de datos de   Repuestos consiste en el   registro manual, organizado, uno a uno de los códigos de Repuestos del Almacén,  junto con su información característica, en la tabla de Almacén de Repuestos de la Base de Datos de **AM**–**.
+El   primer   proceso básico de creación de datos de   Repuestos consiste en el   registro manual, organizado, uno a uno de los códigos de Repuestos del Almacén,  junto con su información característica, en la tabla de Almacén de Repuestos de la Base de Datos de **AM****.
 
-El segundo proceso consiste en tomar la información de los Repuestos desde un sistema de Inventarios preexistente y copiarlos en la tabla de Almacén de Repuestos de **AM**–**,  mediante una interfaz automática que se ejecutará en tiempo real o en un momento definido. El detalle del desarrollo de esta interfaz es acordado entre el Cliente y el Proveedor. En este proceso se requiere que se haga una preparación de los datos preexistente, dándoles un formato que facilite su importación a la Base de Datos de **AM**–**.
+El segundo proceso consiste en tomar la información de los Repuestos desde un sistema de Inventarios preexistente y copiarlos en la tabla de Almacén de Repuestos de **AM****,  mediante una interfaz automática que se ejecutará en tiempo real o en un momento definido. El detalle del desarrollo de esta interfaz es acordado entre el Cliente y el Proveedor. En este proceso se requiere que se haga una preparación de los datos preexistente, dándoles un formato que facilite su importación a la Base de Datos de **AM****.
 
-**AM**–** suministra el formato donde se detalla el diseño del archivo de interface. A este formato se deben acomodar los datos de Repuestos a transferir pues es el único  que **AM**–**  es  capaz  de  interpretar  para  realizar  la  creación  automática  de  la  tabla   de Almacén de Repuestos.
+**AM**** suministra el formato donde se detalla el diseño del archivo de interface. A este formato se deben acomodar los datos de Repuestos a transferir pues es el único  que **AM****  es  capaz  de  interpretar  para  realizar  la  creación  automática  de  la  tabla   de Almacén de Repuestos.
 
 Una vez se encuentre el archivo de interfaz listo, el Cliente lo debe dejar en una tabla intermedia y cuando se ejecute la interfaz automática, **AM** importa la información de los Repuestos a la base de datos de **AM**. 
 
@@ -56,13 +56,13 @@ La actualización de la información general de Repuestos se realiza a través d
 
 **Actualización   de   la   Información   de   Inventarios   de   un   Repuesto:**   Aunque   la actualización de  los  parámetros de inventarios (stock  en  existencia  y costo  unitario  del Repuesto, principalmente) se puede realizar en forma manual, en la  ventana Detalle en Repuestos,  por  parte  de  un  usuario  con  los  permisos  adecuados,  existen  otros  dos mecanismos para hacerlo.
 
-El  primero,  mediante la  misma  interf ase  que  se  utilizó  en  el  proceso  automático  de creación de la tabla de Almacén de Repuestos.  Este caso reviste un escenario  particular cuando el Sistema de Inventario de Repuestos externo a **AM**–** es el oficial  y  el contable, en la Organización. Toda  transacción sobre materiales  o   Repuestos  se  realiza  utilizando  las funciones de este sistema externo: administración de códigos  de materiales y Repuestos, solicitudes y despachos, entradas y salidas, etc. Esto  significa entonces que los módulos de Almacén de Repuestos y de Kárdex de **AM**–** serán  utilizados por el área de Mantenimiento solo como referencia del inventario existente y  del costo unitario vigente, siendo estos últimos actualizados por saldos periódicos desde el sistema externo.
+El  primero,  mediante la  misma  interf ase  que  se  utilizó  en  el  proceso  automático  de creación de la tabla de Almacén de Repuestos.  Este caso reviste un escenario  particular cuando el Sistema de Inventario de Repuestos externo a **AM**** es el oficial  y  el contable, en la Organización. Toda  transacción sobre materiales  o   Repuestos  se  realiza  utilizando  las funciones de este sistema externo: administración de códigos  de materiales y Repuestos, solicitudes y despachos, entradas y salidas, etc. Esto  significa entonces que los módulos de Almacén de Repuestos y de Kárdex de **AM**** serán  utilizados por el área de Mantenimiento solo como referencia del inventario existente y  del costo unitario vigente, siendo estos últimos actualizados por saldos periódicos desde el sistema externo.
 
-El uso de dicha interfase es factible pues el proceso de Importación que realiza  **AM**–** consiste solo en  remplazar los saldos  de  Repuestos  existentes,  por  los  saldos  que  se importan desde el sistema externo. No se realizan sumas ni restas, solo el reemplazo de saldos para los Repuestos contenidos en el archivo de  importación para la interfase.  Es claro que  la información a ser importada por **AM**–** se genera en el sistema externo, de acuerdo a un formato predefinido y debe contener la información de los saldos, inmediatamente después de un proceso de actualización o de control en dicho sistema externo.
+El uso de dicha interfase es factible pues el proceso de Importación que realiza  **AM**** consiste solo en  remplazar los saldos  de  Repuestos  existentes,  por  los  saldos  que  se importan desde el sistema externo. No se realizan sumas ni restas, solo el reemplazo de saldos para los Repuestos contenidos en el archivo de  importación para la interfase.  Es claro que  la información a ser importada por **AM**** se genera en el sistema externo, de acuerdo a un formato predefinido y debe contener la información de los saldos, inmediatamente después de un proceso de actualización o de control en dicho sistema externo.
 
-La ejecución de la interfase mencionada anteriormente se puede realizar desde el servidor de Base de Datos de **AM**–** mediante la programación de un Paquete de Transformación de Datos (DTS) para ejecución automática. Para esto es necesario disponer de **AM**–** con SQL Server.
+La ejecución de la interfase mencionada anteriormente se puede realizar desde el servidor de Base de Datos de **AM**** mediante la programación de un Paquete de Transformación de Datos (DTS) para ejecución automática. Para esto es necesario disponer de **AM**** con SQL Server.
 
-El  segundo,  mediante  el  Kárdex  que  suministra  **AM** –**. Es  el  procedimiento   natural suministrado por el aplicativo. Mediante el Kárdex de Almacén se registran en todo detalle, las Entradas, las Salidas y los Ajustes, de Repuestos y artículos de cada Almacén.
+El  segundo,  mediante  el  Kárdex  que  suministra  **AM** **. Es  el  procedimiento   natural suministrado por el aplicativo. Mediante el Kárdex de Almacén se registran en todo detalle, las Entradas, las Salidas y los Ajustes, de Repuestos y artículos de cada Almacén.
 
 Una transacción de entrada al Almacén actualiza los saldos en la tabla de Almacén de Repuestos, incrementando  la  cantidad  en  existencia  y  actualizando  el  valor  unitario,  pero  también genera un rastro de la transacción, en el archivo de movimiento de Kárdex.
 

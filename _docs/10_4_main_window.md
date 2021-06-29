@@ -30,7 +30,7 @@ En la gráfica anterior, Ventana Detalle de Ordenes de Trabajo Históricas, se a
 
 A continuación se describen los campos que componen esta ventana Detalle de Ordenes de Trabajo Históricas. Sobre cada campo se da una breve explicación.
 
-**OT:** Aparece el número de **OT** asignado por – AM 4G– a la Orden de Trabajo.  Si se está en el proceso de creación de una **OT** Manual, este campo solamente muestra el Año.   Una vez se crea (Insertar) la **OT**, **–AM 4G–** asigna un consecutivo a dicha Orden.
+**OT:** Aparece el número de **OT** asignado por – AM 4G– a la Orden de Trabajo.  Si se está en el proceso de creación de una **OT** Manual, este campo solamente muestra el Año.   Una vez se crea (Insertar) la **OT**, **–AM 4G** asigna un consecutivo a dicha Orden.
 
 **F/H Creación:** Es la fecha en la cual se crea la Orden de Trabajo.  En el caso  de Órdenes Programadas, esta fecha es asignada automáticamente por el sistema y no es modificable, según el Programa de Mantenimiento que la genera. Para las Órdenes de Trabajo Manuales, – AM –   sugiere   la   fecha   actual   del   sistema  (aunque  puede   ser modificada).
 
@@ -124,7 +124,7 @@ Cada criterio trabaja en conjunto con los demás, con el operador intersección.
 
 Cada criterio aparece inicializado en un valor global que permite mostrar todas las Órdenes de Trabajo Históricas.  Lo que significa que de no escoger un criterio se  obtiene como resultado del  subgrupo el  mismo conjunto completo de  todas las  Órdenes de  Trabajo Históricas.
 
-**–AM 4G–** permite entonces hacer selección de un grupo de **OTs** Históricas, de acuerdo con los criterios seleccionados en la próxima gráfica.
+**–AM 4G** permite entonces hacer selección de un grupo de **OTs** Históricas, de acuerdo con los criterios seleccionados en la próxima gráfica.
 
 Los campos de datos que constituyen criterio de selección haciendo parte de la Ventana
 Subgrupo (Próxima gráfica) son los siguientes.
@@ -288,14 +288,14 @@ A continuación se describen los campos que componen esta ventana.
 
 **F/H Fin Trabajos:** Es la Fecha y Hora que indica el momento en que finalizaron las labores de mantenimiento,   incluyendo   las   pruebas   o   ensayos,   que   determinaron   el    buen funcionamiento del equipo. La fecha se maneja en formato AAAA/MM/DD (Año, Mes, día); la hora se maneja en formato Militar (de 24 horas).
 
-**Tiempo Duración (ttr):** Aunque – AM 4G– sugirió como Tiempo de Duración, (o time to repair) en este campo, la diferencia entre la Fecha y Hora de Fin de Trabajos y la Fecha y Hora de Inicio de Trabajos, cabe anotar, que  **–AM 4G–** también permitió corregir el tiempo de
+**Tiempo Duración (ttr):** Aunque – AM 4G– sugirió como Tiempo de Duración, (o time to repair) en este campo, la diferencia entre la Fecha y Hora de Fin de Trabajos y la Fecha y Hora de Inicio de Trabajos, cabe anotar, que  **–AM 4G** también permitió corregir el tiempo de
 Duración en la **OT**, después de que fue calculado por el sistema, entonces debe reflejar el tiempo real de la ejecución.
 
-Por ejemplo, si una **OT** tiene como Fecha de Inicio de Trabajos XXXX/12/01 08:30, y como Fecha de Fin de Trabajos XXXX/12/01 16:00, **–AM 4G–** sugiere como Tiempo de Duración, 7 horas y 30 minutos. Sin embargo, si durante ese lapso se tuvo que detener la ejecución por 2 horas, debido a que faltaba un Repuesto o a que el técnico encargado se ausentó a realizar otra labor, el ttr se debe haber corregido a: 5 horas y 30 minutos.
+Por ejemplo, si una **OT** tiene como Fecha de Inicio de Trabajos XXXX/12/01 08:30, y como Fecha de Fin de Trabajos XXXX/12/01 16:00, **–AM 4G** sugiere como Tiempo de Duración, 7 horas y 30 minutos. Sin embargo, si durante ese lapso se tuvo que detener la ejecución por 2 horas, debido a que faltaba un Repuesto o a que el técnico encargado se ausentó a realizar otra labor, el ttr se debe haber corregido a: 5 horas y 30 minutos.
 
-**T. Improductivo:** **–AM 4G–** puede haber sugerido como Tiempo Improductivo: la  diferencia entre la Fecha y Hora de Fin de Trabajos y la Fecha y Hora Info de Paro (Para Órdenes de Trabajo Correctivas), o como, la diferencia entre la Fecha y Hora de Fin de Trabajos y la Fecha  y  Hora  de  Inicio de  Trabajos  (Para  Ordenes de   Trabajo no  Correctivas).  Sin embargo, este valor pudo haberse corregido, después de que fue calculado por el sistema, para reflejar la cantidad Real de Tiempo Improductivo que tuvo el Equipo en la **OT** actual.
+**T. Improductivo:** **–AM 4G** puede haber sugerido como Tiempo Improductivo: la  diferencia entre la Fecha y Hora de Fin de Trabajos y la Fecha y Hora Info de Paro (Para Órdenes de Trabajo Correctivas), o como, la diferencia entre la Fecha y Hora de Fin de Trabajos y la Fecha  y  Hora  de  Inicio de  Trabajos  (Para  Ordenes de   Trabajo no  Correctivas).  Sin embargo, este valor pudo haberse corregido, después de que fue calculado por el sistema, para reflejar la cantidad Real de Tiempo Improductivo que tuvo el Equipo en la **OT** actual.
 
-Por ejemplo, si una **OT** histórica, que fue correctiva, tiene como fecha de Info de  Paro XXXX/12/01 08:00, y como fecha de Fin de Trabajos XXXX/12/02 12:30,  **–AM 4G–**  sugirió como Tiempo Improductivo, 1 día, 4 horas y 30 minutos. Sin embargo, si en ese lapso, el Equipo no trabaja de 10 PM a 6 AM, pues la empresa no labora este turno de producción, se debió haber definido el tiempo improductivo como solamente de 20 horas y 30 minutos.
+Por ejemplo, si una **OT** histórica, que fue correctiva, tiene como fecha de Info de  Paro XXXX/12/01 08:00, y como fecha de Fin de Trabajos XXXX/12/02 12:30,  **–AM 4G**  sugirió como Tiempo Improductivo, 1 día, 4 horas y 30 minutos. Sin embargo, si en ese lapso, el Equipo no trabaja de 10 PM a 6 AM, pues la empresa no labora este turno de producción, se debió haber definido el tiempo improductivo como solamente de 20 horas y 30 minutos.
 
 Estado de la **OT**: Una Orden de Trabajo Histórica puede tener uno de los siguientes
 Estados:
@@ -383,7 +383,7 @@ Tipo de trabajo: Este campo muestra el Tipo de Trabajo para el cual se cargó el
 
 **Cantidad:** Es la cantidad utilizada, del repuesto seleccionado.
 
-Valor Unitario: Es el valor unitario del repuesto tal y como fue cargado por  **– AM 4G –**.
+Valor Unitario: Es el valor unitario del repuesto tal y como fue cargado por  **– AM 4G **.
 
 **Ingresar Otros Conceptos**
 
@@ -399,7 +399,7 @@ A continuación se describen los campos que componen esta ventana.
 
 **Nro. De Unidades:** Es la cantidad del concepto seleccionado  anteriormente.
 
-**Valor  Unitario:** Es  el valor presupuestado del **“**Otro Concepto **”**. 	**–AM 4G–** sugiere el valor unitario del concepto que se encuentra ingresando al sistema.
+**Valor  Unitario:** Es  el valor presupuestado del **“**Otro Concepto **”**. 	**–AM 4G** sugiere el valor unitario del concepto que se encuentra ingresando al sistema.
 
 **Valor Total:** Es el costo total presupuestado del **“**Otro Concepto **”** teniendo en cuenta el número de unidades y el valor unitario.
 
@@ -480,13 +480,13 @@ Sí se desea restablecer la información, se debe dar clic botón  <a class="btn
 
 ###	Balance Periódico de Gestión
 
-Aunque no existe una opción o una función específica en ningún menú o submenú dentro de **–AM 4G–** que especifique el tema Balance de Gestión, aquí se trata como una herramienta administrativa y de gerencia que debería ser utilizada periódica y disciplinadamente por un Gerente de Mantenimiento que quiera posicionar su área y su cargo, en un nivel realmente gerencial dentro de la organización.
+Aunque no existe una opción o una función específica en ningún menú o submenú dentro de **–AM 4G** que especifique el tema Balance de Gestión, aquí se trata como una herramienta administrativa y de gerencia que debería ser utilizada periódica y disciplinadamente por un Gerente de Mantenimiento que quiera posicionar su área y su cargo, en un nivel realmente gerencial dentro de la organización.
 
 En algunas empresas y corporaciones se percibe el Departamento de Mantenimiento como un  área  costosa,  incumplida,  sobre  la  que  se  conoce  poco  o  ningún  detalle  de  sus esquemas de planeación, programación, priorización, y ejecución de tareas, y aún mucho menos sobre la  estratificación de  los  costos,  respecto a   Mano de  Obra,  Materiales y Repuestos y otros conceptos.  Estratificación que se  relaciona también con los tipos de Mantenimiento (Preventivo, Correctivo, Predictivo, y otros), también con los tipos de Trabajo (Mecánico, Eléctrico, Instrumentación y otros) y finalmente con los Tipos de Actividad que realiza y los Centros de Costo, sus clientes naturales.
 
 El planteamiento que se hace es simple. Se recomienda al Gerente de Mantenimiento, que elabore un Balance de Gestión, para el período que acaba de concluir: un mes, un trimestre, un semestre, un año.  Todo ello como resultado del trabajo de un período de gran  actividad  técnica  y  de  informática  y  de  gran  organización  procedimental  y metodológica. Es más, se debería generar por  pura  iniciativa del mismo Gerente de Mantenimiento, sin que medie una orden o una solicitud expresa de la Alta Gerencia.
 
-El **–AM 4G–** le proporciona todos los elementos y las herramientas para lograrlo. Aún así se requiere  de  parte  del  Departamento  de  Mantenimiento,  desde  su  cabeza,   de  un compromiso decidido para lograrlo.  No es difícil.  Se trata de plantear y  acordar una metodología de reporte y retroalimentación de  información permanente al sistema **–AM 4G–** para mantenerlo al día.
+El **–AM 4G** le proporciona todos los elementos y las herramientas para lograrlo. Aún así se requiere  de  parte  del  Departamento  de  Mantenimiento,  desde  su  cabeza,   de  un compromiso decidido para lograrlo.  No es difícil.  Se trata de plantear y  acordar una metodología de reporte y retroalimentación de  información permanente al sistema **–AM 4G** para mantenerlo al día.
 
 Existe un gran ejemplo dentro de la misma Corporación o Empresa. Es el departamento contable y el Sistema de Contabilidad.  Para nadie es un secreto  que  el Balance de Gestión Financiera y otros Estados Financieros están listos siempre a tiempo, durante los primeros días del mes siguiente. Pues bien, este resultado contable real del período no aparece milagrosamente se trata del compendio de la actividad, disciplina y gusto de muchas personas, con el apoyo del Sistema de Información Contable. Desde el primer día de cada mes, con cada transacción contable, se alimenta el sistema y así se mantiene día tras  día,  actualizado. Se hacen  revisiones  periódicas  para  verificar  el  estado  de actualización y de veracidad e integridad de la información. Cuando llega el fin del período, normalmente del mes, el gran porcentaje de la información está al día, registrada ya en el sistema. Entonces solo se hacen ajustes y complementos especiales. Todo está listo para producir el gran resultado del mes: El Balance Mensual.
 
@@ -509,11 +509,11 @@ Un Balance Periódico de Gestión de Mantenimiento debe conformarse, al menos, p
 
 **Índices de Gestión:**
 
-- Se recomienda elegir de la gama de índices que **–AM 4G–** ofrece, los índices de gestión más representativos para la empresa y el período evaluado. Además de los índices ya definidos de manera estándar, W IN Software Asociados  ha  desarrollado  algunos  índices  especiales  por  sector  de industria, que están disponibles, solo deben ser solicitados. Igualmente, W IN Software, con su filosofía de continuo mejoramiento del software, está dispuesto a implementar los índices particulares, base de seguimiento de cada empresa, buscando a futuro proveer de manera completa los índices aceptados universalmente para la gestión de Mantenimiento.
+- Se recomienda elegir de la gama de índices que **–AM 4G** ofrece, los índices de gestión más representativos para la empresa y el período evaluado. Además de los índices ya definidos de manera estándar, W IN Software Asociados  ha  desarrollado  algunos  índices  especiales  por  sector  de industria, que están disponibles, solo deben ser solicitados. Igualmente, W IN Software, con su filosofía de continuo mejoramiento del software, está dispuesto a implementar los índices particulares, base de seguimiento de cada empresa, buscando a futuro proveer de manera completa los índices aceptados universalmente para la gestión de Mantenimiento.
 
 
 Como resultado de implementar periódicamente un Balance de Gestión, se hace posible extraer desde ellos,  al final de cada período, un  resumen de  datos  puntuales, de  los reportes que los conforman, para transferir hacia herramientas externas, como Excel por ejemplo.
 
 Allí   es   posible  efectuar cálculos adicionales  y obtener estadísticas y tendencias  que complementan la Gestión y permiten tener una visión de largo plazo. Por ejemplo, sería valioso al final de cada mes extraer datos como: Índices, Costos totales por concepto, por Tipo de Mantenimiento y por Tipo de Trabajo, al igual que  Número  Total de Fallas por Equipo o grupo de Equipos, y a través de las  herramientas de graficación de Microsoft Excel  u  otra  herramienta  idónea,   generar   seguimiento  mes  a  mes  y  tendencias acumulativas, para cada uno de dichos conceptos.
 
-Todos estos reportes mencionados y muchos más, con capacidad de ser  adecuados según  requerimientos  particulares  de  clasificación  y  preselección,   se   encuentran disponibles en el **–AM 4G–** con el fin de que el Gerente de Mantenimiento pueda generar el Balance Periódico de Gestión Básico y todos los complementos que le sean necesarios para apoyo, dinamismo y sustentación de su gestión.
+Todos estos reportes mencionados y muchos más, con capacidad de ser  adecuados según  requerimientos  particulares  de  clasificación  y  preselección,   se   encuentran disponibles en el **–AM 4G** con el fin de que el Gerente de Mantenimiento pueda generar el Balance Periódico de Gestión Básico y todos los complementos que le sean necesarios para apoyo, dinamismo y sustentación de su gestión.
