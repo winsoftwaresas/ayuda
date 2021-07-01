@@ -104,11 +104,11 @@ Es posible visualizar de manera inmediata, los Repuestos activos, inactivos y co
 
 El significado de los colores se visualiza al sobreponer el mouse en el icono que se encuentra al extremo superior derecho y su correspondencia es: 
 
-• **Rojo:** Repuestos definidos con estado inactivo.
+- **Rojo:** Repuestos definidos con estado inactivo.
 
-• **Verde:** Repuestos definidos con estado activo.
+- **Verde:** Repuestos definidos con estado activo.
 
-• **Naranja:** Repuestos que tienen asociados archivos de imágenes, videos y/o documentos en la pestaña Multimedia.
+- **Naranja:** Repuestos que tienen asociados archivos de imágenes, videos y/o documentos en la pestaña Multimedia.
 
 ## Subgrupo
 

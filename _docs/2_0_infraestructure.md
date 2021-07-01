@@ -158,9 +158,9 @@ Es posible visualizar de manera inmediata, los Terceros habitados e inhabilitado
 
 El significado de los colores se visualiza al sobreponer el mouse en el icono que se encuentra al extremo superior derecho y su correspondencia es:
 
-•	**Verde:** Terceros con certificaciones que tienen fecha de vencimiento posterior a la fecha actual, es decir, se encuentran con sus certificaciones habilitadas
+-	**Verde:** Terceros con certificaciones que tienen fecha de vencimiento posterior a la fecha actual, es decir, se encuentran con sus certificaciones habilitadas
 
-•	**Rojo:** Terceros con certificaciones que tienen fecha de vencimiento anterior a la fecha actual, es decir, se encuentran con una o varias certificaciones inhabilitadas.
+-	**Rojo:** Terceros con certificaciones que tienen fecha de vencimiento anterior a la fecha actual, es decir, se encuentran con una o varias certificaciones inhabilitadas.
 
 ### Subgrupo Terceros
 
@@ -1178,13 +1178,13 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 Adicional, se encuentran tres opciones de definición del Concepto, estas son:
 
-•	**¿Este Concepto de Kárdex requiere una OT válida?** 
+-	**¿Este Concepto de Kárdex requiere una OT válida?** 
 Se enmarca cuando se trata de una transacción de movimiento que requiere para su ejecución, una OT válida.
 
-•	**¿Este Concepto de Kárdex es el predeterminado?**
+-	**¿Este Concepto de Kárdex es el predeterminado?**
  Es una opción para definir que este concepto se utiliza por defecto en una transacción.
 
-•	**¿Este Concepto de Kárdex Corresponde a ítems Suministrados por el Contratista?**
+-	**¿Este Concepto de Kárdex Corresponde a ítems Suministrados por el Contratista?**
  Es una opción para definir si el concepto corresponde a ítem que son suministrados por el contratista. 
 
 ### Subgrupo Conceptos de Kárdex
@@ -1264,13 +1264,13 @@ Es posible, en la Tabla de Estados la parametrización de los estados de los mó
 
 Estado de Solicitud de Servicio: Descripción que se usa para personalizar los estados en los que puede encontrarse una Solicitud de  Servicio. Se utiliza el campo de Indicativo-(Abreviatura) para especificar la abreviatura del Estado. Es posible crear nuevos estados de SS, ellos se consideran variaciones  del  estado En Análisis (AN). Existen siete Estados de SS que no pueden ser nados ni modificados dado que se utilizan por defecto en la funcionalidad del sistema, estos son:
 
-•	**AN-** En Análisis
-•	**AS-** Asignada
-•	**NE-** Cerrada No Ejecutada
-•	**CE-** Cerrada Ejecutada
-•	**CO-** Cerrada con OT
-•	**EJ-** En Ejecución 
-•	**CP-** Cerrada Parcial (AMovil)
+-	**AN-** En Análisis
+-	**AS-** Asignada
+-	**NE-** Cerrada No Ejecutada
+-	**CE-** Cerrada Ejecutada
+-	**CO-** Cerrada con OT
+-	**EJ-** En Ejecución 
+-	**CP-** Cerrada Parcial (AMovil)
 
 
 ![tipos de rgimen](../../assets/images/cap02/chp02_img81.png)

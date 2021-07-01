@@ -1,0 +1,1407 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Solicitudes de Servicio (SS) por Internet e Intranet AMsi | AM</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Solicitudes de Servicio (SS) por Internet e Intranet AMsi" />
+<meta name="author" content="Win Software" />
+<meta property="og:locale" content="es" />
+<meta name="description" content="Trabajando con AMsi" />
+<meta property="og:description" content="Trabajando con AMsi" />
+<link rel="canonical" href="https://ayuda.winsoftware.com.co/docs/15_0_amsi/" />
+<meta property="og:url" content="https://ayuda.winsoftware.com.co/docs/15_0_amsi/" />
+<meta property="og:site_name" content="AM" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-07-01T12:04:29-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Solicitudes de Servicio (SS) por Internet e Intranet AMsi" />
+<script type="application/ld+json">
+{"headline":"Solicitudes de Servicio (SS) por Internet e Intranet AMsi","dateModified":"2021-07-01T12:04:29-05:00","datePublished":"2021-07-01T12:04:29-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://ayuda.winsoftware.com.co/docs/15_0_amsi/"},"author":{"@type":"Person","name":"Win Software"},"description":"Trabajando con AMsi","url":"https://ayuda.winsoftware.com.co/docs/15_0_amsi/","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <meta property="og:image" content="https://ayuda.winsoftware.com.co/uploads/"/>
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="shortcut icon" type="image/png" href="/uploads/favicon.png" >
+  <link rel="alternate" type="application/rss+xml" title="AM" href="/feed.xml">
+  <script src="/assets/js/main.js"></script>
+  
+    <script>
+function searchResults(form) {
+
+    var currentItem = null;
+    var search = document.getElementById(form);
+    var results = document.getElementById(form + "-results");
+    var toggle = document.getElementById(form + "-toggle");
+
+    function removeActive() {
+        for (i = 0; i < results.children.length; i++) {
+            results.children[i].classList.remove("uk-background-muted");
+        }
+    }
+
+    // Detect all clicks on the document
+    document.addEventListener("click", function(event) {
+
+        var isClickSearch = false;
+        var isClickResults = false;
+        var isClickSearchToggle = false;
+
+        if (search !== null) {
+            isClickSearch = search.contains(event.target);
+        }
+
+        if (results !== null) {
+            isClickResults = results.contains(event.target);
+        }
+
+        if (toggle !== null) {
+            isClickSearchToggle = toggle.contains(event.target);
+        }
+
+        if (isClickSearch || isClickSearchToggle) {
+            results.style.display = "block";
+        }        
+
+        if (!isClickResults && !isClickSearch && !isClickSearchToggle) {
+            results.style.display = "none";
+        }        
+        
+    });    
+
+    results.addEventListener("mouseover", function(event) {
+
+        removeActive();
+        event.target.parentElement.classList.add("uk-background-muted");
+        currentItem = null;
+
+    });
+
+    results.addEventListener("mouseout", function(event) {
+        event.target.parentElement.classList.remove("uk-background-muted");
+    });
+
+
+    search.addEventListener("keyup", function(event) {
+
+        var resultItems = results.children;
+        var resultCount = results.children.length;
+                                
+        if (event.keyCode === 40) {
+
+            if (currentItem < (resultCount - 1)) {
+                if (currentItem === null) {
+                    currentItem = 0;
+                } else {
+                    removeActive();
+                    currentItem++;
+                }
+                removeActive();
+                resultItems[currentItem].classList.add("uk-background-muted");
+            }
+            
+        } else if (event.keyCode === 38) {
+
+            if (currentItem > 0) {
+                if (currentItem === null) {
+                    currentItem = 0;
+                } else {
+                    removeActive();
+                    currentItem--;
+                }
+                removeActive();
+                resultItems[currentItem].classList.add("uk-background-muted");
+            }
+
+        } else if (event.keyCode === 13) {
+
+            resultItems[currentItem].children[0].click();
+
+        }
+
+    });
+
+}
+</script>
+  
+  <!-- Hook head -->
+  
+</head>
+
+    <body>
+
+    
+        <div data-uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent; top: 200">
+    <nav class="uk-navbar-container">
+        <div class="uk-container">
+            <div data-uk-navbar>
+                <div class="uk-navbar-left">
+                    <a class="uk-navbar-item uk-logo uk-visible@m" href="/">AM</a>
+                    
+                        <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas-docs" data-uk-toggle><span data-uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">AM</span></a>
+                    
+
+                    <ul class="uk-navbar-nav uk-visible@m">
+                        
+                            
+                            
+                            
+                                
+                                    
+                                        <li><a href="/docs/1_1_introduction/" >Manual</a></li>
+                                                                                                        
+                                
+                            
+                        
+                            
+                            
+                            
+                                
+                                    
+                                        <li><a href="/blog/" >Blog</a></li>
+                                                                                                        
+                                
+                            
+                        
+                            
+                            
+                            
+                                
+                                    
+                                        <li><a href="#">Registro de cambios</a>
+                                        
+                                            <div class="uk-navbar-dropdown">
+                                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                                    
+                                                    
+                                                        
+                                                        
+                                                        <li><a href="/changelog-timeline/">Línea de tiempo</a></li>
+                                                    
+                                                    
+                                                    
+                                                        
+                                                        
+                                                        <li><a href="/changelog-posts/">Publicaciones</a></li>
+                                                    
+                                                    
+                                                </ul>
+                                            </div>
+                                        
+                                        </li>
+                                                                                                        
+                                
+                            
+                        
+                    </ul>
+                </div>
+                <div class="uk-navbar-center uk-hidden@m">
+                    <a class="uk-navbar-item uk-logo" href="/">AM</a>
+                </div>
+                <div class="uk-navbar-right">
+                    
+                        
+                            <div>
+                                <a id="search-navbar-toggle" class="uk-navbar-toggle" uk-search-icon href="#"></a>
+                                <div class="uk-drop uk-background-default uk-border-rounded" uk-drop="mode: click; pos: left-center; offset: 0">
+                                    <form class="uk-search uk-search-navbar uk-width-1-1" onsubmit="return false;">
+                                        <input id="search-navbar" class="uk-search-input" type="search" placeholder="Buscar respuestas" autofocus autocomplete="off">
+                                    </form>
+                                    <ul id="search-navbar-results" class="uk-position-absolute uk-width-1-1 uk-list"></ul>
+                                </div>
+                            </div>
+                            <script>
+                            SimpleJekyllSearch({
+                                searchInput: document.getElementById('search-navbar'),
+                                resultsContainer: document.getElementById('search-navbar-results'),
+                                noResultsText: '<li class="no-results">No encontré resultados</li>',
+                                searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
+                                json: "/search.json"
+                            });
+                            searchResults("search-navbar");
+                            </script>
+                        
+                    
+
+                    <ul class="uk-navbar-nav uk-visible@m">
+                        
+                            
+                            
+                            
+                                
+                                    <li><div class="uk-navbar-item"><a class="uk-button uk-button-primary-outline" href="/changelog-timeline/" >Registro de cambios</a></div></li>
+                                
+                            
+                        
+                            
+                            
+                            
+                                
+                                    <li><div class="uk-navbar-item"><a class="uk-button uk-button-success" href="/contact/" >Contacto</a></div></li>
+                                
+                            
+                        
+                    </ul>
+
+                    
+                        <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas" data-uk-toggle><span data-uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">Menu</span></a>
+                    
+
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+    
+
+    
+<div class="uk-section">
+    <div class="uk-container">
+
+        <article class="uk-article">
+
+            <h1 class="uk-article-title">Solicitudes de Servicio (SS) por Internet e Intranet AMsi</h1>
+
+            <div class="article-content link-primary">
+                <h2 id="trabajando-con-amsi">Trabajando con AMsi</h2>
+
+<p>Esta sección presenta el AMsi, herramienta para generar OT y/o SS en el AM, su colaborador natural. 
+Contiene información básica sobre el ingreso al aplicativo, mostrando de manera general la interfaz del usuario. Se aprende a interpretar y usar el formulario de acceso para la creación de OT y/o SS, así como también a reconocer los comandos de los botones que aparecen en pantalla.</p>
+
+<p><strong>Contenido</strong></p>
+
+<ul>
+  <li>Qué es AMsi</li>
+  <li>Formulario Datos del Solicitante</li>
+  <li>Interfaz Gráfica -Formulario de Acceso a AMsi</li>
+  <li>Perfiles de Usuarios AMsi</li>
+</ul>
+
+<h3 id="11-qué-es-amsi">1.1	Qué es AMsi</h3>
+
+<p>AMsi es una aplicación Web que permite la Creación y posterior Consulta de OT y/o SS. Estos registros pueden ser consultados a través de ambos aplicativos, en AMsi por parte del Solicitante como también por el Equipo Técnico en AM.</p>
+
+<p>AMsi permite hacer notificaciones por correo electrónico por diversos conceptos de proceso.
+Se usa en ambientes Mono y Multicompañía, en los que el número de Usuarios Clientes de Mantenimiento pueden ser de un volumen mayor.</p>
+
+<h2 id="2-interfaz-gráfica-de-usuario">2. Interfaz gráfica de Usuario</h2>
+
+<p>Se define el acceso al AMsi y el formulario a diligenciar para actualizar el perfil del usuario Solicitante, la Creación y Consulta de una Solicitud de Servicio (SS) desde AMsi.
+En este capítulo</p>
+
+<ul>
+  <li>Formulario Interfaz gráfica de Usuario</li>
+  <li>Iniciar la ejecución de AMsi</li>
+  <li>Ventana de Menú Principal del Usuario</li>
+  <li>Actualizar Perfil del usuario</li>
+  <li>Creación de SS</li>
+  <li>Consulta de SS</li>
+  <li>Evaluar Servicio</li>
+</ul>
+
+<h3 id="21-iniciar-la-ejecución-de-amsi">2.1	Iniciar la ejecución de AMsi</h3>
+
+<p>La ejecución del AMsi se inicia dando clic al link de acceso correspondiente:</p>
+
+<p>http://xxx.xxx.xx.x:8080/ServidorBD/src/AMsi/AMsi-Login.html</p>
+
+<p><img src="../../assets/images/placeholder.jpg" alt="Procesar imagen" />
+<em><strong>Imagen 1.</strong>  Ventana Acceso AMsi</em></p>
+
+<p>Cuando se ha hecho el acceso exitoso al sistema se muestra la ventana de Menú Principal del Usuario.</p>
+
+<h3 id="22-ventana-de-menú-principal-del-usuario">2.2	Ventana de Menú Principal del Usuario</h3>
+
+<p>La ventana de Menú Principal del Usuario muestra las transacciones que el usuario puede realizar a través del AMsi:</p>
+
+<p><img src="../../assets/images/placeholder.jpg" alt="Procesar imagen" />
+<em><strong>Imagen 2.</strong> Ventana Menú Principal del Usuario</em></p>
+
+<p>A continuación, se describen las transacciones que componen esta ventana.</p>
+
+<p>Actualizar Perfil: Esta opción permite que el usuario solicitante logueado pueda actualizar su información personal cuando lo requiera.</p>
+
+<p>Crear Nueva Solicitud: Esta opción permite la generación de las SS por parte del usuario logueado.</p>
+
+<p>Consultar Mis Solicitudes: Esta opción permite que el usuario logueado pueda hacer constantemente seguimiento y consultas en tiempo real de cada una de las SS que ha generado al área de Mantenimiento.</p>
+
+<p>Cerrar Sesión: Esta opción se usa para salir del aplicativo AMsi.</p>
+
+<h2 id="3-actualizar-perfil">3. Actualizar Perfil</h2>
+<p>Esta transacción permite que el usuario pueda actualizar la información personal cuando lo requiera y visualizar los Centros de Costos asociados. Para acceder a esta ventana se da un clic a este botón ubicado en la ventana de Menú Principal.</p>
+
+<p><img src="../../assets/images/placeholder.jpg" alt="Procesar imagen" />
+<em><strong>Imagen 3.</strong> Botón Actualizar Perfil</em></p>
+
+<p>El sistema muestra automáticamente el Detalle del Formulario para Actualizar Perfil en la ventana de Menú Principal del usuario.</p>
+
+<p>Imagen 4.  Actualizar Perfil
+A continuación, se describen los campos que componen el registro. Sobre cada campo se da una breve explicación.</p>
+
+<p>Campos Del Formulario Datos Del Solicitante
+Este cuadro hace referencia a los Datos del Solicitante necesarios para la creación de una OT/SS. Algunos campos son obligatorios, estos datos se reconocen y se diferencian de los demás por el carácter asterisco (*) en color rojo que antecede el nombre del campo.
+Este formulario sólo es configurado por el Administrador General del AMsi en Información del Solicitante. Para mayor información dirigirse al capítulo Configuración AMsi.</p>
+
+<p>Tipo Documento: Este campo se encuentra bloqueado y muestra el tipo de documento con el cual el usuario se puede identificar y es configurado por el Administrador General del AMsi. (Campo requerido).</p>
+
+<p>Nro. Documento: Este campo se encuentra bloqueado y muestra el número de Identificación correspondiente al Tipo Documento, de la persona solicitante. (Campo requerido).</p>
+
+<p>Contraseña: Este campo se muestra en blanco o sin diligenciar por seguridad, es posible que el usuario digite una contraseña, con el fin de cambiarla.</p>
+
+<p><strong>Nombre Completo:</strong> Nombre completo de la persona que solicita un servicio de mantenimiento. (Campo requerido).</p>
+
+<p><strong>Teléfono:</strong> Número telefónico donde se puede localizar a la persona solicitante. El número telefónico generalmente corresponde a una dependencia de la organización a la cual pertenece la persona solicitante.</p>
+
+<p>Este campo permite ingresar el número telefónico de la siguiente manera:</p>
+
+<p>Indicativo del país y de la ciudad + número telefónico fijo. Ejemplo:</p>
+
+<p>(572)2345678          donde: 
+572 		Colombia, Cali
+2345678	Número de Teléfono Fijo
+Extensión: En este campo se asigna un número de extensión telefónico donde se puede localizar a la persona solicitante.                                  <br />
+Dirección: En este campo se asigna la dirección que corresponde a la organización a la cual pertenece la persona solicitante.<br />
+Ciudad: En este campo se asigna la ciudad en la cual vive el solicitante o está ubicada la institución para la cual labora. 
+Correo Electrónico: Dirección de correo electrónico de la persona solicitante asignado por la organización, o bien, correo personal del solicitante en caso de no tener una cuenta de correo electrónico corporativa.
+Botón Actualizar: Este botón permite guardar los campos del formulario Datos del Solicitante cuando el solicitante requiere modificar temporal o definitivamente algunos de sus datos básicos.</p>
+
+<p>Campos Del Formulario Centro de Costo Autorizados 
+Este cuadro permite visualizar los Centros de Costo Autorizados con información del área o dependencia que solicita un servicio de mantenimiento Centros de Costo y el Centro de Servicio al cual está asociado el Centro de Costo. Por configuración del sistema los Centros de Costos son amplios o restrictivos para la Creación de OT/SS, es decir, según los que se asocien al Solicitante. Esta asociación es configuradq únicamente por el Administrador General del AMsi. Es posible asociar a un Solicitante Todos Los Centros de Costo de todas las compañías. Para actualizar la información del cuadro llamado Centros de Costo Autorizados, se debe realizar a través del usuario administrador del AMsi en la transacción de Administrar Usuarios. 
+Centro de Servicio: El campo Centro de Servicio hace referencia a las diferentes compañías creadas en el Administrador de Mantenimiento AM. Estas compañías (centros de servicios) son las directamente responsables de la ejecución de las actividades de mantenimiento al interior de la Organización. En el formulario se visualizan los Centros de Servicios a los que el solicitante está asociado. 
+Centro de Costo: Este campo es crucial para Crear una OT/SS. Se refiere al área de la organización sobre la que se realiza la creación o la consulta de la OT/SS. En el formulario se visualizan los Centros de Costos a los que el solicitante está asociado.
+De todos modos para una OT/SS en particular es posible cambiar el Centro de Costo y a su vez el Centro de Servicio por parte de Mantenimiento en el AM.
+Para un usuario Solicitante que tenga Todos Los Centros de Costo asociados, este formulario no se visualiza, sino que el Solicitante primero debe elegir el Centro de Servicio y de acuerdo a la compañía elegida, se muestran los Centros de Costos correspondientes.
+Una vez se diligencien todos los campos de Datos del Solicitante, para guardar los cambios se da un clic al botón Actualizar, seguido a esto se muestra un mensaje de confirmación de la transacción.</p>
+
+<p><img src="../assets/images/placeholder.jpg" alt="Procesar imagen" />
+<em><strong>Imagen 5.</strong> Mensaje de Confirmación de la actualización del perfil</em></p>
+
+<h2 id="4-crear-nueva-solicitud">4. Crear Nueva Solicitud</h2>
+
+<p>Este capítulo define el formulario a diligenciar para crear una SS desde  AMsi . 
+Se suministra información detallada del formulario Servicio Solicitado. Dicha información, especifica claramente el servicio solicitado así como el Centro de Servicio responsable de atender la SS creada.
+Se identifican los campos relacionados en el formulario Servicio Solicitado para la creación de SS y se reconocen los comandos que aparecen en pantalla.
+En este capítulo
+•	Formulario Servicio Solicitado
+•	Campos de Servicio Solicitado
+•	Campos de Información de Activo / Equipo</p>
+
+<p>Este formulario trae los datos del solicitante previamente logueado en la ventana de  acceso al AMsi. Contiene la información personal del solicitante, información del servicio solicitado, información del Activo/Equipo objeto de la SS de mantenimiento. 
+Para la Creación de la SS, dar clic en el siguiente botón mostrado:</p>
+
+<p><img src="../assets/images/placeholder.jpg" alt="Procesar imagen" />
+<em><strong>Imagen 6.</strong>  Crear Nueva Solicitud</em></p>
+
+<p>4.1	Ventana Creación de la Solicitud de Servicio
+ Imagen 7.  Ventana Creación SS
+Luego de dar clic sobre el botón anterior, el sistema responde mostrando en una nueva ventana, el Detalle del Servicio a solicitar. A través de ella se ejecutan todas las funciones dedicadas a la creación de la SS. A continuación, se describen los campos que la componen, sobre cada uno se da una breve explicación:</p>
+
+<p>Campos Del Formulario Datos Del Solicitante
+Este cuadro es informativo y hace referencia a los Datos del Solicitante necesarios para la creación de una SS y que fueron ingresados en Actualizar Perfil visto en el tercer capítulo. Contiene la información personal del solicitante y todos los campos se encuentran bloqueados. 
+Nro. Documento: Este campo muestra el número de Identificación de la persona solicitante. 
+Nombre Completo: Este campo muestra el Nombre completo de la persona que solicita un servicio de mantenimiento.
+Teléfono: Este campo muestra el Número telefónico donde se puede localizar a la persona solicitante.
+Dirección: Este campo muestra la dirección asignada y que corresponde a la organización a la cual pertenece la persona solicitante.<br />
+Ciudad: Este campo muestra la ciudad asignada y en la cual vive el solicitante o está ubicada la institución para la cual labora. 
+Correo Electrónico: Este campo muestra la Dirección de correo electrónico asignada a la persona solicitante por la organización, o bien, correo personal del solicitante en caso de no tener una cuenta de correo electrónico corporativa.</p>
+
+<p>Campos Del Formulario Servicio Solicitado 
+El formulario Servicio Solicitado  hace referencia a los datos de la SS que se está creando.
+Todos los campos marcados con asterisco (*) son de carácter obligatorio. 
+Mensaje: Este mensaje que se desliza, es configurado por el Administrador General del AMsi en General. Para mayor información dirigirse al capítulo Configuración AMsi. Su finalidad es notificar a los usuarios solicitantes.  <br />
+Centro de Servicio: Este campo permanece bloqueado y muestra la información de la compañía relacionada al Centro de Costo elegido. Esto, para usuarios que tengan relacionado uno o varios Centros de Costos de una o varias compañías. 
+En caso de ser un usuario que tenga asociado Todos Los Centros de Costo, este campo se muestra desbloqueado y es posible elegir el Centro de Servicio deseado.<br />
+Centro de Costo: En este campo se elige de la lista desplegable el Centro de Costo al que se le va a realizar la SS. Al seleccionar el Centro de Costo, se muestra automáticamente en el campo Centro de Servicio, el nombre del Centro de Servicio al cual está asociado el Centro de Costo seleccionado. Esto, para usuarios que tengan relacionado uno o varios Centros de Costos de una o varias compañías. Solo se listan los Centros de Costo que el usuario solicitante tenga  asociados. 
+En caso de ser un usuario que tenga asociado Todos Los Centros de Costo, este campo se listan únicamente los Centros de Costo existentes en el Centro de Servicio seleccionado. 
+Descripción: En este campo se digita en forma detallada el servicio de mantenimiento requerido. Se detalla el problema, inconveniente, necesidad o avería a ser atendida.
+Activo/Equipo: En este campo se ingresa el Activo/Equipo de la organización que requiere atención de mantenimiento. Dependiendo de la configuración, este campo se puede habilitar (1) para describir el equipo en lenguaje natural o (2) para seleccionarlo de la lista que se despliega dando clic al ícono de filtro azul (Triángulo Invertido) que se encuentra en la parte derecha del campo. La lista desplegada incluye los Activos/Equipos creados previamente en el AM y que a la vez están asociados al Centro de Costo de la compañía correspondiente.
+Existe control en todos los casos sobre el Centro de Costo, es decir, solo se despliegan o se permiten elegir Activos/Equipos que estén asociados al Centro de Costo definido en el campo Centro de Costo.
+Para describir el Activo/Equipo en lenguaje natural se da clic al cuadro ubicado al lado izquierdo de este campo, inmediatamente se habilitan dos campos que pueden ser diligenciados. El primer campo es para describir en lenguaje natural el Activo/Equipo, y el segundo campo es para describir también en lenguaje natural la ubicación física del Activo o Equipo referenciado. 
+Para seleccionar el Activo/Equipo se da clic en el icono de filtro azul (Triángulo Invertido) ubicado al lado derecho de este campo, inmediatamente se abre una nueva ventana para elegir el Activo/Equipo, para seleccionarlo se da doble clic sobre el registro, se cierra esta ventana automáticamente y se observa que aparece el código y la descripción del Activo/Equipo. 
+Descripción: Este campo permanece bloqueado y muestra la descripción del Activo/Equipo seleccionado.    <br />
+Prioridad: Este campo viene predefinido con las prioridades Alta, Media y Baja. Lo utiliza el programador de mantenimiento como guía para establecer la agilidad (normal o priorizada) en la asignación del recurso humano de mantenimiento para la ejecución del trabajo solicitado.
+F/H Tentativa del Usuario: En este campo se asigna una fecha y hora que el usuario solicitante considere que el área de Mantenimiento le haga entrega de la solicitud realizada. Es un campo opcional de diligenciar. 
+Botón Enviar: Este botón envía inmediatamente la SS a la base de datos del AM para ser revisada por el área de mantenimiento encargada y proceder así con su análisis y asignación. 
+Una vez enviada la SS, el sistema muestra un mensaje de notificación de registro exitoso, mostrando el número o consecutivo asignado. Se habilitan además las opciones de Crear Nueva Solicitud y Consultar Mis Solicitudes, como se muestra a continuación:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>                               Imagen 8.  Mensaje registro SS
+</code></pre></div></div>
+
+<p>Botón Crear Nueva Solicitud: Se usa para crear nuevas solicitudes de servicio. Aplica cuando se ha enviado una SS y se desea generar una nueva.
+Botón Consultar Mis Solicitudes: Este botón lo remite a una nueva ventana en la que puede realizar búsquedas y consultas de SS creadas previamente. Para mayor información al respecto se detalla en la sección de “Consultar Mis Solicitudes” de este manual.
+Botón Inicio: Este botón lleva a la ventana de Menú Principal del Usuario.
+Botón Cerrar Sesión: Este botón permite salir de la aplicación AMsi .</p>
+
+<ol>
+  <li>Consultar Mis Solicitudes<br />
+Este capítulo guía para ejecutar consultas de SS creadas desde AMsi. 
+AMsi solo permite realizar creación y consultas para uno de los dos tipos de registro a la vez: OT o SS, pero no para los dos simultáneamente. Ello depende de la Configuración del aplicativo que se haya elegido, según la necesidad de la Organización.
+La Configuración del AMsi se describe en detalle en el Capítulo 9 de este manual.
+En este capítulo
+•	Subgrupos
+•	Consulta de Solicitudes
+•	Visor de Solicitudes</li>
+</ol>
+
+<p>5.1 Subgrupos 
+Inicialmente esta transacción trae el listado del total de las SS que se han realizado para la Organización por parte de otros usuarios solicitantes.
+En el caso de que el Administrador del AMsi haya asociado Todos los Centros de Costos al Usuario logueado, se mostrarán todas las SS para todos los Centros De Servicio (compañías).
+Sin embargo, es posible hacer Subgrupos (búsquedas específicas) a través del ícono de triángulo invertido superior derecho y ver solo las SS creadas por el Usuario logueado. Esto tiene como finalidad de que el usuario pueda realizar constantemente y en tiempo real el seguimiento y consultas a sus SS. A esta ventana se llega al dar clic a la opción de Consultar Mis Solicitudes en la ventana de Menú Principal.</p>
+
+<p>Imagen 9.  Consultar Mis Solicitudes 
+AMsi mantiene activo cualquier subgrupo, hasta que el usuario lo modifique o restablezca los valores estándar. Cuando el ícono se muestra con una pelota roja, está indicando que lo que se visualiza en el visor es un subgrupo. El sistema permite entonces hacer selección de un grupo de SS de acuerdo con los criterios seleccionados.</p>
+
+<p>Una vez dado un clic sobre el ícono de subgrupos, se muestran los siguientes criterios de búsqueda:</p>
+
+<p>Los campos de datos que constituyen criterio de selección en la Ventana Subgrupo de AMsi son los siguientes:</p>
+
+<ol>
+  <li>FILTRAR POR CAMPOS DEL ACTIVO ASOCIADO A LA SOLICITUD DE SERVICIO</li>
+</ol>
+
+<p>AC - Código: Esta selección agrupa las SS cuyo Activo coincidan con el relacionado en este criterio. Es posible definir el código completo o una porción del mismo.</p>
+
+<p>AC-Descripción: Selecciona las SS asociadas a los Activos según criterios que se fundamenten en su descripción.  Ejemplo: Motor selecciona todos los Activos, en cuya descripción, en cualquier posición, tengan la palabra “Motor”.</p>
+
+<p>Activo en lenguaje natural: Permite filtrar las SS que contengan parte del nombre igual del Activo.</p>
+
+<ol>
+  <li>FILTRAR POR CAMPOS DE LA SOLICITUD DE SERVICIO</li>
+</ol>
+
+<p>Centro de Costo: Permite la selección de SS de acuerdo con  el Centro de Costo asignado a ella. Existen dos formas de definir el Centro de Costo. La primera es seleccionando el Centro de Costo de la lista desplegable. La segunda es dando clic al icono de candado y digitando a continuación segmentos del nombre del Centro de Costo usando comodines (%). Cuando se utilizan comodines, es posible seleccionar las SS pertenecientes a Centros de Costo que tengan parte del nombre igual. Por ejemplo: Sistema% selecciona todos los registros en cuyo Centro de Costo exista la palabra Sistema, independiente de si se está hablando del Sistema de Agua, de Vapor o de Energía.</p>
+
+<p>Diagnóstico del Usuario: Permite la selección de SS de acuerdo con una parte de la Descripción del usuario. Se debe digitar manualmente y es posible usar comodines.</p>
+
+<p>Rango Consecutivo de Solicitud: Permite la selección de las SS cuyo número consecutivo se encuentre incluido dentro  del  rango  especificado en  este criterio. Aparecen dos campos: Desde y Hasta. En cada uno de ellos se digita un número consecutivo de solicitud.</p>
+
+<p>Estado de la Solicitud: Este criterio agrupa las SS de acuerdo al Estado que se encuentra en el visor, en este campo se debe poner la abreviatura del estado de la SS, siendo los siguientes: Análisis (AN), Asignada (AS), En Ejecución (EJ), Cerrada no ejecutada (NE), Cerrada Ejecutada (CE), Cerrada con OT (CO), Cerrada Parcial (CP).</p>
+
+<p>FF de Creación: Permite la selección de SS cuya fecha de Creación se encuentren incluidas en el rango especificado en este campo.</p>
+
+<p>Solicitante (AMsi): Este campo permite seleccionar las SS activas para el Solicitante aquí definido. Para seleccionarlo se debe  elegir un usuario de la lista desplegable.</p>
+
+<p>Responsable: Permite la  selección de SS cuyo Responsable  fue especificado en este campo. Es posible usar comodines (%).</p>
+
+<p>Ubicación  física: Permite la selección de  las SS cuyo Activo esté en la  ubicación física que se determina en este criterio. Es posible digitar una parte y usar comodines (%).</p>
+
+<p>5.2 Consulta de Solicitudes
+Para realizar la consulta de una SS, basta con dar clic a uno de los registros de las SS listadas, y a continuación se muestra en detalle toda la información allí contenida.</p>
+
+<p>Imagen 10.  Ventana Detalle de la SS</p>
+
+<p>Este visor contiene la siguiente información:
+Datos Generales:
+•	El número de la SS
+•	La fecha y hora de creación de la SS
+•	  El nombre del Estado en el que se encuentra la SS. Este estado solo es  <br />
+  modificable desde el  AM por el encargado del área de mantenimiento de la  <br />
+  organización.
+•	El nombre del Responsable ejecutor del mantenimiento. 
+•	Nombre del Solicitante. Este nombre puede ser puede ser cambiado desde AM por el encargado del área de mantenimiento de la organización. 
+•	Email de la persona solicitante.
+Datos del Usuario: Datos suministrados en el formulario de Actualizar Perfil del AMsi :
+•	Documento de identidad
+•	Nombre 
+•	Dirección
+•	Ciudad
+•	Correo Electrónico
+•	Teléfono
+•	Centro de Servicio</p>
+
+<p>Solicitud</p>
+
+<p>•	      Descripción Solicitud
+•	      Activo / Equipo
+•	      Centro de Costo
+•	      Ubicación Física
+•	      Causa de Falla
+•	      Tipo de Mantenimiento
+•	      Tipo de Actividad</p>
+
+<p>Fechas y Horas: Estos campos solo son modificables desde el módulo SS del AM. En estos campos aparecen las fechas de atención, inicio de trabajo, fin de trabajo y cierre de la SS.
+Estos campos solo son manipulados por los encargados del área de mantenimiento de las diferentes compañías creadas en el AM
+•	F/H Atención
+•	F/H Inicio Trabajo
+•	F/H Fin de Trabajo
+•	F/H Cierre</p>
+
+<p>Evaluar el servicio: Contiene el resultado de la Evaluación de la SS, si ya se realizó y si no se ha realizado, permite realizarla siempre y cuando la SS/OT se encuentre en estado Cerrada Ejecutada (CE) o Cerrada con OT (CO) y cuando el usuario sea el mismo en el campo Solicitante.
+Comentario: El campo comentario es un campo que no es modificable. A través de este visor que muestra el Detalle de la SS, es posible que el usuario realice comentarios relevantes e importantes para el área de Mantenimiento. Para realizar los comentarios, se debe dirigir al final de la Ventana Detalle de la SS y digitar el comentario en el campo llamado “Comentario”, para agregarlo a la SS se debe dar clic al botón Agregar Comentario. Al dar clic al botón “Agregar Comentario” aparecerá el comentario ingresado al lado derecho en una ventana tipo chat bloqueada y a su vez inhabilita la modificación de los comentarios que allí se encuentren; además de la fecha, hora y el usuario logueado que realizó el comentario. Estos comentarios también se visualizan desde el módulo de Solicitudes de Servicio de AM</p>
+
+<p>Imagen 11.  Ventana Detalle de la SS (Comentarios)</p>
+<ol>
+  <li>Evaluar Servicio<br />
+Es posible realizar la Evaluación del Servicio únicamente a todas las SS/OT que tengan el estado CE (Cerrada Ejecutada) y debe cumplirse la condición de que el campo solicitante coincida con el usuario logueado. Para continuar, dar clic a la opción de Consultar Mis Solicitudes/Órdenes, luego dar clic al registro de la SS/OT que se desea evaluar y en la ventana Detalle, en la sección de Evaluar Servicio, se encuentran habilitadas las preguntas y las opciones de respuesta. Para finalizar, se debe dar clic al botón Guardar Evaluación.<br />
+Imagen 12.  Evaluar Servicio
+Una vez guardada la evaluación del servicio, se muestra un mensaje de confirmación de la transacción.</li>
+</ol>
+
+<p>Imagen 13.  Mensaje de confirmación de la evaluación del Servicio</p>
+
+<ol>
+  <li>Crear Nueva Orden 
+Este capítulo define el formulario a diligenciar para la generación de una Orden de Trabajo (OT) desde AMsi. 
+Se suministra información detallada del formulario Servicio Solicitado. Dicha información, especifica claramente el servicio solicitado, así como también el Centro de Servicio responsable de atender la OT creada.
+Se identifican los campos relacionados en el formulario Servicio Solicitado para la creación de OT, y se reconocen los comandos que aparecen en pantalla.
+En este capítulo
+•	Formulario Servicio Solicitado.
+•	Campos de Servicio Solicitado
+•	Campos de Información de Activo / Equipo
+Este formulario trae los datos del solicitante previamente logueado en la ventana de acceso al AMsi. Contiene la información personal del solicitante, información del servicio solicitado, información del Activo/Equipo objeto de la OT de mantenimiento. 
+Todos los campos marcados con asterisco (*) son de carácter obligatorio. 
+Una vez ingresados los datos del solicitante de manera correcta en el botón del Menú principal Actualizar Perfil, continuar dando un clic a la siguiente opción ubicada al lado derecho para continuar con la Creación de la OT.</li>
+</ol>
+
+<p>Imagen 14.  Crear Nueva Orden<br />
+7.1	Ventana Creación de la Orden de Trabajo</p>
+
+<p>Imagen 15.  Ventana Creación OT
+A esta ventana se llega haciendo clic sobre la opción Crear Nueva Orden del Menú Principal. A través de ella se ejecutan todas las funciones dedicadas a la creación de la OT. A continuación, se describen los campos que componen esta ventana de Creación de OT. Sobre cada campo se da una breve explicación.</p>
+
+<p>Campos Del Formulario Datos Del Solicitante
+Este cuadro es informativo y hace referencia a los Datos del Solicitante necesarios para la creación de una OT y que fueron ingresados en Actualizar Perfil visto en el tercer capítulo. Contiene la información personal del solicitante y todos los campos se encuentran bloqueados. 
+Nro. Documento: Este campo muestra el número de Identificación de la persona solicitante. 
+Nombre Completo: Este campo muestra el Nombre completo de la persona que solicita un servicio de mantenimiento.
+Teléfono: Este campo muestra el Número telefónico donde se puede localizar a la persona solicitante.
+Dirección: Este campo muestra la dirección asignada y que corresponde a la organización a la cual pertenece la persona solicitante.<br />
+Ciudad: Este campo muestra la ciudad asignada y en la cual vive el solicitante o está ubicada la institución para la cual labora. 
+Correo Electrónico: Este campo muestra la Dirección de correo electrónico asignada a la persona solicitante por la organización, o bien, correo personal del solicitante en caso de no tener una cuenta de correo electrónico corporativa.</p>
+
+<p>Campos Del Formulario Servicio Solicitado 
+El formulario Servicio Solicitado  hace referencia a los datos de la OT que se está creando.
+Todos los campos marcados con asterisco (*) son de carácter obligatorio. 
+Mensaje: Este mensaje que se desliza, es configurado por el Administrador General del AMsi en General. Para mayor información dirigirse al capítulo Configuración AMsi. Su finalidad es notificar a los usuarios solicitantes.  <br />
+Centro de Servicio: Este campo permanece bloqueado y muestra la información de la compañía relacionada al Centro de Costo elegido. Esto, para usuarios que tengan relacionado uno o varios Centros de Costos de una o varias compañías. 
+En caso de ser un usuario que tenga asociado Todos Los Centros de Costo, este campo se muestra desbloqueado y es posible elegir el Centro de Servicio deseado.<br />
+Centro de Costo: En este campo se elige de la lista desplegable el Centro de Costo para la OT. Al elegir un Centro de Costo, se muestra automáticamente en el campo Centro de Servicio, el nombre del Centro de Servicio al cual está asociado el Centro de Costo seleccionado. Esto, para usuarios que tengan relacionado uno o varios Centros de Costos de una o varias compañías. Solo se listan los Centros de Costo que el usuario solicitante tenga  asociados. 
+En caso de ser un usuario que tenga asociado Todos Los Centros de Costo, este campo se listan únicamente los Centros de Costo existentes en el Centro de Servicio seleccionado. 
+Descripción: En este campo se digita la descripción detallada del servicio de mantenimiento requerido. Se detalla el problema, inconveniente, necesidad o avería a ser atendida.
+Activo/Equipo: En este campo se selecciona el Activo/Equipo de la organización que requiere atención de mantenimiento a través del ícono azul (triángulo invertido) que se encuentra en la parte derecha del campo. La lista desplegada incluye los Activos/Equipos creados previamente en el  AM y los que están asociados al Centro de Costo de la compañía correspondiente.
+Existe control en todos los casos sobre el Centro de Costo, es decir, solo se despliegan o se permiten elegir Activos/Equipos que estén asociados al Centro de Costo definido en el campo Centro de Costo.
+Para seleccionar el Activo/Equipo se da clic en el icono de filtro azul (triángulo invertido) ubicado al lado derecho de este campo, inmediatamente se abre una nueva ventana del visor de Activos/Equipos, luego de elegirlo se observa que aparece el código del Activo/Equipo. 
+Descripción: Este campo permanece bloqueado y muestra la descripción del Activo/Equipo seleccionado.    <br />
+Prioridad: Este campo viene predefinido con las prioridades Alta, Media y Baja. Lo utiliza el programador de mantenimiento como guía para establecer la agilidad (normal o priorizada) en la asignación del recurso humano de mantenimiento para la ejecución del trabajo solicitado.
+F/H Tentativa del Usuario: En este campo se asigna una fecha y hora que el usuario solicitante considere que el área de Mantenimiento le haga entrega de la OT realizada. Es un campo opcional de diligenciar. 
+Botón Enviar: Este botón envía inmediatamente la OT a la base de datos del AM para ser revisada por el área de mantenimiento encargada y proceder así con su análisis y asignación. 
+Una vez enviada la OT, el sistema muestra un mensaje de notificación de registro exitoso. Se habilitan además las opciones de Crear Nueva Orden y Consultar Mis Órdenes, como se indica a continuación:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>                               Imagen 16.  Mensaje registro OT
+</code></pre></div></div>
+
+<p>Botón Crear Nueva Orden: Se usa para crear nuevas OT. Aplica cuando se acaba de enviar una OT y se desea generar un nuevo registro en esa misma ventana.
+Botón Consultar Mis Órdenes: Este botón lo remite a una nueva ventana en la que puede realizar búsquedas y consultas de OT creadas previamente. Para mayor información al respecto se detalla en la sección de “Consultar Mis Órdenes” de este manual.
+Botón Inicio: Este botón lleva a la ventana de Menú Principal del Usuario.
+Botón Cerrar Sesión: Este botón permite salir del aplicativo AMsi .</p>
+
+<ol>
+  <li>Consultar Mis Órdenes <br />
+Este capítulo guía para ejecutar consultas de OT creadas desde AMsi. Se hace una ilustración sobre los comandos que aparecen en pantalla.
+AMsi solo permite realizar creación y consultas para uno de los dos tipos de registro a la vez: OT o SS, pero no para los dos simultáneamente. Ello depende de la Configuración del aplicativo que se haya elegido, según la necesidad de la Organización.
+La Configuración del AMsi se describe en detalle en el Capítulo 9 de este manual.
+En este capítulo
+•	Subgrupos
+•	Consulta de Órdenes
+•	Visor de Órdenes</li>
+</ol>
+
+<p>Esta transacción trae el listado de las OT que ha realizado el usuario solicitante. Tiene como finalidad de que el usuario pueda realizar constantemente y en tiempo real el seguimiento y consultas a sus OT. A esta ventana se llega al dar clic a la opción de Consultar Mis Órdenes en la ventana de Menú Principal.</p>
+
+<p>Imagen 17.  Consultar Mis Órdenes<br />
+8.1 Subgrupos 
+Inicialmente esta transacción trae el listado del total de las OT que se han realizado para la Organización por parte de otros usuarios solicitantes.
+En el caso de que el Administrador del AMsi haya asociado Todos los Centros de Costos al Usuario logueado, se mostrarán todas las OT para todos los Centros De Servicio (compañías).
+Sin embargo, es posible hacer Subgrupos (búsquedas específicas) a través del ícono de triángulo invertido superior derecho y ver solo las OT creadas por el Usuario logueado. Esto tiene como finalidad de que el usuario pueda realizar constantemente y en tiempo real el seguimiento y consultas a sus OT. A esta ventana se llega al dar clic a la opción de Consultar Mis Órdenes en la ventana de Menú Principal.</p>
+
+<p>AMsi mantiene activo cualquier subgrupo, hasta que el usuario lo modifique o restablezca los valores estándar. Cuando el ícono se muestra con una pelota roja, está indicando que lo que se visualiza en el visor es un subgrupo. El sistema permite entonces hacer selección de un grupo de OT de acuerdo con los criterios seleccionados.</p>
+
+<p>Una vez dado un clic sobre el ícono de subgrupos, se muestran los siguientes criterios de búsqueda:</p>
+
+<p>Los campos de datos que constituyen criterio de selección en la Ventana Subgrupo de AMsi son los siguientes:</p>
+
+<ol>
+  <li>FILTRAR POR CAMPOS DEL ACTIVO ASOCIADO A LA SOLICITUD DE SERVICIO</li>
+</ol>
+
+<p>AC - Código: Esta selección agrupa las OT cuyo Activo coincidan con el relacionado en este criterio. Es posible definir el código completo o una porción del mismo.</p>
+
+<p>AC-Descripción: Selecciona las OT asociadas a los Activos según criterios que se fundamenten en su descripción.  Ejemplo: Motor selecciona todos los Activos, en cuya descripción, en cualquier posición, tengan la palabra “Motor”.</p>
+
+<ol>
+  <li>FILTRAR POR CAMPOS DE LA SOLICITUD DE SERVICIO</li>
+</ol>
+
+<p>Centro de Costo: Permite la selección de OT de acuerdo con  el Centro de Costo asignado a ella. Existen dos formas de definir el Centro de Costo. La primera es seleccionando el Centro de Costo de la lista desplegable. La segunda es dando clic al icono de candado y digitando a continuación segmentos del nombre del Centro de Costo usando comodines (%). Cuando se utilizan comodines, es posible seleccionar las OT pertenecientes a Centros de Costo que tengan parte del nombre igual. Por ejemplo: Sistema% selecciona todos los registros en cuyo Centro de Costo exista la palabra Sistema, independiente de si se está hablando del Sistema de Agua, de Vapor o de Energía.</p>
+
+<p>Descripción: Permite la selección de OT de acuerdo con una parte del diagnóstico del usuario. Se debe digitar manualmente y es posible usar comodines.</p>
+
+<p>Número de la OT: Permite la selección de las OT cuyo número consecutivo se encuentre incluido dentro  del  rango  especificado en  este criterio. Aparecen dos campos: Desde y Hasta. En cada uno de ellos se digita un número consecutivo de la OT.</p>
+
+<p>Estado de la Orden: Este criterio agrupa las OT de acuerdo al Estado que se encuentra en el visor, en este campo se debe poner la abreviatura del estado de la SS, siendo los siguientes: En Ejecución (EJ), Cerrada o no ejecutada (K), Cerrada Ejecutada (CE),Pendiente de Ejecución (P), Planeada (PL), Programada (PR) Cerrada Parcial (CP).</p>
+
+<p>FF de Creación: Permite la selección de OT cuya fecha de Creación se encuentren incluidas en el rango especificado en este campo. Aparecen dos campos: Desde y Hasta. En cada uno de ellos se digita un número consecutivo de la OT.</p>
+
+<p>Solicitante (AMsi): Este campo permite seleccionar las OT activas para el Solicitante aquí definidos. Para seleccionarlo se debe  elegir un usuario de la lista desplegable.</p>
+
+<p>Responsable: Permite la  selección de las OT cuyo Responsable  fue especificado en este campo. Es posible usar comodines (%).</p>
+
+<p>Ubicación  física: Permite la selección de  las SS cuyo Activo esté en la  ubicación física que se determina en este criterio. Es posible digitar una parte y usar comodines (%).</p>
+
+<p>8.2  Consulta de Órdenes
+Para realizar la consulta de una OT, basta con dar clic a uno de los registros de las OT listadas, y a continuación se muestra en detalle toda la información allí contenida.</p>
+
+<p>Imagen 18.  Ventana Detalle de la OT
+Este visor contiene la siguiente información:
+Datos Generales:
+•	El número de la OT
+•	La fecha y hora de creación de la OT
+•	  El nombre del Estado en el que se encuentra la OT. Este estado solo es  <br />
+  modificable desde el  AM por el encargado del área de mantenimiento de la  <br />
+  organización.
+•	  El nombre del Responsable ejecutor del mantenimiento. Este nombre puede  ser puede ser cambiado desde AM por el encargado del área de mantenimiento de la organización.
+•	Nombre del Solicitante
+•	Email del Solicitante
+Datos Del Usuario: Datos suministrados en el formulario de Actualizar Perfil del  AMsi :
+•	Documento de identidad
+•	Nombre 
+•	Dirección
+•	Ciudad
+•	Correo Electrónico
+•	Teléfono
+•	Centro de Servicio</p>
+
+<p>Orden de Trabajo</p>
+
+<p>•	      Descripción de la Orden 
+•	      Activo / Equipo
+•	      Centro de Costo
+•	      Ubicación Física
+•	      Causa de Falla
+•	      Tipo de Mantenimiento
+•	      Tipo de Actividad</p>
+
+<p>Fechas y Horas: Estos campos solo son modificables desde el módulo OT del AM. En estos campos aparecen las fechas y horas Atención, Inicio de Trabajo, Fin de Trabajo y  Fecha Cierre de la OT.
+Estos campos solo son manipulados por los encargados del área de mantenimiento de las diferentes compañías creadas en el AM.
+•	F/H Atención
+•	F/H Inicio Trabajo
+•	F/H Fin de Trabajo
+•	F/H Cierre</p>
+
+<p>Evaluar el servicio: Contiene el resultado de la Evaluación de la OT, si ya se realizó y si no se ha realizado, permite realizarla, siempre que esté en estado Cerrada Ejecutada y mientras el campo Solicitante coincida con los campos Datos del Usuario.
+Comentario: El campo comentario es un campo que no es modificable. A través de este visor que muestra el Detalle de la OT, es posible que el usuario realice comentarios relevantes e importantes para el área de Mantenimiento. Para realizar los comentarios, se debe dirigir al final de la Ventana Detalle de la OT y digitar el comentario en el campo llamado “Comentario”, para agregarlo a la OT se debe dar clic al botón Agregar Comentario. Al dar clic al botón “Agregar Comentario” aparecerá el comentario ingresado al lado derecho en una ventana tipo chat bloqueada y a su vez inhabilita la modificación de los comentarios que allí se encuentren; además de la fecha, hora y el usuario logueado que realizó el comentario. Estos comentarios también se visualizan desde el módulo de Ordenes de  AM.</p>
+
+<p>Imagen 19.  Ventana Detalle de la OT (Comentarios)</p>
+
+<ol>
+  <li>Configuración AMsi  <br />
+Este capítulo, orientado al Administrador General del AMsi, se concentra en la funcionalidad de la opción Configuración.
+Se definen los criterios, preferencias, particularidades y modos de visualización sobre la información disponible en los formularios básicos del aplicativo al igual que los permisos y parametrización general del mismo. También, se incluye la administración sobre los usuarios de AMsi. 
+En este capítulo
+•	Acceso al modo Configuración 
+•	Configuración General
+•	Información del Solicitante
+•	Configuración Servicio Solicitado
+•	Configuración Identificación de Activo
+•	Configuración Seguridad
+•	Finalizando la Configuración
+•	Administrar Usuarios</li>
+</ol>
+
+<p>9.1	Acceso al modo Configuración</p>
+
+<p>Como se indicó al inicio de este capítulo, sólo el Administrador encargado del  AMsi  puede acceder a esta sección del aplicativo. WIN Software suministra los datos de acceso una vez se instale el aplicativo en la Infraestructura del Cliente.
+Para poder ingresar a la configuración de  AMsi , el Administrador debe conocer el nombre de usuario y contraseña del Administrador del aplicativo. Tales datos se ingresan en la ventana de acceso.</p>
+
+<p>Imagen 20. Ventana Acceso AMsi
+Una vez se ingrese el Usuario y la Contraseña de manera correcta, se puede observar el Menú Principal del Usuario Administrador del  AMsi .</p>
+
+<p>9.2	Ventana de Menú Principal del Usuario Administrador</p>
+
+<p>La ventana de Menú Principal del Usuario Administrador muestra las transacciones que el usuario puede realizar a través del AMsi.</p>
+
+<p>Imagen 21.  Ventana Menú Principal del Usuario Administrador
+A continuación, se describen las transacciones que componen esta ventana.</p>
+
+<p>Configuración: Esta opción permite configurar los criterios, preferencias, particularidades y modos de visualización sobre la información disponible en los formularios básicos del aplicativo al igual que los permisos y parametrización general del mismo. 
+Administrar Usuarios: Esta opción permite la creación de los usuarios que ingresarán al  AMsi , registro de información específica del usuario y la asociación de los Centros de Costo.</p>
+
+<p>Cerrar Sesión: Esta opción se usa para salir del aplicativo  AMsi .</p>
+
+<ol>
+  <li>Configuración  <br />
+Este capítulo guía para configurar la funcionalidad de  AMsi  respecto a la apariencia que tiene el sistema, sus campos requeridos y la forma en la que se seleccionan algunos de sus componentes.
+En este capítulo
+•	Configuración General
+•	Información del Solicitante
+•	Configuración Servicio Solicitado
+•	Configuración Identificación de Activo
+•	Configuración Seguridad
+Una vez ingresados los datos del usuario administrador, dar clic a este botón ubicado en la ventana de Menú Principal para continuar con la Configuración de  AMsi .</li>
+</ol>
+
+<p>Imagen 22.  Configuración 
+A continuación se detallan cada uno de los componentes activos de la Ventana de Configuración del  AMsi . Para acceder a esta opción se da clic a la opción Configuración en la ventana de Menú Principal.</p>
+
+<p>Imagen 23.  Configuración de AMsi</p>
+
+<p>Botón Inicio: Este botón lleva a la ventana de Menú Principal del Usuario Administrador.
+Botón Cerrar Sesión: Este botón permite salir del aplicativo  AMsi .</p>
+
+<p>10.1	 Configuración General</p>
+
+<p>Los componentes de la ventana de Configuración General son los que se muestran a continuación. Sobre cada componente se da una breve explicación.</p>
+
+<p>Imagen 24.  Configuración General</p>
+
+<p>Imagen para la cabecera: Se usa para configurar el logo del Cliente, que se visualiza en las diferentes pantallas del  AMsi . Se recomienda que el logo tenga formato .jpg , .png , .gif o .pdf ; con el objetivo de agilizar la carga del aplicativo Web.
+Al dar clic sobre el botón Seleccionar Archivo se abre una nueva ventana para realizar la búsqueda en disco del logo del Cliente. Luego de seleccionar el archivo, se observa que el nombre del archivo se visualiza al lado del campo seleccionar archivo.</p>
+
+<p>Imagen 25.  Imagen para la cabecera
+Mensaje en la ventana de registro de la solicitud: En este campo se digita un mensaje que se desliza y aparece en la parte superior del formulario de Servicio Solicitado. Este campo permite hasta 500 caracteres.</p>
+
+<p>Imagen 26.  Mensaje en la ventana registro de la solicitud
+Generar automáticamente Órdenes al guardar la solicitud: Indica que el aplicativo se usa para la creación de Órdenes de Trabajo en lugar de crear Solicitudes de Servicio. En tal caso, los botones de Crear Nueva Solicitud y Consultar Mis Solicitudes cambian a Crear Nueva Orden y Consultar Mis Ordenes respectivamente. El sistema entonces cambia su funcionalidad para Crear y Consultar Órdenes de Trabajo.</p>
+
+<p>Imagen 27.  Generar automáticamente Ordenes al guardar la solicitud
+Los solicitantes son: 
+•	Internos (Empleados, Visitantes)
+Exige el campo “Centro de Costo”.<br />
+•	Externos (Clientes ,Proveedores)
+Se elimina el campo “Centro de Costo”, exigiendo en su defecto el campo NIT seguido del nombre de la Empresa.</p>
+
+<p>Imagen 28.  Solicitantes internos o externos</p>
+
+<p>10.2	 Información del Solicitante</p>
+
+<p>En esta ventana se configuran los campos que serán exigidos en la sección Datos del Solicitante. Los componentes de la ventana de Información del Solicitante son los que se muestran a continuación. Sobre cada componente se da una breve explicación.</p>
+
+<p>Imagen 29.  Información del Solicitante</p>
+
+<p>¿El Teléfono es requerido?: Marcar SI indica que este campo es obligatorio y se identifican con un asterisco * de color rojo entre paréntesis que antecede el nombre del campo. Además, indica que debe ser llenado por los usuarios. Marcar NO implica dejar el campo a manera opcional de diligenciamiento para el solicitante al momento de actualizar la información dese Actualizar Perfil o para el usuario administrador al momento de crear y actualizar los usuarios.</p>
+
+<p>Imagen 30.  Teléfono requerido 
+¿La Extensión es requerida?: Marcar SI indica que este campo es obligatorio y se identifican con un asterisco * de color rojo entre paréntesis que antecede el nombre del campo. Además, indica que debe ser llenado por los usuarios. Marcar NO implica dejar el campo a manera opcional de diligenciamiento para el solicitante al momento de actualizar la información dese Actualizar Perfil o para el usuario administrador al momento de crear y actualizar los usuarios.</p>
+
+<p>Imagen 31.  Extensión requerida 
+¿La Dirección es requerida?: Marcar SI indica que este campo es obligatorio y se identifican con un asterisco * de color rojo entre paréntesis que antecede el nombre del campo. Además, indica que debe ser llenado por los usuarios. Marcar NO implica dejar el campo a manera opcional de diligenciamiento para el solicitante al momento de actualizar la información dese Actualizar Perfil o para el usuario administrador al momento de crear y actualizar los usuarios.</p>
+
+<p>Imagen 32.  Dirección requerida 
+¿La Ciudad es requerida?: Marcar SI indica que este campo es obligatorio y se identifican con un asterisco * de color rojo entre paréntesis que antecede el nombre del campo. Además, indica que debe ser llenado por los usuarios. Marcar NO implica dejar el campo a manera opcional de diligenciamiento para el solicitante al momento de actualizar la información dese Actualizar Perfil o para el usuario administrador al momento de crear y actualizar los usuarios.</p>
+
+<p>Imagen 33.  Ciudad requerida
+¿El Correo Electrónico es requerido?: Marcar SI indica que este campo es obligatorio y se identifican con un asterisco * de color rojo entre paréntesis que antecede el nombre del campo. Además, indica que debe ser llenado por los usuarios. Marcar NO implica dejar el campo a manera opcional de diligenciamiento para el solicitante al momento de actualizar la información dese Actualizar Perfil o para el usuario administrador al momento de crear y actualizar los usuarios.</p>
+
+<p>Imagen 34.  Correo Electrónico requerido</p>
+
+<p>10.3	 Servicio Solicitado</p>
+
+<p>En esta ventana se configuran los campos que serán exigidos en la sección Servicio Solicitado. Los componentes de la ventana de Servicio Solicitado son los que se muestran a continuación. Sobre cada componente se da una breve explicación.</p>
+
+<p>Imagen 35. Servicio Solicitado 
+¿Cómo nombrar las compañías?: Se refiere a los nombres de las Compañías creadas en el AM, es decir, los Centros de Servicio responsables de las diferentes actividades de mantenimiento del Cliente. Por defecto ellas son nombradas como Centro de Servicio y pueden ser renombradas a gusto según la cultura del Cliente.
+¿Cómo nombrar el Activo?: Se refiere al nombre del campo que describe el   Activo/Equipo que es objeto del servicio en la OT y/o SS. Por defecto ellos son nombrados Activo / Equipo y puede ser cambiado a un nombre que sea más significativo según la cultura de la compañía.
+¿Cómo nombrar la prioridad Alta?: Se refiere a los tipos de prioridades creadas en el AM. Por defecto este campo es nombrado como Emergente y puede ser cambiado a un nombre que sea más significativo dentro de la Compañía. 
+¿Cómo nombrar la prioridad media?: Se refiere a los tipos de prioridades creadas en el AM. Por defecto este campo es nombrado como Urgente y puede ser cambiado a un nombre que sea más significativo dentro de la Compañía. 
+¿Cómo nombrar la prioridad baja?: Se refiere a los tipos de prioridades creadas en el AM. Por defecto este campo es nombrado como Normal y puede ser cambiado a un nombre que sea más significativo dentro de la Compañía.</p>
+
+<p>10.4	 Identificación del Activo</p>
+
+<p>En esta ventana se configuran las opciones correspondientes para el campo de Activo / Equipo en el formulario Servicio Solicitado, en el proceso de creación de una SS y/o OT. Los componentes de la ventana de Identificación del Activo son los que se muestran a continuación. Sobre cada componente se da una breve explicación.</p>
+
+<p>Imagen 36. Identificación del Activo</p>
+
+<p>¿Desea describir el Activo en lenguaje natural?: Elegir SI en este botón, habilita un checkbox al extremo izquierdo del campo Activo / Equipo. Al chequear este cuadro, inmediatamente se habilitan dos campos que pueden ser diligenciados. El primer campo es para describir en lenguaje natural el Activo o Equipo hasta con 50 caracteres, y el segundo campo es para describir también en lenguaje natural la ubicación física del Activo o Equipo referenciado hasta con 50 caracteres. De elegir NO, quedará disponible para definir el código de Activo/Equipo solamente del icono de filtro azul y seleccionarlo del visor de Activos. Es de tener en cuenta que cuando se elige la opción para crear Órdenes, esta opción no es posible cambiarla.
+¿La ubicación física es requerida?: Elegir SI indica que éste es un campo obligatorio que debe ser llenado por los usuarios en el formulario Información de la Solicitud. Marcar NO implica que el campo tiene un uso opcional de diligenciamiento para el solicitante. 
+Si el Activo/Equipo es seleccionado de una lista o ingresado con su respectivo código, el campo Ubicación Física se llena automáticamente en cada caso. Mientras que, si el Activo/Equipo es escrito en lenguaje natural, el campo Ubicación Física queda habilitado para ser diligenciado por el solicitante. Es de tener en cuenta que cuando se elige la opción para crear Órdenes, esta opción no es posible cambiarla.</p>
+
+<p>10.5	 Seguridad</p>
+
+<p>En esta ventana se establece el Usuario y Contraseña del Administrador del  AMsi , además se configuran los servidores de correo con usuarios y contraseñas. Los componentes de la ventana de Seguridad son los que se muestran a continuación. Sobre cada componente se da una breve explicación:</p>
+
+<p>Imagen 37. Seguridad</p>
+
+<p>Usuario Administrador: En este campo se define el usuario Administrador con el cual se accede al sistema para la Configuración de AMsi.
+Contraseña: En este campo se asigna una Contraseña para el usuario Administrador, con el fin de acceder a la Configuración de AMsi. La Contraseña se muestra en blanco o sin diligenciar por seguridad. 
+Servidor de Correo: En este campo se ubica el servidor de correo de la organización, para habilitar la funcionalidad de envíos por correo.
+Usuario de Correo: En este campo se indica un usuario de correo bajo una estructura válida de una cuenta de correo. Es la cuenta origen desde la que serán enviados los correos de notificación.
+Contraseña de Correo: En este campo se define la Contraseña con la cual se accede a la cuenta de correo ubicada en el campo anterior.
+Utiliza cifrado (SSL): En este campo se habilita la seguridad integrada del cifrado (SSL). Por defecto esta opción es configurado como NO. 
+•	Si
+•	No</p>
+
+<p>10.6	 Finalizando la Configuración</p>
+
+<p>Una vez realizadas las modificaciones, dar clic al botón Actualizar ubicado al final de esta ventana para guardar la nueva configuración de AMsi, el sistema inmediatamente vuelve a la ventana de Menú Principal del Usuario Administrador.</p>
+
+<p>Imagen 38. Actualizar Configuración de AMsi</p>
+
+<ol>
+  <li>Administrar Usuarios <br />
+Este capítulo orienta en la creación y actualización de datos del usuario, además de la asociación de uno, varios o todos los centros de costo de una o varias compañías, para que los usuarios solicitantes puedan crear SS y/o OT desde  AMsi . Se hace de igual forma una ilustración sobre los comandos que aparecen en pantalla.
+En este capítulo
+•	Creación de Usuarios
+•	Actualización de Usuarios 
+•	Asociar Centros de Costo</li>
+</ol>
+
+<p>Una vez ingresados los datos del usuario administrador de manera correcta, dar clic a este botón ubicado en la ventana de Menú Principal para continuar con la Administración de los Usuarios de  AMsi .</p>
+
+<p>Imagen 39. Administrar Usuarios</p>
+
+<p>11.1	 Ventana Visor de Usuarios</p>
+
+<p>Imagen 40.  Ventana Visor de Usuarios 
+A esta ventana se llega haciendo clic sobre la opción Administrar Usuarios del Menú Principal.</p>
+
+<p>Es la ventana en la que se lista el total de los usuarios registrados en el  AMsi .</p>
+
+<p>Los títulos en azul que encabezan las columnas son también botones que permiten ordenar la tabla, según el título seleccionado.</p>
+
+<p>Para elegir un registro de la tabla se da un clic sobre él.</p>
+
+<p>En la parte superior izquierda de esta ventana se observa la identificación actual de la opción seleccionada desde el Menú Principal del Usuario Administrador. También, al lado derecho de esta sección, se encuentra el botón “Nuevo” con el fin de acceder rápidamente a la ventana Detalle con el fin de ingresar un nuevo registro o usuario.</p>
+
+<p>En la parte superior derecha se encuentran dos opciones, para dirigirse a la ventana de Inicio y Cerrar Sesión de la aplicación.</p>
+
+<p>En la parte inferior izquierda de esta ventana se encuentra el número de registros por página que se quieren visualizar, además de la cantidad de registros totales que conforman la tabla.</p>
+
+<p>En  la  parte inferior  derecha de esta ventana se observan también varios enlaces para  navegar avanzando y retrocediendo páginas completas de registros. Como guía existe un indicador sobre la página relativa actual y la posibilidad de ingresar a la primera o última página, sin importar la página en la que se encuentre.</p>
+
+<p>11.2	 Ventana Detalle de Usuarios</p>
+
+<p>Imagen 41.  Ventana Detalle de Usuarios</p>
+
+<p>Es  la  porción  de  la  pantalla  en  que  se  muestran  los  datos  detallados  del   usuario seleccionado en la ventana Visor.</p>
+
+<p>Además de la información detallada de un usuario, contiene dos botones y son el botón de “Nuevo” y “Actualizar”; que siempre están en la parte superior izquierda de la ventana.</p>
+
+<p>El botón “Nuevo” prepara la ventana Detalle para el ingreso de un nuevo registro. Al activar el botón “Nuevo”, el sistema reemplaza la línea de 2 botones por una nueva de 2 botones: “Insertar” y “Cancelar”. El botón “Insertar” ingresa el nuevo registro a la base de datos actualizando la ventana Visor, mientras que el botón “Cancelar” aborta el proceso de creación del nuevo registro retornando a la ventana Detalle.</p>
+
+<p>El botón “Actualizar” sirve para guardar o salvar en la base de datos la información que se ha modificado en la ventana Detalle, correspondiente al registro señalado por el cursor en la ventana Visor y registrar allí simultáneamente el mismo cambio.</p>
+
+<p>En la parte superior izquierda de esta ventana se observa la identificación actual de la opción seleccionada desde el Menú Principal del Usuario Administrador.</p>
+
+<p>Para salir de la ventana Detalle se puede dar clic en la parte de afuera de esta ventana, la cual lleva a la ventana Visor.</p>
+
+<p>11.3	 Creación de Usuarios</p>
+
+<p>Imagen 42.  Creación de Usuarios</p>
+
+<p>A esta ventana se llega haciendo clic sobre el botón “Nuevo” de la ventana detalle del usuario. A través de ella se diligencian los Datos del Usuario y los Centros de Costo para la creación del usuario de  AMsi . A continuación, se describen los campos que componen esta ventana de Creación de Usuarios. Sobre cada campo se da una breve explicación.</p>
+
+<p>Campos Del Formulario Datos Del Usuario
+Este cuadro hace referencia a los Datos del Usuario solicitante necesario para la creación del mismo y son los que aparecerán en la sección de Datos del Solicitante en Actualizar Perfil y Crear Nueva Solicitud o Crear Nueva Orden. Contiene la información personal del solicitante y todos los campos se encuentran bloqueados. 
+El formulario Datos del Usuario  hace referencia a los datos del usuario solicitante que se está creando.
+Todos los campos marcados con asterisco (*) son de carácter obligatorio. 
+Tipo Documento: En este campo se elige de la lista desplegada el tipo de documento con el cual el usuario se puede identificar. (Campo requerido).<br />
+Nro. Documento: En este campo se define el número de Identificación correspondiente al Tipo Documento, del usuario solicitante. (Campo requerido).
+Contraseña: En este campo se define la contraseña, con el fin de que el usuario que se está registrando pueda acceder al  AMsi . (Campo requerido).<br />
+Nombre Completo: En este campo se digita el nombre completo del usuario solicitante. (Campo requerido).
+Teléfono: En este campo se define el número telefónico donde se puede localizar al usuario solicitante. El número telefónico generalmente corresponde a una dependencia de la organización a la cual pertenece al usuario solicitante.
+Este campo permite ingresar el número telefónico de la siguiente manera:
+Indicativo del país y de la ciudad + número telefónico fijo. Ejemplo: 
+(572)2345678          donde: 
+572 		Colombia, Cali
+2345678	Número de Teléfono Fijo
+Extensión: En este campo se asigna un número de extensión telefónico donde se puede localizar al usuario solicitante.                                  <br />
+Dirección: En este campo se asigna la dirección que corresponde a la organización a la cual pertenece al usuario solicitante.<br />
+Ciudad: En este campo se asigna la ciudad en la cual vive el usuario solicitante o está ubicada la institución para la cual labora. 
+Correo Electrónico: Dirección de correo electrónico del usuario solicitante asignado por la organización, o bien, correo personal del usuario solicitante en caso de no tener una cuenta de correo electrónico corporativa.
+Todos los Centros de Costo: Este cuadro de chequeo (checkbox) permite asociarle al usuario todos los centros de costo de todas las compañías existentes en AM, al chequearlo se ocultan los cuadros para asociar uno o varios centros de costo, que están en la parte inferior de la ventana. <br />
+Cuadros de Asociación de Centros de Costo: Está estructurado por un campo para seleccionar la compañía y dos cuadros ubicados en la parte inferior de esta ventana.</p>
+
+<p>En el campo se selecciona la compañía deseada, con el fin de que en el cuadro de la izquierda se listen los Centros de Costo creados en la tabla de centros de costo de esa compañía seleccionada.</p>
+
+<p>En el cuadro de la izquierda, se listan los Centros de Costo definidos en la tabla de centros de costo de la compañía elegida en el campo anterior mencionado. Mientras que, en el cuadro de la derecha se listan los Centros de Costo que se van asociando al usuario solicitante.</p>
+
+<p>La funcionalidad consiste en seleccionar el centro de costo al cual se le asignara al usuario solicitante desde el cuadro izquierdo, la selección se hace posicionando el cursor en el registro deseado, donde el registro queda sombreado de color verde. En el medio de los  dos recuadros se encuentran dos botones los cuales indican “Trasladar”. El botón superior de traslado, indica trasladar de la derecha a la izquierda, por el contrario, el botón inferior de traslado, indica trasladar de la izquierda a la derecha. Cuando se presiona el botón inferior de traslado, se agrega al cuadro de la derecha el centro de costo seleccionado previamente y que quedará asociado al usuario solicitante. Para asociar varios Centros de Costo, se presiona la tecla “Shift” de manera sostenida y se seleccionan los Centros de Costo desde el cuadro izquierdo.</p>
+
+<p>Para visualizar la información completa de los Centros de Costo disponibles para ser asociados y los que se asociaron al usuario solicitante y además, facilitar su recorrido es posible realizar desplazamientos verticales del cursor tanto hacia el comienzo como hacia  el final del cuadro. 
+Una vez registrado el usuario, el sistema muestra un mensaje de notificación de registro exitoso.</p>
+
+<p>Imagen 43.  Mensaje registro Usuario<br />
+Para el proceso de actualización de un usuario, se debe seleccionar de la ventana Visor el registro a actualizar, luego se diligencian los campos a modificar en la ventana Detalle, se da clic al botón Actualizar, seguido a esto se muestra un mensaje de confirmación de la transacción.</p>
+
+<p>Imagen 44.  Mensaje actualización Usuario</p>
+
+<ol>
+  <li>Cerrar Sesión 
+Esta transacción permite que el usuario pueda salir de  AMsi . Para cerrar la sesión en  AMsi  dar clic a este botón ubicado en la ventana de Menú Principal.</li>
+</ol>
+
+<p>Imagen 45.  Cerrar Sesión (Menú Principal)</p>
+
+<p>También, es posible cerrar la sesión dando clic al icono de Salir    ubicado en la parte superior derecha de cualquier ventana del Menú Principal: Actualizar Perfil, Crear Nueva Solicitud y Consultar Mis Solicitudes para usuarios, mientras que para usuarios administradores Configuración y Administrar Usuarios.</p>
+
+
+            </div>
+
+        </article>
+
+    </div>
+</div>
+
+
+    <div id="offcanvas-docs" data-uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar">
+
+        <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+
+        
+        <h5 class="uk-margin-top">Trabajando con AM</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/1_1_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/1_2_first_look/">Un vistazo a AM</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/1_3_main_window/">Ventana Principal AM</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/1_4_concurrence/">Concurrencia en AM</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/1_5_summary/">Resumen Como empezar a trabajar</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Infraestructura</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/2_1_introduction/">Infraestructura</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/2_2_basic_concept/">Conceptos Básicos sobre la Infraestructura</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/2_3_tables/">Tablas de Infraestructura</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/2_4_locations/">Ubicaciones Físicas</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/2_5_kardex_concepts/">Conceptos de Kárdex</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/2_6_operations/">Operaciones</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Activos</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/3_1_introduction/">Activos / Equipos, Objetos de Mantenimiento</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/3_2_basic_concepts/">Conceptos Básicos sobre Activos/Equipos</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/3_3_data_sheet/">Ficha Técnica</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/3_4_parts_list/">Despiece de Activos / Equipos</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Almacenes, Materiales y Repuestos</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/4_1_introduction/">Almacenes, Materiales y Repuestos</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/4_2_basic_concepts/">Conceptos Básicos sobre Almacenes, Materiales y Repuestos</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/4_3_spare_coding/">Codificación de Repuestos</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/4_4_main_window/">Ventana Principal de Almacén de Repuestos</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/4_5_export/">Exportar</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Kárdex</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/5_1_introduction/">Kárdex de Almacén</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/5_2_basic_concepts/">Conceptos Básicos sobre el Kárdex de Almacén</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/5_3_movements/">Ventana Movimientos de Kárdex</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/5_4_transactions/">Transacciones</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Solicitudes de Servicio</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/7_1_introduction/">Solicitudes de Servicio</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/7_2_basics_concepts/">Conceptos Básicos sobre Solicitudes de Servicio</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/7_3_transactions/">Transacciones</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/7_4_export/">Exportar</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Paros</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/8_1_introduction/">introducción.</a></li>
+        
+          
+          
+          <li class=""><a href=""></a></li>
+        
+          
+          
+          <li class=""><a href="/docs/8_3_creation/">Conceptos Básicos sobre Paros / Averías.</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/8_4_tracking_and_closing/">Seguimiento y Cierre de Paros / Averías.</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Órdenes de Trabajo</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/9_1_introduction/">introduccion</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/9_2_basic_concepts/">Conceptos Básicos sobre Órdenes de Trabajo</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/9_3_analysis_and_generation/">Análisis y Generación de Órdenes de Trabajo Programadas</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/9_4_main_window/">Ventana Principal de Órdenes de Trabajo</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/9_5_export/">Exportar</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Historia de mantenimiento</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/10_1_introduction/">Historia de Mantenimiento.</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/10_2_basic_concepts/">Conceptos Básicos de la Historia de Mantenimiento.</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/10_3_send_to_history/">Enviar a Historia (Desde Órdenes de Trabajo).</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/10_4_main_window/">Ventana Principal de Historia de Mantenimiento.</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/10_5_export/">Ventana Principal de Historia de Mantenimiento</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Programas de mantenimiento</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/11_1_introduction/">Programas de Mantenimiento</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/11_2_basic_concepts/">Conceptos Básicos sobre Almacenes, Materiales y Repuestos</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/11_3_main_window/">Ventana Principal de Programas de Mantenimiento</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/11_4_services/">Servicios</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">AMsi</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/15_1_working_with_amsi/">Trabajando con AMsi</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_2_ui/">Interfaz de Usuario</a></li>
+        
+          
+          
+          <li class=""><a href=""></a></li>
+        
+          
+          
+          <li class=""><a href=""></a></li>
+        
+          
+          
+          <li class=""><a href=""></a></li>
+        
+          
+          
+          <li class=""><a href=""></a></li>
+        
+          
+          
+          <li class=""><a href=""></a></li>
+        
+          
+          
+          <li class=""><a href=""></a></li>
+        
+          
+          
+          <li class=""><a href=""></a></li>
+        
+          
+          
+          <li class=""><a href=""></a></li>
+        
+          
+          
+          <li class=""><a href=""></a></li>
+        
+        </ul>
+        
+
+    </div>
+</div>
+
+
+    <div id="offcanvas" data-uk-offcanvas="flip: true; overlay: true">
+    <div class="uk-offcanvas-bar">
+
+        <a class="uk-logo uk-margin-small-bottom" href="/">AM</a>
+     
+        <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+      
+        <ul class="uk-nav uk-nav-primary uk-margin-top">
+            
+                
+
+                
+
+                
+                    <li><a href="/" >Inicio</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><a href="/docs/1_1_introduction" >Manual</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><a href="/blog/" >Blog</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><a href="/changelog-timeline/" >Registro de cambios</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><div class="uk-navbar-item"><a class="uk-button uk-button-success" href="/contact/" >Contacto</a></div></li>
+                
+            
+        </ul>
+
+        <div class="uk-margin-top uk-text-center">
+            <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-flex-center uk-grid">
+                
+<div class="uk-first-column">
+    <a href="https://twitter.com/winsoftware_am" data-uk-icon="icon: twitter" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+<div>
+    <a href="https://www.facebook.com/winsoftwaream/" data-uk-icon="icon: facebook" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+
+
+<div>
+    <a href="https://co.linkedin.com/in/win-software-s-a-s-122b7952" data-uk-icon="icon: linkedin" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+
+
+
+<div>
+    <a href="https://winsoftware.com.co/" data-uk-icon="icon: link" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+    
+        <footer class="uk-section uk-text-center uk-text-muted">
+    <div class="uk-container uk-container-small">
+
+        <div>
+            <ul class="uk-subnav uk-flex-center">
+                
+                    
+                    
+                    
+                        <li><a href="/" >Inicio</a></li>
+                    
+                
+                    
+                    
+                    
+                        <li><a href="/blog/" >Blog</a></li>
+                    
+                
+                    
+                    
+                    
+                        <li><a href="/contact/" >Contacto</a></li>
+                    
+                
+            </ul>
+        </div>
+        <div class="uk-margin-medium">
+            <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-flex-center uk-grid">
+                
+<div class="uk-first-column">
+    <a href="https://twitter.com/winsoftware_am" data-uk-icon="icon: twitter" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+<div>
+    <a href="https://www.facebook.com/winsoftwaream/" data-uk-icon="icon: facebook" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+
+
+<div>
+    <a href="https://co.linkedin.com/in/win-software-s-a-s-122b7952" data-uk-icon="icon: linkedin" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+
+
+
+<div>
+    <a href="https://winsoftware.com.co/" data-uk-icon="icon: link" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+            </div>
+        </div>
+        <div class="uk-margin-medium uk-text-small copyright link-secondary">Made by <a href="https://winsoftware.com.co/">Win Software</a>.</div>
+
+    </div>
+</footer>
+
+    
+
+    
+
+    <!-- Hook preclosing body -->
+
+    </body>
+
+</html>

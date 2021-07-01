@@ -234,17 +234,17 @@ Es posible visualizar de manera inmediata, los Activos que son raíz, ubicacione
 
 El significado de los colores se visualiza al sobreponer el mouse en el icono que se encuentra al extremo superior derecho y su correspondencia es: 
 
-•	**Verde:** Activos definidos con AC-Raíz como SÍ.
+-	**Verde:** Activos definidos con AC-Raíz como SÍ.
 
-•	**Amarillo:** Activos definidos como Ubicación Técnica.
+-	**Amarillo:** Activos definidos como Ubicación Técnica.
 
-•	**Café Oscuro:** Activos definidos como Componentes Intercambiables y que están asociados a una Ubicación Técnica.
+-	**Café Oscuro:** Activos definidos como Componentes Intercambiables y que están asociados a una Ubicación Técnica.
 
-•	**Morado:** Activos que tienen asociadas Características Técnicas en la pestaña de Características.
+-	**Morado:** Activos que tienen asociadas Características Técnicas en la pestaña de Características.
 
-•	**Naranja:** Activos que tienen asociados archivos de imágenes, videos y/o documentos en la pestaña Multimedia.
+-	**Naranja:** Activos que tienen asociados archivos de imágenes, videos y/o documentos en la pestaña Multimedia.
 
-•	**Blanco:** Activos definidos como Ubicación Técnica o Componentes Intercambiables y que no están asociados a Componentes Intercambiables o Ubicación Técnica, respectivamente, es decir, que están disponibles para ser asignados.
+-	**Blanco:** Activos definidos como Ubicación Técnica o Componentes Intercambiables y que no están asociados a Componentes Intercambiables o Ubicación Técnica, respectivamente, es decir, que están disponibles para ser asignados.
 
 ## Subgrupo
 

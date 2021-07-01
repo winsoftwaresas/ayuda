@@ -58,13 +58,13 @@ Es posible, en la Tabla de Estados la parametrización de los estados de los mó
 
 Estado de Solicitud de Servicio: Descripción que se usa para personalizar los estados en los que puede encontrarse una Solicitud de  Servicio. Se utiliza el campo de Indicativo-(Abreviatura) para especificar la abreviatura del Estado. Es posible crear nuevos estados de SS, ellos se consideran variaciones  del  estado En Análisis (AN). Existen siete Estados de SS que no pueden ser nados ni modificados dado que se utilizan por defecto en la funcionalidad del sistema, estos son:
 
-•	**AN-** En Análisis
-•	**AS-** Asignada
-•	**NE-** Cerrada No Ejecutada
-•	**CE-** Cerrada Ejecutada
-•	**CO-** Cerrada con OT
-•	**EJ-** En Ejecución 
-•	**CP-** Cerrada Parcial (AMovil)
+-	**AN-** En Análisis
+-	**AS-** Asignada
+-	**NE-** Cerrada No Ejecutada
+-	**CE-** Cerrada Ejecutada
+-	**CO-** Cerrada con OT
+-	**EJ-** En Ejecución 
+-	**CP-** Cerrada Parcial (AMovil)
 
 
 ![tipos de rgimen](../../assets/images/cap02/chp02_img81.png)

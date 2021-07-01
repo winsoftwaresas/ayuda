@@ -16,7 +16,7 @@ baseurl:            ""
 permalink:          /:title/
 
 # Site base hostname & protocol, e.g. http://example.com
-url:                "https://winsoftwaresas.github.io"
+url:                "https://ayuda.winsoftware.com.co"
 
 # Site logo # e.g. logo.png, upload logo image file to /uploads/ folder
 logo:               
@@ -29,7 +29,7 @@ navbar:
 author:
     name:           Win Software
     title:          Support team  
-    avatar:         avatar-tom.png
+    avatar:         winsoftware.png
 
 # Author settings, displayed on post and doc pages if front matter references author name e.g. author: peter
 authors:
@@ -60,7 +60,7 @@ authors:
     win:
       name:         WIN Software
       title:        Company     
-      avatar:       avatar-tom.png
+      avatar:       winsoftware.png
 
 # Social icons displayed in footer
 social:

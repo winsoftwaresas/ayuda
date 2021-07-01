@@ -1,5 +1,5 @@
 ---
-title: Ventana Principal **AM**
+title: Ventana Principal AM
 subtitle: Aquí hay información general sobre los elementos principales presentes en una ventana AM 4G
 tags: [setup]
 author: win

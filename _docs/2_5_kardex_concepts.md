@@ -22,13 +22,13 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 Adicional, se encuentran tres opciones de definición del Concepto, estas son:
 
-•	**¿Este Concepto de Kárdex requiere una OT válida?** 
+-	**¿Este Concepto de Kárdex requiere una OT válida?** 
 Se enmarca cuando se trata de una transacción de movimiento que requiere para su ejecución, una OT válida.
 
-•	**¿Este Concepto de Kárdex es el predeterminado?**
+-	**¿Este Concepto de Kárdex es el predeterminado?**
  Es una opción para definir que este concepto se utiliza por defecto en una transacción.
 
-•	**¿Este Concepto de Kárdex Corresponde a ítems Suministrados por el Contratista?**
+-	**¿Este Concepto de Kárdex Corresponde a ítems Suministrados por el Contratista?**
  Es una opción para definir si el concepto corresponde a ítem que son suministrados por el contratista. 
 
 ### Subgrupo Conceptos de Kárdex

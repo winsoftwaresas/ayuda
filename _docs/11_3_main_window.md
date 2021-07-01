@@ -108,12 +108,12 @@ Es posible visualizar de manera inmediata, los Programas de mantenimiento activo
 
 El significado de los colores se visualiza al sobreponer el mouse en el icono que se encuentra al extremo superior derecho y su correspondencia es:
 
-•	**Naranja:** Programas de mantenimiento que tienen asociados archivos de imágenes, videos y/o documentos en la pestaña Multimedia.
+-	**Naranja:** Programas de mantenimiento que tienen asociados archivos de imágenes, videos y/o documentos en la pestaña Multimedia.
 
-•	**Verde:** Programas de 
+-	**Verde:** Programas de 
 mantenimiento definidos con estado activo.
 
-•	**Rojo:** Programas de mantenimiento sin criterio de programación o con un Activo definido en un estado inactivo.
+-	**Rojo:** Programas de mantenimiento sin criterio de programación o con un Activo definido en un estado inactivo.
 
 ## Subgrupo
 
@@ -570,13 +570,13 @@ Clic en Ver Diagrama  A continuación, se  procede  a visualizar a través de un
 
 El significado de los colores se visualiza al sobreponer el mouse en el icono que se encuentra al lado superior derecho y su correspondencia es: 
 
-•	**Naranja:** Actividades programadas con tipo de mantenimiento Metrología. 
+-	**Naranja:** Actividades programadas con tipo de mantenimiento Metrología. 
 
-•	**Verde:** Actividades programadas con tipo de mantenimiento Preventivo, Predictivo, Inspección y Lubricación.
+-	**Verde:** Actividades programadas con tipo de mantenimiento Preventivo, Predictivo, Inspección y Lubricación.
 
-•	**Rojo:** Actividades con tipo de mantenimiento Correctivo. Es de aclarar, que en este módulo No se permiten OT tipo correctivas. 
+-	**Rojo:** Actividades con tipo de mantenimiento Correctivo. Es de aclarar, que en este módulo No se permiten OT tipo correctivas. 
 
-•	**Azul:** Actividades programadas con tipo de mantenimiento Otro y Otro-Mantto. 
+-	**Azul:** Actividades programadas con tipo de mantenimiento Otro y Otro-Mantto. 
 
 ![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img32.png)
 

@@ -5,7 +5,7 @@ tags: [setup]
 author: win
 ---
 
-# Programas de Mantenimiento
+## Programas de Mantenimiento
 
 - ¿Qué es un Programa de Mantenimiento (PM)?
 - ¿cuál es su objetivo?. 

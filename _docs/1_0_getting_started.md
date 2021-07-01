@@ -110,7 +110,7 @@ Se destacan las siguientes características:
 
 <!-- ![Características **AM**](../../assets/images/cap01/chp01_img06.png) -->
 
-![Características **AM**](../../assets/images/placeholder.jpg)
+![Características **AM**](../assets/images/placeholder.jpg)
 
 Identificación del módulo actual en pantalla (En letra amarilla sobre fondo oscuro). Corresponde a la opción del menú seleccionada.
 

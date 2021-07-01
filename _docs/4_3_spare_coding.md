@@ -16,25 +16,25 @@ En la que cada conjunto de letras es una división del conjunto anterior. Esta  
 **Ejemplo:** **Para el nivel XX, o Grupo Principal se pueden definir entre otros:**
 
 
-•	Tornillería, Elementos de Unión
+-	Tornillería, Elementos de Unión
 
-•	 Lubricantes y Combustibles 
+-	 Lubricantes y Combustibles 
 
-•	 Bandas y Correas 
+-	 Bandas y Correas 
 
-•	Tubería, Elementos de Unión y Accesorios 
+-	Tubería, Elementos de Unión y Accesorios 
 
-•	Rodamientos y  Balineras 
+-	Rodamientos y  Balineras 
 
-•	Repuestos para Motores 
+-	Repuestos para Motores 
 
-•	Repuestos para Generadores de Corriente 
+-	Repuestos para Generadores de Corriente 
 
-•	Repuestos para Bombas y Compresores 
+-	Repuestos para Bombas y Compresores 
 
-•	Repuestos para Aparatos de Transporte Móvil 
+-	Repuestos para Aparatos de Transporte Móvil 
 
-•	Repuestos para Aparatos de Transporte Fijo
+-	Repuestos para Aparatos de Transporte Fijo
 
 Cada uno de estos grupos se puede dividir en Subgrupos, Tipos y Clases según la cultura técnica de la organización.
 

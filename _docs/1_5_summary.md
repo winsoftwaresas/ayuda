@@ -132,12 +132,12 @@ Este indicador permite de forma ágil la naturaleza de cada reporte. A continuac
 
 A continuación, se describen algunas Recomendaciones Generales acerca del manejo funcional de **AM**.
 
-•	En el módulo de Administración, del Submenú Valores por Defectos (Programas) se establece el día que inicia la semana número 2 del año, se configura el criterio “Semanas del Año” en Programas de Mantenimiento.  De esta manera, **AM** conoce qué día inician las de semanas para el año en curso.
+-	En el módulo de Administración, del Submenú Valores por Defectos (Programas) se establece el día que inicia la semana número 2 del año, se configura el criterio “Semanas del Año” en Programas de Mantenimiento.  De esta manera, **AM** conoce qué día inician las de semanas para el año en curso.
 
 Para establecer este parámetro, debe tenerse a mano un calendario empresarial de semanas numerado, o en su defecto un calendario normal.  Este proceso debe efectuarse al inicio de cada año. Dependiendo de la cultura de trabajo de cada empresa, las semanas pueden iniciar en diferentes días, por ejemplo, los lunes. Debe tenerse en cuenta este tipo de criterios a la hora de establecer dicho parámetro.
 
-•	Verificar en las listas despegables la función de  “Autocompletar”, se debe realizar la selección de esta, tener presente cuando se es agregada el sistema genera error.
+-	Verificar en las listas despegables la función de  “Autocompletar”, se debe realizar la selección de esta, tener presente cuando se es agregada el sistema genera error.
 
-•	Se debe evitar el uso de caracteres **(&&, // y #)** en los nombres de los archivos que se van a anexar en **TE, CN, AC, RP, OT, PM, SS, PA, HM.**
+-	Se debe evitar el uso de caracteres **(&&, // y #)** en los nombres de los archivos que se van a anexar en **TE, CN, AC, RP, OT, PM, SS, PA, HM.**
 
-•	Se debe evitar el uso de **Ñ, ñ** o letras de carácter tipo vocal que emplean tildes en cualquier dato de la Base de Datos.
+-	Se debe evitar el uso de **Ñ, ñ** o letras de carácter tipo vocal que emplean tildes en cualquier dato de la Base de Datos.

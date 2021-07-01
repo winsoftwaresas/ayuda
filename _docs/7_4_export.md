@@ -106,11 +106,11 @@ El programa permite ordenar la impresión de los reportes de acuerdo con los sig
 
 **Clave Secundaria:** Según esta clave las alternativas son:
 
-•	Centro de Costo
+-	Centro de Costo
 
-•	Código de la Solicitud
+-	Código de la Solicitud
 
-•	Responsable
+-	Responsable
 
 **Clave Terciaria:** Según esta clave las alternativas son:
 

@@ -1,12 +1,11 @@
 ---
-title:  Conceptos	Básicos	sobre	Almacenes,	Materiales	y Repuestos
+title: Conceptos Básicos sobre Almacenes, Materiales y Repuestos
 subtitle: aqui se despejaran dudas sobre los conceptos basicos de almacenes, explicando su diversidad, funcionalidad y adaptabilidad a las necesidades del usuario.
 tags: [setup]
 author: win
-----
+---
 
-
-# Conceptos Básicos de Programas de Mantenimiento
+## Conceptos Básicos de Programas de Mantenimiento
 
 Dentro del ciclo de Gestión de Mantenimiento en el **AM**** los Programas de Mantenimiento (PMs) apoyan las tres primeras etapas del ciclo, siendo la primera la Planeación, la segunda la Presupuestación y la tercera la Programación. Para las dos primeras etapas, éste módulo ejecuta el proceso de Proyección, sobre un periodo futuro, de largo plazo, sin generar Órdenes de Trabajo.  Para la tercera etapa el proceso de Programación se ejecuta en forma idéntica, desde el módulo de Ordenes de Trabajo. A pesar de que  se  ejecuta  desde  allí,  la  base   del  proceso  son  los  Programas  de Mantenimiento.
 

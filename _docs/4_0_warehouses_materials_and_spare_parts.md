@@ -87,25 +87,25 @@ En la que cada conjunto de letras es una división del conjunto anterior. Esta  
 **Ejemplo:** **Para el nivel XX, o Grupo Principal se pueden definir entre otros:**
 
 
-•	Tornillería, Elementos de Unión
+-	Tornillería, Elementos de Unión
 
-•	 Lubricantes y Combustibles 
+-	 Lubricantes y Combustibles 
 
-•	 Bandas y Correas 
+-	 Bandas y Correas 
 
-•	Tubería, Elementos de Unión y Accesorios 
+-	Tubería, Elementos de Unión y Accesorios 
 
-•	Rodamientos y  Balineras 
+-	Rodamientos y  Balineras 
 
-•	Repuestos para Motores 
+-	Repuestos para Motores 
 
-•	Repuestos para Generadores de Corriente 
+-	Repuestos para Generadores de Corriente 
 
-•	Repuestos para Bombas y Compresores 
+-	Repuestos para Bombas y Compresores 
 
-•	Repuestos para Aparatos de Transporte Móvil 
+-	Repuestos para Aparatos de Transporte Móvil 
 
-•	Repuestos para Aparatos de Transporte Fijo
+-	Repuestos para Aparatos de Transporte Fijo
 
 Cada uno de estos grupos se puede dividir en Subgrupos, Tipos y Clases según la cultura técnica de la organización.
 
@@ -214,11 +214,11 @@ Es posible visualizar de manera inmediata, los Repuestos activos, inactivos y co
 
 El significado de los colores se visualiza al sobreponer el mouse en el icono que se encuentra al extremo superior derecho y su correspondencia es: 
 
-• **Rojo:** Repuestos definidos con estado inactivo.
+- **Rojo:** Repuestos definidos con estado inactivo.
 
-• **Verde:** Repuestos definidos con estado activo.
+- **Verde:** Repuestos definidos con estado activo.
 
-• **Naranja:** Repuestos que tienen asociados archivos de imágenes, videos y/o documentos en la pestaña Multimedia.
+- **Naranja:** Repuestos que tienen asociados archivos de imágenes, videos y/o documentos en la pestaña Multimedia.
 
 ## Subgrupo
 
