@@ -6,7 +6,7 @@ title: Solicitudes de Servicio (SS) por Internet e Intranet AMsi
 ## Trabajando con AMsi 
 
 Esta sección presenta el AMsi, herramienta para generar OT y/o SS en el AM, su colaborador natural. 
-Contiene información básica sobre el ingreso al aplicativo, mostrando de manera general la interfaz del usuario. Se aprende a interpretar y usar el formulario de acceso para la creación de OT y/o SS, así como también a reconocer los comandos de los botones que aparecen en pantalla.
+Contiene información básica sobre el ingreso al aplicativo, mostrando de manera general la interfaz del usuario. Se aprende a interpretar y a usar el formulario de acceso para la creación de OT y/o SS, así como también a reconocer los comandos de los botones que aparecen en pantalla.
 
 **Contenido**
 
@@ -17,10 +17,9 @@ Contiene información básica sobre el ingreso al aplicativo, mostrando de maner
 
 ### 1.1	Qué es AMsi
 
-AMsi es una aplicación Web que permite la Creación y posterior Consulta de OT y/o SS. Estos registros pueden ser consultados a través de ambos aplicativos, en AMsi por parte del Solicitante como también por el Equipo Técnico en AM.
+AMsi es una aplicación Web que permite la Creación y de OT y/o SS por parte de usuarios pertenecientes a una organización al área de Mantenimiento. Estos registros pueden ser consultados a través de ambos aplicativos, en AMsi por parte del Solicitante como también por el Equipo Técnico en **AM**.
 
-AMsi permite hacer notificaciones por correo electrónico por diversos conceptos de proceso.
-Se usa en ambientes Mono y Multicompañía, en los que el número de Usuarios Clientes de Mantenimiento pueden ser de un volumen mayor.
+AMsi permite hacer notificaciones por correo electrónico por diversos conceptos de proceso. Se usa en ambientes Mono y Multicompañía, en los que el número de Usuarios Clientes de Mantenimiento pueden ser de un volumen mayor.
 
 ## 2. Interfaz gráfica de Usuario
 
@@ -55,13 +54,13 @@ _**Imagen 2.** Ventana Menú Principal del Usuario_
 
 A continuación, se describen las transacciones que componen esta ventana. 
 
-Actualizar Perfil: Esta opción permite que el usuario solicitante logueado pueda actualizar su información personal cuando lo requiera. 
+**Actualizar Perfil:** Esta opción permite que el usuario solicitante logueado pueda actualizar su información personal cuando lo requiera. 
 
-Crear Nueva Solicitud: Esta opción permite la generación de las SS por parte del usuario logueado. 
+**Crear Nueva Solicitud:** Esta opción permite la generación de las SS por parte del usuario logueado. 
 
-Consultar Mis Solicitudes: Esta opción permite que el usuario logueado pueda hacer constantemente seguimiento y consultas en tiempo real de cada una de las SS que ha generado al área de Mantenimiento. 
+**Consultar Mis Solicitudes:** Esta opción permite que el usuario logueado pueda hacer constantemente seguimiento y consultas en tiempo real de cada una de las SS que ha generado al área de Mantenimiento. 
 
-Cerrar Sesión: Esta opción se usa para salir del aplicativo AMsi. 
+**Cerrar Sesión:** Esta opción se usa para salir del aplicativo AMsi. 
 
 ## 3. Actualizar Perfil  
 Esta transacción permite que el usuario pueda actualizar la información personal cuando lo requiera y visualizar los Centros de Costos asociados. Para acceder a esta ventana se da un clic a este botón ubicado en la ventana de Menú Principal.
@@ -70,41 +69,50 @@ Esta transacción permite que el usuario pueda actualizar la información person
 _**Imagen 3.** Botón Actualizar Perfil_
 
 El sistema muestra automáticamente el Detalle del Formulario para Actualizar Perfil en la ventana de Menú Principal del usuario.
- 
-Imagen 4.  Actualizar Perfil
+
+![Procesar imagen](../../assets/images/placeholder.jpg)
+**_Imagen 4.  Actualizar Perfil_**
+
 A continuación, se describen los campos que componen el registro. Sobre cada campo se da una breve explicación. 
 
-Campos Del Formulario Datos Del Solicitante
+### **Campos Del Formulario _Datos Del Solicitante_**
 Este cuadro hace referencia a los Datos del Solicitante necesarios para la creación de una OT/SS. Algunos campos son obligatorios, estos datos se reconocen y se diferencian de los demás por el carácter asterisco (*) en color rojo que antecede el nombre del campo.
 Este formulario sólo es configurado por el Administrador General del AMsi en Información del Solicitante. Para mayor información dirigirse al capítulo Configuración AMsi.
 
-Tipo Documento: Este campo se encuentra bloqueado y muestra el tipo de documento con el cual el usuario se puede identificar y es configurado por el Administrador General del AMsi. (Campo requerido).  
+**Tipo Documento:** Este campo se encuentra bloqueado y muestra el tipo de documento con el cual el usuario se puede identificar y es configurado por el Administrador General del AMsi. (Campo requerido).  
 
-Nro. Documento: Este campo se encuentra bloqueado y muestra el número de Identificación correspondiente al Tipo Documento, de la persona solicitante. (Campo requerido).
+**Nro. Documento:** Este campo se encuentra bloqueado y muestra el número de Identificación correspondiente al Tipo Documento, de la persona solicitante. (Campo requerido).
 
-Contraseña: Este campo se muestra en blanco o sin diligenciar por seguridad, es posible que el usuario digite una contraseña, con el fin de cambiarla. 
+**Contraseña:** Este campo se muestra en blanco o sin diligenciar por seguridad, es posible que el usuario digite una contraseña, con el fin de cambiarla. 
 
 **Nombre Completo:** Nombre completo de la persona que solicita un servicio de mantenimiento. (Campo requerido).
 
-**Teléfono:** Número telefónico donde se puede localizar a la persona solicitante. El número telefónico generalmente corresponde a una dependencia de la organización a la cual pertenece la persona solicitante.
+**Teléfono:** Número telefónico donde se puede localizar a la persona solicitante. Generalmente corresponde a una dependencia de la organización a la cual pertenece la persona solicitante.
 
-Este campo permite ingresar el número telefónico de la siguiente manera:
+**Este campo permite ingresar el número telefónico de la siguiente manera:**
 
 Indicativo del país y de la ciudad + número telefónico fijo. Ejemplo: 
 
-(572)2345678          donde: 
-572 		Colombia, Cali
-2345678	Número de Teléfono Fijo
-Extensión: En este campo se asigna un número de extensión telefónico donde se puede localizar a la persona solicitante.                                    
-Dirección: En este campo se asigna la dirección que corresponde a la organización a la cual pertenece la persona solicitante.  
-Ciudad: En este campo se asigna la ciudad en la cual vive el solicitante o está ubicada la institución para la cual labora. 
-Correo Electrónico: Dirección de correo electrónico de la persona solicitante asignado por la organización, o bien, correo personal del solicitante en caso de no tener una cuenta de correo electrónico corporativa.
-Botón Actualizar: Este botón permite guardar los campos del formulario Datos del Solicitante cuando el solicitante requiere modificar temporal o definitivamente algunos de sus datos básicos. 
+(572) 2345678, donde: 
+(572) Indica el pais Colombia y la ciudad, Cali
+2345678	Indica el número de Teléfono Fijo
 
-Campos Del Formulario Centro de Costo Autorizados 
+**Extensión:** En este campo se asigna un número de extensión telefónico donde se puede localizar a la persona solicitante.  
+
+**Dirección:** En este campo se asigna la dirección que corresponde a la organización a la cual pertenece la persona solicitante.  
+
+**Ciudad:** En este campo se asigna la ciudad en la cual vive el solicitante o está ubicada la institución para la cual labora. 
+
+**Correo Electrónico:** Dirección de correo electrónico de la persona solicitante asignado por la organización, o bien, correo personal del solicitante en caso de no tener una cuenta de correo electrónico corporativa.
+
+**Botón Actualizar:** Este botón permite guardar los campos del formulario Datos del Solicitante cuando el solicitante requiere modificar temporal o definitivamente algunos de sus datos básicos. 
+
+###**Campos Del Formulario Centro de Costo Autorizados**
 Este cuadro permite visualizar los Centros de Costo Autorizados con información del área o dependencia que solicita un servicio de mantenimiento Centros de Costo y el Centro de Servicio al cual está asociado el Centro de Costo. Por configuración del sistema los Centros de Costos son amplios o restrictivos para la Creación de OT/SS, es decir, según los que se asocien al Solicitante. Esta asociación es configuradq únicamente por el Administrador General del AMsi. Es posible asociar a un Solicitante Todos Los Centros de Costo de todas las compañías. Para actualizar la información del cuadro llamado Centros de Costo Autorizados, se debe realizar a través del usuario administrador del AMsi en la transacción de Administrar Usuarios. 
-Centro de Servicio: El campo Centro de Servicio hace referencia a las diferentes compañías creadas en el Administrador de Mantenimiento AM. Estas compañías (centros de servicios) son las directamente responsables de la ejecución de las actividades de mantenimiento al interior de la Organización. En el formulario se visualizan los Centros de Servicios a los que el solicitante está asociado. 
-Centro de Costo: Este campo es crucial para Crear una OT/SS. Se refiere al área de la organización sobre la que se realiza la creación o la consulta de la OT/SS. En el formulario se visualizan los Centros de Costos a los que el solicitante está asociado.
+
+**Centro de Servicio:** El campo Centro de Servicio hace referencia a las diferentes compañías creadas en el Administrador de Mantenimiento AM. Estas compañías (centros de servicios) son las directamente responsables de la ejecución de las actividades de mantenimiento al interior de la Organización. En el formulario se visualizan los Centros de Servicios a los que el solicitante está asociado.
+
+**Centro de Costo:** Este campo es crucial para Crear una OT/SS. Se refiere al área de la organización sobre la que se realiza la creación o la consulta de la OT/SS. En el formulario se visualizan los Centros de Costos a los que el solicitante está asociado.
 De todos modos para una OT/SS en particular es posible cambiar el Centro de Costo y a su vez el Centro de Servicio por parte de Mantenimiento en el AM.
 Para un usuario Solicitante que tenga Todos Los Centros de Costo asociados, este formulario no se visualiza, sino que el Solicitante primero debe elegir el Centro de Servicio y de acuerdo a la compañía elegida, se muestran los Centros de Costos correspondientes.
 Una vez se diligencien todos los campos de Datos del Solicitante, para guardar los cambios se da un clic al botón Actualizar, seguido a esto se muestra un mensaje de confirmación de la transacción.  
@@ -128,69 +136,91 @@ Para la Creación de la SS, dar clic en el siguiente botón mostrado:
 ![Procesar imagen](../assets/images/placeholder.jpg)
 _**Imagen 6.**  Crear Nueva Solicitud_
 
-4.1	Ventana Creación de la Solicitud de Servicio
- Imagen 7.  Ventana Creación SS
+###4.1	Ventana Creación de la Solicitud de Servicio
+
+ ![Procesar imagen](../assets/images/placeholder.jpg)
+_**Imagen 7.**  Ventana Creación SS_
+ 
 Luego de dar clic sobre el botón anterior, el sistema responde mostrando en una nueva ventana, el Detalle del Servicio a solicitar. A través de ella se ejecutan todas las funciones dedicadas a la creación de la SS. A continuación, se describen los campos que la componen, sobre cada uno se da una breve explicación:
 
 
-Campos Del Formulario Datos Del Solicitante
-Este cuadro es informativo y hace referencia a los Datos del Solicitante necesarios para la creación de una SS y que fueron ingresados en Actualizar Perfil visto en el tercer capítulo. Contiene la información personal del solicitante y todos los campos se encuentran bloqueados. 
-Nro. Documento: Este campo muestra el número de Identificación de la persona solicitante. 
-Nombre Completo: Este campo muestra el Nombre completo de la persona que solicita un servicio de mantenimiento.
-Teléfono: Este campo muestra el Número telefónico donde se puede localizar a la persona solicitante.
-Dirección: Este campo muestra la dirección asignada y que corresponde a la organización a la cual pertenece la persona solicitante.  
-Ciudad: Este campo muestra la ciudad asignada y en la cual vive el solicitante o está ubicada la institución para la cual labora. 
-Correo Electrónico: Este campo muestra la Dirección de correo electrónico asignada a la persona solicitante por la organización, o bien, correo personal del solicitante en caso de no tener una cuenta de correo electrónico corporativa.
+###**Campos Del Formulario _Datos Del Solicitante_**
+Este cuadro es informativo y hace referencia a los Datos del Solicitante necesarios para la creación de una SS y que fueron ingresados en Actualizar Perfil visto en el tercer capítulo. Contiene la información personal del solicitante y todos los campos se encuentran bloqueados.
 
-Campos Del Formulario Servicio Solicitado 
+**Nro. Documento:** Este campo muestra el número de Identificación de la persona solicitante. 
+
+**Nombre Completo:** Este campo muestra el Nombre completo de la persona que solicita un servicio de mantenimiento.
+
+**Teléfono:** Este campo muestra el Número telefónico donde se puede localizar a la persona solicitante.
+
+**Dirección:** Este campo muestra la dirección asignada y que corresponde a la organización a la cual pertenece la persona solicitante.  
+
+**Ciudad:** Este campo muestra la ciudad asignada y en la cual vive el solicitante o está ubicada la institución para la cual labora. 
+
+**Correo Electrónico:** Este campo muestra la Dirección de correo electrónico asignada a la persona solicitante por la organización, o bien, correo personal del solicitante en caso de no tener una cuenta de correo electrónico corporativa.
+
+### **Campos Del Formulario Servicio Solicitado **
 El formulario Servicio Solicitado  hace referencia a los datos de la SS que se está creando.
-Todos los campos marcados con asterisco (*) son de carácter obligatorio. 
-Mensaje: Este mensaje que se desliza, es configurado por el Administrador General del AMsi en General. Para mayor información dirigirse al capítulo Configuración AMsi. Su finalidad es notificar a los usuarios solicitantes.    
-Centro de Servicio: Este campo permanece bloqueado y muestra la información de la compañía relacionada al Centro de Costo elegido. Esto, para usuarios que tengan relacionado uno o varios Centros de Costos de una o varias compañías. 
-En caso de ser un usuario que tenga asociado Todos Los Centros de Costo, este campo se muestra desbloqueado y es posible elegir el Centro de Servicio deseado.  
-Centro de Costo: En este campo se elige de la lista desplegable el Centro de Costo al que se le va a realizar la SS. Al seleccionar el Centro de Costo, se muestra automáticamente en el campo Centro de Servicio, el nombre del Centro de Servicio al cual está asociado el Centro de Costo seleccionado. Esto, para usuarios que tengan relacionado uno o varios Centros de Costos de una o varias compañías. Solo se listan los Centros de Costo que el usuario solicitante tenga  asociados. 
+Todos los campos marcados con asterisco (*) son de carácter obligatorio.
+
+**Mensaje:** Este mensaje que se desliza, es configurado por el Administrador General del AMsi en General. Para mayor información dirigirse al capítulo Configuración AMsi. Su finalidad es notificar a los usuarios solicitantes.    
+
+**Centro de Servicio:** Este campo permanece bloqueado y muestra la información de la compañía relacionada al Centro de Costo elegido. Esto, para usuarios que tengan relacionado uno o varios Centros de Costos de una o varias compañías. 
+En caso de ser un usuario que tenga asociado Todos Los Centros de Costo, este campo se muestra desbloqueado y es posible elegir el Centro de Servicio deseado.
+
+**Centro de Costo:** En este campo se elige de la lista desplegable el Centro de Costo al que se le va a realizar la SS. Al seleccionar el Centro de Costo, se muestra automáticamente en el campo Centro de Servicio, el nombre del Centro de Servicio al cual está asociado el Centro de Costo seleccionado. Esto, para usuarios que tengan relacionado uno o varios Centros de Costos de una o varias compañías. Solo se listan los Centros de Costo que el usuario solicitante tenga  asociados. 
 En caso de ser un usuario que tenga asociado Todos Los Centros de Costo, este campo se listan únicamente los Centros de Costo existentes en el Centro de Servicio seleccionado. 
-Descripción: En este campo se digita en forma detallada el servicio de mantenimiento requerido. Se detalla el problema, inconveniente, necesidad o avería a ser atendida.
-Activo/Equipo: En este campo se ingresa el Activo/Equipo de la organización que requiere atención de mantenimiento. Dependiendo de la configuración, este campo se puede habilitar (1) para describir el equipo en lenguaje natural o (2) para seleccionarlo de la lista que se despliega dando clic al ícono de filtro azul (Triángulo Invertido) que se encuentra en la parte derecha del campo. La lista desplegada incluye los Activos/Equipos creados previamente en el AM y que a la vez están asociados al Centro de Costo de la compañía correspondiente.
+
+**Descripción:** En este campo se digita en forma detallada el servicio de mantenimiento requerido. Se detalla el problema, inconveniente, necesidad o avería a ser atendida.
+
+**Activo/Equipo:** En este campo se ingresa el Activo/Equipo de la organización que requiere atención de mantenimiento. Dependiendo de la configuración, este campo se puede habilitar 
+**(1)** para describir el equipo en lenguaje natural o **(2)** para seleccionarlo de la lista que se despliega dando clic al ícono de filtro azul (Triángulo Invertido) que se encuentra en la parte derecha del campo. La lista desplegada incluye los Activos/Equipos creados previamente en el AM y que a la vez están asociados al Centro de Costo de la compañía correspondiente.
 Existe control en todos los casos sobre el Centro de Costo, es decir, solo se despliegan o se permiten elegir Activos/Equipos que estén asociados al Centro de Costo definido en el campo Centro de Costo.
 Para describir el Activo/Equipo en lenguaje natural se da clic al cuadro ubicado al lado izquierdo de este campo, inmediatamente se habilitan dos campos que pueden ser diligenciados. El primer campo es para describir en lenguaje natural el Activo/Equipo, y el segundo campo es para describir también en lenguaje natural la ubicación física del Activo o Equipo referenciado. 
 Para seleccionar el Activo/Equipo se da clic en el icono de filtro azul (Triángulo Invertido) ubicado al lado derecho de este campo, inmediatamente se abre una nueva ventana para elegir el Activo/Equipo, para seleccionarlo se da doble clic sobre el registro, se cierra esta ventana automáticamente y se observa que aparece el código y la descripción del Activo/Equipo. 
-Descripción: Este campo permanece bloqueado y muestra la descripción del Activo/Equipo seleccionado.      
-Prioridad: Este campo viene predefinido con las prioridades Alta, Media y Baja. Lo utiliza el programador de mantenimiento como guía para establecer la agilidad (normal o priorizada) en la asignación del recurso humano de mantenimiento para la ejecución del trabajo solicitado.
-F/H Tentativa del Usuario: En este campo se asigna una fecha y hora que el usuario solicitante considere que el área de Mantenimiento le haga entrega de la solicitud realizada. Es un campo opcional de diligenciar. 
-Botón Enviar: Este botón envía inmediatamente la SS a la base de datos del AM para ser revisada por el área de mantenimiento encargada y proceder así con su análisis y asignación. 
+
+**Descripción:** Este campo permanece bloqueado y muestra la descripción del Activo/Equipo seleccionado.  
+
+**Prioridad:** Este campo viene predefinido con las prioridades Alta, Media y Baja. Lo utiliza el programador de mantenimiento como guía para establecer la agilidad (normal o priorizada) en la asignación del recurso humano de mantenimiento para la ejecución del trabajo solicitado.
+
+**F/H Tentativa del Usuario:** En este campo se asigna una fecha y hora que el usuario solicitante considere que el área de Mantenimiento le haga entrega de la solicitud realizada. Es un campo opcional de diligenciar.
+
+**Botón Enviar:** Este botón envía inmediatamente la SS a la base de datos del AM para ser revisada por el área de mantenimiento encargada y proceder así con su análisis y asignación. 
 Una vez enviada la SS, el sistema muestra un mensaje de notificación de registro exitoso, mostrando el número o consecutivo asignado. Se habilitan además las opciones de Crear Nueva Solicitud y Consultar Mis Solicitudes, como se muestra a continuación:
- 
-                                   Imagen 8.  Mensaje registro SS
 
-Botón Crear Nueva Solicitud: Se usa para crear nuevas solicitudes de servicio. Aplica cuando se ha enviado una SS y se desea generar una nueva.
-Botón Consultar Mis Solicitudes: Este botón lo remite a una nueva ventana en la que puede realizar búsquedas y consultas de SS creadas previamente. Para mayor información al respecto se detalla en la sección de “Consultar Mis Solicitudes” de este manual.
+![Procesar imagen](../assets/images/placeholder.jpg)
+**_Imagen 8.  Mensaje registro SS_**
+
+**Botón Crear Nueva Solicitud:** Se usa para crear nuevas solicitudes de servicio. Aplica cuando se ha enviado una SS y se desea generar una nueva.
+
+**Botón Consultar Mis Solicitudes:** Este botón lo remite a una nueva ventana en la que puede realizar búsquedas y consultas de SS creadas previamente. Para mayor información al respecto se detalla en la sección de “Consultar Mis Solicitudes” de este manual.
 Botón Inicio: Este botón lleva a la ventana de Menú Principal del Usuario.
-Botón Cerrar Sesión: Este botón permite salir de la aplicación AMsi .  
 
-5.	 Consultar Mis Solicitudes  
+**Botón Cerrar Sesión:** Este botón permite salir de la aplicación AMsi .  
+
+## 5. Consultar Mis Solicitudes
 Este capítulo guía para ejecutar consultas de SS creadas desde AMsi. 
+
 AMsi solo permite realizar creación y consultas para uno de los dos tipos de registro a la vez: OT o SS, pero no para los dos simultáneamente. Ello depende de la Configuración del aplicativo que se haya elegido, según la necesidad de la Organización.
+
 La Configuración del AMsi se describe en detalle en el Capítulo 9 de este manual.
-En este capítulo
+
+**En este capítulo**
 •	Subgrupos
 •	Consulta de Solicitudes
 •	Visor de Solicitudes
 
-5.1 Subgrupos 
+### 5.1 Subgrupos 
 Inicialmente esta transacción trae el listado del total de las SS que se han realizado para la Organización por parte de otros usuarios solicitantes.
 En el caso de que el Administrador del AMsi haya asociado Todos los Centros de Costos al Usuario logueado, se mostrarán todas las SS para todos los Centros De Servicio (compañías).
 Sin embargo, es posible hacer Subgrupos (búsquedas específicas) a través del ícono de triángulo invertido superior derecho y ver solo las SS creadas por el Usuario logueado. Esto tiene como finalidad de que el usuario pueda realizar constantemente y en tiempo real el seguimiento y consultas a sus SS. A esta ventana se llega al dar clic a la opción de Consultar Mis Solicitudes en la ventana de Menú Principal.  
- 
-Imagen 9.  Consultar Mis Solicitudes 
+
+![Procesar imagen](../assets/images/placeholder.jpg)
+**_Imagen 9.  Consultar Mis Solicitudes_**
+
 AMsi mantiene activo cualquier subgrupo, hasta que el usuario lo modifique o restablezca los valores estándar. Cuando el ícono se muestra con una pelota roja, está indicando que lo que se visualiza en el visor es un subgrupo. El sistema permite entonces hacer selección de un grupo de SS de acuerdo con los criterios seleccionados.
 
 Una vez dado un clic sobre el ícono de subgrupos, se muestran los siguientes criterios de búsqueda:
-
-
-
-
-
 
 Los campos de datos que constituyen criterio de selección en la Ventana Subgrupo de AMsi son los siguientes:
 
