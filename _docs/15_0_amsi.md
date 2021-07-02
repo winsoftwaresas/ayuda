@@ -213,7 +213,8 @@ La Configuración del AMsi se describe en detalle en el Capítulo 9 de este manu
 ### 5.1 Subgrupos 
 Inicialmente esta transacción trae el listado del total de las SS que se han realizado para la Organización por parte de otros usuarios solicitantes.
 En el caso de que el Administrador del AMsi haya asociado Todos los Centros de Costos al Usuario logueado, se mostrarán todas las SS para todos los Centros De Servicio (compañías).
-Sin embargo, es posible hacer Subgrupos (búsquedas específicas) a través del ícono de triángulo invertido superior derecho y ver solo las SS creadas por el Usuario logueado. Esto tiene como finalidad de que el usuario pueda realizar constantemente y en tiempo real el seguimiento y consultas a sus SS. A esta ventana se llega al dar clic a la opción de Consultar Mis Solicitudes en la ventana de Menú Principal.  
+Sin embargo, es posible hacer Subgrupos (búsquedas específicas) a través del ícono de triángulo invertido superior derecho y ver solo las SS creadas por el Usuario logueado. Esto tiene como finalidad de que el usuario pueda realizar constantemente y en tiempo real el seguimiento y consultas a sus SS. 
+A esta ventana se llega al dar clic a la opción de Consultar Mis Solicitudes en la ventana de Menú Principal.  
 
 ![Procesar imagen](../assets/images/placeholder.jpg)
 **_Imagen 9.  Consultar Mis Solicitudes_**
@@ -224,35 +225,35 @@ Una vez dado un clic sobre el ícono de subgrupos, se muestran los siguientes cr
 
 Los campos de datos que constituyen criterio de selección en la Ventana Subgrupo de AMsi son los siguientes:
 
-1.	FILTRAR POR CAMPOS DEL ACTIVO ASOCIADO A LA SOLICITUD DE SERVICIO
+##### **1. FILTRAR POR CAMPOS DEL ACTIVO ASOCIADO A LA SOLICITUD DE SERVICIO**
 
-AC - Código: Esta selección agrupa las SS cuyo Activo coincidan con el relacionado en este criterio. Es posible definir el código completo o una porción del mismo. 
+**AC - Código:** Esta selección agrupa las SS cuyo Activo coincidan con el relacionado en este criterio. Es posible definir el código completo o una porción del mismo. 
 
-AC-Descripción: Selecciona las SS asociadas a los Activos según criterios que se fundamenten en su descripción.  Ejemplo: Motor selecciona todos los Activos, en cuya descripción, en cualquier posición, tengan la palabra “Motor”.
+**AC-Descripción:** Selecciona las SS asociadas a los Activos según criterios que se fundamenten en su descripción.  Ejemplo: Motor selecciona todos los Activos, en cuya descripción, en cualquier posición, tengan la palabra “Motor”.
 
-Activo en lenguaje natural: Permite filtrar las SS que contengan parte del nombre igual del Activo.
-
-
-2.	FILTRAR POR CAMPOS DE LA SOLICITUD DE SERVICIO
-
-Centro de Costo: Permite la selección de SS de acuerdo con  el Centro de Costo asignado a ella. Existen dos formas de definir el Centro de Costo. La primera es seleccionando el Centro de Costo de la lista desplegable. La segunda es dando clic al icono de candado y digitando a continuación segmentos del nombre del Centro de Costo usando comodines (%). Cuando se utilizan comodines, es posible seleccionar las SS pertenecientes a Centros de Costo que tengan parte del nombre igual. Por ejemplo: Sistema% selecciona todos los registros en cuyo Centro de Costo exista la palabra Sistema, independiente de si se está hablando del Sistema de Agua, de Vapor o de Energía.
-
-Diagnóstico del Usuario: Permite la selección de SS de acuerdo con una parte de la Descripción del usuario. Se debe digitar manualmente y es posible usar comodines.
-
-Rango Consecutivo de Solicitud: Permite la selección de las SS cuyo número consecutivo se encuentre incluido dentro  del  rango  especificado en  este criterio. Aparecen dos campos: Desde y Hasta. En cada uno de ellos se digita un número consecutivo de solicitud. 
-
-Estado de la Solicitud: Este criterio agrupa las SS de acuerdo al Estado que se encuentra en el visor, en este campo se debe poner la abreviatura del estado de la SS, siendo los siguientes: Análisis (AN), Asignada (AS), En Ejecución (EJ), Cerrada no ejecutada (NE), Cerrada Ejecutada (CE), Cerrada con OT (CO), Cerrada Parcial (CP).
-
-FF de Creación: Permite la selección de SS cuya fecha de Creación se encuentren incluidas en el rango especificado en este campo.
-
-Solicitante (AMsi): Este campo permite seleccionar las SS activas para el Solicitante aquí definido. Para seleccionarlo se debe  elegir un usuario de la lista desplegable.
-
-Responsable: Permite la  selección de SS cuyo Responsable  fue especificado en este campo. Es posible usar comodines (%).
-
-Ubicación  física: Permite la selección de  las SS cuyo Activo esté en la  ubicación física que se determina en este criterio. Es posible digitar una parte y usar comodines (%).
+**Activo en lenguaje natural:** Permite filtrar las SS que contengan parte del nombre igual del Activo.
 
 
-5.2 Consulta de Solicitudes
+##### **2. FILTRAR POR CAMPOS DE LA SOLICITUD DE SERVICIO**
+
+**Centro de Costo:** Permite la selección de SS de acuerdo con  el Centro de Costo asignado a ella. Existen dos formas de definir el Centro de Costo. La primera es seleccionando el Centro de Costo de la lista desplegable. La segunda es dando clic al icono de candado y digitando a continuación segmentos del nombre del Centro de Costo usando comodines (%). Cuando se utilizan comodines, es posible seleccionar las SS pertenecientes a Centros de Costo que tengan parte del nombre igual. Por ejemplo: Sistema% selecciona todos los registros en cuyo Centro de Costo exista la palabra Sistema, independiente de si se está hablando del Sistema de Agua, de Vapor o de Energía.
+
+**Diagnóstico del Usuario:** Permite la selección de SS de acuerdo con una parte de la Descripción del usuario. Se debe digitar manualmente y es posible usar comodines.
+
+**Rango Consecutivo de Solicitud:** Permite la selección de las SS cuyo número consecutivo se encuentre incluido dentro  del  rango  especificado en  este criterio. Aparecen dos campos: Desde y Hasta. En cada uno de ellos se digita un número consecutivo de solicitud. 
+
+**Estado de la Solicitud:** Este criterio agrupa las SS de acuerdo al Estado que se encuentra en el visor, en este campo se debe poner la abreviatura del estado de la SS, siendo los siguientes: Análisis (AN), Asignada (AS), En Ejecución (EJ), Cerrada no ejecutada (NE), Cerrada Ejecutada (CE), Cerrada con OT (CO), Cerrada Parcial (CP).
+
+**FF de Creación:** Permite la selección de SS cuya fecha de Creación se encuentren incluidas en el rango especificado en este campo.
+
+**Solicitante (AMsi):** Este campo permite seleccionar las SS activas para el Solicitante aquí definido. Para seleccionarlo se debe  elegir un usuario de la lista desplegable.
+
+**Responsable:** Permite la  selección de SS cuyo Responsable  fue especificado en este campo. Es posible usar comodines (%).
+
+**Ubicación  física:** Permite la selección de  las SS cuyo Activo esté en la  ubicación física que se determina en este criterio. Es posible digitar una parte y usar comodines (%).
+
+
+### 5.2 Consulta de Solicitudes
 Para realizar la consulta de una SS, basta con dar clic a uno de los registros de las SS listadas, y a continuación se muestra en detalle toda la información allí contenida.
  
 Imagen 10.  Ventana Detalle de la SS
