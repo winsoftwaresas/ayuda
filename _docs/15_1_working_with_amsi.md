@@ -1,6 +1,6 @@
 ---
 title: Trabajando con AMsi
-subtitle: Esta sección presenta el **AMsi, herramienta para generar OT y/o SS en el AM, su colaborador natural.
+subtitle: Esta sección presenta el AMsi, herramienta para generar OT y/o SS en el AM, su colaborador natural.
 tags: [AMsi, Solicitudes de servicio]
 author: win
 ---

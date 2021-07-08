@@ -512,94 +512,117 @@ Estos campos solo son manipulados por los encargados del área de mantenimiento 
 
 **Comentario:** El campo comentario es un campo que no es modificable. A través de este visor que muestra el Detalle de la OT, es posible que el usuario realice comentarios relevantes e importantes para el área de Mantenimiento. Para realizar los comentarios, se debe dirigir al final de la Ventana Detalle de la OT y digitar el comentario en el campo llamado “Comentario”, para agregarlo a la OT se debe dar clic al botón Agregar Comentario. Al dar clic al botón “Agregar Comentario” aparecerá el comentario ingresado al lado derecho en una ventana tipo chat bloqueada y a su vez inhabilita la modificación de los comentarios que allí se encuentren; además de la fecha, hora y el usuario logueado que realizó el comentario. Estos comentarios también se visualizan desde el módulo de Ordenes de **AM**.
 
+![Procesar imagen](../assets/images/placeholder.jpg)
+_**Imagen 22.  Ventana Detalle de la OT (Comentarios)**_
 
-Imagen 19.  Ventana Detalle de la OT (Comentarios)
+## 9.	Configuración **AMsi**
 
-9.	 Configuración **AMsi**    
 Este capítulo, orientado al Administrador General del **AMsi**, se concentra en la funcionalidad de la opción Configuración.
+
 Se definen los criterios, preferencias, particularidades y modos de visualización sobre la información disponible en los formularios básicos del aplicativo al igual que los permisos y parametrización general del mismo. También, se incluye la administración sobre los usuarios de **AMsi**. 
-En este capítulo
-•	Acceso al modo Configuración 
-•	Configuración General
-•	Información del Solicitante
-•	Configuración Servicio Solicitado
-•	Configuración Identificación de Activo
-•	Configuración Seguridad
-•	Finalizando la Configuración
-•	Administrar Usuarios
 
+**En este capítulo**
 
+- Acceso al modo Configuración 
+- Configuración General
+- Información del Solicitante
+- Configuración Servicio Solicitado
+- Configuración Identificación de Activo
+- Configuración Seguridad
+- Finalizando la Configuración
+- Administrar Usuarios
 
-9.1	Acceso al modo Configuración
+### 9.1	Acceso al modo Configuración
 
 Como se indicó al inicio de este capítulo, sólo el Administrador encargado del  **AMsi**  puede acceder a esta sección del aplicativo. WIN Software suministra los datos de acceso una vez se instale el aplicativo en la Infraestructura del Cliente.
+
 Para poder ingresar a la configuración de  **AMsi** , el Administrador debe conocer el nombre de usuario y contraseña del Administrador del aplicativo. Tales datos se ingresan en la ventana de acceso.
- 
-Imagen 20. Ventana Acceso **AMsi**
-Una vez se ingrese el Usuario y la Contraseña de manera correcta, se puede observar el Menú Principal del Usuario Administrador del  **AMsi** .
 
+![Procesar imagen](../assets/images/placeholder.jpg)
+_**Imagen 23. Ventana Acceso **AMsi****_
 
-9.2	Ventana de Menú Principal del Usuario Administrador
+Una vez se ingrese el Usuario y la Contraseña de manera correcta, se puede observar el _Menú Principal del Usuario Administrador_ del  **AMsi** .
+
+### 9.2	Ventana de Menú Principal del Usuario Administrador
 
 La ventana de Menú Principal del Usuario Administrador muestra las transacciones que el usuario puede realizar a través del **AMsi**. 
  
-Imagen 21.  Ventana Menú Principal del Usuario Administrador
+![Procesar imagen](../assets/images/placeholder.jpg)
+_**Imagen 24.  Ventana Menú Principal del Usuario Administrador**_
+
 A continuación, se describen las transacciones que componen esta ventana. 
 
-Configuración: Esta opción permite configurar los criterios, preferencias, particularidades y modos de visualización sobre la información disponible en los formularios básicos del aplicativo al igual que los permisos y parametrización general del mismo. 
-Administrar Usuarios: Esta opción permite la creación de los usuarios que ingresarán al  **AMsi** , registro de información específica del usuario y la asociación de los Centros de Costo. 
+**Configuración:** Esta opción permite configurar los criterios, preferencias, particularidades y modos de visualización sobre la información disponible en los formularios básicos del aplicativo al igual que los permisos y parametrización general del mismo.
 
-Cerrar Sesión: Esta opción se usa para salir del aplicativo  **AMsi** . 
+**Administrar Usuarios:** Esta opción permite la creación de los usuarios que ingresarán al  **AMsi** , registro de información específica del usuario y la asociación de los Centros de Costo. 
 
+**Cerrar Sesión:** Esta opción se usa para salir del aplicativo  **AMsi** . 
 
-10.	Configuración    
+## 10.	Configuración
 Este capítulo guía para configurar la funcionalidad de  **AMsi**  respecto a la apariencia que tiene el sistema, sus campos requeridos y la forma en la que se seleccionan algunos de sus componentes.
-En este capítulo
-•	Configuración General
-•	Información del Solicitante
-•	Configuración Servicio Solicitado
-•	Configuración Identificación de Activo
-•	Configuración Seguridad
+
+**En este capítulo**
+- Configuración General
+- Información del Solicitante
+- Configuración Servicio Solicitado
+- Configuración Identificación de Activo
+- Configuración Seguridad
+  
 Una vez ingresados los datos del usuario administrador, dar clic a este botón ubicado en la ventana de Menú Principal para continuar con la Configuración de  **AMsi** .  
  
-Imagen 22.  Configuración 
-A continuación se detallan cada uno de los componentes activos de la Ventana de Configuración del  **AMsi** . Para acceder a esta opción se da clic a la opción Configuración en la ventana de Menú Principal.  
+![Procesar imagen](../assets/images/placeholder.jpg)
+_**Imagen 25. Configuración**_
+
+A continuación se detallan cada uno de los componentes activos de la Ventana de Configuración del  **AMsi** . Para acceder a esta opción se da clic a la opción Configuración en la ventana de Menú Principal. 
+
+![Procesar imagen](../assets/images/placeholder.jpg)
+_**Imagen 26.  Configuración de **AMsi****_
+
+**Botón Inicio:** Este botón lleva a la ventana de Menú Principal del Usuario Administrador.
+
+**Botón Cerrar Sesión:** Este botón permite salir del aplicativo  **AMsi** .  
+
+### 10.1 Configuración General
+
+Los componentes de la ventana de Configuración General son los que se muestran a continuación. Sobre cada componente se da una breve explicación.
+
+![Procesar imagen](../assets/images/placeholder.jpg)
+_**Imagen 27. Configuración General**_
+
+**Imagen para la cabecera:** Se usa para configurar el logo de la organización, que se visualiza en las diferentes pantallas del  **AMsi** . Se recomienda que el logo tenga formato .jpg , .png , .gif o .pdf ; con el objetivo de agilizar la carga del aplicativo Web.
+
+Al dar clic sobre el botón Seleccionar Archivo se abre una nueva ventana para realizar la búsqueda en disco del logo. Luego de seleccionarlo, el nombre del archivo se visualiza al lado del campo seleccionar archivo. 
+
+![Procesar imagen](../assets/images/placeholder.jpg) 
+_**Imagen 28.  Imagen para la cabecera**_
+
+**Mensaje en la ventana de registro de la solicitud:** En este campo se digita un mensaje que se desliza y aparece en la parte superior del formulario de Servicio Solicitado. Este campo permite hasta 500 caracteres. 
  
-Imagen 23.  Configuración de **AMsi**
+![Procesar imagen](../assets/images/placeholder.jpg)
+_**Imagen 29.  Mensaje en la ventana registro de la solicitud**_
 
-Botón Inicio: Este botón lleva a la ventana de Menú Principal del Usuario Administrador.
-Botón Cerrar Sesión: Este botón permite salir del aplicativo  **AMsi** .  
+**Generar automáticamente Órdenes al guardar la solicitud:** Indica que el aplicativo se usa para la creación de Órdenes de Trabajo en lugar de crear Solicitudes de Servicio. En tal caso, los botones de Crear Nueva Solicitud y Consultar Mis Solicitudes cambian a Crear Nueva Orden y Consultar Mis Ordenes respectivamente. El sistema entonces cambia su funcionalidad para Crear y Consultar Órdenes de Trabajo.
 
+![Procesar imagen](../assets/images/placeholder.jpg)
+_**Imagen 30. Generar automáticamente Ordenes al guardar la solicitud**_
 
-10.1	 Configuración General
+**Los solicitantes son:**
 
-Los componentes de la ventana de Configuración General son los que se muestran a continuación. Sobre cada componente se da una breve explicación.  
- 
-Imagen 24.  Configuración General
+- Internos (Empleados, Visitantes).
+Exige el campo “Centro de Costo” 
 
-Imagen para la cabecera: Se usa para configurar el logo del Cliente, que se visualiza en las diferentes pantallas del  **AMsi** . Se recomienda que el logo tenga formato .jpg , .png , .gif o .pdf ; con el objetivo de agilizar la carga del aplicativo Web.
-Al dar clic sobre el botón Seleccionar Archivo se abre una nueva ventana para realizar la búsqueda en disco del logo del Cliente. Luego de seleccionar el archivo, se observa que el nombre del archivo se visualiza al lado del campo seleccionar archivo. 
-  
-Imagen 25.  Imagen para la cabecera
-Mensaje en la ventana de registro de la solicitud: En este campo se digita un mensaje que se desliza y aparece en la parte superior del formulario de Servicio Solicitado. Este campo permite hasta 500 caracteres. 
- 
-Imagen 26.  Mensaje en la ventana registro de la solicitud
-Generar automáticamente Órdenes al guardar la solicitud: Indica que el aplicativo se usa para la creación de Órdenes de Trabajo en lugar de crear Solicitudes de Servicio. En tal caso, los botones de Crear Nueva Solicitud y Consultar Mis Solicitudes cambian a Crear Nueva Orden y Consultar Mis Ordenes respectivamente. El sistema entonces cambia su funcionalidad para Crear y Consultar Órdenes de Trabajo.
- 
-Imagen 27.  Generar automáticamente Ordenes al guardar la solicitud
-Los solicitantes son: 
-•	Internos (Empleados, Visitantes)
-Exige el campo “Centro de Costo”.  
-•	Externos (Clientes ,Proveedores)
+- Externos (Clientes, Proveedores)
 Se elimina el campo “Centro de Costo”, exigiendo en su defecto el campo NIT seguido del nombre de la Empresa.
- 
-Imagen 28.  Solicitantes internos o externos
 
-10.2	 Información del Solicitante
+![Procesar imagen](../assets/images/placeholder.jpg)
+_**Imagen 31.  Solicitantes internos o externos**_
+
+### 10.2 Información del Solicitante
 
 En esta ventana se configuran los campos que serán exigidos en la sección Datos del Solicitante. Los componentes de la ventana de Información del Solicitante son los que se muestran a continuación. Sobre cada componente se da una breve explicación.  
- 
-Imagen 29.  Información del Solicitante 
+
+![Procesar imagen](../assets/images/placeholder.jpg)
+_**Imagen 32.  Información del Solicitante **_
 
 ¿El Teléfono es requerido?: Marcar SI indica que este campo es obligatorio y se identifican con un asterisco * de color rojo entre paréntesis que antecede el nombre del campo. Además, indica que debe ser llenado por los usuarios. Marcar NO implica dejar el campo a manera opcional de diligenciamiento para el solicitante al momento de actualizar la información dese Actualizar Perfil o para el usuario administrador al momento de crear y actualizar los usuarios.
  

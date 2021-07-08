@@ -5,7 +5,7 @@ tags: [AMsi, Actualizar Perfil]
 author: win
 ---
 
-Esta transacción permite que el usuario pueda actualizar la información personal cuando lo requiera y visualizar los Centros de Costos asociados. Para acceder a esta ventana se da un clic a este botón ubicado en la ventana de Menú Principal.
+Para acceder a esta ventana se da un clic a este botón ubicado en la ventana de Menú Principal.
 
 ![Procesar imagen](../assets/images/placeholder.jpg)
 _**Imagen 3.** Botón Actualizar Perfil_
