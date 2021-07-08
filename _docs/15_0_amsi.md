@@ -3,7 +3,7 @@ layout: page
 title: Solicitudes de Servicio (SS) por Internet e Intranet AMsi
 ---
 
-##1. Trabajando con AMsi
+## 1. Trabajando con AMsi
 
 Esta sección presenta el **AMsi**, herramienta para generar OT y/o SS en el AM, su colaborador natural. 
 Contiene información básica sobre el ingreso al aplicativo, mostrando de manera general la interfaz del usuario. Se aprende a interpretar y a usar el formulario de acceso para la creación de OT y/o SS, así como también a reconocer los comandos de los botones que aparecen en pantalla.
@@ -230,7 +230,7 @@ Los campos de datos que constituyen criterio de selección en la Ventana Subgrup
 
 ##### **FILTRAR POR CAMPOS DEL ACTIVO ASOCIADO A LA SOLICITUD DE SERVICIO**
 
-**AC - Código:** Esta selección agrupa las SS cuyo Activo coincidan con el relacionado en este criterio. Es posible definir el código completo o una porción del mismo. 
+**AC-Código:** Esta selección agrupa las SS cuyo Activo coincidan el código completo o una porción del mismo. 
 
 **AC-Descripción:** Selecciona las SS asociadas a los Activos según criterios que se fundamenten en su descripción.  Ejemplo: Motor selecciona todos los Activos, en cuya descripción, en cualquier posición, tengan la palabra “Motor”.
 
