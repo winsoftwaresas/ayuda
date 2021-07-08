@@ -76,7 +76,7 @@
 
 - title: AMsi
   docs:
-  - 15_1_working_with_amsi
+  - 15_1_working_with_AMsi
   - 15_2_ui
   - 15_3_update_profile
   - 15_4_create_a_new_request
@@ -84,7 +84,7 @@
   - 15_6_request_evaluation
   - 15_7_create_a_new_order
   - 15_8_orders_consulting
-  - 15_9_amsi_settings
+  - 15_9_AMsi_settings
   - 15_10_user_managing
   - 15_11_logout
 

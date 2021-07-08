@@ -263,7 +263,7 @@ Ventana Subgrupo de Solicitudes de Servicio son los siguientes:
 
 **Fecha Inicio de Trabajos:** Este criterio filtra las Solicitudes de Servicio por un rango de la Fecha de Inicio de Trabajos. Aparecen dos campos: Desde y Hasta. En cada uno de ellos se digita una fecha. De no digitar el campo ** “Desde”**, se buscan las Solicitudes de Servicio cuya fecha de inicio de trabajos esté en el lapso anterior a la fecha digitada en ** “Hasta”**. De no digitar el campo ** “Hasta”**, se buscan las SS cuya fecha de inicio de trabajos esté en un lapso posterior a la digitada en ** “Desde”**.
 
-**Fuente de Creación:** Este criterio filtra las Solicitudes de Servicio definiendo su origen de creación. Hay tres maneras de dar origen a una SS: Por el módulo de Solicitudes de AM, por el módulo de Solicitudes AMSI o por un archivo plano.
+**Fuente de Creación:** Este criterio filtra las Solicitudes de Servicio definiendo su origen de creación. Hay tres maneras de dar origen a una SS: Por el módulo de Solicitudes de AM, por el módulo de Solicitudes **AMsi** o por un archivo plano.
 
 **Prioridad:**  Este  criterio  filtra  las  Solicitudes  de  Servicios  según  la  Prioridad seleccionada por el usuario. 
 

@@ -654,7 +654,7 @@ Se puede realizar la evaluación del servicio prestado por el personal de manten
 
 ![Ventana Detalle](manualAM/0.images/cap11/chp11_img13.png)
 
-Esta opción está disponible cuando se han  definido las cinco preguntas de evaluación, en ** “Parámetros para Evaluación del Servicio”**, en  ** “Valores por  Defecto”**, en  el  módulo de ** “Administración”** y también es posible realizar la evaluación del servicio a través del -Amsi- sin la necesidad de ingresar a –AM4G-.
+Esta opción está disponible cuando se han  definido las cinco preguntas de evaluación, en ** “Parámetros para Evaluación del Servicio”**, en  ** “Valores por  Defecto”**, en  el  módulo de ** “Administración”** y también es posible realizar la evaluación del servicio a través del -**AMsi**- sin la necesidad de ingresar a –AM4G-.
 
 ### Multimedia
 

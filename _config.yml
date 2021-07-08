@@ -108,6 +108,7 @@ uploads:            /uploads/
 # Build settings
 markdown:           kramdown
 highlighter:        rouge
+livereload:         true
 
 plugins:
   - jekyll-feed
