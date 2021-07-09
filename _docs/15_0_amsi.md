@@ -624,79 +624,106 @@ En esta ventana se configuran los campos que serán exigidos en la sección Dato
 ![Procesar imagen](../assets/images/placeholder.jpg)
 _**Imagen 32.  Información del Solicitante **_
 
-¿El Teléfono es requerido?: Marcar SI indica que este campo es obligatorio y se identifican con un asterisco * de color rojo entre paréntesis que antecede el nombre del campo. Además, indica que debe ser llenado por los usuarios. Marcar NO implica dejar el campo a manera opcional de diligenciamiento para el solicitante al momento de actualizar la información dese Actualizar Perfil o para el usuario administrador al momento de crear y actualizar los usuarios.
- 
-Imagen 30.  Teléfono requerido 
-¿La Extensión es requerida?: Marcar SI indica que este campo es obligatorio y se identifican con un asterisco * de color rojo entre paréntesis que antecede el nombre del campo. Además, indica que debe ser llenado por los usuarios. Marcar NO implica dejar el campo a manera opcional de diligenciamiento para el solicitante al momento de actualizar la información dese Actualizar Perfil o para el usuario administrador al momento de crear y actualizar los usuarios.
- 
-Imagen 31.  Extensión requerida 
-¿La Dirección es requerida?: Marcar SI indica que este campo es obligatorio y se identifican con un asterisco * de color rojo entre paréntesis que antecede el nombre del campo. Además, indica que debe ser llenado por los usuarios. Marcar NO implica dejar el campo a manera opcional de diligenciamiento para el solicitante al momento de actualizar la información dese Actualizar Perfil o para el usuario administrador al momento de crear y actualizar los usuarios.
- 
-Imagen 32.  Dirección requerida 
-¿La Ciudad es requerida?: Marcar SI indica que este campo es obligatorio y se identifican con un asterisco * de color rojo entre paréntesis que antecede el nombre del campo. Además, indica que debe ser llenado por los usuarios. Marcar NO implica dejar el campo a manera opcional de diligenciamiento para el solicitante al momento de actualizar la información dese Actualizar Perfil o para el usuario administrador al momento de crear y actualizar los usuarios.
- 
-Imagen 33.  Ciudad requerida
-¿El Correo Electrónico es requerido?: Marcar SI indica que este campo es obligatorio y se identifican con un asterisco * de color rojo entre paréntesis que antecede el nombre del campo. Además, indica que debe ser llenado por los usuarios. Marcar NO implica dejar el campo a manera opcional de diligenciamiento para el solicitante al momento de actualizar la información dese Actualizar Perfil o para el usuario administrador al momento de crear y actualizar los usuarios.
- 
-Imagen 34.  Correo Electrónico requerido 
+**¿El Teléfono es requerido?:** Marcar SI indica que este campo es obligatorio y se identifican con un asterisco * de color rojo entre paréntesis que antecede el nombre del campo. Además, indica que debe ser llenado por los usuarios. Marcar NO implica dejar el campo a manera opcional de diligenciamiento para el solicitante al momento de actualizar la información dese Actualizar Perfil o para el usuario administrador al momento de crear y actualizar los usuarios.
 
-10.3	 Servicio Solicitado 
+![Procesar imagen](../assets/images/placeholder.jpg) 
+_**Imagen 33.  Teléfono requerido **_
+
+**¿La Extensión es requerida?:** Marcar SI indica que este campo es obligatorio y se identifican con un asterisco * de color rojo entre paréntesis que antecede el nombre del campo. Además, indica que debe ser llenado por los usuarios. Marcar NO implica dejar el campo a manera opcional de diligenciamiento para el solicitante al momento de actualizar la información dese Actualizar Perfil o para el usuario administrador al momento de crear y actualizar los usuarios.
+
+![Procesar imagen](../assets/images/placeholder.jpg) 
+_**Imagen 34. Extensión requerida**_
+
+**¿La Dirección es requerida?:** Marcar SI indica que este campo es obligatorio y se identifican con un asterisco * de color rojo entre paréntesis que antecede el nombre del campo. Además, indica que debe ser llenado por los usuarios. Marcar NO implica dejar el campo a manera opcional de diligenciamiento para el solicitante al momento de actualizar la información dese Actualizar Perfil o para el usuario administrador al momento de crear y actualizar los usuarios.
+
+![Procesar imagen](../assets/images/placeholder.jpg)
+_**Imagen 35.  Dirección requerida **_
+
+**¿La Ciudad es requerida?:** Marcar SI indica que este campo es obligatorio y se identifican con un asterisco * de color rojo entre paréntesis que antecede el nombre del campo. Además, indica que debe ser llenado por los usuarios. Marcar NO implica dejar el campo a manera opcional de diligenciamiento para el solicitante al momento de actualizar la información dese Actualizar Perfil o para el usuario administrador al momento de crear y actualizar los usuarios.
+
+![Procesar imagen](../assets/images/placeholder.jpg) 
+_**Imagen 36.  Ciudad requerida**_
+
+**¿El Correo Electrónico es requerido?:** Marcar SI indica que este campo es obligatorio y se identifican con un asterisco * de color rojo entre paréntesis que antecede el nombre del campo. Además, indica que debe ser llenado por los usuarios. Marcar NO implica dejar el campo a manera opcional de diligenciamiento para el solicitante al momento de actualizar la información desde **Actualizar Perfil** o para el usuario administrador al momento de crear y actualizar los usuarios.
+
+![Procesar imagen](../assets/images/placeholder.jpg) 
+_**Imagen 37.  Correo Electrónico requerido**_
+
+### 10.3 Servicio Solicitado 
 
 En esta ventana se configuran los campos que serán exigidos en la sección Servicio Solicitado. Los componentes de la ventana de Servicio Solicitado son los que se muestran a continuación. Sobre cada componente se da una breve explicación. 
- 
-Imagen 35. Servicio Solicitado 
-¿Cómo nombrar las compañías?: Se refiere a los nombres de las Compañías creadas en el AM, es decir, los Centros de Servicio responsables de las diferentes actividades de mantenimiento del Cliente. Por defecto ellas son nombradas como Centro de Servicio y pueden ser renombradas a gusto según la cultura del Cliente.
-¿Cómo nombrar el Activo?: Se refiere al nombre del campo que describe el   Activo/Equipo que es objeto del servicio en la OT y/o SS. Por defecto ellos son nombrados Activo / Equipo y puede ser cambiado a un nombre que sea más significativo según la cultura de la compañía.
-¿Cómo nombrar la prioridad Alta?: Se refiere a los tipos de prioridades creadas en el AM. Por defecto este campo es nombrado como Emergente y puede ser cambiado a un nombre que sea más significativo dentro de la Compañía. 
-¿Cómo nombrar la prioridad media?: Se refiere a los tipos de prioridades creadas en el AM. Por defecto este campo es nombrado como Urgente y puede ser cambiado a un nombre que sea más significativo dentro de la Compañía. 
-¿Cómo nombrar la prioridad baja?: Se refiere a los tipos de prioridades creadas en el AM. Por defecto este campo es nombrado como Normal y puede ser cambiado a un nombre que sea más significativo dentro de la Compañía. 
 
-10.4	 Identificación del Activo 
+![Procesar imagen](../assets/images/placeholder.jpg) 
+_**Imagen 38. Servicio Solicitado**_
+
+**¿Cómo nombrar las compañías?:** Se refiere a los nombres de las Compañías creadas en el AM, es decir, los Centros de Servicio responsables de las diferentes actividades de mantenimiento del Cliente. Por defecto ellas son nombradas como Centro de Servicio y pueden ser renombradas a gusto según la cultura del Cliente.
+
+**¿Cómo nombrar el Activo?:** Se refiere al nombre del campo que describe el Activo/Equipo que es objeto del servicio en la OT y/o SS. Por defecto ellos son nombrados Activo / Equipo y puede ser cambiado a un nombre que sea más significativo según la cultura de la compañía.
+
+**¿Cómo nombrar la prioridad Alta?:** Se refiere a los tipos de prioridades creadas en el AM. Por defecto este campo es nombrado como Emergente y puede ser cambiado a un nombre que sea más significativo dentro de la Compañía.
+
+**¿Cómo nombrar la prioridad media?:** Se refiere a los tipos de prioridades creadas en el AM. Por defecto este campo es nombrado como Urgente y puede ser cambiado a un nombre que sea más significativo dentro de la Compañía. 
+
+**¿Cómo nombrar la prioridad baja?:** Se refiere a los tipos de prioridades creadas en el AM. Por defecto este campo es nombrado como Normal y puede ser cambiado a un nombre que sea más significativo dentro de la Compañía. 
+
+### 10.4 Identificación del Activo 
 
 En esta ventana se configuran las opciones correspondientes para el campo de Activo / Equipo en el formulario Servicio Solicitado, en el proceso de creación de una SS y/o OT. Los componentes de la ventana de Identificación del Activo son los que se muestran a continuación. Sobre cada componente se da una breve explicación. 
- 
-Imagen 36. Identificación del Activo 
 
-¿Desea describir el Activo en lenguaje natural?: Elegir SI en este botón, habilita un checkbox al extremo izquierdo del campo Activo / Equipo. Al chequear este cuadro, inmediatamente se habilitan dos campos que pueden ser diligenciados. El primer campo es para describir en lenguaje natural el Activo o Equipo hasta con 50 caracteres, y el segundo campo es para describir también en lenguaje natural la ubicación física del Activo o Equipo referenciado hasta con 50 caracteres. De elegir NO, quedará disponible para definir el código de Activo/Equipo solamente del icono de filtro azul y seleccionarlo del visor de Activos. Es de tener en cuenta que cuando se elige la opción para crear Órdenes, esta opción no es posible cambiarla.
-¿La ubicación física es requerida?: Elegir SI indica que éste es un campo obligatorio que debe ser llenado por los usuarios en el formulario Información de la Solicitud. Marcar NO implica que el campo tiene un uso opcional de diligenciamiento para el solicitante. 
+![Procesar imagen](../assets/images/placeholder.jpg) 
+_**Imagen 39. Identificación del Activo**_
+
+**¿Desea describir el Activo en lenguaje natural?:** Elegir SI en este botón, habilita un checkbox al extremo izquierdo del campo Activo / Equipo. Al chequear este cuadro, inmediatamente se habilitan dos campos que pueden ser diligenciados. El primer campo es para describir en lenguaje natural el Activo o Equipo hasta con 50 caracteres, y el segundo campo es para describir también en lenguaje natural la ubicación física del Activo o Equipo referenciado hasta con 50 caracteres. De elegir NO, quedará disponible para definir el código de Activo/Equipo solamente del icono de filtro azul y seleccionarlo del visor de Activos. Es de tener en cuenta que cuando se elige la opción para crear Órdenes, esta opción no es posible cambiarla.
+
+**¿La ubicación física es requerida?:** Elegir SI indica que éste es un campo obligatorio que debe ser llenado por los usuarios en el formulario Información de la Solicitud. Marcar NO implica que el campo tiene un uso opcional de diligenciamiento para el solicitante. 
+
 Si el Activo/Equipo es seleccionado de una lista o ingresado con su respectivo código, el campo Ubicación Física se llena automáticamente en cada caso. Mientras que, si el Activo/Equipo es escrito en lenguaje natural, el campo Ubicación Física queda habilitado para ser diligenciado por el solicitante. Es de tener en cuenta que cuando se elige la opción para crear Órdenes, esta opción no es posible cambiarla.
 
-10.5	 Seguridad 
+### 10.5 Seguridad 
 
 En esta ventana se establece el Usuario y Contraseña del Administrador del  **AMsi** , además se configuran los servidores de correo con usuarios y contraseñas. Los componentes de la ventana de Seguridad son los que se muestran a continuación. Sobre cada componente se da una breve explicación:
- 
-Imagen 37. Seguridad
 
-Usuario Administrador: En este campo se define el usuario Administrador con el cual se accede al sistema para la Configuración de **AMsi**.
-Contraseña: En este campo se asigna una Contraseña para el usuario Administrador, con el fin de acceder a la Configuración de **AMsi**. La Contraseña se muestra en blanco o sin diligenciar por seguridad. 
+![Procesar imagen](../assets/images/placeholder.jpg) 
+_**Imagen 40. Seguridad**_
+
+**Usuario Administrador:** En este campo se define el usuario Administrador con el cual se accede al sistema para la Configuración de **AMsi**.
+
+**Contraseña:** En este campo se asigna una Contraseña para el usuario Administrador, con el fin de acceder a la Configuración de **AMsi**. La Contraseña se muestra en blanco o sin diligenciar por seguridad. 
 Servidor de Correo: En este campo se ubica el servidor de correo de la organización, para habilitar la funcionalidad de envíos por correo.
-Usuario de Correo: En este campo se indica un usuario de correo bajo una estructura válida de una cuenta de correo. Es la cuenta origen desde la que serán enviados los correos de notificación.
-Contraseña de Correo: En este campo se define la Contraseña con la cual se accede a la cuenta de correo ubicada en el campo anterior.
-Utiliza cifrado (SSL): En este campo se habilita la seguridad integrada del cifrado (SSL). Por defecto esta opción es configurado como NO. 
-•	Si
-•	No
 
-10.6	 Finalizando la Configuración
+**Usuario de Correo:** En este campo se indica un usuario de correo bajo una estructura válida de una cuenta de correo. Es la cuenta origen desde la que serán enviados los correos de notificación.
+Contraseña de Correo: En este campo se define la Contraseña con la cual se accede a la cuenta de correo ubicada en el campo anterior.
+
+**Utiliza cifrado (SSL):** En este campo se habilita la seguridad integrada del cifrado (SSL). Por defecto esta opción es configurado como NO. 
+- Si
+- No
+
+### 10.6 Finalizando la Configuración
 
 Una vez realizadas las modificaciones, dar clic al botón Actualizar ubicado al final de esta ventana para guardar la nueva configuración de **AMsi**, el sistema inmediatamente vuelve a la ventana de Menú Principal del Usuario Administrador. 
- 
-Imagen 38. Actualizar Configuración de **AMsi**
 
-11.	Administrar Usuarios   
+![Procesar imagen](../assets/images/placeholder.jpg) 
+_**Imagen 41. Actualizar Configuración de **AMsi****_
+
+## 11.	Administrar Usuarios
+
 Este capítulo orienta en la creación y actualización de datos del usuario, además de la asociación de uno, varios o todos los centros de costo de una o varias compañías, para que los usuarios solicitantes puedan crear SS y/o OT desde  **AMsi** . Se hace de igual forma una ilustración sobre los comandos que aparecen en pantalla.
-En este capítulo
-•	Creación de Usuarios
-•	Actualización de Usuarios 
-•	Asociar Centros de Costo
+
+**En este capítulo**
+- Creación de Usuarios
+- Actualización de Usuarios 
+- Asociar Centros de Costo
 
 Una vez ingresados los datos del usuario administrador de manera correcta, dar clic a este botón ubicado en la ventana de Menú Principal para continuar con la Administración de los Usuarios de  **AMsi** .  
- 
-Imagen 39. Administrar Usuarios 
 
-11.1	 Ventana Visor de Usuarios
+![Procesar imagen](../assets/images/placeholder.jpg) 
+_**Imagen 42. Administrar Usuarios**_ 
 
- 
-Imagen 40.  Ventana Visor de Usuarios 
+### 11.1 Ventana Visor de Usuarios
+
+![Procesar imagen](../assets/images/placeholder.jpg) 
+_**Imagen 43.  Ventana Visor de Usuarios**_
+
 A esta ventana se llega haciendo clic sobre la opción Administrar Usuarios del Menú Principal.
 
 Es la ventana en la que se lista el total de los usuarios registrados en el  **AMsi** . 
@@ -705,47 +732,35 @@ Los títulos en azul que encabezan las columnas son también botones que permite
 
 Para elegir un registro de la tabla se da un clic sobre él. 
 
-En la parte superior izquierda de esta ventana se observa la identificación actual de la opción seleccionada desde el Menú Principal del Usuario Administrador. También, al lado derecho de esta sección, se encuentra el botón “Nuevo” con el fin de acceder rápidamente a la ventana Detalle con el fin de ingresar un nuevo registro o usuario.
+En la parte superior izquierda de esta ventana se observa la identificación actual de la opción seleccionada desde el _Menú Principal del Usuario Administrador_. También, al lado derecho de esta sección, se encuentra el botón “Nuevo” con el fin de acceder rápidamente a la ventana Detalle con el fin de ingresar un nuevo registro o usuario.
 
-En la parte superior derecha se encuentran dos opciones, para dirigirse a la ventana de Inicio y Cerrar Sesión de la aplicación.   
+En la parte superior derecha se encuentran dos opciones, para dirigirse a la ventana de Inicio y Cerrar Sesión de la aplicación. 
 
 En la parte inferior izquierda de esta ventana se encuentra el número de registros por página que se quieren visualizar, además de la cantidad de registros totales que conforman la tabla. 
 
 En  la  parte inferior  derecha de esta ventana se observan también varios enlaces para  navegar avanzando y retrocediendo páginas completas de registros. Como guía existe un indicador sobre la página relativa actual y la posibilidad de ingresar a la primera o última página, sin importar la página en la que se encuentre. 
 
+### 11.2 Ventana Detalle de Usuarios
 
+![Procesar imagen](../assets/images/placeholder.jpg) 
+_**Imagen 44. Ventana Detalle de Usuarios**_
 
+Es la porción de la  pantalla en que se muestran  los  datos detallados del usuario seleccionado en la ventana Visor. 
 
-11.2	 Ventana Detalle de Usuarios
+Además de la información detallada de un usuario, contiene dos botones y son el botón de **Nuevo** y **Actualizar**; que siempre están en la parte superior izquierda de la ventana.
 
- 
-Imagen 41.  Ventana Detalle de Usuarios 
+El botón **Nuevo** prepara la ventana Detalle para el ingreso de un nuevo registro. Al activarlo, el sistema reemplaza la línea de 2 botones por una nueva de 2 botones: **Insertar** y **Cancelar**. El botón **Insertar** ingresa el nuevo registro a la base de datos actualizando la ventana Visor, mientras que el botón **Cancelar** aborta el proceso de creación del nuevo registro retornando a la ventana Detalle.
 
-Es  la  porción  de  la  pantalla  en  que  se  muestran  los  datos  detallados  del   usuario seleccionado en la ventana Visor. 
-
-Además de la información detallada de un usuario, contiene dos botones y son el botón de “Nuevo” y “Actualizar”; que siempre están en la parte superior izquierda de la ventana.
-
-El botón “Nuevo” prepara la ventana Detalle para el ingreso de un nuevo registro. Al activar el botón “Nuevo”, el sistema reemplaza la línea de 2 botones por una nueva de 2 botones: “Insertar” y “Cancelar”. El botón “Insertar” ingresa el nuevo registro a la base de datos actualizando la ventana Visor, mientras que el botón “Cancelar” aborta el proceso de creación del nuevo registro retornando a la ventana Detalle.
-
-El botón “Actualizar” sirve para guardar o salvar en la base de datos la información que se ha modificado en la ventana Detalle, correspondiente al registro señalado por el cursor en la ventana Visor y registrar allí simultáneamente el mismo cambio. 
+El botón **Actualizar** sirve para guardar o salvar en la base de datos la información que se ha modificado en la ventana Detalle, correspondiente al registro señalado por el cursor en la ventana Visor y registrar allí simultáneamente el mismo cambio. 
 
 En la parte superior izquierda de esta ventana se observa la identificación actual de la opción seleccionada desde el Menú Principal del Usuario Administrador. 
 
 Para salir de la ventana Detalle se puede dar clic en la parte de afuera de esta ventana, la cual lleva a la ventana Visor.  
 
+## 11.3	Creación de Usuarios
 
-
-
-
-
-
-
-
-
-11.3	 Creación de Usuarios
-
- 
-Imagen 42.  Creación de Usuarios 
+![Procesar imagen](../assets/images/placeholder.jpg)
+_**Imagen 45. Creación de Usuarios**_
 
 A esta ventana se llega haciendo clic sobre el botón “Nuevo” de la ventana detalle del usuario. A través de ella se diligencian los Datos del Usuario y los Centros de Costo para la creación del usuario de  **AMsi** . A continuación, se describen los campos que componen esta ventana de Creación de Usuarios. Sobre cada campo se da una breve explicación.
 
