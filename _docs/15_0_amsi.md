@@ -8,12 +8,9 @@ title: Solicitudes de Servicio (SS) por Internet e Intranet AMsi
 Esta sección presenta el **AMsi**, herramienta para generar OT y/o SS en el AM, su colaborador natural. 
 Contiene información básica sobre el ingreso al aplicativo, mostrando de manera general la interfaz del usuario. Se aprende a interpretar y a usar el formulario de acceso para la creación de OT y/o SS, así como también a reconocer los comandos de los botones que aparecen en pantalla.
 
-**Contenido**
+**En este capítulo**
 
 -	Qué es **AMsi**  
--	Formulario Datos del Solicitante
--	Interfaz Gráfica -Formulario de Acceso a **AMsi** 
--	Perfiles de Usuarios **AMsi**
 
 ### 1.1	Qué es AMsi
 
@@ -23,16 +20,12 @@ Contiene información básica sobre el ingreso al aplicativo, mostrando de maner
 
 ## 2. Interfaz gráfica de Usuario
 
-Se define el acceso al **AMsi** y el formulario a diligenciar para actualizar el perfil del usuario Solicitante, la Creación y Consulta de una Solicitud de Servicio (SS) desde **AMsi**.
-En este capítulo
+Se define el acceso al **AMsi** y el formulario a diligenciar para actualizar el perfil del usuario Solicitante, la Creación y Consulta de una Solicitud de Servicio (SS).
 
--	Formulario Interfaz gráfica de Usuario 
+**En este capítulo**
+
 -	Iniciar la ejecución de **AMsi**
 -	Ventana de Menú Principal del Usuario
--	Actualizar Perfil del usuario 
--	Creación de SS
--	Consulta de SS 
--	Evaluar Servicio
 
 ### 2.1	Iniciar la ejecución de **AMsi**
 
@@ -62,8 +55,14 @@ A continuación, se describen las transacciones que componen esta ventana.
 
 **Cerrar Sesión:** Esta opción se usa para salir del aplicativo **AMsi**. 
 
-## 3. Actualizar Perfil  
-Esta transacción permite que el usuario pueda actualizar la información personal cuando lo requiera y visualizar los Centros de Costos asociados. Para acceder a esta ventana se da un clic a este botón ubicado en la ventana de Menú Principal.
+## 3. Actualizar Perfil 
+
+Se define el formulario a diligenciar para actualizar el perfil del usuario Solicitante en **AMsi**.
+
+**En este capítulo**
+-	Actualizar Perfil del usuario 
+
+La siguiente transacción permite que el usuario pueda actualizar la información personal cuando lo requiera y visualizar los Centros de Costos asociados. Para acceder a esta ventana se da un clic a este botón ubicado en la ventana de Menú Principal.
 
 ![Procesar imagen](../assets/images/placeholder.jpg)
 _**Imagen 3.** Botón Actualizar Perfil_
@@ -79,7 +78,7 @@ A continuación, se describen los campos que componen el registro. Sobre cada ca
 Este cuadro hace referencia a los Datos del Solicitante necesarios para la creación de una OT/SS. Algunos campos son obligatorios, estos datos se reconocen y se diferencian de los demás por el carácter asterisco (*) en color rojo que antecede el nombre del campo.
 Este formulario sólo es configurado por el Administrador General del **AMsi** en Información del Solicitante. Para mayor información dirigirse al capítulo Configuración **AMsi**.
 
-**Tipo Documento:** Este campo se encuentra bloqueado y muestra el tipo de documento con el cual el usuario se puede identificar y es configurado por el Administrador General del **AMsi**. (Campo requerido).  
+**Tipo Documento:** Este campo se encuentra bloqueado y muestra el tipo de documento con el cual el usuario se puede identificar y es configurado por el Administrador General del **AMsi**. (Campo requerido). 
 
 **Nro. Documento:** Este campo se encuentra bloqueado y muestra el número de Identificación correspondiente al Tipo Documento, de la persona solicitante. (Campo requerido).
 
@@ -125,7 +124,9 @@ _**Imagen 5.** Mensaje de Confirmación de la actualización del perfil_
 Este capítulo define el formulario a diligenciar para crear una SS desde  **AMsi** . 
 Se suministra información detallada del formulario Servicio Solicitado. Dicha información, especifica claramente el servicio solicitado así como el Centro de Servicio responsable de atender la SS creada.
 Se identifican los campos relacionados en el formulario Servicio Solicitado para la creación de SS y se reconocen los comandos que aparecen en pantalla.
-En este capítulo
+
+**En este capítulo**
+
 •	Formulario Servicio Solicitado
 •	Campos de Servicio Solicitado
 •	Campos de Información de Activo / Equipo
@@ -764,26 +765,40 @@ _**Imagen 45. Creación de Usuarios**_
 
 A esta ventana se llega haciendo clic sobre el botón “Nuevo” de la ventana detalle del usuario. A través de ella se diligencian los Datos del Usuario y los Centros de Costo para la creación del usuario de  **AMsi** . A continuación, se describen los campos que componen esta ventana de Creación de Usuarios. Sobre cada campo se da una breve explicación.
 
-Campos Del Formulario Datos Del Usuario
+### Campos Del Formulario Datos Del Usuario
 Este cuadro hace referencia a los Datos del Usuario solicitante necesario para la creación del mismo y son los que aparecerán en la sección de Datos del Solicitante en Actualizar Perfil y Crear Nueva Solicitud o Crear Nueva Orden. Contiene la información personal del solicitante y todos los campos se encuentran bloqueados. 
+
 El formulario Datos del Usuario  hace referencia a los datos del usuario solicitante que se está creando.
+
 Todos los campos marcados con asterisco (*) son de carácter obligatorio. 
-Tipo Documento: En este campo se elige de la lista desplegada el tipo de documento con el cual el usuario se puede identificar. (Campo requerido).  
-Nro. Documento: En este campo se define el número de Identificación correspondiente al Tipo Documento, del usuario solicitante. (Campo requerido).
-Contraseña: En este campo se define la contraseña, con el fin de que el usuario que se está registrando pueda acceder al  **AMsi** . (Campo requerido).  
-Nombre Completo: En este campo se digita el nombre completo del usuario solicitante. (Campo requerido).
-Teléfono: En este campo se define el número telefónico donde se puede localizar al usuario solicitante. El número telefónico generalmente corresponde a una dependencia de la organización a la cual pertenece al usuario solicitante.
-Este campo permite ingresar el número telefónico de la siguiente manera:
-Indicativo del país y de la ciudad + número telefónico fijo. Ejemplo: 
-(572)2345678          donde: 
-572 		Colombia, Cali
+
+**Tipo Documento:** En este campo se elige de la lista desplegada el tipo de documento con el cual el usuario se puede identificar. (Campo requerido).
+
+**Nro. Documento:** En este campo se define el número de Identificación correspondiente al Tipo Documento, del usuario solicitante. (Campo requerido).
+
+**Contraseña:** En este campo se define la contraseña, con el fin de que el usuario que se está registrando pueda acceder al  **AMsi** . (Campo requerido).  
+
+**Nombre Completo:** En este campo se digita el nombre completo del usuario solicitante. (Campo requerido).
+
+**Teléfono:** En este campo se define el número telefónico donde se puede localizar al usuario solicitante. El número telefónico generalmente corresponde a una dependencia de la organización a la cual pertenece al usuario solicitante.
+
+Este campo permite ingresar el número telefónico de la siguiente manera: Indicativo del país y de la ciudad + número telefónico fijo. Ejemplo: 
+
+(572)2345678 donde: 
+572 Colombia, Cali
 2345678	Número de Teléfono Fijo
-Extensión: En este campo se asigna un número de extensión telefónico donde se puede localizar al usuario solicitante.                                    
-Dirección: En este campo se asigna la dirección que corresponde a la organización a la cual pertenece al usuario solicitante.  
-Ciudad: En este campo se asigna la ciudad en la cual vive el usuario solicitante o está ubicada la institución para la cual labora. 
-Correo Electrónico: Dirección de correo electrónico del usuario solicitante asignado por la organización, o bien, correo personal del usuario solicitante en caso de no tener una cuenta de correo electrónico corporativa.
-Todos los Centros de Costo: Este cuadro de chequeo (checkbox) permite asociarle al usuario todos los centros de costo de todas las compañías existentes en AM, al chequearlo se ocultan los cuadros para asociar uno o varios centros de costo, que están en la parte inferior de la ventana.   
-Cuadros de Asociación de Centros de Costo: Está estructurado por un campo para seleccionar la compañía y dos cuadros ubicados en la parte inferior de esta ventana. 
+
+**Extensión:** En este campo se asigna un número de extensión telefónico donde se puede localizar al usuario solicitante.
+
+**Dirección:** En este campo se asigna la dirección que corresponde a la organización a la cual pertenece al usuario solicitante.
+
+**Ciudad:** En este campo se asigna la ciudad en la cual vive el usuario solicitante o está ubicada la institución para la cual labora.
+
+**Correo Electrónico:** Dirección de correo electrónico del usuario solicitante asignado por la organización, o bien, correo personal del usuario solicitante en caso de no tener una cuenta de correo electrónico corporativa.
+
+**Todos los Centros de Costo:** Este cuadro de chequeo (checkbox) permite asociarle al usuario todos los centros de costo de todas las compañías existentes en AM, al chequearlo se ocultan los cuadros para asociar uno o varios centros de costo, que están en la parte inferior de la ventana.   
+
+**Cuadros de Asociación de Centros de Costo:** Está estructurado por un campo para seleccionar la compañía y dos cuadros ubicados en la parte inferior de esta ventana. 
 
 En el campo se selecciona la compañía deseada, con el fin de que en el cuadro de la izquierda se listen los Centros de Costo creados en la tabla de centros de costo de esa compañía seleccionada. 
 
@@ -793,19 +808,20 @@ La funcionalidad consiste en seleccionar el centro de costo al cual se le asigna
 
 Para visualizar la información completa de los Centros de Costo disponibles para ser asociados y los que se asociaron al usuario solicitante y además, facilitar su recorrido es posible realizar desplazamientos verticales del cursor tanto hacia el comienzo como hacia  el final del cuadro. 
 Una vez registrado el usuario, el sistema muestra un mensaje de notificación de registro exitoso. 
- 
-Imagen 43.  Mensaje registro Usuario  
+
+![Procesar imagen](../assets/images/placeholder.jpg)
+_**Imagen 46. Mensaje registro Usuario**_
+
 Para el proceso de actualización de un usuario, se debe seleccionar de la ventana Visor el registro a actualizar, luego se diligencian los campos a modificar en la ventana Detalle, se da clic al botón Actualizar, seguido a esto se muestra un mensaje de confirmación de la transacción.  
 
+![Procesar imagen](../assets/images/placeholder.jpg)
+_**Imagen 47. Mensaje actualización Usuario**_
 
- 
-Imagen 44.  Mensaje actualización Usuario  
-
-
-12.	Cerrar Sesión 
+## 12. Cerrar Sesión 
 Esta transacción permite que el usuario pueda salir de  **AMsi** . Para cerrar la sesión en  **AMsi**  dar clic a este botón ubicado en la ventana de Menú Principal. 
- 
-Imagen 45.  Cerrar Sesión (Menú Principal)
 
-También, es posible cerrar la sesión dando clic al icono de Salir    ubicado en la parte superior derecha de cualquier ventana del Menú Principal: Actualizar Perfil, Crear Nueva Solicitud y Consultar Mis Solicitudes para usuarios, mientras que para usuarios administradores Configuración y Administrar Usuarios. 
+![Procesar imagen](../assets/images/placeholder.jpg)
+_**Imagen 48. Cerrar Sesión (Menú Principal)**_
+
+También, es posible cerrar la sesión dando clic al icono de Salir ubicado en la parte superior derecha de cualquier ventana del Menú Principal: _Actualizar Perfil_, _Crear Nueva Solicitud_ y _Consultar Mis Solicitudes_ para usuarios, mientras que para usuarios administradores _Configuración_ y _Administrar Usuarios_. 
 

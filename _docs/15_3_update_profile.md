@@ -1,11 +1,16 @@
 ---
 title: Actualizar Perfil
-subtitle: Esta transacción permite que el usuario pueda actualizar la información personal cuando lo requiera y visualizar los Centros de Costos asociados.
+subtitle: Se define cómo Actualizar Perfil del Usuario
 tags: [AMsi, Actualizar Perfil]
 author: win
 ---
 
-Para acceder a esta ventana se da un clic a este botón ubicado en la ventana de Menú Principal.
+Se define el formulario a diligenciar para actualizar el perfil del usuario Solicitante en **AMsi**.
+
+**En este capítulo**
+-	Actualizar Perfil del usuario 
+
+La siguiente transacción permite que el usuario pueda actualizar la información personal cuando lo requiera y visualizar los Centros de Costos asociados. Para acceder a esta ventana se da un clic a este botón ubicado en la ventana de Menú Principal.
 
 ![Procesar imagen](../assets/images/placeholder.jpg)
 _**Imagen 3.** Botón Actualizar Perfil_
@@ -21,7 +26,7 @@ A continuación, se describen los campos que componen el registro. Sobre cada ca
 Este cuadro hace referencia a los Datos del Solicitante necesarios para la creación de una OT/SS. Algunos campos son obligatorios, estos datos se reconocen y se diferencian de los demás por el carácter asterisco (*) en color rojo que antecede el nombre del campo.
 Este formulario sólo es configurado por el Administrador General del **AMsi** en Información del Solicitante. Para mayor información dirigirse al capítulo Configuración **AMsi**.
 
-**Tipo Documento:** Este campo se encuentra bloqueado y muestra el tipo de documento con el cual el usuario se puede identificar y es configurado por el Administrador General del **AMsi**. (Campo requerido).  
+**Tipo Documento:** Este campo se encuentra bloqueado y muestra el tipo de documento con el cual el usuario se puede identificar y es configurado por el Administrador General del **AMsi**. (Campo requerido). 
 
 **Nro. Documento:** Este campo se encuentra bloqueado y muestra el número de Identificación correspondiente al Tipo Documento, de la persona solicitante. (Campo requerido).
 
