@@ -121,8 +121,8 @@ _**Imagen 5.** Mensaje de Confirmación de la actualización del perfil_
 
 ## 4. Crear Nueva Solicitud  
 
-Este capítulo define el formulario a diligenciar para crear una SS desde  **AMsi** . 
-Se suministra información detallada del formulario Servicio Solicitado. Dicha información, especifica claramente el servicio solicitado así como el Centro de Servicio responsable de atender la SS creada.
+Este capítulo define el formulario a diligenciar para crear una SS desde  **AMsi**. 
+Se suministra información detallada del formulario _Servicio Solicitado_. Dicha información, especifica claramente el servicio solicitado así como el Centro de Servicio responsable de atender la SS creada.
 Se identifican los campos relacionados en el formulario Servicio Solicitado para la creación de SS y se reconocen los comandos que aparecen en pantalla.
 
 **En este capítulo**
@@ -197,7 +197,7 @@ Una vez enviada la SS, el sistema muestra un mensaje de notificación de registr
 **Botón Consultar Mis Solicitudes:** Este botón lo remite a una nueva ventana en la que puede realizar búsquedas y consultas de SS creadas previamente. Para mayor información al respecto se detalla en la sección de “Consultar Mis Solicitudes” de este manual.
 Botón Inicio: Este botón lleva a la ventana de Menú Principal del Usuario.
 
-**Botón Cerrar Sesión:** Este botón permite salir de la aplicación **AMsi** .  
+**Botón Cerrar Sesión:** Este botón permite salir de la aplicación **AMsi**.  
 
 ## 5. Consultar Mis Solicitudes
 Este capítulo guía para ejecutar consultas de SS creadas desde **AMsi**. 
@@ -311,7 +311,7 @@ Estos campos solo son manipulados por los encargados del área de mantenimiento 
 ![Procesar imagen](../assets/images/placeholder.jpg)
 _**Imagen 12.  Ventana Detalle de la SS (Comentarios)**_
 
-##6. Evaluar Servicio  
+## 6. Evaluar Servicio  
 Es posible realizar la Evaluación del Servicio únicamente a todas las SS/OT que tengan el estado CE (Cerrada Ejecutada) y debe cumplirse la condición de que el campo solicitante coincida con el usuario logueado. Para continuar, dar clic a la opción de Consultar Mis Solicitudes/Órdenes, luego dar clic al registro de la SS/OT que se desea evaluar y en la ventana Detalle, en la sección de Evaluar Servicio, se encuentran habilitadas las preguntas y las opciones de respuesta. Para finalizar, se debe dar clic al botón **Guardar Evaluación.**
 
 ![Procesar imagen](../assets/images/placeholder.jpg)
@@ -322,7 +322,7 @@ Una vez guardada la evaluación del servicio, se muestra un mensaje de confirmac
 ![Procesar imagen](../assets/images/placeholder.jpg)
 _**Imagen 14.  Mensaje de confirmación de la evaluación del Servicio**_
 
-##7. Crear Nueva Orden 
+## 7. Crear Nueva Orden 
 Este capítulo define el formulario a diligenciar para la generación de una Orden de Trabajo (OT) desde **AMsi**.
 
 Se suministra información detallada del formulario Servicio Solicitado. Dicha información, especifica claramente el servicio solicitado, así como también el Centro de Servicio responsable de atender la OT creada.
@@ -402,7 +402,7 @@ Botón Consultar Mis Órdenes: Este botón lo remite a una nueva ventana en la q
 
 **Botón Inicio:** Este botón lleva a la ventana de Menú Principal del Usuario.
 
-**Botón Cerrar Sesión:** Este botón permite salir del aplicativo **AMsi** .  
+**Botón Cerrar Sesión:** Este botón permite salir del aplicativo **AMsi**.  
 
 ## 8. Consultar Mis Órdenes   
 Este capítulo guía para ejecutar consultas de OT creadas desde **AMsi**. Se hace una ilustración sobre los comandos que aparecen en pantalla.
@@ -516,7 +516,7 @@ Estos campos solo son manipulados por los encargados del área de mantenimiento 
 ![Procesar imagen](../assets/images/placeholder.jpg)
 _**Imagen 22.  Ventana Detalle de la OT (Comentarios)**_
 
-## 9.	Configuración **AMsi**
+## 9. Configuración **AMsi**
 
 Este capítulo, orientado al Administrador General del **AMsi**, se concentra en la funcionalidad de la opción Configuración.
 
@@ -525,17 +525,11 @@ Se definen los criterios, preferencias, particularidades y modos de visualizaci�
 **En este capítulo**
 
 - Acceso al modo Configuración 
-- Configuración General
-- Información del Solicitante
-- Configuración Servicio Solicitado
-- Configuración Identificación de Activo
-- Configuración Seguridad
-- Finalizando la Configuración
-- Administrar Usuarios
+- Ventana de Menú Principal del Usuario Administrador
 
 ### 9.1	Acceso al modo Configuración
 
-Como se indicó al inicio de este capítulo, sólo el Administrador encargado del  **AMsi**  puede acceder a esta sección del aplicativo. WIN Software suministra los datos de acceso una vez se instale el aplicativo en la Infraestructura del Cliente.
+Como se indicó al inicio de este capítulo, sólo el Administrador encargado del  **AMsi** puede acceder a esta sección del aplicativo. WIN Software suministra los datos de acceso una vez se instale el aplicativo en la Infraestructura del Cliente.
 
 Para poder ingresar a la configuración de  **AMsi** , el Administrador debe conocer el nombre de usuario y contraseña del Administrador del aplicativo. Tales datos se ingresan en la ventana de acceso.
 
@@ -555,9 +549,9 @@ A continuación, se describen las transacciones que componen esta ventana.
 
 **Configuración:** Esta opción permite configurar los criterios, preferencias, particularidades y modos de visualización sobre la información disponible en los formularios básicos del aplicativo al igual que los permisos y parametrización general del mismo.
 
-**Administrar Usuarios:** Esta opción permite la creación de los usuarios que ingresarán al  **AMsi** , registro de información específica del usuario y la asociación de los Centros de Costo. 
+**Administrar Usuarios:** Esta opción permite la creación de los usuarios que ingresarán al  **AMsi**, registro de información específica del usuario y la asociación de los Centros de Costo. 
 
-**Cerrar Sesión:** Esta opción se usa para salir del aplicativo  **AMsi** . 
+**Cerrar Sesión:** Esta opción se usa para salir del aplicativo  **AMsi**. 
 
 ## 10.	Configuración
 Este capítulo guía para configurar la funcionalidad de  **AMsi**  respecto a la apariencia que tiene el sistema, sus campos requeridos y la forma en la que se seleccionan algunos de sus componentes.
