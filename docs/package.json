@@ -4,7 +4,9 @@
   "description": "Docs Jekyll theme.",
   "main": "index.js",
   "scripts": {
-    "start": "npm run build:jekyll",
+    "local": "npm run serve:jekyll",
+    "web": "npm run build:jekyll",
+    "serve:jekyll": "bundle exec jekyll serve --watch",
     "build:jekyll": "bundle exec jekyll build",
     "build": "npm run lint && npm run uglify",
     "test": "echo \"Error: no test specified\" && exit 1",
