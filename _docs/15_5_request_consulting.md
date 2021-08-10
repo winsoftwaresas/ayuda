@@ -1,6 +1,6 @@
 ---
 title: Consultar Mis Solicitudes
-subtitle: Este capítulo guía para ejecutar consultas de SS creadas desde **AMsi**. 
+subtitle: Este capítulo guía para ejecutar consultas de SS creadas desde **AMsi** 
 tags: [AMsi, Consultar Solicitudes]
 author: win
 ---

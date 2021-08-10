@@ -1,6 +1,6 @@
 ---
 title: Crear una nueva Orden
-subtitle: Este capítulo define el formulario a diligenciar para la generación de una Orden de Trabajo (OT) desde **AMsi**.
+subtitle: Este capítulo define el formulario a diligenciar para la generación de una Orden de Trabajo (OT) desde AMsi.
 tags: [AMsi, Crear Orden en AMsi]
 author: win
 ---

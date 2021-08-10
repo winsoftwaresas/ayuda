@@ -311,7 +311,9 @@ Estos campos solo son manipulados por los encargados del área de mantenimiento 
 ![Procesar imagen](../assets/images/placeholder.jpg)
 _**Imagen 12.  Ventana Detalle de la SS (Comentarios)**_
 
-## 6. Evaluar Servicio  
+## 6. Evaluar Servicio 
+Este capítulo guía para realizar la evaluación de Solicitudes/Órdenes creadas desde **AMsi**.
+
 Es posible realizar la Evaluación del Servicio únicamente a todas las SS/OT que tengan el estado CE (Cerrada Ejecutada) y debe cumplirse la condición de que el campo solicitante coincida con el usuario logueado. Para continuar, dar clic a la opción de Consultar Mis Solicitudes/Órdenes, luego dar clic al registro de la SS/OT que se desea evaluar y en la ventana Detalle, en la sección de Evaluar Servicio, se encuentran habilitadas las preguntas y las opciones de respuesta. Para finalizar, se debe dar clic al botón **Guardar Evaluación.**
 
 ![Procesar imagen](../assets/images/placeholder.jpg)
@@ -516,11 +518,11 @@ Estos campos solo son manipulados por los encargados del área de mantenimiento 
 ![Procesar imagen](../assets/images/placeholder.jpg)
 _**Imagen 22.  Ventana Detalle de la OT (Comentarios)**_
 
-## 9. Configuración **AMsi**
+## 9. Acceso Administración AMsi
 
 Este capítulo, orientado al Administrador General del **AMsi**, se concentra en la funcionalidad de la opción Configuración.
 
-Se definen los criterios, preferencias, particularidades y modos de visualización sobre la información disponible en los formularios básicos del aplicativo al igual que los permisos y parametrización general del mismo. También, se incluye la administración sobre los usuarios de **AMsi**. 
+Se define el acceso a la aplicativo y comandos del menú principal para el Administrador del sistema.
 
 **En este capítulo**
 
@@ -529,9 +531,9 @@ Se definen los criterios, preferencias, particularidades y modos de visualizaci�
 
 ### 9.1	Acceso al modo Configuración
 
-Como se indicó al inicio de este capítulo, sólo el Administrador encargado del  **AMsi** puede acceder a esta sección del aplicativo. WIN Software suministra los datos de acceso una vez se instale el aplicativo en la Infraestructura del Cliente.
+Como se indicó al inicio de este capítulo, sólo el Administrador encargado del **AMsi** puede acceder a esta sección del aplicativo. WIN Software suministra los datos de acceso una vez se instale el aplicativo en la Infraestructura del Cliente.
 
-Para poder ingresar a la configuración de  **AMsi** , el Administrador debe conocer el nombre de usuario y contraseña del Administrador del aplicativo. Tales datos se ingresan en la ventana de acceso.
+Para poder ingresar a la configuración de **AMsi** , el Administrador debe conocer el nombre de usuario y contraseña del Administrador del aplicativo. Tales datos se ingresan en la ventana de acceso.
 
 ![Procesar imagen](../assets/images/placeholder.jpg)
 _**Imagen 23. Ventana Acceso **AMsi****_
@@ -549,12 +551,14 @@ A continuación, se describen las transacciones que componen esta ventana.
 
 **Configuración:** Esta opción permite configurar los criterios, preferencias, particularidades y modos de visualización sobre la información disponible en los formularios básicos del aplicativo al igual que los permisos y parametrización general del mismo.
 
-**Administrar Usuarios:** Esta opción permite la creación de los usuarios que ingresarán al  **AMsi**, registro de información específica del usuario y la asociación de los Centros de Costo. 
+**Administrar Usuarios:** Esta opción permite la creación de los usuarios que ingresarán al **AMsi**, registro de información específica del usuario y la asociación de los Centros de Costo. 
 
-**Cerrar Sesión:** Esta opción se usa para salir del aplicativo  **AMsi**. 
+**Cerrar Sesión:** Esta opción se usa para salir del aplicativo **AMsi**. 
 
 ## 10.	Configuración
-Este capítulo guía para configurar la funcionalidad de  **AMsi**  respecto a la apariencia que tiene el sistema, sus campos requeridos y la forma en la que se seleccionan algunos de sus componentes.
+Este capítulo guía para configurar la funcionalidad de **AMsi**  respecto a la apariencia que tiene el sistema, sus campos requeridos y la forma en la que se seleccionan algunos de sus componentes.
+
+Se definen los criterios, preferencias, particularidades y modos de visualización sobre la información disponible en los formularios básicos del aplicativo al igual que los permisos y parametrización general del mismo. También, se incluye la administración sobre los usuarios de **AMsi**. 
 
 **En este capítulo**
 - Configuración General
