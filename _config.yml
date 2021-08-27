@@ -125,6 +125,7 @@ destination:        docs/
 
 sass:
   style:            compressed
+  #style:            expanded
 
 collections:
   docs:
