@@ -13,18 +13,18 @@
 <meta property="og:locale" content="es" />
 <meta name="description" content="1. Trabajando con AMsi" />
 <meta property="og:description" content="1. Trabajando con AMsi" />
-<link rel="canonical" href="https://ayuda.winsoftware.com.co/docs/15_0_amsi/" />
-<meta property="og:url" content="https://ayuda.winsoftware.com.co/docs/15_0_amsi/" />
+<link rel="canonical" href="http://localhost:4000/docs/15_0_amsi/" />
+<meta property="og:url" content="http://localhost:4000/docs/15_0_amsi/" />
 <meta property="og:site_name" content="AM" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2021-08-27T12:25:40-05:00" />
+<meta property="article:published_time" content="2021-09-07T15:57:34-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Solicitudes de Servicio (SS) por Internet e Intranet AMsi" />
 <script type="application/ld+json">
-{"headline":"Solicitudes de Servicio (SS) por Internet e Intranet AMsi","dateModified":"2021-08-27T12:25:40-05:00","datePublished":"2021-08-27T12:25:40-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://ayuda.winsoftware.com.co/docs/15_0_amsi/"},"author":{"@type":"Person","name":"Win Software"},"description":"1. Trabajando con AMsi","url":"https://ayuda.winsoftware.com.co/docs/15_0_amsi/","@type":"BlogPosting","@context":"https://schema.org"}</script>
+{"headline":"Solicitudes de Servicio (SS) por Internet e Intranet AMsi","dateModified":"2021-09-07T15:57:34-05:00","datePublished":"2021-09-07T15:57:34-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/docs/15_0_amsi/"},"author":{"@type":"Person","name":"Win Software"},"description":"1. Trabajando con AMsi","url":"http://localhost:4000/docs/15_0_amsi/","@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
-  <meta property="og:image" content="https://ayuda.winsoftware.com.co/uploads/"/>
+  <meta property="og:image" content="http://localhost:4000/uploads/"/>
   <link rel="stylesheet" href="/assets/css/main.css">
   <link rel="shortcut icon" type="image/png" href="/uploads/favicon.png" >
   <link rel="alternate" type="application/rss+xml" title="AM" href="/feed.xml">
@@ -130,7 +130,7 @@ function searchResults(form) {
   
   <!-- Hook head -->
   
-</head>
+<script src="http://127.0.0.1:35729/livereload.js"></script></head>
 
     <body>
 
@@ -765,13 +765,14 @@ Botón Consultar Mis Órdenes: Este botón lo remite a una nueva ventana en la q
 
 <p>Este capítulo, orientado al Administrador General del <strong>AMsi</strong>, se concentra en la funcionalidad de la opción Configuración.</p>
 
-<p>Se define el acceso a la aplicativo y comandos del menú principal para el Administrador del sistema.</p>
+<p>Se define el acceso a la aplicativo y comandos del menú principal para el Administrador del sistema. Se configuran criterios, preferencias, particularidades y modos de visualización sobre la información disponible en los formularios básicos del aplicativo al igual que los permisos y parametrización general del mismo, incluyendo la administración de los usuarios de <strong>AMsi</strong>.</p>
 
 <p><strong>En este capítulo</strong></p>
 
 <ul>
   <li>Acceso al modo Configuración</li>
   <li>Ventana de Menú Principal del Usuario Administrador</li>
+  <li>Configuración General</li>
 </ul>
 
 <h3 id="91-acceso-al-modo-configuración">9.1	Acceso al modo Configuración</h3>
@@ -800,21 +801,9 @@ Botón Consultar Mis Órdenes: Este botón lo remite a una nueva ventana en la q
 
 <p><strong>Cerrar Sesión:</strong> Esta opción se usa para salir del aplicativo <strong>AMsi</strong>.</p>
 
-<h2 id="10-configuración">10.	Configuración</h2>
-<p>Este capítulo guía para configurar la funcionalidad de <strong>AMsi</strong>  respecto a la apariencia que tiene el sistema, sus campos requeridos y la forma en la que se seleccionan algunos de sus componentes.</p>
+<h3 id="93-configuración">9.3	Configuración</h3>
 
-<p>Se definen los criterios, preferencias, particularidades y modos de visualización sobre la información disponible en los formularios básicos del aplicativo al igual que los permisos y parametrización general del mismo. También, se incluye la administración sobre los usuarios de <strong>AMsi</strong>.</p>
-
-<p><strong>En este capítulo</strong></p>
-<ul>
-  <li>Configuración General</li>
-  <li>Información del Solicitante</li>
-  <li>Configuración Servicio Solicitado</li>
-  <li>Configuración Identificación de Activo</li>
-  <li>Configuración Seguridad</li>
-</ul>
-
-<p>Una vez ingresados los datos del usuario administrador, dar clic a este botón ubicado en la ventana de Menú Principal para continuar con la Configuración de  <strong>AMsi</strong> .</p>
+<p>Una vez se ingrese con los datos del usuario administrador, se debe dar clic a este botón ubicado en la ventana de Menú Principal para continuar con la Configuración de  <strong>AMsi</strong>.</p>
 
 <p><img src="../assets/images/placeholder.jpg" alt="Procesar imagen" />
 <em><strong>Imagen 25. Configuración</strong></em></p>
@@ -826,21 +815,14 @@ Botón Consultar Mis Órdenes: Este botón lo remite a una nueva ventana en la q
 
 <p><strong>Botón Inicio:</strong> Este botón lleva a la ventana de Menú Principal del Usuario Administrador.</p>
 
-<p><strong>Botón Cerrar Sesión:</strong> Este botón permite salir del aplicativo  <strong>AMsi</strong> .</p>
+<p><strong>Botón Cerrar Sesión:</strong> Este botón permite salir del aplicativo  <strong>AMsi</strong>.</p>
 
-<h3 id="101-configuración-general">10.1 Configuración General</h3>
+<h4 id="931-configuración-general">9.3.1 Configuración General</h4>
 
 <p>Los componentes de la ventana de Configuración General son los que se muestran a continuación. Sobre cada componente se da una breve explicación.</p>
 
 <p><img src="../assets/images/placeholder.jpg" alt="Procesar imagen" />
 <em><strong>Imagen 27. Configuración General</strong></em></p>
-
-<p><strong>Imagen para la cabecera:</strong> Se usa para configurar el logo de la organización, que se visualiza en las diferentes pantallas del  <strong>AMsi</strong> . Se recomienda que el logo tenga formato .jpg , .png , .gif o .pdf ; con el objetivo de agilizar la carga del aplicativo Web.</p>
-
-<p>Al dar clic sobre el botón Seleccionar Archivo se abre una nueva ventana para realizar la búsqueda en disco del logo. Luego de seleccionarlo, el nombre del archivo se visualiza al lado del campo seleccionar archivo.</p>
-
-<p><img src="../assets/images/placeholder.jpg" alt="Procesar imagen" /> 
-<em><strong>Imagen 28.  Imagen para la cabecera</strong></em></p>
 
 <p><strong>Mensaje en la ventana de registro de la solicitud:</strong> En este campo se digita un mensaje que se desliza y aparece en la parte superior del formulario de Servicio Solicitado. Este campo permite hasta 500 caracteres.</p>
 
@@ -852,60 +834,44 @@ Botón Consultar Mis Órdenes: Este botón lo remite a una nueva ventana en la q
 <p><img src="../assets/images/placeholder.jpg" alt="Procesar imagen" />
 <em><strong>Imagen 30. Generar automáticamente Ordenes al guardar la solicitud</strong></em></p>
 
-<p><strong>Los solicitantes son:</strong></p>
-
-<ul>
-  <li>
-    <p>Internos (Empleados, Visitantes).
-Exige el campo “Centro de Costo”</p>
-  </li>
-  <li>
-    <p>Externos (Clientes, Proveedores)
-Se elimina el campo “Centro de Costo”, exigiendo en su defecto el campo NIT seguido del nombre de la Empresa.</p>
-  </li>
-</ul>
-
-<p><img src="../assets/images/placeholder.jpg" alt="Procesar imagen" />
-<em><strong>Imagen 31.  Solicitantes internos o externos</strong></em></p>
-
-<h3 id="102-información-del-solicitante">10.2 Información del Solicitante</h3>
+<h4 id="932-información-del-solicitante">9.3.2 Información del Solicitante</h4>
 
 <p>En esta ventana se configuran los campos que serán exigidos en la sección Datos del Solicitante. Los componentes de la ventana de Información del Solicitante son los que se muestran a continuación. Sobre cada componente se da una breve explicación.</p>
 
 <p><img src="../assets/images/placeholder.jpg" alt="Procesar imagen" />
-<em>**Imagen 32.  Información del Solicitante **</em></p>
+<em>**Imagen 31.  Información del Solicitante **</em></p>
 
 <p><strong>¿El Teléfono es requerido?:</strong> Marcar SI indica que este campo es obligatorio y se identifican con un asterisco * de color rojo entre paréntesis que antecede el nombre del campo. Además, indica que debe ser llenado por los usuarios. Marcar NO implica dejar el campo a manera opcional de diligenciamiento para el solicitante al momento de actualizar la información dese Actualizar Perfil o para el usuario administrador al momento de crear y actualizar los usuarios.</p>
 
 <p><img src="../assets/images/placeholder.jpg" alt="Procesar imagen" /> 
-<em>**Imagen 33.  Teléfono requerido **</em></p>
+<em>**Imagen 32.  Teléfono requerido **</em></p>
 
 <p><strong>¿La Extensión es requerida?:</strong> Marcar SI indica que este campo es obligatorio y se identifican con un asterisco * de color rojo entre paréntesis que antecede el nombre del campo. Además, indica que debe ser llenado por los usuarios. Marcar NO implica dejar el campo a manera opcional de diligenciamiento para el solicitante al momento de actualizar la información dese Actualizar Perfil o para el usuario administrador al momento de crear y actualizar los usuarios.</p>
 
 <p><img src="../assets/images/placeholder.jpg" alt="Procesar imagen" /> 
-<em><strong>Imagen 34. Extensión requerida</strong></em></p>
+<em><strong>Imagen 33. Extensión requerida</strong></em></p>
 
 <p><strong>¿La Dirección es requerida?:</strong> Marcar SI indica que este campo es obligatorio y se identifican con un asterisco * de color rojo entre paréntesis que antecede el nombre del campo. Además, indica que debe ser llenado por los usuarios. Marcar NO implica dejar el campo a manera opcional de diligenciamiento para el solicitante al momento de actualizar la información dese Actualizar Perfil o para el usuario administrador al momento de crear y actualizar los usuarios.</p>
 
 <p><img src="../assets/images/placeholder.jpg" alt="Procesar imagen" />
-<em>**Imagen 35.  Dirección requerida **</em></p>
+<em>**Imagen 34.  Dirección requerida **</em></p>
 
 <p><strong>¿La Ciudad es requerida?:</strong> Marcar SI indica que este campo es obligatorio y se identifican con un asterisco * de color rojo entre paréntesis que antecede el nombre del campo. Además, indica que debe ser llenado por los usuarios. Marcar NO implica dejar el campo a manera opcional de diligenciamiento para el solicitante al momento de actualizar la información dese Actualizar Perfil o para el usuario administrador al momento de crear y actualizar los usuarios.</p>
 
 <p><img src="../assets/images/placeholder.jpg" alt="Procesar imagen" /> 
-<em><strong>Imagen 36.  Ciudad requerida</strong></em></p>
+<em><strong>Imagen 35.  Ciudad requerida</strong></em></p>
 
 <p><strong>¿El Correo Electrónico es requerido?:</strong> Marcar SI indica que este campo es obligatorio y se identifican con un asterisco * de color rojo entre paréntesis que antecede el nombre del campo. Además, indica que debe ser llenado por los usuarios. Marcar NO implica dejar el campo a manera opcional de diligenciamiento para el solicitante al momento de actualizar la información desde <strong>Actualizar Perfil</strong> o para el usuario administrador al momento de crear y actualizar los usuarios.</p>
 
 <p><img src="../assets/images/placeholder.jpg" alt="Procesar imagen" /> 
-<em><strong>Imagen 37.  Correo Electrónico requerido</strong></em></p>
+<em><strong>Imagen 36.  Correo Electrónico requerido</strong></em></p>
 
-<h3 id="103-servicio-solicitado">10.3 Servicio Solicitado</h3>
+<h4 id="933-servicio-solicitado">9.3.3 Servicio Solicitado</h4>
 
 <p>En esta ventana se configuran los campos que serán exigidos en la sección Servicio Solicitado. Los componentes de la ventana de Servicio Solicitado son los que se muestran a continuación. Sobre cada componente se da una breve explicación.</p>
 
 <p><img src="../assets/images/placeholder.jpg" alt="Procesar imagen" /> 
-<em><strong>Imagen 38. Servicio Solicitado</strong></em></p>
+<em><strong>Imagen 37. Servicio Solicitado</strong></em></p>
 
 <p><strong>¿Cómo nombrar las compañías?:</strong> Se refiere a los nombres de las Compañías creadas en el AM, es decir, los Centros de Servicio responsables de las diferentes actividades de mantenimiento del Cliente. Por defecto ellas son nombradas como Centro de Servicio y pueden ser renombradas a gusto según la cultura del Cliente.</p>
 
@@ -917,12 +883,12 @@ Se elimina el campo “Centro de Costo”, exigiendo en su defecto el campo NIT 
 
 <p><strong>¿Cómo nombrar la prioridad baja?:</strong> Se refiere a los tipos de prioridades creadas en el AM. Por defecto este campo es nombrado como Normal y puede ser cambiado a un nombre que sea más significativo dentro de la Compañía.</p>
 
-<h3 id="104-identificación-del-activo">10.4 Identificación del Activo</h3>
+<h4 id="934-identificación-del-activo">9.3.4 Identificación del Activo</h4>
 
 <p>En esta ventana se configuran las opciones correspondientes para el campo de Activo / Equipo en el formulario Servicio Solicitado, en el proceso de creación de una SS y/o OT. Los componentes de la ventana de Identificación del Activo son los que se muestran a continuación. Sobre cada componente se da una breve explicación.</p>
 
 <p><img src="../assets/images/placeholder.jpg" alt="Procesar imagen" /> 
-<em><strong>Imagen 39. Identificación del Activo</strong></em></p>
+<em><strong>Imagen 38. Identificación del Activo</strong></em></p>
 
 <p><strong>¿Desea describir el Activo en lenguaje natural?:</strong> Elegir SI en este botón, habilita un checkbox al extremo izquierdo del campo Activo / Equipo. Al chequear este cuadro, inmediatamente se habilitan dos campos que pueden ser diligenciados. El primer campo es para describir en lenguaje natural el Activo o Equipo hasta con 50 caracteres, y el segundo campo es para describir también en lenguaje natural la ubicación física del Activo o Equipo referenciado hasta con 50 caracteres. De elegir NO, quedará disponible para definir el código de Activo/Equipo solamente del icono de filtro azul y seleccionarlo del visor de Activos. Es de tener en cuenta que cuando se elige la opción para crear Órdenes, esta opción no es posible cambiarla.</p>
 
@@ -930,12 +896,12 @@ Se elimina el campo “Centro de Costo”, exigiendo en su defecto el campo NIT 
 
 <p>Si el Activo/Equipo es seleccionado de una lista o ingresado con su respectivo código, el campo Ubicación Física se llena automáticamente en cada caso. Mientras que, si el Activo/Equipo es escrito en lenguaje natural, el campo Ubicación Física queda habilitado para ser diligenciado por el solicitante. Es de tener en cuenta que cuando se elige la opción para crear Órdenes, esta opción no es posible cambiarla.</p>
 
-<h3 id="105-seguridad">10.5 Seguridad</h3>
+<h3 id="935-seguridad">9.3.5 Seguridad</h3>
 
 <p>En esta ventana se establece el Usuario y Contraseña del Administrador del  <strong>AMsi</strong> , además se configuran los servidores de correo con usuarios y contraseñas. Los componentes de la ventana de Seguridad son los que se muestran a continuación. Sobre cada componente se da una breve explicación:</p>
 
 <p><img src="../assets/images/placeholder.jpg" alt="Procesar imagen" /> 
-<em><strong>Imagen 40. Seguridad</strong></em></p>
+<em><strong>Imagen 39. Seguridad</strong></em></p>
 
 <p><strong>Usuario Administrador:</strong> En este campo se define el usuario Administrador con el cual se accede al sistema para la Configuración de <strong>AMsi</strong>.</p>
 
@@ -951,16 +917,16 @@ Contraseña de Correo: En este campo se define la Contraseña con la cual se acc
   <li>No</li>
 </ul>
 
-<h3 id="106-finalizando-la-configuración">10.6 Finalizando la Configuración</h3>
+<h4 id="936-finalizando-la-configuración">9.3.6 Finalizando la Configuración</h4>
 
 <p>Una vez realizadas las modificaciones, dar clic al botón Actualizar ubicado al final de esta ventana para guardar la nueva configuración de <strong>AMsi</strong>, el sistema inmediatamente vuelve a la ventana de Menú Principal del Usuario Administrador.</p>
 
 <p><img src="../assets/images/placeholder.jpg" alt="Procesar imagen" /> 
-<em><strong>Imagen 41. Actualizar Configuración de **AMsi</strong>**</em></p>
+<em><strong>Imagen 40. Actualizar Configuración de **AMsi</strong>**</em></p>
 
-<h2 id="11-administrar-usuarios">11.	Administrar Usuarios</h2>
+<h3 id="10-administrar-usuarios">10. Administrar Usuarios</h3>
 
-<p>Este capítulo orienta en la creación y actualización de datos del usuario, además de la asociación de uno, varios o todos los centros de costo de una o varias compañías, para que los usuarios solicitantes puedan crear SS y/o OT desde  <strong>AMsi</strong> . Se hace de igual forma una ilustración sobre los comandos que aparecen en pantalla.</p>
+<p>Se orienta al administrador en la creación y actualización de datos del usuario, además de la asociación de uno, varios o todos los centros de costo de una o varias compañías, para que los usuarios solicitantes puedan crear SS y/o OT desde  <strong>AMsi</strong> . Se hace de igual forma una ilustración sobre los comandos que aparecen en pantalla.</p>
 
 <p><strong>En este capítulo</strong></p>
 <ul>
@@ -972,12 +938,12 @@ Contraseña de Correo: En este campo se define la Contraseña con la cual se acc
 <p>Una vez ingresados los datos del usuario administrador de manera correcta, dar clic a este botón ubicado en la ventana de Menú Principal para continuar con la Administración de los Usuarios de  <strong>AMsi</strong> .</p>
 
 <p><img src="../assets/images/placeholder.jpg" alt="Procesar imagen" /> 
-<em><strong>Imagen 42. Administrar Usuarios</strong></em></p>
+<em><strong>Imagen 41. Administrar Usuarios</strong></em></p>
 
-<h3 id="111-ventana-visor-de-usuarios">11.1 Ventana Visor de Usuarios</h3>
+<h4 id="101-ventana-visor-de-usuarios">10.1 Ventana Visor de Usuarios</h4>
 
 <p><img src="../assets/images/placeholder.jpg" alt="Procesar imagen" /> 
-<em><strong>Imagen 43.  Ventana Visor de Usuarios</strong></em></p>
+<em><strong>Imagen 42. Ventana Visor de Usuarios</strong></em></p>
 
 <p>A esta ventana se llega haciendo clic sobre la opción Administrar Usuarios del Menú Principal.</p>
 
@@ -995,10 +961,10 @@ Contraseña de Correo: En este campo se define la Contraseña con la cual se acc
 
 <p>En  la  parte inferior  derecha de esta ventana se observan también varios enlaces para  navegar avanzando y retrocediendo páginas completas de registros. Como guía existe un indicador sobre la página relativa actual y la posibilidad de ingresar a la primera o última página, sin importar la página en la que se encuentre.</p>
 
-<h3 id="112-ventana-detalle-de-usuarios">11.2 Ventana Detalle de Usuarios</h3>
+<h4 id="1011-ventana-detalle-de-usuarios">10.1.1 Ventana Detalle de Usuarios</h4>
 
 <p><img src="../assets/images/placeholder.jpg" alt="Procesar imagen" /> 
-<em><strong>Imagen 44. Ventana Detalle de Usuarios</strong></em></p>
+<em><strong>Imagen 43. Ventana Detalle de Usuarios</strong></em></p>
 
 <p>Es la porción de la  pantalla en que se muestran  los  datos detallados del usuario seleccionado en la ventana Visor.</p>
 
@@ -1012,17 +978,17 @@ Contraseña de Correo: En este campo se define la Contraseña con la cual se acc
 
 <p>Para salir de la ventana Detalle se puede dar clic en la parte de afuera de esta ventana, la cual lleva a la ventana Visor.</p>
 
-<h2 id="113-creación-de-usuarios">11.3	Creación de Usuarios</h2>
+<h4 id="1012-creación-de-usuarios">10.1.2	Creación de Usuarios</h4>
 
 <p><img src="../assets/images/placeholder.jpg" alt="Procesar imagen" />
-<em><strong>Imagen 45. Creación de Usuarios</strong></em></p>
+<em><strong>Imagen 44. Creación de Usuarios</strong></em></p>
 
 <p>A esta ventana se llega haciendo clic sobre el botón “Nuevo” de la ventana detalle del usuario. A través de ella se diligencian los Datos del Usuario y los Centros de Costo para la creación del usuario de  <strong>AMsi</strong> . A continuación, se describen los campos que componen esta ventana de Creación de Usuarios. Sobre cada campo se da una breve explicación.</p>
 
 <h3 id="campos-del-formulario-datos-del-usuario">Campos Del Formulario Datos Del Usuario</h3>
 <p>Este cuadro hace referencia a los Datos del Usuario solicitante necesario para la creación del mismo y son los que aparecerán en la sección de Datos del Solicitante en Actualizar Perfil y Crear Nueva Solicitud o Crear Nueva Orden. Contiene la información personal del solicitante y todos los campos se encuentran bloqueados.</p>
 
-<p>El formulario Datos del Usuario  hace referencia a los datos del usuario solicitante que se está creando.</p>
+<p>El formulario Datos del Usuario hace referencia a los datos del usuario solicitante que se está creando.</p>
 
 <p>Todos los campos marcados con asterisco (*) son de carácter obligatorio.</p>
 
@@ -1064,18 +1030,18 @@ Contraseña de Correo: En este campo se define la Contraseña con la cual se acc
 Una vez registrado el usuario, el sistema muestra un mensaje de notificación de registro exitoso.</p>
 
 <p><img src="../assets/images/placeholder.jpg" alt="Procesar imagen" />
-<em><strong>Imagen 46. Mensaje registro Usuario</strong></em></p>
+<em><strong>Imagen 45. Mensaje registro Usuario</strong></em></p>
 
 <p>Para el proceso de actualización de un usuario, se debe seleccionar de la ventana Visor el registro a actualizar, luego se diligencian los campos a modificar en la ventana Detalle, se da clic al botón Actualizar, seguido a esto se muestra un mensaje de confirmación de la transacción.</p>
 
 <p><img src="../assets/images/placeholder.jpg" alt="Procesar imagen" />
-<em><strong>Imagen 47. Mensaje actualización Usuario</strong></em></p>
+<em><strong>Imagen 46. Mensaje actualización Usuario</strong></em></p>
 
-<h2 id="12-cerrar-sesión">12. Cerrar Sesión</h2>
+<h3 id="11-cerrar-sesión">11. Cerrar Sesión</h3>
 <p>Esta transacción permite que el usuario pueda salir de  <strong>AMsi</strong> . Para cerrar la sesión en  <strong>AMsi</strong>  dar clic a este botón ubicado en la ventana de Menú Principal.</p>
 
 <p><img src="../assets/images/placeholder.jpg" alt="Procesar imagen" />
-<em><strong>Imagen 48. Cerrar Sesión (Menú Principal)</strong></em></p>
+<em><strong>Imagen 47. Cerrar Sesión (Menú Principal)</strong></em></p>
 
 <p>También, es posible cerrar la sesión dando clic al icono de Salir ubicado en la parte superior derecha de cualquier ventana del Menú Principal: <em>Actualizar Perfil</em>, <em>Crear Nueva Solicitud</em> y <em>Consultar Mis Solicitudes</em> para usuarios, mientras que para usuarios administradores <em>Configuración</em> y <em>Administrar Usuarios</em>.</p>
 
@@ -1373,7 +1339,7 @@ Una vez registrado el usuario, el sistema muestra un mensaje de notificación de
         
           
           
-          <li class=""><a href=""></a></li>
+          <li class=""><a href="/docs/15_11_logout/">Cerrar Sesión</a></li>
         
         </ul>
         
