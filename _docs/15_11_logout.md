@@ -1,6 +1,6 @@
 ---
 title: Cerrar Sesión
-subtitle: Cómo salir del aplicativo AMsi.
+subtitle: Este capítulo orienta al usuario administrador sobre cómo salir del aplicativo AMsi.
 tags: [AMsi, Cerrar Sesión en Amsi]
 author: win
 ---
