@@ -4,6 +4,7 @@ subtitle: Este capítulo define el formulario a diligenciar para la generación 
 tags: [AMsi, Crear Orden en AMsi]
 author: win
 ---
+
 Se suministra información detallada del formulario Servicio Solicitado. Dicha información, especifica claramente el servicio solicitado, así como también el Centro de Servicio responsable de atender la OT creada.
 
 Se identifican los campos relacionados en el formulario Servicio Solicitado para la creación de OT, y se reconocen los comandos que aparecen en pantalla.

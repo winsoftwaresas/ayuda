@@ -1,9 +1,10 @@
 ---
 title: Acceso Administración AMsi
-subtitle: Este capítulo, orientado al Administrador General del **AMsi**,se concentra en la funcionalidad de la opción Configuración.
+subtitle: Este capítulo, orientado al Administrador General de AMsi,se concentra en la funcionalidad de la opción Configuración.
 tags: [AMsi, Configuración Amsi, Acceso admministración AMsi]
 author: win
 ---
+
 Se define el acceso a la aplicativo y comandos del menú principal para el Administrador del sistema. Se configuran criterios, preferencias, particularidades y modos de visualización sobre la información disponible en los formularios básicos del aplicativo al igual que los permisos y parametrización general del mismo, incluyendo la administración de los usuarios de **AMsi**. 
 
 **En este capítulo**

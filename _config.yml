@@ -119,6 +119,8 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
+  - package.json
+  - package-lock.json
 
 # Destination
 destination:        docs/

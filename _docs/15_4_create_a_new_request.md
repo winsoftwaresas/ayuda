@@ -4,6 +4,7 @@ subtitle: Este capítulo define el formulario a diligenciar para crear una SS de
 tags: [AMsi, Crear Solicitud]
 author: win
 ---
+
 Se suministra información detallada del formulario _Servicio Solicitado_. Dicha información, especifica claramente el servicio solicitado así como el Centro de Servicio responsable de atender la SS creada.
 Se identifican los campos relacionados en el formulario Servicio Solicitado para la creación de SS y se reconocen los comandos que aparecen en pantalla.
 

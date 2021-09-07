@@ -4,6 +4,7 @@ subtitle: Este capítulo guía para realizar la evaluación de Solicitudes/Órde
 tags: [AMsi, Evaluar Solicitudes, Evaluar Órdenes]
 author: win
 ---
+
 Es posible realizar la Evaluación del Servicio únicamente a todas las SS/OT que tengan el estado CE (Cerrada Ejecutada) y debe cumplirse la condición de que el campo solicitante coincida con el usuario logueado. Para continuar, dar clic a la opción de Consultar Mis Solicitudes/Órdenes, luego dar clic al registro de la SS/OT que se desea evaluar y en la ventana Detalle, en la sección de Evaluar Servicio, se encuentran habilitadas las preguntas y las opciones de respuesta. Para finalizar, se debe dar clic al botón **Guardar Evaluación.**
 
 ![Procesar imagen](../assets/images/placeholder.jpg)

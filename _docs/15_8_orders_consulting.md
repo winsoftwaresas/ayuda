@@ -4,6 +4,7 @@ subtitle: Este capítulo guía para ejecutar consultas de OT creadas desde **AMs
 tags: [AMsi, Consultar Orden en AMsi]
 author: win
 ---
+
 **AMsi** solo permite realizar creación y consultas para uno de los dos tipos de registro a la vez: OT o SS, pero no para los dos simultáneamente. Ello depende de la Configuración del aplicativo que se haya elegido, según la necesidad de la Organización.
 
 La Configuración del **AMsi** se describe en detalle en el Capítulo 9 de este manual.
