@@ -20,7 +20,7 @@ Almacena la información de cuatro tipos diferentes de entes terceros relacionad
 
 Dependiendo del objetivo en que se utilice esta tabla, el sistema despliega solamente los datos relevantes en el respectivo contexto. Por ejemplo cuando se requiere trabajar sobre Responsables de Mantenimiento, incluyendo tanto los internos de la organización como los externos, el sistema muestra solamente estas dos categorías en la tabla de Responsables.
 
-![ventena it](../../assets/images/cap02/chp02_img02.png)
+![ventana it](../../assets/images/cap02/chp02_img02.png)
 
 En la porción de la ventana Visor de Terceros que se aprecia en la gráfica aparecen  las columnas correspondientes a los campos más significativos de esta tabla. Al posicionar el cursor sobre cualquiera de las filas de registros en esta ventana,  aparece en la ventana Detalle la información completa del Tercero seleccionado.
 
