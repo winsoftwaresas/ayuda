@@ -1,10 +1,8 @@
 ---
 title: Resumen Como empezar a trabajar
-subtitle: El programa AM 4G - Administrador de mantenimiento se facilita enormemente siguiendo los procedimientos básicos que se explican a continuación..
+subtitle: El programa AM Administrador de mantenimiento se facilita enormemente siguiendo los procedimientos básicos que se explican a continuación..
 author: win
 --- 
-
-## Resumen: Como empezar a trabajar
 
 El uso del programa **AM** Administrador de Mantenimiento se facilita en gran forma si se atienden los procedimientos básicos que se explican a continuación.
 

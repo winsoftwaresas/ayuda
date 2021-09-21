@@ -4,8 +4,6 @@ subtitle: En esta sección se proporciona y discute un cronograma detallado, que
 author: win
 --- 
 
-## Concurrencia en **AM**
-
 Es importante tener en cuenta que en **AM**, un mismo usuario no puede iniciar sesión simultáneamente en dos máquinas diferentes.
 
 La cantidad de usuarios que pueden trabajar al mismo tiempo en **AM** depende de la cantidad de licencias adquiridas por la compañía, en un esquema de clientes concurrentes. La cantidad de usuarios creados en el sistema no tiene que ser la misma cantidad de las licencias adquiridas, o sea que es posible definir un número de usuarios mayor al número de licencias disponibles.
