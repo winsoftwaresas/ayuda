@@ -1,6 +1,6 @@
 ---
 title: Interfaz de Usuario
-subtitle: Aquí hay información general sobre los elementos principales presentes en la ventana AM
+subtitle: Aquí se incluye información general sobre los elementos principales presentes en una ventana de AM.
 tags: [setup]
 author: win
 ---
@@ -10,7 +10,7 @@ author: win
 ![Procesar imagen](../../assets/images/cap01/chp01_img01.png)
 _**Imagen 1.** Ventana Acceso **AM**_
 
-Aquí se incluye información general sobre los principales elementos presentes en una ventana de **AM**. Los elementos que conforman esta vista principal son:
+Los elementos que conforman esta vista principal son:
 
 #### Menú Principal
 
@@ -24,7 +24,7 @@ En caso de estar trabajando en Infraestructura, se muestra una ventana que se ub
 ![Procesar imagen](../../assets/images/cap01/chp01_img03.png)
 _**Imagen 3.** Ventana Infraestructura_
 
-En caso de estar trabajando en Admón., esta barra se complementa listando todas las compañías existentes.
+En caso de estar trabajando con Gerente o un usuario administrador, esta barra se complementa listando todas las compañías existentes.
 
 ![Procesar imagen](../../assets/images/cap01/chp01_img04.png)
 _**Imagen 4.** Ventana Administración_
@@ -46,7 +46,7 @@ Es la ventana en la que se lista el total de los registros o aquellos preselecci
 
 Los títulos en azul que encabezan las columnas son también botones que permiten ordenar la tabla, según el título seleccionado.
 
-Para elegir un registro de la tabla se da un clic del mouse sobre él o se desplaza el cursor con las teclas de desplazamiento.
+Para elegir un registro de la tabla se da un clic sobre él o se desplaza el cursor con las teclas de desplazamiento.
 
 En la parte superior izquierda de esta ventana se observa la identificación actual del módulo en pantalla que corresponde a la opción del menú seleccionada. También, al lado derecho de esta sección, se encuentra el botón [Nuevo](#0){: .btn.white} con el fin de acceder rápidamente a la ventana Detalle con el fin de ingresar un nuevo registro.
 
@@ -71,8 +71,8 @@ Además de la información detallada de un registro, contiene un grupo de botone
 
 |Botón | Descripción |
 |:--|:--|
-| [Nuevo](#0){: .btn.blue} | Prepara la ventana Detalle para el ingreso de un nuevo registro, blanqueando cada uno de los campos que son objeto de llenado. Al activarlo el sistema reemplaza la línea de 4 botones por una nueva de 2 botones: |
-| [Copiar](#0){: .btn.blue} | Toma una copia instantánea del registro actual, señalado por el cursor en la ventana Visor, y la deja disponible en la ventana Detalle para que sobre ella se hagan las modificaciones necesarias para crear un nuevo registro. Tales modificaciones involucran en la mayoría de los casos aquellos campos clave del registro y otros propios que deben ser particularizados para el nuevo. Al activar este botón el sistema reemplaza la línea de 4 botones por una nueva de 2 botones. |
+| [Nuevo](#0){: .btn.blue} | Prepara la ventana Detalle para el ingreso de un nuevo registro, blanqueando cada uno de los campos que son objeto de llenado. Al activarlo el sistema reemplaza la línea de 4 botones por una nueva de 2 botones: [Insertar](#0){: .btn.blue} que se usa para ingresar el nuevo registro a la base de datos actualizando la ventana Visor, mientras que el botón [Cancelar](#0){: .btn.blue} aborta el proceso de creación del nuevo registro retornando a la ventana Detalle.|
+| [Copiar](#0){: .btn.blue} | Toma una copia instantánea del registro actual, señalado por el cursor en la ventana Visor, y la deja disponible en la ventana Detalle para que sobre ella se hagan las modificaciones necesarias para crear un nuevo registro. Tales modificaciones involucran en la mayoría de los casos aquellos campos clave del registro y otros propios que deben ser particularizados para el nuevo. Al activar este botón el sistema reemplaza la línea de 4 botones por una nueva de 2 botones:  [Insertar](#0){: .btn.blue} que se usa para ingresar el nuevo registro a la base de datos actualizando la ventana Visor, mientras que el botón [Cancelar](#0){: .btn.blue} aborta el proceso de creación del nuevo registro retornando a la ventana Detalle.|
 | [Actualizar](#0){: .btn.blue} | Sirve para guardar o salvar en la base de datos la información que se ha modificado en la ventana Detalle, correspondiente al registro señalado por el cursor en la ventana Visor y registrar allí simultáneamente el mismo cambio. |
 | [Eliminar](#0){: .btn.blue} | Se utiliza para borrar un registro de la base de datos y registrar simultáneamente el cambio en la ventana Visor. |
 
@@ -87,15 +87,15 @@ Para salir de la ventana Detalle se puede dar clic a la **X** que se encuentra a
 ![Procesar imagen](../../assets/images/cap01/chp01_img09.png)
 _**Imagen 8.** Ventana menú de mas información_
 
-Esta ventana se ubica en la parte superior derecha del menú principal. Contiene cinco tipos de información.
+Esta ventana se ubica en la parte superior derecha del menú principal. Contiene la siguiente información:
 
 - **Compañía**: Indica al usuario el número y nombre de la compañía en la que se encuentra.
-- **Usuario conectado:** Indica el login del usuario conectado en la compañía y en la sección de “Usuarios Conectados” que es un contador de los usuarios conectados actualmente al sistema, que al ser activado con un clic los despliega e indica al usuario a través de qué aplicativos están conectados.
+- **Usuario conectado:** Indica el login del usuario conectado en la compañía.
 - **Limpiar filtros:** Limpia todos los filtros de todos los módulos para desbloquear el acceso a alguno de ellos.
-- **Inicio**: Esto conlleva al dashboard de **Inicio** o a la Ventana Principal de **AM**
-- **Interfases:** se usará para definir los criterios de las interfaces que se realizarán a futuro entre **AM** y otros sistemas propios de la empresa o institución.
+- **Inicio**: Esto conlleva al dashboard de **Inicio** o a la Ventana Principal de **AM**.
+- **Interfases:** Se usará para definir los criterios de las interfaces que se realizarán a futuro entre **AM** y otros sistemas propios de la empresa o institución.
 - **Cambiar de contraseña:** Permite que el usuario logueado cambie su contraseña.
-- **Cerrar Sesión:** se usa para manejar la sesión del usuario actual con el fin de salir del aplicativo.
+- **Cerrar Sesión:** Se usa para manejar la sesión del usuario actual con el fin de salir del aplicativo.
 
 ### Ventana Reportes
 

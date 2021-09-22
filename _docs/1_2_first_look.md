@@ -1,6 +1,6 @@
 ---
 title: Un vistazo a AM
-subtitle: Esta sección ayuda a entender el programa **AM** (Administrador de Mantenimiento) y a implementarlo para lograr la satisfacción de las necesidades de administración del mantenimiento de los activos en su empresa.
+subtitle: Esta sección ayuda a entender al programa AM (Administrador de Mantenimiento) y a implementarlo para lograr la satisfacción de las necesidades de administración del mantenimiento de los activos en su empresa.
 tags: [setup]
 author: win
 ---
@@ -42,13 +42,13 @@ Es la función que realiza la programación de actividades de mantenimiento ruti
 
 ### **Solicitudes de Servicio [SS]**
 
-Es el módulo mediante el cual todo empleado autorizado de la compañía, puede solicitar una atención o servicio por parte del área de Mantenimiento. Una Solicitud de Servicio puede ser atendida como tal o puede dar origen a una Orden de Trabajo.
+Es el módulo mediante el cual todo empleado autorizado de la compañía, puede solicitar una atención o servicio por parte del área de Mantenimiento. Una Solicitud de Servicio puede ser atendida como tal o puede dar origen a una Órden de Trabajo.
 El solicitante puede hacer seguimiento permanente del estado de su solicitud. Este módulo tiene una funcionalidad adicional: el registro de acciones técnicas sencillas de mantenimiento: Corto tiempo de ejecución, bajo costo, y ejecutados por un solo responsable.
 
 ### **Paros/ Averías [PA]**
 
 A través de esta función, se hace el registro minucioso de toda
-actividad de paro de un equipo u objeto de mantenimiento, programado o no programado, que genere tiempos improductivos. Además de los tiempos de paro, se relacionan también la Causa y Efecto de la Falla y las Acciones Técnicas respectivas. Un paro puede dar origen a una Orden de Trabajo.
+actividad de paro de un equipo u objeto de mantenimiento, programado o no programado, que genere tiempos improductivos. Además de los tiempos de paro, se relacionan también la Causa y Efecto de la Falla y las Acciones Técnicas respectivas. Un paro puede dar origen a una Órden de Trabajo.
 
 ### **Órdenes de Trabajo [OT]**
 
@@ -57,7 +57,7 @@ como el Centro de Gestión de Mantenimiento.
 
 ### **Historia de Mantenimiento [HI]**
 
-Es el conjunto de funciones que compendian, estudian y analizan la información histórica de Mantenimiento. La Historia de Mantenimiento está conformada por el conjunto de las OTs que se han ejecutado, liquidado, cerrado y trasladado hasta la Historia de Mantenimiento, y por las Solicitudes de Servicio o los Paros que han sido cerrados y son enviados a Historia. Esta Historia compendia y refleja la actividad de Mantenimiento ejecutada en la empresa. Es a partir del compendio histórico de mantenimiento que se genera el Balance Periódico de Gestión, se generan los índices de seguimiento y de gestión, se realizan una gran variedad de estudios especiales, como análisis de fallas, análisis de Pareto por varios criterios, análisis de costos (mano de obra, materiales/repuestos y otros conceptos), análisis de Confiabilidad o Disponibilidad, análisis sobre consumos de recursos o análisis sobre proveedores de servicio, entre muchos otros.
+Es el conjunto de funciones que compendian, estudian y analizan la información histórica de Mantenimiento. La Historia de Mantenimiento está conformada por el conjunto de las OT que se han ejecutado, liquidado, cerrado y trasladado hasta la Historia de Mantenimiento, y por las SS o los PA que han sido cerrados y son enviados a Historia. Esta Historia compendia y refleja la actividad de Mantenimiento ejecutada en la empresa. Es a partir del compendio histórico de mantenimiento que se genera el Balance Periódico de Gestión, se generan los índices de seguimiento y de gestión, se realizan una gran variedad de estudios especiales, como análisis de fallas, análisis de Pareto por varios criterios, análisis de costos (mano de obra, materiales/repuestos y otros conceptos), análisis de Confiabilidad o Disponibilidad, análisis sobre consumos de recursos o análisis sobre proveedores de servicio, entre  otros.
 
 ### **Administración [AD]**
 
