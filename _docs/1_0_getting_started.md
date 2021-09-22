@@ -182,7 +182,7 @@ _**Imagen 9.** Ventana Reportes_
 
 Esta ventana presenta las opciones de impresión de reportes escritos relacionados con cada módulo del sistema. A esta ventana se llega dando clic al icono de la impresora que se encuentra ubicado en la parte superior derecha de la ventana Visor del módulo seleccionado.
 
-**Lista de Selección:** Es la tabla donde aparecen los campos: Código, Descripción y Subtítulo. Bajo el título **Código** se listan los códigos de los reportes existentes. Bajo el título Descripción se listan los nombres de los reportes existentes. Bajo el título de Subtítulo se lista en algunos reportes una descripción adicional del reporte.
+**Lista de Selección:** Es la tabla donde aparecen los campos Código, Descripción y Subtítulo. Bajo el título **Código** se listan los códigos de los reportes existentes. Bajo el título **Descripción** se listan los nombres de los reportes existentes. Bajo el título de **Subtítulo** se lista en algunos reportes una descripción adicional del reporte.
 
 **Todos los Registros:** Esta opción permite la impresión de todos los Registros existentes en la base de datos relacionados con el módulo actual, sin importar si se ha realizado un subgrupo. Corresponde al número de registros especificados en el denominador de la selección (M).
 
@@ -190,14 +190,14 @@ Esta ventana presenta las opciones de impresión de reportes escritos relacionad
 
 **Registro Seleccionado:** Esta opción permite hacer una impresión del registro que está seleccionado en la Ventana Visor mediante el cursor con la línea verde.
 
-**Subtítulo:** Este campo permite registrar un poco menos de una línea de información, tipo documentación del Reporte, para que se imprima bajo el área de títulos estándar.
+**Subtítulo:** Este campo permite registrar un poco menos de una línea de información, tipo documentación del Reporte, para que se imprima bajo el área de título estándar.
 
 Después de seleccionar el tipo de registro se procede a seleccionar el reporte que se desea imprimir; para esto se debe pulsar el botón [Imprimir](#0){: .btn.white}. De esta manera se abre una ventana visor para formatos PDF, que muestra el reporte seleccionado. De esta misma ventana es posible guardarlo y descargarlo. 
 
 ![Procesar imagen](../../assets/images/cap01/chp01_img11.png)
 _**Imagen 10.** Ventana Reporte Impresa_
 
-Al dar clic al botón [Exportar](#0){: .btn.white} permite exportar el Reporte seleccionado sin necesidad de imprimirlo. Mientras que, al dar clic al botón [Cerrar](#0){: .btn.white} se cierra la ventana de la generación de reportes.
+Al dar clic al botón [Exportar](#0){: .btn.white} permite exportar el Reporte seleccionado sin necesidad de imprimirlo a un formato excel. Mientras que, al dar clic al botón [Cerrar](#0){: .btn.white} se cierra la ventana de la generación de reportes.
 
 ### Otros elementos de la Interfaz de Usuario
 
