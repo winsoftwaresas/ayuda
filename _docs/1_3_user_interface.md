@@ -137,8 +137,8 @@ Al dar clic al botón [Exportar](#0){: .btn.white} permite exportar el Reporte s
 | [Aprobar Presupuesto](#0){: .btn.gray} | Este botón se encuentra en el módulo de OT mientras no se haya aprobado el presupuesto de una OT que exige presupuesto. Permite aprobar el presupuesto que ha sido asignado a una OT. Una vez aprobado, es posible iniciar el registro manual del Gasto Real. |
 | [Mano Obra Interna](#0){: .btn.gray} | Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ver el detalle de la Mano de Obra Interna presupuestada o usada, respectivamente. |
 | [Mano Obra Externa](#0){: .btn.gray} | Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ver el detalle de la Mano de Obra Externa presupuestada o usada, respectivamente. |
-| [Materiales y Repuestos](#0){: .btn.gray} | Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ver el detalle de los Materiales y Repuestos. |
-| [Otros Conceptos](#0){: .btn.gray} | Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ver el detalle de los Otros Conceptos de Costos. |
+| [Mat y Rep](#0){: .btn.gray} | Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ver el detalle de los Materiales y Repuestos. |
+| [O. Conceptos](#0){: .btn.gray} | Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ver el detalle de los Otros Conceptos de Costos. |
 | [Ir a Matriz](#0){: .btn.gray} | Este botón regresa a la vista de matriz de Presupuesto o gasto real en HI, OT y PM, después de visualizar, ingresar o modificar información detallada de algún concepto de costo. |
 | [Adicionar Mano Obra Interna](#0){: .btn.gray} | Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ingresar el detalle de la Mano de Obra Interna presupuestada o usada, respectivamente. |
 | [Adicionar Mano Obra Externa](#0){: .btn.gray} | Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ingresar el detalle de la Mano de Obra Externa presupuestada o usada, respectivamente. |
@@ -151,9 +151,9 @@ Al dar clic al botón [Exportar](#0){: .btn.white} permite exportar el Reporte s
 | [Exportar](#0){: .btn.white} | Este botón permite Exportar los datos qué se encuentran en el visor, a un formato de Excel. |
 | [Imprimir](#0){: .btn.white} | Este botón genera el reporte seleccionado en una nueva ventana. Refiérase a _Servicios » Reportes_ en la ventana submenú de cada módulo del sistema. |
 | [Iniciar Sesión](#0){: .btn.blue} | Este botón valida el usuario y la contraseña, necesarios para ingresar a **AM**. |
-| [Enviar a Historia](#0){: .btn.gray} | Este botón ejecuta el envío de registros de Solicitudes de Servicio, órdenes de Trabajo Y Paros/Averías cerradas y/o canceladas, hasta el módulo de Historia de Mantenimiento. |
+| [Enviar a Historia](#0){: .btn.gray} | Este botón ejecuta el envío de registros de Solicitudes de Servicio, Órdenes de Trabajo Y Paros/Averías cerradas y/o canceladas, hasta el módulo de Historia de Mantenimiento. |
 | [Proyectar](#0){: .btn.white} | Inicia el proceso de proyección en PM, con el objetivo de planear y/o presupuestar un periodo de largo plazo, a partir de los PM activos. |
-| [Generar](#0){: .btn.gray} | Este botón convierte en OT reales, aquellas OS que fueron resultado del proceso de Analizar que se acaba de ejecutar, en el módulo de OT. |
+| [Generar](#0){: .btn.gray} | Este botón convierte en OT reales, aquellas OT que fueron resultado del proceso de Analizar que se acaba de ejecutar, en el módulo de OT. |
 | [Modificar FIP](#0){: .btn.gray} | En Programas de Mantenimiento, actualiza el valor de la Fecha de Inicio de Período. |
 | <span class="mdi mdi-filter-variant icon white"></span> | **Buscar**<br />Abre una nueva ventana compuesta (Ventana Visor y Ventana Subgrupo) para realizar una selección que facilite la búsqueda de un registro. |
 | <span class="mdi mdi-plus-circle icon white"></span> | **Más**<br />Este botón permite hacer unión de selecciones dentro de una opción de subgrupo en una Ventana Visor. Es útil cuando se necesita visualizar conjuntamente dos o más subgrupos.|
@@ -191,4 +191,3 @@ Cuando se ha hecho el acceso exitoso al sistema se muestra por defecto una venta
 ![Ventana acceso directo](../../assets/images/cap01/chp01_img62.png)
 _**Imagen 12.** Ventana de Acceso AM_
 
-También es posible definir que al ingresar al sistema se muestre la tabla de Terceros de la Infraestructura, en lugar del _Dashboard Home_, esto se define desde el módulo de Administración. Posteriormente, en el capítulo de Administración, se trata más a fondo esta opción del sistema.
