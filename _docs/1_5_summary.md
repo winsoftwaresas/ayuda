@@ -1,10 +1,8 @@
 ---
 title: Resumen Como empezar a trabajar
-subtitle: El programa AM Administrador de mantenimiento se facilita enormemente siguiendo los procedimientos básicos que se explican a continuación..
+subtitle: El programa AM Administrador de mantenimiento se facilita en gran medida siguiendo los procedimientos básicos que se explican a continuación..
 author: win
 --- 
-
-El uso del programa **AM** Administrador de Mantenimiento se facilita en gran forma si se atienden los procedimientos básicos que se explican a continuación.
 
 Estos procedimientos permiten implementar el programa, organizando la estructura de datos en una forma lógica y simple, sin importar la complejidad propia del área de Mantenimiento o de las funciones administrativas, técnicas u operativas que realice.
 
@@ -22,11 +20,11 @@ La guía general para la implementación exitosa del programa **AM** Administrad
 
 - Incorporación de Solicitudes de Servicio y Paros/Averías.
 
-- Uso rutinario de órdenes de Trabajo (automáticas, semiautomáticas y manuales).
+- Uso rutinario de Órdenes de Trabajo (automáticas y manuales).
 
 - Gestión de Mantenimiento y compendio de Historia de Mantenimiento.
 
-> **Nota general:** Una vez ejecutada cada acción de mantenimiento la Orden de Trabajo correspondiente debe ser liquidada, cerrada y posteriormente enviada a Historia de Mantenimiento. Puesto que la generación automática y el ingreso manual de las Órdenes de Trabajo son voluminosos, se debe realizar con frecuencia el envío de tales registros a Historia de Mantenimiento para evitar que la gestión diaria se vea congestionada con actividades ya ejecutadas.
+> **Nota general:** Una vez ejecutada cada acción de mantenimiento la Órden de Trabajo correspondiente debe ser liquidada, cerrada y posteriormente enviada a Historia de Mantenimiento. Puesto que la generación automática y el ingreso manual de las Órdenes de Trabajo son voluminosos, se debe realizar con frecuencia el envío de tales registros a Historia de Mantenimiento para evitar que la gestión diaria se vea congestionada con actividades ya ejecutadas.
 
 De hecho, los procesos periódicos de Balance de Gestión, Reportes, Índices, Paros y distintos análisis y estudios, se realizan principalmente sobre el conjunto de Órdenes de Trabajo que residen en el módulo de Historia de Mantenimiento.
 
@@ -44,7 +42,7 @@ A continuación, se describe la convención utilizada para la nomenclatura de lo
 
 ![Procesar imagen](../../assets/images/cap01/chp01_img63.png)
 
-_**Imagen 13.** Nomenclatura_
+_**Imagen 13.** Nomenclatura de Reportes_
 
 ### Módulo o Categoría al que pertenece el Reporte:
 
