@@ -1,10 +1,9 @@
 ---
 title: Tablas de Infraestructura
-subtitle: aquí se aclara el uso y las opciones de las tablas de infraestructura del sistema AM 4G.
+subtitle: Aquí se aclara el uso y las opciones de las tablas de infraestructura del sistema AM.
 tags: [setup]
 author: win
 ---
-
 
 ## Terceros 
 
