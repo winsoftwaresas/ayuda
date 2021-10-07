@@ -125,67 +125,73 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 **FF Vencimiento:** En este campo se elige la fecha de vencimiento del documento a adjuntar. 
 
-**Adjuntar Documentos:** Para adjuntar el documento, se debe dar clic al botón <a class="btn">Seleccionar archivo</a>. se observa que se abre una ventana para buscar el archivo y seleccionarlo dando doble clic o clic al botón <a class="btn">Abrir</a>, al lado derecho del campo se observa que se muestra el nombre del archivo adjuntado, para insertar o actualizar los datos en esta tabla se da clic en el botón <a class="btn">Más</a> o  <a class="btn">Actualizar Técnico</a>, **respectivamente.** Para finalizar el proceso, en ambos casos, se debe dar clic al botón <a class="btn">Actualizar</a>.
+**Adjuntar Documentos:** Para adjuntar el documento, se debe dar clic al botón <a class="btn">Seleccionar archivo</a>. Se observa que se abre una ventana para buscar el archivo y se selecciona dando doble clic o clic al botón <a class="btn">Abrir</a>, al lado derecho del campo se observa que se muestra el nombre del archivo adjuntado, para insertar o actualizar los datos en esta tabla se da clic en el botón <a class="btn">Más</a> o <a class="btn">Actualizar Técnico</a>, que solo aplica cuando el registro ya existe. Para finalizar el proceso, en ambos casos, se debe dar clic al botón <a class="btn">Actualizar</a>.
 
-Para registrar un nuevo técnico se da clic en el botón <a class="btn">Más</a>, ubicado en la parte inferior izquierda de la tabla Técnicos. Para actualizar la información de alguno de los técnicos, primero se selecciona el técnico en la tabla, se observa que se muestra la información detallada de ese técnico, se procede a actualizar los campos, luego dar clic al botón <a class="btn">Actualizar Técnico</a> y finalmente terminar el proceso de actualización con el botón <a class="btn">Actualizar Técnico</a>. Si se desea desasociar la información de una certificación de un Técnico, se debe dar clic al icono de<span class="iconify btn" data-icon=delete>eliminar (basura)</span> que está al lado derecho del documento anexo, sale mensaje de alerta que indica al usuario de sí está seguro de eliminar el registro y se da clic en <a class="btn">Aceptar</a>.  
+Para registrar un nuevo técnico se da clic en el botón <a class="btn">Más</a>, ubicado en la parte inferior izquierda de la tabla Técnicos. Para actualizar la información de alguno de los técnicos, primero se selecciona el técnico en la tabla, se observa que se muestra la información detallada de ese técnico, se procede a actualizar los campos, luego dar clic al botón <a class="btn">Actualizar Técnico</a> y finalmente terminar el proceso de actualización con el botón <a class="btn">Actualizar Técnico</a> de la parte superior izquierda. Si se desea desasociar la información de una certificación de un Técnico, se debe dar clic al icono de<span class="iconify btn" data-icon=delete>eliminar (basura)</span> que está al lado derecho del documento anexo, sale mensaje de alerta que indica al usuario de sí está seguro de eliminar el registro y se da clic en <a class="btn">Aceptar</a>.  
 
 ### Indicadores
 
-Es posible visualizar de manera inmediata, los Terceros habitados e inhabilitados, directamente desde la ventana visor, a través de la columna ** “Indicadores”** que muestra una pelota de color que indica su estado. El significado del color de cada pelota, se puede ver en el recuadro de Indicadores, ubicado en la parte superior derecha de la ventana visor.   
+Es posible visualizar de manera inmediata, los Terceros habitados e inhabilitados, directamente desde la ventana visor, a través de la columna **“Indicadores”** que muestra una pelota de color que indica su estado. El significado del color de cada pelota, se puede ver en el recuadro de Indicadores, ubicado en la parte superior derecha de la ventana visor, como se muestra a continuación:
 
-![terceros](../../assets/images/cap02/chp02_img06.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img06.png)
+_**Imagen 6.** Indicadores Terceros_
 
 El significado de los colores se visualiza al sobreponer el mouse en el icono que se encuentra al extremo superior derecho y su correspondencia es:
 
--	**Verde:** Terceros con certificaciones que tienen fecha de vencimiento posterior a la fecha actual, es decir, se encuentran con sus certificaciones habilitadas
+- **Verde:** Terceros con certificaciones que tienen fecha de vencimiento posterior a la fecha actual, es decir, se encuentran con sus certificaciones habilitadas
 
--	**Rojo:** Terceros con certificaciones que tienen fecha de vencimiento anterior a la fecha actual, es decir, se encuentran con una o varias certificaciones inhabilitadas.
+- **Rojo:** Terceros con certificaciones que tienen fecha de vencimiento anterior a la fecha actual, es decir, se encuentran con una o varias certificaciones inhabilitadas.
 
 ### Subgrupo Terceros
 
 Se usa para seleccionar grupos de Terceros que cumplen un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al <a class="btn">Aicono de filtro</a>icono de filtro, ubicado en la parte superior derecha de la ventana Visor de Terceros. 
 
-![terceros](../../assets/images/cap02/chp02_img07.png)
-
+![Procesar imagen](../../assets/images/cap02/chp02_img07.png)
+_**Imagen 7.** Subgruposs_
 
 **AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar. 
 
 Cada criterio trabaja en conjunto con los demás, con el operador intersección.
 
-Cada criterio aparece inicializado en un valor global que permite mostrar todos  los Terceros. Lo que significa que de no escoger un criterio se obtiene como resultado  del subgrupo el mismo conjunto completo de todos los Terceros.
+Cada criterio aparece inicializado en un valor global que permite mostrar **todos** los Terceros. Lo que significa que de no escoger un criterio se obtiene como resultado  del subgrupo el mismo conjunto completo de todos los Terceros.
 
-El programa permite entonces hacer selección de un grupo de Terceros de acuerdo con los criterios seleccionados en la siguiente ventana. 
+El programa permite entonces hacer selección de un grupo de Terceros de acuerdo con los criterios seleccionados en la siguiente ventana: 
 
-![subgrupo terceros](../../assets/images/cap02/chp02_img08.png)
+![Procesar imagen ](../../assets/images/cap02/chp02_img08.png)
+_**Imagen 8.** Ventana Subgrupo Terceros_
 
-Los campos de datos que constituyen criterio de selección haciendo parte de la Ventana Subgrupo son los siguientes.
+Los campos de datos que constituyen los criterios de selección son los siguientes:
 
 **Centro de Costo:** Se elige de la lista el Centro de Costo al que pertenece el Tercero. 
 
-**Centro Responsable:** Lista los centros responsables registrados en el sistema. cap02/chp02_img09.png)
+**Centro Responsable:** Lista los centros responsables registrados en el sistema. 
 
-También se puede elegir el centro responsable o un grupo de centros responsables mediante el uso de comodines, para ello, se debe dar clic al icono <span class="iconify btn" data-icon=lock>Candado</span>. Ejemplo, si se escribe %adm%, el sistema entiende que debe seleccionar aquellos Terceros cuyo centro responsable tenga incluida la secuencia ** “adm”**.   
+![Procesar imagen ](../../assets/images/cap02/chp02_img09.png)
+_**Imagen 9.** Ventana Subgrupo Terceros_
+
+También se puede elegir el centro responsable o un grupo de centros responsables mediante el uso de comodines, para ello, se debe dar clic al icono <span class="iconify btn" data-icon=lock>Candado</span>. Ejemplo, si se escribe %adm%, el sistema entiende que debe seleccionar aquellos Terceros cuyo centro responsable tenga incluida la secuencia **“adm”**.
 
 **Ciudad:** Permite la selección de la ciudad donde se encuentre un Tercero. 
 
-**Código:** Esta selección agrupa los Terceros relacionados por su código. Por ejemplo: si se escribe 98%, el sistema localiza aquellos Terceros cuyo código empieza por 98. El porcentaje a continuación, es un carácter comodín que significa ** “todos”**.
+**Código:** Esta selección agrupa los Terceros relacionados por su código. Por ejemplo: si se escribe 98%, el sistema localiza aquellos Terceros cuyo código empieza por 98. El porcentaje a continuación, es un carácter comodín que significa **“todos”**.
 
-**Tipo:** Filtra los Terceros de Tipo Responsable Interno, Responsable Externo, Proveedor / Fabricante u Otro, al dar clic en uno o algunos de los cuadros de selección.
+**Tipo:** Filtra los Terceros de Tipo Responsable Interno, Responsable Externo, Proveedor/Fabricante u Otro, al dar clic en uno o algunos de los cuadros de selección.
 
-![tipo](../../assets/images/cap02/chp02_img10.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img10.png)
+_**Imagen 10.** Subgrupo Criterio Tipo_
 
 **Contacto:** Permite la selección de los Terceros que tengan un contacto asociado, ya sea el mismo nombre del Tercero o el nombre de la persona representante de la empresa. 
 
-**Estado:** Permite la selección de los Terceros de acuerdo al estado de Activo o Inactivo. El estado de los Terceros es importante para la selección en las listas  desplegables. Por ejemplo: Si un Tercero de tipo RI, tiene definido el Estado ** “Inactivo”**, este no aparecerá en la lista de los Responsables de la OT.
+**Estado:** Permite la selección de los Terceros de acuerdo al estado de Activo o Inactivo. El estado de los Terceros es importante para la selección en las listas  desplegables. Por ejemplo: Si un Tercero de tipo RI, tiene definido el Estado **“Inactivo”**, este no aparecerá en la lista de los Responsables de la OT.
 
-**Nombre:** Selecciona los Terceros según criterios basados en su Nombre. Ejemplo: **%Manuel%**  selecciona todos los Terceros en cuyo nombre, en cualquier parte, tengan la palabra ** “Manuel”**.
+**Nombre:** Selecciona los Terceros según criterios basados en su Nombre. Ejemplo: **%Manuel%**  selecciona todos los Terceros en cuyo nombre, en cualquier parte, tengan la palabra **“Manuel”**.
 
 **Oficio:** Muestra los Terceros que tengan asignados el Oficio seleccionado.
 
-![oficio](../../assets/images/cap02/chp02_img11.png)
+![Procesar imagen ](../../assets/images/cap02/chp02_img11.png)
+_**Imagen 11.** Ventana Subgrupo Criterio Oficio_
 
-De igual forma, se puede elegir el oficio mediante la opción Utilizar comodines, para ello, se debe dar clic al icono <a class="btn">Candado</a>, . Esta selección agrupa los Terceros relacionados por su oficio. Por ejemplo: si se escribe ayudante%, el sistema localiza aquellos Terceros cuyo oficio empieza por la palabra ** “ayudante”**.
+De igual forma, se puede elegir el oficio mediante la opción utilizar comodines, para ello, se debe dar clic al icono <a class="btn">Candado</a>. Esta selección agrupa los Terceros relacionados por su oficio. Por ejemplo: si se escribe ayudante%, el sistema localiza aquellos Terceros cuyo oficio empieza por la palabra **“ayudante”**.
 
-**Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos  se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además  es posible hacer unión de selecciones.  Esto significa que inmediatamente después de haber
+> **Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos  se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además  es posible hacer unión de selecciones.  Esto significa que inmediatamente después de haber realizado una selección es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección se da un clic al botón <a class="btn">Mas (+)</a>, en lugar de darlo al botón <a class="btn">Aceptar</a>.
 
-realizado una selección es posible hacer otra y unir el resultado de las dos.  Para ello, tras definir los criterios de la segunda selección se da un clic al botón <a class="btn">Mas (+)</a>, en  lugar de darlo al botón <a class="btn">Acepar</a>
