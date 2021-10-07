@@ -9,27 +9,27 @@ author: win
 
 Almacena la información de cuatro tipos diferentes de entes terceros relacionados con el sistema.
 
-**Responsable Interno / Empleado (RI):** Es el tipo de Tercero que denota a los trabajadores del área interna de mantenimiento de la compañía. Caben también  en este tipo los empleados de la compañía que tienen bajo su responsabilidad algún objeto de mantenimiento definido en la tabla de Equipos. Un ejemplo de ello,  los conductores de vehículos de la empresa o los operarios de algún equipo.
+**Responsable Interno / Empleado (RI):** Es el tipo de Tercero que denota a los trabajadores del área interna de mantenimiento de la compañía. Caben también  en este tipo los empleados de la compañía que tienen bajo su responsabilidad algún objeto de mantenimiento definido en la módulo de Activos. Un ejemplo de ello,  los conductores de vehículos de la empresa o los operarios de algún equipo.
 
 **Responsable Externo / Contratista (RX):** Es el tipo de Terceros, responsables de la ejecución de tareas de mantenimiento, como entes externos a la empresa, en la categoría de Contratistas, de Talleres Externos o de Servicios Externos de Mantenimiento.  Un ejemplo, los proveedores de servicio de mantenimiento de ascensores, de calderas, o de aire comprimido, cuando son Talleres Externos, expertos, llamados por solicitud, o cuando actúan según términos definidos en un contrato de servicios.
 
-**Proveedor / Fabricante (PF):** En este grupo se registran los proveedores, en todas  sus modalidades, los fabricantes de los equipos o de los objetos de mantenimiento. También caben aquí los proveedores de Repuestos y de materiales de la organización.
+**Proveedor / Fabricante (PF):** En este grupo se registran los proveedores, en todas  sus modalidades, los fabricantes de los Activos/Equipos o de los objetos de mantenimiento. También caben aquí los proveedores de Repuestos y de materiales de la organización.
 
 **Otro Tipo de Tercero (OT):** Este grupo está abierto para definir otros tipos de Terceros requeridos por condiciones particulares de cada organización. Únicamente se puede usar en conjunto con el tipo RI, para indicar que son usuarios solicitantes. 
 
-Dependiendo del objetivo en que se utilice esta tabla, el sistema despliega solamente los datos relevantes en el respectivo contexto. Por ejemplo cuando se requiere trabajar sobre Responsables de Mantenimiento, incluyendo tanto los internos de la organización como los externos, el sistema muestra solamente estas dos categorías en la tabla de Responsables.
+![Procesar imagen](../../assets/images/cap02/chp02_img02.png)
+_**Imagen 2.** Ventana Terceros_
 
-![ventana it](../../assets/images/cap02/chp02_img02.png)
+En la porción de la ventana Visor de Terceros que se aprecia en la gráfica aparecen  las columnas correspondientes a los campos más significativos de esta tabla. Al seleccionar un registro de esta ventana, se muestra la ventana Detalle con la  información completa del Tercero seleccionado.
 
-En la porción de la ventana Visor de Terceros que se aprecia en la gráfica aparecen  las columnas correspondientes a los campos más significativos de esta tabla. Al posicionar el cursor sobre cualquiera de las filas de registros en esta ventana,  aparece en la ventana Detalle la información completa del Tercero seleccionado.
-
-![ventana detalle](../../assets/images/cap02/chp02_img03.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img03.png)
+_**Imagen 3.** Ventana Detalle TE_
 
 En la ventana Detalle de Terceros se encuentra toda la información relevante del Tercero seleccionado en el Visor. Es una ventana que de no aparecer completa debe ser recorrida con la ayuda de la barra de desplazamiento vertical.
 
-A continuación se describen los campos que componen el registro. No todos ellos son obligantes. Sobre cada campo se da una breve explicación: su contenido y diversas recomendaciones para su registro correcto y consistente en la base de datos.
+A continuación se describen los campos que componen el registro. No todos ellos son obligantarios. Sobre cada campo se da una breve explicación: su contenido y diversas recomendaciones para su registro correcto y consistente en la base de datos.
 
-**Código (de Tercero):** En este campo se escribe el código de Tercero Externo, para el caso de los contratistas, proveedores y fabricantes, caso en el cual se usa normalmente el NIT o el RUT, o cualquier otro código de identificación nacional, único  ante los sistemas fiscal, tributario y financiero. Cuando se trate de personal propio  de la empresa se debe escribir el número de su cédula de ciudadanía o un número interno de carné o de identificación personal.
+**Código (de Tercero):** En este campo se escribe el código de Tercero Externo, para el caso de los contratistas, proveedores y fabricantes, se usa normalmente el NIT o el RUT, o cualquier otro código de identificación nacional, único  ante los sistemas fiscal, tributario y financiero. Cuando se trate de personal propio de la empresa se debe escribir el número de su cédula de ciudadanía o un número interno de carné o de identificación personal.
 
 **Nombre:** En este segundo campo se escribe el nombre con el que se identifica el Tercero. Es posible escribir los nombres tipo título: La primera letra de cada nombre en mayúscula y las siguientes en minúsculas, o en otro caso con todo el texto en mayúsculas.
 
@@ -47,13 +47,13 @@ A continuación se describen los campos que componen el registro. No todos ellos
 
 - Responsable Externo y Proveedor / Fabricante (RX-PF)
 
-Cuando se selecciona cualquiera de los dos primeros tipos de Tercero (Responsable),  es necesario identificar el Oficio que realiza el Tercero. Para esto el programa permite desplegar todos los Oficios que han sido ingresados previamente al sistema.
+Cuando se selecciona cualquiera de los dos primeros tipos de Tercero (Responsable), es necesario identificar el **Oficio** que realiza el Tercero. Para esto el programa permite desplegar todos los Cargos Técnicos/Oficios que han sido ingresados previamente al sistema.
 
 El programa permite seleccionar solo uno de dos: **Responsable Interno** o **Responsable Externo**. En ambos casos el sistema solicita a continuación el nombre del Oficio o de la especialidad del Tercero.
 
 Un **Responsable Interno (RI)** no puede ser al tiempo **Proveedor (PF)** de la compañía, entonces ésta combinación está inhabilitada.
 
-**Oficio:** En este campo se selecciona, de la lista despegable, el oficio o cargo técnico o especialidad del Tercero. Al seleccionar un Oficio, el programa muestra automáticamente el nombre del Centro Responsable al que está asociado el Oficio.   
+**Oficio:** En este campo se seleccionaal  de la lista despegable, el oficio o cargo técnico o especialidad del Tercero. Al seleccionar un Oficio, el programa muestra automáticamente el nombre del Centro Responsable al que está asociado el Oficio.   
 
 **Contacto:** En este campo se ingresa, para el caso de contratistas y proveedores, el nombre de la persona representante del Tercero ante la empresa. Para el caso de Terceros internos es posible ingresar el mismo nombre del Tercero, o de un representante de su área, o de la secretaria del área o es posible también dejarlo en blanco.
 
@@ -63,7 +63,7 @@ Un **Responsable Interno (RI)** no puede ser al tiempo **Proveedor (PF)** de la 
 
 **Ciudad y País:** Aparecen dos campos, en los cuales debe ir la siguiente información:
 
-En el primer campo se escribe la ciudad donde está ubicado el Tercero. En el  segundo campo se escribe el país.
+En el primer campo se escribe la ciudad donde está ubicado el Tercero. En el segundo campo se escribe el país.
 
 **Teléfonos:** Aparecen dos campos para dos números telefónicos: Teléfono 1 y Teléfono 2. 
 
@@ -75,7 +75,7 @@ Cuando se vaya a escribir un número telefónico es importante tener en cuenta q
 
 **Ingreso y Retiro:** En el primer campo se escribe la fecha en la cual se hizo el ingreso del Tercero al sistema. En el segundo se ingresa la fecha de retiro del Tercero.
 
-**Comentario:** Aquí se ingresan los comentarios sobre un Centro de Costo o sobre un Cliente, representado por su Centro de Costo. 
+**Comentario:** Aquí se ingresan los comentarios sobre un Centro de Costo o sobre un Cliente, representado por su Centro de Costo o bien para hacer aclaraciones sobre el Tercero. 
 
 ###	Certificaciones Terceros
 
@@ -85,9 +85,10 @@ Esta nueva funcionalidad se usa para realizar un seguimiento detallado a los Ter
 
 A continuación la explicación de las Certificaciones de Terceros tipo RI, cuya finalidad es que el usuario pueda asociar información importante del responsable ejecutor de la institución como hoja de vida, documento, tarjeta profesional, pasantías, cursos, registro Invima, entre otros. 
 
-![detalles de terceros](../../assets/images/cap02/chp02_img04.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img04.png)
+_**Imagen 4.** Certificaciones TE_
 
-En la gráfica anterior, Ventana Certificaciones, se aprecian sus componentes y sus respectivos contenidos. En la ventana Detalle de Terceros se  encuentra la información relevante a la Certificación del Tercero seleccionado en el Visor.
+En la gráfica anterior, pestaña Certificaciones, se aprecian sus componentes y sus respectivos contenidos. En la ventana Detalle de Terceros se  encuentra la información relevante a la Certificación del Tercero seleccionado en el Visor.
 
 A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación.
 
@@ -95,30 +96,30 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 **FF Vencimiento:** En este campo se elige la fecha de vencimiento del documento a adjuntar. 
 
-**Adjuntar Documentos:** Para adjuntar el documento, se debe dar clic a <a class="btn">Seleccionar archivo</a>, se observa que se abre una ventana para buscar el archivo y seleccionarlo dando doble clic o clic al botón<a class="btn">Abrir</a>, al lado derecho del campo se observa que se muestra el nombre del archivo adjuntado, para insertar o actualizar los datos en esta tabla se da clic en el botón<a class="btn">Abrir</a>
+**Adjuntar Documentos:** Para adjuntar el documento, se debe dar clic a <a class="btn">Seleccionar archivo</a>, se observa que se abre el explorador de archivos, luego debe seleccionarse a través de un doble clic o dando un clic al botón<a class="btn">Abrir</a>, al lado derecho del campo se observa que se muestra el nombre del archivo adjuntado, para insertar o actualizar los datos en esta tabla se da clic en el botón<a class="btn">Abrir</a>
 
-
-Para actualizar la información de alguna certificación, se actualiza los campos y terminar el proceso de actualización con el botón <a class="btn">Actualizar</a>. Si se desea desasociar la información de una certificación de un Técnico, se debe dar clic al icono de <span class="iconify btn" data-icon=delete>eliminar (basura)</span> que está al lado izquierdo del documento anexo, sale mensaje de alerta que indica al usuario de sí está seguro de eliminar el registro y se da clic en Aceptar.   
-
+Para actualizar la información de alguna certificación, se ingresa la nueva información en los campos correspondientes y se termina el proceso con el botón <a class="btn">Actualizar</a>. Si se desea desasociar la información de una certificación de un Técnico, se debe dar clic al icono de <span class="iconify btn" data-icon=delete>eliminar (basura)</span> que está al lado izquierdo del documento anexo, donde se muestra un mensaje de alerta que indica al usuario de sí está seguro de eliminar el registro y se da clic en Aceptar. 
 
 **Certificaciones Terceros Tipo RX**
 
-Por otro lado, a continuación la explicación de los Técnicos de Terceros tipo RX, cuya finalidad es que el usuario pueda asociar información importante del responsable ejecutor contratista o servicio externo como hoja de vida, documento, tarjeta profesional, pasantías, cursos, registro Invima, entre otros. 
+A continuación la explicación de los Técnicos de Terceros tipo RX, cuya finalidad es que el usuario pueda asociar información importante del responsable ejecutor contratista o servicio externo como hoja de vida, documento, tarjeta profesional, pasantías, cursos, registro Invima, entre otros. 
 
-![detalles de terceros](../../assets/images/cap02/chp02_img05.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img05.png)
+_**Imagen 5.** Técnicos_
 
-En la gráfica anterior, Ventana Técnicos, se aprecian sus componentes y sus respectivos contenidos. En la ventana Detalle de Terceros se  encuentra la información relevante al Técnico del Tercero seleccionado en el Visor. 
+En la gráfica anterior, pestaña Técnicos, se aprecian sus componentes y sus respectivos contenidos. En la ventana Detalle de Terceros se  encuentra la información relevante al Técnico del Tercero seleccionado en el Visor. 
+
 A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación.
 
-**Nombre:** En este campo se escribe el nombre propio de la(s) persona(s) que ejecutará(n) las labores de mantenimiento a la institución.
+**Nombre:** En este campo se escribe el nombre propio de la persona que ejecutará las labores de mantenimiento a la institución.
 
-**Título:** En este campo se registra el cargo técnico u oficio de la(s) persona(s) que ejecutará(n) las labores de mantenimiento a la institución.
+**Título:** En este campo se registra el cargo técnico u oficio de la persona que ejecutará las labores de mantenimiento a la institución.
 
-**Tarjeta Profesional:** En este campo se digita el número de la Tarjeta Profesional de la(s) persona(s) que ejecutará(n) las labores de mantenimiento a la institución.
+**Tarjeta Profesional:** En este campo se digita el número de la Tarjeta Profesional de la persona que ejecutará las labores de mantenimiento a la institución.
 
-**Registro Sanitario Invima:** En este campo se escribe el número del Registro Sanitario Invima de la(s) persona(s) que ejecutará(n) las labores de mantenimiento a la institución actual.
+**Registro Sanitario Invima:** En este campo se escribe el número del Registro Sanitario Invima de la persona que ejecutará las labores de mantenimiento a la institución actual.
 
-**Requiere Certificación:** Este switche permite que al vencerse cualquier documento de una persona, se asigne una pelota de color rojo, para indicar que está vencido o verde, para indicar que se encuentra activo, en la columna **“Habilitado”** de la tabla de Técnicos y en la ventana visor de Terceros. El objetivo es que el usuario pueda enterarse con antelación de los vencimientos de los documentos de la(s) persona(s) que ejecutará(n) las labores de mantenimiento a la institución.
+**Requiere Certificación:** Este switche permite que al vencerse cualquier documento de una persona, se asigne una pelota de color rojo o verde, para indicar que se encuentra activo, en la columna **“Habilitado”** de la tabla de Técnicos y en la ventana visor de Terceros. El objetivo es que el usuario pueda enterarse con antelación de los vencimientos de los documentos de las personas que ejecutarán las labores de mantenimiento a la institución.
 
 **Nombre Certificado:** En este campo se escribe el nombre del documento a adjuntar. 
 

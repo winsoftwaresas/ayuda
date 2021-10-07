@@ -7,10 +7,10 @@ author: win
 
 
 
-**¿Que información constituye la Infraestructura ?**. 
-**¿Cual es cada una de las tablas que  la conforman?**. 
-**¿En que secuencia se ingresan?**. 
-**¿Con  qué estructura de codificación?**.  
+- **¿Que información constituye la Infraestructura ?**. 
+- **¿Cual es cada una de las tablas que  la conforman?**. 
+- **¿En que secuencia se ingresan?**. 
+- **¿Con  qué estructura de codificación?**.  
 
 Todo esto conforma el contenido del presente capítulo sobre los datos de Infraestructura.
 

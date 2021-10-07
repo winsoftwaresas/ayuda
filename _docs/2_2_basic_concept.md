@@ -1,6 +1,6 @@
 ---
 title: Conceptos Básicos sobre la Infraestructura
-subtitle: la infraestructura es un conjunto de archivos y tablas parametrizables que sirven para que ** AM 4G ** sea adecuado para la organización de mantenimiento de la empresa y sus características.
+subtitle: la infraestructura es un conjunto de archivos y tablas parametrizables que sirven para que AM sea adecuado para la organización de mantenimiento de la empresa y sus características.
 tags: [setup]
 author: win
 ---
@@ -17,5 +17,5 @@ Un registro de una tabla de Infraestructura, no puede ser borrado si está siend
 
 A continuación se definen los conceptos básicos sobre la conformación de la Infraestructura, elementos generales y principales tablas que la componen.
 
-[Procesar Imagen](../../assets/images/cap02/chp02_img01.png)
+[Procesar imagen](../../assets/images/cap02/chp02_img01.png)
 _**Imagen 1.** Infraestructura_
