@@ -4,19 +4,16 @@ subtitle: Las ubicaciones físicas corresponden a los sitios geográficos o áre
 tags: [setup]
 author: win
 ---
-# Ubicaciones Físicas
 
- Es la lista de las áreas  físicas que conforman el **“Layout”** de la planta de producción (Industria, Manufactura) o de la planta de servicios (Hoteles, Hospitales, Banca) o simplemente de las facilidades que conforman las instalaciones que son objetos de mantenimiento.
+Las ubicaciones físicas corresponden a los sitios geográficos o áreas donde se encuentran los Activos, Equipos, Objetos de Mantenimiento y Repuestos. Es la lista de las áreas  físicas que conforman el **“Layout”** de la planta de producción (Industria, Manufactura) o de la planta de servicios (Hoteles, Hospitales, Banca) o simplemente de las facilidades que conforman las instalaciones que son objetos de mantenimiento.
 
-El  concepto  de  Ubicaciones  Físicas  es  netamente  de  geografía,  diferenciado completamente del concepto de Equipo y de Centro de Costo, además la ubicación física puede estar en forma activa o inactiva dentro de **AM**. En ocasiones un Centro de Costo corresponde a una Ubicación Física pero en muchas otras no es así. De igual forma en ocasiones  un equipo o unidad funcional caracteriza a la ubicación física pero en muchas otras no. Por esta razón los tres conceptos se definen independientemente en **AM**eso si con la posibilidad de relacionarlos en distintos contextos.
+El concepto de Ubicaciones  Físicas  es netamente de geografía, diferenciado completamente del concepto de Activo y de Centro de Costo, además la ubicación física puede estar en forma activa o inactiva dentro de **AM**. En ocasiones un Centro de Costo corresponde a una Ubicación Física pero en muchas otras no es así. De igual forma en ocasiones un Activo/Equipo o unidad funcional caracteriza a la ubicación física pero en muchas otras no. Por esta razón los tres conceptos se definen independientemente en **AM**eso si con la posibilidad de relacionarlos en distintos contextos.
 
 Para ilustrar mejor este concepto definimos a continuación algunos ejemplos de Ubicaciones Físicas.
 
 - Planta de Acabados.
 
-- Planta de Acabados. 
-
-- Empaqué Planta de Acabados. 
+- Empaque Planta de Acabados. 
 
 - Pesaje Edificio de Administración.
 
@@ -24,68 +21,73 @@ Para ilustrar mejor este concepto definimos a continuación algunos ejemplos de 
 
 - Edificio de Administración. Laboratorio Químico.
 
--  Edificio de Administración. Laboratorio Textil 
+-  Edificio de Administración. Laboratorio Textil.
 
-- Almacén General
+- Almacén General.
 
 - Almacén de Materia Prima.
 
 - Almacén de Materiales y Repuestos.
 
-- **FC-** Fundición.
+- FC-Fundición.
 
-- **FC-** Fundición. Fleje FC-Fundición. Hornos.
+- FC-Fundición. Fleje FC-Fundición. Hornos.
 
-- **FC-**Fundición. Línea 1.
+- FC-Fundición. Línea 1.
 
-- **FC-** Fundición. Línea 1.Fresado.
+- FC-Fundición. Línea 1.Fresado.
 
-- **FC**-Fundición. Línea 2.
+- FC-Fundición. Línea 2.
 
-- **FC-**Fundición. Línea 2.Fresado.
+- FC-Fundición. Línea 2.Fresado.
 
-- **FC-** Fundición. Puente Grúa.
+- FC-Fundición. Puente Grúa.
 
-- **FC-** Fundición, Sostenimiento.
+- FC-Fundición. Sostenimiento.
 
-Se recomienda utilizar los nombres de las Ubicaciones Físicas que la cultura  empresarial ha acostumbrado manejar. Existe disponible un espacio de cuarenta  caracteres para la Ubicación Física. Es posible también mezclar una porción de código y lenguaje natural.
+Se recomienda utilizar los nombres de las Ubicaciones Físicas que la cultura  empresarial ha acostumbrado manecuarentajar. Existe disponible un espacio de cincuenta caracteres en la descripción de la Ubicación Física. Es posible también mezclar una porción de código y lenguaje natural.
 
 En el ejemplo anterior FC es el apócope de una planta en una fábrica. Esta planta a su vez está conformada por varios departamentos de proceso, uno de los cuales es Fundición, que a su vez se compone por varias secciones como Fleje,  Hornos, las Líneas de proceso y la sección de Sostenimiento.
 
-Cuando la Ubicación Física es un criterio para seleccionar un subgrupo en Equipos, o  en Órdenes de Trabajo activas o históricas, es posible referenciar una Ubicación Física global, así:
+Cuando la Ubicación Física es un criterio para seleccionar en un subgrupo en Activos o en Órdenes de Trabajo activas o históricas, es posible referenciar una Ubicación Física global, así:
 
 **FC-Fundición%:** Se refiere a todas las secciones que conforman el departamento de fundición.
 
 **FC%:** Se refiere a todas las secciones de todos los departamentos de la Planta FC.
 
-El registro  de las Ubicaciones Físicas es muy importante, pues ellas serán  invocadas desde muchas ventanas de otras opciones de Menú Principal como  Equipos, Repuestos, Órdenes de Trabajo, Solicitudes de Servicio e Historia de Mantenimiento.
+El registro  de las Ubicaciones Físicas es muy importante, pues ellas serán  invocadas desde muchas ventanas de otras opciones del Menú Principal como Activos, Almacenes, Órdenes de Trabajo, Solicitudes de Servicio, Paros e Historia de Mantenimiento.
 
-![ventana ie](../../assets/images/cap02/chp02_img12.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img12.png)
+_**Imagen 12.** Ventana Detalle UF_
 
-En la gráfica anterior, Ventana Técnicos, se aprecian sus componentes y sus respectivos contenidos. En la ventana Detalle de Terceros se  encuentra la información relevante al Técnico del Tercero seleccionado en el Visor. 
+En la gráfica anterior, Ventana Ubicaciones Físicas, se aprecian sus componentes y sus respectivos contenidos. En la ventana Detalle de Terceros se encuentra la información relevante al Técnico del Tercero seleccionado en el Visor. 
 
-A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación.
+A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación:
 
 **Código UF:** Se define un código o indicativo único para la ubicación física, que puede ser un consecutivo. Ejemplo: UF-001, el cual UF corresponde a las abreviaturas de Ubicación Física y 001 corresponde al primer registro.   
 
-**Nombre UF:** En 50 caracteres se registra el  nombre de la nueva Ubicación Física.
+**Nombre UF:** Se hace el registro de la descripción de la Ubicación Física. El campo tiene hasta un máximo de 50 caracteres.
 
-**Área (opcional):** Se escribe el área de la Ubicación Física.
+**Área (opcional):** Se escribe el área de la Ubicación Física. Este campo es númerico.
 
 **Unidad de Medida Área:** Se elige la Unidad de Medida utilizada para definir la capacidad del área; para ello se selecciona uno de los valores predefinidos en esa tabla.
 
-**Capacidad (opcional):** Se escribe la capacidad de la Ubicación Física. La capacidad a definirse, si es requerida, es un concepto de importancia relativa a la organización. Información sobre capacidad en número de personas o de escritorios o de computadores o de máquinas-herramienta o de cabezas de ganado o árboles puede ser incluida aquí.
+**Capacidad (opcional):** Se escribe la capacidad de la Ubicación Física, si es requerida, es un concepto de importancia relativa a la organización. Por ejemplo, información sobre capacidad en número de personas o de escritorios o de computadores o de máquinas-herramienta o de cabezas de ganado o árboles puede ser incluida aquí. 
 
 **Unidad de Medida Capacidad:** Se elige la Unidad de Medida utilizada para definir la capacidad del área; para ello se selecciona uno de los valores predefinidos en esa tabla.
 
-
 **Estado:** El campo estado se utiliza para definir si la UF actual se encuentra Activa o Inactiva. Este Estado se utiliza para posibilitar o inhabilitar el despliegue de UF en otros contextos (Equipos, OT, PM, etc.). De esta forma, una UF inactiva NO aparece al intentar crear Equipos, OT u otros.
+
+> **Nota:** La dirección y la ciudad son campos que son configurados en el módulo de Administración en la transacción Valores por Defecto.
 
 ### Subgrupo Ubicaciones Físicas
 
-![ubicaciones fisicas](../../assets/images/cap02/chp02_img14.png)
+Se usa para seleccionar grupos de Ubicaciones Físicas que cumplen con un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al icono de filtro, ubicado en la parte superior derecha de la ventana Visor de Ubicaciones Físicas.
 
-**AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar. 
+![Procesar imagen](../../assets/images/cap02/chp02_img14.png)
+_**Imagen 13.** Ventana Visor UF_
+
+**AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar.
 
 Cada criterio trabaja en conjunto con los demás, con el operador intersección.
 
@@ -93,47 +95,53 @@ Cada criterio aparece inicializado en un valor global que permite mostrar todas 
 
 El programa permite entonces hacer selección de un grupo de Ubicaciones Físicas 
 
-![subgrupo](../../assets/images/cap02/chp02_img15.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img15.png)
+_**Imagen 14.** Subgrupo UF_
 
-Los campos de datos que constituyen criterio de selección haciendo parte de la Ventana Subgrupo son los siguientes.
+Los campos de datos que constituyen los criterio de selección haciendo parte de la Ventana Subgrupo son los siguientes:
 
 **Área:** Filtra las UF que tienen la cantidad de área ingresada en el campo. 
 
-![area](../../assets/images/cap02/chp02_img16.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img16.png)
+_**Imagen 15.** Subgrupo UF Criterio Área_
 
 **Capacidad:** Filtra las UF que tienen la cantidad de capacidad ingresada en el campo. 
 
-![capacidad](../../assets/images/cap02/chp02_img17.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img17.png)
+_**Imagen 16.** Subgrupo UF Criterio Capacidad_
 
-**Código UF:** Esta selección agrupa las UF relacionados por su código. **Por ejemplo:** si se escribe UF-12%, el sistema localiza aquellas UF cuyo código empieza por UF-12. El porcentaje a continuación, es un carácter comodín que significa ** “todos”**.
+**Código UF:** Esta selección agrupa las UF relacionados por su código. **Por ejemplo:** si se escribe UF-12%, el sistema localiza aquellas UF cuyo código empieza por UF-12. El porcentaje a continuación, es un carácter comodín que significa **“todos”**.
 
-![codigo uf](../../assets/images/cap02/chp02_img18.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img18.png)
+_**Imagen 17.** Subgrupo UF Criterio Código UF_
 
-**Estado:** Permite la selección de las UF de acuerdo al estado de Activo o Inactivo. El estado de las UF es importante para la selección en las listas  desplegables.     
-**Por ejemplo:** Si una UF, tiene definido el Estado ** “Inactivo**, esta no aparecerá en la lista de las Ubicaciones Físicas de los módulos de Activos, Solicitudes de Servicio, Paros, Ordenes de Trabajo, Historia y Almacén. 
+**Estado:** Permite la selección de las UF de acuerdo al estado de Activo o Inactivo. El estado de las UF es importante para la selección en las listas desplegables.
+**Por ejemplo:** Si una UF, tiene definido el Estado **“Inactivo**, esta no aparecerá en la lista de las Ubicaciones Físicas de los módulos de Activos, Solicitudes de Servicio, Paros, Órdenes de Trabajo, Historia y Almacén. 
 
-![Estado](../../assets/images/cap02/chp02_img19.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img19.png)
+_**Imagen 18.** Subgrupo UF Criterio Estado_
 
 **Nombre UF:** Selecciona las UF según criterios basados en su Nombre. 
-**Ejemplo:** %Planta% selecciona todas las UF en cuyo nombre, en cualquier parte, tengan la palabra 
-** “Planta”**.
+**Ejemplo:** %Planta% selecciona todas las UF en cuyo nombre, en cualquier parte, tengan la palabra **“Planta”**.
 
-![nom uf](../../assets/images/cap02/chp02_img20.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img20.png)
+_**Imagen 19.** Subgrupo UF Criterio Nombre UF_
 
 **Unidad de Medida Área:** Lista las Unidades de Medida registradas en la tabla de Unidades de Medida. Se elige de la lista la Unidad de Medida deseada. 
 
-![uni de med area](../../assets/images/cap02/chp02_img21.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img21.png)
+_**Imagen 20.** Subgrupo UF Criterio Unidad de Medida Área_
 
+También se puede elegir la unidad de medida mediante el uso de comodines, para ello, se debe dar clic al icono <a class="btn">Candado</a>. Ejemplo, si se escribe metros%, el sistema entiende que debe seleccionar aquellas UF cuya unidad de medida comience por la palabra **“metros”**. El porcentaje a continuación, es un carácter comodín que significa **“todos”**.
 
-También se puede elegir la unidad de medida mediante el uso de comodines, para ello, se debe dar clic al icono <a class="btn">Candado</a>. Ejemplo, si se escribe metros%, el sistema entiende que debe seleccionar aquellas UF cuya unidad de medida comience por la palabra ** “metros”**. El porcentaje a continuación, es un carácter comodín que significa ** “todos”**.
+**Unidad de Medida Capacidad:** Busca las Ubicaciones Físcas que tengan definido este campo. Las Unidades de Medida que se despliegan en la lista están registradas en la tabla de Unidades de Medida. Se elige de la lista la Unidad de Medida deseada. 
 
-**Unidad de Medida Capacidad:** Lista las Unidades de Medida registradas en la tabla de Unidades de Medida. Se elige de la lista la Unidad de Medida deseada. 
-
-![uni de med capacidad](../../assets/images/cap02/chp02_img22.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img22.png)
+_**Imagen** Subgrupo UF Criterio Área_
 
 También se puede elegir la unidad de medida mediante el uso de comodines, para ello, se debe dar clic al icono <a class="btn">Candado</a>. Ejemplo, si se escribe la palabra sin porcentajes %, el sistema realiza una búsqueda de aquellas UF que en cualquier parte del campo tengan el nombre de la palabra digitada, en este caso, la palabra ** “bloques”**.
 
-**Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos  se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además  es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber
+> **Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos  se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además  es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber
 realizado una selección es posible hacer otra y unir el resultado de las dos.  Para ello, tras definir los criterios de la segunda selección se da un clic al botón <a class="btn">Mas (+)</a>, en  lugar de darlo al botón <a class="btn">Aceptar</a>.
 
 ## Almacenes 
