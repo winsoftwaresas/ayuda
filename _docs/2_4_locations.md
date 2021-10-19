@@ -76,7 +76,7 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 **Unidad de Medida Capacidad:** Se elige la Unidad de Medida utilizada para definir la capacidad del área; para ello se selecciona uno de los valores predefinidos en esa tabla.
 
-**Estado:** El campo estado se utiliza para definir si la UF actual se encuentra Activa o Inactiva. Este Estado se utiliza para posibilitar o inhabilitar el despliegue de UF en otros contextos (Equipos, OT, PM, etc.). De esta forma, una UF inactiva NO aparece al intentar crear Equipos, OT u otros.
+**Estado:** El campo estado se utiliza para definir si la UF actual se encuentra Activa o Inactiva. Este Estado se utiliza para posibilitar o inhabilitar el despliegue de UF en otros contextos (Activos, OT, PM, etc.). De esta forma, una UF inactiva NO aparece al intentar crear Activos, OT u otros.
 
 > **Nota:** La dirección y la ciudad son campos que son configurados en el módulo de Administración en la transacción Valores por Defecto.
 
@@ -137,73 +137,77 @@ También se puede elegir la unidad de medida mediante el uso de comodines, para 
 **Unidad de Medida Capacidad:** Busca las Ubicaciones Físcas que tengan definido este campo. Las Unidades de Medida que se despliegan en la lista están registradas en la tabla de Unidades de Medida. Se elige de la lista la Unidad de Medida deseada. 
 
 ![Procesar imagen](../../assets/images/cap02/chp02_img22.png)
-_**Imagen** Subgrupo UF Criterio Área_
+_**Imagen 21** Subgrupo UF Criterio Área_
 
 También se puede elegir la unidad de medida mediante el uso de comodines, para ello, se debe dar clic al icono <a class="btn">Candado</a>. Ejemplo, si se escribe la palabra sin porcentajes %, el sistema realiza una búsqueda de aquellas UF que en cualquier parte del campo tengan el nombre de la palabra digitada, en este caso, la palabra ** “bloques”**.
 
-> **Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos  se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además  es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber
-realizado una selección es posible hacer otra y unir el resultado de las dos.  Para ello, tras definir los criterios de la segunda selección se da un clic al botón <a class="btn">Mas (+)</a>, en  lugar de darlo al botón <a class="btn">Aceptar</a>.
+> **Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos  se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber
+realizado una selección es posible hacer otra y unir el resultado de las dos.  Para ello, tras definir los criterios de la segunda selección se da un clic al botón <a class="btn">Mas (+)</a>, en lugar de darlo al botón <a class="btn">Aceptar</a>.
 
 ## Almacenes 
 
-Es la tabla de Infraestructura en la que se definen los distintos Almacenes,  Bodegas o Depósitos de: Materias Primas, Materiales y Repuestos o elementos generales de una organización.
+Es la tabla de Infraestructura en la que se definen los distintos Almacenes, Bodegas o Depósitos de: Materias Primas, Materiales y Repuestos o elementos generales de una organización.
 
-El **AM** PRO es un sistema multicompañía y multialmacén, por tanto es posible definir múltiples almacenes en la base de datos para cada compañía; entonces, a una compañía se le pueden definir varios almacenes.
+El **AM** PRO es un sistema multicompañía y multialmacén, por tanto es posible definir múltiples almacenes en la base de datos para cada compañía.
 
 El **AM** ST es un sistema monocompañía y multialmacén.
 
-![Detalles del Almacen](../../assets/images/cap02/chp02_img23.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img23.png)
+_**Imagen 22** Ventana Detalle IF Almacén_
 
 En la gráfica anterior, Ventana Almacén, se aprecian sus componentes y sus respectivos contenidos. En la ventana Detalle de Almacenes se encuentra la información relevante al Almacén seleccionado en el Visor.
 
 A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación.
 
-**Código:** este campo recibe un número de máximo dos dígitos, con el cual se  identifica  la bodega o Almacén de Equipos o repuestos.
+**Código:** Este campo recibe un número de máximo dos dígitos, con el cual se identifica la bodega o Almacén de Equipos o repuestos.
 
-**Nombre:** se define el nombre del Almacén.
+**Nombre:** Se define el nombre del Almacén.
 
 **Ubicación física:** Indica el sitio donde está ubicado el Almacén o bodega. Esta Ubicación Física se selecciona de la tabla de Ubicaciones Físicas previamente definidas.
 
 **Tipo Costeo:** Aquí se define la forma como se costean los ítems, repuestos o materiales en el Almacén actual. Existen dos opciones:
 
-La primera consiste en valorizar todos los ítems de un código según el costo del último reaprovisionamiento, en este caso se habla de valorizar por Último Ingreso.
+La primera consiste en valorizar **todos** los ítems de un código según el costo del último reaprovisionamiento, en este caso se habla de valorizar por **Último Ingreso**.
 
-La segunda opción Promedio Ponderado, consiste en valorizar todo el conjunto de ítems de un mismo código mediante el cálculo sencillo de un promedio ponderado.
+La segunda opción **Promedio Ponderado**, consiste en valorizar todo el conjunto de ítems de un mismo código mediante el cálculo sencillo de un promedio ponderado.
 
-Utilizar uno u otro método depende de si el Almacén es contable o no. Se recomienda utilizar el método de Promedio Ponderado si se trata de un Almacén contable. Si se trata de un Almacén no contable, o sea, cuando se considera que los ítems que lo conforman, al ser trasladados a esta bodega ya fueron consumidos contablemente, entonces se recomienda usar el método de costeo por Último  Ingreso, en cuyo caso la elaboración y proyección de presupuestos puede arrojar información más  realista, al tiempo que no existe el riesgo de la revalorización  contable de los mismos ítems. 
+Utilizar uno u otro método depende de si el Almacén es contable o no. Se recomienda utilizar el método de Promedio Ponderado si se trata de un Almacén contable. Si se trata de un Almacén no contable, es decir, cuando se considera que los ítems que lo conforman, al ser trasladados a esta bodega ya fueron consumidos contablemente, entonces se recomienda usar el método de costeo por Último  Ingreso, en cuyo caso la elaboración y proyección de presupuestos puede arrojar información más realista, al tiempo que no existe el riesgo de la revalorización contable de los mismos ítems. 
 
-**Tipo Almacén:** Esta opción, de tipo combo, muestra tres ítems: Contable y No Contable.
+**Tipo Almacén:** Esta opción, de tipo combo, muestra dos ítems: Contable y No Contable.
 
-Esta funcionalidad, permitirá a futuro definir si el Almacén seleccionado es Contable, es decir, tendrá una interacción con el sistema contable de la organización la cual  generara un costo o factura de venta; y No Contable hace referencia al Almacén que guarda el inventario de Repuestos para simple funcionalidad del sistema  **AM**. Por defecto, cuando se crea un almacén el tipo se define con NO CONTABLE.
+Esta funcionalidad, permitirá a futuro definir si el Almacén seleccionado es Contable, es decir, tendrá una interacción con el sistema contable de la organización la cual generara un costo o factura de venta; y No Contable hace referencia al Almacén que guarda el inventario de Repuestos para simple funcionalidad del sistema  **AM**. Por defecto, cuando se crea un almacén el tipo se define con NO CONTABLE.
 
-**Almacén  Corporativo:** Este switche indica si el almacén al cual se está haciendo referencia es el corporativo. Cuando se define si es el almacén corporativo, se declara con la palabra ** “SI”**, en caso contrario se define con la palabra ** “NO”**. Para  definir el almacén corporativo se realiza en el módulo de Administración, en la opción de Valores por defecto, en la etiqueta General, existe la opción de ** “Almacén corporativo”** con un combo desplegable para escoger cual es el almacén.
+**Almacén  Corporativo:** Este switche indica si el almacén al cual se está haciendo referencia es el corporativo. Cuando se define si es el almacén corporativo, se declara con la palabra **“SI”**, en caso contrario se define con la palabra **“NO”**. Para definir el almacén corporativo se realiza en el módulo de Administración, en la opción de Valores por defecto, en la etiqueta General, existe la opción de **“Almacén corporativo”** con un combo desplegable para escoger cual es el almacén.
 
-**Comentario:** Aquí se ingresan los comentarios sobre un Centro de Costo o sobre un Cliente, representado por su Centro de Costo. 
+**Comentario:** Aquí se ingresan los comentarios sobre el Almacén, Centro de Costo o sobre un Cliente, representado por su Centro de Costo. 
 
 ## Unidades de Medida
 
-Es la tabla que se encarga de la definición de los distintos tipos de unidades de medición con el objeto de que se estandarice su uso en dos aspectos: nombre de la  unidad y su abreviatura. Las Unidades de Medida están agrupadas por el concepto Tipo, en el que se establece su categoría de medición: Longitud, superficie, volumen, peso y otra.
+Es la tabla que se encarga de la definición de los distintos tipos de unidades de medición con el objeto de que se estandarice su uso en dos aspectos: nombre de la unidad y su abreviatura. Las Unidades de Medida están agrupadas por el concepto Tipo, en el que se establece su categoría de medición: Longitud, superficie, volumen, peso y otra.
 
-![Detalles del Almacen](../../assets/images/cap02/chp02_img24.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img24.png)
+_**Imagen 23** Ventana Detalle IF Unidades de Medida_
 
-En la gráfica anterior, Ventana Unidades de Medida, se aprecian sus componentes y sus respectivos contenidos. En la ventana Detalle de Unidades de Medida se  encuentra la información relevante a la Unidad de Medida seleccionada en el Visor.
-A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación.
+En la gráfica anterior, Ventana Detalle Unidades de Medida, se aprecian sus componentes y sus respectivos contenidos. Indica  la información relevante a la Unidad de Medida seleccionada en el Visor.
+
+A continuación se describen los campos que componen el registro:
 
 **Nombre:** En este campo se escribe la nueva unidad de medida que se quiere definir.
 
 **Abreviatura:** En este campo se detalla la abreviatura que identifica la unidad de  medida que se está definiendo.
 
-**Tipo:** De acuerdo con la nueva unidad de medida se debe seleccionar el **Tipo:** longitud, superficie, volumen, peso u otra.
+**Tipo:** De acuerdo con la nueva unidad de medida se debe seleccionar el si corresponde a longitud, superficie, volumen, peso u otra.
 
 ### Monedas
 
-Es la tabla en la que se establecen las distintas monedas a ser usadas en el sistema cuando se hace referencia al costo de compra o al costo vigente, de un  equipo o de un repuesto. Hasta este momento se trata de un medio de  documentación  sobre el costo indicado para Equipos o Activos.
+Es la tabla en la que se establecen las distintas monedas a ser usadas en el sistema cuando se hace referencia al costo de compra o al costo vigente, de un Activo. Hasta este momento se trata de un medio de documentación sobre el costo indicado para Activos/Equipos.
 
-![Detalles de monedA](../../assets/images/cap02/chp02_img25.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img25.png)
+_**Imagen 24** Ventana Detalle IF Monedas_
 
-contenidos. En la ventana Detalle de Monedas se encuentra la información relevante a la Moneda seleccionada en el Visor.
+En la gráfica anterior, Ventana Detalle Monedas, se aprecian sus componentes y sus respectivos contenidos. Indica la información relevante a la Moneda seleccionada en el Visor.
 
-A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación.
+A continuación se describen los campos que componen el registro:
 
 **Nombre:** En este campo se registra el nombre de la moneda. 
 
@@ -211,24 +215,24 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 ## Contadores
 
-En esta tabla de Infraestructura se registran los medidores o contadores de estado,  que reflejan la cantidad de trabajo realizado por un Equipo. Los medidores o contadores más comunes son los horómetros, que reflejan en todo momento la cantidad en horas de trabajo realizado, por el Equipo que lo posee. De igual forma, en la mayoría de los automotores existe otro medidor de uso bastante común, es el  contador de Kilómetros o Millas rodadas, que refleja la distancia recorrida a partir de  un punto relativo, de interés para su propietario.
+En esta tabla de Infraestructura se registran los medidores o contadores de estado, que reflejan la cantidad de trabajo realizado por un Equipo. Los medidores o contadores más comunes son los horómetros, que reflejan en todo momento la cantidad en horas de trabajo realizadas, por el Equipo que lo posee. De igual forma, en la mayoría de los automotores existe otro medidor de uso bastante común, es el  contador de Kilómetros o Millas rodadas, que refleja la distancia recorrida a partir de  un punto relativo, de interés para su propietario.
 
 Cuando el sistema se inicializa, en la tabla de Contadores aparece una propuesta de contadores básicos, que puede ser modificada o complementada de acuerdo al interés de la compañía usuaria.
 
-![Detalles de CONTADOR](../../assets/images/cap02/chp02_img26.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img26.png)
+_**Imagen 25** Ventana Detalle IF Contadores_
 
-En la gráfica anterior, Ventana Contadores, se aprecian sus componentes y sus respectivos contenidos. En la ventana Detalle de Contadores se encuentra la información relevante al Contador seleccionado en el Visor.
+En la gráfica anterior, Ventana Detalle Contadores, se aprecian sus componentes y sus respectivos contenidos. Indica la información relevante al Contador seleccionado en el Visor.
 
-A continuación se describe el campo que compone el registro.
+A continuación se describe el campo que compone el registro:
 
 **Nombre del Contador:** En este campo se registra el nombre del contador
 
 ## Características
 
+Es una tabla conformada por los nombres de las Características propias de los Activos/Equipos o de los Repuestos, que se utilizan al definir la porción variable de su ficha técnica.  En esta tabla sólo se ingresan los nombres de las Características o los  parámetros-característica de los Activos/Equipos y Repuestos. Se cuenta con 30 dígitos para  ingresar la característica deseada.
 
-Es una tabla conformada por los nombres de las Características propias de los Equipos o de los Repuestos, que se utilizan al definir la porción variable de su ficha técnica.  En esta tabla sólo se ingresan los nombres de las Características o los  parámetros-característica de los Equipos y Repuestos. Se cuenta con 30 dígitos para  ingresar la característica deseada.
-
-El valor  y las unidades correspondientes a cada Característica se ingresan en  la  ficha técnica del Equipo o del Repuesto.
+El valor y las unidades correspondientes a cada Característica se ingresan en  la  ficha técnica del Equipo o del Repuesto.
 
 La gama de Características depende del tipo de equipamiento de la empresa, por tanto es una tabla modificable o adecuable con gran facilidad.
 
