@@ -230,37 +230,40 @@ A continuación se describe el campo que compone el registro:
 
 ## Características
 
-Es una tabla conformada por los nombres de las Características propias de los Activos/Equipos o de los Repuestos, que se utilizan al definir la porción variable de su ficha técnica.  En esta tabla sólo se ingresan los nombres de las Características o los  parámetros-característica de los Activos/Equipos y Repuestos. Se cuenta con 30 dígitos para  ingresar la característica deseada.
+Es una tabla conformada por los nombres de las Características propias de los Activos/Equipos o de los Repuestos, que se utilizan al definir la porción variable de su ficha técnica. En esta tabla sólo se ingresan los nombres de las Características o los parámetros-características de los Activos/Equipos y Repuestos. Se cuenta con 30 dígitos para ingresar la característica deseada.
 
-El valor y las unidades correspondientes a cada Característica se ingresan en  la  ficha técnica del Equipo o del Repuesto.
+El valor y las unidades correspondientes a cada Característica se ingresan en la ficha técnica del Activo o del Repuesto.
 
 La gama de Características depende del tipo de equipamiento de la empresa, por tanto es una tabla modificable o adecuable con gran facilidad.
 
-Existen varios tipos de Características que se configuran según el equipo, al definir su ficha técnica. El primer tipo, el más común, corresponde a las de tipo Informativo o No Controlable, en el que van acompañadas, en la ficha técnica, por un valor  nominal y una unidad. El segundo tipo corresponde a las Controlables Cuantitativas,  en el que además del valor nominal y una unidad, se acompañan por un rango de Tolerancia permitido. Finalmente, el tercer tipo corresponde a las Controlables Cualitativas, en el que se registra un valor apreciativo: SI, NO, BUENO, MALO, REGULAR, etc. 
+Existen varios tipos de Características que se configuran según el equipo, al definir su ficha técnica. El primer tipo, el más común, corresponde a las de tipo Informativo o No Controlable, en el que van acompañadas, en la ficha técnica, por un valor  nominal y una unidad. El segundo tipo corresponde a las Controlables Cuantitativas, en el que además del valor nominal y una unidad, se acompañan por un rango de Tolerancia permitido. 
 
 Cuando se trata de Características de Repuestos solo existe un tipo de ellas y son las de tipo Informativo.
 
-![Detalle  de caracteristicas](../../assets/images/cap02/chp02_img27.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img27.png)
+_**Imagen 25** Ventana Detalle IF Contadores_
 
-En la gráfica anterior, Ventana Características, se aprecian sus componentes y sus contenidos. En la ventana Detalle se encuentra la información relevante a la Característica seleccionada en el Visor.
+En la gráfica anterior, Ventana Detalle Características, se aprecian sus componentes y sus contenidos.Indica la información relevante a la Característica seleccionada en el Visor.
 
 A continuación se describe el campo que compone el registro.
 
-**Nombre de la Característica:** En este campo se define la característica. La Característica es a la vez, la clave de la tabla conformada por los parámetros-característica requeridos por  los Equipos propios de la empresa.
+**Nombre de la Característica:** En este campo se define la característica. La Característica es a la vez, la clave de la tabla conformada por los parámetros-características requeridos por los Equipos propios de la empresa.
 
 ## Centros de Costo
 
 Es la primera tabla que aparece en el listado de Infraestructura, el Centro de Costo (CC) se refiere al área o departamento administrativo, operativo o productivo que recibe servicios de mantenimiento. Se refiere también a la definición contable de los departamentos o áreas responsables de Activos, Equipos o de Objetos de Mantenimiento y por ende de los costos de su mantenimiento.
 
-![Detalle  de caracteristicas](../../assets/images/cap02/chp02_img28.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img28.png)
+_**Imagen 26** Ventana Detalle IF Contadores_
 
-conceptos de costo de mantenimiento, a las Órdenes de Trabajo. Esta asociación posibilita generar múltiples reportes por actividades o por costos o tipos de costos para los distintos Centros de Costo definidos en el sistema.
+Los Centros de Costo se utilizan en **AM** para asociar los cargos, por distintos conceptos de costo de mantenimiento, a las Órdenes de Trabajo. Esta asociación posibilita generar múltiples reportes por actividades, costos o tipos de costos para los distintos Centros de Costo definidos en el sistema.
 
-Es posible usar un Centro de Costo con el objeto de compendiar todos los trabajos relacionados a un Proyecto o a una Inversión. Para este caso se crea un  nuevo CC, copiando su definición desde aquel que es el centro del Proyecto y  se agrega a continuación, como parte del mismo CC, un número o código  identificador del Proyecto o de la Inversión.  En adelante toda OT que corresponda a tal Proyecto se asocia al nuevo CC.
+Es posible usar un Centro de Costo con el objeto de compendiar todos los trabajos relacionados a un Proyecto o a una Inversión. Para este caso se crea un  nuevo CC, copiando su definición desde aquel que es el centro del Proyecto y se agrega a continuación, como parte del mismo CC, un número o código identificador del Proyecto o de la Inversión.  En adelante toda OT que corresponda a tal Proyecto se asocia al nuevo CC.
 
-En otro contexto, el concepto de Centros de Costo se asocia al concepto de Clientes. Se trata del caso en que una compañía prestadora de servicios de mantenimiento  atiende a múltiples clientes y quiere llevar un control detallado de las actividades técnicas ejecutadas y los costos asociados a cada uno de ellos. En este caso el sistema posibilita el  registro de datos adicionales sobre el Centro de Costo o Cliente; son ellos el nombre del contacto, su estado, una clasificación y datos generales para su ubicación.
+En otro contexto, el concepto de Centros de Costo se asocia al concepto de Clientes. Se trata del caso en que una compañía prestadora de servicios de mantenimiento atiende a múltiples clientes y quiere llevar un control detallado de las actividades técnicas ejecutadas y los costos asociados a cada uno de ellos. En este caso el sistema posibilita el registro de datos adicionales sobre el Centro de Costo o Cliente; son ellos el nombre del contacto, su estado, una clasificación y datos generales para su ubicación.
 
-![Detalle el centro de costo](../../assets/images/cap02/chp02_img29.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img29.png)
+_**Imagen 27** Ventana Detalle IF Contadores_
 
 En la gráfica anterior, ventana visor Centros de Costo,  se aprecian sus componentes y sus respectivos contenidos. En la ventana Detalle de Centros de Costo se encuentra la información relevante al Centro de Costo seleccionado en el visor.
 
