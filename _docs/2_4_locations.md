@@ -82,9 +82,9 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 ### Subgrupo Ubicaciones Físicas
 
-Se usa para seleccionar grupos de Ubicaciones Físicas que cumplen con un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al icono de filtro, ubicado en la parte superior derecha de la ventana Visor de Ubicaciones Físicas.
+Se usa para seleccionar grupos de Ubicaciones Físicas que cumplen con un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al icono de filtro <span class="mdi mdi-filter-variant icon white"></span>, ubicado en la parte superior derecha de la ventana Visor de Ubicaciones Físicas.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img14.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img13.png)
 _**Imagen 13.** Ventana Visor UF_
 
 **AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar.
@@ -93,53 +93,53 @@ Cada criterio trabaja en conjunto con los demás, con el operador intersección.
 
 Cada criterio aparece inicializado en un valor global que permite mostrar todas  las Ubicaciones Físicas. Lo que significa que de no escoger un criterio se obtiene como resultado  del subgrupo el mismo conjunto completo de todas las Ubicaciones Físicas. 
 
-El programa permite entonces hacer selección de un grupo de Ubicaciones Físicas 
+El programa permite entonces hacer selección de un grupo de Ubicaciones Físicas:
 
-![Procesar imagen](../../assets/images/cap02/chp02_img15.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img14.png)
 _**Imagen 14.** Subgrupo UF_
 
 Los campos de datos que constituyen los criterio de selección haciendo parte de la Ventana Subgrupo son los siguientes:
 
 **Área:** Filtra las UF que tienen la cantidad de área ingresada en el campo. 
 
-![Procesar imagen](../../assets/images/cap02/chp02_img16.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img15.png)
 _**Imagen 15.** Subgrupo UF Criterio Área_
 
 **Capacidad:** Filtra las UF que tienen la cantidad de capacidad ingresada en el campo. 
 
-![Procesar imagen](../../assets/images/cap02/chp02_img17.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img16.png)
 _**Imagen 16.** Subgrupo UF Criterio Capacidad_
 
 **Código UF:** Esta selección agrupa las UF relacionados por su código. **Por ejemplo:** si se escribe UF-12%, el sistema localiza aquellas UF cuyo código empieza por UF-12. El porcentaje a continuación, es un carácter comodín que significa **“todos”**.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img18.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img17.png)
 _**Imagen 17.** Subgrupo UF Criterio Código UF_
 
 **Estado:** Permite la selección de las UF de acuerdo al estado de Activo o Inactivo. El estado de las UF es importante para la selección en las listas desplegables.
 **Por ejemplo:** Si una UF, tiene definido el Estado **“Inactivo**, esta no aparecerá en la lista de las Ubicaciones Físicas de los módulos de Activos, Solicitudes de Servicio, Paros, Órdenes de Trabajo, Historia y Almacén. 
 
-![Procesar imagen](../../assets/images/cap02/chp02_img19.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img18.png)
 _**Imagen 18.** Subgrupo UF Criterio Estado_
 
 **Nombre UF:** Selecciona las UF según criterios basados en su Nombre. 
 **Ejemplo:** %Planta% selecciona todas las UF en cuyo nombre, en cualquier parte, tengan la palabra **“Planta”**.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img20.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img19.png)
 _**Imagen 19.** Subgrupo UF Criterio Nombre UF_
 
 **Unidad de Medida Área:** Lista las Unidades de Medida registradas en la tabla de Unidades de Medida. Se elige de la lista la Unidad de Medida deseada. 
 
-![Procesar imagen](../../assets/images/cap02/chp02_img21.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img20.png)
 _**Imagen 20.** Subgrupo UF Criterio Unidad de Medida Área_
 
 También se puede elegir la unidad de medida mediante el uso de comodines, para ello, se debe dar clic al icono <a class="btn">Candado</a>. Ejemplo, si se escribe metros%, el sistema entiende que debe seleccionar aquellas UF cuya unidad de medida comience por la palabra **“metros”**. El porcentaje a continuación, es un carácter comodín que significa **“todos”**.
 
 **Unidad de Medida Capacidad:** Busca las Ubicaciones Físcas que tengan definido este campo. Las Unidades de Medida que se despliegan en la lista están registradas en la tabla de Unidades de Medida. Se elige de la lista la Unidad de Medida deseada. 
 
-![Procesar imagen](../../assets/images/cap02/chp02_img22.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img21.png)
 _**Imagen 21** Subgrupo UF Criterio Área_
 
-También se puede elegir la unidad de medida mediante el uso de comodines, para ello, se debe dar clic al icono <a class="btn">Candado</a>. Ejemplo, si se escribe la palabra sin porcentajes %, el sistema realiza una búsqueda de aquellas UF que en cualquier parte del campo tengan el nombre de la palabra digitada, en este caso, la palabra ** “bloques”**.
+También se puede elegir la unidad de medida mediante el uso de comodines, para ello, se debe dar clic al icono <a class="btn">Candado</a>. Ejemplo, si se escribe la palabra sin porcentajes %, el sistema realiza una búsqueda de aquellas UF que en cualquier parte del campo tengan el nombre de la palabra digitada, en este caso, la palabra **“bloques”**.
 
 > **Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos  se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber
 realizado una selección es posible hacer otra y unir el resultado de las dos.  Para ello, tras definir los criterios de la segunda selección se da un clic al botón <a class="btn">Mas (+)</a>, en lugar de darlo al botón <a class="btn">Aceptar</a>.
@@ -152,7 +152,7 @@ El **AM** PRO es un sistema multicompañía y multialmacén, por tanto es posibl
 
 El **AM** ST es un sistema monocompañía y multialmacén.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img23.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img22.png)
 _**Imagen 22** Ventana Detalle IF Almacén_
 
 En la gráfica anterior, Ventana Almacén, se aprecian sus componentes y sus respectivos contenidos. En la ventana Detalle de Almacenes se encuentra la información relevante al Almacén seleccionado en el Visor.
@@ -185,7 +185,7 @@ Esta funcionalidad, permitirá a futuro definir si el Almacén seleccionado es C
 
 Es la tabla que se encarga de la definición de los distintos tipos de unidades de medición con el objeto de que se estandarice su uso en dos aspectos: nombre de la unidad y su abreviatura. Las Unidades de Medida están agrupadas por el concepto Tipo, en el que se establece su categoría de medición: Longitud, superficie, volumen, peso y otra.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img24.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img23.png)
 _**Imagen 23** Ventana Detalle IF Unidades de Medida_
 
 En la gráfica anterior, Ventana Detalle Unidades de Medida, se aprecian sus componentes y sus respectivos contenidos. Indica  la información relevante a la Unidad de Medida seleccionada en el Visor.
@@ -202,7 +202,7 @@ A continuación se describen los campos que componen el registro:
 
 Es la tabla en la que se establecen las distintas monedas a ser usadas en el sistema cuando se hace referencia al costo de compra o al costo vigente, de un Activo. Hasta este momento se trata de un medio de documentación sobre el costo indicado para Activos/Equipos.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img25.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img24.png)
 _**Imagen 24** Ventana Detalle IF Monedas_
 
 En la gráfica anterior, Ventana Detalle Monedas, se aprecian sus componentes y sus respectivos contenidos. Indica la información relevante a la Moneda seleccionada en el Visor.
@@ -219,7 +219,7 @@ En esta tabla de Infraestructura se registran los medidores o contadores de esta
 
 Cuando el sistema se inicializa, en la tabla de Contadores aparece una propuesta de contadores básicos, que puede ser modificada o complementada de acuerdo al interés de la compañía usuaria.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img26.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img25.png)
 _**Imagen 25** Ventana Detalle IF Contadores_
 
 En la gráfica anterior, Ventana Detalle Contadores, se aprecian sus componentes y sus respectivos contenidos. Indica la información relevante al Contador seleccionado en el Visor.
@@ -240,8 +240,8 @@ Existen varios tipos de Características que se configuran según el equipo, al 
 
 Cuando se trata de Características de Repuestos solo existe un tipo de ellas y son las de tipo Informativo.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img27.png)
-_**Imagen 25** Ventana Detalle IF Contadores_
+![Procesar imagen](../../assets/images/cap02/chp02_img26.png)
+_**Imagen 26** Ventana Detalle IF Características_
 
 En la gráfica anterior, Ventana Detalle Características, se aprecian sus componentes y sus contenidos.Indica la información relevante a la Característica seleccionada en el Visor.
 
@@ -253,27 +253,27 @@ A continuación se describe el campo que compone el registro.
 
 Es la primera tabla que aparece en el listado de Infraestructura, el Centro de Costo (CC) se refiere al área o departamento administrativo, operativo o productivo que recibe servicios de mantenimiento. Se refiere también a la definición contable de los departamentos o áreas responsables de Activos, Equipos o de Objetos de Mantenimiento y por ende de los costos de su mantenimiento.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img28.png)
-_**Imagen 26** Ventana Detalle IF Contadores_
+![Procesar imagen](../../assets/images/cap02/chp02_img27.png)
+_**Imagen 27** Ventana Visor IF Centros de Costo_
 
 Los Centros de Costo se utilizan en **AM** para asociar los cargos, por distintos conceptos de costo de mantenimiento, a las Órdenes de Trabajo. Esta asociación posibilita generar múltiples reportes por actividades, costos o tipos de costos para los distintos Centros de Costo definidos en el sistema.
 
-Es posible usar un Centro de Costo con el objeto de compendiar todos los trabajos relacionados a un Proyecto o a una Inversión. Para este caso se crea un  nuevo CC, copiando su definición desde aquel que es el centro del Proyecto y se agrega a continuación, como parte del mismo CC, un número o código identificador del Proyecto o de la Inversión.  En adelante toda OT que corresponda a tal Proyecto se asocia al nuevo CC.
+Es posible usar un Centro de Costo con el objeto de compendiar todos los trabajos relacionados a un Proyecto o a una Inversión. Para este caso se crea un nuevo CC, copiando su definición desde aquel que es el centro del Proyecto y se agrega a continuación, como parte del mismo CC, un número o código identificador del Proyecto o de la Inversión.  En adelante toda OT que corresponda a tal Proyecto se asocia al nuevo CC.
 
 En otro contexto, el concepto de Centros de Costo se asocia al concepto de Clientes. Se trata del caso en que una compañía prestadora de servicios de mantenimiento atiende a múltiples clientes y quiere llevar un control detallado de las actividades técnicas ejecutadas y los costos asociados a cada uno de ellos. En este caso el sistema posibilita el registro de datos adicionales sobre el Centro de Costo o Cliente; son ellos el nombre del contacto, su estado, una clasificación y datos generales para su ubicación.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img29.png)
-_**Imagen 27** Ventana Detalle IF Contadores_
+![Procesar imagen](../../assets/images/cap02/chp02_img28.png)
+_**Imagen 28** Ventana Detalle IF Centros de Costo_
 
-En la gráfica anterior, ventana visor Centros de Costo,  se aprecian sus componentes y sus respectivos contenidos. En la ventana Detalle de Centros de Costo se encuentra la información relevante al Centro de Costo seleccionado en el visor.
+En la gráfica anterior, ventana visor Centros de Costo, se aprecian sus componentes y sus respectivos contenidos. En la ventana Detalle de Centros de Costo se encuentra la información relevante al Centro de Costo seleccionado en el visor.
 
-A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación.
+A continuación se describen los campos que componen el registro:
 
-**Código CC:** En  este campo se registra el código de cada Centro de Costo. La capacidad del campo es de 40 caracteres alfanuméricos. 
+**Código CC:** En este campo se registra el código de cada Centro de Costo. La capacidad del campo es de 40 caracteres alfanuméricos. 
 
-**Código Sub CC:** En  este campo se registra el Sub CC (si aplica) asociado al Centro de Costo. El Sub CC es un mecanismo para controlar las distintas porciones de costo dentro de un Centro de Costo a manera de cuentas internas. 
+**Código Sub CC:** En este campo se registra el Sub CC (si aplica) asociado al Centro de Costo. El Sub CC es un mecanismo para controlar las distintas porciones de costo dentro de un Centro de Costo a manera de cuentas internas. 
 
-**Descripción CC:** Se usa para escribir el nombre del Centro de Costo. Es posible, a gusto de la empresa usuaria, escribir los nombres de cada Centro de Costo en forma de título: La primera letra de cada nombre en mayúscula y las siguientes en  minúsculas,  o todo en mayúsculas. Para la descripción se dispone de 60 caracteres alfanuméricos.
+**Descripción CC:** Se usa para escribir el nombre del Centro de Costo. Es posible, a gusto de la empresa usuaria, escribir los nombres de cada Centro de Costo en forma de título: La primera letra de cada nombre en mayúscula y las siguientes en minúsculas,  o todo en mayúsculas. Para la descripción se dispone de 60 caracteres alfanuméricos.
 
 Si el Centro de Costo se refiere a un Cliente, en este campo se define el nombre de la empresa cliente.
 
@@ -287,7 +287,7 @@ Si el Centro de Costo se refiere a un Cliente, en este campo se define el nombre
 
 **Área/Depto:** Indica el área o departamento al cual pertenece el Centro de Costo respectivo. Si el Centro de Costo se refiere a un Cliente, aquí se define el grupo o sector de industria al que pertenece esa empresa Cliente.
 
-**Ciudad (Opcional):** Este campo se usa para indicar la ciudad del Área o  Departamento responsable del Centro de Costo. Si el Centro de Costo se refiere a  un  Cliente, aquí se define la ciudad de la dirección del Cliente.
+**Ciudad (Opcional):** Este campo se usa para indicar la ciudad del Área o  Departamento responsable del Centro de Costo. Si el Centro de Costo se refiere a  un Cliente, aquí se define la ciudad de la dirección del Cliente.
 
 **Dirección (Opcional):** En este campo se diligencia la dirección del Área o  Departamento al que pertenece el Centro  de Costo. Si el Centro de Costo se refiere a un Cliente, aquí se define la dirección del Cliente.
 
@@ -297,16 +297,16 @@ Si el Centro de Costo se refiere a un Cliente, en este campo se define el nombre
 
 **Estado:** Indica el estado en que se encuentra el Centro de Costo: Activo o inactivo. 
 
-**Clase:** Indica la clase a que pertenece el Centro de Costo: Com (Comercial), Ind (Industrial), Ser (Servicios), Fin (Financiero), Edu (Educativo), Gob (Gobierno) y Otr (Otro).
+**Clase:** Indica la clase a que pertenece el Centro de Costo: (Comercial), (Industrial), (Servicios), (Financiero),  (Educativo), (Gobierno) y (Otro).
 
 **Comentario:** Aquí se ingresan los comentarios sobre un Centro de Costo o sobre un Cliente, representado por su Centro de Costo. 
 
 ### Subgrupo Centros de Costo
 
-Se usa para seleccionar grupos de Centros de Costo que cumplen un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al <a class="btn">icono de filtro</a>, ubicado en la parte superior derecha de la ventana Visor de Centros de Costo. 
+Se usa para seleccionar grupos de Centros de Costo que cumplen un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al <span class="mdi mdi-filter-variant icon white"></span>, ubicado en la parte superior derecha de la ventana Visor de Centros de Costo. 
 
-![Detalle el centro de costo](../../assets/images/cap02/chp02_img30.png)
-
+![Procesar imagen](../../assets/images/cap02/chp02_img29.png)
+_**Imagen 29** Subgrupos Centro de Costo_
 
 **AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar. 
 
@@ -316,35 +316,35 @@ Cada criterio aparece inicializado en un valor global que permite mostrar todos 
 
 El programa permite entonces hacer selección de un grupo de Centros de Costo de acuerdo con los criterios seleccionados en la siguiente ventana. 
 
-![subgrupo centro de costo](../../assets/images/cap02/chp02_img31.png)
+![subgrupo centro de costo](../../assets/images/cap02/chp02_img30.png)
 
 Los campos de datos que constituyen criterio de selección haciendo parte de la Ventana Subgrupo son los siguientes.
 
 **Área/Depto:** Filtra los CC que tengan asignada el área o departamento de la institución ingresada en este campo.
 
-![area/ depto](../../assets/images/cap02/chp02_img32.png)
+![area/ depto](../../assets/images/cap02/chp02_img31.png)
 
 **CC Superior:** Permite filtrar por aquellos CC Superior que fueron asociados a los CC. Lista los CC creados en la tabla de Centros de Costos.  
 
-![cc superior](../../assets/images/cap02/chp02_img33.png)
+![cc superior](../../assets/images/cap02/chp02_img32.png)
 
 **Ciudad:** Filtra los CC que están asociados a la Ciudad especificada. 
 
-![ciudad](../../assets/images/cap02/chp02_img34.png)
+![ciudad](../../assets/images/cap02/chp02_img33.png)
 
 También se puede escribir la ciudad mediante el uso de comodines. Ejemplo, si se escribe Bog%, el sistema entiende que debe seleccionar aquellos CC cuya ciudad comience por la palabra  “Bog”. El porcentaje a continuación, es un carácter comodín que significa ** “todos”**.
 
 **Clase:** Filtra los CC que están asociados a una de las clases listadas.  
 
-![clase](../../assets/images/cap02/chp02_img35.png)
+![clase](../../assets/images/cap02/chp02_img34.png)
  
 **Código CC:** Esta selección agrupa los CC relacionados por su código. Por ejemplo: si se escribe cont%, el sistema localiza aquellos CC cuyo código empieza por cont. El porcentaje a continuación, es un carácter comodín que significa  “todos”.
 
-![cod cc](../../assets/images/cap02/chp02_img36.png)
+![cod cc](../../assets/images/cap02/chp02_img35.png)
 
 **Código Sub CC:** En  este campo se filtra por el Sub CC asociado a un Centro de Costo.
 
-![cod sub cc](../../assets/images/cap02/chp02_img38.png)
+![cod sub cc](../../assets/images/cap02/chp02_img36.png)
 
 **Contacto:** Filtra los CC que tengan asociada a una persona externa como contacto. Ejemplo: %maria josé% selecciona todos los CC cuyo Contacto, en cualquier parte, tengan la palabra  “maria josé”.
 

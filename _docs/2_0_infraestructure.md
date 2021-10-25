@@ -166,10 +166,9 @@ El significado de los colores se visualiza al sobreponer el mouse en el icono qu
 
 ### Subgrupo Terceros
 
-Se usa para seleccionar grupos de Terceros que cumplen un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al <a class="btn">Aicono de filtro</a>icono de filtro, ubicado en la parte superior derecha de la ventana Visor de Terceros. 
+Se usa para seleccionar grupos de Terceros que cumplen un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al <span class="mdi mdi-filter-variant icon white"></span>, ubicado en la parte superior derecha de la ventana Visor de Terceros. 
 
 ![terceros](../../assets/images/cap02/chp02_img07.png)
-
 
 **AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar. 
 
