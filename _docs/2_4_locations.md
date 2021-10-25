@@ -5,7 +5,7 @@ tags: [setup]
 author: win
 ---
 
-Las ubicaciones físicas corresponden a los sitios geográficos o áreas donde se encuentran los Activos, Equipos, Objetos de Mantenimiento y Repuestos. Es la lista de las áreas  físicas que conforman el **“Layout”** de la planta de producción (Industria, Manufactura) o de la planta de servicios (Hoteles, Hospitales, Banca) o simplemente de las facilidades que conforman las instalaciones que son objetos de mantenimiento.
+Las ubicaciones físicas corresponden a los sitios geográficos o áreas donde se encuentran los Activos, Equipos, Objetos de Mantenimiento y Repuestos. Es la lista de las áreas físicas que conforman el **“Layout”** de la planta de producción (Industria, Manufactura) o de la planta de servicios (Hoteles, Hospitales, Banca) o simplemente de las facilidades que conforman las instalaciones que son objetos de mantenimiento.
 
 El concepto de Ubicaciones  Físicas  es netamente de geografía, diferenciado completamente del concepto de Activo y de Centro de Costo, además la ubicación física puede estar en forma activa o inactiva dentro de **AM**. En ocasiones un Centro de Costo corresponde a una Ubicación Física pero en muchas otras no es así. De igual forma en ocasiones un Activo/Equipo o unidad funcional caracteriza a la ubicación física pero en muchas otras no. Por esta razón los tres conceptos se definen independientemente en **AM**eso si con la posibilidad de relacionarlos en distintos contextos.
 
@@ -316,13 +316,15 @@ Cada criterio aparece inicializado en un valor global que permite mostrar todos 
 
 El programa permite entonces hacer selección de un grupo de Centros de Costo de acuerdo con los criterios seleccionados en la siguiente ventana. 
 
-![subgrupo centro de costo](../../assets/images/cap02/chp02_img30.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img30.png)
+_**Imagen 30** Ventana Subgrupos Centro de Costo_
 
-Los campos de datos que constituyen criterio de selección haciendo parte de la Ventana Subgrupo son los siguientes.
+Los campos de datos que constituyen criterio de selección haciendo parte de la Ventana Subgrupo son los siguientes:
 
 **Área/Depto:** Filtra los CC que tengan asignada el área o departamento de la institución ingresada en este campo.
 
-![area/ depto](../../assets/images/cap02/chp02_img31.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img31.png)
+_**Imagen 31** Subgrupo Criterio Área/Depto_
 
 **CC Superior:** Permite filtrar por aquellos CC Superior que fueron asociados a los CC. Lista los CC creados en la tabla de Centros de Costos.  
 

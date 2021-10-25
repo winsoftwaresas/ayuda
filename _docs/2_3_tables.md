@@ -189,7 +189,7 @@ _**Imagen 10.** Subgrupo Criterio Tipo_
 **Oficio:** Muestra los Terceros que tengan asignados el Oficio seleccionado.
 
 ![Procesar imagen ](../../assets/images/cap02/chp02_img11.png)
-_**Imagen 11.** Ventana Subgrupo Criterio Oficio_
+_**Imagen 11.** Subgrupo Criterio Oficio_
 
 De igual forma, se puede elegir el oficio mediante la opción utilizar comodines, para ello, se debe dar clic al icono <a class="btn">Candado</a>. Esta selección agrupa los Terceros relacionados por su oficio. Por ejemplo: si se escribe ayudante%, el sistema localiza aquellos Terceros cuyo oficio empieza por la palabra **“ayudante”**.
 
