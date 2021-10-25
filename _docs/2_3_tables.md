@@ -147,7 +147,7 @@ El significado de los colores se visualiza al sobreponer el mouse en el icono qu
 Se usa para seleccionar grupos de Terceros que cumplen un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al <span class="mdi mdi-filter-variant icon white"></span>, ubicado en la parte superior derecha de la ventana Visor de Terceros. 
 
 ![Procesar imagen](../../assets/images/cap02/chp02_img07.png)
-_**Imagen 7.** Subgruposs_
+_**Imagen 7.** Subgrupos_
 
 **AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar. 
 
@@ -167,7 +167,7 @@ Los campos de datos que constituyen los criterios de selección son los siguient
 **Centro Responsable:** Lista los centros responsables registrados en el sistema. 
 
 ![Procesar imagen ](../../assets/images/cap02/chp02_img09.png)
-_**Imagen 9.** Ventana Subgrupo Terceros_
+_**Imagen 9.** Subgrupo Criterio Centro Responsable_
 
 También se puede elegir el centro responsable o un grupo de centros responsables mediante el uso de comodines, para ello, se debe dar clic al icono <span class="iconify btn" data-icon=lock>Candado</span>. Ejemplo, si se escribe %adm%, el sistema entiende que debe seleccionar aquellos Terceros cuyo centro responsable tenga incluida la secuencia **“adm”**.
 
