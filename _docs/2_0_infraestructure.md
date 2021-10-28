@@ -186,7 +186,7 @@ Los campos de datos que constituyen criterio de selección haciendo parte de la 
 
 **Centro Responsable:** Lista los centros responsables registrados en el sistema. cap02/chp02_img09.png)
 
-También se puede elegir el centro responsable o un grupo de centros responsables mediante el uso de comodines, para ello, se debe dar clic al icono  “Candado”. Ejemplo, si se escribe %adm%, el sistema entiende que debe seleccionar aquellos Terceros cuyo centro responsable tenga incluida la secuencia  “adm”.   
+También se puede elegir el centro responsable o un grupo de centros responsables mediante el uso de comodines, para ello, se debe dar clic al icono <span class="material-icons">lock</span> “Candado”. Ejemplo, si se escribe %adm%, el sistema entiende que debe seleccionar aquellos Terceros cuyo centro responsable tenga incluida la secuencia  “adm”.   
 
 **Ciudad:** Permite la selección de la ciudad donde se encuentre un Tercero. 
 
