@@ -22,10 +22,63 @@ collections:
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
     order:
-      - hello-world.md
-      - introduction.md
-      - basic-concepts.md
-      - advanced-concepts.md
+      - 1_1_introduction
+      - 1_2_first_look
+      - 1_3_user_interface
+      - 1_4_concurrence
+      - 1_5_summary
+      - 2_1_introduction
+      - 2_2_basic_concept
+      - 2_3_tables
+      - 2_4_locations
+      - 2_5_kardex_concepts
+      - 2_6_operations
+      - 3_1_introduction
+      - 3_2_basic_concepts
+      - 3_3_data_sheet
+      - 3_4_parts_list
+      - 4_1_introduction
+      - 4_2_basic_concepts
+      - 4_3_spare_coding
+      - 4_4_main_window
+      - 4_5_export
+      - 5_1_introduction
+      - 5_2_basic_concepts
+      - 5_3_movements
+      - 5_4_transactions
+      - 7_1_introduction
+      - 7_2_basics_concepts
+      - 7_3_transactions
+      - 7_4_export
+      - 8_1_introduction
+      - 8_2_basics_concepts
+      - 8_3_creation
+      - 8_4_tracking_and_closing
+      - 9_1_introduction
+      - 9_2_basic_concepts
+      - 9_3_analysis_and_generation
+      - 9_4_main_window
+      - 9_5_export
+      - 10_1_introduction
+      - 10_2_basic_concepts
+      - 10_3_send_to_history
+      - 10_4_main_window
+      - 10_5_export
+      - 11_1_introduction
+      - 11_2_basic_concepts
+      - 11_3_main_window
+      - 11_4_services
+      - 15_1_working_with_amsi
+      - 15_2_ui
+      - 15_3_update_profile
+      - 15_4_create_a_new_request
+      - 15_5_request_consulting
+      - 15_6_request_evaluation
+      - 15_7_create_a_new_order
+      - 15_8_orders_consulting
+      - 15_9_amsi_administration_access
+      - 15_10_user_settings
+      - 15_11_logout
   - name: "changelogs" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Changelogs" # Used in the UI, ie
     label_singular: "Changelog" # Used in the UI, ie.: "New Post"
