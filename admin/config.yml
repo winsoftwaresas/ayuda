@@ -22,7 +22,8 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
-    sortable_fields: ['filename']
+      - {label: "File Name", name: "filename", widget: "string"}
+    sortable_fields: ['filename', 'title', 'commit_date', 'commit_author']
     order:
       - 1_0_getting_started.md
       - 1_1_introduction.md
