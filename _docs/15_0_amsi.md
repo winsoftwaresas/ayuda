@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Solicitudes de Servicio (SS) por Internet e Intranet AMsi
+title: ◼ Solicitudes de Servicio (SS) por Internet e Intranet AMsi
 order: 15_00
 ---
 ## 1. Trabajando con AMsi

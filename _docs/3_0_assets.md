@@ -1,9 +1,8 @@
 ---
 layout: page
-title: Infraestructura
+title: ◼ Infraestructura
 order: 03_00
 ---
-
 # Activos / Equipos, Objetos de Mantenimiento
 
 Qué es un Activo/Equipo.  Cómo se codifica un Activo/Equipo.  Qué es el  despiece, cuándo despiezar y hasta donde.  Cómo se define una Ficha Técnica. Qué operaciones y procedimientos es posible ejecutar sobre los Activos. Todas las  respuestas, más las recomendaciones y enfoque para el  adecuado registro,  seguimiento y administración de los Activos / Equipos y demás objetos de  Mantenimiento, son parte del contenido de este capítulo.
@@ -71,7 +70,6 @@ Estructurar el código de Activo / Equipo es una labor de Implementación que ex
 
 **Por ejemplo:** el código COARCSU se puede descomponer de la siguiente forma:
 
- 
 **CO** Grupo de Equipos corrugadores
 **COA** Corrugador A
 **COARC**  Sistema de Rodillos Corrugadores del Corrugador A.
@@ -91,8 +89,8 @@ Lo anterior posibilita obtener la Historia de Mantenimiento total, detallada de 
 
 ![activos](../../assets/images/cap03/chp03_img02.png)
 
-A esta ventana se llega haciendo clic sobre la opción <a class="btn">Activos
-</a>  del Menú Principal. A través de ella se ejecutan todas las funciones dedicadas a administrar los Activos / Equipos. A continuación se ilustran las porciones que la componen.
+A esta ventana se llega haciendo clic sobre la opción `<a class="btn">`Activos
+`</a>`  del Menú Principal. A través de ella se ejecutan todas las funciones dedicadas a administrar los Activos / Equipos. A continuación se ilustran las porciones que la componen.
 
 ## Ventana Visor
 
@@ -104,22 +102,21 @@ Al  hacer  clic  sobre  alguno  de  los  Activos  /  Equipos  del  Visor  el  si
 
 Los títulos en azul que encabezan las columnas son también botones que permiten ordenar la    tabla, según el título seleccionado. Para elegir un registro de la tabla se da un clic del mouse sobre él o se desplaza el cursor con las teclas de desplazamiento.
 
-##	Ventana Detalle
+## Ventana Detalle
 
 ![activos](../../assets/images/cap03/chp03_img04.png)
 
 En la gráfica anterior, Ventana Detalle de Equipos, se aprecian todos sus componentes  y sus respectivos contenidos. En  la ventana Detalle de  Equipos  se  encuentra toda la información relevante al Activo / Equipo seleccionado en el Visor.
 
-
 A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación.
 
 **Código:** En este campo se registra el código del Activo / Equipo, correspondiente al código de Mantenimiento, de acuerdo a la estructuración por niveles que se haya definido durante la etapa de Planeación de la Implementación.
 
-**Descripción:** Este campo no tiene un rótulo determinado. Se utiliza  para describir el nombre del Activo / Equipo. Este campo cuenta con una capacidad de 60 caracteres, es obligatorio. 
+**Descripción:** Este campo no tiene un rótulo determinado. Se utiliza  para describir el nombre del Activo / Equipo. Este campo cuenta con una capacidad de 60 caracteres, es obligatorio.
 
 **Activo Fijo:** O  Número de Inventario, es el Código Contable del  Activo,  según Contabilidad. Este campo cuenta con una disponibilidad de 20 caracteres y  también es posible acceder al Activo a través de él.
 
-**Código de Inventario:** En este campo se registra el código de inventario del Activo / Equipo, que Mantenimiento haya definido o el definido por el área de Activos o el área Contable de la institución. 
+**Código de Inventario:** En este campo se registra el código de inventario del Activo / Equipo, que Mantenimiento haya definido o el definido por el área de Activos o el área Contable de la institución.
 
 **Referencia Externa (Proveedor):** En este campo se indica el código con el cual el Proveedor conoce el Equipo. Este campo cuenta con una disponibilidad de 20 caracteres. Se trata de un  código a través del cual es posible acceder al Activo en función de su Referencia.
 
@@ -141,7 +138,7 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 **Clave o crítico**
 
-**Detiene el proceso** 
+**Detiene el proceso**
 
 **Fácil reemplazo**
 
@@ -195,7 +192,7 @@ Los Activo / Equipos Inactivos pueden tener las siguientes condiciones:
 
 **Contador:** En este campo se traen automáticamente de la tabla de Infraestructura los diferentes tipos de Contadores que pueden ser definidos para un Equipo o una  máquina. Se  selecciona el  que mejor  refleje  o  sea más  representativo del  trabajo  que  realiza  el Equipo. Se usa además, al definir un Programa de Mantenimiento, en función del trabajo realizado por el mismo  Equipo.
 
-**Decremental / Incremental:** En este campo se elige si es un Contador tipo Incremental (siempre aumenta) o Decremental (permite valores que decrecen o negativos). 
+**Decremental / Incremental:** En este campo se elige si es un Contador tipo Incremental (siempre aumenta) o Decremental (permite valores que decrecen o negativos).
 
 **Valor Contador:** En este campo con capacidad de 58 dígitos se registra el valor del contador según la última lectura realizada. Es un valor base para los procesos de  Proyección y Programación que se realizan desde Programas de Mantenimiento.
 
@@ -206,50 +203,44 @@ Los Activo / Equipos Inactivos pueden tener las siguientes condiciones:
 **Por:** En  este  campo  se  indica  la  unidad  de  tiempo  considerada en  el  Estándar  de
 Planeación. Se puede seleccionar cualquiera de las siguientes opciones:
 
-- Día 
-- Semana 
-- Quincena 
+- Día
+- Semana
+- Quincena
 - Mes
 
-**Comentario:** Aquí se ingresan los comentarios sobre un Activo o se especifica información adicional al AC.  
+**Comentario:** Aquí se ingresan los comentarios sobre un Activo o se especifica información adicional al AC.
 
 # Ventana Submenú de Activos / Equipos
 
 ## Ir a AC
 
-Esta opción se encuentra ubicada al lado superior derecho de la ventana Visor. Al darle clic al 
-<span class="iconify btn" data-icon="mdi-filter-variant">Buscar</span>, se abre un campo al lado izquierdo, donde se registra el código exacto del Activo que se desea encontrar rápidamente. Luego de digitar el código del Activo /  Equipo, se presiona la tecla <a class="btn">Enter</a> y  el  cursor  se  posiciona en  consecuencia,  sobre  el Activo deseado en el Visor.
+Esta opción se encuentra ubicada al lado superior derecho de la ventana Visor. Al darle clic al
+`<span class="iconify btn" data-icon="mdi-filter-variant">`Buscar, se abre un campo al lado izquierdo, donde se registra el código exacto del Activo que se desea encontrar rápidamente. Luego de digitar el código del Activo /  Equipo, se presiona la tecla `<a class="btn">`Enter`</a>` y  el  cursor  se  posiciona en  consecuencia,  sobre  el Activo deseado en el Visor.
 
 ![VENTANA IR](../../assets/images/cap03/chp03_img05.png)
 
-En caso de escribir el código con algún error, el sistema muestra un mensaje de alerta indicando que el Activo no existe. 
+En caso de escribir el código con algún error, el sistema muestra un mensaje de alerta indicando que el Activo no existe.
 
 ![ALERTA](../../assets/images/cap03/chp03_img06.png)
 
 ## Indicadores
 
-Es posible visualizar de manera inmediata, los Activos que son raíz, ubicaciones técnicas, componentes intercambiables y si estos dos últimos no están asociados entre ellos. También, si tienen asociados Multimedia, características técnicas y biomédicas directamente desde la ventana visor, a través de la columna “Indicadores” que muestra una pelota de color que indica el tipo de información definida y asociada. El significado del color de cada pelota, se puede ver en el recuadro de Indicadores, ubicado en la parte superior derecha de la ventana visor.   
+Es posible visualizar de manera inmediata, los Activos que son raíz, ubicaciones técnicas, componentes intercambiables y si estos dos últimos no están asociados entre ellos. También, si tienen asociados Multimedia, características técnicas y biomédicas directamente desde la ventana visor, a través de la columna “Indicadores” que muestra una pelota de color que indica el tipo de información definida y asociada. El significado del color de cada pelota, se puede ver en el recuadro de Indicadores, ubicado en la parte superior derecha de la ventana visor.
 
 ![activos](../../assets/images/cap03/chp03_img07.png)
 
+El significado de los colores se visualiza al sobreponer el mouse en el icono que se encuentra al extremo superior derecho y su correspondencia es:
 
-El significado de los colores se visualiza al sobreponer el mouse en el icono que se encuentra al extremo superior derecho y su correspondencia es: 
-
--	**Verde:** Activos definidos con AC-Raíz como SÍ.
-
--	**Amarillo:** Activos definidos como Ubicación Técnica.
-
--	**Café Oscuro:** Activos definidos como Componentes Intercambiables y que están asociados a una Ubicación Técnica.
-
--	**Morado:** Activos que tienen asociadas Características Técnicas en la pestaña de Características.
-
--	**Naranja:** Activos que tienen asociados archivos de imágenes, videos y/o documentos en la pestaña Multimedia.
-
--	**Blanco:** Activos definidos como Ubicación Técnica o Componentes Intercambiables y que no están asociados a Componentes Intercambiables o Ubicación Técnica, respectivamente, es decir, que están disponibles para ser asignados.
+- **Verde:** Activos definidos con AC-Raíz como SÍ.
+- **Amarillo:** Activos definidos como Ubicación Técnica.
+- **Café Oscuro:** Activos definidos como Componentes Intercambiables y que están asociados a una Ubicación Técnica.
+- **Morado:** Activos que tienen asociadas Características Técnicas en la pestaña de Características.
+- **Naranja:** Activos que tienen asociados archivos de imágenes, videos y/o documentos en la pestaña Multimedia.
+- **Blanco:** Activos definidos como Ubicación Técnica o Componentes Intercambiables y que no están asociados a Componentes Intercambiables o Ubicación Técnica, respectivamente, es decir, que están disponibles para ser asignados.
 
 ## Subgrupo
 
-Se usa para seleccionar grupos de  Activos / Equipos que cumplen con un conjunto  de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al <a class="btn">icono de filtro</a>, ubicado en la parte superior derecha de la ventana Visor de Activos. 
+Se usa para seleccionar grupos de  Activos / Equipos que cumplen con un conjunto  de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al `<a class="btn">`icono de filtro`</a>`, ubicado en la parte superior derecha de la ventana Visor de Activos.
 
 ![activos](../../assets/images/cap03/chp03_img08.png)
 
@@ -260,7 +251,7 @@ Cada criterio aparece inicializado en un valor global que permite mostrar todos 
 **AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar.
 
 El programa permite entonces hacer selección de un grupo de Activos de acuerdo con los criterios seleccionados en la siguiente ventana.
- 
+
 ![AC](../../assets/images/cap03/chp03_img08.png)
 
 Los campos de datos que constituyen los criterios de selección en la Ventana  Subgrupo son los siguientes.
@@ -291,7 +282,7 @@ Los campos de datos que constituyen los criterios de selección en la Ventana  S
 
 **Código  de  Barras Proveedor:** Permite seleccionar el Activo/ Equipo que se  encuentre asociado al Código de Barras del Proveedor que se ingresó al crear el Activo/ Equipo.
 
-**Confiabilidad Subjetiva:** Agrupa los Activos  /  Equipos que cumplan con el grado de confiabilidad que se indique en los dos campos que tiene esta opción de subgrupo. 
+**Confiabilidad Subjetiva:** Agrupa los Activos  /  Equipos que cumplan con el grado de confiabilidad que se indique en los dos campos que tiene esta opción de subgrupo.
 
 **El primer campo despliega las siguientes opciones:**
 
@@ -299,7 +290,7 @@ Los campos de datos que constituyen los criterios de selección en la Ventana  S
 
 **>:** Realiza la búsqueda a los Activos /  Equipos que tengan una confiablidad subjetiva mayor al valor indicado en el segundo campo.
 
-**<:** Realiza la búsqueda a los Activos /  Equipos que tengan una confiablidad subjetiva menor al valor indicado en el segundo campo.   
+**<:** Realiza la búsqueda a los Activos /  Equipos que tengan una confiablidad subjetiva menor al valor indicado en el segundo campo.
 
 El segundo campo se usa para colocar el valor (en porcentaje) correspondiente a la confiablidad subjetiva indicada por el técnico ejecutor.
 
@@ -339,10 +330,10 @@ Modelo que se especifica en este campo.
 **Referencia:** Esta opción permite seleccionar uno o varios Activos / Equipos de  acuerdo con su Referencia.
 
 **Relación:** Permite  la  agrupación de  los  Activos /  Equipos  de  acuerdo con  la   relación asignada, de acuerdo a las siguientes opciones:
- 
-- No Asociado 
-- Posición Vacía 
-- Posición Asociada 
+
+- No Asociado
+- Posición Vacía
+- Posición Asociada
 - Repuesto Disponible
 - Repuesto Asociado
 
@@ -355,14 +346,15 @@ Serial.
 
 **Valor Nominal de Característica:** Permite agrupar los Activos / Equipos de acuerdo con un  determinado  Valor  Nominal  de  una  característica.  Cuando  se  activa  esta   opción automáticamente se activa la de Característica, ya que es necesario definirla.  Esta opción también permite el uso de comodines y funciona igual que en los casos anteriores.
 
-**Nota:** Es importante tener en cuenta que cuando se están realizando los Subgrupos  se pueden  utilizar  uno  o  varios  de  los  criterios  anteriores  simultáneamente.	Además es posible hacer unión de selecciones.  Esto significa que inmediatamente después de haber realizado una selección, es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección se da un clic al botón 
-<span class="iconify btn" data-icon="mdi-plus-circle">Más</span>, en lugar de darlo al botón  <a class="btn">Aceptar</a>.
+**Nota:** Es importante tener en cuenta que cuando se están realizando los Subgrupos  se pueden  utilizar  uno  o  varios  de  los  criterios  anteriores  simultáneamente.	Además es posible hacer unión de selecciones.  Esto significa que inmediatamente después de haber realizado una selección, es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección se da un clic al botón
+`<span class="iconify btn" data-icon="mdi-plus-circle">`Más, en lugar de darlo al botón  `<a class="btn">`Aceptar`</a>`.
 
 ## Vistas Parciales / Pestañas
 
 Las Vistas Parciales o Pestañas permiten complementar la información que se despliega normalmente sobre un Activo / Equipo, con otro conjunto de información que solo se muestra cuando es necesario,  por  solicitud  del  usuario. Las vistas parciales  disponibles son: las características, vida útil, multimedia.
 
 ### Características
+
 Esta  opción  permite  definir  para  un  determinado  Activo  /  Equipo  las   Características técnicas que lo definen. En la parte izquierda de la ventana aparece un nuevo Visor en el que irán apareciendo las Características que se van creando en la ventana Detalle, mientras que en la parte derecha aparece los campos para crear o actualizar la información de las características.
 
 ![AC](../../assets/images/cap03/chp03_img10.png)
@@ -371,7 +363,7 @@ En la gráfica anterior, Vista Parcial de Características, se aprecian sus comp
 
 A   continuación  se  describen  los  campos  que  componen  esta  Ventana   información adicional.
 
-**Cuadro Identificación:** Aparece con los campos bloqueados para que el usuario visualice la información básica del Activo al cual se le están definiendo las Características. 
+**Cuadro Identificación:** Aparece con los campos bloqueados para que el usuario visualice la información básica del Activo al cual se le están definiendo las Características.
 
 **Car. Técnica:** En este campo se traen automáticamente las características definidas  en la Infraestructura, para seleccionar aquellas que son propias del Activo / Equipo activo.
 
@@ -386,8 +378,8 @@ A   continuación  se  describen  los  campos  que  componen  esta  Ventana   in
 
 **Tolerancia:**   En   este   campo   se   ingresa   el   factor   de   tolerancia   permitido   para   la característica definida de acuerdo con los criterios del fabricante o la experiencia  técnica de los responsables del Activo / Equipo. Existen 2 campos y son:
 
-**Desde:** Se define el valor mínimo permitido para la característica definida.  
-Hasta: Se define al valor máximo permitido para la característica definida. 
+**Desde:** Se define el valor mínimo permitido para la característica definida.
+Hasta: Se define al valor máximo permitido para la característica definida.
 
 ### Características Controlables
 
@@ -395,11 +387,9 @@ Esta opción permite ingresar valores de medición a  aquellas características 
 
 ![DETALLE DE ACT](../../assets/images/cap03/chp03_img11.png)
 
-
 En  la  gráfica  anterior,  Vista  Parcial  de  Características  Controlables,  se  aprecian  sus componentes y sus respectivos contenidos. En la ventana Detalle de  Características se encuentra la información relevante a la Característica seleccionada  en el Visor, que hace referencia al Activo / Equipo que está activo. Junto con esta información se encuentra un conjunto de datos para el registro de la medición que se va a registrar.
 
 A   continuación  se  describen  los  campos  que  componen  esta  Ventana información adicional.
-
 
 **Car. Controlable:** En este campo se despliegan automáticamente las características  que fueron definidas previamente como Controlables, para seleccionar aquella a la  cual se le va a registrar una determinada medición.
 
@@ -415,11 +405,11 @@ A   continuación  se  describen  los  campos  que  componen  esta  Ventana info
 
 En la gráfica anterior, Ventana de Vida Útil, se aprecian sus componentes y sus respectivos contenidos.
 
-A través de la ventana de Vida Útil se registra todo el compendio de las fechas en forma de cronología desde que se adquiere el Activo hasta su disposición final. 
+A través de la ventana de Vida Útil se registra todo el compendio de las fechas en forma de cronología desde que se adquiere el Activo hasta su disposición final.
 
 A   continuación  se  describen  los  campos  que  componen  esta  Ventana información adicional.
 
-**Cuadro Identificación:** Aparece con los campos bloqueados para que el usuario visualice la información básica del Activo al cual se le están definiendo las Características. 
+**Cuadro Identificación:** Aparece con los campos bloqueados para que el usuario visualice la información básica del Activo al cual se le están definiendo las Características.
 
 **FF Registro:** En este campo se registra la fecha de registro del Activo en el software **AM**.
 
@@ -427,13 +417,13 @@ A   continuación  se  describen  los  campos  que  componen  esta  Ventana info
 
 **FF Ingreso Inventario:** En este campo se registra la fecha en que ingresa el Activo al sistema de Activos de la institución.
 
-**FF Fin Garantía:** En este campo se registra la fecha en la que se da por terminada la garantía del Activo / Equipo por parte del Fabricante o Proveedor. Sí la garantía está vigente, la fecha se muestra en color verde, mientras que sí la garantía se encuentra vencida, la fecha se muestra en color rojo.  
+**FF Fin Garantía:** En este campo se registra la fecha en la que se da por terminada la garantía del Activo / Equipo por parte del Fabricante o Proveedor. Sí la garantía está vigente, la fecha se muestra en color verde, mientras que sí la garantía se encuentra vencida, la fecha se muestra en color rojo.
 
-**FF Instalación:** En este campo se registra la fecha en la cual se instaló el Activo en el servicio. 
+**FF Instalación:** En este campo se registra la fecha en la cual se instaló el Activo en el servicio.
 
 **FF Inicio Operación:** En este campo se registra la fecha en la cual inició el funcionamiento en productivo del Activo.
 
-**FF Dado de Baja:** En este campo se registra automáticamente por el sistema la fecha en que se dio de baja el Activo, cuando se selecciona el estado inactivo  “I-Dado de Baja”.  
+**FF Dado de Baja:** En este campo se registra automáticamente por el sistema la fecha en que se dio de baja el Activo, cuando se selecciona el estado inactivo  “I-Dado de Baja”.
 
 **FF Adquisición:** En este campo se registra la fecha en la cual se formalizó la adquisición del Activo. Esa adquisición puede ser obtenida a través de una Compra, Donación, Arrendamiento Financiero, Comodato, Préstamo y Otro.
 
@@ -447,7 +437,7 @@ A   continuación  se  describen  los  campos  que  componen  esta  Ventana info
 
 **Valor Moneda Extranjera:** En este campo con capacidad de 13 dígitos, se escribe el valor de la máquina según la moneda que se indica en el campo Moneda Extranjera (normalmente moneda de origen).
 
-**Moneda Extranjera:** En este campo se selecciona el nombre de la moneda de acuerdo con la  definición que se haga de la tabla de infraestructura (moneda de origen). 
+**Moneda Extranjera:** En este campo se selecciona el nombre de la moneda de acuerdo con la  definición que se haga de la tabla de infraestructura (moneda de origen).
 
 ### Multimedia
 
@@ -461,41 +451,38 @@ Los documentos anexos pueden contener: ayudas necesarias en la ejecución de la 
 
 A continuación se describen las carpetas que componen esta ventana; cuando se quiera actualizar o ingresar nueva información al AC, se deberán registrar así:
 
-**Cuadro Identificación:** Aparece con los campos bloqueados para que el usuario visualice la información básica del Activo al cual se le están definiendo las Características. 
+**Cuadro Identificación:** Aparece con los campos bloqueados para que el usuario visualice la información básica del Activo al cual se le están definiendo las Características.
 
-**Documentos:** En esta carpeta se relacionan toda clase de documentación relacionada al AC. Ejemplo: Archivos en Word, pdf, Excel, entre otros. 
+**Documentos:** En esta carpeta se relacionan toda clase de documentación relacionada al AC. Ejemplo: Archivos en Word, pdf, Excel, entre otros.
 
 **Imágenes:** En esta carpeta se relacionan toda clase de imágenes relacionadas al AC. Ejemplo: Imágenes en formato jpg, png, entre otros.
-
 
 **Videos:** En esta carpeta se relacionan porciones de videos relacionados al AC. Ejemplo: Videos en formato wmv, entre otros.
 
 ![DETALLE DE ACT](../../assets/images/cap03/chp03_img14.png)
 
-Para adicionar un documento, imagen o video, se debe dar clic en la carpeta deseada, luego se da clic a <span class="iconify btn" data-icon="cloud-upload">Cargar</span>, a continuación se abre una nueva ventana para realizar la búsqueda del archivo a subir,  se selecciona el archivo y se da clic en <a class="btn">abrir</a>. 
+Para adicionar un documento, imagen o video, se debe dar clic en la carpeta deseada, luego se da clic a `<span class="iconify btn" data-icon="cloud-upload">`Cargar, a continuación se abre una nueva ventana para realizar la búsqueda del archivo a subir,  se selecciona el archivo y se da clic en `<a class="btn">`abrir`</a>`.
 
 ![ACT](../../assets/images/cap03/chp03_img15.png)
 
-Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic en uno de las imágenes, se visualiza la imagen adjunta. 
+Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic en uno de las imágenes, se visualiza la imagen adjunta.
 
-Para desasociar un documento, o una imagen o un video, al AC se da clic al icono de <span class="iconify btn" data-icon=delete>nar (basura)</span> que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de nar este registro y se da clic en el botón <a class="btn">Aceptar</a>. 
+Para desasociar un documento, o una imagen o un video, al AC se da clic al icono de `<span class="iconify btn" data-icon=delete>`nar (basura) que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de nar este registro y se da clic en el botón `<a class="btn">`Aceptar`</a>`.
 
-Si se desea descargar un archivo adjunto al AC, se debe dar clic en 
-<span class="iconify btn" data-icon=cloud-download>la nube con flecha hacia abajo</span>
+Si se desea descargar un archivo adjunto al AC, se debe dar clic en
+`<span class="iconify btn" data-icon=cloud-download>`la nube con flecha hacia abajo
 
-, que se encuentra al lado derecho del archivo que se quiere descargar.  
+, que se encuentra al lado derecho del archivo que se quiere descargar.
 
 ## Transacciones
 
 ### Modificar Masivamente
 
-
 A esta opción se llega al sobreponer el cursor del mouse sobre el módulo de Activos y al lado derecho se despliega el conjunto de transacciones disponibles para el módulo de Activo, luego se elige la transacción  “Modificar Masivamente”.
 
 ![ACT](../../assets/images/cap03/chp03_img17.png)
 
-Esta transacción permite cambiar masivamente el Estado, Ubicación Física, Centro de Costos, Encargado, Comentarios, Proveedor y Fabricante, de los Activos /Equipos  previamente seleccionados, que  se encuentran en el Visor. Para ello se debe dar clic al link en azul ** “Modificar Masivamente”** ubicado al lado superior izquierdo de la ventana, seguidamente se muestra las opciones de modificación masiva disponibles. 
-
+Esta transacción permite cambiar masivamente el Estado, Ubicación Física, Centro de Costos, Encargado, Comentarios, Proveedor y Fabricante, de los Activos /Equipos  previamente seleccionados, que  se encuentran en el Visor. Para ello se debe dar clic al link en azul ** “Modificar Masivamente”** ubicado al lado superior izquierdo de la ventana, seguidamente se muestra las opciones de modificación masiva disponibles.
 
 ![ACT](../../assets/images/cap03/chp03_img18.png)
 
@@ -511,11 +498,11 @@ A   continuación  se  describen  los  campos  que  componen  esta  Ventana   in
 
 ![modificar descripcion](../../assets/images/cap03/chp03_img19.png)
 
-**Modificar Referencia Externa (Proveedor):** Se Modifica Masivamente la referencia externa proveedor, del o los Equipos que están previamente seleccionados 
+**Modificar Referencia Externa (Proveedor):** Se Modifica Masivamente la referencia externa proveedor, del o los Equipos que están previamente seleccionados
 
 ![modificar ref externa](../../assets/images/cap03/chp03_img20.png)
 
-**Modificar Activo Padre:** Se Modifica Masivamente el Activo Padre, de los Equipos que están previamente seleccionados en el visor. Al seleccionar el Activo Padre, se asigna automáticamente el Centro de Costo y la Ubicación Física asociados al Activo Padre seleccionado. 
+**Modificar Activo Padre:** Se Modifica Masivamente el Activo Padre, de los Equipos que están previamente seleccionados en el visor. Al seleccionar el Activo Padre, se asigna automáticamente el Centro de Costo y la Ubicación Física asociados al Activo Padre seleccionado.
 
 ![modificar activo padre](../../assets/images/cap03/chp03_img21.png)
 
@@ -573,7 +560,6 @@ Equipos que están previamente seleccionados en el visor.
 
 ![Modificar Ruta](../../assets/images/cap03/chp03_img34.png)
 
-
 **Modificar Comentarios:** Se Modifica Masivamente los Comentarios, que están previamente digitados o seleccionados en el visor
 
 ![Modificar Comentarios](../../assets/images/cap03/chp03_img35.png)
@@ -593,7 +579,6 @@ Equipos que están previamente seleccionados en el visor.
 **Modificar FF Instalación:** Se Modifica Masivamente la fecha de instalación ubicada en la pestaña de Vida Útil, de los equipos que están previamente digitados o seleccionados en el visor.
 
 ![Modificar FF Instalación](../../assets/images/cap03/chp03_img39.png)
-
 
 **Modificar FF Inicio Operación:** Se Modifica Masivamente la fecha de inicio de operación ubicada en la pestaña de Vida Útil, de los equipos que están previamente digitados o seleccionados en el visor.
 
@@ -623,9 +608,9 @@ Equipos que están previamente seleccionados en el visor.
 
 ![Modificar FF Ingreso de Póliza](../../assets/images/cap03/chp03_img45.png)
 
-###Actualizar Contadores 
+###Actualizar Contadores
 
-Es  la función  que facilita  la  Actualización de  los  Contadores de  los  Equipos. A  esta ventana se llega mediante un clic en la opción <a class="btn">Actualizar Contadores</a>. de la  Sección  “Transacciones” del Submenú de Equipos.
+Es  la función  que facilita  la  Actualización de  los  Contadores de  los  Equipos. A  esta ventana se llega mediante un clic en la opción `<a class="btn">`Actualizar Contadores`</a>`. de la  Sección  “Transacciones” del Submenú de Equipos.
 
 La ventana despliega la lista de los Equipos que tienen registrado un Contador dentro  de su definición de  Ficha Técnica. Junto al  Código de cada Equipo aparece el  tipo  de Contador y los datos referentes a la última lectura registrada. Posteriormente, a la derecha de cada línea de un Equipo se encuentran disponibles un conjunto de  campos para el registro de la información correspondiente a una nueva lectura.
 
@@ -645,21 +630,19 @@ En  la  gráfica  anterior,  Ventana  para  Actualización  de  Contadores,  se 
 
 **Med. Act:** En esta columna se ingresa el valor de la lectura de contador a ser registrada.
 
-
-**AD:** Seleccionando esta opción Botón <a class="btn">Adicionar</a> se realiza la adición del campo Medición
+**AD:** Seleccionando esta opción Botón `<a class="btn">`Adicionar`</a>` se realiza la adición del campo Medición
 Actual al campo Medición Anterior y deja el resultado en la columna Nueva Medición.
 
-**RE:**  Seleccionando  esta  opción  Botón  <a class="btn">Remplazar</a> se  copia  el  valor  de  la  columna
+**RE:**  Seleccionando  esta  opción  Botón  `<a class="btn">`Remplazar`</a>` se  copia  el  valor  de  la  columna
 Medición Actual a la columna Nueva Medición.
 
-**Nueva Medición:** En esta columna se listan los valores actualizados de ese contador para el Equipo de cada línea. 
+**Nueva Medición:** En esta columna se listan los valores actualizados de ese contador para el Equipo de cada línea.
 
-Al  finalizar  de  registrar  todas  las  lecturas  de  contadores  se  da  un  clic  en  el  botón <a class="btn">Actualizar</a> y el sistema responde con una Caja de Diálogo como la que  sigue,  en cuyo caso   para   realizar   efectivamente  las   actualizaciones  a   las   lecturas   de   contadores registradas se da un clic en el botón <a class="btn">Sí</a>.
+Al  finalizar  de  registrar  todas  las  lecturas  de  contadores  se  da  un  clic  en  el  botón `<a class="btn">`Actualizar`</a>` y el sistema responde con una Caja de Diálogo como la que  sigue,  en cuyo caso   para   realizar   efectivamente  las   actualizaciones  a   las   lecturas   de   contadores registradas se da un clic en el botón `<a class="btn">`Sí`</a>`.
 
 ![Atencion](../../assets/images/cap03/chp03_img47.png)
 
 Realizado el proceso se cambian los datos en rojo de la columna Nueva Medición por color verde, mostrando los campos actualizados.
-
 
 Es posible definir en valores por defecto la posibilidad de  “No modificación de Contadores decrementales por Equipo”, cuya función es impedir la carga de Contadores inferiores al que posee en la actualidad el equipo.
 
@@ -669,22 +652,22 @@ Adicionalmente,  se  cuenta  con  la  posibilidad  de  activar  la  opción  de 
 
 ![valores por defecto](../../assets/images/cap03/chp03_img49.png)
 
-### Cambiar a TreeGrid 
+### Cambiar a TreeGrid
 
-Es  la función  que facilita  visualizar en vista de árbol un conjunto de Activos de acuerdo al subgrupo o todos los Activos del módulo. A  esta ventana se llega mediante un clic en el icono con  ubicado en la parte superior derecha de la ventana Visor de Activos. 
+Es  la función  que facilita  visualizar en vista de árbol un conjunto de Activos de acuerdo al subgrupo o todos los Activos del módulo. A  esta ventana se llega mediante un clic en el icono con  ubicado en la parte superior derecha de la ventana Visor de Activos.
 ![activos](../../assets/images/cap03/chp03_img50.png)
 
 ### Exportar
 
-Esta opción permite la exportación de los Equipos/Activos que aparecen en el visor, totales o provenientes de un subgrupo, a un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso.  
+Esta opción permite la exportación de los Equipos/Activos que aparecen en el visor, totales o provenientes de un subgrupo, a un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso.
 
 Al ejecutar esta transacción, se abrirá una ventana la cual se muestra a continuación.
 
 ![exportar activos](../../assets/images/cap03/chp03_img51.png)
 
-Al darle clic en el botón <a class="btn">Exportar</a> , se generará un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso, el objetivo de esta exportación es llevar toda la información de los Equipos contenidos en el visor a un archivo plano, para luego ser analizados. 
+Al darle clic en el botón `<a class="btn">`Exportar`</a>` , se generará un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso, el objetivo de esta exportación es llevar toda la información de los Equipos contenidos en el visor a un archivo plano, para luego ser analizados.
 
-Adicionalmente, es posible exportar todos los campos de la ventana Detalle de los Activos / Equipos, para esto se da clic en el cuadro llamado ** “Exportar Todos Los Campos”**. También, es posible exportar uno o varios campos de la ventana Detalle de los Activos / Equipos, para esto se da clic en cada uno de los cuadros que acompañan los campos. 
+Adicionalmente, es posible exportar todos los campos de la ventana Detalle de los Activos / Equipos, para esto se da clic en el cuadro llamado ** “Exportar Todos Los Campos”**. También, es posible exportar uno o varios campos de la ventana Detalle de los Activos / Equipos, para esto se da clic en cada uno de los cuadros que acompañan los campos.
 
 # Servicios
 
@@ -692,16 +675,15 @@ Este comando permite visualizar los reportes relacionados con los Activos / Equi
 
 ![exportar activos](../../assets/images/cap03/chp03_img52.png)
 
-Los  anteriores  reportes  pueden  ser  seleccionados  para  uno  o  varios   Equipos: 
+Los  anteriores  reportes  pueden  ser  seleccionados  para  uno  o  varios   Equipos:
 
-**Todos los Registros:** Con esta opción se imprimen todos los reportes de los Activos / Equipos existentes en la base de datos, sin importar si se ha realizado un subgrupo. 
+**Todos los Registros:** Con esta opción se imprimen todos los reportes de los Activos / Equipos existentes en la base de datos, sin importar si se ha realizado un subgrupo.
 
-**Registros del Visor:** Esta opción permite hacer una impresión de todos los Activos / Equipos que están seleccionados en la Ventana Visor, es decir los registros que están seleccionados en el subgrupo actual. 
+**Registros del Visor:** Esta opción permite hacer una impresión de todos los Activos / Equipos que están seleccionados en la Ventana Visor, es decir los registros que están seleccionados en el subgrupo actual.
 
 **Registro Seleccionado:** Esta opción permite hacer una impresión del Activo / Equipo que esta seleccionado en la Ventana Visor (el cursor verde se encuentra sobre él).
 
-**Subtítulo:** En este campo es posible registrar un poco menos de una línea de información, tipo documentación del Reporte, para que se imprima bajo el área de títulos estándar. 
+**Subtítulo:** En este campo es posible registrar un poco menos de una línea de información, tipo documentación del Reporte, para que se imprima bajo el área de títulos estándar.
 
-Para visualizar los reportes, se selecciona el reporte y luego se da clic al botón <a class="btn">Imprimir</a>.
-. 
-
+Para visualizar los reportes, se selecciona el reporte y luego se da clic al botón `<a class="btn">`Imprimir`</a>`.
+.

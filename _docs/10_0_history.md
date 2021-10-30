@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Stoppages - Failures, Damages and Breakdowns (FDA)
+title: ◼ Stoppages - Failures, Damages and Breakdowns (FDA)
 order: 10_00
 ---
 # Historia de Mantenimiento
@@ -126,11 +126,11 @@ Fecha y hora del daño, falla o avería.  La fecha se m aneja en formato AAAA/MM
 
 **Control  Presupuestal:** Esta  Opción permite  definir  si  la  Orden  de  Trabajo maneja Presupuesto. Para las Órdenes de Trabajo Programadas, esta opción  siempre está  seleccionada, pero  aparece protegida,   ya  que  toda  **OT**   Programada  conlleva el Presupuesto Aprobado.
 
-Para  las  Órdenes  de  Trabajo  Manuales,  esta  opción se  establece en  el  m omento  de creación de la misma.  Esta elección se debe m arcar antes de darle clic al botón `<a class="btn">`Insertar`</a>`, de otra f orma, -AM 4G- asume que la **OT** no va a requerir Control Presupuestal y la posibilidad de hacer la marcación se inactiva en el acto.
+Para  las  Órdenes  de  Trabajo  Manuales,  esta  opción se  establece en  el  m omento  de creación de la misma.  Esta elección se debe m arcar antes de darle clic al botón `<a class="btn">`Insertar `</a>`, de otra f orma, -AM 4G- asume que la **OT** no va a requerir Control Presupuestal y la posibilidad de hacer la marcación se inactiva en el acto.
 
 Cuando una Orden de Trabajo Manual exige control presupuestal, y el presupuesto no ha sido aprobado, no es posible registrar ni modificar el Gasto Real en ella.
 
-**Comentarios:** Esta opción se usa para ingresar los nuevos comentarios referentes a toda la ejecución de la **OT**. Al dar clic al botón `<a class="btn">`Agregar Comentario`</a>` aparecerá el comentario ingresado al lado derecho en una ventana tipo chat bloqueada y a su vez inhabilita la modificación de los comentarios que allí se encuentren; además de la fecha, hora y el usuario logueado que realizó el comentario.
+**Comentarios:** Esta opción se usa para ingresar los nuevos comentarios referentes a toda la ejecución de la **OT**. Al dar clic al botón `<a class="btn">`Agregar Comentario `</a>` aparecerá el comentario ingresado al lado derecho en una ventana tipo chat bloqueada y a su vez inhabilita la modificación de los comentarios que allí se encuentren; además de la fecha, hora y el usuario logueado que realizó el comentario.
 
 **Este espacio de comentarios sirve para dos efectos:**
 
@@ -282,7 +282,7 @@ Mantenimiento.
 
 **Estado:** Permite seleccionar las SS Históricas de acuerdo con su estado de cierre: **“**Cerrada no ejecutada **”**, **“**Cerrada ejecutada **”** o **“** Cerrada con **OT** **”**.
 
-**Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos,  se pueden utilizar  uno  o  varios  de  los criterios anteriores, simultáneamente.   Además es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber realizado una selección, es posible hacer otra y unir el resultado de las dos.  Para ello, tras definir los criterios de la segunda selección, se da un clic al botón `<span class="iconify btn" data-icon="mdi-plus-circle">`Más, en lugar de darlo al botón `<a class="btn">`Aceptar`</a>`.
+**Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos,  se pueden utilizar  uno  o  varios  de  los criterios anteriores, simultáneamente.   Además es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber realizado una selección, es posible hacer otra y unir el resultado de las dos.  Para ello, tras definir los criterios de la segunda selección, se da un clic al botón `<span class="iconify btn" data-icon="mdi-plus-circle">`Más, en lugar de darlo al botón `<a class="btn">`Aceptar `</a>`.
 
 ## Vistas Parciales / Pestañas
 
@@ -296,7 +296,7 @@ Esta opción conduce a la tabla de Acciones Técnicas de la **OT**. Esta tabla s
 
 En la próxima gráfica, que contiene la Ventana de Información de Cierre, se aprecian sus componentes y sus respectivos contenidos. A través de ella se realizó el proceso de cierre de la Orden de Trabajo, en el módulo de Órdenes de Trabajo.  En esta ventana, en Historia de mantenimiento, la única opción permitida es la de modificar, ello bajo las condiciones
 de autorización que son exigidas. De tener la autorización para hacerlo, se modifica el o
-los campos requeridos y se concluye la operación con un clic  en el botón `<a class="btn">`Actualizar`</a>`.
+los campos requeridos y se concluye la operación con un clic  en el botón `<a class="btn">`Actualizar `</a>`.
 
 !![Seguimiento o Cierre](0.images/cap11/chp11_img05.png)
 
@@ -370,7 +370,7 @@ En la zona inferior, están los botones que permiten ver, en forma de visor, el 
 
 !![Ingresar mano de Obra Interna](0.images/cap11/chp11_img09.png)
 
-En la gráfica anterior, Ventana de Ingreso de Mano de Obra, se aprecian sus componentes y sus respectivos contenidos. A ella se llega desde la ventana de Gasto Real en Historia, dando clic al botón `<a class="btn">`Ingresar Mano de Obra`</a>`.   La forma del acceso  más normal a este proceso es  de  consulta.  Cuando se  dispone de  los   permisos  requeridos, es  posible también Modificar Historia. Por supuesto que este es un permiso exclusivo.
+En la gráfica anterior, Ventana de Ingreso de Mano de Obra, se aprecian sus componentes y sus respectivos contenidos. A ella se llega desde la ventana de Gasto Real en Historia, dando clic al botón `<a class="btn">`Ingresar Mano de Obra `</a>`.   La forma del acceso  más normal a este proceso es  de  consulta.  Cuando se  dispone de  los   permisos  requeridos, es  posible también Modificar Historia. Por supuesto que este es un permiso exclusivo.
 
 A través de la ventana de Ingreso de Mano de Obra en Gasto Real es posible apreciar el detalle de la Mano de Obra de la Orden de Trabajo Histórica. La funcionalidad es idéntica a la expuesta en el Capítulo Órdenes de Trabajo, en la sección Ingresar Mano de Obra, en Gasto Real.
 
@@ -426,7 +426,7 @@ A continuación se describen los campos que componen esta ventana.
 
 **Valor Total:** Es el costo total presupuestado del **“**Otro Concepto **”** teniendo en cuenta el número de unidades y el valor unitario.
 
-Al hacer clic en el botón `<a class="btn">`Ir a Matriz`</a>`, se regresa a la ventana principal de Gasto Real.
+Al hacer clic en el botón `<a class="btn">`Ir a Matriz `</a>`, se regresa a la ventana principal de Gasto Real.
 
 ### Evaluación de Servicio
 
@@ -454,17 +454,17 @@ A continuación se describen las carpetas que componen esta ventana; cuando se q
 
 !![Videos](0.images/cap11/chp11_img13.png)
 
-Para adicionar un documento, imagen o video, se debe dar clic en la carpeta deseada, luego se da clic al icono de  `<a class="btn">`la nube con una flecha hacia arriba en su interior`</a>`, a continuación se abre una nueva ventana para realizar la búsqueda del archivo a subir,  se selecciona el archivo y se da clic en `<a class="btn">`abrir`</a>`.
+Para adicionar un documento, imagen o video, se debe dar clic en la carpeta deseada, luego se da clic al icono de  `<a class="btn">`la nube con una flecha hacia arriba en su interior `</a>`, a continuación se abre una nueva ventana para realizar la búsqueda del archivo a subir,  se selecciona el archivo y se da clic en `<a class="btn">`abrir `</a>`.
 
 !![adicionar un documento](0.images/cap11/chp11_img14.png)
 
-Una vez se da clic en `<a class="btn">`abrir`</a>`, se evidencia al lado derecho el nombre del archivo elegido y aparece un campo en blanco, para que el usuario escriba un nombre adicional del archivo para ser usado como una referenciación del archivo adjunto. Luego, se da clic en el botón `<a class="btn">`Subir archivo `</a>`.
+Una vez se da clic en `<a class="btn">`abrir `</a>`, se evidencia al lado derecho el nombre del archivo elegido y aparece un campo en blanco, para que el usuario escriba un nombre adicional del archivo para ser usado como una referenciación del archivo adjunto. Luego, se da clic en el botón `<a class="btn">`Subir archivo `</a>`.
 
 !![archivo elegido](0.images/cap11/chp11_img15.png)
 
 Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic en uno de las imágenes, se visualiza la imagen adjunta.
 
-Para desasociar un documento, o una imagen o un video, a la **OT** se da clic al icono de `<span class="iconify btn" data-icon=delete>`eliminar (basura) que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro y se da clic en el botón `<a class="btn">`Aceptar`</a>`.
+Para desasociar un documento, o una imagen o un video, a la **OT** se da clic al icono de `<span class="iconify btn" data-icon=delete>`eliminar (basura) que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro y se da clic en el botón `<a class="btn">`Aceptar `</a>`.
 
 Si se desea descargar un archivo adjunto a la **OT**, se debe dar clic en el icono de `<span class="iconify btn" data-icon=cloud-download>`la nube con flecha hacia abajo</>, que se encuentra al lado derecho del archivo que se quiere descargar.
 
@@ -486,7 +486,7 @@ Los anteriores reportes pueden ser impresos, para una o varias Órdenes de Traba
 
 **Subtítulo:** En este campo es posible registrar un poco menos de una línea de información, tipo documentación del Reporte, para que se imprima bajo el área de títulos estándar.
 
-Para visualizar los reportes, se selecciona el reporte y luego se da clic al botón `<a class="btn">`Imprimir`</a>`.
+Para visualizar los reportes, se selecciona el reporte y luego se da clic al botón `<a class="btn">`Imprimir `</a>`.
 
 ### DashBoards
 
@@ -498,7 +498,7 @@ Al dar clic sobre los rectángulos de colores, se oculta la información corresp
 
 !![DashBoards](0.images/cap11/chp11_img18.png)
 
-Sí se desea restablecer la información, se debe dar clic botón  `<a class="btn">`actualizar `</a>`. En cambio, si se desea exportar el gráfico en un formato de imagen, es posible dando clic a  `<a class="btn">`la flecha hacia abajo`</a>`.
+Sí se desea restablecer la información, se debe dar clic botón  `<a class="btn">`actualizar `</a>`. En cambio, si se desea exportar el gráfico en un formato de imagen, es posible dando clic a  `<a class="btn">`la flecha hacia abajo `</a>`.
 
 !![DashBoards](0.images/cap11/chp11_img19.png)
 
@@ -547,6 +547,6 @@ Al ejecutar esta transacción, se abrirá una ventana la cual se muestra a conti
 
 !![Exportar](0.images/cap11/chp11_img20.png)
 
-Al darle clic en el botón `<a class="btn">`Exportar`</a>`, se generará un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso, el objetivo de esta exportación es llevar toda la información de los registros contenidos en el visor a un archivo plano, para luego ser analizados.
+Al darle clic en el botón `<a class="btn">`Exportar `</a>`, se generará un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso, el objetivo de esta exportación es llevar toda la información de los registros contenidos en el visor a un archivo plano, para luego ser analizados.
 
 Adicionalmente, es posible exportar todos los campos de la ventana Detalle de los registros, para esto se da clic en el cuadro llamado **“**Exportar Todas Las Columnas **”**. También, es posible exportar uno o varios campos de la ventana Detalle de los registros, para esto se da clic en cada uno de los cuadros que acompañan los campos.

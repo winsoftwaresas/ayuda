@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Kárdex de Almacén
+title: ◼ Kárdex de Almacén
 order: 05_00
 ---
 # Kárdex de Almacén
@@ -118,7 +118,7 @@ Al  finalizar una transacción de movimiento de Repuestos, todos los registros s
 
 ![detalle de documentos kardex](../../assets/images/cap06/chp06_img10.png)
 
-Para eliminar un registro de movimiento de Repuestos, solo se permite hacerlo, durante la creación del mismo, para esto se debe movilizar hasta el final del lado derecho usando el scroll vertical, al dar clic al `<span class="iconify btn" data-icon=delete>`eliminar (basura), sale un mensaje de alerta indicándole al usuario si está seguro de eliminar el registro y finalmente se da clic en `<a class="btn">`Aceptar`</a>`.
+Para eliminar un registro de movimiento de Repuestos, solo se permite hacerlo, durante la creación del mismo, para esto se debe movilizar hasta el final del lado derecho usando el scroll vertical, al dar clic al `<span class="iconify btn" data-icon=delete>`eliminar (basura), sale un mensaje de alerta indicándole al usuario si está seguro de eliminar el registro y finalmente se da clic en `<a class="btn">`Aceptar `</a>`.
 
 ![detalle de documentos kardex](../../assets/images/cap06/chp06_img11.png)
 
@@ -126,19 +126,19 @@ Para crear un nuevo movimiento se da clic en el `<span class="iconify btn" data-
 
 ![detalle de documentos kardex](../../assets/images/cap06/chp06_img12.png)
 
-También, es posible crear movimientos, al hacer clic en el boton`<span class="iconify btn" data-icon="mdi-plus-circle">`Más, ubicado en la parte superior derecha, seguidamente se visualiza que se crea una nueva fila en la última posición de la lista o en la primera posición, en el caso de tratarse del primer registro de movimiento en el documento.
+También, es posible crear movimientos, al hacer clic en el boton `<span class="iconify btn" data-icon="mdi-plus-circle">`Más, ubicado en la parte superior derecha, seguidamente se visualiza que se crea una nueva fila en la última posición de la lista o en la primera posición, en el caso de tratarse del primer registro de movimiento en el documento.
 
 ![detalle de documentos kardex](../../assets/images/cap06/chp06_img13.png)
 
-Por otro lado, el botón  `<a class="btn">` “Insertar Movimientos`</a>` se usa para insertar uno o varios registros de movimientos de Materiales o Repuestos, una vez diligenciados todos los campos de la ventana Detalle del movimiento de cada item, se da clic en este botón, con el fin de insertarlos todos juntos en la BD de **AM**. Además, si se desea se puede usar el botón `<a class="btn">` “Insertar Movimientos`</a>` para ir insertando el movimiento de un material o Repuesto uno a uno.
+Por otro lado, el botón  `<a class="btn">` “Insertar Movimientos `</a>` se usa para insertar uno o varios registros de movimientos de Materiales o Repuestos, una vez diligenciados todos los campos de la ventana Detalle del movimiento de cada item, se da clic en este botón, con el fin de insertarlos todos juntos en la BD de **AM**. Además, si se desea se puede usar el botón `<a class="btn">` “Insertar Movimientos `</a>` para ir insertando el movimiento de un material o Repuesto uno a uno.
 
 ![detalle de documentos kardex](../../assets/images/cap06/chp06_img14.png)
 
-Finalmente, el botón de `<a class="btn">`Despachar reservas`</a>`, ubicado en la parte superior derecha, solo es visible en los documentos de transacción tipo Salidas. Al dar clic a este botón, se abre una nueva ventana que muestra el visor de las Reservas de los Materiales o Repuestos que se han generado, con el objetivo de poder despacharlas a través de esta nueva funcionalidad.
+Finalmente, el botón de `<a class="btn">`Despachar reservas `</a>`, ubicado en la parte superior derecha, solo es visible en los documentos de transacción tipo Salidas. Al dar clic a este botón, se abre una nueva ventana que muestra el visor de las Reservas de los Materiales o Repuestos que se han generado, con el objetivo de poder despacharlas a través de esta nueva funcionalidad.
 
 ![detalle de documentos kardex](../../assets/images/cap06/chp06_img15.png)
 
-Para continuar con el proceso de despacho de reservas de Materiales o Repuestos, se debe elegir de la ventana mostrada anteriormente, la reserva a despachar dando doble clic directamente al registro o seleccionar el registro y luego dar clic al botón `<a class="btn">`Despachar RV`</a>`.
+Para continuar con el proceso de despacho de reservas de Materiales o Repuestos, se debe elegir de la ventana mostrada anteriormente, la reserva a despachar dando doble clic directamente al registro o seleccionar el registro y luego dar clic al botón `<a class="btn">`Despachar RV `</a>`.
 
 ![detalle de documentos kardex](../../assets/images/cap06/chp06_img16.png)
 
@@ -198,7 +198,7 @@ La información contenida en el cuadro  “Después de la Transacción” es la 
 
 **\$ Total:** Es un campo calculado por el sistema y que contiene el valor total  de  la actual transacción. Es el producto de la Cantidad por el \$ Unit Fact. No es un campo modificable por el usuario, por ello se observa bloqueado.
 
-**OT:** Se trata de un campo que normalmente está bloqueado y que solo  aparece cuando se elige un concepto de kárdex que exija una Orden de Trabajo válida (Ver Tabla Conceptos de  Kárdex  en  el  Capítulo  de  Infraestructura). Por  ejemplo,  una  salida  del  almacén  con destino a una Orden de Trabajo; o también una entrada al almacén que corresponda a una devolución de un material o un repuesto que había  sido despachado a una OT y no fue consumido por  ella. Al dar clic al `<span class="iconify btn" data-icon=filter-variant>`icono de filtro, ubicado en la parte superior derecha del campo, se abre una nueva ventana con el visor de las Órdenes de Trabajo, y es posible elegirla desde allí, basta con seleccionar la OT y dar doble clic o seleccionar la OT y luego dar clic al botón `<a class="btn">`Adicionar OT`</a>`.
+**OT:** Se trata de un campo que normalmente está bloqueado y que solo  aparece cuando se elige un concepto de kárdex que exija una Orden de Trabajo válida (Ver Tabla Conceptos de  Kárdex  en  el  Capítulo  de  Infraestructura). Por  ejemplo,  una  salida  del  almacén  con destino a una Orden de Trabajo; o también una entrada al almacén que corresponda a una devolución de un material o un repuesto que había  sido despachado a una OT y no fue consumido por  ella. Al dar clic al `<span class="iconify btn" data-icon=filter-variant>`icono de filtro, ubicado en la parte superior derecha del campo, se abre una nueva ventana con el visor de las Órdenes de Trabajo, y es posible elegirla desde allí, basta con seleccionar la OT y dar doble clic o seleccionar la OT y luego dar clic al botón `<a class="btn">`Adicionar OT `</a>`.
 
 **Cantidad en OT:** En este campo se muestra la cantidad del repuesto o material, en  las unidades  propias  del  repuesto,  que  contiene  actualmente  la  OT  relacionada   en  el Movimiento de Kárdex. Este campo no es modificable por el usuario, por lo tanto se visualiza como bloqueado.
 
@@ -206,7 +206,7 @@ La información contenida en el cuadro  “Después de la Transacción” es la 
 
 ![detalle de documentos kardex](../../assets/images/cap06/chp06_img18.png)
 
-Para eliminar un registro de transacción, se ubica el registro a eliminar, para ello se debe movilizar hasta el final del lado derecho usando el scroll vertical, al dar clic al icono de `<span class="iconify btn" data-icon=delete>`eliminar (basura), sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en `<a class="btn">`Aceptar`</a>`. Solamente es posible eliminar los registros de movimientos, cuando está en modo de inserción.
+Para eliminar un registro de transacción, se ubica el registro a eliminar, para ello se debe movilizar hasta el final del lado derecho usando el scroll vertical, al dar clic al icono de `<span class="iconify btn" data-icon=delete>`eliminar (basura), sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en `<a class="btn">`Aceptar `</a>`. Solamente es posible eliminar los registros de movimientos, cuando está en modo de inserción.
 
 ## Ajustar Inventario
 
@@ -263,11 +263,11 @@ La información contenida en el cuadro  “Después de la Transacción” es la 
 
 Es una funcionalidad que inhibe la posibilidad de adicionar nuevos movimientos a un Documento. Una vez ejecutada está transacción no tiene reversa y permanecerá en el Kárdex como un Documento únicamente de Consulta.
 
-El botón `<a class="btn">`Congelar Documento`</a>` se encuentra ubicado en la parte superior izquierda de la ventana y solo aparecerá a los usuarios que tengan el permiso de usuario  “Congelar documentos en Kárdex” en la definición de  “Permisos para ejecución de Procesos” que se otorgan al usuario en el módulo de Administración / Modificar permisos básicos.
+El botón `<a class="btn">`Congelar Documento `</a>` se encuentra ubicado en la parte superior izquierda de la ventana y solo aparecerá a los usuarios que tengan el permiso de usuario  “Congelar documentos en Kárdex” en la definición de  “Permisos para ejecución de Procesos” que se otorgan al usuario en el módulo de Administración / Modificar permisos básicos.
 
 ![detalle de documentos kardex](../../assets/images/cap06/chp06_img21.png)
 
-Para congelar un documento basta con seleccionar el Documento de Kárdex, dar clic al  botón `<a class="btn">`Congelar Documento`</a>`, el sistema muestra un mensaje de alerta indicado al usuario de si está seguro de continuar con el proceso, ya que la operación no tiene reversa, para finalizar dar clic en el botón `<a class="btn">`Aceptar`</a>`.
+Para congelar un documento basta con seleccionar el Documento de Kárdex, dar clic al  botón `<a class="btn">`Congelar Documento `</a>`, el sistema muestra un mensaje de alerta indicado al usuario de si está seguro de continuar con el proceso, ya que la operación no tiene reversa, para finalizar dar clic en el botón `<a class="btn">`Aceptar `</a>`.
 
 # Ventana Submenú de Kárdex de Almacén
 
@@ -344,7 +344,7 @@ Al ejecutar esta transacción, se abrirá una ventana la cual se muestra a conti
 
 ![detalle de documentos kardex](../../assets/images/cap06/chp06_img24.png)
 
-Al darle clic en el botón `<a class="btn">`Exportar`</a>`., se generará un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso, el objetivo de esta exportación es llevar toda la información de los Documentos de Kárdex contenidos en el visor a un archivo plano, para luego ser analizados.
+Al darle clic en el botón `<a class="btn">`Exportar `</a>`., se generará un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso, el objetivo de esta exportación es llevar toda la información de los Documentos de Kárdex contenidos en el visor a un archivo plano, para luego ser analizados.
 
 Adicionalmente, es posible exportar todos los campos de la ventana Detalle de los Documentos de Kárdex, para esto se da clic en el cuadro llamado ** “Exportar todas las Columnas”**. También, es posible exportar uno o varios campos de la ventana Detalle de los Documentos de Kárdex, para esto se da clic en cada uno de los cuadros que acompañan los campos.
 
@@ -366,4 +366,4 @@ Los  anteriores  reportes  pueden  ser  seleccionados  para  uno  o  varios   Do
 
 **Subtítulo:** En este campo es posible registrar un poco menos de una línea de información, tipo documentación del Reporte, para que se imprima bajo el área de títulos estándar.
 
-Para visualizar los reportes, se selecciona el reporte y luego se da clic al botón `<a class="btn">`Imprimir`</a>`.
+Para visualizar los reportes, se selecciona el reporte y luego se da clic al botón `<a class="btn">`Imprimir `</a>`.

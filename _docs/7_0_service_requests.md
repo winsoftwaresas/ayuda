@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Service Requests
+title: ◼ Service Requests
 order: 07_00
 ---
 # Solicitudes de Servicio
@@ -31,7 +31,7 @@ A  manera de recomendación, para el área de Servicios encargada de recibir y  
 
 Crear  una  Solicitud  de  Servicio  exige  en  primera  instancia,  que  el  usuario  tenga  la autorización  en  el  sistema  para  poder  hacerlo. Son  potenciales  generadores   de Solicitudes de Servicio: los usuarios de los servicios de mantenimiento a todo lo ancho de la  Organización,  el  personal  de  producción,  el  personal  de  servicios,  el  personal administrativo y el personal de mantenimiento.
 
-La creación de una SS se realiza a través de la Ventana Detalle, en la ventana principal de Solicitudes de Servicio. En cuanto se da un clic sobre el  botón `<a class="btn">`Nuevo`</a>` esta  ventana adopta  la  forma  que  se  muestra  a  continuación. Al  crear  una  SS,  ella  asume automáticamente el estado inicial: ** “En Análisis”.**  A partir del momento en que se ** “Inserta”** la SS, el solicitante no puede modificar ningún campo, pero si puede  hacer seguimiento permanente sobre ella.
+La creación de una SS se realiza a través de la Ventana Detalle, en la ventana principal de Solicitudes de Servicio. En cuanto se da un clic sobre el  botón `<a class="btn">`Nuevo `</a>` esta  ventana adopta  la  forma  que  se  muestra  a  continuación. Al  crear  una  SS,  ella  asume automáticamente el estado inicial: ** “En Análisis”.**  A partir del momento en que se ** “Inserta”** la SS, el solicitante no puede modificar ningún campo, pero si puede  hacer seguimiento permanente sobre ella.
 
 ![ programa de mantenimiento](../../assets/images/cap09/chp09_img01.png)
 
@@ -123,7 +123,7 @@ Una vez se ha determinado cual es la clave que se va a utilizar para buscar el E
 
 La primera consiste en teclear el valor correspondiente a la clave del Equipo, seguido de la tecla  ** “TAB”**. Como  resultado,  se  muestran la  descripción, el  Centro  de  Costo  y  la Ubicación Física del Equipo seleccionado.
 
-La segunda consiste en que se busca el equipo u Objeto de la Solicitud, a través del visor de Equipos. Para ello se da un clic sobre el botón de Visor de Equipos **(Binóculos sobre papel amarillo)**. Acto seguido se muestra la ventana de visor de Equipos junto con la de subgrupo para poder ubicarlo. Una vez se encuentra el  Equipo en la Tabla de visor de Equipos,  se selecciona dando un clic sobre cualquiera de sus campos. A continuación se da un clic sobre botón `<a class="btn">`Aceptar`</a>` de esa ventana  o se hace doble clic sobre el registro seleccionado. Inmediatamente ese código es trasladado hasta el tercer campo de la línea Equipo en la ventana de Solicitudes de Servicio, junto con sus datos complementarios.
+La segunda consiste en que se busca el equipo u Objeto de la Solicitud, a través del visor de Equipos. Para ello se da un clic sobre el botón de Visor de Equipos **(Binóculos sobre papel amarillo)**. Acto seguido se muestra la ventana de visor de Equipos junto con la de subgrupo para poder ubicarlo. Una vez se encuentra el  Equipo en la Tabla de visor de Equipos,  se selecciona dando un clic sobre cualquiera de sus campos. A continuación se da un clic sobre botón `<a class="btn">`Aceptar `</a>` de esa ventana  o se hace doble clic sobre el registro seleccionado. Inmediatamente ese código es trasladado hasta el tercer campo de la línea Equipo en la ventana de Solicitudes de Servicio, junto con sus datos complementarios.
 
 Cuando  el  Equipo  o  el  Activo,  Objeto  de  la  Solicitud  de  Servicio  no  pueden   ser identificados a través de las claves disponibles, posiblemente porque no está registrado en la tabla de Equipos del Sistema, se desmarca el primer campo de la  línea de Equipo posibilitando identificar el Equipo en lenguaje natural.
 
@@ -182,7 +182,7 @@ Los campos ** “T. Trabajo, T. Mtto y T. Actividad”,** se parametrizan de for
 
 **Ver  datos:** Aquí se define  cual opción se va a analizar. Las opciones son Responsable Interno u Oficio.
 
-Si se activa la opción ** “Responsable Interno”**, el botón inferior `<a class="btn">`Seleccionar Responsable Interno`</a>`  se encarga de mostrar el listado de  las  personas definidas como Responsables en el AM. Si se activa la  opción ** “Oficio”**, el botón inferior `<a class="btn">`Seleccionar Oficio`</a>` e encarga de  mostrar el listado de los oficios o cargos técnicos especializados ya definidos en el módulo Oficios de Infraestructura.   La   carga   de   trabajo   tiene   en   cuenta   la   información diligenciada en la ** “Mano de Obra”** del Gasto Real de la Orden de Trabajo.
+Si se activa la opción ** “Responsable Interno”**, el botón inferior `<a class="btn">`Seleccionar Responsable Interno `</a>`  se encarga de mostrar el listado de  las  personas definidas como Responsables en el AM. Si se activa la  opción ** “Oficio”**, el botón inferior `<a class="btn">`Seleccionar Oficio `</a>` e encarga de  mostrar el listado de los oficios o cargos técnicos especializados ya definidos en el módulo Oficios de Infraestructura.   La   carga   de   trabajo   tiene   en   cuenta   la   información diligenciada en la ** “Mano de Obra”** del Gasto Real de la Orden de Trabajo.
 
 **Fecha:** Se define una de las tres opciones disponibles para el análisis.
 
@@ -331,7 +331,7 @@ El objetivo de esta transacción es desplazar hacia el módulo de Historia de Ma
 
 ![Ventana Principal de Solicitudes de Servicio](../../assets/images/cap09/chp09_img13.png)
 
-En la ventana aparece un botón `<a class="btn">`Enviar`</a>` y tres casillas de selección. Estas casillas  de selección parametriza los registros que se desean enviar a Historia.
+En la ventana aparece un botón `<a class="btn">`Enviar `</a>` y tres casillas de selección. Estas casillas  de selección parametriza los registros que se desean enviar a Historia.
 
 **Todos los registros:** Con esta opción se realiza el envío de todas las Solicitudes  de
 Servicio existentes en la base de datos, sin importar cualquier subgrupo activo.
@@ -340,7 +340,7 @@ Servicio existentes en la base de datos, sin importar cualquier subgrupo activo.
 
 **Registro seleccionado:** Esta opción realiza el envío de la Solicitud de Servicio que está resaltada en el visor (tiene la línea verde del cursor sobre sí).
 
-Para enviar a Historia, se selecciona una de las opciones y se hace clic en el  botón`<a class="btn">`Enviar`</a>`, entonces aparece la siguiente ventana:
+Para enviar a Historia, se selecciona una de las opciones y se hace clic en el  botón `<a class="btn">`Enviar `</a>`, entonces aparece la siguiente ventana:
 
 ![Ventana Principal de Solicitudes de Servicio](../../assets/images/cap09/chp09_img14.png)
 
@@ -362,7 +362,7 @@ Se da clic a la opción Reclasificar en la etiqueta Transacciones y aparece la  
 
 Se puede reclasificar una Solicitud de Servicio específica o varias Solicitudes de Servicio en el visor y en estado ** “En Análisis”.**
 
-Para definir a que compañía se va a reclasificar la Solicitud de Servicio o las Solicitudes de Servicio, se escoge la  compañía utilizando la lista desplegable del campo  “Compañía Destino” el cual lista las compañías activas. Luego se da clic al botón `<a class="btn">`Enviar`</a>`, y este se encarga de transferir las Solicitudes de Servicio a su destino seleccionado. Es posible reclasificar solamente una Solicitud de Servicio seleccionada o reclasificar todas las Solicitudes de Servicio del visor, esto de acuerdo al botón `<a class="btn">`seleccionado`</a>`.
+Para definir a que compañía se va a reclasificar la Solicitud de Servicio o las Solicitudes de Servicio, se escoge la  compañía utilizando la lista desplegable del campo  “Compañía Destino” el cual lista las compañías activas. Luego se da clic al botón `<a class="btn">`Enviar `</a>`, y este se encarga de transferir las Solicitudes de Servicio a su destino seleccionado. Es posible reclasificar solamente una Solicitud de Servicio seleccionada o reclasificar todas las Solicitudes de Servicio del visor, esto de acuerdo al botón `<a class="btn">`seleccionado `</a>`.
 
 ## Modificar Masivamente
 

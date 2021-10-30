@@ -1,10 +1,9 @@
 ---
 layout: page
-title: Trabajando con AM
+title: ◼ Trabajando con AM
 published: true
 order: 01_00
 ---
-
 ## ¿Qué es **AM**?
 
 Este primer capítulo contiene información básica para la comprensión y el uso del **AM**. Se plantea una visión general sobre la interfaz del usuario y sobre los elementos que aparecen en pantalla a manera de convenciones generales.
@@ -23,14 +22,14 @@ Al analizar la ventana principal se aprecia cómo el sistema está conformado po
 
 Función que administra el grupo de datos básicos, parametrizables, de mantenimiento de la empresa:
 
-| | | | | |
-|-|-|-|-|-|
-| Centros de Costo           | Centros Responsables | Oficios          | Terceros                 | Responsables           |
-| Ubicaciones Físicas        | Contratos            | Tipos de Trabajo | Tipos de Mantenimiento   | Tipos de Actividad     |
-| Almacenes                  | Unidades de Medida   | Monedas          | Contadores               | Características        |
-| Características Biomédicas | Riesgos              | Magnitudes       | Otros Conceptos de Costo | Causas de OT Pendiente |
-| Causas de Cierre de OT     | Acciones Técnicas    | Causas de Falla  | Efectos de Falla         | Conceptos de Kárdex    |
-| Operaciones                | Referencias          | Tipos de Régimen | Estados                  |                        |
+|                              |                      |                   |                          |                        |
+| ---------------------------- | -------------------- | ----------------- | ------------------------ | ---------------------- |
+| Centros de Costo             | Centros Responsables | Oficios           | Terceros                 | Responsables           |
+| Ubicaciones Físicas         | Contratos            | Tipos de Trabajo  | Tipos de Mantenimiento   | Tipos de Actividad     |
+| Almacenes                    | Unidades de Medida   | Monedas           | Contadores               | Características       |
+| Características Biomédicas | Riesgos              | Magnitudes        | Otros Conceptos de Costo | Causas de OT Pendiente |
+| Causas de Cierre de OT       | Acciones Técnicas   | Causas de Falla   | Efectos de Falla         | Conceptos de Kárdex   |
+| Operaciones                  | Referencias          | Tipos de Régimen | Estados                  |                        |
 
 Un grupo de estas tablas, se encuentra preconfigurado y puede ajustarse según las necesidades y requerimientos de la empresa. Las restantes describen en detalle la cultura técnica organizacional de mantenimiento.
 
@@ -115,7 +114,6 @@ El submenú tiene un conjunto de transacciones que se usan para ejecutar funcion
 ![Procesar imagen](../../assets/images/cap01/chp01_img05.png)
 _**Imagen 5.** Submenú **AM**_
 
-
 #### Ventana Visor
 
 ![Procesar imagen](../../assets/images/cap01/chp01_img07.png)
@@ -148,12 +146,12 @@ Es la porción de la pantalla en la que se muestran los datos detallados del reg
 
 Además de la información detallada de un registro, contiene un grupo de botones estándar para la mayoría de las ventanas Detalle que siempre están en la parte superior izquierda de la ventana.
 
-|Botón | Descripción |
-|:--|:--|
-| [Nuevo](#0){: .btn.blue} | Prepara la ventana Detalle para el ingreso de un nuevo registro, blanqueando cada uno de los campos que son objeto de llenado. Al activarlo el sistema reemplaza la línea de 4 botones por una nueva de 2 botones: [Insertar](#0){: .btn.blue} que se usa para ingresar el nuevo registro a la base de datos actualizando la ventana Visor, mientras que el botón [Cancelar](#0){: .btn.blue} aborta el proceso de creación del nuevo registro retornando a la ventana Detalle.|
-| [Copiar](#0){: .btn.blue} | Toma una copia instantánea del registro actual, señalado por el cursor en la ventana Visor, y la deja disponible en la ventana Detalle para que sobre ella se hagan las modificaciones necesarias para crear un nuevo registro. Tales modificaciones involucran en la mayoría de los casos aquellos campos clave del registro y otros propios que deben ser particularizados para el nuevo. Al activar este botón el sistema reemplaza la línea de 4 botones por una nueva de 2 botones:  [Insertar](#0){: .btn.blue} que se usa para ingresar el nuevo registro a la base de datos actualizando la ventana Visor, mientras que el botón [Cancelar](#0){: .btn.blue} aborta el proceso de creación del nuevo registro retornando a la ventana Detalle.|
-| [Actualizar](#0){: .btn.blue} | Sirve para guardar o salvar en la base de datos la información que se ha modificado en la ventana Detalle, correspondiente al registro señalado por el cursor en la ventana Visor y registrar allí simultáneamente el mismo cambio. |
-| [Eliminar](#0){: .btn.blue} | Se utiliza para borrar un registro de la base de datos y registrar simultáneamente el cambio en la ventana Visor. |
+| Botón                     | Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| :------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Nuevo](#0){: .btn.blue}      | Prepara la ventana Detalle para el ingreso de un nuevo registro, blanqueando cada uno de los campos que son objeto de llenado. Al activarlo el sistema reemplaza la línea de 4 botones por una nueva de 2 botones:[Insertar](#0){: .btn.blue} que se usa para ingresar el nuevo registro a la base de datos actualizando la ventana Visor, mientras que el botón [Cancelar](#0){: .btn.blue} aborta el proceso de creación del nuevo registro retornando a la ventana Detalle.                                                                                                                                                                                                                                                                           |
+| [Copiar](#0){: .btn.blue}     | Toma una copia instantánea del registro actual, señalado por el cursor en la ventana Visor, y la deja disponible en la ventana Detalle para que sobre ella se hagan las modificaciones necesarias para crear un nuevo registro. Tales modificaciones involucran en la mayoría de los casos aquellos campos clave del registro y otros propios que deben ser particularizados para el nuevo. Al activar este botón el sistema reemplaza la línea de 4 botones por una nueva de 2 botones:[Insertar](#0){: .btn.blue} que se usa para ingresar el nuevo registro a la base de datos actualizando la ventana Visor, mientras que el botón [Cancelar](#0){: .btn.blue} aborta el proceso de creación del nuevo registro retornando a la ventana Detalle. |
+| [Actualizar](#0){: .btn.blue} | Sirve para guardar o salvar en la base de datos la información que se ha modificado en la ventana Detalle, correspondiente al registro señalado por el cursor en la ventana Visor y registrar allí simultáneamente el mismo cambio.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| [Eliminar](#0){: .btn.blue}   | Se utiliza para borrar un registro de la base de datos y registrar simultáneamente el cambio en la ventana Visor.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 
 En la parte superior izquierda de esta ventana se observa la identificación actual de la ventana Detalle del módulo en pantalla que corresponde a la opción del menú seleccionada, adicional, el cuadro de chequeo (checkbox) que está ubicado al lado derecho de esta sección,permite habilitarlo para que al finalizar una transacción de inserción, actualización o eliminación, la ventana Detalle permanezca en esta vista.
 
@@ -193,7 +191,7 @@ Esta ventana presenta las opciones de impresión de reportes escritos relacionad
 
 **Subtítulo:** Este campo permite registrar un poco menos de una línea de información, tipo documentación del Reporte, para que se imprima bajo el área de título estándar.
 
-Después de seleccionar el tipo de registro se procede a seleccionar el reporte que se desea imprimir; para esto se debe pulsar el botón [Imprimir](#0){: .btn.white}. De esta manera se abre una ventana visor para formatos PDF, que muestra el reporte seleccionado. De esta misma ventana es posible guardarlo y descargarlo. 
+Después de seleccionar el tipo de registro se procede a seleccionar el reporte que se desea imprimir; para esto se debe pulsar el botón [Imprimir](#0){: .btn.white}. De esta manera se abre una ventana visor para formatos PDF, que muestra el reporte seleccionado. De esta misma ventana es posible guardarlo y descargarlo.
 
 ![Procesar imagen](../../assets/images/cap01/chp01_img11.png)
 _**Imagen 10.** Ventana Reporte Impresa_
@@ -204,55 +202,55 @@ Al dar clic al botón [Exportar](#0){: .btn.white} permite exportar el Reporte s
 
 #### Los Botones
 
-| Botón | Descripción |
-| :-- | :-- |
-| [Aceptar](#0){: .btn.gray} | Con este botón se salva o graba el registro de datos que se acaba de Ingresar. |
-| [Cancelar](#0){: .btn.gray} | Con este botón se cancela cualquier transacción que se esté realizando. |
-| [Actualizar](#0){: .btn.blue} | Con este botón se salva el registro de datos que se acaba de modificar. |
-| [Copiar](#0){: .btn.blue} | Con este botón se copian los datos del registro activo en pantalla, dejando el nuevo registro listo para ser modificado e insertado. |
-| [Nuevo](#0){: .btn.blue} | Este botón inicializa todos los campos para proceder a ingresar un nuevo registro en cualquier módulo de la Base de Datos. |
-| [Insertar](#0){: .btn.blue} | Almacena los datos del registro que se acaba de copiar o de crear. |
-| [Eliminar](#0){: .btn.blue} | Borra el registro que se encuentra activo en pantalla, siempre y cuando no tenga vínculos y/o asociaciones. Normalmente aparece un mensaje para confirmar la eliminación. |
-| [Aprobar Presupuesto](#0){: .btn.gray} | Este botón se encuentra en el módulo de OT mientras no se haya aprobado el presupuesto de una OT que exige presupuesto. Permite aprobar el presupuesto que ha sido asignado a una OT. Una vez aprobado, es posible iniciar el registro manual del Gasto Real. |
-| [Mano Obra Interna](#0){: .btn.gray} | Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ver el detalle de la Mano de Obra Interna presupuestada o usada, respectivamente. |
-| [Mano Obra Externa](#0){: .btn.gray} | Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ver el detalle de la Mano de Obra Externa presupuestada o usada, respectivamente. |
-| [Mat y Rep](#0){: .btn.gray} | Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ver el detalle de los Materiales y Repuestos. |
-| [O. Conceptos](#0){: .btn.gray} | Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ver el detalle de los Otros Conceptos de Costos. |
-| [Ir a Matriz](#0){: .btn.gray} | Este botón regresa a la vista de matriz de Presupuesto o gasto real en HI, OT y PM, después de visualizar, ingresar o modificar información detallada de algún concepto de costo. |
-| [Adicionar Mano Obra Interna](#0){: .btn.gray} | Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ingresar el detalle de la Mano de Obra Interna presupuestada o usada, respectivamente. |
-| [Adicionar Mano Obra Externa](#0){: .btn.gray} | Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ingresar el detalle de la Mano de Obra Externa presupuestada o usada, respectivamente. |
-| [Adicionar Material de repuesto](#0){: .btn.gray} | Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ingresar el detalle de los Materiales y Repuestos. |
-| [Adicionar Otro Concepto](#0){: .btn.gray} | Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ingresar el detalle de los Otros Conceptos de Costos. |
-| [Asociar](#0){: .btn.gray} | Botón utilizado para registrar la relación entre Activos y sus Repuestos. |
-| [Desasociar](#0){: .btn.gray} | En Almacén de Repuestos RP, permite desasociar uno o varios Activos a uno o varios de sus Repuestos asociados. |
-| <span class="mdi mdi-plus-circle icon white"></span> | **Agregar**<br />Este botón permite adicionar información al registro actual. |
-| [Cerrar](#0){: .btn.white} | Con este botón se cierra la ventana de generación de reportes y regresa a la ventana en proceso. |
-| [Exportar](#0){: .btn.white} | Este botón permite Exportar los datos qué se encuentran en el visor, a un formato de Excel. |
-| [Imprimir](#0){: .btn.white} | Este botón genera el reporte seleccionado en una nueva ventana. Refiérase a _Servicios » Reportes_ en la ventana submenú de cada módulo del sistema. |
-| [Iniciar Sesión](#0){: .btn.blue} | Este botón valida el usuario y la contraseña, necesarios para ingresar a **AM**. |
-| [Enviar a Historia](#0){: .btn.gray} | Este botón ejecuta el envío de registros de Solicitudes de Servicio, Órdenes de Trabajo Y Paros/Averías cerradas y/o canceladas, hasta el módulo de Historia de Mantenimiento. |
-| [Proyectar](#0){: .btn.white} | Inicia el proceso de proyección en PM, con el objetivo de planear y/o presupuestar un periodo de largo plazo, a partir de los PM activos. |
-| [Generar](#0){: .btn.gray} | Este botón convierte en OT reales, aquellas OS que fueron resultado del proceso de Analizar que se acaba de ejecutar, en el módulo de OT. |
-| [Modificar FIP](#0){: .btn.gray} | En Programas de Mantenimiento, actualiza el valor de la Fecha de Inicio de Período. |
-| <span class="mdi mdi-filter-variant icon white"></span> | **Buscar**<br />Abre una nueva ventana compuesta (Ventana Visor y Ventana Subgrupo) para realizar una selección que facilite la búsqueda de un registro. |
-| <span class="mdi mdi-plus-circle icon white"></span> | **Más**<br />Este botón permite hacer unión de selecciones dentro de una opción de subgrupo en una Ventana Visor. Es útil cuando se necesita visualizar conjuntamente dos o más subgrupos.|
-| <span class="mdi mdi-minus-circle icon white"></span> | **Menos**<br />Este botón permite hacer substracción de un subconjunto desde una selección previa, de subgrupo en una Ventana Visor. |
-| <span class="mdi mdi-notification-clear-all icon white"></span> | **Valores Por Defecto**<br />Este botón desmarca todos los criterios de selección en un subgrupo para iniciar la conformación de otro subgrupo con un nuevo conjunto de criterios o filtros. |
-| <span class="mdi mdi-check-circle icon white"></span> | **Aceptar**<br />Con este botón se realiza el subgrupo o filtro de acuerdo a los criterios de selección. |
-| [Todos Adicionan](#0){: .btn.gray} | Activa la función de sumar los nuevos valores a los anteriores en el proceso de actualizar contadores de AC. |
-| [Todos Reemplazan](#0){: .btn.gray} | Activa la función de reemplazar los valores anteriores por los nuevos, en el proceso de actualizar contadores de AC.<br /> |
-| <span class="mdi mdi-cloud-upload icon white"></span> | **Cargar**<br />Con este botón se realiza la búsqueda de un anexo, documento, imagen, video, entre otros; que será cargado en la pestaña de Multimedia disponible en varios módulos. |
-| [Subir Archivo](#0){: .btn.white} | Con este botón se realiza la carga de un anexo, documento, imagen, video, entre otros; en las opciones de Multimedia disponible en varios módulos. |
-| [Ver Diagrama](#0){: .btn.gray} | Con este botón se visualiza en un Diagrama de Gantt, la proyección de los PM activos en el módulo de PM o el listado de las OT analizadas en el módulo de OT. |
-| [Ver Reportes](#0){: .btn.gray} | Con este botón se visualiza el listado de los Reportes disponibles en PM y OT, como resultado de los procesos de proyección o analizar, respectivamente. |
-| [Ver RP Asociados](#0){: .btn.gray} | Con este botón se visualiza la asociación de uno o varios Repuestos a un Activo, en el módulo de Almacén de Repuestos. |
-| [Ver AC Asociados](#0){: .btn.gray} | Con este botón se visualiza la asociación de uno o varios Activos a un Repuesto, en el módulo de Almacén de Repuestos. |
-| <span class="mdi mdi-arrow-left-right icon gray"></span> | **Navegador**<br /> Con este botón se puede navegar avanzando y retrocediendo páginas completas de registros. |
-| <span class="mdi mdi-magnify icon gray"></span> | **Ir A**<br />Con este botón se puede buscar un Activo digitando exactamente el código del AC, el código del Repuesto, el consecutivo de una SS o el consecutivo de una OT según el módulo.  |
-| <span class="mdi mdi-autorenew icon gray"></span> | **Cambiar a TreeGrid**<br />Con este botón se pueden visualizar los Activos que están en el módulo o en un subgrupo en una vista de árbol, en la que se parte de las Ubicaciones Físicas, y luego se ven los Activos pertenecientes a esa Ubicación Física y su Despiece. |
-| <span class="mdi mdi-download icon gray"></span> | **Descargar**<br />Con este botón se puede descargar cualquier campo del módulo seleccionado a Excel. |
-| <span class="mdi mdi-printer icon gray"></span> | **Generador de Reportes**<br />Con este botón se permite ingresar al listado de Reportes disponibles en el módulo seleccionado. |
-| <span class="mdi mdi-message-alert icon gray"></span> | **Indicadores**<br />Con este botón se muestra el significado de los colores mostrados en la columna de Indicadores de los módulos de IF, AC, Almacén de Repuestos, PM, SS, PA, OT e HI. |
+| Botón                                                       | Descripción                                                                                                                                                                                                                                                                           |
+| :----------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Aceptar](#0){: .btn.gray}                                      | Con este botón se salva o graba el registro de datos que se acaba de Ingresar.                                                                                                                                                                                                        |
+| [Cancelar](#0){: .btn.gray}                                     | Con este botón se cancela cualquier transacción que se esté realizando.                                                                                                                                                                                                             |
+| [Actualizar](#0){: .btn.blue}                                   | Con este botón se salva el registro de datos que se acaba de modificar.                                                                                                                                                                                                               |
+| [Copiar](#0){: .btn.blue}                                       | Con este botón se copian los datos del registro activo en pantalla, dejando el nuevo registro listo para ser modificado e insertado.                                                                                                                                                  |
+| [Nuevo](#0){: .btn.blue}                                        | Este botón inicializa todos los campos para proceder a ingresar un nuevo registro en cualquier módulo de la Base de Datos.                                                                                                                                                           |
+| [Insertar](#0){: .btn.blue}                                     | Almacena los datos del registro que se acaba de copiar o de crear.                                                                                                                                                                                                                     |
+| [Eliminar](#0){: .btn.blue}                                     | Borra el registro que se encuentra activo en pantalla, siempre y cuando no tenga vínculos y/o asociaciones. Normalmente aparece un mensaje para confirmar la eliminación.                                                                                                            |
+| [Aprobar Presupuesto](#0){: .btn.gray}                          | Este botón se encuentra en el módulo de OT mientras no se haya aprobado el presupuesto de una OT que exige presupuesto. Permite aprobar el presupuesto que ha sido asignado a una OT. Una vez aprobado, es posible iniciar el registro manual del Gasto Real.                        |
+| [Mano Obra Interna](#0){: .btn.gray}                            | Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ver el detalle de la Mano de Obra Interna presupuestada o usada, respectivamente.                                                                                                   |
+| [Mano Obra Externa](#0){: .btn.gray}                            | Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ver el detalle de la Mano de Obra Externa presupuestada o usada, respectivamente.                                                                                                   |
+| [Mat y Rep](#0){: .btn.gray}                                    | Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ver el detalle de los Materiales y Repuestos.                                                                                                                                       |
+| [O. Conceptos](#0){: .btn.gray}                                 | Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ver el detalle de los Otros Conceptos de Costos.                                                                                                                                    |
+| [Ir a Matriz](#0){: .btn.gray}                                  | Este botón regresa a la vista de matriz de Presupuesto o gasto real en HI, OT y PM, después de visualizar, ingresar o modificar información detallada de algún concepto de costo.                                                                                                  |
+| [Adicionar Mano Obra Interna](#0){: .btn.gray}                  | Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ingresar el detalle de la Mano de Obra Interna presupuestada o usada, respectivamente.                                                                                              |
+| [Adicionar Mano Obra Externa](#0){: .btn.gray}                  | Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ingresar el detalle de la Mano de Obra Externa presupuestada o usada, respectivamente.                                                                                              |
+| [Adicionar Material de repuesto](#0){: .btn.gray}               | Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ingresar el detalle de los Materiales y Repuestos.                                                                                                                                  |
+| [Adicionar Otro Concepto](#0){: .btn.gray}                      | Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ingresar el detalle de los Otros Conceptos de Costos.                                                                                                                               |
+| [Asociar](#0){: .btn.gray}                                      | Botón utilizado para registrar la relación entre Activos y sus Repuestos.                                                                                                                                                                                                            |
+| [Desasociar](#0){: .btn.gray}                                   | En Almacén de Repuestos RP, permite desasociar uno o varios Activos a uno o varios de sus Repuestos asociados.                                                                                                                                                                        |
+| `<span class="mdi mdi-plus-circle icon white">`            | **Agregar**<br />Este botón permite adicionar información al registro actual.                                                                                                                                                                                                  |
+| [Cerrar](#0){: .btn.white}                                      | Con este botón se cierra la ventana de generación de reportes y regresa a la ventana en proceso.                                                                                                                                                                                     |
+| [Exportar](#0){: .btn.white}                                    | Este botón permite Exportar los datos qué se encuentran en el visor, a un formato de Excel.                                                                                                                                                                                          |
+| [Imprimir](#0){: .btn.white}                                    | Este botón genera el reporte seleccionado en una nueva ventana. Refiérase a_Servicios » Reportes_ en la ventana submenú de cada módulo del sistema.                                                                                                                             |
+| [Iniciar Sesión](#0){: .btn.blue}                              | Este botón valida el usuario y la contraseña, necesarios para ingresar a**AM**.                                                                                                                                                                                                |
+| [Enviar a Historia](#0){: .btn.gray}                            | Este botón ejecuta el envío de registros de Solicitudes de Servicio, Órdenes de Trabajo Y Paros/Averías cerradas y/o canceladas, hasta el módulo de Historia de Mantenimiento.                                                                                                    |
+| [Proyectar](#0){: .btn.white}                                   | Inicia el proceso de proyección en PM, con el objetivo de planear y/o presupuestar un periodo de largo plazo, a partir de los PM activos.                                                                                                                                             |
+| [Generar](#0){: .btn.gray}                                      | Este botón convierte en OT reales, aquellas OS que fueron resultado del proceso de Analizar que se acaba de ejecutar, en el módulo de OT.                                                                                                                                            |
+| [Modificar FIP](#0){: .btn.gray}                                | En Programas de Mantenimiento, actualiza el valor de la Fecha de Inicio de Período.                                                                                                                                                                                                   |
+| `<span class="mdi mdi-filter-variant icon white">`         | **Buscar**<br />Abre una nueva ventana compuesta (Ventana Visor y Ventana Subgrupo) para realizar una selección que facilite la búsqueda de un registro.                                                                                                                       |
+| `<span class="mdi mdi-plus-circle icon white">`            | **Más**<br />Este botón permite hacer unión de selecciones dentro de una opción de subgrupo en una Ventana Visor. Es útil cuando se necesita visualizar conjuntamente dos o más subgrupos.                                                                                 |
+| `<span class="mdi mdi-minus-circle icon white">`           | **Menos**<br />Este botón permite hacer substracción de un subconjunto desde una selección previa, de subgrupo en una Ventana Visor.                                                                                                                                          |
+| `<span class="mdi mdi-notification-clear-all icon white">` | **Valores Por Defecto**<br />Este botón desmarca todos los criterios de selección en un subgrupo para iniciar la conformación de otro subgrupo con un nuevo conjunto de criterios o filtros.                                                                                  |
+| `<span class="mdi mdi-check-circle icon white">`           | **Aceptar**<br />Con este botón se realiza el subgrupo o filtro de acuerdo a los criterios de selección.                                                                                                                                                                       |
+| [Todos Adicionan](#0){: .btn.gray}                              | Activa la función de sumar los nuevos valores a los anteriores en el proceso de actualizar contadores de AC.                                                                                                                                                                          |
+| [Todos Reemplazan](#0){: .btn.gray}                             | Activa la función de reemplazar los valores anteriores por los nuevos, en el proceso de actualizar contadores de AC.                                                                                                                                                                  |
+| `<span class="mdi mdi-cloud-upload icon white">`           | **Cargar**<br />Con este botón se realiza la búsqueda de un anexo, documento, imagen, video, entre otros; que será cargado en la pestaña de Multimedia disponible en varios módulos.                                                                                        |
+| [Subir Archivo](#0){: .btn.white}                               | Con este botón se realiza la carga de un anexo, documento, imagen, video, entre otros; en las opciones de Multimedia disponible en varios módulos.                                                                                                                                   |
+| [Ver Diagrama](#0){: .btn.gray}                                 | Con este botón se visualiza en un Diagrama de Gantt, la proyección de los PM activos en el módulo de PM o el listado de las OT analizadas en el módulo de OT.                                                                                                                      |
+| [Ver Reportes](#0){: .btn.gray}                                 | Con este botón se visualiza el listado de los Reportes disponibles en PM y OT, como resultado de los procesos de proyección o analizar, respectivamente.                                                                                                                             |
+| [Ver RP Asociados](#0){: .btn.gray}                             | Con este botón se visualiza la asociación de uno o varios Repuestos a un Activo, en el módulo de Almacén de Repuestos.                                                                                                                                                             |
+| [Ver AC Asociados](#0){: .btn.gray}                             | Con este botón se visualiza la asociación de uno o varios Activos a un Repuesto, en el módulo de Almacén de Repuestos.                                                                                                                                                             |
+| `<span class="mdi mdi-arrow-left-right icon gray">`        | **Navegador**<br /> Con este botón se puede navegar avanzando y retrocediendo páginas completas de registros.                                                                                                                                                                  |
+| `<span class="mdi mdi-magnify icon gray">`                 | **Ir A**<br />Con este botón se puede buscar un Activo digitando exactamente el código del AC, el código del Repuesto, el consecutivo de una SS o el consecutivo de una OT según el módulo.                                                                                 |
+| `<span class="mdi mdi-autorenew icon gray">`               | **Cambiar a TreeGrid**<br />Con este botón se pueden visualizar los Activos que están en el módulo o en un subgrupo en una vista de árbol, en la que se parte de las Ubicaciones Físicas, y luego se ven los Activos pertenecientes a esa Ubicación Física y su Despiece. |
+| `<span class="mdi mdi-download icon gray">`                | **Descargar**<br />Con este botón se puede descargar cualquier campo del módulo seleccionado a Excel.                                                                                                                                                                          |
+| `<span class="mdi mdi-printer icon gray">`                 | **Generador de Reportes**<br />Con este botón se permite ingresar al listado de Reportes disponibles en el módulo seleccionado.                                                                                                                                                |
+| `<span class="mdi mdi-message-alert icon gray">`           | **Indicadores**<br />Con este botón se muestra el significado de los colores mostrados en la columna de Indicadores de los módulos de IF, AC, Almacén de Repuestos, PM, SS, PA, OT e HI.                                                                                      |
 
 ## Iniciar la ejecución de **AM**
 
@@ -317,19 +315,12 @@ Estos procedimientos permiten implementar el programa, organizando la estructura
 La guía general para la implementación exitosa del programa **AM** Administrador de Mantenimiento incluye la realización de los siguientes pasos en ese justo orden:
 
 - Definición de Compañía(s) y perfiles de Usuarios (en la versión **AM** ST solo es necesario la definición de los perfiles de Usuarios).
-
 - Definición de la Infraestructura.
-
 - Definición de Activos, Equipos u Objetos de Mantenimiento y su despiece.
-
 - Incorporación del inventario de Repuestos y Materiales.
-
 - Definición de los Programas de Mantenimiento.
-
 - Incorporación de Solicitudes de Servicio y Paros/Averías.
-
 - Uso rutinario de Órdenes de Trabajo (automáticas y manuales).
-
 - Gestión de Mantenimiento y compendio de Historia de Mantenimiento.
 
 > **Nota general:** Una vez ejecutada cada acción de mantenimiento la Orden de Trabajo correspondiente debe ser liquidada, cerrada y posteriormente enviada a Historia de Mantenimiento. Puesto que la generación automática y el ingreso manual de las Órdenes de Trabajo son voluminosos, se debe realizar con frecuencia el envío de tales registros a Historia de Mantenimiento para evitar que la gestión diaria se vea congestionada con actividades ya ejecutadas.
@@ -358,53 +349,50 @@ Corresponden a las siglas establecidas en **AM** para denominar los módulos o l
 
 #### Abreviación de Módulos:
 
-| MM | Descripción | MM | Descripción |
-| :-- | :-- | :-- | :-- |
-| **AA** | Auditoria | **KX** | Kárdex |
-| **AD** | Administración | **MO** | Monedas |
-| **AL** | Almacenes | **OC** | Otros Conceptos de Costo |
-| **AT** | Acciones técnicas | **OF** | Oficios |
-| **CA** | Características | **OP** | Operaciones |
-| **CC** | Centros de Costo | **OT** | Ordenes de Trabajo |
-| **CF** | Causas de Falla | **PA** | Paros y Averías |
-| **CI** | Causas de Cierre | **PD** | Pedidos |
-| **CM** | Combustibles | **PM** | Programas |
-| **CN** | Contratos | **PR** | Proyección |
-| **CO** | Contadores | **RE** | Responsables |
-| **CP** | Causas de OT Pendiente | **RF** | Referencias |
-| **CR** | Centros Responsables | **RP** | Repuestos |
-| **EF** | Efectos de Falla | **SS** | Solicitudes de Servicio |
-| **EQ** | Equipos | **TA** | Tipo de Actividad |
-| **ES** | Estados | **TE** | Terceros |
-| **HM** | Historia de Mantenimiento | **UF** | Ubicaciones Físicas |
-| **KC** | Conceptos de Kárdex | **UM** |  Unidades de Medida |
+| MM           | Descripción              | MM           | Descripción             |
+| :----------- | :------------------------ | :----------- | :----------------------- |
+| **AA** | Auditoria                 | **KX** | Kárdex                  |
+| **AD** | Administración           | **MO** | Monedas                  |
+| **AL** | Almacenes                 | **OC** | Otros Conceptos de Costo |
+| **AT** | Acciones técnicas        | **OF** | Oficios                  |
+| **CA** | Características          | **OP** | Operaciones              |
+| **CC** | Centros de Costo          | **OT** | Ordenes de Trabajo       |
+| **CF** | Causas de Falla           | **PA** | Paros y Averías         |
+| **CI** | Causas de Cierre          | **PD** | Pedidos                  |
+| **CM** | Combustibles              | **PM** | Programas                |
+| **CN** | Contratos                 | **PR** | Proyección              |
+| **CO** | Contadores                | **RE** | Responsables             |
+| **CP** | Causas de OT Pendiente    | **RF** | Referencias              |
+| **CR** | Centros Responsables      | **RP** | Repuestos                |
+| **EF** | Efectos de Falla          | **SS** | Solicitudes de Servicio  |
+| **EQ** | Equipos                   | **TA** | Tipo de Actividad        |
+| **ES** | Estados                   | **TE** | Terceros                 |
+| **HM** | Historia de Mantenimiento | **UF** | Ubicaciones Físicas     |
+| **KC** | Conceptos de Kárdex      | **UM** | Unidades de Medida       |
 
 ### Tipo de Reporte:
 
 Este indicador permite ver de forma ágil la naturaleza de cada reporte. A continuación, se presenta este listado
 
-| Tipo de reporte | Descripción |
-| --- | --- |
-| **R** | Resumen |
-| **P** | Parcial |
-| **D** | Detalle |
-| **X** | Para Exportar |
-| **E** | Especial |
-| **I** | índices e Indicadores |
-| **U** | Personalizado de Usuario |
-| **S** | Solicitud de Servicio en **HM** |
-| **T** | Paros y Averías en **HM** |
-| **G** | Gráfico |
+| Tipo de reporte | Descripción                         |
+| --------------- | ------------------------------------ |
+| **R**     | Resumen                              |
+| **P**     | Parcial                              |
+| **D**     | Detalle                              |
+| **X**     | Para Exportar                        |
+| **E**     | Especial                             |
+| **I**     | índices e Indicadores               |
+| **U**     | Personalizado de Usuario             |
+| **S**     | Solicitud de Servicio en**HM** |
+| **T**     | Paros y Averías en**HM**      |
+| **G**     | Gráfico                             |
 
 ## RECOMENDACIONES GENERALES
 
 A continuación, se describen algunas Recomendaciones Generales acerca del manejo funcional de **AM**.
 
 - En el módulo de Administración del Submenú Valores por Defectos (Programas) se establece el día que inicia la semana número 2 del año, se configura el criterio “Semanas del Año” en Programas de Mantenimiento. De esta manera, **AM** conoce qué día inician las de semanas para el año en curso.
-Para establecer este parámetro, debe tenerse a mano un calendario empresarial de semanas numerado, o en su defecto un calendario normal. Este proceso debe efectuarse al inicio de cada año. Dependiendo de la cultura de trabajo de cada empresa, las semanas pueden iniciar en diferentes días, por ejemplo, los lunes. Debe tenerse en cuenta este tipo de criterios a la hora de establecer dicho parámetro.
-
+  Para establecer este parámetro, debe tenerse a mano un calendario empresarial de semanas numerado, o en su defecto un calendario normal. Este proceso debe efectuarse al inicio de cada año. Dependiendo de la cultura de trabajo de cada empresa, las semanas pueden iniciar en diferentes días, por ejemplo, los lunes. Debe tenerse en cuenta este tipo de criterios a la hora de establecer dicho parámetro.
 - Verificar en las listas desplegables la función de “Autocompletar”, se debe realizar la selección de esta, tener presente que cuando se es agregada el sistema genera error.
-
 - Se debe evitar el uso de caracteres **(&, / y \#)** en los nombres de los archivos que se van a anexar en **TE, CN, AC, RP, OT, PM, SS, PA, HM.**
-
 - Se debe evitar el uso de **ñ, Ñ** o letras de carácter tipo vocal que emplean tildes en cualquier dato de la Base de Datos.

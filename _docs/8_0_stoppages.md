@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Stoppages - Failures, Damages and Breakdowns ( **FDA**)
+title: ◼ Stoppages - Failures, Damages and Breakdowns ( **FDA**)
 order: 08_00
 ---
 # Paros: Fallas, Daños y Averías ( **FDA**)
@@ -29,7 +29,7 @@ El módulo de Paros / Averías se caracteriza por tener dos caras o interfaces. 
 
 Crear un  **FDA** exige en primera instancia, que el usuario tenga la autorización en el sistema para poder hacerlo. Son potenciales generadores de  **FDA** los técnicos y supervisores de Producción y también los de Mantenimiento.
 
-La creación de un  **FDA** se realiza a través de la Ventana Detalle de  **FDA**, en la  ventana principal de Paros / Averías. En cuanto se da un clic sobre el botón `<a class="btn">`Nuevo`</a>`. esta ventana adopta la forma que se muestra a continuación. Al crear un  **FDA**, ella asume automáticamente el estado inicial: **“En Análisis”**.
+La creación de un  **FDA** se realiza a través de la Ventana Detalle de  **FDA**, en la  ventana principal de Paros / Averías. En cuanto se da un clic sobre el botón `<a class="btn">`Nuevo `</a>`. esta ventana adopta la forma que se muestra a continuación. Al crear un  **FDA**, ella asume automáticamente el estado inicial: **“En Análisis”**.
 
 La creación de un  **FDA** normalmente está en manos del personal de Producción. Si no existen los medios expeditos para que Producción reporte el  **FDA**, es natural que el reporte del  **FDA** se haga por  otro medio: teléfono, alertas de sonido o visuales o un reporte persona-persona. Entonces, se concluye, que el reporte del  **FDA** puede ser registrado antes o después de   la   ejecución  de   la actividad correctiva del mismo.  Si es previo,  será Producción  el  área  encargada  del  registro,  y  si  es  posterior,  será  mantenimiento el encargado. Aunque la primera prioridad es resolver la situación de Paro / Avería, el registro del  **FDA** debería hacerse muy cercano a su ocurrencia.
 
@@ -102,7 +102,7 @@ Infraestructura, que se estaba ejecutando en el momento en que se produjo el PA.
 
 **Elección de un Equipo/Activo**:
 
-Consiste en buscar el Equipo/Activo, a través del visor de Equipo/Activos. Para ello se da un clic sobre el icono de filtro de `<a class="btn">`Equipo/Activos`</a>` (icono de triángulo invertido).    Acto seguido se muestra la ventana de visor de Equipo/Activos junto con la de subgrupo para poder ubicarlo. Una vez se encuentra el Equipo/Activo en la Tabla de visor de Equipo/Activos, se selecciona dando un clic sobre cualquiera de sus campos. A continuación se da un clic sobre botón `<a class="btn">` Aceptar `</a>` de   esa   ventana   o   se   hace   doble   clic   sobre   el   registro   seleccionado. Inmediatamente ese código aparece en el primer campo de la línea de Equipo/Activo en la forma de registro de paros.
+Consiste en buscar el Equipo/Activo, a través del visor de Equipo/Activos. Para ello se da un clic sobre el icono de filtro de `<a class="btn">`Equipo/Activos `</a>` (icono de triángulo invertido).    Acto seguido se muestra la ventana de visor de Equipo/Activos junto con la de subgrupo para poder ubicarlo. Una vez se encuentra el Equipo/Activo en la Tabla de visor de Equipo/Activos, se selecciona dando un clic sobre cualquiera de sus campos. A continuación se da un clic sobre botón `<a class="btn">` Aceptar `</a>` de   esa   ventana   o   se   hace   doble   clic   sobre   el   registro   seleccionado. Inmediatamente ese código aparece en el primer campo de la línea de Equipo/Activo en la forma de registro de paros.
 
 **Descripción:** Muestra el nombre o la descripción del Activo seleccionado. Es un campo que no es modificable por el usuario.
 
@@ -121,11 +121,11 @@ Equipo/Activo que se haya establecido en la ficha técnica de este mismo. Es un 
 
 **Solicitante:**   En este campo se define el nombre del Solicitante del Paro y Avería. Cuando la OT es generada desde un  **FDA**, este campo contiene el solicitante ingresado en el PA. El solicitante puede registrar su nombre en el espacio correspondiente. Sin embargo  es posible también seleccionar su nombre de la lista que se habilita como  desplegable al marcar la opción **“Incluido en Terceros”**.
 
-**Incluido en TE (RI):** Al seleccionar esta opción, en el campo **“Solicitante”** solo se despliegan los Terceros o Responsables Internos existentes en la tabla de Terceros en infraestructura. Se debe tener  en cuenta que de la tabla de Terceros solo se despliegan los Terceros de Tipo RI. La funcionalidad de poder definir el Solicitante del  **FDA**, se  parametriza  en  Administración, se sobrepone el mouse en una compañía de la lista que se muestra y se da clic en `<a class="btn">`Valores por defecto`</a>`, en la etiqueta de Paros, se selecciona la opción **“Preguntar Solicitante”**.
+**Incluido en TE (RI):** Al seleccionar esta opción, en el campo **“Solicitante”** solo se despliegan los Terceros o Responsables Internos existentes en la tabla de Terceros en infraestructura. Se debe tener  en cuenta que de la tabla de Terceros solo se despliegan los Terceros de Tipo RI. La funcionalidad de poder definir el Solicitante del  **FDA**, se  parametriza  en  Administración, se sobrepone el mouse en una compañía de la lista que se muestra y se da clic en `<a class="btn">`Valores por defecto `</a>`, en la etiqueta de Paros, se selecciona la opción **“Preguntar Solicitante”**.
 
-El  solicitante  del   **FDA**,  se  permite  parametrizar  para que  se  defina  el  usuario  logueado  al sistema,  bloqueando  el  campo  para  que  no  se  pueda  modificar.  Para  realizar  tal funcionalidad, se debe ir a Administración, se sobrepone el mouse en una compañía de la lista que se muestra y se da clic en `<a class="btn">`Valores por defecto`</a>`, en la etiqueta de Paros, se selecciona la opción **“El solicitante es tomado del usuario logueado y no se puede modificar.”**.
+El  solicitante  del   **FDA**,  se  permite  parametrizar  para que  se  defina  el  usuario  logueado  al sistema,  bloqueando  el  campo  para  que  no  se  pueda  modificar.  Para  realizar  tal funcionalidad, se debe ir a Administración, se sobrepone el mouse en una compañía de la lista que se muestra y se da clic en `<a class="btn">`Valores por defecto `</a>`, en la etiqueta de Paros, se selecciona la opción **“El solicitante es tomado del usuario logueado y no se puede modificar.”**.
 
-**Correo Electrónico:** En este campo se define el correo electrónico del solicitante del  **FDA**, cuando el solicitante es digitado manualmente. Si el solicitante se selecciona con la opción **“Incluido en Terceros”** y allí se tiene definido el correo electrónico, automáticamente se carga a este campo el e-mail definido en el módulo de Terceros. La funcionalidad del envío de correos electrónicos se parametriza en Administración, se sobrepone el mouse en una compañía de la lista que se muestra y se da clic en `<a class="btn">`Valores por defecto`</a>`, en la etiqueta de General, se selecciona la opción **“Enviar correo electrónico al solicitante”**.
+**Correo Electrónico:** En este campo se define el correo electrónico del solicitante del  **FDA**, cuando el solicitante es digitado manualmente. Si el solicitante se selecciona con la opción **“Incluido en Terceros”** y allí se tiene definido el correo electrónico, automáticamente se carga a este campo el e-mail definido en el módulo de Terceros. La funcionalidad del envío de correos electrónicos se parametriza en Administración, se sobrepone el mouse en una compañía de la lista que se muestra y se da clic en `<a class="btn">`Valores por defecto `</a>`, en la etiqueta de General, se selecciona la opción **“Enviar correo electrónico al solicitante”**.
 
 **Centro de Costo:** Este campo permite seleccionar el Centro de Costo o Cliente que es responsable del Objeto de Mantenimiento. Cuando se define un Equipo u Objeto  de Mantenimiento válido, el sistema trae automáticamente a este campo el Centro de Costo asociado. Inicialmente se sugiere el Centro de Costo que tiene asociado el Activo Objeto de  Mantenimiento, aun así, puede cambiarse.
 
@@ -150,7 +150,7 @@ El  solicitante  del   **FDA**,  se  permite  parametrizar  para que  se  defina
 **
 ** Aquí se establece el Tipo de Actividad a realizar en el Paro. La Actividad de Mantenimiento para un Paro y Avería, se elige desde la tabla **“Tipos de Actividad”** en el módulo de **“Infraestructura”**. Este campo trabaja en coordinación con el anterior (Tipo de Mantenimiento). Si en el campo anterior se ha hecho la selección de un valor diferente de **“Otro”**, en el tipo de Actividad se debe seleccionar el valor **“Mantto”**, lo que indica que se trata de una actividad que constituye mantenimiento. Si en el  campo  anterior se ha seleccionado el valor **“Otro”**, en el campo Tipo de Actividad se debe seleccionar un valor que defina consistentemente la labor a ejecutar.
 
-Los campos **“T. Trabajo, T. Mtto y T. Actividad”**, se parametrizan de forma opcional desde el módulo de Administración, se sobrepone el mouse en una compañía de la lista que se muestra y se da clic en `<a class="btn">`Valores por defecto`</a>`, en la etiqueta de Paros, se selecciona la opción **“Solicitar datos para definir proceso (Tipo Trabajo, Tipo Mantenimiento, Tipo Actividad)”**.
+Los campos **“T. Trabajo, T. Mtto y T. Actividad”**, se parametrizan de forma opcional desde el módulo de Administración, se sobrepone el mouse en una compañía de la lista que se muestra y se da clic en `<a class="btn">`Valores por defecto `</a>`, en la etiqueta de Paros, se selecciona la opción **“Solicitar datos para definir proceso (Tipo Trabajo, Tipo Mantenimiento, Tipo Actividad)”**.
 
 **F/H Paro:** Se registra en este campo la fecha y hora exacta en la que  se informa del PARO /  **FDA** a Mantenimiento.
 
@@ -276,18 +276,18 @@ A continuación se describen las carpetas que componen esta ventana; cuando se q
 
 ![ventana de paros fda](0.images/cap10/chp10_img08.png)
 
-Para adicionar un documento, imagen o video, se debe dar clic en la carpeta deseada, luego se da clic al icono `<span class="iconify btn" data-icon="cloud-upload">`Cargar, a continuación se abre una nueva ventana para realizar la búsqueda del archivo a subir, se selecciona el archivo y se da clic en `<a class="btn">`Abrir`</a>`.
+Para adicionar un documento, imagen o video, se debe dar clic en la carpeta deseada, luego se da clic al icono `<span class="iconify btn" data-icon="cloud-upload">`Cargar, a continuación se abre una nueva ventana para realizar la búsqueda del archivo a subir, se selecciona el archivo y se da clic en `<a class="btn">`Abrir `</a>`.
 abrir.
 
 ![ventana de paros fda](0.images/cap10/chp10_img09.png)
 
-Una vez se da clic en `<a class="btn">`Abrir`</a>`, se evidencia al lado derecho el nombre del archivo elegido y aparece un campo en blanco, para que el usuario escriba un nombre adicional del archivo para ser usado como una referenciación del archivo adjunto. Luego, se da clic en el botón `<a class="btn">`Subir archivo`</a>`.
+Una vez se da clic en `<a class="btn">`Abrir `</a>`, se evidencia al lado derecho el nombre del archivo elegido y aparece un campo en blanco, para que el usuario escriba un nombre adicional del archivo para ser usado como una referenciación del archivo adjunto. Luego, se da clic en el botón `<a class="btn">`Subir archivo `</a>`.
 
 ![ventana de paros fda](0.images/cap10/chp10_img10.png)
 
 Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic en uno de las imágenes, se visualiza la imagen adjunta.
 
-Para desasociar un documento, o una imagen o un video, al PARO /  **FDA** se da clic al icono de `<span class="iconify btn" data-icon=delete>`eliminar (basura)) que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro y se da clic en el botón `<a class="btn">`Aceptar`</a>`.
+Para desasociar un documento, o una imagen o un video, al PARO /  **FDA** se da clic al icono de `<span class="iconify btn" data-icon=delete>`eliminar (basura)) que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro y se da clic en el botón `<a class="btn">`Aceptar `</a>`.
 
 Si se desea descargar un archivo adjunto al PARO /  **FDA**, se debe dar clic en el icono de `<span class="iconify btn" data-icon=cloud-download>`la nube con flecha hacia abajo, que se encuentra al lado derecho del archivo que se quiere descargar.
 
@@ -313,7 +313,7 @@ En  la  gráfica  anterior, Enviar a Historia, se  aprecian  sus  componentes  y
 
 A   continuación se  describen  los  campos  que  componen  esta  Ventana   información adicional.
 
-En la ventana aparece un botón `<a class="btn">`Enviar`</a>` y tres casillas de selección. Estas casillas  de selección parametriza los registros que se desean enviar a Historia.
+En la ventana aparece un botón `<a class="btn">`Enviar `</a>` y tres casillas de selección. Estas casillas  de selección parametriza los registros que se desean enviar a Historia.
 
 **Todos los registros del visor:** Con esta opción se realiza el envío de todos los Paros existentes en la base de datos, sin importar cualquier subgrupo activo.
 
@@ -329,6 +329,6 @@ Al ejecutar esta transacción, se abrirá una ventana la cual se muestra a conti
 
 ![Ventana PAROS /  FDA (Transacciones- Exportar)](0.images/cap11/chp10_img12.png)
 
-Al darle clic en el botón `<a class="btn">`Exportar`</a>`, se generará un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso, el objetivo de esta exportación es llevar toda la información de los Paros contenidos en el visor a un archivo plano, para luego ser analizados.
+Al darle clic en el botón `<a class="btn">`Exportar `</a>`, se generará un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso, el objetivo de esta exportación es llevar toda la información de los Paros contenidos en el visor a un archivo plano, para luego ser analizados.
 
 Adicionalmente, es posible exportar todos los campos de la ventana Detalle de los Paros y Averías, para esto se da clic en el cuadro llamado **“Exportar Todas Las Columnas”**. También, es posible exportar uno o varios campos de la ventana Detalle de los Paros y Averías, para esto se da clic en cada uno de los cuadros que acompañan los campos.

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Infraestructura
+title: ◼ Infraestructura
 order: 02_00
 ---
 #Infraestructura
@@ -112,11 +112,11 @@ Nombre Certificado: En este campo se escribe el nombre del documento a adjuntar.
 
 FF Vencimiento: En este campo se elige la fecha de vencimiento del documento a adjuntar.
 
-Adjuntar Documentos: Para adjuntar el documento, se debe dar clic al  `<a class="btn">`Seleccionar archivo`</a>`
-“Seleccionar archivo”, se observa que se abre una ventana para buscar el archivo y seleccionarlo dando doble clic o clic al botón`<a class="btn">`Abrir`</a>`
-, al lado derecho del campo se observa que se muestra el nombre del archivo adjuntado, para insertar o actualizar los datos en esta tabla se da clic en el botón`<a class="btn">`Abrir`</a>`
+Adjuntar Documentos: Para adjuntar el documento, se debe dar clic al  `<a class="btn">`Seleccionar archivo `</a>`
+“Seleccionar archivo”, se observa que se abre una ventana para buscar el archivo y seleccionarlo dando doble clic o clic al botón `<a class="btn">`Abrir `</a>`
+, al lado derecho del campo se observa que se muestra el nombre del archivo adjuntado, para insertar o actualizar los datos en esta tabla se da clic en el botón `<a class="btn">`Abrir `</a>`
 
-Para actualizar la información de alguna certificación, se actualiza los campos y terminar el proceso de actualización con el botón `<a class="btn">`Actualizar`</a>`. Si se desea desasociar la información de una certificación de un Técnico, se debe dar clic al icono de `<span class="iconify btn" data-icon=delete>`eliminar (basura) que está al lado izquierdo del documento anexo, sale mensaje de alerta que indica al usuario de sí está seguro de eliminar el registro y se da clic en Aceptar.
+Para actualizar la información de alguna certificación, se actualiza los campos y terminar el proceso de actualización con el botón `<a class="btn">`Actualizar `</a>`. Si se desea desasociar la información de una certificación de un Técnico, se debe dar clic al icono de `<span class="iconify btn" data-icon=delete>`eliminar (basura) que está al lado izquierdo del documento anexo, sale mensaje de alerta que indica al usuario de sí está seguro de eliminar el registro y se da clic en Aceptar.
 
 **Certificaciones Terceros Tipo RX**
 
@@ -141,9 +141,9 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 **FF Vencimiento:** En este campo se elige la fecha de vencimiento del documento a adjuntar.
 
-**Adjuntar Documentos:** Para adjuntar el documento, se debe dar clic al botón `<a class="btn">`Seleccionar archivo`</a>`. se observa que se abre una ventana para buscar el archivo y seleccionarlo dando doble clic o clic al botón `<a class="btn">`Abrir`</a>`, al lado derecho del campo se observa que se muestra el nombre del archivo adjuntado, para insertar o actualizar los datos en esta tabla se da clic en el botón `<a class="btn">`Más`</a>` o  `<a class="btn">`Actualizar Técnico`</a>`, **respectivamente.** Para finalizar el proceso, en ambos casos, se debe dar clic al botón `<a class="btn">`Actualizar`</a>`.
+**Adjuntar Documentos:** Para adjuntar el documento, se debe dar clic al botón `<a class="btn">`Seleccionar archivo `</a>`. se observa que se abre una ventana para buscar el archivo y seleccionarlo dando doble clic o clic al botón `<a class="btn">`Abrir `</a>`, al lado derecho del campo se observa que se muestra el nombre del archivo adjuntado, para insertar o actualizar los datos en esta tabla se da clic en el botón `<a class="btn">`Más `</a>` o  `<a class="btn">`Actualizar Técnico `</a>`, **respectivamente.** Para finalizar el proceso, en ambos casos, se debe dar clic al botón `<a class="btn">`Actualizar `</a>`.
 
-Para registrar un nuevo técnico se da clic en el botón `<a class="btn">`Más`</a>`, ubicado en la parte inferior izquierda de la tabla Técnicos. Para actualizar la información de alguno de los técnicos, primero se selecciona el técnico en la tabla, se observa que se muestra la información detallada de ese técnico, se procede a actualizar los campos, luego dar clic al botón `<a class="btn">`Actualizar Técnico`</a>` y finalmente terminar el proceso de actualización con el botón `<a class="btn">`Actualizar Técnico`</a>`. Si se desea desasociar la información de una certificación de un Técnico, se debe dar clic al icono de`<span class="iconify btn" data-icon=delete>`eliminar (basura) que está al lado derecho del documento anexo, sale mensaje de alerta que indica al usuario de sí está seguro de eliminar el registro y se da clic en `<a class="btn">`Aceptar`</a>`.
+Para registrar un nuevo técnico se da clic en el botón `<a class="btn">`Más `</a>`, ubicado en la parte inferior izquierda de la tabla Técnicos. Para actualizar la información de alguno de los técnicos, primero se selecciona el técnico en la tabla, se observa que se muestra la información detallada de ese técnico, se procede a actualizar los campos, luego dar clic al botón `<a class="btn">`Actualizar Técnico `</a>` y finalmente terminar el proceso de actualización con el botón `<a class="btn">`Actualizar Técnico `</a>`. Si se desea desasociar la información de una certificación de un Técnico, se debe dar clic al icono de `<span class="iconify btn" data-icon=delete>`eliminar (basura) que está al lado derecho del documento anexo, sale mensaje de alerta que indica al usuario de sí está seguro de eliminar el registro y se da clic en `<a class="btn">`Aceptar `</a>`.
 
 ### Indicadores
 
@@ -198,11 +198,11 @@ También se puede elegir el centro responsable o un grupo de centros responsable
 
 ![oficio](../../assets/images/cap02/chp02_img11.png)
 
-De igual forma, se puede elegir el oficio mediante la opción Utilizar comodines, para ello, se debe dar clic al icono `<a class="btn">`Candado`</a>`, . Esta selección agrupa los Terceros relacionados por su oficio. Por ejemplo: si se escribe ayudante%, el sistema localiza aquellos Terceros cuyo oficio empieza por la palabra ** “ayudante”**.
+De igual forma, se puede elegir el oficio mediante la opción Utilizar comodines, para ello, se debe dar clic al icono `<a class="btn">`Candado `</a>`, . Esta selección agrupa los Terceros relacionados por su oficio. Por ejemplo: si se escribe ayudante%, el sistema localiza aquellos Terceros cuyo oficio empieza por la palabra ** “ayudante”**.
 
 **Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos  se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además  es posible hacer unión de selecciones.  Esto significa que inmediatamente después de haber
 
-realizado una selección es posible hacer otra y unir el resultado de las dos.  Para ello, tras definir los criterios de la segunda selección se da un clic al botón `<a class="btn">`Mas (+)`</a>`, en  lugar de darlo al botón `<a class="btn">`Acepar`</a>`
+realizado una selección es posible hacer otra y unir el resultado de las dos.  Para ello, tras definir los criterios de la segunda selección se da un clic al botón `<a class="btn">`Mas (+)`</a>`, en  lugar de darlo al botón `<a class="btn">`Acepar `</a>`
 
 ### Ubicaciones Físicas
 
@@ -306,16 +306,16 @@ Los campos de datos que constituyen criterio de selección haciendo parte de la 
 
 ![uni de med area](../../assets/images/cap02/chp02_img21.png)
 
-También se puede elegir la unidad de medida mediante el uso de comodines, para ello, se debe dar clic al icono `<a class="btn">`Candado`</a>`. Ejemplo, si se escribe metros%, el sistema entiende que debe seleccionar aquellas UF cuya unidad de medida comience por la palabra ** “metros”**. El porcentaje a continuación, es un carácter comodín que significa ** “todos”**.
+También se puede elegir la unidad de medida mediante el uso de comodines, para ello, se debe dar clic al icono `<a class="btn">`Candado `</a>`. Ejemplo, si se escribe metros%, el sistema entiende que debe seleccionar aquellas UF cuya unidad de medida comience por la palabra ** “metros”**. El porcentaje a continuación, es un carácter comodín que significa ** “todos”**.
 
 **Unidad de Medida Capacidad:** Lista las Unidades de Medida registradas en la tabla de Unidades de Medida. Se elige de la lista la Unidad de Medida deseada.
 
 ![uni de med capacidad](../../assets/images/cap02/chp02_img22.png)
 
-También se puede elegir la unidad de medida mediante el uso de comodines, para ello, se debe dar clic al icono `<a class="btn">`Candado`</a>`. Ejemplo, si se escribe la palabra sin porcentajes %, el sistema realiza una búsqueda de aquellas UF que en cualquier parte del campo tengan el nombre de la palabra digitada, en este caso, la palabra ** “bloques”**.
+También se puede elegir la unidad de medida mediante el uso de comodines, para ello, se debe dar clic al icono `<a class="btn">`Candado `</a>`. Ejemplo, si se escribe la palabra sin porcentajes %, el sistema realiza una búsqueda de aquellas UF que en cualquier parte del campo tengan el nombre de la palabra digitada, en este caso, la palabra ** “bloques”**.
 
 **Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos  se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además  es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber
-realizado una selección es posible hacer otra y unir el resultado de las dos.  Para ello, tras definir los criterios de la segunda selección se da un clic al botón `<a class="btn">`Mas (+)`</a>`, en  lugar de darlo al botón `<a class="btn">`Aceptar`</a>`.
+realizado una selección es posible hacer otra y unir el resultado de las dos.  Para ello, tras definir los criterios de la segunda selección se da un clic al botón `<a class="btn">`Mas (+)`</a>`, en  lugar de darlo al botón `<a class="btn">`Aceptar `</a>`.
 
 ## Almacenes
 
@@ -468,7 +468,7 @@ Si el Centro de Costo se refiere a un Cliente, en este campo se define el nombre
 
 ### Subgrupo Centros de Costo
 
-Se usa para seleccionar grupos de Centros de Costo que cumplen un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al `<a class="btn">`icono de filtro`</a>`, ubicado en la parte superior derecha de la ventana Visor de Centros de Costo.
+Se usa para seleccionar grupos de Centros de Costo que cumplen un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al `<a class="btn">`icono de filtro `</a>`, ubicado en la parte superior derecha de la ventana Visor de Centros de Costo.
 
 ![Detalle el centro de costo](../../assets/images/cap02/chp02_img30.png)
 
@@ -1065,17 +1065,17 @@ A continuación se describen las carpetas que componen esta ventana; cuando se q
 
 ![detalle de contrato](../../assets/images/cap02/chp02_img66.png)
 
-Para adicionar un documento, imagen o video, se debe dar clic en la carpeta deseada, luego se da clic al icono de `<a class="btn">`subir`</a>` , a continuación se abre una nueva ventana para realizar la búsqueda del archivo a subir,  se selecciona el archivo y se da clic en `<a class="btn">`abrir`</a>`.
+Para adicionar un documento, imagen o video, se debe dar clic en la carpeta deseada, luego se da clic al icono de `<a class="btn">`subir `</a>` , a continuación se abre una nueva ventana para realizar la búsqueda del archivo a subir,  se selecciona el archivo y se da clic en `<a class="btn">`abrir `</a>`.
 
 ![detalle de contrato](../../assets/images/cap02/chp02_img67.png)
 
-Una vez se da clic en `<a class="btn">`abrir`</a>`., se evidencia al lado derecho el nombre del archivo elegido y aparece un campo en blanco, para que el usuario escriba un nombre adicional del archivo para ser usado como una referenciación del archivo adjunto. Luego, se da clic en el botón `<a class="btn">`Subir archivo`</a>`.
+Una vez se da clic en `<a class="btn">`abrir `</a>`., se evidencia al lado derecho el nombre del archivo elegido y aparece un campo en blanco, para que el usuario escriba un nombre adicional del archivo para ser usado como una referenciación del archivo adjunto. Luego, se da clic en el botón `<a class="btn">`Subir archivo `</a>`.
 
 ![detalle de contrato](../../assets/images/cap02/chp02_img68.png)
 
 Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic en uno de las imágenes, se visualiza la imagen adjunta.
 
-Para desasociar un documento, o una imagen o un video, al Contrato se da clic al`<span class="iconify btn" data-icon=delete>`nar (basura) que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro y se da clic en el botón`<a class="btn">`Aceptar`</a>`.
+Para desasociar un documento, o una imagen o un video, al Contrato se da clic al `<span class="iconify btn" data-icon=delete>`nar (basura) que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro y se da clic en el botón `<a class="btn">`Aceptar `</a>`.
 
 ![detalle de contrato](../../assets/images/cap02/chp02_img69.png)
 
@@ -1110,7 +1110,7 @@ Adicional, se encuentran tres opciones de definición del Concepto, estas son:
 
 ### Subgrupo Conceptos de Kárdex
 
-Se usa para seleccionar grupos de Conceptos de Kárdex que cumplen un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al `<a class="btn">`icono de filtro`</a>` icono de filtro, ubicado en la parte superior derecha de la ventana Visor de Conceptos de Kárdex.
+Se usa para seleccionar grupos de Conceptos de Kárdex que cumplen un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al `<a class="btn">`icono de filtro `</a>` icono de filtro, ubicado en la parte superior derecha de la ventana Visor de Conceptos de Kárdex.
 
 ![detalle de contrato](../../assets/images/cap02/chp02_img72.png)
 
@@ -1129,7 +1129,7 @@ Los campos de datos que constituyen criterio de selección haciendo parte de la 
 **Almacén:** Permite filtrar aquellos Conceptos de Kárdex que fueron asociados al almacén seleccionado. Lista los Almacenes creados en la tabla de Almacenes.
 
 **Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos  se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además  es posible hacer unión de selecciones.  Esto significa que inmediatamente después de haber
-realizado una selección es posible hacer otra y unir el resultado de las dos.  Para ello, tras definir los criterios de la segunda selección se da un clic al botón `<a class="btn">`Mas (+)`</a>` , en  lugar de darlo al botón `<a class="btn">`Aceptar`</a>`.
+realizado una selección es posible hacer otra y unir el resultado de las dos.  Para ello, tras definir los criterios de la segunda selección se da un clic al botón `<a class="btn">`Mas (+)`</a>` , en  lugar de darlo al botón `<a class="btn">`Aceptar `</a>`.
 
 ## Operaciones
 
@@ -1203,13 +1203,13 @@ Al ejecutar esta transacción, se abrirá una ventana la cual se muestra a conti
 
 Al darle clic en el botón  `<a class="btn">` “Exportar”`</a>`, se generará un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso, el objetivo de esta exportación es llevar toda la información de los registros contenidos en el visor a un archivo plano, para luego ser analizados.
 
-Adicionalmente, es posible exportar todos los campos de la ventana Detalle de los registros, para esto se da clic en el cuadro llamado `<a class="btn">`Exportar Todos Los Campos`</a>`. También, es posible exportar uno o varios campos de la ventana Detalle de los registros, para esto se da clic en cada uno de los cuadros que acompañan los campos.
+Adicionalmente, es posible exportar todos los campos de la ventana Detalle de los registros, para esto se da clic en el cuadro llamado `<a class="btn">`Exportar Todos Los Campos `</a>`. También, es posible exportar uno o varios campos de la ventana Detalle de los registros, para esto se da clic en cada uno de los cuadros que acompañan los campos.
 
 # Servicios
 
 ## Reportes
 
-Este comando permite visualizar los reportes relacionados con el módulo o la tabla donde se encuentre. A esta ventana se llega dando clic al `<a class="btn">`icono de la impresora`</a>`,se encuentra ubicado en la parte superior derecha de la ventana Visor del módulo seleccionado. Existen reportes básicos disponibles de tipo Resumen y Detalle:
+Este comando permite visualizar los reportes relacionados con el módulo o la tabla donde se encuentre. A esta ventana se llega dando clic al `<a class="btn">`icono de la impresora `</a>`,se encuentra ubicado en la parte superior derecha de la ventana Visor del módulo seleccionado. Existen reportes básicos disponibles de tipo Resumen y Detalle:
 ![tipos de rgimen](../../assets/images/cap02/chp02_img83.png)
 
 Los anteriores reportes pueden ser impresos, para una o varias Órdenes de Trabajo Históricas preseleccionadas:
@@ -1224,6 +1224,6 @@ Los anteriores reportes pueden ser impresos, para una o varias Órdenes de Traba
 
 **Subtítulo:** En este campo es posible registrar un poco menos de una línea de información, tipo documentación del Reporte, para que se imprima bajo el área de títulos estándar.
 
-Después de seleccionar el tipo de registro, se procede a seleccionar el Reporte que se  desea  imprimir, para esto se  debe pulsar el botón `<a class="btn">`Imprimir`</a>`, de esta manera se abre una ventana visor para formatos PDF, que muestra el Reporte seleccionado. Desde esta ventana es posible guardar el reporte y exportarlo a Excel.
+Después de seleccionar el tipo de registro, se procede a seleccionar el Reporte que se  desea  imprimir, para esto se  debe pulsar el botón `<a class="btn">`Imprimir `</a>`, de esta manera se abre una ventana visor para formatos PDF, que muestra el Reporte seleccionado. Desde esta ventana es posible guardar el reporte y exportarlo a Excel.
 
-Al dar clic al botón `<a class="btn">`Exportar`</a>` permite exportar el Reporte seleccionado sin necesidad de imprimirlo. Mientras que, al dar clic al botón `<a class="btn">`Cerrar`</a>` se cierra la ventana de la generación de reportes.
+Al dar clic al botón `<a class="btn">`Exportar `</a>` permite exportar el Reporte seleccionado sin necesidad de imprimirlo. Mientras que, al dar clic al botón `<a class="btn">`Cerrar `</a>` se cierra la ventana de la generación de reportes.
