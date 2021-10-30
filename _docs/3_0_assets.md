@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Infraestructura
+order: 03_00
 ---
 
 # Activos / Equipos, Objetos de Mantenimiento

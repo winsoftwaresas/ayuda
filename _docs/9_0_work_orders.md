@@ -1,16 +1,15 @@
 ---
 layout: page
 title: work orders
+order: 09_00
 ---
-
 # Órdenes de Trabajo
 
-- ¿Cómo se genera una Orden de Trabajo?. 
+- ¿Cómo se genera una Orden de Trabajo?.
 - ¿Qué tipos  de Órdenes de Trabajo se  pueden crear?.
 - ¿Cómo se controlan y administran?.
 - ¿Cómo se cierran?.
- Son los tópicos que se discuten en este capítulo.
-
+  Son los tópicos que se discuten en este capítulo.
 
 #Conceptos Básicos sobre Órdenes de Trabajo
 
@@ -19,36 +18,31 @@ El módulo de Órdenes de Trabajo (**OT**) constituye el centro de actividad de 
 Cuando se elige la opción Órdenes de Trabajo, es posible:
 
 - Crear Órdenes de Trabajo Manuales (Para todos los tipos de Mantenimiento, incluyendo una opción para Preventivo Manual).
-
 - Buscar, seleccionar, revisar en general y detalladamente las Órdenes de Trabajo activas.
-
-- Actualizar las Órdenes de Trabajo activas, en lo referente a tiempos, costos y comentarios sobre su ejecución. 
-
+- Actualizar las Órdenes de Trabajo activas, en lo referente a tiempos, costos y comentarios sobre su ejecución.
 - Liquidar y cerrar cada **OT** para ser enviada al archivo Histórico de Mantenimiento. Imprimir **OT**s en cualquiera de las etapas de su ejecución, incluso después de haber sido cerradas, antes de ser enviadas a Historia de Mantenimiento.
 
-## Tipo de Trabajo vs Tipo de Mantenimiento vs Tipo de Actividad 
+## Tipo de Trabajo vs Tipo de Mantenimiento vs Tipo de Actividad
 
 Toda Orden de Trabajo debe tener un Tipo de Trabajo, un Tipo de Mantenimiento y un
 Tipo de Actividad.
 
 ### Tipo de Trabajo
 
-**AM** Predefine  cuatro  tipos  de  trabajo: 
+**AM** Predefine  cuatro  tipos  de  trabajo:
 
 - Mecánico  **(MEC)**.
 - Eléctrico   **(ELE)**.
-- Instrumentación/Electrónica **(I/E)**  
-- OTro **(OTR)**. 
-
+- Instrumentación/Electrónica **(I/E)**
+- OTro **(OTR)**.
 
 Pueden  personalizarse,  en la tabla **"Tipos de Trabajo"** del módulo de Infraestructura. Cada **OT** acepta la definición de uno o varios de estos Tipos de Trabajo, dependiendo de la naturaleza de la labor que se realice.
 
 ### Tipo de Mantenimiento
 
-**AM** predefine ocho Tipos   de   Mantenimiento:   Preventivo, Preventivo Manual, Correctivo, Predictivo, Inspección, Metrología, Lubricación y Otro. Como su nombre lo indica, el Tipo de Mantenimiento caracteriza al Mantenimiento que se realiza. Cada   Orden   de Trabajo permite la definición de uno y sólo un Tipo de Mantenimiento.  
+**AM** predefine ocho Tipos   de   Mantenimiento:   Preventivo, Preventivo Manual, Correctivo, Predictivo, Inspección, Metrología, Lubricación y Otro. Como su nombre lo indica, el Tipo de Mantenimiento caracteriza al Mantenimiento que se realiza. Cada   Orden   de Trabajo permite la definición de uno y sólo un Tipo de Mantenimiento.
 
-###	Tipo de Actividad
-
+### Tipo de Actividad
 
 Una vez se define el Tipo de Trabajo y el Tipo de Mantenimiento, se procede a catalogar la labor   por   su   Tipo   de   Actividad. Los Tipos de Actividad se administran desde Infraestructura, y son completamente personalizables por empresa. El Tipo de Actividad se utiliza para agrupar las labores de Mantenimiento por  actividades genérica. Es a través de los Tipos de Actividad que se definen muchas actividades realizables  por  el departamento  de  Mantenimiento,  pero  que  en  realidad  no  constituyen  una  labor  de Mantenimiento. **AM** predefine  varios  Tipos  de   Actividad. Para   mayor  información, consultar el ítem correspondiente en Infraestructura.
 
@@ -67,7 +61,7 @@ Las Órdenes de Trabajo manuales se generan a medida que se requiere: en el mome
 
 Las 	**OT** 	Programadas 	se 	generan 	periódicamente, 	mediante		el 	comando ** “ANALIZAR/GENERAR”**  en  el  submenú  de  Ordenes  de  Trabajo.  El  proceso   de Generación revisa y verifica los criterios definidos en cada Programa de  Mantenimiento, proponiendo generar, en forma automática, la Orden de Trabajo correspondiente, cuando tales criterios son válidos, para Mantenimientos Preventivo, Predictivo, Calibración, Lubricación y Rutas de Inspección, u **OT**ro Tipo de Mantenimiento
 
-##	Presupuesto vs Gasto Real
+## Presupuesto vs Gasto Real
 
 La ejecución de toda Orden de Trabajo puede generar costos, asociados a los  recursos utilizados: Mano de Obra, Materiales y Repuestos, u otros Conceptos o Gastos indirectos.
 
@@ -80,7 +74,6 @@ Si una Orden de Trabajo maneja Presupuesto (ya sea una **OT** Programada o Manua
 Estos   dos   conceptos, en   una Orden  de  Trabajo, son  básicos para la  generación de estadísticas de tiempos y variados Índices de Gestión.
 
 - **AM**- asume el concepto de Tiempo de Duración o ttr (Time to Repair), en una Orden de Trabajo,   como   la   cantidad   de   Tiempo   Real  en   la   que   se   realiza   una   labor   de Mantenimiento,  una  vez  que  todas  las  condiciones  están  dadas:  se  han  superado  los tiempos  de  inspección  y  administrativos;  la  máquina  lista  y  en   condiciones  de  ser mantenida ya fue entregada al Depto. de Mantenimiento y éste a su vez, ya cuenta con todos los recursos necesarios para la ejecución:  herramientas, instrumentos, materiales, repuestos y por supuesto, personal.
-
 - **AM**- sugiere como Tiempo de Duración, la diferencia entre la Fecha y Hora de Fin  de Trabajos y la Fecha y Hora de Inicio de Trabajos. Cabe an**OT**ar, que no siempre el Tiempo de Duración es la diferencia entre estas fechas/horas, pues pueden existir  eventos que dejan temporalmente a la **OT** en Estado de ** “Pendiente”**. **AM** permite corregir el tiempo de Duración en una **OT**, para que refleje el tiempo real de la ejecución.
 
 Por ejemplo, si una **OT** tiene como Fecha de Inicio de Trabajos XXXX/12/01 08:30, y como Fecha de Fin de Trabajos XXXX/12/01 16:00, **AM** sugiere como Tiempo de Duración, 7 horas y 30 minutos. Sin embargo, si durante ese lapso se tuvo que detener la ejecución por 2 horas, debido a que faltaba un Repuesto o a que el técnico encargado se ausentó a realizar Otra labor, se debe corregir la duración: 5 horas y 30 minutos.
@@ -97,7 +90,7 @@ Por ejemplo, si una **OT** correctiva tiene como fecha de Info de Paro XXXX/12/0
 
 - **AM**- administra automáticamente el número de cada Orden de Trabajo, por lo tanto no es posible modificarlo manualmente.
 
-#	Análisis y Generación de Órdenes de Trabajo Programadas
+# Análisis y Generación de Órdenes de Trabajo Programadas
 
 Análisis/Generación automática de **OT**s desde PMs, es una facilidad del **AM**, que  se encuentra disponible en el módulo de **OT**s  y que debería ser utilizada sobre  una  base periódica. El proceso consiste en que  **AM**- revisa cada programa, definido para cada Activo/Equipo y analiza si la condición programada en cada uno, se  va a cumplir, para el equipo respectivo, durante el próximo período que se va a estudiar o proyectar.
 
@@ -117,7 +110,7 @@ Se recomienda que se programe al menos una semana, con una semana de anticipaci�
 
 Lograr un acuerdo con el programa de Producción o con el Responsable del Equipo para poder ejecutar la intervención planeada sin interferir con actividades productivas. Asegurar la disponibilidad, a tiempo, de Materiales, Repuestos u otros Conceptos de Costo requeridos en la ejecución de cada **OT**. Programar el recurso humano necesario para ejecutarlas.
 
-#	El ciclo de vida de una Orden de Trabajo
+# El ciclo de vida de una Orden de Trabajo
 
 El centro de actividad gerencial en **AM** es el ambiente de las Órdenes de Trabajo. Ya sea recién creada, o ejecutada hace varios años, **AM** dispone de  herramientas que permiten la administración efectiva de cada una de ellas.
 
@@ -135,7 +128,7 @@ Una vez efectuado este paso, se procede a Imprimir la Orden de Trabajo, para ent
 
 Por distintos m**OT**ivos, una Orden de Trabajo puede quedar en estado Pendiente. Por ejemplo,  no  ha y  recursos  disponibles,  ya  sea  de  Mano  de  Obra,  de   Materiales   o Repuestos, u otros Conceptos. **AM** contempla este caso, posibilitando asignar a la **OT** el Estado de Pendiente. También se puede establecer la causa por la cual la **OT** se ha definido en estado Pendiente.
 
-Cuando una Orden no pueda ser Ejecutada, o se decida que no se va a ejecutar, se debe cerrar con un Estado de ** “Cancelada”**, el cual se complementa con una Causa de Cierre, indicando la razón de por qué no se Ejecutó. 
+Cuando una Orden no pueda ser Ejecutada, o se decida que no se va a ejecutar, se debe cerrar con un Estado de ** “Cancelada”**, el cual se complementa con una Causa de Cierre, indicando la razón de por qué no se Ejecutó.
 
 Cuando finaliza la ejecución de la **OT** se deben consignar en **AM** todos los pormenores de la ejecución, es decir, se procede a su Liquidación (Cargar todos  los  conceptos de costo ocasionados por su ejecución) y Cierre. Una vez finaliza la **OT**, se liquida, se cierra, y ya está lista para ser enviada a Historia.
 
@@ -148,10 +141,11 @@ Al ser enviadas a Historia, las Órdenes de Trabajo allí conforman un centro de
 ![Ventana Principal de Solicitudes de Servicio](manualAM/0.images/cap11/chp011_img02.png)
 
 Se accede desde el comando Órdenes de Trabajo en la barra de menú principal   del
+
 - **AM**-. A través de esta  ventana se  permite crear  Órdenes de Trabajo manuales  y Administrar la totalidad de las Órdenes activas, Pendientes de Ejecución, o listas para ser enviadas a Historia. Igualmente, desde esta ventana se Administran las  Órdenes de Trabajo Programadas (las que se generan desde Programas de Mantenimiento).
 
 ## Ventana Visor
-	
+
 ![Ventana Visor](manualAM/0.images/cap11/chp11_img02.png)
 
 Se accede directamente desde la ventana principal de Órdenes de Trabajo.
@@ -160,13 +154,13 @@ Desde esta ventana es posible observar la lista de las Órdenes de Trabajo exist
 
 Los  nombres  que encabezan las  columnas  a  manera  de  títulos en azul, permiten ordenar  de manera ascendente la información por cada ítem seleccionado, al dar clic en el respectivo encabezado.
 
-Es de resaltar, que en esta versión se añade una nueva columna a la ventana Visor llamada Vencimiento, la cual lista los días vencidos de cada Orden de Trabajo. 
+Es de resaltar, que en esta versión se añade una nueva columna a la ventana Visor llamada Vencimiento, la cual lista los días vencidos de cada Orden de Trabajo.
 
-En la ventana Visor por la columna Estado, se define una semaforización de las  Órdenes de Trabajo. La finalidad de esta columna es mostrar de manera gráfica el  estado de la Orden de Trabajo. 
+En la ventana Visor por la columna Estado, se define una semaforización de las  Órdenes de Trabajo. La finalidad de esta columna es mostrar de manera gráfica el  estado de la Orden de Trabajo.
 
 La definición de colores está definida, según la siguiente convención:
 
-**Rojo:** Con fecha de generación anterior a más de 7 días antes de la fecha actual. 
+**Rojo:** Con fecha de generación anterior a más de 7 días antes de la fecha actual.
 
 **Amarillo:** Con fecha de generación anterior en un rango comprendido entre 7 días antes de la fecha actual y un día anterior a la fecha actual.
 
@@ -176,7 +170,7 @@ La definición de colores está definida, según la siguiente convención:
 
 **Morado:** Ordenes que han sido Canceladas.
 
-**Azul:** Ordenes que han sido Cerradas, Cerradas Retroalimentadas o Cerradas Parciales.  
+**Azul:** Ordenes que han sido Cerradas, Cerradas Retroalimentadas o Cerradas Parciales.
 
 ## Ventana Detalle
 
@@ -198,9 +192,7 @@ A continuación se describen los campos que componen esta ventana Detalle de Ord
 
 **Referencia:** En este campo se puede ingresar el número de un documento, que  sirve como referencia o relación a la **OT**; ejemplo: número de una factura, número de una Orden de Compra asociada, o un documento interno de despacho de almacén, etc.
 
-**Estado:** Este campo está bloqueado y muestra el nombre del Estado de la **OT**. 
-
- 
+**Estado:** Este campo está bloqueado y muestra el nombre del Estado de la **OT**.
 
 **Código del Activo:** Aquí se establece el Objeto de Mantenimiento, ya sea digitando directamente el Código, o seleccionándolo con el icono de filtro, al que se le realiza la labor. Una vez se digita o se selecciona, aparece al lado derecho la Descripción del Equipo.
 
@@ -219,7 +211,7 @@ Equipo que se ha ya establecido en la ficha técnica de este m ismo.
 
 **Incluido en TE (RI):** Al seleccionar esta opción, en el campo ** “Solicitante”** solo se despliegan los Terceros o Responsables Internos existentes en la tabla de Terceros en infraestructura.
 
-**Correo Electrónico:** En este campo se define el correo electrónico del Solicitante de la **OT**, cuando el solicitante es digitado manualmente. Si el solicitante se selecciona con la opción ** “Incluido en Terceros”** y allí se tiene definido el correo electrónico, automáticamente se carga a este campo el e-mail definido en el módulo de Terceros. La funcionalidad del envío de correos electrónicos se parametriza Administración, Valores por Defecto, la etiqueta GENERAL, la opción ** “Enviar e-mail al solicitante”**. 
+**Correo Electrónico:** En este campo se define el correo electrónico del Solicitante de la **OT**, cuando el solicitante es digitado manualmente. Si el solicitante se selecciona con la opción ** “Incluido en Terceros”** y allí se tiene definido el correo electrónico, automáticamente se carga a este campo el e-mail definido en el módulo de Terceros. La funcionalidad del envío de correos electrónicos se parametriza Administración, Valores por Defecto, la etiqueta GENERAL, la opción ** “Enviar e-mail al solicitante”**.
 
 **Centro de Costo:** Es el Centro de Costo asignado a la Orden de Trabajo, que corresponde a uno de los Centros de Costo predefinidos en la tabla respectiva, y que es  ** “Responsable”** del pago de los consumos de Gasto Real que dicha **OT** genere. Inicialmente se sugiere el Centro de Costo que tiene asociado el Equipo Objeto de Mantenimiento, aun así, puede cambiarse.
 
@@ -235,7 +227,7 @@ Equipo que se ha ya establecido en la ficha técnica de este m ismo.
 
 **Contrato:**   En  este  campo  se  selecciona  el  contrato  que  pertenece  al   Contratista responsable de ejecutar la Orden de Trabajo.
 
-**Responsable por la institución:** En este campo se elige a la persona de la institución, que acompañará y/o recibirá la labor prestada por el Responsable ejecutor, cuando este sea un Contratista o Servicio Externo. 
+**Responsable por la institución:** En este campo se elige a la persona de la institución, que acompañará y/o recibirá la labor prestada por el Responsable ejecutor, cuando este sea un Contratista o Servicio Externo.
 
 **T. Trabajo:** Indica los Tipos de Trabajo que se realizan en la **OT**. Es posible definir más de un Tipo de Trabajo para una Orden.
 
@@ -257,15 +249,15 @@ Es posible definir una Actividad, por defecto, en ** “Administración”**, **
 
 **Control  Presupuestal:** Esta  Opción permite  definir  si  la  Orden  de  Trabajo maneja Presupuesto. Para las Órdenes de Trabajo Programadas, esta opción  siempre está  seleccionada, pero  aparece protegida,   ya  que  toda  **OT**   Programada  conlleva el Presupuesto Aprobado.
 
-Para  las  Órdenes  de  Trabajo  Manuales,  esta  opción se  establece en  el  m omento  de creación de la misma.  Esta elección se debe m arcar antes de darle clic al botón <a class="btn">Agregar</a>, de  Otra forma, **AM** asume que la **OT** no va a requerir Control Presupuestal y la posibilidad de hacer la marcación se inactiva en el acto.
+Para  las  Órdenes  de  Trabajo  Manuales,  esta  opción se  establece en  el  m omento  de creación de la misma.  Esta elección se debe m arcar antes de darle clic al botón `<a class="btn">`Agregar`</a>`, de  Otra forma, **AM** asume que la **OT** no va a requerir Control Presupuestal y la posibilidad de hacer la marcación se inactiva en el acto.
 
 Cuando una Orden de Trabajo Manual exige control presupuestal, y el presupuesto no ha sido aprobado, no es posible registrar ni modificar el Gasto Real en ella.
 
-**Comentarios:** Esta opción se usa para ingresar los nuevos comentarios referentes a toda la ejecución de la **OT**. Al dar clic al botón <a class="btn">Agregar Comentario</a> aparecerá el comentario ingresado al lado derecho en una ventana tipo chat bloqueada y a su vez inhabilita la modificación de los comentarios que allí se encuentren; además de la fecha, hora y el usuario logueado que realizó el comentario.    
+**Comentarios:** Esta opción se usa para ingresar los nuevos comentarios referentes a toda la ejecución de la **OT**. Al dar clic al botón `<a class="btn">`Agregar Comentario`</a>` aparecerá el comentario ingresado al lado derecho en una ventana tipo chat bloqueada y a su vez inhabilita la modificación de los comentarios que allí se encuentren; además de la fecha, hora y el usuario logueado que realizó el comentario.
 
 Este espacio de comentarios sirve para dos efectos:
 
-Cuando  se  genera  la   **OT**,  como  comentarios  a  priori,  para  especificar  referencias    importantes o ayudas previstas y necesarias en la ejecución posterior de la **OT**: planos, manuales técnicos, manuales de normas técnicas de Mantenimiento o  de especificaciones detalladas; normas de seguridad o enfoques de acción.  Sin embargo, en la gran mayoría de  los casos se utiliza la pestaña Multimedia para registrar estos datos. 
+Cuando  se  genera  la   **OT**,  como  comentarios  a  priori,  para  especificar  referencias    importantes o ayudas previstas y necesarias en la ejecución posterior de la **OT**: planos, manuales técnicos, manuales de normas técnicas de Mantenimiento o  de especificaciones detalladas; normas de seguridad o enfoques de acción.  Sin embargo, en la gran mayoría de  los casos se utiliza la pestaña Multimedia para registrar estos datos.
 Cuando ha concluido la ejecución de la **OT**, es posible utilizarlo para registrar hechos   interesantes acerca de la misma ejecución, como el estado del equipo antes de la intervención, detalles de la intervención, estado del mismo equipo  después de ella, recomendaciones a  los   usuarios  del  equipo,  recomendaciones  a  las  personas de mantenimiento y otros conceptos interesantes a juicio de los ejecutantes.
 
 **Contrato:** Para el caso de Órdenes de Trabajo programadas, que se hayan  generado desde un PM asociado a un Contrato que esté vencido o a punto de vencerse, **AM** informa al  respecto,  en el campo ** “Comentarios”** junto con la Fecha de vencimiento de aquel.
@@ -282,7 +274,7 @@ Cada criterio aparece inicializado en un valor global que permite mostrar todas 
 
 Una vez establecido el subgrupo, el **AM** permite mantener activo cualquier subgrupo en cada módulo, hasta ser cambiado por el usuario.
 
-**AM** permite entonces hacer selección de un grupo de ots de acuerdo con los criterios seleccionados en la siguiente ventana. 
+**AM** permite entonces hacer selección de un grupo de ots de acuerdo con los criterios seleccionados en la siguiente ventana.
 
 ![Ventana submenú de Órdenes de trabajo](manualAM/0.images/cap11/chp11_img04.png)
 
@@ -312,7 +304,7 @@ Número de Referencia.
 
 **AC - Tipo:** Selecciona las **OT**s que se encuentran asociadas con los Activos/ Equipos que se encuentran ligados al Tipo ingresado por el usuario.
 
-**2. FILTRAR POR CAMPOS DE LA ORDEN DE TRABAJO** 
+**2. FILTRAR POR CAMPOS DE LA ORDEN DE TRABAJO**
 
 **Acción Técnica:** Filtra las Órdenes de Trabajo a las cuales se le definió la Acción Técnica seleccionada en esta opción, es posible utilizar comodines.
 
@@ -337,24 +329,23 @@ Número de Referencia.
 
 **Criterio de Generación:** Permite seleccionar el subconjunto de **OT**s generadas desde PM, bajo  el  Criterio  de  Programación ** “XX”**  seleccionado.	Es   posible  utilizar   comodines. Los criterios son:
 
-| **Abreviatura** | **Significado**                   |
-|-------------|-------------------------------|
-| **MM**          | Mensual                       |
-| **SS**          | Semanal                       |
-| **SM**          | Semestral                     |
-| **AN**          | Anual                         |
-| **DD**          | Días (Mín\. 3)              |
+| **Abreviatura** | **Significado**          |
+| --------------------- | ------------------------------ |
+| **MM**          | Mensual                        |
+| **SS**          | Semanal                        |
+| **SM**          | Semestral                      |
+| **AN**          | Anual                          |
+| **DD**          | Días (Mín\. 3)               |
 | **SA**          | Semanas del año               |
-| **+M**         | Meses (m as de uno)         |
-|**+S**        | Semanas \(m as de una)       |
-| **KI**          | Contador por Incremento       |
+| **+M**          | Meses (m as de uno)            |
+| **+S**          | Semanas\(m as de una)          |
+| **KI**          | Contador por Incremento        |
 | **KL**          | Contador por Límite           |
 | **FC**          | Contador y/o Característica   |
-| **FK**         | Frecuencia y/o Característica |
-| **TM**          | Frecuencia y/o Contador       |
-| **CM**| Característica |
-| **??** | Sin Criterio   |
-
+| **FK**          | Frecuencia y/o Característica |
+| **TM**          | Frecuencia y/o Contador        |
+| **CM**          | Característica                |
+| **??**          | Sin Criterio                   |
 
 **Descripción:** Esta opción permite seleccionar las  **OT**s que cum plan con el  criterio  de selección establecido en este campo, es posible utilizar la funcionalidad de comodines.
 
@@ -378,23 +369,23 @@ Número de Referencia.
 
 **Fecha  Programada:**  Este  criterio  filtra  las  Órdenes  de  Trabajo  por  un  rango  de  la Fecha Programada. Aparecen dos campos: Desde y Hasta. En cada uno de ellos  se digita una fecha. De no digitar el campo ** “Desde”**, se buscan las Órdenes de Trabajo cu ya fecha programada esté en el lapso anterior a la fecha digitada en  ** “Hasta”**. De no digitar el campo ** “Hasta”**, se buscan las **OT**s cuya fecha programada esté en un lapso posterior a la digitada en ** “Desde”**.
 
-**Gasto  Real  Mano  de  Obra:**  Al  seleccionar  esta  opción  se  habilita  una  lista desplegable donde se escoge el criterio deseado, junto con un cuadro donde se digita el valor de comparación. Los criterios son: 
+**Gasto  Real  Mano  de  Obra:**  Al  seleccionar  esta  opción  se  habilita  una  lista desplegable donde se escoge el criterio deseado, junto con un cuadro donde se digita el valor de comparación. Los criterios son:
 
 - **Igual (=)**.
 - **Mayor (>)**.
-- **Menor (<)**. 
+- **Menor (<)**.
 
-Estos criterios actúan en comparación con el valor digitado en la casilla que se activa al lado del operador aritmético. Ejemplo: 
+Estos criterios actúan en comparación con el valor digitado en la casilla que se activa al lado del operador aritmético. Ejemplo:
 
 si se escoge el criterio Mayor (>)  y la cantidad  es 100.000, eso significa que filtrara todas las **OT**s cuyo Gasto Real en la Mano de Obra sea Mayor a Cien Mil Pesos o unidades monetarias.
 
-**Gasto Real Materiales y Repuestos:** Al seleccionar esta opción se habilita una lista despegable donde se escoge el criterio deseado, junto con un cuadro donde se digita el valor de comparación. 
-Los criterios son:**Igual (=), Mayor (>) y Menor (<)**. 
-Estos criterios actúan en comparación con el valor digitado en la casilla que se activa al lado del operador aritmético. 
+**Gasto Real Materiales y Repuestos:** Al seleccionar esta opción se habilita una lista despegable donde se escoge el criterio deseado, junto con un cuadro donde se digita el valor de comparación.
+Los criterios son:**Igual (=), Mayor (>) y Menor (<)**.
+Estos criterios actúan en comparación con el valor digitado en la casilla que se activa al lado del operador aritmético.
 
-**Gasto Real otros Conceptos:** Al seleccionar esta opción se habilita una lista despegable donde se escoge el criterio deseado, junto con un cuadro donde se digita el valor de comparación. 
-Los criterios son: **Igual (=), Mayor (>) y Menor (<)**. Estos criterios actúan en comparación con el valor digitado en la casilla que se activa al lado del operador aritmético. 
-	
+**Gasto Real otros Conceptos:** Al seleccionar esta opción se habilita una lista despegable donde se escoge el criterio deseado, junto con un cuadro donde se digita el valor de comparación.
+Los criterios son: **Igual (=), Mayor (>) y Menor (<)**. Estos criterios actúan en comparación con el valor digitado en la casilla que se activa al lado del operador aritmético.
+
 **Número de la **OT**:** Permite filtrar **OT**s, con base en su número consecutivo. Para ello se define en el criterio un rango. Aparecen cuatro campos, para ubicar el comienzo del rango ** “Desde”** (Año-Consecutivo) y el fin del rango ** “Hasta”** (Año-Consecutivo). De no digitar los campos ** “Desde”**, se buscan las **OT**s cuyo número es inferior al digitado en ** “Hasta”**.  De no digitar los campos ** “Hasta”**, se buscan las **OT**s cuyo número es  posterior al digitado en ** “Desde”**.
 
 **Número de la Solicitud:** Permite buscar una solicitud de servicio especifica por medio del número que ésta fue asociada.
@@ -427,20 +418,20 @@ Los criterios son: **Igual (=), Mayor (>) y Menor (<)**. Estos criterios actúan
 
 **Ubicación  Física:** Permite la selección de las OTs cuyo equipo se encontraba en  una ubicación física, determinada en este criterio. Cuando se utilizan comodines, es  posible seleccionar OTs cuyo equipo esté en una ubicación física que tenga parte  del nombre igual. Por  ejemplo: Cava%  selecciona las  OTs,  efectuadas a Equipos  cuyo  nombre de Ubicación Física empieza por la palabra cava, independientemente de si se está hablando de la cava de fermentación, maduración o contrapresión.
 
-**Días  Vencimiento:** Muestra los días vencidos que tiene una orden, a partir de la fecha programada y la fecha actual. 
+**Días  Vencimiento:** Muestra los días vencidos que tiene una orden, a partir de la fecha programada y la fecha actual.
 
 **3. FILTRAR POR EL USUARIO QUE MANIPULÒ LA ORDEN DE TRABAJO**
 
 **Cierre  Manual  de  la  Orden:**  Filtra  las  Ordenes  de  Trabajo  que  hayan  sido  cerradas m anualmente por el usuario digitado en este campo. Es posible utilizar comodines.
 
-**N**OT**a:** Es importante tener en cuenta que cuando se están realizando los subgrupos,  se pueden utilizar uno o varios de los criterios anteriores, simultáneamente. Además es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber realizado una selección, es posible hacer Otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección, se da un clic al botón <span class="iconify btn" data-icon="mdi-plus-circle">Más</span>, en lugar del botón <a class="btn">Aceptar</a>.
+**N**OT**a:** Es importante tener en cuenta que cuando se están realizando los subgrupos,  se pueden utilizar uno o varios de los criterios anteriores, simultáneamente. Además es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber realizado una selección, es posible hacer Otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección, se da un clic al botón `<span class="iconify btn" data-icon="mdi-plus-circle">`Más, en lugar del botón `<a class="btn">`Aceptar`</a>`.
 
 **4. EV ALU ACION DE SERVICIO**
 
-**Filtrar por Calificación:** Busca filtrar las órdenes de acuerdo a una calificación. Al activar esta opción se activa una lista despegable con las siguientes opciones: 
+**Filtrar por Calificación:** Busca filtrar las órdenes de acuerdo a una calificación. Al activar esta opción se activa una lista despegable con las siguientes opciones:
 
 - Excelente.
--  Bueno.
+- Bueno.
 - Aceptable.
 - Regular.
 - Malo.
@@ -470,7 +461,7 @@ Trabajo. Esta ventana está conformada por dos zonas.
 
 En la zona superior, aparece la matriz de Presupuesto, que resume los  Costos Presupuestados para la **OT**, discriminando por Tipo de Trabajo (En las filas), y por Tipo de Consumo (En las columnas). Aparecen también botones para ingresar  Mano de Obra, Materiales y Repuestos, y otros Conceptos.
 
-En la zona inferior, están los botones que permiten ver, en forma de visor, el presupuesto de la **OT**. Igualmente, se encuentra el botón <a class="btn">Aprobar Presupuesto</a>, que se utiliza una vez se ha definido el presupuesto y se desea iniciar el registro de la  información de Gasto Real.
+En la zona inferior, están los botones que permiten ver, en forma de visor, el presupuesto de la **OT**. Igualmente, se encuentra el botón `<a class="btn">`Aprobar Presupuesto`</a>`, que se utiliza una vez se ha definido el presupuesto y se desea iniciar el registro de la  información de Gasto Real.
 
 **Ingresar Mano de Obra Interna**
 
@@ -523,11 +514,9 @@ Material o Repuesto.
 
 **Cantidad:** Es la cantidad presupuestada para el repuesto seleccionado.
 
-
 **Valor Unitario:** Es el valor unitario del repuesto seleccionado.  AM sugiere el valor unitario ya establecido del Repuesto en cuestión, sin embargo puede cambiarse.
 
-
-**Ingresar otros Conceptos** 
+**Ingresar otros Conceptos**
 
 ![Ventana Detalle](manualAM/0.images/cap11/chp11_img09.png)
 
@@ -549,9 +538,9 @@ otros Conceptos, traída desde su tabla en Infraestructura.
 
 **Valor Total:** Es el costototal presupuestado del **otro Concepto Costo”** teniendo en  cuenta el número de unidades y el valor unitario.
 
-Al hacer clic en el botón <a class="btn">Ir a Matriz</a>, se regresa a la ventana principal de Presupuesto.
+Al hacer clic en el botón `<a class="btn">`Ir a Matriz`</a>`, se regresa a la ventana principal de Presupuesto.
 
-###	Gasto Real
+### Gasto Real
 
 ![Ventana Detalle](manualAM/0.images/cap11/chp11_img10.png)
 
@@ -567,7 +556,7 @@ En la zona inferior, están los botones que permiten ver, en forma de visor, el 
 Debe tenerse en cuenta que el Gasto Real de una **OT** no puede ser modificado si  el
 Presupuesto de la misma no ha sido aprobado.
 
-**Ingresar Mano de obra Interna** 
+**Ingresar Mano de obra Interna**
 
 ![Ventana Detalle](manualAM/0.images/cap11/chp11_img10.png)
 
@@ -643,14 +632,11 @@ A continuación se describen los campos que componen esta ventana; cuando  se qu
 
 **Información  Adicional:** Es  un campo donde se  define un pequeño  comentario sobre el consumo.
 
-
-Al hacer clic en el botón <a class="btn">Ir a Matriz</a>, se regresa a la ventana principal de Gasto Real.
-
+Al hacer clic en el botón `<a class="btn">`Ir a Matriz`</a>`, se regresa a la ventana principal de Gasto Real.
 
 ## Evaluación de Servicio
 
-
-Se puede realizar la evaluación del servicio prestado por el personal de mantenimiento o de servicios, en la **OT**  seleccionada.  La evaluación la debe realizar un usuario, previamente autorizado, quien fuera el receptor del servicio, una vez se ha ya cerrado la **OT**. Esta opción de evaluación se hace disponible, cuando  se  han definido   las  cinco  preguntas  de  evaluación,  en  ** “Parámetros  para Evaluación del  Servicio”**, en ** “Valores por Defecto”**, en el módulo de ** “Administración”**. Es posible realizar la evaluación del servicio de una **OT**, cuando el solicitante se encuentra registrado como un usuario solicitante en el **AM** en el módulo de Administración en Usuarios.  
+Se puede realizar la evaluación del servicio prestado por el personal de mantenimiento o de servicios, en la **OT**  seleccionada.  La evaluación la debe realizar un usuario, previamente autorizado, quien fuera el receptor del servicio, una vez se ha ya cerrado la **OT**. Esta opción de evaluación se hace disponible, cuando  se  han definido   las  cinco  preguntas  de  evaluación,  en  ** “Parámetros  para Evaluación del  Servicio”**, en ** “Valores por Defecto”**, en el módulo de ** “Administración”**. Es posible realizar la evaluación del servicio de una **OT**, cuando el solicitante se encuentra registrado como un usuario solicitante en el **AM** en el módulo de Administración en Usuarios.
 
 ![Ventana Detalle](manualAM/0.images/cap11/chp11_img13.png)
 
@@ -668,9 +654,9 @@ Los documentos anexos pueden contener: ayudas necesarias en la ejecución de la 
 
 A continuación se describen las carpetas que componen esta ventana; cuando se quiera actualizar o ingresar nueva información a la **OT**, se deberán registrar así:
 
-**Cuadro Identificación:** Aparece con los campos bloqueados para que el usuario visualice la información básica de la **OT**. 
+**Cuadro Identificación:** Aparece con los campos bloqueados para que el usuario visualice la información básica de la **OT**.
 
-**Documentos:** En esta carpeta se relacionan toda clase de documentación relacionada a la **OT**. Ejemplo: Archivos en Word, pdf, Excel, entre otros. 
+**Documentos:** En esta carpeta se relacionan toda clase de documentación relacionada a la **OT**. Ejemplo: Archivos en Word, pdf, Excel, entre otros.
 
 **Imágenes:** En esta carpeta se relacionan toda clase de imágenes relacionadas a la **OT**. Ejemplo: Imágenes en formato jpg, png, entre otros.
 
@@ -678,19 +664,19 @@ A continuación se describen las carpetas que componen esta ventana; cuando se q
 
 ![Ventana Detalle](manualAM/0.images/cap11/chp11_img15.png)
 
-Para adicionar un documento, imagen o video, se debe dar clic en la carpeta deseada, luego se da clic al icono <span class="iconify btn" data-icon="cloud-upload">Cargar</span>, a continuación se abre una nueva ventana para realizar la búsqueda del archivo a subir,  se selecciona el archivo y se da clic en <a class="btn">abrir</a>. 
+Para adicionar un documento, imagen o video, se debe dar clic en la carpeta deseada, luego se da clic al icono `<span class="iconify btn" data-icon="cloud-upload">`Cargar, a continuación se abre una nueva ventana para realizar la búsqueda del archivo a subir,  se selecciona el archivo y se da clic en `<a class="btn">`abrir`</a>`.
 
 ![Ventana Detalle](manualAM/0.images/cap11/chp11_img16.png)
 
-Una vez se da clic en <a class="btn">abrir</a>, se evidencia al lado derecho el nombre del archivo elegido y aparece un campo en blanco, para que el usuario escriba un nombre adicional del archivo para ser usado como una referenciación del archivo adjunto. Luego, se da clic en el botón en <a class="btn">Subir archivo</a>. 
+Una vez se da clic en `<a class="btn">`abrir`</a>`, se evidencia al lado derecho el nombre del archivo elegido y aparece un campo en blanco, para que el usuario escriba un nombre adicional del archivo para ser usado como una referenciación del archivo adjunto. Luego, se da clic en el botón en `<a class="btn">`Subir archivo`</a>`.
 
 ![Ventana Detalle](manualAM/0.images/cap11/chp11_img17.png)
 
-Los archivos que se van adicionando van quedando guardados uno debajo del **OT**ro y si se da un clic en uno de las imágenes, se visualiza la imagen adjunta. 
+Los archivos que se van adicionando van quedando guardados uno debajo del **OT**ro y si se da un clic en uno de las imágenes, se visualiza la imagen adjunta.
 
-Para desasociar un documento, o una imagen o un video, a la **OT** se da clic al icono de <span class="iconify btn" data-icon=delete>eliminar (basura)</span> que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro y se da clic en el botón <a class="btn">Aceptar</a>. 
+Para desasociar un documento, o una imagen o un video, a la **OT** se da clic al icono de `<span class="iconify btn" data-icon=delete>`eliminar (basura) que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro y se da clic en el botón `<a class="btn">`Aceptar`</a>`.
 
-Si se desea descargar un archivo adjunto a la **OT**, se debe dar clic en el <span class="iconify btn" data-icon=cloud-download> la nube con flecha hacia abajo</span>, que se encuentra al lado derecho del archivo que se quiere descargar.  
+Si se desea descargar un archivo adjunto a la **OT**, se debe dar clic en el `<span class="iconify btn" data-icon=cloud-download>` la nube con flecha hacia abajo, que se encuentra al lado derecho del archivo que se quiere descargar.
 
 ## Transacciones
 
@@ -706,7 +692,7 @@ El Procedimiento para efectuar un Análisis y posterior Generación de Órdenes 
 
 Digitar la fecha ** “Desde”**, que corresponde al inicio del período a programar. **AM** sugiere la fecha del sistema.
 Digitar la fecha ** “Hasta”**, que corresponde al final del período a programar. **AM** sugiere la fecha de una semana después, pero es una fecha modificable a gusto. Normalmente el período a Analizar, en este proceso, se trata de un período de corto plazo: tres días, una semana, una quincena o un mes.
-Debajo de estas fechas, en la sección de ** “Datos de la última generación”**, aparece la información del rango de fechas para el que se realizó un proceso de Generación de **OT**s la última vez, y el código de login del usuario que ejecutó el proceso. 
+Debajo de estas fechas, en la sección de ** “Datos de la última generación”**, aparece la información del rango de fechas para el que se realizó un proceso de Generación de **OT**s la última vez, y el código de login del usuario que ejecutó el proceso.
 
 **Clic en el botón  “Analizar”**.
 **
@@ -714,7 +700,7 @@ Aparece el siguiente mensaje, contestar ** “Aceptar”** si se desea  ejecutar
 
 ![Ventana Detalle](manualAM/0.images/cap11/chp11_img19.png)
 
-- **AM**- recorre todos   los programas de mantenimiento, y establece cuáles deben generar órdenes de trabajo en el rango de fechas ya estipulado. Durante  este proceso, puede visualizarse el  estado  de  avance  del análisis, en la parte inferior izquierda, el sistema escribe un mensaje en la pantalla de las Ots analizadas deltotal de PMs registrados en la base de datos. El proceso también se puede cancelar haciendo clic en el botón <a class="btn">Cancelar</a>, y el sistema detiene el proceso sin ningún tipo de perjuicio, es decir, a los datos no son afectados en absoluto.
+- **AM**- recorre todos   los programas de mantenimiento, y establece cuáles deben generar órdenes de trabajo en el rango de fechas ya estipulado. Durante  este proceso, puede visualizarse el  estado  de  avance  del análisis, en la parte inferior izquierda, el sistema escribe un mensaje en la pantalla de las Ots analizadas deltotal de PMs registrados en la base de datos. El proceso también se puede cancelar haciendo clic en el botón `<a class="btn">`Cancelar`</a>`, y el sistema detiene el proceso sin ningún tipo de perjuicio, es decir, a los datos no son afectados en absoluto.
 
 Una vez finalice el proceso, se muestra el detalle del análisis y se muestra cuántas órdenes de trabajo se detectaron.
 
@@ -722,13 +708,13 @@ Una vez finalice el proceso, se muestra el detalle del análisis y se muestra cu
 
 - **Clic en Ver Diagrama**
 
-A continuación, se  procede  a visualizar a través de un Diagrama de Gantt, en el cual se muestra la información del Activo con su respectivo PM y al lado derecho se muestra por colores el cronograma con las fechas proyectadas de las actividades. Para esto, se procede a dar clic al botón <a class="btn">Ver Diagrama</a> y se muestran la siguiente gráfica
+A continuación, se  procede  a visualizar a través de un Diagrama de Gantt, en el cual se muestra la información del Activo con su respectivo PM y al lado derecho se muestra por colores el cronograma con las fechas proyectadas de las actividades. Para esto, se procede a dar clic al botón `<a class="btn">`Ver Diagrama`</a>` y se muestran la siguiente gráfica
 
 ![Ventana Detalle](manualAM/0.images/cap11/chp11_img21.png)
 
 Es importante aclarar, que hasta este punto, no ha sido generada ninguna Orden de Trabajo. Solamente se ha detectado un grupo potencial de ellas, que deberían ser ejecutadas de acuerdo a los criterios de programación, si el análisis del programador de mantenimiento lo decide.
 
-- **Clic en Ver Reportes** 
+- **Clic en Ver Reportes**
 
 A continuación, se procede a verificar si para las órdenes detectadas por el proceso de análisis, existen todas las garantías de ejecución, en el rango de fechas programado. Para esto, se procede a imprimir varios reportes que para el caso se  presentan, tal y como se visualiza en la siguiente gráfica:
 
@@ -736,7 +722,7 @@ A continuación, se procede a verificar si para las órdenes detectadas por el p
 
 **Los reportes disponibles para efectuar esta revisión, son:**
 
-- Cronograma de Mantenimiento Programado con TM 
+- Cronograma de Mantenimiento Programado con TM
 - Cronograma de Mantenimiento Programado
 - Actividades por Mes y Día
 - Listado de Repuestos
@@ -744,10 +730,10 @@ A continuación, se procede a verificar si para las órdenes detectadas por el p
 
 Los anteriores reportes pueden ser seleccionados para una o varias **OT**.
 
-Después de seleccionar el reporte, pulse el botón <a class="btn">imprimir</a>.
+Después de seleccionar el reporte, pulse el botón `<a class="btn">`imprimir`</a>`.
 
 Si al imprimir alguno de estos reportes, el usuario advierte que una o varias de  estas Ordenes de Trabajo no deben ser  Generadas, éste es  el momento para  que  cancele todo el proceso, va ya a los Programas de Mantenimiento respectivos,  revise y modifique sus criterios, y vuelva a realizar un nuevo el proceso de Análisis.
-Si después de efectuar la revisión, el usuario está seguro de que ésas son las Órdenes de Trabajo a  generar,  se  hace  clic  en  el  botón  <a class="btn">Generar</a>.  Este   proceso crea tantas Órdenes de Trabajo como hayan sido detectadas por el  proceso  de Análisis.  Durante este proceso, puede consultarse cómo va el proceso haciendo clic en el botón <a class="btn">Consultar</a>.
+Si después de efectuar la revisión, el usuario está seguro de que ésas son las Órdenes de Trabajo a  generar,  se  hace  clic  en  el  botón  `<a class="btn">`Generar`</a>`.  Este   proceso crea tantas Órdenes de Trabajo como hayan sido detectadas por el  proceso  de Análisis.  Durante este proceso, puede consultarse cómo va el proceso haciendo clic en el botón `<a class="btn">`Consultar`</a>`.
 Una vez se generan las Órdenes de Trabajo, los Programas de Mantenimiento que  las generaron, se actualizan automáticamente, ajustando sus criterios y fechas, preparando la consistencia de las generaciones futuras.
 
 ### Modificar Masivamente
@@ -818,7 +804,7 @@ A  continuación  se  describen  los  campos  que  componen  esta  ventana  de  
 
 ![Adjuntar Documento](manualAM/0.images/cap11/chp011_img37.png)
 
-### Seguimiento o Cierre 
+### Seguimiento o Cierre
 
 ![Seguimiento o Cierre](manualAM/0.images/cap11/chp011_img38.png)
 
@@ -828,7 +814,7 @@ A través de la ventana de Seguimiento o Cierre se mantiene al día la inf ormac
 
 A continuación se describen los campos que componen esta ventana; cuando se  quiera actualizar o   hacer seguimiento de   una   Orden de   Trabajo, se   deberán  diligenciar los siguientes campos:
 
-**Cuadro Identificación:** Aparece con los campos bloqueados para que el usuario visualice la información básica de la **OT**. 
+**Cuadro Identificación:** Aparece con los campos bloqueados para que el usuario visualice la información básica de la **OT**.
 
 **Modificar Solamente esta **OT**:** Al seleccionar esta opción, el cambio se aplica solamente a la **OT** que esta resaltada en el visor.
 
@@ -850,7 +836,7 @@ Por ejemplo, si una **OT** tiene como Fecha de Inicio de Trabajos XXXX/12/01 08:
 
 Por ejemplo, si una **OT** correctiva tiene como fecha de Info de Paro XXXX/12/01 08:00, y como  fecha  de   Fin   de   Trabajos  XXXX/12/02  12:30, **AM** sugiere   como  Tiempo Improductivo, 1 día, 4 horas y 30 minutos. Sin embargo, si en ese  lapso, el Equipo no trabaja de 10 PM a 6 AM, pues la empresa no labora este turno de producción, se debe definir el tiempo improductivo como solamente de 20 horas y 30 minutos.
 
-Estado de la **OT**: Una Orden de Trabajo puede tener uno de los siguientes Estados: 
+Estado de la **OT**: Una Orden de Trabajo puede tener uno de los siguientes Estados:
 
 - **E:**	En Ejecución
 - **K:** 	Cancelada
@@ -890,7 +876,7 @@ El objetivo de esta transacción es desplazar hacia el módulo de Historia de Ma
 
 Al hacer clic en la transacción, aparece la siguiente ventana:
 
-![ventana **OT** ](manualAM/0.images/cap11/chp011_img41.png)
+![ventana OT ](manualAM/0.images/cap11/chp011_img41.png)
 
 En la ventana aparece un botón ** “Enviar a Historia”** y tres casillas de selección. Estas casillas  de selección parametriza los registros que se desea enviar a Historia.
 
@@ -900,28 +886,28 @@ En la ventana aparece un botón ** “Enviar a Historia”** y tres casillas de 
 
 **La **OT** seleccionada:** Esta opción realiza el envío de la **OT** que está resaltada  en  el visor (tiene la línea verde del cursor sobre sí).
 
-Para enviar a Historia, se selecciona una de las opciones  y se hace clic en el  botón<a class="btn">Enviar a Historia</a>, entonces aparece la siguiente ventana y se da clic en <a class="btn">Aceptar</a>:
+Para enviar a Historia, se selecciona una de las opciones  y se hace clic en el  botón`<a class="btn">`Enviar a Historia`</a>`, entonces aparece la siguiente ventana y se da clic en `<a class="btn">`Aceptar`</a>`:
 
-![ventana **OT** mensaje de envio ](manualAM/0.images/cap11/chp011_img41.png)
+![ventana OT mensaje de envio ](manualAM/0.images/cap11/chp011_img41.png)
 
 En caso de cancelar el proceso, las órdenes que ya fueron enviadas a Historia, NO  se revierten, es decir, no vuelven a ser Órdenes de Trabajo activas. Aquellas que no  se alcanzaron a enviar, permanecen en el módulo de Órdenes de Trabajo.
 
 En el caso de que NO existan Órdenes de Trabajo para ser enviadas, aparece el siguiente mensaje:
 
-![**OT** mensaje error](manualAM/0.images/cap11/chp011_img41.png)
+![OT mensaje error](manualAM/0.images/cap11/chp011_img41.png)
 
 Una vez finaliza el proceso, aparece el siguiente mensaje:
 
-![**OT** proceso exitoso](manualAM/0.images/cap11/chp011_img42.png)
+![OT proceso exitoso](manualAM/0.images/cap11/chp011_img42.png)
 
-## 	Servicios
+## Servicios
 
 ### Reportes
 
 Este comando permite visualizar los reportes relacionados con Órdenes de
 Trabajo. Existen los siguientes tipos de reportes básicos disponibles:
 
-![**OT** reportes](manualAM/0.images/cap11/chp011_img43.png)
+![OT reportes](manualAM/0.images/cap11/chp011_img43.png)
 
 Los anteriores reportes pueden ser seleccionados para una o varias Órdenes de
 Trabajo:
@@ -932,20 +918,18 @@ Trabajo:
 
 **Registro Seleccionado:** Esta opción realiza  una impresión de  la  **OT**  que  está resaltada en el visor (tiene la línea verde del cursor sobre sí).
 
-**Subtítulo:** En este campo es posible registrar un poco menos de una línea de información, tipo documentación del Reporte, para que se imprima bajo el área de títulos estándar. 
+**Subtítulo:** En este campo es posible registrar un poco menos de una línea de información, tipo documentación del Reporte, para que se imprima bajo el área de títulos estándar.
 
-Para visualizar los reportes, se selecciona el reporte y luego se da clic al botón <a class="btn">Imprimir</a>. 
+Para visualizar los reportes, se selecciona el reporte y luego se da clic al botón `<a class="btn">`Imprimir`</a>`.
 
 # Exportar
 
-Esta opción permite la exportación de los registros de **OT** que aparecen en el visor,totales o provenientes de un subgrupo, a un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso.  
+Esta opción permite la exportación de los registros de **OT** que aparecen en el visor,totales o provenientes de un subgrupo, a un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso.
 
 Al ejecutar esta transacción, se abrirá una ventana la cual se muestra a continuación.
 
-![**OT** exportar](manualAM/0.images/cap11/chp011_img44.png)
+![OT exportar](manualAM/0.images/cap11/chp011_img44.png)
 
-Al darle clic en el botón <a class="btn">Exportar</a>, se generará un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso, el objetivo de esta exportación es llevar toda la información de los registros contenidos en el visor a un archivo plano, para luego ser analizados. 
+Al darle clic en el botón `<a class="btn">`Exportar`</a>`, se generará un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso, el objetivo de esta exportación es llevar toda la información de los registros contenidos en el visor a un archivo plano, para luego ser analizados.
 
-Adicionalmente, es posible exportar todos los campos de la ventana Detalle de los registros, para esto se da clic en el cuadro llamado ** “Exportar Todos Los Campos”**. También, es posible exportar uno o varios campos de la ventana Detalle de los registros, para esto se da clic en cada uno de los cuadros que acompañan los campos. 
-
-
+Adicionalmente, es posible exportar todos los campos de la ventana Detalle de los registros, para esto se da clic en el cuadro llamado ** “Exportar Todos Los Campos”**. También, es posible exportar uno o varios campos de la ventana Detalle de los registros, para esto se da clic en cada uno de los cuadros que acompañan los campos.
