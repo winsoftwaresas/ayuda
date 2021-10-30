@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ◼ Trabajando con AM
+title: ◼ Getting started
 published: true
 order: 01_00
 ---
@@ -226,7 +226,7 @@ Al dar clic al botón [Exportar](#0){: .btn.white} permite exportar el Reporte s
 | `<span class="mdi mdi-plus-circle icon white">`            | **Agregar**<br />Este botón permite adicionar información al registro actual.                                                                                                                                                                                                  |
 | [Cerrar](#0){: .btn.white}                                      | Con este botón se cierra la ventana de generación de reportes y regresa a la ventana en proceso.                                                                                                                                                                                     |
 | [Exportar](#0){: .btn.white}                                    | Este botón permite Exportar los datos qué se encuentran en el visor, a un formato de Excel.                                                                                                                                                                                          |
-| [Imprimir](#0){: .btn.white}                                    | Este botón genera el reporte seleccionado en una nueva ventana. Refiérase a_Servicios » Reportes_ en la ventana submenú de cada módulo del sistema.                                                                                                                             |
+| [Imprimir](#0){: .btn.white}                                    | Este botón genera el reporte seleccionado en una nueva ventana. Refiérase a_Servicios » Reportes_ en la ventana submenú de cada módulo del sistema.                                                                                                                               |
 | [Iniciar Sesión](#0){: .btn.blue}                              | Este botón valida el usuario y la contraseña, necesarios para ingresar a**AM**.                                                                                                                                                                                                |
 | [Enviar a Historia](#0){: .btn.gray}                            | Este botón ejecuta el envío de registros de Solicitudes de Servicio, Órdenes de Trabajo Y Paros/Averías cerradas y/o canceladas, hasta el módulo de Historia de Mantenimiento.                                                                                                    |
 | [Proyectar](#0){: .btn.white}                                   | Inicia el proceso de proyección en PM, con el objetivo de planear y/o presupuestar un periodo de largo plazo, a partir de los PM activos.                                                                                                                                             |

@@ -1,5 +1,5 @@
 ---
-title: Introduccion 
+title: Introducción 
 subtitle: este capitulo da respuesta y orientación al funcionamiento y el uso de la sección ordenes de trabajo en AM 4G.
 tags: [setup]
 author: win

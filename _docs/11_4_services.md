@@ -1,5 +1,5 @@
 ---
-title:  Servicios
+title: Servicios
 subtitle: Este comando permite visualizar los reportes relacionados con los Programas de Mantenimiento
 tags: [setup]
 author: win
@@ -23,4 +23,4 @@ Los anteriores reportes pueden ser seleccionados para uno o varios Programas:
 
 **Subtítulo:** En este campo es posible registrar un poco menos de una línea de información, tipo documentación del Reporte, para que se imprima bajo el área de títulos estándar.
 
-Para visualizar los reportes, se selecciona el reporte y luego se da clic al botón `<a class="btn">`Imprimir`</a>`.
+Para visualizar los reportes, se selecciona el reporte y luego se da clic al botón `<a class="btn">`Imprimir `</a>`.

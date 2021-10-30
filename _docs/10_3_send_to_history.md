@@ -1,5 +1,5 @@
 ---
-title:  Enviar a Historia (Desde Órdenes de Trabajo).
+title:  Enviar a Historia
 subtitle: Su objetivo es desplazar hacía el archivo de Historia de Mantenimiento, las **OT** que estando Cerradas, residen todavía en el archivo de Ordenes de Trabajo.   
 author: win
 order: 10_03

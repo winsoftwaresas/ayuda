@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ◼ Infraestructura
+title: ◼ Assets
 order: 03_00
 ---
 # Activos / Equipos, Objetos de Mantenimiento
@@ -215,7 +215,7 @@ Planeación. Se puede seleccionar cualquiera de las siguientes opciones:
 ## Ir a AC
 
 Esta opción se encuentra ubicada al lado superior derecho de la ventana Visor. Al darle clic al
-`<span class="iconify btn" data-icon="mdi-filter-variant">`Buscar, se abre un campo al lado izquierdo, donde se registra el código exacto del Activo que se desea encontrar rápidamente. Luego de digitar el código del Activo /  Equipo, se presiona la tecla `<a class="btn">`Enter`</a>` y  el  cursor  se  posiciona en  consecuencia,  sobre  el Activo deseado en el Visor.
+`<span class="iconify btn" data-icon="mdi-filter-variant">`Buscar, se abre un campo al lado izquierdo, donde se registra el código exacto del Activo que se desea encontrar rápidamente. Luego de digitar el código del Activo /  Equipo, se presiona la tecla `<a class="btn">`Enter `</a>` y  el  cursor  se  posiciona en  consecuencia,  sobre  el Activo deseado en el Visor.
 
 ![VENTANA IR](../../assets/images/cap03/chp03_img05.png)
 
@@ -240,7 +240,7 @@ El significado de los colores se visualiza al sobreponer el mouse en el icono qu
 
 ## Subgrupo
 
-Se usa para seleccionar grupos de  Activos / Equipos que cumplen con un conjunto  de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al `<a class="btn">`icono de filtro`</a>`, ubicado en la parte superior derecha de la ventana Visor de Activos.
+Se usa para seleccionar grupos de  Activos / Equipos que cumplen con un conjunto  de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al `<a class="btn">`icono de filtro `</a>`, ubicado en la parte superior derecha de la ventana Visor de Activos.
 
 ![activos](../../assets/images/cap03/chp03_img08.png)
 
@@ -347,7 +347,7 @@ Serial.
 **Valor Nominal de Característica:** Permite agrupar los Activos / Equipos de acuerdo con un  determinado  Valor  Nominal  de  una  característica.  Cuando  se  activa  esta   opción automáticamente se activa la de Característica, ya que es necesario definirla.  Esta opción también permite el uso de comodines y funciona igual que en los casos anteriores.
 
 **Nota:** Es importante tener en cuenta que cuando se están realizando los Subgrupos  se pueden  utilizar  uno  o  varios  de  los  criterios  anteriores  simultáneamente.	Además es posible hacer unión de selecciones.  Esto significa que inmediatamente después de haber realizado una selección, es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección se da un clic al botón
-`<span class="iconify btn" data-icon="mdi-plus-circle">`Más, en lugar de darlo al botón  `<a class="btn">`Aceptar`</a>`.
+`<span class="iconify btn" data-icon="mdi-plus-circle">`Más, en lugar de darlo al botón  `<a class="btn">`Aceptar `</a>`.
 
 ## Vistas Parciales / Pestañas
 
@@ -461,13 +461,13 @@ A continuación se describen las carpetas que componen esta ventana; cuando se q
 
 ![DETALLE DE ACT](../../assets/images/cap03/chp03_img14.png)
 
-Para adicionar un documento, imagen o video, se debe dar clic en la carpeta deseada, luego se da clic a `<span class="iconify btn" data-icon="cloud-upload">`Cargar, a continuación se abre una nueva ventana para realizar la búsqueda del archivo a subir,  se selecciona el archivo y se da clic en `<a class="btn">`abrir`</a>`.
+Para adicionar un documento, imagen o video, se debe dar clic en la carpeta deseada, luego se da clic a `<span class="iconify btn" data-icon="cloud-upload">`Cargar, a continuación se abre una nueva ventana para realizar la búsqueda del archivo a subir,  se selecciona el archivo y se da clic en `<a class="btn">`abrir `</a>`.
 
 ![ACT](../../assets/images/cap03/chp03_img15.png)
 
 Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic en uno de las imágenes, se visualiza la imagen adjunta.
 
-Para desasociar un documento, o una imagen o un video, al AC se da clic al icono de `<span class="iconify btn" data-icon=delete>`nar (basura) que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de nar este registro y se da clic en el botón `<a class="btn">`Aceptar`</a>`.
+Para desasociar un documento, o una imagen o un video, al AC se da clic al icono de `<span class="iconify btn" data-icon=delete>`nar (basura) que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de nar este registro y se da clic en el botón `<a class="btn">`Aceptar `</a>`.
 
 Si se desea descargar un archivo adjunto al AC, se debe dar clic en
 `<span class="iconify btn" data-icon=cloud-download>`la nube con flecha hacia abajo
@@ -610,7 +610,7 @@ Equipos que están previamente seleccionados en el visor.
 
 ###Actualizar Contadores
 
-Es  la función  que facilita  la  Actualización de  los  Contadores de  los  Equipos. A  esta ventana se llega mediante un clic en la opción `<a class="btn">`Actualizar Contadores`</a>`. de la  Sección  “Transacciones” del Submenú de Equipos.
+Es  la función  que facilita  la  Actualización de  los  Contadores de  los  Equipos. A  esta ventana se llega mediante un clic en la opción `<a class="btn">`Actualizar Contadores `</a>`. de la  Sección  “Transacciones” del Submenú de Equipos.
 
 La ventana despliega la lista de los Equipos que tienen registrado un Contador dentro  de su definición de  Ficha Técnica. Junto al  Código de cada Equipo aparece el  tipo  de Contador y los datos referentes a la última lectura registrada. Posteriormente, a la derecha de cada línea de un Equipo se encuentran disponibles un conjunto de  campos para el registro de la información correspondiente a una nueva lectura.
 
@@ -630,15 +630,15 @@ En  la  gráfica  anterior,  Ventana  para  Actualización  de  Contadores,  se 
 
 **Med. Act:** En esta columna se ingresa el valor de la lectura de contador a ser registrada.
 
-**AD:** Seleccionando esta opción Botón `<a class="btn">`Adicionar`</a>` se realiza la adición del campo Medición
+**AD:** Seleccionando esta opción Botón `<a class="btn">`Adicionar `</a>` se realiza la adición del campo Medición
 Actual al campo Medición Anterior y deja el resultado en la columna Nueva Medición.
 
-**RE:**  Seleccionando  esta  opción  Botón  `<a class="btn">`Remplazar`</a>` se  copia  el  valor  de  la  columna
+**RE:**  Seleccionando  esta  opción  Botón  `<a class="btn">`Remplazar `</a>` se  copia  el  valor  de  la  columna
 Medición Actual a la columna Nueva Medición.
 
 **Nueva Medición:** En esta columna se listan los valores actualizados de ese contador para el Equipo de cada línea.
 
-Al  finalizar  de  registrar  todas  las  lecturas  de  contadores  se  da  un  clic  en  el  botón `<a class="btn">`Actualizar`</a>` y el sistema responde con una Caja de Diálogo como la que  sigue,  en cuyo caso   para   realizar   efectivamente  las   actualizaciones  a   las   lecturas   de   contadores registradas se da un clic en el botón `<a class="btn">`Sí`</a>`.
+Al  finalizar  de  registrar  todas  las  lecturas  de  contadores  se  da  un  clic  en  el  botón `<a class="btn">`Actualizar `</a>` y el sistema responde con una Caja de Diálogo como la que  sigue,  en cuyo caso   para   realizar   efectivamente  las   actualizaciones  a   las   lecturas   de   contadores registradas se da un clic en el botón `<a class="btn">`Sí `</a>`.
 
 ![Atencion](../../assets/images/cap03/chp03_img47.png)
 
@@ -665,7 +665,7 @@ Al ejecutar esta transacción, se abrirá una ventana la cual se muestra a conti
 
 ![exportar activos](../../assets/images/cap03/chp03_img51.png)
 
-Al darle clic en el botón `<a class="btn">`Exportar`</a>` , se generará un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso, el objetivo de esta exportación es llevar toda la información de los Equipos contenidos en el visor a un archivo plano, para luego ser analizados.
+Al darle clic en el botón `<a class="btn">`Exportar `</a>` , se generará un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso, el objetivo de esta exportación es llevar toda la información de los Equipos contenidos en el visor a un archivo plano, para luego ser analizados.
 
 Adicionalmente, es posible exportar todos los campos de la ventana Detalle de los Activos / Equipos, para esto se da clic en el cuadro llamado ** “Exportar Todos Los Campos”**. También, es posible exportar uno o varios campos de la ventana Detalle de los Activos / Equipos, para esto se da clic en cada uno de los cuadros que acompañan los campos.
 
@@ -685,5 +685,5 @@ Los  anteriores  reportes  pueden  ser  seleccionados  para  uno  o  varios   Eq
 
 **Subtítulo:** En este campo es posible registrar un poco menos de una línea de información, tipo documentación del Reporte, para que se imprima bajo el área de títulos estándar.
 
-Para visualizar los reportes, se selecciona el reporte y luego se da clic al botón `<a class="btn">`Imprimir`</a>`.
+Para visualizar los reportes, se selecciona el reporte y luego se da clic al botón `<a class="btn">`Imprimir `</a>`.
 .

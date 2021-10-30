@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ◼ Spare parts
+title: ◼ Warehouses, materials and spare parts
 order: 04_00
 ---
 # Almacenes, Materiales y Repuestos
@@ -244,7 +244,7 @@ sto  que se encuentre asociado al Código de Barras Interno que se ingresó al c
 
 **Tipo de Trabajo:** Agrupa los Repuestos de acuerdo al tipo de trabajo al que están  asociados.
 
-**Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos  se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además  es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber realizado una selección es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección se da un clic al botón `<span class="iconify btn" data-icon="mdi-plus-circle">`Más,  en lugar de darlo al botón `<a class="btn">`Aceptar`</a>`.
+**Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos  se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además  es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber realizado una selección es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección se da un clic al botón `<span class="iconify btn" data-icon="mdi-plus-circle">`Más,  en lugar de darlo al botón `<a class="btn">`Aceptar `</a>`.
 
 ## Vistas Parciales / Pestañas
 
@@ -317,17 +317,17 @@ A continuación se describen las carpetas que componen esta ventana; cuando se q
 ![ detalle de materiales y repuestos ](../../assets/images/cap04/chp04_img13.png)
 
 Para adicionar un documento, imagen o video, se debe dar clic en la carpeta deseada, luego se da clic al icono `<span class="iconify btn" data-icon="cloud-upload">`Cargar
-, a continuación se abre una nueva ventana para realizar la búsqueda del archivo a subir,  se selecciona el archivo y se da clic en `<a class="btn">`Abrir`</a>`.
+, a continuación se abre una nueva ventana para realizar la búsqueda del archivo a subir,  se selecciona el archivo y se da clic en `<a class="btn">`Abrir `</a>`.
 
 ![ detalle de materiales y repuestos ](../../assets/images/cap04/chp04_img14.png)
 
-Una vez se da clic en`<a class="btn">`Abrir`</a>`, se evidencia al lado derecho el nombre del archivo elegido y aparece un campo en blanco, para que el usuario escriba un nombre adicional del archivo para ser usado como una referenciación del archivo adjunto. Luego, se da clic en el botón `<a class="btn">` “Subir archivo”`</a>`.
+Una vez se da clic en `<a class="btn">`Abrir `</a>`, se evidencia al lado derecho el nombre del archivo elegido y aparece un campo en blanco, para que el usuario escriba un nombre adicional del archivo para ser usado como una referenciación del archivo adjunto. Luego, se da clic en el botón `<a class="btn">` “Subir archivo”`</a>`.
 
 ![ detalle de materiales y repuestos ](../../assets/images/cap04/chp04_img15.png)
 
 Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic en uno de las imágenes, se visualiza la imagen adjunta.
 
-Para desasociar un documento, o una imagen o un video, al AC se da clic al icono de `<span class="iconify btn" data-icon=delete>`eliminar (basura) que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro y se da clic en el botón `<a class="btn">`Aceptar`</a>`.
+Para desasociar un documento, o una imagen o un video, al AC se da clic al icono de `<span class="iconify btn" data-icon=delete>`eliminar (basura) que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro y se da clic en el botón `<a class="btn">`Aceptar `</a>`.
 
 Si se desea descargar un archivo adjunto al RP, se debe dar clic en el icono `<span class="iconify btn" data-icon=cloud-download>`la nube con flecha hacia abajo
 , que se encuentra al lado derecho del archivo que se quiere descargar.
@@ -348,11 +348,11 @@ La asociación de los Repuestos con los Activos, inicia al dar clic a los **chec
 
 ![ detalle de materiales y repuestos ](../../assets/images/cap04/chp04_img18.png)
 
-Para terminar la transacción se da clic al botón `<a class="btn">`Asociar`</a>` inmediatamente se muestra un mensaje confirmando la ejecución de la transacción y se observa el resultado de la asociación realizada.
+Para terminar la transacción se da clic al botón `<a class="btn">`Asociar `</a>` inmediatamente se muestra un mensaje confirmando la ejecución de la transacción y se observa el resultado de la asociación realizada.
 
 ![activos](../../assets/images/cap04/chp04_img19.png)
 
-Si el usuario desea ver la asociación de un Activo y sus Repuestos asociados, se debe elegir un único Activo del lado izquierdo y se da clic al botón `<a class="btn">`Ver RP Asociados`</a>`, **AM** mostrará en el lado derecho los Repuestos que fueron asociados al Activo seleccionado.
+Si el usuario desea ver la asociación de un Activo y sus Repuestos asociados, se debe elegir un único Activo del lado izquierdo y se da clic al botón `<a class="btn">`Ver RP Asociados `</a>`, **AM** mostrará en el lado derecho los Repuestos que fueron asociados al Activo seleccionado.
 
 ![activos](../../assets/images/cap04/chp04_img20.png)
 
@@ -360,7 +360,7 @@ Si se eligen dos o más Activos, el sistema mostrará un mensaje indicando que s
 
 ![activos](../../assets/images/cap04/chp04_img21.png)
 
-Si el usuario desea ver la asociación de un Repuesto y los Activos asociados, se debe elegir un único Repuesto del lado derecho y se da clic al botón a `<a class="btn">`Ver RP Asociados`</a>`, **AM** mostrará en el lado izquierdo los Activos que tienen asociados el Repuesto seleccionado.
+Si el usuario desea ver la asociación de un Repuesto y los Activos asociados, se debe elegir un único Repuesto del lado derecho y se da clic al botón a `<a class="btn">`Ver RP Asociados `</a>`, **AM** mostrará en el lado izquierdo los Activos que tienen asociados el Repuesto seleccionado.
 
 ![activos](../../assets/images/cap04/chp04_img22.png)
 
@@ -372,7 +372,7 @@ Si el usuario desea desasociar uno o varios Repuestos a uno o varios Activos, se
 
 ![activos](../../assets/images/cap04/chp04_img24.png)
 
-Para terminar la transacción se da clic al botón a `<a class="btn">`Desasociar`</a>`  inmediatamente se muestra un mensaje confirmando la ejecución de la transacción y se observa el resultado de la desasociación realizada.
+Para terminar la transacción se da clic al botón a `<a class="btn">`Desasociar `</a>`  inmediatamente se muestra un mensaje confirmando la ejecución de la transacción y se observa el resultado de la desasociación realizada.
 
 ![activos](../../assets/images/cap04/chp04_img25.png)
 
@@ -384,7 +384,7 @@ Al ejecutar esta transacción, se abrirá una ventana la cual se muestra a conti
 
 ![exportar repuestos](../../assets/images/cap04/chp04_img26.png)
 
-Al darle clic en el botón `<a class="btn">`Exportar`</a>`, se generara un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso, el objetivo de esta exportación es llevar toda la información de los Repuestos contenidos en el visor a un archivo plano, para luego ser analizados.
+Al darle clic en el botón `<a class="btn">`Exportar `</a>`, se generara un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso, el objetivo de esta exportación es llevar toda la información de los Repuestos contenidos en el visor a un archivo plano, para luego ser analizados.
 
 Adicionalmente, es posible exportar todos los campos de la ventana Detalle de los Repuestos, para esto se da clic en el cuadro llamado ** “Exportar Todos Los Campos”**. También, es posible exportar uno o varios campos de la ventana Detalle de los Repuestos, para esto se da clic en cada uno de los cuadros que acompañan los campos.
 
@@ -394,7 +394,7 @@ Esta transacción se lleva a cabo para realizar el cierre de inventario del mes 
 
 ![materiales](../../assets/images/cap04/chp04_img27.png)
 
-El proceso se realiza eligiendo la opción  “Inventario final del mes”, se abre una ventana donde se muestran dos campos desplegables, uno para seleccionar el año y otro para el mes a realizar el cierre de inventario, respectivamente. Los meses que despliega son todos los meses del año. Se debe escoger el año correspondiente con el mes a cerrar. Se  da  clic en el botón `<a class="btn">`Cerrar inventario`</a>` y aparecerá una ventana solicitando confirmación de la operación a realizar, como se muestra a continuación.
+El proceso se realiza eligiendo la opción  “Inventario final del mes”, se abre una ventana donde se muestran dos campos desplegables, uno para seleccionar el año y otro para el mes a realizar el cierre de inventario, respectivamente. Los meses que despliega son todos los meses del año. Se debe escoger el año correspondiente con el mes a cerrar. Se  da  clic en el botón `<a class="btn">`Cerrar inventario `</a>` y aparecerá una ventana solicitando confirmación de la operación a realizar, como se muestra a continuación.
 
 ![cerrar inventario](../../assets/images/cap04/chp04_img28.png)
 
@@ -488,7 +488,7 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 **Fecha de Uso:** Es la fecha en la que se tiene planeado utilizar el Repuesto seleccionado en el visor. De acuerdo con esta fecha, la persona encargada del Almacén debe mantener las unidades reservadas, disponibles sólo para quién registró la reserva.
 
 **Estado:** Informa  acerca  del  curso  de  la  Reserva.  Puede  ser  Activa,   Finalizada  o
-Cancelada. El estado Finalizada, solo se puede seleccionar desde el módulo de Kárdex a través de la transacción  “Despachar Reservas”. Para mayor detalle consultar la funcionalidad en el módulo de Kárdex / Ventana Visor de Movimientos de Kárdex. Mientras que el estado Cancelada, sí es posible ejecutarlo desde esta opción, para ello se debe seleccionar la reserva que se va a cancelar, luego seleccionar el estado Cancelada, dar clic al botón `<a class="btn">`Actualizar`</a>`., inmediatamente **AM** muestra un mensaje de alerta indicándole al usuario si está seguro de modificar esta reserva, para finalizar se da clic en Aceptar.
+Cancelada. El estado Finalizada, solo se puede seleccionar desde el módulo de Kárdex a través de la transacción  “Despachar Reservas”. Para mayor detalle consultar la funcionalidad en el módulo de Kárdex / Ventana Visor de Movimientos de Kárdex. Mientras que el estado Cancelada, sí es posible ejecutarlo desde esta opción, para ello se debe seleccionar la reserva que se va a cancelar, luego seleccionar el estado Cancelada, dar clic al botón `<a class="btn">`Actualizar `</a>`., inmediatamente **AM** muestra un mensaje de alerta indicándole al usuario si está seguro de modificar esta reserva, para finalizar se da clic en Aceptar.
 
 **Reservado por:** Es  la  persona  que  registra  la  Reserva  de  las  unidades  del   Repuesto seleccionado.
 
@@ -532,4 +532,4 @@ Los  anteriores  reportes  pueden  ser  seleccionados  para  uno  o  varios   Re
 
 **Subtítulo:** En este campo es posible registrar un poco menos de una línea de información, tipo documentación del Reporte, para que se imprima bajo el área de títulos estándar.
 
-Para visualizar los reportes, se selecciona el reporte y luego se da clic al botón `<a class="btn">`Imprimir`</a>`..
+Para visualizar los reportes, se selecciona el reporte y luego se da clic al botón `<a class="btn">`Imprimir `</a>`..

@@ -1,5 +1,5 @@
 ---
-title: Resumen Como empezar a trabajar
+title: Resumen
 subtitle: El programa AM Administrador de mantenimiento se facilita en gran medida siguiendo los procedimientos básicos que se explican a continuación..
 author: win
 order: 01_05

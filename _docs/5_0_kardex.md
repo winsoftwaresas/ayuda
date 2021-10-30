@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ◼ Kárdex de Almacén
+title: ◼ Kardex
 order: 05_00
 ---
 # Kárdex de Almacén

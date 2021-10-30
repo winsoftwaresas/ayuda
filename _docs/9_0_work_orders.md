@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ◼ work orders
+title: ◼ Work orders
 order: 09_00
 ---
 # Órdenes de Trabajo

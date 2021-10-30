@@ -1,5 +1,5 @@
 ---
-title: Activos / Equipos, Objetos de Mantenimiento
+title: Introducción
 subtitle: Este capítulo reponde  las preguntas necesarias para tener una comprensión clara de qué son los Activos / Equipos, Objetos de Mantenimiento en  AM 4G, su motivo y funcionalidad.
 tags: [setup]
 author: win

@@ -1,5 +1,5 @@
 ---
-title:  Ventana Principal de Programas de Mantenimiento
+title: Ventana Principal de Programas de Mantenimiento
 subtitle: aqui encontrara  el ejemplo visual d cada ventada emergente de la seccion de mantenimiento con su respectivo proceso de uso.
 tags: [setup]
 author: win
@@ -57,7 +57,7 @@ Este campo es un consecutivo ascendente por AC, y es controlado por el Sistema. 
 
 **Incluido en TE (RI):** Al seleccionar esta opción, en el campo ** “Solicitante”** solo se despliegan los Terceros o Responsables Internos existentes en la tabla de Terceros en infraestructura.
 
-**Listado de Acciones Técnicas:** Al habilitar el `<a class="btn">`botón de radio`</a>`, se reemplaza la pestaña ** “Presupuesto”** por ** “Acciones Técnicas”**.
+**Listado de Acciones Técnicas:** Al habilitar el `<a class="btn">`botón de radio `</a>`, se reemplaza la pestaña ** “Presupuesto”** por ** “Acciones Técnicas”**.
 
 **Centro de Costo:** Es el Centro de Costo asignado a la Orden de Trabajo, que corresponde a uno de los Centros de Costo predefinidos en la tabla respectiva, y que es  ** “Responsable”** del pago de los consumos de Gasto Real que dicha OT genere. Inicialmente se sugiere el Centro de Costo que tiene asociado el Activo Objeto de  Mantenimiento, aun así, puede cambiarse.
 
@@ -188,7 +188,7 @@ Este filtro permite por ejemplo, listar todos los PMs asignados al Contratista *
 **Tipo de Trabajo:** Agrupa los PMs de acuerdo al tipo de trabajo al que están asociadas. Utilizando la opción ** “Individualizar”** es posible filtrar los PMs que tienen uno y solo un tipo de trabajo.  De no activar la opción  “Individualizar”, se buscan los PMs, que tengan el tipo de trabajo seleccionado, sin importar si tienen otros tipos de trabajo activos.
 
 **Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos  se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además  es posible hacer unión de selecciones.  Esto significa que inmediatamente después de haber
-realizado una selección es posible hacer otra y unir el resultado de las dos.  Para ello, tras definir los criterios de la segunda selección se da un clic al `<span class="iconify btn" data-icon="mdi-plus-circle">`Más, en  lugar de darlo al botón `<a class="btn">`Aceptar`</a>`.
+realizado una selección es posible hacer otra y unir el resultado de las dos.  Para ello, tras definir los criterios de la segunda selección se da un clic al `<span class="iconify btn" data-icon="mdi-plus-circle">`Más, en  lugar de darlo al botón `<a class="btn">`Aceptar `</a>`.
 
 ## 3.2	Vistas Parciales / Pestañas
 
@@ -318,13 +318,13 @@ Se ingresa mediante un clic en la pestaña **“Presupuesto”** en la ventana d
 
 Esta tabla resume los totales de los costos presupuestados de Mano de Obra Interna, Mano de Obra Externa, Materiales y Repuestos y Otros Conceptos de Costo.
 
-Ingresar o Modificar la Mano de Obra Interna presupuestada, a nivel de tipo de oficio y número de horas entre otros, se puede realizar o definir mediante un clic en el botón de `<a class="btn">`Mano Obra Interna`</a>`. que conduce a la ventana Presupuesto ** “Mano Obra Interna‟.**
+Ingresar o Modificar la Mano de Obra Interna presupuestada, a nivel de tipo de oficio y número de horas entre otros, se puede realizar o definir mediante un clic en el botón de `<a class="btn">`Mano Obra Interna `</a>`. que conduce a la ventana Presupuesto ** “Mano Obra Interna‟.**
 
-Ingresar o Modificar la Mano de Obra Externa presupuestada, a nivel de costo unitario por hora o visita, se puede realizar o definir mediante un clic en el botón de `<a class="btn">`Mano Obra Externa`</a>`. que conduce a la ventana Presupuesto ** “Mano Obra Externa‟.**
+Ingresar o Modificar la Mano de Obra Externa presupuestada, a nivel de costo unitario por hora o visita, se puede realizar o definir mediante un clic en el botón de `<a class="btn">`Mano Obra Externa `</a>`. que conduce a la ventana Presupuesto ** “Mano Obra Externa‟.**
 
-Ingresar o  Modificar los Materiales o Repuestos presupuestados, a nivel de código  de repuesto, tipo de repuesto y número de unidades presupuestadas entre otros, se realiza o define mediante un clic en el botón de `<a class="btn">`Mat y Rep`</a>`. que conduce a la ventana de ** “Presupuesto de Materiales y Repuestos”**.
+Ingresar o  Modificar los Materiales o Repuestos presupuestados, a nivel de código  de repuesto, tipo de repuesto y número de unidades presupuestadas entre otros, se realiza o define mediante un clic en el botón de `<a class="btn">`Mat y Rep `</a>`. que conduce a la ventana de ** “Presupuesto de Materiales y Repuestos”**.
 
-Ingresar o Modificar los Otros Conceptos presupuestados, a nivel de tipo de  Concepto  y Valor  y Tipo  de  Trabajo,  se  puede  realizar  o  definir  mediante un  clic  en  el  botón `<a class="btn">`O. Conceptos`</a>`. que conduce a la ventana **“Presupuesto O. Conceptos de Costo”.**
+Ingresar o Modificar los Otros Conceptos presupuestados, a nivel de tipo de  Concepto  y Valor  y Tipo  de  Trabajo,  se  puede  realizar  o  definir  mediante un  clic  en  el  botón `<a class="btn">`O. Conceptos `</a>`. que conduce a la ventana **“Presupuesto O. Conceptos de Costo”.**
 
 ## **Ingresar Mano de Obra Interna**
 
@@ -357,15 +357,15 @@ Oficio descrito.
 
 **Vlr. Total:** Este campo es informativo y es calculado por el sistema, contiene el valor total del presupuesto para ese Oficio. Es el producto del Vlr. Hora por H. Hombre y Minutos. Se visualiza en la tabla de Mano de Obra Interna.
 
-Al hacer clic en el botón `<a class="btn">`Ir a Matriz`</a>`, se regresa a la ventana principal de Presupuesto.
+Al hacer clic en el botón `<a class="btn">`Ir a Matriz `</a>`, se regresa a la ventana principal de Presupuesto.
 
 ![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img14.png)
 
-Para crear registros de Mano de Obra Interna, se debe hacer clic en el botón `<a class="btn">`Adicionar Mano Obra Interna`</a>`., que se muestra en la ventana detalle de Mano de Obra Interna, se diligencian los campos y finalmente se da clic en el icono del `<span class="iconify btn" data-icon="mdi-plus-circle">`Más, ubicado en la última fila de los campos de Mano de Obra Interna. Seguidamente, se observa que la información creada se muestra en la tabla de mano de Obra Interna, ubicada al lado izquierdo.
+Para crear registros de Mano de Obra Interna, se debe hacer clic en el botón `<a class="btn">`Adicionar Mano Obra Interna `</a>`., que se muestra en la ventana detalle de Mano de Obra Interna, se diligencian los campos y finalmente se da clic en el icono del `<span class="iconify btn" data-icon="mdi-plus-circle">`Más, ubicado en la última fila de los campos de Mano de Obra Interna. Seguidamente, se observa que la información creada se muestra en la tabla de mano de Obra Interna, ubicada al lado izquierdo.
 
 ![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img15.png)
 
-Por otro lado, para eliminar un registro de la tabla de Mano de Obra Interna, se ubica el registro a eliminar directamente en la tabla y se da clic, luego se da clic al icono de `<span class="iconify btn" data-icon=delete>`eliminar (basura), sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en `<a class="btn">`Aceptar`</a>`.
+Por otro lado, para eliminar un registro de la tabla de Mano de Obra Interna, se ubica el registro a eliminar directamente en la tabla y se da clic, luego se da clic al icono de `<span class="iconify btn" data-icon=delete>`eliminar (basura), sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en `<a class="btn">`Aceptar `</a>`.
 
 ![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img16.png)
 
@@ -387,15 +387,15 @@ A continuación se describen los campos que componen esta ventana; cuando se  qu
 
 **Costo Unitario por hora/visita:** Se digita el valor unitario o el costo unitario por hora o por visita de parte del responsable ejecutor externo para esa actividad programada, ya sea un Contratista o un Servicio Externo.
 
-Al hacer clic en el botón `<a class="btn">`Ir a Matriz`</a>`, se regresa a la ventana principal de Presupuesto.
+Al hacer clic en el botón `<a class="btn">`Ir a Matriz `</a>`, se regresa a la ventana principal de Presupuesto.
 
 ![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img17.png)
 
-Para crear registros de Mano de Obra Externa, se debe hacer clic en el botón `<a class="btn">`Adicionar Mano Obra Externa`</a>` , que se muestra en la ventana detalle de Mano de Obra Externa, se diligencian los campos y finalmente se da clic en el icono del `<span class="iconify btn" data-icon="mdi-plus-circle">`Más, ubicado en la última fila de los campos de Mano de Obra Externa. Seguidamente, se observa que la información creada se muestra en la tabla de mano de Obra Externa, ubicada al lado izquierdo
+Para crear registros de Mano de Obra Externa, se debe hacer clic en el botón `<a class="btn">`Adicionar Mano Obra Externa `</a>` , que se muestra en la ventana detalle de Mano de Obra Externa, se diligencian los campos y finalmente se da clic en el icono del `<span class="iconify btn" data-icon="mdi-plus-circle">`Más, ubicado en la última fila de los campos de Mano de Obra Externa. Seguidamente, se observa que la información creada se muestra en la tabla de mano de Obra Externa, ubicada al lado izquierdo
 
 ![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img18.png)
 
-Por otro lado, para eliminar un registro de la tabla de Mano de Obra Externa, se ubica el registro a eliminar directamente en la tabla y se da clic, luego se da clic al icono de `<span class="iconify btn" data-icon=delete>`eliminar (basura), sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en `<a class="btn">`Aceptar`</a>`.
+Por otro lado, para eliminar un registro de la tabla de Mano de Obra Externa, se ubica el registro a eliminar directamente en la tabla y se da clic, luego se da clic al icono de `<span class="iconify btn" data-icon=delete>`eliminar (basura), sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en `<a class="btn">`Aceptar `</a>`.
 
 ![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img19.png)
 
@@ -423,16 +423,16 @@ A continuación se describen los campos que componen esta ventana; cuando se  qu
 
 **Vlr. Total:** Este campo es informativo y es calculado por el sistema, contiene el valor total del presupuesto para ese Repuesto o Material. Es el producto del Vlr. Unitario por Cantidad. Se visualiza en la tabla de Materiales y Repuestos.
 
-Al hacer clic en el botón `<a class="btn">`Ir a Matriz`</a>`, se regresa a la ventana principal de Presupuesto.
+Al hacer clic en el botón `<a class="btn">`Ir a Matriz `</a>`, se regresa a la ventana principal de Presupuesto.
 
 ![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img20.png)
 
-Para crear registros de Otros Conceptos de Costo, se debe hacer clic en el botón `<a class="btn">`Adicionar Otro Concepto`</a>`, que se muestra en la ventana detalle de Otros Conceptos de Costo, se diligencian los campos y finalmente se da clic en el icono del `<span class="iconify btn" data-icon="mdi-plus-circle">`Más, ubicado en la última fila de los campos de Otros Conceptos. Seguidamente, se observa que la información creada se muestra en la tabla de Otros Conceptos, ubicada al lado izquierdo.
+Para crear registros de Otros Conceptos de Costo, se debe hacer clic en el botón `<a class="btn">`Adicionar Otro Concepto `</a>`, que se muestra en la ventana detalle de Otros Conceptos de Costo, se diligencian los campos y finalmente se da clic en el icono del `<span class="iconify btn" data-icon="mdi-plus-circle">`Más, ubicado en la última fila de los campos de Otros Conceptos. Seguidamente, se observa que la información creada se muestra en la tabla de Otros Conceptos, ubicada al lado izquierdo.
 
 ![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img21.png)
 
 Para eliminar un registro de la tabla de Otros Conceptos, se ubica el registro a eliminar directamente en la tabla y se da clic, luego se da clic al icono de `<span class="iconify btn" data-icon=delete>`eliminar (basura), sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en
-`<a class="btn">` Aceptar`</a>`.
+`<a class="btn">` Aceptar `</a>`.
 
 ### Multimedia
 
@@ -456,17 +456,17 @@ A continuación se describen las carpetas que componen esta ventana; cuando se q
 
 ![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img23.png)
 
-Para adicionar un documento, imagen o video, se debe dar clic en la carpeta deseada, luego se da clic al icono de la `<span class="iconify btn" data-icon="cloud-upload">`Cargar, a continuación se abre una nueva ventana para realizar la búsqueda del archivo a subir,  se selecciona el archivo y se da clic en `<a class="btn">`abrir`</a>`.
+Para adicionar un documento, imagen o video, se debe dar clic en la carpeta deseada, luego se da clic al icono de la `<span class="iconify btn" data-icon="cloud-upload">`Cargar, a continuación se abre una nueva ventana para realizar la búsqueda del archivo a subir,  se selecciona el archivo y se da clic en `<a class="btn">`abrir `</a>`.
 
 ![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img24.png)
 
-Una vez se da clic en `<a class="btn">`abrir`</a>`, se evidencia al lado derecho el nombre del archivo elegido y aparece un campo en blanco, para que el usuario escriba un nombre adicional del archivo para ser usado como una referenciación del archivo adjunto. Luego, se da clic en el botón `<a class="btn">`Subir archivo`</a>`.
+Una vez se da clic en `<a class="btn">`abrir `</a>`, se evidencia al lado derecho el nombre del archivo elegido y aparece un campo en blanco, para que el usuario escriba un nombre adicional del archivo para ser usado como una referenciación del archivo adjunto. Luego, se da clic en el botón `<a class="btn">`Subir archivo `</a>`.
 
 ![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img25.png)
 
 Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic en uno de las imágenes, se visualiza la imagen adjunta.
 
-Para desasociar un documento, o una imagen o un video, al PM se da clic al icono de `<span class="iconify btn" data-icon=delete>`eliminar (basura) que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro y se da clic en el botón `<a class="btn">`Aceptar`</a>`.
+Para desasociar un documento, o una imagen o un video, al PM se da clic al icono de `<span class="iconify btn" data-icon=delete>`eliminar (basura) que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro y se da clic en el botón `<a class="btn">`Aceptar `</a>`.
 
 Si se desea descargar un archivo adjunto al PM, se debe dar clic en `<span class="iconify btn" data-icon=cloud-download>`la nube con flecha hacia abajo, que se encuentra al lado derecho del archivo que se quiere descargar.
 
@@ -482,7 +482,7 @@ A través de la ventana de Modificar fecha de inicio de período **(FIP)** se es
 
 Cuando se quiera Modificar la Fecha de Inicio de Periodo, se deberán diligenciar los siguientes campos:
 
-**Fecha Inicio de Periodo:** En este control de fecha, se escoge la nueva fecha a modificar. Una vez realizada esta acción se debe presionar el botón `<a class="btn">`Modificar FIP`</a>`. para que el cambio tenga efecto.  Luego de presionar el botón el sistema es sale un mensaje de confirmación y el cambio de la FIP se verifica en la pestaña de ** “Criterio de Programación”**.
+**Fecha Inicio de Periodo:** En este control de fecha, se escoge la nueva fecha a modificar. Una vez realizada esta acción se debe presionar el botón `<a class="btn">`Modificar FIP `</a>`. para que el cambio tenga efecto.  Luego de presionar el botón el sistema es sale un mensaje de confirmación y el cambio de la FIP se verifica en la pestaña de ** “Criterio de Programación”**.
 
 Recordemos que la 	FIP es una fecha del pasado, y es partir de ella que se calcula el momento de generación de la Orden de Trabajo, cuando el Criterio de Programación se basa en alguna Frecuencia.
 
@@ -528,7 +528,7 @@ Ingresar de manera opcional, los porcentajes respectivos en la sección Asignar 
 
 **Materiales y Repuestos:** Definir el porcentaje que se crea va a incrementar la mano de obra para el período proyectado en cuestión.
 
-**Otros Conceptos:** Definir el porcentaje que se crea va a incrementar la mano de obra para el período proyectado en cuestión. Clic en el botón `<a class="btn">`Proyectar`</a>`.
+**Otros Conceptos:** Definir el porcentaje que se crea va a incrementar la mano de obra para el período proyectado en cuestión. Clic en el botón `<a class="btn">`Proyectar `</a>`.
 
 Aparece el siguiente mensaje. Contestar ** “Aceptar”**.
 
@@ -538,7 +538,7 @@ Aparece el siguiente mensaje. Contestar ** “Aceptar”**.
 
 ![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img30.png)
 
-**AM**** busca en todos los  Programas de Mantenimiento, cuáles deben  proyectar órdenes de trabajo en el rango de fechas estipulado. Durante el  proceso,  puede visualizarse una barra horizontal que va avanzando a medida que se va analizando y el  estado  de  avance  de  la  proyección, en la parte superior derecha, y al finalizar dicho proceso, el sistema muestra el resultado de la proyección de los PMs proyectados del total de PMs registrados en la base de datos. El proceso también se puede cancelar haciendo clic en el botón `<a class="btn">`Cancelar`</a>`., y el sistema detiene el proceso sin ningún tipo de perjuicio, es decir, a los datos no son afectados en absoluto.
+**AM**** busca en todos los  Programas de Mantenimiento, cuáles deben  proyectar órdenes de trabajo en el rango de fechas estipulado. Durante el  proceso,  puede visualizarse una barra horizontal que va avanzando a medida que se va analizando y el  estado  de  avance  de  la  proyección, en la parte superior derecha, y al finalizar dicho proceso, el sistema muestra el resultado de la proyección de los PMs proyectados del total de PMs registrados en la base de datos. El proceso también se puede cancelar haciendo clic en el botón `<a class="btn">`Cancelar `</a>`., y el sistema detiene el proceso sin ningún tipo de perjuicio, es decir, a los datos no son afectados en absoluto.
 
 ![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img31.png)
 
@@ -554,7 +554,7 @@ En el resultado de la proyección, se evidencia:
 
 **Total de labores presupuestadas para el período:** Muestra la cantidad de órdenes de trabajo proyectadas para el rango de fechas especificado.
 
-Clic en Ver Diagrama  A continuación, se  procede  a visualizar a través de un Diagrama de Gantt, en el cual se muestra al lado izquierdo la información del Activo con su respectivo PM, mientras que al lado derecho se muestra por colores el cronograma con las fechas proyectadas de las actividades. Para esto, se procede a dar clic al botón `<a class="btn">`Ver Diagrama`</a>` y se muestran la siguiente gráfica:
+Clic en Ver Diagrama  A continuación, se  procede  a visualizar a través de un Diagrama de Gantt, en el cual se muestra al lado izquierdo la información del Activo con su respectivo PM, mientras que al lado derecho se muestra por colores el cronograma con las fechas proyectadas de las actividades. Para esto, se procede a dar clic al botón `<a class="btn">`Ver Diagrama `</a>` y se muestran la siguiente gráfica:
 
 ![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img32.png)
 
@@ -572,7 +572,7 @@ Al desplegar la lista del campo Escala, permite observar el cronograma por días
 
 **Clic en Ver Reportes**
 
-A  continuación, se  procede  a  verificar  si  las  órdenes  detectadas por  el  proceso  de proyección, sí son las órdenes que se esperan para el rango de fechas establecido.  Para esto, se procede a dar clic al botón `<a class="btn">`Ver Reportes`</a>`  y se muestran varios reportes que para el caso se presentan como se ve en la siguiente  gráfica:
+A  continuación, se  procede  a  verificar  si  las  órdenes  detectadas por  el  proceso  de proyección, sí son las órdenes que se esperan para el rango de fechas establecido.  Para esto, se procede a dar clic al botón `<a class="btn">`Ver Reportes `</a>`  y se muestran varios reportes que para el caso se presentan como se ve en la siguiente  gráfica:
 
 ![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img34.png)
 
@@ -583,7 +583,7 @@ A  continuación, se  procede  a  verificar  si  las  órdenes  detectadas por  
 - Listado de repuestos
 - Actividades por Mes y Día (con Presupuesto Discriminado)
 - Los anteriores reportes pueden ser seleccionados para uno o varios PM.
-- Después de seleccionar el reporte, pulse el botón `<a class="btn">`imprimir`</a>`.
+- Después de seleccionar el reporte, pulse el botón `<a class="btn">`imprimir `</a>`.
 - Si al imprimir alguno de estos reportes, el usuario nota que alguna Orden de Trabajo no debió ser  proyectada, vaya  al  programa de  mantenimiento en  cuestión  y revise  sus criterios, para volver a proyectar de nuevo los PMs.
 - Puede imprimir varios reportes uno seguido del otro.
 

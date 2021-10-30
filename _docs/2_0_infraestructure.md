@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ◼ Infraestructura
+title: ◼ Infraestructure
 order: 02_00
 ---
 #Infraestructura

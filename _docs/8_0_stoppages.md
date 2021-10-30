@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ◼ Stoppages - Failures, Damages and Breakdowns ( **FDA**)
+title: ◼ Stoppages - Failures, Damages and Breakdowns
 order: 08_00
 ---
 # Paros: Fallas, Daños y Averías ( **FDA**)

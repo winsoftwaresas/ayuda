@@ -1,5 +1,5 @@
 ---
-title: Conceptos Básicos de la Historia de Mantenimiento.
+title: Conceptos Básicos
 subtitle: La Historia de Mantenimiento es el centro de acopio de todas las actividades históricas de mantenimiento. Es el centro de información técnica sobre lo que aconteció en mantenimiento.
 author: win
 order: 10_02
