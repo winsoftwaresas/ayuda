@@ -2,16 +2,16 @@
 title:  Ventana Principal de Historia de Mantenimiento.
 subtitle: en esta seccion encontrará el el instructivo de el funcionamiento adecuado  de cada ventana que compone esta seccion en el programa am4g.
 author: win
+order: 10_04
 ---
-
-#	Ventana Principal de Historia de Mantenimiento
+# Ventana Principal de Historia de Mantenimiento
 
 ![Ventana Principal de Historia de Mantenimiento](0.images/cap11/chp11_img01.png)
 
 A esta ventana se llega haciendo clic sobre la opción Historia del Menú Principal. A través de ella se ejecutan todas las funciones dedicadas a administrar la Historia de Mantenimiento. A continuación se ilustran las porciones que la componen.
 
 ## Ventana Visor
- 
+
 !![Ventana Visor](0.images/cap11/chp11_img02.png)
 
 Se accede directamente desde la ventana principal de Historia de Mantenimiento.
@@ -42,7 +42,7 @@ A continuación se describen los campos que componen esta ventana Detalle de Ord
 
 **Referencia:** En  este  campo  se  puede  ingresar  el  número de  un  documento,  que sirve como referencia o relación a la **OT**; ejemplo: Número de una factura,  número de una Orden de Compra asociada, o un documento interno de despacho de almacén, etc.
 
-**Estado:** Este campo está bloqueado y muestra el nombre del Estado de la **OT**. 
+**Estado:** Este campo está bloqueado y muestra el nombre del Estado de la **OT**.
 
 **Código del Activo:** Aquí se establece el Objeto de Mantenimiento, ya sea digitando directamente el Código, o seleccionándolo con los binoculares, al que se le realiza la labor.  Una vez se digita o se selecciona, aparece al lado derecho la Descripción del Equipo.
 
@@ -60,7 +60,7 @@ A continuación se describen los campos que componen esta ventana Detalle de Ord
 
 **Incluido en TE (RI):** Al seleccionar esta opción, en el campo **“**Solicitante  **”** solo se despliegan los Terceros o Responsables Internos existentes en la tabla de Terceros en infraestructura.
 
-**Correo Electrónico:** En este campo se define el correo electrónico del Solicitante de la **OT**, cuando el solicitante es digitado manualmente. Si el solicitante se selecciona con la opción **“**Incluido en Terceros  **”** y allí se tiene definido el correo electrónico, automáticamente se carga a este campo el e-mail definido en el módulo de Terceros. La funcionalidad del envío de correos electrónicos se parametriza Administración, Valores por Defecto, la etiqueta GENERAL, la opción **“**Enviar e-mail al solicitante **”**. 
+**Correo Electrónico:** En este campo se define el correo electrónico del Solicitante de la **OT**, cuando el solicitante es digitado manualmente. Si el solicitante se selecciona con la opción **“**Incluido en Terceros  **”** y allí se tiene definido el correo electrónico, automáticamente se carga a este campo el e-mail definido en el módulo de Terceros. La funcionalidad del envío de correos electrónicos se parametriza Administración, Valores por Defecto, la etiqueta GENERAL, la opción **“**Enviar e-mail al solicitante **”**.
 
 **Centro de Costo:** Es el Centro de Costo asignado a la Orden de Trabajo, que corresponde a uno   de   los   Centros   de   Costo   predefinidos   en   la   tabla   respectiva,   y   que   es **“**Responsable  **”**  del  pago  de  los  consumos  de  Gasto   Real  que  dicha  **OT**  genere. Inicialmente se  sugiere el  Centro de Costo que  tiene asociado el  Equipo Objeto de Mantenimiento, aun así, puede cambiarse.
 
@@ -76,7 +76,7 @@ A continuación se describen los campos que componen esta ventana Detalle de Ord
 
 **Contrato:** Se selecciona el contrato que se despliega de la lista.
 
-**Responsable por la institución:** En este campo se elige a la persona de la institución, que acompañará y/o recibirá la labor prestada por el Responsable ejecutor, cuando este sea un Contratista o Servicio Externo. 
+**Responsable por la institución:** En este campo se elige a la persona de la institución, que acompañará y/o recibirá la labor prestada por el Responsable ejecutor, cuando este sea un Contratista o Servicio Externo.
 
 **T. Trabajo:** Indica los Tipos de Trabajo que se realizan en la **OT**.   Es posible  definir más de un Tipo de Trabajo para una Orden.
 
@@ -99,24 +99,22 @@ Fecha y hora del daño, falla o avería.  La fecha se m aneja en formato AAAA/MM
 
 **Control  Presupuestal:** Esta  Opción permite  definir  si  la  Orden  de  Trabajo maneja Presupuesto. Para las Órdenes de Trabajo Programadas, esta opción  siempre está  seleccionada, pero  aparece protegida,   ya  que  toda  **OT**   Programada  conlleva el Presupuesto Aprobado.
 
-Para  las  Órdenes  de  Trabajo  Manuales,  esta  opción se  establece en  el  m omento  de creación de la misma.  Esta elección se debe m arcar antes de darle clic al botón <a class="btn">Insertar</a>, de otra f orma, -AM 4G- asume que la **OT** no va a requerir Control Presupuestal y la posibilidad de hacer la marcación se inactiva en el acto.
+Para  las  Órdenes  de  Trabajo  Manuales,  esta  opción se  establece en  el  m omento  de creación de la misma.  Esta elección se debe m arcar antes de darle clic al botón `<a class="btn">`Insertar`</a>`, de otra f orma, -AM 4G- asume que la **OT** no va a requerir Control Presupuestal y la posibilidad de hacer la marcación se inactiva en el acto.
 
 Cuando una Orden de Trabajo Manual exige control presupuestal, y el presupuesto no ha sido aprobado, no es posible registrar ni modificar el Gasto Real en ella.
 
-**Comentarios:** Esta opción se usa para ingresar los nuevos comentarios referentes a toda la ejecución de la **OT**. Al dar clic al botón <a class="btn">Agregar Comentario</a> aparecerá el comentario ingresado al lado derecho en una ventana tipo chat bloqueada y a su vez inhabilita la modificación de los comentarios que allí se encuentren; además de la fecha, hora y el usuario logueado que realizó el comentario.    
+**Comentarios:** Esta opción se usa para ingresar los nuevos comentarios referentes a toda la ejecución de la **OT**. Al dar clic al botón `<a class="btn">`Agregar Comentario`</a>` aparecerá el comentario ingresado al lado derecho en una ventana tipo chat bloqueada y a su vez inhabilita la modificación de los comentarios que allí se encuentren; además de la fecha, hora y el usuario logueado que realizó el comentario.
 
 **Este espacio de comentarios sirve para dos efectos:**
 
-Cuando  se  genera  la   **OT**,  como  comentarios  a  priori,  para  especificar  referencias    importantes o ayudas previstas y necesarias en la ejecución posterior de la **OT**: planos, manuales técnicos, manuales de normas técnicas de Mantenimiento o  de especificaciones detalladas; normas de seguridad o enfoques de acción.  Sin embargo, en la gran mayoría de  los casos se utiliza la pestaña Multimedia para registrar estos datos. 
+Cuando  se  genera  la   **OT**,  como  comentarios  a  priori,  para  especificar  referencias    importantes o ayudas previstas y necesarias en la ejecución posterior de la **OT**: planos, manuales técnicos, manuales de normas técnicas de Mantenimiento o  de especificaciones detalladas; normas de seguridad o enfoques de acción.  Sin embargo, en la gran mayoría de  los casos se utiliza la pestaña Multimedia para registrar estos datos.
 Cuando ha concluido la ejecución de la **OT**, es posible utilizarlo para registrar hechos   interesantes acerca de la misma ejecución, como el estado del equipo antes de la intervención, detalles de la intervención, estado del mismo equipo  después de ella, recomendaciones a  los   usuarios  del  equipo,  recomendaciones  a  las  personas de mantenimiento y otros conceptos interesantes a juicio de los ejecutantes.
 
 **Contrato:** Para el caso de Órdenes de Trabajo programadas, que se hayan  generado desde un PM asociado a un Contrato que esté vencido o a punto de vencerse, -AM 4G- informa al  respecto,  en el campo **“**Comentarios **”** junto con la Fecha de vencimiento de aquel.
 
-
 # Ventana Submenú de Historia de Mantenimiento
 
 ## Subgrupo
-
 
 Se usa para seleccionar grupos de Órdenes de Trabajo Históricas que cumplen con un conjunto de criterios o filtros definibles aquí, con el objeto de lograr un estudio posterior sobre ellos.
 
@@ -209,7 +207,6 @@ en un lapso posterior a la digitada en **“**Desde **”**.
 **Gasto Real Mano Obra:** Al seleccionar esta opción se habilita una lista desplegable donde se escoge un operador. Al lado hay un cuadro donde se digita el valor de comparación.
 Los operadores son: Igual (=), Mayor (>) y Menor (<).  El criterio consiste en seleccionar
 las **OTs** Históricas cuyo costo total de mano de Obra es <, =, o > al valor digitado en el cuadro. Ejemplo: si se escoge el criterio Mayor (>) y la cantidad que se digita es 100.000, eso significa, que se desea agrupar todas las **OTs** Históricas cuyo Gasto Real de Mano de Obra es Mayor a Cien Mil Pesos.
- 
 
 **Número de la **OT**:** Permite filtrar **OTs** Históricas, con base en su número consecutivo. Para ello se define en el  criterio un rango.   Aparecen cuatro  campos,  para ubicar el comienzo  del  rango   **“**Desde **”**  (Año-Consecutivo)  y  el  fin   del  rango  **“**Hasta **”**  (Año- Consecutivo).   De no digitar los campos **“**Desde **”**, se  buscan las **OTs** Históricas cuyo número es inferior al digitado en **“**Hasta **”**. De no digitar los campos **“**Hasta **”**, se buscan las **OTs** Históricas cuyo número es posterior al digitado en **“**Desde **”**.
 
@@ -237,7 +234,7 @@ Mantenimiento.
 **Tipo de Trabajo:** Agrupa las **OTs** Históricas de acuerdo al tipo de trabajo que realizaron. Utilizando la opción **“**Individualizar **”** es posible filtrar las Órdenes de  Trabajo que tienen uno y solo un tipo de trabajo. De no activar la opción **“**Individualizar **”**, se buscan las **OTs** Históricas, que tengan el tipo de trabajo seleccionado, sin importar si tienen otros tipos de trabajo activos.
 
 **Ubicación Física:** Permite la selección de las **OTs** Históricas cuyo equipo se encontraba en una ubicación física, determinada en este criterio. Cuando se utilizan comodines, es posible seleccionar **OTs** Históricas cuyo equipo esté en una ubicación física que tenga parte del nombre igual. Por ejemplo: Cava% selecciona las **OTs** Históricas, efectuadas a Equipos	cuyo 	nombre 	de 	Ubicación	Física	empieza 	por 	la 	palabra 	cava, independientemente de si se  está hablando de la cava de fermentación, maduración o contrapresión.
- 
+
 **4. FILTRAR POR CAMPOS PARTICULARES DE P AROS**
 
 **Turno:** Permite la selección de los PAs Históricos cuyo turno laboral indique en el cual se produjo el paro. Se puede elegir entre los turnos 1, 2, 3 y 4.
@@ -258,27 +255,27 @@ Mantenimiento.
 
 **Estado:** Permite seleccionar las SS Históricas de acuerdo con su estado de cierre: **“**Cerrada no ejecutada **”**, **“**Cerrada ejecutada **”** o **“** Cerrada con **OT** **”**.
 
-**Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos,  se pueden utilizar  uno  o  varios  de  los criterios anteriores, simultáneamente.   Además es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber realizado una selección, es posible hacer otra y unir el resultado de las dos.  Para ello, tras definir los criterios de la segunda selección, se da un clic al botón <span class="iconify btn" data-icon="mdi-plus-circle">Más</span>, en lugar de darlo al botón <a class="btn">Aceptar</a>.
+**Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos,  se pueden utilizar  uno  o  varios  de  los criterios anteriores, simultáneamente.   Además es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber realizado una selección, es posible hacer otra y unir el resultado de las dos.  Para ello, tras definir los criterios de la segunda selección, se da un clic al botón `<span class="iconify btn" data-icon="mdi-plus-circle">`Más, en lugar de darlo al botón `<a class="btn">`Aceptar`</a>`.
 
-## 	Vistas Parciales / Pestañas
+## Vistas Parciales / Pestañas
 
-###	Acciones técnicas
+### Acciones técnicas
 
 Esta opción conduce a la tabla de Acciones Técnicas de la **OT**. Esta tabla se ha creado con información seleccionada desde la tabla del mismo nombre en la  Infraestructura, que contiene  un  listado  de  Acciones  Técnicas  frecuentes  en  un  área  de  Mantenimiento. Con   la   información   contenida   en   esta   tabla   se   pretende   describir,   breve   pero concretamente, la actividad general realizada en  una  Orden de Trabajo. Las  Acciones Técnicas en  una **OT** se pueden definir, después de haber seleccionado en la ventana Detalle de la Ficha Técnica de la **OT**, el cuadro llamado **“**Manejo de Costos ABC **”**. La adición de las  Acciones Técnicas se realiza de igual forma que en los módulos Efectos de Falla y Causas de Falla en la Infraestructura.
 
 !![Acciones técnicas](0.images/cap11/chp11_img04.png)
 
-###	Seguimiento o Cierre
+### Seguimiento o Cierre
 
 En la próxima gráfica, que contiene la Ventana de Información de Cierre, se aprecian sus componentes y sus respectivos contenidos. A través de ella se realizó el proceso de cierre de la Orden de Trabajo, en el módulo de Órdenes de Trabajo.  En esta ventana, en Historia de mantenimiento, la única opción permitida es la de modificar, ello bajo las condiciones
 de autorización que son exigidas. De tener la autorización para hacerlo, se modifica el o
-los campos requeridos y se concluye la operación con un clic  en el botón <a class="btn">Actualizar</a>. 
+los campos requeridos y se concluye la operación con un clic  en el botón `<a class="btn">`Actualizar`</a>`.
 
 !![Seguimiento o Cierre](0.images/cap11/chp11_img05.png)
 
 A continuación se describen los campos que componen esta ventana.
 
-**Cuadro Identificación:** Aparece con los campos bloqueados para que el usuario visualice la información básica de la **OT**. 
+**Cuadro Identificación:** Aparece con los campos bloqueados para que el usuario visualice la información básica de la **OT**.
 
 **F/H de Paro:** Para las Órdenes de Trabajo Correctivas, en este campo se registra la Fecha y hora del daño ocurrido. La fecha se m aneja en formato AAAA/MM/DD (Año, Mes, día); la hora se m aneja en formato Militar (de 24 horas). Cabe anotar, que la fecha y hora consignadas   corresponden   al   momento   en   que    se   informó   del   daño   o   falla   a Mantenimiento, así que es posible que el daño  ha ya ocurrido en una fecha/hora anterior. Sin embargo se debe procurar,  administrativamente, que Mantenimiento se entere lo más pronto posible de la Fecha y Hora reales del Daño.
 
@@ -300,11 +297,10 @@ Por ejemplo, si una **OT** histórica, que fue correctiva, tiene como fecha de I
 Estado de la **OT**: Una Orden de Trabajo Histórica puede tener uno de los siguientes
 Estados:
 
-| ABREVIATURA | SIGNIFICADO |
-|-------------|-------------|
-| **C:**  | Cerrada     |
-| **K:**  | Cancelada   |
-
+| ABREVIATURA  | SIGNIFICADO |
+| ------------ | ----------- |
+| **C:** | Cerrada     |
+| **K:** | Cancelada   |
 
 **Causa de Cierre:** Por defecto, cuando se trata de una **OT** cerrada y ejecutada, el sistema ubica en este campo la causa **“**OT Ejecutada **”**. Si la **OT** se ha cerrado con un Estado de **“**K: Cancelada **”**, en este campo se definió la Causa respectiva.
 
@@ -347,7 +343,7 @@ En la zona inferior, están los botones que permiten ver, en forma de visor, el 
 
 !![Ingresar mano de Obra Interna](0.images/cap11/chp11_img09.png)
 
-En la gráfica anterior, Ventana de Ingreso de Mano de Obra, se aprecian sus componentes y sus respectivos contenidos. A ella se llega desde la ventana de Gasto Real en Historia, dando clic al botón <a class="btn">Ingresar Mano de Obra</a>.   La forma del acceso  más normal a este proceso es  de  consulta.  Cuando se  dispone de  los   permisos  requeridos, es  posible también Modificar Historia. Por supuesto que este es un permiso exclusivo.
+En la gráfica anterior, Ventana de Ingreso de Mano de Obra, se aprecian sus componentes y sus respectivos contenidos. A ella se llega desde la ventana de Gasto Real en Historia, dando clic al botón `<a class="btn">`Ingresar Mano de Obra`</a>`.   La forma del acceso  más normal a este proceso es  de  consulta.  Cuando se  dispone de  los   permisos  requeridos, es  posible también Modificar Historia. Por supuesto que este es un permiso exclusivo.
 
 A través de la ventana de Ingreso de Mano de Obra en Gasto Real es posible apreciar el detalle de la Mano de Obra de la Orden de Trabajo Histórica. La funcionalidad es idéntica a la expuesta en el Capítulo Órdenes de Trabajo, en la sección Ingresar Mano de Obra, en Gasto Real.
 
@@ -393,7 +389,7 @@ En la gráfica anterior, Ventana de Ingreso de Otros conceptos, se aprecian sus 
 
 A través de la ventana de Ingreso de Otros Conceptos se visualiza el Gasto Real de **“**Otros Conceptos **”** de la Orden de Trabajo.
 
-A continuación se describen los campos que componen esta ventana. 
+A continuación se describen los campos que componen esta ventana.
 
 **F. Uso:** (Fecha de Uso). Es la fecha en la cual se utilizó el recurso. Concepto: Es el „Otro Concepto‟ seleccionado y cargado a la **OT**.
 
@@ -403,13 +399,14 @@ A continuación se describen los campos que componen esta ventana.
 
 **Valor Total:** Es el costo total presupuestado del **“**Otro Concepto **”** teniendo en cuenta el número de unidades y el valor unitario.
 
-Al hacer clic en el botón <a class="btn">Ir a Matriz</a>, se regresa a la ventana principal de Gasto Real.
+Al hacer clic en el botón `<a class="btn">`Ir a Matriz`</a>`, se regresa a la ventana principal de Gasto Real.
 
-###	Evaluación de Servicio
+### Evaluación de Servicio
 
-A  través  de  esta  transacción  se  hace  seguimiento  a   la evaluación sobre el  servicio prestado por el personal de mantenimiento o de servicios, en la **OT** seleccionada.   Esta opción se hace disponible en Información de Cierre, dando un clic en la caja de selección que precede a la opción **“**Evaluar el Servicio **”**. 
+A  través  de  esta  transacción  se  hace  seguimiento  a   la evaluación sobre el  servicio prestado por el personal de mantenimiento o de servicios, en la **OT** seleccionada.   Esta opción se hace disponible en Información de Cierre, dando un clic en la caja de selección que precede a la opción **“**Evaluar el Servicio **”**.
 
 !![Evaluación de Servicio](0.images/cap11/chp12_img12.png)
+
 ### Multimedia
 
 En la gráfica anterior, Ventana Multimedia, se aprecian sus componentes y sus respectivos contenidos.
@@ -420,9 +417,9 @@ A través de la ventana Multimedia se adjunta información adicional a la **OT**
 
 A continuación se describen las carpetas que componen esta ventana; cuando se quiera actualizar o ingresar nueva información a la **OT**, se deberán registrar así:
 
-**Cuadro Identificación:** Aparece con los campos bloqueados para que el usuario visualice la información básica de la **OT**. 
+**Cuadro Identificación:** Aparece con los campos bloqueados para que el usuario visualice la información básica de la **OT**.
 
-**Documentos:** En esta carpeta se relacionan toda clase de documentación relacionada a la **OT**. Ejemplo: Archivos en Word, pdf, Excel, entre otros. 
+**Documentos:** En esta carpeta se relacionan toda clase de documentación relacionada a la **OT**. Ejemplo: Archivos en Word, pdf, Excel, entre otros.
 
 **Imágenes:** En esta carpeta se relacionan toda clase de imágenes relacionadas a la **OT**. Ejemplo: Imágenes en formato jpg, png, entre otros.
 
@@ -430,19 +427,19 @@ A continuación se describen las carpetas que componen esta ventana; cuando se q
 
 !![Videos](0.images/cap11/chp11_img13.png)
 
-Para adicionar un documento, imagen o video, se debe dar clic en la carpeta deseada, luego se da clic al icono de  <a class="btn">la nube con una flecha hacia arriba en su interior</a>, a continuación se abre una nueva ventana para realizar la búsqueda del archivo a subir,  se selecciona el archivo y se da clic en <a class="btn">abrir</a>. 
+Para adicionar un documento, imagen o video, se debe dar clic en la carpeta deseada, luego se da clic al icono de  `<a class="btn">`la nube con una flecha hacia arriba en su interior`</a>`, a continuación se abre una nueva ventana para realizar la búsqueda del archivo a subir,  se selecciona el archivo y se da clic en `<a class="btn">`abrir`</a>`.
 
 !![adicionar un documento](0.images/cap11/chp11_img14.png)
 
-Una vez se da clic en <a class="btn">abrir</a>, se evidencia al lado derecho el nombre del archivo elegido y aparece un campo en blanco, para que el usuario escriba un nombre adicional del archivo para ser usado como una referenciación del archivo adjunto. Luego, se da clic en el botón <a class="btn">Subir archivo </a>. 
+Una vez se da clic en `<a class="btn">`abrir`</a>`, se evidencia al lado derecho el nombre del archivo elegido y aparece un campo en blanco, para que el usuario escriba un nombre adicional del archivo para ser usado como una referenciación del archivo adjunto. Luego, se da clic en el botón `<a class="btn">`Subir archivo `</a>`.
 
 !![archivo elegido](0.images/cap11/chp11_img15.png)
 
-Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic en uno de las imágenes, se visualiza la imagen adjunta. 
+Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic en uno de las imágenes, se visualiza la imagen adjunta.
 
-Para desasociar un documento, o una imagen o un video, a la **OT** se da clic al icono de <span class="iconify btn" data-icon=delete>eliminar (basura)</span> que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro y se da clic en el botón <a class="btn">Aceptar</a>. 
+Para desasociar un documento, o una imagen o un video, a la **OT** se da clic al icono de `<span class="iconify btn" data-icon=delete>`eliminar (basura) que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro y se da clic en el botón `<a class="btn">`Aceptar`</a>`.
 
-Si se desea descargar un archivo adjunto a la **OT**, se debe dar clic en el icono de <span class="iconify btn" data-icon=cloud-download>la nube con flecha hacia abajo</>, que se encuentra al lado derecho del archivo que se quiere descargar.  
+Si se desea descargar un archivo adjunto a la **OT**, se debe dar clic en el icono de `<span class="iconify btn" data-icon=cloud-download>`la nube con flecha hacia abajo</>, que se encuentra al lado derecho del archivo que se quiere descargar.
 
 ## Servicios
 
@@ -460,25 +457,25 @@ Los anteriores reportes pueden ser impresos, para una o varias Órdenes de Traba
 
 **Registro Seleccionado:** Esta opción permite hacer una impresión de la **OT** Histórica señalada, o sea la que está resaltada con la línea verde en el visor.
 
-**Subtítulo:** En este campo es posible registrar un poco menos de una línea de información, tipo documentación del Reporte, para que se imprima bajo el área de títulos estándar. 
+**Subtítulo:** En este campo es posible registrar un poco menos de una línea de información, tipo documentación del Reporte, para que se imprima bajo el área de títulos estándar.
 
-Para visualizar los reportes, se selecciona el reporte y luego se da clic al botón <a class="btn">Imprimir</a>.
+Para visualizar los reportes, se selecciona el reporte y luego se da clic al botón `<a class="btn">`Imprimir`</a>`.
 
 ### DashBoards
 
-Este comando permite visualizar en tiempo real el comportamiento de los registros de Ordenes de Trabajo Históricas, Solicitudes de Servicio y Paros, con el fin de usarse como una herramienta para análisis y toma de decisiones rápidas. 
+Este comando permite visualizar en tiempo real el comportamiento de los registros de Ordenes de Trabajo Históricas, Solicitudes de Servicio y Paros, con el fin de usarse como una herramienta para análisis y toma de decisiones rápidas.
 
 !![DashBoards](0.images/cap11/chp11_img17.png)
 
-Al dar clic sobre los rectángulos de colores, se oculta la información correspondiente a cada rectángulo. 
+Al dar clic sobre los rectángulos de colores, se oculta la información correspondiente a cada rectángulo.
 
 !![DashBoards](0.images/cap11/chp11_img18.png)
 
-Sí se desea restablecer la información, se debe dar clic botón  <a class="btn">actualizar </a>. En cambio, si se desea exportar el gráfico en un formato de imagen, es posible dando clic a  <a class="btn">la flecha hacia abajo</a>. 
+Sí se desea restablecer la información, se debe dar clic botón  `<a class="btn">`actualizar `</a>`. En cambio, si se desea exportar el gráfico en un formato de imagen, es posible dando clic a  `<a class="btn">`la flecha hacia abajo`</a>`.
 
 !![DashBoards](0.images/cap11/chp11_img19.png)
 
-###	Balance Periódico de Gestión
+### Balance Periódico de Gestión
 
 Aunque no existe una opción o una función específica en ningún menú o submenú dentro de **–AM 4G** que especifique el tema Balance de Gestión, aquí se trata como una herramienta administrativa y de gerencia que debería ser utilizada periódica y disciplinadamente por un Gerente de Mantenimiento que quiera posicionar su área y su cargo, en un nivel realmente gerencial dentro de la organización.
 
@@ -497,20 +494,17 @@ Un Balance Periódico de Gestión de Mantenimiento debe conformarse, al menos, p
 **Reportes de costos, tiempos y número de actividades del período:**
 
 - Gerencial por Centro de Costo, discriminando Mano de Obra, Materiales y Repuestos  y  Otros  Conceptos.  Debería  ser  enviado   al   Gerente  de Producción y a la Gerencia de Planta.
-
 - Detallado a nivel de Orden de Trabajo, también por Centro de  Costo  y discriminado  por  los  mismos  conceptos.  Tendría  como  destino  cada Centro de Costo **“**cliente **”** de Mantenimiento, aprovechando la facilidad que suministra al estar clasificado por Centro de Costo.
 
 **Reportes para Mantenimiento y Almacén:**
 
 - Discriminación de Costos por Tipo de Mantenimiento y Tipo de Trabajo
 - Reportes sobre análisis de fallas: Pareto por mayor número de actividades, habiendo preseleccionado del movimiento del  período sólo lo que corresponde a actividades correctivas.
-- Listado de consumos de Repuestos del período. 
-
+- Listado de consumos de Repuestos del período.
 
 **Índices de Gestión:**
 
 - Se recomienda elegir de la gama de índices que **–AM 4G** ofrece, los índices de gestión más representativos para la empresa y el período evaluado. Además de los índices ya definidos de manera estándar, W IN Software Asociados  ha  desarrollado  algunos  índices  especiales  por  sector  de industria, que están disponibles, solo deben ser solicitados. Igualmente, W IN Software, con su filosofía de continuo mejoramiento del software, está dispuesto a implementar los índices particulares, base de seguimiento de cada empresa, buscando a futuro proveer de manera completa los índices aceptados universalmente para la gestión de Mantenimiento.
-
 
 Como resultado de implementar periódicamente un Balance de Gestión, se hace posible extraer desde ellos,  al final de cada período, un  resumen de  datos  puntuales, de  los reportes que los conforman, para transferir hacia herramientas externas, como Excel por ejemplo.
 

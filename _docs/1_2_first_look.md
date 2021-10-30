@@ -3,22 +3,22 @@ title: Un vistazo a AM
 subtitle: Esta sección ayuda a entender al programa AM (Administrador de Mantenimiento) y a implementarlo para lograr la satisfacción de las necesidades de administración del mantenimiento de los activos en su empresa.
 tags: [setup]
 author: win
+order: 01_02
 ---
-
 Al analizar la ventana principal se aprecia cómo el sistema está conformado por las siguientes funciones, que componen el menú principal.
 
 ### **Infraestructura [IE]**
 
 Función que administra el grupo de datos básicos, parametrizables, de mantenimiento de la empresa:
 
-| | | | | |
-|-|-|-|-|-|
-| Centros de Costo           | Centros Responsables | Oficios          | Terceros                 | Responsables           |
-| Ubicaciones Físicas        | Contratos            | Tipos de Trabajo | Tipos de Mantenimiento   | Tipos de Actividad     |
-| Almacenes                  | Unidades de Medida   | Monedas          | Contadores               | Características        |
-| Características Biomédicas | Riesgos              | Magnitudes       | Otros Conceptos de Costo | Causas de OT Pendiente |
-| Causas de Cierre de OT     | Acciones Técnicas    | Causas de Falla  | Efectos de Falla         | Conceptos de Kárdex    |
-| Operaciones                | Referencias          | Tipos de Régimen | Estados                  |                        |
+|                              |                      |                   |                          |                        |
+| ---------------------------- | -------------------- | ----------------- | ------------------------ | ---------------------- |
+| Centros de Costo             | Centros Responsables | Oficios           | Terceros                 | Responsables           |
+| Ubicaciones Físicas         | Contratos            | Tipos de Trabajo  | Tipos de Mantenimiento   | Tipos de Actividad     |
+| Almacenes                    | Unidades de Medida   | Monedas           | Contadores               | Características       |
+| Características Biomédicas | Riesgos              | Magnitudes        | Otros Conceptos de Costo | Causas de OT Pendiente |
+| Causas de Cierre de OT       | Acciones Técnicas   | Causas de Falla   | Efectos de Falla         | Conceptos de Kárdex   |
+| Operaciones                  | Referencias          | Tipos de Régimen | Estados                  |                        |
 
 Un grupo de estas tablas, se encuentra preconfigurado y puede ajustarse según las necesidades y requerimientos de la empresa. Las restantes describen en detalle la cultura técnica organizacional de mantenimiento.
 

@@ -3,7 +3,6 @@ layout: page
 title: Infraestructura
 order: 02_00
 ---
-
 #Infraestructura
 
 Que información constituye la Infraestructura. Cual es cada una de las tablas que  la conforman. En que secuencia se ingresan, y con  qué estructura de codificación.  Todo esto conforma el contenido del presente capítulo sobre los datos de Infraestructura.
@@ -25,10 +24,9 @@ A continuación se definen los conceptos básicos sobre la conformación de la I
 [Procesar Imagen](../../assets/images/cap02/chp02_img01.png)
 _**Imagen 1.** Infraestructura_
 
-
 # Tablas de Infraestructura
 
-## Terceros 
+## Terceros
 
 Almacena la información de cuatro tipos diferentes de entes terceros relacionados con el sistema.
 
@@ -38,7 +36,7 @@ Almacena la información de cuatro tipos diferentes de entes terceros relacionad
 
 **Proveedor / Fabricante (PF):** En este grupo se registran los proveedores, en todas  sus modalidades, los fabricantes de los equipos o de los objetos de mantenimiento. También caben aquí los proveedores de Repuestos y de materiales de la organización.
 
-**Otro Tipo de Tercero (OT):** Este grupo está abierto para definir otros tipos de Terceros requeridos por condiciones particulares de cada organización. Únicamente se puede usar en conjunto con el tipo RI, para indicar que son usuarios solicitantes. 
+**Otro Tipo de Tercero (OT):** Este grupo está abierto para definir otros tipos de Terceros requeridos por condiciones particulares de cada organización. Únicamente se puede usar en conjunto con el tipo RI, para indicar que son usuarios solicitantes.
 
 Dependiendo del objetivo en que se utilice esta tabla, el sistema despliega solamente los datos relevantes en el respectivo contexto. Por ejemplo cuando se requiere trabajar sobre Responsables de Mantenimiento, incluyendo tanto los internos de la organización como los externos, el sistema muestra solamente estas dos categorías en la tabla de Responsables.
 
@@ -60,14 +58,10 @@ A continuación se describen los campos que componen el registro. No todos ellos
 
 **Tipo:** Este campo permite identificar claramente la actividad y relación del Tercero con la empresa. Un Tercero puede tener varias relaciones con la empresa, relaciones que se establecen seleccionando una o varias posibilidades en las casillas correspondientes. Se han definido los siguientes tipos de Tercero:
 
-- Responsable Interno / Empleado (RI) 
-
-- Responsable Externo / Contratista (RX) 
-
+- Responsable Interno / Empleado (RI)
+- Responsable Externo / Contratista (RX)
 - Proveedor / Fabricante (PF)
-
 - Responsable Interno y Otro (RI-OT)
-
 - Responsable Externo y Proveedor / Fabricante (RX-PF)
 
 Cuando se selecciona cualquiera de los dos primeros tipos de Tercero (Responsable),  es necesario identificar el Oficio que realiza el Tercero. Para esto el programa permite desplegar todos los Oficios que han sido ingresados previamente al sistema.
@@ -76,37 +70,37 @@ El programa permite seleccionar solo uno de dos: **Responsable Interno** o **Res
 
 Un **Responsable Interno (RI)** no puede ser al tiempo **Proveedor (PF)** de la compañía, entonces ésta combinación está inhabilitada.
 
-**Oficio:** En este campo se selecciona, de la lista despegable, el oficio o cargo técnico o especialidad del Tercero. Al seleccionar un Oficio, el programa muestra automáticamente el nombre del Centro Responsable al que está asociado el Oficio.   
+**Oficio:** En este campo se selecciona, de la lista despegable, el oficio o cargo técnico o especialidad del Tercero. Al seleccionar un Oficio, el programa muestra automáticamente el nombre del Centro Responsable al que está asociado el Oficio.
 
 **Contacto:** En este campo se ingresa, para el caso de contratistas y proveedores, el nombre de la persona representante del Tercero ante la empresa. Para el caso de Terceros internos es posible ingresar el mismo nombre del Tercero, o de un representante de su área, o de la secretaria del área o es posible también dejarlo en blanco.
 
-**Correo Electrónico:** En este campo se escribe la dirección electrónica del Tercero. 
+**Correo Electrónico:** En este campo se escribe la dirección electrónica del Tercero.
 
-**Dirección:** En este campo se diligencia la dirección donde se localiza el Tercero. 
+**Dirección:** En este campo se diligencia la dirección donde se localiza el Tercero.
 
 **Ciudad y País:** Aparecen dos campos, en los cuales debe ir la siguiente información:
 
 En el primer campo se escribe la ciudad donde está ubicado el Tercero. En el  segundo campo se escribe el país.
 
-**Teléfonos:** Aparecen dos campos para dos números telefónicos: Teléfono 1 y Teléfono 2. 
+**Teléfonos:** Aparecen dos campos para dos números telefónicos: Teléfono 1 y Teléfono 2.
 
-Cuando se vaya a escribir un número telefónico es importante tener en cuenta que los tres primeros dígitos que se escriban deben corresponder al indicativo de la ciudad o del área. El programa automáticamente escribirá estos tres dígitos dentro de un  paréntesis.   Los siguientes siete dígitos corresponden al número de teléfono y a partir del octavo dígito corresponde al número de la Extensión telefónica (si aplica). El programa automáticamente escribe la palabra Ext.  
+Cuando se vaya a escribir un número telefónico es importante tener en cuenta que los tres primeros dígitos que se escriban deben corresponder al indicativo de la ciudad o del área. El programa automáticamente escribirá estos tres dígitos dentro de un  paréntesis.   Los siguientes siete dígitos corresponden al número de teléfono y a partir del octavo dígito corresponde al número de la Extensión telefónica (si aplica). El programa automáticamente escribe la palabra Ext.
 
-**Centro de Costo:** En este campo se selecciona, de la lista despegable, el centro de costo al que pertenece el Tercero. Si es un Tercero tipo RI, lista los Centros de Costo tipo Mantenimiento; si es un Tercero tipo RI-OT, lista los Centros de Costo tipo Usuario; si es un Tercero tipo RX o RX-PF, lista los Centros de Costo tipo Externo.  
+**Centro de Costo:** En este campo se selecciona, de la lista despegable, el centro de costo al que pertenece el Tercero. Si es un Tercero tipo RI, lista los Centros de Costo tipo Mantenimiento; si es un Tercero tipo RI-OT, lista los Centros de Costo tipo Usuario; si es un Tercero tipo RX o RX-PF, lista los Centros de Costo tipo Externo.
 
-**Código Sub CC:** Este campo siempre está bloqueado y muestra el Código Sub CC asociado al Centro de Costo elegido. 
+**Código Sub CC:** Este campo siempre está bloqueado y muestra el Código Sub CC asociado al Centro de Costo elegido.
 
 **Ingreso y Retiro:** En el primer campo se escribe la fecha en la cual se hizo el ingreso del Tercero al sistema. En el segundo se ingresa la fecha de retiro del Tercero.
 
-**Comentario:** Aquí se ingresan los comentarios sobre un Centro de Costo o sobre un Cliente, representado por su Centro de Costo. 
+**Comentario:** Aquí se ingresan los comentarios sobre un Centro de Costo o sobre un Cliente, representado por su Centro de Costo.
 
-###	Certificaciones Terceros
+### Certificaciones Terceros
 
-Esta nueva funcionalidad se usa para realizar un seguimiento detallado a los Terceros que tienen documentaciones con vigencias y que son cumplimiento de normas. El objetivo de esta funcionalidad es que a los Terceros tipos RI y RX, se les pueda anexar documentación y que el sistema le informe al usuario si ese Tercero está habilitado para hacer labores de mantenimiento en la institución, en particular, cuando las labores a realizar están relacionadas con la documentación anexada vigente. Dependiendo del tipo de Tercero, se habilita una pestaña al lado derecho de la Ficha Técnica del Tercero que se está definiendo y es en esta nueva pestaña que se relaciona la información mencionada. Para ingresar a esta opción se recomienda tener ingresado el Tercero en la tabla, se debe dar clic a la pestaña de Certificaciones para un tipo RI o a la pestaña de Técnicos para un tipo RX. 
+Esta nueva funcionalidad se usa para realizar un seguimiento detallado a los Terceros que tienen documentaciones con vigencias y que son cumplimiento de normas. El objetivo de esta funcionalidad es que a los Terceros tipos RI y RX, se les pueda anexar documentación y que el sistema le informe al usuario si ese Tercero está habilitado para hacer labores de mantenimiento en la institución, en particular, cuando las labores a realizar están relacionadas con la documentación anexada vigente. Dependiendo del tipo de Tercero, se habilita una pestaña al lado derecho de la Ficha Técnica del Tercero que se está definiendo y es en esta nueva pestaña que se relaciona la información mencionada. Para ingresar a esta opción se recomienda tener ingresado el Tercero en la tabla, se debe dar clic a la pestaña de Certificaciones para un tipo RI o a la pestaña de Técnicos para un tipo RX.
 
 **Certificaciones Terceros Tipo RI**
 
-A continuación la explicación de las Certificaciones de Terceros tipo RI, cuya finalidad es que el usuario pueda asociar información importante del responsable ejecutor de la institución como hoja de vida, documento, tarjeta profesional, pasantías, cursos, registro Invima, entre otros. 
+A continuación la explicación de las Certificaciones de Terceros tipo RI, cuya finalidad es que el usuario pueda asociar información importante del responsable ejecutor de la institución como hoja de vida, documento, tarjeta profesional, pasantías, cursos, registro Invima, entre otros.
 
 ![detalles de terceros](../../assets/images/cap02/chp02_img04.png)
 
@@ -114,25 +108,23 @@ En la gráfica anterior, Ventana Certificaciones, se aprecian sus componentes y 
 
 A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación.
 
-Nombre Certificado: En este campo se escribe el nombre del documento a adjuntar. 
+Nombre Certificado: En este campo se escribe el nombre del documento a adjuntar.
 
-FF Vencimiento: En este campo se elige la fecha de vencimiento del documento a adjuntar. 
+FF Vencimiento: En este campo se elige la fecha de vencimiento del documento a adjuntar.
 
-Adjuntar Documentos: Para adjuntar el documento, se debe dar clic al  <a class="btn">Seleccionar archivo</a>
-“Seleccionar archivo”, se observa que se abre una ventana para buscar el archivo y seleccionarlo dando doble clic o clic al botón<a class="btn">Abrir</a>
- , al lado derecho del campo se observa que se muestra el nombre del archivo adjuntado, para insertar o actualizar los datos en esta tabla se da clic en el botón<a class="btn">Abrir</a>
+Adjuntar Documentos: Para adjuntar el documento, se debe dar clic al  `<a class="btn">`Seleccionar archivo`</a>`
+“Seleccionar archivo”, se observa que se abre una ventana para buscar el archivo y seleccionarlo dando doble clic o clic al botón`<a class="btn">`Abrir`</a>`
+, al lado derecho del campo se observa que se muestra el nombre del archivo adjuntado, para insertar o actualizar los datos en esta tabla se da clic en el botón`<a class="btn">`Abrir`</a>`
 
-
-Para actualizar la información de alguna certificación, se actualiza los campos y terminar el proceso de actualización con el botón <a class="btn">Actualizar</a>. Si se desea desasociar la información de una certificación de un Técnico, se debe dar clic al icono de <span class="iconify btn" data-icon=delete>eliminar (basura)</span> que está al lado izquierdo del documento anexo, sale mensaje de alerta que indica al usuario de sí está seguro de eliminar el registro y se da clic en Aceptar.   
-
+Para actualizar la información de alguna certificación, se actualiza los campos y terminar el proceso de actualización con el botón `<a class="btn">`Actualizar`</a>`. Si se desea desasociar la información de una certificación de un Técnico, se debe dar clic al icono de `<span class="iconify btn" data-icon=delete>`eliminar (basura) que está al lado izquierdo del documento anexo, sale mensaje de alerta que indica al usuario de sí está seguro de eliminar el registro y se da clic en Aceptar.
 
 **Certificaciones Terceros Tipo RX**
 
-Por otro lado, a continuación la explicación de los Técnicos de Terceros tipo RX, cuya finalidad es que el usuario pueda asociar información importante del responsable ejecutor contratista o servicio externo como hoja de vida, documento, tarjeta profesional, pasantías, cursos, registro Invima, entre otros. 
+Por otro lado, a continuación la explicación de los Técnicos de Terceros tipo RX, cuya finalidad es que el usuario pueda asociar información importante del responsable ejecutor contratista o servicio externo como hoja de vida, documento, tarjeta profesional, pasantías, cursos, registro Invima, entre otros.
 
 ![detalles de terceros](../../assets/images/cap02/chp02_img05.png)
 
-En la gráfica anterior, Ventana Técnicos, se aprecian sus componentes y sus respectivos contenidos. En la ventana Detalle de Terceros se  encuentra la información relevante al Técnico del Tercero seleccionado en el Visor. 
+En la gráfica anterior, Ventana Técnicos, se aprecian sus componentes y sus respectivos contenidos. En la ventana Detalle de Terceros se  encuentra la información relevante al Técnico del Tercero seleccionado en el Visor.
 A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación.
 
 **Nombre:** En este campo se escribe el nombre propio de la(s) persona(s) que ejecutará(n) las labores de mantenimiento a la institución.
@@ -145,51 +137,50 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 **Requiere Certificación:** Este switche permite que al vencerse cualquier documento de una persona, se asigne una pelota de color rojo, para indicar que está vencido o verde, para indicar que se encuentra activo, en la columna  “Habilitado” de la tabla de Técnicos y en la ventana visor de Terceros. El objetivo es que el usuario pueda enterarse con antelación de los vencimientos de los documentos de la(s) persona(s) que ejecutará(n) las labores de mantenimiento a la institución.
 
-**Nombre Certificado:** En este campo se escribe el nombre del documento a adjuntar. 
+**Nombre Certificado:** En este campo se escribe el nombre del documento a adjuntar.
 
-**FF Vencimiento:** En este campo se elige la fecha de vencimiento del documento a adjuntar. 
+**FF Vencimiento:** En este campo se elige la fecha de vencimiento del documento a adjuntar.
 
-**Adjuntar Documentos:** Para adjuntar el documento, se debe dar clic al botón <a class="btn">Seleccionar archivo</a>. se observa que se abre una ventana para buscar el archivo y seleccionarlo dando doble clic o clic al botón <a class="btn">Abrir</a>, al lado derecho del campo se observa que se muestra el nombre del archivo adjuntado, para insertar o actualizar los datos en esta tabla se da clic en el botón <a class="btn">Más</a> o  <a class="btn">Actualizar Técnico</a>, **respectivamente.** Para finalizar el proceso, en ambos casos, se debe dar clic al botón <a class="btn">Actualizar</a>.
+**Adjuntar Documentos:** Para adjuntar el documento, se debe dar clic al botón `<a class="btn">`Seleccionar archivo`</a>`. se observa que se abre una ventana para buscar el archivo y seleccionarlo dando doble clic o clic al botón `<a class="btn">`Abrir`</a>`, al lado derecho del campo se observa que se muestra el nombre del archivo adjuntado, para insertar o actualizar los datos en esta tabla se da clic en el botón `<a class="btn">`Más`</a>` o  `<a class="btn">`Actualizar Técnico`</a>`, **respectivamente.** Para finalizar el proceso, en ambos casos, se debe dar clic al botón `<a class="btn">`Actualizar`</a>`.
 
-Para registrar un nuevo técnico se da clic en el botón <a class="btn">Más</a>, ubicado en la parte inferior izquierda de la tabla Técnicos. Para actualizar la información de alguno de los técnicos, primero se selecciona el técnico en la tabla, se observa que se muestra la información detallada de ese técnico, se procede a actualizar los campos, luego dar clic al botón <a class="btn">Actualizar Técnico</a> y finalmente terminar el proceso de actualización con el botón <a class="btn">Actualizar Técnico</a>. Si se desea desasociar la información de una certificación de un Técnico, se debe dar clic al icono de<span class="iconify btn" data-icon=delete>eliminar (basura)</span> que está al lado derecho del documento anexo, sale mensaje de alerta que indica al usuario de sí está seguro de eliminar el registro y se da clic en <a class="btn">Aceptar</a>.  
+Para registrar un nuevo técnico se da clic en el botón `<a class="btn">`Más`</a>`, ubicado en la parte inferior izquierda de la tabla Técnicos. Para actualizar la información de alguno de los técnicos, primero se selecciona el técnico en la tabla, se observa que se muestra la información detallada de ese técnico, se procede a actualizar los campos, luego dar clic al botón `<a class="btn">`Actualizar Técnico`</a>` y finalmente terminar el proceso de actualización con el botón `<a class="btn">`Actualizar Técnico`</a>`. Si se desea desasociar la información de una certificación de un Técnico, se debe dar clic al icono de`<span class="iconify btn" data-icon=delete>`eliminar (basura) que está al lado derecho del documento anexo, sale mensaje de alerta que indica al usuario de sí está seguro de eliminar el registro y se da clic en `<a class="btn">`Aceptar`</a>`.
 
 ### Indicadores
 
-Es posible visualizar de manera inmediata, los Terceros habitados e inhabilitados, directamente desde la ventana visor, a través de la columna  “Indicadores” que muestra una pelota de color que indica su estado. El significado del color de cada pelota, se puede ver en el recuadro de Indicadores, ubicado en la parte superior derecha de la ventana visor.   
+Es posible visualizar de manera inmediata, los Terceros habitados e inhabilitados, directamente desde la ventana visor, a través de la columna  “Indicadores” que muestra una pelota de color que indica su estado. El significado del color de cada pelota, se puede ver en el recuadro de Indicadores, ubicado en la parte superior derecha de la ventana visor.
 
 ![terceros](../../assets/images/cap02/chp02_img06.png)
 
 El significado de los colores se visualiza al sobreponer el mouse en el icono que se encuentra al extremo superior derecho y su correspondencia es:
 
--	**Verde:** Terceros con certificaciones que tienen fecha de vencimiento posterior a la fecha actual, es decir, se encuentran con sus certificaciones habilitadas
-
--	**Rojo:** Terceros con certificaciones que tienen fecha de vencimiento anterior a la fecha actual, es decir, se encuentran con una o varias certificaciones inhabilitadas.
+- **Verde:** Terceros con certificaciones que tienen fecha de vencimiento posterior a la fecha actual, es decir, se encuentran con sus certificaciones habilitadas
+- **Rojo:** Terceros con certificaciones que tienen fecha de vencimiento anterior a la fecha actual, es decir, se encuentran con una o varias certificaciones inhabilitadas.
 
 ### Subgrupo Terceros
 
-Se usa para seleccionar grupos de Terceros que cumplen un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al <span class="mdi mdi-filter-variant icon white"></span>, ubicado en la parte superior derecha de la ventana Visor de Terceros. 
+Se usa para seleccionar grupos de Terceros que cumplen un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al `<span class="mdi mdi-filter-variant icon white">`, ubicado en la parte superior derecha de la ventana Visor de Terceros.
 
 ![terceros](../../assets/images/cap02/chp02_img07.png)
 
-**AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar. 
+**AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar.
 
 Cada criterio trabaja en conjunto con los demás, con el operador intersección.
 
 Cada criterio aparece inicializado en un valor global que permite mostrar todos  los Terceros. Lo que significa que de no escoger un criterio se obtiene como resultado  del subgrupo el mismo conjunto completo de todos los Terceros.
 
-El programa permite entonces hacer selección de un grupo de Terceros de acuerdo con los criterios seleccionados en la siguiente ventana. 
+El programa permite entonces hacer selección de un grupo de Terceros de acuerdo con los criterios seleccionados en la siguiente ventana.
 
 ![subgrupo terceros](../../assets/images/cap02/chp02_img08.png)
 
 Los campos de datos que constituyen criterio de selección haciendo parte de la Ventana Subgrupo son los siguientes.
 
-**Centro de Costo:** Se elige de la lista el Centro de Costo al que pertenece el Tercero. 
+**Centro de Costo:** Se elige de la lista el Centro de Costo al que pertenece el Tercero.
 
 **Centro Responsable:** Lista los centros responsables registrados en el sistema. cap02/chp02_img09.png)
 
-También se puede elegir el centro responsable o un grupo de centros responsables mediante el uso de comodines, para ello, se debe dar clic al icono <span class="material-icons">lock</span> “Candado”. Ejemplo, si se escribe %adm%, el sistema entiende que debe seleccionar aquellos Terceros cuyo centro responsable tenga incluida la secuencia  “adm”.   
+También se puede elegir el centro responsable o un grupo de centros responsables mediante el uso de comodines, para ello, se debe dar clic al icono `<span class="material-icons">`lock “Candado”. Ejemplo, si se escribe %adm%, el sistema entiende que debe seleccionar aquellos Terceros cuyo centro responsable tenga incluida la secuencia  “adm”.
 
-**Ciudad:** Permite la selección de la ciudad donde se encuentre un Tercero. 
+**Ciudad:** Permite la selección de la ciudad donde se encuentre un Tercero.
 
 **Código:** Esta selección agrupa los Terceros relacionados por su código. Por ejemplo: si se escribe 98%, el sistema localiza aquellos Terceros cuyo código empieza por 98. El porcentaje a continuación, es un carácter comodín que significa ** “todos”**.
 
@@ -197,7 +188,7 @@ También se puede elegir el centro responsable o un grupo de centros responsable
 
 ![tipo](../../assets/images/cap02/chp02_img10.png)
 
-**Contacto:** Permite la selección de los Terceros que tengan un contacto asociado, ya sea el mismo nombre del Tercero o el nombre de la persona representante de la empresa. 
+**Contacto:** Permite la selección de los Terceros que tengan un contacto asociado, ya sea el mismo nombre del Tercero o el nombre de la persona representante de la empresa.
 
 **Estado:** Permite la selección de los Terceros de acuerdo al estado de Activo o Inactivo. El estado de los Terceros es importante para la selección en las listas  desplegables. Por ejemplo: Si un Tercero de tipo RI, tiene definido el Estado ** “Inactivo”**, este no aparecerá en la lista de los Responsables de la OT.
 
@@ -207,12 +198,12 @@ También se puede elegir el centro responsable o un grupo de centros responsable
 
 ![oficio](../../assets/images/cap02/chp02_img11.png)
 
-De igual forma, se puede elegir el oficio mediante la opción Utilizar comodines, para ello, se debe dar clic al icono <a class="btn">Candado</a>, . Esta selección agrupa los Terceros relacionados por su oficio. Por ejemplo: si se escribe ayudante%, el sistema localiza aquellos Terceros cuyo oficio empieza por la palabra ** “ayudante”**.
+De igual forma, se puede elegir el oficio mediante la opción Utilizar comodines, para ello, se debe dar clic al icono `<a class="btn">`Candado`</a>`, . Esta selección agrupa los Terceros relacionados por su oficio. Por ejemplo: si se escribe ayudante%, el sistema localiza aquellos Terceros cuyo oficio empieza por la palabra ** “ayudante”**.
 
 **Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos  se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además  es posible hacer unión de selecciones.  Esto significa que inmediatamente después de haber
 
-realizado una selección es posible hacer otra y unir el resultado de las dos.  Para ello, tras definir los criterios de la segunda selección se da un clic al botón <a class="btn">Mas (+)</a>, en  lugar de darlo al botón <a class="btn">Acepar</a>
-			  
+realizado una selección es posible hacer otra y unir el resultado de las dos.  Para ello, tras definir los criterios de la segunda selección se da un clic al botón `<a class="btn">`Mas (+)`</a>`, en  lugar de darlo al botón `<a class="btn">`Acepar`</a>`
+
 ### Ubicaciones Físicas
 
 Las Ubicaciones Físicas corresponden a los sitios o áreas geográficas donde se encuentran los Activos, Equipos, Objetos de Mantenimiento y los Repuestos. Es la lista de las áreas  físicas que conforman el  “Layout” de la planta de producción (Industria, Manufactura) o de la planta de servicios (Hoteles, Hospitales, Banca) o simplemente de las facilidades que conforman las instalaciones que son objetos de mantenimiento.
@@ -222,39 +213,22 @@ El  concepto  de  Ubicaciones  Físicas  es  netamente  de  geografía,  diferen
 Para ilustrar mejor este concepto definimos a continuación algunos ejemplos de Ubicaciones Físicas.
 
 - Planta de Acabados.
-
-- Planta de Acabados. 
-
-- Empaqué Planta de Acabados. 
-
+- Planta de Acabados.
+- Empaqué Planta de Acabados.
 - Pesaje Edificio de Administración.
-
 - Edificio de Administración, Oficinas.
-
 - Edificio de Administración. Laboratorio Químico.
-
--  Edificio de Administración. Laboratorio Textil 
-
+- Edificio de Administración. Laboratorio Textil
 - Almacén General
-
 - Almacén de Materia Prima.
-
 - Almacén de Materiales y Repuestos.
-
 - **FC-** Fundición.
-
 - **FC-** Fundición. Fleje FC-Fundición. Hornos.
-
 - **FC-**Fundición. Línea 1.
-
 - **FC-** Fundición. Línea 1.Fresado.
-
 - **FC**-Fundición. Línea 2.
-
 - **FC-**Fundición. Línea 2.Fresado.
-
 - **FC-** Fundición. Puente Grúa.
-
 - **FC-** Fundición, Sostenimiento.
 
 Se recomienda utilizar los nombres de las Ubicaciones Físicas que la cultura  empresarial ha acostumbrado manejar. Existe disponible un espacio de cuarenta  caracteres para la Ubicación Física. Es posible también mezclar una porción de código y lenguaje natural.
@@ -271,11 +245,11 @@ El registro  de las Ubicaciones Físicas es muy importante, pues ellas serán  i
 
 ![ventana ie](../../assets/images/cap02/chp02_img12.png)
 
-En la gráfica anterior, Ventana Técnicos, se aprecian sus componentes y sus respectivos contenidos. En la ventana Detalle de Terceros se  encuentra la información relevante al Técnico del Tercero seleccionado en el Visor. 
+En la gráfica anterior, Ventana Técnicos, se aprecian sus componentes y sus respectivos contenidos. En la ventana Detalle de Terceros se  encuentra la información relevante al Técnico del Tercero seleccionado en el Visor.
 
 A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación.
 
-**Código UF:** Se define un código o indicativo único para la ubicación física, que puede ser un consecutivo. Ejemplo: UF-001, el cual UF corresponde a las abreviaturas de Ubicación Física y 001 corresponde al primer registro.   
+**Código UF:** Se define un código o indicativo único para la ubicación física, que puede ser un consecutivo. Ejemplo: UF-001, el cual UF corresponde a las abreviaturas de Ubicación Física y 001 corresponde al primer registro.
 
 **Nombre UF:** En 50 caracteres se registra el  nombre de la nueva Ubicación Física.
 
@@ -287,30 +261,29 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 **Unidad de Medida Capacidad:** Se elige la Unidad de Medida utilizada para definir la capacidad del área; para ello se selecciona uno de los valores predefinidos en esa tabla.
 
-
 **Estado:** El campo estado se utiliza para definir si la UF actual se encuentra Activa o Inactiva. Este Estado se utiliza para posibilitar o inhabilitar el despliegue de UF en otros contextos (Equipos, OT, PM, etc.). De esta forma, una UF inactiva NO aparece al intentar crear Equipos, OT u otros.
 
 ### Subgrupo Ubicaciones Físicas
 
 ![ubicaciones fisicas](../../assets/images/cap02/chp02_img14.png)
 
-**AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar. 
+**AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar.
 
 Cada criterio trabaja en conjunto con los demás, con el operador intersección.
 
-Cada criterio aparece inicializado en un valor global que permite mostrar todas  las Ubicaciones Físicas. Lo que significa que de no escoger un criterio se obtiene como resultado  del subgrupo el mismo conjunto completo de todas las Ubicaciones Físicas. 
+Cada criterio aparece inicializado en un valor global que permite mostrar todas  las Ubicaciones Físicas. Lo que significa que de no escoger un criterio se obtiene como resultado  del subgrupo el mismo conjunto completo de todas las Ubicaciones Físicas.
 
-El programa permite entonces hacer selección de un grupo de Ubicaciones Físicas 
+El programa permite entonces hacer selección de un grupo de Ubicaciones Físicas
 
 ![subgrupo](../../assets/images/cap02/chp02_img15.png)
 
 Los campos de datos que constituyen criterio de selección haciendo parte de la Ventana Subgrupo son los siguientes.
 
-**Área:** Filtra las UF que tienen la cantidad de área ingresada en el campo. 
+**Área:** Filtra las UF que tienen la cantidad de área ingresada en el campo.
 
 ![area](../../assets/images/cap02/chp02_img16.png)
 
-**Capacidad:** Filtra las UF que tienen la cantidad de capacidad ingresada en el campo. 
+**Capacidad:** Filtra las UF que tienen la cantidad de capacidad ingresada en el campo.
 
 ![capacidad](../../assets/images/cap02/chp02_img17.png)
 
@@ -318,34 +291,33 @@ Los campos de datos que constituyen criterio de selección haciendo parte de la 
 
 ![codigo uf](../../assets/images/cap02/chp02_img18.png)
 
-**Estado:** Permite la selección de las UF de acuerdo al estado de Activo o Inactivo. El estado de las UF es importante para la selección en las listas  desplegables.     
-**Por ejemplo:** Si una UF, tiene definido el Estado ** “Inactivo**, esta no aparecerá en la lista de las Ubicaciones Físicas de los módulos de Activos, Solicitudes de Servicio, Paros, Ordenes de Trabajo, Historia y Almacén. 
+**Estado:** Permite la selección de las UF de acuerdo al estado de Activo o Inactivo. El estado de las UF es importante para la selección en las listas  desplegables.
+**Por ejemplo:** Si una UF, tiene definido el Estado ** “Inactivo**, esta no aparecerá en la lista de las Ubicaciones Físicas de los módulos de Activos, Solicitudes de Servicio, Paros, Ordenes de Trabajo, Historia y Almacén.
 
 ![Estado](../../assets/images/cap02/chp02_img19.png)
 
-**Nombre UF:** Selecciona las UF según criterios basados en su Nombre. 
-**Ejemplo:** %Planta% selecciona todas las UF en cuyo nombre, en cualquier parte, tengan la palabra 
+**Nombre UF:** Selecciona las UF según criterios basados en su Nombre.
+**Ejemplo:** %Planta% selecciona todas las UF en cuyo nombre, en cualquier parte, tengan la palabra
 ** “Planta”**.
 
 ![nom uf](../../assets/images/cap02/chp02_img20.png)
 
-**Unidad de Medida Área:** Lista las Unidades de Medida registradas en la tabla de Unidades de Medida. Se elige de la lista la Unidad de Medida deseada. 
+**Unidad de Medida Área:** Lista las Unidades de Medida registradas en la tabla de Unidades de Medida. Se elige de la lista la Unidad de Medida deseada.
 
 ![uni de med area](../../assets/images/cap02/chp02_img21.png)
 
+También se puede elegir la unidad de medida mediante el uso de comodines, para ello, se debe dar clic al icono `<a class="btn">`Candado`</a>`. Ejemplo, si se escribe metros%, el sistema entiende que debe seleccionar aquellas UF cuya unidad de medida comience por la palabra ** “metros”**. El porcentaje a continuación, es un carácter comodín que significa ** “todos”**.
 
-También se puede elegir la unidad de medida mediante el uso de comodines, para ello, se debe dar clic al icono <a class="btn">Candado</a>. Ejemplo, si se escribe metros%, el sistema entiende que debe seleccionar aquellas UF cuya unidad de medida comience por la palabra ** “metros”**. El porcentaje a continuación, es un carácter comodín que significa ** “todos”**.
-
-**Unidad de Medida Capacidad:** Lista las Unidades de Medida registradas en la tabla de Unidades de Medida. Se elige de la lista la Unidad de Medida deseada. 
+**Unidad de Medida Capacidad:** Lista las Unidades de Medida registradas en la tabla de Unidades de Medida. Se elige de la lista la Unidad de Medida deseada.
 
 ![uni de med capacidad](../../assets/images/cap02/chp02_img22.png)
 
-También se puede elegir la unidad de medida mediante el uso de comodines, para ello, se debe dar clic al icono <a class="btn">Candado</a>. Ejemplo, si se escribe la palabra sin porcentajes %, el sistema realiza una búsqueda de aquellas UF que en cualquier parte del campo tengan el nombre de la palabra digitada, en este caso, la palabra ** “bloques”**.
+También se puede elegir la unidad de medida mediante el uso de comodines, para ello, se debe dar clic al icono `<a class="btn">`Candado`</a>`. Ejemplo, si se escribe la palabra sin porcentajes %, el sistema realiza una búsqueda de aquellas UF que en cualquier parte del campo tengan el nombre de la palabra digitada, en este caso, la palabra ** “bloques”**.
 
 **Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos  se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además  es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber
-realizado una selección es posible hacer otra y unir el resultado de las dos.  Para ello, tras definir los criterios de la segunda selección se da un clic al botón <a class="btn">Mas (+)</a>, en  lugar de darlo al botón <a class="btn">Aceptar</a>.
+realizado una selección es posible hacer otra y unir el resultado de las dos.  Para ello, tras definir los criterios de la segunda selección se da un clic al botón `<a class="btn">`Mas (+)`</a>`, en  lugar de darlo al botón `<a class="btn">`Aceptar`</a>`.
 
-## Almacenes 
+## Almacenes
 
 Es la tabla de Infraestructura en la que se definen los distintos Almacenes,  Bodegas o Depósitos de: Materias Primas, Materiales y Repuestos o elementos generales de una organización.
 
@@ -371,7 +343,7 @@ La primera consiste en valorizar todos los ítems de un código según el costo 
 
 La segunda opción Promedio Ponderado, consiste en valorizar todo el conjunto de ítems de un mismo código mediante el cálculo sencillo de un promedio ponderado.
 
-Utilizar uno u otro método depende de si el Almacén es contable o no. Se recomienda utilizar el método de Promedio Ponderado si se trata de un Almacén contable. Si se trata de un Almacén no contable, o sea, cuando se considera que los ítems que lo conforman, al ser trasladados a esta bodega ya fueron consumidos contablemente, entonces se recomienda usar el método de costeo por Último  Ingreso, en cuyo caso la elaboración y proyección de presupuestos puede arrojar información más  realista, al tiempo que no existe el riesgo de la revalorización  contable de los mismos ítems. 
+Utilizar uno u otro método depende de si el Almacén es contable o no. Se recomienda utilizar el método de Promedio Ponderado si se trata de un Almacén contable. Si se trata de un Almacén no contable, o sea, cuando se considera que los ítems que lo conforman, al ser trasladados a esta bodega ya fueron consumidos contablemente, entonces se recomienda usar el método de costeo por Último  Ingreso, en cuyo caso la elaboración y proyección de presupuestos puede arrojar información más  realista, al tiempo que no existe el riesgo de la revalorización  contable de los mismos ítems.
 
 **Tipo Almacén:** Esta opción, de tipo combo, muestra tres ítems: Contable y No Contable.
 
@@ -379,7 +351,7 @@ Esta funcionalidad, permitirá a futuro definir si el Almacén seleccionado es C
 
 **Almacén  Corporativo:** Este switche indica si el almacén al cual se está haciendo referencia es el corporativo. Cuando se define si es el almacén corporativo, se declara con la palabra ** “SI”**, en caso contrario se define con la palabra ** “NO”**. Para  definir el almacén corporativo se realiza en el módulo de Administración, en la opción de Valores por defecto, en la etiqueta General, existe la opción de ** “Almacén corporativo”** con un combo desplegable para escoger cual es el almacén.
 
-**Comentario:** Aquí se ingresan los comentarios sobre un Centro de Costo o sobre un Cliente, representado por su Centro de Costo. 
+**Comentario:** Aquí se ingresan los comentarios sobre un Centro de Costo o sobre un Cliente, representado por su Centro de Costo.
 
 ## Unidades de Medida
 
@@ -406,7 +378,7 @@ contenidos. En la ventana Detalle de Monedas se encuentra la información releva
 
 A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación.
 
-**Nombre:** En este campo se registra el nombre de la moneda. 
+**Nombre:** En este campo se registra el nombre de la moneda.
 
 **Abreviatura:** En este campo se establece la abreviatura que identifica la moneda
 
@@ -426,14 +398,13 @@ A continuación se describe el campo que compone el registro.
 
 ## Características
 
-
 Es una tabla conformada por los nombres de las Características propias de los Equipos o de los Repuestos, que se utilizan al definir la porción variable de su ficha técnica.  En esta tabla sólo se ingresan los nombres de las Características o los  parámetros-característica de los Equipos y Repuestos. Se cuenta con 30 dígitos para  ingresar la característica deseada.
 
 El valor  y las unidades correspondientes a cada Característica se ingresan en  la  ficha técnica del Equipo o del Repuesto.
 
 La gama de Características depende del tipo de equipamiento de la empresa, por tanto es una tabla modificable o adecuable con gran facilidad.
 
-Existen varios tipos de Características que se configuran según el equipo, al definir su ficha técnica. El primer tipo, el más común, corresponde a las de tipo Informativo o No Controlable, en el que van acompañadas, en la ficha técnica, por un valor  nominal y una unidad. El segundo tipo corresponde a las Controlables Cuantitativas,  en el que además del valor nominal y una unidad, se acompañan por un rango de Tolerancia permitido. Finalmente, el tercer tipo corresponde a las Controlables Cualitativas, en el que se registra un valor apreciativo: SI, NO, BUENO, MALO, REGULAR, etc. 
+Existen varios tipos de Características que se configuran según el equipo, al definir su ficha técnica. El primer tipo, el más común, corresponde a las de tipo Informativo o No Controlable, en el que van acompañadas, en la ficha técnica, por un valor  nominal y una unidad. El segundo tipo corresponde a las Controlables Cuantitativas,  en el que además del valor nominal y una unidad, se acompañan por un rango de Tolerancia permitido. Finalmente, el tercer tipo corresponde a las Controlables Cualitativas, en el que se registra un valor apreciativo: SI, NO, BUENO, MALO, REGULAR, etc.
 
 Cuando se trata de Características de Repuestos solo existe un tipo de ellas y son las de tipo Informativo.
 
@@ -463,21 +434,21 @@ En la gráfica anterior, ventana visor Centros de Costo,  se aprecian sus compon
 
 A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación.
 
-**Código CC:** En  este campo se registra el código de cada Centro de Costo. La capacidad del campo es de 40 caracteres alfanuméricos. 
+**Código CC:** En  este campo se registra el código de cada Centro de Costo. La capacidad del campo es de 40 caracteres alfanuméricos.
 
-**Código Sub CC:** En  este campo se registra el Sub CC (si aplica) asociado al Centro de Costo. El Sub CC es un mecanismo para controlar las distintas porciones de costo dentro de un Centro de Costo a manera de cuentas internas. 
+**Código Sub CC:** En  este campo se registra el Sub CC (si aplica) asociado al Centro de Costo. El Sub CC es un mecanismo para controlar las distintas porciones de costo dentro de un Centro de Costo a manera de cuentas internas.
 
 **Descripción CC:** Se usa para escribir el nombre del Centro de Costo. Es posible, a gusto de la empresa usuaria, escribir los nombres de cada Centro de Costo en forma de título: La primera letra de cada nombre en mayúscula y las siguientes en  minúsculas,  o todo en mayúsculas. Para la descripción se dispone de 60 caracteres alfanuméricos.
 
 Si el Centro de Costo se refiere a un Cliente, en este campo se define el nombre de la empresa cliente.
 
-**Tipo:** Se elige el tipo del Centro de Costo que aplique. Si el Centro de Costo se refiere a un Centro de Costo interno de la empresa usuaria, se elige el tipo Usuario. Si el Centro de Costo se refiere a un Centro de Costo de Mantenimiento y es interno de la empresa usuaria, se elige el tipo Mantenimiento. Si el Centro de Costo se refiere a un Cliente, se elige el tipo Externo. 
+**Tipo:** Se elige el tipo del Centro de Costo que aplique. Si el Centro de Costo se refiere a un Centro de Costo interno de la empresa usuaria, se elige el tipo Usuario. Si el Centro de Costo se refiere a un Centro de Costo de Mantenimiento y es interno de la empresa usuaria, se elige el tipo Mantenimiento. Si el Centro de Costo se refiere a un Cliente, se elige el tipo Externo.
 
-**Responsable:** Aquí se define a la persona encargada de la responsabilidad o del manejo del Centro de Costo. Se define el Responsable para los Centros de Costo tipo Usuario y Mantenimiento.  
+**Responsable:** Aquí se define a la persona encargada de la responsabilidad o del manejo del Centro de Costo. Se define el Responsable para los Centros de Costo tipo Usuario y Mantenimiento.
 
 **Contacto:** Si el Centro de Costo se refiere a un Cliente, aquí se define el nombre de la persona que representa a ese Cliente. Se define el Contacto para los Centros de Costo tipo Externo.
 
-**CC Superior**: En este campo se define el Centro de Costo correspondiente a la jerarquía inmediatamente superior.    
+**CC Superior**: En este campo se define el Centro de Costo correspondiente a la jerarquía inmediatamente superior.
 
 **Área/Depto:** Indica el área o departamento al cual pertenece el Centro de Costo respectivo. Si el Centro de Costo se refiere a un Cliente, aquí se define el grupo o sector de industria al que pertenece esa empresa Cliente.
 
@@ -485,30 +456,29 @@ Si el Centro de Costo se refiere a un Cliente, en este campo se define el nombre
 
 **Dirección (Opcional):** En este campo se diligencia la dirección del Área o  Departamento al que pertenece el Centro  de Costo. Si el Centro de Costo se refiere a un Cliente, aquí se define la dirección del Cliente.
 
-**Teléfono (Opcional):** En él se define el número del teléfono correspondiente al Centro de Costo. Si el Centro de Costo se refiere a un Cliente, aquí se detalla el teléfono del Cliente. Se debe recordar que al escribir un número telefónico los tres primeros dígitos que se escriben corresponden al indicativo de la ciudad. El programa automáticamente escribe estos tres dígitos dentro de un paréntesis. Los siguientes siete dígitos corresponden al número de teléfono y a partir del octavo dígito corresponde al número de la Extensión telefónica (si aplica). El programa automáticamente escribe la palabra Ext.  
+**Teléfono (Opcional):** En él se define el número del teléfono correspondiente al Centro de Costo. Si el Centro de Costo se refiere a un Cliente, aquí se detalla el teléfono del Cliente. Se debe recordar que al escribir un número telefónico los tres primeros dígitos que se escriben corresponden al indicativo de la ciudad. El programa automáticamente escribe estos tres dígitos dentro de un paréntesis. Los siguientes siete dígitos corresponden al número de teléfono y a partir del octavo dígito corresponde al número de la Extensión telefónica (si aplica). El programa automáticamente escribe la palabra Ext.
 
-**Correo Electronico:** En este campo se escribe la dirección electrónica del Centro de Costo o del Responsable o Contacto del Centro de Costo. 
+**Correo Electronico:** En este campo se escribe la dirección electrónica del Centro de Costo o del Responsable o Contacto del Centro de Costo.
 
-**Estado:** Indica el estado en que se encuentra el Centro de Costo: Activo o inactivo. 
+**Estado:** Indica el estado en que se encuentra el Centro de Costo: Activo o inactivo.
 
 **Clase:** Indica la clase a que pertenece el Centro de Costo: Com (Comercial), Ind (Industrial), Ser (Servicios), Fin (Financiero), Edu (Educativo), Gob (Gobierno) y Otr (Otro).
 
-**Comentario:** Aquí se ingresan los comentarios sobre un Centro de Costo o sobre un Cliente, representado por su Centro de Costo. 
+**Comentario:** Aquí se ingresan los comentarios sobre un Centro de Costo o sobre un Cliente, representado por su Centro de Costo.
 
 ### Subgrupo Centros de Costo
 
-Se usa para seleccionar grupos de Centros de Costo que cumplen un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al <a class="btn">icono de filtro</a>, ubicado en la parte superior derecha de la ventana Visor de Centros de Costo. 
+Se usa para seleccionar grupos de Centros de Costo que cumplen un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al `<a class="btn">`icono de filtro`</a>`, ubicado en la parte superior derecha de la ventana Visor de Centros de Costo.
 
 ![Detalle el centro de costo](../../assets/images/cap02/chp02_img30.png)
 
-
-**AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar. 
+**AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar.
 
 Cada criterio trabaja en conjunto con los demás, con el operador intersección.
 
-Cada criterio aparece inicializado en un valor global que permite mostrar todos  los Centros de Costo. Lo que significa que de no escoger un criterio se obtiene como resultado  del subgrupo el mismo conjunto completo de todos los Centros de Costo. 
+Cada criterio aparece inicializado en un valor global que permite mostrar todos  los Centros de Costo. Lo que significa que de no escoger un criterio se obtiene como resultado  del subgrupo el mismo conjunto completo de todos los Centros de Costo.
 
-El programa permite entonces hacer selección de un grupo de Centros de Costo de acuerdo con los criterios seleccionados en la siguiente ventana. 
+El programa permite entonces hacer selección de un grupo de Centros de Costo de acuerdo con los criterios seleccionados en la siguiente ventana.
 
 ![subgrupo centro de costo](../../assets/images/cap02/chp02_img31.png)
 
@@ -518,20 +488,20 @@ Los campos de datos que constituyen criterio de selección haciendo parte de la 
 
 ![area/ depto](../../assets/images/cap02/chp02_img32.png)
 
-**CC Superior:** Permite filtrar por aquellos CC Superior que fueron asociados a los CC. Lista los CC creados en la tabla de Centros de Costos.  
+**CC Superior:** Permite filtrar por aquellos CC Superior que fueron asociados a los CC. Lista los CC creados en la tabla de Centros de Costos.
 
 ![cc superior](../../assets/images/cap02/chp02_img33.png)
 
-**Ciudad:** Filtra los CC que están asociados a la Ciudad especificada. 
+**Ciudad:** Filtra los CC que están asociados a la Ciudad especificada.
 
 ![ciudad](../../assets/images/cap02/chp02_img34.png)
 
 También se puede escribir la ciudad mediante el uso de comodines. Ejemplo, si se escribe Bog%, el sistema entiende que debe seleccionar aquellos CC cuya ciudad comience por la palabra  “Bog”. El porcentaje a continuación, es un carácter comodín que significa  “todos”.
 
-**Clase:** Filtra los CC que están asociados a una de las clases listadas.  
+**Clase:** Filtra los CC que están asociados a una de las clases listadas.
 
 ![clase](../../assets/images/cap02/chp02_img35.png)
- 
+
 **Código CC:** Esta selección agrupa los CC relacionados por su código. Por ejemplo: si se escribe cont%, el sistema localiza aquellos CC cuyo código empieza por cont. El porcentaje a continuación, es un carácter comodín que significa  “todos”.
 
 ![cod cc](../../assets/images/cap02/chp02_img36.png)
@@ -544,20 +514,20 @@ También se puede escribir la ciudad mediante el uso de comodines. Ejemplo, si s
 
 ![contacto](../../assets/images/cap02/chp02_img39.png)
 
-**Descripción CC:** Agrupa los CC cuya descripción corresponda a un Centro de Costo Interno o a un Cliente. 
+**Descripción CC:** Agrupa los CC cuya descripción corresponda a un Centro de Costo Interno o a un Cliente.
 
 ![contacto](../../assets/images/cap02/chp02_img40.png)
 
-**Dirección:** Permite filtrar por la dirección del Área o  Departamento asociada a los CC.  
+**Dirección:** Permite filtrar por la dirección del Área o  Departamento asociada a los CC.
 
 ![contacto](../../assets/images/cap02/chp02_img41.png)
 
-**Correo Electrónico:** Filtra la dirección electrónica asociada a un CC. 
+**Correo Electrónico:** Filtra la dirección electrónica asociada a un CC.
 
 ![correo](../../assets/images/cap02/chp02_img42.png)
 
-**Estado:** Permite la selección de los CC de acuerdo al estado de Activo o Inactivo. El estado de los CC es importante para la selección en las listas  desplegables.    
-**Por ejemplo:** Si un CC, tiene definido el Estado  “Inactivo”, esta no aparecerá en la lista de los Contratos, Terceros, módulos de Activos, Kárdex, Programas, Solicitudes de Servicio, Paros, Ordenes de Trabajo, Historia y Administración.  
+**Estado:** Permite la selección de los CC de acuerdo al estado de Activo o Inactivo. El estado de los CC es importante para la selección en las listas  desplegables.
+**Por ejemplo:** Si un CC, tiene definido el Estado  “Inactivo”, esta no aparecerá en la lista de los Contratos, Terceros, módulos de Activos, Kárdex, Programas, Solicitudes de Servicio, Paros, Ordenes de Trabajo, Historia y Administración.
 
 ![estado](../../assets/images/cap02/chp02_img43.png)
 
@@ -569,13 +539,13 @@ También se puede escribir la ciudad mediante el uso de comodines. Ejemplo, si s
 
 ![telofono](../../assets/images/cap02/chp02_img45.png)
 
-**Tipo:** Agrupa los CC de acuerdo al tipo seleccionado. 
+**Tipo:** Agrupa los CC de acuerdo al tipo seleccionado.
 
 ![tipo](../../assets/images/cap02/chp02_img46.png)
 
 ## Centros Responsables
 
-Son los centros especializados, encargados de ejecutar labores de mantenimiento. Se incluyen tanto los Centros Responsables de Mantenimiento propios de la empresa  como 
+Son los centros especializados, encargados de ejecutar labores de mantenimiento. Se incluyen tanto los Centros Responsables de Mantenimiento propios de la empresa  como
 
 los externos a ella (Contratistas y Talleres Externos).
 
@@ -595,11 +565,11 @@ De igual forma, debe constituir un Centro Responsable el conjunto de Contratista
 
 **Ejemplos de Centros Responsables:**
 
-**Talleres Externos:** Tall.Ext 
+**Talleres Externos:** Tall.Ext
 
-**Contratistas:** Contratis 
+**Contratistas:** Contratis
 
-**Mantenimiento Mecánico:** Mtto.Mec 
+**Mantenimiento Mecánico:** Mtto.Mec
 
 **Taller Eléctrico:** Tall.Elec
 
@@ -613,13 +583,13 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 **Estado:** Es un campo para seleccionar un valor de los predefinidos, Activo o Inactivo que refleja el estado de ese Centro Responsable ante el aplicativo.
 
-**Tipo:** Se elige si es un Centro Responsable de tipo Interno, sí es de la empresa; o tipo Externo, sí corresponde a un Taller Externo o Contratista. 
+**Tipo:** Se elige si es un Centro Responsable de tipo Interno, sí es de la empresa; o tipo Externo, sí corresponde a un Taller Externo o Contratista.
 
 ## Oficios
 
-Aquí se definen los Oficios o Cargos Técnicos de mantenimiento que el área de Relaciones Laborales de la empresa tiene registrados dentro de cada Centro Responsable. 
+Aquí se definen los Oficios o Cargos Técnicos de mantenimiento que el área de Relaciones Laborales de la empresa tiene registrados dentro de cada Centro Responsable.
 
-En otras palabras esta es la tabla en la que se registran los nombres de los Cargos Técnicos de mantenimiento a los que se asocian posteriormente las personas de las áreas de 
+En otras palabras esta es la tabla en la que se registran los nombres de los Cargos Técnicos de mantenimiento a los que se asocian posteriormente las personas de las áreas de
 
 También se definen aquí las especialidades de los Talleres Externos o de los Contratistas que prestan servicios de mantenimiento. Ejemplos: Talleres Eléctricos, Talleres Mecánicos, Talleres de Motores y Bombas;  Contratistas de Aire Acondicionado, Contratistas de Mecanizado, Contratistas para Instalaciones de Redes, entre otros.   Los oficios son requeridos por los Programas de Mantenimiento y las Órdenes de Trabajo.
 
@@ -633,9 +603,9 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 **Oficio:** En este campo se definen los diferentes Oficios del personal de  mantenimiento propio de la empresa, o las Especialidades de los Talleres externos y Contratistas.
 
-**Tipo Trabajo (TT):** Indica el tipo de trabajo al cual está relacionado el Oficio o la especialidad que se está definiendo. Elc (eléctrico), Mec (mecánico), I/E (instrumentación y  electrónica), Otr (otros). Tanto la definición como la abreviatura, de cada Tipo de Trabajo, son configurables para una compañía, desde el módulo de Infraestructura, en la tabla llamada Tipos de Trabajo. 
+**Tipo Trabajo (TT):** Indica el tipo de trabajo al cual está relacionado el Oficio o la especialidad que se está definiendo. Elc (eléctrico), Mec (mecánico), I/E (instrumentación y  electrónica), Otr (otros). Tanto la definición como la abreviatura, de cada Tipo de Trabajo, son configurables para una compañía, desde el módulo de Infraestructura, en la tabla llamada Tipos de Trabajo.
 
-**Valor Hora 1:** En este campo se registra el valor de la Hora Ordinaria del Oficio referido. Es obligatoria definirla para los Oficios que estén relacionados a un Centro Responsable tipo interno. 
+**Valor Hora 1:** En este campo se registra el valor de la Hora Ordinaria del Oficio referido. Es obligatoria definirla para los Oficios que estén relacionados a un Centro Responsable tipo interno.
 
 **Valor Hora 2:** En este campo se registra el valor de la Hora Extra o Nocturna de Oficio referido.
 
@@ -643,10 +613,9 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 ## Responsables
 
-
 Aquí se registran los nombres propios de las personas definidas para cada Oficio o  los nombres o razones sociales de los Talleres Externos o Contratistas, definidos  para  cada grupo o Especialidad.
 
-Se visualiza la información sobre cada Empleado o Taller o Contratista. 
+Se visualiza la información sobre cada Empleado o Taller o Contratista.
 
 ![vent ie](../../assets/images/cap02/chp02_img49.png)
 
@@ -654,15 +623,15 @@ En la gráfica anterior, Ventana Responsables, se aprecian sus componentes y  su
 
 A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación.
 
-**Centro Responsable:** En este campo se muestra el Centro Responsable asociado al Responsable. 
+**Centro Responsable:** En este campo se muestra el Centro Responsable asociado al Responsable.
 
-**Oficio:** En este campo se muestra el Oficio al cual pertenece el Responsable. 
+**Oficio:** En este campo se muestra el Oficio al cual pertenece el Responsable.
 
 **Código TE:** En este campo se muestra el código del Tercero  definido en su tabla. De esta forma se establece la relación entre el Responsable y su Oficio, y mediante este último con el Centro Responsable.
 
-**Nombre TE:** En este campo se muestra el nombre del Tercero definido en su tabla. 
+**Nombre TE:** En este campo se muestra el nombre del Tercero definido en su tabla.
 
-**Tipo TE:** En este campo se muestra el tipo del Tercero definido en su tabla.  
+**Tipo TE:** En este campo se muestra el tipo del Tercero definido en su tabla.
 
 **Contacto TE:** En este campo se muestra el contacto del Tercero definido en su tabla.
 
@@ -670,14 +639,13 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 **Centro de Costo:** En este campo se muestra el nombre del Centro de Costo del Tercero definido en su tabla.
 
-**Sub CC:** En este campo se muestra el código del Sub CC que está relacionado al Centro de Costo definido en el campo anterior. 
+**Sub CC:** En este campo se muestra el código del Sub CC que está relacionado al Centro de Costo definido en el campo anterior.
 
 **Estado:** Es un campo que muestra un valor de los predefinidos, Activo o Inactivo que refleja el estado de ese Responsable ante el aplicativo.
 
-## Riesgos 
+## Riesgos
 
-
-Los Riesgos corresponden a los riesgos asociados a cada uno de los Activos/Equipos que se encuentran definidos en el módulo de Activos. 
+Los Riesgos corresponden a los riesgos asociados a cada uno de los Activos/Equipos que se encuentran definidos en el módulo de Activos.
 
 ![ipo](../../assets/images/cap02/chp02_img50.png)
 
@@ -685,9 +653,9 @@ En la gráfica anterior, Ventana Riesgos, se aprecian sus componentes y  sus res
 
 A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación.
 
-**Nombre:** En este campo se define el nombre del riesgo. 
+**Nombre:** En este campo se define el nombre del riesgo.
 
-## Magnitudes 
+## Magnitudes
 
 El objetivo de esta nueva tabla es registrar las magnitudes que después se asociarán a los Activos, que se utilizaran al definir la porción de Metrología. En esta tabla sólo se registrarán los nombres de la Magnitud. Se cuenta con 60 dígitos para  ingresar la magnitud deseada.
 
@@ -699,7 +667,7 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 **Nombre de la Magnitud:** En este campo se define el nombre de la magnitud.
 
-## Características Biomédicas  
+## Características Biomédicas
 
 Es una tabla conformada por los nombres de las Características propias de los Activos o Equipos, que se utilizan al definir la porción variable de Info. Biomédica en su ficha técnica.  En esta tabla sólo se ingresan los nombres de las Características. Se cuenta con 30 dígitos para  ingresar la característica deseada.
 
@@ -717,11 +685,11 @@ En la gráfica anterior, Ventana Características Biomédicas, se aprecian sus c
 
 A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación.
 
-**Nombre:** En este campo se define el nombre de la característica biomédica. 
+**Nombre:** En este campo se define el nombre de la característica biomédica.
 
-**Estado:** Indica el estado en que se encuentra la Característica 
+**Estado:** Indica el estado en que se encuentra la Característica
 
-**Biomédica:** Activo o inactivo.   
+**Biomédica:** Activo o inactivo.
 
 ## Otros Conceptos de Costo
 
@@ -731,20 +699,20 @@ También se usa para cargar a una OT, costos de trabajos eventuales, no rutinari
 
 ![detalle concepto](../../assets/images/cap02/chp02_img53.png)
 
-En  la  gráfica  anterior,  Ventana Otros Conceptos de Costo, se aprecian sus componentes y sus respectivos contenidos. 
+En  la  gráfica  anterior,  Ventana Otros Conceptos de Costo, se aprecian sus componentes y sus respectivos contenidos.
 
 A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación.
 
-**Código:** Se define un código o indicativo único para el otro concepto de costo, que puede ser un consecutivo. Ejemplo: OC-001, el cual OC corresponde a las abreviaturas de Otro Concepto y 001 corresponde al primer registro.   
+**Código:** Se define un código o indicativo único para el otro concepto de costo, que puede ser un consecutivo. Ejemplo: OC-001, el cual OC corresponde a las abreviaturas de Otro Concepto y 001 corresponde al primer registro.
 
 **Nombre:** En este campo se escribe el nombre del Concepto generador de costo distinto de Mano de Obra y de Materiales y Repuestos. Es una descripción corta de 25 caracteres. Algunos ejemplos de estos Otros Conceptos pueden ser: Transporte Terrestre de un Equipo, Transporte y Viáticos de un operador que se trasladó desde otra ciudad, mecanizado de una pieza sencilla, etc.
 
 **Valor Unitario:** Este campo indica el costo unitario de la actividad. Solamente se debe registrar este valor si corresponde a una tarifa o precio que se ha pactado con el proveedor, y que  se ejecuta rutinariamente. Es posible dejar  este valor en blanco y al momento de cargarlo a una Orden de Trabajo, registrar  manualmente el  valor.
 
-**Unidad de Medida (UM):** Este campo es para seleccionar la unidad de medida que corresponde al **Otro Concepto de Costo**. Se elige una de las disponibles que se descuelgan de la lista. 
+**Unidad de Medida (UM):** Este campo es para seleccionar la unidad de medida que corresponde al **Otro Concepto de Costo**. Se elige una de las disponibles que se descuelgan de la lista.
 
-**Informativo:** Este campo permite activar el Otro Concepto de Costo  como campo informativo, lo que quiere decir que NO se genera costo. En caso de querer cuantificar esta actividad simplemente no se da clic en el cuadro de la opción **Campo Informativo.**  
- 
+**Informativo:** Este campo permite activar el Otro Concepto de Costo  como campo informativo, lo que quiere decir que NO se genera costo. En caso de querer cuantificar esta actividad simplemente no se da clic en el cuadro de la opción **Campo Informativo.**
+
 **Tipo  de Trabajo (TT):** Indica el Tipo de Trabajo al cual se relaciona el Concepto de Costo registrado: Elc (eléctrico), Mec (mecánico), I/E (instrumentación y electrónica), Otr (otros).
 
 El Tipo de Trabajo cualifica el valor del costo permitiendo que se cargue en una fila y en una columna precisamente definida en la tabla de Gasto Real en la Orden de Trabajo.
@@ -777,87 +745,51 @@ El Tipo de Actividad puede ser un criterio más de selección y de búsqueda, en
 
 El **AM** suministra una tabla de Tipos de Actividad que incluye una recopilación interesante de ellas, que el usuario puede enriquecer adicionando  nuevas  o modificando las existentes.
 
-Algunos ejemplos de Tipos de Actividad que ya hacen parte de **AM**son los siguientes: 
+Algunos ejemplos de Tipos de Actividad que ya hacen parte de **AM**son los siguientes:
 
-- EQ-Contrato 
-
+- EQ-Contrato
 - EQ-Garantía
-
 - EQ- Instalación/Montaje
-
-- EQ-Inversión 
-
+- EQ-Inversión
 - EQ-Mejoras distintas de Mntto
-
 - EQ-Overhaul
-
 - EQ-Puesta a punto
-
 - EQ-Recuperación de Activos
-
 - EQ-Reposición de Equipos
-
 - EQ-Revisión / Inspección
-
 - EQ-Servicios Aux Producción
-
 - IC-Comunicaciones
-
-- IL-Dotación Habitaciones 
-
-- IL-Iluminación 
-
+- IL-Dotación Habitaciones
+- IL-Iluminación
 - IL-Jardinería
-
 - IL-Mejoras / Modificaciones
-
 - IL-Obra Civil
-
 - IL-Pintura/ Plomería
 - IL-Señalización
-
-- IL-Ventanería 
-
+- IL-Ventanería
 - IT-Informática Hardware
-
-- IT-Informática Redes 
-
+- IT-Informática Redes
 - IT-Informática Software
-
 - IT-Instalación / Montaje de HW
-
 - MN- Mantto
-
-- TV-Ajustes y Ensambles 
-
+- TV-Ajustes y Ensambles
 - TV-Carpintería
-
 - TV-Limpieza
-
 - TV-Mecanizado
-
 - TV-Obra Civil
-
 - TV-Telefonía
-
 - TV-Trabajo Sobre Repuestos
 
 Donde los dos primeros caracteres, entre otros, significan:
 
 - **EQ**  Otros Trabajos sobre Equipos.
-
 - **IC**	Informática y Comunicaciones.
-
-- **IL** Trabajos sobre. Instalaciones Locativas. 
-
+- **IL** Trabajos sobre. Instalaciones Locativas.
 - **IT** 	Informática y Tecnología.
-
 - **MN**	Trabajos que constituyen Mantenimiento.
-
 - **TV**	Trabajos Varios
 
 ![detalle del tipo de activid](../../assets/images/cap02/chp02_img56.png)
-
 
 En la gráfica anterior, Ventana Tipos de Actividad, se aprecian sus componentes y sus respectivos contenidos. En la ventana Detalle de Tipos de Actividad se encuentra la información relevante al Tipo de Actividad seleccionado en el Visor.
 
@@ -878,21 +810,15 @@ En el sistema se incluyen las siguientes Causas de Cierre:
 **CAUSAS DE CIERRE**
 
 - seOT Ejecutada
-
 - Cambio por otra OT
-
-- Error en la programación 
-
-- Equipo fuera de rvicio 
+- Error en la programación
+- Equipo fuera de rvicio
 
 **CAUSAS DE CIERRE OT**
 
 - Equipo no disponible
-
-- Cierre de mes 
-
--  Labor no requerida 
-
+- Cierre de mes
+- Labor no requerida
 - Otra causa
 
 **Nota:** La Causa de Cierre  “OT ejecutada” es implícita a las OTs cerradas ejecutadas. Esta
@@ -920,13 +846,13 @@ En la gráfica anterior, Ventana Acciones Técnicas, se aprecian sus componentes
 
 A continuación se describen los campos que componen el registro.
 
-**Nombre:** Este campo tiene capacidad de 80 caracteres y se describe la Acción Técnica. 
+**Nombre:** Este campo tiene capacidad de 80 caracteres y se describe la Acción Técnica.
 
-**Costo Estándar:** En este campo se registra el costo estándar de la Acción Técnica. 
+**Costo Estándar:** En este campo se registra el costo estándar de la Acción Técnica.
 
-**Duración Estándar:** Se define la duración estándar de ejecución de esa Acción Técnica. 
+**Duración Estándar:** Se define la duración estándar de ejecución de esa Acción Técnica.
 
-**Unidad Estándar:** Se define la unidad de tiempo estándar correspondiente en días, horas y minutos. 
+**Unidad Estándar:** Se define la unidad de tiempo estándar correspondiente en días, horas y minutos.
 
 ## Causas de Falla
 
@@ -937,22 +863,22 @@ En ella se han propuesto a manera de guía, algunas Causas de Falla, agrupadas e
 **BASICAS (B)**
 
 **BAD**-FALLAS ADMINISTRATIVAS
-**BAD**-Error Administrativo 
-**BAD**-Error de Documentación  
+**BAD**-Error Administrativo
+**BAD**-Error de Documentación
 
-**BFI**-FALLAS FABRICACIÓN / INSTALACIÓN 
+**BFI**-FALLAS FABRICACIÓN / INSTALACIÓN
 **BFI**-Error de Fabricación
-**BFI**-Error de Instalación / Montaje 
+**BFI**-Error de Instalación / Montaje
 
 **BOP**-FALLAS OPERACIONALES
 **BOP**-Desgaste o rotura esperada
-**BOP**-Error de Mantenimiento 
+**BOP**-Error de Mantenimiento
 **BOP**-Error de Operación
 **BOP**-Servicio fuera de diseño
 
 **BDI**-FALLAS DISEÑO
 **BDI**-Capacidad Inadecuada
-**BDI**-Diseño Inadecuado 
+**BDI**-Diseño Inadecuado
 **BDI**-Material Inadecuado
 
 **BMI**-FALLAS MISCELANEAS
@@ -962,59 +888,58 @@ En ella se han propuesto a manera de guía, algunas Causas de Falla, agrupadas e
 
 **INMEDIATAS (I)**
 
+**IEL**-FALLAS ELECTRICAS
+**IEL**-Circuito Abierto
+**IEL**-Corto Circuito
+**IEL**-Falla de Energía / Voltaje
+**IEL**-Falla Tierra / Aislamiento
+**IEL**-Sin / Bajo Energía / Voltaje
 
-**IEL**-FALLAS ELECTRICAS 
-**IEL**-Circuito Abierto 
-**IEL**-Corto Circuito 
-**IEL**-Falla de Energía / Voltaje 
-**IEL**-Falla Tierra / Aislamiento 
-**IEL**-Sin / Bajo Energía / Voltaje 
+**IIN**-FALLAS INSTRUMENTOS
+**IIN**-Desajustado
+**IIN**-Falla Común (falla redundante)
+**IIN**-Falla en Control
+**IIN**-No Señal / Ind / Alarma
+**IIN**-Señal / Ind / Alarma incorrecta
+**IIN**-Software
 
-**IIN**-FALLAS INSTRUMENTOS  
-**IIN**-Desajustado 
-**IIN**-Falla Común (falla redundante) 
-**IIN**-Falla en Control  
-**IIN**-No Señal / Ind / Alarma 
-**IIN**-Señal / Ind / Alarma incorrecta 
-**IIN**-Software  
+**IMI**-FALLAS MISCELANEAS
+**IMI**-Desconocida
+**IMI**-Miscelánea
+**IMI**-Oculta
 
-**IMI**-FALLAS MISCELANEAS  
-**IMI**-Desconocida 
-**IMI**-Miscelánea  
-**IMI**-Oculta 
+**IIE**-FALLAS EXTERNAS
+**IIE**-Bloqueado / Taponado
+**IIE**-Contaminación
 
-**IIE**-FALLAS EXTERNAS  
-**IIE**-Bloqueado / Taponado  
-**IIE**-Contaminación  
-
-**IME**-FALLAS MECANICAS   
-**IME**-Bloqueado / Taponado 
-**IME**-Deformación 
+**IME**-FALLAS MECANICAS
+**IME**-Bloqueado / Taponado
+**IME**-Deformación
 **IME**-Desalineamiento
-**IME**-Fuga 
-**IME**-Pegado 
-**IME**-Suelto 
-**IME**-Vibración 
+**IME**-Fuga
+**IME**-Pegado
+**IME**-Suelto
+**IME**-Vibración
 
-**IMT**-FALLAS MATERIAL    
-**IMT**-Cavitación  
-**IMT**-Corrosión 
-**IMT**-Desgaste 
-**IMT**-Erosión 
-**IMT**-Fatiga  
-**IMT**-Fractura  
-**IMT**-Quemado 
-**IMT**-Sobrecalentamiento 
+**IMT**-FALLAS MATERIAL
+**IMT**-Cavitación
+**IMT**-Corrosión
+**IMT**-Desgaste
+**IMT**-Erosión
+**IMT**-Fatiga
+**IMT**-Fractura
+**IMT**-Quemado
+**IMT**-Sobrecalentamiento
 
 Los Prefijos significan:
 
 **B:** BÁSICAS
-**I:** INMEDIATAS 
-**AD:** ADMINISTRATIVAS 
+**I:** INMEDIATAS
+**AD:** ADMINISTRATIVAS
 **DI:** DISENO
-**FI:** FABRICACION / INSTALACION 
+**FI:** FABRICACION / INSTALACION
 **MI:** MISCELANEAS
-**OP:** OPERACIONALES 
+**OP:** OPERACIONALES
 **EL:** ELECTRICAS
 **IE:** EXTERNAS
 **IN:** INSTRUMENTOS
@@ -1027,19 +952,17 @@ En la gráfica anterior, Ventana Causas de Falla, se aprecian sus componentes y 
 
 A continuación se describen los campos que componen el registro.
 
-**Código:** Se define un código o indicativo único para la causa de falla, que puede ser un consecutivo. Ejemplo: **BOP**-01, el cual **BOP** corresponde a las abreviaturas del grupo y prefijo al que pertenece la Causa de Falla y 01 corresponde al primer registro.   
+**Código:** Se define un código o indicativo único para la causa de falla, que puede ser un consecutivo. Ejemplo: **BOP**-01, el cual **BOP** corresponde a las abreviaturas del grupo y prefijo al que pertenece la Causa de Falla y 01 corresponde al primer registro.
 
 **Nombre:** En este campo se registra la Causa de Falla. Este campo tiene una capacidad para 40 caracteres.
 
 **Acciones Técnicas:** Es posible asociar a cada Causa de Falla las Acciones Técnicas que más comúnmente se ejecutan para evitarla y solucionarla. Hay que recordar que las Acciones Técnicas por Efecto pretenden ubicar la causa y que las Acciones Técnicas por Causa pretenden evitar y solucionar la causa.
 
-
-
-adicionan con el botón del  <a class="btn">+</a>.
+adicionan con el botón del  `<a class="btn">`+`</a>`.
 
 ![detalle de la causa de falla](../../assets/images/cap02/chp02_img61.png)
 
-Para desasociar una Acción Técnica de una Causa de Falla, se ubica en la Acción a desasociar y se presiona el icono de <span class="iconify btn" data-icon=delete>eliminar (basura)</span>
+Para desasociar una Acción Técnica de una Causa de Falla, se ubica en la Acción a desasociar y se presiona el icono de `<span class="iconify btn" data-icon=delete>`eliminar (basura)
 
 Es importante tener en cuenta que las asociaciones y desasociaciones solo surten efecto al Actualizar o guardar la Causa de Falla.
 
@@ -1051,29 +974,29 @@ En esta tabla se describen las formas en que una falla se manifiesta inmediatame
 
 A continuación se describen los campos que componen el registro.
 
-**Código:** Se define un código o indicativo único para la causa de falla, que puede ser un consecutivo. Ejemplo: EF-01, el cual EF corresponde a las abreviaturas de Efecto de Falla y 01 corresponde al primer registro.   
+**Código:** Se define un código o indicativo único para la causa de falla, que puede ser un consecutivo. Ejemplo: EF-01, el cual EF corresponde a las abreviaturas de Efecto de Falla y 01 corresponde al primer registro.
 
 **Nombre:** En este campo se registra el Efecto de Falla. Este campo tiene una capacidad para 40 caracteres.
 
 **Acciones Técnicas:** Es posible asociar a cada Efecto de Falla las Acciones Técnicas que más comúnmente se ejecutan como consecuencia de ésta. Como se menciona en  las Causas de Falla, las Acciones Técnicas por Efecto pretenden  “Ubicar la Causa” y las Acciones Técnicas por Causa pretenden  “Solucionar la Causa”.
 
-En la ventana anterior las Acciones Técnicas se seleccionan de la lista despegable y se  adicionan con el botón <span class="iconify btn" data-icon="mdi-plus-circle">Más</span>.
-. 
+En la ventana anterior las Acciones Técnicas se seleccionan de la lista despegable y se  adicionan con el botón `<span class="iconify btn" data-icon="mdi-plus-circle">`Más.
+.
 
-Para desasociar una Acción Técnica de un Efecto de Falla, se ubica en la Acción a desasociar y se presiona el icono de <span class="iconify btn" data-icon=delete>eliminar (basura)</span>
+Para desasociar una Acción Técnica de un Efecto de Falla, se ubica en la Acción a desasociar y se presiona el icono de `<span class="iconify btn" data-icon=delete>`eliminar (basura)
 Es importante tener en cuenta que las asociaciones y desasociaciones solo surten efecto al Actualizar o guardar el Efecto de Falla.
 
 ## Contratos
 
 En esta tabla es posible registrar los Contratos sobre servicios a cargo de  contratistas externos. No se trata de un módulo de administración de contratos sino de una facilidad simplista que hace funciones de control y seguimiento generales sobre ellos.
 
-Al tiempo se usa para facilitar la selección y búsqueda de Órdenes de Trabajo e Historia de Mantenimiento, en función de un contratista y/o de un Contrato particulares. 
+Al tiempo se usa para facilitar la selección y búsqueda de Órdenes de Trabajo e Historia de Mantenimiento, en función de un contratista y/o de un Contrato particulares.
 
-Aunque el objetivo general es el registro de los contratos anuales,  también es posible registrar, en aras de centralización de la información, los contratos de corta vigencia que respaldan la ejecución de una o varias Órdenes de Trabajo por parte de un contratista. 
+Aunque el objetivo general es el registro de los contratos anuales,  también es posible registrar, en aras de centralización de la información, los contratos de corta vigencia que respaldan la ejecución de una o varias Órdenes de Trabajo por parte de un contratista.
 
 Una función adicional es capaz de hacer seguimiento a la vigencia del Contrato cada vez que se genera una Orden de Trabajo, imprimiendo un mensaje cuando el Contrato que la respalda está a punto de vencerse o está vencido.
 
-También, es posible realizar el seguimiento de la vigencia de los Contratos, directamente desde la ventana visor, a través de la columna  “Indicadores” que muestra una pelota de color que indica su estado de vigencia acuerdo a la cantidad de días o meses. El significado del color de cada pelota, se puede ver en el recuadro de Indicadores, ubicado en la parte superior derecha de la ventana 
+También, es posible realizar el seguimiento de la vigencia de los Contratos, directamente desde la ventana visor, a través de la columna  “Indicadores” que muestra una pelota de color que indica su estado de vigencia acuerdo a la cantidad de días o meses. El significado del color de cada pelota, se puede ver en el recuadro de Indicadores, ubicado en la parte superior derecha de la ventana
 visor.
 
 ![contratos](../../assets/images/cap02/chp02_img63.png)
@@ -1090,11 +1013,11 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 **Código CN:** En este campo que tiene una capacidad de quince caracteres se registra el número del Contrato. Es posible cambiar el código del contrato sin afectar la asociación existente entre el contrato modificado y otros módulos, y sin obtener mensajes de error por este intento de modificación.
 
-**Descripción:** En este campo se escribe una corta descripción del Contrato que se está definiendo. 
+**Descripción:** En este campo se escribe una corta descripción del Contrato que se está definiendo.
 
-**Objeto:** En este campo se establece la finalidad del Contrato acordado por las partes. 
+**Objeto:** En este campo se establece la finalidad del Contrato acordado por las partes.
 
-**Objeto Resumen:** En este campo se escribe un resumen del Objeto del Contrato definido en el campo anterior. 
+**Objeto Resumen:** En este campo se escribe un resumen del Objeto del Contrato definido en el campo anterior.
 
 **Fecha Inicio Vigencia:** En este campo se define la fecha en la que se da inicio a la vigencia del Contrato.
 
@@ -1104,7 +1027,7 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 **Responsable:** Aquí se registra el nombre propio o la razón social de la persona natural o jurídica que es Responsable, como contratista, del manejo y ejecución del contrato.  Los contratistas que se registran en esta tabla deben haber sido creados previamente  en la tabla de Terceros, y su tipo debe ser Responsable Externo / Contratista (RX).
 
-**Centro de Costo:** Para registrar el código correspondiente al Cliente externo al que se le presta servicio a través del Contrato. Este campo no tiene ninguna incidencia en otros casos. 
+**Centro de Costo:** Para registrar el código correspondiente al Cliente externo al que se le presta servicio a través del Contrato. Este campo no tiene ninguna incidencia en otros casos.
 
 **Sub CC:** Este campo siempre está bloqueado y muestra el Código Sub CC asociado al Centro de Costo elegido.
 
@@ -1118,10 +1041,9 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 **Gasto Real ejecutado en OT pendientes:** En este campo se muestra el valor total del gasto real en OT cuyo estado se encuentra pendiente.
 
-
 ## Multimedia Contratos
 
-Esta nueva funcionalidad permite asociar el Contrato de forma digital. 
+Esta nueva funcionalidad permite asociar el Contrato de forma digital.
 
 ![detalle de contrato](../../assets/images/cap02/chp02_img65.png)
 
@@ -1133,9 +1055,9 @@ A través de la ventana Multimedia se adjunta información adicional al Contrato
 
 A continuación se describen las carpetas que componen esta ventana; cuando se quiera actualizar o ingresar nueva información al Contrato, se deberán registrar así:
 
-**Cuadro Identificación:** Aparece con los campos bloqueados para que el usuario visualice la información básica del Contrato como el Código y la Descripición. 
+**Cuadro Identificación:** Aparece con los campos bloqueados para que el usuario visualice la información básica del Contrato como el Código y la Descripición.
 
-**Documentos:** En esta carpeta se relacionan toda clase de documentación relacionada al Contrato. Ejemplo: Archivos en Word, pdf, Excel, entre otros. 
+**Documentos:** En esta carpeta se relacionan toda clase de documentación relacionada al Contrato. Ejemplo: Archivos en Word, pdf, Excel, entre otros.
 
 **Imágenes:** En esta carpeta se relacionan toda clase de imágenes relacionadas al Contrato.  Ejemplo: Imágenes en formato jpg, png, entre otros.
 
@@ -1143,22 +1065,21 @@ A continuación se describen las carpetas que componen esta ventana; cuando se q
 
 ![detalle de contrato](../../assets/images/cap02/chp02_img66.png)
 
-Para adicionar un documento, imagen o video, se debe dar clic en la carpeta deseada, luego se da clic al icono de <a class="btn">subir</a> , a continuación se abre una nueva ventana para realizar la búsqueda del archivo a subir,  se selecciona el archivo y se da clic en <a class="btn">abrir</a>. 
+Para adicionar un documento, imagen o video, se debe dar clic en la carpeta deseada, luego se da clic al icono de `<a class="btn">`subir`</a>` , a continuación se abre una nueva ventana para realizar la búsqueda del archivo a subir,  se selecciona el archivo y se da clic en `<a class="btn">`abrir`</a>`.
 
 ![detalle de contrato](../../assets/images/cap02/chp02_img67.png)
 
-Una vez se da clic en <a class="btn">abrir</a>., se evidencia al lado derecho el nombre del archivo elegido y aparece un campo en blanco, para que el usuario escriba un nombre adicional del archivo para ser usado como una referenciación del archivo adjunto. Luego, se da clic en el botón <a class="btn">Subir archivo</a>. 
+Una vez se da clic en `<a class="btn">`abrir`</a>`., se evidencia al lado derecho el nombre del archivo elegido y aparece un campo en blanco, para que el usuario escriba un nombre adicional del archivo para ser usado como una referenciación del archivo adjunto. Luego, se da clic en el botón `<a class="btn">`Subir archivo`</a>`.
 
 ![detalle de contrato](../../assets/images/cap02/chp02_img68.png)
 
+Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic en uno de las imágenes, se visualiza la imagen adjunta.
 
-Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic en uno de las imágenes, se visualiza la imagen adjunta. 
-
-Para desasociar un documento, o una imagen o un video, al Contrato se da clic al<span class="iconify btn" data-icon=delete>nar (basura)</span> que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro y se da clic en el botón<a class="btn">Aceptar</a>. 
+Para desasociar un documento, o una imagen o un video, al Contrato se da clic al`<span class="iconify btn" data-icon=delete>`nar (basura) que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro y se da clic en el botón`<a class="btn">`Aceptar`</a>`.
 
 ![detalle de contrato](../../assets/images/cap02/chp02_img69.png)
 
-Si se desea descargar un archivo adjunto al Contrato, se debe dar clic en el icono de  <span class="iconify btn" data-icon=cloud-download>la nube con flecha hacia abajo</span> , que se encuentra al lado derecho del archivo que se quiere descargar.  
+Si se desea descargar un archivo adjunto al Contrato, se debe dar clic en el icono de  `<span class="iconify btn" data-icon=cloud-download>`la nube con flecha hacia abajo , que se encuentra al lado derecho del archivo que se quiere descargar.
 
 ![detalle de contrato](../../assets/images/cap02/chp02_img70.png)
 
@@ -1180,28 +1101,26 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 Adicional, se encuentran tres opciones de definición del Concepto, estas son:
 
--	**¿Este Concepto de Kárdex requiere una OT válida?** 
-Se enmarca cuando se trata de una transacción de movimiento que requiere para su ejecución, una OT válida.
-
--	**¿Este Concepto de Kárdex es el predeterminado?**
- Es una opción para definir que este concepto se utiliza por defecto en una transacción.
-
--	**¿Este Concepto de Kárdex Corresponde a ítems Suministrados por el Contratista?**
- Es una opción para definir si el concepto corresponde a ítem que son suministrados por el contratista. 
+- **¿Este Concepto de Kárdex requiere una OT válida?**
+  Se enmarca cuando se trata de una transacción de movimiento que requiere para su ejecución, una OT válida.
+- **¿Este Concepto de Kárdex es el predeterminado?**
+  Es una opción para definir que este concepto se utiliza por defecto en una transacción.
+- **¿Este Concepto de Kárdex Corresponde a ítems Suministrados por el Contratista?**
+  Es una opción para definir si el concepto corresponde a ítem que son suministrados por el contratista.
 
 ### Subgrupo Conceptos de Kárdex
 
-Se usa para seleccionar grupos de Conceptos de Kárdex que cumplen un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al <a class="btn">icono de filtro</a> icono de filtro, ubicado en la parte superior derecha de la ventana Visor de Conceptos de Kárdex. 
+Se usa para seleccionar grupos de Conceptos de Kárdex que cumplen un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al `<a class="btn">`icono de filtro`</a>` icono de filtro, ubicado en la parte superior derecha de la ventana Visor de Conceptos de Kárdex.
 
 ![detalle de contrato](../../assets/images/cap02/chp02_img72.png)
 
-- **AM**- mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar. 
+- **AM**- mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar.
 
 Cada criterio trabaja en conjunto con los demás, con el operador intersección.
 
-Cada criterio aparece inicializado en un valor global que permite mostrar todos  los Conceptos de Kárdex. Lo que significa que de no escoger un criterio se obtiene como resultado  del subgrupo el mismo conjunto completo de todos los Conceptos de Kárdex. 
+Cada criterio aparece inicializado en un valor global que permite mostrar todos  los Conceptos de Kárdex. Lo que significa que de no escoger un criterio se obtiene como resultado  del subgrupo el mismo conjunto completo de todos los Conceptos de Kárdex.
 
-El programa permite entonces hacer selección de un grupo de Conceptos de Kárdex de acuerdo con los criterios seleccionados en la siguiente ventana. 
+El programa permite entonces hacer selección de un grupo de Conceptos de Kárdex de acuerdo con los criterios seleccionados en la siguiente ventana.
 
 ![ventana ie ](../../assets/images/cap02/chp02_img73.png)
 
@@ -1210,7 +1129,7 @@ Los campos de datos que constituyen criterio de selección haciendo parte de la 
 **Almacén:** Permite filtrar aquellos Conceptos de Kárdex que fueron asociados al almacén seleccionado. Lista los Almacenes creados en la tabla de Almacenes.
 
 **Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos  se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además  es posible hacer unión de selecciones.  Esto significa que inmediatamente después de haber
-realizado una selección es posible hacer otra y unir el resultado de las dos.  Para ello, tras definir los criterios de la segunda selección se da un clic al botón <a class="btn">Mas (+)</a> , en  lugar de darlo al botón <a class="btn">Aceptar</a>.
+realizado una selección es posible hacer otra y unir el resultado de las dos.  Para ello, tras definir los criterios de la segunda selección se da un clic al botón `<a class="btn">`Mas (+)`</a>` , en  lugar de darlo al botón `<a class="btn">`Aceptar`</a>`.
 
 ## Operaciones
 
@@ -1242,13 +1161,13 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 En la ventana anterior se seleccionan Operaciones de la lista despegable y se adicionan con el botón del signo Más a la lista de Operaciones asociadas a una Referencia.
 
-Para desasociar una Operación, se ubica el cursor en la Operación a desasociar y se presiona el icono de <span class="iconify btn" data-icon=delete>eliminar (basura)</span>.
+Para desasociar una Operación, se ubica el cursor en la Operación a desasociar y se presiona el icono de `<span class="iconify btn" data-icon=delete>`eliminar (basura).
 
 Es importante tener en cuenta que las asociaciones y desasociaciones solo surten efecto al Actualizar o guardar la Referencia.
 
 ![tipos de rgimen](../../assets/images/cap02/chp02_img76.png)
 
-Es posible, en la Tabla de Tipos de Régimen la parametrización de más tipos de régimen para la tabla de Terceros en el módulo de Infraestructura; con el objeto de darle individualidad a un responsable interno, empleado, responsable externo o una empresa para adecuar los propios o para adicionar nuevos. Cada tipo de régimen tiene una longitud de 15 caracteres alfanuméricos. 
+Es posible, en la Tabla de Tipos de Régimen la parametrización de más tipos de régimen para la tabla de Terceros en el módulo de Infraestructura; con el objeto de darle individualidad a un responsable interno, empleado, responsable externo o una empresa para adecuar los propios o para adicionar nuevos. Cada tipo de régimen tiene una longitud de 15 caracteres alfanuméricos.
 
 ## Estados
 
@@ -1256,49 +1175,46 @@ Esta tabla de Infraestructura contiene  una lista de los ** “Estados”** pred
 
 ![tipos de rgimen](../../assets/images/cap02/chp02_img77.png)
 
-
 Es posible, en la Tabla de Estados la parametrización de los estados de los módulos de Órdenes de Trabajo, Solicitudes de Servicio, Activos y Paros ( **FDA**); con el objeto de darle individualidad a una empresa para adecuar los propios o para adicionar nuevos, que reflejen situaciones corporativas reales y necesarias. Cada estado tiene una longitud de 40 caracteres alfanuméricos, y puede ser de uno de dos tipos:
 
 **Estado de Activo:** Descripción que se usa al definir un Activo o Equipo para personalizar su estado respecto a operatividad, actividad/inactividad y propiedad. Tener activa la opción de Indicativo-(Uso) indica que su estado se encuentra activo.
 
 ![tipos de rgimen](../../assets/images/cap02/chp02_img80.png)
 
-
 Estado de Solicitud de Servicio: Descripción que se usa para personalizar los estados en los que puede encontrarse una Solicitud de  Servicio. Se utiliza el campo de Indicativo-(Abreviatura) para especificar la abreviatura del Estado. Es posible crear nuevos estados de SS, ellos se consideran variaciones  del  estado En Análisis (AN). Existen siete Estados de SS que no pueden ser nados ni modificados dado que se utilizan por defecto en la funcionalidad del sistema, estos son:
 
--	**AN-** En Análisis
--	**AS-** Asignada
--	**NE-** Cerrada No Ejecutada
--	**CE-** Cerrada Ejecutada
--	**CO-** Cerrada con OT
--	**EJ-** En Ejecución 
--	**CP-** Cerrada Parcial (AMovil)
-
+- **AN-** En Análisis
+- **AS-** Asignada
+- **NE-** Cerrada No Ejecutada
+- **CE-** Cerrada Ejecutada
+- **CO-** Cerrada con OT
+- **EJ-** En Ejecución
+- **CP-** Cerrada Parcial (AMovil)
 
 ![tipos de rgimen](../../assets/images/cap02/chp02_img81.png)
 
 # Exportar
 
-Esta opción permite la exportación de los registros de la tabla seleccionada, que aparecen en el visor, totales o provenientes de un subgrupo, a un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso.  
+Esta opción permite la exportación de los registros de la tabla seleccionada, que aparecen en el visor, totales o provenientes de un subgrupo, a un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso.
 
 Al ejecutar esta transacción, se abrirá una ventana la cual se muestra a continuación.
 
 ![tipos de rgimen](../../assets/images/cap02/chp02_img82.png)
 
-Al darle clic en el botón  <a class="btn"> “Exportar”</a>, se generará un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso, el objetivo de esta exportación es llevar toda la información de los registros contenidos en el visor a un archivo plano, para luego ser analizados. 
+Al darle clic en el botón  `<a class="btn">` “Exportar”`</a>`, se generará un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso, el objetivo de esta exportación es llevar toda la información de los registros contenidos en el visor a un archivo plano, para luego ser analizados.
 
-Adicionalmente, es posible exportar todos los campos de la ventana Detalle de los registros, para esto se da clic en el cuadro llamado <a class="btn">Exportar Todos Los Campos</a>. También, es posible exportar uno o varios campos de la ventana Detalle de los registros, para esto se da clic en cada uno de los cuadros que acompañan los campos. 
+Adicionalmente, es posible exportar todos los campos de la ventana Detalle de los registros, para esto se da clic en el cuadro llamado `<a class="btn">`Exportar Todos Los Campos`</a>`. También, es posible exportar uno o varios campos de la ventana Detalle de los registros, para esto se da clic en cada uno de los cuadros que acompañan los campos.
 
 # Servicios
 
-## 	Reportes
+## Reportes
 
-Este comando permite visualizar los reportes relacionados con el módulo o la tabla donde se encuentre. A esta ventana se llega dando clic al <a class="btn">icono de la impresora</a>,se encuentra ubicado en la parte superior derecha de la ventana Visor del módulo seleccionado. Existen reportes básicos disponibles de tipo Resumen y Detalle:
+Este comando permite visualizar los reportes relacionados con el módulo o la tabla donde se encuentre. A esta ventana se llega dando clic al `<a class="btn">`icono de la impresora`</a>`,se encuentra ubicado en la parte superior derecha de la ventana Visor del módulo seleccionado. Existen reportes básicos disponibles de tipo Resumen y Detalle:
 ![tipos de rgimen](../../assets/images/cap02/chp02_img83.png)
 
 Los anteriores reportes pueden ser impresos, para una o varias Órdenes de Trabajo Históricas preseleccionadas:
 
-**Lista  de  Selección:** Es la tabla donde aparecen los campos: Código, Descripción y Subtítulo. Bajo el título Código se listan los códigos de los reportes existentes. Bajo el título Descripción se listan los nombres de los reportes existentes. Bajo el título de Subtítulo se lista en algunos reportes, una descripción adicional del reporte. 
+**Lista  de  Selección:** Es la tabla donde aparecen los campos: Código, Descripción y Subtítulo. Bajo el título Código se listan los códigos de los reportes existentes. Bajo el título Descripción se listan los nombres de los reportes existentes. Bajo el título de Subtítulo se lista en algunos reportes, una descripción adicional del reporte.
 
 **Todos los Registros:** Con esta opción se permite la impresión de todas las Órdenes de Trabajo Históricas existentes en la base de datos de la compañía activa, sin  importar si se ha realizado un subgrupo.
 
@@ -1306,8 +1222,8 @@ Los anteriores reportes pueden ser impresos, para una o varias Órdenes de Traba
 
 **Registro Seleccionado:** Esta opción permite hacer una impresión de la OT Histórica señalada, o sea la que está resaltada con la línea verde en el visor.
 
-**Subtítulo:** En este campo es posible registrar un poco menos de una línea de información, tipo documentación del Reporte, para que se imprima bajo el área de títulos estándar. 
+**Subtítulo:** En este campo es posible registrar un poco menos de una línea de información, tipo documentación del Reporte, para que se imprima bajo el área de títulos estándar.
 
-Después de seleccionar el tipo de registro, se procede a seleccionar el Reporte que se  desea  imprimir, para esto se  debe pulsar el botón <a class="btn">Imprimir</a>, de esta manera se abre una ventana visor para formatos PDF, que muestra el Reporte seleccionado. Desde esta ventana es posible guardar el reporte y exportarlo a Excel. 
+Después de seleccionar el tipo de registro, se procede a seleccionar el Reporte que se  desea  imprimir, para esto se  debe pulsar el botón `<a class="btn">`Imprimir`</a>`, de esta manera se abre una ventana visor para formatos PDF, que muestra el Reporte seleccionado. Desde esta ventana es posible guardar el reporte y exportarlo a Excel.
 
-Al dar clic al botón <a class="btn">Exportar</a> permite exportar el Reporte seleccionado sin necesidad de imprimirlo. Mientras que, al dar clic al botón <a class="btn">Cerrar</a> se cierra la ventana de la generación de reportes.
+Al dar clic al botón `<a class="btn">`Exportar`</a>` permite exportar el Reporte seleccionado sin necesidad de imprimirlo. Mientras que, al dar clic al botón `<a class="btn">`Cerrar`</a>` se cierra la ventana de la generación de reportes.

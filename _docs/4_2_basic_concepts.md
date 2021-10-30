@@ -3,9 +3,9 @@ title: Conceptos Básicos sobre Almacenes, Materiales y Repuestos
 subtitle: Se trata de una bodega con capacidad de almacenamiento y con funciones de administración para los distintos tipos de ítems que contiene. 
 tags: [setup]
 author: win
+order: 04_02
 ---
-
-#	Conceptos	Básicos	sobre	Almacenes,	Materiales	y Repuestos
+# Conceptos	Básicos	sobre	Almacenes,	Materiales	y Repuestos
 
 ## Un Almacén
 
@@ -15,27 +15,21 @@ Una bodega mixta de materiales y repuestos puede contener cuatro grandes grupos 
 
 Por ello, un Almacén fundamenta su operación en tres definiciones:
 
-
-1. 	Un esquema de codificación estándar para todos los ítems que contiene o que está en capacidad de contener.
-
-
-2. 	Un  conjunto  de  conceptos  de  Entrada  y  de  Salida  que  definen  claramente  cada operación a ser ejecutada, con sus alcances, condicionamientos y requerimientos.
-
-
-3. 	Un sistema de costeo, que sirve de base para el cálculo del costo unitario de  cada código tras una entrada valorizada. Este costo unitario es normalmente el que se usa para valorizar cada Salida, para consumo o utilización de un ítem del Almacén.
+1. Un esquema de codificación estándar para todos los ítems que contiene o que está en capacidad de contener.
+2. Un  conjunto  de  conceptos  de  Entrada  y  de  Salida  que  definen  claramente  cada operación a ser ejecutada, con sus alcances, condicionamientos y requerimientos.
+3. Un sistema de costeo, que sirve de base para el cálculo del costo unitario de  cada código tras una entrada valorizada. Este costo unitario es normalmente el que se usa para valorizar cada Salida, para consumo o utilización de un ítem del Almacén.
 
 ### Almacenes y – **AM**–
 
 **AM**** Predefine   en   forma   natural   un   Almacén,   en   la   Tabla   de   Almacenes (Infraestructura), y además permite la definición de varios adicionales. Para cada Almacén se definen sus  conceptos de movimiento de  Kárdex  en la Tabla  Conceptos  de Kárdex (Infraestructura). Aunque  existen  conceptos  predefinidos,   siempre  se  pueden  definir nuevos conceptos de Entrada, de Salida y de Ajuste, garantizando la consistencia e integridad de la información.
 
-El módulo de  Almacén de Repuestos permite administrar de manera independiente cada uno de los almacenes creados en la Tabla de Almacenes (Infraestructura) y dependiendo del usuario que ingrese al **AM** tendrá sus propios permisos de administración para cada almacén. 
+El módulo de  Almacén de Repuestos permite administrar de manera independiente cada uno de los almacenes creados en la Tabla de Almacenes (Infraestructura) y dependiendo del usuario que ingrese al **AM** tendrá sus propios permisos de administración para cada almacén.
 
-#### 	Visión General: Funciones Básicas sobre Almacén de Repuestos
+#### Visión General: Funciones Básicas sobre Almacén de Repuestos
 
 Creación de Repuestos: **AM**** suministra dos procesos básicos para crear y actualizar Repuestos:
 
 - Creación manual.
-
 - Importación desde  un  Sistema de  Almacén /  Inventario de  Repuestos  corporativo externo a través de una interfaz automática.
 
 El   primer   proceso básico de creación de datos de   Repuestos consiste en el   registro manual, organizado, uno a uno de los códigos de Repuestos del Almacén,  junto con su información característica, en la tabla de Almacén de Repuestos de la Base de Datos de **AM****.
@@ -46,7 +40,7 @@ El segundo proceso consiste en tomar la información de los Repuestos desde un s
 
 **AM**** suministra el formato donde se detalla el diseño del archivo de interface. A este formato se deben acomodar los datos de Repuestos a transferir pues es el único  que **AM****  es  capaz  de  interpretar  para  realizar  la  creación  automática  de  la  tabla   de Almacén de Repuestos.
 
-Una vez se encuentre el archivo de interfaz listo, el Cliente lo debe dejar en una tabla intermedia y cuando se ejecute la interfaz automática, **AM** importa la información de los Repuestos a la base de datos de **AM**. 
+Una vez se encuentre el archivo de interfaz listo, el Cliente lo debe dejar en una tabla intermedia y cuando se ejecute la interfaz automática, **AM** importa la información de los Repuestos a la base de datos de **AM**.
 
 Este proceso es útil tanto para crear el archivo de Repuestos, como para actualizarlo. Se recomienda para ello consultar con el asesor en Informática o con Servicio al  Cliente del Proveedor.
 

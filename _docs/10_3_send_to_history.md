@@ -2,8 +2,8 @@
 title:  Enviar a Historia (Desde Órdenes de Trabajo).
 subtitle: Su objetivo es desplazar hacía el archivo de Historia de Mantenimiento, las **OT** que estando Cerradas, residen todavía en el archivo de Ordenes de Trabajo.   
 author: win
+order: 10_03
 ---
-
 # Enviar a Historia (Desde Órdenes de Trabajo)
 
 Tales Órdenes cerradas se reconocen por tener en el visor de Órdenes de Trabajo, en la columna **“** Estado  **”** un valor igual a „C’ o  ‘K  ’, Cerradas, Canceladas, respectivamente, que se obtiene al ejecutar el proceso de cierre.

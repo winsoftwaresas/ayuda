@@ -3,11 +3,8 @@ title: Conceptos Básicos sobre el Kárdex de Almacén
 subtitle: El Kárdex de Almacén es el módulo encargado del registro detallado de todo  Movimiento de Entrada, Salida y Ajuste, de los almacenes activos en **AM**** Administrador de Mantenimiento, en la compañía activa.
 tags: [setup]
 author: win
+order: 05_02
 ---
-
-
-
-
 A  través del  Kárdex  se  realiza la  actualización  del  archivo de  repuestos,  en  todo  lo concerniente  a   entradas,   salidas y ajustes,   manteniendo   tal   movimiento disponible para consultas o estudios especiales. Su dominio puede ser uno o varios de los Almacenes definidos en la compañía activa.
 
 Una  única  transacción  del  Kárdex,  mantiene  consistencia  integral  entre  tres   tablas distintas: Repuestos, Órdenes de Trabajo y Kárdex. Esto significa que una  transacción de entrada al  almacén,  registrada en el  Kárdex,  actualiza también el  saldo en la  tabla  de repuestos,  incrementándolo.  Una  transacción  de  salida  del  almacén,  registrada  en  el Kárdex, actualiza el saldo en la tabla de repuestos, decrementándolo y al tiempo actualiza la tabla de Ordenes de Trabajo, cargando el consumo de tales repuestos.
@@ -21,7 +18,7 @@ Es  posible  definir  un  gran  número  de  conceptos  de  entrada  y  salida  
 Los Conceptos de Salida son las operaciones por las cuales se produce un retiro de  los repuestos  del  Almacén.  Se  puede  registrar  un  número  infinito  de  conceptos  de  salida. Dentro de los conceptos de salida existen algunos que se encuentran  predefinidos. Aún así, es posible definir cuantos sean requeridos y definir para cada uno sus requerimientos especiales.  Por  ejemplo  habrá  conceptos  de  salida  que  podrán  exigir  el  número  de  la Orden de Trabajo cuando se trate de una salida de repuestos hacia esa Orden de Trabajo preexistente en **AM** Web.
 
 El Kárdex trabaja además en consonancia con el método de valorización de  inventarios más adecuado, entre las varias opciones: Promedio Ponderado y Costo del Último Ingreso, que se definen para cada Almacén. En el primer caso el costo unitario del código que
- 
+
 acaba de ingresar   se calcula ponderando el   número de unidades que ingresan a    su respectivo costo unitario, con el número de unidades que existían previamente, a su costo unitario.
 
 En el  segundo caso el  Costo Unitario del código que ingresa se convierte en  el  costo unitario de toda la existencia de ese código en el almacén. Este último esquema es valioso en muchos casos, por cuanto los presupuestos de materiales y repuestos pueden ser muy realistas, basados en costos recientes.   Se debería usar cuando el Almacén del sistema **AM** We b no es contable en el sentido estricto de la palabra.
@@ -34,7 +31,7 @@ El módulo de  Kárdex permite administrar de manera independiente los movimient
 
 ![kardex](../../assets/images/cap06/chp06_img01.png)
 
-Al sobreponer el puntero del mouse en el módulo de Kárdex, se listan los distintos almacenes creados en la tabla de Almacenes de la Infraestructura y cuando se elige un Almacén, el sistema muestra al lado izquierdo un check verde y en frente en azul, el aviso de Seleccionado. 
+Al sobreponer el puntero del mouse en el módulo de Kárdex, se listan los distintos almacenes creados en la tabla de Almacenes de la Infraestructura y cuando se elige un Almacén, el sistema muestra al lado izquierdo un check verde y en frente en azul, el aviso de Seleccionado.
 
 ![ventana principal de kardex](../../assets/images/cap06/chp06_img02.png)
 
@@ -52,7 +49,6 @@ Los títulos en azul que encabezan las columnas son también botones que permite
 
 ## Ventana Detalle de Documento de Kárdex
 
-
 Al hacer clic sobre alguna de las Entradas del Visor el sistema responde mostrando  su información en forma detallada, en una ventana llamada Ventana Detalle.
 
 ![ventana detalle de kardex](../../assets/images/cap06/chp06_img04.png)
@@ -64,23 +60,23 @@ Al dar clic en la pestaña ** “Movimientos”**, se muestra la ventana Visor d
 A  continuación se  detallan  los  campos  que  componen  el  detalle  de  Documentos  de
 Kárdex:
 
-**Almacén:** Se muestra el Almacén desde el cual se moverán los  repuestos relacionados en el Documento de Kárdex. No es modificable por el usuario. 
+**Almacén:** Se muestra el Almacén desde el cual se moverán los  repuestos relacionados en el Documento de Kárdex. No es modificable por el usuario.
 
-**Movimiento:** Se elige tipo de movimiento a realizarse. Se listan tres tipos de movimiento por default: Entrada, Salida y Ajuste.  
+**Movimiento:** Se elige tipo de movimiento a realizarse. Se listan tres tipos de movimiento por default: Entrada, Salida y Ajuste.
 
-**Tipo de Documento:** Se elige el tipo de documento a relacionarse en el Documento. Se listan cuatro tipos de movimiento por default: Factura, Remisión, Salida de Almacén, Devolución al Almacén. 
+**Tipo de Documento:** Se elige el tipo de documento a relacionarse en el Documento. Se listan cuatro tipos de movimiento por default: Factura, Remisión, Salida de Almacén, Devolución al Almacén.
 
 **Documento:** Se escribe aquí el código que se le asignará al Documento de  Kárdex.  El código que se le asigne puede ser el mismo número de la factura con la que se adquirieron los  repuestos  que  se  están  moviendo  o  puede  ser  formado  con  la  fecha  y  el  tipo  de Movimientos que contiene.
 
-**FF Documento:** Es la fecha de creación del Documento de Kárdex. Puede ser modificado por el usuario, cuando se encuentre habilitado el valor por defecto  “Modificar fecha de documento” de Kárdex en el módulo de Administración / Valores por Defecto / Kárdex. Si el valor por defecto  “Modificar fecha del Documento” se encuentra deshabilitado, el campo se muestra bloqueado y no se puede modificar y corresponderá a la fecha del sistema.  
+**FF Documento:** Es la fecha de creación del Documento de Kárdex. Puede ser modificado por el usuario, cuando se encuentre habilitado el valor por defecto  “Modificar fecha de documento” de Kárdex en el módulo de Administración / Valores por Defecto / Kárdex. Si el valor por defecto  “Modificar fecha del Documento” se encuentra deshabilitado, el campo se muestra bloqueado y no se puede modificar y corresponderá a la fecha del sistema.
 
-**OC:** Aquí se registra el número de la orden de compra, sí es necesario o es posible diligenciar otro número de documento diferente a la factura o a otro. 
+**OC:** Aquí se registra el número de la orden de compra, sí es necesario o es posible diligenciar otro número de documento diferente a la factura o a otro.
 
-**% Descuento:** Es posible registrar un porcentaje de descuento que aplique a ese Documento. El valor definido en este campo se mostrará automáticamente en el detalle del movimiento. 
+**% Descuento:** Es posible registrar un porcentaje de descuento que aplique a ese Documento. El valor definido en este campo se mostrará automáticamente en el detalle del movimiento.
 
-**% IVA:** Es posible registrar un porcentaje de IVA que aplique a ese Documento. El valor definido en este campo se mostrará automáticamente en el detalle del movimiento. 
+**% IVA:** Es posible registrar un porcentaje de IVA que aplique a ese Documento. El valor definido en este campo se mostrará automáticamente en el detalle del movimiento.
 
-**Documento Anexo:** Se digita un número de documento puede ser el mismo número de la factura con la que se adquirieron los  repuestos  que  se  están  moviendo  o  puede  ser  formado  con  la  fecha  y  el  tipo  de Movimientos que contiene, con el fin de realizar consultas futuras. 
+**Documento Anexo:** Se digita un número de documento puede ser el mismo número de la factura con la que se adquirieron los  repuestos  que  se  están  moviendo  o  puede  ser  formado  con  la  fecha  y  el  tipo  de Movimientos que contiene, con el fin de realizar consultas futuras.
 
 **Tercero / Proveedor:** Se especifica un Tercero relacionado con el Documento. Puede ser por  ejemplo el Proveedor de los repuestos relacionados en el Documento o la persona que autoriza el movimiento de los Repuestos contendidos en él.
 

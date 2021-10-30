@@ -3,11 +3,11 @@ title: Conceptos Básicos sobre Solicitudes de Servicio
 subtitle: en esta seccion se  da respuesta al procedimiento a seguir para las solicitudes de servicio de AM 4G
 tags: [setup]
 author: win
+order: 07_02
 ---
-
 ## Solicitud de Servicio (SS)
 
-El AM propone la facilidad llamada Solicitudes de Servicio con dos objetivos: 
+El AM propone la facilidad llamada Solicitudes de Servicio con dos objetivos:
 
 Primero, que un número amplio de personas, autorizadas, dentro de una Organización, soliciten la prestación de un servicio al área encargada, normalmente Mantenimiento, y segundo, que el  personal  de  mantenimiento pueda  registrar de   una  forma rápida,  aquellos trabajos sencillos que realiza; sencillez expresada en términos de bajo costo, corto tiempo y un solo recurso requerido para su ejecución. Para uno y otro caso, se trata de un mecanismo fácil y simple que  permite, además  de  generar  la SS,  hacerle  seguimiento hasta su  cierre definitivo.
 
@@ -19,7 +19,7 @@ A  manera de recomendación, para el área de Servicios encargada de recibir y  
 
 Crear  una  Solicitud  de  Servicio  exige  en  primera  instancia,  que  el  usuario  tenga  la autorización  en  el  sistema  para  poder  hacerlo. Son  potenciales  generadores   de Solicitudes de Servicio: los usuarios de los servicios de mantenimiento a todo lo ancho de la  Organización,  el  personal  de  producción,  el  personal  de  servicios,  el  personal administrativo y el personal de mantenimiento.
 
-La creación de una SS se realiza a través de la Ventana Detalle, en la ventana principal de Solicitudes de Servicio. En cuanto se da un clic sobre el  botón <a class="btn">Nuevo</a> esta  ventana adopta  la  forma  que  se  muestra  a  continuación. Al  crear  una  SS,  ella  asume automáticamente el estado inicial: ** “En Análisis”.**  A partir del momento en que se ** “Inserta”** la SS, el solicitante no puede modificar ningún campo, pero si puede  hacer seguimiento permanente sobre ella.
+La creación de una SS se realiza a través de la Ventana Detalle, en la ventana principal de Solicitudes de Servicio. En cuanto se da un clic sobre el  botón `<a class="btn">`Nuevo`</a>` esta  ventana adopta  la  forma  que  se  muestra  a  continuación. Al  crear  una  SS,  ella  asume automáticamente el estado inicial: ** “En Análisis”.**  A partir del momento en que se ** “Inserta”** la SS, el solicitante no puede modificar ningún campo, pero si puede  hacer seguimiento permanente sobre ella.
 
 ![ programa de mantenimiento](../../assets/images/cap09/chp09_img01.png)
 
@@ -29,11 +29,11 @@ El paso siguiente es ejecutado por la persona encargada de Administrar las Solic
 
 El Inspector visita al solicitante, se entera y profundiza sobre su solicitud y  determina  sí ejecutar o no ejecutar la SS. Para ello, en este momento, el  Responsable estudia la razonabilidad  de  la  solicitud,  la  factibilidad  de   su   solución  y  la  disponibilidad  de presupuesto. Pero también el Responsable estima la cantidad de los recursos requeridos, su costo y el tiempo requerido en términos de horas-hombre. De esta decisión depende el tercer  paso: el  cierre  de  la  SS.  El  Responsable  decide  entonces  una  de  las  tres alternativas siguientes:
 
-**1.** Se decide no  ejecutar la Solicitud de Servicio. En este caso, el Responsable cambia el estado a ** “Cerrada no ejecutada”**. Se actualizan y registran los campos referentes a este Estado, se escribe en el campo Diagnóstico/Comentarios la razón por la que se toma la decisión de no ejecutar y se cierra la solicitud haciendo un clic en el  botón <a class="btn">Actualizar </a>
+**1.** Se decide no  ejecutar la Solicitud de Servicio. En este caso, el Responsable cambia el estado a ** “Cerrada no ejecutada”**. Se actualizan y registran los campos referentes a este Estado, se escribe en el campo Diagnóstico/Comentarios la razón por la que se toma la decisión de no ejecutar y se cierra la solicitud haciendo un clic en el  botón `<a class="btn">`Actualizar `</a>`
 
-**2.** Se decide ejecutar, como Solicitud de Servicio. Este es el caso en que los costos o estimados  se  encuentran  por  debajo  de  los  parámetros   predefinidos  por  la Organización: El costo de ejecución, el tiempo de ejecución y el número de horas hombre son relativamente bajos.  Se ejecuta la Solicitud y a continuación se cambia el estado a ** “Cerrada Ejecutada”**, se actualizan y registran los campos referentes a este Estado.  El Responsable cierra la Solicitud como ejecutada, haciendo clic en el botón <a class="btn">Actualizar </a>.
+**2.** Se decide ejecutar, como Solicitud de Servicio. Este es el caso en que los costos o estimados  se  encuentran  por  debajo  de  los  parámetros   predefinidos  por  la Organización: El costo de ejecución, el tiempo de ejecución y el número de horas hombre son relativamente bajos.  Se ejecuta la Solicitud y a continuación se cambia el estado a ** “Cerrada Ejecutada”**, se actualizan y registran los campos referentes a este Estado.  El Responsable cierra la Solicitud como ejecutada, haciendo clic en el botón `<a class="btn">`Actualizar `</a>`.
 
-**3.**   Se decide ejecutar la Solicitud como Orden de Trabajo. En este caso, al  analizar los   parámetros predefinidos (Costo de ejecución, tiempo de ejecución, número de horas hombre), se establece que es un trabajo apreciable, que exige mayor control para seguimiento posterior y por ello se debe generar una Orden de Trabajo desde la Solicitud de Servicio. Se ejecuta entonces la Solicitud y a continuación se cambia el estado a ** “Cerrada con OT”**. Se actualizan y registran los campos referentes a este	Estado 	y 	se 	cierra 		con	un	clic	en	el 	botón <a class="btn">Actualizar </a>. Acto seguido el sistema crea una Orden de  Trabajo, cuyo número se indica en el campo ** “OT Generada”**. Esta nueva Orden de Trabajo, contiene toda la información que se había registrado previamente en la Solicitud de Servicio, lo que significa que no hay que  reingresarla. Existe la posibilidad de hacer acceso directo desde la Solicitud, a  la  Orden  de  Trabajo, dando un  clic  en  el  hipervínculo en  que  se constituye el número de la Orden. De igual forma, estando en la ventana Detalle de la Orden de Trabajo, es posible regresar directamente a la SS, dando un clic sobre el hipervínculo que se ha creado al lado del campo ** “Esta OT fue generada desde la SS”**.
+**3.**   Se decide ejecutar la Solicitud como Orden de Trabajo. En este caso, al  analizar los   parámetros predefinidos (Costo de ejecución, tiempo de ejecución, número de horas hombre), se establece que es un trabajo apreciable, que exige mayor control para seguimiento posterior y por ello se debe generar una Orden de Trabajo desde la Solicitud de Servicio. Se ejecuta entonces la Solicitud y a continuación se cambia el estado a ** “Cerrada con OT”**. Se actualizan y registran los campos referentes a este	Estado 	y 	se 	cierra 		con	un	clic	en	el 	botón `<a class="btn">`Actualizar `</a>`. Acto seguido el sistema crea una Orden de  Trabajo, cuyo número se indica en el campo ** “OT Generada”**. Esta nueva Orden de Trabajo, contiene toda la información que se había registrado previamente en la Solicitud de Servicio, lo que significa que no hay que  reingresarla. Existe la posibilidad de hacer acceso directo desde la Solicitud, a  la  Orden  de  Trabajo, dando un  clic  en  el  hipervínculo en  que  se constituye el número de la Orden. De igual forma, estando en la ventana Detalle de la Orden de Trabajo, es posible regresar directamente a la SS, dando un clic sobre el hipervínculo que se ha creado al lado del campo ** “Esta OT fue generada desde la SS”**.
 
 # Ventana Principal de Solicitudes de Servicio
 
@@ -53,7 +53,6 @@ Los  nombres  que encabezan las  columnas  a  manera  de  títulos en azul, perm
 
 En  la  ventana  Visor  por  la  columna  Estado,  se  define  una  semaforización  de  las Solicitudes de Servicio. La finalidad de esta columna es mostrar de manera  gráfica el estado de la Solicitud de Servicio. En la parte inferior de la ventana Visor, desplazando el scroll vertical, se encuentra una tabla donde se define el significado de cada color que se presenta en dicha columna.
 
-
 ![Ventana Principal de Solicitudes de Servicio](../../assets/images/cap09/chp09_img04.png)
 
 ## Ventana Detalle
@@ -70,22 +69,16 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 **Prioridad:** Es el campo descolgable en el que se define la prioridad de la Solicitud.  Es asignada por el usuario solicitante. En el momento de crear la SS, el sistema por defecto asume el valor  “Media”. Las opciones disponibles son:
 
-- Alta 
-
-- Media 
-
+- Alta
+- Media
 - Baja
 
 **Estado:** Es el campo descolgable desde donde se eligen las opciones que permiten hacer seguimiento al estado de la solicitud. Las opciones disponibles son:
 
 - En Análisis (AN)
-
 - Asignada (AS)
-
 - Cerrada No Ejecutada (NE)
-
 - Cerrada Ejecutada (CE)
-
 - Cerrada con OT (CO)
 
 Al modificar este campo hacia el estado ** “Asignada”**, el software registra automáticamente en el campo F/H asignación, la fecha y hora en que se asigna la Solicitud de Servicio  y obliga a que se elija en el campo Responsable, el responsable asignado a la Solicitud de Servicio.
@@ -94,11 +87,11 @@ Al modificar este campo hacia el estado ** “Asignada”**, el software registr
 
 **Solicitante:** En este campo se define el nombre del Solicitante de la Solicitud de Servicio. El solicitante puede registrar su nombre en el espacio correspondiente. Sin  embargo es posible también seleccionar su nombre de la lista que se habilita como  desplegable al marcar la opción ** “Incluido en Terceros”**. Se debe tener en cuenta que de la tabla de Terceros solo se despliegan los Terceros de Tipo RI. La funcionalidad de poder definir que el Solicitante sea el usuario logueado y no se pueda modificar, se  parametriza  en  Administración, Valores  por  Defecto,  la  etiqueta SOLICITUDES, la opción ** “El solicitante es tomado del usuario logueado y no se puede modificar”**.
 
-**E-Mail:** En este campo se define el correo electrónico del Solicitante de la Solicitud  de Servicio, cuando el solicitante es digitado manualmente. Si el solicitante se selecciona con la opción ** “Incluido en Terceros”** y allí se tiene definido el correo electrónico, automáticamente se carga a este campo el e-mail definido en el módulo de Terceros. La funcionalidad del envío de correos electrónicos se parametriza Administración, Valores por Defecto, la etiqueta GENERAL, la opción**  “Enviar e-mail al solicitante”**. 
+**E-Mail:** En este campo se define el correo electrónico del Solicitante de la Solicitud  de Servicio, cuando el solicitante es digitado manualmente. Si el solicitante se selecciona con la opción ** “Incluido en Terceros”** y allí se tiene definido el correo electrónico, automáticamente se carga a este campo el e-mail definido en el módulo de Terceros. La funcionalidad del envío de correos electrónicos se parametriza Administración, Valores por Defecto, la etiqueta GENERAL, la opción**  “Enviar e-mail al solicitante”**.
 
 **F/H Sugerida de entrega:** En este campo se selecciona la fecha y hora en la que el solicitante considera que el Servicio Solicitado puede ser oportuno.
 
-**Equipo:**  En  esta  línea  se  pretende  identificar claramente el  Equipo  o  el  Objeto  de Mantenimiento para el cual se está solicitando el servicio. 
+**Equipo:**  En  esta  línea  se  pretende  identificar claramente el  Equipo  o  el  Objeto  de Mantenimiento para el cual se está solicitando el servicio.
 
 **La línea está conformada por tres campos :**
 
@@ -117,8 +110,8 @@ El segundo campo se encuentra a la derecha del primero y permite identificar la 
 Una vez se ha determinado cual es la clave que se va a utilizar para buscar el Equipo, se procede a registrar el valor respectivo para esa clave en el tercer campo. Hay  dos maneras de hacerlo.
 
 La primera consiste en teclear el valor correspondiente a la clave del Equipo, seguido de la tecla  ** “TAB”**. Como  resultado,  se  muestran la  descripción, el  Centro  de  Costo  y  la Ubicación Física del Equipo seleccionado.
- 
-La segunda consiste en que se busca el equipo u Objeto de la Solicitud, a través del visor de Equipos. Para ello se da un clic sobre el botón de Visor de Equipos **(Binóculos sobre papel amarillo)**. Acto seguido se muestra la ventana de visor de Equipos junto con la de subgrupo para poder ubicarlo. Una vez se encuentra el  Equipo en la Tabla de visor de Equipos,  se selecciona dando un clic sobre cualquiera de sus campos. A continuación se da un clic sobre botón <a class="btn">Aceptar</a> de esa ventana  o se hace doble clic sobre el registro seleccionado. Inmediatamente ese código es trasladado hasta el tercer campo de la línea Equipo en la ventana de Solicitudes de Servicio, junto con sus datos complementarios.
+
+La segunda consiste en que se busca el equipo u Objeto de la Solicitud, a través del visor de Equipos. Para ello se da un clic sobre el botón de Visor de Equipos **(Binóculos sobre papel amarillo)**. Acto seguido se muestra la ventana de visor de Equipos junto con la de subgrupo para poder ubicarlo. Una vez se encuentra el  Equipo en la Tabla de visor de Equipos,  se selecciona dando un clic sobre cualquiera de sus campos. A continuación se da un clic sobre botón `<a class="btn">`Aceptar`</a>` de esa ventana  o se hace doble clic sobre el registro seleccionado. Inmediatamente ese código es trasladado hasta el tercer campo de la línea Equipo en la ventana de Solicitudes de Servicio, junto con sus datos complementarios.
 
 Cuando  el  Equipo  o  el  Activo,  Objeto  de  la  Solicitud  de  Servicio  no  pueden   ser identificados a través de las claves disponibles, posiblemente porque no está registrado en la tabla de Equipos del Sistema, se desmarca el primer campo de la  línea de Equipo posibilitando identificar el Equipo en lenguaje natural.
 
@@ -177,7 +170,7 @@ Los campos ** “T. Trabajo, T. Mtto y T. Actividad”,** se parametrizan de for
 
 **Ver  datos:** Aquí se define  cual opción se va a analizar. Las opciones son Responsable Interno u Oficio.
 
-Si se activa la opción ** “Responsable Interno”**, el botón inferior <a class="btn">Seleccionar Responsable Interno</a>  se encarga de mostrar el listado de  las  personas definidas como Responsables en el AM. Si se activa la  opción ** “Oficio”**, el botón inferior <a class="btn">Seleccionar Oficio</a> e encarga de  mostrar el listado de los oficios o cargos técnicos especializados ya definidos en el módulo Oficios de Infraestructura.   La   carga   de   trabajo   tiene   en   cuenta   la   información diligenciada en la ** “Mano de Obra”** del Gasto Real de la Orden de Trabajo.
+Si se activa la opción ** “Responsable Interno”**, el botón inferior `<a class="btn">`Seleccionar Responsable Interno`</a>`  se encarga de mostrar el listado de  las  personas definidas como Responsables en el AM. Si se activa la  opción ** “Oficio”**, el botón inferior `<a class="btn">`Seleccionar Oficio`</a>` e encarga de  mostrar el listado de los oficios o cargos técnicos especializados ya definidos en el módulo Oficios de Infraestructura.   La   carga   de   trabajo   tiene   en   cuenta   la   información diligenciada en la ** “Mano de Obra”** del Gasto Real de la Orden de Trabajo.
 
 **Fecha:** Se define una de las tres opciones disponibles para el análisis.
 
@@ -185,7 +178,7 @@ Si se activa la opción ** “Responsable Interno”**, el botón inferior <a cl
 
 **Causa de Falla:** En este campo es posible definir la Causa de Falla primaria que da origen a la Solicitud de Servicio. Para ello se selecciona una de las Causas de Falla que están definidas en la tabla de ** “Causas de Falla”** en la Infraestructura.
 
-**Duración:** AM sugiere como Tiempo de Duración, la diferencia entre la F/H fin trabajos y la F/H inicio trabajos. Cabe anotar, que no siempre el Tiempo de  Duración  es  la  diferencia  entre  estas  fechas,  pues  pueden  existir   eventos  que interrumpen temporalmente la ejecución de la SS. AM  permite  corregir el tiempo de Duración en una SS, para que refleje el tiempo real de la  ejecución.  Este campo está conformado por tres subcampos: Días, Horas y Minutos. Tenga en cuenta que  el valor sugerido por  el Sistema debería ser modificado por  el  Responsable de  la  Solicitud de Servicio para ajustarlo al tiempo real, ya que en ocasiones la diferencia sugerida no es la real, suponga el caso en que el trabajo se suspende y luego se retoma. 
+**Duración:** AM sugiere como Tiempo de Duración, la diferencia entre la F/H fin trabajos y la F/H inicio trabajos. Cabe anotar, que no siempre el Tiempo de  Duración  es  la  diferencia  entre  estas  fechas,  pues  pueden  existir   eventos  que interrumpen temporalmente la ejecución de la SS. AM  permite  corregir el tiempo de Duración en una SS, para que refleje el tiempo real de la  ejecución.  Este campo está conformado por tres subcampos: Días, Horas y Minutos. Tenga en cuenta que  el valor sugerido por  el Sistema debería ser modificado por  el  Responsable de  la  Solicitud de Servicio para ajustarlo al tiempo real, ya que en ocasiones la diferencia sugerida no es la real, suponga el caso en que el trabajo se suspende y luego se retoma.
 
 **F/H asignación:** Este campo es asignado automáticamente cuando se cambia el estado de la Solicitud de Servicio a ** “Asignada”**, aún así es posible modificarlo. Esta fecha y hora indican el momento en que se asignó un Responsable o Inspector que se hace cargo de la gestión de la Solicitud de Servicio.
 
@@ -193,7 +186,7 @@ Si se activa la opción ** “Responsable Interno”**, el botón inferior <a cl
 
 **F/H fin trabajos:** Este campo es asignado automáticamente cuando se cambia el estado de la Solicitud de Servicio a ** “Cerrada Ejecutada”**, aún así es posible  modificarlo.  Esta fecha y hora indica el momento en el que se concluyeron las labores de ejecución.
 
-**F/H cierre:** Esta fecha y hora son asignadas automáticamente por el sistema, al momento de ** “Actualizar”** la Solicitud de Servicio tras haber seleccionado un estado  de ** “Cerrada”**; este campo no es modificable por el usuario. 
+**F/H cierre:** Esta fecha y hora son asignadas automáticamente por el sistema, al momento de ** “Actualizar”** la Solicitud de Servicio tras haber seleccionado un estado  de ** “Cerrada”**; este campo no es modificable por el usuario.
 
 **Valor  Hora:**  Este campo es asignado automáticamente por  el sistema al momento  de seleccionar  el  Responsable de  la  Solicitud  de  Servicio. De  todos  los  valores-hora disponibles para el Responsable, se asigna el valor correspondiente al tipo de hora: uno.
 
@@ -238,7 +231,6 @@ Ventana Subgrupo de Solicitudes de Servicio son los siguientes:
 
 **EQ - Tipo:** Selecciona las Solicitudes de Servicio que se encuentran asociadas con los Activos/ Equipos que se encuentran ligados al Tipo ingresado por el usuario.
 
-
 **2. FILTR AR POR  AM POS DE LA SOLICITUD DE SERVICIO**
 
 **Causa de Falla:** El  sistema  busca  todas  las  Solicitudes de Servicio que  tengan  registrada  la   falla seleccionada de la lista o que cumplan con el criterio de búsqueda utilizado, marcando la opción utilizar comodines.
@@ -265,7 +257,7 @@ Ventana Subgrupo de Solicitudes de Servicio son los siguientes:
 
 **Fuente de Creación:** Este criterio filtra las Solicitudes de Servicio definiendo su origen de creación. Hay tres maneras de dar origen a una SS: Por el módulo de Solicitudes de AM, por el módulo de Solicitudes **AMsi** o por un archivo plano.
 
-**Prioridad:**  Este  criterio  filtra  las  Solicitudes  de  Servicios  según  la  Prioridad seleccionada por el usuario. 
+**Prioridad:**  Este  criterio  filtra  las  Solicitudes  de  Servicios  según  la  Prioridad seleccionada por el usuario.
 
 **Rango  Consecutivo de  Solicitud:** Permite la selección de las Solicitudes de  Servicio cuyo número consecutivo se  encuentre incluido dentro  del  rango  especificado en  este criterio.
 
@@ -281,15 +273,15 @@ Solicitante (Incluido en terceros - Tipo RI) Este campo permite seleccionar las 
 
 **Tipo de Trabajo:** Agrupa las Solicitudes de Servicio de acuerdo al tipo de trabajo al que están  asociadas. Utilizando la opción ** “Individualizar”**  es posible filtrar las Solicitudes de Servicio que tienen uno y solo un tipo de trabajo. De no activar la opción ** “Individualizar”**, se buscan las Solicitudes de Servicio, que tengan el tipo de trabajo seleccionado, sin  importar si tienen otros tipos de trabajo activos.
 
-**Ubicación  física:** Permite la selección de  las  Solicitudes de Servicio  cuyo Equipo esté en la  ubicación física que se determina en este criterio. Existen dos formas de filtrar el Tipo de Actividad. La primera es seleccionando el Tipo de Actividad de la lista desplegable. La  segunda  es  marcando  la  caja  de  selección  ** “Utilizar  comodines”**  y digitando a continuación segmentos del Tipo de Actividad utilizando comodines. Cuando se utilizan comodines, es  posible seleccionar Solicitudes de Servicio cuyo equipo esté en una ubicación física que tenga parte del nombre igual. Por ejemplo: Cava% selecciona las Solicitudes de Servicio, efectuadas a Equipos cuyo nombre de Ubicación Física empieza por la palabra cava, independientemente de si se está hablando de la cava de fermentación, maduración o contrapresión. 
+**Ubicación  física:** Permite la selección de  las  Solicitudes de Servicio  cuyo Equipo esté en la  ubicación física que se determina en este criterio. Existen dos formas de filtrar el Tipo de Actividad. La primera es seleccionando el Tipo de Actividad de la lista desplegable. La  segunda  es  marcando  la  caja  de  selección  ** “Utilizar  comodines”**  y digitando a continuación segmentos del Tipo de Actividad utilizando comodines. Cuando se utilizan comodines, es  posible seleccionar Solicitudes de Servicio cuyo equipo esté en una ubicación física que tenga parte del nombre igual. Por ejemplo: Cava% selecciona las Solicitudes de Servicio, efectuadas a Equipos cuyo nombre de Ubicación Física empieza por la palabra cava, independientemente de si se está hablando de la cava de fermentación, maduración o contrapresión.
 
 **Días Vencimiento:** Permite la selección de  las  Solicitudes de Servicio  cuyos días de vencimiento apliquen al criterio definido. Al seleccionar esta opción se habilita una lista despegable donde se escoge el criterio deseado, junto con un cuadro donde se digita el valor de comparación. Los criterios son: Igual (=), Mayor (>) y Menor (<). Estos criterios actúan en comparación con el valor digitado en la casilla que se activa al lado del operador aritmético.
 
 **3. EVALUACIÓN DE SERVICIO**
 
-**Filtrar por Calificación:** Agrupa las Solicitudes de Servicio que contengan el calificativo seleccionado.  
+**Filtrar por Calificación:** Agrupa las Solicitudes de Servicio que contengan el calificativo seleccionado.
 
-**Filtrar por Evaluación:** Permite seleccionar las Solicitudes de Servicio que se encuentren evaluadas o sin evaluar. Al seleccionar esta opción se habilitan dos cajas de selección donde se elige si se desea buscar por las Solicitudes de Servicio que están calificadas o las que están sin calificar.    
+**Filtrar por Evaluación:** Permite seleccionar las Solicitudes de Servicio que se encuentren evaluadas o sin evaluar. Al seleccionar esta opción se habilitan dos cajas de selección donde se elige si se desea buscar por las Solicitudes de Servicio que están calificadas o las que están sin calificar.
 
 ## Ir a SS…
 

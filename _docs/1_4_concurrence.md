@@ -2,8 +2,8 @@
 title: Concurrencia en AM
 subtitle: En esta sección se proporciona y discute un cronograma detallado, que describe las fases, actividades y tareas del proyecto.
 author: win
---- 
-
+order: 01_04
+---
 Es importante tener en cuenta que en **AM**, un mismo usuario no puede iniciar sesión simultáneamente en dos máquinas diferentes.
 
 La cantidad de usuarios que pueden trabajar al mismo tiempo en **AM** depende de la cantidad de licencias adquiridas por la compañía, en un esquema de clientes concurrentes. La cantidad de usuarios creados en el sistema no tiene que ser la misma cantidad de las licencias adquiridas, o sea que es posible definir un número de usuarios mayor al número de licencias disponibles.
@@ -37,4 +37,3 @@ Terminada la actualización de la información de la OT ejecutada, se procede a 
 Todas las OT cerradas o canceladas, se transfieren mediante un proceso automático a través la transacción “Enviar a Historia”, al módulo de Historia de Mantenimiento.
 
 Se hacen diversos estudios y análisis sobre la información acumulada en la Historia de Mantenimiento, al tiempo que se generan informes sobre la misma: reportes sobre Balance Mensual de Gestión, resúmenes de actividades y costos, información base para Presupuesto y estudios especiales como los reportes de Causas de Fallas, de Pareto, reportes gráficos por variedad de conceptos, índices de Seguimiento e índices de Gestión.
-

@@ -3,8 +3,8 @@ title: Conceptos Básicos sobre Almacenes, Materiales y Repuestos
 subtitle: aqui se despejaran dudas sobre los conceptos basicos de almacenes, explicando su diversidad, funcionalidad y adaptabilidad a las necesidades del usuario.
 tags: [setup]
 author: win
+order: 11_02
 ---
-
 ## Conceptos Básicos de Programas de Mantenimiento
 
 Dentro del ciclo de Gestión de Mantenimiento en el **AM**** los Programas de Mantenimiento (PMs) apoyan las tres primeras etapas del ciclo, siendo la primera la Planeación, la segunda la Presupuestación y la tercera la Programación. Para las dos primeras etapas, éste módulo ejecuta el proceso de Proyección, sobre un periodo futuro, de largo plazo, sin generar Órdenes de Trabajo.  Para la tercera etapa el proceso de Programación se ejecuta en forma idéntica, desde el módulo de Ordenes de Trabajo. A pesar de que  se  ejecuta  desde  allí,  la  base   del  proceso  son  los  Programas  de Mantenimiento.
@@ -17,33 +17,26 @@ Definir un Plan de Mantenimiento para el largo plazo, a través de un conjunto s
 
 Un PM es el conjunto de información que describe una Tarea a ser ejecutada cíclica o sistemáticamente desde el momento de su definición, en adelante. En general, un PM cubre los siguientes tópicos alrededor de la tarea que se programa
 
-- Qué Activo o Activo es el Objeto de la Actividad. 
-
+- Qué Activo o Activo es el Objeto de la Actividad.
 - Qué Actividad se va a ejecutar. (Descripción del PM).
-
 - Quién realiza la Actividad (Centro Responsable).
-
 - Quién asume los Costos de la Actividad (Centro de Costo).
-
-- Cuánto Tiempo demora la ejecución de la Actividad (Tiempo Estimado). 
-
-- Cuánto cuesta la ejecución de la Actividad (Presupuesto detallado de Costos). 
-
+- Cuánto Tiempo demora la ejecución de la Actividad (Tiempo Estimado).
+- Cuánto cuesta la ejecución de la Actividad (Presupuesto detallado de Costos).
 - Cuándo se debe ejecutar la Actividad (Criterios de Programación).
-
 - Cómo se debe ejecutar la Actividad (Instructivo o procedimiento a seguir).
 
 Además de la información característica que se acaba de mencionar, un PM se  define  y enmarca en cada uno de los siguientes atributos: Tipo de Mantenimiento, Tipo de Trabajo y Tipo de Actividad, que denotan el tipo y contexto del mismo. Esta  información se complementa con dos definiciones: Prioridad y un indicativo de la  necesidad de que el Activo o Activo este inoperante **“Activo parado”**.
 
 Un PM se define con el objeto de que él genere, automáticamente, con la  anticipación requerida, una Orden de Trabajo para un Activo (AC), Equipo u Objeto de Mantenimiento (OM), cada vez que se cumpla el criterio interno establecido en el  Programa (PM).   Se debe recordar que toda la información definida en un PM se traslada a la OT cuando el PM la genere.
- 
+
 Para definir un PM se requiere haber registrado previamente el AC o Activo objeto  del mismo, el Centro de Costo, el Centro de Responsable, los Oficios y los Responsables, el Tipo de Actividad de Mantenimiento, al igual que los Repuestos requeridos, todo ello en sus respectivas tablas de Infraestructura, Activos y Repuestos.
 
 **Se pueden definir PMs de tipo:** Preventivo, Predictivo, Metrología, Lubricación, Inspección, Otro, Otros Mantenimiento y los que se definan en la tabla de Tipos de mantenimiento en el módulo de Infraestructura.
 
 Las demás actividades que pueden ser ejecutadas por el área de Mantenimiento caen en el grupo de actividades no programadas, dentro de las cuales se destacan las Correctivas y aquellas orientadas por  decisiones Técnicas, Operativas o  Administrativas; además las Mejorativas y todas aquellas que no constituyen Mantenimiento: Instalaciones o montajes, Traslado de Activos, Servicios a Producción u otras áreas, entre otras. 	Todas ellas  se crean manualmente en el Módulo de Ordenes de Trabajo
 
-## 	Presupuesto
+## Presupuesto
 
 **ejecutar  la  Actividad  de  Mantenimiento. Está  conformado  normalmente  por  cuatro  componentes:** Mano de Obra Interna, Mano de Obra Externa, Materiales / Repuestos y Otros Conceptos de Costo (Gastos indirectos).
 
@@ -51,14 +44,13 @@ Realizar permanentemente un Control Presupuestal de sus Gastos de Mantenimiento 
 
 Crear  el  Presupuesto  a  un  PM  en  **AM****  consiste  en  hacer  una  evaluación  de  las necesidades de recursos de Mano de Obra Interna, Mano de Obra Externa, Materiales / Repuestos, y Otros Conceptos de Costo, todos ellos discriminados por Tipo de Trabajo y Concepto de Gasto. Con ello, se procede a ingresar los valores al Sistema; en la Matriz de Presupuesto.
 
-##	Fecha de Inicio de Período (FIP)
+## Fecha de Inicio de Período (FIP)
 
 La  Fecha de Inicio de Periodo (FIP) sirve para definir el  inicio de la  vigencia de un Programa. La FIP indica el momento, a partir del cual, se comienza el conteo de tiempo para la generación de una nueva Orden de Trabajo. **Esta fecha corresponde a la ejecución de la última vez (anterior), de la Actividad de Mantenimiento que se está Programando.**
 
 En otro contexto, cuando se ha definido un PM cuyo Criterio de Programación no  es  la Frecuencia sino un **Contador o Semanas del Año**, la FIP tiene una significación especial: se trata de la fecha a partir de la cual entra en vigencia el PM. Esto significa que para los PMs con criterio de programación distinto a **Frecuencia**, mientras la  Fecha de Inicio del lapso a programar no sea igual o  posterior o a la FIP, no se generan Órdenes de Trabajo, aunque su criterio de programación se cumpla.
 
 ## Fecha de última Generación (FUG)
-
 
 La fecha de última generación es informativa; indica el momento en que el PM generó, en forma real una Orden de Trabajo, por última vez. Este dato es importante para chequear la fecha de la última generación real, para revisar los intervalos de  tiempo  en que se ha dejado de generar Ordenes de Trabajo desde ese PM, por  razones como olvido, mala programación, cambios en los datos de los Criterios de  Programación, o modificaciones incorrectas de las Fechas de Inicio de Período, entre otras.
 
