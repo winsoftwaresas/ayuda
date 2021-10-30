@@ -15,14 +15,14 @@ collections:
     folder: "_docs/" # The path to the folder where the documents are stored
     sort: "order:desc" # Default is title:asc
     create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{order}}_{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "doc"}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Order", name: "order", widget: "string", default: "##_##"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Order", name: "order", widget: "string", default: "##_##"}
     sortable_fields: ['order', 'title', 'commit_date', 'commit_author']
   - name: "changelogs" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Changelogs" # Used in the UI, ie
