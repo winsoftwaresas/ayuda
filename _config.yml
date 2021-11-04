@@ -115,6 +115,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-gist
   - jekyll-avatar
+  - jekyll-material-icon-tag
 exclude:
   - Gemfile
   - Gemfile.lock

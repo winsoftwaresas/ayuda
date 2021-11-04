@@ -3,8 +3,8 @@ title: Análisis y Generación de Órdenes de Trabajo Programadas
 subtitle: Aquí encontrará la explicacion ´requerida sobre el uso y preoceso de la generación de ódenes en el programa.
 tags: [setup]
 author: win
+order: 09_03
 ---
-
 Análisis/Generación automática de ots desde PMs, es una facilidad de **AM**-, que  se encuentra disponible en el módulo de ots  y que debería ser utilizada sobre  una  base periódica. El proceso consiste en que  **AM**- revisa cada programa, definido para cada Activo/Equipo y analiza si la condición programada en cada uno, se  va a cumplir, para el equipo respectivo, durante el próximo período que se va a estudiar o proyectar.
 
 Se trata de un proceso que es ejecutado periódicamente por  la persona que hace  las veces de Programador o Planeador de **AM** en la  Organización. Una buena práctica consiste en generar las **OT** s programadas, de todo un mes, el día 15 del mes anterior.
@@ -41,7 +41,7 @@ Una vez efectuado este paso, se procede a Imprimir la Orden de Trabajo, para ent
 
 Por distintos m**OT**ivos, una Orden de Trabajo puede quedar en estado Pendiente. Por ejemplo,  no  ha y  recursos  disponibles,  ya  sea  de  Mano  de  Obra,  de   Materiales   o Repuestos, u otros Conceptos. **AM** contempla este caso, posibilitando asignar a la **OT** el Estado de Pendiente. También se puede establecer la causa por la cual la **OT** se ha definido en estado Pendiente.
 
-Cuando una Orden no pueda ser Ejecutada, o se decida que no se va a ejecutar, se debe cerrar con un Estado de ** “Cancelada”**, el cual se complementa con una Causa de Cierre, indicando la razón de por qué no se Ejecutó. 
+Cuando una Orden no pueda ser Ejecutada, o se decida que no se va a ejecutar, se debe cerrar con un Estado de ** “Cancelada”**, el cual se complementa con una Causa de Cierre, indicando la razón de por qué no se Ejecutó.
 
 Cuando finaliza la ejecución de la **OT** se deben consignar en **AM** todos los pormenores de la ejecución, es decir, se procede a su Liquidación (Cargar todos  los  conceptos de costo ocasionados por su ejecución) y Cierre. Una vez finaliza la **OT**, se liquida, se cierra, y ya está lista para ser enviada a Historia.
 

@@ -13,11 +13,58 @@ collections:
   - name: "doc" # Used in routes, e.g., /admin/collections/blog
     label: "Docs" # Used in the UI
     folder: "_docs/" # The path to the folder where the documents are stored
+    sort: "order:desc" # Default is title:asc
     create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{order}}_{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "doc"}
+      - {label: "Order", name: "order", widget: "string", default: "##_##"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
+    sortable_fields: ['order', 'title', 'commit_date', 'commit_author']
+  - name: "changelogs" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Changelogs" # Used in the UI, ie
+    label_singular: "Changelog" # Used in the UI, ie.: "New Post"
+    folder: "_changelogs/" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}"
+    fields: # The fields each document in this collection have
+      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Featured image", name: "feature_image", widget: "image", required: false}
+      - {label: "Feature text", name: "feature_text", widget: "markdown", required: false}
+      - {label: "Excerpt", name: "excerpt", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Meta image", name: "image", widget: "image", required: false}
+  - name: "faqs" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Faqs" # Used in the UI, ie
+    label_singular: "Faq" # Used in the UI, ie.: "New Post"
+    folder: "_faqs/" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}"
+    fields: # The fields each document in this collection have
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Featured image", name: "feature_image", widget: "image", required: false}
+      - {label: "Feature text", name: "feature_text", widget: "markdown", required: false}
+      - {label: "Excerpt", name: "excerpt", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Meta image", name: "image", widget: "image", required: false}
+  - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Posts" # Used in the UI, ie
+    label_singular: "Post" # Used in the UI, ie.: "New Post"
+    folder: "_posts/" # The path to the folder where the documents are stored
+    sort: "date:desc" # Default is title:asc
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields: # The fields each document in this collection have
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Featured image", name: "feature_image", widget: "image", required: false}
+      - {label: "Feature text", name: "feature_text", widget: "markdown", required: false}
+      - {label: "Excerpt", name: "excerpt", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Categories", name: "categories", widget: "string", required: false}
+      - {label: "Meta image", name: "image", widget: "image", required: false}

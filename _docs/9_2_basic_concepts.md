@@ -3,8 +3,8 @@ title: Conceptos Básicos sobre Órdenes de Trabajo
 subtitle: Es en este módulo es donde están disponibles para consulta y toma  de decisiones todas las Órdenes de Trabajo activas.
 tags: [setup]
 author: win
+order: 09_02
 ---
-
 # Conceptos Básicos sobre Órdenes de Trabajo
 
 El módulo de Órdenes de Trabajo (**OT**) constituye el centro de actividad de la Gerencia de Mantenimiento. Es en este módulo es donde están disponibles para consulta y toma  de decisiones todas las Órdenes de Trabajo activas, Pendientes de Ejecución o ya Ejecutadas y listas para ser archivadas en la Historia de Mantenimiento. Se   pueden  consultar   y agrupar  por  múltiples  conceptos  como:  Fecha  de  Generación,  Responsable,  Ubicación Física del Activo, Centro  de Costo, Tipo de Trabajo, Tipo  de Mantenimiento, Tipo de Actividad, Centro de Responsabilidad, etc.
@@ -12,36 +12,31 @@ El módulo de Órdenes de Trabajo (**OT**) constituye el centro de actividad de 
 Cuando se elige la opción Órdenes de Trabajo, es posible:
 
 - Crear Órdenes de Trabajo Manuales (Para todos los tipos de Mantenimiento, incluyendo una opción para Preventivo Manual).
-
 - Buscar, seleccionar, revisar en general y detalladamente las Órdenes de Trabajo activas.
-
-- Actualizar las Órdenes de Trabajo activas, en lo referente a tiempos, costos y comentarios sobre su ejecución. 
-
+- Actualizar las Órdenes de Trabajo activas, en lo referente a tiempos, costos y comentarios sobre su ejecución.
 - Liquidar y cerrar cada **OT** para ser enviada al archivo Histórico de Mantenimiento. Imprimir **OT**s en cualquiera de las etapas de su ejecución, incluso después de haber sido cerradas, antes de ser enviadas a Historia de Mantenimiento.
 
-## Tipo de Trabajo vs Tipo de Mantenimiento vs Tipo de Actividad 
+## Tipo de Trabajo vs Tipo de Mantenimiento vs Tipo de Actividad
 
 Toda Orden de Trabajo debe tener un Tipo de Trabajo, un Tipo de Mantenimiento y un
 Tipo de Actividad.
 
 ### Tipo de Trabajo
 
-**AM** Predefine  cuatro  tipos  de  trabajo: 
+**AM** Predefine  cuatro  tipos  de  trabajo:
 
 - Mecánico  **(MEC)**.
 - Eléctrico   **(ELE)**.
-- Instrumentación/Electrónica **(I/E)**  
-- OTro **(OTR)**. 
-
+- Instrumentación/Electrónica **(I/E)**
+- OTro **(OTR)**.
 
 Pueden  personalizarse,  en la tabla **"Tipos de Trabajo"** del módulo de Infraestructura. Cada **OT** acepta la definición de uno o varios de estos Tipos de Trabajo, dependiendo de la naturaleza de la labor que se realice.
 
 ### Tipo de Mantenimiento
 
-**AM** predefine ocho Tipos   de   Mantenimiento:   Preventivo, Preventivo Manual, Correctivo, Predictivo, Inspección, Metrología, Lubricación y Otro. Como su nombre lo indica, el Tipo de Mantenimiento caracteriza al Mantenimiento que se realiza. Cada   Orden   de Trabajo permite la definición de uno y sólo un Tipo de Mantenimiento.  
+**AM** predefine ocho Tipos   de   Mantenimiento:   Preventivo, Preventivo Manual, Correctivo, Predictivo, Inspección, Metrología, Lubricación y Otro. Como su nombre lo indica, el Tipo de Mantenimiento caracteriza al Mantenimiento que se realiza. Cada   Orden   de Trabajo permite la definición de uno y sólo un Tipo de Mantenimiento.
 
-###	Tipo de Actividad
-
+### Tipo de Actividad
 
 Una vez se define el Tipo de Trabajo y el Tipo de Mantenimiento, se procede a catalogar la labor   por   su   Tipo   de   Actividad. Los Tipos de Actividad se administran desde Infraestructura, y son completamente personalizables por empresa. El Tipo de Actividad se utiliza para agrupar las labores de Mantenimiento por  actividades genérica. Es a través de los Tipos de Actividad que se definen muchas actividades realizables  por  el departamento  de  Mantenimiento,  pero  que  en  realidad  no  constituyen  una  labor  de Mantenimiento. **AM** predefine  varios  Tipos  de   Actividad. Para   mayor  información, consultar el ítem correspondiente en Infraestructura.
 
@@ -60,7 +55,7 @@ Las Órdenes de Trabajo manuales se generan a medida que se requiere: en el mome
 
 Las 	**OT** 	Programadas 	se 	generan 	periódicamente, 	mediante		el 	comando ** “ANALIZAR/GENERAR”**  en  el  submenú  de  Ordenes  de  Trabajo.  El  proceso   de Generación revisa y verifica los criterios definidos en cada Programa de  Mantenimiento, proponiendo generar, en forma automática, la Orden de Trabajo correspondiente, cuando tales criterios son válidos, para Mantenimientos Preventivo, Predictivo, Calibración, Lubricación y Rutas de Inspección, u **OT**ro Tipo de Mantenimiento
 
-##	Presupuesto vs Gasto Real
+## Presupuesto vs Gasto Real
 
 La ejecución de toda Orden de Trabajo puede generar costos, asociados a los  recursos utilizados: Mano de Obra, Materiales y Repuestos, u otros Conceptos o Gastos indirectos.
 
@@ -73,7 +68,6 @@ Si una Orden de Trabajo maneja Presupuesto (ya sea una **OT** Programada o Manua
 Estos   dos   conceptos, en   una Orden  de  Trabajo, son  básicos para la  generación de estadísticas de tiempos y variados Índices de Gestión.
 
 - **AM**- asume el concepto de Tiempo de Duración o ttr (Time to Repair), en una Orden de Trabajo,   como   la   cantidad   de   Tiempo   Real  en   la   que   se   realiza   una   labor   de Mantenimiento,  una  vez  que  todas  las  condiciones  están  dadas:  se  han  superado  los tiempos  de  inspección  y  administrativos;  la  máquina  lista  y  en   condiciones  de  ser mantenida ya fue entregada al Depto. de Mantenimiento y éste a su vez, ya cuenta con todos los recursos necesarios para la ejecución:  herramientas, instrumentos, materiales, repuestos y por supuesto, personal.
-
 - **AM**- sugiere como Tiempo de Duración, la diferencia entre la Fecha y Hora de Fin  de Trabajos y la Fecha y Hora de Inicio de Trabajos. Cabe an**OT**ar, que no siempre el Tiempo de Duración es la diferencia entre estas fechas/horas, pues pueden existir  eventos que dejan temporalmente a la **OT** en Estado de ** “Pendiente”**. **AM** permite corregir el tiempo de Duración en una **OT**, para que refleje el tiempo real de la ejecución.
 
 Por ejemplo, si una **OT** tiene como Fecha de Inicio de Trabajos XXXX/12/01 08:30, y como Fecha de Fin de Trabajos XXXX/12/01 16:00, **AM** sugiere como Tiempo de Duración, 7 horas y 30 minutos. Sin embargo, si durante ese lapso se tuvo que detener la ejecución por 2 horas, debido a que faltaba un Repuesto o a que el técnico encargado se ausentó a realizar Otra labor, se debe corregir la duración: 5 horas y 30 minutos.

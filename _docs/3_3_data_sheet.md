@@ -3,8 +3,8 @@ title: Ficha Técnica
 subtitle: aqui se encontrara el conjunto de información que define como un Activo de la empresa y también como un Objeto de Mantenimiento, tambin como se divide cuales son sue funciones y usos en am 4g.
 tags: [setup]
 author: win
+order: 03_03
 ---
-
 # Ficha Técnica
 
 La Ficha Técnica de un Activo / Equipo es el conjunto de información que lo define como un Activo de la empresa y también como un Objeto de Mantenimiento.  Como activo de la empresa se define información relacionada a su Número de Activo o Número de Inventario, lo  relacionado  con  el  Centro  de  Costo  al  que  presta  sus   servicios  y  su  respectivo Responsable, además de sus fechas y costos de compra.
@@ -56,11 +56,9 @@ Estructurar el código de Activo / Equipo es una labor de Implementación que ex
 
 **Por ejemplo:** el código COARCSU se puede descomponer de la siguiente forma:
 
- 
 **CO** Grupo de Equipos corrugadores
 **COA** Corrugador A
 **COARC**  Sistema de Rodillos Corrugadores del Corrugador A.
 **COARCSU** Rodillo superior del Sistema de Rodillos Corrugadores del **COA**
 
 **2.**	Antes de codificar algún Activo se debe haber establecido la estructura general y común de codificación de Activos de la empresa. Tal estructura se conforma definiendo los grupos significativos de primer, segundo, tercer y en ocasiones hasta de cuarto orden, de acuerdo a la cultura técnica y requerimientos del área de Mantenimiento.
-

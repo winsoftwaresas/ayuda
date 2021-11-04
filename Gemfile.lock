@@ -134,6 +134,7 @@ GEM
     jekyll-livereload (0.2.2)
       em-websocket (~> 0.5)
       jekyll (~> 3.0)
+    jekyll-material-icon-tag (1.1.1)
     jekyll-mentions (1.6.0)
       html-pipeline (~> 2.3)
       jekyll (>= 3.7, < 5.0)
@@ -279,13 +280,14 @@ DEPENDENCIES
   jekyll-feed (~> 0.6)
   jekyll-gist
   jekyll-livereload
+  jekyll-material-icon-tag
   jekyll-paginate (~> 1.1)
   jekyll-seo-tag
   tzinfo-data
   wdm (>= 0.1.0)
 
 RUBY VERSION
-   ruby 2.7.1p83
+   ruby 2.6.6p146
 
 BUNDLED WITH
    2.2.30

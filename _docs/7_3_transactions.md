@@ -3,9 +3,8 @@ title: Transacciones
 subtitle: aquí se da a conocer el uso y el funcionamiento correcto de las transacciones en el programa.
 tags: [setup]
 author: win
+order: 07_03
 ---
-
-
 ## Evaluar el Servicio
 
 Esta opción de submenú, disponible en Solicitudes de Servicio, pretende evaluar el servicio prestado por el personal de mantenimiento o de servicios, en la Solicitud de Servicio actual. La evaluación la realiza un usuario receptor del servicio, al cual se le ha solicitado previamente su correo electrónico para enviar las notificaciones sobre el cambio de estado a Cerrada de la Solicitud de Servicio y en donde se adjunta un link para realizar la evaluación del servicio.

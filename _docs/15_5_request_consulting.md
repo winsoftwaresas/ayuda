@@ -3,22 +3,24 @@ title: Consultar Mis Solicitudes
 subtitle: Este capítulo guía para ejecutar consultas de SS creadas desde **AMsi** 
 tags: [AMsi, Consultar Solicitudes]
 author: win
+order: 15_05
 ---
-
 **AMsi** solo permite realizar creación y consultas para uno de los dos tipos de registro a la vez: OT o SS, pero no para los dos simultáneamente. Ello depende de la Configuración del aplicativo que se haya elegido, según la necesidad de la Organización.
 
 La Configuración del **AMsi** se describe en detalle en el Capítulo 9 de este manual.
 
 **En este capítulo**
+
 - Subgrupos
 - Consulta de Solicitudes
 - Visor de Solicitudes
 
-### 5.1 Subgrupos 
+### 5.1 Subgrupos
+
 Inicialmente esta transacción trae el listado del total de las SS que se han realizado para la Organización por parte de otros usuarios solicitantes.
 En el caso de que el Administrador del **AMsi** haya asociado Todos los Centros de Costos al Usuario logueado, se mostrarán todas las SS para todos los Centros De Servicio (compañías).
-Sin embargo, es posible hacer Subgrupos (búsquedas específicas) a través del ícono de triángulo invertido superior derecho y ver solo las SS creadas por el Usuario logueado. Esto tiene como finalidad de que el usuario pueda realizar constantemente y en tiempo real el seguimiento y consultas a sus SS. 
-A esta ventana se llega al dar clic a la opción de Consultar Mis Solicitudes en la ventana de Menú Principal.  
+Sin embargo, es posible hacer Subgrupos (búsquedas específicas) a través del ícono de triángulo invertido superior derecho y ver solo las SS creadas por el Usuario logueado. Esto tiene como finalidad de que el usuario pueda realizar constantemente y en tiempo real el seguimiento y consultas a sus SS.
+A esta ventana se llega al dar clic a la opción de Consultar Mis Solicitudes en la ventana de Menú Principal.
 
 ![Procesar imagen](../assets/images/placeholder.jpg)
 **_Imagen 9.  Consultar Mis Solicitudes_**
@@ -34,12 +36,11 @@ Los campos de datos que constituyen criterio de selección en la Ventana Subgrup
 
 ##### **FILTRAR POR CAMPOS DEL ACTIVO ASOCIADO A LA SOLICITUD DE SERVICIO**
 
-**AC-Código:** Esta selección agrupa las SS cuyo Activo coincidan el código completo o una porción del mismo. 
+**AC-Código:** Esta selección agrupa las SS cuyo Activo coincidan el código completo o una porción del mismo.
 
 **AC-Descripción:** Selecciona las SS asociadas a los Activos según criterios que se fundamenten en su descripción.  Ejemplo: Motor selecciona todos los Activos, en cuya descripción, en cualquier posición, tengan la palabra “Motor”.
 
 **Activo en lenguaje natural:** Permite filtrar las SS que contengan parte del nombre igual del Activo.
-
 
 ##### **FILTRAR POR CAMPOS DE LA SOLICITUD DE SERVICIO**
 
@@ -47,7 +48,7 @@ Los campos de datos que constituyen criterio de selección en la Ventana Subgrup
 
 **Diagnóstico del Usuario:** Permite la selección de SS de acuerdo con una parte de la Descripción del usuario. Se debe digitar manualmente y es posible usar comodines.
 
-**Rango Consecutivo de Solicitud:** Permite la selección de las SS cuyo número consecutivo se encuentre incluido dentro  del  rango  especificado en  este criterio. Aparecen dos campos: Desde y Hasta. En cada uno de ellos se digita un número consecutivo de solicitud. 
+**Rango Consecutivo de Solicitud:** Permite la selección de las SS cuyo número consecutivo se encuentre incluido dentro  del  rango  especificado en  este criterio. Aparecen dos campos: Desde y Hasta. En cada uno de ellos se digita un número consecutivo de solicitud.
 
 **Estado de la Solicitud:** Este criterio agrupa las SS de acuerdo al Estado que se encuentra en el visor, en este campo se debe poner la abreviatura del estado de la SS, siendo los siguientes: Análisis (AN), Asignada (AS), En Ejecución (EJ), Cerrada no ejecutada (NE), Cerrada Ejecutada (CE), Cerrada con OT (CO), Cerrada Parcial (CP).
 
@@ -60,8 +61,9 @@ Los campos de datos que constituyen criterio de selección en la Ventana Subgrup
 **Ubicación  física:** Permite la selección de  las SS cuyo Activo esté en la  ubicación física que se determina en este criterio. Es posible digitar una parte y usar comodines (%).
 
 ### 5.2 Consulta de Solicitudes
+
 Para realizar la consulta de una SS, basta con dar clic a uno de los registros de las SS listadas y a continuación se muestra en detalle toda la información allí contenida.
- 
+
 ![Procesar imagen](../assets/images/placeholder.jpg)
 **_Imagen 11.  Ventana Detalle de la SS_**
 
@@ -72,16 +74,16 @@ Este visor contiene la siguiente información:
 - El número de la SS
 - La fecha y hora de creación de la SS
 - El nombre del Estado en el que se encuentra la SS. Este estado solo es modificable desde el  AM por el encargado del área de mantenimiento de la organización.
-- El nombre del Responsable ejecutor del mantenimiento. 
-- Nombre del Solicitante. Este nombre puede ser puede ser cambiado desde AM por el encargado del área de mantenimiento de la organización. 
+- El nombre del Responsable ejecutor del mantenimiento.
+- Nombre del Solicitante. Este nombre puede ser puede ser cambiado desde AM por el encargado del área de mantenimiento de la organización.
 - Email de la persona solicitante.
 
-**Datos del Usuario:** 
+**Datos del Usuario:**
 
 Datos suministrados en el formulario de _Actualizar Perfil del **AMsi** :_
 
 - Documento de identidad
-- Nombre 
+- Nombre
 - Dirección
 - Ciudad
 - Correo Electrónico
@@ -96,7 +98,7 @@ Datos suministrados en el formulario de _Actualizar Perfil del **AMsi** :_
 - Ubicación Física
 - Causa de Falla
 - Tipo de Mantenimiento
-- Tipo de Actividad 
+- Tipo de Actividad
 
 **Fechas y Horas:** Estos campos solo son modificables desde el módulo SS del AM. En estos campos aparecen las fechas de atención, inicio de trabajo, fin de trabajo y cierre de la SS.
 

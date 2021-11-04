@@ -3,13 +3,13 @@ title: Acceso Administración AMsi
 subtitle: Este capítulo, orientado al Administrador General de AMsi,se concentra en la funcionalidad de la opción Configuración.
 tags: [AMsi, Configuración Amsi, Acceso admministración AMsi]
 author: win
+order: 15_09
 ---
-
-Se define el acceso a la aplicativo y comandos del menú principal para el Administrador del sistema. Se configuran criterios, preferencias, particularidades y modos de visualización sobre la información disponible en los formularios básicos del aplicativo al igual que los permisos y parametrización general del mismo, incluyendo la administración de los usuarios de **AMsi**. 
+Se define el acceso a la aplicativo y comandos del menú principal para el Administrador del sistema. Se configuran criterios, preferencias, particularidades y modos de visualización sobre la información disponible en los formularios básicos del aplicativo al igual que los permisos y parametrización general del mismo, incluyendo la administración de los usuarios de **AMsi**.
 
 **En este capítulo**
 
-- Acceso al modo Configuración 
+- Acceso al modo Configuración
 - Ventana de Menú Principal del Usuario Administrador
 - Configuración General
 
@@ -26,18 +26,18 @@ Una vez se ingrese el Usuario y la Contraseña de manera correcta, se puede obse
 
 ### 9.2	Ventana de Menú Principal del Usuario Administrador
 
-La ventana de Menú Principal del Usuario Administrador muestra las transacciones que el usuario puede realizar a través del **AMsi**. 
+La ventana de Menú Principal del Usuario Administrador muestra las transacciones que el usuario puede realizar a través del **AMsi**.
 
 ![Procesar imagen](../assets/images/placeholder.jpg)
 _**Imagen 24.  Ventana Menú Principal del Usuario Administrador**_
 
-A continuación, se describen las transacciones que componen esta ventana. 
+A continuación, se describen las transacciones que componen esta ventana.
 
 **Configuración:** Esta opción permite configurar los criterios, preferencias, particularidades y modos de visualización sobre la información disponible en los formularios básicos del aplicativo al igual que los permisos y parametrización general del mismo.
 
-**Administrar Usuarios:** Esta opción permite la creación de los usuarios que ingresarán al **AMsi**, registro de información específica del usuario y la asociación de los Centros de Costo. 
+**Administrar Usuarios:** Esta opción permite la creación de los usuarios que ingresarán al **AMsi**, registro de información específica del usuario y la asociación de los Centros de Costo.
 
-**Cerrar Sesión:** Esta opción se usa para salir del aplicativo **AMsi**. 
+**Cerrar Sesión:** Esta opción se usa para salir del aplicativo **AMsi**.
 
 ### 9.3	Configuración
 
@@ -46,7 +46,7 @@ Una vez se ingrese con los datos del usuario administrador, se debe dar clic a e
 ![Procesar imagen](../assets/images/placeholder.jpg)
 _**Imagen 25. Configuración**_
 
-A continuación se detallan cada uno de los componentes activos de la Ventana de Configuración del  **AMsi** . Para acceder a esta opción se da clic a la opción Configuración en la ventana de Menú Principal. 
+A continuación se detallan cada uno de los componentes activos de la Ventana de Configuración del  **AMsi** . Para acceder a esta opción se da clic a la opción Configuración en la ventana de Menú Principal.
 
 ![Procesar imagen](../assets/images/placeholder.jpg)
 _**Imagen 26.  Configuración de **AMsi****_
@@ -62,8 +62,8 @@ Los componentes de la ventana de Configuración General son los que se muestran 
 ![Procesar imagen](../assets/images/placeholder.jpg)
 _**Imagen 27. Configuración General**_
 
-**Mensaje en la ventana de registro de la solicitud:** En este campo se digita un mensaje que se desliza y aparece en la parte superior del formulario de Servicio Solicitado. Este campo permite hasta 500 caracteres. 
- 
+**Mensaje en la ventana de registro de la solicitud:** En este campo se digita un mensaje que se desliza y aparece en la parte superior del formulario de Servicio Solicitado. Este campo permite hasta 500 caracteres.
+
 ![Procesar imagen](../assets/images/placeholder.jpg)
 _**Imagen 29.  Mensaje en la ventana registro de la solicitud**_
 
@@ -74,19 +74,19 @@ _**Imagen 30. Generar automáticamente Ordenes al guardar la solicitud**_
 
 #### 9.3.2 Información del Solicitante
 
-En esta ventana se configuran los campos que serán exigidos en la sección Datos del Solicitante. Los componentes de la ventana de Información del Solicitante son los que se muestran a continuación. Sobre cada componente se da una breve explicación.  
+En esta ventana se configuran los campos que serán exigidos en la sección Datos del Solicitante. Los componentes de la ventana de Información del Solicitante son los que se muestran a continuación. Sobre cada componente se da una breve explicación.
 
 ![Procesar imagen](../assets/images/placeholder.jpg)
 _**Imagen 31.  Información del Solicitante **_
 
 **¿El Teléfono es requerido?:** Marcar SI indica que este campo es obligatorio y se identifican con un asterisco * de color rojo entre paréntesis que antecede el nombre del campo. Además, indica que debe ser llenado por los usuarios. Marcar NO implica dejar el campo a manera opcional de diligenciamiento para el solicitante al momento de actualizar la información dese Actualizar Perfil o para el usuario administrador al momento de crear y actualizar los usuarios.
 
-![Procesar imagen](../assets/images/placeholder.jpg) 
+![Procesar imagen](../assets/images/placeholder.jpg)
 _**Imagen 32.  Teléfono requerido **_
 
 **¿La Extensión es requerida?:** Marcar SI indica que este campo es obligatorio y se identifican con un asterisco * de color rojo entre paréntesis que antecede el nombre del campo. Además, indica que debe ser llenado por los usuarios. Marcar NO implica dejar el campo a manera opcional de diligenciamiento para el solicitante al momento de actualizar la información dese Actualizar Perfil o para el usuario administrador al momento de crear y actualizar los usuarios.
 
-![Procesar imagen](../assets/images/placeholder.jpg) 
+![Procesar imagen](../assets/images/placeholder.jpg)
 _**Imagen 33. Extensión requerida**_
 
 **¿La Dirección es requerida?:** Marcar SI indica que este campo es obligatorio y se identifican con un asterisco * de color rojo entre paréntesis que antecede el nombre del campo. Además, indica que debe ser llenado por los usuarios. Marcar NO implica dejar el campo a manera opcional de diligenciamiento para el solicitante al momento de actualizar la información dese Actualizar Perfil o para el usuario administrador al momento de crear y actualizar los usuarios.
@@ -96,19 +96,19 @@ _**Imagen 34.  Dirección requerida **_
 
 **¿La Ciudad es requerida?:** Marcar SI indica que este campo es obligatorio y se identifican con un asterisco * de color rojo entre paréntesis que antecede el nombre del campo. Además, indica que debe ser llenado por los usuarios. Marcar NO implica dejar el campo a manera opcional de diligenciamiento para el solicitante al momento de actualizar la información dese Actualizar Perfil o para el usuario administrador al momento de crear y actualizar los usuarios.
 
-![Procesar imagen](../assets/images/placeholder.jpg) 
+![Procesar imagen](../assets/images/placeholder.jpg)
 _**Imagen 35.  Ciudad requerida**_
 
 **¿El Correo Electrónico es requerido?:** Marcar SI indica que este campo es obligatorio y se identifican con un asterisco * de color rojo entre paréntesis que antecede el nombre del campo. Además, indica que debe ser llenado por los usuarios. Marcar NO implica dejar el campo a manera opcional de diligenciamiento para el solicitante al momento de actualizar la información desde **Actualizar Perfil** o para el usuario administrador al momento de crear y actualizar los usuarios.
 
-![Procesar imagen](../assets/images/placeholder.jpg) 
+![Procesar imagen](../assets/images/placeholder.jpg)
 _**Imagen 36.  Correo Electrónico requerido**_
 
-#### 9.3.3 Servicio Solicitado 
+#### 9.3.3 Servicio Solicitado
 
-En esta ventana se configuran los campos que serán exigidos en la sección Servicio Solicitado. Los componentes de la ventana de Servicio Solicitado son los que se muestran a continuación. Sobre cada componente se da una breve explicación. 
+En esta ventana se configuran los campos que serán exigidos en la sección Servicio Solicitado. Los componentes de la ventana de Servicio Solicitado son los que se muestran a continuación. Sobre cada componente se da una breve explicación.
 
-![Procesar imagen](../assets/images/placeholder.jpg) 
+![Procesar imagen](../assets/images/placeholder.jpg)
 _**Imagen 37. Servicio Solicitado**_
 
 **¿Cómo nombrar las compañías?:** Se refiere a los nombres de las Compañías creadas en el AM, es decir, los Centros de Servicio responsables de las diferentes actividades de mantenimiento del Cliente. Por defecto ellas son nombradas como Centro de Servicio y pueden ser renombradas a gusto según la cultura del Cliente.
@@ -117,45 +117,46 @@ _**Imagen 37. Servicio Solicitado**_
 
 **¿Cómo nombrar la prioridad Alta?:** Se refiere a los tipos de prioridades creadas en el AM. Por defecto este campo es nombrado como Emergente y puede ser cambiado a un nombre que sea más significativo dentro de la Compañía.
 
-**¿Cómo nombrar la prioridad media?:** Se refiere a los tipos de prioridades creadas en el AM. Por defecto este campo es nombrado como Urgente y puede ser cambiado a un nombre que sea más significativo dentro de la Compañía. 
+**¿Cómo nombrar la prioridad media?:** Se refiere a los tipos de prioridades creadas en el AM. Por defecto este campo es nombrado como Urgente y puede ser cambiado a un nombre que sea más significativo dentro de la Compañía.
 
-**¿Cómo nombrar la prioridad baja?:** Se refiere a los tipos de prioridades creadas en el AM. Por defecto este campo es nombrado como Normal y puede ser cambiado a un nombre que sea más significativo dentro de la Compañía. 
+**¿Cómo nombrar la prioridad baja?:** Se refiere a los tipos de prioridades creadas en el AM. Por defecto este campo es nombrado como Normal y puede ser cambiado a un nombre que sea más significativo dentro de la Compañía.
 
-#### 9.3.4 Identificación del Activo 
+#### 9.3.4 Identificación del Activo
 
-En esta ventana se configuran las opciones correspondientes para el campo de Activo / Equipo en el formulario Servicio Solicitado, en el proceso de creación de una SS y/o OT. Los componentes de la ventana de Identificación del Activo son los que se muestran a continuación. Sobre cada componente se da una breve explicación. 
+En esta ventana se configuran las opciones correspondientes para el campo de Activo / Equipo en el formulario Servicio Solicitado, en el proceso de creación de una SS y/o OT. Los componentes de la ventana de Identificación del Activo son los que se muestran a continuación. Sobre cada componente se da una breve explicación.
 
-![Procesar imagen](../assets/images/placeholder.jpg) 
+![Procesar imagen](../assets/images/placeholder.jpg)
 _**Imagen 38. Identificación del Activo**_
 
 **¿Desea describir el Activo en lenguaje natural?:** Elegir SI en este botón, habilita un checkbox al extremo izquierdo del campo Activo / Equipo. Al chequear este cuadro, inmediatamente se habilitan dos campos que pueden ser diligenciados. El primer campo es para describir en lenguaje natural el Activo o Equipo hasta con 50 caracteres, y el segundo campo es para describir también en lenguaje natural la ubicación física del Activo o Equipo referenciado hasta con 50 caracteres. De elegir NO, quedará disponible para definir el código de Activo/Equipo solamente del icono de filtro azul y seleccionarlo del visor de Activos. Es de tener en cuenta que cuando se elige la opción para crear Órdenes, esta opción no es posible cambiarla.
 
-**¿La ubicación física es requerida?:** Elegir SI indica que éste es un campo obligatorio que debe ser llenado por los usuarios en el formulario Información de la Solicitud. Marcar NO implica que el campo tiene un uso opcional de diligenciamiento para el solicitante. 
+**¿La ubicación física es requerida?:** Elegir SI indica que éste es un campo obligatorio que debe ser llenado por los usuarios en el formulario Información de la Solicitud. Marcar NO implica que el campo tiene un uso opcional de diligenciamiento para el solicitante.
 
 Si el Activo/Equipo es seleccionado de una lista o ingresado con su respectivo código, el campo Ubicación Física se llena automáticamente en cada caso. Mientras que, si el Activo/Equipo es escrito en lenguaje natural, el campo Ubicación Física queda habilitado para ser diligenciado por el solicitante. Es de tener en cuenta que cuando se elige la opción para crear Órdenes, esta opción no es posible cambiarla.
 
-### 9.3.5 Seguridad 
+### 9.3.5 Seguridad
 
 En esta ventana se establece el Usuario y Contraseña del Administrador del  **AMsi** , además se configuran los servidores de correo con usuarios y contraseñas. Los componentes de la ventana de Seguridad son los que se muestran a continuación. Sobre cada componente se da una breve explicación:
 
-![Procesar imagen](../assets/images/placeholder.jpg) 
+![Procesar imagen](../assets/images/placeholder.jpg)
 _**Imagen 39. Seguridad**_
 
 **Usuario Administrador:** En este campo se define el usuario Administrador con el cual se accede al sistema para la Configuración de **AMsi**.
 
-**Contraseña:** En este campo se asigna una Contraseña para el usuario Administrador, con el fin de acceder a la Configuración de **AMsi**. La Contraseña se muestra en blanco o sin diligenciar por seguridad. 
+**Contraseña:** En este campo se asigna una Contraseña para el usuario Administrador, con el fin de acceder a la Configuración de **AMsi**. La Contraseña se muestra en blanco o sin diligenciar por seguridad.
 Servidor de Correo: En este campo se ubica el servidor de correo de la organización, para habilitar la funcionalidad de envíos por correo.
 
 **Usuario de Correo:** En este campo se indica un usuario de correo bajo una estructura válida de una cuenta de correo. Es la cuenta origen desde la que serán enviados los correos de notificación.
 Contraseña de Correo: En este campo se define la Contraseña con la cual se accede a la cuenta de correo ubicada en el campo anterior.
 
-**Utiliza cifrado (SSL):** En este campo se habilita la seguridad integrada del cifrado (SSL). Por defecto esta opción es configurado como NO. 
+**Utiliza cifrado (SSL):** En este campo se habilita la seguridad integrada del cifrado (SSL). Por defecto esta opción es configurado como NO.
+
 - Si
 - No
 
 #### 9.3.6 Finalizando la Configuración
 
-Una vez realizadas las modificaciones, dar clic al botón Actualizar ubicado al final de esta ventana para guardar la nueva configuración de **AMsi**, el sistema inmediatamente vuelve a la ventana de Menú Principal del Usuario Administrador. 
+Una vez realizadas las modificaciones, dar clic al botón Actualizar ubicado al final de esta ventana para guardar la nueva configuración de **AMsi**, el sistema inmediatamente vuelve a la ventana de Menú Principal del Usuario Administrador.
 
-![Procesar imagen](../assets/images/placeholder.jpg) 
+![Procesar imagen](../assets/images/placeholder.jpg)
 _**Imagen 40. Actualizar Configuración de **AMsi****_
