@@ -9,7 +9,7 @@ author: win
 order: 01_01
 date: 2021-11-12T22:15:22.359Z
 ---
-## ¿Qué es **AM**? prueba
+## ¿Qué es **AM**?
 
 Este primer capítulo contiene información básica para la comprensión y el uso del **AM**. Se plantea una visión general sobre la interfaz del usuario y sobre los elementos que aparecen en pantalla a manera de convenciones generales.
 
