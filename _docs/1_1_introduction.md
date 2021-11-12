@@ -1,11 +1,15 @@
 ---
 title: Introducción
-subtitle: En el capitulo inicial del manual de ayuda AM contiene la información necesaria para su comprension y manejo adecuado, especificando la funcionalidad de cada una de las partes que lo componen.
-tags: [setup]
+subtitle: En el capitulo inicial del manual de ayuda AM contiene la información
+  necesaria para su comprension y manejo adecuado, especificando la
+  funcionalidad de cada una de las partes que lo componen.
+tags:
+  - setup
 author: win
 order: 01_01
+date: 2021-11-12T22:15:22.359Z
 ---
-## ¿Qué es **AM**?
+## ¿Qué es **AM**? prueba
 
 Este primer capítulo contiene información básica para la comprensión y el uso del **AM**. Se plantea una visión general sobre la interfaz del usuario y sobre los elementos que aparecen en pantalla a manera de convenciones generales.
 
