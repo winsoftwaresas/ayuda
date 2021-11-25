@@ -20,14 +20,14 @@ Almacena la información de cuatro tipos diferentes de entes terceros relacionad
 ![Procesar imagen](../../assets/images/cap02/chp02_img02.png)
 _**Imagen 2.** Ventana Terceros_
 
-En la porción de la ventana Visor de Terceros que se aprecia en la gráfica aparecen  las columnas correspondientes a los campos más significativos de esta tabla. Al seleccionar un registro de esta ventana, se muestra la ventana Detalle con la  información completa del Tercero seleccionado.
+En la porción de la ventana Visor de Terceros que se aprecia en la gráfica aparecen las columnas correspondientes a los campos más significativos de esta tabla. Al seleccionar un registro de esta ventana, se muestra la ventana Detalle con la  información completa del Tercero seleccionado.
 
 ![Procesar imagen](../../assets/images/cap02/chp02_img03.png)
 _**Imagen 3.** Ventana Detalle TE_
 
-En la ventana Detalle de Terceros se encuentra toda la información relevante del Tercero seleccionado en el Visor. Es una ventana que de no aparecer completa debe ser recorrida con la ayuda de la barra de desplazamiento vertical.
+En la ventana Detalle de Terceros se encuentra toda la información relevante del Tercero seleccionado en el Visor. Es una ventana que de no visualizarse completa debe ser recorrida con la ayuda de la barra de desplazamiento vertical.
 
-A continuación se describen los campos que componen el registro. No todos ellos son obligantarios. Sobre cada campo se da una breve explicación: su contenido y diversas recomendaciones para su registro correcto y consistente en la base de datos.
+A continuación se describen los campos que componen el registro. No todos ellos son obligantes. Sobre cada campo se da una breve explicación: su contenido y diversas recomendaciones para su registro correcto y consistente en la base de datos.
 
 **Código (de Tercero):** En este campo se escribe el código de Tercero Externo, para el caso de los contratistas, proveedores y fabricantes, se usa normalmente el NIT o el RUT, o cualquier otro código de identificación nacional, único  ante los sistemas fiscal, tributario y financiero. Cuando se trate de personal propio de la empresa se debe escribir el número de su cédula de ciudadanía o un número interno de carné o de identificación personal.
 
@@ -47,9 +47,9 @@ Cuando se selecciona cualquiera de los dos primeros tipos de Tercero (Responsabl
 
 El programa permite seleccionar solo uno de dos: **Responsable Interno** o **Responsable Externo**. En ambos casos el sistema solicita a continuación el nombre del Oficio o de la especialidad del Tercero.
 
-Un **Responsable Interno (RI)** no puede ser al tiempo **Proveedor (PF)** de la compañía, entonces ésta combinación está inhabilitada.
+> _**Nota:** Un **Responsable Interno (RI)** no puede ser al tiempo **Proveedor (PF)** de la compañía, entonces ésta combinación está inhabilitada._
 
-**Oficio:** En este campo se seleccionaal  de la lista despegable, el oficio o cargo técnico o especialidad del Tercero. Al seleccionar un Oficio, el programa muestra automáticamente el nombre del Centro Responsable al que está asociado el Oficio.
+**Oficio:** En este campo se selecciona de la lista despegable, el oficio o cargo técnico o especialidad del Tercero. Al seleccionar un Oficio, el programa muestra automáticamente el nombre del Centro Responsable al que está asociado el Oficio.
 
 **Contacto:** En este campo se ingresa, para el caso de contratistas y proveedores, el nombre de la persona representante del Tercero ante la empresa. Para el caso de Terceros internos es posible ingresar el mismo nombre del Tercero, o de un representante de su área, o de la secretaria del área o es posible también dejarlo en blanco.
 
@@ -61,7 +61,7 @@ Un **Responsable Interno (RI)** no puede ser al tiempo **Proveedor (PF)** de la 
 
 En el primer campo se escribe la ciudad donde está ubicado el Tercero. En el segundo campo se escribe el país.
 
-**Teléfonos:** Aparecen dos campos para dos números telefónicos: Teléfono 1 y Teléfono 2.
+**Teléfonos:** Aparecen dos campos para dos números telefónicos: Teléfono 1 y Teléfono 2, disponibles para números fijos.
 
 Cuando se vaya a escribir un número telefónico es importante tener en cuenta que los tres primeros dígitos que se escriban deben corresponder al indicativo de la ciudad o del área. El programa automáticamente escribirá estos tres dígitos dentro de un  paréntesis.   Los siguientes siete dígitos corresponden al número de teléfono y a partir del octavo dígito corresponde al número de la Extensión telefónica (si aplica). El programa automáticamente escribe la palabra Ext.
 
@@ -84,7 +84,7 @@ A continuación la explicación de las Certificaciones de Terceros tipo RI, cuya
 ![Procesar imagen](../../assets/images/cap02/chp02_img04.png)
 _**Imagen 4.** Certificaciones TE_
 
-En la gráfica anterior, pestaña Certificaciones, se aprecian sus componentes y sus respectivos contenidos. En la ventana Detalle de Terceros se  encuentra la información relevante a la Certificación del Tercero seleccionado en el Visor.
+En la gráfica anterior, pestaña Certificaciones, se aprecian sus componentes y sus respectivos contenidos. En la ventana Detalle de Terceros se encuentra la información relevante a la Certificación del Tercero seleccionado en el Visor.
 
 A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación.
 
@@ -94,7 +94,7 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 **Adjuntar Documentos:** Para adjuntar el documento, se debe dar clic a `<a class="btn">`Seleccionar archivo`</a>`, se observa que se abre el explorador de archivos, luego debe seleccionarse a través de un doble clic o dando un clic al botón`<a class="btn">`Abrir`</a>`, al lado derecho del campo se observa que se muestra el nombre del archivo adjuntado, para insertar o actualizar los datos en esta tabla se da clic en el botón`<a class="btn">`Abrir`</a>`
 
-Para actualizar la información de alguna certificación, se ingresa la nueva información en los campos correspondientes y se termina el proceso con el botón `<a class="btn">`Actualizar`</a>`. Si se desea desasociar la información de una certificación de un Técnico, se debe dar clic al icono de `<span class="iconify btn" data-icon=delete>`eliminar (basura) que está al lado izquierdo del documento anexo, donde se muestra un mensaje de alerta que indica al usuario de sí está seguro de eliminar el registro y se da clic en Aceptar.
+Para actualizar la información de alguna certificación, se ingresa la nueva información en los campos correspondientes y se termina el proceso con el botón `<a class="btn">`Actualizar`</a>`. Si se desea desasociar la información de una certificación de un Técnico, se debe dar clic al icono de <span class="mdi mdi-delete"></span> que está al lado izquierdo del documento anexo, donde se muestra un mensaje de alerta que indica al usuario de sí está seguro de eliminar el registro y se da clic en Aceptar.
 
 **Certificaciones Terceros Tipo RX**
 

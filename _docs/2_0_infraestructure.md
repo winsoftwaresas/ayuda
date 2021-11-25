@@ -5,15 +5,15 @@ order: 02_00
 ---
 #Infraestructura
 
-Que información constituye la Infraestructura. Cual es cada una de las tablas que  la conforman. En que secuencia se ingresan, y con  qué estructura de codificación.  Todo esto conforma el contenido del presente capítulo sobre los datos de Infraestructura.
+Que información constituye la Infraestructura. Cual es cada una de las tablas que  la conforman. En que secuencia se ingresan, y con qué estructura de codificación. Todo esto conforma el contenido del presente capítulo sobre los datos de Infraestructura.
 
 #Conceptos Básicos sobre la Infraestructura
 
-La infraestructura es un conjunto de archivos y tablas parametrizables que sirven para que **AM** se adecue a la organización de mantenimiento de la empresa y sus características.
+La infraestructura es un conjunto de archivos y tablas parametrizables que sirven para que **AM** se adapte a la organización de mantenimiento de la empresa y sus características.
 
-A la Infraestructura pertenecen tablas que **AM** utiliza como base para agilizar la definición de Equipos, Repuestos, Programas de Mantenimiento y sus respectivas Órdenes de Trabajo. Los datos correspondientes a los registros de estas tablas deben ser los primeros en entrar al sistema, después de lo cual se actualizan con una relativa baja frecuencia.
+A la Infraestructura pertenecen tablas que **AM** utiliza como base para agilizar la definición de Activos, Repuestos, Programas de Mantenimiento y sus respectivas Órdenes de Trabajo. Los datos correspondientes a los registros de estas tablas deben ser los primeros en entrar al sistema, después de lo cual se actualizan con una relativa baja frecuencia.
 
-Es recomendable ingresar los datos en el siguiente orden: Centros de Costo, Centros Responsables, Oficios, Terceros, Ubicaciones Físicas, Contratos, Almacenes, Unidades  de Medida, Monedas, Contadores, Características, Otros Conceptos de Costo, Causas de Pendiente, Tipos de Actividad, Causas de Cierre, Acciones Técnicas, Causas de Falla, Efectos de Falla, Conceptos de Kárdex, Operaciones, Referencias, Clasificadores y Estados. Estas se consideran las tablas básicas, que deberán, en su mayoría, ser revisadas y personalizadas. Algunas tablas son de utilidad opcional según se use o no el módulo de Repuestos, como por ejemplo la de Unidades de Medida y Monedas. Otras tablas son instaladas con valores preconfigurados (valores por defecto), válidos en muchos contextos a manera de ejemplo; sin embargo, sus contenidos se pueden modificar, borrar o ser actualizados con información nueva.
+Es recomendable ingresar los datos en el siguiente orden: Centros de Costo, Centros Responsables, Oficios, Terceros, Ubicaciones Físicas, Contratos, Almacenes, Unidades de Medida, Monedas, Contadores, Características, Otros Conceptos de Costo, Causas de Pendiente, Tipos de Actividad, Causas de Cierre, Acciones Técnicas, Causas de Falla, Efectos de Falla, Conceptos de Kárdex, Operaciones, Referencias, Clasificadores y Estados. Estas se consideran las tablas básicas, que deberán, en su mayoría, ser revisadas y personalizadas. Algunas tablas son de utilidad opcional según se use o no el módulo de Repuestos, como por ejemplo la de Unidades de Medida y Monedas. Otras tablas son instaladas con valores preconfigurados (valores por defecto), válidos en muchos contextos a manera de ejemplo; sin embargo, sus contenidos se pueden modificar, borrar o ser actualizados con información nueva.
 
 Después de haber entrado los datos básicos de Infraestructura, se debe continuar  con la información correspondiente a Activos y Repuestos que se encuentra en el menú principal.
 
