@@ -139,7 +139,7 @@ El significado de los colores se visualiza al sobreponer el mouse en el icono <s
 
 ### Subgrupo Terceros
 
-Se usa para seleccionar grupos de Terceros que cumplen un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al `<span class="mdi mdi-filter-variant icon white">`, ubicado en la parte superior derecha de la ventana Visor de Terceros.
+Se usa para seleccionar grupos de Terceros que cumplen un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al <span class="mdi mdi-filter-variant"></span>, ubicado en la parte superior derecha de la ventana Visor de Terceros.
 
 ![Procesar imagen](../../assets/images/cap02/chp02_img07.png)
 _**Imagen 7.** Subgrupos_
@@ -150,7 +150,7 @@ Cada criterio trabaja en conjunto con los demás, con el operador intersección.
 
 Cada criterio aparece inicializado en un valor global que permite mostrar **todos** los Terceros. Lo que significa que de no escoger un criterio se obtiene como resultado  del subgrupo el mismo conjunto completo de todos los Terceros.
 
-El programa permite entonces hacer selección de un grupo de Terceros de acuerdo con los criterios seleccionados en la siguiente ventana:
+El programa permite hacer selección de un grupo de Terceros de acuerdo con los criterios seleccionados en la siguiente ventana:
 
 ![Procesar imagen ](../../assets/images/cap02/chp02_img08.png)
 _**Imagen 8.** Ventana Subgrupo Terceros_
@@ -164,7 +164,7 @@ Los campos de datos que constituyen los criterios de selección son los siguient
 ![Procesar imagen ](../../assets/images/cap02/chp02_img09.png)
 _**Imagen 9.** Subgrupo Criterio Centro Responsable_
 
-También se puede elegir el centro responsable o un grupo de centros responsables mediante el uso de comodines, para ello, se debe dar clic al icono `<span class="iconify btn" data-icon=lock>`Candado. Ejemplo, si se escribe %adm%, el sistema entiende que debe seleccionar aquellos Terceros cuyo centro responsable tenga incluida la secuencia **“adm”**.
+También se puede elegir el centro responsable o un grupo de centros responsables mediante el uso de comodines, para ello, se debe dar clic al icono <span class="mdi mdi-lock-open-outline"></span>. Ejemplo, si se escribe %adm%, el sistema entiende que debe seleccionar aquellos Terceros cuyo centro responsable tenga incluida la secuencia **“adm”**.
 
 **Ciudad:** Permite la selección de la ciudad donde se encuentre un Tercero.
 
@@ -186,7 +186,7 @@ _**Imagen 10.** Subgrupo Criterio Tipo_
 ![Procesar imagen ](../../assets/images/cap02/chp02_img11.png)
 _**Imagen 11.** Subgrupo Criterio Oficio_
 
-De igual forma, se puede elegir el oficio mediante la opción utilizar comodines, para ello, se debe dar clic al icono `<a class="btn">`Candado`</a>`. Esta selección agrupa los Terceros relacionados por su oficio. Por ejemplo: si se escribe ayudante%, el sistema localiza aquellos Terceros cuyo oficio empieza por la palabra **“ayudante”**.
+De igual forma, se puede elegir el oficio mediante la opción utilizar comodines, para ello, se debe dar clic al icono <span class="mdi mdi-lock-open-outline"></span>. Esta selección agrupa los Terceros relacionados por su oficio. Por ejemplo: si se escribe ayudante%, el sistema localiza aquellos Terceros cuyo oficio empieza por la palabra **“ayudante”**.
 
 > **Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además, es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber realizado una selección es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección se da un clic al botón `<a class="btn">`Mas (+)`</a>`, en lugar de darlo al botón `<a class="btn">`Aceptar`</a>`.
 
