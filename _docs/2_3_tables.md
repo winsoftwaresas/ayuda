@@ -123,16 +123,16 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 **Adjuntar Documentos:** Para adjuntar el documento, se debe dar clic al botón `<a class="btn">`Seleccionar archivo`</a>`. Se observa que se abre una ventana para buscar el archivo y se selecciona dando doble clic o clic al botón `<a class="btn">`Abrir`</a>`, al lado derecho del campo se observa que se muestra el nombre del archivo adjuntado, para insertar o actualizar los datos en esta tabla se da clic en el botón `<a class="btn">`Más`</a>` o `<a class="btn">`Actualizar Técnico`</a>`, que solo aplica cuando el registro ya existe. Para finalizar el proceso, en ambos casos, se debe dar clic al botón `<a class="btn">`Actualizar`</a>`.
 
-Para registrar un nuevo técnico se da clic en el botón `<a class="btn">`Más`</a>`, ubicado en la parte inferior izquierda de la tabla Técnicos. Para actualizar la información de alguno de los técnicos, primero se selecciona el técnico en la tabla, se observa que se muestra la información detallada de ese técnico, se procede a actualizar los campos, luego dar clic al botón `<a class="btn">`Actualizar Técnico`</a>` y finalmente terminar el proceso de actualización con el botón `<a class="btn">`Actualizar Técnico`</a>` de la parte superior izquierda. Si se desea desasociar la información de una certificación de un Técnico, se debe dar clic al icono de`<span class="iconify btn" data-icon=delete>`eliminar (basura) que está al lado derecho del documento anexo, sale mensaje de alerta que indica al usuario de sí está seguro de eliminar el registro y se da clic en `<a class="btn">`Aceptar`</a>`.
+Para registrar un nuevo técnico se da clic en el botón `<a class="btn">`Más`</a>`, ubicado en la parte inferior izquierda de la tabla Técnicos. Para actualizar la información de alguno de los técnicos, primero se selecciona el técnico en la tabla, se observa que se muestra la información detallada de ese técnico, se procede a actualizar los campos, luego dar clic al botón `<a class="btn">`Actualizar Técnico`</a>` y finalmente terminar el proceso de actualización con el botón `<a class="btn">`Actualizar Técnico`</a>` de la parte superior izquierda. Si se desea desasociar la información de una certificación de un Técnico, se debe dar clic al icono de <span class="mdi mdi-delete"></span> que está al lado derecho del documento anexo, sale mensaje de alerta que indica al usuario de sí está seguro de eliminar el registro y se da clic en `<a class="btn">`Aceptar`</a>`.
 
 ### Indicadores
 
-Es posible visualizar de manera inmediata, los Terceros habitados e inhabilitados, directamente desde la ventana visor, a través de la columna **“Indicadores”** que muestra una pelota de color que indica su estado. El significado del color de cada pelota, se puede ver en el recuadro de Indicadores, ubicado en la parte superior derecha de la ventana visor, como se muestra a continuación:
+Es posible visualizar de manera inmediata, los Terceros habitados e inhabilitados, directamente desde la ventana visor, a través de la columna **“Indicadores”** que muestra una pelota de color que indica su estado. El significado del color de cada pelota, se puede ver en el recuadro de Indicadores  ubicado en la parte superior derecha de la ventana visor, como se muestra a continuación:
 
 ![Procesar imagen](../../assets/images/cap02/chp02_img06.png)
 _**Imagen 6.** Indicadores Terceros_
 
-El significado de los colores se visualiza al sobreponer el mouse en el icono que se encuentra al extremo superior derecho y su correspondencia es:
+El significado de los colores se visualiza al sobreponer el mouse en el icono <span class="mdi mdi-message-alert"></span> que se encuentra al extremo superior derecho y su correspondencia es:
 
 - **Verde:** Terceros con certificaciones que tienen fecha de vencimiento posterior a la fecha actual, es decir, se encuentran con sus certificaciones habilitadas
 - **Rojo:** Terceros con certificaciones que tienen fecha de vencimiento anterior a la fecha actual, es decir, se encuentran con una o varias certificaciones inhabilitadas.
@@ -188,4 +188,6 @@ _**Imagen 11.** Subgrupo Criterio Oficio_
 
 De igual forma, se puede elegir el oficio mediante la opción utilizar comodines, para ello, se debe dar clic al icono `<a class="btn">`Candado`</a>`. Esta selección agrupa los Terceros relacionados por su oficio. Por ejemplo: si se escribe ayudante%, el sistema localiza aquellos Terceros cuyo oficio empieza por la palabra **“ayudante”**.
 
-> **Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos  se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además, es posible hacer unión de selecciones.  Esto significa que inmediatamente después de haber realizado una selección es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección se da un clic al botón `<a class="btn">`Mas (+)`</a>`, en lugar de darlo al botón `<a class="btn">`Aceptar`</a>`.
+> **Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además, es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber realizado una selección es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección se da un clic al botón `<a class="btn">`Mas (+)`</a>`, en lugar de darlo al botón `<a class="btn">`Aceptar`</a>`.
+
+
