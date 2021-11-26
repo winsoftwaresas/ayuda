@@ -23,7 +23,7 @@ collections:
     slug: "{{order}}_{{fields.filename}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "doc"}
-      - {label: "Filename", name: "filename", widget: "string", , default: "{{filename}}", required: true}
+      - {label: "Filename", name: "filename", widget: "string", default: "{{filename}}", required: true}
       - {label: "Order", name: "order", widget: "string", default: "##_##", required: false}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime", required: false}
