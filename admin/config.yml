@@ -9,16 +9,21 @@ publish_mode: editorial_workflow
 media_folder: "assets/images/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "assets/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
 
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "_"
+
 collections:
   - name: "doc" # Used in routes, e.g., /admin/collections/blog
     label: "Docs" # Used in the UI
     folder: "_docs/" # The path to the folder where the documents are stored
     sort: "order:desc" # Default is title:asc
     create: true # Allow users to create new documents in this collection
-    slug: "{{order}}_{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{order}}_{{fields.filename}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "doc"}
-      - {label: "Filename", name: "slug", widget: "string", required: true}
+      - {label: "Filename", name: "filename", widget: "string", , default: "{{filename}}", required: true}
       - {label: "Order", name: "order", widget: "string", default: "##_##", required: false}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime", required: false}
