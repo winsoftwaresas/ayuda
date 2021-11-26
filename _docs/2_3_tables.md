@@ -1,9 +1,12 @@
 ---
 title: Tablas de Infraestructura
-subtitle: Aquí se aclara el uso y las opciones de las tablas de infraestructura del sistema AM.
-tags: [setup]
+subtitle: Aquí se aclara el uso y las opciones de las tablas de infraestructura
+  del sistema AM.
+tags:
+  - setup
 author: win
 order: 02_03
+date: 2021-11-24T17:59:24.156Z
 ---
 ## Terceros
 
@@ -73,6 +76,8 @@ Cuando se vaya a escribir un número telefónico es importante tener en cuenta q
 
 **Comentario:** Aquí se ingresan los comentarios sobre un Centro de Costo o sobre un Cliente, representado por su Centro de Costo o bien para hacer aclaraciones sobre el Tercero.
 
+
+
 ### Certificaciones Terceros
 
 Esta nueva funcionalidad se usa para realizar un seguimiento detallado a los Terceros que tienen documentaciones con vigencias y que son cumplimiento de normas. El objetivo de esta funcionalidad es que a los Terceros tipos RI y RX, se les pueda anexar documentación y que el sistema le informe al usuario si ese Tercero está habilitado para hacer labores de mantenimiento en la institución, en particular, cuando las labores a realizar están relacionadas con la documentación anexada vigente. Dependiendo del tipo de Tercero, se habilita una pestaña al lado derecho de la Ficha Técnica del Tercero que se está definiendo y es en esta nueva pestaña que se relaciona la información mencionada. Para ingresar a esta opción se recomienda tener ingresado el Tercero en la tabla, se debe dar clic a la pestaña de Certificaciones para un tipo RI o a la pestaña de Técnicos para un tipo RX.
@@ -84,7 +89,7 @@ A continuación la explicación de las Certificaciones de Terceros tipo RI, cuya
 ![Procesar imagen](../../assets/images/cap02/chp02_img04.png)
 _**Imagen 4.** Certificaciones TE_
 
-En la gráfica anterior, pestaña Certificaciones, se aprecian sus componentes y sus respectivos contenidos. En la ventana Detalle de Terceros se encuentra la información relevante a la Certificación del Tercero seleccionado en el Visor.
+En la gráfica anterior, pestaña Certificaciones, se aprecian sus componentes y sus respectivos contenidos. En la ventana Detalle de Terceros se  encuentra la información relevante a la Certificación del Tercero seleccionado en el Visor.
 
 A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación.
 
@@ -94,7 +99,7 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 **Adjuntar Documentos:** Para adjuntar el documento, se debe dar clic a `<a class="btn">`Seleccionar archivo`</a>`, se observa que se abre el explorador de archivos, luego debe seleccionarse a través de un doble clic o dando un clic al botón`<a class="btn">`Abrir`</a>`, al lado derecho del campo se observa que se muestra el nombre del archivo adjuntado, para insertar o actualizar los datos en esta tabla se da clic en el botón`<a class="btn">`Abrir`</a>`
 
-Para actualizar la información de alguna certificación, se ingresa la nueva información en los campos correspondientes y se termina el proceso con el botón `<a class="btn">`Actualizar`</a>`. Si se desea desasociar la información de una certificación de un Técnico, se debe dar clic al icono de <span class="mdi mdi-delete"></span> que está al lado izquierdo del documento anexo, donde se muestra un mensaje de alerta que indica al usuario de sí está seguro de eliminar el registro y se da clic en Aceptar.
+Para actualizar la información de alguna certificación, se ingresa la nueva información en los campos correspondientes y se termina el proceso con el botón `<a class="btn">`Actualizar`</a>`. Si se desea desasociar la información de una certificación de un Técnico, se debe dar clic al icono de `<span class="iconify btn" data-icon=delete>`eliminar (basura) que está al lado izquierdo del documento anexo, donde se muestra un mensaje de alerta que indica al usuario de sí está seguro de eliminar el registro y se da clic en Aceptar.
 
 **Certificaciones Terceros Tipo RX**
 
