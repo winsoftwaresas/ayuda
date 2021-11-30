@@ -160,7 +160,7 @@ Utilizar uno u otro método depende de si el Almacén es contable o no. Se recom
 
 Esta funcionalidad, permitirá a futuro definir si el Almacén seleccionado es Contable, es decir, tendrá una interacción con el sistema contable de la organización la cual generara un costo o factura de venta; y No Contable hace referencia al Almacén que guarda el inventario de Repuestos para simple funcionalidad del sistema **AM**. Por defecto, cuando se crea un almacén el tipo se define con NO CONTABLE.
 
-**Almacén  Corporativo:** Este switche indica si el almacén al cual se está haciendo referencia es el corporativo. Cuando se define si es el almacén corporativo, se declara con la palabra **“SI”**, en caso contrario se define con la palabra **“NO”**. Para definir el almacén corporativo se realiza en el módulo de Administración, en la opción de Valores por defecto, en la etiqueta General, existe la opción de **“Almacén corporativo”** con un combo desplegable para escoger cual es el almacén.
+**Almacén Corporativo:** Este switche indica si el almacén al cual se está haciendo referencia es el corporativo. Cuando se define si es el almacén corporativo, se declara con la palabra **“SI”**, en caso contrario se define con la palabra **“NO”**. Para definir el almacén corporativo se realiza en el módulo de Administración, en la opción de Valores por defecto, en la etiqueta General, existe la opción de **“Almacén corporativo”** con un combo desplegable para escoger cual es el almacén.
 
 **Comentario:** Aquí se ingresan los comentarios sobre el Almacén, Centro de Costo o sobre un Cliente, representado por su Centro de Costo.
 
@@ -198,7 +198,7 @@ A continuación se describen los campos que componen el registro:
 
 ## Contadores
 
-En esta tabla de Infraestructura se registran los medidores o contadores de estado, que reflejan la cantidad de trabajo realizado por un Equipo. Los medidores o contadores más comunes son los horómetros, que reflejan en todo momento la cantidad en horas de trabajo realizadas, por el Equipo que lo posee. De igual forma, en la mayoría de los automotores existe otro medidor de uso bastante común, es el  contador de Kilómetros o Millas rodadas, que refleja la distancia recorrida a partir de  un punto relativo, de interés para su propietario.
+En esta tabla de Infraestructura se registran los medidores o contadores de estado, que reflejan la cantidad de trabajo realizado por un Activo/Equipo. Los medidores o contadores más comunes son los horómetros, que reflejan en todo momento la cantidad en horas de trabajo realizadas, por el Activo/Equipo que lo posee. De igual forma, en la mayoría de los automotores existe otro medidor de uso bastante común, es el  contador de Kilómetros o Millas rodadas, que refleja la distancia recorrida a partir de un punto relativo, de interés para su propietario.
 
 Cuando el sistema se inicializa, en la tabla de Contadores aparece una propuesta de contadores básicos, que puede ser modificada o complementada de acuerdo al interés de la compañía usuaria.
 
@@ -230,7 +230,7 @@ En la gráfica anterior, Ventana Detalle Características, se aprecian sus compo
 
 A continuación se describe el campo que compone el registro.
 
-**Nombre de la Característica:** En este campo se define la característica. La Característica es a la vez, la clave de la tabla conformada por los parámetros-características requeridos por los Equipos propios de la empresa.
+**Nombre de la Característica:** En este campo se define la característica. La Caracterítica es a la vez, la clave de la tabla conformadas por los parámetros-características requeridos por los Equipos propios de la empresa.
 
 ## Centros de Costo
 
@@ -241,14 +241,14 @@ _**Imagen 27** Ventana Visor IF Centros de Costo_
 
 Los Centros de Costo se utilizan en **AM** para asociar los cargos, por distintos conceptos de costo de mantenimiento, a las Órdenes de Trabajo. Esta asociación posibilita generar múltiples reportes por actividades, costos o tipos de costos para los distintos Centros de Costo definidos en el sistema.
 
-Es posible usar un Centro de Costo con el objeto de compendiar todos los trabajos relacionados a un Proyecto o a una Inversión. Para este caso se crea un nuevo CC, copiando su definición desde aquel que es el centro del Proyecto y se agrega a continuación, como parte del mismo CC, un número o código identificador del Proyecto o de la Inversión.  En adelante toda OT que corresponda a tal Proyecto se asocia al nuevo CC.
+Es posible usar un Centro de Costo con el objeto de compendiar todos los trabajos relacionados a un Proyecto o a una Inversión. Para este caso se crea un nuevo CC, copiando su definición desde aquel que es el centro del Proyecto y se agrega a continuación, como parte del mismo CC, un número o código identificador del Proyecto o de la Inversión. En adelante toda OT que corresponda a tal Proyecto se asocia al nuevo CC.
 
 En otro contexto, el concepto de Centros de Costo se asocia al concepto de Clientes. Se trata del caso en que una compañía prestadora de servicios de mantenimiento atiende a múltiples clientes y quiere llevar un control detallado de las actividades técnicas ejecutadas y los costos asociados a cada uno de ellos. En este caso el sistema posibilita el registro de datos adicionales sobre el Centro de Costo o Cliente; son ellos el nombre del contacto, su estado, una clasificación y datos generales para su ubicación.
 
 ![Procesar imagen](../../assets/images/cap02/chp02_img28.png)
 _**Imagen 28** Ventana Detalle IF Centros de Costo_
 
-En la gráfica anterior, ventana visor Centros de Costo, se aprecian sus componentes y sus respectivos contenidos. En la ventana Detalle de Centros de Costo se encuentra la información relevante al Centro de Costo seleccionado en el visor.
+En la gráfica anterior, Ventana Detalle Centros de Costo, se aprecian sus componentes y sus respectivos contenidos. Se encuentra la información relevante al Centro de Costo seleccionado en el visor.
 
 A continuación se describen los campos que componen el registro:
 
@@ -311,46 +311,56 @@ _**Imagen 31** Subgrupo Criterio Área/Depto_
 
 **CC Superior:** Permite filtrar por aquellos CC Superior que fueron asociados a los CC. Lista los CC creados en la tabla de Centros de Costos.
 
-![cc superior](../../assets/images/cap02/chp02_img32.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img32.png)
+_**Imagen 32** Subgrupo CC Superior_
 
 **Ciudad:** Filtra los CC que están asociados a la Ciudad especificada.
 
-![ciudad](../../assets/images/cap02/chp02_img33.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img33.png)
+_**Imagen 33** Subgrupo Ciudad_
 
-También se puede escribir la ciudad mediante el uso de comodines. Ejemplo, si se escribe Bog%, el sistema entiende que debe seleccionar aquellos CC cuya ciudad comience por la palabra  “Bog”. El porcentaje a continuación, es un carácter comodín que significa ** “todos”**.
+También se puede escribir la ciudad mediante el uso de comodines. Ejemplo, si se escribe Bog%, el sistema entiende que debe seleccionar aquellos CC cuya ciudad comience por la palabra  “Bog”. El porcentaje a continuación, es un carácter comodín que significa **“todos”**.
 
 **Clase:** Filtra los CC que están asociados a una de las clases listadas.
 
-![clase](../../assets/images/cap02/chp02_img34.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img34.png)
+_**Imagen 34** Subgrupo Clase_
 
-**Código CC:** Esta selección agrupa los CC relacionados por su código. Por ejemplo: si se escribe cont%, el sistema localiza aquellos CC cuyo código empieza por cont. El porcentaje a continuación, es un carácter comodín que significa  “todos”.
+**Código CC:** Esta selección agrupa los Centros de Costos relacionados por su código. Por ejemplo: si se escribe cont%, el sistema localiza aquellos CC cuyo código empieza por cont. El porcentaje a continuación, es un carácter comodín que significa **“todos”**.
 
-![cod cc](../../assets/images/cap02/chp02_img35.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img35.png)
+_**Imagen 35** Subgrupo Código CC_
 
 **Código Sub CC:** En  este campo se filtra por el Sub CC asociado a un Centro de Costo.
 
-![cod sub cc](../../assets/images/cap02/chp02_img36.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img36.png)
+_**Imagen 36** Subgrupo Código Sub CC_
 
-**Contacto:** Filtra los CC que tengan asociada a una persona externa como contacto. Ejemplo: %maria josé% selecciona todos los CC cuyo Contacto, en cualquier parte, tengan la palabra  “maria josé”.
+**Contacto:** Filtra los CC que tengan asociada a una persona externa como contacto. Ejemplo: %maria josé% selecciona todos los Centros de Costo cuyo Contacto, en cualquier parte, tengan la palabra **“maria josé”.**
 
-![contacto](../../assets/images/cap02/chp02_img39.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img37.png)
+_**Imagen 37** Subgrupo Contacto_
 
 **Descripción CC:** Agrupa los CC cuya descripción corresponda a un Centro de Costo Interno o a un Cliente.
 
-![contacto](../../assets/images/cap02/chp02_img40.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img38.png)
+_**Imagen 38** Subgrupo Descripción CC_
 
 **Dirección:** Permite filtrar por la dirección del Área o  Departamento asociada a los CC.
 
-![contacto](../../assets/images/cap02/chp02_img41.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img39.png)
+_**Imagen 39** Subgrupo Dirección_
 
 **Correo Electrónico:** Filtra la dirección electrónica asociada a un CC.
 
-![correo](../../assets/images/cap02/chp02_img42.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img40png)
+_**Imagen 40** Subgrupo Correo Electrónico_
 
 **Estado:** Permite la selección de los CC de acuerdo al estado de Activo o Inactivo. El estado de los CC es importante para la selección en las listas  desplegables.
-**Por ejemplo:** Si un CC, tiene definido el Estado  “Inactivo”, esta no aparecerá en la lista de los Contratos, Terceros, módulos de Activos, Kárdex, Programas, Solicitudes de Servicio, Paros, Ordenes de Trabajo, Historia y Administración.
+**Por ejemplo:** Si un CC, tiene definido el Estado  “Inactivo”, esta no aparecerá en la lista de los Contratos, Terceros, módulos de Activos, Kárdex, Programas, Solicitudes de Servicio, Paros, Órdenes de Trabajo, Historia y Administración.
 
-![estado](../../assets/images/cap02/chp02_img43.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img41.png)
+_**Imagen 41** Subgrupo Estado_
 
 **Responsable:** Filtra los CC (tipo: mantenimiento y usuario) cuyos responsables corresponden al diligenciado en el campo.
 
