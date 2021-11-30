@@ -364,33 +364,34 @@ _**Imagen 41** Subgrupo Estado_
 
 **Responsable:** Filtra los CC (tipo: mantenimiento y usuario) cuyos responsables corresponden al diligenciado en el campo.
 
-![responsable](../../assets/images/cap02/chp02_img44.png)
+![Proccesar imagen](../../assets/images/cap02/chp02_img42.png)
+_**Imagen 42** Subgrupo Responsable_
 
 **Teléfono:** Filtra por el teléfono asociado a un CC.
 
-![telofono](../../assets/images/cap02/chp02_img45.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img43.png)
+_**Imagen 43** Subgrupo Teléfono_
 
 **Tipo:** Agrupa los CC de acuerdo al tipo seleccionado.
 
-![tipo](../../assets/images/cap02/chp02_img46.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img44.png)
+_**Imagen 44** Subgrupo Tipo_
 
 ## Centros Responsables
 
-Son los centros especializados, encargados de ejecutar labores de mantenimiento. Se incluyen tanto los Centros Responsables de Mantenimiento propios de la empresa  como
+Son los centros especializados, encargados de ejecutar labores de mantenimiento. Se incluyen tanto los Centros Responsables de Mantenimiento propios de la empresa como los externos a ella (Contratistas y Talleres Externos).
 
-los externos a ella (Contratistas y Talleres Externos).
-
-Se pueden definir a través de su descripción o  de su código según costumbre en la empresa. Para ello existe un espacio reducido, compuesto por  trece caracteres; esto debido a la necesidad de asociar posteriormente a cada Centro  Responsable el Oficio o Especialidad, o los Oficios o Especialidades que le pertenecen.
+Se define a través de su código y descripción según costumbre en la empresa. El código tiene un espacio reducido compuesto de trece caracteres; esto debido a la necesidad de asociar posteriormente a cada Centro Responsable el Oficio o Especialidad, o los Oficios o Especialidades que le pertenecen.
 
 Cuando se trata de los Centros Responsables Internos de la organización existen  varias alternativas de definición:
 
 En primer lugar como Centros especialistas en cada uno de los tipos de  mantenimiento: Mecánico, Eléctrico, Instrumentación u otros.
 
-Pero pueden ser también Centros técnicos de mantenimiento multiobjetivo,  conformados por especialistas de cada tipo de mantenimiento, que prestan servicio a uno o varios sectores productivos de la organización.
+Pero pueden ser también Centros técnicos de mantenimiento multiobjetivo, conformados por especialistas de cada tipo de mantenimiento, que prestan servicio a uno o varios sectores productivos de la organización.
 
-El **AM**administra los Centros Responsables de mantenimiento de la empresa cualquiera que sea su forma en la jerarquía organizacional.
+El **AM** administra los Centros Responsables de mantenimiento de la empresa cualquiera que sea su forma en la jerarquía organizacional.
 
-Se debe definir además, como un Centro Responsable, al conjunto de Talleres Externos que prestan servicio a la empresa, por solicitud y a elección de ella,  sin  que exista un compromiso previo contractual.
+Se debe definir además, como un Centro Responsable, al conjunto de Talleres o Servicios Externos que prestan servicio a la empresa, por solicitud y a elección de ella,  sin  que exista un compromiso previo contractual.
 
 De igual forma, debe constituir un Centro Responsable el conjunto de Contratistas, externos, que prestan servicio a la empresa en forma permanente y rutinaria sobre bases contractuales.
 
@@ -398,23 +399,24 @@ De igual forma, debe constituir un Centro Responsable el conjunto de Contratista
 
 **Talleres Externos:** Tall.Ext
 
-**Contratistas:** Contratis
+**Contratistas:** Contrat
 
 **Mantenimiento Mecánico:** Mtto.Mec
 
 **Taller Eléctrico:** Tall.Elec
 
-![ipo](../../assets/images/cap02/chp02_img47.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img45.png)
+_**Imagen 45** Ventana Detalle Centros Responsables_
 
-En la gráfica anterior, Ventana Centros Responsables, se aprecian sus componentes y sus respectivos contenidos. En la ventana Detalle de Centros Responsables se  encuentra la información relevante al Centro Responsable seleccionado en el Visor.
+En la gráfica anterior, Ventana Detalle Centros Responsables, se aprecian sus componentes y sus respectivos contenidos. Se encuentra la información relevante al Centro Responsable seleccionado en el Visor.
 
-A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación.
+A continuación se describen los campos que componen el registro, sobre cada unos se da una breve explicación:
 
-**Nombre CR:** En este campo se escribe el código del Centro Responsable a  ser incluido. El campo tiene una capacidad de 13 caracteres.
+**Nombre CR:** En este campo se escribe el código del Centro Responsable, con una capacidad de 13 caracteres.
 
 **Estado:** Es un campo para seleccionar un valor de los predefinidos, Activo o Inactivo que refleja el estado de ese Centro Responsable ante el aplicativo.
 
-**Tipo:** Se elige si es un Centro Responsable de tipo Interno, sí es de la empresa; o tipo Externo, sí corresponde a un Taller Externo o Contratista.
+**Tipo:** Se elige si es un Centro Responsable de tipo Interno, sí es de la empresa; o tipo Externo, sí corresponde a un Taller/Servicio Externo o Contratista.
 
 ## Oficios
 
@@ -422,17 +424,18 @@ Aquí se definen los Oficios o Cargos Técnicos de mantenimiento que el área de
 
 En otras palabras esta es la tabla en la que se registran los nombres de los Cargos Técnicos de mantenimiento a los que se asocian posteriormente las personas de las áreas de
 
-También se definen aquí las especialidades de los Talleres Externos o de los Contratistas que prestan servicios de mantenimiento. Ejemplos: Talleres Eléctricos, Talleres Mecánicos, Talleres de Motores y Bombas;  Contratistas de Aire Acondicionado, Contratistas de Mecanizado, Contratistas para Instalaciones de Redes, entre otros.   Los oficios son requeridos por los Programas de Mantenimiento y las Órdenes de Trabajo.
+También se definen aquí las especialidades de los Talleres/Servicios Externos o de los Contratistas que prestan servicios de mantenimiento. Ejemplos: Talleres Eléctricos, Talleres Mecánicos, Talleres de Motores y Bombas; Contratistas de Aire Acondicionado, Contratistas de Mecanizado, Contratistas para Instalaciones de Redes, entre otros. Los oficios son requeridos por los Programas de Mantenimiento y las Órdenes de Trabajo.
 
-![detalle](../../assets/images/cap02/chp02_img48.png)
+![detalle](../../assets/images/cap02/chp02_img46.png)
+_**Imagen 46** Ventana Detalle Centros Responsables_
 
-En la gráfica anterior, Ventana Oficios, se aprecian sus componentes y sus  respectivos contenidos. En la ventana Detalle de Oficios se encuentra la información  relevante al Oficio seleccionado en el Visor.
+En la gráfica anterior, Ventana Detalle Oficios, se aprecian sus componentes y sus  respectivos contenidos. Se encuentra la información  relevante al Oficio seleccionado en el Visor.
 
-A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación.
+A continuación se describen los campos que componen el registro, sobre cada campo se da una breve explicación:
 
-**Centro responsable:** Este campo permite seleccionar un Centro Responsable preexistente, al  cual pertenece el oficio. Se encuentran disponibles para la selección los Centros Responsables definidos en la tabla correspondiente.
+**Centro responsable:** Este campo permite seleccionar un Centro Responsable preexistente, al cual pertenece el oficio. Se encuentran disponibles para la selección los Centros Responsables definidos en la tabla correspondiente.
 
-**Oficio:** En este campo se definen los diferentes Oficios del personal de  mantenimiento propio de la empresa, o las Especialidades de los Talleres externos y Contratistas.
+**Oficio:** En este campo se definen los diferentes Oficios del personal de mantenimiento propio de la empresa o las Especialidades de los Talleres/Servicios Externos y Contratistas.
 
 **Tipo Trabajo (TT):** Indica el tipo de trabajo al cual está relacionado el Oficio o la especialidad que se está definiendo. Elc (eléctrico), Mec (mecánico), I/E (instrumentación y  electrónica), Otr (otros). Tanto la definición como la abreviatura, de cada Tipo de Trabajo, son configurables para una compañía, desde el módulo de Infraestructura, en la tabla llamada Tipos de Trabajo.
 
