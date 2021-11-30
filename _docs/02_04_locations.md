@@ -116,7 +116,7 @@ _**Imagen 19.** Subgrupo UF Criterio Nombre UF_
 ![Procesar imagen](../../assets/images/cap02/chp02_img20.png)
 _**Imagen 20.** Subgrupo UF Criterio Unidad de Medida Área_
 
-También se puede elegir la unidad de medida mediante el uso de comodines, para ello, se debe dar clic al icono `<a class="btn">`Candado`</a>`. A continuación este ícono se muestra abierto <span class="mdi mdi-lock-open-outline"></span> y permite escribir. Ejemplo, si se escribe metros%, el sistema entiende que debe seleccionar aquellas UF cuya unidad de medida comience por la palabra **“metros”**. El porcentaje a continuación, es un carácter comodín que significa **“todos”**.
+También se puede elegir la unidad de medida mediante el uso de comodines, para ello, se debe dar clic al icono <a class="btn">Candado</a>. A continuación este ícono se muestra abierto <span class="mdi mdi-lock-open-outline"></span> y permite escribir. Ejemplo, si se escribe metros%, el sistema entiende que debe seleccionar aquellas UF cuya unidad de medida comience por la palabra **“metros”**. El porcentaje a continuación, es un carácter comodín que significa **“todos”**.
 
 **Unidad de Medida Capacidad:** Busca las Ubicaciones Físcas que tengan definido este campo. Las Unidades de Medida que se despliegan en la lista están registradas en la tabla de Unidades de Medida. Se elige de la lista la Unidad de Medida deseada.
 
@@ -125,7 +125,7 @@ _**Imagen 21** Subgrupo UF Criterio Área_
 
 También se puede elegir la unidad de medida mediante el uso de comodines, para ello, se debe dar clic al icono <span class="mdi mdi-lock"></span>. A continuación este ícono se muestra abierto <span class="mdi mdi-lock-open-outline"></span> y permite escribir. Ejemplo, si se escribe la palabra sin porcentajes %, el sistema realiza una búsqueda de aquellas UF que en cualquier parte del campo tengan el nombre de la palabra digitada, en este caso, la palabra **“bloques”**.
 
-> **Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos  se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber realizado una selección es posible hacer otra y unir el resultado de las dos.  Para ello, tras definir los criterios de la segunda selección se da un clic al botón `<a class="btn">`Mas (+)`</a>`, en lugar de darlo al botón `<a class="btn">`Aceptar`</a>`.
+> **Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos  se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber realizado una selección es posible hacer otra y unir el resultado de las dos.  Para ello, tras definir los criterios de la segunda selección se da un clic al botón <a class="btn">Mas (+)</a>, en lugar de darlo al botón <a class="btn">Aceptar</a>.
 
 ## Almacenes
 
@@ -286,7 +286,7 @@ Si el Centro de Costo se refiere a un Cliente, en este campo se define el nombre
 
 ### Subgrupo Centros de Costo
 
-Se usa para seleccionar grupos de Centros de Costo que cumplen un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al `<span class="mdi mdi-filter-variant icon white">`, ubicado en la parte superior derecha de la ventana Visor de Centros de Costo.
+Se usa para seleccionar grupos de Centros de Costo que cumplen un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al <span class="mdi mdi-filter-variant icon white">, ubicado en la parte superior derecha de la ventana Visor de Centros de Costo.
 
 ![Procesar imagen](../../assets/images/cap02/chp02_img29.png)
 _**Imagen 29** Subgrupos Centro de Costo_
@@ -640,7 +640,7 @@ A continuación se describen los campos que componen el registro, sobre cada cam
 
 ## Causas de Cierre de OT
 
-Es la tabla en la que se registran las posibles Causas de Cierre de una Orden de Trabajo (ya sea Ejecutada o No Ejecutada). También es una tabla con contenido propuesto por el aplicativo, que puede ser complementada o adecuada a gusto del usuario.
+Es la tabla en la que se registran las posibles Causas de Cierre de una Órden de Trabajo (ya sea Ejecutada o No Ejecutada). También es una tabla con contenido propuesto por el aplicativo, que puede ser complementada o adecuada a gusto del usuario.
 
 La primera que se define se refiere a las Órdenes de Trabajo Cerradas Ejecutadas; todas las que siguen son Causas de Cierre para Órdenes de Trabajo Cerradas No Ejecutadas.
 
@@ -648,7 +648,7 @@ En el sistema se incluyen las siguientes Causas de Cierre:
 
 **CAUSAS DE CIERRE**
 
-- seOT Ejecutada
+- OT Ejecutada
 - Cambio por otra OT
 - Error en la programación
 - Equipo fuera de rvicio
@@ -660,10 +660,11 @@ En el sistema se incluyen las siguientes Causas de Cierre:
 - Labor no requerida
 - Otra causa
 
-**Nota:** La Causa de Cierre ** “OT ejecutada”**es implícita a las OTs cerradas ejecutadas. Esta
-Causa de Cierre no es editable
+**Nota:** La Causa de Cierre **“OT Ejecutada”** es implícita a las OT cerradas ejecutadas. Esta
+Causa de Cierre no es editable.
 
-![detalle de la causa de cierre](../../assets/images/cap02/chp02_img57.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img54.png)
+_**Imagen 54** Ventana Detalle Causas de Cierre de OT_
 
 En la gráfica anterior, Ventana Causas de Cierre de OT, se aprecian sus componentes y sus respectivos contenidos. En la ventana Detalle de Causas de Cierre de OT se encuentra la información relevante a la Causa de Cierre seleccionada en el Visor.
 
@@ -671,15 +672,15 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 **Nombre:** En este campo se escribe la posible Causa de Cierre de una Orden de Trabajo.
 
-**Tipo:**En este campo están predeterminadas dos opciones: Orden de Trabajo Ejecutada y Orden de Trabajo No Ejecutada.
+**Tipo:**En este campo están predeterminadas dos opciones: Órden de Trabajo Ejecutada y Orden de Trabajo No Ejecutada.
 
 ## Acciones Técnicas
 
-Es la tabla que contiene un listado de Acciones Técnicas frecuentes en un área de Mantenimiento. Con la información contenida en esta tabla se pretende describir,  breve pero concretamente, la actividad general a ser realizada en una Orden de  Trabajo. Se suministra por defecto un conjunto de verbos en infinitivo que denotan  Acciones Técnicas de Mantenimiento. El usuario puede utilizar tales verbos para definir Acciones Técnicas detalladas con base en ellos.
-
+Es la tabla que contiene un listado de Acciones Técnicas frecuentes en un área de Mantenimiento. Con la información contenida en esta tabla se pretende describir, breve pero concretamente, la actividad general a ser realizada en una Orden de  Trabajo. Se suministra por defecto un conjunto de verbos en infinitivo que denotan  Acciones Técnicas de Mantenimiento. El usuario puede utilizar tales verbos para definir Acciones Técnicas detalladas con base en ellos.
+ 
 Una vez definidas las Acciones Técnicas, es posible incluir una o varias de  ellas, asociadas a una causa, en la tabla de Causas de Falla o asociadas a un efecto, en la tabla de  Efectos de Falla.
 
-![detalle de accion tecnica](../../assets/images/cap02/chp02_img57.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img57.png)
 
 En la gráfica anterior, Ventana Acciones Técnicas, se aprecian sus componentes y sus respectivos contenidos. En la ventana Detalle de Acciones Técnicas se encuentra la información relevante a la Acción Técnica seleccionada en el Visor.
 
@@ -797,11 +798,11 @@ A continuación se describen los campos que componen el registro.
 
 **Acciones Técnicas:** Es posible asociar a cada Causa de Falla las Acciones Técnicas que más comúnmente se ejecutan para evitarla y solucionarla. Hay que recordar que las Acciones Técnicas por Efecto pretenden ubicar la causa y que las Acciones Técnicas por Causa pretenden evitar y solucionar la causa.
 
-adicionan con el botón del  `<a class="btn">`+`</a>`.
+adicionan con el botón del  <a class="btn">+</a>.
 
 ![detalle de la causa de falla](../../assets/images/cap02/chp02_img61.png)
 
-Para desasociar una Acción Técnica de una Causa de Falla, se ubica en la Acción a desasociar y se presiona el icono de `<span class="iconify btn" data-icon=delete>`eliminar (basura)
+Para desasociar una Acción Técnica de una Causa de Falla, se ubica en la Acción a desasociar y se presiona el icono de <span class="iconify btn" data-icon=delete>eliminar (basura)
 
 Es importante tener en cuenta que las asociaciones y desasociaciones solo surten efecto al Actualizar o guardar la Causa de Falla.
 
@@ -819,10 +820,10 @@ A continuación se describen los campos que componen el registro.
 
 **Acciones Técnicas:** Es posible asociar a cada Efecto de Falla las Acciones Técnicas que más comúnmente se ejecutan como consecuencia de ésta. Como se menciona en  las Causas de Falla, las Acciones Técnicas por Efecto pretenden ** “Ubicar la Causa”** y las Acciones Técnicas por Causa pretenden ** “Solucionar la Causa”**.
 
-En la ventana anterior las Acciones Técnicas se seleccionan de la lista despegable y se  adicionan con el botón `<span class="iconify btn" data-icon="mdi-plus-circle">`Más.
+En la ventana anterior las Acciones Técnicas se seleccionan de la lista despegable y se  adicionan con el botón <span class="iconify btn" data-icon="mdi-plus-circle">Más.
 .
 
-Para desasociar una Acción Técnica de un Efecto de Falla, se ubica en la Acción a desasociar y se presiona el icono de `<span class="iconify btn" data-icon=delete>`eliminar (basura)
+Para desasociar una Acción Técnica de un Efecto de Falla, se ubica en la Acción a desasociar y se presiona el icono de <span class="iconify btn" data-icon=delete>eliminar (basura)
 Es importante tener en cuenta que las asociaciones y desasociaciones solo surten efecto al Actualizar o guardar el Efecto de Falla.
 
 ## Contratos
@@ -904,20 +905,20 @@ A continuación se describen las carpetas que componen esta ventana; cuando se q
 
 ![detalle de contrato](../../assets/images/cap02/chp02_img66.png)
 
-Para adicionar un documento, imagen o video, se debe dar clic en la carpeta deseada, luego se da clic al icono de `<a class="btn">`subir`</a>` , a continuación se abre una nueva ventana para realizar la búsqueda del archivo a subir,  se selecciona el archivo y se da clic en `<a class="btn">`abrir`</a>`.
+Para adicionar un documento, imagen o video, se debe dar clic en la carpeta deseada, luego se da clic al icono de <a class="btn">subir</a> , a continuación se abre una nueva ventana para realizar la búsqueda del archivo a subir,  se selecciona el archivo y se da clic en <a class="btn">abrir</a>.
 
 ![detalle de contrato](../../assets/images/cap02/chp02_img67.png)
 
-Una vez se da clic en `<a class="btn">`abrir`</a>`., se evidencia al lado derecho el nombre del archivo elegido y aparece un campo en blanco, para que el usuario escriba un nombre adicional del archivo para ser usado como una referenciación del archivo adjunto. Luego, se da clic en el botón `<a class="btn">`Subir archivo`</a>`.
+Una vez se da clic en <a class="btn">abrir</a>., se evidencia al lado derecho el nombre del archivo elegido y aparece un campo en blanco, para que el usuario escriba un nombre adicional del archivo para ser usado como una referenciación del archivo adjunto. Luego, se da clic en el botón <a class="btn">Subir archivo</a>.
 
 ![detalle de contrato](../../assets/images/cap02/chp02_img68.png)
 
 Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic en uno de las imágenes, se visualiza la imagen adjunta.
 
-Para desasociar un documento, o una imagen o un video, al Contrato se da clic al`<span class="iconify btn" data-icon=delete>`nar (basura) que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro y se da clic en el botón`<a class="btn">`Aceptar`</a>`.
+Para desasociar un documento, o una imagen o un video, al Contrato se da clic al <span class="iconify btn" data-icon=delete>nar (basura) que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro y se da clic en el botón<a class="btn">Aceptar</a>.
 
 ![detalle de contrato](../../assets/images/cap02/chp02_img69.png)
 
-Si se desea descargar un archivo adjunto al Contrato, se debe dar clic en el icono de  `<span class="iconify btn" data-icon=cloud-download>`la nube con flecha hacia abajo , que se encuentra al lado derecho del archivo que se quiere descargar.
+Si se desea descargar un archivo adjunto al Contrato, se debe dar clic en el icono de <span class="iconify btn" data-icon=cloud-download> la nube con flecha hacia abajo , que se encuentra al lado derecho del archivo que se quiere descargar.
 
 ![detalle de contrato](../../assets/images/cap02/chp02_img70.png)
