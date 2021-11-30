@@ -5,9 +5,9 @@ tags: [setup]
 author: win
 order: 02_04
 ---
-Las ubicaciones físicas corresponden a los sitios geográficos o áreas donde se encuentran los Activos, Equipos, Objetos de Mantenimiento y Repuestos. Es la lista de las áreas físicas que conforman el **“Layout”** de la planta de producción (Industria, Manufactura) o de la planta de servicios (Hoteles, Hospitales, Banca) o simplemente de las facilidades que conforman las instalaciones que son objetos de mantenimiento.
+Es la lista de las áreas físicas que conforman el **“Layout”** de la planta de producción (Industria, Manufactura) o de la planta de servicios (Hoteles, Hospitales, Banca) o simplemente de las facilidades que conforman las instalaciones que son objetos de mantenimiento.
 
-El concepto de Ubicaciones  Físicas  es netamente de geografía, diferenciado completamente del concepto de Activo y de Centro de Costo, además la ubicación física puede estar en forma activa o inactiva dentro de **AM**. En ocasiones un Centro de Costo corresponde a una Ubicación Física pero en muchas otras no es así. De igual forma en ocasiones un Activo/Equipo o unidad funcional caracteriza a la ubicación física pero en muchas otras no. Por esta razón los tres conceptos se definen independientemente en **AM**eso si con la posibilidad de relacionarlos en distintos contextos.
+El concepto de Ubicaciones Físicas es netamente de geografía, diferenciado completamente del concepto de Activo y de Centro de Costo, además la ubicación física puede estar en forma activa o inactiva dentro de **AM**. En ocasiones un Centro de Costo corresponde a una Ubicación Física pero en muchas otras no es así. De igual forma en ocasiones un Activo/Equipo o unidad funcional caracteriza a la ubicación física pero en muchas otras no. Por esta razón los tres conceptos se definen independientemente en **AM** con la posibilidad de relacionarlos en distintos contextos.
 
 Para ilustrar mejor este concepto definimos a continuación algunos ejemplos de Ubicaciones Físicas.
 
@@ -29,7 +29,7 @@ Para ilustrar mejor este concepto definimos a continuación algunos ejemplos de 
 - FC-Fundición. Puente Grúa.
 - FC-Fundición. Sostenimiento.
 
-Se recomienda utilizar los nombres de las Ubicaciones Físicas que la cultura  empresarial ha acostumbrado manecuarentajar. Existe disponible un espacio de cincuenta caracteres en la descripción de la Ubicación Física. Es posible también mezclar una porción de código y lenguaje natural.
+Se recomienda utilizar los nombres de las Ubicaciones Físicas que la cultura  empresarial ha acostumbrado manejar. Existe disponible un espacio de cincuenta caracteres en la descripción de la Ubicación Física. Es posible también mezclar una porción de código y lenguaje natural.
 
 En el ejemplo anterior FC es el apócope de una planta en una fábrica. Esta planta a su vez está conformada por varios departamentos de proceso, uno de los cuales es Fundición, que a su vez se compone por varias secciones como Fleje,  Hornos, las Líneas de proceso y la sección de Sostenimiento.
 
@@ -44,7 +44,7 @@ El registro  de las Ubicaciones Físicas es muy importante, pues ellas serán  i
 ![Procesar imagen](../../assets/images/cap02/chp02_img12.png)
 _**Imagen 12.** Ventana Detalle UF_
 
-En la gráfica anterior, Ventana Ubicaciones Físicas, se aprecian sus componentes y sus respectivos contenidos. En la ventana Detalle de Terceros se encuentra la información relevante al Técnico del Tercero seleccionado en el Visor.
+En la gráfica anterior, Ventana Detalle Ubicaciones Físicas, se aprecian sus componentes y sus respectivos contenidos. Se encuentra la información relevante al Técnico del Tercero seleccionado en el Visor.
 
 A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación:
 
@@ -60,13 +60,13 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 **Unidad de Medida Capacidad:** Se elige la Unidad de Medida utilizada para definir la capacidad del área; para ello se selecciona uno de los valores predefinidos en esa tabla.
 
-**Estado:** El campo estado se utiliza para definir si la UF actual se encuentra Activa o Inactiva. Este Estado se utiliza para posibilitar o inhabilitar el despliegue de UF en otros contextos (Activos, OT, PM, etc.). De esta forma, una UF inactiva NO aparece al intentar crear Activos, OT u otros.
+**Estado:** El campo estado se utiliza para definir si la UF actual se encuentra Activa o Inactiva. Este Estado se utiliza para posibilitar o inhabilitar el despliegue de UF en otros contextos (Activos, OT, PM, SS, etc.). De esta forma, una UF inactiva NO aparece al intentar crear Activos, OT u otros.
 
 > **Nota:** La dirección y la ciudad son campos que son configurados en el módulo de Administración en la transacción Valores por Defecto.
 
 ### Subgrupo Ubicaciones Físicas
 
-Se usa para seleccionar grupos de Ubicaciones Físicas que cumplen con un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al icono de filtro `<span class="mdi mdi-filter-variant icon white">`, ubicado en la parte superior derecha de la ventana Visor de Ubicaciones Físicas.
+Se usa para seleccionar grupos de Ubicaciones Físicas que cumplen con un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al icono de filtro <span class="mdi mdi-filter-variant"></span>, ubicado en la parte superior derecha de la ventana Visor de Ubicaciones Físicas.
 
 ![Procesar imagen](../../assets/images/cap02/chp02_img13.png)
 _**Imagen 13.** Ventana Visor UF_
@@ -116,17 +116,16 @@ _**Imagen 19.** Subgrupo UF Criterio Nombre UF_
 ![Procesar imagen](../../assets/images/cap02/chp02_img20.png)
 _**Imagen 20.** Subgrupo UF Criterio Unidad de Medida Área_
 
-También se puede elegir la unidad de medida mediante el uso de comodines, para ello, se debe dar clic al icono `<a class="btn">`Candado`</a>`. Ejemplo, si se escribe metros%, el sistema entiende que debe seleccionar aquellas UF cuya unidad de medida comience por la palabra **“metros”**. El porcentaje a continuación, es un carácter comodín que significa **“todos”**.
+También se puede elegir la unidad de medida mediante el uso de comodines, para ello, se debe dar clic al icono `<a class="btn">`Candado`</a>`. A continuación este ícono se muestra abierto <span class="mdi mdi-lock-open-outline"></span> y permite escribir. Ejemplo, si se escribe metros%, el sistema entiende que debe seleccionar aquellas UF cuya unidad de medida comience por la palabra **“metros”**. El porcentaje a continuación, es un carácter comodín que significa **“todos”**.
 
 **Unidad de Medida Capacidad:** Busca las Ubicaciones Físcas que tengan definido este campo. Las Unidades de Medida que se despliegan en la lista están registradas en la tabla de Unidades de Medida. Se elige de la lista la Unidad de Medida deseada.
 
 ![Procesar imagen](../../assets/images/cap02/chp02_img21.png)
 _**Imagen 21** Subgrupo UF Criterio Área_
 
-También se puede elegir la unidad de medida mediante el uso de comodines, para ello, se debe dar clic al icono `<a class="btn">`Candado`</a>`. Ejemplo, si se escribe la palabra sin porcentajes %, el sistema realiza una búsqueda de aquellas UF que en cualquier parte del campo tengan el nombre de la palabra digitada, en este caso, la palabra **“bloques”**.
+También se puede elegir la unidad de medida mediante el uso de comodines, para ello, se debe dar clic al icono <span class="mdi mdi-lock"></span>. A continuación este ícono se muestra abierto <span class="mdi mdi-lock-open-outline"></span> y permite escribir. Ejemplo, si se escribe la palabra sin porcentajes %, el sistema realiza una búsqueda de aquellas UF que en cualquier parte del campo tengan el nombre de la palabra digitada, en este caso, la palabra **“bloques”**.
 
-> **Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos  se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber
-> realizado una selección es posible hacer otra y unir el resultado de las dos.  Para ello, tras definir los criterios de la segunda selección se da un clic al botón `<a class="btn">`Mas (+)`</a>`, en lugar de darlo al botón `<a class="btn">`Aceptar`</a>`.
+> **Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos  se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber realizado una selección es posible hacer otra y unir el resultado de las dos.  Para ello, tras definir los criterios de la segunda selección se da un clic al botón `<a class="btn">`Mas (+)`</a>`, en lugar de darlo al botón `<a class="btn">`Aceptar`</a>`.
 
 ## Almacenes
 
@@ -141,7 +140,7 @@ _**Imagen 22** Ventana Detalle IF Almacén_
 
 En la gráfica anterior, Ventana Almacén, se aprecian sus componentes y sus respectivos contenidos. En la ventana Detalle de Almacenes se encuentra la información relevante al Almacén seleccionado en el Visor.
 
-A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación.
+A continuación se describen los campos que componen el registro:
 
 **Código:** Este campo recibe un número de máximo dos dígitos, con el cual se identifica la bodega o Almacén de Equipos o repuestos.
 
@@ -155,13 +154,13 @@ La primera consiste en valorizar **todos** los ítems de un código según el co
 
 La segunda opción **Promedio Ponderado**, consiste en valorizar todo el conjunto de ítems de un mismo código mediante el cálculo sencillo de un promedio ponderado.
 
-Utilizar uno u otro método depende de si el Almacén es contable o no. Se recomienda utilizar el método de Promedio Ponderado si se trata de un Almacén contable. Si se trata de un Almacén no contable, es decir, cuando se considera que los ítems que lo conforman, al ser trasladados a esta bodega ya fueron consumidos contablemente, entonces se recomienda usar el método de costeo por Último  Ingreso, en cuyo caso la elaboración y proyección de presupuestos puede arrojar información más realista, al tiempo que no existe el riesgo de la revalorización contable de los mismos ítems.
+Utilizar uno u otro método depende de si el Almacén es contable o no. Se recomienda utilizar el método de Promedio Ponderado si se trata de un Almacén contable. Si se trata de un Almacén no contable, es decir, cuando se considera que los ítems que lo conforman, al ser trasladados a esta bodega ya fueron consumidos contablemente, entonces se recomienda usar el método de costeo por Último Ingreso, en cuyo caso la elaboración y proyección de presupuestos puede arrojar información más realista, al tiempo que no existe el riesgo de la revalorización contable de los mismos ítems.
 
 **Tipo Almacén:** Esta opción, de tipo combo, muestra dos ítems: Contable y No Contable.
 
-Esta funcionalidad, permitirá a futuro definir si el Almacén seleccionado es Contable, es decir, tendrá una interacción con el sistema contable de la organización la cual generara un costo o factura de venta; y No Contable hace referencia al Almacén que guarda el inventario de Repuestos para simple funcionalidad del sistema  **AM**. Por defecto, cuando se crea un almacén el tipo se define con NO CONTABLE.
+Esta funcionalidad, permitirá a futuro definir si el Almacén seleccionado es Contable, es decir, tendrá una interacción con el sistema contable de la organización la cual generara un costo o factura de venta; y No Contable hace referencia al Almacén que guarda el inventario de Repuestos para simple funcionalidad del sistema **AM**. Por defecto, cuando se crea un almacén el tipo se define con NO CONTABLE.
 
-**Almacén  Corporativo:** Este switche indica si el almacén al cual se está haciendo referencia es el corporativo. Cuando se define si es el almacén corporativo, se declara con la palabra **“SI”**, en caso contrario se define con la palabra **“NO”**. Para definir el almacén corporativo se realiza en el módulo de Administración, en la opción de Valores por defecto, en la etiqueta General, existe la opción de **“Almacén corporativo”** con un combo desplegable para escoger cual es el almacén.
+**Almacén Corporativo:** Este switche indica si el almacén al cual se está haciendo referencia es el corporativo. Cuando se define si es el almacén corporativo, se declara con la palabra **“SI”**, en caso contrario se define con la palabra **“NO”**. Para definir el almacén corporativo se realiza en el módulo de Administración, en la opción de Valores por defecto, en la etiqueta General, existe la opción de **“Almacén corporativo”** con un combo desplegable para escoger cual es el almacén.
 
 **Comentario:** Aquí se ingresan los comentarios sobre el Almacén, Centro de Costo o sobre un Cliente, representado por su Centro de Costo.
 
@@ -199,7 +198,7 @@ A continuación se describen los campos que componen el registro:
 
 ## Contadores
 
-En esta tabla de Infraestructura se registran los medidores o contadores de estado, que reflejan la cantidad de trabajo realizado por un Equipo. Los medidores o contadores más comunes son los horómetros, que reflejan en todo momento la cantidad en horas de trabajo realizadas, por el Equipo que lo posee. De igual forma, en la mayoría de los automotores existe otro medidor de uso bastante común, es el  contador de Kilómetros o Millas rodadas, que refleja la distancia recorrida a partir de  un punto relativo, de interés para su propietario.
+En esta tabla de Infraestructura se registran los medidores o contadores de estado, que reflejan la cantidad de trabajo realizado por un Activo/Equipo. Los medidores o contadores más comunes son los horómetros, que reflejan en todo momento la cantidad en horas de trabajo realizadas, por el Activo/Equipo que lo posee. De igual forma, en la mayoría de los automotores existe otro medidor de uso bastante común, es el  contador de Kilómetros o Millas rodadas, que refleja la distancia recorrida a partir de un punto relativo, de interés para su propietario.
 
 Cuando el sistema se inicializa, en la tabla de Contadores aparece una propuesta de contadores básicos, que puede ser modificada o complementada de acuerdo al interés de la compañía usuaria.
 
@@ -231,7 +230,7 @@ En la gráfica anterior, Ventana Detalle Características, se aprecian sus compo
 
 A continuación se describe el campo que compone el registro.
 
-**Nombre de la Característica:** En este campo se define la característica. La Característica es a la vez, la clave de la tabla conformada por los parámetros-características requeridos por los Equipos propios de la empresa.
+**Nombre de la Característica:** En este campo se define la característica. La Caracterítica es a la vez, la clave de la tabla conformadas por los parámetros-características requeridos por los Equipos propios de la empresa.
 
 ## Centros de Costo
 
@@ -242,14 +241,14 @@ _**Imagen 27** Ventana Visor IF Centros de Costo_
 
 Los Centros de Costo se utilizan en **AM** para asociar los cargos, por distintos conceptos de costo de mantenimiento, a las Órdenes de Trabajo. Esta asociación posibilita generar múltiples reportes por actividades, costos o tipos de costos para los distintos Centros de Costo definidos en el sistema.
 
-Es posible usar un Centro de Costo con el objeto de compendiar todos los trabajos relacionados a un Proyecto o a una Inversión. Para este caso se crea un nuevo CC, copiando su definición desde aquel que es el centro del Proyecto y se agrega a continuación, como parte del mismo CC, un número o código identificador del Proyecto o de la Inversión.  En adelante toda OT que corresponda a tal Proyecto se asocia al nuevo CC.
+Es posible usar un Centro de Costo con el objeto de compendiar todos los trabajos relacionados a un Proyecto o a una Inversión. Para este caso se crea un nuevo CC, copiando su definición desde aquel que es el centro del Proyecto y se agrega a continuación, como parte del mismo CC, un número o código identificador del Proyecto o de la Inversión. En adelante toda OT que corresponda a tal Proyecto se asocia al nuevo CC.
 
 En otro contexto, el concepto de Centros de Costo se asocia al concepto de Clientes. Se trata del caso en que una compañía prestadora de servicios de mantenimiento atiende a múltiples clientes y quiere llevar un control detallado de las actividades técnicas ejecutadas y los costos asociados a cada uno de ellos. En este caso el sistema posibilita el registro de datos adicionales sobre el Centro de Costo o Cliente; son ellos el nombre del contacto, su estado, una clasificación y datos generales para su ubicación.
 
 ![Procesar imagen](../../assets/images/cap02/chp02_img28.png)
 _**Imagen 28** Ventana Detalle IF Centros de Costo_
 
-En la gráfica anterior, ventana visor Centros de Costo, se aprecian sus componentes y sus respectivos contenidos. En la ventana Detalle de Centros de Costo se encuentra la información relevante al Centro de Costo seleccionado en el visor.
+En la gráfica anterior, Ventana Detalle Centros de Costo, se aprecian sus componentes y sus respectivos contenidos. Se encuentra la información relevante al Centro de Costo seleccionado en el visor.
 
 A continuación se describen los campos que componen el registro:
 
@@ -312,76 +311,87 @@ _**Imagen 31** Subgrupo Criterio Área/Depto_
 
 **CC Superior:** Permite filtrar por aquellos CC Superior que fueron asociados a los CC. Lista los CC creados en la tabla de Centros de Costos.
 
-![cc superior](../../assets/images/cap02/chp02_img32.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img32.png)
+_**Imagen 32** Subgrupo CC Superior_
 
 **Ciudad:** Filtra los CC que están asociados a la Ciudad especificada.
 
-![ciudad](../../assets/images/cap02/chp02_img33.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img33.png)
+_**Imagen 33** Subgrupo Ciudad_
 
-También se puede escribir la ciudad mediante el uso de comodines. Ejemplo, si se escribe Bog%, el sistema entiende que debe seleccionar aquellos CC cuya ciudad comience por la palabra  “Bog”. El porcentaje a continuación, es un carácter comodín que significa ** “todos”**.
+También se puede escribir la ciudad mediante el uso de comodines. Ejemplo, si se escribe Bog%, el sistema entiende que debe seleccionar aquellos CC cuya ciudad comience por la palabra  “Bog”. El porcentaje a continuación, es un carácter comodín que significa **“todos”**.
 
 **Clase:** Filtra los CC que están asociados a una de las clases listadas.
 
-![clase](../../assets/images/cap02/chp02_img34.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img34.png)
+_**Imagen 34** Subgrupo Clase_
 
-**Código CC:** Esta selección agrupa los CC relacionados por su código. Por ejemplo: si se escribe cont%, el sistema localiza aquellos CC cuyo código empieza por cont. El porcentaje a continuación, es un carácter comodín que significa  “todos”.
+**Código CC:** Esta selección agrupa los Centros de Costos relacionados por su código. Por ejemplo: si se escribe cont%, el sistema localiza aquellos CC cuyo código empieza por cont. El porcentaje a continuación, es un carácter comodín que significa **“todos”**.
 
-![cod cc](../../assets/images/cap02/chp02_img35.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img35.png)
+_**Imagen 35** Subgrupo Código CC_
 
 **Código Sub CC:** En  este campo se filtra por el Sub CC asociado a un Centro de Costo.
 
-![cod sub cc](../../assets/images/cap02/chp02_img36.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img36.png)
+_**Imagen 36** Subgrupo Código Sub CC_
 
-**Contacto:** Filtra los CC que tengan asociada a una persona externa como contacto. Ejemplo: %maria josé% selecciona todos los CC cuyo Contacto, en cualquier parte, tengan la palabra  “maria josé”.
+**Contacto:** Filtra los CC que tengan asociada a una persona externa como contacto. Ejemplo: %maria josé% selecciona todos los Centros de Costo cuyo Contacto, en cualquier parte, tengan la palabra **“maria josé”.**
 
-![contacto](../../assets/images/cap02/chp02_img39.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img37.png)
+_**Imagen 37** Subgrupo Contacto_
 
 **Descripción CC:** Agrupa los CC cuya descripción corresponda a un Centro de Costo Interno o a un Cliente.
 
-![contacto](../../assets/images/cap02/chp02_img40.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img38.png)
+_**Imagen 38** Subgrupo Descripción CC_
 
 **Dirección:** Permite filtrar por la dirección del Área o  Departamento asociada a los CC.
 
-![contacto](../../assets/images/cap02/chp02_img41.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img39.png)
+_**Imagen 39** Subgrupo Dirección_
 
 **Correo Electrónico:** Filtra la dirección electrónica asociada a un CC.
 
-![correo](../../assets/images/cap02/chp02_img42.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img40png)
+_**Imagen 40** Subgrupo Correo Electrónico_
 
 **Estado:** Permite la selección de los CC de acuerdo al estado de Activo o Inactivo. El estado de los CC es importante para la selección en las listas  desplegables.
-**Por ejemplo:** Si un CC, tiene definido el Estado  “Inactivo”, esta no aparecerá en la lista de los Contratos, Terceros, módulos de Activos, Kárdex, Programas, Solicitudes de Servicio, Paros, Ordenes de Trabajo, Historia y Administración.
+**Por ejemplo:** Si un CC, tiene definido el Estado  “Inactivo”, esta no aparecerá en la lista de los Contratos, Terceros, módulos de Activos, Kárdex, Programas, Solicitudes de Servicio, Paros, Órdenes de Trabajo, Historia y Administración.
 
-![estado](../../assets/images/cap02/chp02_img43.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img41.png)
+_**Imagen 41** Subgrupo Estado_
 
 **Responsable:** Filtra los CC (tipo: mantenimiento y usuario) cuyos responsables corresponden al diligenciado en el campo.
 
-![responsable](../../assets/images/cap02/chp02_img44.png)
+![Proccesar imagen](../../assets/images/cap02/chp02_img42.png)
+_**Imagen 42** Subgrupo Responsable_
 
 **Teléfono:** Filtra por el teléfono asociado a un CC.
 
-![telofono](../../assets/images/cap02/chp02_img45.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img43.png)
+_**Imagen 43** Subgrupo Teléfono_
 
 **Tipo:** Agrupa los CC de acuerdo al tipo seleccionado.
 
-![tipo](../../assets/images/cap02/chp02_img46.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img44.png)
+_**Imagen 44** Subgrupo Tipo_
 
 ## Centros Responsables
 
-Son los centros especializados, encargados de ejecutar labores de mantenimiento. Se incluyen tanto los Centros Responsables de Mantenimiento propios de la empresa  como
+Son los centros especializados, encargados de ejecutar labores de mantenimiento. Se incluyen tanto los Centros Responsables de Mantenimiento propios de la empresa como los externos a ella (Contratistas y Talleres Externos).
 
-los externos a ella (Contratistas y Talleres Externos).
-
-Se pueden definir a través de su descripción o  de su código según costumbre en la empresa. Para ello existe un espacio reducido, compuesto por  trece caracteres; esto debido a la necesidad de asociar posteriormente a cada Centro  Responsable el Oficio o Especialidad, o los Oficios o Especialidades que le pertenecen.
+Se define a través de su código y descripción según costumbre en la empresa. El código tiene un espacio reducido compuesto de trece caracteres; esto debido a la necesidad de asociar posteriormente a cada Centro Responsable el Oficio o Especialidad, o los Oficios o Especialidades que le pertenecen.
 
 Cuando se trata de los Centros Responsables Internos de la organización existen  varias alternativas de definición:
 
 En primer lugar como Centros especialistas en cada uno de los tipos de  mantenimiento: Mecánico, Eléctrico, Instrumentación u otros.
 
-Pero pueden ser también Centros técnicos de mantenimiento multiobjetivo,  conformados por especialistas de cada tipo de mantenimiento, que prestan servicio a uno o varios sectores productivos de la organización.
+Pero pueden ser también Centros técnicos de mantenimiento multiobjetivo, conformados por especialistas de cada tipo de mantenimiento, que prestan servicio a uno o varios sectores productivos de la organización.
 
-El **AM**administra los Centros Responsables de mantenimiento de la empresa cualquiera que sea su forma en la jerarquía organizacional.
+El **AM** administra los Centros Responsables de mantenimiento de la empresa cualquiera que sea su forma en la jerarquía organizacional.
 
-Se debe definir además, como un Centro Responsable, al conjunto de Talleres Externos que prestan servicio a la empresa, por solicitud y a elección de ella,  sin  que exista un compromiso previo contractual.
+Se debe definir además, como un Centro Responsable, al conjunto de Talleres o Servicios Externos que prestan servicio a la empresa, por solicitud y a elección de ella,  sin  que exista un compromiso previo contractual.
 
 De igual forma, debe constituir un Centro Responsable el conjunto de Contratistas, externos, que prestan servicio a la empresa en forma permanente y rutinaria sobre bases contractuales.
 
@@ -389,23 +399,24 @@ De igual forma, debe constituir un Centro Responsable el conjunto de Contratista
 
 **Talleres Externos:** Tall.Ext
 
-**Contratistas:** Contratis
+**Contratistas:** Contrat
 
 **Mantenimiento Mecánico:** Mtto.Mec
 
 **Taller Eléctrico:** Tall.Elec
 
-![ipo](../../assets/images/cap02/chp02_img47.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img45.png)
+_**Imagen 45** Ventana Detalle Centros Responsables_
 
-En la gráfica anterior, Ventana Centros Responsables, se aprecian sus componentes y sus respectivos contenidos. En la ventana Detalle de Centros Responsables se  encuentra la información relevante al Centro Responsable seleccionado en el Visor.
+En la gráfica anterior, Ventana Detalle Centros Responsables, se aprecian sus componentes y sus respectivos contenidos. Se encuentra la información relevante al Centro Responsable seleccionado en el Visor.
 
-A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación.
+A continuación se describen los campos que componen el registro, sobre cada unos se da una breve explicación:
 
-**Nombre CR:** En este campo se escribe el código del Centro Responsable a  ser incluido. El campo tiene una capacidad de 13 caracteres.
+**Nombre CR:** En este campo se escribe el código del Centro Responsable, con una capacidad de 13 caracteres.
 
 **Estado:** Es un campo para seleccionar un valor de los predefinidos, Activo o Inactivo que refleja el estado de ese Centro Responsable ante el aplicativo.
 
-**Tipo:** Se elige si es un Centro Responsable de tipo Interno, sí es de la empresa; o tipo Externo, sí corresponde a un Taller Externo o Contratista.
+**Tipo:** Se elige si es un Centro Responsable de tipo Interno, sí es de la empresa; o tipo Externo, sí corresponde a un Taller/Servicio Externo o Contratista.
 
 ## Oficios
 
@@ -413,17 +424,18 @@ Aquí se definen los Oficios o Cargos Técnicos de mantenimiento que el área de
 
 En otras palabras esta es la tabla en la que se registran los nombres de los Cargos Técnicos de mantenimiento a los que se asocian posteriormente las personas de las áreas de
 
-También se definen aquí las especialidades de los Talleres Externos o de los Contratistas que prestan servicios de mantenimiento. Ejemplos: Talleres Eléctricos, Talleres Mecánicos, Talleres de Motores y Bombas;  Contratistas de Aire Acondicionado, Contratistas de Mecanizado, Contratistas para Instalaciones de Redes, entre otros.   Los oficios son requeridos por los Programas de Mantenimiento y las Órdenes de Trabajo.
+También se definen aquí las especialidades de los Talleres/Servicios Externos o de los Contratistas que prestan servicios de mantenimiento. Ejemplos: Talleres Eléctricos, Talleres Mecánicos, Talleres de Motores y Bombas; Contratistas de Aire Acondicionado, Contratistas de Mecanizado, Contratistas para Instalaciones de Redes, entre otros. Los oficios son requeridos por los Programas de Mantenimiento y las Órdenes de Trabajo.
 
-![detalle](../../assets/images/cap02/chp02_img48.png)
+![detalle](../../assets/images/cap02/chp02_img46.png)
+_**Imagen 46** Ventana Detalle Centros Responsables_
 
-En la gráfica anterior, Ventana Oficios, se aprecian sus componentes y sus  respectivos contenidos. En la ventana Detalle de Oficios se encuentra la información  relevante al Oficio seleccionado en el Visor.
+En la gráfica anterior, Ventana Detalle Oficios, se aprecian sus componentes y sus  respectivos contenidos. Se encuentra la información  relevante al Oficio seleccionado en el Visor.
 
-A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación.
+A continuación se describen los campos que componen el registro, sobre cada campo se da una breve explicación:
 
-**Centro responsable:** Este campo permite seleccionar un Centro Responsable preexistente, al  cual pertenece el oficio. Se encuentran disponibles para la selección los Centros Responsables definidos en la tabla correspondiente.
+**Centro responsable:** Este campo permite seleccionar un Centro Responsable preexistente, al cual pertenece el oficio. Se encuentran disponibles para la selección los Centros Responsables definidos en la tabla correspondiente.
 
-**Oficio:** En este campo se definen los diferentes Oficios del personal de  mantenimiento propio de la empresa, o las Especialidades de los Talleres externos y Contratistas.
+**Oficio:** En este campo se definen los diferentes Oficios del personal de mantenimiento propio de la empresa o las Especialidades de los Talleres/Servicios Externos y Contratistas.
 
 **Tipo Trabajo (TT):** Indica el tipo de trabajo al cual está relacionado el Oficio o la especialidad que se está definiendo. Elc (eléctrico), Mec (mecánico), I/E (instrumentación y  electrónica), Otr (otros). Tanto la definición como la abreviatura, de cada Tipo de Trabajo, son configurables para una compañía, desde el módulo de Infraestructura, en la tabla llamada Tipos de Trabajo.
 
@@ -435,15 +447,16 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 ## Responsables
 
-Aquí se registran los nombres propios de las personas definidas para cada Oficio o  los nombres o razones sociales de los Talleres Externos o Contratistas, definidos  para  cada grupo o Especialidad.
+Aquí se registran automáticamente los nombres propios de las personas definidas para cada Oficio o los nombres o razones sociales de los Talleres/Servicios Externos o Contratistas, definidos  para  cada grupo o Especialidad. 
 
 Se visualiza la información sobre cada Empleado o Taller o Contratista.
 
-![vent ie](../../assets/images/cap02/chp02_img49.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img47.png)
+_**Imagen 47** Ventana Detalle Responsables_
 
-En la gráfica anterior, Ventana Responsables, se aprecian sus componentes y  sus respectivos contenidos. En la ventana Detalle de Responsables se encuentra la información relevante al Responsable seleccionado en el Visor.
+En la gráfica anterior, Ventana Detalle Responsables, se aprecian sus componentes y  sus respectivos contenidos. Se encuentra la información relevante al Responsable seleccionado en el Visor.
 
-A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación.
+A continuación se describen los campos que componen el registro, sobre cada campo se da una breve explicación:
 
 **Centro Responsable:** En este campo se muestra el Centro Responsable asociado al Responsable.
 
@@ -463,29 +476,31 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 **Sub CC:** En este campo se muestra el código del Sub CC que está relacionado al Centro de Costo definido en el campo anterior.
 
-**Estado:** Es un campo que muestra un valor de los predefinidos, Activo o Inactivo que refleja el estado de ese Responsable ante el aplicativo.
+**Estado:** Es un campo que muestra un valor de los predefinidos, Activo o Inactivo que refleja el estado de ese Responsable ante el aplicativo mediante un switche.
 
 ## Riesgos
 
 Los Riesgos corresponden a los riesgos asociados a cada uno de los Activos/Equipos que se encuentran definidos en el módulo de Activos.
 
-![ipo](../../assets/images/cap02/chp02_img50.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img48.png)
+_**Imagen 48** Ventana Detalle Riesgos_
 
-En la gráfica anterior, Ventana Riesgos, se aprecian sus componentes y  sus respectivos contenidos. En la ventana Detalle de Riesgos se encuentra la información relevante al Riesgo seleccionado en el Visor.
+En la gráfica anterior, Ventana Detalle Riesgos, se aprecian sus componentes y  sus respectivos contenidos.Se encuentra la información relevante al Riesgo seleccionado en el Visor.
 
-A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación.
+A continuación se describen los campos que componen el registro, sobre cada campo se da una breve explicación:
 
 **Nombre:** En este campo se define el nombre del riesgo.
 
 ## Magnitudes
 
-El objetivo de esta nueva tabla es registrar las magnitudes que después se asociarán a los Activos, que se utilizaran al definir la porción de Metrología. En esta tabla sólo se registrarán los nombres de la Magnitud. Se cuenta con 60 dígitos para  ingresar la magnitud deseada.
+El objetivo de esta nueva tabla es registrar las magnitudes que después se asociarán a los Activos, que se utilizan al definir la porción de Metrología. En esta tabla sólo se registrarán los nombres de la Magnitud. Se cuenta con 60 dígitos para  ingresar la magnitud deseada.
 
-![magni](../../assets/images/cap02/chp02_img51.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img49.png)
+_**Imagen 49** Ventana Detalle Magnitudes_
 
-En la gráfica anterior, Ventana Magnitudes, se aprecian sus componentes y  sus respectivos contenidos. En la ventana Detalle de Magnitudes se encuentra la información relevante a la Magnitud seleccionada en el Visor.
+En la gráfica anterior, Ventana Detalle Magnitudes, se aprecian sus componentes y  sus respectivos contenidos. Se encuentra la información relevante a la Magnitud seleccionada en el Visor.
 
-A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación.
+A continuación se describen los campos que componen el registro, sobre cada campo se da una breve explicación:
 
 **Nombre de la Magnitud:** En este campo se define el nombre de la magnitud.
 
@@ -493,7 +508,7 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 Es una tabla conformada por los nombres de las Características propias de los Activos o Equipos, que se utilizan al definir la porción variable de Info. Biomédica en su ficha técnica.  En esta tabla sólo se ingresan los nombres de las Características. Se cuenta con 30 dígitos para  ingresar la característica deseada.
 
-El valor o nombre, la unidad de medida correspondiente y la clasificación, a cada Característica se ingresan en  la  ficha técnica del Activo o Equipo en la porción de Info. Biomédica.
+El valor o nombre, la unidad de medida correspondiente y la clasificación se relacionan a cada Característica en la ficha técnica del Activo o Equipo en la porción de Info. Biomédica.
 
 La gama de Características depende del tipo de equipamiento de la empresa, por tanto es una tabla modificable o adecuable con gran facilidad.
 
@@ -501,47 +516,47 @@ Se recomienda utilizar esta tabla únicamente para empresas o compañías que se
 
 Existen varios tipos de Características que se configuran según el equipo, al definir su ficha técnica. El primer tipo, el más común, corresponde a las de tipo Informativo. El segundo tipo corresponde a las de tipo instalación. El tercer tipo corresponde a las de tipo apoyo. El cuarto tipo corresponde a las de tipo Técnicas. Finalmente, las del quinto tipo corresponde a las de funcionamiento. Todas las características biomédicas van acompañadas de un valor o nombre y la unidad de medida.
 
-![detalle caracteristicas](../../assets/images/cap02/chp02_img52.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img50.png)
+_**Imagen 50** Ventana Detalle Características Biomédicas_
 
-En la gráfica anterior, Ventana Características Biomédicas, se aprecian sus componentes y  sus respectivos contenidos. En la ventana Detalle de Características Biomédicas se encuentra la información relevante al Características Biomédicas seleccionado en el Visor.
+En la gráfica anterior, Ventana Características Biomédicas, se aprecian sus componentes y  sus respectivos contenidos. Se encuentra la información relevante a la Característica Biomédica seleccionada en el Visor.
 
-A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación.
+A continuación se describen los campos que componen el registro, sobre cada campo se da una breve explicación:
 
 **Nombre:** En este campo se define el nombre de la característica biomédica.
 
-**Estado:** Indica el estado en que se encuentra la Característica
-
-**Biomédica:** Activo o inactivo.
+**Estado:** Indica el estado en que se encuentra la Característica Biomédica: Activo o Inactivo.
 
 ## Otros Conceptos de Costo
 
-El objetivo de esta tabla es registrar aquellas actividades complementarias que generan costos en una OT, que son indirectos respecto a la misma y que son  facturados por un ente externo. Este es el caso, por ejemplo, de los costos de transporte necesarios para llevar a mecanizar una pieza, o para arrendar y desplazar un equipo o un  instrumento,  o para desplazar a un ingeniero y cubrir sus gastos de viaje y viáticos.
+El objetivo de esta tabla es registrar aquellas actividades complementarias que generan costos en una OT, que son indirectos respecto a la misma y que son  facturados por un ente externo. Este es el caso, por ejemplo, de los costos de transporte necesarios para llevar a mecanizar una pieza, o para arrendar y desplazar un equipo o un instrumento, o para desplazar a un ingeniero y cubrir sus gastos de viaje y viáticos.
 
 También se usa para cargar a una OT, costos de trabajos eventuales, no rutinarios, especializados, de costo relativamente bajo, que no ameritan la generación de una OT. Algunos ejemplos son: la cepillada de una campana o una rotación de llantas, labores que se ejecutan como parte de una OT mecánica.
 
-![detalle concepto](../../assets/images/cap02/chp02_img53.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img51.png)
+_**Imagen 51** Ventana Detalle Otros Conceptos de Costo_
 
-En  la  gráfica  anterior,  Ventana Otros Conceptos de Costo, se aprecian sus componentes y sus respectivos contenidos.
+En la gráfica anterior, Ventana Detalle Otros Conceptos de Costo, se aprecian sus componentes y sus respectivos contenidos.
 
-A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación.
+A continuación se describen los campos que componen el registro, sobre cada campo se da una breve explicación:
 
 **Código:** Se define un código o indicativo único para el otro concepto de costo, que puede ser un consecutivo. Ejemplo: OC-001, el cual OC corresponde a las abreviaturas de Otro Concepto y 001 corresponde al primer registro.
 
 **Nombre:** En este campo se escribe el nombre del Concepto generador de costo distinto de Mano de Obra y de Materiales y Repuestos. Es una descripción corta de 25 caracteres. Algunos ejemplos de estos Otros Conceptos pueden ser: Transporte Terrestre de un Equipo, Transporte y Viáticos de un operador que se trasladó desde otra ciudad, mecanizado de una pieza sencilla, etc.
 
-**Valor Unitario:** Este campo indica el costo unitario de la actividad. Solamente se debe registrar este valor si corresponde a una tarifa o precio que se ha pactado con el proveedor, y que  se ejecuta rutinariamente. Es posible dejar  este valor en blanco y al momento de cargarlo a una Orden de Trabajo, registrar  manualmente el  valor.
+**Valor Unitario:** Este campo indica el costo unitario de la actividad. Solamente se debe registrar este valor si corresponde a una tarifa o precio que se ha pactado con el proveedor, y que se ejecuta rutinariamente. Es posible dejar  este valor en blanco y al momento de cargarlo a una Órden de Trabajo, registrar manualmente el  valor.
 
-**Unidad de Medida (UM):** Este campo es para seleccionar la unidad de medida que corresponde al **Otro Concepto de Costo**. Se elige una de las disponibles que se descuelgan de la lista.
+**Unidad de Medida (UM):** Este campo es para seleccionar la unidad de medida que corresponde al **Otro Concepto de Costo.** Se elige una de las disponibles que se descuelgan de la lista.
 
-**Informativo:** Este campo permite activar el Otro Concepto de Costo  como campo informativo, lo que quiere decir que NO se genera costo. En caso de querer cuantificar esta actividad simplemente no se da clic en el cuadro de la opción **Campo Informativo.**
+**Informativo** Este switche permite activar el Otro Concepto de Costo como campo Informativo, lo que quiere decir que NO se genera costo. En caso de querer cuantificar esta actividad no se debe activar el switche.
 
 **Tipo  de Trabajo (TT):** Indica el Tipo de Trabajo al cual se relaciona el Concepto de Costo registrado: Elc (eléctrico), Mec (mecánico), I/E (instrumentación y electrónica), Otr (otros).
 
-El Tipo de Trabajo cualifica el valor del costo permitiendo que se cargue en una fila y en una columna precisamente definida en la tabla de Gasto Real en la Orden de Trabajo.
+El Tipo de Trabajo cualifica el valor del costo permitiendo que se cargue en una fila y en una columna precisamente definida en la tabla de Gasto Real en la Órden de Trabajo.
 
 ## Causas de OT Pendiente
 
-Aquí se registran las posibles Causas por las que la ejecución de una Orden de Trabajo fue suspendida o pospuesta. En el sistema se proponen las siguientes causas de pendiente:
+Aquí se registran las posibles Causas por las que la ejecución de una Órden de Trabajo es suspendida o pospuesta. En el sistema se proponen las siguientes causas de pendiente:
 
 **M** - Pendiente Por Mano De Obra
 **O** - Pendiente Por Otros Conceptos
@@ -551,13 +566,14 @@ Aquí se registran las posibles Causas por las que la ejecución de una Orden de
 
 Estos valores predefinidos pueden ser modificados o complementados por el usuario, según su cultura técnica y organizacional.
 
-![detalle causa](../../assets/images/cap02/chp02_img54.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img52.png)
+_**Imagen 52** Ventana Detalle Otros Conceptos de Costo_
 
-En la gráfica anterior, Ventana Causas de OT Pendiente, se aprecian sus componentes y sus respectivos contenidos. En la ventana Detalle de Causas de OT Pendiente se encuentra la información relevante a la Causa de Pendiente seleccionada en el Visor.
+En la gráfica anterior, Ventana Detalle Causas de OT Pendiente, se aprecian sus componentes y sus respectivos contenidos. Se encuentra la información relevante a la Causa de Pendiente seleccionada en el Visor.
 
-A continuación se describe el campo que compone el registro.
+A continuación se describe el campo que compone el registro:
 
-**Nombre:** En este campo se escribe la Causa por la que se puede detener la ejecución de una OT. Se recomienda nombrar la causa de pendiente  iniciando con una letra que la distinga de las demás, continuar con un guion y a continuación el nombre de la causa. La capacidad del campo es de 30 caracteres.
+**Nombre:** En este campo se escribe la Causa por la que se puede detener la ejecución de una OT. Se recomienda nombrar la causa de pendiente iniciando con una letra que la distinga de las demás, continuar con un guion y a continuación el nombre de la causa. La capacidad del campo es de 30 caracteres.
 
 ## Tipos de Actividad
 
@@ -565,9 +581,9 @@ El objetivo de esta tabla es registrar otros Tipos de Actividad. Los Tipos de Ac
 
 El Tipo de Actividad puede ser un criterio más de selección y de búsqueda, en estudios sobre Órdenes de Trabajo e Historia de Mantenimiento.
 
-El **AM** suministra una tabla de Tipos de Actividad que incluye una recopilación interesante de ellas, que el usuario puede enriquecer adicionando  nuevas  o modificando las existentes.
+**AM** suministra una tabla de Tipos de Actividad que incluye una recopilación interesante de ellas que el usuario puede enriquecer adicionando nuevas o mdificando las existentes.
 
-Algunos ejemplos de Tipos de Actividad que ya hacen parte de **AM**son los siguientes:
+Algunos ejemplos de Tipos de Actividad que están preconfiguradas en **AM** son las siguientes:
 
 - EQ-Contrato
 - EQ-Garantía
@@ -602,20 +618,21 @@ Algunos ejemplos de Tipos de Actividad que ya hacen parte de **AM**son los sigui
 - TV-Telefonía
 - TV-Trabajo Sobre Repuestos
 
-Donde los dos primeros caracteres, entre otros, significan:
+Donde los dos primeros caracteres significan:
 
-- **EQ**  Otros Trabajos sobre Equipos.
-- **IC**	Informática y Comunicaciones.
-- **IL** Trabajos sobre. Instalaciones Locativas.
-- **IT** 	Informática y Tecnología.
-- **MN**	Trabajos que constituyen Mantenimiento.
-- **TV**	Trabajos Varios
+- **EQ** Otros Trabajos sobre Equipos.
+- **IC** Informática y Comunicaciones.
+- **IL** Trabajos sobre Instalaciones Locativas.
+- **IT** Informática y Tecnología.
+- **MN** Trabajos que constituyen Mantenimiento.
+- **TV** Trabajos Varios
 
-![detalle del tipo de activid](../../assets/images/cap02/chp02_img56.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img53.png)
+_**Imagen 53** Ventana Detalle Tipos de Actividad_
 
-En la gráfica anterior, Ventana Tipos de Actividad, se aprecian sus componentes y sus respectivos contenidos. En la ventana Detalle de Tipos de Actividad se encuentra la información relevante al Tipo de Actividad seleccionado en el Visor.
+En la gráfica anterior, Ventana Detalle Tipos de Actividad, se aprecian sus componentes y sus respectivos contenidos. Se encuentra la información relevante al Tipo de Actividad seleccionado en el Visor.
 
-A continuación se describe el campo que compone el registro.
+A continuación se describen los campos que componen el registro, sobre cada campo se da una breve explicación:
 
 **Nombre TA:** En este campo se registra el Tipo de Actividad. La capacidad  del  campo es de 50 caracteres.
 
