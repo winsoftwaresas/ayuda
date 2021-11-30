@@ -447,15 +447,16 @@ A continuación se describen los campos que componen el registro, sobre cada cam
 
 ## Responsables
 
-Aquí se registran los nombres propios de las personas definidas para cada Oficio o  los nombres o razones sociales de los Talleres Externos o Contratistas, definidos  para  cada grupo o Especialidad.
+Aquí se registran automáticamente los nombres propios de las personas definidas para cada Oficio o los nombres o razones sociales de los Talleres/Servicios Externos o Contratistas, definidos  para  cada grupo o Especialidad. 
 
 Se visualiza la información sobre cada Empleado o Taller o Contratista.
 
-![vent ie](../../assets/images/cap02/chp02_img49.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img47.png)
+_**Imagen 47** Ventana Detalle Responsables_
 
-En la gráfica anterior, Ventana Responsables, se aprecian sus componentes y  sus respectivos contenidos. En la ventana Detalle de Responsables se encuentra la información relevante al Responsable seleccionado en el Visor.
+En la gráfica anterior, Ventana Detalle Responsables, se aprecian sus componentes y  sus respectivos contenidos. Se encuentra la información relevante al Responsable seleccionado en el Visor.
 
-A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación.
+A continuación se describen los campos que componen el registro, sobre cada campo se da una breve explicación:
 
 **Centro Responsable:** En este campo se muestra el Centro Responsable asociado al Responsable.
 
@@ -475,29 +476,31 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 **Sub CC:** En este campo se muestra el código del Sub CC que está relacionado al Centro de Costo definido en el campo anterior.
 
-**Estado:** Es un campo que muestra un valor de los predefinidos, Activo o Inactivo que refleja el estado de ese Responsable ante el aplicativo.
+**Estado:** Es un campo que muestra un valor de los predefinidos, Activo o Inactivo que refleja el estado de ese Responsable ante el aplicativo mediante un switche.
 
 ## Riesgos
 
 Los Riesgos corresponden a los riesgos asociados a cada uno de los Activos/Equipos que se encuentran definidos en el módulo de Activos.
 
-![ipo](../../assets/images/cap02/chp02_img50.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img48.png)
+_**Imagen 48** Ventana Detalle Riesgos_
 
-En la gráfica anterior, Ventana Riesgos, se aprecian sus componentes y  sus respectivos contenidos. En la ventana Detalle de Riesgos se encuentra la información relevante al Riesgo seleccionado en el Visor.
+En la gráfica anterior, Ventana Detalle Riesgos, se aprecian sus componentes y  sus respectivos contenidos.Se encuentra la información relevante al Riesgo seleccionado en el Visor.
 
-A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación.
+A continuación se describen los campos que componen el registro, sobre cada campo se da una breve explicación:
 
 **Nombre:** En este campo se define el nombre del riesgo.
 
 ## Magnitudes
 
-El objetivo de esta nueva tabla es registrar las magnitudes que después se asociarán a los Activos, que se utilizaran al definir la porción de Metrología. En esta tabla sólo se registrarán los nombres de la Magnitud. Se cuenta con 60 dígitos para  ingresar la magnitud deseada.
+El objetivo de esta nueva tabla es registrar las magnitudes que después se asociarán a los Activos, que se utilizan al definir la porción de Metrología. En esta tabla sólo se registrarán los nombres de la Magnitud. Se cuenta con 60 dígitos para  ingresar la magnitud deseada.
 
-![magni](../../assets/images/cap02/chp02_img51.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img49.png)
+_**Imagen 49** Ventana Detalle Magnitudes_
 
-En la gráfica anterior, Ventana Magnitudes, se aprecian sus componentes y  sus respectivos contenidos. En la ventana Detalle de Magnitudes se encuentra la información relevante a la Magnitud seleccionada en el Visor.
+En la gráfica anterior, Ventana Detalle Magnitudes, se aprecian sus componentes y  sus respectivos contenidos. Se encuentra la información relevante a la Magnitud seleccionada en el Visor.
 
-A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación.
+A continuación se describen los campos que componen el registro, sobre cada campo se da una breve explicación:
 
 **Nombre de la Magnitud:** En este campo se define el nombre de la magnitud.
 
@@ -505,7 +508,7 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 Es una tabla conformada por los nombres de las Características propias de los Activos o Equipos, que se utilizan al definir la porción variable de Info. Biomédica en su ficha técnica.  En esta tabla sólo se ingresan los nombres de las Características. Se cuenta con 30 dígitos para  ingresar la característica deseada.
 
-El valor o nombre, la unidad de medida correspondiente y la clasificación, a cada Característica se ingresan en  la  ficha técnica del Activo o Equipo en la porción de Info. Biomédica.
+El valor o nombre, la unidad de medida correspondiente y la clasificación se relacionan a cada Característica en la ficha técnica del Activo o Equipo en la porción de Info. Biomédica.
 
 La gama de Características depende del tipo de equipamiento de la empresa, por tanto es una tabla modificable o adecuable con gran facilidad.
 
@@ -513,47 +516,47 @@ Se recomienda utilizar esta tabla únicamente para empresas o compañías que se
 
 Existen varios tipos de Características que se configuran según el equipo, al definir su ficha técnica. El primer tipo, el más común, corresponde a las de tipo Informativo. El segundo tipo corresponde a las de tipo instalación. El tercer tipo corresponde a las de tipo apoyo. El cuarto tipo corresponde a las de tipo Técnicas. Finalmente, las del quinto tipo corresponde a las de funcionamiento. Todas las características biomédicas van acompañadas de un valor o nombre y la unidad de medida.
 
-![detalle caracteristicas](../../assets/images/cap02/chp02_img52.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img50.png)
+_**Imagen 50** Ventana Detalle Características Biomédicas_
 
-En la gráfica anterior, Ventana Características Biomédicas, se aprecian sus componentes y  sus respectivos contenidos. En la ventana Detalle de Características Biomédicas se encuentra la información relevante al Características Biomédicas seleccionado en el Visor.
+En la gráfica anterior, Ventana Características Biomédicas, se aprecian sus componentes y  sus respectivos contenidos. Se encuentra la información relevante a la Característica Biomédica seleccionada en el Visor.
 
-A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación.
+A continuación se describen los campos que componen el registro, sobre cada campo se da una breve explicación:
 
 **Nombre:** En este campo se define el nombre de la característica biomédica.
 
-**Estado:** Indica el estado en que se encuentra la Característica
-
-**Biomédica:** Activo o inactivo.
+**Estado:** Indica el estado en que se encuentra la Característica Biomédica: Activo o Inactivo.
 
 ## Otros Conceptos de Costo
 
-El objetivo de esta tabla es registrar aquellas actividades complementarias que generan costos en una OT, que son indirectos respecto a la misma y que son  facturados por un ente externo. Este es el caso, por ejemplo, de los costos de transporte necesarios para llevar a mecanizar una pieza, o para arrendar y desplazar un equipo o un  instrumento,  o para desplazar a un ingeniero y cubrir sus gastos de viaje y viáticos.
+El objetivo de esta tabla es registrar aquellas actividades complementarias que generan costos en una OT, que son indirectos respecto a la misma y que son  facturados por un ente externo. Este es el caso, por ejemplo, de los costos de transporte necesarios para llevar a mecanizar una pieza, o para arrendar y desplazar un equipo o un instrumento, o para desplazar a un ingeniero y cubrir sus gastos de viaje y viáticos.
 
 También se usa para cargar a una OT, costos de trabajos eventuales, no rutinarios, especializados, de costo relativamente bajo, que no ameritan la generación de una OT. Algunos ejemplos son: la cepillada de una campana o una rotación de llantas, labores que se ejecutan como parte de una OT mecánica.
 
-![detalle concepto](../../assets/images/cap02/chp02_img53.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img51.png)
+_**Imagen 51** Ventana Detalle Otros Conceptos de Costo_
 
-En  la  gráfica  anterior,  Ventana Otros Conceptos de Costo, se aprecian sus componentes y sus respectivos contenidos.
+En la gráfica anterior, Ventana Detalle Otros Conceptos de Costo, se aprecian sus componentes y sus respectivos contenidos.
 
-A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación.
+A continuación se describen los campos que componen el registro, sobre cada campo se da una breve explicación:
 
 **Código:** Se define un código o indicativo único para el otro concepto de costo, que puede ser un consecutivo. Ejemplo: OC-001, el cual OC corresponde a las abreviaturas de Otro Concepto y 001 corresponde al primer registro.
 
 **Nombre:** En este campo se escribe el nombre del Concepto generador de costo distinto de Mano de Obra y de Materiales y Repuestos. Es una descripción corta de 25 caracteres. Algunos ejemplos de estos Otros Conceptos pueden ser: Transporte Terrestre de un Equipo, Transporte y Viáticos de un operador que se trasladó desde otra ciudad, mecanizado de una pieza sencilla, etc.
 
-**Valor Unitario:** Este campo indica el costo unitario de la actividad. Solamente se debe registrar este valor si corresponde a una tarifa o precio que se ha pactado con el proveedor, y que  se ejecuta rutinariamente. Es posible dejar  este valor en blanco y al momento de cargarlo a una Orden de Trabajo, registrar  manualmente el  valor.
+**Valor Unitario:** Este campo indica el costo unitario de la actividad. Solamente se debe registrar este valor si corresponde a una tarifa o precio que se ha pactado con el proveedor, y que se ejecuta rutinariamente. Es posible dejar  este valor en blanco y al momento de cargarlo a una Órden de Trabajo, registrar manualmente el  valor.
 
-**Unidad de Medida (UM):** Este campo es para seleccionar la unidad de medida que corresponde al **Otro Concepto de Costo**. Se elige una de las disponibles que se descuelgan de la lista.
+**Unidad de Medida (UM):** Este campo es para seleccionar la unidad de medida que corresponde al **Otro Concepto de Costo.** Se elige una de las disponibles que se descuelgan de la lista.
 
-**Informativo:** Este campo permite activar el Otro Concepto de Costo  como campo informativo, lo que quiere decir que NO se genera costo. En caso de querer cuantificar esta actividad simplemente no se da clic en el cuadro de la opción **Campo Informativo.**
+**Informativo** Este switche permite activar el Otro Concepto de Costo como campo Informativo, lo que quiere decir que NO se genera costo. En caso de querer cuantificar esta actividad no se debe activar el switche.
 
 **Tipo  de Trabajo (TT):** Indica el Tipo de Trabajo al cual se relaciona el Concepto de Costo registrado: Elc (eléctrico), Mec (mecánico), I/E (instrumentación y electrónica), Otr (otros).
 
-El Tipo de Trabajo cualifica el valor del costo permitiendo que se cargue en una fila y en una columna precisamente definida en la tabla de Gasto Real en la Orden de Trabajo.
+El Tipo de Trabajo cualifica el valor del costo permitiendo que se cargue en una fila y en una columna precisamente definida en la tabla de Gasto Real en la Órden de Trabajo.
 
 ## Causas de OT Pendiente
 
-Aquí se registran las posibles Causas por las que la ejecución de una Orden de Trabajo fue suspendida o pospuesta. En el sistema se proponen las siguientes causas de pendiente:
+Aquí se registran las posibles Causas por las que la ejecución de una Órden de Trabajo es suspendida o pospuesta. En el sistema se proponen las siguientes causas de pendiente:
 
 **M** - Pendiente Por Mano De Obra
 **O** - Pendiente Por Otros Conceptos
@@ -563,13 +566,14 @@ Aquí se registran las posibles Causas por las que la ejecución de una Orden de
 
 Estos valores predefinidos pueden ser modificados o complementados por el usuario, según su cultura técnica y organizacional.
 
-![detalle causa](../../assets/images/cap02/chp02_img54.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img52.png)
+_**Imagen 52** Ventana Detalle Otros Conceptos de Costo_
 
-En la gráfica anterior, Ventana Causas de OT Pendiente, se aprecian sus componentes y sus respectivos contenidos. En la ventana Detalle de Causas de OT Pendiente se encuentra la información relevante a la Causa de Pendiente seleccionada en el Visor.
+En la gráfica anterior, Ventana Detalle Causas de OT Pendiente, se aprecian sus componentes y sus respectivos contenidos. Se encuentra la información relevante a la Causa de Pendiente seleccionada en el Visor.
 
-A continuación se describe el campo que compone el registro.
+A continuación se describe el campo que compone el registro:
 
-**Nombre:** En este campo se escribe la Causa por la que se puede detener la ejecución de una OT. Se recomienda nombrar la causa de pendiente  iniciando con una letra que la distinga de las demás, continuar con un guion y a continuación el nombre de la causa. La capacidad del campo es de 30 caracteres.
+**Nombre:** En este campo se escribe la Causa por la que se puede detener la ejecución de una OT. Se recomienda nombrar la causa de pendiente iniciando con una letra que la distinga de las demás, continuar con un guion y a continuación el nombre de la causa. La capacidad del campo es de 30 caracteres.
 
 ## Tipos de Actividad
 
@@ -577,9 +581,9 @@ El objetivo de esta tabla es registrar otros Tipos de Actividad. Los Tipos de Ac
 
 El Tipo de Actividad puede ser un criterio más de selección y de búsqueda, en estudios sobre Órdenes de Trabajo e Historia de Mantenimiento.
 
-El **AM** suministra una tabla de Tipos de Actividad que incluye una recopilación interesante de ellas, que el usuario puede enriquecer adicionando  nuevas  o modificando las existentes.
+**AM** suministra una tabla de Tipos de Actividad que incluye una recopilación interesante de ellas que el usuario puede enriquecer adicionando nuevas o mdificando las existentes.
 
-Algunos ejemplos de Tipos de Actividad que ya hacen parte de **AM**son los siguientes:
+Algunos ejemplos de Tipos de Actividad que están preconfiguradas en **AM** son las siguientes:
 
 - EQ-Contrato
 - EQ-Garantía
@@ -614,20 +618,21 @@ Algunos ejemplos de Tipos de Actividad que ya hacen parte de **AM**son los sigui
 - TV-Telefonía
 - TV-Trabajo Sobre Repuestos
 
-Donde los dos primeros caracteres, entre otros, significan:
+Donde los dos primeros caracteres significan:
 
-- **EQ**  Otros Trabajos sobre Equipos.
-- **IC**	Informática y Comunicaciones.
-- **IL** Trabajos sobre. Instalaciones Locativas.
-- **IT** 	Informática y Tecnología.
-- **MN**	Trabajos que constituyen Mantenimiento.
-- **TV**	Trabajos Varios
+- **EQ** Otros Trabajos sobre Equipos.
+- **IC** Informática y Comunicaciones.
+- **IL** Trabajos sobre Instalaciones Locativas.
+- **IT** Informática y Tecnología.
+- **MN** Trabajos que constituyen Mantenimiento.
+- **TV** Trabajos Varios
 
-![detalle del tipo de activid](../../assets/images/cap02/chp02_img56.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img53.png)
+_**Imagen 53** Ventana Detalle Tipos de Actividad_
 
-En la gráfica anterior, Ventana Tipos de Actividad, se aprecian sus componentes y sus respectivos contenidos. En la ventana Detalle de Tipos de Actividad se encuentra la información relevante al Tipo de Actividad seleccionado en el Visor.
+En la gráfica anterior, Ventana Detalle Tipos de Actividad, se aprecian sus componentes y sus respectivos contenidos. Se encuentra la información relevante al Tipo de Actividad seleccionado en el Visor.
 
-A continuación se describe el campo que compone el registro.
+A continuación se describen los campos que componen el registro, sobre cada campo se da una breve explicación:
 
 **Nombre TA:** En este campo se registra el Tipo de Actividad. La capacidad  del  campo es de 50 caracteres.
 
