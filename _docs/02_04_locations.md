@@ -120,10 +120,10 @@ _**Imagen 20.** Subgrupo UF Criterio Unidad de Medida Área_
 
 **Unidad de Medida Capacidad:** Busca las Ubicaciones Físcas que tengan definido este campo. Las Unidades de Medida que se despliegan en la lista están registradas en la tabla de Unidades de Medida. Se elige de la lista la Unidad de Medida deseada.
 
+También se puede elegir la unidad de medida mediante el uso de comodines, para ello, se debe dar clic al icono candado <span class="mdi mdi-lock"></span>, a continuación este ícono se muestra abierto <span class="mdi mdi-lock-open-outline"></span> y permite escribir. Ejemplo, si se escribe la palabra sin porcentajes %, el sistema realiza una búsqueda de aquellas UF que en cualquier parte del campo tengan el nombre de la palabra digitada, en este caso, la palabra **“bloques”**, como se muestra a continuación:
+
 ![Procesar imagen](../../assets/images/cap02/chp02_img21.png)
 _**Imagen 21** Subgrupo UF Criterio Área_
-
-También se puede elegir la unidad de medida mediante el uso de comodines, para ello, se debe dar clic al icono candado <span class="mdi mdi-lock"></span>, a continuación este ícono se muestra abierto <span class="mdi mdi-lock-open-outline"></span> y permite escribir. Ejemplo, si se escribe la palabra sin porcentajes %, el sistema realiza una búsqueda de aquellas UF que en cualquier parte del campo tengan el nombre de la palabra digitada, en este caso, la palabra **“bloques”**.
 
 > **Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos  se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber realizado una selección es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección se da un clic al botón <a class="btn">Mas (+)</a>, en lugar de darlo al botón <a class="btn">Aceptar</a>.
 
