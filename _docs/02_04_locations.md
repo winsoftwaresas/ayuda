@@ -926,7 +926,7 @@ Para desasociar un documento, o una imagen o un video, al Contrato se da clic al
 ![Procesar imagen](../../assets/images/cap02/chp02_img65.png)
 _**Imagen 65.** Eliminar un archivo_
 
-Si se desea descargar un archivo adjunto al Contrato, se debe dar clic en el icono de nube con flecha hacia abajo <span class="mdi mdi-cloud-download-outline icon white"></span> que se encuentra al lado derecho del archivo que se quiere descargar, como se muestra a continuación:
+Si se desea descargar un archivo adjunto al Contrato, se debe dar clic en el icono de nube con flecha hacia abajo <span class="mdi mdi-cloud-download" icon white></span> que se encuentra al lado derecho del archivo que se quiere descargar, como se muestra a continuación:
 
 ![Procesar imagen](../../assets/images/cap02/chp02_img66.png)
 _**Imagen 66.** Descargar archivo_
