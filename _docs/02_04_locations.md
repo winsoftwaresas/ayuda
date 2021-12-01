@@ -906,23 +906,27 @@ A continuación se describen las carpetas que componen esta ventana; cuando se q
 
 **Videos:** En esta carpeta se relacionan porciones de videos relacionados al Contrato. Ejemplo: Videos en formato wmv, mp4, entre otros.
 
+Para adicionar un documento, imagen o video, se debe dar acceder a la carpeta deseada a través de un doble clic, luego se da clic al icono de nube <span class="mdi mdi-cloud-upload icon white"></span> y a continuación se abre el explorador de archivos, se selecciona el archivo y se da clic en <a class="btn">abrir</a>, como se muestra a continuación:
+
 ![Procesar imagen](../../assets/images/cap02/chp02_img62.png)
-_**Imagen 62** Contrato (Multimedia)_
+_**Imagen 62** Contrato Porción Multimedia_
 
-Para adicionar un documento, imagen o video, se debe dar clic en la carpeta deseada, luego se da clic al icono de <a class="btn">subir</a> , a continuación se abre una nueva ventana para realizar la búsqueda del archivo a subir,  se selecciona el archivo y se da clic en <a class="btn">abrir</a>.
+Una vez se da clic en <a class="btn">abrir</a> se evidencia al lado derecho el nombre del archivo elegido y aparece un campo en blanco, para que el usuario escriba un nombre adicional del archivo para ser usado como una referenciación del archivo adjunto. Luego, se da clic en el botón <a class="btn">Subir archivo</a>.
 
-![detalle de contrato](../../assets/images/cap02/chp02_img67.png)
-
-Una vez se da clic en <a class="btn">abrir</a>., se evidencia al lado derecho el nombre del archivo elegido y aparece un campo en blanco, para que el usuario escriba un nombre adicional del archivo para ser usado como una referenciación del archivo adjunto. Luego, se da clic en el botón <a class="btn">Subir archivo</a>.
-
-![detalle de contrato](../../assets/images/cap02/chp02_img68.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img63.png)
+_**Imagen 63** Adjuntar un Archivo _
 
 Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic en uno de las imágenes, se visualiza la imagen adjunta.
 
-Para desasociar un documento, o una imagen o un video, al Contrato se da clic al <span class="iconify btn" data-icon=delete>nar (basura) que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro y se da clic en el botón<a class="btn">Aceptar</a>.
+![Procesar imagen](../../assets/images/cap02/chp02_img64.png)
+_**Imagen 64** Archivo adjunto _
 
-![detalle de contrato](../../assets/images/cap02/chp02_img69.png)
+Para desasociar un documento, o una imagen o un video, al Contrato se da clic al ícono de Basura <span class="mdi mdi-delete"></span> que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro y se da clic en el botón<a class="btn">Aceptar</a>.
 
-Si se desea descargar un archivo adjunto al Contrato, se debe dar clic en el icono de <span class="iconify btn" data-icon=cloud-download> la nube con flecha hacia abajo , que se encuentra al lado derecho del archivo que se quiere descargar.
+![Procesar imagen](../../assets/images/cap02/chp02_img65.png)
+_**Imagen 65** Eliminar un archivo _
 
-![detalle de contrato](../../assets/images/cap02/chp02_img70.png)
+Si se desea descargar un archivo adjunto al Contrato, se debe dar clic en el icono de nube con flecha hacia abajo <span class="mdi mdi-cloud-download-outline icon white"></span> que se encuentra al lado derecho del archivo que se quiere descargar, como se muestra a continuación:
+
+![Procesar imagen](../../assets/images/cap02/chp02_img70.png)
+_**Imagen 65** Descargar archivo _
