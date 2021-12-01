@@ -116,7 +116,7 @@ _**Imagen 19.** Subgrupo UF Criterio Nombre UF_
 ![Procesar imagen](../../assets/images/cap02/chp02_img20.png)
 _**Imagen 20.** Subgrupo UF Criterio Unidad de Medida Área_
 
-También se puede elegir la unidad de medida mediante el uso de comodines, para ello, se debe dar clic al icono <a class="btn">Candado</a>. A continuación este ícono se muestra abierto <span class="mdi mdi-lock-open-outline"></span> y permite escribir. Ejemplo, si se escribe metros%, el sistema entiende que debe seleccionar aquellas UF cuya unidad de medida comience por la palabra **“metros”**. El porcentaje a continuación, es un carácter comodín que significa **“todos”**.
+También se puede elegir la unidad de medida mediante el uso de comodines, para ello, se debe dar clic al icono de candado <span class="mdi mdi-lock"></span>, a continuación este ícono se muestra abierto <span class="mdi mdi-lock-open-outline"></span> y permite escribir. Ejemplo, si se escribe metros%, el sistema entiende que debe seleccionar aquellas UF cuya unidad de medida comience por la palabra **“metros”**. El porcentaje a continuación, es un carácter comodín que significa **“todos”**.
 
 **Unidad de Medida Capacidad:** Busca las Ubicaciones Físcas que tengan definido este campo. Las Unidades de Medida que se despliegan en la lista están registradas en la tabla de Unidades de Medida. Se elige de la lista la Unidad de Medida deseada.
 
