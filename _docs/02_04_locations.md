@@ -914,19 +914,19 @@ _**Imagen 62.** Contrato Porción Multimedia_
 Una vez se da clic en <a class="btn">abrir</a> se evidencia al lado derecho el nombre del archivo elegido y aparece un campo en blanco, para que el usuario escriba un nombre adicional del archivo para ser usado como una referenciación del archivo adjunto. Luego, se da clic en el botón <a class="btn">Subir archivo</a>.
 
 ![Procesar imagen](../../assets/images/cap02/chp02_img63.png)
-_**Imagen 63.** Adjuntar un Archivo _
+_**Imagen 63.** Adjuntar un Archivo_
 
 Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic en uno de las imágenes, se visualiza la imagen adjunta.
 
 ![Procesar imagen](../../assets/images/cap02/chp02_img64.png)
-_**Imagen 64.** Archivo adjunto _
+_**Imagen 64.** Archivo adjunto_
 
 Para desasociar un documento, o una imagen o un video, al Contrato se da clic al ícono de Basura <span class="mdi mdi-delete"></span> que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro y se da clic en el botón<a class="btn">Aceptar</a>.
 
 ![Procesar imagen](../../assets/images/cap02/chp02_img65.png)
-_**Imagen 65** Eliminar un archivo _
+_**Imagen 65.** Eliminar un archivo_
 
 Si se desea descargar un archivo adjunto al Contrato, se debe dar clic en el icono de nube con flecha hacia abajo <span class="mdi mdi-cloud-download-outline icon white"></span> que se encuentra al lado derecho del archivo que se quiere descargar, como se muestra a continuación:
 
-![Procesar imagen](../../assets/images/cap02/chp02_img70.png)
-_**Imagen 65.** Descargar archivo _
+![Procesar imagen](../../assets/images/cap02/chp02_img66.png)
+_**Imagen 66.** Descargar archivo_
