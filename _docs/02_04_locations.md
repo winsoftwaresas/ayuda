@@ -286,7 +286,7 @@ Si el Centro de Costo se refiere a un Cliente, en este campo se define el nombre
 
 ### Subgrupo Centros de Costo
 
-Se usa para seleccionar grupos de Centros de Costo que cumplen un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al <span class="mdi mdi-filter-variant icon white">, ubicado en la parte superior derecha de la ventana Visor de Centros de Costo.
+Se usa para seleccionar grupos de Centros de Costo que cumplen un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al <span class="mdi mdi-filter-variant icon white"> ubicado en la parte superior derecha de la ventana Visor de Centros de Costo.
 
 ![Procesar imagen](../../assets/images/cap02/chp02_img29.png)
 _**Imagen 29** Subgrupos Centro de Costo_
