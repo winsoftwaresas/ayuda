@@ -651,24 +651,21 @@ En el sistema se incluyen las siguientes Causas de Cierre:
 - OT Ejecutada
 - Cambio por otra OT
 - Error en la programación
-- Equipo fuera de rvicio
-
-**CAUSAS DE CIERRE OT**
-
+- Equipo fuera de servicio
 - Equipo no disponible
 - Cierre de mes
 - Labor no requerida
 - Otra causa
 
-**Nota:** La Causa de Cierre **“OT Ejecutada”** es implícita a las OT cerradas ejecutadas. Esta
+>**Nota:** La Causa de Cierre **“OT Ejecutada”** es implícita a las OT cerradas ejecutadas. Esta
 Causa de Cierre no es editable.
 
 ![Procesar imagen](../../assets/images/cap02/chp02_img54.png)
 _**Imagen 54** Ventana Detalle Causas de Cierre de OT_
 
-En la gráfica anterior, Ventana Causas de Cierre de OT, se aprecian sus componentes y sus respectivos contenidos. En la ventana Detalle de Causas de Cierre de OT se encuentra la información relevante a la Causa de Cierre seleccionada en el Visor.
+En la gráfica anterior, Ventana Detalle Causas de Cierre de OT, se aprecian sus componentes y sus respectivos contenidos. Se encuentra la información relevante a la Causa de Cierre seleccionada en el Visor.
 
-A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación.
+A continuación se describen los campos que componen el registro, sobre cada campo se da una breve explicación:
 
 **Nombre:** En este campo se escribe la posible Causa de Cierre de una Orden de Trabajo.
 
@@ -676,13 +673,14 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 ## Acciones Técnicas
 
-Es la tabla que contiene un listado de Acciones Técnicas frecuentes en un área de Mantenimiento. Con la información contenida en esta tabla se pretende describir, breve pero concretamente, la actividad general a ser realizada en una Orden de  Trabajo. Se suministra por defecto un conjunto de verbos en infinitivo que denotan  Acciones Técnicas de Mantenimiento. El usuario puede utilizar tales verbos para definir Acciones Técnicas detalladas con base en ellos.
+Es la tabla que contiene un listado de Acciones Técnicas frecuentes en un área de Mantenimiento. Con la información contenida en esta tabla se pretende describir, breve pero concretamente, la actividad general a ser realizada en una Órden de  Trabajo. Se suministra por defecto un conjunto de verbos en infinitivo que denotan Acciones Técnicas de Mantenimiento. El usuario puede utilizar tales verbos para definir Acciones Técnicas detalladas con base en ellos.
  
-Una vez definidas las Acciones Técnicas, es posible incluir una o varias de  ellas, asociadas a una causa, en la tabla de Causas de Falla o asociadas a un efecto, en la tabla de  Efectos de Falla.
+Una vez definidas las Acciones Técnicas, es posible incluir una o varias de ellas, asociadas a una causa, en la tabla de Causas de Falla o asociadas a un efecto, en la tabla de  Efectos de Falla.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img57.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img55.png)
+_**Imagen 55** Ventana Detalle Acciones Técnicas_
 
-En la gráfica anterior, Ventana Acciones Técnicas, se aprecian sus componentes y sus respectivos contenidos. En la ventana Detalle de Acciones Técnicas se encuentra la información relevante a la Acción Técnica seleccionada en el Visor.
+En la gráfica anterior, Ventana Detalle Acciones Técnicas, se aprecian sus componentes y sus respectivos contenidos. Se encuentra la información relevante a la Acción Técnica seleccionada en el Visor.
 
 A continuación se describen los campos que componen el registro.
 
@@ -698,95 +696,96 @@ A continuación se describen los campos que componen el registro.
 
 Esta tabla de la Infraestructura pretende definir las Causas reales de Falla, que normalmente sólo se detectan a través de una inspección previa.
 
-En ella se han propuesto a manera de guía, algunas Causas de Falla, agrupadas en Básicas (B) e Inmediatas (I), según orientación de la norma ISO-14224. Se considera que de todas maneras la cultura técnica del área de mantenimiento y su experiencia en equipamiento y procesos específicos pueden variar y/o complementar la propuesta que hace el AM.
+En ella se han propuesto a manera de guía, algunas Causas de Falla, agrupadas en Básicas (B) e Inmediatas (I), según orientación de la norma ISO-14224. Se considera que de todas maneras la cultura técnica del área de mantenimiento y su experiencia en equipamiento y procesos específicos pueden variar y/o complementar la propuesta que hace **AM.**
 
-**BASICAS (B)**
+**BASICAS (B)**:
 
-**BAD**-FALLAS ADMINISTRATIVAS
-**BAD**-Error Administrativo
-**BAD**-Error de Documentación
+- **BAD**-FALLAS ADMINISTRATIVAS
+    - **BAD**-Error Administrativo
+    - **BAD**-Error de Documentación
 
-**BFI**-FALLAS FABRICACIÓN / INSTALACIÓN
-**BFI**-Error de Fabricación
-**BFI**-Error de Instalación / Montaje
+- **BFI**-FALLAS FABRICACIÓN / INSTALACIÓN
+    - **BFI**-Error de Fabricación
+    - **BFI**-Error de Instalación / Montaje
 
-**BOP**-FALLAS OPERACIONALES
-**BOP**-Desgaste o rotura esperada
-**BOP**-Error de Mantenimiento
-**BOP**-Error de Operación
-**BOP**-Servicio fuera de diseño
+- **BOP**-FALLAS OPERACIONALES
+    - **BOP**-Desgaste o rotura esperada
+    - **BOP**-Error de Mantenimiento
+    - **BOP**-Error de Operación
+    - **BOP**-Servicio fuera de diseño
 
-**BDI**-FALLAS DISEÑO
-**BDI**-Capacidad Inadecuada
-**BDI**-Diseño Inadecuado
-**BDI**-Material Inadecuado
+- **BDI**-FALLAS DISEÑO
+    - **BDI**-Capacidad Inadecuada
+    - **BDI**-Diseño Inadecuado
+    - **BDI**-Material Inadecuado
 
-**BMI**-FALLAS MISCELANEAS
-**BMI**-Desconocida
-**BMI**-Miscelánea
-**BMI**-Oculta
+- **BMI**-FALLAS MISCELANEAS
+    - **BMI**-Desconocida
+    - **BMI**-Miscelánea
+    - **BMI**-Oculta
 
-**INMEDIATAS (I)**
+**INMEDIATAS (I):**
 
-**IEL**-FALLAS ELECTRICAS
-**IEL**-Circuito Abierto
-**IEL**-Corto Circuito
-**IEL**-Falla de Energía / Voltaje
-**IEL**-Falla Tierra / Aislamiento
-**IEL**-Sin / Bajo Energía / Voltaje
+- **IEL**-FALLAS ELECTRICAS
+    - **IEL**-Circuito Abierto
+    - **IEL**-Corto Circuito
+    - **IEL**-Falla de Energía / Voltaje
+    - **IEL**-Falla Tierra / Aislamiento
+    - **IEL**-Sin / Bajo Energía / Voltaje
 
-**IIN**-FALLAS INSTRUMENTOS
-**IIN**-Desajustado
-**IIN**-Falla Común (falla redundante)
-**IIN**-Falla en Control
-**IIN**-No Señal / Ind / Alarma
-**IIN**-Señal / Ind / Alarma incorrecta
-**IIN**-Software
+- **IIN**-FALLAS INSTRUMENTOS
+    - **IIN**-Desajustado
+    - **IIN**- Falla Común (falla redundante)
+    - **IIN**-Falla en Control
+    - **IIN**-No Señal / Ind / Alarma
+    - **IIN**-Señal / Ind / Alarma incorrecta
+    - **IIN**-Software
 
-**IMI**-FALLAS MISCELANEAS
-**IMI**-Desconocida
-**IMI**-Miscelánea
-**IMI**-Oculta
+- **IMI**-FALLAS MISCELANEAS
+    - **IMI**-Desconocida
+    - **IMI**-Miscelánea
+    - **IMI**-Oculta
 
-**IIE**-FALLAS EXTERNAS
-**IIE**-Bloqueado / Taponado
-**IIE**-Contaminación
+- **IIE**-FALLAS EXTERNAS
+    - **IIE**-Bloqueado / Taponado
+    - **IIE**-Contaminación
 
-**IME**-FALLAS MECANICAS
-**IME**-Bloqueado / Taponado
-**IME**-Deformación
-**IME**-Desalineamiento
-**IME**-Fuga
-**IME**-Pegado
-**IME**-Suelto
-**IME**-Vibración
+- **IME**-FALLAS MECANICAS
+    - **IME**-Bloqueado / Taponado
+    - **IME**-Deformación
+    - **IME**-Desalineamiento
+    - **IME**-Fuga
+    - **IME**-Pegado
+    - **IME**-Suelto
+    - **IME**-Vibración
 
-**IMT**-FALLAS MATERIAL
-**IMT**-Cavitación
-**IMT**-Corrosión
-**IMT**-Desgaste
-**IMT**-Erosión
-**IMT**-Fatiga
-**IMT**-Fractura
-**IMT**-Quemado
-**IMT**-Sobrecalentamiento
+- **IMT**-FALLAS MATERIAL
+    - **IMT**-Cavitación
+    - **IMT**-Corrosión
+    - **IMT**-Desgaste
+    - **IMT**-Erosión
+    - **IMT**-Fatiga
+    - **IMT**-Fractura
+    - **IMT**-Quemado
+    - **IMT**-Sobrecalentamiento
 
 Los Prefijos significan:
 
-**B:** BÁSICAS
-**I:** INMEDIATAS
-**AD:** ADMINISTRATIVAS
-**DI:** DISENO
-**FI:** FABRICACION / INSTALACION
-**MI:** MISCELANEAS
-**OP:** OPERACIONALES
-**EL:** ELECTRICAS
-**IE:** EXTERNAS
-**IN:** INSTRUMENTOS
-**ME:** MECANICAS
-**MT:** MATERIAL
+- **B:** BÁSICAS
+- **I:** INMEDIATAS
+- **AD:** ADMINISTRATIVAS
+- **DI:** DISENO
+- **FI:** FABRICACION / INSTALACION
+- **MI:** MISCELANEAS
+- **OP:** OPERACIONALES
+- **EL:** ELECTRICAS
+- **IE:** EXTERNAS
+- **IN:** INSTRUMENTOS
+- **ME:** MECANICAS
+- **MT:** MATERIAL
 
-![detalle de accion tecnica](../../assets/images/cap02/chp02_img60.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img56.png)
+_**Imagen 56** Ventana Detalle Acciones Técnicas_
 
 En la gráfica anterior, Ventana Causas de Falla, se aprecian sus componentes y sus respectivos contenidos. En la ventana Detalle de Causas de Falla se encuentra la información relevante a la Causa de Falla seleccionada en el Visor.
 
@@ -796,60 +795,63 @@ A continuación se describen los campos que componen el registro.
 
 **Nombre:** En este campo se registra la Causa de Falla. Este campo tiene una capacidad para 40 caracteres.
 
-**Acciones Técnicas:** Es posible asociar a cada Causa de Falla las Acciones Técnicas que más comúnmente se ejecutan para evitarla y solucionarla. Hay que recordar que las Acciones Técnicas por Efecto pretenden ubicar la causa y que las Acciones Técnicas por Causa pretenden evitar y solucionar la causa.
+**Acciones Técnicas:** Es posible asociar a cada Causa de Falla las Acciones Técnicas que más comúnmente se ejecutan para evitarla y solucionarla. Se debe tener en cuenta que las Acciones Técnicas por Efecto pretenden ubicar la causa y que las Acciones Técnicas por Causa pretenden evitar y solucionar la causa.
 
-adicionan con el botón del  <a class="btn">+</a>.
+![Procesar imagen](../../assets/images/cap02/chp02_img57.png)
+_**Imagen 57** Ventana Detalle Causa de Falla (Acciones Técnicas)_
 
-![detalle de la causa de falla](../../assets/images/cap02/chp02_img61.png)
+En la ventana anterior Acciones Tecnicas se seleccionan de la lista desplegable y se
+adicionan con el botón del signo Más <span class="mdi mdi-plus-circle icon white"></span>.
 
-Para desasociar una Acción Técnica de una Causa de Falla, se ubica en la Acción a desasociar y se presiona el icono de <span class="iconify btn" data-icon=delete>eliminar (basura)
+Para desasociar una Acción Técnica de una Causa de Falla, se da clic en la Acción a desasociar y se presiona el icono de Eliminar <span class="mdi mdi-delete"></span>.
 
-Es importante tener en cuenta que las asociaciones y desasociaciones solo surten efecto al Actualizar o guardar la Causa de Falla.
+> **Nota:** Es importante tener en cuenta que las asociaciones y desasociaciones solo surten efecto al Actualizar o guardar la Causa de Falla.
 
 ## Efectos de Falla
 
-En esta tabla se describen las formas en que una falla se manifiesta inmediatamente después de ocurrir. Se trata de las consecuencias de la falla, de los  efectos que esa falla ocasionó. Es un concepto que aunque ligado también a la falla es diametralmente opuesto a la causa. La causa, que normalmente es una sola, es la  fuente de la falla, su origen.  El efecto en cambio es la forma como se percibe, como se muestra la falla, una vez  ha ocurrido. Hay efectos sonoros, otros son de rompimiento, otros son de generación de calor, otros de suspensión de la energía o de inoperancia o malfuncionamiento del  equipo.  La mayoría de ellos esconde, oculta o enmascara la causa real de la falla.
+En esta tabla se describen las formas en que una falla se manifiesta inmediatamente después de ocurrir. Se trata de las consecuencias de la falla, de los  efectos que esa falla ocasionó. Es un concepto que aunque ligado también a la falla es diametralmente opuesto a la causa. La causa, que normalmente es una sola, es la fuente de la falla, su origen. El efecto en cambio es la forma como se percibe, como se muestra la falla, una vez ha ocurrido. Hay efectos sonoros, otros son de rompimiento, otros son de generación de calor, otros de suspensión de la energía o de inoperancia o malfuncionamiento del equipo. La mayoría de ellos esconde, oculta o enmascara la causa real de la falla.
 
-![detalle del efecto de falla](../../assets/images/cap02/chp02_img62.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img58.png)
+_**Imagen 58** Ventana Detalle Efecto de Falla (Acciones Ténicas)_
 
-A continuación se describen los campos que componen el registro.
+A continuación se describen los campos que componen el registro:
 
 **Código:** Se define un código o indicativo único para la causa de falla, que puede ser un consecutivo. Ejemplo: EF-01, el cual EF corresponde a las abreviaturas de Efecto de Falla y 01 corresponde al primer registro.
 
 **Nombre:** En este campo se registra el Efecto de Falla. Este campo tiene una capacidad para 40 caracteres.
 
-**Acciones Técnicas:** Es posible asociar a cada Efecto de Falla las Acciones Técnicas que más comúnmente se ejecutan como consecuencia de ésta. Como se menciona en  las Causas de Falla, las Acciones Técnicas por Efecto pretenden ** “Ubicar la Causa”** y las Acciones Técnicas por Causa pretenden ** “Solucionar la Causa”**.
+**Acciones Técnicas:** Es posible asociar a cada Efecto de Falla las Acciones Técnicas que más comúnmente se ejecutan como consecuencia de ésta. Como se menciona en las Causas de Falla, las Acciones Técnicas por Efecto pretenden **“Ubicar la Causa”** y las Acciones Técnicas por Causa pretenden **“Solucionar la Causa”**.
 
-En la ventana anterior las Acciones Técnicas se seleccionan de la lista despegable y se  adicionan con el botón <span class="iconify btn" data-icon="mdi-plus-circle">Más.
-.
+En la ventana anterior, las Acciones Técnicas se seleccionan de la lista despegable y se adicionan con el botón Más <span class="mdi mdi-plus-circle icon white"></span>.
 
-Para desasociar una Acción Técnica de un Efecto de Falla, se ubica en la Acción a desasociar y se presiona el icono de <span class="iconify btn" data-icon=delete>eliminar (basura)
-Es importante tener en cuenta que las asociaciones y desasociaciones solo surten efecto al Actualizar o guardar el Efecto de Falla.
+Para desasociar una Acción Técnica de un Efecto de Falla, se da clic en la Acción a desasociar y se presiona el icono de basura <span class="mdi mdi-delete"></span>.
+
+>**Nota:** Es importante tener en cuenta que las asociaciones y desasociaciones solo surten efecto al Actualizar o guardar el Efecto de Falla.
 
 ## Contratos
 
-En esta tabla es posible registrar los Contratos sobre servicios a cargo de  contratistas externos. No se trata de un módulo de administración de contratos sino de una facilidad simplista que hace funciones de control y seguimiento generales sobre ellos.
+En esta tabla es posible registrar los Contratos sobre servicios a cargo de contratistas externos. No se trata de un módulo de administración de contratos sino de una facilidad simplista que hace funciones de control y seguimiento generales sobre ellos.
 
-Al tiempo se usa para facilitar la selección y búsqueda de Órdenes de Trabajo e Historia de Mantenimiento, en función de un contratista y/o de un Contrato particulares.
+Al tiempo, se usa para facilitar la selección y búsqueda de Órdenes de Trabajo e Historia de Mantenimiento, en función de un contratista y/o de un Contrato particular.
 
-Aunque el objetivo general es el registro de los contratos anuales,  también es posible registrar, en aras de centralización de la información, los contratos de corta vigencia que respaldan la ejecución de una o varias Órdenes de Trabajo por parte de un contratista.
+Aunque el objetivo general es el registro de los contratos anuales, también es posible registrar, en aras de centralización de la información, los contratos de corta vigencia que respaldan la ejecución de una o varias Órdenes de Trabajo por parte de un contratista.
 
-Una función adicional es capaz de hacer seguimiento a la vigencia del Contrato cada vez que se genera una Orden de Trabajo, imprimiendo un mensaje cuando el Contrato que la respalda está a punto de vencerse o está vencido.
-
-También, es posible realizar el seguimiento de la vigencia de los Contratos, directamente desde la ventana visor, a través de la columna  “Indicadores” que muestra una pelota de color que indica su estado de vigencia acuerdo a la cantidad de días o meses. El significado del color de cada pelota, se puede ver en el recuadro de Indicadores, ubicado en la parte superior derecha de la ventana
+También es posible realizar el seguimiento de la vigencia de los Contratos, directamente desde la ventana visor, a través de la columna  “Indicadores” que muestra una pelota de color que indica su estado de vigencia acuerdo a la cantidad de días o meses. El significado del color de cada pelota, se puede ver en el ícono de Indicador <span class="mdi mdi-message-alert"></span>, ubicado en la parte superior derecha de la ventana
 visor.
 
-![contratos](../../assets/images/cap02/chp02_img63.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img59.png)
+_**Imagen 59** Ventana Visor Contratos_
 
-La renovación de contratos se realiza utilizando la numeración del  contrato  anterior, realizando  una copia y adicionando un consecutivo adicional que relacione esta renovación con su contrato original.
+La renovación de contratos se realiza utilizando la numeración del contrato anterior, realizando  una copia y adicionando un consecutivo adicional que relacione esta renovación con su contrato original.
 
 **Ejemplo:** Código 00008 (contrato original), Código 00008-1 (renovación del contrato)
 
-![detalle de contrato](../../assets/images/cap02/chp02_img64.png)
+![Procesar Imagen ](../../assets/images/cap02/chp02_img60.png)
+_**Imagen 60** Ventana Detalle del Contrato_
 
-En la gráfica anterior, Ventana Contratos, se aprecian sus componentes y sus respectivos contenidos. En la ventana Detalle de Contratos se encuentra la información relevante al Contrato seleccionado en el Visor.
+En la gráfica anterior, Ventana Detalle del Contrato, se aprecian sus componentes y sus respectivos contenidos. Se encuentra la información relevante al Contrato seleccionado en el Visor.
 
-A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación.
+A continuación se describen los campos que componen el registro, sobre cada campo se da una breve explicación:
 
 **Código CN:** En este campo que tiene una capacidad de quince caracteres se registra el número del Contrato. Es posible cambiar el código del contrato sin afectar la asociación existente entre el contrato modificado y otros módulos, y sin obtener mensajes de error por este intento de modificación.
 
@@ -863,9 +865,9 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 **Fecha Fin Vigencia:** En este campo se define la fecha en la que está prevista la terminación de la vigencia del Contrato.
 
-**Valor Contrato Año:** En este campo se indica el valor total anual del Contrato. Se habla de Valor Contrato Año refiriéndose a aquellos Contratos que se realizan anualmente  como por ejemplo el mantenimiento anual de los aires acondicionados. En otros  casos se refiere al costo total del contrato durante su vigencia.
+**Valor Contrato Año:** En este campo se indica el valor total anual del Contrato. Se habla de Valor Contrato Año refiriéndose a aquellos Contratos que se realizan anualmente, por ejemplo, el mantenimiento anual de los aires acondicionados. En otros  casos se refiere al costo total del contrato durante su vigencia.
 
-**Responsable:** Aquí se registra el nombre propio o la razón social de la persona natural o jurídica que es Responsable, como contratista, del manejo y ejecución del contrato.  Los contratistas que se registran en esta tabla deben haber sido creados previamente  en la tabla de Terceros, y su tipo debe ser Responsable Externo / Contratista (RX).
+**Responsable:** Aquí se registra el nombre propio o la razón social de la persona natural o jurídica que es Responsable, como contratista, del manejo y ejecución del contrato. Los contratistas que se registran en esta tabla deben haber sido creados previamente  en la tabla de Terceros, y su tipo debe ser Responsable Externo / Contratista (RX).
 
 **Centro de Costo:** Para registrar el código correspondiente al Cliente externo al que se le presta servicio a través del Contrato. Este campo no tiene ninguna incidencia en otros casos.
 
@@ -877,7 +879,7 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 **Gasto Real ejecutado en el año actual:** Este campo muestra el valor total real gastado en el periodo del año en curso de dicho contrato.
 
-**Presupuesto Pendiente por ejecutar:** Muestra cuanto valor le resta a dicho  contrato para terminar.
+**Presupuesto Pendiente por ejecutar:** Muestra cuanto valor le resta a dicho contrato para terminar.
 
 **Gasto Real ejecutado en OT pendientes:** En este campo se muestra el valor total del gasto real en OT cuyo estado se encuentra pendiente.
 
@@ -885,13 +887,14 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 Esta nueva funcionalidad permite asociar el Contrato de forma digital.
 
-![detalle de contrato](../../assets/images/cap02/chp02_img65.png)
+![Procesar Imagen](../../assets/images/cap02/chp02_img61.png)
+_**Imagen 61** Ventana Detalle del Contrato (Multimedia)_
 
-En la gráfica anterior, Ventana Multimedia, se aprecian sus componentes y sus respectivos contenidos.
+En la gráfica anterior, Porción Multimedia, se aprecian sus componentes y sus respectivos contenidos.
 
-A través de la ventana Multimedia se adjunta información adicional al Contrato en cada una de sus carpetas asignadas. Esta opción permite asociar al Contrato, uno o varios documentos, con el  objetivo de facilitar el trabajo a  realizar,  o guiarlo, o detallarlo minuciosamente. Se aceptan documentos de extensiones .DOC, XLS, PDF, JPG, es decir, de Microsoft Word o Microsoft Excel, Acrobat o Imágenes varias.
+A través de la ventana Multimedia se adjunta información adicional al Contrato en cada una de sus carpetas asignadas. Esta opción permite asociar al Contrato, uno o varios documentos, con el  objetivo de facilitar el trabajo a realizar, o guiarlo, o detallarlo minuciosamente. Se aceptan documentos de extensiones .DOC, XLS, PDF, JPG, es decir, de Microsoft Word o Microsoft Excel, Acrobat o Imágenes varias.
 
-**Los documentos anexos pueden contener:** el Contrato en forma digital, especificaciones  detalladas, otros sí anteriores, entre otros; para  su  seguimiento y control, acceso directo  a la información.
+**Los documentos anexos pueden contener:** el Contrato en forma digital, especificaciones  detalladas, entre otros; con el fin de hacer  seguimiento, control y tener acceso directo a la información.
 
 A continuación se describen las carpetas que componen esta ventana; cuando se quiera actualizar o ingresar nueva información al Contrato, se deberán registrar así:
 
@@ -901,9 +904,10 @@ A continuación se describen las carpetas que componen esta ventana; cuando se q
 
 **Imágenes:** En esta carpeta se relacionan toda clase de imágenes relacionadas al Contrato.  Ejemplo: Imágenes en formato jpg, png, entre otros.
 
-**Videos:** En esta carpeta se relacionan porciones de videos relacionados al Contrato. Ejemplo: Videos en formato wmv, entre otros.
+**Videos:** En esta carpeta se relacionan porciones de videos relacionados al Contrato. Ejemplo: Videos en formato wmv, mp4, entre otros.
 
-![detalle de contrato](../../assets/images/cap02/chp02_img66.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img62.png)
+_**Imagen 62** Contrato (Multimedia)_
 
 Para adicionar un documento, imagen o video, se debe dar clic en la carpeta deseada, luego se da clic al icono de <a class="btn">subir</a> , a continuación se abre una nueva ventana para realizar la búsqueda del archivo a subir,  se selecciona el archivo y se da clic en <a class="btn">abrir</a>.
 
