@@ -454,7 +454,7 @@ Se visualiza la información sobre cada Empleado o Taller o Contratista.
 ![Procesar imagen](../../assets/images/cap02/chp02_img47.png)
 _**Imagen 47.** Ventana Detalle Responsable_
 
-En la gráfica anterior, Ventana Detalle Responsables, se aprecian sus componentes y  sus respectivos contenidos. Se encuentra la información relevante al Responsable seleccionado en el Visor.
+En la gráfica anterior, Ventana Detalle del Responsable, se aprecian sus componentes y  sus respectivos contenidos. Se encuentra la información relevante al Responsable seleccionado en el Visor.
 
 A continuación se describen los campos que componen el registro, sobre cada campo se da una breve explicación:
 
@@ -519,7 +519,7 @@ Existen varios tipos de Características que se configuran según el equipo, al 
 ![Procesar imagen](../../assets/images/cap02/chp02_img50.png)
 _**Imagen 50.** Ventana Detalle Característica Biomédica_
 
-En la gráfica anterior, Ventana Deatelle de la Característica Biomédica, se aprecian sus componentes y  sus respectivos contenidos. Se encuentra la información relevante a la Característica Biomédica seleccionada en el Visor.
+En la gráfica anterior, Ventana Detalle de la Característica Biomédica, se aprecian sus componentes y  sus respectivos contenidos. Se encuentra la información relevante a la Característica Biomédica seleccionada en el Visor.
 
 A continuación se describen los campos que componen el registro, sobre cada campo se da una breve explicación:
 
@@ -558,11 +558,11 @@ El Tipo de Trabajo cualifica el valor del costo permitiendo que se cargue en una
 
 Aquí se registran las posibles Causas por las que la ejecución de una Órden de Trabajo es suspendida o pospuesta. En el sistema se proponen las siguientes causas de pendiente:
 
-**M** - Pendiente Por Mano De Obra
-**O** - Pendiente Por Otros Conceptos
-**P** - Pendiente Por Programación
-**R** - Pendiente Por Repuestos
-**S** - Pendiente Por Presupuesto
+- **M** - Pendiente Por Mano De Obra
+- **O** - Pendiente Por Otros Conceptos
+- **P** - Pendiente Por Programación
+- **R** - Pendiente Por Repuestos
+- **S** - Pendiente Por Presupuesto
 
 Estos valores predefinidos pueden ser modificados o complementados por el usuario, según su cultura técnica y organizacional.
 

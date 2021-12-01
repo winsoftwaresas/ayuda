@@ -18,12 +18,12 @@ Almacena la información de cuatro tipos diferentes de entes terceros relacionad
 **Otro Tipo de Tercero (OT):** Este grupo está abierto para definir otros tipos de Terceros requeridos por condiciones particulares de cada organización. Únicamente se puede usar en conjunto con el tipo RI, para indicar que son usuarios solicitantes.
 
 ![Procesar imagen](../../assets/images/cap02/chp02_img02.png)
-_**Imagen 2.** Ventana Terceros_
+_**Imagen 2.** Ventana IF Visor Terceros_
 
 En la porción de la ventana Visor de Terceros que se aprecia en la gráfica aparecen las columnas correspondientes a los campos más significativos de esta tabla. Al seleccionar un registro de esta ventana, se muestra la ventana Detalle con la  información completa del Tercero seleccionado.
 
 ![Procesar imagen](../../assets/images/cap02/chp02_img03.png)
-_**Imagen 3.** Ventana Detalle TE_
+_**Imagen 3.** Ventana Detalle Tercero_
 
 En la ventana Detalle de Terceros se encuentra toda la información relevante del Tercero seleccionado en el Visor. Es una ventana que de no visualizarse completa debe ser recorrida con la ayuda de la barra de desplazamiento vertical.
 
