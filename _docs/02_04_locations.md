@@ -353,7 +353,7 @@ _**Imagen 39** Subgrupo Dirección_
 
 **Correo Electrónico:** Filtra la dirección electrónica asociada a un CC.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img40png)
+![Procesar imagen](../../assets/images/cap02/chp02_img40.png)
 _**Imagen 40** Subgrupo Correo Electrónico_
 
 **Estado:** Permite la selección de los CC de acuerdo al estado de Activo o Inactivo. El estado de los CC es importante para la selección en las listas  desplegables.
