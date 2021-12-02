@@ -890,7 +890,7 @@ Esta nueva funcionalidad permite asociar el Contrato de forma digital.
 ![Procesar Imagen](../../assets/images/cap02/chp02_img61.png)
 _**Imagen 61.** Ventana Detalle del Contrato (Multimedia)_
 
-En la gráfica anterior, Porción Multimedia de l Contrato, se aprecian sus componentes y sus respectivos contenidos.
+En la gráfica anterior, Porción Multimedia del Contrato, se aprecian sus componentes y sus respectivos contenidos.
 
 A través de la ventana Multimedia se adjunta información adicional al Contrato en cada una de sus carpetas asignadas. Esta opción permite asociar al Contrato, uno o varios documentos, con el  objetivo de facilitar el trabajo a realizar, o guiarlo, o detallarlo minuciosamente. Se aceptan documentos de extensiones .DOC, XLS, PDF, JPG, es decir, de Microsoft Word o Microsoft Excel, Acrobat o Imágenes varias.
 
