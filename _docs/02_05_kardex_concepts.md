@@ -7,7 +7,7 @@ order: 02_05
 ---
 Las transacciones pueden ser de Entrada, de Salida o de Ajuste de inventarios. Cada transacción de  movimiento o concepto de Kárdex tiene asociado: un código o número distintivo (de 01 a 49, o, de 001 a 499, para las entradas por ejemplo) y otras condiciones de su uso.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img67.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap02/chp02_img67.png)
 _**Imagen 67.** Ventana Detalle IE Concepto de Kardex_
 
 A continuación se describen los campos que componen el registro, sobre cada campo se da una breve explicación:
@@ -33,7 +33,7 @@ Adicional, se encuentran tres opciones de definición del Concepto a modo switch
 
 Se usa para seleccionar grupos de Conceptos de Kárdex que cumplen un conjunto de filtros o criterios. El objetivo de hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al ícono de filtro <span class="mdi mdi-filter-variant"></span> ubicado en la parte superior derecha de la ventana Visor de Conceptos de Kárdex.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img68.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap02/chp02_img68.png)
 _**Imagen 68.** Ventana Visor IE Conceptos de Kardex_
 
 **AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar.
@@ -44,7 +44,7 @@ Cada criterio aparece inicializado en un valor global que permite mostrar todos 
 
 El programa permite entonces hacer selección de un grupo de Conceptos de Kárdex de acuerdo con los criterios seleccionados en la siguiente ventana:
 
-![Procesar imagen](../../assets/images/cap02/chp02_img69.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap02/chp02_img69.png)
 _**Imagen 69.** Ventana IE Subgrupo Conceptos de Kardex_
 
 Los campos de datos que constituyen criterio de selección haciendo parte de la Ventana Subgrupo son los siguientes:

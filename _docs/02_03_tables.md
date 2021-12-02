@@ -17,12 +17,12 @@ Almacena la información de cuatro tipos diferentes de entes terceros relacionad
 
 **Otro Tipo de Tercero (OT):** Este grupo está abierto para definir otros tipos de Terceros requeridos por condiciones particulares de cada organización. Únicamente se puede usar en conjunto con el tipo RI, para indicar que son usuarios solicitantes.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img02.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap02/chp02_img02.png)
 _**Imagen 2.** Ventana IF Visor Terceros_
 
 En la porción de la ventana Visor de Terceros que se aprecia en la gráfica aparecen las columnas correspondientes a los campos más significativos de esta tabla. Al seleccionar un registro de esta ventana, se muestra la ventana Detalle con la  información completa del Tercero seleccionado.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img03.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap02/chp02_img03.png)
 _**Imagen 3.** Ventana Detalle Tercero_
 
 En la ventana Detalle de Terceros se encuentra toda la información relevante del Tercero seleccionado en el Visor. Es una ventana que de no visualizarse completa debe ser recorrida con la ayuda de la barra de desplazamiento vertical.
@@ -81,7 +81,7 @@ Esta nueva funcionalidad se usa para realizar un seguimiento detallado a los Ter
 
 A continuación la explicación de las Certificaciones de Terceros tipo RI, cuya finalidad es que el usuario pueda asociar información importante del responsable ejecutor de la institución como hoja de vida, documento, tarjeta profesional, pasantías, cursos, registro Invima, entre otros.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img04.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap02/chp02_img04.png)
 _**Imagen 4.** Certificaciones TE_
 
 En la gráfica anterior, pestaña Certificaciones, se aprecian sus componentes y sus respectivos contenidos. En la ventana Detalle de Terceros se encuentra la información relevante a la Certificación del Tercero seleccionado en el Visor.
@@ -100,7 +100,7 @@ Para actualizar la información de alguna certificación, se ingresa la nueva in
 
 A continuación la explicación de los Técnicos de Terceros tipo RX, cuya finalidad es que el usuario pueda asociar información importante del responsable ejecutor contratista o servicio externo como hoja de vida, documento, tarjeta profesional, pasantías, cursos, registro Invima, entre otros.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img05.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap02/chp02_img05.png)
 _**Imagen 5.** Técnicos_
 
 En la gráfica anterior, pestaña Técnicos, se aprecian sus componentes y sus respectivos contenidos. En la ventana Detalle de Terceros se  encuentra la información relevante al Técnico del Tercero seleccionado en el Visor.
@@ -129,7 +129,7 @@ Para registrar un nuevo técnico se da clic en el botón <a class="btn">Más</a>
 
 Es posible visualizar de manera inmediata, los Terceros habitados e inhabilitados, directamente desde la ventana visor, a través de la columna **“Indicadores”** que muestra una pelota de color que indica su estado. El significado del color de cada pelota, se puede ver en el recuadro de Indicadores  ubicado en la parte superior derecha de la ventana visor, como se muestra a continuación:
 
-![Procesar imagen](../../assets/images/cap02/chp02_img06.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap02/chp02_img06.png)
 _**Imagen 6.** Indicadores Terceros_
 
 El significado de los colores se visualiza al sobreponer el mouse en el icono <span class="mdi mdi-message-alert"></span> que se encuentra al extremo superior derecho y su correspondencia es:
@@ -141,7 +141,7 @@ El significado de los colores se visualiza al sobreponer el mouse en el icono <s
 
 Se usa para seleccionar grupos de Terceros que cumplen un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al <span class="mdi mdi-filter-variant"></span>, ubicado en la parte superior derecha de la ventana Visor de Terceros.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img07.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap02/chp02_img07.png)
 _**Imagen 7.** Subgrupos_
 
 **AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar.
@@ -152,7 +152,7 @@ Cada criterio aparece inicializado en un valor global que permite mostrar **todo
 
 El programa permite hacer selección de un grupo de Terceros de acuerdo con los criterios seleccionados en la siguiente ventana:
 
-![Procesar imagen ](../../assets/images/cap02/chp02_img08.png)
+![Procesar imagen ](https://ayuda.winsoftware.com.co/assets/images/cap02/chp02_img08.png)
 _**Imagen 8.** Ventana Subgrupo Terceros_
 
 Los campos de datos que constituyen los criterios de selección son los siguientes:
@@ -161,7 +161,7 @@ Los campos de datos que constituyen los criterios de selección son los siguient
 
 **Centro Responsable:** Lista los centros responsables registrados en el sistema.
 
-![Procesar imagen ](../../assets/images/cap02/chp02_img09.png)
+![Procesar imagen ](https://ayuda.winsoftware.com.co/assets/images/cap02/chp02_img09.png)
 _**Imagen 9.** Subgrupo Criterio Centro Responsable_
 
 También se puede elegir el centro responsable o un grupo de centros responsables mediante el uso de comodines, para ello, se debe dar clic al icono <span class="mdi mdi-lock-open-outline"></span>. Ejemplo, si se escribe %adm%, el sistema entiende que debe seleccionar aquellos Terceros cuyo centro responsable tenga incluida la secuencia **“adm”**.
@@ -172,7 +172,7 @@ También se puede elegir el centro responsable o un grupo de centros responsable
 
 **Tipo:** Filtra los Terceros de Tipo Responsable Interno, Responsable Externo, Proveedor/Fabricante u Otro, al dar clic en uno o algunos de los cuadros de selección.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img10.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap02/chp02_img10.png)
 _**Imagen 10.** Subgrupo Criterio Tipo_
 
 **Contacto:** Permite la selección de los Terceros que tengan un contacto asociado, ya sea el mismo nombre del Tercero o el nombre de la persona representante de la empresa.
@@ -183,7 +183,7 @@ _**Imagen 10.** Subgrupo Criterio Tipo_
 
 **Oficio:** Muestra los Terceros que tengan asignados el Oficio seleccionado.
 
-![Procesar imagen ](../../assets/images/cap02/chp02_img11.png)
+![Procesar imagen ](https://ayuda.winsoftware.com.co/assets/images/cap02/chp02_img11.png)
 _**Imagen 11.** Subgrupo Criterio Oficio_
 
 De igual forma, se puede elegir el oficio mediante la opción utilizar comodines, para ello, se debe dar clic al icono <span class="mdi mdi-lock-open-outline"></span>. Esta selección agrupa los Terceros relacionados por su oficio. Por ejemplo: si se escribe ayudante%, el sistema localiza aquellos Terceros cuyo oficio empieza por la palabra **“ayudante”**.
