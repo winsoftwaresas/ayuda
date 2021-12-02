@@ -62,7 +62,7 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 **Estado:** El campo estado se utiliza para definir si la UF actual se encuentra Activa o Inactiva. Este Estado se utiliza para posibilitar o inhabilitar el despliegue de UF en otros contextos (Activos, OT, PM, SS, etc.). De esta forma, una UF inactiva NO aparece al intentar crear Activos, OT u otros.
 
-> **Nota:** La dirección y la ciudad son campos que son configurados en el módulo de Administración en la transacción Valores por Defecto.
+> _**Nota:** La dirección y la ciudad son campos que son configurados en el módulo de Administración en la transacción Valores por Defecto._
 
 ### Subgrupo Ubicaciones Físicas
 
@@ -125,7 +125,7 @@ También se puede elegir la unidad de medida mediante el uso de comodines, para 
 ![Procesar imagen](../../assets/images/cap02/chp02_img21.png)
 _**Imagen 21.** Subgrupo UF Criterio Área_
 
-> **Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos  se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber realizado una selección es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección se da un clic al botón <a class="btn">Mas (+)</a>, en lugar de darlo al botón <a class="btn">Aceptar</a>.
+> _**Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos  se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber realizado una selección es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección se da un clic al botón <a class="btn">Mas (+)</a>, en lugar de darlo al botón <a class="btn">Aceptar</a>._
 
 ## Almacenes
 
@@ -826,7 +826,7 @@ En la ventana anterior, las Acciones Técnicas se seleccionan de la lista despeg
 
 Para desasociar una Acción Técnica de un Efecto de Falla, se da clic en la Acción a desasociar y se presiona el icono de basura <span class="mdi mdi-delete"></span>.
 
->**Nota:** Es importante tener en cuenta que las asociaciones y desasociaciones solo surten efecto al Actualizar o guardar el Efecto de Falla.
+>_**Nota:** Es importante tener en cuenta que las asociaciones y desasociaciones solo surten efecto al Actualizar o guardar el Efecto de Falla._
 
 ## Contratos
 
