@@ -61,28 +61,96 @@ Es posible, en la Tabla de Estados la parametrización de los estados de los mó
 **Estado de Activo:** Descripción que se usa al definir un Activo o Equipo para personalizar su estado respecto a operatividad, actividad/inactividad y propiedad. Tener activa la opción de Indicativo-(Uso) indica que su estado se encuentra activo:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap02/chp02_img74.png)
-_**Imagen 74.** Ventana Detalle Estado_
+_**Imagen 74.** Ventana Detalle Estado - Activos_
 
-Estado de Solicitud de Servicio: Descripción que se usa para personalizar los estados en los que puede encontrarse una Solicitud de  Servicio. Se utiliza el campo de Indicativo-(Abreviatura) para especificar la abreviatura del Estado. Es posible crear nuevos estados de SS, ellos se consideran variaciones  del  estado En Análisis (AN). Existen siete Estados de SS que no pueden ser nados ni modificados dado que se utilizan por defecto en la funcionalidad del sistema, estos son:
+**Estado de Orden de Trabajo:** Descripción que se usa para personalizar los estados
+en los que puede encontrarse una Órden de Trabajo. Se utiliza el campo de Indicativo-
+(Abreviatura) para especificar la abreviatura del Estado. Es posible crear nuevos estados
+de OT, ellos se consideran variaciones del estado de Ejecución (EJ). Existen siete Estados
+de OTs que no pueden ser eliminados ni modificados dado que se utilizan por defecto en
+la funcionalidad del sistema, estos son:
 
-- **AN-** En Análisis
-- **AS-** Asignada
-- **NE-** Cerrada No Ejecutada
-- **CE-** Cerrada Ejecutada
-- **CO-** Cerrada con OT
-- **EJ-** En Ejecución
-- **CP-** Cerrada Parcial (AMovil)
+- **EJ** - En ejecución
+- **K** - Cancelada o no Ejecutada
+- **P** – Pendiente de Ejecución
+- **CE**– Cerrada Ejecutada
+- **PL** – Planeada
+- **PR**– Programada
+- **CP** – Cerrada Parcial 
 
-![tipos de rgimen](https://ayuda.winsoftware.com.co/assets/images/cap02/chp02_img81.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap02/chp02_img75.png)
+_**Imagen 75.** Ventana Detalle Estado - Órden de Trabajo_
+
+**Estado de Solicitud de Servicio:** Descripción que se usa para personalizar los estados en los que puede encontrarse una Solicitud de  Servicio. Se utiliza el campo de Indicativo-(Abreviatura) para especificar la abreviatura del Estado. Es posible crear nuevos estados de SS, ellos se consideran variaciones del estado En Análisis (AN). Existen siete Estados de SS que no pueden ser eiminados o modificados dado que se utilizan por defecto en la funcionalidad del sistema, estos son:
+
+- **AN** - En Análisis
+- **AS** - Asignada
+- **NE** - Cerrada No Ejecutada
+- **CE** - Cerrada Ejecutada
+- **CO** - Cerrada con OT
+- **EJ** - En Ejecución
+- **CP** - Cerrada Parcial 
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap02/chp02_img76.png)
+_**Imagen 76.** Ventana Detalle Estado -Solicitud de Servicio_
+
+**Estado de Paros (FDA):** Descripción que se usa para personalizar los estados en los que puede encontrarse un Paro (FDA). Se utiliza el campo de Indicativo - (Abreviatura) para especificar la abreviatura del Estado. Es posible crear nuevos estados de FDA, ellos se consideran variaciones del estado En Análisis (AN).
+Existen siete Estados de FDA que no pueden ser eliminados ni modificados dado que se utilizan por defecto en la funcionalidad del sistema, estos son:
+
+- **AN** - En Análisis
+- **EJ** - En Ejecución
+- **CE** - Cerrada Ejecutada
+- **CO** - Cerrada con OT
+- **CP** - Cerrada Parcial 
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap02/chp02_img77.png)
+_**Imagen 77.** Ventana Detalle Estado - Paros_
 
 # Exportar
 
 Esta opción permite la exportación de los registros de la tabla seleccionada, que aparecen en el visor, totales o provenientes de un subgrupo, a un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso.
 
-Al ejecutar esta transacción, se abrirá una ventana la cual se muestra a continuación.
+Al ejecutar esta transacción, se abrirá una ventana la cual se muestra a continuación:
 
-![tipos de rgimen](https://ayuda.winsoftware.com.co/assets/images/cap02/chp02_img82.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap02/chp02_img78.png)
+_**Imagen 78.** Ventana Exportar_
 
-Al darle clic en el botón  `<a class="btn">` “Exportar”`</a>`, se generará un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso, el objetivo de esta exportación es llevar toda la información de los registros contenidos en el visor a un archivo plano, para luego ser analizados.
+Al darle clic en el botón Exportar <span class="mdi mdi-arrow-collapse-down"></span>, se generará un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso, el objetivo de esta exportación es llevar toda la información de los registros contenidos en el visor a un archivo plano, para luego ser analizados.
 
-Adicionalmente, es posible exportar todos los campos de la ventana Detalle de los registros, para esto se da clic en el cuadro llamado `<a class="btn">`Exportar Todos Los Campos`</a>`. También, es posible exportar uno o varios campos de la ventana Detalle de los registros, para esto se da clic en cada uno de los cuadros que acompañan los campos.
+Adicionalmente, es posible exportar todos los campos de la ventana Detalle de los registros, para esto se da clic en el cuadro llamado <a class="btn">Exportar Todos Los Campos</a>. También, es posible exportar uno o varios campos de la ventana Detalle de los registros, para esto se da clic en cada uno de los cuadros que acompañan los campos.
+
+# Servicios
+
+## Reportes
+
+Este comando permite visualizar los reportes relacionados con el módulo o la tabla donde se
+encuentre. A esta ventana se llega dando clic al icono de la impresora <span class="mdi mdi-printer"></span> que se encuentra
+ubicado en la parte superior derecha de la ventana Visor del módulo seleccionado. Existen
+reportes básicos disponibles de tipo Resumen y Detalle:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap02/chp02_img79.png)
+_**Imagen 79.** Ventana Reportes_
+
+A continuación se explica su contenido:
+
+**Lista de Selección:** Es la tabla donde aparecen los campos: Código, Descripción y
+Subtítulo. Bajo el título Código se listan los códigos de los reportes existentes. Bajo el título Descripción se listan los nombres de los reportes existentes. Bajo el título de Subtítulo se lista en algunos reportes, una descripción adicional del reporte.
+
+**Todos los Registros:** Con esta opción se permite la impresión de todas las Órdenes de
+Trabajo Históricas existentes en la base de datos de la compañía activa, sin importar
+si se ha realizado un subgrupo.
+
+**Registros del Visor:** Esta opción permite hacer una impresión de todas aquellas OTs
+Históricas que están seleccionados en el visor.
+
+**Registro Seleccionado:** Esta opción permite hacer una impresión de la OT Histórica
+señalada, o sea la que está resaltada con la línea verde en el visor.
+
+**Subtítulo:** En este campo es posible registrar un poco menos de una línea de información, tipo documentación del Reporte, para que se imprima bajo el área de títulos estándar.
+
+Después de seleccionar el tipo de registro, se procede a seleccionar el Reporte que se
+desea imprimir, para esto se debe pulsar el botón <a class="btn">“imprimir”</a>, de esta manera se abre una ventana visor para formatos PDF, que muestra el Reporte seleccionado. Desde esta ventana es posible guardar el reporte o imprimirlo en el respectivo formato. 
+
+Al dar clic al botón <a class="btn">“Exportar”</a> permite descargar el Reporte seleccionado y llevarlo al formato excel.
+
+Mientras que, al dar clic al botón <a class="btn">“Cerrar”</a> se cierra la ventana de la generación de reportes.
