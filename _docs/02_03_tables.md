@@ -92,7 +92,7 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 **FF Vencimiento:** En este campo se elige la fecha de vencimiento del documento a adjuntar.
 
-**Adjuntar Documentos:** Para adjuntar el documento, se debe dar clic a <a class="btn gray">Seleccionar archivo</a>, se observa que se abre el explorador de archivos, luego debe seleccionarse a través de un doble clic o dando un clic al botón <a class="btn">Abrir</a>, al lado derecho del campo se observa que se muestra el nombre del archivo adjuntado, para insertar o actualizar los datos en esta tabla se da clic en el botón <a class="btn">Abrir</a>.
+**Adjuntar Documentos:** Para adjuntar el documento, se debe dar clic a <a class="btn gray">Seleccionar archivo</a>, se observa que se abre el explorador de archivos, luego debe seleccionarse a través de un doble clic o dando un clic al botón <a class="btn white">Abrir</a>, al lado derecho del campo se observa que se muestra el nombre del archivo adjuntado, para insertar o actualizar los datos en esta tabla se da clic en el botón <a class="btn white">Abrir</a>.
 
 Para actualizar la información de alguna certificación, se ingresa la nueva información en los campos correspondientes y se termina el proceso con el botón <a class="btn white">Actualizar <span class="mdi mdi-pencil"></span></a>. Si se desea desasociar la información de una certificación de un Técnico, se debe dar clic al icono de <span class="mdi mdi-delete"></span> que está al lado izquierdo del documento anexo, donde se muestra un mensaje de alerta que indica al usuario de sí está seguro de eliminar el registro y se da clic en Aceptar.
 

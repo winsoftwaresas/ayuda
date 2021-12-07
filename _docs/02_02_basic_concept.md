@@ -17,6 +17,6 @@ Un registro de una tabla de Infraestructura, no puede ser borrado si está siend
 
 A continuación se definen los conceptos básicos sobre la conformación de la Infraestructura, elementos generales y principales tablas que la componen.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img01.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap02/chp02_img01.png)
 _**Imagen 1.** Infraestructura_
 
