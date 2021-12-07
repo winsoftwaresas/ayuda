@@ -23,11 +23,16 @@ A continuación se describen los campos que componen el registro, sobre cada cam
 Adicional, se encuentran tres opciones de definición del Concepto a modo switche, estas son:
 
 - **¿Este Concepto de Kárdex requiere una OT válida?**
-  Se enmarca cuando se trata de una transacción de movimiento que requiere para su ejecución, una OT válida.
+
+Se enmarca cuando se trata de una transacción de movimiento que requiere para su ejecución, una OT válida.
+
 - **¿Este Concepto de Kárdex es el predeterminado?**
-  Es una opción para definir que este concepto se utiliza por defecto en una transacción.
+
+Es una opción para definir que este concepto se utiliza por defecto en una transacción.
+
 - **¿Este Concepto de Kárdex Corresponde a ítems Suministrados por el Contratista?**
-  Es una opción para definir si el concepto corresponde a ítem que son suministrados por el contratista.
+
+Es una opción para definir si el concepto corresponde a ítem que son suministrados por el contratista.
 
 ### Subgrupo Conceptos de Kárdex
 
@@ -51,4 +56,4 @@ Los campos de datos que constituyen criterio de selección haciendo parte de la 
 
 **Almacén:** Permite filtrar aquellos Conceptos de Kárdex que fueron asociados al almacén seleccionado. Lista los Almacenes creados en la tabla de Almacenes.
 
-_**Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber realizado una selección es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección se da un clic al botón <a class="btn">Mas (+)</a>, en lugar de darlo al botón <a class="btn">Aceptar</a>._
+_**Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber realizado una selección es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección se da un clic al botón <a class="btn white">Mas (+)</a>, en lugar de darlo al botón <a class="btn white">Aceptar</a>._

@@ -117,7 +117,7 @@ _**Imagen 78.** Ventana Exportar_
 
 Al darle clic en el botón Exportar <span class="mdi mdi-arrow-collapse-down"></span>, se generará un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso, el objetivo de esta exportación es llevar toda la información de los registros contenidos en el visor a un archivo plano, para luego ser analizados.
 
-Adicionalmente, es posible exportar todos los campos de la ventana Detalle de los registros, para esto se da clic en el cuadro llamado <a class="btn">Exportar Todos Los Campos</a>. También, es posible exportar uno o varios campos de la ventana Detalle de los registros, para esto se da clic en cada uno de los cuadros que acompañan los campos.
+Adicionalmente, es posible exportar todos los campos de la ventana Detalle de los registros, para esto se da clic en el cuadro llamado <a class="btn white">Exportar Todos Los Campos</a>. También, es posible exportar uno o varios campos de la ventana Detalle de los registros, para esto se da clic en cada uno de los cuadros que acompañan los campos.
 
 # Servicios
 
@@ -149,8 +149,8 @@ señalada, o sea la que está resaltada con la línea verde en el visor.
 **Subtítulo:** En este campo es posible registrar un poco menos de una línea de información, tipo documentación del Reporte, para que se imprima bajo el área de títulos estándar.
 
 Después de seleccionar el tipo de registro, se procede a seleccionar el Reporte que se
-desea imprimir, para esto se debe pulsar el botón <a class="btn">imprimir</a>, de esta manera se abre una ventana visor para formatos PDF, que muestra el Reporte seleccionado. Desde esta ventana es posible guardar el reporte o imprimirlo en el respectivo formato. 
+desea imprimir, para esto se debe pulsar el botón <a class="btn white">imprimir</a>, de esta manera se abre una ventana visor para formatos PDF, que muestra el Reporte seleccionado. Desde esta ventana es posible guardar el reporte o imprimirlo en el respectivo formato. 
 
-Al dar clic al botón <a class="btn">Exportar</a> permite descargar el Reporte seleccionado y llevarlo al formato excel.
+Al dar clic al botón <a class="btn white">Exportar</a> permite descargar el Reporte seleccionado y llevarlo al formato excel.
 
-Mientras que, al dar clic al botón <a class="btn">Cerrar</a> se cierra la ventana de la generación de reportes.
+Mientras que, al dar clic al botón <a class="btn white">Cerrar</a> se cierra la ventana de la generación de reportes.
