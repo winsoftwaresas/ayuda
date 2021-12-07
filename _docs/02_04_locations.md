@@ -125,7 +125,7 @@ También se puede elegir la unidad de medida mediante el uso de comodines, para 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap02/chp02_img21.png)
 _**Imagen 21.** Subgrupo UF Criterio Área_
 
-> _**Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos  se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber realizado una selección es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección se da un clic al botón <a class="btn">Mas (+)</a>, en lugar de darlo al botón <a class="btn">Aceptar</a>._
+> _**Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos  se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber realizado una selección es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección se da un clic al botón <a class="btn white">Mas (+)</a>, en lugar de darlo al botón <a class="btn white">Aceptar</a>._
 
 ## Almacenes
 
