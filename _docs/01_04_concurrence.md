@@ -12,7 +12,7 @@ La cantidad de usuarios que pueden trabajar al mismo tiempo en **AM** depende de
 
 El proceso de Implementación de **AM** es realizado con el apoyo cercano de WIN Software, para ello WIN Software suministra y discute con el Usuario un cronograma detallado, que describe las fases, actividades y tareas del proyecto. Se ha previsto realizar al menos una sesión de trabajo de Planeación con el Equipo que estará a cargo del proyecto por parte de la Empresa usuaria, para estudiar el cronograma y establecer los niveles de compromiso de los recursos asignados.
 
-La Implementación se desarrolla en paralelo, al mismo ritmo de avance, del proceso de Capacitación. Para habilitar el sistema es necesario definir ante todo la Compañía y algunos perfiles de usuario. Ello a través de la opción Administración del menú principal (en la versión **AM** ST, solamente es necesario definir los perfiles de usuario).
+La Implementación se desarrolla en paralelo, al mismo ritmo de avance, del proceso de Capacitación. Para habilitar el sistema es necesario definir ante todo la Compañía y algunos perfiles de usuario. Ello a través de la opción Administración del menú principal (en la versión **AM ST**, solamente es necesario definir los perfiles de usuario).
 
 La actividad que continúa, es la preparación y captura de datos, que se debe iniciar con la Infraestructura. Es recomendado seguir el orden indicado en la definición de las siguientes tablas: **CR, OF, TE, UF, CC**. Las demás tablas se definen o personalizan en cualquier orden, según las necesidades propias de la compañía.
 

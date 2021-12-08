@@ -17,9 +17,8 @@ La guía general para la implementación exitosa del programa **AM** Administrad
 - Uso rutinario de Órdenes de Trabajo (automáticas y manuales).
 - Gestión de Mantenimiento y compendio de Historia de Mantenimiento.
 
-> **Nota general:** Una vez ejecutada cada acción de mantenimiento la Órden de Trabajo correspondiente debe ser liquidada, cerrada y posteriormente enviada a Historia de Mantenimiento. Puesto que la generación automática y el ingreso manual de las Órdenes de Trabajo son voluminosos, se debe realizar con frecuencia el envío de tales registros a Historia de Mantenimiento para evitar que la gestión diaria se vea congestionada con actividades ya ejecutadas.
-
-De hecho, los procesos periódicos de Balance de Gestión, Reportes, Índices, Paros y distintos análisis y estudios, se realizan principalmente sobre el conjunto de Órdenes de Trabajo que residen en el módulo de Historia de Mantenimiento.
+> _**Nota:** Una vez ejecutada cada acción de mantenimiento la Órden de Trabajo correspondiente debe ser liquidada, cerrada y posteriormente enviada a Historia de Mantenimiento. Puesto que la generación automática y el ingreso manual de las Órdenes de Trabajo son voluminosos, se debe realizar con frecuencia el envío de tales registros a Historia de Mantenimiento para evitar que la gestión diaria se vea congestionada con actividades ya ejecutadas.
+De hecho, los procesos periódicos de Balance de Gestión, Reportes, Índices, Paros y distintos análisis y estudios, se realizan principalmente sobre el conjunto de Órdenes de Trabajo que residen en el módulo de Historia de Mantenimiento._
 
 ## General – A tener en cuenta
 
@@ -33,7 +32,7 @@ La conversión también se da cuando se trata de un campo de días (DD), por eje
 
 A continuación, se describe la convención utilizada para la nomenclatura de los Reportes de **AM**. Se ha implementado esta convención con el fin de mejorar el proceso de búsqueda de los mismos.
 
-![Procesar imagen](../../assets/images/cap01/chp01_img63.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap01/chp01_img63.png)
 
 _**Imagen 13.** Nomenclatura de Reportes_
 
