@@ -1,15 +1,13 @@
 ---
-title: Codificación de Activos/Equipos
-subtitle: Aquí se encuentra información sobre la codificación, despiece de activos, sus funciones y formas de uso.
+title: Codificación de Activos/Equipos y Generalidades
+subtitle: Aquí se encuentra información sobre la codificación, despiece de activos, sus funciones y formas de uso, cómo crear un Activo, se explican las porciones de la ficha técnica, filtrar por subgrupos y obtener reportes.
 tags: [setup]
 author: win
 order: 03_04
 ---
 
-## Codificación de Activos/Equipos
-
-El **AM** está capacitado para aceptar y definir 5 códigos para cada Activo/Equipo.   Cada estructura de  código  es  independiente de  las  otras  y sirve  para  localizar  o   acceder  o estudiar un Activo, partiendo de distinta información que distintos tipos de usuarios puedan tener sobre el mismo.
-Las cinco estructuras son: el Código de Mantenimiento (objeto de la presente sección),  el Código  Referencia  (código  externo,  o  dado  por  el  proveedor),  el   Código  de  Activo, el  Código de Inventario, un número de Activo Fijo (normalmente contable), un número de Serie propio del Activo, y un Código Alias (propio de la cultura técnica empresarial).
+**AM** está capacitado para aceptar y definir 5 códigos para cada Activo/Equipo. Cada estructura de  código  es  independiente de las otras y sirve para localizar o   acceder o estudiar un Activo, partiendo de distinta información que distintos tipos de usuarios puedan tener sobre el mismo.
+Las cinco estructuras son: el Código de Mantenimiento (objeto de la presente sección),  el Código  Referencia  (código  externo, o dado por el proveedor),  el   Código  de  Activo, el  Código de Inventario, un número de Activo Fijo (normalmente contable), un número de Serie propio del Activo, y un Código Alias (propio de la cultura técnica empresarial).
 
 Como se dijo antes, en esta sección se estudia el Código de Mantenimiento del Activo.
 
