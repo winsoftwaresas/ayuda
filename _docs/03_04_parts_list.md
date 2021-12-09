@@ -1,5 +1,5 @@
 ---
-title: Despiece de Activos/Equipos
+title: Codificación de Activos/Equipos
 subtitle: Aquí se encuentra información sobre la codificación, despiece de activos, sus funciones y formas de uso.
 tags: [setup]
 author: win
