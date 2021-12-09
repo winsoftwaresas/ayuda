@@ -1,4 +1,4 @@
----
+Activo/EquipoActivo/Equipo---
 title: Conceptos Básicos sobre Solicitudes de Servicio
 subtitle: en esta seccion se  da respuesta al procedimiento a seguir para las solicitudes de servicio de AM 4G
 tags: [setup]

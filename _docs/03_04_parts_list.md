@@ -1,17 +1,41 @@
 ---
-title: Despiece de Activos / Equipos
-subtitle: Aquí encontrará el despiece de activos, sus funciones y formas de uso.
+title: Despiece de Activos/Equipos
+subtitle: Aquí se encuentra información sobre la codificación, despiece de activos, sus funciones y formas de uso.
 tags: [setup]
 author: win
 order: 03_04
 ---
+
+## Codificación de Activos/Equipos
+
+El **AM** está capacitado para aceptar y definir 5 códigos para cada Activo/Equipo.   Cada estructura de  código  es  independiente de  las  otras  y sirve  para  localizar  o   acceder  o estudiar un Activo, partiendo de distinta información que distintos tipos de usuarios puedan tener sobre el mismo.
+Las cinco estructuras son: el Código de Mantenimiento (objeto de la presente sección),  el Código  Referencia  (código  externo,  o  dado  por  el  proveedor),  el   Código  de  Activo, el  Código de Inventario, un número de Activo Fijo (normalmente contable), un número de Serie propio del Activo, y un Código Alias (propio de la cultura técnica empresarial).
+
+Como se dijo antes, en esta sección se estudia el Código de Mantenimiento del Activo.
+
+Se trata entonces de un Código de 18 posiciones. Es  un  código  amplio,  jerárquico,  multinivel,  que  se  estructura  y  diseña flexiblemente de acuerdo con la necesidad o el gusto del usuario.
+
+Estructurar el código de Activo/Equipo es una labor de Implementación que exige estudio, discusiones y participación de varios usuarios entendidos. Al tiempo exige a todo usuario con capacidad de definir códigos de Activos, el compromiso de uso,  ajustado a la norma que lo estructuró.
+– **AM**– es capaz de asumir la estructura de Código que ya exista en la instalación. De todas formas si no se tiene una estructura predefinida o si se desea revisar y modificar la que ya existe, se deben tener en cuenta las siguientes observaciones:
+
+**1.** **AM** garantiza un conjunto de funciones con base en el Código de Activo, que es estructurado y conformado por niveles jerárquicos. Con base en tal estructuración se posibilita el despiece de los Activos. A manera de ejemplo, una estructuración de los niveles que se menciona, podría ser: Activo/Equipo, Sistema, Subsistema, Componente y Parte, entre otros.
+
+**Por ejemplo:** el código COARCSU se puede descomponer de la siguiente forma:
+
+**CO** Grupo de Equipos corrugadores
+**COA** Corrugador A
+**COARC**  Sistema de Rodillos Corrugadores del Corrugador A.
+**COARCSU** Rodillo superior del Sistema de Rodillos Corrugadores del **COA**
+
+**2.**	Antes de codificar algún Activo se debe haber establecido la estructura general y común de codificación de Activos de la empresa. Tal estructura se conforma definiendo los grupos significativos de primer, segundo, tercer y en ocasiones hasta de cuarto orden, de acuerdo a la cultura técnica y requerimientos del área de Mantenimiento.
+
 # Despiece de Activos / Equipos
 
-Existen varios criterios para despiezar un Activo / Equipo o uno de sus componentes.   El primero que se menciona es lograr el despiece total del Activo / Equipo hasta asociar cada componente mínimo con un código de Repuesto en el Almacén.
+Existen varios criterios para despiezar un Activo/Equipo o uno de sus componentes.   El primero que se menciona es lograr el despiece total del Activo/Equipo hasta asociar cada componente mínimo con un código de Repuesto en el Almacén.
 
 Otro, plantea el despiece a un nuevo nivel, por la necesidad de mantener Historia de Mantenimiento individual y detallada. Para ese nuevo nivel de despiece, el – **AM**- trabaja principalmente bajo este segundo concepto.
 
-Lo anterior posibilita obtener la Historia de Mantenimiento total, detallada de un  Activo / Equipo, en conjunto con la de todos sus componentes de despiece, si es del caso.   Pero también es posible obtener la Historia detallada de un Activo o de algún  componente de despiece,  incluyendo  solamente  las  actividades  relacionadas  con  el  nivel  requerido,  sin incluir más niveles inferiores de despiece. En todo caso, el proceso de definir un nuevo nivel de despiece se centra en la creación de un nuevo nivel jerárquico en la estructura del código actual.   En el ejemplo del  numeral 1 de la sección anterior vemos como el nivel COARCSU es un nuevo nivel de  despiece del nivel anterior, el COARC.
+Lo anterior posibilita obtener la Historia de Mantenimiento total, detallada de un  Activo/Equipo, en conjunto con la de todos sus componentes de despiece, si es del caso.   Pero también es posible obtener la Historia detallada de un Activo o de algún  componente de despiece,  incluyendo  solamente  las  actividades  relacionadas  con  el  nivel  requerido,  sin incluir más niveles inferiores de despiece. En todo caso, el proceso de definir un nuevo nivel de despiece se centra en la creación de un nuevo nivel jerárquico en la estructura del código actual.   En el ejemplo del  numeral 1 de la sección anterior vemos como el nivel COARCSU es un nuevo nivel de  despiece del nivel anterior, el COARC.
 
 ## Ventana Principal de Activos / Equipos
 
@@ -34,35 +58,35 @@ Los títulos en azul que encabezan las columnas son también botones que permite
 
 ![activos](../../assets/images/cap03/chp03_img04.png)
 
-En la gráfica anterior, Ventana Detalle de Equipos, se aprecian todos sus componentes  y sus respectivos contenidos. En  la ventana Detalle de  Equipos  se  encuentra toda la información relevante al Activo / Equipo seleccionado en el Visor.
+En la gráfica anterior, Ventana Detalle de Equipos, se aprecian todos sus componentes  y sus respectivos contenidos. En  la ventana Detalle de  Equipos  se  encuentra toda la información relevante al Activo/Equipo seleccionado en el Visor.
 
 A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación.
 
-**Código:** En este campo se registra el código del Activo / Equipo, correspondiente al código de Mantenimiento, de acuerdo a la estructuración por niveles que se haya definido durante la etapa de Planeación de la Implementación.
+**Código:** En este campo se registra el código del Activo/Equipo, correspondiente al código de Mantenimiento, de acuerdo a la estructuración por niveles que se haya definido durante la etapa de Planeación de la Implementación.
 
-**Descripción:** Este campo no tiene un rótulo determinado. Se utiliza  para describir el nombre del Activo / Equipo. Este campo cuenta con una capacidad de 60 caracteres, es obligatorio.
+**Descripción:** Este campo no tiene un rótulo determinado. Se utiliza  para describir el nombre del Activo/Equipo. Este campo cuenta con una capacidad de 60 caracteres, es obligatorio.
 
 **Activo Fijo:** O  Número de Inventario, es el Código Contable del  Activo,  según Contabilidad. Este campo cuenta con una disponibilidad de 20 caracteres y  también es posible acceder al Activo a través de él.
 
-**Código de Inventario:** En este campo se registra el código de inventario del Activo / Equipo, que Mantenimiento haya definido o el definido por el área de Activos o el área Contable de la institución.
+**Código de Inventario:** En este campo se registra el código de inventario del Activo/Equipo, que Mantenimiento haya definido o el definido por el área de Activos o el área Contable de la institución.
 
 **Referencia Externa (Proveedor):** En este campo se indica el código con el cual el Proveedor conoce el Equipo. Este campo cuenta con una disponibilidad de 20 caracteres. Se trata de un  código a través del cual es posible acceder al Activo en función de su Referencia.
 
 **Serial:**   Este   campo   se   utiliza   para   registrar   el   número   de   serie   que   identifica individualmente   a   un   Equipo   según   el   fabricante.   Este   campo   cuenta   con   una disponibilidad de 20 caracteres, es también un código a través del cual es posible acceder a cualquier Activo.
 
-**Alias:** En algunas plantas por tradición o cultura, se tiene una denominación especial con la cual se conocen algunos Activos / Equipos. Este campo es el especial para registrar tal nombre especial. Igualmente se puede utilizar para registrar códigos  antiguos con que se definían  los  Activos  antes  de  la  nueva  codificación. Este   campo  cuenta  con  una disponibilidad de 20 caracteres y también es un código a través del cual es posible acceder al Activo / Equipo.
+**Alias:** En algunas plantas por tradición o cultura, se tiene una denominación especial con la cual se conocen algunos Activos / Equipos. Este campo es el especial para registrar tal nombre especial. Igualmente se puede utilizar para registrar códigos  antiguos con que se definían  los  Activos  antes  de  la  nueva  codificación. Este   campo  cuenta  con  una disponibilidad de 20 caracteres y también es un código a través del cual es posible acceder al Activo/Equipo.
 
 **Centro de Costo:** En este campo se registra o se despliega automáticamente, el  Centro de Costo al que está asociado el Activo. Si el Activo se definió previamente, el Centro  de  Costo aparece automáticamente. Si es una nueva definición la que se está realizando, el sistema muestra  y  pone  como  disponible  todo  el  contenido de  la  tabla  de  Centros  de  Costo definidos en  la  Infraestructura, para seleccionar el  que  corresponde al   Activo.  Es muy importante definir este campo desde el mismo momento de la definición del Activo, puesto que es un campo derivado o sea que se  trae automáticamente para muchas funciones, cada vez que se invoca el Activo.
 
 **Sub CC:** Este campo siempre está bloqueado y muestra el Código Sub CC asociado al Centro de Costo elegido.
 
-**Ubicación Física:** En  este  campo  se  traen  automáticamente las  Ubicaciones  Físicas definidas en la infraestructura, para definir la ubicación  geográfica del Activo en la planta. Este campo es muy importante definirlo desde el mismo momento en que se cree el Activo / Equipo, puesto que es un campo derivado, es decir, que se trae automáticamente para muchas funciones.
+**Ubicación Física:** En  este  campo  se  traen  automáticamente las  Ubicaciones  Físicas definidas en la infraestructura, para definir la ubicación  geográfica del Activo en la planta. Este campo es muy importante definirlo desde el mismo momento en que se cree el Activo/Equipo, puesto que es un campo derivado, es decir, que se trae automáticamente para muchas funciones.
 
 **Código Barras Interno:** Este campo pertenece al Código de Barras Interno del equipo, en caso que exista alguno dentro de la empresa. Este campo cuenta con una disponibilidad de 22 caracteres.
 
 **Código Barras Proveedor:** Este campo pertenece al Código de Barras que fue asociado al equipo por parte del Proveedor.
 
-**Clasificación por Proceso:** Es la importancia o criticidad de un Activo / Equipo en la línea. En este campo se traen  automáticamente  las  diferentes  clases  como  puede  ser  clasificado  un   Activo  / Equipo, de acuerdo con el siguiente listado:
+**Clasificación por Proceso:** Es la importancia o criticidad de un Activo/Equipo en la línea. En este campo se traen  automáticamente  las  diferentes  clases  como  puede  ser  clasificado  un   Activo  / Equipo, de acuerdo con el siguiente listado:
 
 **Clave o crítico**
 
@@ -84,15 +108,15 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 **Marca:** Este campo se utiliza para diligenciar la Marca que identifica el Activo /  Equipo. Este campo cuenta con una disponibilidad de 22 caracteres.
 
-**Modelo:** Este campo se utiliza para diligenciar el Modelo que identifica un Activo / Equipo según el fabricante. Este campo cuenta con una disponibilidad de 30 caracteres.
+**Modelo:** Este campo se utiliza para diligenciar el Modelo que identifica un Activo/Equipo según el fabricante. Este campo cuenta con una disponibilidad de 30 caracteres.
 
-**Tipo:** Es una característica particular de un Activo / Equipo. Este campo se utiliza  para diligenciar el tipo que identifica un Equipo según su uso o el fabricante. Este campo cuenta con una disponibilidad de 20 caracteres.
+**Tipo:** Es una característica particular de un Activo/Equipo. Este campo se utiliza  para diligenciar el tipo que identifica un Equipo según su uso o el fabricante. Este campo cuenta con una disponibilidad de 20 caracteres.
 
 **Encargado:** Son  personas  propias  de   la  empresa  encargadas  de  la  operación   o funcionamiento  del  Activo  /  Equipo.  En  este  campo  se  traen   automáticamente   los diferentes   Terceros   asignados   como   Responsable   Interno/Empleado   y   Responsable Externo/Contratista, para seleccionar el correspondiente.
 
-**EQ-Raíz:** Este campo se utiliza para identificar los Activo / Equipos que son una  unidad funcional que se despieza (Equipos raíz). Solo se consideran como Equipo  Raíz aquellos Activo / Equipos que no tienen una dependencia de otros y que más bien son la base de despiece de sus componentes.
+**EQ-Raíz:** Este campo se utiliza para identificar los Activo/Equipos que son una  unidad funcional que se despieza (Equipos raíz). Solo se consideran como Equipo  Raíz aquellos Activo/Equipos que no tienen una dependencia de otros y que más bien son la base de despiece de sus componentes.
 
-**Ruta:** En este campo se indica si el Activo / Equipo que se está definiendo es  realmente una Ruta.   Cuando se ha indicado que se trata de una Ruta, el sistema se  prepara para recibir un conjunto de información adicional correspondiente a la Ruta.  Se debe recordar que las rutas de mantenimiento asocian o integran varios Equipos.
+**Ruta:** En este campo se indica si el Activo/Equipo que se está definiendo es  realmente una Ruta.   Cuando se ha indicado que se trata de una Ruta, el sistema se  prepara para recibir un conjunto de información adicional correspondiente a la Ruta.  Se debe recordar que las rutas de mantenimiento asocian o integran varios Equipos.
 
 **Estado:** El campo estado se utiliza para definir si el  Activo actual se encuentra  Activo (Operativo) o Inactivo (No operativo o dado de baja temporal o totalmente). Este Estado se utiliza durante los procesos de Generación Automática de Ordenes  de Trabajo y de Proyección para un período futuro, pues solamente se tienen en  cuenta aquellos Equipos con Estado Activo.
 
@@ -108,7 +132,7 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 **A ** Otro
 
-Los Activo / Equipos Inactivos pueden tener las siguientes condiciones:
+Los Activo/Equipos Inactivos pueden tener las siguientes condiciones:
 
 **| ** Dado de baja
 
@@ -184,7 +208,7 @@ El programa permite entonces hacer selección de un grupo de Activos de acuerdo 
 
 Los campos de datos que constituyen los criterios de selección en la Ventana  Subgrupo son los siguientes.
 
-**Alias:** Permite seleccionar un Activo / Equipo por el Alias previamente definido en la ficha técnica.
+**Alias:** Permite seleccionar un Activo/Equipo por el Alias previamente definido en la ficha técnica.
 
 **Característica:** Permite seleccionar los Activos / Equipos de acuerdo con una determinada Característica. Esta opción también permite el uso de comodines y funciona igual que en los casos anteriores.
 
@@ -265,7 +289,7 @@ Modelo que se especifica en este campo.
 - Repuesto Disponible
 - Repuesto Asociado
 
-**Serial del Equipo:** Esta alternativa permite seleccionar un Activo / Equipo de acuerdo con su número
+**Serial del Equipo:** Esta alternativa permite seleccionar un Activo/Equipo de acuerdo con su número
 Serial.
 
 **Tipo:** Selecciona los Activos/ Equipos que se encuentran asociados al tipo ingresado  por el usuario.
@@ -279,7 +303,7 @@ Serial.
 
 ## Vistas Parciales / Pestañas
 
-Las Vistas Parciales o Pestañas permiten complementar la información que se despliega normalmente sobre un Activo / Equipo, con otro conjunto de información que solo se muestra cuando es necesario,  por  solicitud  del  usuario. Las vistas parciales  disponibles son: las características, vida útil, multimedia.
+Las Vistas Parciales o Pestañas permiten complementar la información que se despliega normalmente sobre un Activo/Equipo, con otro conjunto de información que solo se muestra cuando es necesario,  por  solicitud  del  usuario. Las vistas parciales  disponibles son: las características, vida útil, multimedia.
 
 ### Características
 
@@ -287,13 +311,13 @@ Esta  opción  permite  definir  para  un  determinado  Activo  /  Equipo  las  
 
 ![AC](../../assets/images/cap03/chp03_img10.png)
 
-En la gráfica anterior, Vista Parcial de Características, se aprecian sus componentes y sus respectivos  contenidos.  En  la  ventana  Detalle  de  Características  se  encuentra  la información relevante a la Característica seleccionada en el Visor, que hace  referencia al Activo / Equipo que está activo.
+En la gráfica anterior, Vista Parcial de Características, se aprecian sus componentes y sus respectivos  contenidos.  En  la  ventana  Detalle  de  Características  se  encuentra  la información relevante a la Característica seleccionada en el Visor, que hace  referencia al Activo/Equipo que está activo.
 
 A   continuación  se  describen  los  campos  que  componen  esta  Ventana   información adicional.
 
 **Cuadro Identificación:** Aparece con los campos bloqueados para que el usuario visualice la información básica del Activo al cual se le están definiendo las Características.
 
-**Car. Técnica:** En este campo se traen automáticamente las características definidas  en la Infraestructura, para seleccionar aquellas que son propias del Activo / Equipo activo.
+**Car. Técnica:** En este campo se traen automáticamente las características definidas  en la Infraestructura, para seleccionar aquellas que son propias del Activo/Equipo activo.
 
 **Unidad  de Medida:** En este campo se traen automáticamente las Unidades de  Medida definidas   en   la   Infraestructura,   para   seleccionar   aquella   que    corresponda   a   la Característica seleccionada.
 
@@ -304,7 +328,7 @@ A   continuación  se  describen  los  campos  que  componen  esta  Ventana   in
 
 **Valor Nominal:** En este campo se ingresa el Valor Nominal (Máximo 30 caracteres) de la Característica definida de acuerdo con las indicaciones del fabricante.
 
-**Tolerancia:**   En   este   campo   se   ingresa   el   factor   de   tolerancia   permitido   para   la característica definida de acuerdo con los criterios del fabricante o la experiencia  técnica de los responsables del Activo / Equipo. Existen 2 campos y son:
+**Tolerancia:**   En   este   campo   se   ingresa   el   factor   de   tolerancia   permitido   para   la característica definida de acuerdo con los criterios del fabricante o la experiencia  técnica de los responsables del Activo/Equipo. Existen 2 campos y son:
 
 **Desde:** Se define el valor mínimo permitido para la característica definida.
 Hasta: Se define al valor máximo permitido para la característica definida.
@@ -315,7 +339,7 @@ Esta opción permite ingresar valores de medición a  aquellas características 
 
 ![DETALLE DE ACT](../../assets/images/cap03/chp03_img11.png)
 
-En  la  gráfica  anterior,  Vista  Parcial  de  Características  Controlables,  se  aprecian  sus componentes y sus respectivos contenidos. En la ventana Detalle de  Características se encuentra la información relevante a la Característica seleccionada  en el Visor, que hace referencia al Activo / Equipo que está activo. Junto con esta información se encuentra un conjunto de datos para el registro de la medición que se va a registrar.
+En  la  gráfica  anterior,  Vista  Parcial  de  Características  Controlables,  se  aprecian  sus componentes y sus respectivos contenidos. En la ventana Detalle de  Características se encuentra la información relevante a la Característica seleccionada  en el Visor, que hace referencia al Activo/Equipo que está activo. Junto con esta información se encuentra un conjunto de datos para el registro de la medición que se va a registrar.
 
 A   continuación  se  describen  los  campos  que  componen  esta  Ventana información adicional.
 
@@ -345,7 +369,7 @@ A   continuación  se  describen  los  campos  que  componen  esta  Ventana info
 
 **FF Ingreso Inventario:** En este campo se registra la fecha en que ingresa el Activo al sistema de Activos de la institución.
 
-**FF Fin Garantía:** En este campo se registra la fecha en la que se da por terminada la garantía del Activo / Equipo por parte del Fabricante o Proveedor. Sí la garantía está vigente, la fecha se muestra en color verde, mientras que sí la garantía se encuentra vencida, la fecha se muestra en color rojo.
+**FF Fin Garantía:** En este campo se registra la fecha en la que se da por terminada la garantía del Activo/Equipo por parte del Fabricante o Proveedor. Sí la garantía está vigente, la fecha se muestra en color verde, mientras que sí la garantía se encuentra vencida, la fecha se muestra en color rojo.
 
 **FF Instalación:** En este campo se registra la fecha en la cual se instaló el Activo en el servicio.
 
@@ -609,7 +633,7 @@ Los  anteriores  reportes  pueden  ser  seleccionados  para  uno  o  varios   Eq
 
 **Registros del Visor:** Esta opción permite hacer una impresión de todos los Activos / Equipos que están seleccionados en la Ventana Visor, es decir los registros que están seleccionados en el subgrupo actual.
 
-**Registro Seleccionado:** Esta opción permite hacer una impresión del Activo / Equipo que esta seleccionado en la Ventana Visor (el cursor verde se encuentra sobre él).
+**Registro Seleccionado:** Esta opción permite hacer una impresión del Activo/Equipo que esta seleccionado en la Ventana Visor (el cursor verde se encuentra sobre él).
 
 **Subtítulo:** En este campo es posible registrar un poco menos de una línea de información, tipo documentación del Reporte, para que se imprima bajo el área de títulos estándar.
 

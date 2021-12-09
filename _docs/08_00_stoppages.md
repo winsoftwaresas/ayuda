@@ -1,4 +1,4 @@
----
+Activo/EquipoActivo/Equipo---
 layout: page
 title: ◼ Stoppages - Failures, Damages and Breakdowns
 order: 08_00

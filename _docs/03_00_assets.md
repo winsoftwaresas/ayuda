@@ -1,4 +1,4 @@
----
+Activo/EquipoActivo/Equipo---
 layout: page
 title: ◼ Assets
 order: 03_00
