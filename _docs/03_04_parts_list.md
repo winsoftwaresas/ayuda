@@ -6,15 +6,16 @@ author: win
 order: 03_04
 ---
 
-**AM** está capacitado para aceptar y definir 5 códigos para cada Activo/Equipo. Cada estructura de  código  es  independiente de las otras y sirve para localizar o   acceder o estudiar un Activo, partiendo de distinta información que distintos tipos de usuarios puedan tener sobre el mismo.
-Las cinco estructuras son: el Código de Mantenimiento (objeto de la presente sección),  el Código  Referencia  (código  externo, o dado por el proveedor),  el   Código  de  Activo, el  Código de Inventario, un número de Activo Fijo (normalmente contable), un número de Serie propio del Activo, y un Código Alias (propio de la cultura técnica empresarial).
+**AM** está capacitado para aceptar y definir 5 códigos para cada Activo/Equipo. Cada estructura de código es  independiente de las otras y sirve para localizar o acceder o estudiar un Activo, partiendo de distinta información que distintos tipos de usuarios puedan tener sobre el mismo.
+Las cinco estructuras son: el Código de Mantenimiento (objeto de la presente sección), el Código Referencia  (código externo, o dado por el proveedor), el Código de Inventario, un número de Activo Fijo (normalmente contable), un número de Serie propio del Activo, y un Código Alias (propio de la cultura técnica empresarial).
 
 Como se dijo antes, en esta sección se estudia el Código de Mantenimiento del Activo.
 
-Se trata entonces de un Código de 18 posiciones. Es  un  código  amplio,  jerárquico,  multinivel,  que  se  estructura  y  diseña flexiblemente de acuerdo con la necesidad o el gusto del usuario.
+Se trata entonces de un Código de 18 posiciones. Es un  código amplio, jerárquico, multinivel, que se estructura y  diseña flexiblemente de acuerdo con la necesidad o el gusto del usuario.
 
-Estructurar el código de Activo/Equipo es una labor de Implementación que exige estudio, discusiones y participación de varios usuarios entendidos. Al tiempo exige a todo usuario con capacidad de definir códigos de Activos, el compromiso de uso,  ajustado a la norma que lo estructuró.
-– **AM**– es capaz de asumir la estructura de Código que ya exista en la instalación. De todas formas si no se tiene una estructura predefinida o si se desea revisar y modificar la que ya existe, se deben tener en cuenta las siguientes observaciones:
+Estructurar el código de Activo/Equipo es una labor de Implementación que exige estudio, discusiones y participación de varios usuarios entendidos. Al tiempo exige a todo usuario con capacidad de definir códigos de Activos, el compromiso de uso, ajustado a la norma que lo estructuró.
+
+**AM** es capaz de asumir la estructura de Código que ya exista en la instalación. De todas formas si no se tiene una estructura predefinida o si se desea revisar y modificar la que ya existe, se deben tener en cuenta las siguientes observaciones:
 
 **1.** **AM** garantiza un conjunto de funciones con base en el Código de Activo, que es estructurado y conformado por niveles jerárquicos. Con base en tal estructuración se posibilita el despiece de los Activos. A manera de ejemplo, una estructuración de los niveles que se menciona, podría ser: Activo/Equipo, Sistema, Subsistema, Componente y Parte, entre otros.
 
@@ -29,50 +30,52 @@ Estructurar el código de Activo/Equipo es una labor de Implementación que exig
 
 # Despiece de Activos / Equipos
 
-Existen varios criterios para despiezar un Activo/Equipo o uno de sus componentes.   El primero que se menciona es lograr el despiece total del Activo/Equipo hasta asociar cada componente mínimo con un código de Repuesto en el Almacén.
+Existen varios criterios para despiezar un Activo/Equipo o uno de sus componentes. El primero que se menciona es lograr el despiece total del Activo/Equipo hasta asociar cada componente mínimo con un código de Repuesto en el Almacén.
 
-Otro, plantea el despiece a un nuevo nivel, por la necesidad de mantener Historia de Mantenimiento individual y detallada. Para ese nuevo nivel de despiece, el – **AM**- trabaja principalmente bajo este segundo concepto.
+Otro, plantea el despiece a un nuevo nivel, por la necesidad de mantener Historia de Mantenimiento individual y detallada. Para ese nuevo nivel de despiece, el **AM** trabaja principalmente bajo este segundo concepto.
 
-Lo anterior posibilita obtener la Historia de Mantenimiento total, detallada de un  Activo/Equipo, en conjunto con la de todos sus componentes de despiece, si es del caso.   Pero también es posible obtener la Historia detallada de un Activo o de algún  componente de despiece,  incluyendo  solamente  las  actividades  relacionadas  con  el  nivel  requerido,  sin incluir más niveles inferiores de despiece. En todo caso, el proceso de definir un nuevo nivel de despiece se centra en la creación de un nuevo nivel jerárquico en la estructura del código actual.   En el ejemplo del  numeral 1 de la sección anterior vemos como el nivel COARCSU es un nuevo nivel de  despiece del nivel anterior, el COARC.
+Lo anterior posibilita obtener la Historia de Mantenimiento total, detallada de un Activo/Equipo, en conjunto con la de todos sus componentes de despiece, si es del caso. Pero también es posible obtener la Historia detallada de un Activo o de algún componente de despiece, incluyendo  solamente las actividades relacionadas con el nivel  requerido, sin incluir más niveles inferiores de despiece. En todo caso, el proceso de definir un nuevo nivel de despiece se centra en la creación de un nuevo nivel jerárquico en la estructura del código actual. En el ejemplo del  numeral 1 de la sección anterior vemos como el nivel COARCSU es un nuevo nivel de despiece del nivel anterior, el COARC.
 
 ## Ventana Principal de Activos / Equipos
 
-![activos](../../assets/images/cap03/chp03_img02.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img02.png)
+_**Imagen 2.** Ventana Principal Activos_
 
-A esta ventana se llega haciendo clic sobre la opción `<a class="btn">`Activos
-`</a>`  del Menú Principal. A través de ella se ejecutan todas las funciones dedicadas a administrar los Activos / Equipos. A continuación se ilustran las porciones que la componen.
+A esta ventana se llega haciendo clic sobre la opción <a class="btn blue">Activos</a> del Menú Principal. A través de ella se ejecutan todas las funciones dedicadas a administrar los Activos/Equipos. A continuación se ilustran las porciones que la componen:
 
 ## Ventana Visor
 
-![activos](../../assets/images/cap03/chp03_img03.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img03.png)
+_**Imagen 3.** Ventana Visor Activos_
 
-Desde esta ventana es posible observar los Activos / Equipos existentes.  Se listan todos o una selección o subgrupo de ellos.   El conjunto de Activos / Equipos  disponibles a ser desplegado se muestra a través de páginas.  El tamaño de las páginas es  configurable desde la opción Administrar por parte de quien tenga acceso a ella.
+Desde esta ventana es posible observar los Activos/Equipos existentes. Se listan todos o una selección o subgrupo de ellos. El conjunto de Activos/Equipos disponibles a ser desplegados se muestran a través de páginas. El tamaño de las páginas es configurable desde el módulo de <a class="btn blue">administración</a> por parte de quien tenga acceso a él.
 
-Al  hacer  clic  sobre  alguno  de  los  Activos  /  Equipos  del  Visor  el  sistema   responde mostrando  la  información  de  ese  Activo,  en  forma  detallada,  en  una ventana llamada Ventana Detalle.
+Al hacer clic sobre alguno de los Activos/Equipos del Visor el sistema responde mostrando la información de ese registro, en forma detallada, en una ventana llamada Ventana Detalle.
 
-Los títulos en azul que encabezan las columnas son también botones que permiten ordenar la    tabla, según el título seleccionado. Para elegir un registro de la tabla se da un clic del mouse sobre él o se desplaza el cursor con las teclas de desplazamiento.
+Los títulos en azul que encabezan las columnas son también botones que permiten ordenar la tabla, según el título seleccionado. Para elegir un registro de la tabla se da un clic sobre él. El sistema permite hacer desplazamiento vertical de los registros con las teclas de desplazamiento.
 
 ## Ventana Detalle
 
-![activos](../../assets/images/cap03/chp03_img04.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img04.png)
+_**Imagen 4.** Ventana Detalle Activos_
 
-En la gráfica anterior, Ventana Detalle de Equipos, se aprecian todos sus componentes  y sus respectivos contenidos. En  la ventana Detalle de  Equipos  se  encuentra toda la información relevante al Activo/Equipo seleccionado en el Visor.
+En la gráfica anterior, Ventana Detalle de Equipos, se aprecian todos sus componentes y sus respectivos contenidos.Se encuentra toda la información relevante al Activo/Equipo seleccionado en el Visor.
 
-A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación.
+A continuación se describen los campos que componen el registro, sobre cada campo se da una breve explicación:
 
 **Código:** En este campo se registra el código del Activo/Equipo, correspondiente al código de Mantenimiento, de acuerdo a la estructuración por niveles que se haya definido durante la etapa de Planeación de la Implementación.
 
-**Descripción:** Este campo no tiene un rótulo determinado. Se utiliza  para describir el nombre del Activo/Equipo. Este campo cuenta con una capacidad de 60 caracteres, es obligatorio.
+**Descripción:** Este campo no tiene un rótulo determinado. Se utiliza para el nombre del Activo/Equipo. Este campo cuenta con una capacidad de 60 caracteres, es obligatorio.
 
-**Activo Fijo:** O  Número de Inventario, es el Código Contable del  Activo,  según Contabilidad. Este campo cuenta con una disponibilidad de 20 caracteres y  también es posible acceder al Activo a través de él.
+**Activo Fijo:** También Número de Inventario, es el Código Contable del Activo, según Contabilidad. Este campo cuenta con una disponibilidad de 20 caracteres.
 
 **Código de Inventario:** En este campo se registra el código de inventario del Activo/Equipo, que Mantenimiento haya definido o el definido por el área de Activos o el área Contable de la institución.
 
-**Referencia Externa (Proveedor):** En este campo se indica el código con el cual el Proveedor conoce el Equipo. Este campo cuenta con una disponibilidad de 20 caracteres. Se trata de un  código a través del cual es posible acceder al Activo en función de su Referencia.
+**Referencia Externa (Proveedor):** En este campo se indica el código con el cual el Proveedor conoce el Equipo. Este campo cuenta con una disponibilidad de 20 caracteres. 
 
-**Serial:**   Este   campo   se   utiliza   para   registrar   el   número   de   serie   que   identifica individualmente   a   un   Equipo   según   el   fabricante.   Este   campo   cuenta   con   una disponibilidad de 20 caracteres, es también un código a través del cual es posible acceder a cualquier Activo.
+**Serial:** Este campo se utiliza para registrar el número de serie que identifica individualmente a un Equipo según el fabricante. Este campo cuenta con una disponibilidad de 40 caracteres.
 
-**Alias:** En algunas plantas por tradición o cultura, se tiene una denominación especial con la cual se conocen algunos Activos / Equipos. Este campo es el especial para registrar tal nombre especial. Igualmente se puede utilizar para registrar códigos  antiguos con que se definían  los  Activos  antes  de  la  nueva  codificación. Este   campo  cuenta  con  una disponibilidad de 20 caracteres y también es un código a través del cual es posible acceder al Activo/Equipo.
+**Alias:** En algunas plantas por tradición o cultura, se tiene una denominación especial con la cual se conocen algunos Activos/Equipos. Este campo es el especial para registrar tal nombre especial. Igualmente se puede utilizar para registrar códigos  antiguos con que se definían este Activo antes de la nueva codificación. Este campo cuenta  con una disponibilidad de 20 caracteres.
 
 **Centro de Costo:** En este campo se registra o se despliega automáticamente, el  Centro de Costo al que está asociado el Activo. Si el Activo se definió previamente, el Centro  de  Costo aparece automáticamente. Si es una nueva definición la que se está realizando, el sistema muestra  y  pone  como  disponible  todo  el  contenido de  la  tabla  de  Centros  de  Costo definidos en  la  Infraestructura, para seleccionar el  que  corresponde al   Activo.  Es muy importante definir este campo desde el mismo momento de la definición del Activo, puesto que es un campo derivado o sea que se  trae automáticamente para muchas funciones, cada vez que se invoca el Activo.
 
@@ -167,17 +170,17 @@ Planeación. Se puede seleccionar cualquiera de las siguientes opciones:
 Esta opción se encuentra ubicada al lado superior derecho de la ventana Visor. Al darle clic al
 `<span class="iconify btn" data-icon="mdi-filter-variant">`Buscar, se abre un campo al lado izquierdo, donde se registra el código exacto del Activo que se desea encontrar rápidamente. Luego de digitar el código del Activo /  Equipo, se presiona la tecla `<a class="btn">`Enter`</a>` y  el  cursor  se  posiciona en  consecuencia,  sobre  el Activo deseado en el Visor.
 
-![VENTANA IR](../../assets/images/cap03/chp03_img05.png)
+![VENTANA IR](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img05.png)
 
 En caso de escribir el código con algún error, el sistema muestra un mensaje de alerta indicando que el Activo no existe.
 
-![ALERTA](../../assets/images/cap03/chp03_img06.png)
+![ALERTA](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img06.png)
 
 ## Indicadores
 
 Es posible visualizar de manera inmediata, los Activos que son raíz, ubicaciones técnicas, componentes intercambiables y si estos dos últimos no están asociados entre ellos. También, si tienen asociados Multimedia, características técnicas y biomédicas directamente desde la ventana visor, a través de la columna “Indicadores” que muestra una pelota de color que indica el tipo de información definida y asociada. El significado del color de cada pelota, se puede ver en el recuadro de Indicadores, ubicado en la parte superior derecha de la ventana visor.
 
-![activos](../../assets/images/cap03/chp03_img07.png)
+![activos](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img07.png)
 
 El significado de los colores se visualiza al sobreponer el mouse en el icono que se encuentra al extremo superior derecho y su correspondencia es:
 
@@ -192,7 +195,7 @@ El significado de los colores se visualiza al sobreponer el mouse en el icono qu
 
 Se usa para seleccionar grupos de  Activos / Equipos que cumplen con un conjunto  de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al `<a class="btn">`icono de filtro`</a>`, ubicado en la parte superior derecha de la ventana Visor de Activos.
 
-![activos](../../assets/images/cap03/chp03_img08.png)
+![activos](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img08.png)
 
 Cada criterio trabaja en conjunto con los demás, con el operador intersección.
 
@@ -202,7 +205,7 @@ Cada criterio aparece inicializado en un valor global que permite mostrar todos 
 
 El programa permite entonces hacer selección de un grupo de Activos de acuerdo con los criterios seleccionados en la siguiente ventana.
 
-![AC](../../assets/images/cap03/chp03_img08.png)
+![AC](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img08.png)
 
 Los campos de datos que constituyen los criterios de selección en la Ventana  Subgrupo son los siguientes.
 
@@ -307,7 +310,7 @@ Las Vistas Parciales o Pestañas permiten complementar la información que se de
 
 Esta  opción  permite  definir  para  un  determinado  Activo  /  Equipo  las   Características técnicas que lo definen. En la parte izquierda de la ventana aparece un nuevo Visor en el que irán apareciendo las Características que se van creando en la ventana Detalle, mientras que en la parte derecha aparece los campos para crear o actualizar la información de las características.
 
-![AC](../../assets/images/cap03/chp03_img10.png)
+![AC](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img10.png)
 
 En la gráfica anterior, Vista Parcial de Características, se aprecian sus componentes y sus respectivos  contenidos.  En  la  ventana  Detalle  de  Características  se  encuentra  la información relevante a la Característica seleccionada en el Visor, que hace  referencia al Activo/Equipo que está activo.
 
@@ -335,7 +338,7 @@ Hasta: Se define al valor máximo permitido para la característica definida.
 
 Esta opción permite ingresar valores de medición a  aquellas características que  fueron definidas previamente como controlables.
 
-![DETALLE DE ACT](../../assets/images/cap03/chp03_img11.png)
+![DETALLE DE ACT](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img11.png)
 
 En  la  gráfica  anterior,  Vista  Parcial  de  Características  Controlables,  se  aprecian  sus componentes y sus respectivos contenidos. En la ventana Detalle de  Características se encuentra la información relevante a la Característica seleccionada  en el Visor, que hace referencia al Activo/Equipo que está activo. Junto con esta información se encuentra un conjunto de datos para el registro de la medición que se va a registrar.
 
@@ -351,7 +354,7 @@ A   continuación  se  describen  los  campos  que  componen  esta  Ventana info
 
 ### Vida Útil
 
-![DETALLE DE ACT](../../assets/images/cap03/chp03_img12.png)
+![DETALLE DE ACT](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img12.png)
 
 En la gráfica anterior, Ventana de Vida Útil, se aprecian sus componentes y sus respectivos contenidos.
 
@@ -391,7 +394,7 @@ A   continuación  se  describen  los  campos  que  componen  esta  Ventana info
 
 ### Multimedia
 
-![DETALLE DE ACT](../../assets/images/cap03/chp03_img13.png)
+![DETALLE DE ACT](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img13.png)
 
 En la gráfica anterior, Ventana Multimedia, se aprecian sus componentes y sus respectivos contenidos.
 
@@ -409,11 +412,11 @@ A continuación se describen las carpetas que componen esta ventana; cuando se q
 
 **Videos:** En esta carpeta se relacionan porciones de videos relacionados al AC. Ejemplo: Videos en formato wmv, entre otros.
 
-![DETALLE DE ACT](../../assets/images/cap03/chp03_img14.png)
+![DETALLE DE ACT](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14.png)
 
 Para adicionar un documento, imagen o video, se debe dar clic en la carpeta deseada, luego se da clic a `<span class="iconify btn" data-icon="cloud-upload">`Cargar, a continuación se abre una nueva ventana para realizar la búsqueda del archivo a subir,  se selecciona el archivo y se da clic en `<a class="btn">`abrir`</a>`.
 
-![ACT](../../assets/images/cap03/chp03_img15.png)
+![ACT](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img15.png)
 
 Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic en uno de las imágenes, se visualiza la imagen adjunta.
 
@@ -430,11 +433,11 @@ Si se desea descargar un archivo adjunto al AC, se debe dar clic en
 
 A esta opción se llega al sobreponer el cursor del mouse sobre el módulo de Activos y al lado derecho se despliega el conjunto de transacciones disponibles para el módulo de Activo, luego se elige la transacción  “Modificar Masivamente”.
 
-![ACT](../../assets/images/cap03/chp03_img17.png)
+![ACT](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img17.png)
 
 Esta transacción permite cambiar masivamente el Estado, Ubicación Física, Centro de Costos, Encargado, Comentarios, Proveedor y Fabricante, de los Activos /Equipos  previamente seleccionados, que  se encuentran en el Visor. Para ello se debe dar clic al link en azul ** “Modificar Masivamente”** ubicado al lado superior izquierdo de la ventana, seguidamente se muestra las opciones de modificación masiva disponibles.
 
-![ACT](../../assets/images/cap03/chp03_img18.png)
+![ACT](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img18.png)
 
 En  la  gráfica  anterior,  Modificar  Masivamente,  se  aprecian  sus  componentes  y   sus respectivos contenidos.
 
@@ -446,117 +449,117 @@ A   continuación  se  describen  los  campos  que  componen  esta  Ventana   in
 
 **Modificar Descripción:** Se Modifica Masivamente la Descripción, del o los Equipos que están previamente seleccionados en el visor.
 
-![modificar descripcion](../../assets/images/cap03/chp03_img19.png)
+![modificar descripcion](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img19.png)
 
 **Modificar Referencia Externa (Proveedor):** Se Modifica Masivamente la referencia externa proveedor, del o los Equipos que están previamente seleccionados
 
-![modificar ref externa](../../assets/images/cap03/chp03_img20.png)
+![modificar ref externa](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img20.png)
 
 **Modificar Activo Padre:** Se Modifica Masivamente el Activo Padre, de los Equipos que están previamente seleccionados en el visor. Al seleccionar el Activo Padre, se asigna automáticamente el Centro de Costo y la Ubicación Física asociados al Activo Padre seleccionado.
 
-![modificar activo padre](../../assets/images/cap03/chp03_img21.png)
+![modificar activo padre](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img21.png)
 
 **Modificar Centro de Costo:** Se Modifica Masivamente el Centro de Costo, de  los
 Equipos que están previamente seleccionados en el visor.
 
-![modificar centro de costo](../../assets/images/cap03/chp03_img22.png)
+![modificar centro de costo](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img22.png)
 
 **Modificar Ubicación Física:** Se Modifica Masivamente la Ubicación Física, de los
 Equipos que están previamente seleccionados en el visor.
 
-![modificar ubicacion fisica](../../assets/images/cap03/chp03_img23.png)
+![modificar ubicacion fisica](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img23.png)
 
 **Modificar Clasificación por Proceso:** Se Modifica Masivamente la Clasificación por Proceso, de los Equipos que están previamente seleccionados en el visor.
 
-![Modificar Clasificación por Proceso:](../../assets/images/cap03/chp03_img24.png)
+![Modificar Clasificación por Proceso:](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img24.png)
 
 **Modificar Confiabilidad Subjetiva:** Se Modifica Masivamente la Confiabilidad Subjetiva, de los Equipos que están previamente seleccionados en el visor.
 
-![Modificar Confiabilidad Subjetiva](../../assets/images/cap03/chp03_img25.png)
+![Modificar Confiabilidad Subjetiva](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img25.png)
 
 **Modificar Proveedor:** Se modifica Masivamente el Proveedor, de los equipos que están previamente seleccionados en el visor.
 
-![Modificar Proveedor](../../assets/images/cap03/chp03_img26.png)
+![Modificar Proveedor](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img26.png)
 
 **Modificar Fabricante:** Se modifica Masivamente el Fabricante, de los equipos que están previamente seleccionados en el visor.
 
-![Modificar Fabricante](../../assets/images/cap03/chp03_img27.png)
+![Modificar Fabricante](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img27.png)
 
 **Modificar Marca:** Se modifica Masivamente la Marca, de los equipos que están previamente seleccionados en el visor.
 
-![Modificar Marca](../../assets/images/cap03/chp03_img28.png)
+![Modificar Marca](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img28.png)
 
 **Modificar Modelo:** Se Modifica Masivamente el Modelo, de los Equipos que están previamente seleccionados en el visor.
 
-![Modificar Modelo](../../assets/images/cap03/chp03_img29.png)
+![Modificar Modelo](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img29.png)
 
 **Modificar Tipo:** Se Modifica Masivamente el Tipo, de los Equipos que están previamente seleccionados en el visor.
 
-![Modificar Tipo](../../assets/images/cap03/chp03_img30.png)
+![Modificar Tipo](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img30.png)
 
 **Modificar Encargado:** Se  Modifica  Masivamente  el  Encargado,  de  los  Equipos  que están previamente seleccionados en el visor.
 
-![Modificar Encargado](../../assets/images/cap03/chp03_img31.png)
+![Modificar Encargado](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img31.png)
 
 **Modificar Estado:** Se Modifica Masivamente el estado Activo – Inactivo, de los Equipos que están previamente seleccionados en el visor.
 
-![Modificar Estado](../../assets/images/cap03/chp03_img32.png)
+![Modificar Estado](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img32.png)
 
 **Modificar Componente Intercambiable:** Se Modifica Masivamente el Componente Intercambiable, de los Equipos que están previamente seleccionados en el visor.
 
-![Modificar Componente Intercambiable](../../assets/images/cap03/chp03_img33.png)
+![Modificar Componente Intercambiable](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img33.png)
 
 **Modificar Ruta:** Se Modifica Masivamente la Ruta, de los Equipos que están previamente seleccionados en el visor.
 
-![Modificar Ruta](../../assets/images/cap03/chp03_img34.png)
+![Modificar Ruta](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img34.png)
 
 **Modificar Comentarios:** Se Modifica Masivamente los Comentarios, que están previamente digitados o seleccionados en el visor
 
-![Modificar Comentarios](../../assets/images/cap03/chp03_img35.png)
+![Modificar Comentarios](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img35.png)
 
 **Modificar FF Registro:** Se Modifica Masivamente la fecha de registro ubicada en la pestaña de Vida Útil, de los equipos que están previamente digitados o seleccionados en el visor.
 
-![vida util](../../assets/images/cap03/chp03_img36.png)
+![vida util](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img36.png)
 
 **Se Modifica Masivamente** la fecha de fabricación ubicada en la pestaña de Vida Útil, de los equipos que están previamente digitados o seleccionados en el visor.
 
-![Modificar FF Fabricación](../../assets/images/cap03/chp03_img37.png)
+![Modificar FF Fabricación](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img37.png)
 
 **Modificar FF Ingreso Inventario:** Se Modifica Masivamente la fecha de ingreso al inventario ubicada en la pestaña de Vida Útil, de los equipos que están previamente digitados o seleccionados en el visor.
 
-![Modificar FF Ingreso Inventario](../../assets/images/cap03/chp03_img38.png)
+![Modificar FF Ingreso Inventario](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img38.png)
 
 **Modificar FF Instalación:** Se Modifica Masivamente la fecha de instalación ubicada en la pestaña de Vida Útil, de los equipos que están previamente digitados o seleccionados en el visor.
 
-![Modificar FF Instalación](../../assets/images/cap03/chp03_img39.png)
+![Modificar FF Instalación](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img39.png)
 
 **Modificar FF Inicio Operación:** Se Modifica Masivamente la fecha de inicio de operación ubicada en la pestaña de Vida Útil, de los equipos que están previamente digitados o seleccionados en el visor.
 
-![Modificar FF Inicio Operación](../../assets/images/cap03/chp03_img40.png)
+![Modificar FF Inicio Operación](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img40.png)
 
 **Modificar FF Dado de Baja:** Se Modifica Masivamente la fecha de dada de baja en la pestaña de Vida Útil, de los equipos que están previamente digitados o seleccionados en el visor.
 
-![Modificar FF Dado de Baja](../../assets/images/cap03/chp03_img41.png)
+![Modificar FF Dado de Baja](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img41.png)
 
 **Modificar FF Adquisición:** Se Modifica Masivamente la fecha de adquisición ubicada en la pestaña de Vida Útil, de los equipos que están previamente digitados o seleccionados en el visor.
 
-![Modificar FF Adquisición](../../assets/images/cap03/chp03_img41..png)
+![Modificar FF Adquisición](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img41..png)
 
 **Modificar Tipo Adquisición:** Se Modifica Masivamente el tipo de adquisición seleccionado de la lista desplegada y que está ubicada en la pestaña de Vida Útil, de los equipos que están previamente digitados o seleccionados en el visor.
 
-![Modificar Tipo Adquisición](../../assets/images/cap03/chp03_img42.png)
+![Modificar Tipo Adquisición](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img42.png)
 
 **Modificar Contrato:** Se Modifica Masivamente el Contrato ubicado en la pestaña de Vida Útil, de los equipos que están previamente digitados o seleccionados en el visor.
 
-![Modificar Contrato](../../assets/images/cap03/chp03_img43.png)
+![Modificar Contrato](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img43.png)
 
 **Modificar Número de Póliza:** Se Modifica Masivamente el número de la póliza ubicada en la pestaña de Vida Útil, de los equipos que están previamente digitados o seleccionados en el visor.
 
-![Modificar Número de Póliza](../../assets/images/cap03/chp03_img44.png)
+![Modificar Número de Póliza](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img44.png)
 
 **Modificar FF Ingreso de Póliza:** Se Modifica Masivamente la fecha de ingreso de la póliza ubicada en la pestaña de Vida Útil, de los equipos que están previamente digitados o seleccionados en el visor.
 
-![Modificar FF Ingreso de Póliza](../../assets/images/cap03/chp03_img45.png)
+![Modificar FF Ingreso de Póliza](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img45.png)
 
 ###Actualizar Contadores
 
@@ -564,7 +567,7 @@ Es  la función  que facilita  la  Actualización de  los  Contadores de  los  E
 
 La ventana despliega la lista de los Equipos que tienen registrado un Contador dentro  de su definición de  Ficha Técnica. Junto al  Código de cada Equipo aparece el  tipo  de Contador y los datos referentes a la última lectura registrada. Posteriormente, a la derecha de cada línea de un Equipo se encuentran disponibles un conjunto de  campos para el registro de la información correspondiente a una nueva lectura.
 
-![Actualizar Contadores](../../assets/images/cap03/chp03_img46.png)
+![Actualizar Contadores](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img46.png)
 
 En  la  gráfica  anterior,  Ventana  para  Actualización  de  Contadores,  se  aprecian   sus componentes y sus respectivos contenidos. A continuación se describen los  campos que componen esta ventana, junto con una breve guía de uso.
 
@@ -590,22 +593,22 @@ Medición Actual a la columna Nueva Medición.
 
 Al  finalizar  de  registrar  todas  las  lecturas  de  contadores  se  da  un  clic  en  el  botón `<a class="btn">`Actualizar`</a>` y el sistema responde con una Caja de Diálogo como la que  sigue,  en cuyo caso   para   realizar   efectivamente  las   actualizaciones  a   las   lecturas   de   contadores registradas se da un clic en el botón `<a class="btn">`Sí`</a>`.
 
-![Atencion](../../assets/images/cap03/chp03_img47.png)
+![Atencion](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img47.png)
 
 Realizado el proceso se cambian los datos en rojo de la columna Nueva Medición por color verde, mostrando los campos actualizados.
 
 Es posible definir en valores por defecto la posibilidad de  “No modificación de Contadores decrementales por Equipo”, cuya función es impedir la carga de Contadores inferiores al que posee en la actualidad el equipo.
 
-![valores por defecto](../../assets/images/cap03/chp03_img48.png)
+![valores por defecto](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img48.png)
 
 Adicionalmente,  se  cuenta  con  la  posibilidad  de  activar  la  opción  de   “No   permitir modificaciones por encima del estándar de planeación”, cuya funcionalidad  es  impedir la carga de contadores por encima de un estándar predefinido para un periodo de tiempo.
 
-![valores por defecto](../../assets/images/cap03/chp03_img49.png)
+![valores por defecto](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img49.png)
 
 ### Cambiar a TreeGrid
 
 Es  la función  que facilita  visualizar en vista de árbol un conjunto de Activos de acuerdo al subgrupo o todos los Activos del módulo. A  esta ventana se llega mediante un clic en el icono con  ubicado en la parte superior derecha de la ventana Visor de Activos.
-![activos](../../assets/images/cap03/chp03_img50.png)
+![activos](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img50.png)
 
 ### Exportar
 
@@ -613,7 +616,7 @@ Esta opción permite la exportación de los Equipos/Activos que aparecen en el v
 
 Al ejecutar esta transacción, se abrirá una ventana la cual se muestra a continuación.
 
-![exportar activos](../../assets/images/cap03/chp03_img51.png)
+![exportar activos](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img51.png)
 
 Al darle clic en el botón `<a class="btn">`Exportar`</a>` , se generará un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso, el objetivo de esta exportación es llevar toda la información de los Equipos contenidos en el visor a un archivo plano, para luego ser analizados.
 
@@ -623,7 +626,7 @@ Adicionalmente, es posible exportar todos los campos de la ventana Detalle de lo
 
 Este comando permite visualizar los reportes relacionados con los Activos / Equipos. Existen los siguientes tipos de reportes básicos disponibles:
 
-![exportar activos](../../assets/images/cap03/chp03_img52.png)
+![exportar activos](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img52.png)
 
 Los  anteriores  reportes  pueden  ser  seleccionados  para  uno  o  varios   Equipos:
 
