@@ -77,83 +77,78 @@ A continuación se describen los campos que componen el registro, sobre cada cam
 
 **Alias:** En algunas plantas por tradición o cultura, se tiene una denominación especial con la cual se conocen algunos Activos/Equipos. Este campo es el especial para registrar tal nombre especial. Igualmente se puede utilizar para registrar códigos  antiguos con que se definían este Activo antes de la nueva codificación. Este campo cuenta  con una disponibilidad de 20 caracteres.
 
-**Centro de Costo:** En este campo se registra o se despliega automáticamente, el  Centro de Costo al que está asociado el Activo. Si el Activo se definió previamente, el Centro  de  Costo aparece automáticamente. Si es una nueva definición la que se está realizando, el sistema muestra  y  pone  como  disponible  todo  el  contenido de  la  tabla  de  Centros  de  Costo definidos en  la  Infraestructura, para seleccionar el  que  corresponde al   Activo.  Es muy importante definir este campo desde el mismo momento de la definición del Activo, puesto que es un campo derivado o sea que se  trae automáticamente para muchas funciones, cada vez que se invoca el Activo.
+**Centro de Costo:** En este campo se registra o se despliega automáticamente, el Centro de Costo al que está asociado el Activo. Si el Activo se definió previamente, el Centro  de  Costo aparece automáticamente. Si es una nueva definición la que se está realizando, el sistema muestra  y  pone como disponible todo el contenido de la tabla de  Centros de Costo definidos en la Infraestructura, para seleccionar el que corresponde al Activo. Es muy importante definir este campo desde el mismo momento de la definición del Activo, puesto que es un campo derivado o sea que se  trae automáticamente para muchas funciones, cada vez que se invoca el Activo.
 
 **Sub CC:** Este campo siempre está bloqueado y muestra el Código Sub CC asociado al Centro de Costo elegido.
 
-**Ubicación Física:** En  este  campo  se  traen  automáticamente las  Ubicaciones  Físicas definidas en la infraestructura, para definir la ubicación  geográfica del Activo en la planta. Este campo es muy importante definirlo desde el mismo momento en que se cree el Activo/Equipo, puesto que es un campo derivado, es decir, que se trae automáticamente para muchas funciones.
+**Ubicación Física:** En este campo se traen  automáticamente las Ubicaciones Físicas definidas en la infraestructura, para definir la ubicación geográfica del Activo en la planta. Este campo es muy importante definirlo desde el mismo momento en que se cree el Activo/Equipo, puesto que es un campo derivado, es decir, que se trae automáticamente para muchas funciones.
 
 **Código Barras Interno:** Este campo pertenece al Código de Barras Interno del equipo, en caso que exista alguno dentro de la empresa. Este campo cuenta con una disponibilidad de 22 caracteres.
 
 **Código Barras Proveedor:** Este campo pertenece al Código de Barras que fue asociado al equipo por parte del Proveedor.
 
-**Clasificación por Proceso:** Es la importancia o criticidad de un Activo/Equipo en la línea. En este campo se traen  automáticamente  las  diferentes  clases  como  puede  ser  clasificado  un   Activo  / Equipo, de acuerdo con el siguiente listado:
+**Clasificación por Proceso:** Es la importancia o criticidad de un Activo/Equipo en la línea o en un proceso. En este campo se traen automáticamente las diferentes clasificaciones sugeridas:
 
-**Clave o crítico**
+- **Clave o crítico**
+- **Detiene el proceso**
+- **Fácil reemplazo**
+- **No afecta el proceso**
+- **Poco uso**
+- **Ninguno**
 
-**Detiene el proceso**
+**Confiabilidad Subjetiva:** Este es un concepto subjetivo. En este campo se escribe un valor del 0 al 100%, a criterio del técnico ejecutor, que indica el grado de confiabilidad del Equipo. A pesar de lo subjetivo, este valor puede ser de consideración importante cuando se realiza una reparación a un Equipo. Se puede actualizar desde las  Órdenes de Trabajo, en el momento de su cierre.
 
-**Fácil reemplazo**
+**Proveedor:** En este campo se traen automáticamente los diferentes Terceros asignados como Proveedor/Fabricante, para seleccionar el correspondiente.
 
-**No afecta el proceso**
+**Fabricante:** En este campo se traen automáticamente los diferentes Terceros asignados como Proveedor/Fabricante, para seleccionar el correspondiente.
 
-**Poco uso**
-
-**Ninguno**
-
-**Confiabilidad Subjetiva:** Este es un concepto subjetivo. En este campo se escribe un valor del 0 al 100%, a criterio del técnico ejecutor, que indica el grado de confiabilidad del  Equipo.  A pesar de lo subjetivo, este valor puede ser de consideración importante cuando se realiza una reparación a un Equipo. Se puede actualizar desde las  Órdenes de Trabajo, en el momento de su cierre.
-
-**Proveedor:** En este campo se traen automáticamente los diferentes Terceros  asignados como Proveedor/Fabricante, para seleccionar el correspondiente.
-
-**Fabricante:** En este campo se traen automáticamente los diferentes Terceros  asignados como Proveedor/Fabricante, para seleccionar el correspondiente.
-
-**Marca:** Este campo se utiliza para diligenciar la Marca que identifica el Activo /  Equipo. Este campo cuenta con una disponibilidad de 22 caracteres.
+**Marca:** Este campo se utiliza para diligenciar la Marca que identifica el Activo/Equipo. Este campo cuenta con una disponibilidad de 22 caracteres.
 
 **Modelo:** Este campo se utiliza para diligenciar el Modelo que identifica un Activo/Equipo según el fabricante. Este campo cuenta con una disponibilidad de 30 caracteres.
 
 **Tipo:** Es una característica particular de un Activo/Equipo. Este campo se utiliza  para diligenciar el tipo que identifica un Equipo según su uso o el fabricante. Este campo cuenta con una disponibilidad de 20 caracteres.
 
-**Encargado:** Son  personas  propias  de   la  empresa  encargadas  de  la  operación   o funcionamiento  del  Activo  /  Equipo.  En  este  campo  se  traen   automáticamente   los diferentes   Terceros   asignados   como   Responsable   Interno/Empleado   y   Responsable Externo/Contratista, para seleccionar el correspondiente.
+**Encargado:** Son personas propias de la empresa  encargadas de la operación o funcionamiento del Activo/Equipo. En este campo se traen automáticamente los diferentes Terceros asignados como Responsable Interno/Empleado y Responsable Externo/Contratista.
 
-**EQ-Raíz:** Este campo se utiliza para identificar los Activo/Equipos que son una  unidad funcional que se despieza (Equipos raíz). Solo se consideran como Equipo  Raíz aquellos Activo/Equipos que no tienen una dependencia de otros y que más bien son la base de despiece de sus componentes.
+**EQ-Raíz:** Este campo se utiliza para identificar los Activo/Equipos que son una unidad funcional que se despieza (Equipos raíz). Solo se consideran como Equipo Raíz aquellos Activo/Equipos que no tienen una dependencia de otros y que más bien son la base de despiece de sus componentes.
 
-**Ruta:** En este campo se indica si el Activo/Equipo que se está definiendo es  realmente una Ruta.   Cuando se ha indicado que se trata de una Ruta, el sistema se  prepara para recibir un conjunto de información adicional correspondiente a la Ruta.  Se debe recordar que las rutas de mantenimiento asocian o integran varios Equipos.
+**Ruta:** En este campo se indica si el Activo/Equipo que se está definiendo es realmente una Ruta. Cuando se ha indicado que se trata de una Ruta, el sistema se prepara para recibir un conjunto de información adicional correspondiente a la Ruta. Se debe recordar que las rutas de mantenimiento asocian o integran varios Equipos.
 
-**Estado:** El campo estado se utiliza para definir si el  Activo actual se encuentra  Activo (Operativo) o Inactivo (No operativo o dado de baja temporal o totalmente). Este Estado se utiliza durante los procesos de Generación Automática de Ordenes  de Trabajo y de Proyección para un período futuro, pues solamente se tienen en  cuenta aquellos Equipos con Estado Activo.
+**Estado:** El campo estado se utiliza para definir si el  Activo actual se encuentra  Activo (Operativo) o Inactivo (No operativo o dado de baja temporal o totalmente). Este Estado se utiliza durante los procesos de Generación Automática de Ordenes  de Trabajo y de Proyección para un período futuro, pues solamente se tienen en  cuenta aquellos Equipos con Estado Activo:
 
-**A ** Dado en préstamo
+**A** - Dado en préstamo
 
-**A ** Recibido en préstamo
+**A** - Recibido en préstamo
 
-**A ** Dado en arriendo
+**A** - Dado en arriendo
 
-**A ** Recibido en arriendo
+**A** - Recibido en arriendo
 
-**A ** En convenio
+**A** - En convenio
 
-**A ** Otro
+**A** - Otro
 
-Los Activo/Equipos Inactivos pueden tener las siguientes condiciones:
+Los Activos/Equipos Inactivos pueden tener las siguientes condiciones:
 
-**| ** Dado de baja
+**I** - Dado de baja
 
-**I ** Overhaul
+**I** - Overhaul
 
-**I ** No está en operación
+**I** - No está en operación
 
-**I ** Otro
+**I** - Otro
 
-**Contador:** En este campo se traen automáticamente de la tabla de Infraestructura los diferentes tipos de Contadores que pueden ser definidos para un Equipo o una  máquina. Se  selecciona el  que mejor  refleje  o  sea más  representativo del  trabajo  que  realiza  el Equipo. Se usa además, al definir un Programa de Mantenimiento, en función del trabajo realizado por el mismo  Equipo.
+**Contador:** En este campo se traen automáticamente de la tabla de Infraestructura los diferentes tipos de Contadores que pueden ser definidos para un Equipo o una máquina. Se  selecciona el que mejor refleje o sea más representativo del trabajo que realiza el Equipo. Se usa además, al definir un Programa de Mantenimiento, en función del trabajo realizado por el mismo Equipo.
 
-**Decremental / Incremental:** En este campo se elige si es un Contador tipo Incremental (siempre aumenta) o Decremental (permite valores que decrecen o negativos).
+**Decremental/Incremental:** En este campo se elige si es un Contador tipo Incremental (siempre aumenta) o Decremental (permite valores que decrecen o negativos).
 
-**Valor Contador:** En este campo con capacidad de 58 dígitos se registra el valor del contador según la última lectura realizada. Es un valor base para los procesos de  Proyección y Programación que se realizan desde Programas de Mantenimiento.
+**Valor Contador:** En este campo con capacidad de 15 dígitos se registra el valor del contador según la última lectura realizada. Es un valor base para los procesos de  Proyección y Programación que se realizan desde Programas de Mantenimiento.
 
-**FF Lectura:** Es la fecha en la cual se toma la medición actual del contador. Es una fecha  base  para  el  proceso  de  Proyección  y  Programación  que  se  realiza   desde Programas de Mantenimiento.
+**FF Lectura:** Es la fecha en la cual se toma la medición actual del contador. Es una fecha base para el proceso  de  Proyección y Programación que se realiza desde Programas de Mantenimiento.
 
-**Std. Planeación:**  Es un  promedio de  trabajo realizado por  el   Equipo en  una unidad  de  tiempo,  en  función  de  su  contador  asociado. En  este  campo  se  escribe  la cantidad de unidades que avanza en un lapso, el contador seleccionado. Por medio del estándar de Planeación se realiza la proyección de un contador para un Equipo,  hacia  el futuro.
+**Std. Planeación:** Es un promedio de trabajo realizado por el Equipo en una unidad  de  tiempo, en función  de  su  contador asociado. En este campo se escribe  la cantidad de unidades que avanza en un lapso, el contador seleccionado. Por medio del estándar de Planeación se realiza la proyección de un contador para un Equipo, hacia el futuro.
 
-**Por:** En  este  campo  se  indica  la  unidad  de  tiempo  considerada en  el  Estándar  de
+**Por:** En este campo se indica la unidad de tiempo  considerada en el Estándar de
 Planeación. Se puede seleccionar cualquiera de las siguientes opciones:
 
 - Día
@@ -163,12 +158,11 @@ Planeación. Se puede seleccionar cualquiera de las siguientes opciones:
 
 **Comentario:** Aquí se ingresan los comentarios sobre un Activo o se especifica información adicional al AC.
 
-## Ventana Submenú de Activos / Equipos
+## Ventana Submenú de Activos/Equipos
 
 ### Ir a AC
 
-Esta opción se encuentra ubicada al lado superior derecho de la ventana Visor. Al darle clic al
-`<span class="iconify btn" data-icon="mdi-filter-variant">`Buscar, se abre un campo al lado izquierdo, donde se registra el código exacto del Activo que se desea encontrar rápidamente. Luego de digitar el código del Activo /  Equipo, se presiona la tecla `<a class="btn">`Enter`</a>` y  el  cursor  se  posiciona en  consecuencia,  sobre  el Activo deseado en el Visor.
+Esta opción se encuentra ubicada al lado superior derecho de la ventana Visor. Al darle clic al <span class="iconify btn" data-icon="mdi-filter-variant">Buscar, se abre un campo al lado izquierdo, donde se registra el código exacto del Activo que se desea encontrar rápidamente. Luego de digitar el código del Activo/Equipo, se presiona la tecla <a class="btn">Enter</a> y el cursor se posiciona en  consecuencia,  sobre el Activo deseado en el Visor.
 
 ![VENTANA IR](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img05.png)
 
