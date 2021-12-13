@@ -1,7 +1,7 @@
 # Navbar left menu navigation links
 
 left:
-  - title: Documentación
+  - title: Manual De Usuario
     url: /docs/01_01_introduction/
 
   # - title: Blog
