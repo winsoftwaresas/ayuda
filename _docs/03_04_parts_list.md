@@ -168,7 +168,8 @@ _**Imagen 5.** Ir a AC_
 
 En caso de escribir el código con algún error, el sistema muestra un mensaje de alerta indicando que el Activo no existe.
 
-![ALERTA](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img06.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img04_2.png)
+_**Imagen 6.** Mensaje Alerta - Ir a AC_
 
 ## Indicadores
 
