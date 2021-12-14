@@ -146,10 +146,9 @@ Los Activos/Equipos Inactivos pueden tener las siguientes condiciones:
 
 **FF Lectura:** Es la fecha en la cual se toma la medición actual del contador. Es una fecha base para el proceso  de  Proyección y Programación que se realiza desde Programas de Mantenimiento.
 
-**Std. Planeación:** Es un promedio de trabajo realizado por el Equipo en una unidad  de  tiempo, en función  de  su  contador asociado. En este campo se escribe  la cantidad de unidades que avanza en un lapso, el contador seleccionado. Por medio del estándar de Planeación se realiza la proyección de un contador para un Equipo, hacia el futuro.
+**Std. Planeación:** Es un promedio de trabajo realizado por el Equipo en una unidad de tiempo, en función de su  contador asociado. En este campo se escribe la cantidad de unidades que avanza en un lapso, el contador seleccionado. Por medio del estándar de Planeación se realiza la proyección de un contador para un Equipo hacia el futuro.
 
-**Por:** En este campo se indica la unidad de tiempo  considerada en el Estándar de
-Planeación. Se puede seleccionar cualquiera de las siguientes opciones:
+**Por:** En este campo se indica la unidad de tiempo  considerada en el Estándar de Planeación. Se puede seleccionar cualquiera de las siguientes opciones:
 
 - Día
 - Semana
@@ -162,9 +161,10 @@ Planeación. Se puede seleccionar cualquiera de las siguientes opciones:
 
 ### Ir a AC
 
-Esta opción se encuentra ubicada al lado superior derecho de la ventana Visor. Al darle clic al <span class="iconify btn" data-icon="mdi-filter-variant">Buscar, se abre un campo al lado izquierdo, donde se registra el código exacto del Activo que se desea encontrar rápidamente. Luego de digitar el código del Activo/Equipo, se presiona la tecla <a class="btn">Enter</a> y el cursor se posiciona en  consecuencia,  sobre el Activo deseado en el Visor.
+Esta opción de búsqueda rápida se encuentra ubicada al lado superior derecho de la ventana Visor. Al darle clic al ícono de lupa <span class="mdi mdi-magnify"></span>, se abre un campo al lado izquierdo que indica la información que debe ingresarse, bien sea, el código completo o serial del Activo. Luego de digitar la información, se presiona la tecla <a class="btn">Enter <span class="mdi mdi-subdirectory-arrow-left"></span><a> y a continuación se sombrea el Activo deseado en el Visor.
 
-![VENTANA IR](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img05.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img04_1.png)
+_**Imagen 5.** Ir a AC_
 
 En caso de escribir el código con algún error, el sistema muestra un mensaje de alerta indicando que el Activo no existe.
 
