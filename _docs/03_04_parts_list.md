@@ -161,7 +161,7 @@ Los Activos/Equipos Inactivos pueden tener las siguientes condiciones:
 
 ### Ir a AC
 
-Esta opción de búsqueda rápida se encuentra ubicada al lado superior derecho de la ventana Visor. Al darle clic al ícono de lupa <span class="mdi mdi-magnify"></span>, se abre un campo al lado izquierdo que indica la información que debe ingresarse, bien sea, el código completo o serial del Activo. Luego de digitar la información, se presiona la tecla <a class="btn">Enter <span class="mdi mdi-subdirectory-arrow-left"></span><a> y a continuación se sombrea el Activo deseado en el Visor.
+Esta opción de búsqueda rápida se encuentra ubicada al lado superior derecho de la ventana Visor. Al darle clic al ícono de lupa <span class="mdi mdi-magnify"></span>, se abre un campo al lado izquierdo que indica la información que debe ingresarse, bien sea, el código completo o serial del Activo. Luego de digitar la información, se presiona la tecla <a class="btn">Enter <span class="mdi mdi-subdirectory-arrow-left"></span><a> y a continuación se sombrea el Activo deseado en el Visor:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img04_1.png)
 _**Imagen 5.** Ir a AC_
@@ -173,11 +173,12 @@ _**Imagen 6.** Mensaje Alerta - Ir a AC_
 
 ## Indicadores
 
-Es posible visualizar de manera inmediata, los Activos que son raíz, ubicaciones técnicas, componentes intercambiables y si estos dos últimos no están asociados entre ellos. También, si tienen asociados Multimedia, características técnicas y biomédicas directamente desde la ventana visor, a través de la columna “Indicadores” que muestra una pelota de color que indica el tipo de información definida y asociada. El significado del color de cada pelota, se puede ver en el recuadro de Indicadores, ubicado en la parte superior derecha de la ventana visor.
+Es posible visualizar de manera inmediata, los Activos que son raíz o padre, ubicaciones técnicas, componentes intercambiables. También, si tienen asociada Multimedia, características técnicas y biomédicas directamente desde la ventana visor, a través de la columna “Indicadores” que muestra una pelota de color que indica el tipo de información definida y asociada. El significado del color de cada pelota, se puede ver en el recuadro de Indicadores   ubicado en la parte superior derecha de la ventana visor.
 
-![activos](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img07.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img04_3.png)
+_**Imagen 7.** Activos - Indicadores_
 
-El significado de los colores se visualiza al sobreponer el mouse en el icono que se encuentra al extremo superior derecho y su correspondencia es:
+El significado de los colores se visualiza al sobreponer el cursor sobre el icono <span class="mdi mdi-message-alert"></span> que se encuentra al extremo superior derecho y su correspondencia es:
 
 - **Verde:** Activos definidos con AC-Raíz como SÍ.
 - **Amarillo:** Activos definidos como Ubicación Técnica.
@@ -188,9 +189,10 @@ El significado de los colores se visualiza al sobreponer el mouse en el icono qu
 
 ## Subgrupo
 
-Se usa para seleccionar grupos de  Activos / Equipos que cumplen con un conjunto  de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al `<a class="btn">`icono de filtro`</a>`, ubicado en la parte superior derecha de la ventana Visor de Activos.
+Se usa para seleccionar grupos de  Activos / Equipos que cumplen con un conjunto  de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al <span class="mdi mdi-filter-variant"></span>, ubicado en la parte superior derecha de la ventana Visor de Activos.
 
-![activos](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img08.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img05.png)
+_**Imagen 7.** Activos - Subgrupo_
 
 Cada criterio trabaja en conjunto con los demás, con el operador intersección.
 
