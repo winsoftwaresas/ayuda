@@ -21,10 +21,10 @@ Estructurar el código de Activo/Equipo es una labor de Implementación que exig
 
 **Por ejemplo:** el código COARCSU se puede descomponer de la siguiente forma:
 
-**CO** Grupo de Equipos corrugadores
-**COA** Corrugador A
-**COARC**  Sistema de Rodillos Corrugadores del Corrugador A.
-**COARCSU** Rodillo superior del Sistema de Rodillos Corrugadores del **COA**
+- **CO** Grupo de Equipos corrugadores
+- **COA** Corrugador A
+- **COARC**  Sistema de Rodillos Corrugadores del Corrugador A.
+- **COARCSU** Rodillo superior del Sistema de Rodillos Corrugadores del **COA**
 
 **2.**	Antes de codificar algún Activo se debe haber establecido la estructura general y común de codificación de Activos de la empresa. Tal estructura se conforma definiendo los grupos significativos de primer, segundo, tercer y en ocasiones hasta de cuarto orden, de acuerdo a la cultura técnica y requerimientos del área de Mantenimiento.
 
@@ -161,7 +161,7 @@ Los Activos/Equipos Inactivos pueden tener las siguientes condiciones:
 
 ### Ir a AC
 
-Esta opción de búsqueda rápida se encuentra ubicada al lado superior derecho de la ventana Visor. Al darle clic al ícono de lupa <span class="mdi mdi-magnify"></span>, se abre un campo al lado izquierdo que indica la información que debe ingresarse, bien sea, el código completo o serial del Activo. Luego de digitar la información, se presiona la tecla <a class="btn">Enter <span class="mdi mdi-subdirectory-arrow-left"></span><a> y a continuación se sombrea el Activo deseado en el Visor:
+Esta opción de búsqueda rápida se encuentra ubicada al lado superior derecho de la ventana Visor. Al darle clic al ícono de lupa <span class="mdi mdi-magnify"></span>, se abre un campo al lado izquierdo que indica la información que debe ingresarse, bien sea, el código completo o serial del Activo. Luego de digitar la información, se presiona la tecla <a class="btn">Enter <span class="mdi mdi-subdirectory-arrow-left"></span></a> y a continuación se sombrea el Activo deseado en el Visor:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img04_1.png)
 _**Imagen 5.** Ir a AC_
@@ -189,10 +189,10 @@ El significado de los colores se visualiza al sobreponer el cursor sobre el icon
 
 ## Subgrupo
 
-Se usa para seleccionar grupos de  Activos / Equipos que cumplen con un conjunto  de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al <span class="mdi mdi-filter-variant"></span>, ubicado en la parte superior derecha de la ventana Visor de Activos.
+Se usa para filtrar grupos de Activos/Equipos que cumplen con un conjunto  de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al <span class="mdi mdi-filter-variant"></span>, ubicado en la parte superior derecha de la ventana Visor de Activos.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img05.png)
-_**Imagen 7.** Activos - Subgrupo_
+_**Imagen 7.** Activos - Ir a Subgrupo_
 
 Cada criterio trabaja en conjunto con los demás, con el operador intersección.
 
@@ -200,19 +200,24 @@ Cada criterio aparece inicializado en un valor global que permite mostrar todos 
 
 **AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar.
 
-El programa permite entonces hacer selección de un grupo de Activos de acuerdo con los criterios seleccionados en la siguiente ventana.
+El programa permite entonces hacer selección de un grupo de Activos de acuerdo con los criterios seleccionados en la siguiente ventana:
 
-![AC](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img08.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img06.png)
+_**Imagen 8.** Subgrupo Activos_
 
 Los campos de datos que constituyen los criterios de selección en la Ventana  Subgrupo son los siguientes.
 
+**Activo Fijo:** Esta  opción  permite  hacer  búsqueda de  un  Activo/Equipo  por: Número de Inventario o Código Contable.
+
+**Activo Padre:** Esta  opción hace una búsqueda del conjunto de Activos que son hijos o son parte del despiece del código del Activo/Equipo digitado en este campo. Es posible hacer uso de comodines %.
+
 **Alias:** Permite seleccionar un Activo/Equipo por el Alias previamente definido en la ficha técnica.
 
-**Característica:** Permite seleccionar los Activos / Equipos de acuerdo con una determinada Característica. Esta opción también permite el uso de comodines y funciona igual que en los casos anteriores.
+**Característica:** Permite seleccionar los Activos/Equipos de acuerdo con una determinada Característica. Esta opción también permite el uso de comodines (%) cuando se desactiva por medio de un clic el candado <span class="mdi mdi-lock"></span> que está al lado del campo, el cual permite escribir <span class="mdi mdi-lock-open-outline"></span> y funciona igual que en los casos anteriores.
 
-**Centro de Costo:** Permite la selección de los Activos / Equipos de acuerdo con el Centro de  Costo  asignado  al  Activo  /  Equipo.	Cuando  se  utilizan  comodines,  es   posible seleccionar los Activos pertenecientes a Centros de Costo que tengan parte  del nombre igual. Por ejemplo: Sistema% seleccionará todos los Activos / Equipos en cuyo Centro de Costo tengan la palabra Sistema, independiente de si se está  hablando del Sistema de Agua, de Vapor o de Energía.
+**Centro de Costo:** Permite la selección de los Activos/ Equipos de acuerdo con el Centro de Costo asignado al  Activo/Equipo. Esta opción también permite el uso de comodines (%) cuando por medio de un clic se desactiva el candado <span class="mdi mdi-lock"></span> que está al lado del campo, el cual permite escribir <span class="mdi mdi-lock-open-outline"></span>, siendo posible seleccionar los Activos pertenecientes a Centros de Costo que tengan parte  del nombre igual. Por ejemplo: **Sistema%** seleccionará todos los Activos/Equipos en cuyo Centro de Costo tengan la palabra Sistema, independiente de si se está hablando del Sistema de Agua, de Vapor o de Energía.
 
-**Clase:** Permite la selección de los Activos / Equipos según las diferentes clases en  que puede ser clasificado un Activo, de acuerdo con el siguiente listado:
+**Clase:** Permite la selección de los Activos/Equipos según las diferentes clases en que puede ser clasificado un Activo, de acuerdo con el siguiente listado:
 
 - Clave o crítico
 - Detiene el  proceso
@@ -226,31 +231,31 @@ Los campos de datos que constituyen los criterios de selección en la Ventana  S
 - Clase III: Muy Alto Riesgo
 - Crítico Ambiental
 
-**código. Por ejemplo:** si se escribe 3201%, se seleccionan todos los Equipos cuyo  código inicia por 3201.  Si se escribe    	BO%   se seleccionan todos los Equipos cuyo código inicie por cualquier cuarteto de valores pero que en la quinta y sexta posición  tengan un BO.  El porcentaje es un carácter comodín que significa ** “todos”.**
+**Código:** Esta selección agrupa los Activos/Equipos relacionados, por su código. Por ejemplo si se escribe **3201%**, se seleccionan todos los Equipos cuyo código inicia por 3201. El porcentaje es un carácter comodín que significa **“todos”.**
 
-**Código  de  Barras  Interno:** Permite  seleccionar  el  Activo/  Equipo  que  se  encuentre asociado al Código de Barras Interno que se ingresó al crear el Activo/ Equipo.
+**Código de Barras Interno:** Permite seleccionar el  Activo/Equipo que se encuentre asociado al Código de Barras Interno que se ingresó al crear su ficha técnica.
 
-**Código  de  Barras Proveedor:** Permite seleccionar el Activo/ Equipo que se  encuentre asociado al Código de Barras del Proveedor que se ingresó al crear el Activo/ Equipo.
+**Código de Barras Proveedor:** Permite seleccionar el Activo/Equipo que se encuentre asociado al Código de Barras del Proveedor que se ingresó al crear el Activo/ Equipo.
 
-**Confiabilidad Subjetiva:** Agrupa los Activos  /  Equipos que cumplan con el grado de confiabilidad que se indique en los dos campos que tiene esta opción de subgrupo.
+**Confiabilidad Subjetiva:** Agrupa los Activos/Equipos que cumplan con el grado de confiabilidad que se indique en los dos campos que tiene esta opción de subgrupo:
 
-**El primer campo despliega las siguientes opciones:**
+El primer campo despliega las siguientes opciones:
 
-**=:** Realiza la búsqueda a los Activos /  Equipos que tengan una confiablidad subjetiva igual al valor indicado en el segundo campo.
+**=:** Realiza la búsqueda a los Activos/Equipos que tengan una confiablidad subjetiva igual al valor indicado en el segundo campo.
 
-**>:** Realiza la búsqueda a los Activos /  Equipos que tengan una confiablidad subjetiva mayor al valor indicado en el segundo campo.
+**>:** Realiza la búsqueda a los Activos/Equipos que tengan una confiablidad subjetiva mayor al valor indicado en el segundo campo.
 
-**<:** Realiza la búsqueda a los Activos /  Equipos que tengan una confiablidad subjetiva menor al valor indicado en el segundo campo.
+**<:** Realiza la búsqueda a los Activos/Equipos que tengan una confiablidad subjetiva menor al valor indicado en el segundo campo.
 
-El segundo campo se usa para colocar el valor (en porcentaje) correspondiente a la confiablidad subjetiva indicada por el técnico ejecutor.
+El segundo campo se usa para ingresar el valor correspondiente a la confiablidad subjetiva indicada por el técnico ejecutor.
 
-**Contador:** Permite seleccionar  los Activos /  Equipos de  acuerdo con  un   determinado Contador. Esta opción también permite el uso de comodines y funciona  igual que en los casos anteriores.
+**Contador:** Permite seleccionar los Activos/Equipos de  acuerdo con un determinado Contador. Esta opción también permite el uso de comodines y funciona igual que en los casos anteriores.
 
-**Descripción  del  Equipo:**  Selecciona  los  Activos  /  Equipos  según  criterios  que   se fundamenten en su descripción. Ejemplo: % Motor % selecciona todos los Activos / Equipos en cuya descripción, en cualquier posición, tengan la palabra  “Motor”.
+**Descripción del Equipo:** Selecciona los Activos/Equipos según criterios que se fundamenten en su descripción. Ejemplo: %Motor% selecciona todos los Activos/Equipos en cuya descripción, en cualquier posición, tengan la palabra  “Motor”.
 
-**Encargado:** Permite seleccionar los Activos /  Equipos  de acuerdo con  un  determinado Encargado. Esta opción también permite el uso de comodines y funciona igual que en los casos anteriores.
+**Encargado:** Permite seleccionar los Activos/Equipos  de acuerdo con un determinado Encargado. Esta opción también permite el uso de comodines y funciona igual que en los casos anteriores.
 
-**Estado:** Permite la selección de los Activos / Equipos de acuerdo al Estado de  Activo  o Inactivo.  Tal  estado  es  importante  para  la  generación  de  OTs   automáticas  en  los Programas de Mantenimiento.
+**Estado:** Permite la selección de los Activos/Equipos de acuerdo al Estado de Activo o Inactivo.  Tal estado es  importante para la generación de OTs automáticas en los Programas de Mantenimiento.
 
 **Fabricante:** Permite seleccionar  los Activos /  Equipos  de  acuerdo con  un  determinado Fabricante Esta opción también permite el uso de comodines y funciona  igual que en los casos anteriores.
 
@@ -270,8 +275,6 @@ Vencimiento de la Garantía en un rango determinado de tiempo.
 
 **Modelo:** Permite realizar  un  Subgrupo de  Activos /  Equipos  que  tengan asignado  el
 Modelo que se especifica en este campo.
-
-**Número Activo Fijo:** Esta  opción  permite  hacer  búsqueda de  un  Activo /  Equipo  por: Número de Inventario o Código Contable.
 
 **Proveedor:** Permite seleccionar los Activos / Equipos según un determinado  Proveedor. Esta opción  también  permite  el  uso   de  comodines y funciona igual   que  en  los casos anteriores.
 
