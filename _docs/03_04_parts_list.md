@@ -297,7 +297,7 @@ El segundo campo se usa para ingresar el valor correspondiente a la confiablidad
 
 **Número de Póliza:** Filtra los Activos/Equipos que tengan asociado una póliza.
 
-**Switch con Póliza:** Filtra aquellos registros de Activos/Equipos que estén o no asociados a una póliza. Este capo sólo es de selección.
+**Switch con Póliza:** Filtra aquellos registros de Activos/Equipos que estén o no asociados a una póliza. Este campo sólo es de selección.
 
 #### METROLOGÍA
 
@@ -314,23 +314,26 @@ El segundo campo se usa para ingresar el valor correspondiente a la confiablidad
 
 ## Vistas Parciales / Pestañas
 
-Las Vistas Parciales o Pestañas permiten complementar la información que se despliega normalmente sobre un Activo/Equipo, con otro conjunto de información que solo se muestra cuando es necesario,  por  solicitud  del  usuario. Las vistas parciales  disponibles son: las características, vida útil, multimedia.
+Las Vistas Parciales o Pestañas permiten complementar la información de la Ficha Ténica de un Activo/Equipo, con otro conjunto de información que solo se muestra cuando es necesario por solicitud del usuario. Las vistas parciales  disponibles son: las características, vida útil, multimedia. Para compañías biomédicas: Características, Vida Útil, Información Biomédica y Multimedia.
+
+A continuación se describen las vistas parciales o porciones de la información del Activo:
 
 ### Características
 
-Esta  opción  permite  definir  para  un  determinado  Activo  /  Equipo  las   Características técnicas que lo definen. En la parte izquierda de la ventana aparece un nuevo Visor en el que irán apareciendo las Características que se van creando en la ventana Detalle, mientras que en la parte derecha aparece los campos para crear o actualizar la información de las características.
+Esta opción permite definir para un determinado Activo/Equipo las Características técnicas que lo definen. En la parte izquierda de la ventana aparece un nuevo Visor en el que irán apareciendo las Características que se van creando en la ventana Detalle, mientras que en la parte derecha aparece los campos para crear o actualizar la información de las características.
 
-![AC](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img10.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img07.png)
+_**Imagen 9.** Activos - Características_
 
-En la gráfica anterior, Vista Parcial de Características, se aprecian sus componentes y sus respectivos  contenidos.  En  la  ventana  Detalle  de  Características  se  encuentra  la información relevante a la Característica seleccionada en el Visor, que hace  referencia al Activo/Equipo que está activo.
+En la gráfica anterior, Vista Parcial de Características, se aprecian sus componentes y sus respectivos contenidos. En  la ventana Detalle de Características se encuentra la información relevante a la Característica seleccionada en el Visor, que hace referencia al Activo/Equipo.
 
-A   continuación  se  describen  los  campos  que  componen  esta  Ventana   información adicional.
+A continuación se describen los campos que componen esta  Ventana información adicional.
 
-**Cuadro Identificación:** Aparece con los campos bloqueados para que el usuario visualice la información básica del Activo al cual se le están definiendo las Características.
+**Identificación:** Aparece con los campos bloqueados para que el usuario visualice la información básica del Activo al cual se le están definiendo las Características.
 
 **Car. Técnica:** En este campo se traen automáticamente las características definidas  en la Infraestructura, para seleccionar aquellas que son propias del Activo/Equipo activo.
 
-**Unidad  de Medida:** En este campo se traen automáticamente las Unidades de  Medida definidas   en   la   Infraestructura,   para   seleccionar   aquella   que    corresponda   a   la Característica seleccionada.
+**Unidad  de Medida:** En este campo se traen automáticamente las Unidades de Medida definidas en la   Infraestructura, para seleccionar aquella que corresponda a la Característica seleccionada.
 
 **Tipo:** En este campo se define la cualidad de la Característica definida de acuerdo con los siguientes criterios:
 
@@ -339,22 +342,24 @@ A   continuación  se  describen  los  campos  que  componen  esta  Ventana   in
 
 **Valor Nominal:** En este campo se ingresa el Valor Nominal (Máximo 30 caracteres) de la Característica definida de acuerdo con las indicaciones del fabricante.
 
-**Tolerancia:**   En   este   campo   se   ingresa   el   factor   de   tolerancia   permitido   para   la característica definida de acuerdo con los criterios del fabricante o la experiencia  técnica de los responsables del Activo/Equipo. Existen 2 campos y son:
+**Tolerancia:**  En este campo se ingresa el factor de   tolerancia o rango permitido para la característica definida de acuerdo con los criterios del fabricante o la experiencia técnica de los responsables del Activo/Equipo. Existen 2 campos y son:
 
 **Desde:** Se define el valor mínimo permitido para la característica definida.
-Hasta: Se define al valor máximo permitido para la característica definida.
+
+**Hasta:** Se define al valor máximo permitido para la característica definida.
 
 ### Características Controlables
 
-Esta opción permite ingresar valores de medición a  aquellas características que  fueron definidas previamente como controlables.
+Esta opción permite ingresar valores de medición a aquellas características que fueron definidas previamente como controlables.
 
-![DETALLE DE ACT](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img11.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img08.png)
+_**Imagen 10.** Activos - Características Controlables_
 
-En  la  gráfica  anterior,  Vista  Parcial  de  Características  Controlables,  se  aprecian  sus componentes y sus respectivos contenidos. En la ventana Detalle de  Características se encuentra la información relevante a la Característica seleccionada  en el Visor, que hace referencia al Activo/Equipo que está activo. Junto con esta información se encuentra un conjunto de datos para el registro de la medición que se va a registrar.
+En  la  gráfica  anterior, Vista Parcial  de  Características Controlables, se aprecian sus componentes y sus respectivos contenidos. En la ventana Detalle de  Características se encuentra la información relevante a la Característica seleccionada  en el Visor, que hace referencia al Activo/Equipo. Junto con esta información se encuentra un conjunto de datos para el registro de la medición que se va a registrar.
 
-A   continuación  se  describen  los  campos  que  componen  esta  Ventana información adicional.
+A continuación se describen los campos que componen esta  Ventana información adicional.
 
-**Car. Controlable:** En este campo se despliegan automáticamente las características  que fueron definidas previamente como Controlables, para seleccionar aquella a la  cual se le va a registrar una determinada medición.
+**Car. Controlable:** En este campo se despliegan automáticamente las características que fueron definidas previamente como Controlables, para seleccionar aquella a la cual se le va a registrar una determinada medición.
 
 **Unidad de Medida:** En este campo se trae automáticamente la Unidad de  Medida definida en la Característica Controlable seleccionada.
 
@@ -364,15 +369,16 @@ A   continuación  se  describen  los  campos  que  componen  esta  Ventana info
 
 ### Vida Útil
 
-![DETALLE DE ACT](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img12.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img09.png)
+_**Imagen 11.** Activos - Vida Útil_
 
-En la gráfica anterior, Ventana de Vida Útil, se aprecian sus componentes y sus respectivos contenidos.
+En la gráfica anterior, Proción Vida Útil, se aprecian sus componentes y sus respectivos contenidos.
 
 A través de la ventana de Vida Útil se registra todo el compendio de las fechas en forma de cronología desde que se adquiere el Activo hasta su disposición final.
 
-A   continuación  se  describen  los  campos  que  componen  esta  Ventana información adicional.
+A continuación se describen los campos que componen esta Pestaña:
 
-**Cuadro Identificación:** Aparece con los campos bloqueados para que el usuario visualice la información básica del Activo al cual se le están definiendo las Características.
+**Identificación:** Aparece con los campos bloqueados para que el usuario visualice la información básica del Activo al cual se le están definiendo las Características.
 
 **FF Registro:** En este campo se registra la fecha de registro del Activo en el software **AM**.
 
@@ -380,11 +386,11 @@ A   continuación  se  describen  los  campos  que  componen  esta  Ventana info
 
 **FF Ingreso Inventario:** En este campo se registra la fecha en que ingresa el Activo al sistema de Activos de la institución.
 
-**FF Fin Garantía:** En este campo se registra la fecha en la que se da por terminada la garantía del Activo/Equipo por parte del Fabricante o Proveedor. Sí la garantía está vigente, la fecha se muestra en color verde, mientras que sí la garantía se encuentra vencida, la fecha se muestra en color rojo.
+**FF Fin Garantía:** En este campo se registra la fecha en la que se da por terminada la garantía del Activo/Equipo por parte del Fabricante o Proveedor. Si la garantía está vigente, la fecha se muestra en color verde, mientras que sí la garantía se encuentra vencida, la fecha se muestra en color rojo.
 
 **FF Instalación:** En este campo se registra la fecha en la cual se instaló el Activo en el servicio.
 
-**FF Inicio Operación:** En este campo se registra la fecha en la cual inició el funcionamiento en productivo del Activo.
+**FF Inicio Operación:** En este campo se registra la fecha en la cual inició el funcionamiento productivo del Activo.
 
 **FF Dado de Baja:** En este campo se registra automáticamente por el sistema la fecha en que se dio de baja el Activo, cuando se selecciona el estado inactivo  “I-Dado de Baja”.
 
@@ -392,19 +398,69 @@ A   continuación  se  describen  los  campos  que  componen  esta  Ventana info
 
 **Tipo de Adquisición:** Se elige de la lista el medio por el cual se adquirió el Activo. Puede  ser: Compra, Donación, Arrendamiento Financiero, Comodato, Préstamo y Otro.
 
-**Documento Adquisición:** Se registra el número del Documento relacionado con el Tipo de Adquisición del Activo.
+**Documento Adquisición:** Se registra el número o nombre del Documento relacionado con el Tipo de Adquisición del Activo.
 
-**Valor Moneda Nacional:** En este campo con capacidad de 13 dígitos, se escribe el valor de la máquina según la moneda que se indica en el campo Moneda Nacional (normalmente moneda local).
+**Valor Moneda Nacional:** En este campo con capacidad de 13 dígitos, se escribe el valor del Activo/Equipo según la moneda que se indica en el campo Moneda Nacional (normalmente moneda local: Pesos Colombianos).
 
-**Moneda Nacional:** En este campo se selecciona el nombre de la moneda de acuerdo con la  definición que se haga de la tabla de infraestructura (moneda local).
+**Moneda Nacional:** En este campo se selecciona el nombre o abreviatura de la moneda de acuerdo con la definición que se haga de la tabla de infraestructura (moneda local).
 
-**Valor Moneda Extranjera:** En este campo con capacidad de 13 dígitos, se escribe el valor de la máquina según la moneda que se indica en el campo Moneda Extranjera (normalmente moneda de origen).
+**Valor Moneda Extranjera:** En este campo con capacidad de 13 dígitos, se escribe el valor del Activo/Equipo según la moneda que se indica en el campo Moneda Extranjera (normalmente moneda de origen).
 
-**Moneda Extranjera:** En este campo se selecciona el nombre de la moneda de acuerdo con la  definición que se haga de la tabla de infraestructura (moneda de origen).
+**Moneda Extranjera:** En este campo se selecciona el nombre o abreviatura de la moneda de acuerdo con la  definición que se haga de la tabla de infraestructura (moneda de origen).
+
+**Póliza:** Este es un campo indicado en Modo Switche, una vez que le indiquemos al sistema que un registro tiene asociada una póliza se habilitan los campos a diligenciar: Número de póliza, Fecha Ingreso Póliza y Fecha Retiro Póliza.
+
+**Contrato:** Este es un campo indicado en Modo Switche, una vez que le indiquemos al sistema que un registro tiene asociado un contrato se habilita el campo contrato, una vez que se selccione un contrato el sistema asocia automáticamente los campos: Contratista, Fecha Inicio y Fecha Final.
+
+**Vida Útil:** En este campo se registra el número total de años de vida útil del Activo según el fabricante, este campo puede ser de tipo informativo o un campo que permita hacer un seguimiento del registro cuando se requiere por parte del usuario hacer una depreciación de línea recta. Esta configuración debe hacerse desde el módulo de <a class="btn blue">administración</a> por parte de un Usuario Administrador autorizado, en la sección Valores por Defecto, opción Activos. 
+
+**Años de Uso:** Este campo es calculado por el sistema cuando se activado la función depreciación por línea recta e indica el tiempo transcurrido hasta la fecha actual del Activo/Equipo.
+
+**Años Restantes:** Este campo es calculado por el sistema cuando se activado la función depreciación por línea recta e indica el tiempo que resta para cumplir la vida útil del Activo/Equipo.
+
+**Valor de Salvamento:**
+
+**FF Valor Salvamento:**
+
+**Valor Depreciado:**
+
+**FF Valor Depreciado:**
+
+**Valor Razonable:**
+
+**FF Valor Razonable:**
+
+**Valor Reposición:**
+
+**FF Valor Reposición:**
+
+A continuación se explican las siguientes porciones/pestañas que se habilitan desde el módulo <a class="btn blue">administración</a> en la transacción Valores por Defecto, en la sección General:
+
+### METROLOGÍA
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img09_1.png)
+_**Imagen 12.** Activos - Metrología_
+
+En la gráfica anterior, Porción Metrología, se aprecian sus componentes y sus respectivos contenidos.
+
+A través de la ventana de Metrología se registra las maginitudes referentes al Activo. Estas son variables únicamnete de consulta.
+
+A continuación se describen los campos que componen esta Pestaña:
+
+**Identificación:** Aparece con los campos bloqueados para que el usuario visualice la información básica del Activo al cual se le están definiendo las variables metrológicas.
+
+**Magnitud:** En este campo se muestra el nombre de la variable definida en la tabla de Infraestructura en la Tabla Magnitudes.
+
+**Unidad de Medida:** Es la abreviatura correspondiente a la medición de la magnitud definida.
+
+**Div.Escala:** Es la escala divido entre el número de devisiones entre dos números seguidos de la escala.
+
+
 
 ### Multimedia
 
-![DETALLE DE ACT](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img13.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img10.png)
+
 
 En la gráfica anterior, Ventana Multimedia, se aprecian sus componentes y sus respectivos contenidos.
 
