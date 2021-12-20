@@ -207,13 +207,15 @@ _**Imagen 8.** Subgrupo Activos_
 
 Los campos de datos que constituyen los criterios de selección en la Ventana  Subgrupo son los siguientes.
 
+#### FICHA TÉCNICA
+
 **Activo Fijo:** Esta  opción  permite  hacer  búsqueda de  un  Activo/Equipo  por: Número de Inventario o Código Contable.
 
 **Activo Padre:** Esta  opción hace una búsqueda del conjunto de Activos que son hijos o son parte del despiece del código del Activo/Equipo digitado en este campo. Es posible hacer uso de comodines %.
 
 **Alias:** Permite seleccionar un Activo/Equipo por el Alias previamente definido en la ficha técnica.
 
-**Característica:** Permite seleccionar los Activos/Equipos de acuerdo con una determinada Característica. Esta opción también permite el uso de comodines (%) cuando se desactiva por medio de un clic el candado <span class="mdi mdi-lock"></span> que está al lado del campo, el cual permite escribir <span class="mdi mdi-lock-open-outline"></span> y funciona igual que en los casos anteriores.
+**Car. Técnica:** Permite seleccionar los Activos/Equipos de acuerdo con una determinada Característica Técnica. Esta opción también permite el uso de comodines (%) cuando se desactiva por medio de un clic el candado <span class="mdi mdi-lock"></span> que está al lado del campo, el cual permite escribir <span class="mdi mdi-lock-open-outline"></span> y funciona igual que en los casos anteriores.
 
 **Centro de Costo:** Permite la selección de los Activos/ Equipos de acuerdo con el Centro de Costo asignado al  Activo/Equipo. Esta opción también permite el uso de comodines (%) cuando por medio de un clic se desactiva el candado <span class="mdi mdi-lock"></span> que está al lado del campo, el cual permite escribir <span class="mdi mdi-lock-open-outline"></span>, siendo posible seleccionar los Activos pertenecientes a Centros de Costo que tengan parte  del nombre igual. Por ejemplo: **Sistema%** seleccionará todos los Activos/Equipos en cuyo Centro de Costo tengan la palabra Sistema, independiente de si se está hablando del Sistema de Agua, de Vapor o de Energía.
 
@@ -253,54 +255,62 @@ El segundo campo se usa para ingresar el valor correspondiente a la confiablidad
 
 **Descripción del Equipo:** Selecciona los Activos/Equipos según criterios que se fundamenten en su descripción. Ejemplo: %Motor% selecciona todos los Activos/Equipos en cuya descripción, en cualquier posición, tengan la palabra  “Motor”.
 
-**Encargado:** Permite seleccionar los Activos/Equipos  de acuerdo con un determinado Encargado. Esta opción también permite el uso de comodines y funciona igual que en los casos anteriores.
+**Encargado:** Permite seleccionar los Activos/Equipos de acuerdo con un determinado Encargado. Esta opción también permite el uso de comodines y funciona igual que en los casos anteriores.
 
-**Estado:** Permite la selección de los Activos/Equipos de acuerdo al Estado de Activo o Inactivo.  Tal estado es  importante para la generación de OTs automáticas en los Programas de Mantenimiento.
+**Estado:** Permite la selección de los Activos/Equipos de acuerdo al Estado de Activo o Inactivo. Tal estado es  importante para la generación de OT automáticas en los Programas de Mantenimiento.
 
-**Fabricante:** Permite seleccionar  los Activos /  Equipos  de  acuerdo con  un  determinado Fabricante Esta opción también permite el uso de comodines y funciona  igual que en los casos anteriores.
+**Fabricante:** Permite seleccionar los Activos/Equipos de  acuerdo con un determinado Fabricante. Esta opción también permite el uso de comodines y funciona igual que en los casos anteriores.
 
-**Fecha de Compra:** Permite la selección de Activos / Equipos de acuerdo con la Fecha de
-Compra en un rango determinado de tiempo.
+**Indicadores:** Permite  seleccionar los Activos/Equipos  de acuerdo con su clasificación o contenido específico, es decir, filtra equipos que sean solo raiz, o ubicación fisica, componente intercambiable, hasta aquellos que tienen definidas caracteristicas técnicas, biomédicas y contenido de multimedia.
 
-**Fecha de Garantía:** Permite la selección de Activos / Equipos de acuerdo con la Fecha de
-Vencimiento de la Garantía en un rango determinado de tiempo.
+**Indicativo de Ruta:** Permite agrupar los Activos/Equipos de acuerdo con el criterio de si están o no asociados a una Ruta de Mantenimiento.
 
-**Fecha Cambio de Ubi. Física:** Permite la selección de Activos / Equipos que hayan tenido modificación de su ubicación física en el rango de fechas establecido por el usuario.
+**Riesgo:** Filtra aquellos grupos de Activos/Equipos que tengan asociado un riesgo, se permite el uso de comodines (%).
 
-**Indicativo  de  Equipo  raíz:** Permite  seleccionar  los  Activos  /  Equipos  o   Unidades Funcionales primarias que son base de su despiece, sin ser componentes  de otro. Para ello se deben haber definido tales unidades funcionales con tal indicador.
+**Marca:** Esta opción permite realizar un filtro de los Activos/Equipos que tengan asignada la Marca que se especifica en este campo.
 
-**Indicativo de Ruta:** Permite agrupar los Activos / Equipos de acuerdo con el criterio de si están o no asociados a una Ruta de Mantenimiento.
+**Modelo:** Permite realizar un Subgrupo de Activos/  Equipos que tengan asignado el Modelo que se especifica en este campo.
 
-**Marca:** Esta opción permite realizar un filtro de los Activos / Equipos que tengan asignada la Marca que se especifica en este campo.
+**Proveedor:** Permite seleccionar los Activos/Equipos según un determinado Proveedor. Esta opción también permite el  uso de comodines y funciona igual que en los casos anteriores.
 
-**Modelo:** Permite realizar  un  Subgrupo de  Activos /  Equipos  que  tengan asignado  el
-Modelo que se especifica en este campo.
+**Referencia Externa (Proveedor):** Permite seleccionar los Activos/Equipos según la referencia definida en su ficha técnica. Esta opción también permite el uso de comodines y funciona igual que en los casos anteriores.
 
-**Proveedor:** Permite seleccionar los Activos / Equipos según un determinado  Proveedor. Esta opción  también  permite  el  uso   de  comodines y funciona igual   que  en  los casos anteriores.
+**Serial:** Esta alternativa permite seleccionar un Activo/Equipo de acuerdo con su número Serial.
 
-**Rango de Valor de Característica:** Permite seleccionar los Activos / Equipos cuyo valor de una Característica se encuentre dentro del rango predefinido. Cuando se  activa esta opción automáticamente se activa la de Característica, ya que es necesario definirla
+**Tipo:** Selecciona los Activos/Equipos que se encuentran asociados al tipo ingresado definido en su ficha técnica.
 
-**Referencia:** Esta opción permite seleccionar uno o varios Activos / Equipos de  acuerdo con su Referencia.
+**Ubicación  Física:** Permite la selección de los Activos/Equipos de acuerdo con las diferentes Ubicaciones Físicas definidas en la infraestructura. En este campo también es posible usar comodines (%), siendo posible seleccionar los registros  pertenecientes a Ubicaciones Físicas que tengan parte del nombre similar. Inicialmente se despliega un listado indicado por el icono de candado que se encuentra al lado del campo <span class="mdi mdi-lock"></span>, a través de un clic se desactiva <span class="mdi mdi-lock-open-outline"></span> permitiendo ingresar los valores manualmente. Por ejemplo: CAVA% selecciona todos los Activos/Equipos cuya Ubicación Física inicia por la palabra CAVA, independientemente de si se está hablando de la Cava de Fermentación, Maduración o Contrapresión.
 
-**Relación:** Permite  la  agrupación de  los  Activos /  Equipos  de  acuerdo con  la   relación asignada, de acuerdo a las siguientes opciones:
+**Clasificación por uso:** Para las compañías biomédicas permite hacer filtros por clasificación del Activo según su uso. Los grupos son: Diagnóstico, Tratamiento y Mantenimiento de la vida, Rehabilitación, Prevención, Análisis de Laboratorio y Equipo Industrial de Apoyo Hospitalario.
 
-- No Asociado
-- Posición Vacía
-- Posición Asociada
-- Repuesto Disponible
-- Repuesto Asociado
+**Clasificación por Grupo:** Filtra los Activos/Equipos según el grupo que se les haya asignado en su ficha técnica. los grupos son: Apoyo Administrativo, Apoyo Operacional, Infraestructura y Grupo X. 
 
-**Serial del Equipo:** Esta alternativa permite seleccionar un Activo/Equipo de acuerdo con su número
-Serial.
+#### VIDA ÚTIL
 
-**Tipo:** Selecciona los Activos/ Equipos que se encuentran asociados al tipo ingresado  por el usuario.
+**FF Adquisición:** Permite seleccionar los Activos/Equipos según la fecha de adquisición diligenciada en la porción de Vida Útil. 
 
-**Ubicación  Física:**  Permite  la  selección  de  los  Activos  /  Equipos  de  acuerdo  con  las diferentes   Ubicaciones   Físicas   definidas   en   la   infraestructura.   Cuando   se   utilizan comodines,  es  posible  seleccionar  los  Activos  /  Equipos  pertenecientes a   Ubicaciones Físicas que tengan parte del nombre similar. Por ejemplo: CAVA%  selecciona todos los Activos / Equipos cuya Ubicación Física inicia por la palabra  CAVA, independientemente de si se está hablando de la Cava de Fermentación, Maduración o Contrapresión.
+**Número de Contrato:** Filtra los Activos/Equipos que tengan asociado un contrato. 
 
-**Valor Nominal de Característica:** Permite agrupar los Activos / Equipos de acuerdo con un  determinado  Valor  Nominal  de  una  característica.  Cuando  se  activa  esta   opción automáticamente se activa la de Característica, ya que es necesario definirla.  Esta opción también permite el uso de comodines y funciona igual que en los casos anteriores.
+**FF Fin Garantía:** Permite la selección de Activos/ Equipos de acuerdo con la Fecha de Vencimiento de la Garantía en un rango determinado de tiempo.
 
-**Nota:** Es importante tener en cuenta que cuando se están realizando los Subgrupos  se pueden  utilizar  uno  o  varios  de  los  criterios  anteriores  simultáneamente.	Además es posible hacer unión de selecciones.  Esto significa que inmediatamente después de haber realizado una selección, es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección se da un clic al botón
-`<span class="iconify btn" data-icon="mdi-plus-circle">`Más, en lugar de darlo al botón  `<a class="btn">`Aceptar`</a>`.
+**Switch Contrato:** Filtra aquellos registros de Activos/Equipos que estén sin contrato, o que se encuentren asociados a un contrato. Este campo sólo es de selección.
+
+**Número de Póliza:** Filtra los Activos/Equipos que tengan asociado una póliza.
+
+**Switch con Póliza:** Filtra aquellos registros de Activos/Equipos que estén o no asociados a una póliza. Este capo sólo es de selección.
+
+#### METROLOGÍA
+
+**Magnitud:** Para las compañías biomédicas filtra los registros que tengan asociada una magnitud. 
+
+#### INFORMACIÓN BIOMÉDICA
+
+**Indicativo del Registro:** Para las compañías biomédicas permite filtrar los Activos/Equipos que tengan asociado el Permiso de Comercialización o Registro Sanitario Invima. Este campo es de selección.
+
+**Número:** Para las compañías biomédicas permite filtrar los Activos/Equipos que tengan asociado el número bien sea referente a un Permiso de Comercialización o Registro Sanitario Invima. Este campo es de selección.
+
+**Nota:** Es importante tener en cuenta que cuando se están realizando los Subgrupos se pueden utilizar uno o varios  de los criterios anteriores simultáneamente.Además es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber realizado una selección, es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección se da un clic al botón
+<a class="btn white">Mas <span class="mdi mdi-plus-circle"></span></a> en lugar de darlo al botón <a class="btn white">aceptar <span class="mdi mdi-check-circle"></span></a>.
 
 ## Vistas Parciales / Pestañas
 
