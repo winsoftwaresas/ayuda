@@ -309,7 +309,7 @@ El segundo campo se usa para ingresar el valor correspondiente a la confiablidad
 
 **Número:** Para las compañías biomédicas permite filtrar los Activos/Equipos que tengan asociado el número bien sea referente a un Permiso de Comercialización o Registro Sanitario Invima. Este campo es de selección.
 
-**Nota:** Es importante tener en cuenta que cuando se están realizando los Subgrupos se pueden utilizar uno o varios  de los criterios anteriores simultáneamente.Además es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber realizado una selección, es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección se da un clic al botón
+>**Nota:** Es importante tener en cuenta que cuando se están realizando los Subgrupos se pueden utilizar uno o varios  de los criterios anteriores simultáneamente.Además es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber realizado una selección, es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección se da un clic al botón
 <a class="btn white">Mas <span class="mdi mdi-plus-circle"></span></a> en lugar de darlo al botón <a class="btn white">aceptar <span class="mdi mdi-check-circle"></span></a>.
 
 ## Vistas Parciales / Pestañas
