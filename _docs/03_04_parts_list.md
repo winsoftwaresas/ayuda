@@ -372,7 +372,7 @@ A continuación se describen los campos que componen esta  Ventana información 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img09.png)
 _**Imagen 11.** Activos - Vida Útil_
 
-En la gráfica anterior, Proción Vida Útil, se aprecian sus componentes y sus respectivos contenidos.
+En la gráfica anterior, Porción Vida Útil, se aprecian sus componentes y sus respectivos contenidos.
 
 A través de la ventana de Vida Útil se registra todo el compendio de las fechas en forma de cronología desde que se adquiere el Activo hasta su disposición final.
 
@@ -443,7 +443,7 @@ _**Imagen 12.** Activos - Metrología_
 
 En la gráfica anterior, Porción Metrología, se aprecian sus componentes y sus respectivos contenidos.
 
-A través de la ventana de Metrología se registra las maginitudes referentes al Activo. Estas son variables únicamnete de consulta.
+A través de la ventana de Metrología se registra las magnitudes referentes al Activo. Estas son variables únicamnete de consulta.
 
 A continuación se describen los campos que componen esta Pestaña:
 
@@ -453,14 +453,29 @@ A continuación se describen los campos que componen esta Pestaña:
 
 **Unidad de Medida:** Es la abreviatura correspondiente a la medición de la magnitud definida.
 
-**Div.Escala:** Es la escala divido entre el número de devisiones entre dos números seguidos de la escala.
+**División de Escala:** Es la diferencia entre los valores correspondientes a dos trazos sucesivos de la escala.
 
+**Rango de Medición:** Es el intervalo entre el valor máximo y el valor mínimo de una magnitud.
+
+**Rango de Trabajo:** es intervalo de medición del Activo/Equipo.
+
+**Puntos:** Sonlos tres puntos de referencia de calibración o de verificación del Activo.
+
+## INFORMACIÓN BIOMÉDICA
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img09_2.png)
+_**Imagen 13.** Activos - Info. Biomédica_
+
+En la gráfica anterior, Porción Info. Biomédica, se aprecian sus componentes y sus respectivos contenidos.
+
+A través de la ventana de Info. Biomédica aplicable solo para las compañías biomédicas se registra información complementaria y reglametaria referentes a los Activos/Equipos biomédicos.
+
+A continuación se describen los campos que componen esta Pestaña:
 
 
 ### Multimedia
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img10.png)
-
 
 En la gráfica anterior, Ventana Multimedia, se aprecian sus componentes y sus respectivos contenidos.
 
