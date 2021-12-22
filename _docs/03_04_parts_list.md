@@ -418,21 +418,21 @@ A continuación se describen los campos que componen esta Pestaña:
 
 **Años Restantes:** Este campo es calculado por el sistema cuando se activado la función depreciación por línea recta e indica el tiempo que resta para cumplir la vida útil del Activo/Equipo.
 
-**Valor de Salvamento:**
+**Valor de Salvamento:** Es aquella parte del costo de un Activo que se espera recuperar finalmente, al final de su vida útil y ello es independiente de la filosofía de depreciación que se use.
 
-**FF Valor Salvamento:**
+**FF Valor Salvamento:** Es la fecha en la que se definió el Valor de Salvamento.
 
-**Valor Depreciado:**
+**Valor Depreciado:** Es el costo de un Activo en la actualidad, despues de haber realizado las depreciaciones de rigor hasta la fecha.
 
-**FF Valor Depreciado:**
+**FF Valor Depreciado:** Es la fecha en la que se realizó la depreciación mas reciente del Activo.
 
-**Valor Razonable:**
+**Valor Razonable:** Es el precio que se recibiría por la venta de un Activo en el momento actual y según el estado en el que se encuentra el Activo. 
 
-**FF Valor Razonable:**
+**FF Valor Razonable:** Es la fecha se registró el valor razonable.
 
-**Valor Reposición:**
+**Valor Reposición:** Es un valor estimado en el que se debería incurrir al tener que reemplazar un Activo ante contingencias, daños irreparables o cambio de tecnología.
 
-**FF Valor Reposición:**
+**FF Valor Reposición:** Es la fecha en la que se definió el valor de reposición.
 
 A continuación se explican las siguientes porciones/pestañas que se habilitan desde el módulo <a class="btn blue">administración</a> en la transacción Valores por Defecto, en la sección General:
 
@@ -459,7 +459,7 @@ A continuación se describen los campos que componen esta Pestaña:
 
 **Rango de Trabajo:** es intervalo de medición del Activo/Equipo.
 
-**Puntos:** Sonlos tres puntos de referencia de calibración o de verificación del Activo.
+**Puntos:** Son los tres puntos de referencia de calibración o de verificación del Activo.
 
 ## INFORMACIÓN BIOMÉDICA
 
