@@ -468,12 +468,29 @@ _**Imagen 13.** Activos - Info. Biomédica_
 
 En la gráfica anterior, Porción Info. Biomédica, se aprecian sus componentes y sus respectivos contenidos.
 
-A través de la ventana de Info. Biomédica aplicable solo para las compañías biomédicas se registra información complementaria y reglametaria referentes a los Activos/Equipos biomédicos.
+A través de la ventana de Info. Biomédica aplicable sólo para las compañías biomédicas se registra la información complementaria y reglamentaria referente a los Activos/Equipos biomédicos.
 
 A continuación se describen los campos que componen esta Pestaña:
 
+**Identificación:** Aparece con los campos bloqueados para que el usuario visualice la información básica del Activo al cual se le está la porción biomédica.
 
-### Multimedia
+**Datos:** En este recuadro se registra la siguiente información:
+
+- Registro Sanitario INVIMA
+- Permiso de Comercialización
+- Número de para alguna de las dos opciones anteriores
+- Seguridad Eléctrica
+- Impacto en el proceso del Activo
+- Frecuencia de uso del Activo
+- Horas Por (Dia, Semana, Quincena, Mes)
+- Proceso Realizado por el Equipo 
+
+**Clasificación por Riesgo:** las opciones disponibles son: Ninguno, Clase I Bajo Riesgo, Clase II Riesgo Moderado, Clase III Alto Riesgo, Clase IV Muy Alto Riesgo y Crítico Ambiental.
+
+**Clasificación Biomédica:**las opciones disponibles son: Ninguno, Tratamiento y Mantenimiento de la Vida, Rehabilitacion, Prevención, Análisis de Laboratorio y Equipo Industrial de Apoyo Hospitalario.
+
+
+### MULTIMEDIA
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img10.png)
 
