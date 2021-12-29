@@ -7,7 +7,7 @@ order: 03_04
 ---
 
 **AM** está capacitado para aceptar y definir 5 códigos para cada Activo/Equipo. Cada estructura de código es  independiente de las otras y sirve para localizar o acceder o estudiar un Activo, partiendo de distinta información que distintos tipos de usuarios puedan tener sobre el mismo.
-Las cinco estructuras son: el Código de Mantenimiento (objeto de la presente sección), el Código Referencia  (código externo, o dado por el proveedor), el Código de Inventario, un número de Activo Fijo (normalmente contable), un número de Serie propio del Activo, y un Código Alias (propio de la cultura técnica empresarial).
+Las cinco estructuras son: el Código de Mantenimiento (objeto de la presente sección), el Código Referencia (código externo, o dado por el proveedor), el Código de Inventario, un número de Activo Fijo (normalmente contable), un número de Serie propio del Activo, y un Código Alias (propio de la cultura técnica empresarial).
 
 Como se dijo antes, en esta sección se estudia el Código de Mantenimiento del Activo.
 
@@ -478,27 +478,28 @@ A continuación se describen los campos que componen esta Pestaña:
 
 - Registro Sanitario INVIMA
 - Permiso de Comercialización
-- Número de para alguna de las dos opciones anteriores
+- Número (para alguna de las dos opciones anteriores)
 - Seguridad Eléctrica
 - Impacto en el proceso del Activo
 - Frecuencia de uso del Activo
 - Horas Por (Dia, Semana, Quincena, Mes)
 - Proceso Realizado por el Equipo 
 
-**Clasificación por Riesgo:** las opciones disponibles son: Ninguno, Clase I Bajo Riesgo, Clase II Riesgo Moderado, Clase III Alto Riesgo, Clase IV Muy Alto Riesgo y Crítico Ambiental.
+**Clasificación por Riesgo:** Las opciones disponibles son: Ninguno, Clase I Bajo Riesgo, Clase II Riesgo Moderado, Clase III Alto Riesgo, Clase IV Muy Alto Riesgo y Crítico Ambiental.
 
-**Clasificación Biomédica:**las opciones disponibles son: Ninguno, Tratamiento y Mantenimiento de la Vida, Rehabilitacion, Prevención, Análisis de Laboratorio y Equipo Industrial de Apoyo Hospitalario.
+**Clasificación Biomédica:** Las opciones disponibles son: Ninguno, Tratamiento y Mantenimiento de la Vida, Rehabilitacion, Prevención, Análisis de Laboratorio y Equipo Industrial de Apoyo Hospitalario.
 
 
 ### MULTIMEDIA
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img10.png)
+_**Imagen 14.** Activos - Multimedia_
 
 En la gráfica anterior, Ventana Multimedia, se aprecian sus componentes y sus respectivos contenidos.
 
-A través de la ventana Multimedia se adjunta información adicional al AC en cada una de sus carpetas asignadas. Esta opción permite asociar al AC, uno o varios documentos, con el  objetivo de facilitar el trabajo a  realizar,  o guiarlo, o detallarlo minuciosamente. Se aceptan documentos de extensiones .DOC, XLS, PDF, JPG, es decir, de Microsoft Word o Microsoft Excel, Acrobat o Imágenes varias.
+A través de la ventana Multimedia se adjunta información adicional al AC en cada una de sus carpetas asignadas. Esta opción permite asociar al registro, uno o varios documentos, con el objetivo de facilitar el trabajo a realizar, o guiarlo, o detallarlo minuciosamente. Se aceptan documentos de extensiones .DOC, XLS, PDF, JPG, es decir, de Microsoft Word o Microsoft Excel, Acrobat o Imágenes varias.
 
-**Los documentos anexos pueden contener:** ayudas necesarias en la ejecución de la OT que se genera desde este EQ: planos, manuales técnicos, manuales de normas  técnicas de Mantenimiento o de especificaciones detalladas, normas de seguridad, enfoques de acción, procedimientos sobre cómo realizar la labor, check lists, protocolos de prueba y otra información estándar para su ejecución, en aras de optimizar los recursos de tiempo y de insumos a ser consumidos, como también en aras de preservar la  seguridad del recurso humano.
+**Los documentos anexos pueden contener:** ayudas necesarias en la ejecución de la OT que se genera desde este EQ: planos, manuales técnicos, manuales de normas  técnicas de Mantenimiento o de especificaciones detalladas, normas de seguridad, enfoques de acción, procedimientos sobre cómo realizar la labor, check lists, protocolos de prueba y otra información estándar para su ejecución, en aras de optimizar los recursos de tiempo y de insumos a ser consumidos, como también con el fin de preservar la seguridad del recurso humano.
 
 A continuación se describen las carpetas que componen esta ventana; cuando se quiera actualizar o ingresar nueva información al AC, se deberán registrar así:
 
@@ -508,22 +509,21 @@ A continuación se describen las carpetas que componen esta ventana; cuando se q
 
 **Imágenes:** En esta carpeta se relacionan toda clase de imágenes relacionadas al AC. Ejemplo: Imágenes en formato jpg, png, entre otros.
 
-**Videos:** En esta carpeta se relacionan porciones de videos relacionados al AC. Ejemplo: Videos en formato wmv, entre otros.
+**Videos:** En esta carpeta se relacionan porciones de videos relacionados al AC. Ejemplo: Videos en formato wmv, mp4, entre otros.
 
-![DETALLE DE ACT](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img11.png)
+_**Imagen 14.** Activos - Explorador de archivos_
 
-Para adicionar un documento, imagen o video, se debe dar clic en la carpeta deseada, luego se da clic a `<span class="iconify btn" data-icon="cloud-upload">`Cargar, a continuación se abre una nueva ventana para realizar la búsqueda del archivo a subir,  se selecciona el archivo y se da clic en `<a class="btn">`abrir`</a>`.
+Para adicionar un documento, imagen o video, se debe dar un doble clic sobre la carpeta deseada, y luego seleccionar del ícono de nube <span class="mdi mdi-cloud-upload icon white"></span>. A continuación se abre el explorador de archivos, seguido de seleccionar el archivo dar un clic en <a class="btn">abrir</a>.
 
-![ACT](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img15.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img12.png)
+_**Imagen 15.** Activos - Subir Archivo_
 
-Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic en uno de las imágenes, se visualiza la imagen adjunta.
+Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic sobre el nombre de una de las imágenes, se muestra la previsualización. 
 
-Para desasociar un documento, o una imagen o un video, al AC se da clic al icono de `<span class="iconify btn" data-icon=delete>`nar (basura) que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de nar este registro y se da clic en el botón `<a class="btn">`Aceptar`</a>`.
+Para desasociar un documento, o una imagen o un video, al AC se da clic al icono de basura <span class="mdi mdi-delete"></span> que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro, finalmente confirmar con el botón <a class="btn white">Aceptar</a>.
 
-Si se desea descargar un archivo adjunto al AC, se debe dar clic en
-`<span class="iconify btn" data-icon=cloud-download>`la nube con flecha hacia abajo
-
-, que se encuentra al lado derecho del archivo que se quiere descargar.
+Si se desea descargar un archivo adjunto al AC, se debe dar clic en el ícono de nube con direccional hacia abajo <span class="mdi mdi-cloud-download icon white"></span> la nube con flecha hacia abajo que se encuentra al lado derecho del archivo que se quiere descargar.
 
 ## Transacciones
 
