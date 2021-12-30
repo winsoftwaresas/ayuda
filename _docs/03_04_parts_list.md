@@ -521,6 +521,9 @@ _**Imagen 15.** Activos - Subir Archivo_
 
 Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic sobre el nombre de una de las imágenes, se muestra la previsualización. 
 
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img13.png)
+_**Imagen 16.** Activos - Archivos Cargados_
+
 Para desasociar un documento, o una imagen o un video, al AC se da clic al icono de basura <span class="mdi mdi-delete"></span> que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro, finalmente confirmar con el botón <a class="btn white">Aceptar</a>.
 
 Si se desea descargar un archivo adjunto al AC, se debe dar clic en el ícono de nube con direccional hacia abajo <span class="mdi mdi-cloud-download icon white"></span> la nube con flecha hacia abajo que se encuentra al lado derecho del archivo que se quiere descargar.
@@ -529,13 +532,14 @@ Si se desea descargar un archivo adjunto al AC, se debe dar clic en el ícono de
 
 ### Modificar Masivamente
 
-A esta opción se llega al sobreponer el cursor del mouse sobre el módulo de Activos y al lado derecho se despliega el conjunto de transacciones disponibles para el módulo de Activo, luego se elige la transacción  “Modificar Masivamente”.
+A esta opción se llega al sobreponer el cursor del mouse sobre el módulo de Activos y en la parte inferior del título se despliega el conjunto de transacciones disponibles, a continuación se elige la transacción “Modificar Masivamente”.
 
-![ACT](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img17.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img13_1.png)
+_**Imagen 17.** Activos - Modificar Masivamente_
 
 Esta transacción permite cambiar masivamente el Estado, Ubicación Física, Centro de Costos, Encargado, Comentarios, Proveedor y Fabricante, de los Activos /Equipos  previamente seleccionados, que  se encuentran en el Visor. Para ello se debe dar clic al link en azul ** “Modificar Masivamente”** ubicado al lado superior izquierdo de la ventana, seguidamente se muestra las opciones de modificación masiva disponibles.
 
-![ACT](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img18.png)
+![ACT](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img15.png)
 
 En  la  gráfica  anterior,  Modificar  Masivamente,  se  aprecian  sus  componentes  y   sus respectivos contenidos.
 
