@@ -537,47 +537,55 @@ A esta opción se llega al sobreponer el cursor del mouse sobre el módulo de Ac
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img13_1.png)
 _**Imagen 17.** Activos - Modificar Masivamente_
 
-Esta transacción permite cambiar masivamente el Estado, Ubicación Física, Centro de Costos, Encargado, Comentarios, Proveedor y Fabricante, de los Activos /Equipos  previamente seleccionados, que  se encuentran en el Visor. Para ello se debe dar clic al link en azul ** “Modificar Masivamente”** ubicado al lado superior izquierdo de la ventana, seguidamente se muestra las opciones de modificación masiva disponibles.
+Esta transacción permite cambiar masivamente el Estado, Descripción, Ubicación Física, Centro de Costos, Encargado, Comentarios, Proveedor y Fabricante, Marca, Modelo, Grupo de los registros previamente seleccionados en un filtro o subgrupo o aquellos que se encuentran en el Visor. Para ello se debe dar clic al link en azul <a class="btn white">modificar masivamente </a> ubicado al lado superior izquierdo de la ventana, seguidamente se muestra el conjunto de  opciones de modificación masiva disponibles.
 
-![ACT](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img15.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14.png)
+_**Imagen 18.** Activos - Criterios Modificación Masiva_
 
-En  la  gráfica  anterior,  Modificar  Masivamente,  se  aprecian  sus  componentes  y   sus respectivos contenidos.
+En la gráfica anterior, Modificar  Masivamente, se aprecian sus componentes y   sus respectivos contenidos.
 
-A   continuación  se  describen  los  campos  que  componen  esta  Ventana   información adicional.
+A continuación se describen los campos que  componen esta transacción:
 
-**Modificar  Solamente  Este Activo:**  Al  escoger  esta  opción,  se  ejecutan los  cambios marcados  (Ficha Técnica, Vida Útil e Info. Biomédica) al Equipo/Activo que  se encuentre seleccionado en el visor.
+**Modificar  Solamente  Este Activo:** Al  escoger esta opción, se ejecutan los cambios marcados (Ficha Técnica, Vida Útil e Info. Biomédica) al Activo/Equipo que se encuentre seleccionado en el visor.
 
-**Modificar Todos los Activos en el Visor:** Al escoger esta opción, se ejecutan los cambios marcados (Ficha Técnica, Vida Útil e Info. Biomédica) a  todos  los Equipos/Activos que se encuentren en el visor.
+**Modificar Todos los Activos en el Visor:** Al escoger esta opción, se ejecutan los cambios marcados (Ficha Técnica, Vida Útil e Info. Biomédica) a todos los Activos/Equipos que se encuentren en el visor.
 
-**Modificar Descripción:** Se Modifica Masivamente la Descripción, del o los Equipos que están previamente seleccionados en el visor.
+**Modificar Descripción:** Se Modifica Masivamente la Descripción, del o los Activos que están previamente seleccionados en el visor.
 
-![modificar descripcion](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img19.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_1.png)
+_**Imagen 19.** Activos - Modificar Descripción_
 
-**Modificar Referencia Externa (Proveedor):** Se Modifica Masivamente la referencia externa proveedor, del o los Equipos que están previamente seleccionados
+**Modificar Referencia Externa (Proveedor):** Se Modifica Masivamente la referencia externa proveedor, del o los Equipos que están previamente seleccionados en el visor.
 
-![modificar ref externa](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img20.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_2.png)
+_**Imagen 20.** Activos - Modificar Referencia Externa_
 
-**Modificar Activo Padre:** Se Modifica Masivamente el Activo Padre, de los Equipos que están previamente seleccionados en el visor. Al seleccionar el Activo Padre, se asigna automáticamente el Centro de Costo y la Ubicación Física asociados al Activo Padre seleccionado.
+**Modificar Activo Padre:** Se Modifica Masivamente el Activo/Equipo Padre de los registros que están previamente seleccionados en el visor. Al seleccionar el Activo Padre, se asigna automáticamente el Centro de Costo y la Ubicación Física asociados al Activo Padre seleccionado.
 
-![modificar activo padre](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img21.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_3.png)
+_**Imagen 21.** Activos - Modificar Activo Padre_
 
 **Modificar Centro de Costo:** Se Modifica Masivamente el Centro de Costo, de  los
 Equipos que están previamente seleccionados en el visor.
 
-![modificar centro de costo](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img22.png)
+![Proecesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_4.png)
+_**Imagen 22.** Activos - Modificar Centro de Costo_
 
 **Modificar Ubicación Física:** Se Modifica Masivamente la Ubicación Física, de los
 Equipos que están previamente seleccionados en el visor.
 
-![modificar ubicacion fisica](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img23.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_5.png)
+_**Imagen 23.** Activos - Modificar Ubicación Física_
 
 **Modificar Clasificación por Proceso:** Se Modifica Masivamente la Clasificación por Proceso, de los Equipos que están previamente seleccionados en el visor.
 
-![Modificar Clasificación por Proceso:](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img24.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_6.png)
+_**Imagen 24.** Activos - Modificar Clasificación por Proceso_
 
 **Modificar Confiabilidad Subjetiva:** Se Modifica Masivamente la Confiabilidad Subjetiva, de los Equipos que están previamente seleccionados en el visor.
 
-![Modificar Confiabilidad Subjetiva](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img25.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_7.png)
+_**Imagen 25.** Activos - Modificar Confiabilidad Subjetiva_
 
 **Modificar Proveedor:** Se modifica Masivamente el Proveedor, de los equipos que están previamente seleccionados en el visor.
 
