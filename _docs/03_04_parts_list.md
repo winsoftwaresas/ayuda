@@ -589,43 +589,58 @@ _**Imagen 25.** Activos - Modificar Confiabilidad Subjetiva_
 
 **Modificar Proveedor:** Se modifica Masivamente el Proveedor, de los equipos que están previamente seleccionados en el visor.
 
-![Modificar Proveedor](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img26.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_8.png)
+_**Imagen 26.** Activos - Modificar Proveedor_
 
 **Modificar Fabricante:** Se modifica Masivamente el Fabricante, de los equipos que están previamente seleccionados en el visor.
 
-![Modificar Fabricante](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img27.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_9.png)
+_**Imagen 27.** Activos - Modificar Fabricante_
 
 **Modificar Marca:** Se modifica Masivamente la Marca, de los equipos que están previamente seleccionados en el visor.
 
-![Modificar Marca](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img28.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_10.png)
+_**Imagen 28.** Activos - Modificar Marca_
 
 **Modificar Modelo:** Se Modifica Masivamente el Modelo, de los Equipos que están previamente seleccionados en el visor.
 
-![Modificar Modelo](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img29.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_11.png)
+_**Imagen 29.** Activos - Modificar Modelo_
 
 **Modificar Tipo:** Se Modifica Masivamente el Tipo, de los Equipos que están previamente seleccionados en el visor.
 
-![Modificar Tipo](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img30.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_12.png)
+_**Imagen 30.** Activos - Modificar Tipo_
 
-**Modificar Encargado:** Se  Modifica  Masivamente  el  Encargado,  de  los  Equipos  que están previamente seleccionados en el visor.
+**Modificar Encargado:** Se Modifica  Masivamente el Encargado, de los Equipos que están previamente seleccionados en el visor.
 
-![Modificar Encargado](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img31.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_13.png)
+_**Imagen 31.** Activos - Modificar Encargado_
 
 **Modificar Estado:** Se Modifica Masivamente el estado Activo – Inactivo, de los Equipos que están previamente seleccionados en el visor.
 
-![Modificar Estado](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img32.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_14.png)
+_**Imagen 32.** Activos - Modificar Estado_
 
 **Modificar Componente Intercambiable:** Se Modifica Masivamente el Componente Intercambiable, de los Equipos que están previamente seleccionados en el visor.
 
-![Modificar Componente Intercambiable](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img33.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_15.png)
+_**Imagen 33.** Activos - Modificar Modificar Componente Intercambiable_
 
 **Modificar Ruta:** Se Modifica Masivamente la Ruta, de los Equipos que están previamente seleccionados en el visor.
 
-![Modificar Ruta](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img34.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_16.png)
+_**Imagen 34.** Activos - Modificar Ruta_
 
-**Modificar Comentarios:** Se Modifica Masivamente los Comentarios, que están previamente digitados o seleccionados en el visor
+**Modificar Grupo del Activo:** Se Modifica Masivamente el grupo de los Equipos que están previamente seleccionados en el visor.
 
-![Modificar Comentarios](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img35.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_17.png)
+_**Imagen 35.** Activos - Modificar Grupo del Activo_
+
+**Modificar Comentarios:** Se Modifican Masivamente los Comentarios, que están previamente digitados o seleccionados en el visor
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_18.png)
+_**Imagen 36.** Activos - Modificar Comentarios_
 
 **Modificar FF Registro:** Se Modifica Masivamente la fecha de registro ubicada en la pestaña de Vida Útil, de los equipos que están previamente digitados o seleccionados en el visor.
 
