@@ -711,27 +711,27 @@ _**Imagen 48.** Activos - Modificar FF Ingreso de Póliza_
 **Modificar Registro Sanitario Invima o Permiso de Comercialización:** Se Modifica Masivamente el número de registro sanitario INVIMA o el número de permiso de comercialización ubicada en la pestaña de Info. Biomédica de los equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_31.png)
-_**Imagen 49.** Activos - Modificar Modificar Registro Sanitario Invima o Permiso de Comercialización_
+_**Imagen 49.** Activos - Modificar Registro Sanitario Invima o Permiso de Comercialización_
 
 **Modificar Impacto en el Proceso:** Se Modifica Masivamente el impacto en el proceso ubicado en la pestaña de Info. Biomédica del o de los equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_32.png)
-_**Imagen 50.** Activos - Modificar Modificar Impacto en el Proceso_
+_**Imagen 50.** Activos - Modificar Impacto en el Proceso_
 
 **Modificar Clasificación por Riespo:** Se Modifica Masivamente la clasificación por riesgo ubicado en la pestaña de Info. Biomédica del o de los equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_33.png)
-_**Imagen 51.** Activos - Modificar Modificar Impacto en el Proceso_
+_**Imagen 51.** Activos - Modificar Clasificación por riesgo_
 
 **Modificar Clasificación por Uso:** Se Modifica Masivamente la clasificación por uso ubicado en la pestaña de Info. Biomédica del o de los equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_34.png)
-_**Imagen 51.** Activos - Modificar Modificar Clasificación por uso_
+_**Imagen 51.** Activos - Modificar Clasificación por Uso_
 
 **Modificar Proceso Realizado por el Equipo:** Se Modifica Masivamenteel proceso realizado por el equipo ubicado en la pestaña de Info. Biomédica del o de los equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_35.png)
-_**Imagen 52.** Activos - Modificar Modificar Clasificación por uso_
+_**Imagen 52.** Activos - Modificar Proceso Realizado por el Equipo_
 
 ### Actualizar Contadores
 
