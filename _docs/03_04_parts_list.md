@@ -740,29 +740,28 @@ Es la función que facilita la Actualización de los Contadores asociados a los 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img15.png)
 _**Imagen 53.** Activos - Transacción Actualizar Contadores_
 
-La ventana despliega la lista de los Activos que tienen registrado un Contador dentro  de su definición de Ficha Técnica. Junto al Código de cada Equipo aparece el  tipo  de Contador y los datos referentes a la última lectura registrada. Posteriormente, a la derecha de cada línea de un Equipo se encuentran disponibles un conjunto de  campos para el registro de la información correspondiente a una nueva lectura.
+La ventana despliega la lista de los Activos que tienen registrado un Contador dentro de su definición de Ficha Técnica. Junto al Código de cada Activo aparece el tipo de Contador y los datos referentes a la última lectura registrada. Posteriormente, a la derecha de cada línea de un Activo se encuentran disponibles un conjunto de campos para el registro de la información correspondiente a una nueva lectura.
 
-![Actualizar Contadores](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img46.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img16.png)
+_**Imagen 54.** Activos - Actualizar Contadores_
 
-En  la  gráfica  anterior,  Ventana  para  Actualización  de  Contadores,  se  aprecian   sus componentes y sus respectivos contenidos. A continuación se describen los  campos que componen esta ventana, junto con una breve guía de uso.
+En la gráfica anterior, ventana para  Actualización de Contadores, se aprecian sus componentes y sus respectivos contenidos. A continuación se describen los  campos que componen esta ventana:
 
-**Equipo:** En esta columna aparece el listado de todos los Equipos que tienen definido un Contador en su Ficha Técnica. Al lado izquierdo del Equipo puede haber dos campos. El primero, al extremo izquierdo un signo (+) o un signo (-), que permiten visualizar u ocultar respectivamente,  el  despiece  del  Equipo,  en  aquellos  componentes  de  despiece  que también tienen una definición de contador, en su Ficha Técnica. El segundo es una casilla de selección que es marcada cuando se quiere actualizar con un nuevo valor, el contador para el Equipo de esa línea.
+**Activo:** En esta columna aparece el listado de todos los Activos/Equipos que tienen definido un Contador en su Ficha Técnica. Al lado izquierdo del Equipo puede haber dos campos. El primero, al extremo izquierdo un signo Más <span class="mdi mdi-plus-circle-outline"></span> o un signo Menos <span class="mdi mdi-minus-circle-outline"></span>, que permiten visualizar u ocultar respectivamente, el despiece del Equipo en aquellos componentes de despiece que también tienen una definición de contador, en su Ficha Técnica. El segundo es una casilla de selección que es marcada cuando se quiere actualizar con un nuevo valor, el contador para el Equipo de esa línea.
 
 **Contador:** En esta columna se trae automáticamente para cada Equipo el Contador  que tenga definido en su Ficha Técnica.
 
-**Fecha Ant.:** En esta columna se muestra la fecha de la anterior medición del Contador de cada Equipo.
+**FF Anterior:** En esta columna se muestra la fecha de la anterior medición del Contador de cada Equipo.
 
-**Med. Ant:** En esta columna se despliega el valor de la medición anterior.
+**Valor Anterior:** En esta columna se despliega el valor de la medición anterior.
 
-**Fecha Act:** En esta columna el sistema propone la fecha del día como fecha de la nueva lectura del  Contador. Cada fecha se puede asumir o se puede modificar,  según sea la fecha de realización de la lectura que se está registrando.
+**FF Nueva:** En esta columna el sistema propone la fecha actual como fecha de la nueva lectura del Contador. Cada fecha se puede asumir o se puede modificar, según sea la fecha de realización de la lectura que se está registrando.
 
-**Med. Act:** En esta columna se ingresa el valor de la lectura de contador a ser registrada.
+**Valor Nuevo:** En esta columna se ingresa el valor de la lectura de contador a ser registrada.
 
-**AD:** Seleccionando esta opción Botón `<a class="btn">`Adicionar`</a>` se realiza la adición del campo Medición
-Actual al campo Medición Anterior y deja el resultado en la columna Nueva Medición.
+**AD:** Seleccionando esta opción se realiza la adición del campo <a class="btn white">Valor Nuevo</a> al campo <a class="btn white">Valor Anterior</a> y deja el resultado en la columna <a class="btn white">Nueva Medición</a>.
 
-**RE:**  Seleccionando  esta  opción  Botón  `<a class="btn">`Remplazar`</a>` se  copia  el  valor  de  la  columna
-Medición Actual a la columna Nueva Medición.
+**RE:** Seleccionando esta opción se copia el  valor de la columna <a class="btn white">Valor Nuevo</a> a la columna <a class="btn white">Nueva Medición</a>.
 
 **Nueva Medición:** En esta columna se listan los valores actualizados de ese contador para el Equipo de cada línea.
 
