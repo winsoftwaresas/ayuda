@@ -668,7 +668,7 @@ _**Imagen 40.** Activos - Modificar FF Instalación_
 
 **Modificar FF Inicio Operación:** Se Modifica Masivamente la fecha de inicio de operación ubicada en la pestaña de Vida Útil de los equipos que están previamente seleccionados en el visor.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_23png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_23.png)
 _**Imagen 41.** Activos - Modificar FF Inicio Operación_
 
 **Modificar FF Dado de Baja:** Se Modifica Masivamente la fecha de dada de baja en la pestaña de Vida Útil de los equipos que están previamente seleccionados en el visor.
