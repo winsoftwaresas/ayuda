@@ -664,11 +664,11 @@ _**Imagen 39.** Activos - Modificar FF Ingreso Inventario_
 **Modificar FF Instalación:** Se Modifica Masivamente la fecha de instalación ubicada en la pestaña de Vida Útil de los equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_22.png)
-_**Imagen 40.** Activos - Modificar FF Instalación_
+_**Imagen 40.** Activos - Modificar FF Ingreso Inventario_
 
 **Modificar FF Inicio Operación:** Se Modifica Masivamente la fecha de inicio de operación ubicada en la pestaña de Vida Útil de los equipos que están previamente seleccionados en el visor.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_23.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_23png)
 _**Imagen 41.** Activos - Modificar FF Inicio Operación_
 
 **Modificar FF Dado de Baja:** Se Modifica Masivamente la fecha de dada de baja en la pestaña de Vida Útil de los equipos que están previamente seleccionados en el visor.
@@ -716,28 +716,31 @@ _**Imagen 49.** Activos - Modificar Registro Sanitario Invima o Permiso de Comer
 **Modificar Impacto en el Proceso:** Se Modifica Masivamente el impacto en el proceso ubicado en la pestaña de Info. Biomédica del o de los equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_32.png)
-_**Imagen 50.** Activos - Modificar Impacto en el Proceso_
+_**Imagen 50.** Activos - Modificar  Impacto en el Proceso_
 
 **Modificar Clasificación por Riespo:** Se Modifica Masivamente la clasificación por riesgo ubicado en la pestaña de Info. Biomédica del o de los equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_33.png)
-_**Imagen 51.** Activos - Modificar Clasificación por riesgo_
+_**Imagen 51.** Activos - Modificar Impacto en el Proceso_
 
 **Modificar Clasificación por Uso:** Se Modifica Masivamente la clasificación por uso ubicado en la pestaña de Info. Biomédica del o de los equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_34.png)
-_**Imagen 51.** Activos - Modificar Clasificación por Uso_
+_**Imagen 51.** Activos - Modificar Clasificación por uso_
 
 **Modificar Proceso Realizado por el Equipo:** Se Modifica Masivamenteel proceso realizado por el equipo ubicado en la pestaña de Info. Biomédica del o de los equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_35.png)
-_**Imagen 52.** Activos - Modificar Proceso Realizado por el Equipo_
+_**Imagen 52.** Activos - Modificar  Clasificación por uso_
 
 ### Actualizar Contadores
 
-Es  la función  que facilita  la  Actualización de  los  Contadores de  los  Equipos. A  esta ventana se llega mediante un clic en la opción `<a class="btn">`Actualizar Contadores`</a>`. de la  Sección  “Transacciones” del Submenú de Equipos.
+Es la función que facilita la Actualización de los Contadores asociados a los Activos/Equiposo. A esta ventana se llega sobreponiendo el cursor sobre el Módulo de Activos y mediante un clic en la opción <a class="btn white">Actualizar Contadores</a> de la sección “Transacciones”.
 
-La ventana despliega la lista de los Equipos que tienen registrado un Contador dentro  de su definición de  Ficha Técnica. Junto al  Código de cada Equipo aparece el  tipo  de Contador y los datos referentes a la última lectura registrada. Posteriormente, a la derecha de cada línea de un Equipo se encuentran disponibles un conjunto de  campos para el registro de la información correspondiente a una nueva lectura.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img15.png)
+_**Imagen 53.** Activos - Transacción Actualizar Contadores_
+
+La ventana despliega la lista de los Activos que tienen registrado un Contador dentro  de su definición de Ficha Técnica. Junto al Código de cada Equipo aparece el  tipo  de Contador y los datos referentes a la última lectura registrada. Posteriormente, a la derecha de cada línea de un Equipo se encuentran disponibles un conjunto de  campos para el registro de la información correspondiente a una nueva lectura.
 
 ![Actualizar Contadores](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img46.png)
 
