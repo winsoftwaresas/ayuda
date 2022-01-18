@@ -550,12 +550,14 @@ A continuación se describen los campos que  componen esta transacción:
 
 **Modificar Todos los Activos en el Visor:** Al escoger esta opción, se ejecutan los cambios marcados (Ficha Técnica, Vida Útil e Info. Biomédica) a todos los Activos/Equipos que se encuentren en el visor.
 
-**Modificar Descripción:** Se Modifica Masivamente la Descripción, del o los Activos que están previamente seleccionados en el visor.
+#### FICHA TÉCNICA
+
+**Modificar Descripción:** Se Modifica Masivamente la Descripción del o los Activos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_1.png)
 _**Imagen 19.** Activos - Modificar Descripción_
 
-**Modificar Referencia Externa (Proveedor):** Se Modifica Masivamente la referencia externa proveedor, del o los Equipos que están previamente seleccionados en el visor.
+**Modificar Referencia Externa (Proveedor):** Se Modifica Masivamente la referencia externa proveedor del o los Equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_2.png)
 _**Imagen 20.** Activos - Modificar Referencia Externa_
@@ -565,69 +567,69 @@ _**Imagen 20.** Activos - Modificar Referencia Externa_
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_3.png)
 _**Imagen 21.** Activos - Modificar Activo Padre_
 
-**Modificar Centro de Costo:** Se Modifica Masivamente el Centro de Costo, de  los
+**Modificar Centro de Costo:** Se Modifica Masivamente el Centro de Costo de los
 Equipos que están previamente seleccionados en el visor.
 
-![Proecesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_4.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_4.png)
 _**Imagen 22.** Activos - Modificar Centro de Costo_
 
-**Modificar Ubicación Física:** Se Modifica Masivamente la Ubicación Física, de los
+**Modificar Ubicación Física:** Se Modifica Masivamente la Ubicación Física de los
 Equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_5.png)
 _**Imagen 23.** Activos - Modificar Ubicación Física_
 
-**Modificar Clasificación por Proceso:** Se Modifica Masivamente la Clasificación por Proceso, de los Equipos que están previamente seleccionados en el visor.
+**Modificar Clasificación por Proceso:** Se Modifica Masivamente la Clasificación por Proceso de los Equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_6.png)
 _**Imagen 24.** Activos - Modificar Clasificación por Proceso_
 
-**Modificar Confiabilidad Subjetiva:** Se Modifica Masivamente la Confiabilidad Subjetiva, de los Equipos que están previamente seleccionados en el visor.
+**Modificar Confiabilidad Subjetiva:** Se Modifica Masivamente la Confiabilidad Subjetiva de los Equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_7.png)
 _**Imagen 25.** Activos - Modificar Confiabilidad Subjetiva_
 
-**Modificar Proveedor:** Se modifica Masivamente el Proveedor, de los equipos que están previamente seleccionados en el visor.
+**Modificar Proveedor:** Se modifica Masivamente el Proveedor de los equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_8.png)
 _**Imagen 26.** Activos - Modificar Proveedor_
 
-**Modificar Fabricante:** Se modifica Masivamente el Fabricante, de los equipos que están previamente seleccionados en el visor.
+**Modificar Fabricante:** Se modifica Masivamente el Fabricante de los equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_9.png)
 _**Imagen 27.** Activos - Modificar Fabricante_
 
-**Modificar Marca:** Se modifica Masivamente la Marca, de los equipos que están previamente seleccionados en el visor.
+**Modificar Marca:** Se modifica Masivamente la Marca de los equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_10.png)
 _**Imagen 28.** Activos - Modificar Marca_
 
-**Modificar Modelo:** Se Modifica Masivamente el Modelo, de los Equipos que están previamente seleccionados en el visor.
+**Modificar Modelo:** Se Modifica Masivamente el Modelo de los Equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_11.png)
 _**Imagen 29.** Activos - Modificar Modelo_
 
-**Modificar Tipo:** Se Modifica Masivamente el Tipo, de los Equipos que están previamente seleccionados en el visor.
+**Modificar Tipo:** Se Modifica Masivamente el Tipo de los Equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_12.png)
 _**Imagen 30.** Activos - Modificar Tipo_
 
-**Modificar Encargado:** Se Modifica  Masivamente el Encargado, de los Equipos que están previamente seleccionados en el visor.
+**Modificar Encargado:** Se Modifica  Masivamente el Encargado de los Equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_13.png)
 _**Imagen 31.** Activos - Modificar Encargado_
 
-**Modificar Estado:** Se Modifica Masivamente el estado Activo – Inactivo, de los Equipos que están previamente seleccionados en el visor.
+**Modificar Estado:** Se Modifica Masivamente el estado Activo – Inactivo de los Equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_14.png)
 _**Imagen 32.** Activos - Modificar Estado_
 
-**Modificar Componente Intercambiable:** Se Modifica Masivamente el Componente Intercambiable, de los Equipos que están previamente seleccionados en el visor.
+**Modificar Componente Intercambiable:** Se Modifica Masivamente el Componente Intercambiable de los Equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_15.png)
 _**Imagen 33.** Activos - Modificar Modificar Componente Intercambiable_
 
-**Modificar Ruta:** Se Modifica Masivamente la Ruta, de los Equipos que están previamente seleccionados en el visor.
+**Modificar Ruta:** Se Modifica Masivamente la Ruta de los Equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_16.png)
 _**Imagen 34.** Activos - Modificar Ruta_
@@ -637,56 +639,101 @@ _**Imagen 34.** Activos - Modificar Ruta_
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_17.png)
 _**Imagen 35.** Activos - Modificar Grupo del Activo_
 
-**Modificar Comentarios:** Se Modifican Masivamente los Comentarios, que están previamente digitados o seleccionados en el visor
+**Modificar Comentarios:** Se Modifican Masivamente los Comentarios, que están previamente seleccionados en el visor
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_18.png)
 _**Imagen 36.** Activos - Modificar Comentarios_
 
-**Modificar FF Registro:** Se Modifica Masivamente la fecha de registro ubicada en la pestaña de Vida Útil, de los equipos que están previamente digitados o seleccionados en el visor.
+#### VIDA DE ÚTIL
 
-![vida util](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img36.png)
+**Modificar FF Registro:** Se Modifica Masivamente la fecha de registro ubicada en la pestaña de Vida Útil de los equipos que están previamente seleccionados en el visor.
 
-**Se Modifica Masivamente** la fecha de fabricación ubicada en la pestaña de Vida Útil, de los equipos que están previamente digitados o seleccionados en el visor.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_19.png)
+_**Imagen 37.** Activos - Modificar FF Registro_
 
-![Modificar FF Fabricación](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img37.png)
+**Modificar FF Fabricación:** Modifica Masivamente la fecha de fabricación ubicada en la pestaña de Vida Útil de los equipos que están previamente seleccionados en el visor.
 
-**Modificar FF Ingreso Inventario:** Se Modifica Masivamente la fecha de ingreso al inventario ubicada en la pestaña de Vida Útil, de los equipos que están previamente digitados o seleccionados en el visor.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_20.png)
+_**Imagen 38.** Activos - Modificar FF Fabricación_
 
-![Modificar FF Ingreso Inventario](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img38.png)
+**Modificar FF Ingreso Inventario:** Se Modifica Masivamente la fecha de ingreso al inventario ubicadada en la pestaña de Vida Útil de los equipos que están previamente seleccionados en el visor.
 
-**Modificar FF Instalación:** Se Modifica Masivamente la fecha de instalación ubicada en la pestaña de Vida Útil, de los equipos que están previamente digitados o seleccionados en el visor.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_21.png)
+_**Imagen 39.** Activos - Modificar FF Ingreso Inventario_
 
-![Modificar FF Instalación](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img39.png)
+**Modificar FF Instalación:** Se Modifica Masivamente la fecha de instalación ubicada en la pestaña de Vida Útil de los equipos que están previamente seleccionados en el visor.
 
-**Modificar FF Inicio Operación:** Se Modifica Masivamente la fecha de inicio de operación ubicada en la pestaña de Vida Útil, de los equipos que están previamente digitados o seleccionados en el visor.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_22.png)
+_**Imagen 40.** Activos - Modificar FF Ingreso Inventario_
 
-![Modificar FF Inicio Operación](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img40.png)
+**Modificar FF Inicio Operación:** Se Modifica Masivamente la fecha de inicio de operación ubicada en la pestaña de Vida Útil de los equipos que están previamente seleccionados en el visor.
 
-**Modificar FF Dado de Baja:** Se Modifica Masivamente la fecha de dada de baja en la pestaña de Vida Útil, de los equipos que están previamente digitados o seleccionados en el visor.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_23png)
+_**Imagen 41.** Activos - Modificar FF Inicio Operación_
 
-![Modificar FF Dado de Baja](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img41.png)
+**Modificar FF Dado de Baja:** Se Modifica Masivamente la fecha de dada de baja en la pestaña de Vida Útil de los equipos que están previamente seleccionados en el visor.
 
-**Modificar FF Adquisición:** Se Modifica Masivamente la fecha de adquisición ubicada en la pestaña de Vida Útil, de los equipos que están previamente digitados o seleccionados en el visor.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_24.png)
+_**Imagen 42.** Activos - Modificar FF Dado de Baja_
 
-![Modificar FF Adquisición](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img41..png)
+**Modificar FF Adquisición:** Se Modifica Masivamente la fecha de adquisición ubicada en la pestaña de Vida Útil de los equipos que están previamente seleccionados en el visor.
 
-**Modificar Tipo Adquisición:** Se Modifica Masivamente el tipo de adquisición seleccionado de la lista desplegada y que está ubicada en la pestaña de Vida Útil, de los equipos que están previamente digitados o seleccionados en el visor.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_25.png)
+_**Imagen 43.** Activos - Modificar FF Adquisición_
 
-![Modificar Tipo Adquisición](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img42.png)
+**Modificar Tipo Adquisición:** Se Modifica Masivamente el tipo de adquisición seleccionado de la lista desplegada y que está ubicada en la pestaña de Vida Útil de los equipos que están previamente seleccionados en el visor.
 
-**Modificar Contrato:** Se Modifica Masivamente el Contrato ubicado en la pestaña de Vida Útil, de los equipos que están previamente digitados o seleccionados en el visor.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_26.png)
+_**Imagen 44.** Activos - Modificar Tipo Adquisición_
 
-![Modificar Contrato](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img43.png)
+**Modificar Contrato:** Se Modifica Masivamente el Contrato ubicado en la pestaña de Vida Útil, de los equipos que están previamente seleccionados en el visor.
 
-**Modificar Número de Póliza:** Se Modifica Masivamente el número de la póliza ubicada en la pestaña de Vida Útil, de los equipos que están previamente digitados o seleccionados en el visor.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_27.png)
+_**Imagen 45.** Activos - Modificar Contrato_
 
-![Modificar Número de Póliza](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img44.png)
+**Modificar Número de Póliza:** Se Modifica Masivamente el número de la póliza ubicada en la pestaña de Vida Útil de los equipos que están previamente seleccionados en el visor.
 
-**Modificar FF Ingreso de Póliza:** Se Modifica Masivamente la fecha de ingreso de la póliza ubicada en la pestaña de Vida Útil, de los equipos que están previamente digitados o seleccionados en el visor.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_28.png)
+_**Imagen 46.** Activos - Modificar Número de Póliza_
 
-![Modificar FF Ingreso de Póliza](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img45.png)
+**Modificar FF Ingreso de Póliza:** Se Modifica Masivamente la fecha de ingreso de la póliza ubicada en la pestaña de Vida Útil de los equipos que están previamente seleccionados en el visor.
 
-###Actualizar Contadores
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_29.png)
+_**Imagen 47.** Activos - Modificar FF Ingreso de Póliza_
+
+**Modificar FF Retiro de Póliza:** Se Modifica Masivamente la fecha de retiro de la póliza ubicada en la pestaña de Vida Útil de los equipos que están previamente seleccionados en el visor.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_30.png)
+_**Imagen 48.** Activos - Modificar FF Ingreso de Póliza_
+
+#### INFO. BIOMÉDICA
+
+**Modificar Registro Sanitario Invima o Permiso de Comercialización:** Se Modifica Masivamente el número de registro sanitario INVIMA o el número de permiso de comercialización ubicada en la pestaña de Info. Biomédica de los equipos que están previamente seleccionados en el visor.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_31.png)
+_**Imagen 49.** Activos - Modificar Modificar Registro Sanitario Invima o Permiso de Comercialización_
+
+**Modificar Impacto en el Proceso:** Se Modifica Masivamente el impacto en el proceso ubicado en la pestaña de Info. Biomédica del o de los equipos que están previamente seleccionados en el visor.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_32.png)
+_**Imagen 50.** Activos - Modificar Modificar Impacto en el Proceso_
+
+**Modificar Clasificación por Riespo:** Se Modifica Masivamente la clasificación por riesgo ubicado en la pestaña de Info. Biomédica del o de los equipos que están previamente seleccionados en el visor.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_33.png)
+_**Imagen 51.** Activos - Modificar Modificar Impacto en el Proceso_
+
+**Modificar Clasificación por Uso:** Se Modifica Masivamente la clasificación por uso ubicado en la pestaña de Info. Biomédica del o de los equipos que están previamente seleccionados en el visor.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_34.png)
+_**Imagen 51.** Activos - Modificar Modificar Clasificación por uso_
+
+**Modificar Proceso Realizado por el Equipo:** Se Modifica Masivamenteel proceso realizado por el equipo ubicado en la pestaña de Info. Biomédica del o de los equipos que están previamente seleccionados en el visor.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_35.png)
+_**Imagen 52.** Activos - Modificar Modificar Clasificación por uso_
+
+### Actualizar Contadores
 
 Es  la función  que facilita  la  Actualización de  los  Contadores de  los  Equipos. A  esta ventana se llega mediante un clic en la opción `<a class="btn">`Actualizar Contadores`</a>`. de la  Sección  “Transacciones” del Submenú de Equipos.
 
