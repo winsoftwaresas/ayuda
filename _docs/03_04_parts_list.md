@@ -664,7 +664,7 @@ _**Imagen 39.** Activos - Modificar FF Ingreso Inventario_
 **Modificar FF Instalación:** Se Modifica Masivamente la fecha de instalación ubicada en la pestaña de Vida Útil de los equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_22.png)
-_**Imagen 40.** Activos - Modificar FF Ingreso Inventario_
+_**Imagen 40.** Activos - Modificar FF Instalación_
 
 **Modificar FF Inicio Operación:** Se Modifica Masivamente la fecha de inicio de operación ubicada en la pestaña de Vida Útil de los equipos que están previamente seleccionados en el visor.
 
