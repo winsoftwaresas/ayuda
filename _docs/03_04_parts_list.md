@@ -765,9 +765,10 @@ En la gráfica anterior, ventana para  Actualización de Contadores, se aprecian
 
 **Nueva Medición:** En esta columna se listan los valores actualizados de ese contador para el Equipo de cada línea.
 
-Al  finalizar  de  registrar  todas  las  lecturas  de  contadores  se  da  un  clic  en  el  botón `<a class="btn">`Actualizar`</a>` y el sistema responde con una Caja de Diálogo como la que  sigue,  en cuyo caso   para   realizar   efectivamente  las   actualizaciones  a   las   lecturas   de   contadores registradas se da un clic en el botón `<a class="btn">`Sí`</a>`.
+> **Nota:** Al finalizar el registro de todas las lecturas  de contadores se da un clic en el botón <a class="btn gray">Actualizar</a> en la cual el sistema arroja un mensaje alerta en la cual el usuario debe <a class="btn gray">Aceptar</a>.
 
-![Atencion](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img47.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img17.png)
+_**Imagen 55.** Activos - Contadores_
 
 Realizado el proceso se cambian los datos en rojo de la columna Nueva Medición por color verde, mostrando los campos actualizados.
 
