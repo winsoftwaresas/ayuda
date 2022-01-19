@@ -803,15 +803,25 @@ _**Imagen 57.** Activos - Indicadores Vista Árbol_
 
 ### Exportar
 
-Esta opción permite la exportación de los Equipos/Activos que aparecen en el visor, totales o provenientes de un subgrupo, a un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso.
+Esta opción permite la exportación de los campos contenidos en la ficha técnica de los Activos/Equipos que aparecen en el visor, totales o provenientes de un subgrupo a un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso.
 
-Al ejecutar esta transacción, se abrirá una ventana la cual se muestra a continuación.
+Al ejecutar esta transacción, se abre una ventana como se muestra a continuación:
 
-![exportar activos](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img51.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img27.png)
+_**Imagen 58.** Activos - Transacción Exportar_
 
-Al darle clic en el botón <a class="btn">Exportar</a>,se generará un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso, el objetivo de esta exportación es llevar toda la información de los Equipos contenidos en el visor a un archivo plano, para luego ser analizados.
+En la gráfica anterior, se aprecian sus componentes y sus respectivos contenidos.
 
-Adicionalmente, es posible exportar todos los campos de la ventana Detalle de los Activos / Equipos, para esto se da clic en el cuadro llamado ** “Exportar Todos Los Campos”**. También, es posible exportar uno o varios campos de la ventana Detalle de los Activos / Equipos, para esto se da clic en cada uno de los cuadros que acompañan los campos.
+**Exportar Visor:** Esta opción exporta todos los Activos seleccionados en el visor mediante un subgrupo.
+
+**Exportar Todos los Registros:** Esta opción exporta todas los Activos existentes en la base de datos, sin importar cualquier subgrupo activo.
+
+Luego de escoger una de las opciones anteriores, en la parte inferior aparece seleccionado por defecto el recuadro de selección <a class="btn black"><span class="mdi mdi-checkbox-blank-outline"> exportar todos los campos</a> , pero si se prefiere uno o algunos campos, se debe des-seleccionar y a continuación hacer clic en los recuadros a exportar.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img28.png)
+_**Imagen 59.** Activos - Exportar Campos_
+
+Una vez elegida la información, dar clic en el botón inferior <a class="btn white">Exportar</a> el cual genera un archivo de Excel que se descarga automáticamente. El objetivo de esta exportación es llevar toda la información de los Activos a un archivo plano, para luego ser analizados.
 
 ## Servicios
 
