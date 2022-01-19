@@ -765,25 +765,41 @@ En la gráfica anterior, ventana para  Actualización de Contadores, se aprecian
 
 **Nueva Medición:** En esta columna se listan los valores actualizados de ese contador para el Equipo de cada línea.
 
-> **Nota:** Al finalizar el registro de todas las lecturas  de contadores se da un clic en el botón <a class="btn gray">Actualizar</a> en la cual el sistema arroja un mensaje alerta en la cual el usuario debe <a class="btn gray">Aceptar</a>.
+> **Nota:** Al finalizar el registro de todas las lecturas  de contadores se debe procesar a dar clic en el botón <a class="btn gray">Actualizar</a>, el sistema muestra un mensaje alerta y para continuar presionar <a class="btn gray">Aceptar</a>.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img17.png)
-_**Imagen 55.** Activos - Contadores_
+_**Imagen 55.** Activos - Mensaje Alerta Contadores_
 
-Realizado el proceso se cambian los datos en rojo de la columna Nueva Medición por color verde, mostrando los campos actualizados.
+Realizado el proceso se cambian los datos en rojo de la columna Nueva Medición por color verde, mostrando los campos actualizados:
 
-Es posible definir en valores por defecto la posibilidad de  “No modificación de Contadores decrementales por Equipo”, cuya función es impedir la carga de Contadores inferiores al que posee en la actualidad el equipo.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img18.png)
+_**Imagen 56.** Activos - Actualización de Valores Contadores_
 
-![valores por defecto](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img48.png)
+Adicionalmente, se cuenta con la posibilidad  de activar la opción de “No permitir modificaciones por encima del estándar de planeación”, cuya funcionalidad es impedir la carga de contadores por encima de un estándar predefinido para un periodo de tiempo. Para activarla, se debe ingresar con un usuario administrador e ingresar a Valores por Defecto, en la opción Activos, como se indica a continuación:
 
-Adicionalmente,  se  cuenta  con  la  posibilidad  de  activar  la  opción  de   “No   permitir modificaciones por encima del estándar de planeación”, cuya funcionalidad  es  impedir la carga de contadores por encima de un estándar predefinido para un periodo de tiempo.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img19.png)
+_**Imagen 57.** Activos - Valores por Defecto - Contadores_
 
-![valores por defecto](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img49.png)
 
 ### Cambiar a TreeGrid
 
-Es  la función  que facilita  visualizar en vista de árbol un conjunto de Activos de acuerdo al subgrupo o todos los Activos del módulo. A  esta ventana se llega mediante un clic en el icono con  ubicado en la parte superior derecha de la ventana Visor de Activos.
-![activos](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img50.png)
+Es  la función  que facilita  visualizar en vista de árbol un conjunto de Activos de acuerdo al filtro o subgrupo o bien todo el conjunto de Activos. Es bastante útil además, para visualizar detalladamente el despiece o descomponetización de un Activo. 
+
+Para acceder a esta función se debe dar clic en el icono <span class="mdi mdi-autorenew"></span> ubicado en la parte superior derecha de la ventana Visor de Activos, la vista se visualiza de la siguiente forma:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img20.png)
+_**Imagen 57.** Activos - Vista Árbol_
+
+En la gráfica anterior, ventana Árbol de Activos, se aprecian sus componentes y sus respectivos contenidos. A continuación se describen los  campos que componen esta ventana:
+
+ En esta columna aparece el listado de todos los Activos/Equipos agrupados por su respectivo código y descripción de Ubicacion Física. Al lado izquierdo de cada código visualiza un signo Más <span class="mdi mdi-plus-circle-outline"></span> o un signo Menos <span class="mdi mdi-minus-circle-outline"></span>, que permiten visualizar u ocultar respectivamente, el despiece del Activo/Equipo. 
+
+ El significado de cada color lo indica el ícono de indicadores <span class="mdi mdi-message-alert"></span> ubicado en la parte superior derecha de la ventana, como se muestra a continuación:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img21.png)
+_**Imagen 57.** Activos - Indicadores Vista Árbol_
+
+> **Nota:** Para volver nuevamente a la vista Visor de Activos, se debe dar un clic nuevamente al ícono de TreeGrid <span class="mdi mdi-autorenew"></span>.
 
 ### Exportar
 
@@ -797,7 +813,7 @@ Al darle clic en el botón `<a class="btn">`Exportar`</a>` , se generará un arc
 
 Adicionalmente, es posible exportar todos los campos de la ventana Detalle de los Activos / Equipos, para esto se da clic en el cuadro llamado ** “Exportar Todos Los Campos”**. También, es posible exportar uno o varios campos de la ventana Detalle de los Activos / Equipos, para esto se da clic en cada uno de los cuadros que acompañan los campos.
 
-# Servicios
+## Servicios
 
 Este comando permite visualizar los reportes relacionados con los Activos / Equipos. Existen los siguientes tipos de reportes básicos disponibles:
 
