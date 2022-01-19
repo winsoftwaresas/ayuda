@@ -816,12 +816,21 @@ En la gráfica anterior, se aprecian sus componentes y sus respectivos contenido
 
 **Exportar Todos los Registros:** Esta opción exporta todas los Activos existentes en la base de datos, sin importar cualquier subgrupo activo.
 
-Luego de escoger una de las opciones anteriores, en la parte inferior aparece seleccionado por defecto el recuadro de selección <a class="btn"><span class="mdi mdi-checkbox-blank-outline">exportar todos los campos</a></span> pero si se prefiere uno o algunos campos se debe des-seleccionar y a continuación hacer clic en los recuadros a exportar.
+Luego de escoger una de las opciones anteriores, en la parte inferior aparece seleccionado por defecto el recuadro de selección <a class="btn"><span class="mdi mdi-checkbox-blank-outline">exportar todos los campos</span></a> pero si se prefiere uno o algunos campos se debe des-seleccionar y a continuación hacer clic en los recuadros a exportar.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img28.png)
 _**Imagen 59.** Activos - Exportar Campos_
 
 Una vez elegida la información, dar clic en el botón inferior <a class="btn white">Exportar</a> el cual genera un archivo de Excel que se descarga automáticamente. El objetivo de esta exportación es llevar toda la información de los Activos a un archivo plano, para luego ser analizados.
+
+## Dashboard de Activos
+
+Esta transaccion permite ver indicadores gráficos básicos sobre la información de los Activos/Equipos. Para acceder a esta opción se sobrepone el cursor sobre el módulo de OT donde se despliega un submenú de transacciones disponibles y luego se da clic en “DashBoard de OT”.
+
+
+
+
+
 
 ## Servicios
 
