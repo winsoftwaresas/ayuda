@@ -809,7 +809,7 @@ Al ejecutar esta transacción, se abrirá una ventana la cual se muestra a conti
 
 ![exportar activos](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img51.png)
 
-Al darle clic en el botón `<a class="btn">`Exportar`</a>` , se generará un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso, el objetivo de esta exportación es llevar toda la información de los Equipos contenidos en el visor a un archivo plano, para luego ser analizados.
+Al darle clic en el botón <a class="btn">Exportar</a>,se generará un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso, el objetivo de esta exportación es llevar toda la información de los Equipos contenidos en el visor a un archivo plano, para luego ser analizados.
 
 Adicionalmente, es posible exportar todos los campos de la ventana Detalle de los Activos / Equipos, para esto se da clic en el cuadro llamado ** “Exportar Todos Los Campos”**. También, es posible exportar uno o varios campos de la ventana Detalle de los Activos / Equipos, para esto se da clic en cada uno de los cuadros que acompañan los campos.
 
