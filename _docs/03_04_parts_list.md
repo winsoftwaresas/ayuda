@@ -816,7 +816,7 @@ En la gráfica anterior, se aprecian sus componentes y sus respectivos contenido
 
 **Exportar Todos los Registros:** Esta opción exporta todas los Activos existentes en la base de datos, sin importar cualquier subgrupo activo.
 
-Luego de escoger una de las opciones anteriores, en la parte inferior aparece seleccionado por defecto el recuadro de selección <a class="btn"><span class="mdi mdi-checkbox-blank-outline">exportar todos los campos</span></a> pero si se prefiere uno o algunos campos se debe des-seleccionar y a continuación hacer clic en los recuadros a exportar.
+Luego de escoger una de las opciones anteriores, en la parte inferior aparece seleccionado por defecto el recuadro de selección <a class="btn black"><span class="mdi mdi-checkbox-blank-outline">exportar todos los campos</span></a> pero si se prefiere uno o algunos campos se debe des-seleccionar y a continuación hacer clic en los recuadros a exportar.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img28.png)
 _**Imagen 59.** Activos - Exportar Campos_
