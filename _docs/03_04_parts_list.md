@@ -668,7 +668,7 @@ _**Imagen 40.** Activos - Modificar FF Ingreso Inventario_
 
 **Modificar FF Inicio Operación:** Se Modifica Masivamente la fecha de inicio de operación ubicada en la pestaña de Vida Útil de los equipos que están previamente seleccionados en el visor.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_23png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_23.png)
 _**Imagen 41.** Activos - Modificar FF Inicio Operación_
 
 **Modificar FF Dado de Baja:** Se Modifica Masivamente la fecha de dada de baja en la pestaña de Vida Útil de los equipos que están previamente seleccionados en el visor.
@@ -803,7 +803,7 @@ _**Imagen 57.** Activos - Indicadores Vista Árbol_
 
 ### Exportar
 
-Esta opción permite la exportación de los campos contenidos en la ficha técnica de los Activos/Equipos que aparecen en el visor, totales o provenientes de un subgrupo a un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso.
+Esta opción <span class="mdi mdi-download"></span> permite la exportación de los campos contenidos en la ficha técnica de los Activos/Equipos que aparecen en el visor, totales o provenientes de un subgrupo a un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso.
 
 Al ejecutar esta transacción, se abre una ventana como se muestra a continuación:
 
@@ -830,7 +830,7 @@ Esta transaccion permite ver indicadores gráficos básicos sobre la informació
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img29.png)
 _**Imagen 60.** Activos - Transacción Dashboard_
 
-Este comando permite visualizar en tiempo real el comportamiento de los registros de OT con el fin de usarse como una herramienta para análisis y toma de decisiones rápidas.
+Este comando permite visualizar en tiempo real el comportamiento de los Activos/Equipos con el fin de usarse como una herramienta para análisis y toma de decisiones rápidas.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img30.png)
 _**Imagen 61.** Activos - Dashboard_
@@ -841,7 +841,7 @@ También un indicador de la existencia de un subgrupo, es el ícono <span class=
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img31.png)
 _**Imagen 62.** Activos - Dashboard Subgrupos_
 
-Para personalizar la vista de los gráficos o tener una información específica se recomienda hacer subgrupos a través del <span class="mdi mdi-filter-variant"></span>. Asimismo los DashBoards permiten ocultar información con solo dar un clic sobre sus rectángulos de colores como se muestra en la siguiente imagen:
+Para personalizar la vista de los gráficos o tener una información específica se recomienda hacer subgrupos a través del ícono de filtro <span class="mdi mdi-filter-variant"></span>. Asimismo los DashBoards permiten ocultar información con solo dar un clic sobre sus rectángulos de colores como se muestra en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img32.png)
 _**Imagen 62.** Activos - Dashboard personalizado_
@@ -853,7 +853,7 @@ _**Imagen 63.** Activos - Dashboard personalizado_
 
 ## Servicios
 
-Este comando permite visualizar los reportes o informes de la información relacionada a los Activos /Equipos. Existen los siguientes tipos de reportes básicos disponibles:
+Este comando <span class="mdi mdi-printer"></span>  permite visualizar los reportes o informes de la información relacionada a los Activos /Equipos. Existen los siguientes tipos de reportes básicos disponibles:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img34.png)
 _**Imagen 65.** Activos - Reportes_
