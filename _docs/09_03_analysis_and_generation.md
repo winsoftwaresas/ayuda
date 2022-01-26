@@ -24,7 +24,7 @@ Se recomienda que se programe al menos una semana, con una semana de anticipaci�
 
 Lograr un acuerdo con el programa de Producción o con el Responsable del Equipo para poder ejecutar la intervención planeada sin interferir con actividades productivas. Asegurar la disponibilidad, a tiempo, de Materiales, Repuestos u otros Conceptos de Costo requeridos en la ejecución de cada **OT** y programar el recurso humano necesario para ejecutarlas.
 
-**El ciclo de vida de una Órden de Trabajo**
+### El CICLO DE VIDA DE UNA ÓRDEN DE TRABAJO
 
 El centro de actividad gerencial en **AM** es el ambiente de las Órdenes de Trabajo. Ya sea recién creada, o ejecutada hace varios años, **AM** dispone de herramientas que permiten la administración efectiva de cada una de ellas.
 

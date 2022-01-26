@@ -1,51 +1,48 @@
 ---
 title:  Ventana Principal de Órdenes de Trabajo
-subtitle: en este modulo conocera como trabaja y como se visualiza cada ventana emergente de esta seccion.
+subtitle: En este modulo se conoce cómo trabaja y cómo se visualizan los registros de esta sección.
 tags: [setup]
 author: win
 order: 09_04
 ---
-![Ventana Principal de Solicitudes de Servicio](manualAM/0.images/cap11/chp011_img02.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img02.png)
+_**Imagen 67.** Órdenes - Acceso directo_
 
-Se accede desde el comando Órdenes de Trabajo en la barra de menú principal   del
-
-- **AM**-. A través de esta  ventana se  permite crear  Órdenes de Trabajo manuales  y Administrar la totalidad de las Órdenes activas, Pendientes de Ejecución, o listas para ser enviadas a Historia. Igualmente, desde esta ventana se Administran las  Órdenes de Trabajo Programadas (las que se generan desde Programas de Mantenimiento).
+Se accede desde el comando <a class="btn blue">órdenes</a> en la barra de menú principal de **AM**. A través de esta ventana se permite crear Órdenes de Trabajo manuales y Administrar la totalidad de las Órdenes activas, Pendientes de Ejecución, o listas para ser enviadas a Historia. Igualmente, desde esta ventana se Administran las Órdenes de Trabajo Programadas (las que se generan desde Programas de Mantenimiento), a continuación se ilustran las porciones que la componen:
 
 ## Ventana Visor
 
-![Ventana Visor](manualAM/0.images/cap11/chp11_img02.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img03.png)
+_**Imagen 68.** Órdenes - Ventana Visor_
 
-Se accede directamente desde la ventana principal de Órdenes de Trabajo.
+Desde esta ventana es posible observar la lista de las Órdenes de Trabajo existentes o un subconjunto de ellas (efectuado a través de un subgrupo <span class="mdi mdi-filter-variant"></span>). Se puede hacer clic en alguna de ellas, para visualizar la información completa de la Orden en una nueva ventana (Ventana Detalle).
 
-Desde esta ventana es posible observar la lista de las Órdenes de Trabajo existentes o un subconjunto de ellas (efectuado a través de un subgrupo). Se puede hacer clic en alguna de ellas, para visualizar el registro completo de la Orden de Trabajo, en la  parte inferior (Ventana Detalle).
+Los nombres que encabezan las columnas a  manera de títulos en azul, permiten ordenar de manera ascendente/descendente la información por cada ítem seleccionado, esto a tráves de un clic en el respectivo encabezado.
 
-Los  nombres  que encabezan las  columnas  a  manera  de  títulos en azul, permiten ordenar  de manera ascendente la información por cada ítem seleccionado, al dar clic en el respectivo encabezado.
-
-Es de resaltar, que en esta versión se añade una nueva columna a la ventana Visor llamada Vencimiento, la cual lista los días vencidos de cada Orden de Trabajo.
-
-En la ventana Visor por la columna Estado, se define una semaforización de las  Órdenes de Trabajo. La finalidad de esta columna es mostrar de manera gráfica el  estado de la Orden de Trabajo.
+En esta ventana, en la columna <a class="btn white">estado</a> se define una semaforización de las Órdenes de Trabajo. La finalidad de esta columna es mostrar de manera gráfica el estado de cada registro.
 
 La definición de colores está definida, según la siguiente convención:
 
-**Rojo:** Con fecha de generación anterior a más de 7 días antes de la fecha actual.
+**Rojo:** Órden con fecha de generación anterior a más de 7 días antes de la fecha actual.
 
-**Amarillo:** Con fecha de generación anterior en un rango comprendido entre 7 días antes de la fecha actual y un día anterior a la fecha actual.
+**Amarillo:** Órden con fecha de generación anterior en un rango comprendido entre 7 días antes de la fecha actual y un día anterior a la fecha actual.
 
-**Verde:** Con fecha de generación entre la fecha actual y 7 días después.
+**Verde:** Órden con fecha de generación entre la fecha actual y 7 días después.
 
-**Naranja:** Con fecha de generación comprendidas después de 7 días de la fecha actual.
+**Naranja:** Órden con fecha de generación comprendidas después de 7 días de la fecha actual.
 
-**Morado:** Ordenes que han sido Canceladas.
+**Morado:** Órden que ha sido Cancelada.
 
-**Azul:** Ordenes que han sido Cerradas, Cerradas Retroalimentadas o Cerradas Parciales.
+**Azul:** Órden que ha sido Cerrada.
 
 ## Ventana Detalle
 
-![Ventana Detalle](manualAM/0.images/cap11/chp11_img03.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img04.png)
+_**Imagen 69.** Órdenes - Ventana Detalle_
 
-En   la   gráfica  anterior,   Ventana  Detalle  de   Ordenes   de  Trabajo,  se  aprecian   sus componentes y sus respectivos contenidos. En  esta ventana Detalle se  encuentra la información relevante a la **OT** seleccionada en el Visor. A través de ella se Administran los datos genéricos de la Orden de Trabajo.  Es desde esta ventana que se crean Órdenes de Trabajo Manuales.
+En la gráfica anterior, Ventana Detalle de   Órdenes de Trabajo, se aprecian sus componentes y sus respectivos contenidos. En esta ventana Detalle se encuentra la información relevante a la **OT** seleccionada en el Visor. A través de ella se Administran los datos genéricos de la Orden de Trabajo.  Es desde esta ventana que se crean Órdenes de Trabajo Manuales.
 
-A continuación se describen los campos que componen esta ventana Detalle de Ordenes de Trabajo; además cuando se quiera ingresar una nueva Orden de Trabajo, se deberán diligenciar los siguientes campos.
+A continuación se describen los campos que componen esta ventana Detalle de Ordenes de Trabajo; además cuando se quiera ingresar una nueva OT, se deberán diligenciar los siguientes campos.
 
 **OT**:** Aparece el número de **OT** asignado por **AM** a la Orden de Trabajo. Si se está en el proceso de creación de una **OT** Manual, este campo solamente muestra el Año. Una vez se crea (Insertar) la **OT**, **AM** asigna un consecutivo a dicha Orden.
 
