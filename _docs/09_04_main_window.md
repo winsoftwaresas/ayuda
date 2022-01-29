@@ -40,91 +40,104 @@ La definición de colores está definida, según la siguiente convención:
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img04.png)
 _**Imagen 69.** Órdenes - Ventana Detalle_
 
-En la gráfica anterior, Ventana Detalle de   Órdenes de Trabajo, se aprecian sus componentes y sus respectivos contenidos. En esta ventana Detalle se encuentra la información relevante a la **OT** seleccionada en el Visor. A través de ella se Administran los datos genéricos de la Órden de Trabajo. Es desde esta ventana que se crean Órdenes de Trabajo Manuales.
+En la gráfica anterior, Ventana Detalle de   Órdenes de Trabajo, se aprecian sus componentes y sus respectivos contenidos. En esta ventana Detalle se encuentra la información relevante a la OT seleccionada en el Visor. A través de ella se Administran los datos genéricos de la Órden de Trabajo. Es desde esta ventana que se crean Órdenes de Trabajo Manuales.
 
-A continuación se describen los campos que componen esta ventana Detalle de Órdenes de Trabajo; además cuando se requiera ingresar una nueva, se deberán diligenciar los siguientes campos:
+A continuación se describen los campos que componen esta ventana Detalle de Órdenes de Trabajo; además cuando se quiera ingresar una nueva OT, se deberán diligenciar los siguientes campos.
 
-**OT:** Aparece el número del consecutivo asignado por **AM** al registro. Si se está en el proceso de creación de una **OT** Manual, este campo solamente muestra el Año. Una vez se crea (Insertar) la OT, **AM** asigna un consecutivo a dicha Órden.
+**OT**: Aparece el número de OT asignado por **AM** a la Órden de Trabajo. Si se está en el proceso de creación de una OT Manual, este campo solamente muestra el Año. Una vez se crea (Insertar) la OT, **AM** asigna un consecutivo a dicha Orden.
 
-**F/H Creación:** Es la fecha en la cual se crea la Órden de Trabajo. En el caso de las de las OT Programadas, esta fecha es asignada automáticamente por el sistema y no es modificable, según el Programa de Mantenimiento que la genera. Para las Órdenes de Trabajo Manuales, **AM** sugiere la fecha actual del sistema.
+**F/H Creación:** Es la fecha en la cual se crea la Órden de Trabajo. En el caso de Órdenes Programadas, esta fecha es asignada automáticamente por el sistema y no es modificable, según el Programa de Mantenimiento que la genera. Para las Órdenes de Trabajo Manuales, **AM** sugiere la fecha actual del sistema (aunque puede ser modificada).
 
-**Descripción:** Es un texto corto por medio del cual se indica la naturaleza de la labor a realizar. Debe ser conciso y no dar lugar a ambigüedades, este campo tiene una longitud de 100 caracteres. Se recomienda definir la descripción bajo la siguiente norma: iniciar con un verbo en infinitivo, por ejemplo, revisar, corregir, inspeccionar, conectar, etc.,continuar con el objeto de mantenimiento o Activo/Equipo y finalizar con un complemento explicatorio. Ejemplo: Revisar la transmisión delantera del sistema. Cambiar a los rodillos  la cobertura de caucho.
+**Descripción:** Es un texto corto por medio del cual se indica la naturaleza de la labor a realizar. Debe ser conciso y no dar lugar a ambigüedades, este campo tiene una longitud de 100 caracteres. Se recomienda definir la descripción bajo la siguiente norma: iniciar con un verbo en infinitivo como revisar, corregir, inspeccionar, conectar, etc., continuar con el Objeto de mantenimiento o Activo/Equipo y finalizar con un complemento explicatorio. Ejemplo: Revisar la transmisión delantera del sistema. Cambiar a los rodillos la cobertura  de caucho.
 
-**Prioridad:** Es un número de 1 a 7 que indica la prioridad de realización de la OT. Normalmente 1 significa un trabajo de gran urgencia, mientras que 7 es una labor de baja prioridad.
+**Prioridad:** Es un número de 1 a 7 que  indica la prioridad de realización de la   **OT**. Normalmente 1 significa un trabajo de gran urgencia, mientras que 7 es una labor de baja prioridad.
 
 **F/H Programada:** En este campo se ingresa  la fecha programada para realizar la ejecución de la Órden de Trabajo.
 
-**Referencia:** En este campo se puede ingresar el número de un documento, que sirve como referencia o relación a la OT, ejemplo: número de una factura, número de una orden de Compra asociada, o un documento interno de despacho de almacén, etc.
+**Referencia:** En este campo se puede ingresar el número de un documento, que  sirve como referencia o relación a la OT, ejemplo: número de una factura, número de una Orden de Compra asociada, o un documento interno de despacho de almacén, etc.
 
-**Estado:** Este campo está bloqueado y muestra el nombre del Estado de la OT.
+**Estado:** Este campo está bloqueado y muestra el nombre del Estado de la **OT**.
 
-**Código del Activo:** Aquí se establece el objeto de Mantenimiento, ya sea digitando directamente el Código y luego presionando la tecla tabular o seleccionándolo con el icono de filtro <span class="mdi mdi-filter-variant"></span>. Una vez se digita o se selecciona, aparece al lado derecho la Descripción del Activo.
+**Código del Activo:** Aquí se establece el Objeto de Mantenimiento, ya sea digitando directamente el Código y presionando la tecla tabublar, o seleccionándolo con el ícono de filtro <span class="mdi mdi-filter-variant"></span>. Una vez se digita o se selecciona, aparece al lado derecho la Descripción del Activo/Equipo.
 
 **Descripción:** En este campo se visualiza la información de la descripción del Activo seleccionado.
 
 **Activo Fijo:** En este campo se visualiza la información del Número de Activo Fijo del
-Activo que se haya establecido en la ficha técnica del mismo.
+Equipo que se ha ya establecido en la ficha técnica de este m ismo.
 
-**Referencia Externa (Proveedor):** En este campo se visualiza la información de la Referencia del Activo que se ha ya establecido en la ficha técnica de este mismo.
+**Referencia Externa (Proveedor):** En este campo se visualiza la información de la Referencia del Equipo que se ha ya establecido en la ficha técnica de este mismo.
 
-**Serial:** En este campo se visualiza la información del Serial del Activo que se haya establecido en la ficha técnica de este mismo.
+**Serial:** En este campo se visualiza la información del Serial del Equipo que se ha ya establecido en la ficha técnica de este m ismo.
 
-**Alias:** En este campo se visualiza la información del Alias del Activo que se haya establecido en la ficha técnica de este mismo.
+**Alias:** En este campo se visualiza la información del Alias del Equipo que se haya establecido en la ficha técnica de este mismo.
 
-**Solicitante:** En este campo se define el nombre del Solicitante de la OT. Cuando la OT es generada desde una Solicitud de Servicio, este campo contiene el solicitante ingresado en la Solicitud.
+**Solicitante:** En este campo se define el nombre del Solicitante de la OT. Cuando la OT es generada desde una Solicitud de Servicio, este campo contiene el solicitante ingresado en automáticamente.
 
 **Incluido en TE (RI):** Al seleccionar esta opción, en el campo **“Solicitante”** solo se despliegan los Terceros o Responsables Internos existentes en la tabla de Terceros en infraestructura.
 
-**Correo Electrónico:** En este campo se define el correo electrónico del Solicitante de la OT, cuando el solicitante es digitado manualmente. Si el solicitante se selecciona con la opción **“Incluido en Terceros”** y allí se tiene definido el correo electrónico, automáticamente se carga a este campo, el e-mail definido en la tabla de Terceros. La funcionalidad del envío de correos electrónicos se parametriza Administración, Valores por Defecto, la etiqueta General, la opción **“Enviar e-mail al solicitante”**.
+**Correo Electrónico:** En este campo se define el correo electrónico del Solicitante de la **OT**, cuando el solicitante es digitado manualmente. Si el solicitante se selecciona con la opción **“Incluido en Terceros”** y allí se tiene definido el correo electrónico, automáticamente se carga a este campo el e-mail definido en el módulo de Terceros. 
 
-**Centro de Costo:** Es el Centro de Costo asignado a la Órden de Trabajo, que corresponde a uno de los Centros de Costo predefinidos en la tabla de infraestructura y que es **“Responsable”** del pago de los consumos del Gasto Real que dicha OT genere. Inicialmente se sugiere el Centro de Costo que tiene asociado el Activo, aun así, puede cambiarse.
+**Centro de Costo:** Es el Centro de Costo asignado a la Órden de Trabajo, que corresponde a uno de los Centros de Costo predefinidos en la tabla respectiva y que es **“Responsable”** del pago de los consumos de Gasto Real que dicha OT genere. Inicialmente, se sugiere el Centro de Costo que tiene asociado el Equipo Objeto de Mantenimiento, aun así, puede cambiarse.
 
 **Sub CC:** Este campo siempre está bloqueado y muestra el Código Sub CC asociado al Centro de Costo elegido.
 
-**Ubi. Física:** Es el lugar físico en el que se realiza la labor. Inicialmente se sugiere  la Ubicación Física asociada al Activo u Objeto de Mantenimiento, pero puede cambiarse a cualquier otra de ellas predefinidas en la tabla de Ubicaciones Físicas.
+**Ubi. Física:** Es el lugar físico en el que se realiza la labor. Inicialmente se sugiere  la Ubicación Física asociada al Equipo u Objeto de Mantenimiento, pero puede cambiarse a cualquier otro valor predefinido en la tabla de Ubicaciones Físicas.
 
 **Centro Responsable:** Especifica el Centro  Responsable o grupo de mantenimiento,  encargado de realizar la labor.
 
 **Responsable ejecutor:** En este campo se elige a la persona, natural o jurídica, Responsable por la labor a ejecutar.
 
-**Filtrar por CR:** Al seleccionar esta opción, en el campo **“Responsable”** solo se despliegan los Responsables correspondientes al Centro Responsable elegido en la opción **“C. Responsable”**. De no marcarlo, en el campo **“Responsable”** se despliegan todos los **“Responsables”** existentes en la tabla de Terceros
+**Filtrar por CR:** Al seleccionar esta opción, en el campo **“Responsable”** solo se despliegan los Responsables correspondientes al Centro Responsable elegido en la opción **“C. Responsable”**. En otro  caso, en el campo  **“Responsable”** se despliegan  todos los  **“Responsables”** existentes en la tabla respectiva.
 
-**Contrato:** En este campo se selecciona el  contrato que pertenece al Contratista responsable de ejecutar la Órden de Trabajo.
+**Contrato:** En este campo se selecciona  el  contrato que pertenece al Contratista responsable de ejecutar la Órden de Trabajo.
 
 **Responsable por la institución:** En este campo se elige a la persona de la institución, que acompañará y/o recibirá la labor prestada por el Responsable ejecutor, cuando este sea un Contratista o Servicio Externo.
 
 **T. Trabajo:** Indica los Tipos de Trabajo que se realizan en la OT. Es posible definir más de un Tipo de Trabajo para una Órden.
 
-**T. Mtto:** Este campo es obligatorio e indica el Tipo de Mantenimiento a realizar en la Órden de  Trabajo. Si en la OT se va a registrar un trabajo que no corresponde a una labor de mantenimiento, en este campo se elige **otro”** y a continuación, en el tipo de **“Actividad”** se especifica detalladamente, el tipo de labor.
+**T. Mtto:** Este campo indica el Tipo de Mantenimiento a realizar en la Órden de  Trabajo. Toda OT debe poseer uno. Si en la OT se va a registrar un trabajo que no corresponde a una labor de mantenimiento, en este campo se elige **otro”** y a continuación, en el tipo de **“Actividad”** se especifica detalladamente, el tipo de labor.
 
-**T. Actividad:** Aquí se establece el Tipo de Actividad a realizar en la OT. Este campo trabaja en coordinación con el anterior (Tipo de Mantenimiento). Si en el campo anterior se ha hecho la selección de un valor diferente **“Otro”**, en el campo Tipo de Actividad se debe seleccionar un valor que defina consistentemente la labor a ejecutar.
+**T. Actividad:** Aquí se establece el Tipo de Actividad a realizar en la Órden. Este campo trabaja en coordinación con el anterior (Tipo de Mantenimiento). Si en el campo anterior se ha hecho la selección de un valor diferente de **“Otro”**, en el tipo de Actividad se debe seleccionar el valor **“MN: Mantto”**, lo que indica que se trata de una actividad que constituye mantenimiento. Si en el campo anterior se ha seleccionado el valor **“Otro”**, en el campo Tipo de Actividad se debe seleccionar un valor que defina consistentemente la labor a ejecutar.
 
-**F/H de Paro:** Para las Órdenes de Trabajo Correctivas, en este campo se registra la Fecha y hora del daño, falla o avería. La fecha se maneja en formato AAAA/MM/DD (Año, Mes, día); la hora se maneja en formato Militar (de 24 horas). Cabe anotar, que la fecha y hora consignadas  corresponden al momento en que se informó del daño o falla a Mantenimiento, así que es posible que el daño haya ocurrido en una fecha/hora anterior. Sin embargo se debe procurar, administrativamente, que Mantenimiento se entere lo más pronto posible de la Fecha y Hora reales del paro.
+**F/H de Paro:** Para las Órdenes de Trabajo Correctivas, en este campo se registra la Fecha y hora del daño, falla o avería. La fecha se maneja en formato AAAA/MM/DD (Año, Mes, día); la hora se maneja en formato 12 horas. Cabe anotar, que la fecha y hora consignadas corresponden al momento en que se informó del daño o falla a Mantenimiento, así que es posible que el daño haya ocurrido en una fecha/hora anterior. Sin embargo, se debe procurar, administrativamente, que Mantenimiento se entere lo más pronto posible de la Fecha y Hora reales del paro.
 
-**T. Estimado:** Es un campo netamente informativo, e indica de manera aproximada cuánto Tiempo demora la labor. Se establece el número y a continuación el período  de tiempo que representa (Días, Horas o Minutos).
+**T. Estimado:** Es un campo netamente informativo, e indica de manera aproximada cuánto Tiempo demora la labor. Se establece el número y a continuación el período de tiempo que representa (Días, Horas o Minutos).
 
-**Tiempo Improductivo:** En este campo indica la persona o personas encargadas (s) de realizar la labor, si debe pararse el Equipo para proceder a la realización de la misma.  Cuando se dice que el Equipo genera Tiempo Improductivo significa que no está en operación, y por lo tanto,  posiblemente improductivo.  Este campo se tiene en cuenta al momento de cerrar la **OT**: si el indicativo de Tiempo Improductivo está habilitado, el **AM** calcula y carga el Tiempo Improductivo al equipo. En caso contrario no lo hace.
+**Tiempo Improductivo:** En este campo lo indica la persona o personas encargadas de realizar la labor, si debe pararse el Equipo para proceder a la realización de la misma. Cuando se dice que el Equipo genera Tiempo Improductivo significa que no está en operación, y por lo tanto, posiblemente improductivo. Este campo se tiene en cuenta al momento de cerrar la **OT:** si el indicativo de Tiempo Improductivo está habilitado, el **AM** calcula y carga el Tiempo Improductivo al equipo. En caso contrario no lo hace. 
 
-**Criterio:** Es un campo informativo que despliega el criterio utilizado por **AM** para  haber generado la **OT**. (Solamente para Órdenes de Trabajo Programadas).
+**Criterio:** Es un campo informativo que despliega el criterio utilizado por **AM** para haber generado la OT. (Solamente para Órdenes de Trabajo Programadas).
 
-**Tarea:** Este campo informativo  permite establecer, a través del ordinal de la tarea  que muestra, cual fue el PM que generó la **OT** actual. Es válido solamente en el caso  de Órdenes Programadas.
+**Tarea:** Este campo informativo permite establecer, a través del ordinal de la tarea  que muestra, cual fue el PM que generó la **OT** actual. Es válido solamente en el caso  de Órdenes Programadas.
 
-**Control  Presupuestal:** Esta  Opción permite  definir  si  la  Orden  de  Trabajo maneja Presupuesto. Para las Órdenes de Trabajo Programadas, esta opción  siempre está  seleccionada, pero  aparece protegida,   ya  que  toda  **OT**   Programada  conlleva el Presupuesto Aprobado.
+**Control Presupuestal:** Esta opción permite definir si la Órden de Trabajo maneja Presupuesto. Para las Órdenes de Trabajo Programadas, esta opción siempre está seleccionada, pero aparece protegida, ya que  toda **OT** Programada conlleva el Presupuesto Aprobado.
 
-Para  las  Órdenes  de  Trabajo  Manuales,  esta  opción se  establece en  el  m omento  de creación de la misma.  Esta elección se debe m arcar antes de darle clic al botón `<a class="btn">`Agregar`</a>`, de  Otra forma, **AM** asume que la **OT** no va a requerir Control Presupuestal y la posibilidad de hacer la marcación se inactiva en el acto.
+Para las Órdenes de Trabajo Manuales, esta  opción se establece en el momento de creación de la misma. Esta elección se debe marcar antes de darle clic al botón <a class="btn blue">insertar</a> de otra forma, **AM** asume que la **OT** no va a requerir Control Presupuestal y la posibilidad de hacer la marcación se inactiva en el acto.
 
-Cuando una Orden de Trabajo Manual exige control presupuestal, y el presupuesto no ha sido aprobado, no es posible registrar ni modificar el Gasto Real en ella.
+Cuando una Órden de Trabajo Manual exige control presupuestal y el presupuesto no ha sido aprobado, no es posible registrar ni modificar el Gasto Real en ella.
 
-**Comentarios:** Esta opción se usa para ingresar los nuevos comentarios referentes a toda la ejecución de la **OT**. Al dar clic al botón `<a class="btn">`Agregar Comentario`</a>` aparecerá el comentario ingresado al lado derecho en una ventana tipo chat bloqueada y a su vez inhabilita la modificación de los comentarios que allí se encuentren; además de la fecha, hora y el usuario logueado que realizó el comentario.
+**Comentarios:** Esta opción se usa para ingresar los nuevos comentarios referentes a toda la ejecución de la Órden. Al dar clic al botón <a class="btn gray">Agregar Comentario</a> aparecerá el comentario ingresado al lado derecho en una ventana tipo chat bloqueada; además de la fecha, hora y el usuario logueado que realizó el comentario.
 
 Este espacio de comentarios sirve para dos efectos:
 
-Cuando  se  genera  la   **OT**,  como  comentarios  a  priori,  para  especificar  referencias    importantes o ayudas previstas y necesarias en la ejecución posterior de la **OT**: planos, manuales técnicos, manuales de normas técnicas de Mantenimiento o  de especificaciones detalladas; normas de seguridad o enfoques de acción.  Sin embargo, en la gran mayoría de  los casos se utiliza la pestaña Multimedia para registrar estos datos.
-Cuando ha concluido la ejecución de la **OT**, es posible utilizarlo para registrar hechos   interesantes acerca de la misma ejecución, como el estado del equipo antes de la intervención, detalles de la intervención, estado del mismo equipo  después de ella, recomendaciones a  los   usuarios  del  equipo,  recomendaciones  a  las  personas de mantenimiento y otros conceptos interesantes a juicio de los ejecutantes.
-
-**Contrato:** Para el caso de Órdenes de Trabajo programadas, que se hayan  generado desde un PM asociado a un Contrato que esté vencido o a punto de vencerse, **AM** informa al  respecto,  en el campo ** “Comentarios”** junto con la Fecha de vencimiento de aquel.
+Cuando se genera la OT, como comentarios a priori, para especificar referencias importantes o ayudas previstas y necesarias en la ejecución posterior de la OT como planos, manuales técnicos, manuales de normas técnicas de Mantenimiento o de especificaciones detalladas; normas de seguridad o enfoques de acción. Sin embargo, en la gran mayoría de los casos se utiliza la pestaña Multimedia para registrar estos datos.
+Cuando ha concluido la ejecución de la **OT**, es posible utilizarlo para registrar hechos   interesantes acerca de la misma ejecución, como el estado del equipo antes de la intervención, detalles de la intervención, estado del mismo equipo después de ella, recomendaciones a los  usuarios del equipo, recomendaciones a las  personas de mantenimiento y otros conceptos interesantes a juicio de los ejecutantes.
 
 # Ventana submenú de Órdenes de trabajo
+
+## Indicadores
+
+Es posible saber cuáles OT son de tipo Metrología, Preventiva/Programada, Correctiva y Cerrada Parcial, si tienen Multimedia y Servicio Evaluado directamente desde la ventana visor, sobreponiendo el cursor en el ícono de Indicadores <span class="mdi mdi-message-alert"></span> ubicado en la parte superior derecha de la ventana mostrando un conjunto de pelotas de colores que indican el tipo de información definida y asociada, como se muestra a continuación:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img04_1.png)
+_**Imagen 70.** Órdenes - Ventana Detalle_
+
+El significado de los colores es el siguiente:
+- **Naranja:** Órden que tiene asociado archivos de imágenes, videos y/o documentos en la pestaña Multimedia.
+- **Azul:** Órden con servicio evaluado.
+- **Amarillo:** Órden de TM Metrología.
+- **Verde:** Órden de TM Preventivo o Programada.
+- **Rojo:** Órden de TM Correctivo.
+- **Azul Oscuro:** OT en estado Cerrada Parcial.
 
 ## Subgrupo
 
@@ -132,7 +145,7 @@ Se usa para seleccionar un grupo de Órdenes de Trabajo que cumplen con un conju
 
 Cada criterio trabaja en conjunto con los demás, con el operador intersección.
 
-Cada criterio aparece inicializado en un valor global que permite mostrar todas las Órdenes de Trabajo.  Lo que significa que de no escoger un criterio, se obtiene como resultado del subgrupo el mismo conjunto de todas las Órdenes de Trabajo.
+Cada criterio aparece inicializado en un valor global que permite mostrar todas las Órdenes de Trabajo. Lo que significa que de no escoger un criterio, se obtiene como resultado del subgrupo el mismo conjunto de todas las Órdenes de Trabajo.
 
 Una vez establecido el subgrupo, el **AM** permite mantener activo cualquier subgrupo en cada módulo, hasta ser cambiado por el usuario.
 
@@ -149,7 +162,7 @@ Los campos de datos que constituyen criterio de selección, se agrupan en tres b
 **AC -  Alias:** Este campo preselecciona las Órdenes de Trabajo activas para el o los  Equipos cuyo Alias corresponda a los valores aquí definidos.   En este campo se pueden utilizar los comodines.
 
 **AC - Código:** Esta selección agrupa los Equipos relacionados por su código. Es posible definir el  código   completó  o  una  porción  del  m ismo.  Por  ejemplo:  si  se  escribe  341%,  se seleccionan  todas  las  ots  cuyo  código  de  Equipo  inicia  por  341.   Si   se  escribe ** “_ _1%”**
-se seleccionan todas las ots cuyo código de Equipo inicie por cualquier par de valores y que tienen un ** “1”** en la tercera posición.	El  porcentaje  (%) es  un carácter comodín que significa ** “todos”**.  El  carácter ** “_”**  es  otro  comodín, posicional que  indica ** “cualquier valor”**.
+se seleccionan todas las ots cuyo código de Equipo inicie por cualquier par de valores y que tienen un ** “1”** en la tercera posición.	El  porcentaje  (%) es  un carácter comodín que significa **“todos”**.  El  carácter ** “_”**  es  otro  comodín, posicional que  indica ** “cualquier valor”**.
 
 **AC - Código de Barras Int.:** Permite seleccionar las ots que se encuentran  asociadas al Activo/ Equipo que se encuentre con el Código de Barras Interno que el usuario ingresa en este campo del subgrupo.
 
@@ -177,19 +190,19 @@ Número de Referencia.
 
 **Causa de Falla:** Permite buscar las Órdenes de Trabajo que tienen una Causa de Falla específica.
 
-**Centro de Costo:** Permite la selección de Órdenes de Trabajo de acuerdo con el Centro de Costo asignado a ella. Cuando se utilizan comodines, es posible seleccionar las OTs pertenecientes a Centros de Costo que tengan parte del  nombre  igual. Por ejemplo: Sistema% selecciona todas las OTs en cuyo Centro de Costo exista la palabra  Sistema, independiente de si se está hablando del Sistema de Agua, de Vapor o de Energía.
+**Centro de Costo:** Permite la selección de Órdenes de Trabajo de acuerdo con el Centro de Costo asignado a ella. Cuando se utilizan comodines, es posible seleccionar las OTs pertenecientes a Centros de Costo que tengan parte del  nombre  igual.  Por ejemplo: Sistema% selecciona todas las OTs en cuyo Centro de Costo exista la palabra  Sistema, independiente de si se está hablando del Sistema de Agua, de Vapor o de Energía.
 
 **Centro Responsable:** Agrupa las Órdenes de Trabajo cuyo Centro Responsable sea el seleccionado.
 
 **Comentario:** Filtra las Ordenes de Trabajo que cumplan con la opción de poseer comentario. Este es un campo para ingresar el comentario que se desee buscar en las Órdenes de Trabajo.
 
-**Contiene Comentario:** Filtra las Órdenes de Trabajo que cum plan con la  opción seleccionada: **“Con Comentario”** o **“Sin Comentario”**.
+**Contiene Comentario:** Filtra las Órdenes de Trabajo que cum plan con la  opción seleccionada: ** “Con Comentario”** o ** “Sin Comentario”**.
 
-**Contrato:** Filtra las OT que se encuentren asociadas a un contrato ya definido en la tabla de **“CONTRATO”** en el módulo de Infraestructura.
+**Contrato:** Filtra las **OT** que se encuentren asociadas a un contrato ya definido en la tabla de ** “CONTRATO”** en el módulo de Infraestructura.
 
 **Contrato - Vencimiento:** Este campo filtra las ots que posean un contrato y éste se encuentre vencido o no vencido, en la fecha establecida por el usuario.
 
-**Criterio de Generación:** Permite seleccionar el subconjunto de OT generadas desde PM, bajo  el Criterio de Programación **“XX”**  seleccionado. Es posible utilizar comodines. Los criterios son:
+**Criterio de Generación:** Permite seleccionar el subconjunto de ots generadas desde PM, bajo  el  Criterio  de  Programación ** “XX”**  seleccionado.	Es   posible  utilizar   comodines. Los criterios son:
 
 | **Abreviatura**      | **Significado**          |
 | -------------------------- | ------------------------------ |
@@ -199,15 +212,15 @@ Número de Referencia.
 | **AN**               | Anual                          |
 | **DD**               | Días (Mín\. 3)               |
 | **SA**               | Semanas del año               |
-| **+M**               | Meses (mas de uno)            |
-| **+S**               | Semanas\(mas de una)          |
+| **+M**               | Meses (m as de uno)            |
+| **+S**               | Semanas\(m as de una)          |
 | **KI**               | Contador por Incremento        |
 | **KL**               | Contador por Límite           |
 | **FC**               | Contador y/o Característica   |
 | **FK**               | Frecuencia y/o Característica |
 | **TM**               | Frecuencia y/o Contador        |
 | **CM**               | Característica                |
-| **??** | Sin Criterio                   |
+| ****?****?**** | Sin Criterio                   |
 
 **Descripción:** Esta opción permite seleccionar las  ots que cum plan con el  criterio  de selección establecido en este campo, es posible utilizar la funcionalidad de comodines.
 
