@@ -139,70 +139,66 @@ El significado de los colores es el siguiente:
 - **Rojo:** Órden de TM Correctivo.
 - **Azul Oscuro:** OT en estado Cerrada Parcial.
 
-## Subgrupo
+## Subgrupos
 
-Se usa para seleccionar un grupo de Órdenes de Trabajo que cumplen con un conjunto de criterios o filtros definibles aquí, con el objeto de realizar estudio posterior sobre él.
+Se usa para seleccionar un grupo de Órdenes de Trabajo que cumplen con un conjunto de criterios o filtros definibles aquí, con el objeto de realizar estudio posterior sobre él. Para ingresar a esta opción se debe dar clic al icono de filtro <span class="mdi mdi-filter-variant"></span> ubicado en la parte superior derecha de la ventana Visor de OT.
 
 Cada criterio trabaja en conjunto con los demás, con el operador intersección.
 
 Cada criterio aparece inicializado en un valor global que permite mostrar todas las Órdenes de Trabajo. Lo que significa que de no escoger un criterio, se obtiene como resultado del subgrupo el mismo conjunto de todas las Órdenes de Trabajo.
 
-Una vez establecido el subgrupo, el **AM** permite mantener activo cualquier subgrupo en cada módulo, hasta ser cambiado por el usuario.
+**AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar. Cuando el ícono se muestra con una pelota roja, está indicando que lo que se visualiza en el visor es un subgrupo.
 
-**AM** permite entonces hacer selección de un grupo de ots de acuerdo con los criterios seleccionados en la siguiente ventana.
+El programa permite entonces hacer selección de un grupo de OT de acuerdo con los criterios seleccionados en la siguiente ventana:
 
-![Ventana submenú de Órdenes de trabajo](manualAM/0.images/cap11/chp11_img04.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img05.png)
+_**Imagen 71.** Órdenes - Ventana Subgrupo_
 
-Los campos de datos que constituyen criterio de selección, se agrupan en tres bloques:
+Los campos de datos que constituyen criterio de selección, se agrupan en dos bloques:
 
-**1.	FILTRAR POR CAMPOS DEL ACTIVO ASOCIADO A L A ORDEN DE TRABAJO**
+**1. FILTRAR POR CAMPOS DEL ACTIVO ASOCIADO A LA ÓRDEN DE TRABAJO**
 
-**AC - Activo  Fijo:** Este campo preselecciona las Órdenes de Trabajo activas para el o  los Equipos cuyo Número de Activo corresponde a los valores aquí definidos.   En este  campo se pueden utilizar los comodines.
+**AC - Alias:** Este campo filtra las Órdenes de Trabajo activas para el o los Activos cuyo Alias corresponda a los valores aquí definidos. En este campo se pueden utilizar los comodines (%).
 
-**AC -  Alias:** Este campo preselecciona las Órdenes de Trabajo activas para el o los  Equipos cuyo Alias corresponda a los valores aquí definidos.   En este campo se pueden utilizar los comodines.
+**AC – Cód. de Barras Int.:** Permite seleccionar las OT que se encuentran asociadas al Activo que se encuentre con el Código de Barras Interno que el usuario ingresa en este campo y que posea una Órden.
 
-**AC - Código:** Esta selección agrupa los Equipos relacionados por su código. Es posible definir el  código   completó  o  una  porción  del  m ismo.  Por  ejemplo:  si  se  escribe  341%,  se seleccionan  todas  las  ots  cuyo  código  de  Equipo  inicia  por  341.   Si   se  escribe ** “_ _1%”**
-se seleccionan todas las ots cuyo código de Equipo inicie por cualquier par de valores y que tienen un ** “1”** en la tercera posición.	El  porcentaje  (%) es  un carácter comodín que significa **“todos”**.  El  carácter ** “_”**  es  otro  comodín, posicional que  indica ** “cualquier valor”**.
+**AC – Cód. de Barras Prov.:** Permite seleccionar las OT asociadas a un Activo que se encuentre ligado al Código de Barras del Proveedor que se ingresó al crear el Activo.
 
-**AC - Código de Barras Int.:** Permite seleccionar las ots que se encuentran  asociadas al Activo/ Equipo que se encuentre con el Código de Barras Interno que el usuario ingresa en este campo del subgrupo.
+**AC - Activo Fijo:** Este campo preselecciona las Órdenes de Trabajo activas para el o  los Equipos cuyo Número de Activo corresponde a los valores aquí definidos.   En este  campo se pueden utilizar los comodines.
 
-**AC - Código de Barras Prov.:** Permite seleccionar las ots que se encuentran asociadas con un Activo/Equipo que se encuentre ligado al Código de Barras del Proveedor que se ingresó al crear el Activo/Equipo.
+**AC - Código:** Esta selección agrupa las OT cuyos Activo coincidan con el relacionado en este criterio. Es posible definir el código completo o una porción del mismo. Por ejemplo: si se escribe 341%, se seleccionan todas las OT cuyo código de Activo inicia por 341. Si se escribe %1 se seleccionan todos los Solicitudes de Servicio cuyo código de Activo finaliza en un “1”. El porcentaje (%) es un carácter comodín que significa “todos”. También, es posible seleccionar el Activo a través del visor del módulo de Activo. Para ello se da un clic sobre el icono de filtro <span class="mdi mdi-filter-variant"></span> que se encuentra al lado del campo. Acto seguido se muestra la ventana de visor de Activos independiente. Ene Allí, una vez se encuentra el Activo, se selecciona dando un clic sobre cualquiera de sus campos. A continuación, se da un clic sobre botón <a class="btn white">aceptar</a> o se hace doble clic sobre el registro seleccionado. Inmediatamente este código aparece automáticamente en el campo.
 
-**AC - Descripción:** Selecciona las ots que se encuentran relacionadas con los Activos / Equipos según los criterios que se fundamentan en su descripción. Ejemplo: %Motor%  selecciona todas las	ots que son asociadas a los que Activos / Equipos  en  cuya descripción, en cualquier posición, tengan la palabra ** “Motor”**.
+**AC-Descripción:** Selecciona las OT asociados a los Activos según criterios que se fundamenten en su descripción. Ejemplo: %Motor% selecciona todos los Activos, en cuya descripción, en cualquier posición, tengan la palabra “Motor”.
 
-**AC - Referencia:** Esta opción permite seleccionar un Equipo o Equipos de acuerdo con  su
-Número de Referencia.
+**AC-Estado:** Filtra las OT de acuerdo con el “Estado” de un Activo/Equipo u Objeto de Mantenimiento que se encuentre en estado “activo”.
 
-**AC - Relación:** Filtra las ots cuyo Equipo tiene algún tipo de relación con **OT**ro Equipo.   Tiene que ver con el concepto de Equipo Repuesto / Equipo Posición. Por ejemplo,  pueden buscarse las ots cuyo equipo no está relacionado con ningún **OT**ro, o las ots cuyo equipo sea Posición, etc.
+**AC-Número Activo Fijo:** Este campo filtra las OT para el o los Activos cuyo Número de Activo corresponde a los valores aquí definidos. En este campo se pueden utilizar los comodines (%).
 
-**AC - Serial:** Esta alternativa permite seleccionar las ots de acuerdo con el número serial del equipo objeto de mantenimiento.
+**AC-Referencia:** Este filtro permite filtrar las OT para el o los Activos cuya Referencia  corresponda a los valores aquí definidos. En este campo se pueden utilizar los comodines (%).
 
-**AC - Tipo:** Selecciona las ots que se encuentran asociadas con los Activos/ Equipos que se encuentran ligados al Tipo ingresado por el usuario.
+**AC-Serial:** Esta alternativa permite filtrar las OT de acuerdo con el número serial del Activo objeto de mantenimiento. El campo acepta comodines (%).
+
+**AC-Ubicación Física:** Permite la selección de las OT cuyo Activo se encuentre en una Ubicación Física determinada. Existen dos formas de definir la Ubicación Física del Activo. La primera es seleccionando una de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span>, el cual se desactiva <span class="mdi mdi-lock-open-outline"></span> y permite digitar segmentos del nombre de la Ubicación Física utilizando comodines (%) lo cual, también hace posible seleccionar OT cuyo Activo esté en una Ubicación Física que tenga parte del nombre igual. Por ejemplo: Cava% selecciona las OT con Activos cuya Ubicación Física empieza por la palabra Cava, independientemente de si se está hablando de la Cava de Fermentación, Maduración o Contrapresión.
+
+**AC-Tipo:** Selecciona las OT asociados a los Activos que se encuentran asociados al tipo ingresado por el usuario.
 
 **2. FILTRAR POR CAMPOS DE LA ORDEN DE TRABAJO**
 
-**Acción Técnica:** Filtra las Órdenes de Trabajo a las cuales se le definió la Acción Técnica seleccionada en esta opción, es posible utilizar comodines.
+**Acción Técnica:** Filtra las OT a las cuales se le definió la Acción Técnica seleccionada en esta opción. Existen dos formas de definir la Acción Técnica de la OT. La primera es seleccionando una de la lista desplegable. La segunda, es dando clic al icono de candado <span class="mdi mdi-lock"></span> el cual se desactiva <span class="mdi mdi-lock-open-outline"></span> y permite digitar segmentos del nombre de la Acción Técnica usando comodines (%) que filtran la OT cuya Acción Técnica tenga parte del nombre igual.
 
-**Causa de Cierre:** Permite buscar las Órdenes de Trabajo que tienen una Causa de Cierre específica.
+**Causa de Cierre:** Permite buscar las OT que tienen una Causa de Cierre específica. Existen dos formas de definir la Causa de Cierre de la OT. La primera es seleccionándola desde la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span> el cual se desactiva <span class="mdi mdi-lock-open-outline"></span> permitiendo digitar segmentos del nombre de la Causa de Cierre utilizando comodines (%) que permiten filtrar las OT cuya Causa de Cierre tenga parte del nombre igual.
 
-**Causa de  Pendiente:** Filtra  las  Órdenes  de  Trabajo donde  el  Estado de  la  **OT**,  es
-** “Pendiente”** y cum ple con la Causa Pendiente seleccionada en esta opción.
+**Causa de Pendiente:** Filtra las OT cuyo Estado es “Pendiente” según el tipo de Causa Pendiente seleccionada. Existen dos formas de definir la Causa de Pendiente de la OT. La primera es seleccionándola de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span> el cual se desactiva <span class="mdi mdi-lock-open-outline"></span> permitiendo digitar segmentos del nombre de la Causa de Pendiente utilizando comodines (%) que filltran las OT cuya Causa de Pendiente tenga parte del nombre igual.
 
-**Causa de Falla:** Permite buscar las Órdenes de Trabajo que tienen una Causa de Falla específica.
+**Causa de Falla:** Permite buscar las OT que tienen una Causa de Falla específica. Existen dos formas de definir la Causa de Falla de la OT. La primera es seleccionándola de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span>  el cual se desactiva <span class="mdi mdi-lock-open-outline"></span> permitiendo digitar segmentos del nombre de la Causa de Falla utilizando comodines (%) que buscan las OT cuya Causa de Falla tenga parte del nombre igual.
 
-**Centro de Costo:** Permite la selección de Órdenes de Trabajo de acuerdo con el Centro de Costo asignado a ella. Cuando se utilizan comodines, es posible seleccionar las OTs pertenecientes a Centros de Costo que tengan parte del  nombre  igual.  Por ejemplo: Sistema% selecciona todas las OTs en cuyo Centro de Costo exista la palabra  Sistema, independiente de si se está hablando del Sistema de Agua, de Vapor o de Energía.
+**Centro de Costo:** Filtrar OT de acuerdo con el Centro de Costo asignado a ella. Existen dos formas de definir el Centro de Costo. La primera es seleccionándolo de la lista desplegable. La segunda es dando clic al icono de candado  <span class="mdi mdi-lock"></span> el cual se desactiva <span class="mdi mdi-lock-open-outline"></span> permitiendo digitar segmentos del nombre del Centro de Costo a través del uso de comodines (%). Cuando se utilizan comodines, es posible seleccionar las OT a Centros de Costo que tengan parte del nombre igual. Por ejemplo: Sistema% selecciona todas las OT en cuyo Centro de Costo exista la palabra Sistema, independiente de si se está hablando del Sistema de Agua, de Vapor o de Energía.
 
-**Centro Responsable:** Agrupa las Órdenes de Trabajo cuyo Centro Responsable sea el seleccionado.
+**Centro Responsable:** Agrupa las OT cuyo Centro Responsable sea el seleccionado. Existen dos formas de definir el Centro Responsable. La primera es seleccionándolo de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span> el cual se desactiva <span class="mdi mdi-lock-open-outline"></span> y permite digitar segmentos del nombre del Centro Responsable utilizando comodines(%).
 
-**Comentario:** Filtra las Ordenes de Trabajo que cumplan con la opción de poseer comentario. Este es un campo para ingresar el comentario que se desee buscar en las Órdenes de Trabajo.
+**Contrato:** Filtra las OT que se encuentren asociadas a un contrato ya definido en la tabla de “CONTRATO” en el módulo de Infraestructura. Existen dos formas de definir el Contrato de la OT. La primera es seleccionándolo de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span> el cual se desactiva <span class="mdi mdi-lock-open-outline"></span> y permite digitar segmentos del nombre del Contrato utilizando comodines (%). Cuando se utilizan comodines, es posible filtrar las OT cuyo Contrato tenga parte del nombre igual.
 
-**Contiene Comentario:** Filtra las Órdenes de Trabajo que cum plan con la  opción seleccionada: ** “Con Comentario”** o ** “Sin Comentario”**.
-
-**Contrato:** Filtra las **OT** que se encuentren asociadas a un contrato ya definido en la tabla de ** “CONTRATO”** en el módulo de Infraestructura.
-
-**Contrato - Vencimiento:** Este campo filtra las ots que posean un contrato y éste se encuentre vencido o no vencido, en la fecha establecida por el usuario.
-
-**Criterio de Generación:** Permite seleccionar el subconjunto de ots generadas desde PM, bajo  el  Criterio  de  Programación ** “XX”**  seleccionado.	Es   posible  utilizar   comodines. Los criterios son:
+**Criterio de Generación:** Permite filtrar el subconjunto de OT generadas desde PM, bajo el Criterio de Programación “XX” seleccionado. Los criterios son:
 
 | **Abreviatura**      | **Significado**          |
 | -------------------------- | ------------------------------ |
@@ -210,21 +206,20 @@ Número de Referencia.
 | **SS**               | Semanal                        |
 | **SM**               | Semestral                      |
 | **AN**               | Anual                          |
-| **DD**               | Días (Mín\. 3)               |
+| **DD**               | Días (Mín. 3)               |
 | **SA**               | Semanas del año               |
-| **+M**               | Meses (m as de uno)            |
-| **+S**               | Semanas\(m as de una)          |
+| **+M**               | Meses (mas de uno)            |
+| **+S**               | Semanas (mas de una)          |
 | **KI**               | Contador por Incremento        |
 | **KL**               | Contador por Límite           |
-| **FC**               | Contador y/o Característica   |
-| **FK**               | Frecuencia y/o Característica |
-| **TM**               | Frecuencia y/o Contador        |
-| **CM**               | Característica                |
-| ****?****?**** | Sin Criterio                   |
+| **FK**               | Frecuencia y Contador|
+| **TM**               | Trimestral        |
+| **+K** | Contador (mas de uno)                 |
+| **??** | Sin Criterio                   |
 
-**Descripción:** Esta opción permite seleccionar las  ots que cum plan con el  criterio  de selección establecido en este campo, es posible utilizar la funcionalidad de comodines.
+**Descripción:** Esta opción permite seleccionar las OT que cumplan con el criterio de selección establecido en este campo, es posible utilizar la funcionalidad de comodines (%). 
 
-**Efecto de Falla:** Este campo permite seleccionar las ots que posean una causa de falla específica.
+**Efecto de Falla:** Este campo permite seleccionar las OT que posean una causa de falla específica. Existen dos formas de definir el Efecto de Falla de la OT. La primera es seleccionándola de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span> el cual se desactiva <span class="mdi mdi-lock-open-outline"></span> permitiendo digitar segmentos del nombre del Efecto de Falla utilizando comodines (%). Cuando se utilizan comodines, es posible seleccionar OT cuyo Efecto de Falla tenga parte del nombre igual.
 
 **Estado General:** Permite seleccionar las ots de acuerdo a su Estado General, es decir las ** “Abiertas”** (Que tienen estado „E – En Ejecución‟, o estado „P – Pendiente‟), o las ** “Cerradas”** (Que tienen el estado „C‟ – Cerrada, o „K‟ – Cancelada), u Otras.
 
