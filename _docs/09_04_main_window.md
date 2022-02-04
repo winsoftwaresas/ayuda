@@ -221,92 +221,96 @@ Los campos de datos que constituyen criterio de selección, se agrupan en dos bl
 
 **Efecto de Falla:** Este campo permite seleccionar las OT que posean una causa de falla específica. Existen dos formas de definir el Efecto de Falla de la OT. La primera es seleccionándola de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span> el cual se desactiva <span class="mdi mdi-lock-open-outline"></span> permitiendo digitar segmentos del nombre del Efecto de Falla utilizando comodines (%). Cuando se utilizan comodines, es posible seleccionar OT cuyo Efecto de Falla tenga parte del nombre igual.
 
-**Estado General:** Permite seleccionar las ots de acuerdo a su Estado General, es decir las ** “Abiertas”** (Que tienen estado „E – En Ejecución‟, o estado „P – Pendiente‟), o las ** “Cerradas”** (Que tienen el estado „C‟ – Cerrada, o „K‟ – Cancelada), u Otras.
+**Estado Particular:** Permite seleccionar las OT de acuerdo a su Estado Particular. Al descolgar aparece el listado de todos los Estados posibles para una **OT**.
 
-**Estado Particular:** Permite seleccionar las ots de acuerdo a su Estado Particular. Al descolgar aparece el listado de todos los Estados posibles para una **OT**.
+**Estado General:** Permite seleccionar las OT de acuerdo a un Estado general: Abierta, Cancelada y Cerrada.
 
-**Fecha de Cierre:** Este criterio filtra las Órdenes de Trabajo por un rango de la Fecha de Cierre de Trabajos.  Aparecen dos campos: Desde y Hasta.  En cada uno de ellos se digita una fecha.  De no digitar el campo ** “Desde”**, se buscan las Órdenes de Trabajo cuya fecha de cierre esté en el lapso anterior a la fecha digitada en ** “Hasta”**.   De no digitar el campo ** “Hasta”**, se buscan las ots cuya fecha de cierre esté en un lapso posterior a la digitada en ** “Desde”**.
+**Fecha de Cierre:** Este criterio filtra las Órdenes de Trabajo por un rango de la Fecha de Cierre de Trabajos. Aparecen dos campos: Desde y Hasta. En cada uno de ellos se digita una fecha. De no digitar el campo **“Desde”**, se buscan las Órdenes de Trabajo cuya fecha de cierre esté en el lapso anterior a la fecha digitada en **“Hasta”**. De no digitar el campo **“Hasta”**, se buscan los registros cuya fecha de cierre esté en un lapso posterior a la digitada en **“Desde”**.
 
-**Fecha de consumo Mano de Obra:** Este criterio filtra las Órdenes de Trabajo por  un rango de la Fecha de consumo de mano de obra en el Gasto Real de la **OT**. Aparecen dos campos: Desde y Hasta.  En cada uno de ellos se digita una fecha.  De no digitar el campo ** “Desde”**, se buscan las Órdenes de Trabajo cuya fecha de consumo de mano de obra esté en el lapso anterior a la fecha digitada en ** “Hasta”**.	De no  digitar  el campo ** “Hasta”**, se buscan las ots cuya fecha de consumo de mano de obra esté en un lapso posterior a la digitada en ** “Desde”**.
+**Comentarios:** Filtra los registros que contengan una parte del comentario registrado en este campo.
 
-**Fecha de consumo en Gasto Real:** 	Este criterio filtra las Órdenes de Trabajo por  un rango de la Fecha de consumo de Gasto Real de la **OT**. Aparecen dos campos: Desde y Hasta. En cada uno de ellos se digita una fecha. De  no  digitar el campo ** “Desde”**, se buscan las Órdenes de Trabajo cuya fecha de  consumo de Gasto Real esté en el lapso anterior a la fecha digitada en ** “Hasta”**.	De  no digitar el campo ** “Hasta”**, se buscan las ots cuya fecha de consumo de mano de obra esté en un lapso posterior a la digitada en ** “Desde”**.
+**Fecha de consumo Mano de Obra:** Filtra las Órdenes de Trabajo por  un rango de la Fecha de consumo de mano de obra en el Gasto Real de la **OT**. Aparecen dos campos: Desde y Hasta. En cada uno de ellos se digita una fecha. De no digitar el campo **“Desde”**, se buscan los registros cuya fecha de consumo de mano de obra esté en el lapso anterior a la fecha digitada en **“Hasta”**. De no  digitar el campo **“Hasta”**, se buscan las ots cuya fecha de consumo de mano de obra esté en un lapso posterior a la digitada en **“Desde”**.
 
-**Fecha de Inicio de Trabajos:** Este criterio filtra las Órdenes de Trabajo por un rango de la Fecha de Inicio de Trabajos.  Aparecen dos campos: Desde y Hasta.  En cada uno de ellos se digita una fecha.   De no digitar el campo ** “Desde”**, se buscan las Órdenes  de Trabajo cuya fecha de Inicio de trabajos esté en el lapso anterior a la fecha digitada en ** “Hasta”**.  De no digitar el campo ** “Hasta”**, se buscan las ots cuya fecha de fin de trabajos esté en un lapso posterior a la digitada en ** “Desde”**.
+**Fecha de consumo en Gasto Real:** Este criterio filtra las Órdenes de Trabajo por  un rango de la Fecha de consumo de Gasto Real. Aparecen dos campos: Desde y Hasta. En cada uno de ellos se digita una fecha. De no digitar el campo **“Desde”**, se buscan los registros cuya fecha de consumo de Gasto Real esté en el lapso anterior a la fecha digitada en **“Hasta”**. De no digitar el campo **“Hasta”**, se buscan las OT cuya fecha de consumo de mano de obra esté en un lapso posterior a la digitada en **“Desde”**.
 
-**Fecha de Fin de Trabajos:** Este criterio filtra las Órdenes de Trabajo por un rango de la Fecha de Fin de Trabajos. Aparecen dos campos: Desde y Hasta. En cada uno de ellos se digita una fecha. De no digitar el campo ** “Desde”**, se buscan las Órdenes  de Trabajo cuya fecha de fin de trabajos esté en el lapso anterior a la fecha digitada en ** “Hasta”**. De no digitar el campo ** “Hasta”**, se buscan las ots cuya fecha de fin de trabajos esté en un lapso posterior a la digitada en ** “Desde”**.
+**Fecha de Inicio de Trabajos:** Este criterio filtra las Órdenes de Trabajo por un rango de la Fecha de Inicio de Trabajos.  Aparecen dos campos: Desde y Hasta. En cada uno de ellos se digita una fecha. De no digitar el campo **“Desde”**, se buscan los registros cuya fecha de Inicio de trabajos esté en el lapso anterior a la fecha digitada en **“Hasta”**. De no digitar el campo **“Hasta”**, se buscan las OT cuya fecha de fin de trabajos esté en un lapso posterior a la digitada en **“Desde”**.
 
-**Fecha de Creación:** Permite la preselección de las Órdenes  de Trabajo cuya fecha  de Creación se encuentren incluidas en el rango especificado en este campo. Aparecen dos campos: Desde y Hasta. En cada uno de ellos se digita una fecha. De no digitar el campo ** “Desde”**, se buscan las Órdenes  de Trabajo cuya fecha de creación esté en el lapso anterior a la fecha digitada en ** “Hasta”**. De no digitar el campo ** “Hasta”**, se buscan las ots cuya fecha de fin de trabajos esté en un lapso posterior a la digitada en ** “Desde”**.
+**Fecha de Fin de Trabajos:** Este criterio filtra las Órdenes de Trabajo por un rango de la Fecha de Fin de Trabajos. Aparecen dos campos: Desde y Hasta. En cada uno de ellos se digita una fecha. De no digitar el campo **“Desde”**, se buscan los registros cuya fecha de fin de trabajos esté en el lapso anterior a la fecha digitada en **“Hasta”**. De no digitar el campo **“Hasta”**, se buscan las OT cuya fecha de fin de trabajos esté en un lapso posterior a la digitada en **“Desde”**.
 
-**Fecha  Programada:**  Este  criterio  filtra  las  Órdenes  de  Trabajo  por  un  rango  de  la Fecha Programada. Aparecen dos campos: Desde y Hasta. En cada uno de ellos  se digita una fecha. De no digitar el campo ** “Desde”**, se buscan las Órdenes de Trabajo cu ya fecha programada esté en el lapso anterior a la fecha digitada en  ** “Hasta”**. De no digitar el campo ** “Hasta”**, se buscan las ots cuya fecha programada esté en un lapso posterior a la digitada en ** “Desde”**.
+**Fecha de Creación:** Permite filtrar las Órdenes de Trabajo cuya fecha de Creación se encuentren incluidas en el rango especificado en este campo. Aparecen dos campos: Desde y Hasta. En cada uno de ellos se digita una fecha. De no digitar el campo **“Desde”**, se buscan los registros cuya fecha de creación esté en el lapso anterior a la fecha digitada en **“Hasta”**. De no digitar el campo **“Hasta”**, se buscan las OT cuya fecha de fin de trabajos esté en un lapso posterior a la digitada en **“Desde”**.
 
-**Gasto  Real  Mano  de  Obra:**  Al  seleccionar  esta  opción  se  habilita  una  lista desplegable donde se escoge el criterio deseado, junto con un cuadro donde se digita el valor de comparación. Los criterios son:
+**Fecha Programada:** Este criterio filtra  las Órdenes de Trabajo por un rango de la Fecha Programada. Aparecen dos campos: Desde y Hasta. En cada uno de ellos se digita una fecha. De no digitar el campo **“Desde”**, se buscan los registros cuya fecha programada esté en el lapso anterior a la fecha digitada en  **“Hasta”**. De no digitar el campo **“Hasta”**, se buscan las OT cuya fecha programada esté en un lapso posterior a la digitada en **“Desde”**.
 
-- **Igual (=)**.
-- **Mayor (>)**.
+**Gasto Real Mano de Obra:** Esta opción habilita una lista desplegable donde se escoge el criterio deseado, junto con un campo donde se digita el valor de comparación. Los criterios son:
+
+- **Igual (=)**
+- **Mayor (>)**
+- **Menor (<)**
+
+Estos criterios actúan en comparación con el valor digitado en el campo que se activa al lado del operador aritmético. Ejemplo:
+Si se escoge el criterio Mayor (>) y la cantidad  es 100.000, eso significa que filtrara todas las OT cuyo Gasto Real en la Mano de Obra sea Mayor a Cien Mil Pesos o unidades monetarias.
+
+**Gasto Real Materiales y Repuestos:** Esta opción habilita una lista despegable donde se escoge el criterio deseado, junto con un campo donde se digita el valor de comparación.
+Los criterios son:
+
+- **Igual (=)**
+- **Mayor (>)**
+- **Menor (<)**
+
+Estos criterios actúan en comparación con el valor digitado en el campo que se activa al lado del operador aritmético.
+
+**Gasto Real otros Conceptos:** Esta opción se habilita una lista despegable donde se escoge el criterio deseado, junto con un cuadro donde se digita el valor de comparación.
+Los criterios son: 
+- **Igual (=)** 
+- **Mayor (>)**  
 - **Menor (<)**.
 
-Estos criterios actúan en comparación con el valor digitado en la casilla que se activa al lado del operador aritmético. Ejemplo:
+ Estos criterios actúan en comparación con el valor digitado en la casilla que se activa al lado del operador aritmético.
 
-si se escoge el criterio Mayor (>)  y la cantidad  es 100.000, eso significa que filtrara todas las ots cuyo Gasto Real en la Mano de Obra sea Mayor a Cien Mil Pesos o unidades monetarias.
+**Número de la OT**: Filtra los registros con base en su número consecutivo. Para ello se define en el criterio un rango. Aparecen cuatro campos, para ubicar el comienzo del rango **“Desde”** (Año-Consecutivo) y el fin del rango **“Hasta”** (Año-Consecutivo). De no digitar los campos **“Desde”**, se buscan las OT cuyo número es inferior al digitado en **“Hasta”**. De no digitar los campos **“Hasta”**, se buscan las OT cuyo número es  posterior al digitado en **“Desde”**.
 
-**Gasto Real Materiales y Repuestos:** Al seleccionar esta opción se habilita una lista despegable donde se escoge el criterio deseado, junto con un cuadro donde se digita el valor de comparación.
-Los criterios son:**Igual (=), Mayor (>) y Menor (<)**.
+**Número de la Solicitud:** Permite buscar la OT por medio del consecutivo de la Solicitud de Servicio que fue asociada a la OT.
+
+**Presupuesto:** Permite filtrar las Órdenes de Trabajo de acuerdo al manejo que hagan sobre su Presupuesto: No maneja, No aprobado, Aprobado.
+
+**Prioridad:** Fitra las OT de acuerdo a su  Prioridad, habilitándose una lista despegable desde el nivel 1 hasta el nivel 7.
+
+**Responsable por la Institución:** Agrupa las OT de acuerdo al Responsable por Institución o la persona que recibe a satisfación. Existen dos formas de buscar el Responsable. La primera es seleccionándolo de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span> el cual se desactiva <span class="mdi mdi-lock-open-outline"></span> permitiendo digitar segmentos del nombre del Responsable, en el cual también es posible usar comodines (%). Cuando se utilizan comodines, es posible seleccionar las OT cuyo Responsable tenga una parte del nombre igual.
+
+**Referencia:** Este opción agrupa las OT que tienen asociado el valor seleccionado, en el campo Referencia. Es posible usar comodines (%).
+
+**Responsable:** Filtra las Órdenes de Trabajo de acuerdo al Responsable asignado.Existen dos formas de buscar el Responsable. La primera es seleccionándolo de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span> el cual se desactiva <span class="mdi mdi-lock-open-outline"></span> permitiendo digitar segmentos del nombre del Responsable, en el cual también es posible usar comodines (%). Cuando se usan comodines, es posible seleccionar las OT cuyo Responsable tenga una parte del nombre igual. 
+
+**Responsable Asignado para Histograma:** Permite buscar las OT cuyo Responsable está asignado para el histograma. Existen dos formas de definir el Responsable asignado para histograma de la OT. La primera es seleccionándolo de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span> el cual se desactiva <span class="mdi mdi-lock-open-outline"></span> permitiendo digitar segmentos del nombre del Responsable, en el cual también es posible usar comodines (%). Cuando se utilizan comodines, es posible seleccionar las OT cuyo Responsable tenga una parte del nombre igual.
+
+**Responsable en Gasto Real:** Permite la preselección de las OT cuyo Responsable en Gasto Real está definido en la mano de obra del Gasto Real.
+
+**RP-Código:** Filtra las OT cuyo Repuesto fue asociado en el Gasto Real. Para hacer la búsqueda del Repuesto, primero se elige el almacén de la lista desplegable en el primer campo, una vez elegido, se activa automáticamente el segundo que permite buscar el Repuesto a través del ícono azul <span class="mdi mdi-filter-variant"></span> de Materiales y Repuestos o digitarlo manualmente. Cuando se busca a través del ícono, se abre una nueva ventana de Materiales y Repuestos (allí también es posible seguir haciendo subgrupos). Para la selección del Repuesto se hace un doble clic o se selecciona el registro dando clic en el botón superior <a class="btn white">Aceptar</a>.
+
+**Solicitante (Digitado Manualmente):** Permite agrupar las OT cuyo Solicitante fue especificado manualmente y no pertenece a la lista de Terceros, está búsqueda es posible hacerla a través de los comodines (%).
+
+**Solicitante (Incluido en  terceros - Tipo RI):** Permite agrupar las OT cuyo Solicitante fue seleccionado de la tabla de terceros (como RI) y coincide con el definido en este criterio. Existen dos formas de definir el Solicitante de la OT. La primera es seleccionándolo de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span> el cual se desactiva <span class="mdi mdi-lock-open-outline"></span> permitiendo digitar segmentos del nombre del Solicitante usando comodines (%). El sistema hace la búsqueda de las OT cuyo Solicitante tenga parte del nombre igual.
+
+**Tipo de Actividad:** Este criterio se habilita una vez que se haya elegido un TM. Filtra las Órdenes por TA. Existen dos formas de hacer la búsqueda. La primera es
+seleccionándola de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span>
+ el cual se desactiva <span class="mdi mdi-lock-open-outline"></span> permitiendo digitar segmentos del nombre del TA utilizando comodines (%), el sistema hace la búsqueda de las OT cuyo TA tenga parte del nombre igual.
+
+**Tipo de Mantenimiento:** Filtra las Órdenes de trabajo por TM. Al activar ésta opción se activan las siguientes opciones: Correctivo, Preventivo, Preventivo Manual, Predictivo, Metrología, Inspección, Lubricación, Otro-Mantto y Otro.
+
+**Tipo de Trabajo:** Agrupa las Órdenes de Trabajo de acuerdo al TT al que están  asociadas. Estas opciones aparecen individualizadas, pero es posible seleccionar dos o más.
+
+**Origen OT:** Filtra las Órdenes de Trabajo que se hayan generado por Solicitudes de Servicio, Paros y Averías u Órdenes de trabajo.
+
+**Ubicación Física:** Permite filtrar las OT cuyo Activo esté en la ubicación física que se determina en este criterio. Existen dos formas de filtrar la Ubicación Física. La primera es seleccionándola de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span> el cual se desactiva <span class="mdi mdi-lock-open-outline"></span> permitiendo digitar segmentos del nombre de la Ubicación Física utilizando comodines (%), cuando se usan, es posible seleccionar los registros cuyo Activo esté en una Ubicación Física que tenga parte del nombre igual. Por ejemplo: Cava% selecciona las OT con Activos donde la Ubicación Física empiece por esta palabra, independientemente de si se está hablando de la Cava de Fermentación, Maduración o Contrapresión.
+
+**Días Vencimiento:** Muestra los días vencidos que tiene una OT, a partir de la fecha programada y la fecha actual. Permite filtrar de las OT cuyos días de vencimiento apliquen al criterio definido. Esta opción habilita una lista despegable donde se escoge el criterio deseado, junto con un campo donde se digita el valor de comparación. Los criterios son:
+- **Igual (=)**
+- **Mayor (>)**
+- **Menor (<)**
+
 Estos criterios actúan en comparación con el valor digitado en la casilla que se activa al lado del operador aritmético.
 
-**Gasto Real otros Conceptos:** Al seleccionar esta opción se habilita una lista despegable donde se escoge el criterio deseado, junto con un cuadro donde se digita el valor de comparación.
-Los criterios son: **Igual (=), Mayor (>) y Menor (<)**. Estos criterios actúan en comparación con el valor digitado en la casilla que se activa al lado del operador aritmético.
-
-**Número de la **OT**:** Permite filtrar ots, con base en su número consecutivo. Para ello se define en el criterio un rango. Aparecen cuatro campos, para ubicar el comienzo del rango ** “Desde”** (Año-Consecutivo) y el fin del rango ** “Hasta”** (Año-Consecutivo). De no digitar los campos ** “Desde”**, se buscan las ots cuyo número es inferior al digitado en ** “Hasta”**.  De no digitar los campos ** “Hasta”**, se buscan las ots cuyo número es  posterior al digitado en ** “Desde”**.
-
-**Número de la Solicitud:** Permite buscar una solicitud de servicio especifica por medio del número que ésta fue asociada.
-
-**Ordenes Evaluadas:** Agrupa las órdenes de trabajo que ya han sido evaluadas.
-
-**Presupuesto:** Permite filtrar las Órdenes de Trabajo de acuerdo al manejo que  hagan sobre su Presupuesto: No maneja, No aprobado, Aprobado.
-
-**Prioridad:** Permite hacer subgrupo de acuerdo a una Prioridad, habilitándose una lista despegable desde el nivel 1 hasta el nivel 7.
-
-**Referencia:**  Este  opción  permite  seleccionar  las  ots  que  tienen  asociado  el   valor seleccionado, en el campo Referencia. Es posible utilizar comodines.
-
-**Responsable:** Agrupa las Órdenes de Trabajo de acuerdo al Responsable de la Orden de Trabajo.
-
-**Responsable Asignado para Histograma:** Permite la preselección de las ots cuyo Responsable está asignado para el histograma.
-
-**Responsable en Gasto Real:** Permite la preselección de las ots cuyo Responsable está definido en la mano de obra del gasto real.
-
-**Solicitante (Digitado Manualmente):** Permite la preselección de las ots cuyo Solicitante fue especificado manualmente,  y coincide con el definido en este campo.  Se  pueden utilizar los comodines.
-
-**Solicitante (Incluido en  terceros - Tipo RI):** Permite la preselección de las  ots  cuyo Solicitante fue seleccionado de la tabla de terceros (como RI) y coincide con el definido en este criterio. Existen dos formas de definir el Solicitante o grupo de Solicitantes en este criterio: La primera es seleccionándolo de la lista desplegable. La segunda es marcando la caja de selección ** “Utilizar comodines”** y digitando a  continuación segmentos del nombre del Solicitante, utilizando  comodines.
-
-**Tipo de  Actividad:** Filtra las Órdenes de Trabajo por el Tipo de Actividad que aquí  se selecciona. Existen dos formas de definir el Tipo de Actividad: La primera forma es seleccionar de la lista desplegable el Tipo de Actividad. La segunda forma es marcando la caja de selección ** “Utilizar comodines”** y digitando a  continuación segmentos del Tipo de Actividad, utilizando  comodines.
-
-**Tipo   de   Mantenimiento:** Filtra las Órdenes de trabajo por Tipo de Mantenimiento. Al activar ésta opción se activan las siguientes opciones: Correctivo, Preventivo, Preventivo Manual, Predictivo, Calibración, Lubricación y **OT**ro.
-
-**Tipo de Trabajo:** Agrupa las ots de acuerdo al tipo de trabajo al que están  asociadas. Utilizando la opción ** “Individualizar”** es posible filtrar las Órdenes de  Trabajo que tienen uno y solo un tipo de trabajo. De no activar la opción ** “Individualizar”**, se buscan las ots, que tengan el tipo de trabajo seleccionado, sin  importar si tienen otros tipos de trabajo activos.
-
-**Origen **OT**:** Filtra las Ordenes de Trabajo que se hayan generado por Solicitudes de Servicio, Paros y Averías u Órdenes de trabajo.
-
-**Ubicación  Física:** Permite la selección de las OTs cuyo equipo se encontraba en  una ubicación física, determinada en este criterio. Cuando se utilizan comodines, es  posible seleccionar OTs cuyo equipo esté en una ubicación física que tenga parte  del nombre igual. Por  ejemplo: Cava%  selecciona las  OTs,  efectuadas a Equipos  cuyo  nombre de Ubicación Física empieza por la palabra cava, independientemente de si se está hablando de la cava de fermentación, maduración o contrapresión.
-
-**Días  Vencimiento:** Muestra los días vencidos que tiene una orden, a partir de la fecha programada y la fecha actual.
-
-**3. FILTRAR POR EL USUARIO QUE MANIPULÒ LA ORDEN DE TRABAJO**
-
-**Cierre  Manual  de  la  Orden:**  Filtra  las  Ordenes  de  Trabajo  que  hayan  sido  cerradas m anualmente por el usuario digitado en este campo. Es posible utilizar comodines.
-
-**N**OT**a:** Es importante tener en cuenta que cuando se están realizando los subgrupos,  se pueden utilizar uno o varios de los criterios anteriores, simultáneamente. Además es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber realizado una selección, es posible hacer Otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección, se da un clic al botón `<span class="iconify btn" data-icon="mdi-plus-circle">`Más, en lugar del botón `<a class="btn">`Aceptar`</a>`.
-
-**4. EV ALU ACION DE SERVICIO**
-
-**Filtrar por Calificación:** Busca filtrar las órdenes de acuerdo a una calificación. Al activar esta opción se activa una lista despegable con las siguientes opciones:
-
-- Excelente.
-- Bueno.
-- Aceptable.
-- Regular.
-- Malo.
-
-**Filtrar  por  evaluación:**  Filtra  las  Órdenes  de  Trabajo  que  fueron  calificadas  o   no calificadas.
+> _Nota: Es importante tener en cuenta que cuando se están realizando los subgrupos, se pueden utilizar uno o varios de estos criterios simultáneamente. También se permite la unión de selecciones, es decir, después de haber realizado una búsqueda de un criterio, es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección, se da un clic al botón <a class="btn white">Mas <span class="mdi mdi-plus-circle"></span></a> , en lugar de darlo al botón <a class="btn white">aceptar <span class="mdi mdi-check-circle"></span></a> ._
 
 ## Vistas Parciales / Pestañas
 
