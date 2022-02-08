@@ -304,6 +304,7 @@ seleccionándola de la lista desplegable. La segunda es dando clic al icono de c
 **Ubicación Física:** Permite filtrar las OT cuyo Activo esté en la ubicación física que se determina en este criterio. Existen dos formas de filtrar la Ubicación Física. La primera es seleccionándola de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span> el cual se desactiva <span class="mdi mdi-lock-open-outline"></span> permitiendo digitar segmentos del nombre de la Ubicación Física utilizando comodines (%), cuando se usan, es posible seleccionar los registros cuyo Activo esté en una Ubicación Física que tenga parte del nombre igual. Por ejemplo: Cava% selecciona las OT con Activos donde la Ubicación Física empiece por esta palabra, independientemente de si se está hablando de la Cava de Fermentación, Maduración o Contrapresión.
 
 **Días Vencimiento:** Muestra los días vencidos que tiene una OT, a partir de la fecha programada y la fecha actual. Permite filtrar de las OT cuyos días de vencimiento apliquen al criterio definido. Esta opción habilita una lista despegable donde se escoge el criterio deseado, junto con un campo donde se digita el valor de comparación. Los criterios son:
+
 - **Igual (=)**
 - **Mayor (>)**
 - **Menor (<)**
@@ -316,9 +317,34 @@ Estos criterios actúan en comparación con el valor digitado en la casilla que 
 
 ### Acciones técnicas
 
-Esta opción conduce a la tabla de Acciones Técnicas de la **OT**. Esta tabla se ha creado con información seleccionada desde la tabla del mismo nombre en la  Infraestructura, que contiene  un  listado  de  Acciones  Técnicas  frecuentes  en  un  área  de  Mantenimiento. Con   la   información   contenida   en   esta   tabla   se   pretende   describir,   breve   pero concretamente, la actividad general realizada en  una  Orden de Trabajo. Las  Acciones Técnicas en  una **OT** se pueden definir, después de haber seleccionado en la ventana Detalle de la Ficha Técnica de la **OT**, el cuadro llamado ** “Manejo de Costos ABC”**. La adición de las  Acciones Técnicas se realiza de igual forma que en los módulos Efectos de Falla y Causas de Falla en la Infraestructura.
+Esta opción conduce a la tabla de Acciones Técnicas en una nueva pestaña de la OT. Esta tabla está ligada a la Infraestructura, creada con su mismo nombre, que contiene un listado de Acciones Técnicas frecuentes en un área de Mantenimiento. Con la información contenida allí, se pretende describir, breve pero concretamente, la actividad general realizada en una OT. Las Acciones Técnicas en una OT se pueden definir, después de haber seleccionado en la ventana Detalle de la Ficha Técnica de la OT en el momento de su creación, el cuadro llamado <a class="btn white"><span class="mdi mdi-checkbox-blank-outline"> manejo de costos abc</span></a> o bien, haberlas definido en la creación del Programa de Mantenimiento, continuación se muestra la porción Acciones Técnicas de una OT:
 
-![Ventana Detalle](manualAM/0.images/cap11/chp11_img05.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img06.png)
+_**Imagen 72.** Órdenes - Ventana Detalle Acciones Técnicas_ 
+
+En la pestaña de Acciones Técnicas de la Ventana Detalle de OT aparece un nuevo recuadro en el que irán apareciendo las que se vayan adicionando a través de un botón Adicionar Acción Técnica.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img06_01.png)
+_**Imagen 73.** Órdenes - Ventana Subgrupo_ 
+
+A continuación se describen los campos que componen esta ventana de información adicional:
+
+**Que Hacer:** Aparece con los campos bloqueados para que el usuario visualice la información básica de la OT a la cual se le están asociando las Acciones Técnicas.
+
+**Nro. Ordinal:** Es el ordinal asignado a cada Acción Técnica según el orden en el que se vayan adicionando.
+
+**Acción Técnica:** En este campo se traen automáticamente las Acciones Técnicas definidas en la Infraestructura para seleccionar aquellas que se asociarán a la OT.
+Las Acciones Técnicas se seleccionan de la lista desplegable y se adicionan con el botón del signo <span class="mdi mdi-plus-circle icon white"></span>.
+
+**Costo Estandar:** Es el costo o valor que tiene la Acción Técnica.
+
+**Duración Estandar:** El es el tiempo que toma la ejecución de la Acción Técnica.
+
+**Unidad de tiempo:** Es la unidad de duración que tiene la Acción Técnica. Puede ser expresada en Días, Horas o Minutos.
+
+> **Nota:** Para actualizar una Acción Técnica de una OT se hace un clic sobre esa opción y luego se elige una nueva de la lista desplegable, finalizando con un clic al botón de <a class="btn gray">actualizar acción técnica</a>. 
+Para desasociarla a una OT, se debe  seleccionar y hacer un clic sobre el icono de Eliminar <span class="mdi mdi-delete"></span>.
+Es importante tener en cuenta que las asociaciones y desasociaciones solo surgen efecto al <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a> o guardar la OT.
 
 ## Presupuesto
 
