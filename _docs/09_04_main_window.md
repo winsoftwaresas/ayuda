@@ -375,7 +375,7 @@ cada uno de los anteriores:
 
 **Ingresar Mano de Obra Interna**
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_03.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_02.png)
 _**Imagen 75.** Órdenes - Mano de Obra Interna_ 
 
 A través de la ventana de Ingreso de Mano de Obra Interna se administra el Presupuesto
@@ -414,47 +414,43 @@ media, se deduce entonces que entre las 2 personas se consumirá este tiempo.
 
 **Vlr. Total:** Este campo es informativo y es calculado por el sistema, contiene el valor total del presupuesto para ese Oficio. Es el producto del Vlr. Hora por H. Hombre y Minutos. Se visualiza en la tabla de Mano de Obra Interna.
 
-Una vez que se diligencian todos los campos se da clic en el ícono del Más <span class="mdi mdi-plus-circle icon gray"></span>, seguidamente se observa que la información creada se muestra en el recuadro de la mano de Obra Interna, ubicada al lado izquierdo.
+Una vez que se diligencian todos los campos se da clic en el ícono del Más <span class="mdi mdi-plus-circle icon white"></span>, seguidamente se observa que la información creada se muestra en el recuadro de la mano de Obra Interna, ubicada al lado izquierdo.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_02.png)
 _**Imagen 76.** Órdenes - Ingresar Mano de Obra Interna_ 
 
 Una vez terminado el proceso, hacer clic en el botón <a class="btn gray ">ir a la matriz</a> para regresar a la ventana principal de Presupuesto.
 
-Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón "Actualizar Mano de Obra Interna.
+Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón  <a class="btn gray">actualizar mano obra interna</a>
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img08.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_03.png)
 _**Imagen 77.** Órdenes - Actualizar Mano de Obra Interna_ 
 
 Por otro lado, para eliminar un registro de la tabla de Mano de Obra Interna, se selecciona
-el registro y luego se da clic al icono de eliminar (basura), sale un mensaje de alerta que indica al usuario de si está seguro de eliminar el registro y finalmente se da clic en Aceptar, como se muestra en la siguiente imagen:
+el registro y luego se da clic al icono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario de si está seguro de eliminar el registro y finalmente se da clic en Aceptar, como se muestra en la siguiente imagen:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img08.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_04.png)
 _**Imagen 78.** Órdenes - Eliminar Mano de Obra Interna_ 
 
 **Ingresar Mano de Obra Externa**
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img08.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_05.png)
 _**Imagen 79.** Órdenes - Mano de Obra Externa_ 
 
-A través de la ventana de Ingreso de Mano de Obra Externa se administra el Presupuesto de
-Mano de Obra Externa de la OT.
+A través de la ventana de Ingreso de Mano de Obra Externa se administra el Presupuesto de Mano de Obra Externa de la OT.
 
-Es importante resaltar que el presupuesto de Mano de Obra Externa de una OT, se prepara a
-nivel de la Especialidad (Oficio) del Responsable Externo, es decir, no se tiene en cuenta a la persona natural o jurídica que va a realizar la labor, pues se trata de un presupuesto y no se conoce a ciencia cierta, en la mayoría de los casos, quiénes serán los encargados de ejecutar la labor.
+Es importante resaltar que el presupuesto de Mano de Obra Externa de una OT, se prepara a nivel de la Especialidad (Oficio) del Responsable Externo, es decir, no se tiene en cuenta a la persona natural o jurídica que va a realizar la labor, pues se trata de un presupuesto y no se conoce a ciencia cierta, en la mayoría de los casos, quiénes serán los encargados de ejecutar la labor.
 
 A la izquierda aparece el listado de los oficios o especialidades presupuestados, a la derecha es posible efectuar modificaciones a los ítems presupuestados o nuevos ingresos de oficios al presupuesto.
 
-Para hacer actualizaciones o ingresar nuevas especialidades al Presupuesto de la OT se
-deben diligenciar los campos que componen esta ventana:
+Para hacer actualizaciones o ingresar nuevas especialidades al Presupuesto de la OT se  deben diligenciar los campos que componen esta ventana:
 
 **CR:** Es el centro responsable al que pertenece el Oficio o Especialidad presupuestado. Es un campo de solo lectura, que se establece automáticamente al seleccionar el Oficio o
 Especialidad.
 
 **OF:** Lista los Oficios o Especialidades definidos en el módulo de Infraestructura. Aquí se escoge el Oficio o la Especialidad a presupuestar.
 
-**TT:** Muestra de manera automática el TT que tiene configurado el Oficio o Especialidad
-seleccionado. Es un campo de solo lectura, que se establece automáticamente en el recuadro de Mano de Obra Externa una vez se haya escogido el Oficio o Especialidad.
+**TT:** Muestra de manera automática el TT que tiene configurado el Oficio o Especialidad seleccionado. Es un campo de solo lectura, que se establece automáticamente en el recuadro de Mano de Obra Externa una vez se haya escogido el Oficio o Especialidad.
 
 **Costo Unitario por hora/visita:** Se digita el valor unitario por hora o por visita de parte del responsable ejecutor externo para esa actividad programada, ya sea un Contratista o un Servicio Externo.
 
