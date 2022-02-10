@@ -348,239 +348,100 @@ Es importante tener en cuenta que las asociaciones y desasociaciones solo surgen
 
 ## Presupuesto
 
-En una OT Manual que se acaba de crear, solo se permite definir o modificar su
-Presupuesto, hasta el momento en que se ha ya aprobado el mismo. Además, solamente se
-puede crear o modificar el Presupuesto de una OT si se ha establecido la opción
-“Control Presupuestal”, en la ventana detalle de la OT durante la creación de la OT.
-Esto significa que si a una OT no se le marcó el recuadro de Control Presupuestal, no
-tendrá la posibilidad de aceptar datos de Presupuesto, solamente de Gasto Real.
+En una Órden Manual que se acaba de crear,  solo  se  permite  definir  o  modificar  su Presupuesto, hasta el momento en que se ha ya aprobado el mismo. Además, solamente se puede crear o modificar el Presupuesto de una OT  si se ha  establecido la opción **“Control Presupuestal”**, en el momento de creación de la OT. Esto significa que si a una OT no se le marcó el recuadro de Control Presupuestal, no tendrá la posibilidad de aceptar datos de Presupuesto, solamente de Gasto Real.
 
-Los datos de Gasto Real se pueden registrar en una OT en cualquier momento, mientras
-esa OT no exija Control Presupuestal. Pero si la OT exige Control Presupuestal, solo se
-puede registrar el Gasto Real después de haber aprobado el Presupuesto, en cuyo caso
-ya no será posible modificar este último.
-Se ingresa mediante un clic en la pestaña “Presupuesto” en la ventana detalle de OT. 
+Los datos de Gasto Real se pueden registrar en una OT en cualquier momento, mientras esa OT no exija Control Presupuestal. Pero si la OT exige Control Presupuestal, solo se puede registrar el Gasto Real después de haber aprobado el Presupuesto, en cuyo caso ya no será posible modificar este último.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_01.png)
-_**Imagen 74.** Órdenes - Presupuesto_ 
+Se ingresa mediante un clic en la pestaña “Presupuesto” en la ventana detalle de OT.
 
-En esta ventana se resumen los totales de los costos presupuestados de Mano de Obra
-Interna, Mano de Obra Externa, Materiales y Repuestos y Otros Conceptos de Costo, para
-acceder a cada uno de ellos se da un clic en el botón acorde a lo que se necesite ingresar y
-se obtiene una ventana detalle, a continuación se explica detalladamente como ingresar
-cada uno de los anteriores:
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07.png)
+_**Imagen 73.** Órdenes - Ventana Subgrupo_ 
+
+En la  gráfica anterior, Ventana de Presupuesto, se aprecian sus componentes y  sus respectivos contenidos.
+
+A través de la ventana de Presupuesto se administra el Presupuesto de la  Orden  de
+Trabajo. Esta ventana está conformada por dos zonas.
+
+En la zona superior, aparece la matriz de Presupuesto, que resume los  Costos Presupuestados para la **OT**, discriminando por Tipo de Trabajo (En las filas), y por Tipo de Consumo (En las columnas). Aparecen también botones para ingresar  Mano de Obra, Materiales y Repuestos, y otros Conceptos.
+
+En la zona inferior, están los botones que permiten ver, en forma de visor, el presupuesto de la **OT**. Igualmente, se encuentra el botón `<a class="btn">`Aprobar Presupuesto`</a>`, que se utiliza una vez se ha definido el presupuesto y se desea iniciar el registro de la  información de Gasto Real.
 
 **Ingresar Mano de Obra Interna**
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img08.png)
-_**Imagen 75.** Órdenes - Mano de Obra Interna_ 
+![Ventana Detalle](manualAM/0.images/cap11/chp11_img07.png)
 
-A través de la ventana de Ingreso de Mano de Obra Interna se administra el Presupuesto
-de Mano de Obra de la OT.
+En la gráfica anterior, Ventana de Ingreso de Mano de Obra Interna, se aprecian sus componentes y sus respectivos contenidos.
 
-Es importante destacar que el presupuesto de Mano de Obra de una OT, se prepara a nivel
-de Oficio, es decir, no se tiene en cuenta la persona que va a realizar la labor, pues se
-trata de un presupuesto y no se conoce a ciencia cierta, en la mayoría de los casos,
-quiénes serán los encargados de ejecutar la labor.
+A través de la ventana de Ingreso de Mano de Obra Interna se administra el Presupuesto o de Mano de Obra de la Orden de Trabajo.
 
-En la izquierda de la ventana aparece un pequeño listado de los oficios presupuestados para la OT activa. A la derecha, es posible efectuar modificaciones, así como ingresar nuevos oficios al presupuesto.
+Es importante destacar que el presupuesto de mano de obra de una **OT**, se prepara a nivel de Oficio, es decir, no se tiene en cuenta la persona que va a realizar la labor,  pues se trata de un presupuesto y no se conoce a ciencia cierta, en la mayoría  de  los casos, quiénes serán los encargados de ejecutar la labor.
 
-A continuación se describen los campos que componen esta ventana; cuando se quiera
-actualizar o ingresar nuevos oficios al presupuesto de una OT, se deberán diligenciar los siguientes campos:
+En la parte superior aparece el listado de los oficios presupuestados para la **OT** activa.  En la parte inferior, es posible efectuar modificaciones, así como ingresar nuevos  oficios al presupuesto.
 
-**CR:** Es el centro responsable al que pertenece el oficio presupuestado. Es un campo de solo lectura, que se establece automáticamente al seleccionar el oficio.
+A continuación se describen los campos que componen esta ventana; cuando se  quiera actualizar o ingresar nuevos oficios al presupuesto de una **OT**, se deberán diligenciar los siguientes campos:
 
-**OF:** Lista los Oficios definidos en el módulo de Infraestructura. Aquí se escoge el Oficio a presupuestar.
+**C. Responsable:** Es el centro responsable al que pertenece el oficio presupuestado. Es un campo de solo lectura, que se establece al seleccionar el oficio.
 
-**TT:** Muestra de manera automática el TT que tiene configurado el Oficio seleccionado. Es un
-campo de solo lectura, que se establece automáticamente en el recuadro de Mano de Obra
-Interna una vez se haya escogido el Oficio.
+**Oficio:** En este campo se selecciona el oficio a presupuestar. Esto se hace descolgando el listado de Oficios, definido desde su tabla en la Infraestructura.
 
-**H. Hombre:** Número de horas hombre requeridas presupuestadas según el
-Oficio descrito.
+**H. Hombre:** Es el número de Horas Hombre que se están Presupuestando para el oficio en cuestión.
 
-**Minutos:** Es el número de Minutos, que junto con las horas, conforman el tiempo total
-presupuestado. Así, si se desea presupuestar 4 horas y media de un oficio, debe ponerse “4”
-en el campo “H. Hombre”, y “30” en el c ampo “MM”.
+**MM:**  Es  el  número  de  Minutos,  que  junto  con  las  horas,  conforman el  tiempo  total presupuestado.  Así, si se desea presupuestar 4 horas y media de un oficio, debe ponerse ** “4”** en el campo ** “H. Hombre”**, y ** “30”** en el c ampo ** “MM”**.
 
-**Personas:** Este campo indica cuántas personas van a desempeñar la labor. Retomando el ejemplo anterior, si se ingresa “2” en este campo, se está diciendo que 2 personas van a
-desempeñar el oficio. Como ya se definió que el total de tiempo requerido son 4 horas y
-media, se deduce entonces que entre las 2 personas se consumirá este tiempo.
+**Personas:** Este campo indica cuántas  personas van         a desempeñar  la labor. Retomando el ejemplo anterior, si se coloca ** “2”** en este campo, se está  diciendo que 2 personas van a desempeñar el oficio. Como ya se definió que el total de tiempo requerido son 4 horas  y media, se deduce entonces que entre las 2  personas consumirán este tiempo.
 
 **Vr. Hora:** Es el valor unitario de la hora para el oficio en cuestión. AM sugiere el costo hora traído desde la tabla de Infraestructura para el oficio, pero puede cambiarse.
 
-**Vlr. Total:** Este campo es informativo y es calculado por el sistema, contiene el valor total del presupuesto para ese Oficio. Es el producto del Vlr. Hora por H. Hombre y Minutos. Se visualiza en la tabla de Mano de Obra Interna.
-
-Una vez que se diligencian todos los campos se da clic en el ícono del Más (+),
-seguidamente, se observa que la información creada se muestra en el recuadro de la
-mano de Obra Interna, ubicada al lado izquierdo.
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img08.png)
-_**Imagen 76.** Órdenes - Ingresar Mano de Obra Interna_ 
-
-Una vez terminado el proceso, hacer clic en el botón “Ir a Matriz” para regresar a la ventana
-principal de Presupuesto.
-
-Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón "Actualizar Mano de Obra Interna.
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img08.png)
-_**Imagen 77.** Órdenes - Actualizar Mano de Obra Interna_ 
-
-Por otro lado, para eliminar un registro de la tabla de Mano de Obra Interna, se selecciona
-el registro y luego se da clic al icono de eliminar (basura), sale un mensaje de alerta que indica al usuario de si está seguro de eliminar el registro y finalmente se da clic en Aceptar, como se muestra en la siguiente imagen:
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img08.png)
-_**Imagen 78.** Órdenes - Eliminar Mano de Obra Interna_ 
-
-**Ingresar Mano de Obra Externa**
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img08.png)
-_**Imagen 79.** Órdenes - Mano de Obra Externa_ 
-
-A través de la ventana de Ingreso de Mano de Obra Externa se administra el Presupuesto de
-Mano de Obra Externa de la OT.
-
-Es importante resaltar que el presupuesto de Mano de Obra Externa de una OT, se prepara a
-nivel de la Especialidad (Oficio) del Responsable Externo, es decir, no se tiene en cuenta a la persona natural o jurídica que va a realizar la labor, pues se trata de un presupuesto y no se conoce a ciencia cierta, en la mayoría de los casos, quiénes serán los encargados de ejecutar la labor.
-
-A la izquierda aparece el listado de los oficios o especialidades presupuestados, a la derecha es posible efectuar modificaciones a los ítems presupuestados o nuevos ingresos de oficios al presupuesto.
-
-Para hacer actualizaciones o ingresar nuevas especialidades al Presupuesto de la OT se
-deben diligenciar los campos que componen esta ventana:
-
-**CR:** Es el centro responsable al que pertenece el Oficio o Especialidad presupuestado. Es un campo de solo lectura, que se establece automáticamente al seleccionar el Oficio o
-Especialidad.
-
-**OF:** Lista los Oficios o Especialidades definidos en el módulo de Infraestructura. Aquí se escoge el Oficio o la Especialidad a presupuestar.
-
-**TT:** Muestra de manera automática el TT que tiene configurado el Oficio o Especialidad
-seleccionado. Es un campo de solo lectura, que se establece automáticamente en el recuadro de Mano de Obra Externa una vez se haya escogido el Oficio o Especialidad.
-
-**Costo Unitario por hora/visita:** Se digita el valor unitario por hora o por visita de parte del responsable ejecutor externo para esa actividad programada, ya sea un Contratista o un Servicio Externo.
-
-Una vez que se diligencian todos los campos se da clic en el icono del Más (+), seguidamente, se observa que la información creada se muestra en el recuadro de la mano de Obra Externa, ubicada al lado izquierdo.
-
-Una vez terminado el proceso, hacer clic en el botón “Ir a Matriz” para regresar a la ventana
-principal de Presupuesto.
-
-Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón "Actualizar Mano de Obra Interna.
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img08.png)
-_**Imagen 80.** Órdenes - Actualizar Mano de Obra Externa_ 
-
-Una vez terminado el proceso, hacer clic en el botón “Ir a Matriz” para regresar a la ventana
-principal de Presupuesto.
-
-Por otro lado, para eliminar un registro de la tabla de Mano de Obra Externa, se selecciona
-el registro y luego se da clic al icono de eliminar (basura), sale un mensaje de alerta que indica al usuario de si está seguro de eliminar el registro y finalmente se da clic en Aceptar, como se muestra en la siguiente imagen:
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img011.png)
-_**Imagen 81.** Órdenes - Eliminar Mano de Obra Externa_ 
-
 **Ingresar Materiales y Repuestos**
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img12.png)
-_**Imagen 81.** Órdenes - Materiales y Repuestos_ 
+![Ventana Detalle](manualAM/0.images/cap11/chp11_img08.png)
 
-A través de la ventana de Ingreso de Materiales y Repuestos se administra el Presupuesto de Materiales y Repuestos de la OT.
-A la izquierda aparece el listado de los Almacenes y Materiales y Repuestos presupuestados.
+En la gráfica anterior, Ventana de Ingreso de Materiales y Repuestos, se aprecian  sus componentes y sus respectivos contenidos.
 
-A la derecha es posible efectuar modificaciones a los ítems o ingresar nuevos.
-Para actualizar o ingresar nuevos Materiales y Repuestos al presupuesto de una OT, se
-deberán diligenciar los siguientes campos:
+A través de la ventana de Ingreso de Materiales y Repuestos se administra el Presupuesto de Materiales y Repuestos de la Orden de Trabajo.
 
-**Almacén:** Se elige el almacén dónde se encuentra el repuesto a ingresar al presupuesto.
+En la parte superior aparece el listado de los repuestos presupuestados.  En la  parte inferior,  es  posible  efectuar  modificaciones,  así  como  ingresar  nuevos  materiales  al presupuesto.
 
-**Buscar Por:** Este campo se listan las siguientes opciones para hacer la búsqueda de un Material y Repuesto: Código, Referencia, Cod. Barra Int y Cod. Barra Prov. Se habilitará una vez se elija el Almacén.
+A continuación se describen los campos que componen esta ventana; cuando se  quiera actualizar  o  ingresar  nuevos  Materiales  y  Repuestos  al  presupuesto de  una  **OT**,  se deberán diligenciar los siguientes campos:
 
-**M y R:** Este campo se habilita una vez se haya seleccionado el Almacén. Existen dos formas de seleccionar el Repuesto:
+**Al macén:** Se elige el almacén dónde se encuentra el repuesto a ingresar al presupuesto.
 
-La primera consiste de forma manual solo digitando el valor correspondiente al código,
-referencia, código de barras interno o proveedor del Material y Repuesto.
+**Repuesto:** En este campo se digita directamente el código del repuesto a  presupuestar. Si no se ha seleccionado un almacén, no es posible seleccionar el repuesto. También puede elegirse el repuesto, al hacer clic en los binoculares,  y seleccionado el repuesto desde la lista. Una vez elegido el repuesto, aparece su descripción al lado derecho del código.
 
-La segunda consiste en buscar el Material y Repuesto, a través del visor de Material y
-Repuesto. Para ello se da un clic sobre el icono de filtro de Repuesto (icono de color azul). Acto seguido se muestra la ventana de visor de Repuesto con la posibilidad de hacer allí subgrupos. Una vez se encuentra el Repuesto, se selecciona dando un clic sobre cualquiera de sus campos, seguidamente un clic sobre el botón “Aceptar” de esa ventana o también es posible seleccionarlo dando doble clic sobre el registro seleccionado. Inmediatamente ese código aparece en el campo de M y R y automáticamente se actualizan los campos de UM y Valor Unitario.
+**Descripción:** Es   un  campo de  solo   lectura,  que   muestra la  descripción del  repuesto seleccionado.
 
-**Descripción M y R:** Es un campo de solo lectura, que muestra la descripción del material y repuesto seleccionado.
+**Tipo de trabajo:** Este campo muestra el Tipo de Trabajo para el cual se presupuesta el
+Material o Repuesto.
+
+**Unidad de Medida:** Es un campo de solo lectura que muestra la unidad de consumo del repuesto seleccionado.
 
 **Cantidad:** Es la cantidad presupuestada para el repuesto seleccionado.
 
-**Unidad de Medida:** Es un campo de solo lectura que muestra la unidad de consumo del
-repuesto seleccionado.
-
-**Vlr. Unitario:** Es el valor unitario del repuesto seleccionado. AM sugiere el valor unitario ya establecido del Repuesto en cuestión, sin embargo, puede cambiarse.
-
-**TT:** Este campo de solo lectura, muestra el TT para el cual se presupuesta el Material o
-Repuesto.
-
-**Vlr. Total:** Este campo es informativo y es calculado por el sistema, contiene el valor total del presupuesto para ese Repuesto. Es el producto entre el Vlr. Unitario y la Cantidad.
-Una vez se diligencien estos campos se da clic en el ícono de Más (+) para agregar, como se muestra a continuación: 
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img13.png)
-_**Imagen 82.** Órdenes - Adicionar Materiales y Repuestos_ 
-
-Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón "Actualizar Mano de Obra Interna.
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img08.png)
-_**Imagen 83.** Órdenes - Actualizar Materiales y Repuestos_ 
-
-Una vez terminado el proceso, hacer clic en el botón “Ir a Matriz” para regresar a la ventana
-principal de Presupuesto.
-
-Por otro lado, para eliminar un registro de la tabla de Material y Repuesto, se selecciona el
-registro y luego se da clic al ícono de eliminar (basura), sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en Aceptar como se muestra en la siguiente imagen:
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img08.png)
-_**Imagen 84.** Órdenes - Eliminar Materiales y Repuestos_
+**Valor Unitario:** Es el valor unitario del repuesto seleccionado.  AM sugiere el valor unitario ya establecido del Repuesto en cuestión, sin embargo puede cambiarse.
 
 **Ingresar otros Conceptos**
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img08.png)
-_**Imagen 85.** Órdenes - Otros Conceptos de Costo_
+![Ventana Detalle](manualAM/0.images/cap11/chp11_img09.png)
 
-A través esta ventana de Ingreso de Otros Conceptos se administra el Presupuesto de Otros Conceptos de la OT.
+En   la  gráfica  anterior,  Ventana  de  Ingreso  de   otros  conceptos,  se  aprecian   sus componentes y sus respectivos contenidos.
 
-A la izquierda aparece el listado de los Otros Conceptos presupuestados, a la derecha
-es posible efectuar modificaciones a los otros conceptos presupuestados, así como
-ingresar nuevos conceptos de costo al presupuesto.
+A través de la ventana de Ingreso de otros Conceptos se administra el Presupuesto de
+oros Conceptos de la Orden de Trabajo.
 
-A continuación se describen los campos que componen esta ventana; cuando se quiera actualizar o ingresar nuevos Otros Conceptos al presupuesto de una OT, se deberán
-diligenciar los siguientes campos:
+En la parte superior aparece el listado de los otros Conceptos presupuestados. En  la parte   inferior,  es   posible  efectuar  modificaciones,  así  como  ingresar  nuevos   otros Conceptos al presupuesto.
 
-**Concepto:** Es el “Otro Concepto” a presupuestar. Se selecciona descolgando la lista de otros Conceptos, traída desde su tabla en Infraestructura.
+A continuación se describen los campos que componen esta ventana; cuando se  quiera actualizar o  ingresar  nuevos  otros  Conceptos al presupuesto de  una **OT**,  se  deberán diligenciar los siguientes campos:
 
-**TT:** Este campo de solo lectura, muestra el TT para el cual se presupuestó ese Concepto
-de Costo desde su tabla en Infraestructura.
+**Concepto:** Es el otro Concepto”** a presupuestar.  Se selecciona descolgando la lista de
+otros Conceptos, traída desde su tabla en Infraestructura.
 
-**Moneda:** Este campo de solo lectura, muestra la moneda definida al otro concepto de
-costo en la tabla de Infraestructura.
+**Nro. De Unidades:** Es la cantidad del concepto seleccionado anteriormente.
 
-**Nro. Unidades**: Se define el número de unidades del Concepto de Costo seleccionado
-anteriormente.
+**Valor Unitario:** Es el valor presupuestado del **otro Concepto Costo”**. AM sugiere el valor unitario del concepto que se encuentra ingresando al sistema.
 
-**Vlr. Unitario:** Es el valor presupuestado del “Otro Concepto Costo”. AM sugiere el valor
-unitario del concepto que se encuentra ingresando al sistema.
+**Valor Total:** Es el costototal presupuestado del **otro Concepto Costo”** teniendo en  cuenta el número de unidades y el valor unitario.
 
-**Vlr. Total:** Es el costo total presupuestado del “Otro Concepto Costo” teniendo en cuenta el número de unidades y el valor unitario.
-
-Una vez se diligencien estos campos se da clic en el ícono de Mas (+) para agregar,
-como se muestra a continuación:
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img08.png)
-_**Imagen 86.** Órdenes - Adicionar Otros Conceptos de Costo_
-
-Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón "Actualizar Mano de Obra Interna.
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img08.png)
-_**Imagen 87.** Órdenes - Actualizar Otros Conceptos de Costo_
-
-Por otro lado, para eliminar un registro de la tabla de Otro Concepto de Costo, se selecciona el registro y luego se da clic al ícono de eliminar (basura), sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en Aceptar como se muestra en la siguiente imagen:
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img08.png)
-_**Imagen 88.** Órdenes - Eliminar Otros Conceptos de Costo_
-
->**Nota:** Finalmente, al hacer clic en el botón “Ir a Matriz”, se regresa a la ventana principal de Presupuesto y para que todos estos cambios queden grabados en la OT se debe dar
-clic en Actualizar.
+Al hacer clic en el botón `<a class="btn">`Ir a Matriz`</a>`, se regresa a la ventana principal de Presupuesto.
 
 ### Gasto Real
 
