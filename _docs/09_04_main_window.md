@@ -375,7 +375,7 @@ cada uno de los anteriores:
 
 **Ingresar Mano de Obra Interna**
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_02.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_03.png)
 _**Imagen 75.** Órdenes - Mano de Obra Interna_ 
 
 A través de la ventana de Ingreso de Mano de Obra Interna se administra el Presupuesto
@@ -414,15 +414,12 @@ media, se deduce entonces que entre las 2 personas se consumirá este tiempo.
 
 **Vlr. Total:** Este campo es informativo y es calculado por el sistema, contiene el valor total del presupuesto para ese Oficio. Es el producto del Vlr. Hora por H. Hombre y Minutos. Se visualiza en la tabla de Mano de Obra Interna.
 
-Una vez que se diligencian todos los campos se da clic en el ícono del Más (+),
-seguidamente, se observa que la información creada se muestra en el recuadro de la
-mano de Obra Interna, ubicada al lado izquierdo.
+Una vez que se diligencian todos los campos se da clic en el ícono del Más <span class="mdi mdi-plus-circle icon gray"></span>, seguidamente se observa que la información creada se muestra en el recuadro de la mano de Obra Interna, ubicada al lado izquierdo.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img08.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_02.png)
 _**Imagen 76.** Órdenes - Ingresar Mano de Obra Interna_ 
 
-Una vez terminado el proceso, hacer clic en el botón “Ir a Matriz” para regresar a la ventana
-principal de Presupuesto.
+Una vez terminado el proceso, hacer clic en el botón <a class="btn gray ">ir a la matriz</a> para regresar a la ventana principal de Presupuesto.
 
 Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón "Actualizar Mano de Obra Interna.
 
