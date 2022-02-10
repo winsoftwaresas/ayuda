@@ -421,13 +421,13 @@ _**Imagen 76.** Órdenes - Ingresar Mano de Obra Interna_
 
 Una vez terminado el proceso, hacer clic en el botón <a class="btn gray ">ir a la matriz</a> para regresar a la ventana principal de Presupuesto.
 
-Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón  <a class="btn gray">actualizar mano obra interna</a>
+Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón <a class="btn gray">actualizar mano obra interna</a>.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_03.png)
 _**Imagen 77.** Órdenes - Actualizar Mano de Obra Interna_ 
 
 Por otro lado, para eliminar un registro de la tabla de Mano de Obra Interna, se selecciona
-el registro y luego se da clic al icono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario de si está seguro de eliminar el registro y finalmente se da clic en Aceptar, como se muestra en la siguiente imagen:
+el registro y luego se da clic al icono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario de si está seguro de eliminar el registro y finalmente se da clic en <a class="btn">Aceptar</a>, como se muestra en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_04.png)
 _**Imagen 78.** Órdenes - Eliminar Mano de Obra Interna_ 
@@ -454,36 +454,34 @@ Especialidad.
 
 **Costo Unitario por hora/visita:** Se digita el valor unitario por hora o por visita de parte del responsable ejecutor externo para esa actividad programada, ya sea un Contratista o un Servicio Externo.
 
-Una vez que se diligencian todos los campos se da clic en el icono del Más (+), seguidamente, se observa que la información creada se muestra en el recuadro de la mano de Obra Externa, ubicada al lado izquierdo.
+Una vez que se diligencian todos los campos se da clic en el icono del Más <span class="mdi mdi-plus-circle icon white"></span>, seguidamente, se observa que la información creada se muestra en el recuadro de la mano de Obra Externa, ubicada al lado izquierdo.
 
-Una vez terminado el proceso, hacer clic en el botón “Ir a Matriz” para regresar a la ventana
+Una vez terminado el proceso, hacer clic en el botón <a class="btn gray">ir a Matriz</a> para regresar a la ventana
 principal de Presupuesto.
 
-Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón "Actualizar Mano de Obra Interna.
+Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón <a class="btn gray">actualizar mano obra externa</a>.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img08.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_06.png)
 _**Imagen 80.** Órdenes - Actualizar Mano de Obra Externa_ 
 
-Una vez terminado el proceso, hacer clic en el botón “Ir a Matriz” para regresar a la ventana
+Una vez terminado el proceso, hacer clic en el botón <a class="btn gray">ir a Matriz</a>. para regresar a la ventana
 principal de Presupuesto.
 
-Por otro lado, para eliminar un registro de la tabla de Mano de Obra Externa, se selecciona
-el registro y luego se da clic al icono de eliminar (basura), sale un mensaje de alerta que indica al usuario de si está seguro de eliminar el registro y finalmente se da clic en Aceptar, como se muestra en la siguiente imagen:
+Por otro lado, para eliminar un registro de la tabla de Mano de Obra Externa, se selecciona el registro y luego se da clic al icono de eliminar <span class="mdi mdi-delete"></span> sale un mensaje de alerta que indica al usuario de si está seguro de eliminar el registro y finalmente se da clic en <a class="btn">Aceptar</a>, como se muestra en la siguiente imagen:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img011.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_07.png)
 _**Imagen 81.** Órdenes - Eliminar Mano de Obra Externa_ 
 
 **Ingresar Materiales y Repuestos**
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img12.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_09.png)
 _**Imagen 81.** Órdenes - Materiales y Repuestos_ 
 
 A través de la ventana de Ingreso de Materiales y Repuestos se administra el Presupuesto de Materiales y Repuestos de la OT.
 A la izquierda aparece el listado de los Almacenes y Materiales y Repuestos presupuestados.
 
 A la derecha es posible efectuar modificaciones a los ítems o ingresar nuevos.
-Para actualizar o ingresar nuevos Materiales y Repuestos al presupuesto de una OT, se
-deberán diligenciar los siguientes campos:
+Para actualizar o ingresar nuevos Materiales y Repuestos al presupuesto de una OT, se deberán diligenciar los siguientes campos:
 
 **Almacén:** Se elige el almacén dónde se encuentra el repuesto a ingresar al presupuesto.
 
