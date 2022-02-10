@@ -78,7 +78,7 @@ Equipo que se ha ya establecido en la ficha técnica de este m ismo.
 
 **Incluido en TE (RI):** Al seleccionar esta opción, en el campo **“Solicitante”** solo se despliegan los Terceros o Responsables Internos existentes en la tabla de Terceros en infraestructura.
 
-**Correo Electrónico:** En este campo se define el correo electrónico del Solicitante de la **OT**, cuando el solicitante es digitado manualmente. Si el solicitante se selecciona con la opción **“Incluido en Terceros”** y allí se tiene definido el correo electrónico, automáticamente se carga a este campo el e-mail definido en el módulo de Terceros. 
+**Correo Electrónico:** En este campo se define el correo electrónico del Solicitante de la OT, cuando el solicitante es digitado manualmente. Si el solicitante se selecciona con la opción **“Incluido en Terceros”** y allí se tiene definido el correo electrónico, automáticamente se carga a este campo el e-mail definido en el módulo de Terceros. 
 
 **Centro de Costo:** Es el Centro de Costo asignado a la Órden de Trabajo, que corresponde a uno de los Centros de Costo predefinidos en la tabla respectiva y que es **“Responsable”** del pago de los consumos de Gasto Real que dicha OT genere. Inicialmente, se sugiere el Centro de Costo que tiene asociado el Equipo Objeto de Mantenimiento, aun así, puede cambiarse.
 
@@ -92,7 +92,7 @@ Equipo que se ha ya establecido en la ficha técnica de este m ismo.
 
 **Filtrar por CR:** Al seleccionar esta opción, en el campo **“Responsable”** solo se despliegan los Responsables correspondientes al Centro Responsable elegido en la opción **“C. Responsable”**. En otro  caso, en el campo  **“Responsable”** se despliegan  todos los  **“Responsables”** existentes en la tabla respectiva.
 
-**Contrato:** En este campo se selecciona  el  contrato que pertenece al Contratista responsable de ejecutar la Órden de Trabajo.
+**Contrato:** En este campo se selecciona  el  contrato que pertenece al Contratista responsable de ejecutar la OT.
 
 **Responsable por la institución:** En este campo se elige a la persona de la institución, que acompañará y/o recibirá la labor prestada por el Responsable ejecutor, cuando este sea un Contratista o Servicio Externo.
 
@@ -195,7 +195,7 @@ Los campos de datos que constituyen criterio de selección, se agrupan en dos bl
 
 **Causa de Falla:** Permite buscar las OT que tienen una Causa de Falla específica. Existen dos formas de definir la Causa de Falla de la OT. La primera es seleccionándola de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span>  el cual se desactiva <span class="mdi mdi-lock-open-outline"></span> permitiendo digitar segmentos del nombre de la Causa de Falla utilizando comodines (%) que buscan las OT cuya Causa de Falla tenga parte del nombre igual.
 
-**Centro de Costo:** Filtrar OT de acuerdo con el Centro de Costo asignado a ella. Existen dos formas de definir el Centro de Costo. La primera es seleccionándolo de la lista desplegable. La segunda es dando clic al icono de candado  <span class="mdi mdi-lock"></span> el cual se desactiva <span class="mdi mdi-lock-open-outline"></span> permitiendo digitar segmentos del nombre del Centro de Costo a través del uso de comodines (%). Cuando se utilizan comodines, es posible seleccionar las OT a Centros de Costo que tengan parte del nombre igual. Por ejemplo: Sistema% selecciona todas las OT en cuyo Centro de Costo exista la palabra Sistema, independiente de si se está hablando del Sistema de Agua, de Vapor o de Energía.
+**Centro de Costo:** Filtrar OT de acuerdo con el Centro de Costo asignado a ella. Existen dos formas de definir el Centro de Costo. La primera es seleccionándolo de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span> el cual se desactiva <span class="mdi mdi-lock-open-outline"></span> permitiendo digitar segmentos del nombre del Centro de Costo a través del uso de comodines (%). Cuando se utilizan comodines, es posible seleccionar las OT a Centros de Costo que tengan parte del nombre igual. Por ejemplo: Sistema% selecciona todas las OT en cuyo Centro de Costo exista la palabra Sistema, independiente de si se está hablando del Sistema de Agua, de Vapor o de Energía.
 
 **Centro Responsable:** Agrupa las OT cuyo Centro Responsable sea el seleccionado. Existen dos formas de definir el Centro Responsable. La primera es seleccionándolo de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span> el cual se desactiva <span class="mdi mdi-lock-open-outline"></span> y permite digitar segmentos del nombre del Centro Responsable utilizando comodines(%).
 
@@ -375,7 +375,7 @@ cada uno de los anteriores:
 
 **Ingresar Mano de Obra Interna**
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_03.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_02.png)
 _**Imagen 75.** Órdenes - Mano de Obra Interna_ 
 
 A través de la ventana de Ingreso de Mano de Obra Interna se administra el Presupuesto
@@ -403,8 +403,7 @@ Interna una vez se haya escogido el Oficio.
 Oficio descrito.
 
 **Minutos:** Es el número de Minutos, que junto con las horas, conforman el tiempo total
-presupuestado. Así, si se desea presupuestar 4 horas y media de un oficio, debe ponerse “4”
-en el campo “H. Hombre”, y “30” en el c ampo “MM”.
+presupuestado. Así, si se desea presupuestar 4 horas y media de un oficio, debe ponerse “4” en el campo “H. Hombre”, y “30” en el campo “MM”.
 
 **Personas:** Este campo indica cuántas personas van a desempeñar la labor. Retomando el ejemplo anterior, si se ingresa “2” en este campo, se está diciendo que 2 personas van a
 desempeñar el oficio. Como ya se definió que el total de tiempo requerido son 4 horas y
@@ -414,80 +413,74 @@ media, se deduce entonces que entre las 2 personas se consumirá este tiempo.
 
 **Vlr. Total:** Este campo es informativo y es calculado por el sistema, contiene el valor total del presupuesto para ese Oficio. Es el producto del Vlr. Hora por H. Hombre y Minutos. Se visualiza en la tabla de Mano de Obra Interna.
 
-Una vez que se diligencian todos los campos se da clic en el ícono del Más <span class="mdi mdi-plus-circle icon gray"></span>, seguidamente se observa que la información creada se muestra en el recuadro de la mano de Obra Interna, ubicada al lado izquierdo.
+Una vez que se diligencian todos los campos se da clic en el ícono del Más <span class="mdi mdi-plus-circle icon white"></span>, seguidamente se observa que la información creada se muestra en el recuadro de la mano de Obra Interna, ubicada al lado izquierdo.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_02.png)
 _**Imagen 76.** Órdenes - Ingresar Mano de Obra Interna_ 
 
 Una vez terminado el proceso, hacer clic en el botón <a class="btn gray ">ir a la matriz</a> para regresar a la ventana principal de Presupuesto.
 
-Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón "Actualizar Mano de Obra Interna.
+Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón <a class="btn gray">actualizar mano obra interna</a>.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img08.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_03.png)
 _**Imagen 77.** Órdenes - Actualizar Mano de Obra Interna_ 
 
 Por otro lado, para eliminar un registro de la tabla de Mano de Obra Interna, se selecciona
-el registro y luego se da clic al icono de eliminar (basura), sale un mensaje de alerta que indica al usuario de si está seguro de eliminar el registro y finalmente se da clic en Aceptar, como se muestra en la siguiente imagen:
+el registro y luego se da clic al icono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario de si está seguro de eliminar el registro y finalmente se da clic en <a class="btn">Aceptar</a>, como se muestra en la siguiente imagen:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img08.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_04.png)
 _**Imagen 78.** Órdenes - Eliminar Mano de Obra Interna_ 
 
 **Ingresar Mano de Obra Externa**
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img08.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_05.png)
 _**Imagen 79.** Órdenes - Mano de Obra Externa_ 
 
-A través de la ventana de Ingreso de Mano de Obra Externa se administra el Presupuesto de
-Mano de Obra Externa de la OT.
+A través de la ventana de Ingreso de Mano de Obra Externa se administra el Presupuesto de Mano de Obra Externa de la OT.
 
-Es importante resaltar que el presupuesto de Mano de Obra Externa de una OT, se prepara a
-nivel de la Especialidad (Oficio) del Responsable Externo, es decir, no se tiene en cuenta a la persona natural o jurídica que va a realizar la labor, pues se trata de un presupuesto y no se conoce a ciencia cierta, en la mayoría de los casos, quiénes serán los encargados de ejecutar la labor.
+Es importante resaltar que el presupuesto de Mano de Obra Externa de una OT, se prepara a nivel de la Especialidad (Oficio) del Responsable Externo, es decir, no se tiene en cuenta a la persona natural o jurídica que va a realizar la labor, pues se trata de un presupuesto y no se conoce a ciencia cierta, en la mayoría de los casos, quiénes serán los encargados de ejecutar la labor.
 
 A la izquierda aparece el listado de los oficios o especialidades presupuestados, a la derecha es posible efectuar modificaciones a los ítems presupuestados o nuevos ingresos de oficios al presupuesto.
 
-Para hacer actualizaciones o ingresar nuevas especialidades al Presupuesto de la OT se
-deben diligenciar los campos que componen esta ventana:
+Para hacer actualizaciones o ingresar nuevas especialidades al Presupuesto de la OT se  deben diligenciar los campos que componen esta ventana:
 
 **CR:** Es el centro responsable al que pertenece el Oficio o Especialidad presupuestado. Es un campo de solo lectura, que se establece automáticamente al seleccionar el Oficio o
 Especialidad.
 
 **OF:** Lista los Oficios o Especialidades definidos en el módulo de Infraestructura. Aquí se escoge el Oficio o la Especialidad a presupuestar.
 
-**TT:** Muestra de manera automática el TT que tiene configurado el Oficio o Especialidad
-seleccionado. Es un campo de solo lectura, que se establece automáticamente en el recuadro de Mano de Obra Externa una vez se haya escogido el Oficio o Especialidad.
+**TT:** Muestra de manera automática el TT que tiene configurado el Oficio o Especialidad seleccionado. Es un campo de solo lectura, que se establece automáticamente en el recuadro de Mano de Obra Externa una vez se haya escogido el Oficio o Especialidad.
 
 **Costo Unitario por hora/visita:** Se digita el valor unitario por hora o por visita de parte del responsable ejecutor externo para esa actividad programada, ya sea un Contratista o un Servicio Externo.
 
-Una vez que se diligencian todos los campos se da clic en el icono del Más (+), seguidamente, se observa que la información creada se muestra en el recuadro de la mano de Obra Externa, ubicada al lado izquierdo.
+Una vez que se diligencian todos los campos se da clic en el icono del Más <span class="mdi mdi-plus-circle icon white"></span>, seguidamente, se observa que la información creada se muestra en el recuadro de la mano de Obra Externa, ubicada al lado izquierdo.
 
-Una vez terminado el proceso, hacer clic en el botón “Ir a Matriz” para regresar a la ventana
+Una vez terminado el proceso, hacer clic en el botón <a class="btn gray">ir a Matriz</a> para regresar a la ventana
 principal de Presupuesto.
 
-Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón "Actualizar Mano de Obra Interna.
+Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón <a class="btn gray">actualizar mano obra externa</a>.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img08.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_06.png)
 _**Imagen 80.** Órdenes - Actualizar Mano de Obra Externa_ 
 
-Una vez terminado el proceso, hacer clic en el botón “Ir a Matriz” para regresar a la ventana
+Una vez terminado el proceso, hacer clic en el botón <a class="btn gray">ir a Matriz</a>. para regresar a la ventana
 principal de Presupuesto.
 
-Por otro lado, para eliminar un registro de la tabla de Mano de Obra Externa, se selecciona
-el registro y luego se da clic al icono de eliminar (basura), sale un mensaje de alerta que indica al usuario de si está seguro de eliminar el registro y finalmente se da clic en Aceptar, como se muestra en la siguiente imagen:
+Por otro lado, para eliminar un registro de la tabla de Mano de Obra Externa, se selecciona el registro y luego se da clic al icono de eliminar <span class="mdi mdi-delete"></span> sale un mensaje de alerta que indica al usuario de si está seguro de eliminar el registro y finalmente se da clic en <a class="btn">Aceptar</a>, como se muestra en la siguiente imagen:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img011.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_07.png)
 _**Imagen 81.** Órdenes - Eliminar Mano de Obra Externa_ 
 
 **Ingresar Materiales y Repuestos**
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img12.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img0708.png)
 _**Imagen 81.** Órdenes - Materiales y Repuestos_ 
 
 A través de la ventana de Ingreso de Materiales y Repuestos se administra el Presupuesto de Materiales y Repuestos de la OT.
 A la izquierda aparece el listado de los Almacenes y Materiales y Repuestos presupuestados.
 
 A la derecha es posible efectuar modificaciones a los ítems o ingresar nuevos.
-Para actualizar o ingresar nuevos Materiales y Repuestos al presupuesto de una OT, se
-deberán diligenciar los siguientes campos:
+Para actualizar o ingresar nuevos Materiales y Repuestos al presupuesto de una OT, se deberán diligenciar los siguientes campos:
 
 **Almacén:** Se elige el almacén dónde se encuentra el repuesto a ingresar al presupuesto.
 
@@ -495,11 +488,9 @@ deberán diligenciar los siguientes campos:
 
 **M y R:** Este campo se habilita una vez se haya seleccionado el Almacén. Existen dos formas de seleccionar el Repuesto:
 
-La primera consiste de forma manual solo digitando el valor correspondiente al código,
-referencia, código de barras interno o proveedor del Material y Repuesto.
+La primera consiste de forma manual solo digitando el valor correspondiente al código, referencia, código de barras interno o proveedor del Material y Repuesto.
 
-La segunda consiste en buscar el Material y Repuesto, a través del visor de Material y
-Repuesto. Para ello se da un clic sobre el icono de filtro de Repuesto (icono de color azul). Acto seguido se muestra la ventana de visor de Repuesto con la posibilidad de hacer allí subgrupos. Una vez se encuentra el Repuesto, se selecciona dando un clic sobre cualquiera de sus campos, seguidamente un clic sobre el botón “Aceptar” de esa ventana o también es posible seleccionarlo dando doble clic sobre el registro seleccionado. Inmediatamente ese código aparece en el campo de M y R y automáticamente se actualizan los campos de UM y Valor Unitario.
+La segunda consiste en buscar el Material y Repuesto, a través del visor de Material y Repuesto. Para ello se da un clic sobre el icono de filtro de Repuesto <span class="mdi mdi-filter-variant"></span>. Acto seguido se muestra la ventana de visor de Repuesto con la posibilidad de hacer allí subgrupos. Una vez se encuentra el Repuesto, se selecciona dando un clic sobre cualquiera de sus campos, seguidamente un clic sobre el botón <a class="btn white">Aceptar</a> de esa ventana o también es posible seleccionarlo dando doble clic sobre el registro seleccionado. Inmediatamente ese código aparece en el campo de M y R y automáticamente se actualizan los campos de UM y Valor Unitario.
 
 **Descripción M y R:** Es un campo de solo lectura, que muestra la descripción del material y repuesto seleccionado.
 
@@ -514,23 +505,21 @@ repuesto seleccionado.
 Repuesto.
 
 **Vlr. Total:** Este campo es informativo y es calculado por el sistema, contiene el valor total del presupuesto para ese Repuesto. Es el producto entre el Vlr. Unitario y la Cantidad.
-Una vez se diligencien estos campos se da clic en el ícono de Más (+) para agregar, como se muestra a continuación: 
+Una vez se diligencien estos campos se da clic en el ícono de Más <span class="mdi mdi-plus-circle icon white"></span> para agregar, como se muestra a continuación: 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img13.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_08.png)
 _**Imagen 82.** Órdenes - Adicionar Materiales y Repuestos_ 
 
-Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón "Actualizar Mano de Obra Interna.
+Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón <a class="btn gray">actualizar material y repuesto/a>.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img08.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img09.png)
 _**Imagen 83.** Órdenes - Actualizar Materiales y Repuestos_ 
 
-Una vez terminado el proceso, hacer clic en el botón “Ir a Matriz” para regresar a la ventana
-principal de Presupuesto.
+Una vez terminado el proceso, hacer clic en el botón <a class="btn gray">ir a matriz</a> para regresar a la ventana principal de Presupuesto.
 
-Por otro lado, para eliminar un registro de la tabla de Material y Repuesto, se selecciona el
-registro y luego se da clic al ícono de eliminar (basura), sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en Aceptar como se muestra en la siguiente imagen:
+Por otro lado, para eliminar un registro de la tabla de Material y Repuesto, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-lock"></span> sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">Aceptar</a> como se muestra en la siguiente imagen:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img08.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img10png)
 _**Imagen 84.** Órdenes - Eliminar Materiales y Repuestos_
 
 **Ingresar otros Conceptos**
