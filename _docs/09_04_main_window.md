@@ -47,26 +47,25 @@ En la gráfica anterior, Ventana Detalle de   Órdenes de Trabajo, se aprecian s
 
 A continuación se describen los campos que componen esta ventana Detalle de Órdenes de Trabajo; además cuando se quiera ingresar una nueva OT, se deberán diligenciar los siguientes campos.
 
-**OT**: Aparece el número de OT asignado por **AM** a la Órden de Trabajo. Si se está en el proceso de creación de una OT Manual, este campo solamente muestra el Año. Una vez se crea (Insertar) la OT, **AM** asigna un consecutivo a dicha Orden.
+**OT**: Aparece el número o consecutivo asignado por **AM** al registro. Si se está en el proceso de creación de una OT Manual, este campo solamente muestra el Año. Una vez se crea (Insertar) la OT, **AM** asigna un consecutivo a dicha Orden.
 
 **F/H Creación:** Es la fecha en la cual se crea la Órden de Trabajo. En el caso de Órdenes Programadas, esta fecha es asignada automáticamente por el sistema y no es modificable, según el Programa de Mantenimiento que la genera. Para las Órdenes de Trabajo Manuales, **AM** sugiere la fecha actual del sistema (aunque puede ser modificada).
 
 **Descripción:** Es un texto corto por medio del cual se indica la naturaleza de la labor a realizar. Debe ser conciso y no dar lugar a ambigüedades, este campo tiene una longitud de 100 caracteres. Se recomienda definir la descripción bajo la siguiente norma: iniciar con un verbo en infinitivo como revisar, corregir, inspeccionar, conectar, etc., continuar con el Objeto de mantenimiento o Activo/Equipo y finalizar con un complemento explicatorio. Ejemplo: Revisar la transmisión delantera del sistema. Cambiar a los rodillos la cobertura  de caucho.
 
-**Prioridad:** Es un número de 1 a 7 que  indica la prioridad de realización de la   **OT**. Normalmente 1 significa un trabajo de gran urgencia, mientras que 7 es una labor de baja prioridad.
+**Prioridad:** Es un número de 1 a 7 que  indica la prioridad de realización de la OT. Normalmente 1 significa un trabajo de gran urgencia, mientras que 7 es una labor de baja prioridad.
 
-**F/H Programada:** En este campo se ingresa  la fecha programada para realizar la ejecución de la Órden de Trabajo.
+**F/H Programada:** En este campo se ingresa  la fecha programada para realizar la ejecución de la OT.
 
 **Referencia:** En este campo se puede ingresar el número de un documento, que  sirve como referencia o relación a la OT, ejemplo: número de una factura, número de una Orden de Compra asociada, o un documento interno de despacho de almacén, etc.
 
-**Estado:** Este campo está bloqueado y muestra el nombre del Estado de la **OT**.
+**Estado:** Este campo está bloqueado y muestra el nombre del Estado de la OT.
 
 **Código del Activo:** Aquí se establece el Objeto de Mantenimiento, ya sea digitando directamente el Código y presionando la tecla tabublar, o seleccionándolo con el ícono de filtro <span class="mdi mdi-filter-variant"></span>. Una vez se digita o se selecciona, aparece al lado derecho la Descripción del Activo/Equipo.
 
 **Descripción:** En este campo se visualiza la información de la descripción del Activo seleccionado.
 
-**Activo Fijo:** En este campo se visualiza la información del Número de Activo Fijo del
-Equipo que se ha ya establecido en la ficha técnica de este m ismo.
+**Activo Fijo:** En este campo se visualiza la información del Número de Activo Fijo del Activo/Equipo que se ha ya establecido en la ficha técnica de este mismo.
 
 **Referencia Externa (Proveedor):** En este campo se visualiza la información de la Referencia del Equipo que se ha ya establecido en la ficha técnica de este mismo.
 
@@ -78,7 +77,7 @@ Equipo que se ha ya establecido en la ficha técnica de este m ismo.
 
 **Incluido en TE (RI):** Al seleccionar esta opción, en el campo **“Solicitante”** solo se despliegan los Terceros o Responsables Internos existentes en la tabla de Terceros en infraestructura.
 
-**Correo Electrónico:** En este campo se define el correo electrónico del Solicitante de la OT, cuando el solicitante es digitado manualmente. Si el solicitante se selecciona con la opción **“Incluido en Terceros”** y allí se tiene definido el correo electrónico, automáticamente se carga a este campo el e-mail definido en el módulo de Terceros. 
+**Correo Electrónico:** En este campo se define el correo electrónico del Solicitante de la OT, cuando el solicitante es digitado manualmente. Si el solicitante se selecciona con la opción **“Incluido en TE (RI)”** y allí se tiene definido el correo electrónico, automáticamente se carga a este campo el e-mail definido en el módulo de Terceros. 
 
 **Centro de Costo:** Es el Centro de Costo asignado a la Órden de Trabajo, que corresponde a uno de los Centros de Costo predefinidos en la tabla respectiva y que es **“Responsable”** del pago de los consumos de Gasto Real que dicha OT genere. Inicialmente, se sugiere el Centro de Costo que tiene asociado el Equipo Objeto de Mantenimiento, aun así, puede cambiarse.
 
@@ -96,9 +95,9 @@ Equipo que se ha ya establecido en la ficha técnica de este m ismo.
 
 **Responsable por la institución:** En este campo se elige a la persona de la institución, que acompañará y/o recibirá la labor prestada por el Responsable ejecutor, cuando este sea un Contratista o Servicio Externo.
 
-**T. Trabajo:** Indica los Tipos de Trabajo que se realizan en la OT. Es posible definir más de un Tipo de Trabajo para una Órden.
+**T. Trabajo:** Indica los Tipos de Trabajo que se realizan en la OT. Es posible definir más de un Tipo de Trabajo para una OT.
 
-**T. Mtto:** Este campo indica el Tipo de Mantenimiento a realizar en la Órden de  Trabajo. Toda OT debe poseer uno. Si en la OT se va a registrar un trabajo que no corresponde a una labor de mantenimiento, en este campo se elige **otro”** y a continuación, en el tipo de **“Actividad”** se especifica detalladamente, el tipo de labor.
+**T. Mtto:** Este campo indica el Tipo de Mantenimiento a realizar en la Órden de  Trabajo. Toda OT debe poseer uno. Si en la OT se va a registrar un trabajo que no corresponde a una labor de mantenimiento, en este campo se elige **Otro”** y a continuación, en el tipo de **“Actividad”** se especifica detalladamente, el tipo de labor.
 
 **T. Actividad:** Aquí se establece el Tipo de Actividad a realizar en la Órden. Este campo trabaja en coordinación con el anterior (Tipo de Mantenimiento). Si en el campo anterior se ha hecho la selección de un valor diferente de **“Otro”**, en el tipo de Actividad se debe seleccionar el valor **“MN: Mantto”**, lo que indica que se trata de una actividad que constituye mantenimiento. Si en el campo anterior se ha seleccionado el valor **“Otro”**, en el campo Tipo de Actividad se debe seleccionar un valor que defina consistentemente la labor a ejecutar.
 
@@ -106,24 +105,24 @@ Equipo que se ha ya establecido en la ficha técnica de este m ismo.
 
 **T. Estimado:** Es un campo netamente informativo, e indica de manera aproximada cuánto Tiempo demora la labor. Se establece el número y a continuación el período de tiempo que representa (Días, Horas o Minutos).
 
-**Tiempo Improductivo:** En este campo lo indica la persona o personas encargadas de realizar la labor, si debe pararse el Equipo para proceder a la realización de la misma. Cuando se dice que el Equipo genera Tiempo Improductivo significa que no está en operación, y por lo tanto, posiblemente improductivo. Este campo se tiene en cuenta al momento de cerrar la **OT:** si el indicativo de Tiempo Improductivo está habilitado, el **AM** calcula y carga el Tiempo Improductivo al equipo. En caso contrario no lo hace. 
+**Tiempo Improductivo:** En este campo lo indica la persona o personas encargadas de realizar la labor, si debe pararse el Equipo para proceder a la realización de la misma. Cuando se dice que el Equipo genera Tiempo Improductivo significa que no está en operación, y por lo tanto, posiblemente improductivo. Este campo se tiene en cuenta al momento de cerrar la OT: si el indicativo de Tiempo Improductivo está habilitado, el **AM** calcula y carga el Tiempo Improductivo al equipo. En caso contrario no lo hace. 
 
 **Criterio:** Es un campo informativo que despliega el criterio utilizado por **AM** para haber generado la OT. (Solamente para Órdenes de Trabajo Programadas).
 
-**Tarea:** Este campo informativo permite establecer, a través del ordinal de la tarea  que muestra, cual fue el PM que generó la **OT** actual. Es válido solamente en el caso  de Órdenes Programadas.
+**Tarea:** Este campo informativo permite establecer, a través del ordinal de la tarea  que muestra, cual fue el PM que generó la OT actual. Es válido solamente en el caso  de Órdenes Programadas.
 
-**Control Presupuestal:** Esta opción permite definir si la Órden de Trabajo maneja Presupuesto. Para las Órdenes de Trabajo Programadas, esta opción siempre está seleccionada, pero aparece protegida, ya que  toda **OT** Programada conlleva el Presupuesto Aprobado.
+**Control Presupuestal:** Esta opción permite definir si la Órden de Trabajo maneja Presupuesto. Para las OT, esta opción siempre está seleccionada, pero aparece protegida, ya que  toda OT Programada conlleva el Presupuesto Aprobado.
 
-Para las Órdenes de Trabajo Manuales, esta  opción se establece en el momento de creación de la misma. Esta elección se debe marcar antes de darle clic al botón <a class="btn blue">insertar</a> de otra forma, **AM** asume que la **OT** no va a requerir Control Presupuestal y la posibilidad de hacer la marcación se inactiva en el acto.
+Para las Órdenes de Trabajo Manuales, esta  opción se establece en el momento de creación de la misma. Esta elección se debe marcar antes de darle clic al botón <a class="btn blue">insertar</a> de otra forma, **AM** asume que la OT no va a requerir Control Presupuestal y la posibilidad de hacer la marcación se inactiva en el acto.
 
 Cuando una Órden de Trabajo Manual exige control presupuestal y el presupuesto no ha sido aprobado, no es posible registrar ni modificar el Gasto Real en ella.
 
-**Comentarios:** Esta opción se usa para ingresar los nuevos comentarios referentes a toda la ejecución de la Órden. Al dar clic al botón <a class="btn gray">Agregar Comentario</a> aparecerá el comentario ingresado al lado derecho en una ventana tipo chat bloqueada; además de la fecha, hora y el usuario logueado que realizó el comentario.
+**Comentarios:** Esta opción se usa para ingresar los nuevos comentarios referentes a toda la ejecución de la OT. Al dar clic al botón <a class="btn gray">Agregar Comentario</a> aparecerá el comentario ingresado al lado derecho en una ventana tipo chat bloqueada; además de la fecha, hora y el usuario logueado que realizó el comentario.
 
 Este espacio de comentarios sirve para dos efectos:
 
 Cuando se genera la OT, como comentarios a priori, para especificar referencias importantes o ayudas previstas y necesarias en la ejecución posterior de la OT como planos, manuales técnicos, manuales de normas técnicas de Mantenimiento o de especificaciones detalladas; normas de seguridad o enfoques de acción. Sin embargo, en la gran mayoría de los casos se utiliza la pestaña Multimedia para registrar estos datos.
-Cuando ha concluido la ejecución de la **OT**, es posible utilizarlo para registrar hechos   interesantes acerca de la misma ejecución, como el estado del equipo antes de la intervención, detalles de la intervención, estado del mismo equipo después de ella, recomendaciones a los  usuarios del equipo, recomendaciones a las  personas de mantenimiento y otros conceptos interesantes a juicio de los ejecutantes.
+Cuando ha concluido la ejecución de la OT, es posible utilizarlo para registrar hechos interesantes acerca de la misma ejecución, como el estado del equipo antes de la intervención, detalles de la intervención, estado del mismo equipo después de ella, recomendaciones a los usuarios del equipo, recomendaciones a las personas de mantenimiento y otros conceptos interesantes a juicio de los ejecutantes.
 
 # Ventana submenú de Órdenes de trabajo
 
@@ -328,7 +327,7 @@ _**Imagen 72.** Órdenes - Ventana Detalle Acciones Técnicas_
 En la pestaña de Acciones Técnicas de la Ventana Detalle de OT aparece un nuevo recuadro en el que irán apareciendo las que se vayan adicionando a través de un botón Adicionar Acción Técnica.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img06_01.png)
-_**Imagen 73.** Órdenes - Ventana Subgrupo_ 
+_**Imagen 73.** Órdenes - Adicionar Acciones Técnicas_ 
 
 A continuación se describen los campos que componen esta ventana de información adicional:
 
@@ -455,9 +454,6 @@ Especialidad.
 
 Una vez que se diligencian todos los campos se da clic en el icono del Más <span class="mdi mdi-plus-circle icon white"></span>, seguidamente, se observa que la información creada se muestra en el recuadro de la mano de Obra Externa, ubicada al lado izquierdo.
 
-Una vez terminado el proceso, hacer clic en el botón <a class="btn gray">ir a Matriz</a> para regresar a la ventana
-principal de Presupuesto.
-
 Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón <a class="btn gray">actualizar mano obra externa</a>.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_06.png)
@@ -507,18 +503,18 @@ Repuesto.
 **Vlr. Total:** Este campo es informativo y es calculado por el sistema, contiene el valor total del presupuesto para ese Repuesto. Es el producto entre el Vlr. Unitario y la Cantidad.
 Una vez se diligencien estos campos se da clic en el ícono de Más <span class="mdi mdi-plus-circle icon white"></span> para agregar, como se muestra a continuación: 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp07_img07_08.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_08.png)
 _**Imagen 83.** Órdenes - Adicionar Materiales y Repuestos_ 
 
 Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón <a class="btn gray">actualizar material y repuesto</a>.
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp07_img09.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img09.png)
 _**Imagen 84.** Órdenes - Actualizar Materiales y Repuestos_ 
 
 Una vez terminado el proceso, hacer clic en el botón <a class="btn gray">ir a matriz</a> para regresar a la ventana principal de Presupuesto.
 
 Por otro lado, para eliminar un registro de la tabla de Material y Repuesto, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-lock"></span> sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">Aceptar</a> como se muestra en la siguiente imagen:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp07_img07png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_10.png)
 _**Imagen 85.** Órdenes - Eliminar Materiales y Repuestos_
 
 **Ingresar otros Conceptos**
