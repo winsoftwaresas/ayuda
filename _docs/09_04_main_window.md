@@ -519,13 +519,12 @@ _**Imagen 85.** Órdenes - Eliminar Materiales y Repuestos_
 
 **Ingresar otros Conceptos**
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp07_img08.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_11.png)
 _**Imagen 86.** Órdenes - Otros Conceptos de Costo_
 
 A través esta ventana de Ingreso de Otros Conceptos se administra el Presupuesto de Otros Conceptos de la OT.
 
-A la izquierda aparece el listado de los Otros Conceptos presupuestados, a la derecha
-es posible efectuar modificaciones a los otros conceptos presupuestados, así como
+A la izquierda aparece el listado de los Otros Conceptos presupuestados, a la derecha es posible efectuar modificaciones a los otros conceptos presupuestados, así como
 ingresar nuevos conceptos de costo al presupuesto.
 
 A continuación se describen los campos que componen esta ventana; cuando se quiera actualizar o ingresar nuevos Otros Conceptos al presupuesto de una OT, se deberán
