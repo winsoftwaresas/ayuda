@@ -507,7 +507,7 @@ Una vez se diligencien estos campos se da clic en el ícono de Más <span class=
 _**Imagen 83.** Órdenes - Adicionar Materiales y Repuestos_ 
 
 Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón <a class="btn gray">actualizar material y repuesto</a>.
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img09.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_09.png)
 _**Imagen 84.** Órdenes - Actualizar Materiales y Repuestos_ 
 
 Una vez terminado el proceso, hacer clic en el botón <a class="btn gray">ir a matriz</a> para regresar a la ventana principal de Presupuesto.
@@ -549,17 +549,17 @@ unitario del concepto que se encuentra ingresando al sistema.
 Una vez se diligencien estos campos se da clic en el ícono de Mas (+) para agregar,
 como se muestra a continuación:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp07_img08.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_08.png)
 _**Imagen 86.** Órdenes - Adicionar Otros Conceptos de Costo_
 
 Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón "Actualizar Mano de Obra Interna.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp07_img09.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_09.png)
 _**Imagen 87.** Órdenes - Actualizar Otros Conceptos de Costo_
 
 Por otro lado, para eliminar un registro de la tabla de Otro Concepto de Costo, se selecciona el registro y luego se da clic al ícono de eliminar (basura), sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en Aceptar como se muestra en la siguiente imagen:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp07_img10.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_10.png)
 _**Imagen 88.** Órdenes - Eliminar Otros Conceptos de Costo_
 
 >**Nota:** Finalmente, al hacer clic en el botón “Ir a Matriz”, se regresa a la ventana principal de Presupuesto y para que todos estos cambios queden grabados en la OT se debe dar
