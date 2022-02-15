@@ -368,9 +368,7 @@ _**Imagen 74.** Órdenes - Presupuesto_
 
 En esta ventana se resumen los totales de los costos presupuestados de Mano de Obra
 Interna, Mano de Obra Externa, Materiales y Repuestos y Otros Conceptos de Costo, para
-acceder a cada uno de ellos se da un clic en el botón acorde a lo que se necesite ingresar y
-se obtiene una ventana detalle, a continuación se explica detalladamente como ingresar
-cada uno de los anteriores:
+acceder a cada uno de ellos se da un clic en el botón acorde a lo que se necesite ingresar en su respectiva ventana detalle, a continuación se explica detalladamente como ingresarlos:
 
 **Ingresar Mano de Obra Interna**
 
@@ -387,8 +385,7 @@ quiénes serán los encargados de ejecutar la labor.
 
 En la izquierda de la ventana aparece un pequeño listado de los oficios presupuestados para la OT activa. A la derecha, es posible efectuar modificaciones, así como ingresar nuevos oficios al presupuesto.
 
-A continuación se describen los campos que componen esta ventana; cuando se quiera
-actualizar o ingresar nuevos oficios al presupuesto de una OT, se deberán diligenciar los siguientes campos:
+A continuación se describen los campos que componen esta ventana; cuando se quiera actualizar o ingresar nuevos oficios al presupuesto de una OT, se deberán diligenciar los siguientes campos:
 
 **CR:** Es el centro responsable al que pertenece el oficio presupuestado. Es un campo de solo lectura, que se establece automáticamente al seleccionar el oficio.
 
@@ -398,8 +395,7 @@ actualizar o ingresar nuevos oficios al presupuesto de una OT, se deberán dilig
 campo de solo lectura, que se establece automáticamente en el recuadro de Mano de Obra
 Interna una vez se haya escogido el Oficio.
 
-**H. Hombre:** Número de horas hombre requeridas presupuestadas según el
-Oficio descrito.
+**H. Hombre:** Número de horas hombre requeridas presupuestadas según el Oficio descrito.
 
 **Minutos:** Es el número de Minutos, que junto con las horas, conforman el tiempo total
 presupuestado. Así, si se desea presupuestar 4 horas y media de un oficio, debe ponerse “4” en el campo “H. Hombre”, y “30” en el campo “MM”.
@@ -469,7 +465,7 @@ _**Imagen 81.** Órdenes - Eliminar Mano de Obra Externa_
 
 **Ingresar Materiales y Repuestos**
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img0708.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_08.png)
 _**Imagen 82.** Órdenes - Materiales y Repuestos_ 
 
 A través de la ventana de Ingreso de Materiales y Repuestos se administra el Presupuesto de Materiales y Repuestos de la OT.
@@ -501,21 +497,20 @@ repuesto seleccionado.
 Repuesto.
 
 **Vlr. Total:** Este campo es informativo y es calculado por el sistema, contiene el valor total del presupuesto para ese Repuesto. Es el producto entre el Vlr. Unitario y la Cantidad.
-Una vez se diligencien estos campos se da clic en el ícono de Más <span class="mdi mdi-plus-circle icon white"></span> para agregar, como se muestra a continuación: 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_08.png)
-_**Imagen 83.** Órdenes - Adicionar Materiales y Repuestos_ 
+Una vez se diligencien estos campos se da clic en el ícono de Más <span class="mdi mdi-plus-circle icon white"></span> para agregar como se muestra en la imagen anterior. 
 
 Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón <a class="btn gray">actualizar material y repuesto</a>.
+
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_09.png)
-_**Imagen 84.** Órdenes - Actualizar Materiales y Repuestos_ 
+_**Imagen 83.** Órdenes - Actualizar Materiales y Repuestos_ 
 
 Una vez terminado el proceso, hacer clic en el botón <a class="btn gray">ir a matriz</a> para regresar a la ventana principal de Presupuesto.
 
 Por otro lado, para eliminar un registro de la tabla de Material y Repuesto, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-lock"></span> sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">Aceptar</a> como se muestra en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_10.png)
-_**Imagen 85.** Órdenes - Eliminar Materiales y Repuestos_
+_**Imagen 84.** Órdenes - Eliminar Materiales y Repuestos_
 
 **Ingresar otros Conceptos**
 
