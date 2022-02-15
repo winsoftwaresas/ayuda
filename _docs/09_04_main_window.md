@@ -515,7 +515,7 @@ _**Imagen 84.** Órdenes - Eliminar Materiales y Repuestos_
 **Ingresar otros Conceptos**
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_11.png)
-_**Imagen 86.** Órdenes - Otros Conceptos de Costo_
+_**Imagen 85.** Órdenes - Otros Conceptos de Costo_
 
 A través esta ventana de Ingreso de Otros Conceptos se administra el Presupuesto de Otros Conceptos de la OT.
 
