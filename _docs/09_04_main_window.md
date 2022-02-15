@@ -541,24 +541,20 @@ unitario del concepto que se encuentra ingresando al sistema.
 
 **Vlr. Total:** Es el costo total presupuestado del “Otro Concepto Costo” teniendo en cuenta el número de unidades y el valor unitario.
 
-Una vez se diligencien estos campos se da clic en el ícono de Mas (+) para agregar,
-como se muestra a continuación:
+Una vez se diligencien estos campos se da clic en el ícono de Más <span class="mdi mdi-plus-circle icon white"></span> para agregar.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_08.png)
-_**Imagen 86.** Órdenes - Adicionar Otros Conceptos de Costo_
+Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón <a class="btn gray">actualizar otro concepto</a>, como se muestra continuación:
 
-Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón "Actualizar Mano de Obra Interna.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_12.png)
+_**Imagen 86.** Órdenes - Actualizar Otro Concepto de Costo_
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_09.png)
-_**Imagen 87.** Órdenes - Actualizar Otros Conceptos de Costo_
+Por otro lado, para eliminar un registro de la tabla de Otro Concepto de Costo, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, mostrando un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
 
-Por otro lado, para eliminar un registro de la tabla de Otro Concepto de Costo, se selecciona el registro y luego se da clic al ícono de eliminar (basura), sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en Aceptar como se muestra en la siguiente imagen:
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_13.png)
+_**Imagen 87.** Órdenes - Eliminar Otro Concepto de Costo_
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_10.png)
-_**Imagen 88.** Órdenes - Eliminar Otros Conceptos de Costo_
-
->**Nota:** Finalmente, al hacer clic en el botón “Ir a Matriz”, se regresa a la ventana principal de Presupuesto y para que todos estos cambios queden grabados en la OT se debe dar
-clic en Actualizar.
+>**Nota:** Finalmente, al hacer clic en el botón <a class="btn gray">ir a la matriz</a>, se regresa a la ventana principal de Presupuesto y para que todos estos cambios queden grabados en la OT se debe dar
+clic en <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a>.
 
 ### Gasto Real
 
