@@ -558,12 +558,18 @@ clic en <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a>.
 
 ### Gasto Real
 
-![Ventana Detalle](manualAM/0.images/cap11/chp11_img10.png)
+Para ingresar a esta opción, se debe dar clic en la pestaña “Gasto Real” de la ventana detalle de OT.
+Los datos de Gasto Real se pueden registrar en una OT en cualquier momento, mientras esa OT no exija Control Presupuestal. Pero si la OT exige Control Presupuestal, solo se puede registrar el Gasto Real después de haber aprobado el Presupuesto, en cuyo caso, ya no es posible modificarlo. Una vez aprobado, este Presupuesto debe pasarse al Gasto Real a través del botón <a class="btn gray">pasar el presupuesto al gasto real</a> como se muestra a continuación:
 
-En  la  gráfica anterior,  Ventana de  Gasto  Real, se  aprecian sus  componentes y sus respectivos contenidos.
+(https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_14.png)
+_**Imagen 88.** Órdenes - Gasto Real_
 
-A través de la ventana de Gasto Real se puede administrar el Gasto Real de la Orden de
-Trabajo. Esta ventana está compuesta por dos zonas,
+Una vez que se traslada el Presupuesto al Gasto Real, el sistema muestra un mensaje de confirmación y la ventana de Gasto Real se visualiza de la siguiente manera:
+
+(https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_15.png
+_**Imagen 89.** Órdenes - Pasar Presupuesto a Gasto Real_
+
+A través de la ventana de Gasto Real se puede administrar el Gasto Real de la OT. Esta ventana está compuesta por dos zonas,
 
 En la zona superior, aparece la matriz de Gasto Real, que resume los costos reales para la **OT**, discriminando por  Tipo de Trabajo (En  las  filas),  y por Tipo de  Consumo (En las columnas). La  última  fila   y  la   última columna de  la  matriz, discriminan la  diferencia contra el  Presupuesto, conformando así el Control Presupuestal de la **OT**. Aparecen también botones para ingresar Mano de Obra, Materiales y Repuestos, y otros Conceptos.
 
