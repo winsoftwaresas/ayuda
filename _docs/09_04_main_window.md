@@ -9,14 +9,14 @@ order: 09_04
 date: 2022-02-10T14:45:29.041Z
 ---
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img02.png)
-_**Imagen 67.** Órdenes - Acceso directo_
+***Imagen 67.** Órdenes - Acceso directo*
 
 Se accede desde el comando <a class="btn blue">órdenes</a> en la barra de menú principal de **AM**. A través de esta ventana se permite crear Órdenes de Trabajo manuales y Administrar la totalidad de las Órdenes activas, Pendientes de Ejecución, o listas para ser enviadas a Historia. Igualmente, desde esta ventana se Administran las Órdenes de Trabajo Programadas (las que se generan desde Programas de Mantenimiento), a continuación se ilustran las porciones que la componen:
 
 ## Ventana Visor
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img03.png)
-_**Imagen 68.** Órdenes - Ventana Visor_
+***Imagen 68.** Órdenes - Ventana Visor*
 
 Desde esta ventana es posible observar la lista de las Órdenes de Trabajo existentes o un subconjunto de ellas (efectuado a través de un subgrupo <span class="mdi mdi-filter-variant"></span>). Se puede hacer clic en alguna de ellas, para visualizar la información completa de la Orden en una nueva ventana (Ventana Detalle).
 
@@ -41,7 +41,7 @@ La definición de colores está definida, según la siguiente convención:
 ## Ventana Detalle
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img04.png)
-_**Imagen 69.** Órdenes - Ventana Detalle_
+***Imagen 69.** Órdenes - Ventana Detalle*
 
 En la gráfica anterior, Ventana Detalle de   Órdenes de Trabajo, se aprecian sus componentes y sus respectivos contenidos. En esta ventana Detalle se encuentra la información relevante a la OT seleccionada en el Visor. A través de ella se Administran los datos genéricos de la Órden de Trabajo. Es desde esta ventana que se crean Órdenes de Trabajo Manuales.
 
@@ -131,15 +131,16 @@ Cuando ha concluido la ejecución de la OT, es posible utilizarlo para registrar
 Es posible saber cuáles OT son de tipo Metrología, Preventiva/Programada, Correctiva y Cerrada Parcial, si tienen Multimedia y Servicio Evaluado directamente desde la ventana visor, sobreponiendo el cursor en el ícono de Indicadores <span class="mdi mdi-message-alert"></span> ubicado en la parte superior derecha de la ventana mostrando un conjunto de pelotas de colores que indican el tipo de información definida y asociada, como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img04_1.png)
-_**Imagen 70.** Órdenes - Ventana Detalle_
+***Imagen 70.** Órdenes - Ventana Detalle*
 
 El significado de los colores es el siguiente:
-- **Naranja:** Órden que tiene asociado archivos de imágenes, videos y/o documentos en la pestaña Multimedia.
-- **Azul:** Órden con servicio evaluado.
-- **Amarillo:** Órden de TM Metrología.
-- **Verde:** Órden de TM Preventivo o Programada.
-- **Rojo:** Órden de TM Correctivo.
-- **Azul Oscuro:** OT en estado Cerrada Parcial.
+
+* **Naranja:** Órden que tiene asociado archivos de imágenes, videos y/o documentos en la pestaña Multimedia.
+* **Azul:** Órden con servicio evaluado.
+* **Amarillo:** Órden de TM Metrología.
+* **Verde:** Órden de TM Preventivo o Programada.
+* **Rojo:** Órden de TM Correctivo.
+* **Azul Oscuro:** OT en estado Cerrada Parcial.
 
 ## Subgrupos
 
@@ -154,7 +155,7 @@ Cada criterio aparece inicializado en un valor global que permite mostrar todas 
 El programa permite entonces hacer selección de un grupo de OT de acuerdo con los criterios seleccionados en la siguiente ventana:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img05.png)
-_**Imagen 71.** Órdenes - Ventana Subgrupo_
+***Imagen 71.** Órdenes - Ventana Subgrupo*
 
 Los campos de datos que constituyen criterio de selección, se agrupan en dos bloques:
 
@@ -202,22 +203,22 @@ Los campos de datos que constituyen criterio de selección, se agrupan en dos bl
 
 **Criterio de Generación:** Permite filtrar el subconjunto de OT generadas desde PM, bajo el Criterio de Programación “XX” seleccionado. Los criterios son:
 
-| **Abreviatura**      | **Significado**          |
-| -------------------------- | ------------------------------ |
-| **MM**               | Mensual                        |
-| **SS**               | Semanal                        |
-| **SM**               | Semestral                      |
-| **AN**               | Anual                          |
-| **DD**               | Días (Mín. 3)               |
-| **SA**               | Semanas del año               |
-| **+M**               | Meses (mas de uno)            |
-| **+S**               | Semanas (mas de una)          |
-| **KI**               | Contador por Incremento        |
-| **KL**               | Contador por Límite           |
-| **FK**               | Frecuencia y Contador|
-| **TM**               | Trimestral        |
-| **+K** | Contador (mas de uno)                 |
-| **??** | Sin Criterio                   |
+| **Abreviatura** | **Significado**         |
+| --------------- | ----------------------- |
+| **MM**          | Mensual                 |
+| **SS**          | Semanal                 |
+| **SM**          | Semestral               |
+| **AN**          | Anual                   |
+| **DD**          | Días (Mín. 3)           |
+| **SA**          | Semanas del año         |
+| **+M**          | Meses (mas de uno)      |
+| **+S**          | Semanas (mas de una)    |
+| **KI**          | Contador por Incremento |
+| **KL**          | Contador por Límite     |
+| **FK**          | Frecuencia y Contador   |
+| **TM**          | Trimestral              |
+| **+K**          | Contador (mas de uno)   |
+| **??**          | Sin Criterio            |
 
 **Descripción:** Esta opción permite seleccionar las OT que cumplan con el criterio de selección establecido en este campo, es posible utilizar la funcionalidad de comodines (%). 
 
@@ -245,9 +246,9 @@ Los campos de datos que constituyen criterio de selección, se agrupan en dos bl
 
 **Gasto Real Mano de Obra:** Esta opción habilita una lista desplegable donde se escoge el criterio deseado, junto con un campo donde se digita el valor de comparación. Los criterios son:
 
-- **Igual (=)**
-- **Mayor (>)**
-- **Menor (<)**
+* **Igual (=)**
+* **Mayor (>)**
+* **Menor (<)**
 
 Estos criterios actúan en comparación con el valor digitado en el campo que se activa al lado del operador aritmético. Ejemplo:
 Si se escoge el criterio Mayor (>) y la cantidad  es 100.000, eso significa que filtrara todas las OT cuyo Gasto Real en la Mano de Obra sea Mayor a Cien Mil Pesos o unidades monetarias.
@@ -255,17 +256,18 @@ Si se escoge el criterio Mayor (>) y la cantidad  es 100.000, eso significa que 
 **Gasto Real Materiales y Repuestos:** Esta opción habilita una lista despegable donde se escoge el criterio deseado, junto con un campo donde se digita el valor de comparación.
 Los criterios son:
 
-- **Igual (=)**
-- **Mayor (>)**
-- **Menor (<)**
+* **Igual (=)**
+* **Mayor (>)**
+* **Menor (<)**
 
 Estos criterios actúan en comparación con el valor digitado en el campo que se activa al lado del operador aritmético.
 
 **Gasto Real otros Conceptos:** Esta opción se habilita una lista despegable donde se escoge el criterio deseado, junto con un cuadro donde se digita el valor de comparación.
 Los criterios son: 
-- **Igual (=)** 
-- **Mayor (>)**  
-- **Menor (<)**.
+
+* **Igual (=)** 
+* **Mayor (>)**  
+* **Menor (<)**.
 
  Estos criterios actúan en comparación con el valor digitado en la casilla que se activa al lado del operador aritmético.
 
@@ -307,13 +309,13 @@ seleccionándola de la lista desplegable. La segunda es dando clic al icono de c
 
 **Días Vencimiento:** Muestra los días vencidos que tiene una OT, a partir de la fecha programada y la fecha actual. Permite filtrar de las OT cuyos días de vencimiento apliquen al criterio definido. Esta opción habilita una lista despegable donde se escoge el criterio deseado, junto con un campo donde se digita el valor de comparación. Los criterios son:
 
-- **Igual (=)**
-- **Mayor (>)**
-- **Menor (<)**
+* **Igual (=)**
+* **Mayor (>)**
+* **Menor (<)**
 
 Estos criterios actúan en comparación con el valor digitado en la casilla que se activa al lado del operador aritmético.
 
-> _Nota: Es importante tener en cuenta que cuando se están realizando los subgrupos, se pueden utilizar uno o varios de estos criterios simultáneamente. También se permite la unión de selecciones, es decir, después de haber realizado una búsqueda de un criterio, es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección, se da un clic al botón <a class="btn white">Mas <span class="mdi mdi-plus-circle"></span></a> , en lugar de darlo al botón <a class="btn white">aceptar <span class="mdi mdi-check-circle"></span></a> ._
+> *Nota: Es importante tener en cuenta que cuando se están realizando los subgrupos, se pueden utilizar uno o varios de estos criterios simultáneamente. También se permite la unión de selecciones, es decir, después de haber realizado una búsqueda de un criterio, es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección, se da un clic al botón <a class="btn white">Mas <span class="mdi mdi-plus-circle"></span></a> , en lugar de darlo al botón <a class="btn white">aceptar <span class="mdi mdi-check-circle"></span></a> .*
 
 ## Vistas Parciales / Pestañas
 
@@ -322,12 +324,12 @@ Estos criterios actúan en comparación con el valor digitado en la casilla que 
 Esta opción conduce a la tabla de Acciones Técnicas en una nueva pestaña de la OT. Esta tabla está ligada a la Infraestructura, creada con su mismo nombre, que contiene un listado de Acciones Técnicas frecuentes en un área de Mantenimiento. Con la información contenida allí, se pretende describir, breve pero concretamente, la actividad general realizada en una OT. Las Acciones Técnicas en una OT se pueden definir, después de haber seleccionado en la ventana Detalle de la Ficha Técnica de la OT en el momento de su creación, el cuadro llamado <a class="btn white"><span class="mdi mdi-checkbox-blank-outline"> manejo de costos abc</span></a> o bien, haberlas definido en la creación del Programa de Mantenimiento, continuación se muestra la porción Acciones Técnicas de una OT:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img06.png)
-_**Imagen 72.** Órdenes - Ventana Detalle Acciones Técnicas_ 
+***Imagen 72.** Órdenes - Ventana Detalle Acciones Técnicas* 
 
 En la pestaña de Acciones Técnicas de la Ventana Detalle de OT aparece un nuevo recuadro en el que irán apareciendo las que se vayan adicionando a través de un botón Adicionar Acción Técnica.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img06_01.png)
-_**Imagen 73.** Órdenes - Adicionar Acciones Técnicas_ 
+***Imagen 73.** Órdenes - Adicionar Acciones Técnicas* 
 
 A continuación se describen los campos que componen esta ventana de información adicional:
 
@@ -345,8 +347,8 @@ Las Acciones Técnicas se seleccionan de la lista desplegable y se adicionan con
 **Unidad de tiempo:** Es la unidad de duración que tiene la Acción Técnica. Puede ser expresada en Días, Horas o Minutos.
 
 > **Nota:** Para actualizar una Acción Técnica de una OT se hace un clic sobre esa opción y luego se elige una nueva de la lista desplegable, finalizando con un clic al botón de <a class="btn gray">actualizar acción técnica</a>. 
-Para desasociarla a una OT, se debe  seleccionar y hacer un clic sobre el icono de Eliminar <span class="mdi mdi-delete"></span>.
-Es importante tener en cuenta que las asociaciones y desasociaciones solo surgen efecto al <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a> o guardar la OT.
+> Para desasociarla a una OT, se debe  seleccionar y hacer un clic sobre el icono de Eliminar <span class="mdi mdi-delete"></span>.
+> Es importante tener en cuenta que las asociaciones y desasociaciones solo surgen efecto al <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a> o guardar la OT.
 
 ## Presupuesto
 
@@ -364,7 +366,7 @@ ya no será posible modificar este último.
 Se ingresa mediante un clic en la pestaña “Presupuesto” en la ventana detalle de OT. 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_01.png)
-_**Imagen 74.** Órdenes - Presupuesto_ 
+***Imagen 74.** Órdenes - Presupuesto* 
 
 En esta ventana se resumen los totales de los costos presupuestados de Mano de Obra
 Interna, Mano de Obra Externa, Materiales y Repuestos y Otros Conceptos de Costo, para
@@ -373,7 +375,7 @@ acceder a cada uno de ellos se da un clic en el botón acorde a lo que se necesi
 **Ingresar Mano de Obra Interna**
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_02.png)
-_**Imagen 75.** Órdenes - Mano de Obra Interna_ 
+***Imagen 75.** Órdenes - Mano de Obra Interna* 
 
 A través de la ventana de Ingreso de Mano de Obra Interna se administra el Presupuesto
 de Mano de Obra de la OT.
@@ -411,25 +413,25 @@ media, se deduce entonces que entre las 2 personas se consumirá este tiempo.
 Una vez que se diligencian todos los campos se da clic en el ícono del Más <span class="mdi mdi-plus-circle icon white"></span>, seguidamente se observa que la información creada se muestra en el recuadro de la mano de Obra Interna, ubicada al lado izquierdo.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_02.png)
-_**Imagen 76.** Órdenes - Ingresar Mano de Obra Interna_ 
+***Imagen 76.** Órdenes - Ingresar Mano de Obra Interna* 
 
 Una vez terminado el proceso, hacer clic en el botón <a class="btn gray ">ir a la matriz</a> para regresar a la ventana principal de Presupuesto.
 
 Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón <a class="btn gray">actualizar mano obra interna</a>.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_03.png)
-_**Imagen 77.** Órdenes - Actualizar Mano de Obra Interna_ 
+***Imagen 77.** Órdenes - Actualizar Mano de Obra Interna* 
 
 Por otro lado, para eliminar un registro de la tabla de Mano de Obra Interna, se selecciona
 el registro y luego se da clic al icono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario de si está seguro de eliminar el registro y finalmente se da clic en <a class="btn">Aceptar</a>, como se muestra en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_04.png)
-_**Imagen 78.** Órdenes - Eliminar Mano de Obra Interna_ 
+***Imagen 78.** Órdenes - Eliminar Mano de Obra Interna* 
 
 **Ingresar Mano de Obra Externa**
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_05.png)
-_**Imagen 79.** Órdenes - Mano de Obra Externa_ 
+***Imagen 79.** Órdenes - Mano de Obra Externa* 
 
 A través de la ventana de Ingreso de Mano de Obra Externa se administra el Presupuesto de Mano de Obra Externa de la OT.
 
@@ -453,7 +455,7 @@ Una vez que se diligencian todos los campos se da clic en el icono del Más <spa
 Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón <a class="btn gray">actualizar mano obra externa</a>.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_06.png)
-_**Imagen 80.** Órdenes - Actualizar Mano de Obra Externa_ 
+***Imagen 80.** Órdenes - Actualizar Mano de Obra Externa* 
 
 Una vez terminado el proceso, hacer clic en el botón <a class="btn gray">ir a Matriz</a>. para regresar a la ventana
 principal de Presupuesto.
@@ -461,12 +463,12 @@ principal de Presupuesto.
 Por otro lado, para eliminar un registro de la tabla de Mano de Obra Externa, se selecciona el registro y luego se da clic al icono de eliminar <span class="mdi mdi-delete"></span> sale un mensaje de alerta que indica al usuario de si está seguro de eliminar el registro y finalmente se da clic en <a class="btn">Aceptar</a>, como se muestra en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_07.png)
-_**Imagen 81.** Órdenes - Eliminar Mano de Obra Externa_ 
+***Imagen 81.** Órdenes - Eliminar Mano de Obra Externa* 
 
 **Ingresar Materiales y Repuestos**
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_08.png)
-_**Imagen 82.** Órdenes - Materiales y Repuestos_ 
+***Imagen 82.** Órdenes - Materiales y Repuestos* 
 
 A través de la ventana de Ingreso de Materiales y Repuestos se administra el Presupuesto de Materiales y Repuestos de la OT.
 A la izquierda aparece el listado de los Almacenes y Materiales y Repuestos presupuestados.
@@ -503,19 +505,19 @@ Una vez se diligencien estos campos se da clic en el ícono de Más <span class=
 Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón <a class="btn gray">actualizar material y repuesto</a>.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_09.png)
-_**Imagen 83.** Órdenes - Actualizar Materiales y Repuestos_ 
+***Imagen 83.** Órdenes - Actualizar Materiales y Repuestos* 
 
 Una vez terminado el proceso, hacer clic en el botón <a class="btn gray">ir a matriz</a> para regresar a la ventana principal de Presupuesto.
 
 Por otro lado, para eliminar un registro de la tabla de Material y Repuesto, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-lock"></span> sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">Aceptar</a> como se muestra en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_10.png)
-_**Imagen 84.** Órdenes - Eliminar Materiales y Repuestos_
+***Imagen 84.** Órdenes - Eliminar Materiales y Repuestos*
 
 **Ingresar otros Conceptos**
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_11.png)
-_**Imagen 85.** Órdenes - Otros Conceptos de Costo_
+***Imagen 85.** Órdenes - Otros Conceptos de Costo*
 
 A través esta ventana de Ingreso de Otros Conceptos se administra el Presupuesto de Otros Conceptos de la OT.
 
@@ -541,42 +543,40 @@ unitario del concepto que se encuentra ingresando al sistema.
 
 **Vlr. Total:** Es el costo total presupuestado del “Otro Concepto Costo” teniendo en cuenta el número de unidades y el valor unitario.
 
-Una vez se diligencien estos campos se da clic en el ícono de Más <span class="mdi mdi-plus-circle icon white"></span> para agregar.
+Una vez se diligencien estos campos se da clic en el ícono de Más <span class="mdi mdi-plus-circle icon white"></span>
+ para agregar.
 
 Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón <a class="btn gray">actualizar otro concepto</a>, como se muestra continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_12.png)
-_**Imagen 86.** Órdenes - Actualizar Otro Concepto de Costo_
+***Imagen 86.** Órdenes - Actualizar Otro Concepto de Costo*
 
 Por otro lado, para eliminar un registro de la tabla de Otro Concepto de Costo, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, mostrando un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_13.png)
-_**Imagen 87.** Órdenes - Eliminar Otro Concepto de Costo_
+***Imagen 87.** Órdenes - Eliminar Otro Concepto de Costo*
 
->**Nota:** Finalmente, al hacer clic en el botón <a class="btn gray">ir a la matriz</a>, se regresa a la ventana principal de Presupuesto y para que todos estos cambios queden grabados en la OT se debe dar
-clic en <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a>.
+> **Nota:** Finalmente, al hacer clic en el botón <a class="btn gray">ir a la matriz</a>, se regresa a la ventana principal de Presupuesto y para que todos estos cambios queden grabados en la OT se debe dar
+> clic en <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a>.
 
 ### Gasto Real
 
 Para ingresar a esta opción, se debe dar clic en la pestaña “Gasto Real” de la ventana detalle de OT.
 Los datos de Gasto Real se pueden registrar en una OT en cualquier momento, mientras esa OT no exija Control Presupuestal. Pero si la OT exige Control Presupuestal, solo se puede registrar el Gasto Real después de haber aprobado el Presupuesto, en cuyo caso, ya no es posible modificarlo. Una vez aprobado, este Presupuesto debe pasarse al Gasto Real a través del botón <a class="btn gray">pasar el presupuesto al gasto real</a> como se muestra a continuación:
 
-(https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_14.png)
-_**Imagen 88.** Órdenes - Gasto Real_
+(https://ayuda.winsoftware.com.co/assets/images/cap09/chp09*img07_14.png)*
+**Imagen 88.** Órdenes - Gasto Real_
 
 Una vez que se traslada el Presupuesto al Gasto Real, el sistema muestra un mensaje de confirmación y la ventana de Gasto Real se visualiza de la siguiente manera:
 
-(https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_15.png
-_**Imagen 89.** Órdenes - Pasar Presupuesto a Gasto Real_
+(https://ayuda.winsoftware.com.co/assets/images/cap09/chp09*img07_15.png*
+**Imagen 89.** Órdenes - Pasar Presupuesto a Gasto Real_
 
-A través de la ventana de Gasto Real se puede administrar el Gasto Real de la OT. Esta ventana está compuesta por dos zonas,
+Esta tabla resume los totales de los gastos de Mano de Obra Interna, Mano de Obra Externa, Materiales y Repuestos y Otros Conceptos de Costo. A través de esta ventana de Gasto Real se puede administrar el Gasto Real de la OT. Se compone de dos zonas:
 
-En la zona superior, aparece la matriz de Gasto Real, que resume los costos reales para la **OT**, discriminando por  Tipo de Trabajo (En  las  filas),  y por Tipo de  Consumo (En las columnas). La  última  fila   y  la   última columna de  la  matriz, discriminan la  diferencia contra el  Presupuesto, conformando así el Control Presupuestal de la **OT**. Aparecen también botones para ingresar Mano de Obra, Materiales y Repuestos, y otros Conceptos.
+En la zona superior, aparece la matriz de Gasto Real, que resume los costos reales para la OT, discriminando por TT (En las filas), y por Tipo de Consumo (En las columnas). La última fila y la última columna de la matriz, discriminan la diferencia contra el Presupuesto, conformando así el Control Presupuestal de la OT.
 
-En la zona inferior, están los botones que permiten ver, en forma de visor, el gasto real de la **OT**. Igualmente, aparece la leyenda ** “Debe aprobar el Presupuesto”** o  ** “Presupuesto aprobado”**, si la Otm anexa control presupuestal.
-
-Debe tenerse en cuenta que el Gasto Real de una **OT** no puede ser modificado si  el
-Presupuesto de la misma no ha sido aprobado.
+En la zona inferior, aparecen los botones para ingresar Mano de Obra Interna, Mano de Obra Externa, Materiales y Repuestos, y Otros Conceptos.
 
 **Ingresar Mano de obra Interna**
 
@@ -594,17 +594,17 @@ A continuación se describen los campos que componen esta ventana; cuando s e re
 
 **Oficio:** Es el Oficio al que pertenece el Responsable asignado.  Es  un campo de  solo lectura, que se establece una vez se selecciona el Responsable.
 
-**Responsable:** En este campo se selecciona el Responsable. Esto se hace descolgando el listado de Responsables, traído desde la tabla de Inf raestructura.
+**Responsable:** En este campo se selecciona el Responsable. Esto se hace descolgando el listado de Responsables, traído desde la tabla de Infraestructura.
 
 **H. Hombre:** Es el número de Horas Hombre consumidas por el Responsable en cuestión.
 
-**MM:**  Es  el  número  de  Minutos,  que  junto  con  las  horas,  conforman el  tiempo total consumido.  Así, si se consumen 4 horas y media de un responsable, debe registrarse ** “4”** en el campo ** “H. Hombre”**, y ** “30”** en el campo ** “MM”**.
+**MM:**  Es  el  número  de  Minutos,  que  junto  con  las  horas,  conforman el  tiempo total consumido.  Así, si se consumen 4 horas y media de un responsable, debe registrarse  **“4”** en el campo  **“H. Hombre”**, y  **“30”** en el campo  **“MM”**.
 
 **Tipo Hr.:** Dado que un Responsable a través del Oficio del mismo puede poseer  varios tipos de Hora, cada uno con un valor distinto, en este campo se selecciona el Tipo de Hora adecuado.  AM sugiere el valor hora correspondiente, dependiendo del tipo elegido. Si  se elige el Tipo **otro”**, AM no sugiere ningún valor hora, y deja a decisión del usuario el valor a asignar.
 
 **Vr. Hora:** Es el valor unitario de la hora para el oficio del responsable en cuestión. AM sugiere el costo hora traído desde la tabla de Infraestructura para el oficio, en los casos en que el tipo hora es distinto de **otro”**. Si se elige el tipo de hora **otro”**, debe def inirse un valor hora manualmente.
 
-**Tipo Asignación:** Este campo define al responsable de la mano de obra de la **OT**, el tipo de intervención que realiza en el tiempo que la orden de trabajo esté abierta. La  opción ** “Presupuesto para Histograma”** es para definir la proyección a futuro de la carga de trabajo del responsable; y ** “Ejecución Real”** es para definir la carga de trabajo ejecutada.
+**Tipo Asignación:** Este campo define al responsable de la mano de obra de la **OT**, el tipo de intervención que realiza en el tiempo que la orden de trabajo esté abierta. La  opción  **“Presupuesto para Histograma”** es para definir la proyección a futuro de la carga de trabajo del responsable; y  **“Ejecución Real”** es para definir la carga de trabajo ejecutada.
 
 **Ingresar Materiales y Repuestos**
 
@@ -638,7 +638,7 @@ A continuación se describen los campos que componen esta ventana; cuando se  qu
 
 En la  gráfica anterior,  Ventana de Ingreso de  otros  conceptos, se  aprecian  sus componentes y sus respectivos contenidos.
 
-A  través  de  la  ventana de  Ingreso de  otros  Conceptos se  administra el  Gasto Real de ** “otros Conceptos’’ de la Orden de Trabajo.
+A  través  de  la  ventana de  Ingreso de  otros  Conceptos se  administra el  Gasto Real de \*\* “otros Conceptos’’ de la Orden de Trabajo.
 
 A continuación se describen los campos que componen esta ventana; cuando  se quiera actualizar  o  ingresar  nuevos  otros  Conceptos al  gasto  real  de  una  **OT**, se  deberán diligenciar los siguientes campos:
 
@@ -658,11 +658,11 @@ Al hacer clic en el botón `<a class="btn">`Ir a Matriz`</a>`, se regresa a la v
 
 ## Evaluación de Servicio
 
-Se puede realizar la evaluación del servicio prestado por el personal de mantenimiento o de servicios, en la **OT**  seleccionada.  La evaluación la debe realizar un usuario, previamente autorizado, quien fuera el receptor del servicio, una vez se ha ya cerrado la **OT**. Esta opción de evaluación se hace disponible, cuando  se  han definido   las  cinco  preguntas  de  evaluación,  en  ** “Parámetros  para Evaluación del  Servicio”**, en ** “Valores por Defecto”**, en el módulo de ** “Administración”**. Es posible realizar la evaluación del servicio de una **OT**, cuando el solicitante se encuentra registrado como un usuario solicitante en el **AM** en el módulo de Administración en Usuarios.
+Se puede realizar la evaluación del servicio prestado por el personal de mantenimiento o de servicios, en la **OT**  seleccionada.  La evaluación la debe realizar un usuario, previamente autorizado, quien fuera el receptor del servicio, una vez se ha ya cerrado la **OT**. Esta opción de evaluación se hace disponible, cuando  se  han definido   las  cinco  preguntas  de  evaluación,  en   **“Parámetros  para Evaluación del  Servicio”**, en  **“Valores por Defecto”**, en el módulo de  **“Administración”**. Es posible realizar la evaluación del servicio de una **OT**, cuando el solicitante se encuentra registrado como un usuario solicitante en el **AM** en el módulo de Administración en Usuarios.
 
 ![Ventana Detalle](manualAM/0.images/cap11/chp11_img13.png)
 
-Esta opción está disponible cuando se han  definido las cinco preguntas de evaluación, en ** “Parámetros para Evaluación del Servicio”**, en  ** “Valores por  Defecto”**, en  el  módulo de ** “Administración”** y también es posible realizar la evaluación del servicio a través del -**AMsi**- sin la necesidad de ingresar a –AM4G-.
+Esta opción está disponible cuando se han  definido las cinco preguntas de evaluación, en  **“Parámetros para Evaluación del Servicio”**, en   **“Valores por  Defecto”**, en  el  módulo de  **“Administración”** y también es posible realizar la evaluación del servicio a través del -**AMsi**- sin la necesidad de ingresar a –AM4G-.
 
 ### Multimedia
 
@@ -712,23 +712,23 @@ A  través de la  ventana Analizar /  Generar, **AM** propone un conjunto de   o
 
 El Procedimiento para efectuar un Análisis y posterior Generación de Órdenes de Trabajo es el siguiente:
 
-Digitar la fecha ** “Desde”**, que corresponde al inicio del período a programar. **AM** sugiere la fecha del sistema.
-Digitar la fecha ** “Hasta”**, que corresponde al final del período a programar. **AM** sugiere la fecha de una semana después, pero es una fecha modificable a gusto. Normalmente el período a Analizar, en este proceso, se trata de un período de corto plazo: tres días, una semana, una quincena o un mes.
-Debajo de estas fechas, en la sección de ** “Datos de la última generación”**, aparece la información del rango de fechas para el que se realizó un proceso de Generación de ots la última vez, y el código de login del usuario que ejecutó el proceso.
+Digitar la fecha  **“Desde”**, que corresponde al inicio del período a programar. **AM** sugiere la fecha del sistema.
+Digitar la fecha  **“Hasta”**, que corresponde al final del período a programar. **AM** sugiere la fecha de una semana después, pero es una fecha modificable a gusto. Normalmente el período a Analizar, en este proceso, se trata de un período de corto plazo: tres días, una semana, una quincena o un mes.
+Debajo de estas fechas, en la sección de  **“Datos de la última generación”**, aparece la información del rango de fechas para el que se realizó un proceso de Generación de ots la última vez, y el código de login del usuario que ejecutó el proceso.
 
 **Clic en el botón  “Analizar”**.
-**
-Aparece el siguiente mensaje, contestar ** “Aceptar”** si se desea  ejecutar  el proceso de Analizar.
+
+**Aparece el siguiente mensaje, contestar**  “Aceptar”\*\* si se desea  ejecutar  el proceso de Analizar.
 
 ![Ventana Detalle](manualAM/0.images/cap11/chp11_img19.png)
 
-- **AM**- recorre todos   los programas de mantenimiento, y establece cuáles deben generar órdenes de trabajo en el rango de fechas ya estipulado. Durante  este proceso, puede visualizarse el  estado  de  avance  del análisis, en la parte inferior izquierda, el sistema escribe un mensaje en la pantalla de las Ots analizadas deltotal de PMs registrados en la base de datos. El proceso también se puede cancelar haciendo clic en el botón `<a class="btn">`Cancelar`</a>`, y el sistema detiene el proceso sin ningún tipo de perjuicio, es decir, a los datos no son afectados en absoluto.
+* **AM**- recorre todos   los programas de mantenimiento, y establece cuáles deben generar órdenes de trabajo en el rango de fechas ya estipulado. Durante  este proceso, puede visualizarse el  estado  de  avance  del análisis, en la parte inferior izquierda, el sistema escribe un mensaje en la pantalla de las Ots analizadas deltotal de PMs registrados en la base de datos. El proceso también se puede cancelar haciendo clic en el botón `<a class="btn">`Cancelar`</a>`, y el sistema detiene el proceso sin ningún tipo de perjuicio, es decir, a los datos no son afectados en absoluto.
 
 Una vez finalice el proceso, se muestra el detalle del análisis y se muestra cuántas órdenes de trabajo se detectaron.
 
 ![Ventana Detalle](manualAM/0.images/cap11/chp11_img20.png)
 
-- **Clic en Ver Diagrama**
+* **Clic en Ver Diagrama**
 
 A continuación, se  procede  a visualizar a través de un Diagrama de Gantt, en el cual se muestra la información del Activo con su respectivo PM y al lado derecho se muestra por colores el cronograma con las fechas proyectadas de las actividades. Para esto, se procede a dar clic al botón `<a class="btn">`Ver Diagrama`</a>` y se muestran la siguiente gráfica
 
@@ -736,7 +736,7 @@ A continuación, se  procede  a visualizar a través de un Diagrama de Gantt, en
 
 Es importante aclarar, que hasta este punto, no ha sido generada ninguna Orden de Trabajo. Solamente se ha detectado un grupo potencial de ellas, que deberían ser ejecutadas de acuerdo a los criterios de programación, si el análisis del programador de mantenimiento lo decide.
 
-- **Clic en Ver Reportes**
+* **Clic en Ver Reportes**
 
 A continuación, se procede a verificar si para las órdenes detectadas por el proceso de análisis, existen todas las garantías de ejecución, en el rango de fechas programado. Para esto, se procede a imprimir varios reportes que para el caso se  presentan, tal y como se visualiza en la siguiente gráfica:
 
@@ -744,11 +744,11 @@ A continuación, se procede a verificar si para las órdenes detectadas por el p
 
 **Los reportes disponibles para efectuar esta revisión, son:**
 
-- Cronograma de Mantenimiento Programado con TM
-- Cronograma de Mantenimiento Programado
-- Actividades por Mes y Día
-- Listado de Repuestos
-- Actividades por Mes y Día con Presupuesto Discriminado
+* Cronograma de Mantenimiento Programado con TM
+* Cronograma de Mantenimiento Programado
+* Actividades por Mes y Día
+* Listado de Repuestos
+* Actividades por Mes y Día con Presupuesto Discriminado
 
 Los anteriores reportes pueden ser seleccionados para una o varias **OT**.
 
@@ -778,7 +778,7 @@ A  continuación  se  describen  los  campos  que  componen  esta  ventana  de  
 
 ![Modificar Responsable](manualAM/0.images/cap11/chp11_img25.png)
 
-**Modificar Comentarios**: Se modifican masivamente los Comentarios, de la(s) **OT**(s) que están previamente seleccionadas en el visor, teniendo en cuenta la opción ** “Añadir  estos comentarios a los comentarios actuales”** o ** “Reemplazar por estos Comentarios”**.
+**Modificar Comentarios**: Se modifican masivamente los Comentarios, de la(s) **OT**(s) que están previamente seleccionadas en el visor, teniendo en cuenta la opción  **“Añadir  estos comentarios a los comentarios actuales”** o  **“Reemplazar por estos Comentarios”**.
 
 ![Modificar Comentarios](manualAM/0.images/cap11/chp011_img26.png)
 
@@ -838,7 +838,7 @@ A continuación se describen los campos que componen esta ventana; cuando se  qu
 
 **Cuadro Identificación:** Aparece con los campos bloqueados para que el usuario visualice la información básica de la **OT**.
 
-**Modificar Solamente esta **OT**:** Al seleccionar esta opción, el cambio se aplica solamente a la **OT** que esta resaltada en el visor.
+**Modificar Solamente esta** OT**:** Al seleccionar esta opción, el cambio se aplica solamente a la **OT** que esta resaltada en el visor.
 
 **Modificar Todas las ots en el  visor:** Al escoger esta opción, el cambio se refleja  en todas las ots previamente seleccionadas en el visor.
 
@@ -850,28 +850,28 @@ A continuación se describen los campos que componen esta ventana; cuando se  qu
 
 **F/H Fin Trabajos:** Es la Fecha y Hora que indica el momento en que finalizan las labores de   mantenimiento,   incluyendo   las   pruebas   o   ensayos,   que   determinaron   el   buen funcionamiento del equipo. La fecha se m aneja en formato AAAA/MM/DD (Año, Mes, día); la hora se m aneja en formato Militar (de 24 horas).
 
-**Tiempo Duración (ttr):** **AM** sugiere como Tiempo de Duración, (o time to repair) en este campo, la diferencia entre la Fecha y Hora de Fin de Trabajos y la Fecha y Hora de Inicio de Trabajos. Cabe an**OT**ar, que no siempre el Tiempo de Duración es la  diferencia entre estas fechas/horas, pues  pueden existir  eventos  que dejan  temporalmente a  la **OT**  en Estado de ** “Pendiente”**. **AM** permite corregir el tiempo de Duración en una **OT**, después de que fue calculado por el sistema, para que refleje el tiempo real de la ejecución.
+**Tiempo Duración (ttr):** **AM** sugiere como Tiempo de Duración, (o time to repair) en este campo, la diferencia entre la Fecha y Hora de Fin de Trabajos y la Fecha y Hora de Inicio de Trabajos. Cabe an**OT**ar, que no siempre el Tiempo de Duración es la  diferencia entre estas fechas/horas, pues  pueden existir  eventos  que dejan  temporalmente a  la **OT**  en Estado de  **“Pendiente”**. **AM** permite corregir el tiempo de Duración en una **OT**, después de que fue calculado por el sistema, para que refleje el tiempo real de la ejecución.
 
 Por ejemplo, si una **OT** tiene como Fecha de Inicio de Trabajos XXXX/12/01 08:30, y como Fecha de Fin de Trabajos XXXX/12/01 16:00, **AM** sugiere como Tiempo de Duración, 7 horas y 30 minutos. Sin embargo, si durante ese lapso se tuvo que detener la ejecución por 2 horas, debido a que faltaba un Repuesto o a que el técnico encargado se ausentó a realizar Otra labor, se debe corregir la duración: 5 horas y 30 minutos.
 
-**T. Improductivo: - **AM** sugiere como Tiempo Improductivo la diferencia entre la Fecha y Hora  de  Fin  de  Trabajos  y la  Fecha  y Hora Info  de  Paro (Para  Órdenes  de  Trabajo Correctivas), o como, la diferencia entre la Fecha y Hora de Fin de Trabajos y la Fecha y Hora de Inicio de Trabajos (Para Ordenes de Trabajo no Correctivas). Sin embargo, este valor  puede  corregirse,  después  de  que  fue  calculado  por  el  sistema,  para  reflejar  la cantidad Real de Tiempo Improductivo que tuvo el Equipo en la **OT** actual.
+**T. Improductivo: -** AM **sugiere como Tiempo Improductivo la diferencia entre la Fecha y Hora  de  Fin  de  Trabajos  y la  Fecha  y Hora Info  de  Paro (Para  Órdenes  de  Trabajo Correctivas), o como, la diferencia entre la Fecha y Hora de Fin de Trabajos y la Fecha y Hora de Inicio de Trabajos (Para Ordenes de Trabajo no Correctivas). Sin embargo, este valor  puede  corregirse,  después  de  que  fue  calculado  por  el  sistema,  para  reflejar  la cantidad Real de Tiempo Improductivo que tuvo el Equipo en la** OT\*\* actual.
 
 Por ejemplo, si una **OT** correctiva tiene como fecha de Info de Paro XXXX/12/01 08:00, y como  fecha  de   Fin   de   Trabajos  XXXX/12/02  12:30, **AM** sugiere   como  Tiempo Improductivo, 1 día, 4 horas y 30 minutos. Sin embargo, si en ese  lapso, el Equipo no trabaja de 10 PM a 6 AM, pues la empresa no labora este turno de producción, se debe definir el tiempo improductivo como solamente de 20 horas y 30 minutos.
 
 Estado de la **OT**: Una Orden de Trabajo puede tener uno de los siguientes Estados:
 
-- **E:**	En Ejecución
-- **K:** 	Cancelada
-- **C:** 	Cerrada
-- **P:** 	Pendiente
-- **CR:**   Cerrada Retroalimentada
+* **E:**	En Ejecución
+* **K:** 	Cancelada
+* **C:** 	Cerrada
+* **P:** 	Pendiente
+* **CR:**   Cerrada Retroalimentada
 
-Estos son los Estados predeterminados por el Sistema **AM** para las **OT**, pero el usuario puede personalizar otros Estados en la Tabla de ** “Estados”** de Infraestructura.
+Estos son los Estados predeterminados por el Sistema **AM** para las **OT**, pero el usuario puede personalizar otros Estados en la Tabla de  **“Estados”** de Infraestructura.
 
 **Causa pendiente:** Dado el caso de que a la Orden de Trabajo se le ha ya  definido el
-Estado ** “P: Pendiente”**, en este campo se indica la causa por la cual la **OT** está en dicho estado. Para ello se elige una de las opciones que se descuelgan. En caso de requerir registrar una causa distinta, que no exista en la lista, ella se puede crear  en la  tabla respectiva de Infraestructura, tras de lo cual se regresa y se registra en este sitio.
+Estado  **“P: Pendiente”**, en este campo se indica la causa por la cual la **OT** está en dicho estado. Para ello se elige una de las opciones que se descuelgan. En caso de requerir registrar una causa distinta, que no exista en la lista, ella se puede crear  en la  tabla respectiva de Infraestructura, tras de lo cual se regresa y se registra en este sitio.
 
-**Causa de Cierre:** Por defecto, cuando se trata de una **OT** cerrada y ejecutada, el sistema ubica en este campo la causa ** “**OT** Ejecutada”**. Si la **OT** se ha cerrado con un Estado de ** “K: Cancelada”**, en  este  campo se  define la  Causa respectiva,  eligiendo una  de  las opciones que se descuelgan. En caso de requerir registrar una  causa distinta, que no exista en la lista, ella se puede crear en la tabla respectiva de  Infraestructura, tras de lo cual se regresa y se registra en este campo.
+**Causa de Cierre:** Por defecto, cuando se trata de una **OT** cerrada y ejecutada, el sistema ubica en este campo la causa  **“**OT **Ejecutada”**. Si la **OT** se ha cerrado con un Estado de  **“K: Cancelada”**, en  este  campo se  define la  Causa respectiva,  eligiendo una  de  las opciones que se descuelgan. En caso de requerir registrar una  causa distinta, que no exista en la lista, ella se puede crear en la tabla respectiva de  Infraestructura, tras de lo cual se regresa y se registra en este campo.
 
 **Causa de Falla:** Para Órdenes de Trabajo correctivas, en este campo se registra la Causa de la Falla que dio origen a la labor actual. Se  elige  una  opción,  a  manera  de  falla primaria, de la lista que se descuelga. Las opciones que se descuelgan corresponden a las definidas en su tabla en la Infraestructura.
 
@@ -893,20 +893,20 @@ Al momento de ingresar a Seguimiento o Cierre se visualiza el botón de Bitácor
 
 El objetivo de esta transacción es desplazar hacia el módulo de Historia de Mantenimiento, las Órdenes de Trabajo que estando Cerradas, residen todavía en el módulo de Órdenes de Trabajo. Tales Órdenes tienen cualquiera de los siguientes estados:
 
-- **C:** 	Cerrada.
-- **K:** 	Cancelada
+* **C:** 	Cerrada.
+* **K:** 	Cancelada
 
 Al hacer clic en la transacción, aparece la siguiente ventana:
 
 ![ventana OT ](manualAM/0.images/cap11/chp011_img41.png)
 
-En la ventana aparece un botón ** “Enviar a Historia”** y tres casillas de selección. Estas casillas  de selección parametriza los registros que se desea enviar a Historia.
+En la ventana aparece un botón  **“Enviar a Historia”** y tres casillas de selección. Estas casillas  de selección parametriza los registros que se desea enviar a Historia.
 
-**Todas las **OT** cerradas:** Con esta opción se realiza el envío de todas las Órdenes de Trabajo existentes en la base de datos, sin importar cualquier subgrupo activo.
+**Todas las** OT **cerradas:** Con esta opción se realiza el envío de todas las Órdenes de Trabajo existentes en la base de datos, sin importar cualquier subgrupo activo.
 
-**Todas las **OT** cerradas del visor:** Esta opción se realiza el envío de todas las Órdenes seleccionados en el visor mediante un subgrupo.
+**Todas las** OT **cerradas del visor:** Esta opción se realiza el envío de todas las Órdenes seleccionados en el visor mediante un subgrupo.
 
-**La **OT** seleccionada:** Esta opción realiza el envío de la **OT** que está resaltada  en  el visor (tiene la línea verde del cursor sobre sí).
+**La** OT **seleccionada:** Esta opción realiza el envío de la **OT** que está resaltada  en  el visor (tiene la línea verde del cursor sobre sí).
 
 Para enviar a Historia, se selecciona una de las opciones  y se hace clic en el  botón`<a class="btn">`Enviar a Historia`</a>`, entonces aparece la siguiente ventana y se da clic en `<a class="btn">`Aceptar`</a>`:
 
