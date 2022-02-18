@@ -581,9 +581,11 @@ En la zona inferior, aparecen los botones para ingresar Mano de Obra Interna, Ma
 **Ingresar Mano de obra Interna**
 
 (https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_16.png
-**Imagen 89.** Órdenes - Pasar Presupuesto a Gasto Real_
+**Imagen 89.** Órdenes - Gasto Real Mano de Obra Interna_
 
 A través de la ventana de GR de Ingreso de Mano de Obra Interna s e administra el Gasto Real de Mano de Obra de la OT.
+
+
 A diferencia del Presupuesto de Mano de Obra Interna, el Gasto Real de la Mano de Obra Interna se efectúa a nivel de Responsable, es decir, se tiene en cuenta a la persona que realiza la labor.
 
 
@@ -593,24 +595,52 @@ A continuación se describen los campos que componen esta ventana; cuando s e re
 **Fecha de Uso:** Es la fecha en la cual se utiliza el recurso.
 
 
-**OF:** Es el Oficio al que pertenece el Responsable asignado. Es un campo de solo lectura, que se establece una vez se selecciona el Responsable.
+**OF:** Es el oficio al que pertenece el Responsable asignado. Es un campo de solo lectura, que se establece una vez se selecciona el Responsable.
 
 
-**Responsable:** Es la persona que ha ejecutado la OT. Se elige el Responsable descolgando el listado de Responsables, traído desde la tabla de Inf raestructura.
+**Responsable:** Es la persona que ha ejecutado la OT. Se elige el Responsable descolgando el listado de Responsables, traído desde la tabla de Infraestructura.
 
 
-Filtrar por OF: Al seleccionar esta opción, en el campo “Responsable” solo se descuelgan los Responsables correspondientes al Oficio definido en la opción “OF”. De no hacerlo, en el campo “Responsable” se despliegan todos los “Responsables ejecutores” existentes en la tabla respectiva.
+**Filtrar por OF:** Al seleccionar esta opción, en el campo “Responsable” solo se descuelgan los Responsables correspondientes al Oficio definido en la opción “OF”. De no hacerlo, en el campo “Responsable” se despliegan todos los “Responsables ejecutores” existentes en la tabla respectiva.
 
-H. Hombre: Es el número de Horas Hombre consumidas por el Responsable en cuestión.
-Minutos: Es el número de Minutos, que junto con las horas, conforman el tiempo total consumido. Así, si se consumen 3 horas y media de un responsable, debe registrarse “3” en el campo “H. Hombre”, y “30” en el campo “Minutos”.
-Tipo Hr.: Dado que un Responsable a través del Oficio del mismo puede poseer varios tipos de Hora, cada uno con un valor distinto, en este campo se selecciona el Tipo de Hora adecuado. AM sugiere el valor hora correspondiente, dependiendo del tipo elegido. Si se elige el Tipo “Otro”, AM no sugiere ningún valor hora, y deja a decisión del usuario el valor a asignar en este campo.
-Vlr. Hora: Es el valor unitario de la hora para el oficio del Responsable en cuestión. AM automáticamente sugiere el costo por hora traído desde la tabla de Infraestructura para el Oficio, en los casos en que el tipo hora es distinto de “Otro”, el campo se habilitará para
+**H. Hombre:** Es el número de Horas Hombre consumidas por el Responsable en cuestión.
 
-**Tipo Asignación:** Este campo define al responsable de la mano de obra de la **OT**, el tipo de intervención que realiza en el tiempo que la orden de trabajo esté abierta. La  opción  **“Presupuesto para Histograma”** es para definir la proyección a futuro de la carga de trabajo del responsable; y  **“Ejecución Real”** es para definir la carga de trabajo ejecutada.
+
+**Minutos:** Es el número de Minutos, que junto con las horas, conforman el tiempo total consumido. Así, si se consumen 3 horas y media de un responsable, debe registrarse “3” en el campo “H. Hombre”, y “30” en el campo “Minutos”.
+
+
+**Tipo Hr.:** Dado que un Responsable a través del Oficio del mismo puede poseer varios tipos de Hora, cada uno con un valor distinto, en este campo se selecciona el Tipo de Hora adecuado. AM sugiere el valor hora correspondiente, dependiendo del tipo elegido. Si se elige el Tipo “Otro”, AM no sugiere ningún valor hora, y deja a decisión del usuario el valor a asignar en este campo.
+
+
+**Vlr. Hora:** Es el valor unitario de la hora para el oficio del Responsable en cuestión. AM automáticamente sugiere el costo por hora traído desde la tabla de Infraestructura para el Oficio, en los casos en que el tipo hora es distinto de “Otro”, el campo se habilitará para digitar un valor hora.
+
+
+**Tipo de Asignación:** Este campo define al responsable de la mano de obra de la OT, el tipo de intervención que realiza en el tiempo que la OT esté abierta. La opción “Presupuesto para Histograma” es para definir la proyección a futuro de la carga de trabajo del responsable; y “Ejecución Real” es para definir la carga de trabajo ejecutada.
+
+**TT:** Este campo es informativo. Muestra el TT que tiene definido el Oficio seleccionado, se establece automáticamente una vez se ha seleccionado el Responsable y se visualiza en la tabla de Mano de Obra Interna.
+
+**Vlr.Total:** Este campo es informativo y es calculado por el sistema, contiene el valor total del Gasto Real para ese Responsable. Es el producto del Vlr. Hora por H. Hombre y Minutos. Se visualiza en la tabla de Mano de Obra Interna.
+
+
+Una vez se diligencien estos campos se da clic en el ícono de Mas <span class="mdi mdi-plus-circle icon white"></span> para agregar, como se muestra a continuación:
+
+(https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_17.png
+**Imagen 90.** Órdenes - Gasto Real Ingresar MO_
+
+En el caso de actualizar la información de Mano de Obra Interna se da clic en <a class="btn gray">actualizar mano de obra interna</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
+
+(https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_18.png
+**Imagen 91.** Órdenes - Gasto Real Actualizar MO_
+
+Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a>como se muestra en la siguiente imagen:
+
+(https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_18.png
+**Imagen 91.** Órdenes - Gasto Real Eliminar MO_
 
 **Ingresar Materiales y Repuestos**
 
-![Ventana Detalle](manualAM/0.images/cap11/chp11_img11.png)
+(https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_16.png
+**Imagen 89.** Órdenes - Pasar Presupuesto a Gasto Real_
 
 En la gráfica anterior, Ventana de Ingreso de Materiales y Repuestos, se aprecian  sus componentes y sus respectivos contenidos.
 
