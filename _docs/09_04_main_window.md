@@ -549,7 +549,7 @@ Una vez se diligencien estos campos se da clic en el ícono de Más <span class=
 Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón <a class="btn gray">actualizar otro concepto</a>, como se muestra continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_12.png)
-***Imagen 86.** Órdenes - Actualizar Otro Concepto de Costo*
+**Imagen 86.** Órdenes - Actualizar Otro Concepto de Costo_
 
 Por otro lado, para eliminar un registro de la tabla de Otro Concepto de Costo, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, mostrando un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
 
@@ -564,13 +564,13 @@ Por otro lado, para eliminar un registro de la tabla de Otro Concepto de Costo, 
 Para ingresar a esta opción, se debe dar clic en la pestaña “Gasto Real” de la ventana detalle de OT.
 Los datos de Gasto Real se pueden registrar en una OT en cualquier momento, mientras esa OT no exija Control Presupuestal. Pero si la OT exige Control Presupuestal, solo se puede registrar el Gasto Real después de haber aprobado el Presupuesto, en cuyo caso, ya no es posible modificarlo. Una vez aprobado, este Presupuesto debe pasarse al Gasto Real a través del botón <a class="btn gray">pasar el presupuesto al gasto real</a> como se muestra a continuación:
 
-(https://ayuda.winsoftware.com.co/assets/images/cap09/chp09*img07_14.png)*
-**Imagen 88.** Órdenes - Gasto Real_
+(https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_14.png)
+**Imagen 88.** Órdenes - Pasar Presupuesto a Gasto Real_
 
 Una vez que se traslada el Presupuesto al Gasto Real, el sistema muestra un mensaje de confirmación y la ventana de Gasto Real se visualiza de la siguiente manera:
 
-(https://ayuda.winsoftware.com.co/assets/images/cap09/chp09*img07_15.png*
-**Imagen 89.** Órdenes - Pasar Presupuesto a Gasto Real_
+(https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_15.png
+_**Imagen 89.** Órdenes - Gasto Real_
 
 Esta tabla resume los totales de los gastos de Mano de Obra Interna, Mano de Obra Externa, Materiales y Repuestos y Otros Conceptos de Costo. A través de esta ventana de Gasto Real se puede administrar el Gasto Real de la OT. Se compone de dos zonas:
 
@@ -580,29 +580,31 @@ En la zona inferior, aparecen los botones para ingresar Mano de Obra Interna, Ma
 
 **Ingresar Mano de obra Interna**
 
-![Ventana Detalle](manualAM/0.images/cap11/chp11_img10.png)
+(https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_16.png
+**Imagen 89.** Órdenes - Pasar Presupuesto a Gasto Real_
 
-En la gráfica anterior, Ventana de Ingreso de Mano de Obra, se aprecian sus componentes y sus respectivos contenidos.
+A través de la ventana de GR de Ingreso de Mano de Obra Interna s e administra el Gasto Real de Mano de Obra de la OT.
+A diferencia del Presupuesto de Mano de Obra Interna, el Gasto Real de la Mano de Obra Interna se efectúa a nivel de Responsable, es decir, se tiene en cuenta a la persona que realiza la labor.
 
-A través de la ventana de Ingreso de Mano de Obra s e administra el Gasto Real de Mano de Obra de la Orden de Trabajo.
 
-A diferencia del Presupuesto de Mano de Obra, el Gasto Real de la Mano de Obra  se efectúa a nivel de Responsable, es decir, se tiene en cuenta a la persona que  realiza la labor.
+A continuación se describen los campos que componen esta ventana; cuando s e requiera actualizar o ingresar nuevas personas que intervinieron en una OT, al gasto real de la misma, se deberán diligenciar los siguientes campos:
 
-A continuación se describen los campos que componen esta ventana; cuando s e requiera actualizar o ingresar nuevas personas que intervinieron en una **OT**, al  gasto  real de la misma, se deberán diligenciar los siguientes campos:
 
-**F. Uso:** (Fecha de Uso).  Es la fecha en la cual se utiliza el recurso.
+**Fecha de Uso:** Es la fecha en la cual se utiliza el recurso.
 
-**Oficio:** Es el Oficio al que pertenece el Responsable asignado.  Es  un campo de  solo lectura, que se establece una vez se selecciona el Responsable.
 
-**Responsable:** En este campo se selecciona el Responsable. Esto se hace descolgando el listado de Responsables, traído desde la tabla de Infraestructura.
+**OF:** Es el Oficio al que pertenece el Responsable asignado. Es un campo de solo lectura, que se establece una vez se selecciona el Responsable.
 
-**H. Hombre:** Es el número de Horas Hombre consumidas por el Responsable en cuestión.
 
-**MM:**  Es  el  número  de  Minutos,  que  junto  con  las  horas,  conforman el  tiempo total consumido.  Así, si se consumen 4 horas y media de un responsable, debe registrarse  **“4”** en el campo  **“H. Hombre”**, y  **“30”** en el campo  **“MM”**.
+**Responsable:** Es la persona que ha ejecutado la OT. Se elige el Responsable descolgando el listado de Responsables, traído desde la tabla de Inf raestructura.
 
-**Tipo Hr.:** Dado que un Responsable a través del Oficio del mismo puede poseer  varios tipos de Hora, cada uno con un valor distinto, en este campo se selecciona el Tipo de Hora adecuado.  AM sugiere el valor hora correspondiente, dependiendo del tipo elegido. Si  se elige el Tipo **otro”**, AM no sugiere ningún valor hora, y deja a decisión del usuario el valor a asignar.
 
-**Vr. Hora:** Es el valor unitario de la hora para el oficio del responsable en cuestión. AM sugiere el costo hora traído desde la tabla de Infraestructura para el oficio, en los casos en que el tipo hora es distinto de **otro”**. Si se elige el tipo de hora **otro”**, debe def inirse un valor hora manualmente.
+Filtrar por OF: Al seleccionar esta opción, en el campo “Responsable” solo se descuelgan los Responsables correspondientes al Oficio definido en la opción “OF”. De no hacerlo, en el campo “Responsable” se despliegan todos los “Responsables ejecutores” existentes en la tabla respectiva.
+
+H. Hombre: Es el número de Horas Hombre consumidas por el Responsable en cuestión.
+Minutos: Es el número de Minutos, que junto con las horas, conforman el tiempo total consumido. Así, si se consumen 3 horas y media de un responsable, debe registrarse “3” en el campo “H. Hombre”, y “30” en el campo “Minutos”.
+Tipo Hr.: Dado que un Responsable a través del Oficio del mismo puede poseer varios tipos de Hora, cada uno con un valor distinto, en este campo se selecciona el Tipo de Hora adecuado. AM sugiere el valor hora correspondiente, dependiendo del tipo elegido. Si se elige el Tipo “Otro”, AM no sugiere ningún valor hora, y deja a decisión del usuario el valor a asignar en este campo.
+Vlr. Hora: Es el valor unitario de la hora para el oficio del Responsable en cuestión. AM automáticamente sugiere el costo por hora traído desde la tabla de Infraestructura para el Oficio, en los casos en que el tipo hora es distinto de “Otro”, el campo se habilitará para
 
 **Tipo Asignación:** Este campo define al responsable de la mano de obra de la **OT**, el tipo de intervención que realiza en el tiempo que la orden de trabajo esté abierta. La  opción  **“Presupuesto para Histograma”** es para definir la proyección a futuro de la carga de trabajo del responsable; y  **“Ejecución Real”** es para definir la carga de trabajo ejecutada.
 
