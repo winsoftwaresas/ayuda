@@ -639,7 +639,7 @@ Por otro lado, para eliminar un registro de la tabla, se selecciona el registro 
 
 **Ingresar Materiales y Repuestos**
 
-(https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_16.png
+(https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_16.png)
 **Imagen 89.** Órdenes - Pasar Presupuesto a Gasto Real_
 
 En la gráfica anterior, Ventana de Ingreso de Materiales y Repuestos, se aprecian  sus componentes y sus respectivos contenidos.
