@@ -634,7 +634,7 @@ En el caso de actualizar la información de Mano de Obra Interna se da clic en <
 
 Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a>como se muestra en la siguiente imagen:
 
-(https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_18.png)
+(https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_19.png)
 **Imagen 91.** Órdenes - Gasto Real Eliminar MO_
 
 **Ingresar Materiales y Repuestos**
