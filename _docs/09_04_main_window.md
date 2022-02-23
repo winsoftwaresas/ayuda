@@ -569,7 +569,7 @@ Los datos de Gasto Real se pueden registrar en una OT en cualquier momento, mien
 
 Una vez que se traslada el Presupuesto al Gasto Real, el sistema muestra un mensaje de confirmación y la ventana de Gasto Real se visualiza de la siguiente manera:
 
-(https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_15.png
+(https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_15.png)
 _**Imagen 89.** Órdenes - Gasto Real_
 
 Esta tabla resume los totales de los gastos de Mano de Obra Interna, Mano de Obra Externa, Materiales y Repuestos y Otros Conceptos de Costo. A través de esta ventana de Gasto Real se puede administrar el Gasto Real de la OT. Se compone de dos zonas:
@@ -580,7 +580,7 @@ En la zona inferior, aparecen los botones para ingresar Mano de Obra Interna, Ma
 
 **Ingresar Mano de obra Interna**
 
-(https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_16.png
+(https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_16.png)
 **Imagen 89.** Órdenes - Gasto Real Mano de Obra Interna_
 
 A través de la ventana de GR de Ingreso de Mano de Obra Interna s e administra el Gasto Real de Mano de Obra de la OT.
@@ -624,17 +624,17 @@ A continuación se describen los campos que componen esta ventana; cuando s e re
 
 Una vez se diligencien estos campos se da clic en el ícono de Mas <span class="mdi mdi-plus-circle icon white"></span> para agregar, como se muestra a continuación:
 
-(https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_17.png
+(https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_17.png)
 **Imagen 90.** Órdenes - Gasto Real Ingresar MO_
 
 En el caso de actualizar la información de Mano de Obra Interna se da clic en <a class="btn gray">actualizar mano de obra interna</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
 
-(https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_18.png
+(https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_18.png)
 **Imagen 91.** Órdenes - Gasto Real Actualizar MO_
 
 Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a>como se muestra en la siguiente imagen:
 
-(https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_18.png
+(https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_18.png)
 **Imagen 91.** Órdenes - Gasto Real Eliminar MO_
 
 **Ingresar Materiales y Repuestos**
