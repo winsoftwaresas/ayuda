@@ -803,7 +803,8 @@ _**Imagen 100.** Órdenes - Evaluación de Servicio_
 
 ### Multimedia
 
-![Ventana Detalle](manualAM/0.images/cap11/chp11_img14.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img21.png)
+_**Imagen 101.** Órdenes - Multimedia_
 
 En la gráfica anterior, Ventana Multimedia, se aprecian sus componentes y sus respectivos contenidos.
 
