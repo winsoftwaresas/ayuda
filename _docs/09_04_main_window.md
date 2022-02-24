@@ -796,9 +796,10 @@ _**Imagen 100.** Órdenes - Gasto Real Eliminar Otro Concepto de Costo_
 
 ## Evaluación de Servicio
 
-Se puede realizar la evaluación del servicio prestado por el personal de mantenimiento o de servicios, en la **OT**  seleccionada.  La evaluación la debe realizar un usuario, previamente autorizado, quien fuera el receptor del servicio, una vez se ha ya cerrado la **OT**. Esta opción de evaluación se hace disponible, cuando  se  han definido   las  cinco  preguntas  de  evaluación,  en   **“Parámetros  para Evaluación del  Servicio”**, en  **“Valores por Defecto”**, en el módulo de  **“Administración”**. Es posible realizar la evaluación del servicio de una **OT**, cuando el solicitante se encuentra registrado como un usuario solicitante en el **AM** en el módulo de Administración en Usuarios.
+Se puede realizar la evaluación del servicio prestado por el personal de mantenimiento o de servicios en la OT seleccionada. La evaluación la debe realizar un usuario, previamente autorizado, quien fuera el receptor del servicio, una vez que se ha ya cerrado la OT, esta opción de evaluación se hace disponible, cuando se han definido las cinco preguntas de evaluación, en el módulo de “Administración”, “Valores por Defecto”, “Parámetros para Evaluación del Servicio. Es posible realizar la evaluación del servicio de una OT, cuando el solicitante se encuentra registrado como un usuario solicitante en el AM.
 
-![Ventana Detalle](manualAM/0.images/cap11/chp11_img13.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img20.png)
+_**Imagen 100.** Órdenes - Evaluación de Servicio_
 
 Esta opción está disponible cuando se han  definido las cinco preguntas de evaluación, en  **“Parámetros para Evaluación del Servicio”**, en   **“Valores por  Defecto”**, en  el  módulo de  **“Administración”** y también es posible realizar la evaluación del servicio a través del -**AMsi**- sin la necesidad de ingresar a –AM4G-.
 
