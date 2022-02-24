@@ -801,8 +801,6 @@ Se puede realizar la evaluación del servicio prestado por el personal de manten
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img20.png)
 _**Imagen 100.** Órdenes - Evaluación de Servicio_
 
-Esta opción está disponible cuando se han  definido las cinco preguntas de evaluación, en  **“Parámetros para Evaluación del Servicio”**, en   **“Valores por  Defecto”**, en  el  módulo de  **“Administración”** y también es posible realizar la evaluación del servicio a través del -**AMsi**- sin la necesidad de ingresar a –AM4G-.
-
 ### Multimedia
 
 ![Ventana Detalle](manualAM/0.images/cap11/chp11_img14.png)
