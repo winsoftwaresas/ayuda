@@ -632,7 +632,7 @@ En el caso de actualizar la información de Mano de Obra Interna se da clic en <
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_18.png)
 _**Imagen 91.** Órdenes - Gasto Real Actualizar MO_
 
-Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a>como se muestra en la siguiente imagen:
+Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_19.png)
 _**Imagen 92.** Órdenes - Gasto Real Eliminar MO_
@@ -678,7 +678,7 @@ En el caso de actualizar la información de Mano de Obra Externa, se da clic en 
 _**Imagen 95.** Órdenes - Gasto Real Actualizar ME_
 
 
-Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a>como se muestra en la siguiente imagen:
+Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img11.png)
 _**Imagen 96.** Órdenes - Gasto Real Eliminar ME_
@@ -738,7 +738,7 @@ En el caso de actualizar la información de Materiales y Repuestos, se da clic e
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img14.png)
 _**Imagen 95.** Órdenes - Gasto Real Actualizar M Y R_
 
-Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a>como se muestra en la siguiente imagen:
+Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img15.png)
 _**Imagen 96.** Órdenes - Gasto Real Eliminar M y R_
@@ -746,7 +746,7 @@ _**Imagen 96.** Órdenes - Gasto Real Eliminar M y R_
 **Ingresar otros Conceptos de Costo**
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img16.png)
-_**Imagen 977.** Órdenes - Gasto Real Otros Conceptos de Costo_
+_**Imagen 97.** Órdenes - Gasto Real Otros Conceptos de Costo_
 
 A través de la ventana de Ingreso de Otros Conceptos se administra el Gasto Real de “Otros Conceptos’’ de la OT.
 
@@ -759,15 +759,39 @@ A continuación se describen los campos que componen esta ventana; cuando se qui
 
 **Fecha de Uso:** Es la fecha en la cual se utiliza el recurso.
 
+**Concepto:** Es el “Otro Concepto‟ a cargar a la OT. Se selecciona descolgando la lista de otros Conceptos, traída desde su tabla en Infraestructura.
 
 
+**Nro. Unidades:** Se define el número de unidades consumidas del Concepto de Costo seleccionado anteriormente.
 
 
+**Vlr. Unitario:** Es el valor presupuestado del “Otro Concepto Costo”. AM sugiere el valor unitario del concepto que se encuentra ingresando al sistema. Sin embargo, es modificable por el usuario.
 
 
+**Moneda:** Este campo de solo lectura, muestra la moneda definida al otro Concepto de Costo en la tabla de Infraestructura.
 
 
+**Vlr. Total:** Es el costo total consumido del “Otro Concepto Costo” teniendo en cuenta el número de unidades y el valor unitario.
 
+
+**Info. Adicional:** Es un campo donde se define un pequeño comentario sobre el consumo.
+
+Una vez se diligencien estos campos se da clic en el ícono de Mas <span class="mdi mdi-plus-circle icon white"></span> para agregar, como se muestra a continuación:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img17.png)
+_**Imagen 98.** Órdenes - Gasto Real Ingresar Otros Conceptos de Costo_
+
+En el caso de actualizar la información de Materiales y Repuestos, se da clic en <a class="btn gray">Actualizar Otro Concepto</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img18.png)
+_**Imagen 99.** Órdenes - Gasto Real Actualizar Otros Conceptos de Costo_
+
+Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img19.png)
+_**Imagen 100.** Órdenes - Gasto Real Eliminar Otro Concepto de Costo_
+
+>**Nota:** Para finalizar, hacer clic en el botón <a class="btn gray">ir a la matriz</a> para regresar a la ventana principal de Gasto Real y luego para acentar los cambios en el Gasto Real de la OT se debe dar clic en <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a>.
 
 ## Evaluación de Servicio
 
