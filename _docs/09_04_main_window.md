@@ -564,12 +564,12 @@ Por otro lado, para eliminar un registro de la tabla de Otro Concepto de Costo, 
 Para ingresar a esta opción, se debe dar clic en la pestaña “Gasto Real” de la ventana detalle de OT.
 Los datos de Gasto Real se pueden registrar en una OT en cualquier momento, mientras esa OT no exija Control Presupuestal. Pero si la OT exige Control Presupuestal, solo se puede registrar el Gasto Real después de haber aprobado el Presupuesto, en cuyo caso, ya no es posible modificarlo. Una vez aprobado, este Presupuesto debe pasarse al Gasto Real a través del botón <a class="btn gray">pasar el presupuesto al gasto real</a> como se muestra a continuación:
 
-(https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_14.png)
-**Imagen 88.** Órdenes - Pasar Presupuesto a Gasto Real_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_14.png)
+_**Imagen 88.** Órdenes - Pasar Presupuesto a Gasto Real_
 
 Una vez que se traslada el Presupuesto al Gasto Real, el sistema muestra un mensaje de confirmación y la ventana de Gasto Real se visualiza de la siguiente manera:
 
-(https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_15.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_15.png)
 _**Imagen 89.** Órdenes - Gasto Real_
 
 Esta tabla resume los totales de los gastos de Mano de Obra Interna, Mano de Obra Externa, Materiales y Repuestos y Otros Conceptos de Costo. A través de esta ventana de Gasto Real se puede administrar el Gasto Real de la OT. Se compone de dos zonas:
@@ -580,8 +580,8 @@ En la zona inferior, aparecen los botones para ingresar Mano de Obra Interna, Ma
 
 **Ingresar Mano de obra Interna**
 
-(https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_16.png)
-**Imagen 89.** Órdenes - Gasto Real Mano de Obra Interna_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_16.png)
+_**Imagen 89.** Órdenes - Gasto Real Mano de Obra Interna_
 
 A través de la ventana de GR de Ingreso de Mano de Obra Interna s e administra el Gasto Real de Mano de Obra de la OT.
 
@@ -624,69 +624,174 @@ A continuación se describen los campos que componen esta ventana; cuando s e re
 
 Una vez se diligencien estos campos se da clic en el ícono de Mas <span class="mdi mdi-plus-circle icon white"></span> para agregar, como se muestra a continuación:
 
-(https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_17.png)
-**Imagen 90.** Órdenes - Gasto Real Ingresar MO_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_17.png)
+_**Imagen 90.** Órdenes - Gasto Real Ingresar MO_
 
 En el caso de actualizar la información de Mano de Obra Interna se da clic en <a class="btn gray">actualizar mano de obra interna</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
 
-(https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_18.png)
-**Imagen 91.** Órdenes - Gasto Real Actualizar MO_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_18.png)
+_**Imagen 91.** Órdenes - Gasto Real Actualizar MO_
 
-Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a>como se muestra en la siguiente imagen:
+Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
 
-(https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_19.png)
-**Imagen 91.** Órdenes - Gasto Real Eliminar MO_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_19.png)
+_**Imagen 92.** Órdenes - Gasto Real Eliminar MO_
 
-**Ingresar Materiales y Repuestos**
+**Ingresar Mano de Obra Externa**
+![Procesar imagen]
+(https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img08.png)
+_**Imagen 93.** Órdenes - Gasto Real Mano de Obra Externa_
 
-(https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_16.png)
-**Imagen 89.** Órdenes - Pasar Presupuesto a Gasto Real_
+A través de la ventana de Ingreso de Mano de Obra Externa se administra el Gasto Real de Mano de Obra Externa de la OT.
+Es importante recalcar que el Gasto Real de Mano de Obra Externa de una OT, se prepara a nivel del Responsable Ejecutor Externo, es decir, quiénes fueron los encargados de ejecutar la labor.
 
-En la gráfica anterior, Ventana de Ingreso de Materiales y Repuestos, se aprecian  sus componentes y sus respectivos contenidos.
 
-A través de la ventana de Ingreso de Materiales y Repuestos se administra el  consumo real de Materiales y Repuestos de la Orden de Trabajo.
+A continuación se describen los campos que componen esta ventana; cuando se quiera actualizar o ingresar nuevos Responsables ejecutores externos a la OT, se deberán diligenciar los siguientes campos:
 
-A continuación se describen los campos que componen esta ventana; cuando se  quiera actualizar o ingresar nuevos Materiales y Repuestos al gasto real de una **OT**, se deberán diligenciar los siguientes campos:
 
 **Fecha de Uso:** Es la fecha en la cual se utiliza el recurso.
 
-**Al macén:** Se elige el almacén dónde se encuentra el repuesto a ingresar al Gasto Real.
 
-**Repuesto:** En este campo se digita directamente el código del repuesto a cargar a la **OT**. Si no se ha seleccionado un almacén, no es posible seleccionar el repuesto. También   puede   elegirse   el   repuesto,   haciendo   clic   en   los    binoculares,   y seleccionado el repuesto desde la lista. Una vez elegido el repuesto, aparece al lado derecho su descripción.
+**OF:** Es el Oficio al que pertenece el Responsable Externo asignado. Es un campo de solo lectura, que se establece una vez se selecciona el Responsable.
 
-**Descripción:** Es   un  campo  de  solo 	lectura,  que   muestra  la  descripción  del repuesto seleccionado.
 
-**Tipo de trabajo:** Este campo muestra el Tipo de Trabajo para el cual se carga el Material o Repuesto.
+**Responsable:** Es el Responsable Externo que ha ejecutado la OT. Para seleccionarlo se descuelga el listado de Responsables Externos, traído desde la tabla de Infraestructura.
 
-**Unidad  de  Medida:**  Es  un  campo  de  solo  lectura  que  muestra  la  unidad  de consumo del repuesto seleccionado.
 
-**Cantidad:** Es  la  cantidad  a  cargar,  utilizada,   del   repuesto seleccionado.
+**Filtrar por OF:** Al seleccionar esta opción, en el campo “Responsable” solo se descuelgan los Responsables Externos correspondientes al Oficio definido en la opción “OF”. De no hacerlo, en el campo “Responsable” se despliegan todos los “Responsables ejecutores Externos” existentes en la tabla respectiva.
 
-**Valor Unitario:** Es el valor unitario del repuesto seleccionado. AM sugiere el valor   unitario   ya   establecido  del   Repuesto  en   cuestión,  sin   embargo   puede cambiarse.
+
+**Costo Unitario por hora/visita:** Se digita el valor o el costo unitario por hora o por visita de parte del Responsable Ejecutor Externo para esa actividad programada.
+
+
+**TT:** Este campo es informativo. Muestra el TT que tiene definido el Oficio seleccionado, se establece automáticamente una vez se ha seleccionado el Responsable y se visualiza en la tabla de Mano de Obra Interna.
+
+
+Una vez se diligencien estos campos se da clic en el ícono de Mas <span class="mdi mdi-plus-circle icon white"></span> para agregar, como se muestra a continuación:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img09.png)
+_**Imagen 94.** Órdenes - Gasto Real Ingresar ME_
+
+En el caso de actualizar la información de Mano de Obra Externa, se da clic en <a class="btn gray">Actualizar Mano de Obra Externa</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img10.png)
+_**Imagen 95.** Órdenes - Gasto Real Actualizar ME_
+
+
+Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img11.png)
+_**Imagen 96.** Órdenes - Gasto Real Eliminar ME_
+
+**Ingresar Materiales y Repuestos**
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img12.png)
+_**Imagen 97.** Órdenes - Gasto Real Materiales y Repuestos_
+
+A través de la ventana de Ingreso de Materiales y Repuestos se administra el consumo real de Materiales y Repuestos de la OT.
+
+
+A continuación se describen los campos que componen esta ventana; cuando se quiera actualizar o ingresar nuevos Materiales y Repuestos al gasto real de una OT, se deberán diligenciar los siguientes campos:
+
+
+**Fecha de Uso:** Es la fecha en la cual se utiliza el recurso.
+
+
+**Almacén:** Se elige el almacén dónde se encuentra el Repuesto a consumir y a ingresar al Gasto Real.
+
+**Buscar Por:** Este campo es de solo lectura y muestra por defecto la opción de Código. Una vez se elige el Almacén, este campo se habilita y lista las opciones por las cuales se puede buscar el ítem a relacionar. Las opciones son: Código, Referencia, Cod. Barra Int y Cod. Barra Prov.
+
+
+**M y R:** Este campo se habilita una vez se haya seleccionado el Almacén. Existen dos formas de seleccionar el Repuesto:
+
+
+La primera consiste de forma manual solo digitando el valor correspondiente al código, referencia, código de barras interno o proveedor del Material y Repuesto.
+
+
+La segunda consiste en buscar el Material y Repuesto, a través del visor de Material y Repuesto. Para ello se da un clic sobre el icono de filtro de Repuesto <span class="mdi mdi-filter-variant"></span>. Acto seguido se muestra la ventana de visor de Repuesto con la posibilidad de hacer allí subgrupos. Una vez se encuentra el Repuesto, se selecciona dando un clic sobre cualquiera de sus campos, seguidamente un clic sobre el botón <a class="btn white">Aceptar</a> de esa ventana o también es posible seleccionarlo dando doble clic sobre el registro seleccionado. Inmediatamente ese código aparece en el campo de M y R y automáticamente se actualizan los campos de UM y Valor Unitario.
+
+
+**Descripción M y R:** Es un campo de solo lectura, que muestra la descripción del material y repuesto seleccionado.
+
+
+**Cantidad:** Es la cantidad que se va a consumir en la ejecución de esa OT para el repuesto seleccionado.
+
+
+**UM:** Es un campo de solo lectura que muestra la unidad de consumo del repuesto seleccionado.
+
+
+**Vlr. Unitario:** Es el valor unitario del repuesto seleccionado. AM sugiere el valor unitario ya establecido del Repuesto en cuestión, sin embargo, puede cambiarse.
+
+
+**TT:** Este campo es informativo. Muestra el TT que tiene definido el Material y Repuesto seleccionado, se establece automáticamente una vez se ha seleccionado el Material y Repuesto. También, se visualiza en la tabla de Materiales y Repuestos.
+
+
+**Vlr. Total:** Este campo es informativo y es calculado por el sistema, contiene el valor total consumido para ese Material y Repuesto. Es el producto del Vlr. Unitario por la Cantidad. Se visualiza en la tabla de Materiales y Repuestos.
+
+Una vez se diligencien estos campos se da clic en el ícono de Mas <span class="mdi mdi-plus-circle icon white"></span> para agregar, como se muestra a continuación:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img13.png)
+_**Imagen 98.** Órdenes - Gasto Real Ingresar M y R_
+
+En el caso de actualizar la información de Materiales y Repuestos, se da clic en <a class="btn gray">Actualizar Material y Repuesto</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img14.png)
+_**Imagen 95.** Órdenes - Gasto Real Actualizar M Y R_
+
+Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img15.png)
+_**Imagen 96.** Órdenes - Gasto Real Eliminar M y R_
 
 **Ingresar otros Conceptos de Costo**
 
-![Ventana Detalle](manualAM/0.images/cap11/chp11_img12.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img16.png)
+_**Imagen 97.** Órdenes - Gasto Real Otros Conceptos de Costo_
 
-En la  gráfica anterior,  Ventana de Ingreso de  otros  conceptos, se  aprecian  sus componentes y sus respectivos contenidos.
+A través de la ventana de Ingreso de Otros Conceptos se administra el Gasto Real de “Otros Conceptos’’ de la OT.
 
-A  través  de  la  ventana de  Ingreso de  otros  Conceptos se  administra el  Gasto Real de \*\* “otros Conceptos’’ de la Orden de Trabajo.
 
-A continuación se describen los campos que componen esta ventana; cuando  se quiera actualizar  o  ingresar  nuevos  otros  Conceptos al  gasto  real  de  una  **OT**, se  deberán diligenciar los siguientes campos:
+A continuación se describen los campos que componen esta ventana; cuando se quiera actualizar o ingresar nuevos Otros Conceptos de Costo al Gasto Real de una OT, se deberán diligenciar los siguientes campos:
 
-**F. Uso:** (Fecha de Uso).  Es la fecha en la cual se utiliza el recurso.
 
-**Concepto:** Es el otro  Concepto a cargar a la **OT**. Se selecciona descolgando la lista de otros Conceptos, traída desde su tabla en Infraestructura.
+**Concepto:** Es el “Otro Concepto” a presupuestar. Se selecciona descolgando la lista de Otros Conceptos, traída desde su tabla en Infraestructura.
 
-**Nro. De Unidades:** Es la cantidad del concepto seleccionado anteriormente.
 
-**Valor Unitario:** Es el valor presupuestado del **otro Concepto”**. AM sugiere el valor unitario del concepto que se encuentra ingresando al sistema.
+**Fecha de Uso:** Es la fecha en la cual se utiliza el recurso.
 
-**Valor Total:** Es el costototal presupuestado del **otro Concepto”** teniendo en cuenta el número de unidades y el valor unitario.
+**Concepto:** Es el “Otro Concepto‟ a cargar a la OT. Se selecciona descolgando la lista de otros Conceptos, traída desde su tabla en Infraestructura.
 
-**Información  Adicional:** Es  un campo donde se  define un pequeño  comentario sobre el consumo.
 
-Al hacer clic en el botón `<a class="btn">`Ir a Matriz`</a>`, se regresa a la ventana principal de Gasto Real.
+**Nro. Unidades:** Se define el número de unidades consumidas del Concepto de Costo seleccionado anteriormente.
+
+
+**Vlr. Unitario:** Es el valor presupuestado del “Otro Concepto Costo”. AM sugiere el valor unitario del concepto que se encuentra ingresando al sistema. Sin embargo, es modificable por el usuario.
+
+
+**Moneda:** Este campo de solo lectura, muestra la moneda definida al otro Concepto de Costo en la tabla de Infraestructura.
+
+
+**Vlr. Total:** Es el costo total consumido del “Otro Concepto Costo” teniendo en cuenta el número de unidades y el valor unitario.
+
+
+**Info. Adicional:** Es un campo donde se define un pequeño comentario sobre el consumo.
+
+Una vez se diligencien estos campos se da clic en el ícono de Mas <span class="mdi mdi-plus-circle icon white"></span> para agregar, como se muestra a continuación:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img17.png)
+_**Imagen 98.** Órdenes - Gasto Real Ingresar Otros Conceptos de Costo_
+
+En el caso de actualizar la información de Materiales y Repuestos, se da clic en <a class="btn gray">Actualizar Otro Concepto</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img18.png)
+_**Imagen 99.** Órdenes - Gasto Real Actualizar Otros Conceptos de Costo_
+
+Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img19.png)
+_**Imagen 100.** Órdenes - Gasto Real Eliminar Otro Concepto de Costo_
+
+>**Nota:** Para finalizar, hacer clic en el botón <a class="btn gray">ir a la matriz</a> para regresar a la ventana principal de Gasto Real y luego para acentar los cambios en el Gasto Real de la OT se debe dar clic en <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a>.
 
 ## Evaluación de Servicio
 
