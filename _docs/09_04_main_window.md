@@ -637,32 +637,38 @@ Por otro lado, para eliminar un registro de la tabla, se selecciona el registro 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_19.png)
 _**Imagen 92.** Órdenes - Gasto Real Eliminar MO_
 
+**Ingresar Mano de Obra Externa**
+![Procesar imagen]
+(https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_19.png)
+_**Imagen 93.** Órdenes - Gasto Real Mano de Obra Externa_
+
+A través de la ventana de Ingreso de Mano de Obra Externa se administra el Gasto Real de Mano de Obra Externa de la OT.
+Es importante recalcar que el Gasto Real de Mano de Obra Externa de una OT, se prepara a nivel del Responsable Ejecutor Externo, es decir, quiénes fueron los encargados de ejecutar la labor.
+
+
+A continuación se describen los campos que componen esta ventana; cuando se quiera actualizar o ingresar nuevos Responsables ejecutores externos a la OT, se deberán diligenciar los siguientes campos:
+Fecha de Uso: Es la fecha en la cual se utiliza el recurso.
+OF: Es el Oficio al que pertenece el Responsable Externo asignado. Es un campo de solo lectura, que se establece una vez se selecciona el Responsable.
+Responsable: Es el Responsable Externo que ha ejecutado la OT. Para seleccionarlo se descuelga el listado de Responsables Externos, traído desde la tabla de Infraestructura.
+Filtrar por OF: Al seleccionar esta opción, en el campo “Responsable” solo se descuelgan los Responsables Externos correspondientes al Oficio definido en la opción “OF”. De no hacerlo, en el campo “Responsable” se despliegan todos los “Responsables ejecutores Externos” existentes en la tabla respectiva.
+Costo Unitario por hora/visita: Se digita el valor o el costo unitario por hora o por visita de parte del Responsable Ejecutor Externo para esa actividad programada.
+TT: Este campo es informativo. Muestra el TT que tiene definido el Oficio seleccionado, se establece automáticamente una vez se ha seleccionado el Responsable y se visualiza en la tabla de Mano de Obra Interna.
+Una vez se diligencien estos campos se da clic en el ícono de Mas (+) para agregar, como se muestra a continuación:
+
+
+
+
 **Ingresar Materiales y Repuestos**
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_16.png)
-_**Imagen 93.** Órdenes - Pasar Presupuesto a Gasto Real_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img08.png)
+_**Imagen 94.** Órdenes - Gasto Real Materiales y Repuestos_
 
-En la gráfica anterior, Ventana de Ingreso de Materiales y Repuestos, se aprecian sus componentes y sus respectivos contenidos.
 
-A través de la ventana de Ingreso de Materiales y Repuestos se administra el consumo real de Materiales y Repuestos de la Órden de Trabajo.
 
-A continuación se describen los campos que componen esta ventana; cuando se quiera actualizar o ingresar nuevos Materiales y Repuestos al gasto real de una OT, se deberán diligenciar los siguientes campos:
 
-**Fecha de Uso:** Es la fecha en la cual se utiliza el recurso.
 
-**Almacén:** Se elige el almacén dónde se encuentra el repuesto a ingresar al Gasto Real.
 
-**Repuesto:** En este campo se digita directamente el código del repuesto a cargar a la OT. Si no se ha seleccionado un almacén, no es posible seleccionar el repuesto. También puede elegirse el repuesto,   haciendo clic en los binoculares, y seleccionado el repuesto desde la lista. Una vez elegido el repuesto, aparece al lado derecho su descripción.
 
-**Descripción:** Es un campo de solo lectura, que muestra  la  descripción  del repuesto seleccionado.
-
-**Tipo de trabajo:** Este campo muestra el Tipo de Trabajo para el cual se carga el Material o Repuesto.
-
-**Unidad  de  Medida:**  Es  un  campo  de  solo  lectura  que  muestra  la  unidad  de consumo del repuesto seleccionado.
-
-**Cantidad:** Es  la  cantidad  a  cargar,  utilizada,   del   repuesto seleccionado.
-
-**Valor Unitario:** Es el valor unitario del repuesto seleccionado. AM sugiere el valor   unitario   ya   establecido  del   Repuesto  en   cuestión,  sin   embargo   puede cambiarse.
 
 **Ingresar otros Conceptos de Costo**
 
@@ -672,7 +678,7 @@ En la  gráfica anterior,  Ventana de Ingreso de  otros  conceptos, se  aprecian
 
 A  través  de  la  ventana de  Ingreso de  otros  Conceptos se  administra el  Gasto Real de \*\* “otros Conceptos’’ de la Orden de Trabajo.
 
-A continuación se describen los campos que componen esta ventana; cuando  se quiera actualizar  o  ingresar  nuevos  otros  Conceptos al  gasto  real  de  una  **OT**, se  deberán diligenciar los siguientes campos:
+A continuación se describen los campos que componen esta ventana; cuando  se quiera actualizar  o  ingresar  nuevos  otros  Conceptos al  gasto real  de  una  **OT**, se  deberán diligenciar los siguientes campos:
 
 **F. Uso:** (Fecha de Uso).  Es la fecha en la cual se utiliza el recurso.
 
