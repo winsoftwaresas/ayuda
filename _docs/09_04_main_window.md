@@ -638,6 +638,7 @@ Por otro lado, para eliminar un registro de la tabla, se selecciona el registro 
 _**Imagen 92.** Órdenes - Gasto Real Eliminar MO_
 
 **Ingresar Mano de Obra Externa**
+
 ![Procesar imagen]
 (https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img08.png)
 _**Imagen 93.** Órdenes - Gasto Real Mano de Obra Externa_
