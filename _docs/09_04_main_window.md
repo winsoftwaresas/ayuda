@@ -745,27 +745,29 @@ _**Imagen 96.** Órdenes - Gasto Real Eliminar M y R_
 
 **Ingresar otros Conceptos de Costo**
 
-![Ventana Detalle](manualAM/0.images/cap11/chp11_img12.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img16.png)
+_**Imagen 977.** Órdenes - Gasto Real Otros Conceptos de Costo_
 
-En la  gráfica anterior,  Ventana de Ingreso de  otros  conceptos, se  aprecian  sus componentes y sus respectivos contenidos.
+A través de la ventana de Ingreso de Otros Conceptos se administra el Gasto Real de “Otros Conceptos’’ de la OT.
 
-A  través  de  la  ventana de  Ingreso de  otros  Conceptos se  administra el  Gasto Real de \*\* “otros Conceptos’’ de la Orden de Trabajo.
 
-A continuación se describen los campos que componen esta ventana; cuando  se quiera actualizar  o  ingresar  nuevos  otros  Conceptos al  gasto real  de  una  **OT**, se  deberán diligenciar los siguientes campos:
+A continuación se describen los campos que componen esta ventana; cuando se quiera actualizar o ingresar nuevos Otros Conceptos de Costo al Gasto Real de una OT, se deberán diligenciar los siguientes campos:
 
-**F. Uso:** (Fecha de Uso).  Es la fecha en la cual se utiliza el recurso.
 
-**Concepto:** Es el otro  Concepto a cargar a la **OT**. Se selecciona descolgando la lista de otros Conceptos, traída desde su tabla en Infraestructura.
+**Concepto:** Es el “Otro Concepto” a presupuestar. Se selecciona descolgando la lista de Otros Conceptos, traída desde su tabla en Infraestructura.
 
-**Nro. De Unidades:** Es la cantidad del concepto seleccionado anteriormente.
 
-**Valor Unitario:** Es el valor presupuestado del **otro Concepto”**. AM sugiere el valor unitario del concepto que se encuentra ingresando al sistema.
+**Fecha de Uso:** Es la fecha en la cual se utiliza el recurso.
 
-**Valor Total:** Es el costototal presupuestado del **otro Concepto”** teniendo en cuenta el número de unidades y el valor unitario.
 
-**Información  Adicional:** Es  un campo donde se  define un pequeño  comentario sobre el consumo.
 
-Al hacer clic en el botón `<a class="btn">`Ir a Matriz`</a>`, se regresa a la ventana principal de Gasto Real.
+
+
+
+
+
+
+
 
 ## Evaluación de Servicio
 
