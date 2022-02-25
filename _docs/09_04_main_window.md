@@ -9,14 +9,14 @@ order: 09_04
 date: 2022-02-10T14:45:29.041Z
 ---
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img02.png)
-***Imagen 67.** Órdenes - Acceso directo*
+**\*Imagen 67.** Órdenes - Acceso directo*
 
 Se accede desde el comando <a class="btn blue">órdenes</a> en la barra de menú principal de **AM**. A través de esta ventana se permite crear Órdenes de Trabajo manuales y Administrar la totalidad de las Órdenes activas, Pendientes de Ejecución, o listas para ser enviadas a Historia. Igualmente, desde esta ventana se Administran las Órdenes de Trabajo Programadas (las que se generan desde Programas de Mantenimiento), a continuación se ilustran las porciones que la componen:
 
 ## Ventana Visor
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img03.png)
-***Imagen 68.** Órdenes - Ventana Visor*
+**\*Imagen 68.** Órdenes - Ventana Visor*
 
 Desde esta ventana es posible observar la lista de las Órdenes de Trabajo existentes o un subconjunto de ellas (efectuado a través de un subgrupo <span class="mdi mdi-filter-variant"></span>). Se puede hacer clic en alguna de ellas, para visualizar la información completa de la Orden en una nueva ventana (Ventana Detalle).
 
@@ -41,7 +41,7 @@ La definición de colores está definida, según la siguiente convención:
 ## Ventana Detalle
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img04.png)
-***Imagen 69.** Órdenes - Ventana Detalle*
+**\*Imagen 69.** Órdenes - Ventana Detalle*
 
 En la gráfica anterior, Ventana Detalle de   Órdenes de Trabajo, se aprecian sus componentes y sus respectivos contenidos. En esta ventana Detalle se encuentra la información relevante a la OT seleccionada en el Visor. A través de ella se Administran los datos genéricos de la Órden de Trabajo. Es desde esta ventana que se crean Órdenes de Trabajo Manuales.
 
@@ -131,7 +131,7 @@ Cuando ha concluido la ejecución de la OT, es posible utilizarlo para registrar
 Es posible saber cuáles OT son de tipo Metrología, Preventiva/Programada, Correctiva y Cerrada Parcial, si tienen Multimedia y Servicio Evaluado directamente desde la ventana visor, sobreponiendo el cursor en el ícono de Indicadores <span class="mdi mdi-message-alert"></span> ubicado en la parte superior derecha de la ventana mostrando un conjunto de pelotas de colores que indican el tipo de información definida y asociada, como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img04_1.png)
-***Imagen 70.** Órdenes - Ventana Detalle*
+**\*Imagen 70.** Órdenes - Ventana Detalle*
 
 El significado de los colores es el siguiente:
 
@@ -155,7 +155,7 @@ Cada criterio aparece inicializado en un valor global que permite mostrar todas 
 El programa permite entonces hacer selección de un grupo de OT de acuerdo con los criterios seleccionados en la siguiente ventana:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img05.png)
-***Imagen 71.** Órdenes - Ventana Subgrupo*
+**\*Imagen 71.** Órdenes - Ventana Subgrupo*
 
 Los campos de datos que constituyen criterio de selección, se agrupan en dos bloques:
 
@@ -324,12 +324,12 @@ Estos criterios actúan en comparación con el valor digitado en la casilla que 
 Esta opción conduce a la tabla de Acciones Técnicas en una nueva pestaña de la OT. Esta tabla está ligada a la Infraestructura, creada con su mismo nombre, que contiene un listado de Acciones Técnicas frecuentes en un área de Mantenimiento. Con la información contenida allí, se pretende describir, breve pero concretamente, la actividad general realizada en una OT. Las Acciones Técnicas en una OT se pueden definir, después de haber seleccionado en la ventana Detalle de la Ficha Técnica de la OT en el momento de su creación, el cuadro llamado <a class="btn white"><span class="mdi mdi-checkbox-blank-outline"> manejo de costos abc</span></a> o bien, haberlas definido en la creación del Programa de Mantenimiento, continuación se muestra la porción Acciones Técnicas de una OT:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img06.png)
-***Imagen 72.** Órdenes - Ventana Detalle Acciones Técnicas* 
+**\*Imagen 72.** Órdenes - Ventana Detalle Acciones Técnicas* 
 
 En la pestaña de Acciones Técnicas de la Ventana Detalle de OT aparece un nuevo recuadro en el que irán apareciendo las que se vayan adicionando a través de un botón Adicionar Acción Técnica.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img06_01.png)
-***Imagen 73.** Órdenes - Adicionar Acciones Técnicas* 
+**\*Imagen 73.** Órdenes - Adicionar Acciones Técnicas* 
 
 A continuación se describen los campos que componen esta ventana de información adicional:
 
@@ -366,7 +366,7 @@ ya no será posible modificar este último.
 Se ingresa mediante un clic en la pestaña “Presupuesto” en la ventana detalle de OT. 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_01.png)
-***Imagen 74.** Órdenes - Presupuesto* 
+**\*Imagen 74.** Órdenes - Presupuesto* 
 
 En esta ventana se resumen los totales de los costos presupuestados de Mano de Obra
 Interna, Mano de Obra Externa, Materiales y Repuestos y Otros Conceptos de Costo, para
@@ -375,7 +375,7 @@ acceder a cada uno de ellos se da un clic en el botón acorde a lo que se necesi
 **Ingresar Mano de Obra Interna**
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_02.png)
-***Imagen 75.** Órdenes - Mano de Obra Interna* 
+**\*Imagen 75.** Órdenes - Mano de Obra Interna* 
 
 A través de la ventana de Ingreso de Mano de Obra Interna se administra el Presupuesto
 de Mano de Obra de la OT.
@@ -413,25 +413,25 @@ media, se deduce entonces que entre las 2 personas se consumirá este tiempo.
 Una vez que se diligencian todos los campos se da clic en el ícono del Más <span class="mdi mdi-plus-circle icon white"></span>, seguidamente se observa que la información creada se muestra en el recuadro de la mano de Obra Interna, ubicada al lado izquierdo.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_02.png)
-***Imagen 76.** Órdenes - Ingresar Mano de Obra Interna* 
+**\*Imagen 76.** Órdenes - Ingresar Mano de Obra Interna* 
 
 Una vez terminado el proceso, hacer clic en el botón <a class="btn gray ">ir a la matriz</a> para regresar a la ventana principal de Presupuesto.
 
 Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón <a class="btn gray">actualizar mano obra interna</a>.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_03.png)
-***Imagen 77.** Órdenes - Actualizar Mano de Obra Interna* 
+**\*Imagen 77.** Órdenes - Actualizar Mano de Obra Interna* 
 
 Por otro lado, para eliminar un registro de la tabla de Mano de Obra Interna, se selecciona
 el registro y luego se da clic al icono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario de si está seguro de eliminar el registro y finalmente se da clic en <a class="btn">Aceptar</a>, como se muestra en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_04.png)
-***Imagen 78.** Órdenes - Eliminar Mano de Obra Interna* 
+**\*Imagen 78.** Órdenes - Eliminar Mano de Obra Interna* 
 
 **Ingresar Mano de Obra Externa**
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_05.png)
-***Imagen 79.** Órdenes - Mano de Obra Externa* 
+**\*Imagen 79.** Órdenes - Mano de Obra Externa* 
 
 A través de la ventana de Ingreso de Mano de Obra Externa se administra el Presupuesto de Mano de Obra Externa de la OT.
 
@@ -455,7 +455,7 @@ Una vez que se diligencian todos los campos se da clic en el icono del Más <spa
 Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón <a class="btn gray">actualizar mano obra externa</a>.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_06.png)
-***Imagen 80.** Órdenes - Actualizar Mano de Obra Externa* 
+**\*Imagen 80.** Órdenes - Actualizar Mano de Obra Externa* 
 
 Una vez terminado el proceso, hacer clic en el botón <a class="btn gray">ir a Matriz</a>. para regresar a la ventana
 principal de Presupuesto.
@@ -463,12 +463,12 @@ principal de Presupuesto.
 Por otro lado, para eliminar un registro de la tabla de Mano de Obra Externa, se selecciona el registro y luego se da clic al icono de eliminar <span class="mdi mdi-delete"></span> sale un mensaje de alerta que indica al usuario de si está seguro de eliminar el registro y finalmente se da clic en <a class="btn">Aceptar</a>, como se muestra en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_07.png)
-***Imagen 81.** Órdenes - Eliminar Mano de Obra Externa* 
+**\*Imagen 81.** Órdenes - Eliminar Mano de Obra Externa* 
 
 **Ingresar Materiales y Repuestos**
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_08.png)
-***Imagen 82.** Órdenes - Materiales y Repuestos* 
+**\*Imagen 82.** Órdenes - Materiales y Repuestos* 
 
 A través de la ventana de Ingreso de Materiales y Repuestos se administra el Presupuesto de Materiales y Repuestos de la OT.
 A la izquierda aparece el listado de los Almacenes y Materiales y Repuestos presupuestados.
@@ -505,19 +505,19 @@ Una vez se diligencien estos campos se da clic en el ícono de Más <span class=
 Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón <a class="btn gray">actualizar material y repuesto</a>.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_09.png)
-***Imagen 83.** Órdenes - Actualizar Materiales y Repuestos* 
+_**Imagen 83.** Órdenes - Actualizar Materiales y Repuestos_
 
 Una vez terminado el proceso, hacer clic en el botón <a class="btn gray">ir a matriz</a> para regresar a la ventana principal de Presupuesto.
 
 Por otro lado, para eliminar un registro de la tabla de Material y Repuesto, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-lock"></span> sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">Aceptar</a> como se muestra en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_10.png)
-***Imagen 84.** Órdenes - Eliminar Materiales y Repuestos*
+**\*Imagen 84.** Órdenes - Eliminar Materiales y Repuestos*
 
 **Ingresar otros Conceptos**
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_11.png)
-***Imagen 85.** Órdenes - Otros Conceptos de Costo*
+_**Imagen 85.** Órdenes - Otros Conceptos de Costo_
 
 A través esta ventana de Ingreso de Otros Conceptos se administra el Presupuesto de Otros Conceptos de la OT.
 
@@ -554,7 +554,7 @@ Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar 
 Por otro lado, para eliminar un registro de la tabla de Otro Concepto de Costo, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, mostrando un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_13.png)
-***Imagen 87.** Órdenes - Eliminar Otro Concepto de Costo*
+_**Imagen 87.** Órdenes - Eliminar Otro Concepto de Costo_
 
 > **Nota:** Finalmente, al hacer clic en el botón <a class="btn gray">ir a la matriz</a>, se regresa a la ventana principal de Presupuesto y para que todos estos cambios queden grabados en la OT se debe dar
 > clic en <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a>.
@@ -585,35 +585,25 @@ _**Imagen 89.** Órdenes - Gasto Real Mano de Obra Interna_
 
 A través de la ventana de GR de Ingreso de Mano de Obra Interna s e administra el Gasto Real de Mano de Obra de la OT.
 
-
 A diferencia del Presupuesto de Mano de Obra Interna, el Gasto Real de la Mano de Obra Interna se efectúa a nivel de Responsable, es decir, se tiene en cuenta a la persona que realiza la labor.
 
-
-A continuación se describen los campos que componen esta ventana; cuando s e requiera actualizar o ingresar nuevas personas que intervinieron en una OT, al gasto real de la misma, se deberán diligenciar los siguientes campos:
-
+A continuación se describen los campos que componen esta ventana; cuando se requiera actualizar o ingresar nuevas personas que intervinieron en una OT, al gasto real de la misma, se deberán diligenciar los siguientes campos:
 
 **Fecha de Uso:** Es la fecha en la cual se utiliza el recurso.
 
-
 **OF:** Es el oficio al que pertenece el Responsable asignado. Es un campo de solo lectura, que se establece una vez se selecciona el Responsable.
-
 
 **Responsable:** Es la persona que ha ejecutado la OT. Se elige el Responsable descolgando el listado de Responsables, traído desde la tabla de Infraestructura.
 
-
 **Filtrar por OF:** Al seleccionar esta opción, en el campo “Responsable” solo se descuelgan los Responsables correspondientes al Oficio definido en la opción “OF”. De no hacerlo, en el campo “Responsable” se despliegan todos los “Responsables ejecutores” existentes en la tabla respectiva.
 
-**H. Hombre:** Es el número de Horas Hombre consumidas por el Responsable en cuestión.
-
+**H. Hombre:** Es el número de Horas Hombre consumidas por el Responsable en cuestión.
 
 **Minutos:** Es el número de Minutos, que junto con las horas, conforman el tiempo total consumido. Así, si se consumen 3 horas y media de un responsable, debe registrarse “3” en el campo “H. Hombre”, y “30” en el campo “Minutos”.
 
-
 **Tipo Hr.:** Dado que un Responsable a través del Oficio del mismo puede poseer varios tipos de Hora, cada uno con un valor distinto, en este campo se selecciona el Tipo de Hora adecuado. AM sugiere el valor hora correspondiente, dependiendo del tipo elegido. Si se elige el Tipo “Otro”, AM no sugiere ningún valor hora, y deja a decisión del usuario el valor a asignar en este campo.
 
-
 **Vlr. Hora:** Es el valor unitario de la hora para el oficio del Responsable en cuestión. AM automáticamente sugiere el costo por hora traído desde la tabla de Infraestructura para el Oficio, en los casos en que el tipo hora es distinto de “Otro”, el campo se habilitará para digitar un valor hora.
-
 
 **Tipo de Asignación:** Este campo define al responsable de la mano de obra de la OT, el tipo de intervención que realiza en el tiempo que la OT esté abierta. La opción “Presupuesto para Histograma” es para definir la proyección a futuro de la carga de trabajo del responsable; y “Ejecución Real” es para definir la carga de trabajo ejecutada.
 
@@ -621,208 +611,173 @@ A continuación se describen los campos que componen esta ventana; cuando s e re
 
 **Vlr.Total:** Este campo es informativo y es calculado por el sistema, contiene el valor total del Gasto Real para ese Responsable. Es el producto del Vlr. Hora por H. Hombre y Minutos. Se visualiza en la tabla de Mano de Obra Interna.
 
-
 Una vez se diligencien estos campos se da clic en el ícono de Mas <span class="mdi mdi-plus-circle icon white"></span> para agregar, como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_17.png)
-_**Imagen 90.** Órdenes - Gasto Real Ingresar MO_
+***Imagen 90.** Órdenes - Gasto Real Ingresar MO*
 
 En el caso de actualizar la información de Mano de Obra Interna se da clic en <a class="btn gray">actualizar mano de obra interna</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_18.png)
-_**Imagen 91.** Órdenes - Gasto Real Actualizar MO_
+***Imagen 91.** Órdenes - Gasto Real Actualizar MO*
 
 Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_19.png)
-_**Imagen 92.** Órdenes - Gasto Real Eliminar MO_
+***Imagen 92.** Órdenes - Gasto Real Eliminar MO*
 
 **Ingresar Mano de Obra Externa**
 
-![Procesar imagen]
-(https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img08.png)
-_**Imagen 93.** Órdenes - Gasto Real Mano de Obra Externa_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img08.png)
+***Imagen 93.** Órdenes - Gasto Real Mano de Obra Externa*
 
 A través de la ventana de Ingreso de Mano de Obra Externa se administra el Gasto Real de Mano de Obra Externa de la OT.
 Es importante recalcar que el Gasto Real de Mano de Obra Externa de una OT, se prepara a nivel del Responsable Ejecutor Externo, es decir, quiénes fueron los encargados de ejecutar la labor.
 
-
 A continuación se describen los campos que componen esta ventana; cuando se quiera actualizar o ingresar nuevos Responsables ejecutores externos a la OT, se deberán diligenciar los siguientes campos:
-
 
 **Fecha de Uso:** Es la fecha en la cual se utiliza el recurso.
 
-
 **OF:** Es el Oficio al que pertenece el Responsable Externo asignado. Es un campo de solo lectura, que se establece una vez se selecciona el Responsable.
-
 
 **Responsable:** Es el Responsable Externo que ha ejecutado la OT. Para seleccionarlo se descuelga el listado de Responsables Externos, traído desde la tabla de Infraestructura.
 
-
 **Filtrar por OF:** Al seleccionar esta opción, en el campo “Responsable” solo se descuelgan los Responsables Externos correspondientes al Oficio definido en la opción “OF”. De no hacerlo, en el campo “Responsable” se despliegan todos los “Responsables ejecutores Externos” existentes en la tabla respectiva.
-
 
 **Costo Unitario por hora/visita:** Se digita el valor o el costo unitario por hora o por visita de parte del Responsable Ejecutor Externo para esa actividad programada.
 
-
 **TT:** Este campo es informativo. Muestra el TT que tiene definido el Oficio seleccionado, se establece automáticamente una vez se ha seleccionado el Responsable y se visualiza en la tabla de Mano de Obra Interna.
-
 
 Una vez se diligencien estos campos se da clic en el ícono de Mas <span class="mdi mdi-plus-circle icon white"></span> para agregar, como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img09.png)
-_**Imagen 94.** Órdenes - Gasto Real Ingresar ME_
+***Imagen 94.** Órdenes - Gasto Real Ingresar ME*
 
 En el caso de actualizar la información de Mano de Obra Externa, se da clic en <a class="btn gray">Actualizar Mano de Obra Externa</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img10.png)
-_**Imagen 95.** Órdenes - Gasto Real Actualizar ME_
-
+***Imagen 95.** Órdenes - Gasto Real Actualizar ME*
 
 Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img11.png)
-_**Imagen 96.** Órdenes - Gasto Real Eliminar ME_
+***Imagen 96.** Órdenes - Gasto Real Eliminar ME*
 
 **Ingresar Materiales y Repuestos**
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img12.png)
-_**Imagen 97.** Órdenes - Gasto Real Materiales y Repuestos_
+***Imagen 97.** Órdenes - Gasto Real Materiales y Repuestos*
 
 A través de la ventana de Ingreso de Materiales y Repuestos se administra el consumo real de Materiales y Repuestos de la OT.
 
-
 A continuación se describen los campos que componen esta ventana; cuando se quiera actualizar o ingresar nuevos Materiales y Repuestos al gasto real de una OT, se deberán diligenciar los siguientes campos:
 
-
 **Fecha de Uso:** Es la fecha en la cual se utiliza el recurso.
-
 
 **Almacén:** Se elige el almacén dónde se encuentra el Repuesto a consumir y a ingresar al Gasto Real.
 
 **Buscar Por:** Este campo es de solo lectura y muestra por defecto la opción de Código. Una vez se elige el Almacén, este campo se habilita y lista las opciones por las cuales se puede buscar el ítem a relacionar. Las opciones son: Código, Referencia, Cod. Barra Int y Cod. Barra Prov.
 
-
 **M y R:** Este campo se habilita una vez se haya seleccionado el Almacén. Existen dos formas de seleccionar el Repuesto:
-
 
 La primera consiste de forma manual solo digitando el valor correspondiente al código, referencia, código de barras interno o proveedor del Material y Repuesto.
 
-
 La segunda consiste en buscar el Material y Repuesto, a través del visor de Material y Repuesto. Para ello se da un clic sobre el icono de filtro de Repuesto <span class="mdi mdi-filter-variant"></span>. Acto seguido se muestra la ventana de visor de Repuesto con la posibilidad de hacer allí subgrupos. Una vez se encuentra el Repuesto, se selecciona dando un clic sobre cualquiera de sus campos, seguidamente un clic sobre el botón <a class="btn white">Aceptar</a> de esa ventana o también es posible seleccionarlo dando doble clic sobre el registro seleccionado. Inmediatamente ese código aparece en el campo de M y R y automáticamente se actualizan los campos de UM y Valor Unitario.
-
 
 **Descripción M y R:** Es un campo de solo lectura, que muestra la descripción del material y repuesto seleccionado.
 
-
 **Cantidad:** Es la cantidad que se va a consumir en la ejecución de esa OT para el repuesto seleccionado.
-
 
 **UM:** Es un campo de solo lectura que muestra la unidad de consumo del repuesto seleccionado.
 
-
 **Vlr. Unitario:** Es el valor unitario del repuesto seleccionado. AM sugiere el valor unitario ya establecido del Repuesto en cuestión, sin embargo, puede cambiarse.
 
-
 **TT:** Este campo es informativo. Muestra el TT que tiene definido el Material y Repuesto seleccionado, se establece automáticamente una vez se ha seleccionado el Material y Repuesto. También, se visualiza en la tabla de Materiales y Repuestos.
-
 
 **Vlr. Total:** Este campo es informativo y es calculado por el sistema, contiene el valor total consumido para ese Material y Repuesto. Es el producto del Vlr. Unitario por la Cantidad. Se visualiza en la tabla de Materiales y Repuestos.
 
 Una vez se diligencien estos campos se da clic en el ícono de Mas <span class="mdi mdi-plus-circle icon white"></span> para agregar, como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img13.png)
-_**Imagen 98.** Órdenes - Gasto Real Ingresar M y R_
+***Imagen 98.** Órdenes - Gasto Real Ingresar M y R*
 
 En el caso de actualizar la información de Materiales y Repuestos, se da clic en <a class="btn gray">Actualizar Material y Repuesto</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img14.png)
-_**Imagen 95.** Órdenes - Gasto Real Actualizar M Y R_
+***Imagen 95.** Órdenes - Gasto Real Actualizar M Y R*
 
 Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img15.png)
-_**Imagen 96.** Órdenes - Gasto Real Eliminar M y R_
+***Imagen 96.** Órdenes - Gasto Real Eliminar M y R*
 
 **Ingresar otros Conceptos de Costo**
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img16.png)
-_**Imagen 97.** Órdenes - Gasto Real Otros Conceptos de Costo_
+***Imagen 97.** Órdenes - Gasto Real Otros Conceptos de Costo*
 
 A través de la ventana de Ingreso de Otros Conceptos se administra el Gasto Real de “Otros Conceptos’’ de la OT.
 
-
 A continuación se describen los campos que componen esta ventana; cuando se quiera actualizar o ingresar nuevos Otros Conceptos de Costo al Gasto Real de una OT, se deberán diligenciar los siguientes campos:
 
-
-**Concepto:** Es el “Otro Concepto” a presupuestar. Se selecciona descolgando la lista de Otros Conceptos, traída desde su tabla en Infraestructura.
-
+**Concepto:** Es el “Otro Concepto” a presupuestar. Se selecciona descolgando la lista de
+ Otros Conceptos, traída desde su tabla en Infraestructura.
 
 **Fecha de Uso:** Es la fecha en la cual se utiliza el recurso.
 
 **Concepto:** Es el “Otro Concepto‟ a cargar a la OT. Se selecciona descolgando la lista de otros Conceptos, traída desde su tabla en Infraestructura.
 
-
 **Nro. Unidades:** Se define el número de unidades consumidas del Concepto de Costo seleccionado anteriormente.
-
 
 **Vlr. Unitario:** Es el valor presupuestado del “Otro Concepto Costo”. AM sugiere el valor unitario del concepto que se encuentra ingresando al sistema. Sin embargo, es modificable por el usuario.
 
-
 **Moneda:** Este campo de solo lectura, muestra la moneda definida al otro Concepto de Costo en la tabla de Infraestructura.
 
-
 **Vlr. Total:** Es el costo total consumido del “Otro Concepto Costo” teniendo en cuenta el número de unidades y el valor unitario.
-
 
 **Info. Adicional:** Es un campo donde se define un pequeño comentario sobre el consumo.
 
 Una vez se diligencien estos campos se da clic en el ícono de Mas <span class="mdi mdi-plus-circle icon white"></span> para agregar, como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img17.png)
-_**Imagen 98.** Órdenes - Gasto Real Ingresar Otros Conceptos de Costo_
+***Imagen 98.** Órdenes - Gasto Real Ingresar Otros Conceptos de Costo*
 
 En el caso de actualizar la información de Materiales y Repuestos, se da clic en <a class="btn gray">Actualizar Otro Concepto</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img18.png)
-_**Imagen 99.** Órdenes - Gasto Real Actualizar Otros Conceptos de Costo_
+***Imagen 99.** Órdenes - Gasto Real Actualizar Otros Conceptos de Costo*
 
 Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img19.png)
-_**Imagen 100.** Órdenes - Gasto Real Eliminar Otro Concepto de Costo_
+***Imagen 100.** Órdenes - Gasto Real Eliminar Otro Concepto de Costo*
 
->**Nota:** Para finalizar, hacer clic en el botón <a class="btn gray">ir a la matriz</a> para regresar a la ventana principal de Gasto Real y luego para acentar los cambios en el Gasto Real de la OT se debe dar clic en <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a>.
+> **Nota:** Para finalizar, hacer clic en el botón <a class="btn gray">ir a la matriz</a> para regresar a la ventana principal de Gasto Real y luego para acentar los cambios en el Gasto Real de la OT se debe dar clic en <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a>.
 
 ## Evaluación de Servicio
 
 Se puede realizar la evaluación del servicio prestado por el personal de mantenimiento o de servicios en la OT seleccionada. La evaluación la debe realizar un usuario, previamente autorizado, quien fuera el receptor del servicio, una vez que se ha ya cerrado la OT, esta opción de evaluación se hace disponible, cuando se han definido las cinco preguntas de evaluación, en el módulo de “Administración”, “Valores por Defecto”, “Parámetros para Evaluación del Servicio. Es posible realizar la evaluación del servicio de una OT, cuando el solicitante se encuentra registrado como un usuario solicitante en el AM.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img20.png)
-_**Imagen 100.** Órdenes - Evaluación de Servicio_
+***Imagen 100.** Órdenes - Evaluación de Servicio*
 
 ### Multimedia
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img21.png)
-_**Imagen 101.** Órdenes - Multimedia_
+***Imagen 101.** Órdenes - Multimedia*
 
 En la gráfica anterior, Ventana Multimedia, se aprecian sus componentes y sus respectivos contenidos.
 A través de la ventana Multimedia se adjunta información adicional a la OT en cada una de sus carpetas asignadas. Esta opción permite asociar a la OT uno o varios documentos, con el objetivo de facilitar o guiar el trabajo a realizar o detallarlo minuciosamente. AM acepta documentos de extensiones .DOC, XLS, PDF, JPG es decir, de Microsoft Word o Microsoft Excel, Acrobat o Imágenes.
 
-
 Los documentos anexos pueden contener: ayudas necesarias en la ejecución de la OT, planos, manuales técnicos, manuales de normas técnicas de Mantenimiento o de especificaciones detalladas, normas de seguridad, enfoques de acción, procedimientos sobre cómo realizar la labor, listas de verificación, protocolos de prueba u otra información estándar para su ejecución.
-
 
 A continuación se describen las carpetas que componen esta ventana; cuando se quiera actualizar o ingresar nueva información a la OT, se deberán registrar así:
 
 **Que Hacer:** Es la información general que aparece en cada pestaña con los campos bloqueados para que el usuario visualice la información básica de la OT.
 
-
 **Documentos:** En esta carpeta se relaciona toda clase de documentación relacionada a la OT. Ejemplo: Archivos en Word, PDF, Excel, entre otros.
 
-
 **Imágenes:** En esta carpeta se relaciona toda clase de imágenes relacionadas a la OT. Ejemplo: Imágenes en formato JPG, PNG, entre otros.
-
 
 **Videos:** En esta carpeta se relacionan porciones de videos relacionados a la OT. Ejemplo: Videos en formato wmv y mp4.
 
