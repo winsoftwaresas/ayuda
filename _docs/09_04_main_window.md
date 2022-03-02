@@ -809,7 +809,7 @@ _**Imagen 105.** Activos - Previsualización de imagen_
 
 
 
-Para desasociar un documento, o una imagen o un video, al AC se da clic al icono de basura <span class="mdi mdi-delete"></span> que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro, finalmente confirmar con el botón <a class="btn white">Aceptar</a>.
+Para desasociar un documento, o una imagen o un video, a la OT se da clic al icono de basura <span class="mdi mdi-delete"></span> que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro, finalmente confirmar con el botón <a class="btn white">Aceptar</a>.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img26.png)
 _**Imagen 106.** Activos - Desasociar un Archivo_
@@ -822,59 +822,84 @@ Si se desea descargar un archivo adjunto a la OT, se debe dar clic en el ícono 
 
 ### Analizar / Generar
 
-![Ventana Detalle](manualAM/0.images/cap11/chp11_img18.png)
+A esta opción se llega sobreponiendo el cursor sobre el módulo de OT donde se despliega un submenú de transacciones disponibles y luego se da clic en Analizar/Generar”.
 
-En la gráfica anterior, Analizar / Generar, se aprecian sus componentes y sus respectivos contenidos.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img27.png)
+_**Imagen 107.** Órdenes - Analizar/Generar_
 
-A  través de la  ventana Analizar /  Generar, **AM** propone un conjunto de   ots   que debieran ser ejecutadas en el período seleccionado, para ser analizadas y posteriormente generadas como Órdenes de Trabajo Programadas.
+Esta transacción abre una ventana que permite hacer el análisis a un conjunto de OT que debieran ser ejecutadas en un período seleccionado, para luego ser generadas como OT Programadas, como se visualiza en la siguiente imagen:
 
-El Procedimiento para efectuar un Análisis y posterior Generación de Órdenes de Trabajo es el siguiente:
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img28.png)
+_**Imagen 108.** Órdenes - Ventana Detalle Analizar/Generar_
 
-Digitar la fecha  **“Desde”**, que corresponde al inicio del período a programar. **AM** sugiere la fecha del sistema.
-Digitar la fecha  **“Hasta”**, que corresponde al final del período a programar. **AM** sugiere la fecha de una semana después, pero es una fecha modificable a gusto. Normalmente el período a Analizar, en este proceso, se trata de un período de corto plazo: tres días, una semana, una quincena o un mes.
-Debajo de estas fechas, en la sección de  **“Datos de la última generación”**, aparece la información del rango de fechas para el que se realizó un proceso de Generación de ots la última vez, y el código de login del usuario que ejecutó el proceso.
+El Procedimiento para efectuar un Análisis y posterior Generación de OTs es el siguiente:
 
-**Clic en el botón  “Analizar”**.
 
-**Aparece el siguiente mensaje, contestar**  “Aceptar”\*\* si se desea  ejecutar  el proceso de Analizar.
+Digitar la fecha en el campo “Desde”, que corresponde al inicio del período a programar. AM sugiere la fecha del sistema.
+Luego, digitar la fecha en el campo “Hasta”, que corresponde al final del período a programar. AM sugiere la fecha de una semana después, pero es una fecha modificable a gusto. Normalmente el período a Analizar en este proceso, se trata de un período de corto plazo: tres días, una semana, una quincena o un mes.
+En la parte inferior, se encuentran los “Datos de la última generación” que indican la información del rango de fechas para el que se realizó un proceso de Generación de OT la última vez y el usuario que ejecutó el proceso. Una vez digitado el rango de fechas, dar clic en el botón <a class="btn white">Analizar</a>, seguidamente, aparece un mensaje de alerta y dar clic en <a class="btn white">Aceptar</a>.
 
-![Ventana Detalle](manualAM/0.images/cap11/chp11_img19.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img29.png)
+_**Imagen 109.** Órdenes - Comenzar Analizar/Generar_
 
-* **AM**- recorre todos   los programas de mantenimiento, y establece cuáles deben generar órdenes de trabajo en el rango de fechas ya estipulado. Durante  este proceso, puede visualizarse el  estado  de  avance  del análisis, en la parte inferior izquierda, el sistema escribe un mensaje en la pantalla de las Ots analizadas deltotal de PMs registrados en la base de datos. El proceso también se puede cancelar haciendo clic en el botón `<a class="btn">`Cancelar`</a>`, y el sistema detiene el proceso sin ningún tipo de perjuicio, es decir, a los datos no son afectados en absoluto.
+**AM** recorre todos los programas de mantenimiento y establece cuáles deben generar OTs en el rango de fechas ya estipulado. Durante este proceso, puede visualizarse el estado de avance del análisis en la parte inferior izquierda. El sistema muestra un mensaje de las OTs analizadas del total de PM registrados en la base de datos. El proceso también se puede cancelar haciendo clic en el botón “Cancelar”, y el sistema detiene el proceso sin ningún tipo de perjuicio, es decir, los datos no son afectados en absoluto.
 
-Una vez finalice el proceso, se muestra el detalle del análisis y se muestra cuántas órdenes de trabajo se detectaron.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img30.png)
+_**Imagen 110.** Órdenes - Comenzar Analizar/Generar_
 
-![Ventana Detalle](manualAM/0.images/cap11/chp11_img20.png)
+Una vez finalizado el proceso, se muestra el detalle del análisis y se muestra cuántas OT se detectaron y la opción de tres botones: <a class="btn gray">Ver Diagramas</a>, <a class="btn gray">ver Reportes</a> y <a class="btn gray">Generar</a>. Los primeros dos botones son de gran utilidad para estudiar el período analizado antes de generar OT.
 
-* **Clic en Ver Diagrama**
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img31.png)
+_**Imagen 111.** Órdenes - Finalización Proceso Analizar_
 
-A continuación, se  procede  a visualizar a través de un Diagrama de Gantt, en el cual se muestra la información del Activo con su respectivo PM y al lado derecho se muestra por colores el cronograma con las fechas proyectadas de las actividades. Para esto, se procede a dar clic al botón `<a class="btn">`Ver Diagrama`</a>` y se muestran la siguiente gráfica
+**Ver Diagrama**
 
-![Ventana Detalle](manualAM/0.images/cap11/chp11_img21.png)
 
-Es importante aclarar, que hasta este punto, no ha sido generada ninguna Orden de Trabajo. Solamente se ha detectado un grupo potencial de ellas, que deberían ser ejecutadas de acuerdo a los criterios de programación, si el análisis del programador de mantenimiento lo decide.
+Para visualizar el diagrama de las OTs para ese periodo analizado, se da clic en el botón Ver Diagrama. A continuación, se abre una nueva ventana donde se visualiza a través de un Diagrama de Gantt, la información del Activo con su respectiva Tarea-Descripción y Criterio; a la derecha se muestra por colores (ver significado en el ícono parte superior derecha) el cronograma con las fechas proyectadas de las actividades, como se muestra en la siguiente imagen:
 
-* **Clic en Ver Reportes**
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img32.png)
+_**Imagen 112.** Órdenes - Giagrama de Gantt_
 
-A continuación, se procede a verificar si para las órdenes detectadas por el proceso de análisis, existen todas las garantías de ejecución, en el rango de fechas programado. Para esto, se procede a imprimir varios reportes que para el caso se  presentan, tal y como se visualiza en la siguiente gráfica:
+Es importante aclarar, que hasta este punto, no ha sido generada ninguna OT. Solamente se ha detectado un grupo potencial de ellas que deberían ser ejecutadas de acuerdo, a los criterios de programación, si el análisis del planeador de mantenimiento lo decide.
 
-![Ventana Detalle](manualAM/0.images/cap11/chp11_img22.png)
+**Ver Reportes**
 
-**Los reportes disponibles para efectuar esta revisión, son:**
 
-* Cronograma de Mantenimiento Programado con TM
-* Cronograma de Mantenimiento Programado
-* Actividades por Mes y Día
-* Listado de Repuestos
-* Actividades por Mes y Día con Presupuesto Discriminado
+A continuación, se procede a verificar si para las OT detectadas en el proceso de análisis, existen todas las garantías de ejecución, en el rango de fechas programado. Para esto, se procede a imprimir varios reportes que para el caso se presentan, tal y como se visualiza en la siguiente gráfica:
 
-Los anteriores reportes pueden ser seleccionados para una o varias **OT**.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img33.png)
+_**Imagen 112.** Órdenes - Reportes_
 
-Después de seleccionar el reporte, pulse el botón `<a class="btn">`imprimir`</a>`.
+**Los reportes disponibles en el análisis para efectuar esta revisión, son:**
 
-Si al imprimir alguno de estos reportes, el usuario advierte que una o varias de  estas Ordenes de Trabajo no deben ser  Generadas, éste es  el momento para  que  cancele todo el proceso, va ya a los Programas de Mantenimiento respectivos,  revise y modifique sus criterios, y vuelva a realizar un nuevo el proceso de Análisis.
-Si después de efectuar la revisión, el usuario está seguro de que ésas son las Órdenes de Trabajo a  generar,  se  hace  clic  en  el  botón  `<a class="btn">`Generar`</a>`.  Este   proceso crea tantas Órdenes de Trabajo como hayan sido detectadas por el  proceso  de Análisis.  Durante este proceso, puede consultarse cómo va el proceso haciendo clic en el botón `<a class="btn">`Consultar`</a>`.
-Una vez se generan las Órdenes de Trabajo, los Programas de Mantenimiento que  las generaron, se actualizan automáticamente, ajustando sus criterios y fechas, preparando la consistencia de las generaciones futuras.
+- Listado de Equipos por 
+- Cronograma de Mantenimiento Programado con TM (Ubicación Física y Centro De Costo)
+- Cronograma de Mantenimiento Programado Con TM
+- Actividades por Mes y Día
+- Listado de Repuestos
+- Actividades por Mes y Día con Presupuesto Discriminado
+- Listado de Equipos por Generar Órdenes
+- Programación de Actividades por Activo con Centro Responsable, Ubicación Física
+- Cronograma de Mantenimiento
+- Actividades por Mes y Día con Serie, Marca, Modelo.
+
+Después de seleccionar el reporte, pulse el botón imprimir y el sistema abrirá una nueva ventana.
+
+Si al imprimir alguno de estos reportes, el usuario advierte que una o varias de estas OT no deben ser Generadas, éste es el momento para que cancele todo el proceso, vaya a los PM respectivos, revise y modifique sus criterios, y vuelva a realizar un nuevo el proceso de Análisis.
+Si por el contrario después de efectuar la revisión, el usuario está seguro de que ésas son las OT a generar, se hace clic en el botón <a class="btn gray">Generar</a>. Este proceso crea tantas OT como hayan sido detectadas por el proceso de Análisis. 
+
+
+Una vez se generan las OT, los PM que las generaron, se actualizan automáticamente, ajustando sus criterios y fechas, preparando la consistencia de las generaciones futuras.
+
+
+
+
+
+
+
+
+
+
 
 ### Modificar Masivamente
 
