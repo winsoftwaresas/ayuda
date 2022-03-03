@@ -9,14 +9,14 @@ order: 09_04
 date: 2022-02-10T14:45:29.041Z
 ---
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img02.png)
-**\*Imagen 67.** Órdenes - Acceso directo*
+_**Imagen 67.** Órdenes - Acceso directo_
 
 Se accede desde el comando <a class="btn blue">órdenes</a> en la barra de menú principal de **AM**. A través de esta ventana se permite crear Órdenes de Trabajo manuales y Administrar la totalidad de las Órdenes activas, Pendientes de Ejecución, o listas para ser enviadas a Historia. Igualmente, desde esta ventana se Administran las Órdenes de Trabajo Programadas (las que se generan desde Programas de Mantenimiento), a continuación se ilustran las porciones que la componen:
 
 ## Ventana Visor
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img03.png)
-**\*Imagen 68.** Órdenes - Ventana Visor*
+_**Imagen 68.** Órdenes - Ventana Visor_
 
 Desde esta ventana es posible observar la lista de las Órdenes de Trabajo existentes o un subconjunto de ellas (efectuado a través de un subgrupo <span class="mdi mdi-filter-variant"></span>). Se puede hacer clic en alguna de ellas, para visualizar la información completa de la Orden en una nueva ventana (Ventana Detalle).
 
@@ -41,7 +41,7 @@ La definición de colores está definida, según la siguiente convención:
 ## Ventana Detalle
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img04.png)
-**\*Imagen 69.** Órdenes - Ventana Detalle*
+_**Imagen 69.** Órdenes - Ventana Detalle_
 
 En la gráfica anterior, Ventana Detalle de   Órdenes de Trabajo, se aprecian sus componentes y sus respectivos contenidos. En esta ventana Detalle se encuentra la información relevante a la OT seleccionada en el Visor. A través de ella se Administran los datos genéricos de la Órden de Trabajo. Es desde esta ventana que se crean Órdenes de Trabajo Manuales.
 
@@ -131,7 +131,7 @@ Cuando ha concluido la ejecución de la OT, es posible utilizarlo para registrar
 Es posible saber cuáles OT son de tipo Metrología, Preventiva/Programada, Correctiva y Cerrada Parcial, si tienen Multimedia y Servicio Evaluado directamente desde la ventana visor, sobreponiendo el cursor en el ícono de Indicadores <span class="mdi mdi-message-alert"></span> ubicado en la parte superior derecha de la ventana mostrando un conjunto de pelotas de colores que indican el tipo de información definida y asociada, como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img04_1.png)
-**\*Imagen 70.** Órdenes - Ventana Detalle*
+_**Imagen 70.** Órdenes - Ventana Detalle_
 
 El significado de los colores es el siguiente:
 
@@ -324,12 +324,12 @@ Estos criterios actúan en comparación con el valor digitado en la casilla que 
 Esta opción conduce a la tabla de Acciones Técnicas en una nueva pestaña de la OT. Esta tabla está ligada a la Infraestructura, creada con su mismo nombre, que contiene un listado de Acciones Técnicas frecuentes en un área de Mantenimiento. Con la información contenida allí, se pretende describir, breve pero concretamente, la actividad general realizada en una OT. Las Acciones Técnicas en una OT se pueden definir, después de haber seleccionado en la ventana Detalle de la Ficha Técnica de la OT en el momento de su creación, el cuadro llamado <a class="btn white"><span class="mdi mdi-checkbox-blank-outline"> manejo de costos abc</span></a> o bien, haberlas definido en la creación del Programa de Mantenimiento, continuación se muestra la porción Acciones Técnicas de una OT:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img06.png)
-**\*Imagen 72.** Órdenes - Ventana Detalle Acciones Técnicas* 
+_**Imagen 72.** Órdenes - Ventana Detalle Acciones Técnicas_
 
 En la pestaña de Acciones Técnicas de la Ventana Detalle de OT aparece un nuevo recuadro en el que irán apareciendo las que se vayan adicionando a través de un botón Adicionar Acción Técnica.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img06_01.png)
-**\*Imagen 73.** Órdenes - Adicionar Acciones Técnicas* 
+_**Imagen 73.** Órdenes - Adicionar Acciones Técnicas_
 
 A continuación se describen los campos que componen esta ventana de información adicional:
 
@@ -366,7 +366,7 @@ ya no será posible modificar este último.
 Se ingresa mediante un clic en la pestaña “Presupuesto” en la ventana detalle de OT. 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_01.png)
-**\*Imagen 74.** Órdenes - Presupuesto* 
+_**Imagen 74.** Órdenes - Presupuesto_
 
 En esta ventana se resumen los totales de los costos presupuestados de Mano de Obra
 Interna, Mano de Obra Externa, Materiales y Repuestos y Otros Conceptos de Costo, para
@@ -375,7 +375,7 @@ acceder a cada uno de ellos se da un clic en el botón acorde a lo que se necesi
 **Ingresar Mano de Obra Interna**
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_02.png)
-**\*Imagen 75.** Órdenes - Mano de Obra Interna* 
+_**Imagen 75.** Órdenes - Mano de Obra Interna_
 
 A través de la ventana de Ingreso de Mano de Obra Interna se administra el Presupuesto
 de Mano de Obra de la OT.
@@ -413,25 +413,25 @@ media, se deduce entonces que entre las 2 personas se consumirá este tiempo.
 Una vez que se diligencian todos los campos se da clic en el ícono del Más <span class="mdi mdi-plus-circle icon white"></span>, seguidamente se observa que la información creada se muestra en el recuadro de la mano de Obra Interna, ubicada al lado izquierdo.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_02.png)
-**\*Imagen 76.** Órdenes - Ingresar Mano de Obra Interna* 
+_**Imagen 76.** Órdenes - Ingresar Mano de Obra Interna_
 
 Una vez terminado el proceso, hacer clic en el botón <a class="btn gray ">ir a la matriz</a> para regresar a la ventana principal de Presupuesto.
 
 Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón <a class="btn gray">actualizar mano obra interna</a>.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_03.png)
-**\*Imagen 77.** Órdenes - Actualizar Mano de Obra Interna* 
+_**Imagen 77.** Órdenes - Actualizar Mano de Obra Interna_ 
 
 Por otro lado, para eliminar un registro de la tabla de Mano de Obra Interna, se selecciona
 el registro y luego se da clic al icono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario de si está seguro de eliminar el registro y finalmente se da clic en <a class="btn">Aceptar</a>, como se muestra en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_04.png)
-**\*Imagen 78.** Órdenes - Eliminar Mano de Obra Interna* 
+_**Imagen 78.** Órdenes - Eliminar Mano de Obra Interna_ 
 
 **Ingresar Mano de Obra Externa**
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_05.png)
-**\*Imagen 79.** Órdenes - Mano de Obra Externa* 
+_**Imagen 79.** Órdenes - Mano de Obra Externa_
 
 A través de la ventana de Ingreso de Mano de Obra Externa se administra el Presupuesto de Mano de Obra Externa de la OT.
 
@@ -455,7 +455,7 @@ Una vez que se diligencian todos los campos se da clic en el icono del Más <spa
 Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón <a class="btn gray">actualizar mano obra externa</a>.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_06.png)
-**\*Imagen 80.** Órdenes - Actualizar Mano de Obra Externa* 
+_**Imagen 80.** Órdenes - Actualizar Mano de Obra Externa_
 
 Una vez terminado el proceso, hacer clic en el botón <a class="btn gray">ir a Matriz</a>. para regresar a la ventana
 principal de Presupuesto.
@@ -463,7 +463,7 @@ principal de Presupuesto.
 Por otro lado, para eliminar un registro de la tabla de Mano de Obra Externa, se selecciona el registro y luego se da clic al icono de eliminar <span class="mdi mdi-delete"></span> sale un mensaje de alerta que indica al usuario de si está seguro de eliminar el registro y finalmente se da clic en <a class="btn">Aceptar</a>, como se muestra en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_07.png)
-**\*Imagen 81.** Órdenes - Eliminar Mano de Obra Externa* 
+_**Imagen 81.** Órdenes - Eliminar Mano de Obra Externa_
 
 **Ingresar Materiales y Repuestos**
 
