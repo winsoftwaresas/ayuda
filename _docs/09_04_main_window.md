@@ -9,14 +9,14 @@ order: 09_04
 date: 2022-02-10T14:45:29.041Z
 ---
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img02.png)
-**\*Imagen 67.** Órdenes - Acceso directo*
+_**Imagen 67.** Órdenes - Acceso directo_
 
 Se accede desde el comando <a class="btn blue">órdenes</a> en la barra de menú principal de **AM**. A través de esta ventana se permite crear Órdenes de Trabajo manuales y Administrar la totalidad de las Órdenes activas, Pendientes de Ejecución, o listas para ser enviadas a Historia. Igualmente, desde esta ventana se Administran las Órdenes de Trabajo Programadas (las que se generan desde Programas de Mantenimiento), a continuación se ilustran las porciones que la componen:
 
 ## Ventana Visor
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img03.png)
-**\*Imagen 68.** Órdenes - Ventana Visor*
+_**Imagen 68.** Órdenes - Ventana Visor_
 
 Desde esta ventana es posible observar la lista de las Órdenes de Trabajo existentes o un subconjunto de ellas (efectuado a través de un subgrupo <span class="mdi mdi-filter-variant"></span>). Se puede hacer clic en alguna de ellas, para visualizar la información completa de la Orden en una nueva ventana (Ventana Detalle).
 
@@ -41,7 +41,7 @@ La definición de colores está definida, según la siguiente convención:
 ## Ventana Detalle
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img04.png)
-**\*Imagen 69.** Órdenes - Ventana Detalle*
+_**Imagen 69.** Órdenes - Ventana Detalle_
 
 En la gráfica anterior, Ventana Detalle de   Órdenes de Trabajo, se aprecian sus componentes y sus respectivos contenidos. En esta ventana Detalle se encuentra la información relevante a la OT seleccionada en el Visor. A través de ella se Administran los datos genéricos de la Órden de Trabajo. Es desde esta ventana que se crean Órdenes de Trabajo Manuales.
 
@@ -131,7 +131,7 @@ Cuando ha concluido la ejecución de la OT, es posible utilizarlo para registrar
 Es posible saber cuáles OT son de tipo Metrología, Preventiva/Programada, Correctiva y Cerrada Parcial, si tienen Multimedia y Servicio Evaluado directamente desde la ventana visor, sobreponiendo el cursor en el ícono de Indicadores <span class="mdi mdi-message-alert"></span> ubicado en la parte superior derecha de la ventana mostrando un conjunto de pelotas de colores que indican el tipo de información definida y asociada, como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img04_1.png)
-**\*Imagen 70.** Órdenes - Ventana Detalle*
+_**Imagen 70.** Órdenes - Ventana Detalle_
 
 El significado de los colores es el siguiente:
 
@@ -155,7 +155,7 @@ Cada criterio aparece inicializado en un valor global que permite mostrar todas 
 El programa permite entonces hacer selección de un grupo de OT de acuerdo con los criterios seleccionados en la siguiente ventana:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img05.png)
-**\*Imagen 71.** Órdenes - Ventana Subgrupo*
+_**Imagen 71.** Órdenes - Ventana Subgrupo_
 
 Los campos de datos que constituyen criterio de selección, se agrupan en dos bloques:
 
@@ -224,7 +224,7 @@ Los campos de datos que constituyen criterio de selección, se agrupan en dos bl
 
 **Efecto de Falla:** Este campo permite seleccionar las OT que posean una causa de falla específica. Existen dos formas de definir el Efecto de Falla de la OT. La primera es seleccionándola de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span> el cual se desactiva <span class="mdi mdi-lock-open-outline"></span> permitiendo digitar segmentos del nombre del Efecto de Falla utilizando comodines (%). Cuando se utilizan comodines, es posible seleccionar OT cuyo Efecto de Falla tenga parte del nombre igual.
 
-**Estado Particular:** Permite seleccionar las OT de acuerdo a su Estado Particular. Al descolgar aparece el listado de todos los Estados posibles para una **OT**.
+**Estado Particular:** Permite seleccionar las OT de acuerdo a su Estado Particular. Al descolgar aparece el listado de todos los Estados posibles para una OT.
 
 **Estado General:** Permite seleccionar las OT de acuerdo a un Estado general: Abierta, Cancelada y Cerrada.
 
@@ -277,7 +277,7 @@ Los criterios son:
 
 **Presupuesto:** Permite filtrar las Órdenes de Trabajo de acuerdo al manejo que hagan sobre su Presupuesto: No maneja, No aprobado, Aprobado.
 
-**Prioridad:** Fitra las OT de acuerdo a su  Prioridad, habilitándose una lista despegable desde el nivel 1 hasta el nivel 7.
+**Prioridad:** Filtra las OT de acuerdo a su  Prioridad, habilitándose una lista despegable desde el nivel 1 hasta el nivel 7.
 
 **Responsable por la Institución:** Agrupa las OT de acuerdo al Responsable por Institución o la persona que recibe a satisfación. Existen dos formas de buscar el Responsable. La primera es seleccionándolo de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span> el cual se desactiva <span class="mdi mdi-lock-open-outline"></span> permitiendo digitar segmentos del nombre del Responsable, en el cual también es posible usar comodines (%). Cuando se utilizan comodines, es posible seleccionar las OT cuyo Responsable tenga una parte del nombre igual.
 
@@ -324,12 +324,12 @@ Estos criterios actúan en comparación con el valor digitado en la casilla que 
 Esta opción conduce a la tabla de Acciones Técnicas en una nueva pestaña de la OT. Esta tabla está ligada a la Infraestructura, creada con su mismo nombre, que contiene un listado de Acciones Técnicas frecuentes en un área de Mantenimiento. Con la información contenida allí, se pretende describir, breve pero concretamente, la actividad general realizada en una OT. Las Acciones Técnicas en una OT se pueden definir, después de haber seleccionado en la ventana Detalle de la Ficha Técnica de la OT en el momento de su creación, el cuadro llamado <a class="btn white"><span class="mdi mdi-checkbox-blank-outline"> manejo de costos abc</span></a> o bien, haberlas definido en la creación del Programa de Mantenimiento, continuación se muestra la porción Acciones Técnicas de una OT:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img06.png)
-**\*Imagen 72.** Órdenes - Ventana Detalle Acciones Técnicas* 
+_**Imagen 72.** Órdenes - Ventana Detalle Acciones Técnicas_
 
 En la pestaña de Acciones Técnicas de la Ventana Detalle de OT aparece un nuevo recuadro en el que irán apareciendo las que se vayan adicionando a través de un botón Adicionar Acción Técnica.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img06_01.png)
-**\*Imagen 73.** Órdenes - Adicionar Acciones Técnicas* 
+_**Imagen 73.** Órdenes - Adicionar Acciones Técnicas_
 
 A continuación se describen los campos que componen esta ventana de información adicional:
 
@@ -366,7 +366,7 @@ ya no será posible modificar este último.
 Se ingresa mediante un clic en la pestaña “Presupuesto” en la ventana detalle de OT. 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_01.png)
-**\*Imagen 74.** Órdenes - Presupuesto* 
+_**Imagen 74.** Órdenes - Presupuesto_
 
 En esta ventana se resumen los totales de los costos presupuestados de Mano de Obra
 Interna, Mano de Obra Externa, Materiales y Repuestos y Otros Conceptos de Costo, para
@@ -375,7 +375,7 @@ acceder a cada uno de ellos se da un clic en el botón acorde a lo que se necesi
 **Ingresar Mano de Obra Interna**
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_02.png)
-**\*Imagen 75.** Órdenes - Mano de Obra Interna* 
+_**Imagen 75.** Órdenes - Mano de Obra Interna_
 
 A través de la ventana de Ingreso de Mano de Obra Interna se administra el Presupuesto
 de Mano de Obra de la OT.
@@ -413,25 +413,25 @@ media, se deduce entonces que entre las 2 personas se consumirá este tiempo.
 Una vez que se diligencian todos los campos se da clic en el ícono del Más <span class="mdi mdi-plus-circle icon white"></span>, seguidamente se observa que la información creada se muestra en el recuadro de la mano de Obra Interna, ubicada al lado izquierdo.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_02.png)
-**\*Imagen 76.** Órdenes - Ingresar Mano de Obra Interna* 
+_**Imagen 76.** Órdenes - Ingresar Mano de Obra Interna_
 
 Una vez terminado el proceso, hacer clic en el botón <a class="btn gray ">ir a la matriz</a> para regresar a la ventana principal de Presupuesto.
 
 Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón <a class="btn gray">actualizar mano obra interna</a>.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_03.png)
-**\*Imagen 77.** Órdenes - Actualizar Mano de Obra Interna* 
+_**Imagen 77.** Órdenes - Actualizar Mano de Obra Interna_ 
 
 Por otro lado, para eliminar un registro de la tabla de Mano de Obra Interna, se selecciona
 el registro y luego se da clic al icono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario de si está seguro de eliminar el registro y finalmente se da clic en <a class="btn">Aceptar</a>, como se muestra en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_04.png)
-**\*Imagen 78.** Órdenes - Eliminar Mano de Obra Interna* 
+_**Imagen 78.** Órdenes - Eliminar Mano de Obra Interna_ 
 
 **Ingresar Mano de Obra Externa**
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_05.png)
-**\*Imagen 79.** Órdenes - Mano de Obra Externa* 
+_**Imagen 79.** Órdenes - Mano de Obra Externa_
 
 A través de la ventana de Ingreso de Mano de Obra Externa se administra el Presupuesto de Mano de Obra Externa de la OT.
 
@@ -455,7 +455,7 @@ Una vez que se diligencian todos los campos se da clic en el icono del Más <spa
 Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón <a class="btn gray">actualizar mano obra externa</a>.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_06.png)
-**\*Imagen 80.** Órdenes - Actualizar Mano de Obra Externa* 
+_**Imagen 80.** Órdenes - Actualizar Mano de Obra Externa_
 
 Una vez terminado el proceso, hacer clic en el botón <a class="btn gray">ir a Matriz</a>. para regresar a la ventana
 principal de Presupuesto.
@@ -463,7 +463,7 @@ principal de Presupuesto.
 Por otro lado, para eliminar un registro de la tabla de Mano de Obra Externa, se selecciona el registro y luego se da clic al icono de eliminar <span class="mdi mdi-delete"></span> sale un mensaje de alerta que indica al usuario de si está seguro de eliminar el registro y finalmente se da clic en <a class="btn">Aceptar</a>, como se muestra en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_07.png)
-**\*Imagen 81.** Órdenes - Eliminar Mano de Obra Externa* 
+_**Imagen 81.** Órdenes - Eliminar Mano de Obra Externa_
 
 **Ingresar Materiales y Repuestos**
 
@@ -512,7 +512,7 @@ Una vez terminado el proceso, hacer clic en el botón <a class="btn gray">ir a m
 Por otro lado, para eliminar un registro de la tabla de Material y Repuesto, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-lock"></span> sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">Aceptar</a> como se muestra en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_10.png)
-**\*Imagen 84.** Órdenes - Eliminar Materiales y Repuestos*
+_**Imagen 84.** Órdenes - Eliminar Materiales y Repuestos_
 
 **Ingresar otros Conceptos**
 
@@ -745,12 +745,12 @@ Una vez se diligencien estos campos se da clic en el ícono de Mas <span class="
 En el caso de actualizar la información de Materiales y Repuestos, se da clic en <a class="btn gray">Actualizar Otro Concepto</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img18.png)
-***Imagen 99.** Órdenes - Gasto Real Actualizar Otros Conceptos de Costo*
+_**Imagen 99.** Órdenes - Gasto Real Actualizar Otros Conceptos de Costo_
 
 Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img19.png)
-***Imagen 100.** Órdenes - Gasto Real Eliminar Otro Concepto de Costo*
+_**Imagen 100.** Órdenes - Gasto Real Eliminar Otro Concepto de Costo_
 
 > **Nota:** Para finalizar, hacer clic en el botón <a class="btn gray">ir a la matriz</a> para regresar a la ventana principal de Gasto Real y luego para acentar los cambios en el Gasto Real de la OT se debe dar clic en <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a>.
 
@@ -759,12 +759,12 @@ Por otro lado, para eliminar un registro de la tabla, se selecciona el registro 
 Se puede realizar la evaluación del servicio prestado por el personal de mantenimiento o de servicios en la OT seleccionada. La evaluación la debe realizar un usuario, previamente autorizado, quien fuera el receptor del servicio, una vez que se ha ya cerrado la OT, esta opción de evaluación se hace disponible, cuando se han definido las cinco preguntas de evaluación, en el módulo de “Administración”, “Valores por Defecto”, “Parámetros para Evaluación del Servicio. Es posible realizar la evaluación del servicio de una OT, cuando el solicitante se encuentra registrado como un usuario solicitante en el AM.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img20.png)
-***Imagen 100.** Órdenes - Evaluación de Servicio*
+_**Imagen 100.** Órdenes - Evaluación de Servicio_
 
 ### Multimedia
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img21.png)
-***Imagen 101.** Órdenes - Multimedia*
+_**Imagen 101.** Órdenes - Multimedia_
 
 En la gráfica anterior, Ventana Multimedia, se aprecian sus componentes y sus respectivos contenidos.
 A través de la ventana Multimedia se adjunta información adicional a la OT en cada una de sus carpetas asignadas. Esta opción permite asociar a la OT uno o varios documentos, con el objetivo de facilitar o guiar el trabajo a realizar o detallarlo minuciosamente. AM acepta documentos de extensiones .DOC, XLS, PDF, JPG es decir, de Microsoft Word o Microsoft Excel, Acrobat o Imágenes.
@@ -809,7 +809,7 @@ _**Imagen 105.** Activos - Previsualización de imagen_
 
 
 
-Para desasociar un documento, o una imagen o un video, al AC se da clic al icono de basura <span class="mdi mdi-delete"></span> que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro, finalmente confirmar con el botón <a class="btn white">Aceptar</a>.
+Para desasociar un documento, o una imagen o un video, a la OT se da clic al icono de basura <span class="mdi mdi-delete"></span> que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro, finalmente confirmar con el botón <a class="btn white">Aceptar</a>.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img26.png)
 _**Imagen 106.** Activos - Desasociar un Archivo_
@@ -822,59 +822,74 @@ Si se desea descargar un archivo adjunto a la OT, se debe dar clic en el ícono 
 
 ### Analizar / Generar
 
-![Ventana Detalle](manualAM/0.images/cap11/chp11_img18.png)
+A esta opción se llega sobreponiendo el cursor sobre el módulo de OT donde se despliega un submenú de transacciones disponibles y luego se da clic en Analizar/Generar”.
 
-En la gráfica anterior, Analizar / Generar, se aprecian sus componentes y sus respectivos contenidos.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img27.png)
+_**Imagen 107.** Órdenes - Analizar/Generar_
 
-A  través de la  ventana Analizar /  Generar, **AM** propone un conjunto de   ots   que debieran ser ejecutadas en el período seleccionado, para ser analizadas y posteriormente generadas como Órdenes de Trabajo Programadas.
+Esta transacción abre una ventana que permite hacer el análisis a un conjunto de OT que debieran ser ejecutadas en un período seleccionado, para luego ser generadas como OT Programadas, como se visualiza en la siguiente imagen:
 
-El Procedimiento para efectuar un Análisis y posterior Generación de Órdenes de Trabajo es el siguiente:
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img28.png)
+_**Imagen 108.** Órdenes - Ventana Detalle Analizar/Generar_
 
-Digitar la fecha  **“Desde”**, que corresponde al inicio del período a programar. **AM** sugiere la fecha del sistema.
-Digitar la fecha  **“Hasta”**, que corresponde al final del período a programar. **AM** sugiere la fecha de una semana después, pero es una fecha modificable a gusto. Normalmente el período a Analizar, en este proceso, se trata de un período de corto plazo: tres días, una semana, una quincena o un mes.
-Debajo de estas fechas, en la sección de  **“Datos de la última generación”**, aparece la información del rango de fechas para el que se realizó un proceso de Generación de ots la última vez, y el código de login del usuario que ejecutó el proceso.
+El Procedimiento para efectuar un Análisis y posterior Generación de OTs es el siguiente:
 
-**Clic en el botón  “Analizar”**.
 
-**Aparece el siguiente mensaje, contestar**  “Aceptar”\*\* si se desea  ejecutar  el proceso de Analizar.
+Digitar la fecha en el campo “Desde”, que corresponde al inicio del período a programar. AM sugiere la fecha del sistema en un rango de 7 dias. 
+Luego, digitar la fecha en el campo “Hasta”, que corresponde al final del período a programar. AM sugiere la fecha de una semana después, pero es una fecha modificable a gusto. Normalmente el período a Analizar en este proceso, se trata de un período de corto plazo: tres días, una semana, una quincena o un mes.
+En la parte inferior, se encuentran los “Datos de la última generación” que indican la información del rango de fechas para el que se realizó un proceso de Generación de OT la última vez y el usuario que ejecutó el proceso. Una vez digitado el rango de fechas, dar clic en el botón <a class="btn white">Analizar</a>, seguidamente, aparece un mensaje de alerta y dar clic en <a class="btn white">Aceptar</a>.
 
-![Ventana Detalle](manualAM/0.images/cap11/chp11_img19.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img29.png)
+_**Imagen 109.** Órdenes - Comenzar Analizar/Generar_
 
-* **AM**- recorre todos   los programas de mantenimiento, y establece cuáles deben generar órdenes de trabajo en el rango de fechas ya estipulado. Durante  este proceso, puede visualizarse el  estado  de  avance  del análisis, en la parte inferior izquierda, el sistema escribe un mensaje en la pantalla de las Ots analizadas deltotal de PMs registrados en la base de datos. El proceso también se puede cancelar haciendo clic en el botón `<a class="btn">`Cancelar`</a>`, y el sistema detiene el proceso sin ningún tipo de perjuicio, es decir, a los datos no son afectados en absoluto.
+**AM** recorre todos los programas de mantenimiento y establece cuáles deben generar OTs en el rango de fechas ya estipulado. Durante este proceso, puede visualizarse el estado de avance del análisis en la parte inferior izquierda. El sistema muestra un mensaje de las OTs analizadas del total de PM registrados en la base de datos. El proceso también se puede cancelar haciendo clic en el botón <a class="btn gray">cancelar</a>.”, y el sistema detiene el proceso sin ningún tipo de perjuicio, es decir, los datos no son afectados en absoluto.
 
-Una vez finalice el proceso, se muestra el detalle del análisis y se muestra cuántas órdenes de trabajo se detectaron.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img30.png)
+_**Imagen 110.** Órdenes - Comenzar Analizar/Generar_
 
-![Ventana Detalle](manualAM/0.images/cap11/chp11_img20.png)
+Una vez finalizado el proceso, se muestra el detalle del análisis y se muestra cuántas OT se detectaron y la opción de tres botones: <a class="btn gray">Ver Diagramas</a>, <a class="btn gray">ver Reportes</a> y <a class="btn gray">Generar</a>. Los primeros dos botones son de gran utilidad para estudiar el período analizado antes de generar OT.
 
-* **Clic en Ver Diagrama**
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img31.png)
+_**Imagen 111.** Órdenes - Finalización Proceso Analizar_
 
-A continuación, se  procede  a visualizar a través de un Diagrama de Gantt, en el cual se muestra la información del Activo con su respectivo PM y al lado derecho se muestra por colores el cronograma con las fechas proyectadas de las actividades. Para esto, se procede a dar clic al botón `<a class="btn">`Ver Diagrama`</a>` y se muestran la siguiente gráfica
+**Ver Diagrama**
 
-![Ventana Detalle](manualAM/0.images/cap11/chp11_img21.png)
 
-Es importante aclarar, que hasta este punto, no ha sido generada ninguna Orden de Trabajo. Solamente se ha detectado un grupo potencial de ellas, que deberían ser ejecutadas de acuerdo a los criterios de programación, si el análisis del programador de mantenimiento lo decide.
+Para visualizar el diagrama de las OTs para ese periodo analizado, se da clic en el botón Ver Diagrama. A continuación, se abre una nueva ventana donde se visualiza a través de un Diagrama de Gantt, la información del Activo con su respectiva Tarea-Descripción y Criterio; a la derecha se muestra por colores (ver significado en el ícono parte superior derecha) el cronograma con las fechas proyectadas de las actividades, como se muestra en la siguiente imagen:
 
-* **Clic en Ver Reportes**
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img32.png)
+_**Imagen 112.** Órdenes - Giagrama de Gantt_
 
-A continuación, se procede a verificar si para las órdenes detectadas por el proceso de análisis, existen todas las garantías de ejecución, en el rango de fechas programado. Para esto, se procede a imprimir varios reportes que para el caso se  presentan, tal y como se visualiza en la siguiente gráfica:
+Es importante aclarar, que hasta este punto, no ha sido generada ninguna OT. Solamente se ha detectado un grupo potencial de ellas que deberían ser ejecutadas de acuerdo, a los criterios de programación, si el análisis del planeador de mantenimiento lo decide.
 
-![Ventana Detalle](manualAM/0.images/cap11/chp11_img22.png)
+**Ver Reportes**
 
-**Los reportes disponibles para efectuar esta revisión, son:**
 
-* Cronograma de Mantenimiento Programado con TM
-* Cronograma de Mantenimiento Programado
-* Actividades por Mes y Día
-* Listado de Repuestos
-* Actividades por Mes y Día con Presupuesto Discriminado
+A continuación, se procede a verificar si para las OT detectadas en el proceso de análisis, existen todas las garantías de ejecución, en el rango de fechas programado. Para esto, se procede a imprimir varios reportes que para el caso se presentan, tal y como se visualiza en la siguiente gráfica:
 
-Los anteriores reportes pueden ser seleccionados para una o varias **OT**.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img33.png)
+_**Imagen 112.** Órdenes - Reportes_
 
-Después de seleccionar el reporte, pulse el botón `<a class="btn">`imprimir`</a>`.
+**Los reportes disponibles en el análisis para efectuar esta revisión, son:**
 
-Si al imprimir alguno de estos reportes, el usuario advierte que una o varias de  estas Ordenes de Trabajo no deben ser  Generadas, éste es  el momento para  que  cancele todo el proceso, va ya a los Programas de Mantenimiento respectivos,  revise y modifique sus criterios, y vuelva a realizar un nuevo el proceso de Análisis.
-Si después de efectuar la revisión, el usuario está seguro de que ésas son las Órdenes de Trabajo a  generar,  se  hace  clic  en  el  botón  `<a class="btn">`Generar`</a>`.  Este   proceso crea tantas Órdenes de Trabajo como hayan sido detectadas por el  proceso  de Análisis.  Durante este proceso, puede consultarse cómo va el proceso haciendo clic en el botón `<a class="btn">`Consultar`</a>`.
-Una vez se generan las Órdenes de Trabajo, los Programas de Mantenimiento que  las generaron, se actualizan automáticamente, ajustando sus criterios y fechas, preparando la consistencia de las generaciones futuras.
+- Listado de Equipos por 
+- Cronograma de Mantenimiento Programado con TM (Ubicación Física y Centro De Costo)
+- Cronograma de Mantenimiento Programado Con TM
+- Actividades por Mes y Día
+- Listado de Repuestos
+- Actividades por Mes y Día con Presupuesto Discriminado
+- Listado de Equipos por Generar Órdenes
+- Programación de Actividades por Activo con Centro Responsable, Ubicación Física
+- Cronograma de Mantenimiento
+- Actividades por Mes y Día con Serie, Marca, Modelo.
+
+Después de seleccionar el reporte, pulse el botón imprimir y el sistema abrirá una nueva ventana.
+
+Si al imprimir alguno de estos reportes, el usuario advierte que una o varias de estas OT no deben ser Generadas, éste es el momento para que cancele todo el proceso, vaya a los PM respectivos, revise y modifique sus criterios, y vuelva a realizar un nuevo el proceso de Análisis.
+Si por el contrario después de efectuar la revisión, el usuario está seguro de que ésas son las OT a generar, se hace clic en el botón <a class="btn gray">Generar</a>. Este proceso crea tantas OT como hayan sido detectadas por el proceso de Análisis. 
+
+
+Una vez se generan las OT, los PM que las generaron, se actualizan automáticamente, ajustando sus criterios y fechas, preparando la consistencia de las generaciones futuras.
 
 ### Modificar Masivamente
 
