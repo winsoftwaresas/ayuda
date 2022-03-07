@@ -993,7 +993,8 @@ _**Imagen 129.** Órdenes - MM TM_
 
 ### Seguimiento o Cierre
 
-![Seguimiento o Cierre](manualAM/0.images/cap11/chp011_img38.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img51.png)
+_**Imagen 130.** Órdenes - Ir a Seguimiento y Cierre_
 
 En la gráfica anterior, Ventana de Seguimiento o Cierre, se aprecian sus componentes y sus respectivos contenidos.
 
