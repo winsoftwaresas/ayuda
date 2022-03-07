@@ -989,7 +989,7 @@ _**Imagen 128.** Órdenes - MM TM_
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img50.png)
 _**Imagen 129.** Órdenes - MM TM_
 
->**Nota:** Es de gran utilidad efectuar Modificaciones Masivas para subgrupos de OT para mejorar el rendimiento del sistema. Para continuar con la Modificación Masiva, se debe confirmar al sistema dando un clic en el botón superior <a class="btn blue">modificar <span class="mdi mdi-pencil"></span></a> y se debe dar en el botón a class="btn white">Aceptar</a> dos veces.
+>**Nota:** Es de gran utilidad efectuar Modificaciones Masivas para subgrupos de OT para mejorar el rendimiento del sistema. Para continuar con la Modificación Masiva, se debe confirmar al sistema dando un clic en el botón superior <a class="btn blue">modificar <span class="mdi mdi-pencil"></span></a> y se debe dar en el botón  <a class="btn white">Aceptar</a> dos veces.
 
 ### Seguimiento o Cierre
 
