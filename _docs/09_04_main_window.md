@@ -868,7 +868,7 @@ Es importante aclarar, que hasta este punto, no ha sido generada ninguna OT. Sol
 A continuación, se procede a verificar si para las OT detectadas en el proceso de análisis, existen todas las garantías de ejecución, en el rango de fechas programado. Para esto, se procede a imprimir varios reportes que para el caso se presentan, tal y como se visualiza en la siguiente gráfica:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img33.png)
-_**Imagen 112.** Órdenes - Reportes_
+_**Imagen 113.** Órdenes - Reportes_
 
 **Los reportes disponibles en el análisis para efectuar esta revisión, son:**
 
@@ -896,17 +896,17 @@ Una vez se generan las OT, los PM que las generaron, se actualizan automáticame
 A esta opción se llega sobreponiendo el cursor sobre el módulo de OT donde se despliega un submenú de transacciones disponibles y luego se da clic en “Modificar Masivamente”.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img34.png)
-_**Imagen 113.** Órdenes - ir a Modificación Masiva_
+_**Imagen 114.** Órdenes - ir a Modificación Masiva_
 
 Esta transacción permite cambiar masivamente el Centro de Costos, Ubicación Física, Responsable, Centro Responsable, Causa de Falla, entre otras, de las OT previamente seleccionadas o de las que se encuentran en el Visor. Para ello se debe dar clic al link en azul <a class="btn white">Modificar Masivamente</a> ubicado al lado superior izquierdo de la ventana.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img35.png)
-_**Imagen 114.** Órdenes - Visor Modificación Masiva_
+_**Imagen 115.** Órdenes - Visor Modificación Masiva_
 
 Seguidamente se muestran las opciones de modificación masiva disponibles.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img36.png)
-_**Imagen 115.** Órdenes - Visor Modificación Masiva_
+_**Imagen 116.** Órdenes - Visor Modificación Masiva_
 
 Antes de efectuar cualquier modificación, en la parte inferior del recuadro general se muestran las siguientes dos opciones a tener en cuenta:
 
@@ -922,72 +922,72 @@ Las opciones de Modificación Masiva son las siguientes:
 **Modificar Centro de Costo:** Se modifica masivamente el Centro de Costo a las OT previamente seleccionadas.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img37.png)
-_**Imagen 116.** Órdenes - MM Centro de Costo_
+_**Imagen 117.** Órdenes - MM Centro de Costo_
 
 **Modificar Centro Responsable:** Se modifica masivamente el Centro Responsable a las OT previamente seleccionadas.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img38.png)
-_**Imagen 117.** Órdenes - MM Centro Responsable_
+_**Imagen 118.** Órdenes - MM Centro Responsable_
 
 **Modificar Comentarios:** Se modifican masivamente los Comentarios, de las OT que están previamente seleccionadas en el visor.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img39.png)
-_**Imagen 118.** Órdenes - MM Comentarios_
+_**Imagen 119.** Órdenes - MM Comentarios_
 
 **Modificar Contrato:** Se modifica masivamente el Contrato previamente definido a las OT que están previamente seleccionados en el visor.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img40.png)
-_**Imagen 119.** Órdenes - MM Contrato_
+_**Imagen 120.** Órdenes - MM Contrato_
 
 **Modificar Estado:** Se modifica masivamente el Estado de la OT que están previamente seleccionadas en el visor.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img41.png)
-_**Imagen 120.** Órdenes - MM Estado_
+_**Imagen 121.** Órdenes - MM Estado_
 
 **Modificar F/H Programada:** Se modifica Masivamente la Fecha y Hora Programada a las OT previamente seleccionadas en el visor.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img42.png)
-_**Imagen 121.** Órdenes - MM F/H Programada_
+_**Imagen 122.** Órdenes - MM F/H Programada_
 
 **Modificar Prioridad:** Se modifica Masivamente la Prioridad a las OT previamente seleccionadas en el visor.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img43.png)
-_**Imagen 122.** Órdenes - MM Prioridad_
+_**Imagen 123.** Órdenes - MM Prioridad_
 
 **Modificar Responsable:** Se modifica masivamente el Responsable, de las OT que están previamente seleccionadas en el visor.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img44.png)
-_**Imagen 123.** Órdenes - MM Prioridad_
+_**Imagen 124.** Órdenes - MM Prioridad_
 
 **Modificar Ubicación Física:** Se modifica masivamente la Ubicación Física a las OT previamente seleccionadas en el visor.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img45.png)
-_**Imagen 123.** Órdenes - MM Prioridad_
+_**Imagen 125.** Órdenes - MM Prioridad_
 
 **Modificar Tiempo Estimado:** Se modifica masivamente el tiempo estimado a las OT previamente seleccionadas en el visor. El tiempo puede ser en Días, Horas o Minutos.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img46.png)
-_**Imagen 124.** Órdenes - MM Tiempo Estimado_
+_**Imagen 126.** Órdenes - MM Tiempo Estimado_
 
 **Modificar TA:** Se modifica masivamente el TA a las OT previamente seleccionadas. Para que se habilite este campo, se debe elegir primero el TM.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img47.png)
-_**Imagen 125.** Órdenes - MM TA_
+_**Imagen 127.** Órdenes - MM TA_
 
 **Modificar Tipo de Mtto:** Se modifica masivamente el TM a las OT previamente seleccionadas en el visor, al seleccionar esta opción también se debe elegir el TA.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img48.png)
-_**Imagen 126.** Órdenes - MM TM_
+_**Imagen 127.** Órdenes - MM TM_
 
 **Evaluar el Servicio:** Se modifica masivamente la Evaluación de Servicio a las Órdenes de Trabajo previamente seleccionadas en el visor.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img49.png)
-_**Imagen 127.** Órdenes - MM TM_
+_**Imagen 128.** Órdenes - MM TM_
 
 **Adjuntar Documentos:** Se adjuntan masivamente documentos a las OT previamente seleccionadas en el visor.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img50.png)
-_**Imagen 128.** Órdenes - MM TM_
+_**Imagen 129.** Órdenes - MM TM_
 
 >**Nota:** Es de gran utilidad efectuar Modificaciones Masivas para subgrupos de OT para mejorar el rendimiento del sistema. Para continuar con la Modificación Masiva, se debe confirmar al sistema dando un clic en el botón superior <a class="btn blue">modificar <span class="mdi mdi-pencil"></span></a> y se debe dar en el botón a class="btn white">Aceptar</a> dos veces.
 
