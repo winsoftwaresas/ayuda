@@ -946,23 +946,33 @@ _**Imagen 120.** Órdenes - MM Estado_
 
 **Modificar F/H Programada:** Se modifica Masivamente la Fecha y Hora Programada a las OT previamente seleccionadas en el visor.
 
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img42.png)
+_**Imagen 121.** Órdenes - MM F/H Programada_
 
+**Modificar Prioridad:** Se modifica Masivamente la Prioridad a las OT previamente seleccionadas en el visor.
 
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img43.png)
+_**Imagen 122.** Órdenes - MM Prioridad_
 
+**Modificar Responsable:** Se modifica masivamente el Responsable, de las OT que están previamente seleccionadas en el visor.
 
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img44.png)
+_**Imagen 123.** Órdenes - MM Prioridad_
 
+**Modificar Ubicación Física:** Se modifica masivamente la Ubicación Física a las OT previamente seleccionadas en el visor.
 
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img44.png)
+_**Imagen 123.** Órdenes - MM Prioridad_
 
+**Modificar Tiempo Estimado:** Se modifica masivamente el tiempo estimado a las OT previamente seleccionadas en el visor. El tiempo puede ser en Días, Horas o Minutos.
 
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img45.png)
+_**Imagen 124.** Órdenes - MM Tiempo Estimado_
 
+**Modificar TA:** Se modifica masivamente el TA a las OT previamente seleccionadas, cuando se selecciona este campo, se habilita automáticamente el TM ya que éste depende del tipo de Mantenimiento. 
 
-
-
-
-
-
-
-
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img46.png)
+_**Imagen 125.** Órdenes - MM Tiempo Estimado_
 
 
 ### Seguimiento o Cierre
