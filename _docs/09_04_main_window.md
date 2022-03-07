@@ -893,7 +893,7 @@ Una vez se generan las OT, los PM que las generaron, se actualizan automáticame
 
 ### Modificar Masivamente
 
-Esta  transacción  permite  cambiar  masivamente  el  Responsable,  los   Comentarios,  el Estado, la Evaluación de Servicio, entre otros; de las Órdenes de Trabajo previamente seleccionadas, que se encuentran en el Visor.
+A esta opción se llega sobreponiendo el cursor sobre el módulo de OT donde se despliega un submenú de transacciones disponibles y luego se da clic en “Modificar Masivamente”.
 
 ![Ventana Detalle](manualAM/0.images/cap11/chp11_img23.png)
 
