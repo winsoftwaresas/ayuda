@@ -969,12 +969,12 @@ _**Imagen 123.** Órdenes - MM Prioridad_
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img46.png)
 _**Imagen 124.** Órdenes - MM Tiempo Estimado_
 
-**Modificar TA:** Se modifica masivamente el TA a las OT previamente seleccionadas, para que se habilite este campo, se debe elegir el TM.
+**Modificar TA:** Se modifica masivamente el TA a las OT previamente seleccionadas. Para que se habilite este campo, se debe elegir primero el TM.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img47.png)
 _**Imagen 125.** Órdenes - MM TA_
 
-**Modificar Tipo de Mtto:** Se modifica masivamente el TM a las OT previamente seleccionadas en el visor.
+**Modificar Tipo de Mtto:** Se modifica masivamente el TM a las OT previamente seleccionadas en el visor, al seleccionar esta opción también se debe elegir el TA.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img48.png)
 _**Imagen 126.** Órdenes - MM TM_
@@ -989,7 +989,7 @@ _**Imagen 127.** Órdenes - MM TM_
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img50.png)
 _**Imagen 128.** Órdenes - MM TM_
 
->**Nota:** Es de gran utilidad efectuar Modificaciones Masivas para subgrupos de OT para mejorar el rendimiento del sistema.
+>**Nota:** Es de gran utilidad efectuar Modificaciones Masivas para subgrupos de OT para mejorar el rendimiento del sistema. Para continuar con la Modificación Masiva, se debe confirmar al sistema dando un clic en el botón superior <a class="btn blue">modificar <span class="mdi mdi-pencil"></span></a> y se debe dar en el botón a class="btn white">Aceptar</a> dos veces.
 
 ### Seguimiento o Cierre
 
