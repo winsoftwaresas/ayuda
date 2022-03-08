@@ -1125,7 +1125,23 @@ Todas las OT del visor (cerradas y/o canceladas): Esta opción se realiza el env
 
 
 **La OT seleccionada:** Esta opción realiza el envío de la OT que está resaltada en el visor (tiene la línea verde del cursor sobre sí).
+
+
 Para enviar a Historia, se selecciona una de las opciones y se hace clic en el botón <a class="btn blue">Enviar a historia</a>, entonces aparece la siguiente ventana y se da clic en <a class="btn white">Aceptar</a>:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img57.png)
+_**Imagen 136.** Órdenes - Enviar a Historia_
+
+Una vez que se acepte este proceso, las OT que hayan sido enviadas a Historia, no vuelven a ser OT activas, es decir, no pueden devolverse al módulo de OT.
+Una vez finaliza el proceso, aparece el siguiente mensaje:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img58.png)
+_**Imagen 137.** Órdenes - Mensaje Envío OT a HM_
+
+En caso de inexistencia de registros para ser enviados, aparece el siguiente mensaje:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img59.png)
+_**Imagen 138.** Órdenes - Mensaje de Error Envío OT a HM_
 
 ## Servicios
 
