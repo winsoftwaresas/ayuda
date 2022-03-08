@@ -1104,36 +1104,28 @@ _**Imagen 133.** Órdenes - Detalle Bitácora en Seguimiento y Cierre_
 
 ### Enviar a Historia
 
-El objetivo de esta transacción es desplazar hacia el módulo de Historia de Mantenimiento, las Órdenes de Trabajo que estando Cerradas, residen todavía en el módulo de Órdenes de Trabajo. Tales Órdenes tienen cualquiera de los siguientes estados:
+A esta opción se llega sobreponiendo el cursor sobre el módulo de OT donde se despliega un submenú de transacciones disponibles y luego se da clic en “Enviar a Historia”.
 
-* **C:** 	Cerrada.
-* **K:** 	Cancelada
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img55.png)
+_**Imagen 134.** Órdenes - Ir a Enviar a Historia_
 
-Al hacer clic en la transacción, aparece la siguiente ventana:
+El objetivo de esta transacción es desplazar hacia el módulo de HM las OT que se hayan preseleccionado por subgrupo o de manera individual con **Estado:** Canceladas (K) o Cerradas (CE).
 
-![ventana OT ](manualAM/0.images/cap11/chp011_img41.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img56.png)
+_**Imagen 135.** Órdenes - Visor Enviar a Historia_
 
-En la ventana aparece un botón  **“Enviar a Historia”** y tres casillas de selección. Estas casillas  de selección parametriza los registros que se desea enviar a Historia.
+En la gráfica anterior, Ventana de Seguimiento o Cierre, se aprecian sus componentes y sus respectivos contenidos.
 
-**Todas las** OT **cerradas:** Con esta opción se realiza el envío de todas las Órdenes de Trabajo existentes en la base de datos, sin importar cualquier subgrupo activo.
 
-**Todas las** OT **cerradas del visor:** Esta opción se realiza el envío de todas las Órdenes seleccionados en el visor mediante un subgrupo.
+En la ventana aparece un botón “Enviar a Historia” y tres casillas de selección. Estas casillas de selección parametrizan los registros que se desean enviar a Historia, estos son:
 
-**La** OT **seleccionada:** Esta opción realiza el envío de la **OT** que está resaltada  en  el visor (tiene la línea verde del cursor sobre sí).
 
-Para enviar a Historia, se selecciona una de las opciones  y se hace clic en el  botón`<a class="btn">`Enviar a Historia`</a>`, entonces aparece la siguiente ventana y se da clic en `<a class="btn">`Aceptar`</a>`:
+**Todas las OT (cerradas y/o canceladas):** Con esta opción se realiza el envío de todas las OT existentes en la base de datos, sin importar cualquier subgrupo activo.
+Todas las OT del visor (cerradas y/o canceladas): Esta opción se realiza el envío de todas las OT seleccionadas en el visor mediante un subgrupo.
 
-![ventana OT mensaje de envio ](manualAM/0.images/cap11/chp011_img41.png)
 
-En caso de cancelar el proceso, las órdenes que ya fueron enviadas a Historia, NO  se revierten, es decir, no vuelven a ser Órdenes de Trabajo activas. Aquellas que no  se alcanzaron a enviar, permanecen en el módulo de Órdenes de Trabajo.
-
-En el caso de que NO existan Órdenes de Trabajo para ser enviadas, aparece el siguiente mensaje:
-
-![OT mensaje error](manualAM/0.images/cap11/chp011_img41.png)
-
-Una vez finaliza el proceso, aparece el siguiente mensaje:
-
-![OT proceso exitoso](manualAM/0.images/cap11/chp011_img42.png)
+**La OT seleccionada:** Esta opción realiza el envío de la OT que está resaltada en el visor (tiene la línea verde del cursor sobre sí).
+Para enviar a Historia, se selecciona una de las opciones y se hace clic en el botón <a class="btn blue">Enviar a historia</a>, entonces aparece la siguiente ventana y se da clic en <a class="btn white">Aceptar</a>:
 
 ## Servicios
 
