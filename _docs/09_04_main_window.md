@@ -1143,6 +1143,23 @@ En caso de inexistencia de registros para ser enviados, aparece el siguiente men
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img59.png)
 _**Imagen 138.** Órdenes - Mensaje de Error Envío OT a HM_
 
+## Dashboard de OT
+
+A esta opción se llega sobreponiendo el cursor sobre el módulo de OT donde se despliega un submenú de transacciones disponibles y luego se da clic en “DashBoard de OT”.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img60.png)
+_**Imagen 139.** Órdenes Ir a Dashboard de OT_
+
+
+
+
+
+
+
+
+
+
+
 ## Servicios
 
 ### Reportes
