@@ -1148,17 +1148,28 @@ _**Imagen 138.** Órdenes - Mensaje de Error Envío OT a HM_
 A esta opción se llega sobreponiendo el cursor sobre el módulo de OT donde se despliega un submenú de transacciones disponibles y luego se da clic en “DashBoard de OT”.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img60.png)
-_**Imagen 139.** Órdenes Ir a Dashboard de OT_
+_**Imagen 139.** Órdenes - Ir a Dashboard de OT_
 
+Este comando permite visualizar en tiempo real el comportamiento de los registros de OT con el fin de usarse como una herramienta para análisis y toma de decisiones rápidas.
 
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img61.png)
+_**Imagen 140.** Órdenes - Dashboard de OT_
 
+La información del rectángulo de color naranja ubicado en la parte superior derecha como guía a modo de fracción (N/M), indica el número de registros del subgrupo en el visor(N) sobre el número total de registros de OT existentes en la base de datos (M). Si no hay preselección, los dos números en sus totales son los mismos.
+También un indicador de la existencia de un subgrupo, es el ícono de triángulo invertido con una pelota de color rojo que se ubica al lado derecho de dicha fracción.
 
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img62.png)
+_**Imagen 141.** Órdenes - Subgrupos Dashboard_
 
+Para personalizar la vista de los gráficos o tener una información específica se recomienda hacer subgrupos a través del ícono de triángulo invertido. Asimismo los DashBoards permiten ocultar información con solo dar un clic sobre sus rectángulos de colores como se muestra en la siguiente imagen:
 
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img62.png)
+_**Imagen 142.** Órdenes - Subgrupos Dashboard_
 
+Sí se desea restablecer la información, se debe dar clic al ícono <span class="mdi mdi-autorenew"></span>. En cambio, si se desea exportar el gráfico en un formato de imagen, es posible dando clic al ícono <span class="mdi mdi-download"></span>. 
 
-
-
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img63.png)
+_**Imagen 143.** Órdenes - Subgrupos Dashboard_
 
 ## Servicios
 
