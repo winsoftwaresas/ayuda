@@ -1186,14 +1186,17 @@ En la gráfica anterior, se aprecian sus componentes y sus respectivos contenido
 **Exportar Todos los Registros:** Esta opción exporta todas las OT existentes en la base de datos, sin importar cualquier subgrupo activo.
 Luego de escoger una de las opciones anteriores, en la parte inferior aparece seleccionado por defecto el recuadro <a class="btn black"><span class="mdi mdi-checkbox-blank-outline"> exportar todos los campos</span></a> pero si se prefiere uno o varios, se debe des-seleccionar y a continuación hacer clic en los recuadros a exportar, una vez elegida la información, se da clic en el botón inferior <a class="btn white">exportar</a> el cual genera un archivo de Excel que se descarga automáticamente. El objetivo de esta exportación es llevar toda la información de las OT a un archivo plano, para luego ser analizadas.
 
+## Histograma 
+
+
+
 
 
 ## Servicios
 
 ### Reportes
 
-Este comando permite visualizar los reportes relacionados con Órdenes de
-Trabajo. Existen los siguientes tipos de reportes básicos disponibles:
+Este comando permite visualizar los reportes relacionados a ÓT. Existen los siguientes tipos de reportes básicos disponibles:
 
 ![OT reportes](manualAM/0.images/cap11/chp011_img43.png)
 
@@ -1208,4 +1211,4 @@ Trabajo:
 
 **Subtítulo:** En este campo es posible registrar un poco menos de una línea de información, tipo documentación del Reporte, para que se imprima bajo el área de títulos estándar.
 
-Para visualizar los reportes, se selecciona el reporte y luego se da clic al botón `<a class="btn">`Imprimir`</a>`.
+Para visualizar los reportes, se selecciona el reporte y luego se da clic al botón <a class="btn">Imprimir</a>.
