@@ -1163,21 +1163,19 @@ _**Imagen 141.** Órdenes - Subgrupos Dashboard_
 
 Para personalizar la vista de los gráficos o tener una información específica se recomienda hacer subgrupos a través del ícono de triángulo invertido. Asimismo los DashBoards permiten ocultar información con solo dar un clic sobre sus rectángulos de colores como se muestra en la siguiente imagen:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img62.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img63.png)
 _**Imagen 142.** Órdenes - Subgrupos Dashboard_
 
 Sí se desea restablecer la información, se debe dar clic al ícono <span class="mdi mdi-autorenew"></span>. En cambio, si se desea exportar el gráfico en un formato de imagen, es posible dando clic al ícono <span class="mdi mdi-download"></span>. 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img63.png)
-_**Imagen 143.** Órdenes - Subgrupos Dashboard_
 
 ## Exportar
 
 Esta opción permite exportar los ítems o campos de la ficha técnica de OT, bien sea, para exportar todas las OTs de la base de datos o las provenientes de un subgrupo a un archivo de Excel que se descarga automáticamente en la estación cliente.
 Para efectuar este proceso, se da clic en Exportar <span class="mdi mdi-download"></span> mostrando las siguientes opciones de exportación:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img64.png)
-_**Imagen 144.** Órdenes - Exportar_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img65.png)
+_**Imagen 143.** Órdenes - Exportar_
 
 En la gráfica anterior, se aprecian sus componentes y sus respectivos contenidos:
 
@@ -1187,8 +1185,6 @@ En la gráfica anterior, se aprecian sus componentes y sus respectivos contenido
 
 **Exportar Todos los Registros:** Esta opción exporta todas las OT existentes en la base de datos, sin importar cualquier subgrupo activo.
 Luego de escoger una de las opciones anteriores, en la parte inferior aparece seleccionado por defecto el recuadro <a class="btn black"><span class="mdi mdi-checkbox-blank-outline"> exportar todos los campos</span></a> pero si se prefiere uno o varios, se debe des-seleccionar y a continuación hacer clic en los recuadros a exportar, una vez elegida la información, se da clic en el botón inferior <a class="btn white">exportar</a> el cual genera un archivo de Excel que se descarga automáticamente. El objetivo de esta exportación es llevar toda la información de las OT a un archivo plano, para luego ser analizadas.
-
-
 
 
 
