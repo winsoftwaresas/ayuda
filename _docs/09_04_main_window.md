@@ -1188,8 +1188,14 @@ Luego de escoger una de las opciones anteriores, en la parte inferior aparece se
 
 ## Histograma 
 
+Para ingresar a esta opción, se llega sobreponiendo el cursor sobre el módulo de OT donde se despliega un submenú de transacciones disponibles y luego se da clic en “Histograma”.
 
 
+
+
+Tiene la finalidad de conocer la distribución de la carga de actividades o el número de horas que tiene asignado durante una semana un Responsable o un Oficio en particular.
+
+Este análisis se hace por medio de gráficos de barras a través de filtros o subgrupos.
 
 
 ## Servicios
