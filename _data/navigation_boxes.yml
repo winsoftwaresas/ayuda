@@ -12,8 +12,8 @@
 #  doc: ''
 #  url: /blog/
 
-#- title: Historial de cambios
-#  desc: Explora el historial de cambios de AM
-#  icon: history
-#  doc: ''
-#  url: /changelog-timeline/
+- title: Historial de cambios
+  desc: Explora el historial de cambios de AM
+  icon: history
+  doc: ''
+  url: /changelog-timeline/
