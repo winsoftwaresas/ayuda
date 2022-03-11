@@ -7,14 +7,14 @@ left:
   # - title: Blog
   #   url: /blog/
 
-  # - title: Registro de cambios
-  #   dropdown:
+  - title: Registro de cambios
+    dropdown:
 
-  #     - title: Línea de tiempo
-  #       url: /changelog-timeline/
+      - title: Línea de tiempo
+        url: /changelog-timeline/
 
-  #     - title: Publicaciones
-  #       url: /changelog-posts/
+      - title: Publicaciones
+        url: /changelog-posts/
 
 
 # Navbar right menu navigation links
@@ -25,9 +25,9 @@ right:
     url: https://wa.me/57573108304059
     button: primary-outline
 
-  #- title: Registro de cambios
-  #  url: /changelog-timeline/
-  #  button: primary-outline
+  # - title: Registro de cambios
+  #   url: /changelog-timeline/
+  #   button: primary-outline
 
   # - title: Contacto
   #   url: /contact/
