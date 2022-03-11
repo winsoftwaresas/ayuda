@@ -1,6 +1,6 @@
 ---
 layout: changelog
-title: Changelog posts
+title: Publicaciones del registro de cambios
 permalink: /changelog-posts/
 ---
 
