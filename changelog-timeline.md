@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Changelog timeline
+title: Línea de tiempo del registro de cambios
 width: small
 ---
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+A continuación se encuentra, a modo de resumen, el compendio de los cambios incluidos en cada versión de **[AM](https://winsoftware.com.co/am-administrador/)**.
 
 {% include changelog.html %}
