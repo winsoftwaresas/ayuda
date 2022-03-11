@@ -8,7 +8,7 @@ hero:
     search: true
 ---
 
-<!-- {% include boxes.html columns="3" title="Explora" subtitle="Elije una opción con la que necesites ayuda o usa el buscador" %} -->
+{% include boxes.html columns="2" title="Explora" subtitle="Elije una opción con la que necesites ayuda o usa el buscador" %}
 
 <!-- {% include featured.html tag="featured" title="Artículos populares" subtitle="Artículos destacados seleccionados para comenzar rápidamente en AM" %} -->
 
