@@ -87,7 +87,7 @@ share:
 
 # Default footer image settings
 footer:
-    copyright:      Made by <a href="https://winsoftware.com.co/">Win Software</a>.
+    copyright:      Made by <a href="https://winsoftware.com.co/">WIN Software</a>.
 
 # Disqus comments shortname, requires Disqus account https://disqus.com/
 disqus:
