@@ -1206,17 +1206,31 @@ Cabe destacar que para que esto posible se debe de registrar en el Gasto
 
 Este comando permite visualizar los reportes relacionados a ÓT. Existen los siguientes tipos de reportes básicos disponibles:
 
-![OT reportes](manualAM/0.images/cap11/chp011_img43.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img67.png)
+_**Imagen 145.** Órdenes - Histograma_
 
-Los anteriores reportes pueden ser seleccionados para una o varias Órdenes de
-Trabajo:
+Los anteriores reportes pueden ser seleccionados para una o varias OT a través de las siguientes opciones:
 
-**Todos los Registros:** Con esta opción se realiza la impresión de todas las Órdenes de Trabajo existentes en la base de datos, sin importar cualquier subgrupo activo.
 
-*Registros del Visor:*  Esta  opción  se  realiza  una  impresión  de  todas  las   Órdenes seleccionados en el visor mediante un subgrupo.
+**Todos los Registros:** Con esta opción se realiza la impresión de todas las OT existentes en la base de datos, sin importar cualquier subgrupo activo.
 
-**Registro Seleccionado:** Esta opción realiza  una impresión de  la  **OT**  que  está resaltada en el visor (tiene la línea verde del cursor sobre sí).
 
-**Subtítulo:** En este campo es posible registrar un poco menos de una línea de información, tipo documentación del Reporte, para que se imprima bajo el área de títulos estándar.
+**Registros del Visor:** Esta opción permite hacer una impresión de todas las OT que están seleccionadas en la Ventana Visor, es decir los registros que están seleccionados en el subgrupo actual.
 
-Para visualizar los reportes, se selecciona el reporte y luego se da clic al botón <a class="btn">Imprimir</a>.
+
+**Registro Seleccionado:** Esta opción permite hacer una impresión de la OT que esta seleccionado en la Ventana Visor (el cursor verde se encuentra sobre sí).
+
+
+Una vez seleccionada una de las opciones anteriores se procede a elegir uno de los reportes mostrados.
+
+
+**Subtítulo:** En este campo es posible escribir un poco menos de una línea de información, bien sea para indicar un tipo documentación del Reporte. Lo que se escriba aquí aparecerá en la línea inferior del título estándar.
+
+
+Para visualizar los reportes, se selecciona el reporte y luego se da clic al botón <a class="btn white">imprimir</a>
+
+
+Para Exportar los reportes, se selecciona el reporte y luego se da clic al botón <a class="btn white">exportar</a>.
+
+
+Para Cerrar la ventana de los Reportes, se da clic en el botón<a class="btn white">cerrar</a>.
