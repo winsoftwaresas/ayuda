@@ -1104,55 +1104,119 @@ _**Imagen 133.** Órdenes - Detalle Bitácora en Seguimiento y Cierre_
 
 ### Enviar a Historia
 
-El objetivo de esta transacción es desplazar hacia el módulo de Historia de Mantenimiento, las Órdenes de Trabajo que estando Cerradas, residen todavía en el módulo de Órdenes de Trabajo. Tales Órdenes tienen cualquiera de los siguientes estados:
+A esta opción se llega sobreponiendo el cursor sobre el módulo de OT donde se despliega un submenú de transacciones disponibles y luego se da clic en “Enviar a Historia”.
 
-* **C:** 	Cerrada.
-* **K:** 	Cancelada
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img55.png)
+_**Imagen 134.** Órdenes - Ir a Enviar a Historia_
 
-Al hacer clic en la transacción, aparece la siguiente ventana:
+El objetivo de esta transacción es desplazar hacia el módulo de HM las OT que se hayan preseleccionado por subgrupo o de manera individual con **Estado:** Canceladas (K) o Cerradas (CE).
 
-![ventana OT ](manualAM/0.images/cap11/chp011_img41.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img56.png)
+_**Imagen 135.** Órdenes - Visor Enviar a Historia_
 
-En la ventana aparece un botón  **“Enviar a Historia”** y tres casillas de selección. Estas casillas  de selección parametriza los registros que se desea enviar a Historia.
+En la gráfica anterior, Ventana de Seguimiento o Cierre, se aprecian sus componentes y sus respectivos contenidos.
 
-**Todas las** OT **cerradas:** Con esta opción se realiza el envío de todas las Órdenes de Trabajo existentes en la base de datos, sin importar cualquier subgrupo activo.
 
-**Todas las** OT **cerradas del visor:** Esta opción se realiza el envío de todas las Órdenes seleccionados en el visor mediante un subgrupo.
+En la ventana aparece un botón “Enviar a Historia” y tres casillas de selección. Estas casillas de selección parametrizan los registros que se desean enviar a Historia, estos son:
 
-**La** OT **seleccionada:** Esta opción realiza el envío de la **OT** que está resaltada  en  el visor (tiene la línea verde del cursor sobre sí).
 
-Para enviar a Historia, se selecciona una de las opciones  y se hace clic en el  botón`<a class="btn">`Enviar a Historia`</a>`, entonces aparece la siguiente ventana y se da clic en `<a class="btn">`Aceptar`</a>`:
+**Todas las OT (cerradas y/o canceladas):** Con esta opción se realiza el envío de todas las OT existentes en la base de datos, sin importar cualquier subgrupo activo.
+Todas las OT del visor (cerradas y/o canceladas): Esta opción se realiza el envío de todas las OT seleccionadas en el visor mediante un subgrupo.
 
-![ventana OT mensaje de envio ](manualAM/0.images/cap11/chp011_img41.png)
 
-En caso de cancelar el proceso, las órdenes que ya fueron enviadas a Historia, NO  se revierten, es decir, no vuelven a ser Órdenes de Trabajo activas. Aquellas que no  se alcanzaron a enviar, permanecen en el módulo de Órdenes de Trabajo.
+**La OT seleccionada:** Esta opción realiza el envío de la OT que está resaltada en el visor (tiene la línea verde del cursor sobre sí).
 
-En el caso de que NO existan Órdenes de Trabajo para ser enviadas, aparece el siguiente mensaje:
 
-![OT mensaje error](manualAM/0.images/cap11/chp011_img41.png)
+Para enviar a Historia, se selecciona una de las opciones y se hace clic en el botón <a class="btn blue">Enviar a historia</a>, entonces aparece la siguiente ventana y se da clic en <a class="btn white">Aceptar</a>:
 
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img57.png)
+_**Imagen 136.** Órdenes - Enviar a Historia_
+
+Una vez que se acepte este proceso, las OT que hayan sido enviadas a Historia, no vuelven a ser OT activas, es decir, no pueden devolverse al módulo de OT.
 Una vez finaliza el proceso, aparece el siguiente mensaje:
 
-![OT proceso exitoso](manualAM/0.images/cap11/chp011_img42.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img58.png)
+_**Imagen 137.** Órdenes - Mensaje Envío OT a HM_
+
+En caso de inexistencia de registros para ser enviados, aparece el siguiente mensaje:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img59.png)
+_**Imagen 138.** Órdenes - Mensaje de Error Envío OT a HM_
+
+## Dashboard de OT
+
+A esta opción se llega sobreponiendo el cursor sobre el módulo de OT donde se despliega un submenú de transacciones disponibles y luego se da clic en “DashBoard de OT”.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img60.png)
+_**Imagen 139.** Órdenes - Ir a Dashboard de OT_
+
+Este comando permite visualizar en tiempo real el comportamiento de los registros de OT con el fin de usarse como una herramienta para análisis y toma de decisiones rápidas.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img61.png)
+_**Imagen 140.** Órdenes - Dashboard de OT_
+
+La información del rectángulo de color naranja ubicado en la parte superior derecha como guía a modo de fracción (N/M), indica el número de registros del subgrupo en el visor(N) sobre el número total de registros de OT existentes en la base de datos (M). Si no hay preselección, los dos números en sus totales son los mismos.
+También un indicador de la existencia de un subgrupo, es el ícono de triángulo invertido con una pelota de color rojo que se ubica al lado derecho de dicha fracción.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img62.png)
+_**Imagen 141.** Órdenes - Subgrupos Dashboard_
+
+Para personalizar la vista de los gráficos o tener una información específica se recomienda hacer subgrupos a través del ícono de triángulo invertido. Asimismo los DashBoards permiten ocultar información con solo dar un clic sobre sus rectángulos de colores como se muestra en la siguiente imagen:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img63.png)
+_**Imagen 142.** Órdenes - Subgrupos Dashboard_
+
+Sí se desea restablecer la información, se debe dar clic al ícono <span class="mdi mdi-autorenew"></span>. En cambio, si se desea exportar el gráfico en un formato de imagen, es posible dando clic al ícono <span class="mdi mdi-download"></span>. 
+
+
+## Exportar
+
+Esta opción permite exportar los ítems o campos de la ficha técnica de OT, bien sea, para exportar todas las OTs de la base de datos o las provenientes de un subgrupo a un archivo de Excel que se descarga automáticamente en la estación cliente.
+Para efectuar este proceso, se da clic en Exportar <span class="mdi mdi-download"></span> mostrando las siguientes opciones de exportación:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img65.png)
+_**Imagen 143.** Órdenes - Exportar_
+
+En la gráfica anterior, se aprecian sus componentes y sus respectivos contenidos:
+
+
+**Exportar Visor:** Esta opción exporta todas las OT seleccionadas en el visor mediante un subgrupo.
+
+
+**Exportar Todos los Registros:** Esta opción exporta todas las OT existentes en la base de datos, sin importar cualquier subgrupo activo.
+Luego de escoger una de las opciones anteriores, en la parte inferior aparece seleccionado por defecto el recuadro <a class="btn black"><span class="mdi mdi-checkbox-blank-outline"> exportar todos los campos</span></a> pero si se prefiere uno o varios, se debe des-seleccionar y a continuación hacer clic en los recuadros a exportar, una vez elegida la información, se da clic en el botón inferior <a class="btn white">exportar</a> el cual genera un archivo de Excel que se descarga automáticamente. El objetivo de esta exportación es llevar toda la información de las OT a un archivo plano, para luego ser analizadas.
 
 ## Servicios
 
 ### Reportes
 
-Este comando permite visualizar los reportes relacionados con Órdenes de
-Trabajo. Existen los siguientes tipos de reportes básicos disponibles:
+Este comando permite visualizar los reportes relacionados a ÓT. Existen los siguientes tipos de reportes básicos disponibles:
 
-![OT reportes](manualAM/0.images/cap11/chp011_img43.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img67.png)
+_**Imagen 145.** Órdenes - Histograma_
 
-Los anteriores reportes pueden ser seleccionados para una o varias Órdenes de
-Trabajo:
+Los anteriores reportes pueden ser seleccionados para una o varias OT a través de las siguientes opciones:
 
-**Todos los Registros:** Con esta opción se realiza la impresión de todas las Órdenes de Trabajo existentes en la base de datos, sin importar cualquier subgrupo activo.
 
-*Registros del Visor:*  Esta  opción  se  realiza  una  impresión  de  todas  las   Órdenes seleccionados en el visor mediante un subgrupo.
+**Todos los Registros:** Con esta opción se realiza la impresión de todas las OT existentes en la base de datos, sin importar cualquier subgrupo activo.
 
-**Registro Seleccionado:** Esta opción realiza  una impresión de  la  **OT**  que  está resaltada en el visor (tiene la línea verde del cursor sobre sí).
 
-**Subtítulo:** En este campo es posible registrar un poco menos de una línea de información, tipo documentación del Reporte, para que se imprima bajo el área de títulos estándar.
+**Registros del Visor:** Esta opción permite hacer una impresión de todas las OT que están seleccionadas en la Ventana Visor, es decir los registros que están seleccionados en el subgrupo actual.
 
-Para visualizar los reportes, se selecciona el reporte y luego se da clic al botón `<a class="btn">`Imprimir`</a>`.
+
+**Registro Seleccionado:** Esta opción permite hacer una impresión de la OT que esta seleccionado en la Ventana Visor (el cursor verde se encuentra sobre sí).
+
+
+Una vez seleccionada una de las opciones anteriores se procede a elegir uno de los reportes mostrados.
+
+
+**Subtítulo:** En este campo es posible escribir un poco menos de una línea de información, bien sea para indicar un tipo documentación del Reporte. Lo que se escriba aquí aparecerá en la línea inferior del título estándar.
+
+
+Para visualizar los reportes, se selecciona el reporte y luego se da clic al botón <a class="btn white">imprimir</a>
+
+
+Para Exportar los reportes, se selecciona el reporte y luego se da clic al botón <a class="btn white">exportar</a>.
+
+
+Para Cerrar la ventana de los Reportes, se da clic en el botón<a class="btn white">cerrar</a>.
