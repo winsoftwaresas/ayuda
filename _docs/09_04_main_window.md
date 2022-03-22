@@ -1186,20 +1186,6 @@ En la gráfica anterior, se aprecian sus componentes y sus respectivos contenido
 **Exportar Todos los Registros:** Esta opción exporta todas las OT existentes en la base de datos, sin importar cualquier subgrupo activo.
 Luego de escoger una de las opciones anteriores, en la parte inferior aparece seleccionado por defecto el recuadro <a class="btn black"><span class="mdi mdi-checkbox-blank-outline"> exportar todos los campos</span></a> pero si se prefiere uno o varios, se debe des-seleccionar y a continuación hacer clic en los recuadros a exportar, una vez elegida la información, se da clic en el botón inferior <a class="btn white">exportar</a> el cual genera un archivo de Excel que se descarga automáticamente. El objetivo de esta exportación es llevar toda la información de las OT a un archivo plano, para luego ser analizadas.
 
-## Histograma 
-
-Para ingresar a esta opción, se llega sobreponiendo el cursor sobre el módulo de OT donde se despliega un submenú de transacciones disponibles y luego se da clic en “Histograma”.
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img66.png)
-_**Imagen 144.** Órdenes - Histograma_
-
-Tiene la finalidad de conocer la distribución de la carga de actividades o el número de horas que tiene asignado durante una semana un Responsable o un Oficio en particular.
-
-Este análisis se hace por medio de gráficos de barras a través de filtros o subgrupos.
-
-Cabe destacar que para que esto posible se debe de registrar en el Gasto 
-
-
 ## Servicios
 
 ### Reportes
