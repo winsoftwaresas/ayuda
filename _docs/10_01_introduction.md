@@ -1,9 +1,12 @@
 ---
 title: Introducción
-subtitle: el este capitulo dara respuesta a todas las preguntas generadas de la seccion historia de mantenimiento.
-tags: [setup]
+subtitle: el este capitulo dara respuesta a todas las preguntas generadas de la
+  seccion historia de mantenimiento.
+tags:
+  - setup
 author: win
 order: 10_01
+date: 2022-03-28T19:48:05.391Z
 ---
 # Historia de Mantenimiento
 
@@ -11,4 +14,5 @@ order: 10_01
 - ¿Qué tipo de consultas se pueden hacer desde Historia?.
 - ¿Qué reportes y estudios especiales se pueden generar con base en la información Histórica de  Mantenimiento?.
 - ¿Qué son los reportes de Pareto,  Como se generan los Índices de Gestión?.
-- ¿Son los temas centrales que trata el presente Capítulo?.
+
+Son los temas centrales que trata el presente Capítulo.
