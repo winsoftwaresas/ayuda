@@ -43,15 +43,15 @@ A continuación, se describen los campos que componen esta ventana Detalle de Ó
 
 **Descripción:** Es un texto corto por medio del cual se indica la naturaleza de la labor a realizar. Debe ser conciso y no dar lugar a ambigüedades, este campo tiene una longitud de 100 caracteres. Se recomienda definir la descripción bajo la siguiente norma: iniciar con un verbo en infinitivo: revisar, corregir, inspeccionar, conectar, etc., continuar con el Objeto de mantenimiento o Activo/Equipo y finalizar con un complemento explicatorio. Ejemplos: Revisar la transmisión delantera del sistema. Cambiar a los rodillos la cobertura de caucho.
 
-**Prioridad:** Es  un número de  1  a  7  que  indica la  prioridad de realización de la   **OT**. Normalmente 1 significa un trabajo de gran urgencia, mientras que 7 es una labor de baja prioridad.
+**Prioridad:** Es un número de 1 a 7 que indica la prioridad de realización de la OT. Normalmente 1 significa un trabajo de gran urgencia, mientras que 7 es una labor de baja prioridad.
 
-**F/H   Programada:** En  este  campo se  ingresa  la  fecha  programada para  realizar  la ejecución de la Orden de Trabajo.
+**F/H Programada:** En este campo se ingresa la fecha programada o fecha tentativa para ejecutar la OT.
 
-**Referencia:** En  este  campo  se  puede  ingresar  el  número de  un  documento,  que sirve como referencia o relación a la **OT**; ejemplo: Número de una factura,  número de una Orden de Compra asociada, o un documento interno de despacho de almacén, etc.
+**Referencia:** En este campo se puede ingresar el número de un documento, que sirve como referencia o relación a la OT; ejemplo: Número de una factura, número de una orden de Compra asociada, o un documento interno de despacho de almacén, etc.
 
-**Estado:** Este campo está bloqueado y muestra el nombre del Estado de la **OT**.
+**Estado:** Este campo está bloqueado y muestra el nombre del Estado de la OT. Los tres posibles estados son: Cerrada Ejecutada, Cerrada Retroalimentada (para registros que se han editado) y Canceladas.
 
-**Código del Activo:** Aquí se establece el Objeto de Mantenimiento, ya sea digitando directamente el Código, o seleccionándolo con los binoculares, al que se le realiza la labor.  Una vez se digita o se selecciona, aparece al lado derecho la Descripción del Equipo.
+**Código del Activo:** Aquí se establece el Objeto de Mantenimiento, aquel Activo al que se le realizó la labor. Este se escoge bien sea digitando directamente el Código (luego presionar la tecla tabular), o seleccionándolo con el icono de filtro <span class="mdi mdi-filter-variant"></span>. Una vez se digita o se selecciona, aparece al lado derecho la Descripción del Equipo.
 
 **Descripción:**   En   este  campo  se  visualiza  la   información  de la descripción del Activo seleccionado.
 
