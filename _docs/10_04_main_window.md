@@ -1,12 +1,15 @@
 ---
-title:  Ventana Principal
-subtitle: en esta seccion encontrará el el instructivo de el funcionamiento adecuado  de cada ventana que compone esta seccion en el programa am4g.
+title: Ventana Principal
+subtitle: en esta seccion encontrará el el instructivo de el funcionamiento
+  adecuado  de cada ventana que compone esta seccion en el programa am4g.
 author: win
 order: 10_04
+date: 2022-03-28T20:34:50.748Z
 ---
 # Ventana Principal de Historia de Mantenimiento
 
-![Ventana Principal de Historia de Mantenimiento](0.images/cap11/chp11_img01.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp010_img01.png)
+_**Imagen 145.** Órdenes - Histograma_
 
 A esta ventana se llega haciendo clic sobre la opción Historia del Menú Principal. A través de ella se ejecutan todas las funciones dedicadas a administrar la Historia de Mantenimiento. A continuación se ilustran las porciones que la componen.
 
