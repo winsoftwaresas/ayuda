@@ -8,36 +8,40 @@ date: 2022-03-28T20:34:50.748Z
 ---
 # Ventana Principal de Historia de Mantenimiento
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp010_img01.png)
-_**Imagen 145.** Órdenes - Histograma_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp010_img01.png)
+_**Imagen 145.** Historia - Ventana Visor_
 
 A esta ventana se llega haciendo clic sobre la opción Historia del Menú Principal. A través de ella se ejecutan todas las funciones dedicadas a administrar la Historia de Mantenimiento. A continuación se ilustran las porciones que la componen.
 
 ## Ventana Visor
 
-!![Ventana Visor](0.images/cap11/chp11_img02.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp010_img02.png)
+_**Imagen 146.** Historia - Ventana Visor_
 
 Se accede directamente desde la ventana principal de Historia de Mantenimiento.
 
-Desde esta ventana es posible observar la Historia de Mantenimiento activa o existente.  Se listan todos los registros de Historia o una selección o subgrupo de ellos.  Se puede hacer clic en alguna de ellas, para visualizar el registro completo de la Orden de Trabajo Histórica, en la parte inferior (Ventana Detalle).
 
-El conjunto de la Historia disponible a ser desplegado se muestra a través de páginas.  El tamaño de las páginas es configurable desde la opción Administrar por parte de quien tenga acceso a ella.
+Desde esta ventana es posible observar la Historia de Mantenimiento activa, existente o un subconjunto de ellas (efectuado a través de un subgrupo). El conjunto de Órdenes de Trabajo Históricas disponible a ser desplegado se muestra a través de páginas. El tamaño de las páginas es configurable desde la opción Administración del menú principal, en la sección “Valores por Defecto” por parte de un usuario autorizado.
 
-Los  nombres  que encabezan las  columnas  a  manera  de  títulos en azul, permiten ordenar  de manera ascendente la información por cada ítem seleccionado, al dar clic en el respectivo encabezado.
+
+Al hacer clic sobre alguna de las Órdenes de Trabajo Históricas del Visor el sistema responde mostrando la información de esa OT, en forma detallada, en una ventana llamada Ventana Detalle.
+
+Los títulos en azul que encabezan las columnas son también botones que permiten ordenar la tabla, según el título seleccionado. Para elegir un registro de la tabla se da un clic del mouse sobre él o se desplaza el cursor con las teclas de desplazamiento.
 
 ## Ventana Detalle
 
-![Ventana Detalle](0.images/cap11/chp11_img02.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp010_img03.png)
+_**Imagen 147.** Historia - Ventana Visor_
 
-En la gráfica anterior, Ventana Detalle de Ordenes de Trabajo Históricas, se aprecian  sus componentes  y  sus  respectivos  contenidos.  En  esta  ventana  Detalle  se  encuentra  la información relevante a la Orden de Trabajo histórica seleccionada en el Visor. A través de ella se administran los datos genéricos de la Orden de Trabajo Histórica. Desde esta ventana es posible modificar la información de una **OTH**. Por  supuesto que para ello se requieren permisos especiales, que pueden ser proporcionados por el Administrador.
+En la gráfica anterior, Ventana Detalle de Órdenes Históricas, se aprecian sus componentes y sus respectivos contenidos. En esta ventana se encuentra la información relevante a la OT histórica seleccionada en el Visor. A través de ella se administran los datos genéricos y también es posible modificar la información de una OT Histórica. Por supuesto que, para ello se requieren permisos especiales, que pueden ser proporcionados por el Administrador.
 
-A continuación se describen los campos que componen esta ventana Detalle de Ordenes de Trabajo Históricas. Sobre cada campo se da una breve explicación.
+A continuación, se describen los campos que componen esta ventana Detalle de Órdenes de Trabajo Históricas. Sobre cada campo se da una breve explicación:
 
-**OT:** Aparece el número de **OT** asignado por – AM 4G– a la Orden de Trabajo.  Si se está en el proceso de creación de una **OT** Manual, este campo solamente muestra el Año.   Una vez se crea (Insertar) la **OT**, **–AM 4G** asigna un consecutivo a dicha Orden.
+**OT:** Aparece el número de OT asignado por AM a la OT en el momento en que se generó.
 
-**F/H Creación:** Es la fecha en la cual se crea la Orden de Trabajo.  En el caso  de Órdenes Programadas, esta fecha es asignada automáticamente por el sistema y no es modificable, según el Programa de Mantenimiento que la genera. Para las Órdenes de Trabajo Manuales, – AM –   sugiere   la   fecha   actual   del   sistema  (aunque  puede   ser modificada).
+**F/H Creación:** Es la fecha en la cual se crea la Orden de Trabajo Histórica. En el caso de Órdenes Programadas, esta fecha fue asignada automáticamente por el sistema y no es modificable, según el Programa de Mantenimiento que la genera. Para las Órdenes de Trabajo Histórica Manuales, – AM4G – asigna automáticamente la fecha actual del sistema.
 
-**Descripción:** Es un texto corto por medio del cual se indica la naturaleza de la  labor  a realizar.  Debe ser conciso y no dar lugar a ambigüedades, este campo tiene una longitud de 80 caracteres.  Se recomienda definir la descripción bajo la siguiente norma: iniciar con un verbo en infinitivo: revisar, corregir, inspeccionar, conectar, etc., continuar con el Objeto de mantenimiento o Activo / Equipo y finalizar con un  complemento explicatorio. Ejs: Revisar la transmisión delantera del sistema.  Cambiar a los rodillos la cobertura de caucho.
+**Descripción:** Es un texto corto por medio del cual se indica la naturaleza de la labor a realizar. Debe ser conciso y no dar lugar a ambigüedades, este campo tiene una longitud de 100 caracteres. Se recomienda definir la descripción bajo la siguiente norma: iniciar con un verbo en infinitivo: revisar, corregir, inspeccionar, conectar, etc., continuar con el Objeto de mantenimiento o Activo/Equipo y finalizar con un complemento explicatorio. Ejemplos: Revisar la transmisión delantera del sistema. Cambiar a los rodillos la cobertura de caucho.
 
 **Prioridad:** Es  un número de  1  a  7  que  indica la  prioridad de realización de la   **OT**. Normalmente 1 significa un trabajo de gran urgencia, mientras que 7 es una labor de baja prioridad.
 
