@@ -1155,7 +1155,7 @@ pero si se prefiere uno o varios, se debe des-seleccionar y a continuación hace
 Este comando permite visualizar los reportes relacionados a ÓT. Existen los siguientes tipos de reportes básicos disponibles:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img67.png)
-***Imagen 144.** Órdenes - Histograma*
+_**Imagen 145.** Órdenes - Histograma_
 
 Los anteriores reportes pueden ser seleccionados para una o varias OT a través de las siguientes opciones:
 
@@ -1169,7 +1169,7 @@ Una vez seleccionada una de las opciones anteriores se procede a elegir uno de l
 
 **Subtítulo:** En este campo es posible escribir un poco menos de una línea de información, bien sea para indicar un tipo documentación del Reporte. Lo que se escriba aquí aparecerá en la línea inferior del título estándar.
 
-Para visualizar los reportes, se selecciona el reporte y luego se da clic al botón <a class="btn white">imprimir</a>
+Para visualizar los reportes, se selecciona el reporte y luego se da clic al botón <a class="btn white">imprimir</a>.
 
 Para Exportar los reportes, se selecciona el reporte y luego se da clic al botón <a class="btn white">exportar</a>.
 
