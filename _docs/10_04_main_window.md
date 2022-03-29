@@ -73,11 +73,11 @@ A continuación, se describen los campos que componen esta ventana Detalle de Ó
 
 **Correo Electrónico:** En este campo se define el correo electrónico del Solicitante de la OT, cuando el solicitante es digitado manualmente o bien aparece el correo asociado al usuario de AMSi. Si el solicitante se selecciona con la opción <a class="btn white"><span class="mdi mdi-checkbox-blank-outline"> incluido en TE (RI)</span></a> y allí se tiene definido el correo electrónico, automáticamente se carga a este campo el e-mail definido en el módulo de Terceros. La funcionalidad del envío de correos electrónicos se parametriza en Administración y con la colaboración de Win Software.
 
-**Centro de Costo:** Es el Centro de Costo asignado a la Orden de Trabajo, que corresponde a uno   de   los   Centros   de   Costo   predefinidos   en   la   tabla   respectiva,   y   que   es **“**Responsable  **”**  del  pago  de  los  consumos  de  Gasto   Real  que  dicha  **OT**  genere. Inicialmente se  sugiere el  Centro de Costo que  tiene asociado el  Equipo Objeto de Mantenimiento, aun así, puede cambiarse.
+**Centro de Costo:** Es el Centro de Costo asignado a la OT, que corresponde a uno de los Centros de Costo predefinidos en la tabla respectiva, y que es el "cliente" que es responsable del objeto de mantenimiento. Cuando se define un Equipo u Objeto de Mantenimiento válido, el sistema trae automáticamente a este campo el Centro de Costo asociado. Inicialmente se sugiere el Centro de Costo que tiene asociado el Activo Objeto de Mantenimiento, aun así, puede cambiarse.
 
 **Sub CC:** Este campo siempre está bloqueado y muestra el Código Sub CC asociado al Centro de Costo elegido.
 
-**Ubi. Física:** Es el lugar físico en el que se realiza la labor.	Inicialmente se  sugiere la  Ubicación  Física  asociada  al  Equipo  u  Objeto  de  Mantenimiento,   pero  puede cambiarse a cualquier otro valor predefinido en la tabla de  Ubicaciones  Físicas, en la tabla respectiva.
+**Ubi. Física:** Es el lugar físico en el que se realiza la labor. Este campo permite seleccionar la Ubicación Física en la que se encuentra el Objeto de Mantenimiento para el que se genera la OT. Cuando se define un Equipo u Objeto de Mantenimiento válido, el sistema trae automáticamente a este campo la Ubicación Física asociada. Inicialmente se sugiere la Ubicación Física que tiene asociada el Activo Objeto de Mantenimiento, aun así, puede cambiarse.
 
 **Centro Responsable:** Especifica el Centro Responsable o grupo de mantenimiento, encargado  de realizar la labor.
 
