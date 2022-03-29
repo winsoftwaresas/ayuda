@@ -87,7 +87,7 @@ A continuación, se describen los campos que componen esta ventana Detalle de Ó
 
 **Contrato:** En este campo se selecciona el contrato que pertenece al Contratista responsable de ejecutar la OT.
 
-**Responsable por la institución:** En este campo se elige a la persona de la institución, que acompañará y/o recibirá la labor prestada por el Responsable ejecutor, cuando este sea un Contratista o Servicio Externo.
+**Responsable por la institución:** En este campo se elige a la persona de la institución, que acompañará y/o recibirá la labor prestada por el Responsable ejecutor, cuando este sea un Contratista o Servicio Externo. Para ello se selecciona uno de los Responsables que están definidos en la tabla de “Responsables” en la Infraestructura. Es la persona que recibe a satisfacción.
 
 **T. Trabajo:** Indica los Tipos de Trabajo que se realizan en la **OT**.   Es posible  definir más de un Tipo de Trabajo para una Orden.
 
