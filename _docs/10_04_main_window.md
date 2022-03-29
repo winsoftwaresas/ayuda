@@ -53,21 +53,25 @@ A continuación, se describen los campos que componen esta ventana Detalle de Ó
 
 **Código del Activo:** Aquí se establece el Objeto de Mantenimiento, aquel Activo al que se le realizó la labor. Este se escoge bien sea digitando directamente el Código (seguido de la tecla tabular) y como resultado, se muestra la descripción del Equipo/Activo seleccionado al lado derecho del campo código Activo. La segunda opción es seleccionándolo con el icono de filtro <span class="mdi mdi-filter-variant"></span>. Acto seguido se muestra la ventana de visor de Activos allí también se puede filtrar o hacer subgrupos. Una vez se encuentra el Activo se selecciona dando un clic sobre cualquiera de sus campos. A continuación, se da un clic sobre botón <a class="btn white">Aceptar</a> de esa ventana o se hace doble clic sobre el registro seleccionado. Inmediatamente ese código aparece en el primer campo de la línea de Activo con su respectiva información registrada en el módulo de Activos.
 
-**Descripción:** En este campo se visualiza la información de la descripción del Activo seleccionado.
+**Descripción:** Muestra el nombre o la descripción del Activo seleccionado. Es un campo que no es modificable por el usuario.
 
-**Activo Fijo:** En este campo se visualiza la información del Número de Activo Fijo del Equipo que se haya establecido en la ficha técnica de este m ismo.
+**FF Fin Garantía:** En este campo se visualiza la fecha de fin de garantía del Equipo/Activo que se haya establecido en la ficha técnica de este mismo. Es un campo que no es modificable por el usuario.
 
-**Referencia Externa Proveedor:** En este campo se visualiza la información de la referencia del Equipo que se ha ya establecido en la ficha técnica de este mismo.
+**Activo Fijo:** En este campo se visualiza la información del Número de Activo Fijo del Equipo que se haya establecido en la ficha técnica de este mismo. Es un campo que no es modificable por el usuario.
 
-**Serial:** En este campo se visualiza la información del Serial del Equipo que se  haya establecido en la ficha técnica de este m ismo.
+**Código de Inventario:** En este campo se visualiza el código del inventario del Equipo/Activo que se haya establecido en la ficha técnica de este mismo. Es un campo que no es modificable por el usuario.
 
-**Alias:** En  este campo se  visualiza la  información del  Alias  del Equipo que  se  ha ya establecido en la ficha técnica de este m ismo.
+**Referencia Externa Proveedor:** En este campo se visualiza la información de la referencia del Activo que se ha ya establecido en la ficha técnica de este mismo. Es un campo que no es modificable por el usuario.
 
-**Solicitante:** En este campo se define el nombre del Solicitante de la **OT**. Cuando la **OT** es generada desde una Solicitud de Servicio, este campo contiene el  solicitante ingresado en la Solicitud.
+**Serial:** En este campo se visualiza la información del Serial del Equipo/Activo que se haya establecido en la ficha técnica de este m ismo. Es un campo que no es modificable por el usuario.
 
-**Incluido en TE (RI):** Al seleccionar esta opción, en el campo **“**Solicitante  **”** solo se despliegan los Terceros o Responsables Internos existentes en la tabla de Terceros en infraestructura.
+**Alias:** En este campo se visualiza la información del Alias del Activo que se ha ya establecido en la ficha técnica de este mismo. Es un campo que no es modificable por el usuario.
 
-**Correo Electrónico:** En este campo se define el correo electrónico del Solicitante de la **OT**, cuando el solicitante es digitado manualmente. Si el solicitante se selecciona con la opción **“**Incluido en Terceros  **”** y allí se tiene definido el correo electrónico, automáticamente se carga a este campo el e-mail definido en el módulo de Terceros. La funcionalidad del envío de correos electrónicos se parametriza Administración, Valores por Defecto, la etiqueta GENERAL, la opción **“**Enviar e-mail al solicitante **”**.
+**Solicitante:** En este campo se define el nombre del Solicitante de la OT. El solicitante puede registrar su nombre en el espacio correspondiente. Sin embargo, es posible también seleccionar su nombre de la lista que se habilita como desplegable al marcar la opción <a class="btn white"><span class="mdi mdi-checkbox-blank-outline"> incluido en TE (RI)</span></a>. Se debe tener en cuenta que de la tabla de Terceros solo se despliegan los Terceros de Tipo RI. El nombre del solicitante usuario de AMSi se registra automáticamente desde la creación de la solicitud. 
+
+**Incluido en TE (RI):** Al seleccionar esta opción, en el campo **Solicitante** solo se despliegan los Terceros o Responsables Internos existentes en la tabla de Terceros en infraestructura.
+
+**Correo Electrónico:** En este campo se define el correo electrónico del Solicitante de la OT, cuando el solicitante es digitado manualmente o bien aparece el correo asociado al usuario de AMSi. Si el solicitante se selecciona con la opción <a class="btn white"><span class="mdi mdi-checkbox-blank-outline"> incluido en TE (RI)</span></a> y allí se tiene definido el correo electrónico, automáticamente se carga a este campo el e-mail definido en el módulo de Terceros. La funcionalidad del envío de correos electrónicos se parametriza en Administración y con la colaboración de Win Software.
 
 **Centro de Costo:** Es el Centro de Costo asignado a la Orden de Trabajo, que corresponde a uno   de   los   Centros   de   Costo   predefinidos   en   la   tabla   respectiva,   y   que   es **“**Responsable  **”**  del  pago  de  los  consumos  de  Gasto   Real  que  dicha  **OT**  genere. Inicialmente se  sugiere el  Centro de Costo que  tiene asociado el  Equipo Objeto de Mantenimiento, aun así, puede cambiarse.
 
