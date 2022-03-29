@@ -89,7 +89,7 @@ A continuación, se describen los campos que componen esta ventana Detalle de Ó
 
 **Responsable por la institución:** En este campo se elige a la persona de la institución, que acompañará y/o recibirá la labor prestada por el Responsable ejecutor, cuando este sea un Contratista o Servicio Externo. Para ello se selecciona uno de los Responsables que están definidos en la tabla de “Responsables” en la Infraestructura. Es la persona que recibe a satisfacción.
 
-**T. Trabajo:** Indica los Tipos de Trabajo que se realizan en la **OT**.   Es posible  definir más de un Tipo de Trabajo para una Orden.
+**T. Trabajo:** **AM** predefine cuatro tipos de trabajo: Mecánico (MEC), Eléctrico (ELE), Instrumentación/Electrónica (IEL) y Otro (OTR). Indica los Tipos de Trabajo que se realizan en la OT. Es posible definir más de un Tipo de Trabajo para una OT.
 
 **T. Mtto:** Este campo indica el Tipo de Mantenimiento a realizar en la Orden de Trabajo. Toda **OT** debe poseer uno. Si en la **OT** se va a registrar un trabajo que no corresponde a una labor de mantenimiento, en este campo se elige **“**Otro **”** y a  continuación, en el tipo de **“**Actividad **”** se especifica detalladamente, el tipo de labor.
 
