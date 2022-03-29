@@ -83,9 +83,9 @@ A continuación, se describen los campos que componen esta ventana Detalle de Ó
 
 **Responsable ejecutor:** En este campo se elige a la persona, natural o jurídica, Responsable por la labor a ejecutar, que verificará el estado del Equipo u Objeto de Mantenimiento. Para ello se selecciona uno de los Responsables que están definidos en la tabla de “Responsables” en la Infraestructura. Al lado derecho de este campo existe un cuadro de selección <a class="btn white"><span class="mdi mdi-checkbox-blank-outline"> incluido en TE (RI)</span></a>, que al ser marcado filtra los Responsables por el Centro Responsable previamente seleccionado. El responsable es obligante al escoger el estado “Cerrada Ejecutada”.
 
-**Filtrar por CR:** Al seleccionar esta opción, en el campo **“**Responsable **”** solo se despliegan los Responsables correspondientes al Centro Responsable elegido en la opción **“**C. Responsable **”**. En  otro  caso,  en  el  campo  **“**Responsable **”**  se  despliegan  todos   los  **“**Responsables **”** existentes en la tabla respectiva.
+**Filtrar por CR:** Al seleccionar esta opción, en el campo “Responsable Ejecutor” solo se despliegan los Responsables correspondientes al Centro Responsable elegido en la opción “Centro Responsable”. En otro caso, en el campo “Responsable Ejecutor” se despliegan todos los “Responsables” existentes en la tabla respectiva.
 
-**Contrato:** Se selecciona el contrato que se despliega de la lista.
+**Contrato:** En este campo se selecciona el contrato que pertenece al Contratista responsable de ejecutar la OT.
 
 **Responsable por la institución:** En este campo se elige a la persona de la institución, que acompañará y/o recibirá la labor prestada por el Responsable ejecutor, cuando este sea un Contratista o Servicio Externo.
 
