@@ -95,10 +95,9 @@ A continuación, se describen los campos que componen esta ventana Detalle de Ó
 
 **T. Actividad:** Aquí se establece el Tipo de Actividad a realizar en la OT. Este campo trabaja en coordinación con el anterior (Tipo de Mantenimiento).Si en el campo anterior se ha seleccionado el valor “Otro”, en el campo Tipo de Actividad se debe seleccionar un valor que defina consistentemente la labor a ejecutar.
 
-**F/H Paro:** Para las Órdenes de Trabajo Correctivas, en este campo se registra la
-Fecha y hora del daño, falla o avería.  La fecha se m aneja en formato AAAA/MM/DD (Año, Mes, día); la hora se m aneja en formato Militar (de 24 horas).  Cabe anotar, que la fecha y hora consignadas 	corresponden 	 al 	m omento 	en	que	se informó  del daño o  falla  a Mantenimiento, así que es posible que el daño haya ocurrido en una fecha/hora   anterior. Sin   embargo se debe  procurar, administrativamente,   que Mantenim iento se entere lo más pronto posible de la Fecha y Hora reales del paro.
+**F/H Paro:** Para las Órdenes de Trabajo Correctivas, en este campo se registra la Fecha y hora del daño, falla o avería. La fecha se maneja en formato DD/MM/AAAA (Día, Mes, Año); la hora se maneja en formato de 12 horas. Cabe anotar, que la fecha y hora consignadas corresponden al momento en que se informó del daño o falla a Mantenimiento, así que es posible que el daño haya ocurrido en una fecha/hora anterior. Sin embargo se debe procurar, administrativamente, que Mantenimiento se entere lo más pronto posible de la Fecha y Hora reales del paro.
 
-**T.  Estimado:** Es un campo netamente informativo, e indica de manera  aproximada cuánto Tiempo  demora  la  labor.	Se  establece  el  número  y  a   continuación  el período de tiempo que representa (Días, Horas o Minutos).
+**T. Estimado:** Es un campo netamente informativo, e indica de manera aproximada cuánto Tiempo demora la labor. Se establece el número y a continuación el período de tiempo que representa (Días, Horas o Minutos).
 
 **Tiempo Improductivo:** En este campo indica la persona o personas encargadas (s) de realizar la labor, si debe pararse el Equipo para proceder a la realización de la misma.  Cuando se dice que el Equipo genera Tiempo Improductivo significa que no está en operación, y por lo tanto,  posiblemente improductivo.  Este campo se tiene en cuenta al momento de cerrar la **OT**: si el indicativo de Tiempo Improductivo está habilitado, el –AM 4G- calcula y carga el Tiempo Improductivo al equipo. En caso contrario no lo hace.
 
