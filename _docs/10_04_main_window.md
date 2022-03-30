@@ -59,7 +59,7 @@ A continuación, se describen los campos que componen esta ventana Detalle de Ó
 
 **Activo Fijo:** En este campo se visualiza la información del Número de Activo Fijo del Equipo que se haya establecido en la ficha técnica de este mismo. Es un campo que no es modificable por el usuario.
 
-**Código de Inventario:** En este campo se visualiza el código del inventario del Equipo/Activo que se haya establecido en la ficha técnica de este mismo. Es un campo que no es modificable por el usuario.
+**Código de Inventario:** En este campo se visualiza el código del inventario del Activo que se haya establecido en la ficha técnica de este mismo. Es un campo que no es modificable por el usuario.
 
 **Referencia Externa Proveedor:** En este campo se visualiza la información de la referencia del Activo que se ha ya establecido en la ficha técnica de este mismo. Es un campo que no es modificable por el usuario.
 
