@@ -105,7 +105,7 @@ A continuación, se describen los campos que componen esta ventana Detalle de Ó
 
 **Tarea:** Este campo siempre está bloqueado, es informativo, permite establecer, a través del ordinal de la tarea que muestra, cual fue el PM que generó la OT actual. Es válido solamente en el caso de Órdenes Programadas.
 
-**Control Presupuestal:** Esta  Opción permite  definir  si  la  Orden  de  Trabajo maneja Presupuesto. Para las Órdenes de Trabajo Programadas, esta opción  siempre está  seleccionada, pero  aparece protegida,   ya  que  toda  **OT**   Programada  conlleva el Presupuesto Aprobado.
+**Control Presupuestal:** Esta opción permite definir si la OT maneja Presupuesto. Para las Órdenes de Trabajo Programadas, esta opción  siempre está seleccionada, pero  aparece protegida, ya que toda  **OT**   Programada conlleva el Presupuesto Aprobado.
 
 Para  las  Órdenes  de  Trabajo  Manuales,  esta  opción se  establece en  el  m omento  de creación de la misma.  Esta elección se debe m arcar antes de darle clic al botón `<a class="btn">`Insertar `</a>`, de otra f orma, -AM 4G- asume que la **OT** no va a requerir Control Presupuestal y la posibilidad de hacer la marcación se inactiva en el acto.
 
