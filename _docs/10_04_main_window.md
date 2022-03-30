@@ -128,41 +128,41 @@ Cuando se genera la OT, como comentarios a priori, para especificar referencias 
 
 ## Subgrupos
 
-Se usa para seleccionar grupos de Órdenes de Trabajo Históricas que cumplen con un conjunto de criterios o filtros definibles aquí, con el objeto de lograr un estudio posterior sobre ellos.
+Se usa para seleccionar grupos de Órdenes de Trabajo Históricas, Solicitudes de Servicio y Paros que cumplen con un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al icono de filtro azul <span class="mdi mdi-filter-variant"></span>, ubicado en la parte superior derecha de la ventana Visor de Historia.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp010_img04.png)
+_**Imagen 148.** Historia - Ir Subgrupos_
 
 Cada criterio trabaja en conjunto con los demás, con el operador intersección.
 
-Cada criterio aparece inicializado en un valor global que permite mostrar todas las Órdenes de Trabajo Históricas.  Lo que significa que de no escoger un criterio se  obtiene como resultado del  subgrupo el  mismo conjunto completo de  todas las  Órdenes de  Trabajo Históricas.
+Cada criterio aparece inicializado en un valor global que permite mostrar todas las Órdenes de Trabajo Históricas, Solicitudes de Servicio y Paros. Lo que significa que de no escoger un criterio se obtiene como resultado del subgrupo, el mismo conjunto completo de todas las OT Históricas, SS y PA.
 
-**–AM 4G** permite entonces hacer selección de un grupo de **OTs** Históricas, de acuerdo con los criterios seleccionados en la próxima gráfica.
 
-Los campos de datos que constituyen criterio de selección haciendo parte de la Ventana
-Subgrupo (Próxima gráfica) son los siguientes.
+**AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar.
 
-!![Ventana Submenú de Historia de Mantenimiento](0.images/cap11/chp11_img03.png)
+
+El programa permite entonces hacer selección de un grupo de cualquier tipo de los tres registros mencionados de acuerdo con los criterios seleccionados en la siguiente ventana.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp010_img05.png)
+_**Imagen 149.** Historia - Ir Subgrupos_
+
+Los campos de datos que constituyen criterio de selección en la Ventana Subgrupo de OT Históricas, SS y PA, son los siguientes:
 
 **1. FILTRAR POR TIPO DE REGISTRO**
 
-**Tipo  de  Registro:**  Tres tipos de registros   conforman la Historia de  Mantenimiento: Solicitudes  de  Servicio,  Órdenes  de  Trabajo  y  Paros/Averías.   Con  este  filtro  se seleccionan los registros de un tipo, de todos los tipos o de alguna combinación de ellos.
+**Tipo  de  Registro:**  Tres tipos de registros conforman la Historia de Mantenimiento de SS, OT y Paros/Averías. Con este filtro se seleccionan los registros de un tipo, de todos los tipos o de alguna combinación de ellos.
 
-**2. FILTRAR POR C AMPOS DEL ACTIVO ASOCI ADO A LA ORDEN DE TRABAJO, PARO O SOLICITU DE SERVICIO**
+**2. FILTRAR POR CAMPOS DEL ACTIVO ASOCIADO A LA ORDEN DE TRABAJO, PARO O SOLICITUD DE SERVICIO**
 
-**AC-Activo Fijo:** Este campo preselecciona las Órdenes de Trabajo Históricas para el o los
-Equipos cuyo Número de Activo corresponda a los valores aquí definidos.   En este campo se pueden utilizar los comodines.
+**AC-Alias:** Este campo preselecciona las Órdenes de Trabajo Históricas, SS y PA para los Activos cuyo Alias corresponda a los valores aquí definidos. En este campo se pueden utilizar los comodines (%).
 
-**AC-Alias:** Este campo preselecciona las Órdenes de Trabajo Históricas para los Equipos cuyo Alias corresponda a los valores aquí definidos.	En este campo se pueden  utilizar los comodines.
+**AC – Cód. de Barras Int.:** Permite seleccionar las OT Históricas, SS y PA que se encuentran asociadas al Activo/Equipo que se encuentre con el Código de Barras Interno que el usuario ingresa en este campo del subgrupo y que posea una OT, SS y PA.
 
-**AC-Código:**  Esta  selección  agrupa  las  **OTs**  Históricas  cuyos  Equipos  coincidan  con  el relacionado en este criterio. Por ejemplo: si se escribe 341%, se seleccionan todas las **OTs** Históricas cuyo código de Equipo inicia por 341. Si se escribe _ _1% se seleccionan
-todas las **OTs** Históricas cuyo código de Equipo inicia por cualquier par de valores pero en su tercera posición tienen un 1. El porcentaje (%) es un carácter comodín que significa **“**todos **”**.
+**AC – Cód. de Barras Prov.:** Permite seleccionar las OT Históricas, SS y PA asociadas a un Activo/Equipo que se encuentre ligado al Código de Barras del Proveedor que se ingresó al crear el Activo/Equipo.
 
-**AC-Código  de  Barras Interno:** Permite seleccionar las **OTs** Históricas que se  encuentran asociadas al Activo/ Equipo que  se encuentre con el Código de Barras  Interno que el usuario ingresa en este campo del subgrupo.
+**AC-Código:** Esta selección agrupa las OT Históricas, SS y PA cuyo Activo/Equipo coincidan con el relacionado en este criterio. Es posible definir el código completo o una porción del mismo. Por ejemplo: si se escribe 341%, se seleccionan todas las OT Históricas, SS y PA cuyo código de Activo inicia por 341. Si se escribe 1% se seleccionan todas las OT Históricas, SS y PA cuyo código de Activo/Equipo inicia por cualquier par de valores pero en su tercera posición tienen un 1. El porcentaje (%) es un carácter comodín que significa “todos”. También, es posible seleccionar el Activo a través del visor de Activos. Para ello se da un clic sobre el icono de filtro <span class="mdi mdi-filter-variant"></span> de la respectiva ventana. Acto seguido se muestra la ventana de visor de Activos junto con la posibilidad de hacer subgrupos o filtrar. Una vez se encuentra dicho Activo, se selecciona dando un clic sobre cualquiera de sus campos. A continuación, se da un clic sobre botón <a class="btn white">Aceptar</a> de esa ventana o se hace doble clic sobre el registro seleccionado. Inmediatamente ese código aparece en el primer campo de la línea de Activo en la forma de registro de OT, SS y PA.
 
-**AC-Código  de  Barras  Proveedor:** Permite seleccionar las **OTs** Históricas asociadas a  un Activo/ Equipo que se encuentre ligado al Código de Barras del Proveedor que se ingresó al crear el Activo/ Equipo.
-
-AC-Descripción: Selecciona las  **OTs**  Históricas que  se  encuentran relacionadas con  los
-Activos / Equipos según los criterios que se fundamentan en su descripción. Ejemplo:
-%Motor% selecciona todas las  **OTs** que son asociadas a los que Activos / Equipos en
-cuya descripción, en cualquier posición, tengan la palabra **“**Motor **”**.
+AC-Descripción: Selecciona las OT Históricas, SS y PA asociados a los Activos según criterios que se fundamenten en su descripción. Ejemplo: %Motor% selecciona todos los Activos en cuya descripción, en cualquier posición, tengan la palabra “Motor”.
 
 **AC-Referencia:** Esta opción permite seleccionar las **OTs** Históricas de cuyos Equipos la Referencia coincide con la definida en este criterio.
 
@@ -170,11 +170,11 @@ cuya descripción, en cualquier posición, tengan la palabra **“**Motor **”*
 
 **AC-Tipo:** Selecciona las **OTs** Históricas que se encuentran asociadas con los Activos/ Equipos que se encuentran ligados al Tipo ingresado por el usuario.
 
-**3. FILTRAR POR C AMPOS DE LA ORDEN DE TRABAJO**
+**3. FILTRAR POR CAMPOS DE LA ORDEN DE TRABAJO**
 
-**Acción Técnica:** Filtra las **OTs** Históricas a las cuales se le definió la Acción Técnica seleccionada en esta opción; es posible utilizar comodines.
+**Acción Técnica:** Filtra las **OT** Históricas a las cuales se le definió la Acción Técnica seleccionada en esta opción; es posible utilizar comodines.
 
-**Causa de Cierre:** Permite buscar las **OTs** Históricas que tienen la Causa de Cierre específica, seleccionada en este criterio.
+**Causa de Cierre:** Permite buscar las **OT** Históricas que tienen la Causa de Cierre específica, seleccionada en este criterio.
 
 **Causa de Falla:** Permite buscar las **OTs** Históricas que tienen la Falla específica, seleccionada en este criterio.
 
