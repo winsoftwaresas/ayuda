@@ -126,7 +126,7 @@ Cuando se genera la OT, como comentarios a priori, para especificar referencias 
 
 # Ventana Submenú de Historia de Mantenimiento
 
-## Subgrupo
+## Subgrupos
 
 Se usa para seleccionar grupos de Órdenes de Trabajo Históricas que cumplen con un conjunto de criterios o filtros definibles aquí, con el objeto de lograr un estudio posterior sobre ellos.
 
