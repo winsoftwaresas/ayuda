@@ -122,7 +122,7 @@ Este espacio de comentarios sirve para dos efectos:
 
 Cuando se genera la OT, como comentarios a priori, para especificar referencias importantes o ayudas previstas y necesarias en la ejecución posterior de la OT: planos, manuales técnicos, manuales de normas técnicas de Mantenimiento o de especificaciones detalladas; normas de seguridad o enfoques de acción. Sin embargo, en la gran mayoría de los casos se utiliza la pestaña Multimedia para registrar estos datos. Cuando ha concluido la ejecución de la OT, es posible utilizarlo para registrar hechos interesantes acerca de la misma ejecución, como el estado del equipo antes de la intervención, detalles de la intervención, estado del mismo equipo después de ella, recomendaciones a los usuarios del equipo, recomendaciones a las personas de mantenimiento y otros conceptos interesantes a juicio de los ejecutantes.
 
-**Contrato:** En este campo se puede asociar un contrato de una OT que esté a cargo de un contratista, **AM** indica a través de los indicadores de colores si un contrato está vencido, a punto de vencerse o está vigente en la su respectiva tabla de Infraestructura en Contratos. 
+**Contrato:** En este campo se puede asociar un contrato de una OT que esté a cargo de un contratista, **AM** indica a través de los indicadores de colores si un contrato está vencido, a punto de vencerse o está vigente en su respectiva tabla de Infraestructura en Contratos. 
 
 # Ventana Submenú de Historia de Mantenimiento
 
