@@ -164,13 +164,17 @@ Los campos de datos que constituyen criterio de selección en la Ventana Subgrup
 
 AC-Descripción: Selecciona las OT Históricas, SS y PA asociados a los Activos según criterios que se fundamenten en su descripción. Ejemplo: %Motor% selecciona todos los Activos en cuya descripción, en cualquier posición, tengan la palabra “Motor”.
 
+AC-Estado: Este filtro permite seleccionar las OT, SS y PA de acuerdo con el Estado del Activo u Objeto de Mantenimiento. Así que se pueden filtrar las OT para los cuales el AC correspondiente está activo o inactivo.
+
+AC-Número Activo Fijo: Este campo preselecciona las Órdenes de Trabajo Históricas, SS y PA para el o los Activos cuyo Número de Activo corresponde a los valores aquí definidos. En este campo se pueden utilizar los comodines.
+
 **AC-Referencia:** Esta opción permite seleccionar las OT Históricas, SS y PA de acuerdo con su número de referencia.
 
 **AC-Serial:** Esta alternativa permite seleccionar las OT Históricas, SS y PA de acuerdo con el número serial del Equipo/Activo objeto de mantenimiento. El campo acepta comodines(%).
 
 **AC-Ubicación Física:** Permite la selección de las OT, SS y PA Históricas cuyo Activo se encuentre en una Ubicación Física determinada. Existen dos formas de definir la Ubicación Física del Activo. La primera es seleccionando la Ubicación Física de la lista desplegable. La segunda es dando clic al icono de candado  “Utilizar comodines” y digitando a continuación segmentos del nombre de la Ubicación Física utilizando comodines. Cuando se utilizan comodines, es posible seleccionar OT cuyo Activo esté en una Ubicación Física que tenga parte del nombre igual. Por ejemplo: Cava% selecciona las OT a Activos cuya Ubicación Física empieza por la palabra Cava, independientemente de si se está hablando de la Cava de Fermentación, Maduración o Contrapresión.
 
-**AC-Tipo:** Selecciona las OT Históricas que se encuentran asociadas con los Activos/ Equipos que se encuentran ligados al Tipo ingresado por el usuario.
+**AC-Tipo:** Selecciona las OT Históricas, SS y PA asociados a los Activos que se encuentran asociados al tipo ingresado por el usuario.
 
 **3. FILTRAR POR CAMPOS DE LA ORDEN DE TRABAJO**
 
