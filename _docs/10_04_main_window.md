@@ -154,21 +154,23 @@ Los campos de datos que constituyen criterio de selección en la Ventana Subgrup
 
 **2. FILTRAR POR CAMPOS DEL ACTIVO ASOCIADO A LA ORDEN DE TRABAJO, PARO O SOLICITUD DE SERVICIO**
 
-**AC-Alias:** Este campo preselecciona las Órdenes de Trabajo Históricas, SS y PA para los Activos cuyo Alias corresponda a los valores aquí definidos. En este campo se pueden utilizar los comodines (%).
+**AC-Alias:** Este campo filtra las OT Históricas, SS y PA para los Activos cuyo Alias corresponda a los valores aquí definidos. En este campo se pueden utilizar los comodines (%).
 
 **AC – Cód. de Barras Int.:** Permite seleccionar las OT Históricas, SS y PA que se encuentran asociadas al Activo/Equipo que se encuentre con el Código de Barras Interno que el usuario ingresa en este campo del subgrupo y que posea una OT, SS y PA.
 
 **AC – Cód. de Barras Prov.:** Permite seleccionar las OT Históricas, SS y PA asociadas a un Activo/Equipo que se encuentre ligado al Código de Barras del Proveedor que se ingresó al crear el Activo/Equipo.
 
-**AC-Código:** Esta selección agrupa las OT Históricas, SS y PA cuyo Activo/Equipo coincidan con el relacionado en este criterio. Es posible definir el código completo o una porción del mismo. Por ejemplo: si se escribe 341%, se seleccionan todas las OT Históricas, SS y PA cuyo código de Activo inicia por 341. Si se escribe 1% se seleccionan todas las OT Históricas, SS y PA cuyo código de Activo/Equipo inicia por cualquier par de valores pero en su tercera posición tienen un 1. El porcentaje (%) es un carácter comodín que significa “todos”. También, es posible seleccionar el Activo a través del visor de Activos. Para ello se da un clic sobre el icono de filtro <span class="mdi mdi-filter-variant"></span> de la respectiva ventana. Acto seguido se muestra la ventana de visor de Activos junto con la posibilidad de hacer subgrupos o filtrar. Una vez se encuentra dicho Activo, se selecciona dando un clic sobre cualquiera de sus campos. A continuación, se da un clic sobre botón <a class="btn white">Aceptar</a> de esa ventana o se hace doble clic sobre el registro seleccionado. Inmediatamente ese código aparece en el primer campo de la línea de Activo en la forma de registro de OT, SS y PA.
+**AC-Código:** Esta selección agrupa las OT Históricas, SS y PA cuyo Activo/Equipo coincidan con el relacionado en este criterio. Es posible definir el código completo o una porción del mismo. Por ejemplo: si se escribe 341%, se seleccionan todas las OT Históricas, SS y PA cuyo código de Activo inicia por 341. El porcentaje (%) es un carácter comodín que significa “todos”. También, es posible seleccionar el Activo a través del visor de Activos. Para ello se da un clic sobre el icono de filtro <span class="mdi mdi-filter-variant"></span> de la respectiva ventana. Acto seguido se muestra la ventana de visor de Activos junto con la posibilidad de filtrar. Una vez se encuentra dicho Activo, se selecciona dando un clic sobre cualquiera de sus campos. A continuación, se da un clic sobre botón <a class="btn white">Aceptar</a> de esa ventana o se hace doble clic sobre el registro seleccionado. Inmediatamente ese código aparece en el primer campo de la línea de Activo en la forma de registro de OT, SS y PA.
 
 AC-Descripción: Selecciona las OT Históricas, SS y PA asociados a los Activos según criterios que se fundamenten en su descripción. Ejemplo: %Motor% selecciona todos los Activos en cuya descripción, en cualquier posición, tengan la palabra “Motor”.
 
-**AC-Referencia:** Esta opción permite seleccionar las **OTs** Históricas de cuyos Equipos la Referencia coincide con la definida en este criterio.
+**AC-Referencia:** Esta opción permite seleccionar las OT Históricas, SS y PA de acuerdo con su número de referencia.
 
-**AC-Serial:** Esta alternativa permite seleccionar las **OTs** Históricas de cuyos Equipos el serial coincide con el definido en este criterio.
+**AC-Serial:** Esta alternativa permite seleccionar las OT Históricas, SS y PA de acuerdo con el número serial del Equipo/Activo objeto de mantenimiento. El campo acepta comodines(%).
 
-**AC-Tipo:** Selecciona las **OTs** Históricas que se encuentran asociadas con los Activos/ Equipos que se encuentran ligados al Tipo ingresado por el usuario.
+**AC-Ubicación Física:** Permite la selección de las OT, SS y PA Históricas cuyo Activo se encuentre en una Ubicación Física determinada. Existen dos formas de definir la Ubicación Física del Activo. La primera es seleccionando la Ubicación Física de la lista desplegable. La segunda es dando clic al icono de candado  “Utilizar comodines” y digitando a continuación segmentos del nombre de la Ubicación Física utilizando comodines. Cuando se utilizan comodines, es posible seleccionar OT cuyo Activo esté en una Ubicación Física que tenga parte del nombre igual. Por ejemplo: Cava% selecciona las OT a Activos cuya Ubicación Física empieza por la palabra Cava, independientemente de si se está hablando de la Cava de Fermentación, Maduración o Contrapresión.
+
+**AC-Tipo:** Selecciona las OT Históricas que se encuentran asociadas con los Activos/ Equipos que se encuentran ligados al Tipo ingresado por el usuario.
 
 **3. FILTRAR POR CAMPOS DE LA ORDEN DE TRABAJO**
 
