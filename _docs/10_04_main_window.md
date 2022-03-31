@@ -178,16 +178,18 @@ AC-Número Activo Fijo: Este campo preselecciona las Órdenes de Trabajo Histór
 
 **3. FILTRAR POR CAMPOS DE LA ORDEN DE TRABAJO**
 
-**Acción Técnica:** Filtra las **OT** Históricas a las cuales se le definió la Acción Técnica seleccionada en esta opción; es posible utilizar comodines.
+**Acción Técnica:** Filtra las OT Históricas a las cuales se le definió la Acción Técnica seleccionada en esta opción, es posible utilizar comodines (%). Existen dos formas de definir la Acción Técnica de la OT Histórica. La primera es seleccionando la Acción Técnica de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span> para usar  “comodines”, éste se desbloquea  <span class="mdi mdi-lock-open-outline"></span> y se digita a continuación segmentos del nombre de la Acción Técnica utilizando cuando se utilizan comodines, es posible seleccionar OT Histórica cuya Acción Técnica tenga parte del nombre igual.
 
-**Causa de Cierre:** Permite buscar las **OT** Históricas que tienen la Causa de Cierre específica, seleccionada en este criterio.
+**Causa de Cierre:** Permite buscar las OT Históricas que tienen una Causa de Cierre específica, es posible utilizar comodines. Existen dos formas de definir la Causa de Cierre de la OT Histórica. La primera es seleccionando la Causa de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span>, este se desbloquea <span class="mdi mdi-lock-open-outline"></span> para digitar manualmente digitando a continuación segmentos del nombre de la Causa de Cierre utilizando comodines. Cuando se utilizan comodines (%), es posible seleccionar OT Histórica cuya Causa de Cierre tenga parte del nombre igual.
 
-**Causa de Falla:** Permite buscar las **OTs** Históricas que tienen la Falla específica, seleccionada en este criterio.
+**Causa de Pendiente:** Permite buscar las OT Históricas, SS y PA que tienen una Causa pendiente específica. Existen dos formas de definirla. La primera es seleccionando la Causa de Pendiente de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span>, este se desbloquea <span class="mdi mdi-lock-open-outline"></span> y a continuación se digitan segmentos del nombre de la Causa de Pendiente. Cuando se utilizan comodines (%), es posible seleccionar OT, SS y PA cuya Causa de Pendiente tenga parte del nombre igual
 
-**Centro de Costo:** Permite la selección de **OTs** Históricas, de acuerdo con el Centro de Costo asignado a ellas. Cuando se utilizan comodines, es posible seleccionar  las  **OTs** Históricas, pertenecientes a Centros de Costo que tengan parte del  nombre  igual. Por ejemplo: Sistema% selecciona todas las **OTs** Históricas en cuyo Centro de Costo tengan
-la palabra sistema, independiente de si se está hablando del Sistema de Agua, de Vapor o de Energía.
 
-**Centro responsable:** Agrupa las **OTs** Históricas asociadas al Centro Responsable definido en este criterio.
+**Causa de Falla:** Permite buscar las OT Históricas, SS y PA que tienen una Causa de Falla específica. Existen dos formas de definir la Causa de Falla de la OT, SS y PA. La primera es seleccionando la Causa de Falla de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span>, este se desbloquea y a continuación se digitan segmentos del nombre de la Causa de Falla. Cuando se utilizan comodines, es posible seleccionar OT, SS y PA cuya Causa de Falla tenga parte del nombre igual.
+
+**Centro de Costo:** Permite la selección de OT Históricas, SS y PA de acuerdo con el Centro de Costo asignado a ella. Existen dos formas de definir el Centro de Costo. La primera es seleccionando el Centro de Costo de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span>, luego este se desbloquea  <span class="mdi mdi-lock-open-outline"></span> digitando a continuación segmentos del nombre del Centro de Costo. Cuando se utilizan comodines (%), es posible seleccionar las OT Históricas, SS y PA pertenecientes a Centros de Costo que tengan parte del nombre igual. Por ejemplo: Sistema% selecciona todas los registros Históricas, SS y PA en cuyo Centro de Costo exista la palabra Sistema, independiente de si se está hablando del Sistema de Agua, de Vapor o de Energía.
+
+**Centro responsable:** Agrupa las OTs Históricas, SS y PA cuyo Centro Responsable sea el seleccionado, es posible utilizar comodines. Existen dos formas de definir el Centro Responsable. La primera es seleccionando el Centro Responsable de la lista desplegable. La segunda es dando clic al icono de candado “Utilizar comodines” y digitando a continuación segmentos del nombre del Centro Responsable utilizando comodines.
 
 **Comentario:** Filtra las **OTs** Históricas que cumplan con la opción de poseer comentario. Este es un campo para ingresar el comentario que se desee buscar
 
