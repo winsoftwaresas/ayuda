@@ -195,17 +195,26 @@ AC-Número Activo Fijo: Este campo preselecciona las Órdenes de Trabajo Histór
 
 **Criterio de Generación:** Permite seleccionar el subconjunto de OT Históricas generadas desde PM, bajo el Criterio de Programación “XX” seleccionado. Es posible utilizar comodines (%). Los criterios son:
 
-- **MM:** Mensual KI: Contador por Incremento
-- **SS:** Semanal KL: Contador por Límite SM: Semestral +K: Contador (más de uno)
-- **AN:** Anual FK: Frecuencia y/o Contador
-- **DD:** Días (Mín. 3) TM: Trimestral
-- **SA:** Semanas del año ??: Sin Criterio
-- **+M:** Meses (mas de uno)
-- **+S:** Semanas (mas de una)
+| **Abreviatura** | **Significado**         |
+| --------------- | ----------------------- |
+| **MM**          | Mensual                 |
+| **SS**          | Semanal                 |
+| **SM**          | Semestral               |
+| **AN**          | Anual                   |
+| **DD**          | Días (Mín. 3)           |
+| **SA**          | Semanas del año         |
+| **+M**          | Meses (mas de uno)      |
+| **+S**          | Semanas (mas de una)    |
+| **KI**          | Contador por Incremento |
+| **KL**          | Contador por Límite     |
+| **FK**          | Frecuencia y Contador   |
+| **TM**          | Trimestral              |
+| **+K**          | Contador (mas de uno)   |
+| **??**          | Sin Criterio            |
 
-**Contrato:** Permite filtrar las **OTs** Históricas que estén asociadas al Contrato definido en este criterio.
+**Descripción:** Esta opción permite seleccionar las OT Históricas, SS y PA que cumplan con el criterio de selección establecido en este campo, es posible utilizar la funcionalidad de comodines.
 
-**Criterio de Generación:** Permite visualizar el subconjunto de **OTs** Históricas definidos con el Criterio de Programación **“**X **”**; así que se pueden listar en el visor de Historia, aquellas **OTs**  que  fueron definidos con Criterio de   Programación trimestral, o   mensual,  o  por Contador, o por incremento entre otros.
+**Efecto de Falla:** Este campo permite seleccionar las OTs Históricas que posean una causa de falla específica, es posible utilizar comodines. Existen dos formas de definir el Efecto de Falla de la OT Histórica. La primera es seleccionando el Efecto de Falla de la lista desplegable. La segunda es dando clic al icono de candado “Utilizar comodines” y digitando a continuación segmentos del nombre del Efecto de Falla utilizando comodines. Cuando se utilizan comodines, es posible seleccionar OT Histórica cuyo Efecto de Falla tenga parte del nombre igual.
 
 **Descripción:** Este opción permite seleccionar las **OTs** Históricas que cumplan con el criterio de selección establecido en este campo, es posible utilizar la funcionalidad de comodines.
 
