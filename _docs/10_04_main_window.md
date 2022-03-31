@@ -191,10 +191,17 @@ AC-Número Activo Fijo: Este campo preselecciona las Órdenes de Trabajo Histór
 
 **Centro responsable:** Agrupa las OTs Históricas, SS y PA cuyo Centro Responsable sea el seleccionado, es posible utilizar comodines. Existen dos formas de definir el Centro Responsable. La primera es seleccionando el Centro Responsable de la lista desplegable. La segunda es dando clic al icono de candado “Utilizar comodines” y digitando a continuación segmentos del nombre del Centro Responsable utilizando comodines.
 
-**Comentario:** Filtra las **OTs** Históricas que cumplan con la opción de poseer comentario. Este es un campo para ingresar el comentario que se desee buscar
+**Contrato:** Permite filtrar las OT Históricas que se encuentren asociadas a un contrato ya definido en la tabla de “CONTRATO” en el módulo de Infraestructura. Existen dos formas de definir el Contrato de la OT Histórica. La primera es seleccionando el Contrato de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span>, este se desbloquea <span class="mdi mdi-lock-open-outline"></span> y digitando a continuación segmentos del nombre del Contrato utilizando comodines (%). Cuando se utilizan comodines, es posible seleccionar OT Histórica cuyo Contrato tenga parte del nombre igual.
 
-**Contiene Comentario:** Filtra los registros que cumplan con la opción seleccionada **“**Con
-Comentario **”** o **“**Sin Comentario **”**.
+**Criterio de Generación:** Permite seleccionar el subconjunto de OT Históricas generadas desde PM, bajo el Criterio de Programación “XX” seleccionado. Es posible utilizar comodines (%). Los criterios son:
+
+- **MM:** Mensual KI: Contador por Incremento
+- **SS:** Semanal KL: Contador por Límite SM: Semestral +K: Contador (más de uno)
+- **AN:** Anual FK: Frecuencia y/o Contador
+- **DD:** Días (Mín. 3) TM: Trimestral
+- **SA:** Semanas del año ??: Sin Criterio
+- **+M:** Meses (mas de uno)
+- **+S:** Semanas (mas de una)
 
 **Contrato:** Permite filtrar las **OTs** Históricas que estén asociadas al Contrato definido en este criterio.
 
