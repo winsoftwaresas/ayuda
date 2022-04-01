@@ -216,13 +216,9 @@ AC-Número Activo Fijo: Este campo preselecciona las Órdenes de Trabajo Histór
 
 **Efecto de Falla:** Este campo permite seleccionar las OT Históricas que posean una causa de falla específica, es posible utilizar comodines. Existen dos formas de definir el Efecto de Falla de la OT Histórica. La primera es seleccionando el Efecto de Falla de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span> este se desbloquea <span class="mdi mdi-lock-open-outline"></span> y permite digitar a continuación segmentos del nombre del Efecto de Falla. Se puede usar comodines (%).
 
-**Descripción:** Este opción permite seleccionar las **OT Históricas que cumplan con el criterio de selección establecido en este campo, es posible utilizar la funcionalidad de comodines.
+**Estado General:** Estado General: Permite seleccionar las OT Históricas de acuerdo con su estado de cierre: “Cerradas” que fueron normalmente ejecutadas o “Canceladas”.
 
-**Efecto de Falla:** Este campo permite seleccionar las **OTs** Históricas que posean  una causa de falla específica.
-
-**Estado General:** Permite seleccionar las **OTs** Históricas de acuerdo con su estado de cierre: **“**Cerradas **”** que fueron normalmente ejecutadas o  **“**Canceladas **”**.
-
-**Estado Particular:** Permite seleccionar las **OTs** Históricas de acuerdo con su estado.  Al descolgar aparece el listado de todos los estados posibles para una Orden de  Trabajo Histórica.
+**Estado Particular:** Permite seleccionar las OT Históricas, SS y PA de acuerdo con su estado. Al descolgar aparece el listado de todos los estados posibles para una OT Histórica, SS y PA.
 
 **Fecha de Cierre:** Este criterio filtra las Órdenes de Trabajo Históricas por un rango de la Fecha de Cierre. Aparecen dos campos: Desde y Hasta. En cada uno de ellos se digita una fecha. De no digitar el campo **“**Desde **”**, se buscan las Órdenes de Trabajo Históricas cuya fecha de cierre esté en el lapso anterior a la fecha digitada en **“**Hasta **”**. De no digitar
 el campo **“**Hasta **”**, se buscan las **OTs** Históricas cuya fecha de cierre esté en un lapso posterior a la digitada en **“**Desde **”**.
