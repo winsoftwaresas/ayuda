@@ -212,9 +212,9 @@ AC-Número Activo Fijo: Este campo preselecciona las Órdenes de Trabajo Histór
 | **+K**          | Contador (mas de uno)   |
 | **??**          | Sin Criterio            |
 
-**Descripción:** Esta opción permite seleccionar las OT Históricas, SS y PA que cumplan con el criterio de selección establecido en este campo, es posible utilizar la funcionalidad de comodines.
+**Descripción:** Esta opción permite seleccionar las OT Históricas, SS y PA que cumplan con el criterio de selección establecido en este campo, es posible utilizar la funcionalidad de comodines (%).
 
-**Efecto de Falla:** Este campo permite seleccionar las OTs Históricas que posean una causa de falla específica, es posible utilizar comodines. Existen dos formas de definir el Efecto de Falla de la OT Histórica. La primera es seleccionando el Efecto de Falla de la lista desplegable. La segunda es dando clic al icono de candado “Utilizar comodines” y digitando a continuación segmentos del nombre del Efecto de Falla utilizando comodines. Cuando se utilizan comodines, es posible seleccionar OT Histórica cuyo Efecto de Falla tenga parte del nombre igual.
+**Efecto de Falla:** Este campo permite seleccionar las OT Históricas que posean una causa de falla específica, es posible utilizar comodines. Existen dos formas de definir el Efecto de Falla de la OT Histórica. La primera es seleccionando el Efecto de Falla de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span> este se desbloquea y permite digitar a continuación segmentos del nombre del Efecto de Falla. Se puede usar  comodines (%). Cuando se utilizan comodines, es posible seleccionar OT Histórica cuyo Efecto de Falla tenga parte del nombre igual.
 
 **Descripción:** Este opción permite seleccionar las **OTs** Históricas que cumplan con el criterio de selección establecido en este campo, es posible utilizar la funcionalidad de comodines.
 
