@@ -1,192 +1,224 @@
 ---
-title:  Ventana Principal
-subtitle: en esta seccion encontrará el el instructivo de el funcionamiento adecuado  de cada ventana que compone esta seccion en el programa am4g.
+title: Ventana Principal
+subtitle: en esta seccion encontrará el el instructivo de el funcionamiento
+  adecuado  de cada ventana que compone esta seccion en el programa am4g.
 author: win
 order: 10_04
+date: 2022-03-28T20:34:50.748Z
 ---
 # Ventana Principal de Historia de Mantenimiento
 
-![Ventana Principal de Historia de Mantenimiento](0.images/cap11/chp11_img01.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp010_img01.png)
+_**Imagen 145.** Historia - Ventana Visor_
 
 A esta ventana se llega haciendo clic sobre la opción Historia del Menú Principal. A través de ella se ejecutan todas las funciones dedicadas a administrar la Historia de Mantenimiento. A continuación se ilustran las porciones que la componen.
 
 ## Ventana Visor
 
-!![Ventana Visor](0.images/cap11/chp11_img02.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp010_img02.png)
+_**Imagen 146.** Historia - Ventana Visor_
 
 Se accede directamente desde la ventana principal de Historia de Mantenimiento.
 
-Desde esta ventana es posible observar la Historia de Mantenimiento activa o existente.  Se listan todos los registros de Historia o una selección o subgrupo de ellos.  Se puede hacer clic en alguna de ellas, para visualizar el registro completo de la Orden de Trabajo Histórica, en la parte inferior (Ventana Detalle).
 
-El conjunto de la Historia disponible a ser desplegado se muestra a través de páginas.  El tamaño de las páginas es configurable desde la opción Administrar por parte de quien tenga acceso a ella.
+Desde esta ventana es posible observar la Historia de Mantenimiento activa, existente o un subconjunto de ellas (efectuado a través de un subgrupo). El conjunto de Órdenes de Trabajo Históricas disponible a ser desplegado se muestra a través de páginas. El tamaño de las páginas es configurable desde la opción Administración del menú principal, en la sección “Valores por Defecto” por parte de un usuario autorizado.
 
-Los  nombres  que encabezan las  columnas  a  manera  de  títulos en azul, permiten ordenar  de manera ascendente la información por cada ítem seleccionado, al dar clic en el respectivo encabezado.
+
+Al hacer clic sobre alguna de las Órdenes de Trabajo Históricas del Visor el sistema responde mostrando la información de esa OT, en forma detallada, en una ventana llamada Ventana Detalle.
+
+Los títulos en azul que encabezan las columnas son también botones que permiten ordenar la tabla, según el título seleccionado. Para elegir un registro de la tabla se da un clic del mouse sobre él o se desplaza el cursor con las teclas de desplazamiento.
 
 ## Ventana Detalle
 
-![Ventana Detalle](0.images/cap11/chp11_img02.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp010_img03.png)
+_**Imagen 147.** Historia - Ventana Visor_
 
-En la gráfica anterior, Ventana Detalle de Ordenes de Trabajo Históricas, se aprecian  sus componentes  y  sus  respectivos  contenidos.  En  esta  ventana  Detalle  se  encuentra  la información relevante a la Orden de Trabajo histórica seleccionada en el Visor. A través de ella se administran los datos genéricos de la Orden de Trabajo Histórica. Desde esta ventana es posible modificar la información de una **OTH**. Por  supuesto que para ello se requieren permisos especiales, que pueden ser proporcionados por el Administrador.
+En la gráfica anterior, Ventana Detalle de Órdenes Históricas, se aprecian sus componentes y sus respectivos contenidos. En esta ventana se encuentra la información relevante a la OT histórica seleccionada en el Visor. A través de ella se administran los datos genéricos y también es posible modificar la información de una OT Histórica. Por supuesto que, para ello se requieren permisos especiales, que pueden ser proporcionados por el Administrador.
 
-A continuación se describen los campos que componen esta ventana Detalle de Ordenes de Trabajo Históricas. Sobre cada campo se da una breve explicación.
+A continuación, se describen los campos que componen esta ventana Detalle de Órdenes de Trabajo Históricas. Sobre cada campo se da una breve explicación:
 
-**OT:** Aparece el número de **OT** asignado por – AM 4G– a la Orden de Trabajo.  Si se está en el proceso de creación de una **OT** Manual, este campo solamente muestra el Año.   Una vez se crea (Insertar) la **OT**, **–AM 4G** asigna un consecutivo a dicha Orden.
+**OT:** Aparece el número de OT asignado por AM a la OT en el momento en que se generó.
 
-**F/H Creación:** Es la fecha en la cual se crea la Orden de Trabajo.  En el caso  de Órdenes Programadas, esta fecha es asignada automáticamente por el sistema y no es modificable, según el Programa de Mantenimiento que la genera. Para las Órdenes de Trabajo Manuales, – AM –   sugiere   la   fecha   actual   del   sistema  (aunque  puede   ser modificada).
+**F/H Creación:** Es la fecha en la cual se crea la Orden de Trabajo Histórica. En el caso de Órdenes Programadas, esta fecha fue asignada automáticamente por el sistema y no es modificable, según el Programa de Mantenimiento que la genera. Para las Órdenes de Trabajo Histórica Manuales, – AM4G – asigna automáticamente la fecha actual del sistema.
 
-**Descripción:** Es un texto corto por medio del cual se indica la naturaleza de la  labor  a realizar.  Debe ser conciso y no dar lugar a ambigüedades, este campo tiene una longitud de 80 caracteres.  Se recomienda definir la descripción bajo la siguiente norma: iniciar con un verbo en infinitivo: revisar, corregir, inspeccionar, conectar, etc., continuar con el Objeto de mantenimiento o Activo / Equipo y finalizar con un  complemento explicatorio. Ejs: Revisar la transmisión delantera del sistema.  Cambiar a los rodillos la cobertura de caucho.
+**Descripción:** Es un texto corto por medio del cual se indica la naturaleza de la labor a realizar. Debe ser conciso y no dar lugar a ambigüedades, este campo tiene una longitud de 100 caracteres. Se recomienda definir la descripción bajo la siguiente norma: iniciar con un verbo en infinitivo: revisar, corregir, inspeccionar, conectar, etc., continuar con el Objeto de mantenimiento o Activo/Equipo y finalizar con un complemento explicatorio. Ejemplos: Revisar la transmisión delantera del sistema. Cambiar a los rodillos la cobertura de caucho.
 
-**Prioridad:** Es  un número de  1  a  7  que  indica la  prioridad de realización de la   **OT**. Normalmente 1 significa un trabajo de gran urgencia, mientras que 7 es una labor de baja prioridad.
+**Prioridad:** Es un número de 1 a 7 que indica la prioridad de realización de la OT. Normalmente 1 significa un trabajo de gran urgencia, mientras que 7 es una labor de baja prioridad.
 
-**F/H   Programada:** En  este  campo se  ingresa  la  fecha  programada para  realizar  la ejecución de la Orden de Trabajo.
+**F/H Programada:** En este campo se ingresa la fecha programada o fecha tentativa para ejecutar la OT.
 
-**Referencia:** En  este  campo  se  puede  ingresar  el  número de  un  documento,  que sirve como referencia o relación a la **OT**; ejemplo: Número de una factura,  número de una Orden de Compra asociada, o un documento interno de despacho de almacén, etc.
+**Referencia:** En este campo se puede ingresar el número de un documento, que sirve como referencia o relación a la OT; ejemplo: Número de una factura, número de una orden de Compra asociada, o un documento interno de despacho de almacén, etc.
 
-**Estado:** Este campo está bloqueado y muestra el nombre del Estado de la **OT**.
+**Estado:** Este campo está bloqueado y muestra el nombre del Estado de la OT. Los tres posibles estados son: Cerrada Ejecutada, Cerrada Retroalimentada (para registros que se han editado) y Canceladas.
 
-**Código del Activo:** Aquí se establece el Objeto de Mantenimiento, ya sea digitando directamente el Código, o seleccionándolo con los binoculares, al que se le realiza la labor.  Una vez se digita o se selecciona, aparece al lado derecho la Descripción del Equipo.
+**Código del Activo:** Aquí se establece el Objeto de Mantenimiento, aquel Activo al que se le realizó la labor. Este se escoge bien sea digitando directamente el Código (seguido de la tecla tabular) y como resultado, se muestra la descripción del Equipo/Activo seleccionado al lado derecho del campo código Activo. La segunda opción es seleccionándolo con el icono de filtro <span class="mdi mdi-filter-variant"></span>. Acto seguido se muestra la ventana de visor de Activos allí también se puede filtrar o hacer subgrupos. Una vez se encuentra el Activo se selecciona dando un clic sobre cualquiera de sus campos. A continuación, se da un clic sobre botón <a class="btn white">Aceptar</a> de esa ventana o se hace doble clic sobre el registro seleccionado. Inmediatamente ese código aparece en el primer campo de la línea de Activo con su respectiva información registrada en el módulo de Activos.
 
-**Descripción:**   En   este  campo  se  visualiza  la   información  de la descripción del Activo seleccionado.
+**Descripción:** Muestra el nombre o la descripción del Activo seleccionado. Es un campo que no es modificable por el usuario.
 
-**Activo Fijo:** En este campo se visualiza la información del Número de Activo Fijo del Equipo que se haya establecido en la ficha técnica de este m ismo.
+**FF Fin Garantía:** En este campo se visualiza la fecha de fin de garantía del Equipo/Activo que se haya establecido en la ficha técnica de este mismo. Es un campo que no es modificable por el usuario.
 
-**Referencia Externa Proveedor:** En este campo se visualiza la información de la referencia del Equipo que se ha ya establecido en la ficha técnica de este mismo.
+**Activo Fijo:** En este campo se visualiza la información del Número de Activo Fijo del Equipo que se haya establecido en la ficha técnica de este mismo. Es un campo que no es modificable por el usuario.
 
-**Serial:** En este campo se visualiza la información del Serial del Equipo que se  haya establecido en la ficha técnica de este m ismo.
+**Código de Inventario:** En este campo se visualiza el código del inventario del Activo que se haya establecido en la ficha técnica de este mismo. Es un campo que no es modificable por el usuario.
 
-**Alias:** En  este campo se  visualiza la  información del  Alias  del Equipo que  se  ha ya establecido en la ficha técnica de este m ismo.
+**Referencia Externa Proveedor:** En este campo se visualiza la información de la referencia del Activo que se ha ya establecido en la ficha técnica de este mismo. Es un campo que no es modificable por el usuario.
 
-**Solicitante:** En este campo se define el nombre del Solicitante de la **OT**. Cuando la **OT** es generada desde una Solicitud de Servicio, este campo contiene el  solicitante ingresado en la Solicitud.
+**Serial:** En este campo se visualiza la información del Serial del Equipo/Activo que se haya establecido en la ficha técnica de este m ismo. Es un campo que no es modificable por el usuario.
 
-**Incluido en TE (RI):** Al seleccionar esta opción, en el campo **“**Solicitante  **”** solo se despliegan los Terceros o Responsables Internos existentes en la tabla de Terceros en infraestructura.
+**Alias:** En este campo se visualiza la información del Alias del Activo que se ha ya establecido en la ficha técnica de este mismo. Es un campo que no es modificable por el usuario.
 
-**Correo Electrónico:** En este campo se define el correo electrónico del Solicitante de la **OT**, cuando el solicitante es digitado manualmente. Si el solicitante se selecciona con la opción **“**Incluido en Terceros  **”** y allí se tiene definido el correo electrónico, automáticamente se carga a este campo el e-mail definido en el módulo de Terceros. La funcionalidad del envío de correos electrónicos se parametriza Administración, Valores por Defecto, la etiqueta GENERAL, la opción **“**Enviar e-mail al solicitante **”**.
+**Solicitante:** En este campo se define el nombre del Solicitante de la OT. El solicitante puede registrar su nombre en el espacio correspondiente. Sin embargo, es posible también seleccionar su nombre de la lista que se habilita como desplegable al marcar la opción <a class="btn white"><span class="mdi mdi-checkbox-blank-outline"> incluido en TE (RI)</span></a>. Se debe tener en cuenta que de la tabla de Terceros solo se despliegan los Terceros de Tipo RI. El nombre del solicitante usuario de AMSi se registra automáticamente desde la creación de la solicitud. 
 
-**Centro de Costo:** Es el Centro de Costo asignado a la Orden de Trabajo, que corresponde a uno   de   los   Centros   de   Costo   predefinidos   en   la   tabla   respectiva,   y   que   es **“**Responsable  **”**  del  pago  de  los  consumos  de  Gasto   Real  que  dicha  **OT**  genere. Inicialmente se  sugiere el  Centro de Costo que  tiene asociado el  Equipo Objeto de Mantenimiento, aun así, puede cambiarse.
+**Incluido en TE (RI):** Al seleccionar esta opción, en el campo **Solicitante** solo se despliegan los Terceros o Responsables Internos existentes en la tabla de Terceros en infraestructura.
+
+**Correo Electrónico:** En este campo se define el correo electrónico del Solicitante de la OT, cuando el solicitante es digitado manualmente o bien aparece el correo asociado al usuario de AMSi. Si el solicitante se selecciona con la opción <a class="btn white"><span class="mdi mdi-checkbox-blank-outline"> incluido en TE (RI)</span></a> y allí se tiene definido el correo electrónico, automáticamente se carga a este campo el e-mail definido en el módulo de Terceros. La funcionalidad del envío de correos electrónicos se parametriza en Administración y con la colaboración de Win Software.
+
+**Centro de Costo:** Es el Centro de Costo asignado a la OT, que corresponde a uno de los Centros de Costo predefinidos en la tabla respectiva, y que es el "cliente" que es responsable del objeto de mantenimiento. Cuando se define un Equipo u Objeto de Mantenimiento válido, el sistema trae automáticamente a este campo el Centro de Costo asociado. Inicialmente se sugiere el Centro de Costo que tiene asociado el Activo Objeto de Mantenimiento, aun así, puede cambiarse.
 
 **Sub CC:** Este campo siempre está bloqueado y muestra el Código Sub CC asociado al Centro de Costo elegido.
 
-**Ubi. Física:** Es el lugar físico en el que se realiza la labor.	Inicialmente se  sugiere la  Ubicación  Física  asociada  al  Equipo  u  Objeto  de  Mantenimiento,   pero  puede cambiarse a cualquier otro valor predefinido en la tabla de  Ubicaciones  Físicas, en la tabla respectiva.
+**Ubi. Física:** Es el lugar físico en el que se realiza la labor. Este campo permite seleccionar la Ubicación Física en la que se encuentra el Objeto de Mantenimiento para el que se genera la OT. Cuando se define un Equipo u Objeto de Mantenimiento válido, el sistema trae automáticamente a este campo la Ubicación Física asociada. Inicialmente se sugiere la Ubicación Física que tiene asociada el Activo Objeto de Mantenimiento, aun así, puede cambiarse.
 
-**Centro Responsable:** Especifica el Centro Responsable o grupo de mantenimiento, encargado  de realizar la labor.
+**Centro Responsable:** Se define en este campo el nombre del grupo de Mantenimiento encargado de la ejecución de la OT. Para ello se selecciona uno de los Centros Responsables que están definidos en la tabla de “Centros Responsables” en la Infraestructura.
 
-**Responsable ejecutor:** En este campo se elige a la persona, natural o jurídica, Responsable por la labor a ejecutar.
+**Responsable ejecutor:** En este campo se elige a la persona, natural o jurídica, Responsable por la labor a ejecutar, que verificará el estado del Equipo u Objeto de Mantenimiento. Para ello se selecciona uno de los Responsables que están definidos en la tabla de “Responsables” en la Infraestructura. Al lado derecho de este campo existe un cuadro de selección <a class="btn white"><span class="mdi mdi-checkbox-blank-outline"> incluido en TE (RI)</span></a>, que al ser marcado filtra los Responsables por el Centro Responsable previamente seleccionado. El responsable es obligante al escoger el estado “Cerrada Ejecutada”.
 
-**Filtrar por CR:** Al seleccionar esta opción, en el campo **“**Responsable **”** solo se despliegan los Responsables correspondientes al Centro Responsable elegido en la opción **“**C. Responsable **”**. En  otro  caso,  en  el  campo  **“**Responsable **”**  se  despliegan  todos   los  **“**Responsables **”** existentes en la tabla respectiva.
+**Filtrar por CR:** Al seleccionar esta opción, en el campo “Responsable Ejecutor” solo se despliegan los Responsables correspondientes al Centro Responsable elegido en la opción “Centro Responsable”. En otro caso, en el campo “Responsable Ejecutor” se despliegan todos los “Responsables” existentes en la tabla respectiva.
 
-**Contrato:** Se selecciona el contrato que se despliega de la lista.
+**Contrato:** En este campo se selecciona el contrato que pertenece al Contratista responsable de ejecutar la OT.
 
-**Responsable por la institución:** En este campo se elige a la persona de la institución, que acompañará y/o recibirá la labor prestada por el Responsable ejecutor, cuando este sea un Contratista o Servicio Externo.
+**Responsable por la Institución:** En este campo se elige a la persona de la institución, que acompañará y/o recibirá la labor prestada por el Responsable ejecutor, cuando este sea un Contratista o Servicio Externo. Para ello se selecciona uno de los Responsables que están definidos en la tabla de “Responsables” en la Infraestructura. Es la persona que recibe a satisfacción.
 
-**T. Trabajo:** Indica los Tipos de Trabajo que se realizan en la **OT**.   Es posible  definir más de un Tipo de Trabajo para una Orden.
+**T. Trabajo:** **AM** predefine cuatro tipos de trabajo: Mecánico (MEC), Eléctrico (ELE), Instrumentación/Electrónica (IEL) y Otro (OTR). Indica los Tipos de Trabajo que se realizan en la OT. Es posible definir más de un Tipo de Trabajo para una OT.
 
-**T. Mtto:** Este campo indica el Tipo de Mantenimiento a realizar en la Orden de Trabajo. Toda **OT** debe poseer uno. Si en la **OT** se va a registrar un trabajo que no corresponde a una labor de mantenimiento, en este campo se elige **“**Otro **”** y a  continuación, en el tipo de **“**Actividad **”** se especifica detalladamente, el tipo de labor.
+**T. Mtto:** Este campo indica el Tipo de Mantenimiento a realizar en la OT. Todo registro debe poseer uno. Si en la OT se va a registrar un trabajo que no corresponde a una labor de mantenimiento, en este campo se elige “Otro” y a continuación, en el tipo de “Actividad” se especifica detalladamente, el tipo de labor.
 
-**T. Actividad:** Aquí se establece el Tipo de Actividad a realizar en la **OT**.   La Actividad de Mantenimiento para una **OT** Manual, se elige desde la tabla 	**“**Tipos  de  Actividad **”** en el módulo de **“**Infraestructura **”**.   Este campo trabaja en  coordinación con el anterior (Tipo de Mantenimiento).  Si en el campo anterior se ha hecho la selección de un valor diferente de **“**Otro **”**, en el tipo de Actividad se debe seleccionar el valor **“**MN: Mantto **”**, lo que indica que se  trata  de  una  actividad  que  constituye mantenimiento. 	Si  en  el campo  anterior se ha seleccionado el valor **“**Otro **”**, en el campo Tipo de Actividad se debe seleccionar un valor que defina consistentemente la labor a ejecutar.
+**T. Actividad:** Aquí se establece el Tipo de Actividad a realizar en la OT. Este campo trabaja en coordinación con el anterior (Tipo de Mantenimiento).Si en el campo anterior se ha seleccionado el valor “Otro”, en el campo Tipo de Actividad se debe seleccionar un valor que defina consistentemente la labor a ejecutar.
 
-Es posible definir una Actividad, por defecto, en **“**Administración **”**, **“**Valores por defecto **”**. Este valor se usa como estándar, al definir una **OT** m anual.
+**F/H Paro:** Para las Órdenes de Trabajo Correctivas, en este campo se registra la Fecha y hora del daño, falla o avería. La fecha se maneja en formato DD/MM/AAAA (Día, Mes, Año); la hora se maneja en formato de 12 horas. Cabe anotar, que la fecha y hora consignadas corresponden al momento en que se informó del daño o falla a Mantenimiento, así que es posible que el daño haya ocurrido en una fecha/hora anterior. Sin embargo se debe procurar, administrativamente, que Mantenimiento se entere lo más pronto posible de la Fecha y Hora reales del paro.
 
-**F/H Paro:** Para las Órdenes de Trabajo Correctivas, en este campo se registra la
-Fecha y hora del daño, falla o avería.  La fecha se m aneja en formato AAAA/MM/DD (Año, Mes, día); la hora se m aneja en formato Militar (de 24 horas).  Cabe anotar, que la fecha y hora consignadas 	corresponden 	 al 	m omento 	en	que	se informó  del daño o  falla  a Mantenimiento, así que es posible que el daño haya ocurrido en una fecha/hora   anterior. Sin   embargo se debe  procurar, administrativamente,   que Mantenim iento se entere lo más pronto posible de la Fecha y Hora reales del paro.
+**T. Estimado:** Es un campo netamente informativo, e indica de manera aproximada cuánto Tiempo demora la labor. Se establece el número y a continuación el período de tiempo que representa (Días, Horas o Minutos).
 
-**T.  Estimado:** Es un campo netamente informativo, e indica de manera  aproximada cuánto Tiempo  demora  la  labor.	Se  establece  el  número  y  a   continuación  el período de tiempo que representa (Días, Horas o Minutos).
+**Tiempo Improductivo:** En este campo indica la persona o el planer de realizar la labor, si debe pararse el Activo para proceder a la realización de la misma. Cuando se dice que el Equipo genera Tiempo Improductivo significa que no está en operación, y por lo tanto,  posiblemente improductivo.  Este campo se tiene en cuenta al momento de cerrar la **OT**: si el indicativo de Tiempo Improductivo está habilitado, **AM* calcula y carga el Tiempo Improductivo, en caso contrario no lo hace.
 
-**Tiempo Improductivo:** En este campo indica la persona o personas encargadas (s) de realizar la labor, si debe pararse el Equipo para proceder a la realización de la misma.  Cuando se dice que el Equipo genera Tiempo Improductivo significa que no está en operación, y por lo tanto,  posiblemente improductivo.  Este campo se tiene en cuenta al momento de cerrar la **OT**: si el indicativo de Tiempo Improductivo está habilitado, el –AM 4G- calcula y carga el Tiempo Improductivo al equipo. En caso contrario no lo hace.
+**Criterio:** Este campo siempre está bloqueado, es informativo y despliega el criterio utilizado por **AM** para haber generado la OT. (Solamente para Órdenes de Trabajo Programadas).
 
-**Criterio:** Es un campo informativo que despliega el criterio utilizado por -AM 4G- para haber generado la **OT**. (Solamente para Órdenes de Trabajo Programadas).
+**Tarea:** Este campo siempre está bloqueado, es informativo, permite establecer, a través del ordinal de la tarea que muestra, cual fue el PM que generó la OT actual. Es válido solamente en el caso de Órdenes Programadas.
 
-**Tarea:**  Este  campo  informativo, permite  establecer,  a  través  del  ordinal  de  la  tarea que muestra, cual fue el PM que generó la **OT** actual. Es válido solamente  en  el caso de Órdenes Program adas.
+**Control Presupuestal:** Esta opción permite definir si la OT maneja Presupuesto. Para las OT Programadas, esta opción siempre está seleccionada, pero aparece protegida, ya que toda OT Programada conlleva el Presupuesto Aprobado.
 
-**Control  Presupuestal:** Esta  Opción permite  definir  si  la  Orden  de  Trabajo maneja Presupuesto. Para las Órdenes de Trabajo Programadas, esta opción  siempre está  seleccionada, pero  aparece protegida,   ya  que  toda  **OT**   Programada  conlleva el Presupuesto Aprobado.
 
-Para  las  Órdenes  de  Trabajo  Manuales,  esta  opción se  establece en  el  m omento  de creación de la misma.  Esta elección se debe m arcar antes de darle clic al botón `<a class="btn">`Insertar `</a>`, de otra f orma, -AM 4G- asume que la **OT** no va a requerir Control Presupuestal y la posibilidad de hacer la marcación se inactiva en el acto.
+Para las OT Manuales, esta opción se establece en el momento de creación de la misma. Esta elección se debe marcar antes de darle clic al botón “Insertar”, de otra forma, **AM** asume que la OT no va a requerir Control Presupuestal y la posibilidad de hacer la marcación se inactiva en el acto. Cuando una OT Manual exige control presupuestal, y el presupuesto no ha sido aprobado, no es posible registrar ni modificar el Gasto Real en ella.
 
-Cuando una Orden de Trabajo Manual exige control presupuestal, y el presupuesto no ha sido aprobado, no es posible registrar ni modificar el Gasto Real en ella.
+Para las OT Manuales, esta  opción se establece en el momento de creación de la misma. Esta elección se debe marcar antes de darle clic al botón <a class="btn white">insertar</a>, de otra forma, **AM** asume que la OT no va a requerir Control Presupuestal y la posibilidad de hacer la marcación se inactiva en el acto.
 
-**Comentarios:** Esta opción se usa para ingresar los nuevos comentarios referentes a toda la ejecución de la **OT**. Al dar clic al botón `<a class="btn">`Agregar Comentario `</a>` aparecerá el comentario ingresado al lado derecho en una ventana tipo chat bloqueada y a su vez inhabilita la modificación de los comentarios que allí se encuentren; además de la fecha, hora y el usuario logueado que realizó el comentario.
+Cuando una OT Manual exige control presupuestal, y el presupuesto no ha sido aprobado, no es posible registrar ni modificar el Gasto Real en ella.
 
-**Este espacio de comentarios sirve para dos efectos:**
+**Comentarios:** Esta opción se usa para ingresar los nuevos comentarios referentes a toda la ejecución de la OT. Al dar clic al botón <a class="btn gray">Agregar comentario</a> aparecerá el comentario ingresado al lado derecho en una ventana tipo chat bloqueada y a su vez inhabilita la modificación de los comentarios que allí se encuentren; además de la fecha, hora y el usuario logueado que realizó el comentario.
 
-Cuando  se  genera  la   **OT**,  como  comentarios  a  priori,  para  especificar  referencias    importantes o ayudas previstas y necesarias en la ejecución posterior de la **OT**: planos, manuales técnicos, manuales de normas técnicas de Mantenimiento o  de especificaciones detalladas; normas de seguridad o enfoques de acción.  Sin embargo, en la gran mayoría de  los casos se utiliza la pestaña Multimedia para registrar estos datos.
-Cuando ha concluido la ejecución de la **OT**, es posible utilizarlo para registrar hechos   interesantes acerca de la misma ejecución, como el estado del equipo antes de la intervención, detalles de la intervención, estado del mismo equipo  después de ella, recomendaciones a  los   usuarios  del  equipo,  recomendaciones  a  las  personas de mantenimiento y otros conceptos interesantes a juicio de los ejecutantes.
 
-**Contrato:** Para el caso de Órdenes de Trabajo programadas, que se hayan  generado desde un PM asociado a un Contrato que esté vencido o a punto de vencerse, -AM 4G- informa al  respecto,  en el campo **“**Comentarios **”** junto con la Fecha de vencimiento de aquel.
+Este espacio de comentarios sirve para dos efectos:
+
+
+Cuando se genera la OT, como comentarios a priori, para especificar referencias importantes o ayudas previstas y necesarias en la ejecución posterior de la OT: planos, manuales técnicos, manuales de normas técnicas de Mantenimiento o de especificaciones detalladas; normas de seguridad o enfoques de acción. Sin embargo, en la gran mayoría de los casos se utiliza la pestaña Multimedia para registrar estos datos. Cuando ha concluido la ejecución de la OT, es posible utilizarlo para registrar hechos interesantes acerca de la misma ejecución, como el estado del equipo antes de la intervención, detalles de la intervención, estado del mismo equipo después de ella, recomendaciones a los usuarios del equipo, recomendaciones a las personas de mantenimiento y otros conceptos interesantes a juicio de los ejecutantes.
+
+**Contrato:** En este campo se puede asociar un contrato de una OT que esté a cargo de un contratista, **AM** indica a través de los indicadores de colores si un contrato está vencido, a punto de vencerse o está vigente en su respectiva tabla de Infraestructura en Contratos. 
 
 # Ventana Submenú de Historia de Mantenimiento
 
-## Subgrupo
+## Subgrupos
 
-Se usa para seleccionar grupos de Órdenes de Trabajo Históricas que cumplen con un conjunto de criterios o filtros definibles aquí, con el objeto de lograr un estudio posterior sobre ellos.
+Se usa para seleccionar grupos de Órdenes de Trabajo Históricas, Solicitudes de Servicio y Paros que cumplen con un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al icono de filtro azul <span class="mdi mdi-filter-variant"></span>, ubicado en la parte superior derecha de la ventana Visor de Historia.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp010_img04.png)
+_**Imagen 148.** Historia - Ir Subgrupos_
 
 Cada criterio trabaja en conjunto con los demás, con el operador intersección.
 
-Cada criterio aparece inicializado en un valor global que permite mostrar todas las Órdenes de Trabajo Históricas.  Lo que significa que de no escoger un criterio se  obtiene como resultado del  subgrupo el  mismo conjunto completo de  todas las  Órdenes de  Trabajo Históricas.
+Cada criterio aparece inicializado en un valor global que permite mostrar todas las Órdenes de Trabajo Históricas, Solicitudes de Servicio y Paros. Lo que significa que de no escoger un criterio se obtiene como resultado del subgrupo, el mismo conjunto completo de todas las OT Históricas, SS y PA.
 
-**–AM 4G** permite entonces hacer selección de un grupo de **OTs** Históricas, de acuerdo con los criterios seleccionados en la próxima gráfica.
 
-Los campos de datos que constituyen criterio de selección haciendo parte de la Ventana
-Subgrupo (Próxima gráfica) son los siguientes.
+**AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar.
 
-!![Ventana Submenú de Historia de Mantenimiento](0.images/cap11/chp11_img03.png)
+
+El programa permite entonces hacer selección de un grupo de cualquier tipo de los tres registros mencionados de acuerdo con los criterios seleccionados en la siguiente ventana.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp010_img05.png)
+_**Imagen 149.** Historia - Ir Subgrupos_
+
+Los campos de datos que constituyen criterio de selección en la Ventana Subgrupo de OT Históricas, SS y PA, son los siguientes:
 
 **1. FILTRAR POR TIPO DE REGISTRO**
 
-**Tipo  de  Registro:**  Tres tipos de registros   conforman la Historia de  Mantenimiento: Solicitudes  de  Servicio,  Órdenes  de  Trabajo  y  Paros/Averías.   Con  este  filtro  se seleccionan los registros de un tipo, de todos los tipos o de alguna combinación de ellos.
+**Tipo  de  Registro:**  Tres tipos de registros conforman la Historia de Mantenimiento de SS, OT y Paros/Averías. Con este filtro se seleccionan los registros de un tipo, de todos los tipos o de alguna combinación de ellos.
 
-**2. FILTRAR POR C AMPOS DEL ACTIVO ASOCI ADO A LA ORDEN DE TRABAJO, PARO O SOLICITU DE SERVICIO**
+**2. FILTRAR POR CAMPOS DEL ACTIVO ASOCIADO A LA ORDEN DE TRABAJO, PARO O SOLICITUD DE SERVICIO**
 
-**AC-Activo Fijo:** Este campo preselecciona las Órdenes de Trabajo Históricas para el o los
-Equipos cuyo Número de Activo corresponda a los valores aquí definidos.   En este campo se pueden utilizar los comodines.
+**AC-Alias:** Este campo filtra las OT Históricas, SS y PA para los Activos cuyo Alias corresponda a los valores aquí definidos. En este campo se pueden utilizar los comodines (%).
 
-**AC-Alias:** Este campo preselecciona las Órdenes de Trabajo Históricas para los Equipos cuyo Alias corresponda a los valores aquí definidos.	En este campo se pueden  utilizar los comodines.
+**AC – Cód. de Barras Int.:** Permite seleccionar las OT Históricas, SS y PA que se encuentran asociadas al Activo/Equipo que se encuentre con el Código de Barras Interno que el usuario ingresa en este campo del subgrupo y que posea una OT, SS y PA.
 
-**AC-Código:**  Esta  selección  agrupa  las  **OTs**  Históricas  cuyos  Equipos  coincidan  con  el relacionado en este criterio. Por ejemplo: si se escribe 341%, se seleccionan todas las **OTs** Históricas cuyo código de Equipo inicia por 341. Si se escribe _ _1% se seleccionan
-todas las **OTs** Históricas cuyo código de Equipo inicia por cualquier par de valores pero en su tercera posición tienen un 1. El porcentaje (%) es un carácter comodín que significa **“**todos **”**.
+**AC – Cód. de Barras Prov.:** Permite seleccionar las OT Históricas, SS y PA asociadas a un Activo/Equipo que se encuentre ligado al Código de Barras del Proveedor que se ingresó al crear el Activo/Equipo.
 
-**AC-Código  de  Barras Interno:** Permite seleccionar las **OTs** Históricas que se  encuentran asociadas al Activo/ Equipo que  se encuentre con el Código de Barras  Interno que el usuario ingresa en este campo del subgrupo.
+**AC-Código:** Esta selección agrupa las OT Históricas, SS y PA cuyo Activo/Equipo coincidan con el relacionado en este criterio. Es posible definir el código completo o una porción del mismo. Por ejemplo: si se escribe 341%, se seleccionan todas las OT Históricas, SS y PA cuyo código de Activo inicia por 341. El porcentaje (%) es un carácter comodín que significa “todos”. También, es posible seleccionar el Activo a través del visor de Activos. Para ello se da un clic sobre el icono de filtro <span class="mdi mdi-filter-variant"></span> de la respectiva ventana. Acto seguido se muestra la ventana de visor de Activos junto con la posibilidad de filtrar. Una vez se encuentra dicho Activo, se selecciona dando un clic sobre cualquiera de sus campos. A continuación, se da un clic sobre botón <a class="btn white">Aceptar</a> de esa ventana o se hace doble clic sobre el registro seleccionado. Inmediatamente ese código aparece en el primer campo de la línea de Activo en la forma de registro de OT, SS y PA.
 
-**AC-Código  de  Barras  Proveedor:** Permite seleccionar las **OTs** Históricas asociadas a  un Activo/ Equipo que se encuentre ligado al Código de Barras del Proveedor que se ingresó al crear el Activo/ Equipo.
+AC-Descripción: Selecciona las OT Históricas, SS y PA asociados a los Activos según criterios que se fundamenten en su descripción. Ejemplo: %Motor% selecciona todos los Activos en cuya descripción, en cualquier posición, tengan la palabra “Motor”.
 
-AC-Descripción: Selecciona las  **OTs**  Históricas que  se  encuentran relacionadas con  los
-Activos / Equipos según los criterios que se fundamentan en su descripción. Ejemplo:
-%Motor% selecciona todas las  **OTs** que son asociadas a los que Activos / Equipos en
-cuya descripción, en cualquier posición, tengan la palabra **“**Motor **”**.
+AC-Estado: Este filtro permite seleccionar las OT, SS y PA de acuerdo con el Estado del Activo u Objeto de Mantenimiento. Así que se pueden filtrar las OT para los cuales el AC correspondiente está activo o inactivo.
 
-**AC-Referencia:** Esta opción permite seleccionar las **OTs** Históricas de cuyos Equipos la Referencia coincide con la definida en este criterio.
+AC-Número Activo Fijo: Este campo preselecciona las Órdenes de Trabajo Históricas, SS y PA para el o los Activos cuyo Número de Activo corresponde a los valores aquí definidos. En este campo se pueden utilizar los comodines.
 
-**AC-Serial:** Esta alternativa permite seleccionar las **OTs** Históricas de cuyos Equipos el serial coincide con el definido en este criterio.
+**AC-Referencia:** Esta opción permite seleccionar las OT Históricas, SS y PA de acuerdo con su número de referencia.
 
-**AC-Tipo:** Selecciona las **OTs** Históricas que se encuentran asociadas con los Activos/ Equipos que se encuentran ligados al Tipo ingresado por el usuario.
+**AC-Serial:** Esta alternativa permite seleccionar las OT Históricas, SS y PA de acuerdo con el número serial del Equipo/Activo objeto de mantenimiento. El campo acepta comodines(%).
 
-**3. FILTRAR POR C AMPOS DE LA ORDEN DE TRABAJO**
+**AC-Ubicación Física:** Permite la selección de las OT, SS y PA Históricas cuyo Activo se encuentre en una Ubicación Física determinada. Existen dos formas de definir la Ubicación Física del Activo. La primera es seleccionando la Ubicación Física de la lista desplegable. La segunda es dando clic al icono de candado  “Utilizar comodines” y digitando a continuación segmentos del nombre de la Ubicación Física utilizando comodines. Cuando se utilizan comodines, es posible seleccionar OT cuyo Activo esté en una Ubicación Física que tenga parte del nombre igual. Por ejemplo: Cava% selecciona las OT a Activos cuya Ubicación Física empieza por la palabra Cava, independientemente de si se está hablando de la Cava de Fermentación, Maduración o Contrapresión.
 
-**Acción Técnica:** Filtra las **OTs** Históricas a las cuales se le definió la Acción Técnica seleccionada en esta opción; es posible utilizar comodines.
+**AC-Tipo:** Selecciona las OT Históricas, SS y PA asociados a los Activos que se encuentran asociados al tipo ingresado por el usuario.
 
-**Causa de Cierre:** Permite buscar las **OTs** Históricas que tienen la Causa de Cierre específica, seleccionada en este criterio.
+**3. FILTRAR POR CAMPOS DE LA ORDEN DE TRABAJO**
 
-**Causa de Falla:** Permite buscar las **OTs** Históricas que tienen la Falla específica, seleccionada en este criterio.
+**Acción Técnica:** Filtra las OT Históricas a las cuales se le definió la Acción Técnica seleccionada en esta opción, es posible utilizar comodines (%). Existen dos formas de definir la Acción Técnica de la OT Histórica. La primera es seleccionando la Acción Técnica de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span> para usar  “comodines”, éste se desbloquea  <span class="mdi mdi-lock-open-outline"></span> y se digita a continuación segmentos del nombre de la Acción Técnica utilizando cuando se utilizan comodines, es posible seleccionar OT Histórica cuya Acción Técnica tenga parte del nombre igual.
 
-**Centro de Costo:** Permite la selección de **OTs** Históricas, de acuerdo con el Centro de Costo asignado a ellas. Cuando se utilizan comodines, es posible seleccionar  las  **OTs** Históricas, pertenecientes a Centros de Costo que tengan parte del  nombre  igual. Por ejemplo: Sistema% selecciona todas las **OTs** Históricas en cuyo Centro de Costo tengan
-la palabra sistema, independiente de si se está hablando del Sistema de Agua, de Vapor o de Energía.
+**Causa de Cierre:** Permite buscar las OT Históricas que tienen una Causa de Cierre específica, es posible utilizar comodines. Existen dos formas de definir la Causa de Cierre de la OT Histórica. La primera es seleccionando la Causa de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span>, este se desbloquea <span class="mdi mdi-lock-open-outline"></span> para digitar manualmente digitando a continuación segmentos del nombre de la Causa de Cierre utilizando comodines. Cuando se utilizan comodines (%), es posible seleccionar OT Histórica cuya Causa de Cierre tenga parte del nombre igual.
 
-**Centro responsable:** Agrupa las **OTs** Históricas asociadas al Centro Responsable definido en este criterio.
+**Causa de Pendiente:** Permite buscar las OT Históricas, SS y PA que tienen una Causa pendiente específica. Existen dos formas de definirla. La primera es seleccionando la Causa de Pendiente de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span>, este se desbloquea <span class="mdi mdi-lock-open-outline"></span> y a continuación se digitan segmentos del nombre de la Causa de Pendiente. Cuando se utilizan comodines (%), es posible seleccionar OT, SS y PA cuya Causa de Pendiente tenga parte del nombre igual
 
-**Comentario:** Filtra las **OTs** Históricas que cumplan con la opción de poseer comentario. Este es un campo para ingresar el comentario que se desee buscar
 
-**Contiene Comentario:** Filtra los registros que cumplan con la opción seleccionada **“**Con
-Comentario **”** o **“**Sin Comentario **”**.
+**Causa de Falla:** Permite buscar las OT Históricas, SS y PA que tienen una Causa de Falla específica. Existen dos formas de definir la Causa de Falla de la OT, SS y PA. La primera es seleccionando la Causa de Falla de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span>, este se desbloquea y a continuación se digitan segmentos del nombre de la Causa de Falla. Cuando se utilizan comodines, es posible seleccionar OT, SS y PA cuya Causa de Falla tenga parte del nombre igual.
 
-**Contrato:** Permite filtrar las **OTs** Históricas que estén asociadas al Contrato definido en este criterio.
+**Centro de Costo:** Permite la selección de OT Históricas, SS y PA de acuerdo con el Centro de Costo asignado a ella. Existen dos formas de definir el Centro de Costo. La primera es seleccionando el Centro de Costo de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span>, luego este se desbloquea  <span class="mdi mdi-lock-open-outline"></span> digitando a continuación segmentos del nombre del Centro de Costo. Cuando se utilizan comodines (%), es posible seleccionar las OT Históricas, SS y PA pertenecientes a Centros de Costo que tengan parte del nombre igual. Por ejemplo: Sistema% selecciona todas los registros Históricas, SS y PA en cuyo Centro de Costo exista la palabra Sistema, independiente de si se está hablando del Sistema de Agua, de Vapor o de Energía.
 
-**Criterio de Generación:** Permite visualizar el subconjunto de **OTs** Históricas definidos con el Criterio de Programación **“**X **”**; así que se pueden listar en el visor de Historia, aquellas **OTs**  que  fueron definidos con Criterio de   Programación trimestral, o   mensual,  o  por Contador, o por incremento entre otros.
+**Centro responsable:** Agrupa las OTs Históricas, SS y PA cuyo Centro Responsable sea el seleccionado, es posible utilizar comodines. Existen dos formas de definir el Centro Responsable. La primera es seleccionando el Centro Responsable de la lista desplegable. La segunda es dando clic al icono de candado “Utilizar comodines” y digitando a continuación segmentos del nombre del Centro Responsable utilizando comodines.
 
-**Descripción:** Este opción permite seleccionar las **OTs** Históricas que cumplan con el criterio de selección establecido en este campo, es posible utilizar la funcionalidad de comodines.
+**Contrato:** Permite filtrar las OT Históricas que se encuentren asociadas a un contrato ya definido en la tabla de “CONTRATO” en el módulo de Infraestructura. Existen dos formas de definir el Contrato de la OT Histórica. La primera es seleccionando el Contrato de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span>, este se desbloquea <span class="mdi mdi-lock-open-outline"></span> y digitando a continuación segmentos del nombre del Contrato utilizando comodines (%). Cuando se utilizan comodines, es posible seleccionar OT Histórica cuyo Contrato tenga parte del nombre igual.
 
-**Efecto de Falla:** Este campo permite seleccionar las **OTs** Históricas que posean  una causa de falla específica.
+**Criterio de Generación:** Permite seleccionar el subconjunto de OT Históricas generadas desde PM, bajo el Criterio de Programación “XX” seleccionado. Es posible utilizar comodines (%). Los criterios son:
 
-**Estado General:** Permite seleccionar las **OTs** Históricas de acuerdo con su estado de cierre: **“**Cerradas **”** que fueron normalmente ejecutadas o  **“**Canceladas **”**.
+| **Abreviatura** | **Significado**         |
+| --------------- | ----------------------- |
+| **MM**          | Mensual                 |
+| **SS**          | Semanal                 |
+| **SM**          | Semestral               |
+| **AN**          | Anual                   |
+| **DD**          | Días (Mín. 3)           |
+| **SA**          | Semanas del año         |
+| **+M**          | Meses (mas de uno)      |
+| **+S**          | Semanas (mas de una)    |
+| **KI**          | Contador por Incremento |
+| **KL**          | Contador por Límite     |
+| **FK**          | Frecuencia y Contador   |
+| **TM**          | Trimestral              |
+| **+K**          | Contador (mas de uno)   |
+| **??**          | Sin Criterio            |
 
-**Estado Particular:** Permite seleccionar las **OTs** Históricas de acuerdo con su estado.  Al descolgar aparece el listado de todos los estados posibles para una Orden de  Trabajo Histórica.
+**Descripción:** Esta opción permite seleccionar las OT Históricas, SS y PA que cumplan con el criterio de selección establecido en este campo, es posible utilizar la funcionalidad de comodines (%).
+
+**Efecto de Falla:** Este campo permite seleccionar las OT Históricas que posean una causa de falla específica, es posible utilizar comodines. Existen dos formas de definir el Efecto de Falla de la OT Histórica. La primera es seleccionando el Efecto de Falla de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span> este se desbloquea <span class="mdi mdi-lock-open-outline"></span> y permite digitar a continuación segmentos del nombre del Efecto de Falla. Se puede usar comodines (%).
+
+**Estado General:** Estado General: Permite seleccionar las OT Históricas de acuerdo con su estado de cierre: “Cerradas” que fueron normalmente ejecutadas o “Canceladas”.
+
+**Estado Particular:** Permite seleccionar las OT Históricas, SS y PA de acuerdo con su estado. Al descolgar aparece el listado de todos los estados posibles para una OT Histórica, SS y PA.
 
 **Fecha de Cierre:** Este criterio filtra las Órdenes de Trabajo Históricas por un rango de la Fecha de Cierre. Aparecen dos campos: Desde y Hasta. En cada uno de ellos se digita una fecha. De no digitar el campo **“**Desde **”**, se buscan las Órdenes de Trabajo Históricas cuya fecha de cierre esté en el lapso anterior a la fecha digitada en **“**Hasta **”**. De no digitar
 el campo **“**Hasta **”**, se buscan las **OTs** Históricas cuya fecha de cierre esté en un lapso posterior a la digitada en **“**Desde **”**.
