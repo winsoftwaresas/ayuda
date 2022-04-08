@@ -218,10 +218,11 @@ AC-Número Activo Fijo: Este campo preselecciona las Órdenes de Trabajo Histór
 
 **Estado General:** Permite seleccionar las OT Históricas de acuerdo con su estado de cierre: “Cerradas” que fueron normalmente ejecutadas o “Canceladas”..
 
-**Estado Particular:** Permite seleccionar las OT Históricas, SS y PA de acuerdo con su estado. Al descolgar aparece el listado de todos los estados posibles para una OT Histórica, SS y PA.
+**Estado Particular:** Permite seleccionar las OT Históricas, SS y PA de acuerdo con su estado. Al descolgar aparece el listado de todos los estados posibles para una Orden de Trabajo Histórica, SS y PA.
 
-**Fecha de Cierre:** Este criterio filtra las Órdenes de Trabajo Históricas por un rango de la Fecha de Cierre. Aparecen dos campos: Desde y Hasta. En cada uno de ellos se digita una fecha. De no digitar el campo **“**Desde **”**, se buscan las Órdenes de Trabajo Históricas cuya fecha de cierre esté en el lapso anterior a la fecha digitada en **“**Hasta **”**. De no digitar
-el campo **“**Hasta **”**, se buscan las **OTs** Históricas cuya fecha de cierre esté en un lapso posterior a la digitada en **“**Desde **”**.
+**Comentarios:**  Filtra los registros que coincidan con el comentario aquí en este campo. 
+
+**FF de Cierre:** Este criterio filtra las Órdenes de Trabajo Históricas por un rango de la Fecha de Cierre. Aparecen dos campos: Desde y Hasta. En cada uno de ellos se digita una fecha. De no digitar el campo “Desde”, se buscan las Órdenes de Trabajo Históricas cuya fecha de cierre esté en el lapso anterior a la fecha digitada en “Hasta”. De no digitar el campo “Hasta”, se buscan las OT Históricas cuya fecha de cierre esté en un lapso posterior a la digitada en “Desde”.
 
 Fecha de Consumo Materiales: Este criterio filtra las Órdenes de Trabajo Históricas por un rango de la Fecha de consumo de materiales en el Gasto Real de la **OT**.  Aparecen dos campos: Desde y Hasta. En cada uno de ellos se digita una fecha. De no digitar el campo **“**Desde **”**, se buscan las Órdenes de Trabajo cuya fecha de consumo de materiales esté en el lapso anterior a la fecha digitada en **“**Hasta **”**. De no digitar el campo **“**Hasta **”**, se buscan las **OTs** cuya fecha de consumo de materiales esté en un lapso posterior a la digitada en **“**Desde **”**.
 
