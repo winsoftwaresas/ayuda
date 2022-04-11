@@ -270,7 +270,7 @@ AC-Número Activo Fijo: Este campo preselecciona las Órdenes de Trabajo Histór
 
 **Tipo de Mantenimiento:** Filtra las OT Históricas, SS y PA por el Tipo de Mantenimiento elegido de la lista desplegable. Al activar ésta opción se activan las siguientes opciones: Correctivo, Preventivo, Preventivo Manual, Predictivo, Metrología, Inspección, Lubricación, Otro-Mantto y Otro.
 
-**Tipo de Trabajo:** Agrupa las **OTs** Históricas de acuerdo al tipo de trabajo que realizaron. Utilizando la opción **“**Individualizar **”** es posible filtrar las Órdenes de  Trabajo que tienen uno y solo un tipo de trabajo. De no activar la opción **“**Individualizar **”**, se buscan las **OTs** Históricas, que tengan el tipo de trabajo seleccionado, sin importar si tienen otros tipos de trabajo activos.
+**Tipo de Trabajo:** Agrupa las OT Históricas, SS y PA de acuerdo al TT seleccionado, sin importar si tienen otros tipos de trabajo activos. 
 
 **Ubicación Física:** Permite la selección de las **OTs** Históricas cuyo equipo se encontraba en una ubicación física, determinada en este criterio. Cuando se utilizan comodines, es posible seleccionar **OTs** Históricas cuyo equipo esté en una ubicación física que tenga parte del nombre igual. Por ejemplo: Cava% selecciona las **OTs** Históricas, efectuadas a Equipos	cuyo 	nombre 	de 	Ubicación	Física	empieza 	por 	la 	palabra 	cava, independientemente de si se  está hablando de la cava de fermentación, maduración o contrapresión.
 
