@@ -246,21 +246,21 @@ AC-Número Activo Fijo: Este campo preselecciona las Órdenes de Trabajo Histór
 
 **Gasto Real Otros Conceptos:** Al seleccionar esta opción se habilita una lista despegable donde se escoge el criterio deseado, junto con un cuadro donde se digita el valor de comparación. Los criterios son: Igual (=), Mayor (>) y Menor (<). Estos criterios actúan en comparación con el valor digitado en la casilla que se activa al lado del operador aritmético. Ejemplo: si se escoge el criterio Mayor (>) y la cantidad es 100.000, eso significa que filtrara todas las OT Históricas cuyo Gasto Real en Otros Conceptos de Costo sea Mayor a Cien Mil Pesos o unidades monetarias.
 
-**Responsable por la Institución:** Filtra las OT relacionadas al Responsable por la Institución. 
+**Responsable por la Institución:** Filtra las OT Históricas de acuerdo al Responsable por Institución o la persona que recibe a satisfación. Existen dos formas de buscar el Responsable. La primera es seleccionándolo de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span> el cual se desactiva <span class="mdi mdi-lock-open-outline"></span> permitiendo digitar segmentos del nombre del Responsable, en el cual también es posible usar comodines (%). Cuando se utilizan comodines, es posible seleccionar las OT cuyo Responsable tenga una parte del nombre igual.
 
-**Número de la OT:** Permite filtrar **OTs** Históricas, con base en su número consecutivo. Para ello se define en el  criterio un rango.   Aparecen cuatro  campos,  para ubicar el comienzo  del  rango   **“**Desde **”**  (Año-Consecutivo)  y  el  fin   del  rango  **“**Hasta **”**  (Año- Consecutivo).   De no digitar los campos **“**Desde **”**, se  buscan las **OTs** Históricas cuyo número es inferior al digitado en **“**Hasta **”**. De no digitar los campos **“**Hasta **”**, se buscan las **OTs** Históricas cuyo número es posterior al digitado en **“**Desde **”**.
+**Número de la OT:** Permite filtrar OT Históricas, con base en su número consecutivo. Para ello se define en el criterio un rango. Aparecen cuatro campos, para ubicar el comienzo del rango “Desde” (Año-Consecutivo) y el fin del rango “Hasta” (Año- Consecutivo). De no digitar los campos “Desde”, se buscan las OT Históricas cuyo número es inferior al digitado en “Hasta”. De no digitar los campos “Hasta”, se buscan las OT Históricas cuyo número es posterior al digitado en “Desde”.
 
-**Prioridad:** Permite hacer subgrupo de **OTs** Históricas, cuya prioridad es la seleccionada en este criterio.
+**Prioridad:** Permite hacer subgrupo de OT Históricas, cuya prioridad es la seleccionada en este criterio, habilitándose una lista despegable desde el nivel 1 hasta el nivel 7.
 
-**Referencia:** Esta opción permite seleccionar las **OTs** Históricas que tienen asociado el valor seleccionado, en el campo Referencia. Es posible utilizar comodines.
+**Referencia:** Esta opción permite seleccionar las OT Históricas que tienen asociado el valor seleccionado, en el campo Referencia. Es posible utilizar comodines (%).
 
 **Repuesto:** Selecciona las **OTs** Históricas en las que se realizaron consumos del Repuesto seleccionado. En esta opción se puede utilizar comodines.
 
-**Responsable:** Selecciona las **OTs** Históricas de acuerdo al Responsable de la Orden de
-Trabajo.
+**Responsable:** Filtra las SS, PA y OT Históricas de acuerdo al Responsable ejecutor. Existen dos formas de buscar el Responsable. La primera es seleccionándolo de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span> el cual se desactiva <span class="mdi mdi-lock-open-outline"></span> permitiendo digitar segmentos del nombre del Responsable. En este campo también es posible usar comodines (%), es posible seleccionar las OT cuyo Responsable ejecutor tenga una parte del nombre igual.
 
-**Responsable en Gasto Real:** Permite la preselección de las **OTs** Históricas cuyo
-Responsable está definido en la mano de obra del gasto real.
+**Responsable en Gasto Real:** Permite filtrar las OT Históricas cuyo Responsable ejecutor en Gasto Real está definido en la Mano de Obra del Gasto Real. Existen dos formas de buscar el Responsable. La primera es seleccionándolo de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span> el cual se desactiva <span class="mdi mdi-lock-open-outline"></span> permitiendo digitar segmentos del nombre del Responsable. En este campo también es posible usar comodines (%), es posible seleccionar las OT cuyo Responsable definido en el Gasto Real, tenga una parte del nombre igual.
+
+**RP-Código:** Filtra las OT Históricas cuyo Repuesto fue asociado en el Gasto Real en
 
 **Solicitante (Digitado Manualmente):** Permite la preselección de las **OTs** Históricas cuyo Solicitante fue especificado manualmente, y coincide con el definido en este campo. Se pueden utilizar los comodines.
 
