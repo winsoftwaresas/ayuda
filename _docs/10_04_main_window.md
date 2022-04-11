@@ -272,7 +272,7 @@ AC-Número Activo Fijo: Este campo preselecciona las Órdenes de Trabajo Histór
 
 **Tipo de Trabajo:** Agrupa las OT Históricas, SS y PA de acuerdo al TT seleccionado, sin importar si tienen otros tipos de trabajo activos. Incluso, es posible seleccionarlos todos al mismo tiempo.
 
-**Ubicación Física:** Permite la selección de las **OTs** Históricas cuyo equipo se encontraba en una ubicación física, determinada en este criterio. Cuando se utilizan comodines, es posible seleccionar **OTs** Históricas cuyo equipo esté en una ubicación física que tenga parte del nombre igual. Por ejemplo: Cava% selecciona las **OTs** Históricas, efectuadas a Equipos	cuyo 	nombre 	de 	Ubicación	Física	empieza 	por 	la 	palabra 	cava, independientemente de si se  está hablando de la cava de fermentación, maduración o contrapresión.
+**Ubicación Física:** Permite la selección de las OT Históricas, SS y PA cuyo Activo esté en la ubicación física que se determina en este criterio. Existen dos formas de filtrar la Ubicación Física. La primera es seleccionando la Ubicación Física de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span> el cual se desactiva <span class="mdi mdi-lock-open-outline"></span> y permite digitar a continuación segmentos del nombre de la Ubicación Física. Es posible utilizar comodines (%) y seleccionar OT cuyo Activo esté en una Ubicación Física que tenga parte del nombre igual. Por ejemplo: Cava% selecciona los registros cuya Ubicación Física empieza por la palabra Cava, independientemente de si se está hablando de la Cava de Fermentación, Maduración o Contrapresión.
 
 **4. FILTRAR POR CAMPOS PARTICULARES DE P AROS**
 
