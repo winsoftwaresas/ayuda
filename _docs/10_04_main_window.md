@@ -266,10 +266,9 @@ AC-Número Activo Fijo: Este campo preselecciona las Órdenes de Trabajo Histór
 
 **Solicitante (Incluido en terceros - Tipo RI):** Permite la preselección de las OT Históricas, SS y PA cuyo Solicitante fue seleccionado de la tabla de terceros (como RI) y coincide con el definido en este criterio. Existen dos formas de definir el Solicitante de la OT, SS y PA. La primera es seleccionando el Solicitante de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-filter-variant"></span> y digitando a continuación segmentos del nombre del Solicitante utilizando comodines (%). Cuando se utilizan comodines, es posible seleccionar OT Histórica, SS y PA cuyo Solicitante tenga parte del nombre igual.
 
-**Tipo de Actividad:** Filtra las **OTs** Históricas por Tipo de Actividad.
+**Tipo de Actividad:** Filtra las OT Históricas, SS y PA por Tipo de Actividad. Existen dos formas de definir el Tipo de Actividad de la OT Histórica, SS y PA. La primera es seleccionando el Tipo de Actividad de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-filter-variant"></span> y digitando a continuación segmentos del nombre del Tipo de Actividad utilizando comodines (%). Cuando se utilizan comodines, es posible seleccionar OT Histórica, SS y PA cuyo Tipo de Actividad tenga parte del nombre igual.
 
-**Tipo de Mantenimiento:** Filtra las Órdenes de Trabajo Históricas por Tipo de
-Mantenimiento.
+**Tipo de Mantenimiento:** Filtra las OT Históricas, SS y PA por el Tipo de Mantenimiento elegido de la lista desplegable. Al activar ésta opción se activan las siguientes opciones: Correctivo, Preventivo, Preventivo Manual, Predictivo, Metrología, Inspección, Lubricación, Otro-Mantto y Otro.
 
 **Tipo de Trabajo:** Agrupa las **OTs** Históricas de acuerdo al tipo de trabajo que realizaron. Utilizando la opción **“**Individualizar **”** es posible filtrar las Órdenes de  Trabajo que tienen uno y solo un tipo de trabajo. De no activar la opción **“**Individualizar **”**, se buscan las **OTs** Históricas, que tengan el tipo de trabajo seleccionado, sin importar si tienen otros tipos de trabajo activos.
 
