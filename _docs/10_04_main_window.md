@@ -300,13 +300,12 @@ _**Imagen 149.** Historia - Acciones Técnicas de una OT_
 
 ### Seguimiento o Cierre
 
-En la que contiene la Ventana de Información de Cierre, se aprecian sus componentes y sus respectivos contenidos. A través de ella se realizó el proceso de cierre de la Orden de Trabajo, en el módulo de Órdenes de Trabajo.  En esta ventana, en Historia de mantenimiento, la única opción permitida es la de modificar, ello bajo las condiciones
-de autorización que son exigidas. De tener la autorización para hacerlo, se modifica el o
-los campos requeridos y se concluye la operación con un clic  en el botón <a class="btn">Actualizar </a>.
+A esta opción se llega sobreponiendo el cursor sobre el módulo de Historia donde se despliega un submenú de transacciones disponibles y luego se da clic en “Seguimiento o Cierre”.
 
-!![Seguimiento o Cierre](0.images/cap11/chp11_img05.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img06.png)
+_**Imagen 149.** Historia - Ir a Seguimiento y Cierre_
 
-A continuación se describen los campos que componen esta ventana.
+
 
 **Cuadro Identificación:** Aparece con los campos bloqueados para que el usuario visualice la información básica de la **OT**.
 
