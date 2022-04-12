@@ -8,14 +8,14 @@ date: 2022-03-28T20:34:50.748Z
 ---
 # Ventana Principal de Historia de Mantenimiento
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp010_img01.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img01.png)
 _**Imagen 145.** Historia - Ventana Visor_
 
 A esta ventana se llega haciendo clic sobre la opción Historia del Menú Principal. A través de ella se ejecutan todas las funciones dedicadas a administrar la Historia de Mantenimiento. A continuación se ilustran las porciones que la componen.
 
 ## Ventana Visor
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp010_img02.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img02.png)
 ***Imagen 146.** Historia - Ventana Visor*
 
 Se accede directamente desde la ventana principal de Historia de Mantenimiento.
@@ -28,7 +28,7 @@ Los títulos en azul que encabezan las columnas son también botones que permite
 
 ## Ventana Detalle
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp010_img03.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img03.png)
 _**Imagen 147.** Historia - Ventana Detalle_
 
 En la gráfica anterior, Ventana Detalle de Órdenes Históricas, se aprecian sus componentes y sus respectivos contenidos. En esta ventana se encuentra la información relevante a la OT histórica seleccionada en el Visor. A través de ella se administran los datos genéricos y también es posible modificar la información de una OT Histórica. Por supuesto que, para ello se requieren permisos especiales, que pueden ser proporcionados por el Administrador.
@@ -126,7 +126,7 @@ Cuando se genera la OT, como comentarios a priori, para especificar referencias 
 
 Se usa para seleccionar grupos de Órdenes de Trabajo Históricas, Solicitudes de Servicio y Paros que cumplen con un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al icono de filtro azul <span class="mdi mdi-filter-variant"></span>, ubicado en la parte superior derecha de la ventana Visor de Historia.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp010_img04.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img04.png)
 ***Imagen 148.** Historia - Ventana Detalle Subgrupos*
 
 Cada criterio trabaja en conjunto con los demás, con el operador intersección.
