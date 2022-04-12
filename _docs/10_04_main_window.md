@@ -9,20 +9,18 @@ date: 2022-03-28T20:34:50.748Z
 # Ventana Principal de Historia de Mantenimiento
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp010_img01.png)
-_**Imagen 145.** Historia - Ventana Visor_
+***Imagen 145.** Historia - Ventana Visor*
 
 A esta ventana se llega haciendo clic sobre la opción Historia del Menú Principal. A través de ella se ejecutan todas las funciones dedicadas a administrar la Historia de Mantenimiento. A continuación se ilustran las porciones que la componen.
 
 ## Ventana Visor
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp010_img02.png)
-_**Imagen 146.** Historia - Ventana Visor_
+***Imagen 146.** Historia - Ventana Visor*
 
 Se accede directamente desde la ventana principal de Historia de Mantenimiento.
 
-
 Desde esta ventana es posible observar la Historia de Mantenimiento activa, existente o un subconjunto de ellas (efectuado a través de un subgrupo). El conjunto de Órdenes de Trabajo Históricas disponible a ser desplegado se muestra a través de páginas. El tamaño de las páginas es configurable desde la opción Administración del menú principal, en la sección “Valores por Defecto” por parte de un usuario autorizado.
-
 
 Al hacer clic sobre alguna de las Órdenes de Trabajo Históricas del Visor el sistema responde mostrando la información de esa OT, en forma detallada, en una ventana llamada Ventana Detalle.
 
@@ -31,7 +29,7 @@ Los títulos en azul que encabezan las columnas son también botones que permite
 ## Ventana Detalle
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp010_img03.png)
-_**Imagen 147.** Historia - Ventana Visor_
+***Imagen 147.** Historia - Ventana Visor*
 
 En la gráfica anterior, Ventana Detalle de Órdenes Históricas, se aprecian sus componentes y sus respectivos contenidos. En esta ventana se encuentra la información relevante a la OT histórica seleccionada en el Visor. A través de ella se administran los datos genéricos y también es posible modificar la información de una OT Histórica. Por supuesto que, para ello se requieren permisos especiales, que pueden ser proporcionados por el Administrador.
 
@@ -107,8 +105,8 @@ A continuación, se describen los campos que componen esta ventana Detalle de Ó
 
 **Control Presupuestal:** Esta opción permite definir si la OT maneja Presupuesto. Para las OT Programadas, esta opción siempre está seleccionada, pero aparece protegida, ya que toda OT Programada conlleva el Presupuesto Aprobado.
 
-
-Para las OT Manuales, esta opción se establece en el momento de creación de la misma. Esta elección se debe marcar antes de darle clic al botón “Insertar”, de otra forma, **AM** asume que la OT no va a requerir Control Presupuestal y la posibilidad de hacer la marcación se inactiva en el acto. Cuando una OT Manual exige control presupuestal, y el presupuesto no ha sido aprobado, no es posible registrar ni modificar el Gasto Real en ella.
+Para las OT Manuales, esta opción se establece en el momento de creación de la misma. Esta elección se debe marcar antes de darle clic al botón “Insertar”, de otra forma, **AM** asume que la OT no va a requerir Control Presupuestal y la posibilidad de hacer la marcación se inactiva en el acto.
+ Cuando una OT Manual exige control presupuestal, y el presupuesto no ha sido aprobado, no es posible registrar ni modificar el Gasto Real en ella.
 
 Para las OT Manuales, esta  opción se establece en el momento de creación de la misma. Esta elección se debe marcar antes de darle clic al botón <a class="btn white">insertar</a>, de otra forma, **AM** asume que la OT no va a requerir Control Presupuestal y la posibilidad de hacer la marcación se inactiva en el acto.
 
@@ -116,9 +114,7 @@ Cuando una OT Manual exige control presupuestal, y el presupuesto no ha sido apr
 
 **Comentarios:** Esta opción se usa para ingresar los nuevos comentarios referentes a toda la ejecución de la OT. Al dar clic al botón <a class="btn gray">Agregar comentario</a> aparecerá el comentario ingresado al lado derecho en una ventana tipo chat bloqueada y a su vez inhabilita la modificación de los comentarios que allí se encuentren; además de la fecha, hora y el usuario logueado que realizó el comentario.
 
-
 Este espacio de comentarios sirve para dos efectos:
-
 
 Cuando se genera la OT, como comentarios a priori, para especificar referencias importantes o ayudas previstas y necesarias en la ejecución posterior de la OT: planos, manuales técnicos, manuales de normas técnicas de Mantenimiento o de especificaciones detalladas; normas de seguridad o enfoques de acción. Sin embargo, en la gran mayoría de los casos se utiliza la pestaña Multimedia para registrar estos datos. Cuando ha concluido la ejecución de la OT, es posible utilizarlo para registrar hechos interesantes acerca de la misma ejecución, como el estado del equipo antes de la intervención, detalles de la intervención, estado del mismo equipo después de ella, recomendaciones a los usuarios del equipo, recomendaciones a las personas de mantenimiento y otros conceptos interesantes a juicio de los ejecutantes.
 
@@ -131,20 +127,18 @@ Cuando se genera la OT, como comentarios a priori, para especificar referencias 
 Se usa para seleccionar grupos de Órdenes de Trabajo Históricas, Solicitudes de Servicio y Paros que cumplen con un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al icono de filtro azul <span class="mdi mdi-filter-variant"></span>, ubicado en la parte superior derecha de la ventana Visor de Historia.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp010_img04.png)
-_**Imagen 148.** Historia - Ir Subgrupos_
+***Imagen 148.** Historia - Ir Subgrupos*
 
 Cada criterio trabaja en conjunto con los demás, con el operador intersección.
 
 Cada criterio aparece inicializado en un valor global que permite mostrar todas las Órdenes de Trabajo Históricas, Solicitudes de Servicio y Paros. Lo que significa que de no escoger un criterio se obtiene como resultado del subgrupo, el mismo conjunto completo de todas las OT Históricas, SS y PA.
 
-
 **AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar.
-
 
 El programa permite entonces hacer selección de un grupo de cualquier tipo de los tres registros mencionados de acuerdo con los criterios seleccionados en la siguiente ventana.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp010_img05.png)
-_**Imagen 149.** Historia - Ir Subgrupos_
+***Imagen 149.** Historia - Ir Subgrupos*
 
 Los campos de datos que constituyen criterio de selección en la Ventana Subgrupo de OT Históricas, SS y PA, son los siguientes:
 
@@ -184,7 +178,6 @@ AC-Número Activo Fijo: Este campo preselecciona las Órdenes de Trabajo Histór
 
 **Causa de Pendiente:** Permite buscar las OT Históricas, SS y PA que tienen una Causa pendiente específica. Existen dos formas de definirla. La primera es seleccionando la Causa de Pendiente de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span>, este se desbloquea <span class="mdi mdi-lock-open-outline"></span> y a continuación se digitan segmentos del nombre de la Causa de Pendiente. Cuando se utilizan comodines (%), es posible seleccionar OT, SS y PA cuya Causa de Pendiente tenga parte del nombre igual
 
-
 **Causa de Falla:** Permite buscar las OT Históricas, SS y PA que tienen una Causa de Falla específica. Existen dos formas de definir la Causa de Falla de la OT, SS y PA. La primera es seleccionando la Causa de Falla de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span>, este se desbloquea y a continuación se digitan segmentos del nombre de la Causa de Falla. Cuando se utilizan comodines, es posible seleccionar OT, SS y PA cuya Causa de Falla tenga parte del nombre igual.
 
 **Centro de Costo:** Permite la selección de OT Históricas, SS y PA de acuerdo con el Centro de Costo asignado a ella. Existen dos formas de definir el Centro de Costo. La primera es seleccionando el Centro de Costo de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span>, luego este se desbloquea  <span class="mdi mdi-lock-open-outline"></span> digitando a continuación segmentos del nombre del Centro de Costo. Cuando se utilizan comodines (%), es posible seleccionar las OT Históricas, SS y PA pertenecientes a Centros de Costo que tengan parte del nombre igual. Por ejemplo: Sistema% selecciona todas los registros Históricas, SS y PA en cuyo Centro de Costo exista la palabra Sistema, independiente de si se está hablando del Sistema de Agua, de Vapor o de Energía.
@@ -214,7 +207,8 @@ AC-Número Activo Fijo: Este campo preselecciona las Órdenes de Trabajo Histór
 
 **Descripción:** Esta opción permite seleccionar las OT Históricas, SS y PA que cumplan con el criterio de selección establecido en este campo, es posible utilizar la funcionalidad de comodines (%).
 
-**Efecto de Falla:** Este campo permite seleccionar las OT Históricas que posean una causa de falla específica, es posible utilizar comodines. Existen dos formas de definir el Efecto de Falla de la OT Histórica. La primera es seleccionando el Efecto de Falla de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span> este se desbloquea <span class="mdi mdi-lock-open-outline"></span> y permite digitar a continuación segmentos del nombre del Efecto de Falla. Se puede usar comodines (%).
+**Efecto de Falla:** Este campo permite seleccionar las OT Históricas que posean una causa de falla específica, es posible utilizar comodines. Existen dos formas de definir el Efecto de Falla de la OT Histórica. La primera es seleccionando el Efecto de Falla de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span>
+ este se desbloquea <span class="mdi mdi-lock-open-outline"></span> y permite digitar a continuación segmentos del nombre del Efecto de Falla. Se puede usar comodines (%).
 
 **Estado General:** Permite seleccionar las OT Históricas de acuerdo con su estado de cierre: “Cerradas” que fueron normalmente ejecutadas o “Canceladas”..
 
@@ -234,7 +228,8 @@ AC-Número Activo Fijo: Este campo preselecciona las Órdenes de Trabajo Histór
 
 **FF Inicio de Trabajo:** Este criterio filtra los registros Históricos por un rango de la Fecha de Inicio de Trabajos. Aparecen dos campos: Desde y Hasta. En cada uno de ellos se digita una fecha. De no digitar el campo “Desde”, se buscan las Órdenes de Trabajo Históricas cuya fecha de inicio esté en el lapso anterior a la fecha digitada en “Hasta”. De no digitar el campo “Hasta”, se buscan los registros cuya fecha de inicio esté en un lapso posterior a la digitada en “Desde”.
 
-**FF Fin de Trabajo:** Este criterio filtra los registros Históricos por un rango de la Fecha de Fin de Trabajos. Aparecen dos campos: Desde y Hasta. En cada uno de ellos se digita una fecha. De no digitar el campo “Desde”, se buscan los registros cuya fecha de fin de trabajos esté en el lapso anterior a la fecha digitada en “Hasta”. De no digitar el campo “Hasta”, se buscan las OT Históricas cuya fecha de fin de trabajos esté en un lapso posterior a la digitada en “Desde”.
+**FF Fin de Trabajo:** Este criterio filtra los registros Históricos por un rango de la Fecha de Fin de Trabajos. Aparecen dos campos: Desde y Hasta. En cada uno de ellos se digita una fecha. De no digitar el campo “Desde”, se buscan los registros cuya fecha de fin de trabajos esté en el lapso anterior a la fecha digitada en “Hasta”. De no digitar el campo “Hasta”, se buscan las OT Históricas cuya fecha de fin de trabajos esté
+ en un lapso posterior a la digitada en “Desde”.
 
 **Fecha de Creación:** Este criterio filtra los registros Históricos por rango en la fecha de su creación. Aparecen dos campos: Desde y Hasta. En cada uno de ellos se digita una fecha. De no digitar el campo “Desde”, se buscan las Órdenes de Trabajo Históricas cuya fecha programada esté en el lapso anterior a la fecha digitada en “Hasta”. De no digitar el campo “Hasta”, se buscan los registros cuya fecha de creación esté en un lapso posterior a la digitada en “Desde”.
 
@@ -272,25 +267,25 @@ AC-Número Activo Fijo: Este campo preselecciona las Órdenes de Trabajo Histór
 
 **Tipo de Trabajo:** Agrupa las OT Históricas, SS y PA de acuerdo al TT seleccionado, sin importar si tienen otros tipos de trabajo activos. Incluso, es posible seleccionarlos todos al mismo tiempo.
 
-**Ubicación Física:** Permite la selección de las OT Históricas, SS y PA cuyo Activo esté en la ubicación física que se determina en este criterio. Existen dos formas de filtrar la Ubicación Física. La primera es seleccionando la Ubicación Física de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span> el cual se desactiva <span class="mdi mdi-lock-open-outline"></span> y permite digitar a continuación segmentos del nombre de la Ubicación Física. Es posible utilizar comodines (%) y seleccionar OT cuyo Activo esté en una Ubicación Física que tenga parte del nombre igual. Por ejemplo: Cava% selecciona los registros cuya Ubicación Física empieza por la palabra Cava, independientemente de si se está hablando de la Cava de Fermentación, Maduración o Contrapresión.
+**Ubicación Física:** Permite la selección de las OT Históricas, SS y PA cuyo Activo esté en la ubicación física que se determina en este criterio. Existen dos formas de filtrar la Ubicación Física. La primera es seleccionando la Ubicación Física de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span>
+ el cual se desactiva <span class="mdi mdi-lock-open-outline"></span> y permite digitar a continuación segmentos del nombre de la Ubicación Física. Es posible utilizar comodines (%) y seleccionar OT cuyo Activo esté en una Ubicación Física que tenga parte del nombre igual. Por ejemplo: Cava% selecciona los registros cuya Ubicación Física empieza por la palabra Cava, independientemente de si se está hablando de la Cava de Fermentación, Maduración o Contrapresión.
 
-**4. FILTRAR POR CAMPOS PARTICULARES DE P AROS**
+**4. FILTRAR POR CAMPOS PARTICULARES DE PAROS**
 
-**Turno:** Permite la selección de los PAs Históricos cuyo turno laboral indique en el cual se produjo el paro. Se puede elegir entre los turnos 1, 2, 3 y 4.
+**Turno:** Permite filtrar de los PA Históricos cuyo turno laboral indique en el cual se produjo el paro. Se puede elegir entre los turnos 1, 2, 3 y 4.
 
-**Módulo:** Permite la selección de  los  PAs Históricos, cuyo campo tenga  definido información documental, variable, según las necesidades propias de la Organización.
+**Módulo:** Permite filtrar de los PA Históricos, cuyo campo tenga  definido información documental, variable, según las necesidades propias de la Organización.
 
-**Operación Actual:** Permite la selección de los PAs Históricos cuya operación actual fue la que se registró en el momento en que se produjo el PA.
+**Operación:** Permite filtrar de los PA Históricos cuya operación  fue la que se registró en el momento en que se produjo el fallo, daño o avería.
 
-**Operación Anterior:** Permite la selección de los PAs Históricos cuya operación anterior fue la que se registró en el momento anterior en que se produjera el PA.
+**Operador:** Permite filtrar de los PA Históricos cuyo operario de mantenimiento corresponde al que está registrado en la tabla de  Terceros del módulo de  Infraestructura. La selección del operario también se puede realizar utilizando los comodines (%).
 
-**Operador:** Permite la selección de los PAs Históricos cuyo operario corresponde al  que está registrado en  la  tabla de  Terceros del módulo de  Infraestructura, cuando  estaba operando el equipo en el momento que se produjo el PA. La selección del operario también se puede realizar utilizando los comodines.
+**Referencia:** Permite filtrar los PA Históricos que tengan registrada la referencia elegida. En este campo se pueden utilizar los comodines.
 
-**Referencia:** Permite la selección de los PAs Históricos que tengan registrada la referencia elegida.  En este campo se pueden utilizar los comodines.
+**Restricción:** Permite la selección de los PA Históricos que hayan sido o no restrictivo en el momento en que se presentó el fallo del 
+Activo/Equipo.
 
-**Restricción:** Permite la selección de los PAs Históricos que hayan sido o no restrictivo en el momento en que se presentó el fallo del equipo.
-
-**5. FILTRAR POR C AMPOS PARTICULARES DE SOLICITUDES DE SERVICIO**
+**5. FILTRAR POR CAMPOS PARTICULARES DE SOLICITUDES DE SERVICIO**
 
 **Estado:** Permite seleccionar las SS Históricas de acuerdo con su estado de cierre: **“**Cerrada no ejecutada **”**, **“**Cerrada ejecutada **”** o **“** Cerrada con **OT** **”**.
 
@@ -336,10 +331,10 @@ Por ejemplo, si una **OT** histórica, que fue correctiva, tiene como fecha de I
 Estado de la **OT**: Una Orden de Trabajo Histórica puede tener uno de los siguientes
 Estados:
 
-| ABREVIATURA  | SIGNIFICADO |
-| ------------ | ----------- |
-| **C:** | Cerrada     |
-| **K:** | Cancelada   |
+| ABREVIATURA | SIGNIFICADO |
+| ----------- | ----------- |
+| **C:**      | Cerrada     |
+| **K:**      | Cancelada   |
 
 **Causa de Cierre:** Por defecto, cuando se trata de una **OT** cerrada y ejecutada, el sistema ubica en este campo la causa **“**OT Ejecutada **”**. Si la **OT** se ha cerrado con un Estado de **“**K: Cancelada **”**, en este campo se definió la Causa respectiva.
 
@@ -418,7 +413,7 @@ Tipo de trabajo: Este campo muestra el Tipo de Trabajo para el cual se cargó el
 
 **Cantidad:** Es la cantidad utilizada, del repuesto seleccionado.
 
-Valor Unitario: Es el valor unitario del repuesto tal y como fue cargado por  **– AM 4G **.
+Valor Unitario: Es el valor unitario del repuesto tal y como fue cargado por  **– AM 4G** .
 
 **Ingresar Otros Conceptos**
 
@@ -532,18 +527,18 @@ Un Balance Periódico de Gestión de Mantenimiento debe conformarse, al menos, p
 
 **Reportes de costos, tiempos y número de actividades del período:**
 
-- Gerencial por Centro de Costo, discriminando Mano de Obra, Materiales y Repuestos  y  Otros  Conceptos.  Debería  ser  enviado   al   Gerente  de Producción y a la Gerencia de Planta.
-- Detallado a nivel de Orden de Trabajo, también por Centro de  Costo  y discriminado  por  los  mismos  conceptos.  Tendría  como  destino  cada Centro de Costo **“**cliente **”** de Mantenimiento, aprovechando la facilidad que suministra al estar clasificado por Centro de Costo.
+* Gerencial por Centro de Costo, discriminando Mano de Obra, Materiales y Repuestos  y  Otros  Conceptos.  Debería  ser  enviado   al   Gerente  de Producción y a la Gerencia de Planta.
+* Detallado a nivel de Orden de Trabajo, también por Centro de  Costo  y discriminado  por  los  mismos  conceptos.  Tendría  como  destino  cada Centro de Costo **“**cliente **”** de Mantenimiento, aprovechando la facilidad que suministra al estar clasificado por Centro de Costo.
 
 **Reportes para Mantenimiento y Almacén:**
 
-- Discriminación de Costos por Tipo de Mantenimiento y Tipo de Trabajo
-- Reportes sobre análisis de fallas: Pareto por mayor número de actividades, habiendo preseleccionado del movimiento del  período sólo lo que corresponde a actividades correctivas.
-- Listado de consumos de Repuestos del período.
+* Discriminación de Costos por Tipo de Mantenimiento y Tipo de Trabajo
+* Reportes sobre análisis de fallas: Pareto por mayor número de actividades, habiendo preseleccionado del movimiento del  período sólo lo que corresponde a actividades correctivas.
+* Listado de consumos de Repuestos del período.
 
 **Índices de Gestión:**
 
-- Se recomienda elegir de la gama de índices que **–AM 4G** ofrece, los índices de gestión más representativos para la empresa y el período evaluado. Además de los índices ya definidos de manera estándar, W IN Software Asociados  ha  desarrollado  algunos  índices  especiales  por  sector  de industria, que están disponibles, solo deben ser solicitados. Igualmente, W IN Software, con su filosofía de continuo mejoramiento del software, está dispuesto a implementar los índices particulares, base de seguimiento de cada empresa, buscando a futuro proveer de manera completa los índices aceptados universalmente para la gestión de Mantenimiento.
+* Se recomienda elegir de la gama de índices que **–AM 4G** ofrece, los índices de gestión más representativos para la empresa y el período evaluado. Además de los índices ya definidos de manera estándar, W IN Software Asociados  ha  desarrollado  algunos  índices  especiales  por  sector  de industria, que están disponibles, solo deben ser solicitados. Igualmente, W IN Software, con su filosofía de continuo mejoramiento del software, está dispuesto a implementar los índices particulares, base de seguimiento de cada empresa, buscando a futuro proveer de manera completa los índices aceptados universalmente para la gestión de Mantenimiento.
 
 Como resultado de implementar periódicamente un Balance de Gestión, se hace posible extraer desde ellos,  al final de cada período, un  resumen de  datos  puntuales, de  los reportes que los conforman, para transferir hacia herramientas externas, como Excel por ejemplo.
 
