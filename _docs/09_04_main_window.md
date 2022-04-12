@@ -661,7 +661,7 @@ En el caso de actualizar la información de Mano de Obra Externa, se da clic en 
 Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img11.png)
-**\*Imagen 96.** Órdenes - Gasto Real Eliminar ME*
+***Imagen 96.** Órdenes - Gasto Real Eliminar ME*
 
 **Ingresar Materiales y Repuestos**
 
