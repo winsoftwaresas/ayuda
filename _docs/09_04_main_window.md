@@ -651,7 +651,7 @@ A continuación se describen los campos que componen esta ventana; cuando se qui
 Una vez se diligencien estos campos se da clic en el ícono de Mas <span class="mdi mdi-plus-circle icon white"></span> para agregar, como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img09.png)
-**\*Imagen 94.** Órdenes - Gasto Real Ingresar ME*
+***Imagen 94.** Órdenes - Gasto Real Ingresar ME*
 
 En el caso de actualizar la información de Mano de Obra Externa, se da clic en <a class="btn gray">Actualizar Mano de Obra Externa</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
 
@@ -666,7 +666,7 @@ Por otro lado, para eliminar un registro de la tabla, se selecciona el registro 
 **Ingresar Materiales y Repuestos**
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img12.png)
-**\*Imagen 97.** Órdenes - Gasto Real Materiales y Repuestos*
+***Imagen 97.** Órdenes - Gasto Real Materiales y Repuestos*
 
 A través de la ventana de Ingreso de Materiales y Repuestos se administra el consumo real de Materiales y Repuestos de la OT.
 
@@ -699,22 +699,22 @@ La segunda consiste en buscar el Material y Repuesto, a través del visor de Mat
 Una vez se diligencien estos campos se da clic en el ícono de Mas <span class="mdi mdi-plus-circle icon white"></span> para agregar, como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img13.png)
-**\*Imagen 98.** Órdenes - Gasto Real Ingresar M y R*
+***Imagen 98.** Órdenes - Gasto Real Ingresar M y R*
 
 En el caso de actualizar la información de Materiales y Repuestos, se da clic en <a class="btn gray">Actualizar Material y Repuesto</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img14.png)
-**\*Imagen 95.** Órdenes - Gasto Real Actualizar M Y R*
+***Imagen 95.** Órdenes - Gasto Real Actualizar M Y R*
 
 Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img15.png)
-**\*Imagen 96.** Órdenes - Gasto Real Eliminar M y R*
+***Imagen 96.** Órdenes - Gasto Real Eliminar M y R*
 
 **Ingresar otros Conceptos de Costo**
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img16.png)
-**\*Imagen 97.** Órdenes - Gasto Real Otros Conceptos de Costo*
+***Imagen 97.** Órdenes - Gasto Real Otros Conceptos de Costo*
 
 A través de la ventana de Ingreso de Otros Conceptos se administra el Gasto Real de “Otros Conceptos’’ de la OT.
 
@@ -740,7 +740,7 @@ A continuación se describen los campos que componen esta ventana; cuando se qui
 Una vez se diligencien estos campos se da clic en el ícono de Mas <span class="mdi mdi-plus-circle icon white"></span> para agregar, como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img17.png)
-**\*Imagen 98.** Órdenes - Gasto Real Ingresar Otros Conceptos de Costo*
+***Imagen 98.** Órdenes - Gasto Real Ingresar Otros Conceptos de Costo*
 
 En el caso de actualizar la información de Materiales y Repuestos, se da clic en <a class="btn gray">Actualizar Otro Concepto</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
 
@@ -859,16 +859,16 @@ A continuación, se procede a verificar si para las OT detectadas en el proceso 
 
 **Los reportes disponibles en el análisis para efectuar esta revisión, son:**
 
-* Listado de Equipos por 
-* Cronograma de Mantenimiento Programado con TM (Ubicación Física y Centro De Costo)
-* Cronograma de Mantenimiento Programado Con TM
-* Actividades por Mes y Día
-* Listado de Repuestos
-* Actividades por Mes y Día con Presupuesto Discriminado
-* Listado de Equipos por Generar Órdenes
-* Programación de Actividades por Activo con Centro Responsable, Ubicación Física
-* Cronograma de Mantenimiento
-* Actividades por Mes y Día con Serie, Marca, Modelo.
+- Listado de Equipos por Generar Órdenes
+- Cronograma de Mantenimiento Programado con TM (Ubicación Física y Centro De Costo)
+- Cronograma de Mantenimiento Programado Con TM
+- Actividades por Mes y Día
+- Listado de Repuestos
+- Actividades por Mes y Día con Presupuesto Discriminado
+- Listado de Equipos por Generar Órdenes
+- Programación de Actividades por Activo con Centro Responsable, Ubicación Física
+- Cronograma de Mantenimiento
+- Actividades por Mes y Día con Serie, Marca, Modelo.
 
 Después de seleccionar el reporte, pulse el botón imprimir y el sistema abrirá una nueva ventana.
 
