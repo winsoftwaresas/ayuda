@@ -292,15 +292,17 @@ _**Nota:** Es importante tener en cuenta que cuando se están realizando los sub
 
 ### Acciones técnicas
 
-Esta opción conduce a la tabla de Acciones Técnicas de la **OT**. Esta tabla se ha creado con información seleccionada desde la tabla del mismo nombre en la  Infraestructura, que contiene  un  listado  de  Acciones  Técnicas  frecuentes  en  un  área  de  Mantenimiento. Con   la   información   contenida   en   esta   tabla   se   pretende   describir,   breve   pero concretamente, la actividad general realizada en  una  Orden de Trabajo. Las  Acciones Técnicas en  una **OT** se pueden definir, después de haber seleccionado en la ventana Detalle de la Ficha Técnica de la **OT**, el cuadro llamado **“**Manejo de Costos ABC **”**. La adición de las  Acciones Técnicas se realiza de igual forma que en los módulos Efectos de Falla y Causas de Falla en la Infraestructura.
+Esta opción conduce a la tabla de Acciones Técnicas de la OT. Esta tabla se ha creado con información seleccionada desde la tabla del mismo nombre en la Infraestructura, que contiene un listado de Acciones Técnicas frecuentes en un área de Mantenimiento.
+Con la información contenida en esta tabla se pretende describir, breve pero concretamente, la actividad general realizada en una Órden de Trabajo. Las Acciones Técnicas en una OT se pueden definir, después de haber seleccionado en la ventana Detalle de la Ficha Técnica de la OT, el cuadro llamado <a class="btn white"><span class="mdi mdi-checkbox-blank-outline"> manejo de costos ABC</span></a>. La adición de las Acciones Técnicas se realiza de igual forma que en los módulos Efectos de Falla y Causas de Falla en la Infraestructura.
 
-!![Acciones técnicas](0.images/cap11/chp11_img04.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img05.png)
+_**Imagen 149.** Historia - Acciones Técnicas de una OT_
 
 ### Seguimiento o Cierre
 
-En la próxima gráfica, que contiene la Ventana de Información de Cierre, se aprecian sus componentes y sus respectivos contenidos. A través de ella se realizó el proceso de cierre de la Orden de Trabajo, en el módulo de Órdenes de Trabajo.  En esta ventana, en Historia de mantenimiento, la única opción permitida es la de modificar, ello bajo las condiciones
+En la que contiene la Ventana de Información de Cierre, se aprecian sus componentes y sus respectivos contenidos. A través de ella se realizó el proceso de cierre de la Orden de Trabajo, en el módulo de Órdenes de Trabajo.  En esta ventana, en Historia de mantenimiento, la única opción permitida es la de modificar, ello bajo las condiciones
 de autorización que son exigidas. De tener la autorización para hacerlo, se modifica el o
-los campos requeridos y se concluye la operación con un clic  en el botón `<a class="btn">`Actualizar `</a>`.
+los campos requeridos y se concluye la operación con un clic  en el botón <a class="btn">Actualizar </a>.
 
 !![Seguimiento o Cierre](0.images/cap11/chp11_img05.png)
 
