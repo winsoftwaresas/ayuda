@@ -292,67 +292,96 @@ _**Nota:** Es importante tener en cuenta que cuando se están realizando los sub
 
 ### Acciones técnicas
 
-Esta opción conduce a la tabla de Acciones Técnicas de la **OT**. Esta tabla se ha creado con información seleccionada desde la tabla del mismo nombre en la  Infraestructura, que contiene  un  listado  de  Acciones  Técnicas  frecuentes  en  un  área  de  Mantenimiento. Con   la   información   contenida   en   esta   tabla   se   pretende   describir,   breve   pero concretamente, la actividad general realizada en  una  Orden de Trabajo. Las  Acciones Técnicas en  una **OT** se pueden definir, después de haber seleccionado en la ventana Detalle de la Ficha Técnica de la **OT**, el cuadro llamado **“**Manejo de Costos ABC **”**. La adición de las  Acciones Técnicas se realiza de igual forma que en los módulos Efectos de Falla y Causas de Falla en la Infraestructura.
+Esta opción conduce a la tabla de Acciones Técnicas de la OT. Esta tabla se ha creado con información seleccionada desde la tabla del mismo nombre en la Infraestructura, que contiene un listado de Acciones Técnicas frecuentes en un área de Mantenimiento.
+Con la información contenida en esta tabla se pretende describir, breve pero concretamente, la actividad general realizada en una Órden de Trabajo. Las Acciones Técnicas en una OT se pueden definir, después de haber seleccionado en la ventana Detalle de la Ficha Técnica de la OT, el cuadro llamado <a class="btn white"><span class="mdi mdi-checkbox-blank-outline"> manejo de costos ABC</span></a>. La adición de las Acciones Técnicas se realiza de igual forma que en los módulos Efectos de Falla y Causas de Falla en la Infraestructura.
 
-!![Acciones técnicas](0.images/cap11/chp11_img04.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img05.png)
+_**Imagen 149.** Historia - Acciones Técnicas de una OT_
 
 ### Seguimiento o Cierre
 
-En la próxima gráfica, que contiene la Ventana de Información de Cierre, se aprecian sus componentes y sus respectivos contenidos. A través de ella se realizó el proceso de cierre de la Orden de Trabajo, en el módulo de Órdenes de Trabajo.  En esta ventana, en Historia de mantenimiento, la única opción permitida es la de modificar, ello bajo las condiciones
-de autorización que son exigidas. De tener la autorización para hacerlo, se modifica el o
-los campos requeridos y se concluye la operación con un clic  en el botón `<a class="btn">`Actualizar `</a>`.
+A esta opción se llega sobreponiendo el cursor sobre el módulo de Historia donde se despliega un submenú de transacciones disponibles y luego se da clic en “Seguimiento o Cierre”.
 
-!![Seguimiento o Cierre](0.images/cap11/chp11_img05.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img06.png)
+_**Imagen 150.** Historia - Ir a Seguimiento y Cierre_
 
-A continuación se describen los campos que componen esta ventana.
+Para ingresar al Detalle del Seguimiento y Cierre de un registro, se debe dar clic en la OT del Visor de Seguimiento y Cierre:
 
-**Cuadro Identificación:** Aparece con los campos bloqueados para que el usuario visualice la información básica de la **OT**.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img07.png)
+_**Imagen 151.** Historia - Visor Seguimiento y Cierre_
 
-**F/H de Paro:** Para las Órdenes de Trabajo Correctivas, en este campo se registra la Fecha y hora del daño ocurrido. La fecha se m aneja en formato AAAA/MM/DD (Año, Mes, día); la hora se m aneja en formato Militar (de 24 horas). Cabe anotar, que la fecha y hora consignadas   corresponden   al   momento   en   que    se   informó   del   daño   o   falla   a Mantenimiento, así que es posible que el daño  ha ya ocurrido en una fecha/hora anterior. Sin embargo se debe procurar,  administrativamente, que Mantenimiento se entere lo más pronto posible de la Fecha y Hora reales del Daño.
+En el Seguimiento o Cierre se mantiene al día la información vital de ejecución de la OT. Es aquí donde se registran las fechas, tiempos y demás básicos concernientes a la ejecución de la labor.
 
-**F/H Atención:** Es la fecha y hora en la cual el Personal de Mantenimiento **“**atendió **”** la solicitud de labor, o sea se hizo presente con una inspección previa sobre el equipo reportado. La fecha se maneja en formato AAAA/MM/DD (Año, Mes, día); la hora se maneja en formato Militar (de 24 horas). Normalmente se utiliza solo en Órdenes de Trabajo Manuales.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img08_.png)
+_**Imagen 152.** Historia - Visor Seguimiento y Cierre_
 
-**F/H Inicio Trabajos:** Es la Fecha y Hora que indica el momento de inicio de labores, una vez  que  todas  las  condiciones  estuvieron  dadas.  La  fecha  se  maneja  en  formato AAAA/MM/DD (Año, Mes, día); la hora se maneja en formato Militar (de 24 horas).
+En la gráfica anterior, Ventana de Seguimiento o Cierre, se aprecian sus componentes y sus respectivos contenidos. Sobre cada campo se da una breve descripción:
 
-**F/H Fin Trabajos:** Es la Fecha y Hora que indica el momento en que finalizaron las labores de mantenimiento,   incluyendo   las   pruebas   o   ensayos,   que   determinaron   el    buen funcionamiento del equipo. La fecha se maneja en formato AAAA/MM/DD (Año, Mes, día); la hora se maneja en formato Militar (de 24 horas).
+**Que Hacer:** Este recuadro aparece con los campos bloqueados para que el usuario visualice la información básica de la OT.
 
-**Tiempo Duración (ttr):** Aunque – AM 4G– sugirió como Tiempo de Duración, (o time to repair) en este campo, la diferencia entre la Fecha y Hora de Fin de Trabajos y la Fecha y Hora de Inicio de Trabajos, cabe anotar, que  **–AM 4G** también permitió corregir el tiempo de
-Duración en la **OT**, después de que fue calculado por el sistema, entonces debe reflejar el tiempo real de la ejecución.
+**F/H de Paro:** Este campo aparece adicional sólo para las OT Correctivas, y se registra la Fecha y hora del daño ocurrido. La fecha se maneja en formato DD/MM/AAAA (Día, Mes, Año); la hora se maneja en formato de 12h. Cabe anotar, que la fecha y hora consignadas corresponden al momento en que se informó del daño o falla a Mantenimiento, así que es posible que el daño haya ocurrido en una fecha/hora anterior. Sin embargo se debe procurar, administrativamente, que Mantenimiento se entere lo más pronto posible de la Fecha y Hora reales del Daño.
 
-Por ejemplo, si una **OT** tiene como Fecha de Inicio de Trabajos XXXX/12/01 08:30, y como Fecha de Fin de Trabajos XXXX/12/01 16:00, **–AM 4G** sugiere como Tiempo de Duración, 7 horas y 30 minutos. Sin embargo, si durante ese lapso se tuvo que detener la ejecución por 2 horas, debido a que faltaba un Repuesto o a que el técnico encargado se ausentó a realizar otra labor, el ttr se debe haber corregido a: 5 horas y 30 minutos.
+**F/H Atención:** Es la fecha y hora en la que el Personal de Mantenimiento atendió la solicitud de la labor, se hizo presente con una inspección previa sobre el Activo/Equipo reportado. La fecha se maneja en formato DD/MM/AAAA (Día, Mes, Año) y la hora se maneja en formato de 12h. Una vez se digita la Fecha y Hora de Atención, éstas se sugieren para la fecha/hora de Inicio de Trabajos y Fin de Trabajos de la OT, claro está, si tales fechas y horas no han sido digitadas aún.
 
-**T. Improductivo:** **–AM 4G** puede haber sugerido como Tiempo Improductivo: la  diferencia entre la Fecha y Hora de Fin de Trabajos y la Fecha y Hora Info de Paro (Para Órdenes de Trabajo Correctivas), o como, la diferencia entre la Fecha y Hora de Fin de Trabajos y la Fecha  y  Hora  de  Inicio de  Trabajos  (Para  Ordenes de   Trabajo no  Correctivas).  Sin embargo, este valor pudo haberse corregido, después de que fue calculado por el sistema, para reflejar la cantidad Real de Tiempo Improductivo que tuvo el Equipo en la **OT** actual.
+**F/H Inicio Trabajos:** Es la Fecha y Hora que indica el momento en que se inició labores una vez que todas las condiciones fueron dadas: se han superado los tiempos de inspección y administrativos; la máquina está lista y en condiciones de ser mantenida, ya fue entregada al Depto. de Mantenimiento y éste a su vez, cuenta con todos los recursos necesarios para la ejecución: herramientas, instrumentos, materiales, repuestos y responsable. La fecha se maneja en formato DD/MM/AAAA (Día, Mes, Año) y la hora se maneja en formato de 12h.
 
-Por ejemplo, si una **OT** histórica, que fue correctiva, tiene como fecha de Info de  Paro XXXX/12/01 08:00, y como fecha de Fin de Trabajos XXXX/12/02 12:30,  **–AM 4G**  sugirió como Tiempo Improductivo, 1 día, 4 horas y 30 minutos. Sin embargo, si en ese lapso, el Equipo no trabaja de 10 PM a 6 AM, pues la empresa no labora este turno de producción, se debió haber definido el tiempo improductivo como solamente de 20 horas y 30 minutos.
+**F/H Fin Trabajos:** Es la Fecha y Hora que indica el momento en que finalizaron las labores de mantenimiento, incluyendo las pruebas o ensayos que determinaron el buen funcionamiento del equipo. La fecha se maneja en formato DD/MM/AAAA (Día, Mes, Año) y la hora se maneja en formato de 12h.
 
-Estado de la **OT**: Una Orden de Trabajo Histórica puede tener uno de los siguientes
-Estados:
+**Tiempo Duración (ttr):** **AM** sugiere como Tiempo de Duración, (o time to repair), la diferencia entre la Fecha/Hora de Fin de Trabajos y la Fecha/Hora de Inicio de Trabajos. Cabe anotar, que no siempre el Tiempo de Duración es la diferencia entre estas fechas/horas, porque pueden existir eventos que dejaron temporalmente a la OT en Estado de “Pendiente”. AM permite corregir el tiempo de Duración en una OT, después de que fue calculado por el sistema, para que refleje el tiempo real de la ejecución.
+Por ejemplo, si una OT tiene como Fecha de Inicio de Trabajos XXXX/12/01 08:30 a.m., y como Fecha de Fin de Trabajos XXXX/12/01 04:00 p.m., AM sugiere como Tiempo de Duración 7 horas y 30 minutos. Sin embargo, si durante ese lapso se tuvo que detener la ejecución por 2 horas, debido a que faltaba un Repuesto o a que el técnico encargado se ausentó a realizar otra labor, se debe corregir la duración en 5 horas y 30 minutos.
+
+**T. Improductivo:** **AM** sugiere como Tiempo Improductivo la diferencia entre la Fecha/Hora de Fin de Trabajos y la Fecha/ Hora de Paro (Para OT Correctivas), o como la diferencia entre la Fecha/Hora de Fin de Trabajos y la Fecha/Hora de Inicio de Trabajos (Para OT no Correctivas). Sin embargo, este valor puede corregirse, después de que fue calculado por el sistema, para reflejar la cantidad Real de Tiempo Improductivo que tuvo el Equipo en la OT actual.
+
+Por ejemplo, si una OT correctiva tiene como fecha de Información de Paro XXXX/12/01 08:00 a.m., y como fecha de Fin de Trabajos XXXX/12/02 12:30 pm, AM sugiere como Tiempo Improductivo, 1 día, 4 horas y 30 minutos. Sin embargo, si en ese lapso, el Equipo no trabaja de 10 PM a 6 AM, pues la empresa no labora este turno de producción, se debe definir el tiempo improductivo como solamente de 20 horas y 30 minutos.
+
+**Estado de la OT:** Un registro puede tener uno de los siguientes Estados:
 
 | ABREVIATURA | SIGNIFICADO |
 | ----------- | ----------- |
-| **C:**      | Cerrada     |
+| **CE:**     | Cerrada Ejecutada  |
+| **CR:**     | Cerrada Retroalimentada  |
 | **K:**      | Cancelada   |
 
-**Causa de Cierre:** Por defecto, cuando se trata de una **OT** cerrada y ejecutada, el sistema ubica en este campo la causa **“**OT Ejecutada **”**. Si la **OT** se ha cerrado con un Estado de **“**K: Cancelada **”**, en este campo se definió la Causa respectiva.
+El estado de **Cerrada Retroalimentada** indica por cualquier razón una actualización sobre el registro.
 
-**FF Cierre:** Es asignada automáticamente por el sistema, cuando el usuario le da a la **OT**, SS o PA, el estado Cerrado.
+**Causa de Cierre:** Por defecto, cuando se trata de una OT cerrada y ejecutada, el sistema ubica en este campo la causa “OT Ejecutada”. Si la OT se ha cerrado con un Estado de “K:Cancelada”, en este campo se definió la Causa respectiva.
 
-**Causa de Falla:** Para Órdenes de Trabajo correctivas, en este campo se despliega la
-Causa de la Falla que dio origen a la labor actual.
+**FF Cierre:** Es asignada automáticamente por el sistema, cuando el usuario cambia la OT, SS o PA, al estado Cerrada Ejecutada o Cancelada.
 
-**Efecto de Falla:** Para Órdenes de Trabajo correctivas, en este campo se registra el Efecto más significativo de la falla que se presentó y fue reportado por Producción.
+**Causa de Falla:** Para OT correctivas, este campo es obligatorio, se registra la Causa de la Falla que dio origen a la labor actual. Estas opciones que se despliegan, corresponden a las definidas en su tabla en la Infraestructura.
 
-**Fecha Garantía:** Esta fecha indica el fin de la garantía ofrecida por el responsable, por la labor prestada en la **OT** Histórica actual. Es una fecha que fue calculada por el sistema con base en los meses de garantía ofrecidos por el responsable, a partir de la fecha de fin de trabajos.
+**Efecto de Falla:** Para OT correctivas, en este campo se registra el Efecto mas significativo de la falla que se presentó y fue reportado por producción.
 
-**Conf. Subjetiva AC:** Este campo permitió al técnico ejecutor, establecer subjetivamente en cuánto quedó (en porcentaje) la confiabilidad del Equipo una vez finalizada la  labor. Al frente de este valor, aparece el porcentaje de confiabilidad actual del Equipo, como valor de referencia. .  Este valor fue definido por el responsable de la ejecución de la Orden de Trabajo según su apreciación subjetiva.
+**Meses de Garantía:** Indica cuántos meses de garantía se ofrecen por la labor realizada. El número de meses establecido empieza a regir a partir de la Fecha de Fin de Trabajos de la OT.
 
-**Información del contador al momento de la ejecución:** En este campo se ingresa el contador del equipo y su fecha de lectura al momento de cerrar la Orden de Trabajo. Al actualizar esta información el sistema genera un mensaje para  modificar la fecha de inicio de periodo en el módulo de programas; el usuario  decide si se desea modificar este tipo de información o no.
+**Conf. Subjetiva AC.:** Este campo permitió al técnico ejecutor, establecer subjetivamente en cuánto quedó (en porcentaje) la confiabilidad del Activo/Equipo una vez finalizada la labor. Al
+frente de este valor, aparece el porcentaje de confiabilidad actual del Equipo, como valor de referencia. Este valor fue definido por el responsable de la ejecución de la OT según su apreciación subjetiva.
 
-!![Información del contador al momento de la ejecución](0.images/cap11/chp11_img06.png)
+**Email:** En este campo el sistema asigna automáticamente el correo electrónico del Solicitante definido en la ficha técnica de la OT de la ventana detalle en el campo de Correo Electrónico. 
 
-Al momento de ingresar a Información de Cierre se visualiza el botón de Bitácora, al darle clic en este botón, se muestra una nueva ventana, la cual da a conocer al  usuario los diferentes estados por los cuales ha pasado la Orden de Trabajo.
+**Fecha y estado del contador al momento de ejecución:** En este recuadro se ingresa toda la información relacionada con el contador del Activo y su fecha de lectura al momento del cierre de la OT. 
 
-!![cierre](0.images/cap11/chp11_img07.png)
+Se deben llenar los siguientes campos para proceder a actualizar la información:
+
+**Tipo CO:** Este campo permanece bloqueado y muestra el nombre del Contador del Activo que fue asignado en el PM por Contador.
+
+**Valor del CO en el Activo:** Este campo permanece bloqueado y muestra el valor del Contador del Activo que se tenga definido en el módulo de Activos en la pestaña Ficha Técnica.
+
+**FF Lectura CO en el Activo:** Este campo permanece bloqueado y muestra la fecha de lectura del Contador del Activo que se tenga definido en el módulo de Activos en la pestaña Ficha Técnica.
+
+**Valor del CO en la Generación:** Este campo permanece bloqueado y muestra el valor del Contador del Activo proyectado por el PM al momento de generarse la OT.
+
+**FF Lectura CO en la Generación:** Este campo permanece bloqueado y muestra la fecha de lectura del Contador del Activo proyectado por el PM al momento de generarse la OT.
+
+**Valor del CO en la Ejecución:** En este campo se define el valor del Contador del Activo al momento de ejecutarse la labor o al momento del cierre de la OT.
+
+**FF Lectura CO en la Ejecución:** En este campo se define la fecha de lectura del Contador del Activo al momento de ejecutarse o al momento del cierre de la OT.
+
+En el Seguimiento o Cierre, además de los botones <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a> y <a class="btn blue">cancelar <span class="mdi mdi-block-helper"></span></a>, se visualiza el botón <a class="btn blue">bitácora <span class="mdi mdi-view-week"></span></a>, éste muestra en nueva ventana el historial de cambios de la OT en: Estado, Prioridad y Responsable. Se muestra esta información solo si se han presentado modificaciones, de lo contrario los campos permanecen en blanco.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img09.png)
+***Imagen 153.** Historia - Detalle Bitácora en Seguimiento y Cierre*
+
 
 ### Gasto Real
 
