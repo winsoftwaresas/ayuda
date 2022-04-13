@@ -496,17 +496,17 @@ _> **Nota:** Para finalizar, hacer clic en el botón <a class="btn gray">ir a la
 A esta opción se llega sobreponiendo el cursor sobre el módulo de Historia donde se despliega un submenú de transacciones disponibles y luego se da clic en “Seguimiento o Cierre”.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img06.png)
-_**Imagen 150.** Historia - Ir a Seguimiento y Cierre_
+_**Imagen 166.** Historia - Ir a Seguimiento y Cierre_
 
 Para ingresar al Detalle del Seguimiento y Cierre de un registro, se debe dar clic en la OT del Visor de Seguimiento y Cierre:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img07.png)
-_**Imagen 151.** Historia - Visor Seguimiento y Cierre_
+_**Imagen 167.** Historia - Visor Seguimiento y Cierre_
 
 En el Seguimiento o Cierre se mantiene al día la información vital de ejecución de la OT. Es aquí donde se registran las fechas, tiempos y demás básicos concernientes a la ejecución de la labor.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img08_.png)
-_**Imagen 152.** Historia - Visor Seguimiento y Cierre_
+_**Imagen 168.** Historia - Visor Seguimiento y Cierre_
 
 En la gráfica anterior, Ventana de Seguimiento o Cierre, se aprecian sus componentes y sus respectivos contenidos. Sobre cada campo se da una breve descripción:
 
@@ -573,9 +573,7 @@ Se deben llenar los siguientes campos para proceder a actualizar la información
 En el Seguimiento o Cierre, además de los botones <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a> y <a class="btn blue">cancelar <span class="mdi mdi-block-helper"></span></a>, se visualiza el botón <a class="btn blue">bitácora <span class="mdi mdi-view-week"></span></a>, éste muestra en nueva ventana el historial de cambios de la OT en: Estado, Prioridad y Responsable. Se muestra esta información solo si se han presentado modificaciones, de lo contrario los campos permanecen en blanco.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img09.png)
-***Imagen 153.** Historia - Detalle Bitácora en Seguimiento y Cierre*
-
-
+***Imagen 169.** Historia - Detalle Bitácora en Seguimiento y Cierre*
 
 
 ### DashBoards
