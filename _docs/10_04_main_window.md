@@ -366,9 +366,9 @@ _**Imagen 153.** Historia - Gasto Real Eliminar MO_
 _**Imagen 154.** Historia - Gasto Real ME_
 
 A través de la ventana de Ingreso de Mano de Obra Externa se administra el Gasto Real de Mano de Obra Externa de la OT.
-Es importante recalcar que el Gasto Real de Mano de Obra Externa de una OT, se prepara a nivel del Responsable Ejecutor Externo, es decir, quiénes fueron los encargados de ejecutar la labor.
+Es importante resaltar que el Gasto Real de Mano de Obra Externa de una OT, se prepara a nivel del Responsable Ejecutor Externo, es decir, quiénes fueron los encargados de ejecutar la labor.
 
-A continuación se describen los campos que componen esta ventana; cuando se quiera actualizar o ingresar nuevos Responsables ejecutores externos a la OT, se deberán diligenciar los siguientes campos:
+Para ingresar MO se debe dar clic en el botón <a class="btn gray">adicionar mano de obra interna</a> y se deberán diligenciar los siguientes campos:
 
 **Fecha de Uso:** Es la fecha en la cual se utiliza el recurso.
 
@@ -405,7 +405,7 @@ _**Imagen 158.** Historia - Gasto Real M Y R_
 
 A través de la ventana de Ingreso de Materiales y Repuestos se administra el consumo real de Materiales y Repuestos de la OT.
 
-A continuación se describen los campos que componen esta ventana; cuando se quiera actualizar o ingresar nuevos Materiales y Repuestos al gasto real de una OT, se deberán diligenciar los siguientes campos:
+Para ingresar MO se debe dar clic en el botón <a class="btn gray">adicionar mano obra externa</a> y se deberán diligenciar los siguientes campos:
 
 **Fecha de Uso:** Es la fecha en la cual se utiliza el recurso.
 
@@ -443,8 +443,8 @@ _**Imagen 160.** Historia - Gasto Real Actualizar M Y R_
 
 Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img19.png)
-_**Imagen 160.** Historia - Gasto Real Eliminar M Y R_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img20.png)
+_**Imagen 161.** Historia - Gasto Real Eliminar M Y R_
 
 **Ingresar otros Conceptos de Costo**
 
@@ -453,7 +453,7 @@ _**Imagen 160.** Historia - Gasto Real Eliminar M Y R_
 
 A través de la ventana de Ingreso de Otros Conceptos se administra el Gasto Real de “Otros Conceptos’’ de la OT.
 
-A continuación se describen los campos que componen esta ventana; cuando se quiera actualizar o ingresar nuevos Otros Conceptos de Costo al Gasto Real de una OT, se deberán diligenciar los siguientes campos:
+APara ingresar MO se debe dar clic en el botón <a class="btn gray">adicionar otro concepto</a> y se deberán diligenciar los siguientes campos:
 
 **Concepto:** Es el “Otro Concepto” a presupuestar. Se selecciona descolgando la lista de
  Otros Conceptos, traída desde su tabla en Infraestructura.
