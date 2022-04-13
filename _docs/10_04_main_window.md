@@ -436,7 +436,7 @@ Una vez se diligencien estos campos se da clic en el ícono de Mas <span class="
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img20.png)
 _**Imagen 159.** Historia - Gasto Real Ingresar M Y R_
 
-En el caso de actualizar la información de Materiales y Repuestos, se da clic en <a class="btn gray">Actualizar Material y Repuesto</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
+En el caso de actualizar la información de Materiales y Repuestos, se da clic en <a class="btn gray">Actualizar Material y Repuesto</a>. Regresar a seleccionar el Almacén respectivo, y elegir el Repuesto. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img21.png)
 _**Imagen 160.** Historia - Gasto Real Actualizar M Y R_
