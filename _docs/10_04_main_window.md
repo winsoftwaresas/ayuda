@@ -448,12 +448,12 @@ _**Imagen 161.** Historia - Gasto Real Eliminar M Y R_
 
 **Ingresar Otros Conceptos de Costo**
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img16.png)
-***Imagen 97.** Órdenes - Gasto Real Otros Conceptos de Costo*
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img21.png)
+_**Imagen 162.** Historia - Gasto Real OC_
 
 A través de la ventana de Ingreso de Otros Conceptos se administra el Gasto Real de “Otros Conceptos’’ de la OT.
 
-Para ingresar Otros Conceptos de Costo o gastos indirectos, se debe dar clic en el botón <a class="btn gray">adicionar otro concepto</a> y se deberán diligenciar los siguientes campos:
+Para ingresar Otros Conceptos de Costo o Gastos indirectos, se debe dar clic en el botón <a class="btn gray">adicionar otro concepto</a> y se deberán diligenciar los siguientes campos:
 
 **Concepto:** Es el “Otro Concepto” a presupuestar. Se selecciona descolgando la lista de
  Otros Conceptos, traída desde su tabla en Infraestructura.
@@ -474,20 +474,20 @@ Para ingresar Otros Conceptos de Costo o gastos indirectos, se debe dar clic en 
 
 Una vez se diligencien estos campos se da clic en el ícono de Mas <span class="mdi mdi-plus-circle icon white"></span> para agregar, como se muestra a continuación:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img17.png)
-***Imagen 98.** Órdenes - Gasto Real Ingresar Otros Conceptos de Costo*
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img22.png)
+_**Imagen 163.** Historia - Ingresar OC_
 
 En el caso de actualizar la información de Materiales y Repuestos, se da clic en <a class="btn gray">Actualizar Otro Concepto</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img18.png)
-***Imagen 99.** Órdenes - Gasto Real Actualizar Otros Conceptos de Costo*
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img23.png)
+_**Imagen 164.** Historia - Actualizar OC_
 
 Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img19.png)
-***Imagen 100.** Órdenes - Gasto Real Eliminar Otro Concepto de Costo*
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img24.png)
+_**Imagen 165.** Historia - Eliminar OC_
 
-> **Nota:** Para finalizar, hacer clic en el botón <a class="btn gray">ir a la matriz</a> para regresar a la ventana principal de Gasto Real y luego para acentar los cambios en el Gasto Real de la OT se debe dar clic en <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a>.
+_> **Nota:** Para finalizar, hacer clic en el botón <a class="btn gray">ir a la matriz</a> para regresar a la ventana principal de Gasto Real y luego para acentar los cambios en el Gasto Real de la OT se debe dar clic en <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a>. Esto automáticamente cambia el estado de la OT a Cerrada Retroalimentada._
 
 # Transacciones
 
