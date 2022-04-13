@@ -179,7 +179,7 @@ AC-Número Activo Fijo: Este campo preselecciona las Órdenes de Trabajo Histór
 
 **Centro de Costo:** Permite la selección de OT Históricas, SS y PA de acuerdo con el Centro de Costo asignado a ella. Existen dos formas de definir el Centro de Costo. La primera es seleccionando el Centro de Costo de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span>, luego este se desbloquea  <span class="mdi mdi-lock-open-outline"></span> digitando a continuación segmentos del nombre del Centro de Costo. Cuando se utilizan comodines (%), es posible seleccionar las OT Históricas, SS y PA pertenecientes a Centros de Costo que tengan parte del nombre igual. Por ejemplo: Sistema% selecciona todas los registros Históricas, SS y PA en cuyo Centro de Costo exista la palabra Sistema, independiente de si se está hablando del Sistema de Agua, de Vapor o de Energía.
 
-**Centro responsable:** Agrupa las OTs Históricas, SS y PA cuyo Centro Responsable sea el seleccionado, es posible utilizar comodines. Existen dos formas de definir el Centro Responsable. La primera es seleccionando el Centro Responsable de la lista desplegable. La segunda es dando clic al icono de candado “Utilizar comodines” y digitando a continuación segmentos del nombre del Centro Responsable utilizando comodines.
+**Centro responsable:** Agrupa las OT Históricas, SS y PA cuyo Centro Responsable sea el seleccionado, es posible utilizar comodines. Existen dos formas de definir el Centro Responsable. La primera es seleccionando el Centro Responsable de la lista desplegable. La segunda es dando clic al icono de candado “Utilizar comodines” y digitando a continuación segmentos del nombre del Centro Responsable utilizando comodines.
 
 **Contrato:** Permite filtrar las OT Históricas que se encuentren asociadas a un contrato ya definido en la tabla de “CONTRATO” en el módulo de Infraestructura. Existen dos formas de definir el Contrato de la OT Histórica. La primera es seleccionando el Contrato de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span>, este se desbloquea <span class="mdi mdi-lock-open-outline"></span> y digitando a continuación segmentos del nombre del Contrato utilizando comodines (%). Cuando se utilizan comodines, es posible seleccionar OT Histórica cuyo Contrato tenga parte del nombre igual.
 
@@ -264,8 +264,7 @@ AC-Número Activo Fijo: Este campo preselecciona las Órdenes de Trabajo Histór
 
 **Tipo de Trabajo:** Agrupa las OT Históricas, SS y PA de acuerdo al TT seleccionado, sin importar si tienen otros tipos de trabajo activos. Incluso, es posible seleccionarlos todos al mismo tiempo.
 
-**Ubicación Física:** Permite la selección de las OT Históricas, SS y PA cuyo Activo esté en la ubicación física que se determina en este criterio. Existen dos formas de filtrar la Ubicación Física. La primera es seleccionando la Ubicación Física de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span>
- el cual se desactiva <span class="mdi mdi-lock-open-outline"></span> y permite digitar a continuación segmentos del nombre de la Ubicación Física. Es posible utilizar comodines (%) y seleccionar OT cuyo Activo esté en una Ubicación Física que tenga parte del nombre igual. Por ejemplo: Cava% selecciona los registros cuya Ubicación Física empieza por la palabra Cava, independientemente de si se está hablando de la Cava de Fermentación, Maduración o Contrapresión.
+**Ubicación Física:** Permite la selección de las OT Históricas, SS y PA cuyo Activo esté en la ubicación física que se determina en este criterio. Existen dos formas de filtrar la Ubicación Física. La primera es seleccionando la Ubicación Física de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span> el cual se desactiva <span class="mdi mdi-lock-open-outline"></span> y permite digitar a continuación segmentos del nombre de la Ubicación Física. Es posible utilizar comodines (%) y seleccionar OT cuyo Activo esté en una Ubicación Física que tenga parte del nombre igual. Por ejemplo: Cava% selecciona los registros cuya Ubicación Física empieza por la palabra Cava, independientemente de si se está hablando de la Cava de Fermentación, Maduración o Contrapresión.
 
 **4. FILTRAR POR CAMPOS PARTICULARES DE PAROS**
 
@@ -300,16 +299,11 @@ _**Imagen 149.** Historia - Acciones Técnicas de una OT_
 
 ### Gasto Real
 
-Para ingresar a esta opción, se debe dar clic en la pestaña “Gasto Real” de la ventana detalle de OT.
-Los datos de Gasto Real se pueden registrar en una OT en cualquier momento, mientras esa OT no exija Control Presupuestal. Pero si la OT exige Control Presupuestal, solo se puede registrar el Gasto Real después de haber aprobado el Presupuesto, en cuyo caso, ya no es posible modificarlo. Una vez aprobado, este Presupuesto debe pasarse al Gasto Real a través del botón <a class="btn gray">pasar el presupuesto al gasto real</a> como se muestra a continuación:
+Para ingresar a esta opción, se debe dar clic en la pestaña “Gasto Real” de la ventana detalle de Órdenes de Trabajo Históricas
+Los datos de Gasto Real se pueden registrar en una OT en cualquier momento, mientras esa OT no exija Control Presupuestal. Pero si la OT exige Control Presupuestal, solo se puede registrar el Gasto Real después de haber aprobado el Presupuesto, en cuyo caso, ya no es posible modificarlo. En este módulo, no se maneja el Presupuesto.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_14.png)
-***Imagen 88.** Órdenes - Pasar Presupuesto a Gasto Real*
-
-Una vez que se traslada el Presupuesto al Gasto Real, el sistema muestra un mensaje de confirmación y la ventana de Gasto Real se visualiza de la siguiente manera:
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_15.png)
-***Imagen 89.** Órdenes - Gasto Real*
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img10.png)
+_**Imagen 150.** Historia - Gasto Real de una OT_
 
 Esta tabla resume los totales de los gastos de Mano de Obra Interna, Mano de Obra Externa, Materiales y Repuestos y Otros Conceptos de Costo. A través de esta ventana de Gasto Real se puede administrar el Gasto Real de la OT. Se compone de dos zonas:
 
@@ -580,143 +574,7 @@ En el Seguimiento o Cierre, además de los botones <a class="btn blue">Actualiza
 ***Imagen 153.** Historia - Detalle Bitácora en Seguimiento y Cierre*
 
 
-### Gasto Real
 
-!![Gasto Real](0.images/cap11/chp11_img08.png)
-
-En la gráfica anterior, Ventana de Gasto Real, se aprecian sus componentes y sus respectivos contenidos.
-
-A través de la ventana de Gasto Real se puede visualizar el Gasto Real de la Orden de
-Trabajo. Esta ventana está com puesta por dos zonas,
-
-En la zona superior, aparece la matriz de Gasto Real, que resume los costos reales para la **OT**, discriminando por Tipo de Trabajo (En las filas), y por Tipo de  Consumo (En las columnas). La última fila y la última columna de la matriz, discriminan la diferencia contra
-el Presupuesto, conformando así el Control Presupuestal de la **OT**.  Aparecen también botones para ingresar Mano de Obra, Materiales y Repuestos, y Otros Conceptos.
-
-En la zona inferior, están los botones que permiten ver, en forma de visor, el gasto real de la **OT**.  Igualmente, aparece la leyenda **“**Debe aprobar el Presupuesto **”** o  **“**Presupuesto aprobado **”**, si la **OT** maneja control presupuestal.
-
-**Nota:** Aunque los botones de la zona superior se despliegan siempre, solamente pueden ser operados por un usuario que tenga autorización de modificar Historia.
-
-**Ingresar mano de Obra Interna**
-
-!![Ingresar mano de Obra Interna](0.images/cap11/chp11_img09.png)
-
-En la gráfica anterior, Ventana de Ingreso de Mano de Obra, se aprecian sus componentes y sus respectivos contenidos. A ella se llega desde la ventana de Gasto Real en Historia, dando clic al botón `<a class="btn">`Ingresar Mano de Obra `</a>`.   La forma del acceso  más normal a este proceso es  de  consulta.  Cuando se  dispone de  los   permisos  requeridos, es  posible también Modificar Historia. Por supuesto que este es un permiso exclusivo.
-
-A través de la ventana de Ingreso de Mano de Obra en Gasto Real es posible apreciar el detalle de la Mano de Obra de la Orden de Trabajo Histórica. La funcionalidad es idéntica a la expuesta en el Capítulo Órdenes de Trabajo, en la sección Ingresar Mano de Obra, en Gasto Real.
-
-A continuación se describen los campos que componen esta ventana; cuando se quiera actualizar el gasto real de una **OTH**, en lo referente a Mano de Obra,  se  deberán diligenciar los siguientes campos:
-
-**F. Uso:** (Fecha de Uso).  Es la fecha en la cual se utiliza el recurso.
-
-**Oficio:** Es el oficio al que pertenece el responsable asignado. Es un campo de solo lectura, que se estableció una vez fue seleccionado el Responsable.
-
-**Responsable:** En este campo se despliega el Responsable de la **OT** Histórica.
-
-**H. Hombre:** Es el número de Horas Hombre que fueron consumidas por el responsable en cuestión.
-
-**MM:** Es el número de Minutos, que junto con las horas, conforman el tiempo total consumido.
-Tipo Hr.: Dado que un Responsable a través del oficio del mismo puede poseer varios tipos de Hora, cada uno con un valor distinto, en este campo se despliega el Tipo de Hora utilizado.
-
-**Vr. Hora:** Es el valor unitario de la hora, del responsable asignado.
-
-**Ingresar Materiales y Repuestos**
-
-!![Ingresar Materiales y Repuestos](0.images/cap11/chp11_img10.png)
-
-A través de la ventana de Ingreso de Materiales y Repuestos se despliega el consumo real de Materiales y Repuestos de la Orden de Trabajo. Cuando se disponen de los permisos necesarios es posible ingresar Materiales y Repuestos en el Modulo de Historia
-
-A continuación se describen los campos que componen esta ventana.
-
-**Fecha de Uso:** Es la fecha en la cual se utilizó el recurso.
-
-**Almacén:** Aparece el almacén desde dónde se consumió el repuesto o material. Repuesto: En este campo se despliega el código del repuesto cargado a la **OT**. Descripción: Es el campo que muestra la descripción del repuesto seleccionado.
-Tipo de trabajo: Este campo muestra el Tipo de Trabajo para el cual se cargó el Material o Repuesto.
-
-**Unidad de Medida:** Es el campo que muestra la unidad de consumo del repuesto seleccionado.
-
-**Cantidad:** Es la cantidad utilizada, del repuesto seleccionado.
-
-Valor Unitario: Es el valor unitario del repuesto tal y como fue cargado por  **– AM 4G** .
-
-**Ingresar Otros Conceptos**
-
-!![Ingresar Otros Conceptos](0.images/cap11/chp11_img11.png)
-
-En la gráfica anterior, Ventana de Ingreso de Otros conceptos, se aprecian sus componentes y sus respectivos contenidos.
-
-A través de la ventana de Ingreso de Otros Conceptos se visualiza el Gasto Real de **“**Otros Conceptos **”** de la Orden de Trabajo.
-
-A continuación se describen los campos que componen esta ventana.
-
-**F. Uso:** (Fecha de Uso). Es la fecha en la cual se utilizó el recurso. Concepto: Es el „Otro Concepto‟ seleccionado y cargado a la **OT**.
-
-**Nro. De Unidades:** Es la cantidad del concepto seleccionado  anteriormente.
-
-**Valor  Unitario:** Es  el valor presupuestado del **“**Otro Concepto **”**. 	**–AM 4G** sugiere el valor unitario del concepto que se encuentra ingresando al sistema.
-
-**Valor Total:** Es el costo total presupuestado del **“**Otro Concepto **”** teniendo en cuenta el número de unidades y el valor unitario.
-
-Al hacer clic en el botón `<a class="btn">`Ir a Matriz `</a>`, se regresa a la ventana principal de Gasto Real.
-
-### Evaluación de Servicio
-
-A  través  de  esta  transacción  se  hace  seguimiento  a   la evaluación sobre el  servicio prestado por el personal de mantenimiento o de servicios, en la **OT** seleccionada.   Esta opción se hace disponible en Información de Cierre, dando un clic en la caja de selección que precede a la opción **“**Evaluar el Servicio **”**.
-
-!![Evaluación de Servicio](0.images/cap11/chp12_img12.png)
-
-### Multimedia
-
-En la gráfica anterior, Ventana Multimedia, se aprecian sus componentes y sus respectivos contenidos.
-
-A través de la ventana Multimedia se adjunta información adicional a la **OT** en cada una de sus carpetas asignadas. Esta opción permite asociar a la **OT**, uno o varios documentos, con el  objetivo de facilitar el trabajo a  realizar,  o guiarlo, o detallarlo minuciosamente. Se aceptan documentos de extensiones .DOC, XLS, PDF, JPG, es decir, de Microsoft Word o Microsoft Excel, Acrobat o Imágenes varias.
-
-**Los documentos anexos pueden contener:** ayudas necesarias en la ejecución de la  **OT**, planos,  manuales  técnicos,  manuales  de   normas  técnicas  de   Mantenimiento   o  de especificaciones  detalladas,  normas  de  seguridad,  enfoques  de  acción,  procedimientos sobre cómo realizar la labor, check lists, protocolos de prueba y otra inf ormación estándar para  su  ejecución,  en  aras  de  optimizar  los  recursos  de  tiempo  y de   insumos  a  ser consumidos, como también en aras de preservar la seguridad del recurso humano.
-
-A continuación se describen las carpetas que componen esta ventana; cuando se quiera actualizar o ingresar nueva información a la **OT**, se deberán registrar así:
-
-**Cuadro Identificación:** Aparece con los campos bloqueados para que el usuario visualice la información básica de la **OT**.
-
-**Documentos:** En esta carpeta se relacionan toda clase de documentación relacionada a la **OT**. Ejemplo: Archivos en Word, pdf, Excel, entre otros.
-
-**Imágenes:** En esta carpeta se relacionan toda clase de imágenes relacionadas a la **OT**. Ejemplo: Imágenes en formato jpg, png, entre otros.
-
-**Videos:** En esta carpeta se relacionan porciones de videos relacionados a la **OT**. Ejemplo: Videos en formato wmv, entre otros.
-
-!![Videos](0.images/cap11/chp11_img13.png)
-
-Para adicionar un documento, imagen o video, se debe dar clic en la carpeta deseada, luego se da clic al icono de  `<a class="btn">`la nube con una flecha hacia arriba en su interior `</a>`, a continuación se abre una nueva ventana para realizar la búsqueda del archivo a subir,  se selecciona el archivo y se da clic en `<a class="btn">`abrir `</a>`.
-
-!![adicionar un documento](0.images/cap11/chp11_img14.png)
-
-Una vez se da clic en `<a class="btn">`abrir `</a>`, se evidencia al lado derecho el nombre del archivo elegido y aparece un campo en blanco, para que el usuario escriba un nombre adicional del archivo para ser usado como una referenciación del archivo adjunto. Luego, se da clic en el botón `<a class="btn">`Subir archivo `</a>`.
-
-!![archivo elegido](0.images/cap11/chp11_img15.png)
-
-Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic en uno de las imágenes, se visualiza la imagen adjunta.
-
-Para desasociar un documento, o una imagen o un video, a la **OT** se da clic al icono de `<span class="iconify btn" data-icon=delete>`eliminar (basura) que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro y se da clic en el botón `<a class="btn">`Aceptar `</a>`.
-
-Si se desea descargar un archivo adjunto a la **OT**, se debe dar clic en el icono de `<span class="iconify btn" data-icon=cloud-download>`la nube con flecha hacia abajo</>, que se encuentra al lado derecho del archivo que se quiere descargar.
-
-## Servicios
-
-### Reportes
-
-Este comando permite visualizar los reportes relacionados con Órdenes de Trabajo Históricas, Solicitudes de Servicio y Paros. Existen reportes básicos disponibles de tipo Resumen,  Detalle, Gráficos, Paretos e Indicadores de Gestión:
-
-!![Servicios](0.images/cap11/chp11_img16.png)
-
-Los anteriores reportes pueden ser impresos, para una o varias Órdenes de Trabajo Históricas preseleccionadas:
-
-**Todos los Registros:** Con esta opción se permite la impresión de todas las Órdenes de Trabajo Históricas existentes en la base de datos de la compañía activa, sin  importar si se ha realizado un subgrupo.
-
-**Registros del Visor:** Esta opción permite hacer una impresión de todas aquellas **OTs** Históricas que están seleccionados en el visor.
-
-**Registro Seleccionado:** Esta opción permite hacer una impresión de la **OT** Histórica señalada, o sea la que está resaltada con la línea verde en el visor.
-
-**Subtítulo:** En este campo es posible registrar un poco menos de una línea de información, tipo documentación del Reporte, para que se imprima bajo el área de títulos estándar.
-
-Para visualizar los reportes, se selecciona el reporte y luego se da clic al botón `<a class="btn">`Imprimir `</a>`.
 
 ### DashBoards
 
