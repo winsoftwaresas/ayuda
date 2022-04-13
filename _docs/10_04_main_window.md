@@ -305,20 +305,20 @@ Los datos de Gasto Real se pueden registrar en una OT en cualquier momento, mien
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img10.png)
 _**Imagen 150.** Historia - Gasto Real de una OT_
 
-Esta tabla resume los totales de los gastos de Mano de Obra Interna, Mano de Obra Externa, Materiales y Repuestos y Otros Conceptos de Costo. A través de esta ventana de Gasto Real se puede administrar el Gasto Real de la OT. Se compone de dos zonas:
+Esta tabla resume los totales de los gastos de Mano de Obra Interna, Mano de Obra Externa, Materiales y Repuestos y Otros Conceptos de Costo. A través de esta ventana de Gasto Real se puede administrar el Gasto Real de la OT Histórica. Se compone de dos zonas:
 
 En la zona superior, aparece la matriz de Gasto Real, que resume los costos reales para la OT, discriminando por TT (En las filas), y por Tipo de Consumo (En las columnas). La última fila y la última columna de la matriz, discriminan la diferencia contra el Presupuesto, conformando así el Control Presupuestal de la OT.
 
-En la zona inferior, aparecen los botones para ingresar Mano de Obra Interna, Mano de Obra Externa, Materiales y Repuestos, y Otros Conceptos.
+En la zona inferior, aparecen los botones para ingresar <a class="btn gray">mano obra interna</a>, <a class="btn gray">mano obra externa</a>, <a class="btn gray">mat y rep</a>, y <a class="btn gray">o.conceptos</a>.
 
 **Ingresar Mano de obra Interna**
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_16.png)
-***Imagen 89.** Órdenes - Gasto Real Mano de Obra Interna*
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img11.png)
+_**Imagen 151.** Historia - MO_
 
-A través de la ventana de GR de Ingreso de Mano de Obra Interna s e administra el Gasto Real de Mano de Obra de la OT.
+A través de la ventana de GR de Ingreso de Mano de Obra Interna se administra el Gasto Real de Mano de Obra de la OT.
 
-A diferencia del Presupuesto de Mano de Obra Interna, el Gasto Real de la Mano de Obra Interna se efectúa a nivel de Responsable, es decir, se tiene en cuenta a la persona que realiza la labor.
+A diferencia del Presupuesto de Mano de Obra Interna, el Gasto Real de la Mano de Obra Interna se efectúa a nivel de Responsable, es decir, se tiene en cuenta a la persona que realizó la labor.
 
 A continuación se describen los campos que componen esta ventana; cuando se requiera actualizar o ingresar nuevas personas que intervinieron en una OT, al gasto real de la misma, se deberán diligenciar los siguientes campos:
 
@@ -334,9 +334,9 @@ A continuación se describen los campos que componen esta ventana; cuando se req
 
 **Minutos:** Es el número de Minutos, que junto con las horas, conforman el tiempo total consumido. Así, si se consumen 3 horas y media de un responsable, debe registrarse “3” en el campo “H. Hombre”, y “30” en el campo “Minutos”.
 
-**Tipo Hr.:** Dado que un Responsable a través del Oficio del mismo puede poseer varios tipos de Hora, cada uno con un valor distinto, en este campo se selecciona el Tipo de Hora adecuado. AM sugiere el valor hora correspondiente, dependiendo del tipo elegido. Si se elige el Tipo “Otro”, AM no sugiere ningún valor hora, y deja a decisión del usuario el valor a asignar en este campo.
+**Tipo Hr.:** Dado que un Responsable a través del Oficio del mismo puede poseer varios tipos de Hora, cada uno con un valor distinto, en este campo se selecciona el Tipo de Hora adecuado. **AM** sugiere el valor hora correspondiente, dependiendo del tipo elegido. Si se elige el Tipo “Otro”, AM no sugiere ningún valor hora, y deja a decisión del usuario el valor a asignar en este campo.
 
-**Vlr. Hora:** Es el valor unitario de la hora para el oficio del Responsable en cuestión. AM automáticamente sugiere el costo por hora traído desde la tabla de Infraestructura para el Oficio, en los casos en que el tipo hora es distinto de “Otro”, el campo se habilitará para digitar un valor hora.
+**Vlr. Hora:** Es el valor unitario de la hora para el oficio del Responsable en cuestión. **AM** automáticamente sugiere el costo por hora traído desde la tabla de Infraestructura para el Oficio, en los casos en que el tipo hora es distinto de “Otro”, el campo se habilitará para digitar un valor hora.
 
 **Tipo de Asignación:** Este campo define al responsable de la mano de obra de la OT, el tipo de intervención que realiza en el tiempo que la OT esté abierta. La opción “Presupuesto para Histograma” es para definir la proyección a futuro de la carga de trabajo del responsable; y “Ejecución Real” es para definir la carga de trabajo ejecutada.
 
@@ -346,23 +346,24 @@ A continuación se describen los campos que componen esta ventana; cuando se req
 
 Una vez se diligencien estos campos se da clic en el ícono de Mas <span class="mdi mdi-plus-circle icon white"></span> para agregar, como se muestra a continuación:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_17.png)
-**\*Imagen 90.** Órdenes - Gasto Real Ingresar MO*
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img12.png)
+_**Imagen 151.** Historia - Gasto Real Ingresar MO_
 
 En el caso de actualizar la información de Mano de Obra Interna se da clic en <a class="btn gray">actualizar mano de obra interna</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_18.png)
-**\*Imagen 91.** Órdenes - Gasto Real Actualizar MO*
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img13.png)
+_**Imagen 152.** Historia - Gasto Real Actualizar MO_
 
 Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_19.png)
-**\*Imagen 92.** Órdenes - Gasto Real Eliminar MO*
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img14.png)
+_**Imagen 153.** Historia - Gasto Real Eliminar MO_
+
 
 **Ingresar Mano de Obra Externa**
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img08.png)
-**\*Imagen 93.** Órdenes - Gasto Real Mano de Obra Externa*
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img14.png)
+_**Imagen 154.** Historia - Gasto Real ME_
 
 A través de la ventana de Ingreso de Mano de Obra Externa se administra el Gasto Real de Mano de Obra Externa de la OT.
 Es importante recalcar que el Gasto Real de Mano de Obra Externa de una OT, se prepara a nivel del Responsable Ejecutor Externo, es decir, quiénes fueron los encargados de ejecutar la labor.
@@ -383,23 +384,24 @@ A continuación se describen los campos que componen esta ventana; cuando se qui
 
 Una vez se diligencien estos campos se da clic en el ícono de Mas <span class="mdi mdi-plus-circle icon white"></span> para agregar, como se muestra a continuación:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img09.png)
-***Imagen 94.** Órdenes - Gasto Real Ingresar ME*
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img15.png)
+_**Imagen 155.** Historia - Gasto Real Ingresar ME_
 
 En el caso de actualizar la información de Mano de Obra Externa, se da clic en <a class="btn gray">Actualizar Mano de Obra Externa</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img10.png)
-**\*Imagen 95.** Órdenes - Gasto Real Actualizar ME*
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img15.png)
+_**Imagen 156.** Historia - Gasto Real Actualizar ME_
 
 Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img11.png)
-***Imagen 96.** Órdenes - Gasto Real Eliminar ME*
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img16.png)
+_**Imagen 157.** Historia - Gasto Real Eliminar ME_
+
 
 **Ingresar Materiales y Repuestos**
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img12.png)
-***Imagen 97.** Órdenes - Gasto Real Materiales y Repuestos*
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img17.png)
+_**Imagen 158.** Historia - Gasto Real M Y R_
 
 A través de la ventana de Ingreso de Materiales y Repuestos se administra el consumo real de Materiales y Repuestos de la OT.
 
@@ -431,18 +433,18 @@ La segunda consiste en buscar el Material y Repuesto, a través del visor de Mat
 
 Una vez se diligencien estos campos se da clic en el ícono de Mas <span class="mdi mdi-plus-circle icon white"></span> para agregar, como se muestra a continuación:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img13.png)
-***Imagen 98.** Órdenes - Gasto Real Ingresar M y R*
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img18.png)
+_**Imagen 159.** Historia - Gasto Real Ingresar M Y R_
 
 En el caso de actualizar la información de Materiales y Repuestos, se da clic en <a class="btn gray">Actualizar Material y Repuesto</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img14.png)
-***Imagen 95.** Órdenes - Gasto Real Actualizar M Y R*
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img19.png)
+_**Imagen 160.** Historia - Gasto Real Actualizar M Y R_
 
 Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img15.png)
-***Imagen 96.** Órdenes - Gasto Real Eliminar M y R*
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img19.png)
+_**Imagen 160.** Historia - Gasto Real Eliminar M Y R_
 
 **Ingresar otros Conceptos de Costo**
 
