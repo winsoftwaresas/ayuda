@@ -314,7 +314,7 @@ En la zona inferior, aparecen los botones para ingresar <a class="btn gray">mano
 **Ingresar Mano de obra Interna**
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img11.png)
-_**Imagen 151.** Historia - MO_
+_**Imagen 151.** Historia - Gasto Real MO_
 
 A través de la ventana de GR de Ingreso de Mano de Obra Interna se administra el Gasto Real de Mano de Obra de la OT.
 
