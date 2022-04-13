@@ -479,12 +479,12 @@ _**Imagen 163.** Historia - Ingresar OC_
 
 En el caso de actualizar la información de Materiales y Repuestos, se da clic en <a class="btn gray">Actualizar Otro Concepto</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img23.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img25.png)
 _**Imagen 164.** Historia - Actualizar OC_
 
 Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img25.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img26.png)
 _**Imagen 165.** Historia - Eliminar OC_
 
 _> **Nota:** Para finalizar, hacer clic en el botón <a class="btn gray">ir a la matriz</a> para regresar a la ventana principal de Gasto Real y luego para acentar los cambios en el Gasto Real de la OT se debe dar clic en <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a>. Esto automáticamente cambia el estado de la OT a Cerrada Retroalimentada._
