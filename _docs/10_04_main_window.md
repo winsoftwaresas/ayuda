@@ -577,7 +577,9 @@ En el Seguimiento o Cierre, además de los botones <a class="btn blue">Actualiza
 
 ### DashBoards
 
-Este comando permite visualizar en tiempo real el comportamiento de los registros de Ordenes de Trabajo Históricas, Solicitudes de Servicio y Paros, con el fin de usarse como una herramienta para análisis y toma de decisiones rápidas.
+Este comando permite visualizar en tiempo real el comportamiento de los registros de Órdenes de Trabajo Históricas, Solicitudes de Servicio y Paros, con el fin de usarse como una herramienta para análisis y toma de decisiones rápidas.
+
+Para acceder a él, se debe sobreponer 
 
 !![DashBoards](0.images/cap11/chp11_img17.png)
 
