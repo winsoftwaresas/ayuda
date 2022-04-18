@@ -579,14 +579,15 @@ En el Seguimiento o Cierre, además de los botones <a class="btn blue">Actualiza
 
 Este comando permite visualizar en tiempo real el comportamiento de los registros de Órdenes de Trabajo Históricas, Solicitudes de Servicio y Paros, con el fin de usarse como una herramienta para análisis y toma de decisiones rápidas.
 
-Para acceder a él, se debe sobreponer 
+Para acceder a él, se debe sobreponer el cursor sobre el módulo de Historia y a continuación, dar un clic sobre la transacción, como se muestra en la siguiente imagen:
 
-!![DashBoards](0.images/cap11/chp11_img17.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img27.png)
+***Imagen 174.** Historia - Detalle Bitácora en Seguimiento y Cierre*
 
 Al dar clic sobre los rectángulos de colores, se oculta la información correspondiente a cada rectángulo.
 
 !![DashBoards](0.images/cap11/chp11_img18.png)
-
+ 
 Sí se desea restablecer la información, se debe dar clic botón  `<a class="btn">`actualizar `</a>`. En cambio, si se desea exportar el gráfico en un formato de imagen, es posible dando clic a  `<a class="btn">`la flecha hacia abajo `</a>`.
 
 !![DashBoards](0.images/cap11/chp11_img19.png)
