@@ -588,7 +588,7 @@ Al dar clic sobre los rectángulos de colores, se oculta la información corresp
 
 !![DashBoards](0.images/cap11/chp11_img18.png)
  
-Sí se desea restablecer la información, se debe dar clic botón  `<a class="btn">`actualizar `</a>`. En cambio, si se desea exportar el gráfico en un formato de imagen, es posible dando clic a  `<a class="btn">`la flecha hacia abajo `</a>`.
+Sí se desea restablecer la información, se debe dar clic botón <a class="btn">actualizar </a>. En cambio, si se desea exportar el gráfico en un formato de imagen, es posible dando clic a <a class="btn"> la flecha hacia abajo </a>.
 
 !![DashBoards](0.images/cap11/chp11_img19.png)
 
