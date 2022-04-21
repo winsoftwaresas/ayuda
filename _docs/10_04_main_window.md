@@ -577,20 +577,18 @@ En el Seguimiento o Cierre, además de los botones <a class="btn blue">Actualiza
 
 ### DashBoards
 
-Este comando permite visualizar en tiempo real el comportamiento de los registros de Órdenes de Trabajo Históricas, Solicitudes de Servicio y Paros, con el fin de usarse como una herramienta para análisis y toma de decisiones rápidas.
-
-Para acceder a él, se debe sobreponer el cursor sobre el módulo de Historia y a continuación, dar un clic sobre la transacción, como se muestra en la siguiente imagen:
+Para acceder a esta opción, se debe sobreponer el cursor sobre el módulo de Historia y a continuación, dar un clic sobre la transacción, como se muestra en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img27.png)
-***Imagen 174.** Historia - Detalle Bitácora en Seguimiento y Cierre*
+***Imagen 174.** Historia - Ir a Dashboard*
 
-Al dar clic sobre los rectángulos de colores, se oculta la información correspondiente a cada rectángulo.
+Este comando permite visualizar en tiempo real el comportamiento de los registros de Órdenes de Trabajo Históricas, Solicitudes de Servicio y Paros, con el fin de usarse como una herramienta para análisis y toma de decisiones rápidas, como se muestra a continuación:
 
-!![DashBoards](0.images/cap11/chp11_img18.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img28.png)
+***Imagen 175.** Historia - Dashboard*
  
-Sí se desea restablecer la información, se debe dar clic botón <a class="btn">actualizar </a>. En cambio, si se desea exportar el gráfico en un formato de imagen, es posible dando clic a <a class="btn"> la flecha hacia abajo </a>.
-
-!![DashBoards](0.images/cap11/chp11_img19.png)
+De la imagen anterior, la información del rectángulo anaranjado ubicado en la parte superior derecha indica el número de registros de OT Históricas, SS y PA filtrados a través del subgrupo o la cantidad total de registros de OT Históricas, SS y PA, existentes en el módulo de HI. Como guía existe un indicador a modo de fracción (N/M) que indica el número total de registros de OT Históricas, SS y PA seleccionados (N) sobre el número de registros totales en el módulo de HI (M).
+Es por lo anterior que esta fracción se verá afectada al realizarse un “Subgrupo” o filtro en el módulo seleccionado, por lo cual se muestra la cantidad de registros del subgrupo actual (N) y el total de registros existentes en el módulo de Historia (M). Si no hay preselección, los dos números en sus totales son los mismos.
 
 ### Balance Periódico de Gestión
 
