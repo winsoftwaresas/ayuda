@@ -621,7 +621,7 @@ Esta opción permite exportar los ítems o campos de la ficha técnica de OT, bi
 Para efectuar este proceso, se da clic en Exportar <span class="mdi mdi-download"></span> mostrando las siguientes opciones de exportación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img33.png)
-***Imagen 178.** Historia - Exportar*
+***Imagen 180.** Historia - Exportar*
 
 En la gráfica anterior, se aprecian sus componentes y sus respectivos contenidos:
 
@@ -637,7 +637,7 @@ Luego de escoger una de las opciones anteriores, en la parte inferior aparece se
 Este comando permite visualizar los reportes relacionados a OT, SS y PA en Historia. Existen los siguientes tipos de reportes básicos disponibles:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img34.png)
-_**Imagen 179.** Historia - Reportes_
+_**Imagen 181.** Historia - Reportes_
 
 Los anteriores reportes pueden ser seleccionados para una o varios registros a través de las siguientes opciones:
 
