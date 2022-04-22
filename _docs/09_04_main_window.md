@@ -849,7 +849,7 @@ A continuación, se procede a verificar si para las OT detectadas en el proceso 
 - Cronograma de Mantenimiento
 - Actividades por Mes y Día con Serie, Marca, Modelo.
 
-Después de seleccionar el reporte, pulse el botón imprimir y el sistema abrirá una nueva ventana.
+Después de seleccionar el reporte, pulse el botón <a class="btn white">Imprimir</a> y el sistema abrirá una nueva ventana.
 
 Si al imprimir alguno de estos reportes, el usuario advierte que una o varias de estas OT no deben ser Generadas, éste es el momento para que cancele todo el proceso, vaya a los PM respectivos, revise y modifique sus criterios, y vuelva a realizar un nuevo el proceso de Análisis.
 Si por el contrario después de efectuar la revisión, el usuario está seguro de que ésas son las OT a generar, se hace clic en el botón <a class="btn gray">Generar</a>. Este proceso crea tantas OT como hayan sido detectadas por el proceso de Análisis. 
@@ -1113,7 +1113,7 @@ Sí se desea restablecer la información, se debe dar clic al ícono <span class
 
 ## Exportar
 
-Esta opción permite exportar los ítems o campos de la ficha técnica de OT, bien sea, para exportar todas las OTs de la base de datos o las provenientes de un subgrupo a un archivo de Excel que se descarga automáticamente en la estación cliente.
+Esta opción permite exportar los ítems o campos de la ficha técnica de OT, bien sea, para exportar todas los registros de la base de datos o las provenientes de un subgrupo a un archivo de Excel que se descarga automáticamente en la estación cliente.
 Para efectuar este proceso, se da clic en Exportar <span class="mdi mdi-download"></span> mostrando las siguientes opciones de exportación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img65.png)
@@ -1130,10 +1130,10 @@ Luego de escoger una de las opciones anteriores, en la parte inferior aparece se
 
 ### Reportes
 
-Este comando permite visualizar los reportes relacionados a ÓT. Existen los siguientes tipos de reportes básicos disponibles:
+Este comando permite visualizar los reportes relacionados a OT. Existen los siguientes tipos de reportes básicos disponibles:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img67.png)
-_**Imagen 149.** Órdenes - Histograma_
+_**Imagen 149.** Órdenes - Reportes_
 
 Los anteriores reportes pueden ser seleccionados para una o varias OT a través de las siguientes opciones:
 
@@ -1151,4 +1151,4 @@ Para visualizar los reportes, se selecciona el reporte y luego se da clic al bot
 
 Para Exportar los reportes, se selecciona el reporte y luego se da clic al botón <a class="btn white">exportar</a>.
 
-Para Cerrar la ventana de los Reportes, se da clic en el botón<a class="btn white">cerrar</a>.
+Para Cerrar la ventana de los Reportes, se da clic en el botón <a class="btn white">cerrar</a>.
