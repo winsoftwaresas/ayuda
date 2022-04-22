@@ -587,8 +587,28 @@ Este comando permite visualizar en tiempo real el comportamiento de los registro
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img28.png)
 ***Imagen 175.** Historia - Dashboard*
  
-De la imagen anterior, la información del rectángulo anaranjado ubicado en la parte superior derecha indica el número de registros de OT Históricas, SS y PA filtrados a través del subgrupo o la cantidad total de registros de OT Históricas, SS y PA, existentes en el módulo de HI. Como guía existe un indicador a modo de fracción (N/M) que indica el número total de registros de OT Históricas, SS y PA seleccionados (N) sobre el número de registros totales en el módulo de HI (M).
-Es por lo anterior que esta fracción se verá afectada al realizarse un “Subgrupo” o filtro en el módulo seleccionado, por lo cual se muestra la cantidad de registros del subgrupo actual (N) y el total de registros existentes en el módulo de Historia (M). Si no hay preselección, los dos números en sus totales son los mismos.
+De la imagen anterior, la información del rectángulo anaranjado ubicado en la parte superior derecha indica el número de registros de OT Históricas, SS y PA filtrados a través del subgrupo o la cantidad total de registros de OT Históricas, SS y PA, existentes en el módulo de HI. 
+
+Como guía existe un indicador a modo de fracción (N/M) que indica el número total de registros de OT Históricas, SS y PA seleccionados (N) sobre el número de registros totales en el módulo de HI (M).
+
+Es por lo anterior que esta fracción se verá afectada al realizarse un “Subgrupo” o filtro en el módulo seleccionado, por lo cual se muestra la cantidad de registros del subgrupo actual (N) y el total de registros existentes en el módulo de Historia (M). Si no hay filtro, los dos números en sus totales son los mismos, como se indica en la siguiente imagen:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img29.png)
+***Imagen 176.** Historia - Dashboard*
+
+Al dar clic sobre los rectángulos de colores, se oculta la información correspondiente a cada rectángulo.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img30.png)
+***Imagen 177.** Historia - Dashboard*
+
+El valor que está ubicado dentro del rectángulo verde, indica el número total de OT Históricas , SS o PA existentes en HI o existentes en el subgrupo realizado, según corresponda al DashBoard.
+
+Sí se desea restablecer la información, se debe dar clic al icono de las flechas circulares (actualizar). En cambio, si se desea exportar el gráfico en un formato de imagen, es posible dando clic a la flecha hacia abajo.
+
+
+
+
+
 
 ### Balance Periódico de Gestión
 
