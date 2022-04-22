@@ -596,7 +596,7 @@ Es por lo anterior que esta fracción se verá afectada al realizarse un “Subg
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img29.png)
 ***Imagen 176.** Historia - Dashboard*
 
-Al dar clic sobre los rectángulos de colores, se oculta la información correspondiente a cada rectángulo.
+Al dar clic sobre los rectángulos de colores, se oculta la información correspondiente a cada rectángulo, como se ilustra en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img30.png)
 ***Imagen 177.** Historia - Dashboard*
