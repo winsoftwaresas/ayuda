@@ -596,14 +596,14 @@ Es por lo anterior que esta fracción se verá afectada al realizarse un “Subg
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img29.png)
 ***Imagen 176.** Historia - Dashboard*
 
-Al dar clic sobre los rectángulos de colores, se oculta la información correspondiente a cada rectángulo.
+Al dar clic sobre los rectángulos de colores, se oculta la información correspondiente a cada rectángulo, como se ilustra en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img30.png)
 ***Imagen 177.** Historia - Dashboard*
 
 El valor que está ubicado dentro del rectángulo verde, indica el número total de OT Históricas , SS o PA existentes en HI o existentes en el subgrupo realizado, según corresponda al DashBoard.
 
-Sí se desea restablecer la información, se debe dar clic al icono de las flechas circulares (actualizar). En cambio, si se desea exportar el gráfico en un formato de imagen, es posible dando clic a la flecha hacia abajo.
+Sí se desea restablecer la información, se debe dar clic al icono de las flechas circulares <span class="mdi mdi-autorenew"></span></a>. En cambio, si se desea exportar el gráfico en un formato de imagen, es posible dando clic a la flecha hacia abajo <span class="mdi mdi-download"></span>.
 
 ### Balance Periódico de Gestión
 
