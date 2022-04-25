@@ -599,20 +599,17 @@ Es por lo anterior que esta fracción se verá afectada al realizarse un “Subg
 Al dar clic sobre los rectángulos de colores, se oculta la información correspondiente a cada rectángulo, como se ilustra en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img30.png)
-***Imagen 177.** Historia - Dashboard*
+_**Imagen 177.** Historia - Dashboard_
 
-El valor que está ubicado dentro del rectángulo verde, indica el número total de OT Históricas , SS o PA existentes en HI o existentes en el subgrupo realizado, según corresponda al DashBoard.
+El valor que está ubicado dentro del rectángulo verde, indica el número total de OT Históricas, SS o PA existentes en HI o existentes en el subgrupo realizado, según corresponda al DashBoard.
 
-![Procesar imagen]
-(https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img31.png)
-
-***Imagen 178.** Historia - Dashboard*
+![Dashboard OT](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img31.png)
+_**Imagen 178.** Historia - Dashboard OT_
 
 Sí se desea restablecer la información, se debe dar clic al icono de las flechas circulares <span class="mdi mdi-autorenew"></span>. En cambio, si se desea exportar el gráfico en un formato de imagen, es posible dando clic a la flecha hacia abajo <span class="mdi mdi-download"></span>.
 
-![Procesar imagen]
-(https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img32.png)
-***Imagen 179.** Historia - Dashboard*
+![Dashboard SS](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img32.png)
+_**Imagen 179.** Historia - Dashboard SS_
 
 ## Exportar
 
@@ -627,7 +624,7 @@ En la gráfica anterior, se aprecian sus componentes y sus respectivos contenido
 **Exportar Visor:** Esta opción exporta todas los registros seleccionadas en el visor mediante un subgrupo.
 
 **Exportar Todos los Registros:** Esta opción exporta todas las OT, SS y PA existentes en la base de datos, sin importar cualquier subgrupo activo.
-Luego de escoger una de las opciones anteriores, en la parte inferior aparece seleccionado por defecto el recuadro <a class="btn white"><span class="mdi mdi-checkbox-blank-outline"></span></a> exportar todos los campos</span></a> pero si se prefiere uno o varios, se debe des-seleccionar y a continuación hacer clic en los recuadros a exportar, una vez elegida la información, se da clic en el botón inferior <a class="btn white">exportar</a> el cual genera un archivo de Excel que se descarga automáticamente. El objetivo de esta exportación es llevar toda la información de las OT, SS y PA a un archivo plano, para luego ser analizadas.
+Luego de escoger una de las opciones anteriores, en la parte inferior aparece seleccionado por defecto el recuadro <a class="btn white"><span class="mdi mdi-checkbox-blank-outline"></span></a> exportar todos los campos pero si se prefiere uno o varios, se debe des-seleccionar y a continuación hacer clic en los recuadros a exportar, una vez elegida la información, se da clic en el botón inferior <a class="btn white">exportar</a> el cual genera un archivo de Excel que se descarga automáticamente. El objetivo de esta exportación es llevar toda la información de las OT, SS y PA a un archivo plano, para luego ser analizadas.
 
 ## Servicios
 
