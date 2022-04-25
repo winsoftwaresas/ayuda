@@ -605,14 +605,12 @@ El valor que está ubicado dentro del rectángulo verde, indica el número total
 
 ![Procesar imagen]
 (https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img31.png)
-
 _**Imagen 178.** Historia - Dashboard_
 
 Sí se desea restablecer la información, se debe dar clic al icono de las flechas circulares <span class="mdi mdi-autorenew"></span></a>. En cambio, si se desea exportar el gráfico en un formato de imagen, es posible dando clic a la flecha hacia abajo <span class="mdi mdi-download"></span>.
 
 ![Procesar imagen]
 (https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img32.png)
-
 _**Imagen 179.** Historia - Dashboard_
 
 ## Exportar
