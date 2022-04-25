@@ -606,14 +606,13 @@ El valor que está ubicado dentro del rectángulo verde, indica el número total
 ![Procesar imagen]
 (https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img31.png)
 
-_**Imagen 178.** Historia - Dashboard_
+***Imagen 178.** Historia - Dashboard*
 
-Sí se desea restablecer la información, se debe dar clic al icono de las flechas circulares <span class="mdi mdi-autorenew"></span></a>. En cambio, si se desea exportar el gráfico en un formato de imagen, es posible dando clic a la flecha hacia abajo <span class="mdi mdi-download"></span>.
+Sí se desea restablecer la información, se debe dar clic al icono de las flechas circulares <span class="mdi mdi-autorenew"></span>. En cambio, si se desea exportar el gráfico en un formato de imagen, es posible dando clic a la flecha hacia abajo <span class="mdi mdi-download"></span>.
 
 ![Procesar imagen]
 (https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img32.png)
-
-_**Imagen 179.** Historia - Dashboard_
+***Imagen 179.** Historia - Dashboard*
 
 ## Exportar
 
@@ -628,7 +627,7 @@ En la gráfica anterior, se aprecian sus componentes y sus respectivos contenido
 **Exportar Visor:** Esta opción exporta todas los registros seleccionadas en el visor mediante un subgrupo.
 
 **Exportar Todos los Registros:** Esta opción exporta todas las OT, SS y PA existentes en la base de datos, sin importar cualquier subgrupo activo.
-Luego de escoger una de las opciones anteriores, en la parte inferior aparece seleccionado por defecto el recuadro <a class="btn white"><span class="mdi mdi-checkbox-blank-outline"> exportar todos los campos</span></a> pero si se prefiere uno o varios, se debe des-seleccionar y a continuación hacer clic en los recuadros a exportar, una vez elegida la información, se da clic en el botón inferior <a class="btn white">exportar</a> el cual genera un archivo de Excel que se descarga automáticamente. El objetivo de esta exportación es llevar toda la información de las OT, SS y PA a un archivo plano, para luego ser analizadas.
+Luego de escoger una de las opciones anteriores, en la parte inferior aparece seleccionado por defecto el recuadro <a class="btn white"><span class="mdi mdi-checkbox-blank-outline"></span></a> exportar todos los campos</span></a> pero si se prefiere uno o varios, se debe des-seleccionar y a continuación hacer clic en los recuadros a exportar, una vez elegida la información, se da clic en el botón inferior <a class="btn white">exportar</a> el cual genera un archivo de Excel que se descarga automáticamente. El objetivo de esta exportación es llevar toda la información de las OT, SS y PA a un archivo plano, para luego ser analizadas.
 
 ## Servicios
 
@@ -656,6 +655,10 @@ Para visualizar los reportes, se selecciona el reporte y luego se da clic al bot
 Para Exportar los reportes, se selecciona el reporte y luego se da clic al botón <a class="btn white">exportar</a>.
 
 Para Cerrar la ventana de los Reportes, se da clic en el botón<a class="btn white">cerrar</a>.
+
+El reporte con código HMI-CMDAP de Análisis de Disponibilidad Previa es necesario hacer una carga de datos primero según la información que se tenga filtrada para poder apreciar de manera correcta el análisis de los datos, como se indica en la siguiente imagen:
+
+        
 
 ### Balance Periódico de Gestión
 
