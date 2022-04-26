@@ -653,9 +653,28 @@ Para Exportar los reportes, se selecciona el reporte y luego se da clic al botó
 
 Para Cerrar la ventana de los Reportes, se da clic en el botón<a class="btn white">cerrar</a>.
 
-El reporte con código HMI-CMDAP de Análisis de Disponibilidad Previa es necesario hacer una carga de datos primero según la información que se tenga filtrada para poder apreciar de manera correcta el análisis de los datos, como se indica en la siguiente imagen:
+El reporte con código **HMI-CMDAP de Análisis Previo de Disponibilidad** es necesario hacer una carga de datos primero según la información que se tenga filtrada para poder apreciar de manera correcta el análisis de los datos cuando se imprima el reporte, como se indica en la siguiente imagen:
 
-        
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img35.png)
+_**Imagen 182.** Historia - Reporte Cargar Análisis Previo de Disponibilidad_
+
+Una vez que carguen los datos, se muestra el siguiente mensaje:
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img36.png)
+_**Imagen 183.** Historia - Reporte Mensaje Análisis Previo de Disponibilidad_
+
+De esta manera ya se puede <a class="btn white">imprimir</a> o <a class="btn white">exportar</a> y visualizar el reporte.
+
+A continuación se muestra la vista previa de impresión en formato pdf:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img37.png)
+_**Imagen 184.** Historia - Reporte Vista Previa Análisis Previo de Disponibilidad_
+
+Para imprimir o exportar el reporte **HME-CRMACC-Cronograma de Mantenimientos Ejecutados** se debe primero elegir el año del cual se quieren analizar los datos, como se indica a continuación: 
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img37.png)
+_**Imagen 184.** Historia - Reporte Vista Previa Análisis Previo de Disponibilidad_
+
+ Luego, se debe ir al reporte y realizar la impresión o exportación del mismo.
 
 ### Balance Periódico de Gestión
 
