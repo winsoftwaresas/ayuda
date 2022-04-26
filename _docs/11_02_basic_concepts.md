@@ -1,17 +1,20 @@
 ---
-title: Conceptos Básicos sobre Almacenes, Materiales y Repuestos
-subtitle: aqui se despejaran dudas sobre los conceptos basicos de almacenes, explicando su diversidad, funcionalidad y adaptabilidad a las necesidades del usuario.
-tags: [setup]
+title: Conceptos Básicos de Programas de Mantenimiento
+subtitle: aqui se despejaran dudas sobre los conceptos basicos de almacenes,
+  explicando su diversidad, funcionalidad y adaptabilidad a las necesidades del
+  usuario.
+tags:
+  - setup
 author: win
 order: 11_02
+date: 2022-04-26T20:21:00.312Z
 ---
-## Conceptos Básicos de Programas de Mantenimiento
 
-Dentro del ciclo de Gestión de Mantenimiento en el **AM**** los Programas de Mantenimiento (PMs) apoyan las tres primeras etapas del ciclo, siendo la primera la Planeación, la segunda la Presupuestación y la tercera la Programación. Para las dos primeras etapas, éste módulo ejecuta el proceso de Proyección, sobre un periodo futuro, de largo plazo, sin generar Órdenes de Trabajo.  Para la tercera etapa el proceso de Programación se ejecuta en forma idéntica, desde el módulo de Ordenes de Trabajo. A pesar de que  se  ejecuta  desde  allí,  la  base   del  proceso  son  los  Programas  de Mantenimiento.
+Dentro del ciclo de Gestión de Mantenimiento en el **AM** los Programas de Mantenimiento (PM) apoyan las tres primeras etapas del ciclo, siendo la primera la Planeación, la segunda la Presupuestación y la tercera la Programación. Para las dos primeras etapas, éste módulo ejecuta el proceso de Proyección, sobre un periodo futuro, de largo plazo, sin generar Órdenes de Trabajo. Para la tercera etapa el proceso de Programación se ejecuta en forma idéntica, desde el módulo de Órdenes de Trabajo. A pesar de que se ejecuta desde allí, la  base del proceso son los Programas de Mantenimiento.
 
 Un Programa de Mantenimiento (PM) es un conjunto de información que permite definir labores de Mantenimiento, para que sean ejecutadas en forma cíclica,  repetitiva  y periódica o sistemática,  sobre un Activo. Ella puede ser de tipos: Preventivo, Predictivo, Metrología,  Lubricación, Inspección, Otros, Otros Mantenimiento y los que se definan en la tabla de Tipos de mantenimiento en el módulo de Infraestructura.
 
-Los Programas de Mantenimiento (PMs), son un eje estratégico de **AM****.  Ellos son modificables y adecuables mediante la retroalimentación de los resultados obtenidos de distintos análisis sobre la Historia, con el objeto de afinarlos y lograr una proyección para Presupuesto del nuevo periodo, más ajustada y de acuerdo al desempeño real de los periodos anteriores.
+Los Programas de Mantenimiento, son un eje estratégico de **AM**. Ellos son modificables y adecuables mediante la retroalimentación de los resultados obtenidos de distintos análisis sobre la Historia, con el objeto de afinarlos y lograr una proyección para Presupuesto del nuevo periodo, más ajustada y de acuerdo al desempeño real de los periodos anteriores.
 
 Definir un Plan de Mantenimiento para el largo plazo, a través de un conjunto sólido de Programas, sienta las bases para una gestión avanzada, garantizando al grupo gestor de Mantenimiento, la información permanente de sus  labores  proyectadas   a  futuro  y posibilitando sobre ellas el establecer prioridades y asignar recursos, para garantizar una ejecución eficaz.
 
