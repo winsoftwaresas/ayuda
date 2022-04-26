@@ -669,12 +669,19 @@ A continuación se muestra la vista previa de impresión en formato pdf:
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img37.png)
 _**Imagen 184.** Historia - Reporte Vista Previa Análisis Previo de Disponibilidad_
 
-Para imprimir o exportar el reporte **HME-CRMACC-Cronograma de Mantenimientos Ejecutados** se debe primero elegir el año del cual se quieren analizar los datos, como se indica a continuación: 
+Para imprimir o exportar el reporte **HME-CRMACC-Cronograma de Mantenimientos Ejecutados** se debe primero, ir a la transacción de inicio **Valores OOAK** como se muestra a continuación:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img37.png)
-_**Imagen 184.** Historia - Reporte Vista Previa Análisis Previo de Disponibilidad_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img38.png)
+_**Imagen 185.** Historia - Valores OOAK_
 
- Luego, se debe ir al reporte y realizar la impresión o exportación del mismo.
+Luego, se debe digitar el año del cual se quieren analizar los datos, como se indica en la siguiente imagen e ir y realizar la impresión o exportación del mismo.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img39.png)
+_**Imagen 186.** Historia - Cronograma de Mantenimiento_
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img40.png)
+_**Imagen 187.** Historia - Cronograma de Mantenimiento_
+
 
 ### Balance Periódico de Gestión
 
