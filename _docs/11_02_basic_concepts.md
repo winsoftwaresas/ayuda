@@ -12,11 +12,11 @@ date: 2022-04-26T20:21:00.312Z
 
 Dentro del ciclo de Gestión de Mantenimiento en el **AM** los Programas de Mantenimiento (PM) apoyan las tres primeras etapas del ciclo, siendo la primera la Planeación, la segunda la Presupuestación y la tercera la Programación. Para las dos primeras etapas, éste módulo ejecuta el proceso de Proyección, sobre un periodo futuro, de largo plazo, sin generar Órdenes de Trabajo. Para la tercera etapa el proceso de Programación se ejecuta en forma idéntica, desde el módulo de Órdenes de Trabajo. A pesar de que se ejecuta desde allí, la  base del proceso son los Programas de Mantenimiento.
 
-Un Programa de Mantenimiento (PM) es un conjunto de información que permite definir labores de Mantenimiento, para que sean ejecutadas en forma cíclica,  repetitiva  y periódica o sistemática,  sobre un Activo. Ella puede ser de tipos: Preventivo, Predictivo, Metrología,  Lubricación, Inspección, Otros, Otros Mantenimiento y los que se definan en la tabla de Tipos de mantenimiento en el módulo de Infraestructura.
+Un Programa de Mantenimiento (PM) es un conjunto de información que permite definir labores de Mantenimiento, para que sean ejecutadas en forma cíclica, repetitiva y periódica o sistemática, sobre un Activo. Ella puede ser de tipos: Preventivo, Predictivo, Metrología,  Lubricación, Inspección, Otros, Otros Mantenimiento y los que se definan en la tabla de Tipos de mantenimiento en el módulo de Infraestructura.
 
 Los Programas de Mantenimiento, son un eje estratégico de **AM**. Ellos son modificables y adecuables mediante la retroalimentación de los resultados obtenidos de distintos análisis sobre la Historia, con el objeto de afinarlos y lograr una proyección para Presupuesto del nuevo periodo, más ajustada y de acuerdo al desempeño real de los periodos anteriores.
 
-Definir un Plan de Mantenimiento para el largo plazo, a través de un conjunto sólido de Programas, sienta las bases para una gestión avanzada, garantizando al grupo gestor de Mantenimiento, la información permanente de sus  labores  proyectadas   a  futuro  y posibilitando sobre ellas el establecer prioridades y asignar recursos, para garantizar una ejecución eficaz.
+Definir un Plan de Mantenimiento para el largo plazo, a través de un conjunto sólido de Programas, sienta las bases para una gestión avanzada, garantizando al grupo gestor de Mantenimiento, la información permanente de sus labores proyectadas a futuro y posibilitando sobre ellas el establecer prioridades y asignar recursos, para garantizar una ejecución eficaz.
 
 Un PM es el conjunto de información que describe una Tarea a ser ejecutada cíclica o sistemáticamente desde el momento de su definición, en adelante. En general, un PM cubre los siguientes tópicos alrededor de la tarea que se programa
 
@@ -29,19 +29,19 @@ Un PM es el conjunto de información que describe una Tarea a ser ejecutada cíc
 - Cuándo se debe ejecutar la Actividad (Criterios de Programación).
 - Cómo se debe ejecutar la Actividad (Instructivo o procedimiento a seguir).
 
-Además de la información característica que se acaba de mencionar, un PM se  define  y enmarca en cada uno de los siguientes atributos: Tipo de Mantenimiento, Tipo de Trabajo y Tipo de Actividad, que denotan el tipo y contexto del mismo. Esta  información se complementa con dos definiciones: Prioridad y un indicativo de la  necesidad de que el Activo o Activo este inoperante **“Activo parado”**.
+Además de la información característica que se acaba de mencionar, un PM se define y enmarca en cada uno de los siguientes atributos: Tipo de Mantenimiento, Tipo de Trabajo y Tipo de Actividad, que denotan el tipo y contexto del mismo. Esta información se complementa con dos definiciones: Prioridad y tiempo improductivo. 
 
-Un PM se define con el objeto de que él genere, automáticamente, con la  anticipación requerida, una Orden de Trabajo para un Activo (AC), Equipo u Objeto de Mantenimiento (OM), cada vez que se cumpla el criterio interno establecido en el  Programa (PM).   Se debe recordar que toda la información definida en un PM se traslada a la OT cuando el PM la genere.
+Un PM se define con el objeto de que él genere, automáticamente, con la anticipación requerida, una Órden de Trabajo para un Activo, Equipo u Objeto de Mantenimiento, cada vez que se cumpla el criterio interno establecido en el Programa (PM). Se debe recordar que toda la información definida allí se traslada a la OT cuando el PM la genere.
 
-Para definir un PM se requiere haber registrado previamente el AC o Activo objeto  del mismo, el Centro de Costo, el Centro de Responsable, los Oficios y los Responsables, el Tipo de Actividad de Mantenimiento, al igual que los Repuestos requeridos, todo ello en sus respectivas tablas de Infraestructura, Activos y Repuestos.
+Para definir un PM se requiere haber registrado previamente el  Activo, el Centro de Costo, el Centro de Responsable, los Oficios y los Responsables, el Tipo de Actividad de Mantenimiento, al igual que los Repuestos requeridos, todo ello en sus respectivas tablas de Infraestructura, Activos y Repuestos.
 
-**Se pueden definir PMs de tipo:** Preventivo, Predictivo, Metrología, Lubricación, Inspección, Otro, Otros Mantenimiento y los que se definan en la tabla de Tipos de mantenimiento en el módulo de Infraestructura.
+**Se pueden definir PM de tipo:** Preventivo, Predictivo, Metrología, Lubricación, Inspección, Otro, Otros Mantenimiento y los que se definan en la tabla de Tipos de mantenimiento en el módulo de Infraestructura.
 
-Las demás actividades que pueden ser ejecutadas por el área de Mantenimiento caen en el grupo de actividades no programadas, dentro de las cuales se destacan las Correctivas y aquellas orientadas por  decisiones Técnicas, Operativas o  Administrativas; además las Mejorativas y todas aquellas que no constituyen Mantenimiento: Instalaciones o montajes, Traslado de Activos, Servicios a Producción u otras áreas, entre otras. 	Todas ellas  se crean manualmente en el Módulo de Ordenes de Trabajo
+Las demás actividades que pueden ser ejecutadas por el área de Mantenimiento caen en el grupo de actividades no programadas, dentro de las cuales se destacan las Correctivas y aquellas orientadas por  decisiones Técnicas, Operativas o  Administrativas; además las Mejorativas y todas aquellas que no constituyen Mantenimiento: Instalaciones o montajes, Traslado de Activos, Servicios a Producción u otras áreas, entre otras. Todas ellas se crean manualmente en el Módulo de Órdenes.
 
 ## Presupuesto
 
-**ejecutar  la  Actividad  de  Mantenimiento. Está  conformado  normalmente  por  cuatro  componentes:** Mano de Obra Interna, Mano de Obra Externa, Materiales / Repuestos y Otros Conceptos de Costo (Gastos indirectos).
+**Ejecutar  la  Actividad  de  Mantenimiento. Está  conformado  normalmente  por  cuatro  componentes:** Mano de Obra Interna, Mano de Obra Externa, Materiales / Repuestos y Otros Conceptos de Costo (Gastos indirectos).
 
 Realizar permanentemente un Control Presupuestal de sus Gastos de Mantenimiento es una labor casi obligante para una organización. El **AM**** brinda esta posibilidad y para ello, permite definir a nivel de cada PM una matriz de presupuesto, que es la base para el logro del objetivo planteado. Cuando un PM genera una OT, la matriz de presupuesto del PM se traslada a la matriz respectiva en la OT generada.
 
