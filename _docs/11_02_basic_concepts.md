@@ -68,9 +68,9 @@ A través de ellos se establece cuándo ejecutar las labores de Mantenimiento. S
 
 ## Frecuencia
 
-Define la periodicidad de tiempo con la cual un PM debe generar una Orden de Trabajo; las frecuencias posibilitadas son: Días, Semanas, Meses. A cada Frecuencia se le especifica un Período que la complementa. Un PM con frecuencia Meses y  período 1, significa que el PM genera una OT mensualmente; de igual forma, si la frecuencia definida es días y el período especificado es 10, significa que el PM genera una OT cada 10 días.
+Define la periodicidad de tiempo con la cual un PM debe generar una Órden de Trabajo; las frecuencias son: Días, Semanas, Meses. A cada Frecuencia se le especifica un Período que la complementa. Un PM con frecuencia Meses y período 1, significa que el PM genera una OT mensualmente; de igual forma, si la frecuencia definida es días y el período especificado es 10, significa que el PM genera una OT cada 10 días.
 
-El Sistema genera una  OT obedeciendo al Criterio de Programación que  cumpla  las  condiciones establecidas en el PM.
+El Sistema genera una OT obedeciendo al Criterio de Programación que  cumpla las condiciones establecidas en el PM.
 
 ## Semanas del Año (SA)
 
