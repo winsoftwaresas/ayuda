@@ -74,9 +74,9 @@ El Sistema genera una OT obedeciendo al Criterio de Programación que  cumpla la
 
 ## Semanas del Año (SA)
 
-Este criterio de programación permite generar OTs en cualquier semana del año, con base en eventos programados, sin que haya la necesidad de haber cumplido un ciclo o haber sobrepasado una cantidad de trabajo realizado por el Activo. Para ello se  señala una casilla, de las 52, una por cada semana, en las que se ha dividido el año. Entonces, un PM por este criterio, genera una OT para cada semana señalada. Las Ordenes de Trabajo de cada semana se generan cuando al rango de Análisis /  Generación definido, para la próxima generación, corresponda a una o varias de las semanas señaladas.
+Este criterio de programación permite generar OT en cualquier semana del año, con base en eventos programados, sin que haya la necesidad de haber cumplido un ciclo o haber sobrepasado una cantidad de trabajo realizado por el Activo. Para ello se señala una casilla de las 52, una por cada semana, en las que se ha dividido el año. Entonces, un PM por este criterio, genera una OT para cada semana señalada. Las Órdenes de Trabajo de cada semana se generan cuando al rango de Análisis/Generación definido, para la próxima generación, corresponda a una o varias de las semanas señaladas.
 
-Cuando se definan PMs por Semanas del Año (SA), se debe especificar al **AM****  cuál es la semana número 1 según el calendario de la organización usuaria. Para ello se debe ir a la opción ** “Administración”** del Menú Principal, y a**  “Valores por defecto”** en el submenú.
+Cuando se definan PMs por Semanas del Año (SA), se debe especificar al **AM** cuál es la semana número 1 según el calendario de la organización usuaria. Para ello se debe ir a la opción **“Administración”** del Menú Principal, y a**  “Valores por defecto”** en el submenú.
 Allí se especifica en qué día de Enero inicia la segunda (2ª) semana del año.  El **AM**** es capaz entonces, con ese dato, de proyectar todas las semanas del año, de  acuerdo al calendario de la organización.
 
 Semanas del Año es un Criterio excluyente en el conjunto.  Por lo tanto no se  puede combinar con ninguno de los otros tres Criterios de Programación.
