@@ -56,19 +56,19 @@ En otro contexto, cuando se ha definido un PM cuyo Criterio de Programación no 
 
 ## Fecha de última Generación (FUG)
 
-La fecha de última generación es informativa; indica el momento en que el PM generó, en forma real una Orden de Trabajo, por última vez. Este dato es importante para chequear la fecha de la última generación real, para revisar los intervalos de  tiempo  en que se ha dejado de generar Ordenes de Trabajo desde ese PM, por  razones como olvido, mala programación, cambios en los datos de los Criterios de  Programación, o modificaciones incorrectas de las Fechas de Inicio de Período, entre otras.
+La fecha de última generación es informativa; indica el momento en el cual el PM generó, en forma real una Órden de Trabajo, por última vez. Este dato es importante para chequear la fecha de la última generación real, para revisar los intervalos de tiempo  en que se ha dejado de generar Órdenes de Trabajo desde ese PM, por razones como olvido, error en la  programación, cambios en los datos de los Criterios de  Programación, o modificaciones incorrectas de las Fechas de Inicio de Período, entre otras.
 
-La FUG y la FIP son iguales la mayor parte del tiempo. Los únicos dos casos en que ésta premisa no se cumple, son: Primero, en el momento de la creación del PM (la FUG tiene un valor de inicialización) y Segundo, en el momento en que se modifique la FIP a través de  la  transacción  ** “Modificar  la  FIP”**.  En  cualquier  caso,  para  efectos  de  generación automática de OTs, por criterio Frecuencia, tiene prioridad la FIP.
+La FUG y la FIP son iguales la mayor parte del tiempo. Los únicos dos casos en que ésta premisa no se cumple, son: Primero, en el momento de la creación del PM (la FUG tiene un valor de inicialización) y Segundo, en el momento en que se modifique la FIP a través de la transacción **“Modificar la FIP”**. En cualquier caso, para efectos de generación automática de OT, por criterio Frecuencia, tiene prioridad la FIP.  
 
 ## Criterios de Programación
 
-A través de ellos se establece cuándo ejecutar las labores de Mantenimiento.  Se coloca énfasis en ellos, pues su dominio y administración, son la herramienta clave para distribuir la  carga  de  la  actividad  de  Mantenimiento  programado,   permitiendo   alcanzar  una distribución factible de  los  recursos  de  Mantenimiento en  un  período,  que  minimiza el tiempo improductivo de los Activos y por ende de los paros programados de Producción.
-**
-**El **AM**** ofrece variedad de Criterios de Programación:**por Frecuencia, por Semanas del Año y por Contador. Sobre cada uno de ellos se presenta un breve estudio a continuación.
+A través de ellos se establece cuándo ejecutar las labores de Mantenimiento. Se coloca énfasis en ellos, pues su dominio y administración, son la herramienta clave para distribuir la carga de  la actividad de Mantenimiento programado, permitiendo alcanzar una distribución factible de los recursos de Mantenimiento en un período,  que  minimiza el tiempo improductivo de los Activos y por ende de los paros programados de Producción.
+
+**AM** ofrece tres Criterios de Programación: por Frecuencia, por Semanas del Año y por Contador. Sobre cada uno de ellos se presenta un breve estudio a continuación.
 
 ## Frecuencia
 
-Define la periodicidad de tiempo con la cual un PM debe generar una Orden de Trabajo; las frecuencias posibilitadas son: Días, Semanas, Meses. A	cada Frecuencia se le especifica un Período que la complementa. Un PM con frecuencia Meses y  período 1, significa que el PM genera una OT mensualmente; de igual forma, si la frecuencia definida es días y el período especificado es 10, significa que el PM genera una OT cada 10 días.
+Define la periodicidad de tiempo con la cual un PM debe generar una Orden de Trabajo; las frecuencias posibilitadas son: Días, Semanas, Meses. A cada Frecuencia se le especifica un Período que la complementa. Un PM con frecuencia Meses y  período 1, significa que el PM genera una OT mensualmente; de igual forma, si la frecuencia definida es días y el período especificado es 10, significa que el PM genera una OT cada 10 días.
 
 El Sistema genera una  OT obedeciendo al Criterio de Programación que  cumpla  las  condiciones establecidas en el PM.
 
