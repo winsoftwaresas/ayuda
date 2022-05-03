@@ -50,9 +50,9 @@ Crear el Presupuesto a un PM en **AM* consiste en hacer una evaluación de las n
 
 ## Fecha de Inicio de Período (FIP)
 
-La  Fecha de Inicio de Periodo (FIP) sirve para definir el  inicio de la  vigencia de un Programa. La FIP indica el momento, a partir del cual, se comienza el conteo de tiempo para la generación de una nueva Orden de Trabajo. **Esta fecha corresponde a la ejecución de la última vez (anterior), de la Actividad de Mantenimiento que se está Programando.**
+La Fecha de Inicio de Periodo (FIP) sirve para definir el inicio de la  vigencia de un Programa. La FIP indica el momento, a partir del cual, se comienza el conteo de tiempo para la generación de una nueva Órden de Trabajo. **Esta fecha corresponde a la ejecución de la última vez (anterior) de la Actividad de Mantenimiento que se está Programando.**
 
-En otro contexto, cuando se ha definido un PM cuyo Criterio de Programación no  es  la Frecuencia sino un **Contador o Semanas del Año**, la FIP tiene una significación especial: se trata de la fecha a partir de la cual entra en vigencia el PM. Esto significa que para los PMs con criterio de programación distinto a **Frecuencia**, mientras la  Fecha de Inicio del lapso a programar no sea igual o  posterior o a la FIP, no se generan Órdenes de Trabajo, aunque su criterio de programación se cumpla.
+En otro contexto, cuando se ha definido un PM cuyo Criterio de Programación no es la Frecuencia sino un **Contador o Semanas del Año**, la FIP tiene una significación especial: se trata de la fecha a partir de la cual entra en vigencia el PM. Esto significa que para los PM con criterio de programación distinto a **Frecuencia**, mientras la  Fecha de Inicio del lapso a programar no sea igual o posterior o a la FIP, no se generan Órdenes de Trabajo, aunque su criterio de programación se cumpla.
 
 ## Fecha de última Generación (FUG)
 
