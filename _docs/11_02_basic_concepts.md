@@ -82,12 +82,11 @@ Semanas del Año es un Criterio excluyente en el conjunto. Por lo tanto no se  p
 
 ## Por Contador
 
-Este criterio se usa cuando el AC a programar opera bajo una función no uniforme en el tiempo, o sea cuando trabaja por demanda, y mantiene un registro de su operación real, mediante un contador, que puede ser de horas, de kilómetros recorridos, metros hilados, unidades producidas, golpes, revoluciones o moldeadas, entre muchos otros, predefinidos o definibles por el usuario.  Este es un criterio que se usa entonces, para generar OTs  en función del trabajo realizado por el Activo u Objeto de Mantenimiento.
+Este criterio se usa cuando el Activo a programar opera bajo una función no uniforme en el tiempo, o sea cuando trabaja por demanda, y mantiene un registro de su operación real, mediante un contador, que puede ser de horas, de kilómetros recorridos, metros hilados, unidades producidas, golpes, revoluciones o moldeadas, entre muchos otros, predefinidos o definibles por el usuario.  Este es un criterio que se usa entonces, para generar OT en función del trabajo realizado por el Activo u Objeto de Mantenimiento.
 
-Para  poder  usar  este criterio  en  un  PM,  es  necesario que  el  AC  a  programar,  tenga asignado un Contador en su Ficha Técnica, con su respectivo valor y fecha de medición.
+Para poder usar este criterio en un PM, es necesario que el Activo a  programar, tenga asignado un Contador en su Ficha Técnica, con su respectivo valor y fecha de medición actualizado.
 
-Hay dos modos de definir el Criterio de Programación por Contador, el primero es  por
-Incremento, el segundo es por Límite.
+Hay dos modos de definir el Criterio de Programación por Contador, el primero es  por **Incremento**, el segundo es por **Límite.**
 
 En el primer caso, por Incremento, el PM genera una Orden de Trabajo múltiples veces, cada vez que el contador del Activo supere, en el valor de la Recurrencia, al  ** “Valor del contador al inicio del período”**, definido en el PM. Para establecer cuando generar una OT, se compara el valor actual del contador (del Activo) contra el valor contenido en el campo**  “Última Generación de OT”**. Esta diferencia se compara contra  el valor en el campo ** “Recurrencia”** y si es mayor se genera una Orden de Trabajo.
 
