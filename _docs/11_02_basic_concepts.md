@@ -33,7 +33,7 @@ Además de la información característica que se acaba de mencionar, un PM se d
 
 Un PM se define con el objeto de que él genere, automáticamente, con la anticipación requerida, una Órden de Trabajo para un Activo, Equipo u Objeto de Mantenimiento, cada vez que se cumpla el criterio interno establecido en el Programa (PM). Se debe recordar que toda la información definida allí se traslada a la OT cuando el PM la genere.
 
-Para definir un PM se requiere haber registrado previamente el  Activo, el Centro de Costo, el Centro de Responsable, los Oficios y los Responsables, el Tipo de Actividad de Mantenimiento, al igual que los Repuestos requeridos, todo ello en sus respectivas tablas de Infraestructura, Activos y Repuestos.
+Para definir un PM se requiere haber registrado previamente el Activo, el Centro de Costo, el Centro de Responsable, los Oficios y los Responsables, el Tipo de Actividad de Mantenimiento, al igual que los Repuestos requeridos, todo ello en sus respectivas tablas de Infraestructura, Activos y Repuestos.
 
 **Se pueden definir PM de tipo:** Preventivo, Predictivo, Metrología, Lubricación, Inspección, Otro, Otros Mantenimiento y los que se definan en la tabla de Tipos de mantenimiento en el módulo de Infraestructura.
 
@@ -41,11 +41,12 @@ Las demás actividades que pueden ser ejecutadas por el área de Mantenimiento c
 
 ## Presupuesto
 
-**Ejecutar  la  Actividad  de  Mantenimiento. Está  conformado  normalmente  por  cuatro  componentes:** Mano de Obra Interna, Mano de Obra Externa, Materiales / Repuestos y Otros Conceptos de Costo (Gastos indirectos).
+El Presupuesto de un PM es la estimación de los Costos, en los que se puede incurrir al ejecutar la Actividad de Mantenimiento. Está conformado normalmente por tres componentes: Mano de Obra, Materiales/ Repuestos y Otros Conceptos de Costo (Gastos indirectos).
 
-Realizar permanentemente un Control Presupuestal de sus Gastos de Mantenimiento es una labor casi obligante para una organización. El **AM**** brinda esta posibilidad y para ello, permite definir a nivel de cada PM una matriz de presupuesto, que es la base para el logro del objetivo planteado. Cuando un PM genera una OT, la matriz de presupuesto del PM se traslada a la matriz respectiva en la OT generada.
 
-Crear  el  Presupuesto  a  un  PM  en  **AM****  consiste  en  hacer  una  evaluación  de  las necesidades de recursos de Mano de Obra Interna, Mano de Obra Externa, Materiales / Repuestos, y Otros Conceptos de Costo, todos ellos discriminados por Tipo de Trabajo y Concepto de Gasto. Con ello, se procede a ingresar los valores al Sistema; en la Matriz de Presupuesto.
+Realizar permanentemente un Control Presupuestal de sus Gastos de Mantenimiento es una labor casi obligante para una organización. **AM** brinda esta posibilidad y para ello, permite definir a nivel de cada PM una matriz de presupuesto, que es la base para el logro del objetivo planteado. Cuando un PM genera una OT, la matriz de presupuesto del PM se traslada a la matriz respectiva en la OT generada.
+
+Crear el Presupuesto a un PM en **AM* consiste en hacer una evaluación de las necesidades de recursos de Mano de Obra, Materiales/Repuestos, y Otros Conceptos de Costo, todos ellos discriminados por Tipo de Trabajo y Concepto de Gasto. Con ello, se procede a ingresar los valores en la Matriz de Presupuesto.
 
 ## Fecha de Inicio de Período (FIP)
 
