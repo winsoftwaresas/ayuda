@@ -8,19 +8,19 @@ author: win
 order: 11_03
 date: 2022-05-04T15:27:44.518Z
 ---
-# Ventana Principal de Programas de Mantenimiento
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img01.png)
+_**Imagen 1.** Programas de Mantenimiento_
 
-![Programa de mantenimiento](../../assets/images/cap08/chp08_img01.png)
+A esta ventana se accede desde un clic al comando <a class="btn blue">programas</a> del Menú Principal de **AM**. 
 
-A esta ventana se accede desde el comando Programas del Menú Principal de **AM****.
+A través de esta ventana se crean y administran los PM. La mayor parte  de la información aquí definida, se traslada completamente a la OT, cuando el Programa la genere.
 
-A  través  de  esta  ventana  se  crean  y  administran  los  PMs.  La  mayor  parte  de  la información aquí definida, se traslada completamente a la OT, cuando el  Programa la genere.
-
-Desde esta misma ventana se lanzan los procesos de Proyección de los PMs, para realizar una  o  varias  simulaciones,  para  un  período  futuro  de  largo  plazo,  con   el  fin  de Analizar/Definir el Presupuesto de los recursos requeridos para ese período, y así mismo analizar la disponibilidad de los ACs.
+Desde esta misma ventana se hacen los procesos de Proyección de los PMs, para realizar una o varias simulaciones, para un período futuro  de largo plazo, con el fin de Analizar/Definir el Presupuesto de los recursos requeridos para ese período, y así mismo analizar la disponibilidad de los Activos.
 
 ## Ventana Visor de Programas
 
-![ventana visor](../../assets/images/cap08/chp08_img02.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img02.png)
+_**Imagen 2.** Programas de Mantenimiento - Visor_
 
 Desde esta ventana es posible observar los Programas de Mantenimiento existentes. Se listan todos o una selección o subgrupo de ellos. El conjunto de Programas de Mantenimiento disponibles a ser desplegado se muestra a través de páginas.  El tamaño de las páginas es  configurable desde la opción Administrar por parte de quien tenga acceso a ella.
 
