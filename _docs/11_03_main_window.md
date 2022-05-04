@@ -22,23 +22,24 @@ Desde esta misma ventana se hacen los procesos de Proyección de los PMs, para r
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img02.png)
 _**Imagen 2.** Programas de Mantenimiento - Visor_
 
-Desde esta ventana es posible observar los Programas de Mantenimiento existentes. Se listan todos o una selección o subgrupo de ellos. El conjunto de Programas de Mantenimiento disponibles a ser desplegado se muestra a través de páginas.  El tamaño de las páginas es  configurable desde la opción Administrar por parte de quien tenga acceso a ella.
+Desde esta ventana es posible observar los Programas de Mantenimiento existentes. Se listan todos o si bien un filtro o subgrupo de ellos. El conjunto de Programas de Mantenimiento disponibles a ser desplegado se muestra a través de páginas. La cantidad de registros es configurable desde la opción <a class="btn blue">administración</a> por parte de un usuario administrador.
 
-Al  hacer  clic  sobre  alguno  de  los  Programas de Mantenimiento  del  Visor  el  sistema   responde mostrando  la  información  de  ese  Programa de Mantenimiento,  en  forma  detallada,  en  una video llamada, Ventana Detalle.
+Al hacer clic sobre alguno de los Programas de Mantenimiento del Visor  el sistema responde mostrando la información de ese registro, en  forma  detallada, en una ventana llamada, Ventana Detalle.
 
-Los títulos en azul que encabezan las columnas son también botones que permiten ordenar la    tabla, según el título seleccionado. Para elegir un registro de la tabla se da un clic del mouse sobre él o se desplaza el cursor con las teclas de desplazamiento.
+Los títulos en azul que encabezan las columnas son también botones que permiten ordenar la tabla, según el título seleccionado. Para elegir un registro de la tabla se da un clic del mouse sobre él o se desplaza el cursor con las teclas de desplazamiento.
 
 ## Ventana Detalle de Programas
 
-![detalle del programa de mantenimiento](../../assets/images/cap08/chp08_img03.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img03.png)
+_**Imagen 23** Programas de Mantenimiento - Ventana Detalle_
 
-En la gráfica anterior, Ventana Detalle de PMs, se aprecian sus  componentes y  sus respectivos contenidos; aquí se encuentra la información relevante al PM seleccionado en el Visor y se administran los datos genéricos del PM. Es desde esta ventana que se crean, se actualizan y administran los PMs.
+En la gráfica anterior, Ventana Detalle de PM, se aprecian sus  componentes y  sus respectivos contenidos; aquí se encuentra la información relevante al PM seleccionado en el Visor y se administran los datos genéricos del PM. Es desde esta ventana que se crean, se actualizan y administran los PM.
 
 A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación.
 
 **Activo:** Lista los Activos existentes en la tabla de ACs; desde allí se elige aquel para el que se va a definir el PM. Aparece entonces, al lado derecho, la descripción del Activo.
 
-**Descripción del Activo:** nombre o  descripción del Activo seleccionado. Es un campo que no es modificable por el usuario.
+**Descripción del Activo:** nombre o descripción del Activo seleccionado. Es un campo que no es modificable por el usuario.
 
 **FF Fin Garantía:** expone la fecha en la que se vence la garantía del Activo seleccionado. Si se encuentra con fecha de garantía vigente se muestra en color negro, si se encuentra con fecha de garantía vencida se muestra en color rojo.
 
