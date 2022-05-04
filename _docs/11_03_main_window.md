@@ -1,16 +1,13 @@
 ---
 title: Ventana Principal de Programas de Mantenimiento
-subtitle: aqui encontrara  el ejemplo visual d cada ventada emergente de la seccion de mantenimiento con su respectivo proceso de uso.
-tags: [setup]
+subtitle: aqui encontrara  el ejemplo visual d cada ventada emergente de la
+  seccion de mantenimiento con su respectivo proceso de uso.
+tags:
+  - setup
 author: win
 order: 11_03
+date: 2022-05-04T15:27:44.518Z
 ---
----
-
-layout: page
-title: Maintenance Programs
----------------------------
-
 # Ventana Principal de Programas de Mantenimiento
 
 ![Programa de mantenimiento](../../assets/images/cap08/chp08_img01.png)
