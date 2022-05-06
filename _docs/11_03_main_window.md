@@ -41,11 +41,11 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 **Descripción del Activo:** nombre o descripción del Activo seleccionado. Es un campo que no es modificable por el usuario.
 
-**FF Fin Garantía:** expone la fecha en la que se vence la garantía del Activo seleccionado. Si se encuentra con fecha de garantía vigente se muestra en color negro, si se encuentra con fecha de garantía vencida se muestra en color rojo.
+**FF Fin Garantía:** Expone la fecha en la que se vence la garantía del Activo seleccionado. Si se encuentra con fecha de garantía vigente se muestra en color negro, si se encuentra con fecha de garantía vencida se muestra en color rojo.
 
-**Tarea:** El número de la Tarea se refiere al número ordinal de este PM dentro del conjunto de PMs definidos para un AC. Su finalidad es diferenciar un PM de otro para un mismo AC.
+**Tarea:** El número de la Tarea se refiere al número ordinal de este PM dentro del conjunto de PM definidos para un Activo. Su finalidad es diferenciar un PM de otro para un mismo Activo.
 
-Este campo es un consecutivo ascendente por AC, y es controlado por el Sistema. Al lado derecho  del  campo  que  indica  la  Tarea,  se  encuentra  un  campo  para   ingresar  la
+Este campo es un consecutivo ascendente por Activo, y es controlado por el Sistema. Al lado derecho del campo que indica la Tarea, se  encuentra un campo para ingresar la
 
 **Descripción del Programa:** En este campo se registra la descripción de la actividad programada a realizarse, tiene una  longitud de  80  caracteres alfanuméricos.
 
@@ -256,13 +256,13 @@ Cuando se  define un  PM  en  función de  un  contador de  un  Activo, debe  ex
 
 En los casos en que la actualización de los contadores de los ACs no pueda ser frecuente, el **AM**** suministra un mecanismo automático que lo simula, mientras se puede realizar una nueva lectura y actualización real a ese contador. Se trata del  campo Estándar de Planeación que se encuentra en la parte inferior de la ventana detalle de Activos. Allí se define una cantidad de trabajo estándar que realiza ese Activo por unidad de tiempo. Este valor es definido con base en una estadística real del trabajo de ese Activo en un período considerable, ojalá no inferior a los 6 meses.
 
-**Por Límite:** Indica que el Contador del AC debe alcanzar una cantidad tope, definida en  la Recurrencia, para que el PM genere la OT. Por este criterio solo se genera una y solo una Orden de Trabajo, cuando se alcance el Límite definido. Una vez generada la OT desde el PM, este se desactiva y ya no vuelve a generar otras OTs.
+**Por Límite:** Indica que el Contador del AC debe alcanzar una cantidad tope, definida en la Recurrencia, para que el PM genere la OT. Por este criterio solo se genera una única vez la Órden de Trabajo, cuando se alcance el Límite definido. Una vez generada la OT desde el PM, éste se desactiva y ya no vuelve a generar otras OT.
 
 **Recurrencia:** En este campo se define una cifra o cantidad que denota el incremento que debe sufrir el contador del Activo, para generar una Orden de Trabajo por contador, con criterio Incremento. Pero también en este campo se define un valor límite al que debe llegar el contador del Activo para generar una Orden de Trabajo por contador, cuando el criterio es Límite.
 
 **Vlr. Contador al Inicio del Período:** Se refiere al valor inicial del contador del Activo, correspondiente a la Fecha de Inicio de Período (FIP) previamente diligenciada en el mismo apartado.
 
-**Fecha de última generación de OT:** Esta fecha es informativa y viene a ser la FUG (fecha de la última generación), por tanto  no  se  puede  modificar,  esta  fecha  es  la  misma  para  todos  los   Criterios  de Programación. Es una fecha real, siempre, que muestra cuando fue  que se realizó la última generación de una Orden de Trabajo desde ese PM.
+**Fecha de última generación de OT:** Esta fecha es informativa y viene a ser la FUG (fecha de la última generación), por tanto no se puede  modificar, esta fecha es la misma para todos los Criterios de Programación. Es una fecha real, siempre, que muestra cuando fue que se realizó la última generación de una Orden de Trabajo desde ese PM.
 
 Para saber si la OT se va a generar o no; el **AM****  proyecta el valor del Contador del AC desde la fecha de su última medición hasta el primer día del rango de análisis / generación, y compara el nuevo valor del Contador del AC, con el CUG.  Si el valor de la comparación, es mayor o igual a la Recurrencia, genera la Orden de Trabajo.  De lo contrario, recalcula nuevamente el valor del Contador del AC para el siguiente día  del rango de análisis / generación,  y  hace  la  misma  comparación. Así  recorre todo  el  rango  de  análisis  / generación  hasta  el  último  día,  generando  una  OT,  si   el   valor  de  alguna  de  las comparaciones es mayor o igual a la recurrencia.
 
