@@ -86,14 +86,14 @@ Este criterio se usa cuando el Activo a programar opera bajo una función no uni
 
 Para poder usar este criterio en un PM, es necesario que el Activo a  programar, tenga asignado un Contador en su Ficha Técnica, con su respectivo valor y fecha de medición actualizado.
 
-Hay dos modos de definir el Criterio de Programación por Contador, el primero es  por **Incremento**, el segundo es por **Límite.**
+Hay dos modos de definir el Criterio de Programación por Contador, el primero es por **Incremento**, el segundo es por **Límite.**
 
-En el primer caso, por Incremento, el PM genera una Órden de Trabajo múltiples veces, cada vez que el contador del Activo supere, en el valor de la Recurrencia, al **“Valor del contador al inicio del período”**, definido en el PM. Para establecer cuando generar una OT, se compara el valor actual del contador (del Activo) contra el valor contenido en el campo**  “Última Generación de OT”**. Esta diferencia se compara contra el valor en el campo **“Recurrencia”** y si es mayor se genera una OT.
+En el primer caso, por **Incremento**, el PM genera una Órden de Trabajo múltiples veces, cada vez que el contador del Activo supere, en el valor de la Recurrencia, al **“Valor del contador al inicio del período”**, definido en el PM. Para establecer cuando generar una OT, se compara el valor actual del contador (del Activo) contra el valor contenido en el campo** “Última Generación de OT”**. Esta diferencia se compara contra el valor en el campo **“Recurrencia”** y si es mayor se genera una OT.
 
-En el segundo caso, por Límite, el PM solo genera una Órden de Trabajo cuando el valor actual del contador del Activo supere el valor contenido en el PM, en el campo Recurrencia (Valor límite, en este caso).
+En el segundo caso, por **Límite**, el PM solo genera una Órden de Trabajo cuando el valor actual del contador del Activo llegue al valor contenido en el PM, indicado en el campo Recurrencia (Valor límite, en este caso).
 
-Cuando se define un PM en función de un contador de un Activo, se debe definir un mecanismo administrativo: manual o automático, para  actualizar y mantener al  día el contador de ese Activo en **AM**. Se trata de garantizar que tales contadores reflejen permanente la cantidad de trabajo realizado por el equipo.
+Cuando se define un PM en función de un contador de un Activo, se debe definir un mecanismo administrativo: manual o automático, para  actualizar y mantener al día el contador de ese Activo en **AM**. Se trata de garantizar que tales contadores reflejen permanente la cantidad de trabajo realizado por el equipo.
 
-En los casos en que la actualización de los contadores de los Activos no pueda ser frecuente, **AM** suministra un mecanismo automático que lo simula, mientras se puede realizar una nueva lectura y actualización real a ese contador. Se trata del  campo **“Estándar de Planeación”** que se encuentra en la parte inferior de la ventana detalle de Activos. Allí se define una cantidad de trabajo estándar que realiza ese Activo por unidad de tiempo. Este valor es definido con base en una estadística real del trabajo de ese Activo en un período considerable, ojalá no inferior a 1 mes.
+En los casos en que la actualización de los contadores de los Activos no pueda ser frecuente, **AM** suministra un mecanismo automático que lo simula, mientras se puede realizar una nueva lectura y actualización real a ese contador. Se trata del campo **“Estándar de Planeación”** que se encuentra en la parte inferior de la ventana detalle de <a class="btn blue">Activos</a>. Allí se define una cantidad de trabajo estándar que realiza ese Activo por unidad de tiempo. Este valor es definido con base en una estadística real del trabajo de ese Activo en un período considerable, ojalá no inferior a 1 mes.
 
-En la sección Última Generación de OT la cual no es posible inicializar  pues está protegida y es actualizada automática y únicamente por **AM**, después de la primera generación automática.
+En el campo Última Generación de OT es un campo sólo informativo, pues está protegido y es actualizado automático, después de la primera generación automática de OT.
