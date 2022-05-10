@@ -163,7 +163,7 @@ Costo que tengan parte del nombre igual. Por ejemplo: Sistema% seleccionará tod
 
 **Contrato:** Permite filtrar los PMs por el contrato al que están asociados. Para escoger un contrato se descuelga la lista de Contratos definidos en Infraestructura.   Pero es  posible también definir un contrato como filtro, usando comodines.
 
-**Criterio:**   Permite   visualizar   el   subconjunto   de   PMs   definidos   con   el   Criterio   de Programación ** “X”;** así que se pueden listar en el visor de PMs, aquellos PMs que fueron definidos con Criterio de Programación trimestral, o mensual, por Contador por Incremento, entre otros.
+**Criterio:** Permite visualizar el subconjunto de PM definidos con   el   Criterio   de Programación ** “X”;** así que se pueden listar en el visor de PMs, aquellos PMs que fueron definidos con Criterio de Programación trimestral, o mensual, por Contador por Incremento, entre otros.
 
 **Comentario del Programa:** Filtra los programas de mantenimiento que cumplan  con  la opción de poseer comentario. Este es un campo para ingresar el comentario que se desee buscar en los programas.
 
