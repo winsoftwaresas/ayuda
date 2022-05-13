@@ -211,7 +211,7 @@ Nota: Se deben corregir y asociar a un responsable.
 
 
 
-3. Se complementa el reporte HMD-HIHV - Hoja De Vida Activo En Historia. Se incluye al activo
+3. Se complementa el reporte HMD-HIHV -Hoja De Vida Ficha Técnica Resumida. Se incluye al activo
 La misma información que contiene el reporte de ficha técnica en Activos.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/uploads/RepHMDHIHV.png)
@@ -220,7 +220,7 @@ La misma información que contiene el reporte de ficha técnica en Activos.
  
 
 
-4. Se desarrolla el reporte HMD-HIHVBIO - Hoja De Vida Activo de Biomédica En Historia. EL cual adiciona las características biomédicas del activo al reporte.
+4. Se desarrolla el reporte HMD-HIHVBIO - Hoja De Vida por Activo. El cual adiciona las características biomédicas del activo al reporte.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/uploads/RepHMDHIHVBIO.png)
 
