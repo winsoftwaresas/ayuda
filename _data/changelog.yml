@@ -1,35 +1,39 @@
 # Changelog page source
 
-- title: Version 81
+- title: Version 4.0.81
   label: STABLE
   date: Mayo 5, 2022
   list:
-  - Reporte HMI-IND3 - Porcentaje De Cumplimiento Preventivos  - Responde a los filtros en los 3 modulos SS, OT,HI
-  - Reporte HMI-IND4 - Porcentaje De Cumplimiento Correctivos - Responde a los filtros en los 3 modulos SS, OT,HI
-  - Reporte HMI-IND7 - Indicador De Oportunidad De Mantenimiento Correctivo - Responde a los filtros en los 3 modulos SS, OT,HI
-  
+  - Se corrige la tabla de Infraestructura Referencias, se pueden realizar actualizaciones y eliminar
+  - Se adicionaron 5 puntos de metrologia a los activos biomedicos. Total 8 puntos.
+  - Se desarrolla un nuevo filtro para Activos que permite la busqueda por Valor Nominal de las caracteristicas.
+  - Se habilita la funcion Eliminar Contadores en Activos; se borra tanto el contador como su historial.
+  - Se igualan los Indicadores en el visor de Asociar Activos del modulo de Almacen con el visor principal del modulo de Activos.
+  - Se desarrolla una validacion en Seguimiento y Cierre para indicar al usuario que hay registros en Mano de Obra Gasto Real sin asociar a Responsables.
+  - Se igualan los Indicadores en el visor de Seguimiento y Cierre con el visor principal del modulo de Órdenes.
+  - En Gasto Real Mano de Obra del modulo de Historia los usuarios podran ver los registros asi no esten asociados a un responsable.
+  - En la transaccion exportar a los campos de Fechas se les da un formato sin milisegundos.
+  - Los Dashboard de Activos, Almacen, Programas y Órdenes se programan para responder al subgrupo asignado.
+  - Se integra a valores por defecto la opcion de Notificaciones. 
+  - Se desarrollan los reportes de Historia HMI-IND3 ,HMI-IND4 ,HMI-IND7 ,HMD-HIHV, HMD-HIHVBIO.
+  - Se desarrollan los reportes de Órdenes OTD-G2XP,OTD-P2XP.
 
-- title: Version 1.0.0
-  label: BETA 1
-  date: Sep 01, 2017
+- title: Version 4.0.80
+  label: STABLE
+  date: Abril 05, 2022
   list:
   - Allow fullscreen mode for YouTube videos in Lightbox
-  - Fix icons not displaying if connected in rapid succession
-  - Fix scrollbar jumping in Switcher
-
-- title: Version 0.6.0
-  label:
-  date: Aug 15, 2017
+ 
+- title: Version 4.0.79
+  label: STABLE
+  date: Febrero 28, 2022
   list:
   - Added style support for radio and checkbox in Firefox
-  - Removed class from Section component
-  - Add workaround to mitigate the duplicating icons issue
-  - Fixed responsive images in modal for IE11
+  
 
-- title: Version 0.5.0
-  label:
-  date: Oct 21, 2017
+- title: Version 4.0.78
+  label: STABLE
+  date: Enero 31, 2022
   list:
   - Media options now support any valid media query syntax
-  - Added style support for radio and checkbox in Firefox
-  - Fix whitespace trimming in dist
+
