@@ -91,7 +91,7 @@ MODULO SOLICITUDES:
 
 
 
-1.Se corrige las relaciones con los permisos restrictivos (Las versiones anteriores tenían trocados los permisos restrictivos de Solicitudes Creadas por el Usuario y Solicitudes donde el usuario era Responsable)
+1. Se corrige las relaciones con los permisos restrictivos (Las versiones anteriores tenían trocados los permisos restrictivos de Solicitudes Creadas por el Usuario y Solicitudes donde el usuario era Responsable)
 En la nueva versión al usuario se le cargaran solo los registros que su restricción le permite.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/uploads/PermitSS.png)
@@ -168,7 +168,7 @@ MODULO ORDENES:
 
 
 
-6. Se desarrolla el reporte OTD-G2XP	Detalle De Orden De Trabajo: El cual contiene una pagina adicional para comentarios y espacio adicional en los valores de Gastos.
+6. Se desarrolla el reporte OTD-G2XP  Detalle De Orden De Trabajo: El cual contiene una pagina adicional para comentarios y espacio adicional en los valores de Gastos.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/uploads/RepOTD-G2XP.png)
 
@@ -176,7 +176,7 @@ MODULO ORDENES:
  
 
 
-7. Se desarrolla el reporte OTD-P2XP	Detalle De Orden De Trabajo: El cual contiene una página adicional para comentarios y espacio adicional en los valores de Gastos.
+7. Se desarrolla el reporte OTD-P2XP  Detalle De Orden De Trabajo: El cual contiene una página adicional para comentarios y espacio adicional en los valores de Gastos.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/uploads/RepOTD-P2XP.png)
 
@@ -199,13 +199,19 @@ MODULO DE HISTORIA:
 
 Nota: Se deben corregir y asociar a un responsable.
 
-Los campos de fechas en la exportación se llevan a un formato sin milisegundos para permitir a los usuarios interactuar con fórmulas del Excel de manera más ágil.
+
+2. Los campos de fechas en la exportación se llevan a un formato sin milisegundos para permitir a los usuarios interactuar con fórmulas del Excel de manera más ágil.
+
+ 
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/uploads/ExportHI.png)
+
 
  
 
 
 
-2. Se complementa el reporte HMD-HIHV - Hoja De Vida Activo En Historia. Se incluye al activo
+
+3. Se complementa el reporte HMD-HIHV - Hoja De Vida Activo En Historia. Se incluye al activo
 La misma información que contiene el reporte de ficha técnica en Activos.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/uploads/RepHMDHIHV.png)
@@ -214,26 +220,26 @@ La misma información que contiene el reporte de ficha técnica en Activos.
  
 
 
-3. Se desarrolla el reporte HMD-HIHVBIO - Hoja De Vida Activo de Biomédica En Historia. EL cual adiciona las características biomédicas del activo al reporte.
+4. Se desarrolla el reporte HMD-HIHVBIO - Hoja De Vida Activo de Biomédica En Historia. EL cual adiciona las características biomédicas del activo al reporte.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/uploads/RepHMDHIHVBIO.png)
 
 
  
 
-4. Se modifica el reporte HMI-IND3- Porcentaje De Cumplimiento Preventivos. Este reporte responde a cualquier filtro y toma la información según el subgrupo creado en historia, para el módulo de Ordenes.
+5. Se modifica el reporte HMI-IND3- Porcentaje De Cumplimiento Preventivos. Este reporte responde a cualquier filtro y toma la información según el subgrupo creado en historia, para el módulo de Ordenes.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/uploads/RepHMIIND3.png)
 
  
 
-5. Se modifica el reporte HMI-IND4 - Porcentaje De Cumplimiento Correctivos. Este reporte responde a cualquier filtro y toma la información según el subgrupo creado en historia, para el módulo de Ordenes y Solicitudes.
+6. Se modifica el reporte HMI-IND4 - Porcentaje De Cumplimiento Correctivos. Este reporte responde a cualquier filtro y toma la información según el subgrupo creado en historia, para el módulo de Ordenes y Solicitudes.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/uploads/RepHMIIND4.png)
 
  
 
-6. Se modifica el reporte HMI-IND7 - Indicador De Oportunidad De Mantenimiento Correctivo. Este reporte responde a cualquier filtro y toma la información según el subgrupo creado en historia, para el módulo de Ordenes y Solicitudes.
+7. Se modifica el reporte HMI-IND7 - Indicador De Oportunidad De Mantenimiento Correctivo. Este reporte responde a cualquier filtro y toma la información según el subgrupo creado en historia, para el módulo de Ordenes y Solicitudes.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/uploads/RepHMIIND7.png)
 
