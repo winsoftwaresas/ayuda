@@ -22,8 +22,11 @@
   label: STABLE
   date: Abril 05, 2022
   list:
-  - Allow fullscreen mode for YouTube videos in Lightbox
- 
+  - Se incluye en modificación masiva la opción Responsable por la Institución.
+  - Se desarrollan los reportes de Órdenes OTU-MPCI y OTU-G1PVAL.
+  - Se desarrolla el reporte de Historia HME-CRMACC.
+  - Se crea la opción para que los usuarios de AMovil pueden parametrizar desde AM4G, si los técnicos pueden usar el estado Cerrado Ejecutado en AMovil.
+  
 - title: Version 4.0.79
   label: STABLE
   date: Febrero 28, 2022
