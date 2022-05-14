@@ -31,12 +31,9 @@
   label: STABLE
   date: Febrero 28, 2022
   list:
-  - Added style support for radio and checkbox in Firefox
-  
-
-- title: Version 4.0.78
-  label: STABLE
-  date: Enero 31, 2022
-  list:
-  - Media options now support any valid media query syntax
-
+  - Se modifica la tabla de Infraestructura Contratistas.
+  - Se desarrolla la Opción que permite nombrar Ubicaciones Físicas sin prefijos
+  - Se adiciona el Indicador Activo con Estado Inactivo de Color Rojo a la grilla de Activos.
+  - Se agrega a los filtros la búsqueda por FF dado de Baja.
+  - Se desarrolla una consulta en Materiales y repuestos la cual mostrara al usuario el saldo actual del repuesto en el almacén.
+  - Se agrega en el módulo de Historia a los filtros la búsqueda la opción Fecha consumo en otros Conceptos.  
