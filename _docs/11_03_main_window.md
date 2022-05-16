@@ -1,89 +1,90 @@
 ---
 title: Ventana Principal de Programas de Mantenimiento
-subtitle: aqui encontrara  el ejemplo visual d cada ventada emergente de la seccion de mantenimiento con su respectivo proceso de uso.
-tags: [setup]
+subtitle: aqui encontrara  el ejemplo visual d cada ventada emergente de la
+  seccion de mantenimiento con su respectivo proceso de uso.
+tags:
+  - setup
 author: win
 order: 11_03
+date: 2022-05-04T15:27:44.518Z
 ---
----
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img01.png)
+_**Imagen 1.** Programas de Mantenimiento_
 
-layout: page
-title: Maintenance Programs
----------------------------
+A esta ventana se accede desde un clic al comando <a class="btn blue">programas</a> del Menú Principal de **AM**. 
 
-# Ventana Principal de Programas de Mantenimiento
+A través de esta ventana se crean y administran los PM. La mayor parte  de la información aquí definida, se traslada completamente a la OT, cuando el Programa la genere.
 
-![Programa de mantenimiento](../../assets/images/cap08/chp08_img01.png)
-
-A esta ventana se accede desde el comando Programas del Menú Principal de **AM****.
-
-A  través  de  esta  ventana  se  crean  y  administran  los  PMs.  La  mayor  parte  de  la información aquí definida, se traslada completamente a la OT, cuando el  Programa la genere.
-
-Desde esta misma ventana se lanzan los procesos de Proyección de los PMs, para realizar una  o  varias  simulaciones,  para  un  período  futuro  de  largo  plazo,  con   el  fin  de Analizar/Definir el Presupuesto de los recursos requeridos para ese período, y así mismo analizar la disponibilidad de los ACs.
+Desde esta misma ventana se hacen los procesos de Proyección de los PMs, para realizar una o varias simulaciones, para un período futuro  de largo plazo, con el fin de Analizar/Definir el Presupuesto de los recursos requeridos para ese período, y así mismo analizar la disponibilidad de los Activos.
 
 ## Ventana Visor de Programas
 
-![ventana visor](../../assets/images/cap08/chp08_img02.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img02.png)
+_**Imagen 2.** Programas de Mantenimiento - Visor_
 
-Desde esta ventana es posible observar los Programas de Mantenimiento existentes. Se listan todos o una selección o subgrupo de ellos. El conjunto de Programas de Mantenimiento disponibles a ser desplegado se muestra a través de páginas.  El tamaño de las páginas es  configurable desde la opción Administrar por parte de quien tenga acceso a ella.
+Desde esta ventana es posible observar los Programas de Mantenimiento existentes. Se listan todos o si bien un filtro o subgrupo de ellos. El conjunto de Programas de Mantenimiento disponibles a ser desplegado se muestra a través de páginas. La cantidad de registros es configurable desde la opción <a class="btn blue">administración</a> por parte de un usuario administrador.
 
-Al  hacer  clic  sobre  alguno  de  los  Programas de Mantenimiento  del  Visor  el  sistema   responde mostrando  la  información  de  ese  Programa de Mantenimiento,  en  forma  detallada,  en  una video llamada, Ventana Detalle.
+Al hacer clic sobre alguno de los Programas de Mantenimiento del Visor  el sistema responde mostrando la información de ese registro, en  forma  detallada, en una ventana llamada, Ventana Detalle.
 
-Los títulos en azul que encabezan las columnas son también botones que permiten ordenar la    tabla, según el título seleccionado. Para elegir un registro de la tabla se da un clic del mouse sobre él o se desplaza el cursor con las teclas de desplazamiento.
+Los títulos en azul que encabezan las columnas son también botones que permiten ordenar la tabla, según el título seleccionado. Para elegir un registro de la tabla se da un clic del mouse sobre él o se desplaza el cursor con las teclas de desplazamiento.
 
 ## Ventana Detalle de Programas
 
-![detalle del programa de mantenimiento](../../assets/images/cap08/chp08_img03.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img03.png)
+_**Imagen 23.** Programas de Mantenimiento - Ventana Detalle_
 
-En la gráfica anterior, Ventana Detalle de PMs, se aprecian sus  componentes y  sus respectivos contenidos; aquí se encuentra la información relevante al PM seleccionado en el Visor y se administran los datos genéricos del PM. Es desde esta ventana que se crean, se actualizan y administran los PMs.
+En la gráfica anterior, Ventana Detalle de PM, se aprecian sus  componentes y  sus respectivos contenidos; aquí se encuentra la información relevante al PM seleccionado en el Visor y se administran los datos genéricos del PM. Es desde esta ventana que se crean, se actualizan y administran los PM.
 
-A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación.
+A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación:
 
-**Activo:** Lista los Activos existentes en la tabla de ACs; desde allí se elige aquel para el que se va a definir el PM. Aparece entonces, al lado derecho, la descripción del Activo.
+**Activo:** Lista los Activos, desde allí se elige aquel para el que se va a definir el PM. Aparece entonces, al lado derecho, la descripción del Activo cuando es reconocido por **AM**. Para elegir un Activo se tienen las siguientes opciones. La primera se puede buscar a través de la tecla tabular digitando el Código, o bien, seleccionando las siguientes opciones alternas del campo: Serial, Referencia (Referencia Externa del Proveedor), Número de Activo Fijo (Num AC), Alias. 
 
-**Descripción del Activo:** nombre o  descripción del Activo seleccionado. Es un campo que no es modificable por el usuario.
+La segunda opción de búsqueda es dando clic al ícono de filtro azul <span class="mdi mdi-filter-variant icon white"></span>, a continuación este abre una nueva ventana de Activos, allí también se pueden hacer subgrupos o filtrar información por diferentes criterios (<span class="mdi mdi-filter-variant"></span>), luego se debe dar doble clic sobre el registro o en el botón ubicado en la parte superior <a class="btn white">Aceptar</a>. 
 
-**FF Fin Garantía:** expone la fecha en la que se vence la garantía del Activo seleccionado. Si se encuentra con fecha de garantía vigente se muestra en color negro, si se encuentra con fecha de garantía vencida se muestra en color rojo.
+Una vez que el Activo se ha identificado, aparece al lado derecho, la descripción del registro.
 
-**Tarea:** El número de la Tarea se refiere al número ordinal de este PM dentro del conjunto de PMs definidos para un AC. Su finalidad es diferenciar un PM de otro para un mismo AC.
+**Descripción del Activo:** Es el nombre o descripción del Activo seleccionado. Es un campo que no es modificable por el usuario.
 
-Este campo es un consecutivo ascendente por AC, y es controlado por el Sistema. Al lado derecho  del  campo  que  indica  la  Tarea,  se  encuentra  un  campo  para   ingresar  la
+**FF Fin Garantía:** Expone la fecha en la que se vence la garantía del Activo seleccionado. Si se encuentra con fecha de garantía vigente se muestra en color negro, si se encuentra con fecha de garantía vencida se muestra en color rojo.
 
-**Descripción del Programa:** En este campo se registra la descripción de la actividad programada a realizarse, tiene una  longitud de  80  caracteres alfanuméricos.
+**Tarea:** El número de la Tarea se refiere al número ordinal de este PM dentro del conjunto de PM definidos para un Activo. Su finalidad es diferenciar un PM de otro para un mismo Activo.
+Este campo es un consecutivo ascendente por Activo, y es controlado por el Sistema.
+
+**Descripción del Programa:** En este campo se registra la descripción de la actividad programada a realizarse, este es un campo alfanumérico y tiene un límite de 100 caracteres.
 
 **Referencia:** aquí se puede ingresar el número de un documento, que  sirve como referencia o relación al PM.
 
-**Solicitante:** En este campo se define el nombre del Solicitante del PM. Cuando la OT es generada desde un PM, este campo contiene el solicitante ingresado en el PM.
+**Solicitante:** En este campo se define el nombre del Solicitante del PM. Cuando la OT es generada desde un PM. 
 
-**Incluido en TE (RI):** Al seleccionar esta opción, en el campo ** “Solicitante”** solo se despliegan los Terceros o Responsables Internos existentes en la tabla de Terceros en infraestructura.
+**Incluido en TE (RI):** Al seleccionar esta opción, en el campo **“Solicitante”** solo se despliegan los Terceros o Responsables Internos existentes en la tabla de Terceros en Infraestructura.
 
-**Listado de Acciones Técnicas:** Al habilitar el `<a class="btn">`botón de radio `</a>`, se reemplaza la pestaña ** “Presupuesto”** por ** “Acciones Técnicas”**.
+**Listado de Acciones Técnicas:** Al habilitar este botón, se reemplaza la pestaña **“Presupuesto”** por **“Acciones Técnicas”**.
 
-**Centro de Costo:** Es el Centro de Costo asignado a la Orden de Trabajo, que corresponde a uno de los Centros de Costo predefinidos en la tabla respectiva, y que es  ** “Responsable”** del pago de los consumos de Gasto Real que dicha OT genere. Inicialmente se sugiere el Centro de Costo que tiene asociado el Activo Objeto de  Mantenimiento, aun así, puede cambiarse.
+**Centro de Costo:** Es el Centro de Costo asignado al Activo, este listado corresponde al predefinido en la tabla de Centros Costo, en Infraestructura y que es **“Responsable”** del pago de los consumos de Gasto Real que dicha OT genere. Inicialmente se sugiere el Centro de Costo que tiene asociado el Activo Objeto de Mantenimiento, aun así, puede cambiarse.
 
 **Sub CC:** Este campo siempre está bloqueado y muestra el Código Sub CC asociado al Centro de Costo elegido.
 
-**Centro Responsable:** Lista los Centros Responsables (CR) definidos en el módulo de Infraestructura. Especifica el  Centro Responsable o  grupo de mantenimiento,  encargado de  realizar la labor.
+**Centro Responsable:** Lista los Centros Responsables (CR) definidos en el módulo de Infraestructura. Especifica el Centro Responsable o el grupo de mantenimiento, encargado de realizar la labor.
 
-**Contrato:** Lista  los  Contratos  activos  (cuyos  Responsables asignados  estén   activos) definidos en el módulo de Infraestructura. Si el PM está asociado a un  contratista, como responsable, bajo las cláusulas de un Contrato, es en este campo  donde se específica, seleccionando, cuál es el Contrato que lo ampara.
+**Contrato:** Lista los Contratos definidos en el módulo de Infraestructura. Si el PM está asociado a un contratista, como responsable, bajo las cláusulas de un Contrato, es en este campo donde se específica, seleccionando, cuál es el Contrato que lo ampara.
 
-Asignarle  un  Contrato  a  un  PM  significa  que  las  labores  de  Mantenimiento   serán ejecutadas por personal externo a la Empresa.  Por ello el PM  debe tener asignado un Centro de Responsabilidad acorde, es decir, es necesario  asignar a  todos los PMs por Contrato, un Centro Responsable exclusivo para Contratistas. De esta forma se pueden diferenciar fácilmente de aquellos trabajos bajo responsabilidad directa del Departamento de Mantenimiento de la Organización.
+Asignarle un Contrato a un PM significa que las labores de  Mantenimiento serán ejecutadas por personal externo a la Organización. Por ello el PM debe tener asignado un Centro de Responsabilidad acorde, es decir, es necesario asignar a todos los PM por Contrato, un Centro Responsable exclusivo para Contratistas. De esta forma se pueden diferenciar fácilmente de aquellos trabajos bajo responsabilidad directa del Departamento de Mantenimiento de la Organización.
 
-**Responsable Ejecutor:** Lista los Responsables activos definidos en la tabla correspondiente en el módulo de Infraestructura. En  este  campo se  elige  a  la persona, natural o  jurídica, Responsable por  la   labor  a ejecutar.
+**Responsable Ejecutor:** Lista los Responsables activos definidos en la tabla correspondiente en el módulo de Infraestructura. En este  campo se elige a la persona, natural o jurídica, Responsable por la   labor a ejecutar.
 
-El Responsable puede ser interno (RI),           o también un Responsable Externo (RX). El sistema  se  encarga  de  mostrar  en  la  lista  solo  los  Responsables  habilitados   para desempeñar esta función.
+El Responsable puede ser interno (RI), o también un Responsable Externo (RX). El sistema  se  encarga  de  mostrar en la  lista solo los  Responsables  habilitados  para desempeñar esta función.
 
-**Filtrar por CR:** Al seleccionar esta opción, en el campo ** “Responsable Ejecutor”** solo se despliegan los Responsables correspondientes al Centro Responsable elegido en la opción ** “Centro Responsable”**. En  otro  caso,  en  el  campo  ** “Responsable Ejecutor”**  se  despliegan  todos   los  ** “Responsables”** existentes en la tabla respectiva.
+**Filtrar por CR:** Al seleccionar esta opción, en el campo ** “Responsable Ejecutor”** solo se despliegan los Responsables correspondientes al Centro Responsable elegido en la opción **“Centro Responsable”**. En otro  caso, en el campo **“Responsable Ejecutor”**  se  despliegan todos los ** “Responsables”** existentes en la tabla respectiva.
 
-**Responsable por la Institución:**Lista los Responsables activos definidos en la tabla correspondiente en el módulo de Infraestructura. En  este  campo se  elige  a  la persona interna de la institución, Responsable de acompañar o apoyar por  la   labor  a ejecutar.
+**Responsable por la Institución:** Lista los Responsables activos definidos en la tabla correspondiente en el módulo de Infraestructura. En este campo se elige a la persona interna de la institución, Responsable de acompañar o apoyar por la  labor a ejecutar.
 
-**Tiempo Estimado:** Es el presupuesto de tiempo necesario para llevar a cabo las labores  de Mantenimiento. El valor a ingresar debe ser numérico y se puede expresar en días, horas o minutos.
+**Tiempo Estimado:** Es el presupuesto de tiempo necesario para llevar a cabo las labores de Mantenimiento. El valor a ingresar debe ser numérico y se puede expresar en días, horas o minutos.
 
-** Este campo es informativo;** al activarlo le indica a la persona o personas encargada de realizar la labor, si el Activo debe detener su producción para proceder a la realización de la Tarea de Mantenimiento. Cuando se dice que el Activo ** “Genera Tiempo Improductivo”** significa que no está en operación, y por lo tanto, improductivo.
+**Tiempo improductivo:** Este campo funciona como un switche,k al activarlo le indica a la persona o personas encargada de realizar la labor, si el Activo debe detener su producción para proceder a la realización de la Tarea de Mantenimiento. Cuando se dice que el Activo **“Genera Tiempo Improductivo”** significa que estando operando debe de ser intervenido por Mantenimiento.
 
-**Prioridad:** Es un número de 1 a 7, de uso subjetivo, que indica la prioridad de realización de la OT. Normalmente, el valor 1 significa un trabajo de gran urgencia, mientras que el 7 significa una labor de baja prioridad. El usuario define qué nivel de prioridad manejar en cada PM.  El Sistema **AM****  por defecto sugiere la Prioridad 3.
+**Prioridad:** Es un número de 1 a 7, de uso subjetivo, que indica la prioridad de realización de la OT. Normalmente, el valor 1 significa un trabajo de gran urgencia, mientras que el 7 significa una labor de baja prioridad. El usuario define qué nivel de prioridad manejar en cada PM.  El Sistema **AM**  por defecto sugiere la Prioridad 3.
 
-**Tipo  de  Trabajo:** **AM**** 	predefine  (aunque  pueden  personalizarse) cuatro  tipos  de trabajo: Mecánico (MEC),  Eléctrico (ELE),  Instrumentación/Electrónica (IEL)  y  Otro (OTR). Un PM debe tener asociado al menos un Tipo de Trabajo, es decir  que  puede tener asignados varios de estos Tipos de Trabajo, dependiendo de la naturaleza  de  la labor que se programa.
+**Tipo  de  Trabajo:** **AM** predefine  (aunque  pueden  personalizarse) cuatro  tipos  de trabajo: Mecánico (MEC),  Eléctrico (ELE),  Instrumentación/Electrónica (IEL)  y  Otro (OTR). Un PM debe tener asociado al menos un Tipo de Trabajo, es decir  que  puede tener asignados varios de estos Tipos de Trabajo, dependiendo de la naturaleza  de  la labor que se programa.
 
 El Sistema por defecto sugiere el primer Tipo de Trabajo definido.
 
@@ -165,7 +166,7 @@ Costo que tengan parte del nombre igual. Por ejemplo: Sistema% seleccionará tod
 
 **Contrato:** Permite filtrar los PMs por el contrato al que están asociados. Para escoger un contrato se descuelga la lista de Contratos definidos en Infraestructura.   Pero es  posible también definir un contrato como filtro, usando comodines.
 
-**Criterio:**   Permite   visualizar   el   subconjunto   de   PMs   definidos   con   el   Criterio   de Programación ** “X”;** así que se pueden listar en el visor de PMs, aquellos PMs que fueron definidos con Criterio de Programación trimestral, o mensual, por Contador por Incremento, entre otros.
+**Criterio:** Permite visualizar el subconjunto de PM definidos con   el   Criterio   de Programación ** “X”;** así que se pueden listar en el visor de PMs, aquellos PMs que fueron definidos con Criterio de Programación trimestral, o mensual, por Contador por Incremento, entre otros.
 
 **Comentario del Programa:** Filtra los programas de mantenimiento que cumplan  con  la opción de poseer comentario. Este es un campo para ingresar el comentario que se desee buscar en los programas.
 
@@ -258,13 +259,13 @@ Cuando se  define un  PM  en  función de  un  contador de  un  Activo, debe  ex
 
 En los casos en que la actualización de los contadores de los ACs no pueda ser frecuente, el **AM**** suministra un mecanismo automático que lo simula, mientras se puede realizar una nueva lectura y actualización real a ese contador. Se trata del  campo Estándar de Planeación que se encuentra en la parte inferior de la ventana detalle de Activos. Allí se define una cantidad de trabajo estándar que realiza ese Activo por unidad de tiempo. Este valor es definido con base en una estadística real del trabajo de ese Activo en un período considerable, ojalá no inferior a los 6 meses.
 
-**Por Límite:** Indica que el Contador del AC debe alcanzar una cantidad tope, definida en  la Recurrencia, para que el PM genere la OT. Por este criterio solo se genera una y solo una Orden de Trabajo, cuando se alcance el Límite definido. Una vez generada la OT desde el PM, este se desactiva y ya no vuelve a generar otras OTs.
+**Por Límite:** Indica que el Contador del AC debe alcanzar una cantidad tope, definida en la Recurrencia, para que el PM genere la OT. Por este criterio solo se genera una única vez la Órden de Trabajo, cuando se alcance el Límite definido. Una vez generada la OT desde el PM, éste se desactiva y ya no vuelve a generar otras OT.
 
 **Recurrencia:** En este campo se define una cifra o cantidad que denota el incremento que debe sufrir el contador del Activo, para generar una Orden de Trabajo por contador, con criterio Incremento. Pero también en este campo se define un valor límite al que debe llegar el contador del Activo para generar una Orden de Trabajo por contador, cuando el criterio es Límite.
 
 **Vlr. Contador al Inicio del Período:** Se refiere al valor inicial del contador del Activo, correspondiente a la Fecha de Inicio de Período (FIP) previamente diligenciada en el mismo apartado.
 
-**Fecha de última generación de OT:** Esta fecha es informativa y viene a ser la FUG (fecha de la última generación), por tanto  no  se  puede  modificar,  esta  fecha  es  la  misma  para  todos  los   Criterios  de Programación. Es una fecha real, siempre, que muestra cuando fue  que se realizó la última generación de una Orden de Trabajo desde ese PM.
+**Fecha de última generación de OT:** Esta fecha es informativa y viene a ser la FUG (fecha de la última generación), por tanto no se puede  modificar, esta fecha es la misma para todos los Criterios de Programación. Es una fecha real, siempre, que muestra cuando fue que se realizó la última generación de una Orden de Trabajo desde ese PM.
 
 Para saber si la OT se va a generar o no; el **AM****  proyecta el valor del Contador del AC desde la fecha de su última medición hasta el primer día del rango de análisis / generación, y compara el nuevo valor del Contador del AC, con el CUG.  Si el valor de la comparación, es mayor o igual a la Recurrencia, genera la Orden de Trabajo.  De lo contrario, recalcula nuevamente el valor del Contador del AC para el siguiente día  del rango de análisis / generación,  y  hace  la  misma  comparación. Así  recorre todo  el  rango  de  análisis  / generación  hasta  el  último  día,  generando  una  OT,  si   el   valor  de  alguna  de  las comparaciones es mayor o igual a la recurrencia.
 
