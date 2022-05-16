@@ -48,10 +48,9 @@ Una vez que el Activo se ha identificado, aparece al lado derecho, la descripci�
 **FF Fin Garantía:** Expone la fecha en la que se vence la garantía del Activo seleccionado. Si se encuentra con fecha de garantía vigente se muestra en color negro, si se encuentra con fecha de garantía vencida se muestra en color rojo.
 
 **Tarea:** El número de la Tarea se refiere al número ordinal de este PM dentro del conjunto de PM definidos para un Activo. Su finalidad es diferenciar un PM de otro para un mismo Activo.
+Este campo es un consecutivo ascendente por Activo, y es controlado por el Sistema.
 
-Este campo es un consecutivo ascendente por Activo, y es controlado por el Sistema. Al lado derecho del campo que indica la Tarea, se  encuentra un campo para ingresar la
-
-**Descripción del Programa:** En este campo se registra la descripción de la actividad programada a realizarse, tiene una  longitud de  80  caracteres alfanuméricos.
+**Descripción del Programa:** En este campo se registra la descripción de la actividad programada a realizarse, este es un campo alfanumérico.
 
 **Referencia:** aquí se puede ingresar el número de un documento, que  sirve como referencia o relación al PM.
 
