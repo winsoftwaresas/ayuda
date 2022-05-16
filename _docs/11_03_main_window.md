@@ -39,7 +39,9 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 **Activo:** Lista los Activos, desde allí se elige aquel para el que se va a definir el PM. Aparece entonces, al lado derecho, la descripción del Activo cuando es reconocido por **AM**. Para elegir un Activo se tienen las siguientes opciones. La primera se puede buscar a través de la tecla tabular digitando el Código, o bien, seleccionando las siguientes opciones alternas del campo: Serial, Referencia (Referencia Externa del Proveedor), Número de Activo Fijo (Num AC), Alias. 
 
-La segunda opción de búsqueda es dando clic al ícono de filtro azul <span class="mdi mdi-filter-variant icon white"></span>, a continuación este abre una nueva ventana de Activos, allí también se pueden hacer subgrupos o filtrar información por diferentes criterios (<span class="mdi mdi-filter-variant"></span>), luego se debe dar doble clic sobre el registro o en el botón ubicado en la parte superior 
+La segunda opción de búsqueda es dando clic al ícono de filtro azul <span class="mdi mdi-filter-variant icon white"></span>, a continuación este abre una nueva ventana de Activos, allí también se pueden hacer subgrupos o filtrar información por diferentes criterios (<span class="mdi mdi-filter-variant"></span>), luego se debe dar doble clic sobre el registro o en el botón ubicado en la parte superior <a class="btn white">Aceptar</a>. 
+
+Una vez que el Activo se ha identificado, aparece al lado derecho, la descripción del registro.
 
 **Descripción del Activo:** nombre o descripción del Activo seleccionado. Es un campo que no es modificable por el usuario.
 
