@@ -58,7 +58,7 @@ Este campo es un consecutivo ascendente por Activo, y es controlado por el Siste
 
 **Incluido en TE (RI):** Al seleccionar esta opción, en el campo **“Solicitante”** solo se despliegan los Terceros o Responsables Internos existentes en la tabla de Terceros en Infraestructura.
 
-**Listado de Acciones Técnicas:** Al habilitar el `<a class="btn">`botón de radio `</a>`, se reemplaza la pestaña ** “Presupuesto”** por ** “Acciones Técnicas”**.
+**Listado de Acciones Técnicas:** Al habilitar el <a class="btn">botón de radio </a>, se reemplaza la pestaña ** “Presupuesto”** por **“Acciones Técnicas”**.
 
 **Centro de Costo:** Es el Centro de Costo asignado a la Orden de Trabajo, que corresponde a uno de los Centros de Costo predefinidos en la tabla respectiva, y que es  ** “Responsable”** del pago de los consumos de Gasto Real que dicha OT genere. Inicialmente se sugiere el Centro de Costo que tiene asociado el Activo Objeto de  Mantenimiento, aun así, puede cambiarse.
 
