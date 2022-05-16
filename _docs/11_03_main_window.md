@@ -76,15 +76,15 @@ El Responsable puede ser interno (RI), o también un Responsable Externo (RX). E
 
 **Filtrar por CR:** Al seleccionar esta opción, en el campo ** “Responsable Ejecutor”** solo se despliegan los Responsables correspondientes al Centro Responsable elegido en la opción **“Centro Responsable”**. En otro  caso, en el campo **“Responsable Ejecutor”**  se  despliegan todos los ** “Responsables”** existentes en la tabla respectiva.
 
-**Responsable por la Institución:**Lista los Responsables activos definidos en la tabla correspondiente en el módulo de Infraestructura. En  este  campo se  elige  a  la persona interna de la institución, Responsable de acompañar o apoyar por  la   labor  a ejecutar.
+**Responsable por la Institución:** Lista los Responsables activos definidos en la tabla correspondiente en el módulo de Infraestructura. En este campo se elige a la persona interna de la institución, Responsable de acompañar o apoyar por la  labor a ejecutar.
 
-**Tiempo Estimado:** Es el presupuesto de tiempo necesario para llevar a cabo las labores  de Mantenimiento. El valor a ingresar debe ser numérico y se puede expresar en días, horas o minutos.
+**Tiempo Estimado:** Es el presupuesto de tiempo necesario para llevar a cabo las labores de Mantenimiento. El valor a ingresar debe ser numérico y se puede expresar en días, horas o minutos.
 
-** Este campo es informativo;** al activarlo le indica a la persona o personas encargada de realizar la labor, si el Activo debe detener su producción para proceder a la realización de la Tarea de Mantenimiento. Cuando se dice que el Activo ** “Genera Tiempo Improductivo”** significa que no está en operación, y por lo tanto, improductivo.
+**Tiempo improductivo:** Este campo funciona como un switche,k al activarlo le indica a la persona o personas encargada de realizar la labor, si el Activo debe detener su producción para proceder a la realización de la Tarea de Mantenimiento. Cuando se dice que el Activo **“Genera Tiempo Improductivo”** significa que estando operando debe de ser intervenido por Mantenimiento.
 
-**Prioridad:** Es un número de 1 a 7, de uso subjetivo, que indica la prioridad de realización de la OT. Normalmente, el valor 1 significa un trabajo de gran urgencia, mientras que el 7 significa una labor de baja prioridad. El usuario define qué nivel de prioridad manejar en cada PM.  El Sistema **AM****  por defecto sugiere la Prioridad 3.
+**Prioridad:** Es un número de 1 a 7, de uso subjetivo, que indica la prioridad de realización de la OT. Normalmente, el valor 1 significa un trabajo de gran urgencia, mientras que el 7 significa una labor de baja prioridad. El usuario define qué nivel de prioridad manejar en cada PM.  El Sistema **AM**  por defecto sugiere la Prioridad 3.
 
-**Tipo  de  Trabajo:** **AM**** 	predefine  (aunque  pueden  personalizarse) cuatro  tipos  de trabajo: Mecánico (MEC),  Eléctrico (ELE),  Instrumentación/Electrónica (IEL)  y  Otro (OTR). Un PM debe tener asociado al menos un Tipo de Trabajo, es decir  que  puede tener asignados varios de estos Tipos de Trabajo, dependiendo de la naturaleza  de  la labor que se programa.
+**Tipo  de  Trabajo:** **AM** predefine  (aunque  pueden  personalizarse) cuatro  tipos  de trabajo: Mecánico (MEC),  Eléctrico (ELE),  Instrumentación/Electrónica (IEL)  y  Otro (OTR). Un PM debe tener asociado al menos un Tipo de Trabajo, es decir  que  puede tener asignados varios de estos Tipos de Trabajo, dependiendo de la naturaleza  de  la labor que se programa.
 
 El Sistema por defecto sugiere el primer Tipo de Trabajo definido.
 
