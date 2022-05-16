@@ -35,9 +35,9 @@ _**Imagen 23** Programas de Mantenimiento - Ventana Detalle_
 
 En la gráfica anterior, Ventana Detalle de PM, se aprecian sus  componentes y  sus respectivos contenidos; aquí se encuentra la información relevante al PM seleccionado en el Visor y se administran los datos genéricos del PM. Es desde esta ventana que se crean, se actualizan y administran los PM.
 
-A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación.
+A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación:
 
-**Activo:** Lista los Activos existentes en la tabla de ACs; desde allí se elige aquel para el que se va a definir el PM. Aparece entonces, al lado derecho, la descripción del Activo.
+**Activo:** Lista los Activos existentes en la tabla de AC; desde allí se elige aquel para el que se va a definir el PM. Aparece entonces, al lado derecho, la descripción del Activo.
 
 **Descripción del Activo:** nombre o descripción del Activo seleccionado. Es un campo que no es modificable por el usuario.
 
@@ -69,7 +69,7 @@ Asignarle  un  Contrato  a  un  PM  significa  que  las  labores  de  Mantenimie
 
 **Responsable Ejecutor:** Lista los Responsables activos definidos en la tabla correspondiente en el módulo de Infraestructura. En  este  campo se  elige  a  la persona, natural o  jurídica, Responsable por  la   labor  a ejecutar.
 
-El Responsable puede ser interno (RI),           o también un Responsable Externo (RX). El sistema  se  encarga  de  mostrar  en  la  lista  solo  los  Responsables  habilitados   para desempeñar esta función.
+El Responsable puede ser interno (RI), o también un Responsable Externo (RX). El sistema  se  encarga  de  mostrar  en  la  lista  solo  los  Responsables  habilitados   para desempeñar esta función.
 
 **Filtrar por CR:** Al seleccionar esta opción, en el campo ** “Responsable Ejecutor”** solo se despliegan los Responsables correspondientes al Centro Responsable elegido en la opción ** “Centro Responsable”**. En  otro  caso,  en  el  campo  ** “Responsable Ejecutor”**  se  despliegan  todos   los  ** “Responsables”** existentes en la tabla respectiva.
 
