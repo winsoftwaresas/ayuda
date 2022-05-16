@@ -50,13 +50,13 @@ Una vez que el Activo se ha identificado, aparece al lado derecho, la descripci�
 **Tarea:** El número de la Tarea se refiere al número ordinal de este PM dentro del conjunto de PM definidos para un Activo. Su finalidad es diferenciar un PM de otro para un mismo Activo.
 Este campo es un consecutivo ascendente por Activo, y es controlado por el Sistema.
 
-**Descripción del Programa:** En este campo se registra la descripción de la actividad programada a realizarse, este es un campo alfanumérico.
+**Descripción del Programa:** En este campo se registra la descripción de la actividad programada a realizarse, este es un campo alfanumérico y tiene un límite de 100 caracteres.
 
 **Referencia:** aquí se puede ingresar el número de un documento, que  sirve como referencia o relación al PM.
 
-**Solicitante:** En este campo se define el nombre del Solicitante del PM. Cuando la OT es generada desde un PM, este campo contiene el solicitante ingresado en el PM.
+**Solicitante:** En este campo se define el nombre del Solicitante del PM. Cuando la OT es generada desde un PM. 
 
-**Incluido en TE (RI):** Al seleccionar esta opción, en el campo ** “Solicitante”** solo se despliegan los Terceros o Responsables Internos existentes en la tabla de Terceros en infraestructura.
+**Incluido en TE (RI):** Al seleccionar esta opción, en el campo **“Solicitante”** solo se despliegan los Terceros o Responsables Internos existentes en la tabla de Terceros en Infraestructura.
 
 **Listado de Acciones Técnicas:** Al habilitar el `<a class="btn">`botón de radio `</a>`, se reemplaza la pestaña ** “Presupuesto”** por ** “Acciones Técnicas”**.
 
