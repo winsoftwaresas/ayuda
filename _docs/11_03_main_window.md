@@ -58,23 +58,23 @@ Este campo es un consecutivo ascendente por Activo, y es controlado por el Siste
 
 **Incluido en TE (RI):** Al seleccionar esta opción, en el campo **“Solicitante”** solo se despliegan los Terceros o Responsables Internos existentes en la tabla de Terceros en Infraestructura.
 
-**Listado de Acciones Técnicas:** Al habilitar el <a class="btn">botón de radio </a>, se reemplaza la pestaña ** “Presupuesto”** por **“Acciones Técnicas”**.
+**Listado de Acciones Técnicas:** Al habilitar este botón, se reemplaza la pestaña **“Presupuesto”** por **“Acciones Técnicas”**.
 
-**Centro de Costo:** Es el Centro de Costo asignado a la Orden de Trabajo, que corresponde a uno de los Centros de Costo predefinidos en la tabla respectiva, y que es  ** “Responsable”** del pago de los consumos de Gasto Real que dicha OT genere. Inicialmente se sugiere el Centro de Costo que tiene asociado el Activo Objeto de  Mantenimiento, aun así, puede cambiarse.
+**Centro de Costo:** Es el Centro de Costo asignado al Activo, este listado corresponde al predefinido en la tabla de Centros Costo, en Infraestructura y que es **“Responsable”** del pago de los consumos de Gasto Real que dicha OT genere. Inicialmente se sugiere el Centro de Costo que tiene asociado el Activo Objeto de Mantenimiento, aun así, puede cambiarse.
 
 **Sub CC:** Este campo siempre está bloqueado y muestra el Código Sub CC asociado al Centro de Costo elegido.
 
-**Centro Responsable:** Lista los Centros Responsables (CR) definidos en el módulo de Infraestructura. Especifica el  Centro Responsable o  grupo de mantenimiento,  encargado de  realizar la labor.
+**Centro Responsable:** Lista los Centros Responsables (CR) definidos en el módulo de Infraestructura. Especifica el Centro Responsable o el grupo de mantenimiento, encargado de realizar la labor.
 
-**Contrato:** Lista  los  Contratos  activos  (cuyos  Responsables asignados  estén   activos) definidos en el módulo de Infraestructura. Si el PM está asociado a un  contratista, como responsable, bajo las cláusulas de un Contrato, es en este campo  donde se específica, seleccionando, cuál es el Contrato que lo ampara.
+**Contrato:** Lista los Contratos definidos en el módulo de Infraestructura. Si el PM está asociado a un contratista, como responsable, bajo las cláusulas de un Contrato, es en este campo donde se específica, seleccionando, cuál es el Contrato que lo ampara.
 
-Asignarle  un  Contrato  a  un  PM  significa  que  las  labores  de  Mantenimiento   serán ejecutadas por personal externo a la Empresa.  Por ello el PM  debe tener asignado un Centro de Responsabilidad acorde, es decir, es necesario  asignar a  todos los PMs por Contrato, un Centro Responsable exclusivo para Contratistas. De esta forma se pueden diferenciar fácilmente de aquellos trabajos bajo responsabilidad directa del Departamento de Mantenimiento de la Organización.
+Asignarle un Contrato a un PM significa que las labores de  Mantenimiento serán ejecutadas por personal externo a la Organización. Por ello el PM debe tener asignado un Centro de Responsabilidad acorde, es decir, es necesario asignar a todos los PM por Contrato, un Centro Responsable exclusivo para Contratistas. De esta forma se pueden diferenciar fácilmente de aquellos trabajos bajo responsabilidad directa del Departamento de Mantenimiento de la Organización.
 
-**Responsable Ejecutor:** Lista los Responsables activos definidos en la tabla correspondiente en el módulo de Infraestructura. En  este  campo se  elige  a  la persona, natural o  jurídica, Responsable por  la   labor  a ejecutar.
+**Responsable Ejecutor:** Lista los Responsables activos definidos en la tabla correspondiente en el módulo de Infraestructura. En este  campo se elige a la persona, natural o jurídica, Responsable por la   labor a ejecutar.
 
-El Responsable puede ser interno (RI), o también un Responsable Externo (RX). El sistema  se  encarga  de  mostrar  en  la  lista  solo  los  Responsables  habilitados   para desempeñar esta función.
+El Responsable puede ser interno (RI), o también un Responsable Externo (RX). El sistema  se  encarga  de  mostrar en la  lista solo los  Responsables  habilitados  para desempeñar esta función.
 
-**Filtrar por CR:** Al seleccionar esta opción, en el campo ** “Responsable Ejecutor”** solo se despliegan los Responsables correspondientes al Centro Responsable elegido en la opción ** “Centro Responsable”**. En  otro  caso,  en  el  campo  ** “Responsable Ejecutor”**  se  despliegan  todos   los  ** “Responsables”** existentes en la tabla respectiva.
+**Filtrar por CR:** Al seleccionar esta opción, en el campo ** “Responsable Ejecutor”** solo se despliegan los Responsables correspondientes al Centro Responsable elegido en la opción **“Centro Responsable”**. En otro  caso, en el campo **“Responsable Ejecutor”**  se  despliegan todos los ** “Responsables”** existentes en la tabla respectiva.
 
 **Responsable por la Institución:**Lista los Responsables activos definidos en la tabla correspondiente en el módulo de Infraestructura. En  este  campo se  elige  a  la persona interna de la institución, Responsable de acompañar o apoyar por  la   labor  a ejecutar.
 
