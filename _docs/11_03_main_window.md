@@ -43,7 +43,7 @@ La segunda opción de búsqueda es dando clic al ícono de filtro azul <span cla
 
 Una vez que el Activo se ha identificado, aparece al lado derecho, la descripción del registro.
 
-**Descripción del Activo:** nombre o descripción del Activo seleccionado. Es un campo que no es modificable por el usuario.
+**Descripción del Activo:** Es el nombre o descripción del Activo seleccionado. Es un campo que no es modificable por el usuario.
 
 **FF Fin Garantía:** Expone la fecha en la que se vence la garantía del Activo seleccionado. Si se encuentra con fecha de garantía vigente se muestra en color negro, si se encuentra con fecha de garantía vencida se muestra en color rojo.
 
