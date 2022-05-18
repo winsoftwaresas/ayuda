@@ -72,9 +72,9 @@ Asignarle un Contrato a un PM significa que las labores de  Mantenimiento serán
 
 **Responsable Ejecutor:** Lista los Responsables activos definidos en la tabla correspondiente en el módulo de Infraestructura. En este  campo se elige a la persona, natural o jurídica, Responsable por la   labor a ejecutar.
 
-El Responsable puede ser interno (RI), o también un Responsable Externo (RX). El sistema  se  encarga  de  mostrar en la  lista solo los  Responsables  habilitados  para desempeñar esta función.
+El Responsable puede ser interno (RI), o también un Responsable Externo (RX). El sistema  se  encarga  de  mostrar en la  lista solo los  Responsables habilitados  para desempeñar esta función.
 
-**Filtrar por CR:** Al seleccionar esta opción, en el campo ** “Responsable Ejecutor”** solo se despliegan los Responsables correspondientes al Centro Responsable elegido en la opción **“Centro Responsable”**. En otro  caso, en el campo **“Responsable Ejecutor”**  se  despliegan todos los ** “Responsables”** existentes en la tabla respectiva.
+**Filtrar por CR:** Al seleccionar esta opción, en el campo ** “Responsable Ejecutor”** solo se despliegan los Responsables correspondientes al Centro Responsable elegido en la opción **“Centro Responsable”**. En otro caso, en el campo **“Responsable Ejecutor”**  se  despliegan todos los **“Responsables”** existentes en la tabla respectiva.
 
 **Responsable por la Institución:** Lista los Responsables activos definidos en la tabla correspondiente en el módulo de Infraestructura. En este campo se elige a la persona interna de la institución, Responsable de acompañar o apoyar por la  labor a ejecutar.
 
