@@ -130,18 +130,18 @@ Cada criterio aparece inicializado en un valor global que permite mostrar todos 
 
 El programa permite entonces hacer selección de un grupo de Programas de acuerdo con los criterios seleccionados en la siguiente ventana.
 
-![ programa de mantenimiento](../../assets/images/cap08/chp08_img06.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img06.png)
+_**Imagen 26.** Programas de Mantenimiento - Ir a Subgrupos_
 
-Los campos de datos que constituyen criterio de selección haciendo parte de la Ventana
-Subgrupo de PMs son los siguientes.
+Los campos de datos que constituyen criterio de selección haciendo parte de la Ventana Subgrupo de PMs son los siguientes.
+ 
+### FILTRAR POR CAMPOS DEL ACTIVO ASOCIADO AL PROGRAMA
 
-### FILTRAR POR C AMPOS DEL ACTIVO ASOCI ADO AL PROGRAMA
+**AC-Alias:** Este filtro permite seleccionar los PMs para los Activos cuyo Alias coincide con el valor definido aquí. El campo acepta comodines (%).
 
-**AC-Alias:** Este filtro permite seleccionar los PMs para los Activos cuyo Alias coincide con el valor definido aquí.  El campo acepta comodines.
+**AC-Cód. de Barras Int:** Permite seleccionar los programas de mantenimiento que posean el Activo/Equipo que posea un programa de mantenimiento y que se encuentre asociado al Código de Barras interno.
 
-**AC-Cód.** de  Barras  Int: Permite seleccionar los  programas de mantenimiento  que posean el Activo/ Activo que se encuentre asociado al Código de Barras  Interno  y que posea un programa de mantenimiento.
-
-**AC-Cód.** de Barras Prov: Permite seleccionar los programas de mantenimiento que se encuentren asociados el Activo/ Activo que se encuentre asociado al Código de Barras del Proveedor.
+**AC-Cód.** de Barras Prov: Permite seleccionar los programas de mantenimiento que se encuentren asociados el Activo/Equipo Activo que se encuentre asociado al Código de Barras del Proveedor.
 
 **AC-Código:** Esta selección agrupa los PMs para los Activos relacionados por su código.  Es posible definir el código completo o una porción del mismo. Por ejemplo: si se  escribe 341%, se seleccionan todos los PMs cuyo código de Activo inicia por 341. Si se escribe  “%1”  se seleccionan todos los PMs cuyo código de Activo finaliza en un  “1”. El porcentaje (%) es un  carácter comodín que  significa  “todos”.
 
