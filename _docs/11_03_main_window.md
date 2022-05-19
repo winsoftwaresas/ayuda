@@ -104,14 +104,16 @@ Cuando se genera la OT, desde el PM, sirven para especificar referencias importa
 
 ## Indicadores
 
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img04.png)
+_**Imagen 24.** Programas de Mantenimiento - Indicadores_
+
 Es posible visualizar de manera inmediata, los Programas de mantenimiento activos, inactivos y con Multimedia, directamente desde la ventana visor, a través de la columna **“Indicadores”** que muestra una pelota de color que indica su estado y si tiene asociado Multimedia. El significado del color de cada pelota, se puede ver en el recuadro de Indicadores a través del ícono <span class="mdi mdi-message-alert"></span>, ubicado en la parte superior derecha de la ventana visor.
 
-El significado de los colores se visualiza al sobreponer el mouse en el icono que se encuentra al extremo superior derecho y su correspondencia es:
+El significado de los colores que se listan son los siguientes:
 
 - **Naranja:** Programas de mantenimiento que tienen asociados archivos de imágenes, videos y/o documentos en la pestaña Multimedia.
-- **Verde:** Programas de
-  mantenimiento definidos con estado activo.
-- **Rojo:** Programas de mantenimiento sin criterio de programación o con un Activo definido en un estado inactivo.
+- **Verde:** Programas de mantenimiento definidos con estado activo.
+- **Rojo:** Programas de mantenimiento sin criterio de programación o con un Activo definido en un estado inactivo. Estos no generan OT.
 
 ## Subgrupo
 
