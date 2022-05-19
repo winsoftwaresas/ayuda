@@ -139,7 +139,7 @@ Los campos de datos que constituyen criterio de selección haciendo parte de la 
 
 **AC-Alias:** Este filtro permite seleccionar los PMs para los Activos cuyo Alias coincide con el valor definido aquí. El campo acepta comodines (%).
 
-**AC-Cód. de Barras Int:** Permite seleccionar los programas de mantenimiento que posean el Activo/Equipo que posea un programa de mantenimiento y que se encuentre asociado al Código de Barras interno.
+**AC-Cód. de Barras Int:** Permite seleccionar los programas de mantenimiento asociados al Activo/Equipo que coincida con el Código de Barras interno.
 
 **AC-Cód.** de Barras Prov: Permite seleccionar los programas de mantenimiento que se encuentren asociados el Activo/Equipo Activo que se encuentre asociado al Código de Barras del Proveedor.
 
