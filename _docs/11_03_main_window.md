@@ -146,15 +146,15 @@ Los campos de datos que constituyen criterio de selección haciendo parte de la 
 **AC-Código:** Esta selección agrupa los PM para los Activos relacionados por su código. Es posible definir el código completo o una porción del mismo. Por ejemplo: si se  escribe 341%, se seleccionan todos los PM cuyo código de Activo inicia por 341. Si se escribe “%1”  se seleccionan todos los PMs cuyo código de Activo finaliza en un “1”. El porcentaje (%) es un carácter comodín que  significa  “todos”.
 También se puede buscar el Activo, haciendo uso del icono <span class="mdi mdi-filter-variant"></span>. El sistema responde mostrando en una ventana independiente el conjunto de Activos registrados, allí también se pueden filtrar por los criterios de subgrupo del módulo de Activos. Una vez identificado el Activo, se debe dar doble clic en el registro y luego aparece identificado automáticamente el código del respectivo Activo en el campo.
 
-**AC-Descripción:** Selecciona  los  programas  de  mantenimiento asociados  a  los   Activos  según  criterios  que  se  fundamenten  en  su  descripción.  Ejemplo: %Motor% selecciona todos los Activos, en cuya descripción, en cualquier posición, tengan la palabra  “Motor”.
+**AC-Descripción:** Selecciona  los  PM asociados  a  los   Activos  según  criterios  que  se  fundamenten  en  su  descripción.  Ejemplo: %Motor% selecciona todos los Activos, en cuya descripción, en cualquier posición, tengan la palabra  “Motor”.
 
-**AC-Estado:** Este filtro permite seleccionar los PMs de acuerdo con el Estado del Activo u Objeto de Mantenimiento. Así que se pueden filtrar los PMs para los cuales el AC correspondiente está activo o inactivo.
+**AC-Estado:** Este filtro permite seleccionar los PM de acuerdo con el Estado del Activo u Objeto de Mantenimiento. Así que se pueden filtrar los PM para los cuales el Activo correspondiente está activo o inactivo.
 
-**AC-Número Activo Fijo:** Este campo preselecciona los PMs activos para el o los  Activos cuyo Número de Activo corresponde a los valores aquí definidos. En este  campo se pueden utilizar los comodines.
+**AC-Número Activo Fijo:** Este campo preselecciona los PM activos para el o los Activos cuyo Número de Activo corresponde a los valores aquí definidos. En este  campo se pueden utilizar los comodines.
 
 **AC-Referencia:** Este filtro permite seleccionar PMs de  acuerdo con su número de Referencia.
 
-**AC-Serial:** Este filtro permite seleccionar los PMs de acuerdo con el número serial del Activo / Objeto de Mantenimiento. El campo acepta comodines.
+**AC-Serial:** Este filtro permite seleccionar los PMs de acuerdo con el número serial del Activo / Objeto de  Mantenimiento. El campo acepta comodines.
 
 **AC-Ubicación Física:** Permite la selección de los PMs cuyo Activo se encuentre en   una   Ubicación  Física   determinada.  Cuando   se   utilizan   comodines,   es   posible seleccionar PMs cuyo Activo esté en una Ubicación Física  que tenga parte del nombre igual.  Por ejemplo: Cava% selecciona los PMs a Activos cuya Ubicación Física empieza por  la  palabra  Cava,  independientemente  de   si  se  está  hablando  de  la  Cava  de Fermentación, Maduración o Contrapresión.
 
