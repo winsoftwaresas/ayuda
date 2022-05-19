@@ -150,11 +150,11 @@ También se puede buscar el Activo, haciendo uso del icono <span class="mdi mdi-
 
 **AC-Estado:** Este filtro permite seleccionar los PM de acuerdo con el Estado del Activo u Objeto de Mantenimiento. Así que se pueden filtrar los PM para los cuales el Activo correspondiente está activo o inactivo.
 
-**AC-Número Activo Fijo:** Este campo preselecciona los PM activos para el o los Activos cuyo Número de Activo corresponde a los valores aquí definidos. En este  campo se pueden utilizar los comodines.
+**AC-Número Activo Fijo:** Este campo preselecciona los PM para el o los Activos cuyo Número de Activo corresponde a los valores aquí definidos. En este  campo se pueden utilizar los comodines (%).
 
-**AC-Referencia:** Este filtro permite seleccionar PMs de  acuerdo con su número de Referencia.
+**AC-Referencia:** Este filtro permite seleccionar PM de  acuerdo con su número de Referencia.
 
-**AC-Serial:** Este filtro permite seleccionar los PMs de acuerdo con el número serial del Activo / Objeto de  Mantenimiento. El campo acepta comodines.
+**AC-Serial:** Este filtro permite seleccionar los PM de acuerdo con el número serial del Activo/Objeto de Mantenimiento. El campo acepta comodines (%).
 
 **AC-Ubicación Física:** Permite la selección de los PMs cuyo Activo se encuentre en   una   Ubicación  Física   determinada.  Cuando   se   utilizan   comodines,   es   posible seleccionar PMs cuyo Activo esté en una Ubicación Física  que tenga parte del nombre igual.  Por ejemplo: Cava% selecciona los PMs a Activos cuya Ubicación Física empieza por  la  palabra  Cava,  independientemente  de   si  se  está  hablando  de  la  Cava  de Fermentación, Maduración o Contrapresión.
 
