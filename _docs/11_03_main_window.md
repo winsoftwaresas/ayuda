@@ -144,7 +144,7 @@ Los campos de datos que constituyen criterio de selección haciendo parte de la 
 **AC-Cód. de Barras Prov:** Permite seleccionar los programas de mantenimiento que se encuentren asociados al Activo/Equipo y que coincida con el Código de Barras del Proveedor.
 
 **AC-Código:** Esta selección agrupa los PM para los Activos relacionados por su código. Es posible definir el código completo o una porción del mismo. Por ejemplo: si se  escribe 341%, se seleccionan todos los PM cuyo código de Activo inicia por 341. Si se escribe “%1”  se seleccionan todos los PMs cuyo código de Activo finaliza en un “1”. El porcentaje (%) es un carácter comodín que  significa  “todos”.
-También se puede buscar el Activo, haciendo uso del icono <span class="mdi mdi-filter-variant"></span>. El sistema responde mostrando en una ventana independiente el conjunto de Activos registrados, allí también se pueden filtrar por los criterios de subgrupo del módulo de Activos. Una vez identificado el Activo, se debe dar doble clic en el registro y luego 
+También se puede buscar el Activo, haciendo uso del icono <span class="mdi mdi-filter-variant"></span>. El sistema responde mostrando en una ventana independiente el conjunto de Activos registrados, allí también se pueden filtrar por los criterios de subgrupo del módulo de Activos. Una vez identificado el Activo, se debe dar doble clic en el registro y luego aparece identificado automáticamente el código del respectivo Activo en el campo.
 
 **AC-Descripción:** Selecciona  los  programas  de  mantenimiento asociados  a  los   Activos  según  criterios  que  se  fundamenten  en  su  descripción.  Ejemplo: %Motor% selecciona todos los Activos, en cuya descripción, en cualquier posición, tengan la palabra  “Motor”.
 
