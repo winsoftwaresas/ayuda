@@ -156,11 +156,16 @@ También se puede buscar el Activo, haciendo uso del icono <span class="mdi mdi-
 
 **AC-Serial:** Este filtro permite seleccionar los PM de acuerdo con el número serial del Activo/Objeto de Mantenimiento. El campo acepta comodines (%).
 
-**AC-Ubicación Física:** Permite la selección de los PMs cuyo Activo se encuentre en   una   Ubicación  Física   determinada.  Cuando   se   utilizan   comodines,   es   posible seleccionar PMs cuyo Activo esté en una Ubicación Física  que tenga parte del nombre igual.  Por ejemplo: Cava% selecciona los PMs a Activos cuya Ubicación Física empieza por  la  palabra  Cava,  independientemente  de   si  se  está  hablando  de  la  Cava  de Fermentación, Maduración o Contrapresión.
+**AC-Ubicación Física:** Permite la selección de los PM cuyo Activo se encuentre en  una  Ubicación  Física   determinada.  Cuando   se   utilizan   comodines (%)  es   posible seleccionar PM cuyo Activo esté en una Ubicación Física  que tenga parte del nombre igual.  Por ejemplo: Cava% selecciona los registros activos cuya Ubicación Física empieza por la palabra Cava, independientemente de  si se está  hablando de la Cava de Fermentación, Maduración o Contrapresión.
 
 **AC-Tipo:** Selecciona los  programas asociados a  los  Activos que se   encuentran asociados al tipo ingresado por el usuario.
 
-### FILTRAR POR C AMPOS DEL PRESUPUESTO – MATERIALES
+**AC-Marca:** Filtra todos los PM cuyo Activo esté asociado a la Marca relacionada en este campo, se aceptan comodines(%).
+
+**AC-Modelo:** Filtra todos los PM cuyo Activo esté asociado a la Marca relacionada en este campo, se aceptan comodines(%). 
+
+
+### FILTRAR POR CAMPOS DEL PRESUPUESTO – MATERIALES
 
 **Centro  de   Costo:**   Permite la selección de  PMs  de  acuerdo con  el  Centro de  Costo asignado. Para escoger un Centro de Costo como filtro, se puede hacer  descolgando la lista de Centros de Costo – Clientes definidos en Infraestructura, o  usando comodines. Cuando se utilizan comodines, es posible seleccionar los PMs pertenecientes a Centros de
 
