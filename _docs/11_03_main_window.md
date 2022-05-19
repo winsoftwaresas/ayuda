@@ -117,11 +117,12 @@ El significado de los colores que se listan son los siguientes:
 
 ## Subgrupo
 
-Se usa para seleccionar grupos de  Programas de Mantenimiento que cumplen con un conjunto  de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al `<span class="iconify btn" data-icon=filter-variant>`icono de filtro, ubicado en la parte superior derecha de la ventana Visor de Programas de Mantenimiento.
+Se usa para seleccionar o filtrar grupos de  Programas de Mantenimiento que cumplen con un conjunto  de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al icono de filtro <span class="mdi mdi-filter-variant"></span>, ubicado en la parte superior derecha de la ventana Visor de Programas de Mantenimiento.
 
-![ programa de mantenimiento](../../assets/images/cap08/chp08_img05.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img05.png)
+_**Imagen 25.** Programas de Mantenimiento - Ir a Subgrupos_
 
-Cada criterio trabaja en conjunto con los demás, con el operador intersección.
+Luego de ingresar se lista el conjunto de criterios, cada uno de ellos trabaja en conjunto con los demás, con el operador intersección.
 
 Cada criterio aparece inicializado en un valor global que permite mostrar todos los  PMs. Lo que significa que de no escoger un criterio se obtiene como resultado del subgrupo el mismo conjunto completo de todos los PMs.
 
