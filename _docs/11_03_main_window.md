@@ -141,7 +141,7 @@ Los campos de datos que constituyen criterio de selección haciendo parte de la 
 
 **AC-Cód. de Barras Int:** Permite seleccionar los programas de mantenimiento asociados al Activo/Equipo que coincida con el Código de Barras interno.
 
-**AC-Cód.** de Barras Prov: Permite seleccionar los programas de mantenimiento que se encuentren asociados el Activo/Equipo Activo que se encuentre asociado al Código de Barras del Proveedor.
+**AC-Cód. de Barras Prov:** Permite seleccionar los programas de mantenimiento que se encuentren asociados al Activo/Equipo y que coincida con el Código de Barras del Proveedor.
 
 **AC-Código:** Esta selección agrupa los PMs para los Activos relacionados por su código.  Es posible definir el código completo o una porción del mismo. Por ejemplo: si se  escribe 341%, se seleccionan todos los PMs cuyo código de Activo inicia por 341. Si se escribe  “%1”  se seleccionan todos los PMs cuyo código de Activo finaliza en un  “1”. El porcentaje (%) es un  carácter comodín que  significa  “todos”.
 
