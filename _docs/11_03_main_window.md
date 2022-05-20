@@ -212,31 +212,24 @@ Se ingresa mediante un clic en la pestaña **“Presupuesto”** en la ventana d
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img07.png)
 _**Imagen 27.** Programas de Mantenimiento - Presupuesto_
 
-Esta tabla resume los totales de los costos presupuestados de Mano de Obra Interna, Mano de Obra Externa, Materiales y Repuestos y Otros Conceptos de Costo.
+Esta tabla resume los totales de los costos presupuestados de Mano de Obra Interna, Mano de Obra Externa, Materiales y Repuestos y Otros Conceptos de Costo que serán traslados a las OT una vez generadas. 
 
-Ingresar o Modificar la Mano de Obra Interna presupuestada, a nivel de tipo de oficio y número de horas entre otros, se puede realizar o definir mediante un clic en el botón de `<a class="btn">`Mano Obra Interna `</a>`. que conduce a la ventana Presupuesto ** “Mano Obra Interna‟.**
+**Ingresar Mano de Obra Interna**
 
-Ingresar o Modificar la Mano de Obra Externa presupuestada, a nivel de costo unitario por hora o visita, se puede realizar o definir mediante un clic en el botón de `<a class="btn">`Mano Obra Externa `</a>`. que conduce a la ventana Presupuesto ** “Mano Obra Externa‟.**
-
-Ingresar o  Modificar los Materiales o Repuestos presupuestados, a nivel de código  de repuesto, tipo de repuesto y número de unidades presupuestadas entre otros, se realiza o define mediante un clic en el botón de `<a class="btn">`Mat y Rep `</a>`. que conduce a la ventana de ** “Presupuesto de Materiales y Repuestos”**.
-
-Ingresar o Modificar los Otros Conceptos presupuestados, a nivel de tipo de  Concepto  y Valor  y Tipo  de  Trabajo,  se  puede  realizar  o  definir  mediante un  clic  en  el  botón `<a class="btn">`O. Conceptos `</a>`. que conduce a la ventana **“Presupuesto O. Conceptos de Costo”.**
-
-## **Ingresar Mano de Obra Interna**
-
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img13.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img08.png)
+_**Imagen 28.** Programas de Mantenimiento - Presupuesto_
 
 En la gráfica anterior, Ventana de Ingreso de Mano de Obra Interna, se aprecian sus componentes y sus respectivos contenidos.
 
 A través de la ventana de Ingreso de Mano de Obra Interna se administra el Presupuesto de Mano de Obra Interna del PM.
 
-Es importante recalcar que el presupuesto de Mano de Obra Interna de un PM, se prepara a nivel de Oficio, es decir, no se tiene en cuenta a la persona que va a realizar la labor, pues se trata de un presupuesto y no se conoce a ciencia cierta, en la mayoría  de  los casos, quiénes serán los encargados de ejecutar la labor.
+Es importante resaltar que el presupuesto de Mano de Obra Interna de un PM, se prepara a nivel de Oficio, es decir, no se tiene en cuenta a la persona que va a realizar la labor, pues se trata de un presupuesto y no se conoce a ciencia cierta, en la mayoría  de  los casos, quiénes serán los encargados de ejecutar la labor.
 
 En la parte superior aparece el listado de los oficios presupuestados. En la parte inferior, es posible efectuar modificaciones a los ítems presupuestados, así como ingresar nuevos oficios al presupuesto.
 
-A continuación se describen los campos que componen esta ventana; cuando se  quiera actualizar o  ingresar nuevos  oficios al  presupuesto del  PM,  se  deberán  diligenciar los siguientes campos:
+A continuación se describen los campos que componen esta ventana:
 
-**CR:** Es el centro responsable al que pertenece el Oficio presupuestado.   Es un campo de solo lectura, que se establece automáticamente una vez se ha seleccionado el Oficio.
+**CR:** Es el centro responsable al que pertenece el Oficio presupuestado.  Es un campo de solo lectura, que se establece automáticamente una vez se ha seleccionado el Oficio.
 
 **OF:** Lista los Oficios definidos en el módulo de Infraestructura. Aquí se escoge el Oficio a presupuestar (anticipar).
 
