@@ -203,129 +203,14 @@ _**Nota:** Es importante tener en cuenta que cuando se están realizando  subgru
 
 # Vistas Parciales/Pestañas
 
-Las Vistas Parciales o Pestañas permiten complementar la información que se despliega normalmente sobre un Programa de Mantenimiento, con otro conjunto de información que solo se muestra cuando es necesario,  por solicitud del usuario. Las vistas parciales  disponibles son: presupuesto, criterio de programación y multimedia.
-
-### Criterios de Programación
-
-Es la función que permite definir el criterio mediante el cual, automáticamente un  PM, genera una Orden de Trabajo de mantenimiento Preventivo, Predictivo, Lubricación, Inspección, Metrología, Otro-Mantto u Otro. Ello se realiza sobre la pestaña que se muestra a continuación.
-
-**Son tres grupos de criterios:** por Frecuencia, por Semanas del Año y por  Contador, que  pueden  trabajar  en   forma  excluyente,  aunque  se posibilitan   alguna combinación   entre   ellos, para   criterios   complejos. Entonces por ejemplo, el  primero y tercero, pueden ser definidos simultáneamente, para lograr el efecto de generar una  OT cuando cualquiera de los dos de cada pareja se cumpla.
-
-![ programa de mantenimiento](../../assets/images/cap08/chp08_img08.png)
-
-#### Frecuencia
-
-![ programa de mantenimiento](../../assets/images/cap08/chp08_img09.png)
-
-Esta opción se selecciona cuando se trata de un PM a ser definido para un Activo que trabaja normalmente bajo una función uniforme en el tiempo. 	La frecuencia se  define a través de uno de los siguientes modos: Días, Semanas, Meses. Tales  intervalos de tiempo, definidos conjuntamente con el campo Período, se comienzan a medir a partir de la FIP en cada PM.
-
-**Días:** Requiere  la definición de un número de días en el periodo (mínimo 3). La FIP define la fecha a partir de la cual se inicia la cuenta de días transcurridos para la generación de una nueva OT.
-
-**Semanas:** Requiere la definición de un número de semanas en el periodo (Máximo 52). La FIP define el inicio de la vigencia del programa, o sea la fecha a partir de la  cual el Sistema contará el  número de semanas que  se  acaba  de  programar, para  generar  la próxima OT.
-
-**Meses:** Requiere la definición del periodo en meses y de la FIP. Para cada generación, el Sistema cuenta el número de meses definidos en el „Período‟ a partir  de la FIP y compara la fecha resultante con la fecha del rango de análisis, si cae dentro del int ervalo, se genera una OT.
-
-**Periodicidad:** Indica el número de unidades de tiempo definidas en la Frecuencia. Estos dos son valores complementarios. De entre los dos se establece, la frecuencia con la que el PM generará una Orden de Trabajo.
-
-Si se elige Frecuencia por  días, el período debe ser  un número entre 3  y 365;  si  la Frecuencia es  Semanas, el  período debe ser  un  número entre 1 y 52;   y si  se elige Frecuencia por Meses, el período o debe ser un número entre 1 y 180.
-
-**Fecha Inicio Periodo (FIP):** La Fecha de Inicio de Período (FIP), solo se puede ingresar  una vez al PM a través de esta ventana, y es en el momento de crear el PM. Una vez se defina la FIP y se grabe el PM, solo se pueden hacer modificaciones a la FIP a través  de  la transacción: Modificar FIP.
-
-Para mayor información sobre la FIP, revise el titulo Modificar Fecha de Inicio del Período (FIP), en la sección Transacciones.
-
-**Fecha de última generación de OT:** Esta fecha es informativa y viene a ser la FUG (fecha de la última generación), por tanto  no  se  puede  modificar,  esta  fecha  es  la  misma  para  todos  los   Criterios  de Programación.   Es una fecha real, siempre, que muestra cuando fue  que se realizó la última generación de una Orden de Trabajo desde ese PM.
-
-#### Semanas del Año (SA)
-
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img10.png)
-
-Es el segundo criterio disponible. Al dar un clic de selección en la casilla  Frecuencia, aparece la ventana de Semanas del Año, (figura anterior). En ella es posible escoger las semanas en las cuales se debe generar una OT para el PM en cuestión. Un PM puede tener seleccionadas una, algunas o todas las 52 semanas, en cuyo caso se comportaría como un PM que genera Ordenes de Trabajo semanalmente.
-
-Este  Criterio de  Programación hace caso  omiso de  la  FIP  y se  usa  para  hacer  una programación anual con base en el conocimiento o experiencia del área de mantenimiento sobre ese AC u Objeto.  En otras palabras la programación depende de los eventos que lo involucran o de requerimientos especiales de temporada, que no tienen que ver ni con una frecuencia ni con la cantidad de trabajo realizado por el Activo.
-
-**Al generar Órdenes de Trabajo se debe tener en cuenta:**
-
-Si un PM definió que se debe generar una Orden de Trabajo la semana X del año,  y el intervalo a Analizar/Generar contiene al menos un día de la semana X, entonces el **AM**** genera la OT.
-
-El Criterio SA es excluyente con los demás Criterios de Programación, es decir no puede coexistir con ninguno otro dentro del mismo PM.
-
-**Fecha de última generación de OT:** Esta fecha es informativa y viene a ser la FUG (fecha de la última generación), por tanto  no  se  puede  modificar,  esta  fecha  es  la  misma  para  todos  los   Criterios  de Programación.   Es una fecha real, siempre, que muestra cuando fue  que se realizó la última generación de una Orden
-
-#### Por Contador
-
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img11.png)
-
-Esta opción aparece protegida (su casilla aparece sombreada en gris) si el AC no posee un Contador definido.
-
-**Contador:** Este campo aplica cuando el Criterio de Programación es por Contador. Al generar un PM que lo requiera, es en este campo donde se establece el valor  real o aproximado  del  contador,  la  última  vez  que  se  realizó  la  labor  que  ahora  se  está programando como rutina. En adelante, el **AM****  ubica automáticamente en este campo el valor actual del contador del Activo, en el  momento de generar la Orden de Trabajo. Más adelante se amplía esta explicación, al tratar el criterio de programación por Contador.
-
-Este Criterio tiene en cuenta la FIP, o sea que si el intervalo a Analizar/Generar  se encuentra antes de la FIP, el PM no genera OTs, así se haya cumplido el Incremento o el Límite por parte del Contador del AC.
-
-**Tipo:** Indica si el contador es incremental o por límite.
-
-**Por Incremento**: Esta opción requiere la definición de una ** “Recurrencia”**. Para que el  PM genere una Orden de Trabajo, el Contador del AC debe haber incrementado  su valor, sobre el  contador de  la  Última generación, en  el  PM,  en  una cantidad  superior a  la Recurrencia. Ej. El cambio  de  aceite y filtro cada 5.000 km. en un automóvil, exige la definición de una recurrencia con valor 5.000.
-
-Cuando se  define un  PM  en  función de  un  contador de  un  Activo, debe  existir  un mecanismo predefinido: manual o automático, para actualizar y mantener al día el contador de  ese  Activo  en  el  **AM**.  Se  trata  de  garantizar  que  tales  contadores  reflejen permanentemente la cantidad de trabajo  realizado por el Activo.  De hecho un PM con criterio  Contador,  solo  generará  Ordenes  de  Trabajo,  mientras  haya  variación  en  el contador del Activo.
-
-En los casos en que la actualización de los contadores de los AC no pueda ser frecuente, el **AM**** suministra un mecanismo automático que lo simula, mientras se puede realizar una nueva lectura y actualización real a ese contador. Se trata del  campo Estándar de Planeación que se encuentra en la parte inferior de la ventana detalle de Activos. Allí se define una cantidad de trabajo estándar que realiza ese Activo por unidad de tiempo. Este valor es definido con base en una estadística real del trabajo de ese Activo en un período considerable, ojalá no inferior a los 6 meses.
-
-**Por Límite:** Indica que el Contador del AC debe alcanzar una cantidad tope, definida en la Recurrencia, para que el PM genere la OT. Por este criterio solo se genera una única vez la Órden de Trabajo, cuando se alcance el Límite definido. Una vez generada la OT desde el PM, éste se desactiva y ya no vuelve a generar otras OT.
-
-**Recurrencia:** En este campo se define una cifra o cantidad que denota el incremento que debe sufrir el contador del Activo, para generar una Orden de Trabajo por contador, con criterio Incremento. Pero también en este campo se define un valor límite al que debe llegar el contador del Activo para generar una Orden de Trabajo por contador, cuando el criterio es Límite.
-
-**Vlr. Contador al Inicio del Período:** Se refiere al valor inicial del contador del Activo, correspondiente a la Fecha de Inicio de Período (FIP) previamente diligenciada en el mismo apartado.
-
-**Fecha de última generación de OT:** Esta fecha es informativa y viene a ser la FUG (fecha de la última generación), por tanto no se puede  modificar, esta fecha es la misma para todos los Criterios de Programación. Es una fecha real, siempre, que muestra cuando fue que se realizó la última generación de una Orden de Trabajo desde ese PM.
-
-Para saber si la OT se va a generar o no; el **AM****  proyecta el valor del Contador del AC desde la fecha de su última medición hasta el primer día del rango de análisis / generación, y compara el nuevo valor del Contador del AC, con el CUG.  Si el valor de la comparación, es mayor o igual a la Recurrencia, genera la Orden de Trabajo.  De lo contrario, recalcula nuevamente el valor del Contador del AC para el siguiente día  del rango de análisis / generación,  y  hace  la  misma  comparación. Así  recorre todo  el  rango  de  análisis  / generación  hasta  el  último  día,  generando  una  OT,  si   el   valor  de  alguna  de  las comparaciones es mayor o igual a la recurrencia.
-
-Calcular el valor del Contador consiste en sumarle al valor actual del Contador del AC la cantidad que resulte de llevar el Estándar de Planeación a la mínima unidad de tiempo, o sea a días, y multiplicar este valor por el número de días transcurridos desde la fecha de medición del Contador del AC, hasta el día del rango de Análisis / Generación en análisis.
-
-En síntesis el Sistema proyecta el estado del contador del AC a partir de su valor  en  la fecha de última lectura real, hasta la fecha de programación actual, según el    parámetro definido en el Estándar de Planeación. De esta forma se compara un contador proyectado contra el contador histórico o de la última generación, permitiéndole al Sistema, programar actividades que no se programarían por tener desactualizado el contador real.
-
-Recuerde que el parámetro ** “Estándar  de Planeación”** es opcional y NO se debe usar si se desea trabajar con lecturas reales solamente, es decir, si se mantienen actualizados los Contadores de los ACs.
-
-**Criterio 	de 	Generación 	por 	Frecuencia 	y/o 	Contador.**
-
-Resulta de definir simultáneamente un conjunto Frecuencia, Período y una Recurrencia para un contador, por ejemplo, en un mismo PM.
-
-El   sistema actúa de   la   forma ya   descrita independientemente para cada uno de   los criterios, solo que el **–AM 4G**  al encontrarlos juntos en el mismo PM, hace la  evaluación simultánea de ellos y genera una OT cuando uno de ellos, el que primero lo haga, cumpla la condición.
-
-En síntesis se encuentran disponibles los siguientes criterios que se pueden visualizar en el visor de PMs y también en las OTs que se generaron desde ellos.
-
-| ABREVIATURA  | NOMBRE                           |
-| ------------ | -------------------------------- |
-| **SS** | Semanal                          |
-| **MM** | Mensual                          |
-| **SM** | Semestral                        |
-| **AN** | Anual                            |
-| **DD** | Días(Mín 3)                    |
-| **SA** | Semanas del año                 |
-| **+M** | Meses (más de uno)              |
-| **+S** | Semanas (más de una)            |
-| **KI** | Contador por Incremento          |
-| **KL** | Contador por Límite             |
-| **SI** | Estándar por Incremento         |
-| **SL** | Estándar por Límite            |
-| **FK** | Frecuencia y/o Contador          |
-| **TM** | Trimestral                       |
-| **??** | Programa Inactivo o Sin Criterio |
-| **CM** | Característica Medibles         |
-
-Una vez que un Programa de Mantenimiento acaba de generar una OT, sobre el programa se actualizan los campos:
-
-**Vlr.** Contador al Inicio del Período
-Fecha de Última Generación (FUG) Fecha de Inicio del Período (FIP)
-
-**Nota.** Cuando se posee el **AM**** es posible hacer la Programación de las Actividades de Mantenimiento para un período futuro, tanto para el corto como para el largo  plazo, a través de las funciones de Generación y de Proyección. La función de  Generación se encuentra en el submenú de  “Órdenes de Trabajo”. La función Proyección se encuentra en el	submenú   de 	Programas   de	Mantenimiento. Cabe anotar también que esta Programación se   puede realizar con cualquier  anticipación requerida, por   lo   tanto es posible que la Programación de una semana como la 32 se realice en la 28, por ejemplo.
-
-Finalmente se aclara que toda actividad que pretenda programar, proyectar o generar OTs a futuro se fundamenta en la programación realizada con los PMs.
+Las Vistas Parciales o Pestañas permiten complementar la información que se despliega normalmente sobre un Programa de Mantenimiento, con otro conjunto de información que solo se muestra cuando es necesario,  por solicitud del usuario. Las vistas parciales  disponibles son: **Presupuesto**, **Criterio de Programación** y **Multimedia**. Estas opciones se encuentran en la Ventana Detalle del registro.
 
 ### Presupuesto
 
 Se ingresa mediante un clic en la pestaña **“Presupuesto”** en la ventana detalle de Programas  de Mantenimiento.
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img12.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img07.png)
+_**Imagen 27.** Programas de Mantenimiento - Ir a Subgrupos_
 
 Esta tabla resume los totales de los costos presupuestados de Mano de Obra Interna, Mano de Obra Externa, Materiales y Repuestos y Otros Conceptos de Costo.
 
@@ -444,6 +329,124 @@ Para crear registros de Otros Conceptos de Costo, se debe hacer clic en el botó
 
 Para eliminar un registro de la tabla de Otros Conceptos, se ubica el registro a eliminar directamente en la tabla y se da clic, luego se da clic al icono de `<span class="iconify btn" data-icon=delete>`eliminar (basura), sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en
 `<a class="btn">` Aceptar `</a>`.
+
+
+### Criterios de Programación
+
+Es la función que permite definir el criterio mediante el cual, automáticamente un  PM, genera una Orden de Trabajo de mantenimiento Preventivo, Predictivo, Lubricación, Inspección, Metrología, Otro-Mantto u Otro. Ello se realiza sobre la pestaña que se muestra a continuación.
+
+**Son tres grupos de criterios:** por Frecuencia, por Semanas del Año y por  Contador, que  pueden  trabajar  en   forma  excluyente,  aunque  se posibilitan   alguna combinación   entre   ellos, para   criterios   complejos. Entonces por ejemplo, el  primero y tercero, pueden ser definidos simultáneamente, para lograr el efecto de generar una  OT cuando cualquiera de los dos de cada pareja se cumpla.
+
+![ programa de mantenimiento](../../assets/images/cap08/chp08_img08.png)
+
+#### Frecuencia
+
+![ programa de mantenimiento](../../assets/images/cap08/chp08_img09.png)
+
+Esta opción se selecciona cuando se trata de un PM a ser definido para un Activo que trabaja normalmente bajo una función uniforme en el tiempo. 	La frecuencia se  define a través de uno de los siguientes modos: Días, Semanas, Meses. Tales  intervalos de tiempo, definidos conjuntamente con el campo Período, se comienzan a medir a partir de la FIP en cada PM.
+
+**Días:** Requiere  la definición de un número de días en el periodo (mínimo 3). La FIP define la fecha a partir de la cual se inicia la cuenta de días transcurridos para la generación de una nueva OT.
+
+**Semanas:** Requiere la definición de un número de semanas en el periodo (Máximo 52). La FIP define el inicio de la vigencia del programa, o sea la fecha a partir de la  cual el Sistema contará el  número de semanas que  se  acaba  de  programar, para  generar  la próxima OT.
+
+**Meses:** Requiere la definición del periodo en meses y de la FIP. Para cada generación, el Sistema cuenta el número de meses definidos en el „Período‟ a partir  de la FIP y compara la fecha resultante con la fecha del rango de análisis, si cae dentro del int ervalo, se genera una OT.
+
+**Periodicidad:** Indica el número de unidades de tiempo definidas en la Frecuencia. Estos dos son valores complementarios. De entre los dos se establece, la frecuencia con la que el PM generará una Orden de Trabajo.
+
+Si se elige Frecuencia por  días, el período debe ser  un número entre 3  y 365;  si  la Frecuencia es  Semanas, el  período debe ser  un  número entre 1 y 52;   y si  se elige Frecuencia por Meses, el período o debe ser un número entre 1 y 180.
+
+**Fecha Inicio Periodo (FIP):** La Fecha de Inicio de Período (FIP), solo se puede ingresar  una vez al PM a través de esta ventana, y es en el momento de crear el PM. Una vez se defina la FIP y se grabe el PM, solo se pueden hacer modificaciones a la FIP a través  de  la transacción: Modificar FIP.
+
+Para mayor información sobre la FIP, revise el titulo Modificar Fecha de Inicio del Período (FIP), en la sección Transacciones.
+
+**Fecha de última generación de OT:** Esta fecha es informativa y viene a ser la FUG (fecha de la última generación), por tanto  no  se  puede  modificar,  esta  fecha  es  la  misma  para  todos  los   Criterios  de Programación.   Es una fecha real, siempre, que muestra cuando fue  que se realizó la última generación de una Orden de Trabajo desde ese PM.
+
+#### Semanas del Año (SA)
+
+![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img10.png)
+
+Es el segundo criterio disponible. Al dar un clic de selección en la casilla  Frecuencia, aparece la ventana de Semanas del Año, (figura anterior). En ella es posible escoger las semanas en las cuales se debe generar una OT para el PM en cuestión. Un PM puede tener seleccionadas una, algunas o todas las 52 semanas, en cuyo caso se comportaría como un PM que genera Ordenes de Trabajo semanalmente.
+
+Este  Criterio de  Programación hace caso  omiso de  la  FIP  y se  usa  para  hacer  una programación anual con base en el conocimiento o experiencia del área de mantenimiento sobre ese AC u Objeto.  En otras palabras la programación depende de los eventos que lo involucran o de requerimientos especiales de temporada, que no tienen que ver ni con una frecuencia ni con la cantidad de trabajo realizado por el Activo.
+
+**Al generar Órdenes de Trabajo se debe tener en cuenta:**
+
+Si un PM definió que se debe generar una Orden de Trabajo la semana X del año,  y el intervalo a Analizar/Generar contiene al menos un día de la semana X, entonces el **AM**** genera la OT.
+
+El Criterio SA es excluyente con los demás Criterios de Programación, es decir no puede coexistir con ninguno otro dentro del mismo PM.
+
+**Fecha de última generación de OT:** Esta fecha es informativa y viene a ser la FUG (fecha de la última generación), por tanto  no  se  puede  modificar,  esta  fecha  es  la  misma  para  todos  los   Criterios  de Programación.   Es una fecha real, siempre, que muestra cuando fue  que se realizó la última generación de una Orden
+
+#### Por Contador
+
+![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img11.png)
+
+Esta opción aparece protegida (su casilla aparece sombreada en gris) si el AC no posee un Contador definido.
+
+**Contador:** Este campo aplica cuando el Criterio de Programación es por Contador. Al generar un PM que lo requiera, es en este campo donde se establece el valor  real o aproximado  del  contador,  la  última  vez  que  se  realizó  la  labor  que  ahora  se  está programando como rutina. En adelante, el **AM****  ubica automáticamente en este campo el valor actual del contador del Activo, en el  momento de generar la Orden de Trabajo. Más adelante se amplía esta explicación, al tratar el criterio de programación por Contador.
+
+Este Criterio tiene en cuenta la FIP, o sea que si el intervalo a Analizar/Generar  se encuentra antes de la FIP, el PM no genera OTs, así se haya cumplido el Incremento o el Límite por parte del Contador del AC.
+
+**Tipo:** Indica si el contador es incremental o por límite.
+
+**Por Incremento**: Esta opción requiere la definición de una ** “Recurrencia”**. Para que el  PM genere una Orden de Trabajo, el Contador del AC debe haber incrementado  su valor, sobre el  contador de  la  Última generación, en  el  PM,  en  una cantidad  superior a  la Recurrencia. Ej. El cambio  de  aceite y filtro cada 5.000 km. en un automóvil, exige la definición de una recurrencia con valor 5.000.
+
+Cuando se  define un  PM  en  función de  un  contador de  un  Activo, debe  existir  un mecanismo predefinido: manual o automático, para actualizar y mantener al día el contador de  ese  Activo  en  el  **AM**.  Se  trata  de  garantizar  que  tales  contadores  reflejen permanentemente la cantidad de trabajo  realizado por el Activo.  De hecho un PM con criterio  Contador,  solo  generará  Ordenes  de  Trabajo,  mientras  haya  variación  en  el contador del Activo.
+
+En los casos en que la actualización de los contadores de los AC no pueda ser frecuente, el **AM**** suministra un mecanismo automático que lo simula, mientras se puede realizar una nueva lectura y actualización real a ese contador. Se trata del  campo Estándar de Planeación que se encuentra en la parte inferior de la ventana detalle de Activos. Allí se define una cantidad de trabajo estándar que realiza ese Activo por unidad de tiempo. Este valor es definido con base en una estadística real del trabajo de ese Activo en un período considerable, ojalá no inferior a los 6 meses.
+
+**Por Límite:** Indica que el Contador del AC debe alcanzar una cantidad tope, definida en la Recurrencia, para que el PM genere la OT. Por este criterio solo se genera una única vez la Órden de Trabajo, cuando se alcance el Límite definido. Una vez generada la OT desde el PM, éste se desactiva y ya no vuelve a generar otras OT.
+
+**Recurrencia:** En este campo se define una cifra o cantidad que denota el incremento que debe sufrir el contador del Activo, para generar una Orden de Trabajo por contador, con criterio Incremento. Pero también en este campo se define un valor límite al que debe llegar el contador del Activo para generar una Orden de Trabajo por contador, cuando el criterio es Límite.
+
+**Vlr. Contador al Inicio del Período:** Se refiere al valor inicial del contador del Activo, correspondiente a la Fecha de Inicio de Período (FIP) previamente diligenciada en el mismo apartado.
+
+**Fecha de última generación de OT:** Esta fecha es informativa y viene a ser la FUG (fecha de la última generación), por tanto no se puede  modificar, esta fecha es la misma para todos los Criterios de Programación. Es una fecha real, siempre, que muestra cuando fue que se realizó la última generación de una Orden de Trabajo desde ese PM.
+
+Para saber si la OT se va a generar o no; el **AM****  proyecta el valor del Contador del AC desde la fecha de su última medición hasta el primer día del rango de análisis / generación, y compara el nuevo valor del Contador del AC, con el CUG.  Si el valor de la comparación, es mayor o igual a la Recurrencia, genera la Orden de Trabajo.  De lo contrario, recalcula nuevamente el valor del Contador del AC para el siguiente día  del rango de análisis / generación,  y  hace  la  misma  comparación. Así  recorre todo  el  rango  de  análisis  / generación  hasta  el  último  día,  generando  una  OT,  si   el   valor  de  alguna  de  las comparaciones es mayor o igual a la recurrencia.
+
+Calcular el valor del Contador consiste en sumarle al valor actual del Contador del AC la cantidad que resulte de llevar el Estándar de Planeación a la mínima unidad de tiempo, o sea a días, y multiplicar este valor por el número de días transcurridos desde la fecha de medición del Contador del AC, hasta el día del rango de Análisis / Generación en análisis.
+
+En síntesis el Sistema proyecta el estado del contador del AC a partir de su valor  en  la fecha de última lectura real, hasta la fecha de programación actual, según el    parámetro definido en el Estándar de Planeación. De esta forma se compara un contador proyectado contra el contador histórico o de la última generación, permitiéndole al Sistema, programar actividades que no se programarían por tener desactualizado el contador real.
+
+Recuerde que el parámetro ** “Estándar  de Planeación”** es opcional y NO se debe usar si se desea trabajar con lecturas reales solamente, es decir, si se mantienen actualizados los Contadores de los ACs.
+
+**Criterio 	de 	Generación 	por 	Frecuencia 	y/o 	Contador.**
+
+Resulta de definir simultáneamente un conjunto Frecuencia, Período y una Recurrencia para un contador, por ejemplo, en un mismo PM.
+
+El   sistema actúa de   la   forma ya   descrita independientemente para cada uno de   los criterios, solo que el **–AM 4G**  al encontrarlos juntos en el mismo PM, hace la  evaluación simultánea de ellos y genera una OT cuando uno de ellos, el que primero lo haga, cumpla la condición.
+
+En síntesis se encuentran disponibles los siguientes criterios que se pueden visualizar en el visor de PMs y también en las OTs que se generaron desde ellos.
+
+| ABREVIATURA  | NOMBRE                           |
+| ------------ | -------------------------------- |
+| **SS** | Semanal                          |
+| **MM** | Mensual                          |
+| **SM** | Semestral                        |
+| **AN** | Anual                            |
+| **DD** | Días(Mín 3)                    |
+| **SA** | Semanas del año                 |
+| **+M** | Meses (más de uno)              |
+| **+S** | Semanas (más de una)            |
+| **KI** | Contador por Incremento          |
+| **KL** | Contador por Límite             |
+| **SI** | Estándar por Incremento         |
+| **SL** | Estándar por Límite            |
+| **FK** | Frecuencia y/o Contador          |
+| **TM** | Trimestral                       |
+| **??** | Programa Inactivo o Sin Criterio |
+| **CM** | Característica Medibles         |
+
+Una vez que un Programa de Mantenimiento acaba de generar una OT, sobre el programa se actualizan los campos:
+
+**Vlr.** Contador al Inicio del Período
+Fecha de Última Generación (FUG) Fecha de Inicio del Período (FIP)
+
+**Nota.** Cuando se posee el **AM**** es posible hacer la Programación de las Actividades de Mantenimiento para un período futuro, tanto para el corto como para el largo  plazo, a través de las funciones de Generación y de Proyección. La función de  Generación se encuentra en el submenú de  “Órdenes de Trabajo”. La función Proyección se encuentra en el	submenú   de 	Programas   de	Mantenimiento. Cabe anotar también que esta Programación se   puede realizar con cualquier  anticipación requerida, por   lo   tanto es posible que la Programación de una semana como la 32 se realice en la 28, por ejemplo.
+
+Finalmente se aclara que toda actividad que pretenda programar, proyectar o generar OTs a futuro se fundamenta en la programación realizada con los PMs.
+
 
 ### Multimedia
 
