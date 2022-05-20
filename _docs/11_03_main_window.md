@@ -135,7 +135,7 @@ _**Imagen 26.** Programas de Mantenimiento - Ir a Subgrupos_
 
 Los campos de datos que constituyen criterio de selección haciendo parte de la Ventana Subgrupo de PMs son los siguientes.
  
-### FILTRAR POR CAMPOS DEL ACTIVO ASOCIADO AL PROGRAMA
+##### FILTRAR POR CAMPOS DEL ACTIVO ASOCIADO AL PROGRAMA
 
 **AC-Alias:** Este filtro permite seleccionar los PMs para los Activos cuyo Alias coincide con el valor definido aquí. El campo acepta comodines (%).
 
@@ -165,9 +165,14 @@ También se puede buscar el Activo, haciendo uso del icono <span class="mdi mdi-
 **AC-Modelo:** Filtra todos los PM cuyo Activo esté asociado a la Marca relacionada en este campo, se aceptan comodines(%). 
 
 
-### FILTRAR POR CAMPOS DEL PRESUPUESTO – MATERIALES
+##### FILTRAR POR CAMPOS DEL PRESUPUESTO – MATERIALES
 
-**Centro  de   Costo:**   Permite la selección de  PMs  de  acuerdo con  el  Centro de  Costo asignado. Para escoger un Centro de Costo como filtro, se puede hacer  descolgando la lista de Centros de Costo – Clientes definidos en Infraestructura, o  usando comodines. Cuando se utilizan comodines, es posible seleccionar los PMs pertenecientes a Centros de
+**RP-Código:** Filtra los PM que tengan relacionado en el presupuesto el código del Repuesto digitado en el campo. Para buscar el Repuesto desde el buscador de Subgrupo de Materiales y Repuestos se debe dar clic en el icono de filtro azul que aparece al lado del respectivo campo <span class="mdi mdi-filter-variant icon white"></span>. Allí se abre una ventana independiente que muestra el visor de Repuestos, es posible hacer filtros o subgrupos allí, dando clic al icono superior <span class="mdi mdi-filter-variant"></span>.
+
+
+##### FILTRAR POR CAMPOS DEL PROGRAMA
+
+**Centro de Costo:**  Permite la selección de  PM  de  acuerdo con  el  Centro de  Costo asignado. Para escoger un Centro de Costo como filtro, se puede hacer  descolgando la lista de Centros de Costo – Clientes definidos en Infraestructura, o  usando comodines. Cuando se utilizan comodines, es posible seleccionar los PMs pertenecientes a Centros de
 
 Costo que tengan parte del nombre igual. Por ejemplo: Sistema% seleccionará todas los PMs que en su Centro de Costo tengan la palabra Sistema, independiente de si  se está hablando del sistema de agua, de vapor o de energía.
 
@@ -264,9 +269,9 @@ Este Criterio tiene en cuenta la FIP, o sea que si el intervalo a Analizar/Gener
 
 **Por Incremento**: Esta opción requiere la definición de una ** “Recurrencia”**. Para que el  PM genere una Orden de Trabajo, el Contador del AC debe haber incrementado  su valor, sobre el  contador de  la  Última generación, en  el  PM,  en  una cantidad  superior a  la Recurrencia. Ej. El cambio  de  aceite y filtro cada 5.000 km. en un automóvil, exige la definición de una recurrencia con valor 5.000.
 
-Cuando se  define un  PM  en  función de  un  contador de  un  Activo, debe  existir  un mecanismo predefinido: manual o automático, para actualizar y mantener al día el contador de  ese  Activo  en  el  **AM****.  Se  trata  de  garantizar  que  tales  contadores  reflejen permanentemente la cantidad de trabajo  realizado por el Activo.  De hecho un PM con criterio  Contador,  solo  generará  Ordenes  de  Trabajo,  mientras  haya  variación  en  el contador del Activo.
+Cuando se  define un  PM  en  función de  un  contador de  un  Activo, debe  existir  un mecanismo predefinido: manual o automático, para actualizar y mantener al día el contador de  ese  Activo  en  el  **AM**.  Se  trata  de  garantizar  que  tales  contadores  reflejen permanentemente la cantidad de trabajo  realizado por el Activo.  De hecho un PM con criterio  Contador,  solo  generará  Ordenes  de  Trabajo,  mientras  haya  variación  en  el contador del Activo.
 
-En los casos en que la actualización de los contadores de los ACs no pueda ser frecuente, el **AM**** suministra un mecanismo automático que lo simula, mientras se puede realizar una nueva lectura y actualización real a ese contador. Se trata del  campo Estándar de Planeación que se encuentra en la parte inferior de la ventana detalle de Activos. Allí se define una cantidad de trabajo estándar que realiza ese Activo por unidad de tiempo. Este valor es definido con base en una estadística real del trabajo de ese Activo en un período considerable, ojalá no inferior a los 6 meses.
+En los casos en que la actualización de los contadores de los AC no pueda ser frecuente, el **AM**** suministra un mecanismo automático que lo simula, mientras se puede realizar una nueva lectura y actualización real a ese contador. Se trata del  campo Estándar de Planeación que se encuentra en la parte inferior de la ventana detalle de Activos. Allí se define una cantidad de trabajo estándar que realiza ese Activo por unidad de tiempo. Este valor es definido con base en una estadística real del trabajo de ese Activo en un período considerable, ojalá no inferior a los 6 meses.
 
 **Por Límite:** Indica que el Contador del AC debe alcanzar una cantidad tope, definida en la Recurrencia, para que el PM genere la OT. Por este criterio solo se genera una única vez la Órden de Trabajo, cuando se alcance el Límite definido. Una vez generada la OT desde el PM, éste se desactiva y ya no vuelve a generar otras OT.
 
