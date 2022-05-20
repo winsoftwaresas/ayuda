@@ -188,11 +188,9 @@ También se puede buscar el Activo, haciendo uso del icono <span class="mdi mdi-
 
 **Prioridad:** Esta opción permite filtrar por Prioridad de los PM. Se elige a partir de la lista desplegable.
 
-**Responsable:** Agrupa  los  PMs  de  acuerdo  al  Responsable del  PM.  Para  escoger  un Responsable Ejecutor se  puede  hacer   descolgando  la  lista  de   Responsables   definidos  en Infraestructura; el Sistema mostrará los Responsables y los Terceros activos. También se puede hacer usando comodines.
+**Responsable:** Agrupa los  PM de acuerdo  al  Responsable del  PM.  Para  escoger  un Responsable Ejecutor se  puede  hacer   descolgando  la  lista  de   Responsables   definidos  en Infraestructura; el Sistema mostrará los Responsables activos. También se puede hacer usando comodines (%). La búsqueda del Responsable por esta opción de comodines es según su parametrización, bien sea por nombre o código.
 
-Este filtro permite por ejemplo, listar todos los PMs asignados al Contratista ** “X”**, o dicho de otro modo, permite conocer qué PMs tiene a cargo el Contratista ** “X”**.
-
-**Tiempo Improductivo:** Filtra los PMs según si se ha definido que el activo se debe parar para realizar la tarea de mantenimiento o no.
+**Tiempo Improductivo:** Es un campo de dos opciones: "**Si**", "**No**" filtrando los PM según si se ha definido que el activo se debe suspender para realizar la tarea de mantenimiento o no.
 
 **Tipo de Actividad:** Filtra los PMs por Tipo de Actividad. Para escoger un Tipo de Actividad lo puede hacer descolgando la lista de Tipos de Actividad definida   en  Infraestructura, o usando comodines.
 
