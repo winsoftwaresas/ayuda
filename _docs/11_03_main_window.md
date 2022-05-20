@@ -196,7 +196,7 @@ También se puede buscar el Activo, haciendo uso del icono <span class="mdi mdi-
 
 **Tipo de Mantenimiento:** Filtra los PM por Tipo de Mantenimiento. Se elige un TM de las lista desplegable entre ellos están Predictivos, Lubricación, Preventivos, entre otros.
 
-**Tipo de Trabajo:** Agrupa los PMs de acuerdo al tipo de trabajo al que están asociadas. Utilizando la opción ** “Individualizar”** es posible filtrar los PMs que tienen uno y solo un tipo de trabajo.  De no activar la opción  “Individualizar”, se buscan los PMs, que tengan el tipo de trabajo seleccionado, sin importar si tienen otros tipos de trabajo activos.
+**Tipo de Trabajo:** Agrupa los PM de acuerdo al tipo de trabajo al que están asociadas. Estos campos son de tipo selección. Por lo tanto se pueden combinar.
 
 **Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos  se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además  es posible hacer unión de selecciones.  Esto significa que inmediatamente después de haber
 realizado una selección es posible hacer otra y unir el resultado de las dos.  Para ello, tras definir los criterios de la segunda selección se da un clic al `<span class="iconify btn" data-icon="mdi-plus-circle">`Más, en  lugar de darlo al botón `<a class="btn">`Aceptar `</a>`.
