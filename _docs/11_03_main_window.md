@@ -172,9 +172,7 @@ También se puede buscar el Activo, haciendo uso del icono <span class="mdi mdi-
 
 ##### FILTRAR POR CAMPOS DEL PROGRAMA
 
-**Centro de Costo:**  Permite la selección de  PM  de  acuerdo con  el  Centro de  Costo asignado. Para escoger un Centro de Costo como filtro, se puede hacer  descolgando la lista de Centros de Costo – Clientes definidos en Infraestructura, o  usando comodines. Cuando se utilizan comodines, es posible seleccionar los PMs pertenecientes a Centros de
-
-Costo que tengan parte del nombre igual. Por ejemplo: Sistema% seleccionará todas los PMs que en su Centro de Costo tengan la palabra Sistema, independiente de si  se está hablando del sistema de agua, de vapor o de energía.
+**Centro de Costo:**  Permite la selección de  PM  de  acuerdo con  el  Centro de  Costo asignado. Para escoger un Centro de Costo como filtro, se puede hacer  descolgando la lista de Centros de Costo – Clientes definidos en Infraestructura, o usando comodines (%). Cuando se utilizan comodines, es necesario darle un clic al icono de candado <span class="mdi mdi-lock"></span>, una vez que se desbloquea <span class="mdi mdi-lock-open-outline"></span> es posible seleccionar los PM pertenecientes a Centros de Costo que tengan parte del nombre igual. Por ejemplo: Sistema% seleccionará todas los PMs que en su Centro de Costo tengan la palabra Sistema, independiente de si  se está hablando del sistema de agua, de vapor o de energía. La búsqueda del Centro de Costo por esta opción de comodines es según su parametrización, bien sea por nombre o código.
 
 **Centro Responsable:** Agrupa los PMs cuyo Centro responsable es el seleccionado.
 
