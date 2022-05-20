@@ -192,7 +192,7 @@ También se puede buscar el Activo, haciendo uso del icono <span class="mdi mdi-
 
 **Tiempo Improductivo:** Es un campo de dos opciones: "**Si**", "**No**" filtrando los PM según si se ha definido que el activo se debe suspender para realizar la tarea de mantenimiento o no.
 
-**Tipo de Actividad:** Filtra los PMs por Tipo de Actividad. Para escoger un Tipo de Actividad lo puede hacer descolgando la lista de Tipos de Actividad definida   en  Infraestructura, o usando comodines.
+**Tipo de Actividad:** Filtra los PM por Tipo de Actividad. Para escoger un Tipo de Actividad lo puede hacer descolgando la lista de Tipos de Actividad definida en  Infraestructura, también se permite el uso de comodines (%). Cuando se utilizan comodines, es necesario darle un clic al icono de candado <span class="mdi mdi-lock"></span>, una vez que se desbloquea <span class="mdi mdi-lock-open-outline"></span> es posible seleccionar los PM pertenecientes a la TA que tengan parte del nombre igual.
 
 **Tipo  de  Mantenimiento:** Filtra los PMs por Tipo de Mantenimiento. Así que se  puede hacer un filtro para todos los PMs Predictivos, o los concernientes a Lubricación, o todos los Preventivos, entre otros.
 
