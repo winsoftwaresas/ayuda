@@ -131,7 +131,7 @@ Cada criterio aparece inicializado en un valor global que permite mostrar todos 
 El programa permite entonces hacer selección de un grupo de Programas de acuerdo con los criterios seleccionados en la siguiente ventana.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img06.png)
-_**Imagen 26.** Programas de Mantenimiento - Ir a Subgrupos_
+_**Imagen 26.** Programas de Mantenimiento - Subgrupo_
 
 Los campos de datos que constituyen criterio de selección haciendo parte de la Ventana Subgrupo de PMs son los siguientes.
  
