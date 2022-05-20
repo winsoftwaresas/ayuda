@@ -70,56 +70,59 @@ Este campo es un consecutivo ascendente por Activo, y es controlado por el Siste
 
 Asignarle un Contrato a un PM significa que las labores de  Mantenimiento serán ejecutadas por personal externo a la Organización. Por ello el PM debe tener asignado un Centro de Responsabilidad acorde, es decir, es necesario asignar a todos los PM por Contrato, un Centro Responsable exclusivo para Contratistas. De esta forma se pueden diferenciar fácilmente de aquellos trabajos bajo responsabilidad directa del Departamento de Mantenimiento de la Organización.
 
-**Responsable Ejecutor:** Lista los Responsables activos definidos en la tabla correspondiente en el módulo de Infraestructura. En este  campo se elige a la persona, natural o jurídica, Responsable por la   labor a ejecutar.
+**Responsable Ejecutor:** Lista los Responsables activos que están definidos en la tabla correspondiente en el módulo de Infraestructura. En este campo se elige a la persona, natural o jurídica, Responsable por la labor a ejecutar.
 
-El Responsable puede ser interno (RI), o también un Responsable Externo (RX). El sistema  se  encarga  de  mostrar en la  lista solo los  Responsables  habilitados  para desempeñar esta función.
+El Responsable puede ser interno (RI), o también un Responsable Externo (RX). El sistema  se  encarga  de  mostrar en la  lista solo los  Responsables habilitados  para desempeñar esta función.
 
-**Filtrar por CR:** Al seleccionar esta opción, en el campo ** “Responsable Ejecutor”** solo se despliegan los Responsables correspondientes al Centro Responsable elegido en la opción **“Centro Responsable”**. En otro  caso, en el campo **“Responsable Ejecutor”**  se  despliegan todos los ** “Responsables”** existentes en la tabla respectiva.
+**Filtrar por CR:** Al seleccionar esta opción, en el campo **“Responsable Ejecutor”** solo se despliegan los Responsables correspondientes al Centro Responsable elegido en la opción **“Centro Responsable”**. En otro caso, en el campo **“Responsable Ejecutor”**  se  despliegan todos los **“Responsables”** existentes en la tabla respectiva.
 
-**Responsable por la Institución:** Lista los Responsables activos definidos en la tabla correspondiente en el módulo de Infraestructura. En este campo se elige a la persona interna de la institución, Responsable de acompañar o apoyar por la  labor a ejecutar.
+**Responsable por la Institución:** Lista los Responsables activos que están definidos en la tabla correspondiente en el módulo de Infraestructura. En este campo se elige a la persona interna de la institución, Responsable de acompañar o apoyar por la  labor a ejecutar.
 
 **Tiempo Estimado:** Es el presupuesto de tiempo necesario para llevar a cabo las labores de Mantenimiento. El valor a ingresar debe ser numérico y se puede expresar en días, horas o minutos.
 
-**Tiempo improductivo:** Este campo funciona como un switche,k al activarlo le indica a la persona o personas encargada de realizar la labor, si el Activo debe detener su producción para proceder a la realización de la Tarea de Mantenimiento. Cuando se dice que el Activo **“Genera Tiempo Improductivo”** significa que estando operando debe de ser intervenido por Mantenimiento.
+**Tiempo improductivo:** Este campo funciona como un switche, al activarlo le indica a la persona o personas encargada de realizar la labor, si el Activo debe detener su producción para proceder a la realización de la Tarea de Mantenimiento. Cuando se dice que el Activo **“Genera Tiempo Improductivo”** significa que estando operando debe ser intervenido por Mantenimiento.
 
-**Prioridad:** Es un número de 1 a 7, de uso subjetivo, que indica la prioridad de realización de la OT. Normalmente, el valor 1 significa un trabajo de gran urgencia, mientras que el 7 significa una labor de baja prioridad. El usuario define qué nivel de prioridad manejar en cada PM.  El Sistema **AM**  por defecto sugiere la Prioridad 3.
+**Prioridad:** Es un número de 1 a 7, de uso subjetivo, que indica la prioridad de realización de la OT. Normalmente, el valor 1 significa un trabajo de gran urgencia, mientras que el 7 significa una labor de baja prioridad. El usuario define que nivel de prioridad manejar en cada PM.  El Sistema por defecto sugiere la Prioridad 3.
 
-**Tipo  de  Trabajo:** **AM** predefine  (aunque  pueden  personalizarse) cuatro  tipos  de trabajo: Mecánico (MEC),  Eléctrico (ELE),  Instrumentación/Electrónica (IEL)  y  Otro (OTR). Un PM debe tener asociado al menos un Tipo de Trabajo, es decir  que  puede tener asignados varios de estos Tipos de Trabajo, dependiendo de la naturaleza  de  la labor que se programa.
+**Tipo de Trabajo:** **AM** predefine (aunque pueden personalizarse) cuatro tipos de trabajo: Mecánico (MEC), Eléctrico (ELE),  Instrumentación/Electrónica (IEL) y Otro (OTR). Un PM debe tener asociado al menos un Tipo de Trabajo, es decir que puede tener asignados varios de estos Tipos de Trabajo, dependiendo de la naturaleza de la labor que se programa.
 
 El Sistema por defecto sugiere el primer Tipo de Trabajo definido.
 
-**Tipo Mtto:** El sistema **AM**** 	predefine siete Tipos de Mantenimiento (aunque pueden personalizarse y crear adicionales) para los  PM: Preventivo, Predictivo, Inspección, Metrología, Lubricación, Otro-Mantto y Otro. Este campo indica el Tipo  de Mantenimiento a realizar en la Orden de Trabajo. Toda OT debe poseer uno. Si en el PM se va a registrar un trabajo que no corresponde a una labor de  mantenimiento,  en este campo  se  elige  ** “Otro”**  y  a  continuación,  en  el  tipo  de   ** “Actividad”**  se  especifica detalladamente  el tipo de labor.
+**Tipo Mtto:** El sistema **AM** predefine siete Tipos de Mantenimiento (aunque pueden personalizarse y crearse adicionales) para los PM: Preventivo, Predictivo, Inspección, Metrología, Lubricación, Otro-Mantto y Otro. Este campo indica el Tipo  de Mantenimiento a realizar en la Orden de Trabajo. Toda OT debe poseer uno. Si en el PM se va a registrar un trabajo que no corresponde a una labor de  mantenimiento,  en este campo  se  elige  ** “Otro”**  y  a  continuación,  en  el  tipo  de   ** “Actividad”**  se  especifica detalladamente  el tipo de labor.
 
-**Tipo  de   Actividad:** Aquí se establece el Tipo de Actividad a realizar en la OT.  La Actividad de Mantenimiento para una OT Manual, se elige desde la tabla  ** “Tipos de Actividad”** en el módulo de ** “Infraestructura”**.   Este campo trabaja en coordinación con  el anterior (Tipo de Mantenimiento).  Si en el campo anterior se ha hecho la selección de un valor diferente de ** “Otro”**, en el tipo de Actividad se debe seleccionar el valor ** “MN:** Mantto”, lo que indica que se trata de una actividad que constituye mantenimiento.  Si en el campo anterior se  ha  seleccionado el  valor  ** “Otro”**, en  el   campo Tipo de  Actividad se  debe seleccionar un valor que defina consistentemente  la labor a ejecutar.
+**Tipo  de   Actividad:** Aquí se establece el Tipo de Actividad a realizar en la OT.  La Actividad de Mantenimiento para una OT Manual, son definidos en la tabla **“Tipos de Actividad”** en el módulo de **“Infraestructura”**.  Este campo trabaja en coordinación con  el anterior (Tipo de Mantenimiento).  Si en el campo anterior se ha hecho la selección de un valor diferente de **“Otro”**, en el tipo de Actividad se debe seleccionar el valor ** “MN:** Mantto”, lo que indica que se trata de una actividad que constituye mantenimiento.  Si en el campo anterior se  ha  seleccionado el valor  **“Otro”**, en  el   campo Tipo de  Actividad se  debe seleccionar un valor que defina consistentemente  la labor a ejecutar.
 
-Así, todo PM se discrimina en cuanto a su labor, con tres agrupadores distintos: El Tipo de Trabajo, El Tipo de Mantenimiento y el Tipo de Actividad. Por ejemplo: Puede existir un PM cuyos  Tipos de Trabajo  son:  Mecánico  y Eléctrico  (es  decir, se  realizan  labores mecánicas y eléctricas), su Tipo de Mantenimiento es Predictivo (debido a un análisis de variables  predictivas  del  Activo)  y  su  Tipo  de  Actividad  puede  ser   AC-Revisión  / Inspección', donde entonces la Tarea de Mantenimiento a ejecutarse  tiene que ver, entre otras cosas, con mediciones o captura de variables sobre las características controlables, mecánicas y eléctricas del AC.
+Así, todo PM se discrimina en cuanto a su labor, con tres agrupadores distintos: El Tipo de Trabajo, El Tipo de Mantenimiento y el Tipo de Actividad. Por ejemplo: Puede existir un PM cuyos  Tipos de Trabajo  son:  Mecánico  y Eléctrico  (es  decir, se  realizan  labores mecánicas y eléctricas), su Tipo de Mantenimiento es Predictivo (debido a un análisis de variables  predictivas  del  Activo)  y  su  Tipo  de  Actividad  puede  ser   AC-Revisión/Inspección', donde entonces la Tarea de Mantenimiento a ejecutarse  tiene que ver, entre otras cosas, con mediciones o captura de variables sobre las características controlables, mecánicas y eléctricas del Activo.
 
 **Comentarios para Ejecución:** Aquí se ingresan los comentarios sobre un Activo o se especifica información adicional al AC.
 
-El espacio de   Comentarios sirve para referenciar información sobre aspectos importantes para la ejecución de la actividad de mantenimiento: un procedimiento o guía detallada de ejecución en un manual específico, un plano, herramientas, o  medidas de seguridad o control.
+El espacio de  Comentarios sirve para referenciar información sobre aspectos importantes para la ejecución de la actividad de mantenimiento: un procedimiento o guía detallada de ejecución, herramientas, o  medidas de seguridad o control.
 
-Cuando se genera la OT, desde el PM, sirven para especificar referencias importantes ayudas previstas y necesarias en la ejecución posterior de la OT: planos,  manuales técnicos,  manuales  de  normas  técnicas  de  Mantenimiento  o  de   especificaciones detalladas; normas de  seguridad o  enfoques de  acción. Sin  embargo, en  la  gran mayoría de los casos se utiliza el campo ** “Instructivo”** para registrar estos datos.
+Cuando se genera la OT, desde el PM, sirven para especificar referencias importantes, ayudas previstas y necesarias en la ejecución posterior de la OT: planos, manuales de normas técnicas de  Mantenimiento o de especificaciones detalladas; normas de seguridad o  enfoques de acción. Sin embargo, en la gran mayoría de los casos se utiliza el campo **Multimedia** para registrar o complementar estos datos.
 
 # Ventana Submenú de Programas de Mantenimiento
 
 ## Indicadores
 
-Es posible visualizar de manera inmediata, los Programas de mantenimiento activos, inactivos y con Multimedia, directamente desde la ventana visor, a través de la columna ** “Indicadores”** que muestra una pelota de color que indica su estado y si tiene asociado Multimedia. El significado del color de cada pelota, se puede ver en el recuadro de Indicadores, ubicado en la parte superior derecha de la ventana visor.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img04.png)
+_**Imagen 24.** Programas de Mantenimiento - Indicadores_
 
-El significado de los colores se visualiza al sobreponer el mouse en el icono que se encuentra al extremo superior derecho y su correspondencia es:
+Es posible visualizar de manera inmediata, los Programas de mantenimiento activos, inactivos y con Multimedia, directamente desde la ventana visor, a través de la columna **“Indicadores”** que muestra una pelota de color que indica su estado y si tiene asociado Multimedia. El significado del color de cada pelota, se puede ver en el recuadro de Indicadores a través del ícono <span class="mdi mdi-message-alert"></span>, ubicado en la parte superior derecha de la ventana visor.
+
+El significado de los colores que se listan son los siguientes:
 
 - **Naranja:** Programas de mantenimiento que tienen asociados archivos de imágenes, videos y/o documentos en la pestaña Multimedia.
-- **Verde:** Programas de
-  mantenimiento definidos con estado activo.
-- **Rojo:** Programas de mantenimiento sin criterio de programación o con un Activo definido en un estado inactivo.
+- **Verde:** Programas de mantenimiento definidos con estado activo.
+- **Rojo:** Programas de mantenimiento sin criterio de programación o con un Activo definido en un estado inactivo. Estos no generan OT.
 
 ## Subgrupo
 
-Se usa para seleccionar grupos de  Programas de Mantenimiento que cumplen con un conjunto  de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al `<span class="iconify btn" data-icon=filter-variant>`icono de filtro, ubicado en la parte superior derecha de la ventana Visor de Programas de Mantenimiento.
+Se usa para seleccionar o filtrar grupos de  Programas de Mantenimiento que cumplen con un conjunto  de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al icono de filtro <span class="mdi mdi-filter-variant"></span>, ubicado en la parte superior derecha de la ventana Visor de Programas de Mantenimiento.
 
-![ programa de mantenimiento](../../assets/images/cap08/chp08_img05.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img05.png)
+_**Imagen 25.** Programas de Mantenimiento - Ir a Subgrupos_
 
-Cada criterio trabaja en conjunto con los demás, con el operador intersección.
+Luego de ingresar se lista el conjunto de criterios, cada uno de ellos trabaja en conjunto con los demás, con el operador intersección.
 
 Cada criterio aparece inicializado en un valor global que permite mostrar todos los  PMs. Lo que significa que de no escoger un criterio se obtiene como resultado del subgrupo el mismo conjunto completo de todos los PMs.
 
@@ -127,195 +130,87 @@ Cada criterio aparece inicializado en un valor global que permite mostrar todos 
 
 El programa permite entonces hacer selección de un grupo de Programas de acuerdo con los criterios seleccionados en la siguiente ventana.
 
-![ programa de mantenimiento](../../assets/images/cap08/chp08_img06.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img06.png)
+_**Imagen 26.** Programas de Mantenimiento - Subgrupo_
 
-Los campos de datos que constituyen criterio de selección haciendo parte de la Ventana
-Subgrupo de PMs son los siguientes.
+Los campos de datos que constituyen criterio de selección haciendo parte de la Ventana Subgrupo de PMs son los siguientes.
+ 
+##### FILTRAR POR CAMPOS DEL ACTIVO ASOCIADO AL PROGRAMA
 
-### FILTRAR POR C AMPOS DEL ACTIVO ASOCI ADO AL PROGRAMA
+**AC-Alias:** Este filtro permite seleccionar los PMs para los Activos cuyo Alias coincide con el valor definido aquí. El campo acepta comodines (%).
 
-**AC-Alias:** Este filtro permite seleccionar los PMs para los Activos cuyo Alias coincide con el valor definido aquí.  El campo acepta comodines.
+**AC-Cód. de Barras Int:** Permite seleccionar los programas de mantenimiento asociados al Activo/Equipo que coincida con el Código de Barras interno.
 
-**AC-Cód.** de  Barras  Int: Permite seleccionar los  programas de mantenimiento  que posean el Activo/ Activo que se encuentre asociado al Código de Barras  Interno  y que posea un programa de mantenimiento.
+**AC-Cód. de Barras Prov:** Permite seleccionar los programas de mantenimiento que se encuentren asociados al Activo/Equipo y que coincida con el Código de Barras del Proveedor.
 
-**AC-Cód.** de Barras Prov: Permite seleccionar los programas de mantenimiento que se encuentren asociados el Activo/ Activo que se encuentre asociado al Código de Barras del Proveedor.
+**AC-Código:** Esta selección agrupa los PM para los Activos relacionados por su código. Es posible definir el código completo o una porción del mismo. Por ejemplo: si se  escribe 341%, se seleccionan todos los PM cuyo código de Activo inicia por 341. Si se escribe “%1”  se seleccionan todos los PMs cuyo código de Activo finaliza en un “1”. El porcentaje (%) es un carácter comodín que  significa  “todos”.
+También se puede buscar el Activo, haciendo uso del icono <span class="mdi mdi-filter-variant"></span>. El sistema responde mostrando en una ventana independiente el conjunto de Activos registrados, allí también se pueden filtrar por los criterios de subgrupo del módulo de Activos. Una vez identificado el Activo, se debe dar doble clic en el registro y luego aparece identificado automáticamente el código del respectivo Activo en el campo.
 
-**AC-Código:** Esta selección agrupa los PMs para los Activos relacionados por su código.  Es posible definir el código completo o una porción del mismo. Por ejemplo: si se  escribe 341%, se seleccionan todos los PMs cuyo código de Activo inicia por 341. Si se escribe  “%1”  se seleccionan todos los PMs cuyo código de Activo finaliza en un  “1”. El porcentaje (%) es un  carácter comodín que  significa  “todos”.
+**AC-Descripción:** Selecciona  los  PM asociados  a  los   Activos  según  criterios  que  se  fundamenten  en  su  descripción.  Ejemplo: %Motor% selecciona todos los Activos, en cuya descripción, en cualquier posición, tengan la palabra  “Motor”.
 
-**AC-Descripción:** Selecciona  los  programas  de  mantenimiento asociados  a  los   Activos  según  criterios  que  se  fundamenten  en  su  descripción.  Ejemplo: %Motor% selecciona todos los Activos, en cuya descripción, en cualquier posición, tengan la palabra  “Motor”.
+**AC-Estado:** Este filtro permite seleccionar los PM de acuerdo con el Estado del Activo u Objeto de Mantenimiento. Así que se pueden filtrar los PM para los cuales el Activo correspondiente está activo o inactivo.
 
-**AC-Estado:** Este filtro permite seleccionar los PMs de acuerdo con el Estado del Activo u Objeto de Mantenimiento. Así que se pueden filtrar los PMs para los cuales el AC correspondiente está activo o inactivo.
+**AC-Número Activo Fijo:** Este campo preselecciona los PM para el o los Activos cuyo Número de Activo corresponde a los valores aquí definidos. En este  campo se pueden utilizar los comodines (%).
 
-**AC-Número Activo Fijo:** Este campo preselecciona los PMs activos para el o los  Activos cuyo Número de Activo corresponde a los valores aquí definidos. En este  campo se pueden utilizar los comodines.
+**AC-Referencia:** Este filtro permite seleccionar PM de  acuerdo con su número de Referencia.
 
-**AC-Referencia:** Este filtro permite seleccionar PMs de  acuerdo con su número de Referencia.
+**AC-Serial:** Este filtro permite seleccionar los PM de acuerdo con el número serial del Activo/Objeto de Mantenimiento. El campo acepta comodines (%).
 
-**AC-Serial:** Este filtro permite seleccionar los PMs de acuerdo con el número serial del Activo / Objeto de Mantenimiento. El campo acepta comodines.
-
-**AC-Ubicación Física:** Permite la selección de los PMs cuyo Activo se encuentre en   una   Ubicación  Física   determinada.  Cuando   se   utilizan   comodines,   es   posible seleccionar PMs cuyo Activo esté en una Ubicación Física  que tenga parte del nombre igual.  Por ejemplo: Cava% selecciona los PMs a Activos cuya Ubicación Física empieza por  la  palabra  Cava,  independientemente  de   si  se  está  hablando  de  la  Cava  de Fermentación, Maduración o Contrapresión.
+**AC-Ubicación Física:** Permite la selección de los PM cuyo Activo se encuentre en  una  Ubicación  Física   determinada.  Cuando   se   utilizan   comodines (%)  es   posible seleccionar PM cuyo Activo esté en una Ubicación Física  que tenga parte del nombre igual.  Por ejemplo: Cava% selecciona los registros activos cuya Ubicación Física empieza por la palabra Cava, independientemente de  si se está  hablando de la Cava de Fermentación, Maduración o Contrapresión.
 
 **AC-Tipo:** Selecciona los  programas asociados a  los  Activos que se   encuentran asociados al tipo ingresado por el usuario.
 
-### FILTRAR POR C AMPOS DEL PRESUPUESTO – MATERIALES
+**AC-Marca:** Filtra todos los PM cuyo Activo esté asociado a la Marca relacionada en este campo, se aceptan comodines(%).
 
-**Centro  de   Costo:**   Permite la selección de  PMs  de  acuerdo con  el  Centro de  Costo asignado. Para escoger un Centro de Costo como filtro, se puede hacer  descolgando la lista de Centros de Costo – Clientes definidos en Infraestructura, o  usando comodines. Cuando se utilizan comodines, es posible seleccionar los PMs pertenecientes a Centros de
+**AC-Modelo:** Filtra todos los PM cuyo Activo esté asociado a la Marca relacionada en este campo, se aceptan comodines(%). 
 
-Costo que tengan parte del nombre igual. Por ejemplo: Sistema% seleccionará todas los PMs que en su Centro de Costo tengan la palabra Sistema, independiente de si  se está hablando del sistema de agua, de vapor o de energía.
 
-**Centro Responsable:** Agrupa los PMs cuyo Centro responsable es el seleccionado.
+##### FILTRAR POR CAMPOS DEL PRESUPUESTO – MATERIALES
 
-**Contrato:** Permite filtrar los PMs por el contrato al que están asociados. Para escoger un contrato se descuelga la lista de Contratos definidos en Infraestructura.   Pero es  posible también definir un contrato como filtro, usando comodines.
+**RP-Código:** Filtra los PM que tengan relacionado en el presupuesto el código del Repuesto digitado en el campo. Para buscar el Repuesto desde el buscador de Subgrupo de Materiales y Repuestos se debe dar clic en el icono de filtro azul que aparece al lado del respectivo campo <span class="mdi mdi-filter-variant icon white"></span>. Allí se abre una ventana independiente que muestra el visor de Repuestos, es posible hacer filtros o subgrupos allí, dando clic al icono superior <span class="mdi mdi-filter-variant"></span>.
 
-**Criterio:** Permite visualizar el subconjunto de PM definidos con   el   Criterio   de Programación ** “X”;** así que se pueden listar en el visor de PMs, aquellos PMs que fueron definidos con Criterio de Programación trimestral, o mensual, por Contador por Incremento, entre otros.
 
-**Comentario del Programa:** Filtra los programas de mantenimiento que cumplan  con  la opción de poseer comentario. Este es un campo para ingresar el comentario que se desee buscar en los programas.
+##### FILTRAR POR CAMPOS DEL PROGRAMA
 
-**Descripción del Programa:** Esta opción permite seleccionar los PMs que cumplan con el criterio de selección establecido en este campo, es  posible utilizar la  funcionalidad de comodines.
+**Centro de Costo:**  Permite la selección de  PM  de  acuerdo con  el  Centro de  Costo asignado. Para escoger un Centro de Costo como filtro, se puede hacer  descolgando la lista de Centros de Costo – Clientes definidos en Infraestructura, o usando comodines (%). Cuando se utilizan comodines, es necesario darle un clic al icono de candado <span class="mdi mdi-lock"></span>, una vez que se desbloquea <span class="mdi mdi-lock-open-outline"></span> es posible seleccionar los PM pertenecientes a Centros de Costo que tengan parte del nombre igual. Por ejemplo: Sistema% seleccionará todas los PMs que en su Centro de Costo tengan la palabra Sistema, independiente de si  se está hablando del sistema de agua, de vapor o de energía. La búsqueda del Centro de Costo por esta opción de comodines es según su parametrización, bien sea por nombre o código.
 
-**Fecha de Inicio de Periodo (FIP):** Esta opción permite seleccionar los PMs por un rango de la FIP.  Aparecen dos campos: Desde y Hasta En cada uno de ellos se digita una fecha. De no digitar el campo **“Desde”**, se buscan los PMs cuya fecha de inicio del período esté en el lapso anterior a la fecha digitada en ** “Hasta”.**	De no digitar el  campo **“Hasta”**, se buscan los PMs cuya fecha de inicio del período esté en un lapso posterior a la digitada en ** “Desde”**.
+**Centro Responsable:** Filtra los PM  de  acuerdo con  el  Centro de  Responsable asignado. Para escoger un CR como filtro, se puede hacer  descolgando la lista definida en Infraestructura, o usando comodines (%). Cuando se utilizan comodines, es necesario darle un clic al icono de candado <span class="mdi mdi-lock"></span>, una vez que se desbloquea <span class="mdi mdi-lock-open-outline"></span> es posible seleccionar los PM pertenecientes a Centros de Costo que tengan parte del nombre igual. Por ejemplo: Sistema% seleccionará todas los PM que en su Centro de Costo tengan la palabra Sistema, independiente de si  se está hablando del sistema de agua, de vapor o de energía. La búsqueda del Centro de Costo por esta opción de comodines es según su parametrización, bien sea por nombre o código.
 
-**Prioridad:** Esta opción permite seleccionar la Prioridad de los PMs.
+**Contrato:** Permite filtrar los PM por el contrato al que están asociados. Para escoger un contrato se descuelga la lista de Contratos definidos en Infraestructura.
 
-**Responsable:** Agrupa  los  PMs  de  acuerdo  al  Responsable del  PM.  Para  escoger  un Responsable Ejecutor se  puede  hacer   descolgando  la  lista  de   Responsables   definidos  en Infraestructura; el Sistema mostrará los Responsables y los Terceros activos. También se puede hacer usando comodines.
+**Criterio:** Permite visualizar el subconjunto de PM definidos con   el  Criterio  de Programación **“X”;**. Se elige el criterio de la lista que se despliega. Estos corresponden a la abreviatura indicada en el visor en la columna "**Cri**" asignado a cada uno de los registros. 
 
-Este filtro permite por ejemplo, listar todos los PMs asignados al Contratista ** “X”**, o dicho de otro modo, permite conocer qué PMs tiene a cargo el Contratista ** “X”**.
+**Comentario del Programa:** Filtra los PM que cumplan  con  la opción de poseer comentario. Este es un campo para ingresar una parte del  comentario que se desee buscar en los programas.
 
-**Tiempo Improductivo:** Filtra los PMs según si se ha definido que el activo se debe parar para realizar la tarea de mantenimiento o no.
+**Descripción del Programa:** Esta opción permite buscar los PM que cumplan con el criterio de selección establecido en este campo, es  posible utilizar la funcionalidad de comodines (%)
 
-**Tipo de Actividad:** Filtra los PMs por Tipo de Actividad. Para escoger un Tipo de Actividad lo puede hacer descolgando la lista de Tipos de Actividad definida   en  Infraestructura, o usando comodines.
+**Fecha de Inicio de Periodo (FIP):** Esta opción permite seleccionar los PM por un rango de la FIP.  Aparecen dos campos: Desde y Hasta En cada uno de ellos se digita una fecha. De digitar solo la fecha "desde" se filtran los registros desde esa fecha hasta la actual. 
 
-**Tipo  de  Mantenimiento:** Filtra los PMs por Tipo de Mantenimiento. Así que se  puede hacer un filtro para todos los PMs Predictivos, o los concernientes a Lubricación, o todos los Preventivos, entre otros.
+**Prioridad:** Esta opción permite filtrar por Prioridad de los PM. Se elige a partir de la lista desplegable.
 
-**Tipo de Trabajo:** Agrupa los PMs de acuerdo al tipo de trabajo al que están asociadas. Utilizando la opción ** “Individualizar”** es posible filtrar los PMs que tienen uno y solo un tipo de trabajo.  De no activar la opción  “Individualizar”, se buscan los PMs, que tengan el tipo de trabajo seleccionado, sin importar si tienen otros tipos de trabajo activos.
+**Responsable:** Agrupa los  PM de acuerdo  al  Responsable del  PM.  Para  escoger  un Responsable Ejecutor se  puede  hacer   descolgando  la  lista  de   Responsables   definidos  en Infraestructura; el Sistema mostrará los Responsables activos. También se puede hacer usando comodines (%). La búsqueda del Responsable por esta opción de comodines es según su parametrización, bien sea por nombre o código.
 
-**Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos  se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además  es posible hacer unión de selecciones.  Esto significa que inmediatamente después de haber
-realizado una selección es posible hacer otra y unir el resultado de las dos.  Para ello, tras definir los criterios de la segunda selección se da un clic al `<span class="iconify btn" data-icon="mdi-plus-circle">`Más, en  lugar de darlo al botón `<a class="btn">`Aceptar `</a>`.
+**Tiempo Improductivo:** Es un campo de dos opciones: "**Si**", "**No**" filtrando los PM según si se ha definido que el activo se debe suspender para realizar la tarea de mantenimiento o no.
 
-## 3.2	Vistas Parciales / Pestañas
+**Tipo de Actividad:** Filtra los PM por Tipo de Actividad. Para escoger un Tipo de Actividad lo puede hacer descolgando la lista de Tipos de Actividad definida en Infraestructura, también se permite el uso de comodines (%). Cuando se utilizan comodines, es necesario darle un clic al icono de candado <span class="mdi mdi-lock"></span>, una vez que se desbloquea <span class="mdi mdi-lock-open-outline"></span> es posible seleccionar los PM pertenecientes a la TA que tengan parte del nombre igual.
 
-Las Vistas Parciales o Pestañas permiten complementar la información que se despliega normalmente sobre un Programa de Mantenimiento, con otro conjunto de información que solo se muestra cuando es necesario,  por solicitud del usuario. Las vistas parciales  disponibles son: presupuesto, criterio de programación y multimedia.
+**Tipo de Mantenimiento:** Filtra los PM por Tipo de Mantenimiento. Se elige un TM de las lista desplegable entre ellos están Predictivos, Lubricación, Preventivos, entre otros.
 
-### Criterios de Programación
+**Tipo de Trabajo:** Agrupa los PM de acuerdo al tipo de trabajo al que están asociadas. Estos campos son de tipo selección. Por lo tanto se pueden combinar.
 
-Es la función que permite definir el criterio mediante el cual, automáticamente un  PM, genera una Orden de Trabajo de mantenimiento Preventivo, Predictivo, Lubricación, Inspección, Metrología, Otro-Mantto u Otro. Ello se realiza sobre la pestaña que se muestra a continuación.
+_**Nota:** Es importante tener en cuenta que cuando se están realizando  subgrupos se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además  es posible hacer unión de selecciones.  Esto significa que inmediatamente después de haber realizado una selección es posible hacer otra y unir el resultado de las dos, o bien, quitar registros. Para ello, tras definir los criterios de la segunda selección se da un clic al botón <a class="btn white">Mas <span class="mdi mdi-plus-circle"></span></a> ó <a class="btn white">Menos <span class="mdi mdi-minus-circle"></span></a> según se requiera y finalmente efectuar la búsqueda con el botón <a class="btn white">aceptar <span class="mdi mdi-check-circle"></span></a>_
 
-**Son tres grupos de criterios:** por Frecuencia, por Semanas del Año y por  Contador, que  pueden  trabajar  en   forma  excluyente,  aunque  se posibilitan   alguna combinación   entre   ellos, para   criterios   complejos. Entonces por ejemplo, el  primero y tercero, pueden ser definidos simultáneamente, para lograr el efecto de generar una  OT cuando cualquiera de los dos de cada pareja se cumpla.
 
-![ programa de mantenimiento](../../assets/images/cap08/chp08_img08.png)
+# Vistas Parciales/Pestañas
 
-#### Frecuencia
-
-![ programa de mantenimiento](../../assets/images/cap08/chp08_img09.png)
-
-Esta opción se selecciona cuando se trata de un PM a ser definido para un Activo que trabaja normalmente bajo una función uniforme en el tiempo. 	La frecuencia se  define a través de uno de los siguientes modos: Días, Semanas, Meses. Tales  intervalos de tiempo, definidos conjuntamente con el campo Período, se comienzan a medir a partir de la FIP en cada PM.
-
-**Días:** Requiere  la definición de un número de días en el periodo (mínimo 3). La FIP define la fecha a partir de la cual se inicia la cuenta de días transcurridos para la generación de una nueva OT.
-
-**Semanas:** Requiere la definición de un número de semanas en el periodo (Máximo 52). La FIP define el inicio de la vigencia del programa, o sea la fecha a partir de la  cual el Sistema contará el  número de semanas que  se  acaba  de  programar, para  generar  la próxima OT.
-
-**Meses:** Requiere la definición del periodo en meses y de la FIP. Para cada generación, el Sistema cuenta el número de meses definidos en el „Período‟ a partir  de la FIP y compara la fecha resultante con la fecha del rango de análisis, si cae dentro del int ervalo, se genera una OT.
-
-**Periodicidad:** Indica el número de unidades de tiempo definidas en la Frecuencia. Estos dos son valores complementarios. De entre los dos se establece, la frecuencia con la que el PM generará una Orden de Trabajo.
-
-Si se elige Frecuencia por  días, el período debe ser  un número entre 3  y 365;  si  la Frecuencia es  Semanas, el  período debe ser  un  número entre 1 y 52;   y si  se elige Frecuencia por Meses, el período o debe ser un número entre 1 y 180.
-
-**Fecha Inicio Periodo (FIP):** La Fecha de Inicio de Período (FIP), solo se puede ingresar  una vez al PM a través de esta ventana, y es en el momento de crear el PM. Una vez se defina la FIP y se grabe el PM, solo se pueden hacer modificaciones a la FIP a través  de  la transacción: Modificar FIP.
-
-Para mayor información sobre la FIP, revise el titulo Modificar Fecha de Inicio del Período (FIP), en la sección Transacciones.
-
-**Fecha de última generación de OT:** Esta fecha es informativa y viene a ser la FUG (fecha de la última generación), por tanto  no  se  puede  modificar,  esta  fecha  es  la  misma  para  todos  los   Criterios  de Programación.   Es una fecha real, siempre, que muestra cuando fue  que se realizó la última generación de una Orden de Trabajo desde ese PM.
-
-#### Semanas del Año (SA)
-
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img10.png)
-
-Es el segundo criterio disponible. Al dar un clic de selección en la casilla  Frecuencia, aparece la ventana de Semanas del Año, (figura anterior). En ella es posible escoger las semanas en las cuales se debe generar una OT para el PM en cuestión. Un PM puede tener seleccionadas una, algunas o todas las 52 semanas, en cuyo caso se comportaría como un PM que genera Ordenes de Trabajo semanalmente.
-
-Este  Criterio de  Programación hace caso  omiso de  la  FIP  y se  usa  para  hacer  una programación anual con base en el conocimiento o experiencia del área de mantenimiento sobre ese AC u Objeto.  En otras palabras la programación depende de los eventos que lo involucran o de requerimientos especiales de temporada, que no tienen que ver ni con una frecuencia ni con la cantidad de trabajo realizado por el Activo.
-
-**Al generar Órdenes de Trabajo se debe tener en cuenta:**
-
-Si un PM definió que se debe generar una Orden de Trabajo la semana X del año,  y el intervalo a Analizar/Generar contiene al menos un día de la semana X, entonces el **AM**** genera la OT.
-
-El Criterio SA es excluyente con los demás Criterios de Programación, es decir no puede coexistir con ninguno otro dentro del mismo PM.
-
-**Fecha de última generación de OT:** Esta fecha es informativa y viene a ser la FUG (fecha de la última generación), por tanto  no  se  puede  modificar,  esta  fecha  es  la  misma  para  todos  los   Criterios  de Programación.   Es una fecha real, siempre, que muestra cuando fue  que se realizó la última generación de una Orden
-
-#### Por Contador
-
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img11.png)
-
-Esta opción aparece protegida (su casilla aparece sombreada en gris) si el AC no posee un Contador definido.
-
-**Contador:** Este campo aplica cuando el Criterio de Programación es por Contador. Al generar un PM que lo requiera, es en este campo donde se establece el valor  real o aproximado  del  contador,  la  última  vez  que  se  realizó  la  labor  que  ahora  se  está programando como rutina. En adelante, el **AM****  ubica automáticamente en este campo el valor actual del contador del Activo, en el  momento de generar la Orden de Trabajo. Más adelante se amplía esta explicación, al tratar el criterio de programación por Contador.
-
-Este Criterio tiene en cuenta la FIP, o sea que si el intervalo a Analizar/Generar  se encuentra antes de la FIP, el PM no genera OTs, así se haya cumplido el Incremento o el Límite por parte del Contador del AC.
-
-**Tipo:** Indica si el contador es incremental o por límite.
-
-**Por Incremento**: Esta opción requiere la definición de una ** “Recurrencia”**. Para que el  PM genere una Orden de Trabajo, el Contador del AC debe haber incrementado  su valor, sobre el  contador de  la  Última generación, en  el  PM,  en  una cantidad  superior a  la Recurrencia. Ej. El cambio  de  aceite y filtro cada 5.000 km. en un automóvil, exige la definición de una recurrencia con valor 5.000.
-
-Cuando se  define un  PM  en  función de  un  contador de  un  Activo, debe  existir  un mecanismo predefinido: manual o automático, para actualizar y mantener al día el contador de  ese  Activo  en  el  **AM****.  Se  trata  de  garantizar  que  tales  contadores  reflejen permanentemente la cantidad de trabajo  realizado por el Activo.  De hecho un PM con criterio  Contador,  solo  generará  Ordenes  de  Trabajo,  mientras  haya  variación  en  el contador del Activo.
-
-En los casos en que la actualización de los contadores de los ACs no pueda ser frecuente, el **AM**** suministra un mecanismo automático que lo simula, mientras se puede realizar una nueva lectura y actualización real a ese contador. Se trata del  campo Estándar de Planeación que se encuentra en la parte inferior de la ventana detalle de Activos. Allí se define una cantidad de trabajo estándar que realiza ese Activo por unidad de tiempo. Este valor es definido con base en una estadística real del trabajo de ese Activo en un período considerable, ojalá no inferior a los 6 meses.
-
-**Por Límite:** Indica que el Contador del AC debe alcanzar una cantidad tope, definida en la Recurrencia, para que el PM genere la OT. Por este criterio solo se genera una única vez la Órden de Trabajo, cuando se alcance el Límite definido. Una vez generada la OT desde el PM, éste se desactiva y ya no vuelve a generar otras OT.
-
-**Recurrencia:** En este campo se define una cifra o cantidad que denota el incremento que debe sufrir el contador del Activo, para generar una Orden de Trabajo por contador, con criterio Incremento. Pero también en este campo se define un valor límite al que debe llegar el contador del Activo para generar una Orden de Trabajo por contador, cuando el criterio es Límite.
-
-**Vlr. Contador al Inicio del Período:** Se refiere al valor inicial del contador del Activo, correspondiente a la Fecha de Inicio de Período (FIP) previamente diligenciada en el mismo apartado.
-
-**Fecha de última generación de OT:** Esta fecha es informativa y viene a ser la FUG (fecha de la última generación), por tanto no se puede  modificar, esta fecha es la misma para todos los Criterios de Programación. Es una fecha real, siempre, que muestra cuando fue que se realizó la última generación de una Orden de Trabajo desde ese PM.
-
-Para saber si la OT se va a generar o no; el **AM****  proyecta el valor del Contador del AC desde la fecha de su última medición hasta el primer día del rango de análisis / generación, y compara el nuevo valor del Contador del AC, con el CUG.  Si el valor de la comparación, es mayor o igual a la Recurrencia, genera la Orden de Trabajo.  De lo contrario, recalcula nuevamente el valor del Contador del AC para el siguiente día  del rango de análisis / generación,  y  hace  la  misma  comparación. Así  recorre todo  el  rango  de  análisis  / generación  hasta  el  último  día,  generando  una  OT,  si   el   valor  de  alguna  de  las comparaciones es mayor o igual a la recurrencia.
-
-Calcular el valor del Contador consiste en sumarle al valor actual del Contador del AC la cantidad que resulte de llevar el Estándar de Planeación a la mínima unidad de tiempo, o sea a días, y multiplicar este valor por el número de días transcurridos desde la fecha de medición del Contador del AC, hasta el día del rango de Análisis / Generación en análisis.
-
-En síntesis el Sistema proyecta el estado del contador del AC a partir de su valor  en  la fecha de última lectura real, hasta la fecha de programación actual, según el    parámetro definido en el Estándar de Planeación. De esta forma se compara un contador proyectado contra el contador histórico o de la última generación, permitiéndole al Sistema, programar actividades que no se programarían por tener desactualizado el contador real.
-
-Recuerde que el parámetro ** “Estándar  de Planeación”** es opcional y NO se debe usar si se desea trabajar con lecturas reales solamente, es decir, si se mantienen actualizados los Contadores de los ACs.
-
-**Criterio 	de 	Generación 	por 	Frecuencia 	y/o 	Contador.**
-
-Resulta de definir simultáneamente un conjunto Frecuencia, Período y una Recurrencia para un contador, por ejemplo, en un mismo PM.
-
-El   sistema actúa de   la   forma ya   descrita independientemente para cada uno de   los criterios, solo que el **–AM 4G**  al encontrarlos juntos en el mismo PM, hace la  evaluación simultánea de ellos y genera una OT cuando uno de ellos, el que primero lo haga, cumpla la condición.
-
-En síntesis se encuentran disponibles los siguientes criterios que se pueden visualizar en el visor de PMs y también en las OTs que se generaron desde ellos.
-
-| ABREVIATURA  | NOMBRE                           |
-| ------------ | -------------------------------- |
-| **SS** | Semanal                          |
-| **MM** | Mensual                          |
-| **SM** | Semestral                        |
-| **AN** | Anual                            |
-| **DD** | Días(Mín 3)                    |
-| **SA** | Semanas del año                 |
-| **+M** | Meses (más de uno)              |
-| **+S** | Semanas (más de una)            |
-| **KI** | Contador por Incremento          |
-| **KL** | Contador por Límite             |
-| **SI** | Estándar por Incremento         |
-| **SL** | Estándar por Límite            |
-| **FK** | Frecuencia y/o Contador          |
-| **TM** | Trimestral                       |
-| **??** | Programa Inactivo o Sin Criterio |
-| **CM** | Característica Medibles         |
-
-Una vez que un Programa de Mantenimiento acaba de generar una OT, sobre el programa se actualizan los campos:
-
-**Vlr.** Contador al Inicio del Período
-Fecha de Última Generación (FUG) Fecha de Inicio del Período (FIP)
-
-**Nota.** Cuando se posee el **AM**** es posible hacer la Programación de las Actividades de Mantenimiento para un período futuro, tanto para el corto como para el largo  plazo, a través de las funciones de Generación y de Proyección. La función de  Generación se encuentra en el submenú de  “Órdenes de Trabajo”. La función Proyección se encuentra en el	submenú   de 	Programas   de	Mantenimiento. Cabe anotar también que esta Programación se   puede realizar con cualquier  anticipación requerida, por   lo   tanto es posible que la Programación de una semana como la 32 se realice en la 28, por ejemplo.
-
-Finalmente se aclara que toda actividad que pretenda programar, proyectar o generar OTs a futuro se fundamenta en la programación realizada con los PMs.
+Las Vistas Parciales o Pestañas permiten complementar la información que se despliega normalmente sobre un Programa de Mantenimiento, con otro conjunto de información que solo se muestra cuando es necesario,  por solicitud del usuario. Las vistas parciales  disponibles son: **Presupuesto**, **Criterio de Programación** y **Multimedia**. Estas opciones se encuentran en la Ventana Detalle del registro.
 
 ### Presupuesto
 
 Se ingresa mediante un clic en la pestaña **“Presupuesto”** en la ventana detalle de Programas  de Mantenimiento.
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img12.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img07.png)
+_**Imagen 27.** Programas de Mantenimiento - Presupuesto_
 
 Esta tabla resume los totales de los costos presupuestados de Mano de Obra Interna, Mano de Obra Externa, Materiales y Repuestos y Otros Conceptos de Costo.
 
@@ -434,6 +329,124 @@ Para crear registros de Otros Conceptos de Costo, se debe hacer clic en el botó
 
 Para eliminar un registro de la tabla de Otros Conceptos, se ubica el registro a eliminar directamente en la tabla y se da clic, luego se da clic al icono de `<span class="iconify btn" data-icon=delete>`eliminar (basura), sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en
 `<a class="btn">` Aceptar `</a>`.
+
+
+### Criterios de Programación
+
+Es la función que permite definir el criterio mediante el cual, automáticamente un  PM, genera una Orden de Trabajo de mantenimiento Preventivo, Predictivo, Lubricación, Inspección, Metrología, Otro-Mantto u Otro. Ello se realiza sobre la pestaña que se muestra a continuación.
+
+**Son tres grupos de criterios:** por Frecuencia, por Semanas del Año y por  Contador, que  pueden  trabajar  en   forma  excluyente,  aunque  se posibilitan   alguna combinación   entre   ellos, para   criterios   complejos. Entonces por ejemplo, el  primero y tercero, pueden ser definidos simultáneamente, para lograr el efecto de generar una  OT cuando cualquiera de los dos de cada pareja se cumpla.
+
+![ programa de mantenimiento](../../assets/images/cap08/chp08_img08.png)
+
+#### Frecuencia
+
+![ programa de mantenimiento](../../assets/images/cap08/chp08_img09.png)
+
+Esta opción se selecciona cuando se trata de un PM a ser definido para un Activo que trabaja normalmente bajo una función uniforme en el tiempo. 	La frecuencia se  define a través de uno de los siguientes modos: Días, Semanas, Meses. Tales  intervalos de tiempo, definidos conjuntamente con el campo Período, se comienzan a medir a partir de la FIP en cada PM.
+
+**Días:** Requiere  la definición de un número de días en el periodo (mínimo 3). La FIP define la fecha a partir de la cual se inicia la cuenta de días transcurridos para la generación de una nueva OT.
+
+**Semanas:** Requiere la definición de un número de semanas en el periodo (Máximo 52). La FIP define el inicio de la vigencia del programa, o sea la fecha a partir de la  cual el Sistema contará el  número de semanas que  se  acaba  de  programar, para  generar  la próxima OT.
+
+**Meses:** Requiere la definición del periodo en meses y de la FIP. Para cada generación, el Sistema cuenta el número de meses definidos en el „Período‟ a partir  de la FIP y compara la fecha resultante con la fecha del rango de análisis, si cae dentro del int ervalo, se genera una OT.
+
+**Periodicidad:** Indica el número de unidades de tiempo definidas en la Frecuencia. Estos dos son valores complementarios. De entre los dos se establece, la frecuencia con la que el PM generará una Orden de Trabajo.
+
+Si se elige Frecuencia por  días, el período debe ser  un número entre 3  y 365;  si  la Frecuencia es  Semanas, el  período debe ser  un  número entre 1 y 52;   y si  se elige Frecuencia por Meses, el período o debe ser un número entre 1 y 180.
+
+**Fecha Inicio Periodo (FIP):** La Fecha de Inicio de Período (FIP), solo se puede ingresar  una vez al PM a través de esta ventana, y es en el momento de crear el PM. Una vez se defina la FIP y se grabe el PM, solo se pueden hacer modificaciones a la FIP a través  de  la transacción: Modificar FIP.
+
+Para mayor información sobre la FIP, revise el titulo Modificar Fecha de Inicio del Período (FIP), en la sección Transacciones.
+
+**Fecha de última generación de OT:** Esta fecha es informativa y viene a ser la FUG (fecha de la última generación), por tanto  no  se  puede  modificar,  esta  fecha  es  la  misma  para  todos  los   Criterios  de Programación.   Es una fecha real, siempre, que muestra cuando fue  que se realizó la última generación de una Orden de Trabajo desde ese PM.
+
+#### Semanas del Año (SA)
+
+![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img10.png)
+
+Es el segundo criterio disponible. Al dar un clic de selección en la casilla  Frecuencia, aparece la ventana de Semanas del Año, (figura anterior). En ella es posible escoger las semanas en las cuales se debe generar una OT para el PM en cuestión. Un PM puede tener seleccionadas una, algunas o todas las 52 semanas, en cuyo caso se comportaría como un PM que genera Ordenes de Trabajo semanalmente.
+
+Este  Criterio de  Programación hace caso  omiso de  la  FIP  y se  usa  para  hacer  una programación anual con base en el conocimiento o experiencia del área de mantenimiento sobre ese AC u Objeto.  En otras palabras la programación depende de los eventos que lo involucran o de requerimientos especiales de temporada, que no tienen que ver ni con una frecuencia ni con la cantidad de trabajo realizado por el Activo.
+
+**Al generar Órdenes de Trabajo se debe tener en cuenta:**
+
+Si un PM definió que se debe generar una Orden de Trabajo la semana X del año,  y el intervalo a Analizar/Generar contiene al menos un día de la semana X, entonces el **AM**** genera la OT.
+
+El Criterio SA es excluyente con los demás Criterios de Programación, es decir no puede coexistir con ninguno otro dentro del mismo PM.
+
+**Fecha de última generación de OT:** Esta fecha es informativa y viene a ser la FUG (fecha de la última generación), por tanto  no  se  puede  modificar,  esta  fecha  es  la  misma  para  todos  los   Criterios  de Programación.   Es una fecha real, siempre, que muestra cuando fue  que se realizó la última generación de una Orden
+
+#### Por Contador
+
+![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img11.png)
+
+Esta opción aparece protegida (su casilla aparece sombreada en gris) si el AC no posee un Contador definido.
+
+**Contador:** Este campo aplica cuando el Criterio de Programación es por Contador. Al generar un PM que lo requiera, es en este campo donde se establece el valor  real o aproximado  del  contador,  la  última  vez  que  se  realizó  la  labor  que  ahora  se  está programando como rutina. En adelante, el **AM****  ubica automáticamente en este campo el valor actual del contador del Activo, en el  momento de generar la Orden de Trabajo. Más adelante se amplía esta explicación, al tratar el criterio de programación por Contador.
+
+Este Criterio tiene en cuenta la FIP, o sea que si el intervalo a Analizar/Generar  se encuentra antes de la FIP, el PM no genera OTs, así se haya cumplido el Incremento o el Límite por parte del Contador del AC.
+
+**Tipo:** Indica si el contador es incremental o por límite.
+
+**Por Incremento**: Esta opción requiere la definición de una ** “Recurrencia”**. Para que el  PM genere una Orden de Trabajo, el Contador del AC debe haber incrementado  su valor, sobre el  contador de  la  Última generación, en  el  PM,  en  una cantidad  superior a  la Recurrencia. Ej. El cambio  de  aceite y filtro cada 5.000 km. en un automóvil, exige la definición de una recurrencia con valor 5.000.
+
+Cuando se  define un  PM  en  función de  un  contador de  un  Activo, debe  existir  un mecanismo predefinido: manual o automático, para actualizar y mantener al día el contador de  ese  Activo  en  el  **AM**.  Se  trata  de  garantizar  que  tales  contadores  reflejen permanentemente la cantidad de trabajo  realizado por el Activo.  De hecho un PM con criterio  Contador,  solo  generará  Ordenes  de  Trabajo,  mientras  haya  variación  en  el contador del Activo.
+
+En los casos en que la actualización de los contadores de los AC no pueda ser frecuente, el **AM**** suministra un mecanismo automático que lo simula, mientras se puede realizar una nueva lectura y actualización real a ese contador. Se trata del  campo Estándar de Planeación que se encuentra en la parte inferior de la ventana detalle de Activos. Allí se define una cantidad de trabajo estándar que realiza ese Activo por unidad de tiempo. Este valor es definido con base en una estadística real del trabajo de ese Activo en un período considerable, ojalá no inferior a los 6 meses.
+
+**Por Límite:** Indica que el Contador del AC debe alcanzar una cantidad tope, definida en la Recurrencia, para que el PM genere la OT. Por este criterio solo se genera una única vez la Órden de Trabajo, cuando se alcance el Límite definido. Una vez generada la OT desde el PM, éste se desactiva y ya no vuelve a generar otras OT.
+
+**Recurrencia:** En este campo se define una cifra o cantidad que denota el incremento que debe sufrir el contador del Activo, para generar una Orden de Trabajo por contador, con criterio Incremento. Pero también en este campo se define un valor límite al que debe llegar el contador del Activo para generar una Orden de Trabajo por contador, cuando el criterio es Límite.
+
+**Vlr. Contador al Inicio del Período:** Se refiere al valor inicial del contador del Activo, correspondiente a la Fecha de Inicio de Período (FIP) previamente diligenciada en el mismo apartado.
+
+**Fecha de última generación de OT:** Esta fecha es informativa y viene a ser la FUG (fecha de la última generación), por tanto no se puede  modificar, esta fecha es la misma para todos los Criterios de Programación. Es una fecha real, siempre, que muestra cuando fue que se realizó la última generación de una Orden de Trabajo desde ese PM.
+
+Para saber si la OT se va a generar o no; el **AM****  proyecta el valor del Contador del AC desde la fecha de su última medición hasta el primer día del rango de análisis / generación, y compara el nuevo valor del Contador del AC, con el CUG.  Si el valor de la comparación, es mayor o igual a la Recurrencia, genera la Orden de Trabajo.  De lo contrario, recalcula nuevamente el valor del Contador del AC para el siguiente día  del rango de análisis / generación,  y  hace  la  misma  comparación. Así  recorre todo  el  rango  de  análisis  / generación  hasta  el  último  día,  generando  una  OT,  si   el   valor  de  alguna  de  las comparaciones es mayor o igual a la recurrencia.
+
+Calcular el valor del Contador consiste en sumarle al valor actual del Contador del AC la cantidad que resulte de llevar el Estándar de Planeación a la mínima unidad de tiempo, o sea a días, y multiplicar este valor por el número de días transcurridos desde la fecha de medición del Contador del AC, hasta el día del rango de Análisis / Generación en análisis.
+
+En síntesis el Sistema proyecta el estado del contador del AC a partir de su valor  en  la fecha de última lectura real, hasta la fecha de programación actual, según el    parámetro definido en el Estándar de Planeación. De esta forma se compara un contador proyectado contra el contador histórico o de la última generación, permitiéndole al Sistema, programar actividades que no se programarían por tener desactualizado el contador real.
+
+Recuerde que el parámetro ** “Estándar  de Planeación”** es opcional y NO se debe usar si se desea trabajar con lecturas reales solamente, es decir, si se mantienen actualizados los Contadores de los ACs.
+
+**Criterio 	de 	Generación 	por 	Frecuencia 	y/o 	Contador.**
+
+Resulta de definir simultáneamente un conjunto Frecuencia, Período y una Recurrencia para un contador, por ejemplo, en un mismo PM.
+
+El   sistema actúa de   la   forma ya   descrita independientemente para cada uno de   los criterios, solo que el **–AM 4G**  al encontrarlos juntos en el mismo PM, hace la  evaluación simultánea de ellos y genera una OT cuando uno de ellos, el que primero lo haga, cumpla la condición.
+
+En síntesis se encuentran disponibles los siguientes criterios que se pueden visualizar en el visor de PMs y también en las OTs que se generaron desde ellos.
+
+| ABREVIATURA  | NOMBRE                           |
+| ------------ | -------------------------------- |
+| **SS** | Semanal                          |
+| **MM** | Mensual                          |
+| **SM** | Semestral                        |
+| **AN** | Anual                            |
+| **DD** | Días(Mín 3)                    |
+| **SA** | Semanas del año                 |
+| **+M** | Meses (más de uno)              |
+| **+S** | Semanas (más de una)            |
+| **KI** | Contador por Incremento          |
+| **KL** | Contador por Límite             |
+| **SI** | Estándar por Incremento         |
+| **SL** | Estándar por Límite            |
+| **FK** | Frecuencia y/o Contador          |
+| **TM** | Trimestral                       |
+| **??** | Programa Inactivo o Sin Criterio |
+| **CM** | Característica Medibles         |
+
+Una vez que un Programa de Mantenimiento acaba de generar una OT, sobre el programa se actualizan los campos:
+
+**Vlr.** Contador al Inicio del Período
+Fecha de Última Generación (FUG) Fecha de Inicio del Período (FIP)
+
+**Nota.** Cuando se posee el **AM**** es posible hacer la Programación de las Actividades de Mantenimiento para un período futuro, tanto para el corto como para el largo  plazo, a través de las funciones de Generación y de Proyección. La función de  Generación se encuentra en el submenú de  “Órdenes de Trabajo”. La función Proyección se encuentra en el	submenú   de 	Programas   de	Mantenimiento. Cabe anotar también que esta Programación se   puede realizar con cualquier  anticipación requerida, por   lo   tanto es posible que la Programación de una semana como la 32 se realice en la 28, por ejemplo.
+
+Finalmente se aclara que toda actividad que pretenda programar, proyectar o generar OTs a futuro se fundamenta en la programación realizada con los PMs.
+
 
 ### Multimedia
 
