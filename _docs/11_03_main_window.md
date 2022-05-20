@@ -178,9 +178,9 @@ También se puede buscar el Activo, haciendo uso del icono <span class="mdi mdi-
 
 **Contrato:** Permite filtrar los PM por el contrato al que están asociados. Para escoger un contrato se descuelga la lista de Contratos definidos en Infraestructura.
 
-**Criterio:** Permite visualizar el subconjunto de PM definidos con   el   Criterio   de Programación ** “X”;** así que se pueden listar en el visor de PMs, aquellos PMs que fueron definidos con Criterio de Programación trimestral, o mensual, por Contador por Incremento, entre otros.
+**Criterio:** Permite visualizar el subconjunto de PM definidos con   el  Criterio  de Programación **“X”;**. Se elige el criterio de la lista que se despliega. Estos corresponden a la abreviatura indicada en el visor en la columna "**Cri**" asignado a cada uno de los registros. 
 
-**Comentario del Programa:** Filtra los programas de mantenimiento que cumplan  con  la opción de poseer comentario. Este es un campo para ingresar el comentario que se desee buscar en los programas.
+**Comentario del Programa:** Filtra los PM que cumplan  con  la opción de poseer comentario. Este es un campo para ingresar una parte del  comentario que se desee buscar en los programas.
 
 **Descripción del Programa:** Esta opción permite seleccionar los PMs que cumplan con el criterio de selección establecido en este campo, es  posible utilizar la  funcionalidad de comodines.
 
