@@ -201,7 +201,7 @@ También se puede buscar el Activo, haciendo uso del icono <span class="mdi mdi-
 _**Nota:** Es importante tener en cuenta que cuando se están realizando  subgrupos se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además  es posible hacer unión de selecciones.  Esto significa que inmediatamente después de haber realizado una selección es posible hacer otra y unir el resultado de las dos, o bien, quitar registros. Para ello, tras definir los criterios de la segunda selección se da un clic al botón <a class="btn white">Mas <span class="mdi mdi-plus-circle"></span></a> ó <a class="btn white">Menos <span class="mdi mdi-minus-circle"></span></a> según se requiera y finalmente efectuar la búsqueda con el botón <a class="btn white">aceptar <span class="mdi mdi-check-circle"></span></a>_
 
 
-## 3.2	Vistas Parciales / Pestañas
+# Vistas Parciales/Pestañas
 
 Las Vistas Parciales o Pestañas permiten complementar la información que se despliega normalmente sobre un Programa de Mantenimiento, con otro conjunto de información que solo se muestra cuando es necesario,  por solicitud del usuario. Las vistas parciales  disponibles son: presupuesto, criterio de programación y multimedia.
 
