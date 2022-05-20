@@ -182,9 +182,9 @@ También se puede buscar el Activo, haciendo uso del icono <span class="mdi mdi-
 
 **Comentario del Programa:** Filtra los PM que cumplan  con  la opción de poseer comentario. Este es un campo para ingresar una parte del  comentario que se desee buscar en los programas.
 
-**Descripción del Programa:** Esta opción permite seleccionar los PMs que cumplan con el criterio de selección establecido en este campo, es  posible utilizar la  funcionalidad de comodines.
+**Descripción del Programa:** Esta opción permite buscar los PM que cumplan con el criterio de selección establecido en este campo, es  posible utilizar la funcionalidad de comodines (%)
 
-**Fecha de Inicio de Periodo (FIP):** Esta opción permite seleccionar los PMs por un rango de la FIP.  Aparecen dos campos: Desde y Hasta En cada uno de ellos se digita una fecha. De no digitar el campo **“Desde”**, se buscan los PMs cuya fecha de inicio del período esté en el lapso anterior a la fecha digitada en ** “Hasta”.**	De no digitar el  campo **“Hasta”**, se buscan los PMs cuya fecha de inicio del período esté en un lapso posterior a la digitada en ** “Desde”**.
+**Fecha de Inicio de Periodo (FIP):** Esta opción permite seleccionar los PM por un rango de la FIP.  Aparecen dos campos: Desde y Hasta En cada uno de ellos se digita una fecha. De no digitar el campo **“Desde”**, se buscan los PMs cuya fecha de inicio del período esté en el lapso anterior a la fecha digitada en ** “Hasta”.**	De no digitar el  campo **“Hasta”**, se buscan los PMs cuya fecha de inicio del período esté en un lapso posterior a la digitada en ** “Desde”**.
 
 **Prioridad:** Esta opción permite seleccionar la Prioridad de los PMs.
 
