@@ -184,9 +184,9 @@ También se puede buscar el Activo, haciendo uso del icono <span class="mdi mdi-
 
 **Descripción del Programa:** Esta opción permite buscar los PM que cumplan con el criterio de selección establecido en este campo, es  posible utilizar la funcionalidad de comodines (%)
 
-**Fecha de Inicio de Periodo (FIP):** Esta opción permite seleccionar los PM por un rango de la FIP.  Aparecen dos campos: Desde y Hasta En cada uno de ellos se digita una fecha. De no digitar el campo **“Desde”**, se buscan los PMs cuya fecha de inicio del período esté en el lapso anterior a la fecha digitada en ** “Hasta”.**	De no digitar el  campo **“Hasta”**, se buscan los PMs cuya fecha de inicio del período esté en un lapso posterior a la digitada en ** “Desde”**.
+**Fecha de Inicio de Periodo (FIP):** Esta opción permite seleccionar los PM por un rango de la FIP.  Aparecen dos campos: Desde y Hasta En cada uno de ellos se digita una fecha. De digitar solo la fecha "desde" se filtran los registros desde esa fecha hasta la actual. 
 
-**Prioridad:** Esta opción permite seleccionar la Prioridad de los PMs.
+**Prioridad:** Esta opción permite filtrar por Prioridad de los PM. Se elige a partir de la lista desplegable.
 
 **Responsable:** Agrupa  los  PMs  de  acuerdo  al  Responsable del  PM.  Para  escoger  un Responsable Ejecutor se  puede  hacer   descolgando  la  lista  de   Responsables   definidos  en Infraestructura; el Sistema mostrará los Responsables y los Terceros activos. También se puede hacer usando comodines.
 
