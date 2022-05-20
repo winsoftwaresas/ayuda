@@ -210,7 +210,7 @@ Las Vistas Parciales o Pestañas permiten complementar la información que se de
 Se ingresa mediante un clic en la pestaña **“Presupuesto”** en la ventana detalle de Programas  de Mantenimiento.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img07.png)
-_**Imagen 27.** Programas de Mantenimiento - Ir a Subgrupos_
+_**Imagen 27.** Programas de Mantenimiento - Presupuesto_
 
 Esta tabla resume los totales de los costos presupuestados de Mano de Obra Interna, Mano de Obra Externa, Materiales y Repuestos y Otros Conceptos de Costo.
 
