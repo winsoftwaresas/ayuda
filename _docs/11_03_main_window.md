@@ -225,8 +225,6 @@ A través de la ventana de Ingreso de Mano de Obra Interna se administra el Pres
 
 Es importante resaltar que el presupuesto de Mano de Obra Interna de un PM, se prepara a nivel de Oficio, es decir, no se tiene en cuenta a la persona que va a realizar la labor, pues se trata de un presupuesto y no se conoce a ciencia cierta, en la mayoría  de  los casos, quiénes serán los encargados de ejecutar la labor.
 
-En la parte superior aparece el listado de los oficios presupuestados. En la parte inferior, es posible efectuar modificaciones a los ítems presupuestados, así como ingresar nuevos oficios al presupuesto.
-
 A continuación se describen los campos que componen esta ventana:
 
 **CR:** Es el centro responsable al que pertenece el Oficio presupuestado.  Es un campo de solo lectura, que se establece automáticamente una vez se ha seleccionado el Oficio.
@@ -235,12 +233,11 @@ A continuación se describen los campos que componen esta ventana:
 
 **TT:** Muestra de manera automática el tipo de trabajo que tiene configurado el oficio seleccionado. Es un campo de solo lectura, que se establece automáticamente una vez se ha seleccionado el Oficio, y se visualiza en la tabla de Mano de Obra Interna.
 
-**H.  Hombre:** Número de  horas hombre requeridas presupuestadas, desempeñando  el
-Oficio descrito.
+**H. Hombre:** Número de  horas hombre requeridas presupuestadas, desempeñando  el Oficio descrito.
 
-**Minutos:**  Es  el  número  de  Minutos,  que  junto  con  las  horas,  conforman el  tiempo  total presupuestado. Así, si se desea presupuestar 5 horas y cuarto de un Oficio, debe definirse así: ** “05”** en el campo ** “H. Hombre”**, y ** “15”** en el campo ** “Minutos”**.
+**Minutos:**  Es  el  número  de  Minutos,  que  junto  con  las  horas,  conforman el  tiempo  total presupuestado. Así, si se desea presupuestar 5 horas y cuarto de un Oficio, debe definirse así: **“5”** en el campo ** “H. Hombre”**, y **“15”** en el campo **“Minutos”**.
 
-**Personas:** Este  campo  es  netamente informativo. Indica  cuántas  personas  van  a desempeñar la labor.  Retomando el ejemplo anterior, si se coloca  “2” en este campo, se está diciendo que 2 personas van a desempeñar el Oficio.  Como ya se estableció que el total  de tiempo requerido son  5  horas  y cuarto, se  deduce  entonces que  entre las  2 personas se consumirán este tiempo. Este campo se visualiza en la tabla de Mano de Obra Interna como Nro. Personas.
+**Personas:** Este  campo  es  netamente informativo. Indica  cuántas  personas  van  a desempeñar la labor del mismo Oficio. Retomando el ejemplo anterior, si se coloca  “2” en este campo, se está diciendo que 2 personas van a desempeñar el Oficio.  Como ya se estableció que el total  de tiempo requerido son  5  horas  y cuarto, se  deduce entonces que  entre las  2 personas se consumirán este tiempo. Este campo se visualiza en la tabla de Mano de Obra Interna como Nro. Personas.
 
 **Vlr. Hora:** Este campo es informativo. Muestra el valor hora 1 que tienen definido el oficio seleccionado, se establece automáticamente una vez se ha seleccionado el Oficio y se visualiza en la tabla de Mano de Obra Interna.
 
