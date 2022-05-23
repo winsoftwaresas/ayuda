@@ -225,7 +225,7 @@ A través de la ventana de Ingreso de Mano de Obra Interna se administra el Pres
 
 Es importante resaltar que el presupuesto de Mano de Obra Interna de un PM, se prepara a nivel de Oficio, es decir, no se tiene en cuenta a la persona que va a realizar la labor, pues se trata de un presupuesto y no se conoce a ciencia cierta, en la mayoría  de  los casos, quiénes serán los encargados de ejecutar la labor.
 
-A continuación se describen los campos que componen esta ventana:
+Para ingresar MO se debe dar clic en el botón <a class="btn gray">adicionar mano de obra interna</a> y se deberán diligenciar los siguientes campos:
 
 **CR:** Es el centro responsable al que pertenece el Oficio presupuestado.  Es un campo de solo lectura, que se establece automáticamente una vez se ha seleccionado el Oficio.
 
@@ -242,8 +242,6 @@ A continuación se describen los campos que componen esta ventana:
 **Vlr. Hora:** Este campo es informativo. Muestra el valor hora 1 que tienen definido el oficio seleccionado, se establece automáticamente una vez se ha seleccionado el Oficio y se visualiza en la tabla de Mano de Obra Interna.
 
 **Vlr. Total:** Este campo es informativo y es calculado por el sistema, contiene el valor total del presupuesto para ese Oficio. Es el producto del Vlr. Hora por H. Hombre y Minutos. Se visualiza en la tabla de Mano de Obra Interna.
-
-Al hacer clic en el botón `<a class="btn">`Ir a Matriz `</a>`, se regresa a la ventana principal de Presupuesto.
 
 ![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img14.png)
 
