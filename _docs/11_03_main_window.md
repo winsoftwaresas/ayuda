@@ -164,11 +164,9 @@ También se puede buscar el Activo, haciendo uso del icono <span class="mdi mdi-
 
 **AC-Modelo:** Filtra todos los PM cuyo Activo esté asociado a la Marca relacionada en este campo, se aceptan comodines(%). 
 
-
 ##### FILTRAR POR CAMPOS DEL PRESUPUESTO – MATERIALES
 
 **RP-Código:** Filtra los PM que tengan relacionado en el presupuesto el código del Repuesto digitado en el campo. Para buscar el Repuesto desde el buscador de Subgrupo de Materiales y Repuestos se debe dar clic en el icono de filtro azul que aparece al lado del respectivo campo <span class="mdi mdi-filter-variant icon white"></span>. Allí se abre una ventana independiente que muestra el visor de Repuestos, es posible hacer filtros o subgrupos allí, dando clic al icono superior <span class="mdi mdi-filter-variant"></span>.
-
 
 ##### FILTRAR POR CAMPOS DEL PROGRAMA
 
@@ -212,68 +210,66 @@ Se ingresa mediante un clic en la pestaña **“Presupuesto”** en la ventana d
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img07.png)
 _**Imagen 27.** Programas de Mantenimiento - Presupuesto_
 
-Esta tabla resume los totales de los costos presupuestados de Mano de Obra Interna, Mano de Obra Externa, Materiales y Repuestos y Otros Conceptos de Costo.
+Esta tabla resume los totales de los costos presupuestados de Mano de Obra Interna, Mano de Obra Externa, Materiales y Repuestos y Otros Conceptos de Costo que serán traslados a las OT una vez generadas. 
 
-Ingresar o Modificar la Mano de Obra Interna presupuestada, a nivel de tipo de oficio y número de horas entre otros, se puede realizar o definir mediante un clic en el botón de `<a class="btn">`Mano Obra Interna `</a>`. que conduce a la ventana Presupuesto ** “Mano Obra Interna‟.**
+**Ingresar Mano de Obra Interna**
 
-Ingresar o Modificar la Mano de Obra Externa presupuestada, a nivel de costo unitario por hora o visita, se puede realizar o definir mediante un clic en el botón de `<a class="btn">`Mano Obra Externa `</a>`. que conduce a la ventana Presupuesto ** “Mano Obra Externa‟.**
-
-Ingresar o  Modificar los Materiales o Repuestos presupuestados, a nivel de código  de repuesto, tipo de repuesto y número de unidades presupuestadas entre otros, se realiza o define mediante un clic en el botón de `<a class="btn">`Mat y Rep `</a>`. que conduce a la ventana de ** “Presupuesto de Materiales y Repuestos”**.
-
-Ingresar o Modificar los Otros Conceptos presupuestados, a nivel de tipo de  Concepto  y Valor  y Tipo  de  Trabajo,  se  puede  realizar  o  definir  mediante un  clic  en  el  botón `<a class="btn">`O. Conceptos `</a>`. que conduce a la ventana **“Presupuesto O. Conceptos de Costo”.**
-
-## **Ingresar Mano de Obra Interna**
-
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img13.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img08.png)
+_**Imagen 28.** Programas de Mantenimiento - MO_
 
 En la gráfica anterior, Ventana de Ingreso de Mano de Obra Interna, se aprecian sus componentes y sus respectivos contenidos.
 
 A través de la ventana de Ingreso de Mano de Obra Interna se administra el Presupuesto de Mano de Obra Interna del PM.
 
-Es importante recalcar que el presupuesto de Mano de Obra Interna de un PM, se prepara a nivel de Oficio, es decir, no se tiene en cuenta a la persona que va a realizar la labor, pues se trata de un presupuesto y no se conoce a ciencia cierta, en la mayoría  de  los casos, quiénes serán los encargados de ejecutar la labor.
+Es importante resaltar que el presupuesto de Mano de Obra Interna de un PM, se prepara a nivel de Oficio, es decir, no se tiene en cuenta a la persona que va a realizar la labor, pues se trata de un presupuesto y no se conoce a ciencia cierta, en la mayoría  de  los casos, quiénes serán los encargados de ejecutar la labor.
 
-En la parte superior aparece el listado de los oficios presupuestados. En la parte inferior, es posible efectuar modificaciones a los ítems presupuestados, así como ingresar nuevos oficios al presupuesto.
+Se describe a continuación los campos que componen del Detalle de MO: 
 
-A continuación se describen los campos que componen esta ventana; cuando se  quiera actualizar o  ingresar nuevos  oficios al  presupuesto del  PM,  se  deberán  diligenciar los siguientes campos:
-
-**CR:** Es el centro responsable al que pertenece el Oficio presupuestado.   Es un campo de solo lectura, que se establece automáticamente una vez se ha seleccionado el Oficio.
+**CR:** Es el centro responsable al que pertenece el Oficio presupuestado.  Es un campo de solo lectura, que se establece automáticamente una vez se ha seleccionado el Oficio.
 
 **OF:** Lista los Oficios definidos en el módulo de Infraestructura. Aquí se escoge el Oficio a presupuestar (anticipar).
 
 **TT:** Muestra de manera automática el tipo de trabajo que tiene configurado el oficio seleccionado. Es un campo de solo lectura, que se establece automáticamente una vez se ha seleccionado el Oficio, y se visualiza en la tabla de Mano de Obra Interna.
 
-**H.  Hombre:** Número de  horas hombre requeridas presupuestadas, desempeñando  el
-Oficio descrito.
+**H. Hombre:** Número de  horas hombre requeridas presupuestadas, desempeñando  el Oficio descrito.
 
-**Minutos:**  Es  el  número  de  Minutos,  que  junto  con  las  horas,  conforman el  tiempo  total presupuestado. Así, si se desea presupuestar 5 horas y cuarto de un Oficio, debe definirse así: ** “05”** en el campo ** “H. Hombre”**, y ** “15”** en el campo ** “Minutos”**.
+**Minutos:**  Es  el  número  de  Minutos,  que  junto  con  las  horas,  conforman el  tiempo  total presupuestado. Así, si se desea presupuestar 5 horas y cuarto de un Oficio, debe definirse así: **“5”** en el campo ** “H. Hombre”**, y **“15”** en el campo **“Minutos”**.
 
-**Personas:** Este  campo  es  netamente informativo. Indica  cuántas  personas  van  a desempeñar la labor.  Retomando el ejemplo anterior, si se coloca  “2” en este campo, se está diciendo que 2 personas van a desempeñar el Oficio.  Como ya se estableció que el total  de tiempo requerido son  5  horas  y cuarto, se  deduce  entonces que  entre las  2 personas se consumirán este tiempo. Este campo se visualiza en la tabla de Mano de Obra Interna como Nro. Personas.
+**Personas:** Este  campo  es  netamente informativo. Indica  cuántas  personas  van  a desempeñar la labor del mismo Oficio. Retomando el ejemplo anterior, si se coloca  “2” en este campo, se está diciendo que 2 personas van a desempeñar el Oficio.  Como ya se estableció que el total  de tiempo requerido son  5  horas  y cuarto, se  deduce entonces que  entre las  2 personas se consumirán este tiempo. Este campo se visualiza en la tabla de Mano de Obra Interna como Nro. Personas.
 
 **Vlr. Hora:** Este campo es informativo. Muestra el valor hora 1 que tienen definido el oficio seleccionado, se establece automáticamente una vez se ha seleccionado el Oficio y se visualiza en la tabla de Mano de Obra Interna.
 
 **Vlr. Total:** Este campo es informativo y es calculado por el sistema, contiene el valor total del presupuesto para ese Oficio. Es el producto del Vlr. Hora por H. Hombre y Minutos. Se visualiza en la tabla de Mano de Obra Interna.
 
-Al hacer clic en el botón `<a class="btn">`Ir a Matriz `</a>`, se regresa a la ventana principal de Presupuesto.
+Para ingresar MO se debe dar clic en el botón <a class="btn gray">Adicionar mano obra interna</a> que se muestra en la ventana detalle de Mano de Obra Interna.
+ 
+Diligenciados los campos anterior, se debe dar clic en el icono <span class="mdi mdi-plus-circle icon white"></span> ubicado en la parte inferior del formulario, seguidamente, se observa que la información creada se muestra en la tabla de mano de Obra Interna, ubicada al lado izquierdo. 
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img14.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img09.png)
+_**Imagen 29.** Programas de Mantenimiento - Adicionar MO_
 
-Para crear registros de Mano de Obra Interna, se debe hacer clic en el botón `<a class="btn">`Adicionar Mano Obra Interna `</a>`., que se muestra en la ventana detalle de Mano de Obra Interna, se diligencian los campos y finalmente se da clic en el icono del `<span class="iconify btn" data-icon="mdi-plus-circle">`Más, ubicado en la última fila de los campos de Mano de Obra Interna. Seguidamente, se observa que la información creada se muestra en la tabla de mano de Obra Interna, ubicada al lado izquierdo.
+En el caso de actualizar la información de Mano de Obra Externa de algún registro existente, se debe seleccionar el registro y luego dar un clic sobre el botón <a class="btn gray">Actualizar Mano de Obra Externa</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img15.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img10.png)
+_**Imagen 30.** Programas - Actualizar MO_
 
-Por otro lado, para eliminar un registro de la tabla de Mano de Obra Interna, se ubica el registro a eliminar directamente en la tabla y se da clic, luego se da clic al icono de `<span class="iconify btn" data-icon=delete>`eliminar (basura), sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en `<a class="btn">`Aceptar `</a>`.
+Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img16.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img11png)
+_**Imagen 31.** Programas - Eliminar MO_
+
+**Ingresar Mano de Obra Externa**
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img12.png)
+_**Imagen 32.** Programas de Mantenimiento - ME_
 
 En la gráfica anterior, Ventana de Ingreso de Mano de Obra Externa, se aprecian sus componentes y sus respectivos contenidos.
 
-A través de la ventana de Ingreso de Mano de Obra Externa se administra el Presupuesto de Mano de Obra Externa del PM.
-
-Es importante recalcar que el presupuesto de Mano de Obra Externa de un PM, se prepara a nivel de la Especialidad (Oficio) del responsable externo, es decir, no se tiene en cuenta a la persona natural o jurídica que va a realizar la labor, pues se trata de un presupuesto y no se conoce a ciencia cierta, en la mayoría  de  los casos, quiénes serán los encargados de ejecutar la labor.
+Es importante resaltar que el presupuesto de Mano de Obra Externa de un PM, se prepara a nivel de la Especialidad (Oficio) del responsable externo, es decir, no se tiene en cuenta a la persona natural o jurídica que va a realizar la labor, pues se trata de un presupuesto y no se conoce a ciencia cierta, en la mayoría  de  los casos, quiénes serán los encargados de ejecutar la labor.
 
 En la parte superior aparece el listado de los oficios o especialidades presupuestados. En la parte inferior, es posible efectuar modificaciones a los ítems presupuestados, así como ingresar nuevos oficios al presupuesto.
 
-A continuación se describen los campos que componen esta ventana; cuando se  quiera actualizar o  ingresar nuevos  oficios o especialidades al  presupuesto del  PM,  se  deberán  diligenciar los siguientes campos:
+A continuación se describen los campos que componen esta ventana:
 
 **CR:** Es el centro responsable al que pertenece el Oficio o Especialidad presupuestado.  Es un campo de solo lectura, que se establece automáticamente una vez se ha seleccionado el Oficio o la Especialidad.
 
@@ -283,17 +279,27 @@ A continuación se describen los campos que componen esta ventana; cuando se  qu
 
 **Costo Unitario por hora/visita:** Se digita el valor unitario o el costo unitario por hora o por visita de parte del responsable ejecutor externo para esa actividad programada, ya sea un Contratista o un Servicio Externo.
 
-Al hacer clic en el botón `<a class="btn">`Ir a Matriz `</a>`, se regresa a la ventana principal de Presupuesto.
+Para ingresar ME se debe dar clic en el botón <a class="btn gray">Adicionar mano obra externa</a> que se muestra en la ventana detalle de Mano de Obra Externa.
+ 
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img13.png)
+_**Imagen 33.** Programas de Mantenimiento - Ingresar ME_
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img17.png)
+Diligenciados los campos anterior, se debe dar clic en el icono <span class="mdi mdi-plus-circle icon white"></span> ubicado en la parte inferior del formulario, seguidamente, se observa que la información creada se muestra en la tabla de mano de Obra Externa, ubicada al lado izquierdo. 
 
-Para crear registros de Mano de Obra Externa, se debe hacer clic en el botón `<a class="btn">`Adicionar Mano Obra Externa `</a>` , que se muestra en la ventana detalle de Mano de Obra Externa, se diligencian los campos y finalmente se da clic en el icono del `<span class="iconify btn" data-icon="mdi-plus-circle">`Más, ubicado en la última fila de los campos de Mano de Obra Externa. Seguidamente, se observa que la información creada se muestra en la tabla de mano de Obra Externa, ubicada al lado izquierdo
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img14.png)
+_**Imagen 34.** Programas de Mantenimiento - Adicionar ME_
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img18.png)
+En el caso de actualizar la información de Mano de Obra Externa de algún registro existente, se debe seleccionar el registro y luego dar un clic sobre el botón <a class="btn gray">Actualizar Mano de Obra Externa</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
 
-Por otro lado, para eliminar un registro de la tabla de Mano de Obra Externa, se ubica el registro a eliminar directamente en la tabla y se da clic, luego se da clic al icono de `<span class="iconify btn" data-icon=delete>`eliminar (basura), sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en `<a class="btn">`Aceptar `</a>`.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img15.png)
+_**Imagen 35.** Programas - Actualizar ME_
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img19.png)
+Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img17.png)
+_**Imagen 37.** Programas - Eliminar ME_
+
+**Ingresar Materiales y Repuestos**
 
 En la gráfica anterior, Ventana de Ingreso de Materiales y Repuestos, se aprecian  sus componentes y sus respectivos contenidos.
 
