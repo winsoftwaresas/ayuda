@@ -215,7 +215,7 @@ Esta tabla resume los totales de los costos presupuestados de Mano de Obra Inter
 **Ingresar Mano de Obra Interna**
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img08.png)
-_**Imagen 28.** Programas de Mantenimiento - Presupuesto_
+_**Imagen 28.** Programas de Mantenimiento - MO_
 
 En la gráfica anterior, Ventana de Ingreso de Mano de Obra Interna, se aprecian sus componentes y sus respectivos contenidos.
 
@@ -243,28 +243,25 @@ Se describe a continuación los campos que componen del Detalle de MO:
 
 Para ingresar MO se debe dar clic en el botón <a class="btn gray">Adicionar mano obra interna</a> que se muestra en la ventana detalle de Mano de Obra Interna.
  
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img09.png)
-_**Imagen 29.** Programas de Mantenimiento - Ingresar MO_
-
 Diligenciados los campos anterior, se debe dar clic en el icono <span class="mdi mdi-plus-circle icon white"></span> ubicado en la parte inferior del formulario, seguidamente, se observa que la información creada se muestra en la tabla de mano de Obra Interna, ubicada al lado izquierdo. 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img09.png)
-_**Imagen 30.** Programas de Mantenimiento - Adicionar MO_
+_**Imagen 29.** Programas de Mantenimiento - Adicionar MO_
 
 En el caso de actualizar la información de Mano de Obra Externa de algún registro existente, se debe seleccionar el registro y luego dar un clic sobre el botón <a class="btn gray">Actualizar Mano de Obra Externa</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img10.png)
-_**Imagen 31.** Programas - Actualizar MO_
+_**Imagen 30.** Programas - Actualizar MO_
 
 Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img11.png)
-_**Imagen 32.** Programas - Eliminar MO_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img11png)
+_**Imagen 31.** Programas - Eliminar MO_
 
 **Ingresar Mano de Obra Externa**
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img12.png)
-_**Imagen 33.** Programas de Mantenimiento - Presupuesto_
+_**Imagen 32.** Programas de Mantenimiento - ME_
 
 En la gráfica anterior, Ventana de Ingreso de Mano de Obra Externa, se aprecian sus componentes y sus respectivos contenidos.
 
@@ -285,21 +282,21 @@ A continuación se describen los campos que componen esta ventana:
 Para ingresar ME se debe dar clic en el botón <a class="btn gray">Adicionar mano obra externa</a> que se muestra en la ventana detalle de Mano de Obra Externa.
  
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img13.png)
-_**Imagen 34.** Programas de Mantenimiento - Ingresar ME_
+_**Imagen 33.** Programas de Mantenimiento - Ingresar ME_
 
 Diligenciados los campos anterior, se debe dar clic en el icono <span class="mdi mdi-plus-circle icon white"></span> ubicado en la parte inferior del formulario, seguidamente, se observa que la información creada se muestra en la tabla de mano de Obra Externa, ubicada al lado izquierdo. 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img14.png)
-_**Imagen 35.** Programas de Mantenimiento - Adicionar ME_
+_**Imagen 34.** Programas de Mantenimiento - Adicionar ME_
 
 En el caso de actualizar la información de Mano de Obra Externa de algún registro existente, se debe seleccionar el registro y luego dar un clic sobre el botón <a class="btn gray">Actualizar Mano de Obra Externa</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img15.png)
-_**Imagen 36.** Programas - Actualizar ME_
+_**Imagen 35.** Programas - Actualizar ME_
 
 Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img16.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img17.png)
 _**Imagen 37.** Programas - Eliminar ME_
 
 
