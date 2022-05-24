@@ -251,7 +251,7 @@ Diligenciados los campos anterior, se debe dar clic en el icono <span class="mdi
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img09.png)
 _**Imagen 30.** Programas de Mantenimiento - Adicionar MO_
 
-En el caso de actualizar la información de Mano de Obra Externa de algún registro existente, se debe seleccionar el registro y luefo dar un clic sobre el botón <a class="btn gray">Actualizar Mano de Obra Externa</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
+En el caso de actualizar la información de Mano de Obra Externa de algún registro existente, se debe seleccionar el registro y luego dar un clic sobre el botón <a class="btn gray">Actualizar Mano de Obra Externa</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img10.png)
 _**Imagen 31.** Programas - Actualizar MO_
