@@ -225,7 +225,7 @@ A través de la ventana de Ingreso de Mano de Obra Interna se administra el Pres
 
 Es importante resaltar que el presupuesto de Mano de Obra Interna de un PM, se prepara a nivel de Oficio, es decir, no se tiene en cuenta a la persona que va a realizar la labor, pues se trata de un presupuesto y no se conoce a ciencia cierta, en la mayoría  de  los casos, quiénes serán los encargados de ejecutar la labor.
 
-Para ingresar MO se debe dar clic en el botón <a class="btn gray">adicionar mano de obra interna</a> y se deberán diligenciar los siguientes campos:
+Se describe a continuación los campos que componen del Detalle de MO: 
 
 **CR:** Es el centro responsable al que pertenece el Oficio presupuestado.  Es un campo de solo lectura, que se establece automáticamente una vez se ha seleccionado el Oficio.
 
@@ -243,11 +243,18 @@ Para ingresar MO se debe dar clic en el botón <a class="btn gray">adicionar man
 
 **Vlr. Total:** Este campo es informativo y es calculado por el sistema, contiene el valor total del presupuesto para ese Oficio. Es el producto del Vlr. Hora por H. Hombre y Minutos. Se visualiza en la tabla de Mano de Obra Interna.
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img14.png)
+Para ingresar MO se debe dar clic en el botón <a class="btn gray">Adicionar mano obra interna</a> que se muestra en la ventana detalle de Mano de Obra Interna.
+ 
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img09.png)
+_**Imagen 29.** Programas de Mantenimiento - Ingresar MO_
 
-Para crear registros de Mano de Obra Interna, se debe hacer clic en el botón `<a class="btn">`Adicionar Mano Obra Interna `</a>`., que se muestra en la ventana detalle de Mano de Obra Interna, se diligencian los campos y finalmente se da clic en el icono del `<span class="iconify btn" data-icon="mdi-plus-circle">`Más, ubicado en la última fila de los campos de Mano de Obra Interna. Seguidamente, se observa que la información creada se muestra en la tabla de mano de Obra Interna, ubicada al lado izquierdo.
+Diligenciados los campos anterior, se debe dar clic en el icono <span class="mdi mdi-plus-circle icon white"></span> ubicado en la parte inferior del formulario, seguidamente, se observa que la información creada se muestra en la tabla de mano de Obra Interna, ubicada al lado izquierdo. 
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img15.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img09.png)
+_**Imagen 30.** Programas de Mantenimiento - Adicionar MO_
+
+Para ac
+
 
 Por otro lado, para eliminar un registro de la tabla de Mano de Obra Interna, se ubica el registro a eliminar directamente en la tabla y se da clic, luego se da clic al icono de `<span class="iconify btn" data-icon=delete>`eliminar (basura), sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en `<a class="btn">`Aceptar `</a>`.
 
