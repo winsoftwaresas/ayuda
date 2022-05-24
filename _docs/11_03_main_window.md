@@ -164,11 +164,9 @@ También se puede buscar el Activo, haciendo uso del icono <span class="mdi mdi-
 
 **AC-Modelo:** Filtra todos los PM cuyo Activo esté asociado a la Marca relacionada en este campo, se aceptan comodines(%). 
 
-
 ##### FILTRAR POR CAMPOS DEL PRESUPUESTO – MATERIALES
 
 **RP-Código:** Filtra los PM que tengan relacionado en el presupuesto el código del Repuesto digitado en el campo. Para buscar el Repuesto desde el buscador de Subgrupo de Materiales y Repuestos se debe dar clic en el icono de filtro azul que aparece al lado del respectivo campo <span class="mdi mdi-filter-variant icon white"></span>. Allí se abre una ventana independiente que muestra el visor de Repuestos, es posible hacer filtros o subgrupos allí, dando clic al icono superior <span class="mdi mdi-filter-variant"></span>.
-
 
 ##### FILTRAR POR CAMPOS DEL PROGRAMA
 
@@ -253,12 +251,17 @@ Diligenciados los campos anterior, se debe dar clic en el icono <span class="mdi
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img09.png)
 _**Imagen 30.** Programas de Mantenimiento - Adicionar MO_
 
-Para ac
+En el caso de actualizar la información de Mano de Obra Externa de algún registro existente, se debe seleccionar el registro y luefo dar un clic sobre el botón <a class="btn gray">Actualizar Mano de Obra Externa</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
 
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img10.png)
+_**Imagen 31.** Programas - Actualizar MO_
 
-Por otro lado, para eliminar un registro de la tabla de Mano de Obra Interna, se ubica el registro a eliminar directamente en la tabla y se da clic, luego se da clic al icono de `<span class="iconify btn" data-icon=delete>`eliminar (basura), sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en `<a class="btn">`Aceptar `</a>`.
+Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img16.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img11.png)
+_**Imagen 32.** Programas - Eliminar MO_
+
+**Ingresar Mano de Obra Externa**
 
 En la gráfica anterior, Ventana de Ingreso de Mano de Obra Externa, se aprecian sus componentes y sus respectivos contenidos.
 
