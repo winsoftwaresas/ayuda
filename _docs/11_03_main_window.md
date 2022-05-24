@@ -299,7 +299,7 @@ Por otro lado, para eliminar un registro de la tabla, se selecciona el registro 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img17.png)
 _**Imagen 37.** Programas - Eliminar ME_
 
-
+**Ingresar Materiales y Repuestos**
 
 En la gráfica anterior, Ventana de Ingreso de Materiales y Repuestos, se aprecian  sus componentes y sus respectivos contenidos.
 
