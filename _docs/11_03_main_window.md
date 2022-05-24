@@ -296,7 +296,7 @@ _**Imagen 35.** Programas - Actualizar ME_
 
 Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img17.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img16.png)
 _**Imagen 37.** Programas - Eliminar ME_
 
 **Ingresar Materiales y Repuestos**
