@@ -298,21 +298,20 @@ _**Imagen 35.** Programas - Eliminar ME_
 
 **Ingresar Materiales y Repuestos**
 
-En la gráfica anterior, Ventana de Ingreso de Materiales y Repuestos, se aprecian  sus componentes y sus respectivos contenidos.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img16.png)
+_**Imagen 36.** Programas - Eliminar ME_
 
-A través de la ventana de Ingreso de Materiales y Repuestos se administra el Presupuesto de Materiales y Repuestos del PM.
+En la gráfica anterior, Ventana de Ingreso de Materiales y Repuestos, se aprecian  sus componentes y sus respectivos contenidos. En esta opción se administra el Presupuesto de Materiales y Repuestos del PM.
 
-En la parte superior aparece el listado de los repuestos presupuestados. En la parte inferior,  es  posible  efectuar  modificaciones,  así  como  ingresar  nuevos  materiales  al presupuesto.
-
-A continuación se describen los campos que componen esta ventana; cuando se  quiera actualizar o ingresar nuevos Materiales y Repuestos al presupuesto del PM,  se  deberán diligenciar los siguientes campos:
+A continuación se describen los campos que componen esta ventana; cuando se quiera actualizar o ingresar nuevos Materiales y Repuestos al  PM, se deberán diligenciar los siguientes campos:
 
 **Almacén:** Lista los Almacenes definidos en la tabla de Almacenes del módulo de Infraestructura. Se elige el Almacén que contiene los Repuestos a presupuestar. Una vez elegido el Almacén, en el campo M Y R, solo se listarán los Repuestos que pertenecen al Almacén seleccionado.
 
-**M Y R:** Lista los Materiales y Repuestos definidos en el módulo de Almacén de Repuestos. Aquí se  escoge el Repuesto a presupuestar (anticipar), haciendo clic al  `<span class="iconify btn" data-icon=filter-variant>`icono de filtro en azul, ubicado al lado derecho de este campo. Una vez elegido el repuesto, aparece automáticamente su descripción.
+**M Y R:** Lista los Materiales y Repuestos definidos en el módulo de Almacén de Repuestos. Aquí se  escoge el Repuesto a presupuestar (anticipar), haciendo clic al icono de filtro en azul <span class="mdi mdi-filter-variant icon white"></span> ubicado al lado derecho de este campo. Una vez elegido el repuesto, aparece automáticamente su descripción.
 
-**Descripción M Y R:** Este  campo  es  controlado por  el  Sistema,  y muestra automáticamente la  descripción  del repuesto seleccionado. No es modificable por el usuario.
+**Descripción M Y R:** Este campo es controlado por el Sistema,  y muestra automáticamente la  descripción  del repuesto seleccionado. No es modificable por el usuario.
 
-**Cantidad:** Es la cantidad presupuestada, requerida, del repuesto seleccionado.
+**Cantidad:** En este campo se debe ingresar la cantidad presupuestada, requerida, del repuesto seleccionado.
 
 **UM:** Es un campo de solo lectura que es controlado por el sistema, y muestra la unidad de medida de consumo del repuesto seleccionado. No es modificable por el usuario.
 
