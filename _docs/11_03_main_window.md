@@ -243,7 +243,7 @@ Se describe a continuación los campos que componen del Detalle de MO:
 
 Para ingresar MO se debe dar clic en el botón <a class="btn gray">Adicionar mano obra interna</a> que se muestra en la ventana detalle de Mano de Obra Interna.
  
-Diligenciados los campos anterior, se debe dar clic en el icono <span class="mdi mdi-plus-circle icon white"></span> ubicado en la parte inferior del formulario, seguidamente, se observa que la información creada se muestra en la tabla de mano de Obra Interna, ubicada al lado izquierdo. 
+Diligenciados los campos anteriores, se debe dar clic en el icono <span class="mdi mdi-plus-circle icon white"></span> ubicado en la parte inferior del formulario, seguidamente, se observa que la información creada se muestra en la tabla de mano de Obra Interna, ubicada al lado izquierdo. 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img09.png)
 _**Imagen 29.** Programas de Mantenimiento - Adicionar MO_
@@ -281,7 +281,7 @@ A continuación se describen los campos que componen esta ventana:
 
 Para ingresar ME se debe dar clic en el botón <a class="btn gray">Adicionar mano obra externa</a> que se muestra en la ventana detalle de Mano de Obra Externa.
  
-Diligenciados los campos anterior, se debe dar clic en el icono <span class="mdi mdi-plus-circle icon white"></span> ubicado en la parte inferior del formulario, seguidamente, se observa que la información creada se muestra en la tabla de mano de Obra Externa, ubicada al lado izquierdo. 
+Diligenciados los campos anteriores, se debe dar clic en el icono <span class="mdi mdi-plus-circle icon white"></span> ubicado en la parte inferior del formulario, seguidamente, se observa que la información creada se muestra en la tabla de mano de Obra Externa, ubicada al lado izquierdo. 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img13.png)
 _**Imagen 33.** Programas de Mantenimiento - Ingresar ME_
@@ -303,6 +303,8 @@ _**Imagen 36.** Programas - Eliminar ME_
 
 En la gráfica anterior, Ventana de Ingreso de Materiales y Repuestos, se aprecian  sus componentes y sus respectivos contenidos. En esta opción se administra el Presupuesto de Materiales y Repuestos del PM.
 
+Para ingresar a esta opción de debe dar clic en el botón <a class="btn gray">mat y rep</a>, ubicado en la parte inferior del Presupuesto.
+
 A continuación se describen los campos que componen esta ventana; cuando se quiera actualizar o ingresar nuevos Materiales y Repuestos al  PM, se deberán diligenciar los siguientes campos:
 
 **Almacén:** Lista los Almacenes definidos en la tabla de Almacenes del módulo de Infraestructura. Se elige el Almacén que contiene los Repuestos a presupuestar. Una vez elegido el Almacén, en el campo M Y R, solo se listarán los Repuestos que pertenecen al Almacén seleccionado.
@@ -321,9 +323,26 @@ A continuación se describen los campos que componen esta ventana; cuando se qui
 
 **Vlr. Total:** Este campo es informativo y es calculado por el sistema, contiene el valor total del presupuesto para ese Repuesto o Material. Es el producto del Vlr. Unitario por Cantidad. Se visualiza en la tabla de Materiales y Repuestos.
 
-Al hacer clic en el botón `<a class="btn">`Ir a Matriz `</a>`, se regresa a la ventana principal de Presupuesto.
+Para ingresar Materiales y Repuestos se debe dar clic en el botón <a class="btn gray">Adicionar Material y Repuesto</a> que se visualiza en el lado derecho de la Ventana Detalle.
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img20.png)
+Diligenciados los campos anteriores, se debe dar clic en el icono <span class="mdi mdi-plus-circle icon white"></span> ubicado en la parte inferior del formulario, seguidamente, se observa que la información creada se muestra en la tabla de Materiales y Repuestos, ubicada al lado izquierdo, como se muestra a continuación:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img17.png)
+_**Imagen 37.** Programas - Eliminar ME_
+
+En el caso de actualizar la información de Mano de Obra Externa de algún registro existente, se debe seleccionar el registro y luego dar un clic sobre el botón <a class="btn gray">Actualizar Mano de Obra Externa</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img14.png)
+_**Imagen 38.** Programas - Actualizar ME_
+
+Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img15.png)
+_**Imagen 35.** Programas - Eliminar ME_
+
+
+
+
 
 Para crear registros de Otros Conceptos de Costo, se debe hacer clic en el botón `<a class="btn">`Adicionar Otro Concepto `</a>`, que se muestra en la ventana detalle de Otros Conceptos de Costo, se diligencian los campos y finalmente se da clic en el icono del `<span class="iconify btn" data-icon="mdi-plus-circle">`Más, ubicado en la última fila de los campos de Otros Conceptos. Seguidamente, se observa que la información creada se muestra en la tabla de Otros Conceptos, ubicada al lado izquierdo.
 
