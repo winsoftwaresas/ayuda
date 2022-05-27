@@ -243,7 +243,7 @@ Se describe a continuación los campos que componen del Detalle de MO:
 
 Para ingresar MO se debe dar clic en el botón <a class="btn gray">Adicionar mano obra interna</a> que se muestra en la ventana detalle de Mano de Obra Interna.
  
-Diligenciados los campos anterior, se debe dar clic en el icono <span class="mdi mdi-plus-circle icon white"></span> ubicado en la parte inferior del formulario, seguidamente, se observa que la información creada se muestra en la tabla de mano de Obra Interna, ubicada al lado izquierdo. 
+Diligenciados los campos anteriores, se debe dar clic en el icono <span class="mdi mdi-plus-circle icon white"></span> ubicado en la parte inferior del formulario, seguidamente, se observa que la información creada se muestra en la tabla de mano de Obra Interna, ubicada al lado izquierdo. 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img09.png)
 _**Imagen 29.** Programas de Mantenimiento - Adicionar MO_
@@ -281,7 +281,7 @@ A continuación se describen los campos que componen esta ventana:
 
 Para ingresar ME se debe dar clic en el botón <a class="btn gray">Adicionar mano obra externa</a> que se muestra en la ventana detalle de Mano de Obra Externa.
  
-Diligenciados los campos anterior, se debe dar clic en el icono <span class="mdi mdi-plus-circle icon white"></span> ubicado en la parte inferior del formulario, seguidamente, se observa que la información creada se muestra en la tabla de mano de Obra Externa, ubicada al lado izquierdo. 
+Diligenciados los campos anteriores, se debe dar clic en el icono <span class="mdi mdi-plus-circle icon white"></span> ubicado en la parte inferior del formulario, seguidamente, se observa que la información creada se muestra en la tabla de mano de Obra Externa, ubicada al lado izquierdo. 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img13.png)
 _**Imagen 33.** Programas de Mantenimiento - Ingresar ME_
@@ -298,21 +298,22 @@ _**Imagen 35.** Programas - Eliminar ME_
 
 **Ingresar Materiales y Repuestos**
 
-En la gráfica anterior, Ventana de Ingreso de Materiales y Repuestos, se aprecian  sus componentes y sus respectivos contenidos.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img16.png)
+_**Imagen 36.** Programas - Eliminar ME_
 
-A través de la ventana de Ingreso de Materiales y Repuestos se administra el Presupuesto de Materiales y Repuestos del PM.
+En la gráfica anterior, Ventana de Ingreso de Materiales y Repuestos, se aprecian  sus componentes y sus respectivos contenidos. En esta opción se administra el Presupuesto de Materiales y Repuestos del PM.
 
-En la parte superior aparece el listado de los repuestos presupuestados. En la parte inferior,  es  posible  efectuar  modificaciones,  así  como  ingresar  nuevos  materiales  al presupuesto.
+Para ingresar a esta opción de debe dar clic en el botón <a class="btn gray">mat y rep</a>, ubicado en la parte inferior del Presupuesto.
 
-A continuación se describen los campos que componen esta ventana; cuando se  quiera actualizar o ingresar nuevos Materiales y Repuestos al presupuesto del PM,  se  deberán diligenciar los siguientes campos:
+A continuación se describen los campos que componen esta ventana; cuando se quiera actualizar o ingresar nuevos Materiales y Repuestos al  PM, se deberán diligenciar los siguientes campos:
 
 **Almacén:** Lista los Almacenes definidos en la tabla de Almacenes del módulo de Infraestructura. Se elige el Almacén que contiene los Repuestos a presupuestar. Una vez elegido el Almacén, en el campo M Y R, solo se listarán los Repuestos que pertenecen al Almacén seleccionado.
 
-**M Y R:** Lista los Materiales y Repuestos definidos en el módulo de Almacén de Repuestos. Aquí se  escoge el Repuesto a presupuestar (anticipar), haciendo clic al  `<span class="iconify btn" data-icon=filter-variant>`icono de filtro en azul, ubicado al lado derecho de este campo. Una vez elegido el repuesto, aparece automáticamente su descripción.
+**M Y R:** Lista los Materiales y Repuestos definidos en el módulo de Almacén de Repuestos. Aquí se  escoge el Repuesto a presupuestar (anticipar), haciendo clic al icono de filtro en azul <span class="mdi mdi-filter-variant icon white"></span> ubicado al lado derecho de este campo. Una vez elegido el repuesto, aparece automáticamente su descripción.
 
-**Descripción M Y R:** Este  campo  es  controlado por  el  Sistema,  y muestra automáticamente la  descripción  del repuesto seleccionado. No es modificable por el usuario.
+**Descripción M Y R:** Este campo es controlado por el Sistema,  y muestra automáticamente la  descripción  del repuesto seleccionado. No es modificable por el usuario.
 
-**Cantidad:** Es la cantidad presupuestada, requerida, del repuesto seleccionado.
+**Cantidad:** En este campo se debe ingresar la cantidad presupuestada, requerida, del repuesto seleccionado.
 
 **UM:** Es un campo de solo lectura que es controlado por el sistema, y muestra la unidad de medida de consumo del repuesto seleccionado. No es modificable por el usuario.
 
@@ -322,17 +323,40 @@ A continuación se describen los campos que componen esta ventana; cuando se  qu
 
 **Vlr. Total:** Este campo es informativo y es calculado por el sistema, contiene el valor total del presupuesto para ese Repuesto o Material. Es el producto del Vlr. Unitario por Cantidad. Se visualiza en la tabla de Materiales y Repuestos.
 
-Al hacer clic en el botón `<a class="btn">`Ir a Matriz `</a>`, se regresa a la ventana principal de Presupuesto.
+Para ingresar Materiales y Repuestos se debe dar clic en el botón <a class="btn gray">Adicionar Material y Repuesto</a> que se visualiza en el lado derecho de la Ventana Detalle.
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img20.png)
+Diligenciados los campos anteriores, se debe dar clic en el icono <span class="mdi mdi-plus-circle icon white"></span> ubicado en la parte inferior del formulario, seguidamente, se observa que la información creada se muestra en la tabla de Materiales y Repuestos, ubicada al lado izquierdo, como se muestra a continuación:
 
-Para crear registros de Otros Conceptos de Costo, se debe hacer clic en el botón `<a class="btn">`Adicionar Otro Concepto `</a>`, que se muestra en la ventana detalle de Otros Conceptos de Costo, se diligencian los campos y finalmente se da clic en el icono del `<span class="iconify btn" data-icon="mdi-plus-circle">`Más, ubicado en la última fila de los campos de Otros Conceptos. Seguidamente, se observa que la información creada se muestra en la tabla de Otros Conceptos, ubicada al lado izquierdo.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img17.png)
+_**Imagen 37.** Programas - Adicionar M y R_
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img21.png)
+En el caso de actualizar la información de Materiales y Repuestos de algún registro existente, se debe seleccionar el registro y luego dar un clic sobre el botón <a class="btn gray">Actualizar Mano de Obra Externa</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
 
-Para eliminar un registro de la tabla de Otros Conceptos, se ubica el registro a eliminar directamente en la tabla y se da clic, luego se da clic al icono de `<span class="iconify btn" data-icon=delete>`eliminar (basura), sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en
-`<a class="btn">` Aceptar `</a>`.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img18.png)
+_**Imagen 38.** Programas - Actualizar M y R_
 
+Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img19.png)
+_**Imagen 39.** Programas - Eliminar M y R_
+
+
+**Ingresar Otros Conceptos de Costo**
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img19.png)
+_**Imagen 40.** Programas - M y R_
+
+En la gráfica anterior, Ventana de Ingreso de Mano de Otros Conceptos de Costo, se aprecian sus componentes y sus respectivos contenidos, se deben diligenciar para crear un registro nuevo o actualizar un Concepto ya existente.
+
+Para crear registros de Otros Conceptos de Costo, se debe hacer clic en el botón <a class="btn gray">Adicionar otro concepto</a> , que se muestra en la ventana detalle de Otros Conceptos de Costo, se diligencian los campos y finalmente se da clic en el icono <span class="mdi mdi-plus-circle icon white"></span> ubicado en la parte inferior del formulario. Seguidamente, se observa que la información creada se muestra en la tabla de Otros Conceptos, ubicada al lado izquierdo.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img20.png)
+_**Imagen 41.** Programas - Adicionar M y R_
+
+Para eliminar un registro de la tabla de Otros Conceptos, se ubica el registro a eliminar directamente en la tabla y se da clic, luego se da clic al icono de <span class="mdi mdi-delete"></span> sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn white">Aceptar</a>.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img214.png)
+_**Imagen 41.** Programas - Eliminar M y R_
 
 ### Criterios de Programación
 
