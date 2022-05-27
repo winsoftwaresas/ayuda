@@ -1,6 +1,6 @@
 ---
 title: Introducción
-subtitle: en este capítulo se encontrará el ¿por qué? y el ¿para qué? del
+subtitle: En este capítulo se encontrará el ¿por qué? y el ¿para qué? del
   programa de mantenimiento AM, despejará dudas y ayudará a conocer su uso
   adecuado en cuanto a la sección programas de mantenimiento.
 tags:
