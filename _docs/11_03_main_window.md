@@ -371,25 +371,26 @@ _**Imagen 42.** Programas - Criterio de Programación_
 
 #### Frecuencia
 
-![ programa de mantenimiento](../../assets/images/cap08/chp08_img09.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img24.png)
+_**Imagen 43.** Programas - Criterio de Programación Frecuencia_
 
-Esta opción se selecciona cuando se trata de un PM a ser definido para un Activo que trabaja normalmente bajo una función uniforme en el tiempo. 	La frecuencia se  define a través de uno de los siguientes modos: Días, Semanas, Meses. Tales  intervalos de tiempo, definidos conjuntamente con el campo Período, se comienzan a medir a partir de la FIP en cada PM.
+Esta opción se selecciona cuando se trata de un PM a ser definido para un Activo que trabaja normalmente bajo una función uniforme en el tiempo. La frecuencia se define a través de uno de los siguientes modos: Días, Semanas, Meses. Tales  intervalos de tiempo, definidos conjuntamente con el campo Período, se comienzan a medir a partir de la FIP en cada PM.
 
 **Días:** Requiere  la definición de un número de días en el periodo (mínimo 3). La FIP define la fecha a partir de la cual se inicia la cuenta de días transcurridos para la generación de una nueva OT.
 
 **Semanas:** Requiere la definición de un número de semanas en el periodo (Máximo 52). La FIP define el inicio de la vigencia del programa, o sea la fecha a partir de la  cual el Sistema contará el  número de semanas que  se  acaba  de  programar, para  generar  la próxima OT.
 
-**Meses:** Requiere la definición del periodo en meses y de la FIP. Para cada generación, el Sistema cuenta el número de meses definidos en el „Período‟ a partir  de la FIP y compara la fecha resultante con la fecha del rango de análisis, si cae dentro del int ervalo, se genera una OT.
+**Meses:** Requiere la definición del periodo en meses y de la FIP. Para cada generación, el sistema cuenta el número de meses definidos en el Período a partir de la FIP y compara la fecha resultante con la fecha del rango de análisis, si cae dentro del intervalo, se genera una OT.
 
 **Periodicidad:** Indica el número de unidades de tiempo definidas en la Frecuencia. Estos dos son valores complementarios. De entre los dos se establece, la frecuencia con la que el PM generará una Orden de Trabajo.
 
-Si se elige Frecuencia por  días, el período debe ser  un número entre 3  y 365;  si  la Frecuencia es  Semanas, el  período debe ser  un  número entre 1 y 52;   y si  se elige Frecuencia por Meses, el período o debe ser un número entre 1 y 180.
+> **Nota:** Si se elige Frecuencia por  días, el período debe ser  un número entre 3 y 365;  si la Frecuencia es Semanas, el  período debe ser  un  número entre 1 y 52;   y si  se elige Frecuencia por Meses, el período o debe ser un número entre 1 y 180.
 
-**Fecha Inicio Periodo (FIP):** La Fecha de Inicio de Período (FIP), solo se puede ingresar  una vez al PM a través de esta ventana, y es en el momento de crear el PM. Una vez se defina la FIP y se grabe el PM, solo se pueden hacer modificaciones a la FIP a través  de  la transacción: Modificar FIP.
+**Fecha Inicio Periodo (FIP):** La Fecha de Inicio de Período (FIP), y se define también como la última que se realizó la rutina, Solo se puede ingresar  una vez al PM a través de esta ventana, y es en el momento de crear el PM. Una vez se defina la FIP y se grabe el PM, solo se pueden hacer modificaciones a la FIP a través de la transacción: **Modificar FIP**.
 
 Para mayor información sobre la FIP, revise el titulo Modificar Fecha de Inicio del Período (FIP), en la sección Transacciones.
 
-**Fecha de última generación de OT:** Esta fecha es informativa y viene a ser la FUG (fecha de la última generación), por tanto  no  se  puede  modificar,  esta  fecha  es  la  misma  para  todos  los   Criterios  de Programación.   Es una fecha real, siempre, que muestra cuando fue  que se realizó la última generación de una Orden de Trabajo desde ese PM.
+**Fecha de última generación de OT:** Esta fecha es informativa y viene a ser la FUG (fecha de la última generación), por tanto no se puede  modificar,  esta fecha es la misma para todos los Criterios  de Programación.  Es una fecha real, siempre, que muestra cuando fue  que se realizó la última generación de una Órden de Trabajo desde ese PM.
 
 #### Semanas del Año (SA)
 
