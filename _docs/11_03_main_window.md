@@ -343,7 +343,12 @@ _**Imagen 39.** Programas - Eliminar M y R_
 
 **Ingresar Otros Conceptos de Costo**
 
-Para crear registros de Otros Conceptos de Costo, se debe hacer clic en el botón `<a class="btn">`Adicionar Otro Concepto `</a>`, que se muestra en la ventana detalle de Otros Conceptos de Costo, se diligencian los campos y finalmente se da clic en el icono del `<span class="iconify btn" data-icon="mdi-plus-circle">`Más, ubicado en la última fila de los campos de Otros Conceptos. Seguidamente, se observa que la información creada se muestra en la tabla de Otros Conceptos, ubicada al lado izquierdo.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img19.png)
+_**Imagen 40.** Programas - M y R_
+
+En la gráfica anterior, Ventana de Ingreso de Mano de Otros Conceptos de Costo, se aprecian sus componentes y sus respectivos contenidos, se deben diligenciar para crear un registro nuevo o actualizar un Concepto ya existente.
+
+Para crear registros de Otros Conceptos de Costo, se debe hacer clic en el botón <a class="btn gray">Adicionar otro concepto</a> , que se muestra en la ventana detalle de Otros Conceptos de Costo, se diligencian los campos y finalmente se da clic en el icono  <span class="mdi mdi-plus-circle icon white"></span> ubicado en la parte inferior del formulario. Seguidamente, se observa que la información creada se muestra en la tabla de Otros Conceptos, ubicada al lado izquierdo.
 
 ![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img21.png)
 
