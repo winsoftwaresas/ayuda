@@ -351,28 +351,33 @@ En la gráfica anterior, Ventana de Ingreso de Mano de Otros Conceptos de Costo,
 Para crear registros de Otros Conceptos de Costo, se debe hacer clic en el botón <a class="btn gray">Adicionar otro concepto</a> , que se muestra en la ventana detalle de Otros Conceptos de Costo, se diligencian los campos y finalmente se da clic en el icono <span class="mdi mdi-plus-circle icon white"></span> ubicado en la parte inferior del formulario. Seguidamente, se observa que la información creada se muestra en la tabla de Otros Conceptos, ubicada al lado izquierdo.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img21.png)
-_**Imagen 41.** Programas - Adicionar M y R_
+_**Imagen 41.** Programas - Adicionar OC_
+
+En el caso de actualizar la información de Otro Concepto de Costo de algún registro existente, se debe seleccionar el registro y luego dar un clic sobre el botón <a class="btn gray">Actualizar Otro Concepto</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img22.png)
+_**Imagen 42.** Programas - Actualizar OC_
 
 Para eliminar un registro de la tabla de Otros Conceptos, se ubica el registro a eliminar directamente en la tabla y se da clic, luego se da clic al icono de <span class="mdi mdi-delete"></span> sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn white">Aceptar</a>.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img22.png)
-_**Imagen 41.** Programas - Eliminar M y R_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img23.png)
+_**Imagen 43.** Programas - Eliminar OC_
 
 
 
 ### Criterio de Programación
 
-Es la función que permite definir el criterio mediante el cual, automáticamente un  PM, genera una Órden de Trabajo de mantenimiento Preventivo, Predictivo, Lubricación, Inspección, Metrología, Otro-Mantto u Otro. Ello se realiza sobre la pestaña que se muestra a continuación.
+Es la función que permite definir el criterio mediante el cual, automáticamente un PM, genera una Órden de Trabajo de mantenimiento Preventivo, Predictivo, Lubricación, Inspección, Metrología, Otro-Mantto u Otro. Ello se realiza sobre la pestaña que se muestra a continuación.
 
 **Son tres grupos:** por Frecuencia, por Semanas del Año y por  Contador, que pueden trabajar en forma  excluyente, aunque  se posibilita alguna combinación entre ellos, para criterios complejos. Entonces por ejemplo, el primero y tercero, pueden ser definidos simultáneamente, para lograr el efecto de generar una OT cuando cualquiera de los dos se cumpla.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img23.png)
-_**Imagen 42.** Programas - Criterio de Programación_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img24.png)
+_**Imagen 44.** Programas - Criterio de Programación_
 
 #### Frecuencia
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img24.png)
-_**Imagen 43.** Programas - Criterio de Programación Frecuencia_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img25.png)
+_**Imagen 45.** Programas - Criterio de Programación Frecuencia_
 
 Esta opción se selecciona cuando se trata de un PM a ser definido para un Activo que trabaja normalmente bajo una función uniforme en el tiempo. La frecuencia se define a través de uno de los siguientes modos: Días, Semanas, Meses. Tales  intervalos de tiempo, definidos conjuntamente con el campo Período, se comienzan a medir a partir de la FIP en cada PM.
 
