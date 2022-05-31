@@ -364,7 +364,6 @@ Para eliminar un registro de la tabla de Otros Conceptos, se ubica el registro a
 _**Imagen 43.** Programas - Eliminar OC_
 
 
-
 ### Criterio de Programación
 
 Es la función que permite definir el criterio mediante el cual, automáticamente un PM, genera una Órden de Trabajo de mantenimiento Preventivo, Predictivo, Lubricación, Inspección, Metrología, Otro-Mantto u Otro. Ello se realiza sobre la pestaña que se muestra a continuación.
@@ -399,7 +398,8 @@ Para mayor información sobre la FIP, revise el titulo Modificar Fecha de Inicio
 
 #### Semanas del Año (SA)
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img10.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img26.png)
+_**Imagen 46.** Programas - Semanas del Año_
 
 Es el segundo criterio disponible. Al dar un clic de selección en la casilla  Frecuencia, aparece la ventana de Semanas del Año, (figura anterior). En ella es posible escoger las semanas en las cuales se debe generar una OT para el PM en cuestión. Un PM puede tener seleccionadas una, algunas o todas las 52 semanas, en cuyo caso se comportaría como un PM que genera Ordenes de Trabajo semanalmente.
 
@@ -415,11 +415,12 @@ El Criterio SA es excluyente con los demás Criterios de Programación, es decir
 
 #### Por Contador
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img11.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img27.png)
+_**Imagen 47.** Programas - Semanas del Año_
 
 Esta opción aparece protegida (su casilla aparece sombreada en gris) si el AC no posee un Contador definido.
 
-**Contador:** Este campo aplica cuando el Criterio de Programación es por Contador. Al generar un PM que lo requiera, es en este campo donde se establece el valor  real o aproximado  del  contador,  la  última  vez  que  se  realizó  la  labor  que  ahora  se  está programando como rutina. En adelante, el **AM****  ubica automáticamente en este campo el valor actual del contador del Activo, en el  momento de generar la Orden de Trabajo. Más adelante se amplía esta explicación, al tratar el criterio de programación por Contador.
+**Contador:** Este campo aplica cuando el Criterio de Programación es por Contador. Al generar un PM que lo requiera, es en este campo donde se establece el valor  real o aproximado  del  contador,  la  última  vez  que  se  realizó  la  labor  que  ahora  se  está programando como rutina. En adelante, el **AM**  ubica automáticamente en este campo el valor actual del contador del Activo, en el  momento de generar la Orden de Trabajo. Más adelante se amplía esta explicación, al tratar el criterio de programación por Contador.
 
 Este Criterio tiene en cuenta la FIP, o sea que si el intervalo a Analizar/Generar  se encuentra antes de la FIP, el PM no genera OTs, así se haya cumplido el Incremento o el Límite por parte del Contador del AC.
 
