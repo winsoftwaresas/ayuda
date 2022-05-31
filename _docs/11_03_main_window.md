@@ -401,24 +401,24 @@ Esta opción se selecciona cuando se trata de un PM a ser definido para un Activ
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img26.png)
 _**Imagen 46.** Programas - Semanas del Año_
 
-Es el segundo criterio disponible. Al dar un clic de selección en la casilla  Frecuencia, aparece la ventana de Semanas del Año, (figura anterior). En ella es posible escoger las semanas en las cuales se debe generar una OT para el PM en cuestión. Un PM puede tener seleccionadas una, algunas o todas las 52 semanas, en cuyo caso se comportaría como un PM que genera Ordenes de Trabajo semanalmente.
+Es el segundo criterio disponible. Al dar un clic en la opción Criterio por Semanas del Año, aparece la ventana de Semanas del Año, (figura anterior). En ella es posible escoger las semanas en las cuales se debe generar una OT para el PM en cuestión. Un PM puede tener seleccionadas una, algunas o todas las 52 semanas, en cuyo caso se comportaría como un PM que genera Órdenes de Trabajo por semanas del año-
 
-Este  Criterio de  Programación hace caso  omiso de  la  FIP  y se  usa  para  hacer  una programación anual con base en el conocimiento o experiencia del área de mantenimiento sobre ese AC u Objeto.  En otras palabras la programación depende de los eventos que lo involucran o de requerimientos especiales de temporada, que no tienen que ver ni con una frecuencia ni con la cantidad de trabajo realizado por el Activo.
+Este Criterio de Programación hace caso  omiso de la FIP  y se  usa  para hacer una programación anual con base en el conocimiento o experiencia del área de mantenimiento sobre ese Activo. En otras palabras, este criterio de programación depende de los eventos que lo involucran o de requerimientos especiales de temporada, que no tienen que ver ni con una frecuencia ni con la cantidad de trabajo realizado por el Activo.
 
 **Al generar Órdenes de Trabajo se debe tener en cuenta:**
 
-Si un PM definió que se debe generar una Orden de Trabajo la semana X del año,  y el intervalo a Analizar/Generar contiene al menos un día de la semana X, entonces el **AM**** genera la OT.
+Si un PM definió que se debe generar una Órden de Trabajo la semana X del año,  y el intervalo a Analizar/Generar contiene al menos un día de la semana X, entonces **AM** genera la OT.
 
-El Criterio SA es excluyente con los demás Criterios de Programación, es decir no puede coexistir con ninguno otro dentro del mismo PM.
+El Criterio SA es excluyente con los demás Criterios de Programación, es decir no puede coexistir con ninguno otro dentro del mismo PM, se debe tener en cuenta, que es este criterio debe estar configurado en **Valores por Defecto** en la sección **Programas** en la opción **Inicio de la Semana #2 del año**.
 
-**Fecha de última generación de OT:** Esta fecha es informativa y viene a ser la FUG (fecha de la última generación), por tanto  no  se  puede  modificar,  esta  fecha  es  la  misma  para  todos  los   Criterios  de Programación.   Es una fecha real, siempre, que muestra cuando fue  que se realizó la última generación de una Orden
+**Fecha de última generación de OT:** Esta fecha es informativa y viene a ser la FUG (fecha de la última generación), por tanto  no  se  puede  modificar,  esta fecha es  la  misma  para  todos  los  Criterios  de Programación.   Es una fecha real, siempre, que muestra cuando fue  que se realizó la última generación de una OT.
 
 #### Por Contador
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img27.png)
 _**Imagen 47.** Programas - Semanas del Año_
 
-Esta opción aparece protegida (su casilla aparece sombreada en gris) si el AC no posee un Contador definido.
+Esta opción aparece protegida (su casilla aparece sombreada en gris) si el Activo no posee un Contador definido.
 
 **Contador:** Este campo aplica cuando el Criterio de Programación es por Contador. Al generar un PM que lo requiera, es en este campo donde se establece el valor  real o aproximado  del  contador,  la  última  vez  que  se  realizó  la  labor  que  ahora  se  está programando como rutina. En adelante, el **AM**  ubica automáticamente en este campo el valor actual del contador del Activo, en el  momento de generar la Orden de Trabajo. Más adelante se amplía esta explicación, al tratar el criterio de programación por Contador.
 
