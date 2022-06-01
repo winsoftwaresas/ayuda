@@ -403,7 +403,7 @@ _**Imagen 46.** Programas - Semanas del Año_
 
 Es el segundo criterio disponible. Al dar un clic en la opción Criterio por Semanas del Año, aparece la ventana de Semanas del Año, (figura anterior). En ella es posible escoger las semanas en las cuales se debe generar una OT para el PM en cuestión. Un PM puede tener seleccionadas una, algunas o todas las 52 semanas, en cuyo caso se comportaría como un PM que genera Órdenes de Trabajo por semanas del año-
 
-Este Criterio de Programación hace caso  omiso de la FIP  y se  usa  para hacer una programación anual con base en el conocimiento o experiencia del área de mantenimiento sobre ese Activo. En otras palabras, este criterio de programación depende de los eventos que lo involucran o de requerimientos especiales de temporada, que no tienen que ver ni con una frecuencia ni con la cantidad de trabajo realizado por el Activo.
+Este Criterio de Programación hace caso omiso de la FIP  y se  usa  para hacer una programación anual con base en el conocimiento o experiencia del área de mantenimiento sobre ese Activo. En otras palabras, este criterio de programación depende de los eventos que lo involucran o de requerimientos especiales de temporada, que no tienen que ver ni con una frecuencia ni con la cantidad de trabajo realizado por el Activo.
 
 **Al generar Órdenes de Trabajo se debe tener en cuenta:**
 
@@ -418,13 +418,14 @@ El Criterio SA es excluyente con los demás Criterios de Programación, es decir
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img27.png)
 _**Imagen 47.** Programas - Semanas del Año_
 
-**Tipo:** Indica si el contador es incremental o por límite, este campo funciona modo switche <span class="mdi mdi-toggle-switch"></span>.
+**Contador:** Este campo aplica cuando el Criterio de Programación es por Contador. Al generar un PM que lo requiera, es en este campo donde se establece el valor real o aproximado del contador de la última vez que se realizó la labor que ahora se está programando como rutina. En adelante, el **AM**, en el momento de generar la Órden de Trabajo. 
 
-**Adicionar Contador:** Este campo aplica cuando el Criterio de Programación es por Contador. Al generar un PM que lo requiera, es en este campo donde se establece el valor real o aproximado del contador de la última vez  que se realizó la labor que ahora se está programando como rutina. En adelante, el **AM** identifica en este campo el valor actual del contador del Activo, en el momento de generar la Órden de Trabajo. 
+
+**Tipo:** Indica si el contador es incremental o por límite.
 
 Este Criterio puede trabaja conjuntamente con el Criterio de Frecuencia, tiene en cuenta la FIP, o sea que si el intervalo a Analizar/Generar se encuentra antes de la FIP, el PM no genera OT, así se cumpla el Incremento o el Límite por parte del Contador del Activo. Por lo que este criterio genera una OT si se cumple cualquiera de las dos condiciones.
 
-**Por Incremento**: Esta opción requiere la definición de una ** “Recurrencia”**. Para que el  PM genere una Orden de Trabajo, el Contador del AC debe haber incrementado  su valor, sobre el  contador de  la  Última generación, en  el  PM,  en  una cantidad  superior a  la Recurrencia. Ej. El cambio  de  aceite y filtro cada 5.000 km. en un automóvil, exige la definición de una recurrencia con valor 5.000.
+**Por Incremento**: Esta opción requiere la definición de una **“Recurrencia”**. Para que el  PM genere una Órden de Trabajo, el Contador del Activo debe haber incrementado  su valor, sobre el  contador de  la  Última generación, en  el  PM,  en  una cantidad  superior a  la Recurrencia. Ejemplo: El cambio  de  aceite y filtro cada 5.000 km. en un automóvil, exige la definición de una recurrencia con valor 5.000.
 
 Cuando se  define un  PM  en  función de  un  contador de  un  Activo, debe  existir  un mecanismo predefinido: manual o automático, para actualizar y mantener al día el contador de  ese  Activo  en  el  **AM**.  Se  trata  de  garantizar  que  tales  contadores  reflejen permanentemente la cantidad de trabajo  realizado por el Activo.  De hecho un PM con criterio  Contador,  solo  generará  Ordenes  de  Trabajo,  mientras  haya  variación  en  el contador del Activo.
 
