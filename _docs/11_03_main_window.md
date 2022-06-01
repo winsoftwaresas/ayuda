@@ -1,11 +1,12 @@
 ---
 title: Ventana Principal de Programas de Mantenimiento
-subtitle: Aqui se encuentran ejemplos visuales y significado del módulo de Programas y sus vistas parciales
+subtitle: aqui encontrara  el ejemplo visual d cada ventada emergente de la
+  seccion de mantenimiento con su respectivo proceso de uso.
 tags:
   - setup
 author: win
 order: 11_03
-date: 2022-05-04T15:27:44.518Z
+date: 2022-05-27T15:27:44.518Z
 ---
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img01.png)
 _**Imagen 1.** Programas de Mantenimiento_
@@ -242,8 +243,7 @@ Se describe a continuación los campos que componen del Detalle de MO:
 
 Para ingresar MO se debe dar clic en el botón <a class="btn gray">Adicionar mano obra interna</a> que se muestra en la ventana detalle de Mano de Obra Interna.
  
-Diligenciados los campos anteriores, se debe dar clic en el icono <span class="mdi mdi-plus-circle icon white"></span>
- ubicado en la parte inferior del formulario, seguidamente, se observa que la información creada se muestra en la tabla de mano de Obra Interna, ubicada al lado izquierdo. 
+Diligenciados los campos anteriores, se debe dar clic en el icono <span class="mdi mdi-plus-circle icon white"></span> ubicado en la parte inferior del formulario, seguidamente, se observa que la información creada se muestra en la tabla de mano de Obra Interna, ubicada al lado izquierdo. 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img09.png)
 _**Imagen 29.** Programas de Mantenimiento - Adicionar MO_
@@ -281,8 +281,7 @@ A continuación se describen los campos que componen esta ventana:
 
 Para ingresar ME se debe dar clic en el botón <a class="btn gray">Adicionar mano obra externa</a> que se muestra en la ventana detalle de Mano de Obra Externa.
  
-Diligenciados los campos anteriores, se debe dar clic en el icono <span class="mdi mdi-plus-circle icon white"></span>
- ubicado en la parte inferior del formulario, seguidamente, se observa que la información creada se muestra en la tabla de mano de Obra Externa, ubicada al lado izquierdo. 
+Diligenciados los campos anteriores, se debe dar clic en el icono <span class="mdi mdi-plus-circle icon white"></span> ubicado en la parte inferior del formulario, seguidamente, se observa que la información creada se muestra en la tabla de mano de Obra Externa, ubicada al lado izquierdo. 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img13.png)
 _**Imagen 33.** Programas de Mantenimiento - Ingresar ME_
@@ -326,8 +325,7 @@ A continuación se describen los campos que componen esta ventana; cuando se qui
 
 Para ingresar Materiales y Repuestos se debe dar clic en el botón <a class="btn gray">Adicionar Material y Repuesto</a> que se visualiza en el lado derecho de la Ventana Detalle.
 
-Diligenciados los campos anteriores, se debe dar clic en el icono <span class="mdi mdi-plus-circle icon white"></span>
- ubicado en la parte inferior del formulario, seguidamente, se observa que la información creada se muestra en la tabla de Materiales y Repuestos, ubicada al lado izquierdo, como se muestra a continuación:
+Diligenciados los campos anteriores, se debe dar clic en el icono <span class="mdi mdi-plus-circle icon white"></span> ubicado en la parte inferior del formulario, seguidamente, se observa que la información creada se muestra en la tabla de Materiales y Repuestos, ubicada al lado izquierdo, como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img17.png)
 _**Imagen 37.** Programas - Adicionar M y R_
@@ -350,78 +348,81 @@ _**Imagen 40.** Programas - OC_
 
 En la gráfica anterior, Ventana de Ingreso de Mano de Otros Conceptos de Costo, se aprecian sus componentes y sus respectivos contenidos, se deben diligenciar para crear un registro nuevo o actualizar un Concepto ya existente.
 
-Para crear registros de Otros Conceptos de Costo, se debe hacer clic en el botón <a class="btn gray">Adicionar otro concepto</a> , que se muestra en la ventana detalle de Otros Conceptos de Costo, se diligencian los campos y finalmente se da clic en el icono <span class="mdi mdi-plus-circle icon white"></span>
- ubicado en la parte inferior del formulario. Seguidamente, se observa que la información creada se muestra en la tabla de Otros Conceptos, ubicada al lado izquierdo.
+Para crear registros de Otros Conceptos de Costo, se debe hacer clic en el botón <a class="btn gray">Adicionar otro concepto</a> , que se muestra en la ventana detalle de Otros Conceptos de Costo, se diligencian los campos y finalmente se da clic en el icono <span class="mdi mdi-plus-circle icon white"></span> ubicado en la parte inferior del formulario. Seguidamente, se observa que la información creada se muestra en la tabla de Otros Conceptos, ubicada al lado izquierdo.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img21.png)
-_**Imagen 41.** Programas - Adicionar M y R_
+_**Imagen 41.** Programas - Adicionar OC_
+
+En el caso de actualizar la información de Otro Concepto de Costo de algún registro existente, se debe seleccionar el registro y luego dar un clic sobre el botón <a class="btn gray">Actualizar Otro Concepto</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img22.png)
+_**Imagen 42.** Programas - Actualizar OC_
 
 Para eliminar un registro de la tabla de Otros Conceptos, se ubica el registro a eliminar directamente en la tabla y se da clic, luego se da clic al icono de <span class="mdi mdi-delete"></span> sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn white">Aceptar</a>.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img22.png)
-_**Imagen 41.** Programas - Eliminar M y R_
-
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img23.png)
+_**Imagen 43.** Programas - Eliminar OC_
 
 
 ### Criterio de Programación
 
-Es la función que permite definir el criterio mediante el cual, automáticamente un  PM, genera una Órden de Trabajo de mantenimiento Preventivo, Predictivo, Lubricación, Inspección, Metrología, Otro-Mantto u Otro. Ello se realiza sobre la pestaña que se muestra a continuación.
+Es la función que permite definir el criterio mediante el cual, automáticamente un PM, genera una Órden de Trabajo de mantenimiento Preventivo, Predictivo, Lubricación, Inspección, Metrología, Otro-Mantto u Otro. Ello se realiza sobre la pestaña que se muestra a continuación.
 
 **Son tres grupos:** por Frecuencia, por Semanas del Año y por  Contador, que pueden trabajar en forma  excluyente, aunque  se posibilita alguna combinación entre ellos, para criterios complejos. Entonces por ejemplo, el primero y tercero, pueden ser definidos simultáneamente, para lograr el efecto de generar una OT cuando cualquiera de los dos se cumpla.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img23.png)
-_**Imagen 42.** Programas - Criterio de Programación_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img24.png)
+_**Imagen 44.** Programas - Criterio de Programación_
 
 #### Frecuencia
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img24.png)
-_**Imagen 43.** Programas - Criterio de Programación Frecuencia_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img25.png)
+_**Imagen 45.** Programas - Criterio de Programación Frecuencia_
 
-Esta opción se selecciona cuando se trata de un PM a ser definido para un Activo que trabaja normalmente bajo una función uniforme en el tiempo. La frecuencia se define a través de uno de los siguientes modos: Días, Semanas, Meses. Tales  intervalos de tiempo, definidos conjuntamente con el campo Período, se comienzan a medir a partir de la FIP en cada PM.
+Esta opción se selecciona cuando se trata de un PM a ser definido para un Activo que trabaja normalmente bajo una función uniforme en el tiempo. La frecuencia se define a través de uno de los siguientes modos: Días, Semanas, Meses. Tales intervalos de tiempo, definidos conjuntamente con el campo Periodicidad, se comienzan a medir a partir de la FIP en cada PM.
 
-**Días:** Requiere  la definición de un número de días en el periodo (mínimo 3). La FIP define la fecha a partir de la cual se inicia la cuenta de días transcurridos para la generación de una nueva OT.
+**Días:** Requiere la definición de un número de días en el periodo (mínimo 3). La FIP define la fecha a partir de la cual se inicia la cuenta de días transcurridos para la generación de una nueva OT.
 
-**Semanas:** Requiere la definición de un número de semanas en el periodo (Máximo 52). La FIP define el inicio de la vigencia del programa, o sea la fecha a partir de la  cual el Sistema contará el  número de semanas que  se  acaba  de  programar, para  generar  la próxima OT.
+**Semanas:** Requiere la definición de un número de semanas en el periodo (Máximo 52). La FIP define el inicio de la vigencia del programa, es decir, la fecha a partir de la cual el Sistema contará el  número de semanas que se acaba de programar, para  generar la próxima OT.
 
-**Meses:** Requiere la definición del periodo en meses y de la FIP. Para cada generación, el sistema cuenta el número de meses definidos en el Período a partir de la FIP y compara la fecha resultante con la fecha del rango de análisis, si cae dentro del intervalo, se genera una OT.
+**Meses:** Requiere la definición del periodo en meses y de la FIP. Para cada generación, el sistema cuenta el número de meses definidos en el Período a partir de la FIP y compara la fecha resultante con la fecha del rango de análisis, si este se encuentra dentro del intervalo, se genera una OT.
 
-**Periodicidad:** Indica el número de unidades de tiempo definidas en la Frecuencia. Estos dos son valores complementarios. De entre los dos se establece, la frecuencia con la que el PM generará una Orden de Trabajo.
+**Periodicidad:** Indica el número de unidades de tiempo definidas en la Frecuencia. Este campo indica la frecuencia en la se genera una OT.
 
-> **Nota:** Si se elige Frecuencia por  días, el período debe ser  un número entre 3 y 365;  si la Frecuencia es Semanas, el  período debe ser  un  número entre 1 y 52;   y si  se elige Frecuencia por Meses, el período o debe ser un número entre 1 y 180.
+> **Nota:** Si se elige Frecuencia por  días, el período debe ser  un número entre 3 y 365;  si la Frecuencia es Semanas, el  período debe ser  un  número entre 1 y 52;  y si  se elige Frecuencia por Meses, el período o debe ser un número entre 1 y 180.
 
-**Fecha Inicio Periodo (FIP):** La Fecha de Inicio de Período (FIP), y se define también como la última que se realizó la rutina, Solo se puede ingresar  una vez al PM a través de esta ventana, y es en el momento de crear el PM. Una vez se defina la FIP y se grabe el PM, solo se pueden hacer modificaciones a la FIP a través de la transacción: **Modificar FIP**.
+**Fecha Inicio Periodo (FIP):** La Fecha de Inicio de Período (FIP) se define también como la última que se realizó la rutina. Solo se puede ingresar una vez al PM a través de esta pestaña, y es en el momento de crear el PM. Una vez se defina la FIP y se grabe el PM, solo se pueden hacer modificaciones a la FIP a través de la transacción: **Modificar FIP**.
 
-Para mayor información sobre la FIP, revise el titulo Modificar Fecha de Inicio del Período (FIP), en la sección Transacciones.
+>**Nota:** Para mayor información sobre la FIP, revise la opción Modificar Fecha de Inicio del Período (FIP), en la sección **Transacciones**.
 
-**Fecha de última generación de OT:** Esta fecha es informativa y viene a ser la FUG (fecha de la última generación), por tanto no se puede  modificar,  esta fecha es la misma para todos los Criterios  de Programación.  Es una fecha real, siempre, que muestra cuando fue  que se realizó la última generación de una Órden de Trabajo desde ese PM.
+**Fecha de última generación de OT:** Esta fecha es informativa y viene a ser la FUG (fecha de la última generación), por tanto no se puede  modificar,  esta fecha es la misma para todos los Criterios  de Programación. Es una fecha real que muestra cuando fue que se realizó la última generación de Órdenes de Trabajo de ese PM.
 
 #### Semanas del Año (SA)
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img10.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img26.png)
+_**Imagen 46.** Programas - Semanas del Año_
 
-Es el segundo criterio disponible. Al dar un clic de selección en la casilla  Frecuencia, aparece la ventana de Semanas del Año, (figura anterior). En ella es posible escoger las semanas en las cuales se debe generar una OT para el PM en cuestión. Un PM puede tener seleccionadas una, algunas o todas las 52 semanas, en cuyo caso se comportaría como un PM que genera Ordenes de Trabajo semanalmente.
+Es el segundo criterio disponible. Al dar un clic en la opción Criterio por Semanas del Año, aparece la ventana de Semanas del Año, (figura anterior). En ella es posible escoger las semanas en las cuales se debe generar una OT para el PM en cuestión. Un PM puede tener seleccionadas una, algunas o todas las 52 semanas, en cuyo caso se comportaría como un PM que genera Órdenes de Trabajo por semanas del año-
 
-Este  Criterio de  Programación hace caso  omiso de  la  FIP  y se  usa  para  hacer  una programación anual con base en el conocimiento o experiencia del área de mantenimiento sobre ese AC u Objeto.  En otras palabras la programación depende de los eventos que lo involucran o de requerimientos especiales de temporada, que no tienen que ver ni con una frecuencia ni con la cantidad de trabajo realizado por el Activo.
+Este Criterio de Programación hace caso  omiso de la FIP  y se  usa  para hacer una programación anual con base en el conocimiento o experiencia del área de mantenimiento sobre ese Activo. En otras palabras, este criterio de programación depende de los eventos que lo involucran o de requerimientos especiales de temporada, que no tienen que ver ni con una frecuencia ni con la cantidad de trabajo realizado por el Activo.
 
 **Al generar Órdenes de Trabajo se debe tener en cuenta:**
 
-Si un PM definió que se debe generar una Orden de Trabajo la semana X del año,  y el intervalo a Analizar/Generar contiene al menos un día de la semana X, entonces el **AM**** genera la OT.
+Si un PM definió que se debe generar una Órden de Trabajo la semana X del año,  y el intervalo a Analizar/Generar contiene al menos un día de la semana X, entonces **AM** genera la OT.
 
-El Criterio SA es excluyente con los demás Criterios de Programación, es decir no puede coexistir con ninguno otro dentro del mismo PM.
+El Criterio SA es excluyente con los demás Criterios de Programación, es decir no puede coexistir con ninguno otro dentro del mismo PM, se debe tener en cuenta, que es este criterio debe estar configurado en **Valores por Defecto** en la sección **Programas** en la opción **Inicio de la Semana #2 del año**.
 
-**Fecha de última generación de OT:** Esta fecha es informativa y viene a ser la FUG (fecha de la última generación), por tanto  no  se  puede  modificar,  esta  fecha  es  la  misma  para  todos  los   Criterios  de Programación.   Es una fecha real, siempre, que muestra cuando fue  que se realizó la última generación de una Orden
+**Fecha de última generación de OT:** Esta fecha es informativa y viene a ser la FUG (fecha de la última generación), por tanto  no  se  puede  modificar,  esta fecha es  la  misma  para  todos  los  Criterios  de Programación.   Es una fecha real, siempre, que muestra cuando fue  que se realizó la última generación de una OT.
 
 #### Por Contador
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img11.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img27.png)
+_**Imagen 47.** Programas - Semanas del Año_
 
-Esta opción aparece protegida (su casilla aparece sombreada en gris) si el AC no posee un Contador definido.
+**Tipo:** Indica si el contador es incremental o por límite, este campo funciona modo switche <span class="mdi mdi-toggle-switch"></span>.
 
-**Contador:** Este campo aplica cuando el Criterio de Programación es por Contador. Al generar un PM que lo requiera, es en este campo donde se establece el valor  real o aproximado  del  contador,  la  última  vez  que  se  realizó  la  labor  que  ahora  se  está programando como rutina. En adelante, el **AM****  ubica automáticamente en este campo el valor actual del contador del Activo, en el  momento de generar la Orden de Trabajo. Más adelante se amplía esta explicación, al tratar el criterio de programación por Contador.
+**Adicionar Contador:** Este campo aplica cuando el Criterio de Programación es por Contador. Al generar un PM que lo requiera, es en este campo donde se establece el valor real o aproximado del contador de la última vez  que se realizó la labor que ahora se está programando como rutina. En adelante, el **AM** identifica en este campo el valor actual del contador del Activo, en el momento de generar la Órden de Trabajo. 
 
-Este Criterio tiene en cuenta la FIP, o sea que si el intervalo a Analizar/Generar  se encuentra antes de la FIP, el PM no genera OTs, así se haya cumplido el Incremento o el Límite por parte del Contador del AC.
-
-**Tipo:** Indica si el contador es incremental o por límite.
+Este Criterio puede trabaja conjuntamente con el Criterio de Frecuencia, tiene en cuenta la FIP, o sea que si el intervalo a Analizar/Generar se encuentra antes de la FIP, el PM no genera OT, así se cumpla el Incremento o el Límite por parte del Contador del Activo. Por lo que este criterio genera una OT si se cumple cualquiera de las dos condiciones.
 
 **Por Incremento**: Esta opción requiere la definición de una ** “Recurrencia”**. Para que el  PM genere una Orden de Trabajo, el Contador del AC debe haber incrementado  su valor, sobre el  contador de  la  Última generación, en  el  PM,  en  una cantidad  superior a  la Recurrencia. Ej. El cambio  de  aceite y filtro cada 5.000 km. en un automóvil, exige la definición de una recurrencia con valor 5.000.
 
