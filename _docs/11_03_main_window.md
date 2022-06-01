@@ -422,7 +422,6 @@ _**Imagen 47.** Programas - Semanas del Año_
 
 **Adicionar Contador:** Este campo aplica cuando el Criterio de Programación es por Contador. Al generar un PM que lo requiera, es en este campo donde se establece el valor real o aproximado del contador de la última vez  que se realizó la labor que ahora se está programando como rutina. En adelante, el **AM** identifica en este campo el valor actual del contador del Activo, en el momento de generar la Órden de Trabajo. 
 
-
 Este Criterio puede trabaja conjuntamente con el Criterio de Frecuencia, tiene en cuenta la FIP, o sea que si el intervalo a Analizar/Generar se encuentra antes de la FIP, el PM no genera OT, así se cumpla el Incremento o el Límite por parte del Contador del Activo. Por lo que este criterio genera una OT si se cumple cualquiera de las dos condiciones.
 
 **Por Incremento**: Esta opción requiere la definición de una ** “Recurrencia”**. Para que el  PM genere una Orden de Trabajo, el Contador del AC debe haber incrementado  su valor, sobre el  contador de  la  Última generación, en  el  PM,  en  una cantidad  superior a  la Recurrencia. Ej. El cambio  de  aceite y filtro cada 5.000 km. en un automóvil, exige la definición de una recurrencia con valor 5.000.
