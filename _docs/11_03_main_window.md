@@ -418,20 +418,20 @@ El Criterio SA es excluyente con los demás Criterios de Programación, es decir
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img27.png)
 _**Imagen 47.** Programas - Semanas del Año_
 
-**Contador:** Este campo aplica cuando el Criterio de Programación es por Contador. Al generar un PM que lo requiera, es en este campo donde se establece el valor real o aproximado del contador de la última vez que se realizó la labor que ahora se está programando como rutina. En adelante, el **AM**, en el momento de generar la Órden de Trabajo. 
-
-
-**Tipo:** Indica si el contador es incremental o por límite.
+**Contador:** Este campo aplica cuando el Criterio de Programación es por Contador. Al generar un PM que lo requiera, es en este campo donde se establece el valor real o aproximado del contador de la última vez que se realizó la labor que ahora se está programando como rutina. En adelante, el **AM**, en el momento de generar la Órden de Trabajo. Si el Activo tiene definido un contador, se debe dar clic en el botón <a class="btn gray">Adicionar contador</a> luego, desplegar el campo para elegir el contador.
 
 Este Criterio puede trabaja conjuntamente con el Criterio de Frecuencia, tiene en cuenta la FIP, o sea que si el intervalo a Analizar/Generar se encuentra antes de la FIP, el PM no genera OT, así se cumpla el Incremento o el Límite por parte del Contador del Activo. Por lo que este criterio genera una OT si se cumple cualquiera de las dos condiciones.
 
-**Por Incremento**: Esta opción requiere la definición de una **“Recurrencia”**. Para que el  PM genere una Órden de Trabajo, el Contador del Activo debe haber incrementado  su valor, sobre el  contador de  la  Última generación, en  el  PM,  en  una cantidad  superior a  la Recurrencia. Ejemplo: El cambio  de  aceite y filtro cada 5.000 km. en un automóvil, exige la definición de una recurrencia con valor 5.000.
 
-Cuando se  define un  PM  en  función de  un  contador de  un  Activo, debe  existir  un mecanismo predefinido: manual o automático, para actualizar y mantener al día el contador de  ese  Activo  en  el  **AM**.  Se  trata  de  garantizar  que  tales  contadores  reflejen permanentemente la cantidad de trabajo  realizado por el Activo.  De hecho un PM con criterio  Contador,  solo  generará  Ordenes  de  Trabajo,  mientras  haya  variación  en  el contador del Activo.
+**Tipo:** Indica si el contador es por Límite o por Incremento.
 
-En los casos en que la actualización de los contadores de los AC no pueda ser frecuente, el **AM**** suministra un mecanismo automático que lo simula, mientras se puede realizar una nueva lectura y actualización real a ese contador. Se trata del  campo Estándar de Planeación que se encuentra en la parte inferior de la ventana detalle de Activos. Allí se define una cantidad de trabajo estándar que realiza ese Activo por unidad de tiempo. Este valor es definido con base en una estadística real del trabajo de ese Activo en un período considerable, ojalá no inferior a los 6 meses.
+- **Por Incremento**: Esta opción requiere la definición de una **“Recurrencia”**. Para que el  PM genere una Órden de Trabajo, el Contador del Activo debe haber incrementado  su valor, sobre el  contador de  la  Última generación, en  el  PM,  en  una cantidad  superior a  la Recurrencia. Ejemplo: El cambio  de  aceite y filtro cada 5.000 km. en un automóvil, exige la definición de una recurrencia con valor 5.000.
 
-**Por Límite:** Indica que el Contador del AC debe alcanzar una cantidad tope, definida en la Recurrencia, para que el PM genere la OT. Por este criterio solo se genera una única vez la Órden de Trabajo, cuando se alcance el Límite definido. Una vez generada la OT desde el PM, éste se desactiva y ya no vuelve a generar otras OT.
+Cuando se  define un  PM  en  función de  un  contador de  un  Activo, debe  existir  un mecanismo predefinido: manual o automático, para actualizar y mantener al día el contador de  ese  Activo  en  el  **AM**.  Se  trata  de  garantizar  que  tales  contadores  reflejen permanentemente la cantidad de trabajo  realizado por el Activo.  De hecho un PM con criterio  Contador,  solo  generará  Órdenes  de  Trabajo,  mientras  haya  variación  en  el contador del Activo.
+
+En los casos en que la actualización de los contadores de los AC no pueda ser frecuente, el **AM** suministra un mecanismo automático que lo simula, mientras se puede realizar una nueva lectura y actualización real a ese contador. Se trata del  campo Estándar de Planeación que se encuentra en la parte inferior de la ventana detalle de Activos. Allí se define una cantidad de trabajo estándar que realiza ese Activo por unidad de tiempo. Este valor es definido con base en una estadística real del trabajo de ese Activo en un período considerable, ojalá no inferior a los 6 meses.
+
+- **Por Límite:** Indica que el Contador del AC debe alcanzar una cantidad tope, definida en la Recurrencia, para que el PM genere la OT. Por este criterio solo se genera una única vez la Órden de Trabajo, cuando se alcance el Límite definido. Una vez generada la OT desde el PM, éste se desactiva y ya no vuelve a generar otras OT.
 
 **Recurrencia:** En este campo se define una cifra o cantidad que denota el incremento que debe sufrir el contador del Activo, para generar una Orden de Trabajo por contador, con criterio Incremento. Pero también en este campo se define un valor límite al que debe llegar el contador del Activo para generar una Orden de Trabajo por contador, cuando el criterio es Límite.
 
