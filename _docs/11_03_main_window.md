@@ -618,19 +618,23 @@ _**Imagen 59.** Programas - Proyección_
 
 En el resultado de la proyección, se evidencia:
 
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img41.png)
+_**Imagen 60.** Programas - Resultados Proyección_
+
 **Total de Programas seleccionados:** Muestra la relación entre la cantidad de Programas totales o los que están seleccionados en el visor en el módulo sobre la cantidad de Programas totales definidos en el módulo.
 
 **Total de Programas inactivos o con equipo inactivo:** Muestra la cantidad de Programas que no tienen un criterio de programación definido o que el Activo/Equipo tiene asignado un estado inactivo, desde el módulo de Activos.
 
 **Total de Programas analizados:** Muestra la diferencia de Programas entre  “Total de Programas seleccionados” y  “Total de Programas inactivos o con equipo inactivo”.
 
-**Total de Programas que proyectaron labores:** Muestra la cantidad de Programas analizados que proyectaron órdenes de trabajo en el rango de fecha especificado.
+**Total de Programas que proyectaron labores:** Muestra la cantidad de Programas analizados que proyectaron OT en el rango de fecha especificado.
 
 **Total de labores presupuestadas para el período:** Muestra la cantidad de órdenes de trabajo proyectadas para el rango de fechas especificado.
 
-Clic en Ver Diagrama  A continuación, se  procede  a visualizar a través de un Diagrama de Gantt, en el cual se muestra al lado izquierdo la información del Activo con su respectivo PM, mientras que al lado derecho se muestra por colores el cronograma con las fechas proyectadas de las actividades. Para esto, se procede a dar clic al botón `<a class="btn">`Ver Diagrama `</a>` y se muestran la siguiente gráfica:
+Clic en Ver Diagrama  A continuación, se  procede  a visualizar a través de un Diagrama de Gantt, en el cual se muestra al lado izquierdo la información del Activo con su respectivo PM, mientras que al lado derecho se muestra por colores el cronograma con las fechas proyectadas de las actividades. Para esto, se procede a dar clic al botón <a class="btn gray">Ver Diagrama</a> y se muestra la siguiente gráfica:
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img32.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img42.png)
+_**Imagen 61.** Programas - Proyección Diagrama Gantt_
 
 El significado de los colores se visualiza al sobreponer el mouse en el icono que se encuentra al lado superior derecho y su correspondencia es:
 
