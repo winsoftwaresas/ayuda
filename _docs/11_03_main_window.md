@@ -650,7 +650,7 @@ Al desplegar la lista del campo **Escala**, permite observar el cronograma por d
 
 **Ver Reportes**
 
-A  continuación, se  procede  a  verificar  si  las  órdenes  detectadas por  el  proceso  de proyección, sí son las órdenes que se esperan para el rango de fechas establecido.  Para esto, se procede a dar clic al botón `<a class="btn">`Ver Reportes `</a>`  y se muestran varios reportes que para el caso se presentan como se ve en la siguiente  gráfica:
+A continuación, se  procede a verificar si las OT detectadas por  el proceso  de proyección, sí son las órdenes que se esperan para el rango de fechas establecido.  Para esto, se procede a dar clic al botón <a class="btn gray">Ver reportes</a> y se muestran varios reportes como se ve en la siguiente imagen:
 
 ![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img34.png)
 
