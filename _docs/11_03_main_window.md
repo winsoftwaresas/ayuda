@@ -529,29 +529,29 @@ Para finalmente subir el archivo, imagen o video se da clic en el botón
 
 Los archivos que se van adicionando van quedando guardados uno debajo del otro. Sólo los formatos de imagen tienen previsualización, solo basta con dar clic en alguno de sus campos, como se muestra a continuación:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img32.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img33.png)
 ***Imagen 52.** Programas - Previsualización de imagen*
 
 Para desasociar un documento, o una imagen o un video, a al PM se da clic al icono de basura <span class="mdi mdi-delete"></span> que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro, finalmente confirmar con el botón <a class="btn white">Aceptar</a>.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img33.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img34.png)
 ***Imagen 53.** Programas - Desasociar un Archivo*
 
 Si se desea descargar un archivo adjunto al PM, se debe dar clic en el ícono de nube con direccional hacia abajo <span class="mdi mdi-cloud-download icon white"></span> la nube con flecha hacia abajo que se encuentra al lado derecho del archivo que se quiere descargar.
 
 ## Transacciones
 
-**Modificar FIP**
+#### Modificar FIP
 
 A esta opción se llega al sobreponer el cursor sobre el módulo de Programas y en la parte inferior se muestra un conjunto de transacciones disponibles para el módulo de Programas, y a continuación se da un clic en **“Modificar FIP”**.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img34.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img35.png)
 ***Imagen 54.** Programas - Ir a Modificar FIP*
 
 A través de la ventana de Modificar fecha de inicio de período **(FIP)** se especifica la nueva FIP del PM. Esta ventana inicia sugiriendo en el campo Fecha inicio período la fecha actual del sistema.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img35.png)
-_**Imagen 55.** Programas - Ir a Modificar FIP_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img36.png)
+_**Imagen 55.** Programas - Ventana Detalle Modificar FIP_
 
 Cuando se quiera Modificar la Fecha de Inicio de Periodo, se deberán diligenciar los siguientes campos:
 
@@ -561,16 +561,19 @@ Se debe resaltar que la FIP es una fecha del pasado, y es partir de ella que se 
 
 Si el Criterio de Programación no depende de una frecuencia, esta fecha FIP determina el momento posterior en que el programa entra en vigencia.
 
-### Proyectar
+#### Proyectar 
 
-Cuando se posee la herramienta **AM**** es posible hacer la Programación de  las Actividades de Mantenimiento para un período futuro, tanto para el corto como  para el largo plazo, a través de las funciones de Generación y de Proyección. A esta opción se llega al sobreponer el cursor del mouse sobre el módulo de Programas y al lado derecho se despliega el conjunto de transacciones disponibles para el módulo de Programas, luego se elige la transacción ** “Proyectar”.**
+A esta opción se llega al sobreponer el cursor sobre el módulo de Programas y en la parte inferior se muestra un conjunto de transacciones disponibles para el módulo de Programas, y a continuación se da un clic en **“Proyectar”**.
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img28.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img37.png)
+_**Imagen 56.** Programas - Ir a Proyectar_
+
+Cuando se posee la herramienta **AM** es posible hacer la Programación de  las Actividades de Mantenimiento para un período futuro, tanto para el corto como  para el largo plazo, a través de las funciones de Generación y de Proyección. 
 
 Cabe anotar también que esta Programación se puede realizar con cualquier anticipación requerida, por lo tanto es posible que la programación de una semana como la 32 se realice en la 28 por ejemplo.
-Finalmente se aclara que toda actividad que pretenda programar, proyectar o generar OTs al futuro se fundamenta en la programación realizada con los PMs.
+Finalmente se aclara que toda actividad que pretenda programar, proyectar o generar OT al futuro se fundamenta en la programación realizada con los PM.
 
-La diferencia entre  Proyectar y  Analizar la  podemos apreciar en  el  siguiente  cuadro comparativo:
+La diferencia entre  Proyectar y  Analizar la podemos apreciar en  el  siguiente  cuadro comparativo:
 
 | PROYECTAR                                                                                                                                                                            | ANALIZAR                                                                                                                                                     |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -581,19 +584,19 @@ La diferencia entre  Proyectar y  Analizar la  podemos apreciar en  el  siguient
 | **3.**	No genera OTs.                                                                                                                                                          | **3.**	Si se genera OTs.                                                                                                                               |
 | **4.**	Puede hacer múltiples proyecciones en prueba y error.                                                                                                                  | **4.**	Puede hacer múltiples proyecciones en prueba y error.                                                                                          |
 | **5\.**	Puede trabajar sobre un subgrupo\.                                                                                                                                     | **5\.**	No se puede trabajar sobre un subgrupo, siempre se realiza sobre el total de los PM y los AC\.                                                 |
-| **6\.**	Los PM que no se generaron oportunamente, el sistema asume como si hubieran generado, y los proyecta para el periodo del rango de generación, respetándoles su FIP\. | **6\.**	Los PM que no se generaron Oportunamente, el sistema los genera para el primer día del periodo del rango de análisis, alterándoles su FIP\. |
+| **6\.**	Los PM que no se generaron oportunamente, el sistema asume como si hubieran generado, y los proyecta para el periodo del rango de generación, respetándoles su FIP\. | **6\.** Los PM que no se generaron Oportunamente, el sistema los genera para el primer día del periodo del rango de análisis, alterándoles su FIP\. |
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img29.png)
 
-En  la  gráfica  anterior,  Proyectar,  se  aprecian  sus  componentes  y  sus   respectivos contenidos.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img38.png)
+_**Imagen 57.** Programas - Ventana Detalle Proyectar_
 
-A través de la ventana de Proyectar se planean Órdenes de Trabajo Programadas. Procedimiento para efectuar Proyección de PM:
+En la gráfica anterior, Proyectar, se aprecian sus componentes y sus   respectivos contenidos.
 
-Digitar la fecha ** “Desde”**. **AM**** sugiere el primer día del año en curso.
+**Procedimiento para efectuar Proyección de PM:**
 
-Digitar la fecha ** “Hasta”**. **AM**** sugiere el último día del año en curso.
+Digitar la fecha **“Desde”**. **AM** sugiere el primer día del año en curso, luego, digitar la fecha ** “Hasta”**. **AM** sugiere el último día del año en curso.
 
-Ingresar de manera opcional, los porcentajes respectivos en la sección Asignar Variación Porcentual a los Costos en  el presupuesto: Estos porcentajes  corresponden  a   los  valores  en  que desee incrementen los costos del presupuesto, para cada uno de los diferentes rubros de:
+Para proyectar de manera opcional con variaciones en los porcentajes respectivos del Presupuesto se debe seleccionar la siguiente opción: <a class="btn white"><span class="mdi mdi-checkbox-blank-outline">Asignar variación porcentual a los costos</span></a>. Estos porcentajes  corresponden  a  los  valores  en  que desee incrementen los costos del presupuesto, para cada uno de los diferentes rubros de:
 
 **Mano de Obra Interna:** Definir el porcentaje que se crea va a incrementar la mano de  obra para el período proyectado en cuestión.
 
@@ -601,21 +604,22 @@ Ingresar de manera opcional, los porcentajes respectivos en la sección Asignar 
 
 **Materiales y Repuestos:** Definir el porcentaje que se crea va a incrementar la mano de obra para el período proyectado en cuestión.
 
-**Otros Conceptos:** Definir el porcentaje que se crea va a incrementar la mano de obra para el período proyectado en cuestión. Clic en el botón `<a class="btn">`Proyectar `</a>`.
+**Otros Conceptos:** Definir el porcentaje que se crea va a incrementar la mano de obra para el período proyectado en cuestión. 
 
-Aparece el siguiente mensaje. Contestar ** “Aceptar”**.
+Luego de haber definido el rango, hacer clic en el botón <a class="btn white">Proyectar</a>, a continuación aparece un mensaje alerta para confirmar si se desea proyectar, luego se debe dar clic en <a class="btn white">Aceptar</a>.
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img30.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img39.png)
+_**Imagen 58.** Programas - Comenzar Proyectar_
 
-**AM**** busca en todos los  Programas de Mantenimiento, cuáles deben  proyectar órdenes de trabajo en el rango de fechas estipulado. Durante el  proceso,  puede visualizarse una barra horizontal que va avanzando a medida que se va analizando y el  estado  de  avance  de  la  proyección, en la parte superior derecha, y al finalizar dicho proceso, el sistema muestra el resultado de la proyección de los PMs proyectados del total de PMs registrados en la base de datos. El proceso también se puede cancelar haciendo clic en el botón `<a class="btn">` “Cancelar”`</a>`, y el sistema detiene el proceso sin ningún tipo de perjuicio, es decir, a los datos no son afectados en absoluto.
+**AM** busca en todos los  Programas de Mantenimiento, cuáles deben  proyectar órdenes de trabajo en el rango de fechas estipulado. Durante el  proceso, puede visualizarse una barra horizontal que va avanzando a medida que se va analizando y el estado de avance de la proyección, en la parte superior derecha, y al finalizar dicho proceso, el sistema muestra el resultado de la proyección de los PMs proyectados del total de PMs registrados en la base de datos. El proceso también se puede cancelar haciendo clic en el botón <a class="btn gray">cancelar</a> en el cual sistema detiene el proceso sin ningún tipo de perjuicio, es decir, a los datos no son afectados en absoluto.
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img30.png)
-
-**AM**** busca en todos los  Programas de Mantenimiento, cuáles deben  proyectar órdenes de trabajo en el rango de fechas estipulado. Durante el  proceso,  puede visualizarse una barra horizontal que va avanzando a medida que se va analizando y el  estado  de  avance  de  la  proyección, en la parte superior derecha, y al finalizar dicho proceso, el sistema muestra el resultado de la proyección de los PMs proyectados del total de PMs registrados en la base de datos. El proceso también se puede cancelar haciendo clic en el botón `<a class="btn">`Cancelar `</a>`., y el sistema detiene el proceso sin ningún tipo de perjuicio, es decir, a los datos no son afectados en absoluto.
-
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img31.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img40.png)
+_**Imagen 59.** Programas - Proyección_
 
 En el resultado de la proyección, se evidencia:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img41.png)
+_**Imagen 60.** Programas - Resultados Proyección_
 
 **Total de Programas seleccionados:** Muestra la relación entre la cantidad de Programas totales o los que están seleccionados en el visor en el módulo sobre la cantidad de Programas totales definidos en el módulo.
 
@@ -623,46 +627,56 @@ En el resultado de la proyección, se evidencia:
 
 **Total de Programas analizados:** Muestra la diferencia de Programas entre  “Total de Programas seleccionados” y  “Total de Programas inactivos o con equipo inactivo”.
 
-**Total de Programas que proyectaron labores:** Muestra la cantidad de Programas analizados que proyectaron órdenes de trabajo en el rango de fecha especificado.
+**Total de Programas que proyectaron labores:** Muestra la cantidad de Programas analizados que proyectaron OT en el rango de fecha especificado.
 
 **Total de labores presupuestadas para el período:** Muestra la cantidad de órdenes de trabajo proyectadas para el rango de fechas especificado.
 
-Clic en Ver Diagrama  A continuación, se  procede  a visualizar a través de un Diagrama de Gantt, en el cual se muestra al lado izquierdo la información del Activo con su respectivo PM, mientras que al lado derecho se muestra por colores el cronograma con las fechas proyectadas de las actividades. Para esto, se procede a dar clic al botón `<a class="btn">`Ver Diagrama `</a>` y se muestran la siguiente gráfica:
+**Ver Diagrama**
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img32.png)
+A continuación, se  procede  a visualizar a través de un Diagrama de Gantt, en el cual se muestra al lado izquierdo la información del Activo con su respectivo PM, mientras que al lado derecho se muestra por colores el cronograma con las fechas proyectadas de las actividades. Para esto, se procede a dar clic al botón <a class="btn gray">Ver Diagrama</a> y se muestra la siguiente gráfica:
 
-El significado de los colores se visualiza al sobreponer el mouse en el icono que se encuentra al lado superior derecho y su correspondencia es:
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img42.png)
+_**Imagen 61.** Programas - Proyección Diagrama Gantt_
 
-- **Naranja:** Actividades programadas con tipo de mantenimiento Metrología.
-- **Verde:** Actividades programadas con tipo de mantenimiento Preventivo, Predictivo, Inspección y Lubricación.
+El significado de los colores se visualiza al sobreponer el mouse en el icono que se encuentra al lado superior derecho <span class="mdi mdi-message-alert"></span> y su correspondencia es:
+
+- **Amarillo:** Actividades programadas con tipo de mantenimiento Metrología.
+- **Verde:** Actividades programadas con tipo de mantenimiento Preventivo, Predictivo.
 - **Rojo:** Actividades con tipo de mantenimiento Correctivo. Es de aclarar, que en este módulo No se permiten OT tipo correctivas.
-- **Azul:** Actividades programadas con tipo de mantenimiento Otro y Otro-Mantto.
+- **Azul:** Actividades programadas con tipo de mantenimiento Inspección y Lubricación.
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img32.png)
+La funcionalidad de la línea horizontal llamada **Tamaño**, permite ampliar o reducir el tamaño de las columnas de los meses del cronograma.
+Al desplegar la lista del campo **Escala**, permite observar el cronograma por días, semanas o meses. Por defecto el cronograma se muestra en días. Para facilitar la visualización completa del cronograma de actividades programadas y además, facilitar su recorrido es posible realizar desplazamientos verticales y horizontales a través de las barras de desplazamiento.
 
-La funcionalidad de la línea horizontal llamada Tamaño, permite anchar o reducir el tamaño de las columnas de los meses del cronograma. Además, al sobreponer el mouse entre la línea divisoria vertical de los cuadros de las actividades programadas y el cronograma, permite ampliar o reducir el tamaño de todo el cuadro del cronograma.
-Al desplegar la lista del campo Escala, permite observar el cronograma por días, semanas o meses. Por defecto el cronograma se muestra en días. Para facilitar la visualización completa del cronograma de actividades programadas y además, facilitar su recorrido es posible realizar desplazamientos verticales del cursor tanto hacia el comienzo como hacia  el final del cuadro.
+**Ver Reportes**
 
-**Clic en Ver Reportes**
+A continuación, se  procede a verificar si las OT detectadas por  el proceso  de proyección, sí son las órdenes que se esperan para el rango de fechas establecido.  Para esto, se procede a dar clic al botón <a class="btn gray">Ver reportes</a> como se ve en la siguiente imagen:
 
-A  continuación, se  procede  a  verificar  si  las  órdenes  detectadas por  el  proceso  de proyección, sí son las órdenes que se esperan para el rango de fechas establecido.  Para esto, se procede a dar clic al botón `<a class="btn">`Ver Reportes `</a>`  y se muestran varios reportes que para el caso se presentan como se ve en la siguiente  gráfica:
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img43.png)
+_**Imagen 62.** Programas - Proyección Diagrama Gantt_
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img34.png)
+Se muestran los reportes con los resultados proyectados de algunos, de la siguiente lista:
 
-- Se Imprimen los reportes con los resultados proyectados de algunos, de la siguiente lista:
-- Cronograma de Mantenimiento Programado con tipo de mantenimiento (TM)
-- Cronograma de Mantenimiento Programado
-  Actividades por Mes y Día
-- Listado de repuestos
-- Actividades por Mes y Día (con Presupuesto Discriminado)
-- Los anteriores reportes pueden ser seleccionados para uno o varios PM.
-- Después de seleccionar el reporte, pulse el botón `<a class="btn">`imprimir `</a>`.
-- Si al imprimir alguno de estos reportes, el usuario nota que alguna Orden de Trabajo no debió ser  proyectada, vaya  al  programa de  mantenimiento en  cuestión  y revise  sus criterios, para volver a proyectar de nuevo los PMs.
-- Puede imprimir varios reportes uno seguido del otro.
+- Listado De Equipos Por Generar Ordenes
+- Cronograma De Mantenimiento Programado con TM (Con Ubicación Física y Centro De Costo)
+- Cronograma De Mantenimiento Programado con TM
+- Cronograma De Mantenimiento Programado
+- Actividades por Mes y Día
+- Actividades Por Mes y Día (Presupuesto Discriminado)
+- Listado de Repuestos
+- Programación De Actividades Por Activo (Centro Responsable,Ubicación Física, Fecha)
+- Cronograma De Mantenimiento
+- Actividades Por Mes y Día (Serie, Marca y Modelo)
+
+Los anteriores reportes deben ser seleccionados para **Todos los registros**, primero se debe seleccionar una de las opciones anteriormente mencionadas y luego de estar sombreado en verde se debe clic en el botón <a class="btn white">imprimir</a> para ver el reporte en formato PDF y en la opción <a class="btn white">exportar</a> para llevar este diseño a excel.
+
+
+>**Nota:** Si al imprimir alguno de estos reportes, el usuario nota que alguna OT no debió ser proyectada, debe dirigirse al respectivo programa de mantenimiento y revisar sus criterios para volver a proyectar de nuevo los PM.
+
 
 ### Modificar Masivamente
 
-A esta opción se llega al sobreponer el cursor del mouse sobre el módulo de Programas y al lado derecho se despliega el conjunto de transacciones disponibles para el módulo de Programas, luego se elige la transacción ** “Modificar Masivamente”**.
+A esta opción se llega al sobreponer el cursor del mouse sobre el módulo de Programas y al lado derecho se despliega el conjunto de transacciones disponibles para el módulo de Programas, luego se elige la transacción **“Modificar Masivamente”**.
 
 ![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img35.png)
 
