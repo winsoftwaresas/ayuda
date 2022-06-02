@@ -631,7 +631,9 @@ _**Imagen 60.** Programas - Resultados Proyección_
 
 **Total de labores presupuestadas para el período:** Muestra la cantidad de órdenes de trabajo proyectadas para el rango de fechas especificado.
 
-Clic en Ver Diagrama  A continuación, se  procede  a visualizar a través de un Diagrama de Gantt, en el cual se muestra al lado izquierdo la información del Activo con su respectivo PM, mientras que al lado derecho se muestra por colores el cronograma con las fechas proyectadas de las actividades. Para esto, se procede a dar clic al botón <a class="btn gray">Ver Diagrama</a> y se muestra la siguiente gráfica:
+**Ver Diagrama**
+
+A continuación, se  procede  a visualizar a través de un Diagrama de Gantt, en el cual se muestra al lado izquierdo la información del Activo con su respectivo PM, mientras que al lado derecho se muestra por colores el cronograma con las fechas proyectadas de las actividades. Para esto, se procede a dar clic al botón <a class="btn gray">Ver Diagrama</a> y se muestra la siguiente gráfica:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img42.png)
 _**Imagen 61.** Programas - Proyección Diagrama Gantt_
@@ -639,16 +641,14 @@ _**Imagen 61.** Programas - Proyección Diagrama Gantt_
 El significado de los colores se visualiza al sobreponer el mouse en el icono que se encuentra al lado superior derecho <span class="mdi mdi-message-alert"></span> y su correspondencia es:
 
 - **Amarillo:** Actividades programadas con tipo de mantenimiento Metrología.
-- **Verde:** Actividades programadas con tipo de mantenimiento Preventivo, Predictivo, Inspección y Lubricación.
+- **Verde:** Actividades programadas con tipo de mantenimiento Preventivo, Predictivo.
 - **Rojo:** Actividades con tipo de mantenimiento Correctivo. Es de aclarar, que en este módulo No se permiten OT tipo correctivas.
-- **Azul:** Actividades programadas con tipo de mantenimiento Otro y Otro-Mantto.
+- **Azul:** Actividades programadas con tipo de mantenimiento Inspección y Lubricación.
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img32.png)
+La funcionalidad de la línea horizontal llamada **Tamaño**, permite ampliar o reducir el tamaño de las columnas de los meses del cronograma.
+Al desplegar la lista del campo **Escala**, permite observar el cronograma por días, semanas o meses. Por defecto el cronograma se muestra en días. Para facilitar la visualización completa del cronograma de actividades programadas y además, facilitar su recorrido es posible realizar desplazamientos verticales y horizontales a través de las barras de desplazamiento.
 
-La funcionalidad de la línea horizontal llamada Tamaño, permite anchar o reducir el tamaño de las columnas de los meses del cronograma. Además, al sobreponer el mouse entre la línea divisoria vertical de los cuadros de las actividades programadas y el cronograma, permite ampliar o reducir el tamaño de todo el cuadro del cronograma.
-Al desplegar la lista del campo Escala, permite observar el cronograma por días, semanas o meses. Por defecto el cronograma se muestra en días. Para facilitar la visualización completa del cronograma de actividades programadas y además, facilitar su recorrido es posible realizar desplazamientos verticales del cursor tanto hacia el comienzo como hacia  el final del cuadro.
-
-**Clic en Ver Reportes**
+**Ver Reportes**
 
 A  continuación, se  procede  a  verificar  si  las  órdenes  detectadas por  el  proceso  de proyección, sí son las órdenes que se esperan para el rango de fechas establecido.  Para esto, se procede a dar clic al botón `<a class="btn">`Ver Reportes `</a>`  y se muestran varios reportes que para el caso se presentan como se ve en la siguiente  gráfica:
 
