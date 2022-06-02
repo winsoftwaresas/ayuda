@@ -551,7 +551,7 @@ A esta opción se llega al sobreponer el cursor sobre el módulo de Programas y 
 A través de la ventana de Modificar fecha de inicio de período **(FIP)** se especifica la nueva FIP del PM. Esta ventana inicia sugiriendo en el campo Fecha inicio período la fecha actual del sistema.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img36.png)
-_**Imagen 55.** Programas - Ir a Modificar FIP_
+_**Imagen 55.** Programas - Ventana Detalle Modificar FIP_
 
 Cuando se quiera Modificar la Fecha de Inicio de Periodo, se deberán diligenciar los siguientes campos:
 
@@ -571,7 +571,7 @@ _**Imagen 56.** Programas - Ir a Proyectar_
 Cuando se posee la herramienta **AM** es posible hacer la Programación de  las Actividades de Mantenimiento para un período futuro, tanto para el corto como  para el largo plazo, a través de las funciones de Generación y de Proyección. 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img38.png)
-_**Imagen 57.** Programas - Ir a Proyectar_
+_**Imagen 57.** Programas - Ventana Detalle Proyectar_
 
 Cabe anotar también que esta Programación se puede realizar con cualquier anticipación requerida, por lo tanto es posible que la programación de una semana como la 32 se realice en la 28 por ejemplo.
 Finalmente se aclara que toda actividad que pretenda programar, proyectar o generar OT al futuro se fundamenta en la programación realizada con los PM.
