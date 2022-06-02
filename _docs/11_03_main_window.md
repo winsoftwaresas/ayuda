@@ -487,7 +487,8 @@ Finalmente se aclara que toda actividad que pretenda programar, proyectar o gene
 
 ### Multimedia
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img22.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img28.png)
+_**Imagen 48.** Programas - Semanas del Año_
 
 En la gráfica anterior, Ventana Multimedia, se aprecian sus componentes y sus respectivos contenidos.
 
