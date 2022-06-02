@@ -596,7 +596,7 @@ En la gráfica anterior, Proyectar, se aprecian sus componentes y sus   respecti
 
 Digitar la fecha **“Desde”**. **AM** sugiere el primer día del año en curso, luego, digitar la fecha ** “Hasta”**. **AM** sugiere el último día del año en curso.
 
-Para ingresar de manera opcional los porcentajes respectivos en la sección Asignar Variación Porcentual a los Costos en  el presupuesto: Estos porcentajes  corresponden  a   los  valores  en  que desee incrementen los costos del presupuesto, para cada uno de los diferentes rubros de:
+Para proyectar de manera opcional con variaciones en los porcentajes respectivos del Presupuesto se debe seleccionar la siguiente opción: <a class="btn white"><span class="mdi mdi-checkbox-blank-outline">Asignar variación porcentual a los costos</span></a>. Estos porcentajes  corresponden  a  los  valores  en  que desee incrementen los costos del presupuesto, para cada uno de los diferentes rubros de:
 
 **Mano de Obra Interna:** Definir el porcentaje que se crea va a incrementar la mano de  obra para el período proyectado en cuestión.
 
@@ -604,9 +604,12 @@ Para ingresar de manera opcional los porcentajes respectivos en la sección Asig
 
 **Materiales y Repuestos:** Definir el porcentaje que se crea va a incrementar la mano de obra para el período proyectado en cuestión.
 
-**Otros Conceptos:** Definir el porcentaje que se crea va a incrementar la mano de obra para el período proyectado en cuestión. Clic en el botón `<a class="btn">`Proyectar `</a>`.
+**Otros Conceptos:** Definir el porcentaje que se crea va a incrementar la mano de obra para el período proyectado en cuestión. 
 
-Aparece el siguiente mensaje. Contestar ** “Aceptar”**.
+Luego de haber definido el rango, hacer clic en el botón <a class="btn white">Proyectar</a>, a continuación aparece un mensaje alerta para confirmar si se desea proyectar, luego se debe dar clic en <a class="btn white">Aceptar</a>.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img39.png)
+_**Imagen 58.** Programas - Ventana Detalle Proyectar_
 
 ![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img30.png)
 
