@@ -638,7 +638,7 @@ _**Imagen 61.** Programas - Proyección Diagrama Gantt_
 
 El significado de los colores se visualiza al sobreponer el mouse en el icono que se encuentra al lado superior derecho <span class="mdi mdi-message-alert"></span> y su correspondencia es:
 
-- **Naranja:** Actividades programadas con tipo de mantenimiento Metrología.
+- **Amarillo:** Actividades programadas con tipo de mantenimiento Metrología.
 - **Verde:** Actividades programadas con tipo de mantenimiento Preventivo, Predictivo, Inspección y Lubricación.
 - **Rojo:** Actividades con tipo de mantenimiento Correctivo. Es de aclarar, que en este módulo No se permiten OT tipo correctivas.
 - **Azul:** Actividades programadas con tipo de mantenimiento Otro y Otro-Mantto.
