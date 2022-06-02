@@ -447,15 +447,15 @@ Calcular el valor del Contador consiste en sumarle al valor actual del Contador 
 
 En síntesis, el Sistema proyecta el estado del contador del Activo a partir de su valor en la fecha de última lectura real, hasta la fecha de programación actual, según el parámetro definido en el Estándar de Planeación. De esta forma se compara un contador proyectado contra el contador histórico o de la última generación, permitiéndole al Sistema, programar actividades que no se programarían por tener desactualizado el contador real.
 
-Recuerde que el parámetro ** “Estándar  de Planeación”** es opcional y NO se debe usar si se desea trabajar con lecturas reales solamente, es decir, si se mantienen actualizados los Contadores de los ACs.
+Recuerde que el parámetro **“Estándar de Planeación”** es opcional y no se debe usar si se desea trabajar con lecturas reales solamente, es decir, si se mantienen actualizados los Contadores de los Activos.
 
-**Criterio 	de 	Generación 	por 	Frecuencia 	y/o 	Contador.**
+**Criterio de Generación por Frecuencia y/o Contador**
 
-Resulta de definir simultáneamente un conjunto Frecuencia, Período y una Recurrencia para un contador, por ejemplo, en un mismo PM.
+Resulta de definir simultáneamente un conjunto Frecuencia, Período y una Recurrencia para un contador en un mismo PM.
 
-El   sistema actúa de   la   forma ya   descrita independientemente para cada uno de   los criterios, solo que el **–AM 4G**  al encontrarlos juntos en el mismo PM, hace la  evaluación simultánea de ellos y genera una OT cuando uno de ellos, el que primero lo haga, cumpla la condición.
+El sistema actúa de la forma ya descrita independientemente para cada uno de   los criterios, solo que **AM** al encontrarlos juntos en el mismo PM, hace la evaluación simultánea de ellos y genera una OT cuando uno de ellos, el que primero lo haga, cumpla la condición.
 
-En síntesis se encuentran disponibles los siguientes criterios que se pueden visualizar en el visor de PMs y también en las OTs que se generaron desde ellos.
+A continuación, se encuentran disponibles los siguientes criterios que se pueden visualizar en el visor de PM y también en las OT que se generaron desde ellos:
 
 | ABREVIATURA  | NOMBRE                           |
 | ------------ | -------------------------------- |
@@ -463,7 +463,7 @@ En síntesis se encuentran disponibles los siguientes criterios que se pueden vi
 | **MM** | Mensual                          |
 | **SM** | Semestral                        |
 | **AN** | Anual                            |
-| **DD** | Días(Mín 3)                    |
+| **DD** | Días (Mín 3)                    |
 | **SA** | Semanas del año                 |
 | **+M** | Meses (más de uno)              |
 | **+S** | Semanas (más de una)            |
@@ -474,14 +474,14 @@ En síntesis se encuentran disponibles los siguientes criterios que se pueden vi
 | **FK** | Frecuencia y/o Contador          |
 | **TM** | Trimestral                       |
 | **??** | Programa Inactivo o Sin Criterio |
-| **CM** | Característica Medibles         |
 
 Una vez que un Programa de Mantenimiento acaba de generar una OT, sobre el programa se actualizan los campos:
 
-**Vlr.** Contador al Inicio del Período
-Fecha de Última Generación (FUG) Fecha de Inicio del Período (FIP)
+- **Vlr. Contador al Inicio del Período**
+- **Fecha de Última Generación (FUG)** 
+- **Fecha de Inicio del Período (FIP)**
 
-**Nota.** Cuando se posee el **AM**** es posible hacer la Programación de las Actividades de Mantenimiento para un período futuro, tanto para el corto como para el largo  plazo, a través de las funciones de Generación y de Proyección. La función de  Generación se encuentra en el submenú de  “Órdenes de Trabajo”. La función Proyección se encuentra en el	submenú   de 	Programas   de	Mantenimiento. Cabe anotar también que esta Programación se   puede realizar con cualquier  anticipación requerida, por   lo   tanto es posible que la Programación de una semana como la 32 se realice en la 28, por ejemplo.
+>**Nota:** Cuando se posee el **AM** es posible hacer la Programación de las Actividades de Mantenimiento para un período futuro, tanto para el corto como para el largo  plazo, a través de las funciones de Generación y de Proyección. La función de  Generación se encuentra en el submenú de  “Órdenes de Trabajo”. La función Proyección se encuentra en el	submenú   de 	Programas   de	Mantenimiento. Cabe anotar también que esta Programación se   puede realizar con cualquier  anticipación requerida, por   lo   tanto es posible que la Programación de una semana como la 32 se realice en la 28, por ejemplo.
 
 Finalmente se aclara que toda actividad que pretenda programar, proyectar o generar OTs a futuro se fundamenta en la programación realizada con los PMs.
 
