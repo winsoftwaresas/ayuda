@@ -658,10 +658,15 @@ _**Imagen 62.** Programas - Proyección Diagrama Gantt_
 Se muestran los reportes con los resultados proyectados de algunos, de la siguiente lista:
 
 - Listado De Equipos Por Generar Ordenes
+- Cronograma De Mantenimiento Programado con TM (Con Ubicación Física y Centro De Costo)
 - Cronograma De Mantenimiento Programado con TM
-- 
-
- 
+- Cronograma De Mantenimiento Programado
+- Actividades por Mes y Día
+- Actividades Por Mes y Día (Presupuesto Discriminado)
+- Listado de Repuestos
+- Programación De Actividades Por Activo (Centro Responsable,Ubicación Física, Fecha)
+- Cronograma De Mantenimiento
+- Actividades Por Mes y Día (Serie, Marca y Modelo)
 
 Los anteriores reportes deben ser seleccionados para **Todos los registros**, primero se debe seleccionar una de las opciones anteriormente mencionadas y luego de estar sombreado en verde se debe clic en el botón <a class="btn white">imprimir</a> para ver el reporte en formato PDF y en la opción <a class="btn white">exportar</a> para llevar este diseño a excel.
 
