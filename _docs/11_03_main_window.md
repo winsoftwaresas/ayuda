@@ -565,12 +565,13 @@ Si el Criterio de Programación no depende de una frecuencia, esta fecha FIP det
 
 A esta opción se llega al sobreponer el cursor sobre el módulo de Programas y en la parte inferior se muestra un conjunto de transacciones disponibles para el módulo de Programas, y a continuación se da un clic en **“Proyectar”**.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img36.png)
-_**Imagen 55.** Programas - Ir a Proyectar_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img37.png)
+_**Imagen 56.** Programas - Ir a Proyectar_
 
-Cuando se posee la herramienta **AM** es posible hacer la Programación de  las Actividades de Mantenimiento para un período futuro, tanto para el corto como  para el largo plazo, a través de las funciones de Generación y de Proyección. A esta opción se llega al sobreponer el cursor del mouse sobre el módulo de Programas y al lado derecho se despliega el conjunto de transacciones disponibles para el módulo de Programas, luego se elige la transacción ** “Proyectar”.**
+Cuando se posee la herramienta **AM** es posible hacer la Programación de  las Actividades de Mantenimiento para un período futuro, tanto para el corto como  para el largo plazo, a través de las funciones de Generación y de Proyección. 
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img28.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img38.png)
+_**Imagen 57.** Programas - Ir a Proyectar_
 
 Cabe anotar también que esta Programación se puede realizar con cualquier anticipación requerida, por lo tanto es posible que la programación de una semana como la 32 se realice en la 28 por ejemplo.
 Finalmente se aclara que toda actividad que pretenda programar, proyectar o generar OTs al futuro se fundamenta en la programación realizada con los PMs.
