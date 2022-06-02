@@ -574,9 +574,9 @@ Cuando se posee la herramienta **AM** es posible hacer la Programación de  las 
 _**Imagen 57.** Programas - Ir a Proyectar_
 
 Cabe anotar también que esta Programación se puede realizar con cualquier anticipación requerida, por lo tanto es posible que la programación de una semana como la 32 se realice en la 28 por ejemplo.
-Finalmente se aclara que toda actividad que pretenda programar, proyectar o generar OTs al futuro se fundamenta en la programación realizada con los PMs.
+Finalmente se aclara que toda actividad que pretenda programar, proyectar o generar OT al futuro se fundamenta en la programación realizada con los PM.
 
-La diferencia entre  Proyectar y  Analizar la  podemos apreciar en  el  siguiente  cuadro comparativo:
+La diferencia entre  Proyectar y  Analizar la podemos apreciar en  el  siguiente  cuadro comparativo:
 
 | PROYECTAR                                                                                                                                                                            | ANALIZAR                                                                                                                                                     |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -588,6 +588,7 @@ La diferencia entre  Proyectar y  Analizar la  podemos apreciar en  el  siguient
 | **4.**	Puede hacer múltiples proyecciones en prueba y error.                                                                                                                  | **4.**	Puede hacer múltiples proyecciones en prueba y error.                                                                                          |
 | **5\.**	Puede trabajar sobre un subgrupo\.                                                                                                                                     | **5\.**	No se puede trabajar sobre un subgrupo, siempre se realiza sobre el total de los PM y los AC\.                                                 |
 | **6\.**	Los PM que no se generaron oportunamente, el sistema asume como si hubieran generado, y los proyecta para el periodo del rango de generación, respetándoles su FIP\. | **6\.**	Los PM que no se generaron Oportunamente, el sistema los genera para el primer día del periodo del rango de análisis, alterándoles su FIP\. |
+
 
 ![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img29.png)
 
