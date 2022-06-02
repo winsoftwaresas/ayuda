@@ -541,23 +541,25 @@ Si se desea descargar un archivo adjunto al PM, se debe dar clic en el ícono de
 
 ## Transacciones
 
+**Modificar FIP**
 
+A esta opción se llega al sobreponer el cursor sobre el módulo de Programas y en la parte inferior se muestra un conjunto de transacciones disponibles para el módulo de Programas, y a continuación se da un clic en **“Modificar FIP”**.
 
-A esta opción se llega al sobreponer el cursor del mouse sobre el módulo de Programas y en la parte inferior se muestra un conjunto de transacciones disponibles para el módulo de Programas, luego se elige la transacción **“Modificar FIP”**.
-
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img26.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img34.png)
+***Imagen 54.** Programas - Ir a Modificar FIP*
 
 A través de la ventana de Modificar fecha de inicio de período **(FIP)** se especifica la nueva FIP del PM. Esta ventana inicia sugiriendo en el campo Fecha inicio período la fecha actual del sistema.
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img27.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img35.png)
+_**Imagen 55.** Programas - Ir a Modificar FIP_
 
 Cuando se quiera Modificar la Fecha de Inicio de Periodo, se deberán diligenciar los siguientes campos:
 
-**Fecha Inicio de Periodo:** En este control de fecha, se escoge la nueva fecha a modificar. Una vez realizada esta acción se debe presionar el botón `<a class="btn">`Modificar FIP `</a>`. para que el cambio tenga efecto.  Luego de presionar el botón el sistema es sale un mensaje de confirmación y el cambio de la FIP se verifica en la pestaña de ** “Criterio de Programación”**.
+**Fecha Inicio de Periodo:** En este control de fecha, se escoge la nueva fecha a modificar. Una vez realizada esta acción se debe presionar el botón <a class="btn gray">modificar fip</a> para que el cambio tenga efecto.  Luego de presionar el botón el sistema es sale un mensaje de confirmación y el cambio de la FIP se verifica en la pestaña de **“Criterio de Programación”**.
 
-Recordemos que la 	FIP es una fecha del pasado, y es partir de ella que se calcula el momento de generación de la Orden de Trabajo, cuando el Criterio de Programación se basa en alguna Frecuencia.
+Se debe resaltar que la FIP es una fecha del pasado, y es partir de ella que se calcula el momento de generación de la Órden de Trabajo, cuando el Criterio de Programación se basa en alguna Frecuencia.
 
-Si el Criterio de Programación no depende de una frecuencia, esta fecha FIP determina el momento posterior en que el programa entra en vigencia
+Si el Criterio de Programación no depende de una frecuencia, esta fecha FIP determina el momento posterior en que el programa entra en vigencia.
 
 ### Proyectar
 
