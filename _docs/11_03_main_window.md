@@ -521,7 +521,13 @@ De manera adicional u opcional se puede escribir un nombre en el siguiente campo
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img31.png)
 ***Imagen 51.** Programas - Nombrar Archivo*
 
-Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic sobre el nombre de una de las imágenes, se muestra la previsualización, como se muestra a continuación:
+Para finalmente subir el archivo, imagen o video se da clic en el botón 
+<a class="btn white">subir archivo</a>. Automáticamente sale en el sistema un mensaje alerta que indica si el archivo se adjunta exitosamente. 
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img32.png)
+***Imagen 52.** Programas - Multimedia Mensaje Alerta*
+
+Los archivos que se van adicionando van quedando guardados uno debajo del otro. Sólo los formatos de imagen tienen previsualización, solo basta con dar clic en alguno de sus campos, como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img32.png)
 ***Imagen 52.** Programas - Previsualización de imagen*
@@ -535,7 +541,9 @@ Si se desea descargar un archivo adjunto al PM, se debe dar clic en el ícono de
 
 ## Transacciones
 
-A esta opción se llega al sobreponer el cursor del mouse sobre el módulo de Programas y al lado derecho se despliega el conjunto de transacciones disponibles para el módulo de Programas, luego se elige la transacción **“Modificar FIP”**.
+
+
+A esta opción se llega al sobreponer el cursor del mouse sobre el módulo de Programas y en la parte inferior se muestra un conjunto de transacciones disponibles para el módulo de Programas, luego se elige la transacción **“Modificar FIP”**.
 
 ![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img26.png)
 
