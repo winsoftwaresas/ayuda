@@ -652,14 +652,17 @@ Al desplegar la lista del campo **Escala**, permite observar el cronograma por d
 
 A continuación, se  procede a verificar si las OT detectadas por  el proceso  de proyección, sí son las órdenes que se esperan para el rango de fechas establecido.  Para esto, se procede a dar clic al botón <a class="btn gray">Ver reportes</a> como se ve en la siguiente imagen:
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img34.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img43.png)
+_**Imagen 62.** Programas - Proyección Diagrama Gantt_
 
 - Se Imprimen los reportes con los resultados proyectados de algunos, de la siguiente lista:
+
 - Cronograma de Mantenimiento Programado con tipo de mantenimiento (TM)
 - Cronograma de Mantenimiento Programado
   Actividades por Mes y Día
 - Listado de repuestos
 - Actividades por Mes y Día (con Presupuesto Discriminado)
+
 - Los anteriores reportes pueden ser seleccionados para uno o varios PM.
 - Después de seleccionar el reporte, pulse el botón `<a class="btn">`imprimir `</a>`.
 - Si al imprimir alguno de estos reportes, el usuario nota que alguna Orden de Trabajo no debió ser  proyectada, vaya  al  programa de  mantenimiento en  cuestión  y revise  sus criterios, para volver a proyectar de nuevo los PMs.
