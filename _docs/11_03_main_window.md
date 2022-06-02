@@ -481,9 +481,8 @@ Una vez que un Programa de Mantenimiento acaba de generar una OT, sobre el progr
 - **Fecha de Última Generación (FUG)** 
 - **Fecha de Inicio del Período (FIP)**
 
->**Nota:** Cuando se posee el **AM** es posible hacer la Programación de las Actividades de Mantenimiento para un período futuro, tanto para el corto como para el largo  plazo, a través de las funciones de Generación y de Proyección. La función de  Generación se encuentra en el submenú de  “Órdenes de Trabajo”. La función Proyección se encuentra en el	submenú   de 	Programas   de	Mantenimiento. Cabe anotar también que esta Programación se   puede realizar con cualquier  anticipación requerida, por   lo   tanto es posible que la Programación de una semana como la 32 se realice en la 28, por ejemplo.
-
-Finalmente se aclara que toda actividad que pretenda programar, proyectar o generar OTs a futuro se fundamenta en la programación realizada con los PMs.
+>**Nota:** En **AM** es posible hacer la Programación de las Actividades de Mantenimiento para un período futuro, tanto para el corto como para el largo  plazo, a través de las funciones de Generación y de Proyección. La función de Generación se encuentra en el submenú de  “Órdenes de Trabajo”. La función Proyección se encuentra en el submenú de Programas de	Mantenimiento. Cabe anotar también que esta Programación se puede realizar con cualquier anticipación requerida, por lo tanto es posible que la Programación de una semana como la 32 se realice en la 28, por ejemplo.
+Finalmente se aclara que toda actividad que pretenda programar, proyectar o generar OT a futuro se fundamenta en la programación realizada con los PM.
 
 
 ### Multimedia
