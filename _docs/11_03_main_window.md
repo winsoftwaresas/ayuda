@@ -437,9 +437,11 @@ En los casos en que la actualización de los contadores de los Activos no pueda 
 
 **Vlr. Contador al Inicio del Período:** Se refiere al valor inicial del contador del Activo, correspondiente a la Fecha de Inicio de Período (FIP) previamente diligenciada en el mismo apartado.
 
+Finalmente para agregar el contador se debe dar clic en el botón de la parte inferior <span class="mdi mdi-plus-circle icon white"></span> y para guardar los cambios se debe <a class="btn blue">Actualizar</a> el registro.
+
 **Fecha de última generación de OT:** Esta fecha es informativa y viene a ser la FUG (fecha de la última generación), por tanto no se puede  modificar, esta fecha es la misma para todos los Criterios de Programación. Es una fecha real, siempre, que muestra cuando fue que se realizó la última generación de una Orden de Trabajo desde ese PM.
 
-Para saber si la OT se va a generar o no; el **AM**  proyecta el valor del Contador del Activo desde la fecha de su última medición hasta el primer día del rango de análisis/generación, y compara el nuevo valor del Contador del Activo con el FUG. Si el valor de la comparación, es mayor o igual a la Recurrencia, genera la Órden de Trabajo.  De lo contrario, recalcula nuevamente el valor del Contador del Activo para el siguiente día del rango de análisis/generación, y hace la  misma comparación. Así recorre todo  el  rango de análisis /generación hasta el último día, generando una OT, si el   valor de alguna de las comparaciones es mayor o igual a la recurrencia.
+Para saber si la OT se va a generar o no; **AM** proyecta el valor del Contador del Activo desde la fecha de su última medición hasta el primer día del rango de análisis/generación, y compara el nuevo valor del Contador del Activo con el FUG. Si el valor de la comparación, es mayor o igual a la Recurrencia, genera la Órden de Trabajo.  De lo contrario, recalcula nuevamente el valor del Contador del Activo para el siguiente día del rango de análisis/generación, y hace la  misma comparación. Así recorre todo  el  rango de análisis/generación hasta el último día, generando una OT, si el   valor de alguna de las comparaciones es mayor o igual a la recurrencia.
 
 Calcular el valor del Contador consiste en sumarle al valor actual del Contador del Activo la cantidad que resulte de llevar el Estándar de Planeación a la mínima unidad de tiempo, o sea a días, y multiplicar este valor por el número de días transcurridos desde la fecha de medición del Contador del AC, hasta el día del rango de Análisis / Generación en análisis.
 
