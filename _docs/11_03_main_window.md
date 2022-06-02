@@ -655,18 +655,19 @@ A continuación, se  procede a verificar si las OT detectadas por  el proceso  d
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img43.png)
 _**Imagen 62.** Programas - Proyección Diagrama Gantt_
 
-- Se Imprimen los reportes con los resultados proyectados de algunos, de la siguiente lista:
+Se muestran los reportes con los resultados proyectados de algunos, de la siguiente lista:
 
-- Cronograma de Mantenimiento Programado con tipo de mantenimiento (TM)
-- Cronograma de Mantenimiento Programado
-  Actividades por Mes y Día
-- Listado de repuestos
-- Actividades por Mes y Día (con Presupuesto Discriminado)
+- Listado De Equipos Por Generar Ordenes
+- Cronograma De Mantenimiento Programado con TM
+- 
 
-- Los anteriores reportes pueden ser seleccionados para uno o varios PM.
-- Después de seleccionar el reporte, pulse el botón `<a class="btn">`imprimir `</a>`.
-- Si al imprimir alguno de estos reportes, el usuario nota que alguna Orden de Trabajo no debió ser  proyectada, vaya  al  programa de  mantenimiento en  cuestión  y revise  sus criterios, para volver a proyectar de nuevo los PMs.
-- Puede imprimir varios reportes uno seguido del otro.
+ 
+
+Los anteriores reportes deben ser seleccionados para **Todos los registros**, primero se debe seleccionar una de las opciones anteriormente mencionadas y luego de estar sombreado en verde se debe clic en el botón <a class="btn white">imprimir</a> para ver el reporte en formato PDF y en la opción <a class="btn white">exportar</a> para llevar este diseño a excel.
+
+
+>**Nota:** Si al imprimir alguno de estos reportes, el usuario nota que alguna OT no debió ser proyectada, debe dirigirse al respectivo programa de mantenimiento y revisar sus criterios para volver a proyectar de nuevo los PM.
+
 
 ### Modificar Masivamente
 
