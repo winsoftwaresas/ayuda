@@ -592,13 +592,11 @@ _**Imagen 57.** Programas - Ventana Detalle Proyectar_
 
 En la gráfica anterior, Proyectar, se aprecian sus componentes y sus   respectivos contenidos.
 
-A través de la ventana de Proyectar se planean Órdenes de Trabajo Programadas. Procedimiento para efectuar Proyección de PM:
+**Procedimiento para efectuar Proyección de PM:**
 
-Digitar la fecha ** “Desde”**. **AM**** sugiere el primer día del año en curso.
+Digitar la fecha **“Desde”**. **AM** sugiere el primer día del año en curso, luego, digitar la fecha ** “Hasta”**. **AM** sugiere el último día del año en curso.
 
-Digitar la fecha ** “Hasta”**. **AM**** sugiere el último día del año en curso.
-
-Ingresar de manera opcional, los porcentajes respectivos en la sección Asignar Variación Porcentual a los Costos en  el presupuesto: Estos porcentajes  corresponden  a   los  valores  en  que desee incrementen los costos del presupuesto, para cada uno de los diferentes rubros de:
+Para ingresar de manera opcional los porcentajes respectivos en la sección Asignar Variación Porcentual a los Costos en  el presupuesto: Estos porcentajes  corresponden  a   los  valores  en  que desee incrementen los costos del presupuesto, para cada uno de los diferentes rubros de:
 
 **Mano de Obra Interna:** Definir el porcentaje que se crea va a incrementar la mano de  obra para el período proyectado en cuestión.
 
