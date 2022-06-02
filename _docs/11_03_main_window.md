@@ -509,22 +509,22 @@ A continuación se describen las carpetas que componen esta ventana; cuando se q
 Para adicionar un documento, imagen o video, se debe dar un doble clic sobre la carpeta deseada, y luego seleccionar del ícono de nube <span class="mdi mdi-cloud-upload icon white"></span>, como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img22.png)
-***Imagen 107.** Órdenes - Abrir Explorador Archivos*
+***Imagen 107.** Programas - Abrir Explorador Archivos*
 
 A continuación se abre el explorador de archivos, seguido de seleccionar el archivo dar un clic en <a class="btn">abrir</a>.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img23.png)
-***Imagen 107.** Órdenes - Seleccionar Archivos*
+***Imagen 107.** Programas - Seleccionar Archivos*
 
 De manera adicional u opcional se puede escribir un nombre en el siguiente campo para enfatizar de lo que trata el archivo:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img24.png)
-***Imagen 108.** Órdenes - Nombrar Archivo*
+***Imagen 108.** Programas - Nombrar Archivo*
 
 Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic sobre el nombre de una de las imágenes, se muestra la previsualización, como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img25.png)
-***Imagen 109.** Activos - Previsualización de imagen*
+***Imagen 109.** Programas - Previsualización de imagen*
 
 Para desasociar un documento, o una imagen o un video, a la OT se da clic al icono de basura <span class="mdi mdi-delete"></span> que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro, finalmente confirmar con el botón <a class="btn white">Aceptar</a>.
 
