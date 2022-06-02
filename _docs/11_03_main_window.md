@@ -676,7 +676,7 @@ Los anteriores reportes deben ser seleccionados para **Todos los registros**, pr
 
 ### Modificar Masivamente
 
-A esta opción se llega al sobreponer el cursor del mouse sobre el módulo de Programas y al lado derecho se despliega el conjunto de transacciones disponibles para el módulo de Programas, luego se elige la transacción ** “Modificar Masivamente”**.
+A esta opción se llega al sobreponer el cursor del mouse sobre el módulo de Programas y al lado derecho se despliega el conjunto de transacciones disponibles para el módulo de Programas, luego se elige la transacción **“Modificar Masivamente”**.
 
 ![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img35.png)
 
