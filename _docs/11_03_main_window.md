@@ -609,17 +609,12 @@ Para proyectar de manera opcional con variaciones en los porcentajes respectivos
 Luego de haber definido el rango, hacer clic en el botón <a class="btn white">Proyectar</a>, a continuación aparece un mensaje alerta para confirmar si se desea proyectar, luego se debe dar clic en <a class="btn white">Aceptar</a>.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img39.png)
-_**Imagen 58.** Programas - Ventana Detalle Proyectar_
+_**Imagen 58.** Programas - Comenzar Proyectar_
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img30.png)
+**AM** busca en todos los  Programas de Mantenimiento, cuáles deben  proyectar órdenes de trabajo en el rango de fechas estipulado. Durante el  proceso, puede visualizarse una barra horizontal que va avanzando a medida que se va analizando y el estado de avance de la proyección, en la parte superior derecha, y al finalizar dicho proceso, el sistema muestra el resultado de la proyección de los PMs proyectados del total de PMs registrados en la base de datos. El proceso también se puede cancelar haciendo clic en el botón <a class="btn gray">cancelar</a> en el cual sistema detiene el proceso sin ningún tipo de perjuicio, es decir, a los datos no son afectados en absoluto.
 
-**AM**** busca en todos los  Programas de Mantenimiento, cuáles deben  proyectar órdenes de trabajo en el rango de fechas estipulado. Durante el  proceso,  puede visualizarse una barra horizontal que va avanzando a medida que se va analizando y el  estado  de  avance  de  la  proyección, en la parte superior derecha, y al finalizar dicho proceso, el sistema muestra el resultado de la proyección de los PMs proyectados del total de PMs registrados en la base de datos. El proceso también se puede cancelar haciendo clic en el botón `<a class="btn">` “Cancelar”`</a>`, y el sistema detiene el proceso sin ningún tipo de perjuicio, es decir, a los datos no son afectados en absoluto.
-
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img30.png)
-
-**AM**** busca en todos los  Programas de Mantenimiento, cuáles deben  proyectar órdenes de trabajo en el rango de fechas estipulado. Durante el  proceso,  puede visualizarse una barra horizontal que va avanzando a medida que se va analizando y el  estado  de  avance  de  la  proyección, en la parte superior derecha, y al finalizar dicho proceso, el sistema muestra el resultado de la proyección de los PMs proyectados del total de PMs registrados en la base de datos. El proceso también se puede cancelar haciendo clic en el botón `<a class="btn">`Cancelar `</a>`., y el sistema detiene el proceso sin ningún tipo de perjuicio, es decir, a los datos no son afectados en absoluto.
-
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img31.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img40.png)
+_**Imagen 59.** Programas - Proyección_
 
 En el resultado de la proyección, se evidencia:
 
