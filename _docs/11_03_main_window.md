@@ -445,7 +445,7 @@ Para saber si la OT se va a generar o no; **AM** proyecta el valor del Contador 
 
 Calcular el valor del Contador consiste en sumarle al valor actual del Contador del Activo la cantidad que resulte de llevar el Estándar de Planeación a la mínima unidad de tiempo, o sea a días, y multiplicar este valor por el número de días transcurridos desde la fecha de medición del Contador del Activo, hasta el día del rango de Análisis/Generación.
 
-En síntesis el Sistema proyecta el estado del contador del AC a partir de su valor  en  la fecha de última lectura real, hasta la fecha de programación actual, según el    parámetro definido en el Estándar de Planeación. De esta forma se compara un contador proyectado contra el contador histórico o de la última generación, permitiéndole al Sistema, programar actividades que no se programarían por tener desactualizado el contador real.
+En síntesis, el Sistema proyecta el estado del contador del Activo a partir de su valor en la fecha de última lectura real, hasta la fecha de programación actual, según el parámetro definido en el Estándar de Planeación. De esta forma se compara un contador proyectado contra el contador histórico o de la última generación, permitiéndole al Sistema, programar actividades que no se programarían por tener desactualizado el contador real.
 
 Recuerde que el parámetro ** “Estándar  de Planeación”** es opcional y NO se debe usar si se desea trabajar con lecturas reales solamente, es decir, si se mantienen actualizados los Contadores de los ACs.
 
