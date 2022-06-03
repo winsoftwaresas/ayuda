@@ -756,9 +756,10 @@ _**Imagen 75.** Programas - MM Criterio Semanas del año_
 
 #### Ingresar Presupuesto
 
-**Ingresar Presupuesto Materiales y Repuesto:** Se Inserta Masivamente el presupuesto de Materiales y Repuestos a los diferentes PM(s) que están previamente seleccionados en el visor. Se Aumenta o Disminuye el valor del Presupuesto de los Materiales y Repuestos a los diferentes PM(s).
+**Ingresar Presupuesto Materiales y Repuesto:** Se Inserta Masivamente el presupuesto de Materiales y Repuestos a los diferentes PM que están previamente seleccionados en el visor. Se Aumenta o Disminuye el valor del Presupuesto de los Materiales y Repuestos a los diferentes PM.
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img48.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img57.png)
+_**Imagen 76.** Programas - MM Criterio Semanas del año_
 
 **Ingresar Presupuesto Mano de Obra:** Se Inserta Masivamente el presupuesto de Mano de Obra Interna a los diferentes PM(s) que están previamente seleccionados en el visor. Se Aumenta o Disminuye el valor del Presupuesto de la Mano de Obra Interna a los diferentes PM(s).
 
