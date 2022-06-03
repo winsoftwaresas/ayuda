@@ -743,9 +743,10 @@ _**Imagen 73.** Programas - MM Solicitante TE RI_
 
 #### Modificar Criterio
 
-**Modificar Criterio por Frecuencia:** Se Modifica Masivamente el criterio por Frecuencia, del o los PM(s) que están previamente seleccionados en el visor.
+**Modificar Criterio por Frecuencia:** Se Modifica Masivamente el criterio por Frecuencia, del o los PM que están previamente seleccionados en el visor.
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img45.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img55.png)
+_**Imagen 74.** Programas - MM Criterio de Frecuencia_
 
 **Modificar Criterio por Semanas del año:** Se Modifica Masivamente el criterio por Semanas del año, del o los PM(s) que están previamente seleccionados en el visor.
 
