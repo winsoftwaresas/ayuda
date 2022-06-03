@@ -681,7 +681,7 @@ A esta opción se llega al sobreponer el cursor del mouse sobre el módulo de Pr
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img44.png)
 _**Imagen 63.** Programas - Ir a Modificación Masiva_
 
-Esta transacción permite cambiar masivamente el Criterio, Ingresar Presupuesto, Eliminar Presupuesto, Modificar Presupuesto, Desactivar Programas y Adjuntar Documentos, de los Programas previamente seleccionados o subgrupos, que se encuentran en el Visor. Para ello se debe dar clic al botón  <a class="btn white">Modificación masiva</a> ubicado al lado superior izquierdo de la ventana:
+Esta transacción permite cambiar masivamente el campos del Programa, Criterio, Ingresar Presupuesto, Eliminar Presupuesto, Modificar Presupuesto, Desactivar Programas y Adjuntar Documentos, de los Programas previamente seleccionados o subgrupos, que se encuentran en el Visor. Para ello se debe dar clic al botón  <a class="btn white">Modificación masiva</a> ubicado al lado superior izquierdo de la ventana:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img45.png)
 _**Imagen 64.** Programas - Modificación Masiva_
@@ -693,21 +693,25 @@ _**Imagen 65.** Programas - Modificación Masiva Opciones_
 
 A continuación se describen los campos que componen esta ventana de   información adicional.
 
-**Modificar Solamente  Este  Programa:**  Al  escoger  esta  opción,  se  ejecutan los  cambios marcados (Programa, Criterio, Ingresar Presupuesto, Eliminar Presupuesto, Modificar Presupuesto, Desactivar Programas y Adjuntar Documentos)  al Programa que se encuentre seleccionado en el visor.
+**Modificar solamente este Programa:**  Esta opción ejecuta los cambios marcados (Programa, Criterio, Ingresar Presupuesto, Eliminar Presupuesto, Modificar Presupuesto, Desactivar Programas y Adjuntar Documentos) al Programa que se encuentre seleccionado en el visor.
 
-**Modificar Todos los Programas en el Visor:** Al escoger esta opción, se ejecutan los cambios marcados (Programa, Criterio, Ingresar Presupuesto, Eliminar Presupuesto, Modificar Presupuesto, Desactivar Programas y Adjuntar Documentos) a todos los Programas que se encuentren en el visor.
+**Modificar todos los Programas en el Visor:** Esta opción ejecuta los cambios marcados (Programa, Criterio, Ingresar Presupuesto, Eliminar Presupuesto, Modificar Presupuesto, Desactivar Programas y Adjuntar Documentos) a todos los Programas que se encuentren en el visor.
 
-**Modificar Centro de Costo:** Se Modifica Masivamente el Centro de Costo, del o los PM(s) que están previamente seleccionados en el visor.
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img37.png)
+**Modificar Centro de Costo:** Se Modifica Masivamente el Centro de Costo, del o los PM que están previamente seleccionados en el visor.
 
-**Modificar Centro Responsable:** Se Modifica Masivamente el Centro Responsable de los PM (s) están previamente seleccionados en el visor
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img47.png)
+_**Imagen 66.** Programas - MM Centro de Costo_
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img38.png)
+**Modificar Centro Responsable:** Se Modifica Masivamente el Centro Responsable de los PM que están previamente seleccionados en el visor.
 
-**Modificar Comentarios:** Se Modifica Masivamente los Comentarios de los PM(s) que se están previamente seleccionados en el visor.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img48.png)
+_**Imagen 67.** Programas - MM Centro Responsable_
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img39.png)
+**Modificar Comentarios:** Se Modifica Masivamente los Comentarios de los PM que se están previamente seleccionados en el visor.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img49.png)
+_**Imagen 68.** Programas - MM Comentarios_
 
 **Modificar Contrato:** Se Modifica Masivamente el contrato previamente definido a los PMs que están previamente seleccionados en el visor.
 
