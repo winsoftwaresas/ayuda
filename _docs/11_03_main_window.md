@@ -748,13 +748,13 @@ _**Imagen 73.** Programas - MM Solicitante TE RI_
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img55.png)
 _**Imagen 74.** Programas - MM Criterio de Frecuencia_
 
-**Modificar Criterio por Semanas del año:** Se Modifica Masivamente el criterio por Semanas del año, del o los PM(s) que están previamente seleccionados en el visor.
+**Modificar Criterio por Semanas del año:** Se Modifica Masivamente el criterio por Semanas del año, del o los PM que están previamente seleccionados en el visor.
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img46.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img56.png)
+_**Imagen 75.** Programas - MM Criterio Semanas del año_
 
-**Modificar Criterio por Contador:** Se Modifica Masivamente el criterio por Contador, del o los PM(s) que están previamente seleccionados en el visor.
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img47.png)
+#### Ingresar Presupuesto
 
 **Ingresar Presupuesto Materiales y Repuesto:** Se Inserta Masivamente el presupuesto de Materiales y Repuestos a los diferentes PM(s) que están previamente seleccionados en el visor. Se Aumenta o Disminuye el valor del Presupuesto de los Materiales y Repuestos a los diferentes PM(s).
 
