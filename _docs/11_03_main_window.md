@@ -723,17 +723,20 @@ _**Imagen 69.** Programas - MM Contrato_
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img51.png)
 _**Imagen 70.** Programas - MM FIP_
 
-**Modificar Prioridad:** Se Modifica Masivamente la Prioridad de los PM (s) que están previamente seleccionados en el visor.
+**Modificar Prioridad:** Se Modifica Masivamente la Prioridad de los PM que están previamente seleccionados en el visor.
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img42.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img52.png)
+_**Imagen 71.** Programas - MM Prioridad_
 
-**Modificar Responsable:** Se Modifica Masivamente el Responsable, del o los PM(s) que están previamente seleccionados en el visor.
+**Modificar Responsable:** Se Modifica Masivamente el Responsable, del o los PM que están previamente seleccionados en el visor.
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img43.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img53.png)
+_**Imagen 72.** Programas - MM Responsable_
 
-**Modificar Solicitante:** Se Modifica Masivamente el Solicitante, del o los PM(s) que están previamente seleccionados en el visor.
+**Modificar Solicitante:** Se Modifica Masivamente el Solicitante, del o los PM que están previamente seleccionados en el visor. Solo se pueden escoger de los Terceros RI, activos en la infraestructura.
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img44.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img54.png)
+_**Imagen 73.** Programas - MM Solicitante TE RI_
 
 **Modificar Criterio por Frecuencia:** Se Modifica Masivamente el criterio por Frecuencia, del o los PM(s) que están previamente seleccionados en el visor.
 
