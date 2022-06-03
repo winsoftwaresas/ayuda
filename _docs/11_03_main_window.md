@@ -676,17 +676,22 @@ Los anteriores reportes deben ser seleccionados para **Todos los registros**, pr
 
 ### Modificar Masivamente
 
-A esta opción se llega al sobreponer el cursor del mouse sobre el módulo de Programas y al lado derecho se despliega el conjunto de transacciones disponibles para el módulo de Programas, luego se elige la transacción **“Modificar Masivamente”**.
+A esta opción se llega al sobreponer el cursor del mouse sobre el módulo de Programas y en la parte inferior derecho se despliega el conjunto de transacciones disponibles para el módulo de Programas, luego se elige la transacción **“Modificar Masivamente”**.
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img35.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img44.png)
+_**Imagen 63.** Programas - Ir a Modificación Masiva_
 
-Esta transacción permite cambiar masivamente el Programa, Criterio, Ingresar Presupuesto, Eliminar Presupuesto, Modificar Presupuesto, Desactivar Programas y Adjuntar Documentos, de los Programas previamente seleccionados, que  se encuentran en el Visor. Para ello se debe dar clic al link en azul ** “Modificar Masivamente”** ubicado al lado superior izquierdo de la ventana, seguidamente se muestra las opciones de modificación masiva disponibles.
+Esta transacción permite cambiar masivamente el Criterio, Ingresar Presupuesto, Eliminar Presupuesto, Modificar Presupuesto, Desactivar Programas y Adjuntar Documentos, de los Programas previamente seleccionados o subgrupos, que se encuentran en el Visor. Para ello se debe dar clic al botón  <a class="btn white">Modificación masiva</a> ubicado al lado superior izquierdo de la ventana:
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img36.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img45.png)
+_**Imagen 64.** Programas - Modificación Masiva_
 
-En  la  gráfica  anterior,  Modificar  Masivamente,  se  aprecian  sus  componentes  y  sus respectivos contenidos.
+A continuación se muestran las opciones disponibles:
 
-A  continuación se  describen los  campos que  componen esta  ventana de   información adicional.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img46.png)
+_**Imagen 65.** Programas - Modificación Masiva Opciones_
+
+A continuación se describen los campos que componen esta ventana de   información adicional.
 
 **Modificar Solamente  Este  Programa:**  Al  escoger  esta  opción,  se  ejecutan los  cambios marcados (Programa, Criterio, Ingresar Presupuesto, Eliminar Presupuesto, Modificar Presupuesto, Desactivar Programas y Adjuntar Documentos)  al Programa que se encuentre seleccionado en el visor.
 
