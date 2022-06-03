@@ -697,6 +697,8 @@ A continuación se describen los campos que componen esta ventana de   informaci
 
 **Modificar todos los Programas en el Visor:** Esta opción ejecuta los cambios marcados (Programa, Criterio, Ingresar Presupuesto, Eliminar Presupuesto, Modificar Presupuesto, Desactivar Programas y Adjuntar Documentos) a todos los Programas que se encuentren en el visor.
 
+#### Modificar Programa
+
 
 **Modificar Centro de Costo:** Se Modifica Masivamente el Centro de Costo, del o los PM que están previamente seleccionados en el visor.
 
@@ -737,6 +739,9 @@ _**Imagen 72.** Programas - MM Responsable_
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img54.png)
 _**Imagen 73.** Programas - MM Solicitante TE RI_
+
+
+#### Modificar Criterio
 
 **Modificar Criterio por Frecuencia:** Se Modifica Masivamente el criterio por Frecuencia, del o los PM(s) que están previamente seleccionados en el visor.
 
