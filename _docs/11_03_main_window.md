@@ -713,13 +713,15 @@ _**Imagen 67.** Programas - MM Centro Responsable_
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img49.png)
 _**Imagen 68.** Programas - MM Comentarios_
 
-**Modificar Contrato:** Se Modifica Masivamente el contrato previamente definido a los PMs que están previamente seleccionados en el visor.
+**Modificar Contrato:** Se Modifica Masivamente el contrato previamente definido a los PM que están previamente seleccionados en el visor.
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img40.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img50.png)
+_**Imagen 69.** Programas - MM Contrato_
 
-**Modificar Fecha de Inicio de Período (FIP):** Se Modifica Masivamente la FIP, del o los PM(s) que están previamente seleccionados en el visor.
+**Modificar Fecha de Inicio de Período (FIP):** Se Modifica Masivamente la FIP, del o los PM que están previamente seleccionados en el visor.
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img41.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img51.png)
+_**Imagen 70.** Programas - MM FIP_
 
 **Modificar Prioridad:** Se Modifica Masivamente la Prioridad de los PM (s) que están previamente seleccionados en el visor.
 
