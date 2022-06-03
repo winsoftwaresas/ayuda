@@ -676,65 +676,85 @@ Los anteriores reportes deben ser seleccionados para **Todos los registros**, pr
 
 ### Modificar Masivamente
 
-A esta opción se llega al sobreponer el cursor del mouse sobre el módulo de Programas y al lado derecho se despliega el conjunto de transacciones disponibles para el módulo de Programas, luego se elige la transacción **“Modificar Masivamente”**.
+A esta opción se llega al sobreponer el cursor del mouse sobre el módulo de Programas y en la parte inferior derecho se despliega el conjunto de transacciones disponibles para el módulo de Programas, luego se elige la transacción **“Modificar Masivamente”**.
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img35.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img44.png)
+_**Imagen 63.** Programas - Ir a Modificación Masiva_
 
-Esta transacción permite cambiar masivamente el Programa, Criterio, Ingresar Presupuesto, Eliminar Presupuesto, Modificar Presupuesto, Desactivar Programas y Adjuntar Documentos, de los Programas previamente seleccionados, que  se encuentran en el Visor. Para ello se debe dar clic al link en azul ** “Modificar Masivamente”** ubicado al lado superior izquierdo de la ventana, seguidamente se muestra las opciones de modificación masiva disponibles.
+Esta transacción permite cambiar masivamente el campos del Programa, Criterio, Ingresar Presupuesto, Eliminar Presupuesto, Modificar Presupuesto, Desactivar Programas y Adjuntar Documentos, de los Programas previamente seleccionados o subgrupos, que se encuentran en el Visor. Para ello se debe dar clic al botón  <a class="btn white">Modificación masiva</a> ubicado al lado superior izquierdo de la ventana:
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img36.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img45.png)
+_**Imagen 64.** Programas - Modificación Masiva_
 
-En  la  gráfica  anterior,  Modificar  Masivamente,  se  aprecian  sus  componentes  y  sus respectivos contenidos.
+A continuación se muestran las opciones disponibles:
 
-A  continuación se  describen los  campos que  componen esta  ventana de   información adicional.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img46.png)
+_**Imagen 65.** Programas - Modificación Masiva Opciones_
 
-**Modificar Solamente  Este  Programa:**  Al  escoger  esta  opción,  se  ejecutan los  cambios marcados (Programa, Criterio, Ingresar Presupuesto, Eliminar Presupuesto, Modificar Presupuesto, Desactivar Programas y Adjuntar Documentos)  al Programa que se encuentre seleccionado en el visor.
+A continuación se describen los campos que componen esta ventana de   información adicional.
 
-**Modificar Todos los Programas en el Visor:** Al escoger esta opción, se ejecutan los cambios marcados (Programa, Criterio, Ingresar Presupuesto, Eliminar Presupuesto, Modificar Presupuesto, Desactivar Programas y Adjuntar Documentos) a todos los Programas que se encuentren en el visor.
+**Modificar solamente este Programa:**  Esta opción ejecuta los cambios marcados (Programa, Criterio, Ingresar Presupuesto, Eliminar Presupuesto, Modificar Presupuesto, Desactivar Programas y Adjuntar Documentos) al Programa que se encuentre seleccionado en el visor.
 
-**Modificar Centro de Costo:** Se Modifica Masivamente el Centro de Costo, del o los PM(s) que están previamente seleccionados en el visor.
+**Modificar todos los Programas en el Visor:** Esta opción ejecuta los cambios marcados (Programa, Criterio, Ingresar Presupuesto, Eliminar Presupuesto, Modificar Presupuesto, Desactivar Programas y Adjuntar Documentos) a todos los Programas que se encuentren en el visor.
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img37.png)
+#### Modificar Programa
 
-**Modificar Centro Responsable:** Se Modifica Masivamente el Centro Responsable de los PM (s) están previamente seleccionados en el visor
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img38.png)
+**Modificar Centro de Costo:** Se Modifica Masivamente el Centro de Costo, del o los PM que están previamente seleccionados en el visor.
 
-**Modificar Comentarios:** Se Modifica Masivamente los Comentarios de los PM(s) que se están previamente seleccionados en el visor.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img47.png)
+_**Imagen 66.** Programas - MM Centro de Costo_
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img39.png)
+**Modificar Centro Responsable:** Se Modifica Masivamente el Centro Responsable de los PM que están previamente seleccionados en el visor.
 
-**Modificar Contrato:** Se Modifica Masivamente el contrato previamente definido a los PMs que están previamente seleccionados en el visor.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img48.png)
+_**Imagen 67.** Programas - MM Centro Responsable_
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img40.png)
+**Modificar Comentarios:** Se Modifica Masivamente los Comentarios de los PM que se están previamente seleccionados en el visor.
 
-**Modificar Fecha de Inicio de Período (FIP):** Se Modifica Masivamente la FIP, del o los PM(s) que están previamente seleccionados en el visor.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img49.png)
+_**Imagen 68.** Programas - MM Comentarios_
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img41.png)
+**Modificar Contrato:** Se Modifica Masivamente el contrato previamente definido a los PM que están previamente seleccionados en el visor.
 
-**Modificar Prioridad:** Se Modifica Masivamente la Prioridad de los PM (s) que están previamente seleccionados en el visor.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img50.png)
+_**Imagen 69.** Programas - MM Contrato_
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img42.png)
+**Modificar Fecha de Inicio de Período (FIP):** Se Modifica Masivamente la FIP, del o los PM que están previamente seleccionados en el visor.
 
-**Modificar Responsable:** Se Modifica Masivamente el Responsable, del o los PM(s) que están previamente seleccionados en el visor.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img51.png)
+_**Imagen 70.** Programas - MM FIP_
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img43.png)
+**Modificar Prioridad:** Se Modifica Masivamente la Prioridad de los PM que están previamente seleccionados en el visor.
 
-**Modificar Solicitante:** Se Modifica Masivamente el Solicitante, del o los PM(s) que están previamente seleccionados en el visor.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img52.png)
+_**Imagen 71.** Programas - MM Prioridad_
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img44.png)
+**Modificar Responsable:** Se Modifica Masivamente el Responsable, del o los PM que están previamente seleccionados en el visor.
 
-**Modificar Criterio por Frecuencia:** Se Modifica Masivamente el criterio por Frecuencia, del o los PM(s) que están previamente seleccionados en el visor.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img53.png)
+_**Imagen 72.** Programas - MM Responsable_
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img45.png)
+**Modificar Solicitante:** Se Modifica Masivamente el Solicitante, del o los PM que están previamente seleccionados en el visor. Solo se pueden escoger de los Terceros RI, activos en la infraestructura.
 
-**Modificar Criterio por Semanas del año:** Se Modifica Masivamente el criterio por Semanas del año, del o los PM(s) que están previamente seleccionados en el visor.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img54.png)
+_**Imagen 73.** Programas - MM Solicitante TE RI_
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img46.png)
 
-**Modificar Criterio por Contador:** Se Modifica Masivamente el criterio por Contador, del o los PM(s) que están previamente seleccionados en el visor.
+#### Modificar Criterio
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img47.png)
+**Modificar Criterio por Frecuencia:** Se Modifica Masivamente el criterio por Frecuencia, del o los PM que están previamente seleccionados en el visor.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img55.png)
+_**Imagen 74.** Programas - MM Criterio de Frecuencia_
+
+**Modificar Criterio por Semanas del año:** Se Modifica Masivamente el criterio por Semanas del año, del o los PM que están previamente seleccionados en el visor.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img56.png)
+_**Imagen 75.** Programas - MM Criterio Semanas del año_
+
+
+#### Ingresar Presupuesto
 
 **Ingresar Presupuesto Materiales y Repuesto:** Se Inserta Masivamente el presupuesto de Materiales y Repuestos a los diferentes PM(s) que están previamente seleccionados en el visor. Se Aumenta o Disminuye el valor del Presupuesto de los Materiales y Repuestos a los diferentes PM(s).
 
