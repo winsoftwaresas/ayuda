@@ -26,8 +26,7 @@ Para los ambientes donde AMsi no está relacionado por centros de costo que tien
 
 2. Función de búsqueda con el tabulador para activos. Permite la búsqueda por Código, Número de Activo Fijo y Serial.
 
-![Procesar imagen]
-(https://ayuda.winsoftware.com.co/assets/images/Version82/Imagen5.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/Version82/Imagen5.png)
 
 **MODULO DE INFRAESTRUCTURA:**
 
