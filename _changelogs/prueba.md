@@ -10,13 +10,11 @@ title: VERSIÓN 82
 
 
 
-![Procesar imagen]
-(https://ayuda.winsoftware.com.co/assets/images/Version82/Imagen2.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/Version82/Imagen2.png)
 
 Para los ambientes donde AMsi no está relacionado por centros de costo que tienen la configuración. Se adicionan las funciones:
 
-![Procesar imagen]
-(https://ayuda.winsoftware.com.co/assets/images/Version82/Imagen3.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/Version82/Imagen3.png)
 
 1. Por defecto el AMsi toma la primera compañía de la lista
 
