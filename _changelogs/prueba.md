@@ -6,7 +6,7 @@ title: VERSIÓN 82
 
 1. Se adiciona el campo de validación para la contraseña de usuario
 
-![Procesar imagen](https://ayuda.winsoftware.com.co//assets/images/Version82/Imagen1.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/Version82/Imagen1.png)
 
 
 
