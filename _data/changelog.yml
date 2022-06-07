@@ -5,10 +5,10 @@
   date: Junio 3, 2022
   list:
   - Se adiciona el campo de confirmar constraseña en AMsi.
-  - AMsi No relacionado por Centros de Costo. Se adiciona la función de busqueda con tabulador.
-  - Modulo de Infraestructura se corrigen todos los permisos de visulización.
+  - AMsi No relacionado por Centros de Costo. Se adiciona la función de búsqueda con tabulador.
+  - Modulo de Infraestructura se corrigen todos los permisos de visualización.
   - Se calculan y muestran todos los valores de Ejecución de contratos.
-  - Se adicionan las validaciones para compañias biomedicas y mtrologia en la vista de Arbol.
+  - Se adicionan las validaciones para compañias biomédicas y metrología en la vista de Árbol.
   - Se desarrolla el calcula del valor actual depreciado, Años de Uso y Años restantes del activo.
   - Se guarda la relación de contador con el criterio para que el historial del contador no se pierda.
   - Los usuarios con permisos restrictivos solo podrán exportar y modificar masivamente los registros a los que tienen acceso.
