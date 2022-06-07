@@ -1,6 +1,6 @@
 ---
 layout: page
-title: VERSIÓN 82
+title: VERSIÓN 82 CAMBIOS Y ADICIONES
 ---
 **MÓDULO DE AMsi:**
 
