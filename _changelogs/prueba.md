@@ -4,7 +4,7 @@ title: VERSIÓN 82 CAMBIOS Y ADICIONES
 ---
 **MÓDULO DE AMsi:**
 
-1. Se adiciona el campo de validación para la contraseña de usuario
+1. Se adiciona el campo: Confirmar contraseña de Usuario.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/Version82/Imagen1.png)
 
