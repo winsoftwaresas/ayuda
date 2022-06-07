@@ -1,10 +1,26 @@
 # Changelog page source
 
-- title: Version 4.0.81
+- title: Version AM4G 0.82
+  label: STABLE
+  date: Junio 3, 2022
+  list:
+  - Se adiciona el campo de confirmar constraseña en AMsi.
+  - AMsi No relacionado por Centros de Costo. Se adiciona la función de busqueda con tabulador.
+  - Modulo de Infraestructura se corrigen todos los permisos de visulización.
+  - Se calculan y muestran todos los valores de Ejecución de contratos.
+  - Se adicionan las validaciones para compañias biomedicas y mtrologia en la vista de Arbol.
+  - Se desarrolla el calcula del valor actual depreciado, Años de Uso y Años restantes del activo.
+  - Se guarda la relación de contador con el criterio para que el historial del contador no se pierda.
+  - Los usuarios con permisos restrictivos solo podrán exportar y modificar masivamente los registros a los que tienen acceso.
+  - El Dashboard de Historia se programa para responder al subgrupo asignado.
+  - Se parametriza la opción Permitir crear Solicitudes y Órdenes solo usuarios incluidos en Terceros. 
+
+
+- title: Version AM4G 0.81
   label: STABLE
   date: Mayo 5, 2022
   list:
-  - Se corrige la tabla de Infraestructura Referencias, se pueden realizar actualizaciones y eliminar
+  - Se corrige la tabla de Infraestructura Referencias, se pueden realizar actualizaciones y eliminar.
   - Se adicionaron 5 puntos de metrologia a los activos biomedicos. Total 8 puntos.
   - Se desarrolla un nuevo filtro para Activos que permite la busqueda por Valor Nominal de las caracteristicas.
   - Se habilita la funcion Eliminar Contadores en Activos; se borra tanto el contador como su historial.
@@ -18,7 +34,7 @@
   - Se desarrollan los reportes de Historia HMI-IND3 ,HMI-IND4 ,HMI-IND7 ,HMD-HIHV, HMD-HIHVBIO.
   - Se desarrollan los reportes de Órdenes OTD-G2XP,OTD-P2XP.
 
-- title: Version 4.0.80
+- title: Version AM4G 0.80
   label: STABLE
   date: Abril 05, 2022
   list:
@@ -27,7 +43,7 @@
   - Se desarrolla el reporte de Historia HME-CRMACC.
   - Se crea la opción para que los usuarios de AMovil pueden parametrizar desde AM4G, si los técnicos pueden usar el estado Cerrado Ejecutado en AMovil.
   
-- title: Version 4.0.79
+- title: Version AM4G 0.79
   label: STABLE
   date: Febrero 28, 2022
   list:
