@@ -15,9 +15,11 @@ Para los ambientes donde AMsi que tienen la configuración difinida como No Rela
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/Version82/Imagen3.png)
 
+
 1. Por defecto el AMsi toma la primera compañía de la lista
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/Version82/Imagen4.png)
+
 
 2. Función de búsqueda con el tabulador para activos. Permite la búsqueda por Código, Número de Activo Fijo y Serial.
 
