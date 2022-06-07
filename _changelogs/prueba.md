@@ -11,7 +11,7 @@ title: VERSIÓN 82 CAMBIOS Y ADICIONES
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/Version82/Imagen2.png)
 
 
-Para los ambientes donde AMsi que tienen la configuración definida como No Relacionar Usuarios por centros de costo . Se adicionan las funciones:
+Para los ambientes donde la configuración definida AMsi es No Relacionar Usuarios por centros de costo . Se adicionan las funciones:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/Version82/Imagen3.png)
 
