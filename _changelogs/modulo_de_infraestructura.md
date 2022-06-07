@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "VERSION  AM4G 0.81: Cambios Y Adiciones"
+title: VERSION  AM4G 0.81 Cambios Y Adiciones
 feature_image: ""
 feature_text: "\n"
 image: ""
