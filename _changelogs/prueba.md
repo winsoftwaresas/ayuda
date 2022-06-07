@@ -1,6 +1,6 @@
 ---
 layout: page
-title: VERSIÓN 82 CAMBIOS Y ADICIONES
+title: VERSIÓN AM4G 0.82 Cambios Y Adiciones
 ---
 **MÓDULO DE AMsi:**
 
