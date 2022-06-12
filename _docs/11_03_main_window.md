@@ -756,7 +756,7 @@ _**Imagen 75.** Programas - MM Criterio Semanas del año_
 
 #### Ingresar Presupuesto
 
-**Ingresar Presupuesto Materiales y Repuesto:** Se Inserta Masivamente el presupuesto de Materiales y Repuestos a los diferentes PM que están previamente seleccionados en el visor. Se Aumenta o Disminuye el valor del Presupuesto de los Materiales y Repuestos a los diferentes PM. El repuesto en este campo se busca a través del ícono de subgrupo <span class="mdi mdi-plus-circle icon white"></span>. 
+**Ingresar Presupuesto Materiales y Repuestos:** Se Inserta Masivamente el presupuesto de Materiales y Repuestos a los diferentes PM que están previamente seleccionados en el visor. Se Aumenta o Disminuye el valor del Presupuesto de los Materiales y Repuestos a los diferentes PM. El repuesto en este campo se busca a través del ícono de subgrupo <span class="mdi mdi-plus-circle icon white"></span>. 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img57.png)
 _**Imagen 76.** Programas - MM Materiales y Repuestos_
@@ -766,17 +766,22 @@ _**Imagen 76.** Programas - MM Materiales y Repuestos_
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img58.png)
 _**Imagen 77.** Programas - MM Mano de Obra_
 
-**Ingresar Presupuesto Otros Conceptos de Costos:** Se Inserta Masivamente el presupuesto de Otros Conceptos de Costos a los diferentes PM(s) que están previamente seleccionados en el visor. Se Aumenta o Disminuye el valor del Presupuesto de Otros Conceptos de Costos a los diferentes PM(s).
+**Ingresar Presupuesto Otros Conceptos de Costos:** Se inserta Masivamente el presupuesto de Otros Conceptos de Costos a los diferentes PM que están previamente seleccionados en el visor. Se Aumenta o Disminuye el valor del Presupuesto de Otros Conceptos de Costos a los diferentes PM.
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img50.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img59.png)
+_**Imagen 77.** Programas - MM Otros Conceptos De Costo_
 
-**Eliminar Presupuesto Materiales y Repuestos:** Se Elimina Masivamente el presupuesto de Materiales y Repuestos a los diferentes PM(s) que están previamente seleccionados en el visor.
+#### Eliminar Presupuesto
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img51.png)
+**Materiales y Repuestos:** Se elimina Masivamente el presupuesto de Materiales y Repuestos a los PM previamente seleccionados en el visor.
 
-**Eliminar Presupuesto Mano de Obra:** Se Elimina Masivamente el presupuesto de Mano de Obra Interna a los diferentes PM(s) que están previamente seleccionados en el visor.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img60.png)
+_**Imagen 77.** Programas - MM Eliminar M y R_
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img52.png)
+**Eliminar Presupuesto Mano de Obra:** Se elimina Masivamente el presupuesto de Mano de Obra Interna a los  PM que están previamente seleccionados en el visor.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img61.png)
+_**Imagen 77.** Programas - MM Eliminar MO_
 
 **Eliminar Presupuesto Otros Conceptos de Costos:** Se Elimina Masivamente el presupuesto de Otros Conceptos de Costos a los diferentes PM(s) que están previamente seleccionados en el visor.
 
