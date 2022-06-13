@@ -804,4 +804,5 @@ _**Imagen 80.** Programas - MM Desactivar Programas_
 _**Imagen 81.** Programas - MM Adjuntar Documentos_
 
 
+
 >**Nota:** Para efectuar los cambios para el conjunto de Programas previamente seleccionado en el subgrupo se debe dar un clic en el botón <a class="btn blue">modificar <span class="mdi mdi-pencil"></span></a>. El sistema mostrará dos mensajes alerta, uno seguido del otro, con el fin de preguntarle al Usuario si está seguro de hacer la modificación masiva, esta transacción es un permiso especial que se otorga desde el módulo de <a class="btn blue">administración</a> en Permisos Básicos, en la opción **Masificar**.
