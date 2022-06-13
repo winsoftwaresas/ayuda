@@ -756,42 +756,53 @@ _**Imagen 75.** Programas - MM Criterio Semanas del año_
 
 #### Ingresar Presupuesto
 
-**Ingresar Presupuesto Materiales y Repuesto:** Se Inserta Masivamente el presupuesto de Materiales y Repuestos a los diferentes PM(s) que están previamente seleccionados en el visor. Se Aumenta o Disminuye el valor del Presupuesto de los Materiales y Repuestos a los diferentes PM(s).
+**Ingresar Presupuesto Materiales y Repuestos:** Se Inserta Masivamente el presupuesto de Materiales y Repuestos a los diferentes PM que están previamente seleccionados en el visor. Se Aumenta o Disminuye el valor del Presupuesto de los Materiales y Repuestos a los diferentes PM. El repuesto en este campo se busca a través del ícono de subgrupo <span class="mdi mdi-plus-circle icon white"></span>. 
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img48.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img57.png)
+_**Imagen 76.** Programas - MM Materiales y Repuestos_
 
-**Ingresar Presupuesto Mano de Obra:** Se Inserta Masivamente el presupuesto de Mano de Obra Interna a los diferentes PM(s) que están previamente seleccionados en el visor. Se Aumenta o Disminuye el valor del Presupuesto de la Mano de Obra Interna a los diferentes PM(s).
+**Ingresar Presupuesto Mano de Obra:** Se Inserta Masivamente el presupuesto de Mano de Obra Interna a los diferentes PM que están previamente seleccionados en el visor. Se Aumenta o Disminuye el valor del Presupuesto de la Mano de Obra Interna a los diferentes registros.
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img49.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img58.png)
+_**Imagen 77.** Programas - MM Mano de Obra_
 
-**Ingresar Presupuesto Otros Conceptos de Costos:** Se Inserta Masivamente el presupuesto de Otros Conceptos de Costos a los diferentes PM(s) que están previamente seleccionados en el visor. Se Aumenta o Disminuye el valor del Presupuesto de Otros Conceptos de Costos a los diferentes PM(s).
+**Ingresar Presupuesto Otros Conceptos de Costos:** Se inserta Masivamente el presupuesto de Otros Conceptos de Costos a los diferentes PM que están previamente seleccionados en el visor. Se Aumenta o Disminuye el valor del Presupuesto de Otros Conceptos de Costos a los diferentes PM.
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img50.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img59.png)
+_**Imagen 77.** Programas - MM Otros Conceptos De Costo_
 
-**Eliminar Presupuesto Materiales y Repuestos:** Se Elimina Masivamente el presupuesto de Materiales y Repuestos a los diferentes PM(s) que están previamente seleccionados en el visor.
+#### Eliminar Presupuesto
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img51.png)
+**Materiales y Repuestos:** Se elimina Masivamente el presupuesto de Materiales y Repuestos a los PM previamente seleccionados en el visor.
 
-**Eliminar Presupuesto Mano de Obra:** Se Elimina Masivamente el presupuesto de Mano de Obra Interna a los diferentes PM(s) que están previamente seleccionados en el visor.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img60.png)
+_**Imagen 77.** Programas - MM Eliminar M y R_
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img52.png)
+**Eliminar Presupuesto Mano de Obra:** Se elimina Masivamente el presupuesto de Mano de Obra Interna a los  PM que están previamente seleccionados en el visor.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img61.png)
+_**Imagen 77.** Programas - MM Eliminar MO_
 
 **Eliminar Presupuesto Otros Conceptos de Costos:** Se Elimina Masivamente el presupuesto de Otros Conceptos de Costos a los diferentes PM(s) que están previamente seleccionados en el visor.
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img53.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img62.png)
+_**Imagen 78.** Programas - MM Eliminar OC_
 
-**Modificar Presupuesto:** Se Modifica Masivamente el presupuesto, donde se puede aumentar o disminuir en un porcentaje el presupuesto de Mano de Obra Interna y Otros Conceptos, del o los PM(s) que están previamente seleccionados en el visor
+**Modificar Presupuesto:** Se Modifica Masivamente el presupuesto, donde se puede aumentar o disminuir en un porcentaje el presupuesto de Mano de Obra Interna y Otros Conceptos, de los PM que están previamente seleccionados en el visor
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img54.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img63.png)
+_**Imagen 79.** Programas - MM Modificar Presupuesto_
 
-**Desactivar Programas:** Se realiza la opción de Desactivar Programas de los PM (s) que están previamente seleccionados en el visor.
+**Desactivar Programas:** Se realiza la opción de Desactivar Programas de los PM que están previamente seleccionados en el visor.
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img54.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img64.png)
+_**Imagen 80.** Programas - MM Desactivar Programas_
 
-**Adjuntar Documentos:** Se Adjunta Documentos en los PM (s) permitiendo la carga de archivos o anexos necesarios para el módulo.
+**Adjuntar Documentos:** Se Adjunta Documentos en los PM permitiendo la carga de archivos o anexos necesarios para el módulo.
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img55.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img65.png)
+_**Imagen 81.** Programas - MM Adjuntar Documentos_
 
-**Adjuntar Documentos:** Se Adjunta Documentos en los PM (s) permitiendo la carga de archivos o anexos necesarios para el módulo.
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img56.png)
+
+>**Nota:** Para efectuar los cambios para el conjunto de Programas previamente seleccionado en el subgrupo se debe dar un clic en el botón <a class="btn blue">modificar <span class="mdi mdi-pencil"></span></a>. El sistema mostrará dos mensajes alerta, uno seguido del otro, con el fin de preguntarle al Usuario si está seguro de hacer la modificación masiva, esta transacción es un permiso especial que se otorga desde el módulo de <a class="btn blue">administración</a> en Permisos Básicos, en la opción **Masificar**.
