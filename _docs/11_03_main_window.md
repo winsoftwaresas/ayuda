@@ -786,20 +786,21 @@ _**Imagen 77.** Programas - MM Eliminar MO_
 **Eliminar Presupuesto Otros Conceptos de Costos:** Se Elimina Masivamente el presupuesto de Otros Conceptos de Costos a los diferentes PM(s) que están previamente seleccionados en el visor.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img62.png)
-_**Imagen 77.** Programas - MM Eliminar OC_
+_**Imagen 78.** Programas - MM Eliminar OC_
 
-**Modificar Presupuesto:** Se Modifica Masivamente el presupuesto, donde se puede aumentar o disminuir en un porcentaje el presupuesto de Mano de Obra Interna y Otros Conceptos, del o los PM(s) que están previamente seleccionados en el visor
+**Modificar Presupuesto:** Se Modifica Masivamente el presupuesto, donde se puede aumentar o disminuir en un porcentaje el presupuesto de Mano de Obra Interna y Otros Conceptos, de los PM que están previamente seleccionados en el visor
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img54.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img63.png)
+_**Imagen 79.** Programas - MM Modificar Presupuesto_
 
-**Desactivar Programas:** Se realiza la opción de Desactivar Programas de los PM (s) que están previamente seleccionados en el visor.
+**Desactivar Programas:** Se realiza la opción de Desactivar Programas de los PM que están previamente seleccionados en el visor.
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img54.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img64.png)
+_**Imagen 80.** Programas - MM Desactivar Programas_
 
-**Adjuntar Documentos:** Se Adjunta Documentos en los PM (s) permitiendo la carga de archivos o anexos necesarios para el módulo.
+**Adjuntar Documentos:** Se Adjunta Documentos en los PM permitiendo la carga de archivos o anexos necesarios para el módulo.
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img55.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img65.png)
+_**Imagen 81.** Programas - MM Adjuntar Documentos_
 
-**Adjuntar Documentos:** Se Adjunta Documentos en los PM (s) permitiendo la carga de archivos o anexos necesarios para el módulo.
 
-![ detalle programa de mantenimiento](../../assets/images/cap08/chp08_img56.png)
