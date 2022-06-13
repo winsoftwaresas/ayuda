@@ -804,3 +804,4 @@ _**Imagen 80.** Programas - MM Desactivar Programas_
 _**Imagen 81.** Programas - MM Adjuntar Documentos_
 
 
+>Nota: Para efectuar los cambios para el conjunto de Programas previamente seleccionado en el subgrupo se debe dar un clic en el botón <a class="btn blue">mofidicar</a>. El sistema mostrará dos mensajes alerta 
