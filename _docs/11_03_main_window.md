@@ -828,12 +828,13 @@ También un indicador de la existencia de un subgrupo, es el ícono de triángul
 Para personalizar la vista de los gráficos o tener una información específica se recomienda hacer subgrupos a través del ícono de triángulo invertido. Asimismo los DashBoards permiten ocultar información con solo dar un clic sobre sus rectángulos de colores como se muestra en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img69.png)
-***Imagen 84.** Programas - Subgrupos Dashboard*
+_**Imagen 84.** Programas - Subgrupos Dashboard_
 
 Sí se desea restablecer la información, se debe dar clic al ícono <span class="mdi mdi-autorenew"></span>. En cambio, si se desea exportar el gráfico en un formato de imagen, es posible dando clic al ícono <span class="mdi mdi-download"></span>. Es posible ver la información de cada ítem sobreponiendo el cursor sobre un color.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img70.png)
-***Imagen 85.** Programas - Subgrupos Dashboard*
+
+_**Imagen 85.** Programas - Subgrupos Dashboard_
 
 
 
