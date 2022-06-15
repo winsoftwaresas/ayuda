@@ -25,14 +25,14 @@ En el caso de que el Administrador del **AMsi** haya asociado Todos los Centros 
 Sin embargo, es posible hacer Subgrupos (búsquedas específicas) a través del ícono <span class="mdi mdi-filter-variant"></span> ubicado en la parte superior derecha y ver solo las SS creadas por el Usuario logueado. Esto tiene como finalidad de que el usuario pueda realizar constantemente y en tiempo real el seguimiento y consultas a sus SS.
 A esta ventana se llega al dar clic a la opción de Consultar Mis Solicitudes en la ventana de Menú Principal.
 
-![Procesar imagen](../assets/images/placeholder.jpg)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img09.png)
 **_Imagen 9.  Consultar Mis Solicitudes_**
 
-**AMsi** mantiene activo cualquier subgrupo, hasta que el usuario lo modifique o restablezca los valores estándar. Cuando el ícono se muestra con una pelota roja, está indicando que lo que se visualiza en el visor es un subgrupo. El sistema permite entonces hacer selección de un grupo de SS de acuerdo con los criterios seleccionados.
+**AMsi** mantiene activo cualquier subgrupo, hasta que el usuario lo modifique o restablezca los valores estándar. Cuando el ícono <span class="mdi mdi-filter-variant"></span> se muestra con una pelota roja, está indicando que lo que se visualiza en el visor es un subgrupo. El sistema permite entonces hacer selección de un grupo de SS de acuerdo con los criterios seleccionados.
 
 Una vez dado un clic sobre el ícono de subgrupos, se muestran los siguientes criterios de búsqueda:
 
-![Procesar imagen](../assets/images/placeholder.jpg)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img10.png)
 **_Imagen 10. Criterios de búsqueda_**
 
 Los campos de datos que constituyen criterio de selección en la Ventana Subgrupo de **AMsi** son los siguientes:
@@ -47,7 +47,7 @@ Los campos de datos que constituyen criterio de selección en la Ventana Subgrup
 
 ##### **FILTRAR POR CAMPOS DE LA SOLICITUD DE SERVICIO**
 
-**Centro de Costo:** Permite la selección de SS de acuerdo con  el Centro de Costo asignado a ella. Existen dos formas de definir el Centro de Costo. La primera es seleccionando el Centro de Costo de la lista desplegable. La segunda es dando clic al icono de candado y digitando a continuación segmentos del nombre del Centro de Costo usando comodines (%). Cuando se utilizan comodines, es posible seleccionar las SS pertenecientes a Centros de Costo que tengan parte del nombre igual. Por ejemplo: %Sistema% selecciona todos los registros en cuyo Centro de Costo exista la palabra Sistema, independiente de si se está hablando del Sistema de Agua, de Vapor o de Energía.
+**Centro de Costo:** Permite la selección de SS de acuerdo con  el Centro de Costo asignado a ella. Existen dos formas de definir el Centro de Costo. La primera es seleccionando el Centro de Costo de la lista desplegable. La segunda es dando clic al icono  <span class="mdi mdi-lock"></span>, éste se desbloquea <span class="mdi mdi-lock-open-outline"></span> y permite digitar a continuación segmentos del nombre del Centro de Costo usando comodines (%). Cuando se utilizan comodines, es posible seleccionar las SS pertenecientes a Centros de Costo que tengan parte del nombre igual. Por ejemplo: %Sistema% selecciona todos los registros en cuyo Centro de Costo exista la palabra Sistema, independiente de si se está hablando del Sistema de Agua, de Vapor o de Energía.
 
 **Diagnóstico del Usuario:** Permite la selección de SS de acuerdo con una parte de la Descripción del usuario. Se debe digitar manualmente y es posible usar comodines.
 
