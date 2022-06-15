@@ -22,7 +22,7 @@ _**Imagen 3.** Botón Actualizar Perfil_
 El sistema muestra automáticamente el Detalle del Formulario para Actualizar Perfil en la ventana de Menú Principal del usuario.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img04.png)
-**_Imagen 4.  Actualizar Perfil_**
+**_Imagen 4. Actualizar Perfil_**
 
 A continuación, se describen los campos que componen el registro. Sobre cada campo se da una breve explicación:
 
