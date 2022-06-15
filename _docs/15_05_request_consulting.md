@@ -57,7 +57,7 @@ Los campos de datos que constituyen criterio de selección en la Ventana Subgrup
 
 **FF de Creación:** Permite la selección de SS cuya fecha de Creación se encuentren incluidas en el rango especificado en este campo.
 
-**Solicitante (**AMsi**):** Este campo permite seleccionar las SS activas para el Solicitante aquí definido. Para seleccionarlo se debe  elegir un usuario de la lista desplegable.
+**Solicitante (AMsi):** Este campo permite seleccionar las SS activas para el Solicitante aquí definido. Para seleccionarlo se debe  elegir un usuario de la lista desplegable.
 
 **Responsable:** Permite la  selección de SS cuyo Responsable  fue especificado en este campo. Es posible usar comodines (%).
 
@@ -67,8 +67,8 @@ Los campos de datos que constituyen criterio de selección en la Ventana Subgrup
 
 Para realizar la consulta de una SS, basta con dar clic a uno de los registros de las SS listadas y a continuación se muestra en detalle toda la información allí contenida.
 
-![Procesar imagen](../assets/images/placeholder.jpg)
-**_Imagen 11.  Ventana Detalle de la SS_**
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img11.png)
+**_Imagen 11. Ventana Detalle de la SS_**
 
 Este visor contiene la siguiente información:
 
@@ -114,7 +114,7 @@ Estos campos solo son manipulados por los encargados del área de mantenimiento 
 
 **Evaluar el servicio:** Contiene el resultado de la Evaluación de la SS, si ya se realizó y si no se ha realizado, permite realizarla siempre y cuando la SS/OT se encuentre en estado Cerrada Ejecutada (CE) o Cerrada con OT (CO) y cuando el usuario sea el mismo en el campo Solicitante.
 
-**Comentario:** El campo comentario es un campo que no es modificable. A través de este visor que muestra el Detalle de la SS, es posible que el usuario realice comentarios relevantes e importantes para el área de Mantenimiento. Para realizar los comentarios, se debe dirigir al final de la Ventana Detalle de la SS y digitar el comentario en el campo llamado “Comentario”, para agregarlo a la SS se debe dar clic al botón Agregar Comentario. Al dar clic al botón “Agregar Comentario” aparecerá el comentario ingresado al lado derecho en una ventana tipo chat bloqueada y a su vez inhabilita la modificación de los comentarios que allí se encuentren; además de la fecha, hora y el usuario logueado que realizó el comentario. Estos comentarios también se visualizan desde el módulo de Solicitudes de Servicio de **AM.**
+**Comentario:** El campo comentario es un campo que no es modificable. A través de este visor que muestra el Detalle de la SS, es posible que el usuario realice comentarios relevantes e importantes para el área de Mantenimiento. Para realizar los comentarios, se debe dirigir al final de la Ventana Detalle de la SS y digitar el comentario en el campo llamado “Comentario”, para agregarlo a la SS se debe dar clic al botón <a class="btn gray">agregar comentario</a>. Al dar clic aparece el comentario ingresado al lado derecho en una ventana tipo chat bloqueada y a su vez inhabilita la modificación de los comentarios que allí se encuentren; además de la fecha, hora y el usuario logueado que realizó el comentario. Estos comentarios también se visualizan desde el módulo de Solicitudes de Servicio de **AM.**
 
-![Procesar imagen](../assets/images/placeholder.jpg)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img12.png)
 _**Imagen 12.  Ventana Detalle de la SS (Comentarios)**_
