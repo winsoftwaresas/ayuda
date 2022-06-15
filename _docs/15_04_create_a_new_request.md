@@ -1,9 +1,13 @@
 ---
-title: Crear Nueva Solicitud 
-subtitle: Este capítulo define el formulario a diligenciar para crear una SS desde **AMsi**. 
-tags: [AMsi, Crear Solicitud]
+title: Crear Nueva Solicitud
+subtitle: Este capítulo define el formulario a diligenciar para crear una SS
+  desde **AMsi**.
+tags:
+  - AMsi
+  - Crear Solicitud
 author: win
 order: 15_04
+date: 2022-06-15T14:56:34.185Z
 ---
 Se suministra información detallada del formulario _Servicio Solicitado_. Dicha información, especifica claramente el servicio solicitado así como el Centro de Servicio responsable de atender la SS creada.
 Se identifican los campos relacionados en el formulario Servicio Solicitado para la creación de SS y se reconocen los comandos que aparecen en pantalla.
@@ -17,12 +21,12 @@ Se identifican los campos relacionados en el formulario Servicio Solicitado para
 Este formulario trae los datos del solicitante previamente logueado en la ventana de  acceso al **AMsi**. Contiene la información personal del solicitante, información del servicio solicitado, información del Activo/Equipo objeto de la SS de mantenimiento.
 Para la Creación de la SS, dar clic en el siguiente botón mostrado:
 
-![Procesar imagen](../assets/images/placeholder.jpg)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img06.png)
 _**Imagen 6.**  Crear Nueva Solicitud_
 
-### 4.1	Ventana Creación de la Solicitud de Servicio
+### Ventana Creación de la Solicitud de Servicio
 
-![Procesar imagen](../assets/images/placeholder.jpg)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img07.png)
 _**Imagen 7.**  Ventana Creación SS_
 
 Luego de dar clic sobre el botón anterior, el sistema responde mostrando en una nueva ventana, el Detalle del Servicio a solicitar. A través de ella se ejecutan todas las funciones dedicadas a la creación de la SS. A continuación, se describen los campos que la componen, sobre cada uno se da una breve explicación:
