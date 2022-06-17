@@ -1,6 +1,6 @@
 ---
 layout: page
-title: VERSIÓN 0.80 Cambios y Adiciones
+title: VERSIÓN AM4G 0.80 Cambios y Adiciones
 ---
 
 **MÓDULO ACTIVOS:**
