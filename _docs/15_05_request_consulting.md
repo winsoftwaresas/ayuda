@@ -37,7 +37,7 @@ Una vez dado un clic sobre el ícono de subgrupos, se muestran los siguientes cr
 
 Los campos de datos que constituyen criterio de selección en la Ventana Subgrupo de **AMsi** son los siguientes:
 
-##### **FILTRAR POR CAMPOS DEL ACTIVO ASOCIADO A LA SOLICITUD DE SERVICIO**
+##### FILTRAR POR CAMPOS DEL ACTIVO ASOCIADO A LA SOLICITUD DE SERVICIO
 
 **AC-Código:** Esta selección agrupa las SS cuyo Activo coincidan el código completo o una porción del mismo.
 
@@ -45,7 +45,7 @@ Los campos de datos que constituyen criterio de selección en la Ventana Subgrup
 
 **Activo en lenguaje natural:** Permite filtrar las SS que contengan parte del nombre igual del Activo.
 
-##### **FILTRAR POR CAMPOS DE LA SOLICITUD DE SERVICIO**
+##### FILTRAR POR CAMPOS DE LA SOLICITUD DE SERVICIO
 
 **Centro de Costo:** Permite la selección de SS de acuerdo con  el Centro de Costo asignado a ella. Existen dos formas de definir el Centro de Costo. La primera es seleccionando el Centro de Costo de la lista desplegable. La segunda es dando clic al icono  <span class="mdi mdi-lock"></span>, éste se desbloquea <span class="mdi mdi-lock-open-outline"></span> y permite digitar a continuación segmentos del nombre del Centro de Costo usando comodines (%). Cuando se utilizan comodines, es posible seleccionar las SS pertenecientes a Centros de Costo que tengan parte del nombre igual. Por ejemplo: %Sistema% selecciona todos los registros en cuyo Centro de Costo exista la palabra Sistema, independiente de si se está hablando del Sistema de Agua, de Vapor o de Energía.
 
