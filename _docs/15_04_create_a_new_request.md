@@ -79,7 +79,7 @@ Para seleccionar el Activo/Equipo se da clic en el icono de filtro azul <span cl
 Una vez enviada la SS, el sistema muestra un mensaje de notificación de registro exitoso, mostrando el número o consecutivo asignado. Se habilitan además las opciones de Crear Nueva Solicitud y Consultar Mis Solicitudes, como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img08.png)
-**_Imagen 8. Mensaje registro SS_**
+**_Imagen 8.** Mensaje registro SS_
 
 **Botón Crear Nueva Solicitud:** Se usa para crear nuevas solicitudes de servicio. Aplica cuando se ha enviado una SS y se desea generar una nueva.
 
