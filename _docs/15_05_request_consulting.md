@@ -33,7 +33,7 @@ A esta ventana se llega al dar clic a la opción de Consultar Mis Solicitudes en
 Una vez dado un clic sobre el ícono de subgrupos, se muestran los siguientes criterios de búsqueda:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img10.png)
-**_Imagen 10. Criterios de búsqueda_**
+**_Imagen 10. Subgrupos_**
 
 Los campos de datos que constituyen criterio de selección en la Ventana Subgrupo de **AMsi** son los siguientes:
 
