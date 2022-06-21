@@ -1,9 +1,13 @@
 ---
-title: Crear una nueva Orden
-subtitle: Este capítulo define el formulario a diligenciar para la generación de una Orden de Trabajo (OT) desde AMsi.
-tags: [AMsi, Crear Orden en AMsi]
+title: Crear Nueva Orden
+subtitle: Este capítulo define el formulario a diligenciar para la generación de
+  una Orden de Trabajo (OT) desde AMsi.
+tags:
+  - AMsi
+  - Crear Orden en AMsi
 author: win
 order: 15_07
+date: 2022-06-21T22:09:41.972Z
 ---
 Se suministra información detallada del formulario Servicio Solicitado. Dicha información, especifica claramente el servicio solicitado, así como también el Centro de Servicio responsable de atender la OT creada.
 
@@ -13,15 +17,15 @@ Se identifican los campos relacionados en el formulario Servicio Solicitado para
 
 - Formulario Servicio Solicitado.
 - Campos de Servicio Solicitado
-- Campos de Información de Activo / Equipo
+- Campos de Información de Activo/Equipo
 
 Este formulario trae los datos del solicitante previamente logueado en la ventana de acceso al **AMsi**. Contiene la información personal del solicitante, información del servicio solicitado, información del Activo/Equipo objeto de la OT de mantenimiento.
 
-Todos los campos marcados con asterisco (*) son de carácter obligatorio.
+Una vez logueado el Usuario se muestra el Menú Principal:
 
 Una vez ingresados los datos del solicitante de manera correcta en el botón del Menú principal Actualizar Perfil, continuar dando un clic a la siguiente opción ubicada al lado derecho para continuar con la Creación de la OT:
 
-![Procesar imagen](../assets/images/placeholder.jpg)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img15.png)
 _**Imagen 15. Crear Nueva Orden**_
 
 ### 7.1	Ventana Creación de la Orden de Trabajo
