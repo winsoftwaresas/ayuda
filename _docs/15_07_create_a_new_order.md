@@ -9,7 +9,7 @@ author: win
 order: 15_07
 date: 2022-06-21T22:09:41.972Z
 ---
-Se suministra información detallada del formulario Servicio Solicitado. Dicha información, especifica claramente el servicio solicitado, así como también el Centro de Servicio responsable de atender la OT creada.
+Se suministra información detallada del formulario Servicio Solicitado. Dicha información, especifica claramente el servicio solicitado, así como también el Centro de Servicio responsable de atender la OT.
 
 Se identifican los campos relacionados en el formulario Servicio Solicitado para la creación de OT, y se reconocen los comandos que aparecen en pantalla.
 
@@ -23,17 +23,17 @@ Este formulario trae los datos del solicitante previamente logueado en la ventan
 
 Una vez logueado el Usuario se muestra el Menú Principal:
 
-Una vez ingresados los datos del solicitante de manera correcta en el botón del Menú principal Actualizar Perfil, continuar dando un clic a la siguiente opción ubicada al lado derecho para continuar con la Creación de la OT:
+Una vez ingresados los datos del solicitante de manera correcta en el botón del Menú principal **Actualizar Perfil**, continuar dando un clic a la siguiente opción ubicada al lado derecho para continuar con la Creación de la OT:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img15.png)
 _**Imagen 15. Crear Nueva Orden**_
 
 ### 7.1	Ventana Creación de la Orden de Trabajo
 
-![Procesar imagen](../assets/images/placeholder.jpg)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img16.png)
 _**Imagen 16. Ventana Creación OT**_
 
-A esta ventana se llega haciendo clic sobre la opción Crear Nueva Orden del Menú Principal. A través de ella se ejecutan todas las funciones dedicadas a la creación de la OT. A continuación, se describen los campos que componen esta ventana de Creación de OT. Sobre cada campo se da una breve explicación.
+A esta ventana se llega haciendo clic sobre la opción **Crear Nueva Orden** en el Menú Principal. A través de ella se ejecutan todas las funciones dedicadas a la creación de la OT. A continuación, se describen los campos que componen esta ventana Creación de OT. Sobre cada campo se da una breve explicación.
 
 ### Campos Del Formulario _Datos Del Solicitante_
 
@@ -66,11 +66,11 @@ En caso de ser un usuario que tenga asociado Todos Los Centros de Costo, este ca
 
 **Descripción:** En este campo se digita la descripción detallada del servicio de mantenimiento requerido. Se detalla el problema, inconveniente, necesidad o avería a ser atendida.
 
-**Activo/Equipo:** En este campo se selecciona el Activo/Equipo de la organización que requiere atención de mantenimiento a través del ícono azul (triángulo invertido) que se encuentra en la parte derecha del campo. La lista desplegada incluye los Activos/Equipos creados previamente en el **AM** y los que están asociados al Centro de Costo de la compañía correspondiente.
+**Activo/Equipo:** En este campo se selecciona el Activo/Equipo de la organización que requiere atención de mantenimiento a través del ícono azul <span class="mdi mdi-filter-variant icon white"></span> que se encuentra en la parte derecha del campo. La lista desplegada incluye los Activos/Equipos creados previamente en **AM** y los que están asociados al Centro de Costo de la compañía correspondiente.
 
 Existe control en todos los casos sobre el Centro de Costo, es decir, solo se despliegan o se permiten elegir Activos/Equipos que estén asociados al Centro de Costo definido en el campo Centro de Costo.
 
-Para seleccionar el Activo/Equipo se da clic en el icono de filtro azul (triángulo invertido) ubicado al lado derecho de este campo, inmediatamente se abre una nueva ventana del visor de Activos/Equipos, luego de elegirlo se observa que aparece el código del Activo/Equipo.
+Para seleccionar el Activo/Equipo se da clic en el icono de filtro azul <span class="mdi mdi-filter-variant icon white"></span> y se abre una nueva ventana del visor de Activos/Equipos, el registro se elige se elige con un doble clic y se observa que aparece el código y la descripción del Activo/Equipo identificado.
 
 **Descripción:** Este campo permanece bloqueado y muestra la descripción del Activo/Equipo seleccionado.
 
@@ -81,8 +81,13 @@ Para seleccionar el Activo/Equipo se da clic en el icono de filtro azul (triáng
 **Botón Enviar:** Este botón envía inmediatamente la OT a la base de datos del AM para ser revisada por el área de mantenimiento encargada y proceder así con su análisis y asignación.
 Una vez enviada la OT, el sistema muestra un mensaje de notificación de registro exitoso. Se habilitan además las opciones de Crear Nueva Orden y Consultar Mis Órdenes, como se indica a continuación:
 
-![Procesar imagen](../assets/images/placeholder.jpg)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img17.png)
 _**Imagen 17.  Mensaje registro OT**_
+
+**Botón Anexar Multimedia:** Permite una vez que se envíe la OT se puede anexar archivos Multimedia, como documentos, imágenes o porciones de video siempre y cuando el usuario permanezca en esta ventana.
+
+
+
 
 **Botón Crear Nueva Orden:** Se usa para crear nuevas OT. Aplica cuando se acaba de enviar una OT y se desea generar un nuevo registro en esa misma ventana.
 Botón Consultar Mis Órdenes: Este botón lo remite a una nueva ventana en la que puede realizar búsquedas y consultas de OT creadas previamente. Para mayor información al respecto se detalla en la sección de “Consultar Mis Órdenes” de este manual.
