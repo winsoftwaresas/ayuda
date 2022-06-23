@@ -97,7 +97,15 @@ _**Imagen 19.** Multimedia_
 A continuación se visualiza el ícono <span class="mdi mdi-cloud-upload icon white"></span> en el cual se debe dar clic con el fin de abrir el explorador de archivos:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img20.png)
-_**Imagen 19.** Multimedia_
+_**Imagen 20.** Multimedia_
+
+Una vez elegido el archivo a adjuntar puede asignarse un nombre opcional en el espacio en el espacio en blanco a continuación:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img21.png)
+_**Imagen 21.** Multimedia_
+
+Luego se debe dar clic en el botón 
+
 
 
 **Botón Crear Nueva Orden:** Se usa para crear nuevas OT. Aplica cuando se acaba de enviar una OT y se desea generar un nuevo registro en esa misma ventana.
