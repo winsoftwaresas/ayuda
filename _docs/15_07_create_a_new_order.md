@@ -82,11 +82,22 @@ Para seleccionar el Activo/Equipo se da clic en el icono de filtro azul <span cl
 Una vez enviada la OT, el sistema muestra un mensaje de notificación de registro exitoso. Se habilitan además las opciones de Crear Nueva Orden y Consultar Mis Órdenes, como se indica a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img17.png)
-_**Imagen 17.  Mensaje registro OT**_
+_**Imagen 17.**  Mensaje registro OT_
 
 **Botón Anexar Multimedia:** Permite una vez que se envíe la OT se puede anexar archivos Multimedia, como documentos, imágenes o porciones de video siempre y cuando el usuario permanezca en esta ventana.
 
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img18.png)
+_**Imagen 18.** Ir a Multimedia_
 
+Para ingresar multimedia se debe dar doble clic sobre una de las tres carpetas:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img19.png)
+_**Imagen 19.** Multimedia_
+
+A continuación se visualiza el ícono <span class="mdi mdi-cloud-upload icon white"></span> en el cual se debe dar clic con el fin de abrir el explorador de archivos:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img20.png)
+_**Imagen 19.** Multimedia_
 
 
 **Botón Crear Nueva Orden:** Se usa para crear nuevas OT. Aplica cuando se acaba de enviar una OT y se desea generar un nuevo registro en esa misma ventana.
