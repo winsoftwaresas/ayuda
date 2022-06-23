@@ -609,6 +609,7 @@ _**Imagen 178.** Historia - Dashboard OT_
 Sí se desea restablecer la información, se debe dar clic al icono de las flechas circulares <span class="mdi mdi-autorenew"></span>. En cambio, si se desea exportar el gráfico en un formato de imagen, es posible dando clic a la flecha hacia abajo <span class="mdi mdi-download"></span>.
 
 ![Dashboard SS](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img32.png)
+
 _**Imagen 179.** Historia - Dashboard SS_
 
 ## Exportar
