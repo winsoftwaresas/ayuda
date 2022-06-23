@@ -624,7 +624,7 @@ En la gráfica anterior, se aprecian sus componentes y sus respectivos contenido
 **Exportar Visor:** Esta opción exporta todas los registros seleccionadas en el visor mediante un subgrupo.
 
 **Exportar Todos los Registros:** Esta opción exporta todas las OT, SS y PA existentes en la base de datos, sin importar cualquier subgrupo activo.
-Luego de escoger una de las opciones anteriores, en la parte inferior aparece seleccionado por defecto el recuadro <a class="btn white"><span class="mdi mdi-checkbox-blank-outline"></span></a> exportar todos los campos pero si se prefiere uno o varios, se debe des-seleccionar y a continuación hacer clic en los recuadros a exportar, una vez elegida la información, se da clic en el botón inferior <a class="btn white">exportar</a> el cual genera un archivo de Excel que se descarga automáticamente. El objetivo de esta exportación es llevar toda la información de las OT, SS y PA a un archivo plano, para luego ser analizadas.
+Luego de escoger una de las opciones anteriores, en la parte inferior aparece seleccionado por defecto el recuadro <a class="btn white"><span class="mdi mdi-checkbox-blank-outline"></span> exportar todos los campos</a> pero si se prefiere uno o varios, se debe des-seleccionar y a continuación hacer clic en los recuadros a exportar, una vez elegida la información, se da clic en el botón inferior <a class="btn white">exportar</a> el cual genera un archivo de Excel que se descarga automáticamente. El objetivo de esta exportación es llevar toda la información de las OT, SS y PA a un archivo plano, para luego ser analizadas.
 
 ## Servicios
 
@@ -653,9 +653,45 @@ Para Exportar los reportes, se selecciona el reporte y luego se da clic al botó
 
 Para Cerrar la ventana de los Reportes, se da clic en el botón<a class="btn white">cerrar</a>.
 
-El reporte con código HMI-CMDAP de Análisis de Disponibilidad Previa es necesario hacer una carga de datos primero según la información que se tenga filtrada para poder apreciar de manera correcta el análisis de los datos, como se indica en la siguiente imagen:
+El reporte con código **HMI-CMDAP de Análisis Previo de Disponibilidad** es necesario hacer una carga de datos primero según la información que se tenga filtrada para poder apreciar de manera correcta el análisis de los datos cuando se imprima el reporte, como se indica en la siguiente imagen:
 
-        
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img35.png)
+_**Imagen 182.** Historia - Reporte Cargar Análisis Previo de Disponibilidad_
+
+Primero se debe un clic en el botón <a class="btn white">cargar</a>. Una vez que carguen los datos, se muestra el siguiente mensaje:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img36.png)
+_**Imagen 183.** Historia - Reporte Mensaje Análisis Previo de Disponibilidad_
+
+De esta manera ya se puede <a class="btn white">imprimir</a> o <a class="btn white">exportar</a> y visualizar el reporte.
+
+A continuación se muestra la vista previa de impresión en formato pdf:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img37.png)
+_**Imagen 184.** Historia - Reporte Vista Previa Análisis Previo de Disponibilidad_
+
+Para imprimir o exportar el reporte **HME-CRMACC-Cronograma de Mantenimientos Ejecutados** se debe primero, ir a la transacción de inicio **Valores OOAK** como se muestra a continuación:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img38.png)
+_**Imagen 185.** Historia - Valores OOAK_
+
+Luego, se debe digitar el año del cual se quieren analizar los datos, como se indica en la siguiente imagen, a continuación dar un clic en <a class="btn white">cambiar</a> y esperar el mensaje de confirmación:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img39.png)
+_**Imagen 186.** Historia - Ingresar Valores OOAK_
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img40.png)
+_**Imagen 187.** Historia - Mensaje Alerta Valores OOAK_
+
+A continuación, se debe refrescar la página, o bien dando clic derecho y eligiendo la opción **Volver a Cargar** y se debe dirigir nuevamente al módulo de <a class="btn blue">Historia</a> e ir la opción Reportes <span class="mdi mdi-printer"></span> y a continuación <a class="btn white">exportar</a> o <a class="btn white">imprimir</a> los resultados, nótese que el año al lado del campo del reporte confirma el valor OOAK ingresado anteriormente:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img41.png)
+_**Imagen 188.** Historia - Cronograma de Mantenimientos Ejecutados_
+
+A continuación se muestra la visualización del respectivo reporte:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img42.png)
+_**Imagen 189.** Historia - Reporte Cronograma de Mantenimientos Ejecutados_
 
 ### Balance Periódico de Gestión
 
