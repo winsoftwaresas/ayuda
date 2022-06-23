@@ -691,7 +691,7 @@ _**Imagen 188.** Historia - Cronograma de Mantenimientos Ejecutados_
 A continuación se muestra la visualización del respectivo reporte:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img42.png)
-_**Imagen 190.** Historia - Reporte Cronograma de Mantenimientos Ejecutados_
+_**Imagen 189.** Historia - Reporte Cronograma de Mantenimientos Ejecutados_
 
 ### Balance Periódico de Gestión
 
