@@ -102,8 +102,8 @@ Luego se debe dar clic en el botón <a class="btn white">subir archivo</a> y el 
 **Botón Enviar:** Este botón envía inmediatamente la SS a la base de datos del AM para ser revisada por el área de mantenimiento encargada y proceder así con su análisis y asignación.
 Una vez enviada la SS, el sistema muestra un mensaje de notificación de registro exitoso, mostrando el número o consecutivo asignado. Se habilitan además las opciones de Crear Nueva Solicitud y Consultar Mis Solicitudes, como se muestra a continuación:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img.png)
-**_Imagen 12.** Mensaje registro SS_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img12.png)
+_**Imagen 12.** Mensaje registro SS_
 
 **Botón Crear Nueva Solicitud:** Se usa para crear nuevas solicitudes de servicio. Aplica cuando se ha enviado una SS y se desea generar una nueva.
 
