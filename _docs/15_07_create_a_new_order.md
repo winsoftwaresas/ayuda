@@ -86,27 +86,26 @@ _**Imagen 17.**  Mensaje registro OT_
 
 **Botón Anexar Multimedia:** Permite una vez que se envíe la OT se puede anexar archivos Multimedia, como documentos, imágenes o porciones de video siempre y cuando el usuario permanezca en esta ventana.
 
+Para ingresar multimedia se debe dar doble clic sobre una de las tres carpetas. 
+
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img18.png)
 _**Imagen 18.** Ir a Multimedia_
 
-Para ingresar multimedia se debe dar doble clic sobre una de las tres carpetas:
+Se debe dar clic al botón <span class="mdi mdi-cloud-upload icon white"></span> para abrir el explorador de archivos:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img19.png)
 _**Imagen 19.** Multimedia_
 
-A continuación se visualiza el ícono <span class="mdi mdi-cloud-upload icon white"></span> en el cual se debe dar clic con el fin de abrir el explorador de archivos:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img20.png)
-_**Imagen 20.** Multimedia_
+_**Imagen 20.** AMsi - Explorador de archivos_
 
-Una vez elegido el archivo a adjuntar puede asignarse un nombre opcional en el espacio en el espacio en blanco a continuación:
+Una vez elegido el archivo a adjuntar puede asignarse un nombre opcional en el espacio en blanco a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img21.png)
-_**Imagen 21.** Multimedia_
+_**Imagen 21.** AMsi - Subir archivo_
 
-Luego se debe dar clic en el botón 
-
-
+Luego se debe dar clic en el botón <a class="btn white">subir archivo</a> y el sistema confirmará a través de un mensaje que el archivo ha sido subido correctamente.
 
 **Botón Crear Nueva Orden:** Se usa para crear nuevas OT. Aplica cuando se acaba de enviar una OT y se desea generar un nuevo registro en esa misma ventana.
 Botón Consultar Mis Órdenes: Este botón lo remite a una nueva ventana en la que puede realizar búsquedas y consultas de OT creadas previamente. Para mayor información al respecto se detalla en la sección de “Consultar Mis Órdenes” de este manual.
