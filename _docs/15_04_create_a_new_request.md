@@ -77,35 +77,34 @@ Para seleccionar el Activo/Equipo se da clic en el icono de filtro azul <span cl
 
 **Botón Anexar Multimedia:** Permite una vez que se envíe la OT se puede anexar archivos Multimedia, como documentos, imágenes o porciones de video siempre y cuando el usuario permanezca en esta ventana.
 
-Para ingresar multimedia se debe dar doble clic sobre una de las tres carpetas. 
-
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img08.png)
 _**Imagen 8.** Ir a Multimedia_
 
-Se debe dar clic al botón <span class="mdi mdi-cloud-upload icon white"></span> para abrir el explorador de archivos:
+Para ingresar multimedia se debe dar doble clic sobre una de las tres carpetas:
 
-![Procesar imagen]-(https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img09.png)
-
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img09.png)
 _**Imagen 9.** Multimedia_
+
+Se debe dar clic al botón <span class="mdi mdi-cloud-upload icon white"></span> para abrir el explorador de archivos:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img10.png)
 _**Imagen 10.** AMsi - Explorador de archivos_
 
-Una vez elegido el archivo a adjuntar puede asignarse un nombre opcional en el espacio en blanco a continuación:
-
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img11.png)
 _**Imagen 11.** AMsi - Subir archivo_
 
-Luego se debe dar clic en el botón <a class="btn white">subir archivo</a> y el sistema confirmará a través de un mensaje que el archivo ha sido subido correctamente.
+Una vez elegido el archivo a adjuntar puede asignarse un nombre opcional en el espacio en blanco a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img12.png)
 _**Imagen 12.** Mensaje Alerta SS_
 
-**Botón Enviar:** Este botón envía inmediatamente la SS a la base de datos del AM para ser revisada por el área de mantenimiento encargada y proceder así con su análisis y asignación.
-Una vez enviada la SS, el sistema muestra un mensaje de notificación de registro exitoso, mostrando el número o consecutivo asignado. Se habilitan además las opciones de Crear Nueva Solicitud y Consultar Mis Solicitudes, como se muestra a continuación:
+Luego se debe dar clic en el botón <a class="btn white">subir archivo</a> y el sistema confirmará a través de un mensaje que el archivo ha sido subido correctamente:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img13.png)
 _**Imagen 13.** Mensaje registro SS_
+
+**Botón Enviar:** Este botón envía inmediatamente la SS a la base de datos del AM para ser revisada por el área de mantenimiento encargada y proceder así con su análisis y asignación.
+Una vez enviada la SS, el sistema muestra un mensaje de notificación de registro exitoso, mostrando el número o consecutivo asignado. Se habilitan además las opciones de Crear Nueva Solicitud y Consultar Mis Solicitudes, como se muestra a continuación:
 
 **Botón Crear Nueva Solicitud:** Se usa para crear nuevas solicitudes de servicio. Aplica cuando se ha enviado una SS y se desea generar una nueva.
 
