@@ -10,8 +10,6 @@ date: 2022-06-15T20:00:03.581Z
 ---
 **AMsi** solo permite realizar creación y consultas para uno de los dos tipos de registro a la vez: OT o SS, pero no para los dos simultáneamente. Ello depende de la Configuración del aplicativo que se haya elegido, según la necesidad de la Organización.
 
-La Configuración del **AMsi** se describe en detalle en el Capítulo 9 de este manual.
-
 **En este capítulo**
 
 - Subgrupos
@@ -22,8 +20,8 @@ La Configuración del **AMsi** se describe en detalle en el Capítulo 9 de este 
 
 Inicialmente esta transacción trae el listado del total de las SS que se han realizado para la Organización por parte de otros usuarios solicitantes.
 En el caso de que el Administrador del **AMsi** haya asociado Todos los Centros de Costos al Usuario logueado, se mostrarán todas las SS para todos los Centros De Servicio (compañías).
-Sin embargo, es posible hacer Subgrupos (búsquedas específicas) a través del ícono <span class="mdi mdi-filter-variant"></span> ubicado en la parte superior derecha y ver solo las SS creadas por el Usuario logueado. Esto tiene como finalidad de que el usuario pueda realizar constantemente y en tiempo real el seguimiento y consultas a sus SS.
-A esta ventana se llega al dar clic a la opción de Consultar Mis Solicitudes en la ventana de Menú Principal.
+Sin embargo, es posible hacer Subgrupos a través del ícono <span class="mdi mdi-filter-variant"></span> ubicado en la parte superior derecha y ver solo las SS creadas por el Usuario logueado. Esto tiene como finalidad de que el usuario pueda realizar constantemente y en tiempo real el seguimiento y consultas a sus SS.
+A esta ventana se llega al dar clic a la opción de **Consultar Mis Solicitudes** en la ventana de Menú Principal.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img14.png)
 _**Imagen 14.**  Consultar Mis Solicitudes_
