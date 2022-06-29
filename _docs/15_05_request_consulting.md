@@ -20,15 +20,16 @@ date: 2022-06-15T20:00:03.581Z
 
 Inicialmente esta transacción trae el listado del total de las SS que se han realizado para la Organización por parte de otros usuarios solicitantes.
 En el caso de que el Administrador del **AMsi** haya asociado Todos los Centros de Costos al Usuario logueado, se mostrarán todas las SS para todos los Centros De Servicio (compañías).
+
 Sin embargo, es posible hacer Subgrupos a través del ícono <span class="mdi mdi-filter-variant"></span> ubicado en la parte superior derecha y ver solo las SS creadas por el Usuario logueado. Esto tiene como finalidad de que el usuario pueda realizar constantemente y en tiempo real el seguimiento y consultas a sus SS.
 A esta ventana se llega al dar clic a la opción de **Consultar Mis Solicitudes** en la ventana de Menú Principal.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img14.png)
-_**Imagen 14.**  Consultar Mis Solicitudes_
+_**Imagen 14.** Ir a Subgrupos_
 
 **AMsi** mantiene activo cualquier subgrupo, hasta que el usuario lo modifique o restablezca los valores estándar. Cuando el ícono <span class="mdi mdi-filter-variant"></span> se muestra con una pelota roja, está indicando que lo que se visualiza en el visor es un subgrupo. El sistema permite entonces hacer selección de un grupo de SS de acuerdo con los criterios seleccionados.
 
-Una vez dado un clic sobre el ícono de subgrupos, se muestran los siguientes criterios de búsqueda:
+Una vez dado un clic sobre el ícono de subgrupo <span class="mdi mdi-filter-variant"></span>, se muestran los siguientes criterios de búsqueda:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img15.png)
 **_Imagen 15.** Subgrupos_
