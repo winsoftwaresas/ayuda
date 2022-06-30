@@ -32,7 +32,7 @@ _**Imagen 14.** Ir a Subgrupos_
 Una vez dado un clic sobre el ícono de subgrupo <span class="mdi mdi-filter-variant"></span>, se muestran los siguientes criterios de búsqueda:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img15.png)
-**_Imagen 15.** Subgrupos_
+_**Imagen 15.** Subgrupos_
 
 Los campos de datos que constituyen criterio de selección en la Ventana Subgrupo de **AMsi** son los siguientes:
 
@@ -67,7 +67,7 @@ Los campos de datos que constituyen criterio de selección en la Ventana Subgrup
 Para realizar la consulta de una SS, basta con dar clic a uno de los registros de las SS listadas y a continuación se muestra en detalle toda la información allí contenida.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img16.png)
-**_Imagen 16.** Ventana Detalle de la SS_
+_**Imagen 16.** Ventana Detalle de la SS_
 
 Este visor contiene la siguiente información:
 
