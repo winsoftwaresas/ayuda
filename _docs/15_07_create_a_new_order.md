@@ -21,7 +21,7 @@ Se identifican los campos relacionados en el formulario Servicio Solicitado para
 
 Este formulario trae los datos del solicitante previamente logueado en la ventana de acceso al **AMsi**. Contiene la información personal del solicitante, información del servicio solicitado, información del Activo/Equipo objeto de la OT de mantenimiento.
 
-Una vez logueado el Usuario se muestra el Menú Principal:
+Todos los campos marcados con asterisco (*) son de carácter obligatorio.
 
 Una vez ingresados los datos del solicitante de manera correcta en el botón del Menú principal **Actualizar Perfil**, continuar dando un clic a la siguiente opción ubicada al lado derecho para continuar con la Creación de la OT:
 
