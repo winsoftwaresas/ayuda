@@ -75,7 +75,7 @@ Este visor contiene la siguiente información:
 
 - El número de la SS
 - La fecha y hora de creación de la SS
-- El nombre del Estado en el que se encuentra la SS. Este estado solo es modificable desde el  AM por el encargado del área de mantenimiento de la organización.
+- El Estado en el que se encuentra la SS. Este estado solo es modificable desde el  AM por el encargado del área de mantenimiento de la organización.
 - El nombre del Responsable ejecutor del mantenimiento.
 - Nombre del Solicitante. Este nombre puede ser puede ser cambiado desde AM por el encargado del área de mantenimiento de la organización.
 - Email de la persona solicitante.
@@ -102,7 +102,7 @@ Datos suministrados en el formulario de _Actualizar Perfil del **AMsi** :_
 - Tipo de Mantenimiento
 - Tipo de Actividad
 
-**Fechas y Horas:** Estos campos solo son modificables desde el módulo SS del AM. En estos campos aparecen las fechas de atención, inicio de trabajo, fin de trabajo y cierre de la SS.
+**Fechas y Horas:** Estos campos solo son modificables desde el módulo Solicitudes en **AM**. En estos campos aparecen las fechas de atención, inicio de trabajo, fin de trabajo y cierre de la SS.
 
 Estos campos solo son manipulados por los encargados del área de mantenimiento de las diferentes compañías creadas en el AM:
 
