@@ -25,12 +25,12 @@ Una vez logueado el Usuario se muestra el Menú Principal:
 
 Una vez ingresados los datos del solicitante de manera correcta en el botón del Menú principal **Actualizar Perfil**, continuar dando un clic a la siguiente opción ubicada al lado derecho para continuar con la Creación de la OT:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img15.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img20.png)
 _**Imagen 15. Crear Nueva Orden**_
 
 ### 7.1	Ventana Creación de la Orden de Trabajo
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img16.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img21.png)
 _**Imagen 16. Ventana Creación OT**_
 
 A esta ventana se llega haciendo clic sobre la opción **Crear Nueva Orden** en el Menú Principal. A través de ella se ejecutan todas las funciones dedicadas a la creación de la OT. A continuación, se describen los campos que componen esta ventana Creación de OT. Sobre cada campo se da una breve explicación.
