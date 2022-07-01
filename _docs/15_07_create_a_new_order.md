@@ -42,7 +42,8 @@ Este cuadro es informativo y hace referencia a los _Datos del Solicitante_ neces
 **Nro. Documento:** Este campo muestra el número de Identificación de la persona solicitante.
 
 **Nombre Completo:** Este campo muestra el Nombre completo de la persona que solicita un servicio de mantenimiento.
-Teléfono: Este campo muestra el Número telefónico donde se puede localizar a la persona solicitante.
+
+**Teléfono:** Este campo muestra el Número telefónico donde se puede localizar a la persona solicitante.
 
 **Dirección:** Este campo muestra la dirección asignada y que corresponde a la organización a la cual pertenece la persona solicitante.
 
