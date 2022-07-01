@@ -23,10 +23,10 @@ Este formulario trae los datos del solicitante previamente logueado en la ventan
 
 Todos los campos marcados con asterisco (*) son de carácter obligatorio.
 
-Una vez ingresados los datos del solicitante de manera correcta en el botón del Menú principal **Actualizar Perfil**, continuar dando un clic a la siguiente opción ubicada al lado derecho para continuar con la Creación de la OT:
+Una vez ingresados los datos del solicitante de manera correcta en el botón del Menú principal **Actualizar Perfil** _(Consultar la sección Actualizar Perfil)_. Continuar dando un clic a la siguiente opción ubicada al lado derecho para continuar con la Creación de la OT:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img20.png)
-_**Imagen 15. Crear Nueva Orden**_
+_**Imagen 20. Crear Nueva Orden**_
 
 ### 7.1	Ventana Creación de la Orden de Trabajo
 
