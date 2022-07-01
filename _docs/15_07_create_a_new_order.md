@@ -67,11 +67,13 @@ En caso de ser un usuario que tenga asociado Todos Los Centros de Costo, este ca
 
 **Descripción:** En este campo se digita la descripción detallada del servicio de mantenimiento requerido. Se detalla el problema, inconveniente, necesidad o avería a ser atendida.
 
-**Activo/Equipo:** En este campo se selecciona el Activo/Equipo de la organización que requiere atención de mantenimiento a través del ícono azul <span class="mdi mdi-filter-variant icon white"></span> que se encuentra en la parte derecha del campo. La lista desplegada incluye los Activos/Equipos creados previamente en **AM** y los que están asociados al Centro de Costo de la compañía correspondiente.
+**Activo/Equipo:** En este campo se ingresa el Activo/Equipo de la organización que requiere atención de mantenimiento. 
 
+Para seleccionarlo del visor que se despliega dando clic al ícono de filtro azul <span class="mdi mdi-filter-variant icon white"></span> que se encuentra en la parte derecha del campo.
+La lista desplegada en el visor incluye los Activos/Equipos creados previamente en el AM y que a la vez están asociados al Centro de Costo de la compañía correspondiente.
 Existe control en todos los casos sobre el Centro de Costo, es decir, solo se despliegan o se permiten elegir Activos/Equipos que estén asociados al Centro de Costo definido en el campo Centro de Costo.
 
-Para seleccionar el Activo/Equipo se da clic en el icono de filtro azul <span class="mdi mdi-filter-variant icon white"></span> y se abre una nueva ventana del visor de Activos/Equipos, el registro se elige se elige con un doble clic y se observa que aparece el código y la descripción del Activo/Equipo identificado.
+Para seleccionar el Activo/Equipo se da clic en el icono de subgrupo (filtro azul) <span class="mdi mdi-filter-variant icon white"></span> ubicado al lado derecho de este campo, inmediatamente se abre una nueva ventana Visor de Activos, donde también es posible hacer subgrupos y para seleccionarlo se da doble clic sobre el registro, se cierra esta ventana automáticamente y se observa que aparece el código y la descripción del Activo/Equipo.
 
 **Descripción:** Este campo permanece bloqueado y muestra la descripción del Activo/Equipo seleccionado.
 
