@@ -84,12 +84,40 @@ Para seleccionar el Activo/Equipo se da clic en el icono de subgrupo (filtro azu
 **Botón Enviar:** Este botón envía inmediatamente la OT a la base de datos del AM para ser revisada por el área de mantenimiento encargada y proceder así con su análisis y asignación.
 Una vez enviada la OT, el sistema muestra un mensaje de notificación de registro exitoso. Se habilitan además las opciones de Crear Nueva Orden y Consultar Mis Órdenes, como se indica a continuación:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img17.png)
-_**Imagen 17.**  Mensaje registro OT_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img22.png)
+_**Imagen 22.**  Mensaje registro OT_
 
 <a class="btn blue">anexar multimedia <span class="mdi mdi-attachment"></span></a> Permite una vez que se envíe la OT se puede anexar archivos Multimedia, como documentos, imágenes o porciones de video siempre y cuando el usuario permanezca en esta ventana.
 
 Para ingresar multimedia se debe dar doble clic sobre una de las tres carpetas. 
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img23.png)
+_**Imagen 23.** Multimedia_
+
+Se debe dar clic al botón <span class="mdi mdi-cloud-upload icon white"></span> para abrir el explorador de archivos:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img24.png)
+_**Imagen 24.** AMsi - Explorador de archivos_
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img25.png)
+_**Imagen 25.** AMsi - Subir archivo_
+
+Una vez elegido el archivo a adjuntar puede asignarse un nombre opcional en el espacio en blanco a continuación:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img25.png)
+_**Imagen 25.** Mensaje Alerta SS_
+
+Luego se debe dar clic en el botón <a class="btn white">subir archivo</a> y el sistema confirmará a través de un mensaje que el archivo ha sido subido correctamente:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img26.png)
+_**Imagen 26.** Mensaje registro SS_
+
+<a class="btn blue">enviar <span class="mdi mdi-send"></span></a> : Este botón envía inmediatamente la SS a la base de datos del AM para ser revisada por el área de mantenimiento encargada y proceder así con su análisis y asignación.
+Una vez enviada la SS, el sistema muestra un mensaje de notificación de registro exitoso, mostrando el número o consecutivo asignado. Se habilitan además las opciones de Crear Nueva Solicitud y Consultar Mis Solicitudes, como se muestra a continuación:
+
+
+
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img18.png)
 _**Imagen 18.** Ir a Multimedia_
