@@ -87,7 +87,7 @@ Una vez enviada la OT, el sistema muestra un mensaje de notificación de registr
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img17.png)
 _**Imagen 17.**  Mensaje registro OT_
 
-**Botón Anexar Multimedia:** Permite una vez que se envíe la OT se puede anexar archivos Multimedia, como documentos, imágenes o porciones de video siempre y cuando el usuario permanezca en esta ventana.
+<a class="btn blue">anexar multimedia <span class="mdi mdi-attachment"></span></a> Permite una vez que se envíe la OT se puede anexar archivos Multimedia, como documentos, imágenes o porciones de video siempre y cuando el usuario permanezca en esta ventana.
 
 Para ingresar multimedia se debe dar doble clic sobre una de las tres carpetas. 
 
