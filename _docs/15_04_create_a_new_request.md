@@ -78,7 +78,7 @@ Para seleccionar el Activo/Equipo se da clic en el icono de filtro azul <span cl
 
 **F/H Tentativa del Usuario:** En este campo se asigna una fecha y hora que el usuario solicitante considere que el área de Mantenimiento le haga entrega de la solicitud realizada. Es un campo opcional de diligenciar.
 
-<a class="btn blue">anexar multimedia <span class="mdi mdi-attachment"></span></a> : Permite una vez que se envíe la OT se puede anexar archivos Multimedia, como documentos, imágenes o porciones de video siempre y cuando el usuario permanezca en esta ventana.
+<a class="btn blue">anexar multimedia <span class="mdi mdi-attachment"></span></a> : Permite una vez que se envíe la SS anexar archivos Multimedia, como documentos, imágenes o porciones de video siempre y cuando el usuario permanezca en esta ventana.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img08.png)
 _**Imagen 8.** Ir a Multimedia_
