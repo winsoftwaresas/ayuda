@@ -127,7 +127,6 @@ Se debe dar clic al botón <span class="mdi mdi-cloud-upload icon white"></span>
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img19.png)
 _**Imagen 19.** Multimedia_
 
-
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img20.png)
 _**Imagen 20.** AMsi - Explorador de archivos_
 
