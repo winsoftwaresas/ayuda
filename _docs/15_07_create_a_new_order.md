@@ -81,13 +81,10 @@ Para seleccionar el Activo/Equipo se da clic en el icono de subgrupo (filtro azu
 
 **F/H Tentativa del Usuario:** En este campo se asigna una fecha y hora que el usuario solicitante considere que el área de Mantenimiento le haga entrega de la OT realizada. Es un campo opcional de diligenciar.
 
-**Botón Enviar:** Este botón envía inmediatamente la OT a la base de datos del AM para ser revisada por el área de mantenimiento encargada y proceder así con su análisis y asignación.
-Una vez enviada la OT, el sistema muestra un mensaje de notificación de registro exitoso. Se habilitan además las opciones de Crear Nueva Orden y Consultar Mis Órdenes, como se indica a continuación:
-
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img22.png)
 _**Imagen 22.**  Mensaje registro OT_
 
-<a class="btn blue">anexar multimedia <span class="mdi mdi-attachment"></span></a> Permite una vez que se envíe la OT se puede anexar archivos Multimedia, como documentos, imágenes o porciones de video siempre y cuando el usuario permanezca en esta ventana.
+<a class="btn blue">anexar multimedia <span class="mdi mdi-attachment"></span></a> : Permite una vez que se envíe la OT anexar archivos Multimedia, como documentos, imágenes o porciones de video siempre y cuando el usuario permanezca en esta ventana.
 
 Para ingresar multimedia se debe dar doble clic sobre una de las tres carpetas. 
 
