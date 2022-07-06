@@ -88,7 +88,6 @@ _**Imagen 22.**  Mensaje registro OT_
 
 Para ingresar multimedia se debe dar doble clic sobre una de las tres carpetas. 
 
-
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img23.png)
 _**Imagen 23.** Multimedia_
 
@@ -111,28 +110,8 @@ Luego se debe dar clic en el botón <a class="btn white">subir archivo</a> y el 
 _**Imagen 26.** Mensaje registro SS_
 
 <a class="btn blue">enviar <span class="mdi mdi-send"></span></a> : Este botón envía inmediatamente la SS a la base de datos del AM para ser revisada por el área de mantenimiento encargada y proceder así con su análisis y asignación.
-Una vez enviada la SS, el sistema muestra un mensaje de notificación de registro exitoso, mostrando el número o consecutivo asignado. Se habilitan además las opciones de Crear Nueva Solicitud y Consultar Mis Solicitudes, como se muestra a continuación:
+Una vez enviada la OT, el sistema muestra un mensaje de notificación de registro exitoso, mostrando el número o consecutivo asignado. Se habilitan además las opciones de Crear Nueva Orden y Consultar Mis Solicitudes, como se muestra a continuación:
 
-
-
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img18.png)
-_**Imagen 18.** Ir a Multimedia_
-
-Se debe dar clic al botón <span class="mdi mdi-cloud-upload icon white"></span> para abrir el explorador de archivos:
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img19.png)
-_**Imagen 19.** Multimedia_
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img20.png)
-_**Imagen 20.** AMsi - Explorador de archivos_
-
-Una vez elegido el archivo a adjuntar puede asignarse un nombre opcional en el espacio en blanco a continuación:
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img21.png)
-_**Imagen 21.** AMsi - Subir archivo_
-
-Luego se debe dar clic en el botón <a class="btn white">subir archivo</a> y el sistema confirmará a través de un mensaje que el archivo ha sido subido correctamente.
 
 **Botón Crear Nueva Orden:** Se usa para crear nuevas OT. Aplica cuando se acaba de enviar una OT y se desea generar un nuevo registro en esa misma ventana.
 Botón Consultar Mis Órdenes: Este botón lo remite a una nueva ventana en la que puede realizar búsquedas y consultas de OT creadas previamente. Para mayor información al respecto se detalla en la sección de “Consultar Mis Órdenes” de este manual.
