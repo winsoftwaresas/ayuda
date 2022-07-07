@@ -81,8 +81,19 @@ Para seleccionar el Activo/Equipo se da clic en el icono de subgrupo (filtro azu
 
 **F/H Tentativa del Usuario:** En este campo se asigna una fecha y hora que el usuario solicitante considere que el área de Mantenimiento le haga entrega de la OT realizada. Es un campo opcional de diligenciar.
 
+<a class="btn blue">enviar <span class="mdi mdi-send"></span></a> : Este botón envía inmediatamente la SS a la base de datos del AM para ser revisada por el área de mantenimiento encargada y proceder así con su análisis y asignación.
+Una vez enviada la OT, el sistema muestra un mensaje de notificación de registro exitoso, mostrando el número o consecutivo asignado. Se habilitan además las opciones de Crear Nueva Orden y Consultar Mis Solicitudes:
+
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img22.png)
 _**Imagen 22.**  Mensaje registro OT_
+ 
+**Botón Inicio  <span class="mdi mdi-home"></span> :** Este botón lleva a la ventana de Menú Principal del Usuario.
+
+**Botón Cerrar Sesión  <span class="mdi mdi-exit-to-app"></span> :** Este botón permite salir del aplicativo **AMsi**.
+
+<a class="btn blue">crear nueva orden <span class="mdi mdi-plus-circle-outline"></span></a> Se usa para crear nuevas OT. Aplica cuando se acaba de enviar una OT y se desea generar un nuevo registro en esa misma ventana.
+
+<a class="btn blue">consultar mis Ordenes <span class="mdi mdi-account-box"></span></a> Este botón lo remite a una nueva ventana en la que puede realizar búsquedas y consultas de OT creadas previamente. Para mayor información al respecto se detalla en la sección de “Consultar Mis Órdenes” de este manual.
 
 <a class="btn blue">anexar multimedia <span class="mdi mdi-attachment"></span></a> : Permite una vez que se envíe la OT anexar archivos Multimedia, como documentos, imágenes o porciones de video siempre y cuando el usuario permanezca en esta ventana.
 
@@ -109,13 +120,3 @@ Luego se debe dar clic en el botón <a class="btn white">subir archivo</a> y el 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img26.png)
 _**Imagen 26.** Mensaje registro SS_
 
-<a class="btn blue">enviar <span class="mdi mdi-send"></span></a> : Este botón envía inmediatamente la SS a la base de datos del AM para ser revisada por el área de mantenimiento encargada y proceder así con su análisis y asignación.
-Una vez enviada la OT, el sistema muestra un mensaje de notificación de registro exitoso, mostrando el número o consecutivo asignado. Se habilitan además las opciones de Crear Nueva Orden y Consultar Mis Solicitudes, como se muestra a continuación:
-
-
-**Botón Crear Nueva Orden:** Se usa para crear nuevas OT. Aplica cuando se acaba de enviar una OT y se desea generar un nuevo registro en esa misma ventana.
-Botón Consultar Mis Órdenes: Este botón lo remite a una nueva ventana en la que puede realizar búsquedas y consultas de OT creadas previamente. Para mayor información al respecto se detalla en la sección de “Consultar Mis Órdenes” de este manual.
-
-**Botón Inicio:** Este botón lleva a la ventana de Menú Principal del Usuario.
-
-**Botón Cerrar Sesión:** Este botón permite salir del aplicativo **AMsi**.
