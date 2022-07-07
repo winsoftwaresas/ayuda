@@ -107,9 +107,6 @@ Se debe dar clic al botón <span class="mdi mdi-cloud-upload icon white"></span>
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img24.png)
 _**Imagen 24.** AMsi - Explorador de archivos_
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img25.png)
-_**Imagen 25.** AMsi - Subir archivo_
-
 Una vez elegido el archivo a adjuntar puede asignarse un nombre opcional en el espacio en blanco a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img25.png)
