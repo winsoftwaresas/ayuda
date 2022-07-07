@@ -113,10 +113,10 @@ _**Imagen 25.** AMsi - Subir archivo_
 Una vez elegido el archivo a adjuntar puede asignarse un nombre opcional en el espacio en blanco a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img25.png)
-_**Imagen 25.** Mensaje Alerta SS_
+_**Imagen 25.** Mensaje Alerta OT_
 
 Luego se debe dar clic en el botón <a class="btn white">subir archivo</a> y el sistema confirmará a través de un mensaje que el archivo ha sido subido correctamente:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img26.png)
-_**Imagen 26.** Mensaje registro SS_
+_**Imagen 26.** Mensaje registro OT_
 
