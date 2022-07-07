@@ -47,7 +47,7 @@ Este cuadro es informativo y hace referencia a los Datos del Solicitante necesar
 
 **Correo Electrónico:** Este campo muestra la Dirección de correo electrónico asignada a la persona solicitante por la organización, o bien, correo personal del solicitante en caso de no tener una cuenta de correo electrónico corporativa.
 
-### **Campos Del Formulario Servicio Solicitado **
+### Campos Del Formulario Servicio Solicitado
 
 El formulario Servicio Solicitado  hace referencia a los datos de la SS que se está creando.
 
