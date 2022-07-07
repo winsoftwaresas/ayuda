@@ -91,9 +91,9 @@ _**Imagen 22.**  Mensaje registro OT_
 
 **Botón Cerrar Sesión  <span class="mdi mdi-exit-to-app"></span> :** Este botón permite salir del aplicativo **AMsi**.
 
-<a class="btn blue">crear nueva orden <span class="mdi mdi-plus-circle-outline"></span></a> Se usa para crear nuevas OT. Aplica cuando se acaba de enviar una OT y se desea generar un nuevo registro en esa misma ventana.
+<a class="btn blue">consultar Ordenes <span class="mdi mdi-account-box"></span></a> Este botón lo remite a una nueva ventana en la que puede realizar búsquedas y consultas de OT creadas previamente. Para mayor información al respecto se detalla en la sección de “Consultar Mis Órdenes” de este manual.
 
-<a class="btn blue">consultar mis Ordenes <span class="mdi mdi-account-box"></span></a> Este botón lo remite a una nueva ventana en la que puede realizar búsquedas y consultas de OT creadas previamente. Para mayor información al respecto se detalla en la sección de “Consultar Mis Órdenes” de este manual.
+<a class="btn blue">crear nueva orden <span class="mdi mdi-plus-circle-outline"></span></a> Se usa para crear nuevas OT. Aplica cuando se acaba de enviar una OT y se desea generar un nuevo registro en esa misma ventana.
 
 <a class="btn blue">anexar multimedia <span class="mdi mdi-attachment"></span></a> : Permite una vez que se envíe la OT anexar archivos Multimedia, como documentos, imágenes o porciones de video siempre y cuando el usuario permanezca en esta ventana.
 
