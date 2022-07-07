@@ -1,15 +1,17 @@
 ---
-title: Consultar Mis Órdenes 
-subtitle: Este capítulo guía para ejecutar consultas de OT creadas desde **AMsi**. Se hace una ilustración sobre los comandos que aparecen en pantalla.
-tags: [AMsi, Consultar Orden en AMsi]
+title: Consultar Mis Órdenes
+subtitle: Este capítulo guía para ejecutar consultas de OT creadas desde
+  **AMsi**. Se hace una ilustración sobre los comandos que aparecen en pantalla.
+tags:
+  - AMsi
+  - Consultar Orden en AMsi
 author: win
 order: 15_08
+date: 2022-07-07T19:10:33.048Z
 ---
 **AMsi** solo permite realizar creación y consultas para uno de los dos tipos de registro a la vez: OT o SS, pero no para los dos simultáneamente. Ello depende de la Configuración del aplicativo que se haya elegido, según la necesidad de la Organización.
 
-La Configuración del **AMsi** se describe en detalle en el Capítulo 9 de este manual.
-
-**En este capítulo**
+**En esta sección:**
 
 - Subgrupos
 - Consulta de Órdenes
