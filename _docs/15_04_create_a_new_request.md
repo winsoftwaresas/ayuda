@@ -47,7 +47,7 @@ Este cuadro es informativo y hace referencia a los Datos del Solicitante necesar
 
 **Correo Electrónico:** Este campo muestra la Dirección de correo electrónico asignada a la persona solicitante por la organización, o bien, correo personal del solicitante en caso de no tener una cuenta de correo electrónico corporativa.
 
-### **Campos Del Formulario Servicio Solicitado **
+### Campos Del Formulario Servicio Solicitado
 
 El formulario Servicio Solicitado  hace referencia a los datos de la SS que se está creando.
 
@@ -63,11 +63,14 @@ En caso de ser un usuario que tenga asociado Todos Los Centros de Costo, este ca
 
 **Descripción:** En este campo se digita en forma detallada el servicio de mantenimiento requerido. Se detalla el problema, inconveniente, necesidad o avería a ser atendida.
 
-**Activo/Equipo:** En este campo se ingresa el Activo/Equipo de la organización que requiere atención de mantenimiento. Dependiendo de la configuración, este campo se puede habilitar **(1)** para describir el equipo en lenguaje natural o **(2)** para seleccionarlo de la lista que se despliega dando clic al ícono de filtro azul (Triángulo Invertido) que se encuentra en la parte derecha del campo.
+**Activo/Equipo:** En este campo se ingresa el Activo/Equipo de la organización que requiere atención de mantenimiento. Dependiendo de la configuración, este campo se puede habilitar:
+
+- Para describir el equipo en lenguaje natural
+- Para seleccionarlo de la lista que se despliega dando clic al ícono de filtro azul <span class="mdi mdi-filter-variant icon white"></span> que se encuentra en la parte derecha del campo.
 La lista desplegada incluye los Activos/Equipos creados previamente en el AM y que a la vez están asociados al Centro de Costo de la compañía correspondiente.
 Existe control en todos los casos sobre el Centro de Costo, es decir, solo se despliegan o se permiten elegir Activos/Equipos que estén asociados al Centro de Costo definido en el campo Centro de Costo.
 Para describir el Activo/Equipo en lenguaje natural se da clic al cuadro ubicado al lado izquierdo de este campo, inmediatamente se habilitan dos campos que pueden ser diligenciados. El primer campo es para describir en lenguaje natural el Activo/Equipo, y el segundo campo es para describir también en lenguaje natural la ubicación física del Activo o Equipo referenciado.
-Para seleccionar el Activo/Equipo se da clic en el icono de filtro azul (Triángulo Invertido) ubicado al lado derecho de este campo, inmediatamente se abre una nueva ventana para elegir el Activo/Equipo, para seleccionarlo se da doble clic sobre el registro, se cierra esta ventana automáticamente y se observa que aparece el código y la descripción del Activo/Equipo.
+Para seleccionar el Activo/Equipo se da clic en el icono de filtro azul <span class="mdi mdi-filter-variant icon white"></span> ubicado al lado derecho de este campo, inmediatamente se abre una nueva ventana para elegir el Activo/Equipo, en esta nueva ventana también hay posibilidad de hacer subgrupos y para seleccionarlo se da doble clic sobre el registro, se cierra esta ventana automáticamente y se observa que aparece el código y la descripción del Activo/Equipo.
 
 **Descripción:** Este campo permanece bloqueado y muestra la descripción del Activo/Equipo seleccionado.
 
@@ -75,15 +78,43 @@ Para seleccionar el Activo/Equipo se da clic en el icono de filtro azul (Triáng
 
 **F/H Tentativa del Usuario:** En este campo se asigna una fecha y hora que el usuario solicitante considere que el área de Mantenimiento le haga entrega de la solicitud realizada. Es un campo opcional de diligenciar.
 
-**Botón Enviar:** Este botón envía inmediatamente la SS a la base de datos del AM para ser revisada por el área de mantenimiento encargada y proceder así con su análisis y asignación.
-Una vez enviada la SS, el sistema muestra un mensaje de notificación de registro exitoso, mostrando el número o consecutivo asignado. Se habilitan además las opciones de Crear Nueva Solicitud y Consultar Mis Solicitudes, como se muestra a continuación:
+<a class="btn blue">anexar multimedia <span class="mdi mdi-attachment"></span></a> : Permite una vez que se envíe la SS anexar archivos Multimedia, como documentos, imágenes o porciones de video siempre y cuando el usuario permanezca en esta ventana.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img08.png)
-**_Imagen 8.  Mensaje registro SS_**
+_**Imagen 8.** Ir a Multimedia_
 
-**Botón Crear Nueva Solicitud:** Se usa para crear nuevas solicitudes de servicio. Aplica cuando se ha enviado una SS y se desea generar una nueva.
+Para ingresar multimedia se debe dar doble clic sobre una de las tres carpetas:
 
-**Botón Consultar Mis Solicitudes:** Este botón lo remite a una nueva ventana en la que puede realizar búsquedas y consultas de SS creadas previamente. Para mayor información al respecto se detalla en la sección de “Consultar Mis Solicitudes” de este manual.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img09.png)
+_**Imagen 9.** Multimedia_
+
+Se debe dar clic al botón <span class="mdi mdi-cloud-upload icon white"></span> para abrir el explorador de archivos:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img10.png)
+_**Imagen 10.** AMsi - Explorador de archivos_
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img11.png)
+_**Imagen 11.** AMsi - Subir archivo_
+
+Una vez elegido el archivo a adjuntar puede asignarse un nombre opcional en el espacio en blanco a continuación:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img12.png)
+_**Imagen 12.** Mensaje Alerta SS_
+
+Luego se debe dar clic en el botón <a class="btn white">subir archivo</a> y el sistema confirmará a través de un mensaje que el archivo ha sido subido correctamente:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img13.png)
+_**Imagen 13.** Mensaje registro SS_
+
+<a class="btn blue">enviar <span class="mdi mdi-send"></span></a> : Este botón envía inmediatamente la SS a la base de datos del AM para ser revisada por el área de mantenimiento encargada y proceder así con su análisis y asignación.
+Una vez enviada la SS, el sistema muestra un mensaje de notificación de registro exitoso, mostrando el número o consecutivo asignado. Se habilitan además las opciones de Crear Nueva Solicitud y Consultar Mis Solicitudes, como se muestra a continuación:
+
+<a class="btn blue">crear nueva solicitud <span class="mdi mdi-plus-circle-outline"></span></a> : Se usa para crear nuevas solicitudes de servicio. Aplica cuando se ha enviado una SS y se desea generar una nueva.
+
+<a class="btn blue">consultar solicitudes <span class="mdi mdi-account-box"></span></a> : Este botón lo remite a una nueva ventana en la que puede realizar búsquedas y consultas de SS creadas previamente. Para mayor información al respecto se detalla en la sección de “Consultar Mis Solicitudes” de este manual.
 Botón Inicio: Este botón lleva a la ventana de Menú Principal del Usuario.
 
-**Botón Cerrar Sesión:** Este botón permite salir de la aplicación **AMsi**.
+
+**Inicio <span class="mdi mdi-home"></span>:** Este botón lleva a la ventana de Menú Principal del Usuario.
+
+**Cerrar Sesión <span class="mdi mdi-exit-to-app"></span>:** Este botón  permite salir de la aplicación **AMsi**.
