@@ -20,23 +20,23 @@ date: 2022-07-07T19:10:33.048Z
 Esta transacción trae el listado de las OT que ha realizado el usuario solicitante. Tiene como finalidad de que el usuario pueda realizar constantemente y en tiempo real el seguimiento y consultas a sus OT. A esta ventana se llega al dar clic a la opción de Consultar Mis Órdenes en la ventana de Menú Principal.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img27.png)
-_**Imagen 28.** Mensaje Alerta Multimedia_
+_**Imagen 28.** Ir a Subgrupos_
 
 ### 8.1 Subgrupos
 
 Inicialmente esta transacción trae el listado del total de las OT que se han realizado para la Organización por parte de otros usuarios solicitantes.
 
-En el caso de que el Administrador del **AMsi** haya asociado Todos los Centros de Costos al Usuario logueado, se mostrarán todas las OT para todos los Centros De Servicio (compañías). Sin embargo, es posible hacer Subgrupos  a través del ícono de triángulo invertido superior derecho <span class="mdi mdi-filter-variant"></span> y ver solo las OT creadas por el Usuario logueado. Esto tiene como finalidad de que el usuario pueda realizar constantemente y en tiempo real el seguimiento y consultas a sus OT. A esta ventana se llega al dar clic a la opción de \*\*Consultar Mis Órdenes\*\* en la ventana de Menú Principal.
+En el caso de que el Administrador del **AMsi** haya asociado Todos los Centros de Costos al Usuario logueado, se mostrarán todas las OT para todos los Centros De Servicio (compañías). Sin embargo, es posible hacer Subgrupos  a través del ícono de triángulo invertido superior derecho <span class="mdi mdi-filter-variant"></span> y ver solo las OT creadas por el Usuario logueado. Esto tiene como finalidad de que el usuario pueda realizar constantemente y en tiempo real el seguimiento y consultas a sus OT. A esta ventana se llega al dar clic a la opción de **Consultar Mis Órdenes** en la ventana de Menú Principal.
 
-![Procesar imagen](../assets/images/placeholder.jpg)
-***Imagen 19. Subgrupos (Consultar Mis Órdenes)***
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img28.png)
+_**Imagen 29.** Subgrupos_
 
-**AMsi** mantiene activo cualquier subgrupo, hasta que el usuario lo modifique o restablezca los valores estándar. Cuando el ícono se muestra con una pelota roja, está indicando que lo que se visualiza en el visor es un subgrupo. El sistema permite entonces hacer selección de un grupo de OT de acuerdo con los criterios seleccionados.
+**AMsi** mantiene activo cualquier subgrupo, hasta que el usuario lo modifique o restablezca los valores estándar. Cuando el ícono <span class="mdi mdi-filter-variant"></span> se muestra con una pelota roja, está indicando que lo que se visualiza en el visor es un subgrupo. El sistema permite entonces hacer selección de un grupo de OT de acuerdo con los criterios seleccionados.
 
-Una vez dado un clic sobre el ícono de subgrupos, se muestran los siguientes criterios de búsqueda:
+Una vez dado un clic sobre el ícono de subgrupos <span class="mdi mdi-filter-variant"></span>, se muestran los siguientes criterios de búsqueda:
 
-![Procesar imagen](../assets/images/placeholder.jpg)
-***Imagen 20. Subgrupos (Criterios de búsqueda)***
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img29.png)
+_**Imagen 30.** Subgrupos
 
 Los campos de datos que constituyen criterio de selección en la Ventana Subgrupo de **AMsi** son los siguientes:
 
