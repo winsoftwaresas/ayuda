@@ -19,8 +19,8 @@ date: 2022-07-07T19:10:33.048Z
 
 Esta transacción trae el listado de las OT que ha realizado el usuario solicitante. Tiene como finalidad de que el usuario pueda realizar constantemente y en tiempo real el seguimiento y consultas a sus OT. A esta ventana se llega al dar clic a la opción de Consultar Mis Órdenes en la ventana de Menú Principal.
 
-![Procesar imagen](../assets/images/placeholder.jpg)
-***Imagen 18. Consultar Mis Órdenes***
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img27.png)
+_**Imagen 28.** Mensaje Alerta Multimedia_
 
 ### 8.1 Subgrupos
 
