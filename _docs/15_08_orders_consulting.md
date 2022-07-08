@@ -13,30 +13,30 @@ date: 2022-07-07T19:10:33.048Z
 
 **En esta sección:**
 
-- Subgrupos
-- Consulta de Órdenes
-- Visor de Órdenes
+* Subgrupos
+* Consulta de Órdenes
+* Visor de Órdenes
 
 Esta transacción trae el listado de las OT que ha realizado el usuario solicitante. Tiene como finalidad de que el usuario pueda realizar constantemente y en tiempo real el seguimiento y consultas a sus OT. A esta ventana se llega al dar clic a la opción de Consultar Mis Órdenes en la ventana de Menú Principal.
 
 ![Procesar imagen](../assets/images/placeholder.jpg)
-_**Imagen 18. Consultar Mis Órdenes**_
+***Imagen 18. Consultar Mis Órdenes***
 
 ### 8.1 Subgrupos
 
 Inicialmente esta transacción trae el listado del total de las OT que se han realizado para la Organización por parte de otros usuarios solicitantes.
 
-En el caso de que el Administrador del **AMsi** haya asociado Todos los Centros de Costos al Usuario logueado, se mostrarán todas las OT para todos los Centros De Servicio (compañías). Sin embargo, es posible hacer Subgrupos (búsquedas específicas) a través del ícono de triángulo invertido superior derecho y ver solo las OT creadas por el Usuario logueado. Esto tiene como finalidad de que el usuario pueda realizar constantemente y en tiempo real el seguimiento y consultas a sus OT. A esta ventana se llega al dar clic a la opción de Consultar Mis Órdenes en la ventana de Menú Principal.
+En el caso de que el Administrador del **AMsi** haya asociado Todos los Centros de Costos al Usuario logueado, se mostrarán todas las OT para todos los Centros De Servicio (compañías). Sin embargo, es posible hacer Subgrupos  a través del ícono de triángulo invertido superior derecho <span class="mdi mdi-filter-variant"></span> y ver solo las OT creadas por el Usuario logueado. Esto tiene como finalidad de que el usuario pueda realizar constantemente y en tiempo real el seguimiento y consultas a sus OT. A esta ventana se llega al dar clic a la opción de \*\*Consultar Mis Órdenes\*\* en la ventana de Menú Principal.
 
 ![Procesar imagen](../assets/images/placeholder.jpg)
-_**Imagen 19. Subgrupos (Consultar Mis Órdenes)**_
+***Imagen 19. Subgrupos (Consultar Mis Órdenes)***
 
 **AMsi** mantiene activo cualquier subgrupo, hasta que el usuario lo modifique o restablezca los valores estándar. Cuando el ícono se muestra con una pelota roja, está indicando que lo que se visualiza en el visor es un subgrupo. El sistema permite entonces hacer selección de un grupo de OT de acuerdo con los criterios seleccionados.
 
 Una vez dado un clic sobre el ícono de subgrupos, se muestran los siguientes criterios de búsqueda:
 
 ![Procesar imagen](../assets/images/placeholder.jpg)
-_**Imagen 20. Subgrupos (Criterios de búsqueda)**_
+***Imagen 20. Subgrupos (Criterios de búsqueda)***
 
 Los campos de datos que constituyen criterio de selección en la Ventana Subgrupo de **AMsi** son los siguientes:
 
@@ -69,53 +69,53 @@ Los campos de datos que constituyen criterio de selección en la Ventana Subgrup
 Para realizar la consulta de una OT, basta con dar clic a uno de los registros de las OT listadas, y a continuación se muestra en detalle toda la información allí contenida.
 
 ![Procesar imagen](../assets/images/placeholder.jpg)
-_**Imagen 21. Ventana Detalle de la OT**_
+***Imagen 21. Ventana Detalle de la OT***
 
 Este visor contiene la siguiente información:
 
 **Datos Generales**
 
-- El número de la OT
-- La fecha y hora de creación de la OT
-- El nombre del Estado en el que se encuentra la OT. Este estado solo es modificable desde el  AM por el encargado del área de mantenimiento de la organización.
-- El nombre del Responsable ejecutor del mantenimiento. Este nombre puede  ser puede ser cambiado desde AM por el encargado del área de mantenimiento de la organización.
-- Nombre del Solicitante
-- Email del Solicitante
+* El número de la OT
+* La fecha y hora de creación de la OT
+* El nombre del Estado en el que se encuentra la OT. Este estado solo es modificable desde el  AM por el encargado del área de mantenimiento de la organización.
+* El nombre del Responsable ejecutor del mantenimiento. Este nombre puede  ser puede ser cambiado desde AM por el encargado del área de mantenimiento de la organización.
+* Nombre del Solicitante
+* Email del Solicitante
 
 **Datos Del Usuario**
 
 Datos suministrados en el formulario de Actualizar Perfil del  **AMsi** :
 
-- Documento de identidad
-- Nombre
-- Dirección
-- Ciudad
-- Correo Electrónico
-- Teléfono
-- Centro de Servicio
+* Documento de identidad
+* Nombre
+* Dirección
+* Ciudad
+* Correo Electrónico
+* Teléfono
+* Centro de Servicio
 
 **Orden de Trabajo**
 
-- Descripción de la Orden
-- Activo / Equipo
-- Centro de Costo
-- Ubicación Física
-- Causa de Falla
-- Tipo de Mantenimiento
-- Tipo de Actividad
+* Descripción de la Orden
+* Activo / Equipo
+* Centro de Costo
+* Ubicación Física
+* Causa de Falla
+* Tipo de Mantenimiento
+* Tipo de Actividad
 
 **Fechas y Horas:** Estos campos solo son modificables desde el módulo OT del AM. En estos campos aparecen las fechas y horas Atención, Inicio de Trabajo, Fin de Trabajo y  Fecha Cierre de la OT.
 
 Estos campos solo son manipulados por los encargados del área de mantenimiento de las diferentes compañías creadas en el AM.
 
-- F/H Atención
-- F/H Inicio Trabajo
-- F/H Fin de Trabajo
-- F/H Cierre
+* F/H Atención
+* F/H Inicio Trabajo
+* F/H Fin de Trabajo
+* F/H Cierre
 
 **Evaluar el servicio:** Contiene el resultado de la Evaluación de la OT, si ya se realizó y si no se ha realizado, permite realizarla, siempre que esté en estado Cerrada Ejecutada y mientras el campo Solicitante coincida con los campos Datos del Usuario.
 
 **Comentario:** El campo comentario es un campo que no es modificable. A través de este visor que muestra el Detalle de la OT, es posible que el usuario realice comentarios relevantes e importantes para el área de Mantenimiento. Para realizar los comentarios, se debe dirigir al final de la Ventana Detalle de la OT y digitar el comentario en el campo llamado “Comentario”, para agregarlo a la OT se debe dar clic al botón Agregar Comentario. Al dar clic al botón “Agregar Comentario” aparecerá el comentario ingresado al lado derecho en una ventana tipo chat bloqueada y a su vez inhabilita la modificación de los comentarios que allí se encuentren; además de la fecha, hora y el usuario logueado que realizó el comentario. Estos comentarios también se visualizan desde el módulo de Ordenes de **AM**.
 
 ![Procesar imagen](../assets/images/placeholder.jpg)
-_**Imagen 22.  Ventana Detalle de la OT (Comentarios)**_
+***Imagen 22.  Ventana Detalle de la OT (Comentarios)***
