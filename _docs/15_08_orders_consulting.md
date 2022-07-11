@@ -36,7 +36,7 @@ _**Imagen 29.** Subgrupos_
 Una vez dado un clic sobre el ícono de subgrupos <span class="mdi mdi-filter-variant"></span>, se muestran los siguientes criterios de búsqueda:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img29.png)
-_**Imagen 30.** Subgrupos
+_**Imagen 30.** Subgrupos_
 
 Los campos de datos que constituyen criterio de selección en la Ventana Subgrupo de **AMsi** son los siguientes:
 
