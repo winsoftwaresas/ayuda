@@ -64,23 +64,23 @@ Los campos de datos que constituyen criterio de selección en la Ventana Subgrup
 
 **Ubicación  física:** Permite la selección de  las SS cuyo Activo esté en la  ubicación física que se determina en este criterio. Es posible digitar una parte y usar comodines (%).
 
-### 8.2  Consulta de Órdenes
+### 8.2  Detalle de la Orden
 
-Para realizar la consulta de una OT, basta con dar clic a uno de los registros de las OT listadas, y a continuación se muestra en detalle toda la información allí contenida.
+Para realizar la consulta de una OT, basta con dar clic a uno de los registros listados en el Visor, y a continuación se muestra en detalle toda la información allí contenida.
 
-![Procesar imagen](../assets/images/placeholder.jpg)
-***Imagen 21. Ventana Detalle de la OT***
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img30.png)
+_**Imagen 31.** Subgrupos_
 
 Este visor contiene la siguiente información:
 
 **Datos Generales**
 
-* El número de la OT
-* La fecha y hora de creación de la OT
-* El nombre del Estado en el que se encuentra la OT. Este estado solo es modificable desde el  AM por el encargado del área de mantenimiento de la organización.
-* El nombre del Responsable ejecutor del mantenimiento. Este nombre puede  ser puede ser cambiado desde AM por el encargado del área de mantenimiento de la organización.
-* Nombre del Solicitante
-* Email del Solicitante
+- El número de la OT
+- La fecha y hora de creación de la OT
+- El nombre del Estado en el que se encuentra la OT. Este estado solo es modificable desde el  AM por el encargado del área de mantenimiento de la organización.
+- El nombre del Responsable ejecutor del mantenimiento. Este nombre puede  ser puede ser cambiado desde AM por el encargado del área de mantenimiento de la organización.
+- Nombre del Solicitante
+- Email del Solicitante
 
 **Datos Del Usuario**
 
