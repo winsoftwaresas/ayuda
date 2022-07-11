@@ -115,4 +115,4 @@ Estos campos solo son manipulados por los encargados del área de mantenimiento 
 _**Imagen 32.** AMsi - Agregar Comentarios_
 
 >**Nota:** Los comentarios pueden ser el medio de comunicación entre el 
-Usuario Solicitante y Mantenimiento, los comentarios quedan grabados uno debajo del otro en una ventana tipo chat.
+Usuario Solicitante y Mantenimiento, los comentarios quedan grabados uno debajo del otro en una ventana tipo chat. 
