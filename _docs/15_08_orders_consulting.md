@@ -84,17 +84,17 @@ Este visor contiene la siguiente información:
 
 **Datos Del Usuario**
 
-Datos suministrados en el formulario de Actualizar Perfil del  **AMsi** :
+Datos suministrados en el formulario de Actualizar Perfil de **AMsi** :
 
-* Documento de identidad
-* Nombre
-* Dirección
-* Ciudad
-* Correo Electrónico
-* Teléfono
-* Centro de Servicio
+- Documento de identidad
+- Nombre
+- Dirección
+- Ciudad
+- Correo Electrónico
+- Teléfono
+- Centro de Servicio
 
-**Orden de Trabajo**
+**Orden De Trabajo**
 
 * Descripción de la Orden
 * Activo / Equipo
