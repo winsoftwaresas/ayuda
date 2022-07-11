@@ -40,13 +40,13 @@ _**Imagen 30.** Subgrupos_
 
 Los campos de datos que constituyen criterio de selección en la Ventana Subgrupo de **AMsi** son los siguientes:
 
-##### **FILTRAR POR CAMPOS DEL ACTIVO ASOCIADO A LA SOLICITUD DE SERVICIO**
+##### FILTRAR POR CAMPOS DEL ACTIVO ASOCIADO A LA ORDEN
 
 **AC-Código:** Esta selección agrupa las OT cuyo Activo coincidan con el relacionado en este criterio. Es posible definir el código completo o una porción del mismo.
 
 **AC-Descripción:** Selecciona las OT asociadas a los Activos según criterios que se fundamenten en su descripción.  Ejemplo: Motor selecciona todos los Activos, en cuya descripción, en cualquier posición, tengan la palabra “Motor”.
 
-##### **FILTRAR POR CAMPOS DE LA SOLICITUD DE SERVICIO**
+##### FILTRAR POR CAMPOS DE LA ORDEN DE TRABAJO
 
 **Centro de Costo:** Permite la selección de OT de acuerdo con  el Centro de Costo asignado a ella. Existen dos formas de definir el Centro de Costo. La primera es seleccionando el Centro de Costo de la lista desplegable. La segunda es dando clic al icono de candado y digitando a continuación segmentos del nombre del Centro de Costo usando comodines (%). Cuando se utilizan comodines, es posible seleccionar las OT pertenecientes a Centros de Costo que tengan parte del nombre igual. Por ejemplo: **%Sistema%** selecciona todos los registros en cuyo Centro de Costo exista la palabra Sistema, independiente de si se está hablando del Sistema de Agua, de Vapor o de Energía.
 
