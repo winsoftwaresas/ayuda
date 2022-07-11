@@ -115,7 +115,10 @@ Estos campos solo son manipulados por los encargados del área de mantenimiento 
 
 **Evaluar el servicio:** Contiene el resultado de la Evaluación de la OT, si ya se realizó y si no se ha realizado, permite realizarla, siempre que esté en estado Cerrada Ejecutada y mientras el campo Solicitante coincida con los campos Datos del Usuario.
 
-**Comentario:** El campo comentario es un campo que no es modificable. A través de este visor que muestra el Detalle de la OT, es posible que el usuario realice comentarios relevantes e importantes para el área de Mantenimiento. Para realizar los comentarios, se debe dirigir al final de la Ventana Detalle de la OT y digitar el comentario en el campo llamado “Comentario”, para agregarlo a la OT se debe dar clic al botón Agregar Comentario. Al dar clic al botón  <a class="btn blue">Agregar comentario/a> aparecerá el comentario ingresado al lado derecho en una ventana tipo chat bloqueada y a su vez inhabilita la modificación de los comentarios que allí se encuentren; además de la fecha, hora y el usuario logueado que realizó el comentario. Estos comentarios también se visualizan desde el módulo de Ordenes de **AM**.
+**Comentario:** El campo comentario es un campo que no es modificable. A través de este visor que muestra el Detalle de la OT, es posible que el usuario realice comentarios relevantes e importantes para el área de Mantenimiento. Para realizar los comentarios, se debe dirigir al final de la Ventana Detalle de la OT y digitar el comentario en el campo llamado “Comentario”, para agregarlo a la OT se debe dar clic al botón <a class="btn blue">Agregar comentario/a>. Al dar clic aparecerá el comentario ingresado al lado derecho en una ventana tipo chat bloqueada y a su vez inhabilita la modificación de los comentarios que allí se encuentren; además de la fecha, hora y el usuario logueado que realizó el comentario. Estos comentarios también se visualizan desde el módulo de Ordenes de **AM**.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img31.png)
 _**Imagen 32.** Subgrupos_
+
+>**Nota:** Los comentarios pueden ser el medio de comunicación entre el 
+Usuario Solicitante y Mantenimiento, los comentarios quedan grabados uno debajo del otro en una ventana tipo chat.
