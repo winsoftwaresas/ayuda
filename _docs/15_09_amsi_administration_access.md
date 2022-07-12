@@ -55,8 +55,8 @@ _**Imagen 35.** AMsi - Ir a Configuración_
 
 A continuación se detallan cada uno de los componentes activos de la Ventana de Configuración del  **AMsi** . Para acceder a esta opción se da clic a la opción Configuración en la ventana de Menú Principal.
 
-![Procesar imagen](../assets/images/placeholder.jpg)
-_**Imagen 26.  Configuración de **AMsi****_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img35.png)
+_**Imagen 36.** AMsi - Ir a Configuración_
 
 **Botón Inicio:** Este botón lleva a la ventana de Menú Principal del Usuario Administrador.
 
