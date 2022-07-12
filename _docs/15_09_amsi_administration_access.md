@@ -58,9 +58,9 @@ A continuación se detallan cada uno de los componentes activos de la Ventana de
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img35.png)
 _**Imagen 36.** AMsi - Ir a Configuración_
 
-**Botón Inicio:** Este botón lleva a la ventana de Menú Principal del Usuario Administrador.
+**Botón Inicio <span class="mdi mdi-home"></span>:** Este botón lleva a la ventana de Menú Principal del Usuario Administrador.
 
-**Botón Cerrar Sesión:** Este botón permite salir del aplicativo  **AMsi**.
+**Botón Cerrar Sesión <span class="mdi mdi-exit-to-app"></span>:** Este botón permite salir del aplicativo  **AMsi**.
 
 #### 9.3.1 Configuración General
 
