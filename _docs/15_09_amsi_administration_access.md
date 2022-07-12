@@ -1,11 +1,16 @@
 ---
 title: Acceso Administración AMsi
-subtitle: Este capítulo, orientado al Administrador General de AMsi,se concentra en la funcionalidad de la opción Configuración.
-tags: [AMsi, Configuración Amsi, Acceso admministración AMsi]
+subtitle: Este capítulo, orientado al Administrador General de AMsi,se concentra
+  en la funcionalidad de la opción Configuración.
+tags:
+  - AMsi
+  - Configuración Amsi
+  - Acceso admministración AMsi
 author: win
 order: 15_09
+date: 2022-07-12T21:02:49.176Z
 ---
-Se define el acceso a la aplicativo y comandos del menú principal para el Administrador del sistema. Se configuran criterios, preferencias, particularidades y modos de visualización sobre la información disponible en los formularios básicos del aplicativo al igual que los permisos y parametrización general del mismo, incluyendo la administración de los usuarios de **AMsi**.
+Se define el acceso al aplicativo y comandos del menú principal para el Administrador del sistema. Se configuran criterios, preferencias, particularidades y modos de visualización de la información en los formularios básicos del aplicativo al igual que los permisos, parametrización y administración de los usuarios de **AMsi**.
 
 **En este capítulo**
 
@@ -13,23 +18,24 @@ Se define el acceso a la aplicativo y comandos del menú principal para el Admin
 - Ventana de Menú Principal del Usuario Administrador
 - Configuración General
 
-### 9.1	Acceso al modo Configuración
+### Acceso al modo Configuración
 
-Como se indicó al inicio de este capítulo, sólo el Administrador encargado del **AMsi** puede acceder a esta sección del aplicativo. WIN Software suministra los datos de acceso una vez se instale el aplicativo en la Infraestructura del Cliente.
+Como se indicó al inicio, sólo el Administrador encargado del **AMsi** puede acceder a esta sección del aplicativo. WIN Software suministra los datos de acceso una vez se instale el aplicativo en la Infraestructura del Cliente.
 
-Para poder ingresar a la configuración de **AMsi** , el Administrador debe conocer el nombre de usuario y contraseña del Administrador del aplicativo. Tales datos se ingresan en la ventana de acceso.
+Para poder ingresar a la configuración de **AMsi** , el Administrador debe conocer el nombre de usuario y contraseña del Administrador del aplicativo. Tales datos se ingresan en la siguiente ventana de acceso:
 
-![Procesar imagen](../assets/images/placeholder.jpg)
-_**Imagen 23. Ventana Acceso **AMsi****_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img32.png)
+_**Imagen 33.** AMsi - Agregar Comentarios_
 
 Una vez se ingrese el Usuario y la Contraseña de manera correcta, se puede observar el _Menú Principal del Usuario Administrador_ del  **AMsi** .
 
-### 9.2	Ventana de Menú Principal del Usuario Administrador
+### Ventana de Menú Principal del Usuario Administrador
 
 La ventana de Menú Principal del Usuario Administrador muestra las transacciones que el usuario puede realizar a través del **AMsi**.
 
-![Procesar imagen](../assets/images/placeholder.jpg)
-_**Imagen 24.  Ventana Menú Principal del Usuario Administrador**_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img33.png)
+_**Imagen 34.** AMsi - Agregar Comentarios_
+
 
 A continuación, se describen las transacciones que componen esta ventana.
 
