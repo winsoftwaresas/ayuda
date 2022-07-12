@@ -25,7 +25,7 @@ Como se indicó al inicio, sólo el Administrador encargado del **AMsi** puede a
 Para poder ingresar a la configuración de **AMsi** , el Administrador debe conocer el nombre de usuario y contraseña del Administrador del aplicativo. Tales datos se ingresan en la siguiente ventana de acceso:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img32.png)
-_**Imagen 33.** AMsi - Agregar Comentarios_
+_**Imagen 33.** AMsi - Inicio_
 
 Una vez se ingrese el Usuario y la Contraseña de manera correcta, se puede observar el _Menú Principal del Usuario Administrador_ del  **AMsi** .
 
@@ -34,7 +34,7 @@ Una vez se ingrese el Usuario y la Contraseña de manera correcta, se puede obse
 La ventana de Menú Principal del Usuario Administrador muestra las transacciones que el usuario puede realizar a través del **AMsi**.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img33.png)
-_**Imagen 34.** AMsi - Agregar Comentarios_
+_**Imagen 34.** AMsi - Menú Principal_
 
 
 A continuación, se describen las transacciones que componen esta ventana.
@@ -49,8 +49,9 @@ A continuación, se describen las transacciones que componen esta ventana.
 
 Una vez se ingrese con los datos del usuario administrador, se debe dar clic a este botón ubicado en la ventana de Menú Principal para continuar con la Configuración de  **AMsi**.
 
-![Procesar imagen](../assets/images/placeholder.jpg)
-_**Imagen 25. Configuración**_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img34.png)
+_**Imagen 35.** AMsi - Ir a Configuración_
+
 
 A continuación se detallan cada uno de los componentes activos de la Ventana de Configuración del  **AMsi** . Para acceder a esta opción se da clic a la opción Configuración en la ventana de Menú Principal.
 
