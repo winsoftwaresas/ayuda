@@ -45,7 +45,7 @@ A continuación, se describen las transacciones que componen esta ventana.
 
 **Cerrar Sesión:** Esta opción se usa para salir del aplicativo **AMsi**.
 
-### 9.3	Configuración
+### Configuración
 
 Una vez se ingrese con los datos del usuario administrador, se debe dar clic a este botón ubicado en la ventana de Menú Principal para continuar con la Configuración de  **AMsi**.
 
@@ -62,8 +62,10 @@ _**Imagen 36.** AMsi - Ir a Configuración_
 **Botón Cerrar Sesión <span class="mdi mdi-exit-to-app"></span>:** Este botón permite salir del aplicativo  **AMsi**.
 
 
-![Procesar imagen](../assets/images/placeholder.jpg)
-_**Imagen 27. Configuración General**_
+#### General 
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img36.png)
+_**Imagen 37.** AMsi - General_
 
 **Mensaje en la ventana de registro de la solicitud:** En este campo se digita un mensaje que se desliza y aparece en la parte superior del formulario de Servicio Solicitado. Este campo permite hasta 500 caracteres.
 
