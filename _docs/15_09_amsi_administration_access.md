@@ -50,10 +50,9 @@ A continuación, se describen las transacciones que componen esta ventana.
 Una vez se ingrese con los datos del usuario administrador, se debe dar clic a este botón ubicado en la ventana de Menú Principal para continuar con la Configuración de  **AMsi**.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img34.png)
-_**Imagen 35.** AMsi - Ir a Configuración_
+_**Imagen 35.** AMsi - Configuración_
 
-
-A continuación se detallan cada uno de los componentes activos de la Ventana de Configuración del  **AMsi** . Para acceder a esta opción se da clic a la opción Configuración en la ventana de Menú Principal.
+Los componentes de la ventana de Configuración General son los que se muestran a continuación. Sobre cada componente se da una breve explicación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img35.png)
 _**Imagen 36.** AMsi - Ir a Configuración_
@@ -62,9 +61,6 @@ _**Imagen 36.** AMsi - Ir a Configuración_
 
 **Botón Cerrar Sesión <span class="mdi mdi-exit-to-app"></span>:** Este botón permite salir del aplicativo  **AMsi**.
 
-#### 9.3.1 Configuración General
-
-Los componentes de la ventana de Configuración General son los que se muestran a continuación. Sobre cada componente se da una breve explicación.
 
 ![Procesar imagen](../assets/images/placeholder.jpg)
 _**Imagen 27. Configuración General**_
