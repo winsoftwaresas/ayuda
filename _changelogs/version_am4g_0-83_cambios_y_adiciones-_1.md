@@ -36,15 +36,16 @@ title: VERSION AM4G 0.83 Cambios Y Adiciones.
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/Version83/Imagen5.png)
 
 
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/Version83/imagen6.png)
+
 **MODULO DE PROGRAMAS:**
 
 1. Se corrige el campo Adicionar Comentario en modificación masiva, ahora el sistema permite agregar comentarios a los programas sin borrar la información previa que contenía el programa en este campo.
 
-![Procesar imagen]
-(https://ayuda.winsoftware.com.co/assets/images/Version83/Imagen7.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/Version83/imagen7.png)
 
-![Procesar imagen]
-(https://ayuda.winsoftware.com.co/assets/images/Version83/Imagen8.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/Version83/imagen8.png)
+
 
 2. Se adiciona el campo Responsable por Institución en la función de modificación masiva.
 
