@@ -4,23 +4,23 @@
   label: STABLE
   date: Julio 7, 2022
   list:
-- Se desarrolla la función para exportar los datos de la Grilla en AMsi.
-- Se ajustan los valores decimales en el cálculo de los contratos.
-- Se desarrolla la validación de valores en los contadores, según su tipo sean incremental o decremental y el estándar de planeación en relación al tiempo de actualización.
-- Se agregan los campos Alias y Código de barra Interno a la función de modificación masiva en el modulo de Activos.
-- Se corrige el campo Adicionar Comentario en modificación masiva modulo de Programas, ahora el sistema permite agregar comentarios a los programas sin borrar la información previa que contenía el programa en este campo.
-- Se adiciona el campo Responsable por Institución en la función de modificación masiva en el modulo de Programas.
-- Se corrige el campo de insertar Ingresar Presupuesto – Ingresar Materiales y Repuestos en modificación masiva en el modulo de Programas. El usuario debe seleccionar el Almacén desde donde tomara el repuesto antes de abrir la función de búsqueda.
-- Se corrige el campo de búsqueda RP-Código, en el modulo de Programas, el usuario debe elegir primero el almacén antes de desplegar la ventana de búsqueda.
-- Se agrega la columna Fecha de Cierre en la función de Exportar Grilla en el modulo de Solicitudes.
-- Se adiciona modal que contiene la explicación correspondiente a los Colores en la columna de Estado en el modulo de Ordenes.
-- Se habilita el campo Agregar Responsable de Gasto Real a la modificación masiva en el modulo de Ordenes.
-- La bitácora de Ordenes de trabajo tomara el registro desde la Creación de la Orden y no desde la primera modificación cómo funcionaba actualmente.
-- Se adiciona el campo de Tiempo Total de Solución.
-- Se corrige la función de Actualización en Gasto Real Otros Conceptos.
-- Se lleva al modulo de Seguimiento y Cierre el registro de Activo Limpio en el modulo de Historia.
-- Se desarrolla el reporte HMR-RCACD- Resumen De Costos En Ordenes De Trabajo - Agrupado Por Activo Raíz.
-- Se desarrolla el reporte HMR-RCACDXA - Resumen De Costos En Ordenes De Trabajo - Agrupado Por Activo Raíz y Activos. 
+  - Se desarrolla la función para exportar los datos de la Grilla en AMsi.
+  - Se ajustan los valores decimales en el cálculo de los contratos.
+  - Se desarrolla la validación de valores en los contadores, según su tipo sean incremental o decremental y el estándar de planeación en relación al tiempo de actualización.
+  - Se agregan los campos Alias y Código de barra Interno a la función de modificación masiva en el modulo de Activos.
+  - Se corrige el campo Adicionar Comentario en modificación masiva modulo de Programas, ahora el sistema permite agregar comentarios a los programas sin borrar la información previa que contenía el programa en este campo.
+  - Se adiciona el campo Responsable por Institución en la función de modificación masiva en el modulo de Programas.
+  - Se corrige el campo de insertar Ingresar Presupuesto – Ingresar Materiales y Repuestos en modificación masiva en el modulo de Programas. El usuario debe seleccionar el Almacén desde donde tomara el repuesto antes de abrir la función de búsqueda.
+  - Se corrige el campo de búsqueda RP-Código, en el modulo de Programas, el usuario debe elegir primero el almacén antes de desplegar la ventana de búsqueda.
+  - Se agrega la columna Fecha de Cierre en la función de Exportar Grilla en el modulo de Solicitudes.
+  - Se adiciona modal que contiene la explicación correspondiente a los Colores en la columna de Estado en el modulo de Ordenes.
+  - Se habilita el campo Agregar Responsable de Gasto Real a la modificación masiva en el modulo de Ordenes.
+  - La bitácora de Ordenes de trabajo tomara el registro desde la Creación de la Orden y no desde la primera modificación cómo funcionaba actualmente.
+  - Se adiciona el campo de Tiempo Total de Solución.
+  - Se corrige la función de Actualización en Gasto Real Otros Conceptos.
+  - Se lleva al modulo de Seguimiento y Cierre el registro de Activo Limpio en el modulo de Historia.
+  - Se desarrolla el reporte HMR-RCACD- Resumen De Costos En Ordenes De Trabajo - Agrupado Por Activo Raíz.
+  - Se desarrolla el reporte HMR-RCACDXA - Resumen De Costos En Ordenes De Trabajo - Agrupado Por Activo Raíz y Activos. 
 
 - title: AM4G Version 0.82
   label: STABLE
