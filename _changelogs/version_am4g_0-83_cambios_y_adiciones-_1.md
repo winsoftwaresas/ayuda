@@ -35,9 +35,6 @@ title: VERSION AM4G 0.83 Cambios Y Adiciones.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/Version83/Imagen5.png)
 
-![Procesar imagen]
-(https://ayuda.winsoftware.com.co/assets/images/Version83/Imagen6.png)
-
 
 **MODULO DE PROGRAMAS:**
 
@@ -49,7 +46,7 @@ title: VERSION AM4G 0.83 Cambios Y Adiciones.
 ![Procesar imagen]
 (https://ayuda.winsoftware.com.co/assets/images/Version83/Imagen8.png)
 
-2.	Se adiciona el campo Responsable por Institución en la función de modificación masiva.
+2. Se adiciona el campo Responsable por Institución en la función de modificación masiva.
 
 ![Procesar imagen]
 (https://ayuda.winsoftware.com.co/assets/images/Version83/Imagen9.png)
@@ -80,7 +77,7 @@ title: VERSION AM4G 0.83 Cambios Y Adiciones.
 2. Se agrega la columna Fecha de Cierre en la función de Exportar Grilla
 
 ![Procesar imagen]
-(https://ayuda.winsoftware.com.co/assets/images/Version83/Imagen15.png)
+(https://ayuda.winsoftware.com.co/assets/images/Version83/imagen15.png)
 
 
 **MODULO DE ORDENES:**
