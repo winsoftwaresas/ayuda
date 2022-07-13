@@ -77,7 +77,7 @@ title: VERSION AM4G 0.83 Cambios Y Adiciones.
 ![Procesar imagen]
 (https://ayuda.winsoftware.com.co/assets/images/Version83/Imagen14.png)
 
-2.Se agrega la columna Fecha de Cierre en la función de Exportar Grilla
+2. Se agrega la columna Fecha de Cierre en la función de Exportar Grilla
 
 ![Procesar imagen]
 (https://ayuda.winsoftware.com.co/assets/images/Version83/Imagen15.png)
@@ -90,7 +90,7 @@ title: VERSION AM4G 0.83 Cambios Y Adiciones.
 ![Procesar imagen]
 (https://ayuda.winsoftware.com.co/assets/images/Version83/Imagen16.png)
 
-2.Se habilita el campo Agregar Responsable de Gasto Real a la modificación masiva.
+2. Se habilita el campo Agregar Responsable de Gasto Real a la modificación masiva.
 
 ![Procesar imagen]
 (https://ayuda.winsoftware.com.co/assets/images/Version83/Imagen17.png)
@@ -108,6 +108,33 @@ title: VERSION AM4G 0.83 Cambios Y Adiciones.
 5. Se corrige la función de Actualización en Gasto Real Otros Conceptos.
 
 ![Procesar imagen]
-(https://ayuda.winsoftware.com.co/assets/images/Version83/Imagen20.png)
+(https://ayuda.winsoftware.com.co/assets/images/Version83/Imagen22.png)
+
+
+**MODULO DE HISTORIA:**
+
+1. Se lleva al modulo de Seguimiento y Cierre el registro de Activo Limpio.
+
+![Procesar imagen]
+(https://ayuda.winsoftware.com.co/assets/images/Version83/Imagen23.png)
+
+
+2. Se desarrolla el reporte HMR-RCACD- Resumen De Costos En Ordenes De Trabajo - Agrupado Por Activo Raíz el cual contiene una lista de las Ordenes de trabajo y sus costos agrupados por su Activo Padre.
+
+![Procesar imagen]
+(https://ayuda.winsoftware.com.co/assets/images/Version83/Imagen24.png)
+
+
+3. Se desarrolla el reporte HMR-RCACDXA - Resumen De Costos En Ordenes De Trabajo - Agrupado Por Activo Raíz y Activos. El cual contiene una lista de Activos con los costos relacionados agrupado por Activo Raíz.
+
+![Procesar imagen]
+(https://ayuda.winsoftware.com.co/assets/images/Version83/Imagen25.png)
+
+
+
+
+
+
+
 
 
