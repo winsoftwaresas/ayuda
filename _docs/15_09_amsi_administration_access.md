@@ -75,15 +75,15 @@ _**Imagen 38.** AMsi - Mensaje Formulario Solicitud_
 **Generar automáticamente Órdenes al guardar la solicitud:** Marcar SI indica que el aplicativo se usa para la creación de Órdenes de Trabajo en lugar de crear Solicitudes de Servicio. En tal caso, los botones de Crear Nueva Solicitud y Consultar Mis Solicitudes cambian a Crear Nueva Orden y Consultar Mis Ordenes respectivamente. El sistema entonces cambia su funcionalidad para Crear y Consultar Órdenes de Trabajo.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img38.png)
-_**Imagen 38.** AMsi - General_
+_**Imagen 38.** AMsi - Configurar SS/OT_
 
 
 #### Información del Solicitante
 
 En esta ventana se configuran los campos que serán exigidos en la sección Datos del Solicitante, bien sea para crear un nuevo Usuario o cuando se vaya a **Actualizar el Perfil**. Los componentes de la ventana de Información del Solicitante son los que se muestran a continuación. Sobre cada componente se da una breve explicación.
 
-![Procesar imagen](../assets/images/placeholder.jpg)
-_**Imagen 31.  Información del Solicitante **_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img38.png)
+_**Imagen 38.** AMsi - Información del Solicitante_
 
 **¿El Teléfono es requerido?:** Marcar SI indica que este campo es obligatorio y se identifican con un asterisco * de color rojo entre paréntesis que antecede el nombre del campo. Además, indica que debe ser llenado por los usuarios. Marcar NO implica dejar el campo a manera opcional de diligenciamiento para el solicitante al momento de actualizar la información dese Actualizar Perfil o para el usuario administrador al momento de crear y actualizar los usuarios.
 
