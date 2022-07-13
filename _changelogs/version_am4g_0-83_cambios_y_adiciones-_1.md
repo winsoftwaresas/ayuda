@@ -60,13 +60,13 @@ title: VERSION AM4G 0.83 Cambios Y Adiciones.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/Version83/imagen12.png)
 
-4.Se corrige el campo de búsqueda RP-Código el usuario debe elegir primero el almacén antes de desplegar la ventana de búsqueda.
+4. Se corrige el campo de búsqueda RP-Código el usuario debe elegir primero el almacén antes de desplegar la ventana de búsqueda.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/Version83/imagen13.png)
 
 **MODULO DE SOLICITUDES:**
 
-1. Se adiciona el campo Fecha FDA (Paro) en la creación de las solicitudes, la fecha de paro precarga por defecto la fecha actual, pero permitirá a los usuarios modificarla por una anterior.
+1.  Se adiciona el campo Fecha FDA (Paro) en la creación de las solicitudes, la fecha de paro precarga por defecto la fecha actual, pero permitirá a los usuarios modificarla por una anterior.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/Version83/imagen14.png)
 
