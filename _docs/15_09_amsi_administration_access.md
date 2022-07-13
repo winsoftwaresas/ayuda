@@ -69,13 +69,14 @@ _**Imagen 37.** AMsi - General_
 
 **Mensaje en la ventana de registro de la solicitud:** En este campo se digita un mensaje que se desliza y aparece en la parte superior del formulario de Servicio Solicitado. Este campo permite hasta 500 caracteres.
 
-![Procesar imagen](../assets/images/placeholder.jpg)
-_**Imagen 29.  Mensaje en la ventana registro de la solicitud**_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img37.png)
+_**Imagen 38.** AMsi - Mensaje Formulario Solicitud_
 
 **Generar automáticamente Órdenes al guardar la solicitud:** Indica que el aplicativo se usa para la creación de Órdenes de Trabajo en lugar de crear Solicitudes de Servicio. En tal caso, los botones de Crear Nueva Solicitud y Consultar Mis Solicitudes cambian a Crear Nueva Orden y Consultar Mis Ordenes respectivamente. El sistema entonces cambia su funcionalidad para Crear y Consultar Órdenes de Trabajo.
 
-![Procesar imagen](../assets/images/placeholder.jpg)
-_**Imagen 30. Generar automáticamente Ordenes al guardar la solicitud**_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img37.png)
+_**Imagen 38.** AMsi - General_
+
 
 #### 9.3.2 Información del Solicitante
 
