@@ -1,6 +1,6 @@
 ---
 layout: page
-title: VERSION AM4G 0.83 Cambios Y Adiciones.
+title: AM4G Versión 0.83 Cambios Y Adiciones.
 ---
 **MODULO DE AMSI:**
 
