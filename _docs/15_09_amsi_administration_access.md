@@ -72,15 +72,15 @@ _**Imagen 37.** AMsi - General_
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img37.png)
 _**Imagen 38.** AMsi - Mensaje Formulario Solicitud_
 
-**Generar automáticamente Órdenes al guardar la solicitud:** Indica que el aplicativo se usa para la creación de Órdenes de Trabajo en lugar de crear Solicitudes de Servicio. En tal caso, los botones de Crear Nueva Solicitud y Consultar Mis Solicitudes cambian a Crear Nueva Orden y Consultar Mis Ordenes respectivamente. El sistema entonces cambia su funcionalidad para Crear y Consultar Órdenes de Trabajo.
+**Generar automáticamente Órdenes al guardar la solicitud:** Marcar SI indica que el aplicativo se usa para la creación de Órdenes de Trabajo en lugar de crear Solicitudes de Servicio. En tal caso, los botones de Crear Nueva Solicitud y Consultar Mis Solicitudes cambian a Crear Nueva Orden y Consultar Mis Ordenes respectivamente. El sistema entonces cambia su funcionalidad para Crear y Consultar Órdenes de Trabajo.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img37.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img38.png)
 _**Imagen 38.** AMsi - General_
 
 
-#### 9.3.2 Información del Solicitante
+#### Información del Solicitante
 
-En esta ventana se configuran los campos que serán exigidos en la sección Datos del Solicitante. Los componentes de la ventana de Información del Solicitante son los que se muestran a continuación. Sobre cada componente se da una breve explicación.
+En esta ventana se configuran los campos que serán exigidos en la sección Datos del Solicitante, bien sea para crear un nuevo Usuario o cuando se vaya a **Actualizar el Perfil**. Los componentes de la ventana de Información del Solicitante son los que se muestran a continuación. Sobre cada componente se da una breve explicación.
 
 ![Procesar imagen](../assets/images/placeholder.jpg)
 _**Imagen 31.  Información del Solicitante **_
