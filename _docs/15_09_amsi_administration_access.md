@@ -103,6 +103,8 @@ _**Imagen 39.** AMsi - Formulario Servicio Solicitado_
 
 **¿Cómo nombrar el Activo?:** Se refiere al nombre del campo que describe el Activo/Equipo que es objeto del servicio en la OT y/o SS. Por defecto ellos son nombrados Activo / Equipo y puede ser cambiado a un nombre que sea más significativo según la cultura de la compañía.
 
+**Número de Contacto:** Este número es configurado en el momento de establecer las notificaciones por correo electrónico de las SS/OT y aparece en el cuerpo del mensaje de la notificación.
+
 **¿Cómo nombrar la prioridad Alta?:** Se refiere a los tipos de prioridades creadas en el AM. Por defecto este campo es nombrado como Emergente y puede ser cambiado a un nombre que sea más significativo dentro de la Compañía.
 
 **¿Cómo nombrar la prioridad media?:** Se refiere a los tipos de prioridades creadas en el AM. Por defecto este campo es nombrado como Urgente y puede ser cambiado a un nombre que sea más significativo dentro de la Compañía.
