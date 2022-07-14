@@ -76,7 +76,7 @@ _**Imagen 37.** AMsi - General_
 En esta ventana se configuran los campos que serán exigidos en la sección Datos del Solicitante, bien sea para crear un nuevo Usuario o cuando se vaya a **Actualizar el Perfil**. Los componentes de la ventana de Información del Solicitante son los que se muestran a continuación. Sobre cada componente se da una breve explicación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img37.png)
-_**Imagen 38.** AMsi - Configurar SS/OT_
+_**Imagen 38.** AMsi - Información Solicitante_
 
 
 **¿El Teléfono es requerido?:** Marcar SI indica que este campo es obligatorio y se identifican con un asterisco * de color rojo entre paréntesis que antecede el nombre del campo. Además, indica que debe ser llenado por los usuarios. Marcar NO implica dejar el campo a manera opcional de diligenciamiento para el solicitante al momento de actualizar la información dese Actualizar Perfil o para el usuario administrador al momento de crear y actualizar los usuarios.
@@ -96,7 +96,7 @@ _**Imagen 38.** AMsi - Configurar SS/OT_
 En esta ventana se configuran los campos que serán exigidos en la sección Servicio Solicitado. Los componentes de la ventana de Servicio Solicitado son los que se muestran a continuación. Sobre cada componente se da una breve explicación.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img38.png)
-_**Imagen 38.** AMsi - Configurar SS/OT_
+_**Imagen 39.** AMsi - Formulario Servicio Solicitado_
 
 
 **¿Cómo nombrar las compañías?:** Se refiere a los nombres de las Compañías creadas en el AM, es decir, los Centros de Servicio responsables de las diferentes actividades de mantenimiento del Cliente. Por defecto ellas son nombradas como Centro de Servicio y pueden ser renombradas a gusto según la cultura del Cliente.
@@ -114,7 +114,7 @@ _**Imagen 38.** AMsi - Configurar SS/OT_
 En esta ventana se configuran las opciones correspondientes para el campo de Activo/Equipo en el formulario Servicio Solicitado, en el proceso de creación de una SS y/o OT. Los componentes de la ventana de Identificación del Activo son los que se muestran a continuación. Sobre cada componente se da una breve explicación.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img39.png)
-_**Imagen 39.** AMsi - Configurar SS/OT_
+_**Imagen 40.** AMsi - Identificar Activo_
 
 
 **¿Desea describir el Activo en lenguaje natural?:** Elegir SI en este botón, habilita un checkbox al extremo izquierdo del campo Activo / Equipo. Al chequear este cuadro, inmediatamente se habilitan dos campos que pueden ser diligenciados. El primer campo es para describir en lenguaje natural el Activo o Equipo hasta con 50 caracteres, y el segundo campo es para describir también en lenguaje natural la ubicación física del Activo o Equipo referenciado hasta con 50 caracteres. De elegir NO, quedará disponible para definir el código de Activo/Equipo solamente del icono de filtro azul y seleccionarlo del visor de Activos. Es de tener en cuenta que cuando se elige la opción para crear Órdenes, esta opción no es posible cambiarla.
