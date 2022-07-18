@@ -129,16 +129,19 @@ Si el Activo/Equipo es seleccionado de una lista o ingresado con su respectivo c
 
 En esta ventana se establece el Usuario y Contraseña del Administrador del  **AMsi** , además se configuran los servidores de correo con usuarios y contraseñas. Los componentes de la ventana de Seguridad son los que se muestran a continuación. Sobre cada componente se da una breve explicación:
 
-![Procesar imagen](../assets/images/placeholder.jpg)
-_**Imagen 39. Seguridad**_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img40.png)
+_**Imagen 41.** AMsi - Identificar Activo_
+
 
 **Usuario Administrador:** En este campo se define el usuario Administrador con el cual se accede al sistema para la Configuración de **AMsi**.
 
 **Contraseña:** En este campo se asigna una Contraseña para el usuario Administrador, con el fin de acceder a la Configuración de **AMsi**. La Contraseña se muestra en blanco o sin diligenciar por seguridad.
-Servidor de Correo: En este campo se ubica el servidor de correo de la organización, para habilitar la funcionalidad de envíos por correo.
+
+**Servidor de Correo:** En este campo se ubica el servidor de correo de la organización, para habilitar la funcionalidad de envíos por correo.
 
 **Usuario de Correo:** En este campo se indica un usuario de correo bajo una estructura válida de una cuenta de correo. Es la cuenta origen desde la que serán enviados los correos de notificación.
-Contraseña de Correo: En este campo se define la Contraseña con la cual se accede a la cuenta de correo ubicada en el campo anterior.
+
+]]Contraseña de Correo:** En este campo se define la Contraseña con la cual se accede a la cuenta de correo ubicada en el campo anterior.
 
 **Utiliza cifrado (SSL):** En este campo se habilita la seguridad integrada del cifrado (SSL). Por defecto esta opción es configurado como NO.
 
@@ -147,7 +150,5 @@ Contraseña de Correo: En este campo se define la Contraseña con la cual se acc
 
 #### 9.3.6 Finalizando la Configuración
 
-Una vez realizadas las modificaciones, dar clic al botón Actualizar ubicado al final de esta ventana para guardar la nueva configuración de **AMsi**, el sistema inmediatamente vuelve a la ventana de Menú Principal del Usuario Administrador.
-
-![Procesar imagen](../assets/images/placeholder.jpg)
-_**Imagen 40. Actualizar Configuración de **AMsi****_
+Una vez realizadas las modificaciones, dar clic al botón <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a>
+ubicado al final de esta ventana para guardar la nueva configuración de **AMsi**, el sistema inmediatamente vuelve a la ventana de Menú Principal del Usuario Administrador.
