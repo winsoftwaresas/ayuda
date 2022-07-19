@@ -67,7 +67,7 @@ A esta ventana se llega haciendo clic sobre el botón <a class="btn blue">Nuevo 
 
 ##### Datos del Usuario
 
-Este cuadro hace referencia a los Datos del Usuario solicitante necesario para la creación del mismo y son los que aparecerán en la sección de Datos del Solicitante en Actualizar Perfil y Crear Nueva Solicitud o Crear Nueva Orden. Contiene la información personal del solicitante y todos los campos se encuentran bloqueados.
+Este recuadro hace referencia a los Datos del Usuario solicitante necesarios para la creación del mismo y son los que aparecerán en la sección de **_Datos del Solicitante_** en **_Actualizar Perfil_** para **Crear Nueva Solicitud** o **Crear Nueva Orden**. Contiene la información personal del solicitante y todos los campos se encuentran bloqueados.
 
 El formulario Datos del Usuario hace referencia a los datos del usuario solicitante que se está creando.
 
