@@ -12,7 +12,7 @@ date: 2022-07-12T21:02:49.176Z
 ---
 Se define el acceso al aplicativo y comandos del menú principal para el Administrador del sistema. Se configuran criterios, preferencias, particularidades y modos de visualización de la información en los formularios básicos del aplicativo al igual que los permisos, parametrización y administración de los usuarios de **AMsi**.
 
-**En este capítulo**
+**En esta sección**
 
 - Acceso al modo Configuración
 - Ventana de Menú Principal del Usuario Administrador
