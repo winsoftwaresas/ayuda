@@ -34,7 +34,7 @@ Los títulos en azul que encabezan las columnas son también botones que permite
 
 Para elegir un registro de la tabla se da un clic sobre él.
 
-En la parte superior izquierda de esta ventana se observa la identificación actual de la opción seleccionada desde el _Menú Principal del Usuario Administrador_. También, al lado derecho de esta sección, se encuentra el botón <a class="btn white">nuevo</a>con el fin de acceder rápidamente a la ventana Detalle con el fin de ingresar un nuevo registro o usuario.
+En la parte superior izquierda de esta ventana se observa la identificación actual de la opción seleccionada desde el _Menú Principal del Usuario Administrador_. También, al lado derecho de esta sección, se encuentra el botón <a class="btn white">nuevo</a> con el fin de acceder rápidamente a la ventana Detalle para ingresar un nuevo registro o usuario.
 
 En la parte superior derecha se encuentran dos opciones, para dirigirse a la ventana de Inicio y Cerrar Sesión de la aplicación.
 
@@ -44,8 +44,9 @@ En  la  parte inferior  derecha de esta ventana se observan también varios enla
 
 #### 10.1.1 Ventana Detalle de Usuarios
 
-![Procesar imagen](../assets/images/placeholder.jpg)
-_**Imagen 43. Ventana Detalle de Usuarios**_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img43.png)
+_**Imagen 43.** AMsi - Visor Administrar Usuarios_
+
 
 Es la porción de la  pantalla en que se muestran  los  datos detallados del usuario seleccionado en la ventana Visor.
 
