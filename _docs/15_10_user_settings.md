@@ -89,7 +89,7 @@ Todos los campos marcados con asterisco (*) son de carácter obligatorio.
 
 **Correo Electrónico:** Dirección de correo electrónico del usuario solicitante asignado por la organización, o bien, correo personal del usuario solicitante en caso de no tener una cuenta de correo electrónico corporativa.
 
-**<a class="btn black"><span class="mdi mdi-checkbox-blank-outline"> todos los centros de costo</span></a>** Este cuadro de chequeo (checkbox) permite asociarle al usuario todos los centros de costo de todas las compañías existentes en AM, al chequearlo se ocultan los cuadros para asociar uno o varios centros de costo, que están en la parte inferior de la ventana.
+**<a class="btn black"><span class="mdi mdi-checkbox-blank-outline"> todos los centros de costo</span></a>** Este cuadro de chequeo (checkbox) permite asociarle al usuario todos los centros de costo de todas las compañías existentes en AM, al chequearlo se ocultan los centros de costo, que están en la parte inferior de la ventana.
 
 **Cuadros de Asociación de Centros de Costo:** Está estructurado por un campo para seleccionar la compañía y dos cuadros ubicados en la parte inferior de esta ventana.
 
