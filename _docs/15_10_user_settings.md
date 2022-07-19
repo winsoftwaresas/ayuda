@@ -36,7 +36,7 @@ Para elegir un registro de la tabla se da un clic sobre él.
 
 En la parte superior izquierda de esta ventana se observa la identificación actual de la opción seleccionada desde el _Menú Principal del Usuario Administrador_. También, al lado derecho de esta sección, se encuentra el botón <a class="btn white">nuevo</a> con el fin de acceder rápidamente a la ventana Detalle para ingresar un nuevo registro o usuario.
 
-En la parte superior derecha se encuentran dos opciones, para dirigirse a la ventana de Inicio y Cerrar Sesión de la aplicación.
+En la parte superior derecha se encuentran dos opciones, para dirigirse al Menú Principal <span class="mdi mdi-home"></span> y para Cerrar Sesión en el aplicativo <span class="mdi mdi-exit-to-app"></span>.
 
 En la parte inferior izquierda de esta ventana se encuentra el número de registros por página que se quieren visualizar, además de la cantidad de registros totales que conforman la tabla.
 
