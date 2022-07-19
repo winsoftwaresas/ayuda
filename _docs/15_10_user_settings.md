@@ -67,9 +67,7 @@ A esta ventana se llega haciendo clic sobre el botón <a class="btn blue">Nuevo 
 
 ##### Datos del Usuario
 
-Este recuadro hace referencia a los Datos del Usuario solicitante necesarios para la creación del mismo y son los que aparecerán en la sección de **_Datos del Solicitante_** en **_Actualizar Perfil_** para **Crear Nueva Solicitud** o **Crear Nueva Orden**. Contiene la información personal del solicitante y todos los campos se encuentran bloqueados.
-
-El formulario Datos del Usuario hace referencia a los datos del usuario solicitante que se está creando.
+Este recuadro hace referencia a los datos del Usuario solicitante necesarios para la creación del mismo y son los que aparecerán en la sección de **_Datos del Solicitante_** en **_Actualizar Perfil_** para **Crear Nueva Solicitud** o **Crear Nueva Orden**. Contiene la información personal del solicitante. 
 
 Todos los campos marcados con asterisco (*) son de carácter obligatorio.
 
@@ -77,17 +75,11 @@ Todos los campos marcados con asterisco (*) son de carácter obligatorio.
 
 **Nro. Documento:** En este campo se define el número de Identificación correspondiente al Tipo Documento, del usuario solicitante. (Campo requerido).
 
-**Contraseña:** En este campo se define la contraseña, con el fin de que el usuario que se está registrando pueda acceder al  **AMsi** . (Campo requerido).
+**Contraseña:** En este campo se define la contraseña, con el fin de que el usuario que se está registrando pueda acceder a **AMsi**. (Campo requerido). Cada vez que se actualice este registro es necesario confirmar la contraseña.
 
 **Nombre Completo:** En este campo se digita el nombre completo del usuario solicitante. (Campo requerido).
 
 **Teléfono:** En este campo se define el número telefónico donde se puede localizar al usuario solicitante. El número telefónico generalmente corresponde a una dependencia de la organización a la cual pertenece al usuario solicitante.
-
-Este campo permite ingresar el número telefónico de la siguiente manera: Indicativo del país y de la ciudad + número telefónico fijo. Ejemplo:
-
-(572)2345678 donde:
-572 Colombia, Cali
-2345678	Número de Teléfono Fijo
 
 **Extensión:** En este campo se asigna un número de extensión telefónico donde se puede localizar al usuario solicitante.
 
