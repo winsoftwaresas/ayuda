@@ -23,7 +23,7 @@ Una vez se ingrese como Usuario Administrador, dar clic rn **Administrar Usuario
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img41.png)
 _**Imagen 42.** AMsi - Ir a Administrar Usuarios_
 
-#### 10.1 Ventana Visor de Usuarios
+#### Ventana Visor de Usuarios
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img42.png)
 _**Imagen 43.** AMsi - Visor Administrar Usuarios_
@@ -42,12 +42,12 @@ En la parte inferior izquierda de esta ventana se encuentra el número de regist
 
 En  la  parte inferior  derecha de esta ventana se observan también varios enlaces para  navegar avanzando y retrocediendo páginas completas de registros. Como guía existe un indicador sobre la página relativa actual y la posibilidad de ingresar a la primera o última página, sin importar la página en la que se encuentre.
 
-#### 10.1.1 Ventana Detalle de Usuarios
+#### Ventana Detalle de Usuarios
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img43.png)
 _**Imagen 44.** AMsi - Visor Administrar Usuarios_
 
-Es la porción de la  pantalla en que se muestran  los  datos detallados del usuario seleccionado en la ventana Visor.
+Es la porción de la pantalla en que se muestran los datos detallados del usuario seleccionado en la ventana Visor.
 
 Además de la información detallada de un usuario, contiene dos botones y son el botón de **Nuevo** y **Actualizar**; que siempre están en la parte superior izquierda de la ventana.
 
