@@ -63,9 +63,9 @@ Para salir de la ventana Detalle se puede dar clic en la parte de afuera de esta
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img44.png)
 _**Imagen 45.** AMsi - Visor Administrar Usuarios_
 
-A esta ventana se llega haciendo clic sobre el botón “Nuevo” de la ventana detalle del usuario. A través de ella se diligencian los Datos del Usuario y los Centros de Costo para la creación del usuario de  **AMsi** . A continuación, se describen los campos que componen esta ventana de Creación de Usuarios. Sobre cada campo se da una breve explicación.
+A esta ventana se llega haciendo clic sobre el botón <a class="btn blue">Nuevo <span class="mdi mdi-plus-circle-outline"></span></a> de la ventana detalle del usuario. A través de ella se diligencian los Datos del Usuario y los Centros de Costo para la creación del usuario de  **AMsi** . A continuación, se describen los campos que componen esta ventana de Creación de Usuarios.
 
-### Campos Del Formulario Datos Del Usuario
+##### Datos del Usuario
 
 Este cuadro hace referencia a los Datos del Usuario solicitante necesario para la creación del mismo y son los que aparecerán en la sección de Datos del Solicitante en Actualizar Perfil y Crear Nueva Solicitud o Crear Nueva Orden. Contiene la información personal del solicitante y todos los campos se encuentran bloqueados.
 
