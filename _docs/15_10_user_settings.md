@@ -20,8 +20,8 @@ Se orienta al Administrador en la creación y actualización de datos del Usuari
 
 Una vez se ingrese como Usuario Administrador, dar clic rn **Administrar Usuarios** en la ventana de Menú Principal para continuar con la Administración de los Usuarios de **AMsi**.
 
-![Procesar imagen](../assets/images/placeholder.jpg)
-_**Imagen 41. Administrar Usuarios**_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img41.png)
+_**Imagen 42.** AMsi - Identificar Activo_
 
 #### 10.1 Ventana Visor de Usuarios
 
