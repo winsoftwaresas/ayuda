@@ -18,7 +18,7 @@ Se orienta al Administrador en la creación y actualización de datos del Usuari
 - Actualización de Usuarios
 - Asociar Centros de Costo
 
-Una vez se ingrese como usuario Administrador, dar clic a este botón ubicado en la ventana de Menú Principal para continuar con la Administración de los Usuarios de  **AMsi**.
+Una vez se ingrese como Usuario Administrador, dar clic rn **Administrar Usuarios** en la ventana de Menú Principal para continuar con la Administración de los Usuarios de **AMsi**.
 
 ![Procesar imagen](../assets/images/placeholder.jpg)
 _**Imagen 41. Administrar Usuarios**_
