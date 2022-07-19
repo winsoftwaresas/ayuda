@@ -28,9 +28,7 @@ _**Imagen 42.** AMsi - Ir a Administrar Usuarios_
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img42.png)
 _**Imagen 43.** AMsi - Visor Administrar Usuarios_
 
-A esta ventana se llega haciendo clic sobre la opción Administrar Usuarios del Menú Principal.
-
-Es la ventana en la que se lista el total de los usuarios registrados en el  **AMsi** .
+El Visor de Administrar Usuarios lista el total de los usuarios registrados en el  **AMsi** .
 
 Los títulos en azul que encabezan las columnas son también botones que permiten ordenar la tabla, según el título seleccionado.
 
