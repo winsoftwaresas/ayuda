@@ -52,15 +52,13 @@ Es la porción de la pantalla en que se muestran los datos detallados del usuari
 Además de la información detallada de un usuario, contiene dos botones y son el botón de <a class="btn blue">Nuevo <span class="mdi mdi-plus-circle-outline"></span></a> y <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a> que siempre están en la parte superior izquierda de la ventana.
 
 El botón <a class="btn blue">Nuevo <span class="mdi mdi-plus-circle-outline"></span></a> prepara la ventana Detalle para el ingreso de un nuevo registro. Al activarlo, el sistema reemplaza la línea de 2 botones por una nueva de 2 botones: <a class="btn blue">Insertar <span class="mdi mdi-plus-circle-outline"></span></a>
-y **Cancelar**. El botón **Insertar** ingresa el nuevo registro a la base de datos actualizando la ventana Visor, mientras que el botón <a class="btn blue">cancelar <span class="mdi mdi-block-helper"></span></a> aborta el proceso de creación del nuevo registro retornando a la ventana Detalle.
+y <a class="btn blue">cancelar <span class="mdi mdi-block-helper"></span></a>. El botón <a class="btn blue">Insertar <span class="mdi mdi-plus-circle-outline"></span></a> ingresa el nuevo registro a la base de datos actualizando la ventana Visor, mientras que el botón <a class="btn blue">cancelar <span class="mdi mdi-block-helper"></span></a> aborta el proceso de creación del nuevo registro retornando a la ventana Detalle.
 
-El botón **Actualizar** sirve para guardar o salvar en la base de datos la información que se ha modificado en la ventana Detalle, correspondiente al registro señalado por el cursor en la ventana Visor y registrar allí simultáneamente el mismo cambio.
-
-En la parte superior izquierda de esta ventana se observa la identificación actual de la opción seleccionada desde el Menú Principal del Usuario Administrador.
+El botón <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a> sirve para guardar o salvar en la base de datos la información que se ha modificado en la ventana Detalle, correspondiente al registro señalado por el cursor en la ventana Visor y registrar allí simultáneamente el mismo cambio.
 
 Para salir de la ventana Detalle se puede dar clic en la parte de afuera de esta ventana, la cual lleva a la ventana Visor.
 
-#### 10.1.2	Creación de Usuarios
+#### Creación de Usuarios
 
 ![Procesar imagen](../assets/images/placeholder.jpg)
 _**Imagen 44. Creación de Usuarios**_
