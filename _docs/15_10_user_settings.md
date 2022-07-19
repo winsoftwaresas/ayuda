@@ -103,13 +103,6 @@ La funcionalidad consiste en seleccionar el Centro de Costo desde el recuadro de
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img46.png)
 _**Imagen 47.** AMsi - Trasladar/Asociar Centros de Costo_
 
-Para visualizar la información completa de los Centros de Costo disponibles para ser asociados y los que se asociaron al usuario solicitante y además, facilitar su recorrido es posible realizar desplazamientos verticales del cursor tanto hacia el comienzo como hacia  el final del cuadro.
-Una vez registrado el usuario, el sistema muestra un mensaje de notificación de registro exitoso.
+Para visualizar la información completa de los Centros de Costo disponibles para ser asociados y los que se asociaron al usuario solicitante y facilitar su recorrido es posible realizar desplazamientos verticales del cursor tanto hacia el comienzo como hacia  el final del cuadro.
 
-![Procesar imagen](../assets/images/placeholder.jpg)
-_**Imagen 45. Mensaje registro Usuario**_
-
-Para el proceso de actualización de un usuario, se debe seleccionar de la ventana Visor el registro a actualizar, luego se diligencian los campos a modificar en la ventana Detalle, se da clic al botón Actualizar, seguido a esto se muestra un mensaje de confirmación de la transacción.
-
-![Procesar imagen](../assets/images/placeholder.jpg)
-_**Imagen 46. Mensaje actualización Usuario**_
+>**Nota:** Una vez que se inserta un usuario nuevo o se actualice un usuario existente, el sistema muestra un mensaje de notificación de registro exitoso.
