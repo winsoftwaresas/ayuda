@@ -96,9 +96,7 @@ Todos los campos marcados con asterisco (*) son de carácter obligatorio.
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img45.png)
 _**Imagen 46.** AMsi - Elegir Compañía_
 
-En el campo se selecciona la compañía deseada, con el fin de que en el cuadro de la izquierda se listen los Centros de Costo correspondientes a esa compañía seleccionada.
-
-En el cuadro de la izquierda, se listan los Centros de Costo definidos en la tabla de centros de costo de la compañía elegida en el campo anterior mencionado. Mientras que, en el cuadro de la derecha se listan los Centros de Costo que se van asociando al usuario solicitante.
+En el campo anterior se selecciona la compañía deseada, y a continuación en el cuadro de la izquierda se listan todos los Centros de Costo correspondientes a esa compañía. Mientras que, en el cuadro de la derecha, se listan los Centros de Costo que se van asociando al usuario solicitante.
 
 La funcionalidad consiste en seleccionar el centro de costo al cual se le asignara al usuario solicitante desde el cuadro izquierdo, la selección se hace posicionando el cursor en el registro deseado, donde el registro queda sombreado de color verde. En el medio de los  dos recuadros se encuentran dos botones los cuales indican “Trasladar”. El botón superior de traslado, indica trasladar de la derecha a la izquierda, por el contrario, el botón inferior de traslado, indica trasladar de la izquierda a la derecha. Cuando se presiona el botón inferior de traslado, se agrega al cuadro de la derecha el centro de costo seleccionado previamente y que quedará asociado al usuario solicitante. Para asociar varios Centros de Costo, se presiona la tecla “Shift” de manera sostenida y se seleccionan los Centros de Costo desde el cuadro izquierdo.
 
