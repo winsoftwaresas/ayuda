@@ -61,7 +61,7 @@ Para salir de la ventana Detalle se puede dar clic en la parte de afuera de esta
 #### Creación de Usuarios
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img44.png)
-_**Imagen 45.** AMsi - Visor Administrar Usuarios_
+_**Imagen 45.** AMsi - Detalle Usuario_
 
 A esta ventana se llega haciendo clic sobre el botón <a class="btn blue">Nuevo <span class="mdi mdi-plus-circle-outline"></span></a> de la ventana detalle del usuario. A través de ella se diligencian los Datos del Usuario y los Centros de Costo para la creación del usuario de  **AMsi** . A continuación, se describen los campos que componen esta ventana de Creación de Usuarios.
 
@@ -92,6 +92,9 @@ Todos los campos marcados con asterisco (*) son de carácter obligatorio.
 **<a class="btn black"><span class="mdi mdi-checkbox-blank-outline"> todos los centros de costo</span></a>** Este cuadro de chequeo (checkbox) permite asociarle al usuario todos los centros de costo de todas las compañías existentes en AM, al chequearlo se ocultan los centros de costo, que están en la parte inferior de la ventana.
 
 **Cuadros de Asociación de Centros de Costo:** Está estructurado por un campo para seleccionar la compañía y dos cuadros ubicados en la parte inferior de esta ventana.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img45.png)
+_**Imagen 46.** AMsi - Elegir Compañía_
 
 En el campo se selecciona la compañía deseada, con el fin de que en el cuadro de la izquierda se listen los Centros de Costo creados en la tabla de centros de costo de esa compañía seleccionada.
 
