@@ -60,8 +60,8 @@ Para salir de la ventana Detalle se puede dar clic en la parte de afuera de esta
 
 #### Creación de Usuarios
 
-![Procesar imagen](../assets/images/placeholder.jpg)
-_**Imagen 44. Creación de Usuarios**_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img44.png)
+_**Imagen 45.** AMsi - Visor Administrar Usuarios_
 
 A esta ventana se llega haciendo clic sobre el botón “Nuevo” de la ventana detalle del usuario. A través de ella se diligencian los Datos del Usuario y los Centros de Costo para la creación del usuario de  **AMsi** . A continuación, se describen los campos que componen esta ventana de Creación de Usuarios. Sobre cada campo se da una breve explicación.
 
