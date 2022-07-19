@@ -49,10 +49,10 @@ _**Imagen 44.** AMsi - Visor Administrar Usuarios_
 
 Es la porción de la pantalla en que se muestran los datos detallados del usuario seleccionado en la ventana Visor.
 
-Además de la información detallada de un usuario, contiene dos botones y son el botón de <a class="btn blue">Nuevo <span class="mdi mdi-plus-circle-outline"></span></a>
- y <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a> que siempre están en la parte superior izquierda de la ventana.
+Además de la información detallada de un usuario, contiene dos botones y son el botón de <a class="btn blue">Nuevo <span class="mdi mdi-plus-circle-outline"></span></a> y <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a> que siempre están en la parte superior izquierda de la ventana.
 
-El botón **Nuevo** prepara la ventana Detalle para el ingreso de un nuevo registro. Al activarlo, el sistema reemplaza la línea de 2 botones por una nueva de 2 botones: **Insertar** y **Cancelar**. El botón **Insertar** ingresa el nuevo registro a la base de datos actualizando la ventana Visor, mientras que el botón **Cancelar** aborta el proceso de creación del nuevo registro retornando a la ventana Detalle.
+El botón <a class="btn blue">Nuevo <span class="mdi mdi-plus-circle-outline"></span></a> prepara la ventana Detalle para el ingreso de un nuevo registro. Al activarlo, el sistema reemplaza la línea de 2 botones por una nueva de 2 botones: <a class="btn blue">Insertar <span class="mdi mdi-plus-circle-outline"></span></a>
+y **Cancelar**. El botón **Insertar** ingresa el nuevo registro a la base de datos actualizando la ventana Visor, mientras que el botón <a class="btn blue">cancelar <span class="mdi mdi-block-helper"></span></a> aborta el proceso de creación del nuevo registro retornando a la ventana Detalle.
 
 El botón **Actualizar** sirve para guardar o salvar en la base de datos la información que se ha modificado en la ventana Detalle, correspondiente al registro señalado por el cursor en la ventana Visor y registrar allí simultáneamente el mismo cambio.
 
