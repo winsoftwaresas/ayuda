@@ -10,7 +10,7 @@ date: 2022-06-14T19:50:52.335Z
 ---
 Se define el formulario a diligenciar para actualizar el perfil del usuario Solicitante en **AMsi**.
 
-**En este capítulo**
+**En esta sección**
 
 - Actualizar Perfil del usuario
 
