@@ -91,12 +91,12 @@ Todos los campos marcados con asterisco (*) son de carácter obligatorio.
 
 **<a class="btn black"><span class="mdi mdi-checkbox-blank-outline"> todos los centros de costo</span></a>** Este cuadro de chequeo (checkbox) permite asociarle al usuario todos los centros de costo de todas las compañías existentes en AM, al chequearlo se ocultan los centros de costo, que están en la parte inferior de la ventana.
 
-**Cuadros de Asociación de Centros de Costo:** Está estructurado por un campo para seleccionar la compañía y dos cuadros ubicados en la parte inferior de esta ventana.
+**Cuadros de Asociación de Centros de Costo:** Está estructurado por un campo para seleccionar la compañía y dos cuadros ubicados en la parte inferior de esta ventana para asignar manualmente los Centros de Costo a un Usuario, como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img45.png)
 _**Imagen 46.** AMsi - Elegir Compañía_
 
-En el campo se selecciona la compañía deseada, con el fin de que en el cuadro de la izquierda se listen los Centros de Costo creados en la tabla de centros de costo de esa compañía seleccionada.
+En el campo se selecciona la compañía deseada, con el fin de que en el cuadro de la izquierda se listen los Centros de Costo correspondientes a esa compañía seleccionada.
 
 En el cuadro de la izquierda, se listan los Centros de Costo definidos en la tabla de centros de costo de la compañía elegida en el campo anterior mencionado. Mientras que, en el cuadro de la derecha se listan los Centros de Costo que se van asociando al usuario solicitante.
 
