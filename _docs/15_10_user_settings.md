@@ -45,8 +45,7 @@ En  la  parte inferior  derecha de esta ventana se observan también varios enla
 #### 10.1.1 Ventana Detalle de Usuarios
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img43.png)
-_**Imagen 43.** AMsi - Visor Administrar Usuarios_
-
+_**Imagen 44.** AMsi - Visor Administrar Usuarios_
 
 Es la porción de la  pantalla en que se muestran  los  datos detallados del usuario seleccionado en la ventana Visor.
 
