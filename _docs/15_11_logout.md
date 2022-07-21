@@ -9,7 +9,8 @@ author: win
 order: 15_11
 date: 2022-07-19T18:14:18.403Z
 ---
-Esta opción permite exportar los ítems o campos de la ficha técnica de PM, bien sea, para exportar todas los PM de la base de datos o las provenientes de un subgrupo a un archivo de Excel que se descarga automáticamente en la estación cliente.
+Esta opción permite exportar los ítems o campos de la SS/OT de **AMsi**, bien sea, para exportar todos los registros o las provenientes de un subgrupo a un archivo de Excel que se descarga automáticamente en la estación cliente.
+
 Para efectuar este proceso, se da clic en Exportar <span class="mdi mdi-download"></span> mostrando las siguientes opciones de exportación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img71.png)
