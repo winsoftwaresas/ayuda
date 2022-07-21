@@ -11,10 +11,18 @@ date: 2022-07-19T18:14:18.403Z
 ---
 Esta opción permite exportar los ítems o campos de la SS/OT de **AMsi**, bien sea, para exportar todos los registros o las provenientes de un subgrupo a un archivo de Excel que se descarga automáticamente en la estación cliente.
 
-Para efectuar este proceso, se da clic en Exportar <span class="mdi mdi-download"></span> mostrando las siguientes opciones de exportación:
+Para efectuar este proceso, se da clic en Exportar <span class="mdi mdi-download"></span>. Según la configuración de **AMsi** los campos pueden variar según se solicite SS/OT.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img71.png)
-***Imagen 81.** Programas - Exportar*
+- Las siguientes opciones son para exportar algunos campos de las SS:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img47.png)
+_**Imagen 48.** AMsi - Exportar SS_
+
+- Las siguientes opciones son para exportar algunos campos de las OT:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img48.png)
+_**Imagen 49.** AMsi - Exportar OT_
+
 
 En la gráfica anterior, se aprecian sus componentes y sus respectivos contenidos:
 
