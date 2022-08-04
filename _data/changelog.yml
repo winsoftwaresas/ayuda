@@ -1,6 +1,28 @@
 # Changelog page source
 
-- title: Version AM4G 0.82
+- title: AM4G  Version 0.83
+  label: STABLE
+  date: Julio 7, 2022
+  list:
+  - Se desarrolla la función para exportar los datos de la Grilla en AMsi.
+  - Se ajustan los valores decimales en el cálculo de los contratos.
+  - Se desarrolla la validación de valores en los contadores, según su tipo sean incremental o decremental y el estándar de planeación en relación al tiempo de actualización.
+  - Se agregan los campos Alias y Código de barra Interno a la función de modificación masiva en el modulo de Activos.
+  - Se corrige el campo Adicionar Comentario en modificación masiva modulo de Programas, ahora el sistema permite agregar comentarios a los programas sin borrar la información previa que contenía el programa en este campo.
+  - Se adiciona el campo Responsable por Institución en la función de modificación masiva en el modulo de Programas.
+  - Se corrige el campo de insertar Ingresar Presupuesto – Ingresar Materiales y Repuestos en modificación masiva en el modulo de Programas. El usuario debe seleccionar el Almacén desde donde tomara el repuesto antes de abrir la función de búsqueda.
+  - Se corrige el campo de búsqueda RP-Código, en el modulo de Programas, el usuario debe elegir primero el almacén antes de desplegar la ventana de búsqueda.
+  - Se agrega la columna Fecha de Cierre en la función de Exportar Grilla en el modulo de Solicitudes.
+  - Se adiciona modal que contiene la explicación correspondiente a los Colores en la columna de Estado en el modulo de Ordenes.
+  - Se habilita el campo Agregar Responsable de Gasto Real a la modificación masiva en el modulo de Ordenes.
+  - La bitácora de Ordenes de trabajo tomara el registro desde la Creación de la Orden y no desde la primera modificación cómo funcionaba actualmente.
+  - Se adiciona el campo de Tiempo Total de Solución.
+  - Se corrige la función de Actualización en Gasto Real Otros Conceptos.
+  - Se lleva al modulo de Seguimiento y Cierre el registro de Activo Limpio en el modulo de Historia.
+  - Se desarrolla el reporte HMR-RCACD- Resumen De Costos En Ordenes De Trabajo - Agrupado Por Activo Raíz.
+  - Se desarrolla el reporte HMR-RCACDXA - Resumen De Costos En Ordenes De Trabajo - Agrupado Por Activo Raíz y Activos. 
+
+- title: AM4G Version 0.82
   label: STABLE
   date: Junio 3, 2022
   list:
@@ -16,7 +38,7 @@
   - Se parametriza la opción Permitir crear Solicitudes y Órdenes solo usuarios incluidos en Terceros. 
 
 
-- title: Version AM4G 0.81
+- title: AM4G Version 0.81
   label: STABLE
   date: Mayo 5, 2022
   list:
@@ -34,7 +56,7 @@
   - Se desarrollan los reportes de Historia HMI-IND3 ,HMI-IND4 ,HMI-IND7 ,HMD-HIHV, HMD-HIHVBIO.
   - Se desarrollan los reportes de Órdenes OTD-G2XP,OTD-P2XP.
 
-- title: Version AM4G 0.80
+- title: AM4G Version 0.80
   label: STABLE
   date: Abril 05, 2022
   list:
@@ -43,7 +65,7 @@
   - Se desarrolla el reporte de Historia HME-CRMACC.
   - Se crea la opción para que los usuarios de AMovil pueden parametrizar desde AM4G, si los técnicos pueden usar el estado Cerrado Ejecutado en AMovil.
   
-- title: Version AM4G 0.79
+- title: AM4G Version 0.79
   label: STABLE
   date: Febrero 28, 2022
   list:

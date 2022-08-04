@@ -1,10 +1,10 @@
 ---
 layout: page
-title: VERSION AM4G 0.82 Cambios Y Adiciones
+title: AM4G Versión 0.82 Cambios Y Adiciones.
 ---
 **MÓDULO DE AMsi:**
 
-1. Se adiciona el campo: Confirmar contraseña de Usuario.
+- Se adiciona el campo: Confirmar contraseña de Usuario.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/Version82/Imagen1.png)
 
@@ -16,12 +16,12 @@ Para los ambientes donde la configuración definida en AMsi es: No Relacionar Us
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/Version82/Imagen3.png)
 
 
-1. Por defecto el AMsi toma la primera compañía de la lista
+- Por defecto el AMsi toma la primera compañía de la lista
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/Version82/Imagen4.png)
 
 
-2. Función de búsqueda con el tabulador para activos. Permite la búsqueda por Código, Número de Activo Fijo y Serial.
+- Función de búsqueda con el tabulador para activos. Permite la búsqueda por Código, Número de Activo Fijo y Serial.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/Version82/Imagen5.png)
 
@@ -29,7 +29,7 @@ Para los ambientes donde la configuración definida en AMsi es: No Relacionar Us
 
 * **PERMISOS**
 
-1. Se revisan y corrigen los permisos de visualización para todas las tablas de Infraestructura
+- Se revisan y corrigen los permisos de visualización para todas las tablas de Infraestructura
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/Version82/Imagen6.png)
 
@@ -37,7 +37,7 @@ Para los ambientes donde la configuración definida en AMsi es: No Relacionar Us
 
 * **CONTRATOS**
 
-1. Se calculan y muestran los valores de ejecución de contratos.
+- Se calculan y muestran los valores de ejecución de contratos.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/Version82/Imagen8.png)
 
@@ -51,11 +51,11 @@ Gasto Real Ejecutado en OT Pendientes: Comprende la sumatoria de los gastos de M
 
 **MÓDULO DE ACTIVOS:**
 
-1. Se adiciona la validación de tipo de compañía biomédica y uso de metrología en el detalle de activo cuando se ingresa desde la vista tipo Árbol a los detalles de los Activos.
+- Se adiciona la validación de tipo de compañía biomédica y uso de metrología en el detalle de activo cuando se ingresa desde la vista tipo Árbol a los detalles de los Activos.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/Version82/Imagen9.png)
 
-2. Se desarrolla el calculo del valor actual depreciado, años de uso y años restantes del Activo. 
+- Se desarrolla el calculo del valor actual depreciado, años de uso y años restantes del Activo. 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/Version82/Imagen10.png)
 
@@ -63,35 +63,35 @@ Gasto Real Ejecutado en OT Pendientes: Comprende la sumatoria de los gastos de M
 
 **MÓDULO DE PROGRAMAS:**
 
-1. Se guarda la relación de contador con el criterio para que el historial del contador no se pierda al momento de volver a seleccionar el Criterio por Contador.
+- Se guarda la relación de contador con el criterio para que el historial del contador no se pierda al momento de volver a seleccionar el Criterio por Contador.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/Version82/Imagen11.png)
 
 **MÓDULO DE SOLICITUDES:**
 
-1. Los usuarios con permisos restrictivos solo podrán exportar y modificar masivamente los registros a los que tienen acceso.
+- Los usuarios con permisos restrictivos solo podrán exportar y modificar masivamente los registros a los que tienen acceso.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/Version82/Imagen12.png)
 
 **MÓDULO DE ÓRDENES:**
 
-1. Los usuarios con permisos restrictivos solo podrán exportar y modificar masivamente los registros a los que tienen acceso
+- Los usuarios con permisos restrictivos solo podrán exportar y modificar masivamente los registros a los que tienen acceso
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/Version82/Imagen13.png)
 
-2. Se corrige falla en el campo responsable que llevaba el responsable anterior al siguiente registro si este no estaba asignado.
+- Se corrige falla en el campo responsable que llevaba el responsable anterior al siguiente registro si este no estaba asignado.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/Version82/Imagen14.png)
 
 **MÓDULO DE HISTORIA:**
 
-1. Se activa la función de Subgrupo en el Dashboard: El usuario podrá realizar el filtro directamente desde en la ventana de Dashboard sin tener que cargarlo en la ventana de Historia.
+- Se activa la función de Subgrupo en el Dashboard: El usuario podrá realizar el filtro directamente desde en la ventana de Dashboard sin tener que cargarlo en la ventana de Historia.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/Version82/Imagen15.png)
 
 **MÓDULO DE ADMINISTRACIÓN:**
 
-1. Se parametriza la opción Permitir crear Solicitudes y Órdenes solo usuarios incluidos en Terceros en valores por defecto de la compañía.
+- Se parametriza la opción Permitir crear Solicitudes y Órdenes solo usuarios incluidos en Terceros en valores por defecto de la compañía.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/Version82/Imagen16.png)
 

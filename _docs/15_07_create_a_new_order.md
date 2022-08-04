@@ -13,7 +13,7 @@ Se suministra información detallada del formulario Servicio Solicitado. Dicha i
 
 Se identifican los campos relacionados en el formulario Servicio Solicitado para la creación de OT, y se reconocen los comandos que aparecen en pantalla.
 
-**En este capítulo**
+**En esta sección**
 
 - Formulario Servicio Solicitado.
 - Campos de Servicio Solicitado
