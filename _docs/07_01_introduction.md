@@ -1,8 +1,6 @@
 ---
 title: Introducción
-subtitle: en este capitulo se encontrará el ¿por qué? y el ¿para que? de la
-  seccionsolicitudes de servicio AM 4G, despejara dudas y ayudara a conocer su
-  uso adecuado en cuanto a la seccion programas de mantenimiento.
+subtitle: En este capítulo se da conocer los conceptos de la Solicitud de Servicio y su gestión en AM
 tags:
   - setup
 author: win
