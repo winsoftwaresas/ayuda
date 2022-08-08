@@ -18,4 +18,4 @@ date: 2022-08-08T16:38:48.398Z
 - ¿Quienes los protagonistas?
 - ¿Cómo se le hace seguimiento?.
 
-Son las preguntas básicas que obtienen respuesta en  el presente capitulo.
+Son las preguntas básicas que obtienen respuesta en la presente sección.
