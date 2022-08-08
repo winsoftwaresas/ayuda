@@ -1,6 +1,8 @@
 ---
-title: ◼ Solicitudes de Servicio
-subtitle: En este capitulo se explica detallamente el módulo de Solicitudes de Servicio de AM
+title: Introducción
+subtitle: en este capitulo se encontrará el ¿por qué? y el ¿para que? de la
+  seccionsolicitudes de servicio AM 4G, despejara dudas y ayudara a conocer su
+  uso adecuado en cuanto a la seccion programas de mantenimiento.
 tags:
   - setup
 author: win
