@@ -21,10 +21,10 @@ A manera de recomendación, para el área de Servicios encargada de recibir y de
 
 # Creación de Solicitudes de Servicio
 
-Crear una Solicitud de Servicio exige en primera instancia, que el usuario tenga la autorización en el sistema para poder hacerlo. Son potenciales generadores de Solicitudes de Servicio: los usuarios de los servicios de mantenimiento a todo lo ancho de la Organización, el personal de producción, el personal de servicios, el personal administrativo y el personal de mantenimiento a través del aplicativo **AMsi** complementario a **AM**
+Crear una Solicitud de Servicio exige en primera instancia, que el usuario tenga la autorización en el sistema para poder hacerlo. Son potenciales generadores de Solicitudes de Servicio: los usuarios de los servicios de mantenimiento a todo lo ancho de la Organización, el personal de producción, el personal de servicios, el personal administrativo y el personal de mantenimiento a través del aplicativo **AMsi** complementario a **AM**.
 
 
-La creación de una SS se realiza a través del men la Ventana Detalle, que sale cuando se da clic a un registro de la ventana visor de Solicitudes de Servicio. En cuanto se da un clic sobre el botón “Nuevo” esta ventana adopta la forma que se muestra a continuación. Al crear una SS, ella asume automáticamente el estado inicial: “En Análisis”. A partir del momento en que se “Inserta” la SS, el solicitante no puede modificar ningún campo, pero si puede hacer seguimiento permanente sobre ella.
+La creación de una SS en el módulo en AM se realiza a través del  la Ventana Detalle, que sale cuando se da clic a un registro de la ventana visor de Solicitudes de Servicio. En cuanto se da un clic sobre el botón “Nuevo” esta ventana adopta la forma que se muestra a continuación. Al crear una SS, ella asume automáticamente el estado inicial: “En Análisis”. A partir del momento en que se “Inserta” la SS, el solicitante no puede modificar ningún campo, pero si puede hacer seguimiento permanente sobre ella.
 
 
 
