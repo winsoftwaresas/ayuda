@@ -8,20 +8,12 @@ author: win
 order: 07_03
 date: 2022-08-11T16:00:20.347Z
 ---
-## Evaluar el Servicio
+## Solicitudes de Servicio (SS)
 
-Esta opción de submenú, disponible en Solicitudes de Servicio, pretende evaluar el servicio prestado por el personal de mantenimiento o de servicios, en la Solicitud de Servicio actual. La evaluación la realiza un usuario receptor del servicio, al cual se le ha solicitado previamente su correo electrónico para enviar las notificaciones sobre el cambio de estado a Cerrada de la Solicitud de Servicio y en donde se adjunta un link para realizar la evaluación del servicio.
+El AM propone la facilidad llamada Solicitudes de Servicio con dos objetivos: Primero, que un número amplio de personas, autorizadas, dentro de una Organización, soliciten la prestación de un servicio al área encargada, normalmente Mantenimiento, y segundo, que el personal de mantenimiento pueda registrar de una forma rápida, aquellos trabajos sencillos que realiza; sencillez expresada en términos de bajo costo, corto tiempo y un solo recurso requerido para su ejecución. Para uno y otro caso, se trata de un mecanismo fácil y simple que permite, además de generar la SS, hacerle seguimiento hasta su cierre definitivo.
 
-![Ventana Principal de Solicitudes de Servicio](../../assets/images/cap09/chp09_img08.png)
 
-A continuación el link nos lleva a la siguiente página en donde evaluamos las  preguntas predefinidas para la evaluación del servicio.
+El trámite de una SS consta de varios pasos, entre ellos una inspección previa, y por ello no es éste el mecanismo más adecuado para solicitar servicios urgentes. Se parte de la base además, de que el servicio solicitado puede o no prestarse. La decisión de ejecutar o no la SS, o de ejecutarla como SS, o como OT, depende de factores como: Razonabilidad de la Solicitud, Viabilidad de la Solución, Disponibilidad de presupuesto autorizado, tiempo, costo y recursos presupuestados.
 
-![Ventana Principal de Solicitudes de Servicio](../../assets/images/cap09/chp09_img09.png)
 
-Esta opción está disponible cuando se han definido las cuatro preguntas de evaluación, en ** “Parámetros para Evaluación del Servicio”**, en  ** “Valores por  Defecto”**, en  el  módulo de  “Administración” y es posible realizarla a través de un correo electrónico  que recibe el solicitante y en el cual se puede realizar la evaluación, sin la necesidad de ingresar a AM.
-
-La Evaluación del Servicio realizada por el usuario se visualiza en AM a través de la transacción ** “Evaluar Servicio”** y los comentarios del usuario evaluador se observan en el campo ** “Comentarios del Técnico/Responsable”**, como se muestra en las siguientes imágenes respectivamente.
-
-![Ventana Principal de Solicitudes de Servicio](../../assets/images/cap09/chp09_img10.png)
-
-![Ventana Principal de Solicitudes de Servicio](../../assets/images/cap09/chp09_img11.png)
+A manera de recomendación, para el área de Servicios encargada de recibir y decidir sobre las Solicitudes, se debe tener en cuenta que el volumen de las Solicitudes puede llegar a ser muy alto, principalmente al inicio del ofrecimiento del servicio al gran público de la Organización. Ello debe generar un ejercicio de planeación sobre los recursos requeridos tanto para la recepción de las Solicitudes como para su atención. La planeación debería incluir una buena definición de procesos y de procedimientos, que garanticen la agilidad de los tres aspectos: recepción, decisión y ejecución. No prestar suficiente atención a alguno de ellos puede redundar en insatisfacción de los clientes del servicio.
