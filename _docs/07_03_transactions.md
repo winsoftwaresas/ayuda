@@ -1,9 +1,12 @@
 ---
-title: Transacciones
-subtitle: aquí se da a conocer el uso y el funcionamiento correcto de las transacciones en el programa.
-tags: [setup]
+title: Conceptos Básicos de la Solicitud de Servicio
+subtitle: aquí se da a conocer el uso y el funcionamiento correcto de las
+  transacciones en el programa.
+tags:
+  - setup
 author: win
 order: 07_03
+date: 2022-08-11T16:00:20.347Z
 ---
 ## Evaluar el Servicio
 
