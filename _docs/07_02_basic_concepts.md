@@ -27,7 +27,7 @@ La creación de una SS se realiza a través del visor de Solicitudes. En cuanto 
 
 ## Seguimiento y Cierre de Solicitudes de Servicio
 
-El paso siguiente es ejecutado por la persona encargada de Administrar las Solicitudes de Servicio por parte de Mantenimiento. Consiste en la asignación de un recurso  interno como responsable de  la  SS. Tal responsable es  notificado y se  encarga, a   partir del momento, de la SS, iniciando con una visita e inspección previa, al objeto que requiere de su servicio. En el momento de asignar el Responsable, se registra la fecha y hora, y se cambia el estado de la Solicitud a  ** “Asignada”**.
+El paso siguiente es ejecutado por la persona encargada de Administrar las Solicitudes de Servicio por parte de Mantenimiento. Consiste en la asignación de un recurso  interno como responsable  ejecutor de  la  SS. Tal responsable es  notificado y se  encarga, a  partir del momento de la SS, iniciando con una visita e inspección previa, al objeto que requiere de su servicio. En el momento de asignar el Responsable, se registra la fecha y hora, y se cambia el estado de la Solicitud a  **“Asignada”**.
 
 El Inspector visita al solicitante, se entera y profundiza sobre su solicitud y  determina  sí ejecutar o no ejecutar la SS. Para ello, en este momento, el  Responsable estudia la razonabilidad  de  la  solicitud,  la  factibilidad  de   su   solución  y  la  disponibilidad  de presupuesto. Pero también el Responsable estima la cantidad de los recursos requeridos, su costo y el tiempo requerido en términos de horas-hombre. De esta decisión depende el tercer  paso: el  cierre  de  la  SS.  El  Responsable  decide  entonces  una  de  las  tres alternativas siguientes:
 
