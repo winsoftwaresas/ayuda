@@ -1,10 +1,9 @@
-Activo/EquipoActivo/Equipo---
-title: Conceptos Básicos sobre Solicitudes de Servicio
-subtitle: en esta seccion se  da respuesta al procedimiento a seguir para las solicitudes de servicio de AM 4G
-tags: [setup]
-author: win
-order: 07_02
 ---
+order: 07_02
+title: Conceptos Básicos sobre Solicitudes de Servicio
+date: 2022-08-16T16:58:04.101Z
+---
+
 ## Solicitud de Servicio (SS)
 
 El AM propone la facilidad llamada Solicitudes de Servicio con dos objetivos:
