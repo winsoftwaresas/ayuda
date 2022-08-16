@@ -22,7 +22,8 @@ Crear una Solicitud de Servicio exige en primera instancia, que el  usuario teng
 
 La creación de una SS se realiza a través del visor de Solicitudes. En cuanto se da un clic sobre el  botón <a class="btn white">nuevo</a> esta  ventana adopta  la  forma  que  se  muestra  a  continuación (Ventana Detalle). Al  crear  un registro, automáticamente el estado inicial se muestra en **“En Análisis”.**  A partir del momento en que se **“Inserta”** la SS, el usuario solicitante no puede modificar ningún campo, pero si puede hacer seguimiento permanente sobre ella.
 
-![ programa de mantenimiento](../../assets/images/cap09/chp09_img01.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img01.png)
+***Imagen 1.** Solicitudes - Ventana Visor*
 
 ## Seguimiento y Cierre de Solicitudes de Servicio
 
