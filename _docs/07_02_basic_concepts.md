@@ -16,7 +16,7 @@ El trámite de una SS consta de varios pasos, entre ellos una inspección análi
 A manera de recomendación, para el área de Servicios encargada de recibir y decidir sobre las Solicitudes, se debe tener en cuenta que el volumen de las Solicitudes puede llegar a ser muy alto, principalmente al inicio del ofrecimiento del servicio al gran público de la Organización. Ello debe generar un ejercicio de planeación sobre los recursos requeridos tanto para la recepción de las Solicitudes como para su atención. La planeación debería incluir una buena definición de procesos y de procedimientos, que garanticen la agilidad de los tres aspectos: recepción, decisión y ejecución. No prestar suficiente atención a alguno de ellos puede redundar en insatisfacción de los clientes del servicio.
 
 
-# Creación de Solicitudes de Servicio
+## Creación de Solicitudes de Servicio
 
 Crear una Solicitud de Servicio exige en primera instancia, que el  usuario tenga la autorización en el sistema para poder hacerlo. Son  potenciales generadores  de Solicitudes de Servicio: los usuarios de los servicios de mantenimiento a todo lo ancho de la  Organización,  el  personal  de  producción,  el  personal  de  servicios,  el  personal administrativo y el personal de mantenimiento.
 
