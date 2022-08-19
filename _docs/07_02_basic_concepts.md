@@ -51,7 +51,7 @@ A esta ventana se llega haciendo clic sobre la opción <a class="btn blue">solic
 ## Ventana Visor
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img03.png)
-_**Imagen 4.** Solicitudes - Ventana Visor_
+_**Imagen 3.** Solicitudes - Ventana Visor_
 
 Desde esta ventana es posible observar las SS existentes. Se listan todas  o  una subgrupo de  ellas. El conjunto de ellas disponibles a ser desplegado se muestra a través de páginas en la parte inferior derecha. El tamaño de las páginas es configurable desde la opción <a class="btn blue">administración</a> del menú principal, en la  sección **“Valores por Defecto”** por parte de un usuario autorizado.
 
