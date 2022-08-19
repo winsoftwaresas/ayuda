@@ -51,10 +51,9 @@ A esta ventana se llega haciendo clic sobre la opción <a class="btn blue">solic
 ## Ventana Visor
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img03.png)
-_**Imagen 3.** Solicitudes - Creación de un registro_
+_**Imagen 4.** Solicitudes - Ventana Visor_
 
-
-Desde esta ventana es posible observar las Solicitudes de Servicio existentes. Se listan todas  o  una  selección o  subgrupo de  ellas. El  conjunto  de  Solicitudes de  Servicio disponible a ser desplegado se muestra a través de páginas. El tamaño de las páginas es configurable desde la opción Administración del menú principal, en la  sección ** “Valores por Defecto”** por parte de un usuario autorizado.
+Desde esta ventana es posible observar las SS existentes. Se listan todas  o  una subgrupo de  ellas. El conjunto de ellas disponible a ser desplegado se muestra a través de páginas. El tamaño de las páginas es configurable desde la opción Administración del menú principal, en la  sección ** “Valores por Defecto”** por parte de un usuario autorizado.
 
 Al hacer clic sobre alguna de las Solicitudes de Servicio del Visor, el sistema  responde mostrando la información de esa Solicitud de Servicio, en forma  detallada,  en la parte inferior o Ventana Detalle.
 
