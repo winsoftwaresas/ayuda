@@ -43,9 +43,10 @@ Acto seguido el sistema crea una Órden de Trabajo, esta nuevo registro, contien
 
 # Ventana Principal de Solicitudes de Servicio
 
-![Ventana Principal de Solicitudes de Servicio](../../assets/images/cap09/chp09_img02.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img02.png)
+_**Imagen 2.** Solicitudes - Creación de un registro_
 
-A esta ventana se llega haciendo clic sobre la opción Solicitudes del Menú Principal. A través de ella se ejecutan todas las funciones dedicadas a administrar las  Solicitudes de Servicio. A continuación se ilustran las porciones que la componen.
+A esta ventana se llega haciendo clic sobre la opción <a class="btn blue">solicitudes</a> del Menú Principal. A través de ella se ejecutan todas las funciones dedicadas a administrar las  Solicitudes de Servicio. A continuación se ilustran las porciones que la componen:
 
 ## Ventana Visor
 
