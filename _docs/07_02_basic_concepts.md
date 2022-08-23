@@ -65,11 +65,12 @@ Los títulos en azul que encabezan las columnas son también botones que permite
 En la **Ventana Visor** en la columna <a class="btn white">estado</a>, se define una semaforización de las Solicitudes de Servicio. La finalidad de esta columna es mostrar de manera gráfica el estado de la Solicitud de Servicio. La definición de colores está definida, según la siguiente convención:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img04.png)
-**Imagen 4.** Solicitudes - Semaforización_
+_**Imagen 4.** Solicitudes - Semaforización_
 
 ## Ventana Detalle
 
-![Ventana Principal de Solicitudes de Servicio](../../assets/images/cap09/chp09_img05.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img05.png)
+_**Imagen 5.** Solicitudes - Ventana Detalle_
 
 En  la  gráfica  anterior,  que  muestra  la  ventana  Detalle  de  Solicitudes  de  Servicio,  se aprecian todos sus componentes y sus respectivos contenidos. En esta ventana Detalle de Solicitudes de Servicio se encuentra toda la información relevante a la  Solicitud de Servicio seleccionada en el Visor.
 
