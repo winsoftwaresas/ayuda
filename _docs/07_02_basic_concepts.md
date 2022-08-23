@@ -53,16 +53,16 @@ A esta ventana se llega haciendo clic sobre la opción <a class="btn blue">solic
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img03.png)
 _**Imagen 3.** Solicitudes - Ventana Visor_
 
-Desde esta ventana es posible observar las Solicitudes de Servicio existentes. Se listan todas o una selección (Subgrupo). El conjunto de Solicitudes de Servicio disponible a ser desplegado se muestra a través de páginas. El tamaño de las páginas es configurable desde la opción Administración del menú principal, en la sección “Valores por Defecto” por parte de un usuario autorizado.
+Desde esta ventana es posible observar las Solicitudes de Servicio existentes. Se listan todas o una selección (Subgrupo). El conjunto de Solicitudes de Servicio disponible a ser desplegado se muestra a través de páginas. El tamaño de las páginas es configurable desde la opción <a class="btn blue>administración</a> del menú principal, en la sección “Valores por Defecto” por parte de un usuario autorizado.
 
 
-Al hacer clic sobre algún registro del Visor el sistema responde mostrando la información de esa Solicitud, en forma detallada, en una ventana llamada Ventana Detalle.
+Al hacer clic sobre algún registro del Visor el sistema responde mostrando la información de esa Solicitud, en forma detallada, en una ventana llamada **Ventana Detalle.**
 
 
-Los títulos en azul que encabezan las columnas son también botones que permiten ordenar la tabla, según el título seleccionado. Para elegir un registro de la tabla se da un clic del mouse sobre él o se desplaza el cursor con las teclas de desplazamiento.
+Los títulos en azul que encabezan las columnas son también botones que permiten ordenar la tabla, según el título seleccionado. Para elegir un registro de la tabla se da un clic sobre él o se desplaza el cursor con las teclas de desplazamiento.
 
 
-En la ventana Visor por la columna Estado, se define una semaforización de las Solicitudes de Servicio. La finalidad de esta columna es mostrar de manera gráfica el estado de la Solicitud de Servicio. La definición de colores está definida, según la siguiente convención:
+En la **Ventana Visor** en la columna <a class="btn white">estado</a>, se define una semaforización de las Solicitudes de Servicio. La finalidad de esta columna es mostrar de manera gráfica el estado de la Solicitud de Servicio. La definición de colores está definida, según la siguiente convención:
 
 ![Ventana Principal de Solicitudes de Servicio](../../assets/images/cap09/chp09_img04.png)
 
