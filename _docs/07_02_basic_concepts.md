@@ -78,9 +78,9 @@ A continuación se describen los campos que componen el registro, sobre cada cam
 
 **Solicitud:** En este campo el  sistema registra en forma  automática el  número de la Solicitud o consecutivo cronológico. El número de la SS solo es asignado al concluir su proceso de Creación.
 
-**F/H generación:** En este campo se registra la fecha y la hora en la que se registró la Solicitud por parte del  solicitante. Por defecto se sugiere la fecha del sistema.
+**F/H generación:** En este campo se registra la fecha y la hora en la que se registró la Solicitud por parte del Usuario solicitante. Por defecto se sugiere la fecha del sistema.
 
-**Prioridad:** Es el campo descolgable en el que se define la prioridad de la Solicitud.  Es asignada por el usuario solicitante. En el momento de crear la SS, el sistema por defecto asume el valor  “Media”. Las opciones disponibles son:
+**Prioridad:** Es el campo descolgable en el que se define la prioridad de la Solicitud. Ésta puede ser asignada por el usuario solicitante en el momento de crear la SS. Las opciones disponibles son:
 
 - Alta
 - Media
