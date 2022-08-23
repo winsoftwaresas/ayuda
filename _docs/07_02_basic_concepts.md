@@ -72,9 +72,9 @@ _**Imagen 4.** Solicitudes - Semaforización_
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img05.png)
 _**Imagen 5.** Solicitudes - Ventana Detalle_
 
-En  la  gráfica  anterior,  que  muestra  la  ventana  Detalle  de  Solicitudes  de  Servicio,  se aprecian todos sus componentes y sus respectivos contenidos. En esta ventana Detalle de Solicitudes de Servicio se encuentra toda la información relevante a la  Solicitud de Servicio seleccionada en el Visor.
+En la gráfica anterior, que muestra la Ventana Detalle del registro es donde se encuentra toda la información relevante a la SS seleccionada en el Visor.
 
-A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación.
+A continuación se describen los campos que componen el registro, sobre cada campo se da una breve explicación:
 
 **Solicitud:** En  este  campo el  sistema registra  en  forma  automática el  número de  la Solicitud, sobre una base de  consecutivo cronológico. El  número de  la  SS  solo   es asignado al concluir su proceso de Creación.
 
