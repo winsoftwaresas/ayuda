@@ -76,7 +76,7 @@ En la gráfica anterior, que muestra la Ventana Detalle del registro es donde se
 
 A continuación se describen los campos que componen el registro, sobre cada campo se da una breve explicación:
 
-**Solicitud:** En  este  campo el  sistema registra  en  forma  automática el  número de  la Solicitud, sobre una base de  consecutivo cronológico. El  número de  la  SS  solo   es asignado al concluir su proceso de Creación.
+**Solicitud:** En este campo el  sistema registra en forma  automática el  número de la Solicitud o consecutivo cronológico. El número de la SS solo es asignado al concluir su proceso de Creación.
 
 **F/H generación:** En este campo se registra la fecha y la hora en la que se registró la Solicitud por parte del  solicitante. Por defecto se sugiere la fecha del sistema.
 
