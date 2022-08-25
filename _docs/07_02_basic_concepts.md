@@ -85,7 +85,7 @@ A continuación se describen los campos que componen el registro, sobre cada cam
 - Cerrada Ejecutada (CE)
 - Cerrada con OT (CO)
 
-Al modificar este campo hacia el estado ** “Asignada”**, el software registra automáticamente en el campo F/H asignación, la fecha y hora en que se asigna la Solicitud de Servicio  y obliga a que se elija en el campo Responsable, el responsable asignado a la Solicitud de Servicio.
+Al modificar este campo hacia el estado **“Asignada”**, el software registra automáticamente en el campo F/H Atención, la fecha y hora en que se asigna la Solicitud de Servicio  y obliga a que se elija en el campo Responsable, el responsable asignado a la Solicitud de Servicio.
 
 **Prioridad:** Es el campo descolgable en el que se define la prioridad de la Solicitud. Ésta puede ser asignada por el usuario solicitante en el momento de crear la SS. Las opciones disponibles son:
 
