@@ -41,19 +41,12 @@ El Inspector visita al solicitante, se entera y profundiza sobre su solicitud y 
 
 Acto seguido el sistema crea una Órden de Trabajo, esta nuevo registro, contiene toda la información que se había registrado previamente en la Solicitud de Servicio, lo que significa que no hay que  reingresarla. Existe la posibilidad de hacer acceso directo desde la Solicitud, a  la  Órden de Trabajo, dando un  clic  en  el  hipervínculo azul que se observa en el Detalle de la SS. De igual forma, estando en la ventana Detalle de la Órden de Trabajo, es posible regresar directamente a la SS, dando un clic sobre el hipervínculo azul que se observa en la parte izquierda.
 
-# Ventana Principal de Solicitudes de Servicio
+# Ventana Visor de Solicitudes de Servicio
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img02.png)
 _**Imagen 2.** Solicitudes - Ir a Solicitudes_
 
-A esta ventana se llega haciendo clic sobre la opción <a class="btn blue">solicitudes</a> del Menú Principal. A través de ella se ejecutan todas las funciones dedicadas a administrar las  Solicitudes de Servicio. A continuación se ilustran las porciones que la componen:
-
-## Ventana Visor
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img03.png)
-_**Imagen 3.** Solicitudes - Ventana Visor_
-
-Desde esta ventana es posible observar las Solicitudes de Servicio existentes. Se listan todas o una selección (Subgrupo). El conjunto de Solicitudes de Servicio disponible a ser desplegado se muestra a través de páginas. El tamaño de las páginas es configurable desde la opción <a class="btn blue>administración</a> del menú principal, en la sección “Valores por Defecto” por parte de un usuario autorizado.
+A esta ventana se llega haciendo clic sobre la opción <a class="btn blue">solicitudes</a> del Menú Principal. A través de ella se ejecutan todas las funciones dedicadas a administrar las SS. Se listan todas o una selección (Subgrupo) de ellas. El conjunto de SS disponible a ser desplegado se muestra a través de páginas. El tamaño de las páginas es configurable desde la opción <a class="btn blue>administración</a> del menú principal, en la sección “Valores por Defecto” por parte de un usuario autorizado.
 
 
 Al hacer clic sobre algún registro del Visor el sistema responde mostrando la información de esa Solicitud, en forma detallada, en una ventana llamada **Ventana Detalle.**
@@ -65,26 +58,24 @@ Los títulos en azul que encabezan las columnas son también botones que permite
 En la **Ventana Visor** en la columna <a class="btn white">estado</a>, se define una semaforización de las Solicitudes de Servicio. La finalidad de esta columna es mostrar de manera gráfica el estado de la Solicitud de Servicio. La definición de colores está definida, según la siguiente convención:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img04.png)
-_**Imagen 4.** Solicitudes - Semaforización_
+_**Imagen 3.** Solicitudes - Semaforización_
 
 ## Ventana Detalle
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img05.png)
-_**Imagen 5.** Solicitudes - Ventana Detalle_
+_**Imagen 4.** Solicitudes - Ventana Detalle_
 
 En la gráfica anterior, que muestra la Ventana Detalle del registro es donde se encuentra toda la información relevante a la SS seleccionada en el Visor.
 
 A continuación se describen los campos que componen el registro, sobre cada campo se da una breve explicación:
 
+- **Qué Hacer**
+
 **Solicitud:** En este campo el  sistema registra en forma  automática el  número de la Solicitud o consecutivo cronológico. El número de la SS solo es asignado al concluir su proceso de Creación.
 
-**F/H generación:** En este campo se registra la fecha y la hora en la que se registró la Solicitud por parte del Usuario solicitante. Por defecto se sugiere la fecha del sistema.
+**F/H Creación:** En este campo se registra la fecha y la hora en la que se registró la Solicitud por parte del Usuario solicitante. Por defecto se sugiere la fecha del sistema.
 
-**Prioridad:** Es el campo descolgable en el que se define la prioridad de la Solicitud. Ésta puede ser asignada por el usuario solicitante en el momento de crear la SS. Las opciones disponibles son:
-
-- Alta
-- Media
-- Baja
+**Diagnóstico del  Usuario:** Es un campo de texto en el que se explica  brevemente  la situación o problema del Objeto de Mantenimiento, que obliga a diligenciar la Solicitud de Servicio. El tamaño de este campo es de 400 caracteres.
 
 **Estado:** Es el campo descolgable desde donde se eligen las opciones que permiten hacer seguimiento al estado de la solicitud. Las opciones disponibles son:
 
@@ -96,7 +87,12 @@ A continuación se describen los campos que componen el registro, sobre cada cam
 
 Al modificar este campo hacia el estado ** “Asignada”**, el software registra automáticamente en el campo F/H asignación, la fecha y hora en que se asigna la Solicitud de Servicio  y obliga a que se elija en el campo Responsable, el responsable asignado a la Solicitud de Servicio.
 
-**Diagnóstico del  Usuario:** Es un campo de texto en el que se explica  brevemente  la situación o problema del Objeto de Mantenimiento, que obliga a diligenciar la Solicitud de Servicio. El tamaño de este campo es de 400 caracteres.
+**Prioridad:** Es el campo descolgable en el que se define la prioridad de la Solicitud. Ésta puede ser asignada por el usuario solicitante en el momento de crear la SS. Las opciones disponibles son:
+
+- Alta
+- Media
+- Baja
+
 
 **Solicitante:** En este campo se define el nombre del Solicitante de la Solicitud de Servicio. El solicitante puede registrar su nombre en el espacio correspondiente. Sin  embargo es posible también seleccionar su nombre de la lista que se habilita como  desplegable al marcar la opción ** “Incluido en Terceros”**. Se debe tener en cuenta que de la tabla de Terceros solo se despliegan los Terceros de Tipo RI. La funcionalidad de poder definir que el Solicitante sea el usuario logueado y no se pueda modificar, se  parametriza  en  Administración, Valores  por  Defecto,  la  etiqueta SOLICITUDES, la opción ** “El solicitante es tomado del usuario logueado y no se puede modificar”**.
 
