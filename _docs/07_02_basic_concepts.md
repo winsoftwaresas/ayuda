@@ -93,14 +93,9 @@ Al modificar este campo hacia el estado **“Asignada”**, el software registra
 - Media
 - Baja
 
+- **A qué Activo**
 
-**Solicitante:** En este campo se define el nombre del Solicitante de la Solicitud de Servicio. El solicitante puede registrar su nombre en el espacio correspondiente. Sin  embargo es posible también seleccionar su nombre de la lista que se habilita como  desplegable al marcar la opción ** “Incluido en Terceros”**. Se debe tener en cuenta que de la tabla de Terceros solo se despliegan los Terceros de Tipo RI. La funcionalidad de poder definir que el Solicitante sea el usuario logueado y no se pueda modificar, se  parametriza  en  Administración, Valores  por  Defecto,  la  etiqueta SOLICITUDES, la opción ** “El solicitante es tomado del usuario logueado y no se puede modificar”**.
-
-**E-Mail:** En este campo se define el correo electrónico del Solicitante de la Solicitud  de Servicio, cuando el solicitante es digitado manualmente. Si el solicitante se selecciona con la opción ** “Incluido en Terceros”** y allí se tiene definido el correo electrónico, automáticamente se carga a este campo el e-mail definido en el módulo de Terceros. La funcionalidad del envío de correos electrónicos se parametriza Administración, Valores por Defecto, la etiqueta GENERAL, la opción**  “Enviar e-mail al solicitante”**.
-
-**F/H Sugerida de entrega:** En este campo se selecciona la fecha y hora en la que el solicitante considera que el Servicio Solicitado puede ser oportuno.
-
-**Equipo:**  En  esta  línea  se  pretende  identificar claramente el  Equipo  o  el  Objeto  de Mantenimiento para el cual se está solicitando el servicio.
+En esta línea se pretende identificar claramente el  Equipo o el  Objeto de Mantenimiento para el cual se está solicitando el servicio.
 
 **La línea está conformada por tres campos :**
 
@@ -140,6 +135,24 @@ Equipo que se haya establecido en la ficha técnica de este mismo.
 **Marca:** En este campo se visualiza la información de la Marca del Equipo que se haya establecido en la ficha técnica de este mismo.
 
 **Modelo:** En este campo se visualiza la información del Modelo del Equipo que se haya establecido en la ficha técnica de este mismo.
+
+
+
+
+
+
+
+
+
+- **Quién hace y Para Quién**
+
+**Solicitante:** En este campo se define el nombre del Solicitante de la Solicitud de Servicio. El solicitante puede registrar su nombre en el espacio correspondiente. Sin  embargo es posible también seleccionar su nombre de la lista que se habilita como  desplegable al marcar la opción ** “Incluido en Terceros”**. Se debe tener en cuenta que de la tabla de Terceros solo se despliegan los Terceros de Tipo RI. La funcionalidad de poder definir que el Solicitante sea el usuario logueado y no se pueda modificar, se  parametriza  en  Administración, Valores  por  Defecto,  la  etiqueta SOLICITUDES, la opción ** “El solicitante es tomado del usuario logueado y no se puede modificar”**.
+
+**E-Mail:** En este campo se define el correo electrónico del Solicitante de la Solicitud  de Servicio, cuando el solicitante es digitado manualmente. Si el solicitante se selecciona con la opción ** “Incluido en Terceros”** y allí se tiene definido el correo electrónico, automáticamente se carga a este campo el e-mail definido en el módulo de Terceros. La funcionalidad del envío de correos electrónicos se parametriza Administración, Valores por Defecto, la etiqueta GENERAL, la opción**  “Enviar e-mail al solicitante”**.
+
+**F/H Sugerida de entrega:** En este campo se selecciona la fecha y hora en la que el solicitante considera que el Servicio Solicitado puede ser oportuno.
+
+
 
 **C. Costo /Cliente:** Este campo permite seleccionar el Centro de Costo o Cliente que es responsable del Objeto de Mantenimiento. Cuando se define un Equipo u Objeto  de Mantenimiento válido, el sistema trae automáticamente a este campo el Centro de Costo asociado. A la derecha del código del Centro de Costo, se habilita un Link  que permite visualizar y actualizar toda la información del Centro de Costo.
 
