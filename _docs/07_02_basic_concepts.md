@@ -1,77 +1,81 @@
-Activo/EquipoActivo/Equipo---
-title: Conceptos Básicos sobre Solicitudes de Servicio
-subtitle: en esta seccion se  da respuesta al procedimiento a seguir para las solicitudes de servicio de AM 4G
-tags: [setup]
-author: win
-order: 07_02
 ---
+order: 07_02
+title: Conceptos Básicos sobre Solicitudes de Servicio
+date: 2022-08-16T16:58:04.101Z
+---
+
 ## Solicitud de Servicio (SS)
 
-El AM propone la facilidad llamada Solicitudes de Servicio con dos objetivos:
 
-Primero, que un número amplio de personas, autorizadas, dentro de una Organización, soliciten la prestación de un servicio al área encargada, normalmente Mantenimiento, y segundo, que el  personal  de  mantenimiento pueda  registrar de   una  forma rápida,  aquellos trabajos sencillos que realiza; sencillez expresada en términos de bajo costo, corto tiempo y un solo recurso requerido para su ejecución. Para uno y otro caso, se trata de un mecanismo fácil y simple que  permite, además  de  generar  la SS,  hacerle  seguimiento hasta su  cierre definitivo.
+**AM** propone la facilidad llamada Solicitudes de Servicio con dos objetivos: Primero, que un número amplio de personas, autorizadas, dentro de una Organización, soliciten la prestación de un servicio al área encargada, normalmente Mantenimiento, y segundo, que el personal de Mantenimiento pueda registrar de una forma rápida, aquellos trabajos sencillos que realiza; sencillez expresada en términos de bajo costo, corto tiempo y un solo recurso requerido para su ejecución. Para uno y otro caso, se trata de un mecanismo fácil y simple que permite además de generar la SS, hacerle seguimiento hasta su cierre definitivo.
 
-El trámite de una SS consta de varios pasos, entre ellos una inspección previa, y por ello no es éste el mecanismo más adecuado para solicitar servicios urgentes. Se  parte de la base además, de que el servicio solicitado puede o no prestarse. La decisión de ejecutar o no la SS, o de ejecutarla como SS, o como OT, depende de factores como: Razonabilidad de la Solicitud, Viabilidad de la Solución, Disponibilidad de presupuesto autorizado, tiempo, costo y recursos presupuestados.
 
-A  manera de recomendación, para el área de Servicios encargada de recibir y  decidir sobre las   Solicitudes, se debe tener en cuenta que el volumen de las Solicitudes puede llegar a ser muy alto, principalmente al inicio del ofrecimiento del servicio al gran público de la  Organización.   Ello  debe  generar  un  ejercicio  de  planeación  sobre  los  recursos requeridos  tanto  para  la   recepción  de  las  Solicitudes  como  para  su  atención.  La planeación debería incluir  una  buena definición de  procesos  y de  procedimientos,  que garanticen la agilidad de los tres aspectos: recepción, decisión y ejecución. No  prestar suficiente atención a alguno de ellos puede redundar en insatisfacción de los clientes del servicio.
+El trámite de una SS consta de varios pasos, entre ellos una inspección análisis previo, y por ello no es éste el mecanismo más adecuado para solicitar servicios urgentes. Se parte de la base además, de que el servicio solicitado puede o no prestarse. La decisión de ejecutar o no la SS, o de ejecutarla como SS o como OT, depende de factores como: Razonabilidad de la Solicitud, Viabilidad de la Solución, Disponibilidad de presupuesto autorizado, tiempo, costo y recursos presupuestados.
 
-# Creación de Solicitudes de Servicio
 
-Crear  una  Solicitud  de  Servicio  exige  en  primera  instancia,  que  el  usuario  tenga  la autorización  en  el  sistema  para  poder  hacerlo. Son  potenciales  generadores   de Solicitudes de Servicio: los usuarios de los servicios de mantenimiento a todo lo ancho de la  Organización,  el  personal  de  producción,  el  personal  de  servicios,  el  personal administrativo y el personal de mantenimiento.
+A manera de recomendación, para el área de Servicios encargada de recibir y decidir sobre las Solicitudes, se debe tener en cuenta que el volumen de las Solicitudes puede llegar a ser muy alto, principalmente al inicio del ofrecimiento del servicio al gran público de la Organización. Ello debe generar un ejercicio de planeación sobre los recursos requeridos tanto para la recepción de las Solicitudes como para su atención. La planeación debería incluir una buena definición de procesos y de procedimientos, que garanticen la agilidad de los tres aspectos: recepción, decisión y ejecución. No prestar suficiente atención a alguno de ellos puede redundar en insatisfacción de los clientes del servicio.
 
-La creación de una SS se realiza a través de la Ventana Detalle, en la ventana principal de Solicitudes de Servicio. En cuanto se da un clic sobre el  botón `<a class="btn">`Nuevo`</a>` esta  ventana adopta  la  forma  que  se  muestra  a  continuación. Al  crear  una  SS,  ella  asume automáticamente el estado inicial: ** “En Análisis”.**  A partir del momento en que se ** “Inserta”** la SS, el solicitante no puede modificar ningún campo, pero si puede  hacer seguimiento permanente sobre ella.
 
-![ programa de mantenimiento](../../assets/images/cap09/chp09_img01.png)
+## Creación de Solicitudes de Servicio
+
+Crear una Solicitud de Servicio exige en primera instancia, que el  usuario tenga la autorización en el sistema para poder hacerlo. Son  potenciales generadores  de Solicitudes de Servicio: los usuarios de los servicios de mantenimiento a todo lo ancho de la  Organización,  el  personal  de  producción,  el  personal  de  servicios,  el  personal administrativo y el personal de mantenimiento.
+
+La creación de una SS se realiza a través del visor de Solicitudes. En cuanto se da un clic sobre el  botón <a class="btn white">nuevo</a> esta  ventana adopta  la  forma  que  se  muestra  a  continuación (Ventana Detalle). Al  crear  un registro, automáticamente el estado inicial se muestra en **“En Análisis”.**  A partir del momento en que se **“Inserta”** la SS, el usuario solicitante no puede modificar ningún campo, pero si puede hacer seguimiento permanente sobre ella.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img01.png)
+***Imagen 1.** Solicitudes - Creación de un registro*
 
 ## Seguimiento y Cierre de Solicitudes de Servicio
 
-El paso siguiente es ejecutado por la persona encargada de Administrar las Solicitudes de Servicio por parte de Mantenimiento. Consiste en la asignación de un recurso  interno como responsable de  la  SS. Tal responsable es  notificado y se  encarga, a   partir del momento, de la SS, iniciando con una visita e inspección previa, al objeto que requiere de su servicio. En el momento de asignar el Responsable, se registra la fecha y hora, y se cambia el estado de la Solicitud a  ** “Asignada”**.
+El paso siguiente es ejecutado por la persona encargada de Administrar las Solicitudes de Servicio por parte de Mantenimiento. Consiste en la asignación de un recurso  interno como responsable  ejecutor de  la  SS. Tal responsable es  notificado y se  encarga, a  partir del momento de la SS, iniciando con una visita e inspección previa, al objeto que requiere de su servicio. En el momento de asignar el Responsable, se registra la fecha y hora, y se cambia el estado de la Solicitud a  **“Asignada”**.
 
 El Inspector visita al solicitante, se entera y profundiza sobre su solicitud y  determina  sí ejecutar o no ejecutar la SS. Para ello, en este momento, el  Responsable estudia la razonabilidad  de  la  solicitud,  la  factibilidad  de   su   solución  y  la  disponibilidad  de presupuesto. Pero también el Responsable estima la cantidad de los recursos requeridos, su costo y el tiempo requerido en términos de horas-hombre. De esta decisión depende el tercer  paso: el  cierre  de  la  SS.  El  Responsable  decide  entonces  una  de  las  tres alternativas siguientes:
 
-**1.** Se decide no  ejecutar la Solicitud de Servicio. En este caso, el Responsable cambia el estado a ** “Cerrada no ejecutada”**. Se actualizan y registran los campos referentes a este Estado, se escribe en el campo Diagnóstico/Comentarios la razón por la que se toma la decisión de no ejecutar y se cierra la solicitud haciendo un clic en el  botón `<a class="btn">`Actualizar `</a>`
+1.  Se decide no  ejecutar la Solicitud de Servicio. En este caso, el Responsable cambia el estado a **“Cerrada no ejecutada”**. Se actualizan y registran los campos referentes a este Estado, se escribe en el campo Diagnóstico/Comentarios la razón por la que se toma la decisión de no ejecutar y se cierra la solicitud haciendo un clic en el  botón <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a>.
 
-**2.** Se decide ejecutar, como Solicitud de Servicio. Este es el caso en que los costos o estimados  se  encuentran  por  debajo  de  los  parámetros   predefinidos  por  la Organización: El costo de ejecución, el tiempo de ejecución y el número de horas hombre son relativamente bajos.  Se ejecuta la Solicitud y a continuación se cambia el estado a ** “Cerrada Ejecutada”**, se actualizan y registran los campos referentes a este Estado.  El Responsable cierra la Solicitud como ejecutada, haciendo clic en el botón `<a class="btn">`Actualizar `</a>`.
 
-**3.**   Se decide ejecutar la Solicitud como Orden de Trabajo. En este caso, al  analizar los   parámetros predefinidos (Costo de ejecución, tiempo de ejecución, número de horas hombre), se establece que es un trabajo apreciable, que exige mayor control para seguimiento posterior y por ello se debe generar una Orden de Trabajo desde la Solicitud de Servicio. Se ejecuta entonces la Solicitud y a continuación se cambia el estado a ** “Cerrada con OT”**. Se actualizan y registran los campos referentes a este	Estado 	y 	se 	cierra 		con	un	clic	en	el 	botón `<a class="btn">`Actualizar `</a>`. Acto seguido el sistema crea una Orden de  Trabajo, cuyo número se indica en el campo ** “OT Generada”**. Esta nueva Orden de Trabajo, contiene toda la información que se había registrado previamente en la Solicitud de Servicio, lo que significa que no hay que  reingresarla. Existe la posibilidad de hacer acceso directo desde la Solicitud, a  la  Orden  de  Trabajo, dando un  clic  en  el  hipervínculo en  que  se constituye el número de la Orden. De igual forma, estando en la ventana Detalle de la Orden de Trabajo, es posible regresar directamente a la SS, dando un clic sobre el hipervínculo que se ha creado al lado del campo ** “Esta OT fue generada desde la SS”**.
+2.  Se decide ejecutar, como Solicitud de Servicio. Este es el caso en que los costos o estimados  se  encuentran  por  debajo  de  los  parámetros   predefinidos  por  la Organización: El costo de ejecución, el tiempo de ejecución y el número de horas hombre son relativamente bajos.  Se ejecuta la Solicitud y a continuación se cambia el estado a **“Cerrada Ejecutada”**, se actualizan y registran los campos referentes a este Estado. El Responsable cierra la Solicitud como ejecutada, haciendo clic en el botón <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a>.
 
-# Ventana Principal de Solicitudes de Servicio
 
-![Ventana Principal de Solicitudes de Servicio](../../assets/images/cap09/chp09_img02.png)
+3. Se decide ejecutar la Solicitud como Órden de Trabajo. En este caso, al  analizar los  parámetros predefinidos (Costo de ejecución, tiempo de ejecución, número de horas hombre), se establece que es un trabajo apreciable, que exige mayor control para seguimiento posterior y por ello se debe generar una Orden de Trabajo desde la Solicitud de Servicio. Se ejecuta entonces la Solicitud y a continuación se cambia el estado a **“Cerrada con OT”**. Se actualizan y registran los campos referentes a este Estado y se cierra con un clic en el botón <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a>. 
 
-A esta ventana se llega haciendo clic sobre la opción Solicitudes del Menú Principal. A través de ella se ejecutan todas las funciones dedicadas a administrar las  Solicitudes de Servicio. A continuación se ilustran las porciones que la componen.
+Acto seguido el sistema crea una Órden de Trabajo, esta nuevo registro, contiene toda la información que se había registrado previamente en la Solicitud de Servicio, lo que significa que no hay que  reingresarla. Existe la posibilidad de hacer acceso directo desde la Solicitud, a  la  Órden de Trabajo, dando un  clic  en  el  hipervínculo azul que se observa en el Detalle de la SS. De igual forma, estando en la ventana Detalle de la Órden de Trabajo, es posible regresar directamente a la SS, dando un clic sobre el hipervínculo azul que se observa en la parte izquierda.
 
-## Ventana Visor
+# Ventana Visor de Solicitudes de Servicio
 
-![Ventana Principal de Solicitudes de Servicio](../../assets/images/cap09/chp09_img03.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img02.png)
+_**Imagen 2.** Solicitudes - Ir a Solicitudes_
 
-Desde esta ventana es posible observar las Solicitudes de Servicio existentes. Se listan todas  o  una  selección o  subgrupo de  ellas. El  conjunto  de  Solicitudes de  Servicio disponible a ser desplegado se muestra a través de páginas. El tamaño de las páginas es configurable desde la opción Administración del menú principal, en la  sección ** “Valores por Defecto”** por parte de un usuario autorizado.
+A esta ventana se llega haciendo clic sobre la opción <a class="btn blue">solicitudes</a> del Menú Principal. A través de ella se ejecutan todas las funciones dedicadas a administrar las SS. Se listan todas o una selección (Subgrupo) de ellas. El conjunto de SS disponible a ser desplegado se muestra a través de páginas. El tamaño de las páginas es configurable desde la opción <a class="btn blue>administración</a> del menú principal, en la sección “Valores por Defecto” por parte de un usuario autorizado.
 
-Al hacer clic sobre alguna de las Solicitudes de Servicio del Visor, el sistema  responde mostrando la información de esa Solicitud de Servicio, en forma  detallada,  en la parte inferior o Ventana Detalle.
 
-Los  nombres  que encabezan las  columnas  a  manera  de  títulos en azul, permiten ordenar  de manera ascendente la información por cada ítem seleccionado, al dar clic en el respectivo encabezado.
+Al hacer clic sobre algún registro del Visor el sistema responde mostrando la información de esa Solicitud, en forma detallada, en una ventana llamada **Ventana Detalle.**
 
-En  la  ventana  Visor  por  la  columna  Estado,  se  define  una  semaforización  de  las Solicitudes de Servicio. La finalidad de esta columna es mostrar de manera  gráfica el estado de la Solicitud de Servicio. En la parte inferior de la ventana Visor, desplazando el scroll vertical, se encuentra una tabla donde se define el significado de cada color que se presenta en dicha columna.
 
-![Ventana Principal de Solicitudes de Servicio](../../assets/images/cap09/chp09_img04.png)
+Los títulos en azul que encabezan las columnas son también botones que permiten ordenar la tabla, según el título seleccionado. Para elegir un registro de la tabla se da un clic sobre él o se desplaza el cursor con las teclas de desplazamiento.
+
+
+En la **Ventana Visor** en la columna <a class="btn white">estado</a>, se define una semaforización de las Solicitudes de Servicio. La finalidad de esta columna es mostrar de manera gráfica el estado de la Solicitud de Servicio. La definición de colores está definida, según la siguiente convención:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img04.png)
+_**Imagen 3.** Solicitudes - Semaforización_
 
 ## Ventana Detalle
 
-![Ventana Principal de Solicitudes de Servicio](../../assets/images/cap09/chp09_img05.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img05.png)
+_**Imagen 4.** Solicitudes - Ventana Detalle_
 
-En  la  gráfica  anterior,  que  muestra  la  ventana  Detalle  de  Solicitudes  de  Servicio,  se aprecian todos sus componentes y sus respectivos contenidos. En esta ventana Detalle de Solicitudes de Servicio se encuentra toda la información relevante a la  Solicitud de Servicio seleccionada en el Visor.
+En la gráfica anterior, que muestra la Ventana Detalle del registro es donde se encuentra toda la información relevante a la SS seleccionada en el Visor.
 
-A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación.
+A continuación se describen los campos que componen el registro, sobre cada campo se da una breve explicación:
 
-**Solicitud:** En  este  campo el  sistema registra  en  forma  automática el  número de  la Solicitud, sobre una base de  consecutivo cronológico. El  número de  la  SS  solo   es asignado al concluir su proceso de Creación.
+- **Qué Hacer**
 
-**F/H generación:** En este campo se registra la fecha y la hora en la que se registró la Solicitud por parte del  solicitante. Por defecto se sugiere la fecha del sistema.
+**Solicitud:** En este campo el  sistema registra en forma  automática el  número de la Solicitud o consecutivo cronológico. El número de la SS solo es asignado al concluir su proceso de Creación.
 
-**Prioridad:** Es el campo descolgable en el que se define la prioridad de la Solicitud.  Es asignada por el usuario solicitante. En el momento de crear la SS, el sistema por defecto asume el valor  “Media”. Las opciones disponibles son:
+**F/H Creación:** En este campo se registra la fecha y la hora en la que se registró la Solicitud por parte del Usuario solicitante. Por defecto se sugiere la fecha del sistema.
 
-- Alta
-- Media
-- Baja
+**Diagnóstico del  Usuario:** Es un campo de texto en el que se explica  brevemente  la situación o problema del Objeto de Mantenimiento, que obliga a diligenciar la Solicitud de Servicio. El tamaño de este campo es de 400 caracteres.
 
 **Estado:** Es el campo descolgable desde donde se eligen las opciones que permiten hacer seguimiento al estado de la solicitud. Las opciones disponibles son:
 
@@ -81,17 +85,17 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 - Cerrada Ejecutada (CE)
 - Cerrada con OT (CO)
 
-Al modificar este campo hacia el estado ** “Asignada”**, el software registra automáticamente en el campo F/H asignación, la fecha y hora en que se asigna la Solicitud de Servicio  y obliga a que se elija en el campo Responsable, el responsable asignado a la Solicitud de Servicio.
+Al modificar este campo hacia el estado **“Asignada”**, el software registra automáticamente en el campo F/H Atención, la fecha y hora en que se asigna la Solicitud de Servicio  y obliga a que se elija en el campo Responsable, el responsable asignado a la Solicitud de Servicio.
 
-**Diagnóstico del  Usuario:** Es un campo de texto en el que se explica  brevemente  la situación o problema del Objeto de Mantenimiento, que obliga a diligenciar la Solicitud de Servicio. El tamaño de este campo es de 400 caracteres.
+**Prioridad:** Es el campo descolgable en el que se define la prioridad de la Solicitud. Ésta puede ser asignada por el usuario solicitante en el momento de crear la SS. Las opciones disponibles son:
 
-**Solicitante:** En este campo se define el nombre del Solicitante de la Solicitud de Servicio. El solicitante puede registrar su nombre en el espacio correspondiente. Sin  embargo es posible también seleccionar su nombre de la lista que se habilita como  desplegable al marcar la opción ** “Incluido en Terceros”**. Se debe tener en cuenta que de la tabla de Terceros solo se despliegan los Terceros de Tipo RI. La funcionalidad de poder definir que el Solicitante sea el usuario logueado y no se pueda modificar, se  parametriza  en  Administración, Valores  por  Defecto,  la  etiqueta SOLICITUDES, la opción ** “El solicitante es tomado del usuario logueado y no se puede modificar”**.
+- Alta
+- Media
+- Baja
 
-**E-Mail:** En este campo se define el correo electrónico del Solicitante de la Solicitud  de Servicio, cuando el solicitante es digitado manualmente. Si el solicitante se selecciona con la opción ** “Incluido en Terceros”** y allí se tiene definido el correo electrónico, automáticamente se carga a este campo el e-mail definido en el módulo de Terceros. La funcionalidad del envío de correos electrónicos se parametriza Administración, Valores por Defecto, la etiqueta GENERAL, la opción**  “Enviar e-mail al solicitante”**.
+- **A qué Activo**
 
-**F/H Sugerida de entrega:** En este campo se selecciona la fecha y hora en la que el solicitante considera que el Servicio Solicitado puede ser oportuno.
-
-**Equipo:**  En  esta  línea  se  pretende  identificar claramente el  Equipo  o  el  Objeto  de Mantenimiento para el cual se está solicitando el servicio.
+En esta línea se pretende identificar claramente el  Equipo o el  Objeto de Mantenimiento para el cual se está solicitando el servicio.
 
 **La línea está conformada por tres campos :**
 
@@ -131,6 +135,24 @@ Equipo que se haya establecido en la ficha técnica de este mismo.
 **Marca:** En este campo se visualiza la información de la Marca del Equipo que se haya establecido en la ficha técnica de este mismo.
 
 **Modelo:** En este campo se visualiza la información del Modelo del Equipo que se haya establecido en la ficha técnica de este mismo.
+
+
+
+
+
+
+
+
+
+- **Quién hace y Para Quién**
+
+**Solicitante:** En este campo se define el nombre del Solicitante de la Solicitud de Servicio. El solicitante puede registrar su nombre en el espacio correspondiente. Sin  embargo es posible también seleccionar su nombre de la lista que se habilita como  desplegable al marcar la opción ** “Incluido en Terceros”**. Se debe tener en cuenta que de la tabla de Terceros solo se despliegan los Terceros de Tipo RI. La funcionalidad de poder definir que el Solicitante sea el usuario logueado y no se pueda modificar, se  parametriza  en  Administración, Valores  por  Defecto,  la  etiqueta SOLICITUDES, la opción ** “El solicitante es tomado del usuario logueado y no se puede modificar”**.
+
+**E-Mail:** En este campo se define el correo electrónico del Solicitante de la Solicitud  de Servicio, cuando el solicitante es digitado manualmente. Si el solicitante se selecciona con la opción ** “Incluido en Terceros”** y allí se tiene definido el correo electrónico, automáticamente se carga a este campo el e-mail definido en el módulo de Terceros. La funcionalidad del envío de correos electrónicos se parametriza Administración, Valores por Defecto, la etiqueta GENERAL, la opción**  “Enviar e-mail al solicitante”**.
+
+**F/H Sugerida de entrega:** En este campo se selecciona la fecha y hora en la que el solicitante considera que el Servicio Solicitado puede ser oportuno.
+
+
 
 **C. Costo /Cliente:** Este campo permite seleccionar el Centro de Costo o Cliente que es responsable del Objeto de Mantenimiento. Cuando se define un Equipo u Objeto  de Mantenimiento válido, el sistema trae automáticamente a este campo el Centro de Costo asociado. A la derecha del código del Centro de Costo, se habilita un Link  que permite visualizar y actualizar toda la información del Centro de Costo.
 
