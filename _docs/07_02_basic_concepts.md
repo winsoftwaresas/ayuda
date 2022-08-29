@@ -1,9 +1,12 @@
 ---
-title:  Conceptos Básicos sobre Solicitudes de Servicio
-subtitle:  En este modulo se encontrará la explicacion sobre el las generalidades de la Solicitud de Servicio
-tags: [setup]
+title: Conceptos Básicos sobre Solicitudes de Servicio
+subtitle: En este modulo se encontrará la explicacion sobre el las generalidades
+  de la Solicitud de Servicio
+tags:
+  - setup
 author: win
 order: 07_02
+date: 2022-08-29T15:46:20.800Z
 ---
 
 ## Solicitud de Servicio (SS)
