@@ -4,8 +4,6 @@ title: ◼ Solicitudes de Servicio
 date: 2022-08-29T15:43:53.655Z
 ---
 
-# Solicitudes de Servicio
-
 * ¿Qué son las Solicitudes de Servicio?
 * ¿cuál es su objetivo?
 * ¿Cómo se define?
