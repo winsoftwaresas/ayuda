@@ -1,3 +1,8 @@
+---
+order: 03_00
+title: ◼ Assets
+date: 2022-08-29T20:02:48.580Z
+---
 Activo/EquipoActivo/Equipo---
 layout: page
 title: ◼ Assets
