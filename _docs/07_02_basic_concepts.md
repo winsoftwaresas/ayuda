@@ -1,7 +1,9 @@
 ---
+title:  Conceptos Básicos sobre Solicitudes de Servicio
+subtitle:  En este modulo se encontrará la explicacion sobre el las generalidades de la Solicitud de Servicio
+tags: [setup]
+author: win
 order: 07_02
-title: Conceptos Básicos sobre Solicitudes de Servicio
-date: 2022-08-16T16:58:04.101Z
 ---
 
 ## Solicitud de Servicio (SS)
@@ -37,7 +39,8 @@ El Inspector visita al solicitante, se entera y profundiza sobre su solicitud y 
 2.  Se decide ejecutar, como Solicitud de Servicio. Este es el caso en que los costos o estimados  se  encuentran  por  debajo  de  los  parámetros   predefinidos  por  la Organización: El costo de ejecución, el tiempo de ejecución y el número de horas hombre son relativamente bajos.  Se ejecuta la Solicitud y a continuación se cambia el estado a **“Cerrada Ejecutada”**, se actualizan y registran los campos referentes a este Estado. El Responsable cierra la Solicitud como ejecutada, haciendo clic en el botón <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a>.
 
 
-3. Se decide ejecutar la Solicitud como Órden de Trabajo. En este caso, al  analizar los  parámetros predefinidos (Costo de ejecución, tiempo de ejecución, número de horas hombre), se establece que es un trabajo apreciable, que exige mayor control para seguimiento posterior y por ello se debe generar una Orden de Trabajo desde la Solicitud de Servicio. Se ejecuta entonces la Solicitud y a continuación se cambia el estado a **“Cerrada con OT”**. Se actualizan y registran los campos referentes a este Estado y se cierra con un clic en el botón <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a>. 
+3. Se decide ejecutar la Solicitud como Órden de Trabajo. En este caso, al  analizar los  parámetros predefinidos (Costo de ejecución, tiempo de ejecución, número de horas hombre), se establece que es un trabajo apreciable, que exige mayor control para seguimiento posterior y por ello se debe generar una Orden de Trabajo desde la Solicitud de Servicio. Se ejecuta entonces la Solicitud y a continuación se cambia el estado a **“Cerrada con OT”**. Se actualizan y registran los campos referentes a este Estado y se cierra con un clic en el botón <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a>
+. 
 
 Acto seguido el sistema crea una Órden de Trabajo, esta nuevo registro, contiene toda la información que se había registrado previamente en la Solicitud de Servicio, lo que significa que no hay que  reingresarla. Existe la posibilidad de hacer acceso directo desde la Solicitud, a  la  Órden de Trabajo, dando un  clic  en  el  hipervínculo azul que se observa en el Detalle de la SS. De igual forma, estando en la ventana Detalle de la Órden de Trabajo, es posible regresar directamente a la SS, dando un clic sobre el hipervínculo azul que se observa en la parte izquierda.
 
