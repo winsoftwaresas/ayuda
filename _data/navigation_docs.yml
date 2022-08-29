@@ -40,14 +40,14 @@
 - title: Solicitudes de Servicio
   docs:
   - 07_01_introduction
-  - 07_02_basics_concepts
+  - 07_02_basic_concepts
   - 07_03_transactions
   - 07_04_export
 
 - title: Paros
   docs:
   - 08_01_introduction
-  - 08_02_basics_concepts
+  - 08_02_basic_concepts
   - 08_03_creation
   - 08_04_tracking_and_closing
 
