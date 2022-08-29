@@ -95,23 +95,12 @@ Al modificar este campo hacia el estado **“Asignada”**, el software registra
 
 - **A qué Activo**
 
-En esta línea se pretende identificar claramente el  Equipo o el  Objeto de Mantenimiento para el cual se está solicitando el servicio.
+En esta línea se pretende identificar claramente el Activo o el  Objeto de Mantenimiento para el cual se está solicitando el servicio.
 
-**La línea está conformada por tres campos :**
+Es un recuadro que está conformado por los siguientes campos donde se pretende identificar claramente el Activo o el Objeto de Mantenimiento.
 
-El primero es una caja de selección que se marca cuando la Solicitud tiene un objeto de mantenimiento identificable. Eso quiere decir que el solicitante puede identificar el Objeto de Mantenimiento a través de alguno de los valores-clave que son  seleccionables en el segundo campo.
+El primero es cuadro de selección <a class="btn black"><span class="mdi mdi-checkbox-blank-outline"></a> que se marca cuando la Solicitud tiene un objeto de mantenimiento identificable. Eso quiere decir que el solicitante puede identificar el Objeto de Mantenimiento de manera manual describiendo el nombre del Activo y Ubicación Física.
 
-El segundo campo se encuentra a la derecha del primero y permite identificar la clave de búsqueda del Equipo Objeto del mantenimiento. Las claves de búsqueda disponibles son:
-
-- Por Código
-- Por Serial
-- Por Referencia
-- Por Activo fijo
-- Por Alias
-- Por Cód. Barras Int
-- Por Cód. Barras Prov
-
-Una vez se ha determinado cual es la clave que se va a utilizar para buscar el Equipo, se procede a registrar el valor respectivo para esa clave en el tercer campo. Hay  dos maneras de hacerlo.
 
 La primera consiste en teclear el valor correspondiente a la clave del Equipo, seguido de la tecla  ** “TAB”**. Como  resultado,  se  muestran la  descripción, el  Centro  de  Costo  y  la Ubicación Física del Equipo seleccionado.
 
