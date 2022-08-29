@@ -1,3 +1,8 @@
+---
+order: 08_00
+title: ◼ Stoppages - Failures, Damages and Breakdowns
+date: 2022-08-29T19:51:11.459Z
+---
 Activo/EquipoActivo/Equipo---
 layout: page
 title: ◼ Stoppages - Failures, Damages and Breakdowns
