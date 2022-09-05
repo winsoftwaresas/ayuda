@@ -1,18 +1,19 @@
 ---
-title:  Introducción
-subtitle: en este capitulo se encontrará el ¿por qué? y el ¿para que? de la seccionsolicitudes de servicio AM 4G, despejara dudas y ayudara a conocer su uso adecuado en cuanto a la seccion programas de mantenimiento.
-tags: [setup]
+title: Introducción
+subtitle: En este capítulo se da conocer los conceptos de la Solicitud de Servicio y su gestión en AM
+tags:
+  - setup
 author: win
 order: 07_01
+date: 2022-08-08T16:38:48.398Z
 ---
-# Solicitudes de Servicio
 
 - ¿Qué son las Solicitudes de Servicio?
-- ¿cuál es su objetivo?
+- ¿Cuál es su objetivo?
 - ¿Cómo se define?
-- ¿cómo trabaja una Solicitud de Servicio?
+- ¿Cómo trabaja una Solicitud de Servicio?
 - ¿Cuál es su proceso?
-- ¿quienes los protagonistas?
-- ¿como se le hace seguimiento?.
+- ¿Quienes los protagonistas?
+- ¿Cómo se le hace seguimiento?.
 
-Son las preguntas básicas que obtienen respuesta en  el presente capitulo.
+Son las preguntas básicas que obtienen respuesta en la presente sección.
