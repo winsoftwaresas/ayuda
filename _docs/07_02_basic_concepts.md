@@ -111,13 +111,13 @@ Código del Activo: En este campo se visualiza la información del código del E
 
 E﻿xisten dos opciones para Identificar un Activo:
 
-- 1. A través del ícono de subgrupo <span class="mdi mdi-filter-variant icon white"></span> se abre una ventana visor de Activos donde es posible 
+- La primera es a través del ícono de subgrupo <span class="mdi mdi-filter-variant icon white"></span>. Para ello se da un clic sobre el icono. Acto seguido se muestra la ventana de visor de Equipo/Activos, a   en esta ventana nueva es posible también en la parte superior <span class="mdi mdi-filter-variant"></span> hacer un subgrupo, una vez se haya seleccionado en el visor el registro o se visualice el sombreado verde, es posible añadirlo a través un doble clic sobre él o hacer uso del botón <a class="btn white">Aceptar</a>. Automáticamente se observa la información del Activo registrada en el módulo de Activos. 
 
-La segunda consiste en que se busca el equipo u Objeto de la Solicitud, a través del visor de Equipos. Para ello se da un clic sobre el botón de Visor de Equipos **(Binóculos sobre papel amarillo)**. Acto seguido se muestra la ventana de visor de Equipos junto con la de subgrupo para poder ubicarlo. Una vez se encuentra el  Equipo en la Tabla de visor de Equipos,  se selecciona dando un clic sobre cualquiera de sus campos. A continuación se da un clic sobre botón `<a class="btn">`Aceptar`</a>` de esa ventana  o se hace doble clic sobre el registro seleccionado. Inmediatamente ese código es trasladado hasta el tercer campo de la línea Equipo en la ventana de Solicitudes de Servicio, junto con sus datos complementarios.
+- La segunda consiste en hacer uso del teclado, es decir, en el campo código se puede ingresar el Activo Fijo, el Código del Activo o Serie, solo se permite escribir unas de las tres informaciones completas y a continuación hacer uso de la tecla "Tabular". Automáticamente se identifica la información del Activo registrado desde el módulo de Activos.
 
-Cuando  el  Equipo  o  el  Activo,  Objeto  de  la  Solicitud  de  Servicio  no  pueden   ser identificados a través de las claves disponibles, posiblemente porque no está registrado en la tabla de Equipos del Sistema, se desmarca el primer campo de la  línea de Equipo posibilitando identificar el Equipo en lenguaje natural.
+Cuando el Equipo o el  Activo,  Objeto  de  la  Solicitud  de  Servicio no pueden  ser identificados a través de las claves disponibles, posiblemente porque no está registrado en el módulo de Activos,  se procede a hacer el registro en el sistema. 
 
-**Nota:** Al momento de Cerrar una Solicitud de Servicio que se creó con un Equipo no  existente,  identificándolo en  lenguaje  natural,  el  sistema  requerirá  un  Equipo válido.  Se hace necesario entonces que el Responsable de la Solicitud o Inspector que la atendió, ubique en ese campo el Equipo correcto. De no existir, deberá  ser creado en la tabla de Equipos.
+>**Nota:** Al momento de Cerrar una Solicitud de Servicio que se creó con un Activo no existente,  identificándolo en  lenguaje  natural,  el  sistema  requerirá  un  Equipo válido.  Se hace necesario entonces que el Responsable de la Solicitud o Inspector que la atendió, ubique en ese campo el Equipo correcto. De no existir, deberá  ser creado en la tabla de Equipos. 
 
 **Código:** En este campo se visualiza la información  del código del Equipo seleccionado.
 
