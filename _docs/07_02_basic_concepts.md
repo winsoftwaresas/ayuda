@@ -155,13 +155,31 @@ Cuando el Equipo o el  Activo,  Objeto  de  la  Solicitud  de  Servicio no puede
 
 **Ubicación Física:**  Este campo permite seleccionar la Ubicación Física en la que se encuentra el Objeto de Mantenimiento para el que se genera la Solicitud de Servicio. Cuando se define un Equipo u Objeto de Mantenimiento válido, el sistema trae automáticamente a este campo la Ubicación Física asociada. Inicialmente se sugiere la Ubicación Física que tiene asociada el Activo Objeto de Mantenimiento, aun así, puede cambiarse. También existe la posibilidad de describir la Ubicación Física en lenguaje natural, para ello se desmarca la caja de selección.
 
+**Centro Responsable:** Se define en este campo el nombre del grupo de Mantenimiento encargado de la ejecución de la Solicitud de Servicio. Para ello se selecciona uno de los Centros Responsables que están definidos en la tabla de “Centros Responsables” en la Infraestructura.
+
+
+**Responsable:** En esta lista se define un Responsable, a manera de Inspector, que verificará el estado del Equipo u Objeto de Mantenimiento. Para ello se selecciona uno de los Responsables que están definidos en la tabla de “Responsables” en la Infraestructura. Al lado derecho de este campo existe una caja de selección “Filtrar por CR”, que al ser marcada filtra los Responsables por el Centro Responsable previamente seleccionado. El responsable es obligante al escoger el estado “Asignada”, “Cerrada Ejecutada” o “Cerrada con OT”.
 
 
 
+<a class="btn white"><span class="mdi mdi-checkbox-blank-outline"> filtrar por cr</span></a>: Al seleccionar esta opción, en el campo “Responsable” solo se despliegan los Responsables correspondientes al Centro Responsable elegido en la opción “Centro Responsable”. En otro caso, en el campo “Responsable” se despliegan todos los “Responsables” existentes en la tabla respectiva. 
+
+**Causa de Falla:** En este campo es posible definir la Causa de Falla primaria que da origen a la Solicitud de Servicio. Para ello se selecciona una de las Causas de Falla que están definidas en la tabla de “Causas de Falla” en la Infraestructura. Si no existe la causa de falla en la lista que se despliega, ella se debe crear en la tabla respectiva, Causas de Falla, en el módulo de infraestructura.
+
+**Valor MO:** Es el valor sugerido que resulta de la multiplicación del tiempo de duración de la ejecución por el valor-hora del Responsable seleccionado. Este campo puede ser asignado manualmente, en caso de que el Responsable seleccionado no tenga un valor-hora asignado, o cuando el costo haya sido acordado por otros criterios.
 
 
+**Valor MR:** En este campo se registra un único costo correspondiente a Materiales y Repuestos consumidos en la Solicitud de Servicio. Se trata de un costo menor y no se permite la discriminación por artículo utilizado; en caso de que se requiera tal discriminación se recomienda: o utilizar el campo de comentarios o cerrar la Solicitud como Orden de Trabajo.
 
-![Ventana Principal de Solicitudes de Servicio](../../assets/images/cap09/chp09_img06.png)
+
+**T. Trabajo:** AM predefine (aunque pueden personalizarse) cuatro tipos de trabajo: Mecánico (MEC), Eléctrico (ELE), Instrumentación/Electrónica (IEL) y Otro (OTR). Indica los Tipos de Trabajo que se realizan en la SS. Es posible definir más de un Tipo de Trabajo para una Solicitud.
+
+
+**T. Mtto:** Este campo indica el Tipo de Mantenimiento a realizar en la Solicitud de Servicio. Toda SS debe poseer uno. Si en la SS se va a registrar un trabajo que no corresponde a una labor de mantenimiento, en este campo se elige “Otro” y a continuación, en el tipo de “Actividad” se especifica detalladamente, el tipo de labor.
+
+
+**T. Actividad:** Aquí se establece el Tipo de Actividad a realizar en la SS. La Actividad de Mantenimiento para una SS, se elige desde la tabla “Tipos de Actividad” en el módulo de “Infraestructura”. Este campo trabaja en coordinación con el anterior (Tipo de Mantenimiento). Si en el campo anterior se ha hecho la selección de un valor diferente de “Otro”, en el tipo de Actividad se debe seleccionar el valor “Mantto”, lo que indica que se trata de una actividad que constituye mantenimiento. Si en el campo anterior se ha seleccionado el valor “Otro”, en el campo Tipo de Actividad se debe seleccionar un valor que defina consistentemente la labor a ejecutar. Es posible definir una
+
 
 **Centro de Servicios:** Este campo indica las compañías definidas en la aplicación. Aquí se selecciona la compañía a analizar el oficio o el responsable interno.
 
