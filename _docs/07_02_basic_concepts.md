@@ -117,7 +117,7 @@ E﻿xisten dos opciones para Identificar un Activo:
 
 Cuando el Equipo o el  Activo,  Objeto  de  la  Solicitud  de  Servicio no pueden  ser identificados a través de las claves disponibles, posiblemente porque no está registrado en el módulo de Activos,  se procede a hacer el registro en el sistema. 
 
->**Nota:** Al momento de Cerrar una Solicitud de Servicio que se creó con un Activo no existente,  identificándolo en  lenguaje  natural,  el  sistema  requerirá  un  Equipo válido.  Se hace necesario entonces que el Responsable de la Solicitud o Inspector que la atendió, ubique en ese campo el Equipo correcto. De no existir, deberá  ser creado en la tabla de Equipos. 
+>**Nota:** Al momento de Cerrar una Solicitud de Servicio que se creó con un Activo no existente,  identificado en  lenguaje  natural,  el  sistema  requerirá  un  Activo válido.  Se hace necesario entonces que el Responsable de la Solicitud o Inspector que la atendió, ubique en ese campo el Activo correcto. De no existir, deberá  ser creado.  
 
 **Código:** En este campo se visualiza la información  del código del Equipo seleccionado.
 
