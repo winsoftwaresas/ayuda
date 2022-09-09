@@ -91,7 +91,7 @@ A continuación se describen los campos que componen el registro, sobre cada cam
 - Cerrada Ejecutada (CE)
 - Cerrada con OT (CO)
 
-Al modificar este campo hacia el estado **“Asignada”**, el software registra automáticamente en el campo F/H Atención, la fecha y hora en que se asigna la Solicitud de Servicio  y obliga a que se elija en el campo Responsable, el responsable asignado a la Solicitud de Servicio.
+Al modificar este campo hacia el estado **“Asignada”**, el software registra automáticamente en el campo F/H Atención, la fecha y hora en que se asigna la Solicitud de Servicio y obliga a que se elija en el campo Responsable, el Responsable asignado a la Solicitud de Servicio.   
 
 **Prioridad:** Es el campo descolgable en el que se define la prioridad de la Solicitud. Ésta puede ser asignada por el usuario solicitante en el momento de crear la SS. Las opciones disponibles son:
 
@@ -101,14 +101,17 @@ Al modificar este campo hacia el estado **“Asignada”**, el software registra
 
 - **A qué Activo**
 
-En esta línea se pretende identificar claramente el Activo o el  Objeto de Mantenimiento para el cual se está solicitando el servicio.
+En esta línea se pretende identificar claramente el Activo o el Objeto de Mantenimiento para el cual se está solicitando el servicio.
 
-Es un recuadro que está conformado por los siguientes campos donde se pretende identificar claramente el Activo o el Objeto de Mantenimiento.
+Es un recuadro que está conformado por los siguientes campos donde se pretende identificar claramente el Activo o el Objeto de Mantenimiento:
 
-El primero es cuadro de selección <a class="btn black"><span class="mdi mdi-checkbox-blank-outline"></a> que se marca cuando la Solicitud tiene un objeto de mantenimiento identificable. Eso quiere decir que el solicitante puede identificar el Objeto de Mantenimiento de manera manual describiendo el nombre del Activo y Ubicación Física.
+El primero es un cuadro de selección <a class="btn black"><span class="mdi mdi-checkbox-blank-outline"></a> que se marca cuando la Solicitud tiene un objeto de mantenimiento identificable. Eso quiere decir que el solicitante puede identificar el Objeto de Mantenimiento de manera manual describiendo el nombre del Activo y Ubicación Física.n  
 
+Código del Activo: En este campo se visualiza la información del código del Equipo/Activo seleccionado.
 
-La primera consiste en teclear el valor correspondiente a la clave del Equipo, seguido de la tecla  ** “TAB”**. Como  resultado,  se  muestran la  descripción, el  Centro  de  Costo  y  la Ubicación Física del Equipo seleccionado.
+E﻿xisten dos opciones para Identificar un Activo:
+
+- 1. A través del ícono de subgrupo <span class="mdi mdi-filter-variant icon white"></span> se abre una ventana visor de Activos donde es posible 
 
 La segunda consiste en que se busca el equipo u Objeto de la Solicitud, a través del visor de Equipos. Para ello se da un clic sobre el botón de Visor de Equipos **(Binóculos sobre papel amarillo)**. Acto seguido se muestra la ventana de visor de Equipos junto con la de subgrupo para poder ubicarlo. Una vez se encuentra el  Equipo en la Tabla de visor de Equipos,  se selecciona dando un clic sobre cualquiera de sus campos. A continuación se da un clic sobre botón `<a class="btn">`Aceptar`</a>` de esa ventana  o se hace doble clic sobre el registro seleccionado. Inmediatamente ese código es trasladado hasta el tercer campo de la línea Equipo en la ventana de Solicitudes de Servicio, junto con sus datos complementarios.
 
