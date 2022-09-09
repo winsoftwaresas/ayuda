@@ -107,7 +107,7 @@ Es un recuadro que está conformado por los siguientes campos donde se pretende 
 
 El primero es un cuadro de selección <a class="btn black"><span class="mdi mdi-checkbox-blank-outline"></a> que se marca cuando la Solicitud tiene un objeto de mantenimiento identificable. Eso quiere decir que el solicitante puede identificar el Objeto de Mantenimiento de manera manual describiendo el nombre del Activo y Ubicación Física.n  
 
-Código del Activo: En este campo se visualiza la información del código del Equipo/Activo seleccionado.
+**Código del Activo:** En este campo se visualiza la información del código del Equipo/Activo seleccionado.
 
 E﻿xisten dos opciones para Identificar un Activo:
 
@@ -119,26 +119,21 @@ Cuando el Equipo o el  Activo,  Objeto  de  la  Solicitud  de  Servicio no puede
 
 >**Nota:** Al momento de Cerrar una Solicitud de Servicio que se creó con un Activo no existente,  identificado en  lenguaje  natural,  el  sistema  requerirá  un  Activo válido.  Se hace necesario entonces que el Responsable de la Solicitud o Inspector que la atendió, ubique en ese campo el Activo correcto. De no existir, deberá  ser creado.  
 
-**Código:** En este campo se visualiza la información  del código del Equipo seleccionado.
+**Descripción:** Muestra el nombre o la descripción del Activo seleccionado. Es un campo que no es modificable por el usuario.
+
+**Activo Fijo:** En este campo se visualiza la información del Número de Activo Fijo del Activo que se haya establecido en la ficha técnica.
+
+**Código de Inventario:** En este campo se visualiza el código del inventario del Equipo/Activo que se haya establecido en la ficha técnica de este mismo. Es un campo que no es modificable por el usuario.
+
+**Referencia Externa (Proveedor):** En este campo se visualiza la información de la referencia del Equipo/Activo que se haya establecido en la ficha técnica de este mismo. Es un campo que no es modificable por el usuario.
 
 **Referencia:** En este campo se visualiza la información de la referencia del Equipo que se haya establecido en la ficha técnica de este mismo.
 
-**Alias:**   En  este  campo se  visualiza la  información del  Alias  del  Equipo que  se  haya establecido en la ficha técnica de este mismo.
 
-**Serial:** En  este  campo se  visualiza  la información del  Serial  del  Equipo que se  haya establecido en la ficha técnica de este mismo.
-
-**Núm. Activo F.:** En este campo se visualiza la información del Número de Activo Fijo del
-Equipo que se haya establecido en la ficha técnica de este mismo.
-
-**Marca:** En este campo se visualiza la información de la Marca del Equipo que se haya establecido en la ficha técnica de este mismo.
-
-**Modelo:** En este campo se visualiza la información del Modelo del Equipo que se haya establecido en la ficha técnica de este mismo.
+*Serial:* En este campo se visualiza la información del Serial del Equipo/Activo que se haya establecido en la ficha técnica de este mismo. Es un campo que no es modificable por el usuario.
 
 
-
-
-
-
+**Alias:** En este campo se visualiza la información del Alias del Equipo/Activo que se haya establecido en la ficha técnica de este mismo. Es un campo que no es modificable por el usuario.
 
 
 
