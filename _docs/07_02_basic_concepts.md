@@ -146,41 +146,20 @@ Cuando el Equipo o el  Activo,  Objeto  de  la  Solicitud  de  Servicio no puede
 
 **Correo Electrónico:** En este campo se define el correo electrónico del Solicitante de la Solicitud de Servicio, cuando el solicitante es digitado manualmente. Si el solicitante se selecciona con la opción “Incluido en TE (RI)” y allí se tiene definido el correo electrónico, automáticamente se carga a este campo el e-mail definido en el módulo de Terceros. Las notificaciones de correo electrónico se parametrizan desde el módulo de <a class="btn blue">admimnistración</a> en la opción **Notificaciones**.
 
-**F/H Sugerida de entrega:** En este campo se selecciona la fecha y hora en la que el solicitante considera que el Servicio Solicitado puede ser oportuno.
+
+**Centro de Costo:** Este campo permite seleccionar el Centro de Costo o Cliente que es responsable del Objeto de Mantenimiento. Cuando se define un Equipo u Objeto de Mantenimiento válido, el sistema trae automáticamente a este campo el Centro de Costo asociado. Inicialmente se sugiere el Centro de Costo que tiene asociado el Activo Objeto de Mantenimiento, aun así, puede cambiarse.
+
+
+**Sub CC:** Este campo siempre está bloqueado y muestra el Código Sub CC asociado al Centro de Costo elegido.
+
+
+**Ubicación Física:**  Este campo permite seleccionar la Ubicación Física en la que se encuentra el Objeto de Mantenimiento para el que se genera la Solicitud de Servicio. Cuando se define un Equipo u Objeto de Mantenimiento válido, el sistema trae automáticamente a este campo la Ubicación Física asociada. Inicialmente se sugiere la Ubicación Física que tiene asociada el Activo Objeto de Mantenimiento, aun así, puede cambiarse. También existe la posibilidad de describir la Ubicación Física en lenguaje natural, para ello se desmarca la caja de selección.
 
 
 
-**C. Costo /Cliente:** Este campo permite seleccionar el Centro de Costo o Cliente que es responsable del Objeto de Mantenimiento. Cuando se define un Equipo u Objeto  de Mantenimiento válido, el sistema trae automáticamente a este campo el Centro de Costo asociado. A la derecha del código del Centro de Costo, se habilita un Link  que permite visualizar y actualizar toda la información del Centro de Costo.
 
-Al dar clic al Link ** “Info del C.C.”**, se abre una ventana mostrando la información del Centro de Costo, allí se tiene la opción de crear y modificar información  de un centro de costo.
 
-**Ubicación Física:** Este campo permite seleccionar la   Ubicación Física en   la que  se encuentra el  Objeto de  Mantenimiento para  el  que  se  genera la Solicitud de  Servicio. Cuando  se  define  un  Equipo  u  Objeto  de  Mantenimiento  válido,  el   sistema  trae automáticamente a este campo la Ubicación Física asociada, también existe la posibilidad de describir la Ubicación Física en lenguaje natural, para ello se desmarca la caja de selección.
 
-**T. Trabajo:** Indica los Tipos de Trabajo que se realizan en la SS. Es posible definir más de un Tipo de Trabajo para una Solicitud.
-
-**T. Mtto:** Este campo indica el Tipo de Mantenimiento a realizar en la Solicitud de Servicio. Toda SS debe poseer uno. Si en la SS se va a registrar un trabajo que no corresponde a una labor de mantenimiento, en este campo se elige ** “Otro”** y a continuación, en el tipo de ** “Actividad”** se especifica detalladamente, el tipo de labor.
-
-**T. Actividad:** Aquí se establece el Tipo de Actividad a realizar en la SS.  La Actividad de Mantenimiento para una SS, se elige desde la tabla  ** “Tipos de Actividad”** en el módulo de ** “Infraestructura”**. Este  campo  trabaja  en  coordinación  con  el  anterior  (Tipo  de Mantenimiento). Si en el campo anterior se ha hecho la selección de un valor diferente de ** “Otro”**, en el tipo de Actividad se debe seleccionar el valor ** “MN: Mantto”**, lo que indica que se trata de una actividad que  constituye mantenimiento. 	Si en el campo anterior se  ha seleccionado el valor ** “Otro”**, en el campo Tipo de Actividad se debe seleccionar un valor que  defina consistentemente la  labor  a  ejecutar.  Es  posible definir una  Actividad, por defecto, en ** “Administración”**, ** “Valores por defecto”**.
-
-**$ std:** Es un campo Informativo. Muestra el precio estándar definido en la tabla ** “Tipos de Actividad”** en Infraestructura.
-
-**T. std:** Es un campo Informativo. Muestra el tiempo estándar definido en la tabla ** “Tipos de Actividad”** en Infraestructura.
-
-Los campos ** “T. Trabajo, T. Mtto y T. Actividad”,** se parametrizan de forma opcional desde el módulo de Administración, Valores por Defecto, en la etiqueta SOLICITUDES, la opción ** “Solicitar datos para definir proceso (Tipo Trabajo, Tipo Mantenimiento, Tipo Actividad)”**.
-
-**C. Resp:** Se define en este campo el nombre del grupo de Mantenimiento encargado de la ejecución de  la  Solicitud  de  Servicio. Para  ello  se  selecciona uno  de  los  Centros Responsables  que   están  definidos  en  la  tabla  de   ** “Centros   Responsables”**  en   la Infraestructura.
-
-**Responsable:** En este campo se define un Responsable, a manera de Inspector,  que verificará el estado del Equipo u Objeto de Mantenimiento. Para ello se selecciona uno de los Responsables que están definidos en la tabla de ** “Responsables”** en la Infraestructura. Al lado derecho de este campo existe una caja de selección ** “Filtrar  por CR”**, que al ser marcada filtra los Responsables por el Centro Responsable previamente seleccionado.
-
-**Filtrar por CR:** Al seleccionar esta opción, en el campo ** “Responsable”** solo se despliegan los Responsables correspondientes al Centro Responsable elegido en la opción ** “C. Resp”**. En  otro  caso,  en  el  campo  ** “Responsable”**  se  despliegan  todos   los  ** “Responsables”** existentes en la tabla respectiva.
-
-**Generar carga de Trabajo :** Esta opción permite generar la gráfica de la carga de trabajo de un oficio o un responsable en un lapso de tiempo. El lapso de tiempo  está definido en tres instantes:
-
-**a. La semana actual:** Se refiere a la semana en curso, partiendo la semana desde el domingo y finalizando el sábado.
-
-**b. La semana próxima:** Se refiere al análisis de siete (7) días a partir del día que se está evaluando. Es decir, si se está evaluando la próxima semana partiendo desde el día jueves, los sietes (7) días que se analizan van hasta el miércoles incluyendo el jueves.
-
-**c. Mes próximo:** Se refiere al análisis del próximo mes tomando como referencia el mes actual. Se analiza desde el primer día hasta el último día mes.
 
 ![Ventana Principal de Solicitudes de Servicio](../../assets/images/cap09/chp09_img06.png)
 
