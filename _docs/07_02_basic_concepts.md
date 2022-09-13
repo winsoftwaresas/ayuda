@@ -164,7 +164,7 @@ Cuando el Equipo o el  Activo,  Objeto  de  la  Solicitud  de  Servicio no puede
 
 <a class="btn white"><span class="mdi mdi-checkbox-blank-outline"> filtrar por cr</span></a>: Al seleccionar esta opción, en el campo “Responsable” solo se despliegan los Responsables correspondientes al Centro Responsable elegido en la opción “Centro Responsable”. En otro caso, en el campo “Responsable” se despliegan todos los “Responsables” existentes en la tabla respectiva. 
 
-**Causa de Falla:** En este campo es posible definir la Causa de Falla primaria que da origen a la Solicitud de Servicio. Para ello se selecciona una de las Causas de Falla que están definidas en la tabla de “Causas de Falla” en la Infraestructura. Si no existe la causa de falla en la lista que se despliega, ella se debe crear en la tabla respectiva, Causas de Falla, en el módulo de infraestructura.
+**Causa de Falla:** En este campo es posible definir la Causa de Falla primaria que da origen a la Solicitud de Servicio. Para ello se selecciona una de las Causas de Falla que están definidas en la tabla de Infraestructura. “Causas de Falla” en la Infraestructura. Si no existe la causa de falla en la lista que se despliega, ella se debe crear en la tabla respectiva, Causas de Falla, en el módulo de 
 
 **Valor MO:** Es el valor sugerido que resulta de la multiplicación del tiempo de duración de la ejecución por el valor-hora del Responsable seleccionado. Este campo puede ser asignado manualmente, en caso de que el Responsable seleccionado no tenga un valor-hora asignado, o cuando el costo haya sido acordado por otros criterios.
 
