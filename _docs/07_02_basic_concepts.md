@@ -205,8 +205,8 @@ Cuando el Equipo o el  Activo,  Objeto  de  la  Solicitud  de  Servicio no puede
 
 **Ir a la Orden de Trabajo generada:** Cuando la Solicitud de Servicio es cerrada con OT, el sistema crea un vínculo directo a través de un link en color azul a la OT generada en el módulo de Órdenes. En la OT correspondiente también se crea un vínculo hacia la Solicitud de Servicio que le dio origen.
 
-#﻿ Vistas Parciales
 
+# Vistas Parciales
 
 ## Evaluar Servicio
 
@@ -214,6 +214,8 @@ Se realiza a través de la pestaña **Evaluar Servicio** de la ventana Detalle, 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img06.png)
 _**Imagen 4.** Solicitudes - Evualuar Servicio_
+
+
 
 
 
