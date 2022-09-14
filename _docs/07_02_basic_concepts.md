@@ -205,38 +205,10 @@ Cuando el Equipo o el  Activo,  Objeto  de  la  Solicitud  de  Servicio no puede
 
 **Ir a la Orden de Trabajo generada:** Cuando la Solicitud de Servicio es cerrada con OT, el sistema crea un vínculo directo a través de un link en color azul a la OT generada en el módulo de Órdenes. En la OT correspondiente también se crea un vínculo hacia la Solicitud de Servicio que le dio origen.
 
+#﻿ Vistas Parciales
 
 
-
-
-
-
-
-
-
-
-
-
-
-**F/H inicio trabajos:** En este campo se define el tiempo de inicio del trabajo después de realizar la inspección previa.
-
-**F/H fin trabajos:** Este campo es asignado automáticamente cuando se cambia el estado de la Solicitud de Servicio a ** “Cerrada Ejecutada”**, aún así es posible  modificarlo.  Esta fecha y hora indica el momento en el que se concluyeron las labores de ejecución.
-
-**F/H cierre:** Esta fecha y hora son asignadas automáticamente por el sistema, al momento de ** “Actualizar”** la Solicitud de Servicio tras haber seleccionado un estado  de ** “Cerrada”**; este campo no es modificable por el usuario.
-
-**Valor  Hora:**  Este campo es asignado automáticamente por  el sistema al momento  de seleccionar  el  Responsable de  la  Solicitud  de  Servicio. De  todos  los  valores-hora disponibles para el Responsable, se asigna el valor correspondiente al tipo de hora: uno.
-
-**Valor M/O:** Es el valor sugerido que resulta de la multiplicación del tiempo de duración de la ejecución por el valor-hora del Responsable seleccionado (campo anterior). Este campo puede ser asignado manualmente, en caso de que el Responsable seleccionado no tenga un valor-hora asignado, o cuando el costo haya sido acordado por otros criterios.
-
-**Valor  M/R:** En este campo se registra un  único costo correspondiente a  Materiales  y Repuestos consumidos en la Solicitud de Servicio. Se trata de un costo menor y no se permite  la   discriminación  por   artículo   utilizado;   en   caso   de   que   se   requiera   tal discriminación se recomienda: o utilizar el campo de comentarios o cerrar la Solicitud como Orden de Trabajo.
-
-**OT Generada:** Cuando la Solicitud de Servicio es cerrada con OT, el sistema crea un vínculo directo a la OT generada en el módulo de Órdenes de Trabajo. En la OT correspondiente también se crea un vínculo hacia la Solicitud de Servicio que le dio origen.
-
-**Comentarios  del  Técnico/Responsable:** Es  un campo de texto en el  que  se  explica brevemente en que consistió la ejecución de la Solicitud de Servicio, y se detallan aspectos interesantes en el curso de la ejecución de la misma. Además en  este campo se puede registrar todo tipo de comentarios sobre el estado de la  Solicitud, o sobre la negativa de ejecución a  manera de  argumentación y  también  sobre  las  razones que motivaron a generar una Orden de Trabajo desde ella para generar un control más amplio. Este es un campo importante en   el   seguimiento a  la   ejecución, que realiza permanentemente el solicitante.
-
-# Ventana Submenú de Solicitudes de Servicio
-
-## Subgrupo
+## Evaluar Servicio
 
 Se usa para seleccionar grupos de  Paros y/o Averías que cumplen con un conjunto  de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo.
 
