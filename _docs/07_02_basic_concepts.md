@@ -210,4 +210,5 @@ Cuando el Equipo o el  Activo,  Objeto  de  la  Solicitud  de  Servicio no puede
 
 ## Evaluar Servicio
 
-Se realiza a través de la pestaña Evaluar Servicio de la ventana Detalle, la evaluación del servicio prestado por el personal de mantenimiento o de servicios, en la Solicitud de Servicio seleccionada. La evaluación la debe realizar un usuario, previamente autorizado, quien fuera el receptor del servicio, una vez se haya cerrado la Solicitud. Esta opción de evaluación se hace disponible, cuando se han definido las cinco preguntas de evaluación, en “Parámetros para Evaluación del Servicio”, en “Valores por Defecto”, en el módulo de “Administración”.
+Se realiza a través de la pestaña **Evaluar Servicio** de la ventana Detalle, o si bien mediante la funcionalidad de correos electrónicos o a través de AMsi. Es la evaluación del servicio prestado por el personal de mantenimiento o de servicios, en la Solicitud de Servicio seleccionada, esta la debe realizar un usuario, previamente autorizado, quien fuera el receptor del servicio, una vez se haya cerrado la Solicitud. Esta opción de evaluación se hace disponible, cuando se han definido las cinco preguntas de evaluación, en “Parámetros para Evaluación del Servicio”, en “Valores por Defecto”, en el módulo de <a class="btn blue">administración</a>.
+
