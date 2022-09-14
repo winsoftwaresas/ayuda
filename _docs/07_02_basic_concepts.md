@@ -171,6 +171,8 @@ Cuando el Equipo o el  Activo,  Objeto  de  la  Solicitud  de  Servicio no puede
 
 **Valor MR:** En este campo se registra un único costo correspondiente a Materiales y Repuestos consumidos en la Solicitud de Servicio. Se trata de un costo menor y no se permite la discriminación por artículo utilizado; en caso de que se requiera tal discriminación se recomienda: o utilizar el campo de comentarios o cerrar la Solicitud como Orden de Trabajo.
 
+- **Tipificación**
+
 
 **T. Trabajo:** AM predefine (aunque pueden personalizarse) cuatro tipos de trabajo: Mecánico (MEC), Eléctrico (ELE), Instrumentación/Electrónica (IEL) y Otro (OTR). Indica los Tipos de Trabajo que se realizan en la SS. Es posible definir más de un Tipo de Trabajo para una Solicitud.
 
@@ -178,24 +180,45 @@ Cuando el Equipo o el  Activo,  Objeto  de  la  Solicitud  de  Servicio no puede
 **T. Mtto:** Este campo indica el Tipo de Mantenimiento a realizar en la Solicitud de Servicio. Toda SS debe poseer uno. Si en la SS se va a registrar un trabajo que no corresponde a una labor de mantenimiento, en este campo se elige “Otro” y a continuación, en el tipo de “Actividad” se especifica detalladamente, el tipo de labor.
 
 
-**T. Actividad:** Aquí se establece el Tipo de Actividad a realizar en la SS. La Actividad de Mantenimiento para una SS, se elige desde la tabla “Tipos de Actividad” en el módulo de “Infraestructura”. Este campo trabaja en coordinación con el anterior (Tipo de Mantenimiento). Si en el campo anterior se ha hecho la selección de un valor diferente de “Otro”, en el tipo de Actividad se debe seleccionar el valor “Mantto”, lo que indica que se trata de una actividad que constituye mantenimiento. Si en el campo anterior se ha seleccionado el valor “Otro”, en el campo Tipo de Actividad se debe seleccionar un valor que defina consistentemente la labor a ejecutar. Es posible definir una
+**T. Actividad:** Aquí se establece el Tipo de Actividad a realizar en la SS. La Actividad de Mantenimiento para una SS, se elige desde la tabla “Tipos de Actividad” en el módulo de “Infraestructura”. Este campo trabaja en coordinación con el anterior (Tipo de Mantenimiento). Si en el campo anterior se ha hecho la selección de un valor diferente de “Otro”, en el tipo de Actividad se debe seleccionar el valor “Mantto”, lo que indica que se trata de una actividad que constituye mantenimiento. Si en el campo anterior se ha seleccionado el valor “Otro”, en el campo Tipo de Actividad se debe seleccionar un valor que defina consistentemente la labor a ejecutar. 
 
 
-**Centro de Servicios:** Este campo indica las compañías definidas en la aplicación. Aquí se selecciona la compañía a analizar el oficio o el responsable interno.
+- *﻿*Cuánto Tiempo** 
 
-**Ver  datos:** Aquí se define  cual opción se va a analizar. Las opciones son Responsable Interno u Oficio.
+**F/H Paro:** Se registra en este campo la fecha y hora en la que se presenta la Solicitud al Activo. Por defecto, se asigna automáticamente la F/H Creación cuando se trata de una SS tipo Correctivo.
 
-Si se activa la opción ** “Responsable Interno”**, el botón inferior `<a class="btn">`Seleccionar Responsable Interno`</a>`  se encarga de mostrar el listado de  las  personas definidas como Responsables en el AM. Si se activa la  opción ** “Oficio”**, el botón inferior `<a class="btn">`Seleccionar Oficio`</a>` e encarga de  mostrar el listado de los oficios o cargos técnicos especializados ya definidos en el módulo Oficios de Infraestructura.   La   carga   de   trabajo   tiene   en   cuenta   la   información diligenciada en la ** “Mano de Obra”** del Gasto Real de la Orden de Trabajo.
 
-**Fecha:** Se define una de las tres opciones disponibles para el análisis.
+**F/H Atención:** Este campo es asignado automáticamente cuando se cambia el estado de la Solicitud de Servicio a “Asignada”, aún así es posible modificarlo. Esta fecha y hora indican el momento en que se asignó un Responsable o Inspector que se hace cargo de la gestión de la Solicitud de Servicio.
 
-**Generar  Grafica:** Es un botón el cual se encarga de graficar  la  información suministrada desde la Parametrización establecida en los campos anteriores.
 
-**Causa de Falla:** En este campo es posible definir la Causa de Falla primaria que da origen a la Solicitud de Servicio. Para ello se selecciona una de las Causas de Falla que están definidas en la tabla de ** “Causas de Falla”** en la Infraestructura.
+**F/H Inicio Trabajo:** En este campo se define el tiempo de inicio del trabajo después de realizar la inspección previa.
 
-**Duración:** AM sugiere como Tiempo de Duración, la diferencia entre la F/H fin trabajos y la F/H inicio trabajos. Cabe anotar, que no siempre el Tiempo de  Duración  es  la  diferencia  entre  estas  fechas,  pues  pueden  existir   eventos  que interrumpen temporalmente la ejecución de la SS. AM  permite  corregir el tiempo de Duración en una SS, para que refleje el tiempo real de la  ejecución.  Este campo está conformado por tres subcampos: Días, Horas y Minutos. Tenga en cuenta que  el valor sugerido por  el Sistema debería ser modificado por  el  Responsable de  la  Solicitud de Servicio para ajustarlo al tiempo real, ya que en ocasiones la diferencia sugerida no es la real, suponga el caso en que el trabajo se suspende y luego se retoma.
 
-**F/H asignación:** Este campo es asignado automáticamente cuando se cambia el estado de la Solicitud de Servicio a ** “Asignada”**, aún así es posible modificarlo. Esta fecha y hora indican el momento en que se asignó un Responsable o Inspector que se hace cargo de la gestión de la Solicitud de Servicio.
+**F/H Fin Trabajo:**  Esta fecha y hora indica el momento en el que se concluyeron las labores de ejecución.
+
+
+**F/H Tentativa Entrega:** En este campo se selecciona la fecha y hora en la que el solicitante considera que el Servicio Solicitado puede ser oportuno. También, el área de Mantenimiento puede indicar una fecha y hora tentativa de entrega del servicio solicitado.
+
+**Duración:**  En este campo se calcula automáticamente el Tiempo de Duración, como la diferencia entre la F/H Fin Trabajo y la F/H Inicio Trabajo. Este campo está conformado por tres subcampos: Días, Horas y Minutos; y sólo son modificables a través de un permiso administrativo.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 **F/H inicio trabajos:** En este campo se define el tiempo de inicio del trabajo después de realizar la inspección previa.
 
