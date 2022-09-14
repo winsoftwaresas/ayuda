@@ -201,11 +201,9 @@ Cuando el Equipo o el  Activo,  Objeto  de  la  Solicitud  de  Servicio no puede
 
 **Duración:**  En este campo se calcula automáticamente el Tiempo de Duración, como la diferencia entre la F/H Fin Trabajo y la F/H Inicio Trabajo. Este campo está conformado por tres subcampos: Días, Horas y Minutos; y sólo son modificables a través de un permiso administrativo.
 
+**Comentarios:** Es un campo de texto en el que se explica brevemente en que consistió la ejecución de la Solicitud de Servicio, y se detallan aspectos interesantes en el curso de la ejecución de la misma. Además en este campo se puede registrar todo tipo de comentarios sobre el estado de la Solicitud, o sobre la negativa de ejecución a manera de argumentación y también sobre las razones que motivaron a generar una Órden de Trabajo desde ella para generar un control más amplio. Este es un campo importante en el seguimiento a la ejecución, que realiza permanentemente el solicitante. Una vez se escribe el comentario, se da clic en el botón <a class="btn gray">agregar comentario </a>, a continuación al lado derecho se muestra el comentario bloqueado, acompañado del nombre del usuario que hizo el comentario, fecha y hora en la que se hizo el comentario. Cada que se realice comentarios se irán adicionando de manera independiente, tipo chat. 
 
-
-
-
-
+**Ir a la Orden de Trabajo generada:** Cuando la Solicitud de Servicio es cerrada con OT, el sistema crea un vínculo directo a través de un link en color azul a la OT generada en el módulo de Órdenes. En la OT correspondiente también se crea un vínculo hacia la Solicitud de Servicio que le dio origen.
 
 
 
