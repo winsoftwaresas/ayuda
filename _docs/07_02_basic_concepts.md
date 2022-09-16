@@ -215,6 +215,10 @@ Se realiza a través de la pestaña **Evaluar Servicio** de la ventana Detalle, 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img06.png)
 _**Imagen 4.** Solicitudes - Evaluar Servicio_
 
+## Multimedia
+
+
+
 
 
 
