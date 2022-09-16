@@ -221,19 +221,20 @@ _**Imagen 4.** Solicitudes - Evaluar Servicio_
 _**Imagen 5.** Solicitudes - Multimedia_
 
 En la gráfica anterior, Ventana Multimedia, se aprecian sus componentes y sus respectivos contenidos.
-A través de la ventana Multimedia se adjunta información adicional a la SS en cada una de sus carpetas asignadas. Esta opción permite asociar a la OT uno o varios documentos, con el objetivo de facilitar o guiar el trabajo a realizar o detallarlo minuciosamente. AM acepta documentos de extensiones .DOC, XLS, PDF, JPG es decir, de Microsoft Word o Microsoft Excel, Acrobat o Imágenes.
+
+A través de la ventana Multimedia se adjunta información adicional a la SS en cada una de sus carpetas asignadas. Esta opción permite asociar a la SS uno o varios documentos, con el objetivo de facilitar o guiar el trabajo a realizar o detallarlo minuciosamente. AM acepta documentos de extensiones .DOC, XLS, PDF, JPG es decir, de Microsoft Word o Microsoft Excel, Acrobat o Imágenes. 
 
 Los documentos anexos pueden contener ayudas necesarias en la ejecución de la SS, planos, manuales técnicos, manuales de normas técnicas de Mantenimiento o de especificaciones detalladas, normas de seguridad, enfoques de acción, procedimientos sobre cómo realizar la labor, listas de verificación, protocolos de prueba u otra información estándar para su ejecución.
 
-A continuación se describen las carpetas que componen esta ventana; cuando se quiera actualizar o ingresar nueva información a la OT, se deberán registrar así:
+A continuación se describen las carpetas que componen esta ventana; cuando se quiera actualizar o ingresar nueva información a la SS, se deberán registrar así:
 
-**Que Hacer:** Es la información general que aparece en cada pestaña con los campos bloqueados para que el usuario visualice la información básica de la OT.
+**Que Hacer:** Es la información general que aparece en cada pestaña con los campos bloqueados para que el usuario visualice la información básica de la SS.
 
-**Documentos:** En esta carpeta se relaciona toda clase de documentación relacionada a la OT. Ejemplo: Archivos en Word, PDF, Excel, entre otros.
+**Documentos:** En esta carpeta se relaciona toda clase de documentación relacionada a la SS. Ejemplo: Archivos en Word, PDF, Excel, entre otros.
 
-**Imágenes:** En esta carpeta se relaciona toda clase de imágenes relacionadas a la OT. Ejemplo: Imágenes en formato JPG, PNG, entre otros.
+**Imágenes:** En esta carpeta se relaciona toda clase de imágenes relacionadas a la SS. Ejemplo: Imágenes en formato JPG, PNG, entre otros.
 
-**Videos:** En esta carpeta se relacionan porciones de videos relacionados a la OT. Ejemplo: Videos en formato wmv y mp4.
+**Videos:** En esta carpeta se relacionan porciones de videos relacionados a la SS. Ejemplo: Videos en formato wmv y mp4.
 
 Para adicionar un documento, imagen o video, se debe dar un doble clic sobre la carpeta deseada, y luego seleccionar del ícono de nube <span class="mdi mdi-cloud-upload icon white"></span>, como se muestra a continuación:
 
