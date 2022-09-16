@@ -183,7 +183,7 @@ Cuando el Equipo o el  Activo,  Objeto  de  la  Solicitud  de  Servicio no puede
 **T. Actividad:** Aquí se establece el Tipo de Actividad a realizar en la SS. La Actividad de Mantenimiento para una SS, se elige desde la tabla “Tipos de Actividad” en el módulo de “Infraestructura”. Este campo trabaja en coordinación con el anterior (Tipo de Mantenimiento). Si en el campo anterior se ha hecho la selección de un valor diferente de “Otro”, en el tipo de Actividad se debe seleccionar el valor “Mantto”, lo que indica que se trata de una actividad que constituye mantenimiento. Si en el campo anterior se ha seleccionado el valor “Otro”, en el campo Tipo de Actividad se debe seleccionar un valor que defina consistentemente la labor a ejecutar. 
 
 
-- *﻿*Cuánto Tiempo** 
+- **Cuánto Tiempo**
 
 **F/H Paro:** Se registra en este campo la fecha y hora en la que se presenta la Solicitud al Activo. Por defecto, se asigna automáticamente la F/H Creación cuando se trata de una SS tipo Correctivo.
 
