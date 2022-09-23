@@ -248,7 +248,7 @@ A continuación se abre el explorador de archivos, seguido de seleccionar el arc
 
 De manera adicional u opcional se puede escribir un nombre en el siguiente campo para enfatizar de lo que trata el archivo:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img24.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img10.png)
 ***Imagen 109.** Órdenes - Nombrar Archivo*
 
 Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic sobre el nombre de una de las imágenes, se muestra la previsualización, como se muestra a continuación:
