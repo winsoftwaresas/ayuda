@@ -251,6 +251,8 @@ De manera adicional u opcional se puede escribir un nombre en el siguiente campo
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img10.png)
 _**Imagen 8.** Solicitudes - Nombrar Archivo_
 
+P﻿ara finalizar se debe de dar un clic en el el botón <a class="btn  blue">subir Archivo</a>. El sistema confirma a través de un mensaje que se ha subido el archivo satisfactoriamente.
+
 Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic sobre el nombre de una de las imágenes, se muestra la previsualización, como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img11.png)
