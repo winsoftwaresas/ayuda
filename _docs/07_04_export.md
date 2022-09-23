@@ -1,9 +1,12 @@
 ---
-title:  Exportar
-subtitle: Este módulo permite la exportación de las Solicitudes de Servicio que aparecen en el visor, provenientes del subgrupo.
-tags: [setup]
+title: Servicios
+subtitle: Este módulo permite la exportación de las Solicitudes de Servicio que
+  aparecen en el visor, provenientes del subgrupo.
+tags:
+  - setup
 author: win
 order: 07_04
+date: 2022-09-23T21:38:59.625Z
 ---
 Este módulo permite la exportación de las Solicitudes de Servicio que aparecen en el visor, provenientes del subgrupo, a un  archivo tipo texto llamado OS01.TXT,  ubicado en la carpeta C:\TEMP de la estación cliente donde se realiza el proceso.
 
