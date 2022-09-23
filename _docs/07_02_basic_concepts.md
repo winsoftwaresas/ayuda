@@ -249,12 +249,12 @@ A continuación se abre el explorador de archivos, seguido de seleccionar el arc
 De manera adicional u opcional se puede escribir un nombre en el siguiente campo para enfatizar de lo que trata el archivo:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img10.png)
-***Imagen 8.** Órdenes - Nombrar Archivo*
+_**Imagen 8.** Órdenes - Nombrar Archivo_
 
 Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic sobre el nombre de una de las imágenes, se muestra la previsualización, como se muestra a continuación:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img25.png)
-***Imagen 109.** Órdenes - Previsualización de imagen*
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img11.png)
+***Imagen 9.** Órdenes - Previsualización de imagen*
 
 Para desasociar un documento, o una imagen o un video, a la OT se da clic al icono de basura <span class="mdi mdi-delete"></span> que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro, finalmente confirmar con el botón <a class="btn white">Aceptar</a>.
 
