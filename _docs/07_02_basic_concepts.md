@@ -264,3 +264,6 @@ Para desasociar un documento, o una imagen o un video, a la SS se da clic al ico
 _**Imagen 10.** Solicitudes - Desasociar un Archivo_
 
 Si se desea descargar un archivo adjunto a la SS, se debe dar clic en el ícono de nube con direccional hacia abajo <span class="mdi mdi-cloud-download icon white"></span> la nube con flecha hacia abajo que se encuentra al lado derecho del archivo que se quiere descargar.
+
+
+
