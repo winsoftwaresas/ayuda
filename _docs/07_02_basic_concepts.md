@@ -269,5 +269,7 @@ Si se desea descargar un archivo adjunto a la SS, se debe dar clic en el ícono 
 
 ## Indicadores
 
- 
+Es posible visualizar de manera inmediata, las SS con Multimedia, Servicio Evaluado y aquellas que tienen firma del servicio evualuado (Amóvil), directamente desde la ventana visor, a través del icono <span class="mdi mdi-message-alert"></span>. El significado del color de cada pelota, se puede ver en en este recuadro, ubicado en la parte superior derecha de la ventana visor. 
+
+
 
