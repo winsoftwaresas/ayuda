@@ -258,8 +258,8 @@ Los archivos que se van adicionando van quedando guardados uno debajo del otro y
 
 Para desasociar un documento, o una imagen o un video, a la OT se da clic al icono de basura <span class="mdi mdi-delete"></span> que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro, finalmente confirmar con el botón <a class="btn white">Aceptar</a>.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img26.png)
-***Imagen 110.** Órdenes - Desasociar un Archivo*
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img12.png)
+_**Imagen 10.** Órdenes - Desasociar un Archivo_
 
 Si se desea descargar un archivo adjunto a la OT, se debe dar clic en el ícono de nube con direccional hacia abajo <span class="mdi mdi-cloud-download icon white"></span> la nube con flecha hacia abajo que se encuentra al lado derecho del archivo que se quiere descargar.
 
