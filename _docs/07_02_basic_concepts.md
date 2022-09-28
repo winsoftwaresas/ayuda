@@ -280,7 +280,6 @@ El significado de los colores se visualiza al sobreponer el mouse en el icono qu
 
 - Azul: SS en estado Cerrada Ejecutada al que se le realizó la evaluación del Servicio. 
 
--﻿ Blanco: SS que tienen asociada la Firma de Recibido. (Aplica sólo para el aplicativo AMóvil).
+- Blanco: SS que tienen asociada la Firma de Recibido. (Aplica sólo para el aplicativo AMóvil). 
 
-
-
+## S﻿ubgrupo
