@@ -274,5 +274,13 @@ Es posible visualizar de manera inmediata, las SS con Multimedia, Servicio Evalu
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img13.png)
 _**Imagen 11.** Solicitudes - Indicadores_
 
+El significado de los colores se visualiza al sobreponer el mouse en el icono que se encuentra al extremo superior derecho y su correspondencia es: 
+
+- Naranja: SS que tienen asociados archivos de imágenes, videos y/o documentos en la pestaña Multimedia. 
+
+- Azul: SS en estado Cerrada Ejecutada al que se le realizó la evaluación del Servicio. 
+
+-﻿ Blanco: SS que tienen asociada la Firma de Recibido. (Aplica sólo para el aplicativo AMóvil).
+
 
 
