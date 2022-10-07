@@ -1,5 +1,26 @@
 # Changelog page source
 
+- title: AM4G  Version 0.84
+  label: STABLE
+  date: Agosto 29, 2022
+  list:
+  - Se adiciona en Amsi la Causa de Pendiente en el detalle de la Orden.
+  - Se adiciona Código de Barras Interno a la Grilla de Activos.
+  - Se adiciona la Opción de Número de Activo Fijo, a la búsqueda rápida en el módulo de Activos.
+  - Se adiciona la opción de Multimedia a la modificación masiva de Activos.
+  - Se adiciona el campo Comentarios al reporte PMP-PMP.
+  - Se adiciona la opción de Multimedia a la modificación masiva de Solicitudes.
+  - Se adiciona el modal de Colores de Estado (modulo solicitudes).
+  - Se cambia la ubicación de Seguimiento y Cierre en el detalle de las Ordenes, ahora los usuarios no deben cambiar de Submódulo para ver el seguimiento y cierre de la Orden ya que se integra esta ventana como una pestaña al detalle del modulo principal. 
+  - La modificación masiva de estados solo podrán realizarla los usuarios con permiso de Cierre especial.
+  - Se adiciona a las búsquedas por campos del activo las opciones de Marca y modelo.
+  - Se adiciona a las búsquedas por campos de la Orden las opciones de Indicadores (modulos Ordenes e Historia).
+  - Se desarrolla el reporte OTR-CORECC.
+  - Se cambia la ubicación de Seguimiento y Cierre en el detalle de las Historias.
+  - Se desarrolla el reporte HMR-EVAV.
+  - Se desarrolla el reporte HMU-G8CCA-ATT.
+  - Se desarrolla el Reporte HMR-ACF.
+
 - title: AM4G  Version 0.83
   label: STABLE
   date: Julio 7, 2022
