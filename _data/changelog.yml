@@ -1,5 +1,17 @@
 # Changelog page source
 
+- title: AM4G  Version 0.85
+  label: STABLE
+  date: Octubre 03, 2022
+  list:
+ - Se verifica funcionalidad para que solo los Usuarios que crean la solicitud de AMsi puedan hacer comentarios.
+ - Se permite ingresar valores negativos al Valor de contador al Inicio del Periodo.
+ - Se valida que el Activo/Equipo este en estado Activo antes de cambiar el estado de la SS a Cerrado con OT.
+ - Se desarrolla la función de exportación de datos de la grilla para el modulo de Paros.
+ - Se crea el submódulo Enviar a Historia Archivada.
+ - Se crea el submódulo vista Historia Archivada.
+ - Se desarrolla la función de exportación de datos de la grilla para el submodulo Historia Archivada.
+
 - title: AM4G  Version 0.84
   label: STABLE
   date: Agosto 29, 2022
