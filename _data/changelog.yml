@@ -4,7 +4,7 @@
   label: STABLE
   date: Octubre 03, 2022
   list:
- - Se verifica funcionalidad para que solo los Usuarios que crean la solicitud de AMsi puedan hacer comentarios.
+ - Se verifica la funcionalidad para que solo los Usuarios que crean la solicitud de AMsi puedan hacer comentarios.
  - Se permite ingresar valores negativos al Valor de contador al Inicio del Periodo.
  - Se valida que el Activo/Equipo este en estado Activo antes de cambiar el estado de la SS a Cerrado con OT.
  - Se desarrolla la función de exportación de datos de la grilla para el modulo de Paros.
