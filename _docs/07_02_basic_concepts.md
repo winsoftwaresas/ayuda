@@ -284,7 +284,7 @@ El significado de los colores se visualiza al sobreponer el mouse en el icono qu
 
 ## S﻿emaforización
 
-En la  ventana Visor en la columna  Estado,  se  define  una  semaforización  de  las Solicitudes de Servicio. La finalidad de esta columna es mostrar de manera  gráfica el estado de la Solicitud de Servicio. En el icono de la parte superior de la ventana Visor <span class="mdi mdi-image-multiple"></span> , se encuentra una tabla donde se define el significado de cada color que se presenta en dicha columna, como se muestra a continuación:
+En la  ventana Visor en la columna  Estado,  se  define  una  semaforización  de  las Solicitudes de Servicio. La finalidad de esta columna es mostrar de manera gráfica el estado de la Solicitud de Servicio. En el icono de la parte superior de la ventana Visor <span class="mdi mdi-image-multiple"></span>, se encuentra una tabla donde se define el significado de cada color que se presenta en dicha columna, como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img14.png)
 _**Imagen 11.** Solicitudes - Semaforización_
