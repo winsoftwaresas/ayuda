@@ -289,4 +289,5 @@ En la  ventana Visor en la columna  Estado,  se  define  una  semaforización  d
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img14.png)
 _**Imagen 11.** Solicitudes - Semaforización_
 
+## S﻿ubgrupos 
 
