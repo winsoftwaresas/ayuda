@@ -252,7 +252,7 @@ De manera adicional u opcional se puede escribir un nombre en el siguiente campo
 _**Imagen 8.** Solicitudes - Nombrar Archivo_
 
 P﻿ara finalizar se debe de dar un clic en el el botón <a class="btn  blue">subir Archivo</a>. El sistema confirma a través de un mensaje que se ha subido el archivo satisfactoriamente.
-
+ ﻿
 Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic sobre el nombre de una de las imágenes, se muestra la previsualización, como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img11.png)
@@ -276,10 +276,10 @@ _**Imagen 11.** Solicitudes - Indicadores_
 
 El significado de los colores se visualiza al sobreponer el mouse en el icono que se encuentra al extremo superior derecho y su correspondencia es: 
 
-- Naranja: SS que tienen asociados archivos de imágenes, videos y/o documentos en la pestaña Multimedia. 
+- **Naranja:** SS que tienen asociados archivos de imágenes, videos y/o documentos en la pestaña Multimedia. 
 
-- Azul: SS en estado Cerrada Ejecutada al que se le realizó la evaluación del Servicio. 
+- **Azul:** SS en estado Cerrada Ejecutada al que se le realizó la evaluación del Servicio. 
 
-- Blanco: SS que tienen asociada la Firma de Recibido. (Aplica sólo para el aplicativo AMóvil). 
+- **Blanco:** SS que tienen asociada la Firma de Recibido. (Aplica sólo para el aplicativo AMóvil). 
 
 ## S﻿ubgrupo
