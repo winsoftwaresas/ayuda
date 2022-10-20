@@ -391,3 +391,4 @@ A esta opción se llega al sobreponer el cursor sobre el módulo de Solicitudes 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img17.png)
 _**Imagen 14.** Solicitudes - Ir a Modificación Masiva_
+
