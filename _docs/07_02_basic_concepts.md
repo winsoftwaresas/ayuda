@@ -392,5 +392,7 @@ A esta opción se llega al sobreponer el cursor sobre el módulo de Solicitudes 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img17.png)
 _**Imagen 14.** Solicitudes - Ir a Modificación Masiva_
 
+Esta transacción permite cambiar masivamente el Centro de Costos, Ubicación Física, Responsable, Centro Responsable y adjuntar documentos de un Subgrupo.
 
-
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img18.png)
+_**Imagen 15.** Solicitudes - Visor Modificación Masiva_
