@@ -366,4 +366,6 @@ se encuentren incluidas en el rango especificado en este campo, si no se especif
 
 **Rango Consecutivo de Solicitud:** Permite la selección de las SS cuyo número consecutivo se encuentre incluido dentro del rango especificado en este criterio. Aparecen dos campos: Desde y Hasta. En cada uno de ellos se digita un número consecutivo de solicitud. De no digitar el campo “Desde”, se buscan las SS cuyo número de consecutivo esté en el lapso anterior a los consecutivos digitados en “Hasta”. De no digitar el campo “Hasta”, se buscan las SS cuyo número de consecutivo esté en un lapso posterior a los consecutivos digitados en “Desde”. Si no se especifica uno de los 2 campos, el sistema establece un rango abierto para este consecutivo, es decir, si se especifica el campo “Desde”, pero no se especifica el campo “Hasta”, el sistema utiliza como “Hasta” el número de consecutivo actual.
 
+**Responsable:** Permite la selección de SS cuyo Responsable fue especificado en este campo. Existen dos formas de definir el Responsable. La primera es seleccionando el Responsable de la lista desplegable. La segunda es dando clic al icono <span class="mdi mdi-lock"></span> el cual hace posible usar comodines (%) una vez el campo se muestre disponible <span class="mdi mdi-lock-open-outline"></span>.  
+
 
