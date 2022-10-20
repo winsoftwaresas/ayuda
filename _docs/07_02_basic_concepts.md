@@ -350,3 +350,6 @@ El programa permite entonces hacer selección de un grupo de Solicitudes de acue
 **Estado de la Solicitud:**  Este criterio agrupa las SS de acuerdo a un Estado. Al descolgar aparece el listado de todos los Estados posibles para buscar un registro de SS.
 
 **FF de Cierre:** Permite la selección de SS cuya fecha de Cierre se encuentren incluidas en el rango especificado en este campo, si no se especifica una de las 2 fechas, el sistema establece un rango abierto para esta fecha, es decir, si se especifica la “fecha desde”, pero no no se especifica la “fecha hasta”, el sistema utiliza como “fecha hasta” la fecha actual.
+
+**FF de Creación:** Permite la selección de SS cuya fecha de Creación se encuentren incluidas en el rango especificado en este campo, si no se especifica una de las 2 fechas, el sistema establece un rango abierto para esta fecha, es decir, si se especifica la “fecha desde”, pero no se especifica la “fecha hasta”, el sistema utiliza como “fecha hasta” la fecha actual.
+
