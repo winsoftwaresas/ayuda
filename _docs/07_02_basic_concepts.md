@@ -381,3 +381,13 @@ se encuentren incluidas en el rango especificado en este campo, si no se especif
 **Tipo de Trabajo:** Agrupa las SS de acuerdo al Tipo de Trabajo al que están asociadas. Es posible filtrar los registros que tienen uno o varios tipos de trabajo.
 
 **Días Vencimiento:** Permite la selección de las Solicitudes de Servicio cuyos días de vencimiento apliquen al criterio definido. Al seleccionar esta opción se habilita una lista despegable donde se escoge el criterio deseado, junto con un cuadro donde se digita el valor de comparación. Los criterios son: Igual (=), Mayor (>) y Menor (<). Estos criterios actúan en comparación con el valor digitado en la casilla que se activa al lado del operador aritmético.
+
+
+# T﻿ransacciones
+
+## Modificar Masivamente
+
+A esta opción se llega al sobreponer el cursor sobre el módulo de Solicitudes y en la parte inferior se despliega el conjunto de transacciones disponibles para el módulo de Solicitudes, según los permisos Administrativos, se da clic en la opción <a class="btn white">Modificar masivamente</a>.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img17.png)
+_**Imagen 14.** Solicitudes - Ir a Modificación Masiva_
