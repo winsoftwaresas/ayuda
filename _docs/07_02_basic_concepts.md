@@ -380,3 +380,4 @@ se encuentren incluidas en el rango especificado en este campo, si no se especif
 
 **Tipo de Trabajo:** Agrupa las SS de acuerdo al Tipo de Trabajo al que están asociadas. Es posible filtrar los registros que tienen uno o varios tipos de trabajo.
 
+**Días Vencimiento:** Permite la selección de las Solicitudes de Servicio cuyos días de vencimiento apliquen al criterio definido. Al seleccionar esta opción se habilita una lista despegable donde se escoge el criterio deseado, junto con un cuadro donde se digita el valor de comparación. Los criterios son: Igual (=), Mayor (>) y Menor (<). Estos criterios actúan en comparación con el valor digitado en la casilla que se activa al lado del operador aritmético.
