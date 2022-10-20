@@ -368,4 +368,4 @@ se encuentren incluidas en el rango especificado en este campo, si no se especif
 
 **Responsable:** Permite la selección de SS cuyo Responsable fue especificado en este campo. Existen dos formas de definir el Responsable. La primera es seleccionando el Responsable de la lista desplegable. La segunda es dando clic al icono <span class="mdi mdi-lock"></span> el cual hace posible usar comodines (%) una vez el campo se muestre disponible <span class="mdi mdi-lock-open-outline"></span>.  
 
-
+**Comentarios:** Es posible buscar las SS que tengan parte de los comentarios digitados en el campo, es posible usar comodines (%).
