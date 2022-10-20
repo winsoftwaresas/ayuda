@@ -306,6 +306,8 @@ Cada criterio aparece inicializado en un valor global que permite mostrar todas 
 
 **AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar.  Cada criterio trabaja en conjunto con los demás, con el operador intersección.
 
+El programa permite entonces hacer selección de un grupo de Solicitudes de acuerdo con los siguientes criterios que se explican a continuación:
+
 
 
 
