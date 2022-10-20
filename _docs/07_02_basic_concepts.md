@@ -297,5 +297,15 @@ Se usa para seleccionar grupos de Solicitudes de Servicio que cumplen con un con
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img15.png)
 _**Imagen 12.** Solicitudes - Ir a Subgrupos_
 
+En la ventana Subgrupo de Solicitudes se visualizan los siguientes criterios: 
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img16.png)
+_**Imagen 13.** Solicitudes - Ir a Subgrupos_
+
+Cada criterio aparece inicializado en un valor global que permite mostrar todas las Solicitudes de Servicios. Lo que significa que de no escoger un criterio se obtiene como resultado del subgrupo el mismo conjunto completo de todas las Solicitudes de Servicio.
+
+**AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar.  Cada criterio trabaja en conjunto con los demás, con el operador intersección.
+
+
 
 
