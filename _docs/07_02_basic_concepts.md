@@ -335,5 +335,7 @@ El programa permite entonces hacer selección de un grupo de Solicitudes de acue
 **AC-Ubicación Física:** Permite la selección de las SS cuyo Activo se encuentre en una Ubicación Física determinada. Existen dos formas de definir la Ubicación Física del Activo. La primera es seleccionando la Ubicación Física de la lista desplegable. La segunda es dando clic al icono <span class="mdi mdi-lock"></span> el cual hace posible usar comodines (%) una vez el campo se muestre disponible <span class="mdi mdi-lock-open-outline"></span>. Cuando se utilizan comodines, es posible seleccionar SS cuyo Activo esté en una Ubicación Física que tenga parte del nombre igual. Por ejemplo: Cava% selecciona las SS a Activos cuya Ubicación Física empieza por la palabra Cava, independientemente de si se está hablando de la Cava de Fermentación, Maduración o Contrapresión.
 
 
-**AC-Tipo:** Selecciona las Solicitudes de Servicio asociados a los Activos que se encuentran asociados al tipo ingresado por el usuario.
+**AC-Tipo:** Selecciona las SS asociados a los Activos que se encuentran asociados al tipo ingresado por el usuario.
+
+
 
