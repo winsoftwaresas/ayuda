@@ -290,6 +290,112 @@ En la  ventana Visor en la columna  Estado,  se  define  una  semaforización  d
 _**Imagen 11.** Solicitudes - Semaforización_
 
 
+## Subgrupos
+
+Se usa para seleccionar grupos de Solicitudes de Servicio que cumplen con un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al icono de filtro <span class="mdi mdi-filter-variant"></span> ubicado en la parte superior derecha de la ventana Visor de Solicitudes de Servicio. 
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img15.png)
+_**Imagen 12.** Solicitudes - Ir a Subgrupos_
+
+En la ventana Subgrupo de Solicitudes se visualizan los siguientes criterios: 
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img16.png)
+_**Imagen 13.** Solicitudes - Ir a Subgrupos_
+
+Cada criterio aparece inicializado en un valor global que permite mostrar todas las Solicitudes de Servicios. Lo que significa que de no escoger un criterio se obtiene como resultado del subgrupo el mismo conjunto completo de todas las Solicitudes de Servicio.
+
+**AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar.  Cada criterio trabaja en conjunto con los demás, con el operador intersección.
+
+El programa permite entonces hacer selección de un grupo de Solicitudes de acuerdo con los siguientes criterios que se explican a continuación:
+
+
+**FILTRAR POR CAMPOS DEL ACTIVO ASOCIADO A LA SOLICITUD DE SERVICIO**
+
+**AC - Alias:** Este campo preselecciona las SS para los Activos cuyo Alias corresponda a los valores aquí definidos. En este campo se pueden utilizar los comodines (%).
+
+**AC – Cód. de Barras Int.:** Permite seleccionar las SS que se encuentran asociadas al Activo que se encuentre con el Código de Barras Interno asociado al Activo que posee una SS.
+
+**AC – Cód. de Barras Prov.:** Permite seleccionar las SS asociadas a un Activo que se encuentre ligado al Código de Barras del Proveedor que se ingresó al crear el Activo.
+
+**AC – Código:** Esta selección agrupa las SS cuyos Activos/Equipos coincidan con el relacionado en este criterio. Es posible definir el código completo o una porción del mismo. Por ejemplo: si se escribe 341%, se seleccionan todas las Solicitudes de Servicio cuyo código de Activo/Equipos inicia por 341. Si se escribe %1 se seleccionan todos los Solicitudes de Servicio cuyo código de Activo finaliza en un “1”. El porcentaje (%) es un carácter comodín que significa “todos”. También, es posible seleccionar el Activo a través del visor de Equipo/Activos. Para ello se da un clic sobre el icono de filtro <span class="mdi mdi-filter-variant icon white"></span> el cual abre el visor de Activos el cual contiene el subgrupo <span class="mdi mdi-filter-variant"></span> para hacer búsquedas rápidas. Una vez se encuentre el registro, para seleccionarlo se debe un doble clic o sobre el botón <a class="btn white">Aceptar</a> ubicado en la parte superior izquierda.     
+
+**AC-Descripción:** Selecciona las SS asociados a los Activos según criterios que se fundamenten en su descripción. Ejemplo: %Motor% selecciona todos los Activos, en cuya descripción, en cualquier posición, tengan la palabra “Motor”.
+
+**AC-Estado:** Este filtro permite seleccionar las SS de acuerdo con el estado del Activo u Objeto de Mantenimiento. Así que se pueden filtrar las SS para las cuales el Activo correspondiente está activo o inactivo.
+
+
+**AC-Número Activo Fijo:** Este campo preselecciona las SS para el o los Activos cuyo Número de Activo corresponde a los valores definidos. En este campo se pueden utilizar los comodines (%).
+
+
+**AC-Referencia:** Este filtro permite seleccionar las SS de acuerdo con su número de Referencia Externa del Proveedor.
+
+**AC-Serial:** Esta alternativa permite seleccionar las SS de acuerdo con el número serial del Activo objeto de mantenimiento. El campo acepta comodines (%).
+
+
+**AC-Ubicación Física:** Permite la selección de las SS cuyo Activo se encuentre en una Ubicación Física determinada. Existen dos formas de definir la Ubicación Física del Activo. La primera es seleccionando la Ubicación Física de la lista desplegable. La segunda es dando clic al icono <span class="mdi mdi-lock"></span> el cual hace posible usar comodines (%) una vez el campo se muestre disponible <span class="mdi mdi-lock-open-outline"></span>. Cuando se utilizan comodines, es posible seleccionar SS cuyo Activo esté en una Ubicación Física que tenga parte del nombre igual. Por ejemplo: Cava% selecciona las SS a Activos cuya Ubicación Física empieza por la palabra Cava, independientemente de si se está hablando de la Cava de Fermentación, Maduración o Contrapresión.
+
+
+**AC-Tipo:** Selecciona las SS asociados a los Activos que se encuentran asociados al tipo ingresado por el usuario.
+
+**FILTRAR POR CAMPOS DE LA SOLICITUD DE SERVICIO**
+
+**Causa de Falla:** El sistema busca todas las SS que tengan registrada la Falla registrada. Existen dos formas de definirla. La primera es seleccionandola de la lista desplegable. La segunda es dando clic al icono <span class="mdi mdi-lock"></span> el cual hace posible usar comodines (%) una vez el campo se muestre disponible <span class="mdi mdi-lock-open-outline"></span>. Cuando se utilizan comodines, es posible seleccionar SS cuya parte del nombre de la Causa esté definida.
+ 
+**Centro de Costo:** Permite la selección de SS de acuerdo con el Centro de Costo definido en el registro. Existen dos formas de definirlo. La primera es seleccionandolo de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span> el cual hace posible usar comodines (%) una vez el campo se muestre disponible <span class="mdi mdi-lock-open-outline"></span>.  Cuando se utilizan comodines, es posible seleccionar las SS asociadas a los Centros de Costo que tengan parte del nombre igual. Por ejemplo: Sistema% selecciona todas las Solicitudes de Servicio en cuyo Centro de Costo exista la palabra Sistema, independiente de si se está hablando del Sistema de Agua, de Vapor o de Energía.
+
+**Centro responsable:** Agrupa las SS cuyo Centro Responsable sea el seleccionado. Existen dos formas de definirlo. La primera es seleccionandolo de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span> el cual hace posible usar comodines (%) una vez el campo se muestre disponible <span class="mdi mdi-lock-open-outline"></span>.  
+
+**Diagnóstico:** En este campo se debe ingresar manualmente el diagnóstico de la Solicitud de Servicio que se desea buscar. Es posible utilizar la funcionalidad de comodines (%).
+
+**Estado de la Solicitud:**  Este criterio agrupa las SS de acuerdo a un Estado. Al descolgar aparece el listado de todos los Estados posibles para buscar un registro de SS.
+
+**FF de Cierre:** Permite la selección de SS cuya fecha de Cierre se encuentren incluidas en el rango especificado en este campo, si no se especifica una de las 2 fechas, el sistema establece un rango abierto para esta fecha, es decir, si se especifica la “fecha desde”, pero no no se especifica la “fecha hasta”, el sistema utiliza como “fecha hasta” la fecha actual.
+
+**FF de Creación:** Permite la selección de SS cuya fecha de Creación se encuentren incluidas en el rango especificado en este campo, si no se especifica una de las 2 fechas, el sistema establece un rango abierto para esta fecha, es decir, si se especifica la “fecha desde”, pero no se especifica la “fecha hasta”, el sistema utiliza como “fecha hasta” la fecha actual.
+
+**FF de Atención:** Permite la selección de SS cuya fechas de Atención
+se encuentren incluidas en el rango especificado en este campo, si no se especifica una de las 2 fechas, el sistema establece un rango abierto para esta fecha, es decir, si se especifica la “fecha desde”, pero no se especifica la “fecha hasta”, el sistema utiliza como “fecha hasta” la fecha actual.
+
+**FF de FDA:** Este campo preselecciona las SS cuya fecha de Falla, Daño o Avería (F/H Paro) se encuentre en el rango especificado, si no se especifica una de las 2 fechas, el sistema establece un rango abierto para esta fecha, es decir, si se especifica la “fecha desde”, pero no se especifica la “fecha hasta”, el sistema utiliza como “fecha hasta” la fecha actual.
+
+**FF Fin de Trabajo:** Este criterio filtra las SS por un rango de la Fecha de Fin de Trabajos. Aparecen dos campos: Desde y Hasta. En cada uno de ellos se digita una fecha. De no digitar el campo “Desde”, se buscan las Solicitudes de Servicio cuya fecha de fin de trabajos esté en el lapso anterior a la fecha digitada en “Hasta”. De no digitar el campo “Hasta”, se buscan las SS cuya fecha de fin de trabajos esté en un lapso posterior a la digitada en “Desde”. Si no se especifica una de las 2 fechas, el sistema establece un rango abierto para esta fecha, es decir, si se especifica la “fecha desde”, pero no se especifica la “fecha hasta”, el sistema utiliza como “fecha hasta” la fecha actual.
+
+**FF Inicio de Trabajo:** Este criterio filtra las SS por un rango de la Fecha de Inicio de Trabajos. Aparecen dos campos: Desde y Hasta. En cada uno de ellos se digita una fecha. De no digitar el campo “Desde”, se buscan las SS cuya fecha de inicio de trabajos esté en el lapso anterior a la fecha digitada en “Hasta”. De no digitar el campo “Hasta”, se buscan las SS cuya fecha de inicio de trabajos esté en un lapso posterior a la digitada en “Desde”. Si no se especifica una de las 2 fechas, el sistema establece un rango abierto para esta fecha, es decir, si se especifica la “fecha desde”, pero no se especifica la “fecha hasta”, el sistema utiliza como “fecha hasta” la fecha actual.
+
+**Prioridad:** Este criterio filtra las SS según la Prioridad seleccionada por el usuario en la lista desplegable.
+
+**Rango Consecutivo de Solicitud:** Permite la selección de las SS cuyo número consecutivo se encuentre incluido dentro del rango especificado en este criterio. Aparecen dos campos: Desde y Hasta. En cada uno de ellos se digita un número consecutivo de solicitud. De no digitar el campo “Desde”, se buscan las SS cuyo número de consecutivo esté en el lapso anterior a los consecutivos digitados en “Hasta”. De no digitar el campo “Hasta”, se buscan las SS cuyo número de consecutivo esté en un lapso posterior a los consecutivos digitados en “Desde”. Si no se especifica uno de los 2 campos, el sistema establece un rango abierto para este consecutivo, es decir, si se especifica el campo “Desde”, pero no se especifica el campo “Hasta”, el sistema utiliza como “Hasta” el número de consecutivo actual.
+
+**Responsable:** Permite la selección de SS cuyo Responsable fue especificado en este campo. Existen dos formas de definir el Responsable. La primera es seleccionando el Responsable de la lista desplegable. La segunda es dando clic al icono <span class="mdi mdi-lock"></span> el cual hace posible usar comodines (%) una vez el campo se muestre disponible <span class="mdi mdi-lock-open-outline"></span>.  
+
+**Comentarios:** Es posible buscar las SS que tengan parte de los comentarios digitados en el campo, es posible usar comodines (%).
+
+**Solicitante (Digitado manualmente):** Agrupa las SS cuyo solicitante fue especificado manualmente en este campo. Es posible usar comodines (%).
+
+**Solicitante (Incluido en TE - Tipo RI):** Este campo permite seleccionar las SS activas para el o los Solicitantes aquí definidos. Existen dos formas de definir el Solicitante o grupo de Solicitantes. La primera es seleccionando el solicitante de la lista desplegable. La segunda es dando clic al icono <span class="mdi mdi-lock"></span> el cual hace posible usar comodines (%) una vez el campo se muestre disponible <span class="mdi mdi-lock-open-outline"></span>.
+
+**Tipo de Actividad:** Filtra las SS por el Tipo de Actividad que aquí se selecciona. Este campo depende del siguiente campo. Una vez que se define Tipo de Mantenimiento, se puede elegir el Tipo de Actividad de las dos siguientes formas: la primera es es seleccionandola del campo desplegable. La segunda es dando clic al icono <span class="mdi mdi-lock"></span> el cual hace posible usar comodines (%) una vez el campo se muestre disponible <span class="mdi mdi-lock-open-outline"></span>.
+
+**Tipo de Mantenimiento:** Filtra las SS por el Tipo de Mantenimiento elegido de la lista desplegable.
+
+**Tipo de Trabajo:** Agrupa las SS de acuerdo al Tipo de Trabajo al que están asociadas. Es posible filtrar los registros que tienen uno o varios tipos de trabajo.
+
+**Días Vencimiento:** Permite la selección de las Solicitudes de Servicio cuyos días de vencimiento apliquen al criterio definido. Al seleccionar esta opción se habilita una lista despegable donde se escoge el criterio deseado, junto con un cuadro donde se digita el valor de comparación. Los criterios son: Igual (=), Mayor (>) y Menor (<). Estos criterios actúan en comparación con el valor digitado en la casilla que se activa al lado del operador aritmético.
+
+>**Nota:** Cuando se usa algún criterio del Subgrupo este icono denota una pelota de rojo rojo para que indicar que lo se visualiza en el visor es un subjunto de datos. En la parte inferior *﻿*Registros por página* en la fracción N/M, el numerador varía según M que indica el total de registros.
 
 
 
+# T﻿ransacciones
+
+## Modificar Masivamente
+
+A esta opción se llega al sobreponer el cursor sobre el módulo de Solicitudes y en la parte inferior se despliega el conjunto de transacciones disponibles para el módulo de Solicitudes, según los permisos Administrativos, se da clic en la opción <a class="btn white">Modificar masivamente</a>.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img17.png)
+_**Imagen 14.** Solicitudes - Ir a Modificación Masiva_
+
+Esta transacción permite cambiar masivamente el Centro de Costos, Ubicación Física, Responsable, Centro Responsable y adjuntar documentos de un Subgrupo.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img18.png)
+_**Imagen 15.** Solicitudes - Visor Modificación Masiva_
