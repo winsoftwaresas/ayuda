@@ -370,3 +370,5 @@ se encuentren incluidas en el rango especificado en este campo, si no se especif
 
 **Comentarios:** Es posible buscar las SS que tengan parte de los comentarios digitados en el campo, es posible usar comodines (%).
 
+**Solicitante (Digitado manualmente):** Agrupa las SS cuyo solicitante fue especificado manualmente en este campo. Es posible usar comodines (%).
+
