@@ -324,7 +324,9 @@ El programa permite entonces hacer selección de un grupo de Solicitudes de acue
 **AC-Estado:** Este filtro permite seleccionar las SS de acuerdo con el estado del Activo u Objeto de Mantenimiento. Así que se pueden filtrar las SS para las cuales el Activo correspondiente está activo o inactivo.
 
 
-**AC-Número Activo Fijo:** Este campo preselecciona las SS para el o los Activos cuyo Número de Activo corresponde a los valores aquí definidos. En este campo se pueden utilizar los comodines.
+**AC-Número Activo Fijo:** Este campo preselecciona las SS para el o los Activos cuyo Número de Activo corresponde a los valores definidos. En este campo se pueden utilizar los comodines (%).
 
 
-**AC-Referencia:** Este filtro permite seleccionar las SS de acuerdo con su número de Referencia
+**AC-Referencia:** Este filtro permite seleccionar las SS de acuerdo con su número de Referencia Externa del Proveedor.
+
+
