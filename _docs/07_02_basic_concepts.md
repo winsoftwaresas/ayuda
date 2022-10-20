@@ -309,5 +309,7 @@ Cada criterio aparece inicializado en un valor global que permite mostrar todas 
 El programa permite entonces hacer selección de un grupo de Solicitudes de acuerdo con los siguientes criterios que se explican a continuación:
 
 
+**FILTRAR POR CAMPOS DEL ACTIVO ASOCIADO A LA SOLICITUD DE SERVICIO**
 
+**AC - Alias:** Este campo preselecciona las Solicitudes de Servicio para los Activos cuyo Alias corresponda a los valores aquí definidos. En este campo se pueden utilizar los comodines.
 
