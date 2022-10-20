@@ -337,5 +337,7 @@ El programa permite entonces hacer selección de un grupo de Solicitudes de acue
 
 **AC-Tipo:** Selecciona las SS asociados a los Activos que se encuentran asociados al tipo ingresado por el usuario.
 
+**FILTRAR POR CAMPOS DE LA SOLICITUD DE SERVICIO**
+
 
 
