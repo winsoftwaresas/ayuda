@@ -290,6 +290,6 @@ En la  ventana Visor en la columna  Estado,  se  define  una  semaforización  d
 _**Imagen 11.** Solicitudes - Semaforización_
 
 
-
+## Subgrupos
 
 
