@@ -292,7 +292,7 @@ _**Imagen 11.** Solicitudes - Semaforización_
 
 ## Subgrupos
 
-Se usa para seleccionar grupos de Solicitudes de Servicio que cumplen con un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al icono de filtro <span class="mdi mdi-filter-variant"></span> ubicado en la parte superior derecha de la ventana Visor de Solicitudes de Servicio.
+Se usa para seleccionar grupos de Solicitudes de Servicio que cumplen con un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al icono de filtro <span class="mdi mdi-filter-variant"></span> ubicado en la parte superior derecha de la ventana Visor de Solicitudes de Servicio. 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img15.png)
 _**Imagen 12.** Solicitudes - Ir a Subgrupos_
@@ -381,6 +381,9 @@ se encuentren incluidas en el rango especificado en este campo, si no se especif
 **Tipo de Trabajo:** Agrupa las SS de acuerdo al Tipo de Trabajo al que están asociadas. Es posible filtrar los registros que tienen uno o varios tipos de trabajo.
 
 **Días Vencimiento:** Permite la selección de las Solicitudes de Servicio cuyos días de vencimiento apliquen al criterio definido. Al seleccionar esta opción se habilita una lista despegable donde se escoge el criterio deseado, junto con un cuadro donde se digita el valor de comparación. Los criterios son: Igual (=), Mayor (>) y Menor (<). Estos criterios actúan en comparación con el valor digitado en la casilla que se activa al lado del operador aritmético.
+
+>**Nota:** Cuando se usa algún criterio del Subgrupo este icono denota una pelota de rojo rojo para que indicar que lo se visualiza en el visor es un subjunto de datos. En la parte inferior *﻿*Registros por página* en la fracción N/M, el numerador varía según M que indica el total de registros.
+
 
 
 # T﻿ransacciones
