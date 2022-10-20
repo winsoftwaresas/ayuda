@@ -372,3 +372,4 @@ se encuentren incluidas en el rango especificado en este campo, si no se especif
 
 **Solicitante (Digitado manualmente):** Agrupa las SS cuyo solicitante fue especificado manualmente en este campo. Es posible usar comodines (%).
 
+**Solicitante (Incluido en TE - Tipo RI):** Este campo permite seleccionar las SS activas para el o los Solicitantes aquí definidos. Existen dos formas de definir el Solicitante o grupo de Solicitantes. La primera es seleccionando el solicitante de la lista desplegable. La segunda es dando clic al icono <span class="mdi mdi-lock"></span> el cual hace posible usar comodines (%) una vez el campo se muestre disponible <span class="mdi mdi-lock-open-outline"></span>.
