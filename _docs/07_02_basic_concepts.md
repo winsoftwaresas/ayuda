@@ -343,4 +343,8 @@ El programa permite entonces hacer selección de un grupo de Solicitudes de acue
  
 **Centro de Costo:** Permite la selección de SS de acuerdo con el Centro de Costo definido en el registro. Existen dos formas de definirlo. La primera es seleccionandolo de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span> el cual hace posible usar comodines (%) una vez el campo se muestre disponible <span class="mdi mdi-lock-open-outline"></span>.  Cuando se utilizan comodines, es posible seleccionar las SS asociadas a los Centros de Costo que tengan parte del nombre igual. Por ejemplo: Sistema% selecciona todas las Solicitudes de Servicio en cuyo Centro de Costo exista la palabra Sistema, independiente de si se está hablando del Sistema de Agua, de Vapor o de Energía.
 
-**Centro responsable:** Agrupa las SS  cuyo Centro Responsable sea el seleccionado. Existen dos formas de definirlo. La primera es seleccionandolo de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span> el cual hace posible usar comodines (%) una vez el campo se muestre disponible <span class="mdi mdi-lock-open-outline"></span>.  
+**Centro responsable:** Agrupa las SS cuyo Centro Responsable sea el seleccionado. Existen dos formas de definirlo. La primera es seleccionandolo de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span> el cual hace posible usar comodines (%) una vez el campo se muestre disponible <span class="mdi mdi-lock-open-outline"></span>.  
+
+**Diagnóstico:** En este campo se debe ingresar manualmente el diagnóstico de la Solicitud de Servicio que se desea buscar. Es posible utilizar la funcionalidad de comodines (%).
+
+**Estado de la Solicitud:**  Este criterio agrupa las SS de acuerdo a un Estado. Al descolgar aparece el listado de todos los Estados posibles para buscar un registro de SS.
