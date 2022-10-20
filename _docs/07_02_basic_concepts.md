@@ -321,7 +321,7 @@ El programa permite entonces hacer selección de un grupo de Solicitudes de acue
 
 **AC-Descripción:** Selecciona las SS asociados a los Activos según criterios que se fundamenten en su descripción. Ejemplo: %Motor% selecciona todos los Activos, en cuya descripción, en cualquier posición, tengan la palabra “Motor”.
 
-**AC-Estado:** Este filtro permite seleccionar las SS de acuerdo con el Estado del Activo u Objeto de Mantenimiento. Así que se pueden filtrar las SS para los cuales el AC correspondiente está activo o inactivo.
+**AC-Estado:** Este filtro permite seleccionar las SS de acuerdo con el estado del Activo u Objeto de Mantenimiento. Así que se pueden filtrar las SS para las cuales el Activo correspondiente está activo o inactivo.
 
 
 **AC-Número Activo Fijo:** Este campo preselecciona las SS para el o los Activos cuyo Número de Activo corresponde a los valores aquí definidos. En este campo se pueden utilizar los comodines.
