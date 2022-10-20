@@ -364,4 +364,6 @@ se encuentren incluidas en el rango especificado en este campo, si no se especif
 
 **Prioridad:** Este criterio filtra las SS según la Prioridad seleccionada por el usuario en la lista desplegable.
 
+**Rango Consecutivo de Solicitud:** Permite la selección de las SS cuyo número consecutivo se encuentre incluido dentro del rango especificado en este criterio. Aparecen dos campos: Desde y Hasta. En cada uno de ellos se digita un número consecutivo de solicitud. De no digitar el campo “Desde”, se buscan las SS cuyo número de consecutivo esté en el lapso anterior a los consecutivos digitados en “Hasta”. De no digitar el campo “Hasta”, se buscan las SS cuyo número de consecutivo esté en un lapso posterior a los consecutivos digitados en “Desde”. Si no se especifica uno de los 2 campos, el sistema establece un rango abierto para este consecutivo, es decir, si se especifica el campo “Desde”, pero no se especifica el campo “Hasta”, el sistema utiliza como “Hasta” el número de consecutivo actual.
+
 
