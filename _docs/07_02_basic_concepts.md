@@ -378,3 +378,5 @@ se encuentren incluidas en el rango especificado en este campo, si no se especif
 
 **Tipo de Mantenimiento:** Filtra las SS por el Tipo de Mantenimiento elegido de la lista desplegable.
 
+**Tipo de Trabajo:** Agrupa las SS de acuerdo al Tipo de Trabajo al que están asociadas. Es posible filtrar los registros que tienen uno o varios tipos de trabajo.
+
