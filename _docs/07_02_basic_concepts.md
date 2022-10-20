@@ -317,8 +317,14 @@ El programa permite entonces hacer selección de un grupo de Solicitudes de acue
 
 **AC – Cód. de Barras Prov.:** Permite seleccionar las Solicitudes de Servicio asociadas a un Activo que se encuentre ligado al Código de Barras del Proveedor que se ingresó al crear el Activo.
 
-**AC – Código:** Esta selección agrupa las Solicitudes de Servicio cuyos Activos/Equipos coincidan con el relacionado en este criterio. Es posible definir el código completo o una porción del mismo. Por ejemplo: si se escribe 341%, se seleccionan todas las Solicitudes de Servicio cuyo código de Activo/Equipos inicia por 341. Si se escribe %1 se seleccionan todos los Solicitudes de Servicio cuyo código de Activo finaliza en un “1”. El porcentaje (%) es un carácter comodín que significa “todos”. También, es posible seleccionar el Activo a través del visor de Equipo/Activos. Para ello se da un clic sobre el icono de filtro <span class="mdi mdi-filter-variant icon white"></span> el cual abre el visor de Activos el cual contiene el subgrupo <span class="mdi mdi-filter-variant"></span> para hacer búsquedas rápidas. Una vez se encuentre el registro, para seleccionarlo se debe un doble clic o sobre el botón <a class="btn white">Aceptar</a> ubicado en la parte superior izquierda.     
+**AC – Código:** Esta selección agrupa las SS cuyos Activos/Equipos coincidan con el relacionado en este criterio. Es posible definir el código completo o una porción del mismo. Por ejemplo: si se escribe 341%, se seleccionan todas las Solicitudes de Servicio cuyo código de Activo/Equipos inicia por 341. Si se escribe %1 se seleccionan todos los Solicitudes de Servicio cuyo código de Activo finaliza en un “1”. El porcentaje (%) es un carácter comodín que significa “todos”. También, es posible seleccionar el Activo a través del visor de Equipo/Activos. Para ello se da un clic sobre el icono de filtro <span class="mdi mdi-filter-variant icon white"></span> el cual abre el visor de Activos el cual contiene el subgrupo <span class="mdi mdi-filter-variant"></span> para hacer búsquedas rápidas. Una vez se encuentre el registro, para seleccionarlo se debe un doble clic o sobre el botón <a class="btn white">Aceptar</a> ubicado en la parte superior izquierda.     
 
-**AC-Descripción:** Selecciona las Solicitudes de Servicio asociados a los Activos según criterios que se fundamenten en su descripción. Ejemplo: %Motor% selecciona todos los Activos, en cuya descripción, en cualquier posición, tengan la palabra “Motor”.
+**AC-Descripción:** Selecciona las SS asociados a los Activos según criterios que se fundamenten en su descripción. Ejemplo: %Motor% selecciona todos los Activos, en cuya descripción, en cualquier posición, tengan la palabra “Motor”.
+
+**AC-Estado:** Este filtro permite seleccionar las SS de acuerdo con el Estado del Activo u Objeto de Mantenimiento. Así que se pueden filtrar las SS para los cuales el AC correspondiente está activo o inactivo.
 
 
+**AC-Número Activo Fijo:** Este campo preselecciona las SS para el o los Activos cuyo Número de Activo corresponde a los valores aquí definidos. En este campo se pueden utilizar los comodines.
+
+
+**AC-Referencia:** Este filtro permite seleccionar las SS de acuerdo con su número de Referencia
