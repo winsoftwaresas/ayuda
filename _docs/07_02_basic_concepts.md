@@ -339,5 +339,6 @@ El programa permite entonces hacer selección de un grupo de Solicitudes de acue
 
 **FILTRAR POR CAMPOS DE LA SOLICITUD DE SERVICIO**
 
-**Causa de Falla:** El sistema busca todas las SS que tengan registrada la Falla registrada. Existen dos formas de definirla. La primera es seleccionando la Causa de Falla de la lista desplegable. La segunda es dando clic al icono <span class="mdi mdi-lock"></span> “Utilizar comodines” y digitando a continuación segmentos del nombre de la Causa de Falla utilizando comodines.
+**Causa de Falla:** El sistema busca todas las SS que tengan registrada la Falla registrada. Existen dos formas de definirla. La primera es seleccionando la Causa de Falla de la lista desplegable. La segunda es dando clic al icono <span class="mdi mdi-lock"></span> el cual hace posible usar comodines (%) una vez el campo se muestre disponible <span class="mdi mdi-lock-open-outline"></span>. Cuando se utilizan comodines, es posible seleccionar SS cuya parte del nombre de la Causa esté definida.
+ 
 
