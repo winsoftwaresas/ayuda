@@ -295,7 +295,7 @@ _**Imagen 11.** Solicitudes - Semaforización_
 Se usa para seleccionar grupos de Solicitudes de Servicio que cumplen con un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al icono de filtro <span class="mdi mdi-filter-variant"></span> ubicado en la parte superior derecha de la ventana Visor de Solicitudes de Servicio.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img15.png)
-_**Imagen 12.** Solicitudes - Subgrupos_
+_**Imagen 12.** Solicitudes - Ir a Subgrupos_
 
 
 
