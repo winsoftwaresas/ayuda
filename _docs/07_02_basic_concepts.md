@@ -375,3 +375,6 @@ se encuentren incluidas en el rango especificado en este campo, si no se especif
 **Solicitante (Incluido en TE - Tipo RI):** Este campo permite seleccionar las SS activas para el o los Solicitantes aquí definidos. Existen dos formas de definir el Solicitante o grupo de Solicitantes. La primera es seleccionando el solicitante de la lista desplegable. La segunda es dando clic al icono <span class="mdi mdi-lock"></span> el cual hace posible usar comodines (%) una vez el campo se muestre disponible <span class="mdi mdi-lock-open-outline"></span>.
 
 **Tipo de Actividad:** Filtra las SS por el Tipo de Actividad que aquí se selecciona. Este campo depende del siguiente campo. Una vez que se define Tipo de Mantenimiento, se puede elegir el Tipo de Actividad de las dos siguientes formas: la primera es es seleccionandola del campo desplegable. La segunda es dando clic al icono <span class="mdi mdi-lock"></span> el cual hace posible usar comodines (%) una vez el campo se muestre disponible <span class="mdi mdi-lock-open-outline"></span>.
+
+**Tipo de Mantenimiento:** Filtra las SS por el Tipo de Mantenimiento elegido de la lista desplegable.
+
