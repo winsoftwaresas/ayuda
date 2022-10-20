@@ -356,4 +356,5 @@ El programa permite entonces hacer selección de un grupo de Solicitudes de acue
 **FF de Atención:** Permite la selección de SS cuya fechas de Atención
 se encuentren incluidas en el rango especificado en este campo, si no se especifica una de las 2 fechas, el sistema establece un rango abierto para esta fecha, es decir, si se especifica la “fecha desde”, pero no se especifica la “fecha hasta”, el sistema utiliza como “fecha hasta” la fecha actual.
 
-FF de FDA: Este campo preselecciona las Solicitudes de Servicio cuya fecha de Falla, Daño o Avería (F/H Paro) se encuentre en el rango especificado, si no se especifica una de las 2 fechas, el sistema establece un rango abierto para esta fecha, es decir, si se especifica la “fecha desde”, pero no se especifica la “fecha hasta”, el sistema utiliza como “fecha hasta” la fecha actual.
+**FF de FDA:** Este campo preselecciona las SS cuya fecha de Falla, Daño o Avería (F/H Paro) se encuentre en el rango especificado, si no se especifica una de las 2 fechas, el sistema establece un rango abierto para esta fecha, es decir, si se especifica la “fecha desde”, pero no se especifica la “fecha hasta”, el sistema utiliza como “fecha hasta” la fecha actual.
+
