@@ -428,3 +428,9 @@ _**Imagen 19.** MM - Responsable_
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img23.png)
 _**Imagen 20.** MM - Centro Responsable_
 
+**Modificar Causa de Falla:** Se modifica masivamente la causa de falla de las SS correctivas que están previamente seleccionadas en el visor.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img24.png)
+_**Imagen 21.** MM - Centro Responsable_
+
+
