@@ -459,5 +459,10 @@ P﻿ara continuar con la transacción dar clic en el botón ubicado en la parte 
 A﻿ continuación se ingresa a la Ventana Detalle de la Solicitud seleccionada en el visor. 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img28.png)
-_**Imagen 25.** MM - Visor Reclasificar_ 
+_**Imagen 25.** MM - Ventana Detalle Reclasificar_ 
 
+Para definir a que compañía se va a reclasificar la Solicitud de Servicio o las Solicitudes de Servicio, primero se define si se desea reclasificar la solicitud seleccionada en el visor o un conjunto de solicitudes previamente seleccionadas en el visor. 
+
+Para la primera opción, se da clic en el botón de radio “Reclasificar solamente esta Solicitud” y para la segunda opción, se da clic enA el botón de radio “Reclasificar todas las Solicitudes en el visor”, este a su vez tiene un paréntesis indicado el número de registros a reclasificar.
+
+Para hacer efectivo el cambio dar clic en el botón 
