@@ -423,3 +423,8 @@ _**Imagen 18.** MM - Ubicación Física_
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img22.png)
 _**Imagen 19.** MM - Responsable_
 
+**Modificar Centro Responsable:** Se modifica masivamente el Centro Responsable, de las SS que están previamente seleccionadas en el visor.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img23.png)
+_**Imagen 20.** MM - Centro Responsable_
+
