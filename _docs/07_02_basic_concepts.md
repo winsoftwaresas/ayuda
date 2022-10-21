@@ -420,6 +420,6 @@ _**Imagen 18.** MM - Ubicación Física_
 
 **Modificar Responsable:** Se modifica masivamente el Responsable, de las SS que están previamente seleccionadas en el visor.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img21.png)
-_**Imagen 19.** MM - Ubicación Física_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img22.png)
+_**Imagen 19.** MM - Responsable_
 
