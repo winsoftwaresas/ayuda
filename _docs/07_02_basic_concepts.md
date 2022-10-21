@@ -449,7 +449,7 @@ El objetivo de esta transacción es realizar la reclasificación de las Solicitu
 
 
 Aplica tanto para una Solicitud en particular como para un Subgrupo, al
-ingresar a la transacción se muestra el visor. Para reclasificar un conjunto de SS se debe de crear prevamiente el subgrupo. 
+ingresar a la transacción se muestra el visor en estado **AN** “En Análisis”. Para reclasificar un conjunto de SS se debe de crear prevamiente el subgrupo. 
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img26.png)
