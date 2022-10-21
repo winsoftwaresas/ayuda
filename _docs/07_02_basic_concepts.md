@@ -475,3 +475,5 @@ E﻿l sistema confirma cuando se ha terminado la transacción:
 _**Imagen 26.** MM - Enviar SS Satisfactorio_
 
 ## Enviar a Historia
+
+A esta opción se llega al sobreponer el cursor del mouse sobre el módulo de Solicitudes de Servicio y al lado derecho se despliega el conjunto de transacciones disponibles para el módulo de Solicitudes de Servicio, luego se elige la transacción “Enviar a Historia”.
