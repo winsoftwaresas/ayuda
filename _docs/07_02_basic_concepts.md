@@ -440,7 +440,7 @@ _**Imagen 22.** MM - Adjuntar Documentos_
 
 ## Reclasificar
 
-A esta opción se llega al sobreponer el cursor del sobre el módulo de Solicitudes de Servicio y en la parte inferior se despliega el conjunto de transacciones disponibles para el módulo de Solicitudes, según los permisos Administrativos, se da clic en la opción <a class="btn white">reclasificar</a>. 
+A esta opción se llega al sobreponer el cursor del sobre el módulo de Solicitudes de Servicio y en la parte inferior se despliega el conjunto de transacciones disponibles para el módulo de Solicitudes, según los permisos Administrativos, se da clic en la opción **Reclasificar**.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img26.png)
 _**Imagen 23.** MM - Ir a Reclasificar_
@@ -448,12 +448,16 @@ _**Imagen 23.** MM - Ir a Reclasificar_
 El objetivo de esta transacción es realizar la reclasificación de las Solicitudes de Servicio generadas a una compañía no correspondiente a la labor requerida y está asociada a permisos de Usuarios.
 
 
-Aplica tanto para una Solicitud en particular como para un Subgrupo, al
-ingresar a la transacción se muestra el visor en estado **AN** “En Análisis”. Para reclasificar un conjunto de SS se debe de crear prevamiente el subgrupo. 
+Aplica tanto para una Solicitud en particular como para un Subgrupo en estado **AN** “En Análisis”. Para reclasificar un conjunto de SS se debe de crear prevamiente el subgrupo. 
+ingresar a la transacción se muestra el visor con SS estado **AN** “En Análisis”. Para reclasificar un conjunto de SS se debe de crear prevamiente el subgrupo. 
 
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img26.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img27.png)
 _**Imagen 24.** MM - Visor Reclasificar_ 
 
+P﻿ara continuar con la transacción dar clic en el botón ubicado en la parte superior izquierda <a class="btn white">reclasificar</a>.
 
+A﻿ continuación se ingresa a la Ventana Detalle de la Solicitud seleccionada en el visor. 
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img28.png)
+_**Imagen 25.** MM - Visor Reclasificar_ 
 
