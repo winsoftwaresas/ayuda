@@ -476,4 +476,9 @@ _**Imagen 26.** MM - Enviar SS Satisfactorio_
 
 ## Enviar a Historia
 
-A esta opción se llega al sobreponer el cursor del mouse sobre el módulo de Solicitudes de Servicio y al lado derecho se despliega el conjunto de transacciones disponibles para el módulo de Solicitudes de Servicio, luego se elige la transacción “Enviar a Historia”.
+Para enviar SS a Historia, solo se permiten los estados **CE** "Cerrada Ejecutada", **K** "Cancelada No Ejecutada" ﻿y **CO** "Cerrada con Orden". Para ingresar se debe sobreponer el cursor sobre en **Enviar a Historia**.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img31.png)
+_**Imagen 27.** MM - Ir a Enviar a Historia_ 
+
+
