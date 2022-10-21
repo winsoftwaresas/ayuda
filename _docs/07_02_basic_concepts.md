@@ -388,7 +388,7 @@ se encuentren incluidas en el rango especificado en este campo, si no se especif
 
 # T﻿ransacciones
 
-## Modificar Masivamente
+## Modificar Masivamente (MM)
 
 A esta opción se llega al sobreponer el cursor sobre el módulo de Solicitudes y en la parte inferior se despliega el conjunto de transacciones disponibles para el módulo de Solicitudes, según los permisos Administrativos, se da clic en la opción <a class="btn white">Modificar masivamente</a>.
 
@@ -397,5 +397,120 @@ _**Imagen 14.** Solicitudes - Ir a Modificación Masiva_
 
 Esta transacción permite cambiar masivamente el Centro de Costos, Ubicación Física, Responsable, Centro Responsable y adjuntar documentos de un Subgrupo.
 
+U﻿na vez se ingrese a la la Transacción se visualiza  el visor de Modificación Masiva, con el fin de luego hacer un Subgrupo:
+
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img18.png)
 _**Imagen 15.** Solicitudes - Visor Modificación Masiva_
+
+
+P﻿ara realizar el cambio se debe dar clic en el botón <a class="btn white">Modificar masivamente</a>, se abre una nueva ventana donde a continuación se da una breve explicación de cada criterio.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img19.png)
+_**Imagen 16.** Solicitudes - Modificación Masiva_
+
+**Modificar Centro de Costo:** Se modifica masivamente el Centro de Costo, de las SS que están previamente seleccionadas en el visor.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img20.png)
+_**Imagen 17.** MM - Centro de Costo_
+
+**Modificar Ubicación Física:** Se modifica masivamente la Ubicación Física, de las SS que están previamente seleccionadas en el visor.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img21.png)
+_**Imagen 18.** MM - Ubicación Física_
+
+**Modificar Responsable:** Se modifica masivamente el Responsable, de las SS que están previamente seleccionadas en el visor.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img22.png)
+_**Imagen 19.** MM - Responsable_
+
+**Modificar Centro Responsable:** Se modifica masivamente el Centro Responsable, de las SS que están previamente seleccionadas en el visor.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img23.png)
+_**Imagen 20.** MM - Centro Responsable_
+
+**Modificar Causa de Falla:** Se modifica masivamente la causa de falla de las SS correctivas que están previamente seleccionadas en el visor.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img24.png)
+_**Imagen 21.** MM - Centro Responsable_
+
+**M﻿odificar Adjuntar Documentos:** Se adjuntan documentos masivamente a las SS previamente seleccionadas en el visor.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img25.png)
+_**Imagen 22.** MM - Adjuntar Documentos_
+
+## Reclasificar
+
+A esta opción se llega al sobreponer el cursor del sobre el módulo de Solicitudes de Servicio y en la parte inferior se despliega el conjunto de transacciones disponibles para el módulo de Solicitudes, según los permisos Administrativos, se da clic en la opción **Reclasificar**.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img26.png)
+_**Imagen 23.** MM - Ir a Reclasificar_
+
+El objetivo de esta transacción es realizar la reclasificación de las Solicitudes de Servicio generadas a una compañía no correspondiente a la labor requerida y está asociada a permisos de Usuarios.
+
+
+Aplica tanto para una Solicitud en particular como para un Subgrupo en estado **AN** “En Análisis”. Para reclasificar un conjunto de SS se debe de crear prevamiente el subgrupo. 
+ingresar a la transacción se muestra el visor con SS estado **AN** “En Análisis”. Para reclasificar un conjunto de SS se debe de crear prevamiente el subgrupo. 
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img27.png)
+_**Imagen 24.** MM - Visor Reclasificar_ 
+
+P﻿ara continuar con la transacción dar clic en el botón ubicado en la parte superior izquierda <a class="btn white">reclasificar</a>.
+
+A﻿ continuación se ingresa a la Ventana Detalle de la Solicitud seleccionada en el visor. 
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img28.png)
+_**Imagen 25.** MM - Ventana Detalle Reclasificar_ 
+
+Para definir a que compañía se va a reclasificar la Solicitud de Servicio o las Solicitudes de Servicio, primero se define si se desea reclasificar la solicitud seleccionada en el visor o un conjunto de solicitudes previamente seleccionadas en el visor. Para la primera opción, se da clic en el botón de radio “Reclasificar solamente esta Solicitud” y para la segunda opción, se da clic en el botón de radio “Reclasificar todas las Solicitudes en el visor”, este a su vez tiene un paréntesis indicado el número de registros a reclasificar.
+
+Segundo se escoge la compañía utilizando la lista desplegable del campo “Compañía Destino” el cual lista las compañías activas. 
+Para hacer efectivo el cambio dar clic en el botón  <a class="btn blue">enviar <span class="mdi mdi-send"></span></a> y este se encarga de transferir la(s) Solicitudes de Servicio a su destino seleccionado. También se encuentra una nota en color rojo haciendo énfasis en el estado en el que debe encontrarse el estado de la SS para reclasificarla. Para continuar dar clic en <a class="btn white">Aceptar</a> del mensaje alerta:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img29.png)
+_**Imagen 25.** MM - Enviar SS_
+
+E﻿l sistema confirma cuando se ha terminado la transacción:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img30.png)
+_**Imagen 26.** MM - Mensaje Alerta Reclasificar SS_ 
+
+## Enviar a Historia
+
+Para ingresar se debe sobreponer el cursor sobre en **Enviar a Historia**. El objetivo de esta transacción es desplazar hacia el módulo de Historia de Mantenimiento, una SS o un conjunto de SS
+en por un subgrupo, es decir, las que se encuentran en el visor, que además tengan estado  **CE** "Cerrada Ejecutada", **K** "Cancelada No Ejecutada" ﻿y **CO** "Cerrada con Orden"".
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img31.png)
+_**Imagen 27.** MM - Ir a Enviar a Historia_ 
+
+E﻿ste es una transacción controlada por medio de las siguientes opciones a continuación:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img32.png)
+_**Imagen 28.** MM - Enviar a Historia_
+
+A continuación se describen los campos que componen esta Ventana información adicional: 
+
+
+En la ventana aparece el botón <a class="btn gray">enviar a historia</a>.y tres casillas de selección. Estas casillas de selección parametrizan los registros que se desean enviar a Historia.
+
+
+**Todos los registros del visor:.** Realiza el envío de todas las Solicitudes de Servicio existentes en la base de datos, sin importar cualquier Subgrupo activo.
+
+
+**Registros del visor:** Realiza el envío de todas las Solicitudes de Servicio seleccionadas en el visor mediante un Subgrupo.
+
+
+**Registro seleccionado:** Realiza el envío de la Solicitud de Servicio que está resaltada en el visor (tiene la línea verde del cursor sobre sí).
+
+Para efectuar la transacción a Historia, se selecciona una de las opciones anteriores y luego hacer clic en el botón <a class="btn gray">enviar a historia</a>. El sistema muestra un mensaje alerta antes terminar con el proceso:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img33.png)
+_**Imagen 29.** MM - M﻿ensaje Alerta Enviar a Historia_
+
+P﻿ara finalizar dar clic en el botón <a class="btn white">Aceptar</a> y el sistema confirma la cantidad de registros a Historia:
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img34.png)
+_**Imagen 30.** MM - M﻿ensaje Alerta Enviar a Historia_
+
+
+>﻿**Nota:** las Solitudes en estado K "Cancelada No Ejecutada" no se envían a Historia hasta que se asigne un Activo Válido asignado a la Solicitud. Esto se muestra en un Mensaje Alerta.
