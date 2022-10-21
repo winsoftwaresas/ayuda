@@ -433,4 +433,7 @@ _**Imagen 20.** MM - Centro Responsable_
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img24.png)
 _**Imagen 21.** MM - Centro Responsable_
 
+**M﻿odificar Adjuntar Documentos:** Se adjuntan documentos masivamente a las SS previamente seleccionadas en el visor.
 
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img25.png)
+_**Imagen 22.** MM - Adjuntar Documentos_
