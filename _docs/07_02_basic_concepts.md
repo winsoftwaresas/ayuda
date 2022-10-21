@@ -388,7 +388,7 @@ se encuentren incluidas en el rango especificado en este campo, si no se especif
 
 # T﻿ransacciones
 
-## Modificar Masivamente
+## Modificar Masivamente (MM)
 
 A esta opción se llega al sobreponer el cursor sobre el módulo de Solicitudes y en la parte inferior se despliega el conjunto de transacciones disponibles para el módulo de Solicitudes, según los permisos Administrativos, se da clic en la opción <a class="btn white">Modificar masivamente</a>.
 
@@ -402,9 +402,18 @@ U﻿na vez se ingrese a la la Transacción se visualiza  el visor de Modificaci�
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img18.png)
 _**Imagen 15.** Solicitudes - Visor Modificación Masiva_
 
+
 P﻿ara realizar el cambio se debe dar clic en el botón <a class="btn white">Modificar masivamente</a>, se abre una nueva ventana donde a continuación se da una breve explicación de cada criterio.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img19.png)
 _**Imagen 16.** Solicitudes - Modificación Masiva_
 
 **Modificar Centro de Costo:** Se modifica masivamente el Centro de Costo, de las SS que están previamente seleccionadas en el visor.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img20.png)
+_**Imagen 17.** MM - Centro de Costo_
+
+**Modificar Ubicación Física:** Se modifica masivamente la Ubicación Física, de las SS que están previamente seleccionadas en el visor.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img21.png)
+_**Imagen 18.** MM - Ubicación Física_
