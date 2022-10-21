@@ -503,8 +503,8 @@ En la ventana aparece el botón <a class="btn gray">enviar a historia</a>.y tres
 
 Para efectuar la transacción a Historia, se selecciona una de las opciones anteriores y luego hacer clic en el botón <a class="btn gray">enviar a historia</a>. El sistema muestra un mensaje alerta antes terminar con el proceso:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img32.png)
-_**Imagen 28.** MM - M﻿ensaje Alerta Enviar a Historia_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img33.png)
+_**Imagen 29.** MM - M﻿ensaje Alerta Enviar a Historia_
 
 
 
