@@ -442,4 +442,5 @@ _**Imagen 22.** MM - Adjuntar Documentos_
 
 A esta opción se llega al sobreponer el cursor del sobre el módulo de Solicitudes de Servicio y en la parte inferior se despliega el conjunto de transacciones disponibles para el módulo de Solicitudes, según los permisos Administrativos, se da clic en la opción <a class="btn white">reclasificar</a>. 
 
- 
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img26.png)
+_**Imagen 23.** MM - Adjuntar Documentos_
