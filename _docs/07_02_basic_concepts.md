@@ -506,7 +506,11 @@ Para efectuar la transacción a Historia, se selecciona una de las opciones ante
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img33.png)
 _**Imagen 29.** MM - M﻿ensaje Alerta Enviar a Historia_
 
+P﻿ara finalizar dar clic en el botón <a class="btn white">Aceptar</a> y el sistema confirma la cantidad de registros a Historia:
 
 
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img34.png)
+_**Imagen 30.** MM - M﻿ensaje Alerta Enviar a Historia_
 
 
+>﻿**Nota:** las Solitudes en estado K "Cancelada No Ejecutada" no se envían a Historia hasta que se asigne un Activo Válido asignado a la Solicitud. Esto se muestra en un Mensaje Alerta.
