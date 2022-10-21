@@ -437,3 +437,4 @@ _**Imagen 21.** MM - Centro Responsable_
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img25.png)
 _**Imagen 22.** MM - Adjuntar Documentos_
+
