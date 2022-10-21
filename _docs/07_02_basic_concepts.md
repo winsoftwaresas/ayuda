@@ -461,11 +461,10 @@ A﻿ continuación se ingresa a la Ventana Detalle de la Solicitud seleccionada 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img28.png)
 _**Imagen 25.** MM - Ventana Detalle Reclasificar_ 
 
-Para definir a que compañía se va a reclasificar la Solicitud de Servicio o las Solicitudes de Servicio, primero se define si se desea reclasificar la solicitud seleccionada en el visor o un conjunto de solicitudes previamente seleccionadas en el visor. 
+Para definir a que compañía se va a reclasificar la Solicitud de Servicio o las Solicitudes de Servicio, primero se define si se desea reclasificar la solicitud seleccionada en el visor o un conjunto de solicitudes previamente seleccionadas en el visor. Para la primera opción, se da clic en el botón de radio “Reclasificar solamente esta Solicitud” y para la segunda opción, se da clic en el botón de radio “Reclasificar todas las Solicitudes en el visor”, este a su vez tiene un paréntesis indicado el número de registros a reclasificar.
 
-Para la primera opción, se da clic en el botón de radio “Reclasificar solamente esta Solicitud” y para la segunda opción, se da clic enA el botón de radio “Reclasificar todas las Solicitudes en el visor”, este a su vez tiene un paréntesis indicado el número de registros a reclasificar.
-
-Para hacer efectivo el cambio dar clic en el botón  <a class="btn blue">enviar <span class="mdi mdi-send"></span></a>. También se encuentra una nota en color rojo haciendo énfasis en el estado en el que debe encontrarse el estado de la SS para reclasificarla. Para continuar dar clic en <a class="btn white">Aceptar</a> del mensaje alerta:
+Segundo se escoge la compañía utilizando la lista desplegable del campo “Compañía Destino” el cual lista las compañías activas. 
+Para hacer efectivo el cambio dar clic en el botón  <a class="btn blue">enviar <span class="mdi mdi-send"></span></a> y este se encarga de transferir la(s) Solicitudes de Servicio a su destino seleccionado. También se encuentra una nota en color rojo haciendo énfasis en el estado en el que debe encontrarse el estado de la SS para reclasificarla. Para continuar dar clic en <a class="btn white">Aceptar</a> del mensaje alerta:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img29.png)
 _**Imagen 25.** MM - Enviar SS_
