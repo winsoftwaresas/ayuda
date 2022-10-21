@@ -397,5 +397,12 @@ _**Imagen 14.** Solicitudes - Ir a Modificación Masiva_
 
 Esta transacción permite cambiar masivamente el Centro de Costos, Ubicación Física, Responsable, Centro Responsable y adjuntar documentos de un Subgrupo.
 
+U﻿na vez se ingrese a la la Transacción se visualiza  el visor de Modificación Masiva, con el fin de luego hacer un Subgrupo:
+
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img18.png)
 _**Imagen 15.** Solicitudes - Visor Modificación Masiva_
+
+P﻿ara realizar el cambio se debe dar clic en el botón <a class="btn white">Modificar masivamente</a>, se abre una nueva ventana donde a continuación se da una breve explicación de cada criterio.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img19.png)
+_**Imagen 16.** Solicitudes - Modificación Masiva_
