@@ -476,9 +476,16 @@ _**Imagen 26.** MM - Enviar SS Satisfactorio_
 
 ## Enviar a Historia
 
-Para enviar SS a Historia, solo se permiten los estados **CE** "Cerrada Ejecutada", **K** "Cancelada No Ejecutada" ﻿y **CO** "Cerrada con Orden". Para ingresar se debe sobreponer el cursor sobre en **Enviar a Historia**.
+Para ingresar se debe sobreponer el cursor sobre en **Enviar a Historia**. El objetivo de esta transacción es desplazar hacia el módulo de Historia de Mantenimiento, una SS o un conjunto de SS
+en por un subgrupo, es decir, las que se encuentran en el visor, que además tengan estado  **CE** "Cerrada Ejecutada", **K** "Cancelada No Ejecutada" ﻿y **CO** "Cerrada con Orden"".
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img31.png)
 _**Imagen 27.** MM - Ir a Enviar a Historia_ 
+
+E﻿ste es una transacción controlada por medio de las siguientes opciones a continuación:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img32.png)
+_**Imagen 28.** MM - Enviar a Historia_
+
 
 
