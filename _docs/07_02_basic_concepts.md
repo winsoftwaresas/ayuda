@@ -465,4 +465,13 @@ Para definir a que compañía se va a reclasificar la Solicitud de Servicio o la
 
 Para la primera opción, se da clic en el botón de radio “Reclasificar solamente esta Solicitud” y para la segunda opción, se da clic enA el botón de radio “Reclasificar todas las Solicitudes en el visor”, este a su vez tiene un paréntesis indicado el número de registros a reclasificar.
 
-Para hacer efectivo el cambio dar clic en el botón 
+Para hacer efectivo el cambio dar clic en el botón  <a class="btn blue">enviar <span class="mdi mdi-send"></span></a>. También se encuentra una nota en color rojo haciendo énfasis en el estado en el que debe encontrarse el estado de la SS para reclasificarla. Para continuar dar clic en <a class="btn white">Aceptar</a> del mensaje alerta:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img29.png)
+_**Imagen 25.** MM - Enviar SS_
+
+E﻿l sistema confirma cuando se ha terminado la transacción:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img30.png)
+_**Imagen 26.** MM - Enviar SS Satisfactorio_
+
