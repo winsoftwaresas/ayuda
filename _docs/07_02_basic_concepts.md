@@ -487,5 +487,26 @@ E﻿ste es una transacción controlada por medio de las siguientes opciones a co
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img32.png)
 _**Imagen 28.** MM - Enviar a Historia_
 
+A continuación se describen los campos que componen esta Ventana información adicional: 
+
+
+En la ventana aparece el botón <a class="btn gray">enviar a historia</a>.y tres casillas de selección. Estas casillas de selección parametrizan los registros que se desean enviar a Historia.
+
+
+**Todos los registros del visor:.** Realiza el envío de todas las Solicitudes de Servicio existentes en la base de datos, sin importar cualquier Subgrupo activo.
+
+
+**Registros del visor:** Realiza el envío de todas las Solicitudes de Servicio seleccionadas en el visor mediante un Subgrupo.
+
+
+**Registro seleccionado:** Realiza el envío de la Solicitud de Servicio que está resaltada en el visor (tiene la línea verde del cursor sobre sí).
+
+Para efectuar la transacción a Historia, se selecciona una de las opciones anteriores y luego hacer clic en el botón <a class="btn gray">enviar a historia</a>. El sistema muestra un mensaje alerta antes terminar con el proceso:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img32.png)
+_**Imagen 28.** MM - M﻿ensaje Alerta Enviar a Historia_
+
+
+
 
 
