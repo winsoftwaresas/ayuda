@@ -406,3 +406,5 @@ P﻿ara realizar el cambio se debe dar clic en el botón <a class="btn white">Mo
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img19.png)
 _**Imagen 16.** Solicitudes - Modificación Masiva_
+
+**Modificar Centro de Costo:** Se modifica masivamente el Centro de Costo, de las SS que están previamente seleccionadas en el visor.
