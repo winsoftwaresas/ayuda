@@ -472,7 +472,7 @@ _**Imagen 25.** MM - Enviar SS_
 E﻿l sistema confirma cuando se ha terminado la transacción:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img30.png)
-_**Imagen 26.** MM - Enviar SS Satisfactorio_
+_**Imagen 26.** MM - Mensaje Alerta Reclasificar SS_ 
 
 ## Enviar a Historia
 
