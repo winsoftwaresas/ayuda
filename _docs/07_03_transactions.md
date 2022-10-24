@@ -1,5 +1,5 @@
 ---
-title: Conceptos Básicos de la Solicitud de Servicio
+title: Exportar
 subtitle: aquí se da a conocer el uso y el funcionamiento correcto de las
   transacciones en el programa.
 tags:
