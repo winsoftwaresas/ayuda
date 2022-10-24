@@ -105,7 +105,7 @@ En esta línea se pretende identificar claramente el Activo o el Objeto de Mante
 
 Es un recuadro que está conformado por los siguientes campos donde se pretende identificar claramente el Activo o el Objeto de Mantenimiento:
 
-El primero es un cuadro de selección <a class="btn black"><span class="mdi mdi-checkbox-blank-outline"></a> que se marca cuando la Solicitud tiene un objeto de mantenimiento identificable. Eso quiere decir que el solicitante puede identificar el Objeto de Mantenimiento de manera manual describiendo el nombre del Activo y Ubicación Física.n  
+El primero es un cuadro de selección <a class="btn black"><span class="mdi mdi-checkbox-blank-outline"></a></a> que se marca cuando la Solicitud tiene un objeto de mantenimiento identificable. Eso quiere decir que el solicitante puede identificar el Objeto de Mantenimiento de manera manual describiendo el nombre del Activo y Ubicación Física.
 
 **Código del Activo:** En este campo se visualiza la información del código del Equipo/Activo seleccionado.
 
@@ -130,7 +130,7 @@ Cuando el Equipo o el  Activo,  Objeto  de  la  Solicitud  de  Servicio no puede
 **Referencia:** En este campo se visualiza la información de la referencia del Equipo que se haya establecido en la ficha técnica de este mismo.
 
 
-*Serial:* En este campo se visualiza la información del Serial del Equipo/Activo que se haya establecido en la ficha técnica de este mismo. Es un campo que no es modificable por el usuario.
+**Serial:** En este campo se visualiza la información del Serial del Equipo/Activo que se haya establecido en la ficha técnica de este mismo. Es un campo que no es modificable por el usuario.
 
 
 **Alias:** En este campo se visualiza la información del Alias del Equipo/Activo que se haya establecido en la ficha técnica de este mismo. Es un campo que no es modificable por el usuario.
