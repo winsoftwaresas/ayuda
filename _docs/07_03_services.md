@@ -1,5 +1,5 @@
 ---
-title: Transacciones
+title: Servicios
 subtitle: aquí se da a conocer el uso y el funcionamiento correcto de las transacciones en el programa.
 tags: [setup]
 author: win
