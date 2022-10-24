@@ -130,7 +130,7 @@ Cuando el Equipo o el  Activo,  Objeto  de  la  Solicitud  de  Servicio no puede
 **Referencia:** En este campo se visualiza la información de la referencia del Equipo que se haya establecido en la ficha técnica de este mismo.
 
 
-*Serial:* En este campo se visualiza la información del Serial del Equipo/Activo que se haya establecido en la ficha técnica de este mismo. Es un campo que no es modificable por el usuario.
+**Serial:** En este campo se visualiza la información del Serial del Equipo/Activo que se haya establecido en la ficha técnica de este mismo. Es un campo que no es modificable por el usuario.
 
 
 **Alias:** En este campo se visualiza la información del Alias del Equipo/Activo que se haya establecido en la ficha técnica de este mismo. Es un campo que no es modificable por el usuario.
