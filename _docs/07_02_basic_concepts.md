@@ -105,7 +105,7 @@ En esta línea se pretende identificar claramente el Activo o el Objeto de Mante
 
 Es un recuadro que está conformado por los siguientes campos donde se pretende identificar claramente el Activo o el Objeto de Mantenimiento:
 
-El primero es un cuadro de selección <a class="btn black"><span class="mdi mdi-checkbox-blank-outline"></a> que se marca cuando la Solicitud tiene un objeto de mantenimiento identificable. Eso quiere decir que el solicitante puede identificar el Objeto de Mantenimiento de manera manual describiendo el nombre del Activo y Ubicación Física.n  
+El primero es un cuadro de selección <a class="btn black"><span class="mdi mdi-checkbox-blank-outline"></a></a> que se marca cuando la Solicitud tiene un objeto de mantenimiento identificable. Eso quiere decir que el solicitante puede identificar el Objeto de Mantenimiento de manera manual describiendo el nombre del Activo y Ubicación Física.
 
 **Código del Activo:** En este campo se visualiza la información del código del Equipo/Activo seleccionado.
 
