@@ -10,7 +10,7 @@ date: 2022-10-25T21:07:17.169Z
 ---
 ## Reportes
 
-Este comando permite visualizar los reportes relacionados con las Solicitudes de Servicio. Existen los siguientes tipos de reportes básicos disponibles:
+Este comando <span class="mdi mdi-printer"></span>  permite visualizar los reportes relacionados con las Solicitudes de Servicio. Existen los siguientes tipos de reportes básicos disponibles:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img35.png)
 _**Imagen 31.** Solicitudes - Reportes_
