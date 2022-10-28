@@ -22,7 +22,7 @@ Por ello, un Almacén fundamenta su operación en tres definiciones:
 
 ### Almacenes y AM
 
-**AM** predefine en forma natural un Almacén, en la Tabla de Almacenes (Infraestructura), y además permite la definición de varios adicionales. Para cada Almacén se definen sus  conceptos de movimiento de  Kárdex  en la Tabla Conceptos de Kárdex (Infraestructura). Aunque existen  conceptos predefinidos, siempre se pueden definir nuevos conceptos de Entrada, de Salida y de Ajuste, garantizando la consistencia e integridad de la información.
+**AM** predefine en forma natural un Almacén, en la Tabla de Almacenes (Infraestructura), y además permite la definición de varios adicionales. Para cada Almacén se definen sus conceptos de movimiento de  Kárdex  en la Tabla Conceptos de Kárdex (Infraestructura). Aunque existen  conceptos predefinidos, siempre se pueden definir nuevos conceptos de Entrada, de Salida y de Ajuste, garantizando la consistencia e integridad de la información.
 
 El módulo de  Almacén de Repuestos permite administrar de manera independiente cada uno de los almacenes creados en la Tabla de Almacenes (Infraestructura) y dependiendo del usuario que ingrese a AM tendrá sus propios permisos de administración para cada almacén.
 
