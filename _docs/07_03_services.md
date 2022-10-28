@@ -46,5 +46,5 @@ Al darle clic en el botón <a class="btn white">Exportar</a> se generará un arc
 
 Adicional, es posible exportar todos los campos de la ventana Visor de las Solicitudes de Servicio, para esto se da clic en el cuadro llamado  <a class="btn black"><span class="mdi mdi-checkbox-blank-outline"> exportar todas las columnas</span></a>. También, es posible exportar uno o varios campos de la ventana Visor de las Solicitudes de Servicio, para esto se da clic en cada uno de los cuadros que acompañan los campos, finalizar con el botón <a class="btn white">Exportar</a> y esperar a que el archivo se encuentre listo para descargarlo <a class="btn white">Descargar</a>:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img36.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img37.png)
 _**Imagen 32.** Solicitudes - Descargar_
