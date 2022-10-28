@@ -28,7 +28,7 @@ El módulo de  Almacén de Repuestos permite administrar de manera independiente
 
 #### Visión General: Funciones Básicas sobre Almacén de Repuestos
 
-Creación de Repuestos: **AM** suministra dos procesos básicos para crear y actualizar Repuestos:
+**Creación de Repuestos:** **AM** suministra dos procesos básicos para crear y actualizar Repuestos:
 
 - Creación manual.
 - Importación desde un Sistema de Almacén/Inventario de Repuestos  corporativo externo a través de una interfaz automática.
