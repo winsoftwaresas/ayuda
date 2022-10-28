@@ -1,24 +1,50 @@
 ---
 title: Servicios
-subtitle: aquí se da a conocer el uso y el funcionamiento correcto de las transacciones en el programa.
-tags: [setup]
+subtitle: aquí se da a conocer el uso y el funcionamiento correcto de las
+  transacciones en el programa.
+tags:
+  - setup
 author: win
 order: 07_03
+date: 2022-10-25T21:07:17.169Z
 ---
-## Evaluar el Servicio
+## Reportes
 
-Esta opción de submenú, disponible en Solicitudes de Servicio, pretende evaluar el servicio prestado por el personal de mantenimiento o de servicios, en la Solicitud de Servicio actual. La evaluación la realiza un usuario receptor del servicio, al cual se le ha solicitado previamente su correo electrónico para enviar las notificaciones sobre el cambio de estado a Cerrada de la Solicitud de Servicio y en donde se adjunta un link para realizar la evaluación del servicio.
+Este comando <span class="mdi mdi-printer"></span>  permite visualizar los reportes relacionados con las Solicitudes de Servicio. Existen los siguientes tipos de reportes básicos disponibles:
 
-![Ventana Principal de Solicitudes de Servicio](../../assets/images/cap09/chp09_img08.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img35.png)
+***Imagen 31.** Solicitudes - Reportes*
 
-A continuación el link nos lleva a la siguiente página en donde evaluamos las  preguntas predefinidas para la evaluación del servicio.
+Los anteriores reportes pueden ser seleccionados para una o varias Solicitudes:
 
-![Ventana Principal de Solicitudes de Servicio](../../assets/images/cap09/chp09_img09.png)
+**Todos los Registros:** Con esta opción se imprimen todos los reportes de las Solicitudes de Servicio existentes en la base de datos, sin importar si se ha realizado un subgrupo.
 
-Esta opción está disponible cuando se han definido las cuatro preguntas de evaluación, en ** “Parámetros para Evaluación del Servicio”**, en  ** “Valores por  Defecto”**, en  el  módulo de  “Administración” y es posible realizarla a través de un correo electrónico  que recibe el solicitante y en el cual se puede realizar la evaluación, sin la necesidad de ingresar a AM.
+**Registros del Visor:** Esta opción permite hacer una impresión de todas las Solicitudes de Servicio que están seleccionadas en la Ventana Visor, es decir los registros que están seleccionados en el subgrupo actual.
 
-La Evaluación del Servicio realizada por el usuario se visualiza en AM a través de la transacción ** “Evaluar Servicio”** y los comentarios del usuario evaluador se observan en el campo ** “Comentarios del Técnico/Responsable”**, como se muestra en las siguientes imágenes respectivamente.
+**Registro Seleccionado:** Esta opción permite hacer una impresión de la Solicitud de Servicio que esta seleccionado en la Ventana Visor (el cursor verde se encuentra sobre él).
 
-![Ventana Principal de Solicitudes de Servicio](../../assets/images/cap09/chp09_img10.png)
+**Subtítulo:** En este campo es posible registrar un poco menos de una línea de información, tipo documentación del Reporte, para que se imprima bajo el área de títulos estándar.
 
-![Ventana Principal de Solicitudes de Servicio](../../assets/images/cap09/chp09_img11.png)
+Para visualizar los reportes, se selecciona el reporte y luego se da clic al botón <a class="btn white">Imprimir</a> 
+
+Para Exportar los reportes, se selecciona el reporte y luego se da clic al botón <a class="btn white">exportar</a> 
+
+Para Cerrar la ventana de los Reportes, se da clic en el botón <a class="btn white">cerrar</a>
+
+## Exportar
+
+Esta opción <span class="mdi mdi-download"></span> permite la exportación de las Solicitudes de Servicio que aparecen en el visor, totales o provenientes de un subgrupo a un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso.
+
+
+Al ejecutar esta transacción, se abrirá una ventana la cual se muestra a continuación:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img36.png)
+_**Imagen 32.** Solicitudes - Exportar_
+
+Al darle clic en el botón <a class="btn white">Exportar</a> se generará un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso, el objetivo de esta exportación es llevar toda la información de las Solicitudes de Servicio contenidos en el visor a un archivo plano, para luego ser analizados.
+
+
+Adicional, es posible exportar todos los campos de la ventana Visor de las Solicitudes de Servicio, para esto se da clic en el cuadro llamado  <a class="btn black"><span class="mdi mdi-checkbox-blank-outline"> exportar todas las columnas</span></a>. También, es posible exportar uno o varios campos de la ventana Visor de las Solicitudes de Servicio, para esto se da clic en cada uno de los cuadros que acompañan los campos, finalizar con el botón <a class="btn white">Exportar</a> y esperar a que el archivo se encuentre listo para descargarlo <a class="btn white">Descargar</a>:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img37.png)
+_**Imagen 32.** Solicitudes - Descargar_
