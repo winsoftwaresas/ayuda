@@ -36,5 +36,15 @@ Para Cerrar la ventana de los Reportes, se da clic en el botón <a class="btn wh
 Esta opción <span class="mdi mdi-download"></span> permite la exportación de las Solicitudes de Servicio que aparecen en el visor, totales o provenientes de un subgrupo a un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso.
 
 
-Al ejecutar esta transacción, se abrirá una ventana la cual se muestra a continuación.
+Al ejecutar esta transacción, se abrirá una ventana la cual se muestra a continuación:
 
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img36.png)
+_**Imagen 32.** Solicitudes - Exportar_
+
+Al darle clic en el botón <a class="btn white">Exportar</a> se generará un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso, el objetivo de esta exportación es llevar toda la información de las Solicitudes de Servicio contenidos en el visor a un archivo plano, para luego ser analizados.
+
+
+Adicional, es posible exportar todos los campos de la ventana Visor de las Solicitudes de Servicio, para esto se da clic en el cuadro llamado  <a class="btn black"><span class="mdi mdi-checkbox-blank-outline"> exportar todas las columnas</span></a>. También, es posible exportar uno o varios campos de la ventana Visor de las Solicitudes de Servicio, para esto se da clic en cada uno de los cuadros que acompañan los campos, finalizar con el botón <a class="btn white">Exportar</a> y esperar a que el archivo se encuentre listo para descargarlo <a class="btn white">Descargar</a> 
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img36.png)
+_**Imagen 32.** Solicitudes - Descargar_
