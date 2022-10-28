@@ -1,6 +1,6 @@
 ---
 title: Introducción
-subtitle: este capitulo espesifica que es y para que sirve los Almacenes, Materiales y Repuestos
+subtitle: Este capítulo especifica el concepto y manejo de los Materiales y Repuestos de Almacén
 tags: [setup]
 author: win
 order: 04_01
