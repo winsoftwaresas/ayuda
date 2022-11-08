@@ -65,4 +65,4 @@ Una transacción de ajuste, puede ser de 2 tipos: Ajuste por valor o ajuste por 
 
 Un ajuste por valor, aumenta o disminuye el valor unitario actual del repuesto referenciado en el movimiento, lo que genera una inflación del costo total del  inventario del repuesto. 
 
-Un ajuste por cantidad, aumenta o disminuye el Inventario actual del repuesto referenciado en el movimiento, pero no afecta el valor unitario del  mismo, sin embargo, si afecta el costo total del inventario. Para que un usuario pueda realizar transacciones de ajuste debe tener los permisos especiales que para ello se definen en el módulo de administración.
+Un ajuste por cantidad, aumenta o disminuye el Inventario actual del repuesto referenciado en el movimiento, pero no afecta el valor unitario del  mismo, sin embargo, si afecta el costo total del inventario. Para que un usuario pueda realizar transacciones de ajuste debe tener los permisos especiales que para ello se definen en el módulo de  <a class="btn blue">administración</a>.
