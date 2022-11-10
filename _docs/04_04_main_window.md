@@ -25,11 +25,11 @@ A esta ventana se llega haciendo clic sobre la opción <a class="btn blue">almac
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img02.png)
 _**Imagen 3.** Ventana Visor_
 
-Desde esta ventana es posible observar los Repuestos existentes. Se listan todos o  una selección o subgrupo de ellos. Es posible configurar el número de registros que  se muestran por página desde el menú Administración en la opción  “Valores por Defecto” en la pestaña General.
+Desde esta ventana es posible observar los Repuestos existentes. Se listan todos o un Subgrupo de ellos. Es posible configurar el número de registros que  se muestran por página desde el menú <a class="btn blue">administración</a> en la opción  “Valores por Defecto” en la etiqueta **General**.
 
-Al hacer clic sobre alguno de los Repuestos del Visor el sistema responde  mostrando  la información de ese Repuesto, en forma detallada, en una ventana llamada Ventana Detalle.
+Al hacer clic sobre alguno de los Repuestos del Visor el sistema responde  mostrando  la información de ese Repuesto, en forma detallada, en una ventana llamada **Ventana Detalle**.
 
-Los títulos en azul que encabezan las columnas son también botones que permiten ordenar la    tabla, según el título seleccionado. Para elegir un registro de la tabla se da un clic del mouse sobre él o se desplaza el cursor con las teclas de desplazamiento.
+Los títulos en azul que encabezan las columnas son también botones que permiten ordenar la  tabla, según el título seleccionado. Para elegir un registro de la tabla se da un clic sobre él o se desplaza el cursor con las teclas de desplazamiento.
 
 ## Ventana Detalle
 
