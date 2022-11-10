@@ -9,7 +9,9 @@ author: win
 order: 04_03
 date: 2022-11-08T21:57:32.639Z
 ---
-**AM** está diseñado para trabajar un código de Repuestos de hasta 15 posiciones alfanuméricas, en esquema inteligente por niveles o en esquema de codificación bruta.
+
+**AM** está diseñado para trabajar un código de Repuestos de hasta 15 posiciones alfanuméricas, en esquema inteligente por niveles o en esquema de codificación bruta.
+
 Si no se tiene una codificación de Repuestos definida o sí se desea modificar la existente, se recomienda utilizar el esquema inteligente por niveles. Es una metodología que requiere de una cuidadosa planeación, en la que se definen los niveles y su longitud, para que no exista el riesgo de que el sistema de codificación colapse en el futuro, y que además toma en cuenta, desde el contenido del almacén hasta el sistema de control de inventarios más adecuado para cada grupo de ítems.
 La política de codificación resultante de este ejercicio es tal, que todos los códigos son de la misma longitud y tienen una composición tipo:
 
