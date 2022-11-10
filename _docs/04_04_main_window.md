@@ -1,15 +1,19 @@
 ---
 title: Ventana Principal de Almacén de Repuestos
-subtitle: especifica el por que y para que de las ventanas y opciones que presenta el programa en este campo.
-tags: [setup]
+subtitle: especifica el por que y para que de las ventanas y opciones que
+  presenta el programa en este campo.
+tags:
+  - setup
 author: win
 order: 04_04
+date: 2022-11-10T20:17:34.887Z
 ---
 # Ventana Principal de Almacén de Repuestos
 
-![almacen](../../assets/images/cap04/chp04_img01.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img01.png)
+_**Imagen 1.** Ventana Principal Repuestos_
 
-Al sobreponer el puntero del mouse en el módulo de Almacén de Repuestos, se listan los distintos almacenes creados en la tabla de Almacenes de la Infraestructura y cuando se elige un Almacén, el sistema muestra al lado izquierdo un check verde y en frente en azul, el aviso de Seleccionado.
+Al sobreponer el cursor en el módulo de Almacén de Repuestos, se listan los almacenes creados en la tabla de Almacenes de la Infraestructura y cuando se elige un Almacén, el sistema muestra al lado izquierdo del nombre del respectivo almacén un <span class="mdi mdi-check-circle"></span></a> en color verde y en frente en azul, el aviso <a class="btn blue">seleccionado</a>.
 
 ![ventana almacen](../../assets/images/cap04/chp04_img02.png)
 
