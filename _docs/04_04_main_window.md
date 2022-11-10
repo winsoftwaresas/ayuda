@@ -36,7 +36,8 @@ Los títulos en azul que encabezan las columnas son también botones que permite
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img04.png)
 _**Imagen 4.** Ventana Visor_
 
-En la gráfica anterior, ventana Detalle de Almacén de Repuestos, se aprecian todos sus componentes y su  respectivo contenido. En la ventana Detalle de Almacén de Repuestos se encuentra toda la información relevante de inventarios sobre el Repuesto seleccionado en el Visor.
+En la gráfica anterior, ventana Detalle de Materiales y Repuestos se aprecian todos sus componentes y su  respectivo contenido. 
+Se encuentra toda la información relevante de inventarios sobre el Repuesto seleccionado en el Visor.
 A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación.
 
 **Repuesto:** En este campo se registra el código del Repuesto, de acuerdo a la política de codificación que se haya definido.
