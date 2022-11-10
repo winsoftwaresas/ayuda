@@ -11,17 +11,19 @@ date: 2022-11-10T20:17:34.887Z
 # Ventana Principal de Almacén de Repuestos
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img01.png)
-_**Imagen 1.** Ventana Principal Repuestos_
+_**Imagen 1.** Menú Almacenes_
 
-Al sobreponer el cursor en el módulo de Almacén de Repuestos, se listan los almacenes creados en la tabla de Almacenes de la Infraestructura y cuando se elige un Almacén, el sistema muestra al lado izquierdo del nombre del respectivo almacén un <span class="mdi mdi-check-circle"></span></a> en color verde y en frente en azul, el aviso <a class="btn blue">seleccionado</a>.
+Al sobreponer el cursor en el módulo de <a class="btn blue">almacén</a> se listan los almacenes creados en la tabla de Almacenes de la Infraestructura y cuando se elige un Almacén, el sistema muestra al lado izquierdo del nombre del respectivo almacén un <span class="mdi mdi-check-circle"></span></a> en color verde y en frente en azul, el aviso <a class="btn blue">seleccionado</a>.
 
-![ventana almacen](../../assets/images/cap04/chp04_img02.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img02.png)
+_**Imagen 2.** Ventana Principal Repuestos_
 
-A esta ventana se llega haciendo clic sobre la opción **“Almacén”** del Menú Principal.   A través de ella se ejecutan todas las funciones dedicadas a administrar los Almacenes de Repuestos para Mantenimiento. A continuación se ilustran las porciones que la componen.
+A esta ventana se llega haciendo clic sobre la opción <a class="btn blue">almacén</a>  del Menú Principal. A través de ella se ejecutan todas las funciones dedicadas a administrar los Almacenes de Repuestos para Mantenimiento. A continuación se ilustran las porciones que la componen.
 
 ## Ventana Visor
 
-![ventana visor](../../assets/images/cap04/chp04_img03.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img02.png)
+_**Imagen 3.** Ventana Visor_
 
 Desde esta ventana es posible observar los Repuestos existentes. Se listan todos o  una selección o subgrupo de ellos. Es posible configurar el número de registros que  se muestran por página desde el menú Administración en la opción  “Valores por Defecto” en la pestaña General.
 
