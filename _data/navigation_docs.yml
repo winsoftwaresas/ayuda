@@ -41,8 +41,8 @@
   docs:
   - 07_01_introduction
   - 07_02_basic_concepts
-  - 07_03_transactions
-  - 07_04_export
+  - 07_03_services
+  
 
 - title: Paros
   docs:
