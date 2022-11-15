@@ -73,7 +73,7 @@ _**Imagen 5.** Ventana Visor_
 
 **FF Costeo:** Es la fecha en la que se hizo el último recálculo del costo unitario para el Repuesto seleccionado. Normalmente es la fecha en la que el Repuesto entró al almacén por última vez por medio de un concepto valorizado.
 
-**Costo Última Compra:** Este campo registra la última compra del repuesto seleccionado del Almacén. Automatizando los movimientos de la compra.
+**Costo Última Compra:** Este campo registra la última compra del repuesto seleccionado del Almacén. Automatizando los movimientos de la compra través del Kárdex del Almacén.
 
 **FF Última Compra:** Es la fecha de la última compra del Repuesto seleccionado del Almacén. Se actualiza automáticamente cuando tal movimiento de compra se efectuó a través del Kárdex del Almacén.
 
