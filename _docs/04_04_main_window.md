@@ -65,13 +65,13 @@ _**Imagen 5.** Ventana Visor_
 
 **Existencia  Inventario:** Registra la  cantidad en  existencia en  el  Almacén del  Repuesto seleccionado. Este campo puede ser actualizado manualmente o en forma  automática a través del módulo de Kárdex de Repuestos. Al lado de este campo, el sistema muestra la unidad de medida que se ha definido para él. También, al lado de este campo, el sistema muestra el Valor Total del inventario del Repuesto, que corresponde al producto de la  “Existencia Inventario” y el  “Costo Unitario Vigente”.
 
-**Cantidad Reservada:** Informa la cantidad reservada del Repuesto seleccionado. Una reserva es una cantidad de la existencia actual del Repuesto, que se ha  comprometido para  ser  usada,  por  una  persona,  en  una  OT  particular  y la  separa  a  través de  la transacción Reservas. Este campo no es modificable por el usuario. Al lado de este campo, el sistema muestra la unidad de medida que se ha definido para él.
+**Cantidad Reservada:** Informa la cantidad reservada del Repuesto seleccionado. Una reserva es una cantidad de la existencia actual del Repuesto, que se ha  comprometido para  ser  usada,  por  una  persona,  en  una  OT  particular  y la  separa  a  través de  la transacción **Reservas**. Este campo no es modificable por el usuario. Al lado de este campo, el sistema muestra la unidad de medida que se ha definido para él.
 
 **Cantidad  Disponible:** Es  la  diferencia  entre   “Existencia  Inventario”  menos   “Cantidad Reservada”. Es la Cantidad Disponible para consumos de Mantenimiento. Este campo no es modificable por el usuario. Al lado de este campo, el sistema muestra la unidad de medida que se ha definido para él.
 
-**Costo Unitario Vigente:** Este campo refleja siempre el Costo Unitario del Repuesto  seleccionado. Es  un valor  que  puede haber  sido  actualizado manualmente por  alguien que  tenía los atributos para hacerlo. Puede también haber sido actualizado  automáticamente por el sistema según  el  sistema de  costeo  definido para  el  almacén,  a través del  Kárdex  de Repuestos.
+**Costo Unitario Vigente:** Este campo refleja siempre el Costo Unitario del Repuesto  seleccionado. Es  un valor  que  puede haber  sido  actualizado manualmente por  alguien que  tenía los permisos para hacerlo. Puede también haber sido actualizado  automáticamente por el sistema según  el  sistema de  costeo  definido para  el  almacén,  a través del  Kárdex  de Repuestos.
 
-**FF Costeo:** Es la fecha en la que se hizo el último recalculo del costo unitario para el Repuesto seleccionado. Normalmente es la fecha en la que el Repuesto entró al almacén por última vez por medio de un concepto valorizado.
+**FF Costeo:** Es la fecha en la que se hizo el último recálculo del costo unitario para el Repuesto seleccionado. Normalmente es la fecha en la que el Repuesto entró al almacén por última vez por medio de un concepto valorizado.
 
 **Costo Última Compra:** Este campo registra la última compra del repuesto seleccionado del Almacén. Automatizando los movimientos de la compra.
 
