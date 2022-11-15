@@ -36,15 +36,16 @@ Los títulos en azul que encabezan las columnas son también botones que permite
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img04.png)
 _**Imagen 4.** Ventana Visor_
 
-En la gráfica anterior, ventana Detalle de Materiales y Repuestos se aprecian todos sus componentes y su  respectivo contenido. 
+En la gráfica anterior, ventana Detalle de Materiales y Repuestos se aprecian todos sus componentes y su  respectivo contenido.
+ 
 Se encuentra toda la información relevante de inventarios sobre el Repuesto seleccionado en el Visor.
-A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación.
+A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación:
 
 **Repuesto:** En este campo se registra el código del Repuesto, de acuerdo a la política de codificación que se haya definido.
 
 **Descripción:** En este campo se registra la descripción del Repuesto en lenguaje natural.
 
-**No Inv/Inv:** Define el tipo de Repuesto respecto a su connotación de Inventariado o No Inventariado.  Un ítem es inventariado si está codificado en el Almacén y sobre él existen políticas de inventarios y reaprovisionamiento. Es No inventariado si su uso es de solo una vez y de él no se van a realizar más compras. También puede ser No inventariado, en un almacén  particular, cuando se  trata  de  un  ítem   cuya  existencia, contablemente ya  fue consumida, pero se almacena para ser consumido, por demanda, en un lapso corto.
+**No Inv/Inv:** Define el tipo de Repuesto respecto a su connotación de Inventariado o No Inventariado.  Un ítem es inventariado si está codificado en el Almacén y sobre él existen políticas de inventarios y reaprovisionamiento. Es No inventariado si su uso es de solo una vez y de él no se van a realizar más compras. También puede ser No inventariado, en un almacén  particular, cuando se trata de un ítem   cuya  existencia, contablemente ya fue consumida, pero se almacena para ser consumido, por demanda, en un lapso corto.
 
 **Descripción larga:** Este botón permite realizar una descripción larga del Repuesto. Para ello se abre una nueva ventana en la que se adicionan más de 200 caracteres **(Ver Imagen 4).**
 **Clase:** Es un campo que permite clasificar o agrupar los artículos del Almacén por  un criterio particular para la Organización.
