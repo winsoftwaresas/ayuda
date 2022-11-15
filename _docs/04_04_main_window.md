@@ -47,8 +47,13 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 **No Inv/Inv:** Define el tipo de Repuesto respecto a su connotación de Inventariado o No Inventariado.  Un ítem es inventariado si está codificado en el Almacén y sobre él existen políticas de inventarios y reaprovisionamiento. Es No inventariado si su uso es de solo una vez y de él no se van a realizar más compras. También puede ser No inventariado, en un almacén  particular, cuando se trata de un ítem   cuya  existencia, contablemente ya fue consumida, pero se almacena para ser consumido, por demanda, en un lapso corto.
 
-**Descripción larga:** Este botón permite realizar una descripción larga del Repuesto. Para ello se abre una nueva ventana en la que se adicionan más de 200 caracteres **(Ver Imagen 4).**
-**Clase:** Es un campo que permite clasificar o agrupar los artículos del Almacén por  un criterio particular para la Organización.
+**Descripción larga:** Este botón permite realizar una descripción larga del Repuesto. Para ello se abre una nueva ventana en la que se adicionan más de 200 caracteres.
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img05.png)
+_**Imagen 5.** Ventana Visor_
+
+**Clase:** Es un campo que permite clasificar o agrupar los artículos del Almacén por un criterio particular para la Organización.
 
 **Familia:** Es un campo que permite definir la familia a la cual pertenece el artículos del Almacén que se está definiendo.
 
