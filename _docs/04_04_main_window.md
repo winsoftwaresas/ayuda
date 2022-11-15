@@ -83,7 +83,7 @@ _**Imagen 5.** Ventana Visor_
 
 **Nivel Mínimo / Punto de Pedido:** Este campo registra  una  cantidad  que  tiene  un significado dependiendo del modelo de inventarios que maneje el Repuesto. En el  caso de que se trate de un Repuesto controlado bajo un modelo simple de Inventarios, o de Harris, este campo significa el punto en el nivel de Inventario en el que se debe iniciar una gestión que exige una cantidad mínima en existencia  permanentemente,  este campo denota esa cantidad mínima. En ningún caso este parámetro es recalculado por el sistema. 
 
-**Nivel Máximo:** En este campo se define la cantidad o nivel máximo en existencia de ese Repuesto en el almacén seleccionado.
+**Nivel Máximo:** En este campo se define la cantidad o nivel máximo en existencia de ese Repuesto en el almacén seleccionado dependiendo del modelo simple de Inventario.
 
 **Lote Óptimo a Comprar:** En este campo se define el parámetro de inventarios sobre la cantidad adecuada de compra, en cada proceso de reabastecimiento. Este parámetro no es recalculado por el sistema.
 
