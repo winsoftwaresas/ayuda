@@ -85,11 +85,11 @@ _**Imagen 5.** Ventana Visor_
 
 **Nivel Máximo:** En este campo se define la cantidad o nivel máximo en existencia de ese Repuesto en el almacén seleccionado dependiendo del modelo simple de Inventario.
 
-**Lote Óptimo a Comprar:** En este campo se define el parámetro de inventarios sobre la cantidad adecuada de compra, en cada proceso de reabastecimiento. Este parámetro no es recalculado por el sistema.
+**Lote Óptimo a Comprar:** En este campo se define el parámetro de inventarios sobre la cantidad adecuada de compra, en cada proceso de re-abastecimiento. Este parámetro no es recalculado por el sistema.
 
 **Período  de  Reaprovisionamiento:**  De  acuerdo  a  estadísticas  de  consumo  sobre  el Repuesto seleccionado, normalmente se establece en este campo el parámetro  indicativo del período normal de Reaprovisionamiento, acorde con el Lote Óptimo de  Compra y con la estadística de consumo. Este parámetro no es recalculado por el sistema. Al lado de este campo, el sistema muestra la palabra  “días” para indicar la unidad de medida del período de reaprovisionamiento.
 
-**Precio Venta 1, Precio Venta 2, Precio Venta 3:** Estos campos son utilizados de tipo información  para almacenar los precios actuales, anteriores y promedio del repuesto.
+**Precio Venta 1, Precio Venta 2, Precio Venta 3:** Estos campos son utilizados de tipo información  para almacenar los precios actuales, anteriores y promedio del repuesto, estos campos son parametrizables en en 
 
 Para ver estos campos es necesario elegir la opción ** “SI”** en la pestaña de Almacén, en  “Valores por Defecto” del módulo de Administración en la opción  “Manejo de Precios de Venta”.
 
