@@ -41,6 +41,8 @@ En la gráfica anterior, ventana Detalle de Materiales y Repuestos se aprecian t
 Se encuentra toda la información relevante de inventarios sobre el Repuesto seleccionado en el Visor.
 A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación:}
 
+### I﻿nformación General
+
 **Repuesto:** En este campo se registra el código del Repuesto, de acuerdo a la política de codificación que se haya definido.
 
 **Descripción:** En este campo se registra la descripción del Repuesto en lenguaje natural.
@@ -94,15 +96,16 @@ _**Imagen 5.** Ventana Visor_
 
 ## Vistas Parciales / Pestañas
 
-Las Vistas Parciales o Pestañas permiten complementar la información que se despliega normalmente sobre un Repuesto, con otro conjunto de información que solo se muestra cuando es necesario,  por solicitud del usuario. Las vistas parciales  disponibles son: ficha técnica, características técnicas y multimedia.
+Las Vistas Parciales o Pestañas permiten complementar la información que se despliega normalmente sobre un Repuesto (**Información General**) con otro conjunto de información que solo se muestra cuando es necesario,  por solicitud del usuario. Las vistas parciales  disponibles son: Ficha técnica, Características Técnicas y Multimedia. 
 
 ### Ficha Técnica
 
 En la pestaña de Ficha Técnica, se encuentra toda la información relevante del Repuesto seleccionado en el Visor.
 
-![materiales y repuestos ](../../assets/images/cap04/chp04_img10.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img06.png)
+_**Imagen 6.** Ventana Visor_
 
-A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación.
+A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación:
 
 **Cuadro Identificación:** Aparece con los campos bloqueados para que el usuario visualice la información básica del Repuesto al cual se le está definiendo la información de la ficha técnica.
 
