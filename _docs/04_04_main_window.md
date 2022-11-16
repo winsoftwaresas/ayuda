@@ -135,7 +135,8 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 Esta opción permite definir para un determinado Repuesto las características técnicas que lo definen. En la parte izquierda de la ventana aparece un nuevo Visor en el que irán apareciendo las Características Técnicas que se van creando en la ventana Detalle, mientras que en la parte derecha aparece los campos para crear o actualizar la información de las características.
 
-![materiales y repuestos ](../../assets/images/cap04/chp04_img11.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img07.png)
+_**Imagen 7.** Ventana Visor_
 
 En la gráfica anterior, Vista Parcial de Características, se aprecian las dos columnas  de componentes y sus respectivos contenidos. A continuación se describen los  campos que componen esta ventana de información adicional.
 
