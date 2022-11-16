@@ -138,7 +138,7 @@ Esta opción permite definir para un determinado Repuesto las características t
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img07.png)
 _**Imagen 7.** Ventana Visor_
 
-En la gráfica anterior, Vista Parcial de Características, se aprecian las dos columnas  de componentes y sus respectivos contenidos. A continuación se describen los  campos que componen esta ventana de información adicional.
+En la gráfica anterior, Vista Parcial de Características, se aprecian las dos columnas  de componentes y sus respectivos contenidos. A continuación se describen los  campos que componen esta ventana de información adicional:
 
 **Cuadro Identificación:** Aparece con los campos bloqueados para que el usuario visualice la información básica del Repuesto al cual se le está definiendo la información de las características técnicas.
 
