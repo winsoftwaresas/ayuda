@@ -91,6 +91,10 @@ _**Imagen 5.** Ventana Visor_
 
 **Período  de  Reaprovisionamiento:**  De  acuerdo  a  estadísticas  de  consumo  sobre  el Repuesto seleccionado, normalmente se establece en este campo el parámetro  indicativo del período normal de Reaprovisionamiento, acorde con el Lote Óptimo de  Compra y con la estadística de consumo. Este parámetro no es recalculado por el sistema. Al lado de este campo, el sistema muestra la palabra  “días” para indicar la unidad de medida del período de reaprovisionamiento.
 
+**Unidad de Empaque:**  Es  la  unidad  de  compra, de  adquisición o  de  despacho por  parte  del proveedor. Ej. Caneca de 55 galones, o Caja por 24 unidades.
+
+**Unidad de Consumo:** Es la unidad mediante la cual se le solicita al Almacén o mediante la cual el Almacén despacha un determinado artículo.  Ej. Galones o Unidades.
+
 **Precio Venta 1, Precio Venta 2, Precio Venta 3:** Estos campos son utilizados de tipo información  para almacenar los precios actuales, anteriores y promedio del repuesto, estos campos son parametrizables en en el modúlo <a class="btn blue">administración</a> en la etiqueta **Almacén**, en la opción  “Manejo de Precios de Venta” y elegir la opción ** “SI”**.
 
 
@@ -109,25 +113,23 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 **Cuadro Identificación:** Aparece con los campos bloqueados para que el usuario visualice la información básica del Repuesto al cual se le está definiendo la información de la ficha técnica.
 
-**Estado:** En este campo de opciones seleccionables es posible registrar el estado  del Repuesto: Activo, Vencido, Excedente, Obsoleto o Inservible.
+**Estado:** En este campo de opciones seleccionables es posible registrar el estado  del Repuesto: Activo, Vencido, EOI (Excedente Obsoleto o Inservible).
 
-**TT por Uso:** En este campo se listan los tipos de trabajo para seleccionar el tipo de trabajo que le aplique al Repuesto.
+**TT por Uso:** En este campo se listan los tipos de trabajo para seleccionar el tipo de trabajo que clasifique el Repuesto.
 
 **A, B, C, O:** Informa si el  repuesto se clasifica con  el  método  de Costos basado  en actividades  (ABC).  Este  campo  Clasificación  se  utilizara  a  futuro  para  el  manejo  de inventario rotativo. Su definición por defecto es O (significa Otro).
 
-**Unidad de Empaque:**  Es  la  unidad  de  compra, de  adquisición o  de  despacho por  parte  del proveedor. Ej. Caneca de 55 galones, o Caja por 24 unidades.
-
-**Unidad de Consumo:** Es la unidad mediante la cual se le solicita al Almacén o mediante la cual el Almacén despacha un determinado artículo.  Ej. Galones o Unidades.
-
-**Código de Barras Interno:** Si existe un código de barras interno dentro la  organización para la codificación de Repuestos, se debe de ingresar en este campo.
+**Código de Barras Interno:** Si existe un código de barras interno dentro la  Organización para la codificación de Repuestos, se debe de ingresar en este campo.
 
 **Código de Barras del Proveedor:** Se  refiere  al  Código de  Barras  del  Proveedor  que  se encuentra asociado al Repuesto.
 
+
 **Proveedor 1, Proveedor 2, Proveedor 3:** En estos campos se pueden relacionar hasta 3 proveedores del Repuesto seleccionado.
+
 
 **Referencia Proveedor 1, Referencia Proveedor 2,   Referencia Proveedor 3:** En estos campos se  registran las  referencias  con  las  que  cada  Proveedor  correspondiente  suministra  el   Repuesto seleccionado.
 
-**Comentario:** Aquí se ingresan los comentarios sobre un Repuesto o se especifica información adicional al Repuesto.
+**Comentario:** Aquí se ingresan los comentarios sobre un Repuesto o se especifica información adicional al Repuesto. Este campo cuenta con un espacio de 220 caracteres.
 
 ### Características Técnicas
 
