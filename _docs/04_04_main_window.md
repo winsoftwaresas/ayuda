@@ -146,6 +146,9 @@ En la gráfica anterior, Vista Parcial de Características, se aprecian las dos 
 
 **Valor:** En  este campo se define  el  valor  de  la  característica correspondiente en la primera columna, en el cual es posible escribir su respectiva unidad de medida. 
 
+P﻿ara ingresar una caracteristica técnica al Repuesto dar clic en el botón <a class="btn blue">Adicionar Car. Técnica</a>
+
+
 ### Multimedia
 
 ![ detalle de materiales y repuestos ](../../assets/images/cap04/chp04_img12.png)
