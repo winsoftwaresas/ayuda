@@ -144,7 +144,7 @@ En la gráfica anterior, Vista Parcial de Características, se aprecian las dos 
 
 **Car. Técnica:** En este campo se lista las características técnicas definidas en la tabla de Infraestructura, para seleccionar aquellas que son  propias del Repuesto activo.
 
-**Valor:** En  este campo se define  el  valor  de  la  característica correspondiente  en  la primera columna junto con su respectiva unidad de medida.
+**Valor:** En  este campo se define  el  valor  de  la  característica correspondiente en la primera columna, en el cual es posible escribir su respectiva unidad de medida. 
 
 ### Multimedia
 
