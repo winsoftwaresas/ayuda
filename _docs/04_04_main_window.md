@@ -39,7 +39,7 @@ _**Imagen 4.** Ventana Visor_
 En la gráfica anterior, ventana Detalle de Materiales y Repuestos se aprecian todos sus componentes y su  respectivo contenido.
  
 Se encuentra toda la información relevante de inventarios sobre el Repuesto seleccionado en el Visor.
-A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación:
+A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación:}
 
 **Repuesto:** En este campo se registra el código del Repuesto, de acuerdo a la política de codificación que se haya definido.
 
@@ -91,72 +91,6 @@ _**Imagen 5.** Ventana Visor_
 
 **Precio Venta 1, Precio Venta 2, Precio Venta 3:** Estos campos son utilizados de tipo información  para almacenar los precios actuales, anteriores y promedio del repuesto, estos campos son parametrizables en en el modúlo <a class="btn blue">administración</a> en la etiqueta **Almacén**, en la opción  “Manejo de Precios de Venta” y elegir la opción ** “SI”**.
 
-
-# Ventana Submenú de Repuestos
-
-## Ir a RP
-
-El icono `<span class="iconify btn" data-icon="mdi-filter-variant">`Buscar, se abre un campo al lado izquierdo, donde se digita el código exacto del Repuesto que se desea encontrar rápidamente. Luego de digitar el código del Repuesto, se presiona la  tecla   “Enter” y  el  cursor  se  posiciona en  consecuencia,  sobre  el  Repuesto deseado en el Visor.
-
-![ventana detalle](../../assets/images/cap04/chp04_img06.png)
-
-En caso de escribir el código con algún error, el sistema muestra un mensaje de alerta indicando que el Repuesto no existe.
-
-![ventana detalle](../../assets/images/cap04/chp04_img0.png)
-
-## Indicadores
-
-Es posible visualizar de manera inmediata, los Repuestos activos, inactivos y con Multimedia, directamente desde la ventana visor, a través de la columna  “Indicadores” que muestra una pelota de color que indica su estado y si tiene asociado Multimedia. El significado del color de cada pelota, se puede ver en el recuadro de Indicadores, ubicado en la parte superior derecha de la ventana visor.
-
-![materiales y repuestos ](../../assets/images/cap04/chp04_img07.png)
-
-El significado de los colores se visualiza al sobreponer el mouse en el icono que se encuentra al extremo superior derecho y su correspondencia es:
-
-- **Rojo:** Repuestos definidos con estado inactivo.
-- **Verde:** Repuestos definidos con estado activo.
-- **Naranja:** Repuestos que tienen asociados archivos de imágenes, videos y/o documentos en la pestaña Multimedia.
-
-## Subgrupo
-
-Se usa para seleccionar grupos de Repuestos que cumplen un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al `<span class="iconify btn" data-icon=filter-variant>`icono de filtro, ubicado en la parte superior derecha de la ventana Visor de Almacén de Repuestos.
-
-![materiales y repuestos ](../../assets/images/cap04/chp04_img08.png)
-
-Se usa para seleccionar grupos de Repuestos que cumplen un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al  `<span class="iconify btn" data-icon=filter-variant>`icono de filtro, ubicado en la parte superior derecha de la ventana Visor de Almacén de Repuestos.
-
-![materiales y repuestos ](../../assets/images/cap04/chp04_img09.png)
-
-Los campos de datos que constituyen criterio de selección haciendo parte de la Ventana
-Subgrupo de Repuestos son los siguientes.
-
-**A, B, C, O:** Permite seleccionar los repuestos que tengan una clasificación A, B, C u O definida.
-
-**Casilla:** Esta opción permite seleccionar y agrupar aquellos Repuestos que se encuentran en la casilla que se especificó después de marcar el criterio de selección.
-
-**Clase:** Esta opción permite seleccionar aquellos Repuestos que cumplen con el patrón de clase especificado. También se puede usar los comodines, por Ej. B, B%
-
-**Código de Barras Interno:** Si existe un código de barras interno dentro de la organización para codificar Repuestos; este campo permite seleccionar el Repue
-sto  que se encuentre asociado al Código de Barras Interno que se ingresó al crear el Repuesto. En este campo se puede usar los comodines, por Ej. %1%, 1%
-
-**Código de Barras Proveedor:**Permite  seleccionar  el  Repuesto  que  se   encuentre asociado al Código de Barras del Proveedor que se ingresó al crear el Repuesto. En este campo se puede usar los comodines, por Ej. %1%, 1%
-
-**Código del Repuesto:** Esta selección agrupa los Repuestos relacionados por su  código. Por ejemplo: si se escribe BAN%, se seleccionan todos los Repuestos cuyo  código inicia por BAN. Si se escribe  	TR%  se seleccionan todos los Repuestos cuyo código inicie por cualquier cuarteto de valores pero que en la quinta y sexta posición tengan un TR. El porcentaje es un carácter comodín que significa  “todos”.
-
-**Descripción del Repuesto:** Selecciona los Repuestos según criterios que se fundamenten en su descripción. Ejemplo: % Banda%  selecciona todos los Repuestos en cuya descripción, en cualquier posición, tengan la palabra  “Banda”.
-
-**Estado:** Permite seleccionar el Estado de los Repuestos, es posible registrar el estado  de Activo, Vencido, Excedente, Obsoleto o Inservible para el Repuesto activo.
-
-**Proveedor 1:** Lista los Repuestos por el Proveedor seleccionado. La búsqueda se realiza sobre los 3 campos de Proveedor de un repuesto (**Proveedor 1, 2, 3)**. También se puede elegir el Proveedor 1 mediante el uso de comodines, para ello, se debe dar clic al icono `<span class="iconify btn" data-icon=lock>`Candado. Si se selecciona la opción ** “Utilizar comodines”**, se digita la palabra, por ejemplo FER% y el sistema selecciona todos los Proveedores cuyo nombre empieza por FER. Si se escribe %IA% se seleccionan todos los Proveedores en cuyo nombre, en cualquier posición, tengan la palabra ** “IA”**.
-
-**Referencia Proveedor 1:** A través de esta opción es posible digitar el nombre de la referencia del Repuesto, seleccionar los Repuestos que  tienen como referencia proveedor 1 la que se especificó después de marcar el criterio de selección. Este campo permite el uso de
-
-**Referencia Proveedor 2:** Este criterio permite realizar consultas por la segunda referencia establecida perteneciente al segundo proveedor. Permite el uso de comodines, **por Ej. %BR1%, BR1%.**
-
-**Tipo:** Permite seleccionar de la lista el tipo al que pertenece el Repuesto, sí es inventariado o no inventariado.
-
-**Tipo de Trabajo:** Agrupa los Repuestos de acuerdo al tipo de trabajo al que están  asociados.
-
-**Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos  se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además  es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber realizado una selección es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección se da un clic al botón `<span class="iconify btn" data-icon="mdi-plus-circle">`Más,  en lugar de darlo al botón `<a class="btn">`Aceptar`</a>`.
 
 ## Vistas Parciales / Pestañas
 
@@ -243,6 +177,88 @@ Para desasociar un documento, o una imagen o un video, al AC se da clic al icono
 
 Si se desea descargar un archivo adjunto al RP, se debe dar clic en el icono `<span class="iconify btn" data-icon=cloud-download>`la nube con flecha hacia abajo
 , que se encuentra al lado derecho del archivo que se quiere descargar.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Ventana Submenú de Repuestos
+
+## Ir a RP
+
+El icono `<span class="iconify btn" data-icon="mdi-filter-variant">`Buscar, se abre un campo al lado izquierdo, donde se digita el código exacto del Repuesto que se desea encontrar rápidamente. Luego de digitar el código del Repuesto, se presiona la  tecla   “Enter” y  el  cursor  se  posiciona en  consecuencia,  sobre  el  Repuesto deseado en el Visor.
+
+![ventana detalle](../../assets/images/cap04/chp04_img06.png)
+
+En caso de escribir el código con algún error, el sistema muestra un mensaje de alerta indicando que el Repuesto no existe.
+
+![ventana detalle](../../assets/images/cap04/chp04_img0.png)
+
+## Indicadores
+
+Es posible visualizar de manera inmediata, los Repuestos activos, inactivos y con Multimedia, directamente desde la ventana visor, a través de la columna  “Indicadores” que muestra una pelota de color que indica su estado y si tiene asociado Multimedia. El significado del color de cada pelota, se puede ver en el recuadro de Indicadores, ubicado en la parte superior derecha de la ventana visor.
+
+![materiales y repuestos ](../../assets/images/cap04/chp04_img07.png)
+
+El significado de los colores se visualiza al sobreponer el mouse en el icono que se encuentra al extremo superior derecho y su correspondencia es:
+
+- **Rojo:** Repuestos definidos con estado inactivo.
+- **Verde:** Repuestos definidos con estado activo.
+- **Naranja:** Repuestos que tienen asociados archivos de imágenes, videos y/o documentos en la pestaña Multimedia.
+
+## Subgrupo
+
+Se usa para seleccionar grupos de Repuestos que cumplen un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al `<span class="iconify btn" data-icon=filter-variant>`icono de filtro, ubicado en la parte superior derecha de la ventana Visor de Almacén de Repuestos.
+
+![materiales y repuestos ](../../assets/images/cap04/chp04_img08.png)
+
+Se usa para seleccionar grupos de Repuestos que cumplen un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al  `<span class="iconify btn" data-icon=filter-variant>`icono de filtro, ubicado en la parte superior derecha de la ventana Visor de Almacén de Repuestos.
+
+![materiales y repuestos ](../../assets/images/cap04/chp04_img09.png)
+
+Los campos de datos que constituyen criterio de selección haciendo parte de la Ventana
+Subgrupo de Repuestos son los siguientes.
+
+**A, B, C, O:** Permite seleccionar los repuestos que tengan una clasificación A, B, C u O definida.
+
+**Casilla:** Esta opción permite seleccionar y agrupar aquellos Repuestos que se encuentran en la casilla que se especificó después de marcar el criterio de selección.
+
+**Clase:** Esta opción permite seleccionar aquellos Repuestos que cumplen con el patrón de clase especificado. También se puede usar los comodines, por Ej. B, B%
+
+**Código de Barras Interno:** Si existe un código de barras interno dentro de la organización para codificar Repuestos; este campo permite seleccionar el Repue
+sto  que se encuentre asociado al Código de Barras Interno que se ingresó al crear el Repuesto. En este campo se puede usar los comodines, por Ej. %1%, 1%
+
+**Código de Barras Proveedor:**Permite  seleccionar  el  Repuesto  que  se   encuentre asociado al Código de Barras del Proveedor que se ingresó al crear el Repuesto. En este campo se puede usar los comodines, por Ej. %1%, 1%
+
+**Código del Repuesto:** Esta selección agrupa los Repuestos relacionados por su  código. Por ejemplo: si se escribe BAN%, se seleccionan todos los Repuestos cuyo  código inicia por BAN. Si se escribe  	TR%  se seleccionan todos los Repuestos cuyo código inicie por cualquier cuarteto de valores pero que en la quinta y sexta posición tengan un TR. El porcentaje es un carácter comodín que significa  “todos”.
+
+**Descripción del Repuesto:** Selecciona los Repuestos según criterios que se fundamenten en su descripción. Ejemplo: % Banda%  selecciona todos los Repuestos en cuya descripción, en cualquier posición, tengan la palabra  “Banda”.
+
+**Estado:** Permite seleccionar el Estado de los Repuestos, es posible registrar el estado  de Activo, Vencido, Excedente, Obsoleto o Inservible para el Repuesto activo.
+
+**Proveedor 1:** Lista los Repuestos por el Proveedor seleccionado. La búsqueda se realiza sobre los 3 campos de Proveedor de un repuesto (**Proveedor 1, 2, 3)**. También se puede elegir el Proveedor 1 mediante el uso de comodines, para ello, se debe dar clic al icono `<span class="iconify btn" data-icon=lock>`Candado. Si se selecciona la opción ** “Utilizar comodines”**, se digita la palabra, por ejemplo FER% y el sistema selecciona todos los Proveedores cuyo nombre empieza por FER. Si se escribe %IA% se seleccionan todos los Proveedores en cuyo nombre, en cualquier posición, tengan la palabra ** “IA”**.
+
+**Referencia Proveedor 1:** A través de esta opción es posible digitar el nombre de la referencia del Repuesto, seleccionar los Repuestos que  tienen como referencia proveedor 1 la que se especificó después de marcar el criterio de selección. Este campo permite el uso de
+
+**Referencia Proveedor 2:** Este criterio permite realizar consultas por la segunda referencia establecida perteneciente al segundo proveedor. Permite el uso de comodines, **por Ej. %BR1%, BR1%.**
+
+**Tipo:** Permite seleccionar de la lista el tipo al que pertenece el Repuesto, sí es inventariado o no inventariado.
+
+**Tipo de Trabajo:** Agrupa los Repuestos de acuerdo al tipo de trabajo al que están  asociados.
+
+**Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos  se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además  es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber realizado una selección es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección se da un clic al botón `<span class="iconify btn" data-icon="mdi-plus-circle">`Más,  en lugar de darlo al botón `<a class="btn">`Aceptar`</a>`.
+
+
 
 ## Transacciones
 
