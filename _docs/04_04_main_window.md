@@ -148,6 +148,12 @@ En la gráfica anterior, Vista Parcial de Características, se aprecian las dos 
 
 P﻿ara ingresar una caracteristica técnica al Repuesto dar clic en el botón <a class="btn blue">Adicionar Car. Técnica</a>
 
+A﻿ continuación se muestra el formulario para ingresar la Característica:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img08.png)
+_**Imagen 8.** Ventana Visor_
+
+L﻿a Característica Técnica se debe de seleccionar del listado que corresponde a su respectiva tabla de Infraestructura - Características, una vez ingresado el valor 
 
 ### Multimedia
 
