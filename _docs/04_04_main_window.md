@@ -151,12 +151,12 @@ P﻿ara ingresar una caracteristica técnica al Repuesto dar clic en el botón <
 A﻿ continuación se muestra el formulario para ingresar la Característica:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img08.png)
-_**Imagen 8.** Ventana Visor_
+_**Imagen 8.** -Ingresar Característica - Formulario_
 
 L﻿a Característica Técnica se debe de seleccionar del listado que corresponde a su respectiva tabla de Infraestructura - Características, una vez ingresado el valor se debe dar un clic en el botón  <span class="mdi mdi-plus-circle icon white"></span>. Automáticamente el sistema la registra en la tabla de **Car. Técnica**.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img09.png)
-_**Imagen 9.** Ventana Visor_
+_**Imagen 9.** Adicionar Caracteríctica_
 
 ### Multimedia
 
