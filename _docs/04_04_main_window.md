@@ -161,7 +161,7 @@ _**Imagen 9.** Adicionar Caracteríctica_
 ### Multimedia
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img10.png)
-_**Imagen 10.** Ventana Visor_
+_**Imagen 10.** Vistas Parciales - Multimedia_
 
 En la gráfica anterior, Ventana Multimedia, se aprecian sus componentes y sus respectivos contenidos.
 
