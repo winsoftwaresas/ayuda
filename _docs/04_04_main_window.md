@@ -34,7 +34,7 @@ Los títulos en azul que encabezan las columnas son también botones que permite
 ## Ventana Detalle
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img04.png)
-_**Imagen 4.** Ventana Visor_
+_**Imagen 4.** Ventana Detalle_ 
 
 En la gráfica anterior, ventana Detalle de Materiales y Repuestos se aprecian todos sus componentes y su  respectivo contenido.
  
@@ -53,7 +53,7 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img05.png)
-_**Imagen 5.** Ventana Visor_
+_**Imagen 5.** Información General_
 
 **Clase:** Es un campo que permite clasificar o agrupar los artículos del Almacén por un criterio particular para la Organización.
 
@@ -107,7 +107,7 @@ Las Vistas Parciales o Pestañas permiten complementar la información que se de
 En la pestaña de Ficha Técnica, se encuentra toda la información relevante del Repuesto seleccionado en el Visor.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img06.png)
-_**Imagen 6.** Ventana Visor_
+_**Imagen 6.** Vistas Parciales - Ficha Técnica_
 
 A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación:
 
@@ -136,7 +136,7 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 Esta opción permite definir para un determinado Repuesto las características técnicas que lo definen. En la parte izquierda de la ventana aparece un nuevo Visor en el que irán apareciendo las Características Técnicas que se van creando en la ventana Detalle, mientras que en la parte derecha aparece los campos para crear o actualizar la información de las características.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img07.png)
-_**Imagen 7.** Ventana Visor_
+_**Imagen 7.** Vistas Parciales - Características Técnicas_
 
 En la gráfica anterior, Vista Parcial de Características, se aprecian las dos columnas  de componentes y sus respectivos contenidos. A continuación se describen los  campos que componen esta ventana de información adicional:
 
@@ -160,7 +160,8 @@ _**Imagen 9.** Ventana Visor_
 
 ### Multimedia
 
-![ detalle de materiales y repuestos ](../../assets/images/cap04/chp04_img12.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img10.png)
+_**Imagen 10.** Ventana Visor_
 
 En la gráfica anterior, Ventana Multimedia, se aprecian sus componentes y sus respectivos contenidos.
 
