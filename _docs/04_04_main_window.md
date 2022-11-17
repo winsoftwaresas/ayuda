@@ -156,7 +156,9 @@ _**Imagen 8.** -Ingresar Característica - Formulario_
 L﻿a Característica Técnica se debe de seleccionar del listado que corresponde a su respectiva tabla de Infraestructura - Características, una vez ingresado el valor se debe dar un clic en el botón  <span class="mdi mdi-plus-circle icon white"></span>. Automáticamente el sistema la registra en la tabla de **Car. Técnica**.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img09.png)
-_**Imagen 9.** Adicionar Caracteríctica_
+_**Imagen 9.** Adicionar Característica_
+
+P﻿ara eliminar una registro se debe dar clic en el icono <span class="mdi mdi-delete"></span>
 
 ### Multimedia
 
