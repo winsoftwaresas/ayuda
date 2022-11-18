@@ -158,7 +158,10 @@ L﻿a Característica Técnica se debe de seleccionar del listado que correspond
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img09.png)
 _**Imagen 9.** Adicionar Característica_
 
-P﻿ara eliminar una registro se debe dar clic en el icono <span class="mdi mdi-delete"></span>
+P﻿ara eliminar una registro se debe dar clic en el icono <span class="mdi mdi-delete"></span>. El sistema muestra un mensaje alerta para confirmar la transacción:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img10.png)
+_**Imagen 10.** Adicionar Característica_
 
 ### Multimedia
 
