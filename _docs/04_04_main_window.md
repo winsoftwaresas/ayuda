@@ -168,12 +168,12 @@ _**Imagen 10.** Adicionar Característica_
 
 ### Multimedia
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img10.png)
-_**Imagen 10.** Vistas Parciales - Multimedia_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img11.png)
+_**Imagen 11.** Vistas Parciales - Multimedia_
 
 En la gráfica anterior, Ventana Multimedia, se aprecian sus componentes y sus respectivos contenidos.
 
-A través de la ventana Multimedia se adjunta información adicional al RP en cada una de sus carpetas asignadas. Esta opción permite asociar al RP, uno o varios documentos, con el  objetivo de facilitar el trabajo a  realizar,  o guiarlo, o detallarlo minuciosamente. Se aceptan documentos de extensiones .**DOC, XLS, PDF, JPG,** es decir, de Microsoft Word o Microsoft Excel, Acrobat o Imágenes varias.
+A través de la ventana Multimedia se adjunta información adicional al RP en cada una de sus carpetas asignadas. Esta opción permite asociar al RP, uno o varios documentos, con el  objetivo de facilitar el trabajo a  realizar,  o guiarlo, o detallarlo minuciosamente. Se aceptan documentos de extensiones .**DOC, XLS, PDF, JPG** es decir, de Microsoft Word o Microsoft Excel, Acrobat o Imágenes varias.
 
 **Los documentos anexos pueden contener:** ayudas necesarias en la ejecución de la OT que se genera desde un EQ: planos, manuales técnicos, manuales de normas  técnicas de Mantenimiento o de especificaciones detalladas, normas de seguridad, enfoques de acción, procedimientos sobre cómo realizar la labor, check lists, protocolos de prueba y otra información estándar para su ejecución, en aras de optimizar los recursos de tiempo y de insumos a ser consumidos, como también en aras de preservar la  seguridad del recurso humano.
 
