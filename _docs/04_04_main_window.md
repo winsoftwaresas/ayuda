@@ -190,7 +190,7 @@ A continuación se describen las carpetas que componen esta ventana; cuando se q
 
 Para adicionar un documento, imagen o video, se debe dar un doble clic sobre la carpeta deseada, y luego seleccionar del ícono de nube <span class="mdi mdi-cloud-upload icon white"></span>, como se muestra a continuación:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img12.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img12.png)
 _**Imagen 12.** Almacén - Abrir Explorador Archivos_
 
 A continuación se abre el explorador de archivos, seguido de seleccionar el archivo dar un clic en <a class="btn">abrir</a>.
