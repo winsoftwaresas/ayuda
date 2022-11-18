@@ -163,8 +163,7 @@ P﻿ara eliminar una registro se debe dar clic en el icono <span class="mdi mdi-
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img10.png)
 _**Imagen 10.** Adicionar Característica_
 
->﻿**Nota:** Para asentar los cambios de añadir o eliminar una característica se debe dar clic en el botón <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a>.
-
+>﻿**Nota:** Para asentar los cambios de alguna modificación, añadir o eliminar una característica se debe dar clic en el botón <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a>.
 
 
 ### Multimedia
