@@ -195,8 +195,8 @@ _**Imagen 12.** Almacén - Abrir Explorador Archivos_
 
 A continuación se abre el explorador de archivos, seguido de seleccionar el archivo dar un clic en <a class="btn">abrir</a>.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img09.png)
-***Imagen 7.** Solicitudes - Seleccionar Archivos*
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img13.png)
+_**Imagen 13.** Solicitudes - Seleccionar Archivos_
 
 De manera adicional u opcional se puede escribir un nombre en el siguiente campo para enfatizar de lo que trata el archivo:
 
