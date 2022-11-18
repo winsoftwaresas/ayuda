@@ -168,42 +168,53 @@ _**Imagen 10.** Adicionar Característica_
 
 ### Multimedia
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img11.png)
-_**Imagen 11.** Vistas Parciales - Multimedia_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img11.png)
+_**Imagen 11.** Almacén - Multimedia_
 
 En la gráfica anterior, Ventana Multimedia, se aprecian sus componentes y sus respectivos contenidos.
 
-A través de la ventana Multimedia se adjunta información adicional al RP en cada una de sus carpetas asignadas. Esta opción permite asociar al RP, uno o varios documentos, con el  objetivo de facilitar el trabajo a  realizar,  o guiarlo, o detallarlo minuciosamente. Se aceptan documentos de extensiones .**DOC, XLS, PDF, JPG** es decir, de Microsoft Word o Microsoft Excel, Acrobat o Imágenes varias.
+A través de la ventana Multimedia se adjunta información adicional a la SS en cada una de sus carpetas asignadas. Esta opción permite asociar a la SS uno o varios documentos, con el objetivo de facilitar o guiar el trabajo a realizar o detallarlo minuciosamente. AM acepta documentos de extensiones .DOC, XLS, PDF, JPG es decir, de Microsoft Word o Microsoft Excel, Acrobat o Imágenes. 
 
-**Los documentos anexos pueden contener:** ayudas necesarias en la ejecución de la OT que se genera desde un EQ: planos, manuales técnicos, manuales de normas  técnicas de Mantenimiento o de especificaciones detalladas, normas de seguridad, enfoques de acción, procedimientos sobre cómo realizar la labor, check lists, protocolos de prueba y otra información estándar para su ejecución, en aras de optimizar los recursos de tiempo y de insumos a ser consumidos, como también en aras de preservar la  seguridad del recurso humano.
+Los documentos anexos pueden contener ayudas necesarias en la ejecución de la SS, planos, manuales técnicos, manuales de normas técnicas de Mantenimiento o de especificaciones detalladas, normas de seguridad, enfoques de acción, procedimientos sobre cómo realizar la labor, listas de verificación, protocolos de prueba u otra información estándar para su ejecución.
 
-A continuación se describen las carpetas que componen esta ventana; cuando se quiera actualizar o ingresar nueva información al RP, se deberán registrar así:
+A continuación se describen las carpetas que componen esta ventana; cuando se quiera actualizar o ingresar nueva información a la SS, se deberán registrar así:
 
-**Cuadro Identificación:** Aparece con los campos bloqueados para que el usuario visualice la información básica del Repuesto al cual se le están definiendo las Características.
+**Que Hacer:** Es la información general que aparece en cada pestaña con los campos bloqueados para que el usuario visualice la información básica de la SS.
 
-**Documentos:** En esta carpeta se relacionan toda clase de documentación relacionada al RP. Ejemplo: Archivos en Word, pdf, Excel, entre otros.
+**Documentos:** En esta carpeta se relaciona toda clase de documentación relacionada a la SS. Ejemplo: Archivos en Word, PDF, Excel, entre otros.
 
-**Imágenes:** En esta carpeta se relacionan toda clase de imágenes relacionadas al RP. Ejemplo: Imágenes en formato jpg, png, entre otros.
+**Imágenes:** En esta carpeta se relaciona toda clase de imágenes relacionadas a la SS. Ejemplo: Imágenes en formato JPG, PNG, entre otros.
 
-**Videos:** En esta carpeta se relacionan porciones de videos relacionados al RP. Ejemplo: Videos en formato wmv, entre otros.
+**Videos:** En esta carpeta se relacionan porciones de videos relacionados a la SS. Ejemplo: Videos en formato wmv y mp4.
 
-![ detalle de materiales y repuestos ](../../assets/images/cap04/chp04_img13.png)
+Para adicionar un documento, imagen o video, se debe dar un doble clic sobre la carpeta deseada, y luego seleccionar del ícono de nube <span class="mdi mdi-cloud-upload icon white"></span>, como se muestra a continuación:
 
-Para adicionar un documento, imagen o video, se debe dar clic en la carpeta deseada, luego se da clic al icono `<span class="iconify btn" data-icon="cloud-upload">`Cargar
-, a continuación se abre una nueva ventana para realizar la búsqueda del archivo a subir,  se selecciona el archivo y se da clic en `<a class="btn">`Abrir`</a>`.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img08.png)
+_**Imagen 6.** Solicitudes - Abrir Explorador Archivos_
 
-![ detalle de materiales y repuestos ](../../assets/images/cap04/chp04_img14.png)
+A continuación se abre el explorador de archivos, seguido de seleccionar el archivo dar un clic en <a class="btn">abrir</a>.
 
-Una vez se da clic en`<a class="btn">`Abrir`</a>`, se evidencia al lado derecho el nombre del archivo elegido y aparece un campo en blanco, para que el usuario escriba un nombre adicional del archivo para ser usado como una referenciación del archivo adjunto. Luego, se da clic en el botón `<a class="btn">` “Subir archivo”`</a>`.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img09.png)
+***Imagen 7.** Solicitudes - Seleccionar Archivos*
 
-![ detalle de materiales y repuestos ](../../assets/images/cap04/chp04_img15.png)
+De manera adicional u opcional se puede escribir un nombre en el siguiente campo para enfatizar de lo que trata el archivo:
 
-Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic en uno de las imágenes, se visualiza la imagen adjunta.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img10.png)
+_**Imagen 8.** Solicitudes - Nombrar Archivo_
 
-Para desasociar un documento, o una imagen o un video, al AC se da clic al icono de `<span class="iconify btn" data-icon=delete>`eliminar (basura) que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro y se da clic en el botón `<a class="btn">`Aceptar`</a>`.
+P﻿ara finalizar se debe de dar un clic en el el botón <a class="btn  blue">subir Archivo</a>. El sistema confirma a través de un mensaje que se ha subido el archivo satisfactoriamente.
+ ﻿
+Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic sobre el nombre de una de las imágenes, se muestra la previsualización, como se muestra a continuación:
 
-Si se desea descargar un archivo adjunto al RP, se debe dar clic en el icono `<span class="iconify btn" data-icon=cloud-download>`la nube con flecha hacia abajo
-, que se encuentra al lado derecho del archivo que se quiere descargar.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img11.png)
+***Imagen 9.** Solicitudes - Previsualización de imagen*
+
+Para desasociar un documento, o una imagen o un video, a la SS se da clic al icono de basura <span class="mdi mdi-delete"></span> que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro, finalmente confirmar con el botón <a class="btn white">Aceptar</a>.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img12.png)
+_**Imagen 10.** Solicitudes - Desasociar un Archivo_
+
+Si se desea descargar un archivo adjunto a la SS, se debe dar clic en el ícono de nube con direccional hacia abajo <span class="mdi mdi-cloud-download icon white"></span> la nube con flecha hacia abajo que se encuentra al lado derecho del archivo que se quiere descargar.
 
 
 
