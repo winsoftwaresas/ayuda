@@ -223,9 +223,11 @@ Si se desea descargar un archivo adjunto, se debe dar clic en el ícono de nube 
 
 ## Ir a RP
 
-El icono `<span class="iconify btn" data-icon="mdi-filter-variant">`Buscar, se abre un campo al lado izquierdo, donde se digita el código exacto del Repuesto que se desea encontrar rápidamente. Luego de digitar el código del Repuesto, se presiona la  tecla   “Enter” y  el  cursor  se  posiciona en  consecuencia,  sobre  el  Repuesto deseado en el Visor.
+El icono <span class="mdi mdi-magnify"></span> se abre un campo al lado izquierdo, donde se digita el código completo del Repuesto que se desea encontrar rápidamente. Luego de digitar el código del Repuesto, se presiona la  tecla   “Enter” y  el  cursor se posiciona en  consecuencia,  sobre  el  Repuesto deseado en el Visor sombreado por la línea de color verde así:
 
-![ventana detalle](../../assets/images/cap04/chp04_img06.png)
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img17.png) 
+_**Imagen 17.** Almacén - Desasociar un Archivo_
 
 En caso de escribir el código con algún error, el sistema muestra un mensaje de alerta indicando que el Repuesto no existe.
 
