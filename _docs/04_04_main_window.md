@@ -217,19 +217,7 @@ _**Imagen 16.** Almacén - Desasociar un Archivo_
 
 Si se desea descargar un archivo adjunto, se debe dar clic en el ícono de nube con direccional hacia abajo <span class="mdi mdi-cloud-download icon white"></span> la nube con flecha hacia abajo que se encuentra al lado derecho del archivo que se quiere descargar.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+>﻿_**Nota:** Este proceso es el mismo para cualquiera de las tres carpetas de Multimedia._
 
 # Ventana Submenú de Repuestos
 
