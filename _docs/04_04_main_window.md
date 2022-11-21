@@ -208,12 +208,12 @@ P﻿ara finalizar se debe de dar un clic en el el botón <a class="btn  blue">su
 Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic sobre el nombre de una de las imágenes, se muestra la previsualización, como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img15.png)
-***Imagen 15.** Almacén  - Previsualización de imagen*
+_**Imagen 15.** Almacén  - Previsualización de imagen_
 
-Para desasociar un documento, o una imagen o un video, a la SS se da clic al icono de basura <span class="mdi mdi-delete"></span> que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro, finalmente confirmar con el botón <a class="btn white">Aceptar</a>.
+Para desasociar un documento, o una imagen o un video, se da clic al icono de basura <span class="mdi mdi-delete"></span> que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro, finalmente confirmar con el botón <a class="btn white">Aceptar</a>.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img12.png)
-_**Imagen 10.** Solicitudes - Desasociar un Archivo_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img16.png)
+_**Imagen 16.** Almacén - Desasociar un Archivo_
 
 Si se desea descargar un archivo adjunto a la SS, se debe dar clic en el ícono de nube con direccional hacia abajo <span class="mdi mdi-cloud-download icon white"></span> la nube con flecha hacia abajo que se encuentra al lado derecho del archivo que se quiere descargar.
 
