@@ -207,8 +207,8 @@ P﻿ara finalizar se debe de dar un clic en el el botón <a class="btn  blue">su
  ﻿
 Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic sobre el nombre de una de las imágenes, se muestra la previsualización, como se muestra a continuación:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img11.png)
-***Imagen 9.** Solicitudes - Previsualización de imagen*
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img15.png)
+***Imagen 15.** Almacén  - Previsualización de imagen*
 
 Para desasociar un documento, o una imagen o un video, a la SS se da clic al icono de basura <span class="mdi mdi-delete"></span> que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro, finalmente confirmar con el botón <a class="btn white">Aceptar</a>.
 
