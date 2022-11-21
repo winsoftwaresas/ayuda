@@ -21,6 +21,7 @@
   - 03_02_basic_concepts
   - 03_03_data_sheet
   - 03_04_parts_list
+  - 03_05_crossing_assets
 
 - title: Almacenes, Materiales y Repuestos
   docs:
@@ -66,6 +67,7 @@
   - 10_03_send_to_history
   - 10_04_main_window
   - 10_05_export
+  - 10_06_filed_history
 
 - title: Programas de mantenimiento
   docs:
