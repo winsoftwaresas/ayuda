@@ -227,11 +227,12 @@ El icono <span class="mdi mdi-magnify"></span> se abre un campo al lado izquierd
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img17.png) 
-_**Imagen 17.** Almacén - Desasociar un Archivo_
+_**Imagen 17.** Almacén - Ir a RP_
 
 En caso de escribir el código con algún error, el sistema muestra un mensaje de alerta indicando que el Repuesto no existe.
 
-![ventana detalle](../../assets/images/cap04/chp04_img0.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img18.png) 
+_**Imagen 18.** Almacén - Mensaje alerta RP_  
 
 ## Indicadores
 
