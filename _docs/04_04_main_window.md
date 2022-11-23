@@ -236,9 +236,10 @@ _**Imagen 18.** Almacén - Mensaje alerta RP_
 
 ## Indicadores
 
-Es posible visualizar de manera inmediata, los Repuestos activos, inactivos y con Multimedia, directamente desde la ventana visor, a través de la columna  “Indicadores” que muestra una pelota de color que indica su estado y si tiene asociado Multimedia. El significado del color de cada pelota, se puede ver en el recuadro de Indicadores, ubicado en la parte superior derecha de la ventana visor.
+Es posible visualizar de manera inmediata, los Repuestos activos, inactivos y con Multimedia, directamente desde la ventana visor, a través de la columna  “Indicadores” que muestra una pelota de color que indica su estado. El significado del color de cada pelota, se puede ver en el icono  <span class="mdi mdi-message-alert"></span> ubicado en la parte superior derecha de la ventana visor:
 
-![materiales y repuestos ](../../assets/images/cap04/chp04_img07.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img19.png) 
+_**Imagen 19.** Almacén - Mensaje alerta RP_  
 
 El significado de los colores se visualiza al sobreponer el mouse en el icono que se encuentra al extremo superior derecho y su correspondencia es:
 
