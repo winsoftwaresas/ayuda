@@ -1,5 +1,24 @@
 # Changelog page source
 
+- title: AM4G  Version 0.86
+  label: STABLE
+  date: Noviembre 11, 2022
+  list:
+   - En los listados desplegables se cambia el seleccionador por un filtro.
+   - Se desarrolla la parametrización para solicitar la Fecha Tentativa (AMSi).
+   - Se desarrolla una validación para que la Fecha Tentativa ingresada por el usuario no sea Inferior a la fecha de la solicitud (AMSi).
+   - Se desarrolla en el modulo de Activos el submódulo Cruce De Activos.
+   - Se desarrolla el reporte ACR-INV Resumen De Activos con su Último Mantenimiento Realizado.
+   - Se adicionan en el modulo de Programas los filtros de búsqueda por FF de Ultima Generación y Responsable por la Institución.
+   - Las Solicitudes Cerradas Ejecutadas y Cerradas No Ejecutadas luego de encontrarse en este Estado no permitirán el cambio de estado o FF De Atención.
+   - Por defecto los usuarios no podrán realizar ningún cambio sobre una Orden Cerrada Ejecutada o Cancelada.
+   - Se preselecciona siempre la opción Ejecución en tiempo Real al relacionar un responsable al Oficio en la matriz de Gasto Real.
+   - Se cambia el total de la Matriz de Presupuesto–Real a Real–Presupuesto.
+   - Se desarrolla la función de Eliminar Masivamente en Historia. 
+   - Se desarrolla la función de Eliminar Masivamente en Historia Archivada. 
+   - Se desarrollan permisos restrictivos independientes para los usuarios de AMovil.
+   - Se crea el usuario Manager con el fin de que el administrador del sistema pueda solucionar problemas por bloqueos de concurrencia.
+   
 - title: AM4G  Version 0.85
   label: STABLE
   date: Octubre 03, 2022
