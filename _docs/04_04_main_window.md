@@ -257,6 +257,9 @@ _**Imagen 20.** Almacén - Ir a Subgrupo_
 
 Los campos que constituyen un criterio de selección haciendo parte de la Ventana Subgrupo de Repuestos son los siguientes:
 
+![Procesar imagen](https://ayuda.winsoftware.com.Sco/assets/images/cap04/chp04_img21.png)
+_**Imagen 21.** Almacén - Subgrupo Materiales y Repuestos_
+
 **A, B, C, O:** Permite seleccionar los repuestos que tengan una clasificación A, B, C u O definida.
 
 **Casilla:** Esta opción permite seleccionar y agrupar aquellos Repuestos que se encuentran en la casilla que se especificó después de marcar el criterio de selección.
