@@ -254,12 +254,8 @@ Se usa para filtrar o seleccionar grupos de Repuestos que cumplen un conjunto de
 ![Procesar imagen](https://ayuda.winsoftware.com.Sco/assets/images/cap04/chp04_img20.png)
 _**Imagen 20.** Almacén - Ir a Subgrupo_
 
-Se usa para seleccionar grupos de Repuestos que cumplen un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al  `<span class="iconify btn" data-icon=filter-variant>`icono de filtro, ubicado en la parte superior derecha de la ventana Visor de Almacén de Repuestos.
 
-![materiales y repuestos ](../../assets/images/cap04/chp04_img09.png)
-
-Los campos de datos que constituyen criterio de selección haciendo parte de la Ventana
-Subgrupo de Repuestos son los siguientes.
+Los campos que constituyen un criterio de selección haciendo parte de la Ventana Subgrupo de Repuestos son los siguientes:
 
 **A, B, C, O:** Permite seleccionar los repuestos que tengan una clasificación A, B, C u O definida.
 
