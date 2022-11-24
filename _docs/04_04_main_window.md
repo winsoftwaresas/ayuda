@@ -260,16 +260,15 @@ Los campos que constituyen un criterio de selección haciendo parte de la Ventan
 ![Procesar imagen](https://ayuda.winsoftware.com.Sco/assets/images/cap04/chp04_img21.png)
 _**Imagen 21.** Almacén - Subgrupo Materiales y Repuestos_
 
-**A, B, C, O:** Permite seleccionar los repuestos que tengan una clasificación A, B, C u O definida.
+**A, B, C, O:** Permite encontrar  los repuestos que tengan una clasificación A, B, C u O definida.
 
-**Casilla:** Esta opción permite seleccionar y agrupar aquellos Repuestos que se encuentran en la casilla que se especificó después de marcar el criterio de selección.
+**Casilla:** Esta opción permite encontrar  y agrupar aquellos Repuestos que se encuentran en la casilla que se especificó en la información general del Repuesto.
 
-**Clase:** Esta opción permite seleccionar aquellos Repuestos que cumplen con el patrón de clase especificado. También se puede usar los comodines, por Ej. B, B%
+**Clase:** Esta opción permite encontrar  aquellos Repuestos que cumplen con el patrón de clase especificado. También se puede usar los comodines (%), Ejemplo: B, B%.
 
-**Código de Barras Interno:** Si existe un código de barras interno dentro de la organización para codificar Repuestos; este campo permite seleccionar el Repue
-sto  que se encuentre asociado al Código de Barras Interno que se ingresó al crear el Repuesto. En este campo se puede usar los comodines, por Ej. %1%, 1%
+**Código de Barras Interno:** Si existe un código de barras interno dentro de la organización para codificar Repuestos; este campo permite encontrar  el Repuesto  que se encuentre asociado al Código de Barras Interno que se ingresó al crear el Repuesto. En este campo se puede usar los comodines (%), Ejemplo: %1%, 1%.
 
-**Código de Barras Proveedor:**Permite  seleccionar  el  Repuesto  que  se   encuentre asociado al Código de Barras del Proveedor que se ingresó al crear el Repuesto. En este campo se puede usar los comodines, por Ej. %1%, 1%
+**Código de Barras Proveedor:**Permite encontrar el  Repuesto  que  se   encuentre asociado al Código de Barras del Proveedor que se ingresó al crear el Repuesto. En este campo se puede usar los comodines (%), Ejemplo: %1%, 1%.
 
 **Código del Repuesto:** Esta selección agrupa los Repuestos relacionados por su  código. Por ejemplo: si se escribe BAN%, se seleccionan todos los Repuestos cuyo  código inicia por BAN. Si se escribe  	TR%  se seleccionan todos los Repuestos cuyo código inicie por cualquier cuarteto de valores pero que en la quinta y sexta posición tengan un TR. El porcentaje es un carácter comodín que significa  “todos”.
 
