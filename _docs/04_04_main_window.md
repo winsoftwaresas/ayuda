@@ -251,13 +251,13 @@ El significado de los colores se visualiza al sobreponer el mouse en el icono qu
 
 Se usa para filtrar o seleccionar grupos de Repuestos que cumplen un conjunto de filtros o criterios. El objetivo de hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al icono de filtro <span class="mdi mdi-filter-variant"></span> ubicado en la parte superior derecha de la ventana Visor de Almacén de Repuestos.
 
-![Procesar imagen](https://ayuda.winsoftware.com.Sco/assets/images/cap04/chp04_img20.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img20.png)
 _**Imagen 20.** Almacén - Ir a Subgrupo_
 
 
 Los campos que constituyen un criterio de selección haciendo parte de la Ventana Subgrupo de Repuestos son los siguientes:
 
-![Procesar imagen](https://ayuda.winsoftware.com.Sco/assets/images/cap04/chp04_img21.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img21.png)
 _**Imagen 21.** Almacén - Subgrupo Materiales y Repuestos_
 
 **A, B, C, O:** Permite encontrar  los repuestos que tengan una clasificación A, B, C u O definida.
