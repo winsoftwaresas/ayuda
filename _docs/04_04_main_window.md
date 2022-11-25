@@ -278,15 +278,15 @@ _**Imagen 21.** Almacén - Subgrupo Materiales y Repuestos_
 
 **Proveedor 1:** Lista los Repuestos por el Proveedor seleccionado. La búsqueda se realiza sobre los 3 campos de Proveedor asociado al Repuesto **(Proveedor 1, 2, 3)**. Este campo despliega la lista de los Terceros Tipo PF de la tabla de Infraestructura. En este campo es posible usar comodines (%). Para introducir un nombre en campo manualmente se debe dar clic en el icono <span class="mdi mdi-lock"></span> el cual se habilita <span class="mdi mdi-lock-open-outline"></span> para permitir el ingreso del dato: por ejemplo FER% y el sistema selecciona todos los Proveedores cuyo nombre empieza por FER. Si se escribe %IA% se seleccionan todos los Proveedores en cuyo nombre, en cualquier posición, tengan la palabra **“IA”**.  
  ﻿
-**Referencia Proveedor 1:** A través de esta opción es posible digitar el nombre de la referencia del Repuesto, seleccionar los Repuestos que  tienen como referencia proveedor 1 la que se especificó después de marcar el criterio de selección. Este campo permite el uso de
+**Referencia Proveedor 1:** A través de esta opción es posible digitar el nombre de la referencia del Repuesto, seleccionar los Repuestos que  tienen como referencia proveedor 1. Este campo permite el uso de comodines(%) por ejemplo: %BR1%, BR1%.
 
-**Referencia Proveedor 2:** Este criterio permite realizar consultas por la segunda referencia establecida perteneciente al segundo proveedor. Permite el uso de comodines, **por Ej. %BR1%, BR1%.**
+**Referencia Proveedor 2:** Este criterio permite realizar consultas por la segunda referencia establecida perteneciente al segundo proveedor. Permite el uso de comodines (%), por ejemplo: %BR1%, BR1%.**
 
 **Tipo:** Permite seleccionar de la lista el tipo al que pertenece el Repuesto, sí es inventariado o no inventariado.
 
 **Tipo de Trabajo:** Agrupa los Repuestos de acuerdo al tipo de trabajo al que están  asociados.
 
-**Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos  se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además  es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber realizado una selección es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección se da un clic al botón `<span class="iconify btn" data-icon="mdi-plus-circle">`Más,  en lugar de darlo al botón `<a class="btn">`Aceptar`</a>`.
+>**Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos  se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además  es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber realizado una selección es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección se da un clic al botón <a class="btn white">Mas <span class="mdi mdi-plus-circle"></span></a> y luego en <a class="btn white">aceptar <span class="mdi mdi-check-circle"></span></a>.
 
 
 
