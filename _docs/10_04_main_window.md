@@ -575,6 +575,17 @@ En el Seguimiento o Cierre, además de los botones <a class="btn blue">Actualiza
 ***Imagen 173.** Historia - Detalle Bitácora en Seguimiento y Cierre*
 
 
+## Enviar a Historia Archivada 
+
+En ocasiones la Historia de Mantenimiento puede volverse pesada debido a grandes volúmenes de información que puede llegar a contener, esto afecta la base de datos y el sistema se ralentiza. 
+
+
+
+
+
+
+
+
 ### DashBoards
 
 Para acceder a esta opción, se debe sobreponer el cursor sobre el módulo de Historia y a continuación, dar un clic sobre la transacción, como se muestra en la siguiente imagen:
