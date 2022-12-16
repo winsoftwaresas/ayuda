@@ -577,7 +577,11 @@ En el Seguimiento o Cierre, además de los botones <a class="btn blue">Actualiza
 
 ## Enviar a Historia Archivada 
 
-En ocasiones la Historia de Mantenimiento puede volverse pesada debido a grandes volúmenes de información que puede llegar a contener, esto afecta la base de datos y el sistema se ralentiza. 
+En ocasiones la Historia de Mantenimiento puede volverse pesada debido a grandes volúmenes de información que puede llegar a contener, lo cual
+se afecta la base de datos y el sistema se ralentiza.  Por lo tanto se hace necesaria la herramienta Enviar a Historia Archivada. 
+
+De esta manera toda la información preseleccionada (Subgrupo) en el módulo de<a class="btn blue">Historia</a>, se transfiere a <a class="btn blue">Historia Archivada </a>
+
 
 
 
