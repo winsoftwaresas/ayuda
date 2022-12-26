@@ -577,7 +577,7 @@ En el Seguimiento o Cierre, además de los botones <a class="btn blue">Actualiza
 
 ## Enviar a Historia Archivada 
 
-En ocasiones la Historia de Mantenimiento puede volverse pesada debido a grandes volúmenes de información que puede llegar a contener,  lo cual, a falta de mantenimiento se afecta la base de datos y el sistema se ralentiza. Por lo tanto se hace necesaria la herramienta **Enviar a Historia Archivada**. De esta manera toda la información preseleccionada (Subgrupo) en el módulo de <a class="btn blue">Historia</a>, se transfiere a <a class="btn blue">Historia Archivada </a>, la cual tiene la característica de ser completamente independiente de la base de datos, es decir, toda la información a su origen que antes era fundamentada en links o enlaces con otros módulos como Infraestructura (Centro de Costo, Ubicación Física, Centro Responsable, Responsable), Repuestos y Activos se desaparecen y se resuelven quedando con la información real, es decir, ahora todos los campos son diligenciados y están grabados, por lo que se visualiza en una tabla plana que contiene la misma información pero inmodificable. Esto al suceder con un gran volumen de Órdenes, la base de datos se hace mas liviana y  ágil. Es así como se pueden hacer las mismas consultas de registros e impresión de un reporte básico disponible para analizar un registro individual (OT, SS o Paro). 
+En ocasiones la Historia de Mantenimiento puede volverse pesada debido a grandes volúmenes de información que puede llegar a contener,  lo cual, a falta de mantenimiento se afecta la base de datos y el sistema se ralentiza. Por lo tanto se hace necesaria la herramienta **Enviar a Historia Archivada**. De esta manera toda la información preseleccionada en el Subgrupo en el módulo de <a class="btn blue">Historia</a>, se transfiere a <a class="btn blue">Historia Archivada </a>, la cual tiene la característica de ser completamente independiente de la base de datos, es decir, toda la información a su origen que antes era fundamentada en links o enlaces con otros módulos como Infraestructura (Centro de Costo, Ubicación Física, Centro Responsable, Responsable), Repuestos y Activos se desaparecen y se resuelven quedando con la información real, es decir, ahora todos los campos son diligenciados y están grabados, por lo que se visualiza en una tabla plana que contiene la misma información pero inmodificable. Esto al suceder con un gran volumen de Órdenes, la base de datos se hace mas liviana y  ágil. Es así como se pueden hacer las mismas consultas de registros e impresión de un reporte básico disponible para analizar un registro individual (OT, SS o Paro). 
 
 
 E﻿s importante tener en cuenta que cuando se envían registros a <a class="btn blue">Historia Archivada</a> los enlaces desaparecen y se hace posible eliminar o hacer limpieza de registros muy antiguos como Centros de Costo, Terceros, Ubicaciones Físicas, Activos, entre otra información que no tenga uso o no sea vigente.
@@ -598,9 +598,9 @@ _**Imagen 175.** Historia - Enviar a Historia Archivada_
 A﻿ **Historia Archivada** se puede enviar un registro de OT, SS o Paro
 o un conjunto de registros preseleccionados:
 
-*﻿*Todas las HIs del visor:** Esta opción envía todos los registros históricos de la Ventana Visor, es decir, los registros preseleccionados a través del Subgrupo actual.
+**Todas las HIs del visor:** Esta opción envía todos los registros históricos de la Ventana Visor, es decir, los registros preseleccionados a través del Subgrupo actual.
 
-*﻿*La HI seleccionada:** Esta opción permite enviar el registro que está seleccionado en la Ventana Visor (el cursor verde se encuentra sobre él).
+**La HI seleccionada:** Esta opción permite enviar el registro que está seleccionado en la Ventana Visor (el cursor verde se encuentra sobre él).
 
 L﻿uego de seleccionar una de las opciones anteriores dar clic en el botón <a class="btn blue">Enviar a Historia Archivada</a>, en el cual aparecerá un mensaje de alerta para el usuario:
 
