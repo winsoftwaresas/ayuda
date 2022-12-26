@@ -607,6 +607,15 @@ L﻿uego de seleccionar una de las opciones anteriores dar clic en el botón <a 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img45.png)
 ***Imagen 176.** Historia - Detalle Bitácora en Seguimiento y Cierre*
 
+P﻿ara continuar con el proceso de envío dar clic en <a class="btn white">Aceptar</a>.
+
+C﻿uando el proceso termine, el sistema muestra un mensaje alerta confirmando el proceso con el número de registros enviados exitosamente entre paréntesis:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img46.png)
+***Imagen 177.** Historia - Detalle Bitácora en Seguimiento y Cierre*
+
+
+
 
 
 
