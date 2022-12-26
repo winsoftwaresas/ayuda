@@ -595,7 +595,9 @@ A﻿l ingresar a la transacción se muestra la siguiente ventana:
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img44.png)
 ***Imagen 175.** Historia - Detalle Bitácora en Seguimiento y Cierre*
 
-E
+A﻿ Historia Archivada se puede enviar un registro o un conjunto de registros preseleccionados:
+
+
 
 
 
