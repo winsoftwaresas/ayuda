@@ -651,13 +651,22 @@ _**Imagen 182.** Historia - Dashboard_
 El valor que está ubicado dentro del rectángulo verde, indica el número total de OT Históricas, SS o PA existentes en HI o existentes en el subgrupo realizado, según corresponda al DashBoard.
 
 ![Dashboard OT](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img31.png)
-_**Imagen 178.** Historia - Dashboard OT_
+_**Imagen 183.** Historia - Dashboard OT_
 
 Sí se desea restablecer la información, se debe dar clic al icono de las flechas circulares <span class="mdi mdi-autorenew"></span>. En cambio, si se desea exportar el gráfico en un formato de imagen, es posible dando clic a la flecha hacia abajo <span class="mdi mdi-download"></span>.
 
 ![Dashboard SS](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img32.png)
 
-_**Imagen 179.** Historia - Dashboard SS_
+_**Imagen 184.** Historia - Dashboard SS_
+
+
+### E﻿liminar Masivamente
+
+Eliminar masivamente se ejecuta cuando se tiene la certeza de la existencia  datos en <a class="btn blue">Historia</a> que no se necesitarán mas en adelante. Borrar masivamente Historia, implica no sólo eliminar datos del sistema sino también de la base de datos, lo que quiere decir que no se podrán hacer mas consultas, a gran diferencia del envío a **Historia Archivada** en la que los datos si se pueden consultar uno a uno e imprimir un reporte básico.   
+
+>**﻿Nota:** El resultado de ejecutar el ambos procesos da como resultado la ligereza de la base de datos, es decir, al d﻿esaparecer los links se hace posible la transacción **Eliminar Masivamente Historia**, es decir, datos basura sobre Terceros y Activos, siempre y cuando todo lo  se haya borrado desde Historia o bien se haya enviado a Historia Archivada.
+
+
 
 ## Exportar
 
