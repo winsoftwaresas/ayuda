@@ -588,12 +588,12 @@ P﻿ara enviar registros de **Historia** a **Historia Archivada**, previamente s
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img43.png)
-***Imagen 174.** Historia - Detalle Bitácora en Seguimiento y Cierre*
+_**Imagen 174.** Historia - Ir a Enviar a Historia Archivada_
 
 A﻿l ingresar a la transacción se muestra la siguiente ventana:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img44.png)
-***Imagen 175.** Historia - Detalle Bitácora en Seguimiento y Cierre*
+_**Imagen 175.** Historia - Enviar a Historia Archivada_
 
 A﻿ **Historia Archivada** se puede enviar un registro de OT, SS o Paro
 o un conjunto de registros preseleccionados:
@@ -605,14 +605,14 @@ o un conjunto de registros preseleccionados:
 L﻿uego de seleccionar una de las opciones anteriores dar clic en el botón <a class="btn blue">Enviar a Historia Archivada</a>, en el cual aparecerá un mensaje de alerta para el usuario:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img45.png)
-***Imagen 176.** Historia - Detalle Bitácora en Seguimiento y Cierre*
+_**Imagen 176.** Historia - Mensaje Alerta Enviar Historia Archivada_
 
 P﻿ara continuar con el proceso de envío dar clic en <a class="btn white">Aceptar</a>.
 
 C﻿uando el proceso termine, el sistema muestra un mensaje alerta confirmando el proceso con el número de registros enviados exitosamente entre paréntesis:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img46.png)
-***Imagen 177.** Historia - Detalle Bitácora en Seguimiento y Cierre*
+_**Imagen 177.** Historia - Mensaje Alerta Envío a Historia Archivada_
 
 
 
