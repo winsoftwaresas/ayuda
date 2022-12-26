@@ -614,6 +614,15 @@ C﻿uando el proceso termine, el sistema muestra un mensaje alerta confirmando e
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img46.png)
 _**Imagen 177.** Historia - Mensaje Alerta Envío a Historia Archivada_
 
+>﻿**Nota:** Si el número de registros a enviar es mayor a 5000 registros el sistema muestra un mensaje de advertencia.
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img47.png)
+_**Imagen 178.** Historia - Mensaje Advertencia_
+
+
+
+
 
 
 
