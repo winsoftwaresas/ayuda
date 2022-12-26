@@ -595,8 +595,12 @@ A﻿l ingresar a la transacción se muestra la siguiente ventana:
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img44.png)
 ***Imagen 175.** Historia - Detalle Bitácora en Seguimiento y Cierre*
 
-A﻿ Historia Archivada se puede enviar un registro o un conjunto de registros preseleccionados:
+A﻿ **Historia Archivada** se puede enviar un registro de OT, SS o Paro
+o un conjunto de registros preseleccionados:
 
+*﻿*Todas las HIs del visor:** Esta opción envía todos los registros históricos del visor, es decir, los registros preseleccionados a través del Subgrupo actual. 
+
+*﻿*La HI seleccionada:** Esta opción permite enviar  que esta seleccionado en la Ventana Visor (el cursor verde se encuentra sobre él)
 
 
 
