@@ -602,7 +602,10 @@ o un conjunto de registros preseleccionados:
 
 *﻿*La HI seleccionada:** Esta opción permite enviar el registro que está seleccionado en la Ventana Visor (el cursor verde se encuentra sobre él).
 
-L﻿uego de seleccionar una de las opciones anteriores
+L﻿uego de seleccionar una de las opciones anteriores dar clic en el botón <a class="btn blue">Enviar a Historia Archivada</a>, en el cual aparecerá un mensaje de alerta para el usuario:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img45.png)
+***Imagen 176.** Historia - Detalle Bitácora en Seguimiento y Cierre*
 
 
 
