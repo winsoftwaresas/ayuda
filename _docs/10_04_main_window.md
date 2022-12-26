@@ -598,9 +598,11 @@ A﻿l ingresar a la transacción se muestra la siguiente ventana:
 A﻿ **Historia Archivada** se puede enviar un registro de OT, SS o Paro
 o un conjunto de registros preseleccionados:
 
-*﻿*Todas las HIs del visor:** Esta opción envía todos los registros históricos del visor, es decir, los registros preseleccionados a través del Subgrupo actual. 
+*﻿*Todas las HIs del visor:** Esta opción envía todos los registros históricos de la Ventana Visor, es decir, los registros preseleccionados a través del Subgrupo actual.
 
-*﻿*La HI seleccionada:** Esta opción permite enviar  que esta seleccionado en la Ventana Visor (el cursor verde se encuentra sobre él)
+*﻿*La HI seleccionada:** Esta opción permite enviar el registro que está seleccionado en la Ventana Visor (el cursor verde se encuentra sobre él).
+
+L﻿uego de seleccionar una de las opciones anteriores
 
 
 
