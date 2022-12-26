@@ -622,31 +622,17 @@ _**Imagen 178.** Historia - Mensaje Advertencia_
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### DashBoards
 
 Para acceder a esta opción, se debe sobreponer el cursor sobre el módulo de Historia y a continuación, dar un clic sobre la transacción, como se muestra en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img27.png)
-***Imagen 174.** Historia - Ir a Dashboard*
+***Imagen 179.** Historia - Ir a Dashboard*
 
 Este comando permite visualizar en tiempo real el comportamiento de los registros de Órdenes de Trabajo Históricas, Solicitudes de Servicio y Paros, con el fin de usarse como una herramienta para análisis y toma de decisiones rápidas, como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img28.png)
-***Imagen 175.** Historia - Dashboard*
+***Imagen 180.** Historia - Dashboard*
  
 De la imagen anterior, la información del rectángulo anaranjado ubicado en la parte superior derecha indica el número de registros de OT Históricas, SS y PA filtrados a través del subgrupo o la cantidad total de registros de OT Históricas, SS y PA, existentes en el módulo de HI. 
 
@@ -655,12 +641,12 @@ Como guía existe un indicador a modo de fracción (N/M) que indica el número t
 Es por lo anterior que esta fracción se verá afectada al realizarse un “Subgrupo” o filtro en el módulo seleccionado, por lo cual se muestra la cantidad de registros del subgrupo actual (N) y el total de registros existentes en el módulo de Historia (M). Si no hay filtro, los dos números en sus totales son los mismos, como se indica en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img29.png)
-***Imagen 176.** Historia - Dashboard*
+***Imagen 181.** Historia - Dashboard*
 
 Al dar clic sobre los rectángulos de colores, se oculta la información correspondiente a cada rectángulo, como se ilustra en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img30.png)
-_**Imagen 177.** Historia - Dashboard_
+_**Imagen 182.** Historia - Dashboard_
 
 El valor que está ubicado dentro del rectángulo verde, indica el número total de OT Históricas, SS o PA existentes en HI o existentes en el subgrupo realizado, según corresponda al DashBoard.
 
