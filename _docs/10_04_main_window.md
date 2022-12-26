@@ -584,6 +584,19 @@ E﻿s importante tener en cuenta que cuando se envían registros a <a class="btn
 
 El envío de registros Históricos a Historia Archivada es un proceso controlado, es decir, este envío se hace por cada 5000 registros como máximo y estos deben ser preseleccionados en un Subgrupo, el cual puede tardar horas, por ende, se recomienda hacer un respaldo de datos previo de esta transacción.
 
+P﻿ara enviar registros de **Historia** a **Historia Archivada**, previamente se debe hacer un subgrupo y luego sobreponer el cursor sobre el módulo de <a class="btn blue">Historia</a> y dar clic en **Enviar Historia Archivada** como se indica a continuación:
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img43.png)
+***Imagen 174.** Historia - Detalle Bitácora en Seguimiento y Cierre*
+
+A﻿l ingresar a la transacción se muestra la siguiente ventana:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img44.png)
+***Imagen 175.** Historia - Detalle Bitácora en Seguimiento y Cierre*
+
+E
+
 
 
 
