@@ -662,9 +662,9 @@ _**Imagen 184.** Historia - Dashboard SS_
 
 ### E﻿liminar Masivamente
 
-Eliminar masivamente se ejecuta cuando se tiene la certeza de la existencia  datos en <a class="btn blue">Historia</a> que no se necesitarán mas en adelante. Borrar masivamente Historia, implica no sólo eliminar datos del sistema sino también de la base de datos, lo que quiere decir que no se podrán hacer mas consultas, a gran diferencia del envío a **Historia Archivada** en la que los datos si se pueden consultar uno a uno e imprimir un reporte básico.   
+Eliminar masivamente se ejecuta cuando se tiene la certeza de la existencia  datos en <a class="btn blue">Historia</a> que no se necesitarán mas en adelante. Borrar masivamente Historia, implica no sólo eliminar datos del sistema sino también de la base de datos, lo que quiere decir que no se podrán hacer mas consultas sobre estos registros, a gran diferencia del envío a **Historia Archivada** en la que los datos si se pueden consultar uno a uno e imprimir un reporte básico.   
 
->**﻿Nota:** El resultado de ejecutar el ambos procesos da como resultado la ligereza de la base de datos, es decir, al d﻿esaparecer los links se hace posible la transacción **Eliminar Masivamente Historia**, es decir, datos basura sobre Terceros y Activos, siempre y cuando todo lo  se haya borrado desde Historia o bien se haya enviado a Historia Archivada.
+>**﻿Nota:** El resultado de ejecutar el ambos procesos da como resultado la ligereza de la base de datos, es decir, datos basura sobre Terceros y Activos, siempre y cuando todo lo  se haya borrado sea desde Historia o bien se haya enviado a Historia Archivada, en este último, al d﻿esaparecer los links también se hace posible la transacción **Eliminar Masivamente Historia**.
 
 
 
