@@ -575,17 +575,64 @@ En el Seguimiento o Cierre, además de los botones <a class="btn blue">Actualiza
 ***Imagen 173.** Historia - Detalle Bitácora en Seguimiento y Cierre*
 
 
+## Enviar a Historia Archivada 
+
+En ocasiones la Historia de Mantenimiento puede volverse pesada debido a grandes volúmenes de información que puede llegar a contener,  lo cual, a falta de mantenimiento se afecta la base de datos y el sistema se ralentiza. Por lo tanto se hace necesaria la herramienta **Enviar a Historia Archivada**. De esta manera toda la información preseleccionada en el Subgrupo en el módulo de <a class="btn blue">Historia</a>, se transfiere a <a class="btn blue">Historia Archivada </a>, la cual tiene la característica de ser completamente independiente de la base de datos, es decir, toda la información a su origen que antes era fundamentada en links o enlaces con otros módulos como Infraestructura (Centro de Costo, Ubicación Física, Centro Responsable, Responsable), Repuestos y Activos se desaparecen y se resuelven quedando con la información real, es decir, ahora todos los campos son diligenciados y están grabados, por lo que se visualiza en una tabla plana que contiene la misma información pero inmodificable. Esto al suceder con un gran volumen de Órdenes, la base de datos se hace mas liviana y  ágil. Es así como se pueden hacer las mismas consultas de registros e impresión de un reporte básico disponible para analizar un registro individual (OT, SS o Paro). 
+
+
+E﻿s importante tener en cuenta que cuando se envían registros a <a class="btn blue">Historia Archivada</a> los enlaces desaparecen y se hace posible eliminar o hacer limpieza de registros muy antiguos como Centros de Costo, Terceros, Ubicaciones Físicas, Activos, entre otra información que no tenga uso o no sea vigente.
+
+El envío de registros Históricos a Historia Archivada es un proceso controlado, es decir, este envío se hace por cada 5000 registros como máximo y estos deben ser preseleccionados en un Subgrupo, el cual puede tardar horas, por ende, se recomienda hacer un respaldo de datos previo de esta transacción.
+
+P﻿ara enviar registros de **Historia** a **Historia Archivada**, previamente se debe hacer un subgrupo y luego sobreponer el cursor sobre el módulo de <a class="btn blue">Historia</a> y dar clic en **Enviar Historia Archivada** como se indica a continuación:
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img43.png)
+_**Imagen 174.** Historia - Ir a Enviar a Historia Archivada_
+
+A﻿l ingresar a la transacción se muestra la siguiente ventana:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img44.png)
+_**Imagen 175.** Historia - Enviar a Historia Archivada_
+
+A﻿ **Historia Archivada** se puede enviar un registro de OT, SS o Paro
+o un conjunto de registros preseleccionados:
+
+**Todas las HIs del visor:** Esta opción envía todos los registros históricos de la Ventana Visor, es decir, los registros preseleccionados a través del Subgrupo actual.
+
+**La HI seleccionada:** Esta opción permite enviar el registro que está seleccionado en la Ventana Visor (el cursor verde se encuentra sobre él).
+
+L﻿uego de seleccionar una de las opciones anteriores dar clic en el botón <a class="btn blue">Enviar a Historia Archivada</a>, ubicado en la parte inferior de las opciones en el cual aparecerá un mensaje de alerta para el usuario:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img45.png)
+_**Imagen 176.** Historia - Mensaje Alerta Enviar Historia Archivada_
+
+P﻿ara continuar con el proceso de envío dar clic en <a class="btn white">Aceptar</a>.
+
+C﻿uando el proceso termine, el sistema muestra un mensaje alerta confirmando el proceso con el número de registros enviados exitosamente entre paréntesis:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img46.png)
+_**Imagen 177.** Historia - Mensaje Alerta Envío a Historia Archivada_
+
+>﻿**Nota:** Si el número de registros a enviar es mayor a 5000 registros el sistema muestra un mensaje de advertencia.
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img47.png)
+_**Imagen 178.** Historia - Mensaje Advertencia_
+
+
+
 ### DashBoards
 
 Para acceder a esta opción, se debe sobreponer el cursor sobre el módulo de Historia y a continuación, dar un clic sobre la transacción, como se muestra en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img27.png)
-***Imagen 174.** Historia - Ir a Dashboard*
+***Imagen 179.** Historia - Ir a Dashboard*
 
 Este comando permite visualizar en tiempo real el comportamiento de los registros de Órdenes de Trabajo Históricas, Solicitudes de Servicio y Paros, con el fin de usarse como una herramienta para análisis y toma de decisiones rápidas, como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img28.png)
-***Imagen 175.** Historia - Dashboard*
+***Imagen 180.** Historia - Dashboard*
  
 De la imagen anterior, la información del rectángulo anaranjado ubicado en la parte superior derecha indica el número de registros de OT Históricas, SS y PA filtrados a través del subgrupo o la cantidad total de registros de OT Históricas, SS y PA, existentes en el módulo de HI. 
 
@@ -594,23 +641,62 @@ Como guía existe un indicador a modo de fracción (N/M) que indica el número t
 Es por lo anterior que esta fracción se verá afectada al realizarse un “Subgrupo” o filtro en el módulo seleccionado, por lo cual se muestra la cantidad de registros del subgrupo actual (N) y el total de registros existentes en el módulo de Historia (M). Si no hay filtro, los dos números en sus totales son los mismos, como se indica en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img29.png)
-***Imagen 176.** Historia - Dashboard*
+***Imagen 181.** Historia - Dashboard*
 
 Al dar clic sobre los rectángulos de colores, se oculta la información correspondiente a cada rectángulo, como se ilustra en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img30.png)
-_**Imagen 177.** Historia - Dashboard_
+_**Imagen 182.** Historia - Dashboard_
 
 El valor que está ubicado dentro del rectángulo verde, indica el número total de OT Históricas, SS o PA existentes en HI o existentes en el subgrupo realizado, según corresponda al DashBoard.
 
 ![Dashboard OT](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img31.png)
-_**Imagen 178.** Historia - Dashboard OT_
+_**Imagen 183.** Historia - Dashboard OT_
 
 Sí se desea restablecer la información, se debe dar clic al icono de las flechas circulares <span class="mdi mdi-autorenew"></span>. En cambio, si se desea exportar el gráfico en un formato de imagen, es posible dando clic a la flecha hacia abajo <span class="mdi mdi-download"></span>.
 
 ![Dashboard SS](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img32.png)
 
-_**Imagen 179.** Historia - Dashboard SS_
+_**Imagen 184.** Historia - Dashboard SS_
+
+
+### E﻿liminar Masivamente
+
+Eliminar masivamente se ejecuta cuando se tiene la certeza de la existencia  datos en <a class="btn blue">Historia</a> que no se necesitarán mas en adelante. Borrar masivamente Historia, implica no sólo eliminar datos del sistema sino también de la base de datos, lo que quiere decir que no se podrán hacer mas consultas sobre estos registros, a gran diferencia del envío a **Historia Archivada** en la que los datos si se pueden consultar uno a uno e imprimir un reporte básico.   
+
+>**﻿Nota:** El resultado de ejecutar el ambos procesos da como resultado la ligereza de la base de datos, es decir, eliminar masivamente datos basura sobre Terceros y Activos, siempre y cuando todo lo se borre sea desde Historia o bien se haya enviado a Historia Archivada, en este último, al d﻿esaparecer los links también se hace posible la transacción **Eliminar Masivamente Historia**.
+
+P﻿ara ir a la transacción sobreponer el cursor sobre el módulo de  <a class="btn blue">Historia</a> y dar clic en la opción **Eliminar Masivamente**, como se indica a continuación:
+
+![Dashboard SS](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img48.png)
+_**Imagen 185.** Historia - Ir a Eliminar Masivamente_
+
+P﻿ara eliminar un conjunto de registros se debe primero realizar un Subgrupo no mayor de 5000 mil registros (este proceso puede tardar hasta 5 horas dependiendo del subgrupo), de no hacerlo el sistema muestra un mensaje de advertencia:
+
+![Dashboard SS](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img47.png)
+_**Imagen 186.** Historia - Alerta Eliminar Masivamente_
+
+U﻿na vez se tenga el conjunto de registros preseleccionados proceder con la transacción así:
+
+![Dashboard SS](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img49.png)
+_**Imagen 187.** Historia - Eliminar Historia_
+
+Se puede eliminar un registro de OT, SS, Paro o un conjunto de registros preseleccionados: 
+
+**Todas las HIs del visor:** Esta opción eliminar todos los registros históricos de la Ventana Visor, es decir, los registros preseleccionados a través del Subgrupo actual.
+
+**La HI seleccionada:** Esta opción permite eliminar el registro que está seleccionado en la Ventana Visor (el cursor verde se encuentra sobre él).
+
+P﻿ara continuar dar clic en el botón <a class="btn blue">eliminar historia</a> ubicado debajo de las opciones anteriores, el sistema muestra un mensaje alerta:
+
+![Dashboard SS](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img50.png)
+_**Imagen 188.** Historia - Mensaje Advertencia Eliminar Masivamente_
+
+P﻿ara finalizar el proceso dar clic en <a class="btn blue">aceptar</a>, y el sistema confirma  a través de un mensaje aviso: 
+
+![Dashboard SS](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img51.png)
+_**Imagen 189.** Historia - Aviso Satisfactorio Eliminar Masivamente_﻿
+
 
 ## Exportar
 
@@ -618,7 +704,7 @@ Esta opción permite exportar los ítems o campos de la ficha técnica de OT, bi
 Para efectuar este proceso, se da clic en Exportar <span class="mdi mdi-download"></span> mostrando las siguientes opciones de exportación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img33.png)
-***Imagen 180.** Historia - Exportar*
+***Imagen 190.** Historia - Exportar*
 
 En la gráfica anterior, se aprecian sus componentes y sus respectivos contenidos:
 
@@ -634,7 +720,7 @@ Luego de escoger una de las opciones anteriores, en la parte inferior aparece se
 Este comando permite visualizar los reportes relacionados a OT, SS y PA en Historia. Existen los siguientes tipos de reportes básicos disponibles:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img34.png)
-_**Imagen 181.** Historia - Reportes_
+_**Imagen 191.** Historia - Reportes_
 
 Los anteriores reportes pueden ser seleccionados para una o varios registros a través de las siguientes opciones:
 
@@ -657,42 +743,42 @@ Para Cerrar la ventana de los Reportes, se da clic en el botón<a class="btn whi
 El reporte con código **HMI-CMDAP de Análisis Previo de Disponibilidad** es necesario hacer una carga de datos primero según la información que se tenga filtrada para poder apreciar de manera correcta el análisis de los datos cuando se imprima el reporte, como se indica en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img35.png)
-_**Imagen 182.** Historia - Reporte Cargar Análisis Previo de Disponibilidad_
+_**Imagen 192.** Historia - Reporte Cargar Análisis Previo de Disponibilidad_
 
 Primero se debe un clic en el botón <a class="btn white">cargar</a>. Una vez que carguen los datos, se muestra el siguiente mensaje:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img36.png)
-_**Imagen 183.** Historia - Reporte Mensaje Análisis Previo de Disponibilidad_
+_**Imagen 193.** Historia - Reporte Mensaje Análisis Previo de Disponibilidad_
 
 De esta manera ya se puede <a class="btn white">imprimir</a> o <a class="btn white">exportar</a> y visualizar el reporte.
 
 A continuación se muestra la vista previa de impresión en formato pdf:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img37.png)
-_**Imagen 184.** Historia - Reporte Vista Previa Análisis Previo de Disponibilidad_
+_**Imagen 194.** Historia - Reporte Vista Previa Análisis Previo de Disponibilidad_
 
 Para imprimir o exportar el reporte **HME-CRMACC-Cronograma de Mantenimientos Ejecutados** se debe primero, ir a la transacción de inicio **Valores OOAK** como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img38.png)
-_**Imagen 185.** Historia - Valores OOAK_
+_**Imagen 195.** Historia - Valores OOAK_
 
 Luego, se debe digitar el año del cual se quieren analizar los datos, como se indica en la siguiente imagen, a continuación dar un clic en <a class="btn white">cambiar</a> y esperar el mensaje de confirmación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img39.png)
-_**Imagen 186.** Historia - Ingresar Valores OOAK_
+_**Imagen 196.** Historia - Ingresar Valores OOAK_
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img40.png)
-_**Imagen 187.** Historia - Mensaje Alerta Valores OOAK_
+_**Imagen 197.** Historia - Mensaje Alerta Valores OOAK_
 
 A continuación, se debe refrescar la página, o bien dando clic derecho y eligiendo la opción **Volver a Cargar** y se debe dirigir nuevamente al módulo de <a class="btn blue">Historia</a> e ir la opción Reportes <span class="mdi mdi-printer"></span> y a continuación <a class="btn white">exportar</a> o <a class="btn white">imprimir</a> los resultados, nótese que el año al lado del campo del reporte confirma el valor OOAK ingresado anteriormente:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img41.png)
-_**Imagen 188.** Historia - Cronograma de Mantenimientos Ejecutados_
+_**Imagen 198.** Historia - Cronograma de Mantenimientos Ejecutados_
 
 A continuación se muestra la visualización del respectivo reporte:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img42.png)
-_**Imagen 189.** Historia - Reporte Cronograma de Mantenimientos Ejecutados_
+_**Imagen 199.** Historia - Reporte Cronograma de Mantenimientos Ejecutados_
 
 ### Balance Periódico de Gestión
 
