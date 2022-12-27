@@ -694,7 +694,8 @@ _**Imagen 188.** Historia - Eliminar Masivamente_
 
 P﻿ara finalizar el proceso dar clic en <a class="btn blue">aceptar</a>, el sistema confirma el proceso a través de un mensaje aviso:
 
- ﻿
+![Dashboard SS](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img51.png)
+_**Imagen 189.** Historia - Eliminar Masivamente_﻿
 
 
 ## Exportar
