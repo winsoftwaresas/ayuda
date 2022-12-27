@@ -1,9 +1,13 @@
 ---
 title: Codificación de Activos/Equipos y Generalidades
-subtitle: Aquí se encuentra información sobre la codificación, despiece de activos, sus funciones y formas de uso, cómo crear un Activo, se explican las porciones de la ficha técnica, filtrar por subgrupos y obtener reportes.
-tags: [setup]
+subtitle: Aquí se encuentra información sobre la codificación, despiece de
+  activos, sus funciones y formas de uso, cómo crear un Activo, se explican las
+  porciones de la ficha técnica, filtrar por subgrupos y obtener reportes.
+tags:
+  - setup
 author: win
 order: 03_04
+date: 2022-12-27T21:18:27.690Z
 ---
 
 **AM** está capacitado para aceptar y definir 5 códigos para cada Activo/Equipo. Cada estructura de código es  independiente de las otras y sirve para localizar o acceder o estudiar un Activo, partiendo de distinta información que distintos tipos de usuarios puedan tener sobre el mismo.
@@ -792,7 +796,7 @@ _**Imagen 57.** Activos - Vista Árbol_
 
 En la gráfica anterior, ventana Árbol de Activos, se aprecian sus componentes y sus respectivos contenidos. A continuación se describen los  campos que componen esta ventana:
 
- En esta columna aparece el listado de todos los Activos/Equipos agrupados por su respectivo código y descripción de Ubicacion Física. Al lado izquierdo de cada código visualiza un signo Más <span class="mdi mdi-plus-circle-outline"></span> o un signo Menos <span class="mdi mdi-minus-circle-outline"></span>, que permiten visualizar u ocultar respectivamente, el despiece del Activo/Equipo. 
+En esta columna aparece el listado de todos los Activos/Equipos agrupados por su respectivo código y descripción de Ubicacion Física. Al lado izquierdo de cada código visualiza un signo Más <span class="mdi mdi-plus-circle-outline"></span> o un signo Menos <span class="mdi mdi-minus-circle-outline"></span>, que permiten visualizar u ocultar respectivamente, el despiece del Activo/Equipo. 
 
  El significado de cada color lo indica el ícono de indicadores <span class="mdi mdi-message-alert"></span> ubicado en la parte superior derecha de la ventana, como se muestra a continuación:
 
@@ -801,27 +805,15 @@ _**Imagen 57.** Activos - Indicadores Vista Árbol_
 
 > **Nota:** Para volver nuevamente a la vista Visor de Activos, se debe dar un clic nuevamente al ícono de TreeGrid <span class="mdi mdi-autorenew"></span>.
 
-### Exportar
 
-Esta opción <span class="mdi mdi-download"></span> permite la exportación de los campos contenidos en la ficha técnica de los Activos/Equipos que aparecen en el visor, totales o provenientes de un subgrupo a un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso.
 
-Al ejecutar esta transacción, se abre una ventana como se muestra a continuación:
+## C﻿ruce de Activos
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img27.png)
-_**Imagen 58.** Activos - Transacción Exportar_
 
-En la gráfica anterior, se aprecian sus componentes y sus respectivos contenidos.
 
-**Exportar Visor:** Esta opción exporta todos los Activos seleccionados en el visor mediante un subgrupo.
 
-**Exportar Todos los Registros:** Esta opción exporta todas los Activos existentes en la base de datos, sin importar cualquier subgrupo activo.
 
-Luego de escoger una de las opciones anteriores, en la parte inferior aparece seleccionado por defecto el recuadro de selección <a class="btn white"><span class="mdi mdi-checkbox-blank-outline"> exportar todos los campos</span></a> pero si se prefiere uno o algunos campos se debe des-seleccionar y a continuación hacer clic en los recuadros a exportar.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img28.png)
-_**Imagen 59.** Activos - Exportar Campos_
-
-Una vez elegida la información, dar clic en el botón inferior <a class="btn white">Exportar</a> el cual genera un archivo de Excel que se descarga automáticamente. El objetivo de esta exportación es llevar toda la información de los Activos a un archivo plano, para luego ser analizados.
 
 ## Dashboard de Activos
 
@@ -851,7 +843,13 @@ Sí se desea restablecer la información, se debe dar clic al icono <span class=
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img33.png)
 _**Imagen 63.** Activos - Dashboard personalizado_
 
+
+
 ## Servicios
+
+
+
+### R﻿eportes
 
 Este comando <span class="mdi mdi-printer"></span>  permite visualizar los reportes o informes de la información relacionada a los Activos /Equipos. Existen los siguientes tipos de reportes básicos disponibles:
 
@@ -871,3 +869,25 @@ Los anteriores reportes pueden ser  seleccionados para uno o varios Activos/Equi
 Para visualizar los reportes, se da un clic sobre el reporte y luego al botón <a class="btn white">Imprimir</a>.
 .
 Para exportar un reporte se da un clic sobre el reporte y luego al botón <a class="btn white">exportar</a>. Esto descarga automáticamente en la estación cliente el reporte en formato excel.
+
+### Exportar
+
+Esta opción <span class="mdi mdi-download"></span> permite la exportación de los campos contenidos en la ficha técnica de los Activos/Equipos que aparecen en el visor, totales o provenientes de un subgrupo a un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso.
+
+Al ejecutar esta transacción, se abre una ventana como se muestra a continuación:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img27.png)
+_**Imagen 58.** Activos - Transacción Exportar_
+
+En la gráfica anterior, se aprecian sus componentes y sus respectivos contenidos.
+
+**Exportar Visor:** Esta opción exporta todos los Activos seleccionados en el visor mediante un subgrupo.
+
+**Exportar Todos los Registros:** Esta opción exporta todas los Activos existentes en la base de datos, sin importar cualquier subgrupo activo.
+
+Luego de escoger una de las opciones anteriores, en la parte inferior aparece seleccionado por defecto el recuadro de selección <a class="btn white"><span class="mdi mdi-checkbox-blank-outline"> exportar todos los campos</span></a> pero si se prefiere uno o algunos campos se debe des-seleccionar y a continuación hacer clic en los recuadros a exportar.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img28.png)
+_**Imagen 59.** Activos - Exportar Campos_
+
+Una vez elegida la información, dar clic en el botón inferior <a class="btn white">Exportar</a> el cual genera un archivo de Excel que se descarga automáticamente. El objetivo de esta exportación es llevar toda la información de los Activos a un archivo plano, para luego ser analizados.
