@@ -671,7 +671,7 @@ P﻿ara ir a la transacción sobreponer el cursor sobre el módulo de  <a class=
 ![Dashboard SS](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img48.png)
 _**Imagen 185.** Historia - Ir a Eliminar Masivamente_
 
-P﻿ara eliminar un conjunto de registros se debe primero realizar un Subgrupo no mayor de 5000 mil registros, de no hacerlo el sistema muestra un mensaje de advertencia:
+P﻿ara eliminar un conjunto de registros se debe primero realizar un Subgrupo no mayor de 5000 mil registros (este proceso puede tardar hasta 5 horas dependiendo del subgrupo), de no hacerlo el sistema muestra un mensaje de advertencia:
 
 ![Dashboard SS](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img47.png)
 _**Imagen 186.** Historia - Alerta Eliminar Masivamente_
@@ -686,6 +686,11 @@ Se puede eliminar un registro de OT, SS, Paro o un conjunto de registros presele
 **Todas las HIs del visor:** Esta opción eliminar todos los registros históricos de la Ventana Visor, es decir, los registros preseleccionados a través del Subgrupo actual.
 
 **La HI seleccionada:** Esta opción permite eliminar el registro que está seleccionado en la Ventana Visor (el cursor verde se encuentra sobre él).
+
+P﻿ara continuar dar clic en el botón <a class="btn blue">eliminar historia</a>, el sistema muestra un mensaje alerta:
+
+
+
 
 
 
