@@ -679,7 +679,7 @@ _**Imagen 186.** Historia - Alerta Eliminar Masivamente_
 U﻿na vez se tenga el conjunto de registros preseleccionados proceder con la transacción así:
 
 ![Dashboard SS](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img49.png)
-_**Imagen 187.** Historia - Eliminar Masivamente_
+_**Imagen 187.** Historia - Eliminar Historia_
 
 Se puede eliminar un registro de OT, SS, Paro o un conjunto de registros preseleccionados: 
 
@@ -687,15 +687,15 @@ Se puede eliminar un registro de OT, SS, Paro o un conjunto de registros presele
 
 **La HI seleccionada:** Esta opción permite eliminar el registro que está seleccionado en la Ventana Visor (el cursor verde se encuentra sobre él).
 
-P﻿ara continuar dar clic en el botón <a class="btn blue">eliminar historia</a>, el sistema muestra un mensaje alerta:
+P﻿ara continuar dar clic en el botón <a class="btn blue">eliminar historia</a> ubicado debajo de las opciones anteriores, el sistema muestra un mensaje alerta:
 
 ![Dashboard SS](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img50.png)
-_**Imagen 188.** Historia - Eliminar Masivamente_
+_**Imagen 188.** Historia - Mensaje Advertencia Eliminar Masivamente_
 
 P﻿ara finalizar el proceso dar clic en <a class="btn blue">aceptar</a>, y el sistema confirma  a través de un mensaje aviso: 
 
 ![Dashboard SS](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img51.png)
-_**Imagen 189.** Historia - Eliminar Masivamente_﻿
+_**Imagen 189.** Historia - Aviso Satisfactorio Eliminar Masivamente_﻿
 
 
 ## Exportar
