@@ -704,7 +704,7 @@ Esta opción permite exportar los ítems o campos de la ficha técnica de OT, bi
 Para efectuar este proceso, se da clic en Exportar <span class="mdi mdi-download"></span> mostrando las siguientes opciones de exportación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img33.png)
-***Imagen 180.** Historia - Exportar*
+***Imagen 190.** Historia - Exportar*
 
 En la gráfica anterior, se aprecian sus componentes y sus respectivos contenidos:
 
@@ -720,7 +720,7 @@ Luego de escoger una de las opciones anteriores, en la parte inferior aparece se
 Este comando permite visualizar los reportes relacionados a OT, SS y PA en Historia. Existen los siguientes tipos de reportes básicos disponibles:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img34.png)
-_**Imagen 181.** Historia - Reportes_
+_**Imagen 191.** Historia - Reportes_
 
 Los anteriores reportes pueden ser seleccionados para una o varios registros a través de las siguientes opciones:
 
@@ -743,42 +743,42 @@ Para Cerrar la ventana de los Reportes, se da clic en el botón<a class="btn whi
 El reporte con código **HMI-CMDAP de Análisis Previo de Disponibilidad** es necesario hacer una carga de datos primero según la información que se tenga filtrada para poder apreciar de manera correcta el análisis de los datos cuando se imprima el reporte, como se indica en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img35.png)
-_**Imagen 182.** Historia - Reporte Cargar Análisis Previo de Disponibilidad_
+_**Imagen 192.** Historia - Reporte Cargar Análisis Previo de Disponibilidad_
 
 Primero se debe un clic en el botón <a class="btn white">cargar</a>. Una vez que carguen los datos, se muestra el siguiente mensaje:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img36.png)
-_**Imagen 183.** Historia - Reporte Mensaje Análisis Previo de Disponibilidad_
+_**Imagen 193.** Historia - Reporte Mensaje Análisis Previo de Disponibilidad_
 
 De esta manera ya se puede <a class="btn white">imprimir</a> o <a class="btn white">exportar</a> y visualizar el reporte.
 
 A continuación se muestra la vista previa de impresión en formato pdf:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img37.png)
-_**Imagen 184.** Historia - Reporte Vista Previa Análisis Previo de Disponibilidad_
+_**Imagen 194.** Historia - Reporte Vista Previa Análisis Previo de Disponibilidad_
 
 Para imprimir o exportar el reporte **HME-CRMACC-Cronograma de Mantenimientos Ejecutados** se debe primero, ir a la transacción de inicio **Valores OOAK** como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img38.png)
-_**Imagen 185.** Historia - Valores OOAK_
+_**Imagen 195.** Historia - Valores OOAK_
 
 Luego, se debe digitar el año del cual se quieren analizar los datos, como se indica en la siguiente imagen, a continuación dar un clic en <a class="btn white">cambiar</a> y esperar el mensaje de confirmación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img39.png)
-_**Imagen 186.** Historia - Ingresar Valores OOAK_
+_**Imagen 196.** Historia - Ingresar Valores OOAK_
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img40.png)
-_**Imagen 187.** Historia - Mensaje Alerta Valores OOAK_
+_**Imagen 197.** Historia - Mensaje Alerta Valores OOAK_
 
 A continuación, se debe refrescar la página, o bien dando clic derecho y eligiendo la opción **Volver a Cargar** y se debe dirigir nuevamente al módulo de <a class="btn blue">Historia</a> e ir la opción Reportes <span class="mdi mdi-printer"></span> y a continuación <a class="btn white">exportar</a> o <a class="btn white">imprimir</a> los resultados, nótese que el año al lado del campo del reporte confirma el valor OOAK ingresado anteriormente:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img41.png)
-_**Imagen 188.** Historia - Cronograma de Mantenimientos Ejecutados_
+_**Imagen 198.** Historia - Cronograma de Mantenimientos Ejecutados_
 
 A continuación se muestra la visualización del respectivo reporte:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img42.png)
-_**Imagen 189.** Historia - Reporte Cronograma de Mantenimientos Ejecutados_
+_**Imagen 199.** Historia - Reporte Cronograma de Mantenimientos Ejecutados_
 
 ### Balance Periódico de Gestión
 
