@@ -692,7 +692,7 @@ P﻿ara continuar dar clic en el botón <a class="btn blue">eliminar historia</a
 ![Dashboard SS](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img50.png)
 _**Imagen 188.** Historia - Eliminar Masivamente_
 
-P﻿ara finalizar el proceso dar clic en <a class="btn blue">aceptar</a>, el sistema confirma el proceso a través de un mensaje aviso:
+P﻿ara finalizar el proceso dar clic en <a class="btn blue">aceptar</a>, y el sistema confirma  a través de un mensaje aviso: 
 
 ![Dashboard SS](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img51.png)
 _**Imagen 189.** Historia - Eliminar Masivamente_﻿
