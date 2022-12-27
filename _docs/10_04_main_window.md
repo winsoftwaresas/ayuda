@@ -689,9 +689,12 @@ Se puede eliminar un registro de OT, SS, Paro o un conjunto de registros presele
 
 P﻿ara continuar dar clic en el botón <a class="btn blue">eliminar historia</a>, el sistema muestra un mensaje alerta:
 
+![Dashboard SS](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img50.png)
+_**Imagen 188.** Historia - Eliminar Masivamente_
 
+P﻿ara finalizar el proceso dar clic en <a class="btn blue">aceptar</a>, el sistema confirma el proceso a través de un mensaje aviso:
 
-
+ ﻿
 
 
 ## Exportar
