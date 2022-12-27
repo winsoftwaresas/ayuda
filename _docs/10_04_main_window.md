@@ -681,6 +681,11 @@ U﻿na vez se tenga el conjunto de registros preseleccionados proceder con la tr
 ![Dashboard SS](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img49.png)
 _**Imagen 187.** Historia - Eliminar Masivamente_
 
+Se puede eliminar un registro de OT, SS, Paro o un conjunto de registros preseleccionados: 
+
+**Todas las HIs del visor:** Esta opción eliminar todos los registros históricos de la Ventana Visor, es decir, los registros preseleccionados a través del Subgrupo actual.
+
+**La HI seleccionada:** Esta opción permite eliminar el registro que está seleccionado en la Ventana Visor (el cursor verde se encuentra sobre él).
 
 
 
