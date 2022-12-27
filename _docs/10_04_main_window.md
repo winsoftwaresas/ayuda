@@ -666,8 +666,15 @@ Eliminar masivamente se ejecuta cuando se tiene la certeza de la existencia  dat
 
 >**﻿Nota:** El resultado de ejecutar el ambos procesos da como resultado la ligereza de la base de datos, es decir, eliminar masivamente datos basura sobre Terceros y Activos, siempre y cuando todo lo se borre sea desde Historia o bien se haya enviado a Historia Archivada, en este último, al d﻿esaparecer los links también se hace posible la transacción **Eliminar Masivamente Historia**.
 
+P﻿ara ir a la transacción sobreponer el cursor sobre el módulo de  <a class="btn blue">Historia</a> y dar clic en la opción **Eliminar Masivamente**, como se indica a continuación:
 
+![Dashboard SS](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img48.png)
+_**Imagen 185.** Historia - Ir a Eliminar Masivamente_
 
+P﻿ara eliminar un conjunto de registros se debe primero realizar un subgrupo no mayor de 5000 mil registros, de no hacerlo el sistema muestra un mensaje de advertencia:
+
+![Dashboard SS](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img47.png)
+_**Imagen 186.** Historia - Alerta Eliminar Masivamente_
 
 
 ## Exportar
