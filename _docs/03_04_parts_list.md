@@ -813,7 +813,9 @@ _**Imagen 57.** Activos - Indicadores Vista Árbol_
 E﻿n ocasiones se hace necesario hacer búsquedas rápidas de los
 Activos sobre su asociación con Órdenes, Solicitudes, Paros e Historia; la transacción **Cruce De Activos** hace posible que en el módulo de Activos se pueda acceder rápidamente a esta información.
 
-P﻿ara acceder se sobrepone el cursor sobre 
+P﻿ara acceder se sobrepone el cursor sobre el módulo de <a class="btn blue">activos</a> donde se despliega el submenú de transaccciones y a continuación dar clic en **Cruces de Activos** como se muestra a continuación:
+
+
 
 
 
