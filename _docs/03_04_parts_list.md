@@ -805,14 +805,15 @@ En esta columna aparece el listado de todos los Activos/Equipos agrupados por su
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img21.png)
 _**Imagen 57.** Activos - Indicadores Vista Árbol_
 
-> **Nota:** Para volver nuevamente a la vista Visor de Activos, se debe dar un clic nuevamente al ícono de TreeGrid <span class="mdi mdi-autorenew"></span>.
+> **Nota:** Para volver nuevamente a la vista Visor de Activos, se debe dar un clic nuevamente al ícono de TreeGrid <span class="mdi mdi-autorenew"></span>, o consultar indicadores <span class="mdi mdi-message-alert"></span>. 
 
 ### Consultas desde Activos - Cruce de Activos
 
 
 E﻿n ocasiones se hace necesario hacer búsquedas rápidas de los
 Activos sobre su asociación con Órdenes, Solicitudes, Paros e Historia; 
-e﻿sta transacción hace posible que en el módulo de Activos se pueda acceder rápidamente a esta información, bien sea uno a uno o de registros preseleccionados en un Subgrupo. En esta transacción también se pueden exportar los registros seleccionados y hacer impresión de reportes.
+e﻿sta transacción hace posible que en el módulo de Activos se pueda acceder rápidamente a esta información, bien sea uno a uno o de registros preseleccionados en un Subgrupo. En esta transacción también se pueden exportar <span class="mdi mdi-download"></span>
+ los registros seleccionados y hacer impresión de reportes <span class="mdi mdi-printer"></span>  o consultar indicadores <span class="mdi mdi-message-alert"></span>.
 
 P﻿ara acceder se sobrepone el cursor sobre el módulo de <a class="btn blue">activos</a> donde se despliega el submenú de transaccciones y a continuación dar clic en **Cruces de Activos** como se muestra a continuación:
 
