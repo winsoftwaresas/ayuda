@@ -737,6 +737,8 @@ _**Imagen 51.** Activos - Modificar Clasificación por uso_
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_35.png)
 _**Imagen 52.** Activos - Modificar  Clasificación por uso_
 
+
+
 ### Actualizar Contadores
 
 Es la función que facilita la Actualización de los Contadores asociados a los Activos/Equiposo. A esta ventana se llega sobreponiendo el cursor sobre el Módulo de Activos y mediante un clic en la opción <a class="btn white">Actualizar Contadores</a> de la sección “Transacciones”.
