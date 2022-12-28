@@ -814,8 +814,6 @@ E﻿n ocasiones se hace necesario hacer búsquedas rápidas de los
 Activos sobre su asociación con Órdenes, Solicitudes, Paros e Historia; 
 esta transacción hace posible, que en el módulo de Activos se pueda acceder rápidamente a esta información, bien sea uno a uno ó registros preseleccionados en un Subgrupo. 
 
-En esta transacción permite hacer Subgrupos de información <span class="mdi mdi-filter-variant"></span>,  exportar <span class="mdi mdi-download"></span> los registros seleccionados, imprimir reportes <span class="mdi mdi-printer"></span>  y consultar indicadores <span class="mdi mdi-message-alert"></span>.  
-
 P﻿ara acceder se sobrepone el cursor sobre el módulo de <a class="btn blue">activos</a> donde se despliega el submenú de transaccciones y a continuación dar clic en **Cruces de Activos** como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img35.png)
@@ -827,16 +825,18 @@ A﻿ continuación se visualiza la Ventana Visor de Cruces Activos:
 _**Imagen 59.** Activos - Visor Cruce de Activos_
 
 
-L﻿os títulos de cada columna permiten organizar la información ascendente o descendente a través de un clic. 
+L﻿os títulos de cada columna en color azul permiten organizar la información ascendente o descendente a través de un clic. 
+
+**Esta transacción permite tiene las funcionalidades:** Subgrupos de información <span class="mdi mdi-filter-variant"></span>,  exportar <span class="mdi mdi-download"></span> los registros seleccionados, imprimir reportes <span class="mdi mdi-printer"></span>  y consultar indicadores <span class="mdi mdi-message-alert"></span>. 
 
 Es posible seleccionar uno a uno en la primera columna **Indicador** a través de un clic en el recuadro <a class="btn black"><span class="mdi mdi-checkbox-blank-outline"></a> y elegir lo que se desea consultar en los botones superiores en la izquierda como:
 
 
-- Programas: <a class="btn blue">PM</a>  
-- Solicitudes de Servicio: <a class="btn blue">SS</a>
-- Paros: <a class="btn blue">ADF</a> 
-- Órdenes de Trabajo: <a class="btn blue">OT</a> 
-- Historia de Mantenimiento:  <a class="btn blue">HI</a>
+- Programas: <a class="btn white">PM</a>  
+- Solicitudes de Servicio: <a class="btn white">SS</a>
+- Paros: <a class="btn white">ADF</a> 
+- Órdenes de Trabajo: <a class="btn white">OT</a> 
+- Historia de Mantenimiento:  <a class="btn white">HI</a>
 
 
 
