@@ -840,8 +840,22 @@ Es posible seleccionar uno a uno en la primera columna **Indicador** a través d
 
 A﻿ continuación se ilustra el siguiente ejemplo:
 
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img37.png)
+_**Imagen 60.** Activos - Subgrupo Cruce de Activos_
 
 
+La imagen anterior muestra el resultado por cada grilla de PM asociados, SS asociados, OT asociados e HI asociados al subgrupo o conjunto de Activos, esto puede visualizarse en la opción <span class="mdi mdi-download"></span>:
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img38.png)
+_**Imagen 61.** Activos - Subgrupo Cruce de Activos_
+
+
+
+
+
+
+La imagen anterior indica un subgrupo y a la vez en la columna Indicador se escogen los Activos a consultar. 
 
 ## Dashboard de Activos
 
