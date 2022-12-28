@@ -819,7 +819,14 @@ P﻿ara acceder se sobrepone el cursor sobre el módulo de <a class="btn blue">a
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img35.png)
 _**Imagen 58.** Activos - Ir a Cruce de Activos_
 
-A﻿ continuación se visualiza la Ventana Visor de Cruces Activos, es posible 
+A﻿ continuación se visualiza la Ventana Visor de Cruces Activos, es posible seleccionar uno a uno en la primera columna **Indicador** a través de un clic en los recuadros seleccionables <a class="btn black"><span class="mdi mdi-checkbox-blank-outline"></a> y seleccionar lo que se deseea consultar en los botones superiores en la izquierda como:
+
+-﻿ Programas: <a class="btn blue">PM</a> 
+-﻿ Solicitudes de Servicio: <a class="btn blue">SS</a>
+-﻿ Paros: <a class="btn blue">ADF</a>
+-﻿ Órdenes de Trabajo:  <a class="btn blue">OT</a>
+-﻿ Historia de Mantenimiento:  <a class="btn blue">HI</a>
+
 
 
 ## Dashboard de Activos
