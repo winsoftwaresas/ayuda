@@ -815,7 +815,8 @@ Activos sobre su asociación con Órdenes, Solicitudes, Paros e Historia; la tra
 
 P﻿ara acceder se sobrepone el cursor sobre el módulo de <a class="btn blue">activos</a> donde se despliega el submenú de transaccciones y a continuación dar clic en **Cruces de Activos** como se muestra a continuación:
 
-
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img35.png)
+_**Imagen 58.** Activos - Ir a Cruce de Activos_
 
 
 
