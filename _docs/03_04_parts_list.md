@@ -812,7 +812,7 @@ _**Imagen 57.** Activos - Indicadores Vista Árbol_
 
 E﻿n ocasiones se hace necesario hacer búsquedas rápidas de los
 Activos sobre su asociación con Órdenes, Solicitudes, Paros e Historia; 
-e﻿sta transacción hace posible que en el módulo de Activos se pueda acceder rápidamente a esta información, bien sea uno a uno o de registros preseleccionados en un Subgrupo. En esta transacción también se pueden exportar los registros seleccionados <span class="mdi mdi-download"></span> , hacer impresión de reportes <span class="mdi mdi-printer"></span>  y consultar indicadores <span class="mdi mdi-message-alert"></span>. 
+e﻿sta transacción hace posible que en el módulo de Activos se pueda acceder rápidamente a esta información, bien sea uno a uno o de registros preseleccionados en un Subgrupo. En esta transacción también se pueden hacer Subgrupos <span class="mdi mdi-filter-variant"></span>,  exportar <span class="mdi mdi-download"></span> los registros seleccionados, imprimir reportes <span class="mdi mdi-printer"></span>  y consultar indicadores <span class="mdi mdi-message-alert"></span>. 
 
 P﻿ara acceder se sobrepone el cursor sobre el módulo de <a class="btn blue">activos</a> donde se despliega el submenú de transaccciones y a continuación dar clic en **Cruces de Activos** como se muestra a continuación:
 
