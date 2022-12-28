@@ -848,15 +848,18 @@ La imagen anterior muestra el resultado por cada grilla de PM asociados, SS asoc
 También puede visualizarse en la opción <span class="mdi mdi-download"></span>:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img38.png)
-_**Imagen 61.** Activos - Exportar grilla de Cruce de Activos_
+_**Imagen 61.** Activos - Exportar Grilla de Cruce de Activos_
 
 
-E﻿sto puede tardar algunos minutos dependiendo de la cantidad de datos a exportar, para continuar dar clic en el botón **Descargar**:
+E﻿sto puede tardar algunos minutos dependiendo de la cantidad de datos a exportar, para continuar dar clic en el botón **Descargar**. Esto descarga un archivo en formato excel en la estación Cliente:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img39.png)
-_**Imagen 62.** Activos - Exportar grilla de Cruce de Activos_
+_**Imagen 62.** Activos - Descarga Grilla de Cruce de Activos_
 
+V﻿isualización de la exportación:
 
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img40.png)
+_**Imagen 63.** Activos - V﻿isualización Descarga Grilla Cruce de Activos_
 
 
 La imagen anterior indica un subgrupo y a la vez en la columna Indicador se escogen los Activos a consultar. 
