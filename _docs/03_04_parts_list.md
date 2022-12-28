@@ -863,7 +863,8 @@ _**Imagen 63.** Activos - V﻿isualización Descarga Grilla Cruce de Activos_
 
 P﻿ara continuar y consultar Programas dar clic en el botón <a class="btn white">PM</a>:
 
-
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img41.png)
+_**Imagen 64.** Activos - Programas Cruce de Activos_
 
 
 
