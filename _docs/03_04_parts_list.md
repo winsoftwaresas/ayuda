@@ -648,7 +648,7 @@ _**Imagen 35.** Activos - Modificar Grupo del Activo_
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_18.png)
 _**Imagen 36.** Activos - Modificar Comentarios_
 
-#### VIDA DE ÚTIL
+#### VIDA ÚTIL
 
 **Modificar FF Registro:** Se Modifica Masivamente la fecha de registro ubicada en la pestaña de Vida Útil de los equipos que están previamente seleccionados en el visor.
 
