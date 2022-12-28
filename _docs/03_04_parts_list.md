@@ -812,14 +812,14 @@ _**Imagen 57.** Activos - Indicadores Vista Árbol_
 
 E﻿n ocasiones se hace necesario hacer búsquedas rápidas de los
 Activos sobre su asociación con Órdenes, Solicitudes, Paros e Historia; 
-e﻿sta transacción hace posible que en el módulo de Activos se pueda acceder rápidamente a esta información.
+e﻿sta transacción hace posible que en el módulo de Activos se pueda acceder rápidamente a esta información uno a uno o de registros preseleccionados en un Subgrupo. En esta transacción también se pueden exportar los registros seleccionados y hacer impresión de reportes.
 
 P﻿ara acceder se sobrepone el cursor sobre el módulo de <a class="btn blue">activos</a> donde se despliega el submenú de transaccciones y a continuación dar clic en **Cruces de Activos** como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img35.png)
 _**Imagen 58.** Activos - Ir a Cruce de Activos_
 
-
+A﻿ continuación se visualiza la Ventana Visor de Cruces Activos, es posible 
 
 
 ## Dashboard de Activos
