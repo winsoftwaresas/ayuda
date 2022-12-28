@@ -827,9 +827,9 @@ _**Imagen 59.** Activos - Visor Cruce de Activos_
 
 L﻿os títulos de cada columna en color azul permiten organizar la información ascendente o descendente a través de un clic. 
 
-**Esta transacción permite tiene las funcionalidades:** Subgrupos de información <span class="mdi mdi-filter-variant"></span>,  exportar <span class="mdi mdi-download"></span> los registros seleccionados, imprimir reportes <span class="mdi mdi-printer"></span>  y consultar indicadores <span class="mdi mdi-message-alert"></span>. 
+**Esta transacción contiene las funcionalidades en cada ventana:** Subgrupos de información <span class="mdi mdi-filter-variant"></span>,  exportar <span class="mdi mdi-download"></span> los registros seleccionados, imprimir reportes <span class="mdi mdi-printer"></span>  y consultar indicadores <span class="mdi mdi-message-alert"></span>. 
 
-Es posible seleccionar uno a uno en la primera columna **Indicador** a través de un clic en el recuadro <a class="btn black"><span class="mdi mdi-checkbox-blank-outline"></a> y elegir lo que se desea consultar en los botones superiores en la izquierda como:
+Es posible seleccionar uno a uno en la primera columna **Indicador** a través de un clic en el recuadro <a class="btn black"><span class="mdi mdi-checkbox-blank-outline"></a> y elegir lo que se desea consultar en los botones superiores en la izquierda:
 
 
 - Programas: <a class="btn white">PM</a>  
@@ -837,6 +837,9 @@ Es posible seleccionar uno a uno en la primera columna **Indicador** a través d
 - Paros: <a class="btn white">ADF</a> 
 - Órdenes de Trabajo: <a class="btn white">OT</a> 
 - Historia de Mantenimiento:  <a class="btn white">HI</a>
+
+A﻿ continuación se ilustra el siguiente ejemplo:
+
 
 
 
