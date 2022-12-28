@@ -861,8 +861,16 @@ V﻿isualización de la exportación:
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img40.png)
 _**Imagen 63.** Activos - V﻿isualización Descarga Grilla Cruce de Activos_
 
+P﻿ara continuar y consultar Programas dar clic en el botón <a class="btn white">PM</a>:
 
-La imagen anterior indica un subgrupo y a la vez en la columna Indicador se escogen los Activos a consultar. 
+
+
+
+
+
+
+
+
 
 ## Dashboard de Activos
 
