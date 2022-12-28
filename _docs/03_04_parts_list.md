@@ -847,8 +847,8 @@ _**Imagen 60.** Activos - Subgrupo Cruce de Activos_
 La imagen anterior muestra el resultado por cada grilla de PM asociados, SS asociados, OT asociados e HI asociados al subgrupo o conjunto de Activos, esto puede visualizarse en la opción <span class="mdi mdi-download"></span>:
 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img38.png)
-_**Imagen 61.** Activos - Subgrupo Cruce de Activos_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img39.png)
+_**Imagen 61.** Activos - Exportar grilla de Cruce de Activos_
 
 
 
