@@ -807,12 +807,13 @@ _**Imagen 57.** Activos - Indicadores Vista Árbol_
 
 > **Nota:** Para volver nuevamente a la vista Visor de Activos, se debe dar un clic nuevamente al ícono de TreeGrid <span class="mdi mdi-autorenew"></span>.
 
+## Consultas desde Activos - Cruce de Activos
 
 
-## C﻿ruce de Activos
+E﻿n ocasiones se hace necesario hacer búsquedas rápidas de los
+Activos sobre su asociación con Órdenes, Solicitudes, Paros e Historia; la transacción **Cruce De Activos** hace posible que en el módulo de Activos se pueda acceder rápidamente a esta información.
 
-
-
+P﻿ara acceder se sobrepone el cursor sobre 
 
 
 
