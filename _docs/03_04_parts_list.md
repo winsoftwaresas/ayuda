@@ -853,6 +853,8 @@ _**Imagen 61.** Activos - Exportar grilla de Cruce de Activos_
 
 E﻿sto puede tardar algunos minutos dependiendo de la cantidad de datos a exportar, para continuar dar clic en el botón **Descargar**:
 
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img39.png)
+_**Imagen 62.** Activos - Exportar grilla de Cruce de Activos_
 
 
 
