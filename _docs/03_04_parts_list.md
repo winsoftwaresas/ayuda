@@ -895,33 +895,32 @@ _**Imagen 68.** Activos - Historia Cruce de Activos_
 Esta transaccion permite ver indicadores gráficos básicos sobre la información de los Activos/Equipos. Para acceder a esta opción se sobrepone el cursor sobre el módulo de Activos en el menú principal donde se despliega un submenú de transacciones disponibles y luego dar clic en “DashBoard Activos”.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img29.png)
-_**Imagen 60.** Activos - Transacción Dashboard_
+_**Imagen 69.** Activos - Transacción Dashboard_
 
 Este comando permite visualizar en tiempo real el comportamiento de los Activos/Equipos con el fin de usarse como una herramienta para análisis y toma de decisiones rápidas.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img30.png)
-_**Imagen 61.** Activos - Dashboard_
+_**Imagen 70.** Activos - Dashboard_
 
 La información del rectángulo de color naranja ubicado en la parte superior derecha como guía a modo de fracción (N/M), indica el número de registros del subgrupo en el visor(N) sobre el número total de registros de Activos existentes en la base de datos (M). Si no hay preselección, los dos números en sus totales son los mismos.
 También un indicador de la existencia de un subgrupo, es el ícono <span class="mdi mdi-filter-variant"></span> con una pelota de color rojo que se ubica al lado derecho de dicha fracción.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img31.png)
-_**Imagen 62.** Activos - Dashboard Subgrupos_
+_**Imagen 71.** Activos - Dashboard Subgrupos_
 
 Para personalizar la vista de los gráficos o tener una información específica se recomienda hacer subgrupos a través del ícono de filtro <span class="mdi mdi-filter-variant"></span>. Asimismo los DashBoards permiten ocultar información con solo dar un clic sobre sus rectángulos de colores como se muestra en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img32.png)
-_**Imagen 62.** Activos - Dashboard personalizado_
+_**Imagen 72.** Activos - Dashboard personalizado_
 
 Sí se desea restablecer la información, se debe dar clic al icono <span class="mdi mdi-autorenew"></span> (actualizar). En cambio, si se desea exportar el gráfico en un formato de imagen, es posible dando clic al ícono de la flecha hacia abajo <span class="mdi mdi-download"></span> como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img33.png)
-_**Imagen 63.** Activos - Dashboard personalizado_
+_**Imagen 73.** Activos - Dashboard personalizado_
 
 
 
 ## Servicios
-
 
 
 ### R﻿eportes
@@ -929,7 +928,7 @@ _**Imagen 63.** Activos - Dashboard personalizado_
 Este comando <span class="mdi mdi-printer"></span>  permite visualizar los reportes o informes de la información relacionada a los Activos /Equipos. Existen los siguientes tipos de reportes básicos disponibles:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img34.png)
-_**Imagen 65.** Activos - Reportes_
+_**Imagen 74.** Activos - Reportes_
 
 Los anteriores reportes pueden ser  seleccionados para uno o varios Activos/Equipos:
 
@@ -952,7 +951,7 @@ Esta opción <span class="mdi mdi-download"></span> permite la exportación de l
 Al ejecutar esta transacción, se abre una ventana como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img27.png)
-_**Imagen 58.** Activos - Transacción Exportar_
+_**Imagen 75.** Activos - Transacción Exportar_
 
 En la gráfica anterior, se aprecian sus componentes y sus respectivos contenidos.
 
@@ -963,6 +962,6 @@ En la gráfica anterior, se aprecian sus componentes y sus respectivos contenido
 Luego de escoger una de las opciones anteriores, en la parte inferior aparece seleccionado por defecto el recuadro de selección <a class="btn white"><span class="mdi mdi-checkbox-blank-outline"> exportar todos los campos</span></a> pero si se prefiere uno o algunos campos se debe des-seleccionar y a continuación hacer clic en los recuadros a exportar.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img28.png)
-_**Imagen 59.** Activos - Exportar Campos_
+_**Imagen 76.** Activos - Exportar Campos_
 
 Una vez elegida la información, dar clic en el botón inferior <a class="btn white">Exportar</a> el cual genera un archivo de Excel que se descarga automáticamente. El objetivo de esta exportación es llevar toda la información de los Activos a un archivo plano, para luego ser analizados.
