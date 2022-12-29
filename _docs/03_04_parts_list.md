@@ -1,9 +1,13 @@
 ---
 title: Codificación de Activos/Equipos y Generalidades
-subtitle: Aquí se encuentra información sobre la codificación, despiece de activos, sus funciones y formas de uso, cómo crear un Activo, se explican las porciones de la ficha técnica, filtrar por subgrupos y obtener reportes.
-tags: [setup]
+subtitle: Aquí se encuentra información sobre la codificación, despiece de
+  activos, sus funciones y formas de uso, cómo crear un Activo, se explican las
+  porciones de la ficha técnica, filtrar por subgrupos y obtener reportes.
+tags:
+  - setup
 author: win
 order: 03_04
+date: 2022-12-27T21:18:27.690Z
 ---
 
 **AM** está capacitado para aceptar y definir 5 códigos para cada Activo/Equipo. Cada estructura de código es  independiente de las otras y sirve para localizar o acceder o estudiar un Activo, partiendo de distinta información que distintos tipos de usuarios puedan tener sobre el mismo.
@@ -644,7 +648,7 @@ _**Imagen 35.** Activos - Modificar Grupo del Activo_
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_18.png)
 _**Imagen 36.** Activos - Modificar Comentarios_
 
-#### VIDA DE ÚTIL
+#### VIDA ÚTIL
 
 **Modificar FF Registro:** Se Modifica Masivamente la fecha de registro ubicada en la pestaña de Vida Útil de los equipos que están previamente seleccionados en el visor.
 
@@ -733,6 +737,8 @@ _**Imagen 51.** Activos - Modificar Clasificación por uso_
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_35.png)
 _**Imagen 52.** Activos - Modificar  Clasificación por uso_
 
+
+
 ### Actualizar Contadores
 
 Es la función que facilita la Actualización de los Contadores asociados a los Activos/Equiposo. A esta ventana se llega sobreponiendo el cursor sobre el Módulo de Activos y mediante un clic en la opción <a class="btn white">Actualizar Contadores</a> de la sección “Transacciones”.
@@ -792,71 +798,137 @@ _**Imagen 57.** Activos - Vista Árbol_
 
 En la gráfica anterior, ventana Árbol de Activos, se aprecian sus componentes y sus respectivos contenidos. A continuación se describen los  campos que componen esta ventana:
 
- En esta columna aparece el listado de todos los Activos/Equipos agrupados por su respectivo código y descripción de Ubicacion Física. Al lado izquierdo de cada código visualiza un signo Más <span class="mdi mdi-plus-circle-outline"></span> o un signo Menos <span class="mdi mdi-minus-circle-outline"></span>, que permiten visualizar u ocultar respectivamente, el despiece del Activo/Equipo. 
+En esta columna aparece el listado de todos los Activos/Equipos agrupados por su respectivo código y descripción de Ubicacion Física. Al lado izquierdo de cada código visualiza un signo Más <span class="mdi mdi-plus-circle-outline"></span> o un signo Menos <span class="mdi mdi-minus-circle-outline"></span>, que permiten visualizar u ocultar respectivamente, el despiece del Activo/Equipo. 
 
  El significado de cada color lo indica el ícono de indicadores <span class="mdi mdi-message-alert"></span> ubicado en la parte superior derecha de la ventana, como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img21.png)
 _**Imagen 57.** Activos - Indicadores Vista Árbol_
 
-> **Nota:** Para volver nuevamente a la vista Visor de Activos, se debe dar un clic nuevamente al ícono de TreeGrid <span class="mdi mdi-autorenew"></span>.
+> **Nota:** Para volver nuevamente a la vista Visor de Activos, se debe dar un clic nuevamente al ícono de TreeGrid <span class="mdi mdi-autorenew"></span>, o consultar indicadores <span class="mdi mdi-message-alert"></span>. 
 
-### Exportar
+### Consultas desde Activos - Cruce de Activos
 
-Esta opción <span class="mdi mdi-download"></span> permite la exportación de los campos contenidos en la ficha técnica de los Activos/Equipos que aparecen en el visor, totales o provenientes de un subgrupo a un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso.
 
-Al ejecutar esta transacción, se abre una ventana como se muestra a continuación:
+E﻿n ocasiones se hace necesario hacer búsquedas rápidas de los
+Activos sobre su asociación con Órdenes, Solicitudes, Paros e Historia; 
+esta transacción hace posible, que en el módulo de Activos se pueda acceder rápidamente a esta información, bien sea uno a uno ó registros preseleccionados en un Subgrupo. 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img27.png)
-_**Imagen 58.** Activos - Transacción Exportar_
+P﻿ara acceder se sobrepone el cursor sobre el módulo de <a class="btn blue">activos</a> donde se despliega el submenú de transaccciones y a continuación dar clic en **Cruces de Activos** como se muestra a continuación:
 
-En la gráfica anterior, se aprecian sus componentes y sus respectivos contenidos.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img35.png)
+_**Imagen 58.** Activos - Ir a Cruce de Activos_
 
-**Exportar Visor:** Esta opción exporta todos los Activos seleccionados en el visor mediante un subgrupo.
+A﻿ continuación se visualiza la Ventana Visor de Cruces Activos:
 
-**Exportar Todos los Registros:** Esta opción exporta todas los Activos existentes en la base de datos, sin importar cualquier subgrupo activo.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img36.png)
+_**Imagen 59.** Activos - Visor Cruce de Activos_
 
-Luego de escoger una de las opciones anteriores, en la parte inferior aparece seleccionado por defecto el recuadro de selección <a class="btn white"><span class="mdi mdi-checkbox-blank-outline"> exportar todos los campos</span></a> pero si se prefiere uno o algunos campos se debe des-seleccionar y a continuación hacer clic en los recuadros a exportar.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img28.png)
-_**Imagen 59.** Activos - Exportar Campos_
+L﻿os títulos de cada columna en color azul permiten organizar la información ascendente o descendente a través de un clic. 
 
-Una vez elegida la información, dar clic en el botón inferior <a class="btn white">Exportar</a> el cual genera un archivo de Excel que se descarga automáticamente. El objetivo de esta exportación es llevar toda la información de los Activos a un archivo plano, para luego ser analizados.
+**Esta transacción contiene las funcionalidades en cada ventana:** Subgrupos de información <span class="mdi mdi-filter-variant"></span>,  exportar registros seleccionados <span class="mdi mdi-download"></span> , imprimir reportes <span class="mdi mdi-printer"></span>  y consultar indicadores <span class="mdi mdi-message-alert"></span>. 
+
+Es posible seleccionar uno a uno en la primera columna **Indicador** a través de un clic en el recuadro <a class="btn black"><span class="mdi mdi-checkbox-blank-outline"></a> y elegir lo que se desea consultar en los botones superiores en la izquierda:
+
+
+- Programas: <a class="btn white">PM</a>  
+- Solicitudes de Servicio: <a class="btn white">SS</a>
+- Paros: <a class="btn white">ADF</a> 
+- Órdenes de Trabajo: <a class="btn white">OT</a> 
+- Historia de Mantenimiento:  <a class="btn white">HI</a>
+
+A﻿ continuación se ilustra el siguiente ejemplo:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img37.png)
+_**Imagen 60.** Activos - Subgrupo Cruce de Activos_
+
+La imagen anterior muestra el resultado por cada grilla de PM asociados, SS asociados, OT asociados e HI asociados al subgrupo o conjunto de Activos.
+
+También puede visualizarse en la opción <span class="mdi mdi-download"></span>:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img38.png)
+_**Imagen 61.** Activos - Exportar Grilla de Cruce de Activos_
+
+
+E﻿sto puede tardar algunos minutos dependiendo de la cantidad de datos a exportar, para continuar dar clic en el botón **Descargar**. Esto descarga un archivo en formato excel en la estación Cliente:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img39.png)
+_**Imagen 62.** Activos - Descarga Grilla de Cruce de Activos_
+
+V﻿isualización de la exportación:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img40.png)
+_**Imagen 63.** Activos - V﻿isualización Descarga Grilla Cruce de Activos_
+
+P﻿ara continuar y consultar Programas asociados al Activo o Activos seleccionados dar clic en el botón <a class="btn white">PM</a>:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img41.png)
+_**Imagen 64.** Activos - Programas Cruce de Activos_
+
+Para consultar Solicitudes asociadas al Activo o Activos seleccionados dar clic en el botón <a class="btn white">SS</a>:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img42.png)
+_**Imagen 65.** Activos - Solicitudes Cruce de Activos_
+
+Para consultar ADF asociados al Activo o Activos seleccionados dar clic en el botón <a class="btn white">ADF</a>:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img43.png)
+_**Imagen 66.** Activos - Paros Cruce de Activos_
+
+Para consultar Órdenes de Trabajo asociadas al Activo o Activos seleccionados dar clic en el botón <a class="btn white">OT</a>:
+
+![Procesar imagen]
+(https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img44.png)
+_**Imagen 67.** Activos - Órdenes Cruce de Activos_
+
+
+Para consultar Historia de Mantenimiento asociada al Activo o Activos seleccionados dar clic en el botón <a class="btn white">HI</a>:
+
+![Procesar imagen]
+(https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img45.png)
+_**Imagen 68.** Activos - Historia Cruce de Activos_
+
 
 ## Dashboard de Activos
 
 Esta transaccion permite ver indicadores gráficos básicos sobre la información de los Activos/Equipos. Para acceder a esta opción se sobrepone el cursor sobre el módulo de Activos en el menú principal donde se despliega un submenú de transacciones disponibles y luego dar clic en “DashBoard Activos”.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img29.png)
-_**Imagen 60.** Activos - Transacción Dashboard_
+_**Imagen 69.** Activos - Transacción Dashboard_
 
 Este comando permite visualizar en tiempo real el comportamiento de los Activos/Equipos con el fin de usarse como una herramienta para análisis y toma de decisiones rápidas.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img30.png)
-_**Imagen 61.** Activos - Dashboard_
+_**Imagen 70.** Activos - Dashboard_
 
 La información del rectángulo de color naranja ubicado en la parte superior derecha como guía a modo de fracción (N/M), indica el número de registros del subgrupo en el visor(N) sobre el número total de registros de Activos existentes en la base de datos (M). Si no hay preselección, los dos números en sus totales son los mismos.
 También un indicador de la existencia de un subgrupo, es el ícono <span class="mdi mdi-filter-variant"></span> con una pelota de color rojo que se ubica al lado derecho de dicha fracción.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img31.png)
-_**Imagen 62.** Activos - Dashboard Subgrupos_
+_**Imagen 71.** Activos - Dashboard Subgrupos_
 
 Para personalizar la vista de los gráficos o tener una información específica se recomienda hacer subgrupos a través del ícono de filtro <span class="mdi mdi-filter-variant"></span>. Asimismo los DashBoards permiten ocultar información con solo dar un clic sobre sus rectángulos de colores como se muestra en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img32.png)
-_**Imagen 62.** Activos - Dashboard personalizado_
+_**Imagen 72.** Activos - Dashboard personalizado_
 
 Sí se desea restablecer la información, se debe dar clic al icono <span class="mdi mdi-autorenew"></span> (actualizar). En cambio, si se desea exportar el gráfico en un formato de imagen, es posible dando clic al ícono de la flecha hacia abajo <span class="mdi mdi-download"></span> como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img33.png)
-_**Imagen 63.** Activos - Dashboard personalizado_
+_**Imagen 73.** Activos - Dashboard personalizado_
+
+
 
 ## Servicios
+
+
+### R﻿eportes
 
 Este comando <span class="mdi mdi-printer"></span>  permite visualizar los reportes o informes de la información relacionada a los Activos /Equipos. Existen los siguientes tipos de reportes básicos disponibles:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img34.png)
-_**Imagen 65.** Activos - Reportes_
+_**Imagen 74.** Activos - Reportes_
 
 Los anteriores reportes pueden ser  seleccionados para uno o varios Activos/Equipos:
 
@@ -871,3 +943,25 @@ Los anteriores reportes pueden ser  seleccionados para uno o varios Activos/Equi
 Para visualizar los reportes, se da un clic sobre el reporte y luego al botón <a class="btn white">Imprimir</a>.
 .
 Para exportar un reporte se da un clic sobre el reporte y luego al botón <a class="btn white">exportar</a>. Esto descarga automáticamente en la estación cliente el reporte en formato excel.
+
+### Exportar
+
+Esta opción <span class="mdi mdi-download"></span> permite la exportación de los campos contenidos en la ficha técnica de los Activos/Equipos que aparecen en el visor, totales o provenientes de un subgrupo a un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso.
+
+Al ejecutar esta transacción, se abre una ventana como se muestra a continuación:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img27.png)
+_**Imagen 75.** Activos - Transacción Exportar_
+
+En la gráfica anterior, se aprecian sus componentes y sus respectivos contenidos.
+
+**Exportar Visor:** Esta opción exporta todos los Activos seleccionados en el visor mediante un subgrupo.
+
+**Exportar Todos los Registros:** Esta opción exporta todas los Activos existentes en la base de datos, sin importar cualquier subgrupo activo.
+
+Luego de escoger una de las opciones anteriores, en la parte inferior aparece seleccionado por defecto el recuadro de selección <a class="btn white"><span class="mdi mdi-checkbox-blank-outline"> exportar todos los campos</span></a> pero si se prefiere uno o algunos campos se debe des-seleccionar y a continuación hacer clic en los recuadros a exportar.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img28.png)
+_**Imagen 76.** Activos - Exportar Campos_
+
+Una vez elegida la información, dar clic en el botón inferior <a class="btn white">Exportar</a> el cual genera un archivo de Excel que se descarga automáticamente. El objetivo de esta exportación es llevar toda la información de los Activos a un archivo plano, para luego ser analizados.
