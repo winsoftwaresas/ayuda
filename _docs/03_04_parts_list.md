@@ -871,6 +871,19 @@ Para consultar Solicitudes asociadas al Activo o Activos seleccionados dar clic 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img42.png)
 _**Imagen 65.** Activos - Solicitudes Cruce de Activos_
 
+Para consultar ADF asociados al Activo o Activos seleccionados dar clic en el botón <a class="btn white">ADF</a>:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img43.png)
+_**Imagen 66.** Activos - Paros Cruce de Activos_
+
+
+Para consultar Órdenes de Trabajo asociadas al Activo o Activos seleccionados dar clic en el botón <a class="btn white">OT</a>:
+
+(https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img44.png)
+_**Imagen 67.** Activos - Órdenes Cruce de Activos_
+
+
+
 
 
 
