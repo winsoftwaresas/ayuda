@@ -68,13 +68,21 @@
   - 10_04_main_window
   - 10_05_export
   - 10_06_filed_history
-
+   
 - title: Programas de mantenimiento
   docs:
   - 11_01_introduction
   - 11_02_basic_concepts
   - 11_03_main_window
   - 11_04_services
+
+- title: Historia Archivada
+  docs:
+  - 12_01_introduction
+  - 12_02_basic_concepts
+  - 12_03_main_window
+  - 12_04_submenu_window
+  - 12_05_transactions
 
 - title: AMsi
   docs:
