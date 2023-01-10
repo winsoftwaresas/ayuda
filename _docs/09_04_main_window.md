@@ -131,7 +131,7 @@ Cuando ha concluido la ejecución de la OT, es posible utilizarlo para registrar
 Es posible saber cuáles OT son de tipo Metrología, Preventiva/Programada, Correctiva y Cerrada Parcial, si tienen Multimedia y Servicio Evaluado directamente desde la ventana visor, sobreponiendo el cursor en el ícono de Indicadores <span class="mdi mdi-message-alert"></span> ubicado en la parte superior derecha de la ventana mostrando un conjunto de pelotas de colores que indican el tipo de información definida y asociada, como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img04_1.png)
-***Imagen 70.** Órdenes - Ventana Detalle*
+***Imagen 70.** Órdenes - Indicadores*
 
 El significado de los colores es el siguiente:
 
