@@ -178,7 +178,7 @@ _**Nota:** Es importante tener en cuenta que cuando se están realizando los sub
 
 ## Ventana Submenú de Historia Archivada
 
-### Ir a OT
+### Ir a HA
 
 Esta opción de búsqueda rápida se encuentra ubicada al lado superior derecho de la ventana Visor. Al darle clic al ícono <span class="mdi mdi-magnify"></span>, se abre un campo al lado izquierdo que indica a digitar el número de la OT, SS o Paro. Luego de digitar la información, se presiona la tecla <a class="btn">Enter <span class="mdi mdi-subdirectory-arrow-left"></span></a> y a continuación se sombrea el registro deseado en el Visor:
 
