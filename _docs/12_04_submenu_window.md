@@ -1,5 +1,5 @@
 ---
-title: Introducción
+title: Ventana Submenú
 subtitle: Esta sección se explican los comandos de la ventana visor de historia de mantenimiento archivada
 tags: [setup]
 author: win
