@@ -1,5 +1,5 @@
 ---
-title: Introducción
+title: Transacciones
 subtitle: Esta sección se explica como se usa la transacción eliminar masivamente la historia de mantenimiento archivada
 tags: [setup]
 author: win
