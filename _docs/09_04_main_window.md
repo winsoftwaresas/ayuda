@@ -949,7 +949,7 @@ Si por el contrario después de efectuar la revisión, el usuario está seguro d
 
 Una vez se generan las OT, los PM que las generaron, se actualizan automáticamente, ajustando sus criterios y fechas, preparando la consistencia de las generaciones futuras.
 
-### Modificar Masivamente
+## Modificar Masivamente
 
 A esta opción se llega sobreponiendo el cursor sobre el módulo de OT donde se despliega un submenú de transacciones disponibles y luego se da clic en “Modificar Masivamente”.
 
