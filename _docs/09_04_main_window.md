@@ -1145,7 +1145,7 @@ Valor del CO en la Generación: Este campo permanece bloqueado y muestra el valo
 En el Seguimiento o Cierre, además de los botones <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a> y <a class="btn blue">cancelar <span class="mdi mdi-block-helper"></span></a>, se visualiza el botón <a class="btn blue">bitácora <span class="mdi mdi-view-week"></span></a>, éste muestra en nueva ventana el historial de cambios de la OT en: Estado, Prioridad y Responsable. Se muestra esta información solo si se han presentado modificaciones, de lo contrario los campos permanecen en blanco.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img54.png)
-***Imagen 142.** Órdenes - Detalle Bitácora en Seguimiento y Cierre Masivo*
+***Imagen 142.** Órdenes - Detalle Bitácora Seguimiento y Cierre Masivo*
 
 Para continuar con la actualización de una OT o un subgrupo de OT se debe dar clic en el botón de la parte superior <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a>. El sistema muestra un mensaje alerta, para continuar dar clic en <a class="btn white">Aceptar</a>:
 
@@ -1158,7 +1158,7 @@ Una vez se complete el cierre masivo, el sistema muestra la Ventana Visor con lo
 ***Imagen 141.** Órdenes - Actualización Seguimiento y Cierre Masivo*
 
 
-### Enviar a Historia
+## Enviar a Historia
 
 A esta opción se llega sobreponiendo el cursor sobre el módulo de OT donde se despliega un submenú de transacciones disponibles y luego se da clic en “Enviar a Historia”.
 
