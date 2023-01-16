@@ -193,7 +193,7 @@ _**Imagen 16.** Mensaje Alerta - Ir a OT_
 
 Si se tiene un subgrupo establecido y se digita el consecutivo de una OT, SS o Paro que no esté dentro del subgrupo, el sistema muestra un mensaje de adventencia, donde se le pregunta al usuario si desea deshacer el subgrupo:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap13/chp13_img19.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap13/chp13_img24.png)
 _**Imagen 17.** Mensaje Advertencia - Ir a OT_
 
 ## Exportar
