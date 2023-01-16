@@ -1,6 +1,6 @@
 ---
 title: Conceptos Básicos
-subtitle: Esta sección se habla sobre que és la historia archivada y que finalidad tiene
+subtitle: Esta sección habla sobre que és la historia archivada y que finalidad tiene
 tags: [setup]
 author: win
 order: 12_02
@@ -8,7 +8,7 @@ order: 12_02
 # Conceptos Básicos Historia de Archivada (HA)
 
 
-La Historia Archivada se refiere a los registros mas antiguos que son transferidos desde la Historia de Mantenimiento, este módulo es independiente de la base de datos, es decir, toda la información a su origen (Historia) que antes era fundamentada en links o enlaces con otros módulos desaparecen y se resuelven quedando con la información real, es decir, ahora todos los campos etán diligenciados y grabados, por lo que la visualización de cada registro es una tabla plana que contiene la misma información pero inmodificable. La Historia Archivada hace que la base de datos se vuelva mas ligera, liviana y ágil. 
+La Historia Archivada se refiere a los registros mas antiguos que son transferidos desde la Historia de Mantenimiento, este módulo es independiente de la base de datos, es decir, toda la información a su origen (Historia) que antes era fundamentada en links o enlaces con otros módulos desaparecen y se resuelven quedando con la información real, es decir, ahora todos los campos están diligenciados y grabados, por lo que la visualización de cada registro es una tabla plana que contiene la misma información pero inmodificable. La Historia Archivada hace que la base de datos se vuelva mas ligera, liviana y ágil. 
 
 Es importante tener en cuenta que cuando se envían registros a <a class="btn blue">Historia Archivada</a> se hace posible eliminar o hacer limpieza de registros muy antiguos como Centros de Costo, Terceros, Ubicaciones Físicas, Activos, entre otra información que no tenga uso o no sea vigente.
 
