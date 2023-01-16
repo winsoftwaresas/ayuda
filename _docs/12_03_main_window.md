@@ -97,58 +97,51 @@ A continuación se describen los campos que componen esta ventana Detalle de Ór
 
 ### Gasto Real
 
-Para ingresar a esta opción, se debe dar clic en la pestaña “Gasto Real” de la ventana detalle de Órdene de Trabajo Histórica.
+Para ingresar a esta opción, se debe dar clic en la pestaña “Gasto Real” de la ventana detalle de Órdenes de Trabajo HA.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap13/chp13_img03.png)
 _**Imagen 3.** Historia Archivada- Gasto Real de una OT_
 
-Esta tabla resume los totales de los gastos de Mano de Obra Interna, Mano de Obra Externa, Materiales y Repuestos y Otros Conceptos de Costo. A través de esta ventana de Gasto Real se puede administrar el Gasto Real de la OT Histórica. Se compone de dos zonas:
+Esta tabla resume los totales de los gastos reales de Mano de Obra Interna, Mano de Obra Externa, Materiales y Repuestos y Otros Conceptos de Costo que se registraron en la OT de HA:
 
-En la zona superior, aparece la matriz de Gasto Real, que resume los costos reales para la OT, discriminando por TT (En las filas), y por Tipo de Consumo (En las columnas). La última fila y la última columna de la matriz, discriminan la diferencia contra el Presupuesto, conformando así el Control Presupuestal de la OT.
 
-En la zona inferior, aparecen los botones para ingresar <a class="btn gray">mano obra interna</a>, <a class="btn gray">mano obra externa</a>, <a class="btn gray">mat y rep</a>, y <a class="btn gray">o.conceptos</a>. Sin embargo, cabe destacar que son sólo en este caso para consultar el detalle de cada uno de ellos.
+En la zona inferior, aparecen los botones para consultar exclusivamente:  <a class="btn gray">mano obra interna</a>, <a class="btn gray">mano obra externa</a>, <a class="btn gray">mat y rep</a>, y <a class="btn gray">o.conceptos</a> .
 
 **Mano de obra Interna**
 
-A través de la ventana de GR de Ingreso de Mano de Obra Interna se hace consulta de las personas que fueron ingresadas.
-
-Para ver el detalle de laMO se debe dar clic en el botón <a class="btn gray">adicionar mano de obra interna</a> y dar un clic sobre el registro, en el cual se visualizan los siguientes campos:
+Para consultar dar un clic sobre el botón<a class="btn gray">mano obra interna</a> en el cual se visualizan los siguientes campos:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap13/chp13_img04.png)
-_**Imagen 4** Historia Archivada- Gasto Real MO_
+_**Imagen 4.** Historia Archivada- Gasto Real MO_
 
 **Fecha de Uso:** Es la fecha en la cual se utilizó el recurso.
 
-**OF:** Es el oficio al que pertenece el Responsable asignado. Es un campo de solo lectura, que se establece una vez se selecciona el Responsable.
+**OF:** Es el oficio al que pertenece el Responsable asignado. 
 
-**Responsable:** Es la persona que ha ejecutado la OT. 
+**Responsable:** Es la persona que ejecutó la labor. 
 
 **H. Hombre:** Es el número de Horas Hombre consumidas por el Responsable en cuestión.
 
 **Minutos:** Es el número de Minutos, que junto con las horas, conforman el tiempo total consumido. 
 
-**Tipo Hr.:** Dado que un Responsable a través del Oficio del mismo puede poseer varios tipos de Hora, cada uno con un valor distinto, en este campo se muestra registrado el Tipo de Hora que asoció al Responsable de la OT.
+**Tipo Hr.:** Dado que un Responsable a través del Oficio del mismo puede poseer varios tipos de Hora, cada uno con un valor distinto, en este campo se muestra registrado el Tipo de Hora que se asoció al Responsable de la OT.
 
-**Vlr. Hora:** Es el valor unitario del tipo de hora (Tipo Hr), 
-que se asoció al Responsable en la OT.
+**Vlr. Hora:** Es el valor unitario del tipo de hora (Tipo Hr) que se asoció al Responsable en la OT.
 
 Si se desea continuar consultando el gasto real, se debe un clic en <a class="btn gray">ir a la matriz</a>.
 
 
 **Mano de Obra Externa**
 
-A través de la ventana de Ingreso de Mano de Obra Externa se consulta el Gasto Real de Mano de Obra Externa de la OT.
-
-Para ver el detalle de la Mano de Obra Externa se debe dar clic en el botón <a class="btn gray">adicionar mano obra externa</a> y dar un clic sobre el registro, en el cual se visualizan los siguientes campos:
+Para consultar la Mano de Obra Externa se debe dar clic en el botón <a class="btn gray"> mano obra externa</a> y dar un clic sobre el registro, en el cual se visualizan los siguientes campos:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap13/chp13_img05.png)
 _**Imagen 5** Historia Archivada - Gasto Real ME_
 
-
 **Fecha de Uso:** Es la fecha en la cual se utilizó el recurso.
 
-**OF:** Es el Oficio al que pertenece el Responsable Externo asignado. 
+**OF:** Es el Oficio al que perteneció el Responsable Externo asignado. 
 
 **Responsable:** Es el Responsable Externo que ha ejecutado la OT. 
 
@@ -160,26 +153,25 @@ Si se desea continuar consultando el gasto real, se debe un clic en <a class="bt
 **Ingresar Materiales y Repuestos**
 
 
-A través de la ventana de Ingreso de Materiales y Repuestos se consulta el consumo real de Materiales y Repuestos de la OT.
-
-Para ver el detalle de Materiales y Repuestos se debe dar clic en el botón <a class="btn gray">adicionar Material y Repuesto</a> y dar un clic sobre el registro, en el cual se visualizan los siguientes campos:
+Para consultar Materiales y Repuestos se debe dar clic en el botón <a class="btn gray">Mat y Rep</a> y dar un clic sobre el registro, en el cual se visualizan los siguientes campos:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap13/chp13_img06.png)
 _**Imagen 6** Historia Archivada- Gasto Real M y R_ 
 
 **Fecha de Uso:** Es la fecha en la cual se utilizó el recurso.
 
-**Almacén:** Se muestra el Almacen donde se encuentra  el Repuesto que se comsumió.
+**Almacén:** Se muestra el Almacénn donde se encuentra  el Repuesto que se comsumió.
 
-**Descripción M y R:** Es un campo de solo lectura, que muestra la descripción del material y repuesto seleccionado.
+**Descripción M y R:** Es un campo que muestra la descripción del material y repuesto seleccionado.
 
-**Cantidad:** Es la cantidad que se va a consumió del Respuesto en la ejecución de la OT en cuestión.
+**Cantidad:** Es la cantidad consumida del Respuesto en la ejecución de la OT.
 
-**UM:** Es un campo de solo lectura que muestra la unidad de consumo del repuesto seleccionado.
+**UM:** Es un campo que muestra la unidad de consumo del repuesto seleccionado.
 
 **Vlr. Unitario:** Es el valor unitario del repuesto consumido en la OT.
 
-**Vlr. Total:** Este campo es informativo y es calculado por el sistema, contiene el valor total consumido para ese Material y Repuesto. Es el producto del Vlr. Unitario por la Cantidad. Se visualiza en la tabla de Materiales y Repuestos.
+**Vlr. Total:** Este campo muestra el valor total consumido para ese Material y Repuesto. Es el producto del Vlr. Unitario por la Cantidad. 
+
 
 Si se desea continuar consultando el gasto real, se debe un clic en <a class="btn gray">ir a la matriz</a>
 
@@ -188,16 +180,16 @@ Si se desea continuar consultando el gasto real, se debe un clic en <a class="bt
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap13/chp13_img07.png)
 _**Imagen 7.** Historia Archivada- Gasto Real OC_
 
-Para ver el detalle de Otros Conceptos de Costo o Gastos indirectos, se debe dar clic en el botón <a class="btn gray">adicionar otro concepto</a> y dar un clic sobre el registro, en el cual se visualizan los siguientes campos:
+Para consultar  Otros Conceptos de Costo o Gastos indirectos, se debe dar clic en el botón <a class="btn gray"> O. Conceptos</a> y dar un clic sobre el registro, en el cual se visualizan los siguientes campos:
 
 
 **Fecha de Uso:** Es la fecha en la cual se utilizó el recurso.
 
-**Concepto:** Es el “Otro Concepto‟ a cargado a la OT. 
+**Concepto:** Es el “Otro Concepto‟ que fue cargado a la OT. 
 
-**Nro. Unidades:** Es el número de unidades consumidas del Concepto de Costo seleccionado anteriormente.
+**Nro. Unidades:** Es el número de unidades que fueron consumidas del Concepto de Costo.
 
-**Vlr. Unitario:** Es el valor presupuestado del “Otro Concepto Costo”. AM sugiere el valor unitario del concepto que se encuentra ingresando al sistema. Sin embargo, es modificable por el usuario.
+**Vlr. Unitario:** Es el valor presupuestado del “Otro Concepto Costo”. 
 
 **Vlr. Total:** Es el costo total consumido del “Otro Concepto Costo” teniendo en cuenta el número de unidades y el valor unitario.
 
