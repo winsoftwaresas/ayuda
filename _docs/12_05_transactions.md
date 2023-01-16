@@ -1,19 +1,15 @@
 ---
 title: Transacciones
-subtitle: Esta sección se explica como se usa la transacción eliminar masivamente la historia de mantenimiento archivada
+subtitle: Esta sección explica como se usa la transacción eliminar masivamente historia de mantenimiento archivada
 tags: [setup]
 author: win
 order: 12_05
 ---
 
-## Transacciones
-
-### Eliminar Masivamente 
+### Eliminar Masivamente HA
 
 
-Eliminar masivamente se ejecuta cuando se tiene la certeza de la existencia  datos que no se necesitarán mas en adelante. Borrar masivamente Historia Archivada, implica eliminar los registros definitivamente, lo que quiere decir que no se podrán recuperar.
-
->**Nota:** El resultado de ejecutar este proceso da como resultado la ligereza de la base de datos, es decir, eliminar masivamente datos basura sobre Terceros y Activos, que ya no sean útiles. 
+Eliminar masivamente se ejecuta cuando se tiene la certeza de que un grupo de datos en HA ya no es requerido, porque los Activos referidos ya no existen. 
 
 
 Para ir a la transacción sobreponer el cursor sobre el módulo de  <a class="btn blue">Historia Archivada</a> y dar clic en la opción **Eliminar Masivamente**, como se indica a continuación:
