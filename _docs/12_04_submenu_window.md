@@ -1,6 +1,6 @@
 ---
 title: Ventana Submenú
-subtitle: Esta sección se explican los comandos de la ventana visor de historia de mantenimiento archivada
+subtitle: Esta sección explica los comandos de la ventana visor de historia de mantenimiento archivada
 tags: [setup]
 author: win
 order: 12_04
@@ -10,7 +10,7 @@ order: 12_04
 
 ## Indicadores
 
-Es posible saber cuáles registros de SS, OT y Paros, tienen Multimedia, Servicio Evaluado y Firma de Recibido (AMóvil) directamente desde la ventana visor, sobreponiendo el cursor en el ícono de Indicadores <span class="mdi mdi-message-alert"></span> ubicado en la parte superior derecha de la ventana mostrando un conjunto de pelotas de colores que indican el tipo de información definida y asociada, como se muestra a continuación:
+Es posible saber cuáles registros de SS, OT y Paros, tienen Multimedia, Servicio Evaluado y Firma de Recibido (sólo para SS y OTs diligenciadas desde AMóvil) directamente desde la ventana visor, sobreponiendo el cursor en el ícono de Indicadores <span class="mdi mdi-message-alert"></span> ubicado en la parte superior derecha de la ventana como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap13/chp13_img12.png)
 _**Imagen 12.** Historia Archivada- Indicadores_
@@ -18,26 +18,28 @@ _**Imagen 12.** Historia Archivada- Indicadores_
 
 El significado de los colores es el siguiente:
 
-- **Naranja:** Órden que tiene asociado archivos de imágenes, videos y/o documentos en la pestaña Multimedia.
-- **Blanco:** Indican SS/OT que tienen registrada la firma de recibido (AMóvil)
-- **Azul:** Órden con servicio evaluado.
+- **Pelota Naranja:** SS/OT que tienen asociada Multimedia.
+- **Pelota Blanca:** Indican SS/OT que tienen registrada la firma de recibido (AMóvil)
+- **Pelota Azul:** SS/OT con servicio evaluado.
 
-## Subgrupos
+## Subgrupo
 
-Se usa para seleccionar grupos de Órdenes de Trabajo Históricas, Solicitudes de Servicio y Paros que cumplen con un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al icono de filtro azul <span class="mdi mdi-filter-variant"></span>, ubicado en la parte superior derecha de la ventana Visor de Historia.
+Se usa para seleccionar un grupo de información, sobre la que se estudiará uno a uno de los registros incluidos o para imprimir el único reporte existente. Puede incluir OT, SS o Paros.
+
+Para ingresar a esta opción se debe dar clic al icono <span class="mdi mdi-filter-variant"></span>, ubicado en la parte superior derecha de la ventana Visor de HA.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap13/chp13_img13.png)
 _**Imagen 13.** Historia Archivada- Ir a Subgrupos_
 
 Cada criterio trabaja en conjunto con los demás, con el operador intersección.
 
-Cada criterio aparece inicializado en un valor global que permite mostrar todas las Órdenes de Trabajo Históricas, Solicitudes de Servicio y Paros. Lo que significa que de no escoger un criterio se obtiene como resultado del subgrupo, el mismo conjunto completo de todas las OT Históricas, SS y PA.
+Cada criterio aparece inicializado en un valor global que permite mostrar todas las OT, SS y Paros de HA. Lo que significa que de no escoger un criterio se obtiene como resultado del subgrupo, el mismo conjunto completo de todas las OT Históricas, SS y PA.
 
-**AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar. Esto se visualiza con una pelota de color ojo sobre el ícono, también se visualiza en la parte inferior izquierda el número de registros encontrados sobre el total de registros (N/M).
+**AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar. Esto se visualiza con una pelota de color ojo sobre el <span class="mdi mdi-filter-variant"></span>, también se visualiza en la parte inferior izquierda el número de registros encontrados sobre el total de registros (N/M).
 
 El programa permite entonces hacer selección de un grupo de cualquier tipo de los tres registros mencionados de acuerdo con los criterios seleccionados en la siguiente ventana.
 
-Los campos de datos que constituyen criterio de selección en la Ventana Subgrupo de OT Históricas, SS y PA, son los siguientes:
+Los campos de datos son los siguientes:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap13/chp13_img14.png)
@@ -176,14 +178,13 @@ Activo/Equipo.
 
 _**Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos, se pueden utilizar uno o varios de los criterios anteriores, simultáneamente. Además es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber realizado una selección, es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección, se da un clic al botón <a class="btn white">Mas <span class="mdi mdi-plus-circle"></span></a> o <a class="btn white">Menos <span class="mdi mdi-minus-circle"></span></a>en lugar de darlo al botón <a class="btn white">aceptar <span class="mdi mdi-check-circle"></span></a>._ 
 
-## Ventana Submenú de Historia Archivada
 
-### Ir a HA
+### Buscar 
 
-Esta opción de búsqueda rápida se encuentra ubicada al lado superior derecho de la ventana Visor. Al darle clic al ícono <span class="mdi mdi-magnify"></span>, se abre un campo al lado izquierdo que indica a digitar el número de la OT, SS o Paro. Luego de digitar la información, se presiona la tecla <a class="btn">Enter <span class="mdi mdi-subdirectory-arrow-left"></span></a> y a continuación se sombrea el registro deseado en el Visor:
+Esta opción de búsqueda rápida se encuentra ubicada al lado superior derecho de la ventana Visor. Es una lupa <span class="mdi mdi-magnify"></span> que abre un campo al lado izquierdo y que indica digitar el número de la OT, SS o Paro. Luego de digitar la información, se presiona la tecla <a class="btn">Enter <span class="mdi mdi-subdirectory-arrow-left"></span></a> y a continuación se sombrea el registro deseado en el Visor:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap13/chp13_img17.png)
-_**Imagen 15.** Historia Archivada - Exportar_las OT, SS y PA 
+_**Imagen 15.** Historia Archivada - Exportar las OT, SS y PA_
 
 En caso de escribir el consecutivo con algún error o no existente, el sistema muestra un mensaje de alerta:
 
