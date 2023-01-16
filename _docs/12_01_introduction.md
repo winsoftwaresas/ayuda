@@ -1,11 +1,12 @@
 ---
 title: Introducción
-subtitle: el este capitulo dará respuesta a todas las preguntas generadas de la seccion historia de mantenimiento archivada
+subtitle: En este capitulo dará respuesta a todas las preguntas generadas de la seccion historia de mantenimiento archivada
 tags: [setup]
 author: win
 order: 12_01
 ---
-# Historia de Mantenimiento
+
+# Historia de Mantenimiento Archivada
 
 - ¿Cómo se desplazan las Órdenes de Trabajo cerradas hasta la Historia de Mantenimiento?.
 - ¿Qué tipo de consultas se pueden hacer desde Historia?.
