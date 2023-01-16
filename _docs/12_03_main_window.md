@@ -197,7 +197,7 @@ Para consultar  Otros Conceptos de Costo o Gastos indirectos, se debe dar clic e
 
 ## Evaluación de Servicio
 
-Se puede visualizar la evaluación del servicio que fue prestado por el personal de mantenimiento o de servicios en la OT seleccionada. La evaluación la realiza un usuario, previamente autorizado, quien fuera el receptor del servicio, una vez que se ha ya cerrado la OT. 
+Se puede visualizar la evaluación del servicio del personal de mantenimiento o de servicios que realizó la labor. La evaluación fue hecha por un usuario, previamente autorizado, quien fuera el receptor del servicio, una vez que se haya cerrado la OT. 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap13/chp13_img08.png)
 _**Imagen 8.** Historia Archivada- Evaluación del Servicio_
@@ -209,14 +209,9 @@ _**Imagen 8.** Historia Archivada- Evaluación del Servicio_
 _**Imagen 9.** Historia Archivada- Multimedia_
 
 
-En la gráfica anterior, Ventana Multimedia, se aprecian sus componentes y sus respectivos contenidos.
-A través de la ventana Multimedia se consulta información adicional a la OT en cada una de sus carpetas asignadas. La multimedia indica la asociación de uno o varios documentos a la OT. AM acepta documentos de extensiones .DOC, XLS, PDF, JPG es decir, de Microsoft Word o Microsoft Excel, Acrobat o Imágenes.
+A través de la ventana Multimedia se consulta información gráfica y multimedia que complementó o sustentó la ejecución de la OT. A continuación se describen los campos:
 
-Los documentos anexos pueden contener ayudas necesarias en la ejecución de la OT, planos, manuales técnicos, manuales de normas técnicas de Mantenimiento o de especificaciones detalladas, normas de seguridad, enfoques de acción, procedimientos sobre cómo realizar la labor, listas de verificación, protocolos de prueba u otra información estándar para su ejecución.
-
-A continuación se describen las carpetas que componen esta ventana; cuando se quiera actualizar o ingresar nueva información a la OT, se deberán registrar así:
-
-**Que Hacer:** Es la información general que aparece en cada pestaña con los campos bloqueados para que el usuario visualice la información básica de la OT.
+**Que Hacer:** Es la información general que de la OT. 
 
 **Documentos:** En esta carpeta se relaciona toda clase de documentación relacionada a la OT. Ejemplo: Archivos en Word, PDF, Excel, entre otros.
 
@@ -229,7 +224,7 @@ Para ingresar a una carpeta específica se debe de dar un doble clic:
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap13/chp13_img10.png)
 _**Imagen 10.** Historia Archivada - Detalle Multimedia_
 
-Los archivos tipo JGP, WORD, PDF, EXCEL para visualizar se deben descargar haciendo clic en el ícono <span class="mdi mdi-cloud-download icon white"></span>.  
+Para visualizar los anexos tipo:  WORD, PDF, EXCEL, ellos se descargan dando un clic en el ícono <span class="mdi mdi-cloud-download icon white"></span>. 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap13/chp13_img11.png)
 _**Imagen 11.** Historia Archivada- Descargar Multimedia_
