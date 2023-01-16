@@ -1,5 +1,5 @@
 ---
-title: Introducción a la Historia de Mantenimiento Archivada
+title: Introducción
 subtitle: En este capitulo se dará respuesta a todas las preguntas generadas de la seccion Historia de Mantenimiento Archivada
 tags: [setup]
 author: win
