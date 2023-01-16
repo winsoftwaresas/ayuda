@@ -1,6 +1,6 @@
 ---
 title: Ventana Principal
-subtitle: Esta sección se explican los componentes de la ventana principal y ventana detalle con sus vistas parciales
+subtitle: Esta sección explica los componentes de la ventana principal y ventana detalle con sus vistas parciales
 tags: [setup]
 author: win
 order: 12_03
@@ -13,7 +13,7 @@ order: 12_03
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap13/chp13_img01.png)
 _**Imagen 1.** Historia Archivada - Visor_
 
-A esta ventana se accede haciendo clic sobre la opción <a class="btn blue">Historia Archivada</a> del Menú Principal. A través de ella se ejecutan todas las funciones dedicadas a administrar los registros archivados. Se visualizan todos los registros de la Historia  Archivada o una selección de ellos a través de un subgrupo.  La Historia disponible se despliega a través de las páginas.  El tamaño de los registros en el visor por cada página es configurable desde <a class="btn blue">administración</a> por medio de un usuario administrador.
+A esta ventana se accede haciendo clic sobre la opción <a class="btn blue">Historia Archivada</a> del Menú Principal. A través de ella se ejecutan todas las funciones dedicadas a administrar los registros archivados. Se visualizan todos los registros de la Historia  Archivada o una selección de ellos a través de un subgrupo.  La HA disponible se despliega a través de las páginas.  El tamaño de los registros en el visor, al igual que en todos los visores del sistema se  configura desde <a class="btn blue">administración</a> por medio de un usuario administrador.
 
 Los títulos en azul que encabezan las columnas, permiten ordenar de manera ascendente/descendente la información por cada ítem seleccionado, por medio de un clic en el respectivo encabezado.
 
@@ -22,71 +22,72 @@ Los títulos en azul que encabezan las columnas, permiten ordenar de manera asce
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap13/chp13_img02.png)
 _**Imagen 2.** Historia Archivada - Ventana Detalle_
 
-En la gráfica anterior, Ventana Detalle de Órdenes de Trabajo Históricas, se aprecian  sus componentes  y  sus  respectivos  contenidos.  En  esta  ventana  Detalle  se  encuentra  la información relevante al registro seleccionado en el visor. A través de ella se hace consulta de cada campo resuelto, su visualización es una tabla con links resueltos los cuales son inmodificables.
+En la gráfica anterior, Ventana Detalle de Órdenes de Trabajo HA, se aprecian  sus componentes  y  sus  respectivos  contenidos.  
 
-A continuación se describen los campos que componen esta ventana Detalle de Órdenes de Trabajo Históricas. Sobre cada campo se da una breve explicación:
+Toda la información de esta tabla de HA es inmodificable.
+
+A continuación se describen los campos que componen esta ventana Detalle de Órdenes de Trabajo HA. Sobre cada campo se da una breve explicación:
 
 **OT:** Aparece el número de la Órden de Trabajo asignado por **AM** cuando fue generada.
 
-**F/H Creación:** Es la fecha en la cual se creó la Orden de Trabajo.  Esta fecha es asignada automáticamente por el sistema y no es modificable.
+**F/H Creación:** Es la fecha en la cual se creó la OT.  Esta fecha es asignada automáticamente por el sistema.
 
-**Descripción:** Es un texto corto por medio del cual se indica la naturaleza de la  labor  a realizar.  Debe ser conciso y no dar lugar a ambigüedades, este campo tiene una longitud de 80 caracteres.  Se recomienda definir la descripción bajo la siguiente norma: iniciar con un verbo en infinitivo: revisar, corregir, inspeccionar, conectar, etc., continuar con el Objeto de mantenimiento o Activo / Equipo y finalizar con un  complemento explicatorio. Ejemplo: Revisar la transmisión delantera del sistema.  Cambiar a los rodillos la cobertura de caucho.
+**Descripción:** Es un texto corto por medio del cual se indica la naturaleza de la  labor  a realizar.  Debe ser conciso y no dar lugar a ambigüedades, este campo tiene una longitud de 80 caracteres.  
 
 **Prioridad:** Es  un número de  1  a  7  que  indica la  prioridad de realización de la   **OT**. Normalmente 1 significa un trabajo de gran urgencia, mientras que 7 es una labor de baja prioridad.
 
-**F/H Programada:** En  este  campo se  ingresa  la  fecha  programada para  realizar  la ejecución de la OT.
+**F/H Programada:** En  este  campo se muestra  la  fecha  programada para  realizar  la ejecución de la OT.
 
-**Referencia:** En  este  campo  se  puede  ingresar  el  número de  un  documento,  que sirve como referencia o relación a la OT, ejemplo: Número de una factura,  número de una Órden de Compra asociada, o un documento interno de despacho de almacén, etc.
+**Referencia:** En  este  campo  se indica  el  número de  un  documento,  que sirvió como referencia o relación a la OT.  
 
-**Estado:** Este campo está bloqueado y muestra el nombre del Estado de la OT. 
+**Estado:** Este campo muestra el Estado de la OT. 
 
-**Código del Activo:** Aquí se establece el Objeto de Mantenimiento, esta selección se hace a través del   <span class="mdi mdi-filter-variant"></span>. 
+**Código del Activo:** Aquí se estableció el Activo/Equipo que fue objeto de la labor.
 
 **Descripción:**  En este  campo  se  visualiza  la   información  de la descripción del Activo seleccionado.
 
-**Activo Fijo:** En este campo se visualiza la información del Número de Activo Fijo del Activo/Equipo que se haya definido en la ficha técnica de este mismo.
+**Activo Fijo:** Se visualiza la información del Número de Activo Fijo del Activo/Equipo que se haya definido en la ficha técnica de este mismo.
 
 **Referencia Externa Proveedor:** En este campo se visualiza la información de la referencia del Activo/Equipo que se haya establecido en la ficha técnica de este mismo.
 
-**Serial:** En este campo se visualiza la información del Serial del Activo/Equipoque se haya definido en la ficha técnica de este m ismo.
+**Serial:** En este campo se visualiza la información del Serial del Activo/Equipo que se haya definido en la ficha técnica de este mismo.
 
 **Alias:** En  este campo se  visualiza la  información del  Alias  del Activo/Equipoque se haya definido en la ficha técnica de este mismo.
 
-**Solicitante:** En este campo se define el nombre del Solicitante de la OT. Cuando la OT es generada desde una Solicitud de Servicio, este campo contiene el  nombre del solicitante ingresado en la Solicitud.
+**Solicitante:** En este campo se definió el nombre del Solicitante de la OT. Cuando la OT fue generada desde una Solicitud de Servicio, este campo contiene el  nombre del solicitante ingresado en la Solicitud.
 
-**Correo Electrónico:** En este campo se define el correo electrónico del Solicitante del servicio.
+**Correo Electrónico:** En este campo se definió el correo electrónico del Solicitante del servicio.
 
 **Centro de Costo:** Es el Centro de Costo asignado a la OT que corresponde a los predefinidos en la tabla de infraestructura  y  que  es Responsablde  del pago de los consumos de  Gasto   Real  ue dicha  OT. 
 
-**Ubi. Física:** Es el lugar físico en el que se realiza la labor.	
+**Ubi. Física:** Es el lugar físico en el que se realizó la labor.	
 
-**Centro Responsable:** Especifica el Centro Responsable o grupo de mantenimiento, encargado  de realizar la labor.
+**Centro Responsable:** Muestra el Centro Responsable o grupo de mantenimiento, encargado  de realizar la labor.
 
-**Responsable ejecutor:** En este campo se elige a la persona, natural o jurídica, Responsable por la labor ejecutada.
+**Responsable ejecutor:** En este campo se muetsra a la persona, natural o jurídica, Responsable por la labor ejecutada.
 
 **Contrato:** Se muestra referenciado el contrato que fue asociado a la OT.
 
-**Responsable por la institución:** En este campo muestra a la persona de la institución, que acompañó y/o recibió la labor prestada por el Responsable ejecutor, cuando este haya sido un Contratista o Servicio Externo.
+**Responsable por la institución:** Este campo muestra a la persona de la institución, que acompañó y/o recibió la labor prestada por el Responsable ejecutor, cuando este haya sido un Contratista o Servicio Externo.
 
 **T. Trabajo:** Indica los Tipos de Trabajo que fueron asociados a la OT.   
 
-**T. Mtto:** Este campo indica el Tipo de Mantenimiento asociado a la OT. }
+**T. Mtto:** Este campo indica el Tipo de Mantenimiento asociado a la OT. 
 
-**T. Actividad:** Aquí se establece el Tipo de Actividad asociada a la OT.  La Actividad de Mantenimiento para una OT, se elige desde la tabla 	**Tipos  de  Actividad** en el módulo de **Infraestructura**.  Este campo trabaja en  coordinación con el anterior (Tipo de Mantenimiento).
+**T. Actividad:** Aquí se establece el Tipo de Actividad asociada a la OT.  
 
-**F/H Paro:** Para las OT Correctivas, en este campo se registra la Fecha y hora del daño, falla o avería.  La fecha se maneja en formato AAAA/MM/DD (Año, Mes, día); la hora se m aneja en formato Militar (de 24 horas).  Cabe anotar, que la fecha y hora consignadas corresponden al momento en	que	se informó  del daño o  falla  a Mantenimiento, así que es posible que el daño haya ocurrido en una fecha/hora anterior.
+**F/H Paro:** Para las OT Correctivas, en este campo se registró la Fecha y hora del daño, falla o avería.  Cabe anotar, que la fecha y hora consignadas corresponden al momento en	que	se informó  del daño o  falla a Mantenimiento.
 
-**T.  Estimado:** Es un campo netamente informativo, e indica de manera  aproximada cuánto Tiempo demoró  la  labor. 
+**T.  Estimado:** Es un campo netamente informativo, e indica el presupuesto aproximado de tiempo que iba a demorar la  labor. 
 
-**Tiempo Improductivo:**  En este campo se indicó si la parada del respectivo Activo generó tiempo improductivo.  Cuando se dice que el Equipo genera Tiempo Improductivo significa que no está en operación, y por lo tanto,  posiblemente improductivo.  Este campo se tiene en cuenta al momento del cierre de la OT. Si el indicativo de Tiempo Improductivo está habilitado, **AM* calcula y carga el Tiempo Improductivo, en caso contrario no lo hace.
+**Tiempo Improductivo:**  En este campo se indicó si la parada del respectivo Activo generó tiempo improductivo. 
 
-**Criterio:** Es un campo informativo que despliega el criterio utilizado por **AM** para haber generado la OT. (Solamente para Órdenes de Trabajo que fueron generadas desde Programadas).
+**Criterio:** Este campo indica el criterio utilizado por **AM** para haber generado la OT. (Solamente para Órdenes de Trabajo que fueron generadas desde Programadas).
 
-**Tarea:**  Este  campo  informativo, permite  establecer,  a  través  del  ordinal  de  la  tarea que muestra, cual fue el PM que generó la OT. Es válido solamente  en  el caso de Órdenes Programadas.
+**Tarea:**  Este  campo  indica cual fue el PM que generó la OT. Es válido solamente  en  el caso de Órdenes Programadas.
 
-**Control  Presupuestal:** Esta  Opción permite  definir  si  la  OT manejó Presupuesto. Para las Órdenes de Trabajo Programadas, esta opción  siempre está  seleccionada, pero  aparece protegida,   ya  que  toda  OT Programada  conlleva el Presupuesto Aprobado.
+**Control  Presupuestal:** Esta  opción indica si  la  OT debía manejar Presupuesto. 
 
-Para  las  Órdenes  de  Trabajo  Manuales,  esta  opción se  estableció en  el  momento  de creación de la misma. 
 
 **Comentarios:** Muestra los comentarios referentes a toda la ejecución de la OT. Los comentarios se visualizan en un sólo recuadro individual.
 
