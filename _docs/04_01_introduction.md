@@ -1,7 +1,6 @@
 ---
 title: Introducción
-subtitle: este capitulo espesifica que es y para que sirve los Almacenes,
-  Materiales y Repuestos
+subtitle: Este capítulo especifica que es y para que sirven los Almacenes, Materiales y Repuestos
 tags:
   - setup
 author: win
