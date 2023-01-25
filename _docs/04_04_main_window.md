@@ -1,7 +1,6 @@
 ---
 title: Ventana Principal de Almacén de Repuestos
-subtitle: especifica el por que y para que de las ventanas y opciones que
-  presenta el programa en este campo.
+subtitle: Especifica el por qué y para que de las ventanas y opciones que presenta el programa en este campo.
 tags:
   - setup
 author: win
