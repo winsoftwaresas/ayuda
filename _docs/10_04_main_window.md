@@ -1,37 +1,34 @@
 ---
 title: Ventana Principal
-subtitle: en esta seccion encontrará el el instructivo de el funcionamiento
-  adecuado  de cada ventana que compone esta seccion en el programa am4g.
+subtitle: En esta sección se encuentran los comandos principales de Historia y la explicación de los componentes de las ventanas.
 author: win
 order: 10_04
 date: 2022-03-28T20:34:50.748Z
 ---
-# Ventana Principal de Historia de Mantenimiento
+# Ventana Principal de Historia de Mantenimiento (HM)
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img01.png)
-_**Imagen 150.** Historia - Ventana Visor_
+_**Imagen 1.** Historia - Ventana Visor_
 
-A esta ventana se llega haciendo clic sobre la opción Historia del Menú Principal. A través de ella se ejecutan todas las funciones dedicadas a administrar la Historia de Mantenimiento. A continuación se ilustran las porciones que la componen.
+A esta ventana se llega haciendo clic sobre la opción <a class="btn blue">Historia </a> del Menú Principal. A través de ella se ejecutan todas las funciones dedicadas a administrar la Historia de Mantenimiento. A continuación se ilustran las porciones que la componen.
 
 ## Ventana Visor
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img02.png)
-***Imagen 151.** Historia - Ventana Visor*
+***Imagen 2.** Historia - Ventana Visor*
 
-Se accede directamente desde la ventana principal de Historia de Mantenimiento.
+Desde esta ventana es posible observar la Historia de Mantenimiento activa, existente o un subconjunto de ellas (efectuado a través de un subgrupo). El conjunto de Órdenes de Trabajo Históricas disponible a ser desplegado se muestra a través de páginas. El tamaño de las páginas es configurable desde la opción <a class="btn blue">administración</a> del menú principal, en la sección “Valores por Defecto” por parte de un usuario autorizado.
 
-Desde esta ventana es posible observar la Historia de Mantenimiento activa, existente o un subconjunto de ellas (efectuado a través de un subgrupo). El conjunto de Órdenes de Trabajo Históricas disponible a ser desplegado se muestra a través de páginas. El tamaño de las páginas es configurable desde la opción Administración del menú principal, en la sección “Valores por Defecto” por parte de un usuario autorizado.
-
-Al hacer clic sobre alguna de las Órdenes de Trabajo Históricas del Visor el sistema responde mostrando la información de esa OT, en forma detallada, en una ventana llamada Ventana Detalle.
-
-Los títulos en azul que encabezan las columnas son también botones que permiten ordenar la tabla, según el título seleccionado. Para elegir un registro de la tabla se da un clic del mouse sobre él o se desplaza el cursor con las teclas de desplazamiento.
+Los títulos en azul que encabezan las columnas son también botones que permiten ordenar la tabla, según el título seleccionado. Para elegir un registro de la tabla se da un clic sobre él o se desplaza el cursor con las teclas de desplazamiento.
 
 ## Ventana Detalle
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img03.png)
-_**Imagen 152.** Historia - Ventana Detalle_
+Al hacer clic sobre alguna de las OT, SS o Paros Históricas del Visor el sistema responde mostrando la información de esa OT, en forma detallada, en una ventana llamada **Ventana Detalle**.
 
-En la gráfica anterior, Ventana Detalle de Órdenes Históricas, se aprecian sus componentes y sus respectivos contenidos. En esta ventana se encuentra la información relevante a la OT histórica seleccionada en el Visor. A través de ella se administran los datos genéricos y también es posible modificar la información de una OT Histórica. Por supuesto que, para ello se requieren permisos especiales, que pueden ser proporcionados por el Administrador.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img03.png)
+_**Imagen 3.** Historia - Ventana Detalle_
+
+ En esta ventana se encuentra la información relevante a la OT histórica seleccionada en el Visor. A través de ella se administran los datos genéricos y también es posible modificar la información de una OT Histórica. Por supuesto que, para ello se requieren permisos especiales, que pueden ser proporcionados por el Administrador.
 
 A continuación, se describen los campos que componen esta ventana Detalle de Órdenes de Trabajo Históricas. Sobre cada campo se da una breve explicación:
 
@@ -103,22 +100,367 @@ A continuación, se describen los campos que componen esta ventana Detalle de Ó
 
 **Tarea:** Este campo siempre está bloqueado, es informativo, permite establecer, a través del ordinal de la tarea que muestra, cual fue el PM que generó la OT actual. Es válido solamente en el caso de Órdenes Programadas.
 
-**Control Presupuestal:** Esta opción permite definir si la OT maneja Presupuesto. Para las OT Programadas, esta opción siempre está seleccionada, pero aparece protegida, ya que toda OT Programada conlleva el Presupuesto Aprobado.
-
-Para las OT Manuales, esta opción se establece en el momento de creación de la misma. Esta elección se debe marcar antes de darle clic al botón “Insertar”, de otra forma, **AM** asume que la OT no va a requerir Control Presupuestal y la posibilidad de hacer la marcación se inactiva en el acto.
- Cuando una OT Manual exige control presupuestal, y el presupuesto no ha sido aprobado, no es posible registrar ni modificar el Gasto Real en ella.
-
-Para las OT Manuales, esta  opción se establece en el momento de creación de la misma. Esta elección se debe marcar antes de darle clic al botón <a class="btn white">insertar</a>, de otra forma, **AM** asume que la OT no va a requerir Control Presupuestal y la posibilidad de hacer la marcación se inactiva en el acto.
-
-Cuando una OT Manual exige control presupuestal, y el presupuesto no ha sido aprobado, no es posible registrar ni modificar el Gasto Real en ella.
+**Control Presupuestal:** Esta opción indica si la OT manejó Presupuesto. 
 
 **Comentarios:** Esta opción se usa para ingresar los nuevos comentarios referentes a toda la ejecución de la OT. Al dar clic al botón <a class="btn gray">Agregar comentario</a> aparecerá el comentario ingresado al lado derecho en una ventana tipo chat bloqueada y a su vez inhabilita la modificación de los comentarios que allí se encuentren; además de la fecha, hora y el usuario logueado que realizó el comentario.
 
-Este espacio de comentarios sirve para dos efectos:
+La finalidad de este campo registrar hechos interesantes acerca de la misma ejecución, como el estado del equipo antes, durante y después de la intervención, estado del mismo equipo después de ella, recomendaciones a los usuarios del equipo, recomendaciones a las personas de mantenimiento y otros conceptos interesantes a juicio de los ejecutantes.
 
-Cuando se genera la OT, como comentarios a priori, para especificar referencias importantes o ayudas previstas y necesarias en la ejecución posterior de la OT: planos, manuales técnicos, manuales de normas técnicas de Mantenimiento o de especificaciones detalladas; normas de seguridad o enfoques de acción. Sin embargo, en la gran mayoría de los casos se utiliza la pestaña Multimedia para registrar estos datos. Cuando ha concluido la ejecución de la OT, es posible utilizarlo para registrar hechos interesantes acerca de la misma ejecución, como el estado del equipo antes de la intervención, detalles de la intervención, estado del mismo equipo después de ella, recomendaciones a los usuarios del equipo, recomendaciones a las personas de mantenimiento y otros conceptos interesantes a juicio de los ejecutantes.
+Es posible que el sistema añada comentarios automáticos cuando la OT sea proveniente de una SS. 
+ 
 
-**Contrato:** En este campo se puede asociar un contrato de una OT que esté a cargo de un contratista, **AM** indica a través de los indicadores de colores si un contrato está vencido, a punto de vencerse o está vigente en su respectiva tabla de Infraestructura en Contratos. 
+
+## Vistas Parciales / Pestañas
+
+### Acciones técnicas
+
+Para las OT que se hayan enviado a Historia con costos ABC, esta pestaña sólo permite consultar el costo de las acciones técnicas asociadas a la labor:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img04.png)
+_**Imagen 4.** Historia - Acciones Técnicas de una OT_
+
+
+### Gasto Real
+
+Para ingresar a esta opción, se debe dar clic en la pestaña “Gasto Real” de la ventana detalle de Órdenes de Trabajo Históricas.
+
+Este refleja los costos registrados en la OT Histórica:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img10.png)
+_**Imagen 5.** Historia - Gasto Real de una OT_
+
+ A través de esta ventana, se puede administrar el Gasto Real de la OT Histórica. Se compone de dos zonas:
+
+En la zona superior, aparece la matriz de Gasto Real discriminada por Tipo de Trabajo (En las filas), y por Tipo de Consumo (En las columnas). La última fila y columna de la matriz, discriminan la diferencia entre el Gasto Real y el Presupuesto, sólo en caso de las OT que en su momento fueron generadas  automáticamente. 
+
+En la zona inferior, aparecen los botones para ingresar al detalle de <a class="btn gray">mano obra interna</a>, <a class="btn gray">mano obra externa</a>, <a class="btn gray">mat y rep</a>, y <a class="btn gray">o.conceptos</a>, ya que es posible aún en la Historia hacer modificaciones siempre y cuando se cuenten con los respectivos permisos. 
+
+**Ingresar Mano de obra Interna**
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img11.png)
+_**Imagen 6.** Historia - Gasto Real MO_
+
+
+A diferencia del Presupuesto de Mano de Obra Interna, el Gasto Real de la Mano de Obra Interna se efectúa a nivel de Responsable, es decir, se tiene en cuenta a la persona que realizó la labor.
+
+Para ingresar MO se debe dar clic en el botón <a class="btn gray">adicionar mano de obra interna</a> y diligenciar los siguientes campos:
+
+**Fecha de Uso:** Es la fecha en la cual se utilizó el recurso.
+
+**OF:** Es el oficio al que pertenece el Responsable asignado. Es un campo de solo lectura, que se establece una vez se indica el Responsable.
+
+**Responsable:** Es la persona que ha ejecutado la OT. Se elige el Responsable descolgando el listado de Responsables, traído desde la tabla de Infraestructura.
+
+**Filtrar por OF:** Al seleccionar esta opción, en el campo  **Responsable** solo se descuelgan aquellos  asociados al Oficio definido en el campo anterior **OF**. De no hacerlo,  se despliegan todos los **Responsables** ejecutores existentes en la tabla respectiva.
+
+**H. Hombre:** Es el número de Horas Hombre consumidas por el Responsable en cuestión.
+
+**Minutos:** Es el número de Minutos, que junto con las horas, conforman el tiempo total consumido. Por ejemplo, si se consumen 3 horas y media de un responsable, debe registrarse "3" en el campo **H. Hombre** y "30" en el campo **Minutos**.
+
+**Tipo Hr.:** Dado que un Responsable a través del Oficio del mismo puede poseer varios tipos de Hora, cada uno con un valor distinto, en este campo se indica el Tipo de Hora adecuado. **AM** sugiere el valor hora correspondiente, dependiendo del tipo elegido. Si se elige el Tipo “Otro”, AM no sugiere ningún valor hora, y deja a decisión del usuario el valor a asignar en este campo.
+
+**Vlr. Hora:** Es el valor unitario de la hora para el oficio del Responsable en cuestión. 
+**AM** automáticamente sugiere el costo por hora traído desde la tabla de Infraestructura para el Oficio, en los casos en que el tipo hora es distinto de “Otro”, el campo se habilitará para digitar un valor hora.
+
+**Tipo de Asignación:** Este campo define al responsable de la mano de obra de la OT. La opción “Presupuesto para Histograma” es para definir la proyección a futuro de la carga de trabajo del responsable; y “Ejecución Real” es para definir la carga de trabajo ejecutada.
+
+**TT:** Este campo es informativo. Muestra el TT que tiene definido el Oficio seleccionado, se establece automáticamente una vez se ha seleccionado el Responsable y se visualiza en la tabla de Mano de Obra Interna.
+
+**Vlr.Total:** Este campo es informativo y es calculado por el sistema, contiene el valor total del Gasto Real para ese Responsable. Es el producto del Vlr. Hora por H. Hombre y Minutos. Se visualiza en la tabla de Mano de Obra Interna.
+
+Una vez se diligencien estos campos se da clic en el ícono de Mas <span class="mdi mdi-plus-circle icon white"></span> para agregar, como se muestra a continuación:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img12.png)
+_**Imagen 7.** Historia - Gasto Real Ingresar MO_
+
+En el caso de actualizar la información de Mano de Obra Interna se da clic en <a class="btn gray">actualizar mano de obra interna</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img13.png)
+_**Imagen 8.** Historia - Gasto Real Actualizar MO_
+
+Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img14.png)
+_**Imagen 9.** Historia - Gasto Real Eliminar MO_
+
+
+**Ingresar Mano de Obra Externa**
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img15.png)
+_**Imagen 10.** Historia - Gasto Real ME_
+
+
+Es importante resaltar que el Gasto Real de Mano de Obra Externa de una OT, se prepara a nivel del Responsable Ejecutor Externo, es decir, quiénes fueron los encargados de ejecutar la labor.
+
+Para ingresar Mano de Obra Externa se debe dar clic en el botón <a class="btn gray">adicionar mano obra externa</a> y se deberán diligenciar los siguientes campos:
+
+**Fecha de Uso:** Es la fecha en la cual se utilizó el recurso.
+
+**OF:** Es el Oficio al que pertenece el Responsable Externo asignado. Es un campo de solo lectura, que se establece una vez se selecciona el Responsable.
+
+**Responsable:** Es el Responsable Externo que ha ejecutado la OT. Para seleccionarlo se descuelga el listado de Responsables Externos, traído desde la tabla de Infraestructura.
+
+**Filtrar por OF:** Al seleccionar esta opción, en el campo **Responsable** solo se descuelgan los Responsables Externos correspondientes al Oficio definido en la opción **OF**. De no hacerlo, en el campo **Responsable** se despliegan todos los **Responsables** ejecutores Externos” existentes en la tabla respectiva.
+
+**Costo Unitario por hora/visita:** Se digita el valor o el costo unitario por hora o por visita de parte del Responsable Ejecutor Externo para esa actividad programada.
+
+**TT:** Este campo es informativo. Muestra el TT que tiene definido el Oficio seleccionado, se establece automáticamente una vez se ha seleccionado el Responsable y se visualiza en la tabla de Mano de Obra Interna.
+
+Una vez se diligencien estos campos se da clic en el ícono de Mas <span class="mdi mdi-plus-circle icon white"></span> para agregar, como se muestra a continuación:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img16.png)
+_**Imagen 11.** Historia - Gasto Real Ingresar ME_
+
+En el caso de actualizar la información de Mano de Obra Externa, se da clic en <a class="btn gray">Actualizar Mano de Obra Externa</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img17.png)
+_**Imagen 12.** Historia - Gasto Real Actualizar ME_
+
+Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img18.png)
+_**Imagen 13.** Historia - Gasto Real Eliminar ME_
+
+
+**Ingresar Materiales y Repuestos**
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img19.png)
+_**Imagen 14.** Historia - Gasto Real M Y R_
+
+Para ingresar Materiales y Repuestos se debe dar clic en el botón <a class="btn gray">adicionar Material y Repuesto</a> y se deberán diligenciar los siguientes campos:
+
+**Fecha de Uso:** Es la fecha en la cual se utiliza el recurso.
+
+**Almacén:** Se elige el almacén dónde se encuentra el Repuesto a consumir y a ingresar al Gasto Real.
+
+**Buscar Por:** Este campo es de solo lectura y muestra por defecto la opción de Código. Una vez se elige el Almacén, este campo se habilita y lista las opciones por las cuales se puede buscar el ítem a relacionar. Las opciones son: Código, Referencia, Cod. Barra Int y Cod. Barra Prov.
+
+**M y R:** Este campo se habilita una vez se haya seleccionado el Almacén. Existen dos formas de seleccionar el Repuesto:
+
+La primera consiste de forma manual solo digitando el valor correspondiente al código, referencia, código de barras interno o proveedor del Material y Repuesto, según la opción anterior **Buscar por**.
+
+La segunda consiste en buscar el Material y Repuesto, a través del visor de Material y Repuesto. Para ello se da un clic sobre el icono de filtro de Repuesto <span class="mdi mdi-filter-variant"></span>. Acto seguido se muestra la ventana de visor de Repuesto con la posibilidad de hacer allí subgrupos. Una vez se encuentra el Repuesto, se selecciona dando un clic sobre cualquiera de sus campos, seguidamente un clic sobre el botón <a class="btn white">Aceptar</a> de esa ventana o también es posible seleccionarlo dando doble clic sobre el registro seleccionado. Inmediatamente ese código aparece en el campo de M y R y automáticamente se actualizan los campos de UM y Valor Unitario.
+
+**Descripción M y R:** Es un campo de solo lectura, que muestra la descripción del material y repuesto seleccionado.
+
+**Cantidad:** Es la cantidad que se va a consumir en la ejecución de esa OT para el repuesto seleccionado.
+
+**UM:** Es un campo de solo lectura que muestra la unidad de consumo del repuesto seleccionado.
+
+**Vlr. Unitario:** Es el valor unitario del repuesto seleccionado. AM sugiere el valor unitario ya establecido del Repuesto en cuestión, sin embargo, puede cambiarse.
+
+**TT:** Este campo es informativo. Muestra el TT que tiene definido el Material y Repuesto seleccionado, se establece automáticamente una vez se ha seleccionado el Material y Repuesto. También, se visualiza en la tabla de Materiales y Repuestos.
+
+**Vlr. Total:** Este campo es informativo y es calculado por el sistema, contiene el valor total consumido para ese Material y Repuesto. Es el producto del Vlr. Unitario por la Cantidad. Se visualiza en la tabla de Materiales y Repuestos.
+
+Una vez se diligencien estos campos se da clic en el ícono de Mas <span class="mdi mdi-plus-circle icon white"></span> para agregar, como se muestra a continuación:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img20.png)
+_**Imagen 14.** Historia - Gasto Real Ingresar M Y R_
+
+En el caso de actualizar la información de Materiales y Repuestos, se da clic en <a class="btn gray">Actualizar Material y Repuesto</a>. Regresar a seleccionar el Almacén respectivo, y elegir el Repuesto. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img21.png)
+_**Imagen 15.** Historia - Gasto Real Actualizar M Y R_
+
+Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img22.png)
+_**Imagen 16.** Historia - Gasto Real Eliminar M Y R_
+
+**Ingresar Otros Conceptos de Costo**
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img23.png)
+_**Imagen 17.** Historia - Gasto Real OC_
+
+
+Para ingresar Otros Conceptos de Costo o Gastos indirectos, se debe dar clic en el botón <a class="btn gray">adicionar otro concepto</a> y se deberán diligenciar los siguientes campos:
+
+**Concepto:** Es el “Otro Concepto” a presupuestar. Se selecciona descolgando la lista de Otros Conceptos, traída desde su tabla en Infraestructura.
+
+**Fecha de Uso:** Es la fecha en la cual se utiliza el recurso.
+
+**Concepto:** Es el “Otro Concepto‟ a cargar a la OT. Se selecciona descolgando la lista de otros Conceptos, traída desde su tabla en Infraestructura.
+
+**Nro. Unidades:** Se define el número de unidades consumidas del Concepto de Costo seleccionado anteriormente.
+
+**Vlr. Unitario:** Es el valor presupuestado del “Otro Concepto Costo”. AM sugiere el valor unitario del concepto que se encuentra ingresando al sistema. Sin embargo, es modificable por el usuario.
+
+**Moneda:** Este campo de solo lectura, muestra la moneda definida al otro Concepto de Costo en la tabla de Infraestructura.
+
+**Vlr. Total:** Es el costo total consumido del “Otro Concepto Costo” teniendo en cuenta el número de unidades y el valor unitario.
+
+**Info. Adicional:** Es un campo donde se define un pequeño comentario sobre el consumo.
+
+Una vez se diligencien estos campos se da clic en el ícono de Mas <span class="mdi mdi-plus-circle icon white"></span> para agregar, como se muestra a continuación:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img24.png)
+_**Imagen 18.** Historia - Ingresar OC_
+
+En el caso de actualizar la información de Materiales y Repuestos, se da clic en <a class="btn gray">Actualizar Otro Concepto</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img25.png)
+_**Imagen 19.** Historia - Actualizar OC_
+
+Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img26.png)
+_**Imagen 20.** Historia - Eliminar OC_
+
+_> **Nota:** Para finalizar, hacer clic en el botón <a class="btn gray">ir a la matriz</a> para regresar a la ventana principal de Gasto Real y luego para acentar los cambios en el Gasto Real de la OT se debe dar clic en <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a>. Esto automáticamente cambia el estado de la OT a Cerrada Retroalimentada._
+
+## Evaluación del Servicio
+
+Se puede visualizar la evaluación del servicio del personal de mantenimiento o de servicios que realizó la labor. La evaluación fue hecha por un usuario, previamente autorizado, quien fuera el receptor del servicio, una vez que se haya cerrado la OT. Sin embargo, es posible realizarla desde un usuario con los permisos respectivos en Historia y guardando los cambios a través del botón  <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a>.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img05.png)
+_**Imagen 21.** Historia - Evaluación del Servicio_
+
+## Seguimiento o Cierre
+
+A esta opción se llega dando un clic sobre la esotaña “Seguimiento o Cierre”. Esta opción se encuentra disponible mientras se tengan los permisos respectivos de cierre en Historia, este permiso sólo permite cerrar una OT individual y actualizar sólo la actual pestaña
+
+En el Seguimiento o Cierre en HM es posible corregir los tiempos, duración de la ejecución y tiempo improductivo y demás básicos concernientes a la ejecución de la labor.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img06.png)
+_**Imagen 22.** Historia - Seguimiento y Cierre_
+
+En la gráfica anterior, Ventana de Seguimiento o Cierre, se aprecian sus componentes y sus respectivos contenidos. Sobre cada campo se da una breve descripción:
+
+**Que Hacer:** Este recuadro aparece con los campos bloqueados para que el usuario visualice la información básica de la OT.
+
+**F/H de Paro:** Este campo aparece adicional sólo para las OT de HM Correctivas, y se registra la Fecha y hora del daño ocurrido. La fecha se maneja en formato DD/MM/AAAA (Día, Mes, Año); la hora se maneja en formato de 12h. Cabe anotar, que la fecha y hora consignadas corresponden al momento en que se informó del daño o falla a Mantenimiento, así que es posible que el daño haya ocurrido en una fecha/hora anterior. Sin embargo se debe procurar, administrativamente, que Mantenimiento se entere lo más pronto posible de la Fecha y Hora reales del Daño.
+
+**F/H Atención:** Es la fecha y hora en la que el Personal de Mantenimiento atendió la solicitud de la labor, se hizo presente con una inspección previa sobre el Activo/Equipo reportado. La fecha se maneja en formato DD/MM/AAAA (Día, Mes, Año) y la hora se maneja en formato de 12h. Una vez se digita la Fecha y Hora de Atención, éstas se sugieren para la fecha/hora de Inicio de Trabajos y Fin de Trabajos de la OT, claro está, si tales fechas y horas no han sido digitadas aún.
+
+**F/H Inicio Trabajos:** Es la Fecha y Hora que indica el momento en que se inició labores una vez que todas las condiciones fueron dadas: se han superado los tiempos de inspección y administrativos; la máquina está lista y en condiciones de ser mantenida, ya fue entregada al Depto. de Mantenimiento y éste a su vez, cuenta con todos los recursos necesarios para la ejecución: herramientas, instrumentos, materiales, repuestos y responsable. La fecha se maneja en formato DD/MM/AAAA (Día, Mes, Año) y la hora se maneja en formato de 12h.
+
+**F/H Fin Trabajos:** Es la Fecha y Hora que indica el momento en que finalizaron las labores de mantenimiento, incluyendo las pruebas o ensayos que determinaron el buen funcionamiento del equipo. La fecha se maneja en formato DD/MM/AAAA (Día, Mes, Año) y la hora se maneja en formato de 12h.
+
+**Tiempo Duración (ttr):** **AM** sugiere como Tiempo de Duración, (o time to repair), la diferencia entre la Fecha/Hora de Fin de Trabajos y la Fecha/Hora de Inicio de Trabajos. Cabe anotar, que no siempre el Tiempo de Duración es la diferencia entre estas fechas/horas, porque pueden existir eventos que dejaron temporalmente a la OT en Estado de “Pendiente”. AM permite corregir el tiempo de Duración en una OT, después de que fue calculado por el sistema, para que refleje el tiempo real de la ejecución.
+Por ejemplo, si una OT tiene como Fecha de Inicio de Trabajos XXXX/12/01 08:30 a.m., y como Fecha de Fin de Trabajos XXXX/12/01 04:00 p.m., AM sugiere como Tiempo de Duración 7 horas y 30 minutos. Sin embargo, si durante ese lapso se tuvo que detener la ejecución por 2 horas, debido a que faltaba un Repuesto o a que el técnico encargado se ausentó a realizar otra labor, se debe corregir la duración en 5 horas y 30 minutos.
+
+**T. Improductivo:** **AM** sugiere como Tiempo Improductivo la diferencia entre la Fecha/Hora de Fin de Trabajos y la Fecha/ Hora de Paro (Para OT Correctivas), o como la diferencia entre la Fecha/Hora de Fin de Trabajos y la Fecha/Hora de Inicio de Trabajos (Para OT no Correctivas). Sin embargo, este valor puede corregirse, después de que fue calculado por el sistema, para reflejar la cantidad Real de Tiempo Improductivo que tuvo el Equipo en la OT actual.
+
+Por ejemplo, si una OT correctiva tiene como fecha de Información de Paro XXXX/12/01 08:00 a.m., y como fecha de Fin de Trabajos XXXX/12/02 12:30 pm, AM sugiere como Tiempo Improductivo, 1 día, 4 horas y 30 minutos. Sin embargo, si en ese lapso, el Equipo no trabaja de 10 PM a 6 AM, pues la empresa no labora este turno de producción, se debe definir el tiempo improductivo como solamente de 20 horas y 30 minutos.
+
+
+**Tiempo Total de Solución:**  Este campo es calculado por el sistema y no permite corrección manual, equivale a la diferencia entre la Fecha de Paro y la fecha de Fin de Trabajos para las Órdenes Correctivas y para las OT preventivas o con otro tipo de mantenimiento es la diferencia entre la Fecha De Atención y la Fecha Fin de Trabajos.
+
+
+**Estado de la OT:** Un registro puede tener uno de los siguientes Estados:
+
+| ABREVIATURA | SIGNIFICADO |
+| ----------- | ----------- |
+| **CE:**     | Cerrada Ejecutada  |
+| **CR:**     | Cerrada Retroalimentada  |
+| **K:**      | Cancelada   |
+
+El estado de **Cerrada Retroalimentada** indica por cualquier razón una actualización sobre el registro de HM.
+
+**Causa de Cierre:** Por defecto, cuando se trata de una OT cerrada y ejecutada, el sistema
+ ubica en este campo la causa “OT Ejecutada”. Si la OT se ha cerrado con un Estado de “K:
+Cancelada”, en este campo se definió la Causa respectiva y es posible que se pueda cambiar.
+
+**FF Cierre:** Es asignada automáticamente por el sistema, cuando el usuario cambia la OT, SS o PA, al estado Cerrada Ejecutada o Cancelada.
+
+**Activo No se entrega Limpio/ Activo se entrega limpio:** es un switche que permitió definir en el cierre de la OT si el activo se entregó limpio. 
+
+**Causa de Falla:** Para OT correctivas, este campo es obligatorio, se registra la Causa de la Falla que dio origen a la labor actual. Estas opciones que se despliegan, corresponden a las definidas en su tabla en la Infraestructura.
+
+**Efecto de Falla:** Para OT correctivas, en este campo se registra el Efecto mas significativo de la falla que se presentó y fue reportado por producción.
+
+**Meses de Garantía:** Indica cuántos meses de garantía se ofrecen por la labor realizada. El número de meses establecido empieza a regir a partir de la Fecha de Fin de Trabajos de la OT.
+
+**Conf. Subjetiva AC.:** Este campo permitió al técnico ejecutor, establecer subjetivamente en cuánto quedó (en porcentaje) la confiabilidad del Activo/Equipo una vez finalizada la labor. Al
+frente de este valor, aparece el porcentaje de confiabilidad actual del Equipo, como valor de referencia. Este valor fue definido por el responsable de la ejecución de la OT según su apreciación subjetiva.
+
+**Email:** En este campo el sistema asigna automáticamente el correo electrónico del Solicitante definido en la ficha técnica de la OT de la ventana detalle en el campo de Correo Electrónico. 
+
+**Fecha y estado del contador al momento de ejecución:** En este recuadro se ingresa toda la información relacionada con el contador del Activo y su fecha de lectura al momento del cierre de la OT. 
+
+Se deben llenar los siguientes campos para proceder a actualizar la información:
+
+**Tipo CO:** Este campo permanece bloqueado y muestra el nombre del Contador del Activo que fue asignado en el PM por Contador.
+
+**Valor del CO en el Activo:** Este campo permanece bloqueado y muestra el valor del Contador del Activo que se tenga definido en el módulo de Activos en la pestaña Ficha Técnica.
+
+**FF Lectura CO en el Activo:** Este campo permanece bloqueado y muestra la fecha de lectura del Contador del Activo que se tenga definido en el módulo de Activos en la pestaña Ficha Técnica.
+
+**Valor del CO en la Generación:** Este campo permanece bloqueado y muestra el valor del Contador del Activo proyectado por el PM al momento de generarse la OT.
+
+**FF Lectura CO en la Generación:** Este campo permanece bloqueado y muestra la fecha de lectura del Contador del Activo proyectado por el PM al momento de generarse la OT.
+
+**Valor del CO en la Ejecución:** En este campo se define el valor del Contador del Activo al momento de ejecutarse la labor o al momento del cierre de la OT.
+
+**FF Lectura CO en la Ejecución:** En este campo se define la fecha de lectura del Contador del Activo al momento de ejecutarse o al momento del cierre de la OT.
+
+En el Seguimiento o Cierre, además de los botones <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a> y <a class="btn blue">cancelar <span class="mdi mdi-block-helper"></span></a>, se visualiza el botón <a class="btn blue">bitácora <span class="mdi mdi-view-week"></span></a>, éste muestra en nueva ventana el historial de cambios de la OT en: Estado, Prioridad y Responsable. Se muestra esta información solo si se han presentado modificaciones, de lo contrario los campos permanecen en blanco.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img52.png)
+_**Imagen 23.** Historia - Detalle Bitácora en Seguimiento y Cierre_
+
+
+_>**Nota:** Nótese que para hacer efectivo los cambios efectuados en el seguimiento y cierre individual de la OT de HM se debe hacer clic en <a class="btn blue">Actualizar </a> como se indica en las dos imágenes anteriores, este botón sólo cumple la función de actualizar únicamente la pestaña de seguimiento y cierre, ya que el botón de <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a> se inactiva una vez que se encuentre en esta pestaña, es por esto que si se desean guardar otros cambios se debe estar en las otras pestañas (ficha técnica, gasto real, multimedia)_
+
+Una vez se actualice el sistema responde con un mensaje de advertencia, para continuar dar un clic en <a class="btn white">aceptar</a>.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img52.png)
+_**Imagen 23.** Historia - Mensaje alerta en Seguimiento y Cierre_
+
+
+## Multimedia 
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img53.png)
+_**Imagen 23.** Historia - Multimedia _
+
+En la gráfica anterior, Ventana Multimedia, se aprecian sus componentes y sus respectivos contenidos.
+A través de la ventana Multimedia se adjunta información adicional a la OT en cada una de sus carpetas asignadas. Esta opción permite asociar a la OT uno o varios documentos, con el objetivo de registrar el trabajo realizado minuciosamente. **AM** acepta documentos de extensiones .DOC, XLS, PDF, JPG es decir, de Microsoft Word o Microsoft Excel, Acrobat o Imágenes.
+
+Los documentos anexos pueden contener ayudas necesarias en la ejecución de la OT, planos, manuales técnicos, manuales de normas técnicas de Mantenimiento o de especificaciones detalladas, normas de seguridad, enfoques de acción, procedimientos sobre cómo realizar la labor, listas de verificación, protocolos de prueba u otra información estándar para su ejecución.
+
+A continuación se describen las carpetas que componen esta ventana; cuando se quiera actualizar o ingresar nueva información a la OT, se deberán registrar así:
+
+**Que Hacer:** Es la información general que aparece en cada pestaña con los campos bloqueados para que el usuario visualice la información básica de la OT.
+
+**Documentos:** En esta carpeta se relaciona toda clase de documentación relacionada a la OT. Ejemplo: Archivos en Word, PDF, Excel, entre otros.
+
+**Imágenes:** En esta carpeta se relaciona toda clase de imágenes relacionadas a la OT. Ejemplo: Imágenes en formato JPG, PNG, entre otros.
+
+**Videos:** En esta carpeta se relacionan porciones de videos relacionados a la OT. Ejemplo: Videos en formato wmv y mp4.
+
+Para adicionar un documento, imagen o video, se debe dar un doble clic sobre la carpeta deseada, y luego seleccionar del ícono de nube <span class="mdi mdi-cloud-upload icon white"></span>, como se muestra a continuación:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img22.png)
+***Imagen 110.** Órdenes - Abrir Explorador Archivos*
+
+A continuación se abre el explorador de archivos, seguido de seleccionar el archivo dar un clic en <a class="btn">abrir</a>.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img23.png)
+***Imagen 111.** Órdenes - Seleccionar Archivos*
+
+De manera adicional u opcional se puede escribir un nombre en el siguiente campo para enfatizar de lo que trata el archivo:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img24.png)
+***Imagen 112.** Órdenes - Nombrar Archivo*
+
+Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic sobre el nombre de una de las imágenes, se muestra la previsualización, como se muestra a continuación:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img25.png)
+***Imagen 113.** Órdenes - Previsualización de imagen*
+
+Para desasociar un documento, o una imagen o un video, a la OT se da clic al icono de basura <span class="mdi mdi-delete"></span> que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro, finalmente confirmar con el botón <a class="btn white">Aceptar</a>.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img26.png)
+***Imagen 114.** Órdenes - Desasociar un Archivo*
+
+Si se desea descargar un archivo adjunto a la OT, se debe dar clic en el ícono de nube con direccional hacia abajo <span class="mdi mdi-cloud-download icon white"></span> la nube con flecha hacia abajo que se encuentra al lado derecho del archivo que se quiere descargar.
+
+
+
+
+
+
 
 # Ventana Submenú de Historia de Mantenimiento
 
@@ -287,417 +629,6 @@ Activo/Equipo.
 
 _**Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos, se pueden utilizar uno o varios de los criterios anteriores, simultáneamente. Además es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber realizado una selección, es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección, se da un clic al botón <a class="btn white">Mas <span class="mdi mdi-plus-circle"></span></a> o <a class="btn white">Menos <span class="mdi mdi-minus-circle"></span></a>en lugar de darlo al botón <a class="btn white">aceptar <span class="mdi mdi-check-circle"></span></a>._
 
-## Vistas Parciales / Pestañas
-
-### Acciones técnicas
-
-Esta opción conduce a la tabla de Acciones Técnicas de la OT. Esta tabla se ha creado con información seleccionada desde la tabla del mismo nombre en la Infraestructura, que contiene un listado de Acciones Técnicas frecuentes en un área de Mantenimiento.
-Con la información contenida en esta tabla se pretende describir, breve pero concretamente, la actividad general realizada en una Órden de Trabajo. Las Acciones Técnicas en una OT se pueden definir, después de haber seleccionado en la ventana Detalle de la Ficha Técnica de la OT, el cuadro llamado <a class="btn white"><span class="mdi mdi-checkbox-blank-outline"> manejo de costos ABC</span></a>. La adición de las Acciones Técnicas se realiza de igual forma que en los módulos Efectos de Falla y Causas de Falla en la Infraestructura.
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img05.png)
-_**Imagen 154.** Historia - Acciones Técnicas de una OT_
-
-### Gasto Real
-
-Para ingresar a esta opción, se debe dar clic en la pestaña “Gasto Real” de la ventana detalle de Órdenes de Trabajo Históricas
-Los datos de Gasto Real se pueden registrar en una OT en cualquier momento, mientras esa OT no exija Control Presupuestal. Pero si la OT exige Control Presupuestal, solo se puede registrar el Gasto Real después de haber aprobado el Presupuesto, en cuyo caso, ya no es posible modificarlo. En este módulo, no se maneja el Presupuesto.
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img10.png)
-_**Imagen 155.** Historia - Gasto Real de una OT_
-
-Esta tabla resume los totales de los gastos de Mano de Obra Interna, Mano de Obra Externa, Materiales y Repuestos y Otros Conceptos de Costo. A través de esta ventana de Gasto Real se puede administrar el Gasto Real de la OT Histórica. Se compone de dos zonas:
-
-En la zona superior, aparece la matriz de Gasto Real, que resume los costos reales para la OT, discriminando por TT (En las filas), y por Tipo de Consumo (En las columnas). La última fila y la última columna de la matriz, discriminan la diferencia contra el Presupuesto, conformando así el Control Presupuestal de la OT.
-
-En la zona inferior, aparecen los botones para ingresar <a class="btn gray">mano obra interna</a>, <a class="btn gray">mano obra externa</a>, <a class="btn gray">mat y rep</a>, y <a class="btn gray">o.conceptos</a>.
-
-**Ingresar Mano de obra Interna**
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img11.png)
-_**Imagen 156.** Historia - Gasto Real MO_
-
-A través de la ventana de GR de Ingreso de Mano de Obra Interna se administra el Gasto Real de Mano de Obra de la OT.
-
-A diferencia del Presupuesto de Mano de Obra Interna, el Gasto Real de la Mano de Obra Interna se efectúa a nivel de Responsable, es decir, se tiene en cuenta a la persona que realizó la labor.
-
-Para ingresar MO se debe dar clic en el botón <a class="btn gray">adicionar mano de obra interna</a> y se deberán diligenciar los siguientes campos:
-
-**Fecha de Uso:** Es la fecha en la cual se utiliza el recurso.
-
-**OF:** Es el oficio al que pertenece el Responsable asignado. Es un campo de solo lectura, que se establece una vez se selecciona el Responsable.
-
-**Responsable:** Es la persona que ha ejecutado la OT. Se elige el Responsable descolgando el listado de Responsables, traído desde la tabla de Infraestructura.
-
-**Filtrar por OF:** Al seleccionar esta opción, en el campo “Responsable” solo se descuelgan los Responsables correspondientes al Oficio definido en la opción “OF”. De no hacerlo, en el campo “Responsable” se despliegan todos los “Responsables ejecutores” existentes en la tabla respectiva.
-
-**H. Hombre:** Es el número de Horas Hombre consumidas por el Responsable en cuestión.
-
-**Minutos:** Es el número de Minutos, que junto con las horas, conforman el tiempo total consumido. Así, si se consumen 3 horas y media de un responsable, debe registrarse “3” en el campo “H. Hombre”, y “30” en el campo “Minutos”.
-
-**Tipo Hr.:** Dado que un Responsable a través del Oficio del mismo puede poseer varios tipos de Hora, cada uno con un valor distinto, en este campo se selecciona el Tipo de Hora adecuado. **AM** sugiere el valor hora correspondiente, dependiendo del tipo elegido. Si se elige el Tipo “Otro”, AM no sugiere ningún valor hora, y deja a decisión del usuario el valor a asignar en este campo.
-
-**Vlr. Hora:** Es el valor unitario de la hora para el oficio del Responsable en cuestión. **AM** automáticamente sugiere el costo por hora traído desde la tabla de Infraestructura para el Oficio, en los casos en que el tipo hora es distinto de “Otro”, el campo se habilitará para digitar un valor hora.
-
-**Tipo de Asignación:** Este campo define al responsable de la mano de obra de la OT, el tipo de intervención que realiza en el tiempo que la OT esté abierta. La opción “Presupuesto para Histograma” es para definir la proyección a futuro de la carga de trabajo del responsable; y “Ejecución Real” es para definir la carga de trabajo ejecutada.
-
-**TT:** Este campo es informativo. Muestra el TT que tiene definido el Oficio seleccionado, se establece automáticamente una vez se ha seleccionado el Responsable y se visualiza en la tabla de Mano de Obra Interna.
-
-**Vlr.Total:** Este campo es informativo y es calculado por el sistema, contiene el valor total del Gasto Real para ese Responsable. Es el producto del Vlr. Hora por H. Hombre y Minutos. Se visualiza en la tabla de Mano de Obra Interna.
-
-Una vez se diligencien estos campos se da clic en el ícono de Mas <span class="mdi mdi-plus-circle icon white"></span> para agregar, como se muestra a continuación:
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img12.png)
-_**Imagen 157.** Historia - Gasto Real Ingresar MO_
-
-En el caso de actualizar la información de Mano de Obra Interna se da clic en <a class="btn gray">actualizar mano de obra interna</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img13.png)
-_**Imagen 158.** Historia - Gasto Real Actualizar MO_
-
-Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img14.png)
-_**Imagen 159.** Historia - Gasto Real Eliminar MO_
-
-
-**Ingresar Mano de Obra Externa**
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img15.png)
-_**Imagen 160.** Historia - Gasto Real ME_
-
-A través de la ventana de Ingreso de Mano de Obra Externa se administra el Gasto Real de Mano de Obra Externa de la OT.
-Es importante resaltar que el Gasto Real de Mano de Obra Externa de una OT, se prepara a nivel del Responsable Ejecutor Externo, es decir, quiénes fueron los encargados de ejecutar la labor.
-
-Para ingresar Mano de Obra Externa se debe dar clic en el botón <a class="btn gray">adicionar mano obra externa</a> y se deberán diligenciar los siguientes campos:
-
-**Fecha de Uso:** Es la fecha en la cual se utiliza el recurso.
-
-**OF:** Es el Oficio al que pertenece el Responsable Externo asignado. Es un campo de solo lectura, que se establece una vez se selecciona el Responsable.
-
-**Responsable:** Es el Responsable Externo que ha ejecutado la OT. Para seleccionarlo se descuelga el listado de Responsables Externos, traído desde la tabla de Infraestructura.
-
-**Filtrar por OF:** Al seleccionar esta opción, en el campo “Responsable” solo se descuelgan los Responsables Externos correspondientes al Oficio definido en la opción “OF”. De no hacerlo, en el campo “Responsable” se despliegan todos los “Responsables ejecutores Externos” existentes en la tabla respectiva.
-
-**Costo Unitario por hora/visita:** Se digita el valor o el costo unitario por hora o por visita de parte del Responsable Ejecutor Externo para esa actividad programada.
-
-**TT:** Este campo es informativo. Muestra el TT que tiene definido el Oficio seleccionado, se establece automáticamente una vez se ha seleccionado el Responsable y se visualiza en la tabla de Mano de Obra Interna.
-
-Una vez se diligencien estos campos se da clic en el ícono de Mas <span class="mdi mdi-plus-circle icon white"></span> para agregar, como se muestra a continuación:
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img16.png)
-_**Imagen 155.** Historia - Gasto Real Ingresar ME_
-
-En el caso de actualizar la información de Mano de Obra Externa, se da clic en <a class="btn gray">Actualizar Mano de Obra Externa</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img17.png)
-_**Imagen 161.** Historia - Gasto Real Actualizar ME_
-
-Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img18.png)
-_**Imagen 162.** Historia - Gasto Real Eliminar ME_
-
-
-**Ingresar Materiales y Repuestos**
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img19.png)
-_**Imagen 163.** Historia - Gasto Real M Y R_
-
-A través de la ventana de Ingreso de Materiales y Repuestos se administra el consumo real de Materiales y Repuestos de la OT.
-
-Para ingresar Materiales y Repuestos se debe dar clic en el botón <a class="btn gray">adicionar Material y Repuesto</a> y se deberán diligenciar los siguientes campos:
-
-**Fecha de Uso:** Es la fecha en la cual se utiliza el recurso.
-
-**Almacén:** Se elige el almacén dónde se encuentra el Repuesto a consumir y a ingresar al Gasto Real.
-
-**Buscar Por:** Este campo es de solo lectura y muestra por defecto la opción de Código. Una vez se elige el Almacén, este campo se habilita y lista las opciones por las cuales se puede buscar el ítem a relacionar. Las opciones son: Código, Referencia, Cod. Barra Int y Cod. Barra Prov.
-
-**M y R:** Este campo se habilita una vez se haya seleccionado el Almacén. Existen dos formas de seleccionar el Repuesto:
-
-La primera consiste de forma manual solo digitando el valor correspondiente al código, referencia, código de barras interno o proveedor del Material y Repuesto.
-
-La segunda consiste en buscar el Material y Repuesto, a través del visor de Material y Repuesto. Para ello se da un clic sobre el icono de filtro de Repuesto <span class="mdi mdi-filter-variant"></span>. Acto seguido se muestra la ventana de visor de Repuesto con la posibilidad de hacer allí subgrupos. Una vez se encuentra el Repuesto, se selecciona dando un clic sobre cualquiera de sus campos, seguidamente un clic sobre el botón <a class="btn white">Aceptar</a> de esa ventana o también es posible seleccionarlo dando doble clic sobre el registro seleccionado. Inmediatamente ese código aparece en el campo de M y R y automáticamente se actualizan los campos de UM y Valor Unitario.
-
-**Descripción M y R:** Es un campo de solo lectura, que muestra la descripción del material y repuesto seleccionado.
-
-**Cantidad:** Es la cantidad que se va a consumir en la ejecución de esa OT para el repuesto seleccionado.
-
-**UM:** Es un campo de solo lectura que muestra la unidad de consumo del repuesto seleccionado.
-
-**Vlr. Unitario:** Es el valor unitario del repuesto seleccionado. AM sugiere el valor unitario ya establecido del Repuesto en cuestión, sin embargo, puede cambiarse.
-
-**TT:** Este campo es informativo. Muestra el TT que tiene definido el Material y Repuesto seleccionado, se establece automáticamente una vez se ha seleccionado el Material y Repuesto. También, se visualiza en la tabla de Materiales y Repuestos.
-
-**Vlr. Total:** Este campo es informativo y es calculado por el sistema, contiene el valor total consumido para ese Material y Repuesto. Es el producto del Vlr. Unitario por la Cantidad. Se visualiza en la tabla de Materiales y Repuestos.
-
-Una vez se diligencien estos campos se da clic en el ícono de Mas <span class="mdi mdi-plus-circle icon white"></span> para agregar, como se muestra a continuación:
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img20.png)
-_**Imagen 159.** Historia - Gasto Real Ingresar M Y R_
-
-En el caso de actualizar la información de Materiales y Repuestos, se da clic en <a class="btn gray">Actualizar Material y Repuesto</a>. Regresar a seleccionar el Almacén respectivo, y elegir el Repuesto. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img21.png)
-_**Imagen 164.** Historia - Gasto Real Actualizar M Y R_
-
-Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img22.png)
-_**Imagen 165.** Historia - Gasto Real Eliminar M Y R_
-
-**Ingresar Otros Conceptos de Costo**
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img23.png)
-_**Imagen 166.** Historia - Gasto Real OC_
-
-A través de la ventana de Ingreso de Otros Conceptos se administra el Gasto Real de “Otros Conceptos’’ de la OT.
-
-Para ingresar Otros Conceptos de Costo o Gastos indirectos, se debe dar clic en el botón <a class="btn gray">adicionar otro concepto</a> y se deberán diligenciar los siguientes campos:
-
-**Concepto:** Es el “Otro Concepto” a presupuestar. Se selecciona descolgando la lista de Otros Conceptos, traída desde su tabla en Infraestructura.
-
-**Fecha de Uso:** Es la fecha en la cual se utiliza el recurso.
-
-**Concepto:** Es el “Otro Concepto‟ a cargar a la OT. Se selecciona descolgando la lista de otros Conceptos, traída desde su tabla en Infraestructura.
-
-**Nro. Unidades:** Se define el número de unidades consumidas del Concepto de Costo seleccionado anteriormente.
-
-**Vlr. Unitario:** Es el valor presupuestado del “Otro Concepto Costo”. AM sugiere el valor unitario del concepto que se encuentra ingresando al sistema. Sin embargo, es modificable por el usuario.
-
-**Moneda:** Este campo de solo lectura, muestra la moneda definida al otro Concepto de Costo en la tabla de Infraestructura.
-
-**Vlr. Total:** Es el costo total consumido del “Otro Concepto Costo” teniendo en cuenta el número de unidades y el valor unitario.
-
-**Info. Adicional:** Es un campo donde se define un pequeño comentario sobre el consumo.
-
-Una vez se diligencien estos campos se da clic en el ícono de Mas <span class="mdi mdi-plus-circle icon white"></span> para agregar, como se muestra a continuación:
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img24.png)
-_**Imagen 167.** Historia - Ingresar OC_
-
-En el caso de actualizar la información de Materiales y Repuestos, se da clic en <a class="btn gray">Actualizar Otro Concepto</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img25.png)
-_**Imagen 168.** Historia - Actualizar OC_
-
-Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img26.png)
-_**Imagen 169.** Historia - Eliminar OC_
-
-_> **Nota:** Para finalizar, hacer clic en el botón <a class="btn gray">ir a la matriz</a> para regresar a la ventana principal de Gasto Real y luego para acentar los cambios en el Gasto Real de la OT se debe dar clic en <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a>. Esto automáticamente cambia el estado de la OT a Cerrada Retroalimentada._
-
-# Transacciones
-
-### Seguimiento o Cierre
-
-A esta opción se llega sobreponiendo el cursor sobre el módulo de Historia donde se despliega un submenú de transacciones disponibles y luego se da clic en “Seguimiento o Cierre”.
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img06.png)
-_**Imagen 170.** Historia - Ir a Seguimiento y Cierre_
-
-Para ingresar al Detalle del Seguimiento y Cierre de un registro, se debe dar clic en la OT del Visor de Seguimiento y Cierre:
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img07.png)
-_**Imagen 171.** Historia - Visor Seguimiento y Cierre_
-
-En el Seguimiento o Cierre se mantiene al día la información vital de ejecución de la OT. Es aquí donde se registran las fechas, tiempos y demás básicos concernientes a la ejecución de la labor.
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img08_.png)
-_**Imagen 172.** Historia - Visor Seguimiento y Cierre_
-
-En la gráfica anterior, Ventana de Seguimiento o Cierre, se aprecian sus componentes y sus respectivos contenidos. Sobre cada campo se da una breve descripción:
-
-**Que Hacer:** Este recuadro aparece con los campos bloqueados para que el usuario visualice la información básica de la OT.
-
-**F/H de Paro:** Este campo aparece adicional sólo para las OT Correctivas, y se registra la Fecha y hora del daño ocurrido. La fecha se maneja en formato DD/MM/AAAA (Día, Mes, Año); la hora se maneja en formato de 12h. Cabe anotar, que la fecha y hora consignadas corresponden al momento en que se informó del daño o falla a Mantenimiento, así que es posible que el daño haya ocurrido en una fecha/hora anterior. Sin embargo se debe procurar, administrativamente, que Mantenimiento se entere lo más pronto posible de la Fecha y Hora reales del Daño.
-
-**F/H Atención:** Es la fecha y hora en la que el Personal de Mantenimiento atendió la solicitud de la labor, se hizo presente con una inspección previa sobre el Activo/Equipo reportado. La fecha se maneja en formato DD/MM/AAAA (Día, Mes, Año) y la hora se maneja en formato de 12h. Una vez se digita la Fecha y Hora de Atención, éstas se sugieren para la fecha/hora de Inicio de Trabajos y Fin de Trabajos de la OT, claro está, si tales fechas y horas no han sido digitadas aún.
-
-**F/H Inicio Trabajos:** Es la Fecha y Hora que indica el momento en que se inició labores una vez que todas las condiciones fueron dadas: se han superado los tiempos de inspección y administrativos; la máquina está lista y en condiciones de ser mantenida, ya fue entregada al Depto. de Mantenimiento y éste a su vez, cuenta con todos los recursos necesarios para la ejecución: herramientas, instrumentos, materiales, repuestos y responsable. La fecha se maneja en formato DD/MM/AAAA (Día, Mes, Año) y la hora se maneja en formato de 12h.
-
-**F/H Fin Trabajos:** Es la Fecha y Hora que indica el momento en que finalizaron las labores de mantenimiento, incluyendo las pruebas o ensayos que determinaron el buen funcionamiento del equipo. La fecha se maneja en formato DD/MM/AAAA (Día, Mes, Año) y la hora se maneja en formato de 12h.
-
-**Tiempo Duración (ttr):** **AM** sugiere como Tiempo de Duración, (o time to repair), la diferencia entre la Fecha/Hora de Fin de Trabajos y la Fecha/Hora de Inicio de Trabajos. Cabe anotar, que no siempre el Tiempo de Duración es la diferencia entre estas fechas/horas, porque pueden existir eventos que dejaron temporalmente a la OT en Estado de “Pendiente”. AM permite corregir el tiempo de Duración en una OT, después de que fue calculado por el sistema, para que refleje el tiempo real de la ejecución.
-Por ejemplo, si una OT tiene como Fecha de Inicio de Trabajos XXXX/12/01 08:30 a.m., y como Fecha de Fin de Trabajos XXXX/12/01 04:00 p.m., AM sugiere como Tiempo de Duración 7 horas y 30 minutos. Sin embargo, si durante ese lapso se tuvo que detener la ejecución por 2 horas, debido a que faltaba un Repuesto o a que el técnico encargado se ausentó a realizar otra labor, se debe corregir la duración en 5 horas y 30 minutos.
-
-**T. Improductivo:** **AM** sugiere como Tiempo Improductivo la diferencia entre la Fecha/Hora de Fin de Trabajos y la Fecha/ Hora de Paro (Para OT Correctivas), o como la diferencia entre la Fecha/Hora de Fin de Trabajos y la Fecha/Hora de Inicio de Trabajos (Para OT no Correctivas). Sin embargo, este valor puede corregirse, después de que fue calculado por el sistema, para reflejar la cantidad Real de Tiempo Improductivo que tuvo el Equipo en la OT actual.
-
-Por ejemplo, si una OT correctiva tiene como fecha de Información de Paro XXXX/12/01 08:00 a.m., y como fecha de Fin de Trabajos XXXX/12/02 12:30 pm, AM sugiere como Tiempo Improductivo, 1 día, 4 horas y 30 minutos. Sin embargo, si en ese lapso, el Equipo no trabaja de 10 PM a 6 AM, pues la empresa no labora este turno de producción, se debe definir el tiempo improductivo como solamente de 20 horas y 30 minutos.
-
-**Estado de la OT:** Un registro puede tener uno de los siguientes Estados:
-
-| ABREVIATURA | SIGNIFICADO |
-| ----------- | ----------- |
-| **CE:**     | Cerrada Ejecutada  |
-| **CR:**     | Cerrada Retroalimentada  |
-| **K:**      | Cancelada   |
-
-El estado de **Cerrada Retroalimentada** indica por cualquier razón una actualización sobre el registro.
-
-**Causa de Cierre:** Por defecto, cuando se trata de una OT cerrada y ejecutada, el sistema ubica en este campo la causa “OT Ejecutada”. Si la OT se ha cerrado con un Estado de “K:Cancelada”, en este campo se definió la Causa respectiva.
-
-**FF Cierre:** Es asignada automáticamente por el sistema, cuando el usuario cambia la OT, SS o PA, al estado Cerrada Ejecutada o Cancelada.
-
-**Causa de Falla:** Para OT correctivas, este campo es obligatorio, se registra la Causa de la Falla que dio origen a la labor actual. Estas opciones que se despliegan, corresponden a las definidas en su tabla en la Infraestructura.
-
-**Efecto de Falla:** Para OT correctivas, en este campo se registra el Efecto mas significativo de la falla que se presentó y fue reportado por producción.
-
-**Meses de Garantía:** Indica cuántos meses de garantía se ofrecen por la labor realizada. El número de meses establecido empieza a regir a partir de la Fecha de Fin de Trabajos de la OT.
-
-**Conf. Subjetiva AC.:** Este campo permitió al técnico ejecutor, establecer subjetivamente en cuánto quedó (en porcentaje) la confiabilidad del Activo/Equipo una vez finalizada la labor. Al
-frente de este valor, aparece el porcentaje de confiabilidad actual del Equipo, como valor de referencia. Este valor fue definido por el responsable de la ejecución de la OT según su apreciación subjetiva.
-
-**Email:** En este campo el sistema asigna automáticamente el correo electrónico del Solicitante definido en la ficha técnica de la OT de la ventana detalle en el campo de Correo Electrónico. 
-
-**Fecha y estado del contador al momento de ejecución:** En este recuadro se ingresa toda la información relacionada con el contador del Activo y su fecha de lectura al momento del cierre de la OT. 
-
-Se deben llenar los siguientes campos para proceder a actualizar la información:
-
-**Tipo CO:** Este campo permanece bloqueado y muestra el nombre del Contador del Activo que fue asignado en el PM por Contador.
-
-**Valor del CO en el Activo:** Este campo permanece bloqueado y muestra el valor del Contador del Activo que se tenga definido en el módulo de Activos en la pestaña Ficha Técnica.
-
-**FF Lectura CO en el Activo:** Este campo permanece bloqueado y muestra la fecha de lectura del Contador del Activo que se tenga definido en el módulo de Activos en la pestaña Ficha Técnica.
-
-**Valor del CO en la Generación:** Este campo permanece bloqueado y muestra el valor del Contador del Activo proyectado por el PM al momento de generarse la OT.
-
-**FF Lectura CO en la Generación:** Este campo permanece bloqueado y muestra la fecha de lectura del Contador del Activo proyectado por el PM al momento de generarse la OT.
-
-**Valor del CO en la Ejecución:** En este campo se define el valor del Contador del Activo al momento de ejecutarse la labor o al momento del cierre de la OT.
-
-**FF Lectura CO en la Ejecución:** En este campo se define la fecha de lectura del Contador del Activo al momento de ejecutarse o al momento del cierre de la OT.
-
-En el Seguimiento o Cierre, además de los botones <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a> y <a class="btn blue">cancelar <span class="mdi mdi-block-helper"></span></a>, se visualiza el botón <a class="btn blue">bitácora <span class="mdi mdi-view-week"></span></a>, éste muestra en nueva ventana el historial de cambios de la OT en: Estado, Prioridad y Responsable. Se muestra esta información solo si se han presentado modificaciones, de lo contrario los campos permanecen en blanco.
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img09.png)
-***Imagen 173.** Historia - Detalle Bitácora en Seguimiento y Cierre*
-
-
-## Enviar a Historia Archivada 
-
-En ocasiones la Historia de Mantenimiento puede volverse pesada debido a grandes volúmenes de información que puede llegar a contener,  lo cual, a falta de mantenimiento se afecta la base de datos y el sistema se ralentiza. Por lo tanto se hace necesaria la herramienta **Enviar a Historia Archivada**. De esta manera toda la información preseleccionada en el Subgrupo en el módulo de <a class="btn blue">Historia</a>, se transfiere a <a class="btn blue">Historia Archivada </a>, la cual tiene la característica de ser completamente independiente de la base de datos, es decir, toda la información a su origen que antes era fundamentada en links o enlaces con otros módulos como Infraestructura (Centro de Costo, Ubicación Física, Centro Responsable, Responsable), Repuestos y Activos se desaparecen y se resuelven quedando con la información real, es decir, ahora todos los campos son diligenciados y están grabados, por lo que se visualiza en una tabla plana que contiene la misma información pero inmodificable. Esto al suceder con un gran volumen de Órdenes, la base de datos se hace mas liviana y  ágil. Es así como se pueden hacer las mismas consultas de registros e impresión de un reporte básico disponible para analizar un registro individual (OT, SS o Paro). 
-
-
-E﻿s importante tener en cuenta que cuando se envían registros a <a class="btn blue">Historia Archivada</a> los enlaces desaparecen y se hace posible eliminar o hacer limpieza de registros muy antiguos como Centros de Costo, Terceros, Ubicaciones Físicas, Activos, entre otra información que no tenga uso o no sea vigente.
-
-El envío de registros Históricos a Historia Archivada es un proceso controlado, es decir, este envío se hace por cada 5000 registros como máximo y estos deben ser preseleccionados en un Subgrupo, el cual puede tardar horas, por ende, se recomienda hacer un respaldo de datos previo de esta transacción.
-
-P﻿ara enviar registros de **Historia** a **Historia Archivada**, previamente se debe hacer un subgrupo y luego sobreponer el cursor sobre el módulo de <a class="btn blue">Historia</a> y dar clic en **Enviar Historia Archivada** como se indica a continuación:
-
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img43.png)
-_**Imagen 174.** Historia - Ir a Enviar a Historia Archivada_
-
-A﻿l ingresar a la transacción se muestra la siguiente ventana:
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img44.png)
-_**Imagen 175.** Historia - Enviar a Historia Archivada_
-
-A﻿ **Historia Archivada** se puede enviar un registro de OT, SS o Paro
-o un conjunto de registros preseleccionados:
-
-**Todas las HIs del visor:** Esta opción envía todos los registros históricos de la Ventana Visor, es decir, los registros preseleccionados a través del Subgrupo actual.
-
-**La HI seleccionada:** Esta opción permite enviar el registro que está seleccionado en la Ventana Visor (el cursor verde se encuentra sobre él).
-
-L﻿uego de seleccionar una de las opciones anteriores dar clic en el botón <a class="btn blue">Enviar a Historia Archivada</a>, ubicado en la parte inferior de las opciones en el cual aparecerá un mensaje de alerta para el usuario:
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img45.png)
-_**Imagen 176.** Historia - Mensaje Alerta Enviar Historia Archivada_
-
-P﻿ara continuar con el proceso de envío dar clic en <a class="btn white">Aceptar</a>.
-
-C﻿uando el proceso termine, el sistema muestra un mensaje alerta confirmando el proceso con el número de registros enviados exitosamente entre paréntesis:
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img46.png)
-_**Imagen 177.** Historia - Mensaje Alerta Envío a Historia Archivada_
-
->﻿**Nota:** Si el número de registros a enviar es mayor a 5000 registros el sistema muestra un mensaje de advertencia.
-
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img47.png)
-_**Imagen 178.** Historia - Mensaje Advertencia_
-
-
-
-### DashBoards
-
-Para acceder a esta opción, se debe sobreponer el cursor sobre el módulo de Historia y a continuación, dar un clic sobre la transacción, como se muestra en la siguiente imagen:
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img27.png)
-***Imagen 179.** Historia - Ir a Dashboard*
-
-Este comando permite visualizar en tiempo real el comportamiento de los registros de Órdenes de Trabajo Históricas, Solicitudes de Servicio y Paros, con el fin de usarse como una herramienta para análisis y toma de decisiones rápidas, como se muestra a continuación:
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img28.png)
-***Imagen 180.** Historia - Dashboard*
- 
-De la imagen anterior, la información del rectángulo anaranjado ubicado en la parte superior derecha indica el número de registros de OT Históricas, SS y PA filtrados a través del subgrupo o la cantidad total de registros de OT Históricas, SS y PA, existentes en el módulo de HI. 
-
-Como guía existe un indicador a modo de fracción (N/M) que indica el número total de registros de OT Históricas, SS y PA seleccionados (N) sobre el número de registros totales en el módulo de HI (M).
-
-Es por lo anterior que esta fracción se verá afectada al realizarse un “Subgrupo” o filtro en el módulo seleccionado, por lo cual se muestra la cantidad de registros del subgrupo actual (N) y el total de registros existentes en el módulo de Historia (M). Si no hay filtro, los dos números en sus totales son los mismos, como se indica en la siguiente imagen:
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img29.png)
-***Imagen 181.** Historia - Dashboard*
-
-Al dar clic sobre los rectángulos de colores, se oculta la información correspondiente a cada rectángulo, como se ilustra en la siguiente imagen:
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img30.png)
-_**Imagen 182.** Historia - Dashboard_
-
-El valor que está ubicado dentro del rectángulo verde, indica el número total de OT Históricas, SS o PA existentes en HI o existentes en el subgrupo realizado, según corresponda al DashBoard.
-
-![Dashboard OT](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img31.png)
-_**Imagen 183.** Historia - Dashboard OT_
-
-Sí se desea restablecer la información, se debe dar clic al icono de las flechas circulares <span class="mdi mdi-autorenew"></span>. En cambio, si se desea exportar el gráfico en un formato de imagen, es posible dando clic a la flecha hacia abajo <span class="mdi mdi-download"></span>.
-
-![Dashboard SS](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img32.png)
-
-_**Imagen 184.** Historia - Dashboard SS_
-
-
-### E﻿liminar Masivamente
-
-Eliminar masivamente se ejecuta cuando se tiene la certeza de la existencia  datos en <a class="btn blue">Historia</a> que no se necesitarán mas en adelante. Borrar masivamente Historia, implica no sólo eliminar datos del sistema sino también de la base de datos, lo que quiere decir que no se podrán hacer mas consultas sobre estos registros, a gran diferencia del envío a **Historia Archivada** en la que los datos si se pueden consultar uno a uno e imprimir un reporte básico.   
-
->**﻿Nota:** El resultado de ejecutar el ambos procesos da como resultado la ligereza de la base de datos, es decir, eliminar masivamente datos basura sobre Terceros y Activos, siempre y cuando todo lo se borre sea desde Historia o bien se haya enviado a Historia Archivada, en este último, al d﻿esaparecer los links también se hace posible la transacción **Eliminar Masivamente Historia**.
-
-P﻿ara ir a la transacción sobreponer el cursor sobre el módulo de  <a class="btn blue">Historia</a> y dar clic en la opción **Eliminar Masivamente**, como se indica a continuación:
-
-![Dashboard SS](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img48.png)
-_**Imagen 185.** Historia - Ir a Eliminar Masivamente_
-
-P﻿ara eliminar un conjunto de registros se debe primero realizar un Subgrupo no mayor de 5000 mil registros (este proceso puede tardar hasta 5 horas dependiendo del subgrupo), de no hacerlo el sistema muestra un mensaje de advertencia:
-
-![Dashboard SS](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img47.png)
-_**Imagen 186.** Historia - Alerta Eliminar Masivamente_
-
-U﻿na vez se tenga el conjunto de registros preseleccionados proceder con la transacción así:
-
-![Dashboard SS](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img49.png)
-_**Imagen 187.** Historia - Eliminar Historia_
-
-Se puede eliminar un registro de OT, SS, Paro o un conjunto de registros preseleccionados: 
-
-**Todas las HIs del visor:** Esta opción eliminar todos los registros históricos de la Ventana Visor, es decir, los registros preseleccionados a través del Subgrupo actual.
-
-**La HI seleccionada:** Esta opción permite eliminar el registro que está seleccionado en la Ventana Visor (el cursor verde se encuentra sobre él).
-
-P﻿ara continuar dar clic en el botón <a class="btn blue">eliminar historia</a> ubicado debajo de las opciones anteriores, el sistema muestra un mensaje alerta:
-
-![Dashboard SS](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img50.png)
-_**Imagen 188.** Historia - Mensaje Advertencia Eliminar Masivamente_
-
-P﻿ara finalizar el proceso dar clic en <a class="btn blue">aceptar</a>, y el sistema confirma  a través de un mensaje aviso: 
-
-![Dashboard SS](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img51.png)
-_**Imagen 189.** Historia - Aviso Satisfactorio Eliminar Masivamente_﻿
-
-
 ## Exportar
 
 Esta opción permite exportar los ítems o campos de la ficha técnica de OT, bien sea, para exportar todas las OTs de la base de datos o las provenientes de un subgrupo a un archivo de Excel que se descarga automáticamente en la estación cliente.
@@ -780,39 +711,132 @@ A continuación se muestra la visualización del respectivo reporte:
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img42.png)
 _**Imagen 199.** Historia - Reporte Cronograma de Mantenimientos Ejecutados_
 
-### Balance Periódico de Gestión
-
-Aunque no existe una opción o una función específica en ningún menú o submenú dentro de **AM** que especifique el tema Balance de Gestión, aquí se trata como una herramienta administrativa y de gerencia que debería ser utilizada periódica y disciplinadamente por un Gerente de Mantenimiento que quiera posicionar su área y su cargo, en un nivel realmente gerencial dentro de la organización.
-
-En algunas empresas y corporaciones se percibe el Departamento de Mantenimiento como un área costosa, incumplida, sobre la que se conoce poco o ningún detalle de sus esquemas de planeación, programación, priorización, y ejecución de tareas, y aún mucho menos sobre la estratificación de los costos, respecto a Mano de Obra, Materiales y Repuestos y otros conceptos. Estratificación que se relaciona también con los tipos de Mantenimiento (Preventivo, Correctivo, Predictivo, y otros), también con los tipos de Trabajo (Mecánico, Eléctrico, Instrumentación y otros) y finalmente con los Tipos de Actividad que realiza y los Centros de Costo, sus clientes naturales.
-El planteamiento que se hace es simple. Se recomienda al Gerente de Mantenimiento, que elabore un Balance de Gestión, para el período que acaba de concluir: un mes, un trimestre, un semestre, un año. Todo ello como resultado del trabajo de un período de gran actividad técnica y de informática y de gran organización procedimental y metodológica. Es más, se debería generar por pura iniciativa del mismo Gerente de Mantenimiento, sin que medie una orden o una solicitud expresa de la Alta Gerencia.
-**AM** proporciona todos los elementos y las herramientas para lograrlo. Aún así se requiere de parte del Departamento de Mantenimiento, desde su cabeza, de un compromiso decidido para lograrlo. No es difícil. Se trata de plantear y acordar una metodología de reporte y retroalimentación de información permanente al sistema para mantenerlo al día.
-Existe un gran ejemplo dentro de la misma Corporación o Empresa. Es el departamento contable y el Sistema de Contabilidad. Para nadie es un secreto que el Balance de Gestión Financiera y otros Estados Financieros están listos siempre a tiempo, durante los primeros días del mes siguiente. Pues bien, este resultado contable real del período no aparece milagrosamente se trata del compendio de la actividad, disciplina y gusto de muchas personas, con el apoyo del Sistema de Información Contable. Desde el primer día de cada mes, con cada transacción contable, se alimenta el sistema y así se mantiene día tras día, actualizado. Se hacen revisiones periódicas para verificar el estado de actualización y de veracidad e integridad de la información. Cuando llega el fin del período, normalmente del mes, el gran porcentaje de la información está al día, registrada ya en el sistema. Entonces solo se hacen ajustes y complementos especiales. Todo está listo para producir el gran resultado del mes: El Balance Mensual.
-Nada diferente es lo que se propone al área de Mantenimiento: que genere su Balance Periódico de Gestión.
 
 
-Un Balance Periódico de Gestión de Mantenimiento debe conformarse, al menos, por los siguientes componentes:
 
-**Reportes de costos, tiempos y número de actividades del período:**
+# Transacciones
 
+## Enviar a Historia Archivada 
 
-- Gerencial por Centro de Costo, discriminando Mano de Obra, Materiales y Repuestos y Otros Conceptos. Debería ser enviado al Gerente de Producción y a la Gerencia de Planta.
-- Detallado a nivel de Órden de Trabajo, también por Centro de Costo y discriminado por los mismos conceptos, seguimiento de tiempos, Resumen de tiempo improductivo, Resumen con tiempo total de producción, listado de Tiempo por Órdenes y Solicitudes de Servicio.
-
-**Reportes para Mantenimiento y Almacén:**
-
-Discriminación de Costos por Tipo de Mantenimiento y Tipo de Trabajo
-• Reportes sobre análisis de fallas: Pareto por mayor número de actividades, habiendo preseleccionado del movimiento del período sólo lo que corresponde a actividades correctivas.
-• Listado de consumos de Repuestos del período.
-
-**Índices de Gestión:**
-
-Se recomienda elegir de la gama de índices que AM ofrece, los índices de gestión más representativos para la empresa y el período evaluado. Además de los índices ya definidos de manera estándar, WIN Software Asociados ha desarrollado algunos índices especiales por sector de industria, que están disponibles, solo deben ser solicitados. Igualmente, WIN Software, con su filosofía de continuo mejoramiento del software, está dispuesto a implementar los índices particulares, base de seguimiento de cada empresa, buscando a futuro proveer de manera completa los índices aceptados universalmente para la gestión de Mantenimiento.
-
-Como resultado de implementar periódicamente un Balance de Gestión, se hace posible extraer desde ellos, al final de cada período, un resumen de datos puntuales, de los reportes que los conforman, para transferir hacia herramientas externas, como Excel por ejemplo.
+En ocasiones la Historia de Mantenimiento puede volverse pesada debido a grandes volúmenes de información que puede llegar a contener,  lo cual, a falta de mantenimiento se afecta la base de datos y el sistema se ralentiza. Por lo tanto se hace necesaria la herramienta **Enviar a Historia Archivada**. De esta manera toda la información preseleccionada en el Subgrupo en el módulo de <a class="btn blue">Historia</a>, se transfiere a <a class="btn blue">Historia Archivada </a>, la cual tiene la característica de ser completamente independiente de la base de datos, es decir, toda la información a su origen que antes era fundamentada en links o enlaces con otros módulos como Infraestructura (Centro de Costo, Ubicación Física, Centro Responsable, Responsable), Repuestos y Activos se desaparecen y se resuelven quedando con la información real, es decir, ahora todos los campos son diligenciados y están grabados, por lo que se visualiza en una tabla plana que contiene la misma información pero inmodificable. Esto al suceder con un gran volumen de Órdenes, la base de datos se hace mas liviana y  ágil. Es así como se pueden hacer las mismas consultas de registros e impresión de un reporte básico disponible para analizar un registro individual (OT, SS o Paro). 
 
 
-Allí es posible efectuar cálculos adicionales y obtener estadísticas y tendencias que complementan la Gestión y permiten tener una visión de largo plazo. Por ejemplo, sería valioso al final de cada mes extraer datos como: Dátos Basicos Del Mes Para Índices De Gestión , Indicadores De Nivel De Cumplimiento, Indicadores De Tiempo, Costos totales por  por Tipo de Mantenimiento y por Tipo de Trabajo, al igual que Pareto Por Mayor Número De Causas De Fallas, Pareto Por Mayor Número De Horas Hombre, Hoja de Vida de Activo, entre otros, y a través de las herramientas de graficación de Microsoft Excel u otra herramienta idónea, generar seguimiento mes a mes y tendencias acumulativas, para cada uno de dichos conceptos.
+Es importante tener en cuenta que cuando se envían registros a <a class="btn blue">Historia Archivada</a> los enlaces desaparecen y se hace posible eliminar o hacer limpieza de registros muy antiguos como Centros de Costo, Terceros, Ubicaciones Físicas, Activos, entre otra información que no tenga uso o no sea vigente.
+
+El envío de registros Históricos a Historia Archivada es un proceso controlado, es decir, este envío se hace por cada 5000 registros como máximo y estos deben ser preseleccionados en un Subgrupo, el cual puede tardar horas, por ende, se recomienda hacer un respaldo de datos previo de esta transacción.
+
+Para enviar registros de **Historia** a **Historia Archivada**, previamente se debe hacer un subgrupo y luego sobreponer el cursor sobre el módulo de <a class="btn blue">Historia</a> y dar clic en **Enviar Historia Archivada** como se indica a continuación:
 
 
-Todos estos reportes mencionados y muchos más, con capacidad de ser adecuados según requerimientos particulares de clasificación y preselección, se encuentran disponibles en **AM** con el fin de que el Gerente de Mantenimiento pueda generar el Balance Periódico de Gestión Básico y todos los complementos que le sean necesarios para apoyo, dinamismo y sustentación de su gestión.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img43.png)
+_**Imagen 174.** Historia - Ir a Enviar a Historia Archivada_
+
+Al ingresar a la transacción se muestra la siguiente ventana:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img44.png)
+_**Imagen 175.** Historia - Enviar a Historia Archivada_
+
+**Historia Archivada** se puede enviar un registro de OT, SS o Paro
+o un conjunto de registros preseleccionados:
+
+**Todas las HIs del visor:** Esta opción envía todos los registros históricos de la Ventana Visor, es decir, los registros preseleccionados a través del Subgrupo actual.
+
+**La HI seleccionada:** Esta opción permite enviar el registro que está seleccionado en la Ventana Visor (el cursor verde se encuentra sobre él).
+
+Luego de seleccionar una de las opciones anteriores dar clic en el botón <a class="btn blue">Enviar a Historia Archivada</a>, ubicado en la parte inferior de las opciones en el cual aparecerá un mensaje de alerta para el usuario:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img45.png)
+_**Imagen 176.** Historia - Mensaje Alerta Enviar Historia Archivada_
+
+Para continuar con el proceso de envío dar clic en <a class="btn white">Aceptar</a>.
+
+Cuando el proceso termine, el sistema muestra un mensaje alerta confirmando el proceso con el número de registros enviados exitosamente entre paréntesis:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img46.png)
+_**Imagen 177.** Historia - Mensaje Alerta Envío a Historia Archivada_
+
+>**Nota:** Si el número de registros a enviar es mayor a 5000 registros el sistema muestra un mensaje de advertencia.
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img47.png)
+_**Imagen 178.** Historia - Mensaje Advertencia_
+
+
+
+## DashBoard de HI
+
+Para acceder a esta opción, se debe sobreponer el cursor sobre el módulo de Historia y a continuación, dar un clic sobre la transacción, como se muestra en la siguiente imagen:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img27.png)
+***Imagen 179.** Historia - Ir a Dashboard*
+
+Este comando permite visualizar en tiempo real el comportamiento de los registros de Órdenes de Trabajo Históricas, Solicitudes de Servicio y Paros, con el fin de usarse como una herramienta para análisis y toma de decisiones rápidas, como se muestra a continuación:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img28.png)
+***Imagen 180.** Historia - Dashboard*
+ 
+De la imagen anterior, la información del rectángulo anaranjado ubicado en la parte superior derecha indica el número de registros de OT Históricas, SS y PA filtrados a través del subgrupo o la cantidad total de registros de OT Históricas, SS y PA, existentes en el módulo de HI. 
+
+Como guía existe un indicador a modo de fracción (N/M) que indica el número total de registros de OT Históricas, SS y PA seleccionados (N) sobre el número de registros totales en el módulo de HI (M).
+
+Es por lo anterior que esta fracción se verá afectada al realizarse un “Subgrupo” o filtro en el módulo seleccionado, por lo cual se muestra la cantidad de registros del subgrupo actual (N) y el total de registros existentes en el módulo de Historia (M). Si no hay filtro, los dos números en sus totales son los mismos, como se indica en la siguiente imagen:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img29.png)
+***Imagen 181.** Historia - Dashboard*
+
+Al dar clic sobre los rectángulos de colores, se oculta la información correspondiente a cada rectángulo, como se ilustra en la siguiente imagen:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img30.png)
+_**Imagen 182.** Historia - Dashboard_
+
+El valor que está ubicado dentro del rectángulo verde, indica el número total de OT Históricas, SS o PA existentes en HI o existentes en el subgrupo realizado, según corresponda al DashBoard.
+
+![Dashboard OT](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img31.png)
+_**Imagen 183.** Historia - Dashboard OT_
+
+Sí se desea restablecer la información, se debe dar clic al icono de las flechas circulares <span class="mdi mdi-autorenew"></span>. En cambio, si se desea exportar el gráfico en un formato de imagen, es posible dando clic a la flecha hacia abajo <span class="mdi mdi-download"></span>.
+
+![Dashboard SS](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img32.png)
+
+_**Imagen 184.** Historia - Dashboard SS_
+
+## Eliminar Masivamente
+
+Eliminar masivamente se ejecuta cuando se tiene la certeza de la existencia  datos en <a class="btn blue">Historia</a> que no se necesitarán mas en adelante. Borrar masivamente Historia, implica no sólo eliminar datos del sistema sino también de la base de datos, lo que quiere decir que no se podrán hacer mas consultas sobre estos registros, a gran diferencia del envío a **Historia Archivada** en la que los datos si se pueden consultar uno a uno e imprimir un reporte básico.   
+
+>**Nota:** El resultado de ejecutar el ambos procesos da como resultado la ligereza de la base de datos, es decir, eliminar masivamente datos basura sobre Terceros y Activos, siempre y cuando todo lo se borre sea desde Historia o bien se haya enviado a Historia Archivada, en este último, al desaparecer los links también se hace posible la transacción **Eliminar Masivamente Historia**.
+
+Para ir a la transacción sobreponer el cursor sobre el módulo de  <a class="btn blue">Historia</a> y dar clic en la opción **Eliminar Masivamente**, como se indica a continuación:
+
+![Dashboard SS](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img48.png)
+_**Imagen 185.** Historia - Ir a Eliminar Masivamente_
+
+Para eliminar un conjunto de registros se debe primero realizar un Subgrupo no mayor de 5000 mil registros (este proceso puede tardar hasta 5 horas dependiendo del subgrupo), de no hacerlo el sistema muestra un mensaje de advertencia:
+
+![Dashboard SS](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img47.png)
+_**Imagen 186.** Historia - Alerta Eliminar Masivamente_
+
+Una vez se tenga el conjunto de registros preseleccionados proceder con la transacción así:
+
+![Dashboard SS](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img49.png)
+_**Imagen 187.** Historia - Eliminar Historia_
+
+Se puede eliminar un registro de OT, SS, Paro o un conjunto de registros preseleccionados: 
+
+**Todas las HIs del visor:** Esta opción eliminar todos los registros históricos de la Ventana Visor, es decir, los registros preseleccionados a través del Subgrupo actual.
+
+**La HI seleccionada:** Esta opción permite eliminar el registro que está seleccionado en la Ventana Visor (el cursor verde se encuentra sobre él).
+
+Para continuar dar clic en el botón <a class="btn blue">eliminar historia</a> ubicado debajo de las opciones anteriores, el sistema muestra un mensaje alerta:
+
+![Dashboard SS](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img50.png)
+_**Imagen 188.** Historia - Mensaje Advertencia Eliminar Masivamente_
+
+Para finalizar el proceso dar clic en <a class="btn blue">aceptar</a>, y el sistema confirma  a través de un mensaje aviso: 
+
+![Dashboard SS](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img51.png)
+_**Imagen 189.** Historia - Aviso Satisfactorio Eliminar Masivamente_
+
+
+
+
