@@ -3,11 +3,13 @@
 left:
   - title: Manual de usuario
     url: /docs/01_01_introduction/
+    button: default
 
   # - title: Blog
   #   url: /blog/
 
   - title: Registro de cambios
+    button: default
     dropdown:
 
       - title: Línea de tiempo
