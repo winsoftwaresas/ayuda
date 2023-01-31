@@ -9,7 +9,6 @@ left:
   #   url: /blog/
 
   - title: Registro de cambios
-    button: default
     dropdown:
 
       - title: Línea de tiempo
