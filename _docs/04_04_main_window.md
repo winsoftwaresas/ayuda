@@ -276,7 +276,7 @@ _**Imagen 21.** Almacén - Subgrupo Materiales y Repuestos_
 **Estado:** Permite seleccionar el Estado de los Repuestos, es posible registrar el estado  de Activo, Vencido, Excedente, Obsoleto o Inservible para el Repuesto activo.
 
 **Proveedor 1:** Lista los Repuestos por el Proveedor seleccionado. La búsqueda se realiza sobre los 3 campos de Proveedor asociado al Repuesto **(Proveedor 1, 2, 3)**. Este campo despliega la lista de los Terceros Tipo PF de la tabla de Infraestructura. En este campo es posible usar comodines (%). Para introducir un nombre en campo manualmente se debe dar clic en el icono <span class="mdi mdi-lock"></span> el cual se habilita <span class="mdi mdi-lock-open-outline"></span> para permitir el ingreso del dato: por ejemplo FER% y el sistema selecciona todos los Proveedores cuyo nombre empieza por FER. Si se escribe %IA% se seleccionan todos los Proveedores en cuyo nombre, en cualquier posición, tengan la palabra **“IA”**.  
- ﻿
+ 
 **Referencia Proveedor 1:** A través de esta opción es posible digitar el nombre de la referencia del Repuesto, seleccionar los Repuestos que  tienen como referencia proveedor 1. Este campo permite el uso de comodines(%) por ejemplo: %BR1%, BR1%.
 
 **Referencia Proveedor 2:** Este criterio permite realizar consultas por la segunda referencia establecida perteneciente al segundo proveedor. Permite el uso de comodines (%), por ejemplo: %BR1%, BR1%.**
@@ -293,13 +293,18 @@ _**Imagen 21.** Almacén - Subgrupo Materiales y Repuestos_
 
 ### Asociar con Activos
 
-El comando Asociar  a  Equipos del submenú Repuestos permite asociar un  Repuesto con el o los Equipos a los que sirve. Esta asociación es opcional, pero es muy útil en caso de necesitar ubicar con facilidad aquellos Repuestos específicos que solo sirven a Equipos específicos.
+El comando Asociar a Activos del submenú Repuestos permite asociar un  Repuesto con el o los Activos a los que sirve. Esta asociación es opcional, pero es muy útil en caso de necesitar ubicar con facilidad aquellos Repuestos específicos que solo sirven a Activos específicos.
 
-![ detalle de materiales y repuestos ](../../assets/images/cap04/chp04_img16.png)
 
-A esta opción se llega al sobreponer el cursor del mouse sobre un almacén y al lado derecho se despliega el conjunto de transacciones disponibles para ese almacén, luego se elige la transacción ** “Asociar con Activos”**. Al lado izquierdo es posible visualizar el conjunto de Activos y al lado derecho se visualiza los Repuestos existentes en el almacén seleccionado previamente. Para navegar entre las páginas se debe dar clic al icono ubicado en la parte inferior derecha de cada recuadro.
+Para acceder a esta opción se debe contar con los permisos de Repuestos, y a continuación se sobrepone el cursor sobre el Almacén en cuestión, el cual despliega al lado derecho el conjunto de transacciones disponibles para ese Almacén, luego se elige la transacción **Asociar con Activos**, como se indica a continuación:
 
-![ detalle de materiales y repuestos ](../../assets/images/cap04/chp04_img17.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img22.png)
+_**Imagen 22.** Almacén - Ir a Asociar con Activos_
+
+Al ingresar, en el lado izquierdo se visualizan los Activos y en el derecho los Repuestos existentes en el almacén seleccionado previamente. Para navegar entre las páginas se debe dar clic al icono <span class="mdi mdi-unfold-more-vertical"></span> ubicado en la parte inferior derecha de cada recuadro:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img23.png)
+_**Imagen 23.** Almacén - Desplazarse en Asociar con Activos_
 
 La asociación de los Repuestos con los Activos, inicia al dar clic a los **check box**, que están al lado izquierdo en la primera columna de la porción de Activos y se puede seleccionar uno o  varios, luego se elige uno o varios Repuestos dando clic a los **check box** que serán asociados a los Activos seleccionados y se asigna la cantidad para cada Repuesto, **AM** asigna por defecto la cantidad 1, como se muestra a continuación:
 
