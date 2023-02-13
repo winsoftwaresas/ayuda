@@ -1,8 +1,6 @@
 ---
 title: Codificación de Repuestos
-subtitle: AM 4G está diseñado para trabajar un código de Repuestos de hasta 15
-  posiciones alfanuméricas, en esquema inteligente por niveles o en esquema de
-  codificación bruta.
+subtitle: Pautas básicas para codificar repuestos.
 tags:
   - setup
 author: win
