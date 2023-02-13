@@ -412,7 +412,7 @@ _**Imagen 24.** Historia - Mensaje alerta en Seguimiento y Cierre_
 ## Multimedia 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img54.png)
-_**Imagen 25.** Historia - Multimedia _
+_**Imagen 25.** Historia - Multimedia_
 
 En la gráfica anterior, Ventana Multimedia, se aprecian sus componentes y sus respectivos contenidos.
 A través de la ventana Multimedia se consulta o adjunta información adicional a la OT. Esta opción permite asociar a la OT uno o varios documentos, con el objetivo de registrar el trabajo realizado minuciosamente. **AM** acepta documentos de extensiones .DOC, XLS, PDF, JPG es decir, de Microsoft Word o Microsoft Excel, Acrobat o Imágenes.
