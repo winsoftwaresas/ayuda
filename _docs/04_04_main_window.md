@@ -1,6 +1,6 @@
 ---
 title: Ventana Principal de Almacén de Repuestos
-subtitle: Especifica el por qué y para que de las ventanas y opciones que presenta el programa en este campo.
+subtitle: Se explican los comandos y ventanas del módulo. 
 tags:
   - setup
 author: win
@@ -37,10 +37,10 @@ _**Imagen 4.** Ventana Detalle_
 
 En la gráfica anterior, ventana Detalle de Materiales y Repuestos se aprecian todos sus componentes y su  respectivo contenido.
  
-Se encuentra toda la información relevante de inventarios sobre el Repuesto seleccionado en el Visor.
-A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación:}
+Se encuentra toda la información relevante sobre el Repuesto seleccionado en el Visor.
+A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación:
 
-### I﻿nformación General
+### Información General
 
 **Repuesto:** En este campo se registra el código del Repuesto, de acuerdo a la política de codificación que se haya definido.
 
@@ -145,24 +145,24 @@ En la gráfica anterior, Vista Parcial de Características, se aprecian las dos 
 
 **Valor:** En  este campo se define  el  valor  de  la  característica correspondiente en la primera columna, en el cual es posible escribir su respectiva unidad de medida. 
 
-P﻿ara ingresar una caracteristica técnica al Repuesto dar clic en el botón <a class="btn blue">Adicionar Car. Técnica</a>
+Para ingresar una caracteristica técnica al Repuesto dar clic en el botón <a class="btn blue">Adicionar Car. Técnica</a>
 
-A﻿ continuación se muestra el formulario para ingresar la Característica:
+A continuación se muestra el formulario para ingresar la Característica:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img08.png)
 _**Imagen 8.** -Ingresar Característica - Formulario_
 
-L﻿a Característica Técnica se debe de seleccionar del listado que corresponde a su respectiva tabla de Infraestructura - Características, una vez ingresado el valor se debe dar un clic en el botón  <span class="mdi mdi-plus-circle icon white"></span>. Automáticamente el sistema la registra en la tabla de **Car. Técnica**.
+La Característica Técnica se debe de seleccionar del listado que corresponde a su respectiva tabla de Infraestructura - Características, una vez ingresado el valor se debe dar un clic en el botón  <span class="mdi mdi-plus-circle icon white"></span>. Automáticamente el sistema la registra en la tabla de **Car. Técnica**.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img09.png)
 _**Imagen 9.** Adicionar Característica_
 
-P﻿ara eliminar una registro se debe dar clic en el icono <span class="mdi mdi-delete"></span>. El sistema muestra un mensaje alerta para confirmar la transacción:
+Para eliminar una registro se debe dar clic en el icono <span class="mdi mdi-delete"></span>. El sistema muestra un mensaje alerta para confirmar la transacción:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img10.png)
 _**Imagen 10.** Adicionar Característica_
 
->﻿**Nota:** Para asentar los cambios de alguna modificación, añadir o eliminar una característica se debe dar clic en el botón <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a>.
+>**Nota:** Para asentar los cambios de alguna modificación, añadir o eliminar una característica se debe dar clic en el botón <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a>.
 
 
 ### Multimedia
@@ -202,8 +202,8 @@ De manera adicional u opcional se puede escribir un nombre en el siguiente campo
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img14.png)
 _**Imagen 14.** Almacén  - Nombrar Archivo_
 
-P﻿ara finalizar se debe de dar un clic en el el botón <a class="btn  blue">subir Archivo</a>. El sistema confirma a través de un mensaje que se ha subido el archivo satisfactoriamente.
- ﻿
+Para finalizar se debe de dar un clic en el el botón <a class="btn  blue">subir Archivo</a>. El sistema confirma a través de un mensaje que se ha subido el archivo satisfactoriamente.
+ 
 Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic sobre el nombre de una de las imágenes, se muestra la previsualización, como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img15.png)
@@ -216,7 +216,7 @@ _**Imagen 16.** Almacén - Desasociar un Archivo_
 
 Si se desea descargar un archivo adjunto, se debe dar clic en el ícono de nube con direccional hacia abajo <span class="mdi mdi-cloud-download icon white"></span> la nube con flecha hacia abajo que se encuentra al lado derecho del archivo que se quiere descargar.
 
->﻿_**Nota:** Este proceso es el mismo para cualquiera de las tres carpetas de Multimedia._
+>_**Nota:** Este proceso es el mismo para cualquiera de las tres carpetas de Multimedia._
 
 # Ventana Submenú de Repuestos
 
