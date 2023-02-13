@@ -1,7 +1,6 @@
 ---
 title: Conceptos Básicos sobre Almacenes, Materiales y Repuestos
-subtitle: Se trata de una bodega con capacidad de almacenamiento y con funciones
-  de administración para los distintos tipos de ítems que contiene.
+subtitle: Se trata de los tipos a administrar en AM.
 tags:
   - setup
 author: win
