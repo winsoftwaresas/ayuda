@@ -5,7 +5,7 @@ tags: [setup]
 author: win
 order: 10_05
 ---
-### Balance Periódico de Gestión
+
 
 Aunque no existe una opción o una función específica en ningún menú o submenú dentro de **AM** que especifique el tema Balance de Gestión, aquí se trata como una herramienta administrativa y de gerencia que debería ser utilizada periódica y disciplinadamente por un Gerente de Mantenimiento que quiera posicionar su área y su cargo, en un nivel realmente gerencial dentro de la organización.
 
