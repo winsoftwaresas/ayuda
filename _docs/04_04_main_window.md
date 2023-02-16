@@ -306,6 +306,11 @@ Al ingresar, en el lado izquierdo se visualizan los Activos y en el derecho los 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img23.png)
 _**Imagen 23.** Almacén - Desplazarse en Asociar con Activos_
 
+También se visualizan los indicadores <span class="mdi mdi-message-alert"></span> correspondientes de cada módulo, además se recomienda hacer subgrupos  <span class="mdi mdi-filter-variant"></span> para facilitar la asociación como se muestra a continuación:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img24.png)
+_**Imagen 24.** Almacén - Comandos Asociar con Activos_
+
 La asociación de los Repuestos con los Activos, inicia al dar clic a los **check box**, que están al lado izquierdo en la primera columna de la porción de Activos y se puede seleccionar uno o  varios, luego se elige uno o varios Repuestos dando clic a los **check box** que serán asociados a los Activos seleccionados y se asigna la cantidad para cada Repuesto, **AM** asigna por defecto la cantidad 1, como se muestra a continuación:
 
 ![ detalle de materiales y repuestos ](../../assets/images/cap04/chp04_img18.png)
