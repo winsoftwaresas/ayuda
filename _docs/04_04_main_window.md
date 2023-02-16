@@ -306,15 +306,16 @@ Al ingresar, en el lado izquierdo se visualizan los Activos y en el derecho los 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img23.png)
 _**Imagen 23.** Almacén - Desplazarse en Asociar con Activos_
 
-También se visualizan los indicadores <span class="mdi mdi-message-alert"></span> correspondientes de cada módulo, además se recomienda hacer subgrupos  <span class="mdi mdi-filter-variant"></span> para facilitar la asociación como se muestra a continuación:
+También se visualizan los indicadores <span class="mdi mdi-message-alert"></span> correspondientes de cada módulo, además se recomienda hacer subgrupos  <span class="mdi mdi-filter-variant"></span> para facilitar la asociación de cada lado, como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img24.png)
 _**Imagen 24.** Almacén - Comandos Asociar con Activos_
 
-La asociación de los Repuestos con los Activos, inicia al dar clic a los **check box**, que están al lado izquierdo en la primera columna de la porción de Activos y se puede seleccionar uno o  varios, luego se elige uno o varios Repuestos dando clic a los **check box** que serán asociados a los Activos seleccionados y se asigna la cantidad para cada Repuesto, **AM** asigna por defecto la cantidad 1, como se muestra a continuación:
+La asociación de los Repuestos con los Activos, inicia al dar clic a los **check box** <a class="btn black"><span class="mdi mdi-checkbox-blank-outline"></a>, que están al lado izquierdo en la primera columna de la porción de Activos y en la porción derecha de Repuestos. Es posible seleccionar uno o varios al tiempo, de esta manera los Repuestos que serán asociados al o los Activos seleccionados muestran la cantidad inicial (1) que es asociada por defecto. El usuario puede cambiar la cantidad del Repuesto a asociar dependiendo de las cantidades en Existencia en el inventario de AM, como se muestra a continuación:  
 
-![ detalle de materiales y repuestos ](../../assets/images/cap04/chp04_img18.png)
-
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img25.png)
+_**Imagen 25.** Almacén - Selección  Asociar con Activos_
+     
 Para terminar la transacción se da clic al botón `<a class="btn">`Asociar`</a>` inmediatamente se muestra un mensaje confirmando la ejecución de la transacción y se observa el resultado de la asociación realizada.
 
 ![activos](../../assets/images/cap04/chp04_img19.png)
