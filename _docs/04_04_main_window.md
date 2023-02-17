@@ -337,10 +337,16 @@ _**Imagen 28.** Almacén - Ver Repuesto asociado a Activos_
 
 >**Nota:** Si se eligen dos o más Repuestos, el sistema mostrará un mensaje indicando que solo se debe seleccionar un solo Repuesto.
 
-Si el usuario desea desasociar un Repuesto a uno o varios Activos, se deben elegir primero el Repuesto a través de los check box <a class="btn black"><span class="mdi mdi-checkbox-blank-outline"></a>, a continuación se ilustra un ejemplo:
+Si el usuario desea **Desasociar** un Repuesto a uno o varios Activos, se deben elegir primero el Repuesto a través de los check box <a class="btn black"><span class="mdi mdi-checkbox-blank-outline"></a>, a continuación se ilustra un ejemplo:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img28.png)
+_**Imagen 28.** Almacén - Seleccionar Repuesto asociado a Activos_
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img29.png)
+_**Imagen 29.** Almacén - Ver AC asociados_
 
 
+Para terminar la transacción **Desasociar** se da clic al botón a <a class="btn gray">desasociar</a>  inmediatamente se muestra un mensaje confirmando la ejecución de la transacción y se observa el resultado de la desasociación realizada.
 
-Para terminar la transacción se da clic al botón a `<a class="btn">`Desasociar`</a>`  inmediatamente se muestra un mensaje confirmando la ejecución de la transacción y se observa el resultado de la desasociación realizada.
-
-![activos](../../assets/images/cap04/chp04_img25.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img30.png)
+_**Imagen 30.** Almacén - Desasociar_
