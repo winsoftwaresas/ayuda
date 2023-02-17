@@ -267,7 +267,7 @@ _**Imagen 21.** Almacén - Subgrupo Materiales y Repuestos_
 
 **Código de Barras Interno:** Si existe un código de barras interno dentro de la organización para codificar Repuestos; este campo permite encontrar  el Repuesto  que se encuentre asociado al Código de Barras Interno que se ingresó al crear el Repuesto. En este campo se puede usar los comodines (%), Ejemplo: %1%, 1%.
 
-**Código de Barras Proveedor:**Permite encontrar el  Repuesto  que  se   encuentre asociado al Código de Barras del Proveedor que se ingresó al crear el Repuesto. En este campo se puede usar los comodines (%), Ejemplo: %1%, 1%.
+**Código de Barras Proveedor:** Permite encontrar el  Repuesto  que  se   encuentre asociado al Código de Barras del Proveedor que se ingresó al crear el Repuesto. En este campo se puede usar los comodines (%), Ejemplo: %1%, 1%.
 
 **Código del Repuesto:** Esta selección agrupa los Repuestos relacionados por su  código. Por ejemplo: si se escribe BAN%, se seleccionan todos los Repuestos cuyo  código inicia por BAN. Si se escribe TR%  se seleccionan todos los Repuestos cuyo código inicie por cualquier cuarteto de valores pero que en la quinta y sexta posición tengan un TR. El porcentaje es un carácter comodín que significa  “todos”.
 
@@ -290,6 +290,18 @@ _**Imagen 21.** Almacén - Subgrupo Materiales y Repuestos_
 
 
 ## Transacciones
+
+### Modificar Masivamente
+
+Esta transacción permite agregar o modificar conjuntamente información de un Subgrupo de Repuestos previamente seleccionados, como por ejemplo Estado, cambiar de Almacén, Unidad de Consumo, Clase, Proveedor, Clasificación A,B,C,O 
+
+
+Para acceder se requieren permisos correspondientes a "Masificar" en Almacén. Esta transacción es individual para cada Almacén por lo tanto en el Almacén que corresponda se debe sobreponer el cursor,  al lado derecho se despliega el conjunto de opciones disponibles, luego se elige la transacción **“Modificar Masivamente”.** como se muestra a continuación:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img31.png)
+_**Imagen 30.** Almacén - Desasociar_
+
+
 
 ### Asociar con Activos
 
@@ -339,14 +351,15 @@ _**Imagen 28.** Almacén - Ver Repuesto asociado a Activos_
 
 Si el usuario desea **Desasociar** un Repuesto a uno o varios Activos, se deben elegir primero el Repuesto a través de los check box <a class="btn black"><span class="mdi mdi-checkbox-blank-outline"></a>, a continuación se ilustra un ejemplo:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img28.png)
-_**Imagen 28.** Almacén - Seleccionar Repuesto asociado a Activos_
-
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img29.png)
-_**Imagen 29.** Almacén - Ver AC asociados_
+_**Imagen 29.** Almacén - Seleccionar Repuesto asociado a Activos_
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img30.png)
+_**Imagen 30.** Almacén - Ver AC asociados_
 
 
 Para terminar la transacción **Desasociar** se da clic al botón a <a class="btn gray">desasociar</a>  inmediatamente se muestra un mensaje confirmando la ejecución de la transacción y se observa el resultado de la desasociación realizada.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img30.png)
-_**Imagen 30.** Almacén - Desasociar_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img31.png)
+_**Imagen 31.** Almacén - Desasociar_
+
