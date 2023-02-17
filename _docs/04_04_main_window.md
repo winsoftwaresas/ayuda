@@ -323,26 +323,23 @@ Para terminar la transacción se da clic al botón ubicado en la parte inferior 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img26.png)
 _**Imagen 26.** Almacén - Asociar con Activos_
 
-Si el usuario desea ver los repuestos asociados a un Activo, se debe elegir un único Activo del lado izquierdo y se da clic al botón <a class="btn gray">ver rp asociados</a>, **AM** mostrará en el lado derecho los Repuestos que fueron asociados al Activo seleccionado, ejemplo:
+Si el usuario desea ver los repuestos asociados a un Activo, se debe elegir un único Activo del lado izquierdo y se da clic al botón inferior <a class="btn gray">ver rp asociados</a>, **AM** mostrará en el lado derecho los Repuestos que fueron asociados al Activo seleccionado, ejemplo:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img27.png)
-_**Imagen 27.** Almacén - Ver Activos asociados a Repuestos_
+_**Imagen 27.** Almacén - Ver Activo asociado a Repuestos_
 
-Si se eligen dos o más Activos, el sistema mostrará un mensaje indicando que solo se debe seleccionar un solo Activo.
+>**Nota:** Si se eligen dos o más Activos, el sistema mostrará un mensaje indicando que solo se debe seleccionar un solo Activo.
 
-![activos](../../assets/images/cap04/chp04_img21.png)
+Por otro lado, si el usuario desea ver la asociación que tiene un determinado Repuesto a Activos, se debe elegir un único Repuesto del lado derecho y se da clic al botón inferior <a class="btn gray">ver ac asociados</a> , **AM** mostrará en el lado izquierdo los Activos que tienen asociados el Repuesto seleccionado.
 
-Si el usuario desea ver la asociación de un Repuesto y los Activos asociados, se debe elegir un único Repuesto del lado derecho y se da clic al botón a `<a class="btn">`Ver RP Asociados`</a>`, **AM** mostrará en el lado izquierdo los Activos que tienen asociados el Repuesto seleccionado.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img28.png)
+_**Imagen 28.** Almacén - Ver Repuesto asociado a Activos_
 
-![activos](../../assets/images/cap04/chp04_img22.png)
+>**Nota:** Si se eligen dos o más Repuestos, el sistema mostrará un mensaje indicando que solo se debe seleccionar un solo Repuesto.
 
-Si se eligen dos o más Repuestos, el sistema mostrará un mensaje indicando que solo se debe seleccionar un solo Repuesto.
+Si el usuario desea desasociar un Repuesto a uno o varios Activos, se deben elegir primero el Repuesto a través de los check box <a class="btn black"><span class="mdi mdi-checkbox-blank-outline"></a>, a continuación se ilustra un ejemplo:
 
-![activos](../../assets/images/cap04/chp04_img23.png)
 
-Si el usuario desea desasociar uno o varios Repuestos a uno o varios Activos, se deben elegir a través de los check box.
-
-![activos](../../assets/images/cap04/chp04_img24.png)
 
 Para terminar la transacción se da clic al botón a `<a class="btn">`Desasociar`</a>`  inmediatamente se muestra un mensaje confirmando la ejecución de la transacción y se observa el resultado de la desasociación realizada.
 
