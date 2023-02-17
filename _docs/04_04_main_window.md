@@ -298,8 +298,10 @@ Esta transacción permite agregar o modificar conjuntamente información de un S
 
 Para acceder se requieren permisos correspondientes a "Masificar" en Almacén. Esta transacción es individual para cada Almacén por lo tanto en el Almacén que corresponda se debe sobreponer el cursor,  al lado derecho se despliega el conjunto de opciones disponibles, luego se elige la transacción **“Modificar Masivamente”.** como se muestra a continuación:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img31.png)
-_**Imagen 30.** Almacén - Desasociar_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img32.png)
+_**Imagen 32.** Almacén - Ir a Modificación Masiva_
+
+Una vez se ingrese se muestra de la siguiente forma:
 
 
 
