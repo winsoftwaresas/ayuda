@@ -315,10 +315,13 @@ La asociación de los Repuestos con los Activos, inicia al dar clic a los **chec
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img25.png)
 _**Imagen 25.** Almacén - Selección  Asociar con Activos_
-     
-Para terminar la transacción se da clic al botón `<a class="btn">`Asociar`</a>` inmediatamente se muestra un mensaje confirmando la ejecución de la transacción y se observa el resultado de la asociación realizada.
 
-![activos](../../assets/images/cap04/chp04_img19.png)
+En el ejemplo anterior se asociaron tres Repuestos diferentes, de cada uno una unidad para dos Activos.
+
+Para terminar la transacción se da clic al botón ubicado en la parte inferior <a class="btn gray">asociar</a> el cual se muestra una notificación confirmando la ejecución de la transacción y se observa el resultado de la asociación realizada de manera resumida asi:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img26.png)
+_**Imagen 26.** Almacén - Asociar con Activos_
 
 Si el usuario desea ver la asociación de un Activo y sus Repuestos asociados, se debe elegir un único Activo del lado izquierdo y se da clic al botón `<a class="btn">`Ver RP Asociados`</a>`, **AM** mostrará en el lado derecho los Repuestos que fueron asociados al Activo seleccionado.
 
