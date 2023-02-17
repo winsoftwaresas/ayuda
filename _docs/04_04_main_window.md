@@ -323,9 +323,10 @@ Para terminar la transacción se da clic al botón ubicado en la parte inferior 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img26.png)
 _**Imagen 26.** Almacén - Asociar con Activos_
 
-Si el usuario desea ver la asociación de un Activo y sus Repuestos asociados, se debe elegir un único Activo del lado izquierdo y se da clic al botón `<a class="btn">`Ver RP Asociados`</a>`, **AM** mostrará en el lado derecho los Repuestos que fueron asociados al Activo seleccionado.
+Si el usuario desea ver los repuestos asociados a un Activo, se debe elegir un único Activo del lado izquierdo y se da clic al botón <a class="btn gray">ver rp asociados</a>, **AM** mostrará en el lado derecho los Repuestos que fueron asociados al Activo seleccionado, ejemplo:
 
-![activos](../../assets/images/cap04/chp04_img20.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img27.png)
+_**Imagen 27.** Almacén - Ver Activos asociados a Repuestos_
 
 Si se eligen dos o más Activos, el sistema mostrará un mensaje indicando que solo se debe seleccionar un solo Activo.
 
