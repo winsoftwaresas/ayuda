@@ -352,6 +352,11 @@ _**Imagen 38.** Almacén - MM Unidad de Consumo_
 
 **Modificar Clase:** Se Modifica Masivamente la clase de un Repuesto/Material. El sistema muestra un campo para que el usuario digite la nueva clase.
 
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img39.png)
+_**Imagen 39.** Almacén - MM Clase_
+
+
+**Modificar Clasificación A, B, C, O:** Se Modifica Masivamente la clasificación A, B, C, O de un Repuesto/Material. El sistema muestra un campo para que el usuario digite la nueva clasificación A,B, C, O. Por defecto, se muestra un campo con la clasificación “O”.
 
 
 ### Asociar con Activos
