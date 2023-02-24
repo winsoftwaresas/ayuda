@@ -330,11 +330,24 @@ _**Imagen 35.** Almacén - Ventana Detalle Modificación Masiva_
  
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img36.png)
-_**Imagen 36.** Almacén - MM_
+_**Imagen 36.** Almacén - MM Modificar Estado_
 
 **Modificar Almacén:** Se modifica masivamente el Almacén, de los Repuestos y/o Materiales que están previamente registrados en el visor. El sistema lista los almacenes que se encuentran creados en la tabla de Almacenes en Infraestructura. Adicional, se debe dejar el switche en la posición de “Cambiar de Almacén”.
 
 
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img37.png)
+_**Imagen 37.** Almacén - MM Almacén_
+
+
+Cuando se requiera Copiar un Repuesto o Material existente en un Almacén a otro Almacén, se debe hacer solamente a través de esta funcionalidad, para ello se debe elegir en primer lugar el
+Almacén al cual se va a asociar el Repuesto/Material que se va a ingresar y en segundo lugar se debe llevar el switche a la posición de “Copiar y pegar a otro Almacén”.
+
+
+**Modificar Unidad de Consumo:** Se Modifica Masivamente la unidad de consumo de un Repuesto/Material. El sistema lista las unidades de medida que se encuentran creadas en la tabla de Unidades de Medida en Infraestructura.
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img38.png)
+_**Imagen 38.** Almacén - MM Unidad de Consumo_
 
 
 ### Asociar con Activos
