@@ -358,6 +358,9 @@ _**Imagen 39.** Almacén - MM Clase_
 
 **Modificar Clasificación A, B, C, O:** Se Modifica Masivamente la clasificación A, B, C, O de un Repuesto/Material. El sistema muestra un campo para que el usuario digite la nueva clasificación A,B, C, O. Por defecto, se muestra un campo con la clasificación “O”.
 
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img40.png)
+_**Imagen 40.** Almacén - MM Clase_
+
 
 ### Asociar con Activos
 
