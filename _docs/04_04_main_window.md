@@ -309,11 +309,23 @@ Una vez se ingrese se muestra de la siguiente forma:
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img33.png)
 _**Imagen 33.** Almacén - Visor Modificación Masiva_
 
-Para continuar dar un clic en el botón azul ubicado en la parte superior izquierda en la cual se muestra la Ventana Detalle de Modificación Masiva, asi:
+Para continuar dar un clic en el botón azul <a class="btn white">modificación masiva</a> ubicado en la parte superior izquierda como se indica a continuación:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img34.png)
-_**Imagen 34.** Almacén - Ventana Detalle Modificación Masiva_
+_**Imagen 34.** Almacén - Ir a Modificación Masiva_
+
+
+A continuación se da una breve explicación de los componentes de la ventana detalle de Modificación Masiva:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img35.png)
+_**Imagen 35.** Almacén - Ventana Detalle Modificación Masiva_
+
+**Modificar Solamente Este Repuesto:** Al escoger esta opción, se ejecutan los cambios marcados (Estado, Almacén, Unidad de Consumo, Clase, Clasificación A, B,C, O, y Proveedor) al Repuesto o Material que se encuentre seleccionado en el visor.
+
+
+**Modificar Todos los Repuestos en el Visor:** Al escoger esta opción, se ejecutan los cambios marcados (Estado, Almacén, Unidad de Consumo, Clase, Clasificación A, B,C, O, y Proveedor) a todos los Repuestos o Materiales que se encuentren en el visor.
+
 
  
 ### Asociar con Activos
