@@ -361,11 +361,17 @@ _**Imagen 39.** Almacén - MM Clase_
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img40.png)
 _**Imagen 40.** Almacén - MM Clasificación_
 
-**Modificar Proveedor 1:** Se Modifica Masivamente el Proveedor 1 de un conjunto de Repuestos/Materiales. El sistema lista los Proveedores que se encuentran creadas en la tabla de Terceros como tipo PF provenientes módulo de Infraestructura.
+**Modificar Proveedor 1:** Se Modifica Masivamente el Proveedor 1 de un conjunto de Repuestos/Materiales. El sistema lista los Proveedores que se encuentran creados en la tabla de Terceros como tipo PF provenientes módulo de Infraestructura.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img41.png)
 _**Imagen 41.** Almacén - MM Proveedor 1_
 
+
+**Modificar Proveedor 2:** Se Modifica Masivamente el Proveedor 2 de un conjunto o un subgrupo Repuestos/Mtaeriales. El sistema lista los Proveedores que se encuentran creados en la tabla de Terceros como tipo PF en el módulo de Infraestructura.
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img42.png)
+_**Imagen 42.** Almacén - MM Proveedor 2_
 
 ### Asociar con Activos
 
