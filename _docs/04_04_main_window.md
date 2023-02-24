@@ -299,7 +299,7 @@ Esta transacción permite agregar o modificar conjuntamente información de un S
 Para acceder se requieren permisos correspondientes a "Masificar" en Almacén. Esta transacción es individual para cada Almacén por lo tanto en el Almacén que corresponda se debe sobreponer el cursor,  al lado derecho se despliega el conjunto de opciones disponibles, luego se elige la transacción **“Modificar Masivamente”.** como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img32.png)
-_**Imagen 32.** Almacén - Ir a Modificación Masiva_
+_**Imagen 22.** Almacén - Ir a Modificación Masiva_
 
 
 >**Nota:** Para continuar con la transacción se debe hacer previamente un Subgrupo, bien sea en el visor de Modificación Masiva o previamente en el Visor del Almacén. 
@@ -307,19 +307,19 @@ _**Imagen 32.** Almacén - Ir a Modificación Masiva_
 Una vez se ingrese se muestra de la siguiente forma:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img33.png)
-_**Imagen 33.** Almacén - Visor Modificación Masiva_
+_**Imagen 23.** Almacén - Visor Modificación Masiva_
 
 Para continuar dar un clic en el botón azul <a class="btn white">modificación masiva</a> ubicado en la parte superior izquierda como se indica a continuación:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img34.png)
-_**Imagen 34.** Almacén - Ir a Modificación Masiva_
+_**Imagen 24.** Almacén - Ir a Modificación Masiva_
 
 
 A continuación se da una breve explicación de los componentes de la ventana detalle de Modificación Masiva una vez se escoja la opción <span class="mdi mdi-check-box-outline"></span> Ficha Técnica  como se muestra en la imagen: 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img35.png)
-_**Imagen 35.** Almacén - Ventana Detalle Modificación Masiva_
+_**Imagen 25.** Almacén - Ventana Detalle Modificación Masiva_
 
 **Modificar Solamente Este Repuesto:** Al escoger esta opción, se ejecutan los cambios marcados (Estado, Almacén, Unidad de Consumo, Clase, Clasificación A, B,C, O, y Proveedor) al Repuesto o Material que se encuentre seleccionado en el visor.
 
@@ -330,13 +330,13 @@ _**Imagen 35.** Almacén - Ventana Detalle Modificación Masiva_
  
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img36.png)
-_**Imagen 36.** Almacén - MM Modificar Estado_
+_**Imagen 26.** Almacén - MM Modificar Estado_
 
 **Modificar Almacén:** Se modifica masivamente el Almacén, de los Repuestos y/o Materiales que están previamente registrados en el visor. El sistema lista los almacenes que se encuentran creados en la tabla de Almacenes en Infraestructura. Adicional, se debe dejar el switche en la posición de “Cambiar de Almacén”.
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img37.png)
-_**Imagen 37.** Almacén - MM Almacén_
+_**Imagen 27.** Almacén - MM Almacén_
 
 
 Cuando se requiera Copiar un Repuesto o Material existente en un Almacén a otro Almacén, se debe hacer solamente a través de esta funcionalidad, para ello se debe elegir en primer lugar el
@@ -347,47 +347,47 @@ Almacén al cual se va a asociar el Repuesto/Material que se va a ingresar y en 
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img38.png)
-_**Imagen 38.** Almacén - MM Unidad de Consumo_
+_**Imagen 28.** Almacén - MM Unidad de Consumo_
 
 
 **Modificar Clase:** Se Modifica Masivamente la clase de un Repuesto/Material. El sistema muestra un campo para que el usuario digite la nueva clase.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img39.png)
-_**Imagen 39.** Almacén - MM Clase_
+_**Imagen 29.** Almacén - MM Clase_
 
 
 **Modificar Clasificación A, B, C, O:** Se Modifica Masivamente la clasificación A, B, C, O de un Repuesto/Material. El sistema muestra un campo para que el usuario digite la nueva clasificación A,B, C, O. Por defecto, se muestra un campo con la clasificación “O”.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img40.png)
-_**Imagen 40.** Almacén - MM Clasificación_
+_**Imagen 30.** Almacén - MM Clasificación_
 
 **Modificar Proveedor 1:** Se Modifica Masivamente el Proveedor 1 de un conjunto de Repuestos/Materiales. El sistema lista los Proveedores que se encuentran creados en la tabla de Terceros como tipo PF provenientes módulo de Infraestructura.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img41.png)
-_**Imagen 41.** Almacén - MM Proveedor 1_
+_**Imagen 31.** Almacén - MM Proveedor 1_
 
 
 **Modificar Proveedor 2:** Se Modifica Masivamente el Proveedor 2 de un conjunto o un subgrupo Repuestos/Mtaeriales. El sistema lista los Proveedores que se encuentran creados en la tabla de Terceros como tipo PF en el módulo de Infraestructura.
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img42.png)
-_**Imagen 42.** Almacén - MM Proveedor 2_
+_**Imagen 32.** Almacén - MM Proveedor 2_
 
 Para hacer efectiva la Modificación Masiva, una vez que se haya elegido cualquiera de las opciones anteriores, se debe dar clic en el botón de la parte superior <a class="btn blue">modificar <span class="mdi mdi-pencil"></span></a>, el sistema muestra el primer mensaje de advertencia para el usuario asi:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img43.png)
-_**Imagen 43.** Almacén - MM Mensaje Alerta 1_
+_**Imagen 33.** Almacén - MM Mensaje Alerta 1_
 
 Para continuar dar clic en el botón del mensaje alerta  <a class="btn white">aceptar</a>, a continuación por seguridad el sistema el segundo mensaje alerta:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img44.png)
-_**Imagen 44.** Almacén - MM Mensaje Alerta 2_
+_**Imagen 34.** Almacén - MM Mensaje Alerta 2_
 
 Para finalizar dar clic en <a class="btn white">aceptar</a>, el sistema confirma la transacción con el siguiente mensaje:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img45.png)
-_**Imagen 45.** Almacén - MM Mensaje Alerta 3_
+_**Imagen 35.** Almacén - MM Mensaje Alerta 3_
 
 
 
@@ -399,55 +399,55 @@ El comando Asociar a Activos del submenú Repuestos permite asociar un  Repuesto
 Para acceder a esta opción se debe contar con los permisos de Repuestos, y a continuación se sobrepone el cursor sobre el Almacén en cuestión, el cual despliega al lado derecho el conjunto de transacciones disponibles para ese Almacén, luego se elige la transacción **Asociar con Activos**, como se indica a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img22.png)
-_**Imagen 22.** Almacén - Ir a Asociar con Activos_
+_**Imagen 36.** Almacén - Ir a Asociar con Activos_
 
 Al ingresar, en el lado izquierdo se visualizan los Activos y en el derecho los Repuestos existentes en el almacén seleccionado previamente. Para navegar entre las páginas se debe dar clic al icono <span class="mdi mdi-unfold-more-vertical"></span> ubicado en la parte inferior derecha de cada recuadro:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img23.png)
-_**Imagen 23.** Almacén - Desplazarse en Asociar con Activos_
+_**Imagen 37.** Almacén - Desplazarse en Asociar con Activos_
 
 También se visualizan los indicadores <span class="mdi mdi-message-alert"></span> correspondientes de cada módulo, además se recomienda hacer subgrupos  <span class="mdi mdi-filter-variant"></span> para facilitar la asociación de cada lado, como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img24.png)
-_**Imagen 24.** Almacén - Comandos Asociar con Activos_
+_**Imagen 38.** Almacén - Comandos Asociar con Activos_
 
 La asociación de los Repuestos con los Activos, inicia al dar clic a los **check box** <a class="btn black"><span class="mdi mdi-checkbox-blank-outline"></a>, que están al lado izquierdo en la primera columna de la porción de Activos y en la porción derecha de Repuestos. Es posible seleccionar uno o varios al tiempo, de esta manera los Repuestos que serán asociados al o los Activos seleccionados muestran la cantidad inicial (1) que es asociada por defecto. El usuario puede cambiar la cantidad del Repuesto a asociar dependiendo de las cantidades en Existencia en el inventario de AM, como se muestra a continuación:  
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img25.png)
-_**Imagen 25.** Almacén - Selección  Asociar con Activos_
+_**Imagen 39.** Almacén - Selección  Asociar con Activos_
 
 En el ejemplo anterior se asociaron tres Repuestos diferentes, de cada uno una unidad para dos Activos.
 
 Para terminar la transacción se da clic al botón ubicado en la parte inferior <a class="btn gray">asociar</a> el cual se muestra una notificación confirmando la ejecución de la transacción y se observa el resultado de la asociación realizada de manera resumida asi:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img26.png)
-_**Imagen 26.** Almacén - Asociar con Activos_
+_**Imagen 40.** Almacén - Asociar con Activos_
 
 Si el usuario desea ver los repuestos asociados a un Activo, se debe elegir un único Activo del lado izquierdo y se da clic al botón inferior <a class="btn gray">ver rp asociados</a>, **AM** mostrará en el lado derecho los Repuestos que fueron asociados al Activo seleccionado, ejemplo:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img27.png)
-_**Imagen 27.** Almacén - Ver Activo asociado a Repuestos_
+_**Imagen 41.** Almacén - Ver Activo asociado a Repuestos_
 
 >**Nota:** Si se eligen dos o más Activos, el sistema mostrará un mensaje indicando que solo se debe seleccionar un solo Activo.
 
 Por otro lado, si el usuario desea ver la asociación que tiene un determinado Repuesto a Activos, se debe elegir un único Repuesto del lado derecho y se da clic al botón inferior <a class="btn gray">ver ac asociados</a> , **AM** mostrará en el lado izquierdo los Activos que tienen asociados el Repuesto seleccionado.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img28.png)
-_**Imagen 28.** Almacén - Ver Repuesto asociado a Activos_
+_**Imagen 42.** Almacén - Ver Repuesto asociado a Activos_
 
 >**Nota:** Si se eligen dos o más Repuestos, el sistema mostrará un mensaje indicando que solo se debe seleccionar un solo Repuesto.
 
 Si el usuario desea **Desasociar** un Repuesto a uno o varios Activos, se deben elegir primero el Repuesto a través de los check box <a class="btn black"><span class="mdi mdi-checkbox-blank-outline"></a>, a continuación se ilustra un ejemplo:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img29.png)
-_**Imagen 29.** Almacén - Seleccionar Repuesto asociado a Activos_
+_**Imagen 43.** Almacén - Seleccionar Repuesto asociado a Activos_
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img30.png)
-_**Imagen 30.** Almacén - Ver AC asociados_
+_**Imagen 44.** Almacén - Ver AC asociados_
 
 
 Para terminar la transacción **Desasociar** se da clic al botón a <a class="btn gray">desasociar</a>  inmediatamente se muestra un mensaje confirmando la ejecución de la transacción y se observa el resultado de la desasociación realizada.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img31.png)
-_**Imagen 31.** Almacén - Desasociar_
+_**Imagen 45.** Almacén - Desasociar_
 
