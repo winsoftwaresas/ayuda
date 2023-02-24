@@ -350,6 +350,10 @@ Almacén al cual se va a asociar el Repuesto/Material que se va a ingresar y en 
 _**Imagen 38.** Almacén - MM Unidad de Consumo_
 
 
+**Modificar Clase:** Se Modifica Masivamente la clase de un Repuesto/Material. El sistema muestra un campo para que el usuario digite la nueva clase.
+
+
+
 ### Asociar con Activos
 
 El comando Asociar a Activos del submenú Repuestos permite asociar un  Repuesto con el o los Activos a los que sirve. Esta asociación es opcional, pero es muy útil en caso de necesitar ubicar con facilidad aquellos Repuestos específicos que solo sirven a Activos específicos.
