@@ -291,7 +291,7 @@ _**Imagen 21.** Almacén - Subgrupo Materiales y Repuestos_
 
 ## Transacciones
 
-### Modificar Masivamente
+### Modificar Masivamente (MM)
 
 Esta transacción permite agregar o modificar conjuntamente información de un Subgrupo de Repuestos previamente seleccionados, como por ejemplo Estado, cambiar de Almacén, Unidad de Consumo, Clase, Proveedor, Clasificación A,B,C,O 
 
@@ -316,7 +316,7 @@ Para continuar dar un clic en el botón azul <a class="btn white">modificación 
 _**Imagen 34.** Almacén - Ir a Modificación Masiva_
 
 
-A continuación se da una breve explicación de los componentes de la ventana detalle de Modificación Masiva:
+A continuación se da una breve explicación de los componentes de la ventana detalle de Modificación Masiva una vez se escoja la opción <span class="mdi mdi-check-box-outline"></span> Ficha Técnica  como se muestra en la imagen: 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img35.png)
 _**Imagen 35.** Almacén - Ventana Detalle Modificación Masiva_
@@ -326,8 +326,17 @@ _**Imagen 35.** Almacén - Ventana Detalle Modificación Masiva_
 
 **Modificar Todos los Repuestos en el Visor:** Al escoger esta opción, se ejecutan los cambios marcados (Estado, Almacén, Unidad de Consumo, Clase, Clasificación A, B,C, O, y Proveedor) a todos los Repuestos o Materiales que se encuentren en el visor.
 
-
+**Modificar Estado:** Se modifica masivamente el estado Activo e Inactivo, de los Repuestos y/o Materiales que están previamente seleccionados en el visor. Los estados predefinidos son: Activo, I-Vencido, I-Otro, I-EOI (Excedente, Obsoleto e Inservible).
  
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img36.png)
+_**Imagen 36.** Almacén - MM_
+
+**Modificar Almacén:** Se modifica masivamente el Almacén, de los Repuestos y/o Materiales que están previamente registrados en el visor. El sistema lista los almacenes que se encuentran creados en la tabla de Almacenes en Infraestructura. Adicional, se debe dejar el switche en la posición de “Cambiar de Almacén”.
+
+
+
+
 ### Asociar con Activos
 
 El comando Asociar a Activos del submenú Repuestos permite asociar un  Repuesto con el o los Activos a los que sirve. Esta asociación es opcional, pero es muy útil en caso de necesitar ubicar con facilidad aquellos Repuestos específicos que solo sirven a Activos específicos.
