@@ -301,10 +301,21 @@ Para acceder se requieren permisos correspondientes a "Masificar" en Almacén. E
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img32.png)
 _**Imagen 32.** Almacén - Ir a Modificación Masiva_
 
+
+>**Nota:** Para continuar con la transacción se debe hacer previamente un Subgrupo, bien sea en el visor de Modificación Masiva o previamente en el Visor del Almacén. 
+
 Una vez se ingrese se muestra de la siguiente forma:
 
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img33.png)
+_**Imagen 33.** Almacén - Visor Modificación Masiva_
+
+Para continuar dar un clic en el botón azul ubicado en la parte superior izquierda en la cual se muestra la Ventana Detalle de Modificación Masiva, asi:
 
 
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img34.png)
+_**Imagen 34.** Almacén - Ventana Detalle Modificación Masiva_
+
+ 
 ### Asociar con Activos
 
 El comando Asociar a Activos del submenú Repuestos permite asociar un  Repuesto con el o los Activos a los que sirve. Esta asociación es opcional, pero es muy útil en caso de necesitar ubicar con facilidad aquellos Repuestos específicos que solo sirven a Activos específicos.
