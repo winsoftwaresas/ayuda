@@ -373,6 +373,24 @@ _**Imagen 41.** Almacén - MM Proveedor 1_
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img42.png)
 _**Imagen 42.** Almacén - MM Proveedor 2_
 
+Para hacer efectiva la Modificación Masiva, una vez que se haya elegido cualquiera de las opciones anteriores, se debe dar clic en el botón de la parte superior <a class="btn blue">modificar <span class="mdi mdi-pencil"></span></a>, el sistema muestra el primer mensaje de advertencia para el usuario asi:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img43.png)
+_**Imagen 43.** Almacén - MM Mensaje Alerta 1_
+
+Para continuar dar clic en el botón del mensaje alerta  <a class="btn white">aceptar</a>, a continuación por seguridad el sistema el segundo mensaje alerta:
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img44.png)
+_**Imagen 44.** Almacén - MM Mensaje Alerta 2_
+
+Para finalizar dar clic en <a class="btn white">aceptar</a>, el sistema confirma la transacción con el siguiente mensaje:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img45.png)
+_**Imagen 45.** Almacén - MM Mensaje Alerta 3_
+
+
+
 ### Asociar con Activos
 
 El comando Asociar a Activos del submenú Repuestos permite asociar un  Repuesto con el o los Activos a los que sirve. Esta asociación es opcional, pero es muy útil en caso de necesitar ubicar con facilidad aquellos Repuestos específicos que solo sirven a Activos específicos.
