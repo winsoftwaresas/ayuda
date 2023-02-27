@@ -451,3 +451,48 @@ Para terminar la transacción **Desasociar** se da clic al botón a <a class="bt
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img31.png)
 _**Imagen 45.** Almacén - Desasociar_
 
+### Reservas
+
+
+Es una transacción en Almacén llamada Reservas, la cual como su nombre lo indica permite registrar y cancelar reservas, del Repuesto o Material seleccionado en el visor. Estas Reservas son realizadas por el departamento de Mantenimiento, posibilitanfo definir el número de la OT que va a hacer el consumo del Repuesto Reservado.
+
+Para hacer reservas se requieren permisos previos de usuario del Almacén en cuestión para hacer reservas.
+
+Para acceder a esta transacción se sobrepone el cursor sobre el Almacén en cuestión y al lado derecho se despliega el conjunto de transacciones disponibles para ese almacén, luego se elige **“Reservas”** como se muestra a continuación:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img46.png)
+_**Imagen 46.** Almacén - Ir a Reservas_ 
+
+Al ingresar se visualiza la ventana Visor de Reservas, cada título en azul permite organizar la información ascendente/descendente. 
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img47.png)
+_**Imagen 47.** Almacén - Visor Reservas_ 
+
+Para el detalle de un registro se da clic sobre él y se muestra a continuación la Ventana Detalle de la Reserva:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img48.png)
+_**Imagen 48.** Almacén - Detalle Reservas_ 
+
+A continuación se describe cada campo:
+
+**Identificación:** Es el recuadro que contiene la información general de la reserva como código,Fecha de Creación, Fecha de u¿Sso, Estado de la reserva, Nombre de la persona que hace la reserva y número de OT.
+
+**Código:** Es asignado automáticamente por el sistema, consiste en un ordinal. Este campo no es modificable por el usuario.
+
+**Fecha de Creación:** Es la fecha en la que se realiza la reserva del Repuesto seleccionado en el visor. No se puede modificar. El programa la asigna desde la fecha del sistema.
+
+**Fecha de Uso:** Es la fecha en la que se tiene planeado utilizar el Repuesto seleccionado en el visor. De acuerdo con esta fecha, la persona encargada del Almacén debe mantener las unidades reservadas, disponibles sólo para quién registró la reserva. Se permite poner desde la fecha actual en adelante.
+
+**Estado:** Informa acerca del curso de la Reserva. Puede ser Activa, Finalizada o Cancelada. 
+
+>**Nota:** El estado Finalizada, solo se actualiza desde el módulo de Kárdex a través de la transacción de Salida tipo Reservas para la OT en cuestión (este tipo de salida se configura desde la tabla de infraestructura - Conceptos de Kardex).
+
+
+**Número de OT:** Este es un campo, obligatorio que exige un consecutivo de OT para hacer la reserva y así el Almacenista pueda ejecutar la transacción en el módulo de Kardex. Es posible escribir directamente el número de la OT o elegir una OT a través del Subgrupo al lado derecho del campo. <span class="mdi mdi-filter-variant"></span> el cual la ventana visor de Órdenes.
+
+**Cantidad:** Es el número de unidades del Repuesto que se desea Reservar.
+
+**Comentario:** Se pueden agregar aquí, observaciones o comentarios referentes a la reserva.
+
+**Adicionar Repuestos:**
