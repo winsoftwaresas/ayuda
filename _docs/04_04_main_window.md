@@ -495,4 +495,8 @@ A continuación se describe cada campo:
 
 **Comentario:** Se pueden agregar aquí, observaciones o comentarios referentes a la reserva.
 
-**Adicionar Repuestos:**
+A continuación se describe como adicionar Repuestos a la reserva:
+
+#### Adicionar Repuestos
+
+Esta opción permite definir los Repuestos que serán reservados. En la parte izquierda de la ventana aparece un nuevo Visor en el que irán apareciendo los Repuestos que se van creando en la ventana Detalle, mientras que en la parte derecha aparece los campos para crear o actualizar la información de los Repuestos a reservar. Para continuar dar clic en el botón 
