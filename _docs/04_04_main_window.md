@@ -499,4 +499,32 @@ A continuación se describe como adicionar Repuestos a la reserva:
 
 #### Adicionar Repuestos
 
-Esta opción permite definir los Repuestos que serán reservados. En la parte izquierda de la ventana aparece un nuevo Visor en el que irán apareciendo los Repuestos que se van creando en la ventana Detalle, mientras que en la parte derecha aparece los campos para crear o actualizar la información de los Repuestos a reservar. Para continuar dar clic en el botón 
+Esta opción permite definir los Repuestos que serán reservados. En la parte izquierda de la ventana aparece un nuevo Visor en el que irán apareciendo los Repuestos que se van creando en la ventana Detalle, mientras que en la parte derecha aparece los campos para crear o actualizar la información de los Repuestos a reservar. Para continuar dar clic en el botón <a class="btn gray">adicionar rp</a> y a continuación se abre el siguiente formulario:
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img49.png)
+_**Imagen 49.** Almacén - Adicionar RP Reservas_ 
+
+
+A continuación se describen los campos que componen esta porción de información adicional:
+
+
+**Código RP:** En este campo se elige el código del Repuesto, desde una ventana de selección de Repuestos  a través de un clic en el Subgrupo <span class="mdi mdi-filter-variant icon white"></span> que se encuentra al lado derecho del campo. Este comando trae el visor de Repuestos,  para añadir el Repuesto se debe dar un doble clic sobre la selección, luego de esto, aparece automáticamente diligenciados la descripción del Repuesto, la cantidad actual y la disponible.
+
+**Descripción RP:** En este campo se visualiza la información de la descripción del Repuesto seleccionado. No se puede modificar por parte del usuario.
+
+**Cantidad Actual:** En este campo se muestra la cantidad en existencia del Repuesto seleccionado. No se puede modificar por parte del usuario.
+
+**Cantidad Disponible:** En este campo se observa la cantidad disponible del Repuesto seleccionado, es decir, se visualiza la diferencia entre “Existencia Inventario” menos “Cantidad Reservada”. Este campo no es modificable por el usuario.
+
+**Cantidad a Reservar:** En este campo se define la cantidad que se desea reservar del Repuesto seleccionado. En caso de elegir una cantidad a reservar mayor a la cantidad disponible, el sistema muestra un mensaje de alerta indicando que la cantidad a reservar no está disponible.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img50.png)
+_**Imagen 50.** Almacén - Mensaje Alerta Reservas_
+
+Una vez diligenciado el formulario dar clic en el botón <span class="mdi mdi-plus-circle icon white"></span> se visualizan los repuestos en la parte izquierda que se van adicionando:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img51.png)
+_**Imagen 51.** Almacén - Repuestos Reservados_
+
+Para actualizar la cantidad o el Repuesto se debe dar clic sobre él   
