@@ -532,4 +532,9 @@ Para actualizar la cantidad del Repuesto de debe dar clic sobre él asegurándos
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img52.png)
 _**Imagen 52.** Almacén - Actualizar cantidad a Reservar_
 
+Para terminar la transacción, dar clic en el botón <a class="btn blue">Insertar <span class="mdi mdi-plus-circle-outline"></span></a> ubicado en la parte superior izquierda, el sistema abrirá un mensaje alerta antes de insertar la nueva reserva, para continuar <a class="btn white">aceptar</a>:
+
+
+
+
 
