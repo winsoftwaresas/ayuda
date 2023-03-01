@@ -94,7 +94,7 @@ _**Imagen 5.** Información General_
 
 **Unidad de Consumo:** Es la unidad mediante la cual se le solicita al Almacén o mediante la cual el Almacén despacha un determinado artículo.  Ej. Galones o Unidades.
 
-**Precio Venta 1, Precio Venta 2, Precio Venta 3:** Estos campos son utilizados de tipo información  para almacenar los precios actuales, anteriores y promedio del repuesto, estos campos son parametrizables en en el modúlo <a class="btn blue">administración</a> en la etiqueta **Almacén**, en la opción  “Manejo de Precios de Venta” y elegir la opción ** “SI”**.
+**Precio Venta 1, Precio Venta 2, Precio Venta 3:** Estos campos son utilizados de tipo información  para almacenar los precios actuales, anteriores y promedio del repuesto, estos campos son parametrizables en en el modúlo <a class="btn blue">administración</a> en la etiqueta **Almacén**, en la opción  “Manejo de Precios de Venta” y elegir la opción **“SI”**.
 
 
 ## Vistas Parciales / Pestañas
@@ -546,4 +546,13 @@ _**Imagen 54.** Almacén - Mensaje Error Insertar Reserva_
 
 Una vez se inserte la reserva el sistema muestra nuevamente el visor.
 
->**Nota:** Para actualizar una reserva para cambiar comentarios, añadir Repuestos o cambiar el estado del registro no debe estar en **Finalizada** 
+
+#### Inventario al Final del Mes
+
+Esta transacción se lleva a cabo para realizar el cierre de inventario del mes y consiste en tomar una fotografía del inventario hasta la fecha de realizar el cierre de inventario. 
+
+A esta opción se llega al sobreponer el cursor  sobre un almacén y al lado derecho se despliega el conjunto de transacciones disponibles para ese almacén, luego se elige la transacción “Inventario final del mes”.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img55.png)
+_**Imagen 55.** Almacén - Ir a Inventario_
+
