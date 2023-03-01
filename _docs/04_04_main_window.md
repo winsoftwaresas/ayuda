@@ -556,3 +556,8 @@ A esta opción se llega al sobreponer el cursor  sobre un almacén y al lado der
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img55.png)
 _**Imagen 55.** Almacén - Ir a Inventario_
 
+El proceso se realiza eligiendo la opción “Inventario final del mes”, se abre una ventana donde se muestran dos campos desplegables, uno para seleccionar el año y otro para el mes a realizar el cierre de inventario, respectivamente. Los meses que despliega son todos los meses del año. Se debe escoger el año correspondiente con el mes a cerrar, en el botón “Cerrar Inventario” y aparecerá una ventana solicitando confirmación de la operación a realizar, como se muestra a continuación.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img56.png)
+_**Imagen 56.** Almacén - Inventario_
+
