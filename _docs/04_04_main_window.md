@@ -522,9 +522,14 @@ A continuación se describen los campos que componen esta porción de informaci�
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img50.png)
 _**Imagen 50.** Almacén - Mensaje Alerta Reservas_
 
-Una vez diligenciado el formulario dar clic en el botón <span class="mdi mdi-plus-circle icon white"></span> se visualizan los repuestos en la parte izquierda que se van adicionando:
+Una vez diligenciado el formulario dar clic en el botón <span class="mdi mdi-plus-circle icon white"></span> en el cual se visualizan los repuestos en la parte izquierda en el orden que se adicionen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img51.png)
 _**Imagen 51.** Almacén - Repuestos Reservados_
 
-Para actualizar la cantidad o el Repuesto se debe dar clic sobre él   
+Para actualizar la cantidad del Repuesto de debe dar clic sobre él asegurándose de estar sombreado en verde:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img52.png)
+_**Imagen 52.** Almacén - Actualizar cantidad a Reservar_
+
+
