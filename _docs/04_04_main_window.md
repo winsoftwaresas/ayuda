@@ -287,6 +287,55 @@ _**Imagen 21.** Almacén - Subgrupo Materiales y Repuestos_
 
 >**Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos  se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además  es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber realizado una selección es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección se da un clic al botón <a class="btn white">Mas <span class="mdi mdi-plus-circle"></span></a> y luego en <a class="btn white">aceptar <span class="mdi mdi-check-circle"></span></a>.
 
+## Reportes
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img64.png)
+_**Imagen 64.** Almacén - Ir a Reportes_
+
+
+Este comando <span class="mdi mdi-printer"></span>  permite visualizar los reportes o informes de la información relacionada a los Repuestos/Materiales. Existen los siguientes tipos de reportes básicos disponibles:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img65.png)
+_**Imagen 65.** Almacén- Reportes_
+
+Los anteriores reportes pueden ser  seleccionados para uno o varios Activos/Equipos:
+
+**Todos los Registros:** Con esta opción se imprimen todos los reportes de los Activos/ Equipos existentes en la base de datos, sin importar si se ha realizado un subgrupo.
+
+**Registros del Visor:** Esta opción permite hacer una impresión de todos los Activos/ Equipos que están seleccionados en la Ventana Visor, es decir los registros que están seleccionados en el subgrupo actual.
+
+**Registro Seleccionado:** Esta opción permite hacer una impresión del Activo/Equipo que esta seleccionado en la Ventana Visor (el cursor verde se encuentra sobre él).
+
+**Subtítulo:** En este campo es posible registrar un poco menos de una línea de información, tipo documentación del Reporte, para que se imprima bajo el área de títulos estándar.
+
+Para visualizar los reportes, se da un clic sobre el reporte y luego al botón <a class="btn white">Imprimir</a>.
+.
+Para exportar un reporte se da un clic sobre el reporte y luego al botón <a class="btn white">exportar</a>. Esto descarga automáticamente en la estación cliente el reporte en formato excel.
+
+## Exportar
+
+Esta opción <span class="mdi mdi-download"></span> permite la exportación de los campos contenidos en la ficha técnica de los Activos/Equipos que aparecen en el visor, totales o provenientes de un subgrupo a un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso.
+
+Al ejecutar esta transacción, se abre una ventana como se muestra a continuación:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img27.png)
+_**Imagen 75.** Activos - Transacción Exportar_
+
+En la gráfica anterior, se aprecian sus componentes y sus respectivos contenidos.
+
+**Exportar Visor:** Esta opción exporta todos los Activos seleccionados en el visor mediante un subgrupo.
+
+**Exportar Todos los Registros:** Esta opción exporta todas los Activos existentes en la base de datos, sin importar cualquier subgrupo activo.
+
+Luego de escoger una de las opciones anteriores, en la parte inferior aparece seleccionado por defecto el recuadro de selección <a class="btn white"><span class="mdi mdi-checkbox-blank-outline"> exportar todos los campos</span></a> pero si se prefiere uno o algunos campos se debe des-seleccionar y a continuación hacer clic en los recuadros a exportar.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img28.png)
+_**Imagen 76.** Activos - Exportar Campos_
+
+Una vez elegida la información, dar clic en el botón inferior <a class="btn white">Exportar</a> el cual genera un archivo de Excel que se descarga automáticamente. El objetivo de esta exportación es llevar toda la información de los Activos a un archivo plano, para luego ser analizados.
+
+
+
 
 
 ## Transacciones
@@ -593,15 +642,15 @@ _**Imagen 60.** Almacén - DashBoard_
 La información del rectángulo de color naranja ubicado en la parte superior derecha como guía a modo de fracción (N/M), indica el número de registros del subgrupo en el visor(N) sobre el número total de registros de Activos exzx istentes en la base de datos (M). Si no hay preselección, los dos números en sus totales son los mismos.
 También un indicador de la existencia de un subgrupo, es el ícono <span class="mdi mdi-filter-variant"></span> con una pelota de color rojo que se ubica al lado derecho de dicha fracción.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img61.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img61.png)
 _**Imagen 61.** Almacén - Dashboard Subgrupos_
 
 Para personalizar la vista de los gráficos o tener una información específica se recomienda hacer subgrupos a través del ícono <span class="mdi mdi-filter-variant"></span>. Asimismo los DashBoards permiten ocultar información con solo dar un clic sobre sus rectángulos de colores como se muestra en la siguiente imagen:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img62.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img62.png)
 _**Imagen 62.** Almacén - Dashboard personalizado_
 
 Sí se desea restablecer la información, se debe dar clic al icono <span class="mdi mdi-autorenew"></span> (actualizar). En cambio, si se desea exportar el gráfico en un formato de imagen, es posible dando clic al ícono de la flecha hacia abajo <span class="mdi mdi-download"></span> como se muestra a continuación:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img63.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img63.png)
 _**Imagen 63.** Almacén - Dashboard comandos_
