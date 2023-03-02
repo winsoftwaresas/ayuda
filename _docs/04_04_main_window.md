@@ -559,10 +559,20 @@ _**Imagen 55.** Almacén - Ir a Inventario_
 El proceso se realiza eligiendo la opción “Inventario final del mes”, se abre una ventana donde se muestran dos campos desplegables, uno para seleccionar el año y otro para el mes a realizar el cierre de inventario, respectivamente. Los meses que despliega son todos los meses del año. Se debe escoger el año correspondiente con el mes a cerrar, en el botón “Cerrar Inventario” y aparecerá una ventana solicitando confirmación de la operación a realizar, como se muestra a continuación.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img56.png)
-_**Imagen 56.** Almacén - Inventario_
+_**Imagen 56.** Almacén - Detalle Inventario_
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img57.png)
-_**Imagen 57.** Almacén - Inventario_
+_**Imagen 57.** Almacén - Cerrie de Inventario_
  
+Para finalizar la transacción dar clic en el botón <a class="btn gray">cerrar inventario</a>
+ 
+ El sistema muestra un mensaje alerta confirmando la transacción:
 
- 
+ ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img58.png)
+_**Imagen 58.** Almacén - Mensaje Inventario_
+
+>**Nota:** Solo se puede ejecutar esta transacción una vez, de lo contrario el sistema muestra un aviso alerta.
+
+El cierre de inventario en **AM** no prohíbe su funcionamiento. Es decir, existen software que hasta no cerrar inventario, hasta que no pase de mes, no permite que se realice ingreso de información solo lo hacen de modo consulta. **AM** está habilitado para seguir su funcionamiento después de haberse ejecutado la transacción Inventario final del mes.
+Para la realización de este proceso, “Inventario final del mes”, se debe tener los permisos adecuados los cuales permiten ejecutar y volver a iniciar el proceso. Estos permisos se configuran por usuario en el módulo de Administración.
+
