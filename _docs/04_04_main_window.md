@@ -561,3 +561,8 @@ El proceso se realiza eligiendo la opción “Inventario final del mes”, se ab
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img56.png)
 _**Imagen 56.** Almacén - Inventario_
 
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img57.png)
+_**Imagen 57.** Almacén - Inventario_
+ 
+
+ 
