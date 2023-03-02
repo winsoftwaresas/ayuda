@@ -300,11 +300,11 @@ _**Imagen 65.** Almacén- Reportes_
 
 Los anteriores reportes pueden ser  seleccionados para uno o varios Activos/Equipos:
 
-**Todos los Registros:** Con esta opción se imprimen todos los reportes de los Activos/ Equipos existentes en la base de datos, sin importar si se ha realizado un subgrupo.
+**Todos los Registros:** Con esta opción se imprimen todos los reportes de los Repuestos/Materiales existentes en la base de datos, sin importar si se ha realizado un subgrupo.
 
-**Registros del Visor:** Esta opción permite hacer una impresión de todos los Activos/ Equipos que están seleccionados en la Ventana Visor, es decir los registros que están seleccionados en el subgrupo actual.
+**Registros del Visor:** Esta opción permite hacer una impresión de todos los Repuestos/Materiales que están seleccionados en la Ventana Visor, es decir los registros que están seleccionados en el subgrupo actual.
 
-**Registro Seleccionado:** Esta opción permite hacer una impresión del Activo/Equipo que esta seleccionado en la Ventana Visor (el cursor verde se encuentra sobre él).
+**Registro Seleccionado:** Esta opción permite hacer una impresión del Repuesto/Material que esta seleccionado en la Ventana Visor (el cursor verde se encuentra sobre él).
 
 **Subtítulo:** En este campo es posible registrar un poco menos de una línea de información, tipo documentación del Reporte, para que se imprima bajo el área de títulos estándar.
 
