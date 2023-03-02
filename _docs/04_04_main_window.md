@@ -295,7 +295,7 @@ _**Imagen 64.** Almacén - Ir a Reportes_
 
 Este comando <span class="mdi mdi-printer"></span>  permite visualizar los reportes o informes de la información relacionada a los Repuestos/Materiales. Existen los siguientes tipos de reportes básicos disponibles:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img65.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img65.png)
 _**Imagen 65.** Almacén- Reportes_
 
 Los anteriores reportes pueden ser  seleccionados para uno o varios Activos/Equipos:
@@ -318,7 +318,7 @@ Esta opción <span class="mdi mdi-download"></span> permite la exportación de l
 
 Al ejecutar esta transacción, se abre una ventana como se muestra a continuación:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img66.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img66.png)
 _**Imagen 66.** Almacén- Ir a Exportar_
 
 En la gráfica anterior, se aprecian sus componentes y sus respectivos contenidos.
@@ -329,10 +329,10 @@ En la gráfica anterior, se aprecian sus componentes y sus respectivos contenido
 
 Luego de escoger una de las opciones anteriores, en la parte inferior aparece seleccionado por defecto el recuadro de selección <a class="btn white"><span class="mdi mdi-checkbox-blank-outline"> exportar todos los campos</span></a> pero si se prefiere uno o algunos campos se debe des-seleccionar y a continuación hacer clic en los recuadros a exportar.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img28.png)
-_**Imagen 76.** Activos - Exportar Campos_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img67.png)
+_**Imagen 67.** Almacén- Exportar Campos_
 
-Una vez elegida la información, dar clic en el botón inferior <a class="btn white">Exportar</a> el cual genera un archivo de Excel que se descarga automáticamente. El objetivo de esta exportación es llevar toda la información de los Activos a un archivo plano, para luego ser analizados.
+Una vez elegida la información, dar clic en el botón inferior <a class="btn white">Exportar</a> el cual genera un archivo de Excel que se descarga automáticamente. El objetivo de esta exportación es llevar toda la información de los Repuestos/Materiales a un archivo plano, para luego ser analizados.
 
 
 
