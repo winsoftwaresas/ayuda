@@ -576,3 +576,32 @@ _**Imagen 58.** Almacén - Mensaje Inventario_
 El cierre de inventario en **AM** no prohíbe su funcionamiento. Es decir, existen software que hasta no cerrar inventario, hasta que no pase de mes, no permite que se realice ingreso de información solo lo hacen de modo consulta. **AM** está habilitado para seguir su funcionamiento después de haberse ejecutado la transacción Inventario final del mes.
 Para la realización de este proceso, “Inventario final del mes”, se debe tener los permisos adecuados los cuales permiten ejecutar y volver a iniciar el proceso. Estos permisos se configuran por usuario en el módulo de Administración.
 
+### DashBoard Almacén
+
+Esta transaccion permite ver indicadores gráficos básicos sobre la información de los Repuestos/Materiales. Para acceder a esta opción se sobrepone el cursor sobre el módulo de Almacén de interés, en el menú principal se despliega un submenú de transacciones disponibles y luego dar clic en “DashBoard Almacén”.
+
+ ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img59.png)
+_**Imagen 59.** Almacén - ir a DashBoard_
+
+
+Este comando permite visualizar en tiempo real el comportamiento de los Repuestos/Materiales con el fin de usarse como una herramienta para análisis y toma de decisiones rápidas.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img60.png)
+_**Imagen 60.** Almacén - DashBoard_
+
+
+La información del rectángulo de color naranja ubicado en la parte superior derecha como guía a modo de fracción (N/M), indica el número de registros del subgrupo en el visor(N) sobre el número total de registros de Activos exzx istentes en la base de datos (M). Si no hay preselección, los dos números en sus totales son los mismos.
+También un indicador de la existencia de un subgrupo, es el ícono <span class="mdi mdi-filter-variant"></span> con una pelota de color rojo que se ubica al lado derecho de dicha fracción.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img61.png)
+_**Imagen 61.** Activos - Dashboard Subgrupos_
+
+Para personalizar la vista de los gráficos o tener una información específica se recomienda hacer subgrupos a través del ícono <span class="mdi mdi-filter-variant"></span>. Asimismo los DashBoards permiten ocultar información con solo dar un clic sobre sus rectángulos de colores como se muestra en la siguiente imagen:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img32.png)
+_**Imagen 72.** Activos - Dashboard personalizado_
+
+Sí se desea restablecer la información, se debe dar clic al icono <span class="mdi mdi-autorenew"></span> (actualizar). En cambio, si se desea exportar el gráfico en un formato de imagen, es posible dando clic al ícono de la flecha hacia abajo <span class="mdi mdi-download"></span> como se muestra a continuación:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img33.png)
+_**Imagen 73.** Activos - Dashboard personalizado_
