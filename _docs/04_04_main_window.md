@@ -314,12 +314,12 @@ Para exportar un reporte se da un clic sobre el reporte y luego al botón <a cla
 
 ## Exportar
 
-Esta opción <span class="mdi mdi-download"></span> permite la exportación de los campos contenidos en la ficha técnica de los Activos/Equipos que aparecen en el visor, totales o provenientes de un subgrupo a un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso.
+Esta opción <span class="mdi mdi-download"></span> permite la exportación de los campos contenidos en la ficha técnica de los Repuestos/Materiales que aparecen en el visor, totales o provenientes de un subgrupo a un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso.
 
 Al ejecutar esta transacción, se abre una ventana como se muestra a continuación:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img27.png)
-_**Imagen 75.** Activos - Transacción Exportar_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img66.png)
+_**Imagen 66.** Almacén- Ir a Exportar_
 
 En la gráfica anterior, se aprecian sus componentes y sus respectivos contenidos.
 
