@@ -594,14 +594,14 @@ La información del rectángulo de color naranja ubicado en la parte superior de
 También un indicador de la existencia de un subgrupo, es el ícono <span class="mdi mdi-filter-variant"></span> con una pelota de color rojo que se ubica al lado derecho de dicha fracción.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img61.png)
-_**Imagen 61.** Activos - Dashboard Subgrupos_
+_**Imagen 61.** Almacén - Dashboard Subgrupos_
 
 Para personalizar la vista de los gráficos o tener una información específica se recomienda hacer subgrupos a través del ícono <span class="mdi mdi-filter-variant"></span>. Asimismo los DashBoards permiten ocultar información con solo dar un clic sobre sus rectángulos de colores como se muestra en la siguiente imagen:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img32.png)
-_**Imagen 72.** Activos - Dashboard personalizado_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img62.png)
+_**Imagen 62.** Almacén - Dashboard personalizado_
 
 Sí se desea restablecer la información, se debe dar clic al icono <span class="mdi mdi-autorenew"></span> (actualizar). En cambio, si se desea exportar el gráfico en un formato de imagen, es posible dando clic al ícono de la flecha hacia abajo <span class="mdi mdi-download"></span> como se muestra a continuación:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img33.png)
-_**Imagen 73.** Activos - Dashboard personalizado_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img63.png)
+_**Imagen 63.** Almacén - Dashboard comandos_
