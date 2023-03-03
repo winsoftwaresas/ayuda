@@ -345,7 +345,7 @@ _**Imagen 26.** Ir a AC_
 
 En caso de escribir el código con algún error, el sistema muestra un mensaje de alerta indicando que el Repuesto/Material no existe.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp0_img69.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img69.png)
 _**Imagen 27.** Mensaje Alerta - Ir a AC_
 
 
