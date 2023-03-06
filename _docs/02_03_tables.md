@@ -621,7 +621,7 @@ A continuación se describen los campos que componen el registro, sobre cada cam
 
 **Gasto Real ejecutado en OT pendientes:** En este campo se muestra el valor total del gasto real en OT cuyo estado se encuentra pendiente.
 
-## Multimedia Contratos
+###  Multimedia: Contratos
 
 Esta nueva funcionalidad permite asociar el Contrato de forma digital.
 
@@ -670,20 +670,26 @@ Si se desea descargar un archivo adjunto al Contrato, se debe dar clic en el ico
 _**Imagen 49.** Descargar archivo_
 
 
-## Tipos de Trabajo
+## Tipos de Trabajo (TT)
 
+El Tipo de Trabajo especifica la especialidad o especialidades técnicas: Mecánica, Eléctrica, Instrumentación/Electrónica u Otras requeridas para satisfacer el objetivo de una Órden de Trabajo.
 
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap02/chp02_img80.png)
+_**Imagen 50.** Visor Tipos de Trabajo_
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap02/chp02_img66.png)
-_**Imagen 50.** Visor Tipos de Trabajo
+En una Órden de Trabajo puede haberse definido una de estas especialidades o algunas de ellas o todas, ello es posible en el marco de un aplicativo Clase Mundial. 
 
+_>**Nota:** Esta tabla no es modificable a no ser que se trate de un usuario que tenga los respectivos permisos administrativos avanzados, en cuyo caso , el usuario deberá definir el mismo número de Tipos de Trabajo con el que cuenta la tabla original. Si se ha modificado esta tabla, su manejo y tales criterios ya no son garantizados por el aplicativo. Por estas razones WIN Software recomienda no modificar la tabla de Tipos de Trabajo. En caso de duda por favor comunicarse con el área de servicio al Cliente de WIN Software._
 
-## Tipos de Mantenimiento 
+## Tipos de Mantenimiento (TM)
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap02/chp02_img66.png)
-_**Imagen 51.** Visor Tipos de Mantenimiento
+Dependiendo de las actividades técnicas a realizar, esta tabla contiene los distintos tipos de Mantenimiento comúnmente aceptados e incluso definidos en la norma ISO 14224.
+Se encuentran tanto aquellos tipos de Mantenimiento que son reactivos, como los correctivos, otros que son proactivos y algunos Otros especiales que dependen de la táctica o estrategia de la organización de Mantenimiento,  WIN Software recomienda no modificar la tabla de Tipos de Mantenimiento. Existe la forma de definir variaciones de los tipos de Mantenimiento y enlazarse con los Tipos de Actividad para lograr combinaciones a la medida.
 
-## Tipos de Actividad
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap02/chp02_img81.png)
+_**Imagen 51.** Visor Tipos de Mantenimiento_
+
+## Tipos de Actividad (TA)
 
 El objetivo de esta tabla es registrar otros Tipos de Actividad. Los Tipos de Actividad  se usan para caracterizar aún más las Órdenes de Trabajo. Algunos  corresponden a Actividades de Mantenimiento como: Correctivo, Preventivo, Preventivo Manual, Predictivo, Inspección, Calibración; pero otros corresponden a actividades que no constituyen mantenimiento formalmente pero sí consumen recursos apreciables de los propios de Mantenimiento: Horas Hombre de Mano de Obra, Materiales y Repuestos y/o Servicios Externos.
 
