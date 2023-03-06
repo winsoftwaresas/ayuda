@@ -672,10 +672,16 @@ _**Imagen 49.** Descargar archivo_
 
 ## Tipos de Trabajo
 
-Pendiente
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap02/chp02_img66.png)
+_**Imagen 50.** Visor Tipos de Trabajo
+
+
 ## Tipos de Mantenimiento 
 
-pendiente
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap02/chp02_img66.png)
+_**Imagen 51.** Visor Tipos de Mantenimiento
 
 ## Tipos de Actividad
 
@@ -730,7 +736,7 @@ Donde los dos primeros caracteres significan:
 - **TV** Trabajos Varios
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap02/chp02_img53.png)
-_**Imagen 52.** Ventana Detalle Tipo de Actividad_
+_**Imagen 52.** Ventana Detalle Tipos de Actividad_
 
 En la gráfica anterior, Ventana Detalle del Tipo de Actividad, se aprecian sus componentes y sus respectivos contenidos. Se encuentra la información relevante al Tipo de Actividad seleccionado en el Visor.
 
