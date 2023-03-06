@@ -11,9 +11,8 @@
   - 02_01_introduction
   - 02_02_basic_concept
   - 02_03_tables
-  - 02_04_locations
-  - 02_05_kardex_concepts
-  - 02_06_operations
+  - 02_04_export
+  - 02_05_services
 
 - title: Activos
   docs:
@@ -29,7 +28,7 @@
   - 04_02_basic_concepts
   - 04_03_spare_coding
   - 04_04_main_window
-  - 04_05_export
+  
 
 - title: Kárdex
   docs:
