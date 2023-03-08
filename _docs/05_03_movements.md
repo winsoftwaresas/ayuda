@@ -1,29 +1,36 @@
 ---
 title: Movimientos de Kárdex
-subtitle:  En este modulo se encontrará la explicacion y el ejemplo visial de como se ve y para que sirve  cada ventana he icono que aparece en el sistema am 4g en la secccion de kardex.
+subtitle:  Explicación de comandos y demás características de los movimientos de Kárdex
 tags: [setup]
 author: win
 order: 05_03
 ---
 # Ventana Movimientos de Kárdex
 
-![ventana KX](../../assets/images/cap06/chp06_img05.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap05/chp05_img05.png)
+_**Imagen 4.** Kárdex - Ventana Detalle Movimientos_
 
-A esta ventana se llega haciendo clic sobre la pestaña ** “Movimientos”** ubicada al lado derecho de la pestaña principal ** “Documentos”** en Kárdex. A través de ella se ejecutan todas las funciones dedicadas a administrar el Movimiento de entrada, de salida, o de cualquier tipo de ajustes, de los Materiales y Repuestos contenidos en el Almacén o Almacenes de la compañía activa. A continuación se ilustran las porciones que la componen.
+A esta ventana se llega haciendo clic sobre la pestaña **“Movimientos”** ubicada al lado derecho de la pestaña principal **“Documentos”** en un registro de Kárdex. A través de ella se ejecutan todas las funciones dedicadas a administrar el Movimiento de Entrada, de Salida, o de cualquier tipo de Ajuste, de los Repuestos/Materiales contenidos en el Almacén o Almacenes de la compañía activa. A continuación se ilustran las porciones que la componen.
+
+Los movimientos a ingresar se habilitan según el tipo de Documento, es decir, si es un documento de Salida, el sistema sólo habilita movimientos de **salida**, configurados en la tabla de Infraestructura Conceptos de Kárdex. 
 
 ## Ventana Visor de Movimiento de Kárdex
 
-![ventana KX](../../assets/images/cap06/chp06_img06.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap05/chp05_img06.png)
+_**Imagen 5.** Kárdex - Ventana Detalle Movimientos_
 
-Desde esta ventana es posible observar los registros de Movimiento de Kárdex  para el Documento actualmente seleccionado que cumplen con el criterio de subgrupo  actual. En la  parte  superior  del  Visor  es posible visualizar el tipo de transacción que se realiza en ese Documento.
+Desde esta ventana es posible observar los registros de Movimiento de Kárdex  para el Documento actualmente seleccionado. En la parte  superior  del  Visor  es posible visualizar el tipo de transacción que se realiza en ese Documento.
 
-![detalle de kardex](../../assets/images/cap06/chp06_img07.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap05/chp05_img07.png)
+_**Imagen 6.** Kárdex - Comandos Ventana Detalle Movimientos_
 
-Al hacer clic sobre los iconos de `<span class="iconify btn" data-icon=alert-circle-outline>` admiración circulo, se muestra información adicional. Por ejemplo, al dar clic sobre el icono `<span class="iconify btn" data-icon=alert-circle-outline>`admiración circulo, que está al lado derecho del campo Código  RP, se observa el histórico de la información de los saldos de inventario de ese movimiento de Repuestos, es decir, los saldos de inventario que tenía ese ítem antes de la transacción, y los saldos de inventario con los que quedó ese ítem, luego de finalizar la transacción, que corresponde al después de la transacción. Si se requiere conocer los datos del durante la transacción, basta con ubicarse en el detalle del movimiento seleccionado y desplazarse con el scroll vertical, para visualizar los datos de ese movimiento de Repuestos.
 
-![detalle de documentos kardex](../../assets/images/cap06/chp06_img08.png)
+Al sobreponer el cursor sobre los iconos <span class="mdi mdi-alert-circle-outline"></span> se muestra información adicional. Por ejemplo, en el primero de ellos justo al lado derecho del campo Código RP, se observa el histórico de la información de los saldos de inventario de ese movimiento de Repuestos/Materiales, es decir, los saldos de inventario que tenía ese ítem antes de la transacción, y los saldos de inventario con los que quedó ese ítem, luego de finalizar la transacción, que corresponde al después de la transacción. Si se requiere conocer los datos del durante la transacción, basta con ubicarse en el detalle del movimiento seleccionado y desplazarse con la barra de desplazamiento horizontal, para visualizar los datos de ese movimiento de Repuestos.
 
-Por otra parte, al hacer clic sobre el icono `<span class="iconify btn" data-icon=alert-circle-outline>`admiración circulo, que está al lado derecho del campo CP, se observa el nombre del concepto de kárdex asociado a ese movimiento de Repuestos.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap05/chp05_img08.png)
+_**Imagen 7.** Kárdex - Comandos Ventana Detalle Movimientos_
+
+Por otra parte, al hacer clic sobre el icono <span class="mdi mdi-alert-circle-outline"></span>, que está al lado derecho del campo CP, se observa el nombre del concepto de kárdex asociado a ese movimiento de Repuesto/Material.
 
 ![detalle de documentos kardex](../../assets/images/cap06/chp06_img09.png)
 
