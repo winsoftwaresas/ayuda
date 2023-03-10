@@ -5,96 +5,43 @@ tags: [setup]
 author: win
 order: 05_03
 ---
-# Ventana Movimientos de Kárdex
+# Ventana Detalle Movimientos de Kárdex
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap05/chp05_img05.png)
 _**Imagen 4.** Kárdex - Ventana Detalle Movimientos_
 
-A esta ventana se llega haciendo clic sobre la pestaña **“Movimientos”** ubicada al lado derecho de la pestaña principal **“Documentos”** en un registro de Kárdex. A través de ella se ejecutan todas las funciones dedicadas a administrar el Movimiento de Entrada, de Salida, o de cualquier tipo de Ajuste, de los Repuestos/Materiales contenidos en el Almacén o Almacenes de la compañía activa. A continuación se ilustran las porciones que la componen.
+A esta ventana se llega haciendo clic sobre la pestaña **“Movimientos”** ubicada al lado derecho de la pestaña principal **“Documentos”** en un registro de Kárdex. A través de ella se ejecutan todas las funciones dedicadas a administrar el Movimiento de Entrada, de Salida, o de cualquier tipo de Ajuste, de los Materiales y Repuestos contenidos en el Almacén o Almacenes de la compañía activa. A continuación se ilustran las porciones que la componen.
 
 Los movimientos a ingresar se habilitan según el tipo de Documento, es decir, si es un documento de Salida, el sistema sólo habilita movimientos de **salida**, configurados en la tabla de Infraestructura Conceptos de Kárdex. 
 
-## Ventana Visor de Movimiento de Kárdex
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap05/chp05_img06.png)
-_**Imagen 5.** Kárdex - Ventana Detalle Movimientos_
-
 Desde esta ventana es posible observar los registros de Movimiento de Kárdex  para el Documento actualmente seleccionado. En la parte  superior  del  Visor  es posible visualizar el tipo de transacción que se realiza en ese Documento.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap05/chp05_img07.png)
-_**Imagen 6.** Kárdex - Comandos Ventana Detalle Movimientos_
+A continuación se describen los campos que  componen el registro.  Sobre cada campo se da una breve explicación.
 
+**Código RP:** Especifica el Código o Referencia del Material o Repuesto que fue objeto del movimiento de entrada o salida, según se elija en el  visor de Materiales y Repuestos, que se muestra al dar clic en el icono de subgrupo  <span class="mdi mdi-filter-variant icon white"></span> ubicado en la parte superior derecha. También es posible insertar un Material o Repuesto escribiendo directamente el Código o Referencia del Repuesto exacta en el campo Código RP y para finalizar se presiona la tecla tabular.
 
-Al sobreponer el cursor sobre los iconos <span class="mdi mdi-alert-circle-outline"></span> se muestra información adicional. Por ejemplo, en el primero de ellos justo al lado derecho del campo Código RP, se observa el histórico de la información de los saldos de inventario de ese movimiento de Repuestos/Materiales, es decir, los saldos de inventario que tenía ese ítem antes de la transacción, y los saldos de inventario con los que quedó ese ítem, luego de finalizar la transacción, que corresponde al después de la transacción. Si se requiere conocer los datos del durante la transacción, basta con ubicarse en el detalle del movimiento seleccionado y desplazarse con la barra de desplazamiento horizontal, para visualizar los datos de ese movimiento de Repuestos.
+Al terminar de digitar o elegir el Material o Repuesto,  se  muestra la siguiente información automática de los siguientes campos:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap05/chp05_img08.png)
-_**Imagen 7.** Kárdex - Comandos Ventana Detalle Movimientos_
+Descripción RP, \$ Unit  y \$Unit  del AL. También, al dar clic sobre el icono <span class="mdi mdi-alert-circle-outline"></span>
+aparece un cuadro llamado <a class="btn black"><span class="mdi mdi-swap-vertical-circle">Antes de la Transacción</span></a>, está al lado derecho de este campo y muestra la información del saldo de inventario actual de ese ítem antes de la transacción, una vez se finaliza la transacción del movimiento, se muestra un cuadro adicional llamado  <a class="btn black"><span class="mdi mdi-swap-vertical-circle">después de la Transacción</span></a> y muestra la información del saldo de inventario actual con la que quedó el ítem, luego de finalizarse la transacción.
 
-Por otra parte, al hacer clic sobre el icono <span class="mdi mdi-alert-circle-outline"></span>, que está al lado derecho del campo CP, se observa el nombre del concepto de kárdex asociado a ese movimiento de Repuesto/Material.
+La información contenida en el cuadro <a class="btn black"><span class="mdi mdi-swap-vertical-circle">Antes de la Transacción</span></a> es:
 
-![detalle de documentos kardex](../../assets/images/cap06/chp06_img09.png)
+- **Cantidad Actual:** Muestra la cantidad actual en existencia en el almacén del Repuesto  o Material antes del movimiento que se va a registrar. Es un campo que solo despliega datos.
 
-Al  finalizar una transacción de movimiento de Repuestos, todos los registros se observan en color gris y bloqueados, los cuales se convierten en registros de solo consulta. No es posible eliminar los registros de las transacciones de kárdex, una vez han sido ingresadas en el módulo.
+- **Cantidad Disponible:** Muestra la cantidad disponible en el almacén del Repuesto o Material para su consumo, antes del movimiento que se va a registrar. Es un campo que solo despliega datos.
 
-![detalle de documentos kardex](../../assets/images/cap06/chp06_img10.png)
+- **Costo Unitario:** Muestra el valor unitario actual del Material o Repuesto antes del movimiento que se va a registrar. Es un campo que solo despliega datos.
 
-Para eliminar un registro de movimiento de Repuestos, solo se permite hacerlo, durante la creación del mismo, para esto se debe movilizar hasta el final del lado derecho usando el scroll vertical, al dar clic al `<span class="iconify btn" data-icon=delete>`eliminar (basura), sale un mensaje de alerta indicándole al usuario si está seguro de eliminar el registro y finalmente se da clic en `<a class="btn">`Aceptar `</a>`.
+La información contenida en el cuadro  <a class="btn black"><span class="mdi mdi-swap-vertical-circle">después de la Transacción</span></a> es:
 
-![detalle de documentos kardex](../../assets/images/cap06/chp06_img11.png)
+- **Cantidad Actual:** Muestra la cantidad actual en existencia en el almacén del Material o Repuesto, después del movimiento registrado. Es un campo que solo despliega datos.
 
-Para crear un nuevo movimiento se da clic en el `<span class="iconify btn" data-icon=filter-variant>`icono de filtro, ubicado en la parte superior derecha, seguidamente se abre una nueva ventana con el visor de los Materiales y Repuestos, en donde es posible seleccionar uno o varios. Para seleccionar un solo Material o Repuesto basta con dar doble clic al ítem o seleccionarlo y luego dar clic al botón `<a class="btn">` “Adicionar RP”`</a>`., mientras que si se desea seleccionar varios ítems se puede realizar a través de la combinación de teclas control+clic en cada uno de los Materiales o Repuestos a ser seleccionados, luego dar clic al botón  `<a class="btn">` “Adicionar RP”`</a>`; de cualquiera de las formas de seleccionar los Materiales y Repuestos, se visualiza todos los ítems de manera independiente en la ventana Detalle del movimiento, con el fin de diligenciar la información del movimiento a cada uno de ellos. Para mayor detalle de la información, dirigirse al capítulo 2.2 Ventana Detalle de este manual.
+- **Cantidad Disponible:** Muestra la cantidad disponible en el almacén del Material o Repuesto para su consumo, después del movimiento registrado. Es un campo que solo despliega datos.
 
-![detalle de documentos kardex](../../assets/images/cap06/chp06_img12.png)
+- **Costo Unitario:** Muestra el valor unitario actual del Material o Repuesto, después del movimiento registrado. Es un campo que solo despliega datos.
 
-También, es posible crear movimientos, al hacer clic en el boton `<span class="iconify btn" data-icon="mdi-plus-circle">`Más, ubicado en la parte superior derecha, seguidamente se visualiza que se crea una nueva fila en la última posición de la lista o en la primera posición, en el caso de tratarse del primer registro de movimiento en el documento.
-
-![detalle de documentos kardex](../../assets/images/cap06/chp06_img13.png)
-
-Por otro lado, el botón  `<a class="btn">` “Insertar Movimientos `</a>` se usa para insertar uno o varios registros de movimientos de Materiales o Repuestos, una vez diligenciados todos los campos de la ventana Detalle del movimiento de cada item, se da clic en este botón, con el fin de insertarlos todos juntos en la BD de **AM**. Además, si se desea se puede usar el botón `<a class="btn">` “Insertar Movimientos `</a>` para ir insertando el movimiento de un material o Repuesto uno a uno.
-
-![detalle de documentos kardex](../../assets/images/cap06/chp06_img14.png)
-
-Finalmente, el botón de `<a class="btn">`Despachar reservas `</a>`, ubicado en la parte superior derecha, solo es visible en los documentos de transacción tipo Salidas. Al dar clic a este botón, se abre una nueva ventana que muestra el visor de las Reservas de los Materiales o Repuestos que se han generado, con el objetivo de poder despacharlas a través de esta nueva funcionalidad.
-
-![detalle de documentos kardex](../../assets/images/cap06/chp06_img15.png)
-
-Para continuar con el proceso de despacho de reservas de Materiales o Repuestos, se debe elegir de la ventana mostrada anteriormente, la reserva a despachar dando doble clic directamente al registro o seleccionar el registro y luego dar clic al botón `<a class="btn">`Despachar RV `</a>`.
-
-![detalle de documentos kardex](../../assets/images/cap06/chp06_img16.png)
-
-Inmediatamente, se observa que esta ventana se cierra y en el visor de movimientos de kárdex se muestra el ítem seleccionado, para proceder a diligenciar la información del movimiento de salida, en el campo Cantidad se registra el número de unidades reales a despachar. Si  la  reserva tiene  asociada  una  OT,  esta  OT   se  asocia  al movimiento de Kárdex y en la matriz de Gasto Real de Materiales y Repuestos de la OT se agrega un registro por la cantidad despachada del Repuesto.
-
-Si se requiere Cancelar reservas, se debe hacer desde el módulo de Almacén de Repuestos a través de la transacción  “Reservas”. Para mayor detalle, consultar la funcionalidad en el módulo de Almacén de Repuestos en la transacción de Reservas.
-
-## Ventana Detalle
-
-![detalle de documentos kardex](../../assets/images/cap06/chp06_img17.png)
-
-La ventana Detalle se encuentra ubicada en la pestaña Movimientos, a esta ventana se llega, al dar clic en dicha pestaña. En  esta  ventana  se  encuentra  toda  la  información  relevante  al  registro  de  movimiento de Repuestos. A  continuación se describen los campos que  componen el registro.  Sobre cada campo se da una breve explicación.
-
-**Código RP:** Especifica el Código o Referencia del material o repuesto que fue objeto  del movimiento de entrada o salida, según se elija en la ventana visor de Materiales y Repuestos, que se muestra al dar clic en el `<span class="iconify btn" data-icon=filter-variant>`icono de filtro ubicado en la parte superior derecha. Es posible escribir directamente el Código o Referencia del Repuesto exacta en el campo Código RP, al finalizar de escribir el Código o Referencia, se presiona la tecla tabular.
-
-Al terminar de digitar o elegir el Repuesto,  se  muestra información automática del Repuesto de los siguientes campos:
-
-Descripción RP, \$ Unit  y Unit \$ del AL. También, al dar clic sobre el icono de `<span class="iconify btn" data-icon=alert-circle-outline>`admiración circulo aparece un cuadro llamado ** “Antes de la transacción”**, está al lado derecho de este campo y muestra la información del saldo de inventario actual de ese ítem antes de la transacción, una vez se finaliza la transacción del movimiento, se muestra un cuadro adicional llamado  “Después de la transacción” y muestra la información del saldo de inventario actual con la que quedó el ítem, luego de finalizarse la transacción.
-
-La información contenida en el cuadro ** “Antes de la Transacción”** es la siguiente:
-
-**Cantidad Actual:** Muestra la cantidad actual en existencia en el almacén, del  repuesto  o material, antes del movimiento que se va a registrar. Es un campo que solo despliega datos.
-
-**Cantidad Disponible:** Muestra la cantidad disponible en el almacén, del repuesto o material para su consumo, antes del movimiento que se va a registrar. Es un campo que solo despliega datos.
-
-**Costo Unitario:** Muestra el valor unitario actual del repuesto o  material, antes del movimiento que se va a registrar. Es un campo que solo despliega datos.
-
-La información contenida en el cuadro  “Después de la Transacción” es la siguiente:
-
-**Cantidad Actual:** Muestra la cantidad actual en existencia en el almacén, del  repuesto  o materia, después del movimiento registrado. Es un campo que solo despliega datos.
-
-**Cantidad Disponible:** Muestra la cantidad disponible en el almacén, del repuesto o material para su consumo, después del movimiento registrado. Es un campo que solo despliega datos.
-
-**Costo Unitario:** Muestra el valor unitario actual del repuesto o  material, después del movimiento registrado. Es un campo que solo despliega datos.
-
-**Descripción RP:** Especifica la descripción del material o repuesto que fue objeto  del movimiento de entrada o salida.  Es un campo que solo despliega datos y no es modificable por el usuario, por ello se observa bloqueado.
+**Descripción RP:** Especifica la descripción del Material o Repuesto que fue objeto  del movimiento de entrada o salida.  Es un campo que solo despliega datos y no es modificable por el usuario, por ello se observa bloqueado.
 
 **CP:** Especifica el código del concepto de kárdex seleccionado. Al dar clic en el campo, se muestra la lista en la que se debe elegir el concepto de kárdex por el cual se realiza el movimiento. La lista se crea de acuerdo al tipo de conceptos que contiene el documento. Ej. Sí el tipo de conceptos que contiene el documento es de  salida, los conceptos que se muestran en la lista son de salida. Los conceptos se definen en la tabla de Conceptos de Kárdex en el módulo de Infraestructura. También, al hacer clic sobre el icono de `<span class="iconify btn" data-icon=alert-circle-outline>`admiración circulo, que está al lado derecho de este campo, se observa el nombre del concepto de kárdex asociado a ese movimiento de Repuestos.
 
@@ -127,6 +74,62 @@ La información contenida en el cuadro  “Después de la Transacción” es la 
 ![detalle de documentos kardex](../../assets/images/cap06/chp06_img18.png)
 
 Para eliminar un registro de transacción, se ubica el registro a eliminar, para ello se debe movilizar hasta el final del lado derecho usando el scroll vertical, al dar clic al icono de `<span class="iconify btn" data-icon=delete>`eliminar (basura), sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en `<a class="btn">`Aceptar `</a>`. Solamente es posible eliminar los registros de movimientos, cuando está en modo de inserción.
+
+Al sobreponer el cursor sobre los iconos <span class="mdi mdi-alert-circle-outline"></span> se muestra información adicional. 
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap05/chp05_img07.png)
+_**Imagen 5.** Kárdex - Comandos Ventana Detalle Movimientos_
+
+
+Por ejemplo, en el primero de ellos justo al lado derecho del campo Código RP, se observa el histórico de la información de los saldos de inventario de ese movimiento de Repuestos/Materiales, es decir, los saldos de inventario que tenía ese ítem antes de la transacción, y los saldos de inventario con los que quedó ese ítem, luego de finalizar la transacción, que corresponde al después de la transacción. Si se requiere conocer los datos del durante la transacción, basta con ubicarse en el detalle del movimiento seleccionado y desplazarse con la barra de desplazamiento horizontal, para visualizar los datos de ese movimiento de Repuestos.
+
+Por otra parte, al hacer clic sobre el icono <span class="mdi mdi-alert-circle-outline"></span>, que está al lado derecho del campo CP, muestra el nombre del concepto de kárdex asociado a ese movimiento de Repuesto/Material, como se muestra a continuación:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap05/chp05_img08.png)
+_**Imagen 6.** Kárdex - Comandos Ventana Detalle Movimientos_
+
+Al finalizar una transacción a través del botón <a class="btn blue">insertar movimientos</a> de movimiento de Repuestos, todos los registros se observan en color gris y bloqueados, los cuales se convierten en registros de solo consulta. No es posible eliminar los registros de las transacciones de kárdex, una vez han sido ingresadas en el módulo:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap05/chp05_img09.png)
+_**Imagen 7.** Kárdex - Consulta Movimientos_
+
+
+Para eliminar un registro de movimiento de Repuestos/Materiales, solo se permite hacer durante la creación del mismo (antes de insertarlo), para esto se debe ir con la barra de desplazamiento vertical hasta el final del lado derecho para dar clic al botón eliminar <span class="mdi mdi-delete"></span>, el cual muestra un mensaje de alerta indicándole al usuario si está seguro de eliminar el registro y finalmente para continuar <a class="btn white">Aceptar</a> :
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap05/chp05_img10.png)
+_**Imagen 8.** Kárdex - Eliminar Movimiento_
+
+
+## Crear nuevo movimiento
+
+
+Para ingresar un nuevo movimiento al Documento en cuestión, se da clic en el Subgrupo <span class="mdi mdi-filter-variant icon white"></span>  ubicado en la parte superior derecha, éste abre una nueva ventana con el visor de los Materiales y Repuestos. 
+
+Para seleccionar un solo Material o Repuesto basta con dar doble clic al ítem o seleccionarlo y luego dar clic al botón <a class="btn white">adicionar rp</a> de cualquiera de las formas de seleccionar los Materiales y Repuestos, se visualiza todos los ítems de manera independiente en la ventana Detalle del movimiento, con el fin de diligenciar la información del movimiento a cada uno de ellos.  
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap05/chp05_img11.png)
+_**Imagen 9.** Kárdex - Ir a Subgrupo de Materiales y Repuestos_
+
+
+También, es posible crear movimientos, al hacer clic en el boton <span class="mdi mdi-plus-circle icon white"></span>, ubicado en la parte superior derecha, el cual inserta una fila en la última posición de la lista o en la primera posición, en el caso de tratarse del primer registro de movimiento en el documento, una vez que se haga efectiva la creación del movimiento se muestra el siguinete mensaje:
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap05/chp05_img12.png)
+_**Imagen 10.** Kárdex - Mensaje Alerta Nuevo Movimiento_
+
+
+Por otro lado, el botón  <a class="btn gray">insertar movimientos</a>
+se usa para insertar uno o varios registros de movimientos de Materiales o Repuestos, una vez que se diligencien todos los campos de la ventana Detalle del movimiento de cada item, en la base de datos. 
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap05/chp05_img13.png)
+_**Imagen 11.** Kárdex - Añadir nuevo movimiento_
+
+
+
+## Ventana Detalle
+
+
 
 ## Ajustar Inventario
 
