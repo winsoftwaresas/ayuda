@@ -29,7 +29,6 @@
   - 04_03_spare_coding
   - 04_04_main_window
   
-
 - title: Kárdex
   docs:
   - 05_01_introduction
@@ -43,7 +42,6 @@
   - 07_02_basic_concepts
   - 07_03_services
   
-
 - title: Paros
   docs:
   - 08_01_introduction
@@ -66,7 +64,7 @@
   - 10_03_send_to_history
   - 10_04_main_window
   - 10_05_periodic_management_balance
-   
+ 
 - title: Programas de mantenimiento
   docs:
   - 11_01_introduction
@@ -95,3 +93,11 @@
   - 15_09_amsi_administration_access
   - 15_10_user_settings
   - 15_11_logout
+
+- title: AMóvil
+  docs:
+  - 16_01_introduction
+  - 16_02_assets
+  - 16_03_warehouse
+  - 16_04_service_requests
+  - 16_05_work_orders

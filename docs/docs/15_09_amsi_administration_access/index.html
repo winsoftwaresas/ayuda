@@ -1,0 +1,2021 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Acceso Administración AMsi | AM</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Acceso Administración AMsi" />
+<meta name="author" content="win" />
+<meta property="og:locale" content="es" />
+<meta name="description" content="Se define el acceso al aplicativo y comandos del menú principal para el Administrador del sistema. Se configuran criterios, preferencias, particularidades y modos de visualización de la información en los formularios básicos del aplicativo al igual que los permisos, parametrización y administración de los usuarios de AMsi." />
+<meta property="og:description" content="Se define el acceso al aplicativo y comandos del menú principal para el Administrador del sistema. Se configuran criterios, preferencias, particularidades y modos de visualización de la información en los formularios básicos del aplicativo al igual que los permisos, parametrización y administración de los usuarios de AMsi." />
+<link rel="canonical" href="http://localhost:4000/docs/15_09_amsi_administration_access/" />
+<meta property="og:url" content="http://localhost:4000/docs/15_09_amsi_administration_access/" />
+<meta property="og:site_name" content="AM" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-07-12T16:02:49-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Acceso Administración AMsi" />
+<script type="application/ld+json">
+{"headline":"Acceso Administración AMsi","dateModified":"2022-07-12T16:02:49-05:00","datePublished":"2022-07-12T16:02:49-05:00","author":{"@type":"Person","name":"win"},"@type":"BlogPosting","description":"Se define el acceso al aplicativo y comandos del menú principal para el Administrador del sistema. Se configuran criterios, preferencias, particularidades y modos de visualización de la información en los formularios básicos del aplicativo al igual que los permisos, parametrización y administración de los usuarios de AMsi.","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/winsoftware_logo.svg"},"name":"win"},"url":"http://localhost:4000/docs/15_09_amsi_administration_access/","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/docs/15_09_amsi_administration_access/"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <meta property="og:image" content="http://localhost:4000/uploads/winsoftware_logo.svg"/>
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="shortcut icon" type="image/png" href="/uploads/favicon.png" >
+  <link rel="alternate" type="application/rss+xml" title="AM" href="/feed.xml">
+  <script src="/assets/js/main.js"></script>
+  
+    <script>
+function searchResults(form) {
+
+    var currentItem = null;
+    var search = document.getElementById(form);
+    var results = document.getElementById(form + "-results");
+    var toggle = document.getElementById(form + "-toggle");
+
+    function removeActive() {
+        for (i = 0; i < results.children.length; i++) {
+            results.children[i].classList.remove("uk-background-muted");
+        }
+    }
+
+    // Detect all clicks on the document
+    document.addEventListener("click", function(event) {
+
+        var isClickSearch = false;
+        var isClickResults = false;
+        var isClickSearchToggle = false;
+
+        if (search !== null) {
+            isClickSearch = search.contains(event.target);
+        }
+
+        if (results !== null) {
+            isClickResults = results.contains(event.target);
+        }
+
+        if (toggle !== null) {
+            isClickSearchToggle = toggle.contains(event.target);
+        }
+
+        if (isClickSearch || isClickSearchToggle) {
+            results.style.display = "block";
+        }        
+
+        if (!isClickResults && !isClickSearch && !isClickSearchToggle) {
+            results.style.display = "none";
+        }        
+        
+    });    
+
+    results.addEventListener("mouseover", function(event) {
+
+        removeActive();
+        event.target.parentElement.classList.add("uk-background-muted");
+        currentItem = null;
+
+    });
+
+    results.addEventListener("mouseout", function(event) {
+        event.target.parentElement.classList.remove("uk-background-muted");
+    });
+
+
+    search.addEventListener("keyup", function(event) {
+
+        var resultItems = results.children;
+        var resultCount = results.children.length;
+                                
+        if (event.keyCode === 40) {
+
+            if (currentItem < (resultCount - 1)) {
+                if (currentItem === null) {
+                    currentItem = 0;
+                } else {
+                    removeActive();
+                    currentItem++;
+                }
+                removeActive();
+                resultItems[currentItem].classList.add("uk-background-muted");
+            }
+            
+        } else if (event.keyCode === 38) {
+
+            if (currentItem > 0) {
+                if (currentItem === null) {
+                    currentItem = 0;
+                } else {
+                    removeActive();
+                    currentItem--;
+                }
+                removeActive();
+                resultItems[currentItem].classList.add("uk-background-muted");
+            }
+
+        } else if (event.keyCode === 13) {
+
+            resultItems[currentItem].children[0].click();
+
+        }
+
+    });
+
+}
+</script>
+  
+  <!-- Hook head -->
+  
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script src="http://127.0.0.1:35729/livereload.js"></script></head>
+
+    <body>
+
+    
+        <div data-uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent; top: 200">
+    <nav class="uk-navbar-container">
+        <div class="uk-container">
+            <div data-uk-navbar>
+                <div class="uk-navbar-left">
+                    <a class="uk-navbar-item uk-logo uk-visible@m" href="/"><img src="http://localhost:4000/uploads/winsoftware_logo.svg" alt="AM"></a>
+                    
+                        <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas-docs" data-uk-toggle><span data-uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">AM</span></a>
+                    
+
+                    <ul class="uk-navbar-nav uk-visible@m">
+                        
+                            
+                            
+                            
+                                
+                                    <li><div class="uk-navbar-item"><a class="uk-button uk-button-default" href="/docs/01_01_introduction/" >Manual de usuario</a></div></li>
+                                
+                            
+                        
+                            
+                            
+                            
+                                
+                                    
+                                        <li><a href="#">Registro de cambios</a>
+                                        
+                                            <div class="uk-navbar-dropdown">
+                                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                                    
+                                                    
+                                                        
+                                                        
+                                                        <li><a href="/changelog-timeline/">Línea de tiempo</a></li>
+                                                    
+                                                    
+                                                    
+                                                        
+                                                        
+                                                        <li><a href="/changelog-posts/">Publicaciones</a></li>
+                                                    
+                                                    
+                                                </ul>
+                                            </div>
+                                        
+                                        </li>
+                                                                                                        
+                                
+                            
+                        
+                    </ul>
+                </div>
+                <div class="uk-navbar-center uk-hidden@m">
+                    <a class="uk-navbar-item uk-logo" href="/"><img src="http://localhost:4000/uploads/winsoftware_logo.svg" alt="AM"></a>
+                </div>
+                <div class="uk-navbar-right">
+                    
+                        
+                            <div>
+                                <a id="search-navbar-toggle" class="uk-navbar-toggle" uk-search-icon href="#"></a>
+                                <div class="uk-drop uk-background-default uk-border-rounded" uk-drop="mode: click; pos: left-center; offset: 0">
+                                    <form class="uk-search uk-search-navbar uk-width-1-1" onsubmit="return false;">
+                                        <input id="search-navbar" class="uk-search-input" type="search" placeholder="Buscar respuestas" autofocus autocomplete="off">
+                                    </form>
+                                    <ul id="search-navbar-results" class="uk-position-absolute uk-width-1-1 uk-list"></ul>
+                                </div>
+                            </div>
+                            <script>
+                            SimpleJekyllSearch({
+                                searchInput: document.getElementById('search-navbar'),
+                                resultsContainer: document.getElementById('search-navbar-results'),
+                                noResultsText: '<li class="no-results">No encontré resultados</li>',
+                                searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
+                                json: "/search.json"
+                            });
+                            searchResults("search-navbar");
+                            </script>
+                        
+                    
+
+                    <ul class="uk-navbar-nav uk-visible@m">
+                        
+                            
+                            
+                            
+                                
+                                    <li><div class="uk-navbar-item"><a class="uk-button uk-button-primary-outline" href="https://wa.me/573108304059" target="_blank" ><span uk-icon="whatsapp" class="whatsapp-icon"></span></a></div></li>
+                                
+                            
+                        
+                    </ul>
+
+                    
+                        <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas" data-uk-toggle><span data-uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">Menu</span></a>
+                    
+
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+    
+
+    <div class="uk-section">
+    <div class="uk-container">
+        <div class="uk-grid-large" data-uk-grid>
+
+            <div class="sidebar-fixed-width uk-visible@m">
+                <div class="sidebar-docs uk-position-fixed uk-margin-top">
+                    
+                    <h5>Trabajando con AM</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/01_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/01_02_first_look/">Un vistazo a AM</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/01_03_user_interface/">Interfaz de Usuario</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/01_04_concurrence/">Concurrencia en AM</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/01_05_summary/">Resumen</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Infraestructura</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/02_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/02_02_basic_concept/">Conceptos Básicos sobre la Infraestructura</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/02_03_tables/">Tablas de Infraestructura</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/02_04_export/">Exportar</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/02_05_services/">Servicios</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Activos</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/03_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/03_02_basic_concepts/">Conceptos Básicos sobre Activos/Equipos</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/03_03_data_sheet/">Ficha Técnica</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/03_04_parts_list/">Codificación de Activos/Equipos y Generalidades</a></li>
+                    
+                      
+                      
+                      <li class=""><a href=""></a></li>
+                    
+                    </ul>
+                    
+                    <h5>Almacenes, Materiales y Repuestos</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/04_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/04_02_basic_concepts/">Conceptos Básicos sobre Almacenes, Materiales y Repuestos</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/04_03_spare_coding/">Codificación de Repuestos</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/04_04_main_window/">Ventana Principal de Almacén de Repuestos</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Kárdex</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/05_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/05_02_basic_concepts/">Conceptos Básicos sobre el Kárdex de Almacén</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/05_03_movements/">Movimientos de Kárdex</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/05_04_transactions/">Transacciones</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Solicitudes de Servicio</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/07_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/07_02_basic_concepts/">Conceptos Básicos sobre Solicitudes de Servicio</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/07_03_services/">Servicios</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Paros</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/08_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/08_02_basic_concepts/">Conceptos Básicos sobre Paros / Averías</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/08_03_creation/">Creación de Paros</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/08_04_tracking_and_closing/">Seguimiento y Cierre de Paros / Averías</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Órdenes de Trabajo</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/09_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/09_02_basic_concepts/">Conceptos Básicos sobre Órdenes de Trabajo</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/09_03_analysis_and_generation/">Análisis y Generación de Órdenes de Trabajo Programadas</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/09_04_main_window/">Ventana Principal de Órdenes de Trabajo</a></li>
+                    
+                      
+                      
+                      <li class=""><a href=""></a></li>
+                    
+                    </ul>
+                    
+                    <h5>Historia de mantenimiento</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/10_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/10_02_basic_concepts/">Conceptos Básicos</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/10_03_send_to_history/">Enviar a Historia</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/10_04_main_window/">Ventana Principal</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/10_05_periodic_management_balance/">Balance Periódico de Gestión</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Programas de mantenimiento</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/11_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/11_02_basic_concepts/">Conceptos Básicos de Programas de Mantenimiento</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/11_03_main_window/">Ventana Principal de Programas de Mantenimiento</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/11_04_services/">Servicios</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Historia Archivada</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/12_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/12_02_basic_concepts/">Conceptos Básicos</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/12_03_main_window/">Ventana Principal</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/12_04_submenu_window/">Ventana Submenú</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/12_05_transactions/">Transacciones</a></li>
+                    
+                    </ul>
+                    
+                    <h5>AMsi</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_01_working_with_amsi/">Trabajando con AMsi</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_02_ui/">Interfaz de Usuario</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_03_update_profile/">Actualizar Perfil</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_04_create_a_new_request/">Crear Nueva Solicitud</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_05_request_consulting/">Consultar Mis Solicitudes</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_06_request_evaluation/">Evaluar Servicio</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_07_create_a_new_order/">Crear Nueva Orden</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_08_orders_consulting/">Consultar Mis Órdenes</a></li>
+                    
+                      
+                      
+                      <li class="uk-active"><a href="/docs/15_09_amsi_administration_access/">Acceso Administración AMsi</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_10_user_settings/">Configuración de Usuarios</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_11_logout/">Exportar Visor de SS/OT</a></li>
+                    
+                    </ul>
+                    
+                    <h5>AMóvil</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/16_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href=""></a></li>
+                    
+                      
+                      
+                      <li class=""><a href=""></a></li>
+                    
+                      
+                      
+                      <li class=""><a href=""></a></li>
+                    
+                      
+                      
+                      <li class=""><a href=""></a></li>
+                    
+                    </ul>
+                    
+                </div>
+            </div>
+
+            <div class="uk-width-1-1 uk-width-expand@m">
+
+                <article class="uk-article">
+
+                    <h1 class="uk-article-title">Acceso Administración AMsi</h1>
+
+                    <p class="uk-text-lead uk-text-muted">Este capítulo, orientado al Administrador General de AMsi,se concentra en la funcionalidad de la opción Configuración.</p>
+
+                    <div class="uk-article-meta uk-margin-top uk-margin-medium-bottom uk-flex uk-flex-middle">
+                        
+
+
+  
+  <img class="uk-border-circle avatar" src="http://localhost:4000/uploads/winsoftware.png" alt="WIN Software">
+
+
+<div>
+  
+    Escrito por <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">WIN Software</span></span><br>
+  
+  <time datetime="2022-07-12T16:02:49-05:00" itemprop="datePublished">
+    
+    Jul 12, 2022
+  </time>
+</div>
+                    </div>
+
+                    <div class="article-content link-primary">
+                        <p>Se define el acceso al aplicativo y comandos del menú principal para el Administrador del sistema. Se configuran criterios, preferencias, particularidades y modos de visualización de la información en los formularios básicos del aplicativo al igual que los permisos, parametrización y administración de los usuarios de <strong>AMsi</strong>.</p>
+
+<p><strong>En esta sección</strong></p>
+
+<ul>
+  <li>Acceso al modo Configuración</li>
+  <li>Ventana de Menú Principal del Usuario Administrador</li>
+  <li>Configuración General</li>
+</ul>
+
+<h3 id="acceso-al-modo-configuración">Acceso al modo Configuración</h3>
+
+<p>Como se indicó al inicio, sólo el Administrador encargado del <strong>AMsi</strong> puede acceder a esta sección del aplicativo. WIN Software suministra los datos de acceso una vez se instale el aplicativo en la Infraestructura del Cliente.</p>
+
+<p>Para poder ingresar a la configuración de <strong>AMsi</strong> , el Administrador debe conocer el nombre de usuario y contraseña del Administrador del aplicativo. Tales datos se ingresan en la siguiente ventana de acceso:</p>
+
+<p><img src="https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img32.png" alt="Procesar imagen" />
+<em><strong>Imagen 33.</strong> AMsi - Inicio</em></p>
+
+<p>Una vez se ingrese el Usuario y la Contraseña de manera correcta, se puede observar el <em>Menú Principal del Usuario Administrador</em> del  <strong>AMsi</strong> .</p>
+
+<h3 id="ventana-de-menú-principal-del-usuario-administrador">Ventana de Menú Principal del Usuario Administrador</h3>
+
+<p>La ventana de Menú Principal del Usuario Administrador muestra las transacciones que el usuario puede realizar a través del <strong>AMsi</strong>.</p>
+
+<p><img src="https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img33.png" alt="Procesar imagen" />
+<em><strong>Imagen 34.</strong> AMsi - Menú Principal</em></p>
+
+<p>A continuación, se describen las transacciones que componen esta ventana.</p>
+
+<p><strong>Configuración:</strong> Esta opción permite configurar los criterios, preferencias, particularidades y modos de visualización sobre la información disponible en los formularios básicos del aplicativo al igual que los permisos y parametrización general del mismo.</p>
+
+<p><strong>Administrar Usuarios:</strong> Esta opción permite la creación de los usuarios que ingresarán al <strong>AMsi</strong>, registro de información específica del usuario y la asociación de los Centros de Costo.</p>
+
+<p><strong>Cerrar Sesión:</strong> Esta opción se usa para salir del aplicativo <strong>AMsi</strong>.</p>
+
+<h3 id="configuración">Configuración</h3>
+
+<p>Una vez se ingrese con los datos del usuario administrador, se debe dar clic a este botón ubicado en la ventana de Menú Principal para continuar con la Configuración de  <strong>AMsi</strong>.</p>
+
+<p><img src="https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img34.png" alt="Procesar imagen" />
+<em><strong>Imagen 35.</strong> AMsi - Configuración</em></p>
+
+<p>Los componentes de la ventana de Configuración General son los que se muestran a continuación. Sobre cada componente se da una breve explicación:</p>
+
+<p><img src="https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img35.png" alt="Procesar imagen" />
+<em><strong>Imagen 36.</strong> AMsi - Ir a Configuración</em></p>
+
+<p><strong>Botón Inicio <span class="mdi mdi-home"></span>:</strong> Este botón lleva a la ventana de Menú Principal del Usuario Administrador.</p>
+
+<p><strong>Botón Cerrar Sesión <span class="mdi mdi-exit-to-app"></span>:</strong> Este botón permite salir del aplicativo  <strong>AMsi</strong>.</p>
+
+<h4 id="general">General</h4>
+
+<p><img src="https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img36.png" alt="Procesar imagen" />
+<em><strong>Imagen 37.</strong> AMsi - General</em></p>
+
+<p><strong>Mensaje en la ventana de registro de la solicitud:</strong> En este campo se digita un mensaje que se desliza y aparece en la parte superior del formulario de Servicio Solicitado. Este campo permite hasta 500 caracteres.</p>
+
+<p><strong>Generar automáticamente Órdenes al guardar la solicitud:</strong> Marcar SI indica que el aplicativo se usa para la creación de Órdenes de Trabajo en lugar de crear Solicitudes de Servicio. En tal caso, los botones de Crear Nueva Solicitud y Consultar Mis Solicitudes cambian a Crear Nueva Orden y Consultar Mis Ordenes respectivamente. El sistema entonces cambia su funcionalidad para Crear y Consultar Órdenes de Trabajo.</p>
+
+<h4 id="información-del-solicitante">Información del Solicitante</h4>
+
+<p>En esta ventana se configuran los campos que serán exigidos en la sección Datos del Solicitante, bien sea para crear un nuevo Usuario o cuando se vaya a <strong>Actualizar el Perfil</strong>. Los componentes de la ventana de Información del Solicitante son los que se muestran a continuación. Sobre cada componente se da una breve explicación:</p>
+
+<p><img src="https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img37.png" alt="Procesar imagen" />
+<em><strong>Imagen 38.</strong> AMsi - Información Solicitante</em></p>
+
+<p><strong>¿El Teléfono es requerido?:</strong> Marcar SI indica que este campo es obligatorio y se identifican con un asterisco * de color rojo entre paréntesis que antecede el nombre del campo. Además, indica que debe ser llenado por los usuarios. Marcar NO implica dejar el campo a manera opcional de diligenciamiento para el solicitante al momento de actualizar la información dese Actualizar Perfil o para el usuario administrador al momento de crear y actualizar los usuarios.</p>
+
+<p><strong>¿La Extensión es requerida?:</strong> Marcar SI indica que este campo es obligatorio y se identifican con un asterisco * de color rojo entre paréntesis que antecede el nombre del campo. Además, indica que debe ser llenado por los usuarios. Marcar NO implica dejar el campo a manera opcional de diligenciamiento para el solicitante al momento de actualizar la información dese Actualizar Perfil o para el usuario administrador al momento de crear y actualizar los usuarios.</p>
+
+<p><strong>¿La Dirección es requerida?:</strong> Marcar SI indica que este campo es obligatorio y se identifican con un asterisco * de color rojo entre paréntesis que antecede el nombre del campo. Además, indica que debe ser llenado por los usuarios. Marcar NO implica dejar el campo a manera opcional de diligenciamiento para el solicitante al momento de actualizar la información dese Actualizar Perfil o para el usuario administrador al momento de crear y actualizar los usuarios.</p>
+
+<p><strong>¿La Ciudad es requerida?:</strong> Marcar SI indica que este campo es obligatorio y se identifican con un asterisco * de color rojo entre paréntesis que antecede el nombre del campo. Además, indica que debe ser llenado por los usuarios. Marcar NO implica dejar el campo a manera opcional de diligenciamiento para el solicitante al momento de actualizar la información dese Actualizar Perfil o para el usuario administrador al momento de crear y actualizar los usuarios.</p>
+
+<p><strong>¿El Correo Electrónico es requerido?:</strong> Marcar SI indica que este campo es obligatorio y se identifican con un asterisco * de color rojo entre paréntesis que antecede el nombre del campo. Además, indica que debe ser llenado por los usuarios. Marcar NO implica dejar el campo a manera opcional de diligenciamiento para el solicitante al momento de actualizar la información desde <strong>Actualizar Perfil</strong> o para el usuario administrador al momento de crear y actualizar los usuarios.</p>
+
+<h4 id="933-servicio-solicitado">9.3.3 Servicio Solicitado</h4>
+
+<p>En esta ventana se configuran los campos que serán exigidos en la sección Servicio Solicitado. Los componentes de la ventana de Servicio Solicitado son los que se muestran a continuación. Sobre cada componente se da una breve explicación.</p>
+
+<p><img src="https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img38.png" alt="Procesar imagen" />
+<em><strong>Imagen 39.</strong> AMsi - Formulario Servicio Solicitado</em></p>
+
+<p><strong>¿Cómo nombrar las compañías?:</strong> Se refiere a los nombres de las Compañías creadas en el AM, es decir, los Centros de Servicio responsables de las diferentes actividades de mantenimiento del Cliente. Por defecto ellas son nombradas como Centro de Servicio y pueden ser renombradas a gusto según la cultura del Cliente.</p>
+
+<p><strong>¿Cómo nombrar el Activo?:</strong> Se refiere al nombre del campo que describe el Activo/Equipo que es objeto del servicio en la OT y/o SS. Por defecto ellos son nombrados Activo / Equipo y puede ser cambiado a un nombre que sea más significativo según la cultura de la compañía.</p>
+
+<p><strong>Número de Contacto:</strong> Este número es configurado en el momento de establecer las notificaciones por correo electrónico de las SS/OT y aparece en el cuerpo del mensaje de la notificación.</p>
+
+<p><strong>¿Cómo nombrar la prioridad Alta?:</strong> Se refiere a los tipos de prioridades creadas en el AM. Por defecto este campo es nombrado como Emergente y puede ser cambiado a un nombre que sea más significativo dentro de la Compañía.</p>
+
+<p><strong>¿Cómo nombrar la prioridad media?:</strong> Se refiere a los tipos de prioridades creadas en el AM. Por defecto este campo es nombrado como Urgente y puede ser cambiado a un nombre que sea más significativo dentro de la Compañía.</p>
+
+<p><strong>¿Cómo nombrar la prioridad baja?:</strong> Se refiere a los tipos de prioridades creadas en el AM. Por defecto este campo es nombrado como Normal y puede ser cambiado a un nombre que sea más significativo dentro de la Compañía.</p>
+
+<h4 id="934-identificación-del-activo">9.3.4 Identificación del Activo</h4>
+
+<p>En esta ventana se configuran las opciones correspondientes para el campo de Activo/Equipo en el formulario Servicio Solicitado, en el proceso de creación de una SS y/o OT. Los componentes de la ventana de Identificación del Activo son los que se muestran a continuación. Sobre cada componente se da una breve explicación.</p>
+
+<p><img src="https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img39.png" alt="Procesar imagen" />
+<em><strong>Imagen 40.</strong> AMsi - Identificar Activo</em></p>
+
+<p><strong>¿Desea describir el Activo en lenguaje natural?:</strong> Elegir SI en este botón, habilita un checkbox al extremo izquierdo del campo Activo / Equipo. Al chequear este cuadro, inmediatamente se habilitan dos campos que pueden ser diligenciados. El primer campo es para describir en lenguaje natural el Activo o Equipo hasta con 50 caracteres, y el segundo campo es para describir también en lenguaje natural la ubicación física del Activo o Equipo referenciado hasta con 50 caracteres. De elegir NO, quedará disponible para definir el código de Activo/Equipo solamente del icono de filtro azul y seleccionarlo del visor de Activos. Es de tener en cuenta que cuando se elige la opción para crear Órdenes, esta opción no es posible cambiarla.</p>
+
+<p><strong>¿La ubicación física es requerida?:</strong> Elegir SI indica que éste es un campo obligatorio que debe ser llenado por los usuarios en el formulario Información de la Solicitud. Marcar NO implica que el campo tiene un uso opcional de diligenciamiento para el solicitante.</p>
+
+<p>Si el Activo/Equipo es seleccionado de una lista o ingresado con su respectivo código, el campo Ubicación Física se llena automáticamente en cada caso. Mientras que, si el Activo/Equipo es escrito en lenguaje natural, el campo Ubicación Física queda habilitado para ser diligenciado por el solicitante. Es de tener en cuenta que cuando se elige la opción para crear Órdenes, esta opción no es posible cambiarla.</p>
+
+<h3 id="935-seguridad">9.3.5 Seguridad</h3>
+
+<p>En esta ventana se establece el Usuario y Contraseña del Administrador del  <strong>AMsi</strong> , además se configuran los servidores de correo con usuarios y contraseñas. Los componentes de la ventana de Seguridad son los que se muestran a continuación. Sobre cada componente se da una breve explicación:</p>
+
+<p><img src="https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img40.png" alt="Procesar imagen" />
+<em><strong>Imagen 41.</strong> AMsi - Identificar Activo</em></p>
+
+<p><strong>Usuario Administrador:</strong> En este campo se define el usuario Administrador con el cual se accede al sistema para la Configuración de <strong>AMsi</strong>.</p>
+
+<p><strong>Contraseña:</strong> En este campo se asigna una Contraseña para el usuario Administrador, con el fin de acceder a la Configuración de <strong>AMsi</strong>. La Contraseña se muestra en blanco o sin diligenciar por seguridad.</p>
+
+<p><strong>Servidor de Correo:</strong> En este campo se ubica el servidor de correo de la organización, para habilitar la funcionalidad de envíos por correo.</p>
+
+<p><strong>Usuario de Correo:</strong> En este campo se indica un usuario de correo bajo una estructura válida de una cuenta de correo. Es la cuenta origen desde la que serán enviados los correos de notificación.</p>
+
+<p>]]Contraseña de Correo:** En este campo se define la Contraseña con la cual se accede a la cuenta de correo ubicada en el campo anterior.</p>
+
+<p><strong>Utiliza cifrado (SSL):</strong> En este campo se habilita la seguridad integrada del cifrado (SSL). Por defecto esta opción es configurado como NO.</p>
+
+<ul>
+  <li>Si</li>
+  <li>No</li>
+</ul>
+
+<h4 id="936-finalizando-la-configuración">9.3.6 Finalizando la Configuración</h4>
+
+<p>Una vez realizadas las modificaciones, dar clic al botón <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a>
+ubicado al final de esta ventana para guardar la nueva configuración de <strong>AMsi</strong>, el sistema inmediatamente vuelve a la ventana de Menú Principal del Usuario Administrador.</p>
+
+                        
+                            <div class="share uk-text-center uk-margin-medium-top">
+    
+        <a class="uk-link-muted" href="https://twitter.com/intent/tweet?text=Acceso Administración AMsi&url=http://localhost:4000/docs/15_09_amsi_administration_access/&via=&related=" rel="nofollow" target="_blank" title="Compartir en Twitter" onclick="window.open(this.href, 'twitter', 'width=550,height=235');return false;"><span data-uk-icon="icon: twitter; ratio: 1.2"></span></a>
+    
+    
+        <a class="uk-link-muted uk-margin-small-left" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fdocs%2F15_09_amsi_administration_access%2F" rel="nofollow" target="_blank" title="Compartir en Facebook" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;"><span data-uk-icon="icon: facebook; ratio: 1.2"></span></a>
+    
+</div>
+                        
+                    </div>
+
+                    <!-- Hook post content doc -->
+
+                    <hr class="uk-margin-medium">
+
+                    
+
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+    <div class="uk-margin-large-top paginate-post">
+        <div class="uk-child-width-expand@s uk-grid-large uk-pagi" data-uk-grid>
+            <div>
+                
+                  
+                  
+                  
+                    <h5></h5>
+                    <div><a class="remove-underline hvr-back" href="/docs/15_08_orders_consulting/">&larr; Anterior</a></div>
+                
+            </div>
+            <div>
+                
+                  
+                  
+                  
+                    <h5></h5>
+                    <div class="uk-text-right"><a class="remove-underline hvr-forward" href="/docs/15_10_user_settings/">Siguiente &rarr;</a></div>
+                
+            </div>
+        </div>
+    </div>
+    
+
+
+                    <div class="uk-margin-large-top">
+    <h3>Temas relacionados</h3>
+
+    
+    
+    
+
+    <ul class="uk-list link-secondary">
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+        <li><a href="/docs/15_01_working_with_amsi/">Trabajando con AMsi</a></li>
+        
+        
+    
+
+    
+
+    
+    
+
+    
+
+    
+        <li><a href="/docs/15_02_ui/">Interfaz de Usuario</a></li>
+        
+        
+    
+
+    
+
+    
+    
+
+    
+
+    
+        <li><a href="/docs/15_03_update_profile/">Actualizar Perfil</a></li>
+        
+        
+    
+
+    
+
+    
+    
+
+    
+
+    
+        <li><a href="/docs/15_04_create_a_new_request/">Crear Nueva Solicitud</a></li>
+        
+        
+            
+    </ul>
+</div>
+
+
+                    
+                </article>
+
+                <script>
+                    // Table of contents scroll to
+                    UIkit.scroll('#markdown-toc a', {
+                        duration: 400,
+                        offset: 120
+                    });
+                </script>
+
+            </div>
+
+    </div>
+</div>
+
+
+    <div id="offcanvas-docs" data-uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar">
+
+        <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+
+        
+        <h5 class="uk-margin-top">Trabajando con AM</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/01_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/01_02_first_look/">Un vistazo a AM</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/01_03_user_interface/">Interfaz de Usuario</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/01_04_concurrence/">Concurrencia en AM</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/01_05_summary/">Resumen</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Infraestructura</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/02_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/02_02_basic_concept/">Conceptos Básicos sobre la Infraestructura</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/02_03_tables/">Tablas de Infraestructura</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/02_04_export/">Exportar</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/02_05_services/">Servicios</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Activos</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/03_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/03_02_basic_concepts/">Conceptos Básicos sobre Activos/Equipos</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/03_03_data_sheet/">Ficha Técnica</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/03_04_parts_list/">Codificación de Activos/Equipos y Generalidades</a></li>
+        
+          
+          
+          <li class=""><a href=""></a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Almacenes, Materiales y Repuestos</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/04_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/04_02_basic_concepts/">Conceptos Básicos sobre Almacenes, Materiales y Repuestos</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/04_03_spare_coding/">Codificación de Repuestos</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/04_04_main_window/">Ventana Principal de Almacén de Repuestos</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Kárdex</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/05_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/05_02_basic_concepts/">Conceptos Básicos sobre el Kárdex de Almacén</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/05_03_movements/">Movimientos de Kárdex</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/05_04_transactions/">Transacciones</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Solicitudes de Servicio</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/07_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/07_02_basic_concepts/">Conceptos Básicos sobre Solicitudes de Servicio</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/07_03_services/">Servicios</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Paros</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/08_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/08_02_basic_concepts/">Conceptos Básicos sobre Paros / Averías</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/08_03_creation/">Creación de Paros</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/08_04_tracking_and_closing/">Seguimiento y Cierre de Paros / Averías</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Órdenes de Trabajo</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/09_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/09_02_basic_concepts/">Conceptos Básicos sobre Órdenes de Trabajo</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/09_03_analysis_and_generation/">Análisis y Generación de Órdenes de Trabajo Programadas</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/09_04_main_window/">Ventana Principal de Órdenes de Trabajo</a></li>
+        
+          
+          
+          <li class=""><a href=""></a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Historia de mantenimiento</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/10_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/10_02_basic_concepts/">Conceptos Básicos</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/10_03_send_to_history/">Enviar a Historia</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/10_04_main_window/">Ventana Principal</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/10_05_periodic_management_balance/">Balance Periódico de Gestión</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Programas de mantenimiento</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/11_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/11_02_basic_concepts/">Conceptos Básicos de Programas de Mantenimiento</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/11_03_main_window/">Ventana Principal de Programas de Mantenimiento</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/11_04_services/">Servicios</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Historia Archivada</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/12_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/12_02_basic_concepts/">Conceptos Básicos</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/12_03_main_window/">Ventana Principal</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/12_04_submenu_window/">Ventana Submenú</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/12_05_transactions/">Transacciones</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">AMsi</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/15_01_working_with_amsi/">Trabajando con AMsi</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_02_ui/">Interfaz de Usuario</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_03_update_profile/">Actualizar Perfil</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_04_create_a_new_request/">Crear Nueva Solicitud</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_05_request_consulting/">Consultar Mis Solicitudes</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_06_request_evaluation/">Evaluar Servicio</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_07_create_a_new_order/">Crear Nueva Orden</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_08_orders_consulting/">Consultar Mis Órdenes</a></li>
+        
+          
+          
+          <li class="uk-active"><a href="/docs/15_09_amsi_administration_access/">Acceso Administración AMsi</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_10_user_settings/">Configuración de Usuarios</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_11_logout/">Exportar Visor de SS/OT</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">AMóvil</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/16_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href=""></a></li>
+        
+          
+          
+          <li class=""><a href=""></a></li>
+        
+          
+          
+          <li class=""><a href=""></a></li>
+        
+          
+          
+          <li class=""><a href=""></a></li>
+        
+        </ul>
+        
+
+    </div>
+</div>
+
+
+    <div id="offcanvas" data-uk-offcanvas="flip: true; overlay: true">
+    <div class="uk-offcanvas-bar">
+
+        <a class="uk-logo uk-margin-small-bottom" href="/"><img src="http://localhost:4000/uploads/winsoftware_logo.svg" alt="AM"></a>
+     
+        <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+      
+        <ul class="uk-nav uk-nav-primary uk-margin-top">
+            
+                
+
+                
+
+                
+                    <li><a href="/" >Inicio</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><a href="/docs/01_01_introduction" >Manual</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><a href="/blog/" >Blog</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><a href="/changelog-timeline/" >Registro de cambios</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><div class="uk-navbar-item"><a class="uk-button uk-button-success" href="/contact/" >Contacto</a></div></li>
+                
+            
+        </ul>
+
+        <div class="uk-margin-top uk-text-center">
+            <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-flex-center uk-grid">
+                
+<div class="uk-first-column">
+    <a href="https://twitter.com/winsoftware_am" data-uk-icon="icon: twitter" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+<div>
+    <a href="https://www.facebook.com/winsoftwaream/" data-uk-icon="icon: facebook" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+
+
+<div>
+    <a href="https://co.linkedin.com/in/win-software-s-a-s-122b7952" data-uk-icon="icon: linkedin" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+
+
+
+<div>
+    <a href="https://winsoftware.com.co/" data-uk-icon="icon: link" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+    
+
+    
+        <!-- Hook preclosing body doc -->
+    
+
+    <!-- Hook preclosing body -->
+
+    <script>
+        if (window.netlifyIdentity) {
+          window.netlifyIdentity.on("init", user => {
+            if (!user) {
+              window.netlifyIdentity.on("login", () => {
+                document.location.href = "/admin/";
+              });
+            }
+          });
+        }
+      </script>
+
+    </body>
+
+</html>

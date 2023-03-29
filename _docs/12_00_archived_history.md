@@ -264,7 +264,7 @@ Los archivos tipo JGP, WORD, PDF, EXCEL para visualizar se deben descargar hacie
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap13/chp13_img11.png)
 _**Imagen 11.** Historia Archivada- Descargar Multimedia_
 
-# Ventana submenú de Órdenes de trabajo
+# Ventana submenú de Historia Archivada
 
 ## Indicadores
 

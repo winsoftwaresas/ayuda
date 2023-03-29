@@ -1,0 +1,1513 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>◼ Getting started | AM</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="◼ Getting started" />
+<meta name="author" content="WIN Software" />
+<meta property="og:locale" content="es" />
+<meta name="description" content="¿Qué es AM?" />
+<meta property="og:description" content="¿Qué es AM?" />
+<link rel="canonical" href="http://localhost:4000/docs/01_00_getting_started/" />
+<meta property="og:url" content="http://localhost:4000/docs/01_00_getting_started/" />
+<meta property="og:site_name" content="AM" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-03-23T08:34:04-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="◼ Getting started" />
+<script type="application/ld+json">
+{"headline":"◼ Getting started","dateModified":"2023-03-23T08:34:04-05:00","datePublished":"2023-03-23T08:34:04-05:00","author":{"@type":"Person","name":"WIN Software"},"@type":"BlogPosting","description":"¿Qué es AM?","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/winsoftware_logo.svg"},"name":"WIN Software"},"url":"http://localhost:4000/docs/01_00_getting_started/","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/docs/01_00_getting_started/"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <meta property="og:image" content="http://localhost:4000/uploads/winsoftware_logo.svg"/>
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="shortcut icon" type="image/png" href="/uploads/favicon.png" >
+  <link rel="alternate" type="application/rss+xml" title="AM" href="/feed.xml">
+  <script src="/assets/js/main.js"></script>
+  
+    <script>
+function searchResults(form) {
+
+    var currentItem = null;
+    var search = document.getElementById(form);
+    var results = document.getElementById(form + "-results");
+    var toggle = document.getElementById(form + "-toggle");
+
+    function removeActive() {
+        for (i = 0; i < results.children.length; i++) {
+            results.children[i].classList.remove("uk-background-muted");
+        }
+    }
+
+    // Detect all clicks on the document
+    document.addEventListener("click", function(event) {
+
+        var isClickSearch = false;
+        var isClickResults = false;
+        var isClickSearchToggle = false;
+
+        if (search !== null) {
+            isClickSearch = search.contains(event.target);
+        }
+
+        if (results !== null) {
+            isClickResults = results.contains(event.target);
+        }
+
+        if (toggle !== null) {
+            isClickSearchToggle = toggle.contains(event.target);
+        }
+
+        if (isClickSearch || isClickSearchToggle) {
+            results.style.display = "block";
+        }        
+
+        if (!isClickResults && !isClickSearch && !isClickSearchToggle) {
+            results.style.display = "none";
+        }        
+        
+    });    
+
+    results.addEventListener("mouseover", function(event) {
+
+        removeActive();
+        event.target.parentElement.classList.add("uk-background-muted");
+        currentItem = null;
+
+    });
+
+    results.addEventListener("mouseout", function(event) {
+        event.target.parentElement.classList.remove("uk-background-muted");
+    });
+
+
+    search.addEventListener("keyup", function(event) {
+
+        var resultItems = results.children;
+        var resultCount = results.children.length;
+                                
+        if (event.keyCode === 40) {
+
+            if (currentItem < (resultCount - 1)) {
+                if (currentItem === null) {
+                    currentItem = 0;
+                } else {
+                    removeActive();
+                    currentItem++;
+                }
+                removeActive();
+                resultItems[currentItem].classList.add("uk-background-muted");
+            }
+            
+        } else if (event.keyCode === 38) {
+
+            if (currentItem > 0) {
+                if (currentItem === null) {
+                    currentItem = 0;
+                } else {
+                    removeActive();
+                    currentItem--;
+                }
+                removeActive();
+                resultItems[currentItem].classList.add("uk-background-muted");
+            }
+
+        } else if (event.keyCode === 13) {
+
+            resultItems[currentItem].children[0].click();
+
+        }
+
+    });
+
+}
+</script>
+  
+  <!-- Hook head -->
+  
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script src="http://127.0.0.1:35729/livereload.js"></script></head>
+
+    <body>
+
+    
+        <div data-uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent; top: 200">
+    <nav class="uk-navbar-container">
+        <div class="uk-container">
+            <div data-uk-navbar>
+                <div class="uk-navbar-left">
+                    <a class="uk-navbar-item uk-logo uk-visible@m" href="/"><img src="http://localhost:4000/uploads/winsoftware_logo.svg" alt="AM"></a>
+                    
+                        <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas-docs" data-uk-toggle><span data-uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">AM</span></a>
+                    
+
+                    <ul class="uk-navbar-nav uk-visible@m">
+                        
+                            
+                            
+                            
+                                
+                                    <li><div class="uk-navbar-item"><a class="uk-button uk-button-default" href="/docs/01_01_introduction/" >Manual de usuario</a></div></li>
+                                
+                            
+                        
+                            
+                            
+                            
+                                
+                                    
+                                        <li><a href="#">Registro de cambios</a>
+                                        
+                                            <div class="uk-navbar-dropdown">
+                                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                                    
+                                                    
+                                                        
+                                                        
+                                                        <li><a href="/changelog-timeline/">Línea de tiempo</a></li>
+                                                    
+                                                    
+                                                    
+                                                        
+                                                        
+                                                        <li><a href="/changelog-posts/">Publicaciones</a></li>
+                                                    
+                                                    
+                                                </ul>
+                                            </div>
+                                        
+                                        </li>
+                                                                                                        
+                                
+                            
+                        
+                    </ul>
+                </div>
+                <div class="uk-navbar-center uk-hidden@m">
+                    <a class="uk-navbar-item uk-logo" href="/"><img src="http://localhost:4000/uploads/winsoftware_logo.svg" alt="AM"></a>
+                </div>
+                <div class="uk-navbar-right">
+                    
+                        
+                            <div>
+                                <a id="search-navbar-toggle" class="uk-navbar-toggle" uk-search-icon href="#"></a>
+                                <div class="uk-drop uk-background-default uk-border-rounded" uk-drop="mode: click; pos: left-center; offset: 0">
+                                    <form class="uk-search uk-search-navbar uk-width-1-1" onsubmit="return false;">
+                                        <input id="search-navbar" class="uk-search-input" type="search" placeholder="Buscar respuestas" autofocus autocomplete="off">
+                                    </form>
+                                    <ul id="search-navbar-results" class="uk-position-absolute uk-width-1-1 uk-list"></ul>
+                                </div>
+                            </div>
+                            <script>
+                            SimpleJekyllSearch({
+                                searchInput: document.getElementById('search-navbar'),
+                                resultsContainer: document.getElementById('search-navbar-results'),
+                                noResultsText: '<li class="no-results">No encontré resultados</li>',
+                                searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
+                                json: "/search.json"
+                            });
+                            searchResults("search-navbar");
+                            </script>
+                        
+                    
+
+                    <ul class="uk-navbar-nav uk-visible@m">
+                        
+                            
+                            
+                            
+                                
+                                    <li><div class="uk-navbar-item"><a class="uk-button uk-button-primary-outline" href="https://wa.me/573108304059" target="_blank" ><span uk-icon="whatsapp" class="whatsapp-icon"></span></a></div></li>
+                                
+                            
+                        
+                    </ul>
+
+                    
+                        <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas" data-uk-toggle><span data-uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">Menu</span></a>
+                    
+
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+    
+
+    
+<div class="uk-section">
+    <div class="uk-container">
+
+        <article class="uk-article">
+
+            <h1 class="uk-article-title">◼ Getting started</h1>
+
+            <div class="article-content link-primary">
+                <h2 id="qué-es-am">¿Qué es <strong>AM</strong>?</h2>
+
+<p>Este primer capítulo contiene información básica para la comprensión y el uso del <strong>AM</strong>. Se plantea una visión general sobre la interfaz del usuario y sobre los elementos que aparecen en pantalla a manera de convenciones generales.</p>
+
+<p>Se aprende a elegir e interpretar los comandos y a seleccionar las opciones de los menús y ventana Submenú, para ejecutar las funciones propias del programa.</p>
+
+<p>En este capítulo también se da un vistazo a la organización y funciones del <strong>AM</strong>, al igual que un derrotero general sobre su uso e  implementación.</p>
+
+<h2 id="un-vistazo-a-am">Un vistazo a <strong>AM</strong></h2>
+
+<p>Esta sección ayuda a entender el programa <strong>AM</strong> (Administrador de Mantenimiento) y a implementarlo para lograr la satisfacción de las necesidades de administración del mantenimiento de los activos en su empresa.</p>
+
+<p>Al analizar la ventana principal se aprecia cómo el sistema está conformado por las siguientes funciones, que componen el menú principal.</p>
+
+<h3 id="infraestructura-ie"><strong>Infraestructura [IE]</strong></h3>
+
+<p>Función que administra el grupo de datos básicos, parametrizables, de mantenimiento de la empresa:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Centros de Costo</td>
+      <td>Centros Responsables</td>
+      <td>Oficios</td>
+      <td>Terceros</td>
+      <td>Responsables</td>
+    </tr>
+    <tr>
+      <td>Ubicaciones Físicas</td>
+      <td>Contratos</td>
+      <td>Tipos de Trabajo</td>
+      <td>Tipos de Mantenimiento</td>
+      <td>Tipos de Actividad</td>
+    </tr>
+    <tr>
+      <td>Almacenes</td>
+      <td>Unidades de Medida</td>
+      <td>Monedas</td>
+      <td>Contadores</td>
+      <td>Características</td>
+    </tr>
+    <tr>
+      <td>Características Biomédicas</td>
+      <td>Riesgos</td>
+      <td>Magnitudes</td>
+      <td>Otros Conceptos de Costo</td>
+      <td>Causas de OT Pendiente</td>
+    </tr>
+    <tr>
+      <td>Causas de Cierre de OT</td>
+      <td>Acciones Técnicas</td>
+      <td>Causas de Falla</td>
+      <td>Efectos de Falla</td>
+      <td>Conceptos de Kárdex</td>
+    </tr>
+    <tr>
+      <td>Operaciones</td>
+      <td>Referencias</td>
+      <td>Tipos de Régimen</td>
+      <td>Estados</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Un grupo de estas tablas, se encuentra preconfigurado y puede ajustarse según las necesidades y requerimientos de la empresa. Las restantes describen en detalle la cultura técnica organizacional de mantenimiento.</p>
+
+<h3 id="activos-ac"><strong>Activos [AC]</strong></h3>
+
+<p>Función central del sistema para la definición de los Activos en general, objetos de mantenimiento, Equipos, Maquinaria, Automotores, Activos de Servicios Recreativos, Activos de tecnología e Informática, Infraestructura Física, más todos los Institucionales, Hospitalarios u Hoteleros.</p>
+
+<h3 id="almacén-al"><strong>Almacén [AL]</strong></h3>
+
+<p>Es la función que está encargada del registro y control de Materiales y
+Repuestos de Almacén. Se registran por cada ítem su ficha técnica y parámetros de inventario. También se describen las distintas referencias de ese Material o Repuesto, de acuerdo con sus diferentes proveedores.</p>
+
+<h3 id="kárdex-de-repuestos-kx"><strong>Kárdex de Repuestos [KX]</strong></h3>
+
+<p>A través del Kárdex se realiza el registro de todo movimiento
+de Entrada, Ajustes o Salida, de Materiales o Repuestos de cada Almacén. Para su operación, en el módulo “Infraestructura”, en la tabla “Conceptos de Kárdex” se definen y configuran previamente los conceptos de transacciones de movimiento, que serán hábiles en el sistema, para cada Almacén de la compañía.</p>
+
+<h3 id="programas-de-mantenimiento-pm"><strong>Programas de Mantenimiento [PM]</strong></h3>
+
+<p>Es la función que realiza la programación de actividades de mantenimiento rutinarias, cíclicas, sistemáticas o repetitivas en general. Un programa de mantenimiento se define con el objeto de generar Órdenes de Trabajo en forma automática y anticipada. Se toman en cuenta trabajos programados de tipo Preventivo, Predictivo, Lubricación, Metrología, Inspección u Otros.</p>
+
+<h3 id="solicitudes-de-servicio-ss"><strong>Solicitudes de Servicio [SS]</strong></h3>
+
+<p>Es el módulo mediante el cual todo empleado autorizado de la compañía, puede solicitar una atención o servicio por parte del área de Mantenimiento. Una Solicitud de Servicio puede ser atendida como tal o puede dar origen a una Órden de Trabajo.
+El solicitante puede hacer seguimiento permanente del estado de su solicitud. Este módulo tiene una funcionalidad adicional: el registro de acciones técnicas sencillas de mantenimiento: Corto tiempo de ejecución, bajo costo, y ejecutados por un solo responsable.</p>
+
+<h3 id="paros-averías-pa"><strong>Paros/ Averías [PA]</strong></h3>
+
+<p>A través de esta función, se hace el registro minucioso de toda
+actividad de paro de un equipo u objeto de mantenimiento, programado o no programado, que genere tiempos improductivos. Además de los tiempos de paro, se relacionan también la Causa y Efecto de la Falla y las Acciones Técnicas respectivas. Un paro puede dar origen a una Órden de Trabajo.</p>
+
+<h3 id="órdenes-de-trabajo-ot"><strong>Órdenes de Trabajo [OT]</strong></h3>
+
+<p>Es la función que centraliza la administración de las Órdenes de Trabajo del sistema. Cubre, desde la generación automática o la creación manual de las Órdenes de Trabajo, el seguimiento y consulta integral durante la ejecución de ellas,hasta su cierre y envío posterior a Historia de Mantenimiento. Se estudia este módulo
+como el Centro de Gestión de Mantenimiento.</p>
+
+<h3 id="historia-de-mantenimiento-hi"><strong>Historia de Mantenimiento [HI]</strong></h3>
+
+<p>Es el conjunto de funciones que compendian, estudian y analizan la información histórica de Mantenimiento. La Historia de Mantenimiento está conformada por el conjunto de las OT que se han ejecutado, liquidado, cerrado y trasladado hasta la Historia de Mantenimiento, y por las SS o los PA que han sido cerrados y son enviados a Historia. Esta Historia compendia y refleja la actividad de Mantenimiento ejecutada en la empresa. Es a partir del compendio histórico de mantenimiento que se genera el Balance Periódico de Gestión, se generan los índices de seguimiento y de gestión, se realizan una gran variedad de estudios especiales, como análisis de fallas, análisis de Pareto por varios criterios, análisis de costos (mano de obra, materiales/repuestos y otros conceptos), análisis de Confiabilidad o Disponibilidad, análisis sobre consumos de recursos o análisis sobre proveedores de servicio, entre otros.</p>
+
+<h3 id="administración-ad"><strong>Administración [AD]</strong></h3>
+
+<p>Es el centro funcional donde se provee la Administración del Sistema. Cubre aspectos de:</p>
+
+<ul>
+  <li>Configuración personalizada de la compañía</li>
+  <li>Definición de los perfiles de los usuarios en sus diferentes niveles de acceso</li>
+  <li>Listado de reportes</li>
+  <li>Parametrización del idioma</li>
+</ul>
+
+<p>Antes, de entrar en más detalles, se considera útil hacer un acercamiento general al sistema y a la secuencia de operaciones para poder hacer una planeación básica de su implementación.</p>
+
+<h2 id="interfaz-de-usuario">Interfaz de Usuario</h2>
+
+<h3 id="ventana-principal-am">Ventana Principal <strong>AM</strong></h3>
+
+<p><img src="../../assets/images/cap01/chp01_img01.png" alt="Procesar imagen" />
+<em><strong>Imagen 1.</strong> Ventana Acceso <strong>AM</strong></em></p>
+
+<p>Aquí se incluye información general sobre los principales elementos presentes en una ventana de <strong>AM</strong>. Los elementos que conforman esta vista principal son:</p>
+
+<h4 id="menú-principal">Menú Principal</h4>
+
+<p>La porción de Menú Principal normalmente está conformada por la barra de opciones que se muestra a continuación.</p>
+
+<p><img src="../../assets/images/cap01/chp01_img02.png" alt="Procesar imagen" />
+<em><strong>Imagen 2.</strong> Ventana Menú Principal</em></p>
+
+<p>En caso de estar trabajando en Infraestructura, se muestra una ventana que se ubica debajo de ella y que detalla los nombres de cada una de las tablas de la Infraestructura. A través de ellas se posibilita el acceso directo al módulo.</p>
+
+<p><img src="../../assets/images/cap01/chp01_img03.png" alt="Procesar imagen" />
+<em><strong>Imagen 3.</strong> Ventana Infraestructura</em></p>
+
+<p>En caso de estar trabajando con Gerente o un usuario administrador, esta barra se complementa listando todas las compañías existentes.</p>
+
+<p><img src="../../assets/images/cap01/chp01_img04.png" alt="Procesar imagen" />
+<em><strong>Imagen 4.</strong> Ventana Administración</em></p>
+
+<h4 id="submenú">Submenú</h4>
+
+<p>El submenú tiene un conjunto de transacciones que se usan para ejecutar funciones operaciones o procedimientos especiales que afectan uno, varios o todos los registros del módulo activo. Al <strong>sobreponer</strong> el mouse por un módulo o una opción del menú principal la pantalla muestra debajo de ella un recuadro como se muestra a continuación:</p>
+
+<p><img src="../../assets/images/cap01/chp01_img05.png" alt="Procesar imagen" />
+<em><strong>Imagen 5.</strong> Submenú <strong>AM</strong></em></p>
+
+<h4 id="ventana-visor">Ventana Visor</h4>
+
+<p><img src="../../assets/images/cap01/chp01_img07.png" alt="Procesar imagen" />
+<em><strong>Imagen 6.</strong> Ventana Visor</em></p>
+
+<p>Es la ventana en la que se lista el total de los registros o aquellos preseleccionados, del módulo activo. Para facilitar su recorrido es posible realizar desplazamientos verticales del cursor tanto hacia el comienzo como hacia el final de la tabla, y desplazamientos horizontales de izquierda a derecha y viceversa.</p>
+
+<p>Los títulos en azul que encabezan las columnas son también botones que permiten ordenar la tabla, según el título seleccionado.</p>
+
+<p>Para elegir un registro de la tabla se da un clic sobre él o se desplaza el cursor con las teclas de desplazamiento.</p>
+
+<p>En la parte superior izquierda de esta ventana se observa la identificación actual del módulo en pantalla que corresponde a la opción del menú seleccionada. También, al lado derecho de esta sección, se encuentra el botón <a href="#0" class="btn white">Nuevo</a> con el fin de acceder rápidamente a la ventana Detalle con el fin de ingresar un nuevo registro.</p>
+
+<p>En la parte superior derecha se encuentra un conjunto de transacciones de la ventana Visor del módulo seleccionado, para ejecutar funciones, operaciones o procedimientos especiales que afectan uno, varios o todos los registros del módulo activo. Este conjunto de transacciones varía dependiendo del módulo seleccionado.</p>
+
+<p>En la parte inferior izquierda de esta ventana se encuentra el número de registros por página que se quieren visualizar, además de la cantidad de registros totales que conforman la tabla. Como guía existe un indicador a modo de fracción (N/M) que indica el número de registros por página de un total de registros seleccionados (N) sobre el número de registros totales en el módulo (M).</p>
+
+<p>Es por lo anterior que esta fracción se verá afectada al realizarse un “Subgrupo” o filtro en el módulo seleccionado, por lo cual se muestra la cantidad de registros del subgrupo actual en la ventana Visor (N) y el total de registros existentes en el módulo activo (M). Si no hay preselección, los dos números en sus totales son los mismos.</p>
+
+<blockquote>
+  <p><strong>Nota:</strong> es posible configurar el número de registros que conforman una página desde el módulo de Administración, en la opción del submenú “Valores por defecto”.</p>
+</blockquote>
+
+<p>En la parte inferior derecha de esta ventana se observan también varios enlaces para navegar avanzando y retrocediendo páginas completas de registros. Como guía existe un indicador sobre la página relativa actual y la posibilidad de ingresar a la primer o última página, sin importar la página en la que se encuentre.</p>
+
+<h4 id="ventana-detalle">Ventana detalle</h4>
+
+<p><img src="../../assets/images/cap01/chp01_img08.png" alt="Procesar imagen" />
+<em><strong>Imagen 7.</strong> Ventana Detalle</em></p>
+
+<p>Es la porción de la pantalla en la que se muestran los datos detallados del registro seleccionado en la ventana Visor. También se visualiza un conjunto de Vistas Parciales o Pestañas que se usan para visualizar porciones específicas de datos del módulo activo; módulo que depende de la opción del menú principal seleccionada. Para visualizar la información completa del registro seleccionado y facilitar su recorrido es posible realizar desplazamientos verticales del cursor tanto hacia el comienzo como hacia el final de la tabla.</p>
+
+<p>Además de la información detallada de un registro, contiene un grupo de botones estándar para la mayoría de las ventanas Detalle que siempre están en la parte superior izquierda de la ventana.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Botón</th>
+      <th style="text-align: left">Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn blue">Nuevo</a></td>
+      <td style="text-align: left">Prepara la ventana Detalle para el ingreso de un nuevo registro, blanqueando cada uno de los campos que son objeto de llenado. Al activarlo el sistema reemplaza la línea de 4 botones por una nueva de 2 botones:<a href="#0" class="btn blue">Insertar</a> que se usa para ingresar el nuevo registro a la base de datos actualizando la ventana Visor, mientras que el botón <a href="#0" class="btn blue">Cancelar</a> aborta el proceso de creación del nuevo registro retornando a la ventana Detalle.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn blue">Copiar</a></td>
+      <td style="text-align: left">Toma una copia instantánea del registro actual, señalado por el cursor en la ventana Visor, y la deja disponible en la ventana Detalle para que sobre ella se hagan las modificaciones necesarias para crear un nuevo registro. Tales modificaciones involucran en la mayoría de los casos aquellos campos clave del registro y otros propios que deben ser particularizados para el nuevo. Al activar este botón el sistema reemplaza la línea de 4 botones por una nueva de 2 botones:<a href="#0" class="btn blue">Insertar</a> que se usa para ingresar el nuevo registro a la base de datos actualizando la ventana Visor, mientras que el botón <a href="#0" class="btn blue">Cancelar</a> aborta el proceso de creación del nuevo registro retornando a la ventana Detalle.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn blue">Actualizar</a></td>
+      <td style="text-align: left">Sirve para guardar o salvar en la base de datos la información que se ha modificado en la ventana Detalle, correspondiente al registro señalado por el cursor en la ventana Visor y registrar allí simultáneamente el mismo cambio.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn blue">Eliminar</a></td>
+      <td style="text-align: left">Se utiliza para borrar un registro de la base de datos y registrar simultáneamente el cambio en la ventana Visor.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>En la parte superior izquierda de esta ventana se observa la identificación actual de la ventana Detalle del módulo en pantalla que corresponde a la opción del menú seleccionada, adicional, el cuadro de chequeo (checkbox) que está ubicado al lado derecho de esta sección,permite habilitarlo para que al finalizar una transacción de inserción, actualización o eliminación, la ventana Detalle permanezca en esta vista.</p>
+
+<p>En la parte superior derecha de esta ventana se observan dos enlaces para navegar avanzando y retrocediendo entre registros. Como guía existe un indicador a modo de fracción que indica el número del registro actual en el que se está posicionado sobre el número deregistros totales en el módulo.</p>
+
+<p>Para salir de la ventana Detalle se puede dar clic a la <strong>X</strong> que se encuentra arriba de los enlaces de navegación, o dar clic por fuera de la ventana Detalle. Ambos, llevan a la ventana Visor.</p>
+
+<h4 id="ventana-menú-de-más-información">Ventana menú de más información</h4>
+
+<p><img src="../../assets/images/cap01/chp01_img09.png" alt="Procesar imagen" />
+<em><strong>Imagen 8.</strong> Ventana menú de mas información</em></p>
+
+<p>Esta ventana se ubica en la parte superior derecha del menú principal. Contiene la siguiente información:</p>
+
+<ul>
+  <li><strong>Compañía</strong>: Indica al usuario el número y nombre de la compañía en la que se encuentra.</li>
+  <li><strong>Usuario conectado:</strong> Indica el login del usuario conectado en la compañía.</li>
+  <li><strong>Limpiar filtros:</strong> Limpia todos los filtros de todos los módulos para desbloquear el acceso a alguno de ellos.</li>
+  <li><strong>Inicio</strong>: Esto conlleva al dashboard de <strong>Inicio</strong> o a la Ventana Principal de <strong>AM</strong>.</li>
+  <li><strong>Interfases:</strong> Se usará para definir los criterios de las interfaces que se realizarán a futuro entre <strong>AM</strong> y otros sistemas propios de la empresa o institución.</li>
+  <li><strong>Cambiar de contraseña:</strong> Permite que el usuario logueado cambie su contraseña.</li>
+  <li><strong>Cerrar Sesión:</strong> Se usa para manejar la sesión del usuario actual con el fin de salir del aplicativo.</li>
+</ul>
+
+<h3 id="ventana-reportes">Ventana Reportes</h3>
+
+<p><img src="../../assets/images/cap01/chp01_img10.png" alt="Procesar imagen" />
+<em><strong>Imagen 9.</strong> Ventana Reportes</em></p>
+
+<p>Esta ventana presenta las opciones de impresión de reportes escritos relacionados con cada módulo del sistema. A esta ventana se llega dando clic al icono de la impresora que se encuentra ubicado en la parte superior derecha de la ventana Visor del módulo seleccionado.</p>
+
+<p><strong>Lista de Selección:</strong> Es la tabla donde aparecen los campos Código, Descripción y Subtítulo. Bajo el título <strong>Código</strong> se listan los códigos de los reportes existentes. Bajo el título <strong>Descripción</strong> se listan los nombres de los reportes existentes. Bajo el título de <strong>Subtítulo</strong> se lista en algunos reportes una descripción adicional del reporte.</p>
+
+<p><strong>Todos los Registros:</strong> Esta opción permite la impresión de todos los Registros existentes en la base de datos relacionados con el módulo actual, sin importar si se ha realizado un subgrupo. Corresponde al número de registros especificados en el denominador de la selección (M).</p>
+
+<p><strong>Registros del Visor:</strong> Esta opción permite hacer una impresión de todos aquellos registros que están seleccionados en el subgrupo actual. Corresponde al número de registros especificados en el numerador de la selección (N).</p>
+
+<p><strong>Registro Seleccionado:</strong> Esta opción permite hacer una impresión del registro que está seleccionado en la Ventana Visor mediante el cursor con la línea verde.</p>
+
+<p><strong>Subtítulo:</strong> Este campo permite registrar un poco menos de una línea de información, tipo documentación del Reporte, para que se imprima bajo el área de título estándar.</p>
+
+<p>Después de seleccionar el tipo de registro se procede a seleccionar el reporte que se desea imprimir; para esto se debe pulsar el botón <a href="#0" class="btn white">Imprimir</a>. De esta manera se abre una ventana visor para formatos PDF, que muestra el reporte seleccionado. De esta misma ventana es posible guardarlo y descargarlo.</p>
+
+<p><img src="../../assets/images/cap01/chp01_img11.png" alt="Procesar imagen" />
+<em><strong>Imagen 10.</strong> Ventana Reporte Impresa</em></p>
+
+<p>Al dar clic al botón <a href="#0" class="btn white">Exportar</a> permite exportar el Reporte seleccionado sin necesidad de imprimirlo a un formato excel. Mientras que, al dar clic al botón <a href="#0" class="btn white">Cerrar</a> se cierra la ventana de la generación de reportes.</p>
+
+<h3 id="otros-elementos-de-la-interfaz-de-usuario">Otros elementos de la Interfaz de Usuario</h3>
+
+<h4 id="los-botones">Los Botones</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Botón</th>
+      <th style="text-align: left">Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn gray">Aceptar</a></td>
+      <td style="text-align: left">Con este botón se salva o graba el registro de datos que se acaba de Ingresar.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn gray">Cancelar</a></td>
+      <td style="text-align: left">Con este botón se cancela cualquier transacción que se esté realizando.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn blue">Actualizar</a></td>
+      <td style="text-align: left">Con este botón se salva el registro de datos que se acaba de modificar.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn blue">Copiar</a></td>
+      <td style="text-align: left">Con este botón se copian los datos del registro activo en pantalla, dejando el nuevo registro listo para ser modificado e insertado.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn blue">Nuevo</a></td>
+      <td style="text-align: left">Este botón inicializa todos los campos para proceder a ingresar un nuevo registro en cualquier módulo de la Base de Datos.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn blue">Insertar</a></td>
+      <td style="text-align: left">Almacena los datos del registro que se acaba de copiar o de crear.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn blue">Eliminar</a></td>
+      <td style="text-align: left">Borra el registro que se encuentra activo en pantalla, siempre y cuando no tenga vínculos y/o asociaciones. Normalmente aparece un mensaje para confirmar la eliminación.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn gray">Aprobar Presupuesto</a></td>
+      <td style="text-align: left">Este botón se encuentra en el módulo de OT mientras no se haya aprobado el presupuesto de una OT que exige presupuesto. Permite aprobar el presupuesto que ha sido asignado a una OT. Una vez aprobado, es posible iniciar el registro manual del Gasto Real.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn gray">Mano Obra Interna</a></td>
+      <td style="text-align: left">Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ver el detalle de la Mano de Obra Interna presupuestada o usada, respectivamente.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn gray">Mano Obra Externa</a></td>
+      <td style="text-align: left">Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ver el detalle de la Mano de Obra Externa presupuestada o usada, respectivamente.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn gray">Mat y Rep</a></td>
+      <td style="text-align: left">Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ver el detalle de los Materiales y Repuestos.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn gray">O. Conceptos</a></td>
+      <td style="text-align: left">Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ver el detalle de los Otros Conceptos de Costos.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn gray">Ir a Matriz</a></td>
+      <td style="text-align: left">Este botón regresa a la vista de matriz de Presupuesto o gasto real en HI, OT y PM, después de visualizar, ingresar o modificar información detallada de algún concepto de costo.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn gray">Adicionar Mano Obra Interna</a></td>
+      <td style="text-align: left">Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ingresar el detalle de la Mano de Obra Interna presupuestada o usada, respectivamente.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn gray">Adicionar Mano Obra Externa</a></td>
+      <td style="text-align: left">Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ingresar el detalle de la Mano de Obra Externa presupuestada o usada, respectivamente.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn gray">Adicionar Material de repuesto</a></td>
+      <td style="text-align: left">Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ingresar el detalle de los Materiales y Repuestos.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn gray">Adicionar Otro Concepto</a></td>
+      <td style="text-align: left">Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ingresar el detalle de los Otros Conceptos de Costos.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn gray">Asociar</a></td>
+      <td style="text-align: left">Botón utilizado para registrar la relación entre Activos y sus Repuestos.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn gray">Desasociar</a></td>
+      <td style="text-align: left">En Almacén de Repuestos RP, permite desasociar uno o varios Activos a uno o varios de sus Repuestos asociados.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">&lt;span class="mdi mdi-plus-circle icon white"&gt;</code></td>
+      <td style="text-align: left"><strong>Agregar</strong><br />Este botón permite adicionar información al registro actual.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn white">Cerrar</a></td>
+      <td style="text-align: left">Con este botón se cierra la ventana de generación de reportes y regresa a la ventana en proceso.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn white">Exportar</a></td>
+      <td style="text-align: left">Este botón permite Exportar los datos qué se encuentran en el visor, a un formato de Excel.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn white">Imprimir</a></td>
+      <td style="text-align: left">Este botón genera el reporte seleccionado en una nueva ventana. Refiérase a_Servicios » Reportes_ en la ventana submenú de cada módulo del sistema.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn blue">Iniciar Sesión</a></td>
+      <td style="text-align: left">Este botón valida el usuario y la contraseña, necesarios para ingresar a<strong>AM</strong>.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn gray">Enviar a Historia</a></td>
+      <td style="text-align: left">Este botón ejecuta el envío de registros de Solicitudes de Servicio, Órdenes de Trabajo Y Paros/Averías cerradas y/o canceladas, hasta el módulo de Historia de Mantenimiento.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn white">Proyectar</a></td>
+      <td style="text-align: left">Inicia el proceso de proyección en PM, con el objetivo de planear y/o presupuestar un periodo de largo plazo, a partir de los PM activos.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn gray">Generar</a></td>
+      <td style="text-align: left">Este botón convierte en OT reales, aquellas OS que fueron resultado del proceso de Analizar que se acaba de ejecutar, en el módulo de OT.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn gray">Modificar FIP</a></td>
+      <td style="text-align: left">En Programas de Mantenimiento, actualiza el valor de la Fecha de Inicio de Período.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">&lt;span class="mdi mdi-filter-variant icon white"&gt;</code></td>
+      <td style="text-align: left"><strong>Buscar</strong><br />Abre una nueva ventana compuesta (Ventana Visor y Ventana Subgrupo) para realizar una selección que facilite la búsqueda de un registro.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">&lt;span class="mdi mdi-plus-circle icon white"&gt;</code></td>
+      <td style="text-align: left"><strong>Más</strong><br />Este botón permite hacer unión de selecciones dentro de una opción de subgrupo en una Ventana Visor. Es útil cuando se necesita visualizar conjuntamente dos o más subgrupos.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">&lt;span class="mdi mdi-minus-circle icon white"&gt;</code></td>
+      <td style="text-align: left"><strong>Menos</strong><br />Este botón permite hacer substracción de un subconjunto desde una selección previa, de subgrupo en una Ventana Visor.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">&lt;span class="mdi mdi-notification-clear-all icon white"&gt;</code></td>
+      <td style="text-align: left"><strong>Valores Por Defecto</strong><br />Este botón desmarca todos los criterios de selección en un subgrupo para iniciar la conformación de otro subgrupo con un nuevo conjunto de criterios o filtros.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">&lt;span class="mdi mdi-check-circle icon white"&gt;</code></td>
+      <td style="text-align: left"><strong>Aceptar</strong><br />Con este botón se realiza el subgrupo o filtro de acuerdo a los criterios de selección.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn gray">Todos Adicionan</a></td>
+      <td style="text-align: left">Activa la función de sumar los nuevos valores a los anteriores en el proceso de actualizar contadores de AC.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn gray">Todos Reemplazan</a></td>
+      <td style="text-align: left">Activa la función de reemplazar los valores anteriores por los nuevos, en el proceso de actualizar contadores de AC.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">&lt;span class="mdi mdi-cloud-upload icon white"&gt;</code></td>
+      <td style="text-align: left"><strong>Cargar</strong><br />Con este botón se realiza la búsqueda de un anexo, documento, imagen, video, entre otros; que será cargado en la pestaña de Multimedia disponible en varios módulos.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn white">Subir Archivo</a></td>
+      <td style="text-align: left">Con este botón se realiza la carga de un anexo, documento, imagen, video, entre otros; en las opciones de Multimedia disponible en varios módulos.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn gray">Ver Diagrama</a></td>
+      <td style="text-align: left">Con este botón se visualiza en un Diagrama de Gantt, la proyección de los PM activos en el módulo de PM o el listado de las OT analizadas en el módulo de OT.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn gray">Ver Reportes</a></td>
+      <td style="text-align: left">Con este botón se visualiza el listado de los Reportes disponibles en PM y OT, como resultado de los procesos de proyección o analizar, respectivamente.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn gray">Ver RP Asociados</a></td>
+      <td style="text-align: left">Con este botón se visualiza la asociación de uno o varios Repuestos a un Activo, en el módulo de Almacén de Repuestos.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn gray">Ver AC Asociados</a></td>
+      <td style="text-align: left">Con este botón se visualiza la asociación de uno o varios Activos a un Repuesto, en el módulo de Almacén de Repuestos.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">&lt;span class="mdi mdi-arrow-left-right icon gray"&gt;</code></td>
+      <td style="text-align: left"><strong>Navegador</strong><br /> Con este botón se puede navegar avanzando y retrocediendo páginas completas de registros.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">&lt;span class="mdi mdi-magnify icon gray"&gt;</code></td>
+      <td style="text-align: left"><strong>Ir A</strong><br />Con este botón se puede buscar un Activo digitando exactamente el código del AC, el código del Repuesto, el consecutivo de una SS o el consecutivo de una OT según el módulo.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">&lt;span class="mdi mdi-autorenew icon gray"&gt;</code></td>
+      <td style="text-align: left"><strong>Cambiar a TreeGrid</strong><br />Con este botón se pueden visualizar los Activos que están en el módulo o en un subgrupo en una vista de árbol, en la que se parte de las Ubicaciones Físicas, y luego se ven los Activos pertenecientes a esa Ubicación Física y su Despiece.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">&lt;span class="mdi mdi-download icon gray"&gt;</code></td>
+      <td style="text-align: left"><strong>Descargar</strong><br />Con este botón se puede descargar cualquier campo del módulo seleccionado a Excel.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">&lt;span class="mdi mdi-printer icon gray"&gt;</code></td>
+      <td style="text-align: left"><strong>Generador de Reportes</strong><br />Con este botón se permite ingresar al listado de Reportes disponibles en el módulo seleccionado.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">&lt;span class="mdi mdi-message-alert icon gray"&gt;</code></td>
+      <td style="text-align: left"><strong>Indicadores</strong><br />Con este botón se muestra el significado de los colores mostrados en la columna de Indicadores de los módulos de IF, AC, Almacén de Repuestos, PM, SS, PA, OT e HI.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="iniciar-la-ejecución-de-am">Iniciar la ejecución de <strong>AM</strong></h2>
+
+<p>La ejecución de <strong>AM</strong> se inicia activando el link correspondiente a través de un navegador como Chrome o Mozilla.</p>
+
+<p>Si se trata de la versión <strong>AM</strong> PRO, el sistema solicita el nombre de usuario, la selección de la Compañía con la cual desea interactuar y su clave de acceso.</p>
+
+<p>Cuando se trata de la versión <strong>AM</strong> ST el sistema solicita el nombre de usuario y su clave de acceso.</p>
+
+<p><img src="../../assets/images/cap01/chp01_img61.png" alt="Procesar imagen" />
+<em><strong>Imagen 11.</strong> Ventana de Acceso AM</em></p>
+
+<p>Cuando se ha hecho el acceso exitoso al sistema se muestra por defecto una ventana con un tablero de entrada que corresponde a un <em>DashBoard Home</em> que permite visualizar conjuntos de indicadores e información que muestran la forma actual de las cosas en distintos módulos del sistema.</p>
+
+<p><img src="../../assets/images/cap01/chp01_img62.png" alt="Ventana acceso directo" />
+<em><strong>Imagen 12.</strong> Ventana de Acceso AM</em></p>
+
+<p>También es posible definir que al ingresar al sistema se muestre la tabla de Terceros de la Infraestructura, en lugar del <em>Dashboard Home</em>, esto se define desde el módulo de Administración. Posteriormente, en el capítulo de Administración, se trata más a fondo esta opción del sistema.</p>
+
+<h2 id="concurrencia-en-am">Concurrencia en <strong>AM</strong></h2>
+
+<p>Es importante tener en cuenta que en <strong>AM</strong>, un mismo usuario no puede iniciar sesión simultáneamente en dos máquinas diferentes.</p>
+
+<p>La cantidad de usuarios que pueden trabajar al mismo tiempo en <strong>AM</strong> depende de la cantidad de licencias adquiridas por la compañía, en un esquema de clientes concurrentes. La cantidad de usuarios creados en el sistema no tiene que ser la misma cantidad de las licencias adquiridas, o sea que es posible definir un número de usuarios mayor al número de licencias disponibles.</p>
+
+<h3 id="un-enfoque-de-implementación">Un enfoque de implementación</h3>
+
+<p>El proceso de Implementación de <strong>AM</strong> es realizado con el apoyo cercano de WIN Software, para ello WIN Software suministra y discute con el Usuario un cronograma detallado, que describe las fases, actividades y tareas del proyecto. Se ha previsto realizar al menos una sesión de trabajo de Planeación con el Equipo que estará a cargo del proyecto por parte de la Empresa usuaria, para estudiar el cronograma y establecer los niveles de compromiso de los recursos asignados.</p>
+
+<p>La Implementación se desarrolla en paralelo, al mismo ritmo de avance, del proceso de Capacitación. Para habilitar el sistema es necesario definir ante todo la Compañía y algunos perfiles de usuario. Ello a través de la opción Administración del menú principal (en la versión <strong>AM</strong> ST, solamente es necesario definir los perfiles de usuario).</p>
+
+<p>La actividad que continúa, es la preparación y captura de datos, que se debe iniciar con la Infraestructura. Es recomendado seguir el orden indicado en la definición de las siguientes tablas: <strong>CR, OF, TE, UF, CC</strong>. Las demás tablas se definen o personalizan en cualquier orden, según las necesidades propias de la compañía.</p>
+
+<p>Acto seguido, se definen y registran los Activos o Equipos y su despiece si es del caso; para lo cual se debe haber predefinido un esquema de codificación adecuado.</p>
+
+<p>Luego se definen los Repuestos, de acuerdo a un esquema de codificación también predefinido. Este proceso se puede realizar manualmente, registrando uno por uno los Repuestos o Materiales requeridos; o también mediante la carga masiva desde un archivo plano que contenga la información de interés para Mantenimiento y que será cargada por WIN Software. Cada repuesto debe ser asociado a un almacén, independientemente del proceso que se siga para la inserción de los datos.</p>
+
+<p>Habiendo ingresado los Activos/Equipos y Repuestos, <strong>AM</strong> permite el ingreso de los Programas de Mantenimiento. A partir de este punto, el programa está habilitado también para la generación de las Órdenes de Trabajo, de las Solicitudes de Servicio y de los Paros/Averías. Este es el paso siguiente.</p>
+
+<p>Es importante saber que <strong>AM</strong> no exige la definición completa y exhaustiva de todos los Activos/Equipos de la empresa para empezar a operar. En muchas ocasiones es conveniente definir un grupo de Activos/Equipos, sus Programas y empezar a operar con ellos, actividades tanto programadas automáticas como manuales. Esto permite obtener resultados del programa en muy corto tiempo, justificando tempranamente la inversión.</p>
+
+<p>Las Órdenes de Trabajo se pueden haber generado automáticamente (desde Programas de Mantenimiento), se pueden haber generado semiautomáticamente desde una Solicitud de Servicio, un Paro/Avería, o se pueden haber registrado manualmente (Mantenimiento correctivo, por ejemplo).</p>
+
+<p>Generadas las Órdenes de Trabajo, se procede a lograr un acuerdo con Producción y a programar los recursos requeridos: el personal, los materiales y repuestos, y otros conceptos. Finalmente, se imprimen en lotes o individualmente, o bien se emplea el uso del aplicativo Amóvil de modo que las actividades a ejecutar sean asignadas a los responsables de su ejecución.</p>
+
+<p>La Gestión de Mantenimiento se apoya fundamentalmente en el módulo de Órdenes, que contiene todas las actividades pendientes de ejecución o en ejecución.</p>
+
+<p>Cada Órden de Trabajo se ejecuta y en ella se compendia toda la información generada en tal ejecución: Centro de Costo, Centro Responsable, Responsable, Costos (Mano de Obra Interna y Externa, Materiales y Repuestos y otros), Tiempos de Ejecución, Duración e Improductivos, Comentarios generales y Multimedia.</p>
+
+<p>Terminada la actualización de la información de la OT ejecutada, se procede a liquidarla y cerrarla. Las OT en estado “cerrada” permanecen activas en el módulo. Las OT que no se ejecutan deben ser “canceladas”, registrando la razón de la no ejecución mediante comentarios.</p>
+
+<p>Todas las OT cerradas o canceladas, se transfieren mediante un proceso automático a través la transacción “Enviar a Historia”, al módulo de Historia de Mantenimiento.</p>
+
+<p>Se hacen diversos estudios y análisis sobre la información acumulada en la Historia de Mantenimiento, al tiempo que se generan informes sobre la misma: reportes sobre Balance Mensual de Gestión, resúmenes de actividades y costos, información base para Presupuesto y estudios especiales como los reportes de Causas de Fallas, de Pareto, reportes gráficos por variedad de conceptos, índices de Seguimiento e índices de Gestión.</p>
+
+<h2 id="resumen-como-empezar-a-trabajar">Resumen: Como empezar a trabajar</h2>
+
+<p>El uso del programa <strong>AM</strong> Administrador de Mantenimiento se facilita en gran forma si se atienden los procedimientos básicos que se explican a continuación.</p>
+
+<p>Estos procedimientos permiten implementar el programa, organizando la estructura de datos en una forma lógica y simple, sin importar la complejidad propia del área de Mantenimiento o de las funciones administrativas, técnicas u operativas que realice.</p>
+
+<p>La guía general para la implementación exitosa del programa <strong>AM</strong> Administrador de Mantenimiento incluye la realización de los siguientes pasos en ese justo orden:</p>
+
+<ul>
+  <li>Definición de Compañía(s) y perfiles de Usuarios (en la versión <strong>AM</strong> ST solo es necesario la definición de los perfiles de Usuarios).</li>
+  <li>Definición de la Infraestructura.</li>
+  <li>Definición de Activos, Equipos u Objetos de Mantenimiento y su despiece.</li>
+  <li>Incorporación del inventario de Repuestos y Materiales.</li>
+  <li>Definición de los Programas de Mantenimiento.</li>
+  <li>Incorporación de Solicitudes de Servicio y Paros/Averías.</li>
+  <li>Uso rutinario de Órdenes de Trabajo (automáticas y manuales).</li>
+  <li>Gestión de Mantenimiento y compendio de Historia de Mantenimiento.</li>
+</ul>
+
+<blockquote>
+  <p><strong>Nota general:</strong> Una vez ejecutada cada acción de mantenimiento la Orden de Trabajo correspondiente debe ser liquidada, cerrada y posteriormente enviada a Historia de Mantenimiento. Puesto que la generación automática y el ingreso manual de las Órdenes de Trabajo son voluminosos, se debe realizar con frecuencia el envío de tales registros a Historia de Mantenimiento para evitar que la gestión diaria se vea congestionada con actividades ya ejecutadas.</p>
+</blockquote>
+
+<p>De hecho, los procesos periódicos de Balance de Gestión, Reportes, Índices, Paros y distintos análisis y estudios, se realizan principalmente sobre el conjunto de Órdenes de Trabajo que residen en el módulo de Historia de Mantenimiento.</p>
+
+<h2 id="general--a-tener-en-cuenta">General – A tener en cuenta</h2>
+
+<p>A nivel general dentro de <strong>AM</strong> solo es posible especificar campos de minutos (MM) menores o iguales a 59, campos de horas (HH) menores o iguales a 23. De ser necesario el sistema automáticamente convierte los valores ingresados a HH MM. Por ejemplo, si el usuario ingresa 78 MM, el sistema lo interpretará de la siguiente manera: MM se reduce a 18 y se traslada una unidad a HH (78 minutos equivalen a 1 hora y 18 minutos).</p>
+
+<p>La conversión también se da cuando se trata de un campo de días (DD), por ejemplo, si el usuario ingresa 65 HH, el campo HH contendría finalmente 17 y al campo DD se le sumaría (265 horas equivalen a 2 días y 17 horas).</p>
+
+<h2 id="para-entender-codificación-de-reportes">PARA ENTENDER CODIFICACIÓN DE REPORTES</h2>
+
+<h3 id="política-de-codificación">Política de Codificación:</h3>
+
+<p>A continuación, se describe la convención utilizada para la nomenclatura de los Reportes de <strong>AM</strong>. Se ha implementado esta convención con el fin de mejorar el proceso de búsqueda de los mismos.</p>
+
+<p><img src="../../assets/images/cap01/chp01_img63.png" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 13.</strong> Nomenclatura de Reportes</em></p>
+
+<h3 id="módulo-o-categoría-al-que-pertenece-el-reporte">Módulo o Categoría al que pertenece el Reporte:</h3>
+
+<p>Corresponden a las siglas establecidas en <strong>AM</strong> para denominar los módulos o las categorías a las que pertenece el Reporte.</p>
+
+<h4 id="abreviación-de-módulos">Abreviación de Módulos:</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">MM</th>
+      <th style="text-align: left">Descripción</th>
+      <th style="text-align: left">MM</th>
+      <th style="text-align: left">Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><strong>AA</strong></td>
+      <td style="text-align: left">Auditoria</td>
+      <td style="text-align: left"><strong>KX</strong></td>
+      <td style="text-align: left">Kárdex</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>AD</strong></td>
+      <td style="text-align: left">Administración</td>
+      <td style="text-align: left"><strong>MO</strong></td>
+      <td style="text-align: left">Monedas</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>AL</strong></td>
+      <td style="text-align: left">Almacenes</td>
+      <td style="text-align: left"><strong>OC</strong></td>
+      <td style="text-align: left">Otros Conceptos de Costo</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>AT</strong></td>
+      <td style="text-align: left">Acciones técnicas</td>
+      <td style="text-align: left"><strong>OF</strong></td>
+      <td style="text-align: left">Oficios</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>CA</strong></td>
+      <td style="text-align: left">Características</td>
+      <td style="text-align: left"><strong>OP</strong></td>
+      <td style="text-align: left">Operaciones</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>CC</strong></td>
+      <td style="text-align: left">Centros de Costo</td>
+      <td style="text-align: left"><strong>OT</strong></td>
+      <td style="text-align: left">Ordenes de Trabajo</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>CF</strong></td>
+      <td style="text-align: left">Causas de Falla</td>
+      <td style="text-align: left"><strong>PA</strong></td>
+      <td style="text-align: left">Paros y Averías</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>CI</strong></td>
+      <td style="text-align: left">Causas de Cierre</td>
+      <td style="text-align: left"><strong>PD</strong></td>
+      <td style="text-align: left">Pedidos</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>CM</strong></td>
+      <td style="text-align: left">Combustibles</td>
+      <td style="text-align: left"><strong>PM</strong></td>
+      <td style="text-align: left">Programas</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>CN</strong></td>
+      <td style="text-align: left">Contratos</td>
+      <td style="text-align: left"><strong>PR</strong></td>
+      <td style="text-align: left">Proyección</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>CO</strong></td>
+      <td style="text-align: left">Contadores</td>
+      <td style="text-align: left"><strong>RE</strong></td>
+      <td style="text-align: left">Responsables</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>CP</strong></td>
+      <td style="text-align: left">Causas de OT Pendiente</td>
+      <td style="text-align: left"><strong>RF</strong></td>
+      <td style="text-align: left">Referencias</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>CR</strong></td>
+      <td style="text-align: left">Centros Responsables</td>
+      <td style="text-align: left"><strong>RP</strong></td>
+      <td style="text-align: left">Repuestos</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>EF</strong></td>
+      <td style="text-align: left">Efectos de Falla</td>
+      <td style="text-align: left"><strong>SS</strong></td>
+      <td style="text-align: left">Solicitudes de Servicio</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>EQ</strong></td>
+      <td style="text-align: left">Equipos</td>
+      <td style="text-align: left"><strong>TA</strong></td>
+      <td style="text-align: left">Tipo de Actividad</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>ES</strong></td>
+      <td style="text-align: left">Estados</td>
+      <td style="text-align: left"><strong>TE</strong></td>
+      <td style="text-align: left">Terceros</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>HM</strong></td>
+      <td style="text-align: left">Historia de Mantenimiento</td>
+      <td style="text-align: left"><strong>UF</strong></td>
+      <td style="text-align: left">Ubicaciones Físicas</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>KC</strong></td>
+      <td style="text-align: left">Conceptos de Kárdex</td>
+      <td style="text-align: left"><strong>UM</strong></td>
+      <td style="text-align: left">Unidades de Medida</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="tipo-de-reporte">Tipo de Reporte:</h3>
+
+<p>Este indicador permite ver de forma ágil la naturaleza de cada reporte. A continuación, se presenta este listado</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tipo de reporte</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>R</strong></td>
+      <td>Resumen</td>
+    </tr>
+    <tr>
+      <td><strong>P</strong></td>
+      <td>Parcial</td>
+    </tr>
+    <tr>
+      <td><strong>D</strong></td>
+      <td>Detalle</td>
+    </tr>
+    <tr>
+      <td><strong>X</strong></td>
+      <td>Para Exportar</td>
+    </tr>
+    <tr>
+      <td><strong>E</strong></td>
+      <td>Especial</td>
+    </tr>
+    <tr>
+      <td><strong>I</strong></td>
+      <td>índices e Indicadores</td>
+    </tr>
+    <tr>
+      <td><strong>U</strong></td>
+      <td>Personalizado de Usuario</td>
+    </tr>
+    <tr>
+      <td><strong>S</strong></td>
+      <td>Solicitud de Servicio en<strong>HM</strong></td>
+    </tr>
+    <tr>
+      <td><strong>T</strong></td>
+      <td>Paros y Averías en<strong>HM</strong></td>
+    </tr>
+    <tr>
+      <td><strong>G</strong></td>
+      <td>Gráfico</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="recomendaciones-generales">RECOMENDACIONES GENERALES</h2>
+
+<p>A continuación, se describen algunas Recomendaciones Generales acerca del manejo funcional de <strong>AM</strong>.</p>
+
+<ul>
+  <li>En el módulo de Administración del Submenú Valores por Defectos (Programas) se establece el día que inicia la semana número 2 del año, se configura el criterio “Semanas del Año” en Programas de Mantenimiento. De esta manera, <strong>AM</strong> conoce qué día inician las de semanas para el año en curso.
+Para establecer este parámetro, debe tenerse a mano un calendario empresarial de semanas numerado, o en su defecto un calendario normal. Este proceso debe efectuarse al inicio de cada año. Dependiendo de la cultura de trabajo de cada empresa, las semanas pueden iniciar en diferentes días, por ejemplo, los lunes. Debe tenerse en cuenta este tipo de criterios a la hora de establecer dicho parámetro.</li>
+  <li>Verificar en las listas desplegables la función de “Autocompletar”, se debe realizar la selección de esta, tener presente que cuando se es agregada el sistema genera error.</li>
+  <li>Se debe evitar el uso de caracteres <strong>(&amp;, / y #)</strong> en los nombres de los archivos que se van a anexar en <strong>TE, CN, AC, RP, OT, PM, SS, PA, HM.</strong></li>
+  <li>Se debe evitar el uso de <strong>ñ, Ñ</strong> o letras de carácter tipo vocal que emplean tildes en cualquier dato de la Base de Datos.</li>
+</ul>
+
+            </div>
+
+        </article>
+
+    </div>
+</div>
+
+
+    <div id="offcanvas-docs" data-uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar">
+
+        <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+
+        
+        <h5 class="uk-margin-top">Trabajando con AM</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/01_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/01_02_first_look/">Un vistazo a AM</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/01_03_user_interface/">Interfaz de Usuario</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/01_04_concurrence/">Concurrencia en AM</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/01_05_summary/">Resumen</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Infraestructura</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/02_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/02_02_basic_concept/">Conceptos Básicos sobre la Infraestructura</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/02_03_tables/">Tablas de Infraestructura</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/02_04_export/">Exportar</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/02_05_services/">Servicios</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Activos</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/03_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/03_02_basic_concepts/">Conceptos Básicos sobre Activos/Equipos</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/03_03_data_sheet/">Ficha Técnica</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/03_04_parts_list/">Codificación de Activos/Equipos y Generalidades</a></li>
+        
+          
+          
+          <li class=""><a href=""></a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Almacenes, Materiales y Repuestos</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/04_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/04_02_basic_concepts/">Conceptos Básicos sobre Almacenes, Materiales y Repuestos</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/04_03_spare_coding/">Codificación de Repuestos</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/04_04_main_window/">Ventana Principal de Almacén de Repuestos</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Kárdex</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/05_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/05_02_basic_concepts/">Conceptos Básicos sobre el Kárdex de Almacén</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/05_03_movements/">Movimientos de Kárdex</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/05_04_transactions/">Transacciones</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Solicitudes de Servicio</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/07_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/07_02_basic_concepts/">Conceptos Básicos sobre Solicitudes de Servicio</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/07_03_services/">Servicios</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Paros</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/08_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/08_02_basic_concepts/">Conceptos Básicos sobre Paros / Averías</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/08_03_creation/">Creación de Paros</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/08_04_tracking_and_closing/">Seguimiento y Cierre de Paros / Averías</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Órdenes de Trabajo</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/09_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/09_02_basic_concepts/">Conceptos Básicos sobre Órdenes de Trabajo</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/09_03_analysis_and_generation/">Análisis y Generación de Órdenes de Trabajo Programadas</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/09_04_main_window/">Ventana Principal de Órdenes de Trabajo</a></li>
+        
+          
+          
+          <li class=""><a href=""></a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Historia de mantenimiento</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/10_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/10_02_basic_concepts/">Conceptos Básicos</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/10_03_send_to_history/">Enviar a Historia</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/10_04_main_window/">Ventana Principal</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/10_05_periodic_management_balance/">Balance Periódico de Gestión</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Programas de mantenimiento</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/11_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/11_02_basic_concepts/">Conceptos Básicos de Programas de Mantenimiento</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/11_03_main_window/">Ventana Principal de Programas de Mantenimiento</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/11_04_services/">Servicios</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Historia Archivada</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/12_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/12_02_basic_concepts/">Conceptos Básicos</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/12_03_main_window/">Ventana Principal</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/12_04_submenu_window/">Ventana Submenú</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/12_05_transactions/">Transacciones</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">AMsi</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/15_01_working_with_amsi/">Trabajando con AMsi</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_02_ui/">Interfaz de Usuario</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_03_update_profile/">Actualizar Perfil</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_04_create_a_new_request/">Crear Nueva Solicitud</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_05_request_consulting/">Consultar Mis Solicitudes</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_06_request_evaluation/">Evaluar Servicio</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_07_create_a_new_order/">Crear Nueva Orden</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_08_orders_consulting/">Consultar Mis Órdenes</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_09_amsi_administration_access/">Acceso Administración AMsi</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_10_user_settings/">Configuración de Usuarios</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_11_logout/">Exportar Visor de SS/OT</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">AMóvil</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/16_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href=""></a></li>
+        
+          
+          
+          <li class=""><a href=""></a></li>
+        
+          
+          
+          <li class=""><a href=""></a></li>
+        
+          
+          
+          <li class=""><a href=""></a></li>
+        
+        </ul>
+        
+
+    </div>
+</div>
+
+
+    <div id="offcanvas" data-uk-offcanvas="flip: true; overlay: true">
+    <div class="uk-offcanvas-bar">
+
+        <a class="uk-logo uk-margin-small-bottom" href="/"><img src="http://localhost:4000/uploads/winsoftware_logo.svg" alt="AM"></a>
+     
+        <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+      
+        <ul class="uk-nav uk-nav-primary uk-margin-top">
+            
+                
+
+                
+
+                
+                    <li><a href="/" >Inicio</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><a href="/docs/01_01_introduction" >Manual</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><a href="/blog/" >Blog</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><a href="/changelog-timeline/" >Registro de cambios</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><div class="uk-navbar-item"><a class="uk-button uk-button-success" href="/contact/" >Contacto</a></div></li>
+                
+            
+        </ul>
+
+        <div class="uk-margin-top uk-text-center">
+            <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-flex-center uk-grid">
+                
+<div class="uk-first-column">
+    <a href="https://twitter.com/winsoftware_am" data-uk-icon="icon: twitter" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+<div>
+    <a href="https://www.facebook.com/winsoftwaream/" data-uk-icon="icon: facebook" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+
+
+<div>
+    <a href="https://co.linkedin.com/in/win-software-s-a-s-122b7952" data-uk-icon="icon: linkedin" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+
+
+
+<div>
+    <a href="https://winsoftware.com.co/" data-uk-icon="icon: link" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+    
+        <footer class="uk-section uk-text-center uk-text-muted">
+    <div class="uk-container uk-container-small">
+
+        <div>
+            <ul class="uk-subnav uk-flex-center">
+                
+            </ul>
+        </div>
+        <div class="uk-margin-medium">
+            <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-flex-center uk-grid">
+                
+<div class="uk-first-column">
+    <a href="https://twitter.com/winsoftware_am" data-uk-icon="icon: twitter" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+<div>
+    <a href="https://www.facebook.com/winsoftwaream/" data-uk-icon="icon: facebook" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+
+
+<div>
+    <a href="https://co.linkedin.com/in/win-software-s-a-s-122b7952" data-uk-icon="icon: linkedin" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+
+
+
+<div>
+    <a href="https://winsoftware.com.co/" data-uk-icon="icon: link" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+            </div>
+        </div>
+        <div class="uk-margin-medium uk-text-small copyright link-secondary">Made by <a href="https://winsoftware.com.co/">WIN Software</a>.</div>
+
+    </div>
+</footer>
+
+    
+
+    
+
+    <!-- Hook preclosing body -->
+
+    <script>
+        if (window.netlifyIdentity) {
+          window.netlifyIdentity.on("init", user => {
+            if (!user) {
+              window.netlifyIdentity.on("login", () => {
+                document.location.href = "/admin/";
+              });
+            }
+          });
+        }
+      </script>
+
+    </body>
+
+</html>

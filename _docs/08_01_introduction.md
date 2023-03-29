@@ -1,6 +1,6 @@
 ---
 title:  Introducción
-subtitle: este capitulo hablara de los posibles daños y fallas que se pueden presentar, la seccion fda expone como solucionarlo .
+subtitle: Este capítulo habla de los posibles daños y fallas que se pueden presentar, la seccion fda expone como solucionarlo.
 tags: [setup]
 author: win
 order: 08_01

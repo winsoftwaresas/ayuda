@@ -1,0 +1,1593 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Interfaz de Usuario | AM</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Interfaz de Usuario" />
+<meta name="author" content="win" />
+<meta property="og:locale" content="es" />
+<meta name="description" content="Ventana Principal AM" />
+<meta property="og:description" content="Ventana Principal AM" />
+<link rel="canonical" href="http://localhost:4000/docs/01_03_user_interface/" />
+<meta property="og:url" content="http://localhost:4000/docs/01_03_user_interface/" />
+<meta property="og:site_name" content="AM" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-11-30T15:50:23-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Interfaz de Usuario" />
+<script type="application/ld+json">
+{"headline":"Interfaz de Usuario","dateModified":"2021-11-30T15:50:23-05:00","datePublished":"2021-11-30T15:50:23-05:00","author":{"@type":"Person","name":"win"},"@type":"BlogPosting","description":"Ventana Principal AM","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/winsoftware_logo.svg"},"name":"win"},"url":"http://localhost:4000/docs/01_03_user_interface/","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/docs/01_03_user_interface/"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <meta property="og:image" content="http://localhost:4000/uploads/winsoftware_logo.svg"/>
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="shortcut icon" type="image/png" href="/uploads/favicon.png" >
+  <link rel="alternate" type="application/rss+xml" title="AM" href="/feed.xml">
+  <script src="/assets/js/main.js"></script>
+  
+    <script>
+function searchResults(form) {
+
+    var currentItem = null;
+    var search = document.getElementById(form);
+    var results = document.getElementById(form + "-results");
+    var toggle = document.getElementById(form + "-toggle");
+
+    function removeActive() {
+        for (i = 0; i < results.children.length; i++) {
+            results.children[i].classList.remove("uk-background-muted");
+        }
+    }
+
+    // Detect all clicks on the document
+    document.addEventListener("click", function(event) {
+
+        var isClickSearch = false;
+        var isClickResults = false;
+        var isClickSearchToggle = false;
+
+        if (search !== null) {
+            isClickSearch = search.contains(event.target);
+        }
+
+        if (results !== null) {
+            isClickResults = results.contains(event.target);
+        }
+
+        if (toggle !== null) {
+            isClickSearchToggle = toggle.contains(event.target);
+        }
+
+        if (isClickSearch || isClickSearchToggle) {
+            results.style.display = "block";
+        }        
+
+        if (!isClickResults && !isClickSearch && !isClickSearchToggle) {
+            results.style.display = "none";
+        }        
+        
+    });    
+
+    results.addEventListener("mouseover", function(event) {
+
+        removeActive();
+        event.target.parentElement.classList.add("uk-background-muted");
+        currentItem = null;
+
+    });
+
+    results.addEventListener("mouseout", function(event) {
+        event.target.parentElement.classList.remove("uk-background-muted");
+    });
+
+
+    search.addEventListener("keyup", function(event) {
+
+        var resultItems = results.children;
+        var resultCount = results.children.length;
+                                
+        if (event.keyCode === 40) {
+
+            if (currentItem < (resultCount - 1)) {
+                if (currentItem === null) {
+                    currentItem = 0;
+                } else {
+                    removeActive();
+                    currentItem++;
+                }
+                removeActive();
+                resultItems[currentItem].classList.add("uk-background-muted");
+            }
+            
+        } else if (event.keyCode === 38) {
+
+            if (currentItem > 0) {
+                if (currentItem === null) {
+                    currentItem = 0;
+                } else {
+                    removeActive();
+                    currentItem--;
+                }
+                removeActive();
+                resultItems[currentItem].classList.add("uk-background-muted");
+            }
+
+        } else if (event.keyCode === 13) {
+
+            resultItems[currentItem].children[0].click();
+
+        }
+
+    });
+
+}
+</script>
+  
+  <!-- Hook head -->
+  
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script src="http://127.0.0.1:35729/livereload.js"></script></head>
+
+    <body>
+
+    
+        <div data-uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent; top: 200">
+    <nav class="uk-navbar-container">
+        <div class="uk-container">
+            <div data-uk-navbar>
+                <div class="uk-navbar-left">
+                    <a class="uk-navbar-item uk-logo uk-visible@m" href="/"><img src="http://localhost:4000/uploads/winsoftware_logo.svg" alt="AM"></a>
+                    
+                        <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas-docs" data-uk-toggle><span data-uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">AM</span></a>
+                    
+
+                    <ul class="uk-navbar-nav uk-visible@m">
+                        
+                            
+                            
+                            
+                                
+                                    <li><div class="uk-navbar-item"><a class="uk-button uk-button-default" href="/docs/01_01_introduction/" >Manual de usuario</a></div></li>
+                                
+                            
+                        
+                            
+                            
+                            
+                                
+                                    
+                                        <li><a href="#">Registro de cambios</a>
+                                        
+                                            <div class="uk-navbar-dropdown">
+                                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                                    
+                                                    
+                                                        
+                                                        
+                                                        <li><a href="/changelog-timeline/">Línea de tiempo</a></li>
+                                                    
+                                                    
+                                                    
+                                                        
+                                                        
+                                                        <li><a href="/changelog-posts/">Publicaciones</a></li>
+                                                    
+                                                    
+                                                </ul>
+                                            </div>
+                                        
+                                        </li>
+                                                                                                        
+                                
+                            
+                        
+                    </ul>
+                </div>
+                <div class="uk-navbar-center uk-hidden@m">
+                    <a class="uk-navbar-item uk-logo" href="/"><img src="http://localhost:4000/uploads/winsoftware_logo.svg" alt="AM"></a>
+                </div>
+                <div class="uk-navbar-right">
+                    
+                        
+                            <div>
+                                <a id="search-navbar-toggle" class="uk-navbar-toggle" uk-search-icon href="#"></a>
+                                <div class="uk-drop uk-background-default uk-border-rounded" uk-drop="mode: click; pos: left-center; offset: 0">
+                                    <form class="uk-search uk-search-navbar uk-width-1-1" onsubmit="return false;">
+                                        <input id="search-navbar" class="uk-search-input" type="search" placeholder="Buscar respuestas" autofocus autocomplete="off">
+                                    </form>
+                                    <ul id="search-navbar-results" class="uk-position-absolute uk-width-1-1 uk-list"></ul>
+                                </div>
+                            </div>
+                            <script>
+                            SimpleJekyllSearch({
+                                searchInput: document.getElementById('search-navbar'),
+                                resultsContainer: document.getElementById('search-navbar-results'),
+                                noResultsText: '<li class="no-results">No encontré resultados</li>',
+                                searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
+                                json: "/search.json"
+                            });
+                            searchResults("search-navbar");
+                            </script>
+                        
+                    
+
+                    <ul class="uk-navbar-nav uk-visible@m">
+                        
+                            
+                            
+                            
+                                
+                                    <li><div class="uk-navbar-item"><a class="uk-button uk-button-primary-outline" href="https://wa.me/573108304059" target="_blank" ><span uk-icon="whatsapp" class="whatsapp-icon"></span></a></div></li>
+                                
+                            
+                        
+                    </ul>
+
+                    
+                        <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas" data-uk-toggle><span data-uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">Menu</span></a>
+                    
+
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+    
+
+    <div class="uk-section">
+    <div class="uk-container">
+        <div class="uk-grid-large" data-uk-grid>
+
+            <div class="sidebar-fixed-width uk-visible@m">
+                <div class="sidebar-docs uk-position-fixed uk-margin-top">
+                    
+                    <h5>Trabajando con AM</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/01_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/01_02_first_look/">Un vistazo a AM</a></li>
+                    
+                      
+                      
+                      <li class="uk-active"><a href="/docs/01_03_user_interface/">Interfaz de Usuario</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/01_04_concurrence/">Concurrencia en AM</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/01_05_summary/">Resumen</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Infraestructura</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/02_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/02_02_basic_concept/">Conceptos Básicos sobre la Infraestructura</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/02_03_tables/">Tablas de Infraestructura</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/02_04_export/">Exportar</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/02_05_services/">Servicios</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Activos</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/03_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/03_02_basic_concepts/">Conceptos Básicos sobre Activos/Equipos</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/03_03_data_sheet/">Ficha Técnica</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/03_04_parts_list/">Codificación de Activos/Equipos y Generalidades</a></li>
+                    
+                      
+                      
+                      <li class=""><a href=""></a></li>
+                    
+                    </ul>
+                    
+                    <h5>Almacenes, Materiales y Repuestos</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/04_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/04_02_basic_concepts/">Conceptos Básicos sobre Almacenes, Materiales y Repuestos</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/04_03_spare_coding/">Codificación de Repuestos</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/04_04_main_window/">Ventana Principal de Almacén de Repuestos</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Kárdex</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/05_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/05_02_basic_concepts/">Conceptos Básicos sobre el Kárdex de Almacén</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/05_03_movements/">Movimientos de Kárdex</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/05_04_transactions/">Transacciones</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Solicitudes de Servicio</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/07_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/07_02_basic_concepts/">Conceptos Básicos sobre Solicitudes de Servicio</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/07_03_services/">Servicios</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Paros</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/08_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/08_02_basic_concepts/">Conceptos Básicos sobre Paros / Averías</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/08_03_creation/">Creación de Paros</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/08_04_tracking_and_closing/">Seguimiento y Cierre de Paros / Averías</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Órdenes de Trabajo</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/09_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/09_02_basic_concepts/">Conceptos Básicos sobre Órdenes de Trabajo</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/09_03_analysis_and_generation/">Análisis y Generación de Órdenes de Trabajo Programadas</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/09_04_main_window/">Ventana Principal de Órdenes de Trabajo</a></li>
+                    
+                      
+                      
+                      <li class=""><a href=""></a></li>
+                    
+                    </ul>
+                    
+                    <h5>Historia de mantenimiento</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/10_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/10_02_basic_concepts/">Conceptos Básicos</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/10_03_send_to_history/">Enviar a Historia</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/10_04_main_window/">Ventana Principal</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/10_05_periodic_management_balance/">Balance Periódico de Gestión</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Programas de mantenimiento</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/11_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/11_02_basic_concepts/">Conceptos Básicos de Programas de Mantenimiento</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/11_03_main_window/">Ventana Principal de Programas de Mantenimiento</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/11_04_services/">Servicios</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Historia Archivada</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/12_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/12_02_basic_concepts/">Conceptos Básicos</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/12_03_main_window/">Ventana Principal</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/12_04_submenu_window/">Ventana Submenú</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/12_05_transactions/">Transacciones</a></li>
+                    
+                    </ul>
+                    
+                    <h5>AMsi</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_01_working_with_amsi/">Trabajando con AMsi</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_02_ui/">Interfaz de Usuario</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_03_update_profile/">Actualizar Perfil</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_04_create_a_new_request/">Crear Nueva Solicitud</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_05_request_consulting/">Consultar Mis Solicitudes</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_06_request_evaluation/">Evaluar Servicio</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_07_create_a_new_order/">Crear Nueva Orden</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_08_orders_consulting/">Consultar Mis Órdenes</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_09_amsi_administration_access/">Acceso Administración AMsi</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_10_user_settings/">Configuración de Usuarios</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_11_logout/">Exportar Visor de SS/OT</a></li>
+                    
+                    </ul>
+                    
+                    <h5>AMóvil</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/16_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href=""></a></li>
+                    
+                      
+                      
+                      <li class=""><a href=""></a></li>
+                    
+                      
+                      
+                      <li class=""><a href=""></a></li>
+                    
+                      
+                      
+                      <li class=""><a href=""></a></li>
+                    
+                    </ul>
+                    
+                </div>
+            </div>
+
+            <div class="uk-width-1-1 uk-width-expand@m">
+
+                <article class="uk-article">
+
+                    <h1 class="uk-article-title">Interfaz de Usuario</h1>
+
+                    <p class="uk-text-lead uk-text-muted">Aquí se incluye información general sobre los elementos principales presentes en una ventana de AM.</p>
+
+                    <div class="uk-article-meta uk-margin-top uk-margin-medium-bottom uk-flex uk-flex-middle">
+                        
+
+
+  
+  <img class="uk-border-circle avatar" src="http://localhost:4000/uploads/winsoftware.png" alt="WIN Software">
+
+
+<div>
+  
+    Escrito por <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">WIN Software</span></span><br>
+  
+  <time datetime="2021-11-30T15:50:23-05:00" itemprop="datePublished">
+    
+    Nov 30, 2021
+  </time>
+</div>
+                    </div>
+
+                    <div class="article-content link-primary">
+                        <h3 id="ventana-principal-am">Ventana Principal <strong>AM</strong></h3>
+
+<p><img src="https://ayuda.winsoftware.com.co/assets/images/cap01/chp01_img01.png" alt="Procesar imagen" />
+<em><strong>Imagen 1.</strong> Ventana Acceso <strong>AM</strong></em></p>
+
+<p>Los elementos que conforman esta vista principal son:</p>
+
+<h4 id="menú-principal">Menú Principal</h4>
+
+<p>La porción de Menú Principal normalmente está conformada por la barra de opciones que se muestra a continuación.</p>
+
+<p><img src="https://ayuda.winsoftware.com.co/assets/images/cap01/chp01_img02.png" alt="Procesar imagen" />
+<em><strong>Imagen 2.</strong> Ventana Menú Principal</em></p>
+
+<p>En caso de estar trabajando en Infraestructura, se muestra una ventana que se ubica debajo de ella y que detalla los nombres de cada una de las tablas de la Infraestructura. A través de ellas se posibilita el acceso directo al módulo.</p>
+
+<p><img src="https://ayuda.winsoftware.com.co/assets/images/cap01/chp01_img03.png" alt="Procesar imagen" />
+<em><strong>Imagen 3.</strong> Ventana Infraestructura</em></p>
+
+<p>En caso de estar trabajando con Gerente o un usuario administrador, esta barra se complementa listando todas las compañías existentes.</p>
+
+<p><img src="https://ayuda.winsoftware.com.co/assets/images/cap01/chp01_img04.png" alt="Procesar imagen" />
+<em><strong>Imagen 4.</strong> Ventana Administración</em></p>
+
+<h4 id="submenú">Submenú</h4>
+
+<p>El submenú tiene un conjunto de transacciones que se usan para ejecutar funciones operaciones o procedimientos especiales que afectan uno, varios o todos los registros del módulo activo. Al <strong>sobreponer</strong> el mouse por un módulo o una opción del menú principal la pantalla muestra debajo de ella un recuadro como se muestra a continuación:</p>
+
+<p><img src="https://ayuda.winsoftware.com.co/assets/images/cap01/chp01_img05.png" alt="Procesar imagen" />
+<em><strong>Imagen 5.</strong> Submenú <strong>AM</strong></em></p>
+
+<h4 id="ventana-visor">Ventana Visor</h4>
+
+<p><img src="https://ayuda.winsoftware.com.co/assets/images/cap01/chp01_img07.png" alt="Procesar imagen" />
+<em><strong>Imagen 6.</strong> Ventana Visor</em></p>
+
+<p>Es la ventana en la que se lista el total de los registros o aquellos preseleccionados, del módulo activo. Para facilitar su recorrido es posible realizar desplazamientos verticales del cursor tanto hacia el comienzo como hacia el final de la tabla, y desplazamientos horizontales de izquierda a derecha y viceversa.</p>
+
+<p>Los títulos en azul que encabezan las columnas son también botones que permiten ordenar la tabla, según el título seleccionado.</p>
+
+<p>Para elegir un registro de la tabla se da un clic sobre él o se desplaza el cursor con las teclas de desplazamiento.</p>
+
+<p>En la parte superior izquierda de esta ventana se observa la identificación actual del módulo en pantalla que corresponde a la opción del menú seleccionada. También, al lado derecho de esta sección, se encuentra el botón <a class="btn white">Nuevo</a> con el fin de acceder rápidamente a la ventana Detalle con el fin de ingresar un nuevo registro.</p>
+
+<p>En la parte superior derecha se encuentra un conjunto de transacciones de la ventana Visor del módulo seleccionado, para ejecutar funciones, operaciones o procedimientos especiales que afectan uno, varios o todos los registros del módulo activo. Este conjunto de transacciones varía dependiendo del módulo seleccionado.</p>
+
+<p>En la parte inferior izquierda de esta ventana se encuentra el número de registros por página que se quieren visualizar, además de la cantidad de registros totales que conforman la tabla. Como guía existe un indicador a modo de fracción (N/M) que indica el número de registros por página de un total de registros seleccionados (N) sobre el número de registros totales en el módulo (M).</p>
+
+<p>Es por lo anterior que esta fracción se verá afectada al realizarse un “Subgrupo” o filtro en el módulo seleccionado, por lo cual se muestra la cantidad de registros del subgrupo actual en la ventana Visor (N) y el total de registros existentes en el módulo activo (M). Si no hay preselección, los dos números en sus totales son los mismos.</p>
+
+<blockquote>
+  <p><em><strong>Nota:</strong> Es posible configurar el número de registros que conforman una página desde el módulo de Administración, en la opción del submenú “Valores por defecto”.</em></p>
+</blockquote>
+
+<p>En la parte inferior derecha de esta ventana se observan también varios enlaces para navegar avanzando y retrocediendo páginas completas de registros. Como guía existe un indicador sobre la página relativa actual y la posibilidad de ingresar a la primer o última página, sin importar la página en la que se encuentre.</p>
+
+<h4 id="ventana-detalle">Ventana detalle</h4>
+
+<p><img src="https://ayuda.winsoftware.com.co/assets/images/cap01/chp01_img08.png" alt="Procesar imagen" />
+<em><strong>Imagen 7.</strong> Ventana Detalle</em></p>
+
+<p>Es la porción de la pantalla en la que se muestran los datos detallados del registro seleccionado en la ventana Visor. También se visualiza un conjunto de Vistas Parciales o Pestañas que se usan para visualizar porciones específicas de datos del módulo activo; módulo que depende de la opción del menú principal seleccionada. Para visualizar la información completa del registro seleccionado y facilitar su recorrido es posible realizar desplazamientos verticales del cursor tanto hacia el comienzo como hacia el final de la tabla.</p>
+
+<p>Además de la información detallada de un registro, contiene un grupo de botones estándar para la mayoría de las ventanas Detalle que siempre están en la parte superior izquierda de la ventana.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Botón</th>
+      <th style="text-align: left">Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn blue">Nuevo</a></td>
+      <td style="text-align: left">Prepara la ventana Detalle para el ingreso de un nuevo registro, blanqueando cada uno de los campos que son objeto de llenado. Al activarlo el sistema reemplaza la línea de 4 botones por una nueva de 2 botones:<a href="#0" class="btn blue">Insertar</a> que se usa para ingresar el nuevo registro a la base de datos actualizando la ventana Visor, mientras que el botón <a href="#0" class="btn blue">Cancelar</a> aborta el proceso de creación del nuevo registro retornando a la ventana Detalle.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn blue">Copiar</a></td>
+      <td style="text-align: left">Toma una copia instantánea del registro actual, señalado por el cursor en la ventana Visor, y la deja disponible en la ventana Detalle para que sobre ella se hagan las modificaciones necesarias para crear un nuevo registro. Tales modificaciones involucran en la mayoría de los casos aquellos campos clave del registro y otros propios que deben ser particularizados para el nuevo. Al activar este botón el sistema reemplaza la línea de 4 botones por una nueva de 2 botones:<a href="#0" class="btn blue">Insertar</a> que se usa para ingresar el nuevo registro a la base de datos actualizando la ventana Visor, mientras que el botón <a href="#0" class="btn blue">Cancelar</a> aborta el proceso de creación del nuevo registro retornando a la ventana Detalle.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn blue">Actualizar</a></td>
+      <td style="text-align: left">Sirve para guardar o salvar en la base de datos la información que se ha modificado en la ventana Detalle, correspondiente al registro señalado por el cursor en la ventana Visor y registrar allí simultáneamente el mismo cambio.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn blue">Eliminar</a></td>
+      <td style="text-align: left">Se utiliza para borrar un registro de la base de datos y registrar simultáneamente el cambio en la ventana Visor.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>En la parte superior izquierda de esta ventana se observa la identificación actual de la ventana Detalle del módulo en pantalla que corresponde a la opción del menú seleccionada, adicional, el cuadro de chequeo (checkbox) que está ubicado al lado derecho de esta sección,permite habilitarlo para que al finalizar una transacción de inserción, actualización o eliminación, la ventana Detalle permanezca en esta vista.</p>
+
+<p>En la parte superior derecha de esta ventana se observan dos enlaces para navegar avanzando y retrocediendo entre registros. Como guía existe un indicador a modo de fracción que indica el número del registro actual en el que se está posicionado sobre el número deregistros totales en el módulo.</p>
+
+<p>Para salir de la ventana Detalle se puede dar clic a la <strong>X</strong> que se encuentra arriba de los enlaces de navegación, o dar clic por fuera de la ventana Detalle. Ambos, llevan a la ventana Visor.</p>
+
+<h4 id="ventana-menú-de-más-información">Ventana menú de más información</h4>
+
+<p><img src="https://ayuda.winsoftware.com.co/assets/images/cap01/chp01_img09.png" alt="Procesar imagen" />
+<em><strong>Imagen 8.</strong> Ventana menú de mas información</em></p>
+
+<p>Esta ventana se ubica en la parte superior derecha del menú principal. Contiene la siguiente información:</p>
+
+<ul>
+  <li><strong>Compañía</strong>: Indica al usuario el número y nombre de la compañía en la que se encuentra.</li>
+  <li><strong>Usuario conectado:</strong> Indica el login del usuario conectado en la compañía.</li>
+  <li><strong>Limpiar filtros:</strong> Limpia todos los filtros de todos los módulos para desbloquear el acceso a alguno de ellos.</li>
+  <li><strong>Inicio</strong>: Esto conlleva al dashboard de <strong>Inicio</strong> o a la Ventana Principal de <strong>AM</strong>.</li>
+  <li><strong>Interfases:</strong> Se usará para definir los criterios de las interfaces que se realizarán a futuro entre <strong>AM</strong> y otros sistemas propios de la empresa o institución.</li>
+  <li><strong>Cambiar de contraseña:</strong> Permite que el usuario logueado cambie su contraseña.</li>
+  <li><strong>Cerrar Sesión:</strong> Se usa para manejar la sesión del usuario actual con el fin de salir del aplicativo.</li>
+</ul>
+
+<h3 id="ventana-reportes">Ventana Reportes</h3>
+
+<p><img src="https://ayuda.winsoftware.com.co/assets/images/cap01/chp01_img10.png" alt="Procesar imagen" />
+<em><strong>Imagen 9.</strong> Ventana Reportes</em></p>
+
+<p>Esta ventana presenta las opciones de impresión de reportes escritos relacionados con cada módulo del sistema. A esta ventana se llega dando clic al icono de la impresora que se encuentra ubicado en la parte superior derecha de la ventana Visor del módulo seleccionado.</p>
+
+<p><strong>Lista de Selección:</strong> Es la tabla donde aparecen los campos Código, Descripción y Subtítulo. Bajo el título <strong>Código</strong> se listan los códigos de los reportes existentes. Bajo el título <strong>Descripción</strong> se listan los nombres de los reportes existentes. Bajo el título de <strong>Subtítulo</strong> se lista en algunos reportes una descripción adicional del reporte.</p>
+
+<p><strong>Todos los Registros:</strong> Esta opción permite la impresión de todos los Registros existentes en la base de datos relacionados con el módulo actual, sin importar si se ha realizado un subgrupo. Corresponde al número de registros especificados en el denominador de la selección (M).</p>
+
+<p><strong>Registros del Visor:</strong> Esta opción permite hacer una impresión de todos aquellos registros que están seleccionados en el subgrupo actual. Corresponde al número de registros especificados en el numerador de la selección (N).</p>
+
+<p><strong>Registro Seleccionado:</strong> Esta opción permite hacer una impresión del registro que está seleccionado en la Ventana Visor mediante el cursor con la línea verde.</p>
+
+<p><strong>Subtítulo:</strong> Este campo permite registrar un poco menos de una línea de información, tipo documentación del Reporte, para que se imprima bajo el área de título estándar.</p>
+
+<p>Después de seleccionar el tipo de registro se procede a seleccionar el reporte que se desea imprimir; para esto se debe pulsar el botón <a class="btn white">imprimir</a>. De esta manera se abre una ventana visor para formatos PDF, que muestra el reporte seleccionado. De esta misma ventana es posible guardarlo y descargarlo.</p>
+
+<p><img src="https://ayuda.winsoftware.com.co/assets/images/cap01/chp01_img11.png" alt="Procesar imagen" />
+<em><strong>Imagen 10.</strong> Ventana Reporte Impresa</em></p>
+
+<p>Al dar clic al botón <a class="btn white">exportar</a> permite exportar el Reporte seleccionado sin necesidad de imprimirlo a un formato excel. Mientras que, al dar clic al botón <a class="btn white">cerrar</a> se cierra la ventana de la generación de reportes.</p>
+
+<h3 id="otros-elementos-de-la-interfaz-de-usuario">Otros elementos de la Interfaz de Usuario</h3>
+
+<h4 id="los-botones">Los Botones</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Botón</th>
+      <th style="text-align: left">Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn gray">Aceptar</a></td>
+      <td style="text-align: left">Con este botón se salva o graba el registro de datos que se acaba de Ingresar.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a class="btn blue">cancelar <span class="mdi mdi-block-helper"></span></a></td>
+      <td style="text-align: left">Con este botón se cancela cualquier transacción que se esté realizando.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a></td>
+      <td style="text-align: left">Con este botón se salva el registro de datos que se acaba de modificar.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a class="btn blue">copiar <span class="mdi mdi-content-copy"></span></a></td>
+      <td style="text-align: left">Con este botón se copian los datos del registro activo en pantalla, dejando el nuevo registro listo para ser modificado e insertado.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a class="btn blue">Nuevo <span class="mdi mdi-plus-circle-outline"></span></a></td>
+      <td style="text-align: left">Este botón inicializa todos los campos para proceder a ingresar un nuevo registro en cualquier módulo de la Base de Datos.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a class="btn blue">Insertar <span class="mdi mdi-plus-circle-outline"></span></a></td>
+      <td style="text-align: left">Almacena los datos del registro que se acaba de copiar o de crear.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a class="btn blue">eliminar <span class="mdi mdi-delete"></span></a></td>
+      <td style="text-align: left">Borra el registro que se encuentra activo en pantalla, siempre y cuando no tenga vínculos y/o asociaciones. Normalmente aparece un mensaje para confirmar la eliminación.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn gray">Aprobar Presupuesto</a></td>
+      <td style="text-align: left">Este botón se encuentra en el módulo de OT mientras no se haya aprobado el presupuesto de una OT que exige presupuesto. Permite aprobar el presupuesto que ha sido asignado a una OT. Una vez aprobado, es posible iniciar el registro manual del Gasto Real.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn gray">Mano Obra Interna</a></td>
+      <td style="text-align: left">Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ver el detalle de la Mano de Obra Interna presupuestada o usada, respectivamente.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn gray">Mano Obra Externa</a></td>
+      <td style="text-align: left">Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ver el detalle de la Mano de Obra Externa presupuestada o usada, respectivamente.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn gray">Mat y Rep</a></td>
+      <td style="text-align: left">Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ver el detalle de los Materiales y Repuestos.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn gray">O. Conceptos</a></td>
+      <td style="text-align: left">Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ver el detalle de los Otros Conceptos de Costos.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn gray">Ir a Matriz</a></td>
+      <td style="text-align: left">Este botón regresa a la vista de matriz de Presupuesto o gasto real en HI, OT y PM, después de visualizar, ingresar o modificar información detallada de algún concepto de costo.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn gray">Adicionar Mano Obra Interna</a></td>
+      <td style="text-align: left">Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ingresar el detalle de la Mano de Obra Interna presupuestada o usada, respectivamente.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn gray">Adicionar Mano Obra Externa</a></td>
+      <td style="text-align: left">Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ingresar el detalle de la Mano de Obra Externa presupuestada o usada, respectivamente.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn gray">Adicionar Material de repuesto</a></td>
+      <td style="text-align: left">Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ingresar el detalle de los Materiales y Repuestos.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn gray">Adicionar Otro Concepto</a></td>
+      <td style="text-align: left">Este botón se encuentra en la opción Presupuesto (en OT y PM) y en Gasto Real (OT e HI). Permite ingresar el detalle de los Otros Conceptos de Costos.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn gray">Asociar</a></td>
+      <td style="text-align: left">Botón utilizado para registrar la relación entre Activos y sus Repuestos.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn gray">Desasociar</a></td>
+      <td style="text-align: left">En Almacén de Repuestos RP, permite desasociar uno o varios Activos a uno o varios de sus Repuestos asociados.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><span class="mdi mdi-plus-circle icon white"></span></td>
+      <td style="text-align: left"><strong>Agregar</strong><br />Este botón permite adicionar información al registro actual.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn white">Cerrar</a></td>
+      <td style="text-align: left">Con este botón se cierra la ventana de generación de reportes y regresa a la ventana en proceso.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn white">Exportar</a></td>
+      <td style="text-align: left">Este botón permite Exportar los datos qué se encuentran en el visor, a un formato de Excel.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn white">Imprimir</a></td>
+      <td style="text-align: left">Este botón genera el reporte seleccionado en una nueva ventana. Refiérase a_Servicios » Reportes_ en la ventana submenú de cada módulo del sistema.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn blue">Iniciar Sesión</a></td>
+      <td style="text-align: left">Este botón valida el usuario y la contraseña, necesarios para ingresar a <strong>AM</strong>.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn gray">Enviar a Historia</a></td>
+      <td style="text-align: left">Este botón ejecuta el envío de registros de Solicitudes de Servicio, Órdenes de Trabajo Y Paros/Averías cerradas y/o canceladas, hasta el módulo de Historia de Mantenimiento.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn white">Proyectar</a></td>
+      <td style="text-align: left">Inicia el proceso de proyección en PM, con el objetivo de planear y/o presupuestar un periodo de largo plazo, a partir de los PM activos.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn gray">Generar</a></td>
+      <td style="text-align: left">Este botón convierte en OT reales, aquellas OT que fueron resultado del proceso de Analizar que se acaba de ejecutar, en el módulo de OT.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn gray">Modificar FIP</a></td>
+      <td style="text-align: left">En Programas de Mantenimiento, actualiza el valor de la Fecha de Inicio de Período.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><span class="mdi mdi-filter-variant icon white"></span></td>
+      <td style="text-align: left"><strong>Buscar</strong><br />Abre una nueva ventana compuesta (Ventana Visor y Ventana Subgrupo) para realizar una selección que facilite la búsqueda de un registro.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a class="btn white">Mas <span class="mdi mdi-plus-circle"></span></a></td>
+      <td style="text-align: left"><strong>Más</strong><br />Este botón permite hacer unión de selecciones dentro de una opción de subgrupo en una Ventana Visor. Es útil cuando se necesita visualizar conjuntamente dos o más subgrupos.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a class="btn white">Menos <span class="mdi mdi-minus-circle"></span></a></td>
+      <td style="text-align: left"><strong>Menos</strong><br />Este botón permite hacer substracción de un subconjunto desde una selección previa, de subgrupo en una Ventana Visor.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a class="btn white">valores por defecto <span class="mdi mdi-notification-clear-all "></span></a></td>
+      <td style="text-align: left"><strong>Valores Por Defecto</strong><br />Este botón desmarca todos los criterios de selección en un subgrupo para iniciar la conformación de otro subgrupo con un nuevo conjunto de criterios o filtros.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a class="btn white">aceptar <span class="mdi mdi-check-circle"></span></a></td>
+      <td style="text-align: left"><strong>Aceptar</strong><br />Con este botón se realiza el subgrupo o filtro de acuerdo a los criterios de selección.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn gray">Todos Adicionan</a></td>
+      <td style="text-align: left">Activa la función de sumar los nuevos valores a los anteriores en el proceso de actualizar contadores de AC.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn gray">Todos Reemplazan</a></td>
+      <td style="text-align: left">Activa la función de reemplazar los valores anteriores por los nuevos, en el proceso de actualizar contadores de AC.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><span class="mdi mdi-cloud-upload icon white"></span></td>
+      <td style="text-align: left"><strong>Cargar</strong><br />Con este botón se realiza la búsqueda de un anexo, documento, imagen, video, entre otros; que será cargado en la pestaña de Multimedia disponible en varios módulos.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn white">Subir Archivo</a></td>
+      <td style="text-align: left">Con este botón se realiza la carga de un anexo, documento, imagen, video, entre otros; en las opciones de Multimedia disponible en varios módulos.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn gray">Ver Diagrama</a></td>
+      <td style="text-align: left">Con este botón se visualiza en un Diagrama de Gantt, la proyección de los PM activos en el módulo de PM o el listado de las OT analizadas en el módulo de OT.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn gray">Ver Reportes</a></td>
+      <td style="text-align: left">Con este botón se visualiza el listado de los Reportes disponibles en PM y OT, como resultado de los procesos de proyección o analizar, respectivamente.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn gray">Ver RP Asociados</a></td>
+      <td style="text-align: left">Con este botón se visualiza la asociación de uno o varios Repuestos a un Activo, en el módulo de Almacén de Repuestos.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#0" class="btn gray">Ver AC Asociados</a></td>
+      <td style="text-align: left">Con este botón se visualiza la asociación de uno o varios Activos a un Repuesto, en el módulo de Almacén de Repuestos.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><span class="mdi mdi-arrow-left-right icon gray"></span></td>
+      <td style="text-align: left"><strong>Navegador</strong><br /> Con este botón se puede navegar avanzando y retrocediendo páginas completas de registros.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><span class="mdi mdi-magnify icon gray"></span></td>
+      <td style="text-align: left"><strong>Ir A</strong><br />Con este botón se puede buscar un Activo digitando exactamente el código del AC, el código del Repuesto, el consecutivo de una SS o el consecutivo de una OT según el módulo.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><span class="mdi mdi-autorenew icon gray"></span></td>
+      <td style="text-align: left"><strong>Cambiar a TreeGrid</strong><br />Con este botón se pueden visualizar los Activos que están en el módulo o en un subgrupo en una vista de árbol, en la que se parte de las Ubicaciones Físicas, y luego se ven los Activos pertenecientes a esa Ubicación Física y su Despiece.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><span class="mdi mdi-download icon gray"></span></td>
+      <td style="text-align: left"><strong>Descargar</strong><br />Con este botón se puede descargar cualquier campo del módulo seleccionado a Excel.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><span class="mdi mdi-printer icon gray"></span></td>
+      <td style="text-align: left"><strong>Generador de Reportes</strong><br />Con este botón se permite ingresar al listado de Reportes disponibles en el módulo seleccionado.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><span class="mdi mdi-message-alert icon gray"></span></td>
+      <td style="text-align: left"><strong>Indicadores</strong><br />Con este botón se muestra el significado de los colores mostrados en la columna de Indicadores de los módulos de IF, AC, Almacén de Repuestos, PM, SS, PA, OT e HI.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="iniciar-la-ejecución-de-am">Iniciar la ejecución de <strong>AM</strong></h2>
+
+<p>La ejecución de <strong>AM</strong> se inicia activando el link correspondiente a través de un navegador como Chrome o Mozilla.</p>
+
+<p>Si se trata de la versión <strong>AM</strong> PRO, el sistema solicita el nombre de usuario, la selección de la Compañía con la cual desea interactuar y su clave de acceso.</p>
+
+<p>Cuando se trata de la versión <strong>AM</strong> ST el sistema solicita el nombre de usuario y su clave de acceso.</p>
+
+<p><img src="https://ayuda.winsoftware.com.co/assets/images/cap01/chp01_img61.png" alt="Procesar imagen" />
+<em><strong>Imagen 11.</strong> Ventana de Acceso AM</em></p>
+
+<p>Cuando se ha hecho el acceso exitoso al sistema se muestra por defecto una ventana con un tablero de entrada que corresponde a un <em>DashBoard Home</em> que permite visualizar conjuntos de indicadores e información que muestran la forma actual de las cosas en distintos módulos del sistema.</p>
+
+<p><img src="https://ayuda.winsoftware.com.co/assets/images/cap01/chp01_img62.png" alt="Ventana acceso directo" />
+<em><strong>Imagen 12.</strong> Ventana de Acceso AM</em></p>
+
+                        
+                            <div class="share uk-text-center uk-margin-medium-top">
+    
+        <a class="uk-link-muted" href="https://twitter.com/intent/tweet?text=Interfaz de Usuario&url=http://localhost:4000/docs/01_03_user_interface/&via=&related=" rel="nofollow" target="_blank" title="Compartir en Twitter" onclick="window.open(this.href, 'twitter', 'width=550,height=235');return false;"><span data-uk-icon="icon: twitter; ratio: 1.2"></span></a>
+    
+    
+        <a class="uk-link-muted uk-margin-small-left" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fdocs%2F01_03_user_interface%2F" rel="nofollow" target="_blank" title="Compartir en Facebook" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;"><span data-uk-icon="icon: facebook; ratio: 1.2"></span></a>
+    
+</div>
+                        
+                    </div>
+
+                    <!-- Hook post content doc -->
+
+                    <hr class="uk-margin-medium">
+
+                    
+
+
+  
+  
+
+  
+  
+
+  
+  
+    <div class="uk-margin-large-top paginate-post">
+        <div class="uk-child-width-expand@s uk-grid-large uk-pagi" data-uk-grid>
+            <div>
+                
+                  
+                  
+                  
+                    <h5></h5>
+                    <div><a class="remove-underline hvr-back" href="/docs/01_02_first_look/">&larr; Anterior</a></div>
+                
+            </div>
+            <div>
+                
+                  
+                  
+                  
+                    <h5></h5>
+                    <div class="uk-text-right"><a class="remove-underline hvr-forward" href="/docs/01_04_concurrence/">Siguiente &rarr;</a></div>
+                
+            </div>
+        </div>
+    </div>
+    
+
+
+                    <div class="uk-margin-large-top">
+    <h3>Temas relacionados</h3>
+
+    
+    
+    
+
+    <ul class="uk-list link-secondary">
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+        <li><a href="/docs/01_01_introduction/">Introducción</a></li>
+        
+        
+    
+
+    
+
+    
+    
+
+    
+
+    
+        <li><a href="/docs/01_02_first_look/">Un vistazo a AM</a></li>
+        
+        
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+        <li><a href="/docs/02_01_introduction/">Introducción</a></li>
+        
+        
+    
+
+    
+
+    
+    
+
+    
+
+    
+        <li><a href="/docs/02_02_basic_concept/">Conceptos Básicos sobre la Infraestructura</a></li>
+        
+        
+            
+    </ul>
+</div>
+
+
+                    
+                </article>
+
+                <script>
+                    // Table of contents scroll to
+                    UIkit.scroll('#markdown-toc a', {
+                        duration: 400,
+                        offset: 120
+                    });
+                </script>
+
+            </div>
+
+    </div>
+</div>
+
+
+    <div id="offcanvas-docs" data-uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar">
+
+        <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+
+        
+        <h5 class="uk-margin-top">Trabajando con AM</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/01_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/01_02_first_look/">Un vistazo a AM</a></li>
+        
+          
+          
+          <li class="uk-active"><a href="/docs/01_03_user_interface/">Interfaz de Usuario</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/01_04_concurrence/">Concurrencia en AM</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/01_05_summary/">Resumen</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Infraestructura</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/02_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/02_02_basic_concept/">Conceptos Básicos sobre la Infraestructura</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/02_03_tables/">Tablas de Infraestructura</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/02_04_export/">Exportar</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/02_05_services/">Servicios</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Activos</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/03_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/03_02_basic_concepts/">Conceptos Básicos sobre Activos/Equipos</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/03_03_data_sheet/">Ficha Técnica</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/03_04_parts_list/">Codificación de Activos/Equipos y Generalidades</a></li>
+        
+          
+          
+          <li class=""><a href=""></a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Almacenes, Materiales y Repuestos</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/04_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/04_02_basic_concepts/">Conceptos Básicos sobre Almacenes, Materiales y Repuestos</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/04_03_spare_coding/">Codificación de Repuestos</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/04_04_main_window/">Ventana Principal de Almacén de Repuestos</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Kárdex</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/05_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/05_02_basic_concepts/">Conceptos Básicos sobre el Kárdex de Almacén</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/05_03_movements/">Movimientos de Kárdex</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/05_04_transactions/">Transacciones</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Solicitudes de Servicio</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/07_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/07_02_basic_concepts/">Conceptos Básicos sobre Solicitudes de Servicio</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/07_03_services/">Servicios</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Paros</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/08_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/08_02_basic_concepts/">Conceptos Básicos sobre Paros / Averías</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/08_03_creation/">Creación de Paros</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/08_04_tracking_and_closing/">Seguimiento y Cierre de Paros / Averías</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Órdenes de Trabajo</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/09_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/09_02_basic_concepts/">Conceptos Básicos sobre Órdenes de Trabajo</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/09_03_analysis_and_generation/">Análisis y Generación de Órdenes de Trabajo Programadas</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/09_04_main_window/">Ventana Principal de Órdenes de Trabajo</a></li>
+        
+          
+          
+          <li class=""><a href=""></a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Historia de mantenimiento</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/10_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/10_02_basic_concepts/">Conceptos Básicos</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/10_03_send_to_history/">Enviar a Historia</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/10_04_main_window/">Ventana Principal</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/10_05_periodic_management_balance/">Balance Periódico de Gestión</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Programas de mantenimiento</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/11_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/11_02_basic_concepts/">Conceptos Básicos de Programas de Mantenimiento</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/11_03_main_window/">Ventana Principal de Programas de Mantenimiento</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/11_04_services/">Servicios</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Historia Archivada</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/12_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/12_02_basic_concepts/">Conceptos Básicos</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/12_03_main_window/">Ventana Principal</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/12_04_submenu_window/">Ventana Submenú</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/12_05_transactions/">Transacciones</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">AMsi</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/15_01_working_with_amsi/">Trabajando con AMsi</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_02_ui/">Interfaz de Usuario</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_03_update_profile/">Actualizar Perfil</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_04_create_a_new_request/">Crear Nueva Solicitud</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_05_request_consulting/">Consultar Mis Solicitudes</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_06_request_evaluation/">Evaluar Servicio</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_07_create_a_new_order/">Crear Nueva Orden</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_08_orders_consulting/">Consultar Mis Órdenes</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_09_amsi_administration_access/">Acceso Administración AMsi</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_10_user_settings/">Configuración de Usuarios</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_11_logout/">Exportar Visor de SS/OT</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">AMóvil</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/16_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href=""></a></li>
+        
+          
+          
+          <li class=""><a href=""></a></li>
+        
+          
+          
+          <li class=""><a href=""></a></li>
+        
+          
+          
+          <li class=""><a href=""></a></li>
+        
+        </ul>
+        
+
+    </div>
+</div>
+
+
+    <div id="offcanvas" data-uk-offcanvas="flip: true; overlay: true">
+    <div class="uk-offcanvas-bar">
+
+        <a class="uk-logo uk-margin-small-bottom" href="/"><img src="http://localhost:4000/uploads/winsoftware_logo.svg" alt="AM"></a>
+     
+        <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+      
+        <ul class="uk-nav uk-nav-primary uk-margin-top">
+            
+                
+
+                
+
+                
+                    <li><a href="/" >Inicio</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><a href="/docs/01_01_introduction" >Manual</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><a href="/blog/" >Blog</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><a href="/changelog-timeline/" >Registro de cambios</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><div class="uk-navbar-item"><a class="uk-button uk-button-success" href="/contact/" >Contacto</a></div></li>
+                
+            
+        </ul>
+
+        <div class="uk-margin-top uk-text-center">
+            <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-flex-center uk-grid">
+                
+<div class="uk-first-column">
+    <a href="https://twitter.com/winsoftware_am" data-uk-icon="icon: twitter" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+<div>
+    <a href="https://www.facebook.com/winsoftwaream/" data-uk-icon="icon: facebook" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+
+
+<div>
+    <a href="https://co.linkedin.com/in/win-software-s-a-s-122b7952" data-uk-icon="icon: linkedin" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+
+
+
+<div>
+    <a href="https://winsoftware.com.co/" data-uk-icon="icon: link" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+    
+
+    
+        <!-- Hook preclosing body doc -->
+    
+
+    <!-- Hook preclosing body -->
+
+    <script>
+        if (window.netlifyIdentity) {
+          window.netlifyIdentity.on("init", user => {
+            if (!user) {
+              window.netlifyIdentity.on("login", () => {
+                document.location.href = "/admin/";
+              });
+            }
+          });
+        }
+      </script>
+
+    </body>
+
+</html>

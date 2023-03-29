@@ -20,3 +20,9 @@ A continuación se definen los conceptos básicos sobre la conformación de la I
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap02/chp02_img01.png)
 _**Imagen 1.** Infraestructura_
 
+
+
+
+
+
+

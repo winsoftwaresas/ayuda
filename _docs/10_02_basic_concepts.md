@@ -4,7 +4,7 @@ subtitle: En esta sección se aclaran conceptos básicos e importancia de genera
 author: win
 order: 10_02
 ---
-# Conceptos Básicos Historia de Mantenimiento
+# Conceptos Básicos Historia de Mantenimiento (HM)
 
 La Historia de Mantenimiento está conformada por  todas  las Órdenes de Trabajo que fueron creadas manual o automáticamente y que  fueron ejecutadas o no.  O sea que, en la Historia de Mantenimiento es posible ubicar todo lo que se hizo, se hizo bien y a tiempo, pero también lo que no se hizo o no se hizo bien ni a tiempo.
 

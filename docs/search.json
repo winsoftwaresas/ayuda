@@ -1,99 +1,547 @@
 [
   
     {
-      "title"    : "Stoppages - Failures, Damages and Breakdowns (FDA)",
+      "title"    : "◼ Getting started",
       "category" : "",
       "tags"     : "",
-      "url"      : "/docs/10_0_history/",
-      "date"     : "2021-10-28 11:57:08 -0500"
+      "url"      : "/docs/01_00_getting_started/",
+      "date"     : "2023-03-23 08:34:04 -0500"
     } ,
   
     {
-      "title"    : "Historia de Mantenimiento.",
+      "title"    : "Introducción",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/docs/10_1_introduction/",
-      "date"     : "2021-10-28 11:57:08 -0500"
+      "url"      : "/docs/01_01_introduction/",
+      "date"     : "2023-03-23 08:34:04 -0500"
     } ,
   
     {
-      "title"    : "Conceptos Básicos de la Historia de Mantenimiento.",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/docs/10_2_basic_concepts/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Enviar a Historia (Desde Órdenes de Trabajo).",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/docs/10_3_send_to_history/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Ventana Principal de Historia de Mantenimiento.",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/docs/10_4_main_window/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Ventana Principal de Historia de Mantenimiento",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/docs/10_5_export/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Maintenance Programs",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/docs/11_0_maintenance_manager/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Programas de Mantenimiento",
+      "title"    : "Un vistazo a AM",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/docs/11_1_introduction/",
-      "date"     : "2021-10-28 11:57:08 -0500"
+      "url"      : "/docs/01_02_first_look/",
+      "date"     : "2023-03-23 08:34:04 -0500"
     } ,
   
     {
-      "title"    : "Conceptos Básicos sobre Almacenes, Materiales y Repuestos",
+      "title"    : "Interfaz de Usuario",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/docs/11_2_basic_concepts/",
-      "date"     : "2021-10-28 11:57:08 -0500"
+      "url"      : "/docs/01_03_user_interface/",
+      "date"     : "2021-11-30 15:50:23 -0500"
     } ,
   
     {
-      "title"    : "Ventana Principal de Programas de Mantenimiento",
+      "title"    : "Concurrencia en AM",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/docs/01_04_concurrence/",
+      "date"     : "2023-03-23 08:34:04 -0500"
+    } ,
+  
+    {
+      "title"    : "Resumen",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/docs/01_05_summary/",
+      "date"     : "2023-03-23 08:34:04 -0500"
+    } ,
+  
+    {
+      "title"    : "◼ Infraestructure",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/docs/02_00_infraestructure/",
+      "date"     : "2023-03-23 08:34:04 -0500"
+    } ,
+  
+    {
+      "title"    : "Introducción",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/docs/11_3_main_window/",
-      "date"     : "2021-10-28 11:57:08 -0500"
+      "url"      : "/docs/02_01_introduction/",
+      "date"     : "2023-03-23 08:34:04 -0500"
+    } ,
+  
+    {
+      "title"    : "Conceptos Básicos sobre la Infraestructura",
+      "category" : "",
+      "tags"     : "setup",
+      "url"      : "/docs/02_02_basic_concept/",
+      "date"     : "2023-03-23 08:34:04 -0500"
+    } ,
+  
+    {
+      "title"    : "Tablas de Infraestructura",
+      "category" : "",
+      "tags"     : "setup",
+      "url"      : "/docs/02_03_tables/",
+      "date"     : "2023-03-23 08:34:04 -0500"
+    } ,
+  
+    {
+      "title"    : "Exportar",
+      "category" : "",
+      "tags"     : "setup",
+      "url"      : "/docs/02_04_export/",
+      "date"     : "2023-03-23 08:34:04 -0500"
     } ,
   
     {
       "title"    : "Servicios",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/docs/11_4_services/",
-      "date"     : "2021-10-28 11:57:08 -0500"
+      "url"      : "/docs/02_05_services/",
+      "date"     : "2023-03-23 08:34:04 -0500"
     } ,
   
     {
-      "title"    : "Solicitudes de Servicio (SS) por Internet e Intranet AMsi",
+      "title"    : "Introducción",
+      "category" : "",
+      "tags"     : "setup",
+      "url"      : "/docs/03_01_introduction/",
+      "date"     : "2023-03-23 08:34:04 -0500"
+    } ,
+  
+    {
+      "title"    : "Conceptos Básicos sobre Activos/Equipos",
+      "category" : "",
+      "tags"     : "setup",
+      "url"      : "/docs/03_02_basic_concepts/",
+      "date"     : "2023-03-23 08:34:04 -0500"
+    } ,
+  
+    {
+      "title"    : "Ficha Técnica",
+      "category" : "",
+      "tags"     : "setup",
+      "url"      : "/docs/03_03_data_sheet/",
+      "date"     : "2023-03-23 08:34:04 -0500"
+    } ,
+  
+    {
+      "title"    : "◼ Warehouses, materials and spare parts",
       "category" : "",
       "tags"     : "",
-      "url"      : "/docs/15_0_amsi/",
-      "date"     : "2021-10-28 11:57:08 -0500"
+      "url"      : "/docs/04_00_warehouses_materials_and_spare_parts/",
+      "date"     : "2023-03-23 08:34:04 -0500"
+    } ,
+  
+    {
+      "title"    : "Introducción",
+      "category" : "",
+      "tags"     : "setup",
+      "url"      : "/docs/04_01_introduction/",
+      "date"     : "2022-03-22 16:20:48 -0500"
+    } ,
+  
+    {
+      "title"    : "Conceptos Básicos sobre Almacenes, Materiales y Repuestos",
+      "category" : "",
+      "tags"     : "setup",
+      "url"      : "/docs/04_02_basic_concepts/",
+      "date"     : "2022-03-22 16:23:27 -0500"
+    } ,
+  
+    {
+      "title"    : "◼ Assets",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/docs/03_00_assets/",
+      "date"     : "2022-08-29 15:02:48 -0500"
+    } ,
+  
+    {
+      "title"    : "Codificación de Repuestos",
+      "category" : "",
+      "tags"     : "setup",
+      "url"      : "/docs/04_03_spare_coding/",
+      "date"     : "2022-11-08 16:57:32 -0500"
+    } ,
+  
+    {
+      "title"    : "Ventana Principal de Almacén de Repuestos",
+      "category" : "",
+      "tags"     : "setup",
+      "url"      : "/docs/04_04_main_window/",
+      "date"     : "2022-11-10 15:17:34 -0500"
+    } ,
+  
+    {
+      "title"    : "Codificación de Activos/Equipos y Generalidades",
+      "category" : "",
+      "tags"     : "setup",
+      "url"      : "/docs/03_04_parts_list/",
+      "date"     : "2022-12-27 16:18:27 -0500"
+    } ,
+  
+    {
+      "title"    : "◼ Kardex",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/docs/05_00_kardex/",
+      "date"     : "2023-03-23 08:34:04 -0500"
+    } ,
+  
+    {
+      "title"    : "Introducción",
+      "category" : "",
+      "tags"     : "setup",
+      "url"      : "/docs/05_01_introduction/",
+      "date"     : "2023-03-23 08:34:04 -0500"
+    } ,
+  
+    {
+      "title"    : "Conceptos Básicos sobre el Kárdex de Almacén",
+      "category" : "",
+      "tags"     : "setup",
+      "url"      : "/docs/05_02_basic_concepts/",
+      "date"     : "2023-03-23 08:34:04 -0500"
+    } ,
+  
+    {
+      "title"    : "Movimientos de Kárdex",
+      "category" : "",
+      "tags"     : "setup",
+      "url"      : "/docs/05_03_movements/",
+      "date"     : "2023-03-23 08:34:04 -0500"
+    } ,
+  
+    {
+      "title"    : "Transacciones",
+      "category" : "",
+      "tags"     : "setup",
+      "url"      : "/docs/05_04_transactions/",
+      "date"     : "2023-03-23 08:34:04 -0500"
+    } ,
+  
+    {
+      "title"    : "Introducción",
+      "category" : "",
+      "tags"     : "setup",
+      "url"      : "/docs/07_01_introduction/",
+      "date"     : "2022-08-08 11:38:48 -0500"
+    } ,
+  
+    {
+      "title"    : "◼ Solicitudes de Servicio",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/docs/07_00_service_requests/",
+      "date"     : "2022-08-29 10:43:53 -0500"
+    } ,
+  
+    {
+      "title"    : "Conceptos Básicos sobre Solicitudes de Servicio",
+      "category" : "",
+      "tags"     : "setup",
+      "url"      : "/docs/07_02_basic_concepts/",
+      "date"     : "2022-08-29 10:46:20 -0500"
+    } ,
+  
+    {
+      "title"    : "◼ Stoppages - Failures, Damages and Breakdowns",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/docs/08_00_stoppages/",
+      "date"     : "2022-08-29 14:51:11 -0500"
+    } ,
+  
+    {
+      "title"    : "Servicios",
+      "category" : "",
+      "tags"     : "setup",
+      "url"      : "/docs/07_03_services/",
+      "date"     : "2022-10-25 16:07:17 -0500"
+    } ,
+  
+    {
+      "title"    : "Introducción",
+      "category" : "",
+      "tags"     : "setup",
+      "url"      : "/docs/08_01_introduction/",
+      "date"     : "2023-03-23 08:34:04 -0500"
+    } ,
+  
+    {
+      "title"    : "Conceptos Básicos sobre Paros / Averías",
+      "category" : "",
+      "tags"     : "setup",
+      "url"      : "/docs/08_02_basic_concepts/",
+      "date"     : "2023-03-23 08:34:04 -0500"
+    } ,
+  
+    {
+      "title"    : "Creación de Paros",
+      "category" : "",
+      "tags"     : "setup",
+      "url"      : "/docs/08_03_creation/",
+      "date"     : "2023-03-23 08:34:04 -0500"
+    } ,
+  
+    {
+      "title"    : "Seguimiento y Cierre de Paros / Averías",
+      "category" : "",
+      "tags"     : "setup",
+      "url"      : "/docs/08_04_tracking_and_closing/",
+      "date"     : "2023-03-23 08:34:04 -0500"
+    } ,
+  
+    {
+      "title"    : "◼ Work orders",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/docs/09_00_work_orders/",
+      "date"     : "2023-03-23 08:34:04 -0500"
+    } ,
+  
+    {
+      "title"    : "Introducción",
+      "category" : "",
+      "tags"     : "setup",
+      "url"      : "/docs/09_01_introduction/",
+      "date"     : "2023-03-23 08:34:04 -0500"
+    } ,
+  
+    {
+      "title"    : "Conceptos Básicos sobre Órdenes de Trabajo",
+      "category" : "",
+      "tags"     : "setup",
+      "url"      : "/docs/09_02_basic_concepts/",
+      "date"     : "2023-03-23 08:34:04 -0500"
+    } ,
+  
+    {
+      "title"    : "Análisis y Generación de Órdenes de Trabajo Programadas",
+      "category" : "",
+      "tags"     : "setup",
+      "url"      : "/docs/09_03_analysis_and_generation/",
+      "date"     : "2023-03-23 08:34:04 -0500"
+    } ,
+  
+    {
+      "title"    : "Ventana Principal de Órdenes de Trabajo",
+      "category" : "",
+      "tags"     : "setup",
+      "url"      : "/docs/09_04_main_window/",
+      "date"     : "2022-02-10 09:45:29 -0500"
+    } ,
+  
+    {
+      "title"    : "◼ History",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/docs/10_00_history/",
+      "date"     : "2023-03-23 08:34:04 -0500"
+    } ,
+  
+    {
+      "title"    : "Introducción",
+      "category" : "",
+      "tags"     : "setup",
+      "url"      : "/docs/10_01_introduction/",
+      "date"     : "2023-03-23 08:34:04 -0500"
+    } ,
+  
+    {
+      "title"    : "Conceptos Básicos",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/docs/10_02_basic_concepts/",
+      "date"     : "2023-03-23 08:34:04 -0500"
+    } ,
+  
+    {
+      "title"    : "Enviar a Historia",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/docs/10_03_send_to_history/",
+      "date"     : "2023-03-23 08:34:04 -0500"
+    } ,
+  
+    {
+      "title"    : "Ventana Principal",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/docs/10_04_main_window/",
+      "date"     : "2022-03-28 15:34:50 -0500"
+    } ,
+  
+    {
+      "title"    : "Balance Periódico de Gestión",
+      "category" : "",
+      "tags"     : "setup",
+      "url"      : "/docs/10_05_periodic_management_balance/",
+      "date"     : "2023-03-23 08:34:04 -0500"
+    } ,
+  
+    {
+      "title"    : "◼ Maintenance programs",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/docs/11_00_maintenance_manager/",
+      "date"     : "2023-03-23 08:34:04 -0500"
+    } ,
+  
+    {
+      "title"    : "Introducción",
+      "category" : "",
+      "tags"     : "setup",
+      "url"      : "/docs/11_01_introduction/",
+      "date"     : "2022-04-26 15:17:34 -0500"
+    } ,
+  
+    {
+      "title"    : "Conceptos Básicos de Programas de Mantenimiento",
+      "category" : "",
+      "tags"     : "setup",
+      "url"      : "/docs/11_02_basic_concepts/",
+      "date"     : "2022-04-26 15:21:00 -0500"
+    } ,
+  
+    {
+      "title"    : "Ventana Principal de Programas de Mantenimiento",
+      "category" : "",
+      "tags"     : "setup",
+      "url"      : "/docs/11_03_main_window/",
+      "date"     : "2022-05-27 10:27:44 -0500"
+    } ,
+  
+    {
+      "title"    : "Servicios",
+      "category" : "",
+      "tags"     : "setup",
+      "url"      : "/docs/11_04_services/",
+      "date"     : "2022-06-13 16:31:07 -0500"
+    } ,
+  
+    {
+      "title"    : "◼ Archived History",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/docs/12_00_archived_history/",
+      "date"     : "2023-03-23 08:34:04 -0500"
+    } ,
+  
+    {
+      "title"    : "Introducción",
+      "category" : "",
+      "tags"     : "setup",
+      "url"      : "/docs/12_01_introduction/",
+      "date"     : "2023-03-23 08:34:04 -0500"
+    } ,
+  
+    {
+      "title"    : "Conceptos Básicos",
+      "category" : "",
+      "tags"     : "setup",
+      "url"      : "/docs/12_02_basic_concepts/",
+      "date"     : "2023-03-23 08:34:04 -0500"
+    } ,
+  
+    {
+      "title"    : "Ventana Principal",
+      "category" : "",
+      "tags"     : "setup",
+      "url"      : "/docs/12_03_main_window/",
+      "date"     : "2023-03-23 08:34:04 -0500"
+    } ,
+  
+    {
+      "title"    : "Ventana Submenú",
+      "category" : "",
+      "tags"     : "setup",
+      "url"      : "/docs/12_04_submenu_window/",
+      "date"     : "2023-03-23 08:34:04 -0500"
+    } ,
+  
+    {
+      "title"    : "Transacciones",
+      "category" : "",
+      "tags"     : "setup",
+      "url"      : "/docs/12_05_transactions/",
+      "date"     : "2023-03-23 08:34:04 -0500"
+    } ,
+  
+    {
+      "title"    : "◼ AMsi",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/docs/15_00_amsi/",
+      "date"     : "2023-03-23 08:34:04 -0500"
+    } ,
+  
+    {
+      "title"    : "Trabajando con AMsi",
+      "category" : "",
+      "tags"     : "AMsi, Solicitudes de servicio",
+      "url"      : "/docs/15_01_working_with_amsi/",
+      "date"     : "2023-03-23 08:34:04 -0500"
+    } ,
+  
+    {
+      "title"    : "Interfaz de Usuario",
+      "category" : "",
+      "tags"     : "AMsi, Interfaz de usuario, Actualizar Perfil",
+      "url"      : "/docs/15_02_ui/",
+      "date"     : "2022-06-14 14:47:24 -0500"
+    } ,
+  
+    {
+      "title"    : "Actualizar Perfil",
+      "category" : "",
+      "tags"     : "AMsi, Actualizar Perfil",
+      "url"      : "/docs/15_03_update_profile/",
+      "date"     : "2022-06-14 14:50:52 -0500"
+    } ,
+  
+    {
+      "title"    : "Crear Nueva Solicitud",
+      "category" : "",
+      "tags"     : "AMsi, Crear Solicitud",
+      "url"      : "/docs/15_04_create_a_new_request/",
+      "date"     : "2022-06-15 09:56:34 -0500"
+    } ,
+  
+    {
+      "title"    : "Consultar Mis Solicitudes",
+      "category" : "",
+      "tags"     : "AMsi, Consultar Solicitudes",
+      "url"      : "/docs/15_05_request_consulting/",
+      "date"     : "2022-06-15 15:00:03 -0500"
+    } ,
+  
+    {
+      "title"    : "Evaluar Servicio",
+      "category" : "",
+      "tags"     : "AMsi, Evaluar Solicitudes, Evaluar Órdenes",
+      "url"      : "/docs/15_06_request_evaluation/",
+      "date"     : "2022-06-21 16:55:17 -0500"
+    } ,
+  
+    {
+      "title"    : "Crear Nueva Orden",
+      "category" : "",
+      "tags"     : "AMsi, Crear Orden en AMsi",
+      "url"      : "/docs/15_07_create_a_new_order/",
+      "date"     : "2022-06-21 17:09:41 -0500"
+    } ,
+  
+    {
+      "title"    : "Consultar Mis Órdenes",
+      "category" : "",
+      "tags"     : "AMsi, Consultar Orden en AMsi",
+      "url"      : "/docs/15_08_orders_consulting/",
+      "date"     : "2022-07-07 14:10:33 -0500"
+    } ,
+  
+    {
+      "title"    : "Acceso Administración AMsi",
+      "category" : "",
+      "tags"     : "AMsi, Configuración Amsi, Acceso admministración AMsi",
+      "url"      : "/docs/15_09_amsi_administration_access/",
+      "date"     : "2022-07-12 16:02:49 -0500"
     } ,
   
     {
@@ -101,655 +549,31 @@
       "category" : "",
       "tags"     : "AMsi, Crear usuarios en AMsi, Asociar centros de costos en AMsi",
       "url"      : "/docs/15_10_user_settings/",
-      "date"     : "2021-10-28 11:57:08 -0500"
+      "date"     : "2022-07-19 08:18:26 -0500"
     } ,
   
     {
-      "title"    : "Cerrar Sesión",
+      "title"    : "Exportar Visor de SS/OT",
       "category" : "",
       "tags"     : "AMsi, Cerrar Sesión en Amsi",
       "url"      : "/docs/15_11_logout/",
-      "date"     : "2021-10-28 11:57:08 -0500"
+      "date"     : "2022-07-19 13:14:18 -0500"
     } ,
   
     {
-      "title"    : "Trabajando con AMsi",
-      "category" : "",
-      "tags"     : "AMsi, Solicitudes de servicio",
-      "url"      : "/docs/15_1_working_with_amsi/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Interfaz de Usuario",
-      "category" : "",
-      "tags"     : "AMsi, Interfaz de usuario, Actualizar Perfil",
-      "url"      : "/docs/15_2_ui/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Actualizar Perfil",
-      "category" : "",
-      "tags"     : "AMsi, Actualizar Perfil",
-      "url"      : "/docs/15_3_update_profile/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Crear Nueva Solicitud",
-      "category" : "",
-      "tags"     : "AMsi, Crear Solicitud",
-      "url"      : "/docs/15_4_create_a_new_request/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Consultar Mis Solicitudes",
-      "category" : "",
-      "tags"     : "AMsi, Consultar Solicitudes",
-      "url"      : "/docs/15_5_request_consulting/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Evaluar Servicio",
-      "category" : "",
-      "tags"     : "AMsi, Evaluar Solicitudes, Evaluar Órdenes",
-      "url"      : "/docs/15_6_request_evaluation/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Crear una nueva Orden",
-      "category" : "",
-      "tags"     : "AMsi, Crear Orden en AMsi",
-      "url"      : "/docs/15_7_create_a_new_order/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Consultar Mis Órdenes",
-      "category" : "",
-      "tags"     : "AMsi, Consultar Orden en AMsi",
-      "url"      : "/docs/15_8_orders_consulting/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Acceso Administración AMsi",
-      "category" : "",
-      "tags"     : "AMsi, Configuración Amsi, Acceso admministración AMsi",
-      "url"      : "/docs/15_9_amsi_administration_access/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Trabajando con AM",
+      "title"    : "◼ AMóvil",
       "category" : "",
       "tags"     : "",
-      "url"      : "/docs/1_0_getting_started/",
-      "date"     : "2021-10-28 11:57:08 -0500"
+      "url"      : "/docs/16_00_AMovil/",
+      "date"     : "2023-03-23 08:34:04 -0500"
     } ,
   
     {
       "title"    : "Introducción",
       "category" : "",
-      "tags"     : "setup",
-      "url"      : "/docs/1_1_introduction/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Un vistazo a AM",
-      "category" : "",
-      "tags"     : "setup",
-      "url"      : "/docs/1_2_first_look/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Interfaz de Usuario",
-      "category" : "",
-      "tags"     : "setup",
-      "url"      : "/docs/1_3_user_interface/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Concurrencia en AM",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/docs/1_4_concurrence/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Resumen Como empezar a trabajar",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/docs/1_5_summary/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Infraestructura",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/docs/2_0_infraestructure/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Infraestructura",
-      "category" : "",
-      "tags"     : "setup",
-      "url"      : "/docs/2_1_introduction/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Conceptos Básicos sobre la Infraestructura",
-      "category" : "",
-      "tags"     : "setup",
-      "url"      : "/docs/2_2_basic_concept/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Tablas de Infraestructura",
-      "category" : "",
-      "tags"     : "setup",
-      "url"      : "/docs/2_3_tables/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Ubicaciones Físicas",
-      "category" : "",
-      "tags"     : "setup",
-      "url"      : "/docs/2_4_locations/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Conceptos de Kárdex",
-      "category" : "",
-      "tags"     : "setup",
-      "url"      : "/docs/2_5_kardex_concepts/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Operaciones",
-      "category" : "",
-      "tags"     : "setup",
-      "url"      : "/docs/2_6_operations/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Infraestructura",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/docs/3_0_assets/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Activos / Equipos, Objetos de Mantenimiento",
-      "category" : "",
-      "tags"     : "setup",
-      "url"      : "/docs/3_1_introduction/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Conceptos Básicos sobre Activos/Equipos",
-      "category" : "",
-      "tags"     : "setup",
-      "url"      : "/docs/3_2_basic_concepts/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Ficha Técnica",
-      "category" : "",
-      "tags"     : "setup",
-      "url"      : "/docs/3_3_data_sheet/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Despiece de Activos / Equipos",
-      "category" : "",
-      "tags"     : "setup",
-      "url"      : "/docs/3_4_parts_list/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "apare parts",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/docs/4_0_warehouses_materials_and_spare_parts/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Almacenes, Materiales y Repuestos",
-      "category" : "",
-      "tags"     : "setup",
-      "url"      : "/docs/4_1_introduction/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Conceptos Básicos sobre Almacenes, Materiales y Repuestos",
-      "category" : "",
-      "tags"     : "setup",
-      "url"      : "/docs/4_2_basic_concepts/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Codificación de Repuestos",
-      "category" : "",
-      "tags"     : "setup",
-      "url"      : "/docs/4_3_spare_coding/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Ventana Principal de Almacén de Repuestos",
-      "category" : "",
-      "tags"     : "setup",
-      "url"      : "/docs/4_4_main_window/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Exportar",
-      "category" : "",
-      "tags"     : "setup",
-      "url"      : "/docs/4_5_export/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Kárdex de Almacén",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/docs/5_0_kardex/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Kárdex de Almacén",
-      "category" : "",
-      "tags"     : "setup",
-      "url"      : "/docs/5_1_introduction/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Conceptos Básicos sobre el Kárdex de Almacén",
-      "category" : "",
-      "tags"     : "setup",
-      "url"      : "/docs/5_2_basic_concepts/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Ventana Movimientos de Kárdex",
-      "category" : "",
-      "tags"     : "setup",
-      "url"      : "/docs/5_3_movements/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Transacciones",
-      "category" : "",
-      "tags"     : "setup",
-      "url"      : "/docs/5_4_transactions/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Service Requests",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/docs/7_0_service_requests/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Solicitudes de Servicio",
-      "category" : "",
-      "tags"     : "setup",
-      "url"      : "/docs/7_1_introduction/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Conceptos Básicos sobre Solicitudes de Servicio",
-      "category" : "",
-      "tags"     : "setup",
-      "url"      : "/docs/7_2_basics_concepts/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Transacciones",
-      "category" : "",
-      "tags"     : "setup",
-      "url"      : "/docs/7_3_transactions/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Exportar",
-      "category" : "",
-      "tags"     : "setup",
-      "url"      : "/docs/7_4_export/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Stoppages - Failures, Damages and Breakdowns ( **FDA**)",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/docs/8_0_stoppages/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Introducción.",
-      "category" : "",
-      "tags"     : "setup",
-      "url"      : "/docs/8_1_introduction/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Conceptos Básicos sobre Paros / Averías.",
-      "category" : "",
-      "tags"     : "setup",
-      "url"      : "/docs/8_2_basic_concepts/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Conceptos Básicos sobre Paros / Averías.",
-      "category" : "",
-      "tags"     : "setup",
-      "url"      : "/docs/8_3_creation/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Seguimiento y Cierre de Paros / Averías.",
-      "category" : "",
-      "tags"     : "setup",
-      "url"      : "/docs/8_4_tracking_and_closing/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "work orders",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/docs/9_0_work_orders/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Introduccion",
-      "category" : "",
-      "tags"     : "setup",
-      "url"      : "/docs/9_1_introduction/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Conceptos Básicos sobre Órdenes de Trabajo",
-      "category" : "",
-      "tags"     : "setup",
-      "url"      : "/docs/9_2_basic_concepts/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Análisis y Generación de Órdenes de Trabajo Programadas",
-      "category" : "",
-      "tags"     : "setup",
-      "url"      : "/docs/9_3_analysis_and_generation/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Ventana Principal de Órdenes de Trabajo",
-      "category" : "",
-      "tags"     : "setup",
-      "url"      : "/docs/9_4_main_window/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Exportar",
-      "category" : "",
-      "tags"     : "setup",
-      "url"      : "/docs/9_5_export/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Adding alerts to content",
-      "category" : "",
-      "tags"     : "features",
-      "url"      : "/docs/alerts/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Google Analytics",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/docs/analytics/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Category boxes section",
-      "category" : "",
-      "tags"     : "features",
-      "url"      : "/docs/boxes/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Creating a changelog",
-      "category" : "",
-      "tags"     : "setup",
-      "url"      : "/docs/changelog/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Enabling comments (via Disqus)",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/docs/comments/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Contact form (via FormSpree)",
-      "category" : "",
-      "tags"     : "setup",
-      "url"      : "/docs/contact/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Call to action section",
-      "category" : "",
-      "tags"     : "features",
-      "url"      : "/docs/cta/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Customization",
-      "category" : "",
-      "tags"     : "customize",
-      "url"      : "/docs/customize/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Development",
-      "category" : "",
-      "tags"     : "customize",
-      "url"      : "/docs/development/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Creating docs posts",
-      "category" : "",
-      "tags"     : "setup",
-      "url"      : "/docs/docs/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Frequently asked questions section",
-      "category" : "",
-      "tags"     : "features, featured",
-      "url"      : "/docs/faq/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Fearured docs section",
-      "category" : "",
-      "tags"     : "features",
-      "url"      : "/docs/featured/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Footer options",
-      "category" : "",
-      "tags"     : "setup",
-      "url"      : "/docs/footer/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Hero page header",
-      "category" : "",
-      "tags"     : "features",
-      "url"      : "/docs/hero/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Theme installation",
-      "category" : "",
-      "tags"     : "setup",
-      "url"      : "/docs/installation/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Adding media to post and doc content",
-      "category" : "",
-      "tags"     : "features, featured",
-      "url"      : "/docs/media/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Navigation bar",
-      "category" : "",
-      "tags"     : "setup",
-      "url"      : "/docs/navigation/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Updating your billing credit card",
-      "category" : "",
-      "tags"     : "othertag",
-      "url"      : "/docs/pages/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Creating your first post in Jekyll",
-      "category" : "",
-      "tags"     : "featured",
-      "url"      : "/docs/posts/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Basic theme setup",
-      "category" : "",
-      "tags"     : "setup",
-      "url"      : "/docs/setup/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Sources and credits",
-      "category" : "",
-      "tags"     : "customize",
-      "url"      : "/docs/sources/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Contacting support",
-      "category" : "",
-      "tags"     : "help, customize",
-      "url"      : "/docs/support/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Team members section",
-      "category" : "",
-      "tags"     : "features",
-      "url"      : "/docs/team/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Adding table of contents to docs",
-      "category" : "",
-      "tags"     : "features",
-      "url"      : "/docs/toc/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Translation",
-      "category" : "",
-      "tags"     : "customize",
-      "url"      : "/docs/translation/",
-      "date"     : "2021-10-28 11:57:08 -0500"
-    } ,
-  
-    {
-      "title"    : "Video lightbox boxes section",
-      "category" : "",
-      "tags"     : "features, featured",
-      "url"      : "/docs/videos/",
-      "date"     : "2021-10-28 11:57:08 -0500"
+      "tags"     : "amóvil",
+      "url"      : "/docs/16_01_introduction/",
+      "date"     : "2023-03-23 08:34:04 -0500"
     } 
   
 ]

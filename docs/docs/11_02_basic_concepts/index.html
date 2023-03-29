@@ -1,0 +1,1428 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Conceptos Básicos de Programas de Mantenimiento | AM</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Conceptos Básicos de Programas de Mantenimiento" />
+<meta name="author" content="win" />
+<meta property="og:locale" content="es" />
+<meta name="description" content="Dentro del ciclo de Gestión de Mantenimiento en el AM los Programas de Mantenimiento (PM) apoyan las tres primeras etapas del ciclo, siendo la primera la Planeación, la segunda la Presupuestación y la tercera la Programación. Para las dos primeras etapas, éste módulo ejecuta el proceso de Proyección, sobre un periodo futuro, de largo plazo, sin generar Órdenes de Trabajo. Para la tercera etapa el proceso de Programación se ejecuta en forma idéntica, desde el módulo de Órdenes de Trabajo. A pesar de que se ejecuta desde allí, la base del proceso son los Programas de Mantenimiento." />
+<meta property="og:description" content="Dentro del ciclo de Gestión de Mantenimiento en el AM los Programas de Mantenimiento (PM) apoyan las tres primeras etapas del ciclo, siendo la primera la Planeación, la segunda la Presupuestación y la tercera la Programación. Para las dos primeras etapas, éste módulo ejecuta el proceso de Proyección, sobre un periodo futuro, de largo plazo, sin generar Órdenes de Trabajo. Para la tercera etapa el proceso de Programación se ejecuta en forma idéntica, desde el módulo de Órdenes de Trabajo. A pesar de que se ejecuta desde allí, la base del proceso son los Programas de Mantenimiento." />
+<link rel="canonical" href="http://localhost:4000/docs/11_02_basic_concepts/" />
+<meta property="og:url" content="http://localhost:4000/docs/11_02_basic_concepts/" />
+<meta property="og:site_name" content="AM" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-04-26T15:21:00-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Conceptos Básicos de Programas de Mantenimiento" />
+<script type="application/ld+json">
+{"headline":"Conceptos Básicos de Programas de Mantenimiento","dateModified":"2022-04-26T15:21:00-05:00","datePublished":"2022-04-26T15:21:00-05:00","author":{"@type":"Person","name":"win"},"@type":"BlogPosting","description":"Dentro del ciclo de Gestión de Mantenimiento en el AM los Programas de Mantenimiento (PM) apoyan las tres primeras etapas del ciclo, siendo la primera la Planeación, la segunda la Presupuestación y la tercera la Programación. Para las dos primeras etapas, éste módulo ejecuta el proceso de Proyección, sobre un periodo futuro, de largo plazo, sin generar Órdenes de Trabajo. Para la tercera etapa el proceso de Programación se ejecuta en forma idéntica, desde el módulo de Órdenes de Trabajo. A pesar de que se ejecuta desde allí, la base del proceso son los Programas de Mantenimiento.","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/winsoftware_logo.svg"},"name":"win"},"url":"http://localhost:4000/docs/11_02_basic_concepts/","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/docs/11_02_basic_concepts/"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <meta property="og:image" content="http://localhost:4000/uploads/winsoftware_logo.svg"/>
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="shortcut icon" type="image/png" href="/uploads/favicon.png" >
+  <link rel="alternate" type="application/rss+xml" title="AM" href="/feed.xml">
+  <script src="/assets/js/main.js"></script>
+  
+    <script>
+function searchResults(form) {
+
+    var currentItem = null;
+    var search = document.getElementById(form);
+    var results = document.getElementById(form + "-results");
+    var toggle = document.getElementById(form + "-toggle");
+
+    function removeActive() {
+        for (i = 0; i < results.children.length; i++) {
+            results.children[i].classList.remove("uk-background-muted");
+        }
+    }
+
+    // Detect all clicks on the document
+    document.addEventListener("click", function(event) {
+
+        var isClickSearch = false;
+        var isClickResults = false;
+        var isClickSearchToggle = false;
+
+        if (search !== null) {
+            isClickSearch = search.contains(event.target);
+        }
+
+        if (results !== null) {
+            isClickResults = results.contains(event.target);
+        }
+
+        if (toggle !== null) {
+            isClickSearchToggle = toggle.contains(event.target);
+        }
+
+        if (isClickSearch || isClickSearchToggle) {
+            results.style.display = "block";
+        }        
+
+        if (!isClickResults && !isClickSearch && !isClickSearchToggle) {
+            results.style.display = "none";
+        }        
+        
+    });    
+
+    results.addEventListener("mouseover", function(event) {
+
+        removeActive();
+        event.target.parentElement.classList.add("uk-background-muted");
+        currentItem = null;
+
+    });
+
+    results.addEventListener("mouseout", function(event) {
+        event.target.parentElement.classList.remove("uk-background-muted");
+    });
+
+
+    search.addEventListener("keyup", function(event) {
+
+        var resultItems = results.children;
+        var resultCount = results.children.length;
+                                
+        if (event.keyCode === 40) {
+
+            if (currentItem < (resultCount - 1)) {
+                if (currentItem === null) {
+                    currentItem = 0;
+                } else {
+                    removeActive();
+                    currentItem++;
+                }
+                removeActive();
+                resultItems[currentItem].classList.add("uk-background-muted");
+            }
+            
+        } else if (event.keyCode === 38) {
+
+            if (currentItem > 0) {
+                if (currentItem === null) {
+                    currentItem = 0;
+                } else {
+                    removeActive();
+                    currentItem--;
+                }
+                removeActive();
+                resultItems[currentItem].classList.add("uk-background-muted");
+            }
+
+        } else if (event.keyCode === 13) {
+
+            resultItems[currentItem].children[0].click();
+
+        }
+
+    });
+
+}
+</script>
+  
+  <!-- Hook head -->
+  
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script src="http://127.0.0.1:35729/livereload.js"></script></head>
+
+    <body>
+
+    
+        <div data-uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent; top: 200">
+    <nav class="uk-navbar-container">
+        <div class="uk-container">
+            <div data-uk-navbar>
+                <div class="uk-navbar-left">
+                    <a class="uk-navbar-item uk-logo uk-visible@m" href="/"><img src="http://localhost:4000/uploads/winsoftware_logo.svg" alt="AM"></a>
+                    
+                        <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas-docs" data-uk-toggle><span data-uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">AM</span></a>
+                    
+
+                    <ul class="uk-navbar-nav uk-visible@m">
+                        
+                            
+                            
+                            
+                                
+                                    <li><div class="uk-navbar-item"><a class="uk-button uk-button-default" href="/docs/01_01_introduction/" >Manual de usuario</a></div></li>
+                                
+                            
+                        
+                            
+                            
+                            
+                                
+                                    
+                                        <li><a href="#">Registro de cambios</a>
+                                        
+                                            <div class="uk-navbar-dropdown">
+                                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                                    
+                                                    
+                                                        
+                                                        
+                                                        <li><a href="/changelog-timeline/">Línea de tiempo</a></li>
+                                                    
+                                                    
+                                                    
+                                                        
+                                                        
+                                                        <li><a href="/changelog-posts/">Publicaciones</a></li>
+                                                    
+                                                    
+                                                </ul>
+                                            </div>
+                                        
+                                        </li>
+                                                                                                        
+                                
+                            
+                        
+                    </ul>
+                </div>
+                <div class="uk-navbar-center uk-hidden@m">
+                    <a class="uk-navbar-item uk-logo" href="/"><img src="http://localhost:4000/uploads/winsoftware_logo.svg" alt="AM"></a>
+                </div>
+                <div class="uk-navbar-right">
+                    
+                        
+                            <div>
+                                <a id="search-navbar-toggle" class="uk-navbar-toggle" uk-search-icon href="#"></a>
+                                <div class="uk-drop uk-background-default uk-border-rounded" uk-drop="mode: click; pos: left-center; offset: 0">
+                                    <form class="uk-search uk-search-navbar uk-width-1-1" onsubmit="return false;">
+                                        <input id="search-navbar" class="uk-search-input" type="search" placeholder="Buscar respuestas" autofocus autocomplete="off">
+                                    </form>
+                                    <ul id="search-navbar-results" class="uk-position-absolute uk-width-1-1 uk-list"></ul>
+                                </div>
+                            </div>
+                            <script>
+                            SimpleJekyllSearch({
+                                searchInput: document.getElementById('search-navbar'),
+                                resultsContainer: document.getElementById('search-navbar-results'),
+                                noResultsText: '<li class="no-results">No encontré resultados</li>',
+                                searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
+                                json: "/search.json"
+                            });
+                            searchResults("search-navbar");
+                            </script>
+                        
+                    
+
+                    <ul class="uk-navbar-nav uk-visible@m">
+                        
+                            
+                            
+                            
+                                
+                                    <li><div class="uk-navbar-item"><a class="uk-button uk-button-primary-outline" href="https://wa.me/573108304059" target="_blank" ><span uk-icon="whatsapp" class="whatsapp-icon"></span></a></div></li>
+                                
+                            
+                        
+                    </ul>
+
+                    
+                        <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas" data-uk-toggle><span data-uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">Menu</span></a>
+                    
+
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+    
+
+    <div class="uk-section">
+    <div class="uk-container">
+        <div class="uk-grid-large" data-uk-grid>
+
+            <div class="sidebar-fixed-width uk-visible@m">
+                <div class="sidebar-docs uk-position-fixed uk-margin-top">
+                    
+                    <h5>Trabajando con AM</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/01_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/01_02_first_look/">Un vistazo a AM</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/01_03_user_interface/">Interfaz de Usuario</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/01_04_concurrence/">Concurrencia en AM</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/01_05_summary/">Resumen</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Infraestructura</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/02_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/02_02_basic_concept/">Conceptos Básicos sobre la Infraestructura</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/02_03_tables/">Tablas de Infraestructura</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/02_04_export/">Exportar</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/02_05_services/">Servicios</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Activos</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/03_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/03_02_basic_concepts/">Conceptos Básicos sobre Activos/Equipos</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/03_03_data_sheet/">Ficha Técnica</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/03_04_parts_list/">Codificación de Activos/Equipos y Generalidades</a></li>
+                    
+                      
+                      
+                      <li class=""><a href=""></a></li>
+                    
+                    </ul>
+                    
+                    <h5>Almacenes, Materiales y Repuestos</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/04_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/04_02_basic_concepts/">Conceptos Básicos sobre Almacenes, Materiales y Repuestos</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/04_03_spare_coding/">Codificación de Repuestos</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/04_04_main_window/">Ventana Principal de Almacén de Repuestos</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Kárdex</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/05_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/05_02_basic_concepts/">Conceptos Básicos sobre el Kárdex de Almacén</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/05_03_movements/">Movimientos de Kárdex</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/05_04_transactions/">Transacciones</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Solicitudes de Servicio</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/07_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/07_02_basic_concepts/">Conceptos Básicos sobre Solicitudes de Servicio</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/07_03_services/">Servicios</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Paros</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/08_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/08_02_basic_concepts/">Conceptos Básicos sobre Paros / Averías</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/08_03_creation/">Creación de Paros</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/08_04_tracking_and_closing/">Seguimiento y Cierre de Paros / Averías</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Órdenes de Trabajo</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/09_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/09_02_basic_concepts/">Conceptos Básicos sobre Órdenes de Trabajo</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/09_03_analysis_and_generation/">Análisis y Generación de Órdenes de Trabajo Programadas</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/09_04_main_window/">Ventana Principal de Órdenes de Trabajo</a></li>
+                    
+                      
+                      
+                      <li class=""><a href=""></a></li>
+                    
+                    </ul>
+                    
+                    <h5>Historia de mantenimiento</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/10_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/10_02_basic_concepts/">Conceptos Básicos</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/10_03_send_to_history/">Enviar a Historia</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/10_04_main_window/">Ventana Principal</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/10_05_periodic_management_balance/">Balance Periódico de Gestión</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Programas de mantenimiento</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/11_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class="uk-active"><a href="/docs/11_02_basic_concepts/">Conceptos Básicos de Programas de Mantenimiento</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/11_03_main_window/">Ventana Principal de Programas de Mantenimiento</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/11_04_services/">Servicios</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Historia Archivada</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/12_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/12_02_basic_concepts/">Conceptos Básicos</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/12_03_main_window/">Ventana Principal</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/12_04_submenu_window/">Ventana Submenú</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/12_05_transactions/">Transacciones</a></li>
+                    
+                    </ul>
+                    
+                    <h5>AMsi</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_01_working_with_amsi/">Trabajando con AMsi</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_02_ui/">Interfaz de Usuario</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_03_update_profile/">Actualizar Perfil</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_04_create_a_new_request/">Crear Nueva Solicitud</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_05_request_consulting/">Consultar Mis Solicitudes</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_06_request_evaluation/">Evaluar Servicio</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_07_create_a_new_order/">Crear Nueva Orden</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_08_orders_consulting/">Consultar Mis Órdenes</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_09_amsi_administration_access/">Acceso Administración AMsi</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_10_user_settings/">Configuración de Usuarios</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_11_logout/">Exportar Visor de SS/OT</a></li>
+                    
+                    </ul>
+                    
+                    <h5>AMóvil</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/16_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href=""></a></li>
+                    
+                      
+                      
+                      <li class=""><a href=""></a></li>
+                    
+                      
+                      
+                      <li class=""><a href=""></a></li>
+                    
+                      
+                      
+                      <li class=""><a href=""></a></li>
+                    
+                    </ul>
+                    
+                </div>
+            </div>
+
+            <div class="uk-width-1-1 uk-width-expand@m">
+
+                <article class="uk-article">
+
+                    <h1 class="uk-article-title">Conceptos Básicos de Programas de Mantenimiento</h1>
+
+                    <p class="uk-text-lead uk-text-muted">aqui se despejaran dudas sobre los conceptos basicos de almacenes, explicando su diversidad, funcionalidad y adaptabilidad a las necesidades del usuario.</p>
+
+                    <div class="uk-article-meta uk-margin-top uk-margin-medium-bottom uk-flex uk-flex-middle">
+                        
+
+
+  
+  <img class="uk-border-circle avatar" src="http://localhost:4000/uploads/winsoftware.png" alt="WIN Software">
+
+
+<div>
+  
+    Escrito por <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">WIN Software</span></span><br>
+  
+  <time datetime="2022-04-26T15:21:00-05:00" itemprop="datePublished">
+    
+    Apr 26, 2022
+  </time>
+</div>
+                    </div>
+
+                    <div class="article-content link-primary">
+                        <p>Dentro del ciclo de Gestión de Mantenimiento en el <strong>AM</strong> los Programas de Mantenimiento (PM) apoyan las tres primeras etapas del ciclo, siendo la primera la Planeación, la segunda la Presupuestación y la tercera la Programación. Para las dos primeras etapas, éste módulo ejecuta el proceso de Proyección, sobre un periodo futuro, de largo plazo, sin generar Órdenes de Trabajo. Para la tercera etapa el proceso de Programación se ejecuta en forma idéntica, desde el módulo de Órdenes de Trabajo. A pesar de que se ejecuta desde allí, la  base del proceso son los Programas de Mantenimiento.</p>
+
+<p>Un Programa de Mantenimiento (PM) es un conjunto de información que permite definir labores de Mantenimiento, para que sean ejecutadas en forma cíclica, repetitiva y periódica o sistemática, sobre un Activo. Ella puede ser de tipos: Preventivo, Predictivo, Metrología,  Lubricación, Inspección, Otros, Otros Mantenimiento y los que se definan en la tabla de Tipos de mantenimiento en el módulo de Infraestructura.</p>
+
+<p>Los Programas de Mantenimiento, son un eje estratégico de <strong>AM</strong>. Ellos son modificables y adecuables mediante la retroalimentación de los resultados obtenidos de distintos análisis sobre la Historia, con el objeto de afinarlos y lograr una proyección para Presupuesto del nuevo periodo, más ajustada y de acuerdo al desempeño real de los periodos anteriores.</p>
+
+<p>Definir un Plan de Mantenimiento para el largo plazo, a través de un conjunto sólido de Programas, sienta las bases para una gestión avanzada, garantizando al grupo gestor de Mantenimiento, la información permanente de sus labores proyectadas a futuro y posibilitando sobre ellas el establecer prioridades y asignar recursos, para garantizar una ejecución eficaz.</p>
+
+<p>Un PM es el conjunto de información que describe una Tarea a ser ejecutada cíclica o sistemáticamente desde el momento de su definición, en adelante. En general, un PM cubre los siguientes tópicos alrededor de la tarea que se programa</p>
+
+<ul>
+  <li>Qué Activo o Activo es el Objeto de la Actividad.</li>
+  <li>Qué Actividad se va a ejecutar. (Descripción del PM).</li>
+  <li>Quién realiza la Actividad (Centro Responsable).</li>
+  <li>Quién asume los Costos de la Actividad (Centro de Costo).</li>
+  <li>Cuánto Tiempo demora la ejecución de la Actividad (Tiempo Estimado).</li>
+  <li>Cuánto cuesta la ejecución de la Actividad (Presupuesto detallado de Costos).</li>
+  <li>Cuándo se debe ejecutar la Actividad (Criterios de Programación).</li>
+  <li>Cómo se debe ejecutar la Actividad (Instructivo o procedimiento a seguir).</li>
+</ul>
+
+<p>Además de la información característica que se acaba de mencionar, un PM se define y enmarca en cada uno de los siguientes atributos: Tipo de Mantenimiento, Tipo de Trabajo y Tipo de Actividad, que denotan el tipo y contexto del mismo. Esta información se complementa con dos definiciones: Prioridad y tiempo improductivo.</p>
+
+<p>Un PM se define con el objeto de que él genere, automáticamente, con la anticipación requerida, una Órden de Trabajo para un Activo, Equipo u Objeto de Mantenimiento, cada vez que se cumpla el criterio interno establecido en el Programa (PM). Se debe recordar que toda la información definida allí se traslada a la OT cuando el PM la genere.</p>
+
+<p>Para definir un PM se requiere haber registrado previamente el Activo, el Centro de Costo, el Centro de Responsable, los Oficios y los Responsables, el Tipo de Actividad de Mantenimiento, al igual que los Repuestos requeridos, todo ello en sus respectivas tablas de Infraestructura, Activos y Repuestos.</p>
+
+<p><strong>Se pueden definir PM de tipo:</strong> Preventivo, Predictivo, Metrología, Lubricación, Inspección, Otro, Otros Mantenimiento y los que se definan en la tabla de Tipos de mantenimiento en el módulo de Infraestructura.</p>
+
+<p>Las demás actividades que pueden ser ejecutadas por el área de Mantenimiento caen en el grupo de actividades no programadas, dentro de las cuales se destacan las Correctivas y aquellas orientadas por  decisiones Técnicas, Operativas o  Administrativas; además las Mejorativas y todas aquellas que no constituyen Mantenimiento: Instalaciones o montajes, Traslado de Activos, Servicios a Producción u otras áreas, entre otras. Todas ellas se crean manualmente en el Módulo de Órdenes.</p>
+
+<h2 id="presupuesto">Presupuesto</h2>
+
+<p>El Presupuesto de un PM es la estimación de los Costos, en los que se puede incurrir al ejecutar la Actividad de Mantenimiento. Está conformado normalmente por tres componentes: Mano de Obra, Materiales/ Repuestos y Otros Conceptos de Costo (Gastos indirectos).</p>
+
+<p>Realizar permanentemente un Control Presupuestal de sus Gastos de Mantenimiento es una labor casi obligante para una organización. <strong>AM</strong> brinda esta posibilidad y para ello, permite definir a nivel de cada PM una matriz de presupuesto, que es la base para el logro del objetivo planteado. Cuando un PM genera una OT, la matriz de presupuesto del PM se traslada a la matriz respectiva en la OT generada.</p>
+
+<p>Crear el Presupuesto a un PM en <em>*AM</em> consiste en hacer una evaluación de las necesidades de recursos de Mano de Obra, Materiales/Repuestos, y Otros Conceptos de Costo, todos ellos discriminados por Tipo de Trabajo y Concepto de Gasto. Con ello, se procede a ingresar los valores en la Matriz de Presupuesto.</p>
+
+<h2 id="fecha-de-inicio-de-período-fip">Fecha de Inicio de Período (FIP)</h2>
+
+<p>La Fecha de Inicio de Periodo (FIP) sirve para definir el inicio de la  vigencia de un Programa. La FIP indica el momento, a partir del cual, se comienza el conteo de tiempo para la generación de una nueva Órden de Trabajo. <strong>Esta fecha corresponde a la ejecución de la última vez (anterior) de la Actividad de Mantenimiento que se está Programando.</strong></p>
+
+<p>En otro contexto, cuando se ha definido un PM cuyo Criterio de Programación no es la Frecuencia sino un <strong>Contador o Semanas del Año</strong>, la FIP tiene una significación especial: se trata de la fecha a partir de la cual entra en vigencia el PM. Esto significa que para los PM con criterio de programación distinto a <strong>Frecuencia</strong>, mientras la  Fecha de Inicio del lapso a programar no sea igual o posterior o a la FIP, no se generan Órdenes de Trabajo, aunque su criterio de programación se cumpla.</p>
+
+<h2 id="fecha-de-última-generación-fug">Fecha de última Generación (FUG)</h2>
+
+<p>La fecha de última generación es informativa; indica el momento en el cual el PM generó, en forma real una Órden de Trabajo, por última vez. Este dato es importante para chequear la fecha de la última generación real, para revisar los intervalos de tiempo  en que se ha dejado de generar Órdenes de Trabajo desde ese PM, por razones como olvido, error en la  programación, cambios en los datos de los Criterios de  Programación, o modificaciones incorrectas de las Fechas de Inicio de Período, entre otras.</p>
+
+<p>La FUG y la FIP son iguales la mayor parte del tiempo. Los únicos dos casos en que ésta premisa no se cumple, son: Primero, en el momento de la creación del PM (la FUG tiene un valor de inicialización) y Segundo, en el momento en que se modifique la FIP a través de la transacción <strong>“Modificar la FIP”</strong>. En cualquier caso, para efectos de generación automática de OT, por criterio Frecuencia, tiene prioridad la FIP.</p>
+
+<h2 id="criterios-de-programación">Criterios de Programación</h2>
+
+<p>A través de ellos se establece cuándo ejecutar las labores de Mantenimiento. Se coloca énfasis en ellos, pues su dominio y administración, son la herramienta clave para distribuir la carga de  la actividad de Mantenimiento programado, permitiendo alcanzar una distribución factible de los recursos de Mantenimiento en un período,  que  minimiza el tiempo improductivo de los Activos y por ende de los paros programados de Producción.</p>
+
+<p><strong>AM</strong> ofrece tres Criterios de Programación: por Frecuencia, por Semanas del Año y por Contador. Sobre cada uno de ellos se presenta un breve estudio a continuación.</p>
+
+<h2 id="frecuencia">Frecuencia</h2>
+
+<p>Define la periodicidad de tiempo con la cual un PM debe generar una Órden de Trabajo; las frecuencias son: Días, Semanas, Meses. A cada Frecuencia se le especifica un Período que la complementa. Un PM con frecuencia Meses y período 1, significa que el PM genera una OT mensualmente; de igual forma, si la frecuencia definida es días y el período especificado es 10, significa que el PM genera una OT cada 10 días.</p>
+
+<p>El Sistema genera una OT obedeciendo al Criterio de Programación que  cumpla las condiciones establecidas en el PM.</p>
+
+<h2 id="semanas-del-año-sa">Semanas del Año (SA)</h2>
+
+<p>Este criterio de programación permite generar OT en cualquier semana del año, con base en eventos programados, sin que haya la necesidad de haber cumplido un ciclo o haber sobrepasado una cantidad de trabajo realizado por el Activo. Para ello se señala una casilla de las 52, una por cada semana, en las que se ha dividido el año. Entonces, un PM por este criterio, genera una OT para cada semana señalada. Las Órdenes de Trabajo de cada semana se generan cuando al rango de Análisis/Generación definido, para la próxima generación, corresponda a una o varias de las semanas señaladas.</p>
+
+<p>Cuando se definan PMs por Semanas del Año (SA), se debe especificar al <strong>AM</strong> cuál es la semana número 1 según el calendario de la organización usuaria. Para ello se debe ir a la opción <a class="btn blue">administración</a> del Menú Principal, <strong>Valores por defecto”</strong> en la opción <strong>Programas</strong> en el submenú. Allí se especifica en qué día de Enero inicia la segunda (2ª) semana del año. <strong>AM</strong> es capaz entonces, con ese dato, de proyectar todas las semanas del año, de  acuerdo al calendario de la organización.</p>
+
+<p>Semanas del Año es un Criterio excluyente en el conjunto. Por lo tanto no se  puede combinar con ninguno de los otros tres Criterios de Programación.</p>
+
+<h2 id="por-contador">Por Contador</h2>
+
+<p>Este criterio se usa cuando el Activo a programar opera bajo una función no uniforme en el tiempo, o sea cuando trabaja por demanda, y mantiene un registro de su operación real, mediante un contador, que puede ser de horas, de kilómetros recorridos, metros hilados, unidades producidas, golpes, revoluciones o moldeadas, entre muchos otros, predefinidos o definibles por el usuario.  Este es un criterio que se usa entonces, para generar OT en función del trabajo realizado por el Activo u Objeto de Mantenimiento.</p>
+
+<p>Para poder usar este criterio en un PM, es necesario que el Activo a  programar, tenga asignado un Contador en su Ficha Técnica, con su respectivo valor y fecha de medición actualizado.</p>
+
+<p>Hay dos modos de definir el Criterio de Programación por Contador, el primero es por <strong>Incremento</strong>, el segundo es por <strong>Límite.</strong></p>
+
+<p>En el primer caso, por <strong>Incremento</strong>, el PM genera una Órden de Trabajo múltiples veces, cada vez que el contador del Activo supere, en el valor de la Recurrencia, al <strong>“Valor del contador al inicio del período”</strong>, definido en el PM. Para establecer cuando generar una OT, se compara el valor actual del contador (del Activo) contra el valor contenido en el campo** “Última Generación de OT”<strong>. Esta diferencia se compara contra el valor en el campo **“Recurrencia”</strong> y si es mayor se genera una OT.</p>
+
+<p>En el segundo caso, por <strong>Límite</strong>, el PM solo genera una Órden de Trabajo cuando el valor actual del contador del Activo llegue al valor contenido en el PM, indicado en el campo Recurrencia (Valor límite, en este caso).</p>
+
+<p>Cuando se define un PM en función de un contador de un Activo, se debe definir un mecanismo administrativo: manual o automático, para  actualizar y mantener al día el contador de ese Activo en <strong>AM</strong>. Se trata de garantizar que tales contadores reflejen permanente la cantidad de trabajo realizado por el equipo.</p>
+
+<p>En los casos en que la actualización de los contadores de los Activos no pueda ser frecuente, <strong>AM</strong> suministra un mecanismo automático que lo simula, mientras se puede realizar una nueva lectura y actualización real a ese contador. Se trata del campo <strong>“Estándar de Planeación”</strong> que se encuentra en la parte inferior de la ventana detalle de <a class="btn blue">Activos</a>. Allí se define una cantidad de trabajo estándar que realiza ese Activo por unidad de tiempo. Este valor es definido con base en una estadística real del trabajo de ese Activo en un período considerable, ojalá no inferior a 1 mes.</p>
+
+<p>En el campo Última Generación de OT es un campo sólo informativo, pues está protegido y es actualizado automático, después de la primera generación automática de OT.</p>
+
+                        
+                            <div class="share uk-text-center uk-margin-medium-top">
+    
+        <a class="uk-link-muted" href="https://twitter.com/intent/tweet?text=Conceptos Básicos de Programas de Mantenimiento&url=http://localhost:4000/docs/11_02_basic_concepts/&via=&related=" rel="nofollow" target="_blank" title="Compartir en Twitter" onclick="window.open(this.href, 'twitter', 'width=550,height=235');return false;"><span data-uk-icon="icon: twitter; ratio: 1.2"></span></a>
+    
+    
+        <a class="uk-link-muted uk-margin-small-left" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fdocs%2F11_02_basic_concepts%2F" rel="nofollow" target="_blank" title="Compartir en Facebook" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;"><span data-uk-icon="icon: facebook; ratio: 1.2"></span></a>
+    
+</div>
+                        
+                    </div>
+
+                    <!-- Hook post content doc -->
+
+                    <hr class="uk-margin-medium">
+
+                    
+
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+    <div class="uk-margin-large-top paginate-post">
+        <div class="uk-child-width-expand@s uk-grid-large uk-pagi" data-uk-grid>
+            <div>
+                
+                  
+                  
+                  
+                    <h5></h5>
+                    <div><a class="remove-underline hvr-back" href="/docs/11_01_introduction/">&larr; Anterior</a></div>
+                
+            </div>
+            <div>
+                
+                  
+                  
+                  
+                    <h5></h5>
+                    <div class="uk-text-right"><a class="remove-underline hvr-forward" href="/docs/11_03_main_window/">Siguiente &rarr;</a></div>
+                
+            </div>
+        </div>
+    </div>
+    
+
+
+                    <div class="uk-margin-large-top">
+    <h3>Temas relacionados</h3>
+
+    
+    
+    
+
+    <ul class="uk-list link-secondary">
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+        <li><a href="/docs/01_01_introduction/">Introducción</a></li>
+        
+        
+    
+
+    
+
+    
+    
+
+    
+
+    
+        <li><a href="/docs/01_02_first_look/">Un vistazo a AM</a></li>
+        
+        
+    
+
+    
+
+    
+    
+
+    
+
+    
+        <li><a href="/docs/01_03_user_interface/">Interfaz de Usuario</a></li>
+        
+        
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+        <li><a href="/docs/02_01_introduction/">Introducción</a></li>
+        
+        
+            
+    </ul>
+</div>
+
+
+                    
+                </article>
+
+                <script>
+                    // Table of contents scroll to
+                    UIkit.scroll('#markdown-toc a', {
+                        duration: 400,
+                        offset: 120
+                    });
+                </script>
+
+            </div>
+
+    </div>
+</div>
+
+
+    <div id="offcanvas-docs" data-uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar">
+
+        <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+
+        
+        <h5 class="uk-margin-top">Trabajando con AM</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/01_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/01_02_first_look/">Un vistazo a AM</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/01_03_user_interface/">Interfaz de Usuario</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/01_04_concurrence/">Concurrencia en AM</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/01_05_summary/">Resumen</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Infraestructura</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/02_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/02_02_basic_concept/">Conceptos Básicos sobre la Infraestructura</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/02_03_tables/">Tablas de Infraestructura</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/02_04_export/">Exportar</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/02_05_services/">Servicios</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Activos</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/03_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/03_02_basic_concepts/">Conceptos Básicos sobre Activos/Equipos</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/03_03_data_sheet/">Ficha Técnica</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/03_04_parts_list/">Codificación de Activos/Equipos y Generalidades</a></li>
+        
+          
+          
+          <li class=""><a href=""></a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Almacenes, Materiales y Repuestos</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/04_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/04_02_basic_concepts/">Conceptos Básicos sobre Almacenes, Materiales y Repuestos</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/04_03_spare_coding/">Codificación de Repuestos</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/04_04_main_window/">Ventana Principal de Almacén de Repuestos</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Kárdex</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/05_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/05_02_basic_concepts/">Conceptos Básicos sobre el Kárdex de Almacén</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/05_03_movements/">Movimientos de Kárdex</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/05_04_transactions/">Transacciones</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Solicitudes de Servicio</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/07_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/07_02_basic_concepts/">Conceptos Básicos sobre Solicitudes de Servicio</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/07_03_services/">Servicios</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Paros</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/08_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/08_02_basic_concepts/">Conceptos Básicos sobre Paros / Averías</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/08_03_creation/">Creación de Paros</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/08_04_tracking_and_closing/">Seguimiento y Cierre de Paros / Averías</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Órdenes de Trabajo</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/09_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/09_02_basic_concepts/">Conceptos Básicos sobre Órdenes de Trabajo</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/09_03_analysis_and_generation/">Análisis y Generación de Órdenes de Trabajo Programadas</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/09_04_main_window/">Ventana Principal de Órdenes de Trabajo</a></li>
+        
+          
+          
+          <li class=""><a href=""></a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Historia de mantenimiento</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/10_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/10_02_basic_concepts/">Conceptos Básicos</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/10_03_send_to_history/">Enviar a Historia</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/10_04_main_window/">Ventana Principal</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/10_05_periodic_management_balance/">Balance Periódico de Gestión</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Programas de mantenimiento</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/11_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class="uk-active"><a href="/docs/11_02_basic_concepts/">Conceptos Básicos de Programas de Mantenimiento</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/11_03_main_window/">Ventana Principal de Programas de Mantenimiento</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/11_04_services/">Servicios</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Historia Archivada</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/12_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/12_02_basic_concepts/">Conceptos Básicos</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/12_03_main_window/">Ventana Principal</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/12_04_submenu_window/">Ventana Submenú</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/12_05_transactions/">Transacciones</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">AMsi</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/15_01_working_with_amsi/">Trabajando con AMsi</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_02_ui/">Interfaz de Usuario</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_03_update_profile/">Actualizar Perfil</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_04_create_a_new_request/">Crear Nueva Solicitud</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_05_request_consulting/">Consultar Mis Solicitudes</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_06_request_evaluation/">Evaluar Servicio</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_07_create_a_new_order/">Crear Nueva Orden</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_08_orders_consulting/">Consultar Mis Órdenes</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_09_amsi_administration_access/">Acceso Administración AMsi</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_10_user_settings/">Configuración de Usuarios</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_11_logout/">Exportar Visor de SS/OT</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">AMóvil</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/16_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href=""></a></li>
+        
+          
+          
+          <li class=""><a href=""></a></li>
+        
+          
+          
+          <li class=""><a href=""></a></li>
+        
+          
+          
+          <li class=""><a href=""></a></li>
+        
+        </ul>
+        
+
+    </div>
+</div>
+
+
+    <div id="offcanvas" data-uk-offcanvas="flip: true; overlay: true">
+    <div class="uk-offcanvas-bar">
+
+        <a class="uk-logo uk-margin-small-bottom" href="/"><img src="http://localhost:4000/uploads/winsoftware_logo.svg" alt="AM"></a>
+     
+        <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+      
+        <ul class="uk-nav uk-nav-primary uk-margin-top">
+            
+                
+
+                
+
+                
+                    <li><a href="/" >Inicio</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><a href="/docs/01_01_introduction" >Manual</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><a href="/blog/" >Blog</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><a href="/changelog-timeline/" >Registro de cambios</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><div class="uk-navbar-item"><a class="uk-button uk-button-success" href="/contact/" >Contacto</a></div></li>
+                
+            
+        </ul>
+
+        <div class="uk-margin-top uk-text-center">
+            <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-flex-center uk-grid">
+                
+<div class="uk-first-column">
+    <a href="https://twitter.com/winsoftware_am" data-uk-icon="icon: twitter" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+<div>
+    <a href="https://www.facebook.com/winsoftwaream/" data-uk-icon="icon: facebook" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+
+
+<div>
+    <a href="https://co.linkedin.com/in/win-software-s-a-s-122b7952" data-uk-icon="icon: linkedin" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+
+
+
+<div>
+    <a href="https://winsoftware.com.co/" data-uk-icon="icon: link" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+    
+
+    
+        <!-- Hook preclosing body doc -->
+    
+
+    <!-- Hook preclosing body -->
+
+    <script>
+        if (window.netlifyIdentity) {
+          window.netlifyIdentity.on("init", user => {
+            if (!user) {
+              window.netlifyIdentity.on("login", () => {
+                document.location.href = "/admin/";
+              });
+            }
+          });
+        }
+      </script>
+
+    </body>
+
+</html>

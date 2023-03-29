@@ -1,0 +1,1534 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Movimientos de Kárdex | AM</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Movimientos de Kárdex" />
+<meta name="author" content="win" />
+<meta property="og:locale" content="es" />
+<meta name="description" content="Ventana Detalle Movimientos de Kárdex" />
+<meta property="og:description" content="Ventana Detalle Movimientos de Kárdex" />
+<link rel="canonical" href="http://localhost:4000/docs/05_03_movements/" />
+<meta property="og:url" content="http://localhost:4000/docs/05_03_movements/" />
+<meta property="og:site_name" content="AM" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-03-23T08:34:04-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Movimientos de Kárdex" />
+<script type="application/ld+json">
+{"headline":"Movimientos de Kárdex","dateModified":"2023-03-23T08:34:04-05:00","datePublished":"2023-03-23T08:34:04-05:00","author":{"@type":"Person","name":"win"},"@type":"BlogPosting","description":"Ventana Detalle Movimientos de Kárdex","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/winsoftware_logo.svg"},"name":"win"},"url":"http://localhost:4000/docs/05_03_movements/","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/docs/05_03_movements/"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <meta property="og:image" content="http://localhost:4000/uploads/winsoftware_logo.svg"/>
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="shortcut icon" type="image/png" href="/uploads/favicon.png" >
+  <link rel="alternate" type="application/rss+xml" title="AM" href="/feed.xml">
+  <script src="/assets/js/main.js"></script>
+  
+    <script>
+function searchResults(form) {
+
+    var currentItem = null;
+    var search = document.getElementById(form);
+    var results = document.getElementById(form + "-results");
+    var toggle = document.getElementById(form + "-toggle");
+
+    function removeActive() {
+        for (i = 0; i < results.children.length; i++) {
+            results.children[i].classList.remove("uk-background-muted");
+        }
+    }
+
+    // Detect all clicks on the document
+    document.addEventListener("click", function(event) {
+
+        var isClickSearch = false;
+        var isClickResults = false;
+        var isClickSearchToggle = false;
+
+        if (search !== null) {
+            isClickSearch = search.contains(event.target);
+        }
+
+        if (results !== null) {
+            isClickResults = results.contains(event.target);
+        }
+
+        if (toggle !== null) {
+            isClickSearchToggle = toggle.contains(event.target);
+        }
+
+        if (isClickSearch || isClickSearchToggle) {
+            results.style.display = "block";
+        }        
+
+        if (!isClickResults && !isClickSearch && !isClickSearchToggle) {
+            results.style.display = "none";
+        }        
+        
+    });    
+
+    results.addEventListener("mouseover", function(event) {
+
+        removeActive();
+        event.target.parentElement.classList.add("uk-background-muted");
+        currentItem = null;
+
+    });
+
+    results.addEventListener("mouseout", function(event) {
+        event.target.parentElement.classList.remove("uk-background-muted");
+    });
+
+
+    search.addEventListener("keyup", function(event) {
+
+        var resultItems = results.children;
+        var resultCount = results.children.length;
+                                
+        if (event.keyCode === 40) {
+
+            if (currentItem < (resultCount - 1)) {
+                if (currentItem === null) {
+                    currentItem = 0;
+                } else {
+                    removeActive();
+                    currentItem++;
+                }
+                removeActive();
+                resultItems[currentItem].classList.add("uk-background-muted");
+            }
+            
+        } else if (event.keyCode === 38) {
+
+            if (currentItem > 0) {
+                if (currentItem === null) {
+                    currentItem = 0;
+                } else {
+                    removeActive();
+                    currentItem--;
+                }
+                removeActive();
+                resultItems[currentItem].classList.add("uk-background-muted");
+            }
+
+        } else if (event.keyCode === 13) {
+
+            resultItems[currentItem].children[0].click();
+
+        }
+
+    });
+
+}
+</script>
+  
+  <!-- Hook head -->
+  
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script src="http://127.0.0.1:35729/livereload.js"></script></head>
+
+    <body>
+
+    
+        <div data-uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent; top: 200">
+    <nav class="uk-navbar-container">
+        <div class="uk-container">
+            <div data-uk-navbar>
+                <div class="uk-navbar-left">
+                    <a class="uk-navbar-item uk-logo uk-visible@m" href="/"><img src="http://localhost:4000/uploads/winsoftware_logo.svg" alt="AM"></a>
+                    
+                        <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas-docs" data-uk-toggle><span data-uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">AM</span></a>
+                    
+
+                    <ul class="uk-navbar-nav uk-visible@m">
+                        
+                            
+                            
+                            
+                                
+                                    <li><div class="uk-navbar-item"><a class="uk-button uk-button-default" href="/docs/01_01_introduction/" >Manual de usuario</a></div></li>
+                                
+                            
+                        
+                            
+                            
+                            
+                                
+                                    
+                                        <li><a href="#">Registro de cambios</a>
+                                        
+                                            <div class="uk-navbar-dropdown">
+                                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                                    
+                                                    
+                                                        
+                                                        
+                                                        <li><a href="/changelog-timeline/">Línea de tiempo</a></li>
+                                                    
+                                                    
+                                                    
+                                                        
+                                                        
+                                                        <li><a href="/changelog-posts/">Publicaciones</a></li>
+                                                    
+                                                    
+                                                </ul>
+                                            </div>
+                                        
+                                        </li>
+                                                                                                        
+                                
+                            
+                        
+                    </ul>
+                </div>
+                <div class="uk-navbar-center uk-hidden@m">
+                    <a class="uk-navbar-item uk-logo" href="/"><img src="http://localhost:4000/uploads/winsoftware_logo.svg" alt="AM"></a>
+                </div>
+                <div class="uk-navbar-right">
+                    
+                        
+                            <div>
+                                <a id="search-navbar-toggle" class="uk-navbar-toggle" uk-search-icon href="#"></a>
+                                <div class="uk-drop uk-background-default uk-border-rounded" uk-drop="mode: click; pos: left-center; offset: 0">
+                                    <form class="uk-search uk-search-navbar uk-width-1-1" onsubmit="return false;">
+                                        <input id="search-navbar" class="uk-search-input" type="search" placeholder="Buscar respuestas" autofocus autocomplete="off">
+                                    </form>
+                                    <ul id="search-navbar-results" class="uk-position-absolute uk-width-1-1 uk-list"></ul>
+                                </div>
+                            </div>
+                            <script>
+                            SimpleJekyllSearch({
+                                searchInput: document.getElementById('search-navbar'),
+                                resultsContainer: document.getElementById('search-navbar-results'),
+                                noResultsText: '<li class="no-results">No encontré resultados</li>',
+                                searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
+                                json: "/search.json"
+                            });
+                            searchResults("search-navbar");
+                            </script>
+                        
+                    
+
+                    <ul class="uk-navbar-nav uk-visible@m">
+                        
+                            
+                            
+                            
+                                
+                                    <li><div class="uk-navbar-item"><a class="uk-button uk-button-primary-outline" href="https://wa.me/573108304059" target="_blank" ><span uk-icon="whatsapp" class="whatsapp-icon"></span></a></div></li>
+                                
+                            
+                        
+                    </ul>
+
+                    
+                        <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas" data-uk-toggle><span data-uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">Menu</span></a>
+                    
+
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+    
+
+    <div class="uk-section">
+    <div class="uk-container">
+        <div class="uk-grid-large" data-uk-grid>
+
+            <div class="sidebar-fixed-width uk-visible@m">
+                <div class="sidebar-docs uk-position-fixed uk-margin-top">
+                    
+                    <h5>Trabajando con AM</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/01_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/01_02_first_look/">Un vistazo a AM</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/01_03_user_interface/">Interfaz de Usuario</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/01_04_concurrence/">Concurrencia en AM</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/01_05_summary/">Resumen</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Infraestructura</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/02_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/02_02_basic_concept/">Conceptos Básicos sobre la Infraestructura</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/02_03_tables/">Tablas de Infraestructura</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/02_04_export/">Exportar</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/02_05_services/">Servicios</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Activos</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/03_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/03_02_basic_concepts/">Conceptos Básicos sobre Activos/Equipos</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/03_03_data_sheet/">Ficha Técnica</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/03_04_parts_list/">Codificación de Activos/Equipos y Generalidades</a></li>
+                    
+                      
+                      
+                      <li class=""><a href=""></a></li>
+                    
+                    </ul>
+                    
+                    <h5>Almacenes, Materiales y Repuestos</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/04_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/04_02_basic_concepts/">Conceptos Básicos sobre Almacenes, Materiales y Repuestos</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/04_03_spare_coding/">Codificación de Repuestos</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/04_04_main_window/">Ventana Principal de Almacén de Repuestos</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Kárdex</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/05_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/05_02_basic_concepts/">Conceptos Básicos sobre el Kárdex de Almacén</a></li>
+                    
+                      
+                      
+                      <li class="uk-active"><a href="/docs/05_03_movements/">Movimientos de Kárdex</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/05_04_transactions/">Transacciones</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Solicitudes de Servicio</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/07_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/07_02_basic_concepts/">Conceptos Básicos sobre Solicitudes de Servicio</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/07_03_services/">Servicios</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Paros</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/08_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/08_02_basic_concepts/">Conceptos Básicos sobre Paros / Averías</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/08_03_creation/">Creación de Paros</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/08_04_tracking_and_closing/">Seguimiento y Cierre de Paros / Averías</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Órdenes de Trabajo</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/09_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/09_02_basic_concepts/">Conceptos Básicos sobre Órdenes de Trabajo</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/09_03_analysis_and_generation/">Análisis y Generación de Órdenes de Trabajo Programadas</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/09_04_main_window/">Ventana Principal de Órdenes de Trabajo</a></li>
+                    
+                      
+                      
+                      <li class=""><a href=""></a></li>
+                    
+                    </ul>
+                    
+                    <h5>Historia de mantenimiento</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/10_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/10_02_basic_concepts/">Conceptos Básicos</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/10_03_send_to_history/">Enviar a Historia</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/10_04_main_window/">Ventana Principal</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/10_05_periodic_management_balance/">Balance Periódico de Gestión</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Programas de mantenimiento</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/11_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/11_02_basic_concepts/">Conceptos Básicos de Programas de Mantenimiento</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/11_03_main_window/">Ventana Principal de Programas de Mantenimiento</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/11_04_services/">Servicios</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Historia Archivada</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/12_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/12_02_basic_concepts/">Conceptos Básicos</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/12_03_main_window/">Ventana Principal</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/12_04_submenu_window/">Ventana Submenú</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/12_05_transactions/">Transacciones</a></li>
+                    
+                    </ul>
+                    
+                    <h5>AMsi</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_01_working_with_amsi/">Trabajando con AMsi</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_02_ui/">Interfaz de Usuario</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_03_update_profile/">Actualizar Perfil</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_04_create_a_new_request/">Crear Nueva Solicitud</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_05_request_consulting/">Consultar Mis Solicitudes</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_06_request_evaluation/">Evaluar Servicio</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_07_create_a_new_order/">Crear Nueva Orden</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_08_orders_consulting/">Consultar Mis Órdenes</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_09_amsi_administration_access/">Acceso Administración AMsi</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_10_user_settings/">Configuración de Usuarios</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_11_logout/">Exportar Visor de SS/OT</a></li>
+                    
+                    </ul>
+                    
+                    <h5>AMóvil</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/16_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href=""></a></li>
+                    
+                      
+                      
+                      <li class=""><a href=""></a></li>
+                    
+                      
+                      
+                      <li class=""><a href=""></a></li>
+                    
+                      
+                      
+                      <li class=""><a href=""></a></li>
+                    
+                    </ul>
+                    
+                </div>
+            </div>
+
+            <div class="uk-width-1-1 uk-width-expand@m">
+
+                <article class="uk-article">
+
+                    <h1 class="uk-article-title">Movimientos de Kárdex</h1>
+
+                    <p class="uk-text-lead uk-text-muted">Explicación de comandos y demás características de los movimientos de Kárdex</p>
+
+                    <div class="uk-article-meta uk-margin-top uk-margin-medium-bottom uk-flex uk-flex-middle">
+                        
+
+
+  
+  <img class="uk-border-circle avatar" src="http://localhost:4000/uploads/winsoftware.png" alt="WIN Software">
+
+
+<div>
+  
+    Escrito por <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">WIN Software</span></span><br>
+  
+  <time datetime="" itemprop="datePublished">
+    
+    
+  </time>
+</div>
+                    </div>
+
+                    <div class="article-content link-primary">
+                        <h1 id="ventana-detalle-movimientos-de-kárdex">Ventana Detalle Movimientos de Kárdex</h1>
+
+<p><img src="https://ayuda.winsoftware.com.co/assets/images/cap05/chp05_img05.png" alt="Procesar imagen" />
+<em><strong>Imagen 4.</strong> Kárdex - Ventana Detalle Movimientos</em></p>
+
+<p>A esta ventana se llega haciendo clic sobre la pestaña <strong>“Movimientos”</strong> ubicada al lado derecho de la pestaña principal <strong>“Documentos”</strong> en un registro de Kárdex. A través de ella se ejecutan todas las funciones dedicadas a administrar el Movimiento de Entrada, de Salida, o de cualquier tipo de Ajuste, de los Materiales y Repuestos contenidos en el Almacén o Almacenes de la compañía activa. A continuación se ilustran las porciones que la componen.</p>
+
+<p>Los movimientos a ingresar se habilitan según el tipo de Documento, es decir, si es un documento de Salida, el sistema sólo habilita movimientos de <strong>salida</strong>, configurados en la tabla de Infraestructura Conceptos de Kárdex.</p>
+
+<p>Desde esta ventana es posible observar los registros de Movimiento de Kárdex  para el Documento actualmente seleccionado. En la parte  superior  del  Visor  es posible visualizar el tipo de transacción que se realiza en ese Documento.</p>
+
+<p>A continuación se describen los campos que  componen el registro.  Sobre cada campo se da una breve explicación.</p>
+
+<p><strong>Código RP:</strong> Especifica el Código o Referencia del Material o Repuesto que fue objeto del movimiento de entrada o salida, según se elija en el  visor de Materiales y Repuestos, que se muestra al dar clic en el icono de subgrupo  <span class="mdi mdi-filter-variant icon white"></span> ubicado en la parte superior derecha. También es posible insertar un Material o Repuesto escribiendo directamente el Código o Referencia del Repuesto exacta en el campo Código RP y para finalizar se presiona la tecla tabular.</p>
+
+<p>Al terminar de digitar o elegir el Material o Repuesto,  se  muestra la siguiente información automática de los siguientes campos:</p>
+
+<p>Descripción RP, $ Unit  y $Unit  del AL. También, al dar clic sobre el icono <span class="mdi mdi-alert-circle-outline"></span>
+aparece un cuadro llamado <a class="btn black"><span class="mdi mdi-swap-vertical-circle">Antes de la Transacción</span></a>, está al lado derecho de este campo y muestra la información del saldo de inventario actual de ese ítem antes de la transacción, una vez se finaliza la transacción del movimiento, se muestra un cuadro adicional llamado  <a class="btn black"><span class="mdi mdi-swap-vertical-circle">después de la Transacción</span></a> y muestra la información del saldo de inventario actual con la que quedó el ítem, luego de finalizarse la transacción.</p>
+
+<p>La información contenida en el cuadro <a class="btn black"><span class="mdi mdi-swap-vertical-circle">Antes de la Transacción</span></a> es:</p>
+
+<ul>
+  <li>
+    <p><strong>Cantidad Actual:</strong> Muestra la cantidad actual en existencia en el almacén del Repuesto  o Material antes del movimiento que se va a registrar. Es un campo que solo despliega datos.</p>
+  </li>
+  <li>
+    <p><strong>Cantidad Disponible:</strong> Muestra la cantidad disponible en el almacén del Repuesto o Material para su consumo, antes del movimiento que se va a registrar. Es un campo que solo despliega datos.</p>
+  </li>
+  <li>
+    <p><strong>Costo Unitario:</strong> Muestra el valor unitario actual del Material o Repuesto antes del movimiento que se va a registrar. Es un campo que solo despliega datos.</p>
+  </li>
+</ul>
+
+<p>La información contenida en el cuadro  <a class="btn black"><span class="mdi mdi-swap-vertical-circle">después de la Transacción</span></a> es:</p>
+
+<ul>
+  <li>
+    <p><strong>Cantidad Actual:</strong> Muestra la cantidad actual en existencia en el almacén del Material o Repuesto, después del movimiento registrado. Es un campo que solo despliega datos.</p>
+  </li>
+  <li>
+    <p><strong>Cantidad Disponible:</strong> Muestra la cantidad disponible en el almacén del Material o Repuesto para su consumo, después del movimiento registrado. Es un campo que solo despliega datos.</p>
+  </li>
+  <li>
+    <p><strong>Costo Unitario:</strong> Muestra el valor unitario actual del Material o Repuesto, después del movimiento registrado. Es un campo que solo despliega datos.</p>
+  </li>
+</ul>
+
+<p><strong>Descripción RP:</strong> Especifica la descripción del Material o Repuesto que fue objeto  del movimiento de entrada o salida.  Es un campo que solo despliega datos y no es modificable por el usuario, por ello se observa bloqueado.</p>
+
+<p><strong>CP:</strong> Especifica el código del Concepto de Kárdex seleccionado. Al dar clic en el campo, se muestra la lista en la que se debe elegir el concepto de kárdex por el cual se realiza el movimiento. La lista se crea de acuerdo al tipo de conceptos que contiene el documento. Ej. Sí el tipo de conceptos que contiene el documento es de  salida, los conceptos que se muestran en la lista son de salida. Los conceptos se definen en la tabla de Conceptos de Kárdex en el módulo de Infraestructura.</p>
+
+<p><strong>FF Transacción:</strong> Es el campo en el que se establece la fecha en la que ocurrió el movimiento. <strong>AM</strong> propone la fecha del día, pero ella puede ser modificada para reflejar la fecha real del  movimiento.  Esta fecha  puede  ser modificable con permisos sobre el Kárdex “Modificar fecha del movimiento en KX” en  “Permisos para ejecución de Procesos” que se otorgan al usuario en  <a class="btn blue">administración</a> en la etiqueta <strong>Permisos Básicos.</strong></p>
+
+<p><strong>Cantidad:</strong>  Es  el  campo  donde  se  registra  la  cantidad  del  Material o Repuesto  en las unidades propias del mismo, que entra o sale del almacén, en la transacción actual.</p>
+
+<p><strong>$ Unit:</strong> Muestra automáticamente el valor unitario, del Material o Repuesto que entra o sale del Almacén en la actual transacción. Es un campo que solo despliega datos y es modificable en transacciones de tipo <strong>Entrada</strong> y <strong>Ajustes.</strong></p>
+
+<p><strong>% Desc:</strong> Se ingresa aquí el porcentaje de Descuento que se va a aplicar al valor unitario <strong>($ Unit)</strong> del Material o Repuesto. También, al registrar el % de Descuento desde la pestaña de Documento, se verá reflejado ese valor en este campo de manera automática. Si no es necesario manejar esta información, no se selecciona la opción de manejo de Descuento y se ingresa solamente el Costo Unitario <strong>($ Unit)</strong>. Este campo se habilita para los documentos de tipo <strong>Entrada.</strong></p>
+
+<p><strong>Desc:</strong> En este campo el sistema calcula automáticamente el descuento valorizado. Este cálculo se realiza a partir del $ Unit y el % Desc diligenciado. No es un campo modificable por el usuario, por ello se observa bloqueado.</p>
+
+<p><strong>% Iva:</strong> Se ingresa aquí el porcentaje de IVA que se va a  aplicar  al valor unitario ($ Unit). También, al registrar el % IVA desde la pestaña de Documento, se verá reflejado ese valor en este campo, de manera automática. Si no es necesario manejar esta información, se ingresa solamente el Costo Unitario ($ Unit).</p>
+
+<p><strong>Iva:</strong> En este campo el sistema calcula automáticamente el IVA valorizado. Este cálculo se realiza a partir del $ Unit y el <strong>% IVA</strong> diligenciado. No es un campo modificable por el usuario, por ello se observa bloqueado.</p>
+
+<p><strong>$ Unit Fact:</strong> Es el campo donde se expresa el valor unitario facturado, del Material o  Repuesto que entra o sale del almacén en la actual transacción. Se debe tener especial cuidado con el tipo de unidades a las que se refiere el costo unitario, puesto que puede ser diferente la unidad de empaque o de compra, a las unidades de despacho o consumo. No es un campo modificable por el usuario, por ello se observa bloqueado.</p>
+
+<p><strong>$ Unit del AL:</strong> Muestra el valor unitario actual del repuesto o  material, antes del movimiento que se va a registrar o después del movimiento registrado. Para el cálculo de este valor, se tiene en cuenta el tipo de costeo del almacén. Es un campo que solo despliega datos. No es un campo modificable por el usuario, por ello se observa bloqueado.</p>
+
+<p><strong>$ Total:</strong> Es un campo calculado por el sistema y que contiene el valor total  de  la actual transacción. Es el producto de la Cantidad por el $ Unit Fact. No es un campo modificable por el usuario, por ello se  observa bloqueado.</p>
+
+<p><strong>OT:</strong> Se trata de un campo que normalmente está bloqueado y que solo aparece cuando se elige un concepto de kárdex que exija una Órden de Trabajo válida (Ver Tabla Conceptos de  Kárdex  en  el  Capítulo  de Infraestructura). Por ejemplo, una Salida del almacén con destino a una OT; o también una Entrada al almacén que corresponda a una devolución de un Material o un Repuesto que había sido despachado a una OT y no fue consumido por ella. Al dar clic al icono <span class="mdi mdi-filter-variant"> ubicado en la parte superior derecha del campo, se abre una nueva ventana con el visor de las Órdenes con el fin de seleccionarla, basta con seleccionar la OT y dar doble clic o seleccionar la OT y luego dar clic al botón <a class="btn white">adicionar OT</a>.</span></p>
+
+<p><strong>Cantidad en OT:</strong> En este campo se muestra la cantidad del Material o Repuesto que contiene  actualmente la OT relacionada en el Movimiento de Kárdex. Este campo no es modificable por el usuario, por lo tanto se visualiza como bloqueado.</p>
+
+<p><strong>Cambiar Costo:</strong> Este check box, si se habilita cambia el valor unitario del ítem en el módulo de Almacén de Repuestos. Si no se habilita el check box, no se modifica el valor unitario del ítem.</p>
+
+<h3 id="eliminar-una-transacción">Eliminar una transacción</h3>
+
+<p>Para eliminar un registro de movimiento de Repuestos/Materiales, solo se permite hacer durante la creación del mismo (antes de insertarlo), para esto se debe ir con la barra de desplazamiento horizontal hasta el final del lado derecho para dar clic al botón eliminar <span class="mdi mdi-delete"></span>, el cual muestra un mensaje de alerta indicándole al usuario si está seguro de eliminar el registro y finalmente para continuar <a class="btn white">Aceptar</a> :</p>
+
+<p><img src="https://ayuda.winsoftware.com.co/assets/images/cap05/chp05_img10.png" alt="Procesar imagen" />
+<em><strong>Imagen 5.</strong> Kárdex - Eliminar Movimiento</em></p>
+
+<p>Para obtener información adicional de cada movimiento, sobreponer el cursor sobre los iconos <span class="mdi mdi-alert-circle-outline"></span> se muestra información adicional.</p>
+
+<p><img src="https://ayuda.winsoftware.com.co/assets/images/cap05/chp05_img07.png" alt="Procesar imagen" />
+<em><strong>Imagen 6.</strong> Kárdex - Comandos Ventana Detalle Movimientos</em></p>
+
+<p>Por ejemplo, en el primero de ellos justo al lado derecho del campo Código RP, se observa el histórico de la información de los saldos de inventario de ese movimiento de Repuestos/Materiales, es decir, los saldos de inventario que tenía ese ítem antes de la transacción, y los saldos de inventario con los que quedó ese ítem, luego de finalizar la transacción, que corresponde al después de la transacción. Si se requiere conocer los datos del durante la transacción, basta con ubicarse en el detalle del movimiento seleccionado y desplazarse con la barra de desplazamiento horizontal, para visualizar los datos de ese movimiento de Repuestos.</p>
+
+<p>Por otra parte, al hacer clic sobre el icono <span class="mdi mdi-alert-circle-outline"></span>, que está al lado derecho del campo CP, muestra el nombre del concepto de kárdex asociado a ese movimiento de Repuesto/Material, como se muestra a continuación:</p>
+
+<p><img src="https://ayuda.winsoftware.com.co/assets/images/cap05/chp05_img08.png" alt="Procesar imagen" />
+<em><strong>Imagen 7.</strong> Kárdex - Comandos Ventana Detalle Movimientos</em></p>
+
+<p>Al finalizar una transacción a través del botón <a class="btn blue">insertar movimientos</a> de movimiento de Repuestos, todos los registros se observan en color gris y bloqueados, los cuales se convierten en registros de solo consulta. No es posible eliminar los registros de las transacciones de kárdex, una vez han sido ingresadas en el módulo:</p>
+
+<p><img src="https://ayuda.winsoftware.com.co/assets/images/cap05/chp05_img09.png" alt="Procesar imagen" />
+<em><strong>Imagen 8.</strong> Kárdex - Consulta Movimientos</em></p>
+
+<h2 id="crear-nuevo-movimiento">Crear nuevo movimiento</h2>
+
+<p>Para ingresar un nuevo movimiento al Documento en cuestión, se da clic en el Subgrupo <span class="mdi mdi-filter-variant icon white"></span>  ubicado en la parte superior derecha, éste abre una nueva ventana con el visor de los Materiales y Repuestos.</p>
+
+<p>Para seleccionar un solo Material o Repuesto basta con dar doble clic al ítem o seleccionarlo y luego dar clic al botón <a class="btn white">adicionar rp</a> de cualquiera de las formas de seleccionar los Materiales y Repuestos, se visualiza todos los ítems de manera independiente en la ventana Detalle del movimiento, con el fin de diligenciar la información del movimiento a cada uno de ellos.</p>
+
+<p><img src="https://ayuda.winsoftware.com.co/assets/images/cap05/chp05_img11.png" alt="Procesar imagen" />
+<em><strong>Imagen 9.</strong> Kárdex - Ir a Subgrupo de Materiales y Repuestos</em></p>
+
+<p>También, es posible crear movimientos, al hacer clic en el boton <span class="mdi mdi-plus-circle icon white"></span>, ubicado en la parte superior derecha, el cual inserta una fila en la última posición de la lista o en la primera posición, en el caso de tratarse del primer registro de movimiento en el documento, una vez que se haga efectiva la creación del movimiento se muestra el siguinete mensaje:</p>
+
+<p><img src="https://ayuda.winsoftware.com.co/assets/images/cap05/chp05_img12.png" alt="Procesar imagen" />
+<em><strong>Imagen 10.</strong> Kárdex - Mensaje Alerta Nuevo Movimiento</em></p>
+
+<p>Por otro lado, el botón  <a class="btn gray">insertar movimientos</a>
+se usa para insertar uno o varios registros de movimientos de Materiales o Repuestos, una vez que se diligencien todos los campos de la ventana Detalle del movimiento de cada item, en la base de datos.</p>
+
+<p><img src="https://ayuda.winsoftware.com.co/assets/images/cap05/chp05_img13.png" alt="Procesar imagen" />
+<em><strong>Imagen 11.</strong> Kárdex - Añadir nuevo movimiento</em></p>
+
+<h2 id="ajustar-inventario">Ajustar Inventario</h2>
+
+<p>La funcionalidad de Ajustar Inventario se lleva a cabo, a través de la ventana Detalle del movimiento de kárdex, además, permite realizar dos tipos de ajustes: en Cantidad y en Valor.</p>
+
+<p>El objetivo de esta funcionalidad es realizar una conciliación entre el Inventario Teórico que lo da el sistema y el Inventario Físico que lo debe realizar un designado para este proceso, ambos inventarios deben coincidir, en caso contrario, se procede a realizar un Ajuste. Para realizar el ajuste se debe crear un Documento de tipo Ajuste y crear los movimientos, como se muestra en la siguiente imagen:</p>
+
+<p><img src="https://ayuda.winsoftware.com.co/assets/images/cap05/chp05_img19.png" alt="Procesar imagen" />
+<em><strong>Imagen 12.</strong> Kárdex - Ajuste</em></p>
+
+<p>A continuación se describen los campos que  componen el registro de un Ajuste. Sobre cada campo se da una breve explicación:</p>
+
+<p><strong>Código RP:</strong> Especifica el Código o Referencia del Material o Repuesto objeto del movimiento de Ajuste, según se elija en la ventana visor de Materiales y Repuestos que se muestra al dar clic en el <span class="mdi mdi-filter-variant icon white"></span> ubicado en la parte superior derecha. De otra manera, es posible escribir directamente el Código o Referencia del Repuesto exacta en el campo Código RP, al finalizar de escribir el Código o Referencia, se presiona la tecla tabular.</p>
+
+<p>Al terminar de digitar o elegir el Material o Repuesto,  se  muestra información automática del Repuesto de los siguientes campos: Descripción RP, $ Unit y $ Unit del AL. También, al dar clic sobre el icono de <span class="mdi mdi-alert-circle-outline"></span>, aparece un cuadro llamado <a class="btn"><span class="mdi mdi-swap-vertical-circle">Antes de la Transacción</span></a> está al lado derecho de este campo y muestra la información del saldo de inventario actual de ese ítem antes de la transacción, una vez se finaliza la transacción del movimiento, se muestra un cuadro adicional llamado  <a class="btn"><span class="mdi mdi-swap-vertical-circle">despues de la Transacción</span></a> y muestra la información del saldo de inventario actual con la que quedó el ítem, luego de finalizarse la transacción.</p>
+
+<p>La información contenida en el cuadro <a class="btn"><span class="mdi mdi-swap-vertical-circle">Antes de la Transacción</span></a> es la siguiente:</p>
+
+<p><strong>Cantidad Actual:</strong> Muestra la cantidad actual en existencia en el almacén del Material o Repuesto, antes del movimiento que se va a registrar. Es un campo que solo despliega datos.</p>
+
+<p><strong>Cantidad Disponible:</strong> Muestra la cantidad disponible en el almacén, del repuesto o material para su consumo, antes del movimiento que se va a registrar. Es un campo que solo despliega datos.</p>
+
+<p><strong>Costo Unitario:</strong> Muestra el valor unitario actual del repuesto o  material, antes del movimiento que se va a registrar. Es un campo que solo despliega datos.</p>
+
+<p>La información contenida en el cuadro  <a class="btn"><span class="mdi mdi-swap-vertical-circle">despues de la Transacción</span></a>  es la siguiente:</p>
+
+<p><strong>Cantidad Actual:</strong> Muestra la cantidad actual en existencia en el almacén del Material o Repuesto, después del movimiento registrado. Es un campo que solo despliega datos.</p>
+
+<p><strong>Cantidad Disponible:</strong> Muestra la cantidad disponible en el almacén del Material o Repuesto después del movimiento registrado. Es un campo que solo despliega datos.</p>
+
+<p><strong>Costo Unitario:</strong> Muestra el valor unitario actual del Material o Repuesto, después del movimiento registrado. Es un campo que solo despliega datos.</p>
+
+<p><strong>Descripción RP:</strong> Especifica la descripción del Material o repuesto que fue objeto  del movimiento de entrada o salida.  Es un campo que solo despliega datos y no es modificable por el usuario, por ello se observa bloqueado.</p>
+
+<p><strong>CP:</strong> Especifica el código del concepto de kárdex seleccionado. Al dar clic en el campo, se muestra la lista en la que se debe elegir el concepto de kárdex de Ajuste por el cual se realiza el movimiento. La lista se crea de acuerdo al tipo de conceptos que contiene el documento. Además, al hacer clic sobre el icono de <span class="mdi mdi-alert-circle-outline"></span> que está al lado derecho de este campo, se observa el nombre del concepto de kárdex asociado a ese movimiento.</p>
+
+<p>También, si se elige un concepto de kárdex de Ajuste tipo Cantidad, se desbloquea el campo  <strong>“Cantidad Ajuste”</strong>. Mientras que, si se elige un concepto de kárdex de Ajuste tipo Valor, se desbloquea el campo  <strong>“$ Unit Ajuste”.</strong></p>
+
+<p><strong>FF Transacción:</strong> Es el campo en el que se establece la fecha en la que ocurrió el movimiento de Ajuste. <strong>AM</strong> propone la fecha del día, pero ella puede ser modificada para reflejar la fecha real del movimiento. Esta fecha  puede  ser  modificable en el permiso de usuario  “Modificar fecha del movimiento en KX” en la definición de  “Permisos para ejecución de Procesos” que se otorgan al usuario en el módulo <a class="btn blue">administración</a> en <strong>Permisos para ejecución de procesos.</strong></p>
+
+<p><strong>Cantidad Ajuste:</strong> Muestra automáticamente la cantidad actual del Material o Repuesto. Es  el  campo  donde  se  registra  la  cantidad a ajustar  del  ítem en cuestión,  en  las unidades propias, en la transacción actual. Solo se desbloquea cuando el concepto de kárdex es un Ajuste por Cantidad. Si se registra un valor positivo se realiza un ajuste por encima de la cantidad actual del Material o Repuesto, en forma de adición. Por ejemplo, si se tiene en la cantidad actual 3 unidades y se ajusta una cantidad de 2 unidades, la cantidad al finalizar la transacción será de 5 unidades. Por otro lado, es posible registrar valores negativos anteponiendo el signo menos <strong>(-)</strong> antes de digitar la cantidad, entonces se realiza un ajuste por debajo de la cantidad actual del Material o Repuesto, en forma de sustracción. Por ejemplo, si se tiene en la cantidad actual 3 unidades y se ajusta una cantidad de -2 unidades, la cantidad al finalizar la transacción será de 1 unidad.</p>
+
+<p><strong>$ Unit Ajuste:</strong> Muestra automáticamente el valor unitario, del Material o  Repuesto. Es  el  campo  donde  se  registra  el valor unitario a ajustar  del  ítem en cuestión,  en  las unidades propias, en la transacción actual. Solo se desbloquea cuando el concepto de kárdex es un Ajuste por Valor. Si se registra un valor positivo se realiza un ajuste por encima del valor unitario actual del Material o Repuesto, en forma de adición. Por ejemplo, si se tiene en el valor unitario actual $1000 y se ajusta un valor de $100, el $ Unit del AL, al finalizar la transacción será calculada de acuerdo al tipo de costeo del almacén. Por otro lado, es posible registrar valores negativos anteponiendo el signo menos <strong>(-)</strong> antes de digitar el valor unitario, entonces se realiza un ajuste por debajo del valor unitario actual del Material o Repuesto, en forma de sustracción. Por ejemplo, si se tiene en el valor unitario actual $1000 y se ajusta una cantidad de $-100, el valor $Unit del AL, al finalizar la transacción será calculada de acuerdo al tipo de costeo del almacén.</p>
+
+<p><strong>Cantidad:</strong> Muestra automáticamente la cantidad actual del Material o Repuesto antes de la transacción, una vez definida la cantidad de ajuste, se muestra la cantidad total con la que quedará el Material o Repuesto al finalizar la transacción. Es un campo que solo despliega datos y no es modificable por el usuario, por ello se observa bloqueado.</p>
+
+<p><strong>$ Unit del AL:</strong> Muestra el valor unitario actual del Material o Repuesto, antes del movimiento que se va a registrar o después del movimiento registrado. Para el cálculo de este valor, se tiene en cuenta el tipo de costeo del almacén. Es un campo que solo despliega datos. No es un campo modificable por el usuario, por ello se observa bloqueado.</p>
+
+<p><strong>$ Total:</strong> Es un campo calculado por el sistema y que contiene el valor total  de  la actual transacción. Es el producto de la Cantidad por el $ Unit del AL. No es un campo modificable por el usuario, por ello se observa bloqueado.</p>
+
+<p><strong>OT:</strong> Se trata de un campo que normalmente está bloqueado y que solo  aparece cuando se elige un concepto de kárdex que exija una Orden de Trabajo válida (Ver Tabla Conceptos de  Kárdex  en  el  Capítulo  de  Infraestructura), para movimientos de entrada o salida. Para el caso de los Ajustes, no se requiere de una OT. Es un campo que solo despliega datos. No es un campo modificable por el usuario, por ello se observa bloqueado.</p>
+
+<p><strong>Cantidad en OT</strong>: En este campo se muestra la cantidad del Material o Repuesto, en  las unidades  propias  del  +item en cuestión,  que  contiene  actualmente  la  OT  relacionada   en  el Movimiento de Kárdex. Para el caso de los Ajustes, no se requiere de una OT. Este campo no es modificable por el usuario, por lo tanto se visualiza como bloqueado.</p>
+
+<h2 id="congelar-documento">Congelar Documento</h2>
+
+<p><img src="https://ayuda.winsoftware.com.co/assets/images/cap05/chp05_img20.png" alt="Procesar imagen" />
+<em><strong>Imagen 13.</strong> Kárdex - Ir a Congelar Documento</em></p>
+
+<p>Es una funcionalidad que inhibe la posibilidad de adicionar nuevos movimientos a un Documento. Una vez ejecutada está transacción no tiene reversa y permanecerá en el Kárdex como un Documento únicamente de Consulta.</p>
+
+<p>El botón <a class="btn blue">congelar documento <span class="mdi mdi-grid-off"></span></a> se encuentra ubicado en la parte superior izquierda de la ventana y solo aparecerá a los usuarios que tengan el permiso de usuario  “Congelar documentos en Kárdex” en la definición de  “Permisos para ejecución de Procesos” que se otorgan al usuario en el módulo de Administración / Modificar permisos básicos.</p>
+
+<p><img src="https://ayuda.winsoftware.com.co/assets/images/cap05/chp05_img21.png" alt="Procesar imagen" />
+<em><strong>Imagen 14.</strong> Kárdex - Congelar Documento</em></p>
+
+<p>Para congelar un documento basta con seleccionar el Documento de Kárdex, dar clic al  botón <a class="btn blue">congelar documento <span class="mdi mdi-grid-off"></span></a>, el sistema muestra un mensaje de alerta indicado al usuario de si está seguro de continuar con el proceso, ya que la operación no tiene reversa, para finalizar dar clic en el botón  <a class="btn white">Aceptar</a>.</p>
+
+<h1 id="ventana-submenú-de-kárdex-de-almacén">Ventana Submenú de Kárdex de Almacén</h1>
+
+<h2 id="subgrupo">Subgrupo</h2>
+
+<p>Se usa para seleccionar grupos de Movimiento de Kárdex que cumplen un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al icono <span class="mdi mdi-filter-variant"> ubicado en la parte superior derecha de la ventana Visor de Movimiento de Kárdex</span></p>
+
+<p><img src="https://ayuda.winsoftware.com.co/assets/images/cap05/chp05_img22.png" alt="Procesar imagen" />
+<em><strong>Imagen 15.</strong> Kárdex - Ir a Subgrupo</em></p>
+
+<p>Cada criterio trabaja en conjunto con los demás, con el operador intersección.</p>
+
+<p>Cada  criterio  aparece  inicializado  en  un  valor  global  que  permite  mostrar  todos   los Movimientos de Kárdex registrados en el sistema. Lo que significa que de no escoger un criterio se obtiene como resultado del subgrupo el mismo conjunto completo de todos los Movimientos de Kárdex.</p>
+
+<p><strong>AM</strong> mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar.</p>
+
+<p>El programa permite entonces hacer selección de un grupo de Movimientos de Kárdex de acuerdo con los criterios seleccionados en la siguiente ventana.</p>
+
+<p><img src="../../assets/images/cap06/chp06_img23.png" alt="detalle de documentos kardex" /></p>
+
+<p>Los criterios de selección están divididos en 2 grupos: Los que aplican sobre el Documento de Kárdex y Los que Aplican sobre el Movimiento de Kárdex en sí.</p>
+
+<h1 id="filtrar-por-campos-particulares-del-documento">FILTRAR POR CAMPOS PARTICULARES DEL DOCUMENTO</h1>
+
+<p>Centro  de  Costo: Esta selección agrupa todos  los  Documentos  de  Kárdex  que  están asociados con el Centro de Costo que se especifique en el campo. También se puede elegir el Centro de Costo mediante el uso de comodines, para ello, se debe dar clic al icono  “Candado”. Si se selecciona la opción  “Utilizar comodines”, se digita la palabra, por ejemplo Sistema% seleccionará todos los Documentos de Kárdex en cuyo Centro de Costo empiecen por la palabra Sistema.</p>
+
+<p><strong>Documento:</strong> Esta selección agrupa todos los Documentos de Kárdex  cuyo documento cumple con el criterio especificado.</p>
+
+<p><strong>Movimiento:</strong> Esta selección agrupa todos los Documentos de Kárdex cuyo tipo de movimiento es elegido en la lista desplegable.</p>
+
+<p><strong>Rango  de  Generación:</strong> Esta selección agrupa  todos  los  Documentos de  Kárdex  cuya fecha de Generación se encuentra en el rango de Fechas especificado en el criterio.</p>
+
+<p><strong>Tercero / Proveedor:</strong> Esta selección agrupa todos los Documentos de Kárdex que están  asociados al tercero que se especifique en el campo. También se puede elegir el Tercero / Proveedor mediante el uso de comodines, para ello, se debe dar clic al icono <code class="language-plaintext highlighter-rouge">&lt;span class="iconify btn" data-icon=lock&gt;</code>Candado. Si se selecciona la opción  “Utilizar comodines”, se digita la palabra, por ejemplo FER% seleccionará todos los Documentos de Kárdex en cuyo Tercero / Proveedor empiecen por la palabra FER.</p>
+
+<p><strong>Tipo de Documento:</strong> Esta selección agrupa todos los Documentos de Kárdex cuyo tipo de documento es elegido en la lista desplegable.</p>
+
+<h2 id="filtrar-por-campos-del-movimiento">FILTRAR POR CAMPOS DEL MOVIMIENTO</h2>
+
+<p><strong>Casilla:</strong> Esta selección agrupa todo el movimiento correspondiente al repuesto de la casilla
+(Sitio de almacenamiento en el almacén) seleccionado.</p>
+
+<p><strong>Clase   del   Repuesto:</strong> Esta  selección  agrupa  todo  el  movimiento  correspondiente  al repuesto de la clase especificada.</p>
+
+<p><strong>Código de Barras Interno:</strong>
+Si existe un código de barras interno de la organización, este campo permite seleccionar el Repuesto que se encuentre asociado al Código  de  Barras Interno que se ingresó al crear el Repuesto.</p>
+
+<p><strong>Código   de   Barras   Proveedor:</strong>   Permite  seleccionar  el  Repuesto  que  se   encuentre asociado al Código de Barras del Proveedor que se ingresó al crear el Repuesto.</p>
+
+<p><strong>Comentarios:</strong>   Esta  selección se  agrupa todo  el  movimiento  cuyo campo  comentarios corresponde con el texto especificado.</p>
+
+<p><strong>Código 	del  Pedido:</strong>Esta selección agrupa todo  el  movimiento originado a  partir  del módulo de Pedidos.</p>
+
+<p><strong>Código  del  Repuesto:</strong>  Esta  selección  agrupa  todo  el  movimiento  correspondiente  al repuesto del código especificado.</p>
+
+<p><strong>Concepto:</strong>   Esta  selección  agrupa  todo  el  movimiento correspondiente al  concepto  de movimiento seleccionado.</p>
+
+<p><strong>Descripción del Repuesto:</strong> Esta selección agrupa todo el movimiento correspondiente al repuesto de la descripción especificada.</p>
+
+<p><strong>Número de la OT:</strong> Permite buscar una orden de trabajo específica por medio del número que ésta fue asociada.</p>
+
+<p><strong>Rango  de  Generación del Movimiento:</strong> Esta selección agrupa todo el  movimiento en fechas  incluidas dentro del rango de fechas seleccionado.</p>
+
+<p><strong>Referencia  Principal:</strong> Esta  selección  agrupa  todo  el  movimiento  correspondiente   al repuesto de la referencia seleccionada (Proveedor 1).</p>
+
+<p><strong>Tipo de Repuesto:</strong> Esta opción permite seleccionar los Repuestos por su característica de
+“Inventariado” o  “No Inventariado”.</p>
+
+                        
+                            <div class="share uk-text-center uk-margin-medium-top">
+    
+        <a class="uk-link-muted" href="https://twitter.com/intent/tweet?text=Movimientos de Kárdex&url=http://localhost:4000/docs/05_03_movements/&via=&related=" rel="nofollow" target="_blank" title="Compartir en Twitter" onclick="window.open(this.href, 'twitter', 'width=550,height=235');return false;"><span data-uk-icon="icon: twitter; ratio: 1.2"></span></a>
+    
+    
+        <a class="uk-link-muted uk-margin-small-left" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fdocs%2F05_03_movements%2F" rel="nofollow" target="_blank" title="Compartir en Facebook" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;"><span data-uk-icon="icon: facebook; ratio: 1.2"></span></a>
+    
+</div>
+                        
+                    </div>
+
+                    <!-- Hook post content doc -->
+
+                    <hr class="uk-margin-medium">
+
+                    
+
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+    <div class="uk-margin-large-top paginate-post">
+        <div class="uk-child-width-expand@s uk-grid-large uk-pagi" data-uk-grid>
+            <div>
+                
+                  
+                  
+                  
+                    <h5></h5>
+                    <div><a class="remove-underline hvr-back" href="/docs/05_02_basic_concepts/">&larr; Anterior</a></div>
+                
+            </div>
+            <div>
+                
+                  
+                  
+                  
+                    <h5></h5>
+                    <div class="uk-text-right"><a class="remove-underline hvr-forward" href="/docs/05_04_transactions/">Siguiente &rarr;</a></div>
+                
+            </div>
+        </div>
+    </div>
+    
+
+
+                    <div class="uk-margin-large-top">
+    <h3>Temas relacionados</h3>
+
+    
+    
+    
+
+    <ul class="uk-list link-secondary">
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+        <li><a href="/docs/01_01_introduction/">Introducción</a></li>
+        
+        
+    
+
+    
+
+    
+    
+
+    
+
+    
+        <li><a href="/docs/01_02_first_look/">Un vistazo a AM</a></li>
+        
+        
+    
+
+    
+
+    
+    
+
+    
+
+    
+        <li><a href="/docs/01_03_user_interface/">Interfaz de Usuario</a></li>
+        
+        
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+        <li><a href="/docs/02_01_introduction/">Introducción</a></li>
+        
+        
+            
+    </ul>
+</div>
+
+
+                    
+                </article>
+
+                <script>
+                    // Table of contents scroll to
+                    UIkit.scroll('#markdown-toc a', {
+                        duration: 400,
+                        offset: 120
+                    });
+                </script>
+
+            </div>
+
+    </div>
+</div>
+
+
+    <div id="offcanvas-docs" data-uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar">
+
+        <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+
+        
+        <h5 class="uk-margin-top">Trabajando con AM</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/01_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/01_02_first_look/">Un vistazo a AM</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/01_03_user_interface/">Interfaz de Usuario</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/01_04_concurrence/">Concurrencia en AM</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/01_05_summary/">Resumen</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Infraestructura</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/02_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/02_02_basic_concept/">Conceptos Básicos sobre la Infraestructura</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/02_03_tables/">Tablas de Infraestructura</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/02_04_export/">Exportar</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/02_05_services/">Servicios</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Activos</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/03_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/03_02_basic_concepts/">Conceptos Básicos sobre Activos/Equipos</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/03_03_data_sheet/">Ficha Técnica</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/03_04_parts_list/">Codificación de Activos/Equipos y Generalidades</a></li>
+        
+          
+          
+          <li class=""><a href=""></a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Almacenes, Materiales y Repuestos</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/04_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/04_02_basic_concepts/">Conceptos Básicos sobre Almacenes, Materiales y Repuestos</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/04_03_spare_coding/">Codificación de Repuestos</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/04_04_main_window/">Ventana Principal de Almacén de Repuestos</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Kárdex</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/05_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/05_02_basic_concepts/">Conceptos Básicos sobre el Kárdex de Almacén</a></li>
+        
+          
+          
+          <li class="uk-active"><a href="/docs/05_03_movements/">Movimientos de Kárdex</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/05_04_transactions/">Transacciones</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Solicitudes de Servicio</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/07_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/07_02_basic_concepts/">Conceptos Básicos sobre Solicitudes de Servicio</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/07_03_services/">Servicios</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Paros</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/08_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/08_02_basic_concepts/">Conceptos Básicos sobre Paros / Averías</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/08_03_creation/">Creación de Paros</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/08_04_tracking_and_closing/">Seguimiento y Cierre de Paros / Averías</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Órdenes de Trabajo</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/09_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/09_02_basic_concepts/">Conceptos Básicos sobre Órdenes de Trabajo</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/09_03_analysis_and_generation/">Análisis y Generación de Órdenes de Trabajo Programadas</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/09_04_main_window/">Ventana Principal de Órdenes de Trabajo</a></li>
+        
+          
+          
+          <li class=""><a href=""></a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Historia de mantenimiento</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/10_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/10_02_basic_concepts/">Conceptos Básicos</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/10_03_send_to_history/">Enviar a Historia</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/10_04_main_window/">Ventana Principal</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/10_05_periodic_management_balance/">Balance Periódico de Gestión</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Programas de mantenimiento</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/11_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/11_02_basic_concepts/">Conceptos Básicos de Programas de Mantenimiento</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/11_03_main_window/">Ventana Principal de Programas de Mantenimiento</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/11_04_services/">Servicios</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Historia Archivada</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/12_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/12_02_basic_concepts/">Conceptos Básicos</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/12_03_main_window/">Ventana Principal</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/12_04_submenu_window/">Ventana Submenú</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/12_05_transactions/">Transacciones</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">AMsi</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/15_01_working_with_amsi/">Trabajando con AMsi</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_02_ui/">Interfaz de Usuario</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_03_update_profile/">Actualizar Perfil</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_04_create_a_new_request/">Crear Nueva Solicitud</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_05_request_consulting/">Consultar Mis Solicitudes</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_06_request_evaluation/">Evaluar Servicio</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_07_create_a_new_order/">Crear Nueva Orden</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_08_orders_consulting/">Consultar Mis Órdenes</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_09_amsi_administration_access/">Acceso Administración AMsi</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_10_user_settings/">Configuración de Usuarios</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_11_logout/">Exportar Visor de SS/OT</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">AMóvil</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/16_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href=""></a></li>
+        
+          
+          
+          <li class=""><a href=""></a></li>
+        
+          
+          
+          <li class=""><a href=""></a></li>
+        
+          
+          
+          <li class=""><a href=""></a></li>
+        
+        </ul>
+        
+
+    </div>
+</div>
+
+
+    <div id="offcanvas" data-uk-offcanvas="flip: true; overlay: true">
+    <div class="uk-offcanvas-bar">
+
+        <a class="uk-logo uk-margin-small-bottom" href="/"><img src="http://localhost:4000/uploads/winsoftware_logo.svg" alt="AM"></a>
+     
+        <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+      
+        <ul class="uk-nav uk-nav-primary uk-margin-top">
+            
+                
+
+                
+
+                
+                    <li><a href="/" >Inicio</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><a href="/docs/01_01_introduction" >Manual</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><a href="/blog/" >Blog</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><a href="/changelog-timeline/" >Registro de cambios</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><div class="uk-navbar-item"><a class="uk-button uk-button-success" href="/contact/" >Contacto</a></div></li>
+                
+            
+        </ul>
+
+        <div class="uk-margin-top uk-text-center">
+            <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-flex-center uk-grid">
+                
+<div class="uk-first-column">
+    <a href="https://twitter.com/winsoftware_am" data-uk-icon="icon: twitter" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+<div>
+    <a href="https://www.facebook.com/winsoftwaream/" data-uk-icon="icon: facebook" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+
+
+<div>
+    <a href="https://co.linkedin.com/in/win-software-s-a-s-122b7952" data-uk-icon="icon: linkedin" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+
+
+
+<div>
+    <a href="https://winsoftware.com.co/" data-uk-icon="icon: link" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+    
+
+    
+        <!-- Hook preclosing body doc -->
+    
+
+    <!-- Hook preclosing body -->
+
+    <script>
+        if (window.netlifyIdentity) {
+          window.netlifyIdentity.on("init", user => {
+            if (!user) {
+              window.netlifyIdentity.on("login", () => {
+                document.location.href = "/admin/";
+              });
+            }
+          });
+        }
+      </script>
+
+    </body>
+
+</html>

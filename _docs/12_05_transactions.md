@@ -9,7 +9,7 @@ order: 12_05
 ### Eliminar Masivamente HA
 
 
-Eliminar masivamente se ejecuta cuando se tiene la certeza de que un grupo de datos en HA ya no es requerido, porque los Activos referidos ya no existen. 
+Eliminar masivamente se ejecuta cuando se tiene la certeza de que un grupo de datos en HA ya no es requerido, porque los Activos referidos ya no existen o porque su historia es irrelevante.
 
 
 Para ir a la transacción sobreponer el cursor sobre el módulo de  <a class="btn blue">Historia Archivada</a> y dar clic en la opción **Eliminar Masivamente**, como se indica a continuación:
