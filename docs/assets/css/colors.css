@@ -88,39 +88,39 @@
 
 /* border ==> bd-[color] */
 .bd-white {
-    border: #fff 2px solid !important;
+    border: #fff 1px solid !important;
 }
 
 .bd-blue {
-    border: #0189f7 2px solid !important;
+    border: #0189f7 1px solid !important;
 }
 
 .bd-gray {
-    border: #b9b9b9 2px solid !important;
+    border: #b9b9b9 1px solid !important;
 }
 
 .bd-black {
-    border: #212427 2px solid !important;
+    border: #212427be 1px solid !important;
 }
 
 .bd-orange {
-    border: #ff7513 2px solid !important;
+    border: #ff7513 1px solid !important;
 }
 
 .bd-red {
-    border: #fe0003 2px solid !important;
+    border: #fe0003 1px solid !important;
 }
 
 .bd-green {
-    border: #258727 2px solid !important;
+    border: #258727 1px solid !important;
 }
 
 .bd-yellow {
-    border: #fde559 2px solid !important;
+    border: #fde559 1px solid !important;
 }
 
 .bd-lime {
-    border: #57fc30 2px solid !important;
+    border: #57fc30 1px solid !important;
 }
 
 /* after-[color] */

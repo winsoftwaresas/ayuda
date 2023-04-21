@@ -136,6 +136,8 @@ collections:
     output:         false
   changelogs:
     output:         false
+  components:
+    output:         true
 
 # Defaults
 defaults:

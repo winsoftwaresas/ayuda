@@ -1,7 +1,11 @@
 {
     "markdown.styles": [
-        "docs/assets/css/main.css",
+        "assets/css/main.scss",
         "docs/assets/css/style.css",
-        "docs/assets/css/mdi.css"
+        "assets/css/mdi.css",
+        "assets/css/main.scss",
+        "assets/css/colors.css",
+        "assets/css/buttons.css",
+        "assets/css/icons.css"
     ]
 }

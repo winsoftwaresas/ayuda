@@ -1,12 +1,10 @@
 ---
+layout: default
 published: true
-permalink: /buttons/
 ---
-<head>
-    <link rel="stylesheet" href="/assets/css/main.scss">
-    <link rel="stylesheet" href="/assets/css/mdi.css">
-    <script src="//code.iconify.design/1/1.0.6/iconify.min.js"></script>
-</head>
+
+<!-- ⚡⚡ COMENTAR ANTES DE PUBLICAR ⚡⚡ -->
+<head><script src="//code.iconify.design/1/1.0.6/iconify.min.js"></script></head>
 
 <!-- button colors: bg-[color]  -->
 
@@ -82,24 +80,24 @@ permalink: /buttons/
 <hr>
 
 <!-- home -->
-<a class="btn cl-black bg-white pl-2 pr-3 bd-blue"><span class="iconify cl-black fs-1 pr-1" data-icon="mdi-home-outline"></span> Inicio</a>
+<a class="btn cl-black bg-white pl-2 pr-3 bd-blue"><span class="iconify cl-black fs-2 pr-1" data-icon="mdi-home-outline"></span> Inicio</a>
 
 <!-- activos -->
-<a class="btn cl-black bg-white pl-2 pr-3 bd-blue"><span class="iconify cl-black fs-1 pr-1" data-icon="mdi-minus-box-multiple-outline"></span> Activos</a>
+<a class="btn cl-black bg-white pl-2 pr-3 bd-blue"><span class="iconify cl-black fs-2 pr-1" data-icon="mdi-minus-box-multiple-outline"></span> Activos</a>
 
 <!-- almacen -->
-<a class="btn cl-black bg-white pl-2 pr-3 bd-blue"><span class="iconify cl-black fs-1 pr-1" data-icon="mdi-view-grid"></span> Almacén</a>
+<a class="btn cl-black bg-white pl-2 pr-3 bd-blue"><span class="iconify cl-black fs-2 pr-1" data-icon="mdi-view-grid"></span> Almacén</a>
 
 <!-- solicitudes -->
-<a class="btn cl-black bg-white pl-2 pr-3 bd-blue"><span class="iconify cl-black fs-1 pr-1" data-icon="mdi-account-box-outline"></span> Solicitudes</a>
+<a class="btn cl-black bg-white pl-2 pr-3 bd-blue"><span class="iconify cl-black fs-2 pr-1" data-icon="mdi-account-box-outline"></span> Solicitudes</a>
 
 <!-- órdenes -->
-<a class="btn cl-black bg-white pl-2 pr-3 bd-blue"><span class="iconify cl-black fs-1 pr-1" data-icon="mdi-land-plots"></span> Órdenes</a>
+<a class="btn cl-black bg-white pl-2 pr-3 bd-blue"><span class="iconify cl-black fs-2 pr-1" data-icon="mdi-land-plots"></span> Órdenes</a>
 
 
 <hr>
 
-<a class="btn cl-black bg-white pl-2 pr-3 bd-gray"><span class="iconify cl-black fs-1 pr-1" data-icon="mdi-undo"></span> Atras</a>
+<a class="btn cl-black bg-white pl-2 pr-3 bd-gray"><span class="iconify cl-black fs-2 pr-1" data-icon="mdi-undo"></span> Atras</a>
 
 <hr>
 

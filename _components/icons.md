@@ -1,13 +1,10 @@
 ---
+layout: default
 published: true
-permalink: /icons/
 ---
 
-<head>
-    <link rel="stylesheet" href="/assets/css/main.scss">
-    <link rel="stylesheet" href="/assets/css/mdi.css">
-    <script src="//code.iconify.design/1/1.0.6/iconify.min.js"></script>
-</head>
+<!-- ⚡⚡ COMENTAR ANTES DE PUBLICAR ⚡⚡ -->
+<head><script src="//code.iconify.design/1/1.0.6/iconify.min.js"></script></head>
 
 <!-- 
 mdi-[name]: set the icon

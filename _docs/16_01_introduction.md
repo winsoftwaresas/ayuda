@@ -1,10 +1,15 @@
 ---
+layout: default
 title: Introducción
 subtitle: 
 tags: [amóvil]
 author: win
 order: 16_01
+published: true
+hidden: true
 ---
+<!-- ⚡⚡ COMENTAR ANTES DE PUBLICAR ⚡⚡ -->
+<head><script src="//code.iconify.design/1/1.0.6/iconify.min.js"></script></head>
 
 # AMóvil
 
@@ -16,10 +21,4 @@ order: 16_01
 
  Son los temas centrales que trata el presente Capítulo. -->
 
- [Nuevo](#0){: .btn.blue}
-
-> fab button
-
-<span class="fab">+</span>
-
-<span class="fab mdi mdi-filter-variant"></span>
+<a class="fab bg-blue cl-white"><span class="iconify" data-icon="mdi-plus"></span></a>
