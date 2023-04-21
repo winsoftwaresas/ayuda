@@ -30,16 +30,20 @@ En la parte superior derecha se visualizan los siguientes íconos:
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img03.jpeg)
 _**Imagen 3.** Amóvil - Mensaje Advertencia descarga_
 
-Para continuar dar clic en <a class="btn cl-white bg-blue px-4"> Aceptar</a>, en el cual se inicia el proceso de descarga así:
+Para continuar dar clic en <a class="btn cl-white bg-blue px-4"> Aceptar</a> el cual inicia el proceso de descarga así:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img04.jpeg)
 _**Imagen 4.** Amóvil - Descarga de datos_
 
 
+Una vez se descarguen los datos, se actualizan los dashboards:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img05.jpeg)
+_**Imagen 5** Amóvil - Actualización de datos_
+
 
 
 de lo contrario dar clic en <a class="btn cl-white bg-green px-4"> Cancelar</a>.
-
 
 
 
