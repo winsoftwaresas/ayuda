@@ -1,10 +1,9 @@
----
-# Only the main Sass file needs front matter (the dashes are enough)
----
-
-// System fonts
+--- # Only the main Sass file needs front matter (the dashes are enough) --- // System fonts
 @import "system-font-css/_system-font";
 @import "../css/mdi.css";
+@import "../css/colors.css";
+@import "../css/icons.css";
+@import "../css/buttons.css";
 
 // Custom variables and variable overwrites.
 @import "theme/variables";
@@ -23,158 +22,192 @@
 // @import "syntax-highlighting/cld";
 @import "syntax-highlighting/bw";
 
-// button style
-.icon {
-    position: relative;
-    display: inline-block;
-    box-sizing: border-box;
-    border: none;
-    border-radius: 2px;
-    padding: 0 8px;
-    height: 36px;
-    min-width: 40px;
-    vertical-align: middle;
-    text-align: center;
-    text-overflow: ellipsis;
-    text-transform: uppercase;
-    border-bottom: 0px !important;
-    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 36px;
-    overflow: hidden;
-    outline: none;
-    cursor: pointer;
-    transition: box-shadow 0.2s;
-    margin-right: 8px;
-}
-.icon.blue::before {
-    color: rgb(255, 255, 255) !important;
-    background-color: rgb(11, 138, 217) !important;
-}
-.icon.white::before {
-    color: rgb(11, 138, 217) !important;
-    background-color: rgb(255, 255, 255) !important;
-}
-.icon.gray::before {
-    color: rgb(185, 185, 185) !important;
-    background-color: rgb(255, 255, 255) !important;
-}
-.btn {
-	position: relative;
-    display: inline-block;
-    box-sizing: border-box;
-    border: none;
-    border-radius: 2px;
-    padding: 0 8px;
-    height: 36px;
-    width: max-content;
-    vertical-align: middle;
-    text-align: center;
-    text-overflow: ellipsis;
-    text-transform: uppercase;
-    border-bottom: 0px !important;
-    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
-    font-size: 12px;
-    font-weight: 800;
-    line-height: 36px;
-    overflow: hidden;
-    outline: none;
-    cursor: pointer;
-    transition: box-shadow 0.2s;
-}
-.btn.blue {
-    color: rgb(255, 255, 255) !important;
-    background-color: rgb(11, 138, 217) !important;
-}
-.btn.gray {
-    color: rgb(11, 138, 217) !important;
-    background-color: rgb(217, 217, 217) !important;
-}
-.btn.white {
-    color: rgb(11, 138, 217) !important;
-    background-color: rgb(255, 255, 255) !important;
-}
-.btn::-moz-focus-inner {
-    border: none;
-}
-.btn::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgb(255, 255, 255);
-    opacity: 0;
-    transition: opacity 0.2s;
-}
-/* Hover, Focus */
-.btn:hover,
-.btn {
-    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12);
+/* utilities */
+
+/* #region paddings */
+
+.px-1 {
+    padding: 0 0.5rem;
 }
 
-.btn:hover::before {
-    opacity: 0.08;
+.px-2 {
+    padding: 0 1rem;
 }
 
-.btn::before {
-    opacity: 0.24;
-}
-/* Overlay */
-.btn:hover:focus::before {
-    opacity: 0.3;
+.px-3 {
+    padding: 0 1.5rem;
 }
 
-/* Active */
-.btn:active {
-    box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2), 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12);
+.px-4 {
+    padding: 0 2rem;
 }
 
-.btn:active::after {
-    opacity: 0.32;
-    transform: translate(-50%, -50%) scale(0);
-    transition: transform 0s;
+.px-5 {
+    padding: 0 2.5rem;
 }
 
-/* Disabled */
-.btn:disabled {
-    color: rgba(0, 0, 0, 0.38);
-    background-color: rgba(0, 0, 0, 0.12);
-    box-shadow: none;
-    cursor: initial;
+.pr-1 {
+    padding-right: 0.5rem;
 }
 
-.btn:disabled::before {
-    opacity: 0;
+.pr-2 {
+    padding-right: 1rem;
 }
 
-.btn:disabled::after {
-    opacity: 0;
+.pr-3 {
+    padding-right: 1.5rem;
 }
+
+.pr-4 {
+    padding-right: 2rem;
+}
+
+.pr-5 {
+    padding-right: 2.5rem;
+}
+
+.pl-1 {
+    padding-left: 0.5rem;
+}
+
+.pl-2 {
+    padding-left: 1rem;
+}
+
+.pl-3 {
+    padding-left: 1.5rem;
+}
+
+.pl-4 {
+    padding-left: 2rem;
+}
+
+.pl-5 {
+    padding-left: 2.5rem;
+}
+
+.pt-1 {
+    padding-top: 0.5rem;
+}
+
+.pt-2 {
+    padding-top: 1rem;
+}
+
+.pt-3 {
+    padding-top: 1.5rem;
+}
+
+.pt-4 {
+    padding-top: 2rem;
+}
+
+.pt-5 {
+    padding-top: 2.5rem;
+}
+
+.pb-1 {
+    padding-bottom: 0.5rem;
+}
+
+.pb-2 {
+    padding-bottom: 1rem;
+}
+
+.pb-3 {
+    padding-bottom: 1.5rem;
+}
+
+.pb-4 {
+    padding-bottom: 2rem;
+}
+
+.pb-5 {
+    padding-bottom: 2.5rem;
+}
+
+.p-1 {
+    padding: 0.5rem;
+}
+
+.p-2 {
+    padding: 1rem;
+}
+
+.p-3 {
+    padding: 1.5rem;
+}
+
+.p-4 {
+    padding: 2rem;
+}
+
+.p-5 {
+    padding: 2.5rem;
+}
+
+/* #endregion paddings */
+
+/* #region font-size */
+
+.fs-1 {
+    font-size: 1rem;
+}
+
+.fs-2 {
+    font-size: 1.5rem;
+}
+
+.fs-3 {
+    font-size: 2rem;
+}
+
+.fs-4 {
+    font-size: 2.5rem;
+}
+
+.fs-5 {
+    font-size: 3rem;
+}
+
+/* #endregion font-size */
+
+/* #region line-height */
+
+.lh-1 {
+    line-height: 0px;
+}
+
+.lh-2 {
+    line-height: 8px;
+}
+
+.lh-3 {
+    line-height: 16px;
+}
+
+.lh-4 {
+    line-height: 24px;
+}
+
+.lh-5 {
+    line-height: 32px;
+}
+
+/* #endregion line-height */
+
+/* #region custom */
 
 span.whatsapp-icon svg {
     padding-bottom: 4px !important;
 }
 
-/* AMOvil CSS */
+/* #endregion */
 
-.fab {
-    background: #03A9F4;
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    text-align: center;
-    color: #FFF;
-    box-shadow: 0px 0px 1px rgba(0,0,0,0.05), 2px 2px 2px rgba(0,0,0,0.05);
-/*   */
-    font-size: 1rem;
-    display: inline;
-    cursor: default;
-    font-weight: 700;
-    line-height: 1.5;
+/* #region shadow */
+
+.box-shadow {
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12) !important;
 }
-.fab span {
-vertical-align: middle;
-}
+
+/* #endregion shadow */
