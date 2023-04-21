@@ -57,10 +57,12 @@ De la imagen anterior se visualiza el dashboard seleccionado de Solicitudes <a c
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img06.jpeg)
-_**Imagen 6.** Amóvil - Adventerncia Sincronizar datos_
+_**Imagen 6.** Amóvil - Advertencia Sincronizar datos_
 
+Para continuar dar clic en <a class="btn cl-white bg-blue px-4"> Aceptar</a>, el cual inicia el proceso de sincronización:
 
-
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img07.jpeg)
+_**Imagen 7.** Amóvil - Proceso Sincronizar_
 
 
 
