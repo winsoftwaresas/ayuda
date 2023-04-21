@@ -17,11 +17,11 @@
 <meta property="og:url" content="http://localhost:4000/docs/05_03_movements/" />
 <meta property="og:site_name" content="AM" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2023-03-23T08:34:04-05:00" />
+<meta property="article:published_time" content="2023-04-21T09:03:51-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Movimientos de Kárdex" />
 <script type="application/ld+json">
-{"headline":"Movimientos de Kárdex","dateModified":"2023-03-23T08:34:04-05:00","datePublished":"2023-03-23T08:34:04-05:00","author":{"@type":"Person","name":"win"},"@type":"BlogPosting","description":"Ventana Detalle Movimientos de Kárdex","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/winsoftware_logo.svg"},"name":"win"},"url":"http://localhost:4000/docs/05_03_movements/","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/docs/05_03_movements/"},"@context":"https://schema.org"}</script>
+{"headline":"Movimientos de Kárdex","dateModified":"2023-04-21T09:03:51-05:00","datePublished":"2023-04-21T09:03:51-05:00","author":{"@type":"Person","name":"win"},"@type":"BlogPosting","description":"Ventana Detalle Movimientos de Kárdex","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/winsoftware_logo.svg"},"name":"win"},"url":"http://localhost:4000/docs/05_03_movements/","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/docs/05_03_movements/"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <meta property="og:image" content="http://localhost:4000/uploads/winsoftware_logo.svg"/>
@@ -29,6 +29,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="shortcut icon" type="image/png" href="/uploads/favicon.png" >
   <link rel="alternate" type="application/rss+xml" title="AM" href="/feed.xml">
+  <script src="//code.iconify.design/1/1.0.6/iconify.min.js"></script>
   <script src="/assets/js/main.js"></script>
   
     <script>
@@ -360,7 +361,7 @@ function searchResults(form) {
                     
                       
                       
-                      <li class=""><a href="/docs/05_04_transactions/">Transacciones</a></li>
+                      <li class=""><a href="/docs/05_04_services/">Servicios</a></li>
                     
                     </ul>
                     
@@ -736,7 +737,7 @@ se usa para insertar uno o varios registros de movimientos de Materiales o Repue
 
 <p>A continuación se describen los campos que  componen el registro de un Ajuste. Sobre cada campo se da una breve explicación:</p>
 
-<p><strong>Código RP:</strong> Especifica el Código o Referencia del Material o Repuesto objeto del movimiento de Ajuste, según se elija en la ventana visor de Materiales y Repuestos que se muestra al dar clic en el <span class="mdi mdi-filter-variant icon white"></span> ubicado en la parte superior derecha. De otra manera, es posible escribir directamente el Código o Referencia del Repuesto exacta en el campo Código RP, al finalizar de escribir el Código o Referencia, se presiona la tecla tabular.</p>
+<p><strong>Código RP:</strong> Especifica el Código o Referencia del Material o Repuesto objeto del movimiento de Ajuste, según se elija en la ventana visor de Materiales y Repuestos que se muestra al dar clic en el <span class="mdi mdi-filter-variant icon gray "></span> ubicado en la parte superior derecha. De otra manera, es posible escribir directamente el Código o Referencia del Repuesto exacta en el campo Código RP, al finalizar de escribir el Código o Referencia, se presiona la tecla tabular.</p>
 
 <p>Al terminar de digitar o elegir el Material o Repuesto,  se  muestra información automática del Repuesto de los siguientes campos: Descripción RP, $ Unit y $ Unit del AL. También, al dar clic sobre el icono de <span class="mdi mdi-alert-circle-outline"></span>, aparece un cuadro llamado <a class="btn"><span class="mdi mdi-swap-vertical-circle">Antes de la Transacción</span></a> está al lado derecho de este campo y muestra la información del saldo de inventario actual de ese ítem antes de la transacción, una vez se finaliza la transacción del movimiento, se muestra un cuadro adicional llamado  <a class="btn"><span class="mdi mdi-swap-vertical-circle">despues de la Transacción</span></a> y muestra la información del saldo de inventario actual con la que quedó el ítem, luego de finalizarse la transacción.</p>
 
@@ -790,7 +791,7 @@ se usa para insertar uno o varios registros de movimientos de Materiales o Repue
 <p><img src="https://ayuda.winsoftware.com.co/assets/images/cap05/chp05_img21.png" alt="Procesar imagen" />
 <em><strong>Imagen 14.</strong> Kárdex - Congelar Documento</em></p>
 
-<p>Para congelar un documento basta con seleccionar el Documento de Kárdex, dar clic al  botón <a class="btn blue">congelar documento <span class="mdi mdi-grid-off"></span></a>, el sistema muestra un mensaje de alerta indicado al usuario de si está seguro de continuar con el proceso, ya que la operación no tiene reversa, para finalizar dar clic en el botón  <a class="btn white">Aceptar</a>.</p>
+<p>Para congelar un documento basta con seleccionar el Documento de Kárdex, dar clic al  botón <a class="btn blue">congelar documento <span class="mdi mdi-grid-off"></span></a>, el sistema muestra un mensaje de alerta indicado al usuario de si está seguro de continuar con el proceso, ya que la operación no tiene reve rsa, para finalizar dar clic en el botón  <a class="btn white">Aceptar</a>.</p>
 
 <h1 id="ventana-submenú-de-kárdex-de-almacén">Ventana Submenú de Kárdex de Almacén</h1>
 
@@ -807,56 +808,54 @@ se usa para insertar uno o varios registros de movimientos de Materiales o Repue
 
 <p><strong>AM</strong> mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar.</p>
 
-<p>El programa permite entonces hacer selección de un grupo de Movimientos de Kárdex de acuerdo con los criterios seleccionados en la siguiente ventana.</p>
+<p>El programa permite entonces hacer selección de un grupo de Movimientos de Kárdex de acuerdo con los criterios seleccionados en la siguiente ventana:</p>
 
-<p><img src="../../assets/images/cap06/chp06_img23.png" alt="detalle de documentos kardex" /></p>
+<p><img src="https://ayuda.winsoftware.com.co/assets/images/cap05/chp05_img23.png" alt="Procesar imagen" />
+<em><strong>Imagen 16.</strong> Kárdex - Subgrupo Documentos Kardex</em></p>
 
-<p>Los criterios de selección están divididos en 2 grupos: Los que aplican sobre el Documento de Kárdex y Los que Aplican sobre el Movimiento de Kárdex en sí.</p>
+<p>Los criterios de selección están divididos en 2 grupos: Los que aplican sobre el Documento de Kárdex y Los que se refieren al detalle del Movimiento de Kárdex.</p>
 
 <h1 id="filtrar-por-campos-particulares-del-documento">FILTRAR POR CAMPOS PARTICULARES DEL DOCUMENTO</h1>
 
-<p>Centro  de  Costo: Esta selección agrupa todos  los  Documentos  de  Kárdex  que  están asociados con el Centro de Costo que se especifique en el campo. También se puede elegir el Centro de Costo mediante el uso de comodines, para ello, se debe dar clic al icono  “Candado”. Si se selecciona la opción  “Utilizar comodines”, se digita la palabra, por ejemplo Sistema% seleccionará todos los Documentos de Kárdex en cuyo Centro de Costo empiecen por la palabra Sistema.</p>
+<p><strong>Centro  de  Costo:</strong> Esta selección agrupa todos  los  Documentos  de  Kárdex  que  están asociados con el Centro de Costo que se especifique en el campo. Principalmente se elige un Centro Costo se elige de una lista desplegable, sin embargo,también se puede elegir el Centro de Costo mediante el uso de comodines (%) para ello, se debe dar clic al icono <span class="mdi mdi-lock"></span> . El campo se muestra disponible <span class="mdi mdi-lock-open-outline"></span> para digitar información,  por ejemplo, Sistema% seleccionará todos los Documentos de Kárdex en cuyo Centro de Costo empiecen por la palabra Sistema.</p>
 
-<p><strong>Documento:</strong> Esta selección agrupa todos los Documentos de Kárdex  cuyo documento cumple con el criterio especificado.</p>
+<p><strong>Documento:</strong> Esta selección agrupa todos los Documentos de Kárdex  cuyo documento cumple con el criterio especificado. Es posible usar comodines (%).</p>
 
-<p><strong>Movimiento:</strong> Esta selección agrupa todos los Documentos de Kárdex cuyo tipo de movimiento es elegido en la lista desplegable.</p>
+<p><strong>Movimiento:</strong> Esta selección agrupa todos los Documentos de Kárdex cuyo tipo de movimiento es elegido en la lista desplegable, los posibles son: Entrada, Salida y Ajuste.</p>
 
-<p><strong>Rango  de  Generación:</strong> Esta selección agrupa  todos  los  Documentos de  Kárdex  cuya fecha de Generación se encuentra en el rango de Fechas especificado en el criterio.</p>
+<p><strong>Rango  de  Generación:</strong> Esta selección agrupa  todos  los  Documentos de  Kárdex  cuya Fecha de Generación se encuentra en el rango de Fechas especificado en el criterio.</p>
 
-<p><strong>Tercero / Proveedor:</strong> Esta selección agrupa todos los Documentos de Kárdex que están  asociados al tercero que se especifique en el campo. También se puede elegir el Tercero / Proveedor mediante el uso de comodines, para ello, se debe dar clic al icono <code class="language-plaintext highlighter-rouge">&lt;span class="iconify btn" data-icon=lock&gt;</code>Candado. Si se selecciona la opción  “Utilizar comodines”, se digita la palabra, por ejemplo FER% seleccionará todos los Documentos de Kárdex en cuyo Tercero / Proveedor empiecen por la palabra FER.</p>
+<p><strong>Tercero / Proveedor:</strong> Esta selección agrupa todos los Documentos de Kárdex que están  asociados al tercero que se especifique en el campo. Principalmnete, es un campo desplegable, sin embargo, también se puede elegir el Tercero / Proveedor mediante el uso de comodines (%) para ello, se debe dar clic al icono <span class="mdi mdi-lock"></span>, el cual <span class="mdi mdi-lock-open-outline"></span> habilita el campo para digitar la palabra, por ejemplo FER% seleccionará todos los Documentos de Kárdex en cuyo Tercero / Proveedor empiecen por la palabra FER.</p>
 
 <p><strong>Tipo de Documento:</strong> Esta selección agrupa todos los Documentos de Kárdex cuyo tipo de documento es elegido en la lista desplegable.</p>
 
 <h2 id="filtrar-por-campos-del-movimiento">FILTRAR POR CAMPOS DEL MOVIMIENTO</h2>
 
-<p><strong>Casilla:</strong> Esta selección agrupa todo el movimiento correspondiente al repuesto de la casilla
-(Sitio de almacenamiento en el almacén) seleccionado.</p>
+<p><strong>Casilla:</strong> Esta selección agrupa los movimientos correspondientes al Repuesto asociado a la casilla que se digite a continuación (casilla definida en la ficha técnica del Repuesto en el Almacén).</p>
 
-<p><strong>Clase   del   Repuesto:</strong> Esta  selección  agrupa  todo  el  movimiento  correspondiente  al repuesto de la clase especificada.</p>
+<p><strong>Clase del Repuesto:</strong> Esta  selección  agrupa los  movimientos  asociados  al Repuesto de la clase especificada en el campo (definida en la ficha técnica del Repuesto).</p>
 
-<p><strong>Código de Barras Interno:</strong>
-Si existe un código de barras interno de la organización, este campo permite seleccionar el Repuesto que se encuentre asociado al Código  de  Barras Interno que se ingresó al crear el Repuesto.</p>
+<p><strong>Código de Barras Interno:</strong> Si existe un código de barras interno de la organización, este campo permite agurpar los movimientos asociados al Repuesto que se encuentre asociado al Código de  Barras Interno especificado.</p>
 
-<p><strong>Código   de   Barras   Proveedor:</strong>   Permite  seleccionar  el  Repuesto  que  se   encuentre asociado al Código de Barras del Proveedor que se ingresó al crear el Repuesto.</p>
+<p><strong>Código   de   Barras   Proveedor:</strong>   Permite  seleccionar los movimientos asociados al  Repuesto que se encuentre asociado al Código de Barras del Proveedor.</p>
 
 <p><strong>Comentarios:</strong>   Esta  selección se  agrupa todo  el  movimiento  cuyo campo  comentarios corresponde con el texto especificado.</p>
 
-<p><strong>Código 	del  Pedido:</strong>Esta selección agrupa todo  el  movimiento originado a  partir  del módulo de Pedidos.</p>
+<p><strong>Código del  Pedido:</strong> Esta selección agrupa los  movimientos originados a  partir  del módulo de Pedidos.</p>
 
-<p><strong>Código  del  Repuesto:</strong>  Esta  selección  agrupa  todo  el  movimiento  correspondiente  al repuesto del código especificado.</p>
+<p><strong>Código  del  Repuesto:</strong>  Esta  selección  agrupa  los   movimientos  que están asociados  al Repuesto del código especificado.</p>
 
-<p><strong>Concepto:</strong>   Esta  selección  agrupa  todo  el  movimiento correspondiente al  concepto  de movimiento seleccionado.</p>
+<p><strong>Concepto:</strong>   Esta  selección  agrupa los movimientos asociados  concepto  de movimiento seleccionado.</p>
 
-<p><strong>Descripción del Repuesto:</strong> Esta selección agrupa todo el movimiento correspondiente al repuesto de la descripción especificada.</p>
+<p><strong>Descripción del Repuesto:</strong> Esta selección filtra los movimientos asociados a la descripción del Repuesto.</p>
 
-<p><strong>Número de la OT:</strong> Permite buscar una orden de trabajo específica por medio del número que ésta fue asociada.</p>
+<p><strong>Número de la OT:</strong> Filtra los movimientos asociados al número de la OT que se especifica en este campo. Este campo también tiene la posibilidad de encontrar fácilmente la OT a través del subgrupo <span class="mdi mdi-filter-variant icon white"></span>.</p>
 
-<p><strong>Rango  de  Generación del Movimiento:</strong> Esta selección agrupa todo el  movimiento en fechas  incluidas dentro del rango de fechas seleccionado.</p>
+<p><strong>Rango  de  Generación del Movimiento:</strong> Esta selección agrupa los movimientos que se encuentren dentro del rango de fechas que se defina en este campo.</p>
 
-<p><strong>Referencia  Principal:</strong> Esta  selección  agrupa  todo  el  movimiento  correspondiente   al repuesto de la referencia seleccionada (Proveedor 1).</p>
+<p><strong>Referencia  Principal:</strong> Filtra los movimientos asociados al Repuesto de la referencia seleccionada (Proveedor 1).</p>
 
-<p><strong>Tipo de Repuesto:</strong> Esta opción permite seleccionar los Repuestos por su característica de
-“Inventariado” o  “No Inventariado”.</p>
+<p><strong>Tipo de Repuesto:</strong> Esta opción permite filtrar los movimientos asociados a  los Repuestos por su característica de estar inventarios o no inventariados “Inv” o  “No Inv”.</p>
 
                         
                             <div class="share uk-text-center uk-margin-medium-top">
@@ -959,7 +958,7 @@ Si existe un código de barras interno de la organización, este campo permite s
                   
                   
                     <h5></h5>
-                    <div class="uk-text-right"><a class="remove-underline hvr-forward" href="/docs/05_04_transactions/">Siguiente &rarr;</a></div>
+                    <div class="uk-text-right"><a class="remove-underline hvr-forward" href="/docs/05_04_services/">Siguiente &rarr;</a></div>
                 
             </div>
         </div>
@@ -1202,7 +1201,7 @@ Si existe un código de barras interno de la organización, este campo permite s
         
           
           
-          <li class=""><a href="/docs/05_04_transactions/">Transacciones</a></li>
+          <li class=""><a href="/docs/05_04_services/">Servicios</a></li>
         
         </ul>
         

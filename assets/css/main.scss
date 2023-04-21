@@ -1,9 +1,13 @@
---- # Only the main Sass file needs front matter (the dashes are enough) --- // System fonts
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+// System fonts
 @import "system-font-css/_system-font";
 @import "../css/mdi.css";
-@import "../css/colors.css";
-@import "../css/icons.css";
-@import "../css/buttons.css";
+@import "/assets/css/colors.css";
+@import "/assets/css/icons.css";
+@import "/assets/css/buttons.css";
 
 // Custom variables and variable overwrites.
 @import "theme/variables";
