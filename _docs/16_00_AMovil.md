@@ -26,7 +26,7 @@ _**Imagen 2.** Amóvil - Inicio_
 En la parte superior derecha se visualizan los siguientes íconos que representan la funcionalidad de sincronización:
 
 
- - <a class="btn cl-white bg-blue-50 fs-2"><span class="iconify btn-icon cl-black" data-icon="mdi-tray-arrow-down"></span><span class="dot bg-af-green"></span></a> : se usa para descargar la información antes de comenzar a trabajar con la aplicación. Al dar un toque aparece un mensaje de advertencia:
+ - <a class="btn cl-white bg-blue-50 fs-2"><span class="iconify btn-icon cl-black" data-icon="mdi-tray-arrow-down"></span><span class="dot bg-af-green"></span></a> : descarga la información antes de comenzar a trabajar con la aplicación. Al dar un toque aparece un mensaje de advertencia:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img03.jpeg)
 _**Imagen 3.** Amóvil - Mensaje Advertencia descarga_
@@ -53,7 +53,7 @@ De la imagen anterior se visualiza el dashboard seleccionado de Solicitudes <a c
 
 
 
-- <a class="btn cl-white bg-blue-50 fs-2"><span class="iconify btn-icon cl-black" data-icon="mdi-tray-arrow-up"></span><span class="dot bg-af-red"></span></a> : este botón se usa para subir la información una vez que el usuario o técnico ejecutor finalice sus labores. Al dar un toque aparece un mensaje de advertencia:
+- <a class="btn cl-white bg-blue-50 fs-2"><span class="iconify btn-icon cl-black" data-icon="mdi-tray-arrow-up"></span><span class="dot bg-af-red"></span></a> : sube la información una vez que el usuario o técnico ejecutor finalice sus labores. Al dar un toque aparece un mensaje de advertencia:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img06.jpeg)
@@ -64,6 +64,14 @@ Para continuar dar clic en <a class="btn cl-white bg-blue px-4"> Aceptar</a>, el
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img07.jpeg)
 _**Imagen 7.** Amóvil - Proceso Sincronizar_
 
+Una se complete el proceso se puede cerrar sesión en la aplicación.
+
+ - <a class="btn cl-white bg-blue"><span class="mdi mdi-menu-open cl-white fs-2"></span></a> : su función es ingresar al menú principal de la aplicación.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img08.jpeg)
+_**Imagen 8.** Amóvil - Ir a Menú_
 
 
- - <a class="btn cl-white bg-blue"><span class="mdi mdi-menu-open cl-white fs-2"></span></a> : su función es ingresar al menú principal de la aplicación. 
+
+
+
