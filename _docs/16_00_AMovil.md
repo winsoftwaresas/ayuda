@@ -16,8 +16,31 @@ Una vez se ingrese a la aplicación (suministrada por WIN Software), lo primero 
 _**Imagen 1.** Amóvil - Iniciar Sesión_
 
 
-Al ingresar a la aplicación se muestra el dashboard sin registrar datos, inicialmente se deben descargar los datos, a continuación se da una breve explicación:
+Al ingresar a la aplicación se muestra el dashboard sin registrar datos, inicialmente se deben descargar los datos:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img02.jpeg)
 _**Imagen 2.** Amóvil - Inicio_
+
+En la parte superior derecha se visualizan los siguientes íconos:
+
+
+<a class="btn cl-white bg-blue-50 fs-2"><span class="iconify btn-icon cl-black" data-icon="mdi-tray-arrow-down"></span><span class="dot bg-af-green"></span></a> : se usa para descargar la información antes de comenzar a trabajar con la aplicación. Al dar un toque aparece un mensaje de advertencia:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img03.jpeg)
+_**Imagen 3.** Amóvil - Mensaje Advertencia descarga_
+
+
+ para continuar dar clic en <a class="btn cl-white bg-blue px-4"> Aceptar</a>, 
+
+
+
+de lo contrario dar clic en <a class="btn cl-white bg-green px-4"> Cancelar</a>.
+
+
+
+
+<a class="btn cl-white bg-blue-50 fs-2"><span class="iconify btn-icon cl-black" data-icon="mdi-tray-arrow-up"></span><span class="dot bg-af-red"></span></a> : este botón se usa para subir la información una vez que el usuario o técnico ejecutor finalice sus labores.
+
+
+<a class="btn cl-white bg-blue"><span class="mdi mdi-menu-open cl-white fs-2"></span></a> : su función es ingresar al menú principal de la aplicación. 
