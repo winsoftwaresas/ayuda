@@ -66,10 +66,55 @@ _**Imagen 7.** Amóvil - Proceso Sincronizar_
 
 Una se complete el proceso se puede cerrar sesión en la aplicación.
 
- - <a class="btn cl-white bg-blue"><span class="mdi mdi-menu-open cl-white fs-2"></span></a> : su función es ingresar al menú principal de la aplicación.
+ - <a class="btn cl-white bg-blue"><span class="mdi mdi-menu-open cl-white fs-2"></span></a> : su función es ingresar al menú principal de la aplicación, como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img08.jpeg)
 _**Imagen 8.** Amóvil - Ir a Menú_
+
+
+A continuación se describen los botones de inicio:
+
+ <a class="btn cl-black bg-white pl-2 pr-3 bd-blue"><span class="iconify cl-black fs-2 pr-1" data-icon="mdi-home-outline"></span> Inicio</a> : Hace un direccionamiento a la página inicio donde se visualizan los bashboards de Solicitudes y Órdenes de Trabajo.
+
+ <a class="btn cl-black bg-white pl-2 pr-3 bd-blue"><span class="iconify cl-black fs-2 pr-1" data-icon="mdi-minus-box-multiple-outline"></span> Activos</a> : Redirecciona al módulo de Activos.
+
+
+<a class="btn cl-black bg-white pl-2 pr-3 bd-blue"><span class="iconify cl-black fs-2 pr-1" data-icon="mdi-view-grid"></span> Almacén</a> : Permite ingresar al módulo de Materiales/Repuestos.
+
+
+<a class="btn cl-black bg-white pl-2 pr-3 bd-blue"><span class="iconify cl-black fs-2 pr-1" data-icon="mdi-account-box-outline"></span> Solicitudes</a> : Ingresa al módulo de Solicitudes de Servicio
+
+
+<a class="btn cl-black bg-white pl-2 pr-3 bd-blue"><span class="iconify cl-black fs-2 pr-1" data-icon="mdi-land-plots"></span> Órdenes</a> : Redirecciona al módulo de Órdenes de Trabajo. 
+
+
+Algunos comandos a tener en cuenta son:
+
+<a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-filter-outline"></span></a> : Es el ícono del subgrupo el cual permite filtrar o preseleccionar información según un conjunto de criterios.
+
+<span class="iconify icon cl-gray bg-blue-25" data-icon="mdi-plus"></span> : abre un conjunto de opciones según el módulo o submódulo, como los siguientes a continuación.
+
+<a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-calendar-month"></span></a>: En el detalle de una SS u OT indica ingresar o modificar los tiempos de ejecución.
+
+<a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-chat-processing-outline"></span></a>: Permite ingresar los comentarios de ejecución.
+
+
+<a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-cellphone"></span></a>: Permite agregar la Multimedia al registro en cuestión.
+
+ <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-check-circle"></span></a> : Permite hacer un cambio de estado en la SS/OT.
+
+
+
+<a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-card-account-details-outline"></span></a> : Ingresa a la evaluación del servicio de la SS/OT.
+
+
+
+<a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-close"></span></a> : Cierra la ventana del menú de opciones.
+
+<a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-file-edit-outline"></span></a> : Permite hacer un ingreso o registro de la firma tanto del Responsable ejecutor como de la persona quien recibe. 
+
+
+## Activos 
 
 
 
