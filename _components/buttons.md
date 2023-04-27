@@ -119,4 +119,8 @@ published: true
 
 <hr>
 
-<span class="iconify icon cl-gray bg-blue-25" data-icon="mdi-plus"></span>
+<span class="iconify icon cl-gray bg-blue-25" data-icon="mdi-plus"></span></a>
+
+
+
+<a class="btn cl-gray bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-magnify"></span> Consultar Activos</a>

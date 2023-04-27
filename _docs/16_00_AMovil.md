@@ -92,7 +92,7 @@ Algunos comandos a tener en cuenta son:
 
 <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-filter-outline"></span></a> : Es el ícono del subgrupo el cual permite filtrar o preseleccionar información según un conjunto de criterios.
 
-<span class="iconify icon cl-gray bg-blue-25" data-icon="mdi-plus"></span> : abre un conjunto de opciones según el módulo o submódulo, como los siguientes a continuación.
+<span class="iconify icon cl-gray bg-blue-25" data-icon="mdi-plus"></span></a> : abre un conjunto de opciones según el módulo o submódulo, como los siguientes a continuación.
 
 <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-calendar-month"></span></a>: En el detalle de una SS u OT indica ingresar o modificar los tiempos de ejecución.
 
@@ -116,7 +116,26 @@ Algunos comandos a tener en cuenta son:
 
 ## Activos 
 
+Para acceder al Submenú de Activos de debe dar un toque sobre el botón <a class="btn cl-black bg-white pl-2 pr-3 bd-blue"><span class="iconify cl-black fs-2 pr-1" data-icon="mdi-minus-box-multiple-outline"></span> Activos</a>, automáticamente la aplicación redirecciona al Submenpu de Activos, se debe tener presente que el presente se lista dependiendo de los permisos que tenga el usuario logueado. 
+
+Al ingresar al módulo de Activos aparecen las siguientes opciones: Atrás, Consultar Activos, Crear Activo, Actualizar Contadores, Inventario Físico y finalmente cerrar sesión, como se muestra en la siguiente imagen
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img09.jpeg)
+_**Imagen 9.** Amóvil - Submenú de Activos_
+
+
+### Consultar Activos
+
+Para hacer consulta de algún Activo dar un toque en <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-magnify"></span> Consultar Activos</a> donde aparecerá el listado de todos los Activos, cada uno de los registros se distingue por medio de un  sombreado azul, si algún registro tiene un indicador de color naranja <span class="iconify cl-orange bd-orange bg-orange btn-rounded" data-icon="mdi-circle"></span>  significa que el Activo posee registros Multimedia. 
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img10.jpeg)
+_**Imagen 10.** Amóvil - Ir a Consultar Activos_
+
+Para ingresar al detalle del registro se da un toque sobre el botón <a class="btn cl-black bg-blue-25 bd-blue px-4">Detalle</a>. 
 
 
 
-
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img11.jpeg)
+_**Imagen 11.** Amóvil - Detalle Consultar Activos_
+     
