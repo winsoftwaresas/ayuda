@@ -130,12 +130,14 @@ Para hacer consulta de algún Activo dar un toque en <a class="btn cl-black bg-w
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img10.jpeg)
-_**Imagen 10.** Amóvil - Ir a Consultar Activos_
+_**Imagen 10.** Amóvil - Ir a Detalle Activos_
 
-Para ingresar al detalle del registro se da un toque sobre el botón <a class="btn cl-black bg-blue-25 bd-blue px-4">Detalle</a>. 
+Para ingresar al detalle del registro se da un toque sobre el botón <a class="btn cl-black bg-blue-25 bd-blue px-4">Detalle</a>. A continuación se muestra la ficha técnica del Activo:
 
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img11.jpeg)
-_**Imagen 11.** Amóvil - Detalle Consultar Activos_
+_**Imagen 11.** Amóvil - Ficha Técnica Activos_
      
+
+
