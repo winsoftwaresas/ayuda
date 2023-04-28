@@ -162,5 +162,19 @@ _**Imagen 13.** Amóvil - Ir a Multimedia_
 _**Imagen 14.** Amóvil - Multimedia_
 
 
-Para agregar o consultar documentos dar un toque en la respectiva carpeta <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-outline"></span> Documentos</a>, en caso de tener documentos añadidos desde **AM** es posible visualizarlos descargándolos con el botón <span class="iconify icon cl-black bg-white" data-icon="mdi-tray-arrow-down"></span></a>, para subir un nuevo documento dirigirse a <a class="btn cl-white bg-blue px-4">Subir archivo</a>. 
+Para agregar o consultar documentos dar un toque en la respectiva carpeta <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-outline"></span> Documentos</a>, en caso de tener documentos añadidos desde **AM** es posible visualizarlos descargándolos con el botón <span class="iconify icon cl-black bg-white" data-icon="mdi-tray-arrow-down"></span></a>, para subir un nuevo documento dirigirse a <a class="btn cl-white bg-blue px-4">Subir archivo</a>, allí se abre el explorador de archivos de su dispositivo móvil y una vez aque localice el documento dar un toque y finalizar con el botón <a class="btn cl-white bg-blue px-4">Guardar</a>, como se indica en la siguiente imagen:
 
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img15.jpeg)
+_**Imagen 15.** Amóvil - Guardar Multimedia_
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img16.jpeg)
+_**Imagen 16.** Amóvil - Guardar Multimedia_
+
+
+
+Cuando se termine de subir el documento (word, excel, pdf, power point, entre otros), el sistema muestra un mensaje de guardado exitoso:
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img17.jpeg)
+_**Imagen 17.** Amóvil - Mensaje Alerta Guardar Multimedia_
