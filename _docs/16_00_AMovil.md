@@ -140,4 +140,20 @@ Para ingresar al detalle del registro se da un toque sobre el botón <a class="b
 _**Imagen 11.** Amóvil - Ficha Técnica Activos_
      
 
+Para guardar un cambio sobre la ficha técnica dar un toque en <a class="btn cl-white bg-blue px-3"> Actualizar</a>, en el cual sistema mostrará un mensaje alerta indicando que se ha actualizado el registro y para continuar dar un toque en <a class="btn cl-white bg-blue px-3"> Aceptar</a> como se muestra a continuación:
 
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img12.jpeg)
+_**Imagen 12.** Amóvil - Mensaje Alerta Actualizar Activos_
+ 
+
+#### Multimedia en Activos
+
+
+Para ingresar **Multimedia** en los Activos se debe ingresar al Detalle del registro en cuestión; nótese que en la parte superior derecha se encuentra el siguiente ícono <span class="iconify icon cl-gray bg-blue-25" data-icon="mdi-plus"></span></a>, al dar un toque muestra las siguientes dos opciones:
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img13.jpeg)
+_**Imagen 13.** Amóvil - Ir a Multimedia_
+
+       
