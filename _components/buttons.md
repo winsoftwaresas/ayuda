@@ -121,6 +121,9 @@ published: true
 
 <span class="iconify icon cl-gray bg-blue-25" data-icon="mdi-plus"></span></a>
 
+<a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-magnify"></span> Consultar Activos</a> 
+
+<a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-outline"></span> Documentos</a>
 
 
-<a class="btn cl-gray bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-magnify"></span> Consultar Activos</a>
+<span class="iconify icon cl-black bg-white" data-icon="mdi-tray-arrow-down"></span></a>

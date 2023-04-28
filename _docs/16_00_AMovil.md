@@ -156,4 +156,11 @@ Para ingresar **Multimedia** en los Activos se debe ingresar al Detalle del regi
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img13.jpeg)
 _**Imagen 13.** Amóvil - Ir a Multimedia_
 
-       
+ Para añadir multimedia o descargar los archivos ya existentes dar un toque en <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-cellphone"></span></a>, donde se muestra la información general del Activo y las tres carpetas disponibles: **Documentos**, **Imágenes** y **Videos**:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img14.jpeg)
+_**Imagen 14.** Amóvil - Multimedia_
+
+
+Para agregar o consultar documentos dar un toque en la respectiva carpeta <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-outline"></span> Documentos</a>, en caso de tener documentos añadidos desde **AM** es posible visualizarlos descargándolos con el botón <span class="iconify icon cl-black bg-white" data-icon="mdi-tray-arrow-down"></span></a>, para subir un nuevo documento dirigirse a <a class="btn cl-white bg-blue px-4">Subir archivo</a>. 
+
