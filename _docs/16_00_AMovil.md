@@ -147,7 +147,7 @@ Para guardar un cambio sobre la ficha técnica dar un toque en <a class="btn cl-
 _**Imagen 12.** Amóvil - Mensaje Alerta Actualizar Activos_
  
 
-#### Multimedia en Activos
+### Multimedia en Activos
 
 
 Para ingresar **Multimedia** en los Activos se debe ingresar al Detalle del registro en cuestión; nótese que en la parte superior derecha se encuentra el siguiente ícono <span class="iconify icon cl-gray bg-blue-25" data-icon="mdi-plus"></span></a>, al dar un toque muestra las siguientes dos opciones:
@@ -156,16 +156,20 @@ Para ingresar **Multimedia** en los Activos se debe ingresar al Detalle del regi
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img13.jpeg)
 _**Imagen 13.** Amóvil - Ir a Multimedia_
 
- Para añadir multimedia o descargar los archivos ya existentes dar un toque en <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-cellphone"></span></a>, donde se muestra la información general del Activo y las tres carpetas disponibles: <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-outline"></span> Documentos</a>, <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-image-outline"></span> Imágenes</a> y <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-video"></span> Videos</a>:
+Para añadir multimedia o descargar los archivos ya existentes dar un toque en <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-cellphone"></span></a>, donde se muestra la información general del Activo y las tres carpetas disponibles: <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-outline"></span> Documentos</a>, <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-image-outline"></span> Imágenes</a> y <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-video"></span> Videos</a>, como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img14.jpeg)
 _**Imagen 14.** Amóvil - Multimedia_
 
+A continuación se ilustra un ejemplo para subir Documentos, el cual es el mismo para subir Imágenes o Videos:
 
-Para agregar o consultar documentos dar un toque en la respectiva carpeta <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-outline"></span> Documentos</a>, en caso de tener documentos añadidos desde **AM** es posible visualizarlos descargándolos con el botón <span class="iconify icon cl-black bg-white" data-icon="mdi-tray-arrow-down"></span></a>, para subir un nuevo archivo dirigirse a <a class="btn cl-white bg-blue px-4">Subir archivo</a>, allí se abre el explorador de archivos de su dispositivo móvil y una vez aque localice el documento dar un toque y finalizar con el botón <a class="btn cl-white bg-blue px-4">Guardar</a>, como se indica en la siguiente imagen:
+Para agregar o consultar documentos dar un toque en la respectiva carpeta <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-outline"></span> Documentos</a>, en caso de tener documentos añadidos desde **AM** es posible visualizarlos descargándolos con el botón <span class="iconify icon cl-black bg-white" data-icon="mdi-tray-arrow-down"></span></a>, para subir un nuevo archivo dirigirse a <a class="btn cl-white bg-blue px-4">Subir archivo</a>:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img15.jpeg)
-_**Imagen 15.** Amóvil - Guardar Multimedia_
+_**Imagen 15.** Amóvil - Guardar Multimedia
+
+Esta opción  abre el explorador de archivos de su dispositivo móvil y una vez que localice el documento dar un toque y finalizar con el botón <a class="btn cl-white bg-blue px-4">Guardar</a>, como se indica en la siguiente imagen:
+
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img16.jpeg)
@@ -173,10 +177,18 @@ _**Imagen 16.** Amóvil - Guardar Multimedia_
 
 
 
-Cuando se termine de subir el documento (word, excel, pdf, power point, entre otros), el aplicativo muestra un mensaje de guardado exitoso:
+Cuando se termine de subir el archivo (word, excel, pdf, power point, imágenes tipo jpg, jpeg, png o videos), el aplicativo  muestra un mensaje de guardado exitoso:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img17.jpeg)
 _**Imagen 17.** Amóvil - Mensaje Alerta Guardar Multimedia_
 
+   
+### Subgrupo Activos
 
+Se usa para realizar búsquedas por grupos de Activos que cumplen con un conjunto de filtros o criterios. 
+
+Para ingresar a esta opción se debe dar clic al icono de Subgrupo <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-filter-outline"></span></a> ubicado en la parte inferior derecha de la pantalla, como se indica a continuación:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img18.png)
+_**Imagen 18.** Amóvil - Ir a Subgrupo_
