@@ -192,3 +192,10 @@ Para ingresar a esta opción se debe dar clic al icono de Subgrupo <a class="fab
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img18.png)
 _**Imagen 18.** Amóvil - Ir a Subgrupo_
+
+Esto lleva a la siguiente ventana, como se indica a continuación:
+
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img19.png)
+_**Imagen 19.** Amóvil - Ir a Subgrupo_
