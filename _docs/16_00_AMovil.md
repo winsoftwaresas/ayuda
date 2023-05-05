@@ -26,7 +26,7 @@ _**Imagen 2.** AMovil - Inicio_
 En la parte superior derecha se visualizan los siguientes íconos que representan la funcionalidad de sincronización:
 
 
- - <a class="btn cl-white bg-blue-50 fs-2"><span class="iconify btn-icon cl-black" data-icon="mdi-tray-arrow-down"></span><span class="dot bg-af-green"></span></a> : descarga la información antes de comenzar a trabajar con la aplicación. Al dar un toque aparece un mensaje de advertencia:
+<a class="btn cl-white bg-blue-50 fs-2"><span class="iconify btn-icon cl-black" data-icon="mdi-tray-arrow-down"></span><span class="dot bg-af-green"></span></a> : descarga la información antes de comenzar a trabajar con la aplicación. Al dar un toque aparece un mensaje de advertencia:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img03.jpeg)
 _**Imagen 3.** AMovil - Mensaje Advertencia descarga_
@@ -50,7 +50,7 @@ _**Imagen 5.** AMovil - Actualización de datos_
 
 De la imagen anterior se visualiza el dashboard seleccionado de Solicitudes <a class="btn cl-black bg-white bd-blue px-4"><span class="mdi mdi-circle cl-gray pr-1"></span><span class="pr-1">Estados de solicitudes</span></a> , en caso de querer visualizar el dashboard de Órdenes se debe dar un toque sobre el botón <a class="btn cl-black bg-white bd-gray px-4"><span class="mdi mdi-circle cl-gray pr-1"></span><span class="pr-1">Estados de las ordenes</span></a>.
 
-<a class="btn cl-white bg-orange px-5">66</a>  El recuadro naranja indica el total de las SS o OT según el gráfico acorde al párrafo anterior.
+<a class="btn cl-white bg-orange px-4">66</a>: indica el total de las SS o OT según el gráfico acorde al párrafo anterior.
 
 
 <a class="btn cl-white bg-blue-50 fs-2"><span class="iconify btn-icon cl-black" data-icon="mdi-tray-arrow-up"></span><span class="dot bg-af-red"></span></a> : sube la información una vez que el usuario o técnico ejecutor finalice sus labores. Al dar un toque aparece un mensaje de advertencia:
