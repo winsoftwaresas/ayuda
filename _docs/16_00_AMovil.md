@@ -1,11 +1,11 @@
 ---
 layout: page
-title: ◼ AMóvil
+title: ◼ AMovil
 order: 16_00
 ---
-# ¿Que es AMóvil?
+# ¿Que es AMovil?
 
-**Amóvil** es una aplicación complementaria de **AM** enfocada para los ejecutores de mantenimiento interno a través de portátiles móviles.  Este primer capítulo contiene información básica para la comprensión y el uso del AMóvil. Se plantea una visión general sobre la interfaz del usuario y sobre los elementos que aparecen en pantalla a manera de convenciones generales.
+**AMovil** es una aplicación complementaria de **AM** enfocada para los ejecutores de mantenimiento interno a través de portátiles móviles.  Este primer capítulo contiene información básica para la comprensión y el uso del AMovil. Se plantea una visión general sobre la interfaz del usuario y sobre los elementos que aparecen en pantalla a manera de convenciones generales.
 
 Se aprende a elegir e interpretar los comandos y a seleccionar las opciones de los módulos y submódulos, para ejecutar las funciones propias de la aplicación.
  
@@ -13,14 +13,14 @@ Se aprende a elegir e interpretar los comandos y a seleccionar las opciones de l
 Una vez se ingrese a la aplicación (suministrada por WIN Software), se visualiza la ventana para iniciar sesión:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img01.jpeg)
-_**Imagen 1.** Amóvil - Iniciar Sesión_
+_**Imagen 1.** AMovil - Iniciar Sesión_
 
 
 Cuando se ingresa a la aplicación se muestran los dashboards sin datos como se visualiza a continuación:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img02.jpeg)
-_**Imagen 2.** Amóvil - Inicio_
+_**Imagen 2.** AMovil - Inicio_
 
 
 En la parte superior derecha se visualizan los siguientes íconos que representan la funcionalidad de sincronización:
@@ -29,7 +29,7 @@ En la parte superior derecha se visualizan los siguientes íconos que representa
  - <a class="btn cl-white bg-blue-50 fs-2"><span class="iconify btn-icon cl-black" data-icon="mdi-tray-arrow-down"></span><span class="dot bg-af-green"></span></a> : descarga la información antes de comenzar a trabajar con la aplicación. Al dar un toque aparece un mensaje de advertencia:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img03.jpeg)
-_**Imagen 3.** Amóvil - Mensaje Advertencia descarga_
+_**Imagen 3.** AMovil - Mensaje Advertencia descarga_
 
 Para continuar dar un toque en <a class="btn cl-white bg-blue px-4"> Aceptar</a>, para evitar el proceso se dar un toque sobre el botón <a class="btn cl-white bg-green px-4"> Cancelar</a>. 
 
@@ -37,46 +37,46 @@ Para continuar dar un toque en <a class="btn cl-white bg-blue px-4"> Aceptar</a>
 El botón <a class="btn cl-white bg-blue px-4"> Aceptar</a> inicia el proceso de descarga así:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img04.jpeg)
-_**Imagen 4.** Amóvil - Descarga de datos_
+_**Imagen 4.** AMovil - Descarga de datos_
 
 
 Una vez se descarguen los datos, los dashboards se actualizan automáticamente:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img05.jpeg)
-_**Imagen 5.** Amóvil - Actualización de datos_
+_**Imagen 5.** AMovil - Actualización de datos_
 
 
 
 De la imagen anterior se visualiza el dashboard seleccionado de Solicitudes <a class="btn cl-black bg-white bd-blue px-4"><span class="mdi mdi-circle cl-gray pr-1"></span><span class="pr-1">Estados de solicitudes</span></a> , en caso de querer visualizar el dashboard de Órdenes se debe dar un toque sobre el botón <a class="btn cl-black bg-white bd-gray px-4"><span class="mdi mdi-circle cl-gray pr-1"></span><span class="pr-1">Estados de las ordenes</span></a>.
 
+<a class="btn cl-white bg-orange px-5">66</a>  El recuadro naranja indica el total de las SS o OT según el gráfico acorde al párrafo anterior.
 
 
-
-- <a class="btn cl-white bg-blue-50 fs-2"><span class="iconify btn-icon cl-black" data-icon="mdi-tray-arrow-up"></span><span class="dot bg-af-red"></span></a> : sube la información una vez que el usuario o técnico ejecutor finalice sus labores. Al dar un toque aparece un mensaje de advertencia:
+<a class="btn cl-white bg-blue-50 fs-2"><span class="iconify btn-icon cl-black" data-icon="mdi-tray-arrow-up"></span><span class="dot bg-af-red"></span></a> : sube la información una vez que el usuario o técnico ejecutor finalice sus labores. Al dar un toque aparece un mensaje de advertencia:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img06.jpeg)
-_**Imagen 6.** Amóvil - Advertencia Sincronizar datos_
+_**Imagen 6.** AMovil - Advertencia Sincronizar datos_
 
 Para continuar dar clic en <a class="btn cl-white bg-blue px-4"> Aceptar</a>, el cual inicia el proceso de sincronización:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img07.jpeg)
-_**Imagen 7.** Amóvil - Proceso Sincronizar_
+_**Imagen 7.** AMovil - Proceso Sincronizar_
 
 Una se complete el proceso se puede cerrar sesión en la aplicación.
 
- - <a class="btn cl-white bg-blue"><span class="mdi mdi-menu-open cl-white fs-2"></span></a> : su función es ingresar al menú principal de la aplicación, como se muestra a continuación:
+<a class="btn cl-white bg-blue"><span class="mdi mdi-menu-open cl-white fs-2"></span></a> : su función es ingresar al menú principal de la aplicación, como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img08.jpeg)
-_**Imagen 8.** Amóvil - Ir a Menú_
+_**Imagen 8.** AMovil - Ir a Menú_
 
 
 A continuación se describen los botones de inicio:
 
- <a class="btn cl-black bg-white pl-2 pr-3 bd-blue"><span class="iconify cl-black fs-2 pr-1" data-icon="mdi-home-outline"></span> Inicio</a> : Hace un direccionamiento a la página inicio donde se visualizan los bashboards de Solicitudes y Órdenes de Trabajo.
+<a class="btn cl-black bg-white pl-2 pr-3 bd-blue"><span class="iconify cl-black fs-2 pr-1" data-icon="mdi-home-outline"></span> Inicio</a> : Hace un direccionamiento a la página inicio donde se visualizan los bashboards de Solicitudes y Órdenes de Trabajo.
 
- <a class="btn cl-black bg-white pl-2 pr-3 bd-blue"><span class="iconify cl-black fs-2 pr-1" data-icon="mdi-minus-box-multiple-outline"></span> Activos</a> : Redirecciona al módulo de Activos.
+<a class="btn cl-black bg-white pl-2 pr-3 bd-blue"><span class="iconify cl-black fs-2 pr-1" data-icon="mdi-minus-box-multiple-outline"></span> Activos</a> : Redirecciona al módulo de Activos.
 
 
 <a class="btn cl-black bg-white pl-2 pr-3 bd-blue"><span class="iconify cl-black fs-2 pr-1" data-icon="mdi-view-grid"></span> Almacén</a> : Permite ingresar al módulo de Materiales/Repuestos.
@@ -121,7 +121,7 @@ Para acceder al Submenú de Activos de debe dar un toque sobre el botón <a clas
 Al ingresar al módulo de Activos aparecen las siguientes opciones: Atrás, Consultar Activos, Crear Activo, Actualizar Contadores, Inventario Físico y finalmente cerrar sesión, como se muestra en la siguiente imagen
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img09.jpeg)
-_**Imagen 9.** Amóvil - Submenú de Activos_
+_**Imagen 9.** AMovil - Submenú de Activos_
 
 
 ### Consultar Activos
@@ -130,21 +130,21 @@ Para hacer consulta de algún Activo dar un toque en <a class="btn cl-black bg-w
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img10.jpeg)
-_**Imagen 10.** Amóvil - Ir a Detalle Activos_
+_**Imagen 10.** AMovil - Ir a Detalle Activos_
 
 Para ingresar al detalle del registro se da un toque sobre el botón <a class="btn cl-black bg-blue-25 bd-blue px-4">Detalle</a>. A continuación se muestra la ficha técnica del Activo:
 
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img11.jpeg)
-_**Imagen 11.** Amóvil - Ficha Técnica Activos_
+_**Imagen 11.** AMovil - Ficha Técnica Activos_
      
 
 Para guardar un cambio sobre la ficha técnica dar un toque en <a class="btn cl-white bg-blue px-3"> Actualizar</a>, en el cual sistema mostrará un mensaje alerta indicando que se ha actualizado el registro y para continuar dar un toque en <a class="btn cl-white bg-blue px-3"> Aceptar</a> como se muestra a continuación:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img12.jpeg)
-_**Imagen 12.** Amóvil - Mensaje Alerta Actualizar Activos_
+_**Imagen 12.** AMovil - Mensaje Alerta Actualizar Activos_
  
 
 ### Multimedia en Activos
@@ -154,26 +154,26 @@ Para ingresar **Multimedia** en los Activos se debe ingresar al Detalle del regi
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img13.jpeg)
-_**Imagen 13.** Amóvil - Ir a Multimedia_
+_**Imagen 13.** AMovil - Ir a Multimedia_
 
 Para añadir multimedia o descargar los archivos ya existentes dar un toque en <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-cellphone"></span></a>, donde se muestra la información general del Activo y las tres carpetas disponibles: <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-outline"></span> Documentos</a>, <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-image-outline"></span> Imágenes</a> y <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-video"></span> Videos</a>, como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img14.jpeg)
-_**Imagen 14.** Amóvil - Multimedia_
+_**Imagen 14.** AMovil - Multimedia_
 
 A continuación se ilustra un ejemplo para subir Documentos, el cual es el mismo para subir Imágenes o Videos:
 
 Para agregar o consultar documentos dar un toque en la respectiva carpeta <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-outline"></span> Documentos</a>, en caso de tener documentos añadidos desde **AM** es posible visualizarlos descargándolos con el botón <span class="iconify icon cl-black bg-white" data-icon="mdi-tray-arrow-down"></span></a>, para subir un nuevo archivo dirigirse a <a class="btn cl-white bg-blue px-4">Subir archivo</a>:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img15.jpeg)
-_**Imagen 15.** Amóvil - Guardar Multimedia
+_**Imagen 15.** AMovil - Guardar Multimedia
 
 Esta opción  abre el explorador de archivos de su dispositivo móvil y una vez que localice el documento dar un toque y finalizar con el botón <a class="btn cl-white bg-blue px-4">Guardar</a>, como se indica en la siguiente imagen:
 
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img16.jpeg)
-_**Imagen 16.** Amóvil - Guardar Multimedia_
+_**Imagen 16.** AMovil - Guardar Multimedia_
 
 
 
@@ -181,7 +181,7 @@ Cuando se termine de subir el archivo (word, excel, pdf, power point, imágenes 
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img17.jpeg)
-_**Imagen 17.** Amóvil - Mensaje Alerta Guardar Multimedia_
+_**Imagen 17.** AMovil - Mensaje Alerta Guardar Multimedia_
 
    
 ### Subgrupo Activos
@@ -191,11 +191,9 @@ Se usa para realizar búsquedas por grupos de Activos que cumplen con un conjunt
 Para ingresar a esta opción se debe dar clic al icono de Subgrupo <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-filter-outline"></span></a> ubicado en la parte inferior derecha de la pantalla, como se indica a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img18.png)
-_**Imagen 18.** Amóvil - Ir a Subgrupo_
+_**Imagen 18.** AMovil - Ir a Subgrupo_
 
 Esto lleva a la siguiente ventana, como se indica a continuación:
 
-
-
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img19.png)
-_**Imagen 19.** Amóvil - Ir a Subgrupo_
+_**Imagen 19.** AMovil - Opciones Subgrupo_

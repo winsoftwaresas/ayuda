@@ -561,7 +561,7 @@
     } ,
   
     {
-      "title"    : "◼ AMóvil",
+      "title"    : "◼ AMovil",
       "category" : "",
       "tags"     : "",
       "url"      : "/docs/16_00_AMovil/",
@@ -571,7 +571,7 @@
     {
       "title"    : "Introducción",
       "category" : "",
-      "tags"     : "amóvil",
+      "tags"     : "AMovil",
       "url"      : "/docs/16_01_introduction/",
       "date"     : "2023-04-21 09:34:37 -0500"
     } 

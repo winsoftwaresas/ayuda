@@ -2,7 +2,7 @@
 layout: default
 title: Introducción
 subtitle: 
-tags: [amóvil]
+tags: [AMovil]
 author: win
 order: 16_01
 published: true
@@ -11,7 +11,7 @@ hidden: true
 <!-- ⚡⚡ COMENTAR ANTES DE PUBLICAR ⚡⚡ -->
 <head><script src="//code.iconify.design/1/1.0.6/iconify.min.js"></script></head>
 
-# AMóvil
+# AMovil
 
 <!-- - ¿Que es la Historia Archivada?
 - ¿Qué tipo de consultas se pueden hacer desde Historia Archivada?.

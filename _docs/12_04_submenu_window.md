@@ -10,7 +10,7 @@ order: 12_04
 
 ## Indicadores
 
-Es posible saber cuáles registros de SS, OT y Paros, tienen Multimedia, Servicio Evaluado y Firma de Recibido (sólo para SS y OTs diligenciadas desde AMóvil) directamente desde la ventana visor, sobreponiendo el cursor en el ícono de Indicadores <span class="mdi mdi-message-alert"></span> ubicado en la parte superior derecha de la ventana como se muestra a continuación:
+Es posible saber cuáles registros de SS, OT y Paros, tienen Multimedia, Servicio Evaluado y Firma de Recibido (sólo para SS y OTs diligenciadas desde AMovil) directamente desde la ventana visor, sobreponiendo el cursor en el ícono de Indicadores <span class="mdi mdi-message-alert"></span> ubicado en la parte superior derecha de la ventana como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap13/chp13_img12.png)
 _**Imagen 12.** Historia Archivada- Indicadores_
@@ -19,7 +19,7 @@ _**Imagen 12.** Historia Archivada- Indicadores_
 El significado de los colores es el siguiente:
 
 - **Pelota Naranja:** SS/OT que tienen asociada Multimedia.
-- **Pelota Blanca:** Indican SS/OT que tienen registrada la firma de recibido (AMóvil)
+- **Pelota Blanca:** Indican SS/OT que tienen registrada la firma de recibido (AMovil)
 - **Pelota Azul:** SS/OT con servicio evaluado.
 
 ## Subgrupo

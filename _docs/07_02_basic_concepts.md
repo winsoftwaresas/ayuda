@@ -162,7 +162,8 @@ Cuando el Equipo o el  Activo,  Objeto  de  la  Solicitud  de  Servicio no puede
 
 
 
-<a class="btn white"><span class="mdi mdi-checkbox-blank-outline"> filtrar por cr</span></a>: Al seleccionar esta opción, en el campo “Responsable” solo se despliegan los Responsables correspondientes al Centro Responsable elegido en la opción “Centro Responsable”. En otro caso, en el campo “Responsable” se despliegan todos los “Responsables” existentes en la tabla respectiva. 
+<a class="btn white"><span class="mdi mdi-checkbox-blank-outline"> filtrar por cr</span></a>: Al seleccionar esta opción, en el campo “Responsable” solo se despliegan los Responsables correspondientes al Centro Responsable elegido en la opción “Centro Responsable”. En otro caso, en el campo “Responsable” se despliegan todos los “Responsables” existentes en la tabla respectiva.
+ 
 
 **Causa de Falla:** En este campo es posible definir la Causa de Falla primaria que da origen a la Solicitud de Servicio. Para ello se selecciona una de las Causas de Falla que están definidas en la tabla de Infraestructura. “Causas de Falla” en la Infraestructura. Si no existe la causa de falla en la lista que se despliega, ella se debe crear en la tabla respectiva, Causas de Falla, en el módulo de 
 
@@ -268,7 +269,7 @@ Si se desea descargar un archivo adjunto a la SS, se debe dar clic en el ícono 
 # Ventana Submenú de Solicitudes de Servicio
 
 ## Indicadores
-
+AMovil
 Es posible visualizar de manera inmediata, las SS con Multimedia, Servicio Evaluado y aquellas que tienen firma del servicio evaluado (Amóvil), directamente desde la ventana visor, a través del icono <span class="mdi mdi-message-alert"></span>. El significado del color de cada pelota, se puede ver en en este recuadro, ubicado en la parte superior derecha de la ventana visor. 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img13.png)
@@ -279,7 +280,7 @@ El significado de los colores se visualiza al sobreponer el mouse en el icono qu
 - **Naranja:** SS que tienen asociados archivos de imágenes, videos y/o documentos en la pestaña Multimedia. 
 
 - **Azul:** SS en estado Cerrada Ejecutada al que se le realizó la evaluación del Servicio. 
-
+AMovil
 - **Blanco:** SS que tienen asociada la Firma de Recibido. (Aplica sólo para el aplicativo AMóvil). 
 
 ## S﻿emaforización
@@ -309,7 +310,8 @@ Cada criterio aparece inicializado en un valor global que permite mostrar todas 
 El programa permite entonces hacer selección de un grupo de Solicitudes de acuerdo con los siguientes criterios que se explican a continuación:
 
 
-**FILTRAR POR CAMPOS DEL ACTIVO ASOCIADO A LA SOLICITUD DE SERVICIO**
+**FILTRAR POR CAMPOS DEL ACTIVO ASOCIADO A LA SOLICITUD DE SERVICIO
+**
 
 **AC - Alias:** Este campo preselecciona las SS para los Activos cuyo Alias corresponda a los valores aquí definidos. En este campo se pueden utilizar los comodines (%).
 
@@ -413,7 +415,8 @@ _**Imagen 16.** Solicitudes - Modificación Masiva_
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img20.png)
 _**Imagen 17.** MM - Centro de Costo_
 
-**Modificar Ubicación Física:** Se modifica masivamente la Ubicación Física, de las SS que están previamente seleccionadas en el visor.
+**Modificar Ubicación Física:** Se modifica masivamente la Ubicación Física, de las 
+SS que están previamente seleccionadas en el visor.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img21.png)
 _**Imagen 18.** MM - Ubicación Física_
