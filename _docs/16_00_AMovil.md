@@ -222,3 +222,13 @@ De la imagen anterior los botones ubicados en la parte inferior  <a class="btn c
 A continuaciónn se muestra un ejemplo con el criterio Código AC:
 
 Una vez que se eliga el criterio de búsqueda, se muestran los siguientes campos a diligenciar:
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img21.png)
+_**Imagen 21.** AMovil - Subgrupo Código AC_
+
+
+
+
+
+
