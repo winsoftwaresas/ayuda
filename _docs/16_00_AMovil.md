@@ -196,4 +196,29 @@ _**Imagen 18.** AMovil - Ir a Subgrupo_
 Esto lleva a la siguiente ventana, como se indica a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img19.png)
-_**Imagen 19.** AMovil - Opciones Subgrupo_
+_**Imagen 19.** AMovil - Seleccionar un filtro Subgrupo_
+ 
+Se debe dar un toque sobre el botón <a class="btn cl-gray bg-white bd-gray px-5"></span>Seleccione un filtro</a> para visualizar los siguientes criterios de búsqueda:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img20.jpeg)
+_**Imagen 20.** AMovil - Subgrupo Criterios de Búsqueda_
+
+
+ - Código AC
+ - Descripción
+ - Activo Fijo
+ - Serial
+ - Referencia 
+ - Alias
+ - Tipo
+ - Responsable
+ - Centro de Costo
+ - Ubicación Física
+
+
+De la imagen anterior los botones ubicados en la parte inferior  <a class="btn cl-white bg-blue px-3"> Limpiar</a> y <a class="btn cl-white bg-blue px-3"> Aceptar </a> son para limpiar el campo y realizar nuevas búsquedas, mientras que el botón <a class="btn cl-white bg-blue px-3"> Aceptar </a> es para aceptar y buscar la condición que se ingrese en el campo.
+
+
+A continuaciónn se muestra un ejemplo con el criterio Código AC:
+
+Una vez que se eliga el criterio de búsqueda, se muestran los siguientes campos a diligenciar:
