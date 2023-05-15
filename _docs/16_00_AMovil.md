@@ -234,6 +234,11 @@ Finalizar con <a class="btn cl-white bg-blue px-3"> Aceptar </a>, a continuació
 _**Imagen 22.** AMovil - Subgrupo Resultado_
 
   
+El Subgrupo permanece hasta que el usuario reestablezca los valores por defecto. Para hacer otras búsquedas dar un toque nuevamente en el bóton <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-filter-outline"></span></a> en el cual se muestran las últimas búsquedas realizadas.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img23.jpeg)
+_**Imagen 23.** AMovil - Subgrupo Búsquedas recientes_
+
 
 
 
