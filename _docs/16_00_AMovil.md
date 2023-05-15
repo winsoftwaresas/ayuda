@@ -227,8 +227,13 @@ Una vez que se eliga el criterio de búsqueda, se muestran los siguientes campos
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img21.png)
 _**Imagen 21.** AMovil - Subgrupo Código AC_
 
+Finalizar con <a class="btn cl-white bg-blue px-3"> Aceptar </a>, a continuación se muestra el resultado de la búsqueda:
 
 
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img22.jpeg)
+_**Imagen 22.** AMovil - Subgrupo Resultado_
+
+  
 
 
 
