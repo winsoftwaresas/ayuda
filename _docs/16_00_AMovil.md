@@ -256,3 +256,38 @@ _**Imagen 24.** AMovil - Crear Activo Formulario _
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img25.jpeg)
 _**Imagen 25.** AMovil - Crear Activo Formulario_
+
+Los campos con un (*) al inicio, indican que son campos obligantes. A continuación se da una breve explicación de los campos:
+
+**Código:** En este campo se registra el código del Activo/Equipo, correspondiente al código de Mantenimiento, de acuerdo a la estructuración organizacional. 
+
+**Descripción:** Se utiliza para el nombre del Activo/Equipo.
+
+**Activo fijo:** Es el Código Contable del Activo, según Contabilidad. 
+
+**Serial:** Este campo se utiliza para registrar el número de serie que identifica individualmente a un Activo según el fabricante.
+
+**Referencia:** Conocido en **AM** como la refeencia externa del Proveedor. Se indica el código con el cual el Proveedor identifica el Activo.
+
+**Alias:** Este campo es el especial para registrar un nombre especial. Igualmente se puede utilizar para registrar códigos antiguos con que se definían este Activo antes de la nueva codificación
+
+**Código de barras:**  Este campo pertenece al Código de Barras Interno del Activo, en caso que exista alguno dentro de la organización.
+
+**Marca:**  Este campo se utiliza para diligenciar la Marca que identifica el Activo/Equipo.
+
+**Modelo:** Este campo se utiliza para diligenciar el Modelo que identifica un Activo/Equipo según el fabricante
+
+**Tipo:** Es una característica particular del un Activo/Equipo según su uso o el fabricante.
+
+**Responsable:**  Persona propia de la organización encargada de la operación o funcionamiento del Activo/Equipo. En este campo se traen automáticamente los diferentes Terceros asignados como Responsable Interno/Empleado y Responsable Externo/Contratista.
+
+
+**Centro de Costo:** En este campo se registra el Centro de Costo al que está asociado el Activo. 
+
+**Ubicación física:** En este campo se traen automáticamente las Ubicaciones Físicas definidas en la infraestructura, para definir la ubicación geográfica del Activo en la planta.
+
+**Estado:** El campo estado se utiliza para definir si el Activo actual se encuentra Activo (Operativo) o Inactivo (No operativo o dado de baja temporal o totalmente). 
+
+Para insertar el registro dar un clic en el botón <a class="btn cl-white bg-blue px-3"> Guardar </a>. 
+
+
