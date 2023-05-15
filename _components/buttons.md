@@ -134,3 +134,6 @@ published: true
 <a class="btn cl-white bg-blue px-3"> Limpiar</a>
 
 <a class="btn cl-white bg-blue px-3"> Aceptar</a>
+
+
+<a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-document-plus-outline"></span> Crear Activo </a>

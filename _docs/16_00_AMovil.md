@@ -240,5 +240,19 @@ El Subgrupo permanece hasta que el usuario reestablezca los valores por defecto.
 _**Imagen 23.** AMovil - Subgrupo Búsquedas recientes_
 
 
+Para eliminar el historial completo de búsquedas dar un toque en el botón <a class="btn cl-white bg-blue px-3"> Limpiar </a> y luego en <a class="btn cl-white bg-blue px-3"> Aceptar </a> para volver a los valores por defecto.
 
 
+### Crear un Activo 
+
+
+AMovil permite crear un registro de Activo, siempre que el usuario logueado cuente con los permisos desde AM para ello. 
+
+Para ir a Crear un Activo dar toque en el botón  <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-document-plus-outline"></span> Crear Activo </a> el cual abre el siguiente formulario:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img24.jpeg)
+_**Imagen 24.** AMovil - Crear Activo Formulario _
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img25.jpeg)
+_**Imagen 25.** AMovil - Crear Activo Formulario_
