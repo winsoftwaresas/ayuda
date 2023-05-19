@@ -291,3 +291,10 @@ Los campos con un (*) al inicio, indican que son campos obligantes. A continuaci
 Para insertar el registro dar un clic en el botón <a class="btn cl-white bg-blue px-3"> Guardar </a>. 
 
 
+El aplicativo mostrará un mensaje alerta con l,a confirmación del ingreso del registro, como se muestra a continuación:
+
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img26.jpeg)
+_**Imagen 26.** AMovil - Crear Activo Mensaje Aviso_
+
