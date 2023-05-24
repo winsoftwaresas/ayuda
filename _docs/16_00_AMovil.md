@@ -312,6 +312,6 @@ A continuación se muestra el listado de los Activos que tienen asociado un cont
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img27.jpeg)
 _**Imagen 27.** AMovil - Ir a Actualizar Contadores_
 
-Los Activos sombreados de color azul son Activos definidos como **"Padres"** o son unidades funcionales, mientras que los sombreados en amarillo significan Activos que se definieron como **"Hijos"** o componentes del Activo Padre.
+Los Activos sombreados de color azul son Activos definidos como **"Padres"** o son unidades funcionales, mientras que los sombreados en amarillo significan Activos que se definieron como **"Hijos"** o componentes del Activo Padre pero no poseen el mismo valor o contador que su Activo Padre.
 
-Los Activos sombreados en gris indican que son registros que cumplen con una condición en especial 
+Los Activos sombreados en gris indican que son **"Hijos"** y poseen las dos características de tener el mismo valor y contador que su Activo Padre.
