@@ -329,7 +329,14 @@ Se visualiza un Activo padre y un Activo hijo que no posee el mismo valor de con
 _**Imagen 29.** AMovil - Detalle Actualizar Contadores_
 
 
- 
+ Se digita el nuevo valor de medición del contador y finalmente se da un toque en el botón <a class="btn cl-white bg-blue px-3"> Guardar </a>, el aplicativo muestra un mensaje alerta confirmando los cambios realizados.
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img30.jpeg)
+_**Imagen 30.** AMovil - Mensaje Alerta Actualizar Contadores_
+
+
+
 
 
 
