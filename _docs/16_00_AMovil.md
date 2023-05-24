@@ -248,7 +248,7 @@ Para eliminar el historial completo de búsquedas dar un toque en el botón <a c
 
 AMovil permite crear un registro de Activo, siempre que el usuario logueado cuente con los permisos desde AM para ello. 
 
-Para ir a Crear un Activo dar toque en el botón  <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-document-plus-outline"></span> Crear Activo </a> el cual abre el siguiente formulario:
+Para ir a Crear un Activo dar toque en el botón del submenpu de Activos <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-document-plus-outline"></span> Crear Activo </a> el cual abre el siguiente formulario:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img24.jpeg)
 _**Imagen 24.** AMovil - Crear Activo Formulario _
@@ -298,3 +298,16 @@ El aplicativo mostrará un mensaje alerta con l,a confirmación del ingreso del 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img26.jpeg)
 _**Imagen 26.** AMovil - Crear Activo Mensaje Aviso_
 
+
+
+### Actualizar Contadores 
+
+Para actualizar contadores se debe dar un toque en el submmenú de Activos, y dar un toque en el botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-clock-outline"></span> Actualizar contadores </a>. 
+
+Cabe destacae que la configuración de los contadores se hace inicialmente desde **AM**
+
+A continuación se muestra el listado de los Activos que tienen asociado un contador:
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img27.jpeg)
+_**Imagen 27.** AMovil - Ir a Actualizar Contadores_
