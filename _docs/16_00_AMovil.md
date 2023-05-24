@@ -335,7 +335,12 @@ _**Imagen 29.** AMovil - Detalle Actualizar Contadores_
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img30.jpeg)
 _**Imagen 30.** AMovil - Mensaje Alerta Actualizar Contadores_
 
+Cuando se detecta un valor inferior del contador al que ya se encuentra actualmente en el Activo, el aplicativo muestra un mensaje alerta y se deberá revisar nuevamente el valor ingresado:
 
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img31.jpeg)
+_**Imagen 31.** AMovil - Mensaje Alerta Actualizar Contadores_
 
 
 
