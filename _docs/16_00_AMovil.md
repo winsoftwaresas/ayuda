@@ -385,8 +385,8 @@ Sin embargo, es posible hacer una búsqueda rápida dando clic al botón <a clas
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img36.jpeg)
 _**Imagen 36.** AMovil - Inventario físico Buscar Ubicación Física_
 
-Una vez que con un toque de la ubicación física de interés, aparece la siguiente ventana para comenzar el inventario:
+Un toque a la ubicación física de interés, aparece la siguiente ventana para comenzar el inventario:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img37.jpeg)
-_**Imagen 37.** AMovil - Inventario físico Buscar Ubicación Física_
+_**Imagen 37.** AMovil - Inventario físico Buscar Iniciar Inventario_
