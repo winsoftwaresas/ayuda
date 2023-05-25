@@ -343,7 +343,17 @@ Cuando se detecta un valor inferior del contador al que ya se encuentra actualme
 _**Imagen 31.** AMovil - Mensaje Alerta Actualizar Contadores_
 
 
+>_**Nota:** los Activos hijos sombreados en gris se actualizan automáticamente una vez se actualice el contador del Activo Padre._
 
 
+### Inventario Físico 
+
+Para llevar a cabo esta transacción se debe dar un toque sobre el botón <a class="btn cl-black bg-white bd-gray px-6"><span class="iconify cl-black" data-icon="mdi-text-box-outline"></span> Inventario físico </a> ubicado en el submenú de Activos 
+
+Una vez se ingrese, se muestra el siguiente submenú:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img32.jpeg)
+_**Imagen 32.** AMovil - Ir a Inventario físico_
 
 
+Cada una de las opciones anteriores representa los criterios por los cuales se puede hacer el inventario físico. El objetivo de esta transacción es hacer el conteo de los Activos inventariados y no inventariados, 

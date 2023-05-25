@@ -142,3 +142,7 @@ published: true
 
 
 <a class="btn cl-black bg-blue-25 bd-blue px-6">Actualizar</a>
+
+
+
+<a class="btn cl-black bg-white bd-gray px-6"><span class="iconify cl-black" data-icon="mdi-text-box-outline"></span> Inventario físico </a>
