@@ -149,3 +149,6 @@ published: true
 
 
 La opción <a class="btn cl-black bg-white bd-gray px-6"><span class="iconify cl-black" data-icon="mdi-monitor"></span> Otro </a>
+
+
+<a class="btn cl-black bg-white bd-yellow btn-rounded"><span class="mdi mdi-magnify pr-3"></span><span class="pr-4">Buscar una Ubicación física</span></a>

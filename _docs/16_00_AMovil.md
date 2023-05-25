@@ -373,11 +373,15 @@ Al elegir una de las opciones mostradas anteriormente el aplicativo muestra un m
 _**Imagen 34.** AMovil - Ir a Inventario físico Ubicación Física_
 
 
-
 Adicional, se ilustra el siguiente ejemplo para el criterio Ubicación Física:
 
 
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img35.jpeg)
+_**Imagen 35.** AMovil - Inventario físico Ubicación Física_
 
+
+
+<a class="btn cl-black bg-white bd-yellow btn-rounded"><span class="mdi mdi-magnify pr-3"></span><span class="pr-4">Buscar una Ubicación física</span></a>
 
 
 
