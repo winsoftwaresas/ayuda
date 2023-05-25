@@ -373,15 +373,20 @@ Al elegir una de las opciones mostradas anteriormente el aplicativo muestra un m
 _**Imagen 34.** AMovil - Ir a Inventario físico Ubicación Física_
 
 
-Adicional, se ilustra el siguiente ejemplo para el criterio Ubicación Física:
+Adicional, se ilustra el siguiente ejemplo para el criterio Ubicación Física. Se muestran todas las ubicaciones de la base de datos:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img35.jpeg)
 _**Imagen 35.** AMovil - Inventario físico Ubicación Física_
 
+Sin embargo, es posible hacer una búsqueda rápida dando clic al botón <a class="btn cl-black bg-white bd-yellow btn-rounded"><span class="mdi mdi-magnify pr-3"></span><span class="pr-4">Buscar una Ubicación física</span></a> y digitar a continuación partes del nombre de la ubicación física:
 
 
-<a class="btn cl-black bg-white bd-yellow btn-rounded"><span class="mdi mdi-magnify pr-3"></span><span class="pr-4">Buscar una Ubicación física</span></a>
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img36.jpeg)
+_**Imagen 36.** AMovil - Inventario físico Buscar Ubicación Física_
+
+Una vez que con un toque de la ubicación física de interés, aparece la siguiente ventana para comenzar el inventario:
 
 
-
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img37.jpeg)
+_**Imagen 37.** AMovil - Inventario físico Buscar Ubicación Física_
