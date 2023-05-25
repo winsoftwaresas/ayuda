@@ -356,4 +356,19 @@ Una vez se ingrese, se muestra el siguiente submenú:
 _**Imagen 32.** AMovil - Ir a Inventario físico_
 
 
-Cada una de las opciones anteriores representa los criterios por los cuales se puede hacer el inventario físico. El objetivo de esta transacción es hacer el conteo de los Activos inventariados y no inventariados, 
+Cada una de las opciones anteriores representa los criterios por los cuales se ejecutar la transacción. El objetivo es hacer el conteo de los Activos inventariados y no inventariados.
+
+
+
+El botón <a class="btn cl-black bg-white bd-gray px-6"><span class="iconify cl-black" data-icon="mdi-monitor"></span> Otro </a> despliega un conjunto de otras opciones para realizar el inventario:
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img33.jpeg)
+_**Imagen 33.** AMovil - Ir a Inventario físico Otro_
+
+
+Una vez que se elija una de las opciones mostradas anteriormente el aplicativo muestra un mensaje de advertencia, el cual consiste en recordar que cada uno de los Activos debe tener un código de barras o un código QR o bien un código alfanumérico.
+
+
+
+
