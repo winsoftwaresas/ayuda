@@ -367,7 +367,16 @@ El botón <a class="btn cl-black bg-white bd-gray px-6"><span class="iconify cl-
 _**Imagen 33.** AMovil - Ir a Inventario físico Otro_
 
 
-Una vez que se elija una de las opciones mostradas anteriormente el aplicativo muestra un mensaje de advertencia, el cual consiste en recordar que cada uno de los Activos debe tener un código de barras o un código QR o bien un código alfanumérico.
+Al elegir una de las opciones mostradas anteriormente el aplicativo muestra un mensaje de advertencia, el cual consiste en recordar que cada uno de los Activos debe tener un código de barras o un código QR o bien un código alfanumérico. 
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img34.jpeg)
+_**Imagen 34.** AMovil - Ir a Inventario físico Ubicación Física_
+
+
+
+Adicional, se ilustra el siguiente ejemplo para el criterio Ubicación Física:
+
+
 
 
 
