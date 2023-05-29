@@ -358,6 +358,12 @@ _**Imagen 32.** AMovil - Ir a Inventario físico_
 
 Cada una de las opciones anteriores representa los criterios por los cuales se ejecutar la transacción. El objetivo es hacer el conteo de los Activos inventariados y no inventariados.
 
+>**Nota:** El criterio Ubicación Física, Centro de Costo y Responsable tiene el indicador amarillo preferencial <span class="iconify cl-yellow bd-yellow bg-yellow btn-rounded" data-icon="mdi-circle"></span>.
+Estos tres criterios son los principales y se sugiere hacer el inventario por alguno de ellos. 
+
+
+
+
 
 
 El botón <a class="btn cl-black bg-white bd-gray px-6"><span class="iconify cl-black" data-icon="mdi-monitor"></span> Otro </a> despliega un conjunto de otras opciones para realizar el inventario:
@@ -365,6 +371,13 @@ El botón <a class="btn cl-black bg-white bd-gray px-6"><span class="iconify cl-
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img33.jpeg)
 _**Imagen 33.** AMovil - Ir a Inventario físico Otro_
+
+
+
+
+##Aqui poner----------- una explicación de la diferencia que presenta este criterio----##
+
+
 
 
 Al elegir una de las opciones mostradas anteriormente el aplicativo muestra un mensaje de advertencia, el cual consiste en recordar que cada uno de los Activos debe tener un código de barras o un código QR o bien un código alfanumérico. 
@@ -411,8 +424,12 @@ A continuación se indica el significado del color de los indicadores:
 
 Para comenzar dar un toque en el botón <a class="btn cl-white bg-blue px-6"> Iniciar inventario</a>.
 
-A continuación se ilustra el ejemplo:
+A continuación se detalla el significado de los campos en la siguiente imagen y se ilustra un ejemplo con el criterio Ubicación Física: 
 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img28.jpeg)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img38.jpeg)
 _**Imagen 38.** AMovil - Inventario físico Iniciar Inventario_
+
+
+
+<a class="btn cl-white bg-blue px-6">Agregar comentario</a> : Se permite ingresar un comentario antes, durante y después del inventario.
