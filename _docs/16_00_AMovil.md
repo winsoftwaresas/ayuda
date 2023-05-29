@@ -407,7 +407,12 @@ A continuación se indica el significado del color de los indicadores:
 <span class="iconify cl-yellow bd-yellow bg-yellow btn-rounded" data-icon="mdi-circle"></span> : Este indicador mostrará el total de activos que han sido encontrados pero que no pertenecen a la ubicación seleccionada.
 
 
-
 <span class="iconify cl-lime bd-lime bg-lime btn-rounded" data-icon="mdi-circle"></span>: Este indicador mostrara el total de activos que no han sido registrados en el sistema.
 
-Para comenzar dar un toque en el botón 
+Para comenzar dar un toque en el botón <a class="btn cl-white bg-blue px-6"> Iniciar inventario</a>.
+
+A continuación se ilustra el ejemplo:
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img28.jpeg)
+_**Imagen 38.** AMovil - Inventario físico Iniciar Inventario_
