@@ -428,15 +428,29 @@ A continuación se detalla el significado de los campos en la siguiente imagen y
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img38.jpeg)
-_**Imagen 38.** AMovil - Inventario físico Iniciar Inventario_
+_**Imagen 38.** AMovil - Inventario físico Detalle_
 
 Aparece un mensaje corto explicatorio de un indicador si de da un toque sobre este en la parte inferior de la pantalla:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img39.png)
-_**Imagen 39.** AMovil - Inventario físico Iniciar Inventario_
+_**Imagen 39.** AMovil - Inventario físico Mensaje Indicador_
 
 
 El botón <a class="btn cl-white bg-blue px-6">Agregar comentario</a>  permite ingresar un comentario antes, durante y después del inventario.
 
-Para dar inicio se sugiere comenzar con la opción [botón] para hacer lectura del código QR y ejecutar el proceso ágilmente, sin embargo, sino se cuenta con código QR se encuentra la opción [botón] 
+Para dar inicio se sugiere comenzar con la opción <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-image-filter-center-focus-strong-outline"></span></a>  para hacer lectura del código QR y ejecutar el proceso ágilmente, sin embargo, sino se cuenta con código QR se encuentra la opción  <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-pencil-outline"></span></a> para digitar manualmente el código alfanumérico el cual corresponde al código principal en **AM**. 
+
+>**Nota:** Para que la lectura de QR se haga satisfactoria, en **AM** los Activos deben tener registrado el código en el campo **Código de Barras Interno**. 
+
+Una vez que se lea el código QR, se muestra un mensaje de confirmación en la parte inferior:
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img40.png)
+_**Imagen 40.** AMovil - Inventario físico Lectura Código QR_
+
+
+
+
+
+
