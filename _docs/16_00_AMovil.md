@@ -430,6 +430,12 @@ A continuación se detalla el significado de los campos en la siguiente imagen y
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img38.jpeg)
 _**Imagen 38.** AMovil - Inventario físico Iniciar Inventario_
 
+Aparece un mensaje corto explicatorio de un indicador si de da un toque sobre este en la parte inferior de la pantalla:
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img39.png)
+_**Imagen 39.** AMovil - Inventario físico Iniciar Inventario_
+
 
 
 <a class="btn cl-white bg-blue px-6">Agregar comentario</a> : Se permite ingresar un comentario antes, durante y después del inventario.
