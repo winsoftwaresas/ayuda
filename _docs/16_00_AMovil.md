@@ -437,20 +437,31 @@ Aparece un mensaje corto explicatorio de un indicador si de da un toque sobre es
 _**Imagen 39.** AMovil - Inventario físico Mensaje Indicador_
 
 
+
+
+
 El botón <a class="btn cl-white bg-blue px-6">Agregar comentario</a>  permite ingresar un comentario antes, durante y después del inventario.
 
 Para dar inicio se sugiere comenzar con la opción <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-image-filter-center-focus-strong-outline"></span></a>  para hacer lectura del código QR y ejecutar el proceso ágilmente, sin embargo, sino se cuenta con código QR se encuentra la opción  <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-pencil-outline"></span></a> para digitar manualmente el código alfanumérico el cual corresponde al código principal en **AM**. 
 
->**Nota:** Para que la lectura de QR se haga satisfactoria, en **AM** los Activos deben tener registrado el código en el campo **Código de Barras Interno**. 
+_>**Nota:** Para que la lectura de QR se haga satisfactoria, en **AM** los Activos deben tener registrado el código en el campo **Código de Barras Interno**._
 
-Una vez que se lea el código QR, se muestra un mensaje de confirmación en la parte inferior:
+Una vez haga lectura del código QR, se muestra un mensaje de confirmación en la parte inferior:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img40.png)
 _**Imagen 40.** AMovil - Inventario físico Lectura Código QR_
 
 
+>**Nota:** El inventario puede continuar su curso siempre y cuando el usuario no escoja la opción  <a class="btn cl-white bg-red 25 px-6">Finalizar inventario</a>. 
 
+
+Para continuar el inventario dar un toque en <a class="btn cl-white bg-green 25 px-6">Continuar inventario</a>, como se muestra a continuación:
+
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img41.jpeg)
+_**Imagen 41.** AMovil - Inventario físico Continuar Inventario_
 
 
 
