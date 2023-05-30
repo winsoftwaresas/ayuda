@@ -117,6 +117,10 @@ published: true
 <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-close"></span></a>
 <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-file-edit-outline"></span></a>
 
+
+
+<a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-file-edit-outline"></span></a>
+
 <hr>
 
 <span class="iconify icon cl-gray bg-blue-25" data-icon="mdi-plus"></span></a>

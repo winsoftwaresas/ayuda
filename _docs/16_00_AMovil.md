@@ -437,5 +437,6 @@ Aparece un mensaje corto explicatorio de un indicador si de da un toque sobre es
 _**Imagen 39.** AMovil - Inventario físico Iniciar Inventario_
 
 
+El botón <a class="btn cl-white bg-blue px-6">Agregar comentario</a>  permite ingresar un comentario antes, durante y después del inventario.
 
-<a class="btn cl-white bg-blue px-6">Agregar comentario</a> : Se permite ingresar un comentario antes, durante y después del inventario.
+Para dar inicio se sugiere comenzar con la opción [botón] para hacer lectura del código QR y ejecutar el proceso ágilmente, sin embargo, sino se cuenta con código QR se encuentra la opción [botón] 
