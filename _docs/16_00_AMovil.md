@@ -465,3 +465,22 @@ _**Imagen 41.** AMovil - Inventario físico Continuar Inventario_
 
 
 
+El aplicativo actualiza lo que lleva del proceso:
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img42.jpeg)
+_**Imagen 42.** AMovil - Inventario físico Continuar Inventario_
+
+
+Se ilustra dentro del mismo ejemplo de inventario el registro de un Activo con la opción <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-pencil-outline"></span></a>: 
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img43.jpeg)
+_**Imagen 43.** AMovil - Inventario físico Continuar Inventario_
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img44.jpeg)
+_**Imagen 44.** AMovil - Inventario físico Continuar Inventario_
+
+A continuación se muestra un mensaje exitoso, confirmando el registro del Activo manualmente:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img45.jpeg)
+_**Imagen 45.** AMovil - Inventario físico Continuar Inventario_
