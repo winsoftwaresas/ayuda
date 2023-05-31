@@ -444,7 +444,7 @@ El botón <a class="btn cl-white bg-blue px-6">Agregar comentario</a>  permite i
 
 Para dar inicio se sugiere comenzar con la opción <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-image-filter-center-focus-strong-outline"></span></a>  para hacer lectura del código QR y ejecutar el proceso ágilmente, sin embargo, sino se cuenta con código QR se encuentra la opción  <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-pencil-outline"></span></a> para digitar manualmente el código alfanumérico el cual corresponde al código principal en **AM**. 
 
-_>**Nota:** Para que la lectura de QR se haga satisfactoria, en **AM** los Activos deben tener registrado el código en el campo **Código de Barras Interno**._
+>**Nota:** Para que la lectura de QR se haga satisfactoria, en **AM** los Activos deben tener registrado el código en el campo **Código de Barras Interno**.
 
 Una vez haga lectura del código QR, se muestra un mensaje de confirmación en la parte inferior:
 
@@ -484,3 +484,19 @@ A continuación se muestra un mensaje exitoso, confirmando el registro del Activ
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img45.jpeg)
 _**Imagen 45.** AMovil - Inventario físico Continuar Inventario_
+
+
+Luego de <a class="btn cl-white bg-red 25 px-6">Finalizar inventario</a> se muestra el resultado con la explicación de los indicadores y la asignación de cada uno de ellos al Activo:
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img46.jpeg)
+_**Imagen 46.** AMovil - Resumen Inventario_
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img47.jpeg)
+_**Imagen 47.** AMovil - Resumen Inventario_
+
+
+
+
+#### Almacén
