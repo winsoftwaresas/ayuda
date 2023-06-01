@@ -518,3 +518,9 @@ Según lo anterior se listan los Almacenes:
 _**Imagen 49** AMovil - Almacenes_  
 
 
+Para ingresar a un Almacén se debe seleccionar con un toque, se muestra el siguiente submenú para cada Almacén según los permisos ortogados al usuario:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img50.jpeg)
+_**Imagen 50** AMovil - Almacén Submenú_  
+
+
