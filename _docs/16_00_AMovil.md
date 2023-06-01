@@ -116,7 +116,7 @@ Algunos comandos a tener en cuenta son:
 
 ## Activos 
 
-Para acceder al Submenú de Activos de debe dar un toque sobre el botón <a class="btn cl-black bg-white pl-2 pr-3 bd-blue"><span class="iconify cl-black fs-2 pr-1" data-icon="mdi-minus-box-multiple-outline"></span> Activos</a>, automáticamente la aplicación redirecciona al Submenpu de Activos, se debe tener presente que el presente se lista dependiendo de los permisos que tenga el usuario logueado. 
+Para acceder al Submenú de Activos se debe dar un toque sobre el botón <a class="btn cl-black bg-white pl-2 pr-3 bd-blue"><span class="iconify cl-black fs-2 pr-1" data-icon="mdi-minus-box-multiple-outline"></span> Activos</a>, automáticamente la aplicación redirecciona al Submenpu de Activos, se debe tener presente que el presente se lista dependiendo de los permisos que tenga el usuario logueado. 
 
 Al ingresar al módulo de Activos aparecen las siguientes opciones: Atrás, Consultar Activos, Crear Activo, Actualizar Contadores, Inventario Físico y finalmente cerrar sesión, como se muestra en la siguiente imagen
 
@@ -489,14 +489,27 @@ _**Imagen 45.** AMovil - Inventario físico Continuar Inventario_
 Luego de <a class="btn cl-white bg-red 25 px-6">Finalizar inventario</a> se muestra el resultado con la explicación de los indicadores y la asignación de cada uno de ellos al Activo:
 
 
+
+
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img46.jpeg)
 _**Imagen 46.** AMovil - Resumen Inventario_
+
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img47.jpeg)
 _**Imagen 47.** AMovil - Resumen Inventario_
 
 
+ 
+
+## Almacén
 
 
-#### Almacén
+Para acceder al Almacén se debe dar un toque sobre el botón <a class="btn cl-black bg-white pl-2 pr-3 bd-blue"><span class="iconify cl-black fs-2 pr-3" data-icon="mdi-view-grid"></span> Almacén</a> , el cual lista los Almacenes definidos en **AM**, se debe tener presente que el presente se lista dependiendo de los permisos que tenga el usuario logueado. 
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img48.jpeg)
+_**Imagen 48.** AMovil - Ir a Almacén_  
+
+
+Según lo anterior se listan 
