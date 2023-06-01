@@ -524,3 +524,4 @@ Para ingresar a un Almacén se debe seleccionar con un toque, se muestra el sigu
 _**Imagen 50** AMovil - Almacén Submenú_  
 
 
+ 
