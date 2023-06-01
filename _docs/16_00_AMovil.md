@@ -512,4 +512,9 @@ Para acceder al Almacén se debe dar un toque sobre el botón <a class="btn cl-b
 _**Imagen 48.** AMovil - Ir a Almacén_  
 
 
-Según lo anterior se listan 
+Según lo anterior se listan los Almacenes:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img49.jpeg)
+_**Imagen 49** AMovil - Almacenes_  
+
+
