@@ -546,3 +546,57 @@ Para guardar un cambio sobre la ficha técnica dar un toque en <a class="btn cl-
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img53.jpeg)
 _**Imagen 53.** AMovil - Mensaje Alerta Actualizar Repuestos_
  
+
+### Subgrupo Repuestos
+
+Es útil realizar búsquedas por un Repuesto/Material en particular por un grupo de Repuestos/Materiales  que cumplen con un conjunto de filtros o criterios. 
+
+Para ingresar a esta opción se debe dar clic al icono de Subgrupo <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-filter-outline"></span></a> ubicado en la parte inferior derecha de la pantalla, como se indica a continuación:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img54.png)
+_**Imagen 54.** AMovil - Almacén Ir a Subgrupo_
+
+Esto lleva a la siguiente ventana, como se indica a continuación:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img55.jpeg)
+_**Imagen 55.** AMovil - Almacén Seleccionar un filtro Subgrupo_
+ 
+Se debe dar un toque sobre el botón <a class="btn cl-gray bg-white bd-gray px-5"></span>Seleccione un filtro</a> para visualizar los siguientes criterios de búsqueda:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img56.jpeg)
+_**Imagen 56.** AMovil - Almacén Subgrupo Criterios de Búsqueda_
+
+
+ - Código RP
+ - Descripción
+ - Estado
+ 
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img57.jpeg)
+_**Imagen 57.** AMovil - Almacén Subgrupo Criterios de Búsqueda_
+
+
+De la imagen anterior los botones ubicados en la parte inferior  <a class="btn cl-white bg-blue px-3"> Limpiar</a> y <a class="btn cl-white bg-blue px-3"> Aceptar </a> son para limpiar el campo y realizar nuevas búsquedas, mientras que el botón <a class="btn cl-white bg-blue px-3"> Aceptar </a> es para aceptar y buscar la condición que se ingrese en el campo.
+
+
+A continuaciónn se muestra un ejemplo con el criterio Código AC:
+
+Una vez que se eliga el criterio de búsqueda, se muestran los siguientes campos a diligenciar:
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img21.png)
+_**Imagen 21.** AMovil - Subgrupo Código AC_
+
+Finalizar con <a class="btn cl-white bg-blue px-3"> Aceptar </a>, a continuación se muestra el resultado de la búsqueda:
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img22.jpeg)
+_**Imagen 22.** AMovil - Subgrupo Resultado_
+
+  
+El Subgrupo permanece hasta que el usuario reestablezca los valores por defecto. Para hacer otras búsquedas dar un toque nuevamente en el bóton <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-filter-outline"></span></a> en el cual se muestran las últimas búsquedas realizadas.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img23.jpeg)
+_**Imagen 23.** AMovil - Subgrupo Búsquedas recientes_
+
+
+Para eliminar el historial completo de búsquedas dar un toque en el botón <a class="btn cl-white bg-blue px-3"> Limpiar </a> y luego en <a class="btn cl-white bg-blue px-3"> Aceptar </a> para volver a los valores por defecto.
