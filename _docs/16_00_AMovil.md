@@ -532,17 +532,17 @@ Para hacer consulta der los Repuestos / Materiales se da un toque sobre el botó
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img51.jpeg)
 _**Imagen 51** AMovil - Almacén Consulta Repuestos_  
 
-Para ingresar al detalle del registro se da un toque sobre el botón <a class="btn cl-black bg-blue-25 bd-blue px-4">Detalle</a>. A continuación se muestra la ficha técnica del Activo:
+Para ingresar al detalle del registro se da un toque sobre el botón <a class="btn cl-black bg-fred-25 bd-red px-6"> Detalle</a> . A continuación se muestra la ficha técnica del Repuesto:
 
 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img11.jpeg)
-_**Imagen 11.** AMovil - Ficha Técnica Activos_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img52.jpeg)
+_**Imagen 52.** AMovil - Ficha Técnica Repuesto_
      
 
-Para guardar un cambio sobre la ficha técnica dar un toque en <a class="btn cl-white bg-blue px-3"> Actualizar</a>, en el cual sistema mostrará un mensaje alerta indicando que se ha actualizado el registro y para continuar dar un toque en <a class="btn cl-white bg-blue px-3"> Aceptar</a> como se muestra a continuación:
+Para guardar un cambio sobre la ficha técnica dar un toque en <a class="btn cl-white bg-blue px-6"> Actualizar</a>, en el cual sistema mostrará un mensaje alerta indicando que se ha actualizado el registro y para continuar dar un toque en <a class="btn cl-white bg-blue px-6"> Aceptar</a> como se muestra a continuación:
 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img12.jpeg)
-_**Imagen 12.** AMovil - Mensaje Alerta Actualizar Activos_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img53.jpeg)
+_**Imagen 53.** AMovil - Mensaje Alerta Actualizar Repuestos_
  
