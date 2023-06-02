@@ -518,10 +518,31 @@ Según lo anterior se listan los Almacenes:
 _**Imagen 49** AMovil - Almacenes_  
 
 
-Para ingresar a un Almacén se debe seleccionar con un toque, se muestra el siguiente submenú para cada Almacén según los permisos ortogados al usuario:
+Para ingresar a un Almacén se debe seleccionar con un toque, se muestra el siguiente submenú para cada Almacén según los permisos ortogados al usuario, se puede hacer consulta de repuestos, crear repuesto y hacer reservas.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img50.jpeg)
 _**Imagen 50** AMovil - Almacén Submenú_  
 
 
+
+#### Consultar Repuestos 
+
+Para hacer consulta der los Repuestos / Materiales se da un toque sobre el botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-magnify"></span> Consultar Repuestos</a>, a continuación se muestra el listado de Repuestos disponibles para el alamcén seleccionado, en la parte superior se muestra el nombre del Almacén donde se realiza la consulta:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img51.jpeg)
+_**Imagen 51** AMovil - Almacén Consulta Repuestos_  
+
+Para ingresar al detalle del registro se da un toque sobre el botón <a class="btn cl-black bg-blue-25 bd-blue px-4">Detalle</a>. A continuación se muestra la ficha técnica del Activo:
+
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img11.jpeg)
+_**Imagen 11.** AMovil - Ficha Técnica Activos_
+     
+
+Para guardar un cambio sobre la ficha técnica dar un toque en <a class="btn cl-white bg-blue px-3"> Actualizar</a>, en el cual sistema mostrará un mensaje alerta indicando que se ha actualizado el registro y para continuar dar un toque en <a class="btn cl-white bg-blue px-3"> Aceptar</a> como se muestra a continuación:
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img12.jpeg)
+_**Imagen 12.** AMovil - Mensaje Alerta Actualizar Activos_
  
