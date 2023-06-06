@@ -1,5 +1,26 @@
 # Changelog page source
 
+- title: AM4G  Version 1.0
+  label: STABLE
+  date: April 12, 2023
+  list:
+   - Se desarrolla indicador en las carpetas de multimedia para informar al usuario cuando estas contienen archivos.
+   - Se desarrolla función de búsqueda para usuarios en el módulo de administración del AMsi.
+   - Se corrige la validación y ahora el sistema permite a los oficios con responsables internos llevar por defecto el valor Hora1 en 0.
+   - Se anexan los filtros de búsqueda por Fecha de Registro y Fecha de Ingreso al inventario (Modulo de Activos).
+   - Se desarrolla el reporte PMU-DPM	Detallado de Programas De Mantenimiento (Modulo de Programas).
+   - Se corrigen los colores en los tiempos de estado (Modulo de Solicitudes).
+   - Se desarrollan los links de enlace entre las Solicitudes cerradas con Orden y las Ordenes de trabajo que se encuentran en historia.
+   - Se anexa validación de Ubicación Física obligatoria para Ordenes de Trabajo (Modulo de Ordenes).
+   - Se anexa validación para no permitir el cierre de Ordenes sin definir el responsable ejecutor (Modulo de Ordenes).
+   - Se anexa validación para no permitir a los usuarios modificar el activo o tipo de mantenimiento en las Ordenes que vienen de Programas (Modulo de Ordenes).
+   - Se desarrolla el reporte OTR-LREP	Resumen de Materiales y Repuestos (Modulo de Ordenes).
+   - Se realiza un cambio en el back para permitir una carga más rápida de la grilla de inicio de modulo (Modulo de Historia).
+   - Se desarrolla el reporte HMR-EVAP 	Porcentaje de Evaluaciones por calificación (Modulo de Historia).
+   - Se permite al usuario administrador del sistema AM4G definir si los tecnicos de amovil deben o no realizar la evaluacion antes de la firma de recibido (Administración).
+   - Se configura el servicdor de correo a través de Javamail.
+
+
 - title: AM4G  Version 0.86
   label: STABLE
   date: Noviembre 11, 2022
