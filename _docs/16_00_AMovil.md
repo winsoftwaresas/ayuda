@@ -570,6 +570,8 @@ _**Imagen 56.** AMovil - Almacén Subgrupo Criterios de Búsqueda_
  - Código RP
  - Descripción
  - Estado
+
+
  
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img57.jpeg)
 _**Imagen 57.** AMovil - Almacén Subgrupo Criterios de Búsqueda_
@@ -578,10 +580,8 @@ _**Imagen 57.** AMovil - Almacén Subgrupo Criterios de Búsqueda_
 De la imagen anterior los botones ubicados en la parte inferior  <a class="btn cl-white bg-blue px-3"> Limpiar</a> y <a class="btn cl-white bg-blue px-3"> Aceptar </a> son para limpiar el campo y realizar nuevas búsquedas, mientras que el botón <a class="btn cl-white bg-blue px-3"> Aceptar </a> es para aceptar y buscar la condición que se ingrese en el campo.
 
 
-A continuaciónn se muestra un ejemplo con el criterio Código AC:
 
-Una vez que se eliga el criterio de búsqueda, se muestran los siguientes campos a diligenciar:
-
+Una vez que se eliga el criterio de búsqueda, se muestran los siguientes campos a diligenciar. A continuaciónn se muestra un ejemplo con el criterio Código RP:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img21.png)
 _**Imagen 21.** AMovil - Subgrupo Código AC_
