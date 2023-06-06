@@ -19,6 +19,7 @@ Se desarrolla función de búsqueda para usuarios en el módulo de administraci�
 
 **MODULO DE INFRAESTRUCTURA:**
 
+
 **MODULO DE OFICIOS:**
 
 Se corrige la validación y ahora el sistema permite a los oficios con responsables internos
