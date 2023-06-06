@@ -124,29 +124,29 @@ Configuración SSL: EL servidor obliga configuración SSL
 Nota : Para el envío de los links de evaluación por correo se debe parametrizar el campo Servidor y Puerto para Evaluaciones de SS y OT de la tabla valores por defecto en la compañía 1 con la dirección del servidor, el puerto y la instancia 
 
 
--﻿ En la tabla valores por defecto de cada compañía se debe definir que correos se van a enviar
+- En la tabla valores por defecto de cada compañía se debe definir que correos se van a enviar 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/Version1.0/Imagen16.png)
 
 **A continuación, veremos la estructura de cada correo**
 
--﻿ Correo al solicitante de Creación de la Solicitud. 
+- Correo al solicitante de Creación de la Solicitud.
 
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/Version1.0/Imagen17.png)
 
--﻿Correo al solicitante y/o responsable de Asignación de la Solicitud. 
+- Correo al solicitante y/o responsable de Asignación de la Solicitud. 
 Anexa la multimedia cargada a la solicitud 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/Version1.0/Imagen18.png)
 
--﻿ Correo al solicitante y/o responsable de Modificación de la Solicitud. Anexa la multimedia cargada a la solicitud 
+- Correo al solicitante y/o responsable de Modificación de la Solicitud. Anexa la multimedia cargada a la solicitud.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/Version1.0/Imagen19.png)
 
 
--﻿Correo al solicitante de Cierre de la Solicitud.Anexa la multimedia ,el link de evaluación y los comentarios cargados a la solicitud  
+- ﻿Correo al solicitante de Cierre de la Solicitud. Anexa la multimedia ,el link de evaluación y los comentarios cargados a la solicitud  
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/Version1.0/Imagen20.png)
 
@@ -156,25 +156,25 @@ Anexa la multimedia cargada a la solicitud
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/Version1.0/Imagen21.png)
 
 
--﻿ Correo al solicitante de Creación de la Orden. 
+- Correo al solicitante de Creación de la Orden. 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/Version1.0/Imagen22.png)
 
--﻿ Correo al solicitante y/o responsable de Asignación de la Orden. 
+- Correo al solicitante y/o responsable de Asignación de la Orden. 
 Anexa la multimedia cargada a la Orden 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/Version1.0/Imagen23.png)
 
--﻿ Correo al solicitante y/o responsable de Modificación de la Orden. 
+- Correo al solicitante y/o responsable de Modificación de la Orden. 
 Anexa la multimedia cargada a la Orden. 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/Version1.0/Imagen24.png)
 
--﻿ Correo al solicitante de Cierre de la Orden. Anexa la multimedia, link de evaluación y los comentarios cargados a la Orden  
+- Correo al solicitante de Cierre de la Orden. Anexa la multimedia, link de evaluación y los comentarios cargados a la Orden  
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/Version1.0/Imagen25.png)
 
--﻿ Correo al responsable de Cierre de la Orden. Anexa la multimedia y los comentarios cargados a la Orden 
+- Correo al responsable de Cierre de la Orden. Anexa la multimedia y los comentarios cargados a la Orden 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/Version1.0/Imagen26.png)
 
