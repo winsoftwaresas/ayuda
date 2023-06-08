@@ -363,21 +363,11 @@ Estos tres criterios son los principales y se sugiere hacer el inventario por al
 
 
 
-
-
-
 El botón <a class="btn cl-black bg-white bd-gray px-6"><span class="iconify cl-black" data-icon="mdi-monitor"></span> Otro </a> despliega un conjunto de otras opciones para realizar el inventario:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img33.jpeg)
 _**Imagen 33.** AMovil - Ir a Inventario físico Otro_
-
-
-
-
-##Aqui poner----------- una explicación de la diferencia que presenta este criterio----##
-
-
 
 
 Al elegir una de las opciones mostradas anteriormente el aplicativo muestra un mensaje de advertencia, el cual consiste en recordar que cada uno de los Activos debe tener un código de barras o un código QR o bien un código alfanumérico. 
@@ -600,3 +590,15 @@ _**Imagen 60.** AMovil - Almacén Subgrupo Búsquedas recientes_
 
 
 Para eliminar el historial completo de búsquedas dar un toque en el botón <a class="btn cl-white bg-blue px-3"> Limpiar </a> y luego en <a class="btn cl-white bg-blue px-3"> Aceptar </a> para volver a los valores por defecto.
+
+### Crear un Repuesto
+
+
+AMovil permite crear un registro de Repuesto/Material, siempre que el usuario logueado cuente con los permisos desde AM para ello. 
+
+Para ir a Crear un Repuesto dar toque en el botón del submenpu de Activos <a class="btn cl-black bg-white bd-gray px-6"><span class="iconify cl-black" data-icon="mdi-file-document-plus-outline"></span> Crear Repuesto </a> el cual abre el siguiente formulario:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img61.jpeg)
+_**Imagen 61.** AMovil - Almacén Crear Repuesto Formulario _
+
+
