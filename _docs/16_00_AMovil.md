@@ -595,8 +595,8 @@ _**Imagen 59.** AMovil - Almacén Subgrupo Resultado_
   
 El Subgrupo permanece hasta que el usuario reestablezca los valores por defecto. Para hacer otras búsquedas dar un toque nuevamente en el bóton <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-filter-outline"></span></a> en el cual se muestran las últimas búsquedas realizadas.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img23.jpeg)
-_**Imagen 23.** AMovil - Subgrupo Búsquedas recientes_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img60.jpeg)
+_**Imagen 60.** AMovil - Almacén Subgrupo Búsquedas recientes_
 
 
 Para eliminar el historial completo de búsquedas dar un toque en el botón <a class="btn cl-white bg-blue px-3"> Limpiar </a> y luego en <a class="btn cl-white bg-blue px-3"> Aceptar </a> para volver a los valores por defecto.
