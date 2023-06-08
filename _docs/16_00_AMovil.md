@@ -250,6 +250,9 @@ AMovil permite crear un registro de Activo, siempre que el usuario logueado cuen
 
 Para ir a Crear un Activo dar toque en el botón del submenpu de Activos <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-document-plus-outline"></span> Crear Activo </a> el cual abre el siguiente formulario:
 
+Los campos con asteriscos en rojo (*) son obligatorios:
+
+
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img24.jpeg)
 _**Imagen 24.** AMovil - Crear Activo Formulario _
 
@@ -598,7 +601,31 @@ AMovil permite crear un registro de Repuesto/Material, siempre que el usuario lo
 
 Para ir a Crear un Repuesto dar toque en el botón del submenpu de Activos <a class="btn cl-black bg-white bd-gray px-6"><span class="iconify cl-black" data-icon="mdi-file-document-plus-outline"></span> Crear Repuesto </a> el cual abre el siguiente formulario:
 
+Los campos con asteriscos en rojo (*) son obligatorios:
+
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img61.jpeg)
 _**Imagen 61.** AMovil - Almacén Crear Repuesto Formulario _
+
+
+ **Código:** En este campo se registra el código del Repuesto/Material, de acuerdo a la política de codificación que se haya definido.
+
+ **Descripción:** Se registra la descripción del Repuesto/Material en lenguaje natural.
+
+ **Casilla:** Es el campo en el que se establece la ubicación física del Repuesto dentro del Almacén. Este campo permite cualquier nomenclatura de organización. Ejemplo. E21B (7,12) significaría Estante 21, lado B, posición matricial fila 7 columna 12.
+
+ **Estado:** En este campo de opciones seleccionables es posible registrar el estado del Repuesto: Activo, EOI (Excedente Obsoleto o Inservible),  Vencido y Otro.
+
+ **Unidad de consumo:**  Es la unidad mediante la cual se le solicita al Almacén o mediante la cual el Almacén despacha un determinado artículo. Ej. Galones o Unidades.
+
+ **Existencia en inventario:** Registra la cantidad en existencia en el Almacén del Repuesto/Material seleccionado. Este campo puede ser actualizado manualmente o en forma automática a través del módulo de Kárdex en **AM**. Es un permiso que se otorga desde AM para un usuario en AMovil.
+
+**Costo unitario:** Es un valor que puede haber ser actualizado manualmente por alguien que tenía los permisos para hacerlo. Puede también actualizarse automáticamente por el sistema según el sistema de costeo definido para el almacén, a través del Kárdex en **AM**.
+
+Una vez que se diligencien los campos, finalizar dando un clic en el botón Para insertar el registro dar un clic en el botón <a class="btn cl-white bg-blue px-6"> Guardar </a> :
+
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img62.jpeg)
+_**Imagen 62.** AMovil - Almacén Crear Repuesto Formulario Mensaje Alerta_
 
 
