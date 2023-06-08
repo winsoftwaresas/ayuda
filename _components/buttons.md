@@ -166,3 +166,5 @@ published: true
 
 
 <a class="btn cl-black bg-orange-25 bd-orange px-6"> Detalle</a>
+
+<a class="btn cl-black bg-white bd-gray px-6"><span class="iconify cl-black" data-icon="mdi-file-send-outline"></span> Reservar Repuesto   </a>

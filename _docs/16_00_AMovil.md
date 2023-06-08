@@ -607,17 +607,17 @@ Los campos con asteriscos en rojo (*) son obligatorios:
 _**Imagen 61.** AMovil - Almacén Crear Repuesto Formulario _
 
 
- **Código:** En este campo se registra el código del Repuesto/Material, de acuerdo a la política de codificación que se haya definido.
+**Código:** En este campo se registra el código del Repuesto/Material, de acuerdo a la política de codificación que se haya definido.
 
- **Descripción:** Se registra la descripción del Repuesto/Material en lenguaje natural.
+**Descripción:** Se registra la descripción del Repuesto/Material en lenguaje natural.
 
- **Casilla:** Es el campo en el que se establece la ubicación física del Repuesto dentro del Almacén. Este campo permite cualquier nomenclatura de organización. Ejemplo. E21B (7,12) significaría Estante 21, lado B, posición matricial fila 7 columna 12.
+**Casilla:** Es el campo en el que se establece la ubicación física del Repuesto dentro del Almacén. Este campo permite cualquier nomenclatura de organización. Ejemplo. E21B (7,12) significaría Estante 21, lado B, posición matricial fila 7 columna 12.
 
- **Estado:** En este campo de opciones seleccionables es posible registrar el estado del Repuesto: Activo, EOI (Excedente Obsoleto o Inservible),  Vencido y Otro.
+**Estado:** En este campo de opciones seleccionables es posible registrar el estado del Repuesto: Activo, EOI (Excedente Obsoleto o Inservible),  Vencido y Otro.
 
- **Unidad de consumo:**  Es la unidad mediante la cual se le solicita al Almacén o mediante la cual el Almacén despacha un determinado artículo. Ej. Galones o Unidades.
+**Unidad de consumo:**  Es la unidad mediante la cual se le solicita al Almacén o mediante la cual el Almacén despacha un determinado artículo. Ej. Galones o Unidades.
 
- **Existencia en inventario:** Registra la cantidad en existencia en el Almacén del Repuesto/Material seleccionado. Este campo puede ser actualizado manualmente o en forma automática a través del módulo de Kárdex en **AM**. Es un permiso que se otorga desde AM para un usuario en AMovil.
+**Existencia en inventario:** Registra la cantidad en existencia en el Almacén del Repuesto/Material seleccionado. Este campo puede ser actualizado manualmente o en forma automática a través del módulo de Kárdex en **AM**. Es un permiso que se otorga desde AM para un usuario en AMovil.
 
 **Costo unitario:** Es un valor que puede haber ser actualizado manualmente por alguien que tenía los permisos para hacerlo. Puede también actualizarse automáticamente por el sistema según el sistema de costeo definido para el almacén, a través del Kárdex en **AM**.
 
@@ -629,3 +629,13 @@ Una vez que se diligencien los campos, finalizar dando un clic en el botón Para
 _**Imagen 62.** AMovil - Almacén Crear Repuesto Formulario Mensaje Alerta_
 
 
+### Reservar Repuesto
+
+Para reservar un Repuesto/Material se da un toque sobre el submenú de Almacén en la opción <a class="btn cl-black bg-white bd-gray px-6"><span class="iconify cl-black" data-icon="mdi-file-send-outline"></span> Reservar Repuesto   </a>. 
+
+
+A continuación se muestra el formulario de Reserva:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img63.jpeg)
+_**Imagen 63.** AMovil - Almacén Crear Repuesto Formulario Mensaje Alerta_
+ 
