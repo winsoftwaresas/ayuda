@@ -544,16 +544,20 @@ A continuación se describe cada campo:
 
 **Fecha de Uso:** Es la fecha en la que se tiene planeado utilizar el Repuesto seleccionado en el visor. De acuerdo con esta fecha, la persona encargada del Almacén debe mantener las unidades reservadas, disponibles sólo para quién registró la reserva. Se permite poner desde la fecha actual en adelante.
 
+
 **Estado:** Informa acerca del curso de la Reserva. Puede ser Activa, Finalizada o Cancelada. 
 
->**Nota:** El estado Finalizada, solo se actualiza desde el módulo de Kárdex a través de la transacción de Salida tipo Reservas para la OT en cuestión (este tipo de salida se configura desde la tabla de infraestructura - Conceptos de Kardex).
-
+**Reservado por:** Es la persona que registra la Reserva de las unidades del Repuesto seleccionado.
 
 **Número de OT:** Este es un campo, obligatorio que exige un consecutivo de OT para hacer la reserva y así el Almacenista pueda ejecutar la transacción en el módulo de Kardex. Es posible escribir directamente el número de la OT o elegir una OT a través del Subgrupo al lado derecho del campo. <span class="mdi mdi-filter-variant"></span> el cual la ventana visor de Órdenes.
 
 **Cantidad:** Es el número de unidades del Repuesto que se desea Reservar.
 
 **Comentario:** Se pueden agregar aquí, observaciones o comentarios referentes a la reserva.
+
+>**Nota:** El estado Finalizada, solo se actualiza desde el módulo de Kárdex a través de la transacción de Salida tipo Reservas para la OT en cuestión (este tipo de salida se configura desde la tabla de infraestructura - Conceptos de Kardex).
+
+
 
 A continuación se describe como adicionar Repuestos a la reserva:
 

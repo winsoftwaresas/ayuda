@@ -634,8 +634,31 @@ _**Imagen 62.** AMovil - Almacén Crear Repuesto Formulario Mensaje Alerta_
 Para reservar un Repuesto/Material se da un toque sobre el submenú de Almacén en la opción <a class="btn cl-black bg-white bd-gray px-6"><span class="iconify cl-black" data-icon="mdi-file-send-outline"></span> Reservar Repuesto   </a>. 
 
 
-A continuación se muestra el formulario de Reserva:
+A continuación se muestra el formulario de Reserva y se da una breve explicación de cada campo:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img63.jpeg)
 _**Imagen 63.** AMovil - Almacén Crear Repuesto Formulario Mensaje Alerta_
  
+**Fecha de uso:** Es la fecha en la que se tiene planeado utilizar el Repuesto/Material. De acuerdo con esta fecha, la persona encargada del Almacén debe mantener las unidades reservadas, disponibles sólo para quién registró la reserva.
+
+**Responsable:** Es la persona que registra la Reserva de las unidades del Repuesto/Material seleccionado.
+
+**Número de orden:** Exige un consecutivo de OT para hacer la reserva y así el Almacenista pueda ejecutar la transacción desde el módulo de Kardex. 
+
+
+**Repuesto:** Es el Repuesto/Material objeto de la reserva.
+
+**Cantidad:** Es el número de unidades del Repuesto/Material que se desea reservar.
+
+**Comentario:** Se pueden agregar observaciones o aclaraciones referentes a la reserva.
+
+Una vez llenados los campos se da un toque sobre el botón <a class="btn cl-white bg-blue px-6"> Crear reserva</a> se muestra el siguiente mensaje:
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img64.jpeg)
+_**Imagen 64.** AMovil - Almacén Crear Repuesto Formulario Mensaje Alerta_
+
+>**Nota:** cuando ya existe la reserva para una misma OT, se muestra un mensaje que rechaza la reserva.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img65.jpeg)
+_**Imagen 65.** AMovil - Almacén Crear Repuesto Formulario Mensaje Alerta_
