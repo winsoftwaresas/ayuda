@@ -583,16 +583,14 @@ _**Imagen 57.** AMovil - Almacén Subgrupo Criterios de Búsqueda_
 De la imagen anterior los botones ubicados en la parte inferior  <a class="btn cl-white bg-blue px-3"> Limpiar</a> y <a class="btn cl-white bg-blue px-3"> Aceptar </a> son para limpiar el campo y realizar nuevas búsquedas, mientras que el botón <a class="btn cl-white bg-blue px-3"> Aceptar </a> es para aceptar y buscar la condición que se ingrese en el campo. 
 
 
-
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img58.png)
-_**Imagen 58.** AMovil - Subgrupo Código RP_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img58.jpeg)
+_**Imagen 58.** AMovil - Almacén Subgrupo Código RP_
 
 Finalizar con <a class="btn cl-white bg-blue px-3"> Aceptar </a>, a continuación se muestra el resultado de la búsqueda:
 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img22.jpeg)
-_**Imagen 22.** AMovil - Subgrupo Resultado_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img59.jpeg)
+_**Imagen 59.** AMovil - Almacén Subgrupo Resultado_
 
   
 El Subgrupo permanece hasta que el usuario reestablezca los valores por defecto. Para hacer otras búsquedas dar un toque nuevamente en el bóton <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-filter-outline"></span></a> en el cual se muestran las últimas búsquedas realizadas.
