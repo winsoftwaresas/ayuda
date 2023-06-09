@@ -696,3 +696,9 @@ _**Imagen 69.** AMovil - Solicitudes Detalle_
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img70.jpeg)
 _**Imagen 70.** AMovil - Solicitudes Detalle_
+
+
+Para guardar los cambios en alguno de los campos de la Solicitud dar un toque en el botón <a class="btn cl-white bg-blue px-6">Actualizar</a>. El aplicativo muestra un mensaje alerta confirmando los cambios:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img71.jpeg)
+_**Imagen 71.** AMovil - Solicitudes Actualizar Detalle_
