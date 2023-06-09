@@ -702,3 +702,12 @@ Para guardar los cambios en alguno de los campos de la Solicitud dar un toque en
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img71.jpeg)
 _**Imagen 71.** AMovil - Solicitudes Actualizar Detalle_
+
+Para continuar dar un toque en <a class="btn cl-white bg-blue px-6">Aceptar</a>. 
+
+Para ingresar al submenú del Detalle de la Solicitud dirigirse al botón de la parte superior derecha <span class="iconify icon cl-gray bg-blue-25" data-icon="mdi-plus"></span></a>, mostrando las siguientes opciones relacionadas a la gestión y cierre de Solicitudes:
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img72.jpeg)
+_**Imagen 72.** AMovil - Solicitudes Gestión/Cierre_
+
