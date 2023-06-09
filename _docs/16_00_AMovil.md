@@ -114,7 +114,7 @@ Algunos comandos a tener en cuenta son:
 <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-file-edit-outline"></span></a> : Permite hacer un ingreso o registro de la firma tanto del Responsable ejecutor como de la persona quien recibe. 
 
 
-## Activos 
+# Activos 
 
 Para acceder al Submenú de Activos se debe dar un toque sobre el botón <a class="btn cl-black bg-white pl-2 pr-3 bd-blue"><span class="iconify cl-black fs-2 pr-1" data-icon="mdi-minus-box-multiple-outline"></span> Activos</a>, automáticamente la aplicación redirecciona al Submenpu de Activos, se debe tener presente que el presente se lista dependiendo de los permisos que tenga el usuario logueado. 
 
@@ -243,7 +243,7 @@ _**Imagen 23.** AMovil - Subgrupo Búsquedas recientes_
 Para eliminar el historial completo de búsquedas dar un toque en el botón <a class="btn cl-white bg-blue px-3"> Limpiar </a> y luego en <a class="btn cl-white bg-blue px-3"> Aceptar </a> para volver a los valores por defecto.
 
 
-### Crear un Activo 
+## Crear un Activo 
 
 
 AMovil permite crear un registro de Activo, siempre que el usuario logueado cuente con los permisos desde AM para ello. 
@@ -303,7 +303,7 @@ _**Imagen 26.** AMovil - Crear Activo Mensaje Aviso_
 
 
 
-### Actualizar Contadores 
+## Actualizar Contadores 
 
 Para actualizar contadores se debe dar un toque en el submmenú de Activos, y dar un toque en el botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-clock-outline"></span> Actualizar contadores </a>. 
 
@@ -349,7 +349,7 @@ _**Imagen 31.** AMovil - Mensaje Alerta Actualizar Contadores_
 >_**Nota:** los Activos hijos sombreados en gris se actualizan automáticamente una vez se actualice el contador del Activo Padre._
 
 
-### Inventario Físico 
+## Inventario Físico 
 
 Para llevar a cabo esta transacción se debe dar un toque sobre el botón <a class="btn cl-black bg-white bd-gray px-6"><span class="iconify cl-black" data-icon="mdi-text-box-outline"></span> Inventario físico </a> ubicado en el submenú de Activos 
 
@@ -495,7 +495,7 @@ _**Imagen 47.** AMovil - Resumen Inventario_
 
  
 
-## Almacén
+# Almacén
 
 
 Para acceder al Almacén se debe dar un toque sobre el botón <a class="btn cl-black bg-white pl-2 pr-3 bd-blue"><span class="iconify cl-black fs-2 pr-3" data-icon="mdi-view-grid"></span> Almacén</a> , el cual lista los Almacenes definidos en **AM**, se debe tener presente que el presente se lista dependiendo de los permisos que tenga el usuario logueado. 
@@ -518,7 +518,7 @@ _**Imagen 50** AMovil - Almacén Submenú_
 
 
 
-#### Consultar Repuestos 
+## Consultar Repuestos 
 
 Para hacer consulta der los Repuestos / Materiales se da un toque sobre el botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-magnify"></span> Consultar Repuestos</a>, a continuación se muestra el listado de Repuestos disponibles para el alamcén seleccionado, en la parte superior se muestra el nombre del Almacén donde se realiza la consulta:
 
@@ -594,7 +594,7 @@ _**Imagen 60.** AMovil - Almacén Subgrupo Búsquedas recientes_
 
 Para eliminar el historial completo de búsquedas dar un toque en el botón <a class="btn cl-white bg-blue px-3"> Limpiar </a> y luego en <a class="btn cl-white bg-blue px-3"> Aceptar </a> para volver a los valores por defecto.
 
-### Crear un Repuesto
+## Crear un Repuesto
 
 
 AMovil permite crear un registro de Repuesto/Material, siempre que el usuario logueado cuente con los permisos desde AM para ello. 
@@ -629,7 +629,7 @@ Una vez que se diligencien los campos, finalizar dando un clic en el botón Para
 _**Imagen 62.** AMovil - Almacén Crear Repuesto Formulario Mensaje Alerta_
 
 
-### Reservar Repuesto
+## Reservar Repuesto
 
 Para reservar un Repuesto/Material se da un toque sobre el submenú de Almacén en la opción <a class="btn cl-black bg-white bd-gray px-6"><span class="iconify cl-black" data-icon="mdi-file-send-outline"></span> Reservar Repuesto   </a>. 
 
@@ -662,3 +662,11 @@ _**Imagen 64.** AMovil - Almacén Crear Repuesto Formulario Mensaje Alerta_
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img65.jpeg)
 _**Imagen 65.** AMovil - Almacén Crear Repuesto Formulario Mensaje Alerta_
+
+
+# Solicitudes
+
+Para ir a Solicitudes de Servicio dar un toque sobre el botón <a class="btn cl-black bg-white pl-2 pr-3 bd-blue"><span class="iconify cl-black fs-2 pr-1" data-icon="mdi-account-box-outline"></span> Solicitudes</a> en el menú principal:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img66.jpeg)
+_**Imagen 66.** AMovil - Ir a Solicitudes_
