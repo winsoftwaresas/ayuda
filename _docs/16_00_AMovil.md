@@ -670,3 +670,9 @@ Para ir a Solicitudes de Servicio dar un toque sobre el botón <a class="btn cl-
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img66.jpeg)
 _**Imagen 66.** AMovil - Ir a Solicitudes_
+
+
+En el siguiente submenú se muestran las siguientes opciones según los permisos asignados al usuario logueado:
+
+
+
