@@ -672,7 +672,20 @@ Para ir a Solicitudes de Servicio dar un toque sobre el botón <a class="btn cl-
 _**Imagen 66.** AMovil - Ir a Solicitudes_
 
 
-En el siguiente submenú se muestran las siguientes opciones según los permisos asignados al usuario logueado:
+En el siguiente submenú se muestran las siguientes opciones según los permisos asignados al usuario logueado <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-magnify"></span> Consultar Solicitudes</a> y <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-document-plus-outline"></span> Crear Solicitud </a>.
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img67.jpeg)
+_**Imagen 67.** AMovil - Solicitudes Submenú_
 
 
 
+
+## Consultar Solicitudes
+
+Para consulta y seguimiento de las Solicitudes de Servicio dirigrise al botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-magnify"></span> Consultar Solicitudes</a>, el cual conlleva al total de las Solcitudes según los permisos restrictivos configurados en **AM**:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img68.jpeg)
+_**Imagen 68.** AMovil - Solicitudes_
+
+Para ir al detalle del registro dar un toque en el botón 
