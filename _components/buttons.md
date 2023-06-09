@@ -173,3 +173,5 @@ published: true
 <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-magnify"></span> Consultar Solicitudes</a> 
 
 <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-document-plus-outline"></span> Crear Solicitud </a>
+
+<a class="btn cl-black bg-white bd-yellow px-6"> Detalle</a>

@@ -688,4 +688,11 @@ Para consulta y seguimiento de las Solicitudes de Servicio dirigrise al botón <
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img68.jpeg)
 _**Imagen 68.** AMovil - Solicitudes_
 
-Para ir al detalle del registro dar un toque en el botón 
+Para ir al detalle del registro dar un toque en el botón  <a class="btn cl-black bg-white bd-yellow px-6"> Detalle</a>, como se muestra a continuación:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img69.jpeg)
+_**Imagen 69.** AMovil - Solicitudes Detalle_
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img70.jpeg)
+_**Imagen 70.** AMovil - Solicitudes Detalle_
