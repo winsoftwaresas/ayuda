@@ -711,3 +711,8 @@ Para ingresar al submenú del Detalle de la Solicitud dirigirse al botón de la 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img72.jpeg)
 _**Imagen 72.** AMovil - Solicitudes Gestión/Cierre_
 
+
+
+### Actualizar tiempos
+
+
