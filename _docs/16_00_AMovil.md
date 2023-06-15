@@ -525,7 +525,7 @@ Para hacer consulta der los Repuestos / Materiales se da un toque sobre el botó
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img51.jpeg)
 _**Imagen 51** AMovil - Almacén Consulta Repuestos_  
 
-Para ingresar al detalle del registro se da un toque sobre el botón <a class="btn cl-black bg-fred-25 bd-red px-6"> Detalle</a> . A continuación se muestra la ficha técnica del Repuesto:
+Para ingresar al detalle del registro se da un toque sobre el botón <a class="btn cl-black bg-peach bd-peach px-6"> Detalle</a> . A continuación se muestra la ficha técnica del Repuesto:
 
 
 
@@ -604,7 +604,7 @@ Para ir a Crear un Repuesto dar toque en el botón del submenpu de Activos <a cl
 Los campos con asteriscos en rojo (*) son obligatorios:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img61.jpeg)
-_**Imagen 61.** AMovil - Almacén Crear Repuesto Formulario _
+_**Imagen 61.** AMovil - Almacén Crear Repuesto Formulario_
 
 
 **Código:** En este campo se registra el código del Repuesto/Material, de acuerdo a la política de codificación que se haya definido.
@@ -688,7 +688,7 @@ Para consulta y seguimiento de las Solicitudes de Servicio dirigrise al botón <
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img68.jpeg)
 _**Imagen 68.** AMovil - Solicitudes_
 
-Para ir al detalle del registro dar un toque en el botón  <a class="btn cl-black bg-white bd-yellow px-6"> Detalle</a>, como se muestra a continuación:
+Para ir al detalle del registro dar un toque en el botón  <a class="btn cl-black bg-yellow-light bd-yellow px-6"> Detalle</a>, como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img69.jpeg)
 _**Imagen 69.** AMovil - Solicitudes Detalle_

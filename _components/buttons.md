@@ -162,7 +162,7 @@ published: true
 
 <a class="btn cl-black bg-white bd-yellow btn-rounded"><span class="mdi mdi-magnify pr-3"></span><span class="pr-4">Buscar una Ubicación física</span></a>
 
-
+ 
 
 
 <a class="btn bg-peach bd-peach px-6">Detalle</a>
