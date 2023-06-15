@@ -683,7 +683,7 @@ _**Imagen 67.** AMovil - Solicitudes Submenú_
 
 ## Consultar Solicitudes
 
-Para consulta y seguimiento de las Solicitudes de Servicio dirigrise al botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-magnify"></span> Consultar Solicitudes</a>, el cual conlleva al total de las Solcitudes según los permisos restrictivos configurados en **AM**:
+Para consulta y seguimiento de las Solicitudes de Servicio dirigirse al botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-magnify"></span> Consultar Solicitudes</a>, el cual conlleva al total de las Solicitudes según los permisos restrictivos configurados en **AM**:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img68.jpeg)
 _**Imagen 68.** AMovil - Solicitudes_
@@ -709,10 +709,16 @@ Para ingresar al submenú del Detalle de la Solicitud dirigirse al botón de la 
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img72.jpeg)
-_**Imagen 72.** AMovil - Solicitudes Gestión/Cierre_
+_**Imagen 72.** AMovil - Ir a Submenú Gestión/Cierre Solicitudes_
 
 
 
 ### Actualizar tiempos
 
 
+Para ingresar los tiempos de ejecución de la Solicitud dirigirse al botón <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-calendar-month"></span></a>. Se muestra el detalle de la Solicitud en cuestión, aquellas con Estado **En análisis** deben tener previamente la fecha y hora de Atención, se muestra un ejemplo a continuación:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img73.jpeg)
+_**Imagen 73.** AMovil - Solicitudes Actualizar tiempos_
+
+En el Detalle de la Socilitud dar un toque en el botón <a class="btn cl-white bg-green px-6">Ingresar FF/HH de atención </a>
