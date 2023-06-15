@@ -721,4 +721,8 @@ Para ingresar los tiempos de ejecución de la Solicitud dirigirse al botón <a c
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img73.jpeg)
 _**Imagen 73.** AMovil - Solicitudes Actualizar tiempos_
 
-En el Detalle de la Socilitud dar un toque en el botón <a class="btn cl-white bg-green px-6">Ingresar FF/HH de atención </a>
+En el Detalle de la Solicitud dar un toque en el botón <a class="btn cl-white bg-green px-6">Ingresar FF/HH de atención </a>, el cual ingresa automáticamente la fecha y hora:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img74.jpeg)
+_**Imagen 74.** AMovil - Solicitudes FFHH Atención_
+
