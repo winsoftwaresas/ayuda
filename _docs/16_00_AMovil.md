@@ -101,12 +101,10 @@ Algunos comandos a tener en cuenta son:
 
 <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-cellphone"></span></a>: Permite agregar la Multimedia al registro en cuestión.
 
- <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-check-circle"></span></a> : Permite hacer un cambio de estado en la SS/OT.
-
+<a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-check-circle"></span></a> : Permite hacer un cambio de estado en la SS/OT.
 
 
 <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-card-account-details-outline"></span></a> : Ingresa a la evaluación del servicio de la SS/OT.
-
 
 
 <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-close"></span></a> : Cierra la ventana del menú de opciones.
@@ -116,7 +114,7 @@ Algunos comandos a tener en cuenta son:
 
 # Activos 
 
-Para acceder al Submenú de Activos se debe dar un toque sobre el botón <a class="btn cl-black bg-white pl-2 pr-3 bd-blue"><span class="iconify cl-black fs-2 pr-1" data-icon="mdi-minus-box-multiple-outline"></span> Activos</a>, automáticamente la aplicación redirecciona al Submenpu de Activos, se debe tener presente que el presente se lista dependiendo de los permisos que tenga el usuario logueado. 
+Para acceder al Submenú de Activos se debe dar un toque sobre el botón <a class="btn cl-black bg-white pl-2 pr-3 bd-blue"><span class="iconify cl-black fs-2 pr-1" data-icon="mdi-minus-box-multiple-outline"></span> Activos</a>, automáticamente la aplicación redirecciona al Submenpu de Activos, se debe tener presente que el presente se lista dependiendo de los permisos que tenga el usuario logueado.  
 
 Al ingresar al módulo de Activos aparecen las siguientes opciones: Atrás, Consultar Activos, Crear Activo, Actualizar Contadores, Inventario Físico y finalmente cerrar sesión, como se muestra en la siguiente imagen
 
@@ -156,7 +154,7 @@ Para ingresar **Multimedia** en los Activos se debe ingresar al Detalle del regi
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img13.jpeg)
 _**Imagen 13.** AMovil - Ir a Multimedia_
 
-Para añadir multimedia o descargar los archivos ya existentes dar un toque en <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-cellphone"></span></a>, donde se muestra la información general del Activo y las tres carpetas disponibles: <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-outline"></span> Documentos</a>, <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-image-outline"></span> Imágenes</a> y <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-video"></span> Videos</a>, como se muestra a continuación:
+Para añadir multimedia o descargar los archivos ya existentes dar un toque en <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-cellphone"></span></a>, donde se muestra la información general del Activo y las tres carpetas disponibles: <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-outline"></span> Documentos</a>, <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-image-outline"></span> Imágenes</a> y <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-video"></span> Videos</a>, como se muestra a continuación
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img14.jpeg)
 _**Imagen 14.** AMovil - Multimedia_
@@ -428,8 +426,6 @@ Aparece un mensaje corto explicatorio de un indicador si de da un toque sobre es
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img39.png)
 _**Imagen 39.** AMovil - Inventario físico Mensaje Indicador_
-
-
 
 
 
@@ -725,4 +721,17 @@ En el Detalle de la Solicitud dar un toque en el botón <a class="btn cl-white b
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img74.jpeg)
 _**Imagen 74.** AMovil - Solicitudes FFHH Atención_
+
+Luego de registrar la **FF/HH atención**, se  habilitan las opciones:
+
+<a class="btn cl-black bg-white pl-2 pr-3 bd-gray"><span class="mdi mdi-circle cl-gray pr-1"></span> Registro manual de tiempos</a>
+
+ 
+<a class="btn cl-black bg-white pl-2 pr-3 bd-gray"><span class="mdi mdi-circle cl-gray pr-1"></span> Registro automático de tiempos</a>
+
+La primera consiste en ingresar las fechas de ejecución de forma manual en cada campo y hacer correcciones sobre el tiempo de duración como se muestra a continuación:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img75.jpeg)
+_**Imagen 75.** AMovil - Solicitudes Registro Manual de Tiempos_
+
 
