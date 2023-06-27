@@ -735,3 +735,8 @@ La primera consiste en ingresar las fechas de ejecución de forma manual en cada
 _**Imagen 75.** AMovil - Solicitudes Registro Manual de Tiempos_
 
 
+Para asentar los cambios dar un toque en el botón <a class="btn cl-white bg-blue px-6"> Guardar</a> donde se confirma la actualización:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img76.jpeg)
+_**Imagen 76.** AMovil - Solicitudes Mensaje Alerta_
+

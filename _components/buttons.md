@@ -188,3 +188,6 @@ published: true
 
  
 <a class="btn cl-black bg-white pl-2 pr-3 bd-gray"><span class="mdi mdi-circle cl-gray pr-1"></span> Registro automático de tiempos</a>
+
+
+<a class="btn cl-white bg-blue px-6"> Guardar</a>
