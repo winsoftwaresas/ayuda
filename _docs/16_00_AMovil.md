@@ -735,8 +735,17 @@ La primera consiste en ingresar las fechas de ejecución de forma manual en cada
 _**Imagen 75.** AMovil - Solicitudes Registro Manual de Tiempos_
 
 
-Para asentar los cambios dar un toque en el botón <a class="btn cl-white bg-blue px-6"> Guardar</a> donde se confirma la actualización:
+Para asentar los cambios dar un toque en el botón <a class="btn cl-white bg-blue px-6"> Guardar</a> donde se confirma la actualización y para continuar <a class="btn cl-white bg-blue px-6"> Aceptar</a>:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img76.jpeg)
 _**Imagen 76.** AMovil - Solicitudes Mensaje Alerta_
 
+La segunda, es para ingresar automática los tiempos:
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img77.jpeg)
+_**Imagen 77.** AMovil - Solicitudes Ingresar Automático de Tiempos_
+
+
+Para dar inicio dar un toque en el botón  
+<a class="btn cl-white bg-green px-6"> Iniciar</a>

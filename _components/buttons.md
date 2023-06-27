@@ -191,3 +191,7 @@ published: true
 
 
 <a class="btn cl-white bg-blue px-6"> Guardar</a>
+
+<a class="btn cl-white bg-blue px-6"> Aceptar</a>
+
+<a class="btn cl-white bg-green px-6"> Iniciar</a>
