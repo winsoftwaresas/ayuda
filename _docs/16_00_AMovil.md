@@ -754,4 +754,11 @@ Para dar inicio dar un toque en el botón
 _**Imagen 78.** AMovil - Solicitudes Ingresar Automático de Tiempos_
 
 
-En caso de <a class="btn cl-white bg-green px-6"> Pausar </a> la ejecución de trabajos, se habilita el botón <a class="btn cl-white bg-green px-6"> Continuar </a>,  y al finalizar la ejecución, se muestran los tiempos 
+En caso de <a class="btn cl-white bg-green px-6"> Pausar </a> la ejecución de trabajos, se habilita el botón <a class="btn cl-white bg-green px-6"> Continuar </a>,  y al <a class="btn cl-white bg-red px-6"> Finalizar</a> la ejecución, se muestra el resumen de tiempos:
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img79.jpeg)
+_**Imagen 79.** AMovil - Solicitudes Ingresar Automático de Tiempos_
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img80.jpeg)
+_**Imagen 80.** AMovil - Solicitudes Ingresar Automático de Tiempos_
