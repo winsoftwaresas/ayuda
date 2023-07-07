@@ -748,7 +748,10 @@ _**Imagen 77.** AMovil - Solicitudes Ingresar Automático de Tiempos_
 
 
 Para dar inicio dar un toque en el botón  
-<a class="btn cl-white bg-green px-6"> Iniciar</a>, esto hará que la FF/Inicio (Fecha Inicio de Trabajos) se ingrese automáticamente, en la siguiente imagen se muestra el ingreso automático y los botones <a class="btn cl-white bg-green px-6"> Pausar</a> para facilidad el manejo del tiempo del Responsable ejecutor y <a class="btn cl-white bg-red px-6"> Finalizar</a> para ingresar FF/Fin (Fecha Fin de Trabajos). 
+<a class="btn cl-white bg-green px-6"> Iniciar</a>, esto hará que la FF/Inicio (Fecha Inicio de Trabajos) se ingrese automáticamente, en la siguiente imagen se muestra el ingreso automático y los botones <a class="btn cl-white bg-green px-6"> Pausar </a> para el manejo del tiempo de duración y <a class="btn cl-white bg-red px-6"> Finalizar</a> para ingresar FF/Fin (Fecha Fin de Trabajos). 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img78.jpeg)
 _**Imagen 78.** AMovil - Solicitudes Ingresar Automático de Tiempos_
+
+
+En caso de <a class="btn cl-white bg-green px-6"> Pausar </a> la ejecución de trabajos, se habilita el botón <a class="btn cl-white bg-green px-6"> Continuar </a>,  y al finalizar la ejecución, se muestran los tiempos 
