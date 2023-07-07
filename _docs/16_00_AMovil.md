@@ -96,7 +96,7 @@ Algunos comandos a tener en cuenta son:
 
 <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-calendar-month"></span></a>: En el detalle de una SS u OT indica ingresar o modificar los tiempos de ejecución.
 
-<a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-chat-processing-outline"></span></a>: Permite ingresar los comentarios de ejecución.
+<a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-wechat"></span></a>: Permite ingresar los comentarios de ejecución.
 
 
 <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-cellphone"></span></a>: Permite agregar la Multimedia al registro en cuestión.
@@ -762,3 +762,32 @@ _**Imagen 79.** AMovil - Solicitudes Ingresar Automático de Tiempos_
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img80.jpeg)
 _**Imagen 80.** AMovil - Solicitudes Ingresar Automático de Tiempos_
+
+
+
+### Comentarios
+
+Para ingresar los detalles de la ejecución o comentarios de la Solicitud dirigirse al botón <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-wechat"></span></a> como se indica a continuación:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img81.png)
+_**Imagen 81.** AMovil - Solicitudes Ir a Comentarios_
+
+A continuación se muestra el resumen de la Solicitud, y para guardar el comentario dar un toque en el botón <a class="btn cl-white bg-blue px-6"> Guardar </a>, el cual se confirma a través de un mensaje alerta, para finalizar dar un toque en 
+<a class="btn cl-white bg-blue px-6"> 
+Aceptar </a>
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img82.jpeg)
+_**Imagen 82.** AMovil - Solicitudes Ingresar Comentarios_
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img83.jpeg)
+_**Imagen 83.** AMovil - Solicitudes Mensaje Alerta Comentarios_ 
+
+
+Una vez guardados los comentarios, se muestra el detalle en la parte inferior del usuario que registró el comentario así:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img84.jpeg)
+_**Imagen 84.** AMovil - Solicitudes Detalle Comentarios_ 
+
+
