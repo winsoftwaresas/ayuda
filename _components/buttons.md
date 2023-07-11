@@ -200,3 +200,6 @@ published: true
 <a class="btn cl-white bg-blue px-6"> Aceptar</a>
 
 <a class="btn cl-white bg-green px-6"> Iniciar</a>
+
+
+<a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-paperclip"></span></a>

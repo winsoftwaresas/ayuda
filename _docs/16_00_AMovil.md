@@ -791,3 +791,12 @@ Una vez guardados los comentarios, se muestra el detalle en la parte inferior de
 _**Imagen 84.** AMovil - Solicitudes Detalle Comentarios_ 
 
 
+### Multimedia 
+
+
+Para ingresar documentos, imágenes o videos a la Solicitud dirigirse al botón <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-paperclip"></span></a> como se indica a continuación: 
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img85.jpeg)
+_**Imagen 85.** AMovil - Solicitudes Ir a Multimedia_
+
+A continuación se muestra el detalle de la Solicitud con las siguientes tres carpetas: 
