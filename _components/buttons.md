@@ -97,7 +97,7 @@ published: true
 
 <hr>
 
-<a class="btn cl-black bg-white pl-2 pr-3 bd-gray"><span class="iconify cl-black fs-2 pr-1" data-icon="mdi-undo"></span> Atras</a>
+<a class="btn cl-black bg-white pl-6 pr-6 bd-gray"><span class="iconify cl-black fs-2 pr-" data-icon="mdi-arrow-left-top"></span> Atras</a>
 
 <hr>
 
@@ -203,3 +203,6 @@ published: true
 
 
 <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-paperclip"></span></a>
+
+
+
