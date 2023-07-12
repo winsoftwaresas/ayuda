@@ -204,5 +204,6 @@ published: true
 
 <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-paperclip"></span></a>
 
+<a class="btn cl-white bg-blue px-6"> Subir archivo </a>
 
 

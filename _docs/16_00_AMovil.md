@@ -799,13 +799,15 @@ Para ingresar documentos, imágenes o videos a la Solicitud dirigirse al botón 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img85.jpeg)
 _**Imagen 85.** AMovil - Solicitudes Ir a Multimedia_
 
-A continuación se muestra el detalle de la Solicitud con las siguientes tres carpetas: [poner los botones que representan esas carpetas]
+A continuación se muestra el detalle de la Solicitud con las siguientes tres carpetas:
 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img8.jpeg)
-_**Imagen 8.** AMovil - Solicitudes Multimedia_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img86.jpeg)
+_**Imagen 86.** AMovil - Solicitudes Multimedia_
 
-Cada una de las carpetas indican los tipos archivos permitidos en cada una. Se ilustra un ejemplo añadiendo imágenes correspondientes a la solicitud:
+Cada una de las carpetas indican los tipos archivos permitidos en cada una. Una vez ingresada a la carpeta, es posible devolverse con el botón <a class="btn cl-black bg-white pl-6 pr-6 bd-gray"><span class="iconify cl-black fs-2 pr-" data-icon="mdi-arrow-left-top"></span> Atras</a>, para cargar el archivo dar un toque en el botón <a class="btn cl-white bg-blue px-6"> Subir archivo </a>. Se ilustra un ejemplo añadiendo imágenes correspondientes a la solicitud:
 
-Una vez ingresada a la carpeta, es posible devolverse con el botón <a class="btn cl-black bg-white pl-6 pr-6 bd-gray"><span class="iconify cl-black fs-2 pr-" data-icon="mdi-arrow-left-top"></span> Atras</a>
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img87.jpeg)
+_**Imagen 87.** AMovil - Solicitudes Multimedia_
 
