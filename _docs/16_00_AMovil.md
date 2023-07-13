@@ -805,9 +805,15 @@ A continuación se muestra el detalle de la Solicitud con las siguientes tres ca
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img86.jpeg)
 _**Imagen 86.** AMovil - Solicitudes Multimedia_
 
-Cada una de las carpetas indican los tipos archivos permitidos en cada una. Una vez ingresada a la carpeta, es posible devolverse con el botón <a class="btn cl-black bg-white pl-6 pr-6 bd-gray"><span class="iconify cl-black fs-2 pr-" data-icon="mdi-arrow-left-top"></span> Atras</a>, para cargar el archivo dar un toque en el botón <a class="btn cl-white bg-blue px-6"> Subir archivo </a>. Se ilustra un ejemplo añadiendo imágenes correspondientes a la solicitud:
+Cada una de las carpetas indican los tipos archivos permitidos en cada una. Una vez ingresada a la carpeta, es posible devolverse con el botón <a class="btn cl-black bg-white pl-6 pr-6 bd-gray"><span class="iconify cl-black fs-2 pr-" data-icon="mdi-arrow-left-top"></span> Atras</a>, para cargar el archivo dar un toque en el botón <a class="btn cl-white bg-blue px-6"> Subir archivo </a>, esto abre el explorador de archivos del teléfono móvil o estación donde se ejecute el proceso. Se ilustra un ejemplo añadiendo imágenes correspondientes a la solicitud:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img87.jpeg)
 _**Imagen 87.** AMovil - Solicitudes Multimedia_
+
+Una vez se elija el archivo, se muestra en la parte inferior su nombre, como se muestra a continuación:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img88.jpeg)
+_**Imagen 88.** AMovil - Solicitudes Multimedia_
+
 
