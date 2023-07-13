@@ -823,4 +823,14 @@ Para continuar, dar un toque en el botón <a class="btn cl-white bg-blue px-6"> 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img89.jpeg)
 _**Imagen 89.** AMovil - Solicitudes Mensaje Alerta Multimedia_
 
+Para continuar <a class="btn cl-white bg-blue px-6"> Aceptar </a>, se puede ir a <a class="btn cl-black bg-white pl-6 pr-6 bd-gray"><span class="iconify cl-black fs-2 pr-" data-icon="mdi-arrow-left-top"></span> Atras</a> para continuar agregando multimedia.
 
+Una vez el registro tenga multimedia, se agrega un indicador de color naranja <span class="iconify cl-orange bd-orange bg-orange btn-rounded" data-icon="mdi-circle"></span> asi:
+
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img90.jpeg)
+_**Imagen 90.** AMovil - Solicitudes Indicador Multimedia_ 
+
+
+###
