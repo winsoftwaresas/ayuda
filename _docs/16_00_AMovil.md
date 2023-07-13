@@ -817,3 +817,10 @@ Una vez se elija el archivo, se muestra en la parte inferior su nombre, como se 
 _**Imagen 88.** AMovil - Solicitudes Multimedia_
 
 
+Para continuar, dar un toque en el botón <a class="btn cl-white bg-blue px-6"> Guardar </a>, con el siguiente mensaje alerta:
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img89.jpeg)
+_**Imagen 89.** AMovil - Solicitudes Mensaje Alerta Multimedia_
+
+
