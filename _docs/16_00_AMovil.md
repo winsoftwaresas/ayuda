@@ -712,7 +712,7 @@ _**Imagen 72.** AMovil - Ir a Submenú Gestión/Cierre Solicitudes_
 ### Actualizar tiempos
 
 
-Para ingresar los tiempos de ejecución de la Solicitud dirigirse al botón <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-calendar-month"></span></a>. Se muestra el detalle de la Solicitud en cuestión, aquellas con Estado **En análisis** deben tener previamente la fecha y hora de Atención, se muestra un ejemplo a continuación:
+Para ingresar los tiempos de ejecución de la Solicitud dirigirse al botón <span class="iconify icon cl-gray bg-blue-25" data-icon="mdi-plus"></span></a> y luego ir a <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-calendar-month"></span></a>. Se muestra el detalle de la Solicitud en cuestión, aquellas con Estado **En análisis** deben tener previamente la fecha y hora de Atención, se muestra un ejemplo a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img73.jpeg)
 _**Imagen 73.** AMovil - Solicitudes Actualizar tiempos_
@@ -767,7 +767,7 @@ _**Imagen 80.** AMovil - Solicitudes Ingresar Automático de Tiempos_
 
 ### Comentarios
 
-Para ingresar los detalles de la ejecución o comentarios de la Solicitud dirigirse al botón <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-wechat"></span></a> como se indica a continuación:
+Para ingresar los detalles de la ejecución o comentarios de la Solicitud dirigirse al botón  <span class="iconify icon cl-gray bg-blue-25" data-icon="mdi-plus"></span></a> y luego a <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-wechat"></span></a> como se indica a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img81.png)
 _**Imagen 81.** AMovil - Solicitudes Ir a Comentarios_
@@ -794,7 +794,7 @@ _**Imagen 84.** AMovil - Solicitudes Detalle Comentarios_
 ### Multimedia 
 
 
-Para ingresar documentos, imágenes o videos a la Solicitud dirigirse al botón <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-paperclip"></span></a> como se indica a continuación: 
+Para ingresar documentos, imágenes o videos a la Solicitud dirigirse al botón <span class="iconify icon cl-gray bg-blue-25" data-icon="mdi-plus"></span></a> y luego ir a <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-paperclip"></span></a> como se indica a continuación: 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img85.jpeg)
 _**Imagen 85.** AMovil - Solicitudes Ir a Multimedia_
@@ -833,4 +833,12 @@ Una vez el registro tenga multimedia, se agrega un indicador de color naranja <s
 _**Imagen 90.** AMovil - Solicitudes Indicador Multimedia_ 
 
 
-###
+### Cerrar Solicitud
+
+
+Para cerrar la Solicitud, ingresar la Causa de Falla para registros con Tipo de Mantenimiento Correctivo e ingresar la firma del Responsable, dar un toque en el botón <span class="iconify icon cl-gray bg-blue-25" data-icon="mdi-plus"></span></a> y luego ir a Cerrar Solicitud  <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-check-circle"></span></a>
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img91.jpeg)
+_**Imagen 91.** AMovil - Solicitudes Ir a Cerrar Solicitud_ 
+
+A continuación se muestra el detalle del cierre de la Solicitud. 
