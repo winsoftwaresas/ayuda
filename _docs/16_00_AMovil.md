@@ -898,7 +898,7 @@ _**Imagen 101.** AMovil - Solicitudes Indicador Firma_
 
 ### Evaluación 
 
-Para evaluar el servicio al Responsable Ejecutor y registrar la firma del Solicitante se debe ir al botón <span class="iconify icon cl-gray bg-blue-25" data-icon="mdi-plus"></span></a> y luego ir a Evaluación <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-card-account-details-outline"></span></a>
+Para evaluar el servicio al Responsable Ejecutor se debe ir al botón <span class="iconify icon cl-gray bg-blue-25" data-icon="mdi-plus"></span></a> y luego ir a Evaluación <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-card-account-details-outline"></span></a>
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img102.jpeg)
 _**Imagen 102.** AMovil - Solicitudes Ir a Evaluación_
@@ -922,5 +922,5 @@ Para finalizar <a class="btn cl-white bg-blue px-6"> Guardar </a>, después de g
 _**Imagen 104.** AMovil - Solicitudes Evaluación Mensaje Alerta_
 
 
-Para continuar <a class="btn cl-white bg-blue px-6"> Aceptar</a>
+Para finalizar dar un toque en <a class="btn cl-white bg-blue px-6"> Aceptar</a>.
 
