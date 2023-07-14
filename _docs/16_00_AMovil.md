@@ -921,6 +921,14 @@ Para finalizar <a class="btn cl-white bg-blue px-6"> Guardar </a>, después de g
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img104.jpeg)
 _**Imagen 104.** AMovil - Solicitudes Evaluación Mensaje Alerta_
 
+Luepgo, se habilita el botón para registrar la firma del Solicitante:
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img104.jpeg)
+_**Imagen 105 .** AMovil - Solicitudes Evaluación Mensaje Alerta_
+
+
 
 Para finalizar dar un toque en <a class="btn cl-white bg-blue px-6"> Aceptar</a>.
-
+ 
+  
