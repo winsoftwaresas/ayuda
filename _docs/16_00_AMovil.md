@@ -860,3 +860,9 @@ _**Imagen 94.** AMovil - Solicitudes Ingresar Firma_
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img95.jpeg)
 _**Imagen 95.** AMovil - Solicitudes Visualizar Firma_
+
+Una vez se guarde la firma, se muestra el siguiente mensaje alerta:
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img96.jpeg)
+_**Imagen 96.** AMovil - Solicitudes Mensaje Alerta Firma_
