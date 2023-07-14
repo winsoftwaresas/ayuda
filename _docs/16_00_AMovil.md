@@ -868,9 +868,13 @@ Una vez se guarde la firma, se muestra el siguiente mensaje alerta:
 _**Imagen 96.** AMovil - Solicitudes Mensaje Alerta Firma_
 
 
-Luego de este mensaje alerta se muestra de nuevo el detalle del Cierre de la Solicitud, en el ejemplo, se muestran las opciones para el cambio de estado de la Solicitud (Esto puede variar según la parametrización en AM sobre el Cierre):
+Luego de este mensaje alerta se muestra de nuevo el detalle del Cierre de la Solicitud, en el ejemplo, se muestran las opciones para el cambio de **Estado** de la Solicitud (Puede variar según la parametrización en **AM** sobre el Cierre):
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img97.jpeg)
 _**Imagen 97.** AMovil - Solicitudes Campo Estado_
 
+Se muestran las opciones de **Causa de Falla** (Aplicable a Solicitudes Correctivas). Se debe tener en cuenta que se despliegan las Causas de Falla según la respectiva tabla de Infraestructura en **AM**:
 
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img98.jpeg)
+_**Imagen 98.** AMovil - Solicitudes Campo Causa de Falla_
