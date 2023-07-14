@@ -866,3 +866,11 @@ Una vez se guarde la firma, se muestra el siguiente mensaje alerta:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img96.jpeg)
 _**Imagen 96.** AMovil - Solicitudes Mensaje Alerta Firma_
+
+
+Luego de este mensaje alerta se muestra de nuevo el detalle del Cierre de la Solicitud, en el ejemplo, se muestran las opciones para el cambio de estado de la Solicitud (Esto puede variar según la parametrización en AM sobre el Cierre):
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img97.jpeg)
+_**Imagen 97.** AMovil - Solicitudes Campo Estado_
+
+
