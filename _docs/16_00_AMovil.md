@@ -878,3 +878,14 @@ Se muestran las opciones de **Causa de Falla** (Aplicable a Solicitudes Correcti
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img98.jpeg)
 _**Imagen 98.** AMovil - Solicitudes Campo Causa de Falla_
+
+
+Una vez se asegure de la elección correcta, continuar asentando los cambios en la solicitud dando un toque en el botón <a class="btn cl-white bg-blue px-6"> Guardar </a>:
+
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img99.jpeg)
+_**Imagen 99.** AMovil - Solicitudes Detalle Cierre_
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img100.jpeg)
+_**Imagen 100.** AMovil - Solicitudes Cierre Mensaje Alerta_
