@@ -841,4 +841,22 @@ Para cerrar la Solicitud, ingresar la Causa de Falla para registros con Tipo de 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img91.jpeg)
 _**Imagen 91.** AMovil - Solicitudes Ir a Cerrar Solicitud_ 
 
-A continuación se muestra el detalle del cierre de la Solicitud. 
+A continuación se muestra el detalle del cierre de la Solicitud. Para ingresar la firma se da un toque sobre el botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-outline"></span> Firma del encargado/Ejecutor</a>:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img92.jpeg)
+_**Imagen 92.** AMovil - Solicitudes Detalle Cierre_
+ 
+Luego, se debe ingresar la firma en el siguiente espacio:
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img93.jpeg)
+_**Imagen 93.** AMovil - Solicitudes Ingresar Firma_
+
+
+Se puede rehacer la firma con el botón <a class="btn cl-white bg-blue px-6"> Limpiar </a> o asentar la firma con el botón <a class="btn cl-white bg-blue px-6"> Guardar </a> y también es posible hacer una visualización <a class="btn cl-black bg-white bd-blue px-6"> Visualizar firma </a>, como se muestra en el siguiente ejemplo:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img94.jpeg)
+_**Imagen 94.** AMovil - Solicitudes Ingresar Firma_
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img95.jpeg)
+_**Imagen 95.** AMovil - Solicitudes Visualizar Firma_

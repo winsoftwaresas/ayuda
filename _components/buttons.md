@@ -207,3 +207,4 @@ published: true
 <a class="btn cl-white bg-blue px-6"> Subir archivo </a>
 
 
+<a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-outline"></span> Firma del encargado/Ejecutor</a> 
