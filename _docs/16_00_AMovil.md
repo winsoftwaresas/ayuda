@@ -889,3 +889,30 @@ _**Imagen 99.** AMovil - Solicitudes Detalle Cierre_
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img100.jpeg)
 _**Imagen 100.** AMovil - Solicitudes Cierre Mensaje Alerta_
+
+Los registros que tengan la firma del Responsable Ejecutor se indican a través de un color gris <span class="iconify cl-gray bd-gray bg-gray btn-rounded" data-icon="mdi-circle"></span>, como se muestra en el siguiente ejemplo:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img101.jpeg)
+_**Imagen 101.** AMovil - Solicitudes Indicador Firma_
+
+
+### Evaluación 
+
+Para evaluar el servicio al Responsable Ejecutor y registrar la firma del Solicitante se debe ir al botón <span class="iconify icon cl-gray bg-blue-25" data-icon="mdi-plus"></span></a> y luego ir a Evaluación <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-card-account-details-outline"></span></a>
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img102.jpeg)
+_**Imagen 102.** AMovil - Solicitudes Ir a Evaluación_
+
+
+A continuación marque su respuesta en cada pregunta, siendo:
+
+- E: Excelente
+- B: Bueno
+- A: Aceptable
+- D: Deficiente
+- M: Malo
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img103.jpeg)
+_**Imagen 103.** AMovil - Solicitudes Detalle Evaluación_
+
+
