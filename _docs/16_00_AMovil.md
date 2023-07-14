@@ -915,4 +915,12 @@ A continuación marque su respuesta en cada pregunta, siendo:
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img103.jpeg)
 _**Imagen 103.** AMovil - Solicitudes Detalle Evaluación_
 
+Para finalizar <a class="btn cl-white bg-blue px-6"> Guardar </a>, después de guardar se muestra un mensaje alerta:
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img104.jpeg)
+_**Imagen 104.** AMovil - Solicitudes Evaluación Mensaje Alerta_
+
+
+Para continuar <a class="btn cl-white bg-blue px-6"> Aceptar</a>
 
