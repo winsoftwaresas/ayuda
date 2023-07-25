@@ -181,6 +181,10 @@ Cuando se termine de subir el archivo (word, excel, pdf, power point, imágenes 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img17.jpeg)
 _**Imagen 17.** AMovil - Mensaje Alerta Guardar Multimedia_
 
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img17_01.jpeg)
+_**Imagen 17.** AMovil - Visualización Multimedia_
+
+
    
 ### Subgrupo Activos
 
@@ -357,6 +361,7 @@ Una vez se ingrese, se muestra el siguiente submenú:
 _**Imagen 32.** AMovil - Ir a Inventario físico_
 
 
+
 Cada una de las opciones anteriores representa los criterios por los cuales se ejecutar la transacción. El objetivo es hacer el conteo de los Activos inventariados y no inventariados.
 
 >**Nota:** El criterio Ubicación Física, Centro de Costo y Responsable tiene el indicador amarillo preferencial <span class="iconify cl-yellow bd-yellow bg-yellow btn-rounded" data-icon="mdi-circle"></span>.
@@ -369,6 +374,11 @@ El botón <a class="btn cl-black bg-white bd-gray px-6"><span class="iconify cl-
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img33.jpeg)
 _**Imagen 33.** AMovil - Ir a Inventario físico Otro_
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img33_01.jpeg)
+_**Imagen 33.** AMovil - Ir a Inventario físico Otro_
+
 
 
 Al elegir una de las opciones mostradas anteriormente el aplicativo muestra un mensaje de advertencia, el cual consiste en recordar que cada uno de los Activos debe tener un código de barras o un código QR o bien un código alfanumérico. 
@@ -921,11 +931,19 @@ Para finalizar <a class="btn cl-white bg-blue px-6"> Guardar </a>, después de g
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img104.jpeg)
 _**Imagen 104.** AMovil - Solicitudes Evaluación Mensaje Alerta_
 
-Luepgo, se habilita el botón para registrar la firma del Solicitante:
+Luego, se habilita el botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-outline"></span> Firma de quien recibe/Evalúa</a> para registrar la firma del Solicitante, para registrarla, dar un toque sobre él:
 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img104.jpeg)
-_**Imagen 105 .** AMovil - Solicitudes Evaluación Mensaje Alerta_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img105.jpeg)
+_**Imagen 105 .** AMovil - Solicitudes Firma Solicitante_
+
+Esto muestra a continuación una ventana detalle ingreso:
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img106.jpeg)
+_**Imagen 106 .** AMovil - Solicitudes Firma Solicitante_
+
+
 
 
 

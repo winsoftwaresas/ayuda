@@ -208,3 +208,8 @@ published: true
 
 
 <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-outline"></span> Firma del encargado/Ejecutor</a> 
+
+
+<a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-outline"></span> Firma de quien recibe/Evalúa</a>
+
+<a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-video"></span> Videos</a>
