@@ -5,12 +5,12 @@ order: 16_00
 ---
 # ¿Que es AMovil?
 
-**AMovil** es una aplicación complementaria de **AM** enfocada para los ejecutores de mantenimiento interno a través de portátiles móviles.  Este primer capítulo contiene información básica para la comprensión y el uso del AMovil. Se plantea una visión general sobre la interfaz del usuario y sobre los elementos que aparecen en pantalla a manera de convenciones generales.
+**AMovil** es una aplicación complementaria de **AM** enfocada para los ejecutores de mantenimiento interno a través de portátiles móviles.  Este primer capítulo contiene información básica para la comprensión y el uso de AMovil. Se plantea una visión general sobre la interfaz del usuario y sobre los elementos que aparecen en pantalla a manera de convenciones generales.
 
-Se aprende a elegir e interpretar los comandos y a seleccionar las opciones de los módulos y submódulos, para ejecutar las funciones propias de la aplicación.
+Se aprende a interpretar los comandos y a seleccionar las opciones de los módulos y submódulos, para ejecutar las funciones propias de la aplicación.
  
 
-Una vez se ingrese a la aplicación (suministrada por WIN Software), se visualiza la ventana para iniciar sesión:
+Una vez se ingrese a la aplicación (APK suministrada por WIN Software), se visualiza la ventana para iniciar sesión:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img01.jpeg)
 _**Imagen 1.** AMovil - Iniciar Sesión_
@@ -26,7 +26,7 @@ _**Imagen 2.** AMovil - Inicio_
 En la parte superior derecha se visualizan los siguientes íconos que representan la funcionalidad de sincronización:
 
 
-<a class="btn cl-white bg-blue-50 fs-2"><span class="iconify btn-icon cl-black" data-icon="mdi-tray-arrow-down"></span><span class="dot bg-af-green"></span></a> : descarga la información antes de comenzar a trabajar con la aplicación. Al dar un toque aparece un mensaje de advertencia:
+<a class="btn cl-white bg-blue fs-2"><span class="iconify btn-icon cl-white" data-icon="mdi-download"></span><span class="dot bg-af-red"></span></a>: descarga la información para comenzar a trabajar con la aplicación. Al dar un toque aparece un mensaje de advertencia:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img03.jpeg)
 _**Imagen 3.** AMovil - Mensaje Advertencia descarga_
@@ -50,10 +50,14 @@ _**Imagen 5.** AMovil - Actualización de datos_
 
 De la imagen anterior se visualiza el dashboard seleccionado de Solicitudes <a class="btn cl-black bg-white bd-blue px-4"><span class="mdi mdi-circle cl-gray pr-1"></span><span class="pr-1">Estados de solicitudes</span></a> , en caso de querer visualizar el dashboard de Órdenes se debe dar un toque sobre el botón <a class="btn cl-black bg-white bd-gray px-4"><span class="mdi mdi-circle cl-gray pr-1"></span><span class="pr-1">Estados de las ordenes</span></a>.
 
-<a class="btn cl-white bg-orange px-4">66</a>: indica el total de las SS o OT según el gráfico acorde al párrafo anterior.
+<a class="btn cl-white bg-orange px-4">66</a>: indica el total de las SS o OT según el gráfico.
+
+<a class="btn cl-white bg-blue fs-2"><span class="iconify btn-icon cl-white" data-icon="mdi-upload"></span><span class="dot bg-af-green"></span></a>: sincroniza la información una vez que el usuario o técnico ejecutor finalice sus labores. 
 
 
-<a class="btn cl-white bg-blue-50 fs-2"><span class="iconify btn-icon cl-black" data-icon="mdi-tray-arrow-up"></span><span class="dot bg-af-red"></span></a> : sube la información una vez que el usuario o técnico ejecutor finalice sus labores. Al dar un toque aparece un mensaje de advertencia:
+>**Nota:** Cualquier actividad dentro del aplicativo supone una cantidad de trabajo, por lo que hasta que no se sincronice nuevamente, AMovil no permite hacer descarga de datos.
+
+Al dar un toque aparece un mensaje de advertencia:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img06.jpeg)
@@ -64,9 +68,9 @@ Para continuar dar clic en <a class="btn cl-white bg-blue px-4"> Aceptar</a>, el
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img07.jpeg)
 _**Imagen 7.** AMovil - Proceso Sincronizar_
 
-Una se complete el proceso se puede cerrar sesión en la aplicación.
+Una vez complete el proceso, puede cerrar sesión en la aplicación.
 
-<a class="btn cl-white bg-blue"><span class="mdi mdi-menu-open cl-white fs-2"></span></a> : su función es ingresar al menú principal de la aplicación, como se muestra a continuación:
+<a class="btn cl-white bg-blue"><span class="mdi mdi-menu cl-white fs-2"></span></a>: ingresa al menú principal de la aplicación, como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img08.jpeg)
 _**Imagen 8.** AMovil - Ir a Menú_
@@ -949,4 +953,4 @@ _**Imagen 106 .** AMovil - Solicitudes Firma Solicitante_
 
 Para finalizar dar un toque en <a class="btn cl-white bg-blue px-6"> Aceptar</a>.
  
-  
+     

@@ -62,15 +62,16 @@ published: true
 <hr>
 
 <!-- menu open -->
-<a class="btn cl-white bg-blue"><span class="mdi mdi-menu-open cl-white fs-2"></span></a>
+<a class="btn cl-white bg-blue"><span class="mdi mdi-menu cl-white fs-2"></span></a>
 
 <hr>
 
 <!-- upload -->
-<a class="btn cl-white bg-blue-50 fs-2"><span class="iconify btn-icon cl-black" data-icon="mdi-tray-arrow-up"></span><span class="dot bg-af-red"></span></a>
+<a class="btn cl-white bg-blue fs-2"><span class="iconify btn-icon cl-white" data-icon="mdi-download"></span><span class="dot bg-af-red"></span></a>
 
 <!-- download -->
-<a class="btn cl-white bg-blue-50 fs-2"><span class="iconify btn-icon cl-black" data-icon="mdi-tray-arrow-down"></span><span class="dot bg-af-green"></span></a>
+<a class="btn cl-white bg-blue fs-2"><span class="iconify btn-icon cl-white" data-icon="mdi-upload"></span><span class="dot bg-af-green"></span></a>
+
 
 <hr>
 
