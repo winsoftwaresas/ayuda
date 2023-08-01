@@ -78,23 +78,23 @@ _**Imagen 8.** AMovil - Ir a Menú_
 
 A continuación se describen los botones de inicio:
 
-<a class="btn cl-black bg-white pl-2 pr-3 bd-blue"><span class="iconify cl-black fs-2 pr-1" data-icon="mdi-home-outline"></span> Inicio</a> : Hace un direccionamiento a la página inicio donde se visualizan los bashboards de Solicitudes y Órdenes de Trabajo.
+<a class="btn cl-black bg-white pl-2 pr-3 bd-blue"><span class="iconify cl-black fs-2 pr-1" data-icon="mdi-home-outline"></span> Inicio</a>: Hace un direccionamiento a la página inicio donde se visualizan los bashboards de Solicitudes y Órdenes de Trabajo.
 
-<a class="btn cl-black bg-white pl-2 pr-3 bd-blue"><span class="iconify cl-black fs-2 pr-1" data-icon="mdi-minus-box-multiple-outline"></span> Activos</a> : Redirecciona al módulo de Activos.
+<a class="btn cl-black bg-white pl-2 pr-3 bd-blue"><span class="iconify cl-black fs-2 pr-1" data-icon="mdi-home-city-outline"></span> Activos</a> : Redirecciona al módulo de Activos.
+ 
 
-
-<a class="btn cl-black bg-white pl-2 pr-3 bd-blue"><span class="iconify cl-black fs-2 pr-1" data-icon="mdi-view-grid"></span> Almacén</a> : Permite ingresar al módulo de Materiales/Repuestos.
-
-
-<a class="btn cl-black bg-white pl-2 pr-3 bd-blue"><span class="iconify cl-black fs-2 pr-1" data-icon="mdi-account-box-outline"></span> Solicitudes</a> : Ingresa al módulo de Solicitudes de Servicio
+<a class="btn cl-black bg-white pl-2 pr-3 bd-blue"><span class="iconify cl-black fs-2 pr-1" data-icon="mdi-warehouse"></span> Almacén</a> : Permite ingresar al módulo de Materiales/Repuestos.
 
 
-<a class="btn cl-black bg-white pl-2 pr-3 bd-blue"><span class="iconify cl-black fs-2 pr-1" data-icon="mdi-land-plots"></span> Órdenes</a> : Redirecciona al módulo de Órdenes de Trabajo. 
+<a class="btn cl-black bg-white pl-2 pr-3 bd-blue"><span class="iconify cl-black fs-2 pr-1" data-icon="mdi-card-text-outline"></span> Solicitudes</a> : Ingresa al módulo de Solicitudes de Servicio
+
+
+<a class="btn cl-black bg-white pl-2 pr-3 bd-blue"><span class="iconify cl-black fs-2 pr-1" data-icon="mdi-sticker-text-outline"></span> Órdenes</a> : Redirecciona al módulo de Órdenes de Trabajo. 
 
 
 Algunos comandos a tener en cuenta son:
 
-<a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-filter-outline"></span></a> : Es el ícono del subgrupo el cual permite filtrar o preseleccionar información según un conjunto de criterios.
+<a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-filter-variant"></span></a>: Es el ícono del subgrupo el cual permite filtrar o preseleccionar información según un conjunto de criterios.
 
 <span class="iconify icon cl-gray bg-blue-25" data-icon="mdi-plus"></span></a> : abre un conjunto de opciones según el módulo o submódulo, como los siguientes a continuación.
 
