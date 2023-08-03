@@ -96,24 +96,26 @@ Algunos comandos a tener en cuenta son:
 
 <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-filter-variant"></span></a>: Es el ícono del subgrupo el cual permite filtrar o preseleccionar información según un conjunto de criterios.
 
-<span class="iconify icon cl-gray bg-blue-25" data-icon="mdi-plus"></span></a> : abre un conjunto de opciones según el módulo o submódulo, como los siguientes a continuación.
+<span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> : abre un conjunto de opciones según el módulo o submódulo. 
 
-<a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-calendar-month"></span></a>: En el detalle de una SS u OT indica ingresar o modificar los tiempos de ejecución.
+Las opciones son:
+
+<a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-update"></span></a>: En el detalle de una SS u OT indica ingresar o modificar los tiempos de ejecución.
 
 <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-wechat"></span></a>: Permite ingresar los comentarios de ejecución.
 
 
-<a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-cellphone"></span></a>: Permite agregar la Multimedia al registro en cuestión.
+<a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-paperclip"></span></a>: Permite agregar la Multimedia al registro en cuestión.
 
 <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-check-circle"></span></a> : Permite hacer un cambio de estado en la SS/OT.
 
 
-<a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-card-account-details-outline"></span></a> : Ingresa a la evaluación del servicio de la SS/OT.
+<a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-format-list-checks"></span></a> : Ingresa a la evaluación del servicio de la SS/OT.
 
 
 <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-close"></span></a> : Cierra la ventana del menú de opciones.
 
-<a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-file-edit-outline"></span></a> : Permite hacer un ingreso o registro de la firma tanto del Responsable ejecutor como de la persona quien recibe. 
+<a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-file-edit-outline"></span></a> : Permite hacer un ingreso o registro de la firma masiva tanto del Responsable ejecutor como de la persona quien recibe. 
 
 
 # Activos 

@@ -112,35 +112,62 @@ published: true
 
 
 ----
-<a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-calendar-month"></span></a>
-<a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-account-multiple-outline"></span></a>
-
-<span class="mdi mdi-wechat"
+<a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-update"></span></a>
+---
 
 <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-wechat"></span></a>
+----
 
 
-<a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-cellphone"></span></a>
+<a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-paperclip"></span></a>
+----------
+
+<a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-account-multiple-outline"></span></a>
+----------------
 <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-check-circle"></span></a>
-<a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-card-account-details-outline"></span></a>
+---------------------
+
+<a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-format-list-checks"></span></a>
+
+-------------------------------------
 <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-close"></span></a>
-<a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-file-edit-outline"></span></a>
+-------------------------------
+
+<a class="btn cl-black bg-white px-5">71</a>
+-------------------------------------
 
 
-
-<a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-pencil-outline"></span></a>
-
-<a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-image-filter-center-focus-strong-outline"></span></a> 
 
 
 <hr>
 
-<span class="iconify icon cl-gray bg-blue-25" data-icon="mdi-plus"></span></a>
+<span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a>
 
 <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-magnify"></span> Consultar Activos</a> 
 
-<a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-magnify"></span> Consultar Repuestos</a> 
+----------
+<a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-plus-outline"></span> Crear Activo </a>
 
+
+-------
+
+<a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-clock-outline"></span> Actualizar contadores </a>
+-------------------------
+
+
+
+<a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-magnify"></span> Consultar Repuestos</a> 
+---------------
+
+<a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-format-list-bulleted-square"></span> Inventario físico </a>
+------
+
+- <a class="btn cl-black bg-white bd-gray px-6"><span class="iconify cl-black" data-icon="mdi-text-search"></span> Otro </a>
+---
+
+- <a class="btn cl-black bg-white bd-gray px-6"><span class="iconify cl-black" data-icon="mdi-map-marker-outline"></span> Ubicación física </a>
+
+-------
 <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-outline"></span> Documentos</a>
 
 
@@ -154,19 +181,16 @@ published: true
 <a class="btn cl-white bg-blue px-3"> Aceptar</a>
 
 
-<a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-document-plus-outline"></span> Crear Activo </a>
 
-<a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-clock-outline"></span> Actualizar contadores </a>
+
 
 
 <a class="btn cl-black bg-blue-25 bd-blue px-6">Actualizar</a>
 
 <a class="btn cl-white bg-red 25 px-6">Finalizar inventario</a>
 
-<a class="btn cl-black bg-white bd-gray px-6"><span class="iconify cl-black" data-icon="mdi-text-box-outline"></span> Inventario físico </a>
 
 
-<a class="btn cl-black bg-white bd-gray px-6"><span class="iconify cl-black" data-icon="mdi-monitor"></span> Otro </a>
 
 
 <a class="btn cl-black bg-white bd-yellow btn-rounded"><span class="mdi mdi-magnify pr-3"></span><span class="pr-4">Buscar una Ubicación física</span></a>
@@ -217,3 +241,13 @@ published: true
 <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-outline"></span> Firma de quien recibe/Evalúa</a>
 
 <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-video"></span> Videos</a>
+
+-------------
+
+<a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-file-edit-outline"></span></a>
+
+
+
+<a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-pencil-outline"></span></a>
+
+<a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-image-filter-center-focus-strong-outline"></span></a> 
