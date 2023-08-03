@@ -120,9 +120,17 @@ Las opciones son:
 
 # Activos 
 
-Para acceder al Submenú de Activos se debe dar un toque sobre el botón <a class="btn cl-black bg-white pl-2 pr-3 bd-blue"><span class="iconify cl-black fs-2 pr-1" data-icon="mdi-minus-box-multiple-outline"></span> Activos</a>, automáticamente la aplicación redirecciona al Submenpu de Activos, se debe tener presente que el presente se lista dependiendo de los permisos que tenga el usuario logueado.  
+Para acceder al Submenú de Activos se debe dar un toque sobre el botón <a class="btn cl-black bg-white pl-2 pr-3 bd-blue"><span class="iconify cl-black fs-2 pr-1" data-icon="mdi-home-city-outline"></span> Activos</a> , automáticamente la aplicación redirecciona al Submenpu de Activos, se debe tener presente que el presente se lista dependiendo de los permisos que tenga el usuario logueado.  
 
-Al ingresar al módulo de Activos aparecen las siguientes opciones: Atrás, Consultar Activos, Crear Activo, Actualizar Contadores, Inventario Físico y finalmente cerrar sesión, como se muestra en la siguiente imagen
+Al ingresar al módulo de Activos aparecen las siguientes opciones:
+- <a class="btn cl-black bg-white pl-6 pr-6 bd-gray"><span class="iconify cl-black fs-2 pr-" data-icon="mdi-arrow-left-thick"></span> Atras</a>
+-  <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-magnify"></span> Consultar Activos</a>
+- <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-plus-outline"></span> Crear Activo </a>
+- <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-clock-outline"></span> Actualizar contadores </a>
+- <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-format-list-bulleted-square"></span> Inventario físico </a> 
+- <a class="btn cl-white bg-blue px-6"> Cerrar sesión </a>
+
+ Como se muestra en la siguiente imagen
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img09.jpeg)
 _**Imagen 9.** AMovil - Submenú de Activos_

@@ -98,7 +98,7 @@ published: true
 
 <hr>
 
-<a class="btn cl-black bg-white pl-6 pr-6 bd-gray"><span class="iconify cl-black fs-2 pr-" data-icon="mdi-arrow-left-top"></span> Atras</a>
+<a class="btn cl-black bg-white pl-6 pr-6 bd-gray"><span class="iconify cl-black fs-2 pr-" data-icon="mdi-arrow-left-thick"></span> Atras</a>
 
 <hr>
 
@@ -228,6 +228,8 @@ published: true
 <a class="btn cl-white bg-blue px-6"> Aceptar</a>
 
 <a class="btn cl-white bg-green px-6"> Iniciar</a>
+
+<a class="btn cl-white bg-blue px-6"> Cerrar sesión </a>
 
 
 <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-paperclip"></span></a>
