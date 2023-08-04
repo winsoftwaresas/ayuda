@@ -54,6 +54,8 @@ De la imagen anterior se visualiza el dashboard seleccionado de Solicitudes <a c
 
 <a class="btn cl-white bg-blue fs-2"><span class="iconify btn-icon cl-white" data-icon="mdi-upload"></span><span class="dot bg-af-green"></span></a>: sincroniza la información una vez que el usuario o técnico ejecutor finalice sus labores. 
 
+<a class="btn cl-black bg-white px-5">71</a> : indica el total de registros en la base de datos o el resultado de un subgrupo de datos.
+
 
 >**Nota:** Cualquier actividad dentro del aplicativo supone una cantidad de trabajo, por lo que hasta que no se sincronice nuevamente, AMovil no permite hacer descarga de datos.
 
@@ -130,7 +132,7 @@ Al ingresar al módulo de Activos aparecen las siguientes opciones:
 - <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-format-list-bulleted-square"></span> Inventario físico </a> 
 - <a class="btn cl-white bg-blue px-6"> Cerrar sesión </a>
 
- Como se muestra en la siguiente imagen
+Como se muestra en la siguiente imagen
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img09.jpeg)
 _**Imagen 9.** AMovil - Submenú de Activos_
@@ -139,6 +141,8 @@ _**Imagen 9.** AMovil - Submenú de Activos_
 ### Consultar Activos
 
 Para hacer consulta de algún Activo dar un toque en <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-magnify"></span> Consultar Activos</a> donde aparecerá el listado de todos los Activos, cada uno de los registros se distingue por medio de un  sombreado azul, si algún registro tiene un indicador de color naranja <span class="iconify cl-orange bd-orange bg-orange btn-rounded" data-icon="mdi-circle"></span>  significa que el Activo posee registros Multimedia. 
+
+En la parte superior derecha se muestra el indicativo del total de Activos registrados en la base de datos: <a class="btn cl-black bg-white px-5">556</a>
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img10.jpeg)
@@ -152,7 +156,7 @@ Para ingresar al detalle del registro se da un toque sobre el botón <a class="b
 _**Imagen 11.** AMovil - Ficha Técnica Activos_
      
 
-Para guardar un cambio sobre la ficha técnica dar un toque en <a class="btn cl-white bg-blue px-3"> Actualizar</a>, en el cual sistema mostrará un mensaje alerta indicando que se ha actualizado el registro y para continuar dar un toque en <a class="btn cl-white bg-blue px-3"> Aceptar</a> como se muestra a continuación:
+Para guardar un cambio sobre la ficha técnica dar un toque en <a class="btn cl-white bg-blue px-3"> Actualizar</a>, en el cual se muestra un mensaje alerta indicando que se ha actualizado el registro y para continuar dar un toque en <a class="btn cl-white bg-blue px-3"> Aceptar</a> como se muestra a continuación:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img12.jpeg)
@@ -162,7 +166,7 @@ _**Imagen 12.** AMovil - Mensaje Alerta Actualizar Activos_
 ### Multimedia en Activos
 
 
-Para ingresar **Multimedia** en los Activos se debe ingresar al Detalle del registro en cuestión; nótese que en la parte superior derecha se encuentra el siguiente ícono <span class="iconify icon cl-gray bg-blue-25" data-icon="mdi-plus"></span></a>, al dar un toque muestra las siguientes dos opciones:
+Para ingresar **Multimedia** en los Activos se debe ingresar al Detalle del registro en cuestión; nótese que en la parte superior derecha se encuentra el siguiente ícono <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a>, al dar un toque muestra las siguientes dos opciones:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img13.jpeg)
