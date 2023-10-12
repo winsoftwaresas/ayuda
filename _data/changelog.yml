@@ -1,5 +1,14 @@
 # Changelog page source
 
+- title: AM4G  Version 1.0A
+  label: STABLE
+  date: June 12, 2023
+  list:
+   - Se desarrolla en AMsi la funcionalidad para relacionar los usuarios por compañías.
+   - Se realiza la validación para los tipos de documento según el tipo de movimiento en Kardex.
+   - Se desarrollan cambios de indicadores sobre los reportesde Indicadores en Historia.
+   - Se desarrollan nuevas funciones en las 2 interfases de carga de archivos planos.
+
 - title: AM4G  Version 1.0
   label: STABLE
   date: April 12, 2023
