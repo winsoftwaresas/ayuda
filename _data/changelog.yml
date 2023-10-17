@@ -1,5 +1,43 @@
 # Changelog page source
 
+- title: AM4G  Version 1.1
+  label: STABLE
+  date: October 10, 2023
+  list:
+   - A partir de esta versión los usuarios de AMsi podrán interactuar con el aplicativo desde el móvil o tableta sin perder ninguna funcionalidad del sistema.
+   - Se realizan mejoras y validaciones en el modulo de administración de Amsi para evitar errores en el registro de nuevos usuarios.
+   - Se revisan las validaciones para la tabla de terceros, permitiendo la actualización fluida de los cambios en terceros.
+   - Se establecen en Contratos 2 casos de tipo de servicio, el que se recibe y el que se presta.
+   - Se bloquea la tabla de catalogo Tipos de mantenimientos. 
+   - En el Submódulo de contadores se presentan los activos con ordenamiento alfabético.
+   - Se crea el campo de Usuario en la inserción del documento de Kardex.
+   - Se desarrolla la función de validación para los valores unitarios en las entradas.
+   - Se parametriza la opción para Congelar los documentos de Kardex.
+   - Se corrige el reporte PRP-PRYAMD para que muestre todos los criterios de programación.
+   - Al momento de crear una nueva solicitud Correctiva el sistema tomara la fecha y hora automáticamente y la asignara a la fecha y hora de Paro.
+   - Se adiciona el campo Ubicación Física a las opciones de descarga en el módulo de Solicitudes.
+   - Se adicionan Dashboard con los estados de las Solicitudes.
+   - Se corrige la toma de tiempo improductivo automática para Ordenes con tipo de mantenimiento Correctivo.
+   - Se elimina la validación para los campos obligatorios de Causa de Falla y Efecto de Falla al momento de cancelar una Orden.
+   - En la Opción Agregar Responsable al gasto real de modificación masiva de Ordenes de Trabajo, se carga a su vez el tipo de asignación definida por el usuario.
+   - Al agregar un responsable ejecutor con la opción Modificación masiva si este responsable es un interno se selecciona a la vez de forma automatica como responsable por la Institución.
+   - Se adiciona en Dashboard con los estados de las Ordenes.
+   - Se adiciona Dashboard Interactivo por Tipo de Mantenimientos.
+   - Los consecutivos se ordenan por campo numérico en el modulo de Hitoria.
+   - Se adiciona el filtro de Búsqueda por “Fecha de Envió a Historia”.
+   - Se adiciona el campo de descarga por “Fecha de Envió a Historia”.
+   - Se adiciona el reporte HMR-RECC Resumen De Costo En Ordenes De Trabajo Agrupado Por Centro de Costo.
+   - Se adiciona el reporte HMR-RETM Resumen De Costo En Ordenes De Trabajo Agrupado Por Tipo de Mantenimiento.
+   - Se adiciona el reporte HMR-RETA	Resumen De Costo En Ordenes De Trabajo	 Agrupado Por Tipo de Mantenimiento y Tipo de Actividad.
+   - Los registros por pagina se deben definir a partir de esta versión entre las opciones 60 0 100 registros por página.
+   - El administrador de la Compañía debe definir si se toma o no el tiempo Improductivo para todas las Ordenes creadas desde AMovil.
+   - El administrador de la Compañía debe seleccionar el Tipo de Mantenimiento, Tipo de Actividad y Tipo de Trabajo por defecto para las Solicitudes generadas desde AMsi. 
+   - Se adiciona la Opcion de un nuevo Correo al agregar un Comentario a las Solicitudes u Ordenes de trabajo.
+   - Esta versión permite a los Administradores de Compañía definir los permisos básicos para cada usuario en AMovil.
+   - Los clientes pueden Solicitar a Winsoftware manejar el Login de usuarios con multifactor a través de correo electrónico.
+   - Desde esta versión el sistema tiene una auditoria fuerte sobre el módulo de Kardex.
+   - Se crea una tabla de Login fallidos.
+
 - title: AM4G  Version 1.0A
   label: STABLE
   date: June 12, 2023
