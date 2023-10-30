@@ -18,6 +18,9 @@ permalink:          /:title/
 # Site base hostname & protocol, e.g. http://example.com
 url:                "https://ayuda.winsoftware.com.co"
 
+# Winsoftware base hostname & protocol
+win_url:                "https://winsoftware.com.co"
+
 # Site logo # e.g. logo.png, upload logo image file to /uploads/ folder
 logo:               winsoftware_logo.svg
 
