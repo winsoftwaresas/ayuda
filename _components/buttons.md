@@ -171,7 +171,7 @@ published: true
 <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-outline"></span> Documentos</a>
 
 
-<span class="iconify icon cl-black bg-white" data-icon="mdi-tray-arrow-down"></span></a>
+<span class="iconify icon cl-black bg-white" data-icon="mdi-download"></span></a>
 
 <a class="btn cl-gray bg-white bd-gray px-5"></span>Seleccione un filtro</a>
 
@@ -242,7 +242,7 @@ published: true
 
 <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-outline"></span> Firma de quien recibe/Evalúa</a>
 
-<a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-video"></span> Videos</a>
+<a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-video-outline"></span> Videos</a>
 
 -------------
 
@@ -253,3 +253,17 @@ published: true
 <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-pencil-outline"></span></a>
 
 <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-image-filter-center-focus-strong-outline"></span></a> 
+
+
+
+--------------
+submenú de Activos
+
+- <a class="btn cl-black bg-white pl-6 pr-6 bd-gray"><span class="iconify cl-black fs-2 pr-" data-icon="mdi-arrow-left-thick"></span> Atras</a>
+-  <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-magnify"></span> Consultar Activos</a>
+- <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-plus-outline"></span> Crear Activo </a>
+- <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-clock-outline"></span> Actualizar contadores </a>
+- <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-format-list-bulleted-square"></span> Inventario físico </a> 
+- <a class="btn cl-white bg-blue px-6"> Cerrar sesión </a>
+
+-------------------------------------

@@ -126,17 +126,9 @@ Estas opciones son:
 
 # Activos 
 
-Para acceder al Submenú de Activos se debe dar un toque sobre el botón <a class="btn cl-black bg-white pl-2 pr-3 bd-blue"><span class="iconify cl-black fs-2 pr-1" data-icon="mdi-home-city-outline"></span> Activos</a> , automáticamente la aplicación redirecciona al Submenpu de Activos, se debe tener presente que el presente se lista dependiendo de los permisos que tenga el usuario logueado.  
+Para acceder al Submenú de Activos se debe dar un toque sobre el botón <a class="btn cl-black bg-white pl-2 pr-3 bd-gray"><span class="iconify cl-black fs-2 pr-1" data-icon="mdi-home-city-outline"></span> Activos</a>. El listado se muestra completo dependiendo de los permisos que tenga el usuario.
 
 Al ingresar al módulo de Activos aparecen las siguientes opciones:
-- <a class="btn cl-black bg-white pl-6 pr-6 bd-gray"><span class="iconify cl-black fs-2 pr-" data-icon="mdi-arrow-left-thick"></span> Atras</a>
--  <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-magnify"></span> Consultar Activos</a>
-- <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-plus-outline"></span> Crear Activo </a>
-- <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-clock-outline"></span> Actualizar contadores </a>
-- <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-format-list-bulleted-square"></span> Inventario físico </a> 
-- <a class="btn cl-white bg-blue px-6"> Cerrar sesión </a>
-
-Como se muestra en la siguiente imagen
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img09.jpeg)
 _**Imagen 9.** AMovil - Submenú de Activos_
@@ -144,15 +136,15 @@ _**Imagen 9.** AMovil - Submenú de Activos_
 
 ### Consultar Activos
 
-Para hacer consulta de algún Activo dar un toque en <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-magnify"></span> Consultar Activos</a> donde aparecerá el listado de todos los Activos, cada uno de los registros se distingue por medio de un  sombreado azul, si algún registro tiene un indicador de color naranja <span class="iconify cl-orange bd-orange bg-orange btn-rounded" data-icon="mdi-circle"></span>  significa que el Activo posee registros Multimedia. 
+Para hacer consulta de algún registro, dar un toque en el botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-magnify"></span> Consultar Activos</a> el cual muestra el listado de todos los Activos. Cada registro se distingue en una tarjeta azul. Si algún registro tiene un indicador de color naranja <span class="iconify cl-orange bd-orange bg-orange btn-rounded" data-icon="mdi-circle"></span>  significa que el Activo posee registros Multimedia. 
 
-En la parte superior derecha se muestra el indicativo del total de Activos registrados en la base de datos: <a class="btn cl-black bg-white px-5">556</a>
+En la parte superior derecha se visualiza el número total de Activos registrados en la base de datos <a class="btn cl-black bg-white px-5">556</a>:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img10.jpeg)
 _**Imagen 10.** AMovil - Ir a Detalle Activos_
 
-Para ingresar al detalle del registro se da un toque sobre el botón <a class="btn cl-black bg-blue-25 bd-blue px-4">Detalle</a>. A continuación se muestra la ficha técnica del Activo:
+Para visualizar la ficha técnica del Activo, dar un toque sobre el botón <a class="btn cl-black bg-blue-25 bd-blue px-4">Detalle</a>:
 
 
 
@@ -160,7 +152,9 @@ Para ingresar al detalle del registro se da un toque sobre el botón <a class="b
 _**Imagen 11.** AMovil - Ficha Técnica Activos_
      
 
-Para guardar un cambio sobre la ficha técnica dar un toque en <a class="btn cl-white bg-blue px-3"> Actualizar</a>, en el cual se muestra un mensaje alerta indicando que se ha actualizado el registro y para continuar dar un toque en <a class="btn cl-white bg-blue px-3"> Aceptar</a> como se muestra a continuación:
+Para guardar un cambio sobre la ficha técnica dar un toque en <a class="btn cl-white bg-blue px-3"> Actualizar</a>. 
+
+El aplicativo confirma que se ha actualizado el registro, para continuar dar un toque en <a class="btn cl-white bg-blue px-3"> Aceptar</a> como se muestra a continuación:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img12.jpeg)
@@ -170,25 +164,33 @@ _**Imagen 12.** AMovil - Mensaje Alerta Actualizar Activos_
 ### Multimedia en Activos
 
 
-Para ingresar **Multimedia** en los Activos se debe ingresar al Detalle del registro en cuestión; nótese que en la parte superior derecha se encuentra el siguiente ícono <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a>, al dar un toque muestra las siguientes dos opciones:
+Para ingresar a **Multimedia** de Activos, ingrese al Detalle del registro en cuestión; nótese que en la parte superior derecha se encuentra el siguiente ícono <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a>, el cual muestra las siguientes dos opciones:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img13.jpeg)
 _**Imagen 13.** AMovil - Ir a Multimedia_
 
-Para añadir multimedia o descargar los archivos ya existentes dar un toque en <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-cellphone"></span></a>, donde se muestra la información general del Activo y las tres carpetas disponibles: <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-outline"></span> Documentos</a>, <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-image-outline"></span> Imágenes</a> y <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-video"></span> Videos</a>, como se muestra a continuación
+Para añadir multimedia o descargar los archivos existentes dar un toque en <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-paperclip"></span></a>. Éste muestra la información general del Activo y tres carpetas disponibles: 
+- <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-outline"></span> Documentos</a>
+-  <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-image-outline"></span> Imagenes</a>
+- <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-video-outline"></span> Videos</a>
+
+Como se muestra en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img14.jpeg)
 _**Imagen 14.** AMovil - Multimedia_
 
-A continuación se ilustra un ejemplo para subir Documentos, el cual es el mismo para subir Imágenes o Videos:
+A continuación se ilustra un ejemplo para subir Documentos, el cual es el mismo para Imágenes o Videos:
 
-Para agregar o consultar documentos dar un toque en la respectiva carpeta <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-outline"></span> Documentos</a>, en caso de tener documentos añadidos desde **AM** es posible visualizarlos descargándolos con el botón <span  class="iconify icon cl-black bg-white" data-icon="mdi-tray-arrow-down"></span></a>, para subir un nuevo archivo dirigirse a <a class="btn cl-white bg-blue px-4">Subir archivo</a>:
+Para agregar o consultar documentos dar un toque en la respectiva carpeta <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-outline"></span> Documentos</a>.
+
+
+En caso caso de tener documentos añadidos desde **AM**, es  posible visualizarlos a través del botón <span  class="iconify icon cl-black bg-white" data-icon="mdi-download"></span></a>.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img15.jpeg)
-_**Imagen 15.** AMovil - Guardar Multimedia
+_**Imagen 15.** AMovil - Guardar Multimedia_
 
-Esta opción  abre el explorador de archivos de su dispositivo móvil y una vez que localice el documento dar un toque y finalizar con el botón <a class="btn cl-white bg-blue px-4">Guardar</a>, como se indica en la siguiente imagen:
+Para subir un nuevo archivo, continúe dando un toque sobre <a class="btn cl-white bg-blue px-4">Subir archivo</a>, éste abre el explorador de archivos de su dispositivo móvil. Una vez seleccione el archivo, se visualiza el nombre del documento debajo del botón <a class="btn cl-white bg-blue px-4">Guardar</a>, como se indica en la siguiente imagen:
 
 
 
@@ -196,12 +198,14 @@ Esta opción  abre el explorador de archivos de su dispositivo móvil y una vez 
 _**Imagen 16.** AMovil - Guardar Multimedia_
 
 
-
-Cuando se termine de subir el archivo (word, excel, pdf, power point, imágenes tipo jpg, jpeg, png o videos), el aplicativo  muestra un mensaje de guardado exitoso:
+Finalice dando un toque en el botón <a class="btn cl-white bg-blue px-4">Guardar</a>.
+Cuando se cargue el archivo, el aplicativo  muestra un mensaje de guardado exitoso, así:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img17.jpeg)
 _**Imagen 17.** AMovil - Mensaje Alerta Guardar Multimedia_
+
+Los archivos añadidos se guardan en el orden del mas reciente al mas antiguo como se indica en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img17_01.jpeg)
 _**Imagen 17.** AMovil - Visualización Multimedia_
