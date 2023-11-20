@@ -216,7 +216,7 @@ _**Imagen 17.** AMovil - Visualización Multimedia_
 
 Se usa para realizar búsquedas por grupos de Activos que cumplen con un conjunto de filtros o criterios. 
 
-Para ingresar a esta opción se debe dar clic al icono de Subgrupo <a class="fab cl-whit e bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-filter-outline"></span></a> ubicado en la parte inferior derecha de la pantalla, como se indica a continuación:
+Para ingresar a esta opción se debe dar un toque al icono de Subgrupo <a class="fab cl-whit e bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-filter-outline"></span></a> ubicado en la parte inferior derecha de la pantalla, como se indica a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img18.png)
 _**Imagen 18.** AMovil - Ir a Subgrupo_
