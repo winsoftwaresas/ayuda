@@ -218,12 +218,12 @@ Se usa para realizar búsquedas por grupos de Activos que cumplen con un conjunt
 
 Para ingresar a esta opción se debe dar un toque al icono de Subgrupo <a class="fab cl-whit e bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-filter-outline"></span></a> ubicado en la parte inferior derecha de la pantalla, como se indica a continuación:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img18.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img18.jepg)
 _**Imagen 18.** AMovil - Ir a Subgrupo_
 
 Esto lleva a la siguiente ventana, como se indica a continuación:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img19.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img19.jepg)
 _**Imagen 19.** AMovil - Seleccionar un filtro Subgrupo_
  
 Se debe dar un toque sobre el botón <a class="btn cl-gray bg-white bd-gray px-5"></span>Seleccione un filtro</a> para visualizar los siguientes criterios de búsqueda:
@@ -252,7 +252,7 @@ A continuaciónn se muestra un ejemplo con el criterio Código AC:
 Una vez que se eliga el criterio de búsqueda, se muestran los siguientes campos a diligenciar:
 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img21.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img21.jepg)
 _**Imagen 21.** AMovil - Subgrupo Código AC_
 
 Finalizar con <a class="btn cl-white bg-blue px-3"> Aceptar </a>, a continuación se muestra el resultado de la búsqueda:
