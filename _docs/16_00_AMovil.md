@@ -334,9 +334,9 @@ _**Imagen 26.** AMovil - Crear Activo Mensaje Aviso_
 
 Para actualizar contadores se debe dar un toque en el submmenú de Activos, y dar un toque en el botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-clock-outline"></span> Actualizar contadores </a>. 
 
-Cabe destacae que la configuración de los contadores se hace inicialmente desde **AM**
+Cabe destacar que la configuración de los mismos se hace inicialmente desde **AM**.
 
-A continuación se muestra el listado de los Activos que tienen asociado un contador:
+A continuación se muestra el listado de los Activos que tienen asociado un contador <a class="btn cl-black bg-white px-5">26</a> : 
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img27.jpeg)
@@ -344,8 +344,8 @@ _**Imagen 27.** AMovil - Ir a Actualizar Contadores_
 
 De la imagen anterior se indica lo siguiente: 
 
-Los Activos sombreados de color azul son Activos definidos como **"Padres"** o son unidades funcionales, mientras que los sombreados en amarillo significan Activos que se definieron como **"Hijos"** o componentes del Activo Padre pero que no poseen el mismo valor o contador que su Activo Padre.
-Los Activos sombreados en gris indican que son **"Hijos"** y poseen la característica de tener el mismo valor y contador que su Activo Padre.
+Los Activos sombreados de color azul son Activos definidos como **"Padres"** o son unidades funcionales, mientras que los sombreados en amarillo son los que se definieron como **"Hijos"** o componentes del Activo Padre pero que no poseen el mismo valor o contador que su Activo Padre.
+Los Activos sombreados en gris indican que son **"Hijos"** y además, poseen la característica de tener el mismo valor y contador que su Activo Padre. 
 
 En esta sección también es posible hacer un subgrupo de Activos para actualizar el contador de un conjunto de Activos <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-filter-outline"></span></a>, a continuación se muestra un ejemplo:
 
