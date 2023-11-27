@@ -136,6 +136,7 @@ published: true
 <a class="btn cl-black bg-white px-5">71</a>
 -------------------------------------
 
+<span class="iconify icon cl-red bg-white" data-icon=mdi-delete-outline></span></a>
 
 
 

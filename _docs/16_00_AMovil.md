@@ -70,7 +70,7 @@ Al sincronizar, aparece un mensaje de advertencia:
 _**Imagen 6.** AMovil - Advertencia Sincronizar datos_
 
 Para continuar dar un toque en <a class="btn cl-white bg-blue px-4"> Aceptar</a>. Mostrando el progreso de sincronización:
-
+.  
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img07.jpeg)
 _**Imagen 7.** AMovil - Proceso Sincronizar_
 
@@ -78,7 +78,7 @@ Una vez complete el proceso, puede cerrar sesión en la aplicación.
 
 <a class="btn cl-white bg-blue"><span class="mdi mdi-menu cl-white fs-2"></span></a>: ingresa al menú principal de la aplicación, como se muestra a continuación:  
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img08.jpeg)
+![Proces  <ar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img08.jpeg)
 _**Imagen 8.** AMovil - Ir a Menú_
 
 
@@ -214,16 +214,16 @@ _**Imagen 17.** AMovil - Visualización Multimedia_
    
 ### Subgrupo Activos
 
-Se usa para realizar búsquedas por grupos de Activos que cumplen con un conjunto de filtros o criterios. 
+Se usa para realizar búsquedas de Activos que cumplen con un conjunto de filtros o criterios. 
 
-Para ingresar a esta opción se debe dar un toque al icono de Subgrupo <a class="fab cl-whit e bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-filter-outline"></span></a> ubicado en la parte inferior derecha de la pantalla, como se indica a continuación:
+Para ingresar a esta opción se debe dar un toque al icono de Subgrupo <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-filter-variant"></span></a> ubicado en la parte inferior derecha de la pantalla, como se indica a continuación:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img18.jepg)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img18.jpeg)
 _**Imagen 18.** AMovil - Ir a Subgrupo_
 
 Esto lleva a la siguiente ventana, como se indica a continuación:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img19.jepg)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img19.jpeg)
 _**Imagen 19.** AMovil - Seleccionar un filtro Subgrupo_
  
 Se debe dar un toque sobre el botón <a class="btn cl-gray bg-white bd-gray px-5"></span>Seleccione un filtro</a> para visualizar los siguientes criterios de búsqueda:
@@ -244,31 +244,32 @@ _**Imagen 20.** AMovil - Subgrupo Criterios de Búsqueda_
  - Ubicación Física
 
 
-De la imagen anterior los botones ubicados en la parte inferior  <a class="btn cl-white bg-blue px-3"> Limpiar</a> y <a class="btn cl-white bg-blue px-3"> Aceptar </a> son para limpiar el campo y realizar nuevas búsquedas, mientras que el botón <a class="btn cl-white bg-blue px-3"> Aceptar </a> es para aceptar y buscar la condición que se ingrese en el campo.
+De la imagen anterior, los botones ubicados en la parte inferior  <a class="btn cl-white bg-blue px-3"> Limpiar</a> y <a class="btn cl-white bg-blue px-3"> Aceptar </a> son para limpiar el campo y hacer una nueva búsqueda. 
 
 
-A continuaciónn se muestra un ejemplo con el criterio Código AC:
+A continuaciónn se muestra un ejemplo con el criterio **Código AC**: 
 
-Una vez que se eliga el criterio de búsqueda, se muestran los siguientes campos a diligenciar:
+Una vez que se haya elegido el criterio de búsqueda, se muestran los siguientes campos a diligenciar:
 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img21.jepg)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img21.jpeg)
 _**Imagen 21.** AMovil - Subgrupo Código AC_
 
-Finalizar con <a class="btn cl-white bg-blue px-3"> Aceptar </a>, a continuación se muestra el resultado de la búsqueda:
+Finalice dando un toque en <a class="btn cl-white bg-blue px-3"> Aceptar </a> una vez que haya ingresado información al campo, a continuación se muestra el resultado de la búsqueda para el código **COA**. El botón <a class="btn cl-black bg-white px-5">11</a> ubicado en la parte superior derecha de la ventana es la cantidad de resultados obtenidos:
+
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img22.jpeg)
 _**Imagen 22.** AMovil - Subgrupo Resultado_
 
   
-El Subgrupo permanece hasta que el usuario reestablezca los valores por defecto. Para hacer otras búsquedas dar un toque nuevamente en el bóton <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-filter-outline"></span></a> en el cual se muestran las últimas búsquedas realizadas.
+El Subgrupo se conserva hasta que el usuario reestablezca los valores por defecto, para reestablecerlo o para hacer otras búsquedas dar un toque nuevamente en el bóton <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-filter-variant"></span></a> en el cual se muestran las últimas búsquedas realizadas.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img23.jpeg)
 _**Imagen 23.** AMovil - Subgrupo Búsquedas recientes_
 
 
-Para eliminar el historial completo de búsquedas dar un toque en el botón <a class="btn cl-white bg-blue px-3"> Limpiar </a> y luego en <a class="btn cl-white bg-blue px-3"> Aceptar </a> para volver a los valores por defecto.
+Para eliminar el historial completo de búsquedas dar un toque en el botón <a class="btn cl-white bg-blue px-3"> Limpiar </a> y luego en <a class="btn cl-white bg-blue px-3"> Aceptar </a> para volver a los valores por defecto o puede removerlos uno por uno a través del botón <span class="iconify icon cl-red bg-white" data-icon=mdi-delete-outline></span></a>.
 
 
 ## Crear un Activo 
@@ -276,23 +277,21 @@ Para eliminar el historial completo de búsquedas dar un toque en el botón <a c
 
 AMovil permite crear un registro de Activo, siempre que el usuario logueado cuente con los permisos desde AM para ello. 
 
-Para ir a Crear un Activo dar toque en el botón del submenpu de Activos <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-document-plus-outline"></span> Crear Activo </a> el cual abre el siguiente formulario:
-
-Los campos con asteriscos en rojo (*) son obligatorios:
+Para Crear un Activo dar un toque en el botón del submenu de Activos <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-plus-outline"></span> Crear Activo </a> ,  el cual abre el siguiente formulario:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img24.jpeg)
-_**Imagen 24.** AMovil - Crear Activo Formulario _
+_**Imagen 24.** AMovil - Crear Activo Formulario_
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img25.jpeg)
 _**Imagen 25.** AMovil - Crear Activo Formulario_
 
-Los campos con un (*) al inicio, indican que son campos obligantes. A continuación se da una breve explicación de los campos:
+Los campos con un asterisco (*) al inicio, indican que son campos obligantes. A continuación se da una breve explicación de los campos:
 
-**Código:** En este campo se registra el código del Activo/Equipo, correspondiente al código de Mantenimiento, de acuerdo a la estructuración organizacional. 
+**Código:** En este campo se registra el código del Activo, correspondiente al código de Mantenimiento, de acuerdo a la estructuración organizacional. 
 
-**Descripción:** Se utiliza para el nombre del Activo/Equipo.
+**Descripción:** Se utiliza para el nombre del Activo.
 
 **Activo fijo:** Es el Código Contable del Activo, según Contabilidad. 
 
@@ -304,13 +303,13 @@ Los campos con un (*) al inicio, indican que son campos obligantes. A continuaci
 
 **Código de barras:**  Este campo pertenece al Código de Barras Interno del Activo, en caso que exista alguno dentro de la organización.
 
-**Marca:**  Este campo se utiliza para diligenciar la Marca que identifica el Activo/Equipo.
+**Marca:**  Este campo se utiliza para diligenciar la Marca que identifica el Activo.
 
 **Modelo:** Este campo se utiliza para diligenciar el Modelo que identifica un Activo/Equipo según el fabricante
 
-**Tipo:** Es una característica particular del un Activo/Equipo según su uso o el fabricante.
+**Tipo:** Es una característica particular del un Activo según su uso o el fabricante.
 
-**Responsable:**  Persona propia de la organización encargada de la operación o funcionamiento del Activo/Equipo. En este campo se traen automáticamente los diferentes Terceros asignados como Responsable Interno/Empleado y Responsable Externo/Contratista.
+**Responsable:**  Persona propia de la organización encargada de la operación o funcionamiento del Activo. En este campo se traen automáticamente los diferentes Terceros asignados como Responsable Interno/Empleado y Responsable Externo/Contratista.
 
 
 **Centro de Costo:** En este campo se registra el Centro de Costo al que está asociado el Activo. 
@@ -322,7 +321,7 @@ Los campos con un (*) al inicio, indican que son campos obligantes. A continuaci
 Para insertar el registro dar un clic en el botón <a class="btn cl-white bg-blue px-3"> Guardar </a>. 
 
 
-El aplicativo mostrará un mensaje alerta con l,a confirmación del ingreso del registro, como se muestra a continuación:
+El aplicativo muestra un mensaje alerta confirmado el ingreso del registro, como se muestra a continuación:
 
 
 
