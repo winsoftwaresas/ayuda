@@ -347,20 +347,20 @@ De la imagen anterior se indica lo siguiente:
 Los Activos sombreados de color azul son Activos definidos como **"Padres"** o son unidades funcionales, mientras que los sombreados en amarillo son los que se definieron como **"Hijos"** o componentes del Activo Padre pero que no poseen el mismo valor o contador que su Activo Padre.
 Los Activos sombreados en gris indican que son **"Hijos"** y además, poseen la característica de tener el mismo valor y contador que su Activo Padre. 
 
-En esta sección también es posible hacer un subgrupo de Activos para actualizar el contador de un conjunto de Activos <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-filter-outline"></span></a>, a continuación se muestra un ejemplo:
+En esta sección también es posible hacer un subgrupo <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-filter-variant"></span></a> para actualizar el contador de un grupo de Activos , a continuación se muestra un ejemplo: 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img28.jpeg)
 _**Imagen 28.** AMovil - Actualizar Contadores_
 
-Se visualiza un Activo padre y un Activo hijo que no posee el mismo valor de contador, como se presenta esta diferencia se debe dar un toque en el botón<a class="btn cl-black bg-blue-25 bd-blue px-6">Actualizar</a> a cada uno independiente y a continuación se muestra el detalle del Activo Padre:
+En la imagen anterior, se visualiza un Activo padre y un Activo hijo que no posee el mismo valor de contador, como se presenta esta diferencia se debe dar un toque en el botón<a class="btn cl-black bg-blue-25 bd-blue px-6">Actualizar</a> a cada uno independiente y a continuación se muestra el detalle del Activo Padre:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img29.jpeg)
 _**Imagen 29.** AMovil - Detalle Actualizar Contadores_
 
 
- Se digita el nuevo valor de medición del contador y finalmente se da un toque en el botón <a class="btn cl-white bg-blue px-3"> Guardar </a>, el aplicativo muestra un mensaje alerta confirmando los cambios realizados.
-
+Se digita el nuevo valor de medición del contador y finalmente se da un toque en el botón <a class="btn cl-white bg-blue px-3"> Guardar </a>, el aplicativo muestra un mensaje alerta confirmando los cambios realizados.
+|
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img30.jpeg)
 _**Imagen 30.** AMovil - Mensaje Alerta Actualizar Contadores_
