@@ -388,11 +388,7 @@ _**Imagen 32.** AMovil - Ir a Inventario físico_
 
 
 
-Cada una de las opciones anteriores, son criterios por los cuales es posible ejecutar la transacción. El objetivo es hacer el conteo de los Activos inventariados y no inventariados.
-
->**Nota:** Los criterios Ubicación Física, Centro de Costo y Responsable tienen el indicador amarillo preferencial <span class="iconify cl-yellow bd-yellow bg-yellow btn-rounded" data-icon="mdi-circle"></span>, son los principales y se sugiere hacer el inventario por uno de ellos. 
-
-
+Cada una de las opciones anteriores, son criterios por los cuales es posible ejecutar la transacción. Siendo los mas comunes Centro de Costo y Ubicación Física. El objetivo es hacer el conteo de los Activos inventariados y no inventariados. 
 
 El criterio <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-text-search"></span> Otro</a>  despliega un conjunto de otras opciones para realizar el inventario:
 
@@ -402,65 +398,65 @@ _**Imagen 33.** AMovil - Ir a Inventario físico Otro_
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img33_01.jpeg)
-_**Imagen 33.** AMovil - Ir a Inventario físico Otro_
+_**Imagen 34.** AMovil - Ir a Inventario físico Otro_
 
 
 
-Al elegir una de las opciones mostradas anteriormente el aplicativo muestra un mensaje de advertencia, el cual consiste en recordar que cada uno de los Activos debe tener un código de barras o un código QR o bien un código alfanumérico. 
+Al elegir una de las opciones mostradas anteriormente el aplicativo muestra un mensaje de advertencia, que consiste en recordar que cada uno de los Activos debe tener un código de barras o un código QR o bien un código alfanumérico. 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img34.jpeg)
-_**Imagen 34.** AMovil - Ir a Inventario físico Ubicación Física_
+_**Imagen 35.** AMovil - Ir a Inventario físico Ubicación Física_
 
 
-Adicional, se ilustra el siguiente ejemplo para el criterio Ubicación Física. Se muestran todas las ubicaciones de la base de datos:
+Se ilustra un ejemplo usando el criterio **Ubicación Física.** Se muestran todas las ubicaciones de la base de datos:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img35.jpeg)
-_**Imagen 35.** AMovil - Inventario físico Ubicación Física_
+_**Imagen 36.** AMovil - Inventario físico Ubicación Física_
 
-Sin embargo, es posible hacer una búsqueda rápida dando clic al botón <a class="btn cl-black bg-white bd-yellow btn-rounded"><span class="mdi mdi-magnify pr-3"></span><span class="pr-4">Buscar una Ubicación física</span></a> y digitar a continuación partes del nombre de la ubicación física:
+Sin embargo, para facilitar la búsqueda use el botón <a class="btn cl-black bg-white bd-yellow btn-rounded"><span class="mdi mdi-magnify pr-3"></span><span class="pr-4">Buscar una Ubicación física</span></a> y digite una parte del nombre de la ubicación física:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img36.jpeg)
-_**Imagen 36.** AMovil - Inventario físico Buscar Ubicación Física_
+_**Imagen 37.** AMovil - Inventario físico Buscar Ubicación Física_
 
-Un toque a la ubicación física de interés, aparece la siguiente ventana para comenzar el inventario:
+Seleccione la ubicación física de interés, a continuación se visualiza la pantalla para comenzar el inventario:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img37.jpeg)
-_**Imagen 37.** AMovil - Inventario físico Buscar Iniciar Inventario_
+_**Imagen 38.** AMovil - Inventario físico Buscar Iniciar Inventario_
 
  
 A continuación se indica el significado del color de los indicadores:
 
 
-<span class="iconify cl-blue bd-blue bg-blue btn-rounded" data-icon="mdi-circle"></span> : Este indicador mostrará el total de activos que hay en la ubicación seleccionada, o asociado al criterio de selección.
+<span class="iconify cl-blue bd-blue bg-blue btn-rounded" data-icon="mdi-circle"></span> : Este indicador muestra el total de activos que hay en la ubicación seleccionada o asoacorde al criterio de selección.
 
 
-<span class="iconify cl-green bd-green bg-green btn-rounded" data-icon="mdi-circle"></span> : Este indicador mostrará  el total de activos que han sido encontrados en el transcurso del inventario físico.
+<span class="iconify cl-green bd-green bg-green btn-rounded" data-icon="mdi-circle"></span> : Este indicador muestra el total de activos que han sido encontrados en el transcurso del inventario físico.
 
 
-<span class="iconify cl-red bd-red bg-red btn-rounded" data-icon="mdi-circle"></span> : Este indicador mostrará el total de activos que aún no han sido encontrados en el transcurso del inventario físico.
+<span class="iconify cl-red bd-red bg-red btn-rounded" data-icon="mdi-circle"></span> : Este indicador muestra el total de activos que aún no han sido encontrados en el transcurso del inventario físico.
 
 
-<span class="iconify cl-yellow bd-yellow bg-yellow btn-rounded" data-icon="mdi-circle"></span> : Este indicador mostrará el total de activos que han sido encontrados pero que no pertenecen a la ubicación seleccionada.
+<span class="iconify cl-yellow bd-yellow bg-yellow btn-rounded" data-icon="mdi-circle"></span> : Este indicador muestra el total de activos que han sido encontrados pero que no pertenecen a la ubicación seleccionada.
 
 
-<span class="iconify cl-lime bd-lime bg-lime btn-rounded" data-icon="mdi-circle"></span>: Este indicador mostrara el total de activos que no han sido registrados en el sistema.
+<span class="iconify cl-lime bd-lime bg-lime btn-rounded" data-icon="mdi-circle"></span>: Este indicador muestra el total de activos que no han sido registrados en el sistema.
 
 Para comenzar dar un toque en el botón <a class="btn cl-white bg-blue px-6"> Iniciar inventario</a>.
 
-A continuación se detalla el significado de los campos en la siguiente imagen y se ilustra un ejemplo con el criterio Ubicación Física: 
+A continuación se detalla el significado de los campos de la siguiente imagen y se ilustra un ejemplo con el criterio Ubicación Física: 
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img38.jpeg)
-_**Imagen 38.** AMovil - Inventario físico Detalle_
+_**Imagen 39.** AMovil - Inventario físico Detalle_
 
 Aparece un mensaje corto explicatorio de un indicador si de da un toque sobre este en la parte inferior de la pantalla:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img39.png)
-_**Imagen 39.** AMovil - Inventario físico Mensaje Indicador_
+_**Imagen 40.** AMovil - Inventario físico Mensaje Indicador_
 
 
 
