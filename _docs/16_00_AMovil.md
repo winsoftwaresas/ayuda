@@ -352,7 +352,10 @@ En esta sección también es posible hacer un subgrupo <a class="fab cl-white bg
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img28.jpeg)
 _**Imagen 28.** AMovil - Actualizar Contadores_
 
-En la imagen anterior, se visualiza un Activo padre y un Activo hijo que no posee el mismo valor de contador, como se presenta esta diferencia se debe dar un toque en el botón<a class="btn cl-black bg-blue-25 bd-blue px-6">Actualizar</a> a cada uno independiente y a continuación se muestra el detalle del Activo Padre:
+En la imagen anterior, se visualiza un Activo padre y un Activo hijo que no posee el mismo valor de contador; al presentarse esta diferencia se debe <a class="btn cl-black bg-blue-25 bd-blue px-6">Actualizar</a> el valor de cada uno.
+
+
+En este ejemplo se muestra el detalle del Activo Padre:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img29.jpeg)
@@ -360,12 +363,12 @@ _**Imagen 29.** AMovil - Detalle Actualizar Contadores_
 
 
 Se digita el nuevo valor de medición del contador y finalmente se da un toque en el botón <a class="btn cl-white bg-blue px-3"> Guardar </a>, el aplicativo muestra un mensaje alerta confirmando los cambios realizados.
-|
+
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img30.jpeg)
 _**Imagen 30.** AMovil - Mensaje Alerta Actualizar Contadores_
 
-Cuando se detecta un valor inferior del contador al que ya se encuentra actualmente en el Activo, el aplicativo muestra un mensaje alerta y se deberá revisar nuevamente el valor ingresado:
+Cuando se detecta un valor inferior al valor actual del contador del Activo, el aplicativo muestra un mensaje alerta y se deberá revisar nuevamente el valor ingresado:
 
 
 
@@ -378,23 +381,20 @@ _**Imagen 31.** AMovil - Mensaje Alerta Actualizar Contadores_
 
 ## Inventario Físico 
 
-Para llevar a cabo esta transacción se debe dar un toque sobre el botón <a class="btn cl-black bg-white bd-gray px-6"><span class="iconify cl-black" data-icon="mdi-text-box-outline"></span> Inventario físico </a> ubicado en el submenú de Activos 
-
-Una vez se ingrese, se muestra el siguiente submenú:
+Para llevar a cabo esta transacción se debe dar un toque sobre el botón <a class="btn cl-black bg-white bd-gray px-6"><span class="iconify cl-black" data-icon="mdi-format-list-bulleted-square"></span> Inventario físico </a> ubicado en el submenú de Activos, el cual muestra el siguiente submenú:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img32.jpeg)
 _**Imagen 32.** AMovil - Ir a Inventario físico_
 
 
 
-Cada una de las opciones anteriores representa los criterios por los cuales se ejecutar la transacción. El objetivo es hacer el conteo de los Activos inventariados y no inventariados.
+Cada una de las opciones anteriores, son criterios por los cuales es posible ejecutar la transacción. El objetivo es hacer el conteo de los Activos inventariados y no inventariados.
 
->**Nota:** El criterio Ubicación Física, Centro de Costo y Responsable tiene el indicador amarillo preferencial <span class="iconify cl-yellow bd-yellow bg-yellow btn-rounded" data-icon="mdi-circle"></span>.
-Estos tres criterios son los principales y se sugiere hacer el inventario por alguno de ellos. 
-
+>**Nota:** Los criterios Ubicación Física, Centro de Costo y Responsable tienen el indicador amarillo preferencial <span class="iconify cl-yellow bd-yellow bg-yellow btn-rounded" data-icon="mdi-circle"></span>, son los principales y se sugiere hacer el inventario por uno de ellos. 
 
 
-El botón <a class="btn cl-black bg-white bd-gray px-6"><span class="iconify cl-black" data-icon="mdi-monitor"></span> Otro </a> despliega un conjunto de otras opciones para realizar el inventario:
+
+El criterio <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-text-search"></span> Otro</a>  despliega un conjunto de otras opciones para realizar el inventario:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img33.jpeg)
