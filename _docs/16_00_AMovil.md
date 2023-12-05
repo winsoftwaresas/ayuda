@@ -501,28 +501,24 @@ _**Imagen 44.** AMovil - Inventari o físico Continuar Inventario_
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img44.jpeg)
 _**Imagen 45.** AMovil - Inventario físico Continuar Inventario_
 
-A continuación se muestra un mensaje exitoso, confirmando el registro del Activo:
+Se muestra un mensaje exitoso en la parte inferior confirmando el registro del Activo:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img45.jpeg)
 _**Imagen 46.** AMovil - Inventario físico Continuar Inventario_
 
 
-Luego de <a class="btn cl-white bg-red 25 px-6">Finalizar inventario</a> se muestra el resultado con la explicación de los indicadores y la asignación de cada uno de ellos al Activo:
-
-
+Al dar un toque en el botón <a class="btn cl-white bg-red 25 px-6">Finalizar inventario</a> se muestra el resultado con la explicación de los indicadores y el detalle de cada Activo con su respectivo indicador como se muestra en la siguiente imagen:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img46.jpeg)
-_**Imagen 46.** AMovil - Resumen Inventario_
-
-
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img47.jpeg)
 _**Imagen 47.** AMovil - Resumen Inventario_
 
 
- 
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img47.jpeg)
+_**Imagen 48.** AMovil - Resumen Inventario_
 
+
+ 
 # Almacén
 
 
@@ -533,7 +529,7 @@ Para acceder al Almacén se debe dar un toque sobre el botón <a class="btn cl-b
 _**Imagen 48.** AMovil - Ir a Almacén_  
 
 
-Según lo anterior se listan los Almacenes:
+Según lo anterior se listan los Almacenes: 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img49.jpeg)
 _**Imagen 49** AMovil - Almacenes_  
