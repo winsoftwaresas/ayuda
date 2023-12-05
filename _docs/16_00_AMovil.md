@@ -537,7 +537,7 @@ Se muestran los Almacenes definidos en **AM**, éstos se listan acorde a los per
 _**Imagen 50.** AMovil - Almacenes_  
 
 
-Para ingresar a un Almacén se debe seleccionarlo con un toque, cada Almacén contiene un submenú, cual permite hacer consulta y creación de materiales/repuestos y hacer reservas acorde a los permisos que tenga el usuario.
+Para ingresar a un Almacén se debe seleccionarlo con un toque, cada Almacén contiene un submenú que permite hacer consulta, creación de materiales/repuestos y hacer reservas acorde a los permisos que tenga el usuario.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img50.jpeg)
 _**Imagen 51.** AMovil - Almacén Submenú_  
