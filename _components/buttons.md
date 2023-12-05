@@ -269,3 +269,8 @@ submenú de Activos
 - <a class="btn cl-white bg-blue px-6"> Cerrar sesión </a>
 
 -------------------------------------
+
+
+almacén :
+
+<a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-warehouse"></span> Almacen </a>

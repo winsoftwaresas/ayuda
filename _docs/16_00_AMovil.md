@@ -522,23 +522,25 @@ _**Imagen 48.** AMovil - Resumen Inventario_
 # Almacén
 
 
-Para acceder al Almacén se debe dar un toque sobre el botón <a class="btn cl-black bg-white pl-2 pr-3 bd-blue"><span class="iconify cl-black fs-2 pr-3" data-icon="mdi-view-grid"></span> Almacén</a> , el cual lista los Almacenes definidos en **AM**, se debe tener presente que el presente se lista dependiendo de los permisos que tenga el usuario logueado. 
+Para acceder al Almacén se debe dar un toque sobre el botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-warehouse"></span> Almacen </a>:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img48.jpeg)
-_**Imagen 48.** AMovil - Ir a Almacén_  
+_**Imagen 49.** AMovil - Ir a Almacén_  
 
 
-Según lo anterior se listan los Almacenes: 
+
+Se muestran los Almacenes definidos en **AM**, éstos se listan acorde a los permisos otorgados al usuario logueado: 
+
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img49.jpeg)
-_**Imagen 49** AMovil - Almacenes_  
+_**Imagen 50.** AMovil - Almacenes_  
 
 
-Para ingresar a un Almacén se debe seleccionar con un toque, se muestra el siguiente submenú para cada Almacén según los permisos ortogados al usuario, se puede hacer consulta de repuestos, crear repuesto y hacer reservas.
+Para ingresar a un Almacén se debe seleccionarlo con un toque, cada Almacén contiene un submenú, cual permite hacer consulta y creación de materiales/repuestos y hacer reservas acorde a los permisos que tenga el usuario.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img50.jpeg)
-_**Imagen 50** AMovil - Almacén Submenú_  
+_**Imagen 51.** AMovil - Almacén Submenú_  
 
 
 
@@ -547,14 +549,14 @@ _**Imagen 50** AMovil - Almacén Submenú_
 Para hacer consulta der los Repuestos / Materiales se da un toque sobre el botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-magnify"></span> Consultar Repuestos</a>, a continuación se muestra el listado de Repuestos disponibles para el alamcén seleccionado, en la parte superior se muestra el nombre del Almacén donde se realiza la consulta:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img51.jpeg)
-_**Imagen 51** AMovil - Almacén Consulta Repuestos_  
+_**Imagen 52.** AMovil - Almacén Consulta Repuestos_  
 
 Para ingresar al detalle del registro se da un toque sobre el botón <a class="btn cl-black bg-peach bd-peach px-6"> Detalle</a> . A continuación se muestra la ficha técnica del Repuesto:
 
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img52.jpeg)
-_**Imagen 52.** AMovil - Ficha Técnica Repuesto_
+_**Imagen 53.** AMovil - Ficha Técnica Repuesto_
      
 
 Para guardar un cambio sobre la ficha técnica dar un toque en <a class="btn cl-white bg-blue px-6"> Actualizar</a>, en el cual sistema mostrará un mensaje alerta indicando que se ha actualizado el registro y para continuar dar un toque en <a class="btn cl-white bg-blue px-6"> Aceptar</a> como se muestra a continuación:
