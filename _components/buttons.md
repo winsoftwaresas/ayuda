@@ -251,9 +251,9 @@ published: true
 
 
 
-<a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-pencil-outline"></span></a>
+<a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-square-edit-outline"></span></a>
 
-<a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-image-filter-center-focus-strong-outline"></span></a> 
+<a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-scan-helper"></span></a> 
 
 
 

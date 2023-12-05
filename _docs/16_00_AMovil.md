@@ -446,13 +446,13 @@ A continuación se indica el significado del color de los indicadores:
 
 Para comenzar dar un toque en el botón <a class="btn cl-white bg-blue px-6"> Iniciar inventario</a>.
 
-A continuación se detalla el significado de los campos de la siguiente imagen y se ilustra un ejemplo con el criterio Ubicación Física: 
+A continuación se ilustra un ejemplo con el criterio Ubicación Física: 
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img38.jpeg)
 _**Imagen 39.** AMovil - Inventario físico Detalle_
 
-Aparece un mensaje corto explicatorio de un indicador si de da un toque sobre este en la parte inferior de la pantalla:
+Si se da un toque sobre cualquiera de los indicadores de colores ubicados en la parte superior se muestra un mensaje corto que explica su función en la parte inferior derecha:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img39.png)
@@ -462,18 +462,18 @@ _**Imagen 40.** AMovil - Inventario físico Mensaje Indicador_
 
 El botón <a class="btn cl-white bg-blue px-6">Agregar comentario</a>  permite ingresar un comentario antes, durante y después del inventario.
 
-Para dar inicio se sugiere comenzar con la opción <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-image-filter-center-focus-strong-outline"></span></a>  para hacer lectura del código QR y ejecutar el proceso ágilmente, sin embargo, sino se cuenta con código QR se encuentra la opción  <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-pencil-outline"></span></a> para digitar manualmente el código alfanumérico el cual corresponde al código principal en **AM**. 
+Para comenzar se sugiere escanear el código QR de los Activos, con el fin de agilizar el proceso <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-scan-helper"></span></a>. En caso de no contar éste,  se encuentra la opción manual <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-square-edit-outline"></span></a> de ingresar el código alfanumérico del Activo que corresponde al código principal en **AM**.
 
->**Nota:** Para que la lectura de QR se haga satisfactoria, en **AM** los Activos deben tener registrado el código en el campo **Código de Barras Interno**.
+>**Nota:** Para que la lectura del código QR sea satisfactoria; en **AM** los Activos deben tenerlo registrado en el campo **Código de Barras Interno**.
 
-Una vez haga lectura del código QR, se muestra un mensaje de confirmación en la parte inferior:
-
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img40.png)
-_**Imagen 40.** AMovil - Inventario físico Lectura Código QR_
+Una vez se haga lectura del código QR, se muestra un mensaje en la parte inferior:
 
 
->**Nota:** El inventario puede continuar su curso siempre y cuando el usuario no escoja la opción  <a class="btn cl-white bg-red 25 px-6">Finalizar inventario</a>. 
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img40.jpeg)
+_**Imagen 41.** AMovil - Inventario físico Lectura Código QR_
+
+
+>**Nota:** El inventario puede continuar su curso siempre y cuando el usuario no escoja la opción  <a class="btn cl-white bg-red 25 px-6">Finalizar inventario</a>
 
 
 Para continuar el inventario dar un toque en <a class="btn cl-white bg-green 25 px-6">Continuar inventario</a>, como se muestra a continuación:
@@ -481,7 +481,7 @@ Para continuar el inventario dar un toque en <a class="btn cl-white bg-green 25 
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img41.jpeg)
-_**Imagen 41.** AMovil - Inventario físico Continuar Inventario_
+_**Imagen 42.** AMovil - Inventario físico Continuar Inventario_
 
 
 
@@ -489,21 +489,22 @@ El aplicativo actualiza lo que lleva del proceso:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img42.jpeg)
-_**Imagen 42.** AMovil - Inventario físico Continuar Inventario_
-
-
-Se ilustra dentro del mismo ejemplo de inventario el registro de un Activo con la opción <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-pencil-outline"></span></a>: 
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img43.jpeg)
 _**Imagen 43.** AMovil - Inventario físico Continuar Inventario_
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img44.jpeg)
-_**Imagen 44.** AMovil - Inventario físico Continuar Inventario_
 
-A continuación se muestra un mensaje exitoso, confirmando el registro del Activo manualmente:
+Se ilustra dentro del mismo ejemplo de inventario el registro de un Activo con la opción manual <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-square-edit-outline"></span></a>
+: 
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img43.jpeg)
+_**Imagen 44.** AMovil - Inventari o físico Continuar Inventario_
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img44.jpeg)
+_**Imagen 45.** AMovil - Inventario físico Continuar Inventario_
+
+A continuación se muestra un mensaje exitoso, confirmando el registro del Activo:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img45.jpeg)
-_**Imagen 45.** AMovil - Inventario físico Continuar Inventario_
+_**Imagen 46.** AMovil - Inventario físico Continuar Inventario_
 
 
 Luego de <a class="btn cl-white bg-red 25 px-6">Finalizar inventario</a> se muestra el resultado con la explicación de los indicadores y la asignación de cada uno de ellos al Activo:
