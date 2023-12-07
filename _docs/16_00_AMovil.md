@@ -623,25 +623,25 @@ Para eliminar el historial completo de búsquedas dar un toque en el botón <a c
 
 AMovil permite crear un registro de Material/Repuesto, siempre que el usuario logueado cuente con los permisos desde **AM**. 
 
-Para ir a Crear un Repuesto dar toque en el botón del submenú de Activos <a class="btn cl-black bg-white bd-gray px-6"><span class="iconify cl-black" data-icon="mdi-file-document-plus-outline"></span> Crear Repuesto </a> el cual abre el siguiente formulario:
+Para crear un Material/Repuesto dar toque en el botón del submenú de Activos <a class="btn cl-black bg-white bd-gray px-6"><span class="iconify cl-black" data-icon="mdi-file-plus-outline"></span> Crear Repuesto </a> el cual abre el siguiente formulario:
 
 Los campos con asteriscos en rojo (*) son obligatorios:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img61.jpeg)
-_**Imagen 61.** AMovil - Almacén Crear Repuesto Formulario_
+_**Imagen 62.** AMovil - Almacén Crear Repuesto Formulario_
 
 
-**Código:** En este campo se registra el código del Repuesto/Material, de acuerdo a la política de codificación que se haya definido.
+**Código:** En este campo se registra el código del Material/Repuesto, de acuerdo a la política de codificación que se haya definido.
 
-**Descripción:** Se registra la descripción del Repuesto/Material en lenguaje natural.
+**Descripción:** Se registra la descripción del Material/Repuesto en lenguaje natural.
 
-**Casilla:** Es el campo en el que se establece la ubicación física del Repuesto dentro del Almacén. Este campo permite cualquier nomenclatura de organización. Ejemplo. E21B (7,12) significaría Estante 21, lado B, posición matricial fila 7 columna 12.
+**Casilla:** Es el campo en el que se establece la ubicación física del Material/Repuesto dentro del Almacén. Este campo permite cualquier nomenclatura de organización. Ejemplo. E21B (7,12) significaría Estante 21, lado B, posición matricial fila 7 columna 12.
 
-**Estado:** En este campo de opciones seleccionables es posible registrar el estado del Repuesto: Activo, EOI (Excedente Obsoleto o Inservible),  Vencido y Otro.
+**Estado:** En este campo de opciones seleccionables es posible registrar el estado del Material/Repuesto: Activo, EOI (Excedente Obsoleto o Inservible),  Vencido y Otro.
 
 **Unidad de consumo:**  Es la unidad mediante la cual se le solicita al Almacén o mediante la cual el Almacén despacha un determinado artículo. Ej. Galones o Unidades.
 
-**Existencia en inventario:** Registra la cantidad en existencia en el Almacén del Repuesto/Material seleccionado. Este campo puede ser actualizado manualmente o en forma automática a través del módulo de Kárdex en **AM**. Es un permiso que se otorga desde AM para un usuario en AMovil.
+**Existencia en inventario:** Registra la cantidad en existencia en el Almacén del Material/Repuesto seleccionado. Este campo puede ser actualizado manualmente o en forma automática a través del módulo de Kárdex en **AM**. Es un permiso que se otorga desde **AM** para un usuario en AMovil.
 
 **Costo unitario:** Es un valor que puede haber ser actualizado manualmente por alguien que tenía los permisos para hacerlo. Puede también actualizarse automáticamente por el sistema según el sistema de costeo definido para el almacén, a través del Kárdex en **AM**.
 
@@ -650,29 +650,29 @@ Una vez que se diligencien los campos, finalizar dando un clic en el botón Para
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img62.jpeg)
-_**Imagen 62.** AMovil - Almacén Crear Repuesto Formulario Mensaje Alerta_
+_**Imagen 63.** AMovil - Almacén Crear Repuesto Formulario Mensaje Alerta_
 
 
 ## Reservar Repuesto
 
-Para reservar un Repuesto/Material se da un toque sobre el submenú de Almacén en la opción <a class="btn cl-black bg-white bd-gray px-6"><span class="iconify cl-black" data-icon="mdi-file-send-outline"></span> Reservar Repuesto   </a>. 
+Para reservar un Repuesto/Material se da un toque sobre el submenú de Almacén en la opción <a class="btn cl-black bg-white bd-gray px-6"><span class="iconify cl-black" data-icon="mdi-calendar-multiple-check"></span> Reservar Repuesto   </a>. 
 
 
 A continuación se muestra el formulario de Reserva y se da una breve explicación de cada campo:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img63.jpeg)
-_**Imagen 63.** AMovil - Almacén Crear Repuesto Formulario Mensaje Alerta_
+_**Imagen 64.** AMovil - Almacén Crear Repuesto Formulario Mensaje Alerta_
  
-**Fecha de uso:** Es la fecha en la que se tiene planeado utilizar el Repuesto/Material. De acuerdo con esta fecha, la persona encargada del Almacén debe mantener las unidades reservadas, disponibles sólo para quién registró la reserva.
+**Fecha de uso:** Es la fecha en la que se tiene planeado utilizar el Material/Repuesto. De acuerdo con esta fecha, la persona encargada del Almacén debe mantener las unidades reservadas, disponibles sólo para quién registró la reserva.
 
-**Responsable:** Es la persona que registra la Reserva de las unidades del Repuesto/Material seleccionado.
+**Responsable:** Es la persona que registra la Reserva de las unidades del Material/Repuesto seleccionado.
 
 **Número de orden:** Exige un consecutivo de OT para hacer la reserva y así el Almacenista pueda ejecutar la transacción desde el módulo de Kardex. 
 
 
-**Repuesto:** Es el Repuesto/Material objeto de la reserva.
+**Repuesto:** Es el Material/Repuesto objeto de la reserva.
 
-**Cantidad:** Es el número de unidades del Repuesto/Material que se desea reservar.
+**Cantidad:** Es el número de unidades del Material/Repuesto que se desea reservar.
 
 **Comentario:** Se pueden agregar observaciones o aclaraciones referentes a la reserva.
 
@@ -680,27 +680,26 @@ Una vez llenados los campos se da un toque sobre el botón <a class="btn cl-whit
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img64.jpeg)
-_**Imagen 64.** AMovil - Almacén Crear Repuesto Formulario Mensaje Alerta_
+_**Imagen 65.** AMovil - Almacén Crear Repuesto Formulario Mensaje Alerta_
 
->**Nota:** cuando ya existe la reserva para una misma OT, se muestra un mensaje que rechaza la reserva.
+>**Nota:** cuando ya existe la reserva para una misma OT se muestra un mensaje que rechaza la reserva.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img65.jpeg)
-_**Imagen 65.** AMovil - Almacén Crear Repuesto Formulario Mensaje Alerta_
+_**Imagen 66.** AMovil - Almacén Crear Repuesto Formulario Mensaje Alerta_
 
 
 # Solicitudes
 
-Para ir a Solicitudes de Servicio dar un toque sobre el botón <a class="btn cl-black bg-white pl-2 pr-3 bd-blue"><span class="iconify cl-black fs-2 pr-1" data-icon="mdi-account-box-outline"></span> Solicitudes</a> en el menú principal:
+Para ir a Solicitudes de Servicio dar un toque sobre el botón <a class="btn cl-black bg-white pl-2 pr-3 bd-blue"><span class="iconify cl-black fs-2 pr-1" data-icon="mdi-card-text-outline"></span> Solicitudes</a> en el menú principal:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img66.jpeg)
-_**Imagen 66.** AMovil - Ir a Solicitudes_
+_**Imagen 67.** AMovil - Ir a Solicitudes_
 
 
-En el siguiente submenú se muestran las siguientes opciones según los permisos asignados al usuario logueado <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-magnify"></span> Consultar Solicitudes</a> y <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-document-plus-outline"></span> Crear Solicitud </a>.
-
+En el siguiente submenú se muestran las siguientes opciones según los permisos asignados al usuario logueado <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-magnify"></span> Consultar Solicitudes</a> y  <a class="btn cl-black bg-white bd-gray px-6"><span class="iconify cl-black" data-icon="mdi-file-plus-outline"></span> Crear Solicitud </a> 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img67.jpeg)
-_**Imagen 67.** AMovil - Solicitudes Submenú_
+_**Imagen 68.** AMovil - Solicitudes Submenú_
 
 
 

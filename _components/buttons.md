@@ -201,7 +201,6 @@ published: true
 
 <a class="btn bg-peach bd-peach px-6">Detalle</a>
 
-<a class="btn cl-black bg-white bd-gray px-6"><span class="iconify cl-black" data-icon="mdi-file-send-outline"></span> Reservar Repuesto   </a>
 
 
 <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-magnify"></span> Consultar Solicitudes</a> 
@@ -274,3 +273,8 @@ submenú de Activos
 almacén :
 
 <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-warehouse"></span> Almacen </a>
+
+<a class="btn cl-black bg-white bd-gray px-6"><span class="iconify cl-black" data-icon="mdi-file-plus-outline"></span> Crear Repuesto </a> 
+
+
+<a class="btn cl-black bg-white bd-gray px-6"><span class="iconify cl-black" data-icon="mdi-calendar-multiple-check"></span> Reservar Repuesto   </a>
