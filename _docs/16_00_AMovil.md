@@ -696,7 +696,7 @@ Para ir a Solicitudes de Servicio dar un toque sobre el botón <a class="btn cl-
 _**Imagen 67.** AMovil - Ir a Solicitudes_
 
 
-En el siguiente submenú se muestran las siguientes opciones según los permisos asignados al usuario logueado <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-magnify"></span> Consultar Solicitudes</a> y  <a class="btn cl-black bg-white bd-gray px-6"><span class="iconify cl-black" data-icon="mdi-file-plus-outline"></span> Crear Solicitud </a> 
+En el siguiente submenú se muestran las siguientes opciones según los permisos de usuario:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img67.jpeg)
 _**Imagen 68.** AMovil - Solicitudes Submenú_
@@ -706,33 +706,33 @@ _**Imagen 68.** AMovil - Solicitudes Submenú_
 
 ## Consultar Solicitudes
 
-Para consulta y seguimiento de las Solicitudes de Servicio dirigirse al botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-magnify"></span> Consultar Solicitudes</a>, el cual conlleva al total de las Solicitudes según los permisos restrictivos configurados en **AM**:
+Para consulta y seguimiento de las Solicitudes de Servicio dirigirse al botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-magnify"></span> Consultar Solicitudes</a>, el cual conlleva al total de las Solicitudes:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img68.jpeg)
-_**Imagen 68.** AMovil - Solicitudes_
+_**Imagen 69.** AMovil - Solicitudes_
 
-Para ir al detalle del registro dar un toque en el botón  <a class="btn cl-black bg-yellow-light bd-yellow px-6"> Detalle</a>, como se muestra a continuación:
+Para ir al detalle del registro dar un toque en el botón  <a class="btn cl-black bg-yellow-light bd-yellow px-6"> Detalle</a> como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img69.jpeg)
-_**Imagen 69.** AMovil - Solicitudes Detalle_
-
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img70.jpeg)
 _**Imagen 70.** AMovil - Solicitudes Detalle_
 
 
-Para guardar los cambios en alguno de los campos de la Solicitud dar un toque en el botón <a class="btn cl-white bg-blue px-6">Actualizar</a>. El aplicativo muestra un mensaje alerta confirmando los cambios:
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img70.jpeg)
+_**Imagen 71.** AMovil - Solicitudes Detalle_
+
+
+Para guardar los cambios en alguno de los campos de la Solicitud dar un toque en el botón <a class="btn cl-white bg-blue px-6">Actualizar</a>. Se muestra un mensaje alerta confirmando los cambios:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img71.jpeg)
-_**Imagen 71.** AMovil - Solicitudes Actualizar Detalle_
+_**Imagen 72.** AMovil - Solicitudes Actualizar Detalle_
 
 Para continuar dar un toque en <a class="btn cl-white bg-blue px-6">Aceptar</a>. 
 
-Para ingresar al submenú del Detalle de la Solicitud dirigirse al botón de la parte superior derecha <span class="iconify icon cl-gray bg-blue-25" data-icon="mdi-plus"></span></a>, mostrando las siguientes opciones relacionadas a la gestión y cierre de Solicitudes:
+Para ingresar al submenú del Detalle de la Solicitud dirigirse al botón ubicado en la parte superior derecha <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a>. Se muestran las siguientes opciones relacionadas a la gestión y cierre de Solicitudes:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img72.jpeg)
-_**Imagen 72.** AMovil - Ir a Submenú Gestión/Cierre Solicitudes_
+_**Imagen 73.** AMovil - Ir a Submenú Gestión/Cierre Solicitudes_
 
 
 
