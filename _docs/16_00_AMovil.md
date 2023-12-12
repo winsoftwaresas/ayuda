@@ -739,11 +739,11 @@ _**Imagen 73.** AMovil - Ir a Submenú Gestión/Cierre Solicitudes_
 ### Actualizar tiempos
 
 
-Para ingresar los tiempos de ejecución de la Solicitud dirigirse al botón <span class="iconify icon cl-gray bg-blue-25" data-icon="mdi-plus"></span></a> y luego ir a <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-calendar-month"></span></a>. Se muestra el detalle de la Solicitud en cuestión, aquellas con Estado **En análisis** deben tener previamente la fecha y hora de Atención, se muestra un ejemplo a continuación:
+Para ingresar los tiempos de ejecución de la Solicitud dirigirse al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego ingresar a <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-update"></span></a>. Se muestra el detalle de la Solicitud en cuestión, aquellas con Estado **En análisis** deben tener previamente la fecha y hora de Atención, se muestra un ejemplo a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img73.jpeg)
-_**Imagen 73.** AMovil - Solicitudes Actualizar tiempos_
-
+_**Imagen 74.** AMovil - Solicitudes Actualizar tiempos_
+ 
 En el Detalle de la Solicitud dar un toque en el botón <a class="btn cl-white bg-green px-6">Ingresar FF/HH de atención </a>, el cual ingresa automáticamente la fecha y hora:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img74.jpeg)
