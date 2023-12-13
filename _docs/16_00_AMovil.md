@@ -739,125 +739,125 @@ _**Imagen 73.** AMovil - Ir a Submenú Gestión/Cierre Solicitudes_
 ### Actualizar tiempos
 
 
-Para ingresar los tiempos de ejecución de la Solicitud dirigirse al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego ingresar a <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-update"></span></a>. Se muestra el detalle de la Solicitud en cuestión, aquellas con Estado **En análisis** deben tener previamente la fecha y hora de Atención, se muestra un ejemplo a continuación:
+Para ingresar los tiempos de ejecución de la Solicitud dirigirse al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego ingresar a <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-update"></span></a>. Se muestra el detalle de la Solicitud en cuestión, aquellas con estado **En análisis** deben tener previamente la fecha y hora de Atención, se muestra un ejemplo a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img73.jpeg)
 _**Imagen 74.** AMovil - Solicitudes Actualizar tiempos_
  
-En el Detalle de la Solicitud dar un toque en el botón <a class="btn cl-white bg-green px-6">Ingresar FF/HH de atención </a>, el cual ingresa automáticamente la fecha y hora:
+En el detalle de la Solicitud dar un toque en el botón <a class="btn cl-white bg-green px-6">Ingresar FF/HH de atención </a> para ingresar automáticamente la fecha y hora:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img74.jpeg)
-_**Imagen 74.** AMovil - Solicitudes FFHH Atención_
+_**Imagen 75.** AMovil - Solicitudes FFHH Atención_
 
 Luego de registrar la **FF/HH atención**, se  habilitan las opciones:
 
-<a class="btn cl-black bg-white pl-2 pr-3 bd-gray"><span class="mdi mdi-circle cl-gray pr-1"></span> Registro manual de tiempos</a>
+- <a class="btn cl-black bg-white pl-2 pr-3 bd-gray"><span class="mdi mdi-circle cl-gray pr-1"></span> Registro manual de tiempos</a>
 
  
-<a class="btn cl-black bg-white pl-2 pr-3 bd-gray"><span class="mdi mdi-circle cl-gray pr-1"></span> Registro automático de tiempos</a>
+- <a class="btn cl-black bg-white pl-2 pr-3 bd-gray"><span class="mdi mdi-circle cl-gray pr-1"></span> Registro automático de tiempos</a>
 
 La primera consiste en ingresar las fechas de ejecución de forma manual en cada campo y hacer correcciones sobre el tiempo de duración como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img75.jpeg)
-_**Imagen 75.** AMovil - Solicitudes Registro Manual de Tiempos_
+_**Imagen 76.** AMovil - Solicitudes Registro Manual de Tiempos_
 
 
-Para asentar los cambios dar un toque en el botón <a class="btn cl-white bg-blue px-6"> Guardar</a> donde se confirma la actualización y para continuar <a class="btn cl-white bg-blue px-6"> Aceptar</a>:
+Para asentar los cambios dar un toque en el botón <a class="btn cl-white bg-blue px-6"> Guardar</a> donde se confirma la actualización y para continuar dar un toque en <a class="btn cl-white bg-blue px-6"> Aceptar</a>:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img76.jpeg)
-_**Imagen 76.** AMovil - Solicitudes Mensaje Alerta_
+_**Imagen 77.** AMovil - Solicitudes Mensaje Alerta_
 
-La segunda, es para ingresar automática los tiempos:
+La segunda, es para ingresar automáticamente los tiempos:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img77.jpeg)
-_**Imagen 77.** AMovil - Solicitudes Ingresar Automático de Tiempos_
+_**Imagen 78.** AMovil - Solicitudes Ingreso Automático de Tiempos_
 
 
 Para dar inicio dar un toque en el botón  
-<a class="btn cl-white bg-green px-6"> Iniciar</a>, esto hará que la FF/Inicio (Fecha Inicio de Trabajos) se ingrese automáticamente, en la siguiente imagen se muestra el ingreso automático y los botones <a class="btn cl-white bg-green px-6"> Pausar </a> para el manejo del tiempo de duración y <a class="btn cl-white bg-red px-6"> Finalizar</a> para ingresar FF/Fin (Fecha Fin de Trabajos). 
+<a class="btn cl-white bg-green px-6"> Iniciar</a>, esto hará que la FF/Inicio (Fecha Inicio de Trabajos) se ingrese automáticamente, en la siguiente imagen se muestra el ingreso automático y los botones <a class="btn cl-white bg-green px-6"> Pausar </a> para el manejo del tiempo de duración y <a class="btn cl-white bg-red px-6"> Finalizar</a> para ingresar la FF/Fin (Fecha Fin de Trabajos). 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img78.jpeg)
-_**Imagen 78.** AMovil - Solicitudes Ingresar Automático de Tiempos_
+_**Imagen 79.** AMovil - Solicitudes Ingreso Automático de Tiempos_
 
 
-En caso de <a class="btn cl-white bg-green px-6"> Pausar </a> la ejecución de trabajos, se habilita el botón <a class="btn cl-white bg-green px-6"> Continuar </a>,  y al <a class="btn cl-white bg-red px-6"> Finalizar</a> la ejecución, se muestra el resumen de tiempos:
+En caso de <a class="btn cl-white bg-green px-6"> Pausar </a> la ejecución de trabajos, se habilita con el botón <a class="btn cl-white bg-green px-6"> Continuar </a>,  y al <a class="btn cl-white bg-red px-6"> Finalizar</a> la ejecución, se muestra el resumen de tiempos:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img79.jpeg)
-_**Imagen 79.** AMovil - Solicitudes Ingresar Automático de Tiempos_
+_**Imagen 80.** AMovil - Solicitudes Ingreso Automático de Tiempos_
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img80.jpeg)
-_**Imagen 80.** AMovil - Solicitudes Ingresar Automático de Tiempos_
+_**Imagen 81.** AMovil - Solicitudes Ingreso Automático de Tiempos_
 
 
 
 ### Comentarios
 
-Para ingresar los detalles de la ejecución o comentarios de la Solicitud dirigirse al botón  <span class="iconify icon cl-gray bg-blue-25" data-icon="mdi-plus"></span></a> y luego a <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-wechat"></span></a> como se indica a continuación:
+Para ingresar los detalles de la ejecución o comentarios de la Solicitud dirigirse al botón  <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego a <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-wechat"></span></a> como se indica a continuación:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img81.png)
-_**Imagen 81.** AMovil - Solicitudes Ir a Comentarios_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img81.jpeg)
+_**Imagen 82.** AMovil - Solicitudes Ir a Comentarios_
 
-A continuación se muestra el resumen de la Solicitud, y para guardar el comentario dar un toque en el botón <a class="btn cl-white bg-blue px-6"> Guardar </a>, el cual se confirma a través de un mensaje alerta, para finalizar dar un toque en 
+A continuación se muestra el resumen de la Solicitud, y para guardar el comentario dar un toque en el botón <a class="btn cl-white bg-blue px-6"> Guardar </a>. Se muestra un mensaje alerta y para finalizar dar un toque en 
 <a class="btn cl-white bg-blue px-6"> 
-Aceptar </a>
+Aceptar </a>:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img82.jpeg)
-_**Imagen 82.** AMovil - Solicitudes Ingresar Comentarios_
+_**Imagen 83.** AMovil - Solicitudes Ingresar Comentarios_
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img83.jpeg)
-_**Imagen 83.** AMovil - Solicitudes Mensaje Alerta Comentarios_ 
+_**Imagen 84.** AMovil - Solicitudes Mensaje Alerta Comentarios_ 
 
 
-Una vez guardados los comentarios, se muestra el detalle en la parte inferior del usuario que registró el comentario así:
+Una vez que se guarden los comentarios, se muestra el detalle en la parte inferior el usuario que registró el comentario así:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img84.jpeg)
-_**Imagen 84.** AMovil - Solicitudes Detalle Comentarios_ 
+_**Imagen 85.** AMovil - Solicitudes Detalle Comentarios_ 
 
 
 ### Multimedia 
 
 
-Para ingresar documentos, imágenes o videos a la Solicitud dirigirse al botón <span class="iconify icon cl-gray bg-blue-25" data-icon="mdi-plus"></span></a> y luego ir a <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-paperclip"></span></a> como se indica a continuación: 
+Para ingresar documentos, imágenes o videos a la Solicitud dirigirse al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego ir a <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-paperclip"></span></a> como se indica a continuación: 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img85.jpeg)
-_**Imagen 85.** AMovil - Solicitudes Ir a Multimedia_
+_**Imagen 86.** AMovil - Solicitudes Ir a Multimedia_
 
-A continuación se muestra el detalle de la Solicitud con las siguientes tres carpetas:
+A continuación se muestra un resumen de la Solicitud con las siguientes tres carpetas:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img86.jpeg)
-_**Imagen 86.** AMovil - Solicitudes Multimedia_
+_**Imagen 87.** AMovil - Solicitudes Multimedia_
 
-Cada una de las carpetas indican los tipos archivos permitidos en cada una. Una vez ingresada a la carpeta, es posible devolverse con el botón <a class="btn cl-black bg-white pl-6 pr-6 bd-gray"><span class="iconify cl-black fs-2 pr-" data-icon="mdi-arrow-left-top"></span> Atras</a>, para cargar el archivo dar un toque en el botón <a class="btn cl-white bg-blue px-6"> Subir archivo </a>, esto abre el explorador de archivos del teléfono móvil o estación donde se ejecute el proceso. Se ilustra un ejemplo añadiendo imágenes correspondientes a la solicitud:
+Cada una de las carpetas indican los tipos archivos permitidos en cada una. Una vez ingresada  a la carpeta, es posible devolverse con el botón <a class="btn cl-black bg-white pl-6 pr-6 bd-gray"><span class="iconify cl-black fs-2 pr-" data-icon="mdi-arrow-left-thick"></span> Atras</a>, para cargar el archivo dar un toque en el botón <a class="btn cl-white bg-blue px-6"> Subir archivo </a>, esto abre el explorador de archivos del teléfono móvil o estación donde se ejecute el proceso. Se ilustra un ejemplo añadiendo imágenes correspondientes a la solicitud: 
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img87.jpeg)
-_**Imagen 87.** AMovil - Solicitudes Multimedia_
+_**Imagen 88.** AMovil - Solicitudes Multimedia_
 
 Una vez se elija el archivo, se muestra en la parte inferior su nombre, como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img88.jpeg)
-_**Imagen 88.** AMovil - Solicitudes Multimedia_
+_**Imagen 89.** AMovil - Solicitudes Multimedia_
 
 
-Para continuar, dar un toque en el botón <a class="btn cl-white bg-blue px-6"> Guardar </a>, con el siguiente mensaje alerta:
+Para continuar, dar un toque en el botón <a class="btn cl-white bg-blue px-6"> Guardar </a>. Se muestra el siguiente mensaje alerta:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img89.jpeg)
-_**Imagen 89.** AMovil - Solicitudes Mensaje Alerta Multimedia_
+_**Imagen 90.** AMovil - Solicitudes Mensaje Alerta Multimedia_
 
-Para continuar <a class="btn cl-white bg-blue px-6"> Aceptar </a>, se puede ir a <a class="btn cl-black bg-white pl-6 pr-6 bd-gray"><span class="iconify cl-black fs-2 pr-" data-icon="mdi-arrow-left-top"></span> Atras</a> para continuar agregando multimedia.
+Para finalizar dar un toque en <a class="btn cl-white bg-blue px-6"> Aceptar </a>. Ir a <a class="btn cl-black bg-white pl-6 pr-6 bd-gray"><span class="iconify cl-black fs-2 pr-" data-icon=" mdi-arrow-left-thick"></span> Atras</a> para continuar agregando multimedia.
 
-Una vez el registro tenga multimedia, se agrega un indicador de color naranja <span class="iconify cl-orange bd-orange bg-orange btn-rounded" data-icon="mdi-circle"></span> asi:
+Una vez el registro tenga multimedia, se agrega un indicador de color naranja <span class="iconify cl-orange bd-orange bg-orange btn-rounded" data-icon="mdi-circle"></span>, así:
 
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img90.jpeg)
-_**Imagen 90.** AMovil - Solicitudes Indicador Multimedia_ 
+_**Imagen 91.** AMovil - Solicitudes Indicador Multimedia_ 
 
 
 ### Cerrar Solicitud
