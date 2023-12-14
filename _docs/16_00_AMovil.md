@@ -863,10 +863,10 @@ _**Imagen 91.** AMovil - Solicitudes Indicador Multimedia_
 ### Cerrar Solicitud
 
 
-Para cerrar la Solicitud, ingresar la Causa de Falla para registros con Tipo de Mantenimiento Correctivo e ingresar la firma del Responsable, dar un toque en el botón <span class="iconify icon cl-gray bg-blue-25" data-icon="mdi-plus"></span></a> y luego ir a Cerrar Solicitud  <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-check-circle"></span></a>
+Para cerrar la Solicitud de Servicio se requiere que tenga los tiempos de ejecución diligenciados antes de cambiar el estado del registro a **Cerrada Parcial** o **Cerrada Ejecutada**,  se debe ingresar previamente la Causa de Falla para TM (Tipo de Mantenimiento) **Correctivo** e ingresar la firma del Responsable, dar un toque en el botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego ir a Cerrar Solicitud  <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-check-circle"></span></a>
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img91.jpeg)
-_**Imagen 91.** AMovil - Solicitudes Ir a Cerrar Solicitud_ 
+_**Imagen 92.** AMovil - Solicitudes Ir a Cerrar Solicitud_ 
 
 A continuación se muestra el detalle del cierre de la Solicitud. Para ingresar la firma se da un toque sobre el botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-outline"></span> Firma del encargado/Ejecutor</a>:
 
