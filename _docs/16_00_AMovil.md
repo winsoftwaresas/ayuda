@@ -528,7 +528,7 @@ Para acceder al Almacén se debe dar un toque sobre el botón <a class="btn cl-b
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img48.jpeg)
 _**Imagen 49.** AMovil - Ir a Almacén_  
 
-
+ 
 
 Se muestran los Almacenes definidos en **AM**, éstos se listan acorde a los permisos otorgados al usuario logueado: 
 
@@ -546,7 +546,7 @@ _**Imagen 51.** AMovil - Almacén Submenú_
 
 ## Consultar Repuestos 
 
-Para hacer consulta der los Materiales/Repuestos se da un toque sobre el botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-magnify"></span> Consultar Repuestos</a>, a continuación se muestra el listado de los materiales/repuestos disponibles para el almacén seleccionado, en la parte superior se muestra el nombre del Almacén donde se realiza la consulta:
+Para hacer consulta de los Materiales/Repuestos se da un toque sobre el botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-magnify"></span> Consultar Repuestos</a>, a continuación se muestra el listado de los materiales/repuestos disponibles para el almacén seleccionado y en la parte superior se muestra el nombre del Almacén donde se realiza la consulta:
  
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img51.jpeg)
 _**Imagen 52.** AMovil - Almacén Consulta Repuestos_  
@@ -590,7 +590,7 @@ _**Imagen 57.** AMovil - Almacén Subgrupo Criterios de Búsqueda_
  - Descripción
  - Estado
 
-Una vez que se eliga el criterio de búsqueda, se muestran los siguientes campos a diligenciar.
+Una vez que se elija el criterio de búsqueda, se muestran los siguientes campos a diligenciar.
 
 A continuaciónn se muestra un ejemplo con el criterio **Código RP:**
 
@@ -603,14 +603,14 @@ De la imagen anterior, los botones ubicados en la parte inferior  <a class="btn 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img58.jpeg)
 _**Imagen 59.** AMovil - Almacén Subgrupo Código RP_
 
-Finalizar con <a class="btn cl-white bg-blue px-3"> Aceptar </a>, a continuación se muestra el resultado de la búsqueda <a class="btn cl-black bg-white px-5">1</a>:
+Una vez introduzca los datos, finalice con el botón <a class="btn cl-white bg-blue px-3"> Aceptar </a>. A continuación se muestra el resultado de la búsqueda <a class="btn cl-black bg-white px-5">1</a>:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img59.jpeg)
 _**Imagen 60.** AMovil - Almacén Subgrupo Resultado_
 
   
-El Subgrupo permanece hasta que el usuario reestablezca los valores por defecto. Para hacer otras búsquedas dar un toque nuevamente en el ícono subgrupo <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-filter-variant"></span></a>, se muestran las búsquedas anteriores: 
+El Subgrupo permanece hasta que el usuario reestablezca los valores por defecto. Para hacer otras búsquedas dar un toque nuevamente en el ícono subgrupo <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-filter-variant"></span></a> donde se muestran las búsquedas anteriores: 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img60.jpeg)
 _**Imagen 61.** AMovil - Almacén Subgrupo Búsquedas recientes_
@@ -621,9 +621,9 @@ Para eliminar el historial completo de búsquedas dar un toque en el botón <a c
 ## Crear un Repuesto
 
 
-AMovil permite crear un registro de Material/Repuesto, siempre que el usuario logueado cuente con los permisos desde **AM**. 
+AMovil permite crear un registro de Material/Repuesto siempre que el usuario logueado cuente con los permisos desde **AM**. 
 
-Para crear un Material/Repuesto dar toque en el botón del submenú de Activos <a class="btn cl-black bg-white bd-gray px-6"><span class="iconify cl-black" data-icon="mdi-file-plus-outline"></span> Crear Repuesto </a> el cual abre el siguiente formulario:
+Para crear un Material/Repuesto dar un toque en el botón del submenú de Activos <a class="btn cl-black bg-white bd-gray px-6"><span class="iconify cl-black" data-icon="mdi-file-plus-outline"></span> Crear Repuesto </a> el cual abre el siguiente formulario:
 
 Los campos con asteriscos en rojo (*) son obligatorios:
 
@@ -643,9 +643,9 @@ _**Imagen 62.** AMovil - Almacén Crear Repuesto Formulario_
 
 **Existencia en inventario:** Registra la cantidad en existencia en el Almacén del Material/Repuesto seleccionado. Este campo puede ser actualizado manualmente o en forma automática a través del módulo de Kárdex en **AM**. Es un permiso que se otorga desde **AM** para un usuario en AMovil.
 
-**Costo unitario:** Es un valor que puede haber ser actualizado manualmente por alguien que tenía los permisos para hacerlo. Puede también actualizarse automáticamente por el sistema según el sistema de costeo definido para el almacén, a través del Kárdex en **AM**.
+**Costo unitario:** Es un valor que puede ser actualizado manualmente por alguien que tiene los permisos para hacerlo. Puede también actualizarse automáticamente por el sistema según el sistema de costeo definido para el almacén, a través del Kárdex en **AM**.
 
-Una vez que se diligencien los campos, finalizar dando un clic en el botón Para insertar el registro dar un clic en el botón <a class="btn cl-white bg-blue px-6"> Guardar </a> :
+Una vez que se diligencien los campos, finalizar dando un clic en el botón <a class="btn cl-white bg-blue px-6"> Guardar </a> :
 
 
 
@@ -655,7 +655,7 @@ _**Imagen 63.** AMovil - Almacén Crear Repuesto Formulario Mensaje Alerta_
 
 ## Reservar Repuesto
 
-Para reservar un Repuesto/Material se da un toque sobre el submenú de Almacén en la opción <a class="btn cl-black bg-white bd-gray px-6"><span class="iconify cl-black" data-icon="mdi-calendar-multiple-check"></span> Reservar Repuesto   </a>. 
+Para reservar un Material/Repuesto se da un toque sobre el submenú de Almacén en la opción <a class="btn cl-black bg-white bd-gray px-6"><span class="iconify cl-black" data-icon="mdi-calendar-multiple-check"></span> Reservar Repuesto   </a>. 
 
 
 A continuación se muestra el formulario de Reserva y se da una breve explicación de cada campo:
@@ -676,7 +676,7 @@ _**Imagen 64.** AMovil - Almacén Crear Repuesto Formulario Mensaje Alerta_
 
 **Comentario:** Se pueden agregar observaciones o aclaraciones referentes a la reserva.
 
-Una vez llenados los campos se da un toque sobre el botón <a class="btn cl-white bg-blue px-6"> Crear reserva</a> se muestra el siguiente mensaje:
+Una vez llenados los campos se da un toque sobre el botón <a class="btn cl-white bg-blue px-6"> Crear reserva</a> se mostrando el siguiente mensaje:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img64.jpeg)
@@ -756,7 +756,8 @@ Luego de registrar la **FF/HH atención**, se  habilitan las opciones:
  
 - <a class="btn cl-black bg-white pl-2 pr-3 bd-gray"><span class="mdi mdi-circle cl-gray pr-1"></span> Registro automático de tiempos</a>
 
-La primera consiste en ingresar las fechas de ejecución de forma manual en cada campo y hacer correcciones sobre el tiempo de duración como se muestra a continuación:
+La primera consiste en ingresar las fechas de ejecución de forma manual en cada campo y hacer correcciones sobre el tiempo de duración como se muestra a continuación un ejemplo:
+
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img75.jpeg)
 _**Imagen 76.** AMovil - Solicitudes Registro Manual de Tiempos_
@@ -775,13 +776,13 @@ _**Imagen 78.** AMovil - Solicitudes Ingreso Automático de Tiempos_
 
 
 Para dar inicio dar un toque en el botón  
-<a class="btn cl-white bg-green px-6"> Iniciar</a>, esto hará que la FF/Inicio (Fecha Inicio de Trabajos) se ingrese automáticamente, en la siguiente imagen se muestra el ingreso automático y los botones <a class="btn cl-white bg-green px-6"> Pausar </a> para el manejo del tiempo de duración y <a class="btn cl-white bg-red px-6"> Finalizar</a> para ingresar la FF/Fin (Fecha Fin de Trabajos). 
+<a class="btn cl-white bg-green px-6"> Iniciar</a>, esto hará que la FF/Inicio (Fecha Inicio de Trabajos) se ingrese automáticamente. En la siguiente imagen se muestra el ingreso automático y los botones <a class="btn cl-white bg-green px-6"> Pausar </a> para el manejo del tiempo de duración y <a class="btn cl-white bg-red px-6"> Finalizar</a> para ingresar la FF/Fin (Fecha Fin de Trabajos). 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img78.jpeg)
 _**Imagen 79.** AMovil - Solicitudes Ingreso Automático de Tiempos_
 
 
-En caso de <a class="btn cl-white bg-green px-6"> Pausar </a> la ejecución de trabajos, se habilita con el botón <a class="btn cl-white bg-green px-6"> Continuar </a>,  y al <a class="btn cl-white bg-red px-6"> Finalizar</a> la ejecución, se muestra el resumen de tiempos:
+En caso de <a class="btn cl-white bg-green px-6"> Pausar </a> la ejecución de trabajos se prosigue con el botón <a class="btn cl-white bg-green px-6"> Continuar </a>  y al <a class="btn cl-white bg-red px-6"> Finalizar</a> la ejecución, se muestra el resumen de tiempos:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img79.jpeg)
@@ -799,7 +800,7 @@ Para ingresar los detalles de la ejecución o comentarios de la Solicitud dirigi
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img81.jpeg)
 _**Imagen 82.** AMovil - Solicitudes Ir a Comentarios_
 
-A continuación se muestra el resumen de la Solicitud, y para guardar el comentario dar un toque en el botón <a class="btn cl-white bg-blue px-6"> Guardar </a>. Se muestra un mensaje alerta y para finalizar dar un toque en 
+A continuación se muestra el resumen de la Solicitud, para guardar el comentario dar un toque en el botón <a class="btn cl-white bg-blue px-6"> Guardar </a>. Se muestra un mensaje alerta y para finalizar dar un toque en 
 <a class="btn cl-white bg-blue px-6"> 
 Aceptar </a>:
 
@@ -845,7 +846,7 @@ _**Imagen 89.** AMovil - Solicitudes Multimedia_
 
 
 Para continuar, dar un toque en el botón <a class="btn cl-white bg-blue px-6"> Guardar </a>. Se muestra el siguiente mensaje alerta:
-
+  
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img89.jpeg)
 _**Imagen 90.** AMovil - Solicitudes Mensaje Alerta Multimedia_
@@ -863,7 +864,7 @@ _**Imagen 91.** AMovil - Solicitudes Indicador Multimedia_
 ### Cerrar Solicitud
 
 
-Para cerrar la Solicitud de Servicio se requiere que tenga los tiempos de ejecución diligenciados antes de cambiar el estado del registro a **Cerrada Parcial** o **Cerrada Ejecutada**,  se debe ingresar previamente la Causa de Falla para TM (Tipo de Mantenimiento) **Correctivo** e ingresar la firma del Responsable, dar un toque en el botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego ir a Cerrar Solicitud  <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-check-circle"></span></a>
+Para cerrar la Solicitud de Servicio se requiere que tenga los tiempos de ejecución diligenciados antes de cambiar el estado del registro a **Cerrada Parcial** o **Cerrada Ejecutada**, además, se debe ingresar previamente la Causa de Falla para TM (Tipo de Mantenimiento) **Correctivo** e ingresar la firma del Responsable. Luego dirigirse al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego ir a Cerrar Solicitud  <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-check-circle"></span></a>
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img91.jpeg)
 _**Imagen 92.** AMovil - Solicitudes Ir a Cerrar Solicitud_ 
@@ -871,8 +872,8 @@ _**Imagen 92.** AMovil - Solicitudes Ir a Cerrar Solicitud_
 A continuación se muestra el detalle del cierre de la Solicitud. Para ingresar la firma se da un toque sobre el botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-outline"></span> Firma del encargado/Ejecutor</a>:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img92.jpeg)
-_**Imagen 92.** AMovil - Solicitudes Detalle Cierre_
- 
+_**Imagen 93.** AMovil - Solicitudes Detalle Cierre_
+
 Luego, se debe ingresar la firma en el siguiente espacio:
 
 
