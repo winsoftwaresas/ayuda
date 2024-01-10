@@ -870,13 +870,14 @@ Para cerrar la Solicitud de Servicio se requiere que tenga los tiempos de ejecuc
 _**Imagen 92.** AMovil - Solicitudes Ir a Cerrar Solicitud_ 
 
 
-A continuación se muestra el detalle del cierre de la Solicitud. Además, es posible que técnico ejecutor indique si el Activo se entrega limpio
+A continuación se muestra el detalle del cierre de la Solicitud. Además, es posible que técnico ejecutor indique si el Activo se entrega limpio.  
+
 Para ingresar la firma se da un toque sobre el botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-outline"></span> Firma del encargado/Ejecutor</a>:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img92.jpeg)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img92.jpg)
 _**Imagen 93.** AMovil - Solicitudes Detalle Cierre_
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img92_1.jpeg)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img92_1.jpg)
 _**Imagen 94.** AMovil - Solicitudes Detalle Cierre_
  
 Luego, se debe ingresar la firma en el siguiente espacio:
