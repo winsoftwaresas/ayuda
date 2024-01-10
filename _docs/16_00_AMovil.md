@@ -864,21 +864,26 @@ _**Imagen 91.** AMovil - Solicitudes Indicador Multimedia_
 ### Cerrar Solicitud
 
 
-Para cerrar la Solicitud de Servicio se requiere que tenga los tiempos de ejecución diligenciados antes de cambiar el estado del registro a **Cerrada Parcial** o **Cerrada Ejecutada**, además, se debe ingresar previamente la Causa de Falla para TM (Tipo de Mantenimiento) **Correctivo** e ingresar la firma del Responsable. Luego dirigirse al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego ir a Cerrar Solicitud  <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-check-circle"></span></a>
+Para cerrar la Solicitud de Servicio se requiere que tenga los tiempos de ejecución diligenciados antes de cambiar el estado a **Cerrada Parcial** o **Cerrada Ejecutada**, además, se debe ingresar previamente la Causa de Falla para TM (Tipo de Mantenimiento) **Correctivo** e ingresar la firma del Responsable. Luego dirigirse al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego ir a Cerrar Solicitud  <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-check-circle"></span></a>:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img91.jpeg)
 _**Imagen 92.** AMovil - Solicitudes Ir a Cerrar Solicitud_ 
 
-A continuación se muestra el detalle del cierre de la Solicitud. Para ingresar la firma se da un toque sobre el botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-outline"></span> Firma del encargado/Ejecutor</a>:
+
+A continuación se muestra el detalle del cierre de la Solicitud. Además, es posible que técnico ejecutor indique si el Activo se entrega limpio
+Para ingresar la firma se da un toque sobre el botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-outline"></span> Firma del encargado/Ejecutor</a>:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img92.jpeg)
 _**Imagen 93.** AMovil - Solicitudes Detalle Cierre_
 
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img92_1.jpeg)
+_**Imagen 94.** AMovil - Solicitudes Detalle Cierre_
+ 
 Luego, se debe ingresar la firma en el siguiente espacio:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img93.jpeg)
-_**Imagen 93.** AMovil - Solicitudes Ingresar Firma_
+_**Imagen 95.** AMovil - Solicitudes Ingresar Firma_
 
 
 Se puede rehacer la firma con el botón <a class="btn cl-white bg-blue px-6"> Limpiar </a> o asentar la firma con el botón <a class="btn cl-white bg-blue px-6"> Guardar </a> y también es posible hacer una visualización <a class="btn cl-black bg-white bd-blue px-6"> Visualizar firma </a>, como se muestra en el siguiente ejemplo:
