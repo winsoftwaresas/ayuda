@@ -864,9 +864,9 @@ _**Imagen 91.** AMovil - Solicitudes Indicador Multimedia_
 ### Cerrar Solicitud
 
 
-Para cerrar la Solicitud de Servicio se requiere que tenga los tiempos de ejecución diligenciados previamente para cambiar el estado a **Cerrada Parcial** o **Cerrada Ejecutada**, luego, se debe ingresar la Causa de Falla para TM (Tipo de Mantenimiento) **Correctivo** y luego de guardar los cambios, ingresar la firma del Responsable.
+Para cerrar la Solicitud de Servicio se requiere que tenga los tiempos de ejecución  previamente diligenciados para cambiar el estado a **Cerrada Parcial** o **Cerrada Ejecutada**, luego, ingresar la Causa de Falla para TM (Tipo de Mantenimiento) **Correctivo** y luego de guardar los cambios, finalizar ingresando la firma del Responsable.
 
-Cuando se tengan los tiempos diligenciados dirigirse al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego ir a Cerrar Solicitud  <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-check-circle"></span></a>:
+Cuando se tengan los tiempos diligenciados, diríjase al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego a Cerrar Solicitud  <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-check-circle"></span></a>:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img91.jpeg)
 _**Imagen 92.** AMovil - Solicitudes Ir a Cerrar Solicitud_ 
@@ -879,60 +879,53 @@ A continuación se muestra el detalle del Cierre de Solicitud. Además, es posib
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img92.jpg)
 _**Imagen 93.** AMovil - Solicitudes Detalle Cierre_
 
-Para ingresar la firma, se requiere que la Solicitud de Servicio tenga el estado **Cerrada Ejecutada** ó **Cerrada Parcial**. Una vez diligencie el formulario del Cierre de Solicitud, debe <a class="btn cl-white bg-blue px-6"> Guardar </a> los cambios. Para continuar dar un toque en el botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-outline"></span> Firma del encargado/Ejecutor</a>:
-
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img92_1.jpg)
 _**Imagen 94.** AMovil - Solicitudes Detalle Cierre_
- 
-Luego, continúe ingresando la firma en el siguiente espacio:
+
+
+Para ingresar la firma, se requiere que la Solicitud de Servicio tenga el estado **Cerrada Ejecutada** ó **Cerrada Parcial**. Este estado depende de la parametrización del cierre desde AMovil desde **AM**.
+
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img95.jpeg)
+_**Imagen 95.** AMovil - Solicitudes Cambiar Estado_
+
+Continúe asignando una causa de falla si es el caso. Se muestran las opciones de **Causa de Falla** (Aplicable a Solicitudes Correctivas). Se despliegan las Causas de Falla según la respectiva tabla de Infraestructura en **AM**:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img96.jpeg)
+_**Imagen 96.** AMovil - Solicitudes Causa de Falla_
+
+
+Una vez diligencie el formulario del Cierre de Solicitud, debe <a class="btn cl-white bg-blue px-6"> Guardar </a> los cambios.
+
+
+
+Para continuar dar un toque en el botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-outline"></span> Firma del encargado/Ejecutor</a>. Continúe ingresando la firma en el siguiente espacio:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img93.jpeg)
-_**Imagen 95.** AMovil - Solicitudes Ingresar Firma_
+_**Imagen 97.** AMovil - Solicitudes Ingresar Firma_
 
 
-Se puede rehacer la firma con el botón <a class="btn cl-white bg-blue px-6"> Limpiar </a> o asentar la firma con el botón <a class="btn cl-white bg-blue px-6"> Guardar </a> y también es posible hacer una visualización <a class="btn cl-black bg-white bd-blue px-6"> Visualizar firma </a>, como se muestra en el siguiente ejemplo:
+Se puede rehacer la firma con el botón <a class="btn cl-white bg-blue px-6"> Limpiar </a> o asentar la firma con el botón <a class="btn cl-white bg-blue px-6"> Guardar </a> y también es posible <a class="btn cl-black bg-white bd-blue px-6"> Visualizar firma </a>, como se muestra en el siguiente ejemplo: 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img94.jpeg)
-_**Imagen 96.** AMovil - Solicitudes Ingresar Firma_
+_**Imagen 98.** AMovil - Solicitudes Visualizar firma_
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img95.jpeg)
-_**Imagen 95.** AMovil - Solicitudes Visualizar Firma_
+
 
 Una vez se guarde la firma, se muestra el siguiente mensaje alerta:
 
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img96.jpeg)
-_**Imagen 96.** AMovil - Solicitudes Mensaje Alerta Firma_
-
-
-Luego de este mensaje alerta se muestra de nuevo el detalle del Cierre de la Solicitud, en el ejemplo, se muestran las opciones para el cambio de **Estado** de la Solicitud (Puede variar según la parametrización en **AM** sobre el Cierre):
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img97.jpeg)
-_**Imagen 97.** AMovil - Solicitudes Campo Estado_
-
-Se muestran las opciones de **Causa de Falla** (Aplicable a Solicitudes Correctivas). Se debe tener en cuenta que se despliegan las Causas de Falla según la respectiva tabla de Infraestructura en **AM**:
-
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img98.jpeg)
-_**Imagen 98.** AMovil - Solicitudes Campo Causa de Falla_
-
-
-Una vez se asegure de la elección correcta, continuar asentando los cambios en la solicitud dando un toque en el botón <a class="btn cl-white bg-blue px-6"> Guardar </a>:
-
-
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img99.jpeg)
-_**Imagen 99.** AMovil - Solicitudes Detalle Cierre_
-
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img100.jpeg)
-_**Imagen 100.** AMovil - Solicitudes Cierre Mensaje Alerta_
+_**Imagen 99.** AMovil - Solicitudes Cierre Mensaje Alerta_
+
+
 
 Los registros que tengan la firma del Responsable Ejecutor se indican a través de un color gris <span class="iconify cl-gray bd-gray bg-gray btn-rounded" data-icon="mdi-circle"></span>, como se muestra en el siguiente ejemplo:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img101.jpeg)
-_**Imagen 101.** AMovil - Solicitudes Indicador Firma_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img102.jpeg)
+_**Imagen 100.** AMovil - Solicitudes Indicador Firma_
 
 
 ### Evaluación 
