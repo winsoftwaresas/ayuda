@@ -930,10 +930,10 @@ _**Imagen 100.** AMovil - Solicitudes Indicador Firma_
 
 ### Evaluación 
 
-Para evaluar el servicio al Responsable Ejecutor se debe ir al botón <span class="iconify icon cl-gray bg-blue-25" data-icon="mdi-plus"></span></a> y luego ir a Evaluación <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-card-account-details-outline"></span></a>
+Para evaluar el servicio al Responsable Ejecutor se debe ir al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego a Evaluación <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-format-list-checks"></span></a>
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img102.jpeg)
-_**Imagen 102.** AMovil - Solicitudes Ir a Evaluación_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img103.jpeg)
+_**Imagen 101.** AMovil - Solicitudes Ir a Evaluación_
 
 
 A continuación marque su respuesta en cada pregunta, siendo:
@@ -944,20 +944,20 @@ A continuación marque su respuesta en cada pregunta, siendo:
 - D: Deficiente
 - M: Malo
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img103.jpeg)
-_**Imagen 103.** AMovil - Solicitudes Detalle Evaluación_
-
-Para finalizar <a class="btn cl-white bg-blue px-6"> Guardar </a>, después de guardar se muestra un mensaje alerta:
-
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img104.jpeg)
-_**Imagen 104.** AMovil - Solicitudes Evaluación Mensaje Alerta_
+_**Imagen 102.** AMovil - Solicitudes Evaluación_
+
+
+Continúe con el botón <a class="btn cl-white bg-blue px-6"> Guardar </a>. Se confirma que se ha guardado la evaluación con el sisguiente mensaje alerta:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img105.jpeg)  
+_**Imagen 103.** AMovil - Solicitudes Firma Solicitante_
 
 Luego, se habilita el botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-outline"></span> Firma de quien recibe/Evalúa</a> para registrar la firma del Solicitante, para registrarla, dar un toque sobre él:
 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img105.jpeg)
-_**Imagen 105 .** AMovil - Solicitudes Firma Solicitante_
+
 
 Esto muestra a continuación una ventana detalle ingreso:
 
