@@ -1005,19 +1005,19 @@ _**Imagen 111.** AMovil - Consulta Solicitudes _
 Haga la búsqueda por medio de los siguientes filtros en la opción <a class="btn cl-black bg-white bd-gray px-5"></span>Seleccione un filtro</a>:
 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img113.jpeg)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img113.jpg)
 _**Imagen 112.** AMovil - Subgrupo Solicitudes_
 
 Para el ejemplo se usa el filtro **Responsable**, esta opción lista todos los Responsables ejecutores de la tabla de Terceros en **AM**, además, puede facilitar la búsqueda con el botón <a class="btn cl-black bg-white bd-yellow btn-rounded"><span class="mdi mdi-magnify pr-3"></span><span class="pr-4">Buscar un Responsable </span></a>
 e introducir una parte del nombre, una vez lo seleccione se muestra el campo diligenciado, como se indica a continuación:
 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img114.jpeg)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img114.jpg)
 _**Imagen 113.** AMovil - Subgrupo Solicitudes_
 
 Continúe con el botón <a class="btn cl-white bg-blue px-6"> Aceptar</a> ubicado en la parte inferior. 
 
 Visualice el resultado del Subgrupo en la parte inferior con el botón <a class="btn cl-black bg-white px-5">3</a>:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img115.jpeg)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img115.jpg)
 _**Imagen 114.** AMovil - Subgrupo Solicitudes_
