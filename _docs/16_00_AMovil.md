@@ -991,4 +991,16 @@ También, es posible saber que un registro posee la firma del Solicitante, a tra
 _**Imagen 110.** AMovil - Solicitudes Indicador Firma Solicitante_
 
 
-     
+### Firma Masiva
+
+Es posible hacer el ingreso de la firma del Responsable Ejecutor Responsable y también de la persona o solcitante que recibe. 
+
+Para ello se sugiere usar la función **Subgrupo**. A continuación se muestra un ejemplo del paso a paso:
+
+Una vez ingrese a la opción <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-magnify"></span> Consultar Solicitudes</a> diríjase a la opción Subgrupo <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-filter-variant"></span></a> mostrado a continuación:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img112.png)
+_**Imagen 111.** AMovil - Solicitudes Consulta_
+
+
+
