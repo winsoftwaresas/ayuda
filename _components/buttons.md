@@ -174,7 +174,7 @@ published: true
 
 <span class="iconify icon cl-black bg-white" data-icon="mdi-download"></span></a>
 
-<a class="btn cl-gray bg-white bd-gray px-5"></span>Seleccione un filtro</a>
+<a class="btn cl-black bg-white bd-gray px-5"></span>Seleccione un filtro</a>
 
 
 <a class="btn cl-white bg-blue px-3"> Limpiar</a>
