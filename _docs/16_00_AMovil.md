@@ -949,26 +949,46 @@ A continuación marque su respuesta en cada pregunta, siendo:
 _**Imagen 102.** AMovil - Solicitudes Evaluación_
 
 
-Continúe con el botón <a class="btn cl-white bg-blue px-6"> Guardar </a>. Se confirma que se ha guardado la evaluación con el sisguiente mensaje alerta:
+Continúe con el botón <a class="btn cl-white bg-blue px-6"> Guardar </a>. Luego de actualizarse se muestra el siguiente mensaje alerta:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img105.jpeg)  
-_**Imagen 103.** AMovil - Solicitudes Firma Solicitante_
+_**Imagen 103.** AMovil - Solicitudes Registro Evaluación_
 
-Luego, se habilita el botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-outline"></span> Firma de quien recibe/Evalúa</a> para registrar la firma del Solicitante, para registrarla, dar un toque sobre él:
-
-
+En la parte inferior se habilita el botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-outline"></span> Firma de quien recibe/Evalúa</a> con el fin de registrar la firma del Solicitante:
 
 
-Esto muestra a continuación una ventana detalle ingreso:
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img106.jpeg)  
+_**Imagen 104.** AMovil - Solicitudes Ir a Firma Solicitante_
+
+Al ingresar a la opción se muestra una ventana detalle ingreso de la firma del Solicitante:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img107.jpeg)
+_**Imagen 105.** AMovil - Solicitudes Detalle Firma Solicitante_
+
+Continúe ingresando registrando la firma, a continuación se muestra una ejemplo gráfico:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img108.jpeg)
+_**Imagen 106.** AMovil - Solicitudes Ejemplo Firma Solicitante_
 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img106.jpeg)
-_**Imagen 106 .** AMovil - Solicitudes Firma Solicitante_
+Para guardar la firma, continúe con el botón <a class="btn cl-white bg-blue px-6"> Guardar </a>. De lo contrario, puede rehacer la firma con el botón  <a class="btn cl-white bg-blue px-6"> Limpiar </a>.
+
+Una vez se guarde la firma, el aplicativo muestra el siguiente mensaje alerta:
 
 
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img109.jpeg)
+_**Imagen 107.** AMovil - Solicitudes Mensaje Alerta Firma Solicitante_
+
+Para verificar el registro de la firma, ingrese nuevamente en el botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-outline"></span> Firma de quien recibe/Evalúa</a> y en el detalle del ingreso de la firma continúe a la opción <a class="btn cl-w black bd-blue bg-white px-6"> Visualizar Firma </a>:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img110.jpeg)
+_**Imagen 109.** AMovil - Solicitudes Visualizar Firma Solicitante_
 
 
+También, es posible saber que un registro posee la firma del Solicitante, a través del indicador blanco <span class="iconify cl-white bd-black btn-rounded" data-icon="mdi-circle"></span> así:
 
-Para finalizar dar un toque en <a class="btn cl-white bg-blue px-6"> Aceptar</a>.
- 
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img111.jpeg)
+_**Imagen 110.** AMovil - Solicitudes Indicador Firma Solicitante_
+
+
      

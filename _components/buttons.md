@@ -278,3 +278,6 @@ almacén :
 
 
 <a class="btn cl-black bg-white bd-gray px-6"><span class="iconify cl-black" data-icon="mdi-calendar-multiple-check"></span> Reservar Repuesto   </a>
+
+
+<a class="btn cl-w black bd-blue bg-white px-6"> Visualizar Firma </a>
