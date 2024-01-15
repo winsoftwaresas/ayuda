@@ -993,7 +993,14 @@ _**Imagen 110.** AMovil - Solicitudes Indicador Firma Solicitante_
 
 ### Firma Masiva
 
-Es posible hacer el ingreso de la firma del Responsable Ejecutor Responsable y también de la persona o solcitante que recibe. 
+Esta opción se sugiere cuando un técnico responsable requiere registrar la firma tanto de él como de la persona que recibe de forma masiva o para un subgrupo de Solicitudes.
+
+Es de considerar que para ejecutar esta transacción las Solicitudes de Servicio requieren tener diligenciados los tiempos de ejecución y deben estar cerradas. 
+
+Desde **AM** se puede parametrizar el **Permitir Firma de Recibido sin Evaluación en AMovil**.
+
+
+Es posible hacer el ingreso de la firma del Responsable Ejecutor Responsable y también de la persona o solicitante que recibe. 
 
 Para ello se sugiere usar la función **Subgrupo**. A continuación se muestra un ejemplo del paso a paso:
 
@@ -1037,9 +1044,18 @@ Seguidamente elija la opción Firma Masiva De Quien Recibe
 _**Imagen 116.** AMovil - Firma Masiva Recibido Satisfacción_
 
 
-Para ingresar la firma, primero ingrese el nombre de quien recibe o evalúa en el primer recuadro de la parte superior, continúe dibujando la firma en el siguiente recuadro. Es posible rehacerla con el botón <a class="btn cl-white bg-blue px-6"> Limpiar </a> o asentarla con el botón <a class="btn cl-white bg-blue px-6"> Guardar </a>. Visualice posible <a class="btn cl-black bg-white bd-blue px-6"> Visualizar firma </a>, como se muestra en el siguiente ejemplo: 
+Para ingresar la firma, primero ingrese el nombre de quien recibe o evalúa en el primer recuadro de la parte superior, continúe dibujando la firma en el siguiente recuadro. Puede rehacerla con el botón <a class="btn cl-white bg-blue px-6"> Limpiar </a> o asentarla con el botón <a class="btn cl-white bg-blue px-6"> Guardar </a>. 
+
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img118.jpg)
 _**Imagen 117.** AMovil - Firma Masiva Recibido Satisfacción_
+
+
+Una vez guarde la firma se muestra un mensaje alerta exitoso de ingreso y continúe dando un toque al botón <a class="btn cl-white bg-blue px-6"> Aceptar </a>. 
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img119.jpg)
+_**Imagen 118.** AMovil - Firma Masiva Recibido Satisfacción_
+
 
 
