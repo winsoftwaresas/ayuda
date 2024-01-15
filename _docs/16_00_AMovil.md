@@ -1051,11 +1051,14 @@ Para ingresar la firma, primero ingrese el nombre de quien recibe o evalúa en e
 _**Imagen 117.** AMovil - Firma Masiva Recibido Satisfacción_
 
 
-Una vez guarde la firma se muestra un mensaje alerta exitoso de ingreso y continúe dando un toque al botón <a class="btn cl-white bg-blue px-6"> Aceptar </a>. 
+Al guardar la firma se muestra un mensaje alerta exitoso de ingreso. Continúe dando un toque al botón <a class="btn cl-white bg-blue px-6"> Aceptar </a>. 
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img119.jpg)
 _**Imagen 118.** AMovil - Firma Masiva Recibido Satisfacción_
 
 
+Al finalizar los registros quedan con el indicador blanco:
 
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img1.jpg)
+_**Imagen 119.** AMovil - Firma Masiva Recibido Satisfacción_
