@@ -1017,7 +1017,24 @@ _**Imagen 113.** AMovil - Subgrupo Solicitudes_
 
 Continúe con el botón <a class="btn cl-white bg-blue px-6"> Aceptar</a> ubicado en la parte inferior. 
 
-Visualice el resultado del Subgrupo en la parte inferior con el botón <a class="btn cl-black bg-white px-5">3</a>:
+Luego, visualice el resultado del Subgrupo en la parte superior con el botón <a class="btn cl-black bg-white px-5">3</a>:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img115.jpg)
 _**Imagen 114.** AMovil - Subgrupo Solicitudes_
+
+Diríjase al botón ubicado en la parte superior derecha <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a>:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img116.jpg)
+_**Imagen 115.** AMovil - Ir a Firma Masiva_
+
+
+Seguidamente elija la opción Firma Masiva De Quien Recibe
+<a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-file-edit-outline"></span></a>:
+
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img117.jpg)
+_**Imagen 116.** AMovil - Ir a Firma Masiva_
+
+
+Para ingresar la firma, primero ingrese el nombre de quien recibe o evalúa en el primer recuadro de la parte superior, continúe dibujando la firma en el siguiente recuadro. Es posible rehacerla con el botón <a class="btn cl-white bg-blue px-6"> Limpiar </a> o asentarla con el botón <a class="btn cl-white bg-blue px-6"> Guardar </a>. Visualice posible <a class="btn cl-black bg-white bd-blue px-6"> Visualizar firma </a>, como se muestra en el siguiente ejemplo: 
