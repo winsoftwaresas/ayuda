@@ -1034,7 +1034,12 @@ Seguidamente elija la opción Firma Masiva De Quien Recibe
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img117.jpg)
-_**Imagen 116.** AMovil - Ir a Firma Masiva_
+_**Imagen 116.** AMovil - Firma Masiva Recibido Satisfacción_
 
 
 Para ingresar la firma, primero ingrese el nombre de quien recibe o evalúa en el primer recuadro de la parte superior, continúe dibujando la firma en el siguiente recuadro. Es posible rehacerla con el botón <a class="btn cl-white bg-blue px-6"> Limpiar </a> o asentarla con el botón <a class="btn cl-white bg-blue px-6"> Guardar </a>. Visualice posible <a class="btn cl-black bg-white bd-blue px-6"> Visualizar firma </a>, como se muestra en el siguiente ejemplo: 
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img118.jpg)
+_**Imagen 117.** AMovil - Firma Masiva Recibido Satisfacción_
+
+
