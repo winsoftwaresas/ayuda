@@ -993,6 +993,7 @@ _**Imagen 110.** AMovil - Solicitudes Indicador Firma Solicitante_
 
 ### Firma Masiva
 
+
 Esta opción se sugiere cuando un técnico responsable requiere registrar la firma tanto de él como de la persona que recibe de forma masiva o para un subgrupo de Solicitudes.
 
 Es de considerar que para ejecutar esta transacción las Solicitudes de Servicio requieren tener diligenciados los tiempos de ejecución y deben estar cerradas. 
@@ -1035,7 +1036,7 @@ Diríjase al botón ubicado en la parte superior derecha <span class="iconify ic
 _**Imagen 115.** AMovil - Ir a Firma Masiva_
 
 
-Seguidamente elija la opción Firma Masiva De Quien Recibe
+Seguidamente elija la opción **Firma Masiva De Quien Recibe**
 <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-file-edit-outline"></span></a>:
 
 
@@ -1060,5 +1061,40 @@ _**Imagen 118.** AMovil - Firma Masiva Recibido Satisfacción_
 
 Al finalizar los registros quedan con el indicador blanco:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img1.jpg)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img120.jpg)
 _**Imagen 119.** AMovil - Firma Masiva Recibido Satisfacción_
+
+
+
+Diríjase al botón ubicado en la parte superior derecha <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a>:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img116.jpg)
+_**Imagen 120.** AMovil - Ir a Firma Encargado Solicitud_
+
+
+Seguidamente elija la opción **Firma Masiva Del Técnico Responsable** <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-file-edit-outline"></span></a>:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img121.jpg)
+_**Imagen 121.** AMovil - Ir a Firma Encargado Solicitud_
+
+
+Continúe dibujando la firma en el siguiente recuadro. Puede rehacerla con el botón <a class="btn cl-white bg-blue px-6"> Limpiar </a> o asentarla con el botón <a class="btn cl-white bg-blue px-6"> Guardar </a>. 
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img122.jpg)
+_**Imagen 122.** AMovil - Firma Masiva Encargado Solicitud_
+
+
+Al guardar la firma se muestra un mensaje alerta exitoso de ingreso. Continúe dando un toque al botón <a class="btn cl-white bg-blue px-6"> Aceptar </a>. 
+
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img123.jpg)
+_**Imagen 123.** AMovil - Firma Masiva Mensaje Alerta_
+
+
+Al finalizar los registros quedan con el indicador gris:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img124.jpg)
+_**Imagen 124.** AMovil - Firma Masiva Encargado Solicitud Indicador_
+
