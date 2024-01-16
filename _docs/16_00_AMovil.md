@@ -1093,7 +1093,7 @@ Al guardar la firma se muestra un mensaje alerta exitoso de ingreso. Continúe d
 _**Imagen 123.** AMovil - Firma Masiva Mensaje Alerta_
 
 
-Al finalizar los registros quedan con el indicador gris:
+Al finalizar los registros quedan con el indicador gris <span class="iconify cl-gray bd-gray bg-gray btn-rounded" data-icon="mdi-circle"></span>:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img124.jpg)
 _**Imagen 124.** AMovil - Firma Masiva Encargado Solicitud Indicador_
