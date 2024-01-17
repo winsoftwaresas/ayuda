@@ -1132,18 +1132,18 @@ _**Imagen 129.** AMovil - Ordenes Detalle_
 
 
 
-Para guardar los cambios en alguno de los campos de la Solicitud dar un toque en el botón <a class="btn cl-white bg-blue px-6">Actualizar</a>. Se muestra un mensaje alerta confirmando los cambios:
+Para guardar los cambios en alguno de los campos de la Orden dar un toque en el botón <a class="btn cl-white bg-blue px-6">Actualizar</a>. Se muestra un mensaje alerta confirmando los cambios:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img71.jpeg)
-_**Imagen 72.** AMovil - Solicitudes Actualizar Detalle_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img129.jpg)
+_**Imagen 130.** AMovil - Ordenes Actualizar Detalle_
 
 Para continuar dar un toque en <a class="btn cl-white bg-blue px-6">Aceptar</a>. 
 
-Para ingresar al submenú del Detalle de la Solicitud dirigirse al botón ubicado en la parte superior derecha <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a>. Se muestran las siguientes opciones relacionadas a la gestión y cierre de Solicitudes:
+Para ingresar al submenú dentro del Detalle de la Órden diríjase al botón ubicado en la parte superior derecha <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a>. Se muestran las siguientes opciones relacionadas a la gestión y cierre de Órdenes:
 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img72.jpeg)
-_**Imagen 73.** AMovil - Ir a Submenú Gestión/Cierre Solicitudes_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img130.jpg)
+_**Imagen 131.** AMovil - Ir a Submenú Gestión/Cierre Ordenes_
 
 
 
