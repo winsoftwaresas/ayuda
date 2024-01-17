@@ -1116,10 +1116,10 @@ _**Imagen 126.** AMovil - Ordenes Submenú_
 
 ## Consultar Órdenes
 
-Para consulta y seguimiento de las Órdenes de Servicio dirigirse al botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-magnify"></span> Consultar Órdenes </a>, el cual conlleva al total de las Órdenes :
+Para consulta y seguimiento de las Órdenes de Trabajo dirigirse al botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-magnify"></span> Consultar Órdenes </a>, el cual conlleva al total de las Órdenes:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img68.jpeg)
-_**Imagen 69.** AMovil - Solicitudes_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img126.jpg)
+_**Imagen 127.** AMovil - Consulta Ordenes_
 
 Para ir al detalle del registro dar un toque en el botón  <a class="btn cl-black bg-yellow-light bd-yellow px-6"> Detalle</a> como se muestra a continuación:
 
