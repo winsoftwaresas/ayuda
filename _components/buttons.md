@@ -202,7 +202,7 @@ published: true
 
 <a class="btn bg-peach bd-peach px-6">Detalle</a>
 
-
+<a class="btn bg-mint bd-mint px-6">Detalle</a>
 
 <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-magnify"></span> Consultar Solicitudes</a> 
 

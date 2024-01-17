@@ -1121,14 +1121,15 @@ Para consulta y seguimiento de las Órdenes de Trabajo dirigirse al botón <a cl
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img126.jpg)
 _**Imagen 127.** AMovil - Consulta Ordenes_
 
-Para ir al detalle del registro dar un toque en el botón  <a class="btn cl-black bg-yellow-light bd-yellow px-6"> Detalle</a> como se muestra a continuación:
+Para ir al detalle del registro dar un toque en el botón  <a class="btn bg-mint bd-mint px-6">Detalle</a> como se muestra a continuación:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img69.jpeg)
-_**Imagen 70.** AMovil - Solicitudes Detalle_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img127.jpg)
+_**Imagen 128.** AMovil - Ordenes Detalle_
 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img70.jpeg)
-_**Imagen 71.** AMovil - Solicitudes Detalle_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img128.jpg)
+_**Imagen 129.** AMovil - Ordenes Detalle_
+
 
 
 Para guardar los cambios en alguno de los campos de la Solicitud dar un toque en el botón <a class="btn cl-white bg-blue px-6">Actualizar</a>. Se muestra un mensaje alerta confirmando los cambios:
