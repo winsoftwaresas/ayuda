@@ -728,7 +728,7 @@ _**Imagen 72.** AMovil - Solicitudes Actualizar Detalle_
 
 Para continuar dar un toque en <a class="btn cl-white bg-blue px-6">Aceptar</a>. 
 
-Para ingresar al submenú del Detalle de la Solicitud dirigirse al botón ubicado en la parte superior derecha <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a>. Se muestran las siguientes opciones relacionadas a la gestión y cierre de Solicitudes:
+Para ingresar al submenú del Detalle de la Solicitud diríjase al botón ubicado en la parte superior derecha <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a>. Se muestran las siguientes opciones relacionadas a la gestión y cierre de Solicitudes:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img72.jpeg)
@@ -756,7 +756,7 @@ Luego de registrar la **FF/HH atención**, se  habilitan las opciones:
  
 - <a class="btn cl-black bg-white pl-2 pr-3 bd-gray"><span class="mdi mdi-circle cl-gray pr-1"></span> Registro automático de tiempos</a>
 
-La primera consiste en ingresar las fechas de ejecución de forma manual en cada campo y hacer correcciones sobre el tiempo de duración como se muestra a continuación un ejemplo:
+La primera consiste en ingresar las fechas de ejecución de forma manual en cada campo y hacer correcciones sobre el tiempo de duración como se muestra a continuación:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img75.jpeg)
@@ -1167,11 +1167,10 @@ Luego de registrar la **FF/HH atención**, se  habilitan las opciones:
  
 - <a class="btn cl-black bg-white pl-2 pr-3 bd-gray"><span class="mdi mdi-circle cl-gray pr-1"></span> Registro automático de tiempos</a>
 
-La primera consiste en ingresar las fechas de ejecución de forma manual en cada campo y hacer correcciones sobre el tiempo de duración como se muestra a continuación un ejemplo:
+La primera consiste en ingresar las fechas de ejecución de forma manual en cada campo y hacer correcciones sobre el tiempo de duración como se muestra a continuación:
 
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img75.jpeg)
-_**Imagen 76.** AMovil - Solicitudes Registro Manual de Tiempos_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img133.jpg)
+_**Imagen 134.** AMovil - Ordenes Registro Manual de Tiempos_
 
 
 Para asentar los cambios dar un toque en el botón <a class="btn cl-white bg-blue px-6"> Guardar</a> donde se confirma la actualización y para continuar dar un toque en <a class="btn cl-white bg-blue px-6"> Aceptar</a>:
