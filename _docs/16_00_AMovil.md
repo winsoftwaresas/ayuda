@@ -1150,12 +1150,12 @@ _**Imagen 131.** AMovil - Ir a Submenú Gestión/Cierre Ordenes_
 ### Actualizar tiempos
 
 
-Para ingresar los tiempos de ejecución de la Solicitud dirigirse al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego ingresar a <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-update"></span></a>. Se muestra el detalle de la Solicitud en cuestión, aquellas con estado **En análisis** deben tener previamente la fecha y hora de Atención, se muestra un ejemplo a continuación:
+Para ingresar los tiempos de ejecución de la Órden diríjase al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego a <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-update"></span></a>. Se muestra el detalle de la Órden en cuestión, aquellas con estado **En análisis** deben tener previamente la **Fecha y hora de Atención**, se muestra un ejemplo a continuación:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img73.jpeg)
-_**Imagen 74.** AMovil - Solicitudes Actualizar tiempos_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img131.jpg)
+_**Imagen 132.** AMovil - Ordenes Actualizar tiempos_
  
-En el detalle de la Solicitud dar un toque en el botón <a class="btn cl-white bg-green px-6">Ingresar FF/HH de atención </a> para ingresar automáticamente la fecha y hora:
+En el detalle de la Orden dar un toque en el botón <a class="btn cl-white bg-green px-6">Ingresar FF/HH de atención </a> para ingresar automáticamente la fecha y hora:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img74.jpeg)
 _**Imagen 75.** AMovil - Solicitudes FFHH Atención_
