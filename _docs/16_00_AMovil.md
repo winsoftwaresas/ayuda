@@ -1157,8 +1157,8 @@ _**Imagen 132.** AMovil - Ordenes Actualizar tiempos_
  
 En el detalle de la Orden dar un toque en el botón <a class="btn cl-white bg-green px-6">Ingresar FF/HH de atención </a> para ingresar automáticamente la fecha y hora:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img74.jpeg)
-_**Imagen 75.** AMovil - Solicitudes FFHH Atención_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img132.jpg)
+_**Imagen 133.** AMovil - Ordenes FFHH Atención_
 
 Luego de registrar la **FF/HH atención**, se  habilitan las opciones:
 
