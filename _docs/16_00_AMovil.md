@@ -1167,7 +1167,7 @@ Luego de registrar la **FF/HH atención**, se  habilitan las opciones:
  
 - <a class="btn cl-black bg-white pl-2 pr-3 bd-gray"><span class="mdi mdi-circle cl-gray pr-1"></span> Registro automático de tiempos</a>
 
-La primera consiste en ingresar las fechas de ejecución de forma manual en cada campo y hacer correcciones sobre el tiempo de duración como se muestra a continuación:
+La primera consiste en ingresar las fechas y horas de ejecución de forma manual en cada campo y hacer correcciones sobre el tiempo de duración como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img133.jpg)
 _**Imagen 134.** AMovil - Ordenes Registro Manual de Tiempos_
