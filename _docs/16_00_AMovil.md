@@ -1167,7 +1167,7 @@ Luego de registrar la **FF/HH atención**, se  habilitan las opciones:
  
 - <a class="btn cl-black bg-white pl-2 pr-3 bd-gray"><span class="mdi mdi-circle cl-gray pr-1"></span> Registro automático de tiempos</a>
 
-La primera consiste en ingresar las fechas y horas de ejecución de forma manual en cada campo y hacer correcciones sobre el tiempo de duración como se muestra a continuación:
+La primera consiste en ingresar las fechas y horas de ejecución de forma manual en cada campo y hacer también correcciones sobre el tiempo de duración:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img133.jpg)
 _**Imagen 134.** AMovil - Ordenes Registro Manual de Tiempos_
@@ -1175,8 +1175,8 @@ _**Imagen 134.** AMovil - Ordenes Registro Manual de Tiempos_
 
 Para asentar los cambios dar un toque en el botón <a class="btn cl-white bg-blue px-6"> Guardar</a> donde se confirma la actualización y para continuar dar un toque en <a class="btn cl-white bg-blue px-6"> Aceptar</a>:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img76.jpeg)
-_**Imagen 77.** AMovil - Solicitudes Mensaje Alerta_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img134.jpg)
+_**Imagen 135.** AMovil - Ordenes Mensaje Alerta_
 
 La segunda, es para ingresar automáticamente los tiempos:
 
@@ -1507,3 +1507,4 @@ Al finalizar los registros quedan con el indicador gris <span class="iconify cl-
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img124.jpg)
 _**Imagen 124.** AMovil - Firma Masiva Encargado Solicitud Indicador_
+     
