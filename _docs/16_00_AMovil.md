@@ -1199,15 +1199,21 @@ _**Imagen 137.** AMovil - Ordenes Ingreso Automático de Tiempos_
 _**Imagen 138.** AMovil - Ordenes Ingreso Automático de Tiempos_
 
 
-En caso de <a class="btn cl-white bg-green px-6"> Pausar </a> la ejecución de trabajos se prosigue con el botón <a class="btn cl-white bg-green px-6"> Continuar </a>  y al <a class="btn cl-white bg-red px-6"> Finalizar</a> la ejecución, se muestra el resumen de tiempos:
+En caso de <a class="btn cl-white bg-green px-6"> Pausar </a> la ejecución de trabajos se prosigue con el botón <a class="btn cl-white bg-green px-6"> Continuar </a>, a la vez que su transcurso calcula el Tiempo de Druación (ttr) y Tiempo Improductivo (para las órdenes que aplique):
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img138.jpg)
+_**Imagen 139.** AMovil - Ordenes Ingreso Automático de Tiempos_
+
+Y, al <a class="btn cl-white bg-red px-6"> Finalizar</a> la ejecución, se muestra el resumen de tiempos:
 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img79.jpeg)
-_**Imagen 80.** AMovil - Solicitudes Ingreso Automático de Tiempos_
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img80.jpeg)
-_**Imagen 81.** AMovil - Solicitudes Ingreso Automático de Tiempos_
 
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img139.jpg)
+_**Imagen 140.** AMovil - Ordenes Ingreso Automático de Tiempos_
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img140.jpg)
+_**Imagen 141.** AMovil - Ordenes Ingreso Automático de Tiempos_
 
 
 ### Comentarios
