@@ -1226,9 +1226,30 @@ Al ingresar se muestra la siguiente ventana:
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img142.jpg)
 _**Imagen 143.** AMovil - Ordenes Ingreso Mano Obra Interna_
 
-Continúe da
+Continúe dando un toque en el botón <a class="btn cl-white bg-blue px-6"> Adicionar Mano Obra Interna </a> e ingrese los datos solicitados en el siguiente formulario:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img143.jpg)
+_**Imagen 144.** AMovil - Ordenes Ingreso Mano Obra Interna_
+
+Guarde los cambios con el botón <a class="btn cl-white bg-blue px-6"> Guardar </a>, donde se muestra un mensaje alerta:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img144.jpg)
+_**Imagen 145.** AMovil - Ordenes Mensaje Alerta_
+
+Continúe con el botón <a class="btn cl-white bg-blue px-6"> Aceptar </a> donde se muestra un mensaje alerta de la mano de obra ingresada exitosamente:
 
 
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img145.jpg)
+_**Imagen 146.** AMovil - Ordenes Mensaje Alerta_
+
+Una vez guardados los cambios, se muestra el detalle del personal técnico ingresado:
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img146.jpg)
+_**Imagen 147.** AMovil - Ordenes Detalle Mano Obra Interna_
+
+
+En caso de ingresar mas personal interno, repita los pasos anteriores. 
 
 
 ### Comentarios
