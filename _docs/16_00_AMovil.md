@@ -1218,8 +1218,15 @@ _**Imagen 141.** AMovil - Ordenes Ingreso Automático de Tiempos_
 Para ingresar al personal técnico interno que participó en la ejecución de la Órden, ingrese al <a class="btn bg-mint bd-mint px-6">Detalle</a> de la Órden de Trabajo en cuestión, seguidamente al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego en <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-account-plus-outline"></span></a>:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img141.jpg)
-_**Imagen 142.** AMovil - Ordenes Ingreso Mano Obra Interna_
+_**Imagen 142.** AMovil - Ir a Ordenes Ingreso Mano Obra Interna_
 
+
+Al ingresar se muestra la siguiente ventana:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img142.jpg)
+_**Imagen 143.** AMovil - Ordenes Ingreso Mano Obra Interna_
+
+Continúe da
 
 
 
