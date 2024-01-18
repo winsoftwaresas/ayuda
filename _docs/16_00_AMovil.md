@@ -756,6 +756,8 @@ Luego de registrar la **FF/HH atención**, se  habilitan las opciones:
  
 - <a class="btn cl-black bg-white pl-2 pr-3 bd-gray"><span class="mdi mdi-circle cl-gray pr-1"></span> Registro automático de tiempos</a>
 
+>**Nota:** para ingresar los tiempos en una Solicitud sólo se puede escoger una de los opciones anteriores.
+
 La primera consiste en ingresar las fechas de ejecución de forma manual en cada campo y hacer correcciones sobre el tiempo de duración como se muestra a continuación:
 
 
@@ -1167,6 +1169,8 @@ Luego de registrar la **FF/HH atención**, se  habilitan las opciones:
  
 - <a class="btn cl-black bg-white pl-2 pr-3 bd-gray"><span class="mdi mdi-circle cl-gray pr-1"></span> Registro automático de tiempos</a>
 
+>**Nota:** para ingresar los tiempos en una Órden sólo se puede escoger una de los opciones anteriores.
+
 La primera consiste en ingresar las fechas y horas de ejecución de forma manual en cada campo y hacer también correcciones sobre el tiempo de duración:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img133.jpg)
@@ -1178,11 +1182,11 @@ Para asentar los cambios dar un toque en el botón <a class="btn cl-white bg-blu
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img134.jpg)
 _**Imagen 135.** AMovil - Ordenes Mensaje Alerta_
 
-La segunda, es para ingresar automáticamente los tiempos:
+La segunda opción, es para ingresar automáticamente los tiempos:
 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img77.jpeg)
-_**Imagen 78.** AMovil - Solicitudes Ingreso Automático de Tiempos_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img135.jpg)
+_**Imagen 136.** AMovil - Ordenes Registro Tiempos Automático_
 
 
 Para dar inicio dar un toque en el botón  
