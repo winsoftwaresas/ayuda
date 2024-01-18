@@ -1152,7 +1152,7 @@ _**Imagen 131.** AMovil - Ir a Submenú Gestión/Cierre Ordenes_
 ### Actualizar tiempos
 
 
-Para ingresar los tiempos de ejecución de la Órden diríjase al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego a <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-update"></span></a>. Se muestra el detalle de la Órden en cuestión, aquellas con estado **En análisis** deben tener previamente la **Fecha y hora de Atención**, se muestra un ejemplo a continuación:
+Para ingresar los tiempos de ejecución de la Órden diríjase al <a class="btn bg-mint bd-mint px-6">Detalle</a> de la Órden de Trabajo y luego al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego a <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-update"></span></a>. Se muestra el detalle de la Órden en cuestión, aquellas con estado **En análisis** deben tener previamente la **Fecha y hora de Atención**, se muestra un ejemplo a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img131.jpg)
 _**Imagen 132.** AMovil - Ordenes Actualizar tiempos_
@@ -1207,13 +1207,21 @@ _**Imagen 139.** AMovil - Ordenes Ingreso Automático de Tiempos_
 Y, al <a class="btn cl-white bg-red px-6"> Finalizar</a> la ejecución, se muestra el resumen de tiempos:
 
 
-
-
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img139.jpg)
 _**Imagen 140.** AMovil - Ordenes Ingreso Automático de Tiempos_
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img140.jpg)
 _**Imagen 141.** AMovil - Ordenes Ingreso Automático de Tiempos_
+
+### Adicionar mano obra interna
+
+Para ingresar al personal técnico interno que participó en la ejecución de la Órden, ingrese al <a class="btn bg-mint bd-mint px-6">Detalle</a> de la Órden de Trabajo en cuestión, seguidamente al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego en <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-account-plus-outline"></span></a>:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img141.jpg)
+_**Imagen 142.** AMovil - Ordenes Ingreso Mano Obra Interna_
+
+
+
 
 
 ### Comentarios
