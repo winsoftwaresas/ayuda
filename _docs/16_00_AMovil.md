@@ -1254,29 +1254,34 @@ En caso de ingresar mas personal interno, repita los pasos anteriores.
 
 ### Comentarios
 
-Para ingresar los detalles de la ejecución o comentarios de la Solicitud dirigirse al botón  <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego a <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-wechat"></span></a> como se indica a continuación:
+Para ingresar los comentarios o detalles de la ejecución ingrese al <a class="btn bg-mint bd-mint px-6">Detalle</a> de la Órden en cuestión, seguidamente al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego a <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-wechat"></span></a> como se indica a continuación:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img81.jpeg)
-_**Imagen 82.** AMovil - Solicitudes Ir a Comentarios_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img147.jpg)
+_**Imagen 148.** AMovil - Ir a Ordenes Comentarios_
 
-A continuación se muestra el resumen de la Solicitud, para guardar el comentario dar un toque en el botón <a class="btn cl-white bg-blue px-6"> Guardar </a>. Se muestra un mensaje alerta y para finalizar dar un toque en 
+A continuación se muestra el resumen de la Órden. Ingrese los detalles en el campo **Comentario**:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img148.jpg)
+_**Imagen 149.** AMovil - Ordenes Comentarios_
+
+Para guardar el comentario dar un toque en el botón <a class="btn cl-white bg-blue px-6"> Guardar </a>. Se muestra un mensaje alerta y para finalizar dar un toque en 
 <a class="btn cl-white bg-blue px-6"> 
 Aceptar </a>:
 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img82.jpeg)
-_**Imagen 83.** AMovil - Solicitudes Ingresar Comentarios_
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img149.jpg)
+_**Imagen 150.** AMovil - Solicitudes Mensaje Alerta Comentarios_ 
 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img83.jpeg)
-_**Imagen 84.** AMovil - Solicitudes Mensaje Alerta Comentarios_ 
+Una vez se guarden los comentarios, se muestra el detalle en la parte inferior del usuario que registró el comentario:
 
 
-Una vez que se guarden los comentarios, se muestra el detalle en la parte inferior el usuario que registró el comentario así:
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img150.jpg)
+_**Imagen 151.** AMovil - Ordenes Detalle Comentarios_ 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img84.jpeg)
-_**Imagen 85.** AMovil - Solicitudes Detalle Comentarios_ 
 
+Para ingresar mas comentarios repita los pasos anteriores.
 
 ### Multimedia 
 
