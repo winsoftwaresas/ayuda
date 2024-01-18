@@ -1186,14 +1186,17 @@ La segunda opción, es para ingresar automáticamente los tiempos:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img135.jpg)
-_**Imagen 136.** AMovil - Ordenes Registro Tiempos Automático_
+_**Imagen 136.** AMovil - Ordenes Ingreso Tiempos Automático_
 
 
 Para dar inicio dar un toque en el botón  
 <a class="btn cl-white bg-green px-6"> Iniciar</a>, esto hará que la FF/Inicio (Fecha Inicio de Trabajos) se ingrese automáticamente. En la siguiente imagen se muestra el ingreso automático y los botones <a class="btn cl-white bg-green px-6"> Pausar </a> para el manejo del tiempo de duración y <a class="btn cl-white bg-red px-6"> Finalizar</a> para ingresar la FF/Fin (Fecha Fin de Trabajos). 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img78.jpeg)
-_**Imagen 79.** AMovil - Solicitudes Ingreso Automático de Tiempos_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img136.jpg)
+_**Imagen 137.** AMovil - Ordenes Ingreso Automático de Tiempos_
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img137.jpg)
+_**Imagen 138.** AMovil - Ordenes Ingreso Automático de Tiempos_
 
 
 En caso de <a class="btn cl-white bg-green px-6"> Pausar </a> la ejecución de trabajos se prosigue con el botón <a class="btn cl-white bg-green px-6"> Continuar </a>  y al <a class="btn cl-white bg-red px-6"> Finalizar</a> la ejecución, se muestra el resumen de tiempos:
