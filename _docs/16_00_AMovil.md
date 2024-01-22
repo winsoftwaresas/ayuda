@@ -1254,7 +1254,7 @@ En caso de ingresar mas personal interno, repita los pasos anteriores.
 
 ### Comentarios
 
-Para ingresar los comentarios o detalles de la ejecución ingrese al <a class="btn bg-mint bd-mint px-6">Detalle</a> de la Órden en cuestión, seguidamente al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego a <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-wechat"></span></a> como se indica a continuación:
+Para ingresar los comentarios o detalles de la ejecución ingrese al <a class="btn bg-mint bd-mint px-6">Detalle</a> de la OT en cuestión, seguidamente al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego a <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-wechat"></span></a> como se indica a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img147.jpg)
 _**Imagen 148.** AMovil - Ir a Ordenes Comentarios_
@@ -1286,16 +1286,15 @@ Para ingresar mas comentarios repita los pasos anteriores.
 ### Multimedia 
 
 
-Para ingresar documentos, imágenes o videos a la Solicitud dirigirse al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego ir a <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-paperclip"></span></a> como se indica a continuación: 
+Para ingresar documentos, imágenes o videos a la OT diríjase al detalle del registro <a class="btn bg-mint bd-mint px-6">Detalle</a> luego al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego ir a <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-paperclip"></span></a> como se indica a continuación: 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img85.jpeg)
-_**Imagen 86.** AMovil - Solicitudes Ir a Multimedia_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img151.jpg)
+_**Imagen 152.** AMovil - Órdenes Ir a Multimedia_
 
-A continuación se muestra un resumen de la Solicitud con las siguientes tres carpetas:
+A continuación se muestra un resumen de la OT con las siguientes tres carpetas:
 
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img86.jpeg)
-_**Imagen 87.** AMovil - Solicitudes Multimedia_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img152.jpg)
+_**Imagen 152.** AMovil - Órdenes Ir a Multimedia_
 
 Cada una de las carpetas indican los tipos archivos permitidos en cada una. Una vez ingresada  a la carpeta, es posible devolverse con el botón <a class="btn cl-black bg-white pl-6 pr-6 bd-gray"><span class="iconify cl-black fs-2 pr-" data-icon="mdi-arrow-left-thick"></span> Atras</a>, para cargar el archivo dar un toque en el botón <a class="btn cl-white bg-blue px-6"> Subir archivo </a>, esto abre el explorador de archivos del teléfono móvil o estación donde se ejecute el proceso. Se ilustra un ejemplo añadiendo imágenes correspondientes a la solicitud: 
 
