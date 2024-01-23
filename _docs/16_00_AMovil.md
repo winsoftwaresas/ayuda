@@ -1337,23 +1337,23 @@ Para cerrar la Órden de Trabajo se requiere que tenga los tiempos de ejecución
 
 Cuando se tengan los tiempos diligenciados, diríjase al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego a Cerrar Solicitud  <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-check-circle"></span></a>:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img91.jpeg)
-_**Imagen 92.** AMovil - Solicitudes Ir a Cerrar Solicitud_ 
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img157.jpg)
+_**Imagen 157.** AMovil - Órdenes Ir a Cerrar Órden_ 
 
 
-A continuación se muestra el detalle del Cierre de Solicitud. Además, es posible que el técnico ejecutor indique si el Activo se entrega limpio.  
+A continuación se muestra el detalle del Cierre de la OT. Además, es posible que el técnico ejecutor indique si el Activo se entrega limpio.  
 
 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img92.jpg)
-_**Imagen 93.** AMovil - Solicitudes Detalle Cierre_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img158.jpg)
+_**Imagen 158.** AMovil - Órdenes Detalle Cierre_
 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img92_1.jpg)
-_**Imagen 94.** AMovil - Solicitudes Detalle Cierre_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img159.jpg)
+_**Imagen 159.** AMovil - Órdenes Detalle Cierre_
 
 
-Para ingresar la firma, se requiere que la Solicitud de Servicio tenga el estado **Cerrada Ejecutada** ó **Cerrada Parcial**. Este estado depende de la parametrización del cierre desde AMovil desde **AM**.
+Para ingresar la firma, se requiere que la OT tenga el estado **Cerrada Ejecutada** ó **Cerrada Parcial**. Este estado depende de la parametrización del cierre desde AMovil desde **AM**.
 
 
 
