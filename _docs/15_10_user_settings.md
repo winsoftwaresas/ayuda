@@ -64,7 +64,7 @@ Para salir de la ventana Detalle se puede dar clic en la parte de afuera de esta
 
 #### Creación de Usuarios
 
-<iframe width="600" height="340" src="https://www.youtube.com/embed/zXiMzC7gtz4?si=HTHPaCuLyyiRTU9_" title="Parametrización AMsi - Administración Usuarios - ¿Cómo actualizar un usuario?" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen uk-responsive uk-video="automute: true"></iframe>
+<iframe width="600" height="340" src="https://www.youtube.com/embed/zXiMzC7gtz4?si=HTHPaCuLyyiRTU9_" title="Parametrización AMsi - Administración Usuarios - ¿Cómo actualizar un usuario?" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen uk-responsive></iframe>
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img44.png)
 ***Imagen 45.** AMsi - Detalle Usuario*
