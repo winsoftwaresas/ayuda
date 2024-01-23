@@ -1296,38 +1296,44 @@ A continuación se muestra un resumen de la OT con las siguientes tres carpetas:
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img152.jpg)
 _**Imagen 152.** AMovil - Órdenes Ir a Multimedia_
 
-Cada una de las carpetas indican los tipos archivos permitidos en cada una. Una vez ingresada  a la carpeta, es posible devolverse con el botón <a class="btn cl-black bg-white pl-6 pr-6 bd-gray"><span class="iconify cl-black fs-2 pr-" data-icon="mdi-arrow-left-thick"></span> Atras</a>, para cargar el archivo dar un toque en el botón <a class="btn cl-white bg-blue px-6"> Subir archivo </a>, esto abre el explorador de archivos del teléfono móvil o estación donde se ejecute el proceso. Se ilustra un ejemplo añadiendo imágenes correspondientes a la solicitud: 
+Cada una de las carpetas indican los tipos archivos permitidos en cada una. Una vez ingresada  a la carpeta, es posible devolverse con el botón <a class="btn cl-black bg-white pl-6 pr-6 bd-gray"><span class="iconify cl-black fs-2 pr-" data-icon="mdi-arrow-left-thick"></span> Atras</a>. Para cargar el archivo dar un toque en el botón <a class="btn cl-white bg-blue px-6"> Subir archivo </a>, esto abre el explorador de archivos del teléfono móvil o estación donde se ejecute el proceso. Se ilustra un ejemplo añadiendo imágenes correspondientes a la OT:   
+
+>**Nota:** Solo se permiten para las imágenes formatos jpg o png. 
 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img87.jpeg)
-_**Imagen 88.** AMovil - Solicitudes Multimedia_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img153.jpg)
+_**Imagen 153.** AMovil - Órdenes Multimedia_
 
-Una vez se elija el archivo, se muestra en la parte inferior su nombre, como se muestra a continuación:
+Una vez se elija el archivo se muestra en la parte inferior su nombre, como se muestra a continuación:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img88.jpeg)
-_**Imagen 89.** AMovil - Solicitudes Multimedia_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img154.jpg)
+_**Imagen 154.** AMovil - Órdenes Multimedia_
 
 
 Para continuar, dar un toque en el botón <a class="btn cl-white bg-blue px-6"> Guardar </a>. Se muestra el siguiente mensaje alerta:
   
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img89.jpeg)
-_**Imagen 90.** AMovil - Solicitudes Mensaje Alerta Multimedia_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img155.jpg)
+_**Imagen 155.** AMovil - Órdenes Mensaje Alerta Multimedia_
 
-Para finalizar dar un toque en <a class="btn cl-white bg-blue px-6"> Aceptar </a>. Ir a <a class="btn cl-black bg-white pl-6 pr-6 bd-gray"><span class="iconify cl-black fs-2 pr-" data-icon=" mdi-arrow-left-thick"></span> Atras</a> para continuar agregando multimedia.
+
+Para finalizar dar un toque en <a class="btn cl-white bg-blue px-6"> Aceptar </a>. Diríjase al botón <a class="btn cl-black bg-white pl-6 pr-6 bd-gray"><span class="iconify cl-black fs-2 pr-" data-icon=" mdi-arrow-left-thick"></span> Atras</a> para continuar agregando multimedia.
 
 Una vez el registro tenga multimedia, se agrega un indicador de color naranja <span class="iconify cl-orange bd-orange bg-orange btn-rounded" data-icon="mdi-circle"></span>, así:
 
 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img90.jpeg)
-_**Imagen 91.** AMovil - Solicitudes Indicador Multimedia_ 
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img156.jpg)
+_**Imagen 156.** AMovil - Órdenes Indicador Multimedia_ 
+
+Una vez se suba el archivo se visualiza su información de nombre y fecha del mismo, para adjuntar mas multimedia repita el proceso anterior.
 
 
-### Cerrar Solicitud
+
+### Cerrar Orden
 
 
-Para cerrar la Solicitud de Servicio se requiere que tenga los tiempos de ejecución  previamente diligenciados para cambiar el estado a **Cerrada Parcial** o **Cerrada Ejecutada**, luego, ingresar la Causa de Falla para TM (Tipo de Mantenimiento) **Correctivo** y luego de guardar los cambios, finalizar ingresando la firma del Responsable.
+Para cerrar la Órden de Trabajo se requiere que tenga los tiempos de ejecución  previamente diligenciados para cambiar el estado a **Cerrada Parcial** o **Cerrada Ejecutada**, luego, ingresar la Causa de Falla para TM (Tipo de Mantenimiento) **Correctivo** y luego de guardar los cambios, finalizar ingresando la firma del Responsable.
 
 Cuando se tengan los tiempos diligenciados, diríjase al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego a Cerrar Solicitud  <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-check-circle"></span></a>:
 
