@@ -19,6 +19,10 @@ date: 2022-06-15T20:00:03.581Z
 
 <iframe width="600" height="340" src="https://www.youtube.com/embed/bQmrjyvPws4?si=XbQvYABkhRsKXhKo" title="¿Cómo consultar y evaluar solicitudes?" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen uk-responsive></iframe>
 
+<﻿hr>
+
+<iframe width="600" height="340" src="https://www.youtube.com/embed/hsE634LQUwE?si=a6K-j8h3qE2U6eNz" title="Consultar y evaluar órdenes de trabajo" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen uk-responsive></iframe>
+
 ### Subgrupos
 
 Inicialmente esta transacción trae el listado del total de las SS que se han realizado para la Organización por parte de otros usuarios solicitantes.
@@ -120,3 +124,5 @@ Estos campos solo son manipulados por los encargados del área de mantenimiento 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img17.png)
 _**Imagen 17.** Ventana Detalle de la SS (Comentarios)_
+
+
