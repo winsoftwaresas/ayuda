@@ -1,9 +1,38 @@
 # Video include content
 
 - title: Parametrización AMsi
-  desc: Administración Usuarios ¿Cómo actualizar un usuario?
-  url: https://www.youtube.com/watch?v=zXiMzC7gtz4
+  desc: Configuración General
+  url: https://www.youtube.com/watch?v=AsEyii8Pg4k&t=20s
 
 - title: Parametrización AMsi
   desc: Creación de usuarios relacionados por Centro de Costo
   url: https://www.youtube.com/watch?v=XhESzPThisA
+
+- title: Parametrización AMsi
+  desc: Creación de usuarios relacionados por Compañía
+  url: https://www.youtube.com/watch?v=lVxeyoa4Uzg&t=2s
+
+- title: Parametrización AMsi
+  desc: Administración Usuarios ¿Cómo actualizar un usuario?
+  url: https://www.youtube.com/watch?v=zXiMzC7gtz4
+
+- title: Actualización de Perfil y Creación de Solicitudes
+  desc: Usuarios relacionados por Centro de Costo
+  url: https://www.youtube.com/watch?v=Djn9vXQVmhg&t=4s
+
+- title: Actualización de Perfil y Creación de Solicitudes
+  desc: Usuarios relacionados por Compañía
+  url: https://www.youtube.com/watch?v=Sd7o6h16bb8&t=2s
+
+- title: Actualización de Perfil y Creación de Órdenes
+  desc: Usuarios relacionados por Centro de Costo
+  url: https://www.youtube.com/watch?v=qI6bSmrxgyY&t=1s
+
+- title: Actualización de Perfil y Creación de Órdenes
+  desc: Usuarios relacionados por Compañía
+  url: https://www.youtube.com/watch?v=lamMeqB2G18
+
+- title: Consulta y evaluación 
+  desc: Solicitudes y Órdenes
+  url: https://www.youtube.com/watch?v=hsE634LQUwE
+
