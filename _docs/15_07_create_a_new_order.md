@@ -19,6 +19,8 @@ Se identifican los campos relacionados en el formulario Servicio Solicitado para
 - Campos de Servicio Solicitado
 - Campos de Información de Activo/Equipo
 
+<iframe width="600" height="340" src="https://www.youtube.com/embed/qI6bSmrxgyY?si=4KDOC6Oug-5x0Pox" title="Actualizar perfil y crear órdenes de trabajo para usuarios relacionados por centro de costo" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen uk-responsive></iframe>
+
 Este formulario trae los datos del solicitante previamente logueado en la ventana de acceso al **AMsi**. Contiene la información personal del solicitante, información del servicio solicitado, información del Activo/Equipo objeto de la OT de mantenimiento.
 
 Todos los campos marcados con asterisco (*) son de carácter obligatorio.
@@ -123,5 +125,8 @@ _**Imagen 27.** Mensaje Alerta Multimedia_
 
 
 
+#### Creación de Órdenes de Trabajo para Usuarios relacionados por Compañía
+
+<iframe width="600" height="340" src="https://www.youtube.com/embed/lamMeqB2G18?si=-6AdZbxP2bT4y9M1" title="Actualizar perfil y crear órdenes de trabajo para usuarios relacionados por compañía" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen uk-responsive></iframe>
 
 
