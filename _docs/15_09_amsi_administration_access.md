@@ -47,6 +47,9 @@ A continuación, se describen las transacciones que componen esta ventana.
 
 ### Configuración
 
+<iframe width="600" height="340" src="https://www.youtube.com/embed/AsEyii8Pg4k?si=Oq443DtcZjX75jnw" title="Parametrización AMsi" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen uk-responsive></iframe>
+
+
 Una vez se ingrese con los datos del usuario administrador, se debe dar clic a este botón ubicado en la ventana de Menú Principal para continuar con la Configuración de  **AMsi**.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img34.png)
