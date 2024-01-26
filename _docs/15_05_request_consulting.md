@@ -16,6 +16,9 @@ date: 2022-06-15T20:00:03.581Z
 - Consulta de Solicitudes
 - Visor de Solicitudes
 
+
+<iframe width="600" height="340" src="https://www.youtube.com/embed/bQmrjyvPws4?si=XbQvYABkhRsKXhKo" title="¿Cómo consultar y evaluar solicitudes?" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen uk-responsive></iframe>
+
 ### Subgrupos
 
 Inicialmente esta transacción trae el listado del total de las SS que se han realizado para la Organización por parte de otros usuarios solicitantes.
