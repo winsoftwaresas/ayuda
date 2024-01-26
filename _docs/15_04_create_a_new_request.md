@@ -18,6 +18,9 @@ Se identifican los campos relacionados en el formulario Servicio Solicitado para
 •	Campos de Servicio Solicitado
 •	Campos de Información de Activo / Equipo
 
+
+<iframe width="600" height="340" src="https://www.youtube.com/embed/Djn9vXQVmhg?si=DohrcsL0ptRyVbqx" title="Actualización de perfil y creación de solicitudes para usuarios relacionados por Centro de Costo" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen uk-responsive></iframe>
+
 Este formulario trae los datos del solicitante previamente logueado en la ventana de  acceso al **AMsi**. Contiene la información personal del solicitante, información del servicio solicitado, información del Activo/Equipo objeto de la SS de mantenimiento.
 Para la Creación de la SS, dar clic en el siguiente botón mostrado:
 
@@ -118,3 +121,8 @@ Botón Inicio: Este botón lleva a la ventana de Menú Principal del Usuario.
 **Inicio <span class="mdi mdi-home"></span>:** Este botón lleva a la ventana de Menú Principal del Usuario.
 
 **Cerrar Sesión <span class="mdi mdi-exit-to-app"></span>:** Este botón  permite salir de la aplicación **AMsi**.
+
+
+#### Creación de Solicitudes de Servicio Usuarios relacionados por Compañía
+
+<iframe width="600" height="340" src="https://www.youtube.com/embed/Sd7o6h16bb8?si=4u5BSOD5sLJAeo05" title="Actualización de perfil y creación de solicitudes para usuarios relacionados por compañía" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen uk-responsive></iframe>
