@@ -124,4 +124,4 @@ Para visualizar la información completa de los Centros de Costo disponibles par
 
 E﻿s posible repetir el proceso anterior siempre y cuando se tenga la parametrización de relacionar usuarios por compañía. 
 
-<iframe width="600" height="340" src="https://www.youtube.com/embed/lVxeyoa4Uzg?si=AFz19vx80YZE6iPP" title="Parametrización AMsi - Creación de usuarios relacionados por Compañía" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen uk-responsive></iframe>
+<iframe width="600" height="340" src="https://www.youtube.com/embed/lVxeyoa4Uzg?si=AFz19vx80YZE6iPP" title="Parametrización AMsi - Creación de usuarios relacionados por Compañía" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen uk-responsive></iframe>
