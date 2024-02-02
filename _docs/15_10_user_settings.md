@@ -18,7 +18,7 @@ Se orienta al Administrador en la creación y actualización de datos del Usuari
 * Actualización de Usuarios
 * Asociar Centros de Costo
 
-Una vez se ingrese como Usuario Administrador, dar clic rn **Administrar Usuarios** en la ventana de Menú Principal para continuar con la Administración de los Usuarios de **AMsi**.
+Una vez se ingrese como Usuario Administrador, dar clic en **Administrar Usuarios** en la ventana de Menú Principal para continuar con la Administración de los Usuarios de **AMsi**.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img41.png)
 ***Imagen 42.** AMsi - Ir a Administrar Usuarios*
@@ -57,14 +57,15 @@ El botón <a class="btn blue">Nuevo <span class="mdi mdi-plus-circle-outline"></
  prepara la ventana Detalle para el ingreso de un nuevo registro. Al activarlo, el sistema reemplaza la línea de 2 botones por una nueva de 2 botones: <a class="btn blue">Insertar <span class="mdi mdi-plus-circle-outline"></span></a>
 y <a class="btn blue">cancelar <span class="mdi mdi-block-helper"></span></a>. El botón <a class="btn blue">Insertar <span class="mdi mdi-plus-circle-outline"></span></a> ingresa el nuevo registro a la base de datos actualizando la ventana Visor, mientras que el botón <a class="btn blue">cancelar <span class="mdi mdi-block-helper"></span></a> aborta el proceso de creación del nuevo registro retornando a la ventana Detalle.
 
-El botón <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a>
- sirve para guardar o salvar en la base de datos la información que se ha modificado en la ventana Detalle, correspondiente al registro señalado por el cursor en la ventana Visor y registrar allí simultáneamente el mismo cambio.
+El botón <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a> sirve para guardar o salvar en la base de datos la información que se ha modificado en la ventana Detalle, correspondiente al registro señalado por el cursor en la ventana Visor y registrar allí simultáneamente el mismo cambio.
 
 Para salir de la ventana Detalle se puede dar clic en la parte de afuera de esta ventana, la cual lleva a la ventana Visor.
 
 #### Creación de Usuarios
 
-<iframe width="600" height="340" src="https://www.youtube.com/embed/zXiMzC7gtz4?si=HTHPaCuLyyiRTU9_" title="Parametrización AMsi - Administración Usuarios - ¿Cómo actualizar un usuario?" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen uk-responsive></iframe>
+<iframe width="600" height="340" src="https://www.youtube.com/embed/XhESzPThisA?si=oMwSb8QtPMF0s1LT" title="Parametrización AMsi - Creación de usuarios relacionados por Centro de Costo" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen uk-responsive></iframe>
+
+
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img44.png)
 ***Imagen 45.** AMsi - Detalle Usuario*
@@ -113,3 +114,14 @@ La funcionalidad consiste en seleccionar el Centro de Costo desde el recuadro de
 Para visualizar la información completa de los Centros de Costo disponibles para ser asociados y los que se asociaron al usuario solicitante y facilitar su recorrido es posible realizar desplazamientos verticales del cursor tanto hacia el comienzo como hacia  el final del cuadro.
 
 > **Nota:** Una vez que se inserta un usuario nuevo o se actualice un usuario existente, el sistema muestra un mensaje de notificación de registro exitoso.
+
+
+
+<iframe width="600" height="340" src="https://www.youtube.com/embed/zXiMzC7gtz4?si=HTHPaCuLyyiRTU9_" title="Parametrización AMsi - Administración Usuarios - ¿Cómo actualizar un usuario?" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen uk-responsive></iframe>
+
+
+<hr>
+
+E﻿s posible repetir el proceso anterior siempre y cuando se tenga la parametrización de relacionar usuarios por compañía. 
+
+<iframe width="600" height="340" src="https://www.youtube.com/embed/lVxeyoa4Uzg?si=AFz19vx80YZE6iPP" title="Parametrización AMsi - Creación de usuarios relacionados por Compañía" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen uk-responsive></iframe>
