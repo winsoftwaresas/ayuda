@@ -1353,12 +1353,11 @@ _**Imagen 158.** AMovil - Órdenes Detalle Cierre_
 _**Imagen 159.** AMovil - Órdenes Detalle Cierre_
 
 
-Para ingresar la firma, se requiere que la OT tenga el estado **Cerrada Ejecutada** ó **Cerrada Parcial**. Este estado depende de la parametrización del cierre desde AMovil desde **AM**.
+Para ingresar la firma, se requiere que la OT tenga el estado **Cerrada Ejecutada** ó **Cerrada Parcial**. Este estado depende de la parametrización en **AM** para cerrar en AMovil.
 
 
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img95.jpeg)
-_**Imagen 95.** AMovil - Solicitudes Cambiar Estado_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img160.jpg)
+_**Imagen 160.** AMovil - Órdenes Cambiar Estado_
 
 Continúe asignando una causa de falla si es el caso. Se muestran las opciones de **Causa de Falla** (Aplicable a Solicitudes Correctivas). Se despliegan las Causas de Falla según la respectiva tabla de Infraestructura en **AM**:
 
