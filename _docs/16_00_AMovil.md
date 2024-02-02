@@ -1459,7 +1459,7 @@ _**Imagen 174.** AMovil - Órdenes Visualizar Firma Recibido Satisfacción_
 También, es posible saber que un registro posee la firma del Solicitante o de la persona que recibió a satisfacción a través del indicador blanco <span class="iconify cl-white bd-black btn-rounded" data-icon="mdi-circle"></span> así:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img175.jpg)
-_**Imagen 175.** AMovil - Órdenes Indicador Firma Solicitante_
+_**Imagen 175.** AMovil - Órdenes Indicador Firma Recibido Satisfacción_
 
 
 ### Firma Masiva
