@@ -1429,17 +1429,17 @@ Una vez guardados los cambios, en la parte inferior se habilita el botón <a cla
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img170.jpg)  
-_**Imagen 170.** AMovil - Órdenes Ir a Firma Solicitante_
+_**Imagen 170.** AMovil - Órdenes Ir a Firma Recibido Satisfacción_
 
 Al ingresar a la opción se muestra una ventana detalle ingreso de la firma del Solicitante:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img171.jpg)
-_**Imagen 171.** AMovil - Órdenes Detalle Firma Solicitante_
+_**Imagen 171.** AMovil - Órdenes Detalle Firma Recibido Satisfacción_
 
 Continúe ingresando registrando la firma, a continuación se muestra una ejemplo gráfico:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img108.jpeg)
-_**Imagen 106.** AMovil - Solicitudes Ejemplo Firma Solicitante_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img172.jpg)
+_**Imagen 172.** AMovil - Órdenes Firma Recibido Satisfacción_
 
 
 Para guardar la firma, continúe con el botón <a class="btn cl-white bg-blue px-6"> Guardar </a>. De lo contrario, puede rehacer la firma con el botón  <a class="btn cl-white bg-blue px-6"> Limpiar </a>.
@@ -1447,8 +1447,8 @@ Para guardar la firma, continúe con el botón <a class="btn cl-white bg-blue px
 Una vez se guarde la firma, el aplicativo muestra el siguiente mensaje alerta:
 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img109.jpeg)
-_**Imagen 107.** AMovil - Solicitudes Mensaje Alerta Firma Solicitante_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img173.jpg)
+_**Imagen 173.** AMovil - Órdenes Mensaje Alerta Firma Recibido Satisfacción_
 
 Para verificar el registro de la firma, ingrese nuevamente en el botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-outline"></span> Firma de quien recibe/Evalúa</a> y en el detalle del ingreso de la firma continúe a la opción <a class="btn cl-w black bd-blue bg-white px-6"> Visualizar Firma </a>:
 
