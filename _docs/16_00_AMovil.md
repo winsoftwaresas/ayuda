@@ -1395,8 +1395,8 @@ _**Imagen 165.** AMovil - Órdenes Cierre Mensaje Alerta_
 
 Los registros que tengan la firma del Responsable Ejecutor se indican a través de un color gris <span class="iconify cl-gray bd-gray bg-gray btn-rounded" data-icon="mdi-circle"></span>, como se muestra en el siguiente ejemplo:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img102.jpeg)
-_**Imagen 100.** AMovil - Solicitudes Indicador Firma_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img166.jpg)
+_**Imagen 166.** AMovil - Órdenes Indicador Firma_
 
 
 ### Evaluación 
