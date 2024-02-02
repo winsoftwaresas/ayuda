@@ -1359,27 +1359,30 @@ Para ingresar la firma, se requiere que la OT tenga el estado **Cerrada Ejecutad
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img160.jpg)
 _**Imagen 160.** AMovil - Órdenes Cambiar Estado_
 
-Continúe asignando una causa de falla si es el caso. Se muestran las opciones de **Causa de Falla** (Aplicable a Solicitudes Correctivas). Se despliegan las Causas de Falla según la respectiva tabla de Infraestructura en **AM**:
+Continúe asignando una causa de falla si es el caso. Se muestran las opciones de **Causa de Falla** (Aplicable a Órdenes Correctivas). Se despliegan las Causas de Falla según la respectiva tabla de Infraestructura en **AM**:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img96.jpeg)
-_**Imagen 96.** AMovil - Solicitudes Causa de Falla_
-
-
-Una vez diligencie el formulario del Cierre de Solicitud, debe <a class="btn cl-white bg-blue px-6"> Guardar </a> los cambios.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img161.jpg)
+_**Imagen 161.** AMovil - Órdenes Causa de Falla_
 
 
+Una vez diligencie el formulario del Cierre de la OT, se deben <a class="btn cl-white bg-blue px-6"> Guardar </a> los cambios.
+
+Indique si el Activo se entrega limpio: No/Si:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img160.jpg)
+_**Imagen 162.** AMovil - Órdenes Se entrega limpio_
 
 Para continuar dar un toque en el botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-outline"></span> Firma del encargado/Ejecutor</a>. Continúe ingresando la firma en el siguiente espacio:
 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img93.jpeg)
-_**Imagen 97.** AMovil - Solicitudes Ingresar Firma_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img163.jpg)
+_**Imagen 163.** AMovil - Órdenes Ingresar Firma Encargado/Ejecutor_
 
 
 Se puede rehacer la firma con el botón <a class="btn cl-white bg-blue px-6"> Limpiar </a> o asentar la firma con el botón <a class="btn cl-white bg-blue px-6"> Guardar </a> y también es posible <a class="btn cl-black bg-white bd-blue px-6"> Visualizar firma </a>, como se muestra en el siguiente ejemplo: 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img94.jpeg)
-_**Imagen 98.** AMovil - Solicitudes Visualizar firma_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img164.jpg)
+_**Imagen 164.** AMovil - Órdenes Visualizar firma_
 
 
 
