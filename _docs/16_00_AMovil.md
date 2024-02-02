@@ -1367,7 +1367,7 @@ _**Imagen 161.** AMovil - Órdenes Causa de Falla_
 
 Una vez diligencie el formulario del Cierre de la OT, se deben <a class="btn cl-white bg-blue px-6"> Guardar </a> los cambios.
 
-Indique si el Activo se entrega limpio: No/Si:
+Continúe indicando si el Activo se entrega limpio: No/Si:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img160.jpg)
 _**Imagen 162.** AMovil - Órdenes Se entrega limpio_
@@ -1388,8 +1388,8 @@ _**Imagen 164.** AMovil - Órdenes Visualizar firma_
 
 Una vez se guarde la firma, se muestra el siguiente mensaje alerta:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img100.jpeg)
-_**Imagen 99.** AMovil - Solicitudes Cierre Mensaje Alerta_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img165.jpg)
+_**Imagen 165.** AMovil - Órdenes Cierre Mensaje Alerta_
 
 
 
