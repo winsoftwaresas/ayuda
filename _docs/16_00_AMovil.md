@@ -1422,19 +1422,19 @@ _**Imagen 168.** AMovil - Órdenes Evaluación_
 
 Continúe con el botón <a class="btn cl-white bg-blue px-6"> Guardar </a>. Luego de actualizarse se muestra el siguiente mensaje alerta:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img105.jpeg)  
-_**Imagen 103.** AMovil - Solicitudes Registro Evaluación_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img169.jpg)  
+_**Imagen 169.** AMovil - Órdenes Registro Evaluación_
 
-En la parte inferior se habilita el botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-outline"></span> Firma de quien recibe/Evalúa</a> con el fin de registrar la firma del Solicitante:
+Una vez guardados los cambios, en la parte inferior se habilita el botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-outline"></span> Firma de quien recibe/Evalúa</a> con el fin de registrar la firma del Solicitante ó persona que recibe el servicio:
 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img106.jpeg)  
-_**Imagen 104.** AMovil - Solicitudes Ir a Firma Solicitante_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img170.jpg)  
+_**Imagen 170.** AMovil - Órdenes Ir a Firma Solicitante_
 
 Al ingresar a la opción se muestra una ventana detalle ingreso de la firma del Solicitante:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img107.jpeg)
-_**Imagen 105.** AMovil - Solicitudes Detalle Firma Solicitante_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img171.jpg)
+_**Imagen 171.** AMovil - Órdenes Detalle Firma Solicitante_
 
 Continúe ingresando registrando la firma, a continuación se muestra una ejemplo gráfico:
 
