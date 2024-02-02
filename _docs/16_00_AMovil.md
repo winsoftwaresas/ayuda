@@ -1452,14 +1452,14 @@ _**Imagen 173.** AMovil - Órdenes Mensaje Alerta Firma Recibido Satisfacción_
 
 Para verificar el registro de la firma, ingrese nuevamente en el botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-outline"></span> Firma de quien recibe/Evalúa</a> y en el detalle del ingreso de la firma continúe a la opción <a class="btn cl-w black bd-blue bg-white px-6"> Visualizar Firma </a>:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img110.jpeg)
-_**Imagen 109.** AMovil - Solicitudes Visualizar Firma Solicitante_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img174.jpg)
+_**Imagen 174.** AMovil - Órdenes Visualizar Firma Recibido Satisfacción_
 
 
-También, es posible saber que un registro posee la firma del Solicitante, a través del indicador blanco <span class="iconify cl-white bd-black btn-rounded" data-icon="mdi-circle"></span> así:
+También, es posible saber que un registro posee la firma del Solicitante o de la persona que recibió a satisfacción a través del indicador blanco <span class="iconify cl-white bd-black btn-rounded" data-icon="mdi-circle"></span> así:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img111.jpeg)
-_**Imagen 110.** AMovil - Solicitudes Indicador Firma Solicitante_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img175.jpg)
+_**Imagen 175.** AMovil - Órdenes Indicador Firma Solicitante_
 
 
 ### Firma Masiva
