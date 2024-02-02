@@ -1465,21 +1465,19 @@ _**Imagen 175.** AMovil - Órdenes Indicador Firma Recibido Satisfacción_
 ### Firma Masiva
 
 
-Esta opción se sugiere cuando un técnico responsable requiere registrar la firma tanto de él como de la persona que recibe de forma masiva o para un subgrupo de Órdenes.
+Esta opción se sugiere cuando un técnico responsable requiere registrar la firma tanto de él como de la persona que recibe de forma masiva  para un subgrupo de Órdenes.
 
 Es de considerar que para ejecutar esta transacción las OT requieren tener diligenciados los tiempos de ejecución y deben estar cerradas. 
 
-Desde **AM** se puede parametrizar el **Permitir Firma de Recibido sin Evaluación en AMovil**.
+>**Nota:** Desde **AM** se puede parametrizar el **Permitir Firma de Recibido sin Evaluación en AMovil**.
 
 
-Es posible hacer el ingreso de la firma del Responsable Ejecutor Responsable y también de la persona o solicitante que recibe. 
+El objetivo ingresar la firma del Responsable Ejecutor Responsable y también de la persona que recibe a satisfacción. Para ello se sugiere usar la función **Subgrupo**. A continuación se muestra un ejemplo del paso a paso:
 
-Para ello se sugiere usar la función **Subgrupo**. A continuación se muestra un ejemplo del paso a paso:
+Una vez ingrese a la opción <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-magnify"></span> Consultar Ordenes </a> diríjase a la opción Subgrupo <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-filter-variant"></span></a> mostrado a continuación:
 
-Una vez ingrese a la opción <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-magnify"></span> Consultar Solicitudes</a> diríjase a la opción Subgrupo <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-filter-variant"></span></a> mostrado a continuación:
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img112.png)
-_**Imagen 111.** AMovil - Consulta Solicitudes _
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img176.jpg)
+_**Imagen 176.** AMovil - Consulta Órdenes _
 
 Haga la búsqueda por medio de los siguientes filtros en la opción <a class="btn cl-black bg-white bd-gray px-5"></span>Seleccione un filtro</a>:
 
