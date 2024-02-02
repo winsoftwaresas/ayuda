@@ -1465,9 +1465,9 @@ _**Imagen 175.** AMovil - Órdenes Indicador Firma Recibido Satisfacción_
 ### Firma Masiva
 
 
-Esta opción se sugiere cuando un técnico responsable requiere registrar la firma tanto de él como de la persona que recibe de forma masiva o para un subgrupo de Solicitudes.
+Esta opción se sugiere cuando un técnico responsable requiere registrar la firma tanto de él como de la persona que recibe de forma masiva o para un subgrupo de Órdenes.
 
-Es de considerar que para ejecutar esta transacción las Solicitudes de Servicio requieren tener diligenciados los tiempos de ejecución y deben estar cerradas. 
+Es de considerar que para ejecutar esta transacción las OT requieren tener diligenciados los tiempos de ejecución y deben estar cerradas. 
 
 Desde **AM** se puede parametrizar el **Permitir Firma de Recibido sin Evaluación en AMovil**.
 
