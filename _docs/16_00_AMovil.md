@@ -1477,10 +1477,10 @@ El objetivo ingresar la firma del Responsable Ejecutor Responsable y también de
 Una vez ingrese a la opción <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-magnify"></span> Consultar Ordenes </a> diríjase a la opción Subgrupo <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-filter-variant"></span></a> mostrado a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img176.jpg)
-_**Imagen 176.** AMovil - Consulta Órdenes _
+_**Imagen 176.** AMovil - Consulta Órdenes_
 
-Haga la búsqueda por medio de los siguientes filtros en la opción <a class="btn cl-black bg-white bd-gray px-5"></span>Seleccione un filtro</a>:
-
+Haga la búsqueda por medio de los siguientes filtros en la opción <a class="btn cl-black bg-white bd-gray px-5"></span>Seleccione un filtro</a>: 
+    
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img113.jpg)
 _**Imagen 112.** AMovil - Subgrupo Solicitudes_
