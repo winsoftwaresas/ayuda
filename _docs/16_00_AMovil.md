@@ -1506,44 +1506,44 @@ _**Imagen 180.** AMovil - Ir a Firma Masiva_
 
 Seguidamente elija la opción **Firma Masiva De Quien Recibe**
 <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-file-edit-outline"></span></a>:
+  
 
 
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img117.jpg)
-_**Imagen 116.** AMovil - Firma Masiva Recibido Satisfacción_
-
-
-Para ingresar la firma, primero ingrese el nombre de quien recibe o evalúa en el primer recuadro de la parte superior, continúe dibujando la firma en el siguiente recuadro. Puede rehacerla con el botón <a class="btn cl-white bg-blue px-6"> Limpiar </a> o asentarla con el botón <a class="btn cl-white bg-blue px-6"> Guardar </a>. 
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img181.jpg)
+_**Imagen 181.** AMovil - Firma Masiva Recibido Satisfacción_
 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img118.jpg)
-_**Imagen 117.** AMovil - Firma Masiva Recibido Satisfacción_
+Para ingresar la firma, primero registre el nombre de quien recibe o evalúa en el primer recuadro de la parte superior, continúe dibujando la firma en el siguiente recuadro. Puede rehacerla con el botón <a class="btn cl-white bg-blue px-6"> Limpiar </a> o asentarla con el botón <a class="btn cl-white bg-blue px-6"> Guardar </a>. 
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img182.jpg)
+_**Imagen 182.** AMovil - Firma Masiva Recibido Satisfacción_
 
 
 Al guardar la firma se muestra un mensaje alerta exitoso de ingreso. Continúe dando un toque al botón <a class="btn cl-white bg-blue px-6"> Aceptar </a>. 
 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img119.jpg)
-_**Imagen 118.** AMovil - Firma Masiva Recibido Satisfacción_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img183.jpg)
+_**Imagen 183.** AMovil - Firma Masiva Recibido Satisfacción_
 
 
 Al finalizar los registros quedan con el indicador blanco:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img120.jpg)
-_**Imagen 119.** AMovil - Firma Masiva Recibido Satisfacción_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img184jpg)
+_**Imagen 184** AMovil - Firma Masiva Recibido Satisfacción_
 
 
 
 Diríjase al botón ubicado en la parte superior derecha <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a>:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img116.jpg)
-_**Imagen 120.** AMovil - Ir a Firma Encargado Solicitud_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img185.jpg)
+_**Imagen 185.** AMovil - Ir a Firma Encargado Orden_
 
 
 Seguidamente elija la opción **Firma Masiva Del Técnico Responsable** <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-file-edit-outline"></span></a>:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img121.jpg)
-_**Imagen 121.** AMovil - Ir a Firma Encargado Solicitud_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img186.jpg)
+_**Imagen 186.** AMovil - Ir a Firma Encargado Orden_
 
 
 Continúe dibujando la firma en el siguiente recuadro. Puede rehacerla con el botón <a class="btn cl-white bg-blue px-6"> Limpiar </a> o asentarla con el botón <a class="btn cl-white bg-blue px-6"> Guardar </a>. 
