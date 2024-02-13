@@ -1479,20 +1479,19 @@ Una vez ingrese a la opción <a class="btn cl-black bg-white bd-gray px-4"><span
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img176.jpg)
 _**Imagen 176.** AMovil - Consulta Órdenes_
 
-Haga la búsqueda por medio de los siguientes filtros en la opción <a class="btn cl-black bg-white bd-gray px-5"></span>Seleccione un filtro</a>: 
+Haga la búsqueda por medio de los siguientes filtros en la opción <a class="btn cl-black bg-white bd-gray px-5"></span>Seleccione un filtro</a>, se muestran las siguientes opciones:
     
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img113.jpg)
-_**Imagen 112.** AMovil - Subgrupo Solicitudes_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img177.jpg)
+_**Imagen 177.** AMovil - Subgrupo Órdenes_
 
-Para el ejemplo se usa el filtro **Responsable**, esta opción lista todos los Responsables ejecutores de la tabla de Terceros en **AM**, además, puede facilitar la búsqueda con el botón <a class="btn cl-black bg-white bd-yellow btn-rounded"><span class="mdi mdi-magnify pr-3"></span><span class="pr-4">Buscar un Responsable </span></a>
-e introducir una parte del nombre, una vez lo seleccione se muestra el campo diligenciado, como se indica a continuación:
+Para el ejemplo se usa el filtro **Responsable**, esta opción lista todos los Responsables ejecutores de la tabla de Terceros en **AM**, además, puede facilitar la búsqueda con el botón <a class="btn cl-black bg-white bd-yellow btn-rounded"><span class="mdi mdi-magnify pr-3"></span><span class="pr-4">Buscar un Responsable </span></a> e introducir una parte del nombre. Una vez lo seleccione se muestra el campo diligenciado, como se indica a continuación:  
+   
 
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img178.jpg)
+_**Imagen 178.** AMovil - Subgrupo Órdenes_
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img114.jpg)
-_**Imagen 113.** AMovil - Subgrupo Solicitudes_
-
-Continúe con el botón <a class="btn cl-white bg-blue px-6"> Aceptar</a> ubicado en la parte inferior. 
+Continúe con el botón <a class="btn cl-white bg-blue px-6"> Aceptar</a> ubicado en la parte inferior.
 
 Luego, visualice el resultado del Subgrupo en la parte superior con el botón <a class="btn cl-black bg-white px-5">3</a>:
 
