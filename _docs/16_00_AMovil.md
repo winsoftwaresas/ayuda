@@ -1489,19 +1489,19 @@ Para el ejemplo se usa el filtro **Responsable**, esta opción lista todos los R
    
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img178.jpg)
-_**Imagen 178.** AMovil - Subgrupo Órdenes_
+_**Imagen 178.** AMovil - Subgrupo Órdenes_ 
 
 Continúe con el botón <a class="btn cl-white bg-blue px-6"> Aceptar</a> ubicado en la parte inferior.
 
-Luego, visualice el resultado del Subgrupo en la parte superior con el botón <a class="btn cl-black bg-white px-5">3</a>:
+Luego, visualice el resultado del Subgrupo en la parte superior a través del botón <a class="btn cl-black bg-white px-5">7</a>:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img115.jpg)
-_**Imagen 114.** AMovil - Subgrupo Solicitudes_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img179.jpg)
+_**Imagen 179.** AMovil - Subgrupo Órdenes_
 
 Diríjase al botón ubicado en la parte superior derecha <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a>:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img116.jpg)
-_**Imagen 115.** AMovil - Ir a Firma Masiva_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img180.jpg)
+_**Imagen 180.** AMovil - Ir a Firma Masiva_
 
 
 Seguidamente elija la opción **Firma Masiva De Quien Recibe**
