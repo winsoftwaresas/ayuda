@@ -1549,20 +1549,20 @@ _**Imagen 186.** AMovil - Ir a Firma Encargado Orden_
 Continúe dibujando la firma en el siguiente recuadro. Puede rehacerla con el botón <a class="btn cl-white bg-blue px-6"> Limpiar </a> o asentarla con el botón <a class="btn cl-white bg-blue px-6"> Guardar </a>. 
 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img122.jpg)
-_**Imagen 122.** AMovil - Firma Masiva Encargado Solicitud_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img187.jpg)
+_**Imagen 187.** AMovil - Firma Masiva Encargado Orden_
 
 
 Al guardar la firma se muestra un mensaje alerta exitoso de ingreso. Continúe dando un toque al botón <a class="btn cl-white bg-blue px-6"> Aceptar </a>. 
 
 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img123.jpg)
-_**Imagen 123.** AMovil - Firma Masiva Mensaje Alerta_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img188.jpg)
+_**Imagen 188.** AMovil - Firma Masiva Mensaje Alerta_
 
 
 Al finalizar los registros quedan con el indicador gris <span class="iconify cl-gray bd-gray bg-gray btn-rounded" data-icon="mdi-circle"></span>:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img124.jpg)
-_**Imagen 124.** AMovil - Firma Masiva Encargado Solicitud Indicador_
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img189.jpg)
+_**Imagen 189.** AMovil - Firma Masiva Encargado Orden Indicador_
      
