@@ -1,5 +1,19 @@
 # Changelog page source
 
+
+- title: AM4G  Version 1.1A
+  label: STABLE
+  date: December 05, 2023
+  list:
+   - El administrador del modulo de AMsi puede definir si desea preguntar a los solicitantes Si se entrega el equipo limpio a mantenimiento. 
+   - Se adicionan los filtros de búsqueda por Familia y Parte Número en Almacen.
+   - Se corrige en Kardex el calculo del iva cuando las entradas tienen descuento, este se calcula en base al valor con el descuento incluido.
+   - Se adicionan en el modulo de Solicitudes los campos para registrar si el activo se entrega limpio a mantenimiento y si mantenimiento devuelve el activo limpio.
+   - Se adiciona en el modulo de Solicitudes el campo para registrar si mantenimiento devuelve el activo limpio.
+   - Se adicionan en el modulo de Ordenes los campos para registrar si el activo se entrega limpio a mantenimiento.
+   - Se adicionan en el modulo de Historia los campos para registrar los datos de entrega del activo en las diferentes Ordenes, Solicitudes o Paros.
+   - En el modulo de Administracion se podrá definir por cada compañía como deben aumentar los consecutivos de Kardex, si por almacén o por compañía. 
+
 - title: AM4G  Version 1.1
   label: STABLE
   date: October 10, 2023
