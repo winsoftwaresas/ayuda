@@ -1565,4 +1565,20 @@ Al finalizar los registros quedan con el indicador gris <span class="iconify cl-
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img189.jpg)
 _**Imagen 189.** AMovil - Firma Masiva Encargado Orden Indicador_
-     
+
+
+## Crear Orden
+
+Para crear un nuevo registro diríjase al botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-plus-outline"></span> Crear Activo </a> Crear Orden </a>, el cual conlleva al siguiente formulario:
+ 
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img190.jpg)
+_**Imagen 190.** AMovil - Submenú Ir a Crear Órden_
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img191.jpg)
+_**Imagen 191.** AMovil - Formulario Crear Órden_
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img192.jpg)
+_**Imagen 192.** AMovil - Formulario Crear Órden_
