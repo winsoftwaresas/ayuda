@@ -1,5 +1,15 @@
 # Changelog page source
 
+- title: AM4G  Version 1.1B
+  label: STABLE
+  date: February 05, 2023
+  list:
+   - Se cambia en el modulo de Activos el concepto de Clasificación por procesos a Criticidad del Activo.
+   - Se adiciona en el modulo de Activos Ítem Equipos de apoyo hospitalario a la clasificación Biomédica en la ficha de Información Biomédica.
+   - Se adiciona en el modulo de Activos el campo Número de Expediente en la ficha de Información biomédica.
+   - Se adiciona en el modulo de Activos el campo Clasificación por Riesgo en los Subgrupos de búsqueda.
+   - Se adicionan en el modulo de Programas los filtros de Búsqueda de Clasificación Por Uso, Clasificación Por Grupo y Clasificación Por Riesgo.
+   - Se permite definir en el modulo de Adminisracion para las compañías que usan AMovil, si desean que solo se permita descargar a los técnicos las Ordenes programadas para el día actual.
 
 - title: AM4G  Version 1.1A
   label: STABLE
