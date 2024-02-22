@@ -1582,3 +1582,20 @@ _**Imagen 191.** AMovil - Formulario Crear Órden_
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img192.jpg)
 _**Imagen 192.** AMovil - Formulario Crear Órden_
+
+Todos los campos son obligatorios, se debe contar con los permisos para visualizar la Órden creada. 
+
+A continuación se da una breve explicación de cada campo:
+
+**Descripción:**  Es un texto corto por medio del cual se indica la labor a realizar. Debe ser conciso y no dar lugar a ambigüedades.
+
+**Solicitante:** Es la persona que solicita la labor a realizar, puede ser escrito manualmente o ser un RI(Un responsable interno que está registrado en la tabla de Infraestructura Terceros).
+
+**Activo:** Es el objeto de mantenimiento.
+
+**FF/HH Programada:** Es la fecha en la que se va a realizar la labor.
+
+**Centro Responsable:** Es el grupo ejecutor de mantenimiento a cargo de la labor a realizar.
+
+**Responsable:** Es la persona natural o jurídica principal a ejecutar la labor de mantenimiento.
+
