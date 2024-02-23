@@ -59,7 +59,7 @@ _**Imagen 136.** AMovil - Ir a Submenú Gestión/Cierre Ordenes_
 ### Actualizar tiempos
 
 
-Para ingresar los tiempos de ejecución de la Órden diríjase al <a class="btn bg-mint bd-mint px-6">Detalle</a> de la Órden de Trabajo y luego al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego a <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-update"></span></a>. Se muestra el detalle de la Órden en cuestión, aquellas con estado **En análisis** deben tener previamente la **Fecha y hora de Atención**, se muestra un ejemplo a continuación:
+Para ingresar los tiempos de ejecución de la Órden diríjase al <a class="btn cl-black bg-mint bd-mint px-6">Detalle</a>  de la Órden de Trabajo y luego al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego a <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-update"></span></a>. Se muestra el detalle de la Órden en cuestión, aquellas con estado **En análisis** deben tener previamente la **Fecha y hora de Atención**, se muestra un ejemplo a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img131.jpg)
 _**Imagen 137.** AMovil - Ordenes Actualizar tiempos_
