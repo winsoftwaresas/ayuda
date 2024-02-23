@@ -30,7 +30,7 @@ Para consulta y seguimiento de las Órdenes de Trabajo dirigirse al botón <a cl
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img126.jpg)
 _**Imagen 132.** AMovil - Consulta Ordenes_
 
-Para ir al detalle del registro dar un toque en el botón  <a class="btn bg-mint bd-mint px-6">Detalle</a> como se muestra a continuación:
+Para ir al detalle del registro dar un toque en el botón  <a class="btn cl-black bg-mint bd-mint px-6">Detalle</a> como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img127.jpg)
 _**Imagen 133.** AMovil - Ordenes Detalle_
