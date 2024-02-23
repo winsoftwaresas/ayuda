@@ -9,7 +9,6 @@ published: true
 hidden: true
 ---
 
-# Solicitudes 
 
 Para ir a Solicitudes de Servicio dar un toque sobre el botón <a class="btn cl-black bg-white pl-2 pr-3 bd-blue"><span class="iconify cl-black fs-2 pr-1" data-icon="mdi-card-text-outline"></span> Solicitudes</a> en el menú principal:
 

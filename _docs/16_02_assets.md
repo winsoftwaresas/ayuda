@@ -8,7 +8,6 @@ published: true
 hidden: true
 ---
 
-# Activos 
 
 Para acceder al Submenú de Activos se debe dar un toque sobre el botón <a class="btn cl-black bg-white pl-2 pr-3 bd-gray"><span class="iconify cl-black fs-2 pr-1" data-icon="mdi-home-city-outline"></span> Activos</a>. El listado se muestra completo dependiendo de los permisos que tenga el usuario.
 

@@ -8,7 +8,7 @@ published: true
 hidden: true
 ---
 
-# Almacén
+
 
 
 Para acceder al Almacén se debe dar un toque sobre el botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-warehouse"></span> Almacen </a>:
