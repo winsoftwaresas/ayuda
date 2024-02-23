@@ -122,7 +122,7 @@ _**Imagen 146.** AMovil - Ordenes Ingreso Automático de Tiempos_
 
 ### Adicionar mano obra interna
 
-Para ingresar al personal técnico interno que participó en la ejecución de la Órden, ingrese al <a class="btn bg-mint bd-mint px-6">Detalle</a> de la Órden de Trabajo en cuestión, seguidamente al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego en <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-account-plus-outline"></span></a>:
+Para ingresar al personal técnico interno que participó en la ejecución de la Órden, ingrese al <a class="btn cl-black bg-mint bd-mint px-6">Detalle</a> de la Órden de Trabajo en cuestión, seguidamente al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego en <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-account-plus-outline"></span></a>:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img141.jpg)
 _**Imagen 147.** AMovil - Ir a Ordenes Ingreso Mano Obra Interna_
@@ -161,7 +161,7 @@ En caso de ingresar mas personal interno, repita los pasos anteriores.
 
 ### Comentarios
 
-Para ingresar los comentarios o detalles de la ejecución ingrese al <a class="btn bg-mint bd-mint px-6">Detalle</a> de la OT en cuestión, seguidamente al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego a <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-wechat"></span></a> como se indica a continuación:
+Para ingresar los comentarios o detalles de la ejecución ingrese al <a class="btn cl-black bg-mint bd-mint px-6">Detalle</a> de la OT en cuestión, seguidamente al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego a <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-wechat"></span></a> como se indica a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img147.jpg)
 _**Imagen 153.** AMovil - Ir a Ordenes Comentarios_
@@ -193,7 +193,7 @@ Para ingresar mas comentarios repita los pasos anteriores.
 ### Multimedia 
 
 
-Para ingresar documentos, imágenes o videos a la OT diríjase al detalle del registro <a class="btn bg-mint bd-mint px-6">Detalle</a> luego al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego ir a <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-paperclip"></span></a> como se indica a continuación: 
+Para ingresar documentos, imágenes o videos a la OT diríjase al detalle del registro <a class="btn cl-black bg-mint bd-mint px-6">Detalle</a> luego al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego ir a <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-paperclip"></span></a> como se indica a continuación: 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img151.jpg)
 _**Imagen 157.** AMovil - Órdenes Ir a Multimedia_
