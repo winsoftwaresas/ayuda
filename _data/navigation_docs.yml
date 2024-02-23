@@ -94,10 +94,10 @@
   - 15_10_user_settings
   - 15_11_logout
 
-#- title: AMovil
-#  docs:
-#  - 16_01_introduction
-#  - 16_02_assets
-#  - 16_03_warehouse
-#  - 16_04_service_requests
-#  - 16_05_work_orders
+- title: AMovil
+  docs:
+  - 16_01_basic_concepts
+  - 16_02_assets
+  - 16_03_warehouse
+  - 16_04_requests
+  - 16_05_orders

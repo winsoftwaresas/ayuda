@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Conceptos Básicos
-subtitle: 
+subtitle: Descripción de los modos de sincronización, botones y comandos básicos generales para comenzar
 tags: [AMovil]
 author: win
 order: 16_01
