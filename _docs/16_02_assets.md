@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Activos
 subtitle: Explicación del módulo de Activos, creación de registro, consulta e inventario físico
 tags: [AMovil]

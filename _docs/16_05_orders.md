@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Ordenes
 subtitle: Explicación del módulo del módulo de Órdenes, creación, consulta, cierre y registro de firmas
 tags: [AMovil]

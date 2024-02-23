@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Almacén
 subtitle: Explicación del módulo del módulo de Almacén, creación de materiales y repuestos, consulta y reservas
 tags: [AMovil]

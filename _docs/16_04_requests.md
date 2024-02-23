@@ -1,5 +1,5 @@
 ---
-layout: default
+
 title: Solicitudes 
 subtitle: Explicación del módulo del módulo de Solicitudes, creación, consulta, cierre y registro de firmas
 tags: [AMovil]
