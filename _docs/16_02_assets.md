@@ -4,8 +4,8 @@ subtitle: Explicación del módulo de Activos, creación de registro, consulta e
 tags: [AMovil]
 author: win
 order: 16_02
-published: true
-hidden: true
+
+
 ---
 
 

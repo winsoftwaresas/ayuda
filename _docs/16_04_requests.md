@@ -5,8 +5,7 @@ subtitle: Explicación del módulo del módulo de Solicitudes, creación, consul
 tags: [AMovil]
 author: win
 order: 16_04
-published: true
-hidden: true
+
 ---
 
 

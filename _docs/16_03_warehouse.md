@@ -4,8 +4,7 @@ subtitle: Explicación del módulo del módulo de Almacén, creación de materia
 tags: [AMovil]
 author: win
 order: 16_03
-published: true
-hidden: true
+
 ---
 
 

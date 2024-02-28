@@ -4,8 +4,7 @@ subtitle: Explicación del módulo del módulo de Órdenes, creación, consulta,
 tags: [AMovil]
 author: win
 order: 16_05
-published: true
-hidden: true
+
 ---
 
 
