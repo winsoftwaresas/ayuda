@@ -85,6 +85,7 @@ Para subir un nuevo archivo, continúe dando un toque sobre <a class="btn cl-whi
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img16.jpeg)
+
 _**Imagen 16.** AMovil - Guardar Multimedia_
 
 
@@ -93,6 +94,8 @@ Cuando se cargue el archivo, el aplicativo  muestra un mensaje de guardado exito
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img17.jpeg)
+
+
 _**Imagen 17.** AMovil - Mensaje Alerta Guardar Multimedia_
 
 Los archivos añadidos se guardan en el orden del mas reciente al mas antiguo como se indica en la siguiente imagen:
