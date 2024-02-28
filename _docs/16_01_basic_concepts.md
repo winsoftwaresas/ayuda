@@ -22,6 +22,7 @@ Se aprende a interpretar los comandos y a seleccionar las opciones de los módul
 Una vez se ingrese a la aplicación (APK suministrada por WIN Software), se visualiza la ventana para iniciar sesión:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img01.jpeg)
+
 _**Imagen 1.** AMovil - Iniciar Sesión_
 
 
@@ -29,6 +30,7 @@ Cuando se ingresa a la aplicación se muestran los dashboards sin carga de datos
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img02.jpeg)
+
 _**Imagen 2.** AMovil - Inicio_
 
 ## Sincronización 
@@ -40,6 +42,7 @@ En la parte superior derecha se visualizan los siguientes íconos que representa
 <a class="btn cl-white bg-blue fs-2"><span class="iconify btn-icon cl-white" data-icon="mdi-download"></span><span class="dot bg-af-green"></span></a>: descarga la información de la base de datos para comenzar a trabajar con la aplicación. Al dar un toque aparece un mensaje de advertencia:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img03.jpeg)
+
 _**Imagen 3.** AMovil - Mensaje Advertencia descarga_
 
 Para continuar dar un toque en <a class="btn cl-white bg-blue px-4"> Aceptar</a>. 
@@ -50,6 +53,7 @@ Para evitar el proceso dar un toque sobre el botón <a class="btn cl-white bg-gr
 Una vez se inicie el proceso de descarga, se indica el avance así:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img04.jpeg)
+
 _**Imagen 4.** AMovil - Descarga de datos_
 
 
@@ -57,6 +61,7 @@ Finalizado el proceso de descarga, los dashboards se actualizan automáticamente
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img05.jpeg)
+
 _**Imagen 5.** AMovil - Actualización de datos_
 
 
@@ -78,11 +83,13 @@ Al sincronizar, aparece un mensaje de advertencia:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img06.jpeg)
+
 _**Imagen 6.** AMovil - Advertencia Sincronizar datos_
 
 Para continuar dar un toque en <a class="btn cl-white bg-blue px-4"> Aceptar</a>. Mostrando el progreso de sincronización:
 .  
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img07.jpeg)
+
 _**Imagen 7.** AMovil - Proceso Sincronizar_
 
 Una vez complete el proceso, puede cerrar sesión en la aplicación.
@@ -93,6 +100,7 @@ Una vez complete el proceso, puede cerrar sesión en la aplicación.
 <a class="btn cl-white bg-blue"><span class="mdi mdi-menu cl-white fs-2"></span></a>: ingresa al menú principal de la aplicación, como se muestra a continuación:  
 
 ![Proces  <ar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img08.jpeg)
+
 _**Imagen 8.** AMovil - Ir a Menú_
 
 

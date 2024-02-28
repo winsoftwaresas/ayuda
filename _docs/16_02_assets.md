@@ -14,6 +14,7 @@ Para acceder al Submenú de Activos se debe dar un toque sobre el botón <a clas
 Al ingresar al módulo de Activos aparecen las siguientes opciones:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img09.jpeg)
+
 _**Imagen 9.** AMovil - Submenú de Activos_
 
 
@@ -25,6 +26,7 @@ En la parte superior derecha se visualiza el número total de Activos registrado
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img10.jpeg)
+
 _**Imagen 10.** AMovil - Ir a Detalle Activos_
 
 Para visualizar la ficha técnica del Activo, dar un toque sobre el botón <a class="btn cl-black bg-blue-25 bd-blue px-4">Detalle</a>:
@@ -32,6 +34,7 @@ Para visualizar la ficha técnica del Activo, dar un toque sobre el botón <a cl
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img11.jpeg)
+
 _**Imagen 11.** AMovil - Ficha Técnica Activos_
      
 
@@ -41,6 +44,7 @@ El aplicativo confirma que se ha actualizado el registro, para continuar dar un 
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img12.jpeg)
+
 _**Imagen 12.** AMovil - Mensaje Alerta Actualizar Activos_
  
 
@@ -51,6 +55,7 @@ Para ingresar a **Multimedia** de Activos, ingrese al Detalle del registro en cu
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img13.jpeg)
+
 _**Imagen 13.** AMovil - Ir a Multimedia_
 
 Para añadir multimedia o descargar los archivos existentes dar un toque en <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-paperclip"></span></a>. Éste muestra la información general del Activo y tres carpetas disponibles: 
@@ -61,6 +66,7 @@ Para añadir multimedia o descargar los archivos existentes dar un toque en <a c
 Como se muestra en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img14.jpeg)
+
 _**Imagen 14.** AMovil - Multimedia_
 
 A continuación se ilustra un ejemplo para subir Documentos, el cual es el mismo para Imágenes o Videos:
@@ -71,6 +77,7 @@ Para agregar o consultar documentos dar un toque en la respectiva carpeta <a cla
 En caso caso de tener documentos añadidos desde **AM**, es  posible visualizarlos a través del botón <span  class="iconify icon cl-black bg-white" data-icon="mdi-download"></span></a>.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img15.jpeg)
+
 _**Imagen 15.** AMovil - Guardar Multimedia_
 
 Para subir un nuevo archivo, continúe dando un toque sobre <a class="btn cl-white bg-blue px-4">Subir archivo</a>, éste abre el explorador de archivos de su dispositivo móvil. Una vez seleccione el archivo, se visualiza el nombre del documento debajo del botón <a class="btn cl-white bg-blue px-4">Guardar</a>, como se indica en la siguiente imagen:
@@ -91,7 +98,8 @@ _**Imagen 17.** AMovil - Mensaje Alerta Guardar Multimedia_
 Los archivos añadidos se guardan en el orden del mas reciente al mas antiguo como se indica en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img17_01.jpeg)
-_**Imagen 17.** AMovil - Visualización Multimedia_
+
+_**Imagen 18.** AMovil - Visualización Multimedia_
 
 
    
@@ -102,17 +110,20 @@ Se usa para realizar búsquedas de Activos que cumplen con un conjunto de filtro
 Para ingresar a esta opción se debe dar un toque al icono de Subgrupo <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-filter-variant"></span></a> ubicado en la parte inferior derecha de la pantalla, como se indica a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img18.jpeg)
-_**Imagen 18.** AMovil - Ir a Subgrupo_
+
+_**Imagen 19.** AMovil - Ir a Subgrupo_
 
 Esto lleva a la siguiente ventana, como se indica a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img19.jpeg)
-_**Imagen 19.** AMovil - Seleccionar un filtro Subgrupo_
+
+_**Imagen 20.** AMovil - Seleccionar un filtro Subgrupo_
  
 Se debe dar un toque sobre el botón <a class="btn cl-gray bg-white bd-gray px-5"></span>Seleccione un filtro</a> para visualizar los siguientes criterios de búsqueda:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img20.jpeg)
-_**Imagen 20.** AMovil - Subgrupo Criterios de Búsqueda_
+
+_**Imagen 21.** AMovil - Subgrupo Criterios de Búsqueda_
 
 
  - Código AC
@@ -136,20 +147,23 @@ Una vez que se haya elegido el criterio de búsqueda, se muestran los siguientes
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img21.jpeg)
-_**Imagen 21.** AMovil - Subgrupo Código AC_
+
+_**Imagen 22.** AMovil - Subgrupo Código AC_
 
 Finalice dando un toque en <a class="btn cl-white bg-blue px-3"> Aceptar </a> una vez que haya ingresado información al campo, a continuación se muestra el resultado de la búsqueda para el código **COA**. El botón <a class="btn cl-black bg-white px-5">11</a> ubicado en la parte superior derecha de la ventana es la cantidad de resultados obtenidos:
 
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img22.jpeg)
-_**Imagen 22.** AMovil - Subgrupo Resultado_
+
+_**Imagen 23.** AMovil - Subgrupo Resultado_
 
   
 El Subgrupo se conserva hasta que el usuario reestablezca los valores por defecto, para reestablecerlo o para hacer otras búsquedas dar un toque nuevamente en el bóton <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-filter-variant"></span></a> en el cual se muestran las últimas búsquedas realizadas.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img23.jpeg)
-_**Imagen 23.** AMovil - Subgrupo Búsquedas recientes_
+
+_**Imagen 24.** AMovil - Subgrupo Búsquedas recientes_
 
 
 Para eliminar el historial completo de búsquedas dar un toque en el botón <a class="btn cl-white bg-blue px-3"> Limpiar </a> y luego en <a class="btn cl-white bg-blue px-3"> Aceptar </a> para volver a los valores por defecto o puede removerlos uno por uno a través del botón <span class="iconify icon cl-red bg-white" data-icon=mdi-delete-outline></span></a>.
@@ -164,11 +178,13 @@ Para Crear un Activo dar un toque en el botón del submenu de Activos <a class="
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img24.jpeg)
-_**Imagen 24.** AMovil - Crear Activo Formulario_
+
+_**Imagen 25.** AMovil - Crear Activo Formulario_
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img25.jpeg)
-_**Imagen 25.** AMovil - Crear Activo Formulario_
+
+_**Imagen 26.** AMovil - Crear Activo Formulario_
 
 Los campos con un asterisco (*) al inicio, indican que son campos obligantes. A continuación se da una breve explicación de los campos:
 
@@ -209,7 +225,8 @@ El aplicativo muestra un mensaje alerta confirmado el ingreso del registro, como
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img26.jpeg)
-_**Imagen 26.** AMovil - Crear Activo Mensaje Aviso_
+
+_**Imagen 27.** AMovil - Crear Activo Mensaje Aviso_
 
 
 
@@ -223,7 +240,8 @@ A continuación se muestra el listado de los Activos que tienen asociado un cont
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img27.jpeg)
-_**Imagen 27.** AMovil - Ir a Actualizar Contadores_
+
+**Imagen 28.** AMovil - Ir a Actualizar Contadores_
 
 De la imagen anterior se indica lo siguiente: 
 
@@ -233,7 +251,8 @@ Los Activos sombreados en gris indican que son **"Hijos"** y además, poseen la 
 En esta sección también es posible hacer un subgrupo <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-filter-variant"></span></a> para actualizar el contador de un grupo de Activos , a continuación se muestra un ejemplo: 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img28.jpeg)
-_**Imagen 28.** AMovil - Actualizar Contadores_
+
+_**Imagen 29.** AMovil - Actualizar Contadores_
 
 En la imagen anterior, se visualiza un Activo padre y un Activo hijo que no posee el mismo valor de contador; al presentarse esta diferencia se debe <a class="btn cl-black bg-blue-25 bd-blue px-6">Actualizar</a> el valor de cada uno.
 
@@ -242,21 +261,24 @@ En este ejemplo se muestra el detalle del Activo Padre:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img29.jpeg)
-_**Imagen 29.** AMovil - Detalle Actualizar Contadores_
+
+_**Imagen 30.** AMovil - Detalle Actualizar Contadores_
 
 
 Se digita el nuevo valor de medición del contador y finalmente se da un toque en el botón <a class="btn cl-white bg-blue px-3"> Guardar </a>, el aplicativo muestra un mensaje alerta confirmando los cambios realizados.
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img30.jpeg)
-_**Imagen 30.** AMovil - Mensaje Alerta Actualizar Contadores_
+
+_**Imagen 31.** AMovil - Mensaje Alerta Actualizar Contadores_
 
 Cuando se detecta un valor inferior al valor actual del contador del Activo, el aplicativo muestra un mensaje alerta y se deberá revisar nuevamente el valor ingresado:
 
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img31.jpeg)
-_**Imagen 31.** AMovil - Mensaje Alerta Actualizar Contadores_
+
+_**Imagen 32.** AMovil - Mensaje Alerta Actualizar Contadores_
 
 
 >_**Nota:** los Activos hijos sombreados en gris se actualizan automáticamente una vez se actualice el contador del Activo Padre._
@@ -267,7 +289,8 @@ _**Imagen 31.** AMovil - Mensaje Alerta Actualizar Contadores_
 Para llevar a cabo esta transacción se debe dar un toque sobre el botón <a class="btn cl-black bg-white bd-gray px-6"><span class="iconify cl-black" data-icon="mdi-format-list-bulleted-square"></span> Inventario físico </a> ubicado en el submenú de Activos, el cual muestra el siguiente submenú:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img32.jpeg)
-_**Imagen 32.** AMovil - Ir a Inventario físico_
+
+_**Imagen 33.** AMovil - Ir a Inventario físico_
 
 
 
@@ -277,37 +300,43 @@ El criterio <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify c
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img33.jpeg)
-_**Imagen 33.** AMovil - Ir a Inventario físico Otro_
+
+_**Imagen 34.** AMovil - Ir a Inventario físico Otro_
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img33_01.jpeg)
-_**Imagen 34.** AMovil - Ir a Inventario físico Otro_
+
+_**Imagen 35.** AMovil - Ir a Inventario físico Otro_
 
 
 
 Al elegir una de las opciones mostradas anteriormente el aplicativo muestra un mensaje de advertencia, que consiste en recordar que cada uno de los Activos debe tener un código de barras o un código QR o bien un código alfanumérico. 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img34.jpeg)
-_**Imagen 35.** AMovil - Ir a Inventario físico Ubicación Física_
+
+_**Imagen 36.** AMovil - Ir a Inventario físico Ubicación Física_
 
 
 Se ilustra un ejemplo usando el criterio **Ubicación Física.** Se muestran todas las ubicaciones de la base de datos:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img35.jpeg)
-_**Imagen 36.** AMovil - Inventario físico Ubicación Física_
+
+_**Imagen 37.** AMovil - Inventario físico Ubicación Física_
 
 Sin embargo, para facilitar la búsqueda use el botón <a class="btn cl-black bg-white bd-yellow btn-rounded"><span class="mdi mdi-magnify pr-3"></span><span class="pr-4">Buscar una Ubicación física</span></a> y digite una parte del nombre de la ubicación física:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img36.jpeg)
-_**Imagen 37.** AMovil - Inventario físico Buscar Ubicación Física_
+
+_**Imagen 38.** AMovil - Inventario físico Buscar Ubicación Física_
 
 Seleccione la ubicación física de interés, a continuación se visualiza la pantalla para comenzar el inventario:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img37.jpeg)
-_**Imagen 38.** AMovil - Inventario físico Buscar Iniciar Inventario_
+
+_**Imagen 39.** AMovil - Inventario físico Buscar Iniciar Inventario_
 
  
 A continuación se indica el significado del color de los indicadores:
@@ -333,13 +362,15 @@ A continuación se ilustra un ejemplo con el criterio Ubicación Física:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img38.jpeg)
-_**Imagen 39.** AMovil - Inventario físico Detalle_
+
+_**Imagen 40.** AMovil - Inventario físico Detalle_
 
 Si se da un toque sobre cualquiera de los indicadores de colores ubicados en la parte superior se muestra un mensaje corto que explica su función en la parte inferior derecha:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img39.png)
-_**Imagen 40.** AMovil - Inventario físico Mensaje Indicador_
+
+_**Imagen 41.** AMovil - Inventario físico Mensaje Indicador_
 
 
 
@@ -353,7 +384,8 @@ Una vez se haga lectura del código QR, se muestra un mensaje en la parte inferi
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img40.jpeg)
-_**Imagen 41.** AMovil - Inventario físico Lectura Código QR_
+
+_**Imagen 42.** AMovil - Inventario físico Lectura Código QR_
 
 
 >**Nota:** El inventario puede continuar su curso siempre y cuando el usuario no escoja la opción  <a class="btn cl-white bg-red 25 px-6">Finalizar inventario</a>
@@ -364,7 +396,8 @@ Para continuar el inventario dar un toque en <a class="btn cl-white bg-green 25 
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img41.jpeg)
-_**Imagen 42.** AMovil - Inventario físico Continuar Inventario_
+
+_**Imagen 43.** AMovil - Inventario físico Continuar Inventario_
 
 
 
@@ -372,30 +405,36 @@ El aplicativo actualiza lo que lleva del proceso:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img42.jpeg)
-_**Imagen 43.** AMovil - Inventario físico Continuar Inventario_
+
+_**Imagen 44.** AMovil - Inventario físico Continuar Inventario_
 
 
 Se ilustra dentro del mismo ejemplo de inventario el registro de un Activo con la opción manual <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-square-edit-outline"></span></a>
 : 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img43.jpeg)
-_**Imagen 44.** AMovil - Inventari o físico Continuar Inventario_
+
+_**Imagen 45.** AMovil - Inventari o físico Continuar Inventario_
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img44.jpeg)
-_**Imagen 45.** AMovil - Inventario físico Continuar Inventario_
+
+_**Imagen 46.** AMovil - Inventario físico Continuar Inventario_
 
 Se muestra un mensaje exitoso en la parte inferior confirmando el registro del Activo:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img45.jpeg)
-_**Imagen 46.** AMovil - Inventario físico Continuar Inventario_
+
+_**Imagen 47.** AMovil - Inventario físico Continuar Inventario_
 
 
 Al dar un toque en el botón <a class="btn cl-white bg-red 25 px-6">Finalizar inventario</a> se muestra el resultado con la explicación de los indicadores y el detalle de cada Activo con su respectivo indicador como se muestra en la siguiente imagen:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img46.jpeg)
-_**Imagen 47.** AMovil - Resumen Inventario_
+
+_**Imagen 48.** AMovil - Resumen Inventario_
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img47.jpeg)
-_**Imagen 48.** AMovil - Resumen Inventario_
+
+_**Imagen 49.** AMovil - Resumen Inventario_
