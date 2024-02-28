@@ -53,7 +53,7 @@ _**Imagen 135.** AMovil - Ordenes Actualizar Detalle_
 
 Para continuar dar un toque en <a class="btn cl-white bg-blue px-6">Aceptar</a>. 
 
-Para ingresar al submenú dentro del Detalle de la Órden diríjase al botón ubicado en la parte superior derecha <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a>. Se muestran las siguientes opciones relacionadas a la gestión y cierre de Órdenes:
+Para ingresar al submenú dentro del Detalle de la Órden diríjase al botón ubicado en la parte superior derecha <span class="iconify icon cl-white bg-blue" data-icon="mdi-dots-vertical"></span></a>. Se muestran las siguientes opciones relacionadas a la gestión y cierre de Órdenes:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img130.jpg)
@@ -66,7 +66,7 @@ _**Imagen 136.** AMovil - Ir a Submenú Gestión/Cierre Ordenes_
 
 
 Para ingresar los tiempos de ejecución de la Órden diríjase al <a class="btn cl-black bg-mint bd-mint px-6">Detalle</a>  de la Órden de Trabajo y luego al botón 
-<span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> luego a <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-update"></span></a>. Se muestra el detalle de la Órden en cuestión, aquellas con estado **En análisis** deben tener previamente la **Fecha y hora de Atención**, se muestra un ejemplo a continuación:
+<span class="iconify icon cl-white bg-blue" data-icon="mdi-dots-vertical"></span></a> luego a <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-update"></span></a>. Se muestra el detalle de la Órden en cuestión, aquellas con estado **En análisis** deben tener previamente la **Fecha y hora de Atención**, se muestra un ejemplo a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img131.jpg)
 
@@ -139,7 +139,7 @@ _**Imagen 146.** AMovil - Ordenes Ingreso Automático de Tiempos_
 
 ### Adicionar mano obra interna
 
-Para ingresar al personal técnico interno que participó en la ejecución de la Órden, ingrese al <a class="btn cl-black bg-mint bd-mint px-6">Detalle</a> de la Órden de Trabajo en cuestión, seguidamente al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego en <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-account-plus-outline"></span></a>:
+Para ingresar al personal técnico interno que participó en la ejecución de la Órden, ingrese al <a class="btn cl-black bg-mint bd-mint px-6">Detalle</a> de la Órden de Trabajo en cuestión, seguidamente al botón <span class="iconify icon cl-white bg-blue" data-icon="mdi-dots-vertical"></span></a> y luego en <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-account-plus-outline"></span></a>:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img141.jpg)
 
@@ -184,7 +184,7 @@ En caso de ingresar mas personal interno, repita los pasos anteriores.
 
 ### Comentarios
 
-Para ingresar los comentarios o detalles de la ejecución ingrese al <a class="btn cl-black bg-mint bd-mint px-6">Detalle</a> de la OT en cuestión, seguidamente al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego a <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-wechat"></span></a> como se indica a continuación:
+Para ingresar los comentarios o detalles de la ejecución ingrese al <a class="btn cl-black bg-mint bd-mint px-6">Detalle</a> de la OT en cuestión, seguidamente al botón <span class="iconify icon cl-white bg-blue" data-icon="mdi-dots-vertical"></span></a> y luego a <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-wechat"></span></a> como se indica a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img147.jpg)
 
@@ -220,7 +220,7 @@ Para ingresar mas comentarios repita los pasos anteriores.
 ### Multimedia 
 
 
-Para ingresar documentos, imágenes o videos a la OT diríjase al detalle del registro <a class="btn cl-black bg-mint bd-mint px-6">Detalle</a> luego al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego ir a <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-paperclip"></span></a> como se indica a continuación: 
+Para ingresar documentos, imágenes o videos a la OT diríjase al detalle del registro <a class="btn cl-black bg-mint bd-mint px-6">Detalle</a> luego al botón <span class="iconify icon cl-white bg-blue" data-icon="mdi-dots-vertical"></span></a> y luego ir a <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-paperclip"></span></a> como se indica a continuación: 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img151.jpg)
 
@@ -351,7 +351,7 @@ _**Imagen 172.** AMovil - Órdenes Indicador Firma_
 
 ### Evaluación 
 
-Para evaluar el servicio al Responsable Ejecutor se debe ir al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego a Evaluación <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-format-list-checks"></span></a>
+Para evaluar el servicio al Responsable Ejecutor se debe ir al botón <span class="iconify icon cl-white bg-blue" data-icon="mdi-dots-vertical"></span></a> y luego a Evaluación <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-format-list-checks"></span></a>
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img167.jpg)
 
@@ -463,7 +463,7 @@ Luego, visualice el resultado del Subgrupo en la parte superior a través del bo
 
 _**Imagen 185.** AMovil - Subgrupo Órdenes_
 
-Diríjase al botón ubicado en la parte superior derecha <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a>:
+Diríjase al botón ubicado en la parte superior derecha <span class="iconify icon cl-white bg-blue" data-icon="mdi-dots-vertical"></span></a>:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img180.jpg)
 

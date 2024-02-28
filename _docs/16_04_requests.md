@@ -131,7 +131,7 @@ _**Imagen 82.** AMovil - Solicitudes Ingreso Automático de Tiempos_
 
 ### Comentarios
 
-Para ingresar los detalles de la ejecución o comentarios de la Solicitud dirigirse al botón  <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego a <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-wechat"></span></a> como se indica a continuación:
+Para ingresar los detalles de la ejecución o comentarios de la Solicitud dirigirse al botón  <span class="iconify icon cl-white bg-blue" data-icon="mdi-dots-vertical"></span></a> y luego a <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-wechat"></span></a> como se indica a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img81.jpeg)
 
@@ -162,7 +162,7 @@ _**Imagen 86.** AMovil - Solicitudes Detalle Comentarios_
 ### Multimedia 
 
 
-Para ingresar documentos, imágenes o videos a la Solicitud dirigirse al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego ir a <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-paperclip"></span></a> como se indica a continuación: 
+Para ingresar documentos, imágenes o videos a la Solicitud dirigirse al botón <span class="iconify icon cl-white bg-blue" data-icon="mdi-dots-vertical"></span></a> y luego ir a <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-paperclip"></span></a> como se indica a continuación: 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img85.jpeg)
 
@@ -285,7 +285,7 @@ _**Imagen 101.** AMovil - Solicitudes Indicador Firma_
 
 ### Evaluación 
 
-Para evaluar el servicio al Responsable Ejecutor se debe ir al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego a Evaluación <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-format-list-checks"></span></a>
+Para evaluar el servicio al Responsable Ejecutor se debe ir al botón <span class="iconify icon cl-white bg-blue" data-icon="mdi-dots-vertical"></span></a> y luego a Evaluación <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-format-list-checks"></span></a>
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img103.jpeg)
 
@@ -399,7 +399,7 @@ Luego, visualice el resultado del Subgrupo en la parte superior con el botón <a
 
 _**Imagen 114.** AMovil - Subgrupo Solicitudes_
 
-Diríjase al botón ubicado en la parte superior derecha <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a>:
+Diríjase al botón ubicado en la parte superior derecha <span class="iconify icon cl-white bg-blue" data-icon="mdi-dots-vertical"></span></a>:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img116.jpg)
 
@@ -440,7 +440,7 @@ _**Imagen 119.** AMovil - Firma Masiva Recibido Satisfacción_
 
 
 
-Diríjase al botón ubicado en la parte superior derecha <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a>:
+Diríjase al botón ubicado en la parte superior derecha <span class="iconify icon cl-white bg-blue" data-icon="mdi-dots-vertical"></span></a>:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img116.jpg)
 

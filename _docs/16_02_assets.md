@@ -51,7 +51,7 @@ _**Imagen 12.** AMovil - Mensaje Alerta Actualizar Activos_
 ### Multimedia en Activos
 
 
-Para ingresar a **Multimedia** de Activos, ingrese al Detalle del registro en cuestión; nótese que en la parte superior derecha se encuentra el siguiente ícono <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a>, el cual muestra las siguientes dos opciones:
+Para ingresar a **Multimedia** de Activos, ingrese al Detalle del registro en cuestión; nótese que en la parte superior derecha se encuentra el siguiente ícono <span class="iconify icon cl-white bg-blue" data-icon="mdi-dots-vertical"></span></a>, el cual muestra las siguientes dos opciones:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img13.jpeg)
@@ -169,7 +169,7 @@ El Subgrupo se conserva hasta que el usuario reestablezca los valores por defect
 _**Imagen 24.** AMovil - Subgrupo Búsquedas recientes_
 
 
-Para eliminar el historial completo de búsquedas dar un toque en el botón <a class="btn cl-white bg-blue px-3"> Limpiar </a> y luego en <a class="btn cl-white bg-blue px-3"> Aceptar </a> para volver a los valores por defecto o puede removerlos uno por uno a través del botón <span class="iconify icon cl-red bg-white" data-icon=mdi-delete-outline></span></a>.
+Para eliminar el historial completo de búsquedas dar un toque en el botón <a class="btn cl-white bg-blue px-3"> Limpiar </a> y luego en <a class="btn cl-white bg-blue px-3"> Aceptar </a> para volver a los valores por defecto o puede removerlos uno por uno a través del botón <span class="iconify icon cl-red bg-white" data-icon="mdi-delete-outline"></span></a>.
 
 
 ## Crear un Activo 

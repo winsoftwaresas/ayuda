@@ -136,13 +136,13 @@ published: true
 <a class="btn cl-black bg-white px-5">71</a>
 -------------------------------------
 
-<span class="iconify icon cl-red bg-white" data-icon=mdi-delete-outline></span></a>
+<span class="iconify icon cl-red bg-white" data-icon="mdi-delete-outline"></span></a>
 
 
 
 <hr>
 
-<span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a>
+<span class="iconify icon cl-white bg-blue" data-icon="mdi-dots-vertical"></span></a>
 
 <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-magnify"></span> Consultar Activos</a> 
 
