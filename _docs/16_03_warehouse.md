@@ -76,7 +76,7 @@ El subgrupo abre la siguiente ventana:
 
 _**Imagen 57.** AMovil - Almacén Seleccionar un filtro Subgrupo_
  
-Se debe dar un toque sobre el botón <a class="btn cl-gray bg-white bd-gray px-5"></span>Seleccione un filtro</a> para visualizar los siguientes criterios de búsqueda y seleccionar un criterio:
+Se debe dar un toque sobre el botón <a class="btn cl-black bg-white bd-gray px-5"> Seleccione un filtro </a> para visualizar los siguientes criterios de búsqueda y seleccionar un criterio:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img56.jpeg)
 

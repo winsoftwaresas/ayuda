@@ -51,7 +51,7 @@ _**Imagen 12.** AMovil - Mensaje Alerta Actualizar Activos_
 ### Multimedia en Activos
 
 
-Para ingresar a **Multimedia** de Activos, ingrese al Detalle del registro en cuestión; nótese que en la parte superior derecha se encuentra el siguiente ícono <span class="iconify icon cl-white bg-blue" data-icon="mdi-dots-vertical"></span></a>, el cual muestra las siguientes dos opciones:
+Para ingresar a **Multimedia** de Activos, ingrese al Detalle del registro en cuestión; nótese que en la parte superior derecha se encuentra el siguiente ícono <a class="fab cl-white bg-blue box-shadow"><span class="iconify icon cl-white bg-blue" data-icon="mdi-dots-vertical"></span></a>, el cual muestra las siguientes dos opciones:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img13.jpeg)
@@ -74,7 +74,7 @@ A continuación se ilustra un ejemplo para subir Documentos, el cual es el mismo
 Para agregar o consultar documentos dar un toque en la respectiva carpeta <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-outline"></span> Documentos</a>.
 
 
-En caso caso de tener documentos añadidos desde **AM**, es  posible visualizarlos a través del botón <span  class="iconify icon cl-black bg-white" data-icon="mdi-download"></span></a>.
+En caso caso de tener documentos añadidos desde **AM**, es  posible visualizarlos a través del botón <a class="fab cl-white bg-blue box-shadow"><span class="iconify icon cl-black bg-white" data-icon="mdi-download"></span></a>.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img15.jpeg)
 
@@ -122,7 +122,7 @@ Esto lleva a la siguiente ventana, como se indica a continuación:
 
 _**Imagen 20.** AMovil - Seleccionar un filtro Subgrupo_
  
-Se debe dar un toque sobre el botón <a class="btn cl-gray bg-white bd-gray px-5"></span>Seleccione un filtro</a> para visualizar los siguientes criterios de búsqueda:
+Se debe dar un toque sobre el botón <a class="btn cl-black bg-white bd-gray px-5"> Seleccione un filtro </a> para visualizar los siguientes criterios de búsqueda:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap16/chp16_img20.jpeg)
 
@@ -169,7 +169,8 @@ El Subgrupo se conserva hasta que el usuario reestablezca los valores por defect
 _**Imagen 24.** AMovil - Subgrupo Búsquedas recientes_
 
 
-Para eliminar el historial completo de búsquedas dar un toque en el botón <a class="btn cl-white bg-blue px-3"> Limpiar </a> y luego en <a class="btn cl-white bg-blue px-3"> Aceptar </a> para volver a los valores por defecto o puede removerlos uno por uno a través del botón <span class="iconify icon cl-red bg-white" data-icon="mdi-delete-outline"></span></a>.
+Para eliminar el historial completo de búsquedas dar un toque en el botón <a class="btn cl-white bg-blue px-3"> Limpiar </a> y luego en <a class="btn cl-white bg-blue px-3"> Aceptar </a> para volver a los valores por defecto o puede removerlos uno por uno a través del botón <a class="fab cl-white box-shadow"><span class="iconify icon cl-red bg-white" data-icon="mdi-delete-outline"></span></a>.
+
 
 
 ## Crear un Activo 

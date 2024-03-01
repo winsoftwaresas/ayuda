@@ -9,7 +9,7 @@ order: 08_03
 
 Crear un  **FDA** exige en primera instancia, que el usuario tenga la autorización en el sistema para poder hacerlo. Son potenciales generadores de  **FDA** los técnicos y supervisores de Producción y también los de Mantenimiento.
 
-La creación de un  **FDA** se realiza a través de la Ventana Detalle de  **FDA**, en la  ventana principal de Paros / Averías. En cuanto se da un clic sobre el botón `<a class="btn">`Nuevo `</a>`. esta ventana adopta la forma que se muestra a continuación. Al crear un  **FDA**, ella asume automáticamente el estado inicial: **“En Análisis”**.
+La creación de un  **FDA** se realiza a través de la Ventana Detalle de  **FDA**, en la  ventana principal de Paros / Averías. En cuanto se da un clic sobre el botón <a class="btn">Nuevo </a>. esta ventana adopta la forma que se muestra a continuación. Al crear un  **FDA**, ella asume automáticamente el estado inicial: **“En Análisis”**.
 
 La creación de un  **FDA** normalmente está en manos del personal de Producción. Si no existen los medios expeditos para que Producción reporte el  **FDA**, es natural que el reporte del  **FDA** se haga por  otro medio: teléfono, alertas de sonido o visuales o un reporte persona-persona. Entonces, se concluye, que el reporte del  **FDA** puede ser registrado antes o después de   la   ejecución  de   la actividad correctiva del mismo.  Si es previo,  será Producción  el  área  encargada  del  registro,  y  si  es  posterior,  será  mantenimiento el encargado. Aunque la primera prioridad es resolver la situación de Paro / Avería, el registro del  **FDA** debería hacerse muy cercano a su ocurrencia.
 

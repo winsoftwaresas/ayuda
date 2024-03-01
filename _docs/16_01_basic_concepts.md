@@ -126,7 +126,7 @@ A continuación se describen los botones del menú de inicio:
 
 <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-filter-variant"></span></a>: Es el ícono del subgrupo el cual permite filtrar o preseleccionar información acorde a un conjunto de criterios.
 
-<span class="iconify icon cl-white bg-blue" data-icon="mdi-dots-vertical"></span></a>: abre un conjunto de opciones según el módulo o submódulo. 
+<a class="fab cl-white bg-blue box-shadow"><span class="iconify icon cl-white bg-blue" data-icon="mdi-dots-vertical"></span></a>: abre un conjunto de opciones según el módulo o submódulo. 
 
 Estas opciones son:
 
