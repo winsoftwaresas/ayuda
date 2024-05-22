@@ -1,8 +1,32 @@
 # Changelog page source
 
+
+- title: AM4G  Version 1.2
+  label: STABLE
+  date: April 26, 2024
+  list:
+   - Se realiza parametrización en activos para permitir dos Contadores en un Activo. 
+   - Se desarrolla una función la cual generara automáticamente una Orden de Trabajo cuando una característica controlable adiciona una lectura fuera del rango.
+   - Se añade un campo de Recibido por en los movimientos de Salida en Kardex.
+   - Se añade un campo de Comentario en los movimientos de Salida en Kardex.
+   - Se añaden los filtros de búsqueda en Subgrupo por los campos Recibido por y Comentarios en modulo de Kardex.
+   - Se desarrolla reporte KXR-RST Informe de Salidas – Entregas en modulo de Kardex.
+   - Se adiciona una validación en Entradas que permite al Concepto 33 realizar movimiento de entrada con valor unitario en 0 en Kardex.
+   - Se habilita el criterio de programación por dos contadores en Programas. 
+   - Se permite relacionar en un programa Presupuesto y Acciones Técnicas en Programas.
+   - Se desarrolla una validación al campo Comentario para que no permita Actualizar el detalle de la Solicitud si se encuentra un Comentario sin agregar en Solicitudes, Ordenes e Historia.
+   - Se agrega el Código de activo a la exportación a Excel en modulo de Solicitudes.
+   - Se permite en una Orden manejar Acciones técnicas y control de Gastos en Ordenes e Historia.
+   - Se desarrollan los check-list en acciones técnicas en Ordenes e Historia.
+   - Se desarrolla el reporte 0TD-AT en el modulo Ordenes.
+   - Se modifican los procesos de Insertar y Actualizar en las matrices de gasto real y presupuesto en modulos de Ordenes e Historia.
+   - Se adiciona al registro en la bitácora de la Orden de trabajo los cambios de Activos en Ordenes e Historia.
+   - Se desarrolla el reporte HMD-AT en el modulode Historia. 
+
+
 - title: AM4G  Version 1.1B
   label: STABLE
-  date: February 05, 2023
+  date: February 05, 2024
   list:
    - Se cambia en el modulo de Activos el concepto de Clasificación por procesos a Criticidad del Activo.
    - Se adiciona en el modulo de Activos Ítem Equipos de apoyo hospitalario a la clasificación Biomédica en la ficha de Información Biomédica.
