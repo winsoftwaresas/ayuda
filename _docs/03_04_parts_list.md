@@ -10,12 +10,13 @@ order: 03_04
 date: 2022-12-27T21:18:27.690Z
 ---
 
-**AM** está capacitado para aceptar y definir 5 códigos para cada Activo/Equipo. Cada estructura de código es  independiente de las otras y sirve para localizar o acceder o estudiar un Activo, partiendo de distinta información que distintos tipos de usuarios puedan tener sobre el mismo.
+**AM** está capacitado para aceptar y definir 5 códigos para cada Activo/Equipo. Cada estructura de código es  independiente de las otras y sirve para localizar o estudiar un Activo, partiendo de distinta información que distintos tipos de usuarios puedan tener sobre el mismo.
+
 Las cinco estructuras son: el Código de Mantenimiento (objeto de la presente sección), el Código Referencia (código externo, o dado por el proveedor), el Código de Inventario, un número de Activo Fijo (normalmente contable), un número de Serie propio del Activo, y un Código Alias (propio de la cultura técnica empresarial).
 
 Como se dijo antes, en esta sección se estudia el Código de Mantenimiento del Activo.
 
-Se trata entonces de un Código de 18 posiciones. Es un  código amplio, jerárquico, multinivel, que se estructura y  diseña flexiblemente de acuerdo con la necesidad o el gusto del usuario.
+Se trata entonces de un Código de 18 posiciones. Es un código amplio, jerárquico, multinivel, que se estructura y  diseña flexiblemente de acuerdo con la necesidad o el gusto del usuario.
 
 Estructurar el código de Activo/Equipo es una labor de Implementación que exige estudio, discusiones y participación de varios usuarios entendidos. Al tiempo exige a todo usuario con capacidad de definir códigos de Activos, el compromiso de uso, ajustado a la norma que lo estructuró.
 
@@ -54,18 +55,26 @@ _**Imagen 3.** Ventana Visor Activos_
 
 Desde esta ventana es posible observar los Activos/Equipos existentes. Se listan todos o una selección o subgrupo de ellos. El conjunto de Activos/Equipos disponibles a ser desplegados se muestran a través de páginas. El tamaño de las páginas es configurable desde el módulo de <a class="btn blue">administración</a> por parte de quien tenga acceso a él.
 
-Al hacer clic sobre alguno de los Activos/Equipos del Visor el sistema responde mostrando la información de ese registro, en forma detallada, en una ventana llamada Ventana Detalle.
 
-Los títulos en azul que encabezan las columnas son también botones que permiten ordenar la tabla, según el título seleccionado. Para elegir un registro de la tabla se da un clic sobre él. El sistema permite hacer desplazamiento vertical de los registros con las teclas de desplazamiento.
+Por medio de un clic sobre alguno de los Activos/Equipos del Visor el sistema responde mostrando la información de ese registro, en forma detallada, en una ventana llamada Ventana Detalle.
+
+Los títulos en azul que encabezan las columnas son también botones que permiten ordenar la tabla, según el título seleccionado. 
+
+El sistema permite hacer desplazamiento vertical de los registros con las teclas de desplazamiento.
 
 ## Ventana Detalle
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img04.png)
 _**Imagen 4.** Ventana Detalle Activos_
 
-En la gráfica anterior, Ventana Detalle de Equipos, se aprecian todos sus componentes y sus respectivos contenidos.Se encuentra toda la información relevante al Activo/Equipo seleccionado en el Visor.
+En la gráfica anterior, Ventana Detalle de 
+Activos/Equipos, se aprecian todos sus componentes y sus respectivos contenidos.Se encuentra toda la información relevante del registro seleccionado en el Visor (sombreado en verde).
 
 A continuación se describen los campos que componen el registro, sobre cada campo se da una breve explicación:
+
+
+### Identificación 
+
 
 **Código:** En este campo se registra el código del Activo/Equipo, correspondiente al código de Mantenimiento, de acuerdo a la estructuración por niveles que se haya definido durante la etapa de Planeación de la Implementación.
 
@@ -77,9 +86,13 @@ A continuación se describen los campos que componen el registro, sobre cada cam
 
 **Referencia Externa (Proveedor):** En este campo se indica el código con el cual el Proveedor conoce el Equipo. Este campo cuenta con una disponibilidad de 20 caracteres. 
 
-**Serial:** Este campo se utiliza para registrar el número de serie que identifica individualmente a un Equipo según el fabricante. Este campo cuenta con una disponibilidad de 40 caracteres.
+**Serial:** Este campo se utiliza para registrar el número de serie o lote que identifica individualmente a un Activo/Equipo según el fabricante. Este campo cuenta con una disponibilidad de 40 caracteres.
 
 **Alias:** En algunas plantas por tradición o cultura, se tiene una denominación especial con la cual se conocen algunos Activos/Equipos. Este campo es el especial para registrar tal nombre especial. Igualmente se puede utilizar para registrar códigos  antiguos con que se definían este Activo antes de la nueva codificación. Este campo cuenta  con una disponibilidad de 20 caracteres.
+
+
+
+### Información General
 
 **Centro de Costo:** En este campo se registra o se despliega automáticamente, el Centro de Costo al que está asociado el Activo. Si el Activo se definió previamente, el Centro  de  Costo aparece automáticamente. Si es una nueva definición la que se está realizando, el sistema muestra  y  pone como disponible todo el contenido de la tabla de  Centros de Costo definidos en la Infraestructura, para seleccionar el que corresponde al Activo. Es muy importante definir este campo desde el mismo momento de la definición del Activo, puesto que es un campo derivado o sea que se  trae automáticamente para muchas funciones, cada vez que se invoca el Activo.
 
@@ -91,7 +104,7 @@ A continuación se describen los campos que componen el registro, sobre cada cam
 
 **Código Barras Proveedor:** Este campo pertenece al Código de Barras que fue asociado al equipo por parte del Proveedor.
 
-**Clasificación por Proceso:** Es la importancia o criticidad de un Activo/Equipo en la línea o en un proceso. En este campo se traen automáticamente las diferentes clasificaciones sugeridas:
+**Criticidad del Activo:** Es la importancia o criticidad de un Activo/Equipo en la línea o en un proceso. En este campo se traen automáticamente las diferentes clasificaciones sugeridas:
 
 - **Clave o crítico**
 - **Detiene el proceso**
@@ -114,11 +127,14 @@ A continuación se describen los campos que componen el registro, sobre cada cam
 
 **Encargado:** Son personas propias de la empresa  encargadas de la operación o funcionamiento del Activo/Equipo. En este campo se traen automáticamente los diferentes Terceros asignados como Responsable Interno/Empleado y Responsable Externo/Contratista.
 
-**EQ-Raíz:** Este campo se utiliza para identificar los Activo/Equipos que son una unidad funcional que se despieza (Equipos raíz). Solo se consideran como Equipo Raíz aquellos Activo/Equipos que no tienen una dependencia de otros y que más bien son la base de despiece de sus componentes.
 
-**Ruta:** En este campo se indica si el Activo/Equipo que se está definiendo es realmente una Ruta. Cuando se ha indicado que se trata de una Ruta, el sistema se prepara para recibir un conjunto de información adicional correspondiente a la Ruta. Se debe recordar que las rutas de mantenimiento asocian o integran varios Equipos.
+### Estados
 
-**Estado:** El campo estado se utiliza para definir si el  Activo actual se encuentra  Activo (Operativo) o Inactivo (No operativo o dado de baja temporal o totalmente). Este Estado se utiliza durante los procesos de Generación Automática de Ordenes  de Trabajo y de Proyección para un período futuro, pues solamente se tienen en  cuenta aquellos Equipos con Estado Activo:
+**Inactivo/Activo:** Es un switche que permite Controlar el estado de un Activo/Equipo. Cuando se pone a un estado inactivo se muestra un enlace azul **Desincorporación** para ingresar el detalle de cuando se da de baja un Equipo.  
+
+>**Nota:** Es importante tener en cuenta que este switche se utiliza durante los procesos de Generación Automática de Ordenes  de Trabajo y de Proyección para un período futuro, pues solamente se tienen en  cuenta aquellos Equipos con estado Activo y tampoco se listarán en **AMsi** para los usuarios solicitantes. 
+
+**Estado:** Este campo se utiliza para especificar el tipo de Estado en el que se encuentra el Activo/Equipo. Dependiendo del campo anterior. Si el Activo actual se encuentra  Activo (Operativo) se listan las siguientes opciones:
 
 **A** - Dado en préstamo
 
@@ -132,7 +148,8 @@ A continuación se describen los campos que componen el registro, sobre cada cam
 
 **A** - Otro
 
-Los Activos/Equipos Inactivos pueden tener las siguientes condiciones:
+
+Los que están Inactivos (bien sea No Operativos o Dados de baja temporal o totalmente) se especifican en las siguientes opciones:
 
 **I** - Dado de baja
 
@@ -142,15 +159,30 @@ Los Activos/Equipos Inactivos pueden tener las siguientes condiciones:
 
 **I** - Otro
 
-**Contador:** En este campo se traen automáticamente de la tabla de Infraestructura los diferentes tipos de Contadores que pueden ser definidos para un Equipo o una máquina. Se  selecciona el que mejor refleje o sea más representativo del trabajo que realiza el Equipo. Se usa además, al definir un Programa de Mantenimiento, en función del trabajo realizado por el mismo Equipo.
+**AC raíz:** Este campo se utiliza para identificar el Activo/Equipo que es una unidad funcional que se despieza (Equipos raíz). Solo se consideran como Equipo Raíz aquellos Activo/Equipos que no tienen una dependencia de otros y que más bien son la base de despiece de sus componentes.
 
-**Decremental/Incremental:** En este campo se elige si es un Contador tipo Incremental (siempre aumenta) o Decremental (permite valores que decrecen o negativos).
+**Ubicación técnica:** Con este switche se especifica si un Equipo es una ubicación física del AC Raíz. 
 
-**Valor Contador:** En este campo con capacidad de 15 dígitos se registra el valor del contador según la última lectura realizada. Es un valor base para los procesos de  Proyección y Programación que se realizan desde Programas de Mantenimiento.
+**Componente intercambiable:** Si el Activo que se define es un componente que se intercamnbia en un Activo. 
 
-**FF Lectura:** Es la fecha en la cual se toma la medición actual del contador. Es una fecha base para el proceso  de  Proyección y Programación que se realiza desde Programas de Mantenimiento.
+**Fijo/Móvil:** Se usa para definir si un Activo es estático en un área o no. 
 
-**Std. Planeación:** Es un promedio de trabajo realizado por el Equipo en una unidad de tiempo, en función de su  contador asociado. En este campo se escribe la cantidad de unidades que avanza en un lapso, el contador seleccionado. Por medio del estándar de Planeación se realiza la proyección de un contador para un Equipo hacia el futuro.
+**Ruta:** En este campo se indica si el Activo/Equipo que se está definiendo es una Ruta. Cuando se ha indicado que se trata de una Ruta, el sistema se prepara para recibir un conjunto de información adicional correspondiente a la Ruta. Se debe recordar que las rutas de mantenimiento asocian o integran varios Activos/Equipos.
+
+**Permitir Dos Contadores :** Este switche permite deifnir dos tipo de contadoeres en el Activo. 
+
+
+**Adicionar Contador:** Funciona como un switche que abre el siguiente formulario:
+
+- **Contador:** En este campo se traen automáticamente de la tabla de Infraestructura los tipos de Contadores que pueden ser definidos para un Equipo o una máquina. Se  selecciona el que mejor refleje o sea más representativo del trabajo que realiza el Equipo. Se usa además, para definir un Programa de Mantenimiento en función del trabajo realizado por el mismo Equipo.
+
+- **Decremental/Incremental:** En este campo se elige si es un Contador tipo Incremental (siempre aumenta) o Decremental (permite valores que decrecen o negativos).
+
+- **Valor Contador:** En este campo con capacidad de 15 dígitos se registra el valor del contador según la última lectura realizada. Es un valor base para los procesos de  Proyección y Programación que se realizan desde Programas de Mantenimiento.
+
+- **FF Lectura:** Es la fecha en la cual se toma la medición actual del contador. Es una fecha base para el proceso  de  Proyección y Programación que se realiza desde Programas de Mantenimiento.
+
+- **Std. Planeación:** Es un promedio de trabajo realizado por el Equipo en una unidad de tiempo, en función de su  contador asociado. En este campo se escribe la cantidad de unidades que avanza en un lapso, el contador seleccionado. Por medio del estándar de Planeación se realiza la proyección de un contador para un Equipo hacia el futuro.
 
 **Por:** En este campo se indica la unidad de tiempo  considerada en el Estándar de Planeación. Se puede seleccionar cualquiera de las siguientes opciones:
 
@@ -158,6 +190,8 @@ Los Activos/Equipos Inactivos pueden tener las siguientes condiciones:
 - Semana
 - Quincena
 - Mes
+
+Para añadir el contador se debe dar clic en el botón <span class="mdi mdi-plus-circle icon white"></span>.
 
 **Comentario:** Aquí se ingresan los comentarios sobre un Activo o se especifica información adicional al AC.
 
