@@ -39,7 +39,7 @@ Existen varios criterios para despiezar un Activo/Equipo o uno de sus componente
 
 Otro, plantea el despiece a un nuevo nivel, por la necesidad de mantener Historia de Mantenimiento individual y detallada. Para ese nuevo nivel de despiece, el **AM** trabaja principalmente bajo este segundo concepto.
 
-Lo anterior posibilita obtener la Historia de Mantenimiento total, detallada de un Activo/Equipo, en conjunto con la de todos sus componentes de despiece, si es del caso. Pero también es posible obtener la Historia detallada de un Activo o de algún componente de despiece, incluyendo  solamente las actividades relacionadas con el nivel  requerido, sin incluir más niveles inferiores de despiece. En todo caso, el proceso de definir un nuevo nivel de despiece se centra en la creación de un nuevo nivel jerárquico en la estructura del código actual. En el ejemplo del  numeral 1 de la sección anterior vemos como el nivel COARCSU es un nuevo nivel de despiece del nivel anterior, el COARC.
+Lo anterior posibilita obtener la Historia de Mantenimiento total, detallada de u  n Activo/Equipo, en conjunto con la de todos sus componentes de despiece, si es del caso. Pero también es posible obtener la Historia detallada de un Activo o de algún componente de despiece, incluyendo  solamente las actividades relacionadas con el nivel  requerido, sin incluir más niveles inferiores de despiece. En todo caso, el proceso de definir un nuevo nivel de despiece se centra en la creación de un nuevo nivel jerárquico en la estructura del código actual. En el ejemplo del  numeral 1 de la sección anterior vemos como el nivel COARCSU es un nuevo nivel de despiece del nivel anterior, el COARC.
 
 ## Ventana Principal de Activos / Equipos
 
@@ -159,7 +159,7 @@ Los que están Inactivos (bien sea No Operativos o Dados de baja temporal o tota
 
 **I** - Otro
 
-**AC raíz:** Este campo se utiliza para identificar el Activo/Equipo que es una unidad funcional que se despieza (Equipos raíz). Solo se consideran como Equipo Raíz aquellos Activo/Equipos que no tienen una dependencia de otros y que más bien son la base de despiece de sus componentes.
+**AC raíz:** Este campo se utiliza para identificar el Activo/Equipo que es una unidad funcional que se despieza (Equipos raíz). Solo se consideran como Equipo Raíz aquellos Activos/Equipos que no tienen una dependencia de otros y que más bien son la base de despiece de sus componentes.
 
 **Ubicación técnica:** Con este switche se especifica si un Equipo es una ubicación física del AC Raíz. 
 
@@ -174,7 +174,7 @@ Los que están Inactivos (bien sea No Operativos o Dados de baja temporal o tota
 
 **Adicionar Contador:** Funciona como un switche que abre el siguiente formulario:
 
-- **Contador:** En este campo se traen automáticamente de la tabla de Infraestructura los tipos de Contadores que pueden ser definidos para un Equipo o una máquina. Se  selecciona el que mejor refleje o sea más representativo del trabajo que realiza el Equipo. Se usa además, para definir un Programa de Mantenimiento en función del trabajo realizado por el mismo Equipo.
+- **Contador:** En este campo se traen automáticamente de la tabla de Infraestructura los tipos de Contadores que pueden ser definidos para un Activo o una máquina. Se  selecciona el que mejor refleje o sea más representativo del trabajo que realiza el Activo. Se usa además, para definir un Programa de Mantenimiento en función del trabajo realizado por el mismo Equipo.
 
 - **Decremental/Incremental:** En este campo se elige si es un Contador tipo Incremental (siempre aumenta) o Decremental (permite valores que decrecen o negativos).
 
@@ -182,9 +182,9 @@ Los que están Inactivos (bien sea No Operativos o Dados de baja temporal o tota
 
 - **FF Lectura:** Es la fecha en la cual se toma la medición actual del contador. Es una fecha base para el proceso  de  Proyección y Programación que se realiza desde Programas de Mantenimiento.
 
-- **Std. Planeación:** Es un promedio de trabajo realizado por el Equipo en una unidad de tiempo, en función de su  contador asociado. En este campo se escribe la cantidad de unidades que avanza en un lapso, el contador seleccionado. Por medio del estándar de Planeación se realiza la proyección de un contador para un Equipo hacia el futuro.
+- **Std. Planeación:** Es un promedio de trabajo realizado por el Activo en una unidad de tiempo, en función de su contador asociado. En este campo se escribe la cantidad de unidades que avanza en un lapso, el contador seleccionado. Por medio del estándar de Planeación se realiza la proyección de un contador para un Activo hacia el futuro.
 
-**Por:** En este campo se indica la unidad de tiempo  considerada en el Estándar de Planeación. Se puede seleccionar cualquiera de las siguientes opciones:
+**Por:** En este campo se indica la unidad de tiempo  considerada en el Estándar de Planeación. Se puede seleccionar cualquiera de las siguientes opciones, aunque se sugiere que sea mensual:
 
 - Día
 - Semana
@@ -352,7 +352,7 @@ El segundo campo se usa para ingresar el valor correspondiente a la confiablidad
 
 ## Vistas Parciales / Pestañas
 
-Las Vistas Parciales o Pestañas permiten complementar la información de la Ficha Ténica de un Activo/Equipo, con otro conjunto de información que solo se muestra cuando es necesario por solicitud del usuario. Las vistas parciales  disponibles son: las características, vida útil, multimedia. Para compañías biomédicas: Características, Vida Útil, Información Biomédica y Multimedia.
+Las Vistas Parciales o Pestañas permiten complementar la información de la Ficha Técnica de un Activo/Equipo, con otro conjunto de información que solo se muestra cuando es necesario por solicitud del usuario. Las vistas parciales  disponibles son: las características, vida útil, multimedia. Para compañías biomédicas: Características, Vida Útil, Información Biomédica y Multimedia.
 
 A continuación se describen las vistas parciales o porciones de la información del Activo:
 
@@ -517,6 +517,7 @@ A continuación se describen los campos que componen esta Pestaña:
 - Registro Sanitario INVIMA
 - Permiso de Comercialización
 - Número (para alguna de las dos opciones anteriores)
+- Número de expediente
 - Seguridad Eléctrica
 - Impacto en el proceso del Activo
 - Frecuencia de uso del Activo
@@ -844,11 +845,11 @@ _**Imagen 57.** Activos - Indicadores Vista Árbol_
 ### Consultas desde Activos - Cruce de Activos
 
 
-E﻿n ocasiones se hace necesario hacer búsquedas rápidas de los
+En ocasiones se hace necesario hacer búsquedas rápidas de los
 Activos sobre su asociación con Órdenes, Solicitudes, Paros e Historia; 
 esta transacción hace posible, que en el módulo de Activos se pueda acceder rápidamente a esta información, bien sea uno a uno ó registros preseleccionados en un Subgrupo. 
 
-P﻿ara acceder se sobrepone el cursor sobre el módulo de <a class="btn blue">activos</a> donde se despliega el submenú de transaccciones y a continuación dar clic en **Cruces de Activos** como se muestra a continuación:
+Para acceder se sobrepone el cursor sobre el módulo de <a class="btn blue">activos</a> donde se despliega el submenú de transaccciones y a continuación dar clic en **Cruces de Activos** como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img35.png)
 _**Imagen 58.** Activos - Ir a Cruce de Activos_
