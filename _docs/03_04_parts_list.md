@@ -219,6 +219,7 @@ _**Imagen 7.** Activos - Indicadores_
 El significado de los colores se visualiza al sobreponer el cursor sobre el icono <span class="mdi mdi-message-alert"></span> que se encuentra al extremo superior derecho y su correspondencia es:
 
 - **Verde:** Activos definidos con AC-Raíz como SÍ.
+- **Rojo:** Activos con estado Inactivo. (Este estado desactiva los programas asociados a este Activo, asimismo se inabilita en los listados AMsi). 
 - **Amarillo:** Activos definidos como Ubicación Técnica.
 - **Café Oscuro:** Activos definidos como Componentes Intercambiables y que están asociados a una Ubicación Técnica.
 - **Morado:** Activos que tienen asociadas Características Técnicas en la pestaña de Características.
@@ -272,7 +273,7 @@ Los campos de datos que constituyen los criterios de selección en la Ventana  S
 - Crítico Ambiental
 
 **Código:** Esta selección agrupa los Activos/Equipos relacionados, por su código. Por ejemplo si se escribe **3201%**, se seleccionan todos los Equipos cuyo código inicia por 3201. El porcentaje es un carácter comodín que significa **“todos”.**
-
+ 
 **Código de Barras Interno:** Permite seleccionar el  Activo/Equipo que se encuentre asociado al Código de Barras Interno que se ingresó al crear su ficha técnica.
 
 **Código de Barras Proveedor:** Permite seleccionar el Activo/Equipo que se encuentre asociado al Código de Barras del Proveedor que se ingresó al crear el Activo/ Equipo.
@@ -291,7 +292,7 @@ El segundo campo se usa para ingresar el valor correspondiente a la confiablidad
 
 **Contador:** Permite seleccionar los Activos/Equipos de  acuerdo con un determinado Contador. Esta opción también permite el uso de comodines y funciona igual que en los casos anteriores.
 
-**Descripción del Equipo:** Selecciona los Activos/Equipos según criterios que se fundamenten en su descripción. Ejemplo: %Motor% selecciona todos los Activos/Equipos en cuya descripción, en cualquier posición, tengan la palabra  “Motor”.
+**Descripción:** Selecciona los Activos/Equipos según criterios que se fundamenten en su descripción. Ejemplo: %Motor% selecciona todos los Activos/Equipos en cuya descripción, en cualquier posición, tengan la palabra  “Motor”.
 
 **Encargado:** Permite seleccionar los Activos/Equipos de acuerdo con un determinado Encargado. Esta opción también permite el uso de comodines y funciona igual que en los casos anteriores.
 
@@ -301,9 +302,7 @@ El segundo campo se usa para ingresar el valor correspondiente a la confiablidad
 
 **Indicadores:** Permite  seleccionar los Activos/Equipos  de acuerdo con su clasificación o contenido específico, es decir, filtra equipos que sean solo raiz, o ubicación fisica, componente intercambiable, hasta aquellos que tienen definidas caracteristicas técnicas, biomédicas y contenido de multimedia.
 
-**Indicativo de Ruta:** Permite agrupar los Activos/Equipos de acuerdo con el criterio de si están o no asociados a una Ruta de Mantenimiento.
-
-**Riesgo:** Filtra aquellos grupos de Activos/Equipos que tengan asociado un riesgo, se permite el uso de comodines (%).
+<!--**Indicativo de Ruta:** Permite agrupar los Activos/Equipos de acuerdo con el criterio de si están o no asociados a una Ruta de Mantenimiento.-->
 
 **Marca:** Esta opción permite realizar un filtro de los Activos/Equipos que tengan asignada la Marca que se especifica en este campo.
 
@@ -313,15 +312,19 @@ El segundo campo se usa para ingresar el valor correspondiente a la confiablidad
 
 **Referencia Externa (Proveedor):** Permite seleccionar los Activos/Equipos según la referencia definida en su ficha técnica. Esta opción también permite el uso de comodines y funciona igual que en los casos anteriores.
 
+**Riesgo:** Filtra aquellos grupos de Activos que tengan definido riesfgos en su ficha técnica, se permite el uso de comodines (%).
+
 **Serial:** Esta alternativa permite seleccionar un Activo/Equipo de acuerdo con su número Serial.
 
 **Tipo:** Selecciona los Activos/Equipos que se encuentran asociados al tipo ingresado definido en su ficha técnica.
 
 **Ubicación  Física:** Permite la selección de los Activos/Equipos de acuerdo con las diferentes Ubicaciones Físicas definidas en la infraestructura. En este campo también es posible usar comodines (%), siendo posible seleccionar los registros  pertenecientes a Ubicaciones Físicas que tengan parte del nombre similar. Inicialmente se despliega un listado indicado por el icono de candado que se encuentra al lado del campo <span class="mdi mdi-lock"></span>, a través de un clic se desactiva <span class="mdi mdi-lock-open-outline"></span> permitiendo ingresar los valores manualmente. Por ejemplo: CAVA% selecciona todos los Activos/Equipos cuya Ubicación Física inicia por la palabra CAVA, independientemente de si se está hablando de la Cava de Fermentación, Maduración o Contrapresión.
 
-**Clasificación por uso:** Para las compañías biomédicas permite hacer filtros por clasificación del Activo según su uso. Los grupos son: Diagnóstico, Tratamiento y Mantenimiento de la vida, Rehabilitación, Prevención, Análisis de Laboratorio y Equipo Industrial de Apoyo Hospitalario.
+**Clasificación por Uso:** Para las compañías biomédicas permite hacer filtros por clasificación del Activo según su uso. Los grupos son: Diagnóstico, Tratamiento y Mantenimiento de la vida, Rehabilitación, Prevención, Análisis de Laboratorio y Equipo Industrial de Apoyo Hospitalario.
 
 **Clasificación por Grupo:** Filtra los Activos/Equipos según el grupo que se les haya asignado en su ficha técnica. los grupos son: Apoyo Administrativo, Apoyo Operacional, Infraestructura y Grupo X. 
+
+**Clasificación por Riesgo:** Para las compañías biomédicas permite buscar por clasificación del Activo según su el riesgo asociado. Las opciones disponibles son: Clase I - Bajo Riesgo, Clase IIA - Riesgo Moderado, Clase IIB - Alto Riesgo, Clase III - Muy Alto Riesgo y Crítico Ambiental.  
 
 #### VIDA ÚTIL
 
@@ -329,14 +332,21 @@ El segundo campo se usa para ingresar el valor correspondiente a la confiablidad
 
 **Número de Contrato:** Filtra los Activos/Equipos que tengan asociado un contrato. 
 
+**FF Dado de Baja:** Este campo habilita dos campos con el fin de ingresar un rango de fechas. El primer campo **Desde** que indica la fecha inferior y **Hasta** que indica la fecha superior del rango de interés a analizar. 
+
 **FF Fin Garantía:** Permite la selección de Activos/ Equipos de acuerdo con la Fecha de Vencimiento de la Garantía en un rango determinado de tiempo.
 
 **Switch Contrato:** Filtra aquellos registros de Activos/Equipos que estén sin contrato, o que se encuentren asociados a un contrato. Este campo sólo es de selección.
+
+**FF de Registro:** Busca los Activos que cumplan con el rango de fechas que se defina. Este campo habilita el campo **Desde** que indica la fecha inferior y **Hasta** que indica la fecha superior del rango de interés a analizar. 
 
 **Número de Póliza:** Filtra los Activos/Equipos que tengan asociado una póliza.
 
 **Switch con Póliza:** Filtra aquellos registros de Activos/Equipos que estén o no asociados a una póliza. Este campo sólo es de selección.
 
+**FF de Ingreso Inventario:** Busca los Activos que cumplan con el rango de fechas que se defina. Este campo habilita el campo **Desde** que indica la fecha inferior y **Hasta** que indica la fecha superior del rango de interés a analizar. 
+
+  
 #### METROLOGÍA
 
 **Magnitud:** Para las compañías biomédicas filtra los registros que tengan asociada una magnitud. 
@@ -386,7 +396,7 @@ A continuación se describen los campos que componen esta  Ventana información 
 
 **Hasta:** Se define al valor máximo permitido para la característica definida.
 
-### Características Controlables
+####   Características Controlables
 
 Esta opción permite ingresar valores de medición a aquellas características que fueron definidas previamente como controlables.
 
