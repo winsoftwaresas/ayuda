@@ -248,13 +248,15 @@ Los campos de datos que constituyen los criterios de selección en la Ventana  S
 
 #### FICHA TÉCNICA
 
-**Activo Fijo:** Esta  opción  permite  hacer  búsqueda de  un  Activo/Equipo  por: Número de Inventario o Código Contable.
+**Activo Fijo:** Esta  opción  permite  hacer  búsqueda de  un  Activo/Equipo  por:  Número de Inventario o Código Contable.
 
 **Activo Padre:** Esta  opción hace una búsqueda del conjunto de Activos que son hijos o son parte del despiece del código del Activo/Equipo digitado en este campo. Es posible hacer uso de comodines %.
 
 **Alias:** Permite seleccionar un Activo/Equipo por el Alias previamente definido en la ficha técnica.
 
 **Car. Técnica:** Permite seleccionar los Activos/Equipos de acuerdo con una determinada Característica Técnica. Esta opción también permite el uso de comodines (%) cuando se desactiva por medio de un clic el candado <span class="mdi mdi-lock"></span> que está al lado del campo, el cual permite escribir <span class="mdi mdi-lock-open-outline"></span> y funciona igual que en los casos anteriores.
+
+**Car.Técnicas (Valor Nominal):**  Selecciona los Activos cuyo valor se encuentra definido como valor norminal en sus características técnicas.  
 
 **Centro de Costo:** Permite la selección de los Activos/ Equipos de acuerdo con el Centro de Costo asignado al  Activo/Equipo. Esta opción también permite el uso de comodines (%) cuando por medio de un clic se desactiva el candado <span class="mdi mdi-lock"></span> que está al lado del campo, el cual permite escribir <span class="mdi mdi-lock-open-outline"></span>, siendo posible seleccionar los Activos pertenecientes a Centros de Costo que tengan parte  del nombre igual. Por ejemplo: **Sistema%** seleccionará todos los Activos/Equipos en cuyo Centro de Costo tengan la palabra Sistema, independiente de si se está hablando del Sistema de Agua, de Vapor o de Energía.
 
@@ -291,6 +293,8 @@ El primer campo despliega las siguientes opciones:
 El segundo campo se usa para ingresar el valor correspondiente a la confiablidad subjetiva indicada por el técnico ejecutor.
 
 **Contador:** Permite seleccionar los Activos/Equipos de  acuerdo con un determinado Contador. Esta opción también permite el uso de comodines y funciona igual que en los casos anteriores.
+
+**Criticidad del Activo:** Selecciona los Activos que tienen asociada la criticidad que se escoja de las opciones disponibles.  
 
 **Descripción:** Selecciona los Activos/Equipos según criterios que se fundamenten en su descripción. Ejemplo: %Motor% selecciona todos los Activos/Equipos en cuya descripción, en cualquier posición, tengan la palabra  “Motor”.
 
@@ -507,7 +511,7 @@ A continuación se describen los campos que componen esta Pestaña:
 
 **Rango de Trabajo:** es intervalo de medición del Activo/Equipo.
 
-**Puntos:** Son los tres puntos de referencia de calibración o de verificación del Activo.
+**Puntos:** Son los ocho puntos de referencia de calibración o de verificación del Activo.
 
 ## INFORMACIÓN BIOMÉDICA
 
@@ -782,7 +786,7 @@ _**Imagen 51.** Activos - Modificar Clasificación por uso_
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img14_35.png)
 _**Imagen 52.** Activos - Modificar  Clasificación por uso_
 
-
+>**Nota:** Estas opciones de modificar masivamente la información biomédica, sólo está habibilitada para este tipo de compañías.
 
 ### Actualizar Contadores
 
@@ -864,13 +868,13 @@ Para acceder se sobrepone el cursor sobre el módulo de <a class="btn blue">acti
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img35.png)
 _**Imagen 58.** Activos - Ir a Cruce de Activos_
 
-A﻿ continuación se visualiza la Ventana Visor de Cruces Activos:
+A continuación se visualiza la Ventana Visor de Cruces Activos:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img36.png)
 _**Imagen 59.** Activos - Visor Cruce de Activos_
 
 
-L﻿os títulos de cada columna en color azul permiten organizar la información ascendente o descendente a través de un clic. 
+Los títulos de cada columna en color azul permiten organizar la información ascendente o descendente a través de un clic. 
 
 **Esta transacción contiene las funcionalidades en cada ventana:** Subgrupos de información <span class="mdi mdi-filter-variant"></span>,  exportar registros seleccionados <span class="mdi mdi-download"></span> , imprimir reportes <span class="mdi mdi-printer"></span>  y consultar indicadores <span class="mdi mdi-message-alert"></span>. 
 
@@ -883,7 +887,7 @@ Es posible seleccionar uno a uno en la primera columna **Indicador** a través d
 - Órdenes de Trabajo: <a class="btn white">OT</a> 
 - Historia de Mantenimiento:  <a class="btn white">HI</a>
 
-A﻿ continuación se ilustra el siguiente ejemplo:
+A continuación se ilustra el siguiente ejemplo:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img37.png)
 _**Imagen 60.** Activos - Subgrupo Cruce de Activos_
@@ -896,17 +900,17 @@ También puede visualizarse en la opción <span class="mdi mdi-download"></span>
 _**Imagen 61.** Activos - Exportar Grilla de Cruce de Activos_
 
 
-E﻿sto puede tardar algunos minutos dependiendo de la cantidad de datos a exportar, para continuar dar clic en el botón **Descargar**. Esto descarga un archivo en formato excel en la estación Cliente:
+Esto puede tardar algunos minutos dependiendo de la cantidad de datos a exportar, para continuar dar clic en el botón **Descargar**. Esto descarga un archivo en formato excel en la estación Cliente:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img39.png)
 _**Imagen 62.** Activos - Descarga Grilla de Cruce de Activos_
 
-V﻿isualización de la exportación:
+Visualización de la exportación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img40.png)
-_**Imagen 63.** Activos - V﻿isualización Descarga Grilla Cruce de Activos_
+_**Imagen 63.** Activos - Visualización Descarga Grilla Cruce de Activos_
 
-P﻿ara continuar y consultar Programas asociados al Activo o Activos seleccionados dar clic en el botón <a class="btn white">PM</a>:
+Paara continuar y consultar Programas asociados al Activo o Activos seleccionados dar clic en el botón <a class="btn white">PM</a>:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img41.png)
 _**Imagen 64.** Activos - Programas Cruce de Activos_
