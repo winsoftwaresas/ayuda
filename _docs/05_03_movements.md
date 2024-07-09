@@ -14,9 +14,9 @@ A esta ventana se llega haciendo clic sobre la pestaña **“Movimientos”** ub
 
 Los movimientos a ingresar se habilitan según el tipo de Documento, es decir, si es un documento de Salida, el sistema sólo habilita movimientos de **salida**, configurados en la tabla de Infraestructura Conceptos de Kárdex. 
 
-Desde esta ventana es posible observar los registros de Movimiento de Kárdex  para el Documento actualmente seleccionado. En la parte  superior  del  Visor  es posible visualizar el tipo de transacción que se realiza en ese Documento.
+Desde esta ventana es posible observar los registros de Movimiento de Kárdex  para el Documento actualmente seleccionado. En la parte  superior  del Visor es posible visualizar el tipo de transacción que se realiza en ese Documento.
 
-A continuación se describen los campos que  componen el registro.  Sobre cada campo se da una breve explicación.
+A continuación se describen los campos que  componen el registro de **Entrada**. Sobre cada campo se da una breve explicación.
 
 **Código RP:** Especifica el Código o Referencia del Material o Repuesto que fue objeto del movimiento de entrada o salida, según se elija en el  visor de Materiales y Repuestos, que se muestra al dar clic en el icono de subgrupo  <span class="mdi mdi-filter-variant icon white"></span> ubicado en la parte superior derecha. También es posible insertar un Material o Repuesto escribiendo directamente el Código o Referencia del Repuesto exacta en el campo Código RP y para finalizar se presiona la tecla tabular.
 
@@ -71,6 +71,8 @@ La información contenida en el cuadro  <a class="btn black"><span class="mdi md
 **Cantidad en OT:** En este campo se muestra la cantidad del Material o Repuesto que contiene  actualmente la OT relacionada en el Movimiento de Kárdex. Este campo no es modificable por el usuario, por lo tanto se visualiza como bloqueado.
 
 **Cambiar Costo:** Este check box, si se habilita cambia el valor unitario del ítem en el módulo de Almacén de Repuestos. Si no se habilita el check box, no se modifica el valor unitario del ítem.
+
+
 
 ### Eliminar una transacción
 

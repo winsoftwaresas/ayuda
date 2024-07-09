@@ -51,7 +51,7 @@ Una vez se definan para cada **OT** estos datos, es posible efectuar consultas y
 El módulo de Órdenes de Trabajo Administra tanto las Órdenes generadas en forma
 Manual como las automáticas, generadas desde Programas de Mantenimiento.
 
-Las Órdenes de Trabajo manuales se generan a medida que se requiere: en el momento de presentarse una falla sobre un Equipo o cuando se debe realizar un trabajo que no es rutinario ni programado, por decisión técnica, operativa o administrativa. Una **OT** manual puede ser Correctiva, Preventiva Manual, Predictiva, de Calibración, de Lubricación, u Otro tipo de Mantenimiento.
+**Las Órdenes de Trabajo manuales se generan a medida que se requiere:** en el momento de presentarse una falla sobre un Equipo o cuando se debe realizar un trabajo que no es rutinario ni programado, por decisión técnica, operativa o administrativa. Una **OT** manual puede ser Correctiva, Preventiva Manual, Predictiva, de Calibración, de Lubricación, u Otro tipo de Mantenimiento.
 
 Las **OT** Programadas se generan 	periódicamente, mediante el comando **“ANALIZAR/GENERAR”** en el submenú de Órdenes de Trabajo. El proceso de Generación revisa y verifica los criterios definidos en cada Programa de Mantenimiento, proponiendo generar, en forma automática, la Órden de Trabajo correspondiente, cuando tales criterios son válidos, para Mantenimientos Preventivo, Predictivo, Calibración, Lubricación y Rutas de Inspección, u Otro Tipo de Mantenimiento.
 
