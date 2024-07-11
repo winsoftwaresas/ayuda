@@ -115,6 +115,10 @@ Para las Órdenes de Trabajo Manuales, esta  opción se establece en el momento 
 
 Cuando una Órden de Trabajo Manual exige control presupuestal y el presupuesto no ha sido aprobado, no es posible registrar ni modificar el Gasto Real en ella.
 
+**Acciones técnicas:** Esta opción habilita una tabla de Acciones Técnicas en una nueva pestaña de la OT. Esta tabla está ligada a la Infraestructura, creada con su mismo nombre, que contiene un listado de Acciones Técnicas frecuentes definidas por el área de Mantenimiento. Se pretende describir, breve pero concretamente, la actividad general realizada en una OT representada como un **check list.** (En la sección vistas parciales/Acciones Técnicas se explica mas el detalle).
+
+**Estado del Activo:** Es posible que los usuarios solicitantes o la misma área de mantenimiento pueda definir por medio de este switche si el Activo se le entregó limpio al departamento de mantenimiento. 
+
 **Comentarios:** Esta opción se usa para ingresar los nuevos comentarios referentes a toda la ejecución de la OT. Al dar clic al botón <a class="btn gray">Agregar Comentario</a> aparecerá el comentario ingresado al lado derecho en una ventana tipo chat bloqueada; además de la fecha, hora y el usuario logueado que realizó el comentario.
 
 Este espacio de comentarios sirve para dos efectos:
@@ -134,11 +138,14 @@ Es posible saber cuáles OT son de tipo Metrología, Preventiva/Programada, Corr
 El significado de los colores es el siguiente:
 
 * **Naranja:** Órden que tiene asociado archivos de imágenes, videos y/o documentos en la pestaña Multimedia.
+* **Blanco:** Indica que la OT retroalimentada a través de AMovil contiene la firma de Recibido por parte del usuario solicitante.
 * **Azul:** Órden con servicio evaluado.
-* **Amarillo:** Órden de TM Metrología.
+* **Mostaza:** Órden de TM Metrología.
 * **Verde:** Órden de TM Preventivo o Programada.
 * **Rojo:** Órden de TM Correctivo.
 * **Azul Oscuro:** OT en estado Cerrada Parcial.
+* **Fucsia:** Indica que son OT que utilizan la interfase para hacer pedidos de materiales/repuestos al almacén del ERP. 
+* **Amarillo:** Son OT que han sido creadas por medio de un API. 
 
 ## Subgrupos
 
@@ -183,6 +190,11 @@ Los campos de datos que constituyen criterio de selección, se agrupan en dos bl
 
 **AC-Tipo:** Selecciona las OT asociados a los Activos que se encuentran asociados al tipo ingresado por el usuario.
 
+**AC - Marca:** Selecciona el conjunto de OT que se asocian a la marca del Activo ingresado en el campo. Este campo acepta comodines (%).
+
+**AC - Modelo:** Filtra el conjunto de OT que se asocian al modelo del Activo ingresado en el campo. Este campo acepta comodines (%).
+
+
 **2. FILTRAR POR CAMPOS DE LA ORDEN DE TRABAJO**
 
 **Acción Técnica:** Filtra las OT a las cuales se le definió la Acción Técnica seleccionada en esta opción. Existen dos formas de definir la Acción Técnica de la OT. La primera es seleccionando una de la lista desplegable. La segunda, es dando clic al icono de candado <span class="mdi mdi-lock"></span> el cual se desactiva <span class="mdi mdi-lock-open-outline"></span> y permite digitar segmentos del nombre de la Acción Técnica usando comodines (%) que filtran la OT cuya Acción Técnica tenga parte del nombre igual.
@@ -226,21 +238,21 @@ Los campos de datos que constituyen criterio de selección, se agrupan en dos bl
 
 **Estado General:** Permite seleccionar las OT de acuerdo a un Estado general: Abierta, Cancelada y Cerrada.
 
-**Fecha de Cierre:** Este criterio filtra las Órdenes de Trabajo por un rango de la Fecha de Cierre de Trabajos. Aparecen dos campos: Desde y Hasta. En cada uno de ellos se digita una fecha. De no digitar el campo **“Desde”**, se buscan las Órdenes de Trabajo cuya fecha de cierre esté en el lapso anterior a la fecha digitada en **“Hasta”**. De no digitar el campo **“Hasta”**, se buscan los registros cuya fecha de cierre esté en un lapso posterior a la digitada en **“Desde”**.
+**FF de Cierre:** Este criterio filtra las Órdenes de Trabajo por un rango de la Fecha de Cierre de Trabajos. Aparecen dos campos: Desde y Hasta. En cada uno de ellos se digita una fecha. De no digitar el campo **“Desde”**, se buscan las Órdenes de Trabajo cuya fecha de cierre esté en el lapso anterior a la fecha digitada en **“Hasta”**. De no digitar el campo **“Hasta”**, se buscan los registros cuya fecha de cierre esté en un lapso posterior a la digitada en **“Desde”**.
 
 **Comentarios:** Filtra los registros que contengan una parte del comentario registrado en este campo.
 
-**Fecha de consumo Mano de Obra:** Filtra las Órdenes de Trabajo por  un rango de la Fecha de consumo de mano de obra en el Gasto Real de la **OT**. Aparecen dos campos: Desde y Hasta. En cada uno de ellos se digita una fecha. De no digitar el campo **“Desde”**, se buscan los registros cuya fecha de consumo de mano de obra esté en el lapso anterior a la fecha digitada en **“Hasta”**. Al no digitar el campo **“Hasta”**, se buscan las ots cuya fecha de consumo de mano de obra esté en un lapso posterior a la digitada en **“Desde”**.
+**FF de consumo Mano de Obra:** Filtra las Órdenes de Trabajo por  un rango de la Fecha de consumo de mano de obra en el Gasto Real de la **OT**. Aparecen dos campos: Desde y Hasta. En cada uno de ellos se digita una fecha. De no digitar el campo **“Desde”**, se buscan los registros cuya fecha de consumo de mano de obra esté en el lapso anterior a la fecha digitada en **“Hasta”**. Al no digitar el campo **“Hasta”**, se buscan las ots cuya fecha de consumo de mano de obra esté en un lapso posterior a la digitada en **“Desde”**.
 
-**Fecha de consumo en Gasto Real:** Este criterio filtra las Órdenes de Trabajo por  un rango de la Fecha de consumo de Gasto Real. Aparecen dos campos: Desde y Hasta. En cada uno de ellos se digita una fecha. De no digitar el campo **“Desde”**, se buscan los registros cuya fecha de consumo de Gasto Real esté en el lapso anterior a la fecha digitada en **“Hasta”**. Al no digitar el campo **“Hasta”**, se buscan las OT cuya fecha de consumo de mano de obra esté en un lapso posterior a la digitada en **“Desde”**.
+**FF de consumo en Gasto Real:** Este criterio filtra las Órdenes de Trabajo por  un rango de la Fecha de consumo de Gasto Real. Aparecen dos campos: Desde y Hasta. En cada uno de ellos se digita una fecha. De no digitar el campo **“Desde”**, se buscan los registros cuya fecha de consumo de Gasto Real esté en el lapso anterior a la fecha digitada en **“Hasta”**. Al no digitar el campo **“Hasta”**, se buscan las OT cuya fecha de consumo de mano de obra esté en un lapso posterior a la digitada en **“Desde”**.
 
-**Fecha de Inicio de Trabajos:** Este criterio filtra las Órdenes de Trabajo por un rango de la Fecha de Inicio de Trabajos.  Aparecen dos campos: Desde y Hasta. En cada uno de ellos se digita una fecha. De no digitar el campo **“Desde”**, se buscan los registros cuya fecha de Inicio de trabajos esté en el lapso anterior a la fecha digitada en **“Hasta”**. De no digitar el campo **“Hasta”**, se buscan las OT cuya fecha de fin de trabajos esté en un lapso posterior a la digitada en **“Desde”**.
+**FF de Inicio de Trabajos:** Este criterio filtra las Órdenes de Trabajo por un rango de la Fecha de Inicio de Trabajos.  Aparecen dos campos: Desde y Hasta. En cada uno de ellos se digita una fecha. De no digitar el campo **“Desde”**, se buscan los registros cuya fecha de Inicio de trabajos esté en el lapso anterior a la fecha digitada en **“Hasta”**. De no digitar el campo **“Hasta”**, se buscan las OT cuya fecha de fin de trabajos esté en un lapso posterior a la digitada en **“Desde”**.
 
-**Fecha de Fin de Trabajos:** Este criterio filtra las Órdenes de Trabajo por un rango de la Fecha de Fin de Trabajos. Aparecen dos campos: Desde y Hasta. En cada uno de ellos se digita una fecha. De no digitar el campo **“Desde”**, se buscan los registros cuya fecha de fin de trabajos esté en el lapso anterior a la fecha digitada en **“Hasta”**. De no digitar el campo **“Hasta”**, se buscan las OT cuya fecha de fin de trabajos esté en un lapso posterior a la digitada en **“Desde”**.
+**FF de Fin de Trabajos:** Este criterio filtra las Órdenes de Trabajo por un rango de la Fecha de Fin de Trabajos. Aparecen dos campos: Desde y Hasta. En cada uno de ellos se digita una fecha. De no digitar el campo **“Desde”**, se buscan los registros cuya fecha de fin de trabajos esté en el lapso anterior a la fecha digitada en **“Hasta”**. De no digitar el campo **“Hasta”**, se buscan las OT cuya fecha de fin de trabajos esté en un lapso posterior a la digitada en **“Desde”**.
 
-**Fecha de Creación:** Permite filtrar las Órdenes de Trabajo cuya fecha de Creación se encuentren incluidas en el rango especificado en este campo. Aparecen dos campos: Desde y Hasta. En cada uno de ellos se digita una fecha. De no digitar el campo **“Desde”**, se buscan los registros cuya fecha de creación esté en el lapso anterior a la fecha digitada en **“Hasta”**. De no digitar el campo **“Hasta”**, se buscan las OT cuya fecha de fin de trabajos esté en un lapso posterior a la digitada en **“Desde”**.
+**FF de Creación:** Permite filtrar las Órdenes de Trabajo cuya fecha de Creación se encuentren incluidas en el rango especificado en este campo. Aparecen dos campos: Desde y Hasta. En cada uno de ellos se digita una fecha. De no digitar el campo **“Desde”**, se buscan los registros cuya fecha de creación esté en el lapso anterior a la fecha digitada en **“Hasta”**. De no digitar el campo **“Hasta”**, se buscan las OT cuya fecha de fin de trabajos esté en un lapso posterior a la digitada en **“Desde”**.
 
-**Fecha Programada:** Este criterio filtra  las Órdenes de Trabajo por un rango de la Fecha Programada. Aparecen dos campos: Desde y Hasta. En cada uno de ellos se digita una fecha. De no digitar el campo **“Desde”**, se buscan los registros cuya fecha programada esté en el lapso anterior a la fecha digitada en  **“Hasta”**. De no digitar el campo **“Hasta”**, se buscan las OT cuya fecha programada esté en un lapso posterior a la digitada en **“Desde”**.
+**FF Programada:** Este criterio filtra  las Órdenes de Trabajo por un rango de la Fecha Programada. Aparecen dos campos: Desde y Hasta. En cada uno de ellos se digita una fecha. De no digitar el campo **“Desde”**, se buscan los registros cuya fecha programada esté en el lapso anterior a la fecha digitada en  **“Hasta”**. De no digitar el campo **“Hasta”**, se buscan las OT cuya fecha programada esté en un lapso posterior a la digitada en **“Desde”**.
 
 **Gasto Real Mano de Obra:** Esta opción habilita una lista desplegable donde se escoge el criterio deseado, junto con un campo donde se digita el valor de comparación. Los criterios son:
 
@@ -268,7 +280,9 @@ Los criterios son:
 - **Mayor (>)**  
 - **Menor (<)**.
 
- Estos criterios actúan en comparación con el valor digitado en la casilla que se activa al lado del operador aritmético.
+Estos criterios actúan en comparación con el valor digitado en la casilla que se activa al lado del operador aritmético.
+
+**Indicadores:** Este es un campo desplegable que filtra las OT que tenga el indicador por color definido, las opciones son: Ninguno, Multimedia, Firma Recibido, Servicio Evaluado y Creadas desde APi. 
 
 **Número de la OT**: Filtra los registros con base en su número consecutivo. Para ello se define en el criterio un rango. Aparecen cuatro campos, para ubicar el comienzo del rango **“Desde”** (Año-Consecutivo) y el fin del rango **“Hasta”** (Año-Consecutivo). De no digitar los campos **“Desde”**, se buscan las OT cuyo número es inferior al digitado en **“Hasta”**. De no digitar los campos **“Hasta”**, se buscan las OT cuyo número es  posterior al digitado en **“Desde”**.
 
@@ -284,7 +298,8 @@ Los criterios son:
 
 **Responsable:** Filtra las Órdenes de Trabajo de acuerdo al Responsable asignado.Existen dos formas de buscar el Responsable. La primera es seleccionándolo de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span> el cual se desactiva <span class="mdi mdi-lock-open-outline"></span> permitiendo digitar segmentos del nombre del Responsable, en el cual también es posible usar comodines (%). Cuando se usan comodines, es posible seleccionar las OT cuyo Responsable tenga una parte del nombre igual. 
 
-**Responsable Asignado para Histograma:** Permite buscar las OT cuyo Responsable está asignado para el histograma. Existen dos formas de definir el Responsable asignado para histograma de la OT. La primera es seleccionándolo de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span> el cual se desactiva <span class="mdi mdi-lock-open-outline"></span> permitiendo digitar segmentos del nombre del Responsable, en el cual también es posible usar comodines (%). Cuando se utilizan comodines, es posible seleccionar las OT cuyo Responsable tenga una parte del nombre igual.
+* **Responsable Asignado para Histograma:** Permite seleccionar las OT cuyo Responsable está asignado para el histograma. Este campo depende de la elección que se definia en el criterio **Responsable**.
+
 
 **Responsable en Gasto Real:** Permite filtrar de las OT cuyo Responsable en Gasto Real está definido en la mano de obra del Gasto Real.
 
