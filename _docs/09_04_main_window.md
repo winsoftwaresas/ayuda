@@ -20,7 +20,7 @@ Desde esta ventana es posible observar la lista de las Órdenes de Trabajo exist
 
 Los nombres que encabezan las columnas a  manera de títulos en azul, permiten ordenar de manera ascendente/descendente la información por cada ítem seleccionado, esto a tráves de un clic en el respectivo encabezado.
 
-En esta ventana, en la columna <a class="btn white">estado</a> se define una semaforización de las Órdenes de Trabajo. La finalidad de esta columna es mostrar de manera gráfica el estado de cada registro.
+En esta ventana, en la columna <a class="btn white">Estado</a> se define una semaforización de las Órdenes de Trabajo. La finalidad de esta columna es mostrar de manera gráfica el estado de cada registro.
 
 La definición de colores está definida, según la siguiente convención:
 
@@ -111,7 +111,7 @@ A continuación se describen los campos que componen esta ventana Detalle de Ór
 
 **Control Presupuestal:** Esta opción permite definir si la Órden de Trabajo maneja Presupuesto. Para las OT, esta opción siempre está seleccionada, pero aparece protegida, ya que  toda OT Programada conlleva el Presupuesto Aprobado.
 
-Para las Órdenes de Trabajo Manuales, esta  opción se establece en el momento de creación de la misma. Esta elección se debe marcar antes de darle clic al botón <a class="btn blue">insertar</a> de otra forma, **AM** asume que la OT no va a requerir Control Presupuestal y la posibilidad de hacer la marcación se inactiva en el acto.
+Para las Órdenes de Trabajo Manuales, esta  opción se establece en el momento de creación de la misma. Esta elección se debe marcar antes de darle clic al botón <a class="btn blue">Insertar</a> de otra forma, **AM** asume que la OT no va a requerir Control Presupuestal y la posibilidad de hacer la marcación se inactiva en el acto.
 
 Cuando una Órden de Trabajo Manual exige control presupuestal y el presupuesto no ha sido aprobado, no es posible registrar ni modificar el Gasto Real en ella.
 
@@ -327,7 +327,7 @@ Estos criterios actúan en comparación con el valor digitado en la casilla que 
 
 Estos criterios actúan en comparación con el valor digitado en la casilla que se activa al lado del operador aritmético.
 
-_> *Nota: Es importante tener en cuenta que cuando se están realizando los subgrupos, se pueden utilizar uno o varios de estos criterios simultáneamente. También se permite la unión de selecciones, es decir, después de haber realizado una búsqueda de un criterio, es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección, se da un clic al botón <a class="btn white">Mas <span class="mdi mdi-plus-circle"></span></a> , en lugar de darlo al botón <a class="btn white">aceptar <span class="mdi mdi-check-circle"></span></a>._
+_> *Nota: Es importante tener en cuenta que cuando se están realizando los subgrupos, se pueden utilizar uno o varios de estos criterios simultáneamente. También se permite la unión de selecciones, es decir, después de haber realizado una búsqueda de un criterio, es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección, se da un clic al botón <a class="btn white">Mas <span class="mdi mdi-plus-circle"></span></a> , en lugar de darlo al botón <a class="btn white">Aceptar <span class="mdi mdi-check-circle"></span></a>._
 
 ## Vistas Parciales / Pestañas
 
