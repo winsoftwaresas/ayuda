@@ -12,7 +12,7 @@ date: 2022-11-10T20:17:34.887Z
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img01.png)
 _**Imagen 1.** Menú Almacenes_
 
-Al sobreponer el cursor en el módulo de <a class="btn blue">almacén</a> se listan los almacenes creados en la tabla de Almacenes de la Infraestructura y cuando se elige un Almacén, el sistema muestra al lado izquierdo del nombre del respectivo almacén un <span class="mdi mdi-check-circle"></span> en color verde y en frente en azul, el aviso <a class="btn blue">seleccionado</a>.
+ Al sobreponer el cursor en el módulo de <a class="btn blue">almacén</a> se listan los almacenes creados en la tabla de Almacenes de la Infraestructura y cuando se elige un Almacén, el sistema muestra al lado izquierdo del nombre del respectivo almacén un <span class="mdi mdi-check-circle"></span> en color verde y en frente en azul, el aviso <a class="btn blue">seleccionado</a>.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap04/chp04_img02.png)
 _**Imagen 2.** Ventana Principal Repuestos_
