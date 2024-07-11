@@ -11,9 +11,7 @@ date: 2022-02-10T14:45:29.041Z
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img02.png)
 ***Imagen 67.** Órdenes - Acceso directo*
 
-Se accede desde el comando <a class="btn blue">órdenes</a> en la barra de menú principal de **AM**. A través de esta ventana se permite crear Órdenes de Trabajo manuales y Administrar la totalidad de las Órdenes activas, Pendientes de Ejecución, o listas para ser enviadas a Historia. Igualmente, desde esta ventana se Administran las Órdenes de Trabajo Programadas (las que se generan desde Programas de Mantenimiento), a continuación se ilustran las porciones que la componen:
-
-## Ventana Visor
+Se accede desde el comando <a class="btn blue">órdenes</a> en la barra de menú principal de **AM**. A través de esta ventana se permite crear Órdenes de Trabajo manuales y Administrar la totalidad de las Órdenes activas, Pendientes de Ejecución, o listas para ser enviadas a Historia. Igualmente, desde esta ventana se Administran las Órdenes de Trabajo Programadas (las que se generan desde Programas de Mantenimiento), a continuación se ilus
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img03.png)
 ***Imagen 68.** Órdenes - Ventana Visor*
