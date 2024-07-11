@@ -138,9 +138,11 @@ published: true
 
 <a class="fab cl-white box-shadow"><span class="iconify icon cl-red bg-white" data-icon="mdi-delete-outline"></span></a>
 
-
+<span class="mdi mdi-plus-circle icon white"></span>
 
 <hr>
+
+<a class="btn cl-black "><span class="mdi mdi-checkbox-blank-outline"> Check </span></a>
 
 <a class="fab cl-white bg-blue box-shadow"><span class="iconify icon cl-white bg-blue" data-icon="mdi-dots-vertical"></span></a>
 
