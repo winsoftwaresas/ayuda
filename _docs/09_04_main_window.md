@@ -375,20 +375,22 @@ Las Acciones Técnicas se seleccionan de la lista desplegable y se adicionan con
 
 ## Presupuesto
 
-En una OT Manual que se acaba de crear, solo se permite definir o modificar su Presupuesto, hasta el momento en que se ha ya aprobado el mismo. Además, solamente se puede crear o modificar el Presupuesto de una OT si se ha establecido la opción <a class="btn white"><span class="mdi mdi-checkbox-blank-outline">Control Presupuestal</span></a>, en la ventana detalle de la OT durante la creación de la OT. Esto significa que si a una OT no se le marcó el recuadro anterior, no tendrá la posibilidad de aceptar datos de Presupuesto, solamente de Gasto Real.
+En una OT Manual que se acaba de crear sólo se permite definir o modificar su Presupuesto si se ha establecido la opción <a class="btn white"><span class="mdi mdi-checkbox-blank-outline">Control Presupuestal</span></a>, en la ventana detalle de la OT durante la creación de la OT. Esto significa que si a una OT no se le marcó el recuadro anterior, no tendrá la posibilidad de aceptar datos de **Presupuesto**, solamente de **Gasto Real**:
 
-Los datos de Gasto Real se pueden registrar en una OT en cualquier momento, mientras esa OT no exija Control Presupuestal. Pero si la OT exige Control Presupuestal, solo se puede registrar el Gasto Real después de haber aprobado el Presupuesto, en cuyo caso
-ya no será posible modificar este último.
-
-Se ingresa mediante un clic en la pestaña “Presupuesto” en la ventana detalle de OT. 
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_01.png)
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07.png)
 ***Imagen 75.** Órdenes - Presupuesto*
 
-En esta ventana se resumen los totales de los costos presupuestados de <a class="btn gray">mano obra interna</a>
-, <a class="btn gray">mano obra externa</a>
-, <a class="btn gray">mat y rep</a>
-, <a class="btn gray">o.conceptos</a> para acceder a cada uno de ellos se da un clic en el botón acorde a lo que se necesite ingresar en su respectiva ventana detalle, a continuación se explica detalladamente como ingresarlos:
+Los datos de Gasto Real se pueden registrar en una OT en cualquier momento, mientras esa OT no exija Control Presupuestal. Pero si la OT exige Control Presupuestal, solo se puede registrar el Gasto Real después de haber **aprobado el Presupuesto**, en cuyo caso ya no será posible modificar este último.
+
+Se muestra un ejemplo de una OT creada manualmente con manejo de Presupuesto: 
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_01.png)
+***Imagen 76.** Órdenes - Presupuesto*
+
+En esta ventana se resumen los totales de los costos presupuestados de <a class="btn gray">Mano Obra Interna</a>
+, <a class="btn gray">Mano Obra Externa</a>
+, <a class="btn gray">Mat y Rep</a>
+, <a class="btn gray">O.Conceptos</a> para acceder a cada uno de ellos se da un clic en el botón acorde a lo que se necesite ingresar en su respectiva ventana detalle, a continuación se explica detalladamente como ingresarlos:
 
 **Ingresar Mano de Obra Interna**
 
