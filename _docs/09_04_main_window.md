@@ -338,10 +338,7 @@ Esta opción conduce a la tabla de Acciones Técnicas en una nueva pestaña de l
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img06.png)
 ***Imagen 72.** Órdenes - Ventana Detalle Acciones Técnicas*
 
-En la pestaña de Acciones Técnicas de la Ventana Detalle de OT aparece un nuevo recuadro en el que irán apareciendo las que se vayan adicionando a través de un botón <a class="btn gray">Adicionar Acción Técnica</a>
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img06_01.png)
-***Imagen 73.** Órdenes - Adicionar Acciones Técnicas*
+En la pestaña de Acciones Técnicas de la Ventana Detalle de OT aparece un nuevo recuadro en el que irán apareciendo las que se vayan adicionando a través del botón <a class="btn gray">Adicionar Acción Técnica</a>
 
 A continuación se describen los campos que componen esta ventana de información adicional:
 
@@ -353,35 +350,47 @@ A continuación se describen los campos que componen esta ventana de informació
 
 Al accionar el botón <a class="btn gray">Adicionar Acción Técnica</a> se habilita el conjunto de Acciones definidas por mantenimiento desde la tabla de infraestructura correspondiente. 
 
-Las Acciones Técnicas se seleccionan de la lista desplegable y se adicionan con el botón del signo  <a class="btn gray"><span class="mdi mdi-plus-circle white"></span></a>  
+Las Acciones Técnicas se seleccionan de la lista desplegable y se adicionan con el botón del signo  <a class="btn gray"><span class="mdi mdi-plus-circle white"></span></a>:
 
-**Realizado:** Este es un campo que una vez agregada la Acción Técnica, se puede actualizar, dando clic en el botón <a class="btn cl-black "><span class="mdi mdi-checkbox-blank-outline"> Check </span></a> de forma manual desde AM, o también retroalimentándola desde AMovil. 
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img06_01.png)
+***Imagen 73.** Órdenes - Adicionar Acciones Técnicas*
+
+**Realizado:** Este es un campo que una vez agregada la Acción Técnica, se puede actualizar, dando clic en el botón <a class="btn cl-black "><span class="mdi mdi-checkbox-blank-outline"> Check </span></a> de forma manual desde AM, o también retroalimentándola desde AMovil. Una vez se marque esta opción en el detalle de la tabla aparece un Si, de lo contrario aparece un No. 
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img06_02.png)
+***Imagen 74.** Órdenes - Actualizar Acciones Técnicas*
+
 
 **Valor:** Este campo se habilita una vez se haya agregado la Acción Técnica y es posible actualizarla ingresando un valor numérico en el campo si aplica. 
 
 **Unidad:** Es la unidad de duración que tiene la Acción Técnica. Es un campo protegido que viene desde su respectiva tabla en Infraestructura y puede ser expresada en Días, Horas o Minutos. 
 
-**Comentario:** Es un campo que se habilita una vez se añada la Acción Ténica, el cual da claridad o detalles sobre la acción ejecutada.
+**Comentario:** Es un campo que se habilita una vez se añada la Acción Técnica, el cual da claridad o detalles sobre la acción ejecutada.
 
 >**Nota:** Para actualizar o guardar los detalles de una Acción Técnica se hace un clic sobre ella y luego se acciona el botón <a class="btn gray">Actualizar Acción Técnica</a>. Para eliminar o desasociar una Acción de una OT, se debe  seleccionar y hacer un clic sobre el icono <span class="mdi mdi-delete"></span>. Estos cambios quedan automáticamente guardados en la OT. 
 
 
+
+
 ## Presupuesto
 
-En una OT Manual que se acaba de crear, solo se permite definir o modificar su Presupuesto, hasta el momento en que se ha ya aprobado el mismo. Además, solamente se puede crear o modificar el Presupuesto de una OT si se ha establecido la opción <a class="btn white"><span class="mdi mdi-checkbox-blank-outline">control presupuestal</span></a>, en la ventana detalle de la OT durante la creación de la OT. Esto significa que si a una OT no se le marcó el recuadro anterior, no tendrá la posibilidad de aceptar datos de Presupuesto, solamente de Gasto Real.
+En una OT Manual que se acaba de crear sólo se permite definir o modificar su Presupuesto si se ha establecido la opción <a class="btn white"><span class="mdi mdi-checkbox-blank-outline">Control Presupuestal</span></a>, en la ventana detalle de la OT durante la creación de la OT. Esto significa que si a una OT no se le marcó el recuadro anterior, no tendrá la posibilidad de aceptar datos de **Presupuesto**, solamente de **Gasto Real**:
 
-Los datos de Gasto Real se pueden registrar en una OT en cualquier momento, mientras esa OT no exija Control Presupuestal. Pero si la OT exige Control Presupuestal, solo se puede registrar el Gasto Real después de haber aprobado el Presupuesto, en cuyo caso
-ya no será posible modificar este último.
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07.png)
+***Imagen 75.** Órdenes - Presupuesto*
 
-Se ingresa mediante un clic en la pestaña “Presupuesto” en la ventana detalle de OT. 
+Los datos de Gasto Real se pueden registrar en una OT en cualquier momento, mientras esa OT no exija Control Presupuestal. Pero si la OT exige Control Presupuestal, solo se puede registrar el Gasto Real después de haber **aprobado el Presupuesto**, en cuyo caso ya no será posible modificar este último.
+
+Se muestra un ejemplo de una OT creada manualmente con manejo de Presupuesto: 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_01.png)
-***Imagen 74.** Órdenes - Presupuesto*
+***Imagen 76.** Órdenes - Presupuesto*
 
-En esta ventana se resumen los totales de los costos presupuestados de <a class="btn gray">mano obra interna</a>
-, <a class="btn gray">mano obra externa</a>
-, <a class="btn gray">mat y rep</a>
-, <a class="btn gray">o.conceptos</a> para acceder a cada uno de ellos se da un clic en el botón acorde a lo que se necesite ingresar en su respectiva ventana detalle, a continuación se explica detalladamente como ingresarlos:
+En esta ventana se resumen los totales de los costos presupuestados de <a class="btn gray">Mano Obra Interna</a>
+, <a class="btn gray">Mano Obra Externa</a>
+, <a class="btn gray">Mat y Rep</a>
+, <a class="btn gray">O.Conceptos</a> para acceder a cada uno de ellos se da un clic en el botón acorde a lo que se necesite ingresar en su respectiva ventana detalle, a continuación se explica detalladamente como ingresarlos:
 
 **Ingresar Mano de Obra Interna**
 
