@@ -288,3 +288,6 @@ almacén :
 
 <a class="btn cl-w black bd-blue bg-white px-6"> Visualizar Firma </a>
 
+<a class="btn bg-gray cl-blue"><span class="mdi mdi-plus-circle white"></span></a>
+
+<a class="btn bg-white">ACEPTAR</a>

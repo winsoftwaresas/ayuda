@@ -333,7 +333,7 @@ Estos criterios actúan en comparación con el valor digitado en la casilla que 
 
 ### Acciones técnicas
 
-Esta opción conduce a la tabla de Acciones Técnicas en una nueva pestaña de la OT. Esta tabla está ligada a la Infraestructura, creada con su mismo nombre, que contiene un listado de Acciones Técnicas frecuentes en un área de Mantenimiento. Con la información contenida allí, se pretende describir, breve pero concretamente, la actividad general realizada en una OT. Las Acciones Técnicas en una OT se pueden definir, después de haber seleccionado en la ventana Detalle de la Ficha Técnica de la OT en el momento de su creación, el cuadro llamado <a class="btn white"><span class="mdi mdi-checkbox-blank-outline"> Acciones Técnicas </span></a> o bien, haberlas definido en la creación del Programa de Mantenimiento, continuación se muestra la porción Acciones Técnicas de una OT:
+Esta opción conduce a la tabla de Acciones Técnicas en una nueva pestaña de la OT. Esta tabla está ligada a la Infraestructura, creada con su mismo nombre, que contiene un listado de Acciones Técnicas frecuentes en un área de Mantenimiento. Con la información contenida allí, se pretende describir, breve pero concretamente, la actividad general realizada en una OT. Las Acciones Técnicas en una OT se pueden definir, después de haber seleccionado en la ventana Detalle de la Ficha Técnica de la OT en el momento de su creación, el cuadro llamado <a class="btn bg-white"><span class="mdi mdi-checkbox-blank-outline"> Acciones Técnicas </span></a> o bien, haberlas definido en la creación del Programa de Mantenimiento, continuación se muestra la porción Acciones Técnicas de una OT:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img06.png)
 ***Imagen 72.** Órdenes - Ventana Detalle Acciones Técnicas*
@@ -350,7 +350,7 @@ A continuación se describen los campos que componen esta ventana de informació
 
 Al accionar el botón <a class="btn gray">Adicionar Acción Técnica</a> se habilita el conjunto de Acciones definidas por mantenimiento desde la tabla de infraestructura correspondiente. 
 
-Las Acciones Técnicas se seleccionan de la lista desplegable y se adicionan con el botón del signo  <a class="btn gray"><span class="mdi mdi-plus-circle white"></span></a>:
+Las Acciones Técnicas se seleccionan de la lista desplegable y se adicionan con el botón del signo  <a class="btn bg-gray cl-blue"><span class="mdi mdi-plus-circle white"></span></a>:
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img06_01.png)
@@ -375,7 +375,7 @@ Las Acciones Técnicas se seleccionan de la lista desplegable y se adicionan con
 
 ## Presupuesto
 
-En una OT Manual que se acaba de crear sólo se permite definir o modificar su Presupuesto si se ha establecido la opción <a class="btn white"><span class="mdi mdi-checkbox-blank-outline">Control Presupuestal</span></a>, en la ventana detalle de la OT durante la creación de la OT. Esto significa que si a una OT no se le marcó el recuadro anterior, no tendrá la posibilidad de aceptar datos de **Presupuesto**, solamente de **Gasto Real**:
+En una OT Manual que se acaba de crear sólo se permite definir o modificar su Presupuesto si se ha establecido la opción <a class="btn bg-white"><span class="mdi mdi-checkbox-blank-outline">Control Presupuestal</span></a>, en la ventana detalle de la OT durante la creación de la OT. Esto significa que si a una OT no se le marcó el recuadro anterior, no tendrá la posibilidad de aceptar datos de **Presupuesto**, solamente de **Gasto Real**:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07.png)
 ***Imagen 75.** Órdenes - Presupuesto*
@@ -395,7 +395,7 @@ En esta ventana se resumen los totales de los costos presupuestados de <a class=
 **Ingresar Mano de Obra Interna**
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_02.png)
-***Imagen 75.** Órdenes - Mano de Obra Interna*
+***Imagen 77.** Órdenes - Mano de Obra Interna*
 
 A través de la ventana de Ingreso de Mano de Obra Interna se administra el Presupuesto de Mano de Obra de la OT.
 
@@ -404,7 +404,7 @@ quiénes serán los encargados de ejecutar la labor.
 
 En la izquierda de la ventana aparece un pequeño listado de los oficios presupuestados para la OT activa. A la derecha, es posible efectuar modificaciones, así como ingresar nuevos oficios al presupuesto.
 
-A continuación se hace un clic en el botón <a class="btn gray">Adicionar mano obra interna</a> se deberán diligenciar los siguientes campos:
+A continuación se hace un clic en el botón <a class="btn gray">Adicionar Mano Obra Interna</a> se deberán diligenciar los siguientes campos:
 
 **CR:** Es el centro responsable al que pertenece el oficio presupuestado. Es un campo de solo lectura, que se establece automáticamente al seleccionar el oficio.
 
@@ -424,27 +424,27 @@ Interna una vez se haya escogido el Oficio.
 
 **Vlr. Total:** Este campo es informativo y es calculado por el sistema, contiene el valor total del presupuesto para ese Oficio. Es el producto del Vlr. Hora por H. Hombre y Minutos. Se visualiza en la tabla de Mano de Obra Interna.
 
-Una vez que se diligencian todos los campos se da clic en el ícono del Más <span class="mdi mdi-plus-circle icon white"></span>, seguidamente se observa que la información creada se muestra en el recuadro de la mano de Obra Interna, ubicada al lado izquierdo.
+Una vez que se diligencian todos los campos se da clic en el botón <a class="btn bg-gray cl-blue"><span class="mdi mdi-plus-circle white"></span></a>, seguidamente se observa que la información creada se muestra en el recuadro de la mano de Obra Interna, ubicada al lado izquierdo.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_02.png)
-***Imagen 76.** Órdenes - Ingresar MO*
+***Imagen 78.** Órdenes - Ingresar MO*
 
-Una vez terminado el proceso, hacer clic en el botón <a class="btn gray ">ir a la matriz</a> para regresar a la ventana principal de Presupuesto.
+Una vez terminado el proceso, hacer clic en el botón <a class="btn gray ">Ir a Matriz</a> para regresar a la ventana principal de Presupuesto.
 
-Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón <a class="btn gray">actualizar mano obra interna</a>.
+Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem y finalizar con el botón <a class="btn gray">Actualizar Mano Obra Interna</a>.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_03.png)
-***Imagen 77.** Órdenes - Actualizar MO* 
+***Imagen 79.** Órdenes - Actualizar MO* 
 
-Por otro lado, para eliminar un registro de la tabla de Mano de Obra Interna, se selecciona el registro y luego se da clic al icono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario de si está seguro de eliminar el registro y finalmente se da clic en <a class="btn">Aceptar</a>, como se muestra en la siguiente imagen:
+Por otro lado, para eliminar un registro de la tabla de Mano de Obra Interna, se selecciona el registro y luego se da clic al icono <span class="mdi mdi-delete"></span>, el cual muestra un mensaje de alerta que indica al usuario de si está seguro de eliminar el registro, para finalizar dar clic en <a class="btn bg-white">ACEPTAR</a>, como se muestra en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_04.png)
-***Imagen 78.** Órdenes - Eliminar MO* 
+***Imagen 80.** Órdenes - Eliminar MO* 
 
 **Ingresar Mano de Obra Externa**
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_05.png)
-***Imagen 79.** Órdenes - ME*
+***Imagen 81.** Órdenes - ME*
 
 A través de la ventana de Ingreso de Mano de Obra Externa se administra el Presupuesto de Mano de Obra Externa de la OT.
 
@@ -452,7 +452,7 @@ Es importante resaltar que el presupuesto de Mano de Obra Externa de una OT, se 
 
 A la izquierda aparece el listado de los oficios o especialidades presupuestados, a la derecha es posible efectuar modificaciones a los ítems presupuestados o nuevos ingresos de oficios al presupuesto.
 
-Para ingresar nuevas especialidades al Presupuesto de la OT se debe dar clic en el botón <a class="btn gray">Adicionar mano obra externa</a> y  diligenciar los siguientes campos:
+Para ingresar nuevas especialidades al Presupuesto de la OT se debe dar clic en el botón <a class="btn gray">Adicionar Mano Obra Externa</a> y  diligenciar los siguientes campos:
 
 **CR:** Es el centro responsable al que pertenece el Oficio o Especialidad presupuestado. Es un campo de solo lectura, que se establece automáticamente al seleccionar el Oficio o
 Especialidad.
@@ -463,31 +463,31 @@ Especialidad.
 
 **Costo Unitario por hora/visita:** Se digita el valor unitario por hora o por visita de parte del responsable ejecutor externo para esa actividad programada, ya sea un Contratista o un Servicio Externo.
 
-Una vez que se diligencian todos los campos se da clic en el icono del Más <span class="mdi mdi-plus-circle icon white"></span>, seguidamente, se observa que la información creada se muestra en el recuadro de la mano de Obra Externa, ubicada al lado izquierdo.
+Una vez que se diligencian todos los campos se da clic en el icono del Más <a class="btn bg-gray cl-blue"><span class="mdi mdi-plus-circle white"></span></a>, seguidamente, se observa que la información creada se muestra en el recuadro de la mano de Obra Externa, ubicada al lado izquierdo.
 
-Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón <a class="btn gray">actualizar mano obra externa</a>.
+Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón <a class="btn gray">Actualizar Mano Obra Externa</a>.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_06.png)
-***Imagen 80.** Órdenes - Actualizar ME*
+***Imagen 82.** Órdenes - Actualizar ME*
 
-Una vez terminado el proceso, hacer clic en el botón <a class="btn gray">ir a Matriz</a>. para regresar a la ventana
+Una vez terminado el proceso, hacer clic en el botón <a class="btn gray">Ir a Matriz</a>. para regresar a la ventana
 principal de Presupuesto.
 
-Por otro lado, para eliminar un registro de la tabla de Mano de Obra Externa, se selecciona el registro y luego se da clic al icono de eliminar <span class="mdi mdi-delete"></span> sale un mensaje de alerta que indica al usuario de si está seguro de eliminar el registro y finalmente se da clic en <a class="btn">Aceptar</a>, como se muestra en la siguiente imagen:
+Por otro lado, para eliminar un registro de la tabla de Mano de Obra Externa, se selecciona el registro y luego se da clic al icono de eliminar <span class="mdi mdi-delete"></span> sale un mensaje de alerta que indica al usuario de si está seguro de eliminar el registro y finalmente se da clic en <a class="btn bg-white">Aceptar</a>, como se muestra en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_07.png)
-***Imagen 81.** Órdenes - Eliminar ME*
+***Imagen 83.** Órdenes - Eliminar ME*
 
 **Ingresar Materiales y Repuestos**
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_08.png)
-***Imagen 82.** Órdenes - M y R* 
+***Imagen 84.** Órdenes - M y R* 
 
 A través de la ventana de Ingreso de Materiales y Repuestos se administra el Presupuesto de Materiales y Repuestos de la OT.
 A la izquierda aparece el listado de los Almacenes y Materiales y Repuestos presupuestados.
 
 A la derecha es posible efectuar modificaciones a los ítems o ingresar nuevos.
-Para ingresar nuevos Materiales y Repuestos, se debe dar clic al botón <a class="btn gray">Adicionar material y repuesto</a> se deben diligenciar los siguientes campos:
+Para ingresar nuevos Materiales y Repuestos, se debe dar clic al botón <a class="btn gray">Adicionar Material y Repuesto</a> se deben diligenciar los siguientes campos:
 
 **Almacén:** Se elige el almacén dónde se encuentra el repuesto a ingresar al presupuesto.
 
@@ -513,19 +513,19 @@ Repuesto.
 
 **Vlr. Total:** Este campo es informativo y es calculado por el sistema, contiene el valor total del presupuesto para ese Repuesto. Es el producto entre el Vlr. Unitario y la Cantidad.
 
-Una vez se diligencien estos campos se da clic en el ícono de Más <span class="mdi mdi-plus-circle icon white"></span> para agregar como se muestra en la imagen anterior. 
+Una vez se diligencien estos campos se da clic en el botón <a class="btn bg-gray cl-blue"><span class="mdi mdi-plus-circle white"></span></a> para agregar como se muestra en la imagen anterior. 
 
-Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón <a class="btn gray">actualizar material y repuesto</a>.
+Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón <a class="btn gray">Actualizar Material y Repuesto</a>.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_09.png)
-***Imagen 83.** Órdenes - Actualizar M y R*
+***Imagen 85.** Órdenes - Actualizar M y R*
 
-Una vez terminado el proceso, hacer clic en el botón <a class="btn gray">ir a matriz</a> para regresar a la ventana principal de Presupuesto.
+Una vez terminado el proceso, hacer clic en el botón <a class="btn gray">Ir a Matriz</a> para regresar a la ventana principal de Presupuesto.
 
 Por otro lado, para eliminar un registro de la tabla de Material y Repuesto, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-lock"></span> sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">Aceptar</a> como se muestra en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_10.png)
-***Imagen 84.** Órdenes - Eliminar M y R*
+***Imagen 86.** Órdenes - Eliminar M y R*
 
 **Ingresar otros Conceptos**
 
