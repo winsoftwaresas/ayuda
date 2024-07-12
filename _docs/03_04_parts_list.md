@@ -53,7 +53,7 @@ A esta ventana se llega haciendo clic sobre la opción <a class="btn blue">Activ
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap03/chp03_img03.png)
 _**Imagen 3.** Ventana Visor Activos_
 
-Desde esta ventana es posible observar los Activos/Equipos existentes. Se listan todos o una selección o subgrupo de ellos. El conjunto de Activos/Equipos disponibles a ser desplegados se muestran a través de páginas. El tamaño de las páginas es configurable desde el módulo de <a class="btn blue">administración</a> por parte de quien tenga acceso a él.
+Desde esta ventana es posible observar los Activos/Equipos existentes. Se listan todos o una selección o subgrupo de ellos. El conjunto de Activos/Equipos disponibles a ser desplegados se muestran a través de páginas. El tamaño de las páginas es configurable desde el módulo de <a class="btn blue">Administración</a> por parte de quien tenga acceso a él.
 
 
 Por medio de un clic sobre alguno de los Activos/Equipos del Visor el sistema responde mostrando la información de ese registro, en forma detallada, en una ventana llamada Ventana Detalle.
@@ -191,7 +191,8 @@ Los que están Inactivos (bien sea No Operativos o Dados de baja temporal o tota
 - Quincena
 - Mes
 
-Para añadir el contador se debe dar clic en el botón <span class="mdi mdi-plus-circle icon white"></span>.
+Para añadir el contador se debe dar clic en el botón <a class="btn bg-gray cl-blue"><span class="mdi mdi-plus-circle white"></span></a>.
+
 
 **Comentario:** Aquí se ingresan los comentarios sobre un Activo o se especifica información adicional al AC.
 
