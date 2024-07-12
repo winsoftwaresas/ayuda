@@ -340,9 +340,6 @@ Esta opción conduce a la tabla de Acciones Técnicas en una nueva pestaña de l
 
 En la pestaña de Acciones Técnicas de la Ventana Detalle de OT aparece un nuevo recuadro en el que irán apareciendo las que se vayan adicionando a través del botón <a class="btn gray">Adicionar Acción Técnica</a>
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img06_01.png)
-***Imagen 73.** Órdenes - Adicionar Acciones Técnicas*
-
 A continuación se describen los campos que componen esta ventana de información adicional:
 
 **Que Hacer:** Aparece con los campos bloqueados para que el usuario visualice la información básica de la OT a la cual se le están asociando las Acciones Técnicas.
@@ -353,9 +350,17 @@ A continuación se describen los campos que componen esta ventana de informació
 
 Al accionar el botón <a class="btn gray">Adicionar Acción Técnica</a> se habilita el conjunto de Acciones definidas por mantenimiento desde la tabla de infraestructura correspondiente. 
 
-Las Acciones Técnicas se seleccionan de la lista desplegable y se adicionan con el botón del signo  <a class="btn gray"><span class="mdi mdi-plus-circle white"></span></a>.
+Las Acciones Técnicas se seleccionan de la lista desplegable y se adicionan con el botón del signo  <a class="btn gray"><span class="mdi mdi-plus-circle white"></span></a>:
 
-**Realizado:** Este es un campo que una vez agregada la Acción Técnica, se puede actualizar, dando clic en el botón <a class="btn cl-black "><span class="mdi mdi-checkbox-blank-outline"> Check </span></a> de forma manual desde AM, o también retroalimentándola desde AMovil. 
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img06_01.png)
+***Imagen 73.** Órdenes - Adicionar Acciones Técnicas*
+
+**Realizado:** Este es un campo que una vez agregada la Acción Técnica, se puede actualizar, dando clic en el botón <a class="btn cl-black "><span class="mdi mdi-checkbox-blank-outline"> Check </span></a> de forma manual desde AM, o también retroalimentándola desde AMovil. Una vez se marque esta opción en el detalle de la tabla aparece un Si, de lo contrario aparece un No. 
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img06_02.png)
+***Imagen 74.** Órdenes - Actualizar Acciones Técnicas*
+
 
 **Valor:** Este campo se habilita una vez se haya agregado la Acción Técnica y es posible actualizarla ingresando un valor numérico en el campo si aplica. 
 
@@ -363,10 +368,9 @@ Las Acciones Técnicas se seleccionan de la lista desplegable y se adicionan con
 
 **Comentario:** Es un campo que se habilita una vez se añada la Acción Técnica, el cual da claridad o detalles sobre la acción ejecutada.
 
-Para actualizar o guardar los detalles de una Acción Técnica se hace un clic sobre ella y luego se acciona el botón <a class="btn gray">Actualizar Acción Técnica</a>. Para eliminar o desasociar una Acción de una OT, se debe  seleccionar y hacer un clic sobre el icono <span class="mdi mdi-delete"></span>. Estos cambios quedan automáticamente guardados en la OT, como se muestra en el siguiente ejemplo:
+>**Nota:** Para actualizar o guardar los detalles de una Acción Técnica se hace un clic sobre ella y luego se acciona el botón <a class="btn gray">Actualizar Acción Técnica</a>. Para eliminar o desasociar una Acción de una OT, se debe  seleccionar y hacer un clic sobre el icono <span class="mdi mdi-delete"></span>. Estos cambios quedan automáticamente guardados en la OT. 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img06_02.png)
-***Imagen 74.** Órdenes - Actualizar Acciones Técnicas*
+
 
 
 ## Presupuesto
