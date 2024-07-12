@@ -530,13 +530,13 @@ Por otro lado, para eliminar un registro de la tabla de Material y Repuesto, se 
 **Ingresar otros Conceptos**
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_11.png)
-***Imagen 85.** Órdenes - OC*
+***Imagen 87.** Órdenes - OC*
 
 A través esta ventana de Ingreso de Otros Conceptos se administra el Presupuesto de Otros Conceptos de la OT.
 
 A la izquierda aparece el listado de los Otros Conceptos presupuestados, a la derecha es posible efectuar modificaciones a los otros conceptos presupuestados, así como ingresar nuevos conceptos de costo al presupuesto.
 
-Para ingresar nuevos Otros Conceptos al presupuesto de una OT, se debe dar clic al botón <a class="btn gray">Adicionar otro concepto</a> y diligenciar los siguientes campos:
+Para ingresar nuevos Otros Conceptos al presupuesto de una OT, se debe dar clic al botón <a class="btn gray">Adicionar Otro Concepto</a> y diligenciar los siguientes campos:
 
 **Concepto:** Es el “Otro Concepto” a presupuestar. Se selecciona descolgando la lista de otros Conceptos, traída desde su tabla en Infraestructura.
 
@@ -553,19 +553,20 @@ anteriormente.
 
 **Vlr. Total:** Es el costo total presupuestado del “Otro Concepto Costo” teniendo en cuenta el número de unidades y el valor unitario.
 
-Una vez se diligencien estos campos se da clic en el ícono de Más <span class="mdi mdi-plus-circle icon white"></span> para agregar.
+Una vez se diligencien estos campos se da clic en el botón <a class="btn bg-gray cl-blue"><span class="mdi mdi-plus-circle white"></span></a> para agregar.
 
-Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón <a class="btn gray">actualizar otro concepto</a>, como se muestra continuación:
+Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón <a class="btn gray">Actualizar Otro Concepto</a>, como se muestra continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_12.png)
-_**Imagen 86.** Órdenes - Actualizar OC_
+_**Imagen 88.** Órdenes - Actualizar OC_
 
-Por otro lado, para eliminar un registro de la tabla de Otro Concepto de Costo, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, mostrando un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
+Por otro lado, para eliminar un registro de la tabla de Otro Concepto de Costo, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, mostrando un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn bg-white">Aceptar</a> como se muestra en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img07_13.png)
-***Imagen 87.** Órdenes - Eliminar OC*
+***Imagen 89.** Órdenes - Eliminar OC*
 
-_> **Nota:** Finalmente, al hacer clic en el botón <a class="btn gray">ir a la matriz</a>, se regresa a la ventana principal de Presupuesto y para que todos estos cambios queden grabados en la OT se debe dar clic en <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a>._
+> **Nota:** Al hacer cualquier ingreso o actualización sobre algunos de los conceptos anteriores se guardan automáticamente en la OT.
+
 
 ### Gasto Real
 
@@ -704,7 +705,7 @@ La segunda consiste en buscar el Material y Repuesto, a través del visor de Mat
 
 **Vlr. Total:** Este campo es informativo y es calculado por el sistema, contiene el valor total consumido para ese Material y Repuesto. Es el producto del Vlr. Unitario por la Cantidad. Se visualiza en la tabla de Materiales y Repuestos.
 
-Una vez se diligencien estos campos se da clic en el ícono de Mas <span class="mdi mdi-plus-circle icon white"></span> para agregar, como se muestra a continuación:
+Una vez se diligencien estos campos se da clic en el botón <a class="btn bg-gray cl-blue"><span class="mdi mdi-plus-circle white"></span></a> para agregar, como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap09/chp09_img13.png)
 ***Imagen 98.** Órdenes - Gasto Real Ingresar M y R*
