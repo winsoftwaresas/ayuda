@@ -600,7 +600,7 @@ A continuación se describen las carpetas que componen esta ventana; cuando se q
 ![Procesar imagen](../assets/images/cap03/chp03_img11.png)
 _**Imagen 17.** Activos - Explorador de archivos_
 
-Para adicionar un documento, imagen o video, se debe dar un doble clic sobre la carpeta deseada, y luego seleccionar del ícono de nube <span class="mdi mdi-cloud-upload icon white"></span>. A continuación se abre el explorador de archivos, seguido de seleccionar el archivo dar un clic en <a class="btn">abrir</a>.
+Para adicionar un documento, imagen o video, se debe dar un doble clic sobre la carpeta deseada, y luego seleccionar del ícono de nube <span class="mdi mdi-cloud-upload icon white"></span>. A continuación se abre el explorador de archivos, seguido de seleccionar el archivo dar un clic en <a class="btn bg-gray cl-black">Abrir</a>.
 
 ![Procesar imagen](../assets/images/cap03/chp03_img12.png)
 _**Imagen 18.** Activos - Subir Archivo_
@@ -610,7 +610,7 @@ Los archivos que se van adicionando van quedando guardados uno debajo del otro y
 ![Procesar imagen](../assets/images/cap03/chp03_img13.png)
 _**Imagen 19.** Activos - Archivos Cargados_
 
-Para desasociar un documento, o una imagen o un video, al AC se da clic al icono de basura <span class="mdi mdi-delete"></span> que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro, finalmente confirmar con el botón <a class="btn white">Aceptar</a>.
+Para desasociar un documento, o una imagen o un video, al AC se da clic al icono de basura <span class="mdi mdi-delete"></span> que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro, finalmente confirmar con el botón <a class="btn bg-gray cl-black">ACEPTAR</a>.
 
 Si se desea descargar un archivo adjunto al AC, se debe dar clic en el ícono de nube con direccional hacia abajo <span class="mdi mdi-cloud-download icon white"></span> la nube con flecha hacia abajo que se encuentra al lado derecho del archivo que se quiere descargar.
 
@@ -623,7 +623,7 @@ A esta opción se llega al sobreponer el cursor del mouse sobre el módulo de Ac
 ![Procesar imagen](../assets/images/cap03/chp03_img13_1.png)
 _**Imagen 20.** Activos - Modificar Masivamente_
 
-Esta transacción permite cambiar masivamente el Estado, Descripción, Ubicación Física, Centro de Costos, Encargado, Comentarios, Proveedor y Fabricante, Marca, Modelo, Grupo de los registros previamente seleccionados en un filtro o subgrupo o aquellos que se encuentran en el Visor. Para ello se debe dar clic al link en azul <a class="btn white">modificar masivamente </a> ubicado al lado superior izquierdo de la ventana, seguidamente se muestra el conjunto de  opciones de modificación masiva disponibles.
+Esta transacción permite cambiar masivamente el Estado, Descripción, Ubicación Física, Centro de Costos, Encargado, Comentarios, Proveedor y Fabricante, Marca, Modelo, Grupo de los registros previamente seleccionados en un filtro o subgrupo o aquellos que se encuentran en el Visor. Para ello se debe dar clic al link en azul <a class="btn white">Modificar Masivamente </a> ubicado al lado superior izquierdo de la ventana, seguidamente se muestra el conjunto de  opciones de modificación masiva disponibles.
 
 ![Procesar imagen](../assets/images/cap03/chp03_img14.png)
 _**Imagen 21.** Activos - Criterios Modificación Masiva_
@@ -853,7 +853,7 @@ En la gráfica anterior, ventana para  Actualización de Contadores, se aprecian
 
 **Nueva Medición:** En esta columna se listan los valores actualizados de ese contador para el Equipo de cada línea.
 
-> **Nota:** Al finalizar el registro de todas las lecturas  de contadores se debe procesar a dar clic en el botón <a class="btn gray">Actualizar</a>, el sistema muestra un mensaje alerta y para continuar presionar <a class="btn gray">Aceptar</a>.
+> **Nota:** Al finalizar el registro de todas las lecturas  de contadores se debe procesar a dar clic en el botón <a class="btn gray">Actualizar</a>, el sistema muestra un mensaje alerta y para continuar presionar <a class="btn bg-gray cl-black">ACEPTAR</a>
 
 ![Procesar imagen](../assets/images/cap03/chp03_img17.png)
 _**Imagen 59.** Activos - Mensaje Alerta Contadores_
@@ -896,7 +896,7 @@ En ocasiones se hace necesario hacer búsquedas rápidas de los
 Activos sobre su asociación con Órdenes, Solicitudes, Paros e Historia; 
 esta transacción hace posible, que en el módulo de Activos se pueda acceder rápidamente a esta información, bien sea uno a uno ó registros preseleccionados en un Subgrupo. 
 
-Para acceder se sobrepone el cursor sobre el módulo de <a class="btn blue">activos</a> donde se despliega el submenú de transaccciones y a continuación dar clic en **Cruces de Activos** como se muestra a continuación:
+Para acceder se sobrepone el cursor sobre el módulo de <a class="btn blue">Activos</a> donde se despliega el submenú de transaccciones y a continuación dar clic en **Cruces de Activos** como se muestra a continuación:
 
 ![Procesar imagen](../assets/images/cap03/chp03_img35.png)
 _**Imagen 64.** Activos - Ir a Cruce de Activos_
@@ -943,7 +943,7 @@ Visualización de la exportación:
 ![Procesar imagen](../assets/images/cap03/chp03_img40.png)
 _**Imagen 69.** Activos - Visualización Descarga Grilla Cruce de Activos_
 
-Paara continuar y consultar Programas asociados al Activo o Activos seleccionados dar clic en el botón <a class="btn white">PM</a>:
+Para continuar y consultar Programas asociados al Activo o Activos seleccionados dar clic en el botón <a class="btn white">PM</a>:
 
 ![Procesar imagen](../assets/images/cap03/chp03_img41.png)
 _**Imagen 70.** Activos - Programas Cruce de Activos_
