@@ -138,9 +138,12 @@ published: true
 
 <a class="fab cl-white box-shadow"><span class="iconify icon cl-red bg-white" data-icon="mdi-delete-outline"></span></a>
 
-<span class="mdi mdi-plus-circle icon white"></span>
+<span class="mdi mdi-plus-circle icon bg-gray cl-blue "></span>
 
 <hr>
+
+<a class="btn bg-gray cl-blue"><span class="mdi mdi-plus-circle"></span></a>
+
 
 <a class="btn cl-black "><span class="mdi mdi-checkbox-blank-outline"> Check </span></a>
 
@@ -290,4 +293,8 @@ almacén :
 
 <a class="btn bg-gray cl-blue"><span class="mdi mdi-plus-circle white"></span></a>
 
-<a class="btn bg-white">ACEPTAR</a>
+
+
+<a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a>
+
+<a class="btn cl-blue bg-gray px-6"> Adicionar Car.Técnica </a>

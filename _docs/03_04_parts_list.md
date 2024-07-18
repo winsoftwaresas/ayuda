@@ -131,7 +131,7 @@ A continuación se describen los campos que componen el registro, sobre cada cam
 
 **Inactivo/Activo:** Es un switche que permite Controlar el estado de un Activo/Equipo. Cuando se pone a un estado inactivo se muestra un enlace azul **Desincorporación** para ingresar el detalle de cuando se da de baja un Equipo.  
 
->**Nota:** Es importante tener en cuenta que este switche se utiliza durante los procesos de Generación Automática de Ordenes  de Trabajo y de Proyección para un período futuro, pues solamente se tienen en  cuenta aquellos Equipos con estado Activo y tampoco se listarán en **AMsi** para los usuarios solicitantes. 
+>**Nota:** Es importante tener en cuenta que este switch se utiliza durante los procesos de Generación Automática de Ordenes  de Trabajo y de Proyección para un período futuro, pues solamente se tienen en  cuenta aquellos Equipos con estado Activo y tampoco se listarán en **AMsi** para los usuarios solicitantes. 
 
 **Estado:** Este campo se utiliza para especificar el tipo de Estado en el que se encuentra el Activo/Equipo. Dependiendo del campo anterior. Si el Activo actual se encuentra  Activo (Operativo) se listan las siguientes opciones:
 
@@ -168,10 +168,10 @@ Los que están Inactivos (bien sea No Operativos o Dados de baja temporal o tota
 
 **Ruta:** En este campo se indica si el Activo/Equipo que se está definiendo es una Ruta. Cuando se ha indicado que se trata de una Ruta, el sistema se prepara para recibir un conjunto de información adicional correspondiente a la Ruta. Se debe recordar que las rutas de mantenimiento asocian o integran varios Activos/Equipos.
 
-**Permitir Dos Contadores :** Este switche permite deifnir dos tipo de contadoeres en el Activo. 
+**Permitir Dos Contadores :** Este switch permite deifnir dos tipo de contadoeres en el Activo. 
 
 
-**Adicionar Contador:** Funciona como un switche que abre el siguiente formulario:
+**Adicionar Contador:** Este botón abre el siguiente formulario:
 
 - **Contador:** En este campo se traen automáticamente de la tabla de Infraestructura los tipos de Contadores que pueden ser definidos para un Activo o una máquina. Se  selecciona el que mejor refleje o sea más representativo del trabajo que realiza el Activo. Se usa además, para definir un Programa de Mantenimiento en función del trabajo realizado por el mismo Equipo.
 
@@ -190,7 +190,7 @@ Los que están Inactivos (bien sea No Operativos o Dados de baja temporal o tota
 - Quincena
 - Mes
 
-Para añadir el contador se debe dar clic en el botón <a class="btn bg-gray cl-blue"><span class="mdi mdi-plus-circle white"></span></a>.
+>**Nota:** Para añadir el contador se debe dar clic en el botón <span class="mdi mdi-plus-circle icon bg-gray cl-blue"></span> y luego en <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a> el registro.
 
 
 **Comentario:** Aquí se ingresan los comentarios sobre un Activo o se especifica información adicional al AC.
@@ -362,7 +362,7 @@ El segundo campo se usa para ingresar el valor correspondiente a la confiablidad
 **Número:** Para las compañías biomédicas permite filtrar los Activos/Equipos que tengan asociado el número bien sea referente a un Permiso de Comercialización o Registro Sanitario Invima. Este campo es de selección.
 
 >**Nota:** Es importante tener en cuenta que cuando se están realizando los Subgrupos se pueden utilizar uno o varios  de los criterios anteriores simultáneamente.Además es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber realizado una selección, es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección se da un clic al botón
-<a class="btn white">Mas <span class="mdi mdi-plus-circle"></span></a> en lugar de darlo al botón <a class="btn white">aceptar <span class="mdi mdi-check-circle"></span></a>.
+<a class="btn white">Mas <span class="mdi mdi-plus-circle"></span></a> en lugar de darlo al botón <a class="btn white">Aceptar <span class="mdi mdi-check-circle"></span></a>.
 
 ## Vistas Parciales / Pestañas
 
@@ -379,7 +379,7 @@ _**Imagen 9.** Activos - Características_
 
 En la gráfica anterior, Vista Parcial de Características, se aprecian sus componentes y sus respectivos contenidos. En  la ventana Detalle de Características se encuentra la información relevante a la Característica seleccionada en el Visor, que hace referencia al Activo/Equipo.
 
-A continuación se describen los campos que componen esta  Ventana información adicional.
+A continuación se describen los campos que contiene el formulario:
 
 **Identificación:** Aparece con los campos bloqueados para que el usuario visualice la información básica del Activo al cual se le están definiendo las Características.
 
@@ -400,16 +400,28 @@ A continuación se describen los campos que componen esta  Ventana información 
 
 **Hasta:** Se define al valor máximo permitido para la característica definida.
 
+
+Para agregar una característica técnica se debe dar clic en <a class="btn cl-blue bg-gray px-6"> Adicionar Car.Técnica </a> se debe diligenciar el formulario  anterior y adicionar cada una con el botón <span class="mdi mdi-plus-circle icon bg-gray cl-blue "></span>. 
+
+![Procesar imagen](../assets/images/cap03/chp03_img07_01.png)
+_**Imagen 10.** Activos - Adicionar Características_
+
+Es posible Actualizar los valores o realizar cambios en una característica agregada. Para ello, seleccione la característica técnica y una vez se encuentre sombreada realice los cambios en el formulario y finalice dando un clic en el botón <a class="btn cl-blue bg-gray px-6"> Actualizar Car.Técnica </a> como se indica en la siguiente imagen: 
+
+![Procesar imagen](../assets/images/cap03/chp03_img07_02.png)
+_**Imagen 11.** Activos - Actualizar Características_
+
+
 ####   Características Controlables
 
 Esta opción permite ingresar valores de medición a aquellas características que fueron definidas previamente como controlables.
 
 ![Procesar imagen](../assets/images/cap03/chp03_img08.png)
-_**Imagen 10.** Activos - Características Controlables_
+_**Imagen 12.** Activos - Características Controlables_
 
 En  la  gráfica  anterior, Vista Parcial  de  Características Controlables, se aprecian sus componentes y sus respectivos contenidos. En la ventana Detalle de  Características se encuentra la información relevante a la Característica seleccionada  en el Visor, que hace referencia al Activo/Equipo. Junto con esta información se encuentra un conjunto de datos para el registro de la medición que se va a registrar.
 
-A continuación se describen los campos que componen esta  Ventana información adicional.
+A continuación se describen los campos que componen este formulario:
 
 **Car. Controlable:** En este campo se despliegan automáticamente las características que fueron definidas previamente como Controlables, para seleccionar aquella a la cual se le va a registrar una determinada medición.
 
@@ -419,10 +431,15 @@ A continuación se describen los campos que componen esta  Ventana información 
 
 **Valor:**  En  este  campo  se  ingresa  el  valor  registrado  en  la  medición  de   la característica.
 
+Para ingresar una característica controlable, primero debe estar agregada como característica controlable y luego en la parte inferior dar clic en <a class="btn cl-blue bg-gray px-6">Adicionar Car. Controlable</a> luego en el desplegable del formulario como se muestra en la imagen anterior seleccionar la característica con el fin de establecer el historial de mediciones. 
+
+_>**Nota:** Si una característica se sale del rango o límite establecido se generará una Órden de Trabajo._
+
+
 ### Vida Útil
 
 ![Procesar imagen](../assets/images/cap03/chp03_img09.png)
-_**Imagen 11.** Activos - Vida Útil_
+_**Imagen 13.** Activos - Vida Útil_
 
 En la gráfica anterior, Porción Vida Útil, se aprecian sus componentes y sus respectivos contenidos.
 
@@ -464,7 +481,7 @@ A continuación se describen los campos que componen esta Pestaña:
 
 **Contrato:** Este es un campo indicado en Modo Switche, una vez que le indiquemos al sistema que un registro tiene asociado un contrato se habilita el campo contrato, una vez que se selccione un contrato el sistema asocia automáticamente los campos: Contratista, Fecha Inicio y Fecha Final.
 
-**Vida Útil:** En este campo se registra el número total de años de vida útil del Activo según el fabricante, este campo puede ser de tipo informativo o un campo que permita hacer un seguimiento del registro cuando se requiere por parte del usuario hacer una depreciación de línea recta. Esta configuración debe hacerse desde el módulo de <a class="btn blue">administración</a> por parte de un Usuario Administrador autorizado, en la sección Valores por Defecto, opción Activos. 
+**Vida Útil:** En este campo se registra el número total de años de vida útil del Activo según el fabricante, este campo puede ser de tipo informativo o un campo que permita hacer un seguimiento del registro cuando se requiere por parte del usuario hacer una depreciación de línea recta. Esta configuración debe hacerse desde el módulo de <a class="btn blue">Administración</a> por parte de un Usuario Administrador autorizado, en la sección Valores por Defecto, opción Activos. 
 
 **Años de Uso:** Este campo es calculado por el sistema cuando se activado la función depreciación por línea recta e indica el tiempo transcurrido hasta la fecha actual del Activo/Equipo.
 
@@ -486,12 +503,19 @@ A continuación se describen los campos que componen esta Pestaña:
 
 **FF Valor Reposición:** Es la fecha en la que se definió el valor de reposición.
 
-A continuación se explican las siguientes porciones/pestañas que se habilitan desde el módulo <a class="btn blue">administración</a> en la transacción Valores por Defecto, en la sección General:
+A continuación se explican las siguientes porciones/pestañas que se habilitan desde el módulo <a class="btn blue">Administración</a> en la transacción Valores por Defecto, en la sección General:
 
 ### METROLOGÍA
 
+Para anexar información metrológica la compañía en la que se trabaja debe estar configurada desde el módulo de <a class="btn blue">Administración</a> en Valores por Defecto como una compañía que requiere Metrología. 
+
+Ingrese a la pestaña correspondiente y continúe dando clic en <a class="btn gray">Adicionar Magnitud</a>, como se muestra en la imagen:
+
+![Procesar imagen](../assets/images/cap03/chp03_img09_01.png)
+_**Imagen 14.** Activos - Metrología_
+
 ![Procesar imagen](../assets/images/cap03/chp03_img09_1.png)
-_**Imagen 12.** Activos - Metrología_
+_**Imagen 15.** Activos - Formulario Metrología_
 
 En la gráfica anterior, Porción Metrología, se aprecian sus componentes y sus respectivos contenidos.
 
@@ -513,10 +537,17 @@ A continuación se describen los campos que componen esta Pestaña:
 
 **Puntos:** Son los ocho puntos de referencia de calibración o de verificación del Activo.
 
+Luego de diligenciar el formulario agregue la magnitud con el botón <span class="mdi mdi-plus-circle icon bg-gray cl-blue "></span>. También es posible actualizar los campos en una magnitud ya agregada, para asentar los cambios en el formulario dar un clic en <a class="btn gray">Actualizar Magnitud</a>. PAra finalizar actualice el registro con el botón ubicado en la parte superior izquierda <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a>.
+
+
 ## INFORMACIÓN BIOMÉDICA
 
+Para anexar información biomédica a la compañía en la que se trabaja debe estar configurada desde el módulo de <a class="btn blue">Administración</a> en Valores por Defecto como una compañía que es **Biomédica.** 
+
+Ingrese a la pestaña correspondiente:
+
 ![Procesar imagen](../assets/images/cap03/chp03_img09_2.png)
-_**Imagen 13.** Activos - Info. Biomédica_
+_**Imagen 16.** Activos - Info. Biomédica_
 
 En la gráfica anterior, Porción Info. Biomédica, se aprecian sus componentes y sus respectivos contenidos.
 
@@ -542,6 +573,8 @@ A continuación se describen los campos que componen esta Pestaña:
 
 **Clasificación Biomédica:** Las opciones disponibles son: Ninguno, Tratamiento y Mantenimiento de la Vida, Rehabilitacion, Prevención, Análisis de Laboratorio y Equipo Industrial de Apoyo Hospitalario.
 
+Una vez diligencie el formulario anterior finalice guardando los cambios con el botón <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a>.
+
 
 ### MULTIMEDIA
 
@@ -565,17 +598,17 @@ A continuación se describen las carpetas que componen esta ventana; cuando se q
 **Videos:** En esta carpeta se relacionan porciones de videos relacionados al AC. Ejemplo: Videos en formato wmv, mp4, entre otros.
 
 ![Procesar imagen](../assets/images/cap03/chp03_img11.png)
-_**Imagen 14.** Activos - Explorador de archivos_
+_**Imagen 17.** Activos - Explorador de archivos_
 
 Para adicionar un documento, imagen o video, se debe dar un doble clic sobre la carpeta deseada, y luego seleccionar del ícono de nube <span class="mdi mdi-cloud-upload icon white"></span>. A continuación se abre el explorador de archivos, seguido de seleccionar el archivo dar un clic en <a class="btn">abrir</a>.
 
 ![Procesar imagen](../assets/images/cap03/chp03_img12.png)
-_**Imagen 15.** Activos - Subir Archivo_
+_**Imagen 18.** Activos - Subir Archivo_
 
 Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic sobre el nombre de una de las imágenes, se muestra la previsualización. 
 
 ![Procesar imagen](../assets/images/cap03/chp03_img13.png)
-_**Imagen 16.** Activos - Archivos Cargados_
+_**Imagen 19.** Activos - Archivos Cargados_
 
 Para desasociar un documento, o una imagen o un video, al AC se da clic al icono de basura <span class="mdi mdi-delete"></span> que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro, finalmente confirmar con el botón <a class="btn white">Aceptar</a>.
 
@@ -588,12 +621,12 @@ Si se desea descargar un archivo adjunto al AC, se debe dar clic en el ícono de
 A esta opción se llega al sobreponer el cursor del mouse sobre el módulo de Activos y en la parte inferior del título se despliega el conjunto de transacciones disponibles, a continuación se elige la transacción “Modificar Masivamente”.
 
 ![Procesar imagen](../assets/images/cap03/chp03_img13_1.png)
-_**Imagen 17.** Activos - Modificar Masivamente_
+_**Imagen 20.** Activos - Modificar Masivamente_
 
 Esta transacción permite cambiar masivamente el Estado, Descripción, Ubicación Física, Centro de Costos, Encargado, Comentarios, Proveedor y Fabricante, Marca, Modelo, Grupo de los registros previamente seleccionados en un filtro o subgrupo o aquellos que se encuentran en el Visor. Para ello se debe dar clic al link en azul <a class="btn white">modificar masivamente </a> ubicado al lado superior izquierdo de la ventana, seguidamente se muestra el conjunto de  opciones de modificación masiva disponibles.
 
 ![Procesar imagen](../assets/images/cap03/chp03_img14.png)
-_**Imagen 18.** Activos - Criterios Modificación Masiva_
+_**Imagen 21.** Activos - Criterios Modificación Masiva_
 
 En la gráfica anterior, Modificar  Masivamente, se aprecian sus componentes y   sus respectivos contenidos.
 
@@ -608,183 +641,183 @@ A continuación se describen los campos que  componen esta transacción:
 **Modificar Descripción:** Se Modifica Masivamente la Descripción del o los Activos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](../assets/images/cap03/chp03_img14_1.png)
-_**Imagen 19.** Activos - Modificar Descripción_
+_**Imagen 22.** Activos - Modificar Descripción_
 
 **Modificar Referencia Externa (Proveedor):** Se Modifica Masivamente la referencia externa proveedor del o los Equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](../assets/images/cap03/chp03_img14_2.png)
-_**Imagen 20.** Activos - Modificar Referencia Externa_
+_**Imagen 23.** Activos - Modificar Referencia Externa_
 
 **Modificar Activo Padre:** Se Modifica Masivamente el Activo/Equipo Padre de los registros que están previamente seleccionados en el visor. Al seleccionar el Activo Padre, se asigna automáticamente el Centro de Costo y la Ubicación Física asociados al Activo Padre seleccionado.
 
 ![Procesar imagen](../assets/images/cap03/chp03_img14_3.png)
-_**Imagen 21.** Activos - Modificar Activo Padre_
+_**Imagen 24.** Activos - Modificar Activo Padre_
 
 **Modificar Centro de Costo:** Se Modifica Masivamente el Centro de Costo de los
 Equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](../assets/images/cap03/chp03_img14_4.png)
-_**Imagen 22.** Activos - Modificar Centro de Costo_
+_**Imagen 25.** Activos - Modificar Centro de Costo_
 
 **Modificar Ubicación Física:** Se Modifica Masivamente la Ubicación Física de los
 Equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](../assets/images/cap03/chp03_img14_5.png)
-_**Imagen 23.** Activos - Modificar Ubicación Física_
+_**Imagen 26.** Activos - Modificar Ubicación Física_
 
 **Modificar Clasificación por Proceso:** Se Modifica Masivamente la Clasificación por Proceso de los Equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](../assets/images/cap03/chp03_img14_6.png)
-_**Imagen 24.** Activos - Modificar Clasificación por Proceso_
+_**Imagen 27.** Activos - Modificar Clasificación por Proceso_
 
 **Modificar Confiabilidad Subjetiva:** Se Modifica Masivamente la Confiabilidad Subjetiva de los Equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](../assets/images/cap03/chp03_img14_7.png)
-_**Imagen 25.** Activos - Modificar Confiabilidad Subjetiva_
+_**Imagen 28.** Activos - Modificar Confiabilidad Subjetiva_
 
 **Modificar Proveedor:** Se modifica Masivamente el Proveedor de los equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](../assets/images/cap03/chp03_img14_8.png)
-_**Imagen 26.** Activos - Modificar Proveedor_
+_**Imagen 29.** Activos - Modificar Proveedor_
 
 **Modificar Fabricante:** Se modifica Masivamente el Fabricante de los equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](../assets/images/cap03/chp03_img14_9.png)
-_**Imagen 27.** Activos - Modificar Fabricante_
+_**Imagen 30.** Activos - Modificar Fabricante_
 
 **Modificar Marca:** Se modifica Masivamente la Marca de los equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](../assets/images/cap03/chp03_img14_10.png)
-_**Imagen 28.** Activos - Modificar Marca_
+_**Imagen 31.** Activos - Modificar Marca_
 
 **Modificar Modelo:** Se Modifica Masivamente el Modelo de los Equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](../assets/images/cap03/chp03_img14_11.png)
-_**Imagen 29.** Activos - Modificar Modelo_
+_**Imagen 32.** Activos - Modificar Modelo_
 
 **Modificar Tipo:** Se Modifica Masivamente el Tipo de los Equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](../assets/images/cap03/chp03_img14_12.png)
-_**Imagen 30.** Activos - Modificar Tipo_
+_**Imagen 33.** Activos - Modificar Tipo_
 
 **Modificar Encargado:** Se Modifica  Masivamente el Encargado de los Equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](../assets/images/cap03/chp03_img14_13.png)
-_**Imagen 31.** Activos - Modificar Encargado_
+_**Imagen 34.** Activos - Modificar Encargado_
 
 **Modificar Estado:** Se Modifica Masivamente el estado Activo – Inactivo de los Equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](../assets/images/cap03/chp03_img14_14.png)
-_**Imagen 32.** Activos - Modificar Estado_
+_**Imagen 35.** Activos - Modificar Estado_
 
 **Modificar Componente Intercambiable:** Se Modifica Masivamente el Componente Intercambiable de los Equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](../assets/images/cap03/chp03_img14_15.png)
-_**Imagen 33.** Activos - Modificar Modificar Componente Intercambiable_
+_**Imagen 36.** Activos - Modificar Modificar Componente Intercambiable_
 
 **Modificar Ruta:** Se Modifica Masivamente la Ruta de los Equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](../assets/images/cap03/chp03_img14_16.png)
-_**Imagen 34.** Activos - Modificar Ruta_
+_**Imagen 37.** Activos - Modificar Ruta_
 
 **Modificar Grupo del Activo:** Se Modifica Masivamente el grupo de los Equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](../assets/images/cap03/chp03_img14_17.png)
-_**Imagen 35.** Activos - Modificar Grupo del Activo_
+_**Imagen 38.** Activos - Modificar Grupo del Activo_
 
 **Modificar Comentarios:** Se Modifican Masivamente los Comentarios, que están previamente seleccionados en el visor
 
 ![Procesar imagen](../assets/images/cap03/chp03_img14_18.png)
-_**Imagen 36.** Activos - Modificar Comentarios_
+_**Imagen 39.** Activos - Modificar Comentarios_
 
 #### VIDA ÚTIL
 
 **Modificar FF Registro:** Se Modifica Masivamente la fecha de registro ubicada en la pestaña de Vida Útil de los equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](../assets/images/cap03/chp03_img14_19.png)
-_**Imagen 37.** Activos - Modificar FF Registro_
+_**Imagen 40.** Activos - Modificar FF Registro_
 
 **Modificar FF Fabricación:** Modifica Masivamente la fecha de fabricación ubicada en la pestaña de Vida Útil de los equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](../assets/images/cap03/chp03_img14_20.png)
-_**Imagen 38.** Activos - Modificar FF Fabricación_
+_**Imagen 41.** Activos - Modificar FF Fabricación_
 
 **Modificar FF Ingreso Inventario:** Se Modifica Masivamente la fecha de ingreso al inventario ubicadada en la pestaña de Vida Útil de los equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](../assets/images/cap03/chp03_img14_21.png)
-_**Imagen 39.** Activos - Modificar FF Ingreso Inventario_
+_**Imagen 42.** Activos - Modificar FF Ingreso Inventario_
 
 **Modificar FF Instalación:** Se Modifica Masivamente la fecha de instalación ubicada en la pestaña de Vida Útil de los equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](../assets/images/cap03/chp03_img14_22.png)
-_**Imagen 40.** Activos - Modificar FF Ingreso Inventario_
+_**Imagen 43.** Activos - Modificar FF Ingreso Inventario_
 
 **Modificar FF Inicio Operación:** Se Modifica Masivamente la fecha de inicio de operación ubicada en la pestaña de Vida Útil de los equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](../assets/images/cap03/chp03_img14_23.png)
-_**Imagen 41.** Activos - Modificar FF Inicio Operación_
+_**Imagen 44.** Activos - Modificar FF Inicio Operación_
 
 **Modificar FF Dado de Baja:** Se Modifica Masivamente la fecha de dada de baja en la pestaña de Vida Útil de los equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](../assets/images/cap03/chp03_img14_24.png)
-_**Imagen 42.** Activos - Modificar FF Dado de Baja_
+_**Imagen 45.** Activos - Modificar FF Dado de Baja_
 
 **Modificar FF Adquisición:** Se Modifica Masivamente la fecha de adquisición ubicada en la pestaña de Vida Útil de los equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](../assets/images/cap03/chp03_img14_25.png)
-_**Imagen 43.** Activos - Modificar FF Adquisición_
+_**Imagen 46.** Activos - Modificar FF Adquisición_
 
 **Modificar Tipo Adquisición:** Se Modifica Masivamente el tipo de adquisición seleccionado de la lista desplegada y que está ubicada en la pestaña de Vida Útil de los equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](../assets/images/cap03/chp03_img14_26.png)
-_**Imagen 44.** Activos - Modificar Tipo Adquisición_
+_**Imagen 47.** Activos - Modificar Tipo Adquisición_
 
 **Modificar Contrato:** Se Modifica Masivamente el Contrato ubicado en la pestaña de Vida Útil, de los equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](../assets/images/cap03/chp03_img14_27.png)
-_**Imagen 45.** Activos - Modificar Contrato_
+_**Imagen 48.** Activos - Modificar Contrato_
 
 **Modificar Número de Póliza:** Se Modifica Masivamente el número de la póliza ubicada en la pestaña de Vida Útil de los equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](../assets/images/cap03/chp03_img14_28.png)
-_**Imagen 46.** Activos - Modificar Número de Póliza_
+_**Imagen 49.** Activos - Modificar Número de Póliza_
 
 **Modificar FF Ingreso de Póliza:** Se Modifica Masivamente la fecha de ingreso de la póliza ubicada en la pestaña de Vida Útil de los equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](../assets/images/cap03/chp03_img14_29.png)
-_**Imagen 47.** Activos - Modificar FF Ingreso de Póliza_
+_**Imagen 50.** Activos - Modificar FF Ingreso de Póliza_
 
 **Modificar FF Retiro de Póliza:** Se Modifica Masivamente la fecha de retiro de la póliza ubicada en la pestaña de Vida Útil de los equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](../assets/images/cap03/chp03_img14_30.png)
-_**Imagen 48.** Activos - Modificar FF Ingreso de Póliza_
+_**Imagen 51.** Activos - Modificar FF Ingreso de Póliza_
 
 #### INFO. BIOMÉDICA
 
 **Modificar Registro Sanitario Invima o Permiso de Comercialización:** Se Modifica Masivamente el número de registro sanitario INVIMA o el número de permiso de comercialización ubicada en la pestaña de Info. Biomédica de los equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](../assets/images/cap03/chp03_img14_31.png)
-_**Imagen 49.** Activos - Modificar Registro Sanitario Invima o Permiso de Comercialización_
+_**Imagen 52.** Activos - Modificar Registro Sanitario Invima o Permiso de Comercialización_
 
 **Modificar Impacto en el Proceso:** Se Modifica Masivamente el impacto en el proceso ubicado en la pestaña de Info. Biomédica del o de los equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](../assets/images/cap03/chp03_img14_32.png)
-_**Imagen 50.** Activos - Modificar  Impacto en el Proceso_
+_**Imagen 53.** Activos - Modificar  Impacto en el Proceso_
 
 **Modificar Clasificación por Riespo:** Se Modifica Masivamente la clasificación por riesgo ubicado en la pestaña de Info. Biomédica del o de los equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](../assets/images/cap03/chp03_img14_33.png)
-_**Imagen 51.** Activos - Modificar Impacto en el Proceso_
+_**Imagen 54.** Activos - Modificar Impacto en el Proceso_
 
 **Modificar Clasificación por Uso:** Se Modifica Masivamente la clasificación por uso ubicado en la pestaña de Info. Biomédica del o de los equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](../assets/images/cap03/chp03_img14_34.png)
-_**Imagen 51.** Activos - Modificar Clasificación por uso_
+_**Imagen 55.** Activos - Modificar Clasificación por uso_
 
 **Modificar Proceso Realizado por el Equipo:** Se Modifica Masivamenteel proceso realizado por el equipo ubicado en la pestaña de Info. Biomédica del o de los equipos que están previamente seleccionados en el visor.
 
 ![Procesar imagen](../assets/images/cap03/chp03_img14_35.png)
-_**Imagen 52.** Activos - Modificar  Clasificación por uso_
+_**Imagen 56.** Activos - Modificar  Clasificación por uso_
 
 >**Nota:** Estas opciones de modificar masivamente la información biomédica, sólo está habibilitada para este tipo de compañías.
 
@@ -793,12 +826,12 @@ _**Imagen 52.** Activos - Modificar  Clasificación por uso_
 Es la función que facilita la Actualización de los Contadores asociados a los Activos/Equiposo. A esta ventana se llega sobreponiendo el cursor sobre el Módulo de Activos y mediante un clic en la opción <a class="btn white">Actualizar Contadores</a> de la sección “Transacciones”.
 
 ![Procesar imagen](../assets/images/cap03/chp03_img15.png)
-_**Imagen 53.** Activos - Transacción Actualizar Contadores_
+_**Imagen 57.** Activos - Transacción Actualizar Contadores_
 
 La ventana despliega la lista de los Activos que tienen registrado un Contador dentro de su definición de Ficha Técnica. Junto al Código de cada Activo aparece el tipo de Contador y los datos referentes a la última lectura registrada. Posteriormente, a la derecha de cada línea de un Activo se encuentran disponibles un conjunto de campos para el registro de la información correspondiente a una nueva lectura.
 
 ![Procesar imagen](../assets/images/cap03/chp03_img16.png)
-_**Imagen 54.** Activos - Actualizar Contadores_
+_**Imagen 58.** Activos - Actualizar Contadores_
 
 En la gráfica anterior, ventana para  Actualización de Contadores, se aprecian sus componentes y sus respectivos contenidos. A continuación se describen los  campos que componen esta ventana:
 
@@ -823,17 +856,17 @@ En la gráfica anterior, ventana para  Actualización de Contadores, se aprecian
 > **Nota:** Al finalizar el registro de todas las lecturas  de contadores se debe procesar a dar clic en el botón <a class="btn gray">Actualizar</a>, el sistema muestra un mensaje alerta y para continuar presionar <a class="btn gray">Aceptar</a>.
 
 ![Procesar imagen](../assets/images/cap03/chp03_img17.png)
-_**Imagen 55.** Activos - Mensaje Alerta Contadores_
+_**Imagen 59.** Activos - Mensaje Alerta Contadores_
 
 Realizado el proceso se cambian los datos en rojo de la columna Nueva Medición por color verde, mostrando los campos actualizados:
 
 ![Procesar imagen](../assets/images/cap03/chp03_img18.png)
-_**Imagen 56.** Activos - Actualización de Valores Contadores_
+_**Imagen 60.** Activos - Actualización de Valores Contadores_
 
 Adicionalmente, se cuenta con la posibilidad  de activar la opción de “No permitir modificaciones por encima del estándar de planeación”, cuya funcionalidad es impedir la carga de contadores por encima de un estándar predefinido para un periodo de tiempo. Para activarla, se debe ingresar con un usuario administrador e ingresar a Valores por Defecto, en la opción Activos, como se indica a continuación:
 
 ![Procesar imagen](../assets/images/cap03/chp03_img19.png)
-_**Imagen 57.** Activos - Valores por Defecto - Contadores_
+_**Imagen 61.** Activos - Valores por Defecto - Contadores_
 
 
 ### Cambiar a TreeGrid
@@ -843,7 +876,7 @@ Es  la función  que facilita  visualizar en vista de árbol un conjunto de Acti
 Para acceder a esta función se debe dar clic en el icono <span class="mdi mdi-autorenew"></span> ubicado en la parte superior derecha de la ventana Visor de Activos, la vista se visualiza de la siguiente forma:
 
 ![Procesar imagen](../assets/images/cap03/chp03_img20.png)
-_**Imagen 57.** Activos - Vista Árbol_
+_**Imagen 62.** Activos - Vista Árbol_
 
 En la gráfica anterior, ventana Árbol de Activos, se aprecian sus componentes y sus respectivos contenidos. A continuación se describen los  campos que componen esta ventana:
 
@@ -852,7 +885,7 @@ En esta columna aparece el listado de todos los Activos/Equipos agrupados por su
  El significado de cada color lo indica el ícono de indicadores <span class="mdi mdi-message-alert"></span> ubicado en la parte superior derecha de la ventana, como se muestra a continuación:
 
 ![Procesar imagen](../assets/images/cap03/chp03_img21.png)
-_**Imagen 57.** Activos - Indicadores Vista Árbol_
+_**Imagen 63.** Activos - Indicadores Vista Árbol_
 
 > **Nota:** Para volver nuevamente a la vista Visor de Activos, se debe dar un clic nuevamente al ícono de TreeGrid <span class="mdi mdi-autorenew"></span>, o consultar indicadores <span class="mdi mdi-message-alert"></span>. 
 
@@ -866,12 +899,12 @@ esta transacción hace posible, que en el módulo de Activos se pueda acceder r�
 Para acceder se sobrepone el cursor sobre el módulo de <a class="btn blue">activos</a> donde se despliega el submenú de transaccciones y a continuación dar clic en **Cruces de Activos** como se muestra a continuación:
 
 ![Procesar imagen](../assets/images/cap03/chp03_img35.png)
-_**Imagen 58.** Activos - Ir a Cruce de Activos_
+_**Imagen 64.** Activos - Ir a Cruce de Activos_
 
 A continuación se visualiza la Ventana Visor de Cruces Activos:
 
 ![Procesar imagen](../assets/images/cap03/chp03_img36.png)
-_**Imagen 59.** Activos - Visor Cruce de Activos_
+_**Imagen 65.** Activos - Visor Cruce de Activos_
 
 
 Los títulos de cada columna en color azul permiten organizar la información ascendente o descendente a través de un clic. 
@@ -890,47 +923,47 @@ Es posible seleccionar uno a uno en la primera columna **Indicador** a través d
 A continuación se ilustra el siguiente ejemplo:
 
 ![Procesar imagen](../assets/images/cap03/chp03_img37.png)
-_**Imagen 60.** Activos - Subgrupo Cruce de Activos_
+_**Imagen 66.** Activos - Subgrupo Cruce de Activos_
 
 La imagen anterior muestra el resultado por cada grilla de PM asociados, SS asociados, OT asociados e HI asociados al subgrupo o conjunto de Activos.
 
 También puede visualizarse en la opción <span class="mdi mdi-download"></span>:
 
 ![Procesar imagen](../assets/images/cap03/chp03_img38.png)
-_**Imagen 61.** Activos - Exportar Grilla de Cruce de Activos_
+_**Imagen 67.** Activos - Exportar Grilla de Cruce de Activos_
 
 
 Esto puede tardar algunos minutos dependiendo de la cantidad de datos a exportar, para continuar dar clic en el botón **Descargar**. Esto descarga un archivo en formato excel en la estación Cliente:
 
 ![Procesar imagen](../assets/images/cap03/chp03_img39.png)
-_**Imagen 62.** Activos - Descarga Grilla de Cruce de Activos_
+_**Imagen 68.** Activos - Descarga Grilla de Cruce de Activos_
 
 Visualización de la exportación:
 
 ![Procesar imagen](../assets/images/cap03/chp03_img40.png)
-_**Imagen 63.** Activos - Visualización Descarga Grilla Cruce de Activos_
+_**Imagen 69.** Activos - Visualización Descarga Grilla Cruce de Activos_
 
 Paara continuar y consultar Programas asociados al Activo o Activos seleccionados dar clic en el botón <a class="btn white">PM</a>:
 
 ![Procesar imagen](../assets/images/cap03/chp03_img41.png)
-_**Imagen 64.** Activos - Programas Cruce de Activos_
+_**Imagen 70.** Activos - Programas Cruce de Activos_
 
 Para consultar Solicitudes asociadas al Activo o Activos seleccionados dar clic en el botón <a class="btn white">SS</a>:
 
 ![Procesar imagen](../assets/images/cap03/chp03_img42.png)
-_**Imagen 65.** Activos - Solicitudes Cruce de Activos_
+_**Imagen 71.** Activos - Solicitudes Cruce de Activos_
 
 Para consultar ADF asociados al Activo o Activos seleccionados dar clic en el botón <a class="btn white">ADF</a>:
 
 ![Procesar imagen](../assets/images/cap03/chp03_img43.png)
-_**Imagen 66.** Activos - Paros Cruce de Activos_
+_**Imagen 72.** Activos - Paros Cruce de Activos_
 
 Para consultar Órdenes de Trabajo asociadas al Activo o Activos seleccionados dar clic en el botón <a class="btn white">OT</a>:
 
 
 ![Procesar imagen](../assets/images/cap03/chp03_img44.png)
 
-_**Imagen 67.** Activos - Órdenes Cruce de Activos_
+_**Imagen 73.** Activos - Órdenes Cruce de Activos_
 
 
 Para consultar Historia de Mantenimiento asociada al Activo o Activos seleccionados dar clic en el botón <a class="btn white">HI</a>:
@@ -938,7 +971,7 @@ Para consultar Historia de Mantenimiento asociada al Activo o Activos selecciona
 
 ![Procesar imagen](../assets/images/cap03/chp03_img45.png)
 
-_**Imagen 68.** Activos - Historia Cruce de Activos_
+_**Imagen 74.** Activos - Historia Cruce de Activos_
 
 
 ## Dashboard de Activos
@@ -946,40 +979,40 @@ _**Imagen 68.** Activos - Historia Cruce de Activos_
 Esta transaccion permite ver indicadores gráficos básicos sobre la información de los Activos/Equipos. Para acceder a esta opción se sobrepone el cursor sobre el módulo de Activos en el menú principal donde se despliega un submenú de transacciones disponibles y luego dar clic en “DashBoard Activos”.
 
 ![Procesar imagen](../assets/images/cap03/chp03_img29.png)
-_**Imagen 69.** Activos - Transacción Dashboard_
+_**Imagen 75.** Activos - Transacción Dashboard_
 
 Este comando permite visualizar en tiempo real el comportamiento de los Activos/Equipos con el fin de usarse como una herramienta para análisis y toma de decisiones rápidas.
 
 ![Procesar imagen](../assets/images/cap03/chp03_img30.png)
-_**Imagen 70.** Activos - Dashboard_
+_**Imagen 76.** Activos - Dashboard_
 
 La información del rectángulo de color naranja ubicado en la parte superior derecha como guía a modo de fracción (N/M), indica el número de registros del subgrupo en el visor(N) sobre el número total de registros de Activos existentes en la base de datos (M). Si no hay preselección, los dos números en sus totales son los mismos.
 También un indicador de la existencia de un subgrupo, es el ícono <span class="mdi mdi-filter-variant"></span> con una pelota de color rojo que se ubica al lado derecho de dicha fracción.
 
 ![Procesar imagen](../assets/images/cap03/chp03_img31.png)
-_**Imagen 71.** Activos - Dashboard Subgrupos_
+_**Imagen 77.** Activos - Dashboard Subgrupos_
 
 Para personalizar la vista de los gráficos o tener una información específica se recomienda hacer subgrupos a través del ícono de filtro <span class="mdi mdi-filter-variant"></span>. Asimismo los DashBoards permiten ocultar información con solo dar un clic sobre sus rectángulos de colores como se muestra en la siguiente imagen:
 
 ![Procesar imagen](../assets/images/cap03/chp03_img32.png)
-_**Imagen 72.** Activos - Dashboard personalizado_
+_**Imagen 78.** Activos - Dashboard personalizado_
 
 Sí se desea restablecer la información, se debe dar clic al icono <span class="mdi mdi-autorenew"></span> (actualizar). En cambio, si se desea exportar el gráfico en un formato de imagen, es posible dando clic al ícono de la flecha hacia abajo <span class="mdi mdi-download"></span> como se muestra a continuación:
 
 ![Procesar imagen](../assets/images/cap03/chp03_img33.png)
-_**Imagen 73.** Activos - Dashboard personalizado_
+_**Imagen 79.** Activos - Dashboard personalizado_
 
 
 
 ## Servicios
 
 
-### R﻿eportes
+### Reportes
 
 Este comando <span class="mdi mdi-printer"></span>  permite visualizar los reportes o informes de la información relacionada a los Activos /Equipos. Existen los siguientes tipos de reportes básicos disponibles:
 
 ![Procesar imagen](../assets/images/cap03/chp03_img34.png)
-_**Imagen 74.** Activos - Reportes_
+_**Imagen 80.** Activos - Reportes_
 
 Los anteriores reportes pueden ser  seleccionados para uno o varios Activos/Equipos:
 
@@ -1002,7 +1035,7 @@ Esta opción <span class="mdi mdi-download"></span> permite la exportación de l
 Al ejecutar esta transacción, se abre una ventana como se muestra a continuación:
 
 ![Procesar imagen](../assets/images/cap03/chp03_img27.png)
-_**Imagen 75.** Activos - Transacción Exportar_
+_**Imagen 81.** Activos - Transacción Exportar_
 
 En la gráfica anterior, se aprecian sus componentes y sus respectivos contenidos.
 
@@ -1013,6 +1046,6 @@ En la gráfica anterior, se aprecian sus componentes y sus respectivos contenido
 Luego de escoger una de las opciones anteriores, en la parte inferior aparece seleccionado por defecto el recuadro de selección <a class="btn white"><span class="mdi mdi-checkbox-blank-outline"> exportar todos los campos</span></a> pero si se prefiere uno o algunos campos se debe des-seleccionar y a continuación hacer clic en los recuadros a exportar.
 
 ![Procesar imagen](../assets/images/cap03/chp03_img28.png)
-_**Imagen 76.** Activos - Exportar Campos_
+_**Imagen 82.** Activos - Exportar Campos_
 
 Una vez elegida la información, dar clic en el botón inferior <a class="btn white">Exportar</a> el cual genera un archivo de Excel que se descarga automáticamente. El objetivo de esta exportación es llevar toda la información de los Activos a un archivo plano, para luego ser analizados.

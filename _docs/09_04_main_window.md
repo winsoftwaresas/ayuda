@@ -424,7 +424,7 @@ Interna una vez se haya escogido el Oficio.
 
 **Vlr. Total:** Este campo es informativo y es calculado por el sistema, contiene el valor total del presupuesto para ese Oficio. Es el producto del Vlr. Hora por H. Hombre y Minutos. Se visualiza en la tabla de Mano de Obra Interna.
 
-Una vez que se diligencian todos los campos se da clic en el botón <a class="btn bg-gray cl-blue"><span class="mdi mdi-plus-circle white"></span></a>, seguidamente se observa que la información creada se muestra en el recuadro de la mano de Obra Interna, ubicada al lado izquierdo.
+Una vez que se diligencian todos los campos se da clic en el botón <span class="mdi mdi-plus-circle icon bg-gray cl-blue "></span>, seguidamente se observa que la información creada se muestra en el recuadro de la mano de Obra Interna, ubicada al lado izquierdo.
 
 ![Procesar imagen](../assets/images/cap09/chp09_img07_02.png)
 ***Imagen 78.** Órdenes - Ingresar MO*
@@ -463,7 +463,7 @@ Especialidad.
 
 **Costo Unitario por hora/visita:** Se digita el valor unitario por hora o por visita de parte del responsable ejecutor externo para esa actividad programada, ya sea un Contratista o un Servicio Externo.
 
-Una vez que se diligencian todos los campos se da clic en el icono del Más <a class="btn bg-gray cl-blue"><span class="mdi mdi-plus-circle white"></span></a>, seguidamente, se observa que la información creada se muestra en el recuadro de la mano de Obra Externa, ubicada al lado izquierdo.
+Una vez que se diligencian todos los campos se da clic en el icono del Más <span class="mdi mdi-plus-circle icon bg-gray cl-blue "></span>, seguidamente, se observa que la información creada se muestra en el recuadro de la mano de Obra Externa, ubicada al lado izquierdo.
 
 Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón <a class="btn gray">Actualizar Mano Obra Externa</a>.
 
@@ -513,7 +513,7 @@ Repuesto.
 
 **Vlr. Total:** Este campo es informativo y es calculado por el sistema, contiene el valor total del presupuesto para ese Repuesto. Es el producto entre el Vlr. Unitario y la Cantidad.
 
-Una vez se diligencien estos campos se da clic en el botón <a class="btn bg-gray cl-blue"><span class="mdi mdi-plus-circle white"></span></a> para agregar como se muestra en la imagen anterior. 
+Una vez se diligencien estos campos se da clic en el botón <span class="mdi mdi-plus-circle icon bg-gray cl-blue "></span> para agregar como se muestra en la imagen anterior. 
 
 Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón <a class="btn gray">Actualizar Material y Repuesto</a>.
 
@@ -553,7 +553,7 @@ anteriormente.
 
 **Vlr. Total:** Es el costo total presupuestado del “Otro Concepto Costo” teniendo en cuenta el número de unidades y el valor unitario.
 
-Una vez se diligencien estos campos se da clic en el botón <a class="btn bg-gray cl-blue"><span class="mdi mdi-plus-circle white"></span></a> para agregar.
+Una vez se diligencien estos campos se da clic en el botón <span class="mdi mdi-plus-circle icon bg-gray cl-blue "></span> para agregar.
 
 Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón <a class="btn gray">Actualizar Otro Concepto</a>, como se muestra continuación:
 
@@ -631,7 +631,7 @@ A continuación se describen los campos que se deben diligenciar en esta ventana
 
 **Vlr.Total:** Este campo es informativo y es calculado por el sistema, contiene el valor total del Gasto Real para ese Responsable. Es el producto del Vlr. Hora por H. Hombre y Minutos. Se visualiza en la tabla de Mano de Obra Interna.
 
-Una vez se diligencien estos campos se da clic en el ícono de Mas <a class="btn bg-gray cl-blue"><span class="mdi mdi-plus-circle white"></span></a> para agregar, como se muestra a continuación:
+Una vez se diligencien estos campos se da clic en el ícono de Mas <span class="mdi mdi-plus-circle icon bg-gray cl-blue "></span> para agregar, como se muestra a continuación:
 
 ![Procesar imagen](../assets/images/cap09/chp09_img07_17.png)
 ***Imagen 93.** Órdenes - Gasto Real Ingresar MO*
@@ -668,7 +668,7 @@ A continuación se describen los campos que componen esta ventana; cuando se qui
 
 **TT:** Este campo es informativo. Muestra el TT que tiene definido el Oficio seleccionado, se establece automáticamente una vez se ha seleccionado el Responsable y se visualiza en la tabla de Mano de Obra Interna.
 
-Una vez se diligencien estos campos se da clic en el ícono <a class="btn bg-gray cl-blue"><span class="mdi mdi-plus-circle white"></span></a>
+Una vez se diligencien estos campos se da clic en el ícono <span class="mdi mdi-plus-circle icon bg-gray cl-blue "></span>
 para agregar, como se muestra a continuación:
 
 ![Procesar imagen](../assets/images/cap09/chp09_img09.png)
@@ -717,7 +717,7 @@ La segunda consiste en buscar el Material y Repuesto, a través del visor de Mat
 
 **Vlr. Total:** Este campo es informativo y es calculado por el sistema, contiene el valor total consumido para ese Material y Repuesto. Es el producto del Vlr. Unitario por la Cantidad. Se visualiza en la tabla de Materiales y Repuestos.
 
-Una vez se diligencien estos campos se da clic en el botón <a class="btn bg-gray cl-blue"><span class="mdi mdi-plus-circle white"></span></a> para agregar, como se muestra a continuación:
+Una vez se diligencien estos campos se da clic en el botón <span class="mdi mdi-plus-circle icon bg-gray cl-blue "></span> para agregar, como se muestra a continuación:
 
 ![Procesar imagen](../assets/images/cap09/chp09_img13.png)
 ***Imagen 101.** Órdenes - Gasto Real Ingresar M y R*
@@ -758,7 +758,7 @@ Otros Conceptos, traída desde su tabla en Infraestructura.
 
 **Info. Adicional:** Es un campo donde se define un pequeño comentario sobre el consumo.
 
-Una vez se diligencien estos campos se da clic en el ícono <a class="btn bg-gray cl-blue"><span class="mdi mdi-plus-circle white"></span></a>
+Una vez se diligencien estos campos se da clic en el ícono <span class="mdi mdi-plus-circle icon bg-gray cl-blue "></span>
  para agregar, como se muestra a continuación:
 
 ![Procesar imagen](../assets/images/cap09/chp09_img17.png)
