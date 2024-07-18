@@ -1024,9 +1024,9 @@ Los anteriores reportes pueden ser  seleccionados para uno o varios Activos/Equi
 
 **Subtítulo:** En este campo es posible registrar un poco menos de una línea de información, tipo documentación del Reporte, para que se imprima bajo el área de títulos estándar.
 
-Para visualizar los reportes, se da un clic sobre el reporte y luego al botón <a class="btn white">Imprimir</a>.
-.
-Para exportar un reporte se da un clic sobre el reporte y luego al botón <a class="btn white">exportar</a>. Esto descarga automáticamente en la estación cliente el reporte en formato excel.
+Para visualizar los reportes, se da un clic sobre el reporte y luego al botón <a class="btn bg-gray cl-black">IMPRIMIR</a>.
+
+Para exportar un reporte se da un clic sobre el reporte y luego al botón <a class="btn bg-gray cl-black">EXPORTAR</a>. Esto descarga automáticamente en la estación cliente el reporte en formato excel.
 
 ### Exportar
 
@@ -1043,9 +1043,9 @@ En la gráfica anterior, se aprecian sus componentes y sus respectivos contenido
 
 **Exportar Todos los Registros:** Esta opción exporta todas los Activos existentes en la base de datos, sin importar cualquier subgrupo activo.
 
-Luego de escoger una de las opciones anteriores, en la parte inferior aparece seleccionado por defecto el recuadro de selección <a class="btn white"><span class="mdi mdi-checkbox-blank-outline"> exportar todos los campos</span></a> pero si se prefiere uno o algunos campos se debe des-seleccionar y a continuación hacer clic en los recuadros a exportar.
+Luego de escoger una de las opciones anteriores, en la parte inferior aparece seleccionado por defecto el recuadro de selección <a class="btn bg-white cl-black"><span class="mdi mdi-checkbox-blank-outline"> Exportar Todos Los Campos</span></a> pero si se prefiere uno o algunos campos se debe des-seleccionar y a continuación hacer clic en los recuadros a exportar.
 
 ![Procesar imagen](../assets/images/cap03/chp03_img28.png)
 _**Imagen 82.** Activos - Exportar Campos_
 
-Una vez elegida la información, dar clic en el botón inferior <a class="btn white">Exportar</a> el cual genera un archivo de Excel que se descarga automáticamente. El objetivo de esta exportación es llevar toda la información de los Activos a un archivo plano, para luego ser analizados.
+Una vez elegida la información, dar clic en el botón inferior <a class="btn bg-gray cl-black">EXPORTAR</a> el cual genera un archivo de Excel que se descarga automáticamente. El objetivo de esta exportación es llevar toda la información de los Activos a un archivo plano, para luego ser analizados.
