@@ -7,14 +7,14 @@ date: 2022-03-28T20:34:50.748Z
 ---
 # Ventana Principal de Historia de Mantenimiento (HM)
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img01.png)
+![Procesar imagen](../assets/images/cap10/chp10_img01.png)
 _**Imagen 1.** Historia - Ventana Visor_
 
 A esta ventana se llega haciendo clic sobre la opción <a class="btn blue">Historia </a> del Menú Principal. A través de ella se ejecutan todas las funciones dedicadas a administrar la Historia de Mantenimiento. A continuación se ilustran las porciones que la componen.
 
 ## Ventana Visor
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img02.png)
+![Procesar imagen](../assets/images/cap10/chp10_img02.png)
 ***Imagen 2.** Historia - Ventana Visor*
 
 Desde esta ventana es posible observar la Historia de Mantenimiento activa, existente o un subconjunto de ellas (efectuado a través de un subgrupo). El conjunto de Órdenes de Trabajo Históricas disponible a ser desplegado se muestra a través de páginas. El tamaño de las páginas es configurable desde la opción <a class="btn blue">administración</a> del menú principal, en la sección “Valores por Defecto” por parte de un usuario autorizado.
@@ -25,7 +25,7 @@ Los títulos en azul que encabezan las columnas son también botones que permite
 
 Al hacer clic sobre alguna de las OT, SS o Paros Históricas del Visor el sistema responde mostrando la información de esa OT, en forma detallada, en una ventana llamada **Ventana Detalle**.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img03.png)
+![Procesar imagen](../assets/images/cap10/chp10_img03.png)
 _**Imagen 3.** Historia - Ventana Detalle_
 
  En esta ventana se encuentra la información relevante a la OT histórica seleccionada en el Visor. A través de ella se administran los datos genéricos y también es posible modificar la información de una OT Histórica. Por supuesto que, para ello se requieren permisos especiales, que pueden ser proporcionados por el Administrador.
@@ -116,7 +116,7 @@ Es posible que el sistema añada comentarios automáticos cuando la OT sea prove
 
 Para las OT que se hayan enviado a Historia con costos ABC, esta pestaña sólo permite consultar el costo de las acciones técnicas asociadas a la labor:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img04.png)
+![Procesar imagen](../assets/images/cap10/chp10_img04.png)
 _**Imagen 4.** Historia - Acciones Técnicas de una OT_
 
 
@@ -126,7 +126,7 @@ Para ingresar a esta opción, se debe dar clic en la pestaña “Gasto Real” d
 
 Este refleja los costos registrados en la OT Histórica:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img10.png)
+![Procesar imagen](../assets/images/cap10/chp10_img10.png)
 _**Imagen 5.** Historia - Gasto Real de una OT_
 
  A través de esta ventana, se puede administrar el Gasto Real de la OT Histórica. Se compone de dos zonas:
@@ -137,7 +137,7 @@ En la zona inferior, aparecen los botones para ingresar al detalle de <a class="
 
 **Ingresar Mano de obra Interna**
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img11.png)
+![Procesar imagen](../assets/images/cap10/chp10_img11.png)
 _**Imagen 6.** Historia - Gasto Real MO_
 
 
@@ -170,23 +170,23 @@ Para ingresar MO se debe dar clic en el botón <a class="btn gray">adicionar man
 
 Una vez se diligencien estos campos se da clic en el ícono de Mas <span class="mdi mdi-plus-circle icon white"></span> para agregar, como se muestra a continuación:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img12.png)
+![Procesar imagen](../assets/images/cap10/chp10_img12.png)
 _**Imagen 7.** Historia - Gasto Real Ingresar MO_
 
 En el caso de actualizar la información de Mano de Obra Interna se da clic en <a class="btn gray">actualizar mano de obra interna</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img13.png)
+![Procesar imagen](../assets/images/cap10/chp10_img13.png)
 _**Imagen 8.** Historia - Gasto Real Actualizar MO_
 
 Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img14.png)
+![Procesar imagen](../assets/images/cap10/chp10_img14.png)
 _**Imagen 9.** Historia - Gasto Real Eliminar MO_
 
 
 **Ingresar Mano de Obra Externa**
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img15.png)
+![Procesar imagen](../assets/images/cap10/chp10_img15.png)
 _**Imagen 10.** Historia - Gasto Real ME_
 
 
@@ -208,23 +208,23 @@ Para ingresar Mano de Obra Externa se debe dar clic en el botón <a class="btn g
 
 Una vez se diligencien estos campos se da clic en el ícono de Mas <span class="mdi mdi-plus-circle icon white"></span> para agregar, como se muestra a continuación:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img16.png)
+![Procesar imagen](../assets/images/cap10/chp10_img16.png)
 _**Imagen 11.** Historia - Gasto Real Ingresar ME_
 
 En el caso de actualizar la información de Mano de Obra Externa, se da clic en <a class="btn gray">Actualizar Mano de Obra Externa</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img17.png)
+![Procesar imagen](../assets/images/cap10/chp10_img17.png)
 _**Imagen 12.** Historia - Gasto Real Actualizar ME_
 
 Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img18.png)
+![Procesar imagen](../assets/images/cap10/chp10_img18.png)
 _**Imagen 13.** Historia - Gasto Real Eliminar ME_
 
 
 **Ingresar Materiales y Repuestos**
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img19.png)
+![Procesar imagen](../assets/images/cap10/chp10_img19.png)
 _**Imagen 14.** Historia - Gasto Real M Y R_
 
 Para ingresar Materiales y Repuestos se debe dar clic en el botón <a class="btn gray">adicionar Material y Repuesto</a> y se deberán diligenciar los siguientes campos:
@@ -255,22 +255,22 @@ La segunda consiste en buscar el Material y Repuesto, a través del visor de Mat
 
 Una vez se diligencien estos campos se da clic en el ícono de Mas <span class="mdi mdi-plus-circle icon white"></span> para agregar, como se muestra a continuación:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img20.png)
+![Procesar imagen](../assets/images/cap10/chp10_img20.png)
 _**Imagen 14.** Historia - Gasto Real Ingresar M Y R_
 
 En el caso de actualizar la información de Materiales y Repuestos, se da clic en <a class="btn gray">Actualizar Material y Repuesto</a>. Regresar a seleccionar el Almacén respectivo, y elegir el Repuesto. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img21.png)
+![Procesar imagen](../assets/images/cap10/chp10_img21.png)
 _**Imagen 15.** Historia - Gasto Real Actualizar M Y R_
 
 Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img22.png)
+![Procesar imagen](../assets/images/cap10/chp10_img22.png)
 _**Imagen 16.** Historia - Gasto Real Eliminar M Y R_
 
 **Ingresar Otros Conceptos de Costo**
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img23.png)
+![Procesar imagen](../assets/images/cap10/chp10_img23.png)
 _**Imagen 17.** Historia - Gasto Real OC_
 
 
@@ -294,17 +294,17 @@ Para ingresar Otros Conceptos de Costo o Gastos indirectos, se debe dar clic en 
 
 Una vez se diligencien estos campos se da clic en el ícono de Mas <span class="mdi mdi-plus-circle icon white"></span> para agregar, como se muestra a continuación:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img24.png)
+![Procesar imagen](../assets/images/cap10/chp10_img24.png)
 _**Imagen 18.** Historia - Ingresar OC_
 
 En el caso de actualizar la información de Materiales y Repuestos, se da clic en <a class="btn gray">Actualizar Otro Concepto</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img25.png)
+![Procesar imagen](../assets/images/cap10/chp10_img25.png)
 _**Imagen 19.** Historia - Actualizar OC_
 
 Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img26.png)
+![Procesar imagen](../assets/images/cap10/chp10_img26.png)
 _**Imagen 20.** Historia - Eliminar OC_
 
 _> **Nota:** Para finalizar, hacer clic en el botón <a class="btn gray">ir a la matriz</a> para regresar a la ventana principal de Gasto Real y luego para acentar los cambios en el Gasto Real de la OT se debe dar clic en <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a>. Esto automáticamente cambia el estado de la OT a Cerrada Retroalimentada._
@@ -313,7 +313,7 @@ _> **Nota:** Para finalizar, hacer clic en el botón <a class="btn gray">ir a la
 
 Se puede visualizar la evaluación del servicio del personal de mantenimiento o de servicios que realizó la labor. La evaluación fue hecha por un usuario, previamente autorizado, quien fuera el receptor del servicio, una vez que se haya cerrado la OT. Sin embargo, es posible realizarla desde un usuario con los permisos respectivos en Historia y guardando los cambios a través del botón  <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a>.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img05.png)
+![Procesar imagen](../assets/images/cap10/chp10_img05.png)
 _**Imagen 21.** Historia - Evaluación del Servicio_
 
 ## Seguimiento o Cierre
@@ -322,7 +322,7 @@ A esta opción se llega dando un clic sobre la esotaña “Seguimiento o Cierre�
 
 En el Seguimiento o Cierre en HM es posible corregir los tiempos, duración de la ejecución y tiempo improductivo y demás básicos concernientes a la ejecución de la labor.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img06.png)
+![Procesar imagen](../assets/images/cap10/chp10_img06.png)
 _**Imagen 22.** Historia - Seguimiento y Cierre_
 
 En la gráfica anterior, Ventana de Seguimiento o Cierre, se aprecian sus componentes y sus respectivos contenidos. Sobre cada campo se da una breve descripción:
@@ -397,7 +397,7 @@ Se deben llenar los siguientes campos para proceder a actualizar la información
 
 En el Seguimiento o Cierre, además de los botones <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a> y <a class="btn blue">cancelar <span class="mdi mdi-block-helper"></span></a>, se visualiza el botón <a class="btn blue">bitácora <span class="mdi mdi-view-week"></span></a>, éste muestra en nueva ventana el historial de cambios de la OT en: Estado, Prioridad y Responsable. Se muestra esta información solo si se han presentado modificaciones, de lo contrario los campos permanecen en blanco.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img52.png)
+![Procesar imagen](../assets/images/cap10/chp10_img52.png)
 _**Imagen 23.** Historia - Detalle Bitácora en Seguimiento y Cierre_
 
 
@@ -405,13 +405,13 @@ _>**Nota:** Nótese que para hacer efectivo los cambios efectuados en el seguimi
 
 Una vez se actualice el sistema responde con un mensaje de advertencia, para continuar dar un clic en <a class="btn white">aceptar</a>.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img53.png)
+![Procesar imagen](../assets/images/cap10/chp10_img53.png)
 _**Imagen 24.** Historia - Mensaje alerta en Seguimiento y Cierre_
 
 
 ## Multimedia 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img54.png)
+![Procesar imagen](../assets/images/cap10/chp10_img54.png)
 _**Imagen 25.** Historia - Multimedia_
 
 En la gráfica anterior, Ventana Multimedia, se aprecian sus componentes y sus respectivos contenidos.
@@ -431,32 +431,32 @@ A continuación se describen las carpetas que componen esta ventana; cuando se q
 
 Para adicionar un documento, imagen o video, se debe dar un doble clic sobre la carpeta deseada, y luego seleccionar del ícono de nube <span class="mdi mdi-cloud-upload icon white"></span>, como se muestra a continuación:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img55.png)
+![Procesar imagen](../assets/images/cap10/chp10_img55.png)
 _**Imagen 26.** Historia - Abrir Explorador Archivos_
 
 A continuación se abre el explorador de archivos, seguido de seleccionar el archivo dar un clic en <a class="btn">abrir</a>.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img56.png)
+![Procesar imagen](../assets/images/cap10/chp10_img56.png)
 _**Imagen 27.** Historia - Seleccionar Archivos_
 
 De manera adicional u opcional se puede escribir un nombre en el siguiente campo para enfatizar de lo que trata el archivo:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img57.png)
+![Procesar imagen](../assets/images/cap10/chp10_img57.png)
 _**Imagen 28.** Historia - Nombrar Archivo_
 
 Para finalizar dar un clic en el botón  <a class="btn white">subir archivo </a>,  el sistema responde con un mensaje aviso:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img58.png)
+![Procesar imagen](../assets/images/cap10/chp10_img58.png)
 _**Imagen 29.** Historia - Subir archivo_
 
 Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic sobre el nombre de una de las imágenes, se muestra la previsualización, como se muestra a continuación:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img59.png)
+![Procesar imagen](../assets/images/cap10/chp10_img59.png)
 _**Imagen 30.** Historia - Prevualización formato imagen_
 
 Para desasociar un documento, o una imagen o un video, a la OT se da clic al icono de basura <span class="mdi mdi-delete"></span> que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro, finalmente confirmar con el botón <a class="btn white">Aceptar</a>.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img60.png)
+![Procesar imagen](../assets/images/cap10/chp10_img60.png)
 _**Imagen 31.** Historia - Desasociar archivo_
 
 
@@ -469,7 +469,7 @@ Si se desea descargar un archivo adjunto a la OT, se debe dar clic en el ícono 
 
 Se usa para seleccionar grupos de OT, SS y Paros  que cumplen con un conjunto de filtros o criterios. El objetivo de hacerlo, es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al icono <span class="mdi mdi-filter-variant"></span>, ubicado en la parte superior derecha de la ventana Visor de Historia.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img61.png)
+![Procesar imagen](../assets/images/cap10/chp10_img61.png)
 _**Imagen 32.** Historia - Ir a Subgrupo_
 
 Cada criterio trabaja en conjunto con los demás, con el operador intersección.
@@ -480,7 +480,7 @@ Cada criterio aparece inicializado en un valor global que permite mostrar todas 
 
 Los campos de datos que constituyen criterio de selección son los siguientes:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img62.png)
+![Procesar imagen](../assets/images/cap10/chp10_img62.png)
 _**Imagen 33.** Historia - Subgrupo_
 
 **1. FILTRAR POR TIPO DE REGISTRO**
@@ -638,7 +638,7 @@ Esta opción permite exportar los ítems o campos de la ficha técnica de OT, bi
 Para efectuar este proceso, se da clic en Exportar <span class="mdi mdi-download"></span> mostrando las siguientes opciones de exportación:
 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img63.png)
+![Procesar imagen](../assets/images/cap10/chp10_img63.png)
 _**Imagen 34.** Historia - Exportar_
 
 
@@ -655,7 +655,7 @@ Luego de escoger una de las opciones anteriores, en la parte inferior aparece se
 
 Este comando permite visualizar los reportes relacionados a OT, SS y PA en Historia. Existen los siguientes tipos de reportes básicos disponibles:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img64.png)
+![Procesar imagen](../assets/images/cap10/chp10_img64.png)
 _**Imagen 35.** Historia - Reportes_
 
 Los anteriores reportes pueden ser seleccionados para una o varios registros a través de las siguientes opciones:
@@ -678,42 +678,42 @@ Para Cerrar la ventana de los Reportes, se da clic en el botón<a class="btn whi
 
 El reporte con código **HMI-CMDAP de Análisis Previo de Disponibilidad** es necesario hacer una carga de datos primero según la información que se tenga filtrada para poder apreciar de manera correcta el análisis de los datos cuando se imprima el reporte, como se indica en la siguiente imagen:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img35.png)
+![Procesar imagen](../assets/images/cap10/chp10_img35.png)
 _**Imagen 36.** Historia - Reporte Cargar Análisis Previo de Disponibilidad_
 
 Primero se debe un clic en el botón <a class="btn white">cargar</a>. Una vez que carguen los datos, se muestra el siguiente mensaje:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img36.png)
+![Procesar imagen](../assets/images/cap10/chp10_img36.png)
 _**Imagen 37.** Historia - Reporte Mensaje Análisis Previo de Disponibilidad_
 
 De esta manera ya se puede <a class="btn white">imprimir</a> o <a class="btn white">exportar</a> y visualizar el reporte.
 
 A continuación se muestra la vista previa de impresión en formato pdf:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img37.png)
+![Procesar imagen](../assets/images/cap10/chp10_img37.png)
 _**Imagen 38.** Historia - Reporte Vista Previa Análisis Previo de Disponibilidad_
 
 Para imprimir o exportar el reporte **HME-CRMACC-Cronograma de Mantenimientos Ejecutados** se debe primero, ir a la transacción de inicio **Valores OOAK** como se muestra a continuación:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img38.png)
+![Procesar imagen](../assets/images/cap10/chp10_img38.png)
 _**Imagen 39.** Historia - Valores OOAK_
 
 Luego, se debe digitar el año del cual se quieren analizar los datos, como se indica en la siguiente imagen, a continuación dar un clic en <a class="btn white">cambiar</a> y esperar el mensaje de confirmación:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img39.png)
+![Procesar imagen](../assets/images/cap10/chp10_img39.png)
 _**Imagen 40.** Historia - Ingresar Valores OOAK_
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img40.png)
+![Procesar imagen](../assets/images/cap10/chp10_img40.png)
 _**Imagen 41.** Historia - Mensaje Alerta Valores OOAK_
 
 A continuación, se debe refrescar la página, o bien dando clic derecho y eligiendo la opción **Volver a Cargar** y se debe dirigir nuevamente al módulo de <a class="btn blue">Historia</a> e ir la opción Reportes <span class="mdi mdi-printer"></span> y a continuación <a class="btn white">exportar</a> o <a class="btn white">imprimir</a> los resultados, nótese que el año al lado del campo del reporte confirma el valor OOAK ingresado anteriormente:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img41.png)
+![Procesar imagen](../assets/images/cap10/chp10_img41.png)
 _**Imagen 42.** Historia - Cronograma de Mantenimientos Ejecutados_
 
 A continuación se muestra la visualización del respectivo reporte:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img42.png)
+![Procesar imagen](../assets/images/cap10/chp10_img42.png)
 _**Imagen 43.** Historia - Reporte Cronograma de Mantenimientos Ejecutados_
 
 
@@ -733,12 +733,12 @@ El envío de registros Históricos a Historia Archivada es un proceso controlado
 Para enviar registros de **Historia** a **Historia Archivada**, previamente se debe hacer un subgrupo y luego sobreponer el cursor sobre el módulo de <a class="btn blue">Historia</a> y dar clic en **Enviar Historia Archivada** como se indica a continuación:
 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img43.png)
+![Procesar imagen](../assets/images/cap10/chp10_img43.png)
 _**Imagen 44.** Historia - Ir a Enviar a Historia Archivada_
 
 Al ingresar a la transacción se muestra la siguiente ventana:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img44.png)
+![Procesar imagen](../assets/images/cap10/chp10_img44.png)
 _**Imagen 45.** Historia - Enviar a Historia Archivada_
 
 **Historia Archivada** se puede enviar un registro de OT, SS o Paro
@@ -750,20 +750,20 @@ o un conjunto de registros preseleccionados:
 
 Luego de seleccionar una de las opciones anteriores dar clic en el botón <a class="btn blue">Enviar a Historia Archivada</a>, ubicado en la parte inferior de las opciones en el cual aparecerá un mensaje de alerta para el usuario:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img45.png)
+![Procesar imagen](../assets/images/cap10/chp10_img45.png)
 _**Imagen 46.** Historia - Mensaje Alerta Enviar Historia Archivada_
 
 Para continuar con el proceso de envío dar clic en <a class="btn white">Aceptar</a>.
 
 Cuando el proceso termine, el sistema muestra un mensaje alerta confirmando el proceso con el número de registros enviados exitosamente entre paréntesis:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img46.png)
+![Procesar imagen](../assets/images/cap10/chp10_img46.png)
 _**Imagen 47.** Historia - Mensaje Alerta Envío a Historia Archivada_
 
 >**Nota:** Si el número de registros a enviar es mayor a 5000 registros el sistema muestra un mensaje de advertencia.
 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img47.png)
+![Procesar imagen](../assets/images/cap10/chp10_img47.png)
 _**Imagen 48.** Historia - Mensaje Advertencia_
 
 
@@ -772,12 +772,12 @@ _**Imagen 48.** Historia - Mensaje Advertencia_
 
 Para acceder a esta opción, se debe sobreponer el cursor sobre el módulo de Historia y a continuación, dar un clic sobre la transacción, como se muestra en la siguiente imagen:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img27.png)
+![Procesar imagen](../assets/images/cap10/chp10_img27.png)
 ***Imagen 49.** Historia - Ir a Dashboard*
 
 Este comando permite visualizar en tiempo real el comportamiento de los registros de Órdenes de Trabajo Históricas, Solicitudes de Servicio y Paros, con el fin de usarse como una herramienta para análisis y toma de decisiones rápidas, como se muestra a continuación:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img28.png)
+![Procesar imagen](../assets/images/cap10/chp10_img28.png)
 ***Imagen 50.** Historia - Dashboard*
  
 De la imagen anterior, la información del rectángulo anaranjado ubicado en la parte superior derecha indica el número de registros de OT Históricas, SS y PA filtrados a través del subgrupo o la cantidad total de registros de OT Históricas, SS y PA, existentes en el módulo de HI. 
@@ -786,22 +786,22 @@ Como guía existe un indicador a modo de fracción (N/M) que indica el número t
 
 Es por lo anterior que esta fracción se verá afectada al realizarse un “Subgrupo” o filtro en el módulo seleccionado, por lo cual se muestra la cantidad de registros del subgrupo actual (N) y el total de registros existentes en el módulo de Historia (M). Si no hay filtro, los dos números en sus totales son los mismos, como se indica en la siguiente imagen:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img29.png)
+![Procesar imagen](../assets/images/cap10/chp10_img29.png)
 ***Imagen 51.** Historia - Dashboard*
 
 Al dar clic sobre los rectángulos de colores, se oculta la información correspondiente a cada rectángulo, como se ilustra en la siguiente imagen:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img30.png)
+![Procesar imagen](../assets/images/cap10/chp10_img30.png)
 _**Imagen 52.** Historia - Dashboard_
 
 El valor que está ubicado dentro del rectángulo verde, indica el número total de OT Históricas, SS o PA existentes en HI o existentes en el subgrupo realizado, según corresponda al DashBoard.
 
-![Dashboard OT](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img31.png)
+![Dashboard OT](../assets/images/cap10/chp10_img31.png)
 _**Imagen 53.** Historia - Dashboard OT_
 
 Sí se desea restablecer la información, se debe dar clic al icono de las flechas circulares <span class="mdi mdi-autorenew"></span>. En cambio, si se desea exportar el gráfico en un formato de imagen, es posible dando clic a la flecha hacia abajo <span class="mdi mdi-download"></span>.
 
-![Dashboard SS](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img32.png)
+![Dashboard SS](../assets/images/cap10/chp10_img32.png)
 
 _**Imagen 54.** Historia - Dashboard SS_
 
@@ -813,17 +813,17 @@ Eliminar masivamente se ejecuta cuando se tiene la certeza de la existencia  dat
 
 Para ir a la transacción sobreponer el cursor sobre el módulo de  <a class="btn blue">Historia</a> y dar clic en la opción **Eliminar Masivamente**, como se indica a continuación:
 
-![Dashboard SS](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img48.png)
+![Dashboard SS](../assets/images/cap10/chp10_img48.png)
 _**Imagen 55.** Historia - Ir a Eliminar Masivamente_
 
 Para eliminar un conjunto de registros se debe primero realizar un Subgrupo no mayor de 5000 mil registros (este proceso puede tardar hasta 5 horas dependiendo del subgrupo), de no hacerlo el sistema muestra un mensaje de advertencia:
 
-![Dashboard SS](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img47.png)
+![Dashboard SS](../assets/images/cap10/chp10_img47.png)
 _**Imagen 56.** Historia - Alerta Eliminar Masivamente_
 
 Una vez se tenga el conjunto de registros preseleccionados proceder con la transacción así:
 
-![Dashboard SS](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img49.png)
+![Dashboard SS](../assets/images/cap10/chp10_img49.png)
 _**Imagen 57.** Historia - Eliminar Historia_
 
 Se puede eliminar un registro de OT, SS, Paro o un conjunto de registros preseleccionados: 
@@ -834,12 +834,12 @@ Se puede eliminar un registro de OT, SS, Paro o un conjunto de registros presele
 
 Para continuar dar clic en el botón <a class="btn blue">eliminar historia</a> ubicado debajo de las opciones anteriores, el sistema muestra un mensaje alerta:
 
-![Dashboard SS](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img50.png)
+![Dashboard SS](../assets/images/cap10/chp10_img50.png)
 _**Imagen 58.** Historia - Mensaje Advertencia Eliminar Masivamente_
 
 Para finalizar el proceso dar clic en <a class="btn blue">aceptar</a>, y el sistema confirma  a través de un mensaje aviso: 
 
-![Dashboard SS](https://ayuda.winsoftware.com.co/assets/images/cap10/chp10_img51.png)
+![Dashboard SS](../assets/images/cap10/chp10_img51.png)
 _**Imagen 59.** Historia - Aviso Satisfactorio Eliminar Masivamente_
 
 

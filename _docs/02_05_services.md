@@ -15,7 +15,7 @@ encuentre. A esta ventana se llega dando clic al icono de la impresora <span cla
 ubicado en la parte superior derecha de la ventana Visor del módulo seleccionado. Existen
 reportes básicos disponibles de tipo Resumen y Detalle:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap02/chp02_img79.png)
+![Procesar imagen](../assets/images/cap02/chp02_img79.png)
 _**Imagen 79.** Ventana Reportes_
 
 A continuación se explica su contenido:

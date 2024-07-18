@@ -9,7 +9,7 @@ order: 05_04
 
 Al ejecutar esta transacción, se abrirá una ventana la cual se muestra a continuación.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap05/chp05_img24.png)
+![Procesar imagen](../assets/images/cap05/chp05_img24.png)
 _**Imagen 17.** Kárdex - Exportar_
 
 
@@ -24,7 +24,7 @@ Adicionalmente, es posible exportar todos los campos de la ventana Detalle de lo
 
 Este comando permite visualizar los reportes relacionados con los Documentos  y Movimientos  de  Kárdex. Existen los siguientes tipos de reportes básicos disponibles:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap05/chp05_img25.png)
+![Procesar imagen](../assets/images/cap05/chp05_img25.png)
 _**Imagen 18.** Kárdex - Reportes_
 
 Los  anteriores  reportes  pueden  ser  seleccionados  para  uno  o  varios   Documentos de Kárdex:

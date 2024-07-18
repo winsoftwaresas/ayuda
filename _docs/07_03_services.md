@@ -12,7 +12,7 @@ date: 2022-10-25T21:07:17.169Z
 
 Este comando <span class="mdi mdi-printer"></span>  permite visualizar los reportes relacionados con las Solicitudes de Servicio. Existen los siguientes tipos de reportes básicos disponibles:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img35.png)
+![Procesar imagen](../assets/images/cap07/chp07_img35.png)
 ***Imagen 31.** Solicitudes - Reportes*
 
 Los anteriores reportes pueden ser seleccionados para una o varias Solicitudes:
@@ -33,11 +33,12 @@ Para Cerrar la ventana de los Reportes, se da clic en el botón <a class="btn wh
 
 ## Exportar
 
-Esta opción <span class="mdi mdi-download"></span> permite la exportación de las Solicitudes de Servicio que aparecen en el visor, totales o provenientes de un subgrupo a un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso.
+Esta opción <span class="mdi mdi-download"></span>
+ permite la exportación de las Solicitudes de Servicio que aparecen en el visor, totales o provenientes de un subgrupo a un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso.
 
 
 Al ejecutar esta transacción, se abrirá una ventana la cual se muestra a continuación:
-
+(../assets/
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img36.png)
 _**Imagen 32.** Solicitudes - Exportar_
 
@@ -45,6 +46,6 @@ Al darle clic en el botón <a class="btn white">Exportar</a> se generará un arc
 
 
 Adicional, es posible exportar todos los campos de la ventana Visor de las Solicitudes de Servicio, para esto se da clic en el cuadro llamado  <a class="btn black"><span class="mdi mdi-checkbox-blank-outline"> exportar todas las columnas</span></a>. También, es posible exportar uno o varios campos de la ventana Visor de las Solicitudes de Servicio, para esto se da clic en cada uno de los cuadros que acompañan los campos, finalizar con el botón <a class="btn white">Exportar</a> y esperar a que el archivo se encuentre listo para descargarlo <a class="btn white">Descargar</a>:
-
+(../assets/
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap07/chp07_img37.png)
 _**Imagen 32.** Solicitudes - Descargar_

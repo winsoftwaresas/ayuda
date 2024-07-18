@@ -20,12 +20,12 @@ Se orienta al Administrador en la creación y actualización de datos del Usuari
 
 Una vez se ingrese como Usuario Administrador, dar clic en **Administrar Usuarios** en la ventana de Menú Principal para continuar con la Administración de los Usuarios de **AMsi**.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img41.png)
+![Procesar imagen](../assets/images/cap12/chp12_img41.png)
 ***Imagen 42.** AMsi - Ir a Administrar Usuarios*
 
 #### Ventana Visor de Usuarios
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img42.png)
+![Procesar imagen](../assets/images/cap12/chp12_img42.png)
 ***Imagen 43.** AMsi - Visor Administrar Usuarios*
 
 El Visor de Administrar Usuarios lista el total de los usuarios registrados en el  **AMsi** .
@@ -44,7 +44,7 @@ En  la  parte inferior  derecha de esta ventana se observan también varios enla
 
 #### Ventana Detalle de Usuarios
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img43.png)
+![Procesar imagen](../assets/images/cap12/chp12_img43.png)
 ***Imagen 44.** AMsi - Visor Administrar Usuarios*
 
 Es la porción de la pantalla en que se muestran los datos detallados del usuario seleccionado en la ventana Visor.
@@ -67,7 +67,7 @@ Para salir de la ventana Detalle se puede dar clic en la parte de afuera de esta
 
 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img44.png)
+![Procesar imagen](../assets/images/cap12/chp12_img44.png)
 ***Imagen 45.** AMsi - Detalle Usuario*
 
 A esta ventana se llega haciendo clic sobre el botón <a class="btn blue">Nuevo <span class="mdi mdi-plus-circle-outline"></span></a>
@@ -101,14 +101,14 @@ Todos los campos marcados con asterisco (*) son de carácter obligatorio.
 
 **Cuadros de Asociación de Centros de Costo:** Está estructurado por un campo para seleccionar la compañía y dos cuadros ubicados en la parte inferior de esta ventana para asignar manualmente los Centros de Costo a un Usuario, como se muestra a continuación:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img45.png)
+![Procesar imagen](../assets/images/cap12/chp12_img45.png)
 ***Imagen 46.** AMsi - Elegir Compañía*
 
 En el campo anterior se selecciona la compañía deseada, y a continuación en el cuadro de la izquierda se listan todos los Centros de Costo correspondientes a esa compañía. Mientras que, en el cuadro de la derecha, se listan los Centros de Costo que se van asociando al usuario solicitante.
 
 La funcionalidad consiste en seleccionar el Centro de Costo desde el recuadro de la izquierda, esta selección se hace a través de un clic sobre registro deseado, el sistema lo sombrea de color verde confirmando la selección. En el medio de los  dos recuadros se encuentran dos botones los cuales indican “Trasladar”. El botón superior de traslado <a class="btn white"><span class="mdi mdi-chevron-left"></span></a> indica trasladar de la derecha a la izquierda, es decir que asocia a ese Centro de Costo, el botón inferior de traslado<a class="btn white"><span class="mdi mdi-chevron-right"></span></a> indica trasladar de la izquierda a la derecha, es decir, que se desasocia ese Centro de Costo. Para asociar varios Centros de Costo, se presiona la tecla “Shift” sostenido y con el cursor se eligen los Centros de Costo desde el cuadro izquierdo usando las fechas de traslado.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img46.png)
+![Procesar imagen](../assets/images/cap12/chp12_img46.png)
 ***Imagen 47.** AMsi - Trasladar/Asociar Centros de Costo*
 
 Para visualizar la información completa de los Centros de Costo disponibles para ser asociados y los que se asociaron al usuario solicitante y facilitar su recorrido es posible realizar desplazamientos verticales del cursor tanto hacia el comienzo como hacia  el final del cuadro.

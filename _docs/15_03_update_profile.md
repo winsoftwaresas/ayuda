@@ -16,12 +16,12 @@ Se define el formulario a diligenciar para actualizar el perfil del usuario Soli
 
 La siguiente transacción permite que el usuario pueda actualizar la información personal cuando lo requiera y visualizar los Centros de Costos asociados. Para acceder a esta ventana se da un clic a este botón ubicado en la ventana de Menú Principal.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img03.png)
+![Procesar imagen](../assets/images/cap12/chp12_img03.png)
 _**Imagen 3.** Botón Actualizar Perfil_
 
 El sistema muestra automáticamente el Detalle del Formulario para Actualizar Perfil en la ventana de Menú Principal del usuario.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img04.png)
+![Procesar imagen](../assets/images/cap12/chp12_img04.png)
 **_Imagen 4. Actualizar Perfil_**
 
 A continuación, se describen los campos que componen el registro. Sobre cada campo se da una breve explicación:
@@ -70,5 +70,5 @@ De todos modos para una OT/SS en particular es posible cambiar el Centro de Cost
 Para un usuario Solicitante que tenga Todos Los Centros de Costo asociados, este formulario no se visualiza, sino que el Solicitante primero debe elegir el Centro de Servicio y de acuerdo a la compañía elegida, se muestran los Centros de Costos correspondientes.
 Una vez se diligencien todos los campos de Datos del Solicitante, para guardar los cambios se da un clic al botón Actualizar, seguido a esto se muestra un mensaje de confirmación de la transacción.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap12/chp12_img05.png)
+![Procesar imagen](../assets/images/cap12/chp12_img05.png)
 _**Imagen 5.** Mensaje de Confirmación de la actualización del perfil_

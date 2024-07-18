@@ -12,7 +12,7 @@ order: 12_04
 
 Es posible saber cuáles registros de SS, OT y Paros, tienen Multimedia, Servicio Evaluado y Firma de Recibido (sólo para SS y OTs diligenciadas desde AMovil) directamente desde la ventana visor, sobreponiendo el cursor en el ícono de Indicadores <span class="mdi mdi-message-alert"></span> ubicado en la parte superior derecha de la ventana como se muestra a continuación:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap13/chp13_img12.png)
+![Procesar imagen](../assets/images/cap13/chp13_img12.png)
 _**Imagen 12.** Historia Archivada- Indicadores_
 
 
@@ -28,7 +28,7 @@ Se usa para seleccionar un grupo de información, sobre la que se estudiará uno
 
 Para ingresar a esta opción se debe dar clic al icono <span class="mdi mdi-filter-variant"></span>, ubicado en la parte superior derecha de la ventana Visor de HA.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap13/chp13_img13.png)
+![Procesar imagen](../assets/images/cap13/chp13_img13.png)
 _**Imagen 13.** Historia Archivada- Ir a Subgrupos_
 
 Cada criterio trabaja en conjunto con los demás, con el operador intersección.
@@ -42,7 +42,7 @@ El programa permite entonces hacer selección de un grupo de cualquier tipo de l
 Los campos de datos son los siguientes:
 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap13/chp13_img14.png)
+![Procesar imagen](../assets/images/cap13/chp13_img14.png)
 _**Imagen 14.** Historia Archivada- Ir a Subgrupos_
 
 **1. FILTRAR POR TIPO DE REGISTRO**
@@ -183,17 +183,17 @@ _**Nota:** Es importante tener en cuenta que cuando se están realizando los sub
 
 Esta opción de búsqueda rápida se encuentra ubicada al lado superior derecho de la ventana Visor. Es una lupa <span class="mdi mdi-magnify"></span> que abre un campo al lado izquierdo y que indica digitar el número de la OT, SS o Paro. Luego de digitar la información, se presiona la tecla <a class="btn">Enter <span class="mdi mdi-subdirectory-arrow-left"></span></a> y a continuación se sombrea el registro deseado en el Visor:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap13/chp13_img17.png)
+![Procesar imagen](../assets/images/cap13/chp13_img17.png)
 _**Imagen 15.** Historia Archivada - Exportar las OT, SS y PA_
 
 En caso de escribir el consecutivo con algún error o no existente, el sistema muestra un mensaje de alerta:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap13/chp13_img18.png)
+![Procesar imagen](../assets/images/cap13/chp13_img18.png)
 _**Imagen 16.** Mensaje Alerta - Ir a OT_
 
 Si se tiene un subgrupo establecido y se digita el consecutivo de una OT, SS o Paro que no esté dentro del subgrupo, el sistema muestra un mensaje de adventencia, donde se le pregunta al usuario si desea deshacer el subgrupo:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap13/chp13_img24.png)
+![Procesar imagen](../assets/images/cap13/chp13_img24.png)
 _**Imagen 17.** Mensaje Advertencia - Ir a OT_
 
 ## Exportar
@@ -209,7 +209,7 @@ En la gráfica anterior, se aprecian sus componentes y sus respectivos contenido
 **Exportar Todos los Registros:** Esta opción exporta todas las OT, SS y PA existentes, sin importar cualquier subgrupo activo.
 Luego de escoger una de las opciones anteriores, en la parte inferior aparece seleccionado por defecto el recuadro <a class="btn white"><span class="mdi mdi-checkbox-blank-outline"></span> exportar todos los campos</a> pero si se prefiere uno o varios, se debe des-seleccionar y a continuación hacer clic en los recuadros a exportar, una vez elegida la información, se da clic en el botón inferior <a class="btn white">exportar</a> el cual genera un archivo de Excel que se descarga automáticamente. El objetivo de esta exportación es llevar toda la información de a un archivo plano, para luego ser analizadas.
 
- ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap13/chp13_img15.png)
+ ![Procesar imagen](../assets/images/cap13/chp13_img15.png)
 _**Imagen 18.** Historia Archivada - Exportar_las OT, SS y PA 
 
 ## Servicios
@@ -218,7 +218,7 @@ _**Imagen 18.** Historia Archivada - Exportar_las OT, SS y PA
 
 Este comando permite visualizar el reporte relacionado a la OT, SS y PA en Historia Archivada. Existe el siguiente reporte básico disponibles
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap13/chp13_img16.png)
+![Procesar imagen](../assets/images/cap13/chp13_img16.png)
 _**Imagen 19.** Historia Archivada - Exportar_
 
 El anterior reporte puede ser seleccionado para una o varios registros a través de las siguientes opciones:

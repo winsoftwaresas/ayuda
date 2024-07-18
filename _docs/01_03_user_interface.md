@@ -10,7 +10,7 @@ date: 2021-11-30T20:50:23.757Z
 ---
 ### Ventana Principal **AM**
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap01/chp01_img01.png)
+![Procesar imagen](../assets/images/cap01/chp01_img01.png)
 _**Imagen 1.** Ventana Acceso **AM**_
 
 Los elementos que conforman esta vista principal son:
@@ -19,29 +19,29 @@ Los elementos que conforman esta vista principal son:
 
 La porción de Menú Principal normalmente está conformada por la barra de opciones que se muestra a continuación.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap01/chp01_img02.png)
+![Procesar imagen](../assets/images/cap01/chp01_img02.png)
 _**Imagen 2.** Ventana Menú Principal_
 
 En caso de estar trabajando en Infraestructura, se muestra una ventana que se ubica debajo de ella y que detalla los nombres de cada una de las tablas de la Infraestructura. A través de ellas se posibilita el acceso directo al módulo.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap01/chp01_img03.png)
+![Procesar imagen](../assets/images/cap01/chp01_img03.png)
 _**Imagen 3.** Ventana Infraestructura_
 
 En caso de estar trabajando con Gerente o un usuario administrador, esta barra se complementa listando todas las compañías existentes.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap01/chp01_img04.png)
+![Procesar imagen](../assets/images/cap01/chp01_img04.png)
 _**Imagen 4.** Ventana Administración_
 
 #### Submenú
 
 El submenú tiene un conjunto de transacciones que se usan para ejecutar funciones operaciones o procedimientos especiales que afectan uno, varios o todos los registros del módulo activo. Al **sobreponer** el mouse por un módulo o una opción del menú principal la pantalla muestra debajo de ella un recuadro como se muestra a continuación:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap01/chp01_img05.png)
+![Procesar imagen](../assets/images/cap01/chp01_img05.png)
 _**Imagen 5.** Submenú **AM**_
 
 #### Ventana Visor
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap01/chp01_img07.png)
+![Procesar imagen](../assets/images/cap01/chp01_img07.png)
 _**Imagen 6.** Ventana Visor_
 
 Es la ventana en la que se lista el total de los registros o aquellos preseleccionados, del módulo activo. Para facilitar su recorrido es posible realizar desplazamientos verticales del cursor tanto hacia el comienzo como hacia el final de la tabla, y desplazamientos horizontales de izquierda a derecha y viceversa.
@@ -64,7 +64,7 @@ En la parte inferior derecha de esta ventana se observan también varios enlaces
 
 #### Ventana detalle
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap01/chp01_img08.png)
+![Procesar imagen](../assets/images/cap01/chp01_img08.png)
 _**Imagen 7.** Ventana Detalle_
 
 Es la porción de la pantalla en la que se muestran los datos detallados del registro seleccionado en la ventana Visor. También se visualiza un conjunto de Vistas Parciales o Pestañas que se usan para visualizar porciones específicas de datos del módulo activo; módulo que depende de la opción del menú principal seleccionada. Para visualizar la información completa del registro seleccionado y facilitar su recorrido es posible realizar desplazamientos verticales del cursor tanto hacia el comienzo como hacia el final de la tabla.
@@ -86,7 +86,7 @@ Para salir de la ventana Detalle se puede dar clic a la **X** que se encuentra a
 
 #### Ventana menú de más información
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap01/chp01_img09.png)
+![Procesar imagen](../assets/images/cap01/chp01_img09.png)
 _**Imagen 8.** Ventana menú de mas información_
 
 Esta ventana se ubica en la parte superior derecha del menú principal. Contiene la siguiente información:
@@ -101,7 +101,7 @@ Esta ventana se ubica en la parte superior derecha del menú principal. Contiene
 
 ### Ventana Reportes
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap01/chp01_img10.png)
+![Procesar imagen](../assets/images/cap01/chp01_img10.png)
 _**Imagen 9.** Ventana Reportes_
 
 Esta ventana presenta las opciones de impresión de reportes escritos relacionados con cada módulo del sistema. A esta ventana se llega dando clic al icono de la impresora que se encuentra ubicado en la parte superior derecha de la ventana Visor del módulo seleccionado.
@@ -118,7 +118,7 @@ Esta ventana presenta las opciones de impresión de reportes escritos relacionad
 
 Después de seleccionar el tipo de registro se procede a seleccionar el reporte que se desea imprimir; para esto se debe pulsar el botón <a class="btn white">imprimir</a>. De esta manera se abre una ventana visor para formatos PDF, que muestra el reporte seleccionado. De esta misma ventana es posible guardarlo y descargarlo.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap01/chp01_img11.png)
+![Procesar imagen](../assets/images/cap01/chp01_img11.png)
 _**Imagen 10.** Ventana Reporte Impresa_
 
 Al dar clic al botón <a class="btn white">exportar</a> permite exportar el Reporte seleccionado sin necesidad de imprimirlo a un formato excel. Mientras que, al dar clic al botón <a class="btn white">cerrar</a> se cierra la ventana de la generación de reportes.
@@ -188,10 +188,10 @@ Si se trata de la versión **AM** PRO, el sistema solicita el nombre de usuario,
 
 Cuando se trata de la versión **AM** ST el sistema solicita el nombre de usuario y su clave de acceso.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap01/chp01_img61.png)
+![Procesar imagen](../assets/images/cap01/chp01_img61.png)
 _**Imagen 11.** Ventana de Acceso AM_
 
 Cuando se ha hecho el acceso exitoso al sistema se muestra por defecto una ventana con un tablero de entrada que corresponde a un _DashBoard Home_ que permite visualizar conjuntos de indicadores e información que muestran la forma actual de las cosas en distintos módulos del sistema.
 
-![Ventana acceso directo](https://ayuda.winsoftware.com.co/assets/images/cap01/chp01_img62.png)
+![Ventana acceso directo](../assets/images/cap01/chp01_img62.png)
 _**Imagen 12.** Ventana de Acceso AM_

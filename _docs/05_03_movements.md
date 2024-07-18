@@ -7,7 +7,7 @@ order: 05_03
 ---
 # Ventana Detalle Movimientos de Kárdex
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap05/chp05_img05.png)
+![Procesar imagen](../assets/images/cap05/chp05_img05.png)
 _**Imagen 4.** Kárdex - Ventana Detalle Movimientos_
 
 A esta ventana se llega haciendo clic sobre la pestaña **“Movimientos”** ubicada al lado derecho de la pestaña principal **“Documentos”** en un registro de Kárdex. A través de ella se ejecutan todas las funciones dedicadas a administrar el Movimiento de Entrada, de Salida, o de cualquier tipo de Ajuste, de los Materiales y Repuestos contenidos en el Almacén o Almacenes de la compañía activa. A continuación se ilustran las porciones que la componen.
@@ -79,14 +79,14 @@ La información contenida en el cuadro  <a class="btn black"><span class="mdi md
 Para eliminar un registro de movimiento de Repuestos/Materiales, solo se permite hacer durante la creación del mismo (antes de insertarlo), para esto se debe ir con la barra de desplazamiento horizontal hasta el final del lado derecho para dar clic al botón eliminar <span class="mdi mdi-delete"></span>, el cual muestra un mensaje de alerta indicándole al usuario si está seguro de eliminar el registro y finalmente para continuar <a class="btn white">Aceptar</a> :
 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap05/chp05_img10.png)
+![Procesar imagen](../assets/images/cap05/chp05_img10.png)
 _**Imagen 5.** Kárdex - Eliminar Movimiento_
 
 
 
 Para obtener información adicional de cada movimiento, sobreponer el cursor sobre los iconos <span class="mdi mdi-alert-circle-outline"></span> se muestra información adicional. 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap05/chp05_img07.png)
+![Procesar imagen](../assets/images/cap05/chp05_img07.png)
 _**Imagen 6.** Kárdex - Comandos Ventana Detalle Movimientos_
 
 
@@ -94,12 +94,12 @@ Por ejemplo, en el primero de ellos justo al lado derecho del campo Código RP, 
 
 Por otra parte, al hacer clic sobre el icono <span class="mdi mdi-alert-circle-outline"></span>, que está al lado derecho del campo CP, muestra el nombre del concepto de kárdex asociado a ese movimiento de Repuesto/Material, como se muestra a continuación:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap05/chp05_img08.png)
+![Procesar imagen](../assets/images/cap05/chp05_img08.png)
 _**Imagen 7.** Kárdex - Comandos Ventana Detalle Movimientos_
 
 Al finalizar una transacción a través del botón <a class="btn blue">insertar movimientos</a> de movimiento de Repuestos, todos los registros se observan en color gris y bloqueados, los cuales se convierten en registros de solo consulta. No es posible eliminar los registros de las transacciones de kárdex, una vez han sido ingresadas en el módulo:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap05/chp05_img09.png)
+![Procesar imagen](../assets/images/cap05/chp05_img09.png)
 _**Imagen 8.** Kárdex - Consulta Movimientos_
 
   
@@ -111,21 +111,21 @@ Para ingresar un nuevo movimiento al Documento en cuestión, se da clic en el Su
 
 Para seleccionar un solo Material o Repuesto basta con dar doble clic al ítem o seleccionarlo y luego dar clic al botón <a class="btn white">adicionar rp</a> de cualquiera de las formas de seleccionar los Materiales y Repuestos, se visualiza todos los ítems de manera independiente en la ventana Detalle del movimiento, con el fin de diligenciar la información del movimiento a cada uno de ellos.  
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap05/chp05_img11.png)
+![Procesar imagen](../assets/images/cap05/chp05_img11.png)
 _**Imagen 9.** Kárdex - Ir a Subgrupo de Materiales y Repuestos_
 
 
 También, es posible crear movimientos, al hacer clic en el boton <span class="mdi mdi-plus-circle icon white"></span>, ubicado en la parte superior derecha, el cual inserta una fila en la última posición de la lista o en la primera posición, en el caso de tratarse del primer registro de movimiento en el documento, una vez que se haga efectiva la creación del movimiento se muestra el siguinete mensaje:
 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap05/chp05_img12.png)
+![Procesar imagen](../assets/images/cap05/chp05_img12.png)
 _**Imagen 10.** Kárdex - Mensaje Alerta Nuevo Movimiento_
 
 
 Por otro lado, el botón  <a class="btn gray">insertar movimientos</a>
 se usa para insertar uno o varios registros de movimientos de Materiales o Repuestos, una vez que se diligencien todos los campos de la ventana Detalle del movimiento de cada item, en la base de datos. 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap05/chp05_img13.png)
+![Procesar imagen](../assets/images/cap05/chp05_img13.png)
 _**Imagen 11.** Kárdex - Añadir nuevo movimiento_
 
 
@@ -137,7 +137,7 @@ La funcionalidad de Ajustar Inventario se lleva a cabo, a través de la ventana 
 
 El objetivo de esta funcionalidad es realizar una conciliación entre el Inventario Teórico que lo da el sistema y el Inventario Físico que lo debe realizar un designado para este proceso, ambos inventarios deben coincidir, en caso contrario, se procede a realizar un Ajuste. Para realizar el ajuste se debe crear un Documento de tipo Ajuste y crear los movimientos, como se muestra en la siguiente imagen:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap05/chp05_img19.png)
+![Procesar imagen](../assets/images/cap05/chp05_img19.png)
 _**Imagen 12.** Kárdex - Ajuste_
 
 
@@ -188,14 +188,14 @@ También, si se elige un concepto de kárdex de Ajuste tipo Cantidad, se desbloq
 
 ## Congelar Documento
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap05/chp05_img20.png)
+![Procesar imagen](../assets/images/cap05/chp05_img20.png)
 _**Imagen 13.** Kárdex - Ir a Congelar Documento_
 
 Es una funcionalidad que inhibe la posibilidad de adicionar nuevos movimientos a un Documento. Una vez ejecutada está transacción no tiene reversa y permanecerá en el Kárdex como un Documento únicamente de Consulta.
 
 El botón <a class="btn blue">congelar documento <span class="mdi mdi-grid-off"></span></a> se encuentra ubicado en la parte superior izquierda de la ventana y solo aparecerá a los usuarios que tengan el permiso de usuario  “Congelar documentos en Kárdex” en la definición de  “Permisos para ejecución de Procesos” que se otorgan al usuario en el módulo de Administración / Modificar permisos básicos.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap05/chp05_img21.png)
+![Procesar imagen](../assets/images/cap05/chp05_img21.png)
 _**Imagen 14.** Kárdex - Congelar Documento_
    
 
@@ -208,7 +208,7 @@ Para congelar un documento basta con seleccionar el Documento de Kárdex, dar cl
 
 Se usa para seleccionar grupos de Movimiento de Kárdex que cumplen un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al icono <span class="mdi mdi-filter-variant"> ubicado en la parte superior derecha de la ventana Visor de Movimiento de Kárdex
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap05/chp05_img22.png)
+![Procesar imagen](../assets/images/cap05/chp05_img22.png)
 _**Imagen 15.** Kárdex - Ir a Subgrupo_
 
 
@@ -220,7 +220,7 @@ Cada  criterio  aparece  inicializado  en  un  valor  global  que  permite  most
 
 El programa permite entonces hacer selección de un grupo de Movimientos de Kárdex de acuerdo con los criterios seleccionados en la siguiente ventana:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap05/chp05_img23.png)
+![Procesar imagen](../assets/images/cap05/chp05_img23.png)
 _**Imagen 16.** Kárdex - Subgrupo Documentos Kardex_
 
 
