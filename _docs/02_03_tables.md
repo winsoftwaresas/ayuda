@@ -10,7 +10,7 @@ order: 02_03
 
 Es la primera tabla que aparece en el listado de Infraestructura, el Centro de Costo (CC) se refiere al área o departamento administrativo, operativo o productivo que recibe servicios de mantenimiento. Se refiere también a la definición contable de los departamentos o áreas responsables de Activos, Equipos o de Objetos de Mantenimiento y por ende de los costos de su mantenimiento.
 
-![Procesar imagen](../assets/images/cap02/chp02_img27.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img27.png)
 _**Imagen 1.** Ventana Visor IF Centros de Costo_
 
 Los Centros de Costo se utilizan en **AM** para asociar los cargos, por distintos conceptos de costo de mantenimiento, a las Órdenes de Trabajo. Esta asociación posibilita generar múltiples reportes por actividades, costos o tipos de costos para los distintos Centros de Costo definidos en el sistema.
@@ -19,7 +19,7 @@ Es posible usar un Centro de Costo con el objeto de compendiar todos los trabajo
 
 En otro contexto, el concepto de Centros de Costo se asocia al concepto de Clientes. Se trata del caso en que una compañía prestadora de servicios de mantenimiento atiende a múltiples clientes y quiere llevar un control detallado de las actividades técnicas ejecutadas y los costos asociados a cada uno de ellos. En este caso el sistema posibilita el registro de datos adicionales sobre el Centro de Costo o Cliente; son ellos el nombre del contacto, su estado, una clasificación y datos generales para su ubicación.
 
-![Procesar imagen](../assets/images/cap02/chp02_img28.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img28.png)
 _**Imagen 2.** Ventana Detalle IF Centro de Costo_
 
 En la gráfica anterior, Ventana Detalle Centros de Costo, se aprecian sus componentes y sus respectivos contenidos. Se encuentra la información relevante al Centro de Costo seleccionado en el visor.
@@ -62,7 +62,7 @@ Si el Centro de Costo se refiere a un Cliente, en este campo se define el nombre
 
 Se usa para seleccionar grupos de Centros de Costo que cumplen un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al ícono de filtro <span class="mdi mdi-filter-variant"></span> ubicado en la parte superior derecha de la ventana Visor de Centros de Costo.
 
-![Procesar imagen](../assets/images/cap02/chp02_img29.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img29.png)
 _**Imagen 3.** Ventana Visor IF Centros de Costo_
 
 **AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar.
@@ -73,82 +73,82 @@ Cada criterio aparece inicializado en un valor global que permite mostrar todos 
 
 El programa permite entonces hacer selección de un grupo de Centros de Costo de acuerdo con los criterios seleccionados en la siguiente ventana.
 
-![Procesar imagen](../assets/images/cap02/chp02_img30.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img30.png)
 _**Imagen 4.** Ventana Subgrupos Centro de Costo_
 
 Los campos de datos que constituyen criterio de selección haciendo parte de la Ventana Subgrupo son los siguientes:
 
 **Área/Depto:** Filtra los CC que tengan asignada el área o departamento de la institución ingresada en este campo.
 
-![Procesar imagen](../assets/images/cap02/chp02_img31.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img31.png)
 _**Imagen 5.** Subgrupo Criterio Área/Depto_
 
 **CC Superior:** Permite filtrar por aquellos CC Superior que fueron asociados a los CC. Lista los CC creados en la tabla de Centros de Costos.
 
-![Procesar imagen](../assets/images/cap02/chp02_img32.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img32.png)
 _**Imagen 6.** Subgrupo Criterio CC Superior_
 
 **Ciudad:** Filtra los CC que están asociados a la Ciudad especificada.
 
-![Procesar imagen](../assets/images/cap02/chp02_img33.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img33.png)
 _**Imagen 7.** Subgrupo Criterio Ciudad_
 
 También se puede escribir la ciudad mediante el uso de comodines. Ejemplo, si se escribe Bog%, el sistema entiende que debe seleccionar aquellos CC cuya ciudad comience por la palabra  “Bog”. El porcentaje a continuación, es un carácter comodín que significa **“todos”**.
 
 **Clase:** Filtra los CC que están asociados a una de las clases listadas.
 
-![Procesar imagen](../assets/images/cap02/chp02_img34.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img34.png)
 _**Imagen 8.** Subgrupo Criterio Clase_
 
 **Código CC:** Esta selección agrupa los Centros de Costos relacionados por su código. Por ejemplo: si se escribe cont%, el sistema localiza aquellos CC cuyo código empieza por cont. El porcentaje a continuación, es un carácter comodín que significa **“todos”**.
 
-![Procesar imagen](../assets/images/cap02/chp02_img35.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img35.png)
 _**Imagen 9.** Subgrupo Código CC_
 
 **Código Sub CC:** En  este campo se filtra por el Sub CC asociado a un Centro de Costo.
 
-![Procesar imagen](../assets/images/cap02/chp02_img36.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img36.png)
 _**Imagen 10.** Subgrupo Criterio Código Sub CC_
 
 **Contacto:** Filtra los CC que tengan asociada a una persona externa como contacto. Ejemplo: %maria josé% selecciona todos los Centros de Costo cuyo Contacto, en cualquier parte, tengan la palabra **“maria josé”.**
 
-![Procesar imagen](../assets/images/cap02/chp02_img37.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img37.png)
 _**Imagen 11.** Subgrupo Criterio Contacto_
 
 **Descripción CC:** Agrupa los CC cuya descripción corresponda a un Centro de Costo Interno o a un Cliente.
 
-![Procesar imagen](../assets/images/cap02/chp02_img38.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img38.png)
 _**Imagen 12.** Subgrupo Criterio Descripción CC_
 
 **Dirección:** Permite filtrar por la dirección del Área o  Departamento asociada a los CC.
 
-![Procesar imagen](../assets/images/cap02/chp02_img39.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img39.png)
 _**Imagen 13.** Subgrupo Dirección_
 
 **Correo Electrónico:** Filtra la dirección electrónica asociada a un CC.
 
-![Procesar imagen](../assets/images/cap02/chp02_img40.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img40.png)
 _**Imagen 14.** Subgrupo Criterio Correo Electrónico_
 
 **Estado:** Permite la selección de los CC de acuerdo al estado de Activo o Inactivo. El estado de los CC es importante para la selección en las listas  desplegables.
 **Por ejemplo:** Si un CC, tiene definido el Estado  “Inactivo”, esta no aparecerá en la lista de los Contratos, Terceros, módulos de Activos, Kárdex, Programas, Solicitudes de Servicio, Paros, Órdenes de Trabajo, Historia y Administración.
 
-![Procesar imagen](../assets/images/cap02/chp02_img41.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img41.png)
 _**Imagen 15.** Subgrupo Criterio Estado_
 
 **Responsable:** Filtra los CC (tipo: mantenimiento y usuario) cuyos responsables corresponden al diligenciado en el campo.
 
-![Proccesar imagen](../assets/images/cap02/chp02_img42.png)
+![Proccesar imagen](../../assets/images/cap02/chp02_img42.png)
 _**Imagen 16.** Subgrupo Criterio Responsable_
 
 **Teléfono:** Filtra por el teléfono asociado a un CC.
 
-![Procesar imagen](../assets/images/cap02/chp02_img43.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img43.png)
 _**Imagen 17.** Subgrupo Criterio Teléfono_
 
 **Tipo:** Agrupa los CC de acuerdo al tipo seleccionado.
 
-![Procesar imagen](../assets/images/cap02/chp02_img44.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img44.png)
 _**Imagen 18.** Subgrupo Criterio Tipo_
 
 
@@ -180,7 +180,7 @@ De igual forma, debe constituir un Centro Responsable el conjunto de Contratista
 
 **Taller Eléctrico:** Tall.Elec
 
-![Procesar imagen](../assets/images/cap02/chp02_img45.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img45.png)
 _**Imagen 19.** Ventana Detalle Centro Responsable_
 
 En la gráfica anterior, Ventana Detalle Centro Responsable, se aprecian sus componentes y sus respectivos contenidos. Se encuentra la información relevante al Centro Responsable seleccionado en el Visor.
@@ -202,7 +202,7 @@ En otras palabras esta es la tabla en la que se registran los nombres de los Car
 
 También se definen aquí las especialidades de los Talleres/Servicios Externos o de los Contratistas que prestan servicios de mantenimiento. Ejemplos: Talleres Eléctricos, Talleres Mecánicos, Talleres de Motores y Bombas; Contratistas de Aire Acondicionado, Contratistas de Mecanizado, Contratistas para Instalaciones de Redes, entre otros. Los oficios son requeridos por los Programas de Mantenimiento y las Órdenes de Trabajo.
 
-![detalle](../assets/images/cap02/chp02_img46.png)
+![detalle](../../assets/images/cap02/chp02_img46.png)
 _**Imagen 20.** Ventana Detalle Oficio_
 
 En la gráfica anterior, Ventana Detalle Oficios, se aprecian sus componentes y sus  respectivos contenidos. Se encuentra la información  relevante al Oficio seleccionado en el Visor.
@@ -234,12 +234,12 @@ Almacena la información de cuatro tipos diferentes de entes terceros relacionad
 
 **Otro Tipo de Tercero (OT):** Este grupo está abierto para definir otros tipos de Terceros requeridos por condiciones particulares de cada organización. Únicamente se puede usar en conjunto con el tipo RI, para indicar que son usuarios solicitantes.
 
-![Procesar imagen](../assets/images/cap02/chp02_img02.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img02.png)
 _**Imagen 211.** Ventana IF Visor Terceros_
 
 En la porción de la ventana Visor de Terceros que se aprecia en la gráfica aparecen las columnas correspondientes a los campos más significativos de esta tabla. Al seleccionar un registro de esta ventana, se muestra la ventana Detalle con la  información completa del Tercero seleccionado.
 
-![Procesar imagen](../assets/images/cap02/chp02_img03.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img03.png)
 _**Imagen 22.** Ventana Detalle Tercero_
 
 En la ventana Detalle de Terceros se encuentra toda la información relevante del Tercero seleccionado en el Visor. Es una ventana que de no visualizarse completa debe ser recorrida con la ayuda de la barra de desplazamiento vertical.
@@ -298,7 +298,7 @@ Esta nueva funcionalidad se usa para realizar un seguimiento detallado a los Ter
 
 A continuación la explicación de las Certificaciones de Terceros tipo RI, cuya finalidad es que el usuario pueda asociar información importante del responsable ejecutor de la institución como hoja de vida, documento, tarjeta profesional, pasantías, cursos, registro Invima, entre otros.
 
-![Procesar imagen](../assets/images/cap02/chp02_img04.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img04.png)
 _**Imagen 23.** Certificaciones TE_
 
 En la gráfica anterior, pestaña Certificaciones, se aprecian sus componentes y sus respectivos contenidos. En la ventana Detalle de Terceros se encuentra la información relevante a la Certificación del Tercero seleccionado en el Visor.
@@ -317,7 +317,7 @@ Para actualizar la información de alguna certificación, se ingresa la nueva in
 
 A continuación la explicación de los Técnicos de Terceros tipo RX, cuya finalidad es que el usuario pueda asociar información importante del responsable ejecutor contratista o servicio externo como hoja de vida, documento, tarjeta profesional, pasantías, cursos, registro Invima, entre otros.
 
-![Procesar imagen](../assets/images/cap02/chp02_img05.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img05.png)
 _**Imagen 24.** Técnicos_
 
 En la gráfica anterior, pestaña Técnicos, se aprecian sus componentes y sus respectivos contenidos. En la ventana Detalle de Terceros se  encuentra la información relevante al Técnico del Tercero seleccionado en el Visor.
@@ -346,7 +346,7 @@ Para registrar un nuevo técnico se da clic en el botón <a class="btn white">Ad
 
 Es posible visualizar de manera inmediata, los Terceros habitados e inhabilitados, directamente desde la ventana visor, a través de la columna **“Indicadores”** que muestra una pelota de color que indica su estado. El significado del color de cada pelota, se puede ver en el recuadro de Indicadores  ubicado en la parte superior derecha de la ventana visor, como se muestra a continuación:
 
-![Procesar imagen](../assets/images/cap02/chp02_img06.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img06.png)
 _**Imagen 25.** Indicadores Terceros_
 
 El significado de los colores se visualiza al sobreponer el mouse en el icono <span class="mdi mdi-message-alert"></span> que se encuentra al extremo superior derecho y su correspondencia es:
@@ -358,7 +358,7 @@ El significado de los colores se visualiza al sobreponer el mouse en el icono <s
 
 Se usa para seleccionar grupos de Terceros que cumplen un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al <span class="mdi mdi-filter-variant"></span>, ubicado en la parte superior derecha de la ventana Visor de Terceros.
 
-![Procesar imagen](../assets/images/cap02/chp02_img07.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img07.png)
 _**Imagen 26.** Subgrupos_
 
 **AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar.
@@ -369,7 +369,7 @@ Cada criterio aparece inicializado en un valor global que permite mostrar **todo
 
 El programa permite hacer selección de un grupo de Terceros de acuerdo con los criterios seleccionados en la siguiente ventana:
 
-![Procesar imagen ](../assets/images/cap02/chp02_img08.png)
+![Procesar imagen ](../../assets/images/cap02/chp02_img08.png)
 _**Imagen 27.** Ventana Subgrupo Terceros_
 
 Los campos de datos que constituyen los criterios de selección son los siguientes:
@@ -378,7 +378,7 @@ Los campos de datos que constituyen los criterios de selección son los siguient
 
 **Centro Responsable:** Lista los centros responsables registrados en el sistema.
 
-![Procesar imagen ](../assets/images/cap02/chp02_img09.png)
+![Procesar imagen ](../../assets/images/cap02/chp02_img09.png)
 _**Imagen 28.** Subgrupo Criterio Centro Responsable_
 
 También se puede elegir el centro responsable o un grupo de centros responsables mediante el uso de comodines, para ello, se debe dar clic al icono <span class="mdi mdi-lock-open-outline"></span>. Ejemplo, si se escribe %adm%, el sistema entiende que debe seleccionar aquellos Terceros cuyo centro responsable tenga incluida la secuencia **“adm”**.
@@ -389,7 +389,7 @@ También se puede elegir el centro responsable o un grupo de centros responsable
 
 **Tipo:** Filtra los Terceros de Tipo Responsable Interno, Responsable Externo, Proveedor/Fabricante u Otro, al dar clic en uno o algunos de los cuadros de selección.
 
-![Procesar imagen](../assets/images/cap02/chp02_img10.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img10.png)
 _**Imagen 29.** Subgrupo Criterio Tipo_
 
 **Contacto:** Permite la selección de los Terceros que tengan un contacto asociado, ya sea el mismo nombre del Tercero o el nombre de la persona representante de la empresa.
@@ -400,7 +400,7 @@ _**Imagen 29.** Subgrupo Criterio Tipo_
 
 **Oficio:** Muestra los Terceros que tengan asignados el Oficio seleccionado.
 
-![Procesar imagen ](../assets/images/cap02/chp02_img11.png)
+![Procesar imagen ](../../assets/images/cap02/chp02_img11.png)
 _**Imagen 30.** Subgrupo Criterio Oficio_
 
 De igual forma, se puede elegir el oficio mediante la opción utilizar comodines, para ello, se debe dar clic al icono <span class="mdi mdi-lock-open-outline"></span>. Esta selección agrupa los Terceros relacionados por su oficio. Por ejemplo: si se escribe ayudante%, el sistema localiza aquellos Terceros cuyo oficio empieza por la palabra **“ayudante”**.
@@ -414,7 +414,7 @@ Aquí se registran automáticamente los nombres propios de las personas definida
 
 Se visualiza la información sobre cada Empleado o Taller o Contratista.
 
-![Procesar imagen](../assets/images/cap02/chp02_img47.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img47.png)
 _**Imagen 31.** Ventana Detalle Responsable_
 
 En la gráfica anterior, Ventana Detalle del Responsable, se aprecian sus componentes y  sus respectivos contenidos. Se encuentra la información relevante al Responsable seleccionado en el Visor.
@@ -479,7 +479,7 @@ Cuando la Ubicación Física es un criterio para seleccionar en un subgrupo en A
 
 El registro  de las Ubicaciones Físicas es muy importante, pues ellas serán  invocadas desde muchas ventanas de otras opciones del Menú Principal como Activos, Almacenes, Órdenes de Trabajo, Solicitudes de Servicio, Paros e Historia de Mantenimiento.
 
-![Procesar imagen](../assets/images/cap02/chp02_img12.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img12.png)
 _**Imagen 32.** Ventana Detalle UF_
 
 En la gráfica anterior, Ventana Detalle Ubicaciones Físicas, se aprecian sus componentes y sus respectivos contenidos. Se encuentra la información relevante al Técnico del Tercero seleccionado en el Visor.
@@ -506,7 +506,7 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 Se usa para seleccionar grupos de Ubicaciones Físicas que cumplen con un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al icono de filtro <span class="mdi mdi-filter-variant"></span>, ubicado en la parte superior derecha de la ventana Visor de Ubicaciones Físicas.
 
-![Procesar imagen](../assets/images/cap02/chp02_img13.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img13.png)
 _**Imagen 33.** Ventana Visor UF_
 
 **AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar.
@@ -517,50 +517,50 @@ Cada criterio aparece inicializado en un valor global que permite mostrar todas 
 
 El programa permite entonces hacer selección de un grupo de Ubicaciones Físicas:
 
-![Procesar imagen](../assets/images/cap02/chp02_img14.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img14.png)
 _**Imagen 34.** Subgrupo UF_
 
 Los campos de datos que constituyen los criterio de selección haciendo parte de la Ventana Subgrupo son los siguientes:
 
 **Área:** Filtra las UF que tienen la cantidad de área ingresada en el campo.
 
-![Procesar imagen](../assets/images/cap02/chp02_img15.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img15.png)
 _**Imagen 35.** Subgrupo UF Criterio Área_
 
 **Capacidad:** Filtra las UF que tienen la cantidad de capacidad ingresada en el campo.
 
-![Procesar imagen](../assets/images/cap02/chp02_img16.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img16.png)
 _**Imagen 36.** Subgrupo UF Criterio Capacidad_
 
 **Código UF:** Esta selección agrupa las UF relacionados por su código. **Por ejemplo:** si se escribe UF-12%, el sistema localiza aquellas UF cuyo código empieza por UF-12. El porcentaje a continuación, es un carácter comodín que significa **“todos”**.
 
-![Procesar imagen](../assets/images/cap02/chp02_img17.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img17.png)
 _**Imagen 37.** Subgrupo UF Criterio Código UF_
 
 **Estado:** Permite la selección de las UF de acuerdo al estado de Activo o Inactivo. El estado de las UF es importante para la selección en las listas desplegables.
 **Por ejemplo:** Si una UF, tiene definido el Estado **“Inactivo**, esta no aparecerá en la lista de las Ubicaciones Físicas de los módulos de Activos, Solicitudes de Servicio, Paros, Órdenes de Trabajo, Historia y Almacén.
 
-![Procesar imagen](../assets/images/cap02/chp02_img18.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img18.png)
 _**Imagen 38.** Subgrupo UF Criterio Estado_
 
 **Nombre UF:** Selecciona las UF según criterios basados en su Nombre.
 **Ejemplo:** %Planta% selecciona todas las UF en cuyo nombre, en cualquier parte, tengan la palabra **“Planta”**.
 
-![Procesar imagen](../assets/images/cap02/chp02_img19.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img19.png)
 _**Imagen 39.** Subgrupo UF Criterio Nombre UF_
 
 **Unidad de Medida Área:** Lista las Unidades de Medida registradas en la tabla de Unidades de Medida, se elige una de la lista. 
 
 También se puede elegir la unidad de medida mediante el uso de comodines, para ello, se debe dar clic al icono de candado <span class="mdi mdi-lock"></span>, a continuación este ícono se muestra abierto <span class="mdi mdi-lock-open-outline"></span> y permite escribir. Ejemplo, si se escribe metros%, el sistema entiende que debe seleccionar aquellas UF cuya unidad de medida comience por la palabra **“metros”**. El porcentaje a continuación, es un carácter comodín que significa **“todos”**, como se indica a continuación:
 
-![Procesar imagen](../assets/images/cap02/chp02_img20.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img20.png)
 _**Imagen 40.** Subgrupo UF Criterio Unidad de Medida Área_
 
 **Unidad de Medida Capacidad:** Busca las Ubicaciones Físcas que tengan definido este campo. Las Unidades de Medida que se despliegan en la lista están registradas en la tabla de Unidades de Medida. Se elige de la lista la Unidad de Medida deseada.
 
 También se puede elegir la unidad de medida mediante el uso de comodines, para ello, se debe dar clic al icono candado <span class="mdi mdi-lock"></span>, a continuación este ícono se muestra abierto <span class="mdi mdi-lock-open-outline"></span> y permite escribir. Ejemplo, si se escribe la palabra bloques%, el sistema realiza una búsqueda de aquellas UF que en cualquier parte del campo tengan el nombre de la palabra digitada, en este caso, la palabra **“bloques”**, como se muestra a continuación:
 
-![Procesar imagen](../assets/images/cap02/chp02_img21.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img21.png)
 _**Imagen 41.** Subgrupo UF Criterio Área_
 
 > _**Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos  se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber realizado una selección es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección se da un clic al botón <a class="btn white">Mas <span class="mdi mdi-plus-circle"></span></a> , en lugar de darlo al botón <a class="btn white">aceptar <span class="mdi mdi-check-circle"></span></a>._
@@ -577,14 +577,14 @@ Aunque el objetivo general es el registro de los contratos anuales, también es 
 También es posible realizar el seguimiento de la vigencia de los Contratos, directamente desde la ventana visor, a través de la columna  “Indicadores” que muestra una pelota de color que indica su estado de vigencia acuerdo a la cantidad de días o meses. El significado del color de cada pelota, se puede ver en el ícono de Indicador <span class="mdi mdi-message-alert"></span>, ubicado en la parte superior derecha de la ventana
 visor.
 
-![Procesar imagen](../assets/images/cap02/chp02_img59.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img59.png)
 _**Imagen 42.** Ventana Visor Contratos_
 
 La renovación de contratos se realiza utilizando la numeración del contrato anterior, realizando  una copia y adicionando un consecutivo adicional que relacione esta renovación con su contrato original.
 
 **Ejemplo:** Código 00008 (contrato original), Código 00008-1 (renovación del contrato)
 
-![Procesar Imagen ](../assets/images/cap02/chp02_img60.png)
+![Procesar Imagen ](../../assets/images/cap02/chp02_img60.png)
 _**Imagen 43.** Ventana Detalle del Contrato_
 
 En la gráfica anterior, Ventana Detalle del Contrato, se aprecian sus componentes y sus respectivos contenidos. Se encuentra la información relevante al Contrato seleccionado en el Visor.
@@ -625,7 +625,7 @@ A continuación se describen los campos que componen el registro, sobre cada cam
 
 Esta nueva funcionalidad permite asociar el Contrato de forma digital.
 
-![Procesar Imagen](../assets/images/cap02/chp02_img61.png)
+![Procesar Imagen](../../assets/images/cap02/chp02_img61.png)
 _**Imagen 44.** Ventana Detalle del Contrato (Multimedia)_
 
 En la gráfica anterior, Porción Multimedia del Contrato, se aprecian sus componentes y sus respectivos contenidos.
@@ -646,27 +646,27 @@ A continuación se describen las carpetas que componen esta ventana; cuando se q
 
 Para adicionar un documento, imagen o video, se debe dar acceder a la carpeta deseada a través de un doble clic, luego se da clic al icono de nube <span class="mdi mdi-cloud-upload icon white"></span> y a continuación se abre el explorador de archivos, se selecciona el archivo y se da clic en <a class="btn white">abrir</a>, como se muestra a continuación:
 
-![Procesar imagen](../assets/images/cap02/chp02_img62.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img62.png)
 _**Imagen 45.** Contrato Porción Multimedia_
 
 Una vez se da clic en <a class="btn white">abrir</a> se evidencia al lado derecho el nombre del archivo elegido y aparece un campo en blanco, para que el usuario escriba un nombre adicional del archivo para ser usado como una referenciación del archivo adjunto. Luego, se da clic en el botón <a class="btn white">Subir archivo</a>.
 
-![Procesar imagen](../assets/images/cap02/chp02_img63.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img63.png)
 _**Imagen 46.** Adjuntar un Archivo_
 
 Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic en uno de las imágenes, se visualiza la imagen adjunta.
 
-![Procesar imagen](../assets/images/cap02/chp02_img64.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img64.png)
 _**Imagen 47.** Archivo adjunto_
 
 Para desasociar un documento, o una imagen o un video, al Contrato se da clic al ícono de Basura <span class="mdi mdi-delete"></span> que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro y se da clic en el botón <a class="btn white">Aceptar</a>.
 
-![Procesar imagen](../assets/images/cap02/chp02_img65.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img65.png)
 _**Imagen 48.** Eliminar un archivo_
 
 Si se desea descargar un archivo adjunto al Contrato, se debe dar clic en el icono de nube con flecha hacia abajo <span class="mdi mdi-cloud-download icon white"></span> que se encuentra al lado derecho del archivo que se quiere descargar, como se muestra a continuación:
 
-![Procesar imagen](../assets/images/cap02/chp02_img66.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img66.png)
 _**Imagen 49.** Descargar archivo_
 
 
@@ -674,7 +674,7 @@ _**Imagen 49.** Descargar archivo_
 
 El Tipo de Trabajo especifica la especialidad o especialidades técnicas: Mecánica, Eléctrica, Instrumentación/Electrónica u Otras requeridas para satisfacer el objetivo de una Órden de Trabajo.
 
-![Procesar imagen](../assets/images/cap02/chp02_img80.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img80.png)
 _**Imagen 50.** Visor Tipos de Trabajo_
 
 En una Órden de Trabajo puede haberse definido una de estas especialidades o algunas de ellas o todas, ello es posible en el marco de un aplicativo Clase Mundial. 
@@ -686,7 +686,7 @@ _>**Nota:** Esta tabla no es modificable a no ser que se trate de un usuario que
 Dependiendo de las actividades técnicas a realizar, esta tabla contiene los distintos tipos de Mantenimiento comúnmente aceptados e incluso definidos en la norma ISO 14224.
 Se encuentran tanto aquellos tipos de Mantenimiento que son reactivos, como los correctivos, otros que son proactivos y algunos Otros especiales que dependen de la táctica o estrategia de la organización de Mantenimiento,  WIN Software recomienda no modificar la tabla de Tipos de Mantenimiento. Existe la forma de definir variaciones de los tipos de Mantenimiento y enlazarse con los Tipos de Actividad para lograr combinaciones a la medida.
 
-![Procesar imagen](../assets/images/cap02/chp02_img81.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img81.png)
 _**Imagen 51.** Visor Tipos de Mantenimiento_
 
 ## Tipos de Actividad (TA)
@@ -741,7 +741,7 @@ Donde los dos primeros caracteres significan:
 - **MN** Trabajos que constituyen Mantenimiento.
 - **TV** Trabajos Varios
 
-![Procesar imagen](../assets/images/cap02/chp02_img53.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img53.png)
 _**Imagen 52.** Ventana Detalle Tipos de Actividad_
 
 En la gráfica anterior, Ventana Detalle del Tipo de Actividad, se aprecian sus componentes y sus respectivos contenidos. Se encuentra la información relevante al Tipo de Actividad seleccionado en el Visor.
@@ -760,7 +760,7 @@ El **AM** PRO es un sistema multicompañía y multialmacén, por tanto es posibl
 
 El **AM** ST es un sistema monocompañía y multialmacén.
 
-![Procesar imagen](../assets/images/cap02/chp02_img22.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img22.png)
 _**Imagen 53.** Ventana Detalle IF Almacén_
 
 En la gráfica anterior, Ventana Almacén, se aprecian sus componentes y sus respectivos contenidos. En la ventana Detalle de Almacenes se encuentra la información relevante al Almacén seleccionado en el Visor.
@@ -793,7 +793,7 @@ Esta funcionalidad, permitirá a futuro definir si el Almacén seleccionado es C
 
 Es la tabla que se encarga de la definición de los distintos tipos de unidades de medición con el objeto de que se estandarice su uso en dos aspectos: nombre de la unidad y su abreviatura. Las Unidades de Medida están agrupadas por el concepto Tipo, en el que se establece su categoría de medición: Longitud, superficie, volumen, peso y otra.
 
-![Procesar imagen](../assets/images/cap02/chp02_img23.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img23.png)
 _**Imagen 54.** Ventana Detalle IF Unidade de Medida_
 
 En la gráfica anterior, Ventana Detalle Unidades de Medida, se aprecian sus componentes y sus respectivos contenidos. Indica  la información relevante a la Unidad de Medida seleccionada en el Visor.
@@ -811,7 +811,7 @@ A continuación se describen los campos que componen el registro:
 
 Es la tabla en la que se establecen las distintas monedas a ser usadas en el sistema cuando se hace referencia al costo de compra o al costo vigente, de un Activo. Hasta este momento se trata de un medio de documentación sobre el costo indicado para Activos/Equipos.
 
-![Procesar imagen](../assets/images/cap02/chp02_img24.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img24.png)
 _**Imagen 55.** Ventana Detalle IF Moneda_
 
 En la gráfica anterior, Ventana Detalle Monedas, se aprecian sus componentes y sus respectivos contenidos. Indica la información relevante a la Moneda seleccionada en el Visor.
@@ -828,7 +828,7 @@ En esta tabla de Infraestructura se registran los medidores o contadores de esta
 
 Cuando el sistema se inicializa, en la tabla de Contadores aparece una propuesta de contadores básicos, que puede ser modificada o complementada de acuerdo al interés de la compañía usuaria.
 
-![Procesar imagen](../assets/images/cap02/chp02_img25.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img25.png)
 _**Imagen 56.** Ventana Detalle IF Contador_
 
 En la gráfica anterior, Ventana Detalle Contadores, se aprecian sus componentes y sus respectivos contenidos. Indica la información relevante al Contador seleccionado en el Visor.
@@ -849,7 +849,7 @@ Existen varios tipos de Características que se configuran según el equipo, al 
 
 Cuando se trata de Características de Repuestos solo existe un tipo de ellas y son las de tipo Informativo.
 
-![Procesar imagen](../assets/images/cap02/chp02_img26.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img26.png)
 _**Imagen 57.** Ventana Detalle IF Característica_
 
 En la gráfica anterior, Ventana Detalle Características, se aprecian sus componentes y sus contenidos.Indica la información relevante a la Característica seleccionada en el Visor.
@@ -870,7 +870,7 @@ Se recomienda utilizar esta tabla únicamente para empresas o compañías que se
 
 Existen varios tipos de Características que se configuran según el equipo, al definir su ficha técnica. El primer tipo, el más común, corresponde a las de tipo Informativo. El segundo tipo corresponde a las de tipo instalación. El tercer tipo corresponde a las de tipo apoyo. El cuarto tipo corresponde a las de tipo Técnicas. Finalmente, las del quinto tipo corresponde a las de funcionamiento. Todas las características biomédicas van acompañadas de un valor o nombre y la unidad de medida.
 
-![Procesar imagen](../assets/images/cap02/chp02_img50.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img50.png)
 _**Imagen 58.** Ventana Detalle Característica Biomédica_
 
 En la gráfica anterior, Ventana Detalle de la Característica Biomédica, se aprecian sus componentes y  sus respectivos contenidos. Se encuentra la información relevante a la Característica Biomédica seleccionada en el Visor.
@@ -887,7 +887,7 @@ A continuación se describen los campos que componen el registro, sobre cada cam
 
 Los Riesgos corresponden a los riesgos asociados a cada uno de los Activos/Equipos que se encuentran definidos en el módulo de Activos.
 
-![Procesar imagen](../assets/images/cap02/chp02_img48.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img48.png)
 _**Imagen 59.** Ventana Detalle del Riesgo_
 
 En la gráfica anterior, Ventana Detalle del Riesgo, se aprecian sus componentes y  sus respectivos contenidos.Se encuentra la información relevante al Riesgo seleccionado en el Visor.
@@ -901,7 +901,7 @@ A continuación se describen los campos que componen el registro, sobre cada cam
 
 El objetivo de esta nueva tabla es registrar las magnitudes que después se asociarán a los Activos, que se utilizan al definir la porción de Metrología. En esta tabla sólo se registrarán los nombres de la Magnitud. Se cuenta con 60 dígitos para  ingresar la magnitud deseada.
 
-![Procesar imagen](../assets/images/cap02/chp02_img49.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img49.png)
 _**Imagen 60.** Ventana Detalle Magnitud_
 
 En la gráfica anterior, Ventana Detalle de la Magnitud, se aprecian sus componentes y sus respectivos contenidos. Se encuentra la información relevante a la Magnitud seleccionada en el Visor.
@@ -917,7 +917,7 @@ El objetivo de esta tabla es registrar aquellas actividades complementarias que 
 
 También se usa para cargar a una OT, costos de trabajos eventuales, no rutinarios, especializados, de costo relativamente bajo, que no ameritan la generación de una OT. Algunos ejemplos son: la cepillada de una campana o una rotación de llantas, labores que se ejecutan como parte de una OT mecánica.
 
-![Procesar imagen](../assets/images/cap02/chp02_img51.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img51.png)
 _**Imagen 61.** Ventana Detalle Otros Concepto de Costo_
 
 En la gráfica anterior, Ventana Detalle del Otro Concepto de Costo, se aprecian sus componentes y sus respectivos contenidos.
@@ -950,7 +950,7 @@ Aquí se registran las posibles Causas por las que la ejecución de una Órden d
 
 Estos valores predefinidos pueden ser modificados o complementados por el usuario, según su cultura técnica y organizacional.
 
-![Procesar imagen](../assets/images/cap02/chp02_img52.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img52.png)
 _**Imagen 62.** Ventana Detalle Causa de OT Pendiente_
 
 En la gráfica anterior, Ventana Detalle de la Causa de OT Pendiente, se aprecian sus componentes y sus respectivos contenidos. Se encuentra la información relevante a la Causa de Pendiente seleccionada en el Visor.
@@ -982,7 +982,7 @@ En el sistema se incluyen las siguientes Causas de Cierre:
 >_**Nota:** La Causa de Cierre **“OT Ejecutada”** es implícita a las OT cerradas ejecutadas. Esta
 Causa de Cierre no es editable._
 
-![Procesar imagen](../assets/images/cap02/chp02_img54.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img54.png)
 _**Imagen 63.** Ventana Detalle Causa de Cierre de OT_
 
 En la gráfica anterior, Ventana Detalle de la Causa de Cierre de OT, se aprecian sus componentes y sus respectivos contenidos. Se encuentra la información relevante a la Causa de Cierre seleccionada en el Visor.
@@ -1001,7 +1001,7 @@ Es la tabla que contiene un listado de Acciones Técnicas frecuentes en un área
  
 Una vez definidas las Acciones Técnicas, es posible incluir una o varias de ellas, asociadas a una causa, en la tabla de Causas de Falla o asociadas a un efecto, en la tabla de  Efectos de Falla.
 
-![Procesar imagen](../assets/images/cap02/chp02_img55.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img55.png)
 _**Imagen 64.** Ventana Detalle Acción Técnica_
 
 En la gráfica anterior, Ventana Detalle de la Acción Técnica, se aprecian sus componentes y sus respectivos contenidos. Se encuentra la información relevante a la Acción Técnica seleccionada en el Visor.
@@ -1109,7 +1109,7 @@ Los Prefijos significan:
 - **ME:** MECANICAS
 - **MT:** MATERIAL
 
-![Procesar imagen](../assets/images/cap02/chp02_img56.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img56.png)
 _**Imagen 65.** Ventana Detalle Causa de Falla_
 
 En la gráfica anterior, Ventana Detalle de la Causa de Falla, se aprecian sus componentes y sus respectivos contenidos. En la ventana Detalle de Causas de Falla se encuentra la información relevante a la Causa de Falla seleccionada en el Visor.
@@ -1122,7 +1122,7 @@ A continuación se describen los campos que componen el registro.
 
 **Acciones Técnicas:** Es posible asociar a cada Causa de Falla las Acciones Técnicas que más comúnmente se ejecutan para evitarla y solucionarla. Se debe tener en cuenta que las Acciones Técnicas por Efecto pretenden ubicar la causa y que las Acciones Técnicas por Causa pretenden evitar y solucionar la causa.
 
-![Procesar imagen](../assets/images/cap02/chp02_img57.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img57.png)
 _**Imagen 66.** Ventana Detalle Causa de Falla (Acción Técnica)_
 
 En la ventana anterior Acciones Tecnicas se seleccionan de la lista desplegable y se
@@ -1136,7 +1136,7 @@ Para desasociar una Acción Técnica de una Causa de Falla, se da clic en la Acc
 
 En esta tabla se describen las formas en que una falla se manifiesta inmediatamente después de ocurrir. Se trata de las consecuencias de la falla, de los  efectos que esa falla ocasionó. Es un concepto que aunque ligado también a la falla es diametralmente opuesto a la causa. La causa, que normalmente es una sola, es la fuente de la falla, su origen. El efecto en cambio es la forma como se percibe, como se muestra la falla, una vez ha ocurrido. Hay efectos sonoros, otros son de rompimiento, otros son de generación de calor, otros de suspensión de la energía o de inoperancia o malfuncionamiento del equipo. La mayoría de ellos esconde, oculta o enmascara la causa real de la falla.
 
-![Procesar imagen](../assets/images/cap02/chp02_img58.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img58.png)
 _**Imagen 67.** Ventana Detalle Efecto de Falla (Acción Técnica)_
 
 A continuación se describen los campos que componen el registro:
@@ -1158,7 +1158,7 @@ Para desasociar una Acción Técnica de un Efecto de Falla, se da clic en la Acc
 
 Las transacciones pueden ser de Entrada, de Salida o de Ajuste de inventarios. Cada transacción de  movimiento o concepto de Kárdex tiene asociado: un código o número distintivo (de 01 a 49, o, de 001 a 499, para las entradas por ejemplo) y otras condiciones de su uso.
 
-![Procesar imagen](../assets/images/cap02/chp02_img67.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img67.png)
 _**Imagen 67.** Ventana Detalle IE Concepto de Kardex_
 
 A continuación se describen los campos que componen el registro, sobre cada campo se da una breve explicación:
@@ -1186,7 +1186,7 @@ Es una opción para definir si el concepto corresponde a ítem que son suministr
 
 Se usa para seleccionar grupos de Conceptos de Kárdex que cumplen un conjunto de filtros o criterios. El objetivo de hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al ícono de filtro <span class="mdi mdi-filter-variant"></span> ubicado en la parte superior derecha de la ventana Visor de Conceptos de Kárdex.
 
-![Procesar imagen](../assets/images/cap02/chp02_img68.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img68.png)
 _**Imagen 68.** Ventana Visor IE Conceptos de Kardex_
 
 **AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar.
@@ -1197,7 +1197,7 @@ Cada criterio aparece inicializado en un valor global que permite mostrar todos 
 
 El programa permite entonces hacer selección de un grupo de Conceptos de Kárdex de acuerdo con los criterios seleccionados en la siguiente ventana:
 
-![Procesar imagen](../assets/images/cap02/chp02_img69.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img69.png)
 _**Imagen 69.** Ventana IE Subgrupo Conceptos de Kardex_
 
 Los campos de datos que constituyen criterio de selección haciendo parte de la Ventana Subgrupo son los siguientes:
@@ -1213,7 +1213,7 @@ _**Nota:** Es importante tener en cuenta que cuando se están realizando los sub
 
 Permite registrar las Operaciones, requeridas en el proceso de elaboración de una Referencia. Estas Operaciones se van a referenciar como Operación Actual (Óp. Actual) en el módulo de Paros / Averías
 
-![Procesar imagen](../assets/images/cap02/chp02_img70.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img70.png)
 _**Imagen 70.** Ventana Detalle Operación_
 
 En la gráfica anterior, Ventana Detalle de la Operación, se aprecian sus componentes y sus espectivos contenidos, sobre cada campo se da una breve explicación:
@@ -1236,7 +1236,7 @@ A continuación se describen los campos que componen el registro, sobre cada cam
 
 **Adicionar OP:** Es posible adicionar una o varias Operaciones a una Referencia.
 
-![Procesar imagen](../assets/images/cap02/chp02_img71.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img71.png)
 _**Imagen 71.** Ventana Detalle Referencia_
 
 En la ventana anterior Ventana Detalle de la Referencia se seleccionan las Operaciones de la lista despegable y se adicionan con el botón del signo Más <span class="mdi mdi-plus-circle icon white"></span> a la lista de Operaciones asociadas a una Referencia.
@@ -1249,7 +1249,7 @@ Para desasociar una Operación, se ubica el cursor en la Operación a desasociar
 
 Esta tabla de Infraestructura contiene una lista predefinida en el sistema de los tipos de régimen que aplican en Colombia, que pueden asociarse a los Terceros de carácter informativo.
 
-![Procesar imagen](../assets/images/cap02/chp02_img72.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img72.png)
 _**Imagen 72.** Ventana Detalle Tipo de Régimen_
 
 Es posible, en la Tabla de Tipos de Régimen la parametrización de más tipos de régimen para la tabla de Terceros en el módulo de Infraestructura; con el objeto de darle individualidad a un responsable interno, empleado, responsable externo o una empresa para adecuar los propios o para adicionar nuevos. Cada tipo de régimen tiene una longitud de 15 caracteres alfanuméricos.
@@ -1258,14 +1258,14 @@ Es posible, en la Tabla de Tipos de Régimen la parametrización de más tipos d
 
 Esta tabla de Infraestructura contiene  una lista de los **“Estados”** predefinidos en el sistema, que caracterizan los Activos u Objetos de Mantenimiento, las Órdenes de Trabajo, las Solicitudes de Servicio y Paros (**FDA**).
 
-![Procesar imagen](../assets/images/cap02/chp02_img73.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img73.png)
 _**Imagen 73.** Ventana Detalle Estado_
 
 Es posible, en la Tabla de Estados la parametrización de los estados de los módulos de Órdenes de Trabajo, Solicitudes de Servicio, Activos y Paros (**FDA**); con el objeto de darle individualidad a una empresa para adecuar los propios o para adicionar nuevos, que reflejen situaciones corporativas reales y necesarias. Cada estado tiene una longitud de 40 caracteres alfanuméricos, y puede ser de uno de dos tipos:
 
 **Estado de Activo:** Descripción que se usa al definir un Activo o Equipo para personalizar su estado respecto a operatividad, actividad/inactividad y propiedad. Tener activa la opción de Indicativo-(Uso) indica que su estado se encuentra activo:
 
-![Procesar imagen](../assets/images/cap02/chp02_img74.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img74.png)
 _**Imagen 74.** Ventana Detalle Estado - Activos_
 
 **Estado de Orden de Trabajo:** Descripción que se usa para personalizar los estados
@@ -1283,7 +1283,7 @@ la funcionalidad del sistema, estos son:
 - **PR**– Programada
 - **CP** – Cerrada Parcial 
 
-![Procesar imagen](../assets/images/cap02/chp02_img75.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img75.png)
 _**Imagen 75.** Ventana Detalle Estado - Órden de Trabajo_
 
 **Estado de Solicitud de Servicio:** Descripción que se usa para personalizar los estados en los que puede encontrarse una Solicitud de  Servicio. Se utiliza el campo de Indicativo-(Abreviatura) para especificar la abreviatura del Estado. Es posible crear nuevos estados de SS, ellos se consideran variaciones del estado En Análisis (AN). Existen siete Estados de SS que no pueden ser eiminados o modificados dado que se utilizan por defecto en la funcionalidad del sistema, estos son:
@@ -1296,7 +1296,7 @@ _**Imagen 75.** Ventana Detalle Estado - Órden de Trabajo_
 - **EJ** - En Ejecución
 - **CP** - Cerrada Parcial 
 
-![Procesar imagen](../assets/images/cap02/chp02_img76.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img76.png)
 _**Imagen 76.** Ventana Detalle Estado -Solicitud de Servicio_
 
 **Estado de Paros (FDA):** Descripción que se usa para personalizar los estados en los que puede encontrarse un Paro (FDA). Se utiliza el campo de Indicativo - (Abreviatura) para especificar la abreviatura del Estado. Es posible crear nuevos estados de FDA, ellos se consideran variaciones del estado En Análisis (AN).
@@ -1308,5 +1308,5 @@ Existen siete Estados de FDA que no pueden ser eliminados ni modificados dado qu
 - **CO** - Cerrada con OT
 - **CP** - Cerrada Parcial 
 
-![Procesar imagen](../assets/images/cap02/chp02_img77.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img77.png)
 _**Imagen 77.** Ventana Detalle Estado - Paros_

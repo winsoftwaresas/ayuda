@@ -27,12 +27,12 @@ Todos los campos marcados con asterisco (*) son de carácter obligatorio.
 
 Una vez ingresados los datos del solicitante de manera correcta en el botón del Menú principal **Actualizar Perfil** _(Consultar la sección Actualizar Perfil)_. Continuar dando un clic a la siguiente opción ubicada al lado derecho para continuar con la Creación de la OT:
 
-![Procesar imagen](../assets/images/cap12/chp12_img20.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img20.png)
 _**Imagen 20. Crear Nueva Orden**_
 
 ### 7.1	Ventana Creación de la Orden de Trabajo
 
-![Procesar imagen](../assets/images/cap12/chp12_img21.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img21.png)
 _**Imagen 21. Ventana Creación OT**_
 
 A esta ventana se llega haciendo clic sobre la opción **Crear Nueva Orden** en el Menú Principal. A través de ella se ejecutan todas las funciones dedicadas a la creación de la OT. A continuación, se describen los campos que componen esta ventana Creación de OT. Sobre cada campo se da una breve explicación:
@@ -86,7 +86,7 @@ Para seleccionar el Activo/Equipo se da clic en el icono de subgrupo (filtro azu
 <a class="btn blue">enviar <span class="mdi mdi-send"></span></a> : Este botón envía inmediatamente la SS a la base de datos del AM para ser revisada por el área de mantenimiento encargada y proceder así con su análisis y asignación.
 Una vez enviada la OT, el sistema muestra un mensaje de notificación de registro exitoso, mostrando el número o consecutivo asignado. Se habilitan además las opciones de Crear Nueva Orden y Consultar Mis Solicitudes:
 
-![Procesar imagen](../assets/images/cap12/chp12_img22.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img22.png)
 _**Imagen 22.**  Mensaje registro OT_
  
 **Botón Inicio  <span class="mdi mdi-home"></span> :** Este botón lleva a la ventana de Menú Principal del Usuario.
@@ -101,26 +101,26 @@ _**Imagen 22.**  Mensaje registro OT_
 
 Para ingresar multimedia se debe dar doble clic sobre una de las tres carpetas. 
 
-![Procesar imagen](../assets/images/cap12/chp12_img23.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img23.png)
 _**Imagen 23.** Ir a Multimedia_
 
 Se debe dar clic al botón <span class="mdi mdi-cloud-upload icon white"></span> para abrir el explorador de archivos:
 
-![Procesar imagen](../assets/images/cap12/chp12_img2301.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img2301.png)
 _**Imagen 24.** Multimedia_
 
 
-![Procesar imagen](../assets/images/cap12/chp12_img24.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img24.png)
 _**Imagen 25.** Explorador Archivos_
 
 Una vez elegido el archivo a adjuntar puede asignarse un nombre opcional en el espacio en blanco a continuación:
 
-![Procesar imagen](../assets/images/cap12/chp12_img25.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img25.png)
 _**Imagen 26.** Nombrar archivo_
 
 Luego se debe dar clic en el botón <a class="btn white">subir archivo</a>  y el sistema confirmará a través de un mensaje que el archivo ha sido subido correctamente:
 
-![Procesar imagen](../assets/images/cap12/chp12_img26.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img26.png)
 _**Imagen 27.** Mensaje Alerta Multimedia_
 
 

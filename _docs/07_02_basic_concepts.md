@@ -27,7 +27,7 @@ Crear una Solicitud de Servicio exige en primera instancia, que el  usuario teng
 
 La creación de una SS se realiza a través del visor de Solicitudes. En cuanto se da un clic sobre el  botón <a class="btn white">nuevo</a> esta  ventana adopta  la  forma  que  se  muestra  a  continuación (Ventana Detalle). Al  crear  un registro, automáticamente el estado inicial se muestra en **“En Análisis”.**  A partir del momento en que se **“Inserta”** la SS, el usuario solicitante no puede modificar ningún campo, pero si puede hacer seguimiento permanente sobre ella.
 
-![Procesar imagen](../assets/images/cap07/chp07_img01.png)
+![Procesar imagen](../../assets/images/cap07/chp07_img01.png)
 ***Imagen 1.** Solicitudes - Creación de un registro*
 
 ## Seguimiento y Cierre de Solicitudes de Servicio
@@ -49,7 +49,7 @@ Acto seguido el sistema crea una Órden de Trabajo, esta nuevo registro, contien
 
 # Ventana Visor de Solicitudes de Servicio
 
-![Procesar imagen](../assets/images/cap07/chp07_img02.png)
+![Procesar imagen](../../assets/images/cap07/chp07_img02.png)
 _**Imagen 2.** Solicitudes - Ir a Solicitudes_
 
 A esta ventana se llega haciendo clic sobre la opción <a class="btn blue">solicitudes</a> del Menú Principal. A través de ella se ejecutan todas las funciones dedicadas a administrar las SS. Se listan todas o una selección (Subgrupo) de ellas. El conjunto de SS disponible a ser desplegado se muestra a través de páginas. El tamaño de las páginas es configurable desde la opción <a class="btn blue>administración</a> del menú principal, en la sección “Valores por Defecto” por parte de un usuario autorizado.
@@ -63,12 +63,12 @@ Los títulos en azul que encabezan las columnas son también botones que permite
 
 En la **Ventana Visor** en la columna <a class="btn white">estado</a>, se define una semaforización de las Solicitudes de Servicio. La finalidad de esta columna es mostrar de manera gráfica el estado de la Solicitud de Servicio. La definición de colores está definida, según la siguiente convención:
 
-![Procesar imagen](../assets/images/cap07/chp07_img04.png)
+![Procesar imagen](../../assets/images/cap07/chp07_img04.png)
 _**Imagen 3.** Solicitudes - Semaforización_
 
 ## Ventana Detalle
 
-![Procesar imagen](../assets/images/cap07/chp07_img05.png)
+![Procesar imagen](../../assets/images/cap07/chp07_img05.png)
 _**Imagen 4.** Solicitudes - Ventana Detalle_
 
 En la gráfica anterior, que muestra la Ventana Detalle del registro es donde se encuentra toda la información relevante a la SS seleccionada en el Visor.
@@ -213,12 +213,12 @@ Cuando el Equipo o el  Activo,  Objeto  de  la  Solicitud  de  Servicio no puede
 
 Se realiza a través de la pestaña **Evaluar Servicio** de la ventana Detalle, o si bien mediante la funcionalidad de correos electrónicos o a través de AMsi. Es la evaluación del servicio prestado por el personal de mantenimiento o de servicios, en la Solicitud de Servicio seleccionada, esta la debe realizar un usuario, previamente autorizado, quien fuera el receptor del servicio, una vez se haya cerrado la Solicitud. Esta opción de evaluación se hace disponible, cuando se han definido las cinco preguntas de evaluación, en “Parámetros para Evaluación del Servicio”, en “Valores por Defecto”, en el módulo de <a class="btn blue">administración</a>.
 
-![Procesar imagen](../assets/images/cap07/chp07_img06.png)
+![Procesar imagen](../../assets/images/cap07/chp07_img06.png)
 _**Imagen 4.** Solicitudes - Evaluar Servicio_
 
 ## Multimedia
 
-![Procesar imagen](../assets/images/cap07/chp07_img07.png)
+![Procesar imagen](../../assets/images/cap07/chp07_img07.png)
 _**Imagen 5.** Solicitudes - Multimedia_
 
 En la gráfica anterior, Ventana Multimedia, se aprecian sus componentes y sus respectivos contenidos.
@@ -239,29 +239,29 @@ A continuación se describen las carpetas que componen esta ventana; cuando se q
 
 Para adicionar un documento, imagen o video, se debe dar un doble clic sobre la carpeta deseada, y luego seleccionar del ícono de nube <span class="mdi mdi-cloud-upload icon white"></span>, como se muestra a continuación:
 
-![Procesar imagen](../assets/images/cap07/chp07_img08.png)
+![Procesar imagen](../../assets/images/cap07/chp07_img08.png)
 _**Imagen 6.** Solicitudes - Abrir Explorador Archivos_
 
 A continuación se abre el explorador de archivos, seguido de seleccionar el archivo dar un clic en <a class="btn">abrir</a>.
 
-![Procesar imagen](../assets/images/cap07/chp07_img09.png)
+![Procesar imagen](../../assets/images/cap07/chp07_img09.png)
 ***Imagen 7.** Solicitudes - Seleccionar Archivos*
 
 De manera adicional u opcional se puede escribir un nombre en el siguiente campo para enfatizar de lo que trata el archivo:
 
-![Procesar imagen](../assets/images/cap07/chp07_img10.png)
+![Procesar imagen](../../assets/images/cap07/chp07_img10.png)
 _**Imagen 8.** Solicitudes - Nombrar Archivo_
 
 P﻿ara finalizar se debe de dar un clic en el el botón <a class="btn  blue">subir Archivo</a>. El sistema confirma a través de un mensaje que se ha subido el archivo satisfactoriamente.
  ﻿
 Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic sobre el nombre de una de las imágenes, se muestra la previsualización, como se muestra a continuación:
 
-![Procesar imagen](../assets/images/cap07/chp07_img11.png)
+![Procesar imagen](../../assets/images/cap07/chp07_img11.png)
 ***Imagen 9.** Solicitudes - Previsualización de imagen*
 
 Para desasociar un documento, o una imagen o un video, a la SS se da clic al icono de basura <span class="mdi mdi-delete"></span> que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro, finalmente confirmar con el botón <a class="btn white">Aceptar</a>.
 
-![Procesar imagen](../assets/images/cap07/chp07_img12.png)
+![Procesar imagen](../../assets/images/cap07/chp07_img12.png)
 _**Imagen 10.** Solicitudes - Desasociar un Archivo_
 
 Si se desea descargar un archivo adjunto a la SS, se debe dar clic en el ícono de nube con direccional hacia abajo <span class="mdi mdi-cloud-download icon white"></span> la nube con flecha hacia abajo que se encuentra al lado derecho del archivo que se quiere descargar.
@@ -272,7 +272,7 @@ Si se desea descargar un archivo adjunto a la SS, se debe dar clic en el ícono 
 AMovil
 Es posible visualizar de manera inmediata, las SS con Multimedia, Servicio Evaluado y aquellas que tienen firma del servicio evaluado (Amóvil), directamente desde la ventana visor, a través del icono <span class="mdi mdi-message-alert"></span>. El significado del color de cada pelota, se puede ver en en este recuadro, ubicado en la parte superior derecha de la ventana visor. 
 
-![Procesar imagen](../assets/images/cap07/chp07_img13.png)
+![Procesar imagen](../../assets/images/cap07/chp07_img13.png)
 _**Imagen 11.** Solicitudes - Indicadores_
 
 El significado de los colores se visualiza al sobreponer el mouse en el icono que se encuentra al extremo superior derecho y su correspondencia es: 
@@ -287,7 +287,7 @@ AMovil
 
 En la  ventana Visor en la columna  Estado,  se  define  una  semaforización  de  las Solicitudes de Servicio. La finalidad de esta columna es mostrar de manera gráfica el estado de la Solicitud de Servicio. En el icono de la parte superior derecha de la ventana Visor <span class="mdi mdi-image-multiple"></span>, se encuentra una tabla donde se define el significado de cada color que se presenta en dicha columna, como se muestra a continuación: 
 
-![Procesar imagen](../assets/images/cap07/chp07_img14.png)
+![Procesar imagen](../../assets/images/cap07/chp07_img14.png)
 _**Imagen 11.** Solicitudes - Semaforización_
 
 
@@ -295,12 +295,12 @@ _**Imagen 11.** Solicitudes - Semaforización_
 
 Se usa para seleccionar grupos de Solicitudes de Servicio que cumplen con un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al icono de filtro <span class="mdi mdi-filter-variant"></span> ubicado en la parte superior derecha de la ventana Visor de Solicitudes de Servicio. 
 
-![Procesar imagen](../assets/images/cap07/chp07_img15.png)
+![Procesar imagen](../../assets/images/cap07/chp07_img15.png)
 _**Imagen 12.** Solicitudes - Ir a Subgrupos_
 
 En la ventana Subgrupo de Solicitudes se visualizan los siguientes criterios: 
 
-![Procesar imagen](../assets/images/cap07/chp07_img16.png)
+![Procesar imagen](../../assets/images/cap07/chp07_img16.png)
 _**Imagen 13.** Solicitudes - Ir a Subgrupos_
 
 Cada criterio aparece inicializado en un valor global que permite mostrar todas las Solicitudes de Servicios. Lo que significa que de no escoger un criterio se obtiene como resultado del subgrupo el mismo conjunto completo de todas las Solicitudes de Servicio.
@@ -394,58 +394,58 @@ se encuentren incluidas en el rango especificado en este campo, si no se especif
 
 A esta opción se llega al sobreponer el cursor sobre el módulo de Solicitudes y en la parte inferior se despliega el conjunto de transacciones disponibles para el módulo de Solicitudes, según los permisos Administrativos, se da clic en la opción <a class="btn white">Modificar masivamente</a>.
 
-![Procesar imagen](../assets/images/cap07/chp07_img17.png)
+![Procesar imagen](../../assets/images/cap07/chp07_img17.png)
 _**Imagen 14.** Solicitudes - Ir a Modificación Masiva_
 
 Esta transacción permite cambiar masivamente el Centro de Costos, Ubicación Física, Responsable, Centro Responsable y adjuntar documentos de un Subgrupo.
 
 U﻿na vez se ingrese a la la Transacción se visualiza  el visor de Modificación Masiva, con el fin de luego hacer un Subgrupo:
 
-![Procesar imagen](../assets/images/cap07/chp07_img18.png)
+![Procesar imagen](../../assets/images/cap07/chp07_img18.png)
 _**Imagen 15.** Solicitudes - Visor Modificación Masiva_
 
 
 P﻿ara realizar el cambio se debe dar clic en el botón <a class="btn white">Modificar masivamente</a>, se abre una nueva ventana donde a continuación se da una breve explicación de cada criterio.
 
-![Procesar imagen](../assets/images/cap07/chp07_img19.png)
+![Procesar imagen](../../assets/images/cap07/chp07_img19.png)
 _**Imagen 16.** Solicitudes - Modificación Masiva_
 
 **Modificar Centro de Costo:** Se modifica masivamente el Centro de Costo, de las SS que están previamente seleccionadas en el visor.
 
-![Procesar imagen](../assets/images/cap07/chp07_img20.png)
+![Procesar imagen](../../assets/images/cap07/chp07_img20.png)
 _**Imagen 17.** MM - Centro de Costo_
 
 **Modificar Ubicación Física:** Se modifica masivamente la Ubicación Física, de las 
 SS que están previamente seleccionadas en el visor.
 
-![Procesar imagen](../assets/images/cap07/chp07_img21.png)
+![Procesar imagen](../../assets/images/cap07/chp07_img21.png)
 _**Imagen 18.** MM - Ubicación Física_
 
 **Modificar Responsable:** Se modifica masivamente el Responsable, de las SS que están previamente seleccionadas en el visor.
 
-![Procesar imagen](../assets/images/cap07/chp07_img22.png)
+![Procesar imagen](../../assets/images/cap07/chp07_img22.png)
 _**Imagen 19.** MM - Responsable_
 
 **Modificar Centro Responsable:** Se modifica masivamente el Centro Responsable, de las SS que están previamente seleccionadas en el visor.
 
-![Procesar imagen](../assets/images/cap07/chp07_img23.png)
+![Procesar imagen](../../assets/images/cap07/chp07_img23.png)
 _**Imagen 20.** MM - Centro Responsable_
 
 **Modificar Causa de Falla:** Se modifica masivamente la causa de falla de las SS correctivas que están previamente seleccionadas en el visor.
 
-![Procesar imagen](../assets/images/cap07/chp07_img24.png)
+![Procesar imagen](../../assets/images/cap07/chp07_img24.png)
 _**Imagen 21.** MM - Centro Responsable_
 
 **M﻿odificar Adjuntar Documentos:** Se adjuntan documentos masivamente a las SS previamente seleccionadas en el visor.
 
-![Procesar imagen](../assets/images/cap07/chp07_img25.png)
+![Procesar imagen](../../assets/images/cap07/chp07_img25.png)
 _**Imagen 22.** MM - Adjuntar Documentos_
 
 ## Reclasificar
 
 A esta opción se llega al sobreponer el cursor del sobre el módulo de Solicitudes de Servicio y en la parte inferior se despliega el conjunto de transacciones disponibles para el módulo de Solicitudes, según los permisos Administrativos, se da clic en la opción **Reclasificar**.
 
-![Procesar imagen](../assets/images/cap07/chp07_img26.png)
+![Procesar imagen](../../assets/images/cap07/chp07_img26.png)
 _**Imagen 23.** MM - Ir a Reclasificar_
 
 El objetivo de esta transacción es realizar la reclasificación de las Solicitudes de Servicio generadas a una compañía no correspondiente a la labor requerida y está asociada a permisos de Usuarios.
@@ -454,14 +454,14 @@ El objetivo de esta transacción es realizar la reclasificación de las Solicitu
 Aplica tanto para una Solicitud en particular como para un Subgrupo en estado **AN** “En Análisis”. Para reclasificar un conjunto de SS se debe de crear prevamiente el subgrupo. 
 ingresar a la transacción se muestra el visor con SS estado **AN** “En Análisis”. Para reclasificar un conjunto de SS se debe de crear prevamiente el subgrupo. 
 
-![Procesar imagen](../assets/images/cap07/chp07_img27.png)
+![Procesar imagen](../../assets/images/cap07/chp07_img27.png)
 _**Imagen 24.** MM - Visor Reclasificar_ 
 
 P﻿ara continuar con la transacción dar clic en el botón ubicado en la parte superior izquierda <a class="btn white">reclasificar</a>.
 
 A﻿ continuación se ingresa a la Ventana Detalle de la Solicitud seleccionada en el visor. 
 
-![Procesar imagen](../assets/images/cap07/chp07_img28.png)
+![Procesar imagen](../../assets/images/cap07/chp07_img28.png)
 _**Imagen 25.** MM - Ventana Detalle Reclasificar_ 
 
 Para definir a que compañía se va a reclasificar la Solicitud de Servicio o las Solicitudes de Servicio, primero se define si se desea reclasificar la solicitud seleccionada en el visor o un conjunto de solicitudes previamente seleccionadas en el visor. Para la primera opción, se da clic en el botón de radio “Reclasificar solamente esta Solicitud” y para la segunda opción, se da clic en el botón de radio “Reclasificar todas las Solicitudes en el visor”, este a su vez tiene un paréntesis indicado el número de registros a reclasificar.
@@ -469,12 +469,12 @@ Para definir a que compañía se va a reclasificar la Solicitud de Servicio o la
 Segundo se escoge la compañía utilizando la lista desplegable del campo “Compañía Destino” el cual lista las compañías activas. 
 Para hacer efectivo el cambio dar clic en el botón  <a class="btn blue">enviar <span class="mdi mdi-send"></span></a> y este se encarga de transferir la(s) Solicitudes de Servicio a su destino seleccionado. También se encuentra una nota en color rojo haciendo énfasis en el estado en el que debe encontrarse el estado de la SS para reclasificarla. Para continuar dar clic en <a class="btn white">Aceptar</a> del mensaje alerta:
 
-![Procesar imagen](../assets/images/cap07/chp07_img29.png)
+![Procesar imagen](../../assets/images/cap07/chp07_img29.png)
 _**Imagen 25.** MM - Enviar SS_
 
 E﻿l sistema confirma cuando se ha terminado la transacción:
 
-![Procesar imagen](../assets/images/cap07/chp07_img30.png)
+![Procesar imagen](../../assets/images/cap07/chp07_img30.png)
 _**Imagen 26.** MM - Mensaje Alerta Reclasificar SS_ 
 
 ## Enviar a Historia
@@ -482,12 +482,12 @@ _**Imagen 26.** MM - Mensaje Alerta Reclasificar SS_
 Para ingresar se debe sobreponer el cursor sobre en **Enviar a Historia**. El objetivo de esta transacción es desplazar hacia el módulo de Historia de Mantenimiento, una SS o un conjunto de SS
 en por un subgrupo, es decir, las que se encuentran en el visor, que además tengan estado  **CE** "Cerrada Ejecutada", **K** "Cancelada No Ejecutada" ﻿y **CO** "Cerrada con Orden"".
 
-![Procesar imagen](../assets/images/cap07/chp07_img31.png)
+![Procesar imagen](../../assets/images/cap07/chp07_img31.png)
 _**Imagen 27.** MM - Ir a Enviar a Historia_ 
 
 E﻿ste es una transacción controlada por medio de las siguientes opciones a continuación:
 
-![Procesar imagen](../assets/images/cap07/chp07_img32.png)
+![Procesar imagen](../../assets/images/cap07/chp07_img32.png)
 _**Imagen 28.** MM - Enviar a Historia_
 
 A continuación se describen los campos que componen esta Ventana información adicional: 
@@ -506,13 +506,13 @@ En la ventana aparece el botón <a class="btn gray">enviar a historia</a>.y tres
 
 Para efectuar la transacción a Historia, se selecciona una de las opciones anteriores y luego hacer clic en el botón <a class="btn gray">enviar a historia</a>. El sistema muestra un mensaje alerta antes terminar con el proceso:
 
-![Procesar imagen](../assets/images/cap07/chp07_img33.png)
+![Procesar imagen](../../assets/images/cap07/chp07_img33.png)
 _**Imagen 29.** MM - M﻿ensaje Alerta Enviar a Historia_
 
 P﻿ara finalizar dar clic en el botón <a class="btn white">Aceptar</a> y el sistema confirma la cantidad de registros a Historia:
 
 
-![Procesar imagen](../assets/images/cap07/chp07_img34.png)
+![Procesar imagen](../../assets/images/cap07/chp07_img34.png)
 _**Imagen 30.** MM - M﻿ensaje Alerta Enviar a Historia_
 
 

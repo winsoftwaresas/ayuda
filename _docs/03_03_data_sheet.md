@@ -26,7 +26,7 @@ Ninguno  de  estos  parámetros  por ejemplo,  es  de  utilidad si la intención
 
 Sobre esta  información  característica **AM** ofrece una  tabla preconfigurada con nombres de parámetros que  pueden ser escogidos al momento de configurar la ficha técnica. Tales nombres de parámetros son modificables, adecuables,  borrables e incluso es posible adicionar nuevos a la tabla. Se pretende que el tratamiento que se dé a estos parámetros  a todo lo largo del sistema sea uniforme y estandarizado.    Por esto la Administración de la Tabla de Características en Infraestructura es restringida y centralizada.
 
-![Procesar imagen](../assets/images/cap03/chp03_img01.png)
+![Procesar imagen](../../assets/images/cap03/chp03_img01.png)
 _**Imagen 1.** Ventana Detalle de Activos - Características_
 
 ## Información sobre Contadores

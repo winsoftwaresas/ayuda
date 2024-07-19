@@ -13,7 +13,7 @@ Es posible sin embargo, por razones particulares, ejecutar este proceso a diario
 
 **AM** suministra una ayuda que indica cual fue el último período para el que se realizó una Generación Automática, ella se encuentra en la transacción de **“ANALIZAR/GENERAR”** en la parte inferior izquierda del rango a analizar.
 
-![Procesar imagen](../assets/images/cap09/chp09_img01.png)
+![Procesar imagen](../../assets/images/cap09/chp09_img01.png)
 _**Imagen 66.** Órdenes- Analizar/Generar_
 
 El periodo objeto de la Programación se define mediante las Fechas Desde y Hasta del Rango de fechas a analizar. Este proceso de generación se puede ejecutar con la anticipación que sea requerida.

@@ -33,7 +33,7 @@ para analizar un registro individual (OT, SS o Paro).
 
 ## Ventana Visor de Historia Archivada
 
-![Procesar imagen](../assets/images/cap13/chp13_img01.png)
+![Procesar imagen](../../assets/images/cap13/chp13_img01.png)
 _**Imagen 1.** Historia Archivada - Visor_
 
 A esta ventana se accede haciendo clic sobre la opción <a class="btn blue">Historia Archivada</a> del Menú Principal. A través de ella se ejecutan todas las funciones dedicadas a administrar los registros archivados. Se visualizan todos los registros de la Historia  Archivada o una selección de ellos a través de un subgrupo.  La Historia disponible se despliega a través de las páginas.  El tamaño de los registros en el visor por cada página es configurable desde <a class="btn blue">administración</a> por medio de un usuario administrador.
@@ -42,7 +42,7 @@ Los títulos en azul que encabezan las columnas, permiten ordenar de manera asce
 
 ## Ventana Detalle
 
-![Procesar imagen](../assets/images/cap13/chp13_img02.png)
+![Procesar imagen](../../assets/images/cap13/chp13_img02.png)
 _**Imagen 2.** Historia Archivada - Ventana Detalle_
 
 En la gráfica anterior, Ventana Detalle de Órdenes de Trabajo Históricas, se aprecian  sus componentes  y  sus  respectivos  contenidos.  En  esta  ventana  Detalle  se  encuentra  la información relevante al registro seleccionado en el visor. A través de ella se hace consulta de cada campo resuelto, su visualización es una tabla con links resueltos los cuales son inmodificables.
@@ -121,7 +121,7 @@ Para  las  Órdenes  de  Trabajo  Manuales,  esta  opción se  estableció en  e
 
 Para ingresar a esta opción, se debe dar clic en la pestaña “Gasto Real” de la ventana detalle de Órdene de Trabajo Histórica.
 
-![Procesar imagen](../assets/images/cap13/chp13_img03.png)
+![Procesar imagen](../../assets/images/cap13/chp13_img03.png)
 _**Imagen 3.** Historia Archivada- Gasto Real de una OT_
 
 Esta tabla resume los totales de los gastos de Mano de Obra Interna, Mano de Obra Externa, Materiales y Repuestos y Otros Conceptos de Costo. A través de esta ventana de Gasto Real se puede administrar el Gasto Real de la OT Histórica. Se compone de dos zonas:
@@ -136,7 +136,7 @@ A través de la ventana de GR de Ingreso de Mano de Obra Interna se hace consult
 
 Para ver el detalle de laMO se debe dar clic en el botón <a class="btn gray">adicionar mano de obra interna</a> y dar un clic sobre el registro, en el cual se visualizan los siguientes campos:
 
-![Procesar imagen](../assets/images/cap13/chp13_img04.png)
+![Procesar imagen](../../assets/images/cap13/chp13_img04.png)
 _**Imagen 4** Historia Archivada- Gasto Real MO_
 
 **Fecha de Uso:** Es la fecha en la cual se utilizó el recurso.
@@ -164,7 +164,7 @@ A través de la ventana de Ingreso de Mano de Obra Externa se consulta el Gasto 
 Para ver el detalle de la Mano de Obra Externa se debe dar clic en el botón <a class="btn gray">adicionar mano obra externa</a> y dar un clic sobre el registro, en el cual se visualizan los siguientes campos:
 
 
-![Procesar imagen](../assets/images/cap13/chp13_img05.png)
+![Procesar imagen](../../assets/images/cap13/chp13_img05.png)
 _**Imagen 5** Historia Archivada - Gasto Real ME_
 
 
@@ -186,7 +186,7 @@ A través de la ventana de Ingreso de Materiales y Repuestos se consulta el cons
 
 Para ver el detalle de Materiales y Repuestos se debe dar clic en el botón <a class="btn gray">adicionar Material y Repuesto</a> y dar un clic sobre el registro, en el cual se visualizan los siguientes campos:
 
-![Procesar imagen](../assets/images/cap13/chp13_img06.png)
+![Procesar imagen](../../assets/images/cap13/chp13_img06.png)
 _**Imagen 6** Historia Archivada- Gasto Real M y R_ 
 
 **Fecha de Uso:** Es la fecha en la cual se utilizó el recurso.
@@ -207,7 +207,7 @@ Si se desea continuar consultando el gasto real, se debe un clic en <a class="bt
 
 **Ingresar Otros Conceptos de Costo**
 
-![Procesar imagen](../assets/images/cap13/chp13_img07.png)
+![Procesar imagen](../../assets/images/cap13/chp13_img07.png)
 _**Imagen 7.** Historia Archivada- Gasto Real OC_
 
 Para ver el detalle de Otros Conceptos de Costo o Gastos indirectos, se debe dar clic en el botón <a class="btn gray">adicionar otro concepto</a> y dar un clic sobre el registro, en el cual se visualizan los siguientes campos:
@@ -229,13 +229,13 @@ Para ver el detalle de Otros Conceptos de Costo o Gastos indirectos, se debe dar
 
 Se puede visualizar la evaluación del servicio que fue prestado por el personal de mantenimiento o de servicios en la OT seleccionada. La evaluación la realiza un usuario, previamente autorizado, quien fuera el receptor del servicio, una vez que se ha ya cerrado la OT. 
 
-![Procesar imagen](../assets/images/cap13/chp13_img08.png)
+![Procesar imagen](../../assets/images/cap13/chp13_img08.png)
 _**Imagen 8.** Historia Archivada- Evaluación del Servicio_
 
 
 ### Multimedia
 
-![Procesar imagen](../assets/images/cap13/chp13_img09.png)
+![Procesar imagen](../../assets/images/cap13/chp13_img09.png)
 _**Imagen 9.** Historia Archivada- Multimedia_
 
 
@@ -256,12 +256,12 @@ A continuación se describen las carpetas que componen esta ventana; cuando se q
 
 Para ingresar a una carpeta específica se debe de dar un doble clic:
 
-![Procesar imagen](../assets/images/cap13/chp13_img10.png)
+![Procesar imagen](../../assets/images/cap13/chp13_img10.png)
 _**Imagen 10.** Historia Archivada - Detalle Multimedia_
 
 Los archivos tipo JGP, WORD, PDF, EXCEL para visualizar se deben descargar haciendo clic en el ícono <span class="mdi mdi-cloud-download icon white"></span>.  
 
-![Procesar imagen](../assets/images/cap13/chp13_img11.png)
+![Procesar imagen](../../assets/images/cap13/chp13_img11.png)
 _**Imagen 11.** Historia Archivada- Descargar Multimedia_
 
 # Ventana submenú de Historia Archivada
@@ -270,7 +270,7 @@ _**Imagen 11.** Historia Archivada- Descargar Multimedia_
 
 Es posible saber cuáles registros de SS, OT y Paros, tienen Multimedia, Servicio Evaluado y Firma de Recibido (AMovil) directamente desde la ventana visor, sobreponiendo el cursor en el ícono de Indicadores <span class="mdi mdi-message-alert"></span> ubicado en la parte superior derecha de la ventana mostrando un conjunto de pelotas de colores que indican el tipo de información definida y asociada, como se muestra a continuación:
 
-![Procesar imagen](../assets/images/cap13/chp13_img12.png)
+![Procesar imagen](../../assets/images/cap13/chp13_img12.png)
 _**Imagen 12.** Historia Archivada- Indicadores_
 
 
@@ -284,7 +284,7 @@ El significado de los colores es el siguiente:
 
 Se usa para seleccionar grupos de Órdenes de Trabajo Históricas, Solicitudes de Servicio y Paros que cumplen con un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al icono de filtro azul <span class="mdi mdi-filter-variant"></span>, ubicado en la parte superior derecha de la ventana Visor de Historia.
 
-![Procesar imagen](../assets/images/cap13/chp13_img13.png)
+![Procesar imagen](../../assets/images/cap13/chp13_img13.png)
 _**Imagen 13.** Historia Archivada- Ir a Subgrupos_
 
 Cada criterio trabaja en conjunto con los demás, con el operador intersección.
@@ -298,7 +298,7 @@ El programa permite entonces hacer selección de un grupo de cualquier tipo de l
 Los campos de datos que constituyen criterio de selección en la Ventana Subgrupo de OT Históricas, SS y PA, son los siguientes:
 
 
-![Procesar imagen](../assets/images/cap13/chp13_img14.png)
+![Procesar imagen](../../assets/images/cap13/chp13_img14.png)
 _**Imagen 14.** Historia Archivada- Ir a Subgrupos_
 
 **1. FILTRAR POR TIPO DE REGISTRO**
@@ -440,17 +440,17 @@ _**Nota:** Es importante tener en cuenta que cuando se están realizando los sub
 
 Esta opción de búsqueda rápida se encuentra ubicada al lado superior derecho de la ventana Visor. Al darle clic al ícono <span class="mdi mdi-magnify"></span>, se abre un campo al lado izquierdo que indica a digitar el número de la OT, SS o Paro. Luego de digitar la información, se presiona la tecla <a class="btn">Enter <span class="mdi mdi-subdirectory-arrow-left"></span></a> y a continuación se sombrea el registro deseado en el Visor:
 
-![Procesar imagen](../assets/images/cap13/chp13_img17.png)
+![Procesar imagen](../../assets/images/cap13/chp13_img17.png)
 _**Imagen 15.** Historia Archivada - Exportar_las OT, SS y PA 
 
 En caso de escribir el consecutivo con algún error o no existente, el sistema muestra un mensaje de alerta:
 
-![Procesar imagen](../assets/images/cap13/chp13_img18.png)
+![Procesar imagen](../../assets/images/cap13/chp13_img18.png)
 _**Imagen 16.** Mensaje Alerta - Ir a OT_
 
 Si se tiene un subgrupo establecido y se digita el consecutivo de una OT, SS o Paro que no esté dentro del subgrupo, el sistema muestra un mensaje de adventencia, donde se le pregunta al usuario si desea deshacer el subgrupo:
 
-![Procesar imagen](../assets/images/cap13/chp13_img19.png)
+![Procesar imagen](../../assets/images/cap13/chp13_img19.png)
 _**Imagen 17.** Mensaje Advertencia - Ir a OT_
 
 ## Exportar
@@ -466,7 +466,7 @@ En la gráfica anterior, se aprecian sus componentes y sus respectivos contenido
 **Exportar Todos los Registros:** Esta opción exporta todas las OT, SS y PA existentes, sin importar cualquier subgrupo activo.
 Luego de escoger una de las opciones anteriores, en la parte inferior aparece seleccionado por defecto el recuadro <a class="btn white"><span class="mdi mdi-checkbox-blank-outline"></span> exportar todos los campos</a> pero si se prefiere uno o varios, se debe des-seleccionar y a continuación hacer clic en los recuadros a exportar, una vez elegida la información, se da clic en el botón inferior <a class="btn white">exportar</a> el cual genera un archivo de Excel que se descarga automáticamente. El objetivo de esta exportación es llevar toda la información de a un archivo plano, para luego ser analizadas.
 
- ![Procesar imagen](../assets/images/cap13/chp13_img15.png)
+ ![Procesar imagen](../../assets/images/cap13/chp13_img15.png)
 _**Imagen 18.** Historia Archivada - Exportar_las OT, SS y PA 
 
 ## Servicios
@@ -475,7 +475,7 @@ _**Imagen 18.** Historia Archivada - Exportar_las OT, SS y PA
 
 Este comando permite visualizar el reporte relacionado a la OT, SS y PA en Historia Archivada. Existe el siguiente reporte básico disponibles
 
-![Procesar imagen](../assets/images/cap13/chp13_img16.png)
+![Procesar imagen](../../assets/images/cap13/chp13_img16.png)
 _**Imagen 19.** Historia Archivada - Exportar_
 
 El anterior reporte puede ser seleccionado para una o varios registros a través de las siguientes opciones:
@@ -509,17 +509,17 @@ Eliminar masivamente se ejecuta cuando se tiene la certeza de la existencia  dat
 
 Para ir a la transacción sobreponer el cursor sobre el módulo de  <a class="btn blue">Historia Archivada</a> y dar clic en la opción **Eliminar Masivamente**, como se indica a continuación:
 
-![Procesar imagen](../assets/images/cap13/chp13_img19.png)
+![Procesar imagen](../../assets/images/cap13/chp13_img19.png)
 _**Imagen 20.** Historia Archivada - Ir a Eliminar Masivamente_
 
 Para eliminar un conjunto de registros se debe primero realizar un Subgrupo no mayor de 5000 mil registros (este proceso puede tardar hasta 5 horas dependiendo del subgrupo), de no hacerlo el sistema muestra un mensaje de advertencia:
 
-![Procesar imagen](../assets/images/cap13/chp13_img20.png)
+![Procesar imagen](../../assets/images/cap13/chp13_img20.png)
 _**Imagen 21.** Historia - Alerta Eliminar Masivamente_
 
 Una vez se tenga el conjunto de registros preseleccionados con el Subgrupo proceder con la transacción así:
 
-![Procesar imagen](../assets/images/cap13/chp13_img21.png)
+![Procesar imagen](../../assets/images/cap13/chp13_img21.png)
 _**Imagen 22.** Historia Archivada - Alerta Eliminar Masivamente_
 
 Se puede eliminar un registro de OT, SS, Paro o un conjunto de registros preseleccionados: 
@@ -530,10 +530,10 @@ Se puede eliminar un registro de OT, SS, Paro o un conjunto de registros presele
 
 Para continuar dar clic en el botón <a class="btn blue">eliminar historia</a> ubicado debajo de las opciones anteriores, el sistema muestra un mensaje alerta:
 
-![Procesar imagen](../assets/images/cap13/chp13_img22.png)
+![Procesar imagen](../../assets/images/cap13/chp13_img22.png)
 _**Imagen 23.** Historia Archivada - Mensaje Advertencia Eliminar Masivamente_
 
 Para finalizar el proceso dar clic en <a class="btn blue">aceptar</a>, y el sistema confirma  a través de un mensaje aviso: 
 
-![Procesar imagen](../assets/images/cap13/chp13_img23.png)
+![Procesar imagen](../../assets/images/cap13/chp13_img23.png)
 _**Imagen 24.** Historia - Aviso Satisfactorio Eliminar Masivamente_

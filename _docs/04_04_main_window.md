@@ -9,19 +9,19 @@ date: 2022-11-10T20:17:34.887Z
 ---
 # Ventana Principal de Almacén de Repuestos
 
-![Procesar imagen](../assets/images/cap04/chp04_img01.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img01.png)
 _**Imagen 1.** Menú Almacenes_
 
  Al sobreponer el cursor en el módulo de <a class="btn blue">almacén</a> se listan los almacenes creados en la tabla de Almacenes de la Infraestructura y cuando se elige un Almacén, el sistema muestra al lado izquierdo del nombre del respectivo almacén un <span class="mdi mdi-check-circle"></span> en color verde y en frente en azul, el aviso <a class="btn blue">seleccionado</a>.
 
-![Procesar imagen](../assets/images/cap04/chp04_img02.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img02.png)
 _**Imagen 2.** Ventana Principal Repuestos_
 
 A esta ventana se llega haciendo clic sobre la opción <a class="btn blue">almacén</a>  del Menú Principal. A través de ella se ejecutan todas las funciones dedicadas a administrar los Almacenes de Repuestos para Mantenimiento. A continuación se ilustran las porciones que la componen.
 
 ## Ventana Visor
 
-![Procesar imagen](../assets/images/cap04/chp04_img02.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img02.png)
 _**Imagen 3.** Ventana Visor_
 
 Desde esta ventana es posible observar los Repuestos existentes. Se listan todos o un Subgrupo de ellos. Es posible configurar el número de registros que  se muestran por página desde el menú <a class="btn blue">administración</a> en la opción  “Valores por Defecto” en la etiqueta **General**.
@@ -32,7 +32,7 @@ Los títulos en azul que encabezan las columnas son también botones que permite
 
 ## Ventana Detalle
 
-![Procesar imagen](../assets/images/cap04/chp04_img04.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img04.png)
 _**Imagen 4.** Ventana Detalle_ 
 
 En la gráfica anterior, ventana Detalle de Materiales y Repuestos se aprecian todos sus componentes y su  respectivo contenido.
@@ -51,7 +51,7 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 **Descripción larga:** Este botón permite realizar una descripción larga del Repuesto. Para ello se abre una nueva ventana en la que se adicionan más de 200 caracteres.
 
 
-![Procesar imagen](../assets/images/cap04/chp04_img05.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img05.png)
 _**Imagen 5.** Información General_
 
 **Clase:** Es un campo que permite clasificar o agrupar los artículos del Almacén por un criterio particular para la Organización.
@@ -105,7 +105,7 @@ Las Vistas Parciales o Pestañas permiten complementar la información que se de
 
 En la pestaña de Ficha Técnica, se encuentra toda la información relevante del Repuesto seleccionado en el Visor.
 
-![Procesar imagen](../assets/images/cap04/chp04_img06.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img06.png)
 _**Imagen 6.** Vistas Parciales - Ficha Técnica_
 
 A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación:
@@ -134,7 +134,7 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 Esta opción permite definir para un determinado Repuesto las características técnicas que lo definen. En la parte izquierda de la ventana aparece un nuevo Visor en el que irán apareciendo las Características Técnicas que se van creando en la ventana Detalle, mientras que en la parte derecha aparece los campos para crear o actualizar la información de las características.
 
-![Procesar imagen](../assets/images/cap04/chp04_img07.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img07.png)
 _**Imagen 7.** Vistas Parciales - Características Técnicas_
 
 En la gráfica anterior, Vista Parcial de Características, se aprecian las dos columnas  de componentes y sus respectivos contenidos. A continuación se describen los  campos que componen esta ventana de información adicional:
@@ -149,17 +149,17 @@ Para ingresar una caracteristica técnica al Repuesto dar clic en el botón <a c
 
 A continuación se muestra el formulario para ingresar la Característica:
 
-![Procesar imagen](../assets/images/cap04/chp04_img08.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img08.png)
 _**Imagen 8.** -Ingresar Característica - Formulario_
 
 La Característica Técnica se debe de seleccionar del listado que corresponde a su respectiva tabla de Infraestructura - Características, una vez ingresado el valor se debe dar un clic en el botón  <span class="mdi mdi-plus-circle icon white"></span>. Automáticamente el sistema la registra en la tabla de **Car. Técnica**.
 
-![Procesar imagen](../assets/images/cap04/chp04_img09.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img09.png)
 _**Imagen 9.** Adicionar Característica_
 
 Para eliminar una registro se debe dar clic en el icono <span class="mdi mdi-delete"></span>. El sistema muestra un mensaje alerta para confirmar la transacción:
 
-![Procesar imagen](../assets/images/cap04/chp04_img10.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img10.png)
 _**Imagen 10.** Adicionar Característica_
 
 >**Nota:** Para asentar los cambios de alguna modificación, añadir o eliminar una característica se debe dar clic en el botón <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a>.
@@ -167,7 +167,7 @@ _**Imagen 10.** Adicionar Característica_
 
 ### Multimedia
 
-![Procesar imagen](../assets/images/cap04/chp04_img11.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img11.png)
 _**Imagen 11.** Almacén - Multimedia_
 
 En la gráfica anterior, Ventana Multimedia, se aprecian sus componentes y sus respectivos contenidos.
@@ -189,29 +189,29 @@ A continuación se describen las carpetas que componen esta ventana; cuando se q
 
 Para adicionar un documento, imagen o video, se debe dar un doble clic sobre la carpeta deseada, y luego seleccionar del ícono de nube <span class="mdi mdi-cloud-upload icon white"></span>, como se muestra a continuación:
 
-![Procesar imagen](../assets/images/cap04/chp04_img12.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img12.png)
 _**Imagen 12.** Almacén - Abrir Explorador Archivos_
 
 A continuación se abre el explorador de archivos, seguido de seleccionar el archivo dar un clic en <a class="btn">abrir</a>.
 
-![Procesar imagen](../assets/images/cap04/chp04_img13.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img13.png)
 _**Imagen 13.** Almacén  - Seleccionar Archivos_
 
 De manera adicional u opcional se puede escribir un nombre en el siguiente campo para enfatizar de lo que trata el archivo:
 
-![Procesar imagen](../assets/images/cap04/chp04_img14.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img14.png)
 _**Imagen 14.** Almacén  - Nombrar Archivo_
 
 Para finalizar se debe de dar un clic en el el botón <a class="btn  blue">subir Archivo</a>. El sistema confirma a través de un mensaje que se ha subido el archivo satisfactoriamente.
  
 Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic sobre el nombre de una de las imágenes, se muestra la previsualización, como se muestra a continuación:
 
-![Procesar imagen](../assets/images/cap04/chp04_img15.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img15.png)
 _**Imagen 15.** Almacén  - Previsualización de imagen_
 
 Para desasociar un documento, o una imagen o un video, se da clic al icono de basura <span class="mdi mdi-delete"></span> que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro, finalmente confirmar con el botón <a class="btn white">Aceptar</a>.
 
-![Procesar imagen](../assets/images/cap04/chp04_img16.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img16.png)
 _**Imagen 16.** Almacén - Desasociar un Archivo_
 
 Si se desea descargar un archivo adjunto, se debe dar clic en el ícono de nube con direccional hacia abajo <span class="mdi mdi-cloud-download icon white"></span> la nube con flecha hacia abajo que se encuentra al lado derecho del archivo que se quiere descargar.
@@ -225,19 +225,19 @@ Si se desea descargar un archivo adjunto, se debe dar clic en el ícono de nube 
 El icono <span class="mdi mdi-magnify"></span> se abre un campo al lado izquierdo, donde se digita el código completo del Repuesto que se desea encontrar rápidamente. Luego de digitar el código del Repuesto, se presiona la  tecla   “Enter” y  el  cursor se posiciona en  consecuencia,  sobre  el  Repuesto deseado en el Visor sombreado por la línea de color verde así:
 
 
-![Procesar imagen](../assets/images/cap04/chp04_img17.png) 
+![Procesar imagen](../../assets/images/cap04/chp04_img17.png) 
 _**Imagen 17.** Almacén - Ir a RP_
 
 En caso de escribir el código con algún error, el sistema muestra un mensaje de alerta indicando que el Repuesto no existe.
 
-![Procesar imagen](../assets/images/cap04/chp04_img18.png) 
+![Procesar imagen](../../assets/images/cap04/chp04_img18.png) 
 _**Imagen 18.** Almacén - Mensaje alerta RP_  
 
 ## Indicadores
 
 Es posible visualizar de manera inmediata, los Repuestos activos, inactivos y con Multimedia, directamente desde la ventana visor, a través de la columna  “Indicadores” que muestra una pelota de color que indica su estado. El significado del color de cada pelota, se puede ver en el icono  <span class="mdi mdi-message-alert"></span> ubicado en la parte superior derecha de la ventana visor:
 
-![Procesar imagen](../assets/images/cap04/chp04_img19.png) 
+![Procesar imagen](../../assets/images/cap04/chp04_img19.png) 
 _**Imagen 19.** Almacén - Indicadores_
 
 El significado de los colores se visualiza al sobreponer el mouse en el icono que se encuentra al extremo superior derecho y su correspondencia es:
@@ -250,13 +250,13 @@ El significado de los colores se visualiza al sobreponer el mouse en el icono qu
 
 Se usa para filtrar o seleccionar grupos de Repuestos que cumplen un conjunto de filtros o criterios. El objetivo de hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al icono de filtro <span class="mdi mdi-filter-variant"></span> ubicado en la parte superior derecha de la ventana Visor de Almacén de Repuestos.
 
-![Procesar imagen](../assets/images/cap04/chp04_img20.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img20.png)
 _**Imagen 20.** Almacén - Ir a Subgrupo_
 
 
 Los campos que constituyen un criterio de selección haciendo parte de la Ventana Subgrupo de Repuestos son los siguientes:
 
-![Procesar imagen](../assets/images/cap04/chp04_img21.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img21.png)
 _**Imagen 21.** Almacén - Subgrupo Materiales y Repuestos_
 
 **A, B, C, O:** Permite encontrar  los repuestos que tengan una clasificación A, B, C u O definida.
@@ -289,13 +289,13 @@ _**Imagen 21.** Almacén - Subgrupo Materiales y Repuestos_
 
 ## Reportes
 
-![Procesar imagen](../assets/images/cap04/chp04_img64.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img64.png)
 _**Imagen 22.** Almacén - Ir a Reportes_
 
 
 Este comando <span class="mdi mdi-printer"></span>  permite visualizar los reportes o informes de la información relacionada a los Repuestos/Materiales. Existen los siguientes tipos de reportes básicos disponibles:
 
-![Procesar imagen](../assets/images/cap04/chp04_img65.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img65.png)
 _**Imagen 23.** Almacén- Reportes_
 
 Los anteriores reportes pueden ser  seleccionados para uno o varios Activos/Equipos:
@@ -318,7 +318,7 @@ Esta opción <span class="mdi mdi-download"></span> permite la exportación de l
 
 Al ejecutar esta transacción, se abre una ventana como se muestra a continuación:
 
-![Procesar imagen](../assets/images/cap04/chp04_img66.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img66.png)
 _**Imagen 24.** Almacén- Ir a Exportar_
 
 En la gráfica anterior, se aprecian sus componentes y sus respectivos contenidos.
@@ -329,7 +329,7 @@ En la gráfica anterior, se aprecian sus componentes y sus respectivos contenido
 
 Luego de escoger una de las opciones anteriores, en la parte inferior aparece seleccionado por defecto el recuadro de selección <a class="btn white"><span class="mdi mdi-checkbox-blank-outline"> exportar todos los campos</span></a> pero si se prefiere uno o algunos campos se debe des-seleccionar y a continuación hacer clic en los recuadros a exportar.
 
-![Procesar imagen](../assets/images/cap04/chp04_img67.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img67.png)
 _**Imagen 25.** Almacén- Exportar Campos_
 
 Una vez elegida la información, dar clic en el botón inferior <a class="btn white">Exportar</a> el cual genera un archivo de Excel que se descarga automáticamente. El objetivo de esta exportación es llevar toda la información de los Repuestos/Materiales a un archivo plano, para luego ser analizados.
@@ -340,12 +340,12 @@ Una vez elegida la información, dar clic en el botón inferior <a class="btn wh
 
 Esta opción de búsqueda rápida se encuentra ubicada al lado superior derecho de la ventana Visor. Al darle clic al ícono <span class="mdi mdi-magnify"></span>, se abre un campo al lado izquierdo que indica la información que debe ingresarse, es decir, el código completo del Repuesto/Material. Luego de digitar la información, se presiona la tecla <a class="btn">Enter <span class="mdi mdi-subdirectory-arrow-left"></span></a> y a continuación se sombrea el Repuesto/Material deseado en el Visor:
 
-![Procesar imagen](../assets/images/cap04/chp04_img68.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img68.png)
 _**Imagen 26.** Ir a AC_
 
 En caso de escribir el código con algún error, el sistema muestra un mensaje de alerta indicando que el Repuesto/Material no existe.
 
-![Procesar imagen](../assets/images/cap04/chp04_img69.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img69.png)
 _**Imagen 27.** Mensaje Alerta - Ir a AC_
 
 
@@ -358,7 +358,7 @@ Esta transacción permite agregar o modificar conjuntamente información de un S
 
 Para acceder se requieren permisos correspondientes a "Masificar" en Almacén. Esta transacción es individual para cada Almacén por lo tanto en el Almacén que corresponda se debe sobreponer el cursor,  al lado derecho se despliega el conjunto de opciones disponibles, luego se elige la transacción **“Modificar Masivamente”.** como se muestra a continuación:
 
-![Procesar imagen](../assets/images/cap04/chp04_img32.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img32.png)
 _**Imagen 28.** Almacén - Ir a Modificación Masiva_
 
 
@@ -366,19 +366,19 @@ _**Imagen 28.** Almacén - Ir a Modificación Masiva_
 
 Una vez se ingrese se muestra de la siguiente forma:
 
-![Procesar imagen](../assets/images/cap04/chp04_img33.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img33.png)
 _**Imagen 29.** Almacén - Visor Modificación Masiva_
 
 Para continuar dar un clic en el botón azul <a class="btn white">modificación masiva</a> ubicado en la parte superior izquierda como se indica a continuación:
 
 
-![Procesar imagen](../assets/images/cap04/chp04_img34.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img34.png)
 _**Imagen 30.** Almacén - Ir a Modificación Masiva_
 
 
 A continuación se da una breve explicación de los componentes de la ventana detalle de Modificación Masiva una vez se escoja la opción <span class="mdi mdi-check-box-outline"></span> Ficha Técnica  como se muestra en la imagen: 
 
-![Procesar imagen](../assets/images/cap04/chp04_img35.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img35.png)
 _**Imagen 31.** Almacén - Ventana Detalle Modificación Masiva_
 
 **Modificar Solamente Este Repuesto:** Al escoger esta opción, se ejecutan los cambios marcados (Estado, Almacén, Unidad de Consumo, Clase, Clasificación A, B,C, O, y Proveedor) al Repuesto o Material que se encuentre seleccionado en el visor.
@@ -389,13 +389,13 @@ _**Imagen 31.** Almacén - Ventana Detalle Modificación Masiva_
 **Modificar Estado:** Se modifica masivamente el estado Activo e Inactivo, de los Repuestos y/o Materiales que están previamente seleccionados en el visor. Los estados predefinidos son: Activo, I-Vencido, I-Otro, I-EOI (Excedente, Obsoleto e Inservible).
  
 
-![Procesar imagen](../assets/images/cap04/chp04_img36.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img36.png)
 _**Imagen 32.** Almacén - MM Modificar Estado_
 
 **Modificar Almacén:** Se modifica masivamente el Almacén, de los Repuestos y/o Materiales que están previamente registrados en el visor. El sistema lista los almacenes que se encuentran creados en la tabla de Almacenes en Infraestructura. Adicional, se debe dejar el switche en la posición de “Cambiar de Almacén”.
 
 
-![Procesar imagen](../assets/images/cap04/chp04_img37.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img37.png)
 _**Imagen 33.** Almacén - MM Almacén_
 
 
@@ -406,47 +406,47 @@ Almacén al cual se va a asociar el Repuesto/Material que se va a ingresar y en 
 **Modificar Unidad de Consumo:** Se Modifica Masivamente la unidad de consumo de un Repuesto/Material. El sistema lista las unidades de medida que se encuentran creadas en la tabla de Unidades de Medida en Infraestructura.
 
 
-![Procesar imagen](../assets/images/cap04/chp04_img38.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img38.png)
 _**Imagen 34.** Almacén - MM Unidad de Consumo_
 
 
 **Modificar Clase:** Se Modifica Masivamente la clase de un Repuesto/Material. El sistema muestra un campo para que el usuario digite la nueva clase.
 
-![Procesar imagen](../assets/images/cap04/chp04_img39.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img39.png)
 _**Imagen 35.** Almacén - MM Clase_
 
 
 **Modificar Clasificación A, B, C, O:** Se Modifica Masivamente la clasificación A, B, C, O de un Repuesto/Material. El sistema muestra un campo para que el usuario digite la nueva clasificación A,B, C, O. Por defecto, se muestra un campo con la clasificación “O”.
 
-![Procesar imagen](../assets/images/cap04/chp04_img40.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img40.png)
 _**Imagen 36.** Almacén - MM Clasificación_
 
 **Modificar Proveedor 1:** Se Modifica Masivamente el Proveedor 1 de un conjunto de Repuestos/Materiales. El sistema lista los Proveedores que se encuentran creados en la tabla de Terceros como tipo PF provenientes módulo de Infraestructura.
 
-![Procesar imagen](../assets/images/cap04/chp04_img41.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img41.png)
 _**Imagen 37.** Almacén - MM Proveedor 1_
 
 
 **Modificar Proveedor 2:** Se Modifica Masivamente el Proveedor 2 de un conjunto o un subgrupo Repuestos/Mtaeriales. El sistema lista los Proveedores que se encuentran creados en la tabla de Terceros como tipo PF en el módulo de Infraestructura.
 
 
-![Procesar imagen](../assets/images/cap04/chp04_img42.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img42.png)
 _**Imagen 38.** Almacén - MM Proveedor 2_
 
 Para hacer efectiva la Modificación Masiva, una vez que se haya elegido cualquiera de las opciones anteriores, se debe dar clic en el botón de la parte superior <a class="btn blue">modificar <span class="mdi mdi-pencil"></span></a>, el sistema muestra el primer mensaje de advertencia para el usuario asi:
 
-![Procesar imagen](../assets/images/cap04/chp04_img43.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img43.png)
 _**Imagen 39.** Almacén - MM Mensaje Alerta 1_
 
 Para continuar dar clic en el botón del mensaje alerta  <a class="btn white">aceptar</a>, a continuación por seguridad el sistema el segundo mensaje alerta:
 
 
-![Procesar imagen](../assets/images/cap04/chp04_img44.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img44.png)
 _**Imagen 40.** Almacén - MM Mensaje Alerta 2_
 
 Para finalizar dar clic en <a class="btn white">aceptar</a>, el sistema confirma la transacción con el siguiente mensaje:
 
-![Procesar imagen](../assets/images/cap04/chp04_img45.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img45.png)
 _**Imagen 41.** Almacén - MM Mensaje Alerta 3_
 
 
@@ -458,57 +458,57 @@ El comando Asociar a Activos del submenú Repuestos permite asociar un  Repuesto
 
 Para acceder a esta opción se debe contar con los permisos de Repuestos, y a continuación se sobrepone el cursor sobre el Almacén en cuestión, el cual despliega al lado derecho el conjunto de transacciones disponibles para ese Almacén, luego se elige la transacción **Asociar con Activos**, como se indica a continuación:
 
-![Procesar imagen](../assets/images/cap04/chp04_img22.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img22.png)
 _**Imagen 42.** Almacén - Ir a Asociar con Activos_
 
 Al ingresar, en el lado izquierdo se visualizan los Activos y en el derecho los Repuestos existentes en el almacén seleccionado previamente. Para navegar entre las páginas se debe dar clic al icono <span class="mdi mdi-unfold-more-vertical"></span> ubicado en la parte inferior derecha de cada recuadro:
 
-![Procesar imagen](../assets/images/cap04/chp04_img23.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img23.png)
 _**Imagen 43.** Almacén - Desplazarse en Asociar con Activos_
 
 También se visualizan los indicadores <span class="mdi mdi-message-alert"></span> correspondientes de cada módulo, además se recomienda hacer subgrupos  <span class="mdi mdi-filter-variant"></span> para facilitar la asociación de cada lado, como se muestra a continuación:
 
-![Procesar imagen](../assets/images/cap04/chp04_img24.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img24.png)
 _**Imagen 44.** Almacén - Comandos Asociar con Activos_
 
 La asociación de los Repuestos con los Activos, inicia al dar clic a los **check box** <a class="btn black"><span class="mdi mdi-checkbox-blank-outline"></a>, que están al lado izquierdo en la primera columna de la porción de Activos y en la porción derecha de Repuestos. Es posible seleccionar uno o varios al tiempo, de esta manera los Repuestos que serán asociados al o los Activos seleccionados muestran la cantidad inicial (1) que es asociada por defecto. El usuario puede cambiar la cantidad del Repuesto a asociar dependiendo de las cantidades en Existencia en el inventario de AM, como se muestra a continuación:  
 
-![Procesar imagen](../assets/images/cap04/chp04_img25.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img25.png)
 _**Imagen 45.** Almacén - Selección  Asociar con Activos_
 
 En el ejemplo anterior se asociaron tres Repuestos diferentes, de cada uno una unidad para dos Activos.
 
 Para terminar la transacción se da clic al botón ubicado en la parte inferior <a class="btn gray">asociar</a> el cual se muestra una notificación confirmando la ejecución de la transacción y se observa el resultado de la asociación realizada de manera resumida asi:
 
-![Procesar imagen](../assets/images/cap04/chp04_img26.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img26.png)
 _**Imagen 46.** Almacén - Asociar con Activos_
 
 Si el usuario desea ver los repuestos asociados a un Activo, se debe elegir un único Activo del lado izquierdo y se da clic al botón inferior <a class="btn gray">ver rp asociados</a>, **AM** mostrará en el lado derecho los Repuestos que fueron asociados al Activo seleccionado, ejemplo:
 
-![Procesar imagen](../assets/images/cap04/chp04_img27.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img27.png)
 _**Imagen 47.** Almacén - Ver Activo asociado a Repuestos_
 
 >**Nota:** Si se eligen dos o más Activos, el sistema mostrará un mensaje indicando que solo se debe seleccionar un solo Activo.
 
 Por otro lado, si el usuario desea ver la asociación que tiene un determinado Repuesto a Activos, se debe elegir un único Repuesto del lado derecho y se da clic al botón inferior <a class="btn gray">ver ac asociados</a> , **AM** mostrará en el lado izquierdo los Activos que tienen asociados el Repuesto seleccionado.
 
-![Procesar imagen](../assets/images/cap04/chp04_img28.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img28.png)
 _**Imagen 48.** Almacén - Ver Repuesto asociado a Activos_
 
 >**Nota:** Si se eligen dos o más Repuestos, el sistema mostrará un mensaje indicando que solo se debe seleccionar un solo Repuesto.
 
 Si el usuario desea **Desasociar** un Repuesto a uno o varios Activos, se deben elegir primero el Repuesto a través de los check box <a class="btn black"><span class="mdi mdi-checkbox-blank-outline"></a>, a continuación se ilustra un ejemplo:
 
-![Procesar imagen](../assets/images/cap04/chp04_img29.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img29.png)
 _**Imagen 49.** Almacén - Seleccionar Repuesto asociado a Activos_
 
-![Procesar imagen](../assets/images/cap04/chp04_img30.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img30.png)
 _**Imagen 50.** Almacén - Ver AC asociados_
 
 
 Para terminar la transacción **Desasociar** se da clic al botón a <a class="btn gray">desasociar</a>  inmediatamente se muestra un mensaje confirmando la ejecución de la transacción y se observa el resultado de la desasociación realizada.
 
-![Procesar imagen](../assets/images/cap04/chp04_img31.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img31.png)
 _**Imagen 51.** Almacén - Desasociar_
 
 ### Reservas
@@ -520,18 +520,18 @@ Para hacer reservas se requieren permisos previos de usuario del Almacén en cue
 
 Para acceder a esta transacción se sobrepone el cursor sobre el Almacén en cuestión y al lado derecho se despliega el conjunto de transacciones disponibles para ese almacén, luego se elige **“Reservas”** como se muestra a continuación:
 
-![Procesar imagen](../assets/images/cap04/chp04_img46.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img46.png)
 _**Imagen 52.** Almacén - Ir a Reservas_ 
 
 Al ingresar se visualiza la ventana Visor de Reservas, cada título en azul permite organizar la información ascendente/descendente. 
 
 
-![Procesar imagen](../assets/images/cap04/chp04_img47.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img47.png)
 _**Imagen 53.** Almacén - Visor Reservas_ 
 
 Para el detalle de un registro se da clic sobre él y se muestra a continuación la Ventana Detalle de la Reserva:
 
-![Procesar imagen](../assets/images/cap04/chp04_img48.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img48.png)
 _**Imagen 54.** Almacén - Detalle Reservas_ 
 
 A continuación se describe cada campo:
@@ -566,7 +566,7 @@ A continuación se describe como adicionar Repuestos a la reserva:
 Esta opción permite definir los Repuestos que serán reservados. En la parte izquierda de la ventana aparece un nuevo Visor en el que irán apareciendo los Repuestos que se van creando en la ventana Detalle, mientras que en la parte derecha aparece los campos para crear o actualizar la información de los Repuestos a reservar. Para continuar dar clic en el botón <a class="btn gray">adicionar rp</a> y a continuación se abre el siguiente formulario:
 
 
-![Procesar imagen](../assets/images/cap04/chp04_img49.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img49.png)
 _**Imagen 55.** Almacén - Adicionar RP Reservas_ 
 
 
@@ -583,29 +583,29 @@ A continuación se describen los campos que componen esta porción de informaci�
 
 **Cantidad a Reservar:** En este campo se define la cantidad que se desea reservar del Repuesto seleccionado. En caso de elegir una cantidad a reservar mayor a la cantidad disponible, el sistema muestra un mensaje de alerta indicando que la cantidad a reservar no está disponible.
 
-![Procesar imagen](../assets/images/cap04/chp04_img50.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img50.png)
 _**Imagen 56.** Almacén - Mensaje Alerta Reservas_
 
 Una vez diligenciado el formulario dar clic en el botón <span class="mdi mdi-plus-circle icon white"></span> en el cual se visualizan los repuestos en la parte izquierda en el orden que se adicionen:
 
-![Procesar imagen](../assets/images/cap04/chp04_img51.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img51.png)
 _**Imagen 57.** Almacén - Repuestos Reservados_
 
 Para actualizar la cantidad del Repuesto de debe dar clic sobre él asegurándose de estar sombreado en verde:
 
-![Procesar imagen](../assets/images/cap04/chp04_img52.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img52.png)
 _**Imagen 58.** Almacén - Actualizar cantidad a Reservar_
 
 Para terminar la transacción, dar clic en el botón <a class="btn blue">Insertar <span class="mdi mdi-plus-circle-outline"></span></a> ubicado en la parte superior izquierda, el sistema abrirá un mensaje alerta antes de insertar la nueva reserva, para continuar <a class="btn white">aceptar</a>:
 
 
-![Procesar imagen](../assets/images/cap04/chp04_img53.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img53.png)
 _**Imagen 59.** Almacén - Mensaje Alerta Insertar Reserva_
 
 Si la OT ya está asignada a una reserva aparece un mensaje alerta a lo cual el usuario que hace la reserva debe asegurarse de hacer la reserva de varios Repuestos en un mismo registro:
 
 
-![Procesar imagen](../assets/images/cap04/chp04_img54.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img54.png)
 _**Imagen 60.** Almacén - Mensaje Error Insertar Reserva_
 
 Una vez se inserte la reserva el sistema muestra nuevamente el visor.
@@ -617,22 +617,22 @@ Esta transacción se lleva a cabo para realizar el cierre de inventario del mes 
 
 A esta opción se llega al sobreponer el cursor  sobre un almacén y al lado derecho se despliega el conjunto de transacciones disponibles para ese almacén, luego se elige la transacción “Inventario final del mes”.
 
-![Procesar imagen](../assets/images/cap04/chp04_img55.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img55.png)
 _**Imagen 61.** Almacén - Ir a Inventario_
 
 El proceso se realiza eligiendo la opción “Inventario final del mes”, se abre una ventana donde se muestran dos campos desplegables, uno para seleccionar el año y otro para el mes a realizar el cierre de inventario, respectivamente. Los meses que despliega son todos los meses del año. Se debe escoger el año correspondiente con el mes a cerrar, en el botón “Cerrar Inventario” y aparecerá una ventana solicitando confirmación de la operación a realizar, como se muestra a continuación.
 
-![Procesar imagen](../assets/images/cap04/chp04_img56.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img56.png)
 _**Imagen 62.** Almacén - Detalle Inventario_
 
-![Procesar imagen](../assets/images/cap04/chp04_img57.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img57.png)
 _**Imagen 63.** Almacén - Cerrie de Inventario_
  
 Para finalizar la transacción dar clic en el botón <a class="btn gray">cerrar inventario</a>
  
  El sistema muestra un mensaje alerta confirmando la transacción:
 
- ![Procesar imagen](../assets/images/cap04/chp04_img58.png)
+ ![Procesar imagen](../../assets/images/cap04/chp04_img58.png)
 _**Imagen 64.** Almacén - Mensaje Inventario_
 
 >**Nota:** Solo se puede ejecutar esta transacción una vez, de lo contrario el sistema muestra un aviso alerta.
@@ -644,28 +644,28 @@ Para la realización de este proceso, “Inventario final del mes”, se debe te
 
 Esta transaccion permite ver indicadores gráficos básicos sobre la información de los Repuestos/Materiales. Para acceder a esta opción se sobrepone el cursor sobre el módulo de Almacén de interés, en el menú principal se despliega un submenú de transacciones disponibles y luego dar clic en “DashBoard Almacén”.
 
- ![Procesar imagen](../assets/images/cap04/chp04_img59.png)
+ ![Procesar imagen](../../assets/images/cap04/chp04_img59.png)
 _**Imagen 65.** Almacén - ir a DashBoard_
 
 
 Este comando permite visualizar en tiempo real el comportamiento de los Repuestos/Materiales con el fin de usarse como una herramienta para análisis y toma de decisiones rápidas.
 
-![Procesar imagen](../assets/images/cap04/chp04_img60.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img60.png)
 _**Imagen 66.** Almacén - DashBoard_
 
 
 La información del rectángulo de color naranja ubicado en la parte superior derecha como guía a modo de fracción (N/M), indica el número de registros del subgrupo en el visor(N) sobre el número total de registros de Activos exzx istentes en la base de datos (M). Si no hay preselección, los dos números en sus totales son los mismos.
 También un indicador de la existencia de un subgrupo, es el ícono <span class="mdi mdi-filter-variant"></span> con una pelota de color rojo que se ubica al lado derecho de dicha fracción.
 
-![Procesar imagen](../assets/images/cap04/chp04_img61.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img61.png)
 _**Imagen 67.** Almacén - Dashboard Subgrupos_
 
 Para personalizar la vista de los gráficos o tener una información específica se recomienda hacer subgrupos a través del ícono <span class="mdi mdi-filter-variant"></span>. Asimismo los DashBoards permiten ocultar información con solo dar un clic sobre sus rectángulos de colores como se muestra en la siguiente imagen:
 
-![Procesar imagen](../assets/images/cap04/chp04_img62.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img62.png)
 _**Imagen 68.** Almacén - Dashboard personalizado_
 
 Sí se desea restablecer la información, se debe dar clic al icono <span class="mdi mdi-autorenew"></span> (actualizar). En cambio, si se desea exportar el gráfico en un formato de imagen, es posible dando clic al ícono de la flecha hacia abajo <span class="mdi mdi-download"></span> como se muestra a continuación:
 
-![Procesar imagen](../assets/images/cap04/chp04_img63.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img63.png)
 _**Imagen 69.** Almacén - Dashboard comandos_

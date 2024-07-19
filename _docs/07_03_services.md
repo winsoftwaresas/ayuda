@@ -12,7 +12,7 @@ date: 2022-10-25T21:07:17.169Z
 
 Este comando <span class="mdi mdi-printer"></span>  permite visualizar los reportes relacionados con las Solicitudes de Servicio. Existen los siguientes tipos de reportes básicos disponibles:
 
-![Procesar imagen](../assets/images/cap07/chp07_img35.png)
+![Procesar imagen](../../assets/images/cap07/chp07_img35.png)
 ***Imagen 31.** Solicitudes - Reportes*
 
 Los anteriores reportes pueden ser seleccionados para una o varias Solicitudes:

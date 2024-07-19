@@ -24,7 +24,7 @@ Como se indicó al inicio, sólo el Administrador encargado del **AMsi** puede a
 
 Para poder ingresar a la configuración de **AMsi** , el Administrador debe conocer el nombre de usuario y contraseña del Administrador del aplicativo. Tales datos se ingresan en la siguiente ventana de acceso:
 
-![Procesar imagen](../assets/images/cap12/chp12_img32.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img32.png)
 _**Imagen 33.** AMsi - Inicio_
 
 Una vez se ingrese el Usuario y la Contraseña de manera correcta, se puede observar el _Menú Principal del Usuario Administrador_ del  **AMsi** .
@@ -33,7 +33,7 @@ Una vez se ingrese el Usuario y la Contraseña de manera correcta, se puede obse
 
 La ventana de Menú Principal del Usuario Administrador muestra las transacciones que el usuario puede realizar a través del **AMsi**.
 
-![Procesar imagen](../assets/images/cap12/chp12_img33.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img33.png)
 _**Imagen 34.** AMsi - Menú Principal_
 
 
@@ -52,12 +52,12 @@ A continuación, se describen las transacciones que componen esta ventana.
 
 Una vez se ingrese con los datos del usuario administrador, se debe dar clic a este botón ubicado en la ventana de Menú Principal para continuar con la Configuración de  **AMsi**.
 
-![Procesar imagen](../assets/images/cap12/chp12_img34.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img34.png)
 _**Imagen 35.** AMsi - Configuración_
 
 Los componentes de la ventana de Configuración General son los que se muestran a continuación. Sobre cada componente se da una breve explicación:
 
-![Procesar imagen](../assets/images/cap12/chp12_img35.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img35.png)
 _**Imagen 36.** AMsi - Ir a Configuración_
 
 **Botón Inicio <span class="mdi mdi-home"></span>:** Este botón lleva a la ventana de Menú Principal del Usuario Administrador.
@@ -67,7 +67,7 @@ _**Imagen 36.** AMsi - Ir a Configuración_
 
 #### General 
 
-![Procesar imagen](../assets/images/cap12/chp12_img36.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img36.png)
 _**Imagen 37.** AMsi - General_
 
 **Mensaje en la ventana de registro de la solicitud:** En este campo se digita un mensaje que se desliza y aparece en la parte superior del formulario de Servicio Solicitado. Este campo permite hasta 500 caracteres.
@@ -78,7 +78,7 @@ _**Imagen 37.** AMsi - General_
 
 En esta ventana se configuran los campos que serán exigidos en la sección Datos del Solicitante, bien sea para crear un nuevo Usuario o cuando se vaya a **Actualizar el Perfil**. Los componentes de la ventana de Información del Solicitante son los que se muestran a continuación. Sobre cada componente se da una breve explicación:
 
-![Procesar imagen](../assets/images/cap12/chp12_img37.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img37.png)
 _**Imagen 38.** AMsi - Información Solicitante_
 
 
@@ -98,7 +98,7 @@ _**Imagen 38.** AMsi - Información Solicitante_
 
 En esta ventana se configuran los campos que serán exigidos en la sección Servicio Solicitado. Los componentes de la ventana de Servicio Solicitado son los que se muestran a continuación. Sobre cada componente se da una breve explicación.
 
-![Procesar imagen](../assets/images/cap12/chp12_img38.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img38.png)
 _**Imagen 39.** AMsi - Formulario Servicio Solicitado_
 
 
@@ -118,7 +118,7 @@ _**Imagen 39.** AMsi - Formulario Servicio Solicitado_
 
 En esta ventana se configuran las opciones correspondientes para el campo de Activo/Equipo en el formulario Servicio Solicitado, en el proceso de creación de una SS y/o OT. Los componentes de la ventana de Identificación del Activo son los que se muestran a continuación. Sobre cada componente se da una breve explicación.
 
-![Procesar imagen](../assets/images/cap12/chp12_img39.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img39.png)
 _**Imagen 40.** AMsi - Identificar Activo_
 
 
@@ -132,7 +132,7 @@ Si el Activo/Equipo es seleccionado de una lista o ingresado con su respectivo c
 
 En esta ventana se establece el Usuario y Contraseña del Administrador del  **AMsi** , además se configuran los servidores de correo con usuarios y contraseñas. Los componentes de la ventana de Seguridad son los que se muestran a continuación. Sobre cada componente se da una breve explicación:
 
-![Procesar imagen](../assets/images/cap12/chp12_img40.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img40.png)
 _**Imagen 41.** AMsi - Identificar Activo_
 
 

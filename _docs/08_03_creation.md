@@ -18,19 +18,19 @@ Un FDA se crea bajo las condiciones de ser ejecutado bajo una sola persona, a ba
 Para crear un registro FDA se debe dirigir al módulo de **Paros** en el menú principal de **AM**¨como se muestra a continuación:
 
 
-![Procesar imagen](../assets/images/cap08/chp08_img01.png)
+![Procesar imagen](../../assets/images/cap08/chp08_img01.png)
 _**Imagen 1.** Paros - Ir a Paros_
 
 Luego de ingresar al módulo o a la Ventana Visor de Paros dirigirse a la parte superior izquierda y seleccionar el botón  <a class="btn white">NUEVO</a>. 
 
 
-![Procesar imagen](../assets/images/cap08/chp08_img02.png)
+![Procesar imagen](../../assets/images/cap08/chp08_img02.png)
 _**Imagen 2.** Paros - Visor de Paros_
 
 A continuación se muestra la Ventana Detalle con el siguiente formulario:  
 
 
-![Procesar imagen](../assets/images/cap08/chp08_img02.png)
+![Procesar imagen](../../assets/images/cap08/chp08_img02.png)
 _**Imagen 3.** Paros - Ventana Detalle Formulario Creación FDA_
 
 A continuación se da una breve explicación de cada campo:

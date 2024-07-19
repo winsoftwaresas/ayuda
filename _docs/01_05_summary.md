@@ -32,7 +32,7 @@ La conversión también se da cuando se trata de un campo de días (DD), por eje
 
 A continuación, se describe la convención utilizada para la nomenclatura de los Reportes de **AM**. Se ha implementado esta convención con el fin de mejorar el proceso de búsqueda de los mismos.
 
-![Procesar imagen](../assets/images/cap01/chp01_img63.png)
+![Procesar imagen](../../assets/images/cap01/chp01_img63.png)
 
 _**Imagen 13.** Nomenclatura de Reportes_
 

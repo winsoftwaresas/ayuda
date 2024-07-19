@@ -13,7 +13,7 @@ order: 16_03
 Para acceder al Almacén se debe dar un toque sobre el botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-warehouse"></span> Almacen </a>:
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img48.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img48.jpeg)
 
 _**Imagen 50.** AMovil - Ir a Almacén_  
 
@@ -22,14 +22,14 @@ _**Imagen 50.** AMovil - Ir a Almacén_
 Se muestran los Almacenes definidos en **AM**, éstos se listan acorde a los permisos otorgados al usuario logueado: 
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img49.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img49.jpeg)
 
 _**Imagen 51.** AMovil - Almacenes_  
 
 
 Para ingresar a un Almacén se debe seleccionarlo con un toque, cada Almacén contiene un submenú que permite hacer consulta, creación de Materiales/Repuestos y hacer reservas acorde a los permisos que tenga el usuario.
 
-![Procesar imagen](../assets/images/cap16/chp16_img50.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img50.jpeg)
 
 _**Imagen 52.** AMovil - Almacén Submenú_  
 
@@ -39,7 +39,7 @@ _**Imagen 52.** AMovil - Almacén Submenú_
 
 Para hacer consulta de los Materiales/Repuestos se da un toque sobre el botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-magnify"></span> Consultar Repuestos</a>, a continuación se muestra el listado de los materiales/repuestos disponibles para el almacén seleccionado y en la parte superior se muestra el nombre del Almacén donde se realiza la consulta:
  
-![Procesar imagen](../assets/images/cap16/chp16_img51.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img51.jpeg)
 
 _**Imagen 53.** AMovil - Almacén Consulta Repuestos_  
 
@@ -47,7 +47,7 @@ Para ingresar al detalle del registro se da un toque sobre el botón <a class="b
 
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img52.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img52.jpeg)
 
 _**Imagen 54.** AMovil - Ficha Técnica Repuesto_
      
@@ -55,7 +55,7 @@ _**Imagen 54.** AMovil - Ficha Técnica Repuesto_
 Para guardar un cambio sobre la ficha técnica dar un toque en <a class="btn cl-white bg-blue px-6"> Actualizar</a>. Se muestra un mensaje alerta indicando que se ha actualizado el registro y para continuar dar un toque en <a class="btn cl-white bg-blue px-6"> Aceptar</a> como se muestra a continuación:
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img53.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img53.jpeg)
 
 _**Imagen 55.** AMovil - Mensaje Alerta Actualizar Repuestos_
  
@@ -66,19 +66,19 @@ El Subgrupo de Materiales/Repuestos permite hacer búsquedas rápidas de registr
 
 Para ingresar a esta opción se debe dar un toque sobre el icono de Subgrupo <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-filter-variant"></span></a> ubicado en la parte inferior derecha de la pantalla, como se indica a continuación:
 
-![Procesar imagen](../assets/images/cap16/chp16_img54.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img54.jpeg)
 
 _**Imagen 56.** AMovil - Almacén Ir a Subgrupo_
 
 El subgrupo abre la siguiente ventana:
 
-![Procesar imagen](../assets/images/cap16/chp16_img55.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img55.jpeg)
 
 _**Imagen 57.** AMovil - Almacén Seleccionar un filtro Subgrupo_
  
 Se debe dar un toque sobre el botón <a class="btn cl-black bg-white bd-gray px-5"> Seleccione un filtro </a> para visualizar los siguientes criterios de búsqueda y seleccionar un criterio:
 
-![Procesar imagen](../assets/images/cap16/chp16_img56.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img56.jpeg)
 
 _**Imagen 58.** AMovil - Almacén Subgrupo Criterios de Búsqueda_
 
@@ -92,27 +92,27 @@ Una vez que se elija el criterio de búsqueda, se muestran los siguientes campos
 A continuaciónn se muestra un ejemplo con el criterio **Código RP:**
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img57.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img57.jpeg)
 
 _**Imagen 59.** AMovil - Almacén Subgrupo Criterios de Búsqueda_ 
 
 De la imagen anterior, los botones ubicados en la parte inferior  <a class="btn cl-white bg-blue px-3"> Limpiar</a> y <a class="btn cl-white bg-blue px-3"> Aceptar </a> son para limpiar el campo y hacer una nueva búsqueda. 
 
-![Procesar imagen](../assets/images/cap16/chp16_img58.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img58.jpeg)
 
 _**Imagen 60.** AMovil - Almacén Subgrupo Código RP_
 
 Una vez introduzca los datos, finalice con el botón <a class="btn cl-white bg-blue px-3"> Aceptar </a>. A continuación se muestra el resultado de la búsqueda <a class="btn cl-black bg-white px-5">1</a>:
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img59.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img59.jpeg)
 
 _**Imagen 61.** AMovil - Almacén Subgrupo Resultado_
 
   
 El Subgrupo permanece hasta que el usuario reestablezca los valores por defecto. Para hacer otras búsquedas dar un toque nuevamente en el ícono subgrupo <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-filter-variant"></span></a> donde se muestran las búsquedas anteriores: 
 
-![Procesar imagen](../assets/images/cap16/chp16_img60.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img60.jpeg)
 
 _**Imagen 62.** AMovil - Almacén Subgrupo Búsquedas recientes_
 
@@ -128,7 +128,7 @@ Para crear un Material/Repuesto dar un toque en el botón del submenú de Activo
 
 Los campos con asteriscos en rojo (*) son obligatorios:
 
-![Procesar imagen](../assets/images/cap16/chp16_img61.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img61.jpeg)
 
 _**Imagen 63.** AMovil - Almacén Crear Repuesto Formulario_
 
@@ -151,7 +151,7 @@ Una vez que se diligencien los campos, finalizar dando un clic en el botón <a c
 
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img62.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img62.jpeg)
 
 _**Imagen 64.** AMovil - Almacén Crear Repuesto Formulario Mensaje Alerta_
 
@@ -163,7 +163,7 @@ Para reservar un Material/Repuesto se da un toque sobre el submenú de Almacén 
 
 A continuación se muestra el formulario de Reserva y se da una breve explicación de cada campo:
 
-![Procesar imagen](../assets/images/cap16/chp16_img63.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img63.jpeg)
 
 _**Imagen 65.** AMovil - Almacén Crear Repuesto Formulario Mensaje Alerta_
  
@@ -183,12 +183,12 @@ _**Imagen 65.** AMovil - Almacén Crear Repuesto Formulario Mensaje Alerta_
 Una vez llenados los campos se da un toque sobre el botón <a class="btn cl-white bg-blue px-6"> Crear reserva</a> se mostrando el siguiente mensaje:
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img64.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img64.jpeg)
 
 _**Imagen 66.** AMovil - Almacén Crear Repuesto Formulario Mensaje Alerta_
 
 >**Nota:** cuando ya existe la reserva para una misma OT se muestra un mensaje que rechaza la reserva.
 
-![Procesar imagen](../assets/images/cap16/chp16_img65.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img65.jpeg)
 
 _**Imagen 67.** AMovil - Almacén Crear Repuesto Formulario Mensaje Alerta_
