@@ -172,11 +172,11 @@ Anexa la multimedia cargada a la Orden
 - Correo al solicitante y/o responsable de Modificación de la Orden. 
 Anexa la multimedia cargada a la Orden. 
 
-![Procesar imagen](../assets/images/Version1.0/Imagen24.png)
+![Procesar imagen](../../assets/images/Version1.0/Imagen24.png)
 
 - Correo al solicitante de Cierre de la Orden. Anexa la multimedia, link de evaluación y los comentarios cargados a la Orden  
 
-![Procesar imagen](../assets/images/Version1.0/Imagen25.png)
+![Procesar imagen](../../assets/images/Version1.0/Imagen25.png)
 
 - Correo al responsable de Cierre de la Orden. Anexa la multimedia y los comentarios cargados a la Orden 
 

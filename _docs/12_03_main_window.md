@@ -10,7 +10,7 @@ order: 12_03
 
 ## Ventana Visor de Historia Archivada
 
-![Procesar imagen](../assets/images/cap13/chp13_img01.png)
+![Procesar imagen](../../assets/images/cap13/chp13_img01.png)
 _**Imagen 1.** Historia Archivada - Visor_
 
 A esta ventana se accede haciendo clic sobre la opción <a class="btn blue">Historia Archivada</a> del Menú Principal. A través de ella se ejecutan todas las funciones dedicadas a administrar los registros archivados. Se visualizan todos los registros de la Historia  Archivada o una selección de ellos a través de un subgrupo.  La HA disponible se despliega a través de las páginas.  El tamaño de los registros en el visor, al igual que en todos los visores del sistema se  configura desde <a class="btn blue">administración</a> por medio de un usuario administrador.
@@ -19,7 +19,7 @@ Los títulos en azul que encabezan las columnas, permiten ordenar de manera asce
 
 ## Ventana Detalle
 
-![Procesar imagen](../assets/images/cap13/chp13_img02.png)
+![Procesar imagen](../../assets/images/cap13/chp13_img02.png)
 _**Imagen 2.** Historia Archivada - Ventana Detalle_
 
 En la gráfica anterior, Ventana Detalle de Órdenes de Trabajo HA, se aprecian  sus componentes  y  sus  respectivos  contenidos.  
@@ -99,7 +99,7 @@ A continuación se describen los campos que componen esta ventana Detalle de Ór
 
 Para ingresar a esta opción, se debe dar clic en la pestaña “Gasto Real” de la ventana detalle de Órdenes de Trabajo HA.
 
-![Procesar imagen](../assets/images/cap13/chp13_img03.png)
+![Procesar imagen](../../assets/images/cap13/chp13_img03.png)
 _**Imagen 3.** Historia Archivada- Gasto Real de una OT_
 
 Esta tabla resume los totales de los gastos reales de Mano de Obra Interna, Mano de Obra Externa, Materiales y Repuestos y Otros Conceptos de Costo que se registraron en la OT de HA:
@@ -111,7 +111,7 @@ En la zona inferior, aparecen los botones para consultar exclusivamente:  <a cla
 
 Para consultar dar un clic sobre el botón<a class="btn gray">mano obra interna</a> en el cual se visualizan los siguientes campos:
 
-![Procesar imagen](../assets/images/cap13/chp13_img04.png)
+![Procesar imagen](../../assets/images/cap13/chp13_img04.png)
 _**Imagen 4.** Historia Archivada- Gasto Real MO_
 
 **Fecha de Uso:** Es la fecha en la cual se utilizó el recurso.
@@ -136,7 +136,7 @@ Si se desea continuar consultando el gasto real, se debe un clic en <a class="bt
 Para consultar la Mano de Obra Externa se debe dar clic en el botón <a class="btn gray"> mano obra externa</a> y dar un clic sobre el registro, en el cual se visualizan los siguientes campos:
 
 
-![Procesar imagen](../assets/images/cap13/chp13_img05.png)
+![Procesar imagen](../../assets/images/cap13/chp13_img05.png)
 _**Imagen 5** Historia Archivada - Gasto Real ME_
 
 **Fecha de Uso:** Es la fecha en la cual se utilizó el recurso.
@@ -155,7 +155,7 @@ Si se desea continuar consultando el gasto real, se debe un clic en <a class="bt
 
 Para consultar Materiales y Repuestos se debe dar clic en el botón <a class="btn gray">Mat y Rep</a> y dar un clic sobre el registro, en el cual se visualizan los siguientes campos:
 
-![Procesar imagen](../assets/images/cap13/chp13_img06.png)
+![Procesar imagen](../../assets/images/cap13/chp13_img06.png)
 _**Imagen 6** Historia Archivada- Gasto Real M y R_ 
 
 **Fecha de Uso:** Es la fecha en la cual se utilizó el recurso.
@@ -177,7 +177,7 @@ Si se desea continuar consultando el gasto real, se debe un clic en <a class="bt
 
 **Ingresar Otros Conceptos de Costo**
 
-![Procesar imagen](../assets/images/cap13/chp13_img07.png)
+![Procesar imagen](../../assets/images/cap13/chp13_img07.png)
 _**Imagen 7.** Historia Archivada- Gasto Real OC_
 
 Para consultar  Otros Conceptos de Costo o Gastos indirectos, se debe dar clic en el botón <a class="btn gray"> O. Conceptos</a> y dar un clic sobre el registro, en el cual se visualizan los siguientes campos:
@@ -199,13 +199,13 @@ Para consultar  Otros Conceptos de Costo o Gastos indirectos, se debe dar clic e
 
 Se puede visualizar la evaluación del servicio del personal de mantenimiento o de servicios que realizó la labor. La evaluación fue hecha por un usuario, previamente autorizado, quien fuera el receptor del servicio, una vez que se haya cerrado la OT. 
 
-![Procesar imagen](../assets/images/cap13/chp13_img08.png)
+![Procesar imagen](../../assets/images/cap13/chp13_img08.png)
 _**Imagen 8.** Historia Archivada- Evaluación del Servicio_
 
 
 ### Multimedia
 
-![Procesar imagen](../assets/images/cap13/chp13_img09.png)
+![Procesar imagen](../../assets/images/cap13/chp13_img09.png)
 _**Imagen 9.** Historia Archivada- Multimedia_
 
 
@@ -221,10 +221,10 @@ A través de la ventana Multimedia se consulta información gráfica y multimedi
 
 Para ingresar a una carpeta específica se debe de dar un doble clic:
 
-![Procesar imagen](../assets/images/cap13/chp13_img10.png)
+![Procesar imagen](../../assets/images/cap13/chp13_img10.png)
 _**Imagen 10.** Historia Archivada - Detalle Multimedia_
 
 Para visualizar los anexos tipo:  WORD, PDF, EXCEL, ellos se descargan dando un clic en el ícono <span class="mdi mdi-cloud-download icon white"></span>. 
 
-![Procesar imagen](../assets/images/cap13/chp13_img11.png)
+![Procesar imagen](../../assets/images/cap13/chp13_img11.png)
 _**Imagen 11.** Historia Archivada- Descargar Multimedia_

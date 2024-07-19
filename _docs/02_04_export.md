@@ -11,7 +11,7 @@ Esta opción permite la exportación de los registros de la tabla seleccionada, 
 
 Al ejecutar esta transacción, se abrirá una ventana la cual se muestra a continuación:
 
-![Procesar imagen](../assets/images/cap02/chp02_img78.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img78.png)
 _**Imagen 78.** Ventana Exportar_
 
 Al darle clic en el botón Exportar <span class="mdi mdi-download"></span>, se generará un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso, el objetivo de esta exportación es llevar toda la información de los registros contenidos en el visor a un archivo plano, para luego ser analizados.

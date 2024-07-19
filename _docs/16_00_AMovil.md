@@ -12,14 +12,14 @@ Se aprende a interpretar los comandos y a seleccionar las opciones de los módul
 
 Una vez se ingrese a la aplicación (APK suministrada por WIN Software), se visualiza la ventana para iniciar sesión:
 
-![Procesar imagen](../assets/images/cap16/chp16_img01.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img01.jpeg)
 _**Imagen 1.** AMovil - Iniciar Sesión_
 
 
 Cuando se ingresa a la aplicación se muestran los dashboards sin carga de datos como se visualiza a continuación:
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img02.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img02.jpeg)
 _**Imagen 2.** AMovil - Inicio_
 
 
@@ -28,7 +28,7 @@ En la parte superior derecha se visualizan los siguientes íconos que representa
 
 <a class="btn cl-white bg-blue fs-2"><span class="iconify btn-icon cl-white" data-icon="mdi-download"></span><span class="dot bg-af-green"></span></a>: descarga la información de la base de datos para comenzar a trabajar con la aplicación. Al dar un toque aparece un mensaje de advertencia:
 
-![Procesar imagen](../assets/images/cap16/chp16_img03.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img03.jpeg)
 _**Imagen 3.** AMovil - Mensaje Advertencia descarga_
 
 Para continuar dar un toque en <a class="btn cl-white bg-blue px-4"> Aceptar</a>. 
@@ -38,14 +38,14 @@ Para evitar el proceso dar un toque sobre el botón <a class="btn cl-white bg-gr
 
 Una vez se inicie el proceso de descarga, se indica el avance así:
 
-![Procesar imagen](../assets/images/cap16/chp16_img04.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img04.jpeg)
 _**Imagen 4.** AMovil - Descarga de datos_
 
 
 Finalizado el proceso de descarga, los dashboards se actualizan automáticamente:
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img05.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img05.jpeg)
 _**Imagen 5.** AMovil - Actualización de datos_
 
 
@@ -66,19 +66,19 @@ De la imagen anterior se visualiza el dashboard seleccionado de Solicitudes <a c
 Al sincronizar, aparece un mensaje de advertencia:
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img06.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img06.jpeg)
 _**Imagen 6.** AMovil - Advertencia Sincronizar datos_
 
 Para continuar dar un toque en <a class="btn cl-white bg-blue px-4"> Aceptar</a>. Mostrando el progreso de sincronización:
 .  
-![Procesar imagen](../assets/images/cap16/chp16_img07.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img07.jpeg)
 _**Imagen 7.** AMovil - Proceso Sincronizar_
 
 Una vez complete el proceso, puede cerrar sesión en la aplicación.
 
 <a class="btn cl-white bg-blue"><span class="mdi mdi-menu cl-white fs-2"></span></a>: ingresa al menú principal de la aplicación, como se muestra a continuación:  
 
-![Proces  <ar imagen](../assets/images/cap16/chp16_img08.jpeg)
+![Proces  <ar imagen](../../assets/images/cap16/chp16_img08.jpeg)
 _**Imagen 8.** AMovil - Ir a Menú_
 
 
@@ -130,7 +130,7 @@ Para acceder al Submenú de Activos se debe dar un toque sobre el botón <a clas
 
 Al ingresar al módulo de Activos aparecen las siguientes opciones:
 
-![Procesar imagen](../assets/images/cap16/chp16_img09.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img09.jpeg)
 _**Imagen 9.** AMovil - Submenú de Activos_
 
 
@@ -141,14 +141,14 @@ Para hacer consulta de algún registro, dar un toque en el botón <a class="btn 
 En la parte superior derecha se visualiza el número total de Activos registrados en la base de datos <a class="btn cl-black bg-white px-5">556</a>:
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img10.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img10.jpeg)
 _**Imagen 10.** AMovil - Ir a Detalle Activos_
 
 Para visualizar la ficha técnica del Activo, dar un toque sobre el botón <a class="btn cl-black bg-blue-25 bd-blue px-4">Detalle</a>:
 
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img11.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img11.jpeg)
 _**Imagen 11.** AMovil - Ficha Técnica Activos_
      
 
@@ -157,7 +157,7 @@ Para guardar un cambio sobre la ficha técnica dar un toque en <a class="btn cl-
 El aplicativo confirma que se ha actualizado el registro, para continuar dar un toque en <a class="btn cl-white bg-blue px-3"> Aceptar</a> como se muestra a continuación:
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img12.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img12.jpeg)
 _**Imagen 12.** AMovil - Mensaje Alerta Actualizar Activos_
  
 
@@ -167,7 +167,7 @@ _**Imagen 12.** AMovil - Mensaje Alerta Actualizar Activos_
 Para ingresar a **Multimedia** de Activos, ingrese al Detalle del registro en cuestión; nótese que en la parte superior derecha se encuentra el siguiente ícono <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a>, el cual muestra las siguientes dos opciones:
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img13.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img13.jpeg)
 _**Imagen 13.** AMovil - Ir a Multimedia_
 
 Para añadir multimedia o descargar los archivos existentes dar un toque en <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-paperclip"></span></a>. Éste muestra la información general del Activo y tres carpetas disponibles: 
@@ -177,7 +177,7 @@ Para añadir multimedia o descargar los archivos existentes dar un toque en <a c
 
 Como se muestra en la siguiente imagen:
 
-![Procesar imagen](../assets/images/cap16/chp16_img14.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img14.jpeg)
 _**Imagen 14.** AMovil - Multimedia_
 
 A continuación se ilustra un ejemplo para subir Documentos, el cual es el mismo para Imágenes o Videos:
@@ -187,14 +187,14 @@ Para agregar o consultar documentos dar un toque en la respectiva carpeta <a cla
 
 En caso caso de tener documentos añadidos desde **AM**, es  posible visualizarlos a través del botón <span  class="iconify icon cl-black bg-white" data-icon="mdi-download"></span></a>.
 
-![Procesar imagen](../assets/images/cap16/chp16_img15.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img15.jpeg)
 _**Imagen 15.** AMovil - Guardar Multimedia_
 
 Para subir un nuevo archivo, continúe dando un toque sobre <a class="btn cl-white bg-blue px-4">Subir archivo</a>, éste abre el explorador de archivos de su dispositivo móvil. Una vez seleccione el archivo, se visualiza el nombre del documento debajo del botón <a class="btn cl-white bg-blue px-4">Guardar</a>, como se indica en la siguiente imagen:
 
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img16.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img16.jpeg)
 _**Imagen 16.** AMovil - Guardar Multimedia_
 
 
@@ -202,12 +202,12 @@ Finalice dando un toque en el botón <a class="btn cl-white bg-blue px-4">Guarda
 Cuando se cargue el archivo, el aplicativo  muestra un mensaje de guardado exitoso, así:
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img17.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img17.jpeg)
 _**Imagen 17.** AMovil - Mensaje Alerta Guardar Multimedia_
 
 Los archivos añadidos se guardan en el orden del mas reciente al mas antiguo como se indica en la siguiente imagen:
 
-![Procesar imagen](../assets/images/cap16/chp16_img17_01.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img17_01.jpeg)
 _**Imagen 17.** AMovil - Visualización Multimedia_
 
 
@@ -218,17 +218,17 @@ Se usa para realizar búsquedas de Activos que cumplen con un conjunto de filtro
 
 Para ingresar a esta opción se debe dar un toque al icono de Subgrupo <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-filter-variant"></span></a> ubicado en la parte inferior derecha de la pantalla, como se indica a continuación:
 
-![Procesar imagen](../assets/images/cap16/chp16_img18.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img18.jpeg)
 _**Imagen 18.** AMovil - Ir a Subgrupo_
 
 Esto lleva a la siguiente ventana, como se indica a continuación:
 
-![Procesar imagen](../assets/images/cap16/chp16_img19.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img19.jpeg)
 _**Imagen 19.** AMovil - Seleccionar un filtro Subgrupo_
  
 Se debe dar un toque sobre el botón <a class="btn cl-gray bg-white bd-gray px-5"></span>Seleccione un filtro</a> para visualizar los siguientes criterios de búsqueda:
 
-![Procesar imagen](../assets/images/cap16/chp16_img20.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img20.jpeg)
 _**Imagen 20.** AMovil - Subgrupo Criterios de Búsqueda_
 
 
@@ -252,20 +252,20 @@ A continuaciónn se muestra un ejemplo con el criterio **Código AC**:
 Una vez que se haya elegido el criterio de búsqueda, se muestran los siguientes campos a diligenciar:
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img21.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img21.jpeg)
 _**Imagen 21.** AMovil - Subgrupo Código AC_
 
 Finalice dando un toque en <a class="btn cl-white bg-blue px-3"> Aceptar </a> una vez que haya ingresado información al campo, a continuación se muestra el resultado de la búsqueda para el código **COA**. El botón <a class="btn cl-black bg-white px-5">11</a> ubicado en la parte superior derecha de la ventana es la cantidad de resultados obtenidos:
 
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img22.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img22.jpeg)
 _**Imagen 22.** AMovil - Subgrupo Resultado_
 
   
 El Subgrupo se conserva hasta que el usuario reestablezca los valores por defecto, para reestablecerlo o para hacer otras búsquedas dar un toque nuevamente en el bóton <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-filter-variant"></span></a> en el cual se muestran las últimas búsquedas realizadas.
 
-![Procesar imagen](../assets/images/cap16/chp16_img23.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img23.jpeg)
 _**Imagen 23.** AMovil - Subgrupo Búsquedas recientes_
 
 
@@ -280,11 +280,11 @@ AMovil permite crear un registro de Activo, siempre que el usuario logueado cuen
 Para Crear un Activo dar un toque en el botón del submenu de Activos <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-plus-outline"></span> Crear Activo </a> ,  el cual abre el siguiente formulario:
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img24.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img24.jpeg)
 _**Imagen 24.** AMovil - Crear Activo Formulario_
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img25.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img25.jpeg)
 _**Imagen 25.** AMovil - Crear Activo Formulario_
 
 Los campos con un asterisco (*) al inicio, indican que son campos obligantes. A continuación se da una breve explicación de los campos:
@@ -325,7 +325,7 @@ El aplicativo muestra un mensaje alerta confirmado el ingreso del registro, como
 
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img26.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img26.jpeg)
 _**Imagen 26.** AMovil - Crear Activo Mensaje Aviso_
 
 
@@ -339,7 +339,7 @@ Cabe destacar que la configuración de los mismos se hace inicialmente desde **A
 A continuación se muestra el listado de los Activos que tienen asociado un contador <a class="btn cl-black bg-white px-5">26</a> : 
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img27.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img27.jpeg)
 _**Imagen 27.** AMovil - Ir a Actualizar Contadores_
 
 De la imagen anterior se indica lo siguiente: 
@@ -349,7 +349,7 @@ Los Activos sombreados en gris indican que son **"Hijos"** y además, poseen la 
 
 En esta sección también es posible hacer un subgrupo <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-filter-variant"></span></a> para actualizar el contador de un grupo de Activos , a continuación se muestra un ejemplo: 
 
-![Procesar imagen](../assets/images/cap16/chp16_img28.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img28.jpeg)
 _**Imagen 28.** AMovil - Actualizar Contadores_
 
 En la imagen anterior, se visualiza un Activo padre y un Activo hijo que no posee el mismo valor de contador; al presentarse esta diferencia se debe <a class="btn cl-black bg-blue-25 bd-blue px-6">Actualizar</a> el valor de cada uno.
@@ -358,21 +358,21 @@ En la imagen anterior, se visualiza un Activo padre y un Activo hijo que no pose
 En este ejemplo se muestra el detalle del Activo Padre:
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img29.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img29.jpeg)
 _**Imagen 29.** AMovil - Detalle Actualizar Contadores_
 
 
 Se digita el nuevo valor de medición del contador y finalmente se da un toque en el botón <a class="btn cl-white bg-blue px-3"> Guardar </a>, el aplicativo muestra un mensaje alerta confirmando los cambios realizados.
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img30.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img30.jpeg)
 _**Imagen 30.** AMovil - Mensaje Alerta Actualizar Contadores_
 
 Cuando se detecta un valor inferior al valor actual del contador del Activo, el aplicativo muestra un mensaje alerta y se deberá revisar nuevamente el valor ingresado:
 
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img31.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img31.jpeg)
 _**Imagen 31.** AMovil - Mensaje Alerta Actualizar Contadores_
 
 
@@ -383,7 +383,7 @@ _**Imagen 31.** AMovil - Mensaje Alerta Actualizar Contadores_
 
 Para llevar a cabo esta transacción se debe dar un toque sobre el botón <a class="btn cl-black bg-white bd-gray px-6"><span class="iconify cl-black" data-icon="mdi-format-list-bulleted-square"></span> Inventario físico </a> ubicado en el submenú de Activos, el cual muestra el siguiente submenú:
 
-![Procesar imagen](../assets/images/cap16/chp16_img32.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img32.jpeg)
 _**Imagen 32.** AMovil - Ir a Inventario físico_
 
 
@@ -393,37 +393,37 @@ Cada una de las opciones anteriores, son criterios por los cuales es posible eje
 El criterio <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-text-search"></span> Otro</a>  despliega un conjunto de otras opciones para realizar el inventario:
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img33.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img33.jpeg)
 _**Imagen 33.** AMovil - Ir a Inventario físico Otro_
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img33_01.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img33_01.jpeg)
 _**Imagen 34.** AMovil - Ir a Inventario físico Otro_
 
 
 
 Al elegir una de las opciones mostradas anteriormente el aplicativo muestra un mensaje de advertencia, que consiste en recordar que cada uno de los Activos debe tener un código de barras o un código QR o bien un código alfanumérico. 
 
-![Procesar imagen](../assets/images/cap16/chp16_img34.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img34.jpeg)
 _**Imagen 35.** AMovil - Ir a Inventario físico Ubicación Física_
 
 
 Se ilustra un ejemplo usando el criterio **Ubicación Física.** Se muestran todas las ubicaciones de la base de datos:
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img35.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img35.jpeg)
 _**Imagen 36.** AMovil - Inventario físico Ubicación Física_
 
 Sin embargo, para facilitar la búsqueda use el botón <a class="btn cl-black bg-white bd-yellow btn-rounded"><span class="mdi mdi-magnify pr-3"></span><span class="pr-4">Buscar una Ubicación física</span></a> y digite una parte del nombre de la ubicación física:
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img36.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img36.jpeg)
 _**Imagen 37.** AMovil - Inventario físico Buscar Ubicación Física_
 
 Seleccione la ubicación física de interés, a continuación se visualiza la pantalla para comenzar el inventario:
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img37.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img37.jpeg)
 _**Imagen 38.** AMovil - Inventario físico Buscar Iniciar Inventario_
 
  
@@ -449,13 +449,13 @@ Para comenzar dar un toque en el botón <a class="btn cl-white bg-blue px-6"> In
 A continuación se ilustra un ejemplo con el criterio Ubicación Física: 
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img38.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img38.jpeg)
 _**Imagen 39.** AMovil - Inventario físico Detalle_
 
 Si se da un toque sobre cualquiera de los indicadores de colores ubicados en la parte superior se muestra un mensaje corto que explica su función en la parte inferior derecha:
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img39.png)
+![Procesar imagen](../../assets/images/cap16/chp16_img39.png)
 _**Imagen 40.** AMovil - Inventario físico Mensaje Indicador_
 
 
@@ -469,7 +469,7 @@ Para comenzar se sugiere escanear el código QR de los Activos, con el fin de ag
 Una vez se haga lectura del código QR, se muestra un mensaje en la parte inferior:
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img40.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img40.jpeg)
 _**Imagen 41.** AMovil - Inventario físico Lectura Código QR_
 
 
@@ -480,7 +480,7 @@ Para continuar el inventario dar un toque en <a class="btn cl-white bg-green 25 
 
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img41.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img41.jpeg)
 _**Imagen 42.** AMovil - Inventario físico Continuar Inventario_
 
 
@@ -488,33 +488,33 @@ _**Imagen 42.** AMovil - Inventario físico Continuar Inventario_
 El aplicativo actualiza lo que lleva del proceso:
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img42.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img42.jpeg)
 _**Imagen 43.** AMovil - Inventario físico Continuar Inventario_
 
 
 Se ilustra dentro del mismo ejemplo de inventario el registro de un Activo con la opción manual <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-square-edit-outline"></span></a>
 : 
 
-![Procesar imagen](../assets/images/cap16/chp16_img43.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img43.jpeg)
 _**Imagen 44.** AMovil - Inventari o físico Continuar Inventario_
 
-![Procesar imagen](../assets/images/cap16/chp16_img44.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img44.jpeg)
 _**Imagen 45.** AMovil - Inventario físico Continuar Inventario_
 
 Se muestra un mensaje exitoso en la parte inferior confirmando el registro del Activo:
 
-![Procesar imagen](../assets/images/cap16/chp16_img45.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img45.jpeg)
 _**Imagen 46.** AMovil - Inventario físico Continuar Inventario_
 
 
 Al dar un toque en el botón <a class="btn cl-white bg-red 25 px-6">Finalizar inventario</a> se muestra el resultado con la explicación de los indicadores y el detalle de cada Activo con su respectivo indicador como se muestra en la siguiente imagen:
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img46.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img46.jpeg)
 _**Imagen 47.** AMovil - Resumen Inventario_
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img47.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img47.jpeg)
 _**Imagen 48.** AMovil - Resumen Inventario_
 
 
@@ -525,7 +525,7 @@ _**Imagen 48.** AMovil - Resumen Inventario_
 Para acceder al Almacén se debe dar un toque sobre el botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-warehouse"></span> Almacen </a>:
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img48.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img48.jpeg)
 _**Imagen 49.** AMovil - Ir a Almacén_  
 
  
@@ -533,13 +533,13 @@ _**Imagen 49.** AMovil - Ir a Almacén_
 Se muestran los Almacenes definidos en **AM**, éstos se listan acorde a los permisos otorgados al usuario logueado: 
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img49.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img49.jpeg)
 _**Imagen 50.** AMovil - Almacenes_  
 
 
 Para ingresar a un Almacén se debe seleccionarlo con un toque, cada Almacén contiene un submenú que permite hacer consulta, creación de Materiales/Repuestos y hacer reservas acorde a los permisos que tenga el usuario.
 
-![Procesar imagen](../assets/images/cap16/chp16_img50.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img50.jpeg)
 _**Imagen 51.** AMovil - Almacén Submenú_  
 
 
@@ -548,21 +548,21 @@ _**Imagen 51.** AMovil - Almacén Submenú_
 
 Para hacer consulta de los Materiales/Repuestos se da un toque sobre el botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-magnify"></span> Consultar Repuestos</a>, a continuación se muestra el listado de los materiales/repuestos disponibles para el almacén seleccionado y en la parte superior se muestra el nombre del Almacén donde se realiza la consulta:
  
-![Procesar imagen](../assets/images/cap16/chp16_img51.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img51.jpeg)
 _**Imagen 52.** AMovil - Almacén Consulta Repuestos_  
 
 Para ingresar al detalle del registro se da un toque sobre el botón <a class="btn cl-black bg-peach bd-peach px-6"> Detalle</a> el cual muestra la ficha técnica del Material/Repuesto:
 
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img52.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img52.jpeg)
 _**Imagen 53.** AMovil - Ficha Técnica Repuesto_
      
 
 Para guardar un cambio sobre la ficha técnica dar un toque en <a class="btn cl-white bg-blue px-6"> Actualizar</a>. Se muestra un mensaje alerta indicando que se ha actualizado el registro y para continuar dar un toque en <a class="btn cl-white bg-blue px-6"> Aceptar</a> como se muestra a continuación:
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img53.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img53.jpeg)
 _**Imagen 54.** AMovil - Mensaje Alerta Actualizar Repuestos_
  
 
@@ -572,17 +572,17 @@ El Subgrupo de Materiales/Repuestos permite hacer búsquedas rápidas de registr
 
 Para ingresar a esta opción se debe dar un toque sobre el icono de Subgrupo <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-filter-variant"></span></a> ubicado en la parte inferior derecha de la pantalla, como se indica a continuación:
 
-![Procesar imagen](../assets/images/cap16/chp16_img54.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img54.jpeg)
 _**Imagen 55.** AMovil - Almacén Ir a Subgrupo_
 
 El subgrupo abre la siguiente ventana:
 
-![Procesar imagen](../assets/images/cap16/chp16_img55.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img55.jpeg)
 _**Imagen 56.** AMovil - Almacén Seleccionar un filtro Subgrupo_
  
 Se debe dar un toque sobre el botón <a class="btn cl-gray bg-white bd-gray px-5"></span>Seleccione un filtro</a> para visualizar los siguientes criterios de búsqueda y seleccionar un criterio:
 
-![Procesar imagen](../assets/images/cap16/chp16_img56.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img56.jpeg)
 _**Imagen 57.** AMovil - Almacén Subgrupo Criterios de Búsqueda_
 
 
@@ -595,24 +595,24 @@ Una vez que se elija el criterio de búsqueda, se muestran los siguientes campos
 A continuaciónn se muestra un ejemplo con el criterio **Código RP:**
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img57.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img57.jpeg)
 _**Imagen 58.** AMovil - Almacén Subgrupo Criterios de Búsqueda_ 
 
 De la imagen anterior, los botones ubicados en la parte inferior  <a class="btn cl-white bg-blue px-3"> Limpiar</a> y <a class="btn cl-white bg-blue px-3"> Aceptar </a> son para limpiar el campo y hacer una nueva búsqueda. 
 
-![Procesar imagen](../assets/images/cap16/chp16_img58.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img58.jpeg)
 _**Imagen 59.** AMovil - Almacén Subgrupo Código RP_
 
 Una vez introduzca los datos, finalice con el botón <a class="btn cl-white bg-blue px-3"> Aceptar </a>. A continuación se muestra el resultado de la búsqueda <a class="btn cl-black bg-white px-5">1</a>:
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img59.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img59.jpeg)
 _**Imagen 60.** AMovil - Almacén Subgrupo Resultado_
 
   
 El Subgrupo permanece hasta que el usuario reestablezca los valores por defecto. Para hacer otras búsquedas dar un toque nuevamente en el ícono subgrupo <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-filter-variant"></span></a> donde se muestran las búsquedas anteriores: 
 
-![Procesar imagen](../assets/images/cap16/chp16_img60.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img60.jpeg)
 _**Imagen 61.** AMovil - Almacén Subgrupo Búsquedas recientes_
 
 
@@ -627,7 +627,7 @@ Para crear un Material/Repuesto dar un toque en el botón del submenú de Activo
 
 Los campos con asteriscos en rojo (*) son obligatorios:
 
-![Procesar imagen](../assets/images/cap16/chp16_img61.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img61.jpeg)
 _**Imagen 62.** AMovil - Almacén Crear Repuesto Formulario_
 
 
@@ -649,7 +649,7 @@ Una vez que se diligencien los campos, finalizar dando un clic en el botón <a c
 
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img62.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img62.jpeg)
 _**Imagen 63.** AMovil - Almacén Crear Repuesto Formulario Mensaje Alerta_
 
 
@@ -660,7 +660,7 @@ Para reservar un Material/Repuesto se da un toque sobre el submenú de Almacén 
 
 A continuación se muestra el formulario de Reserva y se da una breve explicación de cada campo:
 
-![Procesar imagen](../assets/images/cap16/chp16_img63.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img63.jpeg)
 _**Imagen 64.** AMovil - Almacén Crear Repuesto Formulario Mensaje Alerta_
  
 **Fecha de uso:** Es la fecha en la que se tiene planeado utilizar el Material/Repuesto. De acuerdo con esta fecha, la persona encargada del Almacén debe mantener las unidades reservadas, disponibles sólo para quién registró la reserva.
@@ -679,12 +679,12 @@ _**Imagen 64.** AMovil - Almacén Crear Repuesto Formulario Mensaje Alerta_
 Una vez llenados los campos se da un toque sobre el botón <a class="btn cl-white bg-blue px-6"> Crear reserva</a> se mostrando el siguiente mensaje:
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img64.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img64.jpeg)
 _**Imagen 65.** AMovil - Almacén Crear Repuesto Formulario Mensaje Alerta_
 
 >**Nota:** cuando ya existe la reserva para una misma OT se muestra un mensaje que rechaza la reserva.
 
-![Procesar imagen](../assets/images/cap16/chp16_img65.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img65.jpeg)
 _**Imagen 66.** AMovil - Almacén Crear Repuesto Formulario Mensaje Alerta_
 
 
@@ -692,13 +692,13 @@ _**Imagen 66.** AMovil - Almacén Crear Repuesto Formulario Mensaje Alerta_
 
 Para ir a Solicitudes de Servicio dar un toque sobre el botón <a class="btn cl-black bg-white pl-2 pr-3 bd-blue"><span class="iconify cl-black fs-2 pr-1" data-icon="mdi-card-text-outline"></span> Solicitudes</a> en el menú principal:
 
-![Procesar imagen](../assets/images/cap16/chp16_img66.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img66.jpeg)
 _**Imagen 67.** AMovil - Ir a Solicitudes_
 
 
 En el siguiente submenú se muestran las siguientes opciones según los permisos de usuario:
 
-![Procesar imagen](../assets/images/cap16/chp16_img67.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img67.jpeg)
 _**Imagen 68.** AMovil - Solicitudes Submenú_
 
 
@@ -708,22 +708,22 @@ _**Imagen 68.** AMovil - Solicitudes Submenú_
 
 Para consulta y seguimiento de las Solicitudes de Servicio dirigirse al botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-magnify"></span> Consultar Solicitudes</a>, el cual conlleva al total de las Solicitudes:
 
-![Procesar imagen](../assets/images/cap16/chp16_img68.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img68.jpeg)
 _**Imagen 69.** AMovil - Solicitudes_
 
 Para ir al detalle del registro dar un toque en el botón  <a class="btn cl-black bg-yellow-light bd-yellow px-6"> Detalle</a> como se muestra a continuación:
 
-![Procesar imagen](../assets/images/cap16/chp16_img69.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img69.jpeg)
 _**Imagen 70.** AMovil - Solicitudes Detalle_
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img70.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img70.jpeg)
 _**Imagen 71.** AMovil - Solicitudes Detalle_
 
 
 Para guardar los cambios en alguno de los campos de la Solicitud dar un toque en el botón <a class="btn cl-white bg-blue px-6">Actualizar</a>. Se muestra un mensaje alerta confirmando los cambios:
 
-![Procesar imagen](../assets/images/cap16/chp16_img71.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img71.jpeg)
 _**Imagen 72.** AMovil - Solicitudes Actualizar Detalle_
 
 Para continuar dar un toque en <a class="btn cl-white bg-blue px-6">Aceptar</a>. 
@@ -731,7 +731,7 @@ Para continuar dar un toque en <a class="btn cl-white bg-blue px-6">Aceptar</a>.
 Para ingresar al submenú del Detalle de la Solicitud diríjase al botón ubicado en la parte superior derecha <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a>. Se muestran las siguientes opciones relacionadas a la gestión y cierre de Solicitudes:
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img72.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img72.jpeg)
 _**Imagen 73.** AMovil - Ir a Submenú Gestión/Cierre Solicitudes_
 
 
@@ -741,12 +741,12 @@ _**Imagen 73.** AMovil - Ir a Submenú Gestión/Cierre Solicitudes_
 
 Para ingresar los tiempos de ejecución de la Solicitud dirigirse al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego ingresar a <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-update"></span></a>. Se muestra el detalle de la Solicitud en cuestión, aquellas con estado **En análisis** deben tener previamente la fecha y hora de Atención, se muestra un ejemplo a continuación:
 
-![Procesar imagen](../assets/images/cap16/chp16_img73.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img73.jpeg)
 _**Imagen 74.** AMovil - Solicitudes Actualizar tiempos_
  
 En el detalle de la Solicitud dar un toque en el botón <a class="btn cl-white bg-green px-6">Ingresar FF/HH de atención </a> para ingresar automáticamente la fecha y hora:
 
-![Procesar imagen](../assets/images/cap16/chp16_img74.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img74.jpeg)
 _**Imagen 75.** AMovil - Solicitudes FFHH Atención_
 
 Luego de registrar la **FF/HH atención**, se  habilitan las opciones:
@@ -761,36 +761,36 @@ Luego de registrar la **FF/HH atención**, se  habilitan las opciones:
 La primera consiste en ingresar las fechas de ejecución de forma manual en cada campo y hacer correcciones sobre el tiempo de duración como se muestra a continuación:
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img75.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img75.jpeg)
 _**Imagen 76.** AMovil - Solicitudes Registro Manual de Tiempos_
 
 
 Para asentar los cambios dar un toque en el botón <a class="btn cl-white bg-blue px-6"> Guardar</a> donde se confirma la actualización y para continuar dar un toque en <a class="btn cl-white bg-blue px-6"> Aceptar</a>:
 
-![Procesar imagen](../assets/images/cap16/chp16_img76.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img76.jpeg)
 _**Imagen 77.** AMovil - Solicitudes Mensaje Alerta_
 
 La segunda, es para ingresar automáticamente los tiempos:
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img77.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img77.jpeg)
 _**Imagen 78.** AMovil - Solicitudes Ingreso Automático de Tiempos_
 
 
 Para dar inicio dar un toque en el botón  
 <a class="btn cl-white bg-green px-6"> Iniciar</a>, esto hará que la FF/Inicio (Fecha Inicio de Trabajos) se ingrese automáticamente. En la siguiente imagen se muestra el ingreso automático y los botones <a class="btn cl-white bg-green px-6"> Pausar </a> para el manejo del tiempo de duración y <a class="btn cl-white bg-red px-6"> Finalizar</a> para ingresar la FF/Fin (Fecha Fin de Trabajos). 
 
-![Procesar imagen](../assets/images/cap16/chp16_img78.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img78.jpeg)
 _**Imagen 79.** AMovil - Solicitudes Ingreso Automático de Tiempos_
 
 
 En caso de <a class="btn cl-white bg-green px-6"> Pausar </a> la ejecución de trabajos se prosigue con el botón <a class="btn cl-white bg-green px-6"> Continuar </a>  y al <a class="btn cl-white bg-red px-6"> Finalizar</a> la ejecución, se muestra el resumen de tiempos:
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img79.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img79.jpeg)
 _**Imagen 80.** AMovil - Solicitudes Ingreso Automático de Tiempos_
 
-![Procesar imagen](../assets/images/cap16/chp16_img80.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img80.jpeg)
 _**Imagen 81.** AMovil - Solicitudes Ingreso Automático de Tiempos_
 
 
@@ -799,7 +799,7 @@ _**Imagen 81.** AMovil - Solicitudes Ingreso Automático de Tiempos_
 
 Para ingresar los detalles de la ejecución o comentarios de la Solicitud dirigirse al botón  <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego a <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-wechat"></span></a> como se indica a continuación:
 
-![Procesar imagen](../assets/images/cap16/chp16_img81.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img81.jpeg)
 _**Imagen 82.** AMovil - Solicitudes Ir a Comentarios_
 
 A continuación se muestra el resumen de la Solicitud, para guardar el comentario dar un toque en el botón <a class="btn cl-white bg-blue px-6"> Guardar </a>. Se muestra un mensaje alerta y para finalizar dar un toque en 
@@ -807,17 +807,17 @@ A continuación se muestra el resumen de la Solicitud, para guardar el comentari
 Aceptar </a>:
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img82.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img82.jpeg)
 _**Imagen 83.** AMovil - Solicitudes Ingresar Comentarios_
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img83.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img83.jpeg)
 _**Imagen 84.** AMovil - Solicitudes Mensaje Alerta Comentarios_ 
 
 
 Una vez que se guarden los comentarios, se muestra el detalle en la parte inferior el usuario que registró el comentario así:
 
-![Procesar imagen](../assets/images/cap16/chp16_img84.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img84.jpeg)
 _**Imagen 85.** AMovil - Solicitudes Detalle Comentarios_ 
 
 
@@ -826,31 +826,31 @@ _**Imagen 85.** AMovil - Solicitudes Detalle Comentarios_
 
 Para ingresar documentos, imágenes o videos a la Solicitud dirigirse al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego ir a <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-paperclip"></span></a> como se indica a continuación: 
 
-![Procesar imagen](../assets/images/cap16/chp16_img85.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img85.jpeg)
 _**Imagen 86.** AMovil - Solicitudes Ir a Multimedia_
 
 A continuación se muestra un resumen de la Solicitud con las siguientes tres carpetas:
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img86.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img86.jpeg)
 _**Imagen 87.** AMovil - Solicitudes Multimedia_
 
 Cada una de las carpetas indican los tipos archivos permitidos en cada una. Una vez ingresada  a la carpeta, es posible devolverse con el botón <a class="btn cl-black bg-white pl-6 pr-6 bd-gray"><span class="iconify cl-black fs-2 pr-" data-icon="mdi-arrow-left-thick"></span> Atras</a>, para cargar el archivo dar un toque en el botón <a class="btn cl-white bg-blue px-6"> Subir archivo </a>, esto abre el explorador de archivos del teléfono móvil o estación donde se ejecute el proceso. Se ilustra un ejemplo añadiendo imágenes correspondientes a la solicitud: 
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img87.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img87.jpeg)
 _**Imagen 88.** AMovil - Solicitudes Multimedia_
 
 Una vez se elija el archivo, se muestra en la parte inferior su nombre, como se muestra a continuación:
 
-![Procesar imagen](../assets/images/cap16/chp16_img88.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img88.jpeg)
 _**Imagen 89.** AMovil - Solicitudes Multimedia_
 
 
 Para continuar, dar un toque en el botón <a class="btn cl-white bg-blue px-6"> Guardar </a>. Se muestra el siguiente mensaje alerta:
   
 
-![Procesar imagen](../assets/images/cap16/chp16_img89.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img89.jpeg)
 _**Imagen 90.** AMovil - Solicitudes Mensaje Alerta Multimedia_
 
 Para finalizar dar un toque en <a class="btn cl-white bg-blue px-6"> Aceptar </a>. Ir a <a class="btn cl-black bg-white pl-6 pr-6 bd-gray"><span class="iconify cl-black fs-2 pr-" data-icon=" mdi-arrow-left-thick"></span> Atras</a> para continuar agregando multimedia.
@@ -859,7 +859,7 @@ Una vez el registro tenga multimedia, se agrega un indicador de color naranja <s
 
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img90.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img90.jpeg)
 _**Imagen 91.** AMovil - Solicitudes Indicador Multimedia_ 
 
 
@@ -870,7 +870,7 @@ Para cerrar la Solicitud de Servicio se requiere que tenga los tiempos de ejecuc
 
 Cuando se tengan los tiempos diligenciados, diríjase al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego a Cerrar Solicitud  <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-check-circle"></span></a>:
 
-![Procesar imagen](../assets/images/cap16/chp16_img91.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img91.jpeg)
 _**Imagen 92.** AMovil - Solicitudes Ir a Cerrar Solicitud_ 
 
 
@@ -878,11 +878,11 @@ A continuación se muestra el detalle del Cierre de Solicitud. Además, es posib
 
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img92.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img92.jpg)
 _**Imagen 93.** AMovil - Solicitudes Detalle Cierre_
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img92_1.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img92_1.jpg)
 _**Imagen 94.** AMovil - Solicitudes Detalle Cierre_
 
 
@@ -890,12 +890,12 @@ Para ingresar la firma, se requiere que la Solicitud de Servicio tenga el estado
 
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img95.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img95.jpeg)
 _**Imagen 95.** AMovil - Solicitudes Cambiar Estado_
 
 Continúe asignando una causa de falla si es el caso. Se muestran las opciones de **Causa de Falla** (Aplicable a Solicitudes Correctivas). Se despliegan las Causas de Falla según la respectiva tabla de Infraestructura en **AM**:
 
-![Procesar imagen](../assets/images/cap16/chp16_img96.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img96.jpeg)
 _**Imagen 96.** AMovil - Solicitudes Causa de Falla_
 
 
@@ -906,27 +906,27 @@ Una vez diligencie el formulario del Cierre de Solicitud, debe <a class="btn cl-
 Para continuar dar un toque en el botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-outline"></span> Firma del encargado/Ejecutor</a>. Continúe ingresando la firma en el siguiente espacio:
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img93.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img93.jpeg)
 _**Imagen 97.** AMovil - Solicitudes Ingresar Firma_
 
 
 Se puede rehacer la firma con el botón <a class="btn cl-white bg-blue px-6"> Limpiar </a> o asentar la firma con el botón <a class="btn cl-white bg-blue px-6"> Guardar </a> y también es posible <a class="btn cl-black bg-white bd-blue px-6"> Visualizar firma </a>, como se muestra en el siguiente ejemplo: 
 
-![Procesar imagen](../assets/images/cap16/chp16_img94.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img94.jpeg)
 _**Imagen 98.** AMovil - Solicitudes Visualizar firma_
 
 
 
 Una vez se guarde la firma, se muestra el siguiente mensaje alerta:
 
-![Procesar imagen](../assets/images/cap16/chp16_img100.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img100.jpeg)
 _**Imagen 99.** AMovil - Solicitudes Cierre Mensaje Alerta_
 
 
 
 Los registros que tengan la firma del Responsable Ejecutor se indican a través de un color gris <span class="iconify cl-gray bd-gray bg-gray btn-rounded" data-icon="mdi-circle"></span>, como se muestra en el siguiente ejemplo:
 
-![Procesar imagen](../assets/images/cap16/chp16_img102.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img102.jpeg)
 _**Imagen 100.** AMovil - Solicitudes Indicador Firma_
 
 
@@ -934,7 +934,7 @@ _**Imagen 100.** AMovil - Solicitudes Indicador Firma_
 
 Para evaluar el servicio al Responsable Ejecutor se debe ir al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego a Evaluación <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-format-list-checks"></span></a>
 
-![Procesar imagen](../assets/images/cap16/chp16_img103.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img103.jpeg)
 _**Imagen 101.** AMovil - Solicitudes Ir a Evaluación_
 
 
@@ -947,29 +947,29 @@ A continuación marque su respuesta en cada pregunta, siendo:
 - M: Malo
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img104.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img104.jpeg)
 _**Imagen 102.** AMovil - Solicitudes Evaluación_
 
 
 Continúe con el botón <a class="btn cl-white bg-blue px-6"> Guardar </a>. Luego de actualizarse se muestra el siguiente mensaje alerta:
 
-![Procesar imagen](../assets/images/cap16/chp16_img105.jpeg)  
+![Procesar imagen](../../assets/images/cap16/chp16_img105.jpeg)  
 _**Imagen 103.** AMovil - Solicitudes Registro Evaluación_
 
 En la parte inferior se habilita el botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-outline"></span> Firma de quien recibe/Evalúa</a> con el fin de registrar la firma del Solicitante:
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img106.jpeg)  
+![Procesar imagen](../../assets/images/cap16/chp16_img106.jpeg)  
 _**Imagen 104.** AMovil - Solicitudes Ir a Firma Solicitante_
 
 Al ingresar a la opción se muestra una ventana detalle ingreso de la firma del Solicitante:
 
-![Procesar imagen](../assets/images/cap16/chp16_img107.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img107.jpeg)
 _**Imagen 105.** AMovil - Solicitudes Detalle Firma Solicitante_
 
 Continúe ingresando registrando la firma, a continuación se muestra una ejemplo gráfico:
 
-![Procesar imagen](../assets/images/cap16/chp16_img108.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img108.jpeg)
 _**Imagen 106.** AMovil - Solicitudes Ejemplo Firma Solicitante_
 
 
@@ -978,18 +978,18 @@ Para guardar la firma, continúe con el botón <a class="btn cl-white bg-blue px
 Una vez se guarde la firma, el aplicativo muestra el siguiente mensaje alerta:
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img109.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img109.jpeg)
 _**Imagen 107.** AMovil - Solicitudes Mensaje Alerta Firma Solicitante_
 
 Para verificar el registro de la firma, ingrese nuevamente en el botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-outline"></span> Firma de quien recibe/Evalúa</a> y en el detalle del ingreso de la firma continúe a la opción <a class="btn cl-w black bd-blue bg-white px-6"> Visualizar Firma </a>:
 
-![Procesar imagen](../assets/images/cap16/chp16_img110.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img110.jpeg)
 _**Imagen 109.** AMovil - Solicitudes Visualizar Firma Solicitante_
 
 
 También, es posible saber que un registro posee la firma del Solicitante, a través del indicador blanco <span class="iconify cl-white bd-black btn-rounded" data-icon="mdi-circle"></span> así:
 
-![Procesar imagen](../assets/images/cap16/chp16_img111.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img111.jpeg)
 _**Imagen 110.** AMovil - Solicitudes Indicador Firma Solicitante_
 
 
@@ -1009,32 +1009,32 @@ Para ello se sugiere usar la función **Subgrupo**. A continuación se muestra u
 
 Una vez ingrese a la opción <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-magnify"></span> Consultar Solicitudes</a> diríjase a la opción Subgrupo <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-filter-variant"></span></a> mostrado a continuación:
 
-![Procesar imagen](../assets/images/cap16/chp16_img112.png)
+![Procesar imagen](../../assets/images/cap16/chp16_img112.png)
 _**Imagen 111.** AMovil - Consulta Solicitudes _
 
 Haga la búsqueda por medio de los siguientes filtros en la opción <a class="btn cl-black bg-white bd-gray px-5"></span>Seleccione un filtro</a>:
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img113.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img113.jpg)
 _**Imagen 112.** AMovil - Subgrupo Solicitudes_
 
 Para el ejemplo se usa el filtro **Responsable**, esta opción lista todos los Responsables ejecutores de la tabla de Terceros en **AM**, además, puede facilitar la búsqueda con el botón <a class="btn cl-black bg-white bd-yellow btn-rounded"><span class="mdi mdi-magnify pr-3"></span><span class="pr-4">Buscar un Responsable </span></a>
 e introducir una parte del nombre, una vez lo seleccione se muestra el campo diligenciado, como se indica a continuación:
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img114.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img114.jpg)
 _**Imagen 113.** AMovil - Subgrupo Solicitudes_
 
 Continúe con el botón <a class="btn cl-white bg-blue px-6"> Aceptar</a> ubicado en la parte inferior. 
 
 Luego, visualice el resultado del Subgrupo en la parte superior con el botón <a class="btn cl-black bg-white px-5">3</a>:
 
-![Procesar imagen](../assets/images/cap16/chp16_img115.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img115.jpg)
 _**Imagen 114.** AMovil - Subgrupo Solicitudes_
 
 Diríjase al botón ubicado en la parte superior derecha <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a>:
 
-![Procesar imagen](../assets/images/cap16/chp16_img116.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img116.jpg)
 _**Imagen 115.** AMovil - Ir a Firma Masiva_
 
 
@@ -1043,47 +1043,47 @@ Seguidamente elija la opción **Firma Masiva De Quien Recibe**
 
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img117.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img117.jpg)
 _**Imagen 116.** AMovil - Firma Masiva Recibido Satisfacción_
 
 
 Para ingresar la firma, primero ingrese el nombre de quien recibe o evalúa en el primer recuadro de la parte superior, continúe dibujando la firma en el siguiente recuadro. Puede rehacerla con el botón <a class="btn cl-white bg-blue px-6"> Limpiar </a> o asentarla con el botón <a class="btn cl-white bg-blue px-6"> Guardar </a>. 
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img118.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img118.jpg)
 _**Imagen 117.** AMovil - Firma Masiva Recibido Satisfacción_
 
 
 Al guardar la firma se muestra un mensaje alerta exitoso de ingreso. Continúe dando un toque al botón <a class="btn cl-white bg-blue px-6"> Aceptar </a>. 
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img119.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img119.jpg)
 _**Imagen 118.** AMovil - Firma Masiva Recibido Satisfacción_
 
 
 Al finalizar los registros quedan con el indicador blanco:
 
-![Procesar imagen](../assets/images/cap16/chp16_img120.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img120.jpg)
 _**Imagen 119.** AMovil - Firma Masiva Recibido Satisfacción_
 
 
 
 Diríjase al botón ubicado en la parte superior derecha <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a>:
 
-![Procesar imagen](../assets/images/cap16/chp16_img116.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img116.jpg)
 _**Imagen 120.** AMovil - Ir a Firma Encargado Solicitud_
 
 
 Seguidamente elija la opción **Firma Masiva Del Técnico Responsable** <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-file-edit-outline"></span></a>:
 
-![Procesar imagen](../assets/images/cap16/chp16_img121.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img121.jpg)
 _**Imagen 121.** AMovil - Ir a Firma Encargado Solicitud_
 
 
 Continúe dibujando la firma en el siguiente recuadro. Puede rehacerla con el botón <a class="btn cl-white bg-blue px-6"> Limpiar </a> o asentarla con el botón <a class="btn cl-white bg-blue px-6"> Guardar </a>. 
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img122.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img122.jpg)
 _**Imagen 122.** AMovil - Firma Masiva Encargado Solicitud_
 
 
@@ -1091,13 +1091,13 @@ Al guardar la firma se muestra un mensaje alerta exitoso de ingreso. Continúe d
 
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img123.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img123.jpg)
 _**Imagen 123.** AMovil - Firma Masiva Mensaje Alerta_
 
 
 Al finalizar los registros quedan con el indicador gris <span class="iconify cl-gray bd-gray bg-gray btn-rounded" data-icon="mdi-circle"></span>:
 
-![Procesar imagen](../assets/images/cap16/chp16_img124.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img124.jpg)
 _**Imagen 124.** AMovil - Firma Masiva Encargado Solicitud Indicador_
 
 
@@ -1107,15 +1107,15 @@ _**Imagen 124.** AMovil - Firma Masiva Encargado Solicitud Indicador_
 Para crear un nuevo registro diríjase al botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-plus-outline"></span> Crear Solicitud</a> , el cual conlleva al siguiente formulario:
  
 
-![Procesar imagen](../assets/images/cap16/chp16_img124_1.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img124_1.jpg)
 _**Imagen 125.** AMovil - Submenú Ir a Crear Solicitud_
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img125_1.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img125_1.jpg)
 _**Imagen 126.** AMovil - Formulario Solicitud_
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img126_1.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img126_1.jpg)
 _**Imagen 127.** AMovil - Formulario Crear Solicitud_
 
 Todos los campos son obligatorios, se debe contar con los permisos para visualizar la Órden creada.  
@@ -1142,12 +1142,12 @@ A continuación se da una breve explicación de cada campo:
 
 Una vez diligenciado completamente el formulario contínue con el botón <a class="btn cl-white bg-blue px-6"> Guardar</a>, el aplicativo muestra el siguiente mensaje alerta y contínue con el botón <a class="btn cl-white bg-blue px-6"> Aceptar </a>.
 
-![Procesar imagen](../assets/images/cap16/chp16_img127_1.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img127_1.jpg)
 _**Imagen 128.** AMovil - Crear Solicitud Mensaje Alerta_
 
 Para visualizar la SS creada no debe tener subgrupos activos:
 
-![Procesar imagen](../assets/images/cap16/chp16_img128_1.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img128_1.jpg)
 _**Imagen 129.** AMovil - Crear Solicitud_
 
 
@@ -1156,13 +1156,13 @@ _**Imagen 129.** AMovil - Crear Solicitud_
 
 Para ir a Órdenes dar un toque sobre el botón <a class="btn cl-black bg-white pl-2 pr-3 bd-gray"><span class="iconify cl-black fs-2 pr-1" data-icon="mdi-text-box-outline"></span> Órdenes</a> en el menú principal:
 
-![Procesar imagen](../assets/images/cap16/chp16_img66.jpeg)
+![Procesar imagen](../../assets/images/cap16/chp16_img66.jpeg)
 _**Imagen 130** AMovil - Ir a Ordenes_
 
 
 En el siguiente submenú se muestran las siguientes opciones según los permisos de usuario:
 
-![Procesar imagen](../assets/images/cap16/chp16_img125.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img125.jpg)
 _**Imagen 131.** AMovil - Ordenes Submenú_
 
 
@@ -1172,23 +1172,23 @@ _**Imagen 131.** AMovil - Ordenes Submenú_
 
 Para consulta y seguimiento de las Órdenes de Trabajo dirigirse al botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-magnify"></span> Consultar Órdenes </a>, el cual conlleva al total de las Órdenes:
 
-![Procesar imagen](../assets/images/cap16/chp16_img126.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img126.jpg)
 _**Imagen 132.** AMovil - Consulta Ordenes_
 
 Para ir al detalle del registro dar un toque en el botón  <a class="btn bg-mint bd-mint px-6">Detalle</a> como se muestra a continuación:
 
-![Procesar imagen](../assets/images/cap16/chp16_img127.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img127.jpg)
 _**Imagen 133.** AMovil - Ordenes Detalle_
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img128.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img128.jpg)
 _**Imagen 134.** AMovil - Ordenes Detalle_
 
 
 
 Para guardar los cambios en alguno de los campos de la Orden dar un toque en el botón <a class="btn cl-white bg-blue px-6">Actualizar</a>. Se muestra un mensaje alerta confirmando los cambios:
 
-![Procesar imagen](../assets/images/cap16/chp16_img129.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img129.jpg)
 _**Imagen 135.** AMovil - Ordenes Actualizar Detalle_
 
 Para continuar dar un toque en <a class="btn cl-white bg-blue px-6">Aceptar</a>. 
@@ -1196,7 +1196,7 @@ Para continuar dar un toque en <a class="btn cl-white bg-blue px-6">Aceptar</a>.
 Para ingresar al submenú dentro del Detalle de la Órden diríjase al botón ubicado en la parte superior derecha <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a>. Se muestran las siguientes opciones relacionadas a la gestión y cierre de Órdenes:
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img130.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img130.jpg)
 _**Imagen 136.** AMovil - Ir a Submenú Gestión/Cierre Ordenes_
 
 
@@ -1206,12 +1206,12 @@ _**Imagen 136.** AMovil - Ir a Submenú Gestión/Cierre Ordenes_
 
 Para ingresar los tiempos de ejecución de la Órden diríjase al <a class="btn bg-mint bd-mint px-6">Detalle</a> de la Órden de Trabajo y luego al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego a <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-update"></span></a>. Se muestra el detalle de la Órden en cuestión, aquellas con estado **En análisis** deben tener previamente la **Fecha y hora de Atención**, se muestra un ejemplo a continuación:
 
-![Procesar imagen](../assets/images/cap16/chp16_img131.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img131.jpg)
 _**Imagen 137.** AMovil - Ordenes Actualizar tiempos_
  
 En el detalle de la Orden dar un toque en el botón <a class="btn cl-white bg-green px-6">Ingresar FF/HH de atención </a> para ingresar automáticamente la fecha y hora:
 
-![Procesar imagen](../assets/images/cap16/chp16_img132.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img132.jpg)
 _**Imagen 138.** AMovil - Ordenes FFHH Atención_
 
 Luego de registrar la **FF/HH atención**, se  habilitan las opciones:
@@ -1225,79 +1225,79 @@ Luego de registrar la **FF/HH atención**, se  habilitan las opciones:
 
 La primera consiste en ingresar las fechas y horas de ejecución de forma manual en cada campo y hacer también correcciones sobre el tiempo de duración:
 
-![Procesar imagen](../assets/images/cap16/chp16_img133.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img133.jpg)
 _**Imagen 139.** AMovil - Ordenes Registro Manual de Tiempos_
 
 
 Para asentar los cambios dar un toque en el botón <a class="btn cl-white bg-blue px-6"> Guardar</a> donde se confirma la actualización y para continuar dar un toque en <a class="btn cl-white bg-blue px-6"> Aceptar</a>:
 
-![Procesar imagen](../assets/images/cap16/chp16_img134.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img134.jpg)
 _**Imagen 140.** AMovil - Ordenes Mensaje Alerta_
 
 La segunda opción, es para ingresar automáticamente los tiempos:
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img135.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img135.jpg)
 _**Imagen 141.** AMovil - Ordenes Ingreso Tiempos Automático_
 
 
 Para dar inicio dar un toque en el botón  
 <a class="btn cl-white bg-green px-6"> Iniciar</a>, esto hará que la FF/Inicio (Fecha Inicio de Trabajos) se ingrese automáticamente. En la siguiente imagen se muestra el ingreso automático y los botones <a class="btn cl-white bg-green px-6"> Pausar </a> para el manejo del tiempo de duración y <a class="btn cl-white bg-red px-6"> Finalizar</a> para ingresar la FF/Fin (Fecha Fin de Trabajos). 
 
-![Procesar imagen](../assets/images/cap16/chp16_img136.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img136.jpg)
 _**Imagen 142.** AMovil - Ordenes Ingreso Automático de Tiempos_
 
-![Procesar imagen](../assets/images/cap16/chp16_img137.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img137.jpg)
 _**Imagen 143.** AMovil - Ordenes Ingreso Automático de Tiempos_
 
 
 En caso de <a class="btn cl-white bg-green px-6"> Pausar </a> la ejecución de trabajos se prosigue con el botón <a class="btn cl-white bg-green px-6"> Continuar </a>, a la vez que su transcurso calcula el Tiempo de Druación (ttr) y Tiempo Improductivo (para las órdenes que aplique):
 
-![Procesar imagen](../assets/images/cap16/chp16_img138.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img138.jpg)
 _**Imagen 144.** AMovil - Ordenes Ingreso Automático de Tiempos_
 
 Y, al <a class="btn cl-white bg-red px-6"> Finalizar</a> la ejecución, se muestra el resumen de tiempos:
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img139.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img139.jpg)
 _**Imagen 145.** AMovil - Ordenes Ingreso Automático de Tiempos_
 
-![Procesar imagen](../assets/images/cap16/chp16_img140.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img140.jpg)
 _**Imagen 146.** AMovil - Ordenes Ingreso Automático de Tiempos_
 
 ### Adicionar mano obra interna
 
 Para ingresar al personal técnico interno que participó en la ejecución de la Órden, ingrese al <a class="btn bg-mint bd-mint px-6">Detalle</a> de la Órden de Trabajo en cuestión, seguidamente al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego en <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-account-plus-outline"></span></a>:
 
-![Procesar imagen](../assets/images/cap16/chp16_img141.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img141.jpg)
 _**Imagen 147.** AMovil - Ir a Ordenes Ingreso Mano Obra Interna_
 
 
 Al ingresar se muestra la siguiente ventana:
 
-![Procesar imagen](../assets/images/cap16/chp16_img142.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img142.jpg)
 _**Imagen 148.** AMovil - Ordenes Ingreso Mano Obra Interna_
 
 Continúe dando un toque en el botón <a class="btn cl-white bg-blue px-6"> Adicionar Mano Obra Interna </a> e ingrese los datos solicitados en el siguiente formulario:
 
-![Procesar imagen](../assets/images/cap16/chp16_img143.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img143.jpg)
 _**Imagen 149.** AMovil - Ordenes Ingreso Mano Obra Interna_
 
 Guarde los cambios con el botón <a class="btn cl-white bg-blue px-6"> Guardar </a>, donde se muestra un mensaje alerta:
 
-![Procesar imagen](../assets/images/cap16/chp16_img144.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img144.jpg)
 _**Imagen 150.** AMovil - Ordenes Mensaje Alerta_
 
 Continúe con el botón <a class="btn cl-white bg-blue px-6"> Aceptar </a> donde se muestra un mensaje alerta de la mano de obra ingresada exitosamente:
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img145.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img145.jpg)
 _**Imagen 151.** AMovil - Ordenes Mensaje Alerta_
 
 Una vez guardados los cambios, se muestra el detalle del personal técnico ingresado:
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img146.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img146.jpg)
 _**Imagen 152.** AMovil - Ordenes Detalle Mano Obra Interna_
 
 
@@ -1308,12 +1308,12 @@ En caso de ingresar mas personal interno, repita los pasos anteriores.
 
 Para ingresar los comentarios o detalles de la ejecución ingrese al <a class="btn bg-mint bd-mint px-6">Detalle</a> de la OT en cuestión, seguidamente al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego a <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-wechat"></span></a> como se indica a continuación:
 
-![Procesar imagen](../assets/images/cap16/chp16_img147.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img147.jpg)
 _**Imagen 153.** AMovil - Ir a Ordenes Comentarios_
 
 A continuación se muestra el resumen de la Órden. Ingrese los detalles en el campo **Comentario**:
 
-![Procesar imagen](../assets/images/cap16/chp16_img148.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img148.jpg)
 _**Imagen 154.** AMovil - Ordenes Comentarios_
 
 Para guardar el comentario dar un toque en el botón <a class="btn cl-white bg-blue px-6"> Guardar </a>. Se muestra un mensaje alerta y para finalizar dar un toque en 
@@ -1322,14 +1322,14 @@ Aceptar </a>:
 
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img149.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img149.jpg)
 _**Imagen 155.** AMovil - Solicitudes Mensaje Alerta Comentarios_ 
 
 
 Una vez se guarden los comentarios, se muestra el detalle en la parte inferior del usuario que registró el comentario:
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img150.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img150.jpg)
 _**Imagen 156.** AMovil - Ordenes Detalle Comentarios_ 
 
 
@@ -1340,12 +1340,12 @@ Para ingresar mas comentarios repita los pasos anteriores.
 
 Para ingresar documentos, imágenes o videos a la OT diríjase al detalle del registro <a class="btn bg-mint bd-mint px-6">Detalle</a> luego al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego ir a <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-paperclip"></span></a> como se indica a continuación: 
 
-![Procesar imagen](../assets/images/cap16/chp16_img151.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img151.jpg)
 _**Imagen 157.** AMovil - Órdenes Ir a Multimedia_
 
 A continuación se muestra un resumen de la OT con las siguientes tres carpetas:
 
-![Procesar imagen](../assets/images/cap16/chp16_img152.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img152.jpg)
 _**Imagen 158.** AMovil - Órdenes Ir a Multimedia_
 
 Cada una de las carpetas indican los tipos archivos permitidos en cada una. Una vez ingresada  a la carpeta, es posible devolverse con el botón <a class="btn cl-black bg-white pl-6 pr-6 bd-gray"><span class="iconify cl-black fs-2 pr-" data-icon="mdi-arrow-left-thick"></span> Atras</a>. Para cargar el archivo dar un toque en el botón <a class="btn cl-white bg-blue px-6"> Subir archivo </a>, esto abre el explorador de archivos del teléfono móvil o estación donde se ejecute el proceso. Se ilustra un ejemplo añadiendo imágenes correspondientes a la OT:   
@@ -1353,19 +1353,19 @@ Cada una de las carpetas indican los tipos archivos permitidos en cada una. Una 
 >**Nota:** Solo se permiten para las imágenes formatos jpg o png. 
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img153.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img153.jpg)
 _**Imagen 159.** AMovil - Órdenes Multimedia_
 
 Una vez se elija el archivo se muestra en la parte inferior su nombre, como se muestra a continuación:
 
-![Procesar imagen](../assets/images/cap16/chp16_img154.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img154.jpg)
 _**Imagen 160.** AMovil - Órdenes Multimedia_
 
 
 Para continuar, dar un toque en el botón <a class="btn cl-white bg-blue px-6"> Guardar </a>. Se muestra el siguiente mensaje alerta:
   
 
-![Procesar imagen](../assets/images/cap16/chp16_img155.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img155.jpg)
 _**Imagen 161.** AMovil - Órdenes Mensaje Alerta Multimedia_
 
 
@@ -1375,7 +1375,7 @@ Una vez el registro tenga multimedia, se agrega un indicador de color naranja <s
 
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img156.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img156.jpg)
 _**Imagen 162.** AMovil - Órdenes Indicador Multimedia_ 
 
 Una vez se suba el archivo se visualiza su información de nombre y fecha del mismo, para adjuntar mas multimedia repita el proceso anterior.
@@ -1389,7 +1389,7 @@ Para cerrar la Órden de Trabajo se requiere que tenga los tiempos de ejecución
 
 Cuando se tengan los tiempos diligenciados, diríjase al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego a Cerrar Solicitud  <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-check-circle"></span></a>:
 
-![Procesar imagen](../assets/images/cap16/chp16_img157.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img157.jpg)
 _**Imagen 163.** AMovil - Órdenes Ir a Cerrar Órden_ 
 
 
@@ -1397,23 +1397,23 @@ A continuación se muestra el detalle del Cierre de la OT. Además, es posible q
 
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img158.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img158.jpg)
 _**Imagen 164.** AMovil - Órdenes Detalle Cierre_
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img159.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img159.jpg)
 _**Imagen 165.** AMovil - Órdenes Detalle Cierre_
 
 
 Para ingresar la firma, se requiere que la OT tenga el estado **Cerrada Ejecutada** ó **Cerrada Parcial**. Este estado depende de la parametrización en **AM** para cerrar en AMovil.
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img160.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img160.jpg)
 _**Imagen 166.** AMovil - Órdenes Cambiar Estado_
 
 Continúe asignando una causa de falla si es el caso. Se muestran las opciones de **Causa de Falla** (Aplicable a Órdenes Correctivas). Se despliegan las Causas de Falla según la respectiva tabla de Infraestructura en **AM**:
 
-![Procesar imagen](../assets/images/cap16/chp16_img161.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img161.jpg)
 _**Imagen 167.** AMovil - Órdenes Causa de Falla_
 
 
@@ -1421,33 +1421,33 @@ Una vez diligencie el formulario del Cierre de la OT, se deben <a class="btn cl-
 
 Continúe indicando si el Activo se entrega limpio: No/Si:
 
-![Procesar imagen](../assets/images/cap16/chp16_img160.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img160.jpg)
 _**Imagen 168.** AMovil - Órdenes Se entrega limpio_
 
 Para continuar dar un toque en el botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-outline"></span> Firma del encargado/Ejecutor</a>. Continúe ingresando la firma en el siguiente espacio:
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img163.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img163.jpg)
 _**Imagen 169.** AMovil - Órdenes Ingresar Firma Encargado/Ejecutor_
 
 
 Se puede rehacer la firma con el botón <a class="btn cl-white bg-blue px-6"> Limpiar </a> o asentar la firma con el botón <a class="btn cl-white bg-blue px-6"> Guardar </a> y también es posible <a class="btn cl-black bg-white bd-blue px-6"> Visualizar firma </a>, como se muestra en el siguiente ejemplo: 
 
-![Procesar imagen](../assets/images/cap16/chp16_img164.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img164.jpg)
 _**Imagen 170.** AMovil - Órdenes Visualizar firma_
 
 
 
 Una vez se guarde la firma, se muestra el siguiente mensaje alerta:
 
-![Procesar imagen](../assets/images/cap16/chp16_img165.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img165.jpg)
 _**Imagen 171.** AMovil - Órdenes Cierre Mensaje Alerta_
 
 
 
 Los registros que tengan la firma del Responsable Ejecutor se indican a través de un color gris <span class="iconify cl-gray bd-gray bg-gray btn-rounded" data-icon="mdi-circle"></span>, como se muestra en el siguiente ejemplo:
 
-![Procesar imagen](../assets/images/cap16/chp16_img166.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img166.jpg)
 _**Imagen 172.** AMovil - Órdenes Indicador Firma_
 
 
@@ -1455,7 +1455,7 @@ _**Imagen 172.** AMovil - Órdenes Indicador Firma_
 
 Para evaluar el servicio al Responsable Ejecutor se debe ir al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego a Evaluación <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-format-list-checks"></span></a>
 
-![Procesar imagen](../assets/images/cap16/chp16_img167.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img167.jpg)
 _**Imagen 173.** AMovil - Órdenes Ir a Evaluación_
 
 
@@ -1468,29 +1468,29 @@ A continuación marque su respuesta en cada pregunta, siendo:
 - M: Malo
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img168.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img168.jpg)
 _**Imagen 174.** AMovil - Órdenes Evaluación_
 
 
 Continúe con el botón <a class="btn cl-white bg-blue px-6"> Guardar </a>. Luego de actualizarse se muestra el siguiente mensaje alerta:
 
-![Procesar imagen](../assets/images/cap16/chp16_img169.jpg)  
+![Procesar imagen](../../assets/images/cap16/chp16_img169.jpg)  
 _**Imagen 175.** AMovil - Órdenes Registro Evaluación_
 
 Una vez guardados los cambios, en la parte inferior se habilita el botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-outline"></span> Firma de quien recibe/Evalúa</a> con el fin de registrar la firma del Solicitante ó persona que recibe el servicio:
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img170.jpg)  
+![Procesar imagen](../../assets/images/cap16/chp16_img170.jpg)  
 _**Imagen 176.** AMovil - Órdenes Ir a Firma Recibido Satisfacción_
 
 Al ingresar a la opción se muestra una ventana detalle ingreso de la firma del Solicitante:
 
-![Procesar imagen](../assets/images/cap16/chp16_img171.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img171.jpg)
 _**Imagen 177.** AMovil - Órdenes Detalle Firma Recibido Satisfacción_
 
 Continúe ingresando registrando la firma, a continuación se muestra una ejemplo gráfico:
 
-![Procesar imagen](../assets/images/cap16/chp16_img172.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img172.jpg)
 _**Imagen 178.** AMovil - Órdenes Firma Recibido Satisfacción_
 
 
@@ -1499,18 +1499,18 @@ Para guardar la firma, continúe con el botón <a class="btn cl-white bg-blue px
 Una vez se guarde la firma, el aplicativo muestra el siguiente mensaje alerta:
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img173.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img173.jpg)
 _**Imagen 179.** AMovil - Órdenes Mensaje Alerta Firma Recibido Satisfacción_
 
 Para verificar el registro de la firma, ingrese nuevamente en el botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-outline"></span> Firma de quien recibe/Evalúa</a> y en el detalle del ingreso de la firma continúe a la opción <a class="btn cl-w black bd-blue bg-white px-6"> Visualizar Firma </a>:
 
-![Procesar imagen](../assets/images/cap16/chp16_img174.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img174.jpg)
 _**Imagen 180.** AMovil - Órdenes Visualizar Firma Recibido Satisfacción_
 
 
 También, es posible saber que un registro posee la firma del Solicitante o de la persona que recibió a satisfacción a través del indicador blanco <span class="iconify cl-white bd-black btn-rounded" data-icon="mdi-circle"></span> así:
 
-![Procesar imagen](../assets/images/cap16/chp16_img175.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img175.jpg)
 _**Imagen 181.** AMovil - Órdenes Indicador Firma Recibido Satisfacción_
 
 
@@ -1528,31 +1528,31 @@ El objetivo ingresar la firma del Responsable Ejecutor Responsable y también de
 
 Una vez ingrese a la opción <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-magnify"></span> Consultar Ordenes </a> diríjase a la opción Subgrupo <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-filter-variant"></span></a> mostrado a continuación:
 
-![Procesar imagen](../assets/images/cap16/chp16_img176.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img176.jpg)
 _**Imagen 182.** AMovil - Consulta Órdenes_
 
 Haga la búsqueda por medio de los siguientes filtros en la opción <a class="btn cl-black bg-white bd-gray px-5"></span>Seleccione un filtro</a>, se muestran las siguientes opciones:
     
 
-![Procesar imagen](../assets/images/cap16/chp16_img177.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img177.jpg)
 _**Imagen 183.** AMovil - Subgrupo Órdenes_
 
 Para el ejemplo se usa el filtro **Responsable**, esta opción lista todos los Responsables ejecutores de la tabla de Terceros en **AM**, además, puede facilitar la búsqueda con el botón <a class="btn cl-black bg-white bd-yellow btn-rounded"><span class="mdi mdi-magnify pr-3"></span><span class="pr-4">Buscar un Responsable </span></a> e introducir una parte del nombre. Una vez lo seleccione se muestra el campo diligenciado, como se indica a continuación:  
    
 
-![Procesar imagen](../assets/images/cap16/chp16_img178.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img178.jpg)
 _**Imagen 184.** AMovil - Subgrupo Órdenes_ 
 
 Continúe con el botón <a class="btn cl-white bg-blue px-6"> Aceptar</a> ubicado en la parte inferior.
 
 Luego, visualice el resultado del Subgrupo en la parte superior a través del botón <a class="btn cl-black bg-white px-5">7</a>:
 
-![Procesar imagen](../assets/images/cap16/chp16_img179.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img179.jpg)
 _**Imagen 185.** AMovil - Subgrupo Órdenes_
 
 Diríjase al botón ubicado en la parte superior derecha <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a>:
 
-![Procesar imagen](../assets/images/cap16/chp16_img180.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img180.jpg)
 _**Imagen 186.** AMovil - Ir a Firma Masiva_
 
 
@@ -1561,47 +1561,47 @@ Seguidamente elija la opción **Firma Masiva De Quien Recibe**
   
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img181.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img181.jpg)
 _**Imagen 187.** AMovil - Firma Masiva Recibido Satisfacción_
 
 
 Para ingresar la firma, primero registre el nombre de quien recibe o evalúa en el primer recuadro de la parte superior, continúe dibujando la firma en el siguiente recuadro. Puede rehacerla con el botón <a class="btn cl-white bg-blue px-6"> Limpiar </a> o asentarla con el botón <a class="btn cl-white bg-blue px-6"> Guardar </a>. 
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img182.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img182.jpg)
 _**Imagen 188.** AMovil - Firma Masiva Recibido Satisfacción_
 
 
 Al guardar la firma se muestra un mensaje alerta exitoso de ingreso. Continúe dando un toque al botón <a class="btn cl-white bg-blue px-6"> Aceptar </a>. 
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img183.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img183.jpg)
 _**Imagen 189.** AMovil - Firma Masiva Recibido Satisfacción_
 
 
 Al finalizar los registros quedan con el indicador blanco:
 
-![Procesar imagen](../assets/images/cap16/chp16_img184.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img184.jpg)
 _**Imagen 190.** AMovil - Firma Masiva Recibido Satisfacción_
 
 
 
 Diríjase al botón ubicado en la parte superior derecha <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a>:
 
-![Procesar imagen](../assets/images/cap16/chp16_img185.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img185.jpg)
 _**Imagen 191.** AMovil - Ir a Firma Encargado Orden_
 
 
 Seguidamente elija la opción **Firma Masiva Del Técnico Responsable** <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-file-edit-outline"></span></a>:
 
-![Procesar imagen](../assets/images/cap16/chp16_img186.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img186.jpg)
 _**Imagen 192.** AMovil - Ir a Firma Encargado Orden_
 
 
 Continúe dibujando la firma en el siguiente recuadro. Puede rehacerla con el botón <a class="btn cl-white bg-blue px-6"> Limpiar </a> o asentarla con el botón <a class="btn cl-white bg-blue px-6"> Guardar </a>. 
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img187.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img187.jpg)
 _**Imagen 193.** AMovil - Firma Masiva Encargado Orden_
 
 
@@ -1609,13 +1609,13 @@ Al guardar la firma se muestra un mensaje alerta exitoso de ingreso. Continúe d
 
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img188.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img188.jpg)
 _**Imagen 194.** AMovil - Firma Masiva Mensaje Alerta_
 
 
 Al finalizar los registros quedan con el indicador gris <span class="iconify cl-gray bd-gray bg-gray btn-rounded" data-icon="mdi-circle"></span>:
 
-![Procesar imagen](../assets/images/cap16/chp16_img189.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img189.jpg)
 _**Imagen 195.** AMovil - Firma Masiva Encargado Orden Indicador_
 
 
@@ -1624,15 +1624,15 @@ _**Imagen 195.** AMovil - Firma Masiva Encargado Orden Indicador_
 Para crear un nuevo registro diríjase al botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-plus-outline"></span> Crear Orden </a>, el cual conlleva al siguiente formulario:
  
 
-![Procesar imagen](../assets/images/cap16/chp16_img190.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img190.jpg)
 _**Imagen 196.** AMovil - Submenú Ir a Crear Órden_
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img191.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img191.jpg)
 _**Imagen 197.** AMovil - Formulario Crear Órden_
 
 
-![Procesar imagen](../assets/images/cap16/chp16_img192.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img192.jpg)
 _**Imagen 198.** AMovil - Formulario Crear Órden_
 
 Todos los campos son obligatorios, se debe contar con los permisos para visualizar la Órden creada. 
@@ -1666,11 +1666,11 @@ A continuación se da una breve explicación de cada campo:
 
 Una vez diligenciado completamente el formulario contínue con el botón <a class="btn cl-white bg-blue px-6"> Guardar</a>, el aplicativo muestra el siguiente mensaje alerta y contínue con el botón <a class="btn cl-white bg-blue px-6"> Aceptar </a>.
 
-![Procesar imagen](../assets/images/cap16/chp16_img193.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img193.jpg)
 _**Imagen 199.** AMovil - Crear Órden Mensaje Alerta_
 
 Para visualizar la OT creada no debe tener subgrupos activos:
 
-![Procesar imagen](../assets/images/cap16/chp16_img194.jpg)
+![Procesar imagen](../../assets/images/cap16/chp16_img194.jpg)
 _**Imagen 200.** AMovil - Crear Órden_
 

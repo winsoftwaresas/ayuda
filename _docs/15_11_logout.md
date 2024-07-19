@@ -15,12 +15,12 @@ Para efectuar este proceso, se da clic en Exportar <span class="mdi mdi-download
 
 - Las siguientes opciones son para exportar algunos campos de las SS:
 
-![Procesar imagen](../assets/images/cap12/chp12_img47.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img47.png)
 _**Imagen 48.** AMsi - Exportar SS_
 
 - Las siguientes opciones son para exportar algunos campos de las OT:
 
-![Procesar imagen](../assets/images/cap12/chp12_img48.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img48.png)
 _**Imagen 49.** AMsi - Exportar OT_
 
 

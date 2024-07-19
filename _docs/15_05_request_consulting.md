@@ -31,14 +31,14 @@ En el caso de que el Administrador del **AMsi** haya asociado Todos los Centros 
 Sin embargo, es posible hacer Subgrupos a través del ícono <span class="mdi mdi-filter-variant"></span> ubicado en la parte superior derecha y ver solo las SS creadas por el Usuario logueado. Esto tiene como finalidad de que el usuario pueda realizar constantemente y en tiempo real el seguimiento y consultas a sus SS.
 A esta ventana se llega al dar clic a la opción de **Consultar Mis Solicitudes** en la ventana de Menú Principal.
 
-![Procesar imagen](../assets/images/cap12/chp12_img14.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img14.png)
 _**Imagen 14.** Ir a Subgrupos_
 
 **AMsi** mantiene activo cualquier subgrupo, hasta que el usuario lo modifique o restablezca los valores estándar. Cuando el ícono <span class="mdi mdi-filter-variant"></span> se muestra con una pelota roja, está indicando que lo que se visualiza en el visor es un subgrupo. El sistema permite entonces hacer selección de un grupo de SS de acuerdo con los criterios seleccionados.
 
 Una vez dado un clic sobre el ícono de subgrupo <span class="mdi mdi-filter-variant"></span>, se muestran los siguientes criterios de búsqueda:
 
-![Procesar imagen](../assets/images/cap12/chp12_img15.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img15.png)
 _**Imagen 15.** Subgrupos_
 
 Los campos de datos que constituyen criterio de selección en la Ventana Subgrupo de **AMsi** son los siguientes:
@@ -73,7 +73,7 @@ Los campos de datos que constituyen criterio de selección en la Ventana Subgrup
 
 Para realizar la consulta de una SS, basta con dar clic a uno de los registros de las SS listadas y a continuación se muestra en detalle toda la información allí contenida.
 
-![Procesar imagen](../assets/images/cap12/chp12_img16.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img16.png)
 _**Imagen 16.** Ventana Detalle de la SS_
 
 Este visor contiene la siguiente información:
@@ -122,7 +122,7 @@ Estos campos solo son manipulados por los encargados del área de mantenimiento 
 
 **Comentario:** El campo comentario es un campo que no es modificable. A través de este visor que muestra el Detalle de la SS, es posible que el usuario realice comentarios relevantes e importantes para el área de Mantenimiento. Para realizar los comentarios, se debe dirigir al final de la Ventana Detalle de la SS y digitar el comentario en el campo llamado “Comentario”, para agregarlo a la SS se debe dar clic al botón <a class="btn gray">agregar comentario</a>. Al dar clic aparece el comentario ingresado al lado derecho en una ventana tipo chat bloqueada y a su vez inhabilita la modificación de los comentarios que allí se encuentren; además de la fecha, hora y el usuario logueado que realizó el comentario. Estos comentarios también se visualizan desde el módulo de Solicitudes de Servicio de **AM.**
 
-![Procesar imagen](../assets/images/cap12/chp12_img17.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img17.png)
 _**Imagen 17.** Ventana Detalle de la SS (Comentarios)_
 
 

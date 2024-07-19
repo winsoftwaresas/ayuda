@@ -8,7 +8,7 @@ author: win
 order: 11_03
 date: 2022-05-27T15:27:44.518Z
 ---
-![Procesar imagen](../assets/images/cap06/chp06_img01.png)
+![Procesar imagen](../../assets/images/cap06/chp06_img01.png)
 _**Imagen 1.** Programas de Mantenimiento_
 
 A esta ventana se accede desde un clic al comando <a class="btn blue">programas</a> del Menú Principal de **AM**. 
@@ -19,7 +19,7 @@ Desde esta misma ventana se hacen los procesos de Proyección de los PMs, para r
 
 ## Ventana Visor de Programas
 
-![Procesar imagen](../assets/images/cap06/chp06_img02.png)
+![Procesar imagen](../../assets/images/cap06/chp06_img02.png)
 _**Imagen 2.** Programas de Mantenimiento - Visor_
 
 Desde esta ventana es posible observar los Programas de Mantenimiento existentes. Se listan todos o si bien un filtro o subgrupo de ellos. El conjunto de Programas de Mantenimiento disponibles a ser desplegado se muestra a través de páginas. La cantidad de registros es configurable desde la opción <a class="btn blue">administración</a> por parte de un usuario administrador.
@@ -30,7 +30,7 @@ Los títulos en azul que encabezan las columnas son también botones que permite
 
 ## Ventana Detalle de Programas
 
-![Procesar imagen](../assets/images/cap06/chp06_img03.png)
+![Procesar imagen](../../assets/images/cap06/chp06_img03.png)
 _**Imagen 23.** Programas de Mantenimiento - Ventana Detalle_
 
 En la gráfica anterior, Ventana Detalle de PM, se aprecian sus  componentes y  sus respectivos contenidos; aquí se encuentra la información relevante al PM seleccionado en el Visor y se administran los datos genéricos del PM. Es desde esta ventana que se crean, se actualizan y administran los PM.
@@ -104,7 +104,7 @@ Cuando se genera la OT, desde el PM, sirven para especificar referencias importa
 
 ## Indicadores
 
-![Procesar imagen](../assets/images/cap06/chp06_img04.png)
+![Procesar imagen](../../assets/images/cap06/chp06_img04.png)
 _**Imagen 24.** Programas de Mantenimiento - Indicadores_
 
 Es posible visualizar de manera inmediata, los Programas de mantenimiento activos, inactivos y con Multimedia, directamente desde la ventana visor, a través de la columna **“Indicadores”** que muestra una pelota de color que indica su estado y si tiene asociado Multimedia. El significado del color de cada pelota, se puede ver en el recuadro de Indicadores a través del ícono <span class="mdi mdi-message-alert"></span>, ubicado en la parte superior derecha de la ventana visor.
@@ -119,7 +119,7 @@ El significado de los colores que se listan son los siguientes:
 
 Se usa para seleccionar o filtrar grupos de  Programas de Mantenimiento que cumplen con un conjunto  de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al icono de filtro <span class="mdi mdi-filter-variant"></span>, ubicado en la parte superior derecha de la ventana Visor de Programas de Mantenimiento.
 
-![Procesar imagen](../assets/images/cap06/chp06_img05.png)
+![Procesar imagen](../../assets/images/cap06/chp06_img05.png)
 _**Imagen 25.** Programas de Mantenimiento - Ir a Subgrupos_
 
 Luego de ingresar se lista el conjunto de criterios, cada uno de ellos trabaja en conjunto con los demás, con el operador intersección.
@@ -130,7 +130,7 @@ Cada criterio aparece inicializado en un valor global que permite mostrar todos 
 
 El programa permite entonces hacer selección de un grupo de Programas de acuerdo con los criterios seleccionados en la siguiente ventana.
 
-![Procesar imagen](../assets/images/cap06/chp06_img06.png)
+![Procesar imagen](../../assets/images/cap06/chp06_img06.png)
 _**Imagen 26.** Programas de Mantenimiento - Subgrupo_
 
 Los campos de datos que constituyen criterio de selección haciendo parte de la Ventana Subgrupo de PMs son los siguientes.
@@ -207,14 +207,14 @@ Las Vistas Parciales o Pestañas permiten complementar la información que se de
 
 Se ingresa mediante un clic en la pestaña **“Presupuesto”** en la ventana detalle de Programas  de Mantenimiento.
 
-![Procesar imagen](../assets/images/cap06/chp06_img07.png)
+![Procesar imagen](../../assets/images/cap06/chp06_img07.png)
 _**Imagen 27.** Programas de Mantenimiento - Presupuesto_
 
 Esta tabla resume los totales de los costos presupuestados de Mano de Obra Interna, Mano de Obra Externa, Materiales y Repuestos y Otros Conceptos de Costo que serán traslados a las OT una vez generadas. 
 
 **Ingresar Mano de Obra Interna**
 
-![Procesar imagen](../assets/images/cap06/chp06_img08.png)
+![Procesar imagen](../../assets/images/cap06/chp06_img08.png)
 _**Imagen 28.** Programas de Mantenimiento - MO_
 
 En la gráfica anterior, Ventana de Ingreso de Mano de Obra Interna, se aprecian sus componentes y sus respectivos contenidos.

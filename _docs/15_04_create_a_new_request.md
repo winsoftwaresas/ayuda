@@ -24,12 +24,12 @@ Se identifican los campos relacionados en el formulario Servicio Solicitado para
 Este formulario trae los datos del solicitante previamente logueado en la ventana de  acceso al **AMsi**. Contiene la información personal del solicitante, información del servicio solicitado, información del Activo/Equipo objeto de la SS de mantenimiento.
 Para la Creación de la SS, dar clic en el siguiente botón mostrado:
 
-![Procesar imagen](../assets/images/cap12/chp12_img06.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img06.png)
 _**Imagen 6.**  Crear Nueva Solicitud_
 
 ### Ventana Creación de la Solicitud de Servicio
 
-![Procesar imagen](../assets/images/cap12/chp12_img07.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img07.png)
 _**Imagen 7.**  Ventana Creación SS_
 
 Luego de dar clic sobre el botón anterior, el sistema responde mostrando en una nueva ventana, el Detalle del Servicio a solicitar. A través de ella se ejecutan todas las funciones dedicadas a la creación de la SS. A continuación, se describen los campos que la componen, sobre cada uno se da una breve explicación:
@@ -83,30 +83,30 @@ Para seleccionar el Activo/Equipo se da clic en el icono de filtro azul <span cl
 
 <a class="btn blue">anexar multimedia <span class="mdi mdi-attachment"></span></a> : Permite una vez que se envíe la SS anexar archivos Multimedia, como documentos, imágenes o porciones de video siempre y cuando el usuario permanezca en esta ventana.
 
-![Procesar imagen](../assets/images/cap12/chp12_img08.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img08.png)
 _**Imagen 8.** Ir a Multimedia_
 
 Para ingresar multimedia se debe dar doble clic sobre una de las tres carpetas:
 
-![Procesar imagen](../assets/images/cap12/chp12_img09.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img09.png)
 _**Imagen 9.** Multimedia_
 
 Se debe dar clic al botón <span class="mdi mdi-cloud-upload icon white"></span> para abrir el explorador de archivos:
 
-![Procesar imagen](../assets/images/cap12/chp12_img10.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img10.png)
 _**Imagen 10.** AMsi - Explorador de archivos_
 
-![Procesar imagen](../assets/images/cap12/chp12_img11.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img11.png)
 _**Imagen 11.** AMsi - Subir archivo_
 
 Una vez elegido el archivo a adjuntar puede asignarse un nombre opcional en el espacio en blanco a continuación:
 
-![Procesar imagen](../assets/images/cap12/chp12_img12.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img12.png)
 _**Imagen 12.** Mensaje Alerta SS_
 
 Luego se debe dar clic en el botón <a class="btn white">subir archivo</a> y el sistema confirmará a través de un mensaje que el archivo ha sido subido correctamente:
 
-![Procesar imagen](../assets/images/cap12/chp12_img13.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img13.png)
 _**Imagen 13.** Mensaje registro SS_
 
 <a class="btn blue">enviar <span class="mdi mdi-send"></span></a> : Este botón envía inmediatamente la SS a la base de datos del AM para ser revisada por el área de mantenimiento encargada y proceder así con su análisis y asignación.

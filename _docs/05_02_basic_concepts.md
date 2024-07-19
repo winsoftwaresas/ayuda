@@ -27,7 +27,7 @@ El módulo de  Kárdex permite administrar de manera independiente los movimient
 
 ## Ventana Principal de Kárdex
 
-![Procesar imagen](../assets/images/cap05/chp05_img01.png)
+![Procesar imagen](../../assets/images/cap05/chp05_img01.png)
 _**Imagen 1.** Kárdex - Ir a Kárdex_
 
 Al sobreponer el cursor  en el módulo de Kárdex, se listan los distintos almacenes creados en la tabla de Almacenes de la Infraestructura y cuando se elige un Almacén, el sistema muestra el Almacén seleccionado.
@@ -35,7 +35,7 @@ Al sobreponer el cursor  en el módulo de Kárdex, se listan los distintos almac
 
 ## Ventana Visor de Documentos de Kárdex
 
-![Procesar imagen](../assets/images/cap05/chp05_img02.png)
+![Procesar imagen](../../assets/images/cap05/chp05_img02.png)
 _**Imagen 2.** Kárdex - Visor Kárdex_
 
 
@@ -55,7 +55,7 @@ Los títulos en  azul que encabezan las columnas son también botones que permit
 Al hacer clic sobre alguno de los registros del Visor, el sistema responde mostrando  su información de forma detallada, en una ventana llamada Ventana Detalle, como se muestra a continuación:
 
 
-![Procesar imagen](../assets/images/cap05/chp05_img04.png)
+![Procesar imagen](../../assets/images/cap05/chp05_img04.png)
 _**Imagen 3.** Kárdex - Ventana Detalle_
 
 En la imagen anterior se aprecia el conjunto de información que identifica a cada Documento, se destaca en la pestaña **Movimientos** entre paréntesis el número de registros  de movimientos asociados a ese documento. 
