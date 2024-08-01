@@ -29,14 +29,17 @@ Al hacer clic sobre alguno de los Programas de Mantenimiento del Visor el sistem
 
 Los títulos en azul que encabezan las columnas son también botones que permiten ordenar la tabla, según el título seleccionado. Para ver el detalle de un PM se debe elegir un registro de la tabla por medio de un clic. 
 
+Para crear un programa se debe en visor dar un clic en el botón <a class="btn cl-blue bg-white">NUEVO</a> ubicado en la parte superior izquierda y continuar con el diligenciamiento a desde su Ventana Detalle:
+
 ## Ventana Detalle de Programas
 
 ![Procesar imagen](../../assets/images/cap06/chp06_img03.png)
 _**Imagen 23.** Programas de Mantenimiento - Ventana Detalle_
 
-En la gráfica anterior, Ventana Detalle de PM, se aprecian sus  componentes y  sus respectivos contenidos; aquí se encuentra la información relevante al PM seleccionado en el Visor y se administran los datos genéricos del PM. Es desde esta ventana que se crean, se actualizan y administran los PM.
+En la gráfica anterior, Ventana Detalle de PM, se aprecian sus  componentes y  sus respectivos contenidos de un registro existente; aquí se encuentra la información relevante al PM seleccionado en el Visor y se administran los datos genéricos del PM. Es desde esta ventana se crean, se actualizan y administran los PM.
 
-A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación:
+A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación tanto para crear uno como para actualizar información de él:
+
 
 **Activo:** Lista los Activos existentes en **AM** desde allí se elige aquel para el que se va a definir el PM. Aparece entonces, al lado derecho, la descripción del Activo cuando es reconocido por **AM**. Para elegir un Activo se tienen las siguientes opciones. La primera se puede buscar a través de la tecla tabular digitando el Código, o bien, seleccionando las siguientes opciones alternas del campo: Serial, Referencia (Referencia Externa del Proveedor), Número de Activo Fijo (Num AC), Alias. Estos se deben de digitar completos para que funcione la tecla tabular.
 
@@ -61,9 +64,9 @@ Este campo es un consecutivo ascendente por Activo, y es controlado por el Siste
 
 **Solicitante:** En este campo se define el nombre del Solicitante del PM. Cuando la OT es generada desde un PM. 
 
-**Incluido en TE (RI):** Al seleccionar esta opción, en el campo **“Solicitante”** solo se despliegan los Terceros o Responsables Internos existentes en la tabla de Terceros en Infraestructura.
+<a class="btn cl-gray"><span class="mdi mdi-checkbox-blank-outline"> Incluido en TE (RI) </span></a> : Al seleccionar esta opción, en el campo **“Solicitante”** solo se despliegan los Terceros o Responsables Internos existentes en la tabla de Terceros en Infraestructura.
 
-**Listado de Acciones Técnicas:** Al habilitar este botón, se reemplaza la pestaña **“Presupuesto”** por **“Acciones Técnicas”**.
+**Listado de Acciones técnicas:** Esta opción habilita una tabla de Acciones Técnicas en una nueva pestaña del PM. Esta tabla está ligada a la Infraestructura, creada con su mismo nombre, que contiene un listado de Acciones Técnicas frecuentes definidas por el área de Mantenimiento. Se pretende describir, breve pero concretamente, la actividad general la actividad a realizar  representada como un **check list.** en una OT cuando ésta sea generada mediante el PM. (En la sección vistas parciales/Acciones Técnicas se explica en detalle).
 
 **Centro de Costo:** Es el Centro de Costo asignado al Activo, este listado corresponde al predefinido en la tabla de Centros Costo, en Infraestructura y que es **“Responsable”** del pago de los consumos de Gasto Real que dicha OT genere. Inicialmente se sugiere el Centro de Costo que tiene asociado el Activo Objeto de Mantenimiento, aun así, puede cambiarse.
 
@@ -79,7 +82,7 @@ Asignarle un Contrato a un PM significa que las labores de  Mantenimiento serán
 
 El Responsable puede ser interno (RI), o también un Responsable Externo (RX). El sistema  se  encarga  de  mostrar en la  lista solo los  Responsables habilitados  para desempeñar esta función.
 
-**Filtrar por CR:** Al seleccionar esta opción, en el campo **“Responsable Ejecutor”** solo se despliegan los Responsables correspondientes al Centro Responsable elegido en la opción **“Centro Responsable”**. En otro caso, en el campo **“Responsable Ejecutor”**  se  despliegan todos los **“Responsables”** existentes en la tabla respectiva.
+<a class="btn cl-gray"><span class="mdi mdi-checkbox-blank-outline"> Filtrar por CR </span></a> : Al seleccionar esta opción, en el campo **“Responsable Ejecutor”** solo se despliegan los Responsables correspondientes al Centro Responsable elegido en la opción **“Centro Responsable”**. En otro caso, en el campo **“Responsable Ejecutor”**  se  despliegan todos los **“Responsables”** existentes en la tabla respectiva.
 
 **Responsable por la Institución:** Lista los Responsables activos que están definidos en la tabla correspondiente en el módulo de Infraestructura. En este campo se elige a la persona interna de la institución, Responsable de acompañar o apoyar por la  labor a ejecutar.
 
@@ -110,7 +113,7 @@ Cuando se genera la OT, desde el PM, sirven para especificar referencias importa
 ## Indicadores
 
 ![Procesar imagen](../../assets/images/cap06/chp06_img04.png)
-_**Imagen 24.** Programas de Mantenimiento - Indicadores_
+_**Imagen 25.** Programas de Mantenimiento - Indicadores_
 
 Es posible visualizar de manera inmediata, los Programas de mantenimiento activos, inactivos y con Multimedia, directamente desde la ventana visor, a través de la columna **“Indicadores”** que muestra una pelota de color que indica su estado y si tiene asociado Multimedia. El significado del color de cada pelota, se puede ver en el recuadro de Indicadores a través del ícono <span class="mdi mdi-message-alert"></span>, ubicado en la parte superior derecha de la ventana visor.
 
@@ -122,10 +125,10 @@ El significado de los colores que se listan son los siguientes:
 
 ## Subgrupo
 
-Se usa para seleccionar o filtrar grupos de  Programas de Mantenimiento que cumplen con un conjunto  de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al icono de filtro <span class="mdi mdi-filter-variant"></span>, ubicado en la parte superior derecha de la ventana Visor de Programas de Mantenimiento.
+Se usa para seleccionar o filtrar grupos de  Programas de Mantenimiento que cumplen con un conjunto  de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al icono  <span class="mdi mdi-filter-variant"></span> ubicado en la parte superior derecha de la ventana Visor de Programas de Mantenimiento.
 
 ![Procesar imagen](../../assets/images/cap06/chp06_img05.png)
-_**Imagen 25.** Programas de Mantenimiento - Ir a Subgrupos_
+_**Imagen 26.** Programas de Mantenimiento - Ir al Subgrupo_
 
 Luego de ingresar se lista el conjunto de criterios, cada uno de ellos trabaja en conjunto con los demás, con el operador intersección.
 

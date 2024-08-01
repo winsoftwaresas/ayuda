@@ -147,6 +147,10 @@ published: true
 
 <a class="btn cl-black "><span class="mdi mdi-checkbox-blank-outline"> Check </span></a>
 
+<a class="btn cl-gray"><span class="mdi mdi-checkbox-blank-outline"> Filtrar por CR </span></a>
+
+<a class="btn cl-gray"><span class="mdi mdi-checkbox-blank-outline"> Inlcuido en TE (RI) </span></a>
+
 <a class="fab cl-white bg-blue box-shadow"><span class="iconify icon cl-white bg-blue" data-icon="mdi-dots-vertical"></span></a>
 
 <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-magnify"></span> Consultar Activos</a> 
