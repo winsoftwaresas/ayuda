@@ -18,14 +18,16 @@ Desde esta misma ventana se hacen los procesos de Proyección de los PMs, para r
 
 ## Ventana Visor de Programas
 
+Al ingresar al módulo lo primero que se visualiza es el **Visor de Programas**:
+
 ![Procesar imagen](../../assets/images/cap06/chp06_img02.png)
 _**Imagen 2.** Programas de Mantenimiento - Visor_
 
-Desde esta ventana es posible observar los Programas de Mantenimiento existentes. Se listan todos o si bien un filtro o subgrupo de ellos. El conjunto de Programas de Mantenimiento disponibles a ser desplegado se muestra a través de páginas. La cantidad de registros es configurable desde la opción <a class="btn blue">administración</a> por parte de un usuario administrador.
+Desde esta ventana es posible observar los Programas de Mantenimiento existentes. Se listan todos o un Subgrupo de ellos. El conjunto de los Programas de Mantenimiento se visualizan a través de páginas. La cantidad de registros es configurable desde la opción <a class="btn blue">Administración</a> en **Valores por Defecto** de la compañía por medio de un Usuario con permisos Administrativos. 
 
-Al hacer clic sobre alguno de los Programas de Mantenimiento del Visor  el sistema responde mostrando la información de ese registro, en  forma  detallada, en una ventana llamada, Ventana Detalle.
+Al hacer clic sobre alguno de los Programas de Mantenimiento del Visor el sistema responde mostrando la información de ese registro, en  forma  detallada, en una ventana llamada: **Ventana Detalle**
 
-Los títulos en azul que encabezan las columnas son también botones que permiten ordenar la tabla, según el título seleccionado. Para elegir un registro de la tabla se da un clic del mouse sobre él o se desplaza el cursor con las teclas de desplazamiento.
+Los títulos en azul que encabezan las columnas son también botones que permiten ordenar la tabla, según el título seleccionado. Para ver el detalle de un PM se debe elegir un registro de la tabla por medio de un clic. 
 
 ## Ventana Detalle de Programas
 
@@ -36,9 +38,13 @@ En la gráfica anterior, Ventana Detalle de PM, se aprecian sus  componentes y  
 
 A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación:
 
-**Activo:** Lista los Activos, desde allí se elige aquel para el que se va a definir el PM. Aparece entonces, al lado derecho, la descripción del Activo cuando es reconocido por **AM**. Para elegir un Activo se tienen las siguientes opciones. La primera se puede buscar a través de la tecla tabular digitando el Código, o bien, seleccionando las siguientes opciones alternas del campo: Serial, Referencia (Referencia Externa del Proveedor), Número de Activo Fijo (Num AC), Alias. 
+**Activo:** Lista los Activos existentes en **AM** desde allí se elige aquel para el que se va a definir el PM. Aparece entonces, al lado derecho, la descripción del Activo cuando es reconocido por **AM**. Para elegir un Activo se tienen las siguientes opciones. La primera se puede buscar a través de la tecla tabular digitando el Código, o bien, seleccionando las siguientes opciones alternas del campo: Serial, Referencia (Referencia Externa del Proveedor), Número de Activo Fijo (Num AC), Alias. Estos se deben de digitar completos para que funcione la tecla tabular.
 
-La segunda opción de búsqueda es dando clic al ícono de filtro azul <span class="mdi mdi-filter-variant icon white"></span>, a continuación este abre una nueva ventana de Activos, allí también se pueden hacer subgrupos o filtrar información por diferentes criterios (<span class="mdi mdi-filter-variant"></span>), luego se debe dar doble clic sobre el registro o en el botón ubicado en la parte superior <a class="btn white">Aceptar</a>. 
+La segunda opción de búsqueda es dando clic al Subgrupo <span class="mdi mdi-filter-variant icon white"></span>, luego éste abre una nueva ventana de Activos. Allí también se pueden hacer subgrupos o filtrar información por diferentes criterios por medio del subgrupo ubicado en la parte superior derecha: <span class="mdi mdi-filter-variant"></span>, luego se debe dar doble clic sobre el registro o en el botón ubicado en la parte superior continuar con <a class="btn white">Aceptar</a>. Se muestra una imagen a continuación de cómo seleccionar el Activo:
+
+
+![Procesar imagen](../../assets/images/cap06/chp06_img03_01.png)
+_**Imagen 24.** Programas de Mantenimiento - Ventana Activos_
 
 Una vez que el Activo se ha identificado, aparece al lado derecho, la descripción del registro.
 
