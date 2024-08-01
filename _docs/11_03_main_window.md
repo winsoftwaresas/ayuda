@@ -1,17 +1,16 @@
 ---
 title: Ventana Principal de Programas de Mantenimiento
-subtitle: aqui encontrara  el ejemplo visual d cada ventada emergente de la
-  seccion de mantenimiento con su respectivo proceso de uso.
+subtitle: Aquí puede encontrar el ejemplo visual de cómo crear un Programa de Mantenimiento y la explicación de sus vistas parciales. 
 tags:
   - setup
 author: win
 order: 11_03
 date: 2022-05-27T15:27:44.518Z
 ---
-![Procesar imagen](../../assets/images/cap06/chp06_img01.png)
+![Procesar imagen](../assets/images/cap06/chp06_img01.png)
 _**Imagen 1.** Programas de Mantenimiento_
 
-A esta ventana se accede desde un clic al comando <a class="btn blue">programas</a> del Menú Principal de **AM**. 
+A esta ventana se accede desde un clic en el menú principal en el módulo <a class="btn blue">Programas</a> de **AM**. 
 
 A través de esta ventana se crean y administran los PM. La mayor parte  de la información aquí definida, se traslada completamente a la OT, cuando el Programa la genere.
 
