@@ -7,7 +7,7 @@ author: win
 order: 11_03
 date: 2022-05-27T15:27:44.518Z
 ---
-![Procesar imagen](../assets/images/cap06/chp06_img01.png)
+![Procesar imagen](../../assets/images/cap06/chp06_img01.png)
 _**Imagen 1.** Programas de Mantenimiento_
 
 A esta ventana se accede desde un clic en el menú principal en el módulo <a class="btn blue">Programas</a> de **AM**. 
