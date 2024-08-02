@@ -34,7 +34,7 @@ Para crear un programa se debe en visor dar un clic en el botón <a class="btn c
 ## Ventana Detalle de Programas
 
 ![Procesar imagen](../../assets/images/cap06/chp06_img03.png)
-_**Imagen 23.** Programas de Mantenimiento - Ventana Detalle_
+_**Imagen 3.** Programas de Mantenimiento - Ventana Detalle_
 
 En la gráfica anterior, Ventana Detalle de PM, se aprecian sus  componentes y  sus respectivos contenidos de un registro existente; aquí se encuentra la información relevante al PM seleccionado en el Visor y se administran los datos genéricos del PM. Es desde esta ventana se crean, se actualizan y administran los PM.
 
@@ -43,11 +43,11 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 **Activo:** Lista los Activos existentes en **AM** desde allí se elige aquel para el que se va a definir el PM. Aparece entonces, al lado derecho, la descripción del Activo cuando es reconocido por **AM**. Para elegir un Activo se tienen las siguientes opciones. La primera se puede buscar a través de la tecla tabular digitando el Código, o bien, seleccionando las siguientes opciones alternas del campo: Serial, Referencia (Referencia Externa del Proveedor), Número de Activo Fijo (Num AC), Alias. Estos se deben de digitar completos para que funcione la tecla tabular.
 
-La segunda opción de búsqueda es dando clic al Subgrupo <span class="mdi mdi-filter-variant icon white"></span>, luego éste abre una nueva ventana de Activos. Allí también se pueden hacer subgrupos o filtrar información por diferentes criterios por medio del subgrupo ubicado en la parte superior derecha: <span class="mdi mdi-filter-variant"></span>, luego se debe dar doble clic sobre el registro o en el botón ubicado en la parte superior continuar con <a class="btn white">Aceptar</a>. Se muestra una imagen a continuación de cómo seleccionar el Activo:
+La segunda opción de búsqueda es dando clic al Subgrupo <span class="mdi mdi-filter-variant icon white"></span>, luego éste abre una nueva ventana de Activos. Allí también se pueden hacer subgrupos o filtrar información por diferentes criterios por medio del subgrupo ubicado en la parte superior derecha: <span class="mdi mdi-filter-variant"></span>, luego se debe dar doble clic sobre el registro o en el botón ubicado en la parte superior continuar con <a class="btn white">ACEPTAR</a>. Se muestra una imagen a continuación de cómo seleccionar el Activo:
 
 
 ![Procesar imagen](../../assets/images/cap06/chp06_img03_01.png)
-_**Imagen 24.** Programas de Mantenimiento - Ventana Activos_
+_**Imagen 4.** Programas de Mantenimiento - Ventana Activos_
 
 Una vez que el Activo se ha identificado, aparece al lado derecho, la descripción del registro.
 
@@ -113,7 +113,7 @@ Cuando se genera la OT, desde el PM, sirven para especificar referencias importa
 ## Indicadores
 
 ![Procesar imagen](../../assets/images/cap06/chp06_img04.png)
-_**Imagen 25.** Programas de Mantenimiento - Indicadores_
+_**Imagen 5.** Programas de Mantenimiento - Indicadores_
 
 Es posible visualizar de manera inmediata, los Programas de mantenimiento activos, inactivos y con Multimedia, directamente desde la ventana visor, a través de la columna **“Indicadores”** que muestra una pelota de color que indica su estado y si tiene asociado Multimedia. El significado del color de cada pelota, se puede ver en el recuadro de Indicadores a través del ícono <span class="mdi mdi-message-alert"></span>, ubicado en la parte superior derecha de la ventana visor.
 
@@ -125,10 +125,10 @@ El significado de los colores que se listan son los siguientes:
 
 ## Subgrupo
 
-Se usa para seleccionar o filtrar grupos de  Programas de Mantenimiento que cumplen con un conjunto  de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al icono  <span class="mdi mdi-filter-variant"></span> ubicado en la parte superior derecha de la ventana Visor de Programas de Mantenimiento.
+Se usa para seleccionar o filtrar grupos de  Programas de Mantenimiento que cumplen con un conjunto  de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al icono  <span class="mdi mdi-filter-variant"></span> ubicado en la parte superior derecha de la ventana Visor de Programas de Mantenimiento, como se muestra en al siguiente imagen:
 
 ![Procesar imagen](../../assets/images/cap06/chp06_img05.png)
-_**Imagen 26.** Programas de Mantenimiento - Ir al Subgrupo_
+_**Imagen 6.** Programas de Mantenimiento - Ir al Subgrupo_
 
 Luego de ingresar se lista el conjunto de criterios, cada uno de ellos trabaja en conjunto con los demás, con el operador intersección.
 
@@ -139,7 +139,7 @@ Cada criterio aparece inicializado en un valor global que permite mostrar todos 
 El programa permite entonces hacer selección de un grupo de Programas de acuerdo con los criterios seleccionados en la siguiente ventana.
 
 ![Procesar imagen](../../assets/images/cap06/chp06_img06.png)
-_**Imagen 26.** Programas de Mantenimiento - Subgrupo_
+_**Imagen 7.** Programas de Mantenimiento - Subgrupo_
 
 Los campos de datos que constituyen criterio de selección haciendo parte de la Ventana Subgrupo de PMs son los siguientes.
  
@@ -171,6 +171,12 @@ También se puede buscar el Activo, haciendo uso del icono <span class="mdi mdi-
 **AC-Marca:** Filtra todos los PM cuyo Activo esté asociado a la Marca relacionada en este campo, se aceptan comodines(%).
 
 **AC-Modelo:** Filtra todos los PM cuyo Activo esté asociado a la Marca relacionada en este campo, se aceptan comodines(%). 
+
+**Clasificación por uso:** Busca los PM que estén asociados al Activo según su clasificación por uso biomédico, las opciones son: Diagnóstico, Tratamiento y Mantenimiento de la vida, Rehabilitación, Prevención, Análisis de Laboratorio, Equipo Industrial de Apoyo Hospitalario y Equipos de Apoyo Hospitalario.
+
+**Clasificación por Grupo:** Agrupa los PM según la clasificación del grupo del Activo asociado a él, las opciones por defecto son: Apoyo Administrativo, Apoyo Operacional, Infraestructura y Grupo x. Ya que éstas opciones puede ser editadas por el usuario Administrador de AM.
+
+**Clasificación por Riesgo:** Busca los PM que estén asociados al Activo según su clasificación por resigo  biomédico, las opciones son: Ninguno, Clase I: Bajo Riesgo, Clase IIA: Riesgo Moderado, Clase IIB: Alto Riesgo, Clase III: Muy Alto Riesgo y Crítico Ambiental.
 
 ##### FILTRAR POR CAMPOS DEL PRESUPUESTO – MATERIALES
 
@@ -216,14 +222,14 @@ Las Vistas Parciales o Pestañas permiten complementar la información que se de
 Se ingresa mediante un clic en la pestaña **“Presupuesto”** en la ventana detalle de Programas  de Mantenimiento.
 
 ![Procesar imagen](../../assets/images/cap06/chp06_img07.png)
-_**Imagen 27.** Programas de Mantenimiento - Presupuesto_
+_**Imagen 7.** Programas de Mantenimiento - Presupuesto_
 
 Esta tabla resume los totales de los costos presupuestados de Mano de Obra Interna, Mano de Obra Externa, Materiales y Repuestos y Otros Conceptos de Costo que serán traslados a las OT una vez generadas. 
 
 **Ingresar Mano de Obra Interna**
 
 ![Procesar imagen](../../assets/images/cap06/chp06_img08.png)
-_**Imagen 28.** Programas de Mantenimiento - MO_
+_**Imagen 8.** Programas de Mantenimiento - MO_
 
 En la gráfica anterior, Ventana de Ingreso de Mano de Obra Interna, se aprecian sus componentes y sus respectivos contenidos.
 
@@ -255,22 +261,22 @@ Diligenciados los campos anteriores, se debe dar clic en el icono <span class="m
  ubicado en la parte inferior del formulario, seguidamente, se observa que la información creada se muestra en la tabla de mano de Obra Interna, ubicada al lado izquierdo. 
 (../assets/
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img09.png)
-_**Imagen 29.** Programas de Mantenimiento - Adicionar MO_
+_**Imagen 9.** Programas de Mantenimiento - Adicionar MO_
 
 En el caso de actualizar la información de Mano de Obra Externa de algún registro existente, se debe seleccionar el registro y luego dar un clic sobre el botón <a class="btn gray">Actualizar Mano de Obra Externa</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
 (../assets/
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img10.png)
-_**Imagen 30.** Programas - Actualizar MO_
+_**Imagen 10.** Programas - Actualizar MO_
 
 Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
 (../assets/
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img11.png)
-_**Imagen 31.** Programas - Eliminar MO_
+_**Imagen 11.** Programas - Eliminar MO_
 
 **Ingresar Mano de Obra Externa**
 (../assets/
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img12.png)
-_**Imagen 32.** Programas de Mantenimiento - ME_
+_**Imagen 12.** Programas de Mantenimiento - ME_
 
 En la gráfica anterior, Ventana de Ingreso de Mano de Obra Externa, se aprecian sus componentes y sus respectivos contenidos.
 
@@ -294,22 +300,22 @@ Diligenciados los campos anteriores, se debe dar clic en el icono <span class="m
  ubicado en la par(../assets/ se observa que la información creada se muestra en la tabla de mano de Obra Externa, ubicada al lado izquierdo. 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img13.png)
-_**Imagen 33.** Programas de Mantenimiento - Ingresar ME_
+_**Imagen 13.** Programas de Mantenimiento - Ingresar ME_
 
 En el caso de actu(../assets/erna de algún registro existente, se debe seleccionar el registro y luego dar un clic sobre el botón <a class="btn gray">Actualizar Mano de Obra Externa</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img14.png)
-_**Imagen 34.** Programas - Actualizar ME_
+_**Imagen 14.** Programas - Actualizar ME_
 
 Por otro lado, par(../assets/lecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img15.png)
-_**Imagen 35.** Programas - Eliminar ME_
+_**Imagen 15.** Programas - Eliminar ME_
 
 **Ingresar Materia(../assets/
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img16.png)
-_**Imagen 36.** Programas - Eliminar ME_
+_**Imagen 16.** Programas - Eliminar ME_
 
 En la gráfica anterior, Ventana de Ingreso de Materiales y Repuestos, se aprecian  sus componentes y sus respectivos contenidos. En esta opción se administra el Presupuesto de Materiales y Repuestos del PM.
 
@@ -339,23 +345,23 @@ Diligenciados los (../assets/ icono <span class="mdi mdi-plus-circle icon white"
  ubicado en la parte inferior del formulario, seguidamente, se observa que la información creada se muestra en la tabla de Materiales y Repuestos, ubicada al lado izquierdo, como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img17.png)
-_**Imagen 37.** Programas - Adicionar M y R_
+_**Imagen 17.** Programas - Adicionar M y R_
 (../assets/
 En el caso de actualizar la información de Materiales y Repuestos de algún registro existente, se debe seleccionar el registro y luego dar un clic sobre el botón <a class="btn gray">Actualizar Mano de Obra Externa</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img18.png)
-_**Imagen 38.** Programas - Actualizar M y R_
+_**Imagen 18.** Programas - Actualizar M y R_
 (../assets/
 Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img19.png)
-_**Imagen 39.** Programas - Eliminar M y R_
+_**Imagen 19.** Programas - Eliminar M y R_
 
 (../assets/
 **Ingresar Otros Conceptos de Costo**
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img20.png)
-_**Imagen 40.** Programas - OC_
+_**Imagen 20.** Programas - OC_
 
 En la gráfica anterior, Ventana de Ingreso de Mano de Otros Conceptos de Costo, se aprecian sus componentes y sus respectivos contenidos, se deben diligenciar para crear un registro nuevo o actualizar un Concepto ya existente.
 (../assets/
