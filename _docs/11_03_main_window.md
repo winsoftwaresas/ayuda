@@ -180,7 +180,7 @@ También se puede buscar el Activo, haciendo uso del icono <span class="mdi mdi-
 
 ##### FILTRAR POR CAMPOS DEL PRESUPUESTO – MATERIALES
 
-**RP-Código:** Filtra los PM que tengan relacionado en el presupuesto el código del Repuesto digitado en el campo. Para buscar el Repuesto desde el buscador de Subgrupo de Materiales y Repuestos se debe dar clic en el icono de filtro azul que aparece al lado del respectivo campo <span class="mdi mdi-filter-variant icon white"></span>. Allí se abre una ventana independiente que muestra el visor de Repuestos, es posible hacer filtros o subgrupos allí, dando clic al icono superior <span class="mdi mdi-filter-variant"></span>.
+**RP-Código:** Filtra los PM que tengan relacionado en el presupuesto el código del Repuesto digitado en el campo. Para buscar el Repuesto desde el buscador de Subgrupo de Materiales y Repuestos se debe escoger del campo desplegable el Almacén; luego se habilita el campo y el icono subgrupo que aparece al lado derecho <span class="mdi mdi-filter-variant icon white"></span>. Cuando se da clic al botón se abre una ventana independiente que muestra el visor de Repuestos, allí es posible hacer filtros o subgrupos dando clic al icono ubicado en la parte superior derecha 0g<span class="mdi mdi-filter-variant"></span>.
 
 ##### FILTRAR POR CAMPOS DEL PROGRAMA
 
@@ -192,30 +192,36 @@ También se puede buscar el Activo, haciendo uso del icono <span class="mdi mdi-
 
 **Criterio:** Permite visualizar el subconjunto de PM definidos con   el  Criterio  de Programación **“X”;**. Se elige el criterio de la lista que se despliega. Estos corresponden a la abreviatura indicada en el visor en la columna "**Cri**" asignado a cada uno de los registros. 
 
-**Comentario del Programa:** Filtra los PM que cumplan  con  la opción de poseer comentario. Este es un campo para ingresar una parte del  comentario que se desee buscar en los programas.
-
 **Descripción del Programa:** Esta opción permite buscar los PM que cumplan con el criterio de selección establecido en este campo, es  posible utilizar la funcionalidad de comodines (%)
 
-**Fecha de Inicio de Periodo (FIP):** Esta opción permite seleccionar los PM por un rango de la FIP.  Aparecen dos campos: Desde y Hasta En cada uno de ellos se digita una fecha. De digitar solo la fecha "desde" se filtran los registros desde esa fecha hasta la actual. 
+**Comentario del Programa:** Filtra los PM que cumplan  con  la opción de poseer comentario. Este es un campo para ingresar una parte del  comentario que se desee buscar en los programas.
 
-**Prioridad:** Esta opción permite filtrar por Prioridad de los PM. Se elige a partir de la lista desplegable.
 
-**Responsable:** Agrupa los  PM de acuerdo  al  Responsable del  PM.  Para  escoger  un Responsable Ejecutor se  puede  hacer   descolgando  la  lista  de   Responsables   definidos  en Infraestructura; el Sistema mostrará los Responsables activos. También se puede hacer usando comodines (%). La búsqueda del Responsable por esta opción de comodines es según su parametrización, bien sea por nombre o código.
+**Fecha de Inicio de Periodo (FIP):** Esta opción permite seleccionar los PM por un rango de la FIP.  Aparecen dos campos: **Desde** y **Hasta**.En cada uno de ellos se digita una fecha. De digitar solo la fecha **"Desde"** se filtran los registros desde esa fecha hasta la actual. 
+
+**Fecha de Última Generación:** Selecciona los PM por el rango de la última vez que haya generado OTs. Se habilitan dos campos: **Desde** y **Hasta**. En cada uno de ellos se digita una fecha. De digitar solo la fecha **"Desde"** se filtran los registros desde esa fecha hasta la actual. 
+
+**Prioridad:** Esta opción permite filtrar por Prioridad de los PM. Se elige a partir de la lista desplegable (las prioridades por defecto van del 1 al 7).
+
+**Responsable:** Agrupa los  PM de acuerdo  al  Responsable asigando al  PM.  Para  escoger  un Responsable Ejecutor se  puede  hacer   descolgando  la  lista  de   Responsables   definidos  en Infraestructura; el sistema muestra los Responsables que estén activos. También se puede hacer usando comodines (%) siempre y cuando al dar clic al icono de candado <span class="mdi mdi-lock"></span>, éste se desbloquea <span class="mdi mdi-lock-open-outline"></span>, allí el campo se habilita sin descolgar los Responsables.
+
+**Responsable x la Institución:** Se refiere al Responsable Interno de Institución que está encargado o que acompañará y/o recibirá la labor prestada por el Responsable ejecutor, cuando este sea un Contratista o Servicio Externo especialmente.
 
 **Tiempo Improductivo:** Es un campo de dos opciones: "**Si**", "**No**" filtrando los PM según si se ha definido que el activo se debe suspender para realizar la tarea de mantenimiento o no.
 
-**Tipo de Actividad:** Filtra los PM por Tipo de Actividad. Para escoger un Tipo de Actividad lo puede hacer descolgando la lista de Tipos de Actividad definida en Infraestructura, también se permite el uso de comodines (%). Cuando se utilizan comodines, es necesario darle un clic al icono de candado <span class="mdi mdi-lock"></span>, una vez que se desbloquea <span class="mdi mdi-lock-open-outline"></span> es posible seleccionar los PM pertenecientes a la TA que tengan parte del nombre igual.
+**Tipo de Actividad:** Filtra los PM por Tipo de Actividad. Para escoger un Tipo de Actividad se hace descolgando la lista de Tipos de Actividad definida en Infraestructura, también se permite el uso de comodines (%). Cuando se utilizan comodines, es necesario dar un clic al icono  <span class="mdi mdi-lock"></span>, una vez que se desbloquea <span class="mdi mdi-lock-open-outline"></span> es posible seleccionar los PM pertenecientes a la TA que tengan parte del nombre igual.
 
-**Tipo de Mantenimiento:** Filtra los PM por Tipo de Mantenimiento. Se elige un TM de las lista desplegable entre ellos están Predictivos, Lubricación, Preventivos, entre otros.
+**Tipo de Mantenimiento:** Filtra los PM por Tipo de Mantenimiento. Se elige un TM de las lista desplegable entre ellos están Predictivos, Lubricación, Preventivos, entre otros predefinidos en la Tabla respectiva de Infraestructura. 
+
 
 **Tipo de Trabajo:** Agrupa los PM de acuerdo al tipo de trabajo al que están asociadas. Estos campos son de tipo selección. Por lo tanto se pueden combinar.
 
-_**Nota:** Es importante tener en cuenta que cuando se están realizando  subgrupos se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además  es posible hacer unión de selecciones.  Esto significa que inmediatamente después de haber realizado una selección es posible hacer otra y unir el resultado de las dos, o bien, quitar registros. Para ello, tras definir los criterios de la segunda selección se da un clic al botón <a class="btn white">Mas <span class="mdi mdi-plus-circle"></span></a> ó <a class="btn white">Menos <span class="mdi mdi-minus-circle"></span></a> según se requiera y finalmente efectuar la búsqueda con el botón <a class="btn white">aceptar <span class="mdi mdi-check-circle"></span></a>_
+_**Nota:** Es importante tener en cuenta que cuando se están realizando  subgrupos se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además  es posible hacer unión de selecciones.  Esto significa que inmediatamente después de haber realizado una selección es posible hacer otra y unir el resultado de las dos, o bien, quitar registros. Para ello, tras definir los criterios de la segunda selección se da un clic al botón <a class="btn white">MAS <span class="mdi mdi-plus-circle"></span></a> ó <a class="btn white">MENOS <span class="mdi mdi-minus-circle"></span></a> según se requiera y finalmente efectuar la búsqueda con el botón <a class="btn white">ACEPTAR <span class="mdi mdi-check-circle"></span></a>_
 
 
 # Vistas Parciales/Pestañas
 
-Las Vistas Parciales o Pestañas permiten complementar la información que se despliega normalmente sobre un Programa de Mantenimiento, con otro conjunto de información que solo se muestra cuando es necesario,  por solicitud del usuario. Las vistas parciales  disponibles son: **Presupuesto**, **Criterio de Programación** y **Multimedia**. Estas opciones se encuentran en la Ventana Detalle del registro.
+Las Vistas Parciales o Pestañas permiten complementar la información que se despliega normalmente sobre un Programa de Mantenimiento, con otro conjunto de información que solo se muestra según los permisos que tenga el usuario. Las vistas parciales  disponibles son: **Presupuesto**, **Acciones Técnicas**, **Criterio de Programación** y **Multimedia**. Estas opciones se encuentran en la Ventana Detalle del registro.
 
 ### Presupuesto
 
@@ -257,24 +263,24 @@ Se describe a continuación los campos que componen del Detalle de MO:
 
 Para ingresar MO se debe dar clic en el botón <a class="btn gray">Adicionar mano obra interna</a> que se muestra en la ventana detalle de Mano de Obra Interna.
  
-Diligenciados los campos anteriores, se debe dar clic en el icono <span class="mdi mdi-plus-circle icon white"></span>
- ubicado en la parte inferior del formulario, seguidamente, se observa que la información creada se muestra en la tabla de mano de Obra Interna, ubicada al lado izquierdo. 
-(../assets/
+Diligenciados los campos anteriores, se debe dar clic en el icono <span class="mdi mdi-plus-circle icon white"></span> ubicado en la parte inferior del formulario, seguidamente, se observa que la información creada se muestra en la tabla de mano de Obra Interna, ubicada al lado izquierdo. 
+
+
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img09.png)
 _**Imagen 9.** Programas de Mantenimiento - Adicionar MO_
 
 En el caso de actualizar la información de Mano de Obra Externa de algún registro existente, se debe seleccionar el registro y luego dar un clic sobre el botón <a class="btn gray">Actualizar Mano de Obra Externa</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
-(../assets/
+
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img10.png)
 _**Imagen 10.** Programas - Actualizar MO_
 
 Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
-(../assets/
+
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img11.png)
 _**Imagen 11.** Programas - Eliminar MO_
 
 **Ingresar Mano de Obra Externa**
-(../assets/
+
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img12.png)
 _**Imagen 12.** Programas de Mantenimiento - ME_
 
@@ -346,18 +352,18 @@ Diligenciados los (../assets/ icono <span class="mdi mdi-plus-circle icon white"
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img17.png)
 _**Imagen 17.** Programas - Adicionar M y R_
-(../assets/
+
 En el caso de actualizar la información de Materiales y Repuestos de algún registro existente, se debe seleccionar el registro y luego dar un clic sobre el botón <a class="btn gray">Actualizar Mano de Obra Externa</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img18.png)
 _**Imagen 18.** Programas - Actualizar M y R_
-(../assets/
+
 Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img19.png)
 _**Imagen 19.** Programas - Eliminar M y R_
 
-(../assets/
+
 **Ingresar Otros Conceptos de Costo**
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img20.png)
