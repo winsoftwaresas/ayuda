@@ -388,7 +388,7 @@ se encuentren incluidas en el rango especificado en este campo, si no se especif
 
 
 
-# T﻿ransacciones
+# Transacciones
 
 ## Modificar Masivamente (MM)
 
@@ -462,12 +462,12 @@ A continuación se ingresa a la Ventana Detalle de la Solicitud seleccionada en 
 ![Procesar imagen](../../assets/images/cap07/chp07_img28.png)
 _**Imagen 25.** MM - Ventana Detalle Reclasificar_ 
 
-Para definir a que compañía se va a reclasificar la/las SS, primero se define si se desea reclasificar la solicitud seleccionada en el visor o un conjunto de solicitudes previamente seleccionadas en el visor. Para la primera opción, se da clic en el botón  **“Reclasificar solamente esta Solicitud”** y para un Subgrupo clic **“Reclasificar todas las Solicitudes en el visor”**, este a su vez tiene un paréntesis indicado el número de registros a reclasificar.
+Para definir a que compañía se va a reclasificar la(s) SS, primero se define si se desea reclasificar la solicitud seleccionada en el visor o un conjunto de solicitudes previamente seleccionadas en el visor. Para la primera opción, escoger la opción **“Reclasificar solamente esta Solicitud”** y para un Subgrupo **“Reclasificar todas las Solicitudes en el visor”**, éste a su vez tiene un paréntesis indicado el número de registros a reclasificar.
 
-Segundo se escoge la compañía a la que va a mandar la SS desplegando la lista del campo **“Compañía Destino”** el cual lista las compañías activas. 
-Para hacer efectivo el cambio dar clic en el botón  <a class="btn blue">ENVIAR <span class="mdi mdi-send"></span></a>. Éste botón se encarga de transferir la(s) Solicitudes de Servicio a su destino seleccionado.
+Segundo, se escoge la compañía correcta a la que va a mandar la SS desplegando la lista del campo **“Compañía Destino”** el cual lista las compañías activas. 
+Para hacer efectivo el cambio dar clic en  <a class="btn blue">ENVIAR <span class="mdi mdi-send"></span></a>. Éste botón se encarga de transferir la(s) Solicitudes de Servicio a su destino seleccionado.
 
-En la parte superior se encuentra una nota en color rojo haciendo énfasis en el estado en el que debe encontrarse el estado de la SS para reclasificarla. Para continuar con <a class="btn bg-gray cl-black">ACEPTAR</a> cuando se muestre el mensaje alerta:
+En la parte superior se encuentra una nota en color rojo haciendo énfasis en el estado en el que debe encontrarse el estado de la SS para reclasificarla. Para continuar dar un clic en <a class="btn bg-gray cl-black">ACEPTAR</a> cuando se muestre el mensaje alerta:
 
 ![Procesar imagen](../../assets/images/cap07/chp07_img29.png)
 _**Imagen 25.** MM - Enviar SS_
