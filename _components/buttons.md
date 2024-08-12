@@ -302,3 +302,5 @@ almacén :
 <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a>
 
 <a class="btn cl-blue bg-gray px-6"> Adicionar Car.Técnica </a>
+
+<a class="btn bg-gray cl-black">ACEPTAR</a>

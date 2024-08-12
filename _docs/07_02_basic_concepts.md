@@ -109,7 +109,7 @@ El primero es un cuadro de selección <a class="btn white"><span class="mdi mdi-
 
 **Código del Activo:** En este campo se visualiza la información del código del Equipo/Activo seleccionado.
 
-E﻿xisten dos opciones para Identificar un Activo:
+Existen dos opciones para Identificar un Activo:
 
 - La primera es a través del ícono de subgrupo <span class="mdi mdi-filter-variant icon white"></span>. Para ello se da un clic sobre el icono. Acto seguido se muestra la ventana de visor de Equipo/Activos, a   en esta ventana nueva es posible también en la parte superior <span class="mdi mdi-filter-variant"></span> hacer un subgrupo, una vez se haya seleccionado en el visor el registro o se visualice el sombreado verde, es posible añadirlo a través un doble clic sobre él o hacer uso del botón <a class="btn white">Aceptar</a>. Automáticamente se observa la información del Activo registrada en el módulo de Activos. 
 
@@ -252,8 +252,8 @@ De manera adicional u opcional se puede escribir un nombre en el siguiente campo
 ![Procesar imagen](../../assets/images/cap07/chp07_img10.png)
 _**Imagen 8.** Solicitudes - Nombrar Archivo_
 
-P﻿ara finalizar se debe de dar un clic en el el botón <a class="btn  blue">subir Archivo</a>. El sistema confirma a través de un mensaje que se ha subido el archivo satisfactoriamente.
- ﻿
+Para finalizar se debe de dar un clic en el el botón <a class="btn  blue">subir Archivo</a>. El sistema confirma a través de un mensaje que se ha subido el archivo satisfactoriamente.
+ 
 Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic sobre el nombre de una de las imágenes, se muestra la previsualización, como se muestra a continuación:
 
 ![Procesar imagen](../../assets/images/cap07/chp07_img11.png)
@@ -399,13 +399,13 @@ _**Imagen 14.** Solicitudes - Ir a Modificación Masiva_
 
 Esta transacción permite cambiar masivamente el Centro de Costos, Ubicación Física, Responsable, Centro Responsable y adjuntar documentos de un Subgrupo.
 
-U﻿na vez se ingrese a la la Transacción se visualiza  el visor de Modificación Masiva, con el fin de luego hacer un Subgrupo:
+Una vez se ingrese a la la Transacción se visualiza  el visor de Modificación Masiva, con el fin de luego hacer un Subgrupo:
 
 ![Procesar imagen](../../assets/images/cap07/chp07_img18.png)
 _**Imagen 15.** Solicitudes - Visor Modificación Masiva_
 
 
-P﻿ara realizar el cambio se debe dar clic en el botón <a class="btn white">Modificar masivamente</a>, se abre una nueva ventana donde a continuación se da una breve explicación de cada criterio.
+Para realizar el cambio se debe dar clic en el botón <a class="btn white">Modificar masivamente</a>, se abre una nueva ventana donde a continuación se da una breve explicación de cada criterio.
 
 ![Procesar imagen](../../assets/images/cap07/chp07_img19.png)
 _**Imagen 16.** Solicitudes - Modificación Masiva_
@@ -436,43 +436,43 @@ _**Imagen 20.** MM - Centro Responsable_
 ![Procesar imagen](../../assets/images/cap07/chp07_img24.png)
 _**Imagen 21.** MM - Centro Responsable_
 
-**M﻿odificar Adjuntar Documentos:** Se adjuntan documentos masivamente a las SS previamente seleccionadas en el visor.
+**Modificar Adjuntar Documentos:** Se adjuntan documentos masivamente a las SS previamente seleccionadas en el visor.
 
 ![Procesar imagen](../../assets/images/cap07/chp07_img25.png)
 _**Imagen 22.** MM - Adjuntar Documentos_
 
 ## Reclasificar
 
-A esta opción se llega al sobreponer el cursor del sobre el módulo de Solicitudes de Servicio y en la parte inferior se despliega el conjunto de transacciones disponibles para el módulo de Solicitudes, según los permisos Administrativos, se da clic en la opción **Reclasificar**.
+A esta opción se llega ubicando el cursor sobre el módulo de Solicitudes de Servicio y en la parte inferior se despliega el conjunto de transacciones disponibles para el módulo de SS acorde a los permisos otorgados al usuario. Luego, ingrese dando clic en la opción **Reclasificar**.
 
 ![Procesar imagen](../../assets/images/cap07/chp07_img26.png)
 _**Imagen 23.** MM - Ir a Reclasificar_
 
-El objetivo de esta transacción es realizar la reclasificación de las Solicitudes de Servicio generadas a una compañía no correspondiente a la labor requerida y está asociada a permisos de Usuarios.
+El objetivo de esta transacción es realizar la reclasificación o el traslado de las SS generadas a una compañía no correspondiente a otra compañía. 
 
-
-Aplica tanto para una Solicitud en particular como para un Subgrupo en estado **AN** “En Análisis”. Para reclasificar un conjunto de SS se debe de crear prevamiente el subgrupo. 
-ingresar a la transacción se muestra el visor con SS estado **AN** “En Análisis”. Para reclasificar un conjunto de SS se debe de crear prevamiente el subgrupo. 
+Se puede realizar para una Solicitud en particular como para un conjunto de ellas (Subgrupo) siempre y cuando la SS tenga el estado **AN** **“En Análisis”.** Para reclasificar un conjunto de SS se debe de crear prevamiente el subgrupo. Luego, ingresar a la transacción que  muestra el visor con el subgrupo formado anteriormente. 
 
 ![Procesar imagen](../../assets/images/cap07/chp07_img27.png)
 _**Imagen 24.** MM - Visor Reclasificar_ 
 
-P﻿ara continuar con la transacción dar clic en el botón ubicado en la parte superior izquierda <a class="btn white">reclasificar</a>.
+Para continuar con la transacción dar clic en el botón ubicado en la parte superior izquierda <a class="btn white">Reclasificar</a>.
 
-A﻿ continuación se ingresa a la Ventana Detalle de la Solicitud seleccionada en el visor. 
+A continuación se ingresa a la Ventana Detalle de la Solicitud seleccionada en el visor. 
 
 ![Procesar imagen](../../assets/images/cap07/chp07_img28.png)
 _**Imagen 25.** MM - Ventana Detalle Reclasificar_ 
 
-Para definir a que compañía se va a reclasificar la Solicitud de Servicio o las Solicitudes de Servicio, primero se define si se desea reclasificar la solicitud seleccionada en el visor o un conjunto de solicitudes previamente seleccionadas en el visor. Para la primera opción, se da clic en el botón de radio “Reclasificar solamente esta Solicitud” y para la segunda opción, se da clic en el botón de radio “Reclasificar todas las Solicitudes en el visor”, este a su vez tiene un paréntesis indicado el número de registros a reclasificar.
+Para definir a que compañía se va a reclasificar la/las SS, primero se define si se desea reclasificar la solicitud seleccionada en el visor o un conjunto de solicitudes previamente seleccionadas en el visor. Para la primera opción, se da clic en el botón  **“Reclasificar solamente esta Solicitud”** y para un Subgrupo clic **“Reclasificar todas las Solicitudes en el visor”**, este a su vez tiene un paréntesis indicado el número de registros a reclasificar.
 
-Segundo se escoge la compañía utilizando la lista desplegable del campo “Compañía Destino” el cual lista las compañías activas. 
-Para hacer efectivo el cambio dar clic en el botón  <a class="btn blue">enviar <span class="mdi mdi-send"></span></a> y este se encarga de transferir la(s) Solicitudes de Servicio a su destino seleccionado. También se encuentra una nota en color rojo haciendo énfasis en el estado en el que debe encontrarse el estado de la SS para reclasificarla. Para continuar dar clic en <a class="btn white">Aceptar</a> del mensaje alerta:
+Segundo se escoge la compañía a la que va a mandar la SS desplegando la lista del campo **“Compañía Destino”** el cual lista las compañías activas. 
+Para hacer efectivo el cambio dar clic en el botón  <a class="btn blue">ENVIAR <span class="mdi mdi-send"></span></a>. Éste botón se encarga de transferir la(s) Solicitudes de Servicio a su destino seleccionado.
+
+En la parte superior se encuentra una nota en color rojo haciendo énfasis en el estado en el que debe encontrarse el estado de la SS para reclasificarla. Para continuar con <a class="btn bg-gray cl-black">ACEPTAR</a> cuando se muestre el mensaje alerta:
 
 ![Procesar imagen](../../assets/images/cap07/chp07_img29.png)
 _**Imagen 25.** MM - Enviar SS_
 
-E﻿l sistema confirma cuando se ha terminado la transacción:
+El sistema confirma cuando se ha terminado la transacción:
 
 ![Procesar imagen](../../assets/images/cap07/chp07_img30.png)
 _**Imagen 26.** MM - Mensaje Alerta Reclasificar SS_ 
@@ -480,12 +480,12 @@ _**Imagen 26.** MM - Mensaje Alerta Reclasificar SS_
 ## Enviar a Historia
 
 Para ingresar se debe sobreponer el cursor sobre en **Enviar a Historia**. El objetivo de esta transacción es desplazar hacia el módulo de Historia de Mantenimiento, una SS o un conjunto de SS
-en por un subgrupo, es decir, las que se encuentran en el visor, que además tengan estado  **CE** "Cerrada Ejecutada", **K** "Cancelada No Ejecutada" ﻿y **CO** "Cerrada con Orden"".
+en por un subgrupo, es decir, las que se encuentran en el visor, que además tengan estado  **CE** "Cerrada Ejecutada", **K** "Cancelada No Ejecutada" y **CO** "Cerrada con Orden"".
 
 ![Procesar imagen](../../assets/images/cap07/chp07_img31.png)
 _**Imagen 27.** MM - Ir a Enviar a Historia_ 
 
-E﻿ste es una transacción controlada por medio de las siguientes opciones a continuación:
+Este es una transacción controlada por medio de las siguientes opciones a continuación:
 
 ![Procesar imagen](../../assets/images/cap07/chp07_img32.png)
 _**Imagen 28.** MM - Enviar a Historia_
@@ -504,16 +504,16 @@ En la ventana aparece el botón <a class="btn gray">enviar a historia</a>.y tres
 
 **Registro seleccionado:** Realiza el envío de la Solicitud de Servicio que está resaltada en el visor (tiene la línea verde del cursor sobre sí).
 
-Para efectuar la transacción a Historia, se selecciona una de las opciones anteriores y luego hacer clic en el botón <a class="btn gray">enviar a historia</a>. El sistema muestra un mensaje alerta antes terminar con el proceso:
+Para efectuar la transacción a Historia, se selecciona una de las opciones anteriores y luego hacer clic en el botón <a class="btn gray">Enviar a Historia</a>. El sistema muestra un mensaje alerta antes terminar con el proceso:
 
 ![Procesar imagen](../../assets/images/cap07/chp07_img33.png)
-_**Imagen 29.** MM - M﻿ensaje Alerta Enviar a Historia_
+_**Imagen 29.** MM - Mensaje Alerta Enviar a Historia_
 
-P﻿ara finalizar dar clic en el botón <a class="btn white">Aceptar</a> y el sistema confirma la cantidad de registros a Historia:
+Para finalizar dar clic en el botón <a class="btn white">Aceptar</a> y el sistema confirma la cantidad de registros a Historia:
 
 
 ![Procesar imagen](../../assets/images/cap07/chp07_img34.png)
-_**Imagen 30.** MM - M﻿ensaje Alerta Enviar a Historia_
+_**Imagen 30.** MM - Mensaje Alerta Enviar a Historia_
 
 
->﻿**Nota:** las Solitudes en estado K "Cancelada No Ejecutada" no se envían a Historia hasta que se asigne un Activo Válido asignado a la Solicitud. Esto se muestra en un Mensaje Alerta.
+>**Nota:** las Solitudes en estado K "Cancelada No Ejecutada" no se envían a Historia hasta que se asigne un Activo Válido asignado a la Solicitud. Esto se muestra en un Mensaje Alerta.
