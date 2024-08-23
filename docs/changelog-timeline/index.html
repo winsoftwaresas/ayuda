@@ -141,7 +141,7 @@ function searchResults(form) {
         <div class="uk-container">
             <div data-uk-navbar>
                 <div class="uk-navbar-left">
-                    <a class="uk-navbar-item uk-logo uk-visible@m" href="/"><img src="http://localhost:4000/uploads/winsoftware_logo.svg" alt="AM"></a>
+                    <a class="uk-navbar-item uk-logo uk-visible@m" href="https://winsoftware.com.co"><img src="http://localhost:4000/uploads/winsoftware_logo.svg" alt="AM"></a>
                     
                         <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas-docs" data-uk-toggle><span data-uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">AM</span></a>
                     
@@ -237,6 +237,7 @@ function searchResults(form) {
         </div>
     </nav>
 </div>
+
     
 
     
@@ -251,6 +252,244 @@ function searchResults(form) {
                 <p>A continuación se encuentra, a modo de resumen, el compendio de los cambios incluidos en cada versión de <strong><a href="https://winsoftware.com.co/am-administrador/">AM</a></strong>.</p>
 
 <div class="tm-timeline uk-margin-large-top">
+    
+    <div class="tm-timeline-entry">
+        <div class="tm-timeline-time">
+            <h5>April 26, 2024</h5>
+        </div>
+        <div class="tm-timeline-body">
+            <h3 class="uk-flex uk-flex-middle">AM4G  Version 1.2<span class="uk-label uk-margin-small-left">STABLE</span></h3>
+            <ul class="uk-list">
+                
+                <li>Se realiza parametrización en activos para permitir dos Contadores en un Activo.</li>
+                
+                <li>Se desarrolla una función la cual generara automáticamente una Orden de Trabajo cuando una característica controlable adiciona una lectura fuera del rango.</li>
+                
+                <li>Se añade un campo de Recibido por en los movimientos de Salida en Kardex.</li>
+                
+                <li>Se añade un campo de Comentario en los movimientos de Salida en Kardex.</li>
+                
+                <li>Se añaden los filtros de búsqueda en Subgrupo por los campos Recibido por y Comentarios en modulo de Kardex.</li>
+                
+                <li>Se desarrolla reporte KXR-RST Informe de Salidas – Entregas en modulo de Kardex.</li>
+                
+                <li>Se adiciona una validación en Entradas que permite al Concepto 33 realizar movimiento de entrada con valor unitario en 0 en Kardex.</li>
+                
+                <li>Se habilita el criterio de programación por dos contadores en Programas.</li>
+                
+                <li>Se permite relacionar en un programa Presupuesto y Acciones Técnicas en Programas.</li>
+                
+                <li>Se desarrolla una validación al campo Comentario para que no permita Actualizar el detalle de la Solicitud si se encuentra un Comentario sin agregar en Solicitudes, Ordenes e Historia.</li>
+                
+                <li>Se agrega el Código de activo a la exportación a Excel en modulo de Solicitudes.</li>
+                
+                <li>Se permite en una Orden manejar Acciones técnicas y control de Gastos en Ordenes e Historia.</li>
+                
+                <li>Se desarrollan los check-list en acciones técnicas en Ordenes e Historia.</li>
+                
+                <li>Se desarrolla el reporte 0TD-AT en el modulo Ordenes.</li>
+                
+                <li>Se modifican los procesos de Insertar y Actualizar en las matrices de gasto real y presupuesto en modulos de Ordenes e Historia.</li>
+                
+                <li>Se adiciona al registro en la bitácora de la Orden de trabajo los cambios de Activos en Ordenes e Historia.</li>
+                
+                <li>Se desarrolla el reporte HMD-AT en el modulode Historia.</li>
+                
+            </ul>
+        </div>
+    </div>
+    
+    <div class="tm-timeline-entry">
+        <div class="tm-timeline-time">
+            <h5>February 05, 2024</h5>
+        </div>
+        <div class="tm-timeline-body">
+            <h3 class="uk-flex uk-flex-middle">AM4G  Version 1.1B<span class="uk-label uk-margin-small-left">STABLE</span></h3>
+            <ul class="uk-list">
+                
+                <li>Se cambia en el modulo de Activos el concepto de Clasificación por procesos a Criticidad del Activo.</li>
+                
+                <li>Se adiciona en el modulo de Activos Ítem Equipos de apoyo hospitalario a la clasificación Biomédica en la ficha de Información Biomédica.</li>
+                
+                <li>Se adiciona en el modulo de Activos el campo Número de Expediente en la ficha de Información biomédica.</li>
+                
+                <li>Se adiciona en el modulo de Activos el campo Clasificación por Riesgo en los Subgrupos de búsqueda.</li>
+                
+                <li>Se adicionan en el modulo de Programas los filtros de Búsqueda de Clasificación Por Uso, Clasificación Por Grupo y Clasificación Por Riesgo.</li>
+                
+                <li>Se permite definir en el modulo de Adminisracion para las compañías que usan AMovil, si desean que solo se permita descargar a los técnicos las Ordenes programadas para el día actual.</li>
+                
+            </ul>
+        </div>
+    </div>
+    
+    <div class="tm-timeline-entry">
+        <div class="tm-timeline-time">
+            <h5>December 05, 2023</h5>
+        </div>
+        <div class="tm-timeline-body">
+            <h3 class="uk-flex uk-flex-middle">AM4G  Version 1.1A<span class="uk-label uk-margin-small-left">STABLE</span></h3>
+            <ul class="uk-list">
+                
+                <li>El administrador del modulo de AMsi puede definir si desea preguntar a los solicitantes Si se entrega el equipo limpio a mantenimiento.</li>
+                
+                <li>Se adicionan los filtros de búsqueda por Familia y Parte Número en Almacen.</li>
+                
+                <li>Se corrige en Kardex el calculo del iva cuando las entradas tienen descuento, este se calcula en base al valor con el descuento incluido.</li>
+                
+                <li>Se adicionan en el modulo de Solicitudes los campos para registrar si el activo se entrega limpio a mantenimiento y si mantenimiento devuelve el activo limpio.</li>
+                
+                <li>Se adiciona en el modulo de Solicitudes el campo para registrar si mantenimiento devuelve el activo limpio.</li>
+                
+                <li>Se adicionan en el modulo de Ordenes los campos para registrar si el activo se entrega limpio a mantenimiento.</li>
+                
+                <li>Se adicionan en el modulo de Historia los campos para registrar los datos de entrega del activo en las diferentes Ordenes, Solicitudes o Paros.</li>
+                
+                <li>En el modulo de Administracion se podrá definir por cada compañía como deben aumentar los consecutivos de Kardex, si por almacén o por compañía.</li>
+                
+            </ul>
+        </div>
+    </div>
+    
+    <div class="tm-timeline-entry">
+        <div class="tm-timeline-time">
+            <h5>October 10, 2023</h5>
+        </div>
+        <div class="tm-timeline-body">
+            <h3 class="uk-flex uk-flex-middle">AM4G  Version 1.1<span class="uk-label uk-margin-small-left">STABLE</span></h3>
+            <ul class="uk-list">
+                
+                <li>A partir de esta versión los usuarios de AMsi podrán interactuar con el aplicativo desde el móvil o tableta sin perder ninguna funcionalidad del sistema.</li>
+                
+                <li>Se realizan mejoras y validaciones en el modulo de administración de Amsi para evitar errores en el registro de nuevos usuarios.</li>
+                
+                <li>Se revisan las validaciones para la tabla de terceros, permitiendo la actualización fluida de los cambios en terceros.</li>
+                
+                <li>Se establecen en Contratos 2 casos de tipo de servicio, el que se recibe y el que se presta.</li>
+                
+                <li>Se bloquea la tabla de catalogo Tipos de mantenimientos.</li>
+                
+                <li>En el Submódulo de contadores se presentan los activos con ordenamiento alfabético.</li>
+                
+                <li>Se crea el campo de Usuario en la inserción del documento de Kardex.</li>
+                
+                <li>Se desarrolla la función de validación para los valores unitarios en las entradas.</li>
+                
+                <li>Se parametriza la opción para Congelar los documentos de Kardex.</li>
+                
+                <li>Se corrige el reporte PRP-PRYAMD para que muestre todos los criterios de programación.</li>
+                
+                <li>Al momento de crear una nueva solicitud Correctiva el sistema tomara la fecha y hora automáticamente y la asignara a la fecha y hora de Paro.</li>
+                
+                <li>Se adiciona el campo Ubicación Física a las opciones de descarga en el módulo de Solicitudes.</li>
+                
+                <li>Se adicionan Dashboard con los estados de las Solicitudes.</li>
+                
+                <li>Se corrige la toma de tiempo improductivo automática para Ordenes con tipo de mantenimiento Correctivo.</li>
+                
+                <li>Se elimina la validación para los campos obligatorios de Causa de Falla y Efecto de Falla al momento de cancelar una Orden.</li>
+                
+                <li>En la Opción Agregar Responsable al gasto real de modificación masiva de Ordenes de Trabajo, se carga a su vez el tipo de asignación definida por el usuario.</li>
+                
+                <li>Al agregar un responsable ejecutor con la opción Modificación masiva si este responsable es un interno se selecciona a la vez de forma automatica como responsable por la Institución.</li>
+                
+                <li>Se adiciona en Dashboard con los estados de las Ordenes.</li>
+                
+                <li>Se adiciona Dashboard Interactivo por Tipo de Mantenimientos.</li>
+                
+                <li>Los consecutivos se ordenan por campo numérico en el modulo de Hitoria.</li>
+                
+                <li>Se adiciona el filtro de Búsqueda por “Fecha de Envió a Historia”.</li>
+                
+                <li>Se adiciona el campo de descarga por “Fecha de Envió a Historia”.</li>
+                
+                <li>Se adiciona el reporte HMR-RECC Resumen De Costo En Ordenes De Trabajo Agrupado Por Centro de Costo.</li>
+                
+                <li>Se adiciona el reporte HMR-RETM Resumen De Costo En Ordenes De Trabajo Agrupado Por Tipo de Mantenimiento.</li>
+                
+                <li>Se adiciona el reporte HMR-RETA	Resumen De Costo En Ordenes De Trabajo	 Agrupado Por Tipo de Mantenimiento y Tipo de Actividad.</li>
+                
+                <li>Los registros por pagina se deben definir a partir de esta versión entre las opciones 60 0 100 registros por página.</li>
+                
+                <li>El administrador de la Compañía debe definir si se toma o no el tiempo Improductivo para todas las Ordenes creadas desde AMovil.</li>
+                
+                <li>El administrador de la Compañía debe seleccionar el Tipo de Mantenimiento, Tipo de Actividad y Tipo de Trabajo por defecto para las Solicitudes generadas desde AMsi.</li>
+                
+                <li>Se adiciona la Opcion de un nuevo Correo al agregar un Comentario a las Solicitudes u Ordenes de trabajo.</li>
+                
+                <li>Esta versión permite a los Administradores de Compañía definir los permisos básicos para cada usuario en AMovil.</li>
+                
+                <li>Los clientes pueden Solicitar a Winsoftware manejar el Login de usuarios con multifactor a través de correo electrónico.</li>
+                
+                <li>Desde esta versión el sistema tiene una auditoria fuerte sobre el módulo de Kardex.</li>
+                
+                <li>Se crea una tabla de Login fallidos.</li>
+                
+            </ul>
+        </div>
+    </div>
+    
+    <div class="tm-timeline-entry">
+        <div class="tm-timeline-time">
+            <h5>June 12, 2023</h5>
+        </div>
+        <div class="tm-timeline-body">
+            <h3 class="uk-flex uk-flex-middle">AM4G  Version 1.0A<span class="uk-label uk-margin-small-left">STABLE</span></h3>
+            <ul class="uk-list">
+                
+                <li>Se desarrolla en AMsi la funcionalidad para relacionar los usuarios por compañías.</li>
+                
+                <li>Se realiza la validación para los tipos de documento según el tipo de movimiento en Kardex.</li>
+                
+                <li>Se desarrollan cambios de indicadores sobre los reportesde Indicadores en Historia.</li>
+                
+                <li>Se desarrollan nuevas funciones en las 2 interfases de carga de archivos planos.</li>
+                
+            </ul>
+        </div>
+    </div>
+    
+    <div class="tm-timeline-entry">
+        <div class="tm-timeline-time">
+            <h5>April 12, 2023</h5>
+        </div>
+        <div class="tm-timeline-body">
+            <h3 class="uk-flex uk-flex-middle">AM4G  Version 1.0<span class="uk-label uk-margin-small-left">STABLE</span></h3>
+            <ul class="uk-list">
+                
+                <li>Se desarrolla indicador en las carpetas de multimedia para informar al usuario cuando estas contienen archivos.</li>
+                
+                <li>Se desarrolla función de búsqueda para usuarios en el módulo de administración del AMsi.</li>
+                
+                <li>Se corrige la validación y ahora el sistema permite a los oficios con responsables internos llevar por defecto el valor Hora1 en 0.</li>
+                
+                <li>Se anexan los filtros de búsqueda por Fecha de Registro y Fecha de Ingreso al inventario (Modulo de Activos).</li>
+                
+                <li>Se desarrolla el reporte PMU-DPM	Detallado de Programas De Mantenimiento (Modulo de Programas).</li>
+                
+                <li>Se corrigen los colores en los tiempos de estado (Modulo de Solicitudes).</li>
+                
+                <li>Se desarrollan los links de enlace entre las Solicitudes cerradas con Orden y las Ordenes de trabajo que se encuentran en historia.</li>
+                
+                <li>Se anexa validación de Ubicación Física obligatoria para Ordenes de Trabajo (Modulo de Ordenes).</li>
+                
+                <li>Se anexa validación para no permitir el cierre de Ordenes sin definir el responsable ejecutor (Modulo de Ordenes).</li>
+                
+                <li>Se anexa validación para no permitir a los usuarios modificar el activo o tipo de mantenimiento en las Ordenes que vienen de Programas (Modulo de Ordenes).</li>
+                
+                <li>Se desarrolla el reporte OTR-LREP	Resumen de Materiales y Repuestos (Modulo de Ordenes).</li>
+                
+                <li>Se realiza un cambio en el back para permitir una carga más rápida de la grilla de inicio de modulo (Modulo de Historia).</li>
+                
+                <li>Se desarrolla el reporte HMR-EVAP 	Porcentaje de Evaluaciones por calificación (Modulo de Historia).</li>
+                
+                <li>Se permite al usuario administrador del sistema AM4G definir si los tecnicos de amovil deben o no realizar la evaluacion antes de la firma de recibido (Administración).</li>
+                
+                <li>Se configura el servicdor de correo a través de Javamail.</li>
+                
+            </ul>
+        </div>
+    </div>
     
     <div class="tm-timeline-entry">
         <div class="tm-timeline-time">
@@ -606,7 +845,7 @@ function searchResults(form) {
         
           
           
-          <li class=""><a href="/docs/03_04_parts_list/">Codificación de Activos/Equipos y Generalidades</a></li>
+          <li class=""><a href="/docs/03_04_parts_list/"></a></li>
         
           
           
@@ -844,23 +1083,23 @@ function searchResults(form) {
         
           
           
-          <li class=""><a href="/docs/16_01_introduction/">Introducción</a></li>
+          <li class=""><a href="/docs/16_01_basic_concepts/">Conceptos Básicos</a></li>
         
           
           
-          <li class=""><a href=""></a></li>
+          <li class=""><a href="/docs/16_02_assets/">Activos</a></li>
         
           
           
-          <li class=""><a href=""></a></li>
+          <li class=""><a href="/docs/16_03_warehouse/">Almacén</a></li>
         
           
           
-          <li class=""><a href=""></a></li>
+          <li class=""><a href="/docs/16_04_requests/">Solicitudes</a></li>
         
           
           
-          <li class=""><a href=""></a></li>
+          <li class=""><a href="/docs/16_05_orders/">Ordenes</a></li>
         
         </ul>
         

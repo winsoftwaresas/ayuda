@@ -1,0 +1,2530 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Ordenes | AM</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Ordenes" />
+<meta name="author" content="win" />
+<meta property="og:locale" content="es" />
+<meta name="description" content="Para ir a Órdenes dar un toque sobre el botón Órdenes en el menú principal:" />
+<meta property="og:description" content="Para ir a Órdenes dar un toque sobre el botón Órdenes en el menú principal:" />
+<link rel="canonical" href="http://localhost:4000/docs/16_05_orders/" />
+<meta property="og:url" content="http://localhost:4000/docs/16_05_orders/" />
+<meta property="og:site_name" content="AM" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-08-15T21:12:59-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Ordenes" />
+<script type="application/ld+json">
+{"headline":"Ordenes","dateModified":"2024-08-15T21:12:59-05:00","datePublished":"2024-08-15T21:12:59-05:00","author":{"@type":"Person","name":"win"},"@type":"BlogPosting","description":"Para ir a Órdenes dar un toque sobre el botón Órdenes en el menú principal:","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/winsoftware_logo.svg"},"name":"win"},"url":"http://localhost:4000/docs/16_05_orders/","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/docs/16_05_orders/"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <meta property="og:image" content="http://localhost:4000/uploads/winsoftware_logo.svg"/>
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="shortcut icon" type="image/png" href="/uploads/favicon.png" >
+  <link rel="alternate" type="application/rss+xml" title="AM" href="/feed.xml">
+  <script src="//code.iconify.design/1/1.0.6/iconify.min.js"></script>
+  <script src="/assets/js/main.js"></script>
+  
+    <script>
+function searchResults(form) {
+
+    var currentItem = null;
+    var search = document.getElementById(form);
+    var results = document.getElementById(form + "-results");
+    var toggle = document.getElementById(form + "-toggle");
+
+    function removeActive() {
+        for (i = 0; i < results.children.length; i++) {
+            results.children[i].classList.remove("uk-background-muted");
+        }
+    }
+
+    // Detect all clicks on the document
+    document.addEventListener("click", function(event) {
+
+        var isClickSearch = false;
+        var isClickResults = false;
+        var isClickSearchToggle = false;
+
+        if (search !== null) {
+            isClickSearch = search.contains(event.target);
+        }
+
+        if (results !== null) {
+            isClickResults = results.contains(event.target);
+        }
+
+        if (toggle !== null) {
+            isClickSearchToggle = toggle.contains(event.target);
+        }
+
+        if (isClickSearch || isClickSearchToggle) {
+            results.style.display = "block";
+        }        
+
+        if (!isClickResults && !isClickSearch && !isClickSearchToggle) {
+            results.style.display = "none";
+        }        
+        
+    });    
+
+    results.addEventListener("mouseover", function(event) {
+
+        removeActive();
+        event.target.parentElement.classList.add("uk-background-muted");
+        currentItem = null;
+
+    });
+
+    results.addEventListener("mouseout", function(event) {
+        event.target.parentElement.classList.remove("uk-background-muted");
+    });
+
+
+    search.addEventListener("keyup", function(event) {
+
+        var resultItems = results.children;
+        var resultCount = results.children.length;
+                                
+        if (event.keyCode === 40) {
+
+            if (currentItem < (resultCount - 1)) {
+                if (currentItem === null) {
+                    currentItem = 0;
+                } else {
+                    removeActive();
+                    currentItem++;
+                }
+                removeActive();
+                resultItems[currentItem].classList.add("uk-background-muted");
+            }
+            
+        } else if (event.keyCode === 38) {
+
+            if (currentItem > 0) {
+                if (currentItem === null) {
+                    currentItem = 0;
+                } else {
+                    removeActive();
+                    currentItem--;
+                }
+                removeActive();
+                resultItems[currentItem].classList.add("uk-background-muted");
+            }
+
+        } else if (event.keyCode === 13) {
+
+            resultItems[currentItem].children[0].click();
+
+        }
+
+    });
+
+}
+</script>
+  
+  <!-- Hook head -->
+  
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script src="http://127.0.0.1:35729/livereload.js"></script></head>
+
+    <body>
+
+    
+        <div data-uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent; top: 200">
+    <nav class="uk-navbar-container">
+        <div class="uk-container">
+            <div data-uk-navbar>
+                <div class="uk-navbar-left">
+                    <a class="uk-navbar-item uk-logo uk-visible@m" href="https://winsoftware.com.co"><img src="http://localhost:4000/uploads/winsoftware_logo.svg" alt="AM"></a>
+                    
+                        <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas-docs" data-uk-toggle><span data-uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">AM</span></a>
+                    
+
+                    <ul class="uk-navbar-nav uk-visible@m">
+                        
+                            
+                            
+                            
+                                
+                                    <li><div class="uk-navbar-item"><a class="uk-button uk-button-default" href="/docs/01_01_introduction/" >Manual de usuario</a></div></li>
+                                
+                            
+                        
+                            
+                            
+                            
+                                
+                                    
+                                        <li><a href="#">Registro de cambios</a>
+                                        
+                                            <div class="uk-navbar-dropdown">
+                                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                                    
+                                                    
+                                                        
+                                                        
+                                                        <li><a href="/changelog-timeline/">Línea de tiempo</a></li>
+                                                    
+                                                    
+                                                    
+                                                        
+                                                        
+                                                        <li><a href="/changelog-posts/">Publicaciones</a></li>
+                                                    
+                                                    
+                                                </ul>
+                                            </div>
+                                        
+                                        </li>
+                                                                                                        
+                                
+                            
+                        
+                    </ul>
+                </div>
+                <div class="uk-navbar-center uk-hidden@m">
+                    <a class="uk-navbar-item uk-logo" href="/"><img src="http://localhost:4000/uploads/winsoftware_logo.svg" alt="AM"></a>
+                </div>
+                <div class="uk-navbar-right">
+                    
+                        
+                            <div>
+                                <a id="search-navbar-toggle" class="uk-navbar-toggle" uk-search-icon href="#"></a>
+                                <div class="uk-drop uk-background-default uk-border-rounded" uk-drop="mode: click; pos: left-center; offset: 0">
+                                    <form class="uk-search uk-search-navbar uk-width-1-1" onsubmit="return false;">
+                                        <input id="search-navbar" class="uk-search-input" type="search" placeholder="Buscar respuestas" autofocus autocomplete="off">
+                                    </form>
+                                    <ul id="search-navbar-results" class="uk-position-absolute uk-width-1-1 uk-list"></ul>
+                                </div>
+                            </div>
+                            <script>
+                            SimpleJekyllSearch({
+                                searchInput: document.getElementById('search-navbar'),
+                                resultsContainer: document.getElementById('search-navbar-results'),
+                                noResultsText: '<li class="no-results">No encontré resultados</li>',
+                                searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
+                                json: "/search.json"
+                            });
+                            searchResults("search-navbar");
+                            </script>
+                        
+                    
+
+                    <ul class="uk-navbar-nav uk-visible@m">
+                        
+                            
+                            
+                            
+                                
+                                    <li><div class="uk-navbar-item"><a class="uk-button uk-button-primary-outline" href="https://wa.me/573108304059" target="_blank" ><span uk-icon="whatsapp" class="whatsapp-icon"></span></a></div></li>
+                                
+                            
+                        
+                    </ul>
+
+                    
+                        <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas" data-uk-toggle><span data-uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">Menu</span></a>
+                    
+
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+
+    
+
+    <div class="uk-section">
+    <div class="uk-container">
+        <div class="uk-grid-large" data-uk-grid>
+
+            <div class="sidebar-fixed-width uk-visible@m">
+                <div class="sidebar-docs uk-position-fixed uk-margin-top">
+                    
+                    <h5>Trabajando con AM</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/01_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/01_02_first_look/">Un vistazo a AM</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/01_03_user_interface/">Interfaz de Usuario</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/01_04_concurrence/">Concurrencia en AM</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/01_05_summary/">Resumen</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Infraestructura</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/02_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/02_02_basic_concept/">Conceptos Básicos sobre la Infraestructura</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/02_03_tables/">Tablas de Infraestructura</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/02_04_export/">Exportar</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/02_05_services/">Servicios</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Activos</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/03_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/03_02_basic_concepts/">Conceptos Básicos sobre Activos/Equipos</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/03_03_data_sheet/">Ficha Técnica</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/03_04_parts_list/"></a></li>
+                    
+                      
+                      
+                      <li class=""><a href=""></a></li>
+                    
+                    </ul>
+                    
+                    <h5>Almacenes, Materiales y Repuestos</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/04_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/04_02_basic_concepts/">Conceptos Básicos sobre Almacenes, Materiales y Repuestos</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/04_03_spare_coding/">Codificación de Repuestos</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/04_04_main_window/">Ventana Principal de Almacén de Repuestos</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Kárdex</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/05_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/05_02_basic_concepts/">Conceptos Básicos sobre el Kárdex de Almacén</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/05_03_movements/">Movimientos de Kárdex</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/05_04_services/">Servicios</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Solicitudes de Servicio</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/07_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/07_02_basic_concepts/">Conceptos Básicos sobre Solicitudes de Servicio</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/07_03_services/">Servicios</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Paros</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/08_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/08_02_basic_concepts/">Conceptos Básicos sobre Paros / Averías</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/08_03_creation/">Creación de Paros</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/08_04_tracking_and_closing/">Seguimiento y Cierre de Paros / Averías</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Órdenes de Trabajo</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/09_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/09_02_basic_concepts/">Conceptos Básicos sobre Órdenes de Trabajo</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/09_03_analysis_and_generation/">Análisis y Generación de Órdenes de Trabajo Programadas</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/09_04_main_window/">Ventana Principal de Órdenes de Trabajo</a></li>
+                    
+                      
+                      
+                      <li class=""><a href=""></a></li>
+                    
+                    </ul>
+                    
+                    <h5>Historia de mantenimiento</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/10_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/10_02_basic_concepts/">Conceptos Básicos</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/10_03_send_to_history/">Enviar a Historia</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/10_04_main_window/">Ventana Principal</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/10_05_periodic_management_balance/">Balance Periódico de Gestión</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Programas de mantenimiento</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/11_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/11_02_basic_concepts/">Conceptos Básicos de Programas de Mantenimiento</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/11_03_main_window/">Ventana Principal de Programas de Mantenimiento</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/11_04_services/">Servicios</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Historia Archivada</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/12_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/12_02_basic_concepts/">Conceptos Básicos</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/12_03_main_window/">Ventana Principal</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/12_04_submenu_window/">Ventana Submenú</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/12_05_transactions/">Transacciones</a></li>
+                    
+                    </ul>
+                    
+                    <h5>AMsi</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_01_working_with_amsi/">Trabajando con AMsi</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_02_ui/">Interfaz de Usuario</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_03_update_profile/">Actualizar Perfil</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_04_create_a_new_request/">Crear Nueva Solicitud</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_05_request_consulting/">Consultar Mis Solicitudes</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_06_request_evaluation/">Evaluar Servicio</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_07_create_a_new_order/">Crear Nueva Orden</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_08_orders_consulting/">Consultar Mis Órdenes</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_09_amsi_administration_access/">Acceso Administración AMsi</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_10_user_settings/">Configuración de Usuarios</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_11_logout/">Exportar Visor de SS/OT</a></li>
+                    
+                    </ul>
+                    
+                    <h5>AMovil</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/16_01_basic_concepts/">Conceptos Básicos</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/16_02_assets/">Activos</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/16_03_warehouse/">Almacén</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/16_04_requests/">Solicitudes</a></li>
+                    
+                      
+                      
+                      <li class="uk-active"><a href="/docs/16_05_orders/">Ordenes</a></li>
+                    
+                    </ul>
+                    
+                </div>
+            </div>
+
+            <div class="uk-width-1-1 uk-width-expand@m">
+
+                <article class="uk-article">
+
+                    <h1 class="uk-article-title">Ordenes</h1>
+
+                    <p class="uk-text-lead uk-text-muted">Explicación del módulo del módulo de Órdenes, creación, consulta, cierre y registro de firmas</p>
+
+                    <div class="uk-article-meta uk-margin-top uk-margin-medium-bottom uk-flex uk-flex-middle">
+                        
+
+
+  
+  <img class="uk-border-circle avatar" src="http://localhost:4000/uploads/winsoftware.png" alt="WIN Software">
+
+
+<div>
+  
+    Escrito por <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">WIN Software</span></span><br>
+  
+  <time datetime="2024-08-15T21:12:59-05:00" itemprop="datePublished">
+    
+    Aug 15, 2024
+  </time>
+</div>
+                    </div>
+
+                    <div class="article-content link-primary">
+                        <p>Para ir a Órdenes dar un toque sobre el botón <a class="btn cl-black bg-white pl-2 pr-3 bd-gray"><span class="iconify cl-black fs-2 pr-1" data-icon="mdi-text-box-outline"></span> Órdenes</a> en el menú principal:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img66.jpeg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 130.</strong> AMovil - Ir a Ordenes</em></p>
+
+<p>En el siguiente submenú se muestran las siguientes opciones según los permisos de usuario:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img125.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 131.</strong> AMovil - Ordenes Submenú</em></p>
+
+<h2 id="consultar-órdenes">Consultar Órdenes</h2>
+
+<p>Para consulta y seguimiento de las Órdenes de Trabajo dirigirse al botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-magnify"></span> Consultar Órdenes </a>, el cual conlleva al total de las Órdenes:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img126.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 132.</strong> AMovil - Consulta Ordenes</em></p>
+
+<p>Para ir al detalle del registro dar un toque en el botón  <a class="btn cl-black bg-mint bd-mint px-6">Detalle</a> como se muestra a continuación:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img127.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 133.</strong> AMovil - Ordenes Detalle</em></p>
+
+<p><img src="../../assets/images/cap16/chp16_img128.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 134.</strong> AMovil - Ordenes Detalle</em></p>
+
+<p>Para guardar los cambios en alguno de los campos de la Orden dar un toque en el botón <a class="btn cl-white bg-blue px-6">Actualizar</a>. Se muestra un mensaje alerta confirmando los cambios:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img129.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 135.</strong> AMovil - Ordenes Actualizar Detalle</em></p>
+
+<p>Para continuar dar un toque en <a class="btn cl-white bg-blue px-6">Aceptar</a>.</p>
+
+<p>Para ingresar al submenú dentro del Detalle de la Órden diríjase al botón ubicado en la parte superior derecha <a class="fab cl-white bg-blue box-shadow"><span class="iconify icon cl-white bg-blue" data-icon="mdi-dots-vertical"></span></a>. Se muestran las siguientes opciones relacionadas a la gestión y cierre de Órdenes:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img130.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 136.</strong> AMovil - Ir a Submenú Gestión/Cierre Ordenes</em></p>
+
+<h3 id="actualizar-tiempos">Actualizar tiempos</h3>
+
+<p>Para ingresar los tiempos de ejecución de la Órden diríjase al <a class="btn cl-black bg-mint bd-mint px-6">Detalle</a>  de la Órden de Trabajo y luego al botón 
+<a class="fab cl-white bg-blue box-shadow"><span class="iconify icon cl-white bg-blue" data-icon="mdi-dots-vertical"></span></a> luego a <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-update"></span></a>. Se muestra el detalle de la Órden en cuestión, aquellas con estado <strong>En análisis</strong> deben tener previamente la <strong>Fecha y hora de Atención</strong>, se muestra un ejemplo a continuación:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img131.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 137.</strong> AMovil - Ordenes Actualizar tiempos</em></p>
+
+<p>En el detalle de la Orden dar un toque en el botón <a class="btn cl-white bg-green px-6">Ingresar FF/HH de atención </a> para ingresar automáticamente la fecha y hora:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img132.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 138.</strong> AMovil - Ordenes FFHH Atención</em></p>
+
+<p>Luego de registrar la <strong>FF/HH atención</strong>, se  habilitan las opciones:</p>
+
+<ul>
+  <li>
+    <p><a class="btn cl-black bg-white pl-2 pr-3 bd-gray"><span class="mdi mdi-circle cl-gray pr-1"></span> Registro manual de tiempos</a></p>
+  </li>
+  <li>
+    <p><a class="btn cl-black bg-white pl-2 pr-3 bd-gray"><span class="mdi mdi-circle cl-gray pr-1"></span> Registro automático de tiempos</a></p>
+  </li>
+</ul>
+
+<blockquote>
+  <p><strong>Nota:</strong> para ingresar los tiempos en una Órden sólo se puede escoger una de los opciones anteriores.</p>
+</blockquote>
+
+<p>La primera consiste en ingresar las fechas y horas de ejecución de forma manual en cada campo y hacer también correcciones sobre el tiempo de duración:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img133.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 139.</strong> AMovil - Ordenes Registro Manual de Tiempos</em></p>
+
+<p>Para asentar los cambios dar un toque en el botón <a class="btn cl-white bg-blue px-6"> Guardar</a> donde se confirma la actualización y para continuar dar un toque en <a class="btn cl-white bg-blue px-6"> Aceptar</a>:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img134.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 140.</strong> AMovil - Ordenes Mensaje Alerta</em></p>
+
+<p>La segunda opción, es para ingresar automáticamente los tiempos:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img135.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 141.</strong> AMovil - Ordenes Ingreso Tiempos Automático</em></p>
+
+<p>Para dar inicio dar un toque en el botón<br />
+<a class="btn cl-white bg-green px-6"> Iniciar</a>, esto hará que la FF/Inicio (Fecha Inicio de Trabajos) se ingrese automáticamente. En la siguiente imagen se muestra el ingreso automático y los botones <a class="btn cl-white bg-green px-6"> Pausar </a> para el manejo del tiempo de duración y <a class="btn cl-white bg-red px-6"> Finalizar</a> para ingresar la FF/Fin (Fecha Fin de Trabajos).</p>
+
+<p><img src="../../assets/images/cap16/chp16_img136.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 142.</strong> AMovil - Ordenes Ingreso Automático de Tiempos</em></p>
+
+<p><img src="../../assets/images/cap16/chp16_img137.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 143.</strong> AMovil - Ordenes Ingreso Automático de Tiempos</em></p>
+
+<p>En caso de <a class="btn cl-white bg-green px-6"> Pausar </a> la ejecución de trabajos se prosigue con el botón <a class="btn cl-white bg-green px-6"> Continuar </a>, a la vez que su transcurso calcula el Tiempo de Druación (ttr) y Tiempo Improductivo (para las órdenes que aplique):</p>
+
+<p><img src="../../assets/images/cap16/chp16_img138.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 144.</strong> AMovil - Ordenes Ingreso Automático de Tiempos</em></p>
+
+<p>Y, al <a class="btn cl-white bg-red px-6"> Finalizar</a> la ejecución, se muestra el resumen de tiempos:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img139.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 145.</strong> AMovil - Ordenes Ingreso Automático de Tiempos</em></p>
+
+<p><img src="../../assets/images/cap16/chp16_img140.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 146.</strong> AMovil - Ordenes Ingreso Automático de Tiempos</em></p>
+
+<h3 id="adicionar-mano-obra-interna">Adicionar mano obra interna</h3>
+
+<p>Para ingresar al personal técnico interno que participó en la ejecución de la Órden, ingrese al <a class="btn cl-black bg-mint bd-mint px-6">Detalle</a> de la Órden de Trabajo en cuestión, seguidamente al botón <a class="fab cl-white bg-blue box-shadow"><span class="iconify icon cl-white bg-blue" data-icon="mdi-dots-vertical"></span></a> y luego en <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-account-plus-outline"></span></a>:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img141.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 147.</strong> AMovil - Ir a Ordenes Ingreso Mano Obra Interna</em></p>
+
+<p>Al ingresar se muestra la siguiente ventana:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img142.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 148.</strong> AMovil - Ordenes Ingreso Mano Obra Interna</em></p>
+
+<p>Continúe dando un toque en el botón <a class="btn cl-white bg-blue px-6"> Adicionar Mano Obra Interna </a> e ingrese los datos solicitados en el siguiente formulario:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img143.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 149.</strong> AMovil - Ordenes Ingreso Mano Obra Interna</em></p>
+
+<p>Guarde los cambios con el botón <a class="btn cl-white bg-blue px-6"> Guardar </a>, donde se muestra un mensaje alerta:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img144.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 150.</strong> AMovil - Ordenes Mensaje Alerta</em></p>
+
+<p>Continúe con el botón <a class="btn cl-white bg-blue px-6"> Aceptar </a> donde se muestra un mensaje alerta de la mano de obra ingresada exitosamente:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img145.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 151.</strong> AMovil - Ordenes Mensaje Alerta</em></p>
+
+<p>Una vez guardados los cambios, se muestra el detalle del personal técnico ingresado:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img146.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 152.</strong> AMovil - Ordenes Detalle Mano Obra Interna</em></p>
+
+<p>En caso de ingresar mas personal interno, repita los pasos anteriores.</p>
+
+<h3 id="comentarios">Comentarios</h3>
+
+<p>Para ingresar los comentarios o detalles de la ejecución ingrese al <a class="btn cl-black bg-mint bd-mint px-6">Detalle</a> de la OT en cuestión, seguidamente al botón <a class="fab cl-white bg-blue box-shadow"><span class="iconify icon cl-white bg-blue" data-icon="mdi-dots-vertical"></span></a> y luego a <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-wechat"></span></a> como se indica a continuación:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img147.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 153.</strong> AMovil - Ir a Ordenes Comentarios</em></p>
+
+<p>A continuación se muestra el resumen de la Órden. Ingrese los detalles en el campo <strong>Comentario</strong>:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img148.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 154.</strong> AMovil - Ordenes Comentarios</em></p>
+
+<p>Para guardar el comentario dar un toque en el botón <a class="btn cl-white bg-blue px-6"> Guardar </a>. Se muestra un mensaje alerta y para finalizar dar un toque en 
+<a class="btn cl-white bg-blue px-6"> 
+Aceptar </a>:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img149.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 155.</strong> AMovil - Solicitudes Mensaje Alerta Comentarios</em></p>
+
+<p>Una vez se guarden los comentarios, se muestra el detalle en la parte inferior del usuario que registró el comentario:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img150.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 156.</strong> AMovil - Ordenes Detalle Comentarios</em></p>
+
+<p>Para ingresar mas comentarios repita los pasos anteriores.</p>
+
+<h3 id="multimedia">Multimedia</h3>
+
+<p>Para ingresar documentos, imágenes o videos a la OT diríjase al detalle del registro <a class="btn cl-black bg-mint bd-mint px-6">Detalle</a> luego al botón <a class="fab cl-white bg-blue box-shadow"><span class="iconify icon cl-white bg-blue" data-icon="mdi-dots-vertical"></span></a> y luego ir a <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-paperclip"></span></a> como se indica a continuación:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img151.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 157.</strong> AMovil - Órdenes Ir a Multimedia</em></p>
+
+<p>A continuación se muestra un resumen de la OT con las siguientes tres carpetas:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img152.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 158.</strong> AMovil - Órdenes Ir a Multimedia</em></p>
+
+<p>Cada una de las carpetas indican los tipos archivos permitidos en cada una. Una vez ingresada  a la carpeta, es posible devolverse con el botón <a class="btn cl-black bg-white pl-6 pr-6 bd-gray"><span class="iconify cl-black fs-2 pr-" data-icon="mdi-arrow-left-thick"></span> Atras</a>. Para cargar el archivo dar un toque en el botón <a class="btn cl-white bg-blue px-6"> Subir archivo </a>, esto abre el explorador de archivos del teléfono móvil o estación donde se ejecute el proceso. Se ilustra un ejemplo añadiendo imágenes correspondientes a la OT:</p>
+
+<blockquote>
+  <p><strong>Nota:</strong> Solo se permiten para las imágenes formatos jpg o png.</p>
+</blockquote>
+
+<p><img src="../../assets/images/cap16/chp16_img153.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 159.</strong> AMovil - Órdenes Multimedia</em></p>
+
+<p>Una vez se elija el archivo se muestra en la parte inferior su nombre, como se muestra a continuación:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img154.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 160.</strong> AMovil - Órdenes Multimedia</em></p>
+
+<p>Para continuar, dar un toque en el botón <a class="btn cl-white bg-blue px-6"> Guardar </a>. Se muestra el siguiente mensaje alerta:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img155.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 161.</strong> AMovil - Órdenes Mensaje Alerta Multimedia</em></p>
+
+<p>Para finalizar dar un toque en <a class="btn cl-white bg-blue px-6"> Aceptar </a>. Diríjase al botón <a class="btn cl-black bg-white pl-6 pr-6 bd-gray"><span class="iconify cl-black fs-2 pr-" data-icon=" mdi-arrow-left-thick"></span> Atras</a> para continuar agregando multimedia.</p>
+
+<p>Una vez el registro tenga multimedia, se agrega un indicador de color naranja <span class="iconify cl-orange bd-orange bg-orange btn-rounded" data-icon="mdi-circle"></span>, así:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img156.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 162.</strong> AMovil - Órdenes Indicador Multimedia</em></p>
+
+<p>Una vez se suba el archivo se visualiza su información de nombre y fecha del mismo, para adjuntar mas multimedia repita el proceso anterior.</p>
+
+<h3 id="cerrar-orden">Cerrar Orden</h3>
+
+<p>Para cerrar la Órden de Trabajo se requiere que tenga los tiempos de ejecución  previamente diligenciados para cambiar el estado a <strong>Cerrada Parcial</strong> o <strong>Cerrada Ejecutada</strong>, luego, ingresar la Causa de Falla para TM (Tipo de Mantenimiento) <strong>Correctivo</strong> y luego de guardar los cambios, finalizar ingresando la firma del Responsable.</p>
+
+<p>Cuando se tengan los tiempos diligenciados, diríjase al botón &lt;span class=”iconify icon cl-white bg-blue” data-icon=mdi-dots-vertical&gt;&lt;/span&gt;&lt;/a&gt; y luego a Cerrar Solicitud  <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-check-circle"></span></a>:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img157.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 163.</strong> AMovil - Órdenes Ir a Cerrar Órden</em></p>
+
+<p>A continuación se muestra el detalle del Cierre de la OT. Además, es posible que el técnico ejecutor indique si el Activo se entrega limpio.</p>
+
+<p><img src="../../assets/images/cap16/chp16_img158.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 164.</strong> AMovil - Órdenes Detalle Cierre</em></p>
+
+<p><img src="../../assets/images/cap16/chp16_img159.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 165.</strong> AMovil - Órdenes Detalle Cierre</em></p>
+
+<p>Para ingresar la firma, se requiere que la OT tenga el estado <strong>Cerrada Ejecutada</strong> ó <strong>Cerrada Parcial</strong>. Este estado depende de la parametrización en <strong>AM</strong> para cerrar en AMovil.</p>
+
+<p><img src="../../assets/images/cap16/chp16_img160.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 166.</strong> AMovil - Órdenes Cambiar Estado</em></p>
+
+<p>Continúe asignando una causa de falla si es el caso. Se muestran las opciones de <strong>Causa de Falla</strong> (Aplicable a Órdenes Correctivas). Se despliegan las Causas de Falla según la respectiva tabla de Infraestructura en <strong>AM</strong>:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img161.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 167.</strong> AMovil - Órdenes Causa de Falla</em></p>
+
+<p>Una vez diligencie el formulario del Cierre de la OT, se deben <a class="btn cl-white bg-blue px-6"> Guardar </a> los cambios.</p>
+
+<p>Continúe indicando si el Activo se entrega limpio: No/Si:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img160.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 168.</strong> AMovil - Órdenes Se entrega limpio</em></p>
+
+<p>Para continuar dar un toque en el botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-outline"></span> Firma del encargado/Ejecutor</a>. Continúe ingresando la firma en el siguiente espacio:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img163.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 169.</strong> AMovil - Órdenes Ingresar Firma Encargado/Ejecutor</em></p>
+
+<p>Se puede rehacer la firma con el botón <a class="btn cl-white bg-blue px-6"> Limpiar </a> o asentar la firma con el botón <a class="btn cl-white bg-blue px-6"> Guardar </a> y también es posible <a class="btn cl-black bg-white bd-blue px-6"> Visualizar firma </a>, como se muestra en el siguiente ejemplo:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img164.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 170.</strong> AMovil - Órdenes Visualizar firma</em></p>
+
+<p>Una vez se guarde la firma, se muestra el siguiente mensaje alerta:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img165.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 171.</strong> AMovil - Órdenes Cierre Mensaje Alerta</em></p>
+
+<p>Los registros que tengan la firma del Responsable Ejecutor se indican a través de un color gris <span class="iconify cl-gray bd-gray bg-gray btn-rounded" data-icon="mdi-circle"></span>, como se muestra en el siguiente ejemplo:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img166.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 172.</strong> AMovil - Órdenes Indicador Firma</em></p>
+
+<h3 id="evaluación">Evaluación</h3>
+
+<p>Para evaluar el servicio al Responsable Ejecutor se debe ir al botón <a class="fab cl-white bg-blue box-shadow"><span class="iconify icon cl-white bg-blue" data-icon="mdi-dots-vertical"></span></a> y luego a Evaluación <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-format-list-checks"></span></a></p>
+
+<p><img src="../../assets/images/cap16/chp16_img167.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 173.</strong> AMovil - Órdenes Ir a Evaluación</em></p>
+
+<p>A continuación marque su respuesta en cada pregunta, siendo:</p>
+
+<ul>
+  <li>E: Excelente</li>
+  <li>B: Bueno</li>
+  <li>A: Aceptable</li>
+  <li>D: Deficiente</li>
+  <li>M: Malo</li>
+</ul>
+
+<p><img src="../../assets/images/cap16/chp16_img168.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 174.</strong> AMovil - Órdenes Evaluación</em></p>
+
+<p>Continúe con el botón <a class="btn cl-white bg-blue px-6"> Guardar </a>. Luego de actualizarse se muestra el siguiente mensaje alerta:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img169.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 175.</strong> AMovil - Órdenes Registro Evaluación</em></p>
+
+<p>Una vez guardados los cambios, en la parte inferior se habilita el botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-outline"></span> Firma de quien recibe/Evalúa</a> con el fin de registrar la firma del Solicitante ó persona que recibe el servicio:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img170.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 176.</strong> AMovil - Órdenes Ir a Firma Recibido Satisfacción</em></p>
+
+<p>Al ingresar a la opción se muestra una ventana detalle ingreso de la firma del Solicitante:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img171.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 177.</strong> AMovil - Órdenes Detalle Firma Recibido Satisfacción</em></p>
+
+<p>Continúe ingresando registrando la firma, a continuación se muestra una ejemplo gráfico:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img172.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 178.</strong> AMovil - Órdenes Firma Recibido Satisfacción</em></p>
+
+<p>Para guardar la firma, continúe con el botón <a class="btn cl-white bg-blue px-6"> Guardar </a>. De lo contrario, puede rehacer la firma con el botón  <a class="btn cl-white bg-blue px-6"> Limpiar </a>.</p>
+
+<p>Una vez se guarde la firma, el aplicativo muestra el siguiente mensaje alerta:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img173.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 179.</strong> AMovil - Órdenes Mensaje Alerta Firma Recibido Satisfacción</em></p>
+
+<p>Para verificar el registro de la firma, ingrese nuevamente en el botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-outline"></span> Firma de quien recibe/Evalúa</a> y en el detalle del ingreso de la firma continúe a la opción <a class="btn cl-w black bd-blue bg-white px-6"> Visualizar Firma </a>:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img174.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 180.</strong> AMovil - Órdenes Visualizar 
+Firma Recibido Satisfacción</em></p>
+
+<p>También, es posible saber que un registro posee la firma del Solicitante o de la persona que recibió a satisfacción a través del indicador blanco <span class="iconify cl-white bd-black btn-rounded" data-icon="mdi-circle"></span> así:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img175.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 181.</strong> AMovil - Órdenes Indicador Firma Recibido Satisfacción</em></p>
+
+<h3 id="firma-masiva">Firma Masiva</h3>
+
+<p>Esta opción se sugiere cuando un técnico responsable requiere registrar la firma tanto de él como de la persona que recibe de forma masiva  para un subgrupo de Órdenes.</p>
+
+<p>Es de considerar que para ejecutar esta transacción las OT requieren tener diligenciados los tiempos de ejecución y deben estar cerradas.</p>
+
+<blockquote>
+  <p><strong>Nota:</strong> Desde <strong>AM</strong> se puede parametrizar el <strong>Permitir Firma de Recibido sin Evaluación en AMovil</strong>.</p>
+</blockquote>
+
+<p>El objetivo ingresar la firma del Responsable Ejecutor Responsable y también de la persona que recibe a satisfacción. Para ello se sugiere usar la función <strong>Subgrupo</strong>. A continuación se muestra un ejemplo del paso a paso:</p>
+
+<p>Una vez ingrese a la opción <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-magnify"></span> Consultar Ordenes </a> diríjase a la opción Subgrupo <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-filter-variant"></span></a> mostrado a continuación:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img176.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 182.</strong> AMovil - Consulta Órdenes</em></p>
+
+<p>Haga la búsqueda por medio de los siguientes filtros en la opción <a class="btn cl-black bg-white bd-gray px-5">&lt;/span&gt;Seleccione un filtro</a>, se muestran las siguientes opciones:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img177.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 183.</strong> AMovil - Subgrupo Órdenes</em></p>
+
+<p>Para el ejemplo se usa el filtro <strong>Responsable</strong>, esta opción lista todos los Responsables ejecutores de la tabla de Terceros en <strong>AM</strong>, además, puede facilitar la búsqueda con el botón <a class="btn cl-black bg-white bd-yellow btn-rounded"><span class="mdi mdi-magnify pr-3"></span><span class="pr-4">Buscar un Responsable </span></a> e introducir una parte del nombre. Una vez lo seleccione se muestra el campo diligenciado, como se indica a continuación:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img178.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 184.</strong> AMovil - Subgrupo Órdenes</em></p>
+
+<p>Continúe con el botón <a class="btn cl-white bg-blue px-6"> Aceptar</a> ubicado en la parte inferior.</p>
+
+<p>Luego, visualice el resultado del Subgrupo en la parte superior a través del botón <a class="btn cl-black bg-white px-5">7</a>:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img179.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 185.</strong> AMovil - Subgrupo Órdenes</em></p>
+
+<p>Diríjase al botón ubicado en la parte superior derecha <a class="fab cl-white bg-blue box-shadow"><span class="iconify icon cl-white bg-blue" data-icon="mdi-dots-vertical"></span></a>:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img180.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 186.</strong> AMovil - Ir a Firma Masiva</em></p>
+
+<p>Seguidamente elija la opción <strong>Firma Masiva De Quien Recibe</strong>
+<a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-file-edit-outline"></span></a>:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img181.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 187.</strong> AMovil - Firma Masiva Recibido Satisfacción</em></p>
+
+<p>Para ingresar la firma, primero registre el nombre de quien recibe o evalúa en el primer recuadro de la parte superior, continúe dibujando la firma en el siguiente recuadro. Puede rehacerla con el botón <a class="btn cl-white bg-blue px-6"> Limpiar </a> o asentarla con el botón <a class="btn cl-white bg-blue px-6"> Guardar </a>.</p>
+
+<p><img src="../../assets/images/cap16/chp16_img182.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 188.</strong> AMovil - Firma Masiva Recibido Satisfacción</em></p>
+
+<p>Al guardar la firma se muestra un mensaje alerta exitoso de ingreso. Continúe dando un toque al botón <a class="btn cl-white bg-blue px-6"> Aceptar </a>.</p>
+
+<p><img src="../../assets/images/cap16/chp16_img183.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 189.</strong> AMovil - Firma Masiva Recibido Satisfacción</em></p>
+
+<p>Al finalizar los registros quedan con el indicador blanco:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img184.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 190.</strong> AMovil - Firma Masiva Recibido Satisfacción</em></p>
+
+<p>Diríjase al botón ubicado en la parte superior derecha <a class="fab cl-white bg-blue box-shadow"><span class="iconify icon cl-white bg-blue" data-icon="mdi-dots-vertical"></span></a>:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img185.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 191.</strong> AMovil - Ir a Firma Encargado Orden</em></p>
+
+<p>Seguidamente elija la opción <strong>Firma Masiva Del Técnico Responsable</strong> <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-file-edit-outline"></span></a>:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img186.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 192.</strong> AMovil - Ir a Firma Encargado Orden</em></p>
+
+<p>Continúe dibujando la firma en el siguiente recuadro. Puede rehacerla con el botón <a class="btn cl-white bg-blue px-6"> Limpiar </a> o asentarla con el botón <a class="btn cl-white bg-blue px-6"> Guardar </a>.</p>
+
+<p><img src="../../assets/images/cap16/chp16_img187.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 193.</strong> AMovil - Firma Masiva Encargado Orden</em></p>
+
+<p>Al guardar la firma se muestra un mensaje alerta exitoso de ingreso. Continúe dando un toque al botón <a class="btn cl-white bg-blue px-6"> Aceptar </a>.</p>
+
+<p><img src="../../assets/images/cap16/chp16_img188.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 194.</strong> AMovil - Firma Masiva Mensaje Alerta</em></p>
+
+<p>Al finalizar los registros quedan con el indicador gris <span class="iconify cl-gray bd-gray bg-gray btn-rounded" data-icon="mdi-circle"></span>:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img189.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 195.</strong> AMovil - Firma Masiva Encargado Orden Indicador</em></p>
+
+<h2 id="crear-orden">Crear Orden</h2>
+
+<p>Para crear un nuevo registro diríjase al botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-file-plus-outline"></span> Crear Orden </a>, el cual conlleva al siguiente formulario:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img190.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 196.</strong> AMovil - Submenú Ir a Crear Órden</em></p>
+
+<p><img src="../../assets/images/cap16/chp16_img191.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 197.</strong> AMovil - Formulario Crear Órden</em></p>
+
+<p><img src="../../assets/images/cap16/chp16_img192.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 198.</strong> AMovil - Formulario Crear Órden</em></p>
+
+<p>Todos los campos son obligatorios, se debe contar con los permisos para visualizar la Órden creada.</p>
+
+<p>A continuación se da una breve explicación de cada campo:</p>
+
+<p><strong>Descripción:</strong>  Es un texto corto por medio del cual se indica la labor a realizar. Debe ser conciso y no dar lugar a ambigüedades.</p>
+
+<p><strong>Solicitante:</strong> Es la persona que solicita la labor a realizar, puede ser escrito manualmente o ser un RI(Un responsable interno que está registrado en la tabla de Infraestructura Terceros).</p>
+
+<p><strong>Activo:</strong> Es el objeto de mantenimiento.</p>
+
+<p><strong>FF/HH Programada:</strong> Es la fecha en la que se va a realizar la labor.</p>
+
+<p><strong>Centro Responsable:</strong> Es el grupo ejecutor de mantenimiento a cargo de la labor a realizar.</p>
+
+<p><strong>Responsable:</strong> Es la persona natural o jurídica principal a ejecutar la labor de mantenimiento.</p>
+
+<p><strong>Centro de Costo:</strong> Es el “responsable””  del pago de los consumos que dicha OT genere. Inicialmente, se sugiere el Centro de Costo que tiene asociado al Activo Objeto de Mantenimiento, aun así, puede cambiarse.</p>
+
+<p><strong>Tipo de Trabajo:</strong> Indica los Tipos de Trabajo que se realizan en la OT. Es posible definir más de un Tipo de Trabajo para una OT.</p>
+
+<p><strong>Tipo de mantenimiento:</strong> Este campo indica el Tipo de Mantenimiento a realizar en la OT. Toda OT debe poseer uno. Si en la OT se va a registrar un trabajo que no corresponde a una labor de mantenimiento, en este campo se elige Otro” y a continuación, en el tipo de “Actividad” se especifica detalladamente, el tipo de labor.</p>
+
+<p><strong>Tipo de actividad:</strong> Aquí se establece el Tipo de Actividad a realizar en la OT. Este campo trabaja en coordinación con el anterior (Tipo de Mantenimiento). Si en el campo anterior se ha hecho la selección de un valor diferente de “Otro”, en el campo Tipo de Actividad se debe seleccionar un valor que defina consistentemente la labor a ejecutar.</p>
+
+<p><strong>Prioridad:</strong> Es la prioridad que tiene la OT. Las opciones van de la 1 hasta la 7, teniendo en cuenta que las prioridades mas altas son la 1 y 2.</p>
+
+<p><strong>Estado:</strong> Por defecto una OT debe tener el estado por defecto de “En ejecución”. Sin embargo, según cada organización esto es parametrizable.</p>
+
+<p>Una vez diligenciado completamente el formulario contínue con el botón <a class="btn cl-white bg-blue px-6"> Guardar</a>, el aplicativo muestra el siguiente mensaje alerta y contínue con el botón <a class="btn cl-white bg-blue px-6"> Aceptar </a>.</p>
+
+<p><img src="../../assets/images/cap16/chp16_img193.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 199.</strong> AMovil - Crear Órden Mensaje Alerta</em></p>
+
+<p>Para visualizar la OT creada no debe tener subgrupos activos:</p>
+
+<p><img src="../../assets/images/cap16/chp16_img194.jpg" alt="Procesar imagen" /></p>
+
+<p><em><strong>Imagen 200.</strong> AMovil - Crear Órden</em></p>
+
+
+                        
+                            <div class="share uk-text-center uk-margin-medium-top">
+    
+        <a class="uk-link-muted" href="https://twitter.com/intent/tweet?text=Ordenes&url=http://localhost:4000/docs/16_05_orders/&via=&related=" rel="nofollow" target="_blank" title="Compartir en Twitter" onclick="window.open(this.href, 'twitter', 'width=550,height=235');return false;"><span data-uk-icon="icon: twitter; ratio: 1.2"></span></a>
+    
+    
+        <a class="uk-link-muted uk-margin-small-left" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fdocs%2F16_05_orders%2F" rel="nofollow" target="_blank" title="Compartir en Facebook" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;"><span data-uk-icon="icon: facebook; ratio: 1.2"></span></a>
+    
+</div>
+                        
+                    </div>
+
+                    <!-- Hook post content doc -->
+
+                    <hr class="uk-margin-medium">
+
+                    
+
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+    <div class="uk-margin-large-top paginate-post">
+        <div class="uk-child-width-expand@s uk-grid-large uk-pagi" data-uk-grid>
+            <div>
+                
+                  
+                  
+                  
+                    <h5></h5>
+                    <div><a class="remove-underline hvr-back" href="/docs/16_04_requests/">&larr; Anterior</a></div>
+                
+            </div>
+            <div>
+                
+                
+            </div>
+        </div>
+    </div>
+    
+
+
+                    <div class="uk-margin-large-top">
+    <h3>Temas relacionados</h3>
+
+    
+    
+    
+
+    <ul class="uk-list link-secondary">
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+        <li><a href="/docs/16_01_basic_concepts/">Conceptos Básicos</a></li>
+        
+        
+    
+
+    
+
+    
+    
+
+    
+
+    
+        <li><a href="/docs/16_02_assets/">Activos</a></li>
+        
+        
+    
+
+    
+
+    
+    
+
+    
+
+    
+        <li><a href="/docs/16_03_warehouse/">Almacén</a></li>
+        
+        
+    
+
+    
+
+    
+    
+
+    
+
+    
+        <li><a href="/docs/16_04_requests/">Solicitudes</a></li>
+        
+        
+            
+    </ul>
+</div>
+
+
+                    
+                </article>
+
+                <script>
+                    // Table of contents scroll to
+                    UIkit.scroll('#markdown-toc a', {
+                        duration: 400,
+                        offset: 120
+                    });
+                </script>
+
+            </div>
+
+    </div>
+</div>
+
+
+    <div id="offcanvas-docs" data-uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar">
+
+        <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+
+        
+        <h5 class="uk-margin-top">Trabajando con AM</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/01_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/01_02_first_look/">Un vistazo a AM</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/01_03_user_interface/">Interfaz de Usuario</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/01_04_concurrence/">Concurrencia en AM</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/01_05_summary/">Resumen</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Infraestructura</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/02_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/02_02_basic_concept/">Conceptos Básicos sobre la Infraestructura</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/02_03_tables/">Tablas de Infraestructura</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/02_04_export/">Exportar</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/02_05_services/">Servicios</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Activos</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/03_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/03_02_basic_concepts/">Conceptos Básicos sobre Activos/Equipos</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/03_03_data_sheet/">Ficha Técnica</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/03_04_parts_list/"></a></li>
+        
+          
+          
+          <li class=""><a href=""></a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Almacenes, Materiales y Repuestos</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/04_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/04_02_basic_concepts/">Conceptos Básicos sobre Almacenes, Materiales y Repuestos</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/04_03_spare_coding/">Codificación de Repuestos</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/04_04_main_window/">Ventana Principal de Almacén de Repuestos</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Kárdex</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/05_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/05_02_basic_concepts/">Conceptos Básicos sobre el Kárdex de Almacén</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/05_03_movements/">Movimientos de Kárdex</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/05_04_services/">Servicios</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Solicitudes de Servicio</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/07_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/07_02_basic_concepts/">Conceptos Básicos sobre Solicitudes de Servicio</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/07_03_services/">Servicios</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Paros</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/08_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/08_02_basic_concepts/">Conceptos Básicos sobre Paros / Averías</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/08_03_creation/">Creación de Paros</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/08_04_tracking_and_closing/">Seguimiento y Cierre de Paros / Averías</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Órdenes de Trabajo</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/09_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/09_02_basic_concepts/">Conceptos Básicos sobre Órdenes de Trabajo</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/09_03_analysis_and_generation/">Análisis y Generación de Órdenes de Trabajo Programadas</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/09_04_main_window/">Ventana Principal de Órdenes de Trabajo</a></li>
+        
+          
+          
+          <li class=""><a href=""></a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Historia de mantenimiento</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/10_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/10_02_basic_concepts/">Conceptos Básicos</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/10_03_send_to_history/">Enviar a Historia</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/10_04_main_window/">Ventana Principal</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/10_05_periodic_management_balance/">Balance Periódico de Gestión</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Programas de mantenimiento</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/11_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/11_02_basic_concepts/">Conceptos Básicos de Programas de Mantenimiento</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/11_03_main_window/">Ventana Principal de Programas de Mantenimiento</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/11_04_services/">Servicios</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Historia Archivada</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/12_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/12_02_basic_concepts/">Conceptos Básicos</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/12_03_main_window/">Ventana Principal</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/12_04_submenu_window/">Ventana Submenú</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/12_05_transactions/">Transacciones</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">AMsi</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/15_01_working_with_amsi/">Trabajando con AMsi</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_02_ui/">Interfaz de Usuario</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_03_update_profile/">Actualizar Perfil</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_04_create_a_new_request/">Crear Nueva Solicitud</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_05_request_consulting/">Consultar Mis Solicitudes</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_06_request_evaluation/">Evaluar Servicio</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_07_create_a_new_order/">Crear Nueva Orden</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_08_orders_consulting/">Consultar Mis Órdenes</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_09_amsi_administration_access/">Acceso Administración AMsi</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_10_user_settings/">Configuración de Usuarios</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_11_logout/">Exportar Visor de SS/OT</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">AMovil</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/16_01_basic_concepts/">Conceptos Básicos</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/16_02_assets/">Activos</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/16_03_warehouse/">Almacén</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/16_04_requests/">Solicitudes</a></li>
+        
+          
+          
+          <li class="uk-active"><a href="/docs/16_05_orders/">Ordenes</a></li>
+        
+        </ul>
+        
+
+    </div>
+</div>
+
+
+    <div id="offcanvas" data-uk-offcanvas="flip: true; overlay: true">
+    <div class="uk-offcanvas-bar">
+
+        <a class="uk-logo uk-margin-small-bottom" href="/"><img src="http://localhost:4000/uploads/winsoftware_logo.svg" alt="AM"></a>
+     
+        <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+      
+        <ul class="uk-nav uk-nav-primary uk-margin-top">
+            
+                
+
+                
+
+                
+                    <li><a href="/" >Inicio</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><a href="/docs/01_01_introduction" >Manual</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><a href="/blog/" >Blog</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><a href="/changelog-timeline/" >Registro de cambios</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><div class="uk-navbar-item"><a class="uk-button uk-button-success" href="/contact/" >Contacto</a></div></li>
+                
+            
+        </ul>
+
+        <div class="uk-margin-top uk-text-center">
+            <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-flex-center uk-grid">
+                
+<div class="uk-first-column">
+    <a href="https://twitter.com/winsoftware_am" data-uk-icon="icon: twitter" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+<div>
+    <a href="https://www.facebook.com/winsoftwaream/" data-uk-icon="icon: facebook" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+
+
+<div>
+    <a href="https://co.linkedin.com/in/win-software-s-a-s-122b7952" data-uk-icon="icon: linkedin" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+
+
+
+<div>
+    <a href="https://winsoftware.com.co/" data-uk-icon="icon: link" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+    
+
+    
+        <!-- Hook preclosing body doc -->
+    
+
+    <!-- Hook preclosing body -->
+
+    <script>
+        if (window.netlifyIdentity) {
+          window.netlifyIdentity.on("init", user => {
+            if (!user) {
+              window.netlifyIdentity.on("login", () => {
+                document.location.href = "/admin/";
+              });
+            }
+          });
+        }
+      </script>
+
+    </body>
+
+</html>

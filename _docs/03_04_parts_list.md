@@ -1,7 +1,6 @@
 ---
 title: Codificación de Activos/Equipos y Generalidades
-subtitle: Aquí se encuentra información sobre la codificación, despiece de activos, sus funciones y formas de uso, cómo crear un Activo, se explican las
-porciones de la ficha técnica, filtrar por subgrupos y obtener reportes.
+subtitle: Aquí se encuentra información sobre la codificación, despiece de activos, sus funciones y formas de uso, cómo crear un Activo, se explican las porciones de la ficha técnica, filtrar por subgrupos y obtener reportes.
 tags:
   - setup
 author: win
