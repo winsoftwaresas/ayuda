@@ -11,9 +11,9 @@ Contiene información básica sobre el ingreso al aplicativo, mostrando de maner
 
 - Qué es **AMsi**
 
-### 1.1	Qué es AMsi
+### Qué es AMsi
 
-**AMsi** es una aplicación Web complementaria a **AM** que permite la Creación y de OT y/o SS de usuarios pertenecientes a una organización al área de Mantenimiento. Estos registros pueden ser consultados a través de ambos aplicativos; en **AMsi** por parte del usuario Solicitante y por el Equipo Técnico en **AM**.
+**AMsi** es una aplicación Web complementaria a **AM** que permite la Creación y de Órdenes (OTs) y/o Solicitudes (SS) de usuarios pertenecientes a una organización al área de Mantenimiento. Estos registros pueden ser consultados a través de ambos aplicativos; en **AMsi** por parte del usuario Solicitante y por el Equipo Técnico en **AM**.
 
 **AMsi** permite hacer notificaciones por correo electrónico por diversos conceptos de proceso. Las notificaciones se configuran por medio de **AM** en el módulo de  <a class="btn cl-white bg-blue px-3"> Administración </a> por medio de un usuario con permisos administrativos en **Valores por Defecto** etiqueta **Notificaciones**. 
 
