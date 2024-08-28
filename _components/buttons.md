@@ -304,3 +304,9 @@ almacén :
 <a class="btn cl-blue bg-gray px-6"> Adicionar Car.Técnica </a>
 
 <a class="btn bg-gray cl-black">ACEPTAR</a>
+
+<a class="btn blue">ANEXAR MULTIMEDIA <span class="mdi mdi-attachment"></span></a> 
+
+<a class="btn blue">ENVIAR <span class="mdi mdi-send"></span></a> :
+
+<a class="btn bg-white fs-2"><span class="iconify btn-icon cl-black" data-icon="mdi-filter-variant"></span><span class="dot bg-af-red"></span></a>
