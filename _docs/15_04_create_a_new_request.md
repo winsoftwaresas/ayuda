@@ -30,7 +30,7 @@ Se identifican los campos relacionados en el formulario Servicio Solicitado para
 Ingrese a **AMsi** y elija la opción **Crear Nueva Solicitud** :
 
 
-![Procesar imagen](../..assets/images/cap12/chp12_img06.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img06.png)
 _**Imagen 6.**  Crear Nueva Solicitud_
 
 
@@ -39,7 +39,7 @@ _**Imagen 6.**  Crear Nueva Solicitud_
 
 **AMsi** responde mostrando en una nueva ventana, el Detalle del Servicio a Solicitar.  Es decir,  la información personal del solicitante información del servicio solicitado e información del Activo/Equipo objeto de la SS de mantenimiento.
 
-![Procesar imagen](../..assets/images/cap12/chp12_img07.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img07.png)
 _**Imagen 7.**  Ventana Creación SS_
 
 A continuación, se describen los campos que la componen, sobre cada uno se da una breve explicación:
@@ -82,7 +82,7 @@ En caso de ser un usuario que tenga asociado Todos Los Centros de Costo, este ca
 - Para selección del Activo en la ventana Detalle de Activos que es llamada por el ícono Subgrupo <span class="mdi mdi-filter-variant icon white"></span> que se encuentra en la parte derecha del campo:
 
 
-![Procesar imagen](../..assets/images/cap12/chp12_img07_01.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img07_01.png)
 _**Imagen 8.**  Ventana Activos_
 
 La lista desplegada incluye los Activos/Equipos creados previamente en el **AM** y que a la vez están asociados al Centro de Costo de la compañía correspondiente y en estado activo y operante. En esta nueva ventana también hay posibilidad de hacer subgrupos.Para seleccionar el Activo dar doble clic sobre el registro sombreado en verde. Cuando se cierra esta ventana automáticamente se observa que aparece el código y la descripción del Activo/Equipo. (_Ver imagen 7_)
@@ -99,7 +99,7 @@ Para describir el Activo/Equipo en lenguaje natural dar clic al campo <a class="
 
 inmediatamente se habilitan dos campos que pueden ser diligenciados.
 
-![Procesar imagen](../..assets/images/cap12/chp12_img07_02.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img07_02.png)
 _**Imagen 9.**  Descripción del Activo en Lenguaje Natural_
 
 **Activo / Equipo en Lenguaje Natural:** Es para describir el nombre del Activo que se va a referenciar en la SS y que debe de ser fácilmente identificable para el área de Mantenimiento.
@@ -124,25 +124,25 @@ _**Imagen 10.** Ir a Multimedia_
 
 Para ingresar multimedia se debe dar doble clic sobre una de las tres carpetas:
 
-![Procesar imagen](../..assets/images/cap12/chp12_img09.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img09.png)
 _**Imagen 11.** Multimedia_
 
 Luego, dar clic al botón <span class="mdi mdi-cloud-upload icon white"></span> para abrir el explorador de archivos:
 
-![Procesar imagen](../..assets/images/cap12/chp12_img10.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img10.png)
 _**Imagen 12.** AMsi - Explorador de archivos_
 
-![Procesar imagen](../..assets/images/cap12/chp12_img11.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img11.png)
 _**Imagen 13.** AMsi - Subir archivo_
 
 Despues de adjuntar el archivo puede asignarse un nombre opcional para hacer referencia clara de lo que se estáadjuntano en el espacio en blanco que se muestra a continuación:
 
-![Procesar imagen](../..assets/images/cap12/chp12_img12.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img12.png)
 _**Imagen 14.** Mensaje Alerta SS_
 
 Luego, dar clic en el botón <a class="btn white">Subir Archivo</a> y el sistema confirma a través de un mensaje que el archivo ha sido subido correctamente:
 
-![Procesar imagen](../..assets/images/cap12/chp12_img13.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img13.png)
 _**Imagen 15.** Mensaje registro SS_
 
 
@@ -166,7 +166,7 @@ _**Imagen 15.** Mensaje registro SS_
 
 Una vez ingrese a **AMsi** elija la opción **Crear Nueva Solicitud**, se visualiza el Formulario que muestra el detalle del servicio a solicitar:
 
-![Procesar imagen](../..assets/images/cap12/chp12_img13_01.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img13_01.png)
 _**Imagen 16.** Formulario SS_
    
 
@@ -199,14 +199,14 @@ Este recuadro es informativo y hace referencia a los Datos del Solicitante corpo
 
 - Para selección del Activo en la ventana Detalle de Activos que es llamada por el ícono Subgrupo <span class="mdi mdi-filter-variant icon white"></span> que se encuentra en la parte derecha del campo:
 
-![Procesar imagen](../..assets/images/cap12/chp12_img13_02.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img13_02.png)
 _**Imagen 17.** Asociar Activo/Equipo a la SS_
 
 La lista desplegada incluye los Activos/Equipos creados previamente en **AM** asociados a la compañía o centro de servicio referido en el formulario y en estado activo y operante. En esta nueva ventana también hay posibilidad de hacer subgrupos <span class="mdi mdi-filter-variant"></span> o búsquedas rápidas que facilitan encontrar el Activo. (En la imagen anterior se muestra un Subgrupo dentro de la ventana detalle de Activos representado por el ícono <a class="btn bg-white fs-2"><span class="iconify btn-icon cl-black" data-icon="mdi-filter-variant"></span><span class="dot bg-af-red"></span></a> )
 
 Para seleccionar el Activo dar doble clic sobre el registro sombreado en verde. Cuando se cierra esta ventana automáticamente se observa que aparece el código y la descripción del Activo/Equipo, como se muestra a continuación:
 
-![Procesar imagen](../..assets/images/cap12/chp12_img13_03.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img13_03.png)
 _**Imagen 18.** Formulario correctamente diligenciado_
 
 - Describir el Activo/Equipo en lenguaje natural
@@ -215,7 +215,7 @@ Para describir el Activo/Equipo en lenguaje natural dar clic al campo <a class="
 
 >**Nota:** Este se usa en caso de que el usuario solicitante no encuentre o no identifique el Activo por medio del Subgrupo <span class="mdi mdi-filter-variant icon white"></span> (opción anterior).
 
-![Procesar imagen](../..assets/images/cap12/chp12_img13_04.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img13_04.png)
 _**Imagen 19.** Activo en Lenguaje Natural_
 
 **Activo / Equipo en Lenguaje Natural:** Es para describir el nombre del Activo que se va a referenciar en la SS y que debe de ser fácilmente identificable para el área de Mantenimiento.
@@ -244,25 +244,25 @@ a class="btn blue">ANEXAR MULTIMEDIA <span class="mdi mdi-attachment"></span></a
 
 Para ingresar multimedia se debe dar doble clic sobre una de las tres carpetas:
 
-![Procesar imagen](../..assets/images/cap12/chp12_img13_06.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img13_06.png)
 _**Imagen 21.** Multimedia_
 
 Luego, dar clic al botón <span class="mdi mdi-cloud-upload icon white"></span> para abrir el explorador de archivos:
 
-![Procesar imagen](../..assets/images/cap12/chp12_img13_07.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img13_07.png)
 _**Imagen 22.** AMsi - Explorador de archivos_
 
-![Procesar imagen](../..assets/images/cap12/chp12_img13_08.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img13_08.png)
 _**Imagen 23.** AMsi - Subir archivo_
 
 Despues de adjuntar el archivo puede asignarse un nombre opcional para hacer referencia clara de lo que se estáadjuntano en el espacio en blanco que se muestra a continuación:
 
-![Procesar imagen](../..assets/images/cap12/chp12_img13_09.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img13_09.png)
 _**Imagen 24.** Mensaje Alerta SS_
 
 Luego, dar clic en el botón <a class="btn white">Subir Archivo</a> y el sistema confirma a través de un mensaje que el archivo ha sido subido correctamente:
 
-![Procesar imagen](../..assets/images/cap12/chp12_img13_10.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img13_10.png)
 _**Imagen 25.** Mensaje registro SS_
 
 
