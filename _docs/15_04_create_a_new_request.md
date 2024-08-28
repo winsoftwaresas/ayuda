@@ -238,7 +238,7 @@ _**Imagen 20.** Envío de SS_
 
 
 
-a class="btn blue">ANEXAR MULTIMEDIA <span class="mdi mdi-attachment"></span></a> : Permite una vez que se envíe la SS anexar archivos Multimedia, como documentos, imágenes o porciones de video siempre y cuando el usuario permanezca en esta ventana.
+<a class="btn blue">ANEXAR MULTIMEDIA <span class="mdi mdi-attachment"></span></a> : Permite una vez que se envíe la SS anexar archivos Multimedia, como documentos, imágenes o porciones de video siempre y cuando el usuario permanezca en esta ventana.
 
 
 
