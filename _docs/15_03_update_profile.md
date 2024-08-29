@@ -16,12 +16,12 @@ Se explica el formulario a diligenciar para actualizar el perfil del usuario Sol
 
 La siguiente transacción permite que el usuario pueda actualizar la información personal cuando lo requiera y visualizar los Centros de Costos/Compañías asociados. Para acceder a esta ventana se da un clic a este botón ubicado en la ventana de Menú Principal.
 
-![Procesar imagen](../..assets/images/cap12/chp12_img03.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img03.png)
 _**Imagen 3.** Botón Actualizar Perfil_
 
 El sistema muestra automáticamente el Detalle del Formulario para Actualizar Perfil en la ventana de Menú Principal del usuario.
 
-![Procesar imagen](../assets/images/cap12/chp12_img04.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img04.png)
 **_Imagen 4. Actualizar Perfil_**
 
 A continuación, se describen los campos que componen el registro. Sobre cada campo se da una breve explicación:
@@ -80,7 +80,7 @@ De todos modos para una SS/OT en particular es posible cambiar el Centro de Cost
 Para un usuario Solicitante que tenga Todos Los Centros de Costo asociados, este formulario no se visualiza, sino que el Solicitante primero debe elegir el Centro de Servicio y acorde con la elección, se muestran los Centros de Costos correspondientes.
 Una vez se diligencien todos los campos de _Datos del Solicitante_ se deben guardar los cambios con el botón  <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a> ubicado en la parte inferior izquierda. Seguido, se muestra un mensaje de alerta confirmando la transacción.
 
-![Procesar imagen](../..assets/images/cap12/chp12_img05.png)
+![Procesar imagen](../../assets/images/cap12/chp12_img05.png)
 _**Imagen 5.** Mensaje de Confirmación de la actualización del perfil_
 
 **Nota:** En la configuración  que relaciona los usuarios por compañía el formulario es el mismo, sólo que no se muestra información enla líneas referentes a Centros de Costo. 
