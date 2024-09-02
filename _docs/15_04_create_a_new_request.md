@@ -18,6 +18,7 @@ Se identifican los campos relacionados en el formulario Servicio Solicitado para
 - Formulario Servicio Solicitado para Usuarios relacionados por Compañía.
 - Campos de Servicio Solicitado
 - Campos de Información de Activo / Equipo
+- Videos de capacitación 
 
 
 ## Creación de Solicitudes de Servicio
