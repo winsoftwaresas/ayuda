@@ -1,7 +1,6 @@
 ---
 title: Crear Nueva Orden
-subtitle: Este capítulo define el formulario a diligenciar para la generación de
-  una Orden de Trabajo (OT) desde AMsi.
+subtitle: Este capítulo explica en detalle el formulario a diligenciar para generar de una Orden de Trabajo (OT) desde AMsi.
 tags:
   - AMsi
   - Crear Orden en AMsi
@@ -13,33 +12,37 @@ Se suministra información detallada del formulario Servicio Solicitado. Dicha i
 
 Se identifican los campos relacionados en el formulario Servicio Solicitado para la creación de OT, y se reconocen los comandos que aparecen en pantalla.
 
+
 **En esta sección**
 
-- Formulario Servicio Solicitado.
+- Formulario Servicio Solicitado para usuarios relacionados por Centro de Costo y por Compañía.
 - Campos de Servicio Solicitado
 - Campos de Información de Activo/Equipo
 
 <iframe width="600" height="340" src="https://www.youtube.com/embed/qI6bSmrxgyY?si=4KDOC6Oug-5x0Pox" title="Actualizar perfil y crear órdenes de trabajo para usuarios relacionados por centro de costo" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen uk-responsive></iframe>
 
-Este formulario trae los datos del solicitante previamente logueado en la ventana de acceso al **AMsi**. Contiene la información personal del solicitante, información del servicio solicitado, información del Activo/Equipo objeto de la OT de mantenimiento.
+<br>
 
-Todos los campos marcados con asterisco (*) son de carácter obligatorio.
-
-Una vez ingresados los datos del solicitante de manera correcta en el botón del Menú principal **Actualizar Perfil** _(Consultar la sección Actualizar Perfil)_. Continuar dando un clic a la siguiente opción ubicada al lado derecho para continuar con la Creación de la OT:
+Ingrese a **AMsi** y elija la opción **Crear Nueva Orden**.
 
 ![Procesar imagen](../../assets/images/cap12/chp12_img20.png)
 _**Imagen 32. Crear Nueva Orden**_
 
-### 7.1	Ventana Creación de la Orden de Trabajo
+
+Este formulario trae los datos del solicitante previamente logueado en la ventana de acceso al **AMsi**. Contiene la información personal del solicitante, información del servicio solicitado, información del Activo/Equipo objeto de la OT de mantenimiento.
+
+Todos los campos marcados con asterisco (*) son de carácter obligatorio.
+
+Una vez ingresados los datos del solicitante de manera correcta en el botón del Menú principal **Actualizar Perfil** _(Consultar la sección Actualizar Perfil)_. 
+
+### Campos Del Formulario _Datos Del Solicitante_  para usuarios relacionado por Centros de Costo  
 
 ![Procesar imagen](../../assets/images/cap12/chp12_img21.png)
 _**Imagen 33. Ventana Creación OT**_
 
-A esta ventana se llega haciendo clic sobre la opción **Crear Nueva Orden** en el Menú Principal. A través de ella se ejecutan todas las funciones dedicadas a la creación de la OT. A continuación, se describen los campos que componen esta ventana Creación de OT. Sobre cada campo se da una breve explicación:
 
-### Campos Del Formulario _Datos Del Solicitante_
+A continuación, se describen los campos que componen esta ventana Creación de OT. Sobre cada campo se da una breve explicación:
 
-Este cuadro es informativo y hace referencia a los _Datos del Solicitante_ necesarios para la creación de una OT y que fueron ingresados en **Actualizar Perfil** visto en el tercer capítulo. Contiene la información personal del solicitante y todos los campos se encuentran bloqueados.
 
 **Nro. Documento:** Este campo muestra el número de Identificación de la persona solicitante.
 
@@ -50,9 +53,10 @@ Este cuadro es informativo y hace referencia a los _Datos del Solicitante_ neces
 **Dirección:** Este campo muestra la dirección asignada y que corresponde a la organización a la cual pertenece la persona solicitante.
 
 **Ciudad:** Este campo muestra la ciudad asignada y en la cual vive el solicitante o está ubicada la institución para la cual labora.
-Correo Electrónico: Este campo muestra la Dirección de correo electrónico asignada a la persona solicitante por la organización, o bien, correo personal del solicitante en caso de no tener una cuenta de correo electrónico corporativa.
 
-### Campos Del Formulario Servicio Solicitado
+**Correo Electrónico:** Este campo muestra la Dirección de correo electrónico asignada a la* persona solicitante por la organización, o bien, correo personal del solicitante en caso de no tener una cuenta de correo electrónico corporativa.
+
+### Campos Del Formulario Servicio Solicitado para usuarios relacionados por Centro de Costo
 
 El formulario _Servicio Solicitado_  hace referencia a los datos de la OT que se está creando.
 
@@ -81,23 +85,23 @@ Para seleccionar el Activo/Equipo se da clic en el icono de subgrupo (filtro azu
 
 **Prioridad:** Este campo viene predefinido con las prioridades Alta, Media y Baja. Lo utiliza el programador de mantenimiento como guía para establecer la agilidad (normal o priorizada) en la asignación del recurso humano de mantenimiento para la ejecución del trabajo solicitado.
 
-**F/H Tentativa del Usuario:** En este campo se asigna una fecha y hora que el usuario solicitante considere que el área de Mantenimiento le haga entrega de la OT realizada. Es un campo opcional de diligenciar.
+**F/H Tentativa del Usuario:** En este campo se asigna una fecha y hora que el usuario solicitante considere que el área de Mantenimiento le haga entrega de la OT realizada. Es un campo opcional de diligenciar. Si el campo no aparece es porque no se habilitó en la configuración. 
 
-<a class="btn blue">enviar <span class="mdi mdi-send"></span></a> : Este botón envía inmediatamente la SS a la base de datos del AM para ser revisada por el área de mantenimiento encargada y proceder así con su análisis y asignación.
-Una vez enviada la OT, el sistema muestra un mensaje de notificación de registro exitoso, mostrando el número o consecutivo asignado. Se habilitan además las opciones de Crear Nueva Orden y Consultar Mis Solicitudes:
+<a class="btn blue">Enviar <span class="mdi mdi-send"></span></a> : Este botón envía inmediatamente la OT a la base de datos del AM para ser revisada por el área de mantenimiento encargada y proceder así con su análisis y asignación.
+Una vez enviada la OT, el sistema muestra un mensaje de notificación de registro exitoso, mostrando el número o consecutivo asignado. Se habilitan además las opciones de **Crear Nueva Orden** y **Consultar Mis Solicitudes:**
 
 ![Procesar imagen](../../assets/images/cap12/chp12_img22.png)
 _**Imagen 34.**  Mensaje registro OT_
  
-**Botón Inicio  <span class="mdi mdi-home"></span> :** Este botón lleva a la ventana de Menú Principal del Usuario.
+**<span class="mdi mdi-home"></span> :** Este botón lleva a la ventana de Menú Principal del Usuario.
 
-**Botón Cerrar Sesión  <span class="mdi mdi-exit-to-app"></span> :** Este botón permite salir del aplicativo **AMsi**.
+**<span class="mdi mdi-exit-to-app"></span> :** Este botón permite salir del aplicativo **AMsi**.
 
-<a class="btn blue">consultar Ordenes <span class="mdi mdi-account-box"></span></a> Este botón lo remite a una nueva ventana en la que puede realizar búsquedas y consultas de OT creadas previamente. Para mayor información al respecto se detalla en la sección de “Consultar Mis Órdenes” de este manual.
+<a class="btn blue">CONSULTAR ORDENES <span class="mdi mdi-account-box"></span></a> Este botón lo remite a una nueva ventana en la que puede realizar búsquedas y consultas de OT creadas previamente. Para mayor información al respecto se detalla en la sección de “Consultar Mis Órdenes” de este manual.
 
-<a class="btn blue">crear nueva orden <span class="mdi mdi-plus-circle-outline"></span></a> Se usa para crear nuevas OT. Aplica cuando se acaba de enviar una OT y se desea generar un nuevo registro en esa misma ventana.
+<a class="btn blue"> CREAR NUEVA ORDEN<span class="mdi mdi-plus-circle-outline"></span></a> Se usa para crear nuevas OT. Aplica cuando se acaba de enviar una OT y se desea generar un nuevo registro en esa misma ventana.
 
-<a class="btn blue">anexar multimedia <span class="mdi mdi-attachment"></span></a> : Permite una vez que se envíe la OT anexar archivos Multimedia, como documentos, imágenes o porciones de video siempre y cuando el usuario permanezca en esta ventana.
+<a class="btn blue">ANEXAR MULTIMEDIA <span class="mdi mdi-attachment"></span></a> : Permite una vez que se envíe la OT anexar archivos Multimedia, como documentos, imágenes o porciones de video siempre y cuando el usuario permanezca en esta ventana.
 
 Para ingresar multimedia se debe dar doble clic sobre una de las tres carpetas. 
 
