@@ -1,6 +1,6 @@
 ---
 title: Crear Nueva Orden
-subtitle: Este capítulo explica en detalle el formulario a diligenciar para generar de una Orden de Trabajo (OT) desde AMsi.
+subtitle: Este capítulo explica en detalle el formulario a diligenciar para generar de una Órden de Trabajo (OT) desde AMsi.
 tags:
   - AMsi
   - Crear Orden en AMsi
@@ -217,7 +217,7 @@ Despues de adjuntar el archivo puede asignarse un nombre opcional para hacer ref
 ![Procesar imagen](../../assets/images/cap12/chp12_img26_08.png)
 _**Imagen 47.** Mensaje Alerta OT_
 
-Luego, dar clic en el botón <a class="btn white">Subir Archivo</a> y el sistema confirma a través de un mensaje que el archivo ha sido subido correctamente:
+Luego, dar clic en el botón <a class="btn black">Subir archivo</a> y el sistema confirma a través de un mensaje que el archivo ha sido subido correctamente y continuar con <a class="btn bg-gray cl-black">ACEPTAR</a>:
 
 ![Procesar imagen](../../assets/images/cap12/chp12_img26_09.png)
 _**Imagen 48.** Mensaje registro OT_
@@ -225,7 +225,7 @@ _**Imagen 48.** Mensaje registro OT_
 
 <a class="btn blue">CREAR NUEVA SOLICITUD <span class="mdi mdi-plus-circle-outline"></span></a> : Se usa para crear nuevas solicitudes de servicio. Aplica cuando se ha enviado una SS y se desea generar una nueva.
 
-<a class="btn blue">CONSULTAR SOLICITUDES <span class="mdi mdi-account-box"></span></a> : Este botón lo remite a una nueva ventana en la que puede realizar búsquedas y consultas de OT creadas previamente. Para mayor información al respecto se detalla en la sección de “Consultar Mis Ordenes” de este manual.
+<a class="btn blue">CONSULTAR ORDENES <span class="mdi mdi-account-box"></span></a> : Este botón lo remite a una nueva ventana en la que puede realizar búsquedas y consultas de OT creadas previamente. Para mayor información al respecto se detalla en la sección de “Consultar Mis Ordenes” de este manual.
 
 
 

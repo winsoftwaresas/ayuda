@@ -1,7 +1,6 @@
 ---
 title: Consultar Mis Órdenes
-subtitle: Este capítulo guía para ejecutar consultas de OT creadas desde
-  **AMsi**. Se hace una ilustración sobre los comandos que aparecen en pantalla.
+subtitle: Este capítulo guía para consultas de OTS creadas desde AMsi. Se hace una ilustración sobre los comandos que aparecen en pantalla.
 tags:
   - AMsi
   - Consultar Orden en AMsi
@@ -18,14 +17,15 @@ _**Imagen 49.** AMsi - Consultar Mis Ordenes_
 
 ### 8.1 Subgrupos
 
-Inicialmente esta transacción trae el listado del total de las OT que se han realizado para la Organización por parte de otros usuarios solicitantes.
+Inicialmente esta transacción trae el listado del total de las OT que se han realizado para la Organización por parte de otros usuarios solicitantes. 
 
-En el caso de que el Administrador del **AMsi** haya asociado Todos los Centros de Costos al Usuario logueado, se mostrarán todas las OT para todos los Centros De Servicio (compañías). Sin embargo, es posible hacer Subgrupos  a través del ícono de triángulo invertido superior derecho <span class="mdi mdi-filter-variant"></span> y ver solo las OT creadas por el Usuario logueado. Esto tiene como finalidad de que el usuario pueda realizar constantemente y en tiempo real el seguimiento y consultas a sus OT. A esta ventana se llega al dar clic a la opción de **Consultar Mis Órdenes** en la ventana de Menú Principal.
+
+Sin embargo, es posible hacer Subgrupos  a través del ícono de triángulo invertido superior derecho <span class="mdi mdi-filter-variant"></span> y ver solo las OT creadas por el Usuario logueado. Esto tiene como finalidad de que el usuario pueda realizar constantemente y en tiempo real el seguimiento y consultas a sus OT. A esta ventana se llega al dar clic a la opción de **Consultar Mis Ordenes** en la ventana de Menú Principal.
 
 ![Procesar imagen](../../assets/images/cap12/chp12_img28.png)
 _**Imagen 50.** AMsi - Ir a Subgrupos_
 
-**AMsi** mantiene activo cualquier subgrupo, hasta que el usuario lo modifique o restablezca los valores estándar. Cuando el ícono <span class="mdi mdi-filter-variant"></span> se muestra con una pelota roja, está indicando que lo que se visualiza en el visor es un subgrupo. El sistema permite entonces hacer selección de un grupo de OT de acuerdo con los criterios seleccionados.
+**AMsi** mantiene activo cualquier subgrupo, hasta que el usuario lo modifique o restablezca los valores estándar. Cuando el ícono <a class="btn bg-white fs-2"><span class="iconify btn-icon cl-black" data-icon="mdi-filter-variant"></span><span class="dot bg-af-red"></span></a> se muestra con una pelota roja, está indicando que lo que se visualiza en el visor es un subgrupo. El sistema permite entonces hacer selección de un grupo de OT de acuerdo con los criterios seleccionados.
 
 Una vez dado un clic sobre el ícono de subgrupos <span class="mdi mdi-filter-variant"></span>, se muestran los siguientes criterios de búsqueda:
 
@@ -39,6 +39,7 @@ Los campos de datos que constituyen criterio de selección en la Ventana Subgrup
 **AC-Código:** Esta selección agrupa las OT cuyo Activo coincidan con el relacionado en este criterio. Es posible definir el código completo o una porción del mismo.
 
 **AC-Descripción:** Selecciona las OT asociadas a los Activos según criterios que se fundamenten en su descripción.  Ejemplo: Motor selecciona todos los Activos, en cuya descripción, en cualquier posición, tengan la palabra “Motor”.
+
 
 ##### FILTRAR POR CAMPOS DE LA ORDEN DE TRABAJO
 
@@ -114,5 +115,4 @@ Estos campos solo son manipulados por los encargados del área de mantenimiento 
 ![Procesar imagen](../../assets/images/cap12/chp12_img31.png)
 _**Imagen 53.** AMsi - Agregar Comentarios_
 
->**Nota:** Los comentarios pueden ser el medio de comunicación entre el 
-Usuario Solicitante y Mantenimiento, los comentarios quedan grabados uno debajo del otro en una ventana tipo chat. 
+>**Nota:** Los comentarios pueden ser el medio de comunicación entre el Usuario Solicitante y Mantenimiento, los comentarios quedan grabados uno debajo del otro en una ventana tipo chat. 
