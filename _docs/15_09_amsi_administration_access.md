@@ -1,7 +1,6 @@
 ---
 title: Acceso Administración AMsi
-subtitle: Este capítulo, orientado al Administrador General de AMsi,se concentra
-  en la funcionalidad de la opción Configuración.
+subtitle: Este capítulo, orientado al Administrador General de AMsi,se concentra en la funcionalidad de la opción Configuración.
 tags:
   - AMsi
   - Configuración Amsi
@@ -27,7 +26,7 @@ Para poder ingresar a la configuración de **AMsi** , el Administrador debe cono
 ![Procesar imagen](../../assets/images/cap12/chp12_img32.png)
 _**Imagen 54.** AMsi - Inicio_
 
-Una vez se ingrese el Usuario y la Contraseña de manera correcta, se puede observar el _Menú Principal del Usuario Administrador_ del  **AMsi** .
+Una vez se ingrese, se puede observar el _Menú Principal del Usuario Administrador_ del  **AMsi** .
 
 ### Ventana de Menú Principal del Usuario Administrador
 
@@ -39,23 +38,24 @@ _**Imagen 55.** AMsi - Menú Principal_
 
 A continuación, se describen las transacciones que componen esta ventana.
 
-**Configuración:** Esta opción permite configurar los criterios, preferencias, particularidades y modos de visualización sobre la información disponible en los formularios básicos del aplicativo al igual que los permisos y parametrización general del mismo.
+**Configuración:** Esta opción permite configurar los criterios, preferencias, particularidades y modos de visualización sobre la información disponible en los formularios del aplicativo y parametrización general de envío de SS u OTs desde **AMsi** a **AM**.
 
-**Administrar Usuarios:** Esta opción permite la creación de los usuarios que ingresarán al **AMsi**, registro de información específica del usuario y la asociación de los Centros de Costo.
+**Administrar Usuarios:** Esta opción permite la creación de los usuarios que deben tener acceso a la aplicación.
 
-**Cerrar Sesión:** Esta opción se usa para salir del aplicativo **AMsi**.
+**Cerrar Sesión:** Esta opción se usa para salir de **AMsi**.
 
 ### Configuración
 
 <iframe width="600" height="340" src="https://www.youtube.com/embed/AsEyii8Pg4k?si=Oq443DtcZjX75jnw" title="Parametrización AMsi" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen uk-responsive></iframe>
-
+<br>
+<br>
 
 Una vez se ingrese con los datos del usuario administrador, se debe dar clic a este botón ubicado en la ventana de Menú Principal para continuar con la Configuración de  **AMsi**.
 
 ![Procesar imagen](../../assets/images/cap12/chp12_img34.png)
 _**Imagen 56.** AMsi - Configuración_
 
-Los componentes de la ventana de Configuración General son los que se muestran a continuación. Sobre cada componente se da una breve explicación:
+Los componentes de la ventana de Configuración General son los que se muestran a continuación.Sobre cada uno se da una breve explicación:
 
 ![Procesar imagen](../../assets/images/cap12/chp12_img35.png)
 _**Imagen 57.** AMsi - Ir a Configuración_
@@ -72,7 +72,7 @@ _**Imagen 58.** AMsi - General_
 
 **Mensaje en la ventana de registro de la solicitud:** En este campo se digita un mensaje que se desliza y aparece en la parte superior del formulario de Servicio Solicitado. Este campo permite hasta 500 caracteres.
 
-**Generar automáticamente Órdenes al guardar la solicitud:** Marcar SI indica que el aplicativo se usa para la creación de Órdenes de Trabajo en lugar de crear Solicitudes de Servicio. En tal caso, los botones de Crear Nueva Solicitud y Consultar Mis Solicitudes cambian a Crear Nueva Orden y Consultar Mis Ordenes respectivamente. El sistema entonces cambia su funcionalidad para Crear y Consultar Órdenes de Trabajo.
+**Generar automáticamente Órdenes al guardar la solicitud:** Marcar SI indica que el aplicativo se usa para la creación de Órdenes de Trabajo en lugar de crear Solicitudes de Servicio. En tal caso, los botones de **Crear Nueva Solicitud** y **Consultar Mis Solicitudes** cambian a **Crear Nueva Orden** y **Consultar Mis Ordenes**  respectivamente. El sistema entonces cambia su funcionalidad para **Crear y Consultar Órdenes de Trabajo**.
 
 #### Información del Solicitante
 
