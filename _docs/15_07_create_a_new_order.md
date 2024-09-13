@@ -225,7 +225,7 @@ _**Imagen 48.** Mensaje registro OT_
 
 <a class="btn blue">CREAR NUEVA SOLICITUD <span class="mdi mdi-plus-circle-outline"></span></a> : Se usa para crear nuevas solicitudes de servicio. Aplica cuando se ha enviado una SS y se desea generar una nueva.
 
-<a class="btn blue">CONSULTAR SOLICITUDES <span class="mdi mdi-account-box"></span></a> : Este botón lo remite a una nueva ventana en la que puede realizar búsquedas y consultas de SS creadas previamente. Para mayor información al respecto se detalla en la sección de “Consultar Mis Solicitudes” de este manual.
+<a class="btn blue">CONSULTAR SOLICITUDES <span class="mdi mdi-account-box"></span></a> : Este botón lo remite a una nueva ventana en la que puede realizar búsquedas y consultas de OT creadas previamente. Para mayor información al respecto se detalla en la sección de “Consultar Mis 0rdenes” de este manual.
 
 
 
