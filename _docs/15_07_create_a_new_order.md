@@ -134,3 +134,103 @@ _**Imagen 39.** Mensaje Alerta Multimedia_
 <iframe width="600" height="340" src="https://www.youtube.com/embed/lamMeqB2G18?si=-6AdZbxP2bT4y9M1" title="Actualizar perfil y crear órdenes de trabajo para usuarios relacionados por compañía" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen uk-responsive></iframe>
 
 
+Una vez ingrese a **AMsi** elija la opción **Crear Nueva Orden**, se visualiza el Formulario que muestra el detalle del servicio a solicitar:
+
+![Procesar imagen](../../assets/images/cap12/chp12_img26_01.png)
+_**Imagen 40.** Formulario OT_
+   
+
+Se describen los campos a diligenciar:
+
+### Campos del Formulario _Datos del Solicitante_
+
+Este recuadro es informativo y hace referencia a los Datos del Solicitante normalmente corporativos necesarios para la creación de una OT. _(Sección Actualizar Perfil)_.
+
+**Nro. Documento:** Este campo muestra el número de Identificación de la persona solicitante.
+
+**Nombre Completo:** Este campo muestra el Nombre completo de la persona que solicita un servicio de mantenimiento.
+
+**Teléfono:** Este campo muestra el Número telefónico donde se puede localizar a la persona solicitante.
+
+**Dirección:** Este campo muestra la dirección asignada y que corresponde a la organización a la cual pertenece la persona solicitante.
+
+**Ciudad:** Este campo muestra la ciudad asignada y en la cual vive el solicitante o está ubicada la institución para la cual labora.
+
+**Correo Electrónico:** Este campo muestra la Dirección de correo electrónico asignada a la persona solicitante por la organización, o el correo personal del solicitante en caso de no tener una cuenta de correo electrónico corporativa.
+
+### Campos Del Formulario _Servicio Solicitado_ para usuarios relacionados por Compañía
+
+**Centro de Servicio:** Este campo solo es desplegable cuando el usuario tiene asociada o autorizada mas de una compañía. Se refiere a la compañía en **AM** a la que llega la OT. 
+
+**Descripción:** En este campo se digita en forma concreta el servicio de mantenimiento requerido. Se detalla el problema, inconveniente, necesidad o avería a ser atendida.
+
+**Activo/Equipo:** En este campo se ingresa el  objeto de mantenimeinto relacionado a la OT. 
+
+
+Para seleccionar el Activo dirijase al botón dando un clic <span class="mdi mdi-filter-variant icon white"></span> que se encuentra en la parte derecha del campo:
+
+![Procesar imagen](../../assets/images/cap12/chp12_img26_02.png)
+_**Imagen 41.** Asociar Activo/Equipo a la OT_
+
+La lista desplegada incluye los Activos/Equipos creados previamente en **AM** asociados a la compañía o centro de servicio referido en el formulario en estado activo y operante. En esta nueva ventana también hay posibilidad de hacer subgrupos <span class="mdi mdi-filter-variant"></span> o búsquedas rápidas que facilitan encontrar el Activo. (En la imagen anterior se muestra un Subgrupo dentro de la ventana detalle de Activos representado por el ícono <a class="btn bg-white fs-2"><span class="iconify btn-icon cl-black" data-icon="mdi-filter-variant"></span><span class="dot bg-af-red"></span></a> )
+
+Para seleccionar el Activo dar doble clic sobre el registro sombreado en verde. Cuando se cierra esta ventana automáticamente se observa que aparece el código y la descripción del Activo/Equipo, como se muestra a continuación:
+
+![Procesar imagen](../../assets/images/cap12/chp12_img26_03.png)
+_**Imagen 42.** Formulario correctamente diligenciado_
+
+
+
+**Prioridad:** Este campo viene predefinido con las prioridades Alta, Media y Baja. Lo utiliza el programador de mantenimiento como guía para establecer la agilidad (normal o priorizada) en la asignación del recurso humano de mantenimiento para la ejecución del trabajo solicitado.
+
+**F/H Tentativa del Usuario:** En este campo se asigna una fecha y hora que el usuario solicitante considere que el área de Mantenimiento le haga entrega de la solicitud realizada. Es un campo opcional de diligenciar y que es configurable por el usuario administrador. (En la imagen anterior se configuró para que el campo no aparezca).
+
+Una vez se diligencie el formulario accione el botón  <a class="btn blue">ENVIAR <span class="mdi mdi-send"></span></a>. Este botón envía inmediatamente la SS a la base de datos del AM para ser revisada por el área de mantenimiento encargada y proceder así con su análisis y asignación. Una vez enviada la SS, el sistema muestra un mensaje de notificación de registro exitoso, mostrando el número o consecutivo asignado a la OT.
+
+Después se habilitan las siguientes opciones:
+
+
+![Procesar imagen](../../assets/images/cap12/chp12_img26_04.png)
+_**Imagen 43.** Envío de OT_
+
+
+
+<a class="btn blue">ANEXAR MULTIMEDIA <span class="mdi mdi-attachment"></span></a> : Permite una vez que se envíe la SS anexar archivos Multimedia, como documentos, imágenes o porciones de video siempre y cuando el usuario permanezca en esta ventana.
+
+
+
+Para ingresar multimedia se debe dar doble clic sobre una de las tres carpetas:
+
+![Procesar imagen](../../assets/images/cap12/chp12_img26_05.png)
+_**Imagen 44.** Multimedia_
+
+Luego, dar clic al botón <span class="mdi mdi-cloud-upload icon white"></span> para abrir el explorador de archivos:
+
+![Procesar imagen](../../assets/images/cap12/chp12_img26_06.png)
+_**Imagen 45.** AMsi - Explorador de archivos_
+
+![Procesar imagen](../../assets/images/cap12/chp12_img26_07.png)
+_**Imagen 46.** AMsi - Subir archivo_
+
+Despues de adjuntar el archivo puede asignarse un nombre opcional para hacer referencia clara de lo que se está adjuntano en el espacio en blanco que se muestra a continuación:
+
+![Procesar imagen](../../assets/images/cap12/chp12_img26_08.png)
+_**Imagen 47.** Mensaje Alerta OT_
+
+Luego, dar clic en el botón <a class="btn white">Subir Archivo</a> y el sistema confirma a través de un mensaje que el archivo ha sido subido correctamente:
+
+![Procesar imagen](../../assets/images/cap12/chp12_img26_09.png)
+_**Imagen 48.** Mensaje registro OT_
+
+
+<a class="btn blue">CREAR NUEVA SOLICITUD <span class="mdi mdi-plus-circle-outline"></span></a> : Se usa para crear nuevas solicitudes de servicio. Aplica cuando se ha enviado una SS y se desea generar una nueva.
+
+<a class="btn blue">CONSULTAR SOLICITUDES <span class="mdi mdi-account-box"></span></a> : Este botón lo remite a una nueva ventana en la que puede realizar búsquedas y consultas de SS creadas previamente. Para mayor información al respecto se detalla en la sección de “Consultar Mis Solicitudes” de este manual.
+
+
+
+
+**<span class="mdi mdi-home"></span>:** Este botón lleva a la ventana de Menú Principal.
+
+**<span class="mdi mdi-exit-to-app"></span>:** Este botón  permite salir de la aplicación **AMsi**.
+
