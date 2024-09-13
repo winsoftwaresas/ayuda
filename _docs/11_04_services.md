@@ -14,7 +14,7 @@ Esta opción permite exportar los ítems o campos de la ficha técnica de PM, bi
 Para efectuar este proceso, se da clic en Exportar <span class="mdi mdi-download"></span> mostrando las siguientes opciones de exportación:
 
 ![Procesar imagen](../../assets/images/cap06/chp06_img71.png)
-***Imagen 81.** Programas - Exportar*
+_**Imagen 63.** Programas - Exportar_
 
 En la gráfica anterior, se aprecian sus componentes y sus respectivos contenidos:
 
@@ -29,7 +29,7 @@ Luego de escoger una de las opciones anteriores, en la parte inferior aparece se
 Este comando permite visualizar los reportes relacionados a la programación. Existen los siguientes tipos de reportes básicos disponibles:
 
 ![Procesar imagen](../../assets/images/cap06/chp06_img72.png)
-_**Imagen 82.** Programas - Reportes_
+_**Imagen 64.** Programas - Reportes_
 
 Los anteriores reportes pueden ser seleccionados para una o varios registros a través de las siguientes opciones:
 
