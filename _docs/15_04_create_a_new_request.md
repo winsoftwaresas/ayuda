@@ -256,7 +256,7 @@ _**Imagen 22.** AMsi - Explorador de archivos_
 ![Procesar imagen](../../assets/images/cap12/chp12_img13_08.png)
 _**Imagen 23.** AMsi - Subir archivo_
 
-Despues de adjuntar el archivo puede asignarse un nombre opcional para hacer referencia clara de lo que se estáadjuntano en el espacio en blanco que se muestra a continuación:
+Despues de adjuntar el archivo puede asignarse un nombre opcional para hacer referencia clara de lo que se está adjuntando en el espacio en blanco que se muestra a continuación:
 
 ![Procesar imagen](../../assets/images/cap12/chp12_img13_09.png)
 _**Imagen 24.** Mensaje Alerta SS_
