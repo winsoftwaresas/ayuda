@@ -831,5 +831,40 @@ _**Imagen 61.** MM - Desactivar Programas_
 _**Imagen 62.** MM - Adjuntar Documentos_
 
 
-
 >**Nota:** Para efectuar los cambios para el conjunto de Programas previamente seleccionado en el subgrupo se debe dar un clic en el botón <a class="btn blue">modificar <span class="mdi mdi-pencil"></span></a>. El sistema mostrará dos mensajes alerta, uno seguido del otro, con el fin de preguntarle al Usuario si está seguro de hacer la modificación masiva, esta transacción es un permiso especial que se otorga desde el módulo de <a class="btn blue">administración</a> en Permisos Básicos, en la opción **Masificar**.
+
+
+## Dashboard de Programas
+
+A esta opción se llega sobreponiendo el cursor sobre el módulo de PM donde se despliega un submenú de transacciones disponibles y luego se da clic en “DashBoard Programas”.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img66.png)
+_**Imagen 81.** Programas - Ir a Dashboard_
+
+Este comando permite visualizar en tiempo real el comportamiento de los registros de PM con el fin de usarse como una herramienta para análisis y toma de decisiones rápidas.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img67.png)
+***Imagen 82.** Programas - Dashboard de PM*
+
+La información del rectángulo de color naranja ubicado en la parte superior derecha como guía a modo de fracción (N/M), indica el número de registros del subgrupo en el visor(N) sobre el número total de registros de OT existentes en la base de datos (M). Si no hay preselección, los dos números en sus totales son los mismos.
+También un indicador de la existencia de un subgrupo, es el ícono de triángulo invertido con una pelota de color rojo que se ubica al lado derecho de dicha fracción.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img68.png)
+***Imagen 83.** Programas - Subgrupos Dashboard*
+
+Para personalizar la vista de los gráficos o tener una información específica se recomienda hacer subgrupos a través del ícono de triángulo invertido. Asimismo los DashBoards permiten ocultar información con solo dar un clic sobre sus rectángulos de colores como se muestra en la siguiente imagen:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img69.png)
+_**Imagen 84.** Programas - Subgrupos Dashboard_
+
+Sí se desea restablecer la información, se debe dar clic al ícono <span class="mdi mdi-autorenew"></span>. En cambio, si se desea exportar el gráfico en un formato de imagen, es posible dando clic al ícono <span class="mdi mdi-download"></span>. Es posible ver la información de cada ítem sobreponiendo el cursor sobre un color.
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img70.png)
+
+_**Imagen 85.** Programas - Subgrupos Dashboard_
+
+
+
+
+
+
