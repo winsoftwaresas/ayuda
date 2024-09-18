@@ -120,7 +120,7 @@ Para visualizar la información completa de los Centros de Costo disponibles par
 <iframe width="600" height="340" src="https://www.youtube.com/embed/zXiMzC7gtz4?si=HTHPaCuLyyiRTU9_" title="Parametrización AMsi - Administración Usuarios - ¿Cómo actualizar un usuario?" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen uk-responsive></iframe>
 
 
-<hr>
+<br>
 
 Es posible repetir el proceso anterior siempre y cuando se tenga la parametrización de relacionar usuarios por compañía. 
 

@@ -310,3 +310,6 @@ almacén :
 <a class="btn blue">ENVIAR <span class="mdi mdi-send"></span></a> :
 
 <a class="btn bg-white fs-2"><span class="iconify btn-icon cl-black" data-icon="mdi-filter-variant"></span><span class="dot bg-af-red"></span></a>
+
+
+<span class="mdi mdi-filter-variant icon white"></span>

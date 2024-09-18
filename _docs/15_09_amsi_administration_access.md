@@ -70,9 +70,16 @@ _**Imagen 57.** AMsi - Ir a Configuración_
 ![Procesar imagen](../../assets/images/cap12/chp12_img36.png)
 _**Imagen 58.** AMsi - General_
 
-**Mensaje en la ventana de registro de la solicitud:** En este campo se digita un mensaje que se desliza y aparece en la parte superior del formulario de Servicio Solicitado. Este campo permite hasta 500 caracteres.
+**Mensaje en la ventana de registro de la solicitud:** En este campo se digita un mensaje que se desliza y aparece en la parte superior del formulario del Servicio a Solicitar. Es de utilidad para dar información en caso de que el usuario tenga inquietudes. 
 
 **Generar automáticamente Órdenes al guardar la solicitud:** Marcar SI indica que el aplicativo se usa para la creación de Órdenes de Trabajo en lugar de crear Solicitudes de Servicio. En tal caso, los botones de **Crear Nueva Solicitud** y **Consultar Mis Solicitudes** cambian a **Crear Nueva Orden** y **Consultar Mis Ordenes**  respectivamente. El sistema entonces cambia su funcionalidad para **Crear y Consultar Órdenes de Trabajo**.
+
+
+**Solicitar fecha tentativa de entrega:** Marcar SI, permite mostrar el campo para ingresar la fecha en el formulario del Servicio a Solicitar con el fin de que el usuario solicitante sugiera una solución tentativa del servicio.
+
+**Preguntar Si Activo se entrega limpio a Mantenimiento:** Marcar SI, permite activar/desactivar un switche en el formulario del Servicio a Solicitar para que el usuario marque si es un Activo que se entrega limpio al área de mantenimiento.
+
+**Relacionar Usuarios Por Centro de Costo:** De marcar la opción NO, todos los usuarios que se administran (crear o modificar) quedan relacionados por compañía, es decir, en el formulario del Servicio a Solicitar se listan los Activos de la compañía.
 
 #### Información del Solicitante
 
@@ -94,7 +101,7 @@ _**Imagen 59.** AMsi - Información Solicitante_
 **¿El Correo Electrónico es requerido?:** Marcar SI indica que este campo es obligatorio y se identifican con un asterisco * de color rojo entre paréntesis que antecede el nombre del campo. Además, indica que debe ser llenado por los usuarios. Marcar NO implica dejar el campo a manera opcional de diligenciamiento para el solicitante al momento de actualizar la información desde **Actualizar Perfil** o para el usuario administrador al momento de crear y actualizar los usuarios.
 
 
-#### 9.3.3 Servicio Solicitado
+#### Servicio Solicitado
 
 En esta ventana se configuran los campos que serán exigidos en la sección Servicio Solicitado. Los componentes de la ventana de Servicio Solicitado son los que se muestran a continuación. Sobre cada componente se da una breve explicación.
 
@@ -114,7 +121,7 @@ _**Imagen 60.** AMsi - Formulario Servicio Solicitado_
 
 **¿Cómo nombrar la prioridad baja?:** Se refiere a los tipos de prioridades creadas en el AM. Por defecto este campo es nombrado como Normal y puede ser cambiado a un nombre que sea más significativo dentro de la Compañía.
 
-#### 9.3.4 Identificación del Activo
+####  Identificación del Activo
 
 En esta ventana se configuran las opciones correspondientes para el campo de Activo/Equipo en el formulario Servicio Solicitado, en el proceso de creación de una SS y/o OT. Los componentes de la ventana de Identificación del Activo son los que se muestran a continuación. Sobre cada componente se da una breve explicación.
 
@@ -122,36 +129,36 @@ En esta ventana se configuran las opciones correspondientes para el campo de Act
 _**Imagen 61.** AMsi - Identificar Activo_
 
 
-**¿Desea describir el Activo en lenguaje natural?:** Elegir SI en este botón, habilita un checkbox al extremo izquierdo del campo Activo / Equipo. Al chequear este cuadro, inmediatamente se habilitan dos campos que pueden ser diligenciados. El primer campo es para describir en lenguaje natural el Activo o Equipo hasta con 50 caracteres, y el segundo campo es para describir también en lenguaje natural la ubicación física del Activo o Equipo referenciado hasta con 50 caracteres. De elegir NO, quedará disponible para definir el código de Activo/Equipo solamente del icono de filtro azul y seleccionarlo del visor de Activos. Es de tener en cuenta que cuando se elige la opción para crear Órdenes, esta opción no es posible cambiarla.
+**¿Desea describir el Activo en lenguaje natural?:** Elegir SI en este botón, habilita un checkbox <a class="btn cl-black "><span class="mdi mdi-checkbox-blank-outline"> </span></a> al extremo izquierdo del campo Activo / Equipo. Al chequear este cuadro, inmediatamente se habilitan dos campos que pueden ser diligenciados. El primer campo es para describir en lenguaje natural el Activo o Equipo hasta con 50 caracteres, y el segundo campo es para describir también en lenguaje natural la ubicación física del Activo o Equipo referenciado hasta con 50 caracteres. De elegir NO, quedará disponible para definir el código de Activo/Equipo solamente del icono Subgrupo <span class="mdi mdi-filter-variant icon white"></span> y seleccionarlo del visor de Activos. 
+
+>**Nota:** Es de tener en cuenta que cuando se elige la opción para crear y consultar **Órdenes**, la opción para describir el Activo en Lenguaje Natural no está disponible.
 
 **¿La ubicación física es requerida?:** Elegir SI indica que éste es un campo obligatorio que debe ser llenado por los usuarios en el formulario Información de la Solicitud. Marcar NO implica que el campo tiene un uso opcional de diligenciamiento para el solicitante.
 
 Si el Activo/Equipo es seleccionado de una lista o ingresado con su respectivo código, el campo Ubicación Física se llena automáticamente en cada caso. Mientras que, si el Activo/Equipo es escrito en lenguaje natural, el campo Ubicación Física queda habilitado para ser diligenciado por el solicitante. Es de tener en cuenta que cuando se elige la opción para crear Órdenes, esta opción no es posible cambiarla.
 
-### 9.3.5 Seguridad
+### Seguridad
 
 En esta ventana se establece el Usuario y Contraseña del Administrador del  **AMsi** , además se configuran los servidores de correo con usuarios y contraseñas. Los componentes de la ventana de Seguridad son los que se muestran a continuación. Sobre cada componente se da una breve explicación:
 
 ![Procesar imagen](../../assets/images/cap12/chp12_img40.png)
-_**Imagen 62.** AMsi - Identificar Activo_
+_**Imagen 62.** AMsi - Seguridad_
 
 
 **Usuario Administrador:** En este campo se define el usuario Administrador con el cual se accede al sistema para la Configuración de **AMsi**.
 
 **Contraseña:** En este campo se asigna una Contraseña para el usuario Administrador, con el fin de acceder a la Configuración de **AMsi**. La Contraseña se muestra en blanco o sin diligenciar por seguridad.
 
-**Servidor de Correo:** En este campo se ubica el servidor de correo de la organización, para habilitar la funcionalidad de envíos por correo.
 
-**Usuario de Correo:** En este campo se indica un usuario de correo bajo una estructura válida de una cuenta de correo. Es la cuenta origen desde la que serán enviados los correos de notificación.
+### Configuración
 
-**Contraseña de Correo:** En este campo se define la Contraseña con la cual se accede a la cuenta de correo ubicada en el campo anterior.
+![Procesar imagen](../../assets/images/cap12/chp12_img40_1.png)
+_**Imagen 63.** AMsi - Configuración_
 
-**Utiliza cifrado (SSL):** En este campo se habilita la seguridad integrada del cifrado (SSL). Por defecto esta opción es configurado como NO.
+**¿Usa Directorio Activo de Azure?:** De marcar SI, indica que debe hacer las configuraciones respectivas para que el logueo de cada usuario en **AMsi** sea por medio del directorio Activo. Esto debe configurarse con el equipo técnico de WIN Software.
 
-- Si
-- No
 
 #### 9.3.6 Finalizando la Configuración
 
-Una vez realizadas las modificaciones, dar clic al botón <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a>
+Una vez realizadas las modificaciones, dar clic al botón <a class="btn blue">ACTUALIZAR <span class="mdi mdi-pencil"></span></a>
 ubicado al final de esta ventana para guardar la nueva configuración de **AMsi**, el sistema inmediatamente vuelve a la ventana de Menú Principal del Usuario Administrador.
