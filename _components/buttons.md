@@ -313,3 +313,6 @@ almacén :
 
 
 <span class="mdi mdi-filter-variant icon white"></span>
+
+
+<a class="btn white cl-blue bd-blue"><span class="mdi mdi-chevron-left"> </span></a>
