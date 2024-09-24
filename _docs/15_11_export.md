@@ -1,10 +1,10 @@
 ---
-title: Exportar Visor de SS/OT y salir del Aplicativo
-subtitle: Este capítulo orienta al usuario administrador sobre cómo hacer uso de servicios como la función **Exportar Visor** y salir de la aplicación **AMsi**.
+title: Exportar Visor de SS/OT
+subtitle: Este capítulo orienta al usuario administrador sobre cómo hacer uso de servicios como la función Exportar Visor de AMsi.
 tags:
   - Exportar
   - AMsi
-  - Cerrar Sesión en Amsi
+  
 author: win
 order: 15_11
 date: 2022-07-19T18:14:18.403Z
