@@ -261,7 +261,7 @@ Se describe a continuación los campos que componen del Detalle de MO:
 
 **Vlr. Total:** Este campo es informativo y es calculado por el sistema, contiene el valor total del presupuesto para ese Oficio. Es el producto del Vlr. Hora por H. Hombre y Minutos. Se visualiza en la tabla de Mano de Obra Interna.
 
-Para ingresar MO se debe dar clic en el botón <a class="btn gray">Adicionar mano obra interna</a> que se muestra en la ventana detalle de Mano de Obra Interna.
+Para ingresar MO se debe dar clic en el botón <a class="btn gray">Adicionar Mano Obra Interna</a> que se muestra en la ventana detalle de Mano de Obra Interna.
  
 Diligenciados los campos anteriores, se debe dar clic en el icono <span class="mdi mdi-plus-circle icon white"></span> ubicado en la parte inferior del formulario, seguidamente, se observa que la información creada se muestra en la tabla de mano de Obra Interna, ubicada al lado izquierdo. 
 
@@ -300,9 +300,9 @@ A continuación se describen los campos que componen esta ventana:
 
 **Costo Unitario por hora/visita:** Se digita el valor unitario o el costo unitario por hora o por visita de parte del responsable ejecutor externo para esa actividad programada, ya sea un Contratista o un Servicio Externo.
 
-Para ingresar ME se debe dar clic en el botón <a class="btn gray">Adicionar mano obra externa</a> que se muestra en la ventana detalle de Mano de Obra Externa.
+Para ingresar ME se debe dar clic en el botón <a class="btn gray">Adicionar Mano Obra Externa</a> que se muestra en la ventana detalle de Mano de Obra Externa.
  
-Diligenciados los campos anteriores, se debe dar clic en el icono <span class="mdi mdi-plus-circle icon white"></span> ubicado en la parte inferior 
+Diligenciados los campos anteriores, se debe dar clic en el icono <span class="mdi mdi-plus-circle icon bg-gray cl-blue "></span> ubicado en la parte inferior :
 
 
 Se observa que la información creada se muestra en la tabla de mano de Obra Externa, ubicada al lado izquierdo. 
@@ -310,7 +310,7 @@ Se observa que la información creada se muestra en la tabla de mano de Obra Ext
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img13.png)
 _**Imagen 13.** Programas de Mantenimiento - Ingresar ME_
 
-En el caso de actu(../assets/erna de algún registro existente, se debe seleccionar el registro y luego dar un clic sobre el botón <a class="btn gray">Actualizar Mano de Obra Externa</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
+En el caso de necesitar actualizar algún registro existente, se debe seleccionar el registro y luego dar un clic sobre el botón <a class="btn gray">Actualizar Mano de Obra Externa</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img14.png)
 _**Imagen 14.** Programas - Actualizar ME_
@@ -349,8 +349,7 @@ A continuación se describen los campos que componen esta ventana; cuando se qui
 
 Para ingresar Materiales y Repuestos se debe dar clic en el botón <a class="btn gray">Adicionar Material y Repuesto</a> que se visualiza en el lado derecho de la Ventana Detalle.
 
-Para agregar dar clic sobre el icono <span class="mdi mdi-plus-circle icon white"></span>
- ubicado en la parte inferior del formulario, seguidamente, se observa que la información creada se muestra en la tabla de Materiales y Repuestos, ubicada al lado izquierdo, como se muestra a continuación:
+Para agregar dar clic sobre el icono <span class="mdi mdi-plus-circle icon bg-gray cl-blue "></span> ubicado en la parte inferior del formulario, seguidamente, se observa que la información creada se muestra en la tabla de Materiales y Repuestos, ubicada al lado izquierdo, como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img17.png)
 _**Imagen 17.** Programas - Adicionar M y R_
@@ -360,7 +359,7 @@ En el caso de actualizar la información de Materiales y Repuestos de algún reg
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img18.png)
 _**Imagen 18.** Programas - Actualizar M y R_
 
-Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
+Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn bg-gray cl-black">ACEPTAR</a> como se muestra en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img19.png)
 _**Imagen 19.** Programas - Eliminar M y R_
@@ -373,7 +372,7 @@ _**Imagen 20.** Programas - OC_
 
 En la gráfica anterior, Ventana de Ingreso de Mano de Otros Conceptos de Costo, se aprecian sus componentes y sus respectivos contenidos, se deben diligenciar para crear un registro nuevo o actualizar un Concepto ya existente.
 
-Para crear registros de Otros Conceptos de Costo, se debe hacer clic en el botón <a class="btn gray">Adicionar Otro Concepto</a> , que se muestra en la ventana detalle de Otros Conceptos de Costo, se diligencian los campos y finalmente se da clic en el icono <span class="mdi mdi-plus-circle icon white"></span> ubicado en la parte inferior del formulario. Seguidamente, se observa que la información creada se muestra en la tabla de Otros Conceptos, ubicada al lado izquierdo.
+Para crear registros de Otros Conceptos de Costo, se debe hacer clic en el botón <a class="btn gray">Adicionar Otro Concepto</a> , que se muestra en la ventana detalle de Otros Conceptos de Costo, se diligencian los campos y finalmente se da clic en el icono <span class="mdi mdi-plus-circle icon bg-gray cl-blue "></span> ubicado en la parte inferior del formulario. Seguidamente, se observa que la información creada se muestra en la tabla de Otros Conceptos, ubicada al lado izquierdo.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img21.png)
 _**Imagen 21.** Programas - OC_
@@ -383,7 +382,7 @@ En el caso de actualizar la información de Otro Concepto de Costo de algún reg
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img22.png)
 _**Imagen 22.** Programas - OC_
 
-Para eliminar un registro de la tabla de Otros Conceptos, se ubica el registro a eliminar directamente en la tabla y se da clic, luego se da clic al icono de <span class="mdi mdi-delete"></span> sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn white">Aceptar</a>.
+Para eliminar un registro de la tabla de Otros Conceptos, se ubica el registro a eliminar directamente en la tabla y se da clic, luego se da clic al icono <span class="mdi mdi-delete"></span> sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn bg-gray cl-black">ACEPTAR</a>.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img23.png)
 _**Imagen 23.** Programas - Eliminar OC_
@@ -482,7 +481,7 @@ El Criterio SA es excluyente con los demás Criterios de Programación, es decir
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img27.png)
 _**Imagen 31.** Programas - Semanas del Año_
 
-**Contador:** Este campo aplica cuando el Criterio de Programación es por Contador. Al generar un PM que lo requiera, es en este campo donde se establece el valor real o aproximado del contador de la última vez que se realizó la labor que ahora se está programando como rutina. En adelante, el **AM**, en el momento de generar la Órden de Trabajo. Si el Activo tiene definido un contador, se debe dar clic en el botón <a class="btn gray">Adicionar contador</a> luego, desplegar el campo para elegir el contador.
+**Contador:** Este campo aplica cuando el Criterio de Programación es por Contador. Al generar un PM que lo requiera, es en este campo donde se establece el valor real o aproximado del contador de la última vez que se realizó la labor que ahora se está programando como rutina. En adelante, el **AM**, en el momento de generar la Órden de Trabajo. Si el Activo tiene definido un contador, se debe dar clic en el botón <a class="btn gray">Adicionar Contador</a> luego, desplegar el campo para elegir el contador.
 
 Este Criterio puede trabaja conjuntamente con el Criterio de Frecuencia, tiene en cuenta la FIP, o sea que si el intervalo a Analizar/Generar se encuentra antes de la FIP, el PM no genera OT, así se cumpla el Incremento o el Límite por parte del Contador del Activo. Por lo que este criterio genera una OT si se cumple cualquiera de las dos condiciones.
 
@@ -501,7 +500,7 @@ En los casos en que la actualización de los contadores de los Activos no pueda 
 
 **Vlr. Contador al Inicio del Período:** Se refiere al valor inicial del contador del Activo, correspondiente a la Fecha de Inicio de Período (FIP) previamente diligenciada en el mismo apartado.
 
-Finalmente para agregar el contador se debe dar clic en el botón de la parte inferior <span class="mdi mdi-plus-circle icon white"></span> y para guardar los cambios se debe <a class="btn blue">Actualizar</a> el registro.
+Finalmente para agregar el contador se debe dar clic en el botón de la parte inferior <span class="mdi mdi-plus-circle icon bg-gray cl-blue "></span> y para guardar los cambios se debe <a class="btn blue">Actualizar</a> el registro.
 
 **Fecha de última generación de OT:** Esta fecha es informativa y viene a ser la FUG (fecha de la última generación), por tanto no se puede  modificar, esta fecha es la misma para todos los Criterios de Programación. Es una fecha real, siempre, que muestra cuando fue que se realizó la última generación de una Orden de Trabajo desde ese PM.
 
@@ -547,7 +546,7 @@ Una vez que un Programa de Mantenimiento acaba de generar una OT, sobre el progr
 
 >_**Nota:** En **AM** es posible hacer la Programación de las Actividades de Mantenimiento para un período futuro, tanto para el corto como para el largo  plazo, a través de las funciones de Generación y de Proyección. La función de Generación se encuentra en el submenú de  “Órdenes de Trabajo”. La función Proyección se encuentra en el submenú de Programas de	Mantenimiento. Cabe anotar también que esta Programación se puede realizar con cualquier anticipación requerida, por lo tanto es posible que la Programación de una semana como la 32 se realice en la 28, por ejemplo.
 Finalmente se aclara que toda actividad que pretenda programar, proyectar o generar OT a futuro se fundamenta en la programación realizada con los PM._
-(../assets/
+
 
 ### Multimedia
 
@@ -575,7 +574,8 @@ Para adicionar un documento, imagen o video, se debe dar un doble clic sobre la 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img29.png)
 _**Imagen 33.** Programación - Multimedia_
 
-A continuación se abre el explorador de archivos, seguido de seleccionar el archivo dar un clic en <a class="btn">abrir</a>.
+A continuación se abre el explorador de archivos, seguido de seleccionar el archivo dar un clic en 
+<a class="btn bg-white cl-black">Abrir</a>. 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img30.png)
 _**Imagen 34.** Programas - Multimedia_
@@ -585,8 +585,7 @@ De manera adicional u opcional se puede escribir un nombre en el siguiente campo
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img31.png)
 _**Imagen 35.** Programas - Adjuntar Archivo_
 
-Para finalmente subir el archivo, imagen o video se da clic en el botón 
-<a class="btn bg-white cl-black">Subir Archivo</a>. Automáticamente sale en el sistema un mensaje alerta que indica si el archivo se adjunta exitosamente. 
+Para finalmente subir el archivo, imagen o video se da clic en el botón <a class="btn bg-white cl-black">Subir Archivo</a>.  Automáticamente sale en el sistema un mensaje alerta que indica si el archivo se adjunta exitosamente. 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img32.png)
 _**Imagen 36.** Programas - Nombrar Archivo_
@@ -596,7 +595,7 @@ Los archivos que se van adicionando van quedando guardados uno debajo del otro. 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img33.png)
 _**Imagen 37.** Programas - Vista previa imagen_
 
-Para desasociar un documento, o una imagen o un video, a al PM se da clic al icono de basura <span class="mdi mdi-delete"></span> que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro, finalmente confirmar con el botón <a class="btn bg-gray cl-black">ACEPTAR</a>
+Para desasociar un documento, o una imagen o un video, a al PM se da clic al icono de basura <span class="mdi mdi-delete"></span> que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro, finalmente confirmar con el botón <a class="btn bg-gray cl-black">ACEPTAR</a>.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img34.png)
 _**Imagen 38.** Programas - Desasociar archivo_
@@ -619,7 +618,7 @@ _**Imagen 40.** Programas - Ventana Detalle Modificar FIP_
 
 Cuando se quiera Modificar la Fecha de Inicio de Periodo, se deberán diligenciar los siguientes campos:
 
-**Fecha Inicio de Periodo:** En este control de fecha, se escoge la nueva fecha a modificar. Una vez realizada esta acción se debe presionar el botón <a class="btn gray">modificar fip</a> para que el cambio tenga efecto.  Luego de presionar el botón el sistema es sale un mensaje de confirmación y el cambio de la FIP se verifica en la pestaña de **“Criterio de Programación”**.
+**Fecha Inicio de Periodo:** En este control de fecha, se escoge la nueva fecha a modificar. Una vez realizada esta acción se debe presionar el botón <a class="btn gray">Modificar  FIP</a> para que el cambio tenga efecto.  Luego de presionar el botón el sistema es sale un mensaje de confirmación y el cambio de la FIP se verifica en la pestaña de **“Criterio de Programación”**.
 
 Se debe resaltar que la FIP es una fecha del pasado, y es partir de ella que se calcula el momento de generación de la Órden de Trabajo, cuando el Criterio de Programación se basa en alguna Frecuencia.
 
@@ -658,9 +657,9 @@ En la gráfica anterior, Proyectar, se aprecian sus componentes y sus   respecti
 
 **Procedimiento para efectuar Proyección de PM:**
 
-Digitar la fecha **“Desde”**. **AM** sugiere el primer día del año en curso, luego, digitar la fecha ** “Hasta”**. **AM** sugiere el último día del año en curso.
+Digitar la fecha **“Desde”**. **AM** sugiere el primer día del año en curso, luego, digitar la fecha **“Hasta”**. **AM** sugiere el último día del año en curso.
 
-Para proyectar de manera opcional con variaciones en los porcentajes respectivos del Presupuesto se debe seleccionar la siguiente opción: <a class="btn white"><span class="mdi mdi-checkbox-blank-outline">Asignar variación porcentual a los costos</span></a>. Estos porcentajes  corresponden  a  los  valores  en  que desee incrementen los costos del presupuesto, para cada uno de los diferentes rubros de:
+Para proyectar de manera opcional con variaciones en los porcentajes respectivos del Presupuesto se debe seleccionar la siguiente opción: <a class="btn cl-gray"><span class="mdi mdi-checkbox-blank-outline"> Asignar variación porcentual a los costos </span></a>. Estos porcentajes  corresponden  a  los  valores  en  que desee incrementen los costos del presupuesto, para cada uno de los diferentes rubros de:
 
 **Mano de Obra Interna:** Definir el porcentaje que se crea va a incrementar la mano de  obra para el período proyectado en cuestión.
 
@@ -668,14 +667,15 @@ Para proyectar de manera opcional con variaciones en los porcentajes respectivos
 
 **Materiales y Repuestos:** Definir el porcentaje que se crea va a incrementar la mano de obra para el período proyectado en cuestión.
 
-**Otros Conceptos:(../assets/ incrementar la mano de obra para el período proyectado en cuestión. 
+**Otros Conceptos:** Definir el porcentaje que se crea va a incrementar en los gastos indirectos para el período proyectado en cuestión.
+
 
 Luego de haber definido el rango, hacer clic en el botón <a class="btn white">PROYECTAR</a> , a continuación aparece un mensaje alerta para confirmar si se desea proyectar, luego se debe dar clic en <a class="btn bg-gray cl-black">ACEPTAR</a>:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img39.png)
 _**Imagen 43.** Programas - Mensaje Alerta_
 
-**AM** busca en todos los  Programas de Mantenimiento, cuáles deben  proyectar órdenes de trabajo en el rango de fechas estipulado. Durante el  proceso, puede visualizarse una barra horizontal que va avanzando a medida que se va analizando y el estado de avance de la proyección, en la parte superior derecha, y al finalizar dicho proceso, el sistema muestra el resultado de la proyección de los PMs proyectados del total de PMs registrados en la base de datos. El proceso también se puede cancelar haciendo clic en el botón <a class="btn gray">cancelar</a> en el cual sistema detiene el proceso sin ningún tipo de perjuicio, es decir, a los datos no son afectados en absoluto.
+**AM** busca en todos los  Programas de Mantenimiento, cuáles deben  proyectar órdenes de trabajo en el rango de fechas estipulado. Durante el  proceso, puede visualizarse una barra horizontal que va avanzando a medida que se va analizando y el estado de avance de la proyección, en la parte superior derecha, y al finalizar dicho proceso, el sistema muestra el resultado de la proyección de los PMs proyectados del total de PMs registrados en la base de datos. El proceso también se puede cancelar haciendo clic en el botón <a class="btn bg-gray cl-black">CANCELAR</a>: en el cual sistema detiene el proceso sin ningún tipo de perjuicio, es decir, a los datos no son afectados en absoluto.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img40.png)
 _**Imagen 44.** Programas - Análisis Programas_
@@ -735,7 +735,7 @@ Se muestran los reportes con los resultados proyectados de algunos, de la siguie
 - Cronograma De Mantenimiento
 - Actividades Por Mes y Día (Serie, Marca y Modelo)
 
-Los anteriores reportes deben ser seleccionados para **Todos los registros**, primero se debe seleccionar una de las opciones anteriormente mencionadas y luego de estar sombreado en verde se debe clic en el botón <a class="btn white">imprimir</a> para ver el reporte en formato PDF y en la opción <a class="btn white">exportar</a> para llevar este diseño a excel.
+Los anteriores reportes deben ser seleccionados para **Todos los registros**, primero se debe seleccionar una de las opciones anteriormente mencionadas y luego de estar sombreado en verde se debe clic en el botón <a class="btn bg-gray cl-black">IMPRIMIR</a>: para ver el reporte en formato PDF y en la opción <a class="btn bg-gray cl-black">EXPORTAR</a>: para llevar este diseño a excel.
 
 
 >**Nota:** Si al imprimir alguno de estos reportes, el usuario nota que alguna OT no debió ser proyectada, debe dirigirse al respectivo programa de mantenimiento y revisar sus criterios para volver a proyectar de nuevo los PM.
@@ -748,7 +748,7 @@ A esta opción se llega al sobreponer el cursor del mouse sobre el módulo de Pr
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img44.png)
 _**Imagen 48.** Programas - Ir a Modificar Masivamente_
 
-Esta transacción permite cambiar masivamente el campos del Programa, Criterio, Ingresar Presupuesto, Eliminar Presupuesto, Modificar Presupuesto, Desactivar Programas y Adjuntar Documentos, de los Programas previamente seleccionados o subgrupos, que se encuentran en el Visor. Para ello se debe dar clic al botón  <a class="btn white">Modificación masiva</a> ubicado al lado superior izquierdo de la ventana:
+Esta transacción permite cambiar masivamente el campos del Programa, Criterio, Ingresar Presupuesto, Eliminar Presupuesto, Modificar Presupuesto, Desactivar Programas y Adjuntar Documentos, de los Programas previamente seleccionados o subgrupos, que se encuentran en el Visor. Para ello se debe dar clic al botón  <a class="btn white">Modificar Masivamente</a> ubicado al lado superior izquierdo de la ventana:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img45.png)
 _**Imagen 49.** Programas - Modificar Masivamente_
