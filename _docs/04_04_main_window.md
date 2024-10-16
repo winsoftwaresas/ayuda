@@ -497,7 +497,7 @@ _**Imagen 48.** Almacén - Ver Repuesto asociado a Activos_
 
 >**Nota:** Si se eligen dos o más Repuestos, el sistema mostrará un mensaje indicando que solo se debe seleccionar un solo Repuesto.
 
-Si el usuario desea **Desasociar** un Repuesto a uno o varios Activos, se deben elegir primero el Repuesto a través de los check box <a class="btn black"><span class="mdi mdi-checkbox-blank-outline"></a>, a continuación se ilustra un ejemplo:
+Si el usuario desea **Desasociar** un Repuesto a uno o varios Activos, se deben elegir primero el Repuesto a través de los check box  <a class="btn cl-black "><span class="mdi mdi-checkbox-blank-outline"></span></a>. Se ilustra un ejemplo:
 
 ![Procesar imagen](../../assets/images/cap04/chp04_img29.png)
 _**Imagen 49.** Almacén - Seleccionar Repuesto asociado a Activos_
