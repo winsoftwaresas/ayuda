@@ -326,4 +326,5 @@ almacén :
 <a class="fab cl-gray box-shadow"><span class="iconify icon cl-black bg-white" data-icon="mdi-delete"></span></a>
 
 
-<a class="btn bg-gray cl-black">ACEPTAR</a>
+
+<a class="btn bg-white cl-black">Subir Archivo</a>. 
