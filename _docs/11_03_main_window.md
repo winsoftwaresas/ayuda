@@ -98,7 +98,7 @@ El Sistema por defecto sugiere el primer Tipo de Trabajo definido.
 
 **Tipo Mtto:** El sistema **AM** predefine siete Tipos de Mantenimiento (aunque pueden personalizarse y crearse adicionales) para los PM: Preventivo, Predictivo, Inspección, Metrología, Lubricación, Otro-Mantto y Otro. Este campo indica el Tipo  de Mantenimiento a realizar en la Orden de Trabajo. Toda OT debe poseer uno. Si en el PM se va a registrar un trabajo que no corresponde a una labor de  mantenimiento,  en este campo  se  elige  **“Otro”**  y  a  continuación,  en  el  tipo  de   **“Actividad”**  se  especifica detalladamente  el tipo de labor.
 
-**Tipo  de   Actividad:** Aquí se establece el Tipo de Actividad a realizar en la OT.  La Actividad de Mantenimiento para una OT Manual, son definidos en la tabla **“Tipos de Actividad”** en el módulo de **“Infraestructura”**.  Este campo trabaja en coordinación con  el anterior (Tipo de Mantenimiento).  Si en el campo anterior se ha hecho la selección de un valor diferente de **“Otro”**, en el tipo de Actividad se debe seleccionar el valor ** “MN:** Mantto”, lo que indica que se trata de una actividad que constituye mantenimiento.  Si en el campo anterior se  ha  seleccionado el valor  **“Otro”**, en  el   campo Tipo de  Actividad se  debe seleccionar un valor que defina consistentemente  la labor a ejecutar.
+**Tipo  de   Actividad:** Aquí se establece el Tipo de Actividad a realizar en la OT.  La Actividad de Mantenimiento para una OT Manual, son definidos en la tabla **“Tipos de Actividad”** en el módulo de **“Infraestructura”**.  Este campo trabaja en coordinación con  el anterior (Tipo de Mantenimiento).  Si en el campo anterior se ha hecho la selección de un valor diferente de **“Otro”**, en el tipo de Actividad se debe seleccionar el valor **“MN:** Mantto”, lo que indica que se trata de una actividad que constituye mantenimiento.  Si en el campo anterior se  ha  seleccionado el valor  **“Otro”**, en  el   campo Tipo de  Actividad se  debe seleccionar un valor que defina consistentemente  la labor a ejecutar.
 
 Así, todo PM se discrimina en cuanto a su labor, con tres agrupadores distintos: El Tipo de Trabajo, El Tipo de Mantenimiento y el Tipo de Actividad. Por ejemplo: Puede existir un PM cuyos  Tipos de Trabajo  son:  Mecánico  y Eléctrico  (es  decir, se  realizan  labores mecánicas y eléctricas), su Tipo de Mantenimiento es Predictivo (debido a un análisis de variables  predictivas  del  Activo)  y  su  Tipo  de  Actividad  puede ser  AC-Revisión/Inspección', donde entonces la Tarea de Mantenimiento a ejecutarse  tiene que ver, entre otras cosas, con mediciones o captura de variables sobre las características controlables, mecánicas y eléctricas del Activo.
 
@@ -389,19 +389,58 @@ Para eliminar un registro de la tabla de Otros Conceptos, se ubica el registro a
 _**Imagen 23.** Programas - Eliminar OC_
 
 
-### Criterio de Programación
 
-Es la función que (../assets/ual, automáticamente un PM, genera una Órden de Trabajo de mantenimiento Preventivo, Predictivo, Lubricación, Inspección, Metrología, Otro-Mantto u Otro. Ello se realiza sobre la pestaña que se muestra a continuación.
+### Acciones Técnicas 
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img23_01.png)
+_**Imagen 24.** Programas - Ir a Listado de Acciones Técnicas_
+
+Esta opción conduce a la tabla de Acciones Técnicas en una nueva pestaña del PM. Esta tabla está ligada a la Infraestructura, creada con su mismo nombre, que contiene un listado de Acciones Técnicas frecuentes en un área de Mantenimiento. Con la información contenida allí, se pretende describir, breve pero concretamente, la actividad general que se realiza en la OT generada desde un PM. Las Acciones Técnicas en un PM se pueden definir, después de haber creado el PM y luego seleccionado en la Ventana Detalle en la pestaña **Información General** , la opción <a class="btn cl-gray bg-white btn-rounded"><span class="mdi mdi-circle cl-blue pr-1"></span><span class="pr-1">Listado de Acciones Técnicas</span></a>continuación se muestra la porción Acciones Técnicas de un PM:
+
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img23_02.png)
+_**Imagen 25.** Programas - Acciones Técnicas_
+
+En la pestaña de Acciones Técnicas de la Ventana Detalle del PM aparece un nuevo recuadro en el que irán apareciendo las que se vayan adicionando a través del botón <a class="btn cl-blue bg-gray px-6"> Adicionar Acción Técnica </a>.
+
+A continuación se describen los campos que componen esta ventana de información adicional:
+
+**Que Hacer:** Aparece con los campos bloqueados para que el usuario visualice la información básica del PM a la cual se le están asociando las Acciones Técnicas.
+
+**Nro. Ordinal:** Es el ordinal asignado a cada Acción Técnica según el orden en el que se vayan adicionando.
+
+**Acción Técnica:** En este campo se muestran las Acciones Técnicas definidas en el PM.
+
+Al accionar el botón <a class="btn cl-blue bg-gray px-6"> Adicionar Acción Técnica </a> se habilita el conjunto de Acciones definidas por mantenimiento desde la tabla de infraestructura correspondiente.
+
+Las Acciones Técnicas se seleccionan de la lista desplegable y se adicionan con el botón <span class="mdi mdi-plus-circle icon bg-gray cl-blue "></span>:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img23_03.png)
+_**Imagen 26.** Programas - Adicionar Acciones Técnicas_
+
+Es posible actualizar una Acción Técnicaa una vez se encuentre en el listado haciendo clic sobre ella:
+
+![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img23_04.png)
+_**Imagen 27.** Programas - Actualizar Acciones Técnicas_
+
+
+>**Nota:** Para eliminar o desasociar una Acción de un PM, se debe seleccionar la acción y hacer un clic sobre el icono <a class="fab cl-gray box-shadow"><span class="iconify icon cl-black bg-white" data-icon="mdi-delete"></span></a>. Estos cambios quedan automáticamente guardados en el PM y trasladados en la OT automática que se genere. 
+
+
+### Criterio de Programación
+ 
+Es la función que hace que automáticamente un PM, genere una Órden de Trabajo de mantenimiento Preventivo, Predictivo, Lubricación, Inspección, Metrología, Otro-Mantto u Otro. Ello se realiza sobre la pestaña que se muestra a continuación.
 
 **Son tres grupos:** por Frecuencia, por Semanas del Año y por  Contador, que pueden trabajar en forma  excluyente, aunque  se posibilita alguna combinación entre ellos, para criterios complejos. Entonces por ejemplo, el primero y tercero, pueden ser definidos simultáneamente, para lograr el efecto de generar una OT cuando cualquiera de los dos se cumpla.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img24.png)
-_**Imagen 24.** Programas - Criterios de Programación_
+_**Imagen 28.** Programas - Criterios de Programación_
 
 #### Frecuencia
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img25.png)
-_**Imagen 25.** Programas - Criterio de Programación Frecuencia_
+_**Imagen 29.** Programas - Criterio de Programación Frecuencia_
 
 Esta opción se selecciona cuando se trata de un PM a ser definido para un Activo que trabaja normalmente bajo una función uniforme en el tiempo. La frecuencia se define a través de uno de los siguientes modos: Días, Semanas, Meses. Tales intervalos de tiempo, definidos conjuntamente con el campo Periodicidad, se comienzan a medir a partir de la FIP en cada PM.
 
@@ -424,7 +463,7 @@ Esta opción se selecciona cuando se trata de un PM a ser definido para un Activ
 #### Semanas del Año (SA)
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img26.png)
-_**Imagen 26.** Programas - Semanas del Año_
+_**Imagen 30.** Programas - Semanas del Año_
 
 Es el segundo criterio disponible. Al dar un clic en la opción Criterio por Semanas del Año, aparece la ventana de Semanas del Año, (figura anterior). En ella es posible escoger las semanas en las cuales se debe generar una OT para el PM en cuestión. Un PM puede tener seleccionadas una, algunas o todas las 52 semanas, en cuyo caso se comportaría como un PM que genera Órdenes de Trabajo por semanas del año-
 
@@ -441,7 +480,7 @@ El Criterio SA es excluyente con los demás Criterios de Programación, es decir
 #### Por Contador
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img27.png)
-_**Imagen 27.** Programas - Semanas del Año_
+_**Imagen 31.** Programas - Semanas del Año_
 
 **Contador:** Este campo aplica cuando el Criterio de Programación es por Contador. Al generar un PM que lo requiera, es en este campo donde se establece el valor real o aproximado del contador de la última vez que se realizó la labor que ahora se está programando como rutina. En adelante, el **AM**, en el momento de generar la Órden de Trabajo. Si el Activo tiene definido un contador, se debe dar clic en el botón <a class="btn gray">Adicionar contador</a> luego, desplegar el campo para elegir el contador.
 
@@ -513,7 +552,7 @@ Finalmente se aclara que toda actividad que pretenda programar, proyectar o gene
 ### Multimedia
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img28.png)
-_**Imagen 28.** Programas - Semanas del Año_
+_**Imagen 32.** Programas - Semanas del Año_
 
 En la gráfica anterior, Ventana Multimedia, se aprecian sus componentes y sus respectivos contenidos.
 
@@ -531,36 +570,36 @@ A continuación se describen las carpetas que componen esta ventana; cuando se q
 
 **Videos:** En esta carpeta se relacionan los videos al PM. Ejemplo: Videos en formato wmv, entre otros.
 
-Para adicionar un documento, imagen o video, se debe dar un doble clic sobre la carpeta deseada, y luego seleccionar del ícono de nube <span class="mdi mdi-cloud-upload icon white"></span>, como se muestra a continuación:
+Para adicionar un documento, imagen o video, se debe dar un doble clic sobre la carpeta deseada, y luego seleccionar del ícono <span class="mdi mdi-cloud-upload icon white"></span>, como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img29.png)
-_**Imagen 29.** Programación - Multimedia_
+_**Imagen 33.** Programación - Multimedia_
 
 A continuación se abre el explorador de archivos, seguido de seleccionar el archivo dar un clic en <a class="btn">abrir</a>.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img30.png)
-_**Imagen 30.** Programas - Multimedia_
+_**Imagen 34.** Programas - Multimedia_
 
 De manera adicional u opcional se puede escribir un nombre en el siguiente campo para enfatizar de lo que trata el archivo:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img31.png)
-_**Imagen 31.** Programas - Adjuntar Archivo_
+_**Imagen 35.** Programas - Adjuntar Archivo_
 
 Para finalmente subir el archivo, imagen o video se da clic en el botón 
-<a class="btn white">subir archivo</a>. Automáticamente sale en el sistema un mensaje alerta que indica si el archivo se adjunta exitosamente. 
+<a class="btn bg-white cl-black">Subir Archivo</a>. Automáticamente sale en el sistema un mensaje alerta que indica si el archivo se adjunta exitosamente. 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img32.png)
-_**Imagen 32.** Programas - Nombrar Archivo_
+_**Imagen 36.** Programas - Nombrar Archivo_
 
 Los archivos que se van adicionando van quedando guardados uno debajo del otro. Sólo los formatos de imagen tienen previsualización, solo basta con dar clic en alguno de sus campos, como se muestra a continuación:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img33.png)
-_**Imagen 33.** Programas - Vista previa imagen_
+_**Imagen 37.** Programas - Vista previa imagen_
 
-Para desasociar un documento, o una imagen o un video, a al PM se da clic al icono de basura <span class="mdi mdi-delete"></span> que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro, finalmente confirmar con el botón <a class="btn white">Aceptar</a>.
+Para desasociar un documento, o una imagen o un video, a al PM se da clic al icono de basura <span class="mdi mdi-delete"></span> que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro, finalmente confirmar con el botón <a class="btn bg-gray cl-black">ACEPTAR</a>
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img34.png)
-_**Imagen 34.** Programas - Desasociar archivo_
+_**Imagen 38.** Programas - Desasociar archivo_
 
 Si se desea descargar un archivo adjunto al PM, se debe dar clic en el ícono de nube con direccional hacia abajo <span class="mdi mdi-cloud-download icon white"></span> la nube con flecha hacia abajo que se encuentra al lado derecho del archivo que se quiere descargar.
 
@@ -571,12 +610,12 @@ Si se desea descargar un archivo adjunto al PM, se debe dar clic en el ícono de
 A esta opción se llega al sobreponer el cursor sobre el módulo de Programas y en la parte inferior se muestra un conjunto de transacciones disponibles para el módulo de Programas, y a continuación se da un clic en **“Modificar FIP”**.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img35.png)
-_**Imagen 35.** Programas - Ir a Modificar FIP_
+_**Imagen 39.** Programas - Ir a Modificar FIP_
 
 A través de la ventana de Modificar fecha de inicio de período **(FIP)** se especifica la nueva FIP del PM. Esta ventana inicia sugiriendo en el campo Fecha inicio período la fecha actual del sistema.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img36.png)
-_**Imagen 36.** Programas - Ventana Detalle Modificar FIP_
+_**Imagen 40.** Programas - Ventana Detalle Modificar FIP_
 
 Cuando se quiera Modificar la Fecha de Inicio de Periodo, se deberán diligenciar los siguientes campos:
 
@@ -591,7 +630,7 @@ Si el Criterio de Programación no depende de una frecuencia, esta fecha FIP det
 A esta opción se llega al sobreponer el cursor sobre el módulo de Programas y en la parte inferior se muestra un conjunto de transacciones disponibles para el módulo de Programas, y a continuación se da un clic en **“Proyectar”**.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img37.png)
-_**Imagen 37.** Programas - Ir a Proyectar_
+_**Imagen 41.** Programas - Ir a Proyectar_
 
 Cuando se posee la herramienta **AM** es posible hacer la Programación de  las Actividades de Mantenimiento para un período futuro, tanto para el corto como  para el largo plazo, a través de las funciones de Generación y de Proyección. 
 
@@ -613,7 +652,7 @@ La diferencia entre  Proyectar y  Analizar la podemos apreciar en  el  siguiente
 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img38.png)
-_**Imagen 38.** Programas - Ventana Detalle Proyectar_
+_**Imagen 42.** Programas - Ventana Detalle Proyectar_
 
 En la gráfica anterior, Proyectar, se aprecian sus componentes y sus   respectivos contenidos.
 
@@ -631,20 +670,20 @@ Para proyectar de manera opcional con variaciones en los porcentajes respectivos
 
 **Otros Conceptos:(../assets/ incrementar la mano de obra para el período proyectado en cuestión. 
 
-Luego de haber definido el rango, hacer clic en el botón <a class="btn white">Proyectar</a>, a continuación aparece un mensaje alerta para confirmar si se desea proyectar, luego se debe dar clic en <a class="btn white">Aceptar</a>.
+Luego de haber definido el rango, hacer clic en el botón <a class="btn white">PROYECTAR</a> , a continuación aparece un mensaje alerta para confirmar si se desea proyectar, luego se debe dar clic en <a class="btn bg-gray cl-black">ACEPTAR</a>:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img39.png)
-_**Imagen 39.** Pr(../assets/
+_**Imagen 43.** Programas - Mensaje Alerta_
 
 **AM** busca en todos los  Programas de Mantenimiento, cuáles deben  proyectar órdenes de trabajo en el rango de fechas estipulado. Durante el  proceso, puede visualizarse una barra horizontal que va avanzando a medida que se va analizando y el estado de avance de la proyección, en la parte superior derecha, y al finalizar dicho proceso, el sistema muestra el resultado de la proyección de los PMs proyectados del total de PMs registrados en la base de datos. El proceso también se puede cancelar haciendo clic en el botón <a class="btn gray">cancelar</a> en el cual sistema detiene el proceso sin ningún tipo de perjuicio, es decir, a los datos no son afectados en absoluto.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img40.png)
-_**Imagen 40.** Pr(../assets/
+_**Imagen 44.** Programas - Análisis Programas_
 
 En el resultado de la proyección, se evidencia:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img41.png)
-_**Imagen 41.** Programas - Resultados Proyección_
+_**Imagen 45.** Programas - Resultados Proyección_
 
 **Total de Programas seleccionados:** Muestra la relación entre la cantidad de Programas totales o los que están seleccionados en el visor en el módulo sobre la cantidad de Programas totales definidos en el módulo.
 
@@ -656,12 +695,15 @@ _**Imagen 41.** Programas - Resultados Proyección_
 
 **Total de labores presupuestadas para el período:** Muestra la cantidad de órdenes de trabajo proyectadas para el rango de fechas especificado.
 
-**Ver Diagrama**(../assets/
+Seguido, se presentan dos botones inferiores: 
 
-A continuación, se  procede  a visualizar a través de un Diagrama de Gantt, en el cual se muestra al lado izquierdo la información del Activo con su respectivo PM, mientras que al lado derecho se muestra por colores el cronograma con las fechas proyectadas de las actividades. Para esto, se procede a dar clic al botón <a class="btn gray">Ver Diagrama</a> y se muestra la siguiente gráfica:
+
+**Ver Diagrama Gannt**
+
+El análisis se presenta también por medio de una gráfica o Diagrama de Gantt, en el cual se muestra al lado izquierdo la información del Activo con su respectivo PM, mientras que al lado derecho se muestra por colores el cronograma con las fechas proyectadas de las actividades. Se puede varias la escala y el tamaño del gráfico. Para visualizar la programación se debe accionar el botón <a class="btn gray">Ver Diagrama</a>:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img42.png)
-_**Imagen 42.** Programas - Proyección Diagrama Gantt_
+_**Imagen 46.** Programas - Proyección Diagrama Gantt_
 
 El significado de los colores se visualiza al sobreponer el mouse en el icono que se encuentra al lado superior derecho <span class="mdi mdi-message-alert"></span> y su correspondencia es:
 
@@ -675,10 +717,10 @@ Al desplegar la lista del campo **Escala**, permite observar el cronograma por d
 
 **Ver Reportes**
 
-A continuación, se  procede a verificar si las OT detectadas por  el proceso  de proyección, sí son las órdenes que se esperan para el rango de fechas establecido.  Para esto, se procede a dar clic al botón <a class="btn gray">Ver reportes</a> como se ve en la siguiente imagen:
+A continuación, se  procede a verificar si las OT detectadas por  el proceso  de proyección, sí son las órdenes que se esperan para el rango de fechas establecido.  Para esto, se procede a dar clic al botón <a class="btn gray">Ver Reportes</a> como se ve en la siguiente imagen:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img43.png)
-_**Imagen 43.** Programas - Proyección Diagrama Gantt_
+_**Imagen 47.** Programas - Proyección Diagrama Gantt_
 
 Se muestran los reportes con los resultados proyectados de algunos, de la siguiente lista:
 
@@ -704,18 +746,18 @@ Los anteriores reportes deben ser seleccionados para **Todos los registros**, pr
 A esta opción se llega al sobreponer el cursor del mouse sobre el módulo de Programas y en la parte inferior derecho se despliega el conjunto de transacciones disponibles para el módulo de Programas, luego se elige la transacción **“Modificar Masivamente”**.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img44.png)
-_**Imagen 44.** Programas - Ir a Modificar Masivamente_
+_**Imagen 48.** Programas - Ir a Modificar Masivamente_
 
 Esta transacción permite cambiar masivamente el campos del Programa, Criterio, Ingresar Presupuesto, Eliminar Presupuesto, Modificar Presupuesto, Desactivar Programas y Adjuntar Documentos, de los Programas previamente seleccionados o subgrupos, que se encuentran en el Visor. Para ello se debe dar clic al botón  <a class="btn white">Modificación masiva</a> ubicado al lado superior izquierdo de la ventana:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img45.png)
-_**Imagen 44.** Programas - Modificar Masivamente_
+_**Imagen 49.** Programas - Modificar Masivamente_
 
 
 A continuación se muestran las opciones disponibles:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img46.png)
-_**Imagen 45.** Programas - Modificación Masiva Opciones_
+_**Imagen 50.** Programas - Modificación Masiva Opciones_
 
 A continuación se describen los campos que componen esta ventana de   información adicional.
 
@@ -726,44 +768,44 @@ A continuación se describen los campos que componen esta ventana de   informaci
 **Modificar Centro de Costo:** Se Modifica Masivamente el Centro de Costo, del o los PM que están previamente seleccionados en el visor.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img47.png)
-_**Imagen 46.** MM - Centro de Costo_
+_**Imagen 51.** MM - Centro de Costo_
 
 **Modificar Centro Responsable:** Se Modifica Masivamente el Centro Responsable de los PM que están previamente seleccionados en el visor.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img48.png)
-_**Imagen 46.** MM - Centro Responsable_
+_**Imagen 52.** MM - Centro Responsable_
 
 
 **Modificar Comentarios:** Se Modifica Masivamente los Comentarios de los PM que se están previamente seleccionados en el visor.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img49.png)
-_**Imagen 47.** MM - Comentarios_
+_**Imagen 53.** MM - Comentarios_
 
 
 **Modificar Contrato:** Se Modifica Masivamente el contrato previamente definido a los PM que están previamente seleccionados en el visor.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img50.png)
-_**Imagen 48.** MM - Contrato_
+_**Imagen 54.** MM - Contrato_
 
 **Modificar Fecha de Inicio de Período (FIP):** Se Modifica Masivamente la FIP, del o los PM que están previamente seleccionados en el visor.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img51.png)
-_**Imagen 49.** MM - FIP_
+_**Imagen 55.** MM - FIP_
 
 **Modificar Prioridad:** Se Modifica Masivamente la Prioridad de los PM que están previamente seleccionados en el visor.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img52.png)
-_**Imagen 50.** MM - Prioridad_
+_**Imagen 56.** MM - Prioridad_
 
 **Modificar Responsable:** Se Modifica Masivamente el Responsable, del o los PM que están previamente seleccionados en el visor.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img53.png)
-_**Imagen 51.** MM - Responsable_
+_**Imagen 57.** MM - Responsable_
 
 **Modificar Solicitante:** Se Modifica Masivamente el Solicitante, del o los PM que están previamente seleccionados en el visor. Solo se pueden escoger de los Terceros RI, activos en la infraestructura.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img54.png)
-_**Imagen 52.** MM - Solicitante_
+_**Imagen 58.** MM - Solicitante_
 
 
 #### Modificar Criterio
@@ -771,65 +813,65 @@ _**Imagen 52.** MM - Solicitante_
 **Modificar Criterio por Frecuencia:** Se Modifica Masivamente el criterio por Frecuencia, del o los PM que están previamente seleccionados en el visor.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img55.png)
-_**Imagen 53.** MM - Criterio por Frecuencia_
+_**Imagen 59.** MM - Criterio por Frecuencia_
 
 **Modificar Criterio por Semanas del año:** Se Modifica Masivamente el criterio por Semanas del año, del o los PM que están previamente seleccionados en el visor.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img56.png)
-_**Imagen 54.** MM - Criterio por SA_
+_**Imagen 60.** MM - Criterio por SA_
 
 #### Ingresar Presupuesto
 
 **Ingresar Presupuesto Materiales y Repuestos:** Se Inserta Masivamente el presupuesto de Materiales y Repuestos a los diferentes PM que están previamente seleccionados en el visor. Se Aumenta o Disminuye el valor del Presupuesto de los Materiales y Repuestos a los diferentes PM. El repuesto en este campo se busca a través del ícono de subgrupo <span class="mdi mdi-plus-circle icon white"></span>. 
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img57.png)
-_**Imagen 55.** MM - Materiales y Repuestos_
+_**Imagen 61.** MM - Materiales y Repuestos_
 
 **Ingresar Presupuesto Mano de Obra:** Se Inserta Masivamente el presupuesto de Mano de Obra Interna a los diferentes PM que están previamente seleccionados en el visor. Se Aumenta o Disminuye el valor del Presupuesto de la Mano de Obra Interna a los diferentes registros.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img58.png)
-_**Imagen 56.** MM - Mano de Obra_
+_**Imagen 62.** MM - Mano de Obra_
 
 **Ingresar Presupuesto Otros Conceptos de Costos:** Se inserta Masivamente el presupuesto de Otros Conceptos de Costos a los diferentes PM que están previamente seleccionados en el visor. Se Aumenta o Disminuye el valor del Presupuesto de Otros Conceptos de Costos a los diferentes PM.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img59.png)
-_**Imagen 56.** MM - Otros Conceptos de Costos_
+_**Imagen 63.** MM - Otros Conceptos de Costos_
 
 #### Eliminar Presupuesto
 
 **Materiales y Repuestos:** Se elimina Masivamente el presupuesto de Materiales y Repuestos a los PM previamente seleccionados en el visor.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img60.png)
-_**Imagen 57.** MM - Eliminar Materiales y Repuestos_
+_**Imagen 64.** MM - Eliminar Materiales y Repuestos_
 
 **Eliminar Presupuesto Mano de Obra:** Se elimina Masivamente el presupuesto de Mano de Obra Interna a los  PM que están previamente seleccionados en el visor.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img61.png)
-_**Imagen 58.** MM - Eliminar Presupuesto Mano de Obra_
+_**Imagen 65.** MM - Eliminar Presupuesto Mano de Obra_
 
 
 **Eliminar Presupuesto Otros Conceptos de Costos:** Se Elimina Masivamente el presupuesto de Otros Conceptos de Costos a los diferentes PM(s) que están previamente seleccionados en el visor.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img62.png)
-_**Imagen 59.** MM - Eliminar Otros Conceptos de Costos_
+_**Imagen 66.** MM - Eliminar Otros Conceptos de Costos_
 
 
 **Modificar Presupuesto:** Se Modifica Masivamente el presupuesto, donde se puede aumentar o disminuir en un porcentaje el presupuesto de Mano de Obra Interna y Otros Conceptos, de los PM que están previamente seleccionados en el visor
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img63.png)
-_**Imagen 60.** MM - Modificar Presupuesto_
+_**Imagen 67.** MM - Modificar Presupuesto_
 
 
 **Desactivar Programas:** Se realiza la opción de Desactivar Programas de los PM que están previamente seleccionados en el visor.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img64.png)
-_**Imagen 61.** MM - Desactivar Programas_
+_**Imagen 68.** MM - Desactivar Programas_
 
 **Adjuntar Documentos:** Se Adjunta Documentos en los PM permitiendo la carga de archivos o anexos necesarios para el módulo.
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img65.png)
-_**Imagen 62.** MM - Adjuntar Documentos_
+_**Imagen 69.** MM - Adjuntar Documentos_
 
 
 
->**Nota:** Para efectuar los cambios para el conjunto de Programas previamente seleccionado en el subgrupo se debe dar un clic en el botón <a class="btn blue">modificar <span class="mdi mdi-pencil"></span></a>. El sistema mostrará dos mensajes alerta, uno seguido del otro, con el fin de preguntarle al Usuario si está seguro de hacer la modificación masiva, esta transacción es un permiso especial que se otorga desde el módulo de <a class="btn blue">administración</a> en Permisos Básicos, en la opción **Masificar**.
+>**Nota:** Para efectuar los cambios para el conjunto de Programas previamente seleccionado en el subgrupo se debe dar un clic en el botón <a class="btn blue">MODIFICAR <span class="mdi mdi-pencil"></span></a>. El sistema mostrará dos mensajes alerta, uno seguido del otro, con el fin de preguntarle al Usuario si está seguro de hacer la modificación masiva, esta transacción es un permiso especial que se otorga desde el módulo de <a class="btn blue">Administración</a> en Permisos Básicos, en la opción **Masificar**.

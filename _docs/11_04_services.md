@@ -14,7 +14,7 @@ Esta opción permite exportar los ítems o campos de la ficha técnica de PM, bi
 Para efectuar este proceso, se da clic en Exportar <span class="mdi mdi-download"></span> mostrando las siguientes opciones de exportación:
 
 ![Procesar imagen](../../assets/images/cap06/chp06_img71.png)
-_**Imagen 63.** Programas - Exportar_
+_**Imagen 70.** Programas - Exportar_
 
 En la gráfica anterior, se aprecian sus componentes y sus respectivos contenidos:
 
@@ -29,7 +29,7 @@ Luego de escoger una de las opciones anteriores, en la parte inferior aparece se
 Este comando permite visualizar los reportes relacionados a la programación. Existen los siguientes tipos de reportes básicos disponibles:
 
 ![Procesar imagen](../../assets/images/cap06/chp06_img72.png)
-_**Imagen 64.** Programas - Reportes_
+_**Imagen 71.** Programas - Reportes_
 
 Los anteriores reportes pueden ser seleccionados para una o varios registros a través de las siguientes opciones:
 
@@ -43,8 +43,8 @@ Una vez seleccionada una de las opciones anteriores se procede a elegir uno de l
 
 **Subtítulo:** En este campo es posible escribir un poco menos de una línea de información, bien sea para indicar un tipo documentación del Reporte. Lo que se escriba aquí aparecerá en la línea inferior del título estándar.
 
-Para visualizar los reportes, se selecciona el reporte y luego se da clic al botón <a class="btn white">imprimir</a>.
+Para visualizar los reportes, se selecciona el reporte y luego se da clic al botón <a class="btn bg-gray cl-black">IMPRIMIR</a>.
 
-Para Exportar los reportes, se selecciona el reporte y luego se da clic al botón <a class="btn white">exportar</a>.
+Para Exportar los reportes, se selecciona el reporte y luego se da clic al botón <a class="btn bg-gray cl-black">EXPORTAR</a>.
 
-Para Cerrar la ventana de los Reportes, se da clic en el botón<a class="btn white">cerrar</a>.
+Para Cerrar la ventana de los Reportes, se da clic en el botón <a class="btn bg-gray cl-black">CERRAR</a>.

@@ -316,3 +316,14 @@ almacén :
 
 
 <a class="btn white cl-blue bd-blue"><span class="mdi mdi-chevron-left"> </span></a>
+
+
+<a class="btn cl-gray bg-white btn-rounded"><span class="mdi mdi-circle cl-blue pr-1"></span><span class="pr-1">Listado de Acciones Técnicas</span></a>
+
+<a class="btn cl-blue bg-gray px-6"> Adicionar Acción Técnica </a>
+
+
+<a class="fab cl-gray box-shadow"><span class="iconify icon cl-black bg-white" data-icon="mdi-delete"></span></a>
+
+
+<a class="btn bg-gray cl-black">ACEPTAR</a>
