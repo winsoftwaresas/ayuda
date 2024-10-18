@@ -1,0 +1,55 @@
+<button id="generatePdf" class="uk-button uk-button-primary uk-button-small no-print"><span data-uk-icon="icon: file-pdf" class="uk-icon"></span> PDF</button>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const generatePdfButton = document.getElementById('generatePdf');
+  const doc_version = "Version {{ site.version }}";
+  const company = "{{ site.company }}";
+
+  generatePdfButton.addEventListener('click', function() {
+    const element = document.querySelector('.uk-article');
+    const elementsToHide = document.querySelectorAll('.no-print');
+    
+    elementsToHide.forEach(el => el.classList.add('hide-in-pdf'));
+
+    const options = {
+      margin: [20, 20, 20, 20], // top, left, bottom, right
+      filename: '{{ page.title | slugify }}.pdf',
+      image: { type: 'jpeg', quality: 0.98 },
+      html2canvas: { scale: 2 },
+      jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
+      pagebreak: { mode: ['avoid-all', 'css', 'legacy']}
+    };
+
+    UIkit.notification({message: '<span uk-icon=\'icon: file-pdf\' class=\'uk-text-primary\'></span> Generando PDF...', status: 'primary', pos: 'top-center', timeout: 0});
+
+    // Clonar el elemento para no modificar el original
+    const clonedElement = element.cloneNode(true);
+
+    html2pdf().set(options).from(clonedElement).toPdf().get('pdf').then((pdf) => {
+      const totalPages = pdf.internal.getNumberOfPages();
+
+      for (let i = 1; i <= totalPages; i++) {
+        pdf.setPage(i);
+        pdf.setFontSize(10);
+        pdf.setTextColor(150);
+        pdf.text(`${document.title}`, 22, 12)
+        pdf.text(`${doc_version}`, pdf.internal.pageSize.getWidth() - 37, 12)
+        pdf.line(22, 16, pdf.internal.pageSize.getWidth() - 20 , 16);
+        pdf.line(22,pdf.internal.pageSize.getHeight() - 16, pdf.internal.pageSize.getWidth() - 20 , pdf.internal.pageSize.getHeight() - 16);
+        pdf.text(`${company}`, 22, pdf.internal.pageSize.getHeight() - 10);
+        pdf.text(`${i} / ${totalPages}`, pdf.internal.pageSize.getWidth() - 26, pdf.internal.pageSize.getHeight() - 10);
+      }
+    }).save().then(() => {
+      UIkit.notification.closeAll();
+      UIkit.notification({message: '<span uk-icon=\'icon: check\' class=\'uk-text-success\'></span> PDF generado con éxito!', status: 'success', pos: 'top-center', timeout: 3000});
+      elementsToHide.forEach(el => el.classList.remove('hide-in-pdf'));
+    }).catch(err => {
+      console.error('Error al generar PDF:', err);
+      UIkit.notification.closeAll();
+      UIkit.notification({message: '<span uk-icon=\'icon: warning\' class=\'uk-text-danger\'></span> Error al generar PDF. Por favor, intente de nuevo.', status: 'danger', pos: 'top-center', timeout: 3000});
+      elementsToHide.forEach(el => el.classList.remove('hide-in-pdf'));
+    });
+  });
+});
+</script>

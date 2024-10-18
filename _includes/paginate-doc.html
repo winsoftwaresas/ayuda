@@ -3,7 +3,7 @@
 {% for document in docs %}
   {% assign document_url = document | prepend:"/docs/" | append:"/" %}
   {% if document_url == page.url %}
-    <div class="uk-margin-large-top paginate-post">
+    <div class="uk-margin-large-top paginate-post no-print">
         <div class="uk-child-width-expand@s uk-grid-large uk-pagi" data-uk-grid>
             <div>
                 {% if forloop.first %}
