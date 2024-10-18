@@ -850,14 +850,14 @@ Valor del CO en la Generación: Este campo permanece bloqueado y muestra el valo
 
 **FF Lectura CO en la Ejecución:** En este campo se define la fecha de lectura del Contador del Activo al momento de ejecutarse o al momento del cierre de la OT.
 
-En el Seguimiento o Cierre, además de los botones <a class="btn blue">Actualizar </a> seguido, se visualiza el botón <a class="btn blue">bitácora <a class="btn blue">Bitácora</a>, el cual muestra en una nueva ventana el historial de cambios de la OT en: Estado, Prioridad y Responsable. Se muestra esta información solo si se han presentado modificaciones, de lo contrario los campos permanecen en blanco.
+En el Seguimiento o Cierre, además de los botones <a class="btn blue">ACTUALIZAR</a> seguido, se visualiza el botón <a class="btn blue">BITÁCORA</a>, el cual muestra en una nueva ventana el historial de cambios de la OT en: Estado, Prioridad y Responsable. Se muestra esta información solo si se han presentado modificaciones, de lo contrario los campos permanecen en blanco.
 
 ![Procesar imagen](../../assets/images/cap09/chp09_img69.png)
 ***Imagen 109.** Órdenes - Detalle Bitácora en Seguimiento y Cierre*
 
->**Nota:** Nótese que para hacer efectivo el cierre o el cambio del estado de la OT se encuentra el botón <a class="btn blue">Actualizar </a> como se indica en las dos imágenes anteriores, este botón sólo cumple la función de actualizar únicamente la pestaña de seguimiento y cierre (tiempos y estado) ya que el botón de <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a> se inactiva una vez que se encuentre en esta pestaña, es por esto que si se desean guardar otros cambios se debe estar en las otras pestañas (ficha técnica, gasto real, multimedia).
+>**Nota:** Nótese que para hacer efectivo el cierre o el cambio del estado de la OT se encuentra el botón <a class="btn blue">ACTUALIZAR </a> como se indica en las dos imágenes anteriores, este botón sólo cumple la función de actualizar únicamente la pestaña de seguimiento y cierre (tiempos y estado) ya que el botón de <a class="btn blue">ACTUALIZAR <span class="mdi mdi-pencil"></span></a> se inactiva una vez que se encuentre en esta pestaña, es por esto que si se desean guardar otros cambios se debe estar en las otras pestañas (ficha técnica, gasto real, multimedia).
 
-Una vez se actualice el sistema responde con un mensaje de advertencia, para continuar dar un clic en <a class="btn white">aceptar</a>.
+Una vez se actualice el sistema responde con un mensaje de advertencia, para continuar dar un clic en <a class="btn bg-gray cl-black">ACEPTAR</a>
 
 ![Procesar imagen](../../assets/images/cap09/chp09_img70.png)
 ***Imagen 110.** Órdenes - Mensaje Alerta Seguimiento y Cierre*
