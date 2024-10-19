@@ -346,3 +346,13 @@ mdi-folder-multiple-image
 
 
 <a class="btn cl-gray"><span class="mdi mdi-checkbox-blank-outline"> Acciones Técnicas </span></a>
+
+
+<a class="btn cl-gray"><span class="mdi mdi-checkbox-blank-outline"> Exportar Todos Los Campos </span></a>
+
+<a class="btn bg-gray cl-black">CANCELAR</a>
+
+<a class="btn bg-gray cl-black">IMPRIMIR</a>
+
+<a class="btn bg-gray cl-black">EXPORTAR</a>
+
