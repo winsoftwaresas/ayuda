@@ -9,7 +9,7 @@ date: 2022-02-10T14:45:29.041Z
 ---
 
 
-# Transacciones
+
 
 ## Analizar / Generar
 
