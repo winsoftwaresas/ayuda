@@ -8,9 +8,6 @@ order: 09_06
 date: 2022-02-10T14:45:29.041Z
 ---
 
-
-
-
 ## Analizar / Generar
 
 A esta opción se llega sobreponiendo el cursor sobre el módulo de OT donde se despliega un submenú de transacciones disponibles y luego se da clic en Analizar/Generar”.
