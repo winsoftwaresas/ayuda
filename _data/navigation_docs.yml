@@ -53,9 +53,11 @@
   docs:
   - 09_01_introduction
   - 09_02_basic_concepts
-  - 09_03_analysis_and_generation
+  - 09_03_basic_concepts_analysis_and_generation
   - 09_04_main_window
-  - 09_05_export
+  - 09_05_partial_views
+  - 09_06_transactions
+  - 09_07_export_and_log_file
 
 - title: Historia de mantenimiento
   docs:
