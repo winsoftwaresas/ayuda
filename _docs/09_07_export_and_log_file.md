@@ -1,6 +1,6 @@
 ---
 title: Exportar y Reportes
-subtitle: Se explica cómo sacar exportar el visor y sacar reportes.
+subtitle: Se explica cómo exportar el visor y sacar reportes.
 tags:
   - setup
 author: win
