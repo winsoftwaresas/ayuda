@@ -272,7 +272,7 @@ En el Seguimiento o Cierre, además de los botones <a class="btn blue">ACTUALIZA
 ![Procesar imagen](../../assets/images/cap09/chp09_img54.png)
 ***Imagen 146.** Órdenes - Detalle Bitácora Seguimiento y Cierre Masivo*
 
-Para continuar con la actualización de una OT o un subgrupo de OT se debe dar clic en el botón de la parte superior <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a>. El sistema muestra un mensaje alerta, para continuar dar clic en <a class="btn white">Aceptar</a>:
+Para continuar con la actualización de una OT o un subgrupo de OT se debe dar clic en el botón de la parte superior <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a>. El sistema muestra un mensaje alerta, para continuar dar clic en <a class="btn bg-gray cl-black">ACEPTAR</a>.
 
 ![Procesar imagen](../../assets/images/cap09/chp09_img71.png)
 ***Imagen 147.** Órdenes - Mensaje Alerta Seguimiento y Cierre Masivo*
@@ -342,6 +342,11 @@ También un indicador de la existencia de un subgrupo, es el ícono de triángul
 Para personalizar la vista de los gráficos o tener una información específica se recomienda hacer subgrupos a través del ícono de triángulo invertido. Asimismo los DashBoards permiten ocultar información con solo dar un clic sobre sus rectángulos de colores como se muestra en la siguiente imagen:
 
 ![Procesar imagen](../../assets/images/cap09/chp09_img63.png)
+
+
+
+
+
 ***Imagen 157.** Órdenes - Subgrupos Dashboard*
 
 Sí se desea restablecer la información, se debe dar clic al ícono <span class="mdi mdi-autorenew"></span>. En cambio, si se desea exportar el gráfico en un formato de imagen, es posible dando clic al ícono <span class="mdi mdi-download"></span>. 
