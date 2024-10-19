@@ -1,11 +1,11 @@
 ---
-title: Análisis y Generación de Órdenes de Trabajo Programadas
-subtitle: Aquí se encuentra la explicacion requerida sobre el uso y proceso de la generación de Órdenes en el programa.
+title: Conceptos Básicos Análisis y Generación de Órdenes de Trabajo Programadas
+subtitle: Aquí se encuentralas bases para analiar/generar órdenes automáticas.
 tags: [setup]
 author: win
 order: 09_03
 ---
-Análisis/Generación automática de OT desde PMs, es una facilidad de **AM**, que se encuentra disponible en el módulo de OT y que debería ser utilizada sobre una base periódica. El proceso consiste en que **AM** revisa cada programa, definido para cada Activo/Equipo y analiza si la condición programada en cada uno, se va a cumplir, para el equipo respectivo, durante el próximo período que se va a estudiar o proyectar.
+Análisis/Generación automática de OTs desde PMs, es una facilidad de **AM**, que se encuentra disponible en el módulo de OT y que debería ser utilizada sobre una base periódica. El proceso consiste en que **AM** revisa cada programa, definido para cada Activo/Equipo y analiza si la condición programada en cada uno, se va a cumplir, para el equipo respectivo, durante el próximo período que se va a estudiar o proyectar.
 
 Se trata de un proceso que es ejecutado periódicamente por la persona que hace las veces de Programador o Planeador de **AM** en la Organización. Una buena práctica consiste en generar las **OT** programadas, de todo un mes, el día 15 del mes anterior.
 
@@ -18,7 +18,7 @@ _**Imagen 66.** Órdenes- Analizar/Generar_
 
 El periodo objeto de la Programación se define mediante las Fechas Desde y Hasta del Rango de fechas a analizar. Este proceso de generación se puede ejecutar con la anticipación que sea requerida.
 
-Por ejemplo, es posible generar las OT para una semana, con una semana o con 10 días de anticipación; o es posible generar las OT para todo un mes, con un mes o con 15 días de anticipación; o es posible generar las OT para un mes con tres meses de anticipación, etc. Otras organizaciones, por su cultura técnica o por las duraciones de proceso de sus lotes o de sus **“batches”** bien podrían generar las OT de toda una semana, con una semana ó con diez días de anticipación.
+Por ejemplo, es posible generar las OTs para una semana, con una semana o con 10 días de anticipación; o es posible generar las OT para todo un mes, con un mes o con 15 días de anticipación; o es posible generar las OTs para un mes con tres meses de anticipación, etc. Otras organizaciones, por su cultura técnica o por las duraciones de proceso de sus lotes o de sus **“batches”** bien podrían generar las OT de toda una semana, con una semana ó con diez días de anticipación.
 
 Se recomienda que se programe al menos una semana, con una semana de anticipación. La anticipación que se recomienda tiene tres objetivos:
 
@@ -49,3 +49,6 @@ Cuando finaliza la ejecución de la OT se deben consignar en **AM** todos los po
 Como puede observarse, durante el ciclo de vida de la OT, ésta  pasa por  distintos Estados: Al crearse, está **“En Ejecución”**, también mientras se ejecuta; en algún momento puede quedar en Estado **“Pendiente”**; al finalizar, dependiendo de si se ejecutó o no, puede quedar en un Estado de **“Cerrada”** o **“Cancelada”**, respectivamente.
 
 Al ser enviadas a Historia, las Órdenes de Trabajo allí conforman un centro de información y  consulta, para la generación de Índices,  del Balance de Gestión, de Estadísticas, Paretos y una gran variedad de reportes. De esta manera, **AM** brinda las bases para realizar una Gestión Integral del Mantenimiento de la organización.
+
+
+>**Nota:** Para mayor información sobre esta transacción de analizar/generar Órdenes de Trabajo dirigirse a la sección _**Transacciones**_ de este capítulo.

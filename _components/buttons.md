@@ -149,7 +149,7 @@ published: true
 
 <a class="btn cl-gray"><span class="mdi mdi-checkbox-blank-outline"> Filtrar por CR </span></a>
 
-<a class="btn cl-gray"><span class="mdi mdi-checkbox-blank-outline"> Inlcuido en TE (RI) </span></a>
+<a class="btn cl-gray"><span class="mdi mdi-checkbox-blank-outline"> Incluido en TE (RI) </span></a>
 
 <a class="fab cl-white bg-blue box-shadow"><span class="iconify icon cl-white bg-blue" data-icon="mdi-dots-vertical"></span></a>
 
@@ -328,3 +328,21 @@ almacén :
 
 
 <a class="btn bg-white cl-black">Subir Archivo</a>. 
+
+
+mdi-folder-multiple-image
+
+<span class="mdi mdi-folder-multiple-image"></span>
+
+
+
+
+<a class="btn blue">INSERTAR <span class="mdi mdi-plus-circle-outline"></span></a>
+
+
+<a class="btn cl-gray"><span class="mdi mdi-checkbox-blank-outline"> Tiempo Improductivo </span></a>
+
+<a class="btn cl-gray"><span class="mdi mdi-checkbox-blank-outline"> Control Presupuestal </span></a>
+
+
+<a class="btn cl-gray"><span class="mdi mdi-checkbox-blank-outline"> Acciones Técnicas </span></a>
