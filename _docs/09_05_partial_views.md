@@ -1,6 +1,6 @@
 ---
 title: Vistas Parciales
-subtitle: Se explican las pestañas o vistas parciales que componen la Ficha  Técnica de una Órden de Trabajo: Presupuesto, Gasto Real, Seguimiento y Cierre, Evaluación del Servicio y Multimedia.
+subtitle: Se explican las pestañas o vistas parciales que componen la Ficha  Técnica de una Órden de Trabajo.
 tags:
   - setup
 author: win

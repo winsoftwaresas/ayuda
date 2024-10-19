@@ -1,6 +1,6 @@
 ---
 title: Transacciones
-subtitle: Se explica como se maneja cada una de las transacciones que tiene el módulo: Analizar/Generar Órdenes de Trabajo, Modificar Masivamente, Seguimiento o Cierre Masivo, Enviar a Historia, Dashboards de OT.
+subtitle: Se explica como se maneja cada una de las transacciones que tiene el módulo.
 tags:
   - setup
 author: win
