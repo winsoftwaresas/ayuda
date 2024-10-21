@@ -13,12 +13,28 @@ document.addEventListener('DOMContentLoaded', function() {
     elementsToHide.forEach(el => el.classList.add('hide-in-pdf'));
 
     const options = {
-      margin: [20, 20, 20, 20], // top, left, bottom, right
+      margin: [20, 20, 20, 20],
       filename: '{{ page.order | slugify }}_{{ page.title | slugify }}.pdf',
       image: { type: 'jpeg', quality: 0.98 },
-      html2canvas: { scale: 2, scrollY: 0, useCORS: true, logging: true },
-      jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
-      pagebreak: { mode: ['avoid-all', 'css', 'legacy']}
+      html2canvas: { 
+        scale: 2, 
+        scrollY: 0, 
+        useCORS: true, 
+        logging: true,
+        windowWidth: 1024, // Ajusta este valor según sea necesario
+      },
+      jsPDF: { 
+        unit: 'mm', 
+        format: 'a4', 
+        orientation: 'portrait',
+        compress: true,
+      },
+      pagebreak: { 
+        mode: ['avoid-all', 'css', 'legacy'],
+        before: '.page-break-before',
+        after: '.page-break-after',
+        avoid: ['img', 'table', 'pre', 'h1, h2, h3, h4, h5, h6']
+      }
     };
 
     let progressNotification = UIkit.notification({message: '<span uk-icon=\'icon: file-pdf\' class=\'uk-text-primary\'></span> Generando PDF: 0%', status: 'primary', pos: 'top-center', timeout: 0});
