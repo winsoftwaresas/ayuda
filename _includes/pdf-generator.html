@@ -14,14 +14,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const options = {
       margin: [20, 20, 20, 20], // top, left, bottom, right
-      filename: '{{ page.order }}_{{ page.title | slugify }}.pdf',
+      filename: '{{ page.order | slugify }}_{{ page.title | slugify }}.pdf',
       image: { type: 'jpeg', quality: 0.98 },
-      html2canvas: { scale: 2, scrollY: 0, useCORS: true },
+      html2canvas: { scale: 2, scrollY: 0, useCORS: true, logging: true },
       jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
       pagebreak: { mode: ['avoid-all', 'css', 'legacy']}
     };
 
-    UIkit.notification({message: '<span uk-icon=\'icon: file-pdf\' class=\'uk-text-primary\'></span> Generando PDF...', status: 'primary', pos: 'top-center', timeout: 0});
+    let progressNotification = UIkit.notification({message: '<span uk-icon=\'icon: file-pdf\' class=\'uk-text-primary\'></span> Generando PDF: 0%', status: 'primary', pos: 'top-center', timeout: 0});
 
     // Clonar el elemento para no modificar el original
     const clonedElement = element.cloneNode(true);
@@ -29,33 +29,34 @@ document.addEventListener('DOMContentLoaded', function() {
 
     try {
       let pdf;
-      if (sections.length > 30) {
-        let worker = html2pdf().set(options);
+      const batchSize = 10; // Reducido de 30 a 10
+      const totalBatches = Math.ceil(sections.length / batchSize);
 
-        const processInBatches = async () => {
-          const batchSize = 30;
-          for (let i = 0; i < sections.length; i += batchSize) {
-            const batchElement = document.createElement('div');
-            const batchSections = sections.slice(i, i + batchSize);
-            batchSections.forEach(section => batchElement.appendChild(section.cloneNode(true)));
-            await worker.from(batchElement).toContainer().toCanvas().toPdf().get('pdf').then((pdfResult) => {
-              if (!pdf) {
-                pdf = pdfResult;
-              } else {
-                const pdfPages = pdfResult.internal.pages;
-                pdfPages.shift(); // Remove the first blank page
-                pdfPages.forEach(page => pdf.addPage().addPage(page));
-              }
-              if (i + batchSize < sections.length) {
-                pdf.addPage();
-              }
-            });
-          }
-        };
-        await processInBatches();
-      } else {
-        pdf = await html2pdf().set(options).from(clonedElement).toPdf().get('pdf');
-      }
+      let worker = html2pdf().set(options);
+
+      const processInBatches = async () => {
+        for (let i = 0; i < sections.length; i += batchSize) {
+          const batchElement = document.createElement('div');
+          const batchSections = sections.slice(i, i + batchSize);
+          batchSections.forEach(section => batchElement.appendChild(section.cloneNode(true)));
+          
+          await worker.from(batchElement).toContainer().toCanvas().toPdf().get('pdf').then((pdfResult) => {
+            if (!pdf) {
+              pdf = pdfResult;
+            } else {
+              const pdfPages = pdfResult.internal.pages;
+              pdfPages.shift(); // Remove the first blank page
+              pdfPages.forEach(page => pdf.addPage().addPage(page));
+            }
+          });
+
+          const progress = Math.min(100, Math.round(((i + batchSize) / sections.length) * 100));
+          progressNotification.close();
+          progressNotification = UIkit.notification({message: `<span uk-icon='icon: file-pdf' class='uk-text-primary'></span> Generando PDF: ${progress}%`, status: 'primary', pos: 'top-center', timeout: 0});
+        }
+      };
+
+      await processInBatches();
 
       const totalPages = pdf.internal.getNumberOfPages();
 
@@ -73,11 +74,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
       await pdf.save(options.filename);
 
-      UIkit.notification.closeAll();
+      progressNotification.close();
       UIkit.notification({message: '<span uk-icon=\'icon: check\' class=\'uk-text-success\'></span> PDF generado con éxito!', status: 'success', pos: 'top-center', timeout: 3000});
     } catch (err) {
       console.error('Error al generar PDF:', err);
-      UIkit.notification.closeAll();
+      progressNotification.close();
       UIkit.notification({message: '<span uk-icon=\'icon: warning\' class=\'uk-text-danger\'></span> Error al generar PDF. Por favor, intente de nuevo.', status: 'danger', pos: 'top-center', timeout: 3000});
     } finally {
       elementsToHide.forEach(el => el.classList.remove('hide-in-pdf'));
