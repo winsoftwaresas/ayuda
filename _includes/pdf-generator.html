@@ -14,9 +14,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const options = {
       margin: [20, 20, 20, 20], // top, left, bottom, right
-      filename: '{{ page.title | slugify }}.pdf',
+      filename: '{{ page.order | slugify }}_{{ page.title | slugify }}.pdf',
       image: { type: 'jpeg', quality: 0.98 },
-      html2canvas: { scale: 1.5, scrollY: 0, useCORS: true },
+      html2canvas: { dpi: 96, scale: 2, scrollY: 0, letterRendering: true, useCORS: true },
       jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
       pagebreak: { mode: ['avoid-all', 'css', 'legacy']}
     };
