@@ -1,6 +1,6 @@
 ---
 title: Transacciones
-subtitle: Se explica como se maneja cada una de las transacciones que tiene el módulo.
+subtitle: Se explica cómo se maneja cada una de las transacciones que tiene el módulo.
 tags:
   - setup
 author: win

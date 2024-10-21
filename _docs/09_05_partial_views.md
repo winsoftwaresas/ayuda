@@ -11,7 +11,8 @@ date: 2022-02-10T14:45:29.041Z
 
 ### Acciones técnicas
 
-Esta opción conduce a la tabla de Acciones Técnicas en una nueva pestaña de la OT. Esta tabla está ligada a la Infraestructura, creada con su mismo nombre, que contiene un listado de Acciones Técnicas frecuentes en un área de Mantenimiento. Con la información contenida allí, se pretende describir, breve pero concretamente, la actividad general realizada en una OT. Las Acciones Técnicas en una OT se pueden definir, después de haber seleccionado en la ventana Detalle de la Ficha Técnica de la OT en el momento de su creación, el cuadro llamado <a class="btn bg-white"><span class="mdi mdi-checkbox-blank-outline"> Acciones Técnicas </span></a> o bien, haberlas definido en la creación del Programa de Mantenimiento, continuación se muestra la porción Acciones Técnicas de una OT:
+Esta opción conduce a la tabla de Acciones Técnicas en una nueva pestaña de la OT. Esta tabla está ligada a la Infraestructura, creada con su mismo nombre, que contiene un listado de Acciones Técnicas frecuentes en un área de Mantenimiento. Con la información contenida allí, se pretende describir, breve pero concretamente, la actividad general realizada en una OT. Las Acciones Técnicas en una OT se pueden definir, después de haber seleccionado en la ventana Detalle de la Ficha Técnica de la OT en el momento de su creación, el cuadro llamado <a class="btn cl-gray"><span class="mdi mdi-checkbox-blank-outline"> Acciones Técnicas</span></a>
+ o bien, haberlas definido en la creación del Programa de Mantenimiento, continuación se muestra la porción Acciones Técnicas de una OT:
 
 ![Procesar imagen](../../assets/images/cap09/chp09_img06.png)
 ***Imagen 73.** Órdenes - Ventana Detalle Acciones Técnicas*
@@ -53,7 +54,8 @@ Las Acciones Técnicas se seleccionan de la lista desplegable y se adicionan con
 
 ## Presupuesto
 
-En una OT Manual que se acaba de crear sólo se permite definir o modificar su Presupuesto si se ha establecido la opción <a class="btn bg-white"><span class="mdi mdi-checkbox-blank-outline">Control Presupuestal</span></a>, en la ventana detalle de la OT durante la creación de la OT. Esto significa que si a una OT no se le marcó el recuadro anterior, no tendrá la posibilidad de aceptar datos de **Presupuesto**, solamente de **Gasto Real**:
+En una OT Manual que se acaba de crear sólo se permite definir o modificar su Presupuesto si se ha establecido la opción <a class="btn cl-gray"><span class="mdi mdi-checkbox-blank-outline"> Control Presupuestal </span></a>
+, en la ventana detalle de la OT durante la creación de la OT. Esto significa que si a una OT no se le marcó el recuadro anterior, no tendrá la posibilidad de aceptar datos de **Presupuesto**, solamente de **Gasto Real**:
 
 ![Procesar imagen](../../assets/images/cap09/chp09_img07.png)
 ***Imagen 76.** Órdenes - Presupuesto*
@@ -151,7 +153,7 @@ Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar 
 Una vez terminado el proceso, hacer clic en el botón <a class="btn gray">Ir a Matriz</a>. para regresar a la ventana
 principal de Presupuesto.
 
-Por otro lado, para eliminar un registro de la tabla de Mano de Obra Externa, se selecciona el registro y luego se da clic al icono de eliminar <span class="mdi mdi-delete"></span> sale un mensaje de alerta que indica al usuario de si está seguro de eliminar el registro y finalmente se da clic en <a class="btn bg-white">ACEPTAR</a>, como se muestra en la siguiente imagen:
+Por otro lado, para eliminar un registro de la tabla de Mano de Obra Externa, se selecciona el registro y luego se da clic al icono de eliminar <span class="mdi mdi-delete"></span> sale un mensaje de alerta que indica al usuario de si está seguro de eliminar el registro y finalmente se da clic en <a class="btn bg-gray cl-black">ACEPTAR</a>, como se muestra en la siguiente imagen:
 
 ![Procesar imagen](../../assets/images/cap09/chp09_img07_07.png)
 ***Imagen 84.** Órdenes - Eliminar ME*
@@ -381,7 +383,7 @@ A continuación se describen los campos que componen esta ventana; cuando se qui
 
 La primera consiste de forma manual solo digitando el valor correspondiente al código, referencia, código de barras interno o proveedor del Material y Repuesto.
 
-La segunda consiste en buscar el Material y Repuesto, a través del visor de Material y Repuesto. Para ello se da un clic sobre el icono de filtro de Repuesto <span class="mdi mdi-filter-variant"></span>. Acto seguido se muestra la ventana de visor de Repuesto con la posibilidad de hacer allí subgrupos. Una vez se encuentra el Repuesto, se selecciona dando un clic sobre cualquiera de sus campos, seguidamente un clic sobre el botón <a class="btn white">Aceptar</a> de esa ventana o también es posible seleccionarlo dando doble clic sobre el registro seleccionado. Inmediatamente ese código aparece en el campo de M y R y automáticamente se actualizan los campos de UM y Valor Unitario.
+La segunda consiste en buscar el Material y Repuesto, a través del visor de Material y Repuesto. Para ello se da un clic sobre el icono de filtro de Repuesto <span class="mdi mdi-filter-variant"></span>. Acto seguido se muestra la ventana de visor de Repuesto con la posibilidad de hacer allí subgrupos. Una vez se encuentra el Repuesto, se selecciona dando un clic sobre cualquiera de sus campos, seguidamente un clic sobre el botón <a class="btn white">ACEPTAR</a> de esa ventana o también es posible seleccionarlo dando doble clic sobre el registro seleccionado. Inmediatamente ese código aparece en el campo de M y R y automáticamente se actualizan los campos de UM y Valor Unitario.
 
 **Descripción M y R:** Es un campo de solo lectura, que muestra la descripción del material y repuesto seleccionado.
 
@@ -528,12 +530,12 @@ Valor del CO en la Generación: Este campo permanece bloqueado y muestra el valo
 
 **FF Lectura CO en la Ejecución:** En este campo se define la fecha de lectura del Contador del Activo al momento de ejecutarse o al momento del cierre de la OT.
 
-En el Seguimiento o Cierre, además de los botones <a class="btn blue">ACTUALIZAR</a> seguido, se visualiza el botón <a class="btn blue">BITÁCORA</a>, el cual muestra en una nueva ventana el historial de cambios de la OT en: Estado, Prioridad y Responsable. Se muestra esta información solo si se han presentado modificaciones, de lo contrario los campos permanecen en blanco.
+En el Seguimiento o Cierre, además de los botones <a class="btn blue">Actualizar</a> seguido, se visualiza el botón <a class="btn blue">Bitácora</a>, el cual muestra en una nueva ventana el historial de cambios de la OT en: Estado, Prioridad y Responsable. Se muestra esta información solo si se han presentado modificaciones, de lo contrario los campos permanecen en blanco.
 
 ![Procesar imagen](../../assets/images/cap09/chp09_img69.png)
 ***Imagen 110.** Órdenes - Detalle Bitácora en Seguimiento y Cierre*
 
->**Nota:** Nótese que para hacer efectivo el cierre o el cambio del estado de la OT se encuentra el botón <a class="btn blue">ACTUALIZAR </a> como se indica en las dos imágenes anteriores, este botón sólo cumple la función de actualizar únicamente la pestaña de seguimiento y cierre (tiempos y estado) ya que el botón de <a class="btn blue">ACTUALIZAR <span class="mdi mdi-pencil"></span></a> se inactiva una vez que se encuentre en esta pestaña, es por esto que si se desean guardar otros cambios se debe estar en las otras pestañas (ficha técnica, gasto real, multimedia).
+>**Nota:** Nótese que para hacer efectivo el cierre o el cambio del estado de la OT se encuentra el botón <a class="btn blue">Actualizar </a> como se indica en las dos imágenes anteriores, este botón sólo cumple la función de actualizar únicamente la pestaña de seguimiento y cierre (tiempos y estado) ya que el botón de <a class="btn blue">ACTUALIZAR <span class="mdi mdi-pencil"></span></a> se inactiva una vez que se encuentre en esta pestaña, es por esto que si se desean guardar otros cambios se debe estar en las otras pestañas (ficha técnica, gasto real, multimedia).
 
 Una vez se actualice el sistema responde con un mensaje de advertencia, para continuar dar un clic en <a class="btn bg-gray cl-black">ACEPTAR</a>
 
@@ -574,7 +576,7 @@ Para adicionar un documento, imagen o video, se debe dar un doble clic sobre la 
 ![Procesar imagen](../../assets/images/cap09/chp09_img22.png)
 ***Imagen 114.** Órdenes - Abrir Explorador Archivos*
 
-A continuación se abre el explorador de archivos, seguido de seleccionar el archivo dar un clic en <a class="btn">abrir</a>.
+A continuación se abre el explorador de archivos, seguido de seleccionar el archivo dar un clic en <a class="btn bg-gray cl-black">Abrir</a>.
 
 ![Procesar imagen](../../assets/images/cap09/chp09_img23.png)
 ***Imagen 115.** Órdenes - Seleccionar Archivos*
@@ -589,7 +591,7 @@ Los archivos que se van adicionando van quedando guardados uno debajo del otro y
 ![Procesar imagen](../../assets/images/cap09/chp09_img25.png)
 ***Imagen 117.** Órdenes - Previsualización de imagen*
 
-Para desasociar un documento, o una imagen o un video, a la OT se da clic al icono de basura <span class="mdi mdi-delete"></span> que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro, finalmente confirmar con el botón <a class="btn white">Aceptar</a>.
+Para desasociar un documento, o una imagen o un video, a la OT se da clic al icono de basura <span class="mdi mdi-delete"></span> que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro, finalmente confirmar con el botón <a class="btn bg-gray cl-black">ACEPTAR</a>
 
 ![Procesar imagen](../../assets/images/cap09/chp09_img26.png)
 ***Imagen 118.** Órdenes - Desasociar un Archivo*
