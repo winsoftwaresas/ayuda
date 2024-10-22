@@ -3,7 +3,7 @@ title: Balance Periódico de Gestión
 subtitle: En esta sección se dan a conocer algunas sugerencias para obtener buenos resultados de gestión.
 tags: [setup]
 author: win
-order: 10_05
+order: '10_05'
 ---
 
 

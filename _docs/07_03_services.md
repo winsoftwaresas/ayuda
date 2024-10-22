@@ -5,7 +5,7 @@ subtitle: aquí se da a conocer el uso y el funcionamiento correcto de las
 tags:
   - setup
 author: win
-order: 07_03
+order: '07_03'
 date: 2022-10-25T21:07:17.169Z
 ---
 ## Reportes

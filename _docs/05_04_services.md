@@ -3,7 +3,7 @@ title: Servicios
 subtitle: Se muestran las opciones para obtener impresión y exportación de los Documentos de Kárdex que aparecen en el visor, totales o provenientes de un subgrupo para lou
 tags: [setup]
 author: win
-order: 05_04
+order: '05_04'
 ---
 ## Exportar
 

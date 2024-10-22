@@ -3,7 +3,7 @@ title: Conceptos Básicos Análisis y Generación de Órdenes de Trabajo Program
 subtitle: Aquí se encuentralas bases para analiar/generar órdenes automáticas.
 tags: [setup]
 author: win
-order: 09_03
+order: '09_03'
 ---
 Análisis/Generación automática de OTs desde PMs, es una facilidad de **AM**, que se encuentra disponible en el módulo de OT y que debería ser utilizada sobre una base periódica. El proceso consiste en que **AM** revisa cada programa, definido para cada Activo/Equipo y analiza si la condición programada en cada uno, se va a cumplir, para el equipo respectivo, durante el próximo período que se va a estudiar o proyectar.
 

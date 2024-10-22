@@ -1,14 +1,10 @@
 ---
-
 title: Solicitudes 
 subtitle: Explicación del módulo del módulo de Solicitudes, creación, consulta, cierre y registro de firmas
 tags: [AMovil]
 author: win
-order: 16_04
-
+order: '16_04'
 ---
-
-
 Para ir a Solicitudes de Servicio dar un toque sobre el botón <a class="btn cl-black bg-white pl-2 pr-3 bd-blue"><span class="iconify cl-black fs-2 pr-1" data-icon="mdi-card-text-outline"></span> Solicitudes</a> en el menú principal:
 
 ![Procesar imagen](../../assets/images/cap16/chp16_img66.jpeg)
@@ -21,9 +17,6 @@ En el siguiente submenú se muestran las siguientes opciones según los permisos
 ![Procesar imagen](../../assets/images/cap16/chp16_img67.jpeg)
 
 _**Imagen 69.** AMovil - Solicitudes Submenú_
-
-
-
 
 ## Consultar Solicitudes
 

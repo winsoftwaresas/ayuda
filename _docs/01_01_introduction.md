@@ -3,7 +3,7 @@ title: Introducción
 subtitle: En el capitulo inicial del manual de ayuda AM contiene la información necesaria para su comprension y manejo adecuado, especificando la funcionalidad de cada una de las partes que lo componen.
 tags: [setup]
 author: win
-order: 01_01
+order: '01_01'
 ---
 ## ¿Qué es **AM**?
 

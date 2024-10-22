@@ -3,11 +3,8 @@ title: Ordenes
 subtitle: Explicación del módulo del módulo de Órdenes, creación, consulta, cierre y registro de firmas
 tags: [AMovil]
 author: win
-order: 16_05
-
+order: '16_05'
 ---
-
-
 Para ir a Órdenes dar un toque sobre el botón <a class="btn cl-black bg-white pl-2 pr-3 bd-gray"><span class="iconify cl-black fs-2 pr-1" data-icon="mdi-text-box-outline"></span> Órdenes</a> en el menú principal:
 
 ![Procesar imagen](../../assets/images/cap16/chp16_img66.jpeg)
@@ -20,9 +17,6 @@ En el siguiente submenú se muestran las siguientes opciones según los permisos
 ![Procesar imagen](../../assets/images/cap16/chp16_img125.jpg)
 
 _**Imagen 131.** AMovil - Ordenes Submenú_
-
-
-
 
 ## Consultar Órdenes
 
@@ -38,12 +32,9 @@ Para ir al detalle del registro dar un toque en el botón  <a class="btn cl-blac
 
 _**Imagen 133.** AMovil - Ordenes Detalle_
 
-
 ![Procesar imagen](../../assets/images/cap16/chp16_img128.jpg)
 
 _**Imagen 134.** AMovil - Ordenes Detalle_
-
-
 
 Para guardar los cambios en alguno de los campos de la Orden dar un toque en el botón <a class="btn cl-white bg-blue px-6">Actualizar</a>. Se muestra un mensaje alerta confirmando los cambios:
 
@@ -55,15 +46,11 @@ Para continuar dar un toque en <a class="btn cl-white bg-blue px-6">Aceptar</a>.
 
 Para ingresar al submenú dentro del Detalle de la Órden diríjase al botón ubicado en la parte superior derecha <a class="fab cl-white bg-blue box-shadow"><span class="iconify icon cl-white bg-blue" data-icon="mdi-dots-vertical"></span></a>. Se muestran las siguientes opciones relacionadas a la gestión y cierre de Órdenes:
 
-
 ![Procesar imagen](../../assets/images/cap16/chp16_img130.jpg)
 
 _**Imagen 136.** AMovil - Ir a Submenú Gestión/Cierre Ordenes_
 
-
-
 ### Actualizar tiempos
-
 
 Para ingresar los tiempos de ejecución de la Órden diríjase al <a class="btn cl-black bg-mint bd-mint px-6">Detalle</a>  de la Órden de Trabajo y luego al botón 
 <a class="fab cl-white bg-blue box-shadow"><span class="iconify icon cl-white bg-blue" data-icon="mdi-dots-vertical"></span></a> luego a <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-update"></span></a>. Se muestra el detalle de la Órden en cuestión, aquellas con estado **En análisis** deben tener previamente la **Fecha y hora de Atención**, se muestra un ejemplo a continuación:

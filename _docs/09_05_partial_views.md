@@ -1,13 +1,13 @@
 ---
 title: Vistas Parciales
 subtitle: 'Se explican las pestañas o vistas parciales que componen la Ficha Técnica de una Órden de Trabajo.'
-toc: true
 tags:
   - setup
 author: win
-order: 09_05
+order: '09_05'
 date: 2022-02-10T14:45:29.041Z
 ---
+
 ### Acciones técnicas
 
 Esta opción conduce a la tabla de Acciones Técnicas en una nueva pestaña de la OT. Esta tabla está ligada a la Infraestructura, creada con su mismo nombre, que contiene un listado de Acciones Técnicas frecuentes en un área de Mantenimiento. Con la información contenida allí, se pretende describir, breve pero concretamente, la actividad general realizada en una OT. Las Acciones Técnicas en una OT se pueden definir, después de haber seleccionado en la ventana Detalle de la Ficha Técnica de la OT en el momento de su creación, el cuadro llamado <a class="btn cl-gray"><span class="mdi mdi-checkbox-blank-outline"> Acciones Técnicas</span></a> o bien, haberlas definido en la creación del Programa de Mantenimiento, continuación se muestra la porción Acciones Técnicas de una OT:

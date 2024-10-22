@@ -3,7 +3,7 @@ title: Seguimiento y Cierre de Paros / Averías
 subtitle: El proceso de cierre de un  **FDA** reviste el rigor de un cierre de OT y un proceso similar al de una SS. Se refiere el rigor de una OT a la precisión sobre las fechas y horas y a la clara definición de la Causa de la Falla.
 tags: [setup]
 author: win
-order: 08_04
+order: '08_04'
 ---
 El proceso de cierre de un  **FDA** como tal, es similar, aunque más sencillo, al de una  SS. consiste en cambiar el **“Estado”**, por uno de dos: **“Cerrada Ejecutada”** o  **“Cerrado con OT”**, Para mayor detalle se debe referir al acápite **“Seguimiento y Cierre”** de Solicitudes de Servicio.
 

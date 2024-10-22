@@ -2,7 +2,7 @@
 layout: page
 title: ◼ Getting started
 published: true
-order: 01_00
+order: '01_00'
 ---
 ## ¿Qué es **AM**?
 

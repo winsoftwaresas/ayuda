@@ -1,12 +1,8 @@
 ---
-order: 03_00
-title: ◼ Assets
-date: 2022-08-29T20:02:48.580Z
----
-Activo/EquipoActivo/Equipo---
 layout: page
 title: ◼ Assets
-order: 03_00
+date: 2022-08-29T20:02:48.580Z
+order: '03_00'
 ---
 # Activos / Equipos, Objetos de Mantenimiento
 

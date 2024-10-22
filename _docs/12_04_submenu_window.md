@@ -3,7 +3,7 @@ title: Ventana Submenú
 subtitle: Esta sección explica los comandos de la ventana visor de historia de mantenimiento archivada
 tags: [setup]
 author: win
-order: 12_04
+order: '12_04'
 ---
 
 # Ventana submenú de Historia Archivada

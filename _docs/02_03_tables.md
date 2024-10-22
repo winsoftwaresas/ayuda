@@ -3,7 +3,7 @@ title: Tablas de Infraestructura
 subtitle: Aquí se aclara el uso y las opciones de las tablas de infraestructura del sistema AM.
 tags: [setup]
 author: win
-order: 02_03
+order: '02_03'
 ---
 
 ## Centros de Costo

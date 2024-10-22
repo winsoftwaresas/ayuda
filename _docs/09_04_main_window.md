@@ -4,7 +4,7 @@ subtitle: En este modulo se conoce que es la ventana visor, ventana detalle, có
 tags:
   - setup
 author: win
-order: 09_04
+order: '09_04'
 date: 2022-02-10T14:45:29.041Z
 ---
 ![Procesar imagen](../../assets/images/cap09/chp09_img02.png)

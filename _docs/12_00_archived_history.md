@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ◼ Archived History
-order: 12_00
+order: '12_00'
 ---
 # Historia Archivada
 

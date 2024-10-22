@@ -3,7 +3,7 @@ title: Conceptos Básicos
 subtitle: Esta sección habla sobre que és la historia archivada y que finalidad tiene
 tags: [setup]
 author: win
-order: 12_02
+order: '12_02'
 ---
 # Conceptos Básicos Historia de Archivada (HA)
 

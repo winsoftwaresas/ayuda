@@ -3,7 +3,7 @@ title: Ventana Principal
 subtitle: Esta sección explica los componentes de la ventana principal y ventana detalle con sus vistas parciales
 tags: [setup]
 author: win
-order: 12_03
+order: '12_03'
 ---
 
 # Ventana Principal de Historia Archivada

@@ -5,7 +5,7 @@ tags:
   - AMsi
   - Actualizar Perfil
 author: win
-order: 15_03
+order: '15_03'
 date: 2022-06-14T19:50:52.335Z
 ---
 Se explica el formulario a diligenciar para actualizar el perfil del usuario Solicitante en **AMsi**.

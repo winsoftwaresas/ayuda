@@ -2,7 +2,7 @@
 title: Concurrencia en AM
 subtitle: En esta sección se proporciona y discute un cronograma detallado, que describe las fases, actividades y tareas del proyecto.
 author: win
-order: 01_04
+order: '01_04'
 ---
 Es importante tener en cuenta que en **AM**, un mismo usuario no puede iniciar sesión simultáneamente en dos máquinas diferentes.
 

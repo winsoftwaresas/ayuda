@@ -2,7 +2,7 @@
 title: Ventana Principal
 subtitle: En esta sección se encuentran los comandos principales de Historia y la explicación de los componentes de las ventanas.
 author: win
-order: 10_04
+order: '10_04'
 date: 2022-03-28T20:34:50.748Z
 ---
 # Ventana Principal de Historia de Mantenimiento (HM)

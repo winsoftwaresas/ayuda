@@ -4,7 +4,7 @@ subtitle: Se explica cómo se maneja cada una de las transacciones que tiene el 
 tags:
   - setup
 author: win
-order: 09_06
+order: '09_06'
 date: 2022-02-10T14:45:29.041Z
 ---
 

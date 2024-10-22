@@ -6,7 +6,7 @@ subtitle: aqui se despejaran dudas sobre los conceptos basicos de almacenes,
 tags:
   - setup
 author: win
-order: 11_02
+order: '11_02'
 date: 2022-04-26T20:21:00.312Z
 ---
 

@@ -5,7 +5,7 @@ subtitle: Aquí se incluye información general sobre los elementos principales
 tags:
   - setup
 author: win
-order: 01_03
+order: '01_03'
 date: 2021-11-30T20:50:23.757Z
 ---
 ### Ventana Principal **AM**

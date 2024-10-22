@@ -2,7 +2,7 @@
 title: Conceptos Básicos
 subtitle: En esta sección se aclaran conceptos básicos e importancia de generar Historia de Mantenimiento.
 author: win
-order: 10_02
+order: '10_02'
 ---
 # Conceptos Básicos Historia de Mantenimiento (HM)
 

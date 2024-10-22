@@ -3,7 +3,7 @@ title: Introducción
 subtitle: Conceptos y manejo del Kárdex se tratan en el siguiente capítulo.
 tags: [setup]
 author: win
-order: 05_01
+order: '05_01'
 ---
 # Kárdex de Almacén
 

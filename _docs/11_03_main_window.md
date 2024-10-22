@@ -4,7 +4,7 @@ subtitle: Aquí puede encontrar el ejemplo visual de cómo crear un Programa de 
 tags:
   - setup
 author: win
-order: 11_03
+order: '11_03'
 date: 2022-05-27T15:27:44.518Z
 ---
 ![Procesar imagen](../../assets/images/cap06/chp06_img01.png)

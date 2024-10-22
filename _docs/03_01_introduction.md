@@ -3,7 +3,7 @@ title: Introducción
 subtitle: Este capítulo reponde  las preguntas necesarias para tener una comprensión clara de qué son los Activos / Equipos objetos de Mantenimiento en AM, su motivo y funcionalidad.
 tags: [setup]
 author: win
-order: 03_01
+order: '03_01'
 ---
 - ¿Qué es un Activo/Equipo?.
 - ¿Cómo se codifica un Activo/Equipo?.

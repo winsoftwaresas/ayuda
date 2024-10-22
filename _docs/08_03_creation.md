@@ -3,7 +3,7 @@ title:  Creación de Paros
 subtitle: Cómo se crea un Paro/Avería y que características tiene.
 tags: [setup]
 author: win
-order: 08_03
+order: '08_03'
 ---
 
 

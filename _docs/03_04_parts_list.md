@@ -4,7 +4,7 @@ subtitle: Aquí se encuentra información sobre la codificación, despiece de ac
 tags:
   - setup
 author: win
-order: 03_04
+order: '03_04'
 date: 2022-12-27T21:18:27.690Z
 ---
 

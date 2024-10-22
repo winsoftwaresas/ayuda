@@ -3,7 +3,7 @@ title: Transacciones
 subtitle: Esta sección explica como se usa la transacción eliminar masivamente historia de mantenimiento archivada
 tags: [setup]
 author: win
-order: 12_05
+order: '12_05'
 ---
 
 ### Eliminar Masivamente HA
