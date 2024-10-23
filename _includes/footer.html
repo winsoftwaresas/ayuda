@@ -25,7 +25,12 @@
                 {% include social-networks.html %}
             </div>
         </div>
-        <div class="uk-margin-medium uk-text-small copyright link-secondary">{{ site.footer.copyright }}</div>
+        <div class="uk-margin-medium uk-text-small copyright link-secondary" style="display: flex; justify-content: space-between; align-items: center;">
+            <span>{{ site.footer.copyright }}</span>
+            <span>
+              <a href="/pdf/AM%20-%20v{{ site.version }}.pdf" class="uk-link-text">Descargar PDF</a>
+            </span>
+        </div>
 
     </div>
 </footer>

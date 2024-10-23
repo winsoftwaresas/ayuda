@@ -5,8 +5,26 @@ document.addEventListener('DOMContentLoaded', function() {
   const generatePdfButton = document.getElementById('generatePdf');
   const doc_version = "Version {{ site.version }}";
   const company = "{{ site.company }}";
+  const version_dir = "v{{ site.version | replace: 'Version ', '' }}";
 
   generatePdfButton.addEventListener('click', async function() {
+    const pdfFilename = '{{ page.slug }}.pdf';
+    const pdfPath = `/pdf/${version_dir}/${pdfFilename}`;
+
+    // Verificar si el PDF ya existe
+    try {
+      const response = await fetch(pdfPath, { method: 'HEAD' });
+      if (response.ok) {
+        // El PDF existe, descargarlo directamente
+        UIkit.notification({message: '<span uk-icon=\'icon: download\' class=\'uk-text-primary\'></span> Descargando PDF existente...', status: 'primary', pos: 'top-center', timeout: 3000});
+        window.location.href = pdfPath;
+        return;
+      }
+    } catch (error) {
+      console.log('El PDF no existe, se generará uno nuevo.');
+    }
+
+    // Si llegamos aquí, el PDF no existe y necesitamos generarlo
     const element = document.querySelector('.uk-article');
     const elementsToHide = document.querySelectorAll('.no-print');
     
@@ -14,9 +32,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const options = {
       margin: [20, 20, 20, 20], // top, left, bottom, right
-      filename: '{{ page.order | slugify }}_{{ page.title | slugify }}.pdf',
+      filename: pdfFilename,
       image: { type: 'jpeg', quality: 0.98 },
-      html2canvas: { dpi: 150, scale: 1.5, scrollY: 0, letterRendering: true, useCORS: true },
+      html2canvas: { scale: 2, scrollY: 0, useCORS: true },
       jsPDF: { unit: 'mm', format: 'letter', orientation: 'portrait' },
       pagebreak: { mode: ['avoid-all', 'css', 'legacy']}
     };
@@ -29,11 +47,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
     try {
       let pdf;
-      if (sections.length > 30) {
+      if (sections.length > 5) {
         let worker = html2pdf().set(options);
 
         const processInBatches = async () => {
-          const batchSize = 30;
+          const batchSize = 5;
           for (let i = 0; i < sections.length; i += batchSize) {
             const batchElement = document.createElement('div');
             const batchSections = sections.slice(i, i + batchSize);

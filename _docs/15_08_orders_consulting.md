@@ -1,6 +1,6 @@
 ---
-title: Consultar Mis Órdenes
-subtitle: Este capítulo guía para consultas de OTS creadas desde AMsi. Se hace una ilustración sobre los comandos que aparecen en pantalla.
+title: 'Consultar Mis Órdenes'
+subtitle: 'Este capítulo guía para consultas de OTS creadas desde AMsi. Se hace una ilustración sobre los comandos que aparecen en pantalla.'
 tags:
   - AMsi
   - Consultar Orden en AMsi
@@ -19,7 +19,6 @@ _**Imagen 49.** AMsi - Consultar Mis Ordenes_
 
 Inicialmente esta transacción trae el listado del total de las OT que se han realizado para la Organización por parte de otros usuarios solicitantes. 
 
-
 Sin embargo, es posible hacer Subgrupos  a través del ícono de triángulo invertido superior derecho <span class="mdi mdi-filter-variant"></span> y ver solo las OT creadas por el Usuario logueado. Esto tiene como finalidad de que el usuario pueda realizar constantemente y en tiempo real el seguimiento y consultas a sus OT. A esta ventana se llega al dar clic a la opción de **Consultar Mis Ordenes** en la ventana de Menú Principal.
 
 ![Procesar imagen](../../assets/images/cap12/chp12_img28.png)
@@ -34,14 +33,13 @@ _**Imagen 51.** AMsi - Subgrupo Órdenes_
 
 Los campos de datos que constituyen criterio de selección en la Ventana Subgrupo de **AMsi** son los siguientes:
 
-##### FILTRAR POR CAMPOS DEL ACTIVO ASOCIADO A LA ORDEN
+#### FILTRAR POR CAMPOS DEL ACTIVO ASOCIADO A LA ORDEN
 
 **AC-Código:** Esta selección agrupa las OT cuyo Activo coincidan con el relacionado en este criterio. Es posible definir el código completo o una porción del mismo.
 
 **AC-Descripción:** Selecciona las OT asociadas a los Activos según criterios que se fundamenten en su descripción.  Ejemplo: Motor selecciona todos los Activos, en cuya descripción, en cualquier posición, tengan la palabra “Motor”.
 
-
-##### FILTRAR POR CAMPOS DE LA ORDEN DE TRABAJO
+#### FILTRAR POR CAMPOS DE LA ORDEN DE TRABAJO
 
 **Centro de Costo:** Permite la selección de OT de acuerdo con  el Centro de Costo asignado a ella. Existen dos formas de definir el Centro de Costo. La primera es seleccionando el Centro de Costo de la lista desplegable. La segunda es dando clic al icono de candado y digitando a continuación segmentos del nombre del Centro de Costo usando comodines (%). Cuando se utilizan comodines, es posible seleccionar las OT pertenecientes a Centros de Costo que tengan parte del nombre igual. Por ejemplo: **%Sistema%** selecciona todos los registros en cuyo Centro de Costo exista la palabra Sistema, independiente de si se está hablando del Sistema de Agua, de Vapor o de Energía.
 
@@ -91,22 +89,22 @@ Datos suministrados en el formulario de Actualizar Perfil de **AMsi** :
 
 **Orden De Trabajo**
 
-* Descripción de la Orden
-* Activo / Equipo
-* Centro de Costo
-* Ubicación Física
-* Causa de Falla
-* Tipo de Mantenimiento
-* Tipo de Actividad
+- Descripción de la Orden
+- Activo / Equipo
+- Centro de Costo
+- Ubicación Física
+- Causa de Falla
+- Tipo de Mantenimiento
+- Tipo de Actividad
 
 **Fechas y Horas:** Estos campos solo son modificables desde el módulo OT del AM. En estos campos aparecen las fechas y horas Atención, Inicio de Trabajo, Fin de Trabajo y  Fecha Cierre de la OT.
 
 Estos campos solo son manipulados por los encargados del área de mantenimiento de las diferentes compañías creadas en el AM.
 
-* F/H Atención
-* F/H Inicio Trabajo
-* F/H Fin de Trabajo
-* F/H Cierre
+- F/H Atención
+- F/H Inicio Trabajo
+- F/H Fin de Trabajo
+- F/H Cierre
 
 **Evaluar el servicio:** Contiene el resultado de la Evaluación de la OT, si ya se realizó y si no se ha realizado, permite realizarla, siempre que esté en estado Cerrada Ejecutada y mientras el campo Solicitante coincida con los campos Datos del Usuario.
 
@@ -115,4 +113,4 @@ Estos campos solo son manipulados por los encargados del área de mantenimiento 
 ![Procesar imagen](../../assets/images/cap12/chp12_img31.png)
 _**Imagen 53.** AMsi - Agregar Comentarios_
 
->**Nota:** Los comentarios pueden ser el medio de comunicación entre el Usuario Solicitante y Mantenimiento, los comentarios quedan grabados uno debajo del otro en una ventana tipo chat. 
+> **Nota:** Los comentarios pueden ser el medio de comunicación entre el Usuario Solicitante y Mantenimiento, los comentarios quedan grabados uno debajo del otro en una ventana tipo chat. 

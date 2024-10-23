@@ -17,11 +17,11 @@
 <meta property="og:url" content="http://localhost:4000/docs/15_00_amsi/" />
 <meta property="og:site_name" content="AM" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-08-15T21:12:59-05:00" />
+<meta property="article:published_time" content="2024-10-22T19:45:33-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="◼ AMsi" />
 <script type="application/ld+json">
-{"headline":"◼ AMsi","dateModified":"2024-08-15T21:12:59-05:00","datePublished":"2024-08-15T21:12:59-05:00","author":{"@type":"Person","name":"WIN Software"},"@type":"BlogPosting","description":"1. Trabajando con AMsi","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/winsoftware_logo.svg"},"name":"WIN Software"},"url":"http://localhost:4000/docs/15_00_amsi/","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/docs/15_00_amsi/"},"@context":"https://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/docs/15_00_amsi/"},"author":{"@type":"Person","name":"WIN Software"},"@type":"BlogPosting","description":"1. Trabajando con AMsi","url":"http://localhost:4000/docs/15_00_amsi/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/winsoftware_logo.svg"},"name":"WIN Software"},"headline":"◼ AMsi","dateModified":"2024-10-22T19:45:33-05:00","datePublished":"2024-10-22T19:45:33-05:00","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <meta property="og:image" content="http://localhost:4000/uploads/winsoftware_logo.svg"/>
@@ -31,6 +31,8 @@
   <link rel="alternate" type="application/rss+xml" title="AM" href="/feed.xml">
   <script src="//code.iconify.design/1/1.0.6/iconify.min.js"></script>
   <script src="/assets/js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+  <link rel="stylesheet" href="/assets/css/pdf-styles.css">
   
     <script>
 function searchResults(form) {
@@ -133,12 +135,77 @@ function searchResults(form) {
   <!-- Hook head -->
   
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+    <style>
+      .uk-notification {
+      position: fixed;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 9999;
+      box-sizing: border-box;
+      width: 350px;
+      max-width: 90%;
+    }
+
+    .uk-notification-message {
+      position: relative;
+      padding: 10px;
+      background: #f8f8f8;
+      color: #666;
+      font-size: 1.2rem;
+      line-height: 1.4;
+      cursor: pointer;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      border-radius: 10px;
+      border: 2px solid;
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .uk-notification-message-primary {
+      border-color: #1e87f0;
+    }
+
+    .uk-notification-message-success {
+      border-color: #32d296;
+    }
+
+    .uk-notification-message-danger {
+      border-color: #f0506e;
+    }
+
+    .uk-notification-message-warning {
+      border-color: #faa05a;
+    }
+
+    .uk-notification-close {
+      margin-left: 10px;
+    }
+    </style>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const images = document.querySelectorAll('img');
+        images.forEach(img => {
+          if (!img.hasAttribute('crossorigin')) {
+            img.setAttribute('crossorigin', 'anonymous');
+          }
+          // Convertir URLs absolutas locales a relativas
+          if (img.src.startsWith('http://localhost:4000')) {
+            img.src = img.src.replace('http://localhost:4000', '');
+          }
+        });
+      });
+    </script>
 <script src="http://127.0.0.1:35729/livereload.js"></script></head>
 
     <body>
 
     
-        <div data-uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent; top: 200">
+        <div data-uk-sticky="no-print animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent; top: 200">
     <nav class="uk-navbar-container">
         <div class="uk-container">
             <div data-uk-navbar>
@@ -1181,7 +1248,7 @@ Una vez registrado el usuario, el sistema muestra un mensaje de notificación de
         
           
           
-          <li class=""><a href="/docs/03_04_parts_list/"></a></li>
+          <li class=""><a href="/docs/03_04_parts_list/">Codificación de Activos/Equipos y Generalidades</a></li>
         
           
           
@@ -1282,15 +1349,23 @@ Una vez registrado el usuario, el sistema muestra un mensaje de notificación de
         
           
           
-          <li class=""><a href="/docs/09_03_analysis_and_generation/">Análisis y Generación de Órdenes de Trabajo Programadas</a></li>
+          <li class=""><a href="/docs/09_03_basic_concepts_analysis_and_generation/">Conceptos Básicos Análisis y Generación de Órdenes de Trabajo Programadas</a></li>
         
           
           
-          <li class=""><a href="/docs/09_04_main_window/">Ventana Principal de Órdenes de Trabajo</a></li>
+          <li class=""><a href="/docs/09_04_main_window/">Ventana Principal</a></li>
         
           
           
-          <li class=""><a href=""></a></li>
+          <li class=""><a href="/docs/09_05_partial_views/">Vistas Parciales</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/09_06_transactions/">Transacciones</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/09_07_export_and_log_file/">Exportar y Reportes</a></li>
         
         </ul>
         
@@ -1410,7 +1485,7 @@ Una vez registrado el usuario, el sistema muestra un mensaje de notificación de
         
           
           
-          <li class=""><a href="/docs/15_11_logout/">Exportar Visor de SS/OT</a></li>
+          <li class=""><a href="/docs/15_11_export/">Exportar Visor de SS/OT</a></li>
         
         </ul>
         
@@ -1577,7 +1652,12 @@ Una vez registrado el usuario, el sistema muestra un mensaje de notificación de
 
             </div>
         </div>
-        <div class="uk-margin-medium uk-text-small copyright link-secondary">Made by <a href="https://winsoftware.com.co/">WIN Software</a>.</div>
+        <div class="uk-margin-medium uk-text-small copyright link-secondary" style="display: flex; justify-content: space-between; align-items: center;">
+            <span>Made by <a href="https://winsoftware.com.co/">WIN Software</a>.</span>
+            <span>
+              <a href="/pdf/AM%20-%20v1.3.pdf" class="uk-link-text">Descargar PDF</a>
+            </span>
+        </div>
 
     </div>
 </footer>

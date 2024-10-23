@@ -21,7 +21,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Crear Nueva Orden" />
 <script type="application/ld+json">
-{"headline":"Crear Nueva Orden","dateModified":"2022-06-21T17:09:41-05:00","datePublished":"2022-06-21T17:09:41-05:00","author":{"@type":"Person","name":"win"},"@type":"BlogPosting","description":"Se suministra información detallada del formulario Servicio Solicitado. Dicha información, especifica claramente el servicio solicitado, así como también el Centro de Servicio responsable de atender la OT.","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/winsoftware_logo.svg"},"name":"win"},"url":"http://localhost:4000/docs/15_07_create_a_new_order/","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/docs/15_07_create_a_new_order/"},"@context":"https://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/docs/15_07_create_a_new_order/"},"author":{"@type":"Person","name":"win"},"@type":"BlogPosting","description":"Se suministra información detallada del formulario Servicio Solicitado. Dicha información, especifica claramente el servicio solicitado, así como también el Centro de Servicio responsable de atender la OT.","url":"http://localhost:4000/docs/15_07_create_a_new_order/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/winsoftware_logo.svg"},"name":"win"},"headline":"Crear Nueva Orden","dateModified":"2022-06-21T17:09:41-05:00","datePublished":"2022-06-21T17:09:41-05:00","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <meta property="og:image" content="http://localhost:4000/uploads/winsoftware_logo.svg"/>
@@ -31,6 +31,8 @@
   <link rel="alternate" type="application/rss+xml" title="AM" href="/feed.xml">
   <script src="//code.iconify.design/1/1.0.6/iconify.min.js"></script>
   <script src="/assets/js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+  <link rel="stylesheet" href="/assets/css/pdf-styles.css">
   
     <script>
 function searchResults(form) {
@@ -133,12 +135,77 @@ function searchResults(form) {
   <!-- Hook head -->
   
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+    <style>
+      .uk-notification {
+      position: fixed;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 9999;
+      box-sizing: border-box;
+      width: 350px;
+      max-width: 90%;
+    }
+
+    .uk-notification-message {
+      position: relative;
+      padding: 10px;
+      background: #f8f8f8;
+      color: #666;
+      font-size: 1.2rem;
+      line-height: 1.4;
+      cursor: pointer;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      border-radius: 10px;
+      border: 2px solid;
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .uk-notification-message-primary {
+      border-color: #1e87f0;
+    }
+
+    .uk-notification-message-success {
+      border-color: #32d296;
+    }
+
+    .uk-notification-message-danger {
+      border-color: #f0506e;
+    }
+
+    .uk-notification-message-warning {
+      border-color: #faa05a;
+    }
+
+    .uk-notification-close {
+      margin-left: 10px;
+    }
+    </style>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const images = document.querySelectorAll('img');
+        images.forEach(img => {
+          if (!img.hasAttribute('crossorigin')) {
+            img.setAttribute('crossorigin', 'anonymous');
+          }
+          // Convertir URLs absolutas locales a relativas
+          if (img.src.startsWith('http://localhost:4000')) {
+            img.src = img.src.replace('http://localhost:4000', '');
+          }
+        });
+      });
+    </script>
 <script src="http://127.0.0.1:35729/livereload.js"></script></head>
 
     <body>
 
     
-        <div data-uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent; top: 200">
+        <div data-uk-sticky="no-print animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent; top: 200">
     <nav class="uk-navbar-container">
         <div class="uk-container">
             <div data-uk-navbar>
@@ -316,7 +383,7 @@ function searchResults(form) {
                     
                       
                       
-                      <li class=""><a href="/docs/03_04_parts_list/"></a></li>
+                      <li class=""><a href="/docs/03_04_parts_list/">Codificación de Activos/Equipos y Generalidades</a></li>
                     
                       
                       
@@ -417,15 +484,23 @@ function searchResults(form) {
                     
                       
                       
-                      <li class=""><a href="/docs/09_03_analysis_and_generation/">Análisis y Generación de Órdenes de Trabajo Programadas</a></li>
+                      <li class=""><a href="/docs/09_03_basic_concepts_analysis_and_generation/">Conceptos Básicos Análisis y Generación de Órdenes de Trabajo Programadas</a></li>
                     
                       
                       
-                      <li class=""><a href="/docs/09_04_main_window/">Ventana Principal de Órdenes de Trabajo</a></li>
+                      <li class=""><a href="/docs/09_04_main_window/">Ventana Principal</a></li>
                     
                       
                       
-                      <li class=""><a href=""></a></li>
+                      <li class=""><a href="/docs/09_05_partial_views/">Vistas Parciales</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/09_06_transactions/">Transacciones</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/09_07_export_and_log_file/">Exportar y Reportes</a></li>
                     
                     </ul>
                     
@@ -545,7 +620,7 @@ function searchResults(form) {
                     
                       
                       
-                      <li class=""><a href="/docs/15_11_logout/">Exportar Visor de SS/OT</a></li>
+                      <li class=""><a href="/docs/15_11_export/">Exportar Visor de SS/OT</a></li>
                     
                     </ul>
                     
@@ -583,14 +658,15 @@ function searchResults(form) {
 
                     <h1 class="uk-article-title">Crear Nueva Orden</h1>
 
-                    <p class="uk-text-lead uk-text-muted">Este capítulo define el formulario a diligenciar para la generación de una Orden de Trabajo (OT) desde AMsi.</p>
+                    <p class="uk-text-lead uk-text-muted">Este capítulo explica en detalle el formulario a diligenciar para generar de una Órden de Trabajo (OT) desde AMsi.</p>
 
-                    <div class="uk-article-meta uk-margin-top uk-margin-medium-bottom uk-flex uk-flex-middle">
-                        
+                    <div class="uk-flex uk-flex-between uk-flex-middle">
+                        <div class="uk-article-meta uk-margin-top uk-margin-medium-bottom uk-flex uk-flex-middle">
+                                
 
 
   
-  <img class="uk-border-circle avatar" src="http://localhost:4000/uploads/winsoftware.png" alt="WIN Software">
+  <img class="uk-border-circle avatar" src="http://localhost:4000/uploads/winsoftwarex36.png" alt="WIN Software">
 
 
 <div>
@@ -602,7 +678,114 @@ function searchResults(form) {
     Jun 21, 2022
   </time>
 </div>
+                        </div>
+                        <button id="generatePdf" class="uk-button uk-button-primary uk-button-small no-print"><span data-uk-icon="icon: file-pdf" class="uk-icon"></span> PDF</button>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const generatePdfButton = document.getElementById('generatePdf');
+  const doc_version = "Version 1.3";
+  const company = "Win Software SAS";
+  const version_dir = "v1.3";
+
+  generatePdfButton.addEventListener('click', async function() {
+    const pdfFilename = '15_07_create_a_new_order.pdf';
+    const pdfPath = `/pdf/${version_dir}/${pdfFilename}`;
+
+    // Verificar si el PDF ya existe
+    try {
+      const response = await fetch(pdfPath, { method: 'HEAD' });
+      if (response.ok) {
+        // El PDF existe, descargarlo directamente
+        UIkit.notification({message: '<span uk-icon=\'icon: download\' class=\'uk-text-primary\'></span> Descargando PDF existente...', status: 'primary', pos: 'top-center', timeout: 3000});
+        window.location.href = pdfPath;
+        return;
+      }
+    } catch (error) {
+      console.log('El PDF no existe, se generará uno nuevo.');
+    }
+
+    // Si llegamos aquí, el PDF no existe y necesitamos generarlo
+    const element = document.querySelector('.uk-article');
+    const elementsToHide = document.querySelectorAll('.no-print');
+    
+    elementsToHide.forEach(el => el.classList.add('hide-in-pdf'));
+
+    const options = {
+      margin: [20, 20, 20, 20], // top, left, bottom, right
+      filename: pdfFilename,
+      image: { type: 'jpeg', quality: 0.98 },
+      html2canvas: { scale: 2, scrollY: 0, useCORS: true },
+      jsPDF: { unit: 'mm', format: 'letter', orientation: 'portrait' },
+      pagebreak: { mode: ['avoid-all', 'css', 'legacy']}
+    };
+
+    UIkit.notification({message: '<span uk-icon=\'icon: file-pdf\' class=\'uk-text-primary\'></span> Generando PDF...', status: 'primary', pos: 'top-center', timeout: 0});
+
+    // Clonar el elemento para no modificar el original
+    const clonedElement = element.cloneNode(true);
+    const sections = Array.from(clonedElement.children);
+
+    try {
+      let pdf;
+      if (sections.length > 5) {
+        let worker = html2pdf().set(options);
+
+        const processInBatches = async () => {
+          const batchSize = 5;
+          for (let i = 0; i < sections.length; i += batchSize) {
+            const batchElement = document.createElement('div');
+            const batchSections = sections.slice(i, i + batchSize);
+            batchSections.forEach(section => batchElement.appendChild(section.cloneNode(true)));
+            await worker.from(batchElement).toContainer().toCanvas().toPdf().get('pdf').then((pdfResult) => {
+              if (!pdf) {
+                pdf = pdfResult;
+              } else {
+                const pdfPages = pdfResult.internal.pages;
+                pdfPages.shift(); // Remove the first blank page
+                pdfPages.forEach(page => pdf.addPage().addPage(page));
+              }
+              if (i + batchSize < sections.length) {
+                pdf.addPage();
+              }
+            });
+          }
+        };
+        await processInBatches();
+      } else {
+        pdf = await html2pdf().set(options).from(clonedElement).toPdf().get('pdf');
+      }
+
+      const totalPages = pdf.internal.getNumberOfPages();
+
+      for (let i = 1; i <= totalPages; i++) {
+        pdf.setPage(i);
+        pdf.setFontSize(10);
+        pdf.setTextColor(150);
+        pdf.text(`${document.title}`, 22, 12);
+        pdf.text(`${doc_version}`, pdf.internal.pageSize.getWidth() - 37, 12);
+        pdf.line(22, 16, pdf.internal.pageSize.getWidth() - 20 , 16);
+        pdf.line(22, pdf.internal.pageSize.getHeight() - 16, pdf.internal.pageSize.getWidth() - 20 , pdf.internal.pageSize.getHeight() - 16);
+        pdf.text(`${company}`, 22, pdf.internal.pageSize.getHeight() - 10);
+        pdf.text(`${i} / ${totalPages}`, pdf.internal.pageSize.getWidth() - 26, pdf.internal.pageSize.getHeight() - 10);
+      }
+
+      await pdf.save(options.filename);
+
+      UIkit.notification.closeAll();
+      UIkit.notification({message: '<span uk-icon=\'icon: check\' class=\'uk-text-success\'></span> PDF generado con éxito!', status: 'success', pos: 'top-center', timeout: 3000});
+    } catch (err) {
+      console.error('Error al generar PDF:', err);
+      UIkit.notification.closeAll();
+      UIkit.notification({message: '<span uk-icon=\'icon: warning\' class=\'uk-text-danger\'></span> Error al generar PDF. Por favor, intente de nuevo.', status: 'danger', pos: 'top-center', timeout: 3000});
+    } finally {
+      elementsToHide.forEach(el => el.classList.remove('hide-in-pdf'));
+    }
+  });
+});
+</script>
                     </div>
+
 
                     <div class="article-content link-primary">
                         <p>Se suministra información detallada del formulario Servicio Solicitado. Dicha información, especifica claramente el servicio solicitado, así como también el Centro de Servicio responsable de atender la OT.</p>
@@ -612,32 +795,32 @@ function searchResults(form) {
 <p><strong>En esta sección</strong></p>
 
 <ul>
-  <li>Formulario Servicio Solicitado.</li>
+  <li>Formulario Servicio Solicitado para usuarios relacionados por Centro de Costo y por Compañía.</li>
   <li>Campos de Servicio Solicitado</li>
   <li>Campos de Información de Activo/Equipo</li>
 </ul>
 
 <iframe width="600" height="340" src="https://www.youtube.com/embed/qI6bSmrxgyY?si=4KDOC6Oug-5x0Pox" title="Actualizar perfil y crear órdenes de trabajo para usuarios relacionados por centro de costo" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" uk-responsive=""></iframe>
 
+<p><br /></p>
+
+<p>Ingrese a <strong>AMsi</strong> y elija la opción <strong>Crear Nueva Orden</strong>.</p>
+
+<p><img src="../../assets/images/cap12/chp12_img20.png" alt="Procesar imagen" />
+<em><strong>Imagen 32. Crear Nueva Orden</strong></em></p>
+
 <p>Este formulario trae los datos del solicitante previamente logueado en la ventana de acceso al <strong>AMsi</strong>. Contiene la información personal del solicitante, información del servicio solicitado, información del Activo/Equipo objeto de la OT de mantenimiento.</p>
 
 <p>Todos los campos marcados con asterisco (*) son de carácter obligatorio.</p>
 
-<p>Una vez ingresados los datos del solicitante de manera correcta en el botón del Menú principal <strong>Actualizar Perfil</strong> <em>(Consultar la sección Actualizar Perfil)</em>. Continuar dando un clic a la siguiente opción ubicada al lado derecho para continuar con la Creación de la OT:</p>
+<p>Una vez ingresados los datos del solicitante de manera correcta en el botón del Menú principal <strong>Actualizar Perfil</strong> <em>(Consultar la sección Actualizar Perfil)</em>.</p>
 
-<p><img src="../../assets/images/cap12/chp12_img20.png" alt="Procesar imagen" />
-<em><strong>Imagen 20. Crear Nueva Orden</strong></em></p>
-
-<h3 id="71-ventana-creación-de-la-orden-de-trabajo">7.1	Ventana Creación de la Orden de Trabajo</h3>
+<h3 id="campos-del-formulario-datos-del-solicitante--para-usuarios-relacionado-por-centros-de-costo">Campos Del Formulario <em>Datos Del Solicitante</em>  para usuarios relacionado por Centros de Costo</h3>
 
 <p><img src="../../assets/images/cap12/chp12_img21.png" alt="Procesar imagen" />
-<em><strong>Imagen 21. Ventana Creación OT</strong></em></p>
+<em><strong>Imagen 33. Ventana Creación OT</strong></em></p>
 
-<p>A esta ventana se llega haciendo clic sobre la opción <strong>Crear Nueva Orden</strong> en el Menú Principal. A través de ella se ejecutan todas las funciones dedicadas a la creación de la OT. A continuación, se describen los campos que componen esta ventana Creación de OT. Sobre cada campo se da una breve explicación:</p>
-
-<h3 id="campos-del-formulario-datos-del-solicitante">Campos Del Formulario <em>Datos Del Solicitante</em></h3>
-
-<p>Este cuadro es informativo y hace referencia a los <em>Datos del Solicitante</em> necesarios para la creación de una OT y que fueron ingresados en <strong>Actualizar Perfil</strong> visto en el tercer capítulo. Contiene la información personal del solicitante y todos los campos se encuentran bloqueados.</p>
+<p>A continuación, se describen los campos que componen esta ventana Creación de OT. Sobre cada campo se da una breve explicación:</p>
 
 <p><strong>Nro. Documento:</strong> Este campo muestra el número de Identificación de la persona solicitante.</p>
 
@@ -647,10 +830,11 @@ function searchResults(form) {
 
 <p><strong>Dirección:</strong> Este campo muestra la dirección asignada y que corresponde a la organización a la cual pertenece la persona solicitante.</p>
 
-<p><strong>Ciudad:</strong> Este campo muestra la ciudad asignada y en la cual vive el solicitante o está ubicada la institución para la cual labora.
-Correo Electrónico: Este campo muestra la Dirección de correo electrónico asignada a la persona solicitante por la organización, o bien, correo personal del solicitante en caso de no tener una cuenta de correo electrónico corporativa.</p>
+<p><strong>Ciudad:</strong> Este campo muestra la ciudad asignada y en la cual vive el solicitante o está ubicada la institución para la cual labora.</p>
 
-<h3 id="campos-del-formulario-servicio-solicitado">Campos Del Formulario Servicio Solicitado</h3>
+<p><strong>Correo Electrónico:</strong> Este campo muestra la Dirección de correo electrónico asignada a la* persona solicitante por la organización, o bien, correo personal del solicitante en caso de no tener una cuenta de correo electrónico corporativa.</p>
+
+<h3 id="campos-del-formulario-servicio-solicitado-para-usuarios-relacionados-por-centro-de-costo">Campos Del Formulario Servicio Solicitado para usuarios relacionados por Centro de Costo</h3>
 
 <p>El formulario <em>Servicio Solicitado</em>  hace referencia a los datos de la OT que se está creando.</p>
 
@@ -679,54 +863,141 @@ Existe control en todos los casos sobre el Centro de Costo, es decir, solo se de
 
 <p><strong>Prioridad:</strong> Este campo viene predefinido con las prioridades Alta, Media y Baja. Lo utiliza el programador de mantenimiento como guía para establecer la agilidad (normal o priorizada) en la asignación del recurso humano de mantenimiento para la ejecución del trabajo solicitado.</p>
 
-<p><strong>F/H Tentativa del Usuario:</strong> En este campo se asigna una fecha y hora que el usuario solicitante considere que el área de Mantenimiento le haga entrega de la OT realizada. Es un campo opcional de diligenciar.</p>
+<p><strong>F/H Tentativa del Usuario:</strong> En este campo se asigna una fecha y hora que el usuario solicitante considere que el área de Mantenimiento le haga entrega de la OT realizada. Es un campo opcional de diligenciar. Si el campo no aparece es porque no se habilitó en la configuración.</p>
 
-<p><a class="btn blue">enviar <span class="mdi mdi-send"></span></a> : Este botón envía inmediatamente la SS a la base de datos del AM para ser revisada por el área de mantenimiento encargada y proceder así con su análisis y asignación.
-Una vez enviada la OT, el sistema muestra un mensaje de notificación de registro exitoso, mostrando el número o consecutivo asignado. Se habilitan además las opciones de Crear Nueva Orden y Consultar Mis Solicitudes:</p>
+<p><a class="btn blue">Enviar <span class="mdi mdi-send"></span></a> : Este botón envía inmediatamente la OT a la base de datos del AM para ser revisada por el área de mantenimiento encargada y proceder así con su análisis y asignación.
+Una vez enviada la OT, el sistema muestra un mensaje de notificación de registro exitoso, mostrando el número o consecutivo asignado. Se habilitan además las opciones de <strong>Crear Nueva Orden</strong> y <strong>Consultar Mis Solicitudes:</strong></p>
 
 <p><img src="../../assets/images/cap12/chp12_img22.png" alt="Procesar imagen" />
-<em><strong>Imagen 22.</strong>  Mensaje registro OT</em></p>
+<em><strong>Imagen 34.</strong>  Mensaje registro OT</em></p>
 
-<p><strong>Botón Inicio  <span class="mdi mdi-home"></span> :</strong> Este botón lleva a la ventana de Menú Principal del Usuario.</p>
+<p><strong><span class="mdi mdi-home"></span> :</strong> Este botón lleva a la ventana de Menú Principal del Usuario.</p>
 
-<p><strong>Botón Cerrar Sesión  <span class="mdi mdi-exit-to-app"></span> :</strong> Este botón permite salir del aplicativo <strong>AMsi</strong>.</p>
+<p><strong><span class="mdi mdi-exit-to-app"></span> :</strong> Este botón permite salir del aplicativo <strong>AMsi</strong>.</p>
 
-<p><a class="btn blue">consultar Ordenes <span class="mdi mdi-account-box"></span></a> Este botón lo remite a una nueva ventana en la que puede realizar búsquedas y consultas de OT creadas previamente. Para mayor información al respecto se detalla en la sección de “Consultar Mis Órdenes” de este manual.</p>
+<p><a class="btn blue">CONSULTAR ORDENES <span class="mdi mdi-account-box"></span></a> Este botón lo remite a una nueva ventana en la que puede realizar búsquedas y consultas de OT creadas previamente. Para mayor información al respecto se detalla en la sección de “Consultar Mis Órdenes” de este manual.</p>
 
-<p><a class="btn blue">crear nueva orden <span class="mdi mdi-plus-circle-outline"></span></a> Se usa para crear nuevas OT. Aplica cuando se acaba de enviar una OT y se desea generar un nuevo registro en esa misma ventana.</p>
+<p><a class="btn blue"> CREAR NUEVA ORDEN<span class="mdi mdi-plus-circle-outline"></span></a> Se usa para crear nuevas OT. Aplica cuando se acaba de enviar una OT y se desea generar un nuevo registro en esa misma ventana.</p>
 
-<p><a class="btn blue">anexar multimedia <span class="mdi mdi-attachment"></span></a> : Permite una vez que se envíe la OT anexar archivos Multimedia, como documentos, imágenes o porciones de video siempre y cuando el usuario permanezca en esta ventana.</p>
+<p><a class="btn blue">ANEXAR MULTIMEDIA <span class="mdi mdi-attachment"></span></a> : Permite una vez que se envíe la OT anexar archivos Multimedia, como documentos, imágenes o porciones de video siempre y cuando el usuario permanezca en esta ventana.</p>
 
 <p>Para ingresar multimedia se debe dar doble clic sobre una de las tres carpetas.</p>
 
 <p><img src="../../assets/images/cap12/chp12_img23.png" alt="Procesar imagen" />
-<em><strong>Imagen 23.</strong> Ir a Multimedia</em></p>
+<em><strong>Imagen 35.</strong> Ir a Multimedia</em></p>
 
 <p>Se debe dar clic al botón <span class="mdi mdi-cloud-upload icon white"></span> para abrir el explorador de archivos:</p>
 
 <p><img src="../../assets/images/cap12/chp12_img2301.png" alt="Procesar imagen" />
-<em><strong>Imagen 24.</strong> Multimedia</em></p>
+<em><strong>Imagen 36.</strong> Multimedia</em></p>
 
 <p><img src="../../assets/images/cap12/chp12_img24.png" alt="Procesar imagen" />
-<em><strong>Imagen 25.</strong> Explorador Archivos</em></p>
+<em><strong>Imagen 37.</strong> Explorador Archivos</em></p>
 
 <p>Una vez elegido el archivo a adjuntar puede asignarse un nombre opcional en el espacio en blanco a continuación:</p>
 
 <p><img src="../../assets/images/cap12/chp12_img25.png" alt="Procesar imagen" />
-<em><strong>Imagen 26.</strong> Nombrar archivo</em></p>
+<em><strong>Imagen 38.</strong> Nombrar archivo</em></p>
 
 <p>Luego se debe dar clic en el botón <a class="btn white">subir archivo</a>  y el sistema confirmará a través de un mensaje que el archivo ha sido subido correctamente:</p>
 
 <p><img src="../../assets/images/cap12/chp12_img26.png" alt="Procesar imagen" />
-<em><strong>Imagen 27.</strong> Mensaje Alerta Multimedia</em></p>
+<em><strong>Imagen 39.</strong> Mensaje Alerta Multimedia</em></p>
 
 <h4 id="creación-de-órdenes-de-trabajo-para-usuarios-relacionados-por-compañía">Creación de Órdenes de Trabajo para Usuarios relacionados por Compañía</h4>
 
 <iframe width="600" height="340" src="https://www.youtube.com/embed/lamMeqB2G18?si=-6AdZbxP2bT4y9M1" title="Actualizar perfil y crear órdenes de trabajo para usuarios relacionados por compañía" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" uk-responsive=""></iframe>
 
+<p>Una vez ingrese a <strong>AMsi</strong> elija la opción <strong>Crear Nueva Orden</strong>, se visualiza el Formulario que muestra el detalle del servicio a solicitar:</p>
+
+<p><img src="../../assets/images/cap12/chp12_img26_01.png" alt="Procesar imagen" />
+<em><strong>Imagen 40.</strong> Formulario OT</em></p>
+
+<p>Se describen los campos a diligenciar:</p>
+
+<h3 id="campos-del-formulario-datos-del-solicitante">Campos del Formulario <em>Datos del Solicitante</em></h3>
+
+<p>Este recuadro es informativo y hace referencia a los Datos del Solicitante normalmente corporativos necesarios para la creación de una OT. <em>(Sección Actualizar Perfil)</em>.</p>
+
+<p><strong>Nro. Documento:</strong> Este campo muestra el número de Identificación de la persona solicitante.</p>
+
+<p><strong>Nombre Completo:</strong> Este campo muestra el Nombre completo de la persona que solicita un servicio de mantenimiento.</p>
+
+<p><strong>Teléfono:</strong> Este campo muestra el Número telefónico donde se puede localizar a la persona solicitante.</p>
+
+<p><strong>Dirección:</strong> Este campo muestra la dirección asignada y que corresponde a la organización a la cual pertenece la persona solicitante.</p>
+
+<p><strong>Ciudad:</strong> Este campo muestra la ciudad asignada y en la cual vive el solicitante o está ubicada la institución para la cual labora.</p>
+
+<p><strong>Correo Electrónico:</strong> Este campo muestra la Dirección de correo electrónico asignada a la persona solicitante por la organización, o el correo personal del solicitante en caso de no tener una cuenta de correo electrónico corporativa.</p>
+
+<h3 id="campos-del-formulario-servicio-solicitado-para-usuarios-relacionados-por-compañía">Campos Del Formulario <em>Servicio Solicitado</em> para usuarios relacionados por Compañía</h3>
+
+<p><strong>Centro de Servicio:</strong> Este campo solo es desplegable cuando el usuario tiene asociada o autorizada mas de una compañía. Se refiere a la compañía en <strong>AM</strong> a la que llega la OT.</p>
+
+<p><strong>Descripción:</strong> En este campo se digita en forma concreta el servicio de mantenimiento requerido. Se detalla el problema, inconveniente, necesidad o avería a ser atendida.</p>
+
+<p><strong>Activo/Equipo:</strong> En este campo se ingresa el  objeto de mantenimeinto relacionado a la OT.</p>
+
+<p>Para seleccionar el Activo dirijase al botón dando un clic <span class="mdi mdi-filter-variant icon white"></span> que se encuentra en la parte derecha del campo:</p>
+
+<p><img src="../../assets/images/cap12/chp12_img26_02.png" alt="Procesar imagen" />
+<em><strong>Imagen 41.</strong> Asociar Activo/Equipo a la OT</em></p>
+
+<p>La lista desplegada incluye los Activos/Equipos creados previamente en <strong>AM</strong> asociados a la compañía o centro de servicio referido en el formulario en estado activo y operante. En esta nueva ventana también hay posibilidad de hacer subgrupos <span class="mdi mdi-filter-variant"></span> o búsquedas rápidas que facilitan encontrar el Activo. (En la imagen anterior se muestra un Subgrupo dentro de la ventana detalle de Activos representado por el ícono <a class="btn bg-white fs-2"><span class="iconify btn-icon cl-black" data-icon="mdi-filter-variant"></span><span class="dot bg-af-red"></span></a> )</p>
+
+<p>Para seleccionar el Activo dar doble clic sobre el registro sombreado en verde. Cuando se cierra esta ventana automáticamente se observa que aparece el código y la descripción del Activo/Equipo, como se muestra a continuación:</p>
+
+<p><img src="../../assets/images/cap12/chp12_img26_03.png" alt="Procesar imagen" />
+<em><strong>Imagen 42.</strong> Formulario correctamente diligenciado</em></p>
+
+<p><strong>Prioridad:</strong> Este campo viene predefinido con las prioridades Alta, Media y Baja. Lo utiliza el programador de mantenimiento como guía para establecer la agilidad (normal o priorizada) en la asignación del recurso humano de mantenimiento para la ejecución del trabajo solicitado.</p>
+
+<p><strong>F/H Tentativa del Usuario:</strong> En este campo se asigna una fecha y hora que el usuario solicitante considere que el área de Mantenimiento le haga entrega de la solicitud realizada. Es un campo opcional de diligenciar y que es configurable por el usuario administrador. (En la imagen anterior se configuró para que el campo no aparezca).</p>
+
+<p>Una vez se diligencie el formulario accione el botón  <a class="btn blue">ENVIAR <span class="mdi mdi-send"></span></a>. Este botón envía inmediatamente la SS a la base de datos del AM para ser revisada por el área de mantenimiento encargada y proceder así con su análisis y asignación. Una vez enviada la SS, el sistema muestra un mensaje de notificación de registro exitoso, mostrando el número o consecutivo asignado a la OT.</p>
+
+<p>Después se habilitan las siguientes opciones:</p>
+
+<p><img src="../../assets/images/cap12/chp12_img26_04.png" alt="Procesar imagen" />
+<em><strong>Imagen 43.</strong> Envío de OT</em></p>
+
+<p><a class="btn blue">ANEXAR MULTIMEDIA <span class="mdi mdi-attachment"></span></a> : Permite una vez que se envíe la SS anexar archivos Multimedia, como documentos, imágenes o porciones de video siempre y cuando el usuario permanezca en esta ventana.</p>
+
+<p>Para ingresar multimedia se debe dar doble clic sobre una de las tres carpetas:</p>
+
+<p><img src="../../assets/images/cap12/chp12_img26_05.png" alt="Procesar imagen" />
+<em><strong>Imagen 44.</strong> Multimedia</em></p>
+
+<p>Luego, dar clic al botón <span class="mdi mdi-cloud-upload icon white"></span> para abrir el explorador de archivos:</p>
+
+<p><img src="../../assets/images/cap12/chp12_img26_06.png" alt="Procesar imagen" />
+<em><strong>Imagen 45.</strong> AMsi - Explorador de archivos</em></p>
+
+<p><img src="../../assets/images/cap12/chp12_img26_07.png" alt="Procesar imagen" />
+<em><strong>Imagen 46.</strong> AMsi - Subir archivo</em></p>
+
+<p>Despues de adjuntar el archivo puede asignarse un nombre opcional para hacer referencia clara de lo que se está adjuntando en el espacio en blanco que se muestra a continuación:</p>
+
+<p><img src="../../assets/images/cap12/chp12_img26_08.png" alt="Procesar imagen" />
+<em><strong>Imagen 47.</strong> Mensaje Alerta OT</em></p>
+
+<p>Luego, dar clic en el botón <a class="btn black">Subir archivo</a> y el sistema confirma a través de un mensaje que el archivo ha sido subido correctamente y continuar con <a class="btn bg-gray cl-black">ACEPTAR</a>:</p>
+
+<p><img src="../../assets/images/cap12/chp12_img26_09.png" alt="Procesar imagen" />
+<em><strong>Imagen 48.</strong> Mensaje registro OT</em></p>
+
+<p><a class="btn blue">CREAR NUEVA SOLICITUD <span class="mdi mdi-plus-circle-outline"></span></a> : Se usa para crear nuevas solicitudes de servicio. Aplica cuando se ha enviado una SS y se desea generar una nueva.</p>
+
+<p><a class="btn blue">CONSULTAR ORDENES <span class="mdi mdi-account-box"></span></a> : Este botón lo remite a una nueva ventana en la que puede realizar búsquedas y consultas de OT creadas previamente. Para mayor información al respecto se detalla en la sección de “Consultar Mis Ordenes” de este manual.</p>
+
+<p><strong><span class="mdi mdi-home"></span>:</strong> Este botón lleva a la ventana de Menú Principal.</p>
+
+<p><strong><span class="mdi mdi-exit-to-app"></span>:</strong> Este botón  permite salir de la aplicación <strong>AMsi</strong>.</p>
+
 
                         
-                            <div class="share uk-text-center uk-margin-medium-top">
+                            <div class="share uk-text-center uk-margin-medium-top no-print">
     
         <a class="uk-link-muted" href="https://twitter.com/intent/tweet?text=Crear Nueva Orden&url=http://localhost:4000/docs/15_07_create_a_new_order/&via=&related=" rel="nofollow" target="_blank" title="Compartir en Twitter" onclick="window.open(this.href, 'twitter', 'width=550,height=235');return false;"><span data-uk-icon="icon: twitter; ratio: 1.2"></span></a>
     
@@ -911,7 +1182,13 @@ Una vez enviada la OT, el sistema muestra un mensaje de notificación de registr
 
   
   
-    <div class="uk-margin-large-top paginate-post">
+
+  
+  
+
+  
+  
+    <div class="uk-margin-large-top paginate-post no-print">
         <div class="uk-child-width-expand@s uk-grid-large uk-pagi" data-uk-grid>
             <div>
                 
@@ -936,7 +1213,7 @@ Una vez enviada la OT, el sistema muestra un mensaje de notificación de registr
     
 
 
-                    <div class="uk-margin-large-top">
+                    <div class="uk-margin-large-top no-print">
     <h3>Temas relacionados</h3>
 
     
@@ -944,6 +1221,33 @@ Una vez enviada la OT, el sistema muestra un mensaje de notificación de registr
     
 
     <ul class="uk-list link-secondary">
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
     
 
     
@@ -1531,6 +1835,7 @@ Una vez enviada la OT, el sistema muestra un mensaje de notificación de registr
 
 
                     
+
                 </article>
 
                 <script>
@@ -1542,7 +1847,7 @@ Una vez enviada la OT, el sistema muestra un mensaje de notificación de registr
                 </script>
 
             </div>
-
+        </div>
     </div>
 </div>
 
@@ -1620,7 +1925,7 @@ Una vez enviada la OT, el sistema muestra un mensaje de notificación de registr
         
           
           
-          <li class=""><a href="/docs/03_04_parts_list/"></a></li>
+          <li class=""><a href="/docs/03_04_parts_list/">Codificación de Activos/Equipos y Generalidades</a></li>
         
           
           
@@ -1721,15 +2026,23 @@ Una vez enviada la OT, el sistema muestra un mensaje de notificación de registr
         
           
           
-          <li class=""><a href="/docs/09_03_analysis_and_generation/">Análisis y Generación de Órdenes de Trabajo Programadas</a></li>
+          <li class=""><a href="/docs/09_03_basic_concepts_analysis_and_generation/">Conceptos Básicos Análisis y Generación de Órdenes de Trabajo Programadas</a></li>
         
           
           
-          <li class=""><a href="/docs/09_04_main_window/">Ventana Principal de Órdenes de Trabajo</a></li>
+          <li class=""><a href="/docs/09_04_main_window/">Ventana Principal</a></li>
         
           
           
-          <li class=""><a href=""></a></li>
+          <li class=""><a href="/docs/09_05_partial_views/">Vistas Parciales</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/09_06_transactions/">Transacciones</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/09_07_export_and_log_file/">Exportar y Reportes</a></li>
         
         </ul>
         
@@ -1849,7 +2162,7 @@ Una vez enviada la OT, el sistema muestra un mensaje de notificación de registr
         
           
           
-          <li class=""><a href="/docs/15_11_logout/">Exportar Visor de SS/OT</a></li>
+          <li class=""><a href="/docs/15_11_export/">Exportar Visor de SS/OT</a></li>
         
         </ul>
         

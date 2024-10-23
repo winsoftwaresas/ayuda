@@ -19,7 +19,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Publicaciones del registro de cambios" />
 <script type="application/ld+json">
-{"headline":"Publicaciones del registro de cambios","author":{"@type":"Person","name":"WIN Software"},"@type":"WebPage","description":"Centro de ayuda.","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/winsoftware_logo.svg"},"name":"WIN Software"},"url":"http://localhost:4000/changelog-posts/","@context":"https://schema.org"}</script>
+{"author":{"@type":"Person","name":"WIN Software"},"@type":"WebPage","description":"Centro de ayuda.","url":"http://localhost:4000/changelog-posts/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/winsoftware_logo.svg"},"name":"WIN Software"},"headline":"Publicaciones del registro de cambios","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <meta property="og:image" content="http://localhost:4000/uploads/winsoftware_logo.svg"/>
@@ -29,6 +29,8 @@
   <link rel="alternate" type="application/rss+xml" title="AM" href="/feed.xml">
   <script src="//code.iconify.design/1/1.0.6/iconify.min.js"></script>
   <script src="/assets/js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+  <link rel="stylesheet" href="/assets/css/pdf-styles.css">
   
     <script>
 function searchResults(form) {
@@ -131,12 +133,77 @@ function searchResults(form) {
   <!-- Hook head -->
   
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+    <style>
+      .uk-notification {
+      position: fixed;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 9999;
+      box-sizing: border-box;
+      width: 350px;
+      max-width: 90%;
+    }
+
+    .uk-notification-message {
+      position: relative;
+      padding: 10px;
+      background: #f8f8f8;
+      color: #666;
+      font-size: 1.2rem;
+      line-height: 1.4;
+      cursor: pointer;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      border-radius: 10px;
+      border: 2px solid;
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .uk-notification-message-primary {
+      border-color: #1e87f0;
+    }
+
+    .uk-notification-message-success {
+      border-color: #32d296;
+    }
+
+    .uk-notification-message-danger {
+      border-color: #f0506e;
+    }
+
+    .uk-notification-message-warning {
+      border-color: #faa05a;
+    }
+
+    .uk-notification-close {
+      margin-left: 10px;
+    }
+    </style>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const images = document.querySelectorAll('img');
+        images.forEach(img => {
+          if (!img.hasAttribute('crossorigin')) {
+            img.setAttribute('crossorigin', 'anonymous');
+          }
+          // Convertir URLs absolutas locales a relativas
+          if (img.src.startsWith('http://localhost:4000')) {
+            img.src = img.src.replace('http://localhost:4000', '');
+          }
+        });
+      });
+    </script>
 <script src="http://127.0.0.1:35729/livereload.js"></script></head>
 
     <body>
 
     
-        <div data-uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent; top: 200">
+        <div data-uk-sticky="no-print animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent; top: 200">
     <nav class="uk-navbar-container">
         <div class="uk-container">
             <div data-uk-navbar>
@@ -251,6 +318,560 @@ function searchResults(form) {
         </div>
 
         
+        
+            <article class="uk-article uk-margin-medium-top">
+                <hr class="uk-margin-medium-bottom">
+                <div class="uk-position-relative">
+                    <h2>AM4G Versión 1.3 Cambios y Adiciones</h2>
+                    <div class="uk-position-center-left-out uk-position-large uk-visible@m uk-text-small uk-text-muted">
+                        
+                    </div>
+                    <div class="uk-hidden@m uk-text-small uk-text-muted uk-margin-bottom">
+                        
+                    </div>
+                </div> 
+                <div class="article-content"><p><strong>MODULO DE AMSI</strong></p>
+
+<ul>
+  <li>Se desarrolla la funcionalidad para relacionar <strong>Responsables</strong> de manera automática a las solicitudes de Servicio creadas en el módulo de AMsi.</li>
+</ul>
+
+<p>El usuario administrador de la Compañía debe configurar en la tabla de Valores por defecto de la compañía, en la opción de Solicitudes como Si a la Opción <strong>Llevar automáticamente Responsable de Centro de Costo a las Solicitudes creadas desde AMsi y Enviar correo al Responsable asociado.</strong></p>
+
+<p><img src="../../assets/images/Version1.3/Imagen1.png" alt="Procesar imagen" /></p>
+
+<ul>
+  <li>El usuario administrador de la compañía debe relacionar los responsables a los Centros de Costo respectivos, es importante recordar que para generar esta relación los Centros de Costo deben ser de tipo <strong>Mantenimiento.</strong></li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen2.png" alt="Procesar imagen" /></p>
+
+<ul>
+  <li>Los usuarios de AMsi realizaran la solicitud de forma habitual.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen3.png" alt="Procesar imagen" /></p>
+
+<ul>
+  <li>El sistema relacionara automáticamente el Responsable del Centro de Costo al cual llega la solicitud como el Responsable de la Solicitud creada.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen4.png" alt="Procesar imagen" /></p>
+
+<ul>
+  <li>El sistema enviara automaticamente un correo al email registrado del Responsable.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen5.png" alt="Procesar imagen" /></p>
+
+<p><strong>MODULO DE INFRAESTRUCTURA</strong></p>
+
+<p><strong>CONTRATOS</strong></p>
+
+<ul>
+  <li>Se permite a los Usuarios definir si el Contrato se destina al Consumo de Combustibles, de ser así llevara el Control de Gasto del contrato según las relaciones realizadas en el módulo de Consumo de Combustibles.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen6.png" alt="Procesar imagen" /></p>
+
+<ul>
+  <li>Se crea un Indicador para los contratos que estén definidos para Combustibles.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen7.png" alt="Procesar imagen" /></p>
+
+<p><strong>TERCEROS</strong></p>
+
+<ul>
+  <li>Se amplia el tamaño del campo email para permitir hasta 100 caracteres.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen8.png" alt="Procesar imagen" /></p>
+
+<p><strong>UNIDAD DE MEDIDA</strong></p>
+
+<ul>
+  <li>El usuario puede definir si la Unidad de Medida se debe listar en para la relación con  Combustibles</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen9.png" alt="Procesar imagen" /></p>
+
+<p><strong>COMBUSTIBLES</strong></p>
+
+<ul>
+  <li>El usuario debe definir los tipos de Combustibles que  se relacionaran en las Consumos de Combustibles.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen10.png" alt="Procesar imagen" /></p>
+
+<ul>
+  <li>En esta opción se listarán los Tipos de Combustible que el usuario defina.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen11.png" alt="Procesar imagen" /></p>
+
+<ul>
+  <li>En el detalle del Combustible se debe definir, el nombre, el valor y la unidad de medida que se relacionaran a este tipo de combustible.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen12.png" alt="Procesar imagen" /></p>
+
+<p><strong>MODULO DE ACTIVOS</strong></p>
+
+<ul>
+  <li>Se adiciona el campo Fecha de Vencimiento para el Registro Invima</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen13.png" alt="Procesar imagen" /></p>
+
+<ul>
+  <li>Se desarrolla el reporte ACU-MYMO – Resumen de Activos con Marca y Modelo; el cual adiciona el valor de la característica técnica <strong>Consumo Energía.</strong></li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen14.png" alt="Procesar imagen" /></p>
+
+<p><strong>MODULO DE KARDEX</strong></p>
+
+<ul>
+  <li>Se adiciona la Columna Familia al Pop-UP para seleccionar los Materiales y Repuestos.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen15.png" alt="Procesar imagen" /></p>
+
+<ul>
+  <li>Se desarrolla el reporte KXU-IDCC – Informe Detallado Por Centro de Costo. El cual adiciona los campos de Recibido y Fecha al Detalle del registro y el Total de Cantidad al resumen de Centro de Costo.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen16.png" alt="Procesar imagen" /></p>
+
+<p><strong>MODULO DE COMBUSTIBLES</strong></p>
+
+<ul>
+  <li>El usuario administrador define si la Compañía registra el Consumo de Combustibles</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen17.png" alt="Procesar imagen" /></p>
+
+<ul>
+  <li>Los usuarios podrán ver e interactuar con el módulo de Consumo de Combustibles</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen18.png" alt="Procesar imagen" /></p>
+
+<ul>
+  <li>La grilla listara los consumos registrados con su consecutivos, referencia, vehículo relacionado, fecha de consumo, conductor, tipo de combustible, cantidad, valor y contrato.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen19.png" alt="Procesar imagen" /></p>
+
+<ul>
+  <li>En el detalle el usuario debe registrar el vale de consumo, el contrato relacionado, la referencia, el vehículo relacionado, fecha de consumo, conductor, tipo de combustible, cantidad y valor</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen20.png" alt="Procesar imagen" /></p>
+
+<ul>
+  <li>Se permite a los usuarios usar filtros de búsqueda por: Atributos del Activo/Vehículo, vale, fecha de consumo, conductor, contrato y referencia.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen21.png" alt="Procesar imagen" /></p>
+
+<ul>
+  <li>El usuario puede exportar la grilla con las opciones de Referencia, Cod. Activo, Desc. Activo, conductor, fecha de consumo, tipo, cantidad, valor, total, kilómetros y contrato.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen22.png" alt="Procesar imagen" /></p>
+
+<ul>
+  <li>Se genera el reporte CMR-RPT – Resumen de Consumos de Combustible, el cual dará un resumen del consumo de combustible agrupado por Vehículo y meses, mostrando un total de Consumo en base a estas relaciones.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen23.png" alt="Procesar imagen" /></p>
+
+<p><strong>MODULO DE SOLICITUDES</strong></p>
+
+<ul>
+  <li>Se consulta al usuario al momento de cerrar la solicitud con OT, si desea que esta lleve Control presupuestal.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen24.png" alt="Procesar imagen" /></p>
+
+<ul>
+  <li>Se adiciona la validación para que el sistema no permita Cerrar una solicitud como Cerrada no Ejecutada; si esta no tiene un activo real relacionado.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen25.png" alt="Procesar imagen" /></p>
+
+<ul>
+  <li>Se adiciona el Indicador de Firma de Técnico a la grilla de Solicitudes.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen26.png" alt="Procesar imagen" /></p>
+
+<p><strong>MODULO ORDENES DE TRABAJO</strong></p>
+
+<ul>
+  <li>Se adiciona el campo De <strong>Técnico Externo</strong> a las Ordenes de Trabajo, este técnico esta relacionado a los <strong>Terceros Externos</strong> seleccionados como Responsables de la Orden de Trabajo, según los técnicos registrados a este Tercero.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen27.png" alt="Procesar imagen" /></p>
+
+<ul>
+  <li>Se adiciona el Indicador de Firma de Técnico a la grilla de Ordenes de Trabajo</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen28.png" alt="Procesar imagen" /></p>
+
+<ul>
+  <li>Se adiciona el reporte OTU-MPICAT – Detalle Orden De Trabajo Pre-Ejecución con Acciones Técnicas.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen29.png" alt="Procesar imagen" /></p>
+
+<p><strong>MODULO DE HISTORIA</strong></p>
+
+<ul>
+  <li>Se adiciona el campo De <strong>Técnico Externo</strong> a las Ordenes de Trabajo, este técnico está relacionado a los <strong>Terceros Externos</strong> seleccionados como Responsables de la Orden de Trabajo, según los técnicos registrados a este Tercero.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen30.png" alt="Procesar imagen" /></p>
+
+<ul>
+  <li>Se adiciona el Indicador de Firma de Técnico a la grilla de Historia.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen31.png" alt="Procesar imagen" /></p>
+
+<ul>
+  <li>Se adicionan nuevo Submódulo en Historia con Indicadores gráficos.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen32.png" alt="Procesar imagen" /></p>
+
+<p><strong>Total actividades por tipo de registro.</strong></p>
+
+<ul>
+  <li>Muestra la cantidad de actividades clasificadas según su tipo de registro, lo que facilita el análisis del uso de diferentes registros.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen33.png" alt="Procesar imagen" /></p>
+
+<p><strong>Total de actividades de un periodo clasificadas por estado en historia.</strong></p>
+
+<ul>
+  <li>Presenta las actividades realizadas en un periodo específico, clasificadas por su estado en el historial.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen34.png" alt="Procesar imagen" /></p>
+
+<p><strong>Total de actividades agrupadas por estados .</strong></p>
+
+<ul>
+  <li>Agrupa las actividades de acuerdo con su estado actual, proporcionando una visión clara de la distribución de las actividades según su avance.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen35.png" alt="Procesar imagen" /></p>
+
+<p><strong>Total de actividades agrupadas por centro de costo.</strong></p>
+
+<ul>
+  <li>Clasifica las actividades según los diferentes centros de costo, mostrando la carga de trabajo asignada a cada uno.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen36.png" alt="Procesar imagen" /></p>
+
+<p><strong>Total de actividades agrupadas por centros responsables .</strong></p>
+
+<ul>
+  <li>Muestra la cantidad total de actividades gestionadas por los diferentes centros responsables, ayudando a identificar áreas de alta o baja actividad.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen37.png" alt="Procesar imagen" /></p>
+
+<p><strong>Actividades del responsable por centro responsable</strong></p>
+
+<ul>
+  <li>Detalla las actividades asignadas a cada responsable dentro de un centro, permitiendo un análisis más específico de la distribución del trabajo.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen38.png" alt="Procesar imagen" /></p>
+
+<p><strong>Total de solicitudes clasificadas por estados.</strong></p>
+
+<ul>
+  <li>Presenta el total de solicitudes, organizadas por su estado actual, facilitando el monitoreo de solicitudes en diferentes fases del proceso.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen39.png" alt="Procesar imagen" /></p>
+
+<p><strong>Total de ordenes generadas desde Solicitudes.</strong></p>
+
+<ul>
+  <li>Muestra la cantidad total de órdenes que se han generado a partir de solicitudes, lo que permite evaluar la efectividad del flujo de trabajo desde la solicitud hasta la orden.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen40.png" alt="Procesar imagen" /></p>
+
+<p><strong>Total de órdenes.</strong></p>
+
+<ul>
+  <li>Proporciona una vista general del total de órdenes generadas, sin distinción de periodo o estado.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen41.png" alt="Procesar imagen" /></p>
+
+<p><strong>Total de órdenes del mes actual.</strong></p>
+
+<ul>
+  <li>Presenta el número total de órdenes generadas durante el mes actual, proporcionando un indicador del rendimiento mensual.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen42.png" alt="Procesar imagen" /></p>
+
+<p><strong>Total de órdenes meses anteriores</strong></p>
+
+<ul>
+  <li>Muestra el número total de órdenes generadas en meses previos, facilitando el análisis comparativo con el mes actual.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen43.png" alt="Procesar imagen" /></p>
+
+<p><strong>Total de actividades agrupadas por tipo de mantenimiento.</strong></p>
+
+<ul>
+  <li>Clasifica las actividades según el tipo de mantenimiento (preventivo, correctivo, etc.), mostrando la proporción de cada uno.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen44.png" alt="Procesar imagen" /></p>
+
+<p><strong>Total de ordenes clasificadas por tipo de mantenimiento.</strong></p>
+
+<ul>
+  <li>Presenta las órdenes agrupadas por su tipo de mantenimiento, permitiendo analizar las prioridades y enfoques en el trabajo.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen45.png" alt="Procesar imagen" /></p>
+
+<p><strong>Periodo de ordenes por TM</strong></p>
+
+<ul>
+  <li>Muestra las órdenes realizadas durante diferentes periodos, clasificadas por tipo de mantenimiento, lo que permite observar tendencias a lo largo del tiempo.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen46.png" alt="Procesar imagen" /></p>
+
+<p>**Periodo de ordenes por TM en historia **</p>
+
+<ul>
+  <li>Proporciona una visión histórica de las órdenes generadas por tipo de mantenimiento, permitiendo un análisis detallado del desempeño en distintos periodos</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen47.png" alt="Procesar imagen" /></p>
+
+<p>**Se adicionan nuevo Submódulo en Historia con Indicadores de Eficiencia por Tipo de Mantenimiento.
+**</p>
+
+<p><img src="../../assets/images/Version1.3/Imagen48.png" alt="Procesar imagen" /></p>
+
+<p><strong>Total de ordenes preventivas clasificadas por estados en ordenes e historia.</strong></p>
+
+<ul>
+  <li>Muestra el total de órdenes preventivas, organizadas según su estado actual y su historial, lo que permite evaluar el seguimiento y la finalización de tareas preventivas.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen49.png" alt="Procesar imagen" /></p>
+
+<p><strong>Total de ordenes preventivas ejecutadas.</strong></p>
+
+<ul>
+  <li>Presenta el número total de órdenes preventivas que han sido completadas, proporcionando una visión clara de la eficiencia en la ejecución de estas tareas.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen50.png" alt="Procesar imagen" /></p>
+
+<p><strong>Total de actividades correctivas clasificadas por estado.</strong></p>
+
+<ul>
+  <li>Clasifica las actividades correctivas según su estado, destacando el progreso y la resolución de problemas operacionales.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen51.png" alt="Procesar imagen" /></p>
+
+<p><strong>Total de actividades correctivas ejecutadas clasificadas por estado.</strong></p>
+
+<ul>
+  <li>Muestra las actividades correctivas que han sido completadas, organizadas por estado, lo que permite analizar la eficiencia en la respuesta a correcciones necesarias</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen52.png" alt="Procesar imagen" /></p>
+
+<p><strong>MODULO DE ADMINSITRACION</strong></p>
+
+<ul>
+  <li>El usuario administrador debe definir si las Ordenes creadas desde AMovil tienen o no Control Presupuestal.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen53.png" alt="Procesar imagen" /></p>
+
+<ul>
+  <li>El usuario administrador debe definir si los técnicos en AMovil pueden o no Modificar los activos y el responsable de las Solicitudes de Servicio</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen54.png" alt="Procesar imagen" /></p>
+
+<ul>
+  <li>El usuario administrador debe definir si los técnicos en AMovil pueden o no Modificar los activos y el responsable de las Ordenes de Trabajo.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen55.png" alt="Procesar imagen" /></p>
+
+<ul>
+  <li>El usuario administrador puede definir por Compañía el mensaje de contacto que se enviara en las notificaciones por correo.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen56.png" alt="Procesar imagen" /></p>
+
+<p><strong>NUEVOS DISEÑOS DE LAS NOTIFICACIONES POR CORREO ELECTRONICO</strong></p>
+
+<p><strong>Creación de la Solicitud</strong></p>
+
+<p>Este correo se envía al solicitante cuando se crea una nueva solicitud de servicio.</p>
+
+<p><img src="../../assets/images/Version1.3/Imagen57.png" alt="Procesar imagen" /></p>
+
+<p><strong>Asignación de la Solicitud</strong></p>
+
+<ul>
+  <li>Este correo se envía al solicitante cuando se asigna un responsable a la solicitud de servicio.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen58.png" alt="Procesar imagen" /></p>
+
+<p><strong>Modificación de la Solicitud</strong></p>
+
+<ul>
+  <li>Este correo se envía al solicitante cuando se modifica el estado de la solicitud.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen59.png" alt="Procesar imagen" /></p>
+
+<p><strong>Cierre de la Solicitud</strong></p>
+
+<ul>
+  <li>Este correo se envía al solicitante cuando se cierra una solicitud.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen60.png" alt="Procesar imagen" /></p>
+
+<p><strong>Cierre de la Solicitud con OT</strong></p>
+
+<ul>
+  <li>Este correo se envía al solicitante cuando se cierra la solicitud de servicio con OT.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen61.png" alt="Procesar imagen" /></p>
+
+<p><strong>Comentario a la Solicitud</strong></p>
+
+<ul>
+  <li>Este correo se envía al solicitante cuando se anexa un comentario a la solicitud de servicio.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen62.png" alt="Procesar imagen" /></p>
+
+<p><strong>Asignación de la Solicitud</strong></p>
+
+<ul>
+  <li>Este correo se envía al responsable cuando se le asigna una solicitud de servicio.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen63.png" alt="Procesar imagen" /></p>
+
+<p><strong>Modificación de la Solicitud</strong></p>
+
+<p>-﻿ Este correo se envía al responsable cuando se modifica el estado de la solicitud de servicio.</p>
+
+<p><img src="../../assets/images/Version1.3/Imagen64.png" alt="Procesar imagen" /></p>
+
+<p><strong>Cierre de la Solicitud</strong></p>
+
+<p>-﻿ Este correo se envía al responsable cuando se cierra una solicitud de servicio.</p>
+
+<p><img src="../../assets/images/Version1.3/Imagen65.png" alt="Procesar imagen" /></p>
+
+<p><strong>Cierre de la Solicitud con OT</strong></p>
+
+<ul>
+  <li>Este correo se envía al responsable cuando se cierra la solicitud de servicio con OT.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen66.png" alt="Procesar imagen" /></p>
+
+<p><strong>Creación de la Orden</strong></p>
+
+<ul>
+  <li>Este correo se envía al solicitante cuando se crea la orden de trabajo.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen68.png" alt="Procesar imagen" /></p>
+
+<p><strong>Asignación de la orden</strong></p>
+
+<ul>
+  <li>Este correo se envía al solicitante cuando se asigna un responsable a la orden de trabajo.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen69.png" alt="Procesar imagen" /></p>
+
+<p><strong>Modificación de la Orden</strong></p>
+
+<ul>
+  <li>Este correo se envía al solicitante cuando se modifica el estado de la orden de trabajo.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen70.png" alt="Procesar imagen" /></p>
+
+<p><strong>Cierre de la Orden</strong></p>
+
+<ul>
+  <li>Este correo se envía al solicitante cuando se cierra una orden de trabajo.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen71.png" alt="Procesar imagen" /></p>
+
+<p><strong>Comentario de la Orden</strong></p>
+
+<ul>
+  <li>Este correo se le envía al solicitante cuando se anexa un comentario a la orden de trabajo.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen72.png" alt="Procesar imagen" /></p>
+
+<p><strong>Asignación de la Orden</strong></p>
+
+<ul>
+  <li>Este correo se envía cuando se asigna un responsable a la orden de trabajo.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen73.png" alt="Procesar imagen" /></p>
+
+<p><strong>Modificación de la Orden</strong></p>
+
+<ul>
+  <li>Este correo se envía al responsable cuando se modifica el estado de la orden de trabajo.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen74.png" alt="Procesar imagen" /></p>
+
+<p><strong>Cierre de la Orden</strong></p>
+
+<ul>
+  <li>Este correo se envía al responsable cuando se cierra una orden de trabajo.</li>
+</ul>
+
+<p><img src="../../assets/images/Version1.3/Imagen75.png" alt="Procesar imagen" /></p>
+</div>
+            </article>
         
             <article class="uk-article uk-margin-medium-top">
                 <hr class="uk-margin-medium-bottom">
@@ -2389,7 +3010,7 @@ Activo.</p>
         
           
           
-          <li class=""><a href="/docs/03_04_parts_list/"></a></li>
+          <li class=""><a href="/docs/03_04_parts_list/">Codificación de Activos/Equipos y Generalidades</a></li>
         
           
           
@@ -2490,15 +3111,23 @@ Activo.</p>
         
           
           
-          <li class=""><a href="/docs/09_03_analysis_and_generation/">Análisis y Generación de Órdenes de Trabajo Programadas</a></li>
+          <li class=""><a href="/docs/09_03_basic_concepts_analysis_and_generation/">Conceptos Básicos Análisis y Generación de Órdenes de Trabajo Programadas</a></li>
         
           
           
-          <li class=""><a href="/docs/09_04_main_window/">Ventana Principal de Órdenes de Trabajo</a></li>
+          <li class=""><a href="/docs/09_04_main_window/">Ventana Principal</a></li>
         
           
           
-          <li class=""><a href=""></a></li>
+          <li class=""><a href="/docs/09_05_partial_views/">Vistas Parciales</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/09_06_transactions/">Transacciones</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/09_07_export_and_log_file/">Exportar y Reportes</a></li>
         
         </ul>
         
@@ -2618,7 +3247,7 @@ Activo.</p>
         
           
           
-          <li class=""><a href="/docs/15_11_logout/">Exportar Visor de SS/OT</a></li>
+          <li class=""><a href="/docs/15_11_export/">Exportar Visor de SS/OT</a></li>
         
         </ul>
         
@@ -2785,7 +3414,12 @@ Activo.</p>
 
             </div>
         </div>
-        <div class="uk-margin-medium uk-text-small copyright link-secondary">Made by <a href="https://winsoftware.com.co/">WIN Software</a>.</div>
+        <div class="uk-margin-medium uk-text-small copyright link-secondary" style="display: flex; justify-content: space-between; align-items: center;">
+            <span>Made by <a href="https://winsoftware.com.co/">WIN Software</a>.</span>
+            <span>
+              <a href="/pdf/AM%20-%20v1.3.pdf" class="uk-link-text">Descargar PDF</a>
+            </span>
+        </div>
 
     </div>
 </footer>

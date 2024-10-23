@@ -17,11 +17,11 @@
 <meta property="og:url" content="http://localhost:4000/docs/09_02_basic_concepts/" />
 <meta property="og:site_name" content="AM" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-08-15T21:12:59-05:00" />
+<meta property="article:published_time" content="2024-10-22T19:45:33-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Conceptos Básicos sobre Órdenes de Trabajo" />
 <script type="application/ld+json">
-{"headline":"Conceptos Básicos sobre Órdenes de Trabajo","dateModified":"2024-08-15T21:12:59-05:00","datePublished":"2024-08-15T21:12:59-05:00","author":{"@type":"Person","name":"win"},"@type":"BlogPosting","description":"Conceptos Básicos sobre Órdenes de Trabajo","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/winsoftware_logo.svg"},"name":"win"},"url":"http://localhost:4000/docs/09_02_basic_concepts/","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/docs/09_02_basic_concepts/"},"@context":"https://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/docs/09_02_basic_concepts/"},"author":{"@type":"Person","name":"win"},"@type":"BlogPosting","description":"Conceptos Básicos sobre Órdenes de Trabajo","url":"http://localhost:4000/docs/09_02_basic_concepts/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/winsoftware_logo.svg"},"name":"win"},"headline":"Conceptos Básicos sobre Órdenes de Trabajo","dateModified":"2024-10-22T19:45:33-05:00","datePublished":"2024-10-22T19:45:33-05:00","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <meta property="og:image" content="http://localhost:4000/uploads/winsoftware_logo.svg"/>
@@ -31,6 +31,8 @@
   <link rel="alternate" type="application/rss+xml" title="AM" href="/feed.xml">
   <script src="//code.iconify.design/1/1.0.6/iconify.min.js"></script>
   <script src="/assets/js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+  <link rel="stylesheet" href="/assets/css/pdf-styles.css">
   
     <script>
 function searchResults(form) {
@@ -133,12 +135,77 @@ function searchResults(form) {
   <!-- Hook head -->
   
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+    <style>
+      .uk-notification {
+      position: fixed;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 9999;
+      box-sizing: border-box;
+      width: 350px;
+      max-width: 90%;
+    }
+
+    .uk-notification-message {
+      position: relative;
+      padding: 10px;
+      background: #f8f8f8;
+      color: #666;
+      font-size: 1.2rem;
+      line-height: 1.4;
+      cursor: pointer;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      border-radius: 10px;
+      border: 2px solid;
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .uk-notification-message-primary {
+      border-color: #1e87f0;
+    }
+
+    .uk-notification-message-success {
+      border-color: #32d296;
+    }
+
+    .uk-notification-message-danger {
+      border-color: #f0506e;
+    }
+
+    .uk-notification-message-warning {
+      border-color: #faa05a;
+    }
+
+    .uk-notification-close {
+      margin-left: 10px;
+    }
+    </style>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const images = document.querySelectorAll('img');
+        images.forEach(img => {
+          if (!img.hasAttribute('crossorigin')) {
+            img.setAttribute('crossorigin', 'anonymous');
+          }
+          // Convertir URLs absolutas locales a relativas
+          if (img.src.startsWith('http://localhost:4000')) {
+            img.src = img.src.replace('http://localhost:4000', '');
+          }
+        });
+      });
+    </script>
 <script src="http://127.0.0.1:35729/livereload.js"></script></head>
 
     <body>
 
     
-        <div data-uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent; top: 200">
+        <div data-uk-sticky="no-print animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent; top: 200">
     <nav class="uk-navbar-container">
         <div class="uk-container">
             <div data-uk-navbar>
@@ -316,7 +383,7 @@ function searchResults(form) {
                     
                       
                       
-                      <li class=""><a href="/docs/03_04_parts_list/"></a></li>
+                      <li class=""><a href="/docs/03_04_parts_list/">Codificación de Activos/Equipos y Generalidades</a></li>
                     
                       
                       
@@ -417,15 +484,23 @@ function searchResults(form) {
                     
                       
                       
-                      <li class=""><a href="/docs/09_03_analysis_and_generation/">Análisis y Generación de Órdenes de Trabajo Programadas</a></li>
+                      <li class=""><a href="/docs/09_03_basic_concepts_analysis_and_generation/">Conceptos Básicos Análisis y Generación de Órdenes de Trabajo Programadas</a></li>
                     
                       
                       
-                      <li class=""><a href="/docs/09_04_main_window/">Ventana Principal de Órdenes de Trabajo</a></li>
+                      <li class=""><a href="/docs/09_04_main_window/">Ventana Principal</a></li>
                     
                       
                       
-                      <li class=""><a href=""></a></li>
+                      <li class=""><a href="/docs/09_05_partial_views/">Vistas Parciales</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/09_06_transactions/">Transacciones</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/09_07_export_and_log_file/">Exportar y Reportes</a></li>
                     
                     </ul>
                     
@@ -545,7 +620,7 @@ function searchResults(form) {
                     
                       
                       
-                      <li class=""><a href="/docs/15_11_logout/">Exportar Visor de SS/OT</a></li>
+                      <li class=""><a href="/docs/15_11_export/">Exportar Visor de SS/OT</a></li>
                     
                     </ul>
                     
@@ -585,43 +660,150 @@ function searchResults(form) {
 
                     <p class="uk-text-lead uk-text-muted">En este módulo están disponibles para consulta y toma de decisiones todas las Órdenes de Trabajo activas.</p>
 
-                    <div class="uk-article-meta uk-margin-top uk-margin-medium-bottom uk-flex uk-flex-middle">
-                        
+                    <div class="uk-flex uk-flex-between uk-flex-middle">
+                        <div class="uk-article-meta uk-margin-top uk-margin-medium-bottom uk-flex uk-flex-middle">
+                                
 
 
   
-  <img class="uk-border-circle avatar" src="http://localhost:4000/uploads/winsoftware.png" alt="WIN Software">
+  <img class="uk-border-circle avatar" src="http://localhost:4000/uploads/winsoftwarex36.png" alt="WIN Software">
 
 
 <div>
   
     Escrito por <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">WIN Software</span></span><br>
   
-  <time datetime="2024-08-15T21:12:59-05:00" itemprop="datePublished">
+  <time datetime="" itemprop="datePublished">
     
-    Aug 15, 2024
+    
   </time>
 </div>
+                        </div>
+                        <button id="generatePdf" class="uk-button uk-button-primary uk-button-small no-print"><span data-uk-icon="icon: file-pdf" class="uk-icon"></span> PDF</button>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const generatePdfButton = document.getElementById('generatePdf');
+  const doc_version = "Version 1.3";
+  const company = "Win Software SAS";
+  const version_dir = "v1.3";
+
+  generatePdfButton.addEventListener('click', async function() {
+    const pdfFilename = '09_02_basic_concepts.pdf';
+    const pdfPath = `/pdf/${version_dir}/${pdfFilename}`;
+
+    // Verificar si el PDF ya existe
+    try {
+      const response = await fetch(pdfPath, { method: 'HEAD' });
+      if (response.ok) {
+        // El PDF existe, descargarlo directamente
+        UIkit.notification({message: '<span uk-icon=\'icon: download\' class=\'uk-text-primary\'></span> Descargando PDF existente...', status: 'primary', pos: 'top-center', timeout: 3000});
+        window.location.href = pdfPath;
+        return;
+      }
+    } catch (error) {
+      console.log('El PDF no existe, se generará uno nuevo.');
+    }
+
+    // Si llegamos aquí, el PDF no existe y necesitamos generarlo
+    const element = document.querySelector('.uk-article');
+    const elementsToHide = document.querySelectorAll('.no-print');
+    
+    elementsToHide.forEach(el => el.classList.add('hide-in-pdf'));
+
+    const options = {
+      margin: [20, 20, 20, 20], // top, left, bottom, right
+      filename: pdfFilename,
+      image: { type: 'jpeg', quality: 0.98 },
+      html2canvas: { scale: 2, scrollY: 0, useCORS: true },
+      jsPDF: { unit: 'mm', format: 'letter', orientation: 'portrait' },
+      pagebreak: { mode: ['avoid-all', 'css', 'legacy']}
+    };
+
+    UIkit.notification({message: '<span uk-icon=\'icon: file-pdf\' class=\'uk-text-primary\'></span> Generando PDF...', status: 'primary', pos: 'top-center', timeout: 0});
+
+    // Clonar el elemento para no modificar el original
+    const clonedElement = element.cloneNode(true);
+    const sections = Array.from(clonedElement.children);
+
+    try {
+      let pdf;
+      if (sections.length > 5) {
+        let worker = html2pdf().set(options);
+
+        const processInBatches = async () => {
+          const batchSize = 5;
+          for (let i = 0; i < sections.length; i += batchSize) {
+            const batchElement = document.createElement('div');
+            const batchSections = sections.slice(i, i + batchSize);
+            batchSections.forEach(section => batchElement.appendChild(section.cloneNode(true)));
+            await worker.from(batchElement).toContainer().toCanvas().toPdf().get('pdf').then((pdfResult) => {
+              if (!pdf) {
+                pdf = pdfResult;
+              } else {
+                const pdfPages = pdfResult.internal.pages;
+                pdfPages.shift(); // Remove the first blank page
+                pdfPages.forEach(page => pdf.addPage().addPage(page));
+              }
+              if (i + batchSize < sections.length) {
+                pdf.addPage();
+              }
+            });
+          }
+        };
+        await processInBatches();
+      } else {
+        pdf = await html2pdf().set(options).from(clonedElement).toPdf().get('pdf');
+      }
+
+      const totalPages = pdf.internal.getNumberOfPages();
+
+      for (let i = 1; i <= totalPages; i++) {
+        pdf.setPage(i);
+        pdf.setFontSize(10);
+        pdf.setTextColor(150);
+        pdf.text(`${document.title}`, 22, 12);
+        pdf.text(`${doc_version}`, pdf.internal.pageSize.getWidth() - 37, 12);
+        pdf.line(22, 16, pdf.internal.pageSize.getWidth() - 20 , 16);
+        pdf.line(22, pdf.internal.pageSize.getHeight() - 16, pdf.internal.pageSize.getWidth() - 20 , pdf.internal.pageSize.getHeight() - 16);
+        pdf.text(`${company}`, 22, pdf.internal.pageSize.getHeight() - 10);
+        pdf.text(`${i} / ${totalPages}`, pdf.internal.pageSize.getWidth() - 26, pdf.internal.pageSize.getHeight() - 10);
+      }
+
+      await pdf.save(options.filename);
+
+      UIkit.notification.closeAll();
+      UIkit.notification({message: '<span uk-icon=\'icon: check\' class=\'uk-text-success\'></span> PDF generado con éxito!', status: 'success', pos: 'top-center', timeout: 3000});
+    } catch (err) {
+      console.error('Error al generar PDF:', err);
+      UIkit.notification.closeAll();
+      UIkit.notification({message: '<span uk-icon=\'icon: warning\' class=\'uk-text-danger\'></span> Error al generar PDF. Por favor, intente de nuevo.', status: 'danger', pos: 'top-center', timeout: 3000});
+    } finally {
+      elementsToHide.forEach(el => el.classList.remove('hide-in-pdf'));
+    }
+  });
+});
+</script>
                     </div>
+
 
                     <div class="article-content link-primary">
                         <h1 id="conceptos-básicos-sobre-órdenes-de-trabajo">Conceptos Básicos sobre Órdenes de Trabajo</h1>
 
-<p>El módulo de Órdenes de Trabajo (<strong>OT</strong>) constituye el centro de actividad de la Gerencia de Mantenimiento. Es en este módulo es donde están disponibles para consulta y toma  de decisiones todas las Órdenes de Trabajo En Ejecucuión, Pendientes de Ejecución o ya Ejecutadas y listas para ser archivadas en la Historia de Mantenimiento. Se pueden consultar y agrupar por múltiples conceptos como:  Fecha  de  Generación, Responsable, Ubicación Física del Activo, Centro de Costo, Tipo de Trabajo, Tipo  de Mantenimiento, Tipo de Actividad, Centro de Responsabilidad, etc.</p>
+<p>El módulo de Órdenes de Trabajo (<strong>OT</strong>) constituye el centro de actividad de la Gerencia de Mantenimiento. Es en este módulo es donde están disponibles para consulta y toma  de decisiones todas las Órdenes de Trabajo En Ejecución, Pendientes de Ejecución o ya Ejecutadas y listas para ser archivadas en la Historia de Mantenimiento. Se pueden consultar y agrupar por múltiples conceptos como:  Fecha  de  Generación, Responsable, Ubicación Física del Activo, Centro de Costo, Tipo de Trabajo, Tipo de Mantenimiento, Tipo de Actividad, Centro de Responsabilidad, etc.</p>
 
 <p>Cuando se elige la opción Órdenes de Trabajo, es posible:</p>
 
 <ul>
   <li>Crear Órdenes de Trabajo Manuales (Para todos los tipos de Mantenimiento, incluyendo una opción para Preventivo Manual).</li>
-  <li>Buscar, seleccionar, revisar en general y detalladamente las Órdenes de Trabajo activas.</li>
+  <li>Buscar, seleccionar, revisar de manera general y detalladamente las Órdenes de Trabajo activas.</li>
   <li>Actualizar las Órdenes de Trabajo activas, en lo referente a tiempos, costos y comentarios sobre su ejecución.</li>
   <li>Liquidar y cerrar cada <strong>OT</strong> para ser enviada al archivo Histórico de Mantenimiento. Imprimir <strong>OT</strong> en cualquiera de las etapas de su ejecución, incluso después de haber sido cerradas, antes de ser enviadas a Historia de Mantenimiento.</li>
 </ul>
 
 <h2 id="tipo-de-trabajo-vs-tipo-de-mantenimiento-vs-tipo-de-actividad">Tipo de Trabajo vs Tipo de Mantenimiento vs Tipo de Actividad</h2>
 
-<p>Toda Órden de Trabajo debe tener un Tipo de Trabajo, un Tipo de Mantenimiento y un
-Tipo de Actividad.</p>
+<p>Toda Órden de Trabajo debe tener un Tipo de Trabajo, un Tipo de Mantenimiento y un Tipo de Actividad.</p>
 
 <h3 id="tipo-de-trabajo">Tipo de Trabajo</h3>
 
@@ -631,7 +813,7 @@ Tipo de Actividad.</p>
   <li>Mecánico <strong>(MEC)</strong>.</li>
   <li>Eléctrico <strong>(ELE)</strong>.</li>
   <li>Instrumentación/Electrónica <strong>(I/E)</strong></li>
-  <li>OTro <strong>(OTR)</strong>.</li>
+  <li>Otro <strong>(OTR)</strong>.</li>
 </ul>
 
 <p>Pueden  personalizarse, en la tabla <strong>“Tipos de Trabajo”</strong> del módulo de Infraestructura. Cada <strong>OT</strong> acepta la definición de uno o varios de estos Tipos de Trabajo, dependiendo de la naturaleza de la labor que se realice.</p>
@@ -642,9 +824,9 @@ Tipo de Actividad.</p>
 
 <h3 id="tipo-de-actividad">Tipo de Actividad</h3>
 
-<p>Una vez se define el Tipo de Trabajo y el Tipo de Mantenimiento, se procede a catalogar la labor por su Tipo de Actividad. Los Tipos de Actividad se administran desde Infraestructura, y son completamente personalizables por organización. El Tipo de Actividad se utiliza para agrupar las labores de Mantenimiento por  actividades genérica. Es a través de los Tipos de Actividad que se definen muchas actividades realizables por el departamento de  Mantenimiento, pero que en realidad no  constituyen una labor de Mantenimiento. <strong>AM</strong> predefine varios Tipos de Actividad. Para   mayor información, consultar el ítem correspondiente en Infraestructura.</p>
+<p>Una vez se define el Tipo de Trabajo y el Tipo de Mantenimiento, se procede a catalogar la labor por su Tipo de Actividad. Los Tipos de Actividad se administran desde Infraestructura, y son completamente personalizables por organización. El Tipo de Actividad se utiliza para agrupar las labores de Mantenimiento por  actividades genérica. Es a través de los Tipos de Actividad que se definen muchas actividades realizables por el departamento de  Mantenimiento, pero que en realidad no constituyen una labor de Mantenimiento. <strong>AM</strong> predefine varios Tipos de Actividad. Para mayor información, consultar el ítem correspondiente en Infraestructura.</p>
 
-<p>Así, toda Órden de Trabajo se discrimina en cuanto a su labor, con tres  agrupadores distintos: El Tipo de Trabajo, El Tipo de Mantenimiento y el Tipo de Actividad. Por ejemplo: Puede existir una Órden de Trabajo cuyos Tipos de Trabajo son: Mecánico y Eléctrico (es decir, realiza labores mecánicas y eléctricas), su Tipo de  Mantenimiento es Correctivo (debido a una falla del equipo) y su Tipo de Actividad  es <strong>IL-Iluminación</strong>(el daño que se presenta tiene que ver con iluminación).</p>
+<p>Así, toda Órden de Trabajo se discrimina en cuanto a su labor, con tres agrupadores distintos: El Tipo de Trabajo, El Tipo de Mantenimiento y el Tipo de Actividad. Por ejemplo: Puede existir una Órden de Trabajo cuyos Tipos de Trabajo son: Mecánico y Eléctrico (es decir, realiza labores mecánicas y eléctricas), su Tipo de  Mantenimiento es Correctivo (debido a una falla del equipo) y su Tipo de Actividad  es <strong>IL-Iluminación</strong>(el daño que se presenta tiene que ver con iluminación).</p>
 
 <p>Es posible también que en ocasiones el Tipo de Actividad sea el identificador determinante de la labor, en una Órden de Trabajo. En este  caso: se define el Tipo de Trabajo específico que corresponda; el Tipo de Mantenimiento se define como <strong>“OTRO”</strong>, después de lo cual se selecciona el Tipo de Actividad más adecuado.</p>
 
@@ -652,12 +834,11 @@ Tipo de Actividad.</p>
 
 <h2 id="órdenes-de-trabajo-manuales-vs-órdenes-de-trabajo-programadas">Órdenes de Trabajo Manuales vs Órdenes de Trabajo Programadas</h2>
 
-<p>El módulo de Órdenes de Trabajo Administra tanto las Órdenes generadas en forma
-Manual como las automáticas, generadas desde Programas de Mantenimiento.</p>
+<p>El módulo de Órdenes de Trabajo administra tanto las Órdenes generadas en forma <strong>manual</strong> como las <strong>automáticas</strong> que provenien de Programas de Mantenimiento.</p>
 
-<p><strong>Las Órdenes de Trabajo manuales se generan a medida que se requiere:</strong> en el momento de presentarse una falla sobre un Equipo o cuando se debe realizar un trabajo que no es rutinario ni programado, por decisión técnica, operativa o administrativa. Una <strong>OT</strong> manual puede ser Correctiva, Preventiva Manual, Predictiva, de Calibración, de Lubricación, u Otro tipo de Mantenimiento.</p>
+<p><strong>Las Órdenes de Trabajo manuales se generan a medida que se requiere:</strong> en el momento de presentarse una falla sobre un Activo/Equipo o cuando se debe realizar un trabajo que no es rutinario ni programado, por decisión técnica, operativa o administrativa. Una <strong>OT</strong> manual puede ser Correctiva, Preventiva Manual, Predictiva, de Calibración, de Lubricación, u Otro Tipo de Mantenimiento.</p>
 
-<p>Las <strong>OT</strong> Programadas se generan 	periódicamente, mediante el comando <strong>“ANALIZAR/GENERAR”</strong> en el submenú de Órdenes de Trabajo. El proceso de Generación revisa y verifica los criterios definidos en cada Programa de Mantenimiento, proponiendo generar, en forma automática, la Órden de Trabajo correspondiente, cuando tales criterios son válidos, para Mantenimientos Preventivo, Predictivo, Calibración, Lubricación y Rutas de Inspección, u Otro Tipo de Mantenimiento.</p>
+<p>Las <strong>OTs</strong> Programadas se generan 	periódicamente, mediante el comando <strong>“ANALIZAR/GENERAR”</strong> en el submenú de Órdenes de Trabajo. El proceso de Generación revisa y verifica los criterios definidos en cada Programa de Mantenimiento, proponiendo generar, en forma automática, la Órden de Trabajo correspondiente, cuando tales criterios son válidos, para Mantenimientos Preventivo, Predictivo, Calibración, Lubricación y Rutas de Inspección, u Otro Tipo de Mantenimiento.</p>
 
 <h2 id="presupuesto-vs-gasto-real">Presupuesto vs Gasto Real</h2>
 
@@ -682,7 +863,7 @@ Manual como las automáticas, generadas desde Programas de Mantenimiento.</p>
 
 <p>Por ejemplo, si una <strong>OT</strong> tiene como Fecha de Inicio de Trabajos XXXX/12/01 08:30, y como Fecha de Fin de Trabajos XXXX/12/01 16:00, <strong>AM</strong> sugiere como Tiempo de Duración, 7 horas y 30 minutos. Sin embargo, si durante ese lapso se tuvo que detener la ejecución por 2 horas, debido a que faltaba un Repuesto o a que el técnico encargado se ausentó a realizar Otra labor, se debe corregir la duración: 5 horas y 30 minutos.</p>
 
-<p>Para <strong>AM</strong>, el Tiempo Improductivo de un  Equipo, en una Órden de Trabajo, es la cantidad Real de tiempo en que el Equipo estuvo Improductivo por Razones de Mantenimiento, es decir, tiempo en el cual el Equipo debió estar  operando y no pudo hacerlo debido a que durante dicho tiempo se estaba realizando la labor.</p>
+<p>Para <strong>AM</strong>, el Tiempo Improductivo de un  Activo/Equipo, en una Órden de Trabajo, es la cantidad Real de tiempo en que el Equipo estuvo Improductivo por Razones de Mantenimiento, es decir, tiempo en el cual el Equipo debió estar  operando y no pudo hacerlo debido a que durante dicho tiempo se estaba realizando la labor.</p>
 
 <p><strong>AM</strong> sugiere como Tiempo Improductivo: la diferencia entre la Fecha y Hora de Fin de Trabajos y la Fecha y Hora Info de Paro (Para Órdenes de Trabajo Correctivas), o como, la diferencia entre la Fecha y Hora de Fin de Trabajos y la Fecha y Hora de Inicio de Trabajos (Para Órdenes de Trabajo no Correctivas). Sin embargo, este valor puede corregirse para reflejar la cantidad Real exacta de Tiempo Improductivo que tuvo el Equipo en cuestión.</p>
 
@@ -695,7 +876,7 @@ Manual como las automáticas, generadas desde Programas de Mantenimiento.</p>
 <p><strong>AM</strong> administra automáticamente el número de cada Órden de Trabajo, por lo tanto no es posible modificarlo manualmente.</p>
 
                         
-                            <div class="share uk-text-center uk-margin-medium-top">
+                            <div class="share uk-text-center uk-margin-medium-top no-print">
     
         <a class="uk-link-muted" href="https://twitter.com/intent/tweet?text=Conceptos Básicos sobre Órdenes de Trabajo&url=http://localhost:4000/docs/09_02_basic_concepts/&via=&related=" rel="nofollow" target="_blank" title="Compartir en Twitter" onclick="window.open(this.href, 'twitter', 'width=550,height=235');return false;"><span data-uk-icon="icon: twitter; ratio: 1.2"></span></a>
     
@@ -808,7 +989,7 @@ Manual como las automáticas, generadas desde Programas de Mantenimiento.</p>
 
   
   
-    <div class="uk-margin-large-top paginate-post">
+    <div class="uk-margin-large-top paginate-post no-print">
         <div class="uk-child-width-expand@s uk-grid-large uk-pagi" data-uk-grid>
             <div>
                 
@@ -825,7 +1006,7 @@ Manual como las automáticas, generadas desde Programas de Mantenimiento.</p>
                   
                   
                     <h5></h5>
-                    <div class="uk-text-right"><a class="remove-underline hvr-forward" href="/docs/09_03_analysis_and_generation/">Siguiente &rarr;</a></div>
+                    <div class="uk-text-right"><a class="remove-underline hvr-forward" href="/docs/09_03_basic_concepts_analysis_and_generation/">Siguiente &rarr;</a></div>
                 
             </div>
         </div>
@@ -833,7 +1014,7 @@ Manual como las automáticas, generadas desde Programas de Mantenimiento.</p>
     
 
 
-                    <div class="uk-margin-large-top">
+                    <div class="uk-margin-large-top no-print">
     <h3>Temas relacionados</h3>
 
     
@@ -933,6 +1114,7 @@ Manual como las automáticas, generadas desde Programas de Mantenimiento.</p>
 
 
                     
+
                 </article>
 
                 <script>
@@ -944,7 +1126,7 @@ Manual como las automáticas, generadas desde Programas de Mantenimiento.</p>
                 </script>
 
             </div>
-
+        </div>
     </div>
 </div>
 
@@ -1022,7 +1204,7 @@ Manual como las automáticas, generadas desde Programas de Mantenimiento.</p>
         
           
           
-          <li class=""><a href="/docs/03_04_parts_list/"></a></li>
+          <li class=""><a href="/docs/03_04_parts_list/">Codificación de Activos/Equipos y Generalidades</a></li>
         
           
           
@@ -1123,15 +1305,23 @@ Manual como las automáticas, generadas desde Programas de Mantenimiento.</p>
         
           
           
-          <li class=""><a href="/docs/09_03_analysis_and_generation/">Análisis y Generación de Órdenes de Trabajo Programadas</a></li>
+          <li class=""><a href="/docs/09_03_basic_concepts_analysis_and_generation/">Conceptos Básicos Análisis y Generación de Órdenes de Trabajo Programadas</a></li>
         
           
           
-          <li class=""><a href="/docs/09_04_main_window/">Ventana Principal de Órdenes de Trabajo</a></li>
+          <li class=""><a href="/docs/09_04_main_window/">Ventana Principal</a></li>
         
           
           
-          <li class=""><a href=""></a></li>
+          <li class=""><a href="/docs/09_05_partial_views/">Vistas Parciales</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/09_06_transactions/">Transacciones</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/09_07_export_and_log_file/">Exportar y Reportes</a></li>
         
         </ul>
         
@@ -1251,7 +1441,7 @@ Manual como las automáticas, generadas desde Programas de Mantenimiento.</p>
         
           
           
-          <li class=""><a href="/docs/15_11_logout/">Exportar Visor de SS/OT</a></li>
+          <li class=""><a href="/docs/15_11_export/">Exportar Visor de SS/OT</a></li>
         
         </ul>
         

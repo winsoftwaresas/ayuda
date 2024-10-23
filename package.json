@@ -16,7 +16,8 @@
     "concat": "uglifyjs node_modules/uikit/dist/js/uikit.js node_modules/uikit/dist/js/uikit-icons.js node_modules/simple-jekyll-search/dest/simple-jekyll-search.js assets/js/custom.js -b -o assets/js/main.js",
     "dev": "npm run lint && npm run concat",
     "watch": "watch 'npm run dev' assets/js/",
-    "postinstall": "npm run copy && npm run concat"
+    "postinstall": "npm run copy && npm run concat",
+    "pdf": "node generate-pdfs.js"
   },
   "repository": {
     "type": "git",
@@ -29,14 +30,22 @@
   },
   "homepage": "https://github.com/",
   "dependencies": {
+    "pdf-lib": "^1.17.1",
     "simple-jekyll-search": "^1.9.2",
     "system-font-css": "^2.0.2",
     "uikit": "^3.6.22"
   },
   "devDependencies": {
+    "exec-sh": "^0.4.0",
+    "fs-extra": "^10.0.0",
+    "js-yaml": "^4.1.0",
     "jshint": "^2.10.2",
+    "merge": "^2.1.1",
     "ncp": "latest",
+    "node-fetch": "^3.3.2",
+    "puppeteer": "^23.6.0",
     "uglify-js": "^3.4.10",
-    "watch": "^1.0.2"
+    "watch": "^1.0.2",
+    "ws": "^8.18.0"
   }
 }
