@@ -61,6 +61,7 @@ async function generatePDF(url, outputPath) {
     await page.pdf({
       path: outputPath,
       format: 'A4',
+      preferCSSPageSize: true,
       margin: {
         top: '600px',
         bottom: '150px',
@@ -103,7 +104,7 @@ async function generateAllPDFs() {
     const files = await fs.readdir(docsDir);
     
     for (const file of files) {
-      if (file && !file.includes('_00')) {
+      if (file && !file.includes('_00') && file.includes('08_04')) {
         const baseName = path.basename(file, '.html');
         const url = `${baseUrl}/docs/${baseName}/index`;
         const outputPath = path.join(pdfDir, `${file}.pdf`);
@@ -141,11 +142,11 @@ async function mergePDFs(pdfDir, outputFileName) {
 
 async function main() {
     await generateAllPDFs(); // Primero genera todos los PDFs
-    const siteTitle = 'AM'; // Simula el valor de {{site.title}}
-    const siteVersion = getSiteVersion(); // No eliminamos el prefijo 'v'
+    const siteTitle = 'AM';
+    const siteVersion = getSiteVersion();
     const mergedPdfName = `${siteTitle} - ${siteVersion}.pdf`;
   
-    const pdfDir = path.join(__dirname, 'pdf', siteVersion); // siteVersion incluye 'v'
+    const pdfDir = path.join(__dirname, 'pdf', siteVersion);
     const outputFileName = path.join(__dirname, 'pdf', mergedPdfName);
   
     await mergePDFs(pdfDir, outputFileName);

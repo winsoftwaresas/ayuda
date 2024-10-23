@@ -17,11 +17,11 @@
 <meta property="og:url" content="http://localhost:4000/docs/02_01_introduction/" />
 <meta property="og:site_name" content="AM" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-22T19:45:33-05:00" />
+<meta property="article:published_time" content="2024-10-23T11:23:35-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Introducción" />
 <script type="application/ld+json">
-{"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/docs/02_01_introduction/"},"author":{"@type":"Person","name":"win"},"@type":"BlogPosting","description":"¿Que información constituye la Infraestructura ?. ¿Cuál es cada una de las tablas quela conforman?. ¿En que secuencia se ingresan?. ¿Con qué estructura de codificación?.","url":"http://localhost:4000/docs/02_01_introduction/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/winsoftware_logo.svg"},"name":"win"},"headline":"Introducción","dateModified":"2024-10-22T19:45:33-05:00","datePublished":"2024-10-22T19:45:33-05:00","@context":"https://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/docs/02_01_introduction/"},"author":{"@type":"Person","name":"win"},"@type":"BlogPosting","description":"¿Que información constituye la Infraestructura ?. ¿Cuál es cada una de las tablas quela conforman?. ¿En que secuencia se ingresan?. ¿Con qué estructura de codificación?.","url":"http://localhost:4000/docs/02_01_introduction/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/winsoftware_logo.svg"},"name":"win"},"headline":"Introducción","dateModified":"2024-10-23T11:23:35-05:00","datePublished":"2024-10-23T11:23:35-05:00","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <meta property="og:image" content="http://localhost:4000/uploads/winsoftware_logo.svg"/>
@@ -32,7 +32,7 @@
   <script src="//code.iconify.design/1/1.0.6/iconify.min.js"></script>
   <script src="/assets/js/main.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
-  <link rel="stylesheet" href="/assets/css/pdf-styles.css">
+  <link rel="stylesheet" href="/assets/css/print.css">
   
     <script>
 function searchResults(form) {
@@ -135,56 +135,6 @@ function searchResults(form) {
   <!-- Hook head -->
   
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-
-    <style>
-      .uk-notification {
-      position: fixed;
-      top: 10px;
-      left: 50%;
-      transform: translateX(-50%);
-      z-index: 9999;
-      box-sizing: border-box;
-      width: 350px;
-      max-width: 90%;
-    }
-
-    .uk-notification-message {
-      position: relative;
-      padding: 10px;
-      background: #f8f8f8;
-      color: #666;
-      font-size: 1.2rem;
-      line-height: 1.4;
-      cursor: pointer;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-      border-radius: 10px;
-      border: 2px solid;
-      display: flex;
-      flex-direction: row-reverse;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    .uk-notification-message-primary {
-      border-color: #1e87f0;
-    }
-
-    .uk-notification-message-success {
-      border-color: #32d296;
-    }
-
-    .uk-notification-message-danger {
-      border-color: #f0506e;
-    }
-
-    .uk-notification-message-warning {
-      border-color: #faa05a;
-    }
-
-    .uk-notification-close {
-      margin-left: 10px;
-    }
-    </style>
 
     <script>
       document.addEventListener('DOMContentLoaded', function() {
@@ -698,7 +648,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if (response.ok) {
         // El PDF existe, descargarlo directamente
         UIkit.notification({message: '<span uk-icon=\'icon: download\' class=\'uk-text-primary\'></span> Descargando PDF existente...', status: 'primary', pos: 'top-center', timeout: 3000});
-        window.location.href = pdfPath;
+        window.open(pdfPath, '_blank');
         return;
       }
     } catch (error) {
