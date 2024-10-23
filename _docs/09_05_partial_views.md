@@ -27,7 +27,7 @@ A continuación se describen los campos que componen esta ventana de informació
 
 Al accionar el botón <a class="btn gray">Adicionar Acción Técnica</a> se habilita el conjunto de Acciones definidas por mantenimiento desde la tabla de infraestructura correspondiente. 
 
-Las Acciones Técnicas se seleccionan de la lista desplegable y se adicionan con el botón del signo <span class="mdi mdi-plus-circle icon bg-gray cl-blue"></span>
+Las Acciones Técnicas se seleccionan de la lista desplegable y se adicionan con el botón del signo <span class="mdi mdi-plus-circle icon cl-blue bg-gray"></span>
 
 ![Procesar imagen](../../assets/images/cap09/chp09_img06_01.png)
 _**Imagen 74.** Órdenes - Adicionar Acciones Técnicas_

@@ -61,6 +61,7 @@ async function generatePDF(url, outputPath) {
     await page.pdf({
       path: outputPath,
       format: 'A4',
+      printBackground: true,
       preferCSSPageSize: true,
       margin: {
         top: '600px',
@@ -104,7 +105,7 @@ async function generateAllPDFs() {
     const files = await fs.readdir(docsDir);
     
     for (const file of files) {
-      if (file && !file.includes('_00') && file.includes('08_04')) {
+      if (file && !file.includes('_00')) {
         const baseName = path.basename(file, '.html');
         const url = `${baseUrl}/docs/${baseName}/index`;
         const outputPath = path.join(pdfDir, `${file}.pdf`);
