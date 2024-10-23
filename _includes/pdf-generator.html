@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if (response.ok) {
         // El PDF existe, descargarlo directamente
         UIkit.notification({message: '<span uk-icon=\'icon: download\' class=\'uk-text-primary\'></span> Descargando PDF existente...', status: 'primary', pos: 'top-center', timeout: 3000});
-        window.location.href = pdfPath;
+        window.open(pdfPath, '_blank');
         return;
       }
     } catch (error) {
