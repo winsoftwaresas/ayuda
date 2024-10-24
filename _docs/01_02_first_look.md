@@ -1,6 +1,6 @@
 ---
 title: Un vistazo a AM
-subtitle: Esta sección ayuda a entender al programa AM (Administrador de Mantenimiento) y a implementarlo para lograr la satisfacción de las necesidades de administración del mantenimiento de los activos en su empresa.
+subtitle: Esta sección ayuda a entender el programa AM (Administrador de Mantenimiento) y a implementarlo para lograr la satisfacción de las necesidades de administración del mantenimiento de los activos en su empresa.
 tags: [setup]
 author: win
 order: 01_02
@@ -18,7 +18,7 @@ Función que administra el grupo de datos básicos, parametrizables, de mantenim
 | Almacenes                    | Unidades de Medida   | Monedas           | Contadores               | Características       |
 | Características Biomédicas | Riesgos              | Magnitudes        | Otros Conceptos de Costo | Causas de OT Pendiente |
 | Causas de Cierre de OT       | Acciones Técnicas   | Causas de Falla   | Efectos de Falla         | Conceptos de Kárdex   |
-| Operaciones                  | Referencias          | Tipos de Régimen | Estados                  |                        |
+| Operaciones                  | Referencias          | Tipos de Régimen | Estados                  |       Combustible                |
 
 Un grupo de estas tablas, se encuentra preconfigurado y puede ajustarse según las necesidades y requerimientos de la empresa. Las restantes describen en detalle la cultura técnica organizacional de mantenimiento.
 
@@ -35,6 +35,11 @@ Repuestos de Almacén. Se registran por cada ítem su ficha técnica y parámetr
 
 A través del Kárdex se realiza el registro de todo movimiento
 de Entrada, Ajustes o Salida, de Materiales o Repuestos de cada Almacén. Para su operación, en el módulo “Infraestructura”, en la tabla “Conceptos de Kárdex” se definen y configuran previamente los conceptos de transacciones de movimiento, que serán hábiles en el sistema, para cada Almacén de la compañía.
+
+### **Combustibles [CB]**
+
+Es el módulo que pretende hacer seguimiento del consumo de combustibles de un vehículo o equipo para establecer al final de un período la cantidad de combustible alimentado y su relación con el kilometraje recorrido o con el número de horas trabajadas, produciendo índices razonables adecuados según el caso. Aplica para cualquier tipo de vehículos que consumen combustible, híbridos, equipos de carretera (maquinaria amarilla) de baja movilidad ó equipos de apoyo industrial de ninguna movibilidad (calderas, plantas de generación de potencia, etc.).
+
 
 ### **Programas de Mantenimiento [PM]**
 

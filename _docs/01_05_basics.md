@@ -1,10 +1,10 @@
 ---
-title: Resumen
-subtitle: El programa AM Administrador de mantenimiento se facilita en gran medida siguiendo los procedimientos básicos que se explican a continuación..
+title: Generalidades
+subtitle: El manejo de AM se facilita en gran medida siguiendo los procedimientos básicos que se explican a continuación.
 author: win
 order: 01_05
 ---
-Estos procedimientos permiten implementar el programa, organizando la estructura de datos en una forma lógica y simple, sin importar la complejidad propia del área de Mantenimiento o de las funciones administrativas, técnicas u operativas que realice.
+Los siguientes procedimientos permiten implementar el programa, organizando la estructura de datos en una forma lógica y simple, sin importar la complejidad propia del área de Mantenimiento o de las funciones administrativas, técnicas u operativas que realice.
 
 La guía general para la implementación exitosa del programa **AM** Administrador de Mantenimiento incluye la realización de los siguientes pasos en ese justo orden:
 
@@ -17,12 +17,12 @@ La guía general para la implementación exitosa del programa **AM** Administrad
 - Uso rutinario de Órdenes de Trabajo (automáticas y manuales).
 - Gestión de Mantenimiento y compendio de Historia de Mantenimiento.
 
-> _**Nota:** Una vez ejecutada cada acción de mantenimiento la Órden de Trabajo correspondiente debe ser liquidada, cerrada y posteriormente enviada a Historia de Mantenimiento. Puesto que la generación automática y el ingreso manual de las Órdenes de Trabajo son voluminosos, se debe realizar con frecuencia el envío de tales registros a Historia de Mantenimiento para evitar que la gestión diaria se vea congestionada con actividades ya ejecutadas.
+> _**Nota:** Una vez ejecutada cada acción de mantenimiento, la Órden de Trabajo correspondiente debe ser liquidada, cerrada y posteriormente enviada a Historia de Mantenimiento. Puesto que la generación automática y el ingreso manual de las Órdenes de Trabajo son voluminosos, se debe realizar con frecuencia el envío de tales registros a Historia de Mantenimiento para evitar que la gestión diaria se vea congestionada con actividades ya ejecutadas.
 De hecho, los procesos periódicos de Balance de Gestión, Reportes, Índices, Paros y distintos análisis y estudios, se realizan principalmente sobre el conjunto de Órdenes de Trabajo que residen en el módulo de Historia de Mantenimiento._
 
-## General – A tener en cuenta
+## Generalidades de conversión   
 
-A nivel general dentro de **AM** solo es posible especificar campos de minutos (MM) menores o iguales a 59, campos de horas (HH) menores o iguales a 23. De ser necesario el sistema automáticamente convierte los valores ingresados a HH MM. Por ejemplo, si el usuario ingresa 78 MM, el sistema lo interpretará de la siguiente manera: MM se reduce a 18 y se traslada una unidad a HH (78 minutos equivalen a 1 hora y 18 minutos).
+A nivel general dentro de **AM** solo es posible especificar campos de minutos (MM) menores o iguales a 59, campos de horas (HH) menores o iguales a 23. De ser necesario el sistema automáticamente convierte los valores ingresados de MM a HH. Por ejemplo, si el usuario ingresa 78 MM, el sistema lo interpretará de la siguiente manera: MM se reduce a 18 y se traslada una unidad a HH (78 minutos equivalen a 1 hora y 18 minutos).
 
 La conversión también se da cuando se trata de un campo de días (DD), por ejemplo, si el usuario ingresa 65 HH, el campo HH contendría finalmente 17 y al campo DD se le sumaría (265 horas equivalen a 2 días y 17 horas).
 
@@ -85,7 +85,17 @@ Este indicador permite ver de forma ágil la naturaleza de cada reporte. A conti
 A continuación, se describen algunas Recomendaciones Generales acerca del manejo funcional de **AM**.
 
 - En el módulo de Administración del Submenú Valores por Defectos (Programas) se establece el día que inicia la semana número 2 del año, se configura el criterio “Semanas del Año” en Programas de Mantenimiento. De esta manera, **AM** conoce qué día inician las de semanas para el año en curso.
-  Para establecer este parámetro, debe tenerse a mano un calendario empresarial de semanas numerado, o en su defecto un calendario normal. Este proceso debe efectuarse al inicio de cada año. Dependiendo de la cultura de trabajo de cada empresa, las semanas pueden iniciar en diferentes días, por ejemplo, los lunes. Debe tenerse en cuenta este tipo de criterios a la hora de establecer dicho parámetro.
+Para establecer este parámetro, debe tenerse a mano un calendario empresarial de semanas numerado, o en su defecto un calendario normal. Este proceso debe efectuarse al inicio de cada año. Dependiendo de la cultura de trabajo de cada empresa, las semanas pueden iniciar en diferentes días, por ejemplo, los lunes. Debe tenerse en cuenta este tipo de criterios a la hora de establecer dicho parámetro.
 - Verificar en las listas desplegables la función de “Autocompletar”, se debe realizar la selección de esta, tener presente que cuando se es agregada el sistema genera error.
 - Se debe evitar el uso de caracteres **(&, / y \#)** en los nombres de los archivos que se van a anexar en **TE, CN, AC, RP, OT, PM, SS, PA, HM.**
 - Se debe evitar el uso de **ñ, Ñ** o letras de carácter tipo vocal que emplean tildes en cualquier dato de la Base de Datos.
+
+
+## INICIAR UN AÑO
+
+Es importante tener en cuenta que AM cambia el consecutivo u ordinal de las Órdenes de Trabajo cada que comienza un año automáticamente, para esto debe asegurarse que tenga la siguiente configuración en <a class="btn cl-white bg-blue">Administración</a>, **Valores por Defecto**, etiqueta **Órdenes** y en el campo **Año OT** tener indicado el cero. 
+
+![Procesar Imagen](../../assets/images/cap01/chp01_img64.png)
+
+
+Siempre que realice modificaciones debe <a class="btn bg-gray cl-blue">Actualizar</a> para guardar los cambios. 
