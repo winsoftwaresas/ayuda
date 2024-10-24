@@ -1,0 +1,2042 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Vistas Parciales | AM</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Vistas Parciales" />
+<meta name="author" content="win" />
+<meta property="og:locale" content="es" />
+<meta name="description" content="Acciones técnicas" />
+<meta property="og:description" content="Acciones técnicas" />
+<link rel="canonical" href="http://localhost:4000/docs/09_05_partial_views/" />
+<meta property="og:url" content="http://localhost:4000/docs/09_05_partial_views/" />
+<meta property="og:site_name" content="AM" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-02-10T09:45:29-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Vistas Parciales" />
+<script type="application/ld+json">
+{"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/docs/09_05_partial_views/"},"author":{"@type":"Person","name":"win"},"@type":"BlogPosting","description":"Acciones técnicas","url":"http://localhost:4000/docs/09_05_partial_views/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/winsoftware_logo.svg"},"name":"win"},"headline":"Vistas Parciales","dateModified":"2022-02-10T09:45:29-05:00","datePublished":"2022-02-10T09:45:29-05:00","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <meta property="og:image" content="http://localhost:4000/uploads/winsoftware_logo.svg"/>
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="shortcut icon" type="image/png" href="/uploads/favicon.png" >
+  <link rel="alternate" type="application/rss+xml" title="AM" href="/feed.xml">
+  <script src="//code.iconify.design/1/1.0.6/iconify.min.js"></script>
+  <script src="/assets/js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+  <link rel="stylesheet" href="/assets/css/print.css">
+  
+    <script>
+function searchResults(form) {
+
+    var currentItem = null;
+    var search = document.getElementById(form);
+    var results = document.getElementById(form + "-results");
+    var toggle = document.getElementById(form + "-toggle");
+
+    function removeActive() {
+        for (i = 0; i < results.children.length; i++) {
+            results.children[i].classList.remove("uk-background-muted");
+        }
+    }
+
+    // Detect all clicks on the document
+    document.addEventListener("click", function(event) {
+
+        var isClickSearch = false;
+        var isClickResults = false;
+        var isClickSearchToggle = false;
+
+        if (search !== null) {
+            isClickSearch = search.contains(event.target);
+        }
+
+        if (results !== null) {
+            isClickResults = results.contains(event.target);
+        }
+
+        if (toggle !== null) {
+            isClickSearchToggle = toggle.contains(event.target);
+        }
+
+        if (isClickSearch || isClickSearchToggle) {
+            results.style.display = "block";
+        }        
+
+        if (!isClickResults && !isClickSearch && !isClickSearchToggle) {
+            results.style.display = "none";
+        }        
+        
+    });    
+
+    results.addEventListener("mouseover", function(event) {
+
+        removeActive();
+        event.target.parentElement.classList.add("uk-background-muted");
+        currentItem = null;
+
+    });
+
+    results.addEventListener("mouseout", function(event) {
+        event.target.parentElement.classList.remove("uk-background-muted");
+    });
+
+
+    search.addEventListener("keyup", function(event) {
+
+        var resultItems = results.children;
+        var resultCount = results.children.length;
+                                
+        if (event.keyCode === 40) {
+
+            if (currentItem < (resultCount - 1)) {
+                if (currentItem === null) {
+                    currentItem = 0;
+                } else {
+                    removeActive();
+                    currentItem++;
+                }
+                removeActive();
+                resultItems[currentItem].classList.add("uk-background-muted");
+            }
+            
+        } else if (event.keyCode === 38) {
+
+            if (currentItem > 0) {
+                if (currentItem === null) {
+                    currentItem = 0;
+                } else {
+                    removeActive();
+                    currentItem--;
+                }
+                removeActive();
+                resultItems[currentItem].classList.add("uk-background-muted");
+            }
+
+        } else if (event.keyCode === 13) {
+
+            resultItems[currentItem].children[0].click();
+
+        }
+
+    });
+
+}
+</script>
+  
+  <!-- Hook head -->
+  
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const images = document.querySelectorAll('img');
+        images.forEach(img => {
+          if (!img.hasAttribute('crossorigin')) {
+            img.setAttribute('crossorigin', 'anonymous');
+          }
+          // Convertir URLs absolutas locales a relativas
+          if (img.src.startsWith('http://localhost:4000')) {
+            img.src = img.src.replace('http://localhost:4000', '');
+          }
+        });
+      });
+    </script>
+<script src="http://127.0.0.1:35729/livereload.js"></script></head>
+
+    <body>
+
+    
+        <div data-uk-sticky="no-print animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent; top: 200">
+    <nav class="uk-navbar-container">
+        <div class="uk-container">
+            <div data-uk-navbar>
+                <div class="uk-navbar-left">
+                    <a class="uk-navbar-item uk-logo uk-visible@m" href="https://winsoftware.com.co"><img src="http://localhost:4000/uploads/winsoftware_logo.svg" alt="AM"></a>
+                    
+                        <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas-docs" data-uk-toggle><span data-uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">AM</span></a>
+                    
+
+                    <ul class="uk-navbar-nav uk-visible@m">
+                        
+                            
+                            
+                            
+                                
+                                    <li><div class="uk-navbar-item"><a class="uk-button uk-button-default" href="/docs/01_01_introduction/" >Manual de usuario</a></div></li>
+                                
+                            
+                        
+                            
+                            
+                            
+                                
+                                    
+                                        <li><a href="#">Registro de cambios</a>
+                                        
+                                            <div class="uk-navbar-dropdown">
+                                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                                    
+                                                    
+                                                        
+                                                        
+                                                        <li><a href="/changelog-timeline/">Línea de tiempo</a></li>
+                                                    
+                                                    
+                                                    
+                                                        
+                                                        
+                                                        <li><a href="/changelog-posts/">Publicaciones</a></li>
+                                                    
+                                                    
+                                                </ul>
+                                            </div>
+                                        
+                                        </li>
+                                                                                                        
+                                
+                            
+                        
+                    </ul>
+                </div>
+                <div class="uk-navbar-center uk-hidden@m">
+                    <a class="uk-navbar-item uk-logo" href="/"><img src="http://localhost:4000/uploads/winsoftware_logo.svg" alt="AM"></a>
+                </div>
+                <div class="uk-navbar-right">
+                    
+                        
+                            <div>
+                                <a id="search-navbar-toggle" class="uk-navbar-toggle" uk-search-icon href="#"></a>
+                                <div class="uk-drop uk-background-default uk-border-rounded" uk-drop="mode: click; pos: left-center; offset: 0">
+                                    <form class="uk-search uk-search-navbar uk-width-1-1" onsubmit="return false;">
+                                        <input id="search-navbar" class="uk-search-input" type="search" placeholder="Buscar respuestas" autofocus autocomplete="off">
+                                    </form>
+                                    <ul id="search-navbar-results" class="uk-position-absolute uk-width-1-1 uk-list"></ul>
+                                </div>
+                            </div>
+                            <script>
+                            SimpleJekyllSearch({
+                                searchInput: document.getElementById('search-navbar'),
+                                resultsContainer: document.getElementById('search-navbar-results'),
+                                noResultsText: '<li class="no-results">No encontré resultados</li>',
+                                searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
+                                json: "/search.json"
+                            });
+                            searchResults("search-navbar");
+                            </script>
+                        
+                    
+
+                    <ul class="uk-navbar-nav uk-visible@m">
+                        
+                            
+                            
+                            
+                                
+                                    <li><div class="uk-navbar-item"><a class="uk-button uk-button-primary-outline" href="https://wa.me/573108304059" target="_blank" ><span uk-icon="whatsapp" class="whatsapp-icon"></span></a></div></li>
+                                
+                            
+                        
+                    </ul>
+
+                    
+                        <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas" data-uk-toggle><span data-uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">Menu</span></a>
+                    
+
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+
+    
+
+    <div class="uk-section">
+    <div class="uk-container">
+        <div class="uk-grid-large" data-uk-grid>
+
+            <div class="sidebar-fixed-width uk-visible@m">
+                <div class="sidebar-docs uk-position-fixed uk-margin-top">
+                    
+                    <h5>Trabajando con AM</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/01_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/01_02_first_look/">Un vistazo a AM</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/01_03_user_interface/">Interfaz de Usuario</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/01_04_concurrence/">Concurrencia en AM</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/01_05_summary/">Resumen</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Infraestructura</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/02_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/02_02_basic_concept/">Conceptos Básicos sobre la Infraestructura</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/02_03_tables/">Tablas de Infraestructura</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/02_04_export/">Exportar</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/02_05_services/">Servicios</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Activos</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/03_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/03_02_basic_concepts/">Conceptos Básicos sobre Activos/Equipos</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/03_03_data_sheet/">Ficha Técnica</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/03_04_parts_list/">Codificación de Activos/Equipos y Generalidades</a></li>
+                    
+                      
+                      
+                      <li class=""><a href=""></a></li>
+                    
+                    </ul>
+                    
+                    <h5>Almacenes, Materiales y Repuestos</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/04_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/04_02_basic_concepts/">Conceptos Básicos sobre Almacenes, Materiales y Repuestos</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/04_03_spare_coding/">Codificación de Repuestos</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/04_04_main_window/">Ventana Principal de Almacén de Repuestos</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Kárdex</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/05_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/05_02_basic_concepts/">Conceptos Básicos sobre el Kárdex de Almacén</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/05_03_movements/">Movimientos de Kárdex</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/05_04_services/">Servicios</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Solicitudes de Servicio</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/07_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/07_02_basic_concepts/">Conceptos Básicos sobre Solicitudes de Servicio</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/07_03_services/">Servicios</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Paros</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/08_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/08_02_basic_concepts/">Conceptos Básicos sobre Paros / Averías</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/08_03_creation/">Creación de Paros</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/08_04_tracking_and_closing/">Seguimiento y Cierre de Paros / Averías</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Órdenes de Trabajo</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/09_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/09_02_basic_concepts/">Conceptos Básicos sobre Órdenes de Trabajo</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/09_03_basic_concepts_analysis_and_generation/">Conceptos Básicos Análisis y Generación de Órdenes de Trabajo Programadas</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/09_04_main_window/">Ventana Principal</a></li>
+                    
+                      
+                      
+                      <li class="uk-active"><a href="/docs/09_05_partial_views/">Vistas Parciales</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/09_06_transactions/">Transacciones</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/09_07_export_and_log_file/">Exportar y Reportes</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Historia de mantenimiento</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/10_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/10_02_basic_concepts/">Conceptos Básicos</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/10_03_send_to_history/">Enviar a Historia</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/10_04_main_window/">Ventana Principal</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/10_05_periodic_management_balance/">Balance Periódico de Gestión</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Programas de mantenimiento</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/11_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/11_02_basic_concepts/">Conceptos Básicos de Programas de Mantenimiento</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/11_03_main_window/">Ventana Principal de Programas de Mantenimiento</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/11_04_services/">Servicios</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Historia Archivada</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/12_01_introduction/">Introducción</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/12_02_basic_concepts/">Conceptos Básicos</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/12_03_main_window/">Ventana Principal</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/12_04_submenu_window/">Ventana Submenú</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/12_05_transactions/">Transacciones</a></li>
+                    
+                    </ul>
+                    
+                    <h5>AMsi</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_01_working_with_amsi/">Trabajando con AMsi</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_02_ui/">Interfaz de Usuario</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_03_update_profile/">Actualizar Perfil</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_04_create_a_new_request/">Crear Nueva Solicitud</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_05_request_consulting/">Consultar Mis Solicitudes</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_06_request_evaluation/">Evaluar Servicio</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_07_create_a_new_order/">Crear Nueva Orden</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_08_orders_consulting/">Consultar Mis Órdenes</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_09_amsi_administration_access/">Acceso Administración AMsi</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_10_user_settings/">Configuración de Usuarios</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/15_11_export/">Exportar Visor de SS/OT</a></li>
+                    
+                    </ul>
+                    
+                    <h5>AMovil</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/16_01_basic_concepts/">Conceptos Básicos</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/16_02_assets/">Activos</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/16_03_warehouse/">Almacén</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/16_04_requests/">Solicitudes</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/16_05_orders/">Ordenes</a></li>
+                    
+                    </ul>
+                    
+                </div>
+            </div>
+
+            <div class="uk-width-1-1 uk-width-expand@m">
+
+                <article class="uk-article">
+
+                    <h1 class="uk-article-title">Vistas Parciales</h1>
+
+                    <p class="uk-text-lead uk-text-muted">Se explican las pestañas o vistas parciales que componen la Ficha Técnica de una Órden de Trabajo.</p>
+
+                    <div class="uk-flex uk-flex-between uk-flex-middle">
+                        <div class="uk-article-meta uk-margin-top uk-margin-medium-bottom uk-flex uk-flex-middle">
+                                
+
+
+  
+  <img class="uk-border-circle avatar" src="http://localhost:4000/uploads/winsoftwarex36.png" alt="WIN Software">
+
+
+<div>
+  
+    Escrito por <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">WIN Software</span></span><br>
+  
+  <time datetime="2022-02-10T09:45:29-05:00" itemprop="datePublished">
+    
+    Feb 10, 2022
+  </time>
+</div>
+                        </div>
+                        <button id="generatePdf" class="uk-button uk-button-primary uk-button-small no-print"><span data-uk-icon="icon: file-pdf" class="uk-icon"></span> PDF</button>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const generatePdfButton = document.getElementById('generatePdf');
+  const doc_version = "Version 1.3";
+  const company = "Win Software SAS";
+  const version_dir = "v1.3";
+
+  generatePdfButton.addEventListener('click', async function() {
+    const pdfFilename = '09_05_partial_views.pdf';
+    const pdfPath = `/pdf/${version_dir}/${pdfFilename}`;
+
+    // Verificar si el PDF ya existe
+    try {
+      const response = await fetch(pdfPath, { method: 'HEAD' });
+      if (response.ok) {
+        // El PDF existe, descargarlo directamente
+        UIkit.notification({message: '<span uk-icon=\'icon: download\' class=\'uk-text-primary\'></span> Descargando PDF existente...', status: 'primary', pos: 'top-center', timeout: 3000});
+        window.open(pdfPath, '_blank');
+        return;
+      }
+    } catch (error) {
+      console.log('El PDF no existe, se generará uno nuevo.');
+    }
+
+    // Si llegamos aquí, el PDF no existe y necesitamos generarlo
+    const element = document.querySelector('.uk-article');
+    const elementsToHide = document.querySelectorAll('.no-print');
+    
+    elementsToHide.forEach(el => el.classList.add('hide-in-pdf'));
+
+    const options = {
+      margin: [20, 20, 20, 20], // top, left, bottom, right
+      filename: pdfFilename,
+      image: { type: 'jpeg', quality: 0.98 },
+      html2canvas: { scale: 2, scrollY: 0, useCORS: true },
+      jsPDF: { unit: 'mm', format: 'letter', orientation: 'portrait' },
+      pagebreak: { mode: ['avoid-all', 'css', 'legacy']}
+    };
+
+    UIkit.notification({message: '<span uk-icon=\'icon: file-pdf\' class=\'uk-text-primary\'></span> Generando PDF...', status: 'primary', pos: 'top-center', timeout: 0});
+
+    // Clonar el elemento para no modificar el original
+    const clonedElement = element.cloneNode(true);
+    const sections = Array.from(clonedElement.children);
+
+    try {
+      let pdf;
+      if (sections.length > 5) {
+        let worker = html2pdf().set(options);
+
+        const processInBatches = async () => {
+          const batchSize = 5;
+          for (let i = 0; i < sections.length; i += batchSize) {
+            const batchElement = document.createElement('div');
+            const batchSections = sections.slice(i, i + batchSize);
+            batchSections.forEach(section => batchElement.appendChild(section.cloneNode(true)));
+            await worker.from(batchElement).toContainer().toCanvas().toPdf().get('pdf').then((pdfResult) => {
+              if (!pdf) {
+                pdf = pdfResult;
+              } else {
+                const pdfPages = pdfResult.internal.pages;
+                pdfPages.shift(); // Remove the first blank page
+                pdfPages.forEach(page => pdf.addPage().addPage(page));
+              }
+              if (i + batchSize < sections.length) {
+                pdf.addPage();
+              }
+            });
+          }
+        };
+        await processInBatches();
+      } else {
+        pdf = await html2pdf().set(options).from(clonedElement).toPdf().get('pdf');
+      }
+
+      const totalPages = pdf.internal.getNumberOfPages();
+
+      for (let i = 1; i <= totalPages; i++) {
+        pdf.setPage(i);
+        pdf.setFontSize(10);
+        pdf.setTextColor(150);
+        pdf.text(`${document.title}`, 22, 12);
+        pdf.text(`${doc_version}`, pdf.internal.pageSize.getWidth() - 37, 12);
+        pdf.line(22, 16, pdf.internal.pageSize.getWidth() - 20 , 16);
+        pdf.line(22, pdf.internal.pageSize.getHeight() - 16, pdf.internal.pageSize.getWidth() - 20 , pdf.internal.pageSize.getHeight() - 16);
+        pdf.text(`${company}`, 22, pdf.internal.pageSize.getHeight() - 10);
+        pdf.text(`${i} / ${totalPages}`, pdf.internal.pageSize.getWidth() - 26, pdf.internal.pageSize.getHeight() - 10);
+      }
+
+      await pdf.save(options.filename);
+
+      UIkit.notification.closeAll();
+      UIkit.notification({message: '<span uk-icon=\'icon: check\' class=\'uk-text-success\'></span> PDF generado con éxito!', status: 'success', pos: 'top-center', timeout: 3000});
+    } catch (err) {
+      console.error('Error al generar PDF:', err);
+      UIkit.notification.closeAll();
+      UIkit.notification({message: '<span uk-icon=\'icon: warning\' class=\'uk-text-danger\'></span> Error al generar PDF. Por favor, intente de nuevo.', status: 'danger', pos: 'top-center', timeout: 3000});
+    } finally {
+      elementsToHide.forEach(el => el.classList.remove('hide-in-pdf'));
+    }
+  });
+});
+</script>
+                    </div>
+
+
+                    <div class="article-content link-primary">
+                        <h3 id="acciones-técnicas">Acciones técnicas</h3>
+
+<p>Esta opción conduce a la tabla de Acciones Técnicas en una nueva pestaña de la OT. Esta tabla está ligada a la Infraestructura, creada con su mismo nombre, que contiene un listado de Acciones Técnicas frecuentes en un área de Mantenimiento. Con la información contenida allí, se pretende describir, breve pero concretamente, la actividad general realizada en una OT. Las Acciones Técnicas en una OT se pueden definir, después de haber seleccionado en la ventana Detalle de la Ficha Técnica de la OT en el momento de su creación, el cuadro llamado <a class="btn cl-gray"><span class="mdi mdi-checkbox-blank-outline"> Acciones Técnicas</span></a> o bien, haberlas definido en la creación del Programa de Mantenimiento, continuación se muestra la porción Acciones Técnicas de una OT:</p>
+
+<p><img src="../../assets/images/cap09/chp09_img06.png" alt="Procesar imagen" />
+<em><strong>Imagen 73.</strong> Órdenes - Ventana Detalle Acciones Técnicas</em></p>
+
+<p>En la pestaña de Acciones Técnicas de la Ventana Detalle de OT aparece un nuevo recuadro en el que irán apareciendo las que se vayan adicionando a través del botón <a class="btn gray">Adicionar Acción Técnica</a>.</p>
+
+<p>A continuación se describen los campos que componen esta ventana de información adicional:</p>
+
+<p><strong>Que Hacer:</strong> Aparece con los campos bloqueados para que el usuario visualice la información básica de la OT a la cual se le están asociando las Acciones Técnicas.</p>
+
+<p><strong>Nro. Ordinal:</strong> Es el ordinal asignado a cada Acción Técnica según el orden en el que se vayan adicionando.</p>
+
+<p><strong>Acción Técnica:</strong> En este campo se muestran  las Acciones Técnicas definidas en la OT.</p>
+
+<p>Al accionar el botón <a class="btn gray">Adicionar Acción Técnica</a> se habilita el conjunto de Acciones definidas por mantenimiento desde la tabla de infraestructura correspondiente.</p>
+
+<p>Las Acciones Técnicas se seleccionan de la lista desplegable y se adicionan con el botón del signo <span class="mdi mdi-plus-circle icon cl-blue bg-gray"></span></p>
+
+<p><img src="../../assets/images/cap09/chp09_img06_01.png" alt="Procesar imagen" />
+<em><strong>Imagen 74.</strong> Órdenes - Adicionar Acciones Técnicas</em></p>
+
+<p><strong>Realizado:</strong> Este es un campo que una vez agregada la Acción Técnica, se puede actualizar, dando clic en el botón <a class="btn cl-black"><span class="mdi mdi-checkbox-blank-outline"> Check </span></a> de forma manual desde AM, o también retroalimentándola desde AMovil. Una vez se marque esta opción en el detalle de la tabla aparece un Si, de lo contrario aparece un No.</p>
+
+<p><img src="../../assets/images/cap09/chp09_img06_02.png" alt="Procesar imagen" />
+<em><strong>Imagen 75.</strong> Órdenes - Actualizar Acciones Técnicas</em></p>
+
+<p><strong>Valor:</strong> Este campo se habilita una vez se haya agregado la Acción Técnica y es posible actualizarla ingresando un valor numérico en el campo si aplica.</p>
+
+<p><strong>Unidad:</strong> Es la unidad de duración que tiene la Acción Técnica. Es un campo protegido que viene desde su respectiva tabla en Infraestructura y puede ser expresada en Días, Horas o Minutos.</p>
+
+<p><strong>Comentario:</strong> Es un campo que se habilita una vez se añada la Acción Técnica, el cual da claridad o detalles sobre la acción ejecutada.</p>
+
+<blockquote>
+  <p><strong>Nota:</strong> Para actualizar o guardar los detalles de una Acción Técnica se hace un clic sobre ella y luego se acciona el botón <a class="btn gray">Actualizar Acción Técnica</a>. Para eliminar o desasociar una Acción de una OT, se debe  seleccionar y hacer un clic sobre el icono <span class="mdi mdi-delete"></span>. Estos cambios quedan automáticamente guardados en la OT.</p>
+</blockquote>
+
+<h2 id="presupuesto">Presupuesto</h2>
+
+<p>En una OT Manual que se acaba de crear sólo se permite definir o modificar su Presupuesto si se ha establecido la opción <a class="btn cl-gray"><span class="mdi mdi-checkbox-blank-outline"> Control Presupuestal </span></a>, en la ventana detalle de la OT durante la creación de la OT. Esto significa que si a una OT no se le marcó el recuadro anterior, no tendrá la posibilidad de aceptar datos de <strong>Presupuesto</strong>, solamente de <strong>Gasto Real</strong>:</p>
+
+<p><img src="../../assets/images/cap09/chp09_img07.png" alt="Procesar imagen" />
+<em><strong>Imagen 76.</strong> Órdenes - Presupuesto</em></p>
+
+<p>Los datos de Gasto Real se pueden registrar en una OT en cualquier momento, mientras esa OT no exija Control Presupuestal. Pero si la OT exige Control Presupuestal, solo se puede registrar el Gasto Real después de haber <strong>aprobado el Presupuesto</strong>, en cuyo caso ya no será posible modificar este último.</p>
+
+<p>Se muestra un ejemplo de una OT creada manualmente con manejo de Presupuesto:</p>
+
+<p><img src="../../assets/images/cap09/chp09_img07_01.png" alt="Procesar imagen" />
+<em><strong>Imagen 77.</strong> Órdenes - Presupuesto</em></p>
+
+<p>En esta ventana se resumen los totales de los costos presupuestados de <a class="btn gray">Mano Obra Interna</a>, <a class="btn gray">Mano Obra Externa</a>, <a class="btn gray">Mat y Rep</a>, <a class="btn gray">O. Conceptos</a> para acceder a cada uno de ellos se da un clic en el botón acorde a lo que se necesite ingresar en su respectiva ventana detalle, a continuación se explica detalladamente como ingresarlos:</p>
+
+<p><strong>Ingresar Mano de Obra Interna</strong></p>
+
+<p><img src="../../assets/images/cap09/chp09_img07_02.png" alt="Procesar imagen" />
+<em><strong>Imagen 78.</strong> Órdenes - Mano de Obra Interna</em></p>
+
+<p>A través de la ventana de Ingreso de Mano de Obra Interna se administra el Presupuesto de Mano de Obra de la OT.</p>
+
+<p>Es importante destacar que el presupuesto de Mano de Obra de una OT, se prepara a nivel de Oficio, es decir, no se tiene en cuenta la persona que va a realizar la labor, pues se trata de un presupuesto y no se conoce a ciencia cierta, en la mayoría de los casos,
+quiénes serán los encargados de ejecutar la labor.</p>
+
+<p>En la izquierda de la ventana aparece un pequeño listado de los oficios presupuestados para la OT activa. A la derecha, es posible efectuar modificaciones, así como ingresar nuevos oficios al presupuesto.</p>
+
+<p>A continuación se hace un clic en el botón <a class="btn gray">Adicionar Mano Obra Interna</a> se deberán diligenciar los siguientes campos:</p>
+
+<p><strong>CR:</strong> Es el centro responsable al que pertenece el oficio presupuestado. Es un campo de solo lectura, que se establece automáticamente al seleccionar el oficio.</p>
+
+<p><strong>OF:</strong> Lista los Oficios definidos en el módulo de Infraestructura. Aquí se escoge el Oficio a presupuestar.</p>
+
+<p><strong>TT:</strong> Muestra de manera automática el TT que tiene configurado el Oficio seleccionado. Es un campo de solo lectura, que se establece automáticamente en el recuadro de Mano de Obra Interna una vez se haya escogido el Oficio.</p>
+
+<p><strong>H. Hombre:</strong> Número de horas hombre requeridas presupuestadas según el Oficio descrito.</p>
+
+<p><strong>Minutos:</strong> Es el número de Minutos, que junto con las horas, conforman el tiempo total presupuestado. Así, si se desea presupuestar 4 horas y media de un oficio, debe ponerse “4” en el campo “H. Hombre”, y “30” en el campo “MM”.</p>
+
+<p><strong>Personas:</strong> Este campo indica cuántas personas van a desempeñar la labor. Retomando el ejemplo anterior, si se ingresa “2” en este campo, se está diciendo que 2 personas van a desempeñar el oficio. Como ya se definió que el total de tiempo requerido son 4 horas y media, se deduce entonces que entre las 2 personas se consumirá este tiempo.</p>
+
+<p><strong>Vr. Hora:</strong> Es el valor unitario de la hora para el oficio en cuestión. AM sugiere el costo hora traído desde la tabla de Infraestructura para el oficio, pero puede cambiarse.</p>
+
+<p><strong>Vlr. Total:</strong> Este campo es informativo y es calculado por el sistema, contiene el valor total del presupuesto para ese Oficio. Es el producto del Vlr. Hora por H. Hombre y Minutos. Se visualiza en la tabla de Mano de Obra Interna.</p>
+
+<p>Una vez que se diligencian todos los campos se da clic en el botón <span class="mdi mdi-plus-circle icon bg-gray cl-blue"></span>, seguidamente se observa que la información creada se muestra en el recuadro de la mano de Obra Interna, ubicada al lado izquierdo.</p>
+
+<p><img src="../../assets/images/cap09/chp09_img07_02.png" alt="Procesar imagen" />
+<em><strong>Imagen 79.</strong> Órdenes - Ingresar MO</em></p>
+
+<p>Una vez terminado el proceso, hacer clic en el botón <a class="btn gray ">Ir a Matriz</a> para regresar a la ventana principal de Presupuesto.</p>
+
+<p>Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem y finalizar con el botón <a class="btn gray">Actualizar Mano Obra Interna</a>.</p>
+
+<p><img src="../../assets/images/cap09/chp09_img07_03.png" alt="Procesar imagen" />
+<em><strong>Imagen 80.</strong> Órdenes - Actualizar MO</em></p>
+
+<p>Por otro lado, para eliminar un registro de la tabla de Mano de Obra Interna, se selecciona el registro y luego se da clic al icono <span class="mdi mdi-delete"></span>, el cual muestra un mensaje de alerta que indica al usuario de si está seguro de eliminar el registro, para finalizar dar clic en <a class="btn bg-gray cl-black">ACEPTAR</a>, como se muestra en la siguiente imagen:</p>
+
+<p><img src="../../assets/images/cap09/chp09_img07_04.png" alt="Procesar imagen" />
+<em><strong>Imagen 81.</strong> Órdenes - Eliminar MO</em></p>
+
+<p><strong>Ingresar Mano de Obra Externa</strong></p>
+
+<p><img src="../../assets/images/cap09/chp09_img07_05.png" alt="Procesar imagen" />
+<em><strong>Imagen 82.</strong> Órdenes - ME</em></p>
+
+<p>A través de la ventana de Ingreso de Mano de Obra Externa se administra el Presupuesto de Mano de Obra Externa de la OT.</p>
+
+<p>Es importante resaltar que el presupuesto de Mano de Obra Externa de una OT, se prepara a nivel de la Especialidad (Oficio) del Responsable Externo, es decir, no se tiene en cuenta a la persona natural o jurídica que va a realizar la labor, pues se trata de un presupuesto y no se conoce a ciencia cierta, en la mayoría de los casos, quiénes serán los encargados de ejecutar la labor.</p>
+
+<p>A la izquierda aparece el listado de los oficios o especialidades presupuestados, a la derecha es posible efectuar modificaciones a los ítems presupuestados o nuevos ingresos de oficios al presupuesto.</p>
+
+<p>Para ingresar nuevas especialidades al Presupuesto de la OT se debe dar clic en el botón <a class="btn gray">Adicionar Mano Obra Externa</a> y diligenciar los siguientes campos:</p>
+
+<p><strong>CR:</strong> Es el centro responsable al que pertenece el Oficio o Especialidad presupuestado. Es un campo de solo lectura, que se establece automáticamente al seleccionar el Oficio o Especialidad.</p>
+
+<p><strong>OF:</strong> Lista los Oficios o Especialidades definidos en el módulo de Infraestructura. Aquí se escoge el Oficio o la Especialidad a presupuestar.</p>
+
+<p><strong>TT:</strong> Muestra de manera automática el TT que tiene configurado el Oficio o Especialidad seleccionado. Es un campo de solo lectura, que se establece automáticamente en el recuadro de Mano de Obra Externa una vez se haya escogido el Oficio o Especialidad.</p>
+
+<p><strong>Costo Unitario por hora/visita:</strong> Se digita el valor unitario por hora o por visita de parte del responsable ejecutor externo para esa actividad programada, ya sea un Contratista o un Servicio Externo.</p>
+
+<p>Una vez que se diligencian todos los campos se da clic en el icono del Más <span class="mdi mdi-plus-circle icon bg-gray cl-blue"></span>, seguidamente, se observa que la información creada se muestra en el recuadro de la mano de Obra Externa, ubicada al lado izquierdo.</p>
+
+<p>Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón <a class="btn gray">Actualizar Mano Obra Externa</a>.</p>
+
+<p><img src="../../assets/images/cap09/chp09_img07_06.png" alt="Procesar imagen" />
+<em><strong>Imagen 83.</strong> Órdenes - Actualizar ME</em></p>
+
+<p>Una vez terminado el proceso, hacer clic en el botón <a class="btn gray">Ir a Matriz</a>. para regresar a la ventana principal de Presupuesto.</p>
+
+<p>Por otro lado, para eliminar un registro de la tabla de Mano de Obra Externa, se selecciona el registro y luego se da clic al icono de eliminar <span class="mdi mdi-delete"></span> sale un mensaje de alerta que indica al usuario de si está seguro de eliminar el registro y finalmente se da clic en <a class="btn bg-gray cl-black">ACEPTAR</a>, como se muestra en la siguiente imagen:</p>
+
+<p><img src="../../assets/images/cap09/chp09_img07_07.png" alt="Procesar imagen" />
+<em><strong>Imagen 84.</strong> Órdenes - Eliminar ME</em></p>
+
+<p><strong>Ingresar Materiales y Repuestos</strong></p>
+
+<p><img src="../../assets/images/cap09/chp09_img07_08.png" alt="Procesar imagen" />
+<em><strong>Imagen 85.</strong> Órdenes - M y R</em></p>
+
+<p>A través de la ventana de Ingreso de Materiales y Repuestos se administra el Presupuesto de Materiales y Repuestos de la OT. A la izquierda aparece el listado de los Almacenes y Materiales y Repuestos presupuestados.</p>
+
+<p>A la derecha es posible efectuar modificaciones a los ítems o ingresar nuevos. Para ingresar nuevos Materiales y Repuestos, se debe dar clic al botón <a class="btn gray">Adicionar Material y Repuesto</a> se deben diligenciar los siguientes campos:</p>
+
+<p><strong>Almacén:</strong> Se elige el almacén dónde se encuentra el repuesto a ingresar al presupuesto.</p>
+
+<p><strong>Buscar Por:</strong> Este campo se listan las siguientes opciones para hacer la búsqueda de un Material y Repuesto: Código, Referencia, Cod. Barra Int y Cod. Barra Prov. Se habilitará una vez se elija el Almacén.</p>
+
+<p><strong>M y R:</strong> Este campo se habilita una vez se haya seleccionado el Almacén. Existen dos formas de seleccionar el Repuesto:</p>
+
+<p>La primera consiste de forma manual solo digitando el valor correspondiente al código, referencia, código de barras interno o proveedor del Material y Repuesto.</p>
+
+<p>La segunda consiste en buscar el Material y Repuesto, a través del visor de Material y Repuesto. Para ello se da un clic sobre el icono de filtro de Repuesto <span class="mdi mdi-filter-variant"></span>. Acto seguido se muestra la ventana de visor de Repuesto con la posibilidad de hacer allí subgrupos. Una vez se encuentra el Repuesto, se selecciona dando un clic sobre cualquiera de sus campos, seguidamente un clic sobre el botón <a class="btn white">ACEPTAR</a> de esa ventana o también es posible seleccionarlo dando doble clic sobre el registro seleccionado. Inmediatamente ese código aparece en el campo de M y R y automáticamente se actualizan los campos de UM y Valor Unitario.</p>
+
+<p><strong>Descripción M y R:</strong> Es un campo de solo lectura, que muestra la descripción del material y repuesto seleccionado.</p>
+
+<p><strong>Cantidad:</strong> Es la cantidad presupuestada para el repuesto seleccionado.</p>
+
+<p><strong>Unidad de Medida:</strong> Es un campo de solo lectura que muestra la unidad de consumo del
+repuesto seleccionado.</p>
+
+<p><strong>Vlr. Unitario:</strong> Es el valor unitario del repuesto seleccionado. AM sugiere el valor unitario ya establecido del Repuesto en cuestión, sin embargo, puede cambiarse.</p>
+
+<p><strong>TT:</strong> Este campo de solo lectura, muestra el TT para el cual se presupuesta el Material o
+Repuesto.</p>
+
+<p><strong>Vlr. Total:</strong> Este campo es informativo y es calculado por el sistema, contiene el valor total del presupuesto para ese Repuesto. Es el producto entre el Vlr. Unitario y la Cantidad.</p>
+
+<p>Una vez se diligencien estos campos se da clic en el botón <span class="mdi mdi-plus-circle icon bg-gray cl-blue"></span> para agregar como se muestra en la imagen anterior.</p>
+
+<p>Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón <a class="btn gray">Actualizar Material y Repuesto</a>.</p>
+
+<p><img src="../../assets/images/cap09/chp09_img07_09.png" alt="Procesar imagen" />
+<em><strong>Imagen 86.</strong> Órdenes - Actualizar M y R</em></p>
+
+<p>Una vez terminado el proceso, hacer clic en el botón <a class="btn gray">Ir a Matriz</a> para regresar a la ventana principal de Presupuesto.</p>
+
+<p>Por otro lado, para eliminar un registro de la tabla de Material y Repuesto, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-lock"></span> sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn bg-gray cl-black">ACEPTAR</a> como se muestra en la siguiente imagen:</p>
+
+<p><img src="../../assets/images/cap09/chp09_img07_10.png" alt="Procesar imagen" />
+<em><strong>Imagen 87.</strong> Órdenes - Eliminar M y R</em></p>
+
+<p><strong>Ingresar otros Conceptos</strong></p>
+
+<p><img src="../../assets/images/cap09/chp09_img07_11.png" alt="Procesar imagen" />
+<em><strong>Imagen 88.</strong> Órdenes - OC</em></p>
+
+<p>A través esta ventana de Ingreso de Otros Conceptos se administra el Presupuesto de Otros Conceptos de la OT.</p>
+
+<p>A la izquierda aparece el listado de los Otros Conceptos presupuestados, a la derecha es posible efectuar modificaciones a los otros conceptos presupuestados, así como ingresar nuevos conceptos de costo al presupuesto.</p>
+
+<p>Para ingresar nuevos Otros Conceptos al presupuesto de una OT, se debe dar clic al botón <a class="btn gray">Adicionar Otro Concepto</a> y diligenciar los siguientes campos:</p>
+
+<p><strong>Concepto:</strong> Es el “Otro Concepto” a presupuestar. Se selecciona descolgando la lista de otros Conceptos, traída desde su tabla en Infraestructura.</p>
+
+<p><strong>TT:</strong> Este campo de solo lectura, muestra el TT para el cual se presupuestó ese Concepto de Costo desde su tabla en Infraestructura.</p>
+
+<p><strong>Moneda:</strong> Este campo de solo lectura, muestra la moneda definida al otro concepto de costo en la tabla de Infraestructura.</p>
+
+<p><strong>Nro. Unidades</strong>: Se define el número de unidades del Concepto de Costo seleccionado anteriormente.</p>
+
+<p><strong>Vlr. Unitario:</strong> Es el valor presupuestado del “Otro Concepto Costo”. AM sugiere el valor unitario del concepto que se encuentra ingresando al sistema.</p>
+
+<p><strong>Vlr. Total:</strong> Es el costo total presupuestado del “Otro Concepto Costo” teniendo en cuenta el número de unidades y el valor unitario.</p>
+
+<p>Una vez se diligencien estos campos se da clic en el botón <span class="mdi mdi-plus-circle icon bg-gray cl-blue"></span> para agregar.</p>
+
+<p>Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón <a class="btn gray">Actualizar Otro Concepto</a>, como se muestra continuación:</p>
+
+<p><img src="../../assets/images/cap09/chp09_img07_12.png" alt="Procesar imagen" />
+<em><strong>Imagen 89.</strong> Órdenes - Actualizar OC</em></p>
+
+<p>Por otro lado, para eliminar un registro de la tabla de Otro Concepto de Costo, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, mostrando un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn bg-gray cl-black">ACEPTAR</a> como se muestra en la siguiente imagen:</p>
+
+<p><img src="../../assets/images/cap09/chp09_img07_13.png" alt="Procesar imagen" />
+<em><strong>Imagen 90.</strong> Órdenes - Eliminar OC</em></p>
+
+<blockquote>
+  <p><strong>Nota:</strong> Al hacer cualquier ingreso o actualización sobre algunos de los conceptos anteriores se guardan automáticamente en la OT.</p>
+</blockquote>
+
+<h3 id="gasto-real">Gasto Real</h3>
+
+<p>Para ingresar a esta opción, se debe dar clic en la pestaña <strong>Gasto Real</strong> de la ventana detalle de OT. Los datos de Gasto Real se pueden registrar en una OT en cualquier momento, mientras esa OT no exija <strong>Control Presupuestal</strong>, pero si lo exige solo se puede registrar el Gasto Real después de aprobar el Presupuesto (en cuyo caso, ya no es posible modificarlo).</p>
+
+<p>Para la primera alternativa se muestra un ejemplo:</p>
+
+<p><img src="../../assets/images/cap09/chp09_img07_14.png" alt="Procesar imagen" />
+<em><strong>Imagen 91.</strong> Órdenes - Pasar Presupuesto a Gasto Real</em></p>
+
+<p>Una vez se apruebe el Presupuesto se tienen dos alternativas:</p>
+
+<ul>
+  <li>
+    <p>Trasladar el Presupuesto al Gasto Real a través del botón <a class="btn gray">Pasar el Presupuesto al Gasto Real</a> en el caso de que el Gasto Real sea igual al Presupuesto.</p>
+  </li>
+  <li>
+    <p>Registrar el Gasto Real aparte con el fin de establecer una comparación contra el Presupuesto.</p>
+  </li>
+</ul>
+
+<p>Para el caso de la primera alternativa cuando se traslada el Presupuesto al Gasto Real, el sistema muestra un mensaje de confirmación y la ventana de Gasto Real se visualiza de la siguiente manera:</p>
+
+<p><img src="../../assets/images/cap09/chp09_img07_15.png" alt="Procesar imagen" />
+<em><strong>Imagen 92.</strong> Órdenes - Gasto Real</em></p>
+
+<blockquote>
+  <p><strong>Nota</strong>: Es posible modificar el Gasto Real en cualquier momento y en cualquiera de las alternativas anteriores. De igual forma cualquier modificación en él, establece una comparación contra el Presupuesto. Los valores en la matriz de los totales se muestran en rojo mostrando la  diferencia hasta que se envíe la OT a la Historia de Mantenimiento.</p>
+</blockquote>
+
+<p>Esta tabla resume los totales de los gastos de Mano de Obra Interna, Mano de Obra Externa, Materiales y Repuestos y Otros Conceptos de Costo. A través de esta ventana de Gasto Real se puede administrar el Gasto Real de la OT. Se compone de dos zonas:</p>
+
+<p>En la zona superior, aparece la matriz de Gasto Real, que resume los costos reales para la OT, discriminando por TT (En las filas), y por Tipo de Consumo (En las columnas). La última fila y la última columna de la matriz, discriminan la diferencia contra el Presupuesto, conformando así el Control Presupuestal de la OT.</p>
+
+<p>En la zona inferior, aparecen los botones para ingresar Mano de Obra Interna, Mano de Obra Externa, Materiales y Repuestos, y Otros Conceptos.</p>
+
+<p><strong>Ingresar Mano de Obra Interna</strong></p>
+
+<p><img src="../../assets/images/cap09/chp09_img07_16.png" alt="Procesar imagen" />
+<em><strong>Imagen 93.</strong> Órdenes - Gasto Real Mano de Obra Interna</em></p>
+
+<p>A través de la ventana de GR de Ingreso de Mano de Obra Interna se administra el Gasto Real de Mano de Obra de la OT.</p>
+
+<p>A diferencia del Presupuesto de Mano de Obra Interna, el Gasto Real de la Mano de Obra Interna se efectúa a nivel de Responsable, es decir, se tiene en cuenta a la persona que realiza la labor.</p>
+
+<p>A continuación se describen los campos que se deben diligenciar en esta ventana. Bien sea para actualizar o o ingresar nuevas personas que intervengan en una OT.</p>
+
+<p><strong>Fecha de Uso:</strong> Es la fecha en la cual se utiliza el recurso.</p>
+
+<p><strong>OF:</strong> Es el oficio al que pertenece el Responsable asignado. Es un campo de solo lectura, que se establece una vez se selecciona el Responsable.</p>
+
+<p><strong>Responsable:</strong> Es la persona que ha ejecutado la OT. Se elige el Responsable descolgando el listado de Responsables, traído desde la tabla de Infraestructura.</p>
+
+<p><strong>Filtrar por OF:</strong> Al seleccionar esta opción, en el campo “Responsable” solo se descuelgan los Responsables correspondientes al Oficio definido en la opción “OF”. De no hacerlo, en el campo “Responsable” se despliegan todos los “Responsables ejecutores” existentes en la tabla respectiva.</p>
+
+<p><strong>H. Hombre:</strong> Es el número de Horas Hombre consumidas por el Responsable en cuestión.</p>
+
+<p><strong>Minutos:</strong> Es el número de Minutos, que junto con las horas, conforman el tiempo total consumido. Así, si se consumen 3 horas y media de un responsable, debe registrarse “3” en el campo “H. Hombre”, y “30” en el campo “Minutos”.</p>
+
+<p><strong>Tipo Hr.:</strong> Dado que un Responsable a través del Oficio del mismo puede poseer varios tipos de Hora, cada uno con un valor distinto, en este campo se selecciona el Tipo de Hora adecuado. AM sugiere el valor hora correspondiente, dependiendo del tipo elegido. Si se elige el Tipo “Otro”, AM no sugiere ningún valor hora, y deja a decisión del usuario el valor a asignar en este campo.</p>
+
+<p><strong>Vlr. Hora:</strong> Es el valor unitario de la hora para el oficio del Responsable en cuestión. AM automáticamente sugiere el costo por hora traído desde la tabla de Infraestructura para el Oficio, en los casos en que el tipo hora es distinto de “Otro”, el campo se habilitará para digitar un valor hora.</p>
+
+<p><strong>Tipo de Asignación:</strong> Este campo define al responsable de la mano de obra de la OT, el tipo de intervención que realiza en el tiempo que la OT esté abierta. La opción “Presupuesto para Histograma” es para definir la proyección a futuro de la carga de trabajo del responsable; y “Ejecución Real” es para definir la carga de trabajo ejecutada. Ambas permiten hacer la proyección el <strong>Histograma</strong>.</p>
+
+<p><strong>TT:</strong> Este campo es informativo. Muestra el TT que tiene definido el Oficio seleccionado, se establece automáticamente una vez se ha seleccionado el Responsable y se visualiza en la tabla de Mano de Obra Interna.</p>
+
+<p><strong>Vlr.Total:</strong> Este campo es informativo y es calculado por el sistema, contiene el valor total del Gasto Real para ese Responsable. Es el producto del Vlr. Hora por H. Hombre y Minutos. Se visualiza en la tabla de Mano de Obra Interna.</p>
+
+<p>Una vez se diligencien estos campos se da clic en el ícono de Mas <span class="mdi mdi-plus-circle icon bg-gray cl-blue"></span> para agregar, como se muestra a continuación:</p>
+
+<p><img src="../../assets/images/cap09/chp09_img07_17.png" alt="Procesar imagen" />
+<em><strong>Imagen 94.</strong> Órdenes - Gasto Real Ingresar MO</em></p>
+
+<p>En el caso de actualizar la información de Mano de Obra Interna se da clic en <a class="btn gray">Actualizar Mano de Obra Interna</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.</p>
+
+<p><img src="../../assets/images/cap09/chp09_img07_18.png" alt="Procesar imagen" />
+<em><strong>Imagen 95.</strong> Órdenes - Gasto Real Actualizar MO</em></p>
+
+<p>Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono <span class="mdi mdi-delete"></span> mostrando un mensaje alerta indicando al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn bg-gray cl-black">ACEPTAR</a> como se muestra en la siguiente imagen:</p>
+
+<p><img src="../../assets/images/cap09/chp09_img07_19.png" alt="Procesar imagen" />
+<em><strong>Imagen 96.</strong> Órdenes - Gasto Real Eliminar MO</em></p>
+
+<p><strong>Ingresar Mano de Obra Externa</strong></p>
+
+<p><img src="../../assets/images/cap09/chp09_img08.png" alt="Procesar imagen" />
+<em><strong>Imagen 97.</strong> Órdenes - Gasto Real Mano de Obra Externa</em></p>
+
+<p>A través de la ventana de Ingreso de Mano de Obra Externa se administra el Gasto Real de Mano de Obra Externa de la OT.
+Es importante destacar que el Gasto Real de Mano de Obra Externa de una OT, se prepara a nivel del Responsable Ejecutor Externo, es decir, quiénes fueron los encargados de ejecutar la labor.</p>
+
+<p>A continuación se describen los campos que componen esta ventana; cuando se quiera actualizar o ingresar nuevos Responsables ejecutores externos a la OT, se deberán diligenciar los siguientes campos:</p>
+
+<p><strong>Fecha de Uso:</strong> Es la fecha en la cual se utiliza el recurso.</p>
+
+<p><strong>OF:</strong> Es el Oficio al que pertenece el Responsable Externo asignado. Es un campo de solo lectura, que se establece una vez se selecciona el Responsable.</p>
+
+<p><strong>Responsable:</strong> Es el Responsable Externo que ha ejecutado la OT. Para seleccionarlo se descuelga el listado de Responsables Externos, traído desde la tabla de Infraestructura.</p>
+
+<p><strong>Filtrar por OF:</strong> Al seleccionar esta opción, en el campo “Responsable” solo se descuelgan los Responsables Externos correspondientes al Oficio definido en la opción “OF”. De no hacerlo, en el campo “Responsable” se despliegan todos los “Responsables ejecutores Externos” existentes en la tabla respectiva.</p>
+
+<p><strong>Costo Unitario por hora/visita:</strong> Se digita el valor o el costo unitario por hora o por visita de parte del Responsable Ejecutor Externo para esa actividad programada.</p>
+
+<p><strong>TT:</strong> Este campo es informativo. Muestra el TT que tiene definido el Oficio seleccionado, se establece automáticamente una vez se ha seleccionado el Responsable y se visualiza en la tabla de Mano de Obra Interna.</p>
+
+<p>Una vez se diligencien estos campos se da clic en el ícono <span class="mdi mdi-plus-circle icon bg-gray cl-blue"></span>
+para agregar, como se muestra a continuación:</p>
+
+<p><img src="../../assets/images/cap09/chp09_img09.png" alt="Procesar imagen" />
+<em><strong>Imagen 98.</strong> Órdenes - Gasto Real Ingresar ME</em></p>
+
+<p>En el caso de actualizar la información de Mano de Obra Externa, se da clic en <a class="btn gray">Actualizar Mano de Obra Externa</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.</p>
+
+<p><img src="../../assets/images/cap09/chp09_img10.png" alt="Procesar imagen" />
+<em><strong>Imagen 99.</strong> Órdenes - Gasto Real Actualizar ME</em></p>
+
+<p>Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono <span class="mdi mdi-delete"></span> mostrando un mensaje de alerta que indica al usuario si está seguro de eliminar el registro. Para finalizar dar clic en <a class="btn bg-gray cl-black">ACEPTAR</a> como se muestra en la siguiente imagen:</p>
+
+<p><img src="../../assets/images/cap09/chp09_img11.png" alt="Procesar imagen" />
+<em><strong>Imagen 100.</strong> Órdenes - Gasto Real Eliminar ME</em></p>
+
+<p><strong>Ingresar Materiales y Repuestos</strong></p>
+
+<p><img src="../../assets/images/cap09/chp09_img12.png" alt="Procesar imagen" />
+<em><strong>Imagen 101.</strong> Órdenes - Gasto Real Materiales y Repuestos</em></p>
+
+<p>A través de la ventana de Ingreso de Materiales y Repuestos se administra el consumo real de Materiales y Repuestos de la OT.</p>
+
+<p>A continuación se describen los campos que componen esta ventana; cuando se quiera actualizar o ingresar nuevos Materiales y Repuestos al gasto real de una OT, se deberán diligenciar los siguientes campos:</p>
+
+<p><strong>Fecha de Uso:</strong> Es la fecha en la cual se utiliza el recurso.</p>
+
+<p><strong>Almacén:</strong> Se elige el almacén dónde se encuentra el Repuesto a consumir y a ingresar al Gasto Real.</p>
+
+<p><strong>Buscar Por:</strong> Este campo es de solo lectura y muestra por defecto la opción de Código. Una vez se elige el Almacén, este campo se habilita y lista las opciones por las cuales se puede buscar el ítem a relacionar. Las opciones son: Código, Referencia, Cod. Barra Int y Cod. Barra Prov.</p>
+
+<p><strong>M y R:</strong> Este campo se habilita una vez se haya seleccionado el Almacén. Existen dos formas de seleccionar el Repuesto:</p>
+
+<p>La primera consiste de forma manual solo digitando el valor correspondiente al código, referencia, código de barras interno o proveedor del Material y Repuesto.</p>
+
+<p>La segunda consiste en buscar el Material y Repuesto, a través del visor de Material y Repuesto. Para ello se da un clic sobre el icono de filtro de Repuesto <span class="mdi mdi-filter-variant"></span>. Acto seguido se muestra la ventana de visor de Repuesto con la posibilidad de hacer allí subgrupos. Una vez se encuentra el Repuesto, se selecciona dando un clic sobre cualquiera de sus campos, seguidamente un clic sobre el botón <a class="btn white">ACEPTAR</a> de esa ventana o también es posible seleccionarlo dando doble clic sobre el registro seleccionado. Inmediatamente ese código aparece en el campo de M y R y automáticamente se actualizan los campos de UM y Valor Unitario.</p>
+
+<p><strong>Descripción M y R:</strong> Es un campo de solo lectura, que muestra la descripción del material y repuesto seleccionado.</p>
+
+<p><strong>Cantidad:</strong> Es la cantidad que se va a consumir en la ejecución de esa OT para el repuesto seleccionado.</p>
+
+<p><strong>UM:</strong> Es un campo de solo lectura que muestra la unidad de consumo del repuesto seleccionado.</p>
+
+<p><strong>Vlr. Unitario:</strong> Es el valor unitario del repuesto seleccionado. AM sugiere el valor unitario ya establecido del Repuesto en cuestión, sin embargo, puede cambiarse.</p>
+
+<p><strong>TT:</strong> Este campo es informativo. Muestra el TT que tiene definido el Material y Repuesto seleccionado, se establece automáticamente una vez se ha seleccionado el Material y Repuesto. También, se visualiza en la tabla de Materiales y Repuestos.</p>
+
+<p><strong>Vlr. Total:</strong> Este campo es informativo y es calculado por el sistema, contiene el valor total consumido para ese Material y Repuesto. Es el producto del Vlr. Unitario por la Cantidad. Se visualiza en la tabla de Materiales y Repuestos.</p>
+
+<p>Una vez se diligencien estos campos se da clic en el botón <span class="mdi mdi-plus-circle icon bg-gray cl-blue "></span> para agregar, como se muestra a continuación:</p>
+
+<p><img src="../../assets/images/cap09/chp09_img13.png" alt="Procesar imagen" />
+<em><strong>Imagen 102.</strong> Órdenes - Gasto Real Ingresar M y R</em></p>
+
+<p>En el caso de actualizar la información de Materiales y Repuestos, se da clic en <a class="btn gray">Actualizar Material y Repuesto</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.</p>
+
+<p><img src="../../assets/images/cap09/chp09_img14.png" alt="Procesar imagen" />
+<em><strong>Imagen 103.</strong> Órdenes - Gasto Real Actualizar M Y R</em></p>
+
+<p>Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn bg-gray cl-black">ACEPTAR</a> como se muestra en la siguiente imagen:</p>
+
+<p><img src="../../assets/images/cap09/chp09_img15.png" alt="Procesar imagen" />
+<em><strong>Imagen 104.</strong> Órdenes - Gasto Real Eliminar M y R</em></p>
+
+<p><strong>Ingresar Otros Conceptos de Costo</strong></p>
+
+<p><img src="../../assets/images/cap09/chp09_img16.png" alt="Procesar imagen" />
+<em><strong>Imagen 105.</strong> Órdenes - Gasto Real Otros Conceptos de Costo</em></p>
+
+<p>A través de la ventana de Ingreso de Otros Conceptos se administra el Gasto Real de “Otros Conceptos” o Gastos indirectos de la OT.</p>
+
+<p>A continuación se describen los campos que componen esta ventana; cuando se quiera actualizar o ingresar nuevos Otros Conceptos de Costo al Gasto Real de una OT, se deberán diligenciar los siguientes campos:</p>
+
+<p><strong>Concepto:</strong> Es el “Otro Concepto” a presupuestar. Se selecciona descolgando la lista de Otros Conceptos, traída desde su tabla en Infraestructura.</p>
+
+<p><strong>Fecha de Uso:</strong> Es la fecha en la cual se utiliza el recurso.</p>
+
+<p><strong>Concepto:</strong> Es el “Otro Concepto‟ a cargar a la OT. Se selecciona descolgando la lista de otros Conceptos, traída desde su tabla en Infraestructura.</p>
+
+<p><strong>Nro. Unidades:</strong> Se define el número de unidades consumidas del Concepto de Costo seleccionado anteriormente.</p>
+
+<p><strong>Vlr. Unitario:</strong> Es el valor presupuestado del “Otro Concepto Costo”. AM sugiere el valor unitario del concepto que se encuentra ingresando al sistema. Sin embargo, es modificable por el usuario.</p>
+
+<p><strong>Moneda:</strong> Este campo de solo lectura, muestra la moneda definida al otro Concepto de Costo en la tabla de Infraestructura.</p>
+
+<p><strong>Vlr. Total:</strong> Es el costo total consumido del “Otro Concepto Costo” teniendo en cuenta el número de unidades y el valor unitario.</p>
+
+<p><strong>Info. Adicional:</strong> Es un campo donde se define un pequeño comentario sobre el consumo.</p>
+
+<p>Una vez se diligencien estos campos se da clic en el ícono <span class="mdi mdi-plus-circle icon bg-gray cl-blue"></span> para agregar, como se muestra a continuación:</p>
+
+<p><img src="../../assets/images/cap09/chp09_img17.png" alt="Procesar imagen" />
+<em><strong>Imagen 106.</strong> Órdenes - Gasto Real Ingresar Otros Conceptos de Costo</em></p>
+
+<p>En el caso de actualizar la información de Materiales y Repuestos, se da clic en <a class="btn gray">Actualizar Otro Concepto</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.</p>
+
+<p><img src="../../assets/images/cap09/chp09_img18.png" alt="Procesar imagen" />
+<em><strong>Imagen 107.</strong> Órdenes - Gasto Real Actualizar Otros Conceptos de Costo</em></p>
+
+<p>Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn bg-gray cl-black">ACEPTAR</a> como se muestra en la siguiente imagen:</p>
+
+<p><img src="../../assets/images/cap09/chp09_img19.png" alt="Procesar imagen" />
+<em><strong>Imagen 108.</strong> Órdenes - Gasto Real Eliminar Otro Concepto de Costo</em></p>
+
+<blockquote>
+  <p><strong>Nota:</strong> Para finalizar, hacer clic en el botón <a class="btn gray">Ir a Matriz</a> para regresar a la ventana principal de Gasto Real y luego para acentar los cambios en el Gasto Real de la OT se debe dar clic en <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a>.</p>
+</blockquote>
+
+<h3 id="seguimiento-y-cierre">Seguimiento y Cierre</h3>
+
+<p>Para cerrar la OT, se debe contar con el permiso de Cerrar ortorgado por el usuario admistrador, este permiso sólo permite cerrar una OT individual y actualizar sólo la actual pestaña.</p>
+
+<p>En el Seguimiento o Cierre se mantiene al día la información vital de ejecución de la OT, desde el momento en que se crea, hasta el momento en que se cierra para proceder a enviarla a Historia. Es aquí donde se registran las fechas, tiempos y demás básicos concernientes a la ejecución de la labor.</p>
+
+<p><img src="../../assets/images/cap09/chp09_img68.png" alt="Procesar imagen" />
+<em><strong>Imagen 109</strong> Órdenes - Detalle Seguimiento y Cierre</em></p>
+
+<p>Para actualizar o hacer seguimiento de una OT, se deberán diligenciar los siguientes campos:</p>
+
+<p><strong>Que Hacer:</strong> Este recuadro aparece con los campos bloqueados para que el usuario visualice la información básica de la OT.</p>
+
+<p><strong>F/H de Paro:</strong> Este campo aparece adicional sólo para las OT Correctivas, y se registra la Fecha y hora del daño ocurrido. La fecha se maneja en formato DD/MM/AAAA (Día, Mes, Año); la hora se maneja en formato de 12h. Cabe anotar, que la fecha y hora consignadas corresponden al momento en que se informó del daño o falla a Mantenimiento, así que es posible que el daño haya ocurrido en una fecha/hora anterior. Sin embargo se debe procurar, administrativamente, que Mantenimiento se entere lo más pronto posible de la Fecha y Hora reales del Daño.</p>
+
+<p><strong>F/H Atención:</strong> Es la fecha y hora en la que el Personal de Mantenimiento llega a atender el fallo reportado, o sea, cuando se hace presente en la Ubicación Física del equipo, para realizar una inspección previa sobre el Equipo Reportado. La fecha se maneja en formato DD/MM/AAAA (Día, Mes, Año) y la hora se maneja en formato de 12h. Normalmente se utiliza en OTs creadas manualmente. Una vez se digita la Fecha y Hora de Atención, éstas se sugieren para la fecha/hora de Inicio de Trabajos y Fin de Trabajos de la OT, claro está, si tales fechas y horas no han sido digitadas aún.</p>
+
+<p><strong>F/H Inicio Trabajos:</strong> Es la Fecha y Hora que indica el momento de inicio de labores una vez que todas las condiciones están dadas: se han superado los tiempos de inspección y administrativos; la máquina está lista y en condiciones de ser mantenida, ya fue entregada al Depto. de Mantenimiento y éste a su vez, cuenta con todos los recursos necesarios para la ejecución: herramientas, instrumentos, materiales, repuestos y responsable. La fecha se maneja en formato DD/MM/AAAA (Día, Mes, Año) y la hora se maneja en formato de 12h.</p>
+
+<p><strong>F/H Fin Trabajos:</strong> Es la Fecha y Hora que indica el momento en que finalizan las labores de mantenimiento, incluyendo las pruebas o ensayos que determinaron el buen funcionamiento del equipo. La fecha se maneja en formato DD/MM/AAAA (Día, Mes, Año) y la hora se maneja en formato de 12h.</p>
+
+<p><strong>Tiempo Duración (ttr):</strong> <strong>AM</strong> sugiere como Tiempo de Duración, (o time to repair), la diferencia entre la Fecha/Hora de Fin de Trabajos y la Fecha/Hora de Inicio de Trabajos. Cabe anotar, que no siempre el Tiempo de Duración es la diferencia entre estas fechas/horas, porque pueden existir eventos que dejan temporalmente a la OT en Estado de “Pendiente”. AM permite corregir el tiempo de Duración en una OT, después de que fue calculado por el sistema, para que refleje el tiempo real de la ejecución.
+Por ejemplo, si una OT tiene como Fecha de Inicio de Trabajos XXXX/12/01 08:30 a.m., y como Fecha de Fin de Trabajos XXXX/12/01 04:00 p.m., AM sugiere como Tiempo de Duración 7 horas y 30 minutos. Sin embargo, si durante ese lapso se tuvo que detener la ejecución por 2 horas, debido a que faltaba un Repuesto o a que el técnico encargado se ausentó a realizar otra labor, se debe corregir la duración en 5 horas y 30 minutos.</p>
+
+<p><strong>Tiempo Improductivo:</strong> <strong>AM</strong> sugiere como Tiempo Improductivo la diferencia entre la Fecha/Hora de Fin de Trabajos y la Fecha/ Hora de Paro (Para OT Correctivas), o como la diferencia entre la Fecha/Hora de Fin de Trabajos y la Fecha/Hora de Inicio de Trabajos (Para OT no Correctivas). Sin embargo, este valor puede corregirse, después de que fue calculado por el sistema, para reflejar la cantidad Real de Tiempo Improductivo que tuvo el Equipo en la OT actual.</p>
+
+<p>Por ejemplo, si una OT correctiva tiene como fecha de Información de Paro XXXX/12/01 08:00 a.m., y como fecha de Fin de Trabajos XXXX/12/02 12:30 pm, AM sugiere como Tiempo Improductivo, 1 día, 4 horas y 30 minutos. Sin embargo, si en ese lapso, el Equipo no trabaja de 10 PM a 6 AM, pues la empresa no labora este turno de producción, se debe definir el tiempo improductivo como solamente de 20 horas y 30 minutos.</p>
+
+<p><strong>Tiempo Total de Solución:</strong> Este campo es calculado por el sistema y no permite corrección manual, equivale a la diferencia entre la Fecha de Paro y la fecha de Fin de Trabajos para las Órdenes Correctivas y para las OT preventivas o con otro tipo de mantenimiento es la diferencia entre la Fecha De Atención y la Fecha Fin de Trabajos.</p>
+
+<p><strong>Estado de la OT:</strong> los estados estándares del sistema que puede tener una OT son:</p>
+
+<ul>
+  <li>E: En Ejecución</li>
+  <li>K: Cancelada o No ejecutada</li>
+  <li>C: Cerrada Ejecutada</li>
+  <li>P: Pendiente de Ejecución</li>
+  <li>PR: Programada</li>
+  <li>PL: Planeada</li>
+</ul>
+
+<p><strong>Causa pendiente:</strong> Este campo se agregará en el caso de que a la OT se le ha ya definido el Estado “P: Pendiente de Ejecución”, luego se descuelgan las causas relacionadas a dicho Estado. En caso de requerir registrar una causa distinta, que no exista en la lista, se puede crear en la tabla respectiva de Infraestructura.</p>
+
+<p><strong>Causa de Cierre:</strong> Por defecto, cuando el Estado de la OT es cerrada y ejecutada, el sistema ubica en este campo la causa “OT Ejecutada”. Las opciones que se descuelgan en este campo varían según el Estado anteriormente definido. Por ejemplo, Si la OT se ha cerrado con un Estado de “K: Cancelada o No Ejecutada”, aparecen las distintas causas por las cuales se puede cancelar una OT. En caso de requerir registrar una causa distinta, que no exista en la lista, se puede crear en la tabla respectiva de Infraestructura.</p>
+
+<p><strong>Estado del Activo:</strong> Permite actualizar el estado del Activo desde esta opción. La funcionalidad de poder definir que el usuario logueado pueda modificar el estado del Activo, se parametriza en Administración, se sobrepone el mouse en una compañía de la lista que se muestra y se da clic en Valores por Defecto, la etiqueta OT, la opción “Modificar Estado del Equipo en Seguimiento y Cierre de la OT”.</p>
+
+<p><strong>Dejar el GR en Cero (0):</strong> Esta opción se habilita cuando el Estado de la OT es Cerrada Ejecutada o Cancelada o No Ejecutada. Si se habilita el check dando clic, al finalizar el cierre de la OT, el Gasto Real registrado en la OT se elimina, dejando los costos totales del Gasto Real en cero (0).</p>
+
+<p><strong>Causa de Falla:</strong> Para OT correctivas este campo es <strong>obligatorio</strong>, se registra la Causa de la Falla que dio origen a la labor actual. Estas opciones que se despliegan, corresponden a las definidas en su tabla en la Infraestructura.</p>
+
+<p><strong>Efecto de Falla:</strong> Para OT correctivas, en este campo se registra el Efecto mas significativo de la falla que se presentó y fue reportado por producción.</p>
+
+<p><strong>Meses de Garantía:</strong> Indica cuántos meses de garantía se ofrecen por la labor realizada. El número de meses establecido empieza a regir a partir de la Fecha de Fin de Trabajos de la OT.</p>
+
+<p><strong>Conf. Subjetiva AC.:</strong> Este campo le permite establecer al técnico de mantenimiento encargado de la labor, un concepto subjetivo sobre la Confiabilidad del Equipo una vez finalizados los trabajos. Es un concepto que no se fundamenta en criterios o metodologías técnicas, pero que sí indica una apreciación de quien revisó y mantuvo el equipo objeto de la OT.</p>
+
+<p><strong>Email:</strong> En este campo el sistema asigna automáticamente el correo electrónico del Solicitante definido en la ficha técnica de la OT de la ventana detalle en el campo de Correo Electrónico. Sin embargo, este campo es modificable por el usuario y puede asignar el email de la persona que recibirá el trabajo de mantenimiento.</p>
+
+<p><strong>Fecha y estado del contador al momento de ejecución:</strong> En este recuadro se ingresa toda la información relacionada con el contador del equipo y su fecha de lectura al momento de cerrar la OT. Al actualizar esta información el sistema genera un mensaje para modificar la fecha de inicio de periodo en el módulo de programas; el usuario decide si se desea modificar este tipo de información o no. Se deben llenar los siguientes campos para proceder a actualizar la información:</p>
+
+<p><strong>Tipo CO:</strong> Este campo permanece bloqueado y muestra el nombre del Contador del Activo que fue asignado en el PM por Contador.
+Valor del CO en el Activo: Este campo permanece bloqueado y muestra el valor del Contador del Activo que se tenga definido en el módulo de Activos en la pestaña Ficha Técnica.</p>
+
+<p><strong>FF Lectura CO en el Activo:</strong> Este campo permanece bloqueado y muestra la fecha de lectura del Contador del Activo que se tenga definido en el módulo de Activos en la pestaña Ficha Técnica.
+Valor del CO en la Generación: Este campo permanece bloqueado y muestra el valor del Contador del Activo proyectado por el PM al momento de generarse.</p>
+
+<p><strong>FF Lectura CO en la Generación:</strong> Este campo permanece bloqueado y muestra la fecha de lectura del Contador del Activo proyectado por el PM al momento de generarse.</p>
+
+<p><strong>Valor del CO en la Ejecución:</strong> En este campo se define el valor del Contador del Activo al momento de ejecutarse la labor o al momento del cierre de la OT.</p>
+
+<p><strong>FF Lectura CO en la Ejecución:</strong> En este campo se define la fecha de lectura del Contador del Activo al momento de ejecutarse o al momento del cierre de la OT.</p>
+
+<p>En el Seguimiento o Cierre, además de los botones <a class="btn gray">Actualizar</a> seguido, se visualiza el botón <a class="btn gray">Bitácora</a>, el cual muestra en una nueva ventana el historial de cambios de la OT en: Estado, Prioridad y Responsable. Se muestra esta información solo si se han presentado modificaciones, de lo contrario los campos permanecen en blanco.</p>
+
+<p><img src="../../assets/images/cap09/chp09_img69.png" alt="Procesar imagen" />
+<em><strong>Imagen 110.</strong> Órdenes - Detalle Bitácora en Seguimiento y Cierre</em></p>
+
+<blockquote>
+  <p><strong>Nota:</strong> Nótese que para hacer efectivo el cierre o el cambio del estado de la OT se encuentra el botón <a class="btn gray">Actualizar</a> como se indica en las dos imágenes anteriores, este botón sólo cumple la función de actualizar únicamente la pestaña de seguimiento y cierre (tiempos y estado) ya que el botón de <a class="btn blue">ACTUALIZAR <span class="mdi mdi-pencil"></span></a> se inactiva una vez que se encuentre en esta pestaña, es por esto que si se desean guardar otros cambios se debe estar en las otras pestañas (ficha técnica, gasto real, multimedia).</p>
+</blockquote>
+
+<p>Una vez se actualice el sistema responde con un mensaje de advertencia, para continuar dar un clic en <a class="btn bg-gray cl-black">ACEPTAR</a></p>
+
+<p><img src="../../assets/images/cap09/chp09_img70.png" alt="Procesar imagen" />
+<em><strong>Imagen 111.</strong> Órdenes - Mensaje Alerta Seguimiento y Cierre</em></p>
+
+<h3 id="evaluación-de-servicio">Evaluación de Servicio</h3>
+
+<p>Se puede realizar la evaluación del servicio prestado por el personal de mantenimiento o de servicios en la OT seleccionada. La evaluación la debe realizar un usuario, previamente autorizado, quien fuera el receptor del servicio, una vez que se ha ya cerrado la OT, esta opción de evaluación se hace disponible, cuando se han definido las cinco preguntas de evaluación, en el módulo de “Administración”, “Valores por Defecto”, “Parámetros para Evaluación del Servicio. Es posible realizar la evaluación del servicio de una OT, cuando el solicitante se encuentra registrado como un usuario solicitante en el AM.</p>
+
+<p><img src="../../assets/images/cap09/chp09_img20.png" alt="Procesar imagen" />
+<em><strong>Imagen 112.</strong> Órdenes - Evaluación de Servicio</em></p>
+
+<blockquote>
+  <p><strong>Nota:</strong> Una vez cerrada o cancelada la OT no es posible hacer cambios de estado, se debe de contar con el permiso del usuario administrador para efectuar cambios de estado a través de la transacción <strong>Seguimiento o Cierre Masivo</strong> que permite hacer cierre especial de Órdenes el cual se explica en la sección <strong>Transacciones</strong>.</p>
+</blockquote>
+
+<h3 id="multimedia">Multimedia</h3>
+
+<p><img src="../../assets/images/cap09/chp09_img21.png" alt="Procesar imagen" />
+<em><strong>Imagen 113.</strong> Órdenes - Multimedia</em></p>
+
+<p>En la gráfica anterior, Ventana Multimedia, se aprecian sus componentes y sus respectivos contenidos. A través de la ventana Multimedia se adjunta información adicional a la OT en cada una de sus carpetas asignadas. Esta opción permite asociar a la OT uno o varios documentos, con el objetivo de facilitar o guiar el trabajo a realizar o detallarlo minuciosamente. AM acepta documentos de extensiones .DOC, XLS, PDF, JPG es decir, de Microsoft Word o Microsoft Excel, Acrobat o Imágenes.</p>
+
+<p>Los documentos anexos pueden contener ayudas necesarias en la ejecución de la OT, planos, manuales técnicos, manuales de normas técnicas de Mantenimiento o de especificaciones detalladas, normas de seguridad, enfoques de acción, procedimientos sobre cómo realizar la labor, listas de verificación, protocolos de prueba u otra información estándar para su ejecución.</p>
+
+<p>A continuación se describen las carpetas que componen esta ventana; cuando se quiera actualizar o ingresar nueva información a la OT, se deberán registrar así:</p>
+
+<p><strong>Que Hacer:</strong> Es la información general que aparece en cada pestaña con los campos bloqueados para que el usuario visualice la información básica de la OT.</p>
+
+<p><strong>Documentos:</strong> En esta carpeta se relaciona toda clase de documentación relacionada a la OT. Ejemplo: Archivos en Word, PDF, Excel, entre otros.</p>
+
+<p><strong>Imágenes:</strong> En esta carpeta se relaciona toda clase de imágenes relacionadas a la OT. Ejemplo: Imágenes en formato JPG, PNG, entre otros.</p>
+
+<p><strong>Videos:</strong> En esta carpeta se relacionan porciones de videos relacionados a la OT. Ejemplo: Videos en formato wmv y mp4.</p>
+
+<p>Para adicionar un documento, imagen o video, se debe dar un doble clic sobre la carpeta deseada, y luego seleccionar del ícono de nube <span class="mdi mdi-cloud-upload icon white"></span>, como se muestra a continuación:</p>
+
+<p><img src="../../assets/images/cap09/chp09_img22.png" alt="Procesar imagen" />
+<em><strong>Imagen 114.</strong> Órdenes - Abrir Explorador Archivos</em></p>
+
+<p>A continuación se abre el explorador de archivos, seguido de seleccionar el archivo dar un clic en <a class="btn bg-gray cl-black">Abrir</a>.</p>
+
+<p><img src="../../assets/images/cap09/chp09_img23.png" alt="Procesar imagen" />
+<em><strong>Imagen 115.</strong> Órdenes - Seleccionar Archivos</em></p>
+
+<p>De manera adicional u opcional se puede escribir un nombre en el siguiente campo para enfatizar de lo que trata el archivo:</p>
+
+<p><img src="../../assets/images/cap09/chp09_img24.png" alt="Procesar imagen" />
+<em><strong>Imagen 116.</strong> Órdenes - Nombrar Archivo</em></p>
+
+<p>Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic sobre el nombre de una de las imágenes, se muestra la previsualización, como se muestra a continuación:</p>
+
+<p><img src="../../assets/images/cap09/chp09_img25.png" alt="Procesar imagen" />
+<em><strong>Imagen 117.</strong> Órdenes - Previsualización de imagen</em></p>
+
+<p>Para desasociar un documento, o una imagen o un video, a la OT se da clic al icono de basura <span class="mdi mdi-delete"></span> que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro, finalmente confirmar con el botón <a class="btn bg-gray cl-black">ACEPTAR</a></p>
+
+<p><img src="../../assets/images/cap09/chp09_img26.png" alt="Procesar imagen" />
+<em><strong>Imagen 118.</strong> Órdenes - Desasociar un Archivo</em></p>
+
+<p>Si se desea descargar un archivo adjunto a la OT, se debe dar clic en el ícono de nube con direccional hacia abajo <span class="mdi mdi-cloud-download icon white"></span> la nube con flecha hacia abajo que se encuentra al lado derecho del archivo que se quiere descargar.</p>
+
+                        
+                            <div class="share uk-text-center uk-margin-medium-top no-print">
+    
+        <a class="uk-link-muted" href="https://twitter.com/intent/tweet?text=Vistas Parciales&url=http://localhost:4000/docs/09_05_partial_views/&via=&related=" rel="nofollow" target="_blank" title="Compartir en Twitter" onclick="window.open(this.href, 'twitter', 'width=550,height=235');return false;"><span data-uk-icon="icon: twitter; ratio: 1.2"></span></a>
+    
+    
+        <a class="uk-link-muted uk-margin-small-left" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fdocs%2F09_05_partial_views%2F" rel="nofollow" target="_blank" title="Compartir en Facebook" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;"><span data-uk-icon="icon: facebook; ratio: 1.2"></span></a>
+    
+</div>
+                        
+                    </div>
+
+                    <!-- Hook post content doc -->
+
+                    <hr class="uk-margin-medium">
+
+                    
+
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+    <div class="uk-margin-large-top paginate-post no-print">
+        <div class="uk-child-width-expand@s uk-grid-large uk-pagi" data-uk-grid>
+            <div>
+                
+                  
+                  
+                  
+                    <h5></h5>
+                    <div><a class="remove-underline hvr-back" href="/docs/09_04_main_window/">&larr; Anterior</a></div>
+                
+            </div>
+            <div>
+                
+                  
+                  
+                  
+                    <h5></h5>
+                    <div class="uk-text-right"><a class="remove-underline hvr-forward" href="/docs/09_06_transactions/">Siguiente &rarr;</a></div>
+                
+            </div>
+        </div>
+    </div>
+    
+
+
+                    <div class="uk-margin-large-top no-print">
+    <h3>Temas relacionados</h3>
+
+    
+    
+    
+
+    <ul class="uk-list link-secondary">
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+        <li><a href="/docs/01_01_introduction/">Introducción</a></li>
+        
+        
+    
+
+    
+
+    
+    
+
+    
+
+    
+        <li><a href="/docs/01_02_first_look/">Un vistazo a AM</a></li>
+        
+        
+    
+
+    
+
+    
+    
+
+    
+
+    
+        <li><a href="/docs/01_03_user_interface/">Interfaz de Usuario</a></li>
+        
+        
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+        <li><a href="/docs/02_01_introduction/">Introducción</a></li>
+        
+        
+            
+    </ul>
+</div>
+
+
+                    
+
+                </article>
+
+                <script>
+                    // Table of contents scroll to
+                    UIkit.scroll('#markdown-toc a', {
+                        duration: 400,
+                        offset: 120
+                    });
+                </script>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <div id="offcanvas-docs" data-uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar">
+
+        <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+
+        
+        <h5 class="uk-margin-top">Trabajando con AM</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/01_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/01_02_first_look/">Un vistazo a AM</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/01_03_user_interface/">Interfaz de Usuario</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/01_04_concurrence/">Concurrencia en AM</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/01_05_summary/">Resumen</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Infraestructura</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/02_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/02_02_basic_concept/">Conceptos Básicos sobre la Infraestructura</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/02_03_tables/">Tablas de Infraestructura</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/02_04_export/">Exportar</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/02_05_services/">Servicios</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Activos</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/03_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/03_02_basic_concepts/">Conceptos Básicos sobre Activos/Equipos</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/03_03_data_sheet/">Ficha Técnica</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/03_04_parts_list/">Codificación de Activos/Equipos y Generalidades</a></li>
+        
+          
+          
+          <li class=""><a href=""></a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Almacenes, Materiales y Repuestos</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/04_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/04_02_basic_concepts/">Conceptos Básicos sobre Almacenes, Materiales y Repuestos</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/04_03_spare_coding/">Codificación de Repuestos</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/04_04_main_window/">Ventana Principal de Almacén de Repuestos</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Kárdex</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/05_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/05_02_basic_concepts/">Conceptos Básicos sobre el Kárdex de Almacén</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/05_03_movements/">Movimientos de Kárdex</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/05_04_services/">Servicios</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Solicitudes de Servicio</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/07_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/07_02_basic_concepts/">Conceptos Básicos sobre Solicitudes de Servicio</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/07_03_services/">Servicios</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Paros</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/08_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/08_02_basic_concepts/">Conceptos Básicos sobre Paros / Averías</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/08_03_creation/">Creación de Paros</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/08_04_tracking_and_closing/">Seguimiento y Cierre de Paros / Averías</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Órdenes de Trabajo</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/09_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/09_02_basic_concepts/">Conceptos Básicos sobre Órdenes de Trabajo</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/09_03_basic_concepts_analysis_and_generation/">Conceptos Básicos Análisis y Generación de Órdenes de Trabajo Programadas</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/09_04_main_window/">Ventana Principal</a></li>
+        
+          
+          
+          <li class="uk-active"><a href="/docs/09_05_partial_views/">Vistas Parciales</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/09_06_transactions/">Transacciones</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/09_07_export_and_log_file/">Exportar y Reportes</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Historia de mantenimiento</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/10_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/10_02_basic_concepts/">Conceptos Básicos</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/10_03_send_to_history/">Enviar a Historia</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/10_04_main_window/">Ventana Principal</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/10_05_periodic_management_balance/">Balance Periódico de Gestión</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Programas de mantenimiento</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/11_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/11_02_basic_concepts/">Conceptos Básicos de Programas de Mantenimiento</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/11_03_main_window/">Ventana Principal de Programas de Mantenimiento</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/11_04_services/">Servicios</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Historia Archivada</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/12_01_introduction/">Introducción</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/12_02_basic_concepts/">Conceptos Básicos</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/12_03_main_window/">Ventana Principal</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/12_04_submenu_window/">Ventana Submenú</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/12_05_transactions/">Transacciones</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">AMsi</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/15_01_working_with_amsi/">Trabajando con AMsi</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_02_ui/">Interfaz de Usuario</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_03_update_profile/">Actualizar Perfil</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_04_create_a_new_request/">Crear Nueva Solicitud</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_05_request_consulting/">Consultar Mis Solicitudes</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_06_request_evaluation/">Evaluar Servicio</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_07_create_a_new_order/">Crear Nueva Orden</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_08_orders_consulting/">Consultar Mis Órdenes</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_09_amsi_administration_access/">Acceso Administración AMsi</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_10_user_settings/">Configuración de Usuarios</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/15_11_export/">Exportar Visor de SS/OT</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">AMovil</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/16_01_basic_concepts/">Conceptos Básicos</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/16_02_assets/">Activos</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/16_03_warehouse/">Almacén</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/16_04_requests/">Solicitudes</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/16_05_orders/">Ordenes</a></li>
+        
+        </ul>
+        
+
+    </div>
+</div>
+
+
+    <div id="offcanvas" data-uk-offcanvas="flip: true; overlay: true">
+    <div class="uk-offcanvas-bar">
+
+        <a class="uk-logo uk-margin-small-bottom" href="/"><img src="http://localhost:4000/uploads/winsoftware_logo.svg" alt="AM"></a>
+     
+        <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+      
+        <ul class="uk-nav uk-nav-primary uk-margin-top">
+            
+                
+
+                
+
+                
+                    <li><a href="/" >Inicio</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><a href="/docs/01_01_introduction" >Manual</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><a href="/blog/" >Blog</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><a href="/changelog-timeline/" >Registro de cambios</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><div class="uk-navbar-item"><a class="uk-button uk-button-success" href="/contact/" >Contacto</a></div></li>
+                
+            
+        </ul>
+
+        <div class="uk-margin-top uk-text-center">
+            <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-flex-center uk-grid">
+                
+<div class="uk-first-column">
+    <a href="https://twitter.com/winsoftware_am" data-uk-icon="icon: twitter" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+<div>
+    <a href="https://www.facebook.com/winsoftwaream/" data-uk-icon="icon: facebook" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+
+
+<div>
+    <a href="https://co.linkedin.com/in/win-software-s-a-s-122b7952" data-uk-icon="icon: linkedin" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+
+
+
+<div>
+    <a href="https://winsoftware.com.co/" data-uk-icon="icon: link" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+    
+
+    
+        <!-- Hook preclosing body doc -->
+    
+
+    <!-- Hook preclosing body -->
+
+    <script>
+        if (window.netlifyIdentity) {
+          window.netlifyIdentity.on("init", user => {
+            if (!user) {
+              window.netlifyIdentity.on("login", () => {
+                document.location.href = "/admin/";
+              });
+            }
+          });
+        }
+      </script>
+
+    </body>
+
+</html>

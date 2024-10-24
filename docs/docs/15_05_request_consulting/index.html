@@ -21,7 +21,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Consultar Mis Solicitudes" />
 <script type="application/ld+json">
-{"headline":"Consultar Mis Solicitudes","dateModified":"2022-06-15T15:00:03-05:00","datePublished":"2022-06-15T15:00:03-05:00","author":{"@type":"Person","name":"win"},"@type":"BlogPosting","description":"AMsi solo permite realizar creación y consultas para uno de los dos tipos de registro a la vez: OT o SS, pero no para los dos simultáneamente. Ello depende de la Configuración del aplicativo que se haya elegido, según la necesidad de la Organización.","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/winsoftware_logo.svg"},"name":"win"},"url":"http://localhost:4000/docs/15_05_request_consulting/","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/docs/15_05_request_consulting/"},"@context":"https://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/docs/15_05_request_consulting/"},"author":{"@type":"Person","name":"win"},"@type":"BlogPosting","description":"AMsi solo permite realizar creación y consultas para uno de los dos tipos de registro a la vez: OT o SS, pero no para los dos simultáneamente. Ello depende de la Configuración del aplicativo que se haya elegido, según la necesidad de la Organización.","url":"http://localhost:4000/docs/15_05_request_consulting/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/winsoftware_logo.svg"},"name":"win"},"headline":"Consultar Mis Solicitudes","dateModified":"2022-06-15T15:00:03-05:00","datePublished":"2022-06-15T15:00:03-05:00","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <meta property="og:image" content="http://localhost:4000/uploads/winsoftware_logo.svg"/>
@@ -31,6 +31,8 @@
   <link rel="alternate" type="application/rss+xml" title="AM" href="/feed.xml">
   <script src="//code.iconify.design/1/1.0.6/iconify.min.js"></script>
   <script src="/assets/js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+  <link rel="stylesheet" href="/assets/css/print.css">
   
     <script>
 function searchResults(form) {
@@ -133,12 +135,27 @@ function searchResults(form) {
   <!-- Hook head -->
   
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const images = document.querySelectorAll('img');
+        images.forEach(img => {
+          if (!img.hasAttribute('crossorigin')) {
+            img.setAttribute('crossorigin', 'anonymous');
+          }
+          // Convertir URLs absolutas locales a relativas
+          if (img.src.startsWith('http://localhost:4000')) {
+            img.src = img.src.replace('http://localhost:4000', '');
+          }
+        });
+      });
+    </script>
 <script src="http://127.0.0.1:35729/livereload.js"></script></head>
 
     <body>
 
     
-        <div data-uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent; top: 200">
+        <div data-uk-sticky="no-print animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent; top: 200">
     <nav class="uk-navbar-container">
         <div class="uk-container">
             <div data-uk-navbar>
@@ -316,7 +333,7 @@ function searchResults(form) {
                     
                       
                       
-                      <li class=""><a href="/docs/03_04_parts_list/"></a></li>
+                      <li class=""><a href="/docs/03_04_parts_list/">Codificación de Activos/Equipos y Generalidades</a></li>
                     
                       
                       
@@ -417,15 +434,23 @@ function searchResults(form) {
                     
                       
                       
-                      <li class=""><a href="/docs/09_03_analysis_and_generation/">Análisis y Generación de Órdenes de Trabajo Programadas</a></li>
+                      <li class=""><a href="/docs/09_03_basic_concepts_analysis_and_generation/">Conceptos Básicos Análisis y Generación de Órdenes de Trabajo Programadas</a></li>
                     
                       
                       
-                      <li class=""><a href="/docs/09_04_main_window/">Ventana Principal de Órdenes de Trabajo</a></li>
+                      <li class=""><a href="/docs/09_04_main_window/">Ventana Principal</a></li>
                     
                       
                       
-                      <li class=""><a href=""></a></li>
+                      <li class=""><a href="/docs/09_05_partial_views/">Vistas Parciales</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/09_06_transactions/">Transacciones</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/09_07_export_and_log_file/">Exportar y Reportes</a></li>
                     
                     </ul>
                     
@@ -545,7 +570,7 @@ function searchResults(form) {
                     
                       
                       
-                      <li class=""><a href="/docs/15_11_logout/">Exportar Visor de SS/OT</a></li>
+                      <li class=""><a href="/docs/15_11_export/">Exportar Visor de SS/OT</a></li>
                     
                     </ul>
                     
@@ -583,14 +608,15 @@ function searchResults(form) {
 
                     <h1 class="uk-article-title">Consultar Mis Solicitudes</h1>
 
-                    <p class="uk-text-lead uk-text-muted">Este capítulo guía para ejecutar consultas de SS creadas desde **AMsi**</p>
+                    <p class="uk-text-lead uk-text-muted">Este capítulo guía para hacer consultas de SS creadas desde **AMsi**</p>
 
-                    <div class="uk-article-meta uk-margin-top uk-margin-medium-bottom uk-flex uk-flex-middle">
-                        
+                    <div class="uk-flex uk-flex-between uk-flex-middle">
+                        <div class="uk-article-meta uk-margin-top uk-margin-medium-bottom uk-flex uk-flex-middle">
+                                
 
 
   
-  <img class="uk-border-circle avatar" src="http://localhost:4000/uploads/winsoftware.png" alt="WIN Software">
+  <img class="uk-border-circle avatar" src="http://localhost:4000/uploads/winsoftwarex36.png" alt="WIN Software">
 
 
 <div>
@@ -602,7 +628,114 @@ function searchResults(form) {
     Jun 15, 2022
   </time>
 </div>
+                        </div>
+                        <button id="generatePdf" class="uk-button uk-button-primary uk-button-small no-print"><span data-uk-icon="icon: file-pdf" class="uk-icon"></span> PDF</button>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const generatePdfButton = document.getElementById('generatePdf');
+  const doc_version = "Version 1.3";
+  const company = "Win Software SAS";
+  const version_dir = "v1.3";
+
+  generatePdfButton.addEventListener('click', async function() {
+    const pdfFilename = '15_05_request_consulting.pdf';
+    const pdfPath = `/pdf/${version_dir}/${pdfFilename}`;
+
+    // Verificar si el PDF ya existe
+    try {
+      const response = await fetch(pdfPath, { method: 'HEAD' });
+      if (response.ok) {
+        // El PDF existe, descargarlo directamente
+        UIkit.notification({message: '<span uk-icon=\'icon: download\' class=\'uk-text-primary\'></span> Descargando PDF existente...', status: 'primary', pos: 'top-center', timeout: 3000});
+        window.open(pdfPath, '_blank');
+        return;
+      }
+    } catch (error) {
+      console.log('El PDF no existe, se generará uno nuevo.');
+    }
+
+    // Si llegamos aquí, el PDF no existe y necesitamos generarlo
+    const element = document.querySelector('.uk-article');
+    const elementsToHide = document.querySelectorAll('.no-print');
+    
+    elementsToHide.forEach(el => el.classList.add('hide-in-pdf'));
+
+    const options = {
+      margin: [20, 20, 20, 20], // top, left, bottom, right
+      filename: pdfFilename,
+      image: { type: 'jpeg', quality: 0.98 },
+      html2canvas: { scale: 2, scrollY: 0, useCORS: true },
+      jsPDF: { unit: 'mm', format: 'letter', orientation: 'portrait' },
+      pagebreak: { mode: ['avoid-all', 'css', 'legacy']}
+    };
+
+    UIkit.notification({message: '<span uk-icon=\'icon: file-pdf\' class=\'uk-text-primary\'></span> Generando PDF...', status: 'primary', pos: 'top-center', timeout: 0});
+
+    // Clonar el elemento para no modificar el original
+    const clonedElement = element.cloneNode(true);
+    const sections = Array.from(clonedElement.children);
+
+    try {
+      let pdf;
+      if (sections.length > 5) {
+        let worker = html2pdf().set(options);
+
+        const processInBatches = async () => {
+          const batchSize = 5;
+          for (let i = 0; i < sections.length; i += batchSize) {
+            const batchElement = document.createElement('div');
+            const batchSections = sections.slice(i, i + batchSize);
+            batchSections.forEach(section => batchElement.appendChild(section.cloneNode(true)));
+            await worker.from(batchElement).toContainer().toCanvas().toPdf().get('pdf').then((pdfResult) => {
+              if (!pdf) {
+                pdf = pdfResult;
+              } else {
+                const pdfPages = pdfResult.internal.pages;
+                pdfPages.shift(); // Remove the first blank page
+                pdfPages.forEach(page => pdf.addPage().addPage(page));
+              }
+              if (i + batchSize < sections.length) {
+                pdf.addPage();
+              }
+            });
+          }
+        };
+        await processInBatches();
+      } else {
+        pdf = await html2pdf().set(options).from(clonedElement).toPdf().get('pdf');
+      }
+
+      const totalPages = pdf.internal.getNumberOfPages();
+
+      for (let i = 1; i <= totalPages; i++) {
+        pdf.setPage(i);
+        pdf.setFontSize(10);
+        pdf.setTextColor(150);
+        pdf.text(`${document.title}`, 22, 12);
+        pdf.text(`${doc_version}`, pdf.internal.pageSize.getWidth() - 37, 12);
+        pdf.line(22, 16, pdf.internal.pageSize.getWidth() - 20 , 16);
+        pdf.line(22, pdf.internal.pageSize.getHeight() - 16, pdf.internal.pageSize.getWidth() - 20 , pdf.internal.pageSize.getHeight() - 16);
+        pdf.text(`${company}`, 22, pdf.internal.pageSize.getHeight() - 10);
+        pdf.text(`${i} / ${totalPages}`, pdf.internal.pageSize.getWidth() - 26, pdf.internal.pageSize.getHeight() - 10);
+      }
+
+      await pdf.save(options.filename);
+
+      UIkit.notification.closeAll();
+      UIkit.notification({message: '<span uk-icon=\'icon: check\' class=\'uk-text-success\'></span> PDF generado con éxito!', status: 'success', pos: 'top-center', timeout: 3000});
+    } catch (err) {
+      console.error('Error al generar PDF:', err);
+      UIkit.notification.closeAll();
+      UIkit.notification({message: '<span uk-icon=\'icon: warning\' class=\'uk-text-danger\'></span> Error al generar PDF. Por favor, intente de nuevo.', status: 'danger', pos: 'top-center', timeout: 3000});
+    } finally {
+      elementsToHide.forEach(el => el.classList.remove('hide-in-pdf'));
+    }
+  });
+});
+</script>
                     </div>
+
 
                     <div class="article-content link-primary">
                         <p><strong>AMsi</strong> solo permite realizar creación y consultas para uno de los dos tipos de registro a la vez: OT o SS, pero no para los dos simultáneamente. Ello depende de la Configuración del aplicativo que se haya elegido, según la necesidad de la Organización.</p>
@@ -611,55 +744,56 @@ function searchResults(form) {
 
 <ul>
   <li>Subgrupos</li>
-  <li>Consulta de Solicitudes</li>
+  <li>Consulta de Solicitudes: Usuarios relacionados por Centro de Costo y Compañía</li>
   <li>Visor de Solicitudes</li>
+  <li>Videos de capacitación</li>
 </ul>
 
 <iframe width="600" height="340" src="https://www.youtube.com/embed/bQmrjyvPws4?si=XbQvYABkhRsKXhKo" title="¿Cómo consultar y evaluar solicitudes?" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" uk-responsive=""></iframe>
+
+<p><br />
+<br /></p>
 
 <iframe width="600" height="340" src="https://www.youtube.com/embed/hsE634LQUwE?si=a6K-j8h3qE2U6eNz" title="Consultar y evaluar órdenes de trabajo" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" uk-responsive=""></iframe>
 
 <h3 id="subgrupos">Subgrupos</h3>
 
-<p>Inicialmente esta transacción trae el listado del total de las SS que se han realizado para la Organización por parte de otros usuarios solicitantes.
-En el caso de que el Administrador del <strong>AMsi</strong> haya asociado Todos los Centros de Costos al Usuario logueado, se mostrarán todas las SS para todos los Centros De Servicio (compañías).</p>
-
-<p>Sin embargo, es posible hacer Subgrupos a través del ícono <span class="mdi mdi-filter-variant"></span> ubicado en la parte superior derecha y ver solo las SS creadas por el Usuario logueado. Esto tiene como finalidad de que el usuario pueda realizar constantemente y en tiempo real el seguimiento y consultas a sus SS.
-A esta ventana se llega al dar clic a la opción de <strong>Consultar Mis Solicitudes</strong> en la ventana de Menú Principal.</p>
+<p>Inicialmente cuando un usuario ingresa a la opción <strong>Consultar Mis Solicitudes</strong> se muestra el listado de SS hechas por otros usuarios acorde a los Centros de Costo o Compañías que estén asociadas al usuario logueado; sin embargo, es posible hacer Subgrupos a través del ícono <span class="mdi mdi-filter-variant"></span> ubicado en la parte superior derecha y ver sólo las SS creadas por el Usuario logueado. Esto tiene como finalidad de que el usuario pueda realizar en tiempo real el seguimiento y consultas a sus SS.</p>
 
 <p><img src="../../assets/images/cap12/chp12_img14.png" alt="Procesar imagen" />
-<em><strong>Imagen 14.</strong> Ir a Subgrupos</em></p>
+<em><strong>Imagen 26.</strong> Ir a Subgrupos</em></p>
 
-<p><strong>AMsi</strong> mantiene activo cualquier subgrupo, hasta que el usuario lo modifique o restablezca los valores estándar. Cuando el ícono <span class="mdi mdi-filter-variant"></span> se muestra con una pelota roja, está indicando que lo que se visualiza en el visor es un subgrupo. El sistema permite entonces hacer selección de un grupo de SS de acuerdo con los criterios seleccionados.</p>
+<p><strong>AMsi</strong> mantiene activo cualquier subgrupo, hasta que el usuario lo modifique o restablezca los valores estándar. Cuando el ícono tenga una pelota roja <a class="btn bg-white fs-2"><span class="iconify btn-icon cl-black" data-icon="mdi-filter-variant"></span><span class="dot bg-af-red"></span></a>, está indicando que lo que se visualiza en el visor es un subgrupo. El sistema permite entonces hacer selección de un grupo de SS de acuerdo con los criterios seleccionados.</p>
 
-<p>Una vez dado un clic sobre el ícono de subgrupo <span class="mdi mdi-filter-variant"></span>, se muestran los siguientes criterios de búsqueda:</p>
+<p>Una vez dado   ícono de subgrupo <span class="mdi mdi-filter-variant"></span>, se muestran los siguientes criterios de búsqueda:</p>
 
 <p><img src="../../assets/images/cap12/chp12_img15.png" alt="Procesar imagen" />
-<em><strong>Imagen 15.</strong> Subgrupos</em></p>
+<em><strong>Imagen 27.</strong> Subgrupos</em></p>
 
 <p>Los campos de datos que constituyen criterio de selección en la Ventana Subgrupo de <strong>AMsi</strong> son los siguientes:</p>
 
 <h5 id="filtrar-por-campos-del-activo-asociado-a-la-solicitud-de-servicio">FILTRAR POR CAMPOS DEL ACTIVO ASOCIADO A LA SOLICITUD DE SERVICIO</h5>
 
-<p><strong>AC-Código:</strong> Esta selección agrupa las SS cuyo Activo coincidan el código completo o una porción del mismo.</p>
+<p><strong>AC-Código:</strong> Esta selección agrupa las SS cuyo Activo coincida con el código completo o una porción del mismo que se digite.</p>
 
-<p><strong>AC-Descripción:</strong> Selecciona las SS asociadas a los Activos según criterios que se fundamenten en su descripción.  Ejemplo: Motor selecciona todos los Activos, en cuya descripción, en cualquier posición, tengan la palabra “Motor”.</p>
+<p><strong>AC-Descripción:</strong> Filtra las SS asociadas a la descripción del Activo, ejemplo: <strong>Motor</strong> selecciona todos las SS, cuya descripción, en cualquier posición, tengan la palabra “Motor”.</p>
 
 <p><strong>Activo en lenguaje natural:</strong> Permite filtrar las SS que contengan parte del nombre igual del Activo.</p>
 
 <h5 id="filtrar-por-campos-de-la-solicitud-de-servicio">FILTRAR POR CAMPOS DE LA SOLICITUD DE SERVICIO</h5>
 
-<p><strong>Centro de Costo:</strong> Permite la selección de SS de acuerdo con  el Centro de Costo asignado a ella. Existen dos formas de definir el Centro de Costo. La primera es seleccionando el Centro de Costo de la lista desplegable. La segunda es dando clic al icono  <span class="mdi mdi-lock"></span>, éste se desbloquea <span class="mdi mdi-lock-open-outline"></span> y permite digitar a continuación segmentos del nombre del Centro de Costo usando comodines (%). Cuando se utilizan comodines, es posible seleccionar las SS pertenecientes a Centros de Costo que tengan parte del nombre igual. Por ejemplo: %Sistema% selecciona todos los registros en cuyo Centro de Costo exista la palabra Sistema, independiente de si se está hablando del Sistema de Agua, de Vapor o de Energía.</p>
+<p><strong>Centro de Costo:</strong> Permite la selección de SS de acuerdo con  el Centro de Costo. 
+Existen dos formas de definir el Centro de Costo. La primera es seleccionando el Centro de Costo de la lista desplegable. La segunda es dando clic al icono  <span class="mdi mdi-lock"></span>, éste se desbloquea <span class="mdi mdi-lock-open-outline"></span> y permite digitar a continuación segmentos del nombre del Centro de Costo usando comodines (%). Cuando se utilizan comodines, es posible seleccionar las SS pertenecientes a Centros de Costo que tengan parte del nombre igual. Por ejemplo: %Sistema% selecciona todos los registros en cuyo Centro de Costo exista la palabra Sistema, independiente de si se está hablando del Sistema de Agua, de Vapor o de Energía.</p>
 
 <p><strong>Diagnóstico del Usuario:</strong> Permite la selección de SS de acuerdo con una parte de la Descripción del usuario. Se debe digitar manualmente y es posible usar comodines.</p>
 
-<p><strong>Rango Consecutivo de Solicitud:</strong> Permite la selección de las SS cuyo número consecutivo se encuentre incluido dentro  del  rango  especificado en  este criterio. Aparecen dos campos: Desde y Hasta. En cada uno de ellos se digita un número consecutivo de solicitud.</p>
+<p><strong>Rango Consecutivo de Solicitud:</strong> Permite la selección de las SS cuyo número consecutivo se encuentre incluido dentro del rango  especificado en este criterio. Aparecen dos campos: Desde y Hasta. En cada uno de ellos se digita un número consecutivo de solicitud.</p>
 
-<p><strong>Estado de la Solicitud:</strong> Este criterio agrupa las SS de acuerdo al Estado que se encuentra en el visor, en este campo se debe poner la abreviatura del estado de la SS, siendo los siguientes: Análisis (AN), Asignada (AS), En Ejecución (EJ), Cerrada no ejecutada (NE), Cerrada Ejecutada (CE), Cerrada con OT (CO), Cerrada Parcial (CP).</p>
+<p><strong>Estado de la Solicitud:</strong> Este criterio agrupa las SS de acuerdo al Estado en que se encuentran. En este campo se debe poner la abreviatura del estado de la SS, siendo los siguientes: Análisis (AN), Asignada (AS), En Ejecución (EJ), Cerrada no ejecutada (NE), Cerrada Ejecutada (CE), Cerrada con OT (CO), Cerrada Parcial (CP).</p>
 
 <p><strong>FF de Creación:</strong> Permite la selección de SS cuya fecha de Creación se encuentren incluidas en el rango especificado en este campo.</p>
 
-<p><strong>Solicitante (AMsi):</strong> Este campo permite seleccionar las SS activas para el Solicitante aquí definido. Para seleccionarlo se debe  elegir un usuario de la lista desplegable.</p>
+<p><strong>Solicitante (AMsi):</strong> Este campo permite seleccionar las SS  para el Solicitante aquí definido. Para seleccionarlo se debe  elegir un usuario de la lista desplegable.</p>
 
 <p><strong>Responsable:</strong> Permite la  selección de SS cuyo Responsable  fue especificado en este campo. Es posible usar comodines (%).</p>
 
@@ -670,7 +804,7 @@ A esta ventana se llega al dar clic a la opción de <strong>Consultar Mis Solici
 <p>Para realizar la consulta de una SS, basta con dar clic a uno de los registros de las SS listadas y a continuación se muestra en detalle toda la información allí contenida.</p>
 
 <p><img src="../../assets/images/cap12/chp12_img16.png" alt="Procesar imagen" />
-<em><strong>Imagen 16.</strong> Ventana Detalle de la SS</em></p>
+<em><strong>Imagen 28.</strong> Ventana Detalle de la SS</em></p>
 
 <p>Este visor contiene la siguiente información:</p>
 
@@ -724,14 +858,14 @@ A esta ventana se llega al dar clic a la opción de <strong>Consultar Mis Solici
 
 <p><strong>Evaluar el servicio:</strong> Contiene el resultado de la Evaluación de la SS, si ya se realizó y si no se ha realizado, permite realizarla siempre y cuando la SS/OT se encuentre en estado Cerrada Ejecutada (CE) o Cerrada con OT (CO) y cuando el usuario sea el mismo en el campo Solicitante.</p>
 
-<p><strong>Comentario:</strong> El campo comentario es un campo que no es modificable. A través de este visor que muestra el Detalle de la SS, es posible que el usuario realice comentarios relevantes e importantes para el área de Mantenimiento. Para realizar los comentarios, se debe dirigir al final de la Ventana Detalle de la SS y digitar el comentario en el campo llamado “Comentario”, para agregarlo a la SS se debe dar clic al botón <a class="btn gray">agregar comentario</a>. Al dar clic aparece el comentario ingresado al lado derecho en una ventana tipo chat bloqueada y a su vez inhabilita la modificación de los comentarios que allí se encuentren; además de la fecha, hora y el usuario logueado que realizó el comentario. Estos comentarios también se visualizan desde el módulo de Solicitudes de Servicio de <strong>AM.</strong></p>
+<p><strong>Comentario:</strong> El campo comentario es un campo que no es modificable. A través de este visor que muestra el Detalle de la SS, es posible que el usuario realice comentarios relevantes e importantes para el área de Mantenimiento. Para realizar los comentarios, se debe dirigir al final de la Ventana Detalle de la SS y digitar el comentario en el campo llamado “Comentario”, para agregarlo a la SS se debe dar clic al botón <a class="btn gray">Agregar Comentario</a>. Al dar clic aparece el comentario ingresado al lado derecho en una ventana tipo chat bloqueada y a su vez inhabilita la modificación de los comentarios que allí se encuentren; además de la fecha, hora y el usuario logueado que realizó el comentario. Estos comentarios también se visualizan desde el módulo de Solicitudes de Servicio de <strong>AM.</strong></p>
 
 <p><img src="../../assets/images/cap12/chp12_img17.png" alt="Procesar imagen" />
-<em><strong>Imagen 17.</strong> Ventana Detalle de la SS (Comentarios)</em></p>
+<em><strong>Imagen 29.</strong> Ventana Detalle de la SS (Comentarios)</em></p>
 
 
                         
-                            <div class="share uk-text-center uk-margin-medium-top">
+                            <div class="share uk-text-center uk-margin-medium-top no-print">
     
         <a class="uk-link-muted" href="https://twitter.com/intent/tweet?text=Consultar Mis Solicitudes&url=http://localhost:4000/docs/15_05_request_consulting/&via=&related=" rel="nofollow" target="_blank" title="Compartir en Twitter" onclick="window.open(this.href, 'twitter', 'width=550,height=235');return false;"><span data-uk-icon="icon: twitter; ratio: 1.2"></span></a>
     
@@ -910,7 +1044,13 @@ A esta ventana se llega al dar clic a la opción de <strong>Consultar Mis Solici
 
   
   
-    <div class="uk-margin-large-top paginate-post">
+
+  
+  
+
+  
+  
+    <div class="uk-margin-large-top paginate-post no-print">
         <div class="uk-child-width-expand@s uk-grid-large uk-pagi" data-uk-grid>
             <div>
                 
@@ -935,7 +1075,7 @@ A esta ventana se llega al dar clic a la opción de <strong>Consultar Mis Solici
     
 
 
-                    <div class="uk-margin-large-top">
+                    <div class="uk-margin-large-top no-print">
     <h3>Temas relacionados</h3>
 
     
@@ -943,6 +1083,33 @@ A esta ventana se llega al dar clic a la opción de <strong>Consultar Mis Solici
     
 
     <ul class="uk-list link-secondary">
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
     
 
     
@@ -1530,6 +1697,7 @@ A esta ventana se llega al dar clic a la opción de <strong>Consultar Mis Solici
 
 
                     
+
                 </article>
 
                 <script>
@@ -1541,7 +1709,7 @@ A esta ventana se llega al dar clic a la opción de <strong>Consultar Mis Solici
                 </script>
 
             </div>
-
+        </div>
     </div>
 </div>
 
@@ -1619,7 +1787,7 @@ A esta ventana se llega al dar clic a la opción de <strong>Consultar Mis Solici
         
           
           
-          <li class=""><a href="/docs/03_04_parts_list/"></a></li>
+          <li class=""><a href="/docs/03_04_parts_list/">Codificación de Activos/Equipos y Generalidades</a></li>
         
           
           
@@ -1720,15 +1888,23 @@ A esta ventana se llega al dar clic a la opción de <strong>Consultar Mis Solici
         
           
           
-          <li class=""><a href="/docs/09_03_analysis_and_generation/">Análisis y Generación de Órdenes de Trabajo Programadas</a></li>
+          <li class=""><a href="/docs/09_03_basic_concepts_analysis_and_generation/">Conceptos Básicos Análisis y Generación de Órdenes de Trabajo Programadas</a></li>
         
           
           
-          <li class=""><a href="/docs/09_04_main_window/">Ventana Principal de Órdenes de Trabajo</a></li>
+          <li class=""><a href="/docs/09_04_main_window/">Ventana Principal</a></li>
         
           
           
-          <li class=""><a href=""></a></li>
+          <li class=""><a href="/docs/09_05_partial_views/">Vistas Parciales</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/09_06_transactions/">Transacciones</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/09_07_export_and_log_file/">Exportar y Reportes</a></li>
         
         </ul>
         
@@ -1848,7 +2024,7 @@ A esta ventana se llega al dar clic a la opción de <strong>Consultar Mis Solici
         
           
           
-          <li class=""><a href="/docs/15_11_logout/">Exportar Visor de SS/OT</a></li>
+          <li class=""><a href="/docs/15_11_export/">Exportar Visor de SS/OT</a></li>
         
         </ul>
         

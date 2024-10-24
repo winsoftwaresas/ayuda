@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ◼ Warehouses, materials and spare parts
-order: 04_00
+order: '04_00'
 ---
 # Almacenes, Materiales y Repuestos
 

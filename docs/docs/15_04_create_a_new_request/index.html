@@ -11,8 +11,8 @@
 <meta property="og:title" content="Crear Nueva Solicitud" />
 <meta name="author" content="win" />
 <meta property="og:locale" content="es" />
-<meta name="description" content="Se suministra información detallada del formulario Servicio Solicitado. Dicha información, especifica claramente el servicio solicitado así como el Centro de Servicio responsable de atender la SS creada. Se identifican los campos relacionados en el formulario Servicio Solicitado para la creación de SS y se reconocen los comandos que aparecen en pantalla." />
-<meta property="og:description" content="Se suministra información detallada del formulario Servicio Solicitado. Dicha información, especifica claramente el servicio solicitado así como el Centro de Servicio responsable de atender la SS creada. Se identifican los campos relacionados en el formulario Servicio Solicitado para la creación de SS y se reconocen los comandos que aparecen en pantalla." />
+<meta name="description" content="Se suministra información detallada del formulario Servicio Solicitado. Dicha información, especifica claramente el servicio solicitado así como el Centro de Servicio responsable de atender la SS. Se identifican los campos relacionados en el formulario Servicio Solicitado para la creación de SS y se reconocen los comandos que aparecen en pantalla." />
+<meta property="og:description" content="Se suministra información detallada del formulario Servicio Solicitado. Dicha información, especifica claramente el servicio solicitado así como el Centro de Servicio responsable de atender la SS. Se identifican los campos relacionados en el formulario Servicio Solicitado para la creación de SS y se reconocen los comandos que aparecen en pantalla." />
 <link rel="canonical" href="http://localhost:4000/docs/15_04_create_a_new_request/" />
 <meta property="og:url" content="http://localhost:4000/docs/15_04_create_a_new_request/" />
 <meta property="og:site_name" content="AM" />
@@ -21,7 +21,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Crear Nueva Solicitud" />
 <script type="application/ld+json">
-{"headline":"Crear Nueva Solicitud","dateModified":"2022-06-15T09:56:34-05:00","datePublished":"2022-06-15T09:56:34-05:00","author":{"@type":"Person","name":"win"},"@type":"BlogPosting","description":"Se suministra información detallada del formulario Servicio Solicitado. Dicha información, especifica claramente el servicio solicitado así como el Centro de Servicio responsable de atender la SS creada. Se identifican los campos relacionados en el formulario Servicio Solicitado para la creación de SS y se reconocen los comandos que aparecen en pantalla.","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/winsoftware_logo.svg"},"name":"win"},"url":"http://localhost:4000/docs/15_04_create_a_new_request/","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/docs/15_04_create_a_new_request/"},"@context":"https://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/docs/15_04_create_a_new_request/"},"author":{"@type":"Person","name":"win"},"@type":"BlogPosting","description":"Se suministra información detallada del formulario Servicio Solicitado. Dicha información, especifica claramente el servicio solicitado así como el Centro de Servicio responsable de atender la SS. Se identifican los campos relacionados en el formulario Servicio Solicitado para la creación de SS y se reconocen los comandos que aparecen en pantalla.","url":"http://localhost:4000/docs/15_04_create_a_new_request/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/winsoftware_logo.svg"},"name":"win"},"headline":"Crear Nueva Solicitud","dateModified":"2022-06-15T09:56:34-05:00","datePublished":"2022-06-15T09:56:34-05:00","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <meta property="og:image" content="http://localhost:4000/uploads/winsoftware_logo.svg"/>
@@ -31,6 +31,8 @@
   <link rel="alternate" type="application/rss+xml" title="AM" href="/feed.xml">
   <script src="//code.iconify.design/1/1.0.6/iconify.min.js"></script>
   <script src="/assets/js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+  <link rel="stylesheet" href="/assets/css/print.css">
   
     <script>
 function searchResults(form) {
@@ -133,12 +135,27 @@ function searchResults(form) {
   <!-- Hook head -->
   
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const images = document.querySelectorAll('img');
+        images.forEach(img => {
+          if (!img.hasAttribute('crossorigin')) {
+            img.setAttribute('crossorigin', 'anonymous');
+          }
+          // Convertir URLs absolutas locales a relativas
+          if (img.src.startsWith('http://localhost:4000')) {
+            img.src = img.src.replace('http://localhost:4000', '');
+          }
+        });
+      });
+    </script>
 <script src="http://127.0.0.1:35729/livereload.js"></script></head>
 
     <body>
 
     
-        <div data-uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent; top: 200">
+        <div data-uk-sticky="no-print animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent; top: 200">
     <nav class="uk-navbar-container">
         <div class="uk-container">
             <div data-uk-navbar>
@@ -316,7 +333,7 @@ function searchResults(form) {
                     
                       
                       
-                      <li class=""><a href="/docs/03_04_parts_list/"></a></li>
+                      <li class=""><a href="/docs/03_04_parts_list/">Codificación de Activos/Equipos y Generalidades</a></li>
                     
                       
                       
@@ -417,15 +434,23 @@ function searchResults(form) {
                     
                       
                       
-                      <li class=""><a href="/docs/09_03_analysis_and_generation/">Análisis y Generación de Órdenes de Trabajo Programadas</a></li>
+                      <li class=""><a href="/docs/09_03_basic_concepts_analysis_and_generation/">Conceptos Básicos Análisis y Generación de Órdenes de Trabajo Programadas</a></li>
                     
                       
                       
-                      <li class=""><a href="/docs/09_04_main_window/">Ventana Principal de Órdenes de Trabajo</a></li>
+                      <li class=""><a href="/docs/09_04_main_window/">Ventana Principal</a></li>
                     
                       
                       
-                      <li class=""><a href=""></a></li>
+                      <li class=""><a href="/docs/09_05_partial_views/">Vistas Parciales</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/09_06_transactions/">Transacciones</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/09_07_export_and_log_file/">Exportar y Reportes</a></li>
                     
                     </ul>
                     
@@ -545,7 +570,7 @@ function searchResults(form) {
                     
                       
                       
-                      <li class=""><a href="/docs/15_11_logout/">Exportar Visor de SS/OT</a></li>
+                      <li class=""><a href="/docs/15_11_export/">Exportar Visor de SS/OT</a></li>
                     
                     </ul>
                     
@@ -583,14 +608,15 @@ function searchResults(form) {
 
                     <h1 class="uk-article-title">Crear Nueva Solicitud</h1>
 
-                    <p class="uk-text-lead uk-text-muted">Este capítulo define el formulario a diligenciar para crear una SS desde **AMsi**.</p>
+                    <p class="uk-text-lead uk-text-muted">Este capítulo define el formulario a diligenciar para crear una SS en **AMsi**.</p>
 
-                    <div class="uk-article-meta uk-margin-top uk-margin-medium-bottom uk-flex uk-flex-middle">
-                        
+                    <div class="uk-flex uk-flex-between uk-flex-middle">
+                        <div class="uk-article-meta uk-margin-top uk-margin-medium-bottom uk-flex uk-flex-middle">
+                                
 
 
   
-  <img class="uk-border-circle avatar" src="http://localhost:4000/uploads/winsoftware.png" alt="WIN Software">
+  <img class="uk-border-circle avatar" src="http://localhost:4000/uploads/winsoftwarex36.png" alt="WIN Software">
 
 
 <div>
@@ -602,36 +628,152 @@ function searchResults(form) {
     Jun 15, 2022
   </time>
 </div>
+                        </div>
+                        <button id="generatePdf" class="uk-button uk-button-primary uk-button-small no-print"><span data-uk-icon="icon: file-pdf" class="uk-icon"></span> PDF</button>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const generatePdfButton = document.getElementById('generatePdf');
+  const doc_version = "Version 1.3";
+  const company = "Win Software SAS";
+  const version_dir = "v1.3";
+
+  generatePdfButton.addEventListener('click', async function() {
+    const pdfFilename = '15_04_create_a_new_request.pdf';
+    const pdfPath = `/pdf/${version_dir}/${pdfFilename}`;
+
+    // Verificar si el PDF ya existe
+    try {
+      const response = await fetch(pdfPath, { method: 'HEAD' });
+      if (response.ok) {
+        // El PDF existe, descargarlo directamente
+        UIkit.notification({message: '<span uk-icon=\'icon: download\' class=\'uk-text-primary\'></span> Descargando PDF existente...', status: 'primary', pos: 'top-center', timeout: 3000});
+        window.open(pdfPath, '_blank');
+        return;
+      }
+    } catch (error) {
+      console.log('El PDF no existe, se generará uno nuevo.');
+    }
+
+    // Si llegamos aquí, el PDF no existe y necesitamos generarlo
+    const element = document.querySelector('.uk-article');
+    const elementsToHide = document.querySelectorAll('.no-print');
+    
+    elementsToHide.forEach(el => el.classList.add('hide-in-pdf'));
+
+    const options = {
+      margin: [20, 20, 20, 20], // top, left, bottom, right
+      filename: pdfFilename,
+      image: { type: 'jpeg', quality: 0.98 },
+      html2canvas: { scale: 2, scrollY: 0, useCORS: true },
+      jsPDF: { unit: 'mm', format: 'letter', orientation: 'portrait' },
+      pagebreak: { mode: ['avoid-all', 'css', 'legacy']}
+    };
+
+    UIkit.notification({message: '<span uk-icon=\'icon: file-pdf\' class=\'uk-text-primary\'></span> Generando PDF...', status: 'primary', pos: 'top-center', timeout: 0});
+
+    // Clonar el elemento para no modificar el original
+    const clonedElement = element.cloneNode(true);
+    const sections = Array.from(clonedElement.children);
+
+    try {
+      let pdf;
+      if (sections.length > 5) {
+        let worker = html2pdf().set(options);
+
+        const processInBatches = async () => {
+          const batchSize = 5;
+          for (let i = 0; i < sections.length; i += batchSize) {
+            const batchElement = document.createElement('div');
+            const batchSections = sections.slice(i, i + batchSize);
+            batchSections.forEach(section => batchElement.appendChild(section.cloneNode(true)));
+            await worker.from(batchElement).toContainer().toCanvas().toPdf().get('pdf').then((pdfResult) => {
+              if (!pdf) {
+                pdf = pdfResult;
+              } else {
+                const pdfPages = pdfResult.internal.pages;
+                pdfPages.shift(); // Remove the first blank page
+                pdfPages.forEach(page => pdf.addPage().addPage(page));
+              }
+              if (i + batchSize < sections.length) {
+                pdf.addPage();
+              }
+            });
+          }
+        };
+        await processInBatches();
+      } else {
+        pdf = await html2pdf().set(options).from(clonedElement).toPdf().get('pdf');
+      }
+
+      const totalPages = pdf.internal.getNumberOfPages();
+
+      for (let i = 1; i <= totalPages; i++) {
+        pdf.setPage(i);
+        pdf.setFontSize(10);
+        pdf.setTextColor(150);
+        pdf.text(`${document.title}`, 22, 12);
+        pdf.text(`${doc_version}`, pdf.internal.pageSize.getWidth() - 37, 12);
+        pdf.line(22, 16, pdf.internal.pageSize.getWidth() - 20 , 16);
+        pdf.line(22, pdf.internal.pageSize.getHeight() - 16, pdf.internal.pageSize.getWidth() - 20 , pdf.internal.pageSize.getHeight() - 16);
+        pdf.text(`${company}`, 22, pdf.internal.pageSize.getHeight() - 10);
+        pdf.text(`${i} / ${totalPages}`, pdf.internal.pageSize.getWidth() - 26, pdf.internal.pageSize.getHeight() - 10);
+      }
+
+      await pdf.save(options.filename);
+
+      UIkit.notification.closeAll();
+      UIkit.notification({message: '<span uk-icon=\'icon: check\' class=\'uk-text-success\'></span> PDF generado con éxito!', status: 'success', pos: 'top-center', timeout: 3000});
+    } catch (err) {
+      console.error('Error al generar PDF:', err);
+      UIkit.notification.closeAll();
+      UIkit.notification({message: '<span uk-icon=\'icon: warning\' class=\'uk-text-danger\'></span> Error al generar PDF. Por favor, intente de nuevo.', status: 'danger', pos: 'top-center', timeout: 3000});
+    } finally {
+      elementsToHide.forEach(el => el.classList.remove('hide-in-pdf'));
+    }
+  });
+});
+</script>
                     </div>
 
+
                     <div class="article-content link-primary">
-                        <p>Se suministra información detallada del formulario <em>Servicio Solicitado</em>. Dicha información, especifica claramente el servicio solicitado así como el Centro de Servicio responsable de atender la SS creada.
+                        <p>Se suministra información detallada del formulario <em>Servicio Solicitado</em>. Dicha información, especifica claramente el servicio solicitado así como el Centro de Servicio responsable de atender la SS.
 Se identifican los campos relacionados en el formulario Servicio Solicitado para la creación de SS y se reconocen los comandos que aparecen en pantalla.</p>
 
 <p><strong>En esta sección</strong></p>
 
-<p>•	Formulario Servicio Solicitado
-•	Campos de Servicio Solicitado
-•	Campos de Información de Activo / Equipo</p>
+<ul>
+  <li>Formulario Servicio Solicitado para Usuarios relacionados por Centros de Costo</li>
+  <li>Formulario Servicio Solicitado para Usuarios relacionados por Compañía.</li>
+  <li>Campos de Servicio Solicitado</li>
+  <li>Campos de Información de Activo / Equipo</li>
+  <li>Videos de capacitación</li>
+</ul>
+
+<h2 id="creación-de-solicitudes-de-servicio">Creación de Solicitudes de Servicio</h2>
 
 <iframe width="600" height="340" src="https://www.youtube.com/embed/Djn9vXQVmhg?si=DohrcsL0ptRyVbqx" title="Actualización de perfil y creación de solicitudes para usuarios relacionados por Centro de Costo" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" uk-responsive=""></iframe>
 
-<p>Este formulario trae los datos del solicitante previamente logueado en la ventana de  acceso al <strong>AMsi</strong>. Contiene la información personal del solicitante, información del servicio solicitado, información del Activo/Equipo objeto de la SS de mantenimiento.
-Para la Creación de la SS, dar clic en el siguiente botón mostrado:</p>
+<p><br /></p>
+
+<p>Ingrese a <strong>AMsi</strong> y elija la opción <strong>Crear Nueva Solicitud</strong> :</p>
 
 <p><img src="../../assets/images/cap12/chp12_img06.png" alt="Procesar imagen" />
 <em><strong>Imagen 6.</strong>  Crear Nueva Solicitud</em></p>
 
-<h3 id="ventana-creación-de-la-solicitud-de-servicio">Ventana Creación de la Solicitud de Servicio</h3>
+<h2 id="ventana-creación-de-la-solicitud-de-servicio">Ventana Creación de la Solicitud de Servicio</h2>
+
+<p><strong>AMsi</strong> responde mostrando en una nueva ventana, el Detalle del Servicio a Solicitar.  Es decir,  la información personal del solicitante información del servicio solicitado e información del Activo/Equipo objeto de la SS de mantenimiento.</p>
 
 <p><img src="../../assets/images/cap12/chp12_img07.png" alt="Procesar imagen" />
 <em><strong>Imagen 7.</strong>  Ventana Creación SS</em></p>
 
-<p>Luego de dar clic sobre el botón anterior, el sistema responde mostrando en una nueva ventana, el Detalle del Servicio a solicitar. A través de ella se ejecutan todas las funciones dedicadas a la creación de la SS. A continuación, se describen los campos que la componen, sobre cada uno se da una breve explicación:</p>
+<p>A continuación, se describen los campos que la componen, sobre cada uno se da una breve explicación:</p>
 
 <h3 id="campos-del-formulario-datos-del-solicitante">Campos Del Formulario <em>Datos Del Solicitante</em></h3>
 
-<p>Este cuadro es informativo y hace referencia a los Datos del Solicitante necesarios para la creación de una SS y que fueron ingresados en Actualizar Perfil visto en el tercer capítulo. Contiene la información personal del solicitante y todos los campos se encuentran bloqueados.</p>
+<p>Este cuadro es informativo y hace referencia a los Datos del Solicitante necesarios para la creación de una SS. Contiene la información corporativa del solicitante y todos los campos se encuentran bloqueados <em>(sección Actualizar Perfil)</em>.</p>
 
 <p><strong>Nro. Documento:</strong> Este campo muestra el número de Identificación de la persona solicitante.</p>
 
@@ -643,9 +785,9 @@ Para la Creación de la SS, dar clic en el siguiente botón mostrado:</p>
 
 <p><strong>Ciudad:</strong> Este campo muestra la ciudad asignada y en la cual vive el solicitante o está ubicada la institución para la cual labora.</p>
 
-<p><strong>Correo Electrónico:</strong> Este campo muestra la Dirección de correo electrónico asignada a la persona solicitante por la organización, o bien, correo personal del solicitante en caso de no tener una cuenta de correo electrónico corporativa.</p>
+<p><strong>Correo Electrónico:</strong> Este campo muestra la Dirección de correo electrónico asignada a la persona solicitante por la organización, o el correo personal del solicitante en caso de no tener una cuenta de correo electrónico corporativa.</p>
 
-<h3 id="campos-del-formulario-servicio-solicitado">Campos Del Formulario Servicio Solicitado</h3>
+<h3 id="campos-del-formulario-servicio-solicitado-para-usuarios-relacionados-por-centros-de-costo">Campos Del Formulario Servicio Solicitado para usuarios relacionados por Centros de Costo</h3>
 
 <p>El formulario Servicio Solicitado  hace referencia a los datos de la SS que se está creando.</p>
 
@@ -659,71 +801,196 @@ En caso de ser un usuario que tenga asociado Todos Los Centros de Costo, este ca
 <p><strong>Centro de Costo:</strong> En este campo se elige de la lista desplegable el Centro de Costo al que se le va a realizar la SS. Al seleccionar el Centro de Costo, se muestra automáticamente en el campo Centro de Servicio, el nombre del Centro de Servicio al cual está asociado el Centro de Costo seleccionado. Esto, para usuarios que tengan relacionado uno o varios Centros de Costos de una o varias compañías. Solo se listan los Centros de Costo que el usuario solicitante tenga  asociados.
 En caso de ser un usuario que tenga asociado Todos Los Centros de Costo, este campo se listan únicamente los Centros de Costo existentes en el Centro de Servicio seleccionado.</p>
 
-<p><strong>Descripción:</strong> En este campo se digita en forma detallada el servicio de mantenimiento requerido. Se detalla el problema, inconveniente, necesidad o avería a ser atendida.</p>
+<p><strong>Descripción:</strong> En este campo se digita en forma concreta el servicio de mantenimiento requerido. Se detalla el problema, inconveniente, necesidad o avería a ser atendida.</p>
 
-<p><strong>Activo/Equipo:</strong> En este campo se ingresa el Activo/Equipo de la organización que requiere atención de mantenimiento. Dependiendo de la configuración, este campo se puede habilitar:</p>
+<p><strong>Activo/Equipo:</strong> En este campo se ingresa el Activo/Equipo de la organización que requiere atención de mantenimiento. Dependiendo de la configuración en <strong>AMsi</strong>, este campo se puede habilitar:</p>
 
 <ul>
-  <li>Para describir el equipo en lenguaje natural</li>
-  <li>Para seleccionarlo de la lista que se despliega dando clic al ícono de filtro azul <span class="mdi mdi-filter-variant icon white"></span> que se encuentra en la parte derecha del campo.
-La lista desplegada incluye los Activos/Equipos creados previamente en el AM y que a la vez están asociados al Centro de Costo de la compañía correspondiente.
-Existe control en todos los casos sobre el Centro de Costo, es decir, solo se despliegan o se permiten elegir Activos/Equipos que estén asociados al Centro de Costo definido en el campo Centro de Costo.
-Para describir el Activo/Equipo en lenguaje natural se da clic al cuadro ubicado al lado izquierdo de este campo, inmediatamente se habilitan dos campos que pueden ser diligenciados. El primer campo es para describir en lenguaje natural el Activo/Equipo, y el segundo campo es para describir también en lenguaje natural la ubicación física del Activo o Equipo referenciado.
-Para seleccionar el Activo/Equipo se da clic en el icono de filtro azul <span class="mdi mdi-filter-variant icon white"></span> ubicado al lado derecho de este campo, inmediatamente se abre una nueva ventana para elegir el Activo/Equipo, en esta nueva ventana también hay posibilidad de hacer subgrupos y para seleccionarlo se da doble clic sobre el registro, se cierra esta ventana automáticamente y se observa que aparece el código y la descripción del Activo/Equipo.</li>
+  <li>Para selección del Activo en la ventana Detalle de Activos que es llamada por el ícono Subgrupo <span class="mdi mdi-filter-variant icon white"></span> que se encuentra en la parte derecha del campo:</li>
 </ul>
 
-<p><strong>Descripción:</strong> Este campo permanece bloqueado y muestra la descripción del Activo/Equipo seleccionado.</p>
+<p><img src="../../assets/images/cap12/chp12_img07_01.png" alt="Procesar imagen" />
+<em><strong>Imagen 8.</strong>  Ventana Activos</em></p>
+
+<p>La lista desplegada incluye los Activos/Equipos creados previamente en el <strong>AM</strong> y que a la vez están asociados al Centro de Costo de la compañía correspondiente y en estado activo y operante. En esta nueva ventana también hay posibilidad de hacer subgrupos.Para seleccionar el Activo dar doble clic sobre el registro sombreado en verde. Cuando se cierra esta ventana automáticamente se observa que aparece el código y la descripción del Activo/Equipo. (<em>Ver imagen 7</em>)</p>
+
+<p>Existe control en todos los casos sobre el Centro de Costo, es decir, solo se despliegan o se permiten elegir Activos/Equipos que estén asociados al Centro de Costo definido en el campo Centro de Costo.</p>
+
+<ul>
+  <li>Para describir el Activo/Equipo en lenguaje natural</li>
+</ul>
+
+<p>Para describir el Activo/Equipo en lenguaje natural dar clic al campo <a class="btn cl-black "><span class="mdi mdi-checkbox-blank-outline"></span></a> ubicado al lado izquierdo.</p>
+
+<blockquote>
+  <p><strong>Nota:</strong> Este se usa en caso de que el usuario solicitante no encuentre o no identifique el Activo por medio del Subgrupo <span class="mdi mdi-filter-variant icon white"></span> (opción anterior).</p>
+</blockquote>
+
+<p>inmediatamente se habilitan dos campos que pueden ser diligenciados.</p>
+
+<p><img src="../../assets/images/cap12/chp12_img07_02.png" alt="Procesar imagen" />
+<em><strong>Imagen 9.</strong>  Descripción del Activo en Lenguaje Natural</em></p>
+
+<p><strong>Activo / Equipo en Lenguaje Natural:</strong> Es para describir el nombre del Activo que se va a referenciar en la SS y que debe de ser fácilmente identificable para el área de Mantenimiento.</p>
+
+<p><strong>Ubicación Física:</strong> Aqui se debe describir también en lenguaje natural la ubicación física del Activo/Equipo referenciado.</p>
 
 <p><strong>Prioridad:</strong> Este campo viene predefinido con las prioridades Alta, Media y Baja. Lo utiliza el programador de mantenimiento como guía para establecer la agilidad (normal o priorizada) en la asignación del recurso humano de mantenimiento para la ejecución del trabajo solicitado.</p>
 
-<p><strong>F/H Tentativa del Usuario:</strong> En este campo se asigna una fecha y hora que el usuario solicitante considere que el área de Mantenimiento le haga entrega de la solicitud realizada. Es un campo opcional de diligenciar.</p>
+<p><strong>F/H Tentativa del Usuario:</strong> En este campo se asigna una fecha y hora que el usuario solicitante considere que el área de Mantenimiento le haga entrega de la solicitud realizada. Es un campo opcional de diligenciar y que es configurable por el usuario administrador.</p>
 
-<p><a class="btn blue">anexar multimedia <span class="mdi mdi-attachment"></span></a> : Permite una vez que se envíe la SS anexar archivos Multimedia, como documentos, imágenes o porciones de video siempre y cuando el usuario permanezca en esta ventana.</p>
+<p>Una vez se diligencie el formulario accione el botón  <a class="btn blue">ENVIAR <span class="mdi mdi-send"></span></a>. Este botón envía inmediatamente la SS a la base de datos del AM para ser revisada por el área de mantenimiento encargada y proceder así con su análisis y asignación.
+Una vez enviada la SS, el sistema muestra un mensaje de notificación de registro exitoso, mostrando el número o consecutivo asignado. Después se habilitan las siguientes opciones:</p>
 
 <p><img src="../../assets/images/cap12/chp12_img08.png" alt="Procesar imagen" />
-<em><strong>Imagen 8.</strong> Ir a Multimedia</em></p>
+<em><strong>Imagen 10.</strong> Ir a Multimedia</em></p>
+
+<p><a class="btn blue">ANEXAR MULTIMEDIA <span class="mdi mdi-attachment"></span></a> : Permite una vez que se envíe la SS anexar archivos Multimedia, como documentos, imágenes o porciones de video siempre y cuando el usuario permanezca en esta ventana.</p>
 
 <p>Para ingresar multimedia se debe dar doble clic sobre una de las tres carpetas:</p>
 
 <p><img src="../../assets/images/cap12/chp12_img09.png" alt="Procesar imagen" />
-<em><strong>Imagen 9.</strong> Multimedia</em></p>
+<em><strong>Imagen 11.</strong> Multimedia</em></p>
 
-<p>Se debe dar clic al botón <span class="mdi mdi-cloud-upload icon white"></span> para abrir el explorador de archivos:</p>
+<p>Luego, dar clic al botón <span class="mdi mdi-cloud-upload icon white"></span> para abrir el explorador de archivos:</p>
 
 <p><img src="../../assets/images/cap12/chp12_img10.png" alt="Procesar imagen" />
-<em><strong>Imagen 10.</strong> AMsi - Explorador de archivos</em></p>
+<em><strong>Imagen 12.</strong> AMsi - Explorador de archivos</em></p>
 
 <p><img src="../../assets/images/cap12/chp12_img11.png" alt="Procesar imagen" />
-<em><strong>Imagen 11.</strong> AMsi - Subir archivo</em></p>
+<em><strong>Imagen 13.</strong> AMsi - Subir archivo</em></p>
 
-<p>Una vez elegido el archivo a adjuntar puede asignarse un nombre opcional en el espacio en blanco a continuación:</p>
+<p>Despues de adjuntar el archivo puede asignarse un nombre opcional para hacer referencia clara de lo que se estáadjuntano en el espacio en blanco que se muestra a continuación:</p>
 
 <p><img src="../../assets/images/cap12/chp12_img12.png" alt="Procesar imagen" />
-<em><strong>Imagen 12.</strong> Mensaje Alerta SS</em></p>
+<em><strong>Imagen 14.</strong> Mensaje Alerta SS</em></p>
 
-<p>Luego se debe dar clic en el botón <a class="btn white">subir archivo</a> y el sistema confirmará a través de un mensaje que el archivo ha sido subido correctamente:</p>
+<p>Luego, dar clic en el botón <a class="btn white">Subir Archivo</a> y el sistema confirma a través de un mensaje que el archivo ha sido subido correctamente:</p>
 
 <p><img src="../../assets/images/cap12/chp12_img13.png" alt="Procesar imagen" />
-<em><strong>Imagen 13.</strong> Mensaje registro SS</em></p>
+<em><strong>Imagen 15.</strong> Mensaje registro SS</em></p>
 
-<p><a class="btn blue">enviar <span class="mdi mdi-send"></span></a> : Este botón envía inmediatamente la SS a la base de datos del AM para ser revisada por el área de mantenimiento encargada y proceder así con su análisis y asignación.
-Una vez enviada la SS, el sistema muestra un mensaje de notificación de registro exitoso, mostrando el número o consecutivo asignado. Se habilitan además las opciones de Crear Nueva Solicitud y Consultar Mis Solicitudes, como se muestra a continuación:</p>
+<p><a class="btn blue">CREAR NUEVA SOLICITUD <span class="mdi mdi-plus-circle-outline"></span></a> : Se usa para crear nuevas solicitudes de servicio. Aplica cuando se ha enviado una SS y se desea generar una nueva.</p>
 
-<p><a class="btn blue">crear nueva solicitud <span class="mdi mdi-plus-circle-outline"></span></a> : Se usa para crear nuevas solicitudes de servicio. Aplica cuando se ha enviado una SS y se desea generar una nueva.</p>
+<p><a class="btn blue">CONSULTAR SOLICITUDES <span class="mdi mdi-account-box"></span></a> : Este botón lo remite a una nueva ventana en la que puede realizar búsquedas y consultas de SS creadas previamente. Para mayor información al respecto se detalla en la sección de “Consultar Mis Solicitudes” de este manual.</p>
 
-<p><a class="btn blue">consultar solicitudes <span class="mdi mdi-account-box"></span></a> : Este botón lo remite a una nueva ventana en la que puede realizar búsquedas y consultas de SS creadas previamente. Para mayor información al respecto se detalla en la sección de “Consultar Mis Solicitudes” de este manual.
-Botón Inicio: Este botón lleva a la ventana de Menú Principal del Usuario.</p>
+<p><strong><span class="mdi mdi-home"></span>:</strong> Este botón lleva a la ventana de Menú Principal.</p>
 
-<p><strong>Inicio <span class="mdi mdi-home"></span>:</strong> Este botón lleva a la ventana de Menú Principal del Usuario.</p>
+<p><strong><span class="mdi mdi-exit-to-app"></span>:</strong> Este botón  permite salir de la aplicación <strong>AMsi</strong>.</p>
 
-<p><strong>Cerrar Sesión <span class="mdi mdi-exit-to-app"></span>:</strong> Este botón  permite salir de la aplicación <strong>AMsi</strong>.</p>
-
-<h4 id="creación-de-solicitudes-de-servicio-usuarios-relacionados-por-compañía">Creación de Solicitudes de Servicio Usuarios relacionados por Compañía</h4>
+<h4 id="campos-del-formulario-servicio-solicitado-para-usuarios-relacionados-por-compañía">Campos Del Formulario Servicio Solicitado para usuarios relacionados por Compañía</h4>
 
 <iframe width="600" height="340" src="https://www.youtube.com/embed/Sd7o6h16bb8?si=4u5BSOD5sLJAeo05" title="Actualización de perfil y creación de solicitudes para usuarios relacionados por compañía" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" uk-responsive=""></iframe>
 
+<p>Una vez ingrese a <strong>AMsi</strong> elija la opción <strong>Crear Nueva Solicitud</strong>, se visualiza el Formulario que muestra el detalle del servicio a solicitar:</p>
+
+<p><img src="../../assets/images/cap12/chp12_img13_01.png" alt="Procesar imagen" />
+<em><strong>Imagen 16.</strong> Formulario SS</em></p>
+
+<p>Se describen los campos a diligenciar:</p>
+
+<h3 id="campos-del-formulario-datos-del-solicitante-1">Campos del Formulario <em>Datos del Solicitante</em></h3>
+
+<p>Este recuadro es informativo y hace referencia a los Datos del Solicitante corporativos necesarios para la creación de una SS. <em>(Sección Actualizar Perfil)</em>.</p>
+
+<p><strong>Nro. Documento:</strong> Este campo muestra el número de Identificación de la persona solicitante.</p>
+
+<p><strong>Nombre Completo:</strong> Este campo muestra el Nombre completo de la persona que solicita un servicio de mantenimiento.</p>
+
+<p><strong>Teléfono:</strong> Este campo muestra el Número telefónico donde se puede localizar a la persona solicitante.</p>
+
+<p><strong>Dirección:</strong> Este campo muestra la dirección asignada y que corresponde a la organización a la cual pertenece la persona solicitante.</p>
+
+<p><strong>Ciudad:</strong> Este campo muestra la ciudad asignada y en la cual vive el solicitante o está ubicada la institución para la cual labora.</p>
+
+<p><strong>Correo Electrónico:</strong> Este campo muestra la Dirección de correo electrónico asignada a la persona solicitante por la organización, o el correo personal del solicitante en caso de no tener una cuenta de correo electrónico corporativa.</p>
+
+<h3 id="campos-del-formulario-servicio-solicitado-para-usuarios-relacionados-por-compañía-1">Campos Del Formulario <em>Servicio Solicitado</em> para usuarios relacionados por Compañía</h3>
+
+<p><strong>Centro de Servicio:</strong> Este campo solo es desplegable cuando el usuario tiene asociada o autorizada mas de una compañía. Se refiere a la compañía en <strong>AM</strong> a la que llega la SS.</p>
+
+<p><strong>Descripción:</strong> En este campo se digita en forma concreta el servicio de mantenimiento requerido. Se detalla el problema, inconveniente, necesidad o avería a ser atendida.</p>
+
+<p><strong>Activo/Equipo:</strong> En este campo se ingresa el  objeto de mantenimeinto relacionado a la SS. Dependiendo de la configuración en <strong>AMsi</strong>, este campo se puede habilitar:</p>
+
+<ul>
+  <li>Para selección del Activo en la ventana Detalle de Activos que es llamada por el ícono Subgrupo <span class="mdi mdi-filter-variant icon white"></span> que se encuentra en la parte derecha del campo:</li>
+</ul>
+
+<p><img src="../../assets/images/cap12/chp12_img13_02.png" alt="Procesar imagen" />
+<em><strong>Imagen 17.</strong> Asociar Activo/Equipo a la SS</em></p>
+
+<p>La lista desplegada incluye los Activos/Equipos creados previamente en <strong>AM</strong> asociados a la compañía o centro de servicio referido en el formulario y en estado activo y operante. En esta nueva ventana también hay posibilidad de hacer subgrupos <span class="mdi mdi-filter-variant"></span> o búsquedas rápidas que facilitan encontrar el Activo. (En la imagen anterior se muestra un Subgrupo dentro de la ventana detalle de Activos representado por el ícono <a class="btn bg-white fs-2"><span class="iconify btn-icon cl-black" data-icon="mdi-filter-variant"></span><span class="dot bg-af-red"></span></a> )</p>
+
+<p>Para seleccionar el Activo dar doble clic sobre el registro sombreado en verde. Cuando se cierra esta ventana automáticamente se observa que aparece el código y la descripción del Activo/Equipo, como se muestra a continuación:</p>
+
+<p><img src="../../assets/images/cap12/chp12_img13_03.png" alt="Procesar imagen" />
+<em><strong>Imagen 18.</strong> Formulario correctamente diligenciado</em></p>
+
+<ul>
+  <li>Describir el Activo/Equipo en lenguaje natural</li>
+</ul>
+
+<p>Para describir el Activo/Equipo en lenguaje natural dar clic al campo <a class="btn cl-black "><span class="mdi mdi-checkbox-blank-outline"></span></a> ubicado al lado izquierdo.</p>
+
+<blockquote>
+  <p><strong>Nota:</strong> Este se usa en caso de que el usuario solicitante no encuentre o no identifique el Activo por medio del Subgrupo <span class="mdi mdi-filter-variant icon white"></span> (opción anterior).</p>
+</blockquote>
+
+<p><img src="../../assets/images/cap12/chp12_img13_04.png" alt="Procesar imagen" />
+<em><strong>Imagen 19.</strong> Activo en Lenguaje Natural</em></p>
+
+<p><strong>Activo / Equipo en Lenguaje Natural:</strong> Es para describir el nombre del Activo que se va a referenciar en la SS y que debe de ser fácilmente identificable para el área de Mantenimiento.</p>
+
+<p><strong>Ubicación Física:</strong> Aqui se debe describir también en lenguaje natural la ubicación física del Activo/Equipo referenciado.</p>
+
+<p><strong>Prioridad:</strong> Este campo viene predefinido con las prioridades Alta, Media y Baja. Lo utiliza el programador de mantenimiento como guía para establecer la agilidad (normal o priorizada) en la asignación del recurso humano de mantenimiento para la ejecución del trabajo solicitado.</p>
+
+<p><strong>F/H Tentativa del Usuario:</strong> En este campo se asigna una fecha y hora que el usuario solicitante considere que el área de Mantenimiento le haga entrega de la solicitud realizada. Es un campo opcional de diligenciar y que es configurable por el usuario administrador. (En la imagen anterior se configuró para que el campo no aparezca).</p>
+
+<p>Una vez se diligencie el formulario accione el botón  <a class="btn blue">ENVIAR <span class="mdi mdi-send"></span></a>. Este botón envía inmediatamente la SS a la base de datos del AM para ser revisada por el área de mantenimiento encargada y proceder así con su análisis y asignación. Una vez enviada la SS, el sistema muestra un mensaje de notificación de registro exitoso, mostrando el número o consecutivo asignado a la SS.</p>
+
+<p>Después se habilitan las siguientes opciones:</p>
+
+<p><img src="../../assets/images/cap12/chp12_img13_05.png" alt="Procesar imagen" />
+<em><strong>Imagen 20.</strong> Envío de SS</em></p>
+
+<p><a class="btn blue">ANEXAR MULTIMEDIA <span class="mdi mdi-attachment"></span></a> : Permite una vez que se envíe la SS anexar archivos Multimedia, como documentos, imágenes o porciones de video siempre y cuando el usuario permanezca en esta ventana.</p>
+
+<p>Para ingresar multimedia se debe dar doble clic sobre una de las tres carpetas:</p>
+
+<p><img src="../../assets/images/cap12/chp12_img13_06.png" alt="Procesar imagen" />
+<em><strong>Imagen 21.</strong> Multimedia</em></p>
+
+<p>Luego, dar clic al botón <span class="mdi mdi-cloud-upload icon white"></span> para abrir el explorador de archivos:</p>
+
+<p><img src="../../assets/images/cap12/chp12_img13_07.png" alt="Procesar imagen" />
+<em><strong>Imagen 22.</strong> AMsi - Explorador de archivos</em></p>
+
+<p><img src="../../assets/images/cap12/chp12_img13_08.png" alt="Procesar imagen" />
+<em><strong>Imagen 23.</strong> AMsi - Subir archivo</em></p>
+
+<p>Despues de adjuntar el archivo puede asignarse un nombre opcional para hacer referencia clara de lo que se está adjuntando en el espacio en blanco que se muestra a continuación:</p>
+
+<p><img src="../../assets/images/cap12/chp12_img13_09.png" alt="Procesar imagen" />
+<em><strong>Imagen 24.</strong> Mensaje Alerta SS</em></p>
+
+<p>Luego, dar clic en el botón <a class="btn white">Subir Archivo</a> y el sistema confirma a través de un mensaje que el archivo ha sido subido correctamente:</p>
+
+<p><img src="../../assets/images/cap12/chp12_img13_10.png" alt="Procesar imagen" />
+<em><strong>Imagen 25.</strong> Mensaje registro SS</em></p>
+
+<p><a class="btn blue">CREAR NUEVA SOLICITUD <span class="mdi mdi-plus-circle-outline"></span></a> : Se usa para crear nuevas solicitudes de servicio. Aplica cuando se ha enviado una SS y se desea generar una nueva.</p>
+
+<p><a class="btn blue">CONSULTAR SOLICITUDES <span class="mdi mdi-account-box"></span></a> : Este botón lo remite a una nueva ventana en la que puede realizar búsquedas y consultas de SS creadas previamente. Para mayor información al respecto se detalla en la sección de “Consultar Mis Solicitudes” de este manual.</p>
+
+<p><strong><span class="mdi mdi-home"></span>:</strong> Este botón lleva a la ventana de Menú Principal.</p>
+
+<p><strong><span class="mdi mdi-exit-to-app"></span>:</strong> Este botón  permite salir de la aplicación <strong>AMsi</strong>.</p>
+
+
                         
-                            <div class="share uk-text-center uk-margin-medium-top">
+                            <div class="share uk-text-center uk-margin-medium-top no-print">
     
         <a class="uk-link-muted" href="https://twitter.com/intent/tweet?text=Crear Nueva Solicitud&url=http://localhost:4000/docs/15_04_create_a_new_request/&via=&related=" rel="nofollow" target="_blank" title="Compartir en Twitter" onclick="window.open(this.href, 'twitter', 'width=550,height=235');return false;"><span data-uk-icon="icon: twitter; ratio: 1.2"></span></a>
     
@@ -899,7 +1166,13 @@ Botón Inicio: Este botón lleva a la ventana de Menú Principal del Usuario.</p
 
   
   
-    <div class="uk-margin-large-top paginate-post">
+
+  
+  
+
+  
+  
+    <div class="uk-margin-large-top paginate-post no-print">
         <div class="uk-child-width-expand@s uk-grid-large uk-pagi" data-uk-grid>
             <div>
                 
@@ -924,7 +1197,7 @@ Botón Inicio: Este botón lleva a la ventana de Menú Principal del Usuario.</p
     
 
 
-                    <div class="uk-margin-large-top">
+                    <div class="uk-margin-large-top no-print">
     <h3>Temas relacionados</h3>
 
     
@@ -932,6 +1205,33 @@ Botón Inicio: Este botón lleva a la ventana de Menú Principal del Usuario.</p
     
 
     <ul class="uk-list link-secondary">
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
     
 
     
@@ -1528,6 +1828,7 @@ Botón Inicio: Este botón lleva a la ventana de Menú Principal del Usuario.</p
 
 
                     
+
                 </article>
 
                 <script>
@@ -1539,7 +1840,7 @@ Botón Inicio: Este botón lleva a la ventana de Menú Principal del Usuario.</p
                 </script>
 
             </div>
-
+        </div>
     </div>
 </div>
 
@@ -1617,7 +1918,7 @@ Botón Inicio: Este botón lleva a la ventana de Menú Principal del Usuario.</p
         
           
           
-          <li class=""><a href="/docs/03_04_parts_list/"></a></li>
+          <li class=""><a href="/docs/03_04_parts_list/">Codificación de Activos/Equipos y Generalidades</a></li>
         
           
           
@@ -1718,15 +2019,23 @@ Botón Inicio: Este botón lleva a la ventana de Menú Principal del Usuario.</p
         
           
           
-          <li class=""><a href="/docs/09_03_analysis_and_generation/">Análisis y Generación de Órdenes de Trabajo Programadas</a></li>
+          <li class=""><a href="/docs/09_03_basic_concepts_analysis_and_generation/">Conceptos Básicos Análisis y Generación de Órdenes de Trabajo Programadas</a></li>
         
           
           
-          <li class=""><a href="/docs/09_04_main_window/">Ventana Principal de Órdenes de Trabajo</a></li>
+          <li class=""><a href="/docs/09_04_main_window/">Ventana Principal</a></li>
         
           
           
-          <li class=""><a href=""></a></li>
+          <li class=""><a href="/docs/09_05_partial_views/">Vistas Parciales</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/09_06_transactions/">Transacciones</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/09_07_export_and_log_file/">Exportar y Reportes</a></li>
         
         </ul>
         
@@ -1846,7 +2155,7 @@ Botón Inicio: Este botón lleva a la ventana de Menú Principal del Usuario.</p
         
           
           
-          <li class=""><a href="/docs/15_11_logout/">Exportar Visor de SS/OT</a></li>
+          <li class=""><a href="/docs/15_11_export/">Exportar Visor de SS/OT</a></li>
         
         </ul>
         

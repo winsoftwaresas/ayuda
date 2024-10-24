@@ -3,37 +3,27 @@ title: Almacén
 subtitle: Explicación del módulo del módulo de Almacén, creación de materiales y repuestos, consulta y reservas
 tags: [AMovil]
 author: win
-order: 16_03
+order: '16_03'
 
 ---
 
-
-
-
 Para acceder al Almacén se debe dar un toque sobre el botón <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-warehouse"></span> Almacen </a>:
-
 
 ![Procesar imagen](../../assets/images/cap16/chp16_img48.jpeg)
 
 _**Imagen 50.** AMovil - Ir a Almacén_  
 
- 
-
 Se muestran los Almacenes definidos en **AM**, éstos se listan acorde a los permisos otorgados al usuario logueado: 
-
 
 ![Procesar imagen](../../assets/images/cap16/chp16_img49.jpeg)
 
 _**Imagen 51.** AMovil - Almacenes_  
-
 
 Para ingresar a un Almacén se debe seleccionarlo con un toque, cada Almacén contiene un submenú que permite hacer consulta, creación de Materiales/Repuestos y hacer reservas acorde a los permisos que tenga el usuario.
 
 ![Procesar imagen](../../assets/images/cap16/chp16_img50.jpeg)
 
 _**Imagen 52.** AMovil - Almacén Submenú_  
-
-
 
 ## Consultar Repuestos 
 
@@ -45,21 +35,16 @@ _**Imagen 53.** AMovil - Almacén Consulta Repuestos_
 
 Para ingresar al detalle del registro se da un toque sobre el botón <a class="btn cl-black bg-peach bd-peach px-6"> Detalle</a> el cual muestra la ficha técnica del Material/Repuesto:
 
-
-
 ![Procesar imagen](../../assets/images/cap16/chp16_img52.jpeg)
 
 _**Imagen 54.** AMovil - Ficha Técnica Repuesto_
-     
 
 Para guardar un cambio sobre la ficha técnica dar un toque en <a class="btn cl-white bg-blue px-6"> Actualizar</a>. Se muestra un mensaje alerta indicando que se ha actualizado el registro y para continuar dar un toque en <a class="btn cl-white bg-blue px-6"> Aceptar</a> como se muestra a continuación:
-
 
 ![Procesar imagen](../../assets/images/cap16/chp16_img53.jpeg)
 
 _**Imagen 55.** AMovil - Mensaje Alerta Actualizar Repuestos_
  
-
 ### Subgrupo Repuestos
 
 El Subgrupo de Materiales/Repuestos permite hacer búsquedas rápidas de registros que cumplan con uno o un conjunto de criterios.

@@ -3,7 +3,7 @@ title: Activos
 subtitle: Explicación del módulo de Activos, creación de registro, consulta e inventario físico
 tags: [AMovil]
 author: win
-order: 16_02
+order: '16_02'
 
 
 ---

@@ -17,11 +17,11 @@
 <meta property="og:url" content="http://localhost:4000/docs/05_02_basic_concepts/" />
 <meta property="og:site_name" content="AM" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-08-15T21:12:59-05:00" />
+<meta property="article:published_time" content="2024-10-23T16:10:07-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Conceptos Básicos sobre el Kárdex de Almacén" />
 <script type="application/ld+json">
-{"headline":"Conceptos Básicos sobre el Kárdex de Almacén","dateModified":"2024-08-15T21:12:59-05:00","datePublished":"2024-08-15T21:12:59-05:00","author":{"@type":"Person","name":"win"},"@type":"BlogPosting","description":"A través del Kárdex se realiza la actualización del módulo de Almacén, en todo lo concerniente a Entradas, Salidas y Ajustes, manteniendo tal movimiento disponible para consultas o estudios especiales. Su dominio puede ser uno o varios de los Almacenes definidos en la compañía activa.","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/winsoftware_logo.svg"},"name":"win"},"url":"http://localhost:4000/docs/05_02_basic_concepts/","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/docs/05_02_basic_concepts/"},"@context":"https://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/docs/05_02_basic_concepts/"},"author":{"@type":"Person","name":"win"},"@type":"BlogPosting","description":"A través del Kárdex se realiza la actualización del módulo de Almacén, en todo lo concerniente a Entradas, Salidas y Ajustes, manteniendo tal movimiento disponible para consultas o estudios especiales. Su dominio puede ser uno o varios de los Almacenes definidos en la compañía activa.","url":"http://localhost:4000/docs/05_02_basic_concepts/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/winsoftware_logo.svg"},"name":"win"},"headline":"Conceptos Básicos sobre el Kárdex de Almacén","dateModified":"2024-10-23T16:10:07-05:00","datePublished":"2024-10-23T16:10:07-05:00","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <meta property="og:image" content="http://localhost:4000/uploads/winsoftware_logo.svg"/>
@@ -31,6 +31,8 @@
   <link rel="alternate" type="application/rss+xml" title="AM" href="/feed.xml">
   <script src="//code.iconify.design/1/1.0.6/iconify.min.js"></script>
   <script src="/assets/js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+  <link rel="stylesheet" href="/assets/css/print.css">
   
     <script>
 function searchResults(form) {
@@ -133,12 +135,27 @@ function searchResults(form) {
   <!-- Hook head -->
   
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const images = document.querySelectorAll('img');
+        images.forEach(img => {
+          if (!img.hasAttribute('crossorigin')) {
+            img.setAttribute('crossorigin', 'anonymous');
+          }
+          // Convertir URLs absolutas locales a relativas
+          if (img.src.startsWith('http://localhost:4000')) {
+            img.src = img.src.replace('http://localhost:4000', '');
+          }
+        });
+      });
+    </script>
 <script src="http://127.0.0.1:35729/livereload.js"></script></head>
 
     <body>
 
     
-        <div data-uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent; top: 200">
+        <div data-uk-sticky="no-print animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent; top: 200">
     <nav class="uk-navbar-container">
         <div class="uk-container">
             <div data-uk-navbar>
@@ -316,7 +333,7 @@ function searchResults(form) {
                     
                       
                       
-                      <li class=""><a href="/docs/03_04_parts_list/"></a></li>
+                      <li class=""><a href="/docs/03_04_parts_list/">Codificación de Activos/Equipos y Generalidades</a></li>
                     
                       
                       
@@ -417,15 +434,23 @@ function searchResults(form) {
                     
                       
                       
-                      <li class=""><a href="/docs/09_03_analysis_and_generation/">Análisis y Generación de Órdenes de Trabajo Programadas</a></li>
+                      <li class=""><a href="/docs/09_03_basic_concepts_analysis_and_generation/">Conceptos Básicos Análisis y Generación de Órdenes de Trabajo Programadas</a></li>
                     
                       
                       
-                      <li class=""><a href="/docs/09_04_main_window/">Ventana Principal de Órdenes de Trabajo</a></li>
+                      <li class=""><a href="/docs/09_04_main_window/">Ventana Principal</a></li>
                     
                       
                       
-                      <li class=""><a href=""></a></li>
+                      <li class=""><a href="/docs/09_05_partial_views/">Vistas Parciales</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/09_06_transactions/">Transacciones</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/09_07_export_and_log_file/">Exportar y Reportes</a></li>
                     
                     </ul>
                     
@@ -545,7 +570,7 @@ function searchResults(form) {
                     
                       
                       
-                      <li class=""><a href="/docs/15_11_logout/">Exportar Visor de SS/OT</a></li>
+                      <li class=""><a href="/docs/15_11_export/">Exportar Visor de SS/OT</a></li>
                     
                     </ul>
                     
@@ -583,35 +608,143 @@ function searchResults(form) {
 
                     <h1 class="uk-article-title">Conceptos Básicos sobre el Kárdex de Almacén</h1>
 
-                    <p class="uk-text-lead uk-text-muted">El Kárdex de Almacén es el módulo encargado del registro detallado de todo  Movimiento de Entrada, Salida y Ajuste, de los almacenes activos en AM en la respectiva compañía.</p>
+                    <p class="uk-text-lead uk-text-muted">El Kárdex de Almacén es el módulo encargado del registro detallado de todo Movimiento de Entrada, Salida y Ajuste, de los almacenes activos en AM en la respectiva compañía.</p>
 
-                    <div class="uk-article-meta uk-margin-top uk-margin-medium-bottom uk-flex uk-flex-middle">
-                        
+                    <div class="uk-flex uk-flex-between uk-flex-middle">
+                        <div class="uk-article-meta uk-margin-top uk-margin-medium-bottom uk-flex uk-flex-middle">
+                                
 
 
   
-  <img class="uk-border-circle avatar" src="http://localhost:4000/uploads/winsoftware.png" alt="WIN Software">
+  <img class="uk-border-circle avatar" src="http://localhost:4000/uploads/winsoftwarex36.png" alt="WIN Software">
 
 
 <div>
   
     Escrito por <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">WIN Software</span></span><br>
   
-  <time datetime="2024-08-15T21:12:59-05:00" itemprop="datePublished">
+  <time datetime="" itemprop="datePublished">
     
-    Aug 15, 2024
+    
   </time>
 </div>
+                        </div>
+                        <button id="generatePdf" class="uk-button uk-button-primary uk-button-small no-print"><span data-uk-icon="icon: file-pdf" class="uk-icon"></span> PDF</button>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const generatePdfButton = document.getElementById('generatePdf');
+  const doc_version = "Version 1.3";
+  const company = "Win Software SAS";
+  const version_dir = "v1.3";
+
+  generatePdfButton.addEventListener('click', async function() {
+    const pdfFilename = '05_02_basic_concepts.pdf';
+    const pdfPath = `/pdf/${version_dir}/${pdfFilename}`;
+
+    // Verificar si el PDF ya existe
+    try {
+      const response = await fetch(pdfPath, { method: 'HEAD' });
+      if (response.ok) {
+        // El PDF existe, descargarlo directamente
+        UIkit.notification({message: '<span uk-icon=\'icon: download\' class=\'uk-text-primary\'></span> Descargando PDF existente...', status: 'primary', pos: 'top-center', timeout: 3000});
+        window.open(pdfPath, '_blank');
+        return;
+      }
+    } catch (error) {
+      console.log('El PDF no existe, se generará uno nuevo.');
+    }
+
+    // Si llegamos aquí, el PDF no existe y necesitamos generarlo
+    const element = document.querySelector('.uk-article');
+    const elementsToHide = document.querySelectorAll('.no-print');
+    
+    elementsToHide.forEach(el => el.classList.add('hide-in-pdf'));
+
+    const options = {
+      margin: [20, 20, 20, 20], // top, left, bottom, right
+      filename: pdfFilename,
+      image: { type: 'jpeg', quality: 0.98 },
+      html2canvas: { scale: 2, scrollY: 0, useCORS: true },
+      jsPDF: { unit: 'mm', format: 'letter', orientation: 'portrait' },
+      pagebreak: { mode: ['avoid-all', 'css', 'legacy']}
+    };
+
+    UIkit.notification({message: '<span uk-icon=\'icon: file-pdf\' class=\'uk-text-primary\'></span> Generando PDF...', status: 'primary', pos: 'top-center', timeout: 0});
+
+    // Clonar el elemento para no modificar el original
+    const clonedElement = element.cloneNode(true);
+    const sections = Array.from(clonedElement.children);
+
+    try {
+      let pdf;
+      if (sections.length > 5) {
+        let worker = html2pdf().set(options);
+
+        const processInBatches = async () => {
+          const batchSize = 5;
+          for (let i = 0; i < sections.length; i += batchSize) {
+            const batchElement = document.createElement('div');
+            const batchSections = sections.slice(i, i + batchSize);
+            batchSections.forEach(section => batchElement.appendChild(section.cloneNode(true)));
+            await worker.from(batchElement).toContainer().toCanvas().toPdf().get('pdf').then((pdfResult) => {
+              if (!pdf) {
+                pdf = pdfResult;
+              } else {
+                const pdfPages = pdfResult.internal.pages;
+                pdfPages.shift(); // Remove the first blank page
+                pdfPages.forEach(page => pdf.addPage().addPage(page));
+              }
+              if (i + batchSize < sections.length) {
+                pdf.addPage();
+              }
+            });
+          }
+        };
+        await processInBatches();
+      } else {
+        pdf = await html2pdf().set(options).from(clonedElement).toPdf().get('pdf');
+      }
+
+      const totalPages = pdf.internal.getNumberOfPages();
+
+      for (let i = 1; i <= totalPages; i++) {
+        pdf.setPage(i);
+        pdf.setFontSize(10);
+        pdf.setTextColor(150);
+        pdf.text(`${document.title}`, 22, 12);
+        pdf.text(`${doc_version}`, pdf.internal.pageSize.getWidth() - 37, 12);
+        pdf.line(22, 16, pdf.internal.pageSize.getWidth() - 20 , 16);
+        pdf.line(22, pdf.internal.pageSize.getHeight() - 16, pdf.internal.pageSize.getWidth() - 20 , pdf.internal.pageSize.getHeight() - 16);
+        pdf.text(`${company}`, 22, pdf.internal.pageSize.getHeight() - 10);
+        pdf.text(`${i} / ${totalPages}`, pdf.internal.pageSize.getWidth() - 26, pdf.internal.pageSize.getHeight() - 10);
+      }
+
+      await pdf.save(options.filename);
+
+      UIkit.notification.closeAll();
+      UIkit.notification({message: '<span uk-icon=\'icon: check\' class=\'uk-text-success\'></span> PDF generado con éxito!', status: 'success', pos: 'top-center', timeout: 3000});
+    } catch (err) {
+      console.error('Error al generar PDF:', err);
+      UIkit.notification.closeAll();
+      UIkit.notification({message: '<span uk-icon=\'icon: warning\' class=\'uk-text-danger\'></span> Error al generar PDF. Por favor, intente de nuevo.', status: 'danger', pos: 'top-center', timeout: 3000});
+    } finally {
+      elementsToHide.forEach(el => el.classList.remove('hide-in-pdf'));
+    }
+  });
+});
+</script>
                     </div>
+
 
                     <div class="article-content link-primary">
                         <p>A través del Kárdex se realiza la  actualización del módulo de Almacén, en todo lo concerniente a Entradas, Salidas y Ajustes,  manteniendo tal movimiento disponible para consultas o estudios especiales. Su dominio puede ser uno o varios de los Almacenes definidos en la compañía activa.</p>
 
-<p>Una única transacción del Kárdex, mantiene consistencia integral entre tres tablas distintas: Almacén, Órdenes de Trabajo y Kárdex. Esto significa que una transacción de entrada al Almacén, registrada en el Kárdex, actualiza también el saldo y el nivel de existencia en la ficha técnica del Materiales  o Repuestos, incrementándolo. Una transacción de salida del almacén, registrada en el Kárdex, actualiza el saldo y el nievel de existencia en la ficha técnica del Repuesto/Material, decrementándolo y al tiempo actualiza la tabla de Órdenes de Trabajo, cargando el consumo de tales Materiales  o Repuestos.</p>
+<p>Una única transacción del Kárdex, mantiene consistencia integral entre tres tablas distintas: Almacén, Órdenes de Trabajo y Kárdex. Esto significa que una transacción de entrada al Almacén, registrada en el Kárdex, actualiza también el saldo y el nivel de existencia en la ficha técnica del Materiales  o Repuestos, incrementándolo. Una transacción de salida del almacén, registrada en el Kárdex, actualiza el saldo y el nivel de existencia en la ficha técnica del Repuesto/Material, decrementándolo y al tiempo actualiza la tabla de Órdenes de Trabajo, cargando el consumo de tales Materiales  o Repuestos.</p>
 
 <p>Es una herramienta práctica  cuando no  se  dispone  en  la  Organización de  un  Sistema Corporativo de Almacén que administre los Insumos de Mantenimiento, los Materiales y los Repuestos. En este caso el Kárdex de <strong>AM</strong>, en conjunto con el  módulo de Almacén, pueden suplir tal necesidad e incluso otras alrededor del tema  de inventarios, como por ejemplo Administrar el Inventario de Materia Prima, de Producto en Proceso, de Material de Empaque, de Útiles de Oficina y de Aseo y Otros.</p>
 
-<p>Pero   también   es   muy   útil   cuando   ya   existe   un   Sistema   externo   dedicado   a   la administración del Inventario de Materiales  o Repuestosde la corporación, a través del cual se  realiza toda gestión y movimiento de entradas y salidas. En este caso <strong>AM</strong> debe enterarse del resultado de  cada movimiento ejecutado a través del   sistema externo. Para ello tal sistema externo debe poder entregar un archivo a manera de  interface, en el que se comunique a <strong>AM</strong>: los saldos en existencia y el valor unitario vigente de cada repuesto, después de aquellos movimientos.</p>
+<p>Pero   también   es   muy   útil   cuando   ya   existe   un   Sistema   externo   dedicado   a   la administración del Inventario de Materiales  o Repuestos de la corporación, a través del cual se  realiza toda gestión y movimiento de entradas y salidas. En este caso <strong>AM</strong> debe enterarse del resultado de  cada movimiento ejecutado a través del   sistema externo. Para ello tal sistema externo debe poder entregar un archivo a manera de  interface, en el que se comunique a <strong>AM</strong>: los saldos en existencia y el valor unitario vigente de cada repuesto, después de aquellos movimientos.</p>
 
 <p>Es  posible  definir  un  gran  número  de  Conceptos de Entrada  y  Salida  de  artículos  del Almacén. Los Conceptos de  Entrada  son  las  operaciones por las cuales ingresan los Materiales  o Repuestos al  Almacén. Se puede registrar un número infinito de conceptos de entrada. Dentro de los conceptos de entrada existen algunos que se  encuentran predefinidos. Aún así es posible definir cuantos sean requeridos y definir  para cada uno sus requerimientos especiales. Por ejemplo, habrá conceptos de  entrada que podrán exigir la información del Almacén desde donde proviene el Repuesto/Material, otros en cambio, podrán  exigir  el  número de  la  Órden  de  Trabajo,  cuando  se  trate  de  una entrada  por devolución de un Repuesto/Material al Almacén, desde una Órden de Trabajo que lo solicitó y no lo utilizó.</p>
 
@@ -637,19 +770,19 @@ function searchResults(form) {
 <p><img src="../../assets/images/cap05/chp05_img02.png" alt="Procesar imagen" />
 <em><strong>Imagen 2.</strong> Kárdex - Visor Kárdex</em></p>
 
-<p>A través del visor de Kárdex se ejecutan funciones dedicadas a administrar en primer  lugar  los documentos y luego sus movimientos asociados.</p>
+<p>A través del visor de Kárdex se ejecutan funciones dedicadas a administrar en primer lugar los documentos y luego sus movimientos asociados.</p>
 
 <p>Desde esta ventana es posible observar los documentos de Kárdex existentes o inexistentes en caso de la incorporación de un nuevo Almacén.</p>
 
-<p>A través del visor de Kárdex se ejecutan funciones dedicadas a administrar en primer  lugar  los documentos y luego sus movimientos asociados.</p>
+<p>A través del visor de Kárdex se ejecutan funciones dedicadas a administrar en primer lugar los documentos y luego sus movimientos asociados.</p>
 
-<p>Se  listan todos o un subgrupo  de  ellos. Es posible desplazarse entre páginas <a class="btn white"><span class="mdi mdi-chevron-left"></span></a> <a class="btn white"><span class="mdi mdi-chevron-right"></span></a> en la parte inferior derecha del Visor. Es posible configurar el número de registros que se muestran por página desde el módulo de <a class="btn blue">administración</a> en la opción <strong>“Valores por Defecto”</strong> en la etiqueta <strong>General.</strong></p>
+<p>Se  listan todos o un subgrupo  de  ellos. Es posible desplazarse entre páginas <a class="btn white"><span class="mdi mdi-chevron-left"></span></a> <a class="btn white"><span class="mdi mdi-chevron-right"></span></a> en la parte inferior derecha del Visor. Es posible configurar el número de registros que se muestran por página desde el módulo de <a class="btn blue">administración</a> en la opción <strong>Valores por Defecto</strong> en la etiqueta <strong>General</strong>.</p>
 
-<p>Los títulos en  azul que encabezan las columnas son también botones que permiten ordenar la    tabla, según el título seleccionado. Para elegir un registro de la tabla se da un clic sobre él o también se desplaza el cursor con las teclas de desplazamiento.</p>
+<p>Los títulos en  azul que encabezan las columnas son también botones que permiten ordenar la tabla, según el título seleccionado. Para elegir un registro de la tabla se da un clic sobre él o también se desplaza el cursor con las teclas de desplazamiento.</p>
 
 <h2 id="ventana-detalle-de-documento-de-kárdex">Ventana Detalle de Documento de Kárdex</h2>
 
-<p>Al hacer clic sobre alguno de los registros del Visor, el sistema responde mostrando  su información de forma detallada, en una ventana llamada Ventana Detalle, como se muestra a continuación:</p>
+<p>Al hacer clic sobre alguno de los registros del Visor, el sistema responde mostrando su información de forma detallada, en una ventana llamada Ventana Detalle, como se muestra a continuación:</p>
 
 <p><img src="../../assets/images/cap05/chp05_img04.png" alt="Procesar imagen" />
 <em><strong>Imagen 3.</strong> Kárdex - Ventana Detalle</em></p>
@@ -662,7 +795,7 @@ function searchResults(form) {
 
 <p>Al dar clic en la pestaña <strong>“Movimientos”</strong>, se muestra la ventana Visor de Movimientos de Kárdex, con todos los registros de Movimiento contenidos  dentro del Documento   actualmente   seleccionado.</p>
 
-<p>A  continuación se  detallan  los  campos  que  componen  el  detalle del formulario de  <em>Documentos   Kárdex:</em></p>
+<p>A  continuación se  detallan  los  campos  que  componen  el  detalle del formulario de  <em>Documentos Kárdex:</em></p>
 
 <p><strong>Almacén:</strong> Se muestra el Almacén desde el cual se moverán los  Materiales  o Repuestos relacionados en el Documento de Kárdex. No es modificable por el usuario una vez el documento se haya creado.</p>
 
@@ -691,7 +824,7 @@ function searchResults(form) {
 <p><strong>Comentarios:</strong>  En  este  campo  se   pueden   agregar   observaciones  e   información complementaria  del Documento de  Kárdex.</p>
 
                         
-                            <div class="share uk-text-center uk-margin-medium-top">
+                            <div class="share uk-text-center uk-margin-medium-top no-print">
     
         <a class="uk-link-muted" href="https://twitter.com/intent/tweet?text=Conceptos Básicos sobre el Kárdex de Almacén&url=http://localhost:4000/docs/05_02_basic_concepts/&via=&related=" rel="nofollow" target="_blank" title="Compartir en Twitter" onclick="window.open(this.href, 'twitter', 'width=550,height=235');return false;"><span data-uk-icon="icon: twitter; ratio: 1.2"></span></a>
     
@@ -771,7 +904,7 @@ function searchResults(form) {
 
   
   
-    <div class="uk-margin-large-top paginate-post">
+    <div class="uk-margin-large-top paginate-post no-print">
         <div class="uk-child-width-expand@s uk-grid-large uk-pagi" data-uk-grid>
             <div>
                 
@@ -796,7 +929,7 @@ function searchResults(form) {
     
 
 
-                    <div class="uk-margin-large-top">
+                    <div class="uk-margin-large-top no-print">
     <h3>Temas relacionados</h3>
 
     
@@ -896,6 +1029,7 @@ function searchResults(form) {
 
 
                     
+
                 </article>
 
                 <script>
@@ -907,7 +1041,7 @@ function searchResults(form) {
                 </script>
 
             </div>
-
+        </div>
     </div>
 </div>
 
@@ -985,7 +1119,7 @@ function searchResults(form) {
         
           
           
-          <li class=""><a href="/docs/03_04_parts_list/"></a></li>
+          <li class=""><a href="/docs/03_04_parts_list/">Codificación de Activos/Equipos y Generalidades</a></li>
         
           
           
@@ -1086,15 +1220,23 @@ function searchResults(form) {
         
           
           
-          <li class=""><a href="/docs/09_03_analysis_and_generation/">Análisis y Generación de Órdenes de Trabajo Programadas</a></li>
+          <li class=""><a href="/docs/09_03_basic_concepts_analysis_and_generation/">Conceptos Básicos Análisis y Generación de Órdenes de Trabajo Programadas</a></li>
         
           
           
-          <li class=""><a href="/docs/09_04_main_window/">Ventana Principal de Órdenes de Trabajo</a></li>
+          <li class=""><a href="/docs/09_04_main_window/">Ventana Principal</a></li>
         
           
           
-          <li class=""><a href=""></a></li>
+          <li class=""><a href="/docs/09_05_partial_views/">Vistas Parciales</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/09_06_transactions/">Transacciones</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/09_07_export_and_log_file/">Exportar y Reportes</a></li>
         
         </ul>
         
@@ -1214,7 +1356,7 @@ function searchResults(form) {
         
           
           
-          <li class=""><a href="/docs/15_11_logout/">Exportar Visor de SS/OT</a></li>
+          <li class=""><a href="/docs/15_11_export/">Exportar Visor de SS/OT</a></li>
         
         </ul>
         

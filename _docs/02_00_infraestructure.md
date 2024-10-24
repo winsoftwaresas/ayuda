@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ◼ Infraestructure
-order: 02_00
+order: '02_00'
 ---
 #Infraestructura
 

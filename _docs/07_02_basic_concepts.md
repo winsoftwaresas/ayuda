@@ -5,7 +5,7 @@ subtitle: En este modulo se encontrará la explicacion sobre el las generalidade
 tags:
   - setup
 author: win
-order: 07_02
+order: '07_02'
 date: 2022-08-29T15:46:20.800Z
 ---
 

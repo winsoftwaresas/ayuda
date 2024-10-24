@@ -11,8 +11,8 @@
 <meta property="og:title" content="◼ Stoppages - Failures, Damages and Breakdowns" />
 <meta name="author" content="WIN Software" />
 <meta property="og:locale" content="es" />
-<meta name="description" content="Activo/EquipoActivo/Equipo— layout: page title: ◼ Stoppages - Failures, Damages and Breakdowns order: 08_00 — Paros: Fallas, Daños y Averías ( FDA)" />
-<meta property="og:description" content="Activo/EquipoActivo/Equipo— layout: page title: ◼ Stoppages - Failures, Damages and Breakdowns order: 08_00 — Paros: Fallas, Daños y Averías ( FDA)" />
+<meta name="description" content="Paros: Fallas, Daños y Averías ( FDA)" />
+<meta property="og:description" content="Paros: Fallas, Daños y Averías ( FDA)" />
 <link rel="canonical" href="http://localhost:4000/docs/08_00_stoppages/" />
 <meta property="og:url" content="http://localhost:4000/docs/08_00_stoppages/" />
 <meta property="og:site_name" content="AM" />
@@ -21,7 +21,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="◼ Stoppages - Failures, Damages and Breakdowns" />
 <script type="application/ld+json">
-{"headline":"◼ Stoppages - Failures, Damages and Breakdowns","dateModified":"2022-08-29T14:51:11-05:00","datePublished":"2022-08-29T14:51:11-05:00","author":{"@type":"Person","name":"WIN Software"},"@type":"BlogPosting","description":"Activo/EquipoActivo/Equipo— layout: page title: ◼ Stoppages - Failures, Damages and Breakdowns order: 08_00 — Paros: Fallas, Daños y Averías ( FDA)","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/winsoftware_logo.svg"},"name":"WIN Software"},"url":"http://localhost:4000/docs/08_00_stoppages/","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/docs/08_00_stoppages/"},"@context":"https://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/docs/08_00_stoppages/"},"author":{"@type":"Person","name":"WIN Software"},"@type":"BlogPosting","description":"Paros: Fallas, Daños y Averías ( FDA)","url":"http://localhost:4000/docs/08_00_stoppages/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/winsoftware_logo.svg"},"name":"WIN Software"},"headline":"◼ Stoppages - Failures, Damages and Breakdowns","dateModified":"2022-08-29T14:51:11-05:00","datePublished":"2022-08-29T14:51:11-05:00","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <meta property="og:image" content="http://localhost:4000/uploads/winsoftware_logo.svg"/>
@@ -31,6 +31,8 @@
   <link rel="alternate" type="application/rss+xml" title="AM" href="/feed.xml">
   <script src="//code.iconify.design/1/1.0.6/iconify.min.js"></script>
   <script src="/assets/js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+  <link rel="stylesheet" href="/assets/css/print.css">
   
     <script>
 function searchResults(form) {
@@ -133,12 +135,27 @@ function searchResults(form) {
   <!-- Hook head -->
   
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const images = document.querySelectorAll('img');
+        images.forEach(img => {
+          if (!img.hasAttribute('crossorigin')) {
+            img.setAttribute('crossorigin', 'anonymous');
+          }
+          // Convertir URLs absolutas locales a relativas
+          if (img.src.startsWith('http://localhost:4000')) {
+            img.src = img.src.replace('http://localhost:4000', '');
+          }
+        });
+      });
+    </script>
 <script src="http://127.0.0.1:35729/livereload.js"></script></head>
 
     <body>
 
     
-        <div data-uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent; top: 200">
+        <div data-uk-sticky="no-print animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent; top: 200">
     <nav class="uk-navbar-container">
         <div class="uk-container">
             <div data-uk-navbar>
@@ -242,375 +259,16 @@ function searchResults(form) {
 
     
 
-    <div class="uk-section">
-    <div class="uk-container">
-        <div class="uk-grid-large" data-uk-grid>
-
-            <div class="sidebar-fixed-width uk-visible@m">
-                <div class="sidebar-docs uk-position-fixed uk-margin-top">
-                    
-                    <h5>Trabajando con AM</h5>
-                    <ul class="uk-nav uk-nav-default doc-nav">
-                    
-                      
-                      
-                      <li class=""><a href="/docs/01_01_introduction/">Introducción</a></li>
-                    
-                      
-                      
-                      <li class=""><a href="/docs/01_02_first_look/">Un vistazo a AM</a></li>
-                    
-                      
-                      
-                      <li class=""><a href="/docs/01_03_user_interface/">Interfaz de Usuario</a></li>
-                    
-                      
-                      
-                      <li class=""><a href="/docs/01_04_concurrence/">Concurrencia en AM</a></li>
-                    
-                      
-                      
-                      <li class=""><a href="/docs/01_05_summary/">Resumen</a></li>
-                    
-                    </ul>
-                    
-                    <h5>Infraestructura</h5>
-                    <ul class="uk-nav uk-nav-default doc-nav">
-                    
-                      
-                      
-                      <li class=""><a href="/docs/02_01_introduction/">Introducción</a></li>
-                    
-                      
-                      
-                      <li class=""><a href="/docs/02_02_basic_concept/">Conceptos Básicos sobre la Infraestructura</a></li>
-                    
-                      
-                      
-                      <li class=""><a href="/docs/02_03_tables/">Tablas de Infraestructura</a></li>
-                    
-                      
-                      
-                      <li class=""><a href="/docs/02_04_export/">Exportar</a></li>
-                    
-                      
-                      
-                      <li class=""><a href="/docs/02_05_services/">Servicios</a></li>
-                    
-                    </ul>
-                    
-                    <h5>Activos</h5>
-                    <ul class="uk-nav uk-nav-default doc-nav">
-                    
-                      
-                      
-                      <li class=""><a href="/docs/03_01_introduction/">Introducción</a></li>
-                    
-                      
-                      
-                      <li class=""><a href="/docs/03_02_basic_concepts/">Conceptos Básicos sobre Activos/Equipos</a></li>
-                    
-                      
-                      
-                      <li class=""><a href="/docs/03_03_data_sheet/">Ficha Técnica</a></li>
-                    
-                      
-                      
-                      <li class=""><a href="/docs/03_04_parts_list/"></a></li>
-                    
-                      
-                      
-                      <li class=""><a href=""></a></li>
-                    
-                    </ul>
-                    
-                    <h5>Almacenes, Materiales y Repuestos</h5>
-                    <ul class="uk-nav uk-nav-default doc-nav">
-                    
-                      
-                      
-                      <li class=""><a href="/docs/04_01_introduction/">Introducción</a></li>
-                    
-                      
-                      
-                      <li class=""><a href="/docs/04_02_basic_concepts/">Conceptos Básicos sobre Almacenes, Materiales y Repuestos</a></li>
-                    
-                      
-                      
-                      <li class=""><a href="/docs/04_03_spare_coding/">Codificación de Repuestos</a></li>
-                    
-                      
-                      
-                      <li class=""><a href="/docs/04_04_main_window/">Ventana Principal de Almacén de Repuestos</a></li>
-                    
-                    </ul>
-                    
-                    <h5>Kárdex</h5>
-                    <ul class="uk-nav uk-nav-default doc-nav">
-                    
-                      
-                      
-                      <li class=""><a href="/docs/05_01_introduction/">Introducción</a></li>
-                    
-                      
-                      
-                      <li class=""><a href="/docs/05_02_basic_concepts/">Conceptos Básicos sobre el Kárdex de Almacén</a></li>
-                    
-                      
-                      
-                      <li class=""><a href="/docs/05_03_movements/">Movimientos de Kárdex</a></li>
-                    
-                      
-                      
-                      <li class=""><a href="/docs/05_04_services/">Servicios</a></li>
-                    
-                    </ul>
-                    
-                    <h5>Solicitudes de Servicio</h5>
-                    <ul class="uk-nav uk-nav-default doc-nav">
-                    
-                      
-                      
-                      <li class=""><a href="/docs/07_01_introduction/">Introducción</a></li>
-                    
-                      
-                      
-                      <li class=""><a href="/docs/07_02_basic_concepts/">Conceptos Básicos sobre Solicitudes de Servicio</a></li>
-                    
-                      
-                      
-                      <li class=""><a href="/docs/07_03_services/">Servicios</a></li>
-                    
-                    </ul>
-                    
-                    <h5>Paros</h5>
-                    <ul class="uk-nav uk-nav-default doc-nav">
-                    
-                      
-                      
-                      <li class=""><a href="/docs/08_01_introduction/">Introducción</a></li>
-                    
-                      
-                      
-                      <li class=""><a href="/docs/08_02_basic_concepts/">Conceptos Básicos sobre Paros / Averías</a></li>
-                    
-                      
-                      
-                      <li class=""><a href="/docs/08_03_creation/">Creación de Paros</a></li>
-                    
-                      
-                      
-                      <li class=""><a href="/docs/08_04_tracking_and_closing/">Seguimiento y Cierre de Paros / Averías</a></li>
-                    
-                    </ul>
-                    
-                    <h5>Órdenes de Trabajo</h5>
-                    <ul class="uk-nav uk-nav-default doc-nav">
-                    
-                      
-                      
-                      <li class=""><a href="/docs/09_01_introduction/">Introducción</a></li>
-                    
-                      
-                      
-                      <li class=""><a href="/docs/09_02_basic_concepts/">Conceptos Básicos sobre Órdenes de Trabajo</a></li>
-                    
-                      
-                      
-                      <li class=""><a href="/docs/09_03_analysis_and_generation/">Análisis y Generación de Órdenes de Trabajo Programadas</a></li>
-                    
-                      
-                      
-                      <li class=""><a href="/docs/09_04_main_window/">Ventana Principal de Órdenes de Trabajo</a></li>
-                    
-                      
-                      
-                      <li class=""><a href=""></a></li>
-                    
-                    </ul>
-                    
-                    <h5>Historia de mantenimiento</h5>
-                    <ul class="uk-nav uk-nav-default doc-nav">
-                    
-                      
-                      
-                      <li class=""><a href="/docs/10_01_introduction/">Introducción</a></li>
-                    
-                      
-                      
-                      <li class=""><a href="/docs/10_02_basic_concepts/">Conceptos Básicos</a></li>
-                    
-                      
-                      
-                      <li class=""><a href="/docs/10_03_send_to_history/">Enviar a Historia</a></li>
-                    
-                      
-                      
-                      <li class=""><a href="/docs/10_04_main_window/">Ventana Principal</a></li>
-                    
-                      
-                      
-                      <li class=""><a href="/docs/10_05_periodic_management_balance/">Balance Periódico de Gestión</a></li>
-                    
-                    </ul>
-                    
-                    <h5>Programas de mantenimiento</h5>
-                    <ul class="uk-nav uk-nav-default doc-nav">
-                    
-                      
-                      
-                      <li class=""><a href="/docs/11_01_introduction/">Introducción</a></li>
-                    
-                      
-                      
-                      <li class=""><a href="/docs/11_02_basic_concepts/">Conceptos Básicos de Programas de Mantenimiento</a></li>
-                    
-                      
-                      
-                      <li class=""><a href="/docs/11_03_main_window/">Ventana Principal de Programas de Mantenimiento</a></li>
-                    
-                      
-                      
-                      <li class=""><a href="/docs/11_04_services/">Servicios</a></li>
-                    
-                    </ul>
-                    
-                    <h5>Historia Archivada</h5>
-                    <ul class="uk-nav uk-nav-default doc-nav">
-                    
-                      
-                      
-                      <li class=""><a href="/docs/12_01_introduction/">Introducción</a></li>
-                    
-                      
-                      
-                      <li class=""><a href="/docs/12_02_basic_concepts/">Conceptos Básicos</a></li>
-                    
-                      
-                      
-                      <li class=""><a href="/docs/12_03_main_window/">Ventana Principal</a></li>
-                    
-                      
-                      
-                      <li class=""><a href="/docs/12_04_submenu_window/">Ventana Submenú</a></li>
-                    
-                      
-                      
-                      <li class=""><a href="/docs/12_05_transactions/">Transacciones</a></li>
-                    
-                    </ul>
-                    
-                    <h5>AMsi</h5>
-                    <ul class="uk-nav uk-nav-default doc-nav">
-                    
-                      
-                      
-                      <li class=""><a href="/docs/15_01_working_with_amsi/">Trabajando con AMsi</a></li>
-                    
-                      
-                      
-                      <li class=""><a href="/docs/15_02_ui/">Interfaz de Usuario</a></li>
-                    
-                      
-                      
-                      <li class=""><a href="/docs/15_03_update_profile/">Actualizar Perfil</a></li>
-                    
-                      
-                      
-                      <li class=""><a href="/docs/15_04_create_a_new_request/">Crear Nueva Solicitud</a></li>
-                    
-                      
-                      
-                      <li class=""><a href="/docs/15_05_request_consulting/">Consultar Mis Solicitudes</a></li>
-                    
-                      
-                      
-                      <li class=""><a href="/docs/15_06_request_evaluation/">Evaluar Servicio</a></li>
-                    
-                      
-                      
-                      <li class=""><a href="/docs/15_07_create_a_new_order/">Crear Nueva Orden</a></li>
-                    
-                      
-                      
-                      <li class=""><a href="/docs/15_08_orders_consulting/">Consultar Mis Órdenes</a></li>
-                    
-                      
-                      
-                      <li class=""><a href="/docs/15_09_amsi_administration_access/">Acceso Administración AMsi</a></li>
-                    
-                      
-                      
-                      <li class=""><a href="/docs/15_10_user_settings/">Configuración de Usuarios</a></li>
-                    
-                      
-                      
-                      <li class=""><a href="/docs/15_11_logout/">Exportar Visor de SS/OT</a></li>
-                    
-                    </ul>
-                    
-                    <h5>AMovil</h5>
-                    <ul class="uk-nav uk-nav-default doc-nav">
-                    
-                      
-                      
-                      <li class=""><a href="/docs/16_01_basic_concepts/">Conceptos Básicos</a></li>
-                    
-                      
-                      
-                      <li class=""><a href="/docs/16_02_assets/">Activos</a></li>
-                    
-                      
-                      
-                      <li class=""><a href="/docs/16_03_warehouse/">Almacén</a></li>
-                    
-                      
-                      
-                      <li class=""><a href="/docs/16_04_requests/">Solicitudes</a></li>
-                    
-                      
-                      
-                      <li class=""><a href="/docs/16_05_orders/">Ordenes</a></li>
-                    
-                    </ul>
-                    
-                </div>
-            </div>
-
-            <div class="uk-width-1-1 uk-width-expand@m">
-
-                <article class="uk-article">
-
-                    <h1 class="uk-article-title">◼ Stoppages - Failures, Damages and Breakdowns</h1>
-
-                    
-
-                    <div class="uk-article-meta uk-margin-top uk-margin-medium-bottom uk-flex uk-flex-middle">
-                        
-
-
-  
-  <img class="uk-border-circle avatar" src="http://localhost:4000/uploads/winsoftware.png" alt="WIN Software">
-
-
-<div>
-  
-    Escrito por <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">WIN Software</span></span><br>
-  
-  <time datetime="2022-08-29T14:51:11-05:00" itemprop="datePublished">
     
-    Aug 29, 2022
-  </time>
-</div>
-                    </div>
+<div class="uk-section">
+    <div class="uk-container">
 
-                    <div class="article-content link-primary">
-                        <p>Activo/EquipoActivo/Equipo—
-layout: page
-title: ◼ Stoppages - Failures, Damages and Breakdowns
-order: 08_00
-—</p>
-<h1 id="paros-fallas-daños-y-averías--fda">Paros: Fallas, Daños y Averías ( <strong>FDA</strong>)</h1>
+        <article class="uk-article">
+
+            <h1 class="uk-article-title">◼ Stoppages - Failures, Damages and Breakdowns</h1>
+
+            <div class="article-content link-primary">
+                <h1 id="paros-fallas-daños-y-averías--fda">Paros: Fallas, Daños y Averías ( <strong>FDA</strong>)</h1>
 
 <ul>
   <li>¿Qué es un Paro o  <strong>FDA</strong>?.</li>
@@ -944,931 +602,9 @@ abrir.</p>
 
 <p>Adicionalmente, es posible exportar todos los campos de la ventana Detalle de los Paros y Averías, para esto se da clic en el cuadro llamado <strong>“Exportar Todas Las Columnas”</strong>. También, es posible exportar uno o varios campos de la ventana Detalle de los Paros y Averías, para esto se da clic en cada uno de los cuadros que acompañan los campos.</p>
 
-                        
-                            <div class="share uk-text-center uk-margin-medium-top">
-    
-        <a class="uk-link-muted" href="https://twitter.com/intent/tweet?text=◼ Stoppages - Failures, Damages and Breakdowns&url=http://localhost:4000/docs/08_00_stoppages/&via=&related=" rel="nofollow" target="_blank" title="Compartir en Twitter" onclick="window.open(this.href, 'twitter', 'width=550,height=235');return false;"><span data-uk-icon="icon: twitter; ratio: 1.2"></span></a>
-    
-    
-        <a class="uk-link-muted uk-margin-small-left" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fdocs%2F08_00_stoppages%2F" rel="nofollow" target="_blank" title="Compartir en Facebook" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;"><span data-uk-icon="icon: facebook; ratio: 1.2"></span></a>
-    
-</div>
-                        
-                    </div>
-
-                    <!-- Hook post content doc -->
-
-                    <hr class="uk-margin-medium">
-
-                    
-
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-
-
-                    <div class="uk-margin-large-top">
-    <h3>Temas relacionados</h3>
-
-    
-    
-    
-
-    <ul class="uk-list link-secondary">
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-    </ul>
-</div>
-
-
-                    
-                </article>
-
-                <script>
-                    // Table of contents scroll to
-                    UIkit.scroll('#markdown-toc a', {
-                        duration: 400,
-                        offset: 120
-                    });
-                </script>
-
             </div>
+
+        </article>
 
     </div>
 </div>
@@ -1947,7 +683,7 @@ abrir.</p>
         
           
           
-          <li class=""><a href="/docs/03_04_parts_list/"></a></li>
+          <li class=""><a href="/docs/03_04_parts_list/">Codificación de Activos/Equipos y Generalidades</a></li>
         
           
           
@@ -2048,15 +784,23 @@ abrir.</p>
         
           
           
-          <li class=""><a href="/docs/09_03_analysis_and_generation/">Análisis y Generación de Órdenes de Trabajo Programadas</a></li>
+          <li class=""><a href="/docs/09_03_basic_concepts_analysis_and_generation/">Conceptos Básicos Análisis y Generación de Órdenes de Trabajo Programadas</a></li>
         
           
           
-          <li class=""><a href="/docs/09_04_main_window/">Ventana Principal de Órdenes de Trabajo</a></li>
+          <li class=""><a href="/docs/09_04_main_window/">Ventana Principal</a></li>
         
           
           
-          <li class=""><a href=""></a></li>
+          <li class=""><a href="/docs/09_05_partial_views/">Vistas Parciales</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/09_06_transactions/">Transacciones</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/09_07_export_and_log_file/">Exportar y Reportes</a></li>
         
         </ul>
         
@@ -2176,7 +920,7 @@ abrir.</p>
         
           
           
-          <li class=""><a href="/docs/15_11_logout/">Exportar Visor de SS/OT</a></li>
+          <li class=""><a href="/docs/15_11_export/">Exportar Visor de SS/OT</a></li>
         
         </ul>
         
@@ -2301,9 +1045,60 @@ abrir.</p>
 
 
     
+        <footer class="uk-section uk-text-center uk-text-muted">
+    <div class="uk-container uk-container-small">
+
+        <div>
+            <ul class="uk-subnav uk-flex-center">
+                
+            </ul>
+        </div>
+        <div class="uk-margin-medium">
+            <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-flex-center uk-grid">
+                
+<div class="uk-first-column">
+    <a href="https://twitter.com/winsoftware_am" data-uk-icon="icon: twitter" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+<div>
+    <a href="https://www.facebook.com/winsoftwaream/" data-uk-icon="icon: facebook" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+
+
+<div>
+    <a href="https://co.linkedin.com/in/win-software-s-a-s-122b7952" data-uk-icon="icon: linkedin" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+
+
+
+<div>
+    <a href="https://winsoftware.com.co/" data-uk-icon="icon: link" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+            </div>
+        </div>
+        <div class="uk-margin-medium uk-text-small copyright link-secondary" style="display: flex; justify-content: space-between; align-items: center;">
+            <span>Made by <a href="https://winsoftware.com.co/">WIN Software</a>.</span>
+            <span>
+              <a href="/pdf/AM%20-%20v1.3.pdf" class="uk-link-text">Descargar PDF</a>
+            </span>
+        </div>
+
+    </div>
+</footer>
 
     
-        <!-- Hook preclosing body doc -->
+
     
 
     <!-- Hook preclosing body -->

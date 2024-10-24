@@ -9,7 +9,7 @@ title:              AM
 description:        Centro de ayuda.
 lang:               es
 company:            Win Software SAS
-version:            1.3
+version:            '1.3'
 
 # Site subpath, e.g. /blog
 baseurl:            ""
@@ -34,7 +34,7 @@ navbar:
 author:
     name:           WIN Software
     title:          Support team  
-    avatar:         winsoftware.png
+    avatar:         winsoftwarex36.png
 
 # Author settings, displayed on post and doc pages if front matter references author name e.g. author: peter
 authors:
@@ -65,7 +65,7 @@ authors:
     win:
       name:         WIN Software
       title:        Company     
-      avatar:       winsoftware.png
+      avatar:       winsoftwarex36.png
 
 # Social icons displayed in footer
 social:
@@ -127,6 +127,13 @@ exclude:
   - node_modules
   - package.json
   - package-lock.json
+  - README.md
+  - generate-pdfs.js
+  - Version 81
+  - _components
+
+include:
+  - pdf
 
 # Destination
 destination:        docs/

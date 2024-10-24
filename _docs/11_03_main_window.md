@@ -4,7 +4,7 @@ subtitle: Aquí puede encontrar el ejemplo visual de cómo crear un Programa de 
 tags:
   - setup
 author: win
-order: 11_03
+order: '11_03'
 date: 2022-05-27T15:27:44.518Z
 ---
 ![Procesar imagen](../../assets/images/cap06/chp06_img01.png)
@@ -413,7 +413,7 @@ A continuación se describen los campos que componen esta ventana de informació
 
 Al accionar el botón <a class="btn cl-blue bg-gray px-6"> Adicionar Acción Técnica </a> se habilita el conjunto de Acciones definidas por mantenimiento desde la tabla de infraestructura correspondiente.
 
-Las Acciones Técnicas se seleccionan de la lista desplegable y se adicionan con el botón <span class="mdi mdi-plus-circle icon bg-gray cl-blue "></span>:
+Las Acciones Técnicas se seleccionan de la lista desplegable y se adicionan con el botón <span class="mdi mdi-plus-circle icon bg-gray cl-blue"></span>:
 
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img23_03.png)
 _**Imagen 26.** Programas - Adicionar Acciones Técnicas_

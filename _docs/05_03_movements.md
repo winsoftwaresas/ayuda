@@ -3,7 +3,7 @@ title: Movimientos de Kárdex
 subtitle:  Explicación de comandos y demás características de los movimientos de Kárdex
 tags: [setup]
 author: win
-order: 05_03
+order: '05_03'
 ---
 # Ventana Detalle Movimientos de Kárdex
 

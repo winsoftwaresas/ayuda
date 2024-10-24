@@ -5,7 +5,7 @@ tags:
   - AMsi
   - Crear Orden en AMsi
 author: win
-order: 15_07
+order: '15_07'
 date: 2022-06-21T22:09:41.972Z
 ---
 Se suministra información detallada del formulario Servicio Solicitado. Dicha información, especifica claramente el servicio solicitado, así como también el Centro de Servicio responsable de atender la OT.

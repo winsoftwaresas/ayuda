@@ -1,12 +1,8 @@
 ---
-order: 08_00
-title: ◼ Stoppages - Failures, Damages and Breakdowns
-date: 2022-08-29T19:51:11.459Z
----
-Activo/EquipoActivo/Equipo---
 layout: page
 title: ◼ Stoppages - Failures, Damages and Breakdowns
-order: 08_00
+date: 2022-08-29T19:51:11.459Z
+order: '08_00'
 ---
 # Paros: Fallas, Daños y Averías ( **FDA**)
 

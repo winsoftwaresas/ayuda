@@ -3,7 +3,7 @@ title: Conceptos Básicos sobre Órdenes de Trabajo
 subtitle: En este módulo están disponibles para consulta y toma de decisiones todas las Órdenes de Trabajo activas.
 tags: [setup]
 author: win
-order: 09_02
+order: '09_02'
 ---
 # Conceptos Básicos sobre Órdenes de Trabajo
 

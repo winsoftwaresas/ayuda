@@ -4,7 +4,7 @@ subtitle: Se explica cómo exportar el visor y sacar reportes.
 tags:
   - setup
 author: win
-order: 09_07
+order: '09_07'
 date: 2022-02-10T14:45:29.041Z
 ---
 

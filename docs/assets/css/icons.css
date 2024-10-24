@@ -2,7 +2,7 @@
 
 .icon {
     position: relative;
-    display: inline-block;
+    display: inline;
     box-sizing: border-box;
     border: none;
     border-radius: 2px;
@@ -40,6 +40,18 @@
 .icon.gray::before {
     color: rgb(185, 185, 185) !important;
     background-color: rgb(255, 255, 255) !important;
+}
+
+.icon.cl-white::before {
+    color: rgb(255, 255, 255) !important;
+}
+
+.icon.cl-blue::before {
+    color: rgb(11, 138, 217) !important;
+}
+
+.icon.cl-gray::before {
+    color: rgb(185, 185, 185) !important;
 }
 
 /* #endregion icons */

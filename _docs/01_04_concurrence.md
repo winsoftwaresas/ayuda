@@ -2,7 +2,7 @@
 title: Concurrencia en AM
 subtitle: En esta sección se sugiere un enfoque de implementación y se habla sobre la concurrencia en AM.
 author: win
-order: 01_04
+order: '01_04'
 ---
 Es importante tener en cuenta que en **AM**, un mismo usuario no puede iniciar sesión simultáneamente en dos computadores diferentes.
 

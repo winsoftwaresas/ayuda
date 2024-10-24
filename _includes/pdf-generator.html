@@ -5,8 +5,26 @@ document.addEventListener('DOMContentLoaded', function() {
   const generatePdfButton = document.getElementById('generatePdf');
   const doc_version = "Version {{ site.version }}";
   const company = "{{ site.company }}";
+  const version_dir = "v{{ site.version | replace: 'Version ', '' }}";
 
-  generatePdfButton.addEventListener('click', function() {
+  generatePdfButton.addEventListener('click', async function() {
+    const pdfFilename = '{{ page.slug }}.pdf';
+    const pdfPath = `/pdf/${version_dir}/${pdfFilename}`;
+
+    // Verificar si el PDF ya existe
+    try {
+      const response = await fetch(pdfPath, { method: 'HEAD' });
+      if (response.ok) {
+        // El PDF existe, descargarlo directamente
+        UIkit.notification({message: '<span uk-icon=\'icon: download\' class=\'uk-text-primary\'></span> Descargando PDF existente...', status: 'primary', pos: 'top-center', timeout: 3000});
+        window.open(pdfPath, '_blank');
+        return;
+      }
+    } catch (error) {
+      console.log('El PDF no existe, se generará uno nuevo.');
+    }
+
+    // Si llegamos aquí, el PDF no existe y necesitamos generarlo
     const element = document.querySelector('.uk-article');
     const elementsToHide = document.querySelectorAll('.no-print');
     
@@ -14,10 +32,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const options = {
       margin: [20, 20, 20, 20], // top, left, bottom, right
-      filename: '{{ page.title | slugify }}.pdf',
+      filename: pdfFilename,
       image: { type: 'jpeg', quality: 0.98 },
-      html2canvas: { scale: 2 },
-      jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
+      html2canvas: { scale: 2, scrollY: 0, useCORS: true },
+      jsPDF: { unit: 'mm', format: 'letter', orientation: 'portrait' },
       pagebreak: { mode: ['avoid-all', 'css', 'legacy']}
     };
 
@@ -25,31 +43,63 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Clonar el elemento para no modificar el original
     const clonedElement = element.cloneNode(true);
+    const sections = Array.from(clonedElement.children);
 
-    html2pdf().set(options).from(clonedElement).toPdf().get('pdf').then((pdf) => {
+    try {
+      let pdf;
+      if (sections.length > 5) {
+        let worker = html2pdf().set(options);
+
+        const processInBatches = async () => {
+          const batchSize = 5;
+          for (let i = 0; i < sections.length; i += batchSize) {
+            const batchElement = document.createElement('div');
+            const batchSections = sections.slice(i, i + batchSize);
+            batchSections.forEach(section => batchElement.appendChild(section.cloneNode(true)));
+            await worker.from(batchElement).toContainer().toCanvas().toPdf().get('pdf').then((pdfResult) => {
+              if (!pdf) {
+                pdf = pdfResult;
+              } else {
+                const pdfPages = pdfResult.internal.pages;
+                pdfPages.shift(); // Remove the first blank page
+                pdfPages.forEach(page => pdf.addPage().addPage(page));
+              }
+              if (i + batchSize < sections.length) {
+                pdf.addPage();
+              }
+            });
+          }
+        };
+        await processInBatches();
+      } else {
+        pdf = await html2pdf().set(options).from(clonedElement).toPdf().get('pdf');
+      }
+
       const totalPages = pdf.internal.getNumberOfPages();
 
       for (let i = 1; i <= totalPages; i++) {
         pdf.setPage(i);
         pdf.setFontSize(10);
         pdf.setTextColor(150);
-        pdf.text(`${document.title}`, 22, 12)
-        pdf.text(`${doc_version}`, pdf.internal.pageSize.getWidth() - 37, 12)
+        pdf.text(`${document.title}`, 22, 12);
+        pdf.text(`${doc_version}`, pdf.internal.pageSize.getWidth() - 37, 12);
         pdf.line(22, 16, pdf.internal.pageSize.getWidth() - 20 , 16);
-        pdf.line(22,pdf.internal.pageSize.getHeight() - 16, pdf.internal.pageSize.getWidth() - 20 , pdf.internal.pageSize.getHeight() - 16);
+        pdf.line(22, pdf.internal.pageSize.getHeight() - 16, pdf.internal.pageSize.getWidth() - 20 , pdf.internal.pageSize.getHeight() - 16);
         pdf.text(`${company}`, 22, pdf.internal.pageSize.getHeight() - 10);
         pdf.text(`${i} / ${totalPages}`, pdf.internal.pageSize.getWidth() - 26, pdf.internal.pageSize.getHeight() - 10);
       }
-    }).save().then(() => {
+
+      await pdf.save(options.filename);
+
       UIkit.notification.closeAll();
       UIkit.notification({message: '<span uk-icon=\'icon: check\' class=\'uk-text-success\'></span> PDF generado con éxito!', status: 'success', pos: 'top-center', timeout: 3000});
-      elementsToHide.forEach(el => el.classList.remove('hide-in-pdf'));
-    }).catch(err => {
+    } catch (err) {
       console.error('Error al generar PDF:', err);
       UIkit.notification.closeAll();
       UIkit.notification({message: '<span uk-icon=\'icon: warning\' class=\'uk-text-danger\'></span> Error al generar PDF. Por favor, intente de nuevo.', status: 'danger', pos: 'top-center', timeout: 3000});
+    } finally {
       elementsToHide.forEach(el => el.classList.remove('hide-in-pdf'));
-    });
+    }
   });
 });
 </script>

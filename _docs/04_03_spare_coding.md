@@ -4,7 +4,7 @@ subtitle: Pautas básicas para codificar repuestos.
 tags:
   - setup
 author: win
-order: 04_03
+order: '04_03'
 date: 2022-11-08T21:57:32.639Z
 ---
 

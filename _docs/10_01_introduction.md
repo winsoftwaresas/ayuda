@@ -3,7 +3,7 @@ title: Introducción
 subtitle: En este capitulo se da respuesta a todas las preguntas generadas de la seccion Historia de Mantenimiento.
 tags: [setup]
 author: win
-order: 10_01
+order: '10_01'
 ---
 # Historia de Mantenimiento (HM)
 

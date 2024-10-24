@@ -2,7 +2,7 @@
 title: Generalidades
 subtitle: El manejo de AM se facilita en gran medida siguiendo los procedimientos básicos que se explican a continuación.
 author: win
-order: 01_05
+order: '01_05'
 ---
 Los siguientes procedimientos permiten implementar el programa, organizando la estructura de datos en una forma lógica y simple, sin importar la complejidad propia del área de Mantenimiento o de las funciones administrativas, técnicas u operativas que realice.
 

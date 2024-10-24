@@ -3,7 +3,7 @@ title: Ficha Técnica
 subtitle: Aqui se encuentra la definición de ficha técnica y la información general que la compone.
 tags: [setup]
 author: win
-order: 03_03
+order: '03_03'
 ---
 
 La Ficha Técnica de un Activo/Equipo es el conjunto de información que lo define como un Activo de la empresa y también como un Objeto de Mantenimiento.  Como activo de la empresa se define información relacionada a su Número de Activo o Número de Inventario, lo relacionado con el Centro de Costo al que presta sus servicios y su respectivo Responsable, además de sus fechas y costos de compra.

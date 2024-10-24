@@ -3,7 +3,7 @@ title: Introducción
 subtitle: Este capitulo da respuesta y orientación al funcionamiento y el uso del módulo de Órdenes de Trabajo.
 tags: [setup]
 author: win
-order: 09_01
+order: '09_01'
 ---
 # Órdenes de Trabajo
 

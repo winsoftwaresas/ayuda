@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ◼ History
-order: 10_00
+order: '10_00'
 ---
 # Historia de Mantenimiento
 

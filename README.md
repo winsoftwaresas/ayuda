@@ -75,6 +75,23 @@ Enable live browser reload with the following:
 bundle exec jekyll s --livereload
 ```
 
+## Crear PDF de cada publicación
+
+1. Ingresa al proyecto en VSCode
+2. Abre la terminal `Ctrl + ñ`
+2. Invoca el siguiente comando para iniciar el proyecto local
+```bash
+bundle exec jekyll serve
+```
+3. Abre una nueva terminal `Ctrl + Shift + ñ`
+4. Invoca el siguiente comando para iniciar el proceso de creación de PDFs
+```bash
+npm run pdf
+```
+5. Espera a que el proceso culmine y verifica los archivos generados en el directorio `pdf/`
+
+> Ten presente que se genera un directorio exclusivo para cada versión del sitio. La versión se modifica en el archivo `_config.yml`. De igual manera se crea un archivo final con todo el contenido del manual que se encuentra en el directorio `pdf/AM - v[#]`. Este archivo lo puedes compartir con los usuarios ya que contiene todo el sitio en PDF.
+
 ## Credits and Sources
 
 - Google analytics https://www.google.com/analytics/

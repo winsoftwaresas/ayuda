@@ -3,7 +3,7 @@ title: Un vistazo a AM
 subtitle: Esta sección ayuda a entender el programa AM (Administrador de Mantenimiento) y a implementarlo para lograr la satisfacción de las necesidades de administración del mantenimiento de los activos en su empresa.
 tags: [setup]
 author: win
-order: 01_02
+order: '01_02'
 ---
 Al analizar la ventana principal se aprecia cómo el sistema está conformado por las siguientes funciones, que componen el menú principal.
 

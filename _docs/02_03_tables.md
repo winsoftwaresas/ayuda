@@ -3,7 +3,7 @@ title: Tablas de Infraestructura
 subtitle: Aquí se aclara el uso y las opciones de las tablas de infraestructura del sistema AM.
 tags: [setup]
 author: win
-order: 02_03
+order: '02_03'
 ---
 
 ## Centros de Costo
@@ -1151,8 +1151,7 @@ En la ventana anterior, las Acciones Técnicas se seleccionan de la lista despeg
 
 Para desasociar una Acción Técnica de un Efecto de Falla, se da clic en la Acción a desasociar y se presiona el icono de basura <span class="mdi mdi-delete"></span>.
 
->_**Nota:** Es importante tener en cuenta que las asociaciones y desasociaciones solo surten efecto al Actualizar o guardar el Efecto de Falla._
-
+> _**Nota:** Es importante tener en cuenta que las asociaciones y desasociaciones solo surten efecto al Actualizar o guardar el Efecto de Falla._
 
 ## Conceptos de Kárdex
 

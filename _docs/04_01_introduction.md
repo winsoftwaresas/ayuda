@@ -4,7 +4,7 @@ subtitle: Este capítulo especifica que es y para que sirven los Almacenes, Mate
 tags:
   - setup
 author: win
-order: 04_01
+order: '04_01'
 date: 2022-03-22T21:20:48.991Z
 ---
 

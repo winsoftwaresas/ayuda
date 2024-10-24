@@ -3,7 +3,7 @@ title:  Introducción
 subtitle: Este capítulo habla de los Fallos, Daños o Averías y manejo en el sistema.
 tags: [setup]
 author: win
-order: 08_01
+order: '08_01'
 ---
 # Paros: Fallas, Daños y Averías ( **FDA**)
 

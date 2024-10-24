@@ -6,7 +6,7 @@ tags:
   - Crear usuarios en AMsi
   - Asociar centros de costos/compañías en AMsi
 author: win
-order: 15_10
+order: '15_10'
 date: 2022-07-19T13:18:26.117Z
 ---
 Se orienta al Administrador en la creación y actualización de datos del Usuario, además de la asociación de uno, varios o todos los centros de costo de una o varias compañías, para que los usuarios solicitantes puedan crear SS y/o OT desde **AMsi**. Se hace de igual forma una ilustración sobre los comandos que aparecen en pantalla.
