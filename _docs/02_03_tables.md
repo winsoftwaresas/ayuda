@@ -223,6 +223,8 @@ A continuación se describen los campos que componen el registro, sobre cada cam
 **Valor Hora 3:** En este campo se registra el valor de la Hora Dominical o Festiva del Oficio referido.
 
 
+>**Nota:** Los oficio o espeacialidades relacionados un Centro Responsable de Tipo Eterno, no se definen ya que por lo general éstos cobran por hora o por visita.
+
 ## Terceros
 
 Almacena la información de cuatro tipos diferentes de entes terceros relacionados con el sistema.
@@ -368,7 +370,7 @@ Si se desea desasociar un Técnico, se debe dar clic al icono de <span class="md
 
 ### Indicadores
 
-Es posible visualizar de manera inmediata, los Terceros habitados e inhabilitados, directamente desde la ventana visor, a través de la columna **“Indicadores”** que muestra una pelota de color que indica su estado. El significado del color de cada pelota, se puede ver en el recuadro de Indicadores  ubicado en la parte superior derecha de la ventana visor, como se muestra a continuación: 
+Es posible visualizar de manera inmediata, los Terceros habitados e inhabilitados, directamente desde la ventana visor, a través de la columna **“Indicadores”** que muestra una pelota de color que indica su estado. El significado del color de cada pelota, se puede ver en el recuadro de Indicadores ubicado en la parte superior derecha de la ventana visor, como se muestra a continuación: 
 
 ![Procesar imagen](../../assets/images/cap02/chp02_img06.png)
 _**Imagen 25.** Indicadores Terceros_
@@ -391,7 +393,7 @@ Cada criterio trabaja en conjunto con los demás, con el operador intersección.
 
 Cada criterio aparece inicializado en un valor global que permite mostrar **todos** los Terceros. Lo que significa que de no escoger un criterio se obtiene como resultado  del subgrupo el mismo conjunto completo de todos los Terceros.
 
-El programa permite hacer selección de un grupo de Terceros de acuerdo con los criterios seleccionados en la siguiente ventana:
+El programa permite hacer selección de un grupo de Terceros de acuerdo con los criterios seleccionados en la siguiente ventana, pueden combinarse con el fin de tener resultados de búsquedas mas exactas.
 
 ![Procesar imagen ](../../assets/images/cap02/chp02_img08.png)
 _**Imagen 27.** Ventana Subgrupo Terceros_
@@ -400,50 +402,50 @@ Los campos de datos que constituyen los criterios de selección son los siguient
 
 **Centro de Costo:** Se elige de la lista el Centro de Costo al que pertenece el Tercero.
 
-**Centro Responsable:** Lista los centros responsables registrados en el sistema.
+**Centro Responsable:** Lista los centros responsables registrados en el sistema, como se muestra en la siguiente imagen:
 
 ![Procesar imagen ](../../assets/images/cap02/chp02_img09.png)
 _**Imagen 28.** Subgrupo Criterio Centro Responsable_
 
-También se puede elegir el centro responsable o un grupo de centros responsables mediante el uso de comodines, para ello, se debe dar clic al icono <span class="mdi mdi-lock-open-outline"></span>. Ejemplo, si se escribe %adm%, el sistema entiende que debe seleccionar aquellos Terceros cuyo centro responsable tenga incluida la secuencia **“adm”**.
+También se puede buscar un centro responsable o un grupo mediante el uso de comodines, para ello, se debe accionar el ícono <span class="mdi mdi-lock"></span>. Luego, si se ingresa %adm%, el sistema entiende que debe seleccionar aquellos Terceros cuyo centro responsable tenga incluida la secuencia **“adm”**.
 
 **Ciudad:** Permite la selección de la ciudad donde se encuentre un Tercero.
 
 **Código:** Esta selección agrupa los Terceros relacionados por su código. Por ejemplo: si se escribe 98%, el sistema localiza aquellos Terceros cuyo código empieza por 98. El porcentaje a continuación, es un carácter comodín que significa **“todos”**.
 
-**Tipo:** Filtra los Terceros de Tipo Responsable Interno, Responsable Externo, Proveedor/Fabricante u Otro, al dar clic en uno o algunos de los cuadros de selección.
+**Tipo:** Filtra los Terceros de Tipo Responsable Interno, Responsable Externo, Proveedor/Fabricante u Otro, al dar clic en uno o algunos de los cuadros de selección o hacer una combinación entre ellos.
 
 ![Procesar imagen](../../assets/images/cap02/chp02_img10.png)
 _**Imagen 29.** Subgrupo Criterio Tipo_
 
 **Contacto:** Permite la selección de los Terceros que tengan un contacto asociado, ya sea el mismo nombre del Tercero o el nombre de la persona representante de la empresa.
 
-**Estado:** Permite la selección de los Terceros de acuerdo al estado de Activo o Inactivo. El estado de los Terceros es importante para la selección en las listas  desplegables. Por ejemplo: Si un Tercero de tipo RI, tiene definido el Estado **“Inactivo”**, este no aparecerá en la lista de los Responsables de la OT.
+**Estado:** Permite la selección de los Terceros de acuerdo al estado de Activo o Inactivo. El estado de los Terceros es importante para la selección en las listas  desplegables. Por ejemplo: Si un Tercero de tipo RI, tiene definido el Estado **“Inactivo”**, no aparecerá en la lista de los Responsables para asignar en una Órden de Trabajo.
 
-**Nombre:** Selecciona los Terceros según criterios basados en su Nombre. Ejemplo: **%Manuel%**  selecciona todos los Terceros en cuyo nombre, en cualquier parte, tengan la palabra **“Manuel”**.
+**Nombre:** Selecciona los Terceros según Nombre. Ejemplo: **%Manuel%**  selecciona todos los Terceros en cuyo nombre, en cualquier parte, tengan la palabra **“Manuel”**.
 
 **Oficio:** Muestra los Terceros que tengan asignados el Oficio seleccionado.
 
 ![Procesar imagen ](../../assets/images/cap02/chp02_img11.png)
 _**Imagen 30.** Subgrupo Criterio Oficio_
 
-De igual forma, se puede elegir el oficio mediante la opción utilizar comodines, para ello, se debe dar clic al icono <span class="mdi mdi-lock-open-outline"></span>. Esta selección agrupa los Terceros relacionados por su oficio. Por ejemplo: si se escribe ayudante%, el sistema localiza aquellos Terceros cuyo oficio empieza por la palabra **“ayudante”**.
+De igual forma, se puede elegir el oficio mediante la opción utilizar comodines, para ello, se debe dar clic al icono <span class="mdi mdi-lock"></span>. Esta selección agrupa los Terceros relacionados por su oficio. Por ejemplo: si se escribe ayudante%, el sistema localiza aquellos Terceros cuyo oficio empieza por la palabra **“ayudante”**.
 
-> **Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además, es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber realizado una selección es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección se da un clic al botón <a class="btn white">Mas <span class="mdi mdi-plus-circle"></span></a> , en lugar de darlo al botón <a class="btn white">aceptar <span class="mdi mdi-check-circle"></span></a>.
+> **Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además, es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber realizado una búsqueda, es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección se acciona el botón <a class="btn white">MAS <span class="mdi mdi-plus-circle"></span></a> , en lugar de darlo al botón <a class="btn white">ACEPTAR <span class="mdi mdi-check-circle"></span></a>.
 
 
 ## Responsables
 
-Aquí se registran automáticamente los nombres propios de las personas definidas para cada Oficio o los nombres o razones sociales de los Talleres/Servicios Externos o Contratistas, definidos  para  cada grupo o Especialidad. 
+Esta es una tabla de consulta que se crea automáticamente de la tabla de **Terceros** con los nombres propios de las personas definidas para cada Oficio o los nombres de razones sociales de los Talleres/Servicios Externos o Contratistas, definidos  para  cada grupo o Especialidad. En esta tabla solo se modifica el estado de un Tercero asociado a su Oficio, y en la que se excluyen los Terceros tipo **PF**, ya que éstos no prestan servicio de mantenimiento y es la que usa el módulo de <a class="btn cl-white bg-blue px-6"> Órdenes </a> para sociar los Responsables.
 
-Se visualiza la información sobre cada Empleado o Taller o Contratista.
+Se visualiza la siguiente información relevante del registro o Tercero cuando se ingresa a alguno de los ellos así:
 
 ![Procesar imagen](../../assets/images/cap02/chp02_img47.png)
 _**Imagen 31.** Ventana Detalle Responsable_
 
-En la gráfica anterior, Ventana Detalle del Responsable, se aprecian sus componentes y  sus respectivos contenidos. Se encuentra la información relevante al Responsable seleccionado en el Visor.
+En la gráfica anterior, Ventana Detalle del Responsable, se encuentra la información relevante al Responsable seleccionado en el Visor.
 
-A continuación se describen los campos que componen el registro, sobre cada campo se da una breve explicación:
+A continuación se describen brevemente los campos que componen el registro:
 
 **Centro Responsable:** En este campo se muestra el Centro Responsable asociado al Responsable.
 
@@ -452,6 +454,9 @@ A continuación se describen los campos que componen el registro, sobre cada cam
 **Código TE:** En este campo se muestra el código del Tercero  definido en su tabla. De esta forma se establece la relación entre el Responsable y su Oficio, y mediante este último con el Centro Responsable.
 
 **Nombre TE:** En este campo se muestra el nombre del Tercero definido en su tabla.
+
+- **Inactivo/Activo:** se trata de un switche en el sistema en el que se puede inactivar un Tercero asociado a un Oficio para indicar que no presta mas servicio dentro de la Organización. Esto se debe inactivar en conjunto con la tabla **Terceros** para dar de baja completamente a un Tercero para que no aparezca mas en los listados de Responsables ejecutores a asignar en una SS, OT o PA.
+
 
 **Tipo TE:** En este campo se muestra el tipo del Tercero definido en su tabla.
 
@@ -467,9 +472,9 @@ A continuación se describen los campos que componen el registro, sobre cada cam
 
 ## Ubicaciones Físicas
 
-Es la lista de las áreas físicas que conforman el **“Layout”** de la planta de producción (Industria, Manufactura) o de la planta de servicios (Hoteles, Hospitales, Banca) o simplemente de las facilidades que conforman las instalaciones que son objetos de mantenimiento.
+Es la lista de las áreas físicas  que conforman el **“Layout”** de la planta de producción (Industria, Manufactura) o de la planta de servicios (Hoteles, Hospitales, Banca) o simplemente de las facilidades que conforman las instalaciones que son Objetos de mantenimiento o donde se encuentran los Activos.
 
-El concepto de Ubicaciones Físicas es netamente de geografía, diferenciado completamente del concepto de Activo y de Centro de Costo, además la ubicación física puede estar en forma activa o inactiva dentro de **AM**. En ocasiones un Centro de Costo corresponde a una Ubicación Física pero en muchas otras no es así. De igual forma en ocasiones un Activo/Equipo o unidad funcional caracteriza a la ubicación física pero en muchas otras no. Por esta razón los tres conceptos se definen independientemente en **AM** con la posibilidad de relacionarlos en distintos contextos.
+El concepto de Ubicaciones Físicas es netamente de **geografía**, diferenciado completamente del concepto de Activo y de Centro de Costo, además la ubicación física puede estar en forma activa o inactiva dentro de **AM**. En ocasiones un Centro de Costo corresponde a una Ubicación Física pero en muchas otras no es así. De igual forma en ocasiones un Activo/Equipo o unidad funcional caracteriza a la ubicación física pero en muchas otras no. Por esta razón los tres conceptos se definen independientemente en **AM** con la posibilidad de relacionarlos en distintos contextos.
 
 Para ilustrar mejor este concepto definimos a continuación algunos ejemplos de Ubicaciones Físicas.
 
@@ -491,7 +496,7 @@ Para ilustrar mejor este concepto definimos a continuación algunos ejemplos de 
 - FC-Fundición. Puente Grúa.
 - FC-Fundición. Sostenimiento.
 
-Se recomienda utilizar los nombres de las Ubicaciones Físicas que la cultura  empresarial ha acostumbrado manejar. Existe disponible un espacio de cincuenta caracteres en la descripción de la Ubicación Física. Es posible también mezclar una porción de código y lenguaje natural.
+Se recomienda utilizar los nombres de las Ubicaciones Físicas que la cultura  empresarial ha acostumbrado manejar. Existe disponible un espacio de 60 caracteres en la descripción de la Ubicación Física. Es posible también mezclar una porción de código y lenguaje natural.
 
 En el ejemplo anterior FC es el apócope de una planta en una fábrica. Esta planta a su vez está conformada por varios departamentos de proceso, uno de los cuales es Fundición, que a su vez se compone por varias secciones como Fleje,  Hornos, las Líneas de proceso y la sección de Sostenimiento.
 
