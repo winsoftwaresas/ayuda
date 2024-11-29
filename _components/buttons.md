@@ -356,3 +356,13 @@ mdi-folder-multiple-image
 
 <a class="btn bg-gray cl-black">EXPORTAR</a>
 
+
+<a class="btn cl-w bg-gray black bd-black bg-white px-6"> Seleccionar archivo </a>
+
+
+<a class="btn cl-w bg-gray black bd-black bg-white px-6"> Abrir </a>
+
+
+<span class="mdi mdi-cloud-download icon white"></span>
+
+

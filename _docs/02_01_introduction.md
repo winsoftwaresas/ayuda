@@ -6,7 +6,7 @@ author: win
 order: '02_01'
 ---
 - **¿Que información constituye la Infraestructura ?**.
-- **¿Cuál es cada una de las tablas quela conforman?**.
+- **¿Cuál son cada una de las tablas que la conforman?**.
 - **¿En que secuencia se ingresan?**.
 - **¿Con qué estructura de codificación?**.
 

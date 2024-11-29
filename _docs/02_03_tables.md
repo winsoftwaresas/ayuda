@@ -15,40 +15,40 @@ _**Imagen 1.** Ventana Visor IF Centros de Costo_
 
 Los Centros de Costo se utilizan en **AM** para asociar los cargos, por distintos conceptos de costo de mantenimiento, a las Órdenes de Trabajo. Esta asociación posibilita generar múltiples reportes por actividades, costos o tipos de costos para los distintos Centros de Costo definidos en el sistema.
 
-Es posible usar un Centro de Costo con el objeto de compendiar todos los trabajos relacionados a un Proyecto o a una Inversión. Para este caso se crea un nuevo CC, copiando su definición desde aquel que es el centro del Proyecto y se agrega a continuación, como parte del mismo CC, un número o código identificador del Proyecto o de la Inversión. En adelante toda OT que corresponda a tal Proyecto se asocia al nuevo CC.
+Es posible usar un Centro de Costo con el objeto de compendiar todos los trabajos relacionados a un **Proyecto** o a una **Inversión** . Para este caso se crea un nuevo CC, copiando su definición desde aquel que es el centro del Proyecto y se agrega a continuación, como parte del mismo CC, un número o código identificador del Proyecto o de la Inversión. En adelante toda OT que corresponda a tal Proyecto se asocia al nuevo CC.
 
 En otro contexto, el concepto de Centros de Costo se asocia al concepto de Clientes. Se trata del caso en que una compañía prestadora de servicios de mantenimiento atiende a múltiples clientes y quiere llevar un control detallado de las actividades técnicas ejecutadas y los costos asociados a cada uno de ellos. En este caso el sistema posibilita el registro de datos adicionales sobre el Centro de Costo o Cliente; son ellos el nombre del contacto, su estado, una clasificación y datos generales para su ubicación.
 
 ![Procesar imagen](../../assets/images/cap02/chp02_img28.png)
 _**Imagen 2.** Ventana Detalle IF Centro de Costo_
 
-En la gráfica anterior, Ventana Detalle Centros de Costo, se aprecian sus componentes y sus respectivos contenidos. Se encuentra la información relevante al Centro de Costo seleccionado en el visor.
+En la gráfica anterior, Ventana Detalle Centros de Costo, se encuentra la información relevante al Centro de Costo seleccionado en el visor.
 
 A continuación se describen los campos que componen el registro:
 
 **Código CC:** En este campo se registra el código de cada Centro de Costo. La capacidad del campo es de 40 caracteres alfanuméricos.
 
-**Código Sub CC:** En este campo se registra el Sub CC (si aplica) asociado al Centro de Costo. El Sub CC es un mecanismo para controlar las distintas porciones de costo dentro de un Centro de Costo a manera de cuentas internas.
+**Código Sub CC:** En este campo se registra el Sub Centro de Costo (si aplica) asociado al Centro de Costo. El Sub CC es un mecanismo para controlar las distintas porciones de costo dentro de un Centro de Costo a manera de cuentas internas.
 
 **Descripción CC:** Se usa para escribir el nombre del Centro de Costo. Es posible, a gusto de la empresa usuaria, escribir los nombres de cada Centro de Costo en forma de título: La primera letra de cada nombre en mayúscula y las siguientes en minúsculas,  o todo en mayúsculas. Para la descripción se dispone de 60 caracteres alfanuméricos.
 
 Si el Centro de Costo se refiere a un Cliente, en este campo se define el nombre de la empresa cliente.
 
-**Tipo:** Se elige el tipo del Centro de Costo que aplique. Si el Centro de Costo se refiere a un Centro de Costo interno de la empresa usuaria, se elige el tipo Usuario. Si el Centro de Costo se refiere a un Centro de Costo de Mantenimiento y es interno de la empresa usuaria, se elige el tipo Mantenimiento. Si el Centro de Costo se refiere a un Cliente, se elige el tipo Externo.
+**Tipo:** Se elige el tipo del Centro de Costo que aplique. Si el Centro de Costo se refiere a un Centro de Costo interno de la empresa usuaria, se elige el tipo Usuario. Si el Centro de Costo se refiere a un Centro de Costo de Mantenimiento y es interno de la empresa usuaria, se elige el tipo Mantenimiento. Si el Centro de Costo se refiere a un Cliente externo, se elige el tipo Externo.
 
-**Responsable:** Aquí se define a la persona encargada de la responsabilidad o del manejo del Centro de Costo. Se define el Responsable para los Centros de Costo tipo Usuario y Mantenimiento.
+**Responsable:** Aquí se define a la persona encargada de la responsabilidad o del manejo del Centro de Costo. Se define el Responsable para los Centros de Costo tipo Usuario y Mantenimiento. Si el Centro de Costo es de tipo Usuario, se asocia el Tercero tipo RI-OT, si es un Centro de Costo de tipo Mantenimiento se asocia el Tercero tipo RI.
 
 **Contacto:** Si el Centro de Costo se refiere a un Cliente, aquí se define el nombre de la persona que representa a ese Cliente. Se define el Contacto para los Centros de Costo tipo Externo.
 
 **CC Superior**: En este campo se define el Centro de Costo correspondiente a la jerarquía inmediatamente superior.
 
-**Área/Depto:** Indica el área o departamento al cual pertenece el Centro de Costo respectivo. Si el Centro de Costo se refiere a un Cliente, aquí se define el grupo o sector de industria al que pertenece esa empresa Cliente.
+**Área/Depto:** Indica el área o departamento al cual pertenece el Centro de Costo respectivo. Si el Centro de Costo se refiere a un Cliente externo, aquí se define el grupo o sector de industria al que pertenece esa empresa Cliente.
 
-**Ciudad (Opcional):** Este campo se usa para indicar la ciudad del Área o  Departamento responsable del Centro de Costo. Si el Centro de Costo se refiere a  un Cliente, aquí se define la ciudad de la dirección del Cliente.
+**Ciudad (Opcional):** Este campo se usa para indicar la ciudad del Área o  Departamento responsable del Centro de Costo. Si el Centro de Costo se refiere a  un Cliente externo, aquí se define la ciudad de la dirección del Cliente.
 
-**Dirección (Opcional):** En este campo se diligencia la dirección del Área o  Departamento al que pertenece el Centro  de Costo. Si el Centro de Costo se refiere a un Cliente, aquí se define la dirección del Cliente.
+**Dirección (Opcional):** En este campo se diligencia la dirección del Área o  Departamento al que pertenece el Centro  de Costo. Si el Centro de Costo se refiere a un Cliente externo, aquí se define la dirección del Cliente.
 
-**Teléfono (Opcional):** En él se define el número del teléfono correspondiente al Centro de Costo. Si el Centro de Costo se refiere a un Cliente, aquí se detalla el teléfono del Cliente. Se debe recordar que al escribir un número telefónico los tres primeros dígitos que se escriben corresponden al indicativo de la ciudad. El programa automáticamente escribe estos tres dígitos dentro de un paréntesis. Los siguientes siete dígitos corresponden al número de teléfono y a partir del octavo dígito corresponde al número de la Extensión telefónica (si aplica). El programa automáticamente escribe la palabra Ext.
+**Teléfono (Opcional):** En él se define el número del teléfono correspondiente al Centro de Costo. Si el Centro de Costo se refiere a un Cliente externo, aquí se detalla el teléfono del Cliente. Se debe recordar que al escribir un número telefónico los tres primeros dígitos que se escriben corresponden al indicativo de la ciudad. El programa automáticamente escribe estos tres dígitos dentro de un paréntesis. Los siguientes siete dígitos corresponden al número de teléfono y a partir del octavo dígito corresponde al número de la Extensión telefónica (si aplica). **AM** automáticamente escribe la palabra Ext.
 
 **Correo Electronico:** En este campo se escribe la dirección electrónica del Centro de Costo o del Responsable o Contacto del Centro de Costo.
 
@@ -60,7 +60,8 @@ Si el Centro de Costo se refiere a un Cliente, en este campo se define el nombre
 
 ### Subgrupo Centros de Costo
 
-Se usa para seleccionar grupos de Centros de Costo que cumplen un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al ícono de filtro <span class="mdi mdi-filter-variant"></span> ubicado en la parte superior derecha de la ventana Visor de Centros de Costo.
+Se usa para seleccionar grupos de Centros de Costo que cumplen un conjunto de filtros o criterios. El objetivo de hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al ícono  <span class="mdi mdi-filter-variant"></span> ubicado en la parte superior derecha de la ventana Visor de Centros de Costo.
+
 
 ![Procesar imagen](../../assets/images/cap02/chp02_img29.png)
 _**Imagen 3.** Ventana Visor IF Centros de Costo_
@@ -76,9 +77,9 @@ El programa permite entonces hacer selección de un grupo de Centros de Costo de
 ![Procesar imagen](../../assets/images/cap02/chp02_img30.png)
 _**Imagen 4.** Ventana Subgrupos Centro de Costo_
 
-Los campos de datos que constituyen criterio de selección haciendo parte de la Ventana Subgrupo son los siguientes:
+A continuación se explica brevemente cada criterio que compone el Subgrupo:
 
-**Área/Depto:** Filtra los CC que tengan asignada el área o departamento de la institución ingresada en este campo.
+**Área/Depto:** Filtra los CC que tengan asignada el área o departamento de la institución ingresada en este campo:
 
 ![Procesar imagen](../../assets/images/cap02/chp02_img31.png)
 _**Imagen 5.** Subgrupo Criterio Área/Depto_
@@ -154,9 +155,9 @@ _**Imagen 18.** Subgrupo Criterio Tipo_
 
 ## Centros Responsables
 
-Son los centros especializados, encargados de ejecutar labores de mantenimiento. Se incluyen tanto los Centros Responsables de Mantenimiento propios de la empresa como los externos a ella (Contratistas y Talleres Externos).
+Son los centros especializados, encargados de ejecutar labores de mantenimiento. Se incluyen tanto los Centros Responsables de Mantenimiento propios de la empresa como los externos a ella (Contratistas y Talleres/Servicios Externos).
 
-Se define a través de su código y descripción según costumbre en la empresa. El código tiene un espacio reducido compuesto de trece caracteres; esto debido a la necesidad de asociar posteriormente a cada Centro Responsable el Oficio o Especialidad, o los Oficios o Especialidades que le pertenecen.
+Se define a través de su código y descripción según costumbre en la empresa. El código tiene un espacio reducido compuesto de 13 caracteres; esto debido a la necesidad de asociar posteriormente a cada Centro Responsable el Oficio o Especialidad, o los Oficios o Especialidades que le pertenecen.    
 
 Cuando se trata de los Centros Responsables Internos de la organización existen  varias alternativas de definición:
 
@@ -196,9 +197,9 @@ A continuación se describen los campos que componen el registro, sobre cada uno
 
 ## Oficios
 
-Aquí se definen los Oficios o Cargos Técnicos de mantenimiento que el área de Relaciones Laborales de la empresa tiene registrados dentro de cada Centro Responsable.
+Aquí se definen los Oficios o Cargos Técnicos de mantenimiento (afectados por el factor de prestación social) que el área de Relaciones Laborales de la empresa tiene registrados dentro de cada Centro Responsable.
 
-En otras palabras esta es la tabla en la que se registran los nombres de los Cargos Técnicos de mantenimiento a los que se asocian posteriormente las personas de las áreas de
+En otras palabras esta es la tabla en la que se registran los nombres de los Cargos Técnicos de mantenimiento a los que se asocian posteriormente las personas de las áreas de mantenimiento.
 
 También se definen aquí las especialidades de los Talleres/Servicios Externos o de los Contratistas que prestan servicios de mantenimiento. Ejemplos: Talleres Eléctricos, Talleres Mecánicos, Talleres de Motores y Bombas; Contratistas de Aire Acondicionado, Contratistas de Mecanizado, Contratistas para Instalaciones de Redes, entre otros. Los oficios son requeridos por los Programas de Mantenimiento y las Órdenes de Trabajo.
 
@@ -213,7 +214,7 @@ A continuación se describen los campos que componen el registro, sobre cada cam
 
 **Oficio:** En este campo se definen los diferentes Oficios del personal de mantenimiento propio de la empresa o las Especialidades de los Talleres/Servicios Externos y Contratistas.
 
-**Tipo Trabajo (TT):** Indica el tipo de trabajo al cual está relacionado el Oficio o la especialidad que se está definiendo. Elc (eléctrico), Mec (mecánico), I/E (instrumentación y  electrónica), Otr (otros). Tanto la definición como la abreviatura, de cada Tipo de Trabajo, son configurables para una compañía, desde el módulo de Infraestructura, en la tabla llamada Tipos de Trabajo.
+**Tipo Trabajo (TT):** Indica el tipo de trabajo al cual está relacionado el Oficio o la especialidad que se está definiendo. Elc (eléctrico), Mec (mecánico), I/E    (instrumentación y  electrónica), Otr (otros). Tanto la definición como la abreviatura, de cada Tipo de Trabajo, son configurables para una compañía, desde el módulo de Infraestructura, en la tabla llamada Tipos de Trabajo.
 
 **Valor Hora 1:** En este campo se registra el valor de la Hora Ordinaria del Oficio referido. Es obligatoria definirla para los Oficios que estén relacionados a un Centro Responsable tipo interno.
 
@@ -286,9 +287,18 @@ Cuando se vaya a escribir un número telefónico es importante tener en cuenta q
 
 **Código Sub CC:** Este campo siempre está bloqueado y muestra el Código Sub CC asociado al Centro de Costo elegido.
 
-**Ingreso y Retiro:** En el primer campo se escribe la fecha en la cual se hizo el ingreso del Tercero al sistema. En el segundo se ingresa la fecha de retiro del Tercero.
+**Fecha Ingreso:** Se refiere al registro del ingreso del Tercero al sistema. 
 
-**Comentario:** Aquí se ingresan los comentarios sobre un Centro de Costo o sobre un Cliente, representado por su Centro de Costo o bien para hacer aclaraciones sobre el Tercero.
+
+**Fecha Retiro:** Se refiere al registro de la fecha de retiro del Tercero al sistema. 
+
+**Tipo de Régimen:** Se refiere al conjunto de reglas y normas fiscales que se aplican a un contribuyente (persona física o moral) para determinar cómo debe cumplir con sus obligaciones tributarias, como el pago de impuestos. Dependiendo de la situación del contribuyente (como su tamaño, ingresos, actividad económica, etc.), puede estar sujeto a diferentes tipos de régimen fiscales.
+
+**Autorretenedor:** El término "tercero autorretenedor" hace referencia a una figura que tiene la obligación de retener impuestos a otras personas o entidades en nombre del fisco, y además, autoretenerse los impuestos correspondientes a su propia actividad económica.Esta distinción depende de las normativas fiscales de cada país y del tipo de actividades o régimen fiscal al que esté sujeto el contribuyente.
+
+**Potencial Generador de Garantía:**  Hace referencia un Tercero, normalmente externo, que puede prestar garantía: Es decir, al activar esta opción el sistema crea a esta persona o entidad como un Centro de Costo de tipo **Externo** con el fin de poder asignarse una Órden de Trabajo para ejercer garantía y asumir los costos de la labor y como Responsable ejecutor.
+
+**Comentario:** Aquí se ingresan los comentarios para hacer aclaraciones sobre el Tercero que se ingresa.
 
 ### Certificaciones Terceros
 
@@ -296,7 +306,7 @@ Esta nueva funcionalidad se usa para realizar un seguimiento detallado a los Ter
 
 **Certificaciones Terceros Tipo RI**
 
-A continuación la explicación de las Certificaciones de Terceros tipo RI, cuya finalidad es que el usuario pueda asociar información importante del responsable ejecutor de la institución como hoja de vida, documento, tarjeta profesional, pasantías, cursos, registro Invima, entre otros.
+A continuación, se explica las Certificaciones de Terceros tipo RI, cuya finalidad es que el usuario pueda asociar información importante del responsable ejecutor de la institución como hoja de vida, documento, tarjeta profesional, pasantías, cursos, registro Invima, entre otros.
 
 ![Procesar imagen](../../assets/images/cap02/chp02_img04.png)
 _**Imagen 23.** Certificaciones TE_
@@ -309,20 +319,24 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 **FF Vencimiento:** En este campo se elige la fecha de vencimiento del documento a adjuntar.
 
-**Adjuntar Documentos:** Para adjuntar el documento, se debe dar clic a <a class="btn gray">Seleccionar archivo</a>, se observa que se abre el explorador de archivos, luego debe seleccionarse a través de un doble clic o dando un clic al botón <a class="btn white">Abrir</a>, al lado derecho del campo se observa que se muestra el nombre del archivo adjuntado, para insertar o actualizar los datos en esta tabla se da clic en el botón <a class="btn white">Abrir</a>.
+**Adjuntar Documentos:** Para adjuntar el documento, se debe dar clic a <a class="btn cl-w bg-gray black bd-black bg-white px-6"> Seleccionar archivo </a> , una vez se abra el explorar de archivos debe seleccionar el archivo con un doble clic o dando un clic al botón <a class="btn cl-w bg-gray black bd-black bg-white px-6"> Abrir </a>, al lado derecho del campo se observa que se muestra el nombre del archivo adjunto. Para hacer una actualización repita el proceso.
 
-Para actualizar la información de alguna certificación, se ingresa la nueva información en los campos correspondientes y se termina el proceso con el botón <a class="btn white">Actualizar <span class="mdi mdi-pencil"></span></a>. Si se desea desasociar la información de una certificación de un Técnico, se debe dar clic al icono de <span class="mdi mdi-delete"></span> que está al lado izquierdo del documento anexo, donde se muestra un mensaje de alerta que indica al usuario de sí está seguro de eliminar el registro y se da clic en Aceptar.
+Para actualizar la información de alguna certificación, se ingresa la nueva información en los campos correspondientes y se termina el proceso con el botón <a class="btn blue">ACTUALIZAR <span class="mdi mdi-pencil"></span></a>. Si se desea desasociar la información de una certificación de un Técnico, se debe dar clic al botón <span class="mdi mdi-delete"></span> que está al lado izquierdo del documento anexo, o si se desea descargar o visualizar la información dar clic en <span class="mdi mdi-cloud-download icon white"></span>.
 
 **Certificaciones Terceros Tipo RX**
 
-A continuación la explicación de los Técnicos de Terceros tipo RX, cuya finalidad es que el usuario pueda asociar información importante del responsable ejecutor contratista o servicio externo como hoja de vida, documento, tarjeta profesional, pasantías, cursos, registro Invima, entre otros.
+A continuación la explicación de los Técnicos de Terceros tipo RX, cuya finalidad es que el usuario pueda asociar información importante del contratista o servicio externo como el tecnico responsable ejecutor hoja de vida, documento, tarjeta profesional, pasantías, cursos, registro Invima, entre otros; y que pueda asociar el técnico específico a ejecutar la labor en la Órden de Trabajo.
 
 ![Procesar imagen](../../assets/images/cap02/chp02_img05.png)
 _**Imagen 24.** Técnicos_
 
 En la gráfica anterior, pestaña Técnicos, se aprecian sus componentes y sus respectivos contenidos. En la ventana Detalle de Terceros se  encuentra la información relevante al Técnico del Tercero seleccionado en el Visor.
 
-A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación.
+A continuación se describen los campos que componen el registro. Sobre cada uno se da una breve explicación. Para abrir el formulario debe iniciar dando clic en el botón <a class="btn bg-gray cl-blue">Adicionar Técnico </a>:
+
+
+#### Identificación
+
 
 **Nombre:** En este campo se escribe el nombre propio de la persona que ejecutará las labores de mantenimiento a la institución.
 
@@ -332,19 +346,29 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 **Registro Sanitario Invima:** En este campo se escribe el número del Registro Sanitario Invima de la persona que ejecutará las labores de mantenimiento a la institución actual.
 
-**Requiere Certificación:** Este switche permite que al vencerse cualquier documento de una persona, se asigne una pelota de color rojo o verde, para indicar que se encuentra activo, en la columna **“Habilitado”** de la tabla de Técnicos y en la ventana visor de Terceros. El objetivo es que el usuario pueda enterarse con antelación de los vencimientos de los documentos de las personas que ejecutarán las labores de mantenimiento a la institución.
+**Requiere Certificación:** Este switche permite que al vencerse cualquier documento de una persona, se asigne una pelota de color rojo o verde, para indicar que se encuentra activo, en la columna  **Habilitado** de la tabla de Técnicos y en la ventana visor de **Terceros** en la columna **Indicadores**. El objetivo es que el usuario pueda enterarse con antelación de los vencimientos de los documentos de las personas que ejecutarán las labores de mantenimiento a la institución.
+
+
+#### Certificaciones
 
 **Nombre Certificado:** En este campo se escribe el nombre del documento a adjuntar.
 
 **FF Vencimiento:** En este campo se elige la fecha de vencimiento del documento a adjuntar.
 
-**Adjuntar Documentos:** Para adjuntar el documento, se debe dar clic al botón <a class="btn gray">Seleccionar archivo</a>. Se observa que se abre una ventana para buscar el archivo y se selecciona dando doble clic o clic al botón <a class="btn white">Abrir</a>, al lado derecho del campo se observa que se muestra el nombre del archivo adjuntado, para insertar o actualizar los datos en esta tabla se da clic en el botón Más <span class="mdi mdi-plus-circle icon white"></span> o <a class="btn white">Actualizar Técnico</a>, que solo aplica cuando el registro ya existe. Para finalizar el proceso, en ambos casos, se debe dar clic al botón <a class="btn white">Actualizar <span class="mdi mdi-pencil"></span></a>. 
+**Adjuntar Documentos:** Para adjuntar el documento/certificación, se debe dar clic al botón <a class="btn cl-w bg-gray black bd-black bg-white px-6"> Seleccionar archivo </a>
+. En el explorador de archivos se selecciona dando doble clic sobre el archivo o clic al botón <a class="btn cl-w bg-gray black bd-black bg-white px-6"> Abrir </a>, al lado derecho del campo se muestra el nombre del archivo adjunto. Para insertar los datos en esta tabla se da clic en el botón <span class="mdi mdi-plus-circle icon bg-gray cl-blue "></span> y para actualizar la información de un técnico existente, se debe seleccionar el registro con un clic y luego accionar el botón <a class="btn cl-blue bg-gray px-6"> Actualizar Técnico </a>.
 
-Para registrar un nuevo técnico se da clic en el botón <a class="btn white">Adicionar Técnico</a>, ubicado en la parte inferior izquierda de la tabla Técnicos. Para actualizar la información de alguno de los técnicos, primero se selecciona el técnico en la tabla, se observa que se muestra la información detallada de ese técnico, se procede a actualizar los campos, luego dar clic al botón <a class="btn white">Actualizar Técnico</a> y finalmente terminar el proceso de actualización con el botón <a class="btn white">Actualizar <span class="mdi mdi-pencil"></span></a> de la parte superior izquierda. Si se desea desasociar la información de una certificación de un Técnico, se debe dar clic al icono de <span class="mdi mdi-delete"></span> que está al lado derecho del documento anexo, sale mensaje de alerta que indica al usuario de sí está seguro de eliminar el registro y se da clic en <a class="btn white">Aceptar</a>.
+![Procesar imagen](../../assets/images/cap02/chp02_img05_01.png)
+_**Imagen 26.** Actualizar Técnicos_
+
+Para finalizar el proceso, en ambos casos, se debe dar clic al botón <a class="btn blue">ACTUALIZAR <span class="mdi mdi-pencil"></span></a>. 
+
+Si se desea desasociar un Técnico, se debe dar clic al icono de <span class="mdi mdi-delete"></span> que está al lado derecho del documento anexo, sale mensaje de alerta que indica al usuario de sí está seguro de eliminar el registro y se da clic en <a class="btn cl-w bg-gray bd-gray bg-white px-6"> ACEPTAR </a>.
+
 
 ### Indicadores
 
-Es posible visualizar de manera inmediata, los Terceros habitados e inhabilitados, directamente desde la ventana visor, a través de la columna **“Indicadores”** que muestra una pelota de color que indica su estado. El significado del color de cada pelota, se puede ver en el recuadro de Indicadores  ubicado en la parte superior derecha de la ventana visor, como se muestra a continuación:
+Es posible visualizar de manera inmediata, los Terceros habitados e inhabilitados, directamente desde la ventana visor, a través de la columna **“Indicadores”** que muestra una pelota de color que indica su estado. El significado del color de cada pelota, se puede ver en el recuadro de Indicadores  ubicado en la parte superior derecha de la ventana visor, como se muestra a continuación: 
 
 ![Procesar imagen](../../assets/images/cap02/chp02_img06.png)
 _**Imagen 25.** Indicadores Terceros_
@@ -356,7 +380,7 @@ El significado de los colores se visualiza al sobreponer el mouse en el icono <s
 
 ### Subgrupo Terceros
 
-Se usa para seleccionar grupos de Terceros que cumplen un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al <span class="mdi mdi-filter-variant"></span>, ubicado en la parte superior derecha de la ventana Visor de Terceros.
+Se usa para seleccionar grupos de Terceros que cumplen un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al subgrupo <span class="mdi mdi-filter-variant"></span>, ubicado en la parte superior derecha de la ventana Visor de Terceros.
 
 ![Procesar imagen](../../assets/images/cap02/chp02_img07.png)
 _**Imagen 26.** Subgrupos_
