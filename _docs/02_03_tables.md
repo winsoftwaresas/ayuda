@@ -497,7 +497,7 @@ Para ilustrar mejor este concepto definimos a continuación algunos ejemplos de 
 - FC-Fundición. Sostenimiento.
 
 Se recomienda utilizar los nombres de las Ubicaciones Físicas que la cultura  empresarial ha acostumbrado manejar. Existe disponible un espacio de 60 caracteres en la descripción de la Ubicación Física. Es posible también mezclar una porción de código y lenguaje natural.
-
+ 
 En el ejemplo anterior FC es el apócope de una planta en una fábrica. Esta planta a su vez está conformada por varios departamentos de proceso, uno de los cuales es Fundición, que a su vez se compone por varias secciones como Fleje,  Hornos, las Líneas de proceso y la sección de Sostenimiento.
 
 Cuando la Ubicación Física es un criterio para seleccionar en un subgrupo en Activos o en Órdenes de Trabajo activas o históricas, es posible referenciar una Ubicación Física global, así:
@@ -529,7 +529,7 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 **Estado:** El campo estado se utiliza para definir si la UF actual se encuentra Activa o Inactiva. Este Estado se utiliza para posibilitar o inhabilitar el despliegue de UF en otros contextos (Activos, OT, PM, SS, etc.). De esta forma, una UF inactiva NO aparece al intentar crear Activos, OT u otros.
 
-> _**Nota:** La dirección y la ciudad son campos que son configurados en el módulo de Administración en la transacción Valores por Defecto._
+> _**Nota:** La dirección y la ciudad son campos que son configurados en el módulo de <a class="btn cl-white bg-blue px-6"> Administración </a> en la transacción Valores por Defecto._
 
 ### Subgrupo Ubicaciones Físicas
 
@@ -580,19 +580,19 @@ _**Imagen 39.** Subgrupo UF Criterio Nombre UF_
 
 **Unidad de Medida Área:** Lista las Unidades de Medida registradas en la tabla de Unidades de Medida, se elige una de la lista. 
 
-También se puede elegir la unidad de medida mediante el uso de comodines, para ello, se debe dar clic al icono de candado <span class="mdi mdi-lock"></span>, a continuación este ícono se muestra abierto <span class="mdi mdi-lock-open-outline"></span> y permite escribir. Ejemplo, si se escribe metros%, el sistema entiende que debe seleccionar aquellas UF cuya unidad de medida comience por la palabra **“metros”**. El porcentaje a continuación, es un carácter comodín que significa **“todos”**, como se indica a continuación:
+También se puede elegir la unidad de medida mediante el uso de comodines, para ello, se debe dar clic al icono  <span class="mdi mdi-lock"></span>, a continuación este ícono se muestra abierto <span class="mdi mdi-lock-open-outline"></span> y permite escribir. Ejemplo, si se escribe metros%, el sistema entiende que debe seleccionar aquellas UF cuya unidad de medida comience por la palabra **“metros”**. El porcentaje a continuación, es un carácter comodín que significa **“todos”**, como se indica a continuación:
 
 ![Procesar imagen](../../assets/images/cap02/chp02_img20.png)
 _**Imagen 40.** Subgrupo UF Criterio Unidad de Medida Área_
 
 **Unidad de Medida Capacidad:** Busca las Ubicaciones Físcas que tengan definido este campo. Las Unidades de Medida que se despliegan en la lista están registradas en la tabla de Unidades de Medida. Se elige de la lista la Unidad de Medida deseada.
 
-También se puede elegir la unidad de medida mediante el uso de comodines, para ello, se debe dar clic al icono candado <span class="mdi mdi-lock"></span>, a continuación este ícono se muestra abierto <span class="mdi mdi-lock-open-outline"></span> y permite escribir. Ejemplo, si se escribe la palabra bloques%, el sistema realiza una búsqueda de aquellas UF que en cualquier parte del campo tengan el nombre de la palabra digitada, en este caso, la palabra **“bloques”**, como se muestra a continuación:
+También se puede elegir la unidad de medida mediante el uso de comodines, para ello, se debe dar clic al icono <span class="mdi mdi-lock"></span>, a continuación este ícono se muestra abierto <span class="mdi mdi-lock-open-outline"></span> y permite escribir. Ejemplo, si se escribe la palabra bloques%, el sistema realiza una búsqueda de aquellas UF que en cualquier parte del campo tengan el nombre de la palabra digitada, en este caso, la palabra **“bloques”**, como se muestra a continuación:
 
 ![Procesar imagen](../../assets/images/cap02/chp02_img21.png)
 _**Imagen 41.** Subgrupo UF Criterio Área_
 
-> _**Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos  se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber realizado una selección es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección se da un clic al botón <a class="btn white">Mas <span class="mdi mdi-plus-circle"></span></a> , en lugar de darlo al botón <a class="btn white">aceptar <span class="mdi mdi-check-circle"></span></a>._
+> _**Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos  se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber realizado una selección es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección se acciona el botón <a class="btn white">MAS <span class="mdi mdi-plus-circle"></span></a> , en lugar de accionar el botón <a class="btn white">ACEPTAR <span class="mdi mdi-check-circle"></span></a>._
 
 
 ## Contratos
@@ -616,13 +616,16 @@ La renovación de contratos se realiza utilizando la numeración del contrato an
 ![Procesar Imagen ](../../assets/images/cap02/chp02_img60.png)
 _**Imagen 43.** Ventana Detalle del Contrato_
 
-En la gráfica anterior, Ventana Detalle del Contrato, se aprecian sus componentes y sus respectivos contenidos. Se encuentra la información relevante al Contrato seleccionado en el Visor.
+En la gráfica anterior, Ventana Detalle del Contrato. Se encuentra la información relevante al Contrato seleccionado en el Visor:
 
-A continuación se describen los campos que componen el registro, sobre cada campo se da una breve explicación:
+
+#### Identificación
 
 **Código CN:** En este campo que tiene una capacidad de quince caracteres se registra el número del Contrato. Es posible cambiar el código del contrato sin afectar la asociación existente entre el contrato modificado y otros módulos, y sin obtener mensajes de error por este intento de modificación.
 
 **Descripción:** En este campo se escribe una corta descripción del Contrato que se está definiendo.
+
+<a class="btn cl-black"><span class="mdi mdi-checkbox-blank-outline"> Combustible </span></a>: De marcar esta opción el Contrato se destina al Consumo de Combustibles, esto permite llevar el Control del Gasto del Contrato según las relaciones realizadas en el módulo de Consumo de <a class="btn cl-white bg-blue px-6"> Combustibles </a>.
 
 **Objeto:** En este campo se establece la finalidad del Contrato acordado por las partes.
 
@@ -632,13 +635,27 @@ A continuación se describen los campos que componen el registro, sobre cada cam
 
 **Fecha Fin Vigencia:** En este campo se define la fecha en la que está prevista la terminación de la vigencia del Contrato.
 
+
 **Valor Contrato Año:** En este campo se indica el valor total anual del Contrato. Se habla de Valor Contrato Año refiriéndose a aquellos Contratos que se realizan anualmente, por ejemplo, el mantenimiento anual de los aires acondicionados. En otros  casos se refiere al costo total del contrato durante su vigencia.
 
-**Responsable:** Aquí se registra el nombre propio o la razón social de la persona natural o jurídica que es Responsable, como contratista, del manejo y ejecución del contrato. Los contratistas que se registran en esta tabla deben haber sido creados previamente  en la tabla de Terceros, y su tipo debe ser Responsable Externo / Contratista (RX).
 
-**Centro de Costo:** Para registrar el código correspondiente al Cliente externo al que se le presta servicio a través del Contrato. Este campo no tiene ninguna incidencia en otros casos.
+**Tipo de Contrato:** Se establecen dos tipos:
 
-**Sub CC:** Este campo siempre está bloqueado y muestra el Código Sub CC asociado al Centro de Costo elegido.
+
+- **Se recibe el servicio:** Un tercero externo (RX) presta el servicio como contratista y la compañía recibe el servicio como contratante. Los costos asociados al contrato son la mano de Obra de externa, Materiales/Repuestos y Otros Conceptos de Costo asociados a las Órdenesde Trabajo relacionadas a estos contratos.
+
+- **Se presta el servicio:** Un tercero interno (RI) presta el servicio como contratista y una compañía externa recibe el servicio como contratante. Los costos asociados al contrato son la mano de Obra de Interna, Materiales/Repuestos y Otros Conceptos de Costo asociados a las Órdenes de Trabajo relacionadas a estos contratos.
+
+**Contratante:** Es el nombre de la organización que contrata el servicio. 
+
+**Contratista:** Es el nombre del tercero que presta el servicio.
+
+**Responsable:** Según el tipo de contrato aqui se registra el nombre propio o la razón social de la persona natural o jurídica que es Responsable, como contratista, del manejo y ejecución del contrato. Los contratistas que se registran en esta tabla deben haber sido creados previamente  en la tabla de Terceros, y su tipo debe ser Responsable Externo / Contratista (RX) ó RI (Responsable Interno según el tipo de contrato).
+
+
+**Centro de Costo:** Para registrar el código correspondiente al Cliente externo al que se le presta servicio a través del Contrato. Este campo no tiene ninguna incidencia en otros casos y aplica principalmente cuando es la organización la que presta el servicio.
+
+
 
 **Estado:** Se selecciona el estado del contrato, puede encontrarse Activo o Inactivo.
 
@@ -648,7 +665,7 @@ A continuación se describen los campos que componen el registro, sobre cada cam
 
 **Presupuesto Pendiente por ejecutar:** Muestra cuanto valor le resta a dicho contrato para terminar.
 
-**Gasto Real ejecutado en OT pendientes:** En este campo se muestra el valor total del gasto real en OT cuyo estado se encuentra pendiente.
+**Gasto Real ejecutado en OT pendientes:** En este campo se muestra el valor total del gasto real en las OTs que aún se encuentran en el módulo de <a class="btn cl-white bg-blue px-6"> Órdenes </a>.
 
 ###  Multimedia: Contratos
 
@@ -657,7 +674,6 @@ Esta nueva funcionalidad permite asociar el Contrato de forma digital.
 ![Procesar Imagen](../../assets/images/cap02/chp02_img61.png)
 _**Imagen 44.** Ventana Detalle del Contrato (Multimedia)_
 
-En la gráfica anterior, Porción Multimedia del Contrato, se aprecian sus componentes y sus respectivos contenidos.
 
 A través de la ventana Multimedia se adjunta información adicional al Contrato en cada una de sus carpetas asignadas. Esta opción permite asociar al Contrato, uno o varios documentos, con el  objetivo de facilitar el trabajo a realizar, o guiarlo, o detallarlo minuciosamente. Se aceptan documentos de extensiones .DOC, XLS, PDF, JPG, es decir, de Microsoft Word o Microsoft Excel, Acrobat o Imágenes varias.
 

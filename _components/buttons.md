@@ -330,7 +330,7 @@ almacén :
 <a class="btn bg-white cl-black">Subir Archivo</a>. 
 
 
-mdi-folder-multiple-image
+
 
 <span class="mdi mdi-folder-multiple-image"></span>
 
@@ -349,6 +349,9 @@ mdi-folder-multiple-image
 
 
 <a class="btn cl-gray"><span class="mdi mdi-checkbox-blank-outline"> Exportar Todos Los Campos </span></a>
+
+
+<a class="btn cl-gray"><span class="mdi mdi-checkbox-blank-outline"> Combustible </span></a>
 
 <a class="btn bg-gray cl-black">CANCELAR</a>
 
