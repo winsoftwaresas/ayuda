@@ -689,27 +689,28 @@ A continuación se describen las carpetas que componen esta ventana; cuando se q
 
 **Videos:** En esta carpeta se relacionan porciones de videos relacionados al Contrato. Ejemplo: Videos en formato wmv, mp4, entre otros.
 
-Para adicionar un documento, imagen o video, se debe dar acceder a la carpeta deseada a través de un doble clic, luego se da clic al icono de nube <span class="mdi mdi-cloud-upload icon white"></span> y a continuación se abre el explorador de archivos, se selecciona el archivo y se da clic en <a class="btn white">abrir</a>, como se muestra a continuación:
+Para adicionar un documento, imagen o video, se debe dar acceder a la carpeta deseada por medio de un doble clic, luego accionar el botón <span class="mdi mdi-cloud-upload icon white"></span> que abre el explorador de archivos. Seleccione el archivo y accione nuevamente en 
+<a class="btn cl-w bg-gray bd-gray bg-white px-6"> Abrir </a>, como se muestra a continuación:
 
 ![Procesar imagen](../../assets/images/cap02/chp02_img62.png)
 _**Imagen 45.** Contrato Porción Multimedia_
 
-Una vez se da clic en <a class="btn white">abrir</a> se evidencia al lado derecho el nombre del archivo elegido y aparece un campo en blanco, para que el usuario escriba un nombre adicional del archivo para ser usado como una referenciación del archivo adjunto. Luego, se da clic en el botón <a class="btn white">Subir archivo</a>.
+Luego,  se evidencia al lado derecho el nombre del archivo elegido y aparece un campo en blanco, para que el usuario escriba un nombre adicional del archivo para ser usado como una referenciación del archivo adjunto. Luego, se da clic en el botón <a class="btn white">Subir archivo</a>.
 
 ![Procesar imagen](../../assets/images/cap02/chp02_img63.png)
 _**Imagen 46.** Adjuntar un Archivo_
 
-Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic en uno de las imágenes, se visualiza la imagen adjunta.
+Los archivos que se van adicionando van quedando guardados uno debajo del otro. Solo los formatos de tipo imagen tienen previsualización dando clic sobre el registro:
 
 ![Procesar imagen](../../assets/images/cap02/chp02_img64.png)
 _**Imagen 47.** Archivo adjunto_
 
-Para desasociar un documento, o una imagen o un video, al Contrato se da clic al ícono de Basura <span class="mdi mdi-delete"></span> que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro y se da clic en el botón <a class="btn white">Aceptar</a>.
+Para desasociar un documento, o una imagen o un video, al Contrato se da clic al ícono <span class="mdi mdi-delete"></span> que se encuentra al lado derecho del archivo al que se le va a realizar la operación. El sistema alerta al usuario antes de ejcutar tal acción y para continuar accionar el botón  <a class="btn cl-black bg-gray bd-gray px-6"> ACEPTAR </a>.
 
 ![Procesar imagen](../../assets/images/cap02/chp02_img65.png)
 _**Imagen 48.** Eliminar un archivo_
 
-Si se desea descargar un archivo adjunto al Contrato, se debe dar clic en el icono de nube con flecha hacia abajo <span class="mdi mdi-cloud-download icon white"></span> que se encuentra al lado derecho del archivo que se quiere descargar, como se muestra a continuación:
+Para descargar un archivo adjunto al Contrato, se debe dar clic en el icono  <span class="mdi mdi-cloud-download icon white"></span> que se encuentra al lado derecho del archivo que se quiere descargar, como se muestra a continuación:
 
 ![Procesar imagen](../../assets/images/cap02/chp02_img66.png)
 _**Imagen 49.** Descargar archivo_
@@ -717,7 +718,7 @@ _**Imagen 49.** Descargar archivo_
 
 ## Tipos de Trabajo (TT)
 
-El Tipo de Trabajo especifica la especialidad o especialidades técnicas: Mecánica, Eléctrica, Instrumentación/Electrónica u Otras requeridas para satisfacer el objetivo de una Órden de Trabajo.
+El Tipo de Trabajo especifica las especialidades técnicas requeridas para cumplir con el objetivo de una Órden de Trabajo. Estas especialidades pueden ser: Mecánica, Eléctrica, Instrumentación/Electrónica u Otras.
 
 ![Procesar imagen](../../assets/images/cap02/chp02_img80.png)
 _**Imagen 50.** Visor Tipos de Trabajo_
@@ -728,15 +729,17 @@ _>**Nota:** Esta tabla no es modificable a no ser que se trate de un usuario que
 
 ## Tipos de Mantenimiento (TM)
 
-Dependiendo de las actividades técnicas a realizar, esta tabla contiene los distintos tipos de Mantenimiento comúnmente aceptados e incluso definidos en la norma ISO 14224.
-Se encuentran tanto aquellos tipos de Mantenimiento que son reactivos, como los correctivos, otros que son proactivos y algunos Otros especiales que dependen de la táctica o estrategia de la organización de Mantenimiento,  WIN Software recomienda no modificar la tabla de Tipos de Mantenimiento. Existe la forma de definir variaciones de los tipos de Mantenimiento y enlazarse con los Tipos de Actividad para lograr combinaciones a la medida.
+
+Dependiendo de las actividades técnicas a realizar, esta tabla presenta los distintos tipos de Mantenimiento comúnmente aceptados y definidos en la norma ISO 14224. En ella se incluyen tanto los tipos de Mantenimiento reactivo y correctivo, como aquellos de enfoque proactivo, así como algunos tipos especiales que dependen de la táctica o estrategia de la organización de Mantenimiento.
+
+WIN Software recomienda no modificar la tabla de Tipos de Mantenimiento. Sin embargo, es posible definir variaciones de estos tipos de Mantenimiento y asociarlas con los Tipos de Actividad, permitiendo así combinaciones personalizadas según las necesidades específicas.
 
 ![Procesar imagen](../../assets/images/cap02/chp02_img81.png)
 _**Imagen 51.** Visor Tipos de Mantenimiento_
 
 ## Tipos de Actividad (TA)
 
-El objetivo de esta tabla es registrar otros Tipos de Actividad. Los Tipos de Actividad  se usan para caracterizar aún más las Órdenes de Trabajo. Algunos  corresponden a Actividades de Mantenimiento como: Correctivo, Preventivo, Preventivo Manual, Predictivo, Inspección, Calibración; pero otros corresponden a actividades que no constituyen mantenimiento formalmente pero sí consumen recursos apreciables de los propios de Mantenimiento: Horas Hombre de Mano de Obra, Materiales y Repuestos y/o Servicios Externos.
+El objetivo de esta tabla es registrar otros Tipos de Actividad. Los Tipos de Actividad  se usan para caracterizar aún más las Órdenes de Trabajo. Algunos  corresponden a Actividades de Mantenimiento como: Correctivo, Preventivo, Preventivo Manual, Predictivo, Inspección, Calibración; pero otros corresponden a actividades que no constituyen mantenimiento formalmente pero sí consumen recursos apreciables de los propios de Mantenimiento: Horas Hombre de Mano de Obra, Materiales y Repuestos y/o Servicios Externos.  
 
 El Tipo de Actividad puede ser un criterio más de selección y de búsqueda, en estudios sobre Órdenes de Trabajo e Historia de Mantenimiento.
 
