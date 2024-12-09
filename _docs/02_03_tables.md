@@ -792,30 +792,30 @@ Donde los dos primeros caracteres significan:
 ![Procesar imagen](../../assets/images/cap02/chp02_img53.png)
 _**Imagen 52.** Ventana Detalle Tipos de Actividad_
 
-En la gráfica anterior, Ventana Detalle del Tipo de Actividad, se aprecian sus componentes y sus respectivos contenidos. Se encuentra la información relevante al Tipo de Actividad seleccionado en el Visor.
+En la gráfica anterior, Ventana Detalle del Tipo de Actividad, se encuentra la información relevante al Tipo de Actividad seleccionado en el Visor.
 
-A continuación se describen los campos que componen el registro, sobre cada campo se da una breve explicación:
+Sobre cada campo se da una breve explicación:
 
-**Nombre TA:** En este campo se registra el Tipo de Actividad. La capacidad  del  campo es de 50 caracteres.
+**Nombre TA:** En este campo se registra el Tipo de Actividad que describa mejor el Tipo de Mantenimiento. La capacidad  del  campo es de 50 caracteres.
 
-**Tipo de Mantenimiento (TM):** Indica el Tipo de Mantenimiento al cual se relaciona el Tipo de Actividad registrado: Preventivo, Preventivo Manual, Predictivo, Inspección, Lubricación, Metrología, Correctivo, Otro-Mantto, Otro.
+**Tipo de Mantenimiento (TM):** Indica el Tipo de Mantenimiento al cual se relaciona el Tipo de Actividad se debe descolgar el campo y elegir uno de los siguientes: Preventivo, Preventivo Manual, Predictivo, Inspección, Lubricación, Metrología, Correctivo, Otro-Mantto, Otro.
 
 ## Almacenes
 
-Es la tabla de Infraestructura en la que se definen los distintos Almacenes, Bodegas o Depósitos de: Materias Primas, Materiales y Repuestos o elementos generales de una organización.
+Es la tabla de Infraestructura en la que se definen los distintos Almacenes, Bodegas o Depósitos de: Materias Primas, Insumos, Materiales y Repuestos o elementos generales de una organización.
 
-El **AM** PRO es un sistema multicompañía y multialmacén, por tanto es posible definir múltiples almacenes en la base de datos para cada compañía.
+**AM** versión PRO es un sistema multicompañía y multialmacén, por tanto es posible definir múltiples almacenes en la base de datos para cada compañía.
 
-El **AM** ST es un sistema monocompañía y multialmacén.
+**AM** versión ST es un sistema monocompañía y multialmacén.
 
 ![Procesar imagen](../../assets/images/cap02/chp02_img22.png)
 _**Imagen 53.** Ventana Detalle IF Almacén_
 
-En la gráfica anterior, Ventana Almacén, se aprecian sus componentes y sus respectivos contenidos. En la ventana Detalle de Almacenes se encuentra la información relevante al Almacén seleccionado en el Visor.
+En la gráfica anterior, Ventana Detalle Almacén, se encuentra la información relevante al Almacén seleccionado en el Visor.
 
 A continuación se describen los campos que componen el registro:
 
-**Código:** Este campo recibe un número de máximo dos dígitos, con el cual se identifica la bodega o Almacén de Equipos o repuestos.
+**Código:** Este campo recibe un número de máximo dos dígitos, asignado automáticamente ppor el sistema con el cual se identifica la bodega o Almacén de Equipos o Repuestos.
 
 **Nombre:** Se define el nombre del Almacén.
 
@@ -833,7 +833,7 @@ Utilizar uno u otro método depende de si el Almacén es contable o no. Se recom
 
 Esta funcionalidad, permitirá a futuro definir si el Almacén seleccionado es Contable, es decir, tendrá una interacción con el sistema contable de la organización la cual generara un costo o factura de venta; y No Contable hace referencia al Almacén que guarda el inventario de Repuestos para simple funcionalidad del sistema **AM**. Por defecto, cuando se crea un almacén el tipo se define con NO CONTABLE.
 
-**Almacén Corporativo:** Este switche indica si el almacén al cual se está haciendo referencia es el corporativo. Cuando se define si es el almacén corporativo, se declara con la palabra **“SI”**, en caso contrario se define con la palabra **“NO”**. Para definir el almacén corporativo se realiza en el módulo de Administración, en la opción de Valores por defecto, en la etiqueta General, existe la opción de **“Almacén corporativo”** con un combo desplegable para escoger cual es el almacén.
+**Almacén Corporativo:** Este switche indica si el almacén al cual se está haciendo referencia es el corporativo. Cuando se define si es el almacén corporativo, se declara con la palabra **“SI”**, en caso contrario se define con la palabra **“NO”**. Para definir el almacén corporativo se realiza en el módulo de <a class="btn cl-white bg-blue px-6"> Administración </a>, en la opción **Valores por defecto**, en la etiqueta Almacén, existe la opción de **“Almacén corporativo”** con un combo desplegable para escoger cual es el almacén.
 
 **Comentario:** Aquí se ingresan los comentarios sobre el Almacén, Centro de Costo o sobre un Cliente, representado por su Centro de Costo.
 
@@ -887,7 +887,7 @@ A continuación se describe el campo que compone el registro:
 
 ## Características
 
-Es una tabla conformada por los nombres de las Características propias de los Activos/Equipos o de los Repuestos, que se utilizan al definir la porción variable de su ficha técnica. En esta tabla sólo se ingresan los nombres de las Características o los parámetros-características de los Activos/Equipos y Repuestos. Se cuenta con 30 dígitos para ingresar la característica deseada.
+Es una tabla conformada por los nombres de las Características propias de los Activos/Equipos  que se utilizan al definir la porción variable de su ficha técnica. En esta tabla sólo se ingresan los nombres de las Características o los parámetros-características de los Activos/Equipos y Repuestos. Se cuenta con 30 dígitos para ingresar la característica deseada.
 
 El valor y las unidades correspondientes a cada Característica se ingresan en la ficha técnica del Activo o del Repuesto.
 
@@ -1052,17 +1052,13 @@ Una vez definidas las Acciones Técnicas, es posible incluir una o varias de ell
 ![Procesar imagen](../../assets/images/cap02/chp02_img55.png)
 _**Imagen 64.** Ventana Detalle Acción Técnica_
 
-En la gráfica anterior, Ventana Detalle de la Acción Técnica, se aprecian sus componentes y sus respectivos contenidos. Se encuentra la información relevante a la Acción Técnica seleccionada en el Visor.
+En la gráfica anterior, Ventana Detalle de la Acción Técnica, se encuentra la información relevante a la Acción Técnica seleccionada en el Visor.
 
 A continuación se describen los campos que componen el registro.
 
 **Nombre:** Este campo tiene capacidad de 80 caracteres y se describe la Acción Técnica.
 
-**Costo Estándar:** En este campo se registra el costo estándar de la Acción Técnica.
-
-**Duración Estándar:** Se define la duración estándar de ejecución de esa Acción Técnica.
-
-**Unidad Estándar:** Se define la unidad de tiempo estándar correspondiente en días, horas y minutos.
+**Unidad Estándar:** Se define la unidad de tiempo estándar correspondiente en dí as, horas y minutos.
 
 
 ## Causas de Falla
@@ -1174,7 +1170,7 @@ A continuación se describen los campos que componen el registro.
 _**Imagen 66.** Ventana Detalle Causa de Falla (Acción Técnica)_
 
 En la ventana anterior Acciones Tecnicas se seleccionan de la lista desplegable y se
-adicionan con el botón del signo Más <span class="mdi mdi-plus-circle icon white"></span>.
+adicionan con el botón del signo <span class="mdi mdi-plus-circle icon bg-gray cl-blue "></span>
 
 Para desasociar una Acción Técnica de una Causa de Falla, se da clic en la Acción a desasociar y se presiona el icono de Eliminar <span class="mdi mdi-delete"></span>.
 
@@ -1195,7 +1191,7 @@ A continuación se describen los campos que componen el registro:
 
 **Acciones Técnicas:** Es posible asociar a cada Efecto de Falla las Acciones Técnicas que más comúnmente se ejecutan como consecuencia de ésta. Como se menciona en las Causas de Falla, las Acciones Técnicas por Efecto pretenden **“Ubicar la Causa”** y las Acciones Técnicas por Causa pretenden **“Solucionar la Causa”**.
 
-En la ventana anterior, las Acciones Técnicas se seleccionan de la lista despegable y se adicionan con el botón Más <span class="mdi mdi-plus-circle icon white"></span>.
+En la ventana anterior, las Acciones Técnicas se seleccionan de la lista despegable y se adicionan con el botón <span class="mdi mdi-plus-circle icon bg-gray cl-blue "></span>.
 
 Para desasociar una Acción Técnica de un Efecto de Falla, se da clic en la Acción a desasociar y se presiona el icono de basura <span class="mdi mdi-delete"></span>.
 
@@ -1251,7 +1247,7 @@ Los campos de datos que constituyen criterio de selección haciendo parte de la 
 
 **Almacén:** Permite filtrar aquellos Conceptos de Kárdex que fueron asociados al almacén seleccionado. Lista los Almacenes creados en la tabla de Almacenes.
 
-_**Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber realizado una selección es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección se da un clic al botón <a class="btn white">Mas <span class="mdi mdi-plus-circle"></span></a>, en lugar de darlo al botón <a class="btn white">aceptar <span class="mdi mdi-check-circle"></span></a>._
+_**Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber realizado una selección es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección se da un clic al botón <a class="btn white">MAS <span class="mdi mdi-plus-circle"></span></a>, en lugar de darlo al botón <a class="btn white">ACEPTAR <span class="mdi mdi-check-circle"></span></a>._
 
 
 
@@ -1325,9 +1321,9 @@ la funcionalidad del sistema, estos son:
 - **EJ** - En ejecución
 - **K** - Cancelada o no Ejecutada
 - **P** – Pendiente de Ejecución
-- **CE**– Cerrada Ejecutada
+- **CE** – Cerrada Ejecutada
 - **PL** – Planeada
-- **PR**– Programada
+- **PR** – Programada
 - **CP** – Cerrada Parcial 
 
 ![Procesar imagen](../../assets/images/cap02/chp02_img75.png)
@@ -1357,3 +1353,30 @@ Existen siete Estados de FDA que no pueden ser eliminados ni modificados dado qu
 
 ![Procesar imagen](../../assets/images/cap02/chp02_img77.png)
 _**Imagen 77.** Ventana Detalle Estado - Paros_
+
+
+
+## Combustibles 
+
+
+Es la tabla donde se pretende hacer el registro o configurar el nombre y el valor de los combustibles de los vehículos o equipos. 
+
+Aplica para cualquier tipo de vehículos que consuman combustible, híbridos, equipos de carretera (maquinaria amarilla) de baja movilidad ó equipos de apoyo industrial de ninguna movibilidad (calderas, plantas de generación de potencia, etc.). Con la finalidad de hacer un control/seguimiento de consumo en el módulo de <a class="btn cl-white bg-blue px-6"> Combustibles </a>.
+
+
+Ingrese dando un clic en la tabla correspondiente, luego accionar el botón <a class="btn cl-blue bg-white px-3"> NUEVO </a> en la siguiente ventana se encuentra el formulario del combustible a registrar, se da una breve explicación de cada campo:
+
+
+
+![Procesar imagen](../assets/images/cap02/chp02_img82.png)
+_**Imagen 78.** Ventana Detalle Combustibles_
+
+
+**Código:** Se refiere al código con el que se identifica el combustible en la organización. Este campo tiene un límite de 10 caracteres.
+
+**Nombre:**  se registra el nombre del combustible, este campo tiene un límite de 40 caracteres. 
+
+
+**Valor:** Aqui se refiere al costo del combustible según la unidad de medida.
+
+**Unidad de Medida:** Es la abreviatura correspondiente a la medición de la magnitud definida. Aqui se despliegan las abreviaturas definidas en la tabla Unidades de Medida. 
