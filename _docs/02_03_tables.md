@@ -1368,7 +1368,7 @@ Ingrese dando un clic en la tabla correspondiente, luego accionar el botón <a c
 
 
 
-![Procesar imagen](../assets/images/cap02/chp02_img82.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img82.png)
 _**Imagen 78.** Ventana Detalle Combustibles_
 
 
