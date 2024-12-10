@@ -16,7 +16,7 @@ _**Imagen 78.** Ventana Exportar_
 
 Al darle clic en el botón Exportar <span class="mdi mdi-download"></span>, se generará un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso, el objetivo de esta exportación es llevar toda la información de los registros contenidos en el visor a un archivo plano, para luego ser analizados.
 
-Adicionalmente, es posible exportar todos los campos de la ventana Detalle de los registros, para esto se da clic en el cuadro llamado <a class="btn white">Exportar Todos Los Campos</a>. También, es posible exportar uno o varios campos de la ventana Detalle de los registros, para esto se da clic en cada uno de los cuadros que acompañan los campos.
+Adicionalmente, es posible exportar todos los campos de la ventana Detalle de los registros, para esto se da clic en el cuadro llamado <a class="btn cl-gray"><span class="mdi mdi-checkbox-blank-outline"> Exportar Todos Los Campos </span></a>. También, es posible exportar uno o varios campos de la ventana Detalle de los registros, para esto se da clic en cada uno de los cuadros que acompañan los campos.
 
 
 
