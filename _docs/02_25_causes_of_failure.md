@@ -4,7 +4,7 @@ subtitle: Se explica la tabla de causas de falla y alcance.
 tags: [setup]
 author: win
 order: '02_25'
-'
+
 ---
 
 Esta tabla de la Infraestructura pretende definir las Causas reales de Falla, que normalmente sólo se detectan a través de una inspección previa.
@@ -118,4 +118,4 @@ adicionan con el botón del signo <span class="mdi mdi-plus-circle icon bg-gray 
 
 Para desasociar una Acción Técnica de una Causa de Falla, se da clic en la Acción a desasociar y se presiona el icono <span class="mdi mdi-delete"></span>.
 
-> **Nota:** Es importante tener en cuenta que las asociaciones y desasociaciones solo surten efecto al Actualizar o guardar la Causa de Falla.
+>**Nota:** Es importante tener en cuenta que las asociaciones y desasociaciones solo surten efecto al Actualizar o guardar la Causa de Falla.
