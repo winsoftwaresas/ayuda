@@ -1,6 +1,6 @@
 ---
-title: Conceptos Básicos sobre la Infraestructura
-subtitle: la infraestructura es un conjunto de archivos y tablas parametrizables que sirven para que AM sea adecuado para la organización de mantenimiento de la empresa y sus características.
+title: Conceptos Básicos 
+subtitle: La infraestructura es un conjunto de tablas parametrizables que sirven para que AM sea adecuado para la organización de mantenimiento de la empresa y sus características.
 tags: [setup]
 author: win
 order: '02_02'

@@ -9,10 +9,40 @@
 - title: Infraestructura
   docs:
   - 02_01_introduction
-  - 02_02_basic_concept
-  - 02_03_tables
-  - 02_04_export
-  - 02_05_services
+  - 02_02_basic_concepts
+  - 02_03_cost_centers
+  - 02_04_responsible_centers
+  - 02_05_technical_roles_trades
+  - 02_06_parties_involved
+  - 02_07_responsibles
+  - 02_08_physical_locations
+  - 02_09_contracts
+  - 02_10_types_of_work
+  - 02_11_types_of_maintenance
+  - 02_12_types_of_activity
+  - 02_13_warehouses
+  - 02_14_units_of_measurement
+  - 02_15_currencies
+  - 02_16_counters
+  - 02_17_characteristics
+  - 02_18_biomedical_characteristics
+  - 02_19_risks
+  - 02_20_magnitudes
+  - 02_21_other_cost_concepts
+  - 02_22_causes_of_pending_work_ordes
+  - 02_23_causes_of_work_order_closure
+  - 02_24_technical_actions
+  - 02_25_causes_of_failure
+  - 02_26_effects_of_failure
+  - 02_27_kardex_concepts
+  - 02_28_operations
+  - 02_29_references
+  - 02_30_types_of_tax_regimes
+  - 02_31_status
+  - 02_32_fuels
+  - 02_33_export
+  - 02_34_services
+
 
 - title: Activos
   docs:

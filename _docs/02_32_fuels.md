@@ -1,0 +1,30 @@
+---
+title: Combustibles
+subtitle: Se explica la tabla de combustibles y su alcance.
+tags: [setup]
+author: win
+order: '02_32'
+
+---
+Es la tabla donde se pretende hacer el registro o configurar el nombre y el valor de los combustibles de los vehículos o equipos. 
+
+Aplica para cualquier tipo de vehículos que consuman combustible, híbridos, equipos de carretera (maquinaria amarilla) de baja movilidad ó equipos de apoyo industrial de ninguna movibilidad (calderas, plantas de generación de potencia, etc.). Con la finalidad de hacer un control/seguimiento de consumo en el módulo de <a class="btn cl-white bg-blue px-6"> Combustibles </a>.
+
+
+Ingrese dando un clic en la tabla correspondiente, luego accionar el botón <a class="btn cl-blue bg-white px-3"> NUEVO </a> en la siguiente ventana se encuentra el formulario del combustible a registrar, se da una breve explicación de cada campo:
+
+
+
+![Procesar imagen](../../assets/images/cap02/chp02_img82.png)
+_**Imagen 78.** Ventana Detalle Combustibles_
+
+
+**Código:** Se refiere al código con el que se identifica el combustible en la organización. Este campo tiene un límite de 10 caracteres.
+
+**Nombre:**  se registra el nombre del combustible, este campo tiene un límite de 40 caracteres. 
+
+
+**Valor:** Aqui se refiere al costo del combustible según la unidad de medida.
+
+**Unidad de Medida:** Es la abreviatura correspondiente a la medición de la magnitud definida. Aqui se despliegan las abreviaturas definidas en la tabla Unidades de Medida. 
+
