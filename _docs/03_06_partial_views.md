@@ -142,7 +142,7 @@ Los que están Inactivos (bien sea No Operativos o Dados de baja temporal o tota
 - Quincena
 - Mes
 
->**Nota:** Para añadir el contador se debe dar clic en el botón <span class="mdi mdi-plus-circle icon bg-gray cl-blue"></span> y luego en <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a> el registro.
+>**Nota:** Para añadir el contador se debe dar clic en el botón <span class="mdi mdi-plus-circle icon bg-gray cl-blue"></span> y luego en <a class="btn blue">ACTUALIZAR <span class="mdi mdi-pencil"></span></a> el registro.
 
 
 **Comentario:** Aquí se ingresan los comentarios sobre un Activo o se especifica información adicional al AC.
@@ -316,7 +316,7 @@ A continuación se describen los campos que componen esta Pestaña:
 
 **Puntos:** Son los ocho puntos de referencia de calibración o de verificación del Activo.
 
-Luego de diligenciar el formulario agregue la magnitud con el botón <span class="mdi mdi-plus-circle icon bg-gray cl-blue "></span>. También es posible actualizar los campos en una magnitud ya agregada, para asentar los cambios en el formulario dar un clic en <a class="btn gray">Actualizar Magnitud</a>. PAra finalizar actualice el registro con el botón ubicado en la parte superior izquierda <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a>.
+Luego de diligenciar el formulario agregue la magnitud con el botón <span class="mdi mdi-plus-circle icon bg-gray cl-blue "></span>. También es posible actualizar los campos en una magnitud ya agregada, para asentar los cambios en el formulario dar un clic en <a class="btn gray">Actualizar Magnitud</a>. PAra finalizar actualice el registro con el botón ubicado en la parte superior izquierda <a class="btn blue">ACTUALIZAR <span class="mdi mdi-pencil"></span></a>.
 
 
 ### INFORMACIÓN BIOMÉDICA
@@ -352,7 +352,7 @@ A continuación se describen los campos que componen esta Pestaña:
 
 **Clasificación Biomédica:** Las opciones disponibles son: Ninguno, Tratamiento y Mantenimiento de la Vida, Rehabilitacion, Prevención, Análisis de Laboratorio y Equipo Industrial de Apoyo Hospitalario.
 
-Una vez diligencie el formulario anterior finalice guardando los cambios con el botón <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a>.
+Una vez diligencie el formulario anterior finalice guardando los cambios con el botón <a class="btn blue">ACTUALIZAR<span class="mdi mdi-pencil"></span></a>.
 
 
 ### MULTIMEDIA
@@ -393,7 +393,7 @@ Para desasociar un documento, o una imagen o un video, al AC se da clic al icono
 
 Si se desea descargar un archivo adjunto al AC, se debe dar clic en el ícono de nube con direccional hacia abajo <span class="mdi mdi-cloud-download icon white"></span> la nube con flecha hacia abajo que se encuentra al lado derecho del archivo que se quiere descargar.
 
->**Nota:** Sólo los formatos de imagen tiene previsualizaicón, es decir, que con sólo dar clic en la imagen adjunta, ésta se visualiza en otra pequeña ventana, sin necesidad de descargarla: ![Procesar imagen](../../assets/images/cap03/chp03_img47.png).
+>**Nota:** Sólo los formatos de imagen tiene previsualizaicón, es decir, que con sólo dar clic en la imagen adjunta, ésta se visualiza en otra pequeña ventana, sin necesidad de descargarla: ![Procesar imagen](../../assets/images/cap03/chp03_img47.png)
 
 
 
