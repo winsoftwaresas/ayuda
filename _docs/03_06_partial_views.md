@@ -393,3 +393,10 @@ Para desasociar un documento, o una imagen o un video, al AC se da clic al icono
 
 Si se desea descargar un archivo adjunto al AC, se debe dar clic en el ícono de nube con direccional hacia abajo <span class="mdi mdi-cloud-download icon white"></span> la nube con flecha hacia abajo que se encuentra al lado derecho del archivo que se quiere descargar.
 
+>**Nota:** Sólo los formatos de imagen tiene previsualizaicón, es decir, que con sólo dar clic en la imagen adjunta, ésta se visualiza en otra pequeña ventana, sin necesidad de descargarla: ![Procesar imagen](../../assets/images/cap03/chp03_img47.png).
+
+
+
+
+
+
