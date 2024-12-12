@@ -92,7 +92,8 @@
   - 09_04_main_window
   - 09_05_partial_views
   - 09_06_transactions
-  - 09_07_export_and_log_file
+  - 09_07_export
+  - 09_08_reports
 
 - title: Historia de mantenimiento
   docs:
