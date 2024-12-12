@@ -41,7 +41,7 @@
   - 02_31_status
   - 02_32_fuels
   - 02_33_export
-  - 02_34_services
+  - 02_34_reports
 
 
 - title: Activos
@@ -50,7 +50,12 @@
   - 03_02_basic_concepts
   - 03_03_data_sheet
   - 03_04_parts_list
-  - 03_05_crossing_assets
+  - 03_05_main_window
+  - 03_06_partial_views
+  - 03_07_transactions
+  - 03_08_export
+  - 03_09_reports
+  
 
 - title: Almacenes, Materiales y Repuestos
   docs:

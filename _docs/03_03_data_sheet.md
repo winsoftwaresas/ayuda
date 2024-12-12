@@ -1,6 +1,6 @@
 ---
 title: Ficha Técnica
-subtitle: Aqui se encuentra la definición de ficha técnica y la información general que la compone.
+subtitle: Aqui se encuentran definiciones generales de ficha técnica y la información general que la compone.
 tags: [setup]
 author: win
 order: '03_03'

@@ -1,5 +1,5 @@
 ---
-title: Servicios
+title: Reportes
 subtitle: Cada tabla de Infraestructura cuenta con el servicio de Reportes, en este contexto y dependiendo de cada tabla hay un reporte disponible.
 tags: [setup]
 author: win
@@ -7,8 +7,6 @@ order: '02_34'
 ---
 
 
-
-## Reportes
 
 Este comando permite visualizar los reportes relacionados con el módulo o la tabla donde se
 encuentre. A esta ventana se llega dando clic al icono de la impresora <span class="mdi mdi-printer"></span> que se encuentra

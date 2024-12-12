@@ -1,6 +1,6 @@
 ---
 title: Conceptos Básicos sobre Activos/Equipos
-subtitle: Un Activo / Equipo es un bien de la organización que contribuye en el objetivo de logro de riqueza de ésta última, y que debe ser atendido y mantenido por el departamento de mantenimiento o sus delegados, para que genere aumento de la capacidad de producción o de servicios y de su demanda.
+subtitle: Generalidades y concepto de un Activo 
 tags: [setup]
 author: win
 order: '03_02'
