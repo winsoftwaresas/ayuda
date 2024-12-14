@@ -8,8 +8,6 @@ order: '09_07'
 ---
 
 
-## Exportar
-
 Esta opción permite exportar los ítems o campos de la ficha técnica de OT, bien sea, para exportar todas los registros de la base de datos o las provenientes de un subgrupo a un archivo de Excel que se descarga automáticamente en la estación cliente.
 Para efectuar este proceso, se da clic en Exportar <span class="mdi mdi-download"></span> mostrando las siguientes opciones de exportación:
 

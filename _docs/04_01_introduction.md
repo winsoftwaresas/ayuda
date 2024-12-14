@@ -5,7 +5,7 @@ tags:
   - setup
 author: win
 order: '04_01'
-date: 2022-03-22T21:20:48.991Z
 ---
 
-Definición,  registro y conceptos básicos de un Almacén o Bodega de Inventario de Repuestos. Materiales y Repuestos, definición, registro, codificación y clasificación. Los procedimientos de administración sobre Materiales y Repuestos. Actualización Manual y Automática de Repuestos. Todo ello conforma el contenido del presente capítulo.   
+El módulo de <a class="btn cl-white bg-blue px-3"> Almacén </a> permite hacer el registro y el seguimiento de todos los ítems de una bodega, con un código único y que mejor represente la estructura organizacional, además de gestionar ágilmente aquellos que son suministros para las Órdenes de Trabajo tanto Manuales como Automáticas provenientes de los Programas de Mantenimiento. En este módulo es posible al igual que los demás, agregar carácterísticas a los ítems, repuestos, accesorios, materiales como en los Activos, asociarlos a ellos y de igual forma agregar multimedia, obtener informes y reportes de inventario. 
+

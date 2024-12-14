@@ -1,6 +1,6 @@
 ---
-title: Codificación de Repuestos
-subtitle: Pautas básicas para codificar repuestos.
+title: Codificación de Materiales/Repuestos
+subtitle: Pautas básicas para codificar los ítems de un almacén.
 tags:
   - setup
 author: win
