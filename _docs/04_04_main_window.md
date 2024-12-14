@@ -5,7 +5,7 @@ tags:
   - setup
 author: win
 order: '04_04'
-date: 2022-11-10T20:17:34.887Z
+
 ---
 
 # Ventana Principal de Almacén de Repuestos
