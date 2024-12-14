@@ -1,5 +1,5 @@
 ---
-title: Conceptos Básicos sobre Almacén
+title: Conceptos Básicos
 subtitle: Definiciones, alcance y generalidades.
 tags:
   - setup

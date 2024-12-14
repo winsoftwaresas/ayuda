@@ -1,5 +1,5 @@
 ---
-title: Codificación de Materiales/Repuestos
+title: Codificación 
 subtitle: Pautas básicas para codificar los ítems de un almacén.
 tags:
   - setup
