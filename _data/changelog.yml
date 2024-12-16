@@ -13,7 +13,7 @@
    - Se configura la validación en Kardex, según la Configuración de la compañía no permita agregar repuestos a Ordenes cuyo Centro de Costo este Inactivo.
    - Se valida según el tipo de rendimiento seleccionado al activo el formulario solicite los Kilómetros recorridos o las Horas trabajadas.
    - Se desarrollan los reportes de Análisis de Consumo según el tipo de rendimiento seleccionado al activo. 
-   - Se adicionan a los campos de Exportación, la consulta si se Realizó la evaluación de Servicio, Si se diligencio Firma Técnico y si diligencio Firma de Recibido en los Modulos de Solicitudes, Ordenes e Historia.
+   - Se adicionan a los campos de Exportación, los campos Si se Realizó la Evaluación de Servicio, Si se diligencio Firma Técnico y si diligencio Firma de Recibido en los Modulos de Solicitudes, Ordenes e Historia.
    - El usuario Administrador podrá elegir una imagen cargada en una Url para las notificaciones por correo.
 
 
