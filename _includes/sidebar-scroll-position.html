@@ -1,0 +1,25 @@
+<script defer>
+document.addEventListener('DOMContentLoaded', function () {
+    // Selecciona el componente offcanvas de UIKit
+    const offcanvas = UIkit.offcanvas('#offcanvas-docs');
+    const sidebar = document.querySelector('#offcanvas-docs .uk-offcanvas-bar');
+
+    if (sidebar) {
+        // Escucha el evento "show" de UIKit cuando se abre el menú lateral
+        offcanvas.$el.addEventListener('show', function () {
+            const activeItem = sidebar.querySelector('.doc-nav .uk-active');
+
+            if (activeItem) {
+                // Desplaza el contenedor para mostrar el elemento activo en el centro del menú
+                const sidebarHeight = sidebar.offsetHeight;
+                const itemOffset = activeItem.offsetTop;
+                const itemHeight = activeItem.offsetHeight;
+
+                // Calcula la posición para centrar el elemento activo
+                const scrollPosition = itemOffset - (sidebarHeight / 2) + (itemHeight / 2);
+                sidebar.scrollTop = Math.max(scrollPosition, 0); // Evita valores negativos
+            }
+        });
+    }
+});
+</script>

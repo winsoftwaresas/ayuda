@@ -523,13 +523,16 @@
     
     .doc-nav > li.uk-active > a {
         position: relative;
+        background-color: #f5f5f5;
+        padding-left: 10px;
+        margin-left: -10px;
         &:before {
             content: "";
             position: absolute;
-            top: 15px;
+            top: 5px;
             left: -14px;
             width: 7px;
-            border-top: 1px solid $global-primary-background;
+            border-top: 20px solid $global-primary-background;
         }
     }
     
