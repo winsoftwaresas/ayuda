@@ -2,7 +2,7 @@
 name: Reporte de Bug
 about: Crea un reporte para ayudarnos a mejorar
 title: "\U0001F41B "
-labels: ''
+labels: bug
 assignees: pizaranha
 
 ---
