@@ -19,6 +19,7 @@ Descripción clara y concisa de lo que quieres que suceda.
 
 Descripción clara y concisa de cualquier solución o función alternativa que hayas considerado.
 
-## Contexto adicional
+## Pasos sugeridos
 
-Agrega aquí cualquier otro contexto sobre la solicitud de función.
+- [ ] 
+- [ ] 
