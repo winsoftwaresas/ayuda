@@ -1,25 +1,46 @@
 <script defer>
-document.addEventListener('DOMContentLoaded', function () {
-    // Selecciona el componente offcanvas de UIKit
-    const offcanvas = UIkit.offcanvas('#offcanvas-docs');
-    const sidebar = document.querySelector('#offcanvas-docs .uk-offcanvas-bar');
-
-    if (sidebar) {
-        // Escucha el evento "show" de UIKit cuando se abre el menú lateral
-        offcanvas.$el.addEventListener('show', function () {
-            const activeItem = sidebar.querySelector('.doc-nav .uk-active');
-
-            if (activeItem) {
-                // Desplaza el contenedor para mostrar el elemento activo en el centro del menú
-                const sidebarHeight = sidebar.offsetHeight;
-                const itemOffset = activeItem.offsetTop;
-                const itemHeight = activeItem.offsetHeight;
-
-                // Calcula la posición para centrar el elemento activo
-                const scrollPosition = itemOffset - (sidebarHeight / 2) + (itemHeight / 2);
-                sidebar.scrollTop = Math.max(scrollPosition, 0); // Evita valores negativos
-            }
-        });
-    }
-});
-</script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Sidebar de escritorio
+        const desktopSidebar = document.querySelector('.sidebar-docs');
+        if (desktopSidebar) {
+            const centerActiveItemDesktop = () => {
+                const activeItem = desktopSidebar.querySelector('.doc-nav .uk-active');
+                if (activeItem) {
+                    const sidebarHeight = desktopSidebar.offsetHeight;
+                    const itemOffset = activeItem.offsetTop;
+                    const itemHeight = activeItem.offsetHeight;
+    
+                    // Calcula la posición para centrar el elemento activo
+                    const scrollPosition = itemOffset - (sidebarHeight / 2) + (itemHeight / 2);
+                    desktopSidebar.scrollTop = Math.max(scrollPosition, 0); // Evita valores negativos
+                }
+            };
+    
+            // Centrar el elemento activo al cargar la página
+            centerActiveItemDesktop();
+        }
+    
+        // Sidebar móvil (UIKit offcanvas)
+        const offcanvas = UIkit.offcanvas('#offcanvas-docs');
+        const mobileSidebar = document.querySelector('#offcanvas-docs .uk-offcanvas-bar');
+    
+        if (mobileSidebar) {
+            const centerActiveItemMobile = () => {
+                const activeItem = mobileSidebar.querySelector('.doc-nav .uk-active');
+                if (activeItem) {
+                    const sidebarHeight = mobileSidebar.offsetHeight;
+                    const itemOffset = activeItem.offsetTop;
+                    const itemHeight = activeItem.offsetHeight;
+    
+                    // Calcula la posición para centrar el elemento activo
+                    const scrollPosition = itemOffset - (sidebarHeight / 2) + (itemHeight / 2);
+                    mobileSidebar.scrollTop = Math.max(scrollPosition, 0); // Evita valores negativos
+                }
+            };
+    
+            // Centrar el elemento activo al abrir el menú móvil
+            offcanvas.$el.addEventListener('show', centerActiveItemMobile);
+        }
+    });
+    </script>
+    
