@@ -517,19 +517,25 @@
     }
     
     ul.doc-nav {
-        padding-left: 14px;
+        padding-left: 19px;
         margin-top: 5px;
     }
     
     .doc-nav > li.uk-active > a {
         position: relative;
-        &:before {
+        background-color: #f5f5f5;
+        color: #333;
+        padding: 10px;
+        margin-left: -10px;
+        font-weight: 500;
+        &::before {
             content: "";
             position: absolute;
-            top: 15px;
-            left: -14px;
-            width: 7px;
-            border-top: 1px solid $global-primary-background;
+            top: 0;
+            left: -10px; /* Ajusta según el espacio necesario */
+            width: 10px; /* Ancho de la línea */
+            height: 100%; /* Asegura que cubra el alto completo del enlace */
+            background-color: $global-primary-background;
         }
     }
     

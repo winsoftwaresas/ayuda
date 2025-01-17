@@ -2,6 +2,14 @@
 
 Desk was developed by [Unbound Studio](https://unbound.studio).
 
+## Editar registro de cambios
+
+[_Changelog](https://github.com/winsoftwaresas/ayuda/tree/main/_changelogs)
+
+## Editar línea de tiempo
+
+[_data/changelog.yml](https://github.com/winsoftwaresas/ayuda/blob/main/_data/changelog.yml)
+
 ## Installation
 
 Install the dependencies with [Bundler](http://bundler.io/):
