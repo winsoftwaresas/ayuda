@@ -19,7 +19,7 @@ Para acceder a esta transacción se requieren permisos correspondientes de **"Ma
 
 Al contar con este permiso se debe sobreponer el cursor,  e la cual se despliega el conjunto de opciones disponibles, luego accionar la transacción **“Modificar Masivamente”.** como se ejemplifica a continuación:
 
-![Procesar imagen](../..assets/images/cap04/chp04_img32.png)
+![Procesar imagen](../../assets/images/cap04/chp04_img32.png)
 _**Imagen 28.** Almacén - Ir a Modificación Masiva_
 
 
