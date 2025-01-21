@@ -140,6 +140,8 @@ published: true
 
 <span class="mdi mdi-plus-circle icon bg-gray cl-blue "></span>
 
+<span class="mdi mdi-autorenew icon bg-gray cl-blue "></span>
+
 <hr>
 
 <a class="btn bg-gray cl-blue"><span class="mdi mdi-plus-circle"></span></a>
@@ -279,6 +281,8 @@ submenú de Activos
 - <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-format-list-bulleted-square"></span> Inventario físico </a> 
 -  <a class="btn cl-black bg-white bd-gray px-4"><span class="iconify cl-black" data-icon="mdi-text-search"></span> Otro</a> 
 - <a class="btn cl-white bg-blue px-6"> Cerrar sesión </a>
+- <a class="btn cl-blue bg-gray px-6"> Adicionar Movimiento </a>
+
 
 -------------------------------------
 
@@ -315,7 +319,9 @@ almacén :
 <span class="mdi mdi-filter-variant icon white"></span>
 
 
-<a class="btn white cl-blue bd-blue"><span class="mdi mdi-chevron-left"> </span></a>
+<a class="btn white cl-blue bd-white"><span class="mdi mdi-chevron-left"> </span></a>
+
+<a class="btn white cl-blue bd-white"><span class="mdi mdi-chevron-right"> </span></a>
 
 
 <a class="btn cl-gray bg-white btn-rounded"><span class="mdi mdi-circle cl-blue pr-1"></span><span class="pr-1">Listado de Acciones Técnicas</span></a>
@@ -340,6 +346,8 @@ almacén :
 <a class="btn blue">INSERTAR <span class="mdi mdi-plus-circle-outline"></span></a>
 
 
+
+
 <a class="btn cl-gray"><span class="mdi mdi-checkbox-blank-outline"> Tiempo Improductivo </span></a>
 
 <a class="btn cl-gray"><span class="mdi mdi-checkbox-blank-outline"> Control Presupuestal </span></a>
@@ -354,6 +362,8 @@ almacén :
 <a class="btn cl-gray"><span class="mdi mdi-checkbox-blank-outline"> Combustible </span></a>
 
 <a class="btn bg-gray cl-black">CANCELAR</a>
+
+<a class="btn bg-gray cl-black">ACEPTAR</a>
 
 <a class="btn bg-gray cl-black">IMPRIMIR</a>
 
@@ -370,3 +380,21 @@ almacén :
 
 
 <a class="btn">Enter <span class="mdi mdi-subdirectory-arrow-left"></span></a>
+
+
+
+<a class="btn cl-blue bg-white px-3"> NUEVO</a>
+
+<span class="mdi mdi-filter-variant"></span> 
+
+<a class="btn white">MAS <span class="mdi mdi-plus-circle"></span></a> 
+
+<a class="btn white">ACEPTAR <span class="mdi mdi-check-circle"></span></a>.
+
+
+<a class="btn white">MENOS <span class="mdi mdi-minus-circle"></span></a>
+
+<a class="btn cl-white bg-blue px-3">Infraestructura</a>
+
+<a class="btn cl-white bg-blue px-3">Administración</a>
+<a class="btn cl-blue bg-gray px-3">Adicionar Movimientos</a>

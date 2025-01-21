@@ -158,9 +158,9 @@ El significado de los colores es el siguiente:
 * **Fucsia:** Indica que son OT que utilizan la interfase para hacer pedidos de materiales/repuestos al almacén del ERP. 
 * **Amarillo:** Son OT que han sido creadas por medio de un API. 
 
-## Subgrupos
+## Subgrupo
 
-Se usa para seleccionar un grupo de OTs que cumplen con un conjunto de criterios o filtros definibles aquí, con el objeto de realizar estudio posterior sobre él. Para ingresar a esta opción se debe dar clic al icono de filtro <span class="mdi mdi-filter-variant"></span> ubicado en la parte superior derecha de la ventana Visor de OT.
+Se usa para seleccionar un grupo de OTs que cumplen con un conjunto de criterios o filtros definibles aquí, con el objeto de realizar estudio posterior sobre él. Para ingresar a esta opción se debe dar clic al icono  <span class="mdi mdi-filter-variant"></span> ubicado en la parte superior derecha de la ventana Visor de OT.
 
 Cada criterio trabaja en conjunto con los demás, con el operador intersección.
 

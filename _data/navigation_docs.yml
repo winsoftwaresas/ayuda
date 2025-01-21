@@ -71,8 +71,10 @@
   docs:
   - 05_01_introduction
   - 05_02_basic_concepts
-  - 05_03_movements
-  - 05_04_services
+  - 05_03_main_window
+  - 05_04_movements
+  - 05_05_export
+  - 05_06_reports
 
 - title: Solicitudes de Servicio
   docs:

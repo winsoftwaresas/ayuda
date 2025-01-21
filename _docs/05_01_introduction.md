@@ -1,6 +1,6 @@
 ---
 title: Introducción
-subtitle: Conceptos y manejo del Kárdex se tratan en el siguiente capítulo.
+subtitle: Temarios del módulo sobre el kárdex de almacén.
 tags: [setup]
 author: win
 order: '05_01'
