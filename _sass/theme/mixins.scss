@@ -10,6 +10,7 @@
 @mixin hook-base-misc(){
     input[type="submit" i]{
         -webkit-appearance:none;
+        appearance:none;
     }
     .link-primary a:not(.lightbox):not(.uk-inline):not(.uk-link-muted):not(.uk-slidenav) {
         transition: all 100ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -320,12 +321,16 @@
         }
 
         figure, .uk-slideshow {
-            margin-top: $global-medium-margin;
-            margin-bottom: $global-medium-margin;
+            margin-top: $global-small-margin;
+            margin-bottom: $global-small-margin;
         }
 
         figure figcaption {
-            margin-bottom: $global-medium-margin * 1.8;
+            margin-bottom: $global-small-margin;
+            margin-top: $padding-small-padding;
+            border-left: 5px solid $global-primary-background;
+            padding-left: $global-small-margin;
+            color: $global-muted-color;
         }
 
         ul:not(#markdown-toc):not(#markdown-toc ul):not(.uk-slideshow-items),

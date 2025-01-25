@@ -36,7 +36,7 @@ $border-xlight:                               #f5f5f5;
 
 // Border radius
 $border-rounded-border-radius:                  5px;
-$border-radius-small:                           8px;
+$border-radius-small:                           4px;
 $border-radius-medium:                          12px;
 $border-radius-large:                           16px;
 
@@ -52,7 +52,7 @@ $base-pre-color:                                $base-code-color;
 $container-xxsmall:                             560px;
 
 // Box shadow
-$global-medium-box-shadow:                      0 5px 15px rgba(0,0,0,0.08);
+$global-medium-box-shadow:                      rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;;
 $global-large-box-shadow:                       0 10px 35px rgba(0,0,0,0.12);
 $global-xlarge-box-shadow:                      0 28px 50px rgba(0,0,0,0.16);
 
