@@ -1,6 +1,6 @@
 ---
 title: Introducción
-subtitle: En este capítulo se da conocer los conceptos de la Solicitud de Servicio y su gestión en AM
+subtitle: En este capítulo se explican los conceptos de la Solicitud de Servicio y su gestión en AM.
 tags:
   - setup
 author: win

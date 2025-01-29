@@ -315,6 +315,7 @@ almacén :
 
 <a class="btn bg-white fs-2"><span class="iconify btn-icon cl-black" data-icon="mdi-filter-variant"></span><span class="dot bg-af-red"></span></a>
 
+<span class="mdi mdi-filter-variant"></span>
 
 <span class="mdi mdi-filter-variant icon white"></span>
 
@@ -356,7 +357,9 @@ almacén :
 <a class="btn cl-gray"><span class="mdi mdi-checkbox-blank-outline"> Acciones Técnicas </span></a>
 
 
-<a class="btn cl-gray"><span class="mdi mdi-checkbox-blank-outline"> Exportar Todos Los Campos </span></a>
+<a class="btn cl-gray"><span class="mdi mdi-checkbox-blank-outline"> Exportar Todos Las Columnas </span></a>
+
+<a class="btn cl-gray"><span class="mdi mdi-checkbox-blank-outline"> Exportar Todass Los Campos </span></a>
 
 
 <a class="btn cl-gray"><span class="mdi mdi-checkbox-blank-outline"> Combustible </span></a>
@@ -369,6 +372,7 @@ almacén :
 
 <a class="btn bg-gray cl-black">EXPORTAR</a>
 
+<a class="btn bg-gray cl-black">DESCARGAR</a>
 
 <a class="btn cl-w bg-gray black bd-black bg-white px-6"> Seleccionar archivo </a>
 
@@ -396,5 +400,46 @@ almacén :
 
 <a class="btn cl-white bg-blue px-3">Infraestructura</a>
 
+<a class="btn cl-white bg-blue px-3">Activos</a>
+
+<a class="btn cl-white bg-blue px-3">Almacén</a>
+
+<a class="btn cl-white bg-blue px-3">Solicitudes</a>
+
+<a class="btn cl-white bg-blue px-3">Órdenes</a>
+
+<a class="btn cl-white bg-blue px-3">Historia</a>
+
+<a class="btn cl-white bg-blue px-3">Combustibles</a>
+
+<a class="btn cl-white bg-blue px-3">Tecnovigilancia</a>
+
 <a class="btn cl-white bg-blue px-3">Administración</a>
 <a class="btn cl-blue bg-gray px-3">Adicionar Movimientos</a>
+
+
+<a class="btn white cl-blue bd-white"><span class="mdi mdi-chevron-left"> </span></a>
+  <a class="btn white cl-blue bd-white"><span class="mdi mdi-chevron-right"> </span></a>
+
+<a class="btn cl-gray bg-white"><span class="mdi mdi-checkbox-blank-outline"> </span></a>
+
+<a class="btn cl-black bg-white bd-gray px-6"> Subir archivo </a>
+
+
+  
+<a class="btn cl-gray bg-white btn-rounded"><span class="mdi mdi-circle cl-blue pr-1"></span><span class="pr-1">Listado de Acciones Técnicas</span></a>
+
+
+
+<a class="btn cl-gray"><span class="mdi mdi-checkbox-blank-outline"> Todos los registros (cerradas y/o canceladas) </span></a>
+
+<a class="btn cl-gray"><span class="mdi mdi-checkbox-blank-outline"> Todos los registros del visor (cerradas y/o canceladas) </span></a>
+
+<a class="btn cl-gray"><span class="mdi mdi-checkbox-blank-outline"> Registro seleccionado </span></a>
+
+
+
+<a class="btn cl-gray bg-white"><span class="mdi mdi-circle cl-blue pr-1"></span><span class="pr-1"> Exportar Visor</span></a>
+
+
+<a class="btn cl-gray bg-white"><span class="mdi mdi-circle cl-blue pr-1"></span><span class="pr-1"> Exportar Todos Los Registros </span></a>:

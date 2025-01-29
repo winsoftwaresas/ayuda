@@ -80,7 +80,11 @@
   docs:
   - 07_01_introduction
   - 07_02_basic_concepts
-  - 07_03_services
+  - 07_03_main_window
+  - 07_04_partial_views
+  - 07_05_transactions
+  - 07_06_export
+  - 07_07_reports
   
 - title: Paros
   docs:
