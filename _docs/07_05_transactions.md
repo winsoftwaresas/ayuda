@@ -5,11 +5,9 @@ tags:
   - setup
 author: win
 order: '07_05'
-date: 2022-08-29T15:46:20.800Z
+date: 2025-01-29T15:46:20.800Z
 ---
 
-
-# Transacciones
 
 Las funciones o transacciones del submódulo de Solicitudes requieren de cuidado y de un permiso administrativo, a continuación se explica cada una de ellas.
 
