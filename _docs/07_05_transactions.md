@@ -178,6 +178,8 @@ _**Imagen 38.** SS - Dashboard Subgrupo_
 
 Para personalizar la vista de los gráficos o tener una información específica se recomienda hacer subgrupos a través del ícono subgrupo <span class="mdi mdi-filter-variant"></span>. Los DashBoards permiten ocultar información con solo dar un clic sobre sus rectángulos de colores como se muestra en la siguiente imagen:
 
+<br>
+
 ![Procesar imagen](../../assets/images/cap07/chp07_img41.png)
 _**Imagen 39.** SS - Dashboard Características_
 
