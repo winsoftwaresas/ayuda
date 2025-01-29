@@ -10,8 +10,13 @@ date: 2021-11-30T20:50:23.757Z
 ---
 ### Ventana Principal **AM**
 
-![Procesar imagen](../../assets/images/cap01/chp01_img01.png)
-_**Imagen 1.** Ventana Acceso **AM**_
+{% set_image
+  path:"../../assets/images/cap01/"
+  filename:"chp01_img01.png"
+  css_class:""
+  number:"1"
+  alt:"Ventana de acceso AM"
+%}
 
 Los elementos que conforman esta vista principal son:
 
