@@ -76,6 +76,17 @@
   - 05_05_export
   - 05_06_reports
 
+  
+- title: Tecnovigilancia
+  docs:
+  - 06_01_introduction
+  - 06_02_basic_concepts
+  - 06_03_main_window
+  - 06_04_partial_views
+  - 06_05_export
+  - 06_06_reports
+
+
 - title: Solicitudes de Servicio
   docs:
   - 07_01_introduction

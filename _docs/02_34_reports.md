@@ -1,6 +1,6 @@
 ---
 title: Reportes
-subtitle: Cada tabla de Infraestructura cuenta con el servicio de Reportes, en este contexto y dependiendo de cada tabla hay un reporte disponible.
+subtitle: Cada tabla de Infraestructura cuenta con el servicio de Reportes, en este contexto y dependiendo de cada tabla hay uno varios reporte disponible.
 tags: [setup]
 author: win
 order: '02_34'
@@ -14,7 +14,7 @@ ubicado en la parte superior derecha de la ventana Visor del módulo seleccionad
 reportes básicos disponibles de tipo Resumen y Detalle:
 
 ![Procesar imagen](../../assets/images/cap02/chp02_img79.png)
-_**Imagen 79.** Ventana Reportes_
+_**Imagen 80.** Ventana Reportes_
 
 A continuación se explica su contenido:
 
