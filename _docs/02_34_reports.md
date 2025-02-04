@@ -1,6 +1,6 @@
 ---
 title: Reportes
-subtitle: Cada tabla de Infraestructura cuenta con el servicio de Reportes, en este contexto y dependiendo de cada tabla hay uno varios reporte disponible.
+subtitle: Cada tabla de Infraestructura cuenta con el servicio de Reportes, en este contexto y dependiendo de cada tabla hay un reporte disponible.
 tags: [setup]
 author: win
 order: '02_34'
@@ -8,10 +8,7 @@ order: '02_34'
 
 
 
-Este comando permite visualizar los reportes relacionados con el módulo o la tabla donde se
-encuentre. A esta ventana se llega dando clic al icono de la impresora <span class="mdi mdi-printer"></span> que se encuentra
-ubicado en la parte superior derecha de la ventana Visor del módulo seleccionado. Existen
-reportes básicos disponibles de tipo Resumen y Detalle:
+Este comando <span class="mdi mdi-printer"></span> permite visualizar el reporte relacionado a la tabla donde se encuentre, este botón se ubica en la parte superior derecha:
 
 ![Procesar imagen](../../assets/images/cap02/chp02_img79.png)
 _**Imagen 80.** Ventana Reportes_
@@ -21,15 +18,15 @@ A continuación se explica su contenido:
 **Lista de Selección:** Es la tabla donde aparecen los campos: Código, Descripción y
 Subtítulo. Bajo el título Código se listan los códigos de los reportes existentes. Bajo el título Descripción se listan los nombres de los reportes existentes. Bajo el título de Subtítulo se lista en algunos reportes, una descripción adicional del reporte.
 
-**Todos los Registros:** Con esta opción se permite la impresión de todas las Órdenes de
-Trabajo Históricas existentes en la base de datos de la compañía activa, sin importar
-si se ha realizado un subgrupo.
 
-**Registros del Visor:** Esta opción permite hacer una impresión de todas aquellas OTs
-Históricas que están seleccionados en el visor.
 
-**Registro Seleccionado:** Esta opción permite hacer una impresión de la OT Histórica
-señalada, o sea la que está resaltada con la línea verde en el visor.
+<a class="btn cl-gray bg-white btn-rounded"><span class="mdi mdi-circle cl-blue pr-1"></span><span class="pr-1"> Registros del Visor </span></a>: Esta opción permite hacer una impresión de los registros de la tabla preseleccionados de un subgrupo.
+
+
+<a class="btn cl-gray bg-white btn-rounded"><span class="mdi mdi-circle cl-blue pr-1"></span><span class="pr-1"> Todos los Registros </span></a>: Con esta opción se permite la impresión de todas los registros existentes de la tabla en la base de datos de la compañía activa, sin importar si se ha realizado un subgrupo.
+
+
+<a class="btn cl-gray bg-white btn-rounded"><span class="mdi mdi-circle cl-blue pr-1"></span><span class="pr-1"> Registro seleccionado </span></a>: Esta opción permite hacer una impresión del registro señalada, es decir,  la que está resaltada con la línea verde en el visor.
 
 **Subtítulo:** En este campo es posible registrar un poco menos de una línea de información, tipo documentación del Reporte, para que se imprima bajo el área de títulos estándar.
 

@@ -325,7 +325,13 @@ almacén :
 <a class="btn white cl-blue bd-white"><span class="mdi mdi-chevron-right"> </span></a>
 
 
-<a class="btn cl-gray bg-white btn-rounded"><span class="mdi mdi-circle cl-blue pr-1"></span><span class="pr-1">Listado de Acciones Técnicas</span></a>
+<a class="btn cl-gray bg-white btn-rounded"><span class="mdi mdi-circle cl-blue pr-1"></span><span class="pr-1"> Listado de Acciones Técnicas</span></a>
+
+<a class="btn cl-gray bg-white btn-rounded"><span class="mdi mdi-circle cl-blue pr-1"></span><span class="pr-1"> Registros del Visor </span></a>
+
+<a class="btn cl-gray bg-white btn-rounded"><span class="mdi mdi-circle cl-blue pr-1"></span><span class="pr-1"> Todos los Registros </span></a>
+
+<a class="btn cl-gray bg-white btn-rounded"><span class="mdi mdi-circle cl-blue pr-1"></span><span class="pr-1"> Registro seleccionado </span></a>
 
 <a class="btn cl-blue bg-gray px-6"> Adicionar Acción Técnica </a>
 
