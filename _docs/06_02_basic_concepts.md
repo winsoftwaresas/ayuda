@@ -115,10 +115,9 @@ La ventana también muestra información relevante de la alerta emitida por el I
 El sistema incluye un link denominado “Descargar Alerta", que permite al usuario descargar la documentación oficial emitida por el INVIMA en formato PDF. Esto facilita tener acceso a la fuente oficial de la información para revisión, impresión o respaldo.
 
 
-#### Sección de Comentarios
+#### Sección de Comentarios y Acciones Tomadas frente a cada Alerta
 
-En esta sección, el personal encargado puede registrar información sobre las acciones tomadas en relación con la alerta. Estas acciones pueden incluir medidas correctivas, preventivas, o cualquier otra actividad relacionada con el manejo de la alerta.
-El campo de comentarios es editable y permite mantener un historial de actividades gestionadas para cada alerta.
+En esta sección, el personal encargado puede registrar información sobre las acciones tomadas en relación con la alerta. Estas acciones pueden incluir medidas correctivas, preventivas, o cualquier otra actividad relacionada con el manejo de la alerta. Esto permite mantener un historial de actividades gestionadas para cada alerta. El campo de comentarios y acciones no es editable.
 
 
 #### Procedimiento Inicial y Mantenimiento
