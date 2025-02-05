@@ -256,7 +256,7 @@ _**Imagen 9.** Solicitudes - Ir a Subgrupos_
 
 En la ventana Subgrupo de Solicitudes se visualizan los siguientes criterios: 
 
-![Procesar imagen](../assets/images/cap07/chp07_img16.png)
+![Procesar imagen](../../assets/images/cap07/chp07_img16.png)
 _**Imagen 10.** Solicitudes - Ir a Subgrupos_
 
 Cada criterio aparece inicializado en un valor global que permite mostrar todas las SS. Lo que significa que de no escoger un criterio se obtiene como resultado del subgrupo el mismo conjunto completo de todas las Solicitudes de Servicio.
@@ -342,10 +342,5 @@ se encuentren incluidas en el rango especificado en este campo, si no se especif
 **Días Vencimiento:** Permite la selección de las Solicitudes de Servicio cuyos días de vencimiento apliquen al criterio definido. Al seleccionar esta opción se habilita una lista despegable donde se escoge el criterio deseado, junto con un cuadro donde se digita el valor de comparación. Los criterios son: Igual (=), Mayor (>) y Menor (<). Estos criterios actúan en comparación con el valor digitado en la casilla que se activa al lado del operador aritmético.
 
 >_**Nota:** Cuando se usa algún criterio del Subgrupo este icono denota una pelota de rojo rojo para que indicar que lo se visualiza en el visor es un subjunto de datos. En la parte inferior **Registros por página** en la fracción N/M, el numerador varía según M que indica el total de registros, un ejemplo de su visualización en el visor: 
-![Procesar imagen](../assets/images/cap07/chp07_img16_01.png)
+![Procesar imagen](../../assets/images/cap07/chp07_img16_01.png)
 _**Imagen 10.1.** Solicitudes - Subgrupo Activo__
-
-
-
-
-
