@@ -110,9 +110,9 @@ La ventana también muestra información relevante de la alerta emitida por el I
 - **Estado de la Alerta:** Indica si la alerta está abierta, cerrada, o en otro estado de gestión
 
 
-#### Opción de Descargar la Alerta
+#### Opción de Visualizar Alertas
 
-El sistema incluye un link denominado “Descargar Alerta", que permite al usuario descargar la documentación oficial emitida por el INVIMA en formato PDF. Esto facilita tener acceso a la fuente oficial de la información para revisión, impresión o respaldo.
+El sistema incluye un link denominado “Visualizar Alerta", que permite al usuario descargar la documentación oficial emitida por el INVIMA en formato PDF. Esto facilita tener acceso a la fuente oficial de la información para revisión, impresión o respaldo.
 
 
 #### Sección de Comentarios y Acciones Tomadas frente a cada Alerta
@@ -121,6 +121,7 @@ En esta sección, el personal encargado puede registrar información sobre las a
 
 
 #### Procedimiento Inicial y Mantenimiento
+
 Después de analizar las coincidencias, registrar las acciones tomadas en el campo de “Comentarios”.
 Cada alerta debe cerrarse con un estado definido: "Aplica" o "No Aplica". Las alertas aplicadas deben incluir una acción antes de cerrarse.
 
