@@ -303,7 +303,7 @@ almacén :
 
 
 
-<a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a>
+<a class="btn blue">ACTUALIZAR <span class="mdi mdi-pencil"></span></a>
 
 <a class="btn cl-blue bg-gray px-6"> Adicionar Car.Técnica </a>
 
@@ -449,3 +449,12 @@ almacén :
 
 
 <a class="btn cl-gray bg-white"><span class="mdi mdi-circle cl-blue pr-1"></span><span class="pr-1"> Exportar Todos Los Registros </span></a>:
+
+
+<a class="btn cl-blue bg-gray px-6"> Iniciar Búsqueda </a>
+
+
+<a class="btn cl-red bg-white px-6"> Activos con Alertas </a>
+
+
+<a class="btn cl-blue bg-gray hite px-3"> Visualizar Alerta </a>

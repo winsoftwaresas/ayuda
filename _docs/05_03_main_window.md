@@ -47,7 +47,7 @@ Cada criterio trabaja en conjunto con los demás, con el operador intersección.
 
 Cada  criterio  aparece  inicializado  en  un  valor  global  que  permite  mostrar  todos   los Movimientos de Kárdex registrados en el sistema. Lo que significa que de no escoger un criterio se obtiene como resultado del subgrupo el mismo conjunto completo de todos los Movimientos de Kárdex.
 
-**AM** mantiene activo cualquier subgrupo en cada módulo, visualizandose el ícono con una pelota de color rojo <a class="btn bg-white fs-2"><span class="iconify btn-icon cl-black" data-icon="mdi-filter-variant"></span><span class="dot bg-af-red"></span></a>; esto indica que lo que se visualiza en el visor es un subgrupo hasta que el usuario lo modifique o restablezca los valores estándar, de muestra un ejemplo de un subgrupo activo:
+**AM** mantiene activo cualquier subgrupo en cada módulo, visualizandose el ícono con una pelota de color rojo <a class="btn bg-white fs-2"><span class="iconify btn-icon cl-black" data-icon="mdi-filter-variant"></span><span class="dot bg-af-red"></span></a>; esto indica que lo que se visualiza en el visor es un subgrupo hasta que el usuario lo modifique o restablezca los valores estándar, se muestra un ejemplo de un subgrupo activo:
 
 
 
