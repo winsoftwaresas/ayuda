@@ -3,7 +3,7 @@ title: Reportes
 subtitle: Cada tabla de Infraestructura cuenta con el servicio de Reportes, en este contexto y dependiendo de cada tabla hay un reporte disponible.
 tags: [setup]
 author: win
-order: '02_34'
+order: '02_35'
 ---
 
 

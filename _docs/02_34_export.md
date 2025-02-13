@@ -3,7 +3,7 @@ title: Exportar
 subtitle: Cada uno de las tablas de Infraestructura tienen la función Exportar.
 tags: [setup]
 author: win
-order: '02_33'
+order: '02_34'
 ---
 
 

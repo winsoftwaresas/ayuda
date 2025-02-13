@@ -303,7 +303,7 @@ almacén :
 
 
 
-<a class="btn blue">ACTUALIZAR <span class="mdi mdi-pencil"></span></a>
+
 
 <a class="btn cl-blue bg-gray px-6"> Adicionar Car.Técnica </a>
 
@@ -347,13 +347,22 @@ almacén :
 
 <span class="mdi mdi-folder-multiple-image"></span>
 
+<a class="btn blue">NUEVO <span class="mdi mdi-plus-circle-outline"></span></a>
 
 
 
 <a class="btn blue">INSERTAR <span class="mdi mdi-plus-circle-outline"></span></a>
 
 
+<a class="btn blue">CANCELAR <span class="mdi mdi-cancel"></span></a>
 
+<a class="btn blue">COPIAR <span class="mdi mdi-content-copy"></span></a>
+
+<a class="btn blue">ELIMINAR <span class="mdi mdi-delete"></span></a>
+
+<a class="btn blue">ACTUALIZAR <span class="mdi mdi-pencil"></span></a>
+
+<a class="btn blue">INICIAR SESIÓN <span class="mdi mdi-send"></span></a> 
 
 <a class="btn cl-gray"><span class="mdi mdi-checkbox-blank-outline"> Tiempo Improductivo </span></a>
 

@@ -33,6 +33,8 @@ La segunda opción **Promedio Ponderado**, consiste en valorizar todo el conjunt
 
 Utilizar uno u otro método depende de si el Almacén es contable o no. Se recomienda utilizar el método de Promedio Ponderado si se trata de un Almacén contable. Si se trata de un Almacén no contable, es decir, cuando se considera que los ítems que lo conforman, al ser trasladados a esta bodega ya fueron consumidos contablemente, entonces se recomienda usar el método de costeo por Último Ingreso, en cuyo caso la elaboración y proyección de presupuestos puede arrojar información más realista, al tiempo que no existe el riesgo de la revalorización contable de los mismos ítems.
 
+**Encargado:** Es posible asociar un encargado del Almacén, este campo lista todos los RI (responsables internos configurados en la tabla de Terceros).
+
 **Tipo Almacén:** Esta opción, de tipo combo, muestra dos ítems: Contable y No Contable.
 
 Esta funcionalidad, permitirá a futuro definir si el Almacén seleccionado es Contable, es decir, tendrá una interacción con el sistema contable de la organización la cual generara un costo o factura de venta; y No Contable hace referencia al Almacén que guarda el inventario de Repuestos para simple funcionalidad del sistema **AM**. Por defecto, cuando se crea un almacén el tipo se define con NO CONTABLE.
