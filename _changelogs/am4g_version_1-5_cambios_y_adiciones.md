@@ -14,4 +14,6 @@ title: AM4G Versión 1.5 Cambios y Adiciones
 
 
 
-![Procesar imagen](../../assets/images/Version1.5/Imagen1.png)
+![Procesar imagen](../../ayuda/assets/images/Version1.5/Imagen1.png)
+
+
