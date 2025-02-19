@@ -467,3 +467,8 @@ almacén :
 
 
 <a class="btn cl-blue bg-gray hite px-3"> Visualizar Alerta </a>
+
+
+<a class="btn cl-blue bg-gray px-6"> Adicionar Residuo </a>
+
+<span class="mdi mdi-delete"></span>

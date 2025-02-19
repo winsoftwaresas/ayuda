@@ -11,7 +11,7 @@ order: '03_09'
 Este comando <span class="mdi mdi-printer"></span>  permite visualizar los reportes o informes de la información relacionada a los Activos /Equipos. Existen los siguientes tipos de reportes básicos disponibles:
 
 ![Procesar imagen](../../assets/images/cap03/chp03_img34.png)
-_**Imagen 80.** Activos - Reportes_
+_**Imagen 87.** Activos - Reportes_
 
 Los anteriores reportes pueden ser  seleccionados para uno o varios Activos/Equipos:
 
@@ -30,4 +30,4 @@ Para exportar un reporte se da un clic sobre el reporte y luego al botón <a cla
 >**Nota:** Se sugiere el informe de ficha técnica con el fin de obtener la vista de la primera imagen del Activo.  Se muestra a continuación una muestra del reporte. Para la explicación de la nomenclatura de los códigos de reportes, remítase a la sesión del centro de ayuda **Trabajando con AM- Generalidades**. 
 
 ![Procesar imagen](../../assets/images/cap03/chp03_img46.png)
-_**Imagen 81.** Activos - Reporte Ficha Técnica_
+_**Imagen 88.** Activos - Reporte Ficha Técnica_

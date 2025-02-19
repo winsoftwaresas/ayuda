@@ -61,6 +61,22 @@ El significado de los colores se visualiza al sobreponer el cursor sobre el icon
 - **Morado:** Activos que tienen asociadas Características Técnicas en la pestaña de Características.
 - **Naranja:** Activos que tienen asociados archivos de imágenes, videos y/o documentos en la pestaña Multimedia.
 - **Blanco:** Activos definidos como Ubicación Técnica o Componentes Intercambiables y que no están asociados a Componentes Intercambiables o Ubicación Técnica, respectivamente, es decir, que están disponibles para ser asignados.
+- **Negro:** Indica Activos que tienen alerta de tecnovigilancia. 
+
+
+
+
+
+>**Nota:** Al usar la función de árbol de activos o despiece, para los activos que son ubiciones físicas se muestra el activo componente que está contenido en ella: 
+![Procesar imagen](../../assets/images/cap03/chp03_img48.png)
+<br>
+Para los activos que son componentes intercambiables se muestra su ubicación técnica:
+![Procesar imagen](../../assets/images/cap03/chp03_img49.png).
+
+<br>
+
+
+
 
 ## Subgrupo
 
@@ -140,7 +156,7 @@ El segundo campo se usa para ingresar el valor correspondiente a la confiablidad
 
 **Fabricante:** Permite seleccionar los Activos/Equipos de  acuerdo con un determinado Fabricante. Esta opción también permite el uso de comodines y funciona igual que en los casos anteriores.
 
-**Indicadores:** Permite  seleccionar los Activos/Equipos  de acuerdo con su clasificación o contenido específico, es decir, filtra equipos que sean solo raiz, o ubicación fisica, componente intercambiable, hasta aquellos que tienen definidas caracteristicas técnicas, biomédicas y contenido de multimedia.
+**Indicadores:** Permite  seleccionar los Activos/Equipos  de acuerdo con su clasificación o contenido específico, es decir, filtra equipos que sean solo raiz, o ubicación fisica, componente intercambiable, alerta tecnovigilancia, hasta aquellos que tienen definidas caracteristicas técnicas, biomédicas y contenido de multimedia.
 
 <!--**Indicativo de Ruta:** Permite agrupar los Activos/Equipos de acuerdo con el criterio de si están o no asociados a una Ruta de Mantenimiento.-->
 

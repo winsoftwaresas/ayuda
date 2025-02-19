@@ -191,6 +191,8 @@ Es posible Actualizar los valores o realizar cambios en una característica agre
 _**Imagen 11.** Activos - Actualizar Características_
 
 
+
+
 ####   Características Controlables
 
 Esta opción permite ingresar valores de medición a aquellas características que fueron definidas previamente como controlables.
@@ -212,13 +214,49 @@ A continuación se describen los campos que componen este formulario:
 
 Para ingresar una característica controlable, primero debe estar agregada como característica controlable y luego en la parte inferior dar clic en <a class="btn cl-blue bg-gray px-6">Adicionar Car. Controlable</a> luego en el desplegable del formulario como se muestra en la imagen anterior seleccionar la característica con el fin de establecer el historial de mediciones. 
 
-_>**Nota:** Si una característica se sale del rango o límite establecido se generará una Órden de Trabajo._
+>_**Nota:** Si una característica se sale del rango o límite establecido se generará una Órden de Trabajo._
+
+
+####   Residuos
+
+Los desechos provenientes de los Activos se pueden definir seleccionándolos de la lista desplegable configurados previamente en el módulo de <a class="btn cl-white bg-blue px-3">Infraestructura</a> en la tabla Residuos. 
+
+Para añadir un residuo accione el botón <a class="btn cl-blue bg-gray px-6"> Adicionar Residuo </a>:
+
+![Procesar imagen](../../assets/images/cap03/chp03_img08_01.png)
+_**Imagen 13.** Activos - Residuos_
+
+Diligencie los campos y adicione con el botón <span class="mdi mdi-plus-circle icon bg-gray cl-blue "></span>:
+
+![Procesar imagen](../../assets/images/cap03/chp03_img08_02.png)
+_**Imagen 14.** Activos - Añadir Residuo_
+
+Una vez se añada un residuo es posible actualizar,basta con dar un clic sobre la línea del residuo y una vez se sombree en verde accione el botón <a class="btn cl-blue bg-gray px-6"> Actualizar Residuo </a>:
+
+![Procesar imagen](../../assets/images/cap03/chp03_img08_03.png)
+_**Imagen 15.** Activos - Actualizar residuo_
+
+Realice los cambios y accione nuevamente class="btn cl-blue bg-gray px-6"> Actualizar Residuo </a>:
+
+![Procesar imagen](../../assets/images/cap03/chp03_img08_04.png)
+_**Imagen 16.** Activos - Actualizar residuo_
+
+
+Para eliminar un residuo accione <span class="mdi mdi-delete"></span> y continúe con <a class="btn bg-gray cl-black">ACEPTAR</a>:
+
+
+![Procesar imagen](../../assets/images/cap03/chp03_img08_05.png)
+_**Imagen 17.** Activos - Eliminar residuo_
+
+
+>_**Nota:** Para hacer efectivos los cambios finalice con el botón <a class="btn blue">ACTUALIZAR <span class="mdi mdi-pencil"></span></a> ._
+
 
 
 ### Vida Útil
 
 ![Procesar imagen](../../assets/images/cap03/chp03_img09.png)
-_**Imagen 13.** Activos - Vida Útil_
+_**Imagen 18.** Activos - Vida Útil_
 
 En la gráfica anterior, Porción Vida Útil, se aprecian sus componentes y sus respectivos contenidos.
 
@@ -291,10 +329,10 @@ Para anexar información metrológica la compañía en la que se trabaja debe es
 Ingrese a la pestaña correspondiente y continúe dando clic en <a class="btn gray">Adicionar Magnitud</a>, como se muestra en la imagen:
 
 ![Procesar imagen](../../assets/images/cap03/chp03_img09_01.png)
-_**Imagen 14.** Activos - Metrología_
+_**Imagen 19.** Activos - Metrología_
 
 ![Procesar imagen](../../assets/images/cap03/chp03_img09_1.png)
-_**Imagen 15.** Activos - Formulario Metrología_
+_**Imagen 20.** Activos - Formulario Metrología_
 
 En la gráfica anterior, Porción Metrología, se aprecian sus componentes y sus respectivos contenidos.
 
@@ -326,7 +364,7 @@ Para anexar información biomédica a la compañía en la que se trabaja debe es
 Ingrese a la pestaña correspondiente:
 
 ![Procesar imagen](../../assets/images/cap03/chp03_img09_2.png)
-_**Imagen 16.** Activos - Info. Biomédica_
+_**Imagen 21.** Activos - Info. Biomédica_
 
 En la gráfica anterior, Porción Info. Biomédica, se aprecian sus componentes y sus respectivos contenidos.
 
@@ -358,7 +396,7 @@ Una vez diligencie el formulario anterior finalice guardando los cambios con el 
 ### MULTIMEDIA
 
 ![Procesar imagen](../../assets/images/cap03/chp03_img10.png)
-_**Imagen 14.** Activos - Multimedia_
+_**Imagen 22.** Activos - Multimedia_
 
 En la gráfica anterior, Ventana Multimedia, se aprecian sus componentes y sus respectivos contenidos.
 
@@ -377,17 +415,17 @@ A continuación se describen las carpetas que componen esta ventana; cuando se q
 **Videos:** En esta carpeta se relacionan porciones de videos relacionados al AC. Ejemplo: Videos en formato wmv, mp4, entre otros.
 
 ![Procesar imagen](../../assets/images/cap03/chp03_img11.png)
-_**Imagen 17.** Activos - Explorador de archivos_
+_**Imagen 23.** Activos - Explorador de archivos_
 
 Para adicionar un documento, imagen o video, se debe dar un doble clic sobre la carpeta deseada, y luego seleccionar del ícono de nube <span class="mdi mdi-cloud-upload icon white"></span>. A continuación se abre el explorador de archivos, seguido de seleccionar el archivo dar un clic en <a class="btn bg-gray cl-black">Abrir</a>.
 
 ![Procesar imagen](../../assets/images/cap03/chp03_img12.png)
-_**Imagen 18.** Activos - Subir Archivo_
+_**Imagen 24.** Activos - Subir Archivo_
 
 Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic sobre el nombre de una de las imágenes, se muestra la previsualización. 
 
 ![Procesar imagen](../../assets/images/cap03/chp03_img13.png)
-_**Imagen 19.** Activos - Archivos Cargados_
+_**Imagen 25.** Activos - Archivos Cargados_
 
 Para desasociar un documento, o una imagen o un video, al AC se da clic al icono de basura <span class="mdi mdi-delete"></span> que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro, finalmente confirmar con el botón <a class="btn bg-gray cl-black">ACEPTAR</a>.
 

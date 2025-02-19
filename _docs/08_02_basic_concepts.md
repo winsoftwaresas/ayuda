@@ -1,6 +1,6 @@
 ---
-title:  Conceptos Básicos sobre Paros / Averías
-subtitle: El  módulo de Paros/Averías en AM tiene como objetivo el registro simple  pero detallado de los hechos y de las actividades que se ejecutan como consecuencia de un Fallo, Paro o una Avería en la prestación del servicio de un Activo. 
+title:  Conceptos Básicos
+subtitle: El  módulo de Paros/Averías en AM tiene como objetivo el registro simple pero detallado de los hechos y de las actividades que se ejecutan como consecuencia de un Fallo, Paro o una Avería en la prestación del servicio de un Activo. 
 tags: [setup]
 author: win
 order: '08_02'

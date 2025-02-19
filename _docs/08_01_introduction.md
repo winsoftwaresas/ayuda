@@ -1,6 +1,6 @@
 ---
 title:  Introducción
-subtitle: Este capítulo habla de los Fallos, Daños o Averías y manejo en el sistema.
+subtitle: Este capítulo habla de los Fallos, Daños o Averías y su manejo en el sistema.
 tags: [setup]
 author: win
 order: '08_01'
