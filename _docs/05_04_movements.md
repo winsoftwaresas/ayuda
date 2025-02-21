@@ -192,17 +192,30 @@ La información contenida en el cuadro <a class="btn black"><span class="mdi mdi
 
 **Recibido por:** Este campo despliega los Responsables Internos (RI) con el fin de asignar una persona resposable o cargo de la entrega de implementos.
 
+>_**Nota:** Una vez se diligencie este campo se activa el botón <a class="btn cl-blue bg-white px-6"> REALIZAR FIRMA </a> para que el responsable que recibe la entrega pueda dejar la constancia._
+
+**Realizar firma:** Accione el botón para ingresar la firma, ésta se puede ingresar a través del mouse, pantalla táctil o un dispositivo Wacom:
+
+
+![Procesar imagen](../../assets/images/cap05/chp05_img28_01.png)
+_**Imagen 16.** Kárdex - Ingresar Firma_
+
+Para guardar los cambios accione el botón <a class="btn cl-white bg-blue px-6"> Guardar </a> y continúe con <a class="btn cl-white bg-blue px-6"> Aceptar </a>:
+
+![Procesar imagen](../../assets/images/cap05/chp05_img28_02.png)
+_**Imagen 17.** Kárdex - Guardar Firma_
+
 
 **Comentario:** En cada movimiento se hace posible agregar una anotación o comentario. 
 
->**Nota:** Para los usuarios que deseen agregar la Firma de Recibido para una salida en particular de un Responsable Interno (RI) se debe parametrizar en el modulo de <a class="btn cl-white bg-blue px-3">Administración</a>, en valores por Defecto en la etiqueta **Kárdex** y marcar como **SÍ** la pregunta de configuración: *¿ Desea enviar Correo para capturar Firma de Recibido?*. 
+<!-->>**Nota:** Para los usuarios que deseen agregar la Firma de Recibido para una salida en particular de un Responsable Interno (RI) se debe parametrizar en el modulo de <a class="btn cl-white bg-blue px-3">Administración</a>, en valores por Defecto en la etiqueta **Kárdex** y marcar como **SÍ** la pregunta de configuración: *¿ Desea enviar Correo para capturar Firma de Recibido?*. -->
 
 
 Finalmente para agregar la línea con la información del movimiento accione el botón <span class="mdi mdi-plus-circle icon bg-gray cl-blue "></span>:
 
 
 ![Procesar imagen](../../assets/images/cap05/chp05_img29.png)
-_**Imagen 16.** Kárdex - Agregar un movimiento_
+_**Imagen 18.** Kárdex - Agregar un movimiento_
 
 
 _>**Nota:** En este paso de la transacción se pueden hacer modificaciones y eliminaciones antes de insertar el movimiento. Luego de insertar el movimiento no es posible hacer cambios._
@@ -210,13 +223,13 @@ _>**Nota:** En este paso de la transacción se pueden hacer modificaciones y eli
 Luego de agregar, se visualiza la información del movimiento al insertar:
 
 ![Procesar imagen](../../assets/images/cap05/chp05_img30.png)
-_**Imagen 17.** Kárdex - Agregar un movimiento_
+_**Imagen 19.** Kárdex - Agregar un movimiento_
 
 
 Para **Modificar** el movimiento se debe dar clic en el campo del **Código RP** y en la parte inferior se mostrará de nuevo el formulario anterior para que realice los cambios necesarios y luego accione el botón nuevamente <span class="mdi mdi-autorenew icon bg-gray cl-blue "></span> y observe el cambio  en la línea de movimiento:
 
-![Procesar imagen](../../assets/images/cap05/chp05_img05_06.png)
-_**Imagen 18.** Kárdex - Actualizar un movimiento_
+![Procesar imagen](../../assets/images/cap05/chp05_img05_31.png)
+_**Imagen 20.** Kárdex - Actualizar un movimiento_
 
 
 ### Hacer válido el movimiento de Salida
@@ -238,8 +251,8 @@ La información contenida en el cuadro <span class="mdi mdi-alert-circle-outline
 A continuación se muestra un ejemplo:
 
 
-![Procesar imagen](../../assets/images/cap05/chp05_img30.png)
-_**Imagen 19 .** Kárdex - Después de la transacción_
+![Procesar imagen](../../assets/images/cap05/chp05_img32.png)
+_**Imagen 21.** Kárdex - Después de la transacción_
 
 
 Al finalizar una transacción a través del botón <a class="btn cl-blue bg-gray px-3">Insertar Movimientos</a> el movimiento queda en color gris y bloqueado, el cual o los cuales se convierten en registros de solo consulta. No es posible eliminar los registros de las transacciones de kárdex, una vez han sido ingresadas en el módulo.
@@ -257,7 +270,7 @@ La funcionalidad de Ajustar Inventario se lleva a cabo a través de un Documento
 
 
 ![Procesar imagen](../../assets/images/cap05/chp05_img33.png)
-_**Imagen 20.** Kárdex - Fomulario Ajuste_
+_**Imagen 22.** Kárdex - Fomulario Ajuste_
 
 A continuación  se describen los campos que componen el registro de un Ajuste en la pestaña/porción movimientos. Sobre cada campo se da una breve explicación.
 
@@ -266,7 +279,7 @@ _**Ejemplo para un Ajuste en Cantidad**_
 Una vez accione el botón <a class="btn cl-blue bg-gray px-3">Adicionar Movimientos</a> se visualiza el siguiente formulario:
 
 ![Procesar imagen](../../assets/images/cap05/chp05_img34.png)
-_**Imagen 22.** Kárdex - Ajuste Subgrupo_
+_**Imagen 23.** Kárdex - Ajuste Subgrupo_
 
 
 
@@ -275,7 +288,7 @@ _**Imagen 22.** Kárdex - Ajuste Subgrupo_
 
 
 ![Procesar imagen](../../assets/images/cap05/chp05_img34_01.png)
-_**Imagen 23.** Kárdex - Movimiento Ajuste_
+_**Imagen 24.** Kárdex - Movimiento Ajuste_
 
 
 
@@ -291,7 +304,7 @@ La información contenida en el cuadro <a class="btn"><span class="mdi mdi-swap-
 - **Costo Unitario:** Muestra el valor unitario actual del repuesto o  material, antes del movimiento que se va a registrar. Es un campo que solo despliega datos.
 
 ![Procesar imagen](../../assets/images/cap05/chp05_img35.png)
-_**Imagen 24.** Kárdex - Movimiento Antes de la transacción_
+_**Imagen 25.** Kárdex - Movimiento Antes de la transacción_
 
  
 **FF Transacción:** Es el campo en el que se establece la fecha en la que ocurrió el movimiento de Ajuste. **AM** propone la fecha del día, pero ella puede ser modificada para reflejar la fecha real del movimiento. Esta fecha  puede  ser  modificable en el permiso de usuario  “Modificar fecha del movimiento en KX” en la definición de  “Permisos para ejecución de Procesos” que se otorgan al usuario en el módulo <a class="btn blue">Administración</a> en **Permisos para ejecución de procesos.**
@@ -320,7 +333,7 @@ Finalmente para agregar la línea con la información del movimiento accione el 
 
 
 ![Procesar imagen](../../assets/images/cap05/chp05_img36.png)
-_**Imagen 25.** Kárdex - Agregar un movimiento_
+_**Imagen 26.** Kárdex - Agregar un movimiento_
 
 
 _>**Nota:** En este paso de la transacción se pueden hacer modificaciones y eliminaciones antes de insertar el movimiento. Luego de insertar el movimiento no es posible hacer cambios._
@@ -328,13 +341,13 @@ _>**Nota:** En este paso de la transacción se pueden hacer modificaciones y eli
 Luego de agregar, se visualiza la información del movimiento al insertar:
 
 ![Procesar imagen](../../assets/images/cap05/chp05_img37.png)
-_**Imagen 26.** Kárdex - Agregar un movimiento_
+_**Imagen 27.** Kárdex - Agregar un movimiento_
 
 
 Para **Modificar** el movimiento se debe dar clic en el campo del **Código RP** y en la parte inferior se mostrará de nuevo el formulario anterior para que realice los cambios necesarios y luego accione el botón nuevamente <span class="mdi mdi-autorenew icon bg-gray cl-blue "></span> y observe el cambio  en la línea de movimiento:
 
 ![Procesar imagen](../../assets/images/cap05/chp05_img38.png)
-_**Imagen 27.** Kárdex - Modificar un movimiento_
+_**Imagen 28.** Kárdex - Modificar un movimiento_
 
 
 ### Hacer válido un movimiento de Ajuste
@@ -359,7 +372,7 @@ A continuación se muestra un ejemplo:
 
 
 ![Procesar imagen](../../assets/images/cap05/chp05_img39.png)
-_**Imagen 28.** Kárdex - Hacer válido el movimiento_
+_**Imagen 29.** Kárdex - Hacer válido el movimiento_
 
 
 Al finalizar una transacción a través del botón <a class="btn cl-blue bg-gray px-3">Insertar Movimientos</a> el movimiento queda en color gris y bloqueado, el cual o los cuales se convierten en registros de solo consulta. No es posible eliminar los registros de las transacciones de kárdex, una vez han sido ingresadas en el módulo.
@@ -369,7 +382,7 @@ Al finalizar una transacción a través del botón <a class="btn cl-blue bg-gray
 ## Congelar Documento
 
 ![Procesar imagen](../../assets/images/cap05/chp05_img40.png)
-_**Imagen 29.** Kárdex - Ir a Congelar Documento_
+_**Imagen 30.** Kárdex - Ir a Congelar Documento_
 
 Es una funcionalidad que inhibe la posibilidad de adicionar nuevos movimientos a un Documento. Una vez ejecutada está transacción no tiene reversa y permanecerá en el Kárdex como un Documento únicamente de Consulta.
 
@@ -381,13 +394,13 @@ Para congelar un documento basta con seleccionar el Documento de Kárdex, dar cl
 
 
 ![Procesar imagen](../../assets/images/cap05/chp05_img41.png)
-_**Imagen 30.** Kárdex - Mensaje Alerta Congelar Documento_
+_**Imagen 31.** Kárdex - Mensaje Alerta Congelar Documento_
    
 Así se visualizan los documentos congelados desde el visor y desde la ventana Detalle:
 
 
 ![Procesar imagen](../../assets/images/cap05/chp05_img42.png)
-_**Imagen 31.** Kárdex - Documento congelado vista desde el visor_
+_**Imagen 32.** Kárdex - Documento congelado vista desde el visor_
 
 ![Procesar imagen](../../assets/images/cap05/chp05_img43.png)
-_**Imagen 32.** Kárdex - Documento congelado vista ventana Detalle_
+_**Imagen 33.** Kárdex - Documento congelado vista ventana Detalle_

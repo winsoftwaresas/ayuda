@@ -471,4 +471,10 @@ almacén :
 
 <a class="btn cl-blue bg-gray px-6"> Adicionar Residuo </a>
 
+
+<a class="btn cl-white bg-blue px-6"> Guardar </a>
+
+
 <span class="mdi mdi-delete"></span>
+
+<a class="btn cl-blue bg-white px-6"> REALIZAR FIRMA </a>

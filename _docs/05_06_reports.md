@@ -11,7 +11,7 @@ order: '05_06'
 Este comando <span class="mdi mdi-printer"></span>  permite visualizar los reportes o informes de la información relacionada a los Repuestos/Materiales. Existen los siguientes tipos de reportes básicos disponibles:
 
 ![Procesar imagen](../../assets/images/cap05/chp05_img25.png)
-_**Imagen 33** Kárdex - Reportes_
+_**Imagen 35** Kárdex - Reportes_
 
 Los  anteriores  reportes  pueden  ser  seleccionados  para  uno  o  varios   Documentos de Kárdex:
 
