@@ -20,3 +20,5 @@ A continuación se describen los campos que componen el registro:
 **Abreviatura:** En este campo se detalla la abreviatura que identifica la unidad de  medida que se está definiendo.
 
 **Tipo:** De acuerdo con la nueva unidad de medida se debe seleccionar el si corresponde a longitud, superficie, volumen, peso u otra.
+
+**Combustible:** Si es el caso de registrar la unidad de medida en la tabla parametrización de Combustible, y hacer seguimiento se debe marcar la opción. 
