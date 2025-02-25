@@ -228,7 +228,7 @@ _**Imagen 19.** Kárdex - Agregar un movimiento_
 
 Para **Modificar** el movimiento se debe dar clic en el campo del **Código RP** y en la parte inferior se mostrará de nuevo el formulario anterior para que realice los cambios necesarios y luego accione el botón nuevamente <span class="mdi mdi-autorenew icon bg-gray cl-blue "></span> y observe el cambio  en la línea de movimiento:
 
-![Procesar imagen](../../assets/images/cap05/chp05_img05_31.png)
+![Procesar imagen](../../assets/images/cap05/chp05_img31.png)
 _**Imagen 20.** Kárdex - Actualizar un movimiento_
 
 
