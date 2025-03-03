@@ -132,7 +132,6 @@ exclude:
   - Version 81
   - _components
   - pdfs
-  - _docs
 
 include:
   - pdf
