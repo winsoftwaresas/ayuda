@@ -1,21 +1,18 @@
 ---
 title: Exportar
-subtitle: Se explica cómo exportar el visor con el fin de obtener otros informes.
-tags:
-  - setup
-author: win
-order: '03_08'
-
+subtitle: Se explica la función para descargar campos del formulario con el fin de armar informes personalizados.
+tags:       [setup]
+author:     'win'
+order:      '13_05'
 ---
 
-### Exportar Visor
 
-Esta opción <span class="mdi mdi-download"></span> permite la exportación de los campos contenidos en la ficha técnica de los Activos/Equipos que aparecen en el visor, totales o provenientes de un subgrupo a un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso.
+Esta opción <span class="mdi mdi-download"></span> permite la exportación de los registros de combustibles, bien sea el total de ellas o provenientes de un subgrupo a un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso.
 
-Al ejecutar esta transacción, se abre una ventana como se muestra a continuación:
+Al ejecutar esta transacción, se abrirá una ventana la cual se muestra a continuación:
 
-![Procesar imagen](../../assets/images/cap03/chp03_img27.png)
-_**Imagen 85.** Activos - Ir a Exportar_
+![Procesar imagen](../../assets/images/cap18/chp18_07.png)
+_**Imagen 6.** Combustibles - Ventana Exportar_
 
 Al accionar el botón <a class="btn bg-gray cl-black">EXPORTAR</a> se generará un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso, el objetivo de esta exportación es llevar toda la información de los registros de cualquier tabla contenidos en el visor a un archivo plano, para luego ser analizados.
 
@@ -33,7 +30,9 @@ Antes de exportar se encuentran dos opciones para exportar, se debe seleccionar 
 
 Para continuar, el siguiente botón ya viene seleccionado por defecto <a class="btn cl-gray"><span class="mdi mdi-checkbox-blank-outline"> Exportar Todos Las Columnas </span></a>, esto significa que exportará todos los campos de los registros, sin embargo, el usuario también puede escoger los campos que desee exportar, para esto haga clic nuevamente en el campo <a class="btn cl-gray"><span class="mdi mdi-checkbox-blank-outline"> Exportar Todos Las Columnas </span></a>. Seleccione lo campos que desee exportar, luego, accione el botón <a class="btn bg-gray cl-black">EXPORTAR</a> y espere a que el archivo se encuentre listo para descargarlo y finalice accionando <a class="btn bg-gray cl-black">DESCARGAR</a>:
 
-![Procesar imagen](../../assets/images/cap03/chp03_img28.png)
-_**Imagen 86.** Activos - Exportar Campos_
 
-El objetivo de esta exportación es llevar toda la información de los Activos a un archivo plano, para luego ser analizados.
+
+![Procesar imagen](../../assets/images/cap18/chp18_08.png)
+
+_**Imagen 7.** Combustibles - Descargar Exportación_
+

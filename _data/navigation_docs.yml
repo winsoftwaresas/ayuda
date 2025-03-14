@@ -138,6 +138,19 @@
   - 12_04_submenu_window
   - 12_05_transactions
 
+
+- title: Combustibles
+  docs:
+  - 13_01_introduction
+  - 13_02_basic_concepts
+  - 13_03_main_window
+  - 13_04_detailed_view
+  - 13_05_export
+  - 13_06_reports
+  
+
+
+
 - title: AMsi
   docs:
   - 15_01_working_with_amsi

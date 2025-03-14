@@ -80,7 +80,7 @@ Para los activos que son componentes intercambiables se muestra su ubicación t�
 
 ## Subgrupo
 
-Se usa para filtrar grupos de Activos/Equipos que cumplen con un conjunto  de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al <span class="mdi mdi-filter-variant"></span>, ubicado en la parte superior derecha de la ventana Visor de Activos.
+Se usa para filtrar grupos de Activos/Equipos que cumplen con un conjunto  de filtros o criterios. El objetivo de hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al <span class="mdi mdi-filter-variant"></span>, ubicado en la parte superior derecha de la ventana Visor de Activos.
 
 ![Procesar imagen](../../assets/images/cap03/chp03_img05.png)
 _**Imagen 7.** Activos - Ir a Subgrupo_

@@ -478,3 +478,5 @@ almacén :
 <span class="mdi mdi-delete"></span>
 
 <a class="btn cl-blue bg-white px-6"> REALIZAR FIRMA </a>
+
+<a class="btn cl-blue bg-white px-6"> ACEPTAR </a>
