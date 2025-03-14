@@ -24,7 +24,7 @@ Los elementos que conforman esta vista principal son:
 
 La porción de Menú Principal normalmente está conformada por la barra de opciones que se muestra a continuación.
 
-![Procesar imagen](../..assets/images/cap01/chp01_img02.png)
+![Procesar imagen](../../assets/images/cap01/chp01_img02.png)
 _**Imagen 2.** Ventana Menú Principal_
 
 En caso de estar trabajando en Infraestructura, se muestra una ventana que se ubica debajo de ella y que detalla los nombres de cada una de las tablas de la Infraestructura. A través de ellas se posibilita el acceso directo al módulo.

@@ -29,5 +29,5 @@ _**Imagen 80.** Infraestructura - Crear Nuevo_
 De igual forma es posible actualizar información a través del botón <a class="btn blue">ACTUALIZAR <span class="mdi mdi-pencil"></span></a>:
 
 
-![Procesar imagen](../assets/images/cap02/chp02_img86.png)
+![Procesar imagen](../../assets/images/cap02/chp02_img86.png)
 _**Imagen 81.** Infraestructura - Actualizar Residuos_

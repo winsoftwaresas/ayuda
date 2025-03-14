@@ -10,6 +10,7 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
   <script src="//code.iconify.design/1/1.0.6/iconify.min.js"></script>
   <script src="{{ "/assets/js/main.js" | relative_url }}"></script>
+  <script src="{{ "/assets/js/lightense.min.js" | relative_url }}"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
   <link rel="stylesheet" href="{{ "/assets/css/print.css" | relative_url }}">
   {% if page.hero.search or site.navbar.search %}
@@ -21,18 +22,37 @@
   {% endif %}
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const images = document.querySelectorAll('img');
-        images.forEach(img => {
-          if (!img.hasAttribute('crossorigin')) {
-            img.setAttribute('crossorigin', 'anonymous');
-          }
-          // Convertir URLs absolutas locales a relativas
-          if (img.src.startsWith('http://localhost:4000')) {
-            img.src = img.src.replace('http://localhost:4000', '');
-          }
-        });
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // Verificar si la librería está disponible
+      if (typeof Lightense !== "function") {
+        console.error("Lightense no está definido. Verifica que el script se haya cargado correctamente.");
+        return;
+      }
+  
+      const images = document.querySelectorAll('img:not(.no-lightense)');
+      images.forEach(img => {
+        if (!img.hasAttribute('crossorigin')) {
+          img.setAttribute('crossorigin', 'anonymous');
+        }
+        // Convertir URLs absolutas locales a relativas
+        if (img.src.startsWith('http://localhost:4000')) {
+          img.src = img.src.replace('http://localhost:4000', '');
+        }
       });
-    </script>
+  
+      // Inicializar Lightense solo si hay imágenes disponibles
+      if (images.length > 0) {
+        Lightense(images, {
+          time: 300,
+          padding: 40,
+          offset: 40,
+          keyboard: true,
+          cubicBezier: 'cubic-bezier(.2, 0, .1, 1)',
+          background: 'rgba(255, 255, 255, .98)',
+          zIndex: 5000
+        });
+      }
+    });
+  </script>
 </head>
