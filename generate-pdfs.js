@@ -16,12 +16,11 @@ function getSiteVersion() {
   }
 }
 
-// Función para obtener el título y la versión del sitio desde _config.yml
 function getSiteConfig() {
   try {
     const configPath = path.join(__dirname, '_config.yml');
     const config = yaml.load(fs.readFileSync(configPath, 'utf8'));
-    const title = config.title || 'Manual'; // Valor por defecto si no hay título
+    const title = config.title || 'Manual';
     const version = config.version || '1.0';
     const company = config.company || 'Win Software SAS';
     return { title, version, company };
@@ -31,9 +30,7 @@ function getSiteConfig() {
   }
 }
 
-// Obtener el título y la versión del sitio
 const { title, version, company } = getSiteConfig();
-
 const siteVersion = getSiteVersion();
 const baseUrl = 'http://localhost:4000';
 
@@ -43,21 +40,18 @@ async function generatePDF(url, outputPath) {
     const page = await browser.newPage();
     await page.goto(url, { waitUntil: 'networkidle0' });
 
-    // Oculta el navbar antes de generar el PDF
     await page.evaluate(() => {
       const navbar = document.querySelector('[data-uk-sticky]');
       if (navbar) {
-        navbar.style.display = 'none'; // Oculta el navbar
+        navbar.style.display = 'none';
       }
     });
 
-    // Extrae el título del documento
     const documentTitle = await page.evaluate(() => {
       const titleElement = document.querySelector('.uk-article-title');
       return titleElement ? titleElement.innerText : 'Manual de Usuario';
     });
 
-    // Define los márgenes, encabezado y pie de página
     await page.pdf({
       path: outputPath,
       format: 'A4',
@@ -97,10 +91,10 @@ async function generatePDF(url, outputPath) {
 
 async function generateAllPDFs() {
   const docsDir = path.join(__dirname, 'docs', 'docs');
-  const pdfDir = path.join(__dirname, 'pdf', siteVersion);
+  const pdfTmpDir = path.join(__dirname, 'pdf_tmp', siteVersion);
 
   try {
-    await fs.ensureDir(pdfDir);
+    await fs.ensureDir(pdfTmpDir);
 
     const files = await fs.readdir(docsDir);
     
@@ -108,7 +102,7 @@ async function generateAllPDFs() {
       if (file && !file.includes('_00')) {
         const baseName = path.basename(file, '.html');
         const url = `${baseUrl}/docs/${baseName}/index`;
-        const outputPath = path.join(pdfDir, `${file}.pdf`);
+        const outputPath = path.join(pdfTmpDir, `${file}.pdf`);
         
         console.log(`Generando PDF para ${file}...`);
         await generatePDF(url, outputPath);
@@ -141,16 +135,35 @@ async function mergePDFs(pdfDir, outputFileName) {
     console.log(`PDF unificado generado: ${outputFileName}`);
 }
 
+async function moveFiles(sourceDir, targetDir) {
+  try {
+    await fs.ensureDir(targetDir);
+    const files = await fs.readdir(sourceDir);
+    
+    for (const file of files) {
+      const sourcePath = path.join(sourceDir, file);
+      const targetPath = path.join(targetDir, file);
+      await fs.move(sourcePath, targetPath, { overwrite: true });
+    }
+
+    console.log(`Archivos movidos de ${sourceDir} a ${targetDir}`);
+  } catch (error) {
+    console.error(`Error moviendo archivos de ${sourceDir} a ${targetDir}:`, error);
+  }
+}
+
 async function main() {
-    await generateAllPDFs(); // Primero genera todos los PDFs
+    await generateAllPDFs(); // Primero genera todos los PDFs en pdf_tmp
     const siteTitle = 'AM';
     const siteVersion = getSiteVersion();
     const mergedPdfName = `${siteTitle} - ${siteVersion}.pdf`;
   
+    const pdfTmpDir = path.join(__dirname, 'pdf_tmp', siteVersion);
     const pdfDir = path.join(__dirname, 'pdf', siteVersion);
     const outputFileName = path.join(__dirname, 'pdf', mergedPdfName);
   
-    await mergePDFs(pdfDir, outputFileName);
+    await mergePDFs(pdfTmpDir, outputFileName);
+    await moveFiles(pdfTmpDir, pdfDir); // Mueve los archivos de pdf_tmp a pdf
 }  
 
 main().catch(console.error);

@@ -131,10 +131,7 @@ exclude:
   - generate-pdfs.js
   - Version 81
   - _components
-  - pdfs
-
-include:
-  - pdf
+  - pdf_tmp
 
 # Destination
 destination:        docs/
