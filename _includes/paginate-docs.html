@@ -1,0 +1,51 @@
+{% assign docs = site.data.navigation_docs | map: 'docs' | join: ',' | split: ',' %}
+
+{% for document in docs %}
+  {% assign document_url = document | prepend:"/docs/" | append:"/" %}
+  {% if document_url == page.url %}
+    <div class="uk-margin-large-top paginate-post no-print">
+      <div class="uk-grid-small uk-child-width-1-2@m uk-flex-middle" uk-grid>
+        <div>
+          {% unless forloop.first %}
+            {% assign previous = forloop.index | minus: 1 %}
+            {% assign previous_page = docs[previous] | prepend:"/docs/" | append:"/" %}
+            {% assign previous_doc = site.docs | where:"url", previous_page | first %}
+            <a href="{{ previous_page | relative_url }}" class="uk-card uk-card-default uk-card-body uk-flex uk-flex-middle uk-link-reset uk-border-rounded">
+              {% if previous_doc.image %}
+                <div class="uk-cover-container uk-border-rounded" style="width: 80px; height: 80px;">
+                  <img src="{{ previous_doc.image }}" alt="{{ previous_doc.title }}" uk-cover>
+                  <canvas width="80" height="80"></canvas>
+                </div>
+              {% endif %}
+              <div class="">
+                <span class="uk-text-meta">Anterior</span>
+                <h5 class="uk-margin-remove">{{ previous_doc.title }}</h5>
+              </div>
+            </a>
+          {% endunless %}
+        </div>
+
+        <div class="uk-text-right">
+          {% unless forloop.last %}
+            {% assign next = forloop.index | plus: 1 %}
+            {% assign next_page = docs[next] | prepend:"/docs/" | append:"/" %}
+            {% assign next_doc = site.docs | where:"url", next_page | first %}
+            <a href="{{ next_page | relative_url }}" class="uk-card uk-card-default uk-card-body uk-flex uk-flex-middle uk-link-reset uk-flex-right uk-border-rounded">
+              <div class="">
+                <span class="uk-text-meta">Siguiente</span>
+                <h5 class="uk-margin-remove">{{ next_doc.title }}</h5>
+              </div>
+              {% if next_doc.image %}
+                <div class="uk-cover-container uk-border-rounded" style="width: 80px; height: 80px;">
+                  <img src="{{ next_doc.image }}" alt="{{ next_doc.title }}" uk-cover>
+                  <canvas width="80" height="80"></canvas>
+                </div>
+              {% endif %}
+            </a>
+          {% endunless %}
+        </div>
+      </div>
+    </div>
+    {% break %}
+  {% endif %}
+{% endfor %}

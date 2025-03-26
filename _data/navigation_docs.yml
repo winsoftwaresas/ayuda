@@ -44,7 +44,6 @@
   - 02_34_export
   - 02_35_reports
 
-
 - title: Activos
   docs:
   - 03_01_introduction
@@ -77,15 +76,12 @@
   - 05_05_export
   - 05_06_reports
 
-  
 - title: Tecnovigilancia
   docs:
   - 06_01_introduction
   - 06_02_basic_concepts
   - 06_03_main_window
   - 06_04_alerts_management
-
-
 
 - title: Solicitudes de Servicio
   docs:
@@ -138,7 +134,6 @@
   - 12_04_submenu_window
   - 12_05_transactions
 
-
 - title: Combustibles
   docs:
   - 13_01_introduction
@@ -147,9 +142,6 @@
   - 13_04_detailed_view
   - 13_05_export
   - 13_06_reports
-  
-
-
 
 - title: AMsi
   docs:
