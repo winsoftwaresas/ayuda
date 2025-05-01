@@ -25,6 +25,8 @@ win_url:                "https://winsoftware.com.co"
 
 # Site logo # e.g. logo.png, upload logo image file to /uploads/ folder
 logo:               winsoftware_logo.svg
+am_logo:            am_logo.svg
+am:                 am.svg
 
 navbar:
     sticky:         true

@@ -8,7 +8,11 @@
     {% if page.hero %}
         {% include hero.html %}
     {% else %}
-        {% include navbar.html %}
+      {% if page.layout != 'doc' %}
+          {% include navbar.html %}
+        {% else %}
+          {% include navbar-docs.html %}
+      {% endif %}
     {% endif %}
 
     {{ content }}
