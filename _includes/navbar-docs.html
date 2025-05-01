@@ -3,7 +3,7 @@
         <div class="uk-container">
             <div data-uk-navbar>
                 <div class="uk-navbar-left">
-                    <a class="uk-navbar-item uk-logo uk-visible@m no-lightense" href="{{ site.url }}">{% if site.am %}<img src="{{ site.uploads | absolute_url }}{{ site.am }}" alt="{{ site.title | escape }}">{% else %}{{ site.title | escape }}{% endif %}</a>
+                    <a class="uk-navbar-item uk-logo uk-visible@m no-lightense" href="{{ site.url }}">{% if site.am %}<img src="{{ site.uploads | absolute_url }}{{ site.am }}" class="no-lightense" alt="{{ site.title | escape }}">{% else %}{{ site.title | escape }}{% endif %}</a>
                     {% if site.data.translation[site.lang].mobile_nav_docs %}
                         <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas-docs" data-uk-toggle><span data-uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">{{ site.data.translation[site.lang].mobile_nav_docs }}</span></a>
                     {% else %}
@@ -11,7 +11,7 @@
                     {% endif %}
                 </div>
                 <div class="uk-navbar-center uk-hidden@m">
-                    <a class="uk-navbar-item uk-logo no-lightense" href="{{ "/" | relative_url }}">{% if site.am %}<img src="{{ site.uploads | absolute_url }}{{ site.am }}" alt="{{ site.title | escape }}">{% else %}{{ site.title | escape }}{% endif %}</a>
+                    <a class="uk-navbar-item uk-logo no-lightense" href="{{ "/" | relative_url }}">{% if site.am %}<img src="{{ site.uploads | absolute_url }}{{ site.am }}" class="no-lightense" alt="{{ site.title | escape }}">{% else %}{{ site.title | escape }}{% endif %}</a>
                 </div>
                 <div class="uk-navbar-right">
                     {% if site.navbar.search %}
