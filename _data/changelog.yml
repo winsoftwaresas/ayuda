@@ -1,5 +1,52 @@
 # Changelog page source
 
+- title: AM4G  Version 1.6
+  label: STABLE
+  date: May 18, 2025
+  list:
+   - Al momento de crear una solicitud en AMSI, ahora podrás ver y seleccionar el Subcentro de Costo correspondiente.
+   - Se crean Indicadore en AMsi para Solicitudes u Ordenes sean Evaluadas, En analisis o Pendientes.
+   - Cuando realices una acción técnica en una Orden de Trabajo, el sistema actualizará automáticamente las características relevantes del activo.
+   - Los usuarios pueden registrar no solo el valor de una característica controlable, sino también la hora exacta en la que se tomó el valor. 
+   - Los usuarios podrán visualizar la unidad de medida de las características asociadas a los activos en el reporte ACD-FTE.
+   - Los usuarios pueden consultar los reportes de los inventarios tomados desde AMovil.
+   - En el módulo de Almacén de AM 4G, los usuarios pueden filtrar los repuestos según la cantidad disponible. 
+   - En el módulo de Kardex de AM 4G, los usuarios podrán ver el consecutivo del documento directamente en el detalle del movimiento.
+   - En el módulo de Kardex de AM 4G, se podrá visualizar la unidad de consumo en los documentos de entrada. 
+   - Cuando un documento de Kardex genere una salida que deje el inventario por debajo del punto mínimo de pedido, el sistema enviará automáticamente un correo al responsable del almacén. 
+   - En el módulo de Programas de AM 4G, se permite registrar en el presupuesto la cantidad de horas correspondientes a la mano de obra externa. 
+   - Se han añadido tres nuevos reportes en el módulo de Programas de AM 4G PRP-PRMPT, PRP-PRMR, PRP-PRMRT.
+   - En el módulo de Solicitudes de AM 4G, los usuarios podrán registrar y editar la fecha programada de atención.
+   - Se ha incorporado un nuevo filtro por semaforización en el módulo de Solicitudes de AM 4G.
+   - Al momento de cerrar una solicitud en AM 4G, ahora es posible registrar la firma tanto de la persona que recibe el servicio como del técnico que lo ejecutó.
+   - Se ha incorporado un nuevo filtro por semaforización en el módulo de Ordenes de AM 4G.
+   - Al momento de cerrar una Orden de Trabajo en AM 4G, ahora es posible registrar la firma tanto de la persona que recibe el servicio como del técnico que lo ejecutó. 
+   - En el módulo de Órdenes de AM 4G, se permite registrar la cantidad de horas correspondientes a la mano de obra externa.
+   - En el módulo de Historia de AM 4G, se permite registrar la cantidad de horas correspondientes a la mano de obra externa.  
+   - Ahora los usuarios podrán visualizar la unidad de medida de las características asociadas a los activos en el reporte HMD-HIHV y HMD-HIHBVIO.
+   - El usuario administrador de la compañía ahora podrá personalizar los reportes en AM 4G, definir cuales se encuentran hablilitados y modificar su titulo.
+   - Ahora el usuario administrador puede definir si se exige la evaluación del servicio antes de enviar solicitudes u órdenes a Historia. 
+   - En los módulos de AM 4G que permiten el uso de contenido multimedia, ahora el sistema comprimirá automáticamente las imágenes al momento de cargarlas, antes de enviarlas al servidor.
+
+
+- title: AM4G  Version 1.5
+  label: STABLE
+  date: February 04, 2025
+  list:
+   - Se permite a los usuarios relacionar un Encargado del Almacén.
+   - Se adiciona a la Infraestructura los Registros de Residuos para relacionar con los Activos.
+   - Los Usuarios podrán relacionar los residuos con los Activos.
+   - Se genera el indicador de Alertas de Tecnovigilancia, em el modulo de Activos.
+   - Se crea el filtro para buscar por el indicador de Tecnovigilancia.
+   - Se Genera una función para mostrar al sobrepasar el mouse sobre los indicadores de una Ubicación Técnica el código relacionado a la Ubicación Técnica.
+   - Se Genera una función para mostrar al sobrepasar el mouse sobre los indicadores de un Componente Intercambiable el código del activo Padre.
+   - Se desarrolla una función que permite tomar la firma en los Movimientos de Salida, sea a través del mouse, pantalla táctil o un dispositivo Wacom. En el modulo de Kardex.
+   - En el reporte KXR-RTF Informe de Salidas, podrán observar las firmas cargadas.
+   - Se desarrolla el modulode Tecnoviligancia.
+   - El sistema toma la informacion de la pagina del invima y la compara con el numero Invima de los activos registrados en el sistema.
+   - Los usuarios pueden hacer seguimiento a las alertas.
+   - El usuario Administrador de la Compañía puede definir si se permiten o no valores repetidos en el campo Parte Número.
+   
 
 - title: AM4G  Version 1.4
   label: STABLE
