@@ -1,12 +1,13 @@
 ---
 title: Cargos Técnicos/Oficios
-subtitle: Se explican los cargos técnicos, definición, alcance y funcionalidades dentro de la tabla.
-tags: [setup]
+subtitle: Se explican los cargos técnicos, definición, alcance y funcionalidades
+  dentro de la tabla.
+tags:
+  - setup
 author: win
-order: '02_05'
+order: 02_05
+date: 2025-07-10T15:54:25.858Z
 ---
-
-
 Aquí se definen los Oficios o Cargos Técnicos de mantenimiento (afectados por el factor de prestación social) que el área de Relaciones Laborales de la empresa tiene registrados dentro de cada Centro Responsable.
 
 En otras palabras esta es la tabla en la que se registran los nombres de los Cargos Técnicos de mantenimiento a los que se asocian posteriormente las personas de las áreas de mantenimiento.
@@ -14,7 +15,7 @@ En otras palabras esta es la tabla en la que se registran los nombres de los Car
 También se definen aquí las especialidades de los Talleres/Servicios Externos o de los Contratistas que prestan servicios de mantenimiento. Ejemplos: Talleres Eléctricos, Talleres Mecánicos, Talleres de Motores y Bombas; Contratistas de Aire Acondicionado, Contratistas de Mecanizado, Contratistas para Instalaciones de Redes, entre otros. Los oficios son requeridos por los Programas de Mantenimiento y las Órdenes de Trabajo.
 
 ![detalle](../../assets/images/cap02/chp02_img46.png)
-_**Imagen 20.** Ventana Detalle Oficio_
+***Imagen 20.** Ventana Detalle Oficio*
 
 En la gráfica anterior, Ventana Detalle Oficios, se aprecian sus componentes y sus  respectivos contenidos. Se encuentra la información  relevante al Oficio seleccionado en el Visor.
 
@@ -32,5 +33,4 @@ A continuación se describen los campos que componen el registro, sobre cada cam
 
 **Valor Hora 3:** En este campo se registra el valor de la Hora Dominical o Festiva del Oficio referido.
 
-
->**Nota:** Los oficio o espeacialidades relacionados un Centro Responsable de Tipo Eterno, no se definen ya que por lo general éstos cobran por hora o por visita.
+> **Nota:** Los oficio o especialidades relacionados un Centro Responsable de Tipo Eterno, no se definen ya que por lo general éstos cobran por hora o por visita.
