@@ -1,6 +1,6 @@
 ---
 layout: changelog
-title: Publicaciones del registro de cambios
+title: AM 4G - Registro de Cambios
 
 permalink: /changelog-posts/
 ---

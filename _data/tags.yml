@@ -1,28 +1,28 @@
 # Tags
 added:
-  text: Added
+  text: Añadido
   color: "#3778ff"
 
 changed:
-  text: Changed
+  text: Modificado
   color: "#3aaa55"
 
 deprecated:
-  text: Deprecated
+  text: Obsoleto
   color: "#333333"
 
 removed:
-  text: Removed
+  text: Eliminado
   color: "#17caf0"
 
 fixed:
-  text: Fixed
+  text: Corregido
   color: "#ff4772"
 
 security:
-  text: Security
+  text: Seguridad
   color: "#fb3434"
 
 unreleased:
-  text: Unreleased
+  text: No publicado
   color: "#a037ff"
