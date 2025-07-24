@@ -4,7 +4,7 @@ width: expand
 hero:
     title: ¿Cómo podemos ayudarte?
     subtitle: Busca o explora todo sobre AM, desde la configuración básica hasta la personalización
-    image: am_logo.svg
+    image: am_logo.jpg
     search: true
 ---
 
