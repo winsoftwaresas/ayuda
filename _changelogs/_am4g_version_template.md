@@ -11,7 +11,7 @@ media: "../../assets/images/v---/"
 {% include tag.html tag="added" %}  
 Descripción del cambio, recuerda que en la plantilla **tags encuentras más etiquetas**.
 
-![descripción de la imagen](../../assets/images/ruta-de-la-imagen.png)
+![descripción de la imagen]({{ page.media }}/nombre-de-la-imagen.png)
 
 Lorem ipsum dolor et sit a met...
 
