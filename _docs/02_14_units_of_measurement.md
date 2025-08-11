@@ -9,8 +9,13 @@ media: "../../assets/images/docs/"
 
 Es la tabla que se encarga de la definición de los distintos tipos de unidades de medición con el objeto de que se estandarice su uso en dos aspectos: nombre de la unidad y su abreviatura. Las Unidades de Medida (UM) están agrupadas por el concepto Tipo, en el que se establece su categoría de medición: Longitud, superficie, volumen, peso y otra.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img23.png)
-_**Imagen 54.** Ventana Detalle IF Unidade de Medida_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_56.png"
+  alt:"Ventana Detalle IF Unidades de Medida"
+%}
 
 En la gráfica anterior, Ventana Detalle Unidades de Medida, se aprecian sus componentes y sus respectivos contenidos. Indica  la información relevante a la Unidad de Medida seleccionada en el Visor.
 

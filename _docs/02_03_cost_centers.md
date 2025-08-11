@@ -9,8 +9,13 @@ media: "../../assets/images/docs/"
 
 Es la primera tabla que aparece en el listado de Infraestructura, el Centro de Costo (CC) se refiere al área o departamento administrativo, operativo o productivo que recibe servicios de mantenimiento. Se refiere también a la definición contable de los departamentos o áreas responsables de Activos, Equipos o de Objetos de Mantenimiento y por ende de los costos de su mantenimiento.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img27.png)
-_**Imagen 1.** Ventana Visor IF Centros de Costo_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_02.png"
+  alt:"Ventana Visor IF Centros de Costo"
+%}
 
 Los Centros de Costo se utilizan en **AM** para asociar los cargos, por distintos conceptos de costo de mantenimiento, a las Órdenes de Trabajo. Esta asociación posibilita generar múltiples reportes por actividades, costos o tipos de costos para los distintos Centros de Costo definidos en el sistema.
 
@@ -18,8 +23,13 @@ Es posible usar un Centro de Costo con el objeto de compendiar todos los trabajo
 
 En otro contexto, el concepto de Centros de Costo se asocia al concepto de Clientes. Se trata del caso en que una compañía prestadora de servicios de mantenimiento atiende a múltiples clientes y quiere llevar un control detallado de las actividades técnicas ejecutadas y los costos asociados a cada uno de ellos. En este caso el sistema posibilita el registro de datos adicionales sobre el Centro de Costo o Cliente; son ellos el nombre del contacto, su estado, una clasificación y datos generales para su ubicación.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img28.png)
-_**Imagen 2.** Ventana Detalle IF Centro de Costo_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_03.png"
+  alt:"Ventana Detalle IF Centro de Costo"
+%}
 
 En la gráfica anterior, Ventana Detalle Centros de Costo, se encuentra la información relevante al Centro de Costo seleccionado en el visor.
 
@@ -49,7 +59,7 @@ Si el Centro de Costo se refiere a un Cliente, en este campo se define el nombre
 
 **Teléfono (Opcional):** En él se define el número del teléfono correspondiente al Centro de Costo. Si el Centro de Costo se refiere a un Cliente externo, aquí se detalla el teléfono del Cliente. Se debe recordar que al escribir un número telefónico los tres primeros dígitos que se escriben corresponden al indicativo de la ciudad. El programa automáticamente escribe estos tres dígitos dentro de un paréntesis. Los siguientes siete dígitos corresponden al número de teléfono y a partir del octavo dígito corresponde al número de la Extensión telefónica (si aplica). **AM** automáticamente escribe la palabra Ext.
 
-**Correo Electronico:** En este campo se escribe la dirección electrónica del Centro de Costo o del Responsable o Contacto del Centro de Costo.
+**Correo Electrónico:** En este campo se escribe la dirección electrónica del Centro de Costo o del Responsable o Contacto del Centro de Costo.
 
 **Estado:** Indica el estado en que se encuentra el Centro de Costo: Activo o inactivo.
 
@@ -61,9 +71,14 @@ Si el Centro de Costo se refiere a un Cliente, en este campo se define el nombre
 
 Se usa para seleccionar grupos de Centros de Costo que cumplen un conjunto de filtros o criterios. El objetivo de hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al ícono  <span class="mdi mdi-filter-variant"></span> ubicado en la parte superior derecha de la ventana Visor de Centros de Costo.
 
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_04.png"
+  alt:"Ventana Visor IF Centros de Costo"
+%}
 
-![Procesar imagen](../../assets/images/cap02/chp02_img29.png)
-_**Imagen 3.** Ventana Visor IF Centros de Costo_
 
 **AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar.
 
@@ -73,82 +88,155 @@ Cada criterio aparece inicializado en un valor global que permite mostrar todos 
 
 El programa permite entonces hacer selección de un grupo de Centros de Costo de acuerdo con los criterios seleccionados en la siguiente ventana.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img30.png)
-_**Imagen 4.** Ventana Subgrupos Centro de Costo_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_05.png"
+  alt:"Ventana Subgrupos Centro de Costo"
+%}
 
 A continuación se explica brevemente cada criterio que compone el Subgrupo:
 
 **Área/Depto:** Filtra los CC que tengan asignada el área o departamento de la institución ingresada en este campo:
 
-![Procesar imagen](../../assets/images/cap02/chp02_img31.png)
-_**Imagen 5.** Subgrupo Criterio Área/Depto_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_06.png"
+  alt:"Subgrupo Criterio Área/Depto"
+%}
 
 **CC Superior:** Permite filtrar por aquellos CC Superior que fueron asociados a los CC. Lista los CC creados en la tabla de Centros de Costos.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img32.png)
-_**Imagen 6.** Subgrupo Criterio CC Superior_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_07.png"
+  alt:"Subgrupo Criterio CC Superior"
+%}
 
 **Ciudad:** Filtra los CC que están asociados a la Ciudad especificada.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img33.png)
-_**Imagen 7.** Subgrupo Criterio Ciudad_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_08.png"
+  alt:"Subgrupo Criterio Ciudad"
+%}
 
 También se puede escribir la ciudad mediante el uso de comodines. Ejemplo, si se escribe Bog%, el sistema entiende que debe seleccionar aquellos CC cuya ciudad comience por la palabra  “Bog”. El porcentaje a continuación, es un carácter comodín que significa **“todos”**.
 
 **Clase:** Filtra los CC que están asociados a una de las clases listadas.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img34.png)
-_**Imagen 8.** Subgrupo Criterio Clase_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_09.png"
+  alt:"Subgrupo Criterio Clase"
+%}
 
 **Código CC:** Esta selección agrupa los Centros de Costos relacionados por su código. Por ejemplo: si se escribe cont%, el sistema localiza aquellos CC cuyo código empieza por cont. El porcentaje a continuación, es un carácter comodín que significa **“todos”**.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img35.png)
-_**Imagen 9.** Subgrupo Código CC_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_10.png"
+  alt:"Subgrupo Código CC"
+%}
 
 **Código Sub CC:** En  este campo se filtra por el Sub CC asociado a un Centro de Costo.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img36.png)
-_**Imagen 10.** Subgrupo Criterio Código Sub CC_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_11.png"
+  alt:"Subgrupo Criterio Código Sub CC"
+%}
 
 **Contacto:** Filtra los CC que tengan asociada a una persona externa como contacto. Ejemplo: %maria josé% selecciona todos los Centros de Costo cuyo Contacto, en cualquier parte, tengan la palabra **“maria josé”.**
 
-![Procesar imagen](../../assets/images/cap02/chp02_img37.png)
-_**Imagen 11.** Subgrupo Criterio Contacto_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_12.png"
+  alt:"Subgrupo Criterio Contacto"
+%}
 
 **Descripción CC:** Agrupa los CC cuya descripción corresponda a un Centro de Costo Interno o a un Cliente.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img38.png)
-_**Imagen 12.** Subgrupo Criterio Descripción CC_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_13.png"
+  alt:"Subgrupo Criterio Descripción CC"
+%}
 
 **Dirección:** Permite filtrar por la dirección del Área o  Departamento asociada a los CC.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img39.png)
-_**Imagen 13.** Subgrupo Dirección_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_14.png"
+  alt:"Subgrupo Dirección"
+%}
 
 **Correo Electrónico:** Filtra la dirección electrónica asociada a un CC.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img40.png)
-_**Imagen 14.** Subgrupo Criterio Correo Electrónico_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_15.png"
+  alt:"Subgrupo Criterio Correo Electrónico"
+%}
 
 **Estado:** Permite la selección de los CC de acuerdo al estado de Activo o Inactivo. El estado de los CC es importante para la selección en las listas  desplegables.
 **Por ejemplo:** Si un CC, tiene definido el Estado  “Inactivo”, esta no aparecerá en la lista de los Contratos, Terceros, módulos de Activos, Kárdex, Programas, Solicitudes de Servicio, Paros, Órdenes de Trabajo, Historia y Administración.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img41.png)
-_**Imagen 15.** Subgrupo Criterio Estado_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_16.png"
+  alt:"Subgrupo Criterio Estado"
+%}
 
 **Responsable:** Filtra los CC (tipo: mantenimiento y usuario) cuyos responsables corresponden al diligenciado en el campo.
 
-![Proccesar imagen](../../assets/images/cap02/chp02_img42.png)
-_**Imagen 16.** Subgrupo Criterio Responsable_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_17.png"
+  alt:"Subgrupo Criterio Responsable"
+%}
 
 **Teléfono:** Filtra por el teléfono asociado a un CC.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img43.png)
-_**Imagen 17.** Subgrupo Criterio Teléfono_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_18.png"
+  alt:"Subgrupo Criterio Teléfono"
+%}
 
 **Tipo:** Agrupa los CC de acuerdo al tipo seleccionado.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img44.png)
-_**Imagen 18.** Subgrupo Criterio Tipo_
-
-
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_19.png"
+  alt:"Subgrupo Criterio Tipo"
+%}

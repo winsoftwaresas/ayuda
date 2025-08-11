@@ -11,8 +11,13 @@ El objetivo de esta nueva tabla es registrar las magnitudes que se desean asocia
 
 En esta tabla sólo se registran los nombres de la Magnitud. Se cuenta con 60 dígitos para  ingresar la magnitud deseada.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img49.png)
-_**Imagen 60.** Ventana Detalle Magnitud_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_62.png"
+  alt:"Ventana Detalle Magnitud"
+%}
 
 En la gráfica anterior, Ventana Detalle de la Magnitud, se aprecian sus componentes y sus respectivos contenidos. Se encuentra la información relevante a la Magnitud seleccionada en el Visor.
 

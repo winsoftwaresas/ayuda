@@ -9,8 +9,13 @@ media: "../../assets/images/docs/"
 
 En esta tabla se describen las formas en que una falla se manifiesta inmediatamente después de ocurrir. Se trata de las consecuencias de la falla, de los  efectos que esa falla ocasionó. Es un concepto que aunque ligado también a la falla es diametralmente opuesto a la causa. La causa, que normalmente es una sola, es la fuente de la falla, su origen. El efecto en cambio es la forma como se percibe, como se muestra la falla, una vez ha ocurrido. Hay efectos sonoros, otros son de rompimiento, otros son de generación de calor, otros de suspensión de la energía o de inoperancia o malfuncionamiento del equipo. La mayoría de ellos esconde, oculta o enmascara la causa real de la falla.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img58.png)
-_**Imagen 67.** Ventana Detalle Efecto de Falla (Acción Técnica)_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_69.png"
+  alt:"Ventana Detalle Efecto de Falla (Acción Técnica)"
+%}
 
 A continuación se describen los campos que componen el registro:
 
@@ -24,4 +29,4 @@ En la ventana anterior, las Acciones Técnicas se seleccionan de la lista despeg
 
 Para desasociar una Acción Técnica de un Efecto de Falla, se da clic en la Acción a desasociar y se presiona el icono de basura <span class="mdi mdi-delete"></span>.
 
-> _**Nota:** Es importante tener en cuenta que las asociaciones y desasociaciones solo surten efecto al Actualizar o guardar el Efecto de Falla._
+> **Nota:** Es importante tener en cuenta que las asociaciones y desasociaciones solo surten efecto al Actualizar o guardar el Efecto de Falla.

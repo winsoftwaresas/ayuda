@@ -16,18 +16,27 @@ Aunque el objetivo general es el registro de los contratos anuales, también es 
 También es posible realizar el seguimiento de la vigencia de los Contratos, directamente desde la ventana visor, a través de la columna  “Indicadores” que muestra una pelota de color que indica su estado de vigencia acuerdo a la cantidad de días o meses. El significado del color de cada pelota, se puede ver en el ícono de Indicador <span class="mdi mdi-message-alert"></span>, ubicado en la parte superior derecha de la ventana
 visor.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img59.png)
-_**Imagen 42.** Ventana Visor Contratos_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_44.png"
+  alt:"Ventana Visor Contratos"
+%}
 
 La renovación de contratos se realiza utilizando la numeración del contrato anterior, realizando  una copia y adicionando un consecutivo adicional que relacione esta renovación con su contrato original.
 
 **Ejemplo:** Código 00008 (contrato original), Código 00008-1 (renovación del contrato)
 
-![Procesar Imagen ](../../assets/images/cap02/chp02_img60.png)
-_**Imagen 43.** Ventana Detalle del Contrato_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_45.png"
+  alt:"Ventana Detalle del Contrato"
+%}
 
 En la gráfica anterior, Ventana Detalle del Contrato. Se encuentra la información relevante al Contrato seleccionado en el Visor:
-
 
 #### Identificación
 
@@ -45,12 +54,9 @@ En la gráfica anterior, Ventana Detalle del Contrato. Se encuentra la informaci
 
 **Fecha Fin Vigencia:** En este campo se define la fecha en la que está prevista la terminación de la vigencia del Contrato.
 
-
 **Valor Contrato Año:** En este campo se indica el valor total anual del Contrato. Se habla de Valor Contrato Año refiriéndose a aquellos Contratos que se realizan anualmente, por ejemplo, el mantenimiento anual de los aires acondicionados. En otros  casos se refiere al costo total del contrato durante su vigencia.
 
-
 **Tipo de Contrato:** Se establecen dos tipos:
-
 
 - **Se recibe el servicio:** Un tercero externo (RX) presta el servicio como contratista y la compañía recibe el servicio como contratante. Los costos asociados al contrato son la mano de Obra de externa, Materiales/Repuestos y Otros Conceptos de Costo asociados a las Órdenesde Trabajo relacionadas a estos contratos.
 
@@ -62,10 +68,7 @@ En la gráfica anterior, Ventana Detalle del Contrato. Se encuentra la informaci
 
 **Responsable:** Según el tipo de contrato aqui se registra el nombre propio o la razón social de la persona natural o jurídica que es Responsable, como contratista, del manejo y ejecución del contrato. Los contratistas que se registran en esta tabla deben haber sido creados previamente  en la tabla de Terceros, y su tipo debe ser Responsable Externo / Contratista (RX) ó RI (Responsable Interno según el tipo de contrato).
 
-
 **Centro de Costo:** Para registrar el código correspondiente al Cliente externo al que se le presta servicio a través del Contrato. Este campo no tiene ninguna incidencia en otros casos y aplica principalmente cuando es la organización la que presta el servicio.
-
-
 
 **Estado:** Se selecciona el estado del contrato, puede encontrarse Activo o Inactivo.
 
@@ -81,9 +84,13 @@ En la gráfica anterior, Ventana Detalle del Contrato. Se encuentra la informaci
 
 Esta nueva funcionalidad permite asociar el Contrato de forma digital.
 
-![Procesar Imagen](../../assets/images/cap02/chp02_img61.png)
-_**Imagen 44.** Ventana Detalle del Contrato (Multimedia)_
-
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_46.png"
+  alt:"Ventana Detalle del Contrato (Multimedia)"
+%}
 
 A través de la ventana Multimedia se adjunta información adicional al Contrato en cada una de sus carpetas asignadas. Esta opción permite asociar al Contrato, uno o varios documentos, con el  objetivo de facilitar el trabajo a realizar, o guiarlo, o detallarlo minuciosamente. Se aceptan documentos de extensiones .DOC, XLS, PDF, JPG, es decir, de Microsoft Word o Microsoft Excel, Acrobat o Imágenes varias.
 
@@ -102,25 +109,50 @@ A continuación se describen las carpetas que componen esta ventana; cuando se q
 Para adicionar un documento, imagen o video, se debe dar acceder a la carpeta deseada por medio de un doble clic, luego accionar el botón <span class="mdi mdi-cloud-upload icon white"></span> que abre el explorador de archivos. Seleccione el archivo y accione nuevamente en 
 <a class="btn cl-w bg-gray bd-gray bg-white px-6"> Abrir </a>, como se muestra a continuación:
 
-![Procesar imagen](../../assets/images/cap02/chp02_img62.png)
-_**Imagen 45.** Contrato Porción Multimedia_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_47.png"
+  alt:"Contrato Porción Multimedia"
+%}
 
-Luego,  se evidencia al lado derecho el nombre del archivo elegido y aparece un campo en blanco, para que el usuario escriba un nombre adicional del archivo para ser usado como una referenciación del archivo adjunto. Luego, se da clic en el botón <a class="btn white">Subir archivo</a>.
+Luego,  se evidencia al lado derecho el nombre del archivo elegido y aparece un campo en blanco, para que el usuario escriba un nombre adicional del archivo para ser usado como una referencia del archivo adjunto. Luego, se da clic en el botón <a class="btn white">Subir archivo</a>.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img63.png)
-_**Imagen 46.** Adjuntar un Archivo_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_48.png"
+  alt:"Adjuntar un Archivo"
+%}
 
 Los archivos que se van adicionando van quedando guardados uno debajo del otro. Solo los formatos de tipo imagen tienen previsualización dando clic sobre el registro:
 
-![Procesar imagen](../../assets/images/cap02/chp02_img64.png)
-_**Imagen 47.** Archivo adjunto_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_49.png"
+  alt:"Archivo adjunto"
+%}
 
 Para desasociar un documento, o una imagen o un video, al Contrato se da clic al ícono <span class="mdi mdi-delete"></span> que se encuentra al lado derecho del archivo al que se le va a realizar la operación. El sistema alerta al usuario antes de ejcutar tal acción y para continuar accionar el botón  <a class="btn cl-black bg-gray bd-gray px-6"> ACEPTAR </a>.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img65.png)
-_**Imagen 48.** Eliminar un archivo_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_50.png"
+  alt:"Eliminar un archivo"
+%}
 
 Para descargar un archivo adjunto al Contrato, se debe dar clic en el icono  <span class="mdi mdi-cloud-download icon white"></span> que se encuentra al lado derecho del archivo que se quiere descargar, como se muestra a continuación:
 
-![Procesar imagen](../../assets/images/cap02/chp02_img66.png)
-_**Imagen 49.** Descargar archivo_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_51.png"
+  alt:"Descargar archivo"
+%}

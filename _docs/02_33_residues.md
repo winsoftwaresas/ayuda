@@ -11,23 +11,40 @@ El control adecuado de los residuos generados por los activos industriales, maqu
 
 Para ingresar, dar un clic sobre la siguiente tabla, que conlleva a la ventana visor:
 
-
-![Procesar imagen](../../assets/images/cap02/chp02_img83.png)
-_**Imagen 78.** Infraestructura - Ir a Residuos_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_83.png"
+  alt:"Infraestructura - Ir a Residuos"
+%}
 
 <br>
 
-![Procesar imagen](../../assets/images/cap02/chp02_img84.png)
-_**Imagen 79.** Infraestructura - Residuos_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_84.png"
+  alt:"Infraestructura - Residuos"
+%}
 
-El usuario puede configurar o crear aquellos desechos, residuos o despercidicios de los Activos, esto se hace a través del botón <a class="btn cl-blue bg-white px-3"> NUEVO</a>. Esto trae el siguiente formulario de la ventana detalle:
+El usuario puede configurar o crear aquellos desechos, residuos o desperdicios de los Activos, esto se hace a través del botón <a class="btn cl-blue bg-white px-3"> NUEVO</a>. Esto trae el siguiente formulario de la ventana detalle:
 
-![Procesar imagen](../../assets/images/cap02/chp02_img85.png)
-_**Imagen 80.** Infraestructura - Crear Nuevo_
-
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_85.png"
+  alt:"Infraestructura - Crear Nuevo"
+%}
 
 De igual forma es posible actualizar información a través del botón <a class="btn blue">ACTUALIZAR <span class="mdi mdi-pencil"></span></a>:
 
-
-![Procesar imagen](../../assets/images/cap02/chp02_img86.png)
-_**Imagen 81.** Infraestructura - Actualizar Residuos_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_86.png"
+  alt:"Infraestructura - Actualizar Residuos"
+%}

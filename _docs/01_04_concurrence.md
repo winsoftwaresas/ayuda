@@ -31,7 +31,7 @@ Generadas las Órdenes de Trabajo, se procede a lograr un acuerdo con Producció
 
 La Gestión de Mantenimiento se apoya fundamentalmente en el módulo de <a class="btn cl-white bg-blue">Órdenes</a>, que contiene todas las actividades pendientes de ejecución o en ejecución.
 
-Cada Órden de Trabajo se ejecuta y en ella se compendia toda la información generada en tal ejecución: Centro de Costo, Centro Responsable, Responsable, Costos (Mano de Obra Interna y Externa, Materiales y Repuestos y otros), Tiempos de Ejecución, Duración e Improductivos, Comentarios generales y Multimedia.
+Cada Orden de Trabajo se ejecuta y en ella se compendia toda la información generada en tal ejecución: Centro de Costo, Centro Responsable, Responsable, Costos (Mano de Obra Interna y Externa, Materiales y Repuestos y otros), Tiempos de Ejecución, Duración e Improductivos, Comentarios generales y Multimedia.
 
 Terminada la actualización de la información de la OT ejecutada, se procede a liquidarla y cerrarla. Las OT en estado “cerrada” permanecen activas en el módulo. Las OT que no se ejecutan deben ser “canceladas”, registrando la razón de la no ejecución mediante comentarios.
 

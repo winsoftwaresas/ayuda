@@ -57,8 +57,13 @@ Donde los dos primeros caracteres significan:
 - **MN** Trabajos que constituyen Mantenimiento.
 - **TV** Trabajos Varios
 
-![Procesar imagen](../../assets/images/cap02/chp02_img53.png)
-_**Imagen 52.** Ventana Detalle Tipos de Actividad_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_54.png"
+  alt:"Ventana Detalle Tipos de Actividad"
+%}
 
 En la gráfica anterior, Ventana Detalle del Tipo de Actividad, se encuentra la información relevante al Tipo de Actividad seleccionado en el Visor.
 

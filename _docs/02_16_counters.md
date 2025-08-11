@@ -11,8 +11,13 @@ En esta tabla de Infraestructura se registran los medidores o contadores de esta
 
 Cuando el sistema se inicializa, en la tabla de Contadores aparece una propuesta de contadores básicos, que puede ser modificada o complementada de acuerdo al interés de la compañía usuaria.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img25.png)
-_**Imagen 56.** Ventana Detalle IF Contador_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_58.png"
+  alt:"Ventana Detalle IF Contador"
+%}
 
 En la gráfica anterior, Ventana Detalle Contadores, se aprecian sus componentes y sus respectivos contenidos. Indica la información relevante al Contador seleccionado en el Visor.
 

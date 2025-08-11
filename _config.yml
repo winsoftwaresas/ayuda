@@ -145,12 +145,14 @@ sass:
 collections:
   docs:
     output:         true
+    media_path: "/assets/images/docs/"
   faqs:
     output:         false
   changelogs:
     output:         false
   components:
     output:         true
+    media_path: "/assets/images/components/"
 
 # Defaults
 defaults:

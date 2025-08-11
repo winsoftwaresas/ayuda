@@ -33,9 +33,13 @@ La conversión también se da cuando se trata de un campo de días (DD), por eje
 
 A continuación, se describe la convención utilizada para la nomenclatura de los Reportes de **AM**. Se ha implementado esta convención con el fin de mejorar el proceso de búsqueda de los mismos.
 
-![Procesar imagen](../../assets/images/cap01/chp01_img63.png)
-
-_**Imagen 13.** Nomenclatura de Reportes_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"01_13.png"
+  alt:"Nomenclatura de Reportes"
+%}
 
 ### Módulo o Categoría al que pertenece el Reporte:
 
@@ -96,7 +100,12 @@ Para establecer este parámetro, debe tenerse a mano un calendario empresarial d
 
 Es importante tener en cuenta que AM cambia el consecutivo u ordinal de las Órdenes de Trabajo cada que comienza un año automáticamente, para esto debe asegurarse que tenga la siguiente configuración en <a class="btn cl-white bg-blue">Administración</a>, **Valores por Defecto**, etiqueta **Órdenes** y en el campo **Año OT** tener indicado el cero. 
 
-![Procesar Imagen](../../assets/images/cap01/chp01_img64.png)
-
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"01_14.png"
+  alt:"Ventana Valores por Defecto"
+%}
 
 Siempre que realice modificaciones debe <a class="btn bg-gray cl-blue">Actualizar</a> para guardar los cambios. 

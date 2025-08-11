@@ -15,8 +15,13 @@ En otras palabras esta es la tabla en la que se registran los nombres de los Car
 
 También se definen aquí las especialidades de los Talleres/Servicios Externos o de los Contratistas que prestan servicios de mantenimiento. Ejemplos: Talleres Eléctricos, Talleres Mecánicos, Talleres de Motores y Bombas; Contratistas de Aire Acondicionado, Contratistas de Mecanizado, Contratistas para Instalaciones de Redes, entre otros. Los oficios son requeridos por los Programas de Mantenimiento y las Órdenes de Trabajo.
 
-![detalle](../../assets/images/cap02/chp02_img46.png)
-***Imagen 20.** Ventana Detalle Oficio*
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_21.png"
+  alt:"Ventana Detalle Oficio"
+%}
 
 En la gráfica anterior, Ventana Detalle Oficios, se aprecian sus componentes y sus  respectivos contenidos. Se encuentra la información  relevante al Oficio seleccionado en el Visor.
 

@@ -9,8 +9,13 @@ media: "../../assets/images/docs/"
 
 Los Riesgos corresponden a los riesgos asociados a cada uno de los Activos/Equipos que se encuentran definidos en el módulo de Activos.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img48.png)
-_**Imagen 59.** Ventana Detalle del Riesgo_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_61.png"
+  alt:"Ventana Detalle del Riesgo"
+%}
 
 En la gráfica anterior, Ventana Detalle del Riesgo, se aprecian sus componentes y  sus respectivos contenidos.Se encuentra la información relevante al Riesgo seleccionado en el Visor.
 

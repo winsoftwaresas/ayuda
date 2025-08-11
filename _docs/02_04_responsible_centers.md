@@ -18,7 +18,7 @@ En primer lugar como Centros especialistas en cada uno de los tipos de  mantenim
 
 Pero pueden ser también Centros técnicos de mantenimiento multiobjetivo, conformados por especialistas de cada tipo de mantenimiento, que prestan servicio a uno o varios sectores productivos de la organización.
 
-El **AM** administra los Centros Responsables de mantenimiento de la empresa cualquiera que sea su forma en la jerarquía organizacional.
+**AM** administra los Centros Responsables de mantenimiento de la empresa cualquiera que sea su forma en la jerarquía organizacional.
 
 Se debe definir además, como un Centro Responsable, al conjunto de Talleres o Servicios Externos que prestan servicio a la empresa, por solicitud y a elección de ella,  sin  que exista un compromiso previo contractual.
 
@@ -34,8 +34,13 @@ De igual forma, debe constituir un Centro Responsable el conjunto de Contratista
 
 **Taller Eléctrico:** Tall.Elec
 
-![Procesar imagen](../../assets/images/cap02/chp02_img45.png)
-_**Imagen 19.** Ventana Detalle Centro Responsable_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_20.png"
+  alt:"Ventana Detalle Centro Responsable"
+%}
 
 En la gráfica anterior, Ventana Detalle Centro Responsable, se aprecian sus componentes y sus respectivos contenidos. Se encuentra la información relevante al Centro Responsable seleccionado en el Visor.
 

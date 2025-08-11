@@ -13,14 +13,19 @@ Es la tabla de Infraestructura en la que se definen los distintos Almacenes, Bod
 
 **AM** versión ST es un sistema monocompañía y multialmacén.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img22.png)
-_**Imagen 53.** Ventana Detalle IF Almacén_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_55.png"
+  alt:"Ventana Detalle IF Almacén"
+%}
 
 En la gráfica anterior, Ventana Detalle Almacén, se encuentra la información relevante al Almacén seleccionado en el Visor.
 
 A continuación se describen los campos que componen el registro:
 
-**Código:** Este campo recibe un número de máximo dos dígitos, asignado automáticamente ppor el sistema con el cual se identifica la bodega o Almacén de Equipos o Repuestos.
+**Código:** Este campo recibe un número de máximo dos dígitos, asignado automáticamente por el sistema con el cual se identifica la bodega o Almacén de Equipos o Repuestos.
 
 **Nombre:** Se define el nombre del Almacén.
 
@@ -40,6 +45,6 @@ Utilizar uno u otro método depende de si el Almacén es contable o no. Se recom
 
 Esta funcionalidad, permitirá a futuro definir si el Almacén seleccionado es Contable, es decir, tendrá una interacción con el sistema contable de la organización la cual generara un costo o factura de venta; y No Contable hace referencia al Almacén que guarda el inventario de Repuestos para simple funcionalidad del sistema **AM**. Por defecto, cuando se crea un almacén el tipo se define con NO CONTABLE.
 
-**Almacén Corporativo:** Este switche indica si el almacén al cual se está haciendo referencia es el corporativo. Cuando se define si es el almacén corporativo, se declara con la palabra **“SI”**, en caso contrario se define con la palabra **“NO”**. Para definir el almacén corporativo se realiza en el módulo de <a class="btn cl-white bg-blue px-6"> Administración </a>, en la opción **Valores por defecto**, en la etiqueta Almacén, existe la opción de **“Almacén corporativo”** con un combo desplegable para escoger cual es el almacén.
+**Almacén Corporativo:** Este switch indica si el almacén al cual se está haciendo referencia es el corporativo. Cuando se define si es el almacén corporativo, se declara con la palabra **“SI”**, en caso contrario se define con la palabra **“NO”**. Para definir el almacén corporativo se realiza en el módulo de <a class="btn cl-white bg-blue px-6"> Administración </a>, en la opción **Valores por defecto**, en la etiqueta Almacén, existe la opción de **“Almacén corporativo”** con un combo desplegable para escoger cual es el almacén.
 
 **Comentario:** Aquí se ingresan los comentarios sobre el Almacén, Centro de Costo o sobre un Cliente, representado por su Centro de Costo.

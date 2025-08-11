@@ -11,5 +11,10 @@ Dependiendo de las actividades técnicas a realizar, esta tabla presenta los dis
 
 WIN Software recomienda no modificar la tabla de Tipos de Mantenimiento. Sin embargo, es posible definir variaciones de estos tipos de Mantenimiento y asociarlas con los Tipos de Actividad, permitiendo así combinaciones personalizadas según las necesidades específicas.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img81.png)
-_**Imagen 51.** Visor Tipos de Mantenimiento_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_53.png"
+  alt:"Visor Tipos de Mantenimiento"
+%}

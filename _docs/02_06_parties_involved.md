@@ -18,13 +18,23 @@ Almacena la información de cuatro tipos diferentes de entes terceros relacionad
 
 **Otro Tipo de Tercero (OT):** Este grupo está abierto para definir otros tipos de Terceros requeridos por condiciones particulares de cada organización. Únicamente se puede usar en conjunto con el tipo RI, para indicar que son usuarios solicitantes.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img02.png)
-_**Imagen 211.** Ventana IF Visor Terceros_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_22.png"
+  alt:"Ventana IF Visor Terceros"
+%}
 
 En la porción de la ventana Visor de Terceros que se aprecia en la gráfica aparecen las columnas correspondientes a los campos más significativos de esta tabla. Al seleccionar un registro de esta ventana, se muestra la ventana Detalle con la  información completa del Tercero seleccionado.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img03.png)
-_**Imagen 22.** Ventana Detalle Tercero_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_23.png"
+  alt:"Ventana Detalle Tercero"
+%}
 
 En la ventana Detalle de Terceros se encuentra toda la información relevante del Tercero seleccionado en el Visor. Es una ventana que de no visualizarse completa debe ser recorrida con la ayuda de la barra de desplazamiento vertical.
 
@@ -77,9 +87,9 @@ Cuando se vaya a escribir un número telefónico es importante tener en cuenta q
 
 **Tipo de Régimen:** Se refiere al conjunto de reglas y normas fiscales que se aplican a un contribuyente (persona física o moral) para determinar cómo debe cumplir con sus obligaciones tributarias, como el pago de impuestos. Dependiendo de la situación del contribuyente (como su tamaño, ingresos, actividad económica, etc.), puede estar sujeto a diferentes tipos de régimen fiscales.
 
-**Autorretenedor:** El término "tercero autorretenedor" hace referencia a una figura que tiene la obligación de retener impuestos a otras personas o entidades en nombre del fisco, y además, autoretenerse los impuestos correspondientes a su propia actividad económica.Esta distinción depende de las normativas fiscales de cada país y del tipo de actividades o régimen fiscal al que esté sujeto el contribuyente.
+**Autorretenedor:** El término "tercero autorretenedor" hace referencia a una figura que tiene la obligación de retener impuestos a otras personas o entidades en nombre del fisco, y además, autorretenerse los impuestos correspondientes a su propia actividad económica.Esta distinción depende de las normativas fiscales de cada país y del tipo de actividades o régimen fiscal al que esté sujeto el contribuyente.
 
-**Potencial Generador de Garantía:**  Hace referencia un Tercero, normalmente externo, que puede prestar garantía: Es decir, al activar esta opción el sistema crea a esta persona o entidad como un Centro de Costo de tipo **Externo** con el fin de poder asignarse una Órden de Trabajo para ejercer garantía y asumir los costos de la labor y como Responsable ejecutor.
+**Potencial Generador de Garantía:**  Hace referencia un Tercero, normalmente externo, que puede prestar garantía: Es decir, al activar esta opción el sistema crea a esta persona o entidad como un Centro de Costo de tipo **Externo** con el fin de poder asignarse una Orden de Trabajo para ejercer garantía y asumir los costos de la labor y como Responsable ejecutor.
 
 **Comentario:** Aquí se ingresan los comentarios para hacer aclaraciones sobre el Tercero que se ingresa.
 
@@ -91,8 +101,13 @@ Esta nueva funcionalidad se usa para realizar un seguimiento detallado a los Ter
 
 A continuación, se explica las Certificaciones de Terceros tipo RI, cuya finalidad es que el usuario pueda asociar información importante del responsable ejecutor de la institución como hoja de vida, documento, tarjeta profesional, pasantías, cursos, registro Invima, entre otros.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img04.png)
-_**Imagen 23.** Certificaciones TE_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_24.png"
+  alt:"Certificaciones TE"
+%}
 
 En la gráfica anterior, pestaña Certificaciones, se aprecian sus componentes y sus respectivos contenidos. En la ventana Detalle de Terceros se encuentra la información relevante a la Certificación del Tercero seleccionado en el Visor.
 
@@ -108,10 +123,15 @@ Para actualizar la información de alguna certificación, se ingresa la nueva in
 
 **Certificaciones Terceros Tipo RX**
 
-A continuación la explicación de los Técnicos de Terceros tipo RX, cuya finalidad es que el usuario pueda asociar información importante del contratista o servicio externo como el tecnico responsable ejecutor hoja de vida, documento, tarjeta profesional, pasantías, cursos, registro Invima, entre otros; y que pueda asociar el técnico específico a ejecutar la labor en la Órden de Trabajo.
+A continuación la explicación de los Técnicos de Terceros tipo RX, cuya finalidad es que el usuario pueda asociar información importante del contratista o servicio externo como el técnico responsable ejecutor hoja de vida, documento, tarjeta profesional, pasantías, cursos, registro Invima, entre otros; y que pueda asociar el técnico específico a ejecutar la labor en la Orden de Trabajo.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img05.png)
-_**Imagen 24.** Técnicos_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_25.png"
+  alt:"Técnicos"
+%}
 
 En la gráfica anterior, pestaña Técnicos, se aprecian sus componentes y sus respectivos contenidos. En la ventana Detalle de Terceros se  encuentra la información relevante al Técnico del Tercero seleccionado en el Visor.
 
@@ -129,7 +149,7 @@ A continuación se describen los campos que componen el registro. Sobre cada uno
 
 **Registro Sanitario Invima:** En este campo se escribe el número del Registro Sanitario Invima de la persona que ejecutará las labores de mantenimiento a la institución actual.
 
-**Requiere Certificación:** Este switche permite que al vencerse cualquier documento de una persona, se asigne una pelota de color rojo o verde, para indicar que se encuentra activo, en la columna  **Habilitado** de la tabla de Técnicos y en la ventana visor de **Terceros** en la columna **Indicadores**. El objetivo es que el usuario pueda enterarse con antelación de los vencimientos de los documentos de las personas que ejecutarán las labores de mantenimiento a la institución.
+**Requiere Certificación:** Este switch permite que al vencerse cualquier documento de una persona, se asigne una pelota de color rojo o verde, para indicar que se encuentra activo, en la columna  **Habilitado** de la tabla de Técnicos y en la ventana visor de **Terceros** en la columna **Indicadores**. El objetivo es que el usuario pueda enterarse con antelación de los vencimientos de los documentos de las personas que ejecutarán las labores de mantenimiento a la institución.
 
 
 #### Certificaciones
@@ -141,8 +161,13 @@ A continuación se describen los campos que componen el registro. Sobre cada uno
 **Adjuntar Documentos:** Para adjuntar el documento/certificación, se debe dar clic al botón <a class="btn cl-w bg-gray black bd-black bg-white px-6"> Seleccionar archivo </a>
 . En el explorador de archivos se selecciona dando doble clic sobre el archivo o clic al botón <a class="btn cl-w bg-gray black bd-black bg-white px-6"> Abrir </a>, al lado derecho del campo se muestra el nombre del archivo adjunto. Para insertar los datos en esta tabla se da clic en el botón <span class="mdi mdi-plus-circle icon bg-gray cl-blue "></span> y para actualizar la información de un técnico existente, se debe seleccionar el registro con un clic y luego accionar el botón <a class="btn cl-blue bg-gray px-6"> Actualizar Técnico </a>.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img05_01.png)
-_**Imagen 26.** Actualizar Técnicos_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_26.png"
+  alt:"Actualizar Técnicos"
+%}
 
 Para finalizar el proceso, en ambos casos, se debe dar clic al botón <a class="btn blue">ACTUALIZAR <span class="mdi mdi-pencil"></span></a>. 
 
@@ -153,8 +178,13 @@ Si se desea desasociar un Técnico, se debe dar clic al icono de <span class="md
 
 Es posible visualizar de manera inmediata, los Terceros habitados e inhabilitados, directamente desde la ventana visor, a través de la columna **“Indicadores”** que muestra una pelota de color que indica su estado. El significado del color de cada pelota, se puede ver en el recuadro de Indicadores ubicado en la parte superior derecha de la ventana visor, como se muestra a continuación: 
 
-![Procesar imagen](../../assets/images/cap02/chp02_img06.png)
-_**Imagen 25.** Indicadores Terceros_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_27.png"
+  alt:"Indicadores Terceros"
+%}
 
 El significado de los colores se visualiza al sobreponer el mouse en el icono <span class="mdi mdi-message-alert"></span> que se encuentra al extremo superior derecho y su correspondencia es:
 
@@ -165,8 +195,13 @@ El significado de los colores se visualiza al sobreponer el mouse en el icono <s
 
 Se usa para seleccionar grupos de Terceros que cumplen un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al subgrupo <span class="mdi mdi-filter-variant"></span>, ubicado en la parte superior derecha de la ventana Visor de Terceros.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img07.png)
-_**Imagen 26.** Subgrupos_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_28.png"
+  alt:"Subgrupos"
+%}
 
 **AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar.
 
@@ -176,8 +211,13 @@ Cada criterio aparece inicializado en un valor global que permite mostrar **todo
 
 El programa permite hacer selección de un grupo de Terceros de acuerdo con los criterios seleccionados en la siguiente ventana, pueden combinarse con el fin de tener resultados de búsquedas mas exactas.
 
-![Procesar imagen ](../../assets/images/cap02/chp02_img08.png)
-_**Imagen 27.** Ventana Subgrupo Terceros_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_29.png"
+  alt:"Ventana Subgrupo Terceros"
+%}
 
 Los campos de datos que constituyen los criterios de selección son los siguientes:
 
@@ -185,8 +225,13 @@ Los campos de datos que constituyen los criterios de selección son los siguient
 
 **Centro Responsable:** Lista los centros responsables registrados en el sistema, como se muestra en la siguiente imagen:
 
-![Procesar imagen ](../../assets/images/cap02/chp02_img09.png)
-_**Imagen 28.** Subgrupo Criterio Centro Responsable_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_30.png"
+  alt:"Subgrupo Criterio Centro Responsable"
+%}
 
 También se puede buscar un centro responsable o un grupo mediante el uso de comodines, para ello, se debe accionar el ícono <span class="mdi mdi-lock"></span>. Luego, si se ingresa %adm%, el sistema entiende que debe seleccionar aquellos Terceros cuyo centro responsable tenga incluida la secuencia **“adm”**.
 
@@ -196,8 +241,13 @@ También se puede buscar un centro responsable o un grupo mediante el uso de com
 
 **Tipo:** Filtra los Terceros de Tipo Responsable Interno, Responsable Externo, Proveedor/Fabricante u Otro, al dar clic en uno o algunos de los cuadros de selección o hacer una combinación entre ellos.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img10.png)
-_**Imagen 29.** Subgrupo Criterio Tipo_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_31.png"
+  alt:"Subgrupo Criterio Tipo"
+%}
 
 **Contacto:** Permite la selección de los Terceros que tengan un contacto asociado, ya sea el mismo nombre del Tercero o el nombre de la persona representante de la empresa.
 
@@ -207,8 +257,13 @@ _**Imagen 29.** Subgrupo Criterio Tipo_
 
 **Oficio:** Muestra los Terceros que tengan asignados el Oficio seleccionado.
 
-![Procesar imagen ](../../assets/images/cap02/chp02_img11.png)
-_**Imagen 30.** Subgrupo Criterio Oficio_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_32.png"
+  alt:"Subgrupo Criterio Oficio"
+%}
 
 De igual forma, se puede elegir el oficio mediante la opción utilizar comodines, para ello, se debe dar clic al icono <span class="mdi mdi-lock"></span>. Esta selección agrupa los Terceros relacionados por su oficio. Por ejemplo: si se escribe ayudante%, el sistema localiza aquellos Terceros cuyo oficio empieza por la palabra **“ayudante”**.
 

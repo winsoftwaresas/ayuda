@@ -19,11 +19,16 @@ A continuación se describen los campos que componen el registro, sobre cada cam
 
 **Adicionar OP:** Es posible adicionar una o varias Operaciones a una Referencia.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img71.png)
-_**Imagen 71.** Ventana Detalle Referencia_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_74.png"
+  alt:"Ventana Detalle Referencia"
+%}
 
 En la ventana anterior Ventana Detalle de la Referencia se seleccionan las Operaciones de la lista despegable y se adicionan con el botón del signo Más <span class="mdi mdi-plus-circle icon white"></span> a la lista de Operaciones asociadas a una Referencia.
 
 Para desasociar una Operación, se ubica el cursor en la Operación a desasociar y se presiona el icono de Eliminar (basura) <span class="mdi mdi-delete"></span> eliminar (basura).
 
->_**Nota:** Es importante tener en cuenta que las asociaciones y desasociaciones solo surten efecto al Actualizar o guardar la Referencia._
+> **Nota:** Es importante tener en cuenta que las asociaciones y desasociaciones solo surten efecto al Actualizar o guardar la Referencia.

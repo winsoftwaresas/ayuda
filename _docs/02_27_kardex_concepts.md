@@ -9,8 +9,13 @@ media: "../../assets/images/docs/"
 
 El objetivo es registrar los tipos de movimientos en un Almacén. Estas transacciones de movimientos pueden ser de Entrada, de Salida o de Ajuste de inventarios. Cada transacción de movimiento o concepto de Kárdex tiene asociado: un código o número distintivo (de 01 a 49, o, de 001 a 499, para las entradas por ejemplo) y otras condiciones de su uso.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img67.png)
-_**Imagen 67.** Ventana Detalle IE Concepto de Kardex_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_70.png"
+  alt:"Ventana Detalle IE Concepto de Kardex"
+%}
 
 A continuación se describen los campos que componen el registro, sobre cada campo se da una breve explicación:
 
@@ -37,8 +42,13 @@ Es una opción para definir si el concepto corresponde a ítem que son suministr
 
 Se usa para seleccionar grupos de Conceptos de Kárdex que cumplen un conjunto de filtros o criterios. El objetivo de hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al ícono de filtro <span class="mdi mdi-filter-variant"></span> ubicado en la parte superior derecha de la ventana Visor de Conceptos de Kárdex.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img68.png)
-_**Imagen 68.** Ventana Visor IE Conceptos de Kardex_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_71.png"
+  alt:"Ventana Visor IE Conceptos de Kardex"
+%}
 
 **AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar.
 
@@ -48,11 +58,16 @@ Cada criterio aparece inicializado en un valor global que permite mostrar todos 
 
 El programa permite entonces hacer selección de un grupo de Conceptos de Kárdex de acuerdo con los criterios seleccionados en la siguiente ventana:
 
-![Procesar imagen](../../assets/images/cap02/chp02_img69.png)
-_**Imagen 69.** Ventana IE Subgrupo Conceptos de Kardex_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_72.png"
+  alt:"Ventana IE Subgrupo Conceptos de Kardex"
+%}
 
 Los campos de datos que constituyen criterio de selección haciendo parte de la Ventana Subgrupo son los siguientes:
 
 **Almacén:** Permite filtrar aquellos Conceptos de Kárdex que fueron asociados al almacén seleccionado. Lista los Almacenes creados en la tabla de Almacenes.
 
-_**Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber realizado una selección es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección se da un clic al botón <a class="btn white">MAS <span class="mdi mdi-plus-circle"></span></a>, en lugar de darlo al botón <a class="btn white">ACEPTAR <span class="mdi mdi-check-circle"></span></a>._
+> **Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber realizado una selección es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección se da un clic al botón <a class="btn white">MAS <span class="mdi mdi-plus-circle"></span></a>, en lugar de darlo al botón <a class="btn white">ACEPTAR <span class="mdi mdi-check-circle"></span></a>.

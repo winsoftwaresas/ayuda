@@ -17,8 +17,13 @@ Aquí se registran las posibles Causas por las que la ejecución de una Órden d
 
 Estos valores predefinidos pueden ser modificados o complementados por el usuario, según su cultura técnica y organizacional.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img52.png)
-_**Imagen 62.** Ventana Detalle Causa de OT Pendiente_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_64.png"
+  alt:"Ventana Detalle Causa de OT Pendiente"
+%}
 
 En la gráfica anterior, Ventana Detalle de la Causa de OT Pendiente, se aprecian sus componentes y sus respectivos contenidos. Se encuentra la información relevante a la Causa de Pendiente seleccionada en el Visor.
 

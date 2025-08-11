@@ -43,8 +43,13 @@ Cuando la Ubicación Física es un criterio para seleccionar en un subgrupo en A
 
 El registro  de las Ubicaciones Físicas es muy importante, pues ellas serán  invocadas desde muchas ventanas de otras opciones del Menú Principal como Activos, Almacenes, Órdenes de Trabajo, Solicitudes de Servicio, Paros e Historia de Mantenimiento.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img12.png)
-_**Imagen 32.** Ventana Detalle UF_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_34.png"
+  alt:"Ventana Detalle UF"
+%}
 
 En la gráfica anterior, Ventana Detalle Ubicaciones Físicas, se aprecian sus componentes y sus respectivos contenidos. Se encuentra la información relevante al Técnico del Tercero seleccionado en el Visor.
 
@@ -54,7 +59,7 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 **Nombre UF:** Se hace el registro de la descripción de la Ubicación Física. El campo tiene hasta un máximo de 50 caracteres.
 
-**Área (opcional):** Se escribe el área de la Ubicación Física. Este campo es númerico.
+**Área (opcional):** Se escribe el área de la Ubicación Física. Este campo es numérico.
 
 **Unidad de Medida Área:** Se elige la Unidad de Medida utilizada para definir la capacidad del área; para ello se selecciona uno de los valores predefinidos en esa tabla.
 
@@ -70,8 +75,13 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 Se usa para seleccionar grupos de Ubicaciones Físicas que cumplen con un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al icono de filtro <span class="mdi mdi-filter-variant"></span>, ubicado en la parte superior derecha de la ventana Visor de Ubicaciones Físicas.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img13.png)
-_**Imagen 33.** Ventana Visor UF_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_35.png"
+  alt:"Ventana Visor UF"
+%}
 
 **AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar.
 
@@ -81,50 +91,90 @@ Cada criterio aparece inicializado en un valor global que permite mostrar todas 
 
 El programa permite entonces hacer selección de un grupo de Ubicaciones Físicas:
 
-![Procesar imagen](../../assets/images/cap02/chp02_img14.png)
-_**Imagen 34.** Subgrupo UF_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_36.png"
+  alt:"Subgrupo UF"
+%}
 
 Los campos de datos que constituyen los criterio de selección haciendo parte de la Ventana Subgrupo son los siguientes:
 
 **Área:** Filtra las UF que tienen la cantidad de área ingresada en el campo.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img15.png)
-_**Imagen 35.** Subgrupo UF Criterio Área_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_37.png"
+  alt:"Subgrupo UF Criterio Área"
+%}
 
 **Capacidad:** Filtra las UF que tienen la cantidad de capacidad ingresada en el campo.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img16.png)
-_**Imagen 36.** Subgrupo UF Criterio Capacidad_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_38.png"
+  alt:"Subgrupo UF Criterio Capacidad"
+%}
 
 **Código UF:** Esta selección agrupa las UF relacionados por su código. **Por ejemplo:** si se escribe UF-12%, el sistema localiza aquellas UF cuyo código empieza por UF-12. El porcentaje a continuación, es un carácter comodín que significa **“todos”**.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img17.png)
-_**Imagen 37.** Subgrupo UF Criterio Código UF_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_39.png"
+  alt:"Subgrupo UF Criterio Código UF"
+%}
 
 **Estado:** Permite la selección de las UF de acuerdo al estado de Activo o Inactivo. El estado de las UF es importante para la selección en las listas desplegables.
 **Por ejemplo:** Si una UF, tiene definido el Estado **“Inactivo**, esta no aparecerá en la lista de las Ubicaciones Físicas de los módulos de Activos, Solicitudes de Servicio, Paros, Órdenes de Trabajo, Historia y Almacén.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img18.png)
-_**Imagen 38.** Subgrupo UF Criterio Estado_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_40.png"
+  alt:"Subgrupo UF Criterio Estado"
+%}
 
 **Nombre UF:** Selecciona las UF según criterios basados en su Nombre.
 **Ejemplo:** %Planta% selecciona todas las UF en cuyo nombre, en cualquier parte, tengan la palabra **“Planta”**.
 
-![Procesar imagen](../../assets/images/cap02/chp02_img19.png)
-_**Imagen 39.** Subgrupo UF Criterio Nombre UF_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_41.png"
+  alt:"Subgrupo UF Criterio Nombre UF"
+%}
 
 **Unidad de Medida Área:** Lista las Unidades de Medida registradas en la tabla de Unidades de Medida, se elige una de la lista. 
 
 También se puede elegir la unidad de medida mediante el uso de comodines, para ello, se debe dar clic al icono  <span class="mdi mdi-lock"></span>, a continuación este ícono se muestra abierto <span class="mdi mdi-lock-open-outline"></span> y permite escribir. Ejemplo, si se escribe metros%, el sistema entiende que debe seleccionar aquellas UF cuya unidad de medida comience por la palabra **“metros”**. El porcentaje a continuación, es un carácter comodín que significa **“todos”**, como se indica a continuación:
 
-![Procesar imagen](../../assets/images/cap02/chp02_img20.png)
-_**Imagen 40.** Subgrupo UF Criterio Unidad de Medida Área_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_42.png"
+  alt:"Subgrupo UF Criterio Unidad de Medida Área"
+%}
 
 **Unidad de Medida Capacidad:** Busca las Ubicaciones Físcas que tengan definido este campo. Las Unidades de Medida que se despliegan en la lista están registradas en la tabla de Unidades de Medida. Se elige de la lista la Unidad de Medida deseada.
 
 También se puede elegir la unidad de medida mediante el uso de comodines, para ello, se debe dar clic al icono <span class="mdi mdi-lock"></span>, a continuación este ícono se muestra abierto <span class="mdi mdi-lock-open-outline"></span> y permite escribir. Ejemplo, si se escribe la palabra bloques%, el sistema realiza una búsqueda de aquellas UF que en cualquier parte del campo tengan el nombre de la palabra digitada, en este caso, la palabra **“bloques”**, como se muestra a continuación:
 
-![Procesar imagen](../../assets/images/cap02/chp02_img21.png)
-_**Imagen 41.** Subgrupo UF Criterio Área_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"02_43.png"
+  alt:"Subgrupo UF Criterio Área"
+%}
 
-> _**Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos  se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber realizado una selección es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección se acciona el botón <a class="btn white">MAS <span class="mdi mdi-plus-circle"></span></a> , en lugar de accionar el botón <a class="btn white">ACEPTAR <span class="mdi mdi-check-circle"></span></a>._
+> **Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos  se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber realizado una selección es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección se acciona el botón <a class="btn white">MAS <span class="mdi mdi-plus-circle"></span></a> , en lugar de accionar el botón <a class="btn white">ACEPTAR <span class="mdi mdi-check-circle"></span></a>.
