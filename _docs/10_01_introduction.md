@@ -4,6 +4,7 @@ subtitle: En este capitulo se da respuesta a todas las preguntas generadas de la
 tags: [setup]
 author: win
 order: '10_01'
+media: "../../assets/images/docs/"
 ---
 # Historia de Mantenimiento (HM)
 

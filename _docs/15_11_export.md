@@ -8,8 +8,8 @@ tags:
 author: win
 order: '15_11'
 date: 2022-07-19T18:14:18.403Z
+media: "../../assets/images/docs/"
 ---
-
 
 ## Exportar
 

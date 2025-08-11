@@ -4,6 +4,7 @@ subtitle: Esta sección habla sobre que és la historia archivada y que finalida
 tags: [setup]
 author: win
 order: '12_02'
+media: "../../assets/images/docs/"
 ---
 # Conceptos Básicos Historia de Archivada (HA)
 

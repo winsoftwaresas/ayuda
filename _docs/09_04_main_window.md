@@ -6,6 +6,7 @@ tags:
 author: win
 order: '09_04'
 date: 2022-02-10T14:45:29.041Z
+media: "../../assets/images/docs/"
 ---
 ![Procesar imagen](../../assets/images/cap09/chp09_img02.png)
 ***Imagen 67.** Órdenes - Acceso directo*

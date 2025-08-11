@@ -4,7 +4,7 @@ subtitle: Se explica la tabla de estados y su alcance en los módulos.
 tags: [setup]
 author: win
 order: '02_31'
-
+media: "../../assets/images/docs/"
 ---
 
 

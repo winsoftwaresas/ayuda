@@ -4,6 +4,7 @@ subtitle: En este módulo están disponibles para consulta y toma de decisiones 
 tags: [setup]
 author: win
 order: '09_02'
+media: "../../assets/images/docs/"
 ---
 # Conceptos Básicos sobre Órdenes de Trabajo
 

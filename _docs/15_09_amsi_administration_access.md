@@ -8,6 +8,7 @@ tags:
 author: win
 order: '15_09'
 date: 2022-07-12T21:02:49.176Z
+media: "../../assets/images/docs/"
 ---
 Se define el acceso al aplicativo y comandos del menú principal para el Administrador del sistema. Se configuran criterios, preferencias, particularidades y modos de visualización de la información en los formularios básicos del aplicativo al igual que los permisos, parametrización y administración de los usuarios de **AMsi**.
 

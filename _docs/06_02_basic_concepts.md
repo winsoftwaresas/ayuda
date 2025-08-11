@@ -5,6 +5,7 @@ tags:
   - setup
 author: win
 order: '06_02'
+media: "../../assets/images/docs/"
 ---
 
 

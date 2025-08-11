@@ -4,6 +4,7 @@ subtitle: Se explica la función para obtener diseños importantes de combustibl
 tags:       [setup]
 author:     'win'
 order:      '13_06'
+media: "../../assets/images/docs/"
 ---
 
 

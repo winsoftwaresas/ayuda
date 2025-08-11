@@ -4,6 +4,7 @@ subtitle: 'El proceso de cierre de un FDA reviste el rigor de un cierre de OT y 
 tags: [setup]
 author: win
 order: '08_04'
+media: "../../assets/images/docs/"
 ---
 El proceso de cierre de un  **FDA** como tal, es similar, aunque más sencillo, al de una  SS. consiste en cambiar el **“Estado”**, por uno de dos: **“Cerrada Ejecutada”** o  **“Cerrado con OT”**, Para mayor detalle se debe referir al acápite **“Seguimiento y Cierre”** de Solicitudes de Servicio.
 

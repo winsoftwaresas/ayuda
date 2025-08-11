@@ -2,8 +2,9 @@
 layout: page
 title: ◼ Infraestructure
 order: '02_00'
+media: "../../assets/images/docs/"
 ---
-#Infraestructura
+# Infraestructura
 
 Que información constituye la Infraestructura. Cual es cada una de las tablas que  la conforman. En que secuencia se ingresan, y con qué estructura de codificación. Todo esto conforma el contenido del presente capítulo sobre los datos de Infraestructura.
 

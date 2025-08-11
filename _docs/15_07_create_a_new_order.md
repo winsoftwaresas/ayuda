@@ -7,6 +7,7 @@ tags:
 author: win
 order: '15_07'
 date: 2022-06-21T22:09:41.972Z
+media: "../../assets/images/docs/"
 ---
 Se suministra información detallada del formulario Servicio Solicitado. Dicha información, especifica claramente el servicio solicitado, así como también el Centro de Servicio responsable de atender la OT.
 

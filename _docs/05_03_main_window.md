@@ -4,6 +4,7 @@ subtitle: Se explica la ventana principal y los comandos que la componen.
 tags: [setup]
 author: win
 order: '05_02'
+media: "../../assets/images/docs/"
 ---
 
 

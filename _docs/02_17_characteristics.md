@@ -4,6 +4,7 @@ subtitle: Se explica la tabla de características, alcance y funcionalidad en lo
 tags: [setup]
 author: win
 order: '02_17'
+media: "../../assets/images/docs/"
 ---
 
 Es una tabla conformada por los nombres de las Características propias de los Activos/Equipos  que se utilizan al definir la porción variable de su ficha técnica. En esta tabla sólo se ingresan los nombres de las Características o los parámetros-características de los Activos/Equipos y Repuestos. Se cuenta con 30 dígitos para ingresar la característica deseada.

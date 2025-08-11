@@ -4,6 +4,7 @@ subtitle: Esta sección explica como se usa la transacción eliminar masivamente
 tags: [setup]
 author: win
 order: '12_05'
+media: "../../assets/images/docs/"
 ---
 
 ### Eliminar Masivamente HA

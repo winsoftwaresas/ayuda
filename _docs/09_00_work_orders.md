@@ -2,6 +2,7 @@
 layout: page
 title: ◼ Work orders
 order: '09_00'
+media: "../../assets/images/docs/"
 ---
 # Órdenes de Trabajo
 

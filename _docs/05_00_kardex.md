@@ -2,6 +2,7 @@
 layout: page
 title: ◼ Kardex
 order: '05_00'
+media: "../../assets/images/docs/"
 ---
 # Kárdex de Almacén
 

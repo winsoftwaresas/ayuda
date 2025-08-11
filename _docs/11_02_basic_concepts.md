@@ -8,6 +8,7 @@ tags:
 author: win
 order: '11_02'
 date: 2022-04-26T20:21:00.312Z
+media: "../../assets/images/docs/"
 ---
 
 Dentro del ciclo de Gestión de Mantenimiento en **AM** los Programas de Mantenimiento (PMs) apoyan las tres primeras etapas del ciclo, siendo la primera la Planeación, la segunda la Presupuestación y la tercera la Programación. Para las dos primeras etapas, éste módulo ejecuta el proceso de Proyección, sobre un periodo futuro, de largo plazo, sin generar Órdenes de Trabajo (OTs).  Para la tercera etapa el proceso de Programación se ejecuta en forma idéntica, desde el módulo de <a class="btn cl-white bg-blue px-3"> Órdenes </a>. A pesar de que  se  ejecuta  desde allí,  la  base   del  proceso  son  los  Programas  de Mantenimiento.

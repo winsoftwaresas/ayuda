@@ -4,6 +4,7 @@ subtitle: Se explican los centros de costos (CC), alcance, y funcionalidades den
 tags: [setup]
 author: win
 order: '02_03'
+media: "../../assets/images/docs/"
 ---
 
 Es la primera tabla que aparece en el listado de Infraestructura, el Centro de Costo (CC) se refiere al área o departamento administrativo, operativo o productivo que recibe servicios de mantenimiento. Se refiere también a la definición contable de los departamentos o áreas responsables de Activos, Equipos o de Objetos de Mantenimiento y por ende de los costos de su mantenimiento.

@@ -4,6 +4,7 @@ subtitle: Explicación del módulo del módulo de Solicitudes, creación, consul
 tags: [AMovil]
 author: win
 order: '16_04'
+media: "../../assets/images/docs/"
 ---
 Para ir a Solicitudes de Servicio dar un toque sobre el botón <a class="btn cl-black bg-white pl-2 pr-3 bd-blue"><span class="iconify cl-black fs-2 pr-1" data-icon="mdi-card-text-outline"></span> Solicitudes</a> en el menú principal:
 

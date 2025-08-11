@@ -4,6 +4,7 @@ subtitle: En este capitulo se dará respuesta a todas las preguntas generadas de
 tags: [setup]
 author: win
 order: '12_01'
+media: "../../assets/images/docs/"
 ---
 
 # Historia Archivada

@@ -6,6 +6,7 @@ tags:
 author: win
 order: '04_08'
 date: 2022-11-10T20:17:34.887Z
+media: "../../assets/images/docs/"
 ---
 
 

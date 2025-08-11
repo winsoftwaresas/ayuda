@@ -4,6 +4,7 @@ subtitle: Esta sección explica los comandos de la ventana visor de historia de 
 tags: [setup]
 author: win
 order: '12_04'
+media: "../../assets/images/docs/"
 ---
 
 # Ventana submenú de Historia Archivada

@@ -4,6 +4,7 @@ subtitle:  Explicación de cómo insertar movimientos o hacer descargas de ítem
 tags: [setup]
 author: win
 order: '05_04'
+media: "../../assets/images/docs/"
 ---
 # Ventana Detalle Movimientos de Kárdex
 

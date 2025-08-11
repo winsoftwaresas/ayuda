@@ -7,6 +7,7 @@ tags:
 author: win
 order: '11_04'
 date: 2022-06-13T21:31:07.911Z
+media: "../../assets/images/docs/"
 ---
 ## Exportar
 

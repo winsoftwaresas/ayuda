@@ -7,6 +7,7 @@ tags:
 author: win
 order: '01_03'
 date: 2021-11-30T20:50:23.757Z
+media: "../../assets/images/docs/"
 ---
 ### Ventana Principal **AM**
 

@@ -3,6 +3,7 @@ layout: page
 title: ◼ Assets
 date: 2022-08-29T20:02:48.580Z
 order: '03_00'
+media: "../../assets/images/docs/"
 ---
 # Activos / Equipos, Objetos de Mantenimiento
 

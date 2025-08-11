@@ -4,6 +4,7 @@ subtitle: Se explica la tabla de tipos de regimen y su alcance.
 tags: [setup]
 author: win
 order: '02_30'
+media: "../../assets/images/docs/"
 ---
 
 Esta tabla de Infraestructura contiene una lista predefinida en el sistema de los tipos de régimen que aplican en Colombia, que pueden asociarse a los Terceros de carácter informativo.

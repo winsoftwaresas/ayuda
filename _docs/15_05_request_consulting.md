@@ -7,6 +7,7 @@ tags:
 author: win
 order: '15_05'
 date: 2022-06-15T20:00:03.581Z
+media: "../../assets/images/docs/"
 ---
 **AMsi** solo permite realizar creación y consultas para uno de los dos tipos de registro a la vez: OT o SS, pero no para los dos simultáneamente. Ello depende de la Configuración del aplicativo que se haya elegido, según la necesidad de la Organización.
 

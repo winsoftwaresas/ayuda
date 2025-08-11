@@ -6,6 +6,7 @@ tags:
 author: win
 order: '07_01'
 date: 2022-08-08T16:38:48.398Z
+media: "../../assets/images/docs/"
 ---
 
 - ¿Qué son las Solicitudes de Servicio?

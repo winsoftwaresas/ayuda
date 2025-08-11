@@ -4,9 +4,8 @@ subtitle: Se da una introducción o definición básica del concepto del módulo
 tags:       [setup]
 author:     'win'
 order:      '13_01'
+media: "../../assets/images/docs/"
 ---
-
-
 
 La gestión eficiente del consumo de combustible es esencial para organizaciones que dependen de vehículos, maquinaria y otros equipos en sus operaciones diarias. En este contexto, contar con un sistema de control de combustible se convierte en una herramienta indispensable para optimizar recursos y reducir costos operativos.
 

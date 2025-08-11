@@ -4,6 +4,7 @@ subtitle:   'Esta sección ayuda a entender el programa AM (Administrador de Man
 tags:       [setup]
 author:     'win'
 order:      '01_02'
+media: "../../assets/images/docs/"
 ---
 
 Al analizar la ventana principal se aprecia cómo el sistema está conformado por las siguientes funciones, que componen el menú principal.

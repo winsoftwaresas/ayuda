@@ -3,7 +3,8 @@ title: Operaciones
 subtitle: Se explica la tabla de operaciones y su alcance.
 tags: [setup]
 author: win
-order: '02_28' 
+order: '02_28'
+media: "../../assets/images/docs/"
 ---
 
 Permite registrar las Operaciones, requeridas en el proceso de elaboración de una Referencia. Estas Operaciones se van a referenciar como Operación Actual (Óp. Actual) en el módulo de Paros / Averías

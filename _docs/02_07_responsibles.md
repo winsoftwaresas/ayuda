@@ -4,6 +4,7 @@ subtitle: Se explica la tabla de responsables, alcance y funcionalidad.
 tags: [setup]
 author: win
 order: '02_07'
+media: "../../assets/images/docs/"
 ---
 
 Esta es una tabla de consulta que se crea automáticamente de la tabla de **Terceros** con los nombres propios de las personas definidas para cada Oficio o los nombres de razones sociales de los Talleres/Servicios Externos o Contratistas, definidos  para  cada grupo o Especialidad. En esta tabla solo se modifica el estado de un Tercero asociado a su Oficio, y en la que se excluyen los Terceros tipo **PF**, ya que éstos no prestan servicio de mantenimiento y es la que usa el módulo de <a class="btn cl-white bg-blue px-6"> Órdenes </a> para sociar los Responsables.

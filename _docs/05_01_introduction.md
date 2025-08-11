@@ -4,6 +4,7 @@ subtitle: Temarios del módulo sobre el kárdex de almacén.
 tags: [setup]
 author: win
 order: '05_01'
+media: "../../assets/images/docs/"
 ---
 # Kárdex de Almacén
 

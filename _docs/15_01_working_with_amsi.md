@@ -4,6 +4,7 @@ subtitle: Esta sección presenta el AMsi, herramienta para generar OT y/o SS en 
 tags: [AMsi, Solicitudes de servicio]
 author: win
 order: '15_01'
+media: "../../assets/images/docs/"
 ---
 Contiene información básica sobre el ingreso al aplicativo, mostrando de manera general la interfaz del usuario. Se aprende a interpretar y a usar el formulario de acceso para la creación de OT y/o SS, así como también a reconocer los comandos de los botones que aparecen en pantalla.
 

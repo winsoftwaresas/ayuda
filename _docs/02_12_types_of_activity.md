@@ -4,6 +4,7 @@ subtitle: Se explican los tipos de actividad (TA), alcance y funcionalidad.
 tags: [setup]
 author: win
 order: '02_12'
+media: "../../assets/images/docs/"
 ---
 
 El objetivo de esta tabla es registrar otros Tipos de Actividad (TA). Los Tipos de Actividad  se usan para caracterizar aún más las Órdenes de Trabajo. Algunos  corresponden a Actividades de Mantenimiento como: Correctivo, Preventivo, Preventivo Manual, Predictivo, Inspección, Calibración; pero otros corresponden a actividades que no constituyen mantenimiento formalmente pero sí consumen recursos apreciables de los propios de Mantenimiento: Horas Hombre de Mano de Obra, Materiales y Repuestos y/o Servicios Externos.  

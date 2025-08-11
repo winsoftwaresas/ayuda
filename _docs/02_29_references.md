@@ -4,6 +4,7 @@ subtitle: Se explica la tabla de referencias y su alcance.
 tags: [setup]
 author: win
 order: '02_29'
+media: "../../assets/images/docs/"
 ---
 
 Permite registrar, cuando sea aplicable, las Referencias de Producto de la compañía usuaria. Tales Referencias de Producto se usan para complementar la información de un paro o una avería en el módulo de Paros / Averías. El objetivo es poder identificar detalladamente las circunstancias que rodearon el paro o la avería qué Referencia, y en qué operación particular del proceso se estaba elaborando.

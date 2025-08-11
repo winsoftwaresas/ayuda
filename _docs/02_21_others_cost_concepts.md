@@ -4,6 +4,7 @@ subtitle: Se explica la tabla de otros conceptos de costos y su alcance.
 tags: [setup]
 author: win
 order: '02_21'
+media: "../../assets/images/docs/"
 ---
 
 El objetivo de esta tabla es registrar aquellas actividades complementarias que generan costos en una OT, que son indirectos respecto a la misma y que son  facturados por un ente externo. Este es el caso, por ejemplo, de los costos de transporte necesarios para llevar a mecanizar una pieza, o para arrendar y desplazar un equipo o un instrumento, o para desplazar a un ingeniero y cubrir sus gastos de viaje y viáticos.

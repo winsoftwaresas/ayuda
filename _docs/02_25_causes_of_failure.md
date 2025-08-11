@@ -4,6 +4,7 @@ subtitle: Se explica la tabla de causas de falla y alcance.
 tags: [setup]
 author: win
 order: '02_25'
+media: "../../assets/images/docs/"
 ---
 
 Esta tabla de la Infraestructura pretende definir las Causas reales de Falla, que normalmente sólo se detectan a través de una inspección previa.

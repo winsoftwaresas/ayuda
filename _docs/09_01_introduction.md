@@ -4,6 +4,7 @@ subtitle: Este capitulo da respuesta y orientación al funcionamiento y el uso d
 tags: [setup]
 author: win
 order: '09_01'
+media: "../../assets/images/docs/"
 ---
 # Órdenes de Trabajo
 

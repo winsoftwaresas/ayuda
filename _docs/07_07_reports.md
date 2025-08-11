@@ -6,6 +6,7 @@ tags:
 author: win
 order: '07_07'
 date: 2022-10-25T21:07:17.169Z
+media: "../../assets/images/docs/"
 ---
 
 Este comando <span class="mdi mdi-printer"></span>  permite visualizar los reportes relacionados con las Solicitudes de Servicio. Existen los siguientes tipos de reportes básicos disponibles:

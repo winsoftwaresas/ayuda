@@ -2,6 +2,7 @@
 layout: page
 title: ◼ Maintenance programs
 order: '11_00'
+media: "../../assets/images/docs/"
 ---
 Programas de Mantenimiento
 

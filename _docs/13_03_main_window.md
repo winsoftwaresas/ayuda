@@ -4,6 +4,7 @@ subtitle: Se explica la ventana con sus componentes y funcionalidades.
 tags:       [setup]
 author:     'win'
 order:      '13_03'
+media: "../../assets/images/docs/"
 ---
 
 ## Ventana Visor

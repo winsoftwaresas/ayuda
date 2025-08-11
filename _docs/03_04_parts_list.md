@@ -5,7 +5,7 @@ tags:
   - setup
 author: win
 order: '03_04'
-
+media: "../../assets/images/docs/"
 ---
 
 **AM** está capacitado para aceptar y definir 5 códigos para cada Activo/Equipo. Cada estructura de código es  independiente de las otras y sirve para localizar o estudiar un Activo, partiendo de distinta información que distintos tipos de usuarios puedan tener sobre el mismo.

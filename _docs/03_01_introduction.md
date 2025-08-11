@@ -4,6 +4,7 @@ subtitle: Este capítulo reponde  las preguntas necesarias para tener una compre
 tags: [setup]
 author: win
 order: '03_01'
+media: "../../assets/images/docs/"
 ---
 - ¿Qué es un Activo/Equipo?.
 - ¿Cómo se codifica un Activo/Equipo?.

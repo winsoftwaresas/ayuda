@@ -6,6 +6,7 @@ tags:
 author: win
 order: '09_06'
 date: 2022-02-10T14:45:29.041Z
+media: "../../assets/images/docs/"
 ---
 ## Analizar / Generar
 

@@ -6,6 +6,7 @@ tags:
 author: win
 order: '11_03'
 date: 2022-05-27T15:27:44.518Z
+media: "../../assets/images/docs/"
 ---
 ![Procesar imagen](../../assets/images/cap06/chp06_img01.png)
 _**Imagen 1.** Programas de Mantenimiento_

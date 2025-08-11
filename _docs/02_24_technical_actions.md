@@ -4,6 +4,7 @@ subtitle: Se explica la tabla de acciones técnicas, alcance y funcionalidad.
 tags: [setup]
 author: win
 order: '02_24'
+media: "../../assets/images/docs/"
 ---
 
 Es la tabla que contiene un listado de Acciones Técnicas frecuentes en un área de Mantenimiento. Con la información contenida en esta tabla se pretende describir, breve pero concretamente, la actividad general a ser realizada en una Órden de  Trabajo. Se suministra por defecto un conjunto de verbos en infinitivo que denotan Acciones Técnicas de Mantenimiento. El usuario puede utilizar tales verbos para definir Acciones Técnicas detalladas con base en ellos.

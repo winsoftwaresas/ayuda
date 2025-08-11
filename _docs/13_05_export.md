@@ -4,8 +4,8 @@ subtitle: Se explica la función para descargar campos del formulario con el fin
 tags:       [setup]
 author:     'win'
 order:      '13_05'
+media: "../../assets/images/docs/"
 ---
-
 
 Esta opción <span class="mdi mdi-download"></span> permite la exportación de los registros de combustibles, bien sea el total de ellas o provenientes de un subgrupo a un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso.
 

@@ -4,6 +4,7 @@ subtitle: Se explica la tabla de Almacén, alcance y su parametrización.
 tags: [setup]
 author: win
 order: '02_13'
+media: "../../assets/images/docs/"
 ---
 
 Es la tabla de Infraestructura en la que se definen los distintos Almacenes, Bodegas o Depósitos de: Materias Primas, Insumos, Materiales y Repuestos o elementos generales de una organización.

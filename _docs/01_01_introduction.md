@@ -4,6 +4,7 @@ subtitle:   'El capítulo inicial del manual de ayuda AM contiene la informació
 tags:       [setup]
 author:     'win'
 order:      '01_01'
+media: "../../assets/images/docs/"
 ---
 
 ## ¿Qué es **AM**?

@@ -4,6 +4,7 @@ subtitle: Este capítulo cubre todas las preguntas necesarias para comprender cl
 tags: [setup]
 author: win
 order: '02_01'
+media: "../../assets/images/docs/"
 ---
 - **¿Que información constituye la Infraestructura ?**.
 - **¿Cuál son cada una de las tablas que la conforman?**.

@@ -4,6 +4,7 @@ subtitle: Se explica la tabla de causas pendientes de órdenes de trabajo.
 tags: [setup]
 author: win
 order: '02_22'
+media: "../../assets/images/docs/"
 ---
 
 Aquí se registran las posibles Causas por las que la ejecución de una Órden de Trabajo es suspendida o pospuesta. En el sistema se proponen las siguientes causas de pendiente:

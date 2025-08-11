@@ -6,6 +6,7 @@ tags:
 author: win
 order: '04_03'
 date: 2022-11-08T21:57:32.639Z
+media: "../../assets/images/docs/"
 ---
 
 **AM** está diseñado para trabajar un código de Repuestos de hasta 15 posiciones alfanuméricas, en esquema inteligente por niveles o en esquema de codificación bruta.

@@ -4,10 +4,10 @@ subtitle: Se explica el formulario de la vista detallada de un registro.
 tags:       [setup]
 author:     'win'
 order:      '13_04'
+media: "../../assets/images/docs/"
 ---
 
 ## Ventana Detalle
-
 
 Cuando se ingresa a un consumo o cuando se crea uno nuevo el sistema muestra la información detallada o relevante de la carga de combustible. Para acceder a esta ventana hay dos formas:
 
@@ -16,14 +16,10 @@ Cuando se ingresa a un consumo o cuando se crea uno nuevo el sistema muestra la 
 ![Procesar imagen](../../assets/images/cap18/chp18_img04.png)
 _**Imagen 4.** Combustibles - Crear nuevo registro_
 
-
 - Desde un clic a cualquiera de los registros se visualiza la información detallada. 
-
-
 
 ![Procesar imagen](../../assets/images/cap18/chp18_img05.png)
 _**Imagen 4.** Combustibles - Formulario_
-
 
 En la gráfica anterior, Ventana Detalle del abastecimiento se aprecian todos sus componentes  y sus respectivos contenidos.
 

@@ -4,6 +4,7 @@ subtitle: Se explica la tabla de magnitudes y su alcance para las compañías pa
 tags: [setup]
 author: win
 order: '02_20'
+media: "../../assets/images/docs/"
 ---
 
 El objetivo de esta nueva tabla es registrar las magnitudes que se desean asociar a los Activos/Equipos, en la porción, pestaña/vista parcial de **Metrología**.

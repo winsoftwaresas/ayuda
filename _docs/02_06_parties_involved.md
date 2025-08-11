@@ -4,6 +4,7 @@ subtitle: Se explican los tipos de Terceros, definición, alcance, y funcionalid
 tags: [setup]
 author: win
 order: '02_06'
+media: "../../assets/images/docs/"
 ---
 
 

@@ -6,6 +6,7 @@ tags:
 author: win
 order: '11_01'
 date: 2022-04-26T20:17:34.458Z
+media: "../../assets/images/docs/"
 ---
 ## Programas de Mantenimiento
 

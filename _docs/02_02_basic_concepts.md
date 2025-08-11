@@ -4,6 +4,7 @@ subtitle: La infraestructura es un conjunto de tablas parametrizables que sirven
 tags: [setup]
 author: win
 order: '02_02'
+media: "../../assets/images/docs/"
 ---
 La infraestructura es un conjunto de archivos y tablas parametrizables con el fin de que **AM** se adapte a la organización de mantenimiento de la empresa y sus características.
 

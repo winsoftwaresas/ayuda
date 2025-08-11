@@ -6,6 +6,7 @@ tags:
 author: win
 order: '07_02'
 date: 2022-08-29T15:46:20.800Z
+media: "../../assets/images/docs/"
 ---
 
 ## Solicitud de Servicio (SS)

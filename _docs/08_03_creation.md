@@ -4,6 +4,7 @@ subtitle: Cómo se crea un Paro/Avería y que características tiene.
 tags: [setup]
 author: win
 order: '08_03'
+media: "../../assets/images/docs/"
 ---
 
 

@@ -4,6 +4,7 @@ subtitle: Generalidades y concepto de un Activo
 tags: [setup]
 author: win
 order: '03_02'
+media: "../../assets/images/docs/"
 ---
 Se considera Activo/Equipo, una bomba, un motor, un vehículo, un tren de producción, un ventilador, un tanque, un edificio, una instalación, una red, una piscina o un jardín.
 

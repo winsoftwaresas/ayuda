@@ -5,7 +5,7 @@ tags:
   - setup
 author: win
 order: '03_09'
-
+media: "../../assets/images/docs/"
 ---
 
 Este comando <span class="mdi mdi-printer"></span>  permite visualizar los reportes o informes de la información relacionada a los Activos /Equipos. Existen los siguientes tipos de reportes básicos disponibles:

@@ -6,6 +6,7 @@ tags:
 author: win
 order: '07_06'
 date: 2022-10-25T21:07:17.169Z
+media: "../../assets/images/docs/"
 ---
 
 Esta opción <span class="mdi mdi-download"></span> permite la exportación de las Solicitudes de Servicio que aparecen en el visor, el total de ellas o provenientes de un subgrupo a un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso.

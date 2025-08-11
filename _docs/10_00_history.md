@@ -2,6 +2,7 @@
 layout: page
 title: ◼ History
 order: '10_00'
+media: "../../assets/images/docs/"
 ---
 # Historia de Mantenimiento
 

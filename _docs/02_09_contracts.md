@@ -4,6 +4,7 @@ subtitle: Se explica la tabla de contratos, alcance y funcionalidad.
 tags: [setup]
 author: win
 order: '02_09'
+media: "../../assets/images/docs/"
 ---
 
 En esta tabla es posible registrar los Contratos sobre servicios a cargo de contratistas externos. No se trata de un módulo de administración de contratos sino de una facilidad simplista que hace funciones de control y seguimiento generales sobre ellos.

@@ -3,6 +3,7 @@ title:  Enviar a Historia
 subtitle: Su objetivo es desplazar hacía el módulo de Historia de Mantenimiento, las Órdenes que estando Cerradas, residen activas en el módulo de Órdenes de Trabajo.   
 author: win
 order: '10_03'
+media: "../../assets/images/docs/"
 ---
 # Enviar a Historia (Desde Órdenes de Trabajo)
 

@@ -4,6 +4,7 @@ subtitle: Se explica la tabla de características biomédicas que aplica sólo p
 tags: [setup]
 author: win
 order: '02_18'
+media: "../../assets/images/docs/"
 ---
 
 Es una tabla conformada por las Características propias de los Activos/Equipos, que se utilizan al definir la porción variable o pestaña/vista parcial **Info. Biomédica** de un Activo para complementar su Ficha Técnica.  

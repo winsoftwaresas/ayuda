@@ -7,6 +7,7 @@ tags:
 author: win
 order: '15_03'
 date: 2022-06-14T19:50:52.335Z
+media: "../../assets/images/docs/"
 ---
 Se explica el formulario a diligenciar para actualizar el perfil del usuario Solicitante en **AMsi**.
 

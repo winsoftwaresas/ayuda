@@ -4,6 +4,7 @@ subtitle: El  módulo de Paros/Averías en AM tiene como objetivo el registro si
 tags: [setup]
 author: win
 order: '08_02'
+media: "../../assets/images/docs/"
 ---
 
 ## Paros / Averías (FDA)

@@ -5,7 +5,7 @@ tags:
   - setup
 author: win
 order: '04_04'
-
+media: "../../assets/images/docs/"
 ---
 
 # Ventana Principal de Almacén de Repuestos

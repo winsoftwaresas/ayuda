@@ -4,6 +4,7 @@ subtitle: Este capítulo habla de los Fallos, Daños o Averías y su manejo en e
 tags: [setup]
 author: win
 order: '08_01'
+media: "../../assets/images/docs/"
 ---
 # Paros: Fallas, Daños y Averías ( **FDA**)
 

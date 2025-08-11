@@ -4,6 +4,7 @@ subtitle: Se explican los tipos de trabajo (TT), alcance y funcionalidad.
 tags: [setup]
 author: win
 order: '02_10'
+media: "../../assets/images/docs/"
 ---
 
 El Tipo de Trabajo (TT) especifica las especialidades técnicas requeridas para cumplir con el objetivo de una Órden de Trabajo. 

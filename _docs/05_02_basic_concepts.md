@@ -4,6 +4,7 @@ subtitle: Definición, alcance y funcionalidades.
 tags: [setup]
 author: win
 order: '05_02'
+media: "../../assets/images/docs/"
 ---
 El Kárdex de Almacén es el módulo encargado del registro detallado de todo Movimiento de Entrada, Salida y Ajuste de los almacenes activos en **AM** en la respectiva compañía. A través del Kárdex se realiza la  actualización los saldos del módulo de Almacén, en todo lo concerniente a Entradas, Salidas y Ajustes,  manteniendo tal movimiento disponible para consultas o estudios especiales. Su dominio puede ser uno o varios de los Almacenes definidos en la compañía activa.
 

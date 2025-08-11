@@ -6,6 +6,7 @@ tags:
 author: win
 order: '07_05'
 date: 2025-01-29T15:46:20.800Z
+media: "../../assets/images/docs/"
 ---
 
 

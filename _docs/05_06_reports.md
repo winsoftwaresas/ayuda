@@ -4,6 +4,7 @@ subtitle: Se muestran las opciones para obtener  exportación de los Documentos 
 tags: [setup]
 author: win
 order: '05_06'
+media: "../../assets/images/docs/"
 ---
 
 

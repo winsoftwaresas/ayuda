@@ -5,7 +5,7 @@ tags:
   - setup
 author: win
 order: '03_08'
-
+media: "../../assets/images/docs/"
 ---
 
 ### Exportar Visor

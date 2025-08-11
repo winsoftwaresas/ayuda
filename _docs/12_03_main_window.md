@@ -4,6 +4,7 @@ subtitle: Esta sección explica los componentes de la ventana principal y ventan
 tags: [setup]
 author: win
 order: '12_03'
+media: "../../assets/images/docs/"
 ---
 
 # Ventana Principal de Historia Archivada

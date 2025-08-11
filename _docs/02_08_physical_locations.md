@@ -4,6 +4,7 @@ subtitle: Se explican las ubicaciones físicas (UF), alcance y funcionalidad.
 tags: [setup]
 author: win
 order: '02_08'
+media: "../../assets/images/docs/"
 ---
 
 Es la lista de las áreas físicas  que conforman el **“Layout”** de la planta de producción (Industria, Manufactura) o de la planta de servicios (Hoteles, Hospitales, Banca) o simplemente de las facilidades que conforman las instalaciones que son Objetos de mantenimiento o donde se encuentran los Activos.

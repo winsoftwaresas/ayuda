@@ -4,6 +4,7 @@ subtitle: Se explica la tabla de unidades de medida (UM), alcance y funcionalida
 tags: [setup]
 author: win
 order: '02_14'
+media: "../../assets/images/docs/"
 ---
 
 Es la tabla que se encarga de la definición de los distintos tipos de unidades de medición con el objeto de que se estandarice su uso en dos aspectos: nombre de la unidad y su abreviatura. Las Unidades de Medida (UM) están agrupadas por el concepto Tipo, en el que se establece su categoría de medición: Longitud, superficie, volumen, peso y otra.

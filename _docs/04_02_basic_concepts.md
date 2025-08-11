@@ -6,6 +6,7 @@ tags:
 author: win
 order: '04_02'
 date: 2022-03-22T21:23:27.058Z
+media: "../../assets/images/docs/"
 ---
 ## Un Almacén
 

@@ -4,6 +4,7 @@ subtitle: Se explica la tabla de causas de cierre de una órden de trabajo y su 
 tags: [setup]
 author: win
 order: '02_23'
+media: "../../assets/images/docs/"
 ---
 
 Es la tabla en la que se registran las posibles Causas de Cierre de una Órden de Trabajo (ya sea Ejecutada o No Ejecutada). También es una tabla con contenido propuesto por el aplicativo, que puede ser complementada o adecuada a gusto del usuario.

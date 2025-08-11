@@ -4,6 +4,7 @@ subtitle: Se explican los centros responsables, alcance y funcionalidades dentro
 tags: [setup]
 author: win
 order: '02_04'
+media: "../../assets/images/docs/"
 ---
 
 

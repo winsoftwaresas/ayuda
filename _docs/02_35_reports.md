@@ -4,6 +4,7 @@ subtitle: Cada tabla de Infraestructura cuenta con el servicio de Reportes, en e
 tags: [setup]
 author: win
 order: '02_35'
+media: "../../assets/images/docs/"
 ---
 
 

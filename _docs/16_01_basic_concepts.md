@@ -5,10 +5,8 @@ subtitle: Descripción de los modos de sincronización, botones y comandos bási
 tags: [AMovil]
 author: win
 order: '16_01'
-
-
+media: "../../assets/images/docs/"
 ---
-
 
 # AMovil
 

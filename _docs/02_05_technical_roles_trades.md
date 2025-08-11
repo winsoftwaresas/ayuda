@@ -7,6 +7,7 @@ tags:
 author: win
 order: 02_05
 date: 2025-07-10T15:54:25.858Z
+media: "../../assets/images/docs/"
 ---
 Aquí se definen los Oficios o Cargos Técnicos de mantenimiento (afectados por el factor de prestación social) que el área de Relaciones Laborales de la empresa tiene registrados dentro de cada Centro Responsable.
 

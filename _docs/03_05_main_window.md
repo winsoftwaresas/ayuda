@@ -5,7 +5,7 @@ tags:
   - setup
 author: win
 order: '03_05'
-
+media: "../../assets/images/docs/"
 ---
 
 ## Ventana Principal de Activos

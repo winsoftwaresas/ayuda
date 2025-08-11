@@ -4,6 +4,7 @@ subtitle: Se explica la tabla de conceptos de kárdex y alcance.
 tags: [setup]
 author: win
 order: '02_27'
+media: "../../assets/images/docs/"
 ---
 
 El objetivo es registrar los tipos de movimientos en un Almacén. Estas transacciones de movimientos pueden ser de Entrada, de Salida o de Ajuste de inventarios. Cada transacción de movimiento o concepto de Kárdex tiene asociado: un código o número distintivo (de 01 a 49, o, de 001 a 499, para las entradas por ejemplo) y otras condiciones de su uso.
