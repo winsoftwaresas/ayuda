@@ -7,15 +7,17 @@ order: '05_06'
 media: "../../assets/images/docs/"
 ---
 
-
-
 Este comando <span class="mdi mdi-printer"></span>  permite visualizar los reportes o informes de la información relacionada a los Repuestos/Materiales. Existen los siguientes tipos de reportes básicos disponibles:
 
-![Procesar imagen](../../assets/images/cap05/chp05_img25.png)
-_**Imagen 35** Kárdex - Reportes_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"05_38.png"
+  alt:"Kárdex - Reportes"
+%}
 
 Los  anteriores  reportes  pueden  ser  seleccionados  para  uno  o  varios   Documentos de Kárdex:
-
 
 <a class="btn cl-gray bg-white btn-rounded"><span class="mdi mdi-circle cl-blue pr-1"></span><span class="pr-1"> Todos los Registros </span></a>: Con esta opción se imprimen todos los reportes de los Repuestos/Materiales existentes en la base de datos, sin importar si se ha realizado un subgrupo.
 

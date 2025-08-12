@@ -8,12 +8,15 @@ order: '03_06'
 media: "../../assets/images/docs/"
 ---
 
-
 ## Ventana Detalle
 
-
-![Procesar imagen](../../assets/images/cap03/chp03_img04.png)
-_**Imagen 4.** Ventana Detalle Activos_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"03_13.png"
+  alt:"Ventana Detalle Activos"
+%}
 
 En la gráfica anterior, se visualiza la Ventana Detalle detalle de un Activo/Equipo. En ella se encuentra toda la información relevante del registro seleccionado en el Visor (sombreado en verde) que se compone de las vistas parciales ó pestañas.
 
@@ -23,9 +26,7 @@ Las Vistas Parciales o Pestañas permiten complementar la información de la Fic
 
 A continuación se describen las vistas parciales o porciones de la información del Activo:
 
-
 #### Identificación 
-
 
 **Código:** En este campo se registra el código del Activo/Equipo, correspondiente al código de Mantenimiento, de acuerdo a la estructuración por niveles que se haya definido durante la etapa de Planeación de la Implementación.
 
@@ -40,8 +41,6 @@ A continuación se describen las vistas parciales o porciones de la información
 **Serial:** Este campo se utiliza para registrar el número de serie o lote que identifica individualmente a un Activo/Equipo según el fabricante. Este campo cuenta con una disponibilidad de 40 caracteres.
 
 **Alias:** En algunas plantas por tradición o cultura, se tiene una denominación especial con la cual se conocen algunos Activos/Equipos. Este campo es el especial para registrar tal nombre especial. Igualmente se puede utilizar para registrar códigos  antiguos con que se definían este Activo antes de la nueva codificación. Este campo cuenta  con una disponibilidad de 20 caracteres.
-
-
 
 #### Información General
 
@@ -78,12 +77,11 @@ A continuación se describen las vistas parciales o porciones de la información
 
 **Encargado:** Son personas propias de la empresa  encargadas de la operación o funcionamiento del Activo/Equipo. En este campo se traen automáticamente los diferentes Terceros asignados como Responsable Interno/Empleado y Responsable Externo/Contratista.
 
-
 #### Estados
 
-**Inactivo/Activo:** Es un switche que permite Controlar el estado de un Activo/Equipo. Cuando se pone a un estado inactivo se muestra un enlace azul **Desincorporación** para ingresar el detalle de cuando se da de baja un Equipo.  
+**Inactivo/Activo:** Es un switch que permite Controlar el estado de un Activo/Equipo. Cuando se pone a un estado inactivo se muestra un enlace azul **Desincorporación** para ingresar el detalle de cuando se da de baja un Equipo.  
 
->**Nota:** Es importante tener en cuenta que este switch se utiliza durante los procesos de Generación Automática de Ordenes  de Trabajo y de Proyección para un período futuro, pues solamente se tienen en  cuenta aquellos Equipos con estado Activo y tampoco se listarán en **AMsi** para los usuarios solicitantes. 
+> **Nota:** Es importante tener en cuenta que este switch se utiliza durante los procesos de Generación Automática de Ordenes  de Trabajo y de Proyección para un período futuro, pues solamente se tienen en  cuenta aquellos Equipos con estado Activo y tampoco se listarán en **AMsi** para los usuarios solicitantes. 
 
 **Estado:** Este campo se utiliza para especificar el tipo de Estado en el que se encuentra el Activo/Equipo. Dependiendo del campo anterior. Si el Activo actual se encuentra  Activo (Operativo) se listan las siguientes opciones:
 
@@ -112,16 +110,15 @@ Los que están Inactivos (bien sea No Operativos o Dados de baja temporal o tota
 
 **AC raíz:** Este campo se utiliza para identificar el Activo/Equipo que es una unidad funcional que se despieza (Equipos raíz). Solo se consideran como Equipo Raíz aquellos Activos/Equipos que no tienen una dependencia de otros y que más bien son la base de despiece de sus componentes.
 
-**Ubicación técnica:** Con este switche se especifica si un Equipo es una ubicación física del AC Raíz. 
+**Ubicación técnica:** Con este switch se especifica si un Equipo es una ubicación física del AC Raíz. 
 
-**Componente intercambiable:** Si el Activo que se define es un componente que se intercamnbia en un Activo. 
+**Componente intercambiable:** Si el Activo que se define es un componente que se intercambia en un Activo. 
 
 **Fijo/Móvil:** Se usa para definir si un Activo es estático en un área o no. 
 
 **Ruta:** En este campo se indica si el Activo/Equipo que se está definiendo es una Ruta. Cuando se ha indicado que se trata de una Ruta, el sistema se prepara para recibir un conjunto de información adicional correspondiente a la Ruta. Se debe recordar que las rutas de mantenimiento asocian o integran varios Activos/Equipos.
 
-**Permitir Dos Contadores :** Este switch permite deifnir dos tipo de contadoeres en el Activo. 
-
+**Permitir Dos Contadores :** Este switch permite definir dos tipo de contadores en el Activo. 
 
 **Adicionar Contador:** Este botón abre el siguiente formulario:
 
@@ -142,19 +139,21 @@ Los que están Inactivos (bien sea No Operativos o Dados de baja temporal o tota
 - Quincena
 - Mes
 
->**Nota:** Para añadir el contador se debe dar clic en el botón <span class="mdi mdi-plus-circle icon bg-gray cl-blue"></span> y luego en <a class="btn blue">ACTUALIZAR <span class="mdi mdi-pencil"></span></a> el registro.
-
+> **Nota:** Para añadir el contador se debe dar clic en el botón <span class="mdi mdi-plus-circle icon bg-gray cl-blue"></span> y luego en <a class="btn blue">ACTUALIZAR <span class="mdi mdi-pencil"></span></a> el registro.
 
 **Comentario:** Aquí se ingresan los comentarios sobre un Activo o se especifica información adicional al AC.
-
-
 
 ### Características
 
 Esta opción permite definir para un determinado Activo/Equipo las Características técnicas que lo definen. En la parte izquierda de la ventana aparece un nuevo Visor en el que irán apareciendo las Características que se van creando en la ventana Detalle, mientras que en la parte derecha aparece los campos para crear o actualizar la información de las características.
 
-![Procesar imagen](../../assets/images/cap03/chp03_img07.png)
-_**Imagen 9.** Activos - Características_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"03_14.png"
+  alt:"Activos - Características"
+%}
 
 En la gráfica anterior, Vista Parcial de Características, se aprecian sus componentes y sus respectivos contenidos. En  la ventana Detalle de Características se encuentra la información relevante a la Característica seleccionada en el Visor, que hace referencia al Activo/Equipo.
 
@@ -179,26 +178,37 @@ A continuación se describen los campos que contiene el formulario:
 
 **Hasta:** Se define al valor máximo permitido para la característica definida.
 
-
 Para agregar una característica técnica se debe dar clic en <a class="btn cl-blue bg-gray px-6"> Adicionar Car.Técnica </a> se debe diligenciar el formulario  anterior y adicionar cada una con el botón <span class="mdi mdi-plus-circle icon bg-gray cl-blue "></span>. 
 
-![Procesar imagen](../../assets/images/cap03/chp03_img07_01.png)
-_**Imagen 10.** Activos - Adicionar Características_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"03_15.png"
+  alt:"Activos - Adicionar Características"
+%}
 
 Es posible Actualizar los valores o realizar cambios en una característica agregada. Para ello, seleccione la característica técnica y una vez se encuentre sombreada realice los cambios en el formulario y finalice dando un clic en el botón <a class="btn cl-blue bg-gray px-6"> Actualizar Car.Técnica </a> como se indica en la siguiente imagen: 
 
-![Procesar imagen](../../assets/images/cap03/chp03_img07_02.png)
-_**Imagen 11.** Activos - Actualizar Características_
-
-
-
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"03_16.png"
+  alt:"Activos - Actualizar Características"
+%}
 
 ####   Características Controlables
 
 Esta opción permite ingresar valores de medición a aquellas características que fueron definidas previamente como controlables.
 
-![Procesar imagen](../../assets/images/cap03/chp03_img08.png)
-_**Imagen 12.** Activos - Características Controlables_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"03_17.png"
+  alt:"Activos - Características Controlables"
+%}
 
 En  la  gráfica  anterior, Vista Parcial  de  Características Controlables, se aprecian sus componentes y sus respectivos contenidos. En la ventana Detalle de  Características se encuentra la información relevante a la Característica seleccionada  en el Visor, que hace referencia al Activo/Equipo. Junto con esta información se encuentra un conjunto de datos para el registro de la medición que se va a registrar.
 
@@ -214,8 +224,7 @@ A continuación se describen los campos que componen este formulario:
 
 Para ingresar una característica controlable, primero debe estar agregada como característica controlable y luego en la parte inferior dar clic en <a class="btn cl-blue bg-gray px-6">Adicionar Car. Controlable</a> luego en el desplegable del formulario como se muestra en la imagen anterior seleccionar la característica con el fin de establecer el historial de mediciones. 
 
->_**Nota:** Si una característica se sale del rango o límite establecido se generará una Órden de Trabajo._
-
+> **Nota:** Si una característica se sale del rango o límite establecido se generará una Órden de Trabajo.
 
 ####   Residuos
 
@@ -223,40 +232,65 @@ Los desechos provenientes de los Activos se pueden definir seleccionándolos de 
 
 Para añadir un residuo accione el botón <a class="btn cl-blue bg-gray px-6"> Adicionar Residuo </a>:
 
-![Procesar imagen](../../assets/images/cap03/chp03_img08_01.png)
-_**Imagen 13.** Activos - Residuos_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"03_18.png"
+  alt:"Activos - Residuos"
+%}
 
 Diligencie los campos y adicione con el botón <span class="mdi mdi-plus-circle icon bg-gray cl-blue "></span>:
 
-![Procesar imagen](../../assets/images/cap03/chp03_img08_02.png)
-_**Imagen 14.** Activos - Añadir Residuo_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"03_19.png"
+  alt:"Activos - Añadir Residuo"
+%}
 
 Una vez se añada un residuo es posible actualizar,basta con dar un clic sobre la línea del residuo y una vez se sombree en verde accione el botón <a class="btn cl-blue bg-gray px-6"> Actualizar Residuo </a>:
 
-![Procesar imagen](../../assets/images/cap03/chp03_img08_03.png)
-_**Imagen 15.** Activos - Actualizar residuo_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"03_20.png"
+  alt:"Activos - Actualizar residuo"
+%}
 
 Realice los cambios y accione nuevamente class="btn cl-blue bg-gray px-6"> Actualizar Residuo </a>:
 
-![Procesar imagen](../../assets/images/cap03/chp03_img08_04.png)
-_**Imagen 16.** Activos - Actualizar residuo_
-
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"03_21.png"
+  alt:"Activos - Actualizar residuo"
+%}
 
 Para eliminar un residuo accione <span class="mdi mdi-delete"></span> y continúe con <a class="btn bg-gray cl-black">ACEPTAR</a>:
 
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"03_22.png"
+  alt:"Activos - Eliminar residuo"
+%}
 
-![Procesar imagen](../../assets/images/cap03/chp03_img08_05.png)
-_**Imagen 17.** Activos - Eliminar residuo_
-
-
->_**Nota:** Para hacer efectivos los cambios finalice con el botón <a class="btn blue">ACTUALIZAR <span class="mdi mdi-pencil"></span></a> ._
-
-
+> **Nota:** Para hacer efectivos los cambios finalice con el botón <a class="btn blue">ACTUALIZAR <span class="mdi mdi-pencil"></span></a>.
 
 ### Vida Útil
 
-![Procesar imagen](../../assets/images/cap03/chp03_img09.png)
-_**Imagen 18.** Activos - Vida Útil_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"03_23.png"
+  alt:"Activos - Vida Útil"
+%}
 
 En la gráfica anterior, Porción Vida Útil, se aprecian sus componentes y sus respectivos contenidos.
 
@@ -294,9 +328,9 @@ A continuación se describen los campos que componen esta Pestaña:
 
 **Moneda Extranjera:** En este campo se selecciona el nombre o abreviatura de la moneda de acuerdo con la  definición que se haga de la tabla de infraestructura (moneda de origen).
 
-**Póliza:** Este es un campo indicado en Modo Switche, una vez que le indiquemos al sistema que un registro tiene asociada una póliza se habilitan los campos a diligenciar: Número de póliza, Fecha Ingreso Póliza y Fecha Retiro Póliza.
+**Póliza:** Este es un campo indicado en Modo Switch, una vez que le indiquemos al sistema que un registro tiene asociada una póliza se habilitan los campos a diligenciar: Número de póliza, Fecha Ingreso Póliza y Fecha Retiro Póliza.
 
-**Contrato:** Este es un campo indicado en Modo Switche, una vez que le indiquemos al sistema que un registro tiene asociado un contrato se habilita el campo contrato, una vez que se selccione un contrato el sistema asocia automáticamente los campos: Contratista, Fecha Inicio y Fecha Final.
+**Contrato:** Este es un campo indicado en Modo Switch, una vez que le indiquemos al sistema que un registro tiene asociado un contrato se habilita el campo contrato, una vez que se seleccione un contrato el sistema asocia automáticamente los campos: Contratista, Fecha Inicio y Fecha Final.
 
 **Vida Útil:** En este campo se registra el número total de años de vida útil del Activo según el fabricante, este campo puede ser de tipo informativo o un campo que permita hacer un seguimiento del registro cuando se requiere por parte del usuario hacer una depreciación de línea recta. Esta configuración debe hacerse desde el módulo de <a class="btn blue">Administración</a> por parte de un Usuario Administrador autorizado, en la sección Valores por Defecto, opción Activos. 
 
@@ -308,7 +342,7 @@ A continuación se describen los campos que componen esta Pestaña:
 
 **FF Valor Salvamento:** Es la fecha en la que se definió el Valor de Salvamento.
 
-**Valor Depreciado:** Es el costo de un Activo en la actualidad, despues de haber realizado las depreciaciones de rigor hasta la fecha.
+**Valor Depreciado:** Es el costo de un Activo en la actualidad, después de haber realizado las depreciaciones de rigor hasta la fecha.
 
 **FF Valor Depreciado:** Es la fecha en la que se realizó la depreciación mas reciente del Activo.
 
@@ -328,11 +362,21 @@ Para anexar información metrológica la compañía en la que se trabaja debe es
 
 Ingrese a la pestaña correspondiente y continúe dando clic en <a class="btn gray">Adicionar Magnitud</a>, como se muestra en la imagen:
 
-![Procesar imagen](../../assets/images/cap03/chp03_img09_01.png)
-_**Imagen 19.** Activos - Metrología_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"03_24.png"
+  alt:"Activos - Metrología"
+%}
 
-![Procesar imagen](../../assets/images/cap03/chp03_img09_1.png)
-_**Imagen 20.** Activos - Formulario Metrología_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"03_25.png"
+  alt:"Activos - Formulario Metrología"
+%}
 
 En la gráfica anterior, Porción Metrología, se aprecian sus componentes y sus respectivos contenidos.
 
@@ -356,15 +400,19 @@ A continuación se describen los campos que componen esta Pestaña:
 
 Luego de diligenciar el formulario agregue la magnitud con el botón <span class="mdi mdi-plus-circle icon bg-gray cl-blue "></span>. También es posible actualizar los campos en una magnitud ya agregada, para asentar los cambios en el formulario dar un clic en <a class="btn gray">Actualizar Magnitud</a>. PAra finalizar actualice el registro con el botón ubicado en la parte superior izquierda <a class="btn blue">ACTUALIZAR <span class="mdi mdi-pencil"></span></a>.
 
-
 ### INFORMACIÓN BIOMÉDICA
 
 Para anexar información biomédica a la compañía en la que se trabaja debe estar configurada desde el módulo de <a class="btn blue">Administración</a> en Valores por Defecto como una compañía que es **Biomédica.** 
 
 Ingrese a la pestaña correspondiente:
 
-![Procesar imagen](../../assets/images/cap03/chp03_img09_2.png)
-_**Imagen 21.** Activos - Info. Biomédica_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"03_26.png"
+  alt:"Activos - Info. Biomédica"
+%}
 
 En la gráfica anterior, Porción Info. Biomédica, se aprecian sus componentes y sus respectivos contenidos.
 
@@ -392,11 +440,15 @@ A continuación se describen los campos que componen esta Pestaña:
 
 Una vez diligencie el formulario anterior finalice guardando los cambios con el botón <a class="btn blue">ACTUALIZAR<span class="mdi mdi-pencil"></span></a>.
 
-
 ### MULTIMEDIA
 
-![Procesar imagen](../../assets/images/cap03/chp03_img10.png)
-_**Imagen 22.** Activos - Multimedia_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"03_27.png"
+  alt:"Activos - Multimedia"
+%}
 
 En la gráfica anterior, Ventana Multimedia, se aprecian sus componentes y sus respectivos contenidos.
 
@@ -414,27 +466,44 @@ A continuación se describen las carpetas que componen esta ventana; cuando se q
 
 **Videos:** En esta carpeta se relacionan porciones de videos relacionados al AC. Ejemplo: Videos en formato wmv, mp4, entre otros.
 
-![Procesar imagen](../../assets/images/cap03/chp03_img11.png)
-_**Imagen 23.** Activos - Explorador de archivos_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"03_28.png"
+  alt:"Activos - Explorador de archivos"
+%}
 
 Para adicionar un documento, imagen o video, se debe dar un doble clic sobre la carpeta deseada, y luego seleccionar del ícono de nube <span class="mdi mdi-cloud-upload icon white"></span>. A continuación se abre el explorador de archivos, seguido de seleccionar el archivo dar un clic en <a class="btn bg-gray cl-black">Abrir</a>.
 
-![Procesar imagen](../../assets/images/cap03/chp03_img12.png)
-_**Imagen 24.** Activos - Subir Archivo_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"03_29.png"
+  alt:"Activos - Subir Archivo"
+%}
 
 Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic sobre el nombre de una de las imágenes, se muestra la previsualización. 
 
-![Procesar imagen](../../assets/images/cap03/chp03_img13.png)
-_**Imagen 25.** Activos - Archivos Cargados_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"03_30.png"
+  alt:"Activos - Archivos Cargados"
+%}
 
 Para desasociar un documento, o una imagen o un video, al AC se da clic al icono de basura <span class="mdi mdi-delete"></span> que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro, finalmente confirmar con el botón <a class="btn bg-gray cl-black">ACEPTAR</a>.
 
 Si se desea descargar un archivo adjunto al AC, se debe dar clic en el ícono de nube con direccional hacia abajo <span class="mdi mdi-cloud-download icon white"></span> la nube con flecha hacia abajo que se encuentra al lado derecho del archivo que se quiere descargar.
 
->**Nota:** Sólo los formatos de imagen tiene previsualizaicón, es decir, que con sólo dar clic en la imagen adjunta, ésta se visualiza en otra pequeña ventana, sin necesidad de descargarla: ![Procesar imagen](../../assets/images/cap03/chp03_img47.png)
+> **Nota:** Sólo los formatos de imagen tiene previsualización, es decir, que con sólo dar clic en la imagen adjunta, ésta se visualiza en otra pequeña ventana, sin necesidad de descargarla:
 
-
-
-
-
-
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"03_31.png"
+  alt:"Previsualización"
+%}

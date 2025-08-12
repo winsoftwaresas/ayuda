@@ -10,18 +10,27 @@ media: "../../assets/images/docs/"
 
 ## Ventana Principal de Activos
 
-![Procesar imagen](../../assets/images/cap03/chp03_img02.png)
-_**Imagen 2.** Ventana Principal Activos_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"03_02.png"
+  alt:"Ventana Principal Activos"
+%}
 
 A esta ventana se llega haciendo clic sobre la opción <a class="btn blue">Activos</a> del Menú Principal. A través de ella se ejecutan todas las funciones dedicadas a administrar los Activos/Equipos. A continuación se ilustran las porciones que la componen:
 
 ## Ventana Visor
 
-![Procesar imagen](../../assets/images/cap03/chp03_img03.png)
-_**Imagen 3.** Ventana Visor Activos_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"03_03.png"
+  alt:"Ventana Visor Activos"
+%}
 
 Desde esta ventana es posible observar los Activos/Equipos existentes. Se listan todos o una selección o subgrupo de ellos. El conjunto de Activos/Equipos disponibles a ser desplegados se muestran a través de páginas. El tamaño de las páginas es configurable desde el módulo de <a class="btn blue">Administración</a> por parte de quien tenga acceso a él.
-
 
 Por medio de un clic sobre alguno de los Activos/Equipos del Visor el sistema responde mostrando la información de ese registro, en forma detallada, en una ventana llamada Ventana Detalle.
 
@@ -29,28 +38,41 @@ Los títulos en azul que encabezan las columnas son también botones que permite
 
 El sistema permite hacer desplazamiento vertical de los registros con las teclas de desplazamiento.
 
-
-
 ## Ventana Submenú de Activos
 
 ### Ir a AC
 
 Esta opción de búsqueda rápida se encuentra ubicada al lado superior derecho de la ventana Visor. Al darle clic al ícono  <span class="mdi mdi-magnify"></span>, se abre un campo al lado izquierdo que indica la información que debe ingresarse, bien sea, el código completo o serial del Activo. Luego de digitar la información, se presiona la tecla <a class="btn">Enter <span class="mdi mdi-subdirectory-arrow-left"></span></a> y a continuación se sombrea el Activo deseado en el Visor:
 
-![Procesar imagen](../../assets/images/cap03/chp03_img04_1.png)
-_**Imagen 5.** Ir a AC_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"03_04.png"
+  alt:"Ir a AC"
+%}
 
 En caso de escribir el código con algún error, el sistema muestra un mensaje de alerta indicando que el Activo no existe.
 
-![Procesar imagen](../../assets/images/cap03/chp03_img04_2.png)
-_**Imagen 6.** Mensaje Alerta - Ir a AC_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"03_05.png"
+  alt:"Mensaje Alerta - Ir a AC"
+%}
 
 ## Indicadores
 
 Es posible visualizar de manera inmediata, los Activos que son raíz o padre, ubicaciones técnicas, componentes intercambiables. También, si tienen asociada Multimedia, características técnicas y biomédicas directamente desde la ventana visor, a través de la columna “Indicadores” que muestra una pelota de color que indica el tipo de información definida y asociada. El significado del color de cada pelota, se puede ver en el recuadro de Indicadores   ubicado en la parte superior derecha de la ventana visor.
 
-![Procesar imagen](../../assets/images/cap03/chp03_img04_3.png)
-_**Imagen 7.** Activos - Indicadores_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"03_06.png"
+  alt:"Activos - Indicadores"
+%}
 
 El significado de los colores se visualiza al sobreponer el cursor sobre el icono <span class="mdi mdi-message-alert"></span> que se encuentra al extremo superior derecho y su correspondencia es:
 
@@ -63,27 +85,37 @@ El significado de los colores se visualiza al sobreponer el cursor sobre el icon
 - **Blanco:** Activos definidos como Ubicación Técnica o Componentes Intercambiables y que no están asociados a Componentes Intercambiables o Ubicación Técnica, respectivamente, es decir, que están disponibles para ser asignados.
 - **Negro:** Indica Activos que tienen alerta de tecnovigilancia. 
 
+> **Nota:** Al usar la función de árbol de activos o despiece, para los activos que son ubicaciones físicas se muestra el activo componente que está contenido en ella: 
 
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"03_07.png"
+  alt:"Ventana Activos - Ubicación Técnica"
+%}
 
-
-
->**Nota:** Al usar la función de árbol de activos o despiece, para los activos que son ubiciones físicas se muestra el activo componente que está contenido en ella: 
-![Procesar imagen](../../assets/images/cap03/chp03_img48.png)
-<br>
 Para los activos que son componentes intercambiables se muestra su ubicación técnica:
-![Procesar imagen](../../assets/images/cap03/chp03_img49.png).
 
-<br>
-
-
-
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"03_08.png"
+  alt:"Ventana Activos - Activo Padre"
+%}
 
 ## Subgrupo
 
 Se usa para filtrar grupos de Activos/Equipos que cumplen con un conjunto  de filtros o criterios. El objetivo de hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al <span class="mdi mdi-filter-variant"></span>, ubicado en la parte superior derecha de la ventana Visor de Activos.
 
-![Procesar imagen](../../assets/images/cap03/chp03_img05.png)
-_**Imagen 7.** Activos - Ir a Subgrupo_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"03_09.png"
+  alt:"Activos - Ir a Subgrupo"
+%}
 
 Cada criterio trabaja en conjunto con los demás, con el operador intersección.
 
@@ -93,8 +125,13 @@ Cada criterio aparece inicializado en un valor global que permite mostrar todos 
 
 El programa permite entonces hacer selección de un grupo de Activos de acuerdo con los criterios seleccionados en la siguiente ventana:
 
-![Procesar imagen](../../assets/images/cap03/chp03_img06.png)
-_**Imagen 8.** Subgrupo Activos_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"03_10.png"
+  alt:"Subgrupo Activos"
+%}
 
 Los campos de datos que constituyen los criterios de selección en la Ventana  Subgrupo son los siguientes:
 
@@ -156,7 +193,7 @@ El segundo campo se usa para ingresar el valor correspondiente a la confiablidad
 
 **Fabricante:** Permite seleccionar los Activos/Equipos de  acuerdo con un determinado Fabricante. Esta opción también permite el uso de comodines y funciona igual que en los casos anteriores.
 
-**Indicadores:** Permite  seleccionar los Activos/Equipos  de acuerdo con su clasificación o contenido específico, es decir, filtra equipos que sean solo raiz, o ubicación fisica, componente intercambiable, alerta tecnovigilancia, hasta aquellos que tienen definidas caracteristicas técnicas, biomédicas y contenido de multimedia.
+**Indicadores:** Permite  seleccionar los Activos/Equipos  de acuerdo con su clasificación o contenido específico, es decir, filtra equipos que sean solo raíz, o ubicación física, componente intercambiable, alerta tecnovigilancia, hasta aquellos que tienen definidas características técnicas, biomédicas y contenido de multimedia.
 
 <!--**Indicativo de Ruta:** Permite agrupar los Activos/Equipos de acuerdo con el criterio de si están o no asociados a una Ruta de Mantenimiento.-->
 
@@ -168,7 +205,7 @@ El segundo campo se usa para ingresar el valor correspondiente a la confiablidad
 
 **Referencia Externa (Proveedor):** Permite seleccionar los Activos/Equipos según la referencia definida en su ficha técnica. Esta opción también permite el uso de comodines y funciona igual que en los casos anteriores.
 
-**Riesgo:** Filtra aquellos grupos de Activos que tengan definido riesfgos en su ficha técnica, se permite el uso de comodines (%).
+**Riesgo:** Filtra aquellos grupos de Activos que tengan definido riesgos en su ficha técnica, se permite el uso de comodines (%).
 
 **Serial:** Esta alternativa permite seleccionar un Activo/Equipo de acuerdo con su número Serial.
 
@@ -202,7 +239,6 @@ El segundo campo se usa para ingresar el valor correspondiente a la confiablidad
 
 **FF de Ingreso Inventario:** Busca los Activos que cumplan con el rango de fechas que se defina. Este campo habilita el campo **Desde** que indica la fecha inferior y **Hasta** que indica la fecha superior del rango de interés a analizar. 
 
-  
 #### METROLOGÍA
 
 **Magnitud:** Para las compañías biomédicas filtra los registros que tengan asociada una magnitud. 
@@ -213,26 +249,36 @@ El segundo campo se usa para ingresar el valor correspondiente a la confiablidad
 
 **Número:** Para las compañías biomédicas permite filtrar los Activos/Equipos que tengan asociado el número bien sea referente a un Permiso de Comercialización o Registro Sanitario Invima. Este campo es de selección.
 
->**Nota:** Es importante tener en cuenta que cuando se están realizando los Subgrupos se pueden utilizar uno o varios  de los criterios anteriores simultáneamente.Además es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber realizado una selección, es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección se da un clic al botón
+> **Nota:** Es importante tener en cuenta que cuando se están realizando los Subgrupos se pueden utilizar uno o varios  de los criterios anteriores simultáneamente.Además es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber realizado una selección, es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección se da un clic al botón
 <a class="btn white">MAS <span class="mdi mdi-plus-circle"></span></a> en lugar de darlo al botón <a class="btn white">ACEPTAR <span class="mdi mdi-check-circle"></span></a>.
 
 
 ### Cambiar a TreeGrid
 
-Es  la función  que facilita  visualizar en vista de árbol un conjunto de Activos de acuerdo al filtro o subgrupo o bien todo el conjunto de Activos. Es bastante útil además, para visualizar detalladamente el despiece o descomponetización de un Activo. 
+Es  la función  que facilita  visualizar en vista de árbol un conjunto de Activos de acuerdo al filtro o subgrupo o bien todo el conjunto de Activos. Es bastante útil además, para visualizar detalladamente el despiece o descomponentización de un Activo. 
 
 Para acceder a esta función se debe dar clic en el icono <span class="mdi mdi-autorenew"></span> ubicado en la parte superior derecha de la ventana Visor de Activos, la vista se visualiza de la siguiente forma:
 
-![Procesar imagen](../../assets/images/cap03/chp03_img20.png)
-_**Imagen 62.** Activos - Vista Árbol_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"03_11.png"
+  alt:"Activos - Vista de Árbol"
+%}
 
 En la gráfica anterior, ventana Árbol de Activos, se aprecian sus componentes y sus respectivos contenidos. A continuación se describen los  campos que componen esta ventana:
 
-En esta columna aparece el listado de todos los Activos/Equipos agrupados por su respectivo código y descripción de Ubicacion Física. Al lado izquierdo de cada código visualiza un signo Más <span class="mdi mdi-plus-circle-outline"></span> o un signo Menos <span class="mdi mdi-minus-circle-outline"></span>, que permiten visualizar u ocultar respectivamente, el despiece del Activo/Equipo. 
+En esta columna aparece el listado de todos los Activos/Equipos agrupados por su respectivo código y descripción de Ubicación Física. Al lado izquierdo de cada código visualiza un signo Más <span class="mdi mdi-plus-circle-outline"></span> o un signo Menos <span class="mdi mdi-minus-circle-outline"></span>, que permiten visualizar u ocultar respectivamente, el despiece del Activo/Equipo. 
 
  El significado de cada color lo indica el ícono de indicadores <span class="mdi mdi-message-alert"></span> ubicado en la parte superior derecha de la ventana, como se muestra a continuación:
 
-![Procesar imagen](../../assets/images/cap03/chp03_img21.png)
-_**Imagen 63.** Activos - Indicadores Vista Árbol_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"03_12.png"
+  alt:"Activos - Indicadores Vista Árbol"
+%}
 
 > **Nota:** Para volver nuevamente a la vista Visor de Activos, se debe dar un clic nuevamente al ícono de TreeGrid <span class="mdi mdi-autorenew"></span>.

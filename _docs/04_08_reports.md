@@ -9,15 +9,23 @@ date: 2022-11-10T20:17:34.887Z
 media: "../../assets/images/docs/"
 ---
 
-
-![Procesar imagen](../../assets/images/cap04/chp04_img64.png)
-_**Imagen 22.** Almacén - Ir a Reportes_
-
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"04_68.png"
+  alt:"Almacén - Ir a Reportes"
+%}
 
 Este comando <span class="mdi mdi-printer"></span>  permite visualizar los reportes o informes de la información relacionada a los Repuestos/Materiales. Existen los siguientes tipos de reportes básicos disponibles:
 
-![Procesar imagen](../../assets/images/cap04/chp04_img65.png)
-_**Imagen 23.** Almacén- Reportes_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"04_69.png"
+  alt:"Almacén- Reportes"
+%}
 
 Los anteriores reportes pueden ser  seleccionados para uno o varios Activos/Equipos:
 
@@ -30,6 +38,5 @@ Los anteriores reportes pueden ser  seleccionados para uno o varios Activos/Equi
 **Subtítulo:** En este campo es posible registrar un poco menos de una línea de información, tipo documentación del Reporte, para que se imprima bajo el área de títulos estándar.
 
 Para visualizar los reportes, se da un clic sobre el reporte y luego al botón <a class="btn bg-gray cl-black">IMPRIMIR</a>.
-.
-Para exportar un reporte se da un clic sobre el reporte y luego al botón <a class="btn bg-gray cl-black">EXPORTAR</a>. Esto descarga automáticamente en la estación cliente el reporte en formato excel.
 
+Para exportar un reporte se da un clic sobre el reporte y luego al botón <a class="btn bg-gray cl-black">EXPORTAR</a>. Esto descarga automáticamente en la estación cliente el reporte en formato excel.

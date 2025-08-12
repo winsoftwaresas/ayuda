@@ -10,8 +10,13 @@ media: "../../assets/images/docs/"
 
 Este comando <span class="mdi mdi-printer"></span>  permite visualizar los reportes o informes de la información relacionada a los Activos /Equipos. Existen los siguientes tipos de reportes básicos disponibles:
 
-![Procesar imagen](../../assets/images/cap03/chp03_img34.png)
-_**Imagen 87.** Activos - Reportes_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"03_92.png"
+  alt:"Activos - Reportes"
+%}
 
 Los anteriores reportes pueden ser  seleccionados para uno o varios Activos/Equipos:
 
@@ -27,7 +32,12 @@ Para visualizar los reportes, se da un clic sobre el reporte y luego al botón <
 
 Para exportar un reporte se da un clic sobre el reporte y luego al botón <a class="btn bg-gray cl-black">EXPORTAR</a>. Esto descarga automáticamente en la estación cliente el reporte en formato excel.
 
->**Nota:** Se sugiere el informe de ficha técnica con el fin de obtener la vista de la primera imagen del Activo.  Se muestra a continuación una muestra del reporte. Para la explicación de la nomenclatura de los códigos de reportes, remítase a la sesión del centro de ayuda **Trabajando con AM- Generalidades**. 
+> **Nota:** Se sugiere el informe de ficha técnica con el fin de obtener la vista de la primera imagen del Activo.  Se muestra a continuación una muestra del reporte. Para la explicación de la nomenclatura de los códigos de reportes, remítase a la sesión del centro de ayuda **Trabajando con AM- Generalidades**. 
 
-![Procesar imagen](../../assets/images/cap03/chp03_img46.png)
-_**Imagen 88.** Activos - Reporte Ficha Técnica_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"03_93.png"
+  alt:"Activos - Reporte Ficha Técnica"
+%}

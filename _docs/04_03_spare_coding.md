@@ -28,7 +28,7 @@ En la que cada conjunto de letras es una división del conjunto anterior. Esta  
 - Lubricantes y Combustibles
 - Bandas y Correas
 - Tubería, Elementos de Unión y Accesorios
-- Rodamientos y  Balineras
+- Rodamientos y Balineras
 - Repuestos para Motores
 - Repuestos para Generadores de Corriente
 - Repuestos para Bombas y Compresores

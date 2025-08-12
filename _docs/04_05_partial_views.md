@@ -9,11 +9,15 @@ date: 2022-11-10T20:17:34.887Z
 media: "../../assets/images/docs/"
 ---
 
-
 ## Ventana Detalle
 
-![Procesar imagen](../../assets/images/cap04/chp04_img04.png)
-_**Imagen 4.** Ventana Detalle_ 
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"04_11.png"
+  alt:"Ventana Detalle"
+%}
 
 En la gráfica anterior, ventana Detalle de Materiales y Repuestos se accede dando un clic sobre el registro. En esta ventana se aprecian las porciones, pestañas ó vistas parciales en donde se encuentra toda la información relevante sobre el Repuesto seleccionado en el Visor. 
 
@@ -33,9 +37,13 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 **Descripción larga:** Este botón permite realizar una descripción larga del material/repuesto. Para ello se abre una nueva ventana en la que se adicionan más de 200 caracteres, como se muestra a continuación:
 
-
-![Procesar imagen](../../assets/images/cap04/chp04_img05.png)
-_**Imagen 5.** Información General_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"04_12.png"
+  alt:"Información General"
+%}
 
 **Clase:** Es un campo que permite clasificar o agrupar los artículos del Almacén por un criterio particular para la Organización.
 
@@ -59,7 +67,6 @@ _**Imagen 5.** Información General_
 
 **Costo Última Compra:** Este campo registra la última compra del material/repuesto seleccionado del Almacén. Automatizando los movimientos de la compra través del módulo <a class="btn cl-white bg-blue px-6"> Kárdex </a>.
 
-
 **FF Última Compra:** Es la fecha de la última compra del artículo seleccionado del Almacén. Se actualiza automáticamente cuando tal movimiento de compra se efectuó a través del módulo <a class="btn cl-white bg-blue px-6"> Kárdex </a>.
 
 **FF Último Uso:** Es la fecha de la última salida del artículo seleccionado del Almacén. Se actualiza automáticamente cuando tal movimiento de salida se  efectuó a través del Kárdex de Almacén. En otro caso el sistema no actualiza este campo.
@@ -80,16 +87,19 @@ _**Imagen 5.** Información General_
 
 **Unidad de Consumo:** Es la unidad mediante la cual se le solicita al Almacén o mediante la cual el Almacén despacha un determinado artículo.  Ej. Galones o Unidades.
 
-**Precio Venta 1, Precio Venta 2, Precio Venta 3:** Estos campos son utilizados de tipo información  para almacenar los precios actuales, anteriores y promedio del repuesto, estos campos son parametrizables en en el modúlo <a class="btn blue">Administración</a> en la etiqueta **Almacén**, en la opción  **“Manejo de Precios de Venta”** y elegir la opción **“SI”**.
-
-
+**Precio Venta 1, Precio Venta 2, Precio Venta 3:** Estos campos son utilizados de tipo información  para almacenar los precios actuales, anteriores y promedio del repuesto, estos campos son parametrizables en el módulo <a class="btn blue">Administración</a> en la etiqueta **Almacén**, en la opción  **“Manejo de Precios de Venta”** y elegir la opción **“SI”**.
 
 #### Ficha Técnica
 
 En la pestaña de Ficha Técnica, se encuentra toda la información relevante del artículo, material/repuesto seleccionado en el Visor.
 
-![Procesar imagen](../../assets/images/cap04/chp04_img06.png)
-_**Imagen 6.** Vistas Parciales - Ficha Técnica_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"04_13.png"
+  alt:"Vistas Parciales - Ficha Técnica"
+%}
 
 A continuación se describen los campos que componen el registro. Sobre cada campo se da una breve explicación:
 
@@ -105,9 +115,7 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 **Código de Barras del Proveedor:** Se  refiere  al  Código de  Barras  del  Proveedor  que  se encuentra asociado al Material/Repuesto.
 
-
 **Proveedor 1, Proveedor 2, Proveedor 3:** En estos campos se pueden relacionar hasta 3 proveedores del Material/Repuesto seleccionado.
-
 
 **Referencia Proveedor 1, Referencia Proveedor 2,   Referencia Proveedor 3:** En estos campos se  registran las  referencias  con  las  que  cada  Proveedor  correspondiente  suministra  el  Material/Repuesto seleccionado.
 
@@ -117,8 +125,13 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 Esta opción permite definir para un determinado artículo, material/repuesto las características técnicas que lo definen. En la parte izquierda de la ventana aparece un nuevo Visor en el que irán apareciendo las Características Técnicas que se van creando en la ventana Detalle, mientras que en la parte derecha aparece los campos para crear o actualizar la información de las características.
 
-![Procesar imagen](../../assets/images/cap04/chp04_img07.png)
-_**Imagen 7.** Vistas Parciales - Características Técnicas_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"04_14.png"
+  alt:"Vistas Parciales - Características Técnicas"
+%}
 
 En la gráfica anterior, Vista Parcial de Características, se aprecian las dos columnas  de componentes y sus respectivos contenidos. A continuación se describen los  campos que componen esta ventana de información adicional:
 
@@ -128,30 +141,50 @@ En la gráfica anterior, Vista Parcial de Características, se aprecian las dos 
 
 **Valor:** En  este campo se define  el  valor  de  la  característica correspondiente en la primera columna, en el cual es posible escribir su respectiva unidad de medida. 
 
-Para ingresar una caracteristica técnica al material/repuesto dar clic en el botón <a class="btn blue">Adicionar Car. Técnica</a>
+Para ingresar una característica técnica al material/repuesto dar clic en el botón <a class="btn blue">Adicionar Car. Técnica</a>
 
 A continuación se muestra el formulario para ingresar la Característica:
 
-![Procesar imagen](../../assets/images/cap04/chp04_img08.png)
-_**Imagen 8.** -Ingresar Característica - Formulario_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"04_15.png"
+  alt:"Ingresar Característica - Formulario"
+%}
 
 La Característica Técnica se debe de seleccionar del listado que corresponde a su respectiva tabla de Infraestructura - Características, una vez ingresado el valor se debe accionar el botón <span class="mdi mdi-plus-circle icon bg-gray cl-blue "></span>. Automáticamente el sistema la registra en la tabla de **Car. Técnica**.
 
-![Procesar imagen](../../assets/images/cap04/chp04_img09.png)
-_**Imagen 9.** Adicionar Característica_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"04_16.png"
+  alt:"Adicionar Característica"
+%}
 
 Para eliminar una registro se debe dar clic en el icono <span class="mdi mdi-delete"></span>. El sistema muestra un mensaje alerta para confirmar la transacción:
 
-![Procesar imagen](../../assets/images/cap04/chp04_img10.png)
-_**Imagen 10.** Adicionar Característica_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"04_17.png"
+  alt:"Adicionar Característica"
+%}
 
->**Nota:** Para asentar los cambios de alguna modificación, añadir o eliminar una característica se debe dar clic en el botón <a class="btn blue">ACTUALIZAR <span class="mdi mdi-pencil"></span></a>.
+> **Nota:** Para asentar los cambios de alguna modificación, añadir o eliminar una característica se debe dar clic en el botón <a class="btn blue">ACTUALIZAR <span class="mdi mdi-pencil"></span></a>.
 
 
 #### Multimedia
 
-![Procesar imagen](../../assets/images/cap04/chp04_img11.png)
-_**Imagen 11.** Almacén - Multimedia_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"04_18.png"
+  alt:"Almacén - Multimedia"
+%}
 
 En la gráfica anterior, Ventana Multimedia, se aprecian sus componentes y sus respectivos contenidos.
 
@@ -172,32 +205,57 @@ A continuación se describen las carpetas que componen esta ventana; cuando se q
 
 Para adicionar un documento, imagen o video, se debe dar un doble clic sobre la carpeta deseada, y luego seleccionar del ícono de nube <span class="mdi mdi-cloud-upload icon white"></span>, como se muestra a continuación:
 
-![Procesar imagen](../../assets/images/cap04/chp04_img12.png)
-_**Imagen 12.** Almacén - Abrir Explorador Archivos_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"04_19.png"
+  alt:"Almacén - Abrir Explorador Archivos"
+%}
 
 A continuación se abre el explorador de archivos, seguido de seleccionar el archivo dar un clic en <a class="btn cl-w bg-white bd-black bg-white px-6"> Abrir </a>:
 
-![Procesar imagen](../../assets/images/cap04/chp04_img13.png)
-_**Imagen 13.** Almacén  - Seleccionar Archivos_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"04_20.png"
+  alt:"Almacén  - Seleccionar Archivos"
+%}
 
 De manera adicional u opcional se puede escribir un nombre en el siguiente campo para enfatizar de lo que trata el archivo:
 
-![Procesar imagen](../../assets/images/cap04/chp04_img14.png)
-_**Imagen 14.** Almacén  - Nombrar Archivo_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"04_21.png"
+  alt:"Almacén  - Nombrar Archivo"
+%}
 
 Para finalizar se debe de dar un clic en el el botón <a class="btn cl-w bg-white bd-black bg-white px-6"> Subir archivo</a>. El sistema confirma a través de un mensaje que se ha subido el archivo satisfactoriamente.
  
 Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic sobre cualquiera de un archivo tipo imagen, se muestra la previsualización sin necesidad de descargarse, como se muestra a continuación:
 
-![Procesar imagen](../../assets/images/cap04/chp04_img15.png)
-_**Imagen 15.** Almacén  - Previsualización de imagen_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"04_22.png"
+  alt:"Almacén  - Previsualización de imagen"
+%}
 
-Para desasociar un documento, o una imagen o un video, se da clic al icono  <span class="mdi mdi-delete"></span> que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro, finalmente confirmar con el botón <a class="btn bg-gray cl-black">ACEPTAR</a> así:
+Para desasociar un documento, o una imagen o un video, se da clic al icono <span class="mdi mdi-delete"></span> que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro, finalmente confirmar con el botón <a class="btn bg-gray cl-black">ACEPTAR</a> así:
 
-![Procesar imagen](../../assets/images/cap04/chp04_img16.png)
-_**Imagen 16.** Almacén - Desasociar un Archivo_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"04_23.png"
+  alt:"Almacén - Desasociar un Archivo"
+%}
 
 Si se desea descargar un archivo adjunto, se debe dar clic en el ícono <span class="mdi mdi-cloud-download icon white"></span> la nube con flecha hacia abajo que se encuentra al lado derecho del archivo que se quiere descargar.
 
->_**Nota:** Este proceso es el mismo para cualquiera de las tres carpetas de Multimedia._
+> **Nota:** Este proceso es el mismo para cualquiera de las tres carpetas de Multimedia.
 

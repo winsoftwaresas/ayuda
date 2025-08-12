@@ -10,23 +10,35 @@ media: "../../assets/images/docs/"
 
 # Ventana Principal de Almacén de Repuestos
 
-
 Al sobreponer el cursor en el módulo de <a class="btn blue">Almacén</a> se listan los almacenes creados en la tabla de Almacenes de la Infraestructura y cuando se elige un Almacén, el sistema muestra al lado izquierdo del nombre del respectivo almacén un <span class="mdi mdi-check-circle"></span> en color verde y en frente en azul, el aviso <a class="btn blue">Seleccionado</a> como se muestra a continuación:
 
-![Procesar imagen](../../assets/images/cap04/chp04_img01.png)
-_**Imagen 1.** Menú Almacenes_
-
-
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"04_01.png"
+  alt:"Menú Almacenes"
+%}
 
 A un almacén se llega haciendo clic después de sobreponer el cursor y elegir el respectivo almacén desde el módulo <a class="btn blue">Almacén</a>  del Menú Principal. El sistema responde mostrando la información contenida dentro de ese almacén seleccionado:
 
-![Procesar imagen](../../assets/images/cap04/chp04_img02.png)
-_**Imagen 2.** Ventana Principal Repuestos_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"04_02.png"
+  alt:"Ventana Principal Repuestos"
+%}
 
 ## Ventana Visor
 
-![Procesar imagen](../../assets/images/cap04/chp04_img02.png)
-_**Imagen 3.** Ventana Visor_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"04_03.png"
+  alt:"Ventana Visor"
+%}
 
 Desde esta ventana es posible observar los Materiales/Repuestos existentes. Se listan todos o un Subgrupo de ellos. Es posible configurar el número de registros que  se muestran por página desde el menú <a class="btn blue">Administración</a> en la opción  **“Valores por Defecto”** en la etiqueta **General**.
 
@@ -35,27 +47,41 @@ Al hacer clic sobre alguno de los Repuestos del Visor el sistema responde  mostr
 Los títulos en azul que encabezan las columnas son también botones que permiten ordenar la  tabla, según el título seleccionado. En forma ascendente/descendente. Para elegir un registro de la tabla debe de dar un clic sobre él y para desplazarse puede usar el cursor con las teclas de desplazamiento.
 
 
-# Ventana Submenú de Repuestos
+# Ventana Submenu de Repuestos
 
 ## Ir a RP
 
-El icono <span class="mdi mdi-magnify"></span> sirve para hacer una búsquea rápida por el código del material/repuesto, éste abre un campo al lado izquierdo, donde se debe digitar el código completo del ítem que desea encontrar rápidamente. Luego de digitar el código del material/repuesto, presione la  tecla  **“Enter”** y  el  cursor se posiciona en consecuencia,  sobre el material/repuesto deseado en el Visor sombreado por la línea de color verde así:
+El icono <span class="mdi mdi-magnify"></span> sirve para hacer una búsqueda rápida por el código del material/repuesto, éste abre un campo al lado izquierdo, donde se debe digitar el código completo del ítem que desea encontrar rápidamente. Luego de digitar el código del material/repuesto, presione la  tecla  **“Enter”** y  el  cursor se posiciona en consecuencia,  sobre el material/repuesto deseado en el Visor sombreado por la línea de color verde así:
 
-
-![Procesar imagen](../../assets/images/cap04/chp04_img17.png) 
-_**Imagen 17.** Almacén - Ir a RP_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"04_04.png"
+  alt:"Almacén - Ir a RP"
+%}
 
 En caso de escribir el código con algún error o incompleto el sistema muestra un mensaje de alerta indicando que el Repuesto no existe.
 
-![Procesar imagen](../../assets/images/cap04/chp04_img18.png) 
-_**Imagen 18.** Almacén - Mensaje alerta RP_  
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"04_05.png"
+  alt:"Almacén - Mensaje alerta RP"
+%}
 
 ## Indicadores
 
 Es posible visualizar de manera inmediata, los Materiales/Repuestos activos, inactivos y con Multimedia, directamente desde la ventana visor, a través de la columna  “Indicadores” que muestra una pelota de color que indica su estado. El significado del color de cada pelota, se puede ver en el icono  <span class="mdi mdi-message-alert"></span> ubicado en la parte superior derecha de la ventana visor:
 
-![Procesar imagen](../../assets/images/cap04/chp04_img19.png) 
-_**Imagen 19.** Almacén - Indicadores_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"04_06.png"
+  alt:"Almacén - Indicadores"
+%}
 
 El significado de los colores se visualiza al sobreponer el mouse en el icono que se encuentra al extremo superior derecho y su correspondencia es:
 
@@ -67,14 +93,23 @@ El significado de los colores se visualiza al sobreponer el mouse en el icono qu
 
 Se usa para filtrar o seleccionar grupos de materiales/repuestos que cumplen un conjunto de filtros o criterios. El objetivo de hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al subgrupo <span class="mdi mdi-filter-variant"></span> ubicado en la parte superior derecha de la ventana Visor de Almacén de Repuestos.  
 
-![Procesar imagen](../../assets/images/cap04/chp04_img20.png)
-_**Imagen 20.** Almacén - Ir a Subgrupo_
-
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"04_07.png"
+  alt:"Almacén - Ir a Subgrupo"
+%}
 
 Los campos que constituyen un criterio de selección haciendo parte de la Ventana Subgrupo de Repuestos son:
 
-![Procesar imagen](../../assets/images/cap04/chp04_img21.png)
-_**Imagen 21.** Almacén - Subgrupo Materiales y Repuestos_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"04_08.png"
+  alt:"Almacén - Subgrupo Materiales y Repuestos"
+%}
 
 **A, B, C, O:** Permite encontrar  los materiales/repuestos que tengan una clasificación A, B, C u O definida.
 
@@ -110,20 +145,26 @@ _**Imagen 21.** Almacén - Subgrupo Materiales y Repuestos_
 
 **Tipo de Trabajo:** Agrupa los materiales/repuestos de acuerdo al tipo de trabajo (TT) al que están  asociados.
 
->**Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos  se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además  es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber realizado una selección es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección se da un clic al botón <a class="btn white">MAS <span class="mdi mdi-plus-circle"></span></a> y luego en <a class="btn white">ACEPTAR <span class="mdi mdi-check-circle"></span></a>.
-
+> **Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos  se pueden utilizar uno o varios de los criterios anteriores simultáneamente. Además  es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber realizado una selección es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección se da un clic al botón <a class="btn white">MAS <span class="mdi mdi-plus-circle"></span></a> y luego en <a class="btn white">ACEPTAR <span class="mdi mdi-check-circle"></span></a>.
 
 ### Ir a RP
 
-
 Esta opción de búsqueda rápida se encuentra ubicada al lado superior derecho de la ventana Visor. Al darle clic al ícono <span class="mdi mdi-magnify"></span>, se abre un campo al lado izquierdo que permite ingresar el código completo del Repuesto/Material. Luego de digitar la información, se presiona la tecla <a class="btn">Enter <span class="mdi mdi-subdirectory-arrow-left"></span></a> y a continuación se sombrea en color verde el ítem en el Visor así:
 
-![Procesar imagen](../../assets/images/cap04/chp04_img68.png)
-_**Imagen 26.** Ir a AC_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"04_09.png"
+  alt:"Ir a AC"
+%}
 
 En caso de escribir el código con algún error, el sistema muestra un mensaje de alerta indicando que el Material/Repuesto no existe, como se ejemplifica a continuación:
 
-![Procesar imagen](../../assets/images/cap04/chp04_img69.png)
-_**Imagen 27.** Mensaje Alerta - Ir a AC_
-
-
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"04_10.png"
+  alt:"Mensaje Alerta - Ir a AC"
+%}

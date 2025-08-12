@@ -8,8 +8,6 @@ order: '06_02'
 media: "../../assets/images/docs/"
 ---
 
-
-
 ### Características
 
 - **Registro Detallado de Dispositivos Médicos:** Permite almacenar información clave como marca, modelo y código de registro sanitario de los dispositivos médicos.
@@ -24,10 +22,7 @@ media: "../../assets/images/docs/"
 
 - **Historial de Actividades:** Registro editable de comentarios y acciones tomadas frente a cada alerta.
 
-
 - **Seguimiento de Incidentes:** Monitoreo continuo del estado de cada alerta a través de indicadores:  Estados de Alertas, Activos y generación automática de Órdenes de Trabajo. 
-
-
 
 ### Beneficios 
 
@@ -37,16 +32,11 @@ media: "../../assets/images/docs/"
 
 - **Cumplimiento Normativo:** Facilita la gestión y documentación requerida para cumplir con los estándares regulatorios.
 
-
 - **Toma de Decisiones Informadas:** Proporciona información detallada y actualizada para evaluar riesgos y priorizar acciones correctivas.
-
 
 - **Optimización de Recursos:** Centraliza la información clave, minimizando esfuerzos duplicados y mejorando la coordinación entre equipos.
 
-
-
 - **Visibilidad y Transparencia:** Permite el acceso a un historial detallado de incidentes, acciones tomadas y estados de alerta.
-
 
 - **Facilidad de Uso:** Interfaz intuitiva con opciones claras para buscar alertas, registrar incidentes y generar informes.
 
@@ -58,12 +48,9 @@ media: "../../assets/images/docs/"
 
 - Se sugiere realizar una búsqueda del último trimestre si es la primera vez que se utiliza el módulo.
 
-- Establecer un proceso periodico para actualizar la información.
+- Establecer un proceso periódico para actualizar la información.
 
-
-### Estracción de Eventos Adversos
-
-
+### Extracción de Eventos Adversos
 
 El usuario debe seleccionar el periodo de tiempo deseado (por ejemplo, las fechas específicas de interés) en el módulo de <a class="btn cl-white bg-blue px-3">Tecnovigilancia</a>
 y presionar el botón <a class="btn cl-blue bg-gray px-6"> Iniciar Búsqueda </a>. 
@@ -74,25 +61,20 @@ Al realizar esta acción:
 - Extrae automáticamente la información de eventos adversos que coinciden con el periodo seleccionado.
 - Almacena los eventos en el módulo de tecnovigilancia para análisis y gestión.
 
-
 ### Identificación de Activos con Alertas
 
 Una vez extraída la información, el sistema compara las alertas publicadas por el INVIMA con los activos registrados en **AM** . Esta comparación se realiza utilizando el parámetro **registro sanitario INVIMA** de los dispositivos, identificando aquellos que coincidan con las alertas reportadas.
 
 Cuando el usuario selecciona la opción <a class="btn cl-red bg-white px-6"> Activos con Alertas </a>, se abre una nueva ventana con un listado detallado de las coincidencias encontradas. Este listado incluye información clave como:
 
-
 - Descripción de la alerta.
 - Código del activo.
 - Registro sanitario INVIMA.
 - Proveedor asociado.
 
-
 #### Visualización de la Ficha Técnica del Activo
 
-
 En esta sección, el usuario puede consultar todos los datos relevantes del activo asociado a la alerta seleccionada. La ficha técnica incluye información como:
-
 
 - **Código del Activo:** Identificador interno del activo dentro del sistema.
 - **Ubicación Física:** Lugar donde se encuentra actualmente el activo.
@@ -100,7 +82,6 @@ En esta sección, el usuario puede consultar todos los datos relevantes del acti
 - **Proveedor:** Empresa que suministró el activo.
 - **Referencia del Proveedor:** Número o código que identifica el activo con el proveedor.
 - **Número de Serie:** Identificador único del activo dentro del sistema del proveedor.
-
 
 #### Información de la Alerta
 
@@ -110,16 +91,13 @@ La ventana también muestra información relevante de la alerta emitida por el I
 - **Fecha de Publicación:** Fecha en la que el INVIMA emitió la alerta.
 - **Estado de la Alerta:** Indica si la alerta está abierta, cerrada, o en otro estado de gestión
 
-
 #### Opción de Visualizar Alertas
 
 El sistema incluye un link denominado “Visualizar Alerta", que permite al usuario descargar la documentación oficial emitida por el INVIMA en formato PDF. Esto facilita tener acceso a la fuente oficial de la información para revisión, impresión o respaldo.
 
-
 #### Sección de Comentarios y Acciones Tomadas frente a cada Alerta
 
 En esta sección, el personal encargado puede registrar información sobre las acciones tomadas en relación con la alerta. Estas acciones pueden incluir medidas correctivas, preventivas, o cualquier otra actividad relacionada con el manejo de la alerta. Esto permite mantener un historial de actividades gestionadas para cada alerta. El campo de comentarios y acciones no es editable.
-
 
 #### Procedimiento Inicial y Mantenimiento
 
