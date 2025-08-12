@@ -4,6 +4,6 @@ node_modules
 
 # Jekyll
 _site
-docs/
+/docs/
 .sass-cache
 .jekyll-metadata
