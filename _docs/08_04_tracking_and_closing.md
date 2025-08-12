@@ -10,15 +10,27 @@ El proceso de cierre de un  **FDA** como tal, es similar, aunque más sencillo, 
 
 ## Ventana Principal de Paros/Averías
 
-![Ventana Principal de Paros/Averías](../../assets/images/cap10/chp10_img02.png)
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"08_04.png"
+  alt:"Ventana Principal de Paros/Averías"
+%}
 
 A esta ventana se llega haciendo clic sobre la opción Paros del Menú Principal. A través de ella se ejecutan todas las funciones dedicadas a administrar los PA. A continuación, se ilustran las porciones que la componen.
 
 ## Ventana Visor de PA /  **FDA**
 
-![Ventana Visor de PA /  FDA](../../assets/images/cap10/chp10_img03.png)
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"08_05.png"
+  alt:"Ventana Visor de PA /  FDA"
+%}
 
-Desde esta ventana es posible observar los PAROS /  **FDA** existentes. Se listan todos o   una selección o subgrupo de ellos. El conjunto de PAROS /  **FDA** disponibles a ser desplegado se muestra a través de  páginas.                 El tamaño  de  las  páginas  es  configurable  desde  la  opción Administración del menú principal, en la  sección **“Valores por Defecto”** por parte de un usuario autorizado.
+Desde esta ventana es posible observar los PAROS /  **FDA** existentes. Se listan todos o   una selección o subgrupo de ellos. El conjunto de PAROS /  **FDA** disponibles a ser desplegado se muestra a través de  páginas. El tamaño  de  las  páginas  es  configurable  desde  la  opción Administración del menú principal, en la  sección **“Valores por Defecto”** por parte de un usuario autorizado.
 
 Al hacer clic sobre algún registro de PAROS /  **FDA** del Visor, el sistema responde  mostrando la información de ese  **FDA**, en forma detallada, en una ventana llamada Ventana Detalle.
 
@@ -26,7 +38,13 @@ Los títulos en azul que encabezan las columnas son también botones que permite
 
 ## Ventana Detalle de Paros/Averías
 
-![Ventana Detalle de Paros/Averías](../../assets/images/cap10/chp10_img04.png)
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"08_06.png"
+  alt:"Ventana Detalle de Paros/Averías"
+%}
 
 En la gráfica anterior, que muestra la ventana Detalle de  **FDA**, se aprecian todos los componentes y sus respectivos contenidos. En esta ventana Detalle de PAROS /  **FDA** se encuentra toda la información relevante al PAROS /  **FDA** seleccionado en el Visor.
 
@@ -131,7 +149,13 @@ Los campos **T. Trabajo, T. Mtto y T. Actividad**, se parametrizan de forma opci
 
 Es posible visualizar de manera inmediata, los PAROS / **FDA** con Multimedia y Servicio Evaluado, directamente desde la ventana visor, a través de la columna **Indicadores** que muestra una pelota de color que indica si tiene asociado Multimedia y/o si tiene el Servicio Evaluado. El significado del color de cada pelota, se puede ver en el recuadro de Indicadores, ubicado en la parte superior derecha de la ventana visor.
 
-![Indicadores](../../assets/images/cap10/chp10_img05.png)
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"08_07.png"
+  alt:"Indicadores"
+%}
 
 El significado de los colores se visualiza al sobreponer el mouse en el icono que se encuentra al extremo superior derecho y su correspondencia es:
 
@@ -142,7 +166,13 @@ El significado de los colores se visualiza al sobreponer el mouse en el icono qu
 
 Se usa para seleccionar grupos de Paros y/o Averías que cumplen con un conjunto de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al <span class="iconify btn" data-icon="mdi-filter-variant"></span> ícono de filtro, ubicado en la parte superior derecha de la ventana Visor de Paros.
 
-![paros fda](../../assets/images/cap10/chp10_img05.png)
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"08_08.png"
+  alt:"Paros FDA"
+%}
 
 Cada criterio trabaja en conjunto con los demás, con el operador intersección.
 
@@ -152,7 +182,13 @@ Cada criterio aparece inicializado en un valor global que permite mostrar todos 
 
 El programa permite entonces hacer selección de un grupo de Paros de acuerdo con los criterios seleccionados en la siguiente ventana.
 
-![ventana de paros fda](../../assets/images/cap10/chp10_img06.png)
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"08_09.png"
+  alt:"Ventana de Paros FDA"
+%}
 
 Los campos de datos que constituyen criterio de selección en la Ventana Subgrupo de
 Paros son los siguientes.
@@ -193,8 +229,7 @@ Paros son los siguientes.
 
 **FF de  FDA:** Este campo preselecciona los Paros cuya fecha de Falla, Daño o Avería se encuentre en el rango especificado, si no se especifica una de las 2 fechas, el sistema establece un rango abierto para esta fecha, es decir, si  se especifica la **“fecha  desde”**, pero no se especifica la **“fecha hasta”**, el sistema utiliza como **“fecha hasta”** la fecha actual.
 
-**Responsable:** Este criterio agrupa todos los Paros que  hayan sido  atendidos por  el
-Responsable especificado. En este campo se pueden utilizar los comodines.
+**Responsable:** Este criterio agrupa todos los Paros que  hayan sido  atendidos por  el Responsable especificado. En este campo se pueden utilizar los comodines.
 
 **Solicitante (Digitado manualmente):** Agrupa los Paros cuyo solicitante fue especificado manualmente en este campo. Se pueden utilizar los comodines.
 
@@ -213,7 +248,13 @@ Mantenimiento que aquí se selecciona.
 
 ### Multimedia
 
-![ventana de paros fda](../../assets/images/cap10/chp10_img07.png)
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"08_10.png"
+  alt:"Ventana de paros fda"
+%}
 
 En la gráfica anterior, Ventana Multimedia, se aprecian sus componentes y sus respectivos contenidos.
 
@@ -231,16 +272,34 @@ A continuación se describen las carpetas que componen esta ventana; cuando se q
 
 **Videos:** En esta carpeta se relacionan porciones de videos relacionados al PA. Ejemplo: Videos en formato wmv, entre otros.
 
-![ventana de paros fda](../../assets/images/cap10/chp10_img08.png)
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"08_11.png"
+  alt:"Ventana de paros fda"
+%}
 
 Para adicionar un documento, imagen o video, se debe dar clic en la carpeta deseada, luego se da clic al icono <span class="iconify btn" data-icon="cloud-upload"></span> Cargar, a continuación se abre una nueva ventana para realizar la búsqueda del archivo a subir, se selecciona el archivo y se da clic en <a class="btn">Abrir</a>.
 abrir.
 
-![ventana de paros fda](../../assets/images/cap10/chp10_img09.png)
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"08_12.png"
+  alt:"Ventana de Paros FDA"
+%}
 
 Una vez se da clic en <a class="btn">Abrir</a>, se evidencia al lado derecho el nombre del archivo elegido y aparece un campo en blanco, para que el usuario escriba un nombre adicional del archivo para ser usado como una referenciación del archivo adjunto. Luego, se da clic en el botón <a class="btn">Subir archivo</a>.
 
-![ventana de paros fda](../../assets/images/cap10/chp10_img10.png)
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"08_13.png"
+  alt:"Ventana de Paros FDA"
+%}
 
 Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic en uno de las imágenes, se visualiza la imagen adjunta.
 
@@ -252,7 +311,13 @@ Si se desea descargar un archivo adjunto al PARO /  **FDA**, se debe dar clic en
 
 Se realiza a través de la pestaña Evaluar Servicio de la ventana Detalle, la evaluación del servicio prestado por el personal de mantenimiento o de servicios, en el Paro seleccionado. La evaluación la debe realizar un usuario, previamente autorizado, quien fuera el receptor del servicio, una vez se ha ya cerrado el Paro. Esta opción de evaluación se hace disponible, cuando se han definido  las cinco preguntas de  evaluación,  en  **“Parámetros  para Evaluación del  Servicio”**, en **“Valores por Defecto”**, en el módulo de **“Administración”**.
 
-![ventana paros fda](../../assets/images/cap10/chp10_img10.png)
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"08_14.png"
+  alt:"Ventana de Paros FDA"
+%}
 
 ## Transacciones
 
@@ -260,11 +325,23 @@ Se realiza a través de la pestaña Evaluar Servicio de la ventana Detalle, la e
 
 A esta opción se llega al sobreponer el cursor del mouse sobre el módulo de Paros y al lado derecho se despliega el conjunto de transacciones disponibles para el módulo de Paros, luego se elige la transacción **Enviar a Historia**.
 
-![paros](../../assets/images/cap10/chp10_img10.png)
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"08_15.png"
+  alt:"Paros"
+%}
 
 El objetivo de esta transacción es desplazar hacia el módulo de Historia de Mantenimiento, los  registros que  se  hayan  preseleccionados por  un  subgrupo, es   decir, los que se encuentran en el visor,  que además tengan estado de Cerrados y residan todavía en el módulo de Paros. Los estados de  Cierre  que  son  tomados para  este  proceso son:   Cerrada Ejecutada y Cerrado con OT.
 
-![Ventana PAROS /  FDA (Transacciones- Enviar a Historia)](../../assets/images/cap10/chp10_img11.png)
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"08_16.png"
+  alt:"Ventana PAROS /  FDA (Transacciones- Enviar a Historia)"
+%}
 
 En  la  gráfica  anterior, Enviar a Historia, se  aprecian  sus  componentes  y   sus respectivos contenidos.
 
@@ -284,7 +361,13 @@ Esta opción permite la exportación de los Paros y Averías que aparecen en el 
 
 Al ejecutar esta transacción, se abrirá una ventana la cual se muestra a continuación.
 
-![Ventana PAROS /  FDA (Transacciones- Exportar)](../../assets/images/cap10/chp10_img12.png)
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"08_17.png"
+  alt:"Ventana PAROS /  FDA (Transacciones- Exportar)"
+%}
 
 Al darle clic en el botón <a class="btn">Exportar</a>, se generará un archivo de Excel que se descarga automáticamente en la estación cliente donde se ejecutó el proceso, el objetivo de esta exportación es llevar toda la información de los Paros contenidos en el visor a un archivo plano, para luego ser analizados.
 

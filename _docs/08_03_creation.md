@@ -18,21 +18,33 @@ Un FDA se crea bajo las condiciones de ser ejecutado bajo una sola persona, a ba
 
 Para crear un registro FDA se debe dirigir al módulo de **Paros** en el menú principal de **AM**¨como se muestra a continuación:
 
-
-![Procesar imagen](../../assets/images/cap08/chp08_img01.png)
-_**Imagen 1.** Paros - Ir a Paros_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"08_01.png"
+  alt:"Paros - Ir a Paros"
+%}
 
 Luego de ingresar al módulo o a la Ventana Visor de Paros dirigirse a la parte superior izquierda y seleccionar el botón  <a class="btn white">NUEVO</a>. 
 
-
-![Procesar imagen](../../assets/images/cap08/chp08_img02.png)
-_**Imagen 2.** Paros - Visor de Paros_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"08_02.png"
+  alt:"Paros - Visor de Paros"
+%}
 
 A continuación se muestra la Ventana Detalle con el siguiente formulario:  
 
-
-![Procesar imagen](../../assets/images/cap08/chp08_img02.png)
-_**Imagen 3.** Paros - Ventana Detalle Formulario Creación FDA_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"08_03.png"
+  alt:"Paros - Ventana Detalle Formulario Creación FDA"
+%}
 
 A continuación se da una breve explicación de cada campo:
 
@@ -45,8 +57,7 @@ A continuación se da una breve explicación de cada campo:
 **Estado:** Permite elegir el estado de  seguimiento en  el  que  se  encuentra el  FDA.  Las opciones de estado son: En Análisis, Cerrado Ejecutado y Cerrado con OT. 
 Un PARO/FDA está en análisis  desde que  se  genera  hasta que  se  le da  atención  y se  finaliza  el  trabajo correctivo, luego, se define si el PARO / FDA debe ser cerrado y enviado a Historia como FDA, porque se pudo resolver en corto tiempo, a bajo costo y por la acción de un solo técnico de mantenimiento.  
 También un Paro se puede cerrar como OT, porque los costos en que se incurrió,  o  el  tiempo transcurrido,  o  el  número  de  horas  hombre  fueron  “mayores”, o porque la trascendencia del PARO / FDA es grande en el contexto histórico del Equipo/Activo. 
-Al seleccionar el estado “Cerradoa 
-Ejecutada” se permite la modificación de cualquier información del PA/FDA. Mientras que, si se selecciona el estado “Cerrado con OT” no se permite la modificación del PA, porque toda su información se traslada automáticamente a la OT que se crea con el cierre.
+Al seleccionar el estado “Cerrada Ejecutada” se permite la modificación de cualquier información del PA/FDA. Mientras que, si se selecciona el estado “Cerrado con OT” no se permite la modificación del PA, porque toda su información se traslada automáticamente a la OT que se crea con el cierre.
 
 **Turno:** Indica el turno laboral en el cual se produjo el paro. Se puede elegir entre  los turnos 1, 2, 3 y 4.
 
@@ -114,9 +125,6 @@ T. Actividad: Aquí se establece el Tipo de Actividad a realizar en el Paro. La 
 
 Los campos “T. Trabajo, T. Mtto y T. Actividad”, se parametrizan de forma opcional desde el módulo de Administración, se sobrepone el mouse en una compañía de la lista que se muestra y se da clic en “Valores por defecto”, en la etiqueta de Paros, se selecciona la opción “Solicitar datos para definir proceso (Tipo Trabajo, Tipo Mantenimiento, Tipo Actividad)”.
 
-
-
-
 F/H Paro: Se registra en este campo la fecha y hora exacta en la que  se informa del PARO / FDA a Mantenimiento.
 
 F/H Atención: Se registra en este campo la fecha y hora exacta en la que se dio atención al paro.
@@ -132,4 +140,3 @@ Sugerir Fecha / Hora: Este botón registra automáticamente la fecha y hora de c
 Comentarios Trabajo Realizado: Se registra en este campo la descripción y el trabajo realizado del PA.  Es importante cuando el PARO / FDA se va a cerrar con OT, y no se tiene activo el campo Descripción del FDA, este campo se utiliza para determinar la descripción de la OT.
 
 Ir a la Orden de Trabajo generada: Cuando el PARO / FDA es cerrado con OT, el sistema crea un vínculo directo a la OT generada en el módulo de Órdenes de Trabajo. En la OT correspondiente también se crea un vínculo hacia el PAROS / FDA que le dio origen.
-
