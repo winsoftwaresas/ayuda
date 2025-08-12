@@ -78,7 +78,7 @@ _**Imagen 58.** AMsi - General_
 
 **Solicitar fecha tentativa de entrega:** Marcar SI, permite mostrar el campo para ingresar la fecha en el formulario del Servicio a Solicitar con el fin de que el usuario solicitante sugiera una solución tentativa del servicio.
 
-**Preguntar Si Activo se entrega limpio a Mantenimiento:** Marcar SI, permite activar/desactivar un switche en el formulario del Servicio a Solicitar para que el usuario marque si es un Activo que se entrega limpio al área de mantenimiento.
+**Preguntar Si Activo se entrega limpio a Mantenimiento:** Marcar SI, permite activar/desactivar un switch en el formulario del Servicio a Solicitar para que el usuario marque si es un Activo que se entrega limpio al área de mantenimiento.
 
 **Relacionar Usuarios Por Centro de Costo:** De marcar la opción NO, todos los usuarios que se administran (crear o modificar) quedan relacionados por compañía, es decir, en el formulario del Servicio a Solicitar se listan los Activos de la compañía.
 

@@ -496,7 +496,7 @@ _**Imagen 126.** AMovil - Formulario Solicitud_
 
 _**Imagen 127.** AMovil - Formulario Crear Solicitud_
 
-Todos los campos son obligatorios, se debe contar con los permisos para visualizar la Órden creada.  
+Todos los campos son obligatorios, se debe contar con los permisos para visualizar la Orden creada.  
 
 A continuación se da una breve explicación de cada campo:
 

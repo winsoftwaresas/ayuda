@@ -50,7 +50,7 @@ En la gráfica anterior, Ventana Detalle de Órdenes de Trabajo Históricas, se 
 
 A continuación se describen los campos que componen esta ventana Detalle de Órdenes de Trabajo Históricas. Sobre cada campo se da una breve explicación:
 
-**OT:** Aparece el número de la Órden de Trabajo asignado por **AM** cuando fue generada.
+**OT:** Aparece el número de la Orden de Trabajo asignado por **AM** cuando fue generada.
 
 **F/H Creación:** Es la fecha en la cual se creó la Orden de Trabajo.  Esta fecha es asignada automáticamente por el sistema y no es modificable.
 
@@ -60,7 +60,7 @@ A continuación se describen los campos que componen esta ventana Detalle de Ór
 
 **F/H Programada:** En  este  campo se  ingresa  la  fecha  programada para  realizar  la ejecución de la OT.
 
-**Referencia:** En  este  campo  se  puede  ingresar  el  número de  un  documento,  que sirve como referencia o relación a la OT, ejemplo: Número de una factura,  número de una Órden de Compra asociada, o un documento interno de despacho de almacén, etc.
+**Referencia:** En  este  campo  se  puede  ingresar  el  número de  un  documento,  que sirve como referencia o relación a la OT, ejemplo: Número de una factura,  número de una Orden de Compra asociada, o un documento interno de despacho de almacén, etc.
 
 **Estado:** Este campo está bloqueado y muestra el nombre del Estado de la OT. 
 
@@ -277,9 +277,9 @@ _**Imagen 12.** Historia Archivada- Indicadores_
 
 El significado de los colores es el siguiente:
 
-- **Naranja:** Órden que tiene asociado archivos de imágenes, videos y/o documentos en la pestaña Multimedia.
+- **Naranja:** Orden que tiene asociado archivos de imágenes, videos y/o documentos en la pestaña Multimedia.
 - **Blanco:** Indican SS/OT que tienen registrada la firma de recibido (AMovil)
-- **Azul:** Órden con servicio evaluado.
+- **Azul:** Orden con servicio evaluado.
 
 ## Subgrupos
 

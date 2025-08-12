@@ -194,7 +194,7 @@ Se ha incorporado un nuevo filtro por semaforización en el **Módulo de Ordenes
 {% include tag.html tag="added" %}  
 Al momento de cerrar una **Orden de Trabajo** en AM 4G, ahora es posible registrar la firma tanto de la persona que recibe el servicio como del técnico que lo ejecutó. Esto mejora la trazabilidad, la validación del servicio prestado y el respaldo documental del proceso.
 
-![Detalle de la Órden de Trabajo]({{ page.media }}/image38.png)
+![Detalle de la Orden de Trabajo]({{ page.media }}/image38.png)
 
 - El Técnico da click sobre la **Firma de Técnico** que desea realizar, realiza la firma y da click en Guardar.
 

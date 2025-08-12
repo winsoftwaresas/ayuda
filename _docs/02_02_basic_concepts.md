@@ -14,7 +14,7 @@ Es recomendable ingresar los datos en el siguiente orden: Centros de Costo, Cent
 
 Después de haber ingresado los datos básicos de Infraestructura, se debe continuar con la información correspondiente a Activos y Almacén que se encuentra en el menú principal.
 
-Un registro de una tabla de Infraestructura, no puede ser borrado si está siendo utilizado, o si está asociado a: un Activo, un Repuesto, un Movimiento de Kárdex, un Programa de Mantenimiento, una Solicitud de Servicio, un Paro, una Órden de Trabajo a la Historia de Mantenimiento. Cuando se intenta hacer esta operación, el sistema alerta con un mensaje.
+Un registro de una tabla de Infraestructura, no puede ser borrado si está siendo utilizado, o si está asociado a: un Activo, un Repuesto, un Movimiento de Kárdex, un Programa de Mantenimiento, una Solicitud de Servicio, un Paro, una Orden de Trabajo a la Historia de Mantenimiento. Cuando se intenta hacer esta operación, el sistema alerta con un mensaje.
 
 A continuación se definen los conceptos básicos sobre la conformación de la Infraestructura, elementos generales y principales tablas que la componen.
 

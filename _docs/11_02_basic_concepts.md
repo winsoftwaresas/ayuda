@@ -32,7 +32,7 @@ Un PM es el conjunto de información que describe una Tarea a ser ejecutada cíc
 
 Además de la información característica que se acaba de mencionar, un PM se  define  y enmarca en cada uno de los siguientes atributos: Tipo de Mantenimiento, Tipo de Trabajo y Tipo de Actividad, que denotan el tipo y contexto del mismo. Esta  información se complementa con dos definiciones: Prioridad y un indicativo de la  necesidad de que el Activo este inoperante **“Activo parado”**.
 
-Un PM se define con el objeto de que él genere, automáticamente con la  anticipación requerida, una Órden de Trabajo (OT) para un Activo/Equipo u Objeto de Mantenimiento (AC), cada vez que se cumpla el criterio interno establecido en el  Programa (PM). Se debe recordar que toda la información definida en un PM se traslada a la OT cuando el PM la genere.
+Un PM se define con el objeto de que él genere, automáticamente con la  anticipación requerida, una Orden de Trabajo (OT) para un Activo/Equipo u Objeto de Mantenimiento (AC), cada vez que se cumpla el criterio interno establecido en el  Programa (PM). Se debe recordar que toda la información definida en un PM se traslada a la OT cuando el PM la genere.
 
 Para definir un PM se requiere haber registrado previamente el Activo objeto  del mismo, el Centro de Costo, el Centro de Responsable, los Oficios y los Responsables, el Tipo de Actividad de Mantenimiento, al igual que los Repuestos requeridos y todos aquellos instructivos y procedimientos requeridos.
 
@@ -51,7 +51,7 @@ Crear el Presupuesto a un PM en **AM** consiste en hacer una evaluación de las 
 
 ## Fecha de Inicio de Período (FIP)
 
-La Fecha de Inicio de Periodo (FIP) sirve para definir el inicio de la vigencia de un Programa. La FIP indica el momento, a partir del cual, se comienza el conteo de tiempo para la generación de una nueva Órden de Trabajo. **Esta fecha corresponde a la ejecución de la última vez (anterior) de la Actividad de Mantenimiento que se está Programando.**
+La Fecha de Inicio de Periodo (FIP) sirve para definir el inicio de la vigencia de un Programa. La FIP indica el momento, a partir del cual, se comienza el conteo de tiempo para la generación de una nueva Orden de Trabajo. **Esta fecha corresponde a la ejecución de la última vez (anterior) de la Actividad de Mantenimiento que se está Programando.**
 
 En otro contexto, cuando se ha definido un PM cuyo Criterio de Programación no es la Frecuencia sino un **Contador** la FIP tiene una significación especial: se trata de la fecha a partir de la cual entra en vigencia el PM ó se refiere al valor del contador en último mantenimiento. 
 Para este caso se debe tener configurador el contador en la Ficha Técnica del Activo. 
@@ -60,7 +60,7 @@ Para este caso se debe tener configurador el contador en la Ficha Técnica del A
 
 ## Fecha de última Generación (FUG)
 
-La fecha de última generación es informativa; indica el momento en el cual el PM generó, en forma real una Órden de Trabajo, por última vez. Este dato es importante para chequear la fecha de la última generación real, para revisar los intervalos de tiempo  en que se ha dejado de generar Órdenes de Trabajo desde ese PM, por razones como olvido, error en la  programación, cambios en los datos de los Criterios de  Programación, o modificaciones incorrectas de las Fechas de Inicio de Período, entre otras.
+La fecha de última generación es informativa; indica el momento en el cual el PM generó, en forma real una Orden de Trabajo, por última vez. Este dato es importante para chequear la fecha de la última generación real, para revisar los intervalos de tiempo  en que se ha dejado de generar Órdenes de Trabajo desde ese PM, por razones como olvido, error en la  programación, cambios en los datos de los Criterios de  Programación, o modificaciones incorrectas de las Fechas de Inicio de Período, entre otras.
 
 La FUG y la FIP son iguales la mayor parte del tiempo. Los únicos dos casos en que ésta premisa no se cumple, son: Primero, en el momento de la creación del PM (la FUG tiene un valor de inicialización) y Segundo, en el momento en que se modifique la FIP a través de la transacción **“Modificar la FIP”**. En cualquier caso, para efectos de generación automática de OT, por criterio Frecuencia, tiene prioridad la FIP.  
 
@@ -95,9 +95,9 @@ Para poder usar este criterio en un PM, es necesario que el Activo a programar, 
 
 Hay dos modos de definir el Criterio de Programación por Contador, el primero es por **Incremento**, el segundo es por **Límite.**
 
-En el primer caso, por **Incremento**, el PM genera una Órden de Trabajo múltiples veces, cada vez que el contador del Activo supere, en el valor de la **Recurrencia** al **“Valor del contador al inicio del período”** definido en el PM. Para establecer cuando generar una OT, se compara el valor actual del contador (Ficha Ténica del Activo) contra el valor contenido en el campo **“Última Generación de OT”**. Esta diferencia se compara contra el valor en el campo **“Recurrencia”** y si es mayor se genera una OT.
+En el primer caso, por **Incremento**, el PM genera una Orden de Trabajo múltiples veces, cada vez que el contador del Activo supere, en el valor de la **Recurrencia** al **“Valor del contador al inicio del período”** definido en el PM. Para establecer cuando generar una OT, se compara el valor actual del contador (Ficha Ténica del Activo) contra el valor contenido en el campo **“Última Generación de OT”**. Esta diferencia se compara contra el valor en el campo **“Recurrencia”** y si es mayor se genera una OT.
 
-En el segundo caso, por **Límite**, el PM solo genera una Órden de Trabajo cuando el valor actual del contador del Activo llegue al valor contenido en el PM, indicado en el campo Recurrencia (Valor límite, en este caso).
+En el segundo caso, por **Límite**, el PM solo genera una Orden de Trabajo cuando el valor actual del contador del Activo llegue al valor contenido en el PM, indicado en el campo Recurrencia (Valor límite, en este caso).
 
 Cuando se define un PM en función de un contador de un Activo, se debe definir un mecanismo administrativo: manual o automático, para  actualizar y mantener al día el contador de ese Activo en **AM**. Se trata de garantizar que tales contadores reflejen permanente la cantidad de trabajo realizado por el equipo.
 

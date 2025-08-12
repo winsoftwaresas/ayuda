@@ -7,7 +7,7 @@ order: '02_22'
 media: "../../assets/images/docs/"
 ---
 
-Aquí se registran las posibles Causas por las que la ejecución de una Órden de Trabajo es suspendida o pospuesta. En el sistema se proponen las siguientes causas de pendiente:
+Aquí se registran las posibles Causas por las que la ejecución de una Orden de Trabajo es suspendida o pospuesta. En el sistema se proponen las siguientes causas de pendiente:
 
 - **M** - Pendiente Por Mano De Obra
 - **O** - Pendiente Por Otros Conceptos

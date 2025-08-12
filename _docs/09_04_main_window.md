@@ -16,7 +16,7 @@ Se accede desde el comando <a class="btn blue">Órdenes</a> en la barra de menú
 ![Procesar imagen](../../assets/images/cap09/chp09_img03.png)
 ***Imagen 68.** Órdenes - Ventana Visor*
 
-Desde esta ventana es posible observar la lista de las Órdenes de Trabajo existentes o un subconjunto de ellas (efectuado a través de un subgrupo <span class="mdi mdi-filter-variant"></span>). Al hacer clic en cualquiera de los registros se visualiza la información completa de la Órden en una nueva ventana llamada **Ventana Detalle**.
+Desde esta ventana es posible observar la lista de las Órdenes de Trabajo existentes o un subconjunto de ellas (efectuado a través de un subgrupo <span class="mdi mdi-filter-variant"></span>). Al hacer clic en cualquiera de los registros se visualiza la información completa de la Orden en una nueva ventana llamada **Ventana Detalle**.
 
 En la Ventana Visor, los nombres que encabezan las columnas a  manera de títulos en azul, permiten ordenar de manera ascendente/descendente la información por cada ítem seleccionado, esto a tráves de un clic en el respectivo encabezado.
 
@@ -29,30 +29,30 @@ La definición de colores está definida, según la siguiente convención de acu
 ***Imagen 69.** Órdenes - Semaforización*
 
 
-**Rojo:** Órden con fecha de generación anterior a más de 7 días antes de la fecha actual.
+**Rojo:** Orden con fecha de generación anterior a más de 7 días antes de la fecha actual.
 
-**Amarillo:** Órden con fecha de generación anterior en un rango comprendido entre 7 días antes de la fecha actual y un día anterior a la fecha actual.
+**Amarillo:** Orden con fecha de generación anterior en un rango comprendido entre 7 días antes de la fecha actual y un día anterior a la fecha actual.
 
-**Verde:** Órden con fecha de generación entre la fecha actual y 7 días después.
+**Verde:** Orden con fecha de generación entre la fecha actual y 7 días después.
 
-**Naranja:** Órden con fecha de generación comprendidas después de 7 días de la fecha actual.
+**Naranja:** Orden con fecha de generación comprendidas después de 7 días de la fecha actual.
 
-**Morado:** Órden que ha sido Cancelada.
+**Morado:** Orden que ha sido Cancelada.
 
-**Azul:** Órden que ha sido Cerrada.
+**Azul:** Orden que ha sido Cerrada.
 
 ## Ventana Detalle
 
 ![Procesar imagen](../../assets/images/cap09/chp09_img04.png)
 ***Imagen 70.** Órdenes - Ventana Detalle*
 
-En la gráfica anterior, Ventana Detalle de Órdenes de Trabajo, se aprecian sus componentes y sus respectivos contenidos. En esta ventana Detalle se encuentra la información relevante a la OT seleccionada en el Visor. A través de ella se Administran los datos genéricos de la Órden de Trabajo. También, se accede a esta ventana cuando se está creando una Órden Manual accionando una vez el botón <a class="btn white">NUEVO</a> en la Ventana Visor ubicado en la parte superior izquierda.
+En la gráfica anterior, Ventana Detalle de Órdenes de Trabajo, se aprecian sus componentes y sus respectivos contenidos. En esta ventana Detalle se encuentra la información relevante a la OT seleccionada en el Visor. A través de ella se Administran los datos genéricos de la Orden de Trabajo. También, se accede a esta ventana cuando se está creando una Orden Manual accionando una vez el botón <a class="btn white">NUEVO</a> en la Ventana Visor ubicado en la parte superior izquierda.
 
-A continuación se describen los campos que componen esta ventana Detalle de Órdenes de Trabajo; tanto para consulta como para el ingreso manual de una Órden:
+A continuación se describen los campos que componen esta ventana Detalle de Órdenes de Trabajo; tanto para consulta como para el ingreso manual de una Orden:
 
 **OT**: Aparece el número o consecutivo asignado por sistema al registro. En la creación de una OT Manual, este campo solamente muestra el Año. Así, una vez se crea o se accione el botón  <a class="btn blue">INSERTAR <span class="mdi mdi-plus-circle-outline"></span></a> **AM** asigna un consecutivo a dicha Orden.
 
-**F/H Creación:** Es la fecha en la cual se crea la Órden de Trabajo. En el caso de Órdenes Programadas, esta fecha es asignada automáticamente por el sistema y no es modificable, según el Programa de Mantenimiento que la genera. Para las Órdenes de Trabajo Manuales, **AM** sugiere la fecha actual del sistema.
+**F/H Creación:** Es la fecha en la cual se crea la Orden de Trabajo. En el caso de Órdenes Programadas, esta fecha es asignada automáticamente por el sistema y no es modificable, según el Programa de Mantenimiento que la genera. Para las Órdenes de Trabajo Manuales, **AM** sugiere la fecha actual del sistema.
 
 **Descripción:** Es un texto corto por medio del cual se indica la naturaleza de la labor a realizar. Debe ser conciso y no dar lugar a ambigüedades, este campo tiene una longitud de 100 caracteres. Se recomienda definir la descripción bajo la siguiente norma: iniciar con un verbo en infinitivo como revisar, corregir, inspeccionar, conectar, etc., continuar con el Objeto de mantenimiento o Activo/Equipo y finalizar con un complemento explicatorio. Ejemplo: Revisar la transmisión delantera del sistema. Cambiar a los rodillos la cobertura  de caucho.
 
@@ -62,7 +62,7 @@ Para **AM**, la prioridad  1 significa un trabajo de gran urgencia, 2 significa 
 
 **F/H Programada:** En este campo se ingresa  la fecha programada para realizar la ejecución de la OT.
 
-**Referencia:** En este campo se puede ingresar el número de un documento, que  sirve como referencia o relación a la OT, ejemplo: número de una factura, número de una órden de compra asociada, o un documento interno de despacho de almacén, etc.
+**Referencia:** En este campo se puede ingresar el número de un documento, que  sirve como referencia o relación a la OT, ejemplo: número de una factura, número de una Orden de compra asociada, o un documento interno de despacho de almacén, etc.
 
 **Estado:** Este campo está bloqueado y muestra el nombre del Estado de la OT.
 
@@ -123,12 +123,12 @@ _>**Nota:** El tiempo improductivo es calculado dependiendo del tipo de mantenim
 
 Para las OTs Manuales, esta opción se establece en el momento de creación de la misma. Ésta se debe marcar antes de accionar el botón <a class="btn blue">INSERTAR <span class="mdi mdi-plus-circle-outline"></span></a> de otra forma, **AM** asume que la OT no va a requerir Control Presupuestal y la posibilidad de hacer la marcación se inactiva en el acto. 
 
-Cuando una Órden de Trabajo Manual exige control presupuestal y el presupuesto no ha sido aprobado, no es posible registrar ni modificar el Gasto Real en ella.
+Cuando una Orden de Trabajo Manual exige control presupuestal y el presupuesto no ha sido aprobado, no es posible registrar ni modificar el Gasto Real en ella.
 
 
 <a class="btn cl-gray"><span class="mdi mdi-checkbox-blank-outline"> Acciones Técnicas </span></a> : Esta opción habilita una tabla de Acciones Técnicas en una nueva pestaña de la OT. Esta tabla está ligada a la Infraestructura, creada con su mismo nombre, que contiene un listado de Acciones Técnicas frecuentes definidas por el área de Mantenimiento. Se pretende describir, brevemente, la actividad general realizada en una OT representada como un **check list.** (En la sección vistas parciales/Acciones Técnicas se explica mas el detalle).
 
-**Estado del Activo:** Es posible que los usuarios solicitantes o la misma área de mantenimiento pueda definir por medio de este switche si el Activo se le entrega limpio al departamento de mantenimiento. 
+**Estado del Activo:** Es posible que los usuarios solicitantes o la misma área de mantenimiento pueda definir por medio de este switch si el Activo se le entrega limpio al departamento de mantenimiento. 
 
 **Comentarios:** Esta opción se usa para ingresar los nuevos comentarios referentes a toda la ejecución de la OT. Al accionar <a class="btn gray">Agregar Comentario</a> aparecerá el comentario ingresado al lado derecho en una ventana tipo chat bloqueada; además de la fecha, hora y el usuario logueado que realiza el comentario.
 
@@ -149,12 +149,12 @@ Es posible saber cuáles OT son de tipo Metrología, Preventiva/Programada, Corr
 
 El significado de los colores es el siguiente:
 
-* **Naranja:** Órden que tiene asociado archivos de imágenes, videos y/o documentos en la pestaña Multimedia.
+* **Naranja:** Orden que tiene asociado archivos de imágenes, videos y/o documentos en la pestaña Multimedia.
 * **Blanco:** Indica que la OT retroalimentada a través de AMovil contiene la firma de Recibido por parte del usuario solicitante.
-* **Azul:** Órden con servicio evaluado.
-* **Mostaza:** Órden de TM Metrología.
-* **Verde:** Órden de TM Preventivo o Programada.
-* **Rojo:** Órden de TM Correctivo.
+* **Azul:** Orden con servicio evaluado.
+* **Mostaza:** Orden de TM Metrología.
+* **Verde:** Orden de TM Preventivo o Programada.
+* **Rojo:** Orden de TM Correctivo.
 * **Azul Oscuro:** OT en estado Cerrada Parcial.
 * **Fucsia:** Indica que son OT que utilizan la interfase para hacer pedidos de materiales/repuestos al almacén del ERP. 
 * **Amarillo:** Son OT que han sido creadas por medio de un API. 
@@ -180,7 +180,7 @@ Los campos de datos que constituyen criterio de selección, se agrupan en dos bl
 
 **AC - Alias:** Este campo filtra las OTs activas para el o los Activos cuyo Alias corresponda a los valores aquí definidos. En este campo se pueden utilizar los comodines (%).
 
-**AC – Cód. de Barras Int.:** Permite seleccionar las OTs que se encuentran asociadas al Activo que se encuentre con el Código de Barras Interno que el usuario ingresa en este campo y que posea una Órden.
+**AC – Cód. de Barras Int.:** Permite seleccionar las OTs que se encuentran asociadas al Activo que se encuentre con el Código de Barras Interno que el usuario ingresa en este campo y que posea una Orden.
 
 **AC – Cód. de Barras Prov.:** Permite seleccionar las OTs asociadas a un Activo que se encuentre ligado al Código de Barras del Proveedor que se ingresó al crear el Activo.
 

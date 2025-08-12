@@ -4,7 +4,7 @@ title: AM4G Versión 1.2 Cambios y Adiciones
 ---
 **MODULO DE ACTIVOS**
 
-- Se realiza parametrización en activos para permitir dos Contadores en un Activo. Para ello el usuario debe marcar el switche y podrá adicionar los dos Contadores al Activo.
+- Se realiza parametrización en activos para permitir dos Contadores en un Activo. Para ello el usuario debe marcar el switch y podrá adicionar los dos Contadores al Activo.
 
 
 ![Procesar imagen](../../assets/images/Version1.2/Imagen1.png)

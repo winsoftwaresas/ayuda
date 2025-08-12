@@ -7,7 +7,7 @@ order: '02_10'
 media: "../../assets/images/docs/"
 ---
 
-El Tipo de Trabajo (TT) especifica las especialidades técnicas requeridas para cumplir con el objetivo de una Órden de Trabajo. 
+El Tipo de Trabajo (TT) especifica las especialidades técnicas requeridas para cumplir con el objetivo de una Orden de Trabajo. 
 
 Estas especialidades pueden ser: 
 - Mecánica (MEC)

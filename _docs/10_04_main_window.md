@@ -365,7 +365,7 @@ Cancelada”, en este campo se definió la Causa respectiva y es posible que se 
 
 **FF Cierre:** Es asignada automáticamente por el sistema, cuando el usuario cambia la OT, SS o PA, al estado Cerrada Ejecutada o Cancelada.
 
-**Activo No se entrega Limpio/ Activo se entrega limpio:** es un switche que permitió definir en el cierre de la OT si el activo se entregó limpio. 
+**Activo No se entrega Limpio/ Activo se entrega limpio:** es un switch que permitió definir en el cierre de la OT si el activo se entregó limpio. 
 
 **Causa de Falla:** Para OT correctivas, este campo es obligatorio, en al que se registró la Causa de la Falla que dio origen a la labor actual. Estas opciones que se despliegan, corresponden a las definidas en su tabla en la Infraestructura.
 

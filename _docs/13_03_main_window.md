@@ -40,7 +40,7 @@ _**Imagen 2.** Combustibles - Subgrupo_
 
 **AC - Alias:** Este campo filtra los registros activos para el o los Activos cuyo Alias corresponda a los valores aquí definidos. En este campo se pueden utilizar los comodines (%).
 
-**AC – Cód. de Barras Int.:** Permite seleccionar los registros que se encuentran asociadas al Activo que se encuentre con el Código de Barras Interno que el usuario ingresa en este campo y que posea una Órden.
+**AC – Cód. de Barras Int.:** Permite seleccionar los registros que se encuentran asociadas al Activo que se encuentre con el Código de Barras Interno que el usuario ingresa en este campo y que posea una Orden.
 
 **AC – Cód. de Barras Prov.:** Permite seleccionar los  registros asociados a un Activo que se encuentre ligado al Código de Barras del Proveedor que se ingresó al crear el Activo.
 

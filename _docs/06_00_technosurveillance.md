@@ -244,7 +244,7 @@ Para ingresar al detalle del Activo y hacer gestión de la alerta ingrese dando 
 _**Imagen 8.** Tecnovigilancia - Ventana Detalle_
 
 
-El usuario puede actualizar el estado de la alerta del Activo por medio del botón <a class="btn blue">ACTUALIZAR <span class="mdi mdi-pencil"></span></a>.  En caso de aplicar accione el switche **No Aplica/Aplica** y guarde los cambios:
+El usuario puede actualizar el estado de la alerta del Activo por medio del botón <a class="btn blue">ACTUALIZAR <span class="mdi mdi-pencil"></span></a>.  En caso de aplicar accione el switch **No Aplica/Aplica** y guarde los cambios:
 
 
 ![Procesar imagen](../../assets/images/cap17/chp17_img09.png)
@@ -283,7 +283,7 @@ Los comentarios van quedando agregados en una ventana tipo chat:
 ![Procesar imagen](../../assets/images/cap17/chp17_img14.png)
 _**Imagen 14.** Tecnovigilancia - Agregar Comentarios y Acciones_
 
-Además, una vez que una alerta aplique y se encuentre abierta se genera una Órden de Trabajo, todo esto permite agregar documentación y trazabilidad a la gestión de la alerta:
+Además, una vez que una alerta aplique y se encuentre abierta se genera una Orden de Trabajo, todo esto permite agregar documentación y trazabilidad a la gestión de la alerta:
 
 ![Procesar imagen](../../assets/images/cap17/chp17_img15.png)
 _**Imagen 15.** Tecnovigilancia - Generación de OT_
@@ -300,7 +300,7 @@ _**Imagen 16.** Tecnovigilancia - Indicador Alerta Activos_
 
 
 
-Para dar cierre actualice la alerta accionando el switche Cerrada/Abierta y a medida que se cierren las alertas los indicadores se actualizan:
+Para dar cierre actualice la alerta accionando el switch Cerrada/Abierta y a medida que se cierren las alertas los indicadores se actualizan:
 
 
 ![Procesar imagen](../../assets/images/cap17/chp17_img17.png)

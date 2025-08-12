@@ -41,7 +41,7 @@ Para las Órdenes Programadas o Automáticas, el  caso es distinto, pues la info
 
 Una vez efectuado este paso, se procede a Imprimir la OT, para entregarla al responsable que la ejecuta. La persona (o personas) encargadas de la labor reciben esta impresión y se disponen a realizarla. Durante este tiempo, se hace seguimiento a la **OT**, alimentándola con información de la ejecución (Gasto  Real,  Comentarios, fechas, tiempos, etc.).
 
-Por distintos motivos, una Órden de Trabajo puede quedar en estado Pendiente. Por ejemplo,  no hay recursos disponibles, ya sea de Mano de Obra, de Materiales o Repuestos, u otros Conceptos. **AM** contempla este caso, posibilitando asignar a la **OT** el Estado de Pendiente. También se puede establecer la causa por la cual la **OT** se ha definido en estado Pendiente.
+Por distintos motivos, una Orden de Trabajo puede quedar en estado Pendiente. Por ejemplo,  no hay recursos disponibles, ya sea de Mano de Obra, de Materiales o Repuestos, u otros Conceptos. **AM** contempla este caso, posibilitando asignar a la **OT** el Estado de Pendiente. También se puede establecer la causa por la cual la **OT** se ha definido en estado Pendiente.
 
 Cuando una OT no pueda ser Ejecutada, o se decida que no se va a ejecutar, se debe cerrar con un Estado de **“Cancelada”**, el cual se complementa con una Causa de Cierre, indicando la razón de por qué no se Ejecutó.
 

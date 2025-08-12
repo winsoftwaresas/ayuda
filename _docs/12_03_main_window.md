@@ -29,7 +29,7 @@ Toda la información de esta tabla de HA es inmodificable.
 
 A continuación se describen los campos que componen esta ventana Detalle de Órdenes de Trabajo HA. Sobre cada campo se da una breve explicación:
 
-**OT:** Aparece el número de la Órden de Trabajo asignado por **AM** cuando fue generada.
+**OT:** Aparece el número de la Orden de Trabajo asignado por **AM** cuando fue generada.
 
 **F/H Creación:** Es la fecha en la cual se creó la OT.  Esta fecha es asignada automáticamente por el sistema.
 

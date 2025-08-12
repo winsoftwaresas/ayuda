@@ -18,7 +18,7 @@ La guía general para la implementación exitosa del programa **AM** Administrad
 - Uso rutinario de Órdenes de Trabajo (automáticas y manuales).
 - Gestión de Mantenimiento y compendio de Historia de Mantenimiento.
 
-> _**Nota:** Una vez ejecutada cada acción de mantenimiento, la Órden de Trabajo correspondiente debe ser liquidada, cerrada y posteriormente enviada a Historia de Mantenimiento. Puesto que la generación automática y el ingreso manual de las Órdenes de Trabajo son voluminosos, se debe realizar con frecuencia el envío de tales registros a Historia de Mantenimiento para evitar que la gestión diaria se vea congestionada con actividades ya ejecutadas.
+> _**Nota:** Una vez ejecutada cada acción de mantenimiento, la Orden de Trabajo correspondiente debe ser liquidada, cerrada y posteriormente enviada a Historia de Mantenimiento. Puesto que la generación automática y el ingreso manual de las Órdenes de Trabajo son voluminosos, se debe realizar con frecuencia el envío de tales registros a Historia de Mantenimiento para evitar que la gestión diaria se vea congestionada con actividades ya ejecutadas.
 De hecho, los procesos periódicos de Balance de Gestión, Reportes, Índices, Paros y distintos análisis y estudios, se realizan principalmente sobre el conjunto de Órdenes de Trabajo que residen en el módulo de Historia de Mantenimiento._
 
 ## Generalidades de conversión   

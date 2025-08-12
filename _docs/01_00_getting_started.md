@@ -54,13 +54,13 @@ Es la función que realiza la programación de actividades de mantenimiento ruti
 
 ### **Solicitudes de Servicio [SS]**
 
-Es el módulo mediante el cual todo empleado autorizado de la compañía, puede solicitar una atención o servicio por parte del área de Mantenimiento. Una Solicitud de Servicio puede ser atendida como tal o puede dar origen a una Órden de Trabajo.
+Es el módulo mediante el cual todo empleado autorizado de la compañía, puede solicitar una atención o servicio por parte del área de Mantenimiento. Una Solicitud de Servicio puede ser atendida como tal o puede dar origen a una Orden de Trabajo.
 El solicitante puede hacer seguimiento permanente del estado de su solicitud. Este módulo tiene una funcionalidad adicional: el registro de acciones técnicas sencillas de mantenimiento: Corto tiempo de ejecución, bajo costo, y ejecutados por un solo responsable.
 
 ### **Paros/ Averías [PA]**
 
 A través de esta función, se hace el registro minucioso de toda
-actividad de paro de un equipo u objeto de mantenimiento, programado o no programado, que genere tiempos improductivos. Además de los tiempos de paro, se relacionan también la Causa y Efecto de la Falla y las Acciones Técnicas respectivas. Un paro puede dar origen a una Órden de Trabajo.
+actividad de paro de un equipo u objeto de mantenimiento, programado o no programado, que genere tiempos improductivos. Además de los tiempos de paro, se relacionan también la Causa y Efecto de la Falla y las Acciones Técnicas respectivas. Un paro puede dar origen a una Orden de Trabajo.
 
 ### **Órdenes de Trabajo [OT]**
 
@@ -299,7 +299,7 @@ Generadas las Órdenes de Trabajo, se procede a lograr un acuerdo con Producció
 
 La Gestión de Mantenimiento se apoya fundamentalmente en el módulo de Órdenes, que contiene todas las actividades pendientes de ejecución o en ejecución.
 
-Cada Órden de Trabajo se ejecuta y en ella se compendia toda la información generada en tal ejecución: Centro de Costo, Centro Responsable, Responsable, Costos (Mano de Obra Interna y Externa, Materiales y Repuestos y otros), Tiempos de Ejecución, Duración e Improductivos, Comentarios generales y Multimedia.
+Cada Orden de Trabajo se ejecuta y en ella se compendia toda la información generada en tal ejecución: Centro de Costo, Centro Responsable, Responsable, Costos (Mano de Obra Interna y Externa, Materiales y Repuestos y otros), Tiempos de Ejecución, Duración e Improductivos, Comentarios generales y Multimedia.
 
 Terminada la actualización de la información de la OT ejecutada, se procede a liquidarla y cerrarla. Las OT en estado “cerrada” permanecen activas en el módulo. Las OT que no se ejecutan deben ser “canceladas”, registrando la razón de la no ejecución mediante comentarios.
 

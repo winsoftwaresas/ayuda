@@ -1119,7 +1119,7 @@ _**Imagen 126.** AMovil - Formulario Solicitud_
 ![Procesar imagen](../../assets/images/cap16/chp16_img126_1.jpg)
 _**Imagen 127.** AMovil - Formulario Crear Solicitud_
 
-Todos los campos son obligatorios, se debe contar con los permisos para visualizar la Órden creada.  
+Todos los campos son obligatorios, se debe contar con los permisos para visualizar la Orden creada.  
 
 A continuación se da una breve explicación de cada campo:
 
@@ -1194,7 +1194,7 @@ _**Imagen 135.** AMovil - Ordenes Actualizar Detalle_
 
 Para continuar dar un toque en <a class="btn cl-white bg-blue px-6">Aceptar</a>. 
 
-Para ingresar al submenú dentro del Detalle de la Órden diríjase al botón ubicado en la parte superior derecha <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a>. Se muestran las siguientes opciones relacionadas a la gestión y cierre de Órdenes:
+Para ingresar al submenú dentro del Detalle de la Orden diríjase al botón ubicado en la parte superior derecha <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a>. Se muestran las siguientes opciones relacionadas a la gestión y cierre de Órdenes:
 
 
 ![Procesar imagen](../../assets/images/cap16/chp16_img130.jpg)
@@ -1205,7 +1205,7 @@ _**Imagen 136.** AMovil - Ir a Submenú Gestión/Cierre Ordenes_
 ### Actualizar tiempos
 
 
-Para ingresar los tiempos de ejecución de la Órden diríjase al <a class="btn bg-mint bd-mint px-6">Detalle</a> de la Órden de Trabajo y luego al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego a <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-update"></span></a>. Se muestra el detalle de la Órden en cuestión, aquellas con estado **En análisis** deben tener previamente la **Fecha y hora de Atención**, se muestra un ejemplo a continuación:
+Para ingresar los tiempos de ejecución de la Orden diríjase al <a class="btn bg-mint bd-mint px-6">Detalle</a> de la Orden de Trabajo y luego al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego a <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-update"></span></a>. Se muestra el detalle de la Orden en cuestión, aquellas con estado **En análisis** deben tener previamente la **Fecha y hora de Atención**, se muestra un ejemplo a continuación:
 
 ![Procesar imagen](../../assets/images/cap16/chp16_img131.jpg)
 _**Imagen 137.** AMovil - Ordenes Actualizar tiempos_
@@ -1222,7 +1222,7 @@ Luego de registrar la **FF/HH atención**, se  habilitan las opciones:
  
 - <a class="btn cl-black bg-white pl-2 pr-3 bd-gray"><span class="mdi mdi-circle cl-gray pr-1"></span> Registro automático de tiempos</a>
 
->**Nota:** para ingresar los tiempos en una Órden sólo se puede escoger una de los opciones anteriores.
+>**Nota:** para ingresar los tiempos en una Orden sólo se puede escoger una de los opciones anteriores.
 
 La primera consiste en ingresar las fechas y horas de ejecución de forma manual en cada campo y hacer también correcciones sobre el tiempo de duración:
 
@@ -1268,7 +1268,7 @@ _**Imagen 146.** AMovil - Ordenes Ingreso Automático de Tiempos_
 
 ### Adicionar mano obra interna
 
-Para ingresar al personal técnico interno que participó en la ejecución de la Órden, ingrese al <a class="btn bg-mint bd-mint px-6">Detalle</a> de la Órden de Trabajo en cuestión, seguidamente al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego en <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-account-plus-outline"></span></a>:
+Para ingresar al personal técnico interno que participó en la ejecución de la Orden, ingrese al <a class="btn bg-mint bd-mint px-6">Detalle</a> de la Orden de Trabajo en cuestión, seguidamente al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego en <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-account-plus-outline"></span></a>:
 
 ![Procesar imagen](../../assets/images/cap16/chp16_img141.jpg)
 _**Imagen 147.** AMovil - Ir a Ordenes Ingreso Mano Obra Interna_
@@ -1312,7 +1312,7 @@ Para ingresar los comentarios o detalles de la ejecución ingrese al <a class="b
 ![Procesar imagen](../../assets/images/cap16/chp16_img147.jpg)
 _**Imagen 153.** AMovil - Ir a Ordenes Comentarios_
 
-A continuación se muestra el resumen de la Órden. Ingrese los detalles en el campo **Comentario**:
+A continuación se muestra el resumen de la Orden. Ingrese los detalles en el campo **Comentario**:
 
 ![Procesar imagen](../../assets/images/cap16/chp16_img148.jpg)
 _**Imagen 154.** AMovil - Ordenes Comentarios_
@@ -1386,7 +1386,7 @@ Una vez se suba el archivo se visualiza su información de nombre y fecha del mi
 ### Cerrar Orden
 
 
-Para cerrar la Órden de Trabajo se requiere que tenga los tiempos de ejecución  previamente diligenciados para cambiar el estado a **Cerrada Parcial** o **Cerrada Ejecutada**, luego, ingresar la Causa de Falla para TM (Tipo de Mantenimiento) **Correctivo** y luego de guardar los cambios, finalizar ingresando la firma del Responsable.
+Para cerrar la Orden de Trabajo se requiere que tenga los tiempos de ejecución  previamente diligenciados para cambiar el estado a **Cerrada Parcial** o **Cerrada Ejecutada**, luego, ingresar la Causa de Falla para TM (Tipo de Mantenimiento) **Correctivo** y luego de guardar los cambios, finalizar ingresando la firma del Responsable.
 
 Cuando se tengan los tiempos diligenciados, diríjase al botón <span class="iconify icon cl-white bg-blue" data-icon=mdi-dots-vertical></span></a> y luego a Cerrar Solicitud  <a class="fab cl-white bg-blue box-shadow"><span class="iconify cl-white fs-2" data-icon="mdi-check-circle"></span></a>:
 
@@ -1636,7 +1636,7 @@ _**Imagen 197.** AMovil - Formulario Crear Órden_
 ![Procesar imagen](../../assets/images/cap16/chp16_img192.jpg)
 _**Imagen 198.** AMovil - Formulario Crear Órden_
 
-Todos los campos son obligatorios, se debe contar con los permisos para visualizar la Órden creada. 
+Todos los campos son obligatorios, se debe contar con los permisos para visualizar la Orden creada. 
 
 A continuación se da una breve explicación de cada campo:
 
@@ -1668,7 +1668,7 @@ A continuación se da una breve explicación de cada campo:
 Una vez diligenciado completamente el formulario contínue con el botón <a class="btn cl-white bg-blue px-6"> Guardar</a>, el aplicativo muestra el siguiente mensaje alerta y contínue con el botón <a class="btn cl-white bg-blue px-6"> Aceptar </a>.
 
 ![Procesar imagen](../../assets/images/cap16/chp16_img193.jpg)
-_**Imagen 199.** AMovil - Crear Órden Mensaje Alerta_
+_**Imagen 199.** AMovil - Crear Orden Mensaje Alerta_
 
 Para visualizar la OT creada no debe tener subgrupos activos:
 

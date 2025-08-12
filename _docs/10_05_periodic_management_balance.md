@@ -23,7 +23,7 @@ Un Balance Periódico de Gestión de Mantenimiento debe conformarse, al menos, p
 
 
 - Gerencial por Centro de Costo, discriminando Mano de Obra, Materiales y Repuestos y Otros Conceptos. Debería ser enviado al Gerente de Producción y a la Gerencia de Planta.
-- Detallado a nivel de Órden de Trabajo, también por Centro de Costo y discriminado por los mismos conceptos, seguimiento de tiempos, Resumen de tiempo improductivo, Resumen con tiempo total de producción, listado de Tiempo por Órdenes y Solicitudes de Servicio.
+- Detallado a nivel de Orden de Trabajo, también por Centro de Costo y discriminado por los mismos conceptos, seguimiento de tiempos, Resumen de tiempo improductivo, Resumen con tiempo total de producción, listado de Tiempo por Órdenes y Solicitudes de Servicio.
 
 **Reportes para Mantenimiento y Almacén:**
 

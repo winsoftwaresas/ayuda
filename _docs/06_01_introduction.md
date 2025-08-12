@@ -1,6 +1,6 @@
 ---
 title: Introducción
-subtitle: En este capítulo se da una introducción explicatoria al funcionamiento del módulo de Tecnovigiancia.
+subtitle: En este capítulo se da una introducción al funcionamiento del módulo de Tecnovigilancia.
 tags:
   - setup
 author: win

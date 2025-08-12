@@ -15,16 +15,16 @@ Se agrega la opción de modificar Responsable por la Institución en modificaci�
 ![Procesar imagen](../../assets/images/Version80/imagen2.png)
 
 Se corrige la columna Ubicación Física de la grilla y del visor interno para que cargue
- la ubicación Física de la Órden y no la del
+ la ubicación Física de la Orden y no la del
 Activo.
 
 ![Procesar imagen](../../assets/images/Version80/imagen3.png)
 
-Se desarrolla el reporte OTU-MPCI - Detalle Orden De Trabajo Pre-Ejecución - Con Comentarios. EL cual trae los comentarios agregados a la Órden.
+Se desarrolla el reporte OTU-MPCI - Detalle Orden De Trabajo Pre-Ejecución - Con Comentarios. EL cual trae los comentarios agregados a la Orden.
 
 ![Procesar imagen](../../assets/images/Version80/imagen4.png)
 
-Se desarrolla el reporte OTU-G1PVAL Detalle De Órden De Trabajo Valorizado.
+Se desarrolla el reporte OTU-G1PVAL Detalle De Orden De Trabajo Valorizado.
  El cual muestra el contador del activo tal como se encuentra en el modulo de activos al momento de la impresión del reporte.
 
 ![Procesar imagen](../../assets/images/Version80/imagen5.png)

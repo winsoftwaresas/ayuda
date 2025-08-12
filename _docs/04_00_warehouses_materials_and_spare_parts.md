@@ -436,11 +436,11 @@ A   continuación  se  describen  los  campos  que  componen  esta  Ventana   in
 
 ![mensaje de confirmacion](../../assets/images/cap04/chp04_img34.png)
 
-**Modificar Almacén:** Se modifica masivamente el Almacén, de los Repuestos que están previamente registrados en el visor. El sistema lista los almacenes que se encuentran creados en la tabla de Almacenes en Infraestructura. Adicional, se debe dejar el switche en la posición de  “Cambiar de Almacén”.
+**Modificar Almacén:** Se modifica masivamente el Almacén, de los Repuestos que están previamente registrados en el visor. El sistema lista los almacenes que se encuentran creados en la tabla de Almacenes en Infraestructura. Adicional, se debe dejar el switch en la posición de  “Cambiar de Almacén”.
 
 ![mensaje de confirmacion](../../assets/images/cap04/chp04_img35.png)
 
-Cuando se requiera Copiar un Repuesto existente en un Almacén a otro Almacén, se debe hacer solamente a través de esta funcionalidad, para ello se debe elegir en primer lugar el Almacén al cual se va a asociar el Repuesto que se va a ingresar y en segundo lugar se debe llevar el switche a la posición de  “Copiar y pegar a otro Almacén”.
+Cuando se requiera Copiar un Repuesto existente en un Almacén a otro Almacén, se debe hacer solamente a través de esta funcionalidad, para ello se debe elegir en primer lugar el Almacén al cual se va a asociar el Repuesto que se va a ingresar y en segundo lugar se debe llevar el switch a la posición de  “Copiar y pegar a otro Almacén”.
 
 ![mensaje de confirmacion](../../assets/images/cap04/chp04_img36.png)
 

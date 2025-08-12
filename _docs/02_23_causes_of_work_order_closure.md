@@ -1,6 +1,6 @@
 ---
 title: Causas de Cierre de OT
-subtitle: Se explica la tabla de causas de cierre de una órden de trabajo y su alcance.
+subtitle: Se explica la tabla de causas de cierre de una Orden de trabajo y su alcance.
 tags: [setup]
 author: win
 order: '02_23'

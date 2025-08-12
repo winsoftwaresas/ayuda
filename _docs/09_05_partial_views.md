@@ -1,6 +1,6 @@
 ---
 title: Vistas Parciales
-subtitle: 'Se explican las pestañas o vistas parciales que componen la Ficha Técnica de una Órden de Trabajo.'
+subtitle: 'Se explican las pestañas o vistas parciales que componen la Ficha Técnica de una Orden de Trabajo.'
 tags:
   - setup
 author: win

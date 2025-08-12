@@ -89,7 +89,7 @@ El Responsable puede ser interno (RI), o también un Responsable Externo (RX). E
 
 **Tiempo Estimado:** Es el presupuesto de tiempo necesario para llevar a cabo las labores de Mantenimiento. El valor a ingresar debe ser numérico y se puede expresar en días, horas o minutos.
 
-**Tiempo improductivo:** Este campo funciona como un switche, al activarlo le indica a la persona o personas encargada de realizar la labor, si el Activo debe detener su producción para proceder a la realización de la Tarea de Mantenimiento. Cuando se dice que el Activo **“Genera Tiempo Improductivo”** significa que estando operando debe ser intervenido por Mantenimiento.
+**Tiempo improductivo:** Este campo funciona como un switch, al activarlo le indica a la persona o personas encargada de realizar la labor, si el Activo debe detener su producción para proceder a la realización de la Tarea de Mantenimiento. Cuando se dice que el Activo **“Genera Tiempo Improductivo”** significa que estando operando debe ser intervenido por Mantenimiento.
 
 **Prioridad:** Es un número de 1 a 7, de uso subjetivo, que indica la prioridad de realización de la OT. Normalmente, el valor 1 significa un trabajo de gran urgencia, mientras que el 7 significa una labor de baja prioridad. El usuario define que nivel de prioridad manejar en cada PM.  El Sistema por defecto sugiere la Prioridad 3.
 
@@ -430,7 +430,7 @@ _**Imagen 27.** Programas - Actualizar Acciones Técnicas_
 
 ### Criterio de Programación
  
-Es la función que hace que automáticamente un PM, genere una Órden de Trabajo de mantenimiento Preventivo, Predictivo, Lubricación, Inspección, Metrología, Otro-Mantto u Otro. Ello se realiza sobre la pestaña que se muestra a continuación.
+Es la función que hace que automáticamente un PM, genere una Orden de Trabajo de mantenimiento Preventivo, Predictivo, Lubricación, Inspección, Metrología, Otro-Mantto u Otro. Ello se realiza sobre la pestaña que se muestra a continuación.
 
 **Son tres grupos:** por Frecuencia, por Semanas del Año y por  Contador, que pueden trabajar en forma  excluyente, aunque  se posibilita alguna combinación entre ellos, para criterios complejos. Entonces por ejemplo, el primero y tercero, pueden ser definidos simultáneamente, para lograr el efecto de generar una OT cuando cualquiera de los dos se cumpla.
 
@@ -471,7 +471,7 @@ Este Criterio de Programación hace caso omiso de la FIP  y se  usa  para hacer 
 
 **Al generar Órdenes de Trabajo se debe tener en cuenta:**
 
-Si un PM definió que se debe generar una Órden de Trabajo la semana X del año,  y el intervalo a Analizar/Generar contiene al menos un día de la semana X, entonces **AM** genera la OT.
+Si un PM definió que se debe generar una Orden de Trabajo la semana X del año,  y el intervalo a Analizar/Generar contiene al menos un día de la semana X, entonces **AM** genera la OT.
 
 El Criterio SA es excluyente con los demás Criterios de Programación, es decir no puede coexistir con ninguno otro dentro del mismo PM, se debe tener en cuenta, que es este criterio debe estar configurado en **Valores por Defecto** en la sección **Programas** en la opción **Inicio de la Semana #2 del año**.
 
@@ -482,22 +482,22 @@ El Criterio SA es excluyente con los demás Criterios de Programación, es decir
 ![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img27.png)
 _**Imagen 31.** Programas - Semanas del Año_
 
-**Contador:** Este campo aplica cuando el Criterio de Programación es por Contador. Al generar un PM que lo requiera, es en este campo donde se establece el valor real o aproximado del contador de la última vez que se realizó la labor que ahora se está programando como rutina. En adelante, el **AM**, en el momento de generar la Órden de Trabajo. Si el Activo tiene definido un contador, se debe dar clic en el botón <a class="btn gray">Adicionar Contador</a> luego, desplegar el campo para elegir el contador.
+**Contador:** Este campo aplica cuando el Criterio de Programación es por Contador. Al generar un PM que lo requiera, es en este campo donde se establece el valor real o aproximado del contador de la última vez que se realizó la labor que ahora se está programando como rutina. En adelante, el **AM**, en el momento de generar la Orden de Trabajo. Si el Activo tiene definido un contador, se debe dar clic en el botón <a class="btn gray">Adicionar Contador</a> luego, desplegar el campo para elegir el contador.
 
 Este Criterio puede trabaja conjuntamente con el Criterio de Frecuencia, tiene en cuenta la FIP, o sea que si el intervalo a Analizar/Generar se encuentra antes de la FIP, el PM no genera OT, así se cumpla el Incremento o el Límite por parte del Contador del Activo. Por lo que este criterio genera una OT si se cumple cualquiera de las dos condiciones.
 
 
 **Tipo:** Indica si el contador es por Incremento o por Límite.
 
-- **Por Incremento**: Esta opción requiere la definición de una **“Recurrencia”**. Para que el  PM genere una Órden de Trabajo, el Contador del Activo debe haber incrementado  su valor, sobre el  contador de  la  Última generación, en  el  PM,  en  una cantidad  superior a  la Recurrencia. Ejemplo: El cambio  de  aceite y filtro cada 5.000 km. en un automóvil, exige la definición de una recurrencia con valor 5.000.
+- **Por Incremento**: Esta opción requiere la definición de una **“Recurrencia”**. Para que el  PM genere una Orden de Trabajo, el Contador del Activo debe haber incrementado  su valor, sobre el  contador de  la  Última generación, en  el  PM,  en  una cantidad  superior a  la Recurrencia. Ejemplo: El cambio  de  aceite y filtro cada 5.000 km. en un automóvil, exige la definición de una recurrencia con valor 5.000.
 
 Cuando se  define un  PM  en  función de  un  contador de  un  Activo, debe  existir  un mecanismo predefinido: manual o automático, para actualizar y mantener al día el contador de  ese  Activo  en  el  **AM**.  Se  trata  de  garantizar  que  tales  contadores  reflejen permanentemente la cantidad de trabajo  realizado por el Activo.  De hecho un PM con criterio  Contador,  solo  generará  Órdenes  de  Trabajo,  mientras  haya  variación  en  el contador del Activo.
 
 En los casos en que la actualización de los contadores de los Activos no pueda ser frecuente, **AM** suministra un mecanismo automático que lo simula, mientras se puede realizar una nueva lectura y actualización real a ese contador. Se trata del campo Estándar de Planeación que se encuentra en la parte inferior de la ventana detalle de Activos. Allí se define una cantidad de trabajo estándar que realiza ese Activo por unidad de tiempo. Este valor es definido con base en una estadística real del trabajo de ese Activo en un período considerable, preferiblemente al mes.
 
-- **Por Límite:** Indica que el Contador del Activo debe alcanzar una cantidad tope, definida en la Recurrencia, para que el PM genere la OT. Por este criterio solo se genera una única vez la Órden de Trabajo, cuando se alcance el Límite definido. Una vez generada la OT desde el PM, éste se inactiva y ya no vuelve a generar otras OT.
+- **Por Límite:** Indica que el Contador del Activo debe alcanzar una cantidad tope, definida en la Recurrencia, para que el PM genere la OT. Por este criterio solo se genera una única vez la Orden de Trabajo, cuando se alcance el Límite definido. Una vez generada la OT desde el PM, éste se inactiva y ya no vuelve a generar otras OT.
 
-**Recurrencia:** En este campo se define una cifra o cantidad que denota el incremento que debe tener el contador del Activo, para generar una Órden de Trabajo, con criterio Incremento. Pero también en este campo se define un valor límite al que debe llegar el contador del Activo para generar una única Órden de Trabajo por contador, cuando el criterio es por Límite.
+**Recurrencia:** En este campo se define una cifra o cantidad que denota el incremento que debe tener el contador del Activo, para generar una Orden de Trabajo, con criterio Incremento. Pero también en este campo se define un valor límite al que debe llegar el contador del Activo para generar una única Orden de Trabajo por contador, cuando el criterio es por Límite.
 
 **Vlr. Contador al Inicio del Período:** Se refiere al valor inicial del contador del Activo, correspondiente a la Fecha de Inicio de Período (FIP) previamente diligenciada en el mismo apartado.
 
@@ -505,7 +505,7 @@ Finalmente para agregar el contador se debe dar clic en el botón de la parte in
 
 **Fecha de última generación de OT:** Esta fecha es informativa y viene a ser la FUG (fecha de la última generación), por tanto no se puede  modificar, esta fecha es la misma para todos los Criterios de Programación. Es una fecha real, siempre, que muestra cuando fue que se realizó la última generación de una Orden de Trabajo desde ese PM.
 
-Para saber si la OT se va a generar o no; **AM** proyecta el valor del Contador del Activo desde la fecha de su última medición hasta el primer día del rango de análisis/generación, y compara el nuevo valor del Contador del Activo con el FUG. Si el valor de la comparación, es mayor o igual a la Recurrencia, genera la Órden de Trabajo.  De lo contrario, recalcula nuevamente el valor del Contador del Activo para el siguiente día del rango de análisis/generación, y hace la  misma comparación. Así recorre todo  el  rango de análisis/generación hasta el último día, generando una OT, si el   valor de alguna de las comparaciones es mayor o igual a la recurrencia.
+Para saber si la OT se va a generar o no; **AM** proyecta el valor del Contador del Activo desde la fecha de su última medición hasta el primer día del rango de análisis/generación, y compara el nuevo valor del Contador del Activo con el FUG. Si el valor de la comparación, es mayor o igual a la Recurrencia, genera la Orden de Trabajo.  De lo contrario, recalcula nuevamente el valor del Contador del Activo para el siguiente día del rango de análisis/generación, y hace la  misma comparación. Así recorre todo  el  rango de análisis/generación hasta el último día, generando una OT, si el   valor de alguna de las comparaciones es mayor o igual a la recurrencia.
 
 Calcular el valor del Contador consiste en sumarle al valor actual del Contador del Activo la cantidad que resulte de llevar el Estándar de Planeación a la mínima unidad de tiempo, o sea a días, y multiplicar este valor por el número de días transcurridos desde la fecha de medición del Contador del Activo, hasta el día del rango de Análisis/Generación.
 
@@ -621,7 +621,7 @@ Cuando se quiera Modificar la Fecha de Inicio de Periodo, se deberán diligencia
 
 **Fecha Inicio de Periodo:** En este control de fecha, se escoge la nueva fecha a modificar. Una vez realizada esta acción se debe presionar el botón <a class="btn gray">Modificar  FIP</a> para que el cambio tenga efecto.  Luego de presionar el botón el sistema es sale un mensaje de confirmación y el cambio de la FIP se verifica en la pestaña de **“Criterio de Programación”**.
 
-Se debe resaltar que la FIP es una fecha del pasado, y es partir de ella que se calcula el momento de generación de la Órden de Trabajo, cuando el Criterio de Programación se basa en alguna Frecuencia.
+Se debe resaltar que la FIP es una fecha del pasado, y es partir de ella que se calcula el momento de generación de la Orden de Trabajo, cuando el Criterio de Programación se basa en alguna Frecuencia.
 
 Si el Criterio de Programación no depende de una frecuencia, esta fecha FIP determina el momento posterior en que el programa entra en vigencia.
 

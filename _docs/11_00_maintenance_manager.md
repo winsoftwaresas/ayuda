@@ -31,7 +31,7 @@ Un PM es el conjunto de información que describe una Tarea a ser ejecutada cíc
 
 Además de la información característica que se acaba de mencionar, un PM se  define  y enmarca en cada uno de los siguientes atributos: Tipo de Mantenimiento, Tipo de Trabajo y Tipo de Actividad, que denotan el tipo y contexto del mismo. Esta  información se complementa con dos definiciones: Prioridad y un indicativo de la  necesidad de que el Activo este inoperante **“Activo parado”**.
 
-Un PM se define con el objeto de que él genere, automáticamente con la  anticipación requerida, una Órden de Trabajo (OT) para un Activo/Equipo u Objeto de Mantenimiento (AC), cada vez que se cumpla el criterio interno establecido en el  Programa (PM). Se debe recordar que toda la información definida en un PM se traslada a la OT cuando el PM la genere.
+Un PM se define con el objeto de que él genere, automáticamente con la  anticipación requerida, una Orden de Trabajo (OT) para un Activo/Equipo u Objeto de Mantenimiento (AC), cada vez que se cumpla el criterio interno establecido en el  Programa (PM). Se debe recordar que toda la información definida en un PM se traslada a la OT cuando el PM la genere.
 
 Para definir un PM se requiere haber registrado previamente el AC o Activo objeto  del mismo, el Centro de Costo, el Centro de Responsable, los Oficios y los Responsables, el Tipo de Actividad de Mantenimiento, al igual que los Repuestos requeridos, todo ello en sus respectivas tablas de Infraestructura, Activos y Repuestos.
 

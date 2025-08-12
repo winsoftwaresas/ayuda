@@ -27,7 +27,7 @@ A continuación se describen los campos que componen el registro, sobre cada cam
 
 **Tipo:** Se selecciona si el Concepto es de entrada, salida, ajuste o traslado.
 
-Adicional, se encuentran tres opciones de definición del Concepto a modo switche, estas son:
+Adicional, se encuentran tres opciones de definición del Concepto a modo switch, estas son:
 
 - **¿Este Concepto de Kárdex requiere una OT válida?**
 Se enmarca cuando se trata de una transacción de movimiento que requiere para su ejecución, una OT válida.

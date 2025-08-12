@@ -102,7 +102,7 @@ En esta sección, el personal encargado puede registrar información sobre las a
 #### Procedimiento Inicial y Mantenimiento
 
 Después de analizar las coincidencias, es opcional y en ocasiones necesario registrar las Acciones Tomadas y los Comentarios como buena práctica.
-Cada alerta debe cerrarse con un estado definido: **“Aplica”** o **“No Aplica”**. Las alertas aplicadas deben incluir una acción antes de cerrarse. Cuando se define **Aplica** se genera una Órden de Trabajo Correctiva de manera automática. 
+Cada alerta debe cerrarse con un estado definido: **“Aplica”** o **“No Aplica”**. Las alertas aplicadas deben incluir una acción antes de cerrarse. Cuando se define **Aplica** se genera una Orden de Trabajo Correctiva de manera automática. 
 
 #### Seguimiento de Incidentes
 

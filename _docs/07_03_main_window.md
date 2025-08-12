@@ -56,7 +56,7 @@ A continuación se describen los campos que componen el registro, sobre cada cam
 - Asignada (AS)
 - Cerrada No Ejecutada (NE)
 - Cerrada Ejecutada (CE)
-- Cerrada con Órden de Trabajo (CO)
+- Cerrada con Orden de Trabajo (CO)
 
 Al modificar este campo hacia el estado **“Asignada”**, el software registra automáticamente en el campo F/H Atención, la fecha y hora en que se asigna la Solicitud de Servicio y obliga a que se elija en el campo Responsable, el Responsable asignado a la Solicitud de Servicio.   
 
@@ -142,9 +142,9 @@ La funcionalidad de poder definir que el Solicitante sea el usuario logueado y n
 
 >**Nota:** Normalmente este es un campo donde se registra un costo bajo, de lo contrario, si se requiere registrar varios responsables en el gasto real o varias horas por responsable, se aconseja cerrar la SS como un OT ('Cerrada con OT') donde **AM** automáticamente generará una OT. 
 
-**Valor MR:** En este campo se registra un único costo correspondiente a Materiales y Repuestos consumidos en la Solicitud de Servicio. Se trata de un costo menor y no se permite la discriminación por artículo utilizado; en caso de que se requiera tal discriminación se recomienda cerrar la Solicitud como Órden de Trabajo.
+**Valor MR:** En este campo se registra un único costo correspondiente a Materiales y Repuestos consumidos en la Solicitud de Servicio. Se trata de un costo menor y no se permite la discriminación por artículo utilizado; en caso de que se requiera tal discriminación se recomienda cerrar la Solicitud como Orden de Trabajo.
 
-<a class="btn cl-blue bg-white">ir a la Orden de Trabajo generada >> </a> : Este campo en realidad es un enlace el cual se genera automáticamente cuando la SS es cerrada con OT (**CO** ó Cerrada como una Órden de Trabajo) y funciona como un vínculo directo a la Órden de Trabajo en el módulo de <a class="btn cl-white bg-blue">Órdenes</a>. En la ficha técnica de la OT también se crea un vínculo hacia la Solicitud de Servicio que le dio origen y se muestra como:  <a class="btn cl-blue bg-white"><< ir a la Solicitud que genero la orden </a>, a continuación se ilustra estos enlaces en las siguientes dos imágenes:
+<a class="btn cl-blue bg-white">ir a la Orden de Trabajo generada >> </a> : Este campo en realidad es un enlace el cual se genera automáticamente cuando la SS es cerrada con OT (**CO** ó Cerrada como una Orden de Trabajo) y funciona como un vínculo directo a la Orden de Trabajo en el módulo de <a class="btn cl-white bg-blue">Órdenes</a>. En la ficha técnica de la OT también se crea un vínculo hacia la Solicitud de Servicio que le dio origen y se muestra como:  <a class="btn cl-blue bg-white"><< ir a la Solicitud que genero la orden </a>, a continuación se ilustra estos enlaces en las siguientes dos imágenes:
 
 ![Procesar imagen](../../assets/images/cap07/chp07_img05_01.png)
 _**Imagen 5.** Solicitudes - Enlace generado_
@@ -192,7 +192,7 @@ _**Imagen 6.** Solicitudes - Enlace generado
 
  - **Estado del Activo**
 
-**Se entrega limpio a mantenimiento:** **No/Sí** este es un campo funciona como un switche. El usuario solicitante puede determinar si en el momento de la SS se entrega al área de mantenimiento el Activo/Equipo con una limpieza previa. 
+**Se entrega limpio a mantenimiento:** **No/Sí** este es un campo funciona como un switch. El usuario solicitante puede determinar si en el momento de la SS se entrega al área de mantenimiento el Activo/Equipo con una limpieza previa. 
 
 **Mantenimiento devuelve equipo limpio:** el área encargada del mantenimiento del Activo puede indicar si devuelve al usuario solicitante el Activo no sólo en condiciones operativas sino también limpio. 
 
@@ -200,7 +200,7 @@ _**Imagen 6.** Solicitudes - Enlace generado
 >_**NOTA:** los dos campos anteriores son útiles y mas comunes en un ambiente clínico/hospitalario._
 
 
-**Comentarios:** Es un campo de texto en el que se explica brevemente en que consistió la ejecución de la Solicitud de Servicio, y se detallan aspectos interesantes en el curso de la ejecución de la misma. Además en este campo se puede registrar todo tipo de comentarios sobre el estado de la Solicitud, o sobre la negativa de ejecución a manera de argumentación y también sobre las razones que motivaron a generar una Órden de Trabajo desde ella para generar un control más amplio. Este es un campo importante en el seguimiento a la ejecución. Para agregar un comentario se acciona el botón <a class="btn gray">Agregar Comentario </a>, a continuación al lado derecho se muestra el comentario bloqueado, acompañado del nombre del usuario que hizo el comentario, fecha y hora en la que se hizo el comentario. Cada que se realice comentarios se irán adicionando de manera independiente, tipo chat.
+**Comentarios:** Es un campo de texto en el que se explica brevemente en que consistió la ejecución de la Solicitud de Servicio, y se detallan aspectos interesantes en el curso de la ejecución de la misma. Además en este campo se puede registrar todo tipo de comentarios sobre el estado de la Solicitud, o sobre la negativa de ejecución a manera de argumentación y también sobre las razones que motivaron a generar una Orden de Trabajo desde ella para generar un control más amplio. Este es un campo importante en el seguimiento a la ejecución. Para agregar un comentario se acciona el botón <a class="btn gray">Agregar Comentario </a>, a continuación al lado derecho se muestra el comentario bloqueado, acompañado del nombre del usuario que hizo el comentario, fecha y hora en la que se hizo el comentario. Cada que se realice comentarios se irán adicionando de manera independiente, tipo chat.
 Los comentarios no se pueden eliminar pero si modificar con un permiso administrativo.
 
 

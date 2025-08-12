@@ -18,7 +18,7 @@ Es recomendable ingresar los datos en el siguiente orden: Centros de Costo, Cent
 
 Después de haber entrado los datos básicos de Infraestructura, se debe continuar  con la información correspondiente a Activos y Repuestos que se encuentra en el menú principal.
 
-Un registro de una tabla de Infraestructura, no puede ser borrado si está siendo utilizado, o si está asociado a: un Activo, un Repuesto, un Movimiento de Kárdex, un Programa de Mantenimiento, una Solicitud de Servicio, un Paro, una Órden o a la Historia de Mantenimiento. Cuando se intenta hacer esta operación, el sistema alerta con un mensaje.
+Un registro de una tabla de Infraestructura, no puede ser borrado si está siendo utilizado, o si está asociado a: un Activo, un Repuesto, un Movimiento de Kárdex, un Programa de Mantenimiento, una Solicitud de Servicio, un Paro, una Orden o a la Historia de Mantenimiento. Cuando se intenta hacer esta operación, el sistema alerta con un mensaje.
 
 A continuación se definen los conceptos básicos sobre la conformación de la Infraestructura, elementos generales y principales tablas que la componen.
 
@@ -319,7 +319,7 @@ Cuando se vaya a escribir un número telefónico es importante tener en cuenta q
 
 **Autorretenedor:** El término "tercero autorretenedor" hace referencia a una figura que tiene la obligación de retener impuestos a otras personas o entidades en nombre del fisco, y además, autoretenerse los impuestos correspondientes a su propia actividad económica.Esta distinción depende de las normativas fiscales de cada país y del tipo de actividades o régimen fiscal al que esté sujeto el contribuyente.
 
-**Potencial Generador de Garantía:**  Hace referencia un Tercero, normalmente externo, que puede prestar garantía: Es decir, al activar esta opción el sistema crea a esta persona o entidad como un Centro de Costo de tipo **Externo** con el fin de poder asignarse una Órden de Trabajo para ejercer garantía y asumir los costos de la labor y como Responsable ejecutor.
+**Potencial Generador de Garantía:**  Hace referencia un Tercero, normalmente externo, que puede prestar garantía: Es decir, al activar esta opción el sistema crea a esta persona o entidad como un Centro de Costo de tipo **Externo** con el fin de poder asignarse una Orden de Trabajo para ejercer garantía y asumir los costos de la labor y como Responsable ejecutor.
 
 **Comentario:** Aquí se ingresan los comentarios para hacer aclaraciones sobre el Tercero que se ingresa.
 
@@ -348,7 +348,7 @@ Para actualizar la información de alguna certificación, se ingresa la nueva in
 
 **Certificaciones Terceros Tipo RX**
 
-A continuación la explicación de los Técnicos de Terceros tipo RX, cuya finalidad es que el usuario pueda asociar información importante del contratista o servicio externo como el tecnico responsable ejecutor hoja de vida, documento, tarjeta profesional, pasantías, cursos, registro Invima, entre otros; y que pueda asociar el técnico específico a ejecutar la labor en la Órden de Trabajo.
+A continuación la explicación de los Técnicos de Terceros tipo RX, cuya finalidad es que el usuario pueda asociar información importante del contratista o servicio externo como el tecnico responsable ejecutor hoja de vida, documento, tarjeta profesional, pasantías, cursos, registro Invima, entre otros; y que pueda asociar el técnico específico a ejecutar la labor en la Orden de Trabajo.
 
 ![Procesar imagen](../../assets/images/cap02/chp02_img05.png)
 _**Imagen 24.** Técnicos_
@@ -369,7 +369,7 @@ A continuación se describen los campos que componen el registro. Sobre cada uno
 
 **Registro Sanitario Invima:** En este campo se escribe el número del Registro Sanitario Invima de la persona que ejecutará las labores de mantenimiento a la institución actual.
 
-**Requiere Certificación:** Este switche permite que al vencerse cualquier documento de una persona, se asigne una pelota de color rojo o verde, para indicar que se encuentra activo, en la columna  **Habilitado** de la tabla de Técnicos y en la ventana visor de **Terceros** en la columna **Indicadores**. El objetivo es que el usuario pueda enterarse con antelación de los vencimientos de los documentos de las personas que ejecutarán las labores de mantenimiento a la institución.
+**Requiere Certificación:** Este switch permite que al vencerse cualquier documento de una persona, se asigne una pelota de color rojo o verde, para indicar que se encuentra activo, en la columna  **Habilitado** de la tabla de Técnicos y en la ventana visor de **Terceros** en la columna **Indicadores**. El objetivo es que el usuario pueda enterarse con antelación de los vencimientos de los documentos de las personas que ejecutarán las labores de mantenimiento a la institución.
 
 
 #### Certificaciones
@@ -441,7 +441,7 @@ _**Imagen 29.** Subgrupo Criterio Tipo_
 
 **Contacto:** Permite la selección de los Terceros que tengan un contacto asociado, ya sea el mismo nombre del Tercero o el nombre de la persona representante de la empresa.
 
-**Estado:** Permite la selección de los Terceros de acuerdo al estado de Activo o Inactivo. El estado de los Terceros es importante para la selección en las listas  desplegables. Por ejemplo: Si un Tercero de tipo RI, tiene definido el Estado **“Inactivo”**, no aparecerá en la lista de los Responsables para asignar en una Órden de Trabajo.
+**Estado:** Permite la selección de los Terceros de acuerdo al estado de Activo o Inactivo. El estado de los Terceros es importante para la selección en las listas  desplegables. Por ejemplo: Si un Tercero de tipo RI, tiene definido el Estado **“Inactivo”**, no aparecerá en la lista de los Responsables para asignar en una Orden de Trabajo.
 
 **Nombre:** Selecciona los Terceros según Nombre. Ejemplo: **%Manuel%**  selecciona todos los Terceros en cuyo nombre, en cualquier parte, tengan la palabra **“Manuel”**.
 
@@ -476,7 +476,7 @@ A continuación se describen brevemente los campos que componen el registro:
 
 **Nombre TE:** En este campo se muestra el nombre del Tercero definido en su tabla.
 
-- **Inactivo/Activo:** se trata de un switche en el sistema en el que se puede inactivar un Tercero asociado a un Oficio para indicar que no presta mas servicio dentro de la Organización. Esto se debe inactivar en conjunto con la tabla **Terceros** para dar de baja completamente a un Tercero para que no aparezca mas en los listados de Responsables ejecutores a asignar en una SS, OT o PA.
+- **Inactivo/Activo:** se trata de un switch en el sistema en el que se puede inactivar un Tercero asociado a un Oficio para indicar que no presta mas servicio dentro de la Organización. Esto se debe inactivar en conjunto con la tabla **Terceros** para dar de baja completamente a un Tercero para que no aparezca mas en los listados de Responsables ejecutores a asignar en una SS, OT o PA.
 
 
 **Tipo TE:** En este campo se muestra el tipo del Tercero definido en su tabla.
@@ -489,7 +489,7 @@ A continuación se describen brevemente los campos que componen el registro:
 
 **Sub CC:** En este campo se muestra el código del Sub CC que está relacionado al Centro de Costo definido en el campo anterior.
 
-**Estado:** Es un campo que muestra un valor de los predefinidos, Activo o Inactivo que refleja el estado de ese Responsable ante el aplicativo mediante un switche.
+**Estado:** Es un campo que muestra un valor de los predefinidos, Activo o Inactivo que refleja el estado de ese Responsable ante el aplicativo mediante un switch.
 
 ## Ubicaciones Físicas
 
@@ -739,12 +739,12 @@ _**Imagen 49.** Descargar archivo_
 
 ## Tipos de Trabajo (TT)
 
-El Tipo de Trabajo especifica las especialidades técnicas requeridas para cumplir con el objetivo de una Órden de Trabajo. Estas especialidades pueden ser: Mecánica, Eléctrica, Instrumentación/Electrónica u Otras.
+El Tipo de Trabajo especifica las especialidades técnicas requeridas para cumplir con el objetivo de una Orden de Trabajo. Estas especialidades pueden ser: Mecánica, Eléctrica, Instrumentación/Electrónica u Otras.
 
 ![Procesar imagen](../../assets/images/cap02/chp02_img80.png)
 _**Imagen 50.** Visor Tipos de Trabajo_
 
-En una Órden de Trabajo puede haberse definido una de estas especialidades o algunas de ellas o todas, ello es posible en el marco de un aplicativo Clase Mundial. 
+En una Orden de Trabajo puede haberse definido una de estas especialidades o algunas de ellas o todas, ello es posible en el marco de un aplicativo Clase Mundial. 
 
 _>**Nota:** Esta tabla no es modificable a no ser que se trate de un usuario que tenga los respectivos permisos administrativos avanzados, en cuyo caso , el usuario deberá definir el mismo número de Tipos de Trabajo con el que cuenta la tabla original. Si se ha modificado esta tabla, su manejo y tales criterios ya no son garantizados por el aplicativo. Por estas razones WIN Software recomienda no modificar la tabla de Tipos de Trabajo. En caso de duda por favor comunicarse con el área de servicio al Cliente de WIN Software._
 
@@ -854,7 +854,7 @@ Utilizar uno u otro método depende de si el Almacén es contable o no. Se recom
 
 Esta funcionalidad, permitirá a futuro definir si el Almacén seleccionado es Contable, es decir, tendrá una interacción con el sistema contable de la organización la cual generara un costo o factura de venta; y No Contable hace referencia al Almacén que guarda el inventario de Repuestos para simple funcionalidad del sistema **AM**. Por defecto, cuando se crea un almacén el tipo se define con NO CONTABLE.
 
-**Almacén Corporativo:** Este switche indica si el almacén al cual se está haciendo referencia es el corporativo. Cuando se define si es el almacén corporativo, se declara con la palabra **“SI”**, en caso contrario se define con la palabra **“NO”**. Para definir el almacén corporativo se realiza en el módulo de <a class="btn cl-white bg-blue px-6"> Administración </a>, en la opción **Valores por defecto**, en la etiqueta Almacén, existe la opción de **“Almacén corporativo”** con un combo desplegable para escoger cual es el almacén.
+**Almacén Corporativo:** Este switch indica si el almacén al cual se está haciendo referencia es el corporativo. Cuando se define si es el almacén corporativo, se declara con la palabra **“SI”**, en caso contrario se define con la palabra **“NO”**. Para definir el almacén corporativo se realiza en el módulo de <a class="btn cl-white bg-blue px-6"> Administración </a>, en la opción **Valores por defecto**, en la etiqueta Almacén, existe la opción de **“Almacén corporativo”** con un combo desplegable para escoger cual es el almacén.
 
 **Comentario:** Aquí se ingresan los comentarios sobre el Almacén, Centro de Costo o sobre un Cliente, representado por su Centro de Costo.
 
@@ -997,19 +997,19 @@ A continuación se describen los campos que componen el registro, sobre cada cam
 
 **Nombre:** En este campo se escribe el nombre del Concepto generador de costo distinto de Mano de Obra y de Materiales y Repuestos. Es una descripción corta de 25 caracteres. Algunos ejemplos de estos Otros Conceptos pueden ser: Transporte Terrestre de un Equipo, Transporte y Viáticos de un operador que se trasladó desde otra ciudad, mecanizado de una pieza sencilla, etc.
 
-**Valor Unitario:** Este campo indica el costo unitario de la actividad. Solamente se debe registrar este valor si corresponde a una tarifa o precio que se ha pactado con el proveedor, y que se ejecuta rutinariamente. Es posible dejar  este valor en blanco y al momento de cargarlo a una Órden de Trabajo, registrar manualmente el  valor.
+**Valor Unitario:** Este campo indica el costo unitario de la actividad. Solamente se debe registrar este valor si corresponde a una tarifa o precio que se ha pactado con el proveedor, y que se ejecuta rutinariamente. Es posible dejar  este valor en blanco y al momento de cargarlo a una Orden de Trabajo, registrar manualmente el  valor.
 
 **Unidad de Medida (UM):** Este campo es para seleccionar la unidad de medida que corresponde al **Otro Concepto de Costo.** Se elige una de las disponibles que se descuelgan de la lista.
 
-**Informativo** Este switche permite activar el Otro Concepto de Costo como campo Informativo, lo que quiere decir que NO se genera costo. En caso de querer cuantificar esta actividad no se debe activar el switche.
+**Informativo** Este switch permite activar el Otro Concepto de Costo como campo Informativo, lo que quiere decir que NO se genera costo. En caso de querer cuantificar esta actividad no se debe activar el switch.
 
 **Tipo  de Trabajo (TT):** Indica el Tipo de Trabajo al cual se relaciona el Concepto de Costo registrado: Elc (eléctrico), Mec (mecánico), I/E (instrumentación y electrónica), Otr (otros).
 
-El Tipo de Trabajo cualifica el valor del costo permitiendo que se cargue en una fila y en una columna precisamente definida en la tabla de Gasto Real en la Órden de Trabajo.
+El Tipo de Trabajo cualifica el valor del costo permitiendo que se cargue en una fila y en una columna precisamente definida en la tabla de Gasto Real en la Orden de Trabajo.
 
 ## Causas de OT Pendiente
 
-Aquí se registran las posibles Causas por las que la ejecución de una Órden de Trabajo es suspendida o pospuesta. En el sistema se proponen las siguientes causas de pendiente:
+Aquí se registran las posibles Causas por las que la ejecución de una Orden de Trabajo es suspendida o pospuesta. En el sistema se proponen las siguientes causas de pendiente:
 
 - **M** - Pendiente Por Mano De Obra
 - **O** - Pendiente Por Otros Conceptos
@@ -1031,7 +1031,7 @@ A continuación se describe el campo que compone el registro:
 
 ## Causas de Cierre de OT
 
-Es la tabla en la que se registran las posibles Causas de Cierre de una Órden de Trabajo (ya sea Ejecutada o No Ejecutada). También es una tabla con contenido propuesto por el aplicativo, que puede ser complementada o adecuada a gusto del usuario.
+Es la tabla en la que se registran las posibles Causas de Cierre de una Orden de Trabajo (ya sea Ejecutada o No Ejecutada). También es una tabla con contenido propuesto por el aplicativo, que puede ser complementada o adecuada a gusto del usuario.
 
 La primera que se define se refiere a las Órdenes de Trabajo Cerradas Ejecutadas; todas las que siguen son Causas de Cierre para Órdenes de Trabajo Cerradas No Ejecutadas.
 
@@ -1060,13 +1060,13 @@ A continuación se describen los campos que componen el registro, sobre cada cam
 
 **Nombre:** En este campo se escribe la posible Causa de Cierre de una Orden de Trabajo.
 
-**Tipo:**En este campo están predeterminadas dos opciones: Órden de Trabajo Ejecutada y Orden de Trabajo No Ejecutada.
+**Tipo:**En este campo están predeterminadas dos opciones: Orden de Trabajo Ejecutada y Orden de Trabajo No Ejecutada.
 
 
 
 ## Acciones Técnicas
 
-Es la tabla que contiene un listado de Acciones Técnicas frecuentes en un área de Mantenimiento. Con la información contenida en esta tabla se pretende describir, breve pero concretamente, la actividad general a ser realizada en una Órden de  Trabajo. Se suministra por defecto un conjunto de verbos en infinitivo que denotan Acciones Técnicas de Mantenimiento. El usuario puede utilizar tales verbos para definir Acciones Técnicas detalladas con base en ellos.
+Es la tabla que contiene un listado de Acciones Técnicas frecuentes en un área de Mantenimiento. Con la información contenida en esta tabla se pretende describir, breve pero concretamente, la actividad general a ser realizada en una Orden de  Trabajo. Se suministra por defecto un conjunto de verbos en infinitivo que denotan Acciones Técnicas de Mantenimiento. El usuario puede utilizar tales verbos para definir Acciones Técnicas detalladas con base en ellos.
  
 Una vez definidas las Acciones Técnicas, es posible incluir una o varias de ellas, asociadas a una causa, en la tabla de Causas de Falla o asociadas a un efecto, en la tabla de  Efectos de Falla.
 
@@ -1235,7 +1235,7 @@ A continuación se describen los campos que componen el registro, sobre cada cam
 
 **Tipo:** Se selecciona si el Concepto es de entrada, salida, ajuste o traslado.
 
-Adicional, se encuentran tres opciones de definición del Concepto a modo switche, estas son:
+Adicional, se encuentran tres opciones de definición del Concepto a modo switch, estas son:
 
 - **¿Este Concepto de Kárdex requiere una OT válida?**
 Se enmarca cuando se trata de una transacción de movimiento que requiere para su ejecución, una OT válida.
@@ -1333,7 +1333,7 @@ Es posible, en la Tabla de Estados la parametrización de los estados de los mó
 _**Imagen 74.** Ventana Detalle Estado - Activos_
 
 **Estado de Orden de Trabajo:** Descripción que se usa para personalizar los estados
-en los que puede encontrarse una Órden de Trabajo. Se utiliza el campo de Indicativo-
+en los que puede encontrarse una Orden de Trabajo. Se utiliza el campo de Indicativo-
 (Abreviatura) para especificar la abreviatura del Estado. Es posible crear nuevos estados
 de OT, ellos se consideran variaciones del estado de Ejecución (EJ). Existen siete Estados
 de OTs que no pueden ser eliminados ni modificados dado que se utilizan por defecto en
@@ -1348,7 +1348,7 @@ la funcionalidad del sistema, estos son:
 - **CP** – Cerrada Parcial 
 
 ![Procesar imagen](../../assets/images/cap02/chp02_img75.png)
-_**Imagen 75.** Ventana Detalle Estado - Órden de Trabajo_
+_**Imagen 75.** Ventana Detalle Estado - Orden de Trabajo_
 
 **Estado de Solicitud de Servicio:** Descripción que se usa para personalizar los estados en los que puede encontrarse una Solicitud de  Servicio. Se utiliza el campo de Indicativo-(Abreviatura) para especificar la abreviatura del Estado. Es posible crear nuevos estados de SS, ellos se consideran variaciones del estado En Análisis (AN). Existen siete Estados de SS que no pueden ser eiminados o modificados dado que se utilizan por defecto en la funcionalidad del sistema, estos son:
 

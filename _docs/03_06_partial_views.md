@@ -224,7 +224,7 @@ A continuación se describen los campos que componen este formulario:
 
 Para ingresar una característica controlable, primero debe estar agregada como característica controlable y luego en la parte inferior dar clic en <a class="btn cl-blue bg-gray px-6">Adicionar Car. Controlable</a> luego en el desplegable del formulario como se muestra en la imagen anterior seleccionar la característica con el fin de establecer el historial de mediciones. 
 
-> **Nota:** Si una característica se sale del rango o límite establecido se generará una Órden de Trabajo.
+> **Nota:** Si una característica se sale del rango o límite establecido se generará una Orden de Trabajo.
 
 ####   Residuos
 
