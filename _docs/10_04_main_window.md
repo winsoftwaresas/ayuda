@@ -8,15 +8,25 @@ media: "../../assets/images/docs/"
 ---
 # Ventana Principal de Historia de Mantenimiento (HM)
 
-![Procesar imagen](../../assets/images/cap10/chp10_img01.png)
-_**Imagen 1.** Historia - Ventana Visor_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_01.png"
+  alt:"Historia - Ventana Visor"
+%}
 
 A esta ventana se llega haciendo clic sobre la opción <a class="btn blue">Historia </a> del Menú Principal. A través de ella se ejecutan todas las funciones dedicadas a administrar la Historia de Mantenimiento. A continuación se ilustran las porciones que la componen.
 
 ## Ventana Visor
 
-![Procesar imagen](../../assets/images/cap10/chp10_img02.png)
-***Imagen 2.** Historia - Ventana Visor*
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_02.png"
+  alt:"Historia - Ventana Visor"
+%}
 
 Desde esta ventana es posible observar la Historia de Mantenimiento activa, existente o un subconjunto de ellas (efectuado a través de un subgrupo). El conjunto de Órdenes de Trabajo Históricas disponible a ser desplegado se muestra a través de páginas. El tamaño de las páginas es configurable desde la opción <a class="btn blue">administración</a> del menú principal, en la sección “Valores por Defecto” por parte de un usuario autorizado.
 
@@ -26,8 +36,13 @@ Los títulos en azul que encabezan las columnas son también botones que permite
 
 Al hacer clic sobre alguna de las OT, SS o Paros Históricas del Visor el sistema responde mostrando la información de esa OT, en forma detallada, en una ventana llamada **Ventana Detalle**.
 
-![Procesar imagen](../../assets/images/cap10/chp10_img03.png)
-_**Imagen 3.** Historia - Ventana Detalle_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_03.png"
+  alt:"Historia - Ventana Detalle"
+%}
 
  En esta ventana se encuentra la información relevante a la OT histórica seleccionada en el Visor. A través de ella se administran los datos genéricos y también es posible modificar la información de una OT Histórica. Por supuesto que, para ello se requieren permisos especiales, que pueden ser proporcionados por el Administrador.
 
@@ -108,8 +123,6 @@ A continuación, se describen los campos que componen esta ventana Detalle de Ó
 La finalidad de este campo registrar hechos interesantes acerca de la misma ejecución, como el estado del equipo antes, durante y después de la intervención, estado del mismo equipo después de ella, recomendaciones a los usuarios del equipo, recomendaciones a las personas de mantenimiento y otros conceptos interesantes a juicio de los ejecutantes.
 
 Es posible que el sistema añada comentarios automáticos cuando la OT sea proveniente de una SS. 
- 
-
 
 ## Vistas Parciales / Pestañas
 
@@ -117,9 +130,13 @@ Es posible que el sistema añada comentarios automáticos cuando la OT sea prove
 
 Para las OT que se hayan enviado a Historia con costos ABC, esta pestaña sólo permite consultar el costo de las acciones técnicas asociadas a la labor:
 
-![Procesar imagen](../../assets/images/cap10/chp10_img04.png)
-_**Imagen 4.** Historia - Acciones Técnicas de una OT_
-
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_04.png"
+  alt:"Historia - Acciones Técnicas de una OT"
+%}
 
 ### Gasto Real
 
@@ -127,8 +144,13 @@ Para ingresar a esta opción, se debe dar clic en la pestaña “Gasto Real” d
 
 Este refleja los costos registrados en la OT Histórica:
 
-![Procesar imagen](../../assets/images/cap10/chp10_img10.png)
-_**Imagen 5.** Historia - Gasto Real de una OT_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_05.png"
+  alt:"Historia - Gasto Real de una OT"
+%}
 
  A través de esta ventana, se puede administrar el Gasto Real de la OT Histórica. Se compone de dos zonas:
 
@@ -138,9 +160,13 @@ En la zona inferior, aparecen los botones para ingresar al detalle de <a class="
 
 **Ingresar Mano de obra Interna**
 
-![Procesar imagen](../../assets/images/cap10/chp10_img11.png)
-_**Imagen 6.** Historia - Gasto Real MO_
-
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_06.png"
+  alt:"Historia - Gasto Real MO"
+%}
 
 A diferencia del Presupuesto de Mano de Obra Interna, el Gasto Real de la Mano de Obra Interna se efectúa a nivel de Responsable, es decir, se tiene en cuenta a la persona que realizó la labor.
 
@@ -171,25 +197,43 @@ Para ingresar MO se debe dar clic en el botón <a class="btn gray">adicionar man
 
 Una vez se diligencien estos campos se da clic en el ícono de Mas <span class="mdi mdi-plus-circle icon white"></span> para agregar, como se muestra a continuación:
 
-![Procesar imagen](../../assets/images/cap10/chp10_img12.png)
-_**Imagen 7.** Historia - Gasto Real Ingresar MO_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_07.png"
+  alt:"Historia - Gasto Real Ingresar MO"
+%}
 
 En el caso de actualizar la información de Mano de Obra Interna se da clic en <a class="btn gray">actualizar mano de obra interna</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
 
-![Procesar imagen](../../assets/images/cap10/chp10_img13.png)
-_**Imagen 8.** Historia - Gasto Real Actualizar MO_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_08.png"
+  alt:"Historia - Gasto Real Actualizar MO"
+%}
 
 Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
 
-![Procesar imagen](../../assets/images/cap10/chp10_img14.png)
-_**Imagen 9.** Historia - Gasto Real Eliminar MO_
-
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_09.png"
+  alt:"Historia - Gasto Real Eliminar MO"
+%}
 
 **Ingresar Mano de Obra Externa**
 
-![Procesar imagen](../../assets/images/cap10/chp10_img15.png)
-_**Imagen 10.** Historia - Gasto Real ME_
-
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_10.png"
+  alt:"Historia - Gasto Real ME"
+%}
 
 Es importante resaltar que el Gasto Real de Mano de Obra Externa de una OT, se prepara a nivel del Responsable Ejecutor Externo, es decir, quiénes fueron los encargados de ejecutar la labor.
 
@@ -209,24 +253,43 @@ Para ingresar Mano de Obra Externa se debe dar clic en el botón <a class="btn g
 
 Una vez se diligencien estos campos se da clic en el ícono de Mas <span class="mdi mdi-plus-circle icon white"></span> para agregar, como se muestra a continuación:
 
-![Procesar imagen](../../assets/images/cap10/chp10_img16.png)
-_**Imagen 11.** Historia - Gasto Real Ingresar ME_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_11.png"
+  alt:"Historia - Gasto Real Ingresar ME"
+%}
 
 En el caso de actualizar la información de Mano de Obra Externa, se da clic en <a class="btn gray">Actualizar Mano de Obra Externa</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
 
-![Procesar imagen](../../assets/images/cap10/chp10_img17.png)
-_**Imagen 12.** Historia - Gasto Real Actualizar ME_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_12.png"
+  alt:"Historia - Gasto Real Actualizar ME"
+%}
 
 Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
 
-![Procesar imagen](../../assets/images/cap10/chp10_img18.png)
-_**Imagen 13.** Historia - Gasto Real Eliminar ME_
-
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_13.png"
+  alt:"Historia - Gasto Real Eliminar ME"
+%}
 
 **Ingresar Materiales y Repuestos**
 
-![Procesar imagen](../../assets/images/cap10/chp10_img19.png)
-_**Imagen 14.** Historia - Gasto Real M Y R_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_14.png"
+  alt:"Historia - Gasto Real M Y R"
+%}
 
 Para ingresar Materiales y Repuestos se debe dar clic en el botón <a class="btn gray">adicionar Material y Repuesto</a> y se deberán diligenciar los siguientes campos:
 
@@ -256,24 +319,43 @@ La segunda consiste en buscar el Material y Repuesto, a través del visor de Mat
 
 Una vez se diligencien estos campos se da clic en el ícono de Mas <span class="mdi mdi-plus-circle icon white"></span> para agregar, como se muestra a continuación:
 
-![Procesar imagen](../../assets/images/cap10/chp10_img20.png)
-_**Imagen 14.** Historia - Gasto Real Ingresar M Y R_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_15.png"
+  alt:"Historia - Gasto Real Ingresar M Y R"
+%}
 
 En el caso de actualizar la información de Materiales y Repuestos, se da clic en <a class="btn gray">Actualizar Material y Repuesto</a>. Regresar a seleccionar el Almacén respectivo, y elegir el Repuesto. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
 
-![Procesar imagen](../../assets/images/cap10/chp10_img21.png)
-_**Imagen 15.** Historia - Gasto Real Actualizar M Y R_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_16.png"
+  alt:"Historia - Gasto Real Actualizar M Y R"
+%}
 
 Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
 
-![Procesar imagen](../../assets/images/cap10/chp10_img22.png)
-_**Imagen 16.** Historia - Gasto Real Eliminar M Y R_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_17.png"
+  alt:"Historia - Gasto Real Eliminar M Y R"
+%}
 
 **Ingresar Otros Conceptos de Costo**
 
-![Procesar imagen](../../assets/images/cap10/chp10_img23.png)
-_**Imagen 17.** Historia - Gasto Real OC_
-
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_18.png"
+  alt:"Historia - Gasto Real OC"
+%}
 
 Para ingresar Otros Conceptos de Costo o Gastos indirectos, se debe dar clic en el botón <a class="btn gray">adicionar otro concepto</a> y se deberán diligenciar los siguientes campos:
 
@@ -295,36 +377,61 @@ Para ingresar Otros Conceptos de Costo o Gastos indirectos, se debe dar clic en 
 
 Una vez se diligencien estos campos se da clic en el ícono de Mas <span class="mdi mdi-plus-circle icon white"></span> para agregar, como se muestra a continuación:
 
-![Procesar imagen](../../assets/images/cap10/chp10_img24.png)
-_**Imagen 18.** Historia - Ingresar OC_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_19.png"
+  alt:"Historia - Ingresar OC"
+%}
 
 En el caso de actualizar la información de Materiales y Repuestos, se da clic en <a class="btn gray">Actualizar Otro Concepto</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
 
-![Procesar imagen](../../assets/images/cap10/chp10_img25.png)
-_**Imagen 19.** Historia - Actualizar OC_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_20.png"
+  alt:"Historia - Actualizar OC"
+%}
 
 Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">aceptar</a> como se muestra en la siguiente imagen:
 
-![Procesar imagen](../../assets/images/cap10/chp10_img26.png)
-_**Imagen 20.** Historia - Eliminar OC_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_21.png"
+  alt:"Historia - Eliminar OC"
+%}
 
-_> **Nota:** Para finalizar, hacer clic en el botón <a class="btn gray">ir a la matriz</a> para regresar a la ventana principal de Gasto Real y luego para acentar los cambios en el Gasto Real de la OT se debe dar clic en <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a>. Esto automáticamente cambia el estado de la OT a Cerrada Retroalimentada._
+> **Nota:** Para finalizar, hacer clic en el botón <a class="btn gray">ir a la matriz</a> para regresar a la ventana principal de Gasto Real y luego para acentar los cambios en el Gasto Real de la OT se debe dar clic en <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a>. Esto automáticamente cambia el estado de la OT a Cerrada Retroalimentada.
 
 ## Evaluación del Servicio
 
 Se puede visualizar la evaluación del servicio del personal de mantenimiento o de servicios que realizó la labor. La evaluación fue hecha por un usuario, previamente autorizado, quien fuera el receptor del servicio, una vez que se haya cerrado la OT. Sin embargo, es posible realizarla desde un usuario con los permisos respectivos en Historia y guardando los cambios a través del botón  <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a>.
 
-![Procesar imagen](../../assets/images/cap10/chp10_img05.png)
-_**Imagen 21.** Historia - Evaluación del Servicio_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_22.png"
+  alt:"Historia - Evaluación del Servicio"
+%}
 
 ## Seguimiento o Cierre
 
-A esta opción se llega dando un clic sobre la esotaña “Seguimiento o Cierre”. Esta opción se encuentra disponible mientras se tengan los permisos respectivos de cierre en Historia, este permiso sólo permite cerrar una OT individual y actualizar sólo la actual pestaña
+A esta opción se llega dando un clic sobre la pestaña “Seguimiento o Cierre”. Esta opción se encuentra disponible mientras se tengan los permisos respectivos de cierre en Historia, este permiso sólo permite cerrar una OT individual y actualizar sólo la actual pestaña
 
 En el Seguimiento o Cierre en HM es posible corregir los tiempos, duración de la ejecución y tiempo improductivo y demás básicos concernientes a la ejecución de la labor.
 
-![Procesar imagen](../../assets/images/cap10/chp10_img06.png)
-_**Imagen 22.** Historia - Seguimiento y Cierre_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_23.png"
+  alt:"Historia - Seguimiento y Cierre"
+%}
 
 En la gráfica anterior, Ventana de Seguimiento o Cierre, se aprecian sus componentes y sus respectivos contenidos. Sobre cada campo se da una breve descripción:
 
@@ -398,22 +505,35 @@ Se deben llenar los siguientes campos para proceder a actualizar la información
 
 En el Seguimiento o Cierre, además de los botones <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a> y <a class="btn blue">cancelar <span class="mdi mdi-block-helper"></span></a>, se visualiza el botón <a class="btn blue">bitácora <span class="mdi mdi-view-week"></span></a>, éste muestra en nueva ventana el historial de cambios de la OT en: Estado, Prioridad y Responsable. Se muestra esta información solo si se han presentado modificaciones, de lo contrario los campos permanecen en blanco.
 
-![Procesar imagen](../../assets/images/cap10/chp10_img52.png)
-_**Imagen 23.** Historia - Detalle Bitácora en Seguimiento y Cierre_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_24.png"
+  alt:"Historia - Detalle Bitácora en Seguimiento y Cierre"
+%}
 
-
-_>**Nota:** Nótese que para hacer efectivo los cambios efectuados en el seguimiento y cierre individual de la OT de HM se debe hacer clic en <a class="btn blue">Actualizar </a> como se indica en las dos imágenes anteriores, este botón sólo cumple la función de actualizar únicamente la pestaña de seguimiento y cierre, ya que el botón de <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a> se inactiva una vez que se encuentre en esta pestaña, es por esto que si se desean guardar otros cambios se debe estar en las otras pestañas (ficha técnica, gasto real, multimedia)_
+> **Nota:** Nótese que para hacer efectivo los cambios efectuados en el seguimiento y cierre individual de la OT de HM se debe hacer clic en <a class="btn blue">Actualizar </a> como se indica en las dos imágenes anteriores, este botón sólo cumple la función de actualizar únicamente la pestaña de seguimiento y cierre, ya que el botón de <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a> se inactiva una vez que se encuentre en esta pestaña, es por esto que si se desean guardar otros cambios se debe estar en las otras pestañas (ficha técnica, gasto real, multimedia)
 
 Una vez se actualice el sistema responde con un mensaje de advertencia, para continuar dar un clic en <a class="btn white">aceptar</a>.
 
-![Procesar imagen](../../assets/images/cap10/chp10_img53.png)
-_**Imagen 24.** Historia - Mensaje alerta en Seguimiento y Cierre_
-
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_25.png"
+  alt:"Historia - Mensaje alerta en Seguimiento y Cierre"
+%}
 
 ## Multimedia 
 
-![Procesar imagen](../../assets/images/cap10/chp10_img54.png)
-_**Imagen 25.** Historia - Multimedia_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_26.png"
+  alt:"Historia - Multimedia"
+%}
 
 En la gráfica anterior, Ventana Multimedia, se aprecian sus componentes y sus respectivos contenidos.
 A través de la ventana Multimedia se consulta o adjunta información adicional a la OT. Esta opción permite asociar a la OT uno o varios documentos, con el objetivo de registrar el trabajo realizado minuciosamente. **AM** acepta documentos de extensiones .DOC, XLS, PDF, JPG es decir, de Microsoft Word o Microsoft Excel, Acrobat o Imágenes.
@@ -432,37 +552,65 @@ A continuación se describen las carpetas que componen esta ventana; cuando se q
 
 Para adicionar un documento, imagen o video, se debe dar un doble clic sobre la carpeta deseada, y luego seleccionar del ícono de nube <span class="mdi mdi-cloud-upload icon white"></span>, como se muestra a continuación:
 
-![Procesar imagen](../../assets/images/cap10/chp10_img55.png)
-_**Imagen 26.** Historia - Abrir Explorador Archivos_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_27.png"
+  alt:"Historia - Abrir Explorador Archivos"
+%}
 
 A continuación se abre el explorador de archivos, seguido de seleccionar el archivo dar un clic en <a class="btn">abrir</a>.
 
-![Procesar imagen](../../assets/images/cap10/chp10_img56.png)
-_**Imagen 27.** Historia - Seleccionar Archivos_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_28.png"
+  alt:"Historia - Seleccionar Archivos"
+%}
 
 De manera adicional u opcional se puede escribir un nombre en el siguiente campo para enfatizar de lo que trata el archivo:
 
-![Procesar imagen](../../assets/images/cap10/chp10_img57.png)
-_**Imagen 28.** Historia - Nombrar Archivo_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_29.png"
+  alt:"Historia - Nombrar Archivo"
+%}
 
 Para finalizar dar un clic en el botón  <a class="btn white">subir archivo </a>,  el sistema responde con un mensaje aviso:
 
-![Procesar imagen](../../assets/images/cap10/chp10_img58.png)
-_**Imagen 29.** Historia - Subir archivo_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_30.png"
+  alt:"Historia - Subir archivo"
+%}
 
 Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic sobre el nombre de una de las imágenes, se muestra la previsualización, como se muestra a continuación:
 
-![Procesar imagen](../../assets/images/cap10/chp10_img59.png)
-_**Imagen 30.** Historia - Prevualización formato imagen_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_31.png"
+  alt:"Historia - Previsualización formato imagen"
+%}
 
 Para desasociar un documento, o una imagen o un video, a la OT se da clic al icono de basura <span class="mdi mdi-delete"></span> que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro, finalmente confirmar con el botón <a class="btn white">Aceptar</a>.
 
-![Procesar imagen](../../assets/images/cap10/chp10_img60.png)
-_**Imagen 31.** Historia - Desasociar archivo_
-
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_32.png"
+  alt:"Historia - Desasociar archivo"
+%}
 
 Si se desea descargar un archivo adjunto a la OT, se debe dar clic en el ícono de nube con direccional hacia abajo <span class="mdi mdi-cloud-download icon white"></span> la nube con flecha hacia abajo que se encuentra al lado derecho del archivo que se quiere descargar.
-
 
 # Ventana Submenú de Historia de Mantenimiento
 
@@ -470,8 +618,13 @@ Si se desea descargar un archivo adjunto a la OT, se debe dar clic en el ícono 
 
 Se usa para seleccionar grupos de OT, SS y Paros  que cumplen con un conjunto de filtros o criterios. El objetivo de hacerlo, es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al icono <span class="mdi mdi-filter-variant"></span>, ubicado en la parte superior derecha de la ventana Visor de Historia.
 
-![Procesar imagen](../../assets/images/cap10/chp10_img61.png)
-_**Imagen 32.** Historia - Ir a Subgrupo_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_33.png"
+  alt:"Historia - Ir a Subgrupo"
+%}
 
 Cada criterio trabaja en conjunto con los demás, con el operador intersección.
 
@@ -481,8 +634,13 @@ Cada criterio aparece inicializado en un valor global que permite mostrar todas 
 
 Los campos de datos que constituyen criterio de selección son los siguientes:
 
-![Procesar imagen](../../assets/images/cap10/chp10_img62.png)
-_**Imagen 33.** Historia - Subgrupo_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_34.png"
+  alt:"Historia - Subgrupo"
+%}
 
 **1. FILTRAR POR TIPO DE REGISTRO**
 
@@ -584,7 +742,7 @@ _**Imagen 33.** Historia - Subgrupo_
 
 **Gasto Real Otros Conceptos:** Al seleccionar esta opción se habilita una lista despegable donde se escoge el criterio deseado, junto con un cuadro donde se digita el valor de comparación. Los criterios son: Igual (=), Mayor (>) y Menor (<). Estos criterios actúan en comparación con el valor digitado en la casilla que se activa al lado del operador aritmético. Ejemplo: si se escoge el criterio Mayor (>) y la cantidad es 100.000, eso significa que filtrara todas las OT Históricas cuyo Gasto Real en Otros Conceptos de Costo sea Mayor a Cien Mil Pesos o unidades monetarias.
 
-**Responsable por la Institución:** Filtra las OT Históricas de acuerdo al Responsable por Institución o la persona que recibe a satisfación. Existen dos formas de buscar el Responsable. La primera es seleccionándolo de la lista desplegable. La segunda es dando clic al icono <span class="mdi mdi-lock"></span> el cual se desactiva <span class="mdi mdi-lock-open-outline"></span> permitiendo digitar segmentos del nombre del Responsable, en el cual también es posible usar comodines (%). Cuando se utilizan comodines, es posible seleccionar las OT cuyo Responsable tenga una parte del nombre igual.
+**Responsable por la Institución:** Filtra las OT Históricas de acuerdo al Responsable por Institución o la persona que recibe a satisfacción. Existen dos formas de buscar el Responsable. La primera es seleccionándolo de la lista desplegable. La segunda es dando clic al icono <span class="mdi mdi-lock"></span> el cual se desactiva <span class="mdi mdi-lock-open-outline"></span> permitiendo digitar segmentos del nombre del Responsable, en el cual también es posible usar comodines (%). Cuando se utilizan comodines, es posible seleccionar las OT cuyo Responsable tenga una parte del nombre igual.
 
 **Número de la OT:** Permite filtrar OT Históricas, con base en su número consecutivo. Para ello se define en el criterio un rango. Aparecen cuatro campos, para ubicar el comienzo del rango “Desde” (Año-Consecutivo) y el fin del rango “Hasta” (Año- Consecutivo). De no digitar los campos “Desde”, se buscan las OT Históricas cuyo número es inferior al digitado en “Hasta”. De no digitar los campos “Hasta”, se buscan las OT Históricas cuyo número es posterior al digitado en “Desde”.
 
@@ -631,17 +789,18 @@ Activo/Equipo.
 
 _**Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos, se pueden utilizar uno o varios de los criterios anteriores, simultáneamente. Además es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber realizado una selección, es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección, se da un clic al botón <a class="btn white">Mas <span class="mdi mdi-plus-circle"></span></a> o <a class="btn white">Menos <span class="mdi mdi-minus-circle"></span></a>en lugar de darlo al botón <a class="btn white">aceptar <span class="mdi mdi-check-circle"></span></a>._
 
-
-
 ## Exportar
 
 Esta opción permite exportar los ítems o campos de la ficha técnica de OT, bien sea, para exportar todas las OTs de la base de datos o las provenientes de un subgrupo a un archivo de Excel que se descarga automáticamente en la estación cliente.
 Para efectuar este proceso, se da clic en Exportar <span class="mdi mdi-download"></span> mostrando las siguientes opciones de exportación:
 
-
-![Procesar imagen](../../assets/images/cap10/chp10_img63.png)
-_**Imagen 34.** Historia - Exportar_
-
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_35.png"
+  alt:"Historia - Exportar"
+%}
 
 En la gráfica anterior, se aprecian sus componentes y sus respectivos contenidos:
 
@@ -656,8 +815,13 @@ Luego de escoger una de las opciones anteriores, en la parte inferior aparece se
 
 Este comando permite visualizar los reportes relacionados a OT, SS y PA en Historia. Existen los siguientes tipos de reportes básicos disponibles:
 
-![Procesar imagen](../../assets/images/cap10/chp10_img64.png)
-_**Imagen 35.** Historia - Reportes_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_36.png"
+  alt:"Historia - Reportes"
+%}
 
 Los anteriores reportes pueden ser seleccionados para una o varios registros a través de las siguientes opciones:
 
@@ -679,46 +843,83 @@ Para Cerrar la ventana de los Reportes, se da clic en el botón<a class="btn whi
 
 El reporte con código **HMI-CMDAP de Análisis Previo de Disponibilidad** es necesario hacer una carga de datos primero según la información que se tenga filtrada para poder apreciar de manera correcta el análisis de los datos cuando se imprima el reporte, como se indica en la siguiente imagen:
 
-![Procesar imagen](../../assets/images/cap10/chp10_img35.png)
-_**Imagen 36.** Historia - Reporte Cargar Análisis Previo de Disponibilidad_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_37.png"
+  alt:"Historia - Reporte Cargar Análisis Previo de Disponibilidad"
+%}
 
 Primero se debe un clic en el botón <a class="btn white">cargar</a>. Una vez que carguen los datos, se muestra el siguiente mensaje:
 
-![Procesar imagen](../../assets/images/cap10/chp10_img36.png)
-_**Imagen 37.** Historia - Reporte Mensaje Análisis Previo de Disponibilidad_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_38.png"
+  alt:"Historia - Reporte Mensaje Análisis Previo de Disponibilidad"
+%}
 
 De esta manera ya se puede <a class="btn white">imprimir</a> o <a class="btn white">exportar</a> y visualizar el reporte.
 
 A continuación se muestra la vista previa de impresión en formato pdf:
 
-![Procesar imagen](../../assets/images/cap10/chp10_img37.png)
-_**Imagen 38.** Historia - Reporte Vista Previa Análisis Previo de Disponibilidad_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_39.png"
+  alt:"Historia - Reporte Vista Previa Análisis Previo de Disponibilidad"
+%}
 
 Para imprimir o exportar el reporte **HME-CRMACC-Cronograma de Mantenimientos Ejecutados** se debe primero, ir a la transacción de inicio **Valores OOAK** como se muestra a continuación:
 
-![Procesar imagen](../../assets/images/cap10/chp10_img38.png)
-_**Imagen 39.** Historia - Valores OOAK_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_40.png"
+  alt:"Historia - Valores OOAK"
+%}
 
 Luego, se debe digitar el año del cual se quieren analizar los datos, como se indica en la siguiente imagen, a continuación dar un clic en <a class="btn white">cambiar</a> y esperar el mensaje de confirmación:
 
-![Procesar imagen](../../assets/images/cap10/chp10_img39.png)
-_**Imagen 40.** Historia - Ingresar Valores OOAK_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_41.png"
+  alt:"Historia - Ingresar Valores OOAK"
+%}
 
-![Procesar imagen](../../assets/images/cap10/chp10_img40.png)
-_**Imagen 41.** Historia - Mensaje Alerta Valores OOAK_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_42.png"
+  alt:"Historia - Mensaje Alerta Valores OOAK"
+%}
 
 A continuación, se debe refrescar la página, o bien dando clic derecho y eligiendo la opción **Volver a Cargar** y se debe dirigir nuevamente al módulo de <a class="btn blue">Historia</a> e ir la opción Reportes <span class="mdi mdi-printer"></span> y a continuación <a class="btn white">exportar</a> o <a class="btn white">imprimir</a> los resultados, nótese que el año al lado del campo del reporte confirma el valor OOAK ingresado anteriormente:
 
-![Procesar imagen](../../assets/images/cap10/chp10_img41.png)
-_**Imagen 42.** Historia - Cronograma de Mantenimientos Ejecutados_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_43.png"
+  alt:"Historia - Cronograma de Mantenimientos Ejecutados"
+%}
 
 A continuación se muestra la visualización del respectivo reporte:
 
-![Procesar imagen](../../assets/images/cap10/chp10_img42.png)
-_**Imagen 43.** Historia - Reporte Cronograma de Mantenimientos Ejecutados_
-
-
-
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_44.png"
+  alt:"Historia - Reporte Cronograma de Mantenimientos Ejecutados"
+%}
 
 # Transacciones
 
@@ -726,21 +927,29 @@ _**Imagen 43.** Historia - Reporte Cronograma de Mantenimientos Ejecutados_
 
 En ocasiones la Historia de Mantenimiento puede volverse pesada debido a grandes volúmenes de información que puede llegar a contener,  lo cual, a falta de mantenimiento se afecta la base de datos y el sistema se ralentiza. Por lo tanto se hace necesaria la herramienta **Enviar a Historia Archivada**. De esta manera toda la información preseleccionada en el Subgrupo en el módulo de <a class="btn blue">Historia</a>, se transfiere a <a class="btn blue">Historia Archivada </a>, la cual tiene la característica de ser completamente independiente de la base de datos, es decir, toda la información a su origen que antes era fundamentada en links o enlaces con otros módulos como Infraestructura (Centro de Costo, Ubicación Física, Centro Responsable, Responsable), Repuestos y Activos se desaparecen y se resuelven quedando con la información real, es decir, ahora todos los campos son diligenciados y están grabados, por lo que se visualiza en una tabla plana que contiene la misma información pero inmodificable. Esto al suceder con un gran volumen de Órdenes, la base de datos se hace mas liviana y  ágil. Es así como se pueden hacer las mismas consultas de registros e impresión de un reporte básico disponible para analizar un registro individual (OT, SS o Paro). 
 
-
 Es importante tener en cuenta que cuando se envían registros a <a class="btn blue">Historia Archivada</a> los enlaces desaparecen y se hace posible eliminar o hacer limpieza de registros muy antiguos como Centros de Costo, Terceros, Ubicaciones Físicas, Activos, entre otra información que no tenga uso o no sea vigente.
 
 El envío de registros Históricos a Historia Archivada es un proceso controlado, es decir, este envío se hace por cada 5000 registros como máximo y estos deben ser preseleccionados en un Subgrupo, el cual puede tardar horas, por ende, se recomienda hacer un respaldo de datos previo de esta transacción.
 
 Para enviar registros de **Historia** a **Historia Archivada**, previamente se debe hacer un subgrupo y luego sobreponer el cursor sobre el módulo de <a class="btn blue">Historia</a> y dar clic en **Enviar Historia Archivada** como se indica a continuación:
 
-
-![Procesar imagen](../../assets/images/cap10/chp10_img43.png)
-_**Imagen 44.** Historia - Ir a Enviar a Historia Archivada_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_45.png"
+  alt:"Historia - Ir a Enviar a Historia Archivada"
+%}
 
 Al ingresar a la transacción se muestra la siguiente ventana:
 
-![Procesar imagen](../../assets/images/cap10/chp10_img44.png)
-_**Imagen 45.** Historia - Enviar a Historia Archivada_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_46.png"
+  alt:"Historia - Enviar a Historia Archivada"
+%}
 
 **Historia Archivada** se puede enviar un registro de OT, SS o Paro
 o un conjunto de registros preseleccionados:
@@ -751,60 +960,101 @@ o un conjunto de registros preseleccionados:
 
 Luego de seleccionar una de las opciones anteriores dar clic en el botón <a class="btn blue">Enviar a Historia Archivada</a>, ubicado en la parte inferior de las opciones en el cual aparecerá un mensaje de alerta para el usuario:
 
-![Procesar imagen](../../assets/images/cap10/chp10_img45.png)
-_**Imagen 46.** Historia - Mensaje Alerta Enviar Historia Archivada_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_47.png"
+  alt:"Historia - Mensaje Alerta Enviar Historia Archivada"
+%}
 
 Para continuar con el proceso de envío dar clic en <a class="btn white">Aceptar</a>.
 
 Cuando el proceso termine, el sistema muestra un mensaje alerta confirmando el proceso con el número de registros enviados exitosamente entre paréntesis:
 
-![Procesar imagen](../../assets/images/cap10/chp10_img46.png)
-_**Imagen 47.** Historia - Mensaje Alerta Envío a Historia Archivada_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_48.png"
+  alt:"Historia - Mensaje Alerta Envío a Historia Archivada"
+%}
 
->**Nota:** Si el número de registros a enviar es mayor a 5000 registros el sistema muestra un mensaje de advertencia.
+> **Nota:** Si el número de registros a enviar es mayor a 5000 registros el sistema muestra un mensaje de advertencia.
 
-
-![Procesar imagen](../../assets/images/cap10/chp10_img47.png)
-_**Imagen 48.** Historia - Mensaje Advertencia_
-
-
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_49.png"
+  alt:"Historia - Mensaje de Advertencia"
+%}
 
 ## DashBoard de HI
 
 Para acceder a esta opción, se debe sobreponer el cursor sobre el módulo de Historia y a continuación, dar un clic sobre la transacción, como se muestra en la siguiente imagen:
 
-![Procesar imagen](../../assets/images/cap10/chp10_img27.png)
-***Imagen 49.** Historia - Ir a Dashboard*
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_50.png"
+  alt:"Historia - Ir a Dashboard"
+%}
 
 Este comando permite visualizar en tiempo real el comportamiento de los registros de Órdenes de Trabajo Históricas, Solicitudes de Servicio y Paros, con el fin de usarse como una herramienta para análisis y toma de decisiones rápidas, como se muestra a continuación:
 
-![Procesar imagen](../../assets/images/cap10/chp10_img28.png)
-***Imagen 50.** Historia - Dashboard*
- 
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_51.png"
+  alt:"Historia - Dashboard"
+%}
+
 De la imagen anterior, la información del rectángulo anaranjado ubicado en la parte superior derecha indica el número de registros de OT Históricas, SS y PA filtrados a través del subgrupo o la cantidad total de registros de OT Históricas, SS y PA, existentes en el módulo de HI. 
 
 Como guía existe un indicador a modo de fracción (N/M) que indica el número total de registros de OT Históricas, SS y PA seleccionados (N) sobre el número de registros totales en el módulo de HI (M).
 
 Es por lo anterior que esta fracción se verá afectada al realizarse un “Subgrupo” o filtro en el módulo seleccionado, por lo cual se muestra la cantidad de registros del subgrupo actual (N) y el total de registros existentes en el módulo de Historia (M). Si no hay filtro, los dos números en sus totales son los mismos, como se indica en la siguiente imagen:
 
-![Procesar imagen](../../assets/images/cap10/chp10_img29.png)
-***Imagen 51.** Historia - Dashboard*
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_52.png"
+  alt:"Historia - Dashboard"
+%}
 
 Al dar clic sobre los rectángulos de colores, se oculta la información correspondiente a cada rectángulo, como se ilustra en la siguiente imagen:
 
-![Procesar imagen](../../assets/images/cap10/chp10_img30.png)
-_**Imagen 52.** Historia - Dashboard_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_53.png"
+  alt:"Historia - Dashboard"
+%}
 
 El valor que está ubicado dentro del rectángulo verde, indica el número total de OT Históricas, SS o PA existentes en HI o existentes en el subgrupo realizado, según corresponda al DashBoard.
 
-![Dashboard OT](../../assets/images/cap10/chp10_img31.png)
-_**Imagen 53.** Historia - Dashboard OT_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_54.png"
+  alt:"Historia - Dashboard OT"
+%}
 
 Sí se desea restablecer la información, se debe dar clic al icono de las flechas circulares <span class="mdi mdi-autorenew"></span>. En cambio, si se desea exportar el gráfico en un formato de imagen, es posible dando clic a la flecha hacia abajo <span class="mdi mdi-download"></span>.
 
-![Dashboard SS](../../assets/images/cap10/chp10_img32.png)
-
-_**Imagen 54.** Historia - Dashboard SS_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_55.png"
+  alt:"Historia - Dashboard SS"
+%}
 
 ## Eliminar Masivamente
 
@@ -814,18 +1064,33 @@ Eliminar masivamente se ejecuta cuando se tiene la certeza de la existencia  dat
 
 Para ir a la transacción sobreponer el cursor sobre el módulo de  <a class="btn blue">Historia</a> y dar clic en la opción **Eliminar Masivamente**, como se indica a continuación:
 
-![Dashboard SS](../../assets/images/cap10/chp10_img48.png)
-_**Imagen 55.** Historia - Ir a Eliminar Masivamente_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_56.png"
+  alt:"Historia - Ir a Eliminar Masivamente"
+%}
 
 Para eliminar un conjunto de registros se debe primero realizar un Subgrupo no mayor de 5000 mil registros (este proceso puede tardar hasta 5 horas dependiendo del subgrupo), de no hacerlo el sistema muestra un mensaje de advertencia:
 
-![Dashboard SS](../../assets/images/cap10/chp10_img47.png)
-_**Imagen 56.** Historia - Alerta Eliminar Masivamente_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_57.png"
+  alt:"Historia - Alerta Eliminar Masivamente"
+%}
 
 Una vez se tenga el conjunto de registros preseleccionados proceder con la transacción así:
 
-![Dashboard SS](../../assets/images/cap10/chp10_img49.png)
-_**Imagen 57.** Historia - Eliminar Historia_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_58.png"
+  alt:"Historia - Eliminar Historia"
+%}
 
 Se puede eliminar un registro de OT, SS, Paro o un conjunto de registros preseleccionados: 
 
@@ -835,14 +1100,20 @@ Se puede eliminar un registro de OT, SS, Paro o un conjunto de registros presele
 
 Para continuar dar clic en el botón <a class="btn blue">eliminar historia</a> ubicado debajo de las opciones anteriores, el sistema muestra un mensaje alerta:
 
-![Dashboard SS](../../assets/images/cap10/chp10_img50.png)
-_**Imagen 58.** Historia - Mensaje Advertencia Eliminar Masivamente_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_59.png"
+  alt:"Historia - Mensaje Advertencia Eliminar Masivamente"
+%}
 
 Para finalizar el proceso dar clic en <a class="btn blue">aceptar</a>, y el sistema confirma  a través de un mensaje aviso: 
 
-![Dashboard SS](../../assets/images/cap10/chp10_img51.png)
-_**Imagen 59.** Historia - Aviso Satisfactorio Eliminar Masivamente_
-
-
-
-
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_60.png"
+  alt:"Historia - Aviso Satisfactorio Eliminar Masivamente"
+%}
