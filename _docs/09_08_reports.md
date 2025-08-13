@@ -8,11 +8,15 @@ order: '09_08'
 media: "../../assets/images/docs/"
 ---
 
-
 Este comando permite visualizar los reportes relacionados a OT. Existen los siguientes tipos de reportes básicos disponibles:
 
-![Procesar imagen](../../assets/images/cap09/chp09_img67.png)
-_**Imagen 159.** Órdenes - Reportes_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_94.png"
+  alt:"Órdenes - Reportes"
+%}
 
 Los anteriores reportes pueden ser seleccionados para una o varias OT a través de las siguientes opciones:
 

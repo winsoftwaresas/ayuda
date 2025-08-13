@@ -8,26 +8,41 @@ order: '09_04'
 date: 2022-02-10T14:45:29.041Z
 media: "../../assets/images/docs/"
 ---
-![Procesar imagen](../../assets/images/cap09/chp09_img02.png)
-***Imagen 67.** Órdenes - Acceso directo*
+
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_02.png"
+  alt:"Órdenes - Acceso directo"
+%}
 
 Se accede desde el comando <a class="btn blue">Órdenes</a> en la barra de menú principal de **AM**. A través de esta ventana se permite crear Órdenes de Trabajo manuales y Administrar la totalidad de las Órdenes activas, Pendientes de Ejecución, o listas para ser enviadas a Historia. Igualmente, desde esta ventana se Administran las Órdenes de Trabajo Programadas (las que se generan desde Programas de Mantenimiento), a continuación se ilustra la **Ventana Visor:**
 
-![Procesar imagen](../../assets/images/cap09/chp09_img03.png)
-***Imagen 68.** Órdenes - Ventana Visor*
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_03.png"
+  alt:"Órdenes - Ventana Visor"
+%}
 
 Desde esta ventana es posible observar la lista de las Órdenes de Trabajo existentes o un subconjunto de ellas (efectuado a través de un subgrupo <span class="mdi mdi-filter-variant"></span>). Al hacer clic en cualquiera de los registros se visualiza la información completa de la Orden en una nueva ventana llamada **Ventana Detalle**.
 
-En la Ventana Visor, los nombres que encabezan las columnas a  manera de títulos en azul, permiten ordenar de manera ascendente/descendente la información por cada ítem seleccionado, esto a tráves de un clic en el respectivo encabezado.
+En la Ventana Visor, los nombres que encabezan las columnas a  manera de títulos en azul, permiten ordenar de manera ascendente/descendente la información por cada ítem seleccionado, esto a través de un clic en el respectivo encabezado.
 
 En esta ventana, en la columna <a class="btn white">Estado</a> se define una semaforización de las Órdenes de Trabajo. La finalidad de esta columna es mostrar de manera gráfica el estado de cada registro.
 
 La definición de colores está definida, según la siguiente convención de acuerdo al siguiente ícono 
 <span class="mdi mdi-folder-multiple-image"></span> ubicado en la parte superior derecha de la ventana Visor:
 
-![Procesar imagen](../../assets/images/cap09/chp09_img01.png)
-***Imagen 69.** Órdenes - Semaforización*
-
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_04.png"
+  alt:"Órdenes - Semaforización"
+%}
 
 **Rojo:** Orden con fecha de generación anterior a más de 7 días antes de la fecha actual.
 
@@ -43,8 +58,13 @@ La definición de colores está definida, según la siguiente convención de acu
 
 ## Ventana Detalle
 
-![Procesar imagen](../../assets/images/cap09/chp09_img04.png)
-***Imagen 70.** Órdenes - Ventana Detalle*
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_05.png"
+  alt:"Órdenes - Ventana Detalle"
+%}
 
 En la gráfica anterior, Ventana Detalle de Órdenes de Trabajo, se aprecian sus componentes y sus respectivos contenidos. En esta ventana Detalle se encuentra la información relevante a la OT seleccionada en el Visor. A través de ella se Administran los datos genéricos de la Orden de Trabajo. También, se accede a esta ventana cuando se está creando una Orden Manual accionando una vez el botón <a class="btn white">NUEVO</a> en la Ventana Visor ubicado en la parte superior izquierda.
 
@@ -77,7 +97,6 @@ Para **AM**, la prioridad  1 significa un trabajo de gran urgencia, 2 significa 
 **Serial:** En este campo se visualiza la información del Serial del Activo/Equipo que se haya establecido en su respectiva ficha técnica. 
 
 **Alias:** En este campo se visualiza la información del Alias del Activo/Equipo que se haya establecido en su respectiva ficha técnica. 
-
 
 **Solicitante:** En este campo se define el nombre del Solicitante de la labor. Cuando la OT es generada desde una Solicitud de Servicio, este campo trae el nombre del solicitante ingresado automáticamente.
 
@@ -113,7 +132,7 @@ Para **AM**, la prioridad  1 significa un trabajo de gran urgencia, 2 significa 
 
 <a class="btn cl-gray"><span class="mdi mdi-checkbox-blank-outline"> Tiempo Improductivo </span></a> : En este campo lo indica la persona o personas encargadas de realizar la labor, si debe pararse el Activo/Equipo para proceder a la realización de la misma. Cuando se dice que el Activo genera Tiempo Improductivo significa que habiendo estado programado para trabajar u operar, debe ser intervenido por mantenimiento.  Este campo se tiene en cuenta al momento del cierre una OT: si el indicativo de Tiempo Improductivo está habilitado,  **AM** calcula y carga el Tiempo Improductivo. En caso contrario no lo hace.
 
-_>**Nota:** El tiempo improductivo es calculado dependiendo del tipo de mantenimiento (TM), es decir, si la OT es correctiva, éste es calculado desde la F/H Paro hasta la F/H Fin trabajos. Si es preventivo u otro TM entonces se calcula desde la F/H Atención hasta la F/H Fin trabajos. Este tiempo se puede corregir en el respectivo campo con el fin de reflejar la realidad._
+> **Nota:** El tiempo improductivo es calculado dependiendo del tipo de mantenimiento (TM), es decir, si la OT es correctiva, éste es calculado desde la F/H Paro hasta la F/H Fin trabajos. Si es preventivo u otro TM entonces se calcula desde la F/H Atención hasta la F/H Fin trabajos. Este tiempo se puede corregir en el respectivo campo con el fin de reflejar la realidad.
 
 **Criterio:** Es un campo informativo que despliega el criterio utilizado por **AM** para haber generado la OT. (Solamente para Órdenes de Trabajo Programadas).
 
@@ -124,7 +143,6 @@ _>**Nota:** El tiempo improductivo es calculado dependiendo del tipo de mantenim
 Para las OTs Manuales, esta opción se establece en el momento de creación de la misma. Ésta se debe marcar antes de accionar el botón <a class="btn blue">INSERTAR <span class="mdi mdi-plus-circle-outline"></span></a> de otra forma, **AM** asume que la OT no va a requerir Control Presupuestal y la posibilidad de hacer la marcación se inactiva en el acto. 
 
 Cuando una Orden de Trabajo Manual exige control presupuestal y el presupuesto no ha sido aprobado, no es posible registrar ni modificar el Gasto Real en ella.
-
 
 <a class="btn cl-gray"><span class="mdi mdi-checkbox-blank-outline"> Acciones Técnicas </span></a> : Esta opción habilita una tabla de Acciones Técnicas en una nueva pestaña de la OT. Esta tabla está ligada a la Infraestructura, creada con su mismo nombre, que contiene un listado de Acciones Técnicas frecuentes definidas por el área de Mantenimiento. Se pretende describir, brevemente, la actividad general realizada en una OT representada como un **check list.** (En la sección vistas parciales/Acciones Técnicas se explica mas el detalle).
 
@@ -144,8 +162,13 @@ Este espacio de comentarios sirve para dos efectos:
 
 Es posible saber cuáles OT son de tipo Metrología, Preventiva/Programada, Correctiva y Cerrada Parcial, si tienen Multimedia y Servicio Evaluado directamente desde la ventana visor, sobreponiendo el cursor en el ícono de Indicadores <span class="mdi mdi-message-alert"></span> ubicado en la parte superior derecha de la ventana mostrando un conjunto de pelotas de colores que indican el tipo de información definida y asociada, como se muestra a continuación:
 
-![Procesar imagen](../../assets/images/cap09/chp09_img04_1.png)
-***Imagen 71.** Órdenes - Ventana Detalle*
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_06.png"
+  alt:"Órdenes - Ventana Detalle"
+%}
 
 El significado de los colores es el siguiente:
 
@@ -171,12 +194,17 @@ Cada criterio aparece inicializado en un valor global que permite mostrar todas 
 
 El programa permite entonces hacer selección de un grupo de OTs de acuerdo con los criterios seleccionados en la siguiente ventana:
 
-![Procesar imagen](../../assets/images/cap09/chp09_img05.png)
-***Imagen 72.** Órdenes - Ventana Subgrupo*
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_07.png"
+  alt:"Órdenes - Ventana Subgrupo"
+%}
 
 Los campos de datos que constituyen criterio de selección, se agrupan en dos bloques:
 
-**1. FILTRAR POR CAMPOS DEL ACTIVO ASOCIADO A LA ÓRDEN DE TRABAJO**
+**1. FILTRAR POR CAMPOS DEL ACTIVO ASOCIADO A LA ORDEN DE TRABAJO**
 
 **AC - Alias:** Este campo filtra las OTs activas para el o los Activos cuyo Alias corresponda a los valores aquí definidos. En este campo se pueden utilizar los comodines (%).
 
@@ -186,7 +214,7 @@ Los campos de datos que constituyen criterio de selección, se agrupan en dos bl
 
 **AC - Activo Fijo:** Este campo preselecciona las OTs activas para el o  los Equipos cuyo Número de Activo corresponde a los valores aquí definidos.   En este  campo se pueden utilizar los comodines.
 
-**AC - Código:** Esta selección agrupa las OTs cuyos Activo scoincidan con el relacionado en este criterio. Es posible definir el código completo o una porción del mismo. Por ejemplo: si se escribe 341%, se seleccionan todas las OT cuyo código de Activo inicia por 341. Si se escribe %1 se seleccionan todas las OTs cuyo código de Activo finaliza en un “1”. El porcentaje (%) es un carácter comodín que significa “todos”. También, es posible seleccionar el Activo a través del visor del módulo de Activo. Para ello se da un clic sobre el icono <span class="mdi mdi-filter-variant"></span> que se encuentra al lado del campo. Acto seguido se muestra la ventana de visor de Activos independiente. Allí, una vez se encuentra el Activo, se selecciona dando un clic sobre cualquiera de sus campos. A continuación, se da un clic sobre botón <a class="btn white">Aceptar</a> o se hace doble clic sobre el registro seleccionado. Inmediatamente este código aparece automáticamente en el campo.
+**AC - Código:** Esta selección agrupa las OTs cuyos Activo coincidan con el relacionado en este criterio. Es posible definir el código completo o una porción del mismo. Por ejemplo: si se escribe 341%, se seleccionan todas las OT cuyo código de Activo inicia por 341. Si se escribe %1 se seleccionan todas las OTs cuyo código de Activo finaliza en un “1”. El porcentaje (%) es un carácter comodín que significa “todos”. También, es posible seleccionar el Activo a través del visor del módulo de Activo. Para ello se da un clic sobre el icono <span class="mdi mdi-filter-variant"></span> que se encuentra al lado del campo. Acto seguido se muestra la ventana de visor de Activos independiente. Allí, una vez se encuentra el Activo, se selecciona dando un clic sobre cualquiera de sus campos. A continuación, se da un clic sobre botón <a class="btn white">Aceptar</a> o se hace doble clic sobre el registro seleccionado. Inmediatamente este código aparece automáticamente en el campo.
 
 **AC-Descripción:** Selecciona las OTs asociadas a los Activos según criterios que se fundamenten en su descripción. Ejemplo: %Motor% selecciona todos los Activos, en cuya descripción, en cualquier posición, tengan la palabra “Motor”.
 
@@ -205,7 +233,6 @@ Los campos de datos que constituyen criterio de selección, se agrupan en dos bl
 **AC - Marca:** Selecciona el conjunto de OTs que se asocian a la marca del Activo ingresado en el campo. Este campo acepta comodines (%).
 
 **AC - Modelo:** Filtra el conjunto de OTs que se asocian al modelo del Activo ingresado en el campo. Este campo acepta comodines (%).
-
 
 **2. FILTRAR POR CAMPOS DE LA ORDEN DE TRABAJO**
 
@@ -304,14 +331,13 @@ Estos criterios actúan en comparación con el valor digitado en la casilla que 
 
 **Prioridad:** Filtra las OT de acuerdo a su  Prioridad, habilitándose una lista despegable desde el nivel 1 hasta el nivel 7.
 
-**Responsable por la Institución:** Agrupa las OTs de acuerdo al Responsable por Institución o la persona que recibe a satisfación. Existen dos formas de buscar el Responsable. La primera es seleccionándolo de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span> el cual se desactiva <span class="mdi mdi-lock-open-outline"></span> permitiendo digitar segmentos del nombre del Responsable, en el cual también es posible usar comodines (%). Cuando se utilizan comodines, es posible seleccionar las OT cuyo Responsable tenga una parte del nombre igual.
+**Responsable por la Institución:** Agrupa las OTs de acuerdo al Responsable por Institución o la persona que recibe a satisfacción. Existen dos formas de buscar el Responsable. La primera es seleccionándolo de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span> el cual se desactiva <span class="mdi mdi-lock-open-outline"></span> permitiendo digitar segmentos del nombre del Responsable, en el cual también es posible usar comodines (%). Cuando se utilizan comodines, es posible seleccionar las OT cuyo Responsable tenga una parte del nombre igual.
 
 **Referencia:** Este opción agrupa las OTs que tienen asociado el valor seleccionado, en el campo Referencia. Es posible usar comodines (%).
 
 **Responsable:** Filtra las OTs de acuerdo al Responsable asignado.Existen dos formas de buscar el Responsable. La primera es seleccionándolo de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span> el cual se desactiva <span class="mdi mdi-lock-open-outline"></span> permitiendo digitar segmentos del nombre del Responsable, en el cual también es posible usar comodines (%). Cuando se usan comodines, es posible seleccionar las OT cuyo Responsable tenga una parte del nombre igual. 
 
-* **Responsable Asignado para Histograma:** Permite seleccionar las OT cuyo Responsable está asignado para el histograma. Este campo depende de la elección que se definia en el criterio **Responsable**.
-
+* **Responsable Asignado para Histograma:** Permite seleccionar las OT cuyo Responsable está asignado para el histograma. Este campo depende de la elección que se defina en el criterio **Responsable**.
 
 **Responsable en Gasto Real:** Permite filtrar de las OT cuyo Responsable en Gasto Real está definido en la mano de obra del Gasto Real.
 
@@ -339,4 +365,4 @@ Estos criterios actúan en comparación con el valor digitado en la casilla que 
 
 Estos criterios actúan en comparación con el valor digitado en la casilla que se activa al lado del operador aritmético.
 
->**Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos, se pueden utilizar uno o varios de estos criterios simultáneamente. También se permite la unión de selecciones, es decir, después de haber realizado una búsqueda de un criterio, es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección, se da un clic al botón <a class="btn white">MAS <span class="mdi mdi-plus-circle"></span></a> , en lugar de darlo al botón <a class="btn white">ACEPTAR <span class="mdi mdi-check-circle"></span></a>.
+> **Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos, se pueden utilizar uno o varios de estos criterios simultáneamente. También se permite la unión de selecciones, es decir, después de haber realizado una búsqueda de un criterio, es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección, se da un clic al botón <a class="btn white">MAS <span class="mdi mdi-plus-circle"></span></a> , en lugar de darlo al botón <a class="btn white">ACEPTAR <span class="mdi mdi-check-circle"></span></a>.

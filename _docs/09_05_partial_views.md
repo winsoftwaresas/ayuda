@@ -13,8 +13,13 @@ media: "../../assets/images/docs/"
 
 Esta opción conduce a la tabla de Acciones Técnicas en una nueva pestaña de la OT. Esta tabla está ligada a la Infraestructura, creada con su mismo nombre, que contiene un listado de Acciones Técnicas frecuentes en un área de Mantenimiento. Con la información contenida allí, se pretende describir, breve pero concretamente, la actividad general realizada en una OT. Las Acciones Técnicas en una OT se pueden definir, después de haber seleccionado en la ventana Detalle de la Ficha Técnica de la OT en el momento de su creación, el cuadro llamado <a class="btn cl-gray"><span class="mdi mdi-checkbox-blank-outline"> Acciones Técnicas</span></a> o bien, haberlas definido en la creación del Programa de Mantenimiento, continuación se muestra la porción Acciones Técnicas de una OT:
 
-![Procesar imagen](../../assets/images/cap09/chp09_img06.png)
-_**Imagen 73.** Órdenes - Ventana Detalle Acciones Técnicas_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_08.png"
+  alt:"Órdenes - Ventana Detalle Acciones Técnicas"
+%}
 
 En la pestaña de Acciones Técnicas de la Ventana Detalle de OT aparece un nuevo recuadro en el que irán apareciendo las que se vayan adicionando a través del botón <a class="btn gray">Adicionar Acción Técnica</a>.
 
@@ -24,19 +29,29 @@ A continuación se describen los campos que componen esta ventana de informació
 
 **Nro. Ordinal:** Es el ordinal asignado a cada Acción Técnica según el orden en el que se vayan adicionando.
 
-**Acción Técnica:** En este campo se muestran  las Acciones Técnicas definidas en la OT. 
+**Acción Técnica:** En este campo se muestran las Acciones Técnicas definidas en la OT. 
 
 Al accionar el botón <a class="btn gray">Adicionar Acción Técnica</a> se habilita el conjunto de Acciones definidas por mantenimiento desde la tabla de infraestructura correspondiente. 
 
 Las Acciones Técnicas se seleccionan de la lista desplegable y se adicionan con el botón del signo <span class="mdi mdi-plus-circle icon cl-blue bg-gray"></span>
 
-![Procesar imagen](../../assets/images/cap09/chp09_img06_01.png)
-_**Imagen 74.** Órdenes - Adicionar Acciones Técnicas_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_09.png"
+  alt:"Órdenes - Adicionar Acciones Técnicas"
+%}
 
 **Realizado:** Este es un campo que una vez agregada la Acción Técnica, se puede actualizar, dando clic en el botón <a class="btn cl-black"><span class="mdi mdi-checkbox-blank-outline"> Check </span></a> de forma manual desde AM, o también retroalimentándola desde AMovil. Una vez se marque esta opción en el detalle de la tabla aparece un Si, de lo contrario aparece un No. 
 
-![Procesar imagen](../../assets/images/cap09/chp09_img06_02.png)
-_**Imagen 75.** Órdenes - Actualizar Acciones Técnicas_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_10.png"
+  alt:"Órdenes - Actualizar Acciones Técnicas"
+%}
 
 **Valor:** Este campo se habilita una vez se haya agregado la Acción Técnica y es posible actualizarla ingresando un valor numérico en el campo si aplica. 
 
@@ -50,22 +65,37 @@ _**Imagen 75.** Órdenes - Actualizar Acciones Técnicas_
 
 En una OT Manual que se acaba de crear sólo se permite definir o modificar su Presupuesto si se ha establecido la opción <a class="btn cl-gray"><span class="mdi mdi-checkbox-blank-outline"> Control Presupuestal </span></a>, en la ventana detalle de la OT durante la creación de la OT. Esto significa que si a una OT no se le marcó el recuadro anterior, no tendrá la posibilidad de aceptar datos de **Presupuesto**, solamente de **Gasto Real**:
 
-![Procesar imagen](../../assets/images/cap09/chp09_img07.png)
-_**Imagen 76.** Órdenes - Presupuesto_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_11.png"
+  alt:"Órdenes - Presupuesto"
+%}
 
 Los datos de Gasto Real se pueden registrar en una OT en cualquier momento, mientras esa OT no exija Control Presupuestal. Pero si la OT exige Control Presupuestal, solo se puede registrar el Gasto Real después de haber **aprobado el Presupuesto**, en cuyo caso ya no será posible modificar este último.
 
 Se muestra un ejemplo de una OT creada manualmente con manejo de Presupuesto: 
 
-![Procesar imagen](../../assets/images/cap09/chp09_img07_01.png)
-_**Imagen 77.** Órdenes - Presupuesto_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_12.png"
+  alt:"Órdenes - Presupuesto"
+%}
 
 En esta ventana se resumen los totales de los costos presupuestados de <a class="btn gray">Mano Obra Interna</a>, <a class="btn gray">Mano Obra Externa</a>, <a class="btn gray">Mat y Rep</a>, <a class="btn gray">O. Conceptos</a> para acceder a cada uno de ellos se da un clic en el botón acorde a lo que se necesite ingresar en su respectiva ventana detalle, a continuación se explica detalladamente como ingresarlos:
 
 **Ingresar Mano de Obra Interna**
 
-![Procesar imagen](../../assets/images/cap09/chp09_img07_02.png)
-_**Imagen 78.** Órdenes - Mano de Obra Interna_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_13.png"
+  alt:"Órdenes - Mano de Obra Interna"
+%}
 
 A través de la ventana de Ingreso de Mano de Obra Interna se administra el Presupuesto de Mano de Obra de la OT.
 
@@ -94,25 +124,45 @@ A continuación se hace un clic en el botón <a class="btn gray">Adicionar Mano 
 
 Una vez que se diligencian todos los campos se da clic en el botón <span class="mdi mdi-plus-circle icon bg-gray cl-blue"></span>, seguidamente se observa que la información creada se muestra en el recuadro de la mano de Obra Interna, ubicada al lado izquierdo.
 
-![Procesar imagen](../../assets/images/cap09/chp09_img07_02.png)
-_**Imagen 79.** Órdenes - Ingresar MO_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_14.png"
+  alt:"Órdenes - Ingresar MO"
+%}
 
 Una vez terminado el proceso, hacer clic en el botón <a class="btn gray ">Ir a Matriz</a> para regresar a la ventana principal de Presupuesto.
 
 Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem y finalizar con el botón <a class="btn gray">Actualizar Mano Obra Interna</a>.
 
-![Procesar imagen](../../assets/images/cap09/chp09_img07_03.png)
-_**Imagen 80.** Órdenes - Actualizar MO_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_15.png"
+  alt:"Órdenes - Actualizar MO"
+%}
 
 Por otro lado, para eliminar un registro de la tabla de Mano de Obra Interna, se selecciona el registro y luego se da clic al icono <span class="mdi mdi-delete"></span>, el cual muestra un mensaje de alerta que indica al usuario de si está seguro de eliminar el registro, para finalizar dar clic en <a class="btn bg-gray cl-black">ACEPTAR</a>, como se muestra en la siguiente imagen:
 
-![Procesar imagen](../../assets/images/cap09/chp09_img07_04.png)
-_**Imagen 81.** Órdenes - Eliminar MO_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_16.png"
+  alt:"Órdenes - Eliminar MO"
+%}
 
 **Ingresar Mano de Obra Externa**
 
-![Procesar imagen](../../assets/images/cap09/chp09_img07_05.png)
-_**Imagen 82.** Órdenes - ME_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_17.png"
+  alt:"Órdenes - ME"
+%}
 
 A través de la ventana de Ingreso de Mano de Obra Externa se administra el Presupuesto de Mano de Obra Externa de la OT.
 
@@ -134,20 +184,35 @@ Una vez que se diligencian todos los campos se da clic en el icono del Más <spa
 
 Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón <a class="btn gray">Actualizar Mano Obra Externa</a>.
 
-![Procesar imagen](../../assets/images/cap09/chp09_img07_06.png)
-_**Imagen 83.** Órdenes - Actualizar ME_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_18.png"
+  alt:"Órdenes - Actualizar ME"
+%}
 
 Una vez terminado el proceso, hacer clic en el botón <a class="btn gray">Ir a Matriz</a>. para regresar a la ventana principal de Presupuesto.
 
 Por otro lado, para eliminar un registro de la tabla de Mano de Obra Externa, se selecciona el registro y luego se da clic al icono de eliminar <span class="mdi mdi-delete"></span> sale un mensaje de alerta que indica al usuario de si está seguro de eliminar el registro y finalmente se da clic en <a class="btn bg-gray cl-black">ACEPTAR</a>, como se muestra en la siguiente imagen:
 
-![Procesar imagen](../../assets/images/cap09/chp09_img07_07.png)
-_**Imagen 84.** Órdenes - Eliminar ME_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_19.png"
+  alt:"Órdenes - Eliminar ME"
+%}
 
 **Ingresar Materiales y Repuestos**
 
-![Procesar imagen](../../assets/images/cap09/chp09_img07_08.png)
-_**Imagen 85.** Órdenes - M y R_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_20.png"
+  alt:"Órdenes - M y R"
+%}
 
 A través de la ventana de Ingreso de Materiales y Repuestos se administra el Presupuesto de Materiales y Repuestos de la OT. A la izquierda aparece el listado de los Almacenes y Materiales y Repuestos presupuestados.
 
@@ -181,20 +246,35 @@ Una vez se diligencien estos campos se da clic en el botón <span class="mdi mdi
 
 Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón <a class="btn gray">Actualizar Material y Repuesto</a>.
 
-![Procesar imagen](../../assets/images/cap09/chp09_img07_09.png)
-_**Imagen 86.** Órdenes - Actualizar M y R_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_21.png"
+  alt:"Órdenes - Actualizar M y R"
+%}
 
 Una vez terminado el proceso, hacer clic en el botón <a class="btn gray">Ir a Matriz</a> para regresar a la ventana principal de Presupuesto.
 
 Por otro lado, para eliminar un registro de la tabla de Material y Repuesto, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-lock"></span> sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn bg-gray cl-black">ACEPTAR</a> como se muestra en la siguiente imagen:
 
-![Procesar imagen](../../assets/images/cap09/chp09_img07_10.png)
-_**Imagen 87.** Órdenes - Eliminar M y R_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_22.png"
+  alt:"Órdenes - Eliminar M y R"
+%}
 
 **Ingresar otros Conceptos**
 
-![Procesar imagen](../../assets/images/cap09/chp09_img07_11.png)
-_**Imagen 88.** Órdenes - OC_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_23.png"
+  alt:"Órdenes - OC"
+%}
 
 A través esta ventana de Ingreso de Otros Conceptos se administra el Presupuesto de Otros Conceptos de la OT.
 
@@ -218,13 +298,23 @@ Una vez se diligencien estos campos se da clic en el botón <span class="mdi mdi
 
 Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón <a class="btn gray">Actualizar Otro Concepto</a>, como se muestra continuación:
 
-![Procesar imagen](../../assets/images/cap09/chp09_img07_12.png)
-_**Imagen 89.** Órdenes - Actualizar OC_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_24.png"
+  alt:"Órdenes - Actualizar OC"
+%}
 
 Por otro lado, para eliminar un registro de la tabla de Otro Concepto de Costo, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, mostrando un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn bg-gray cl-black">ACEPTAR</a> como se muestra en la siguiente imagen:
 
-![Procesar imagen](../../assets/images/cap09/chp09_img07_13.png)
-_**Imagen 90.** Órdenes - Eliminar OC_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_25.png"
+  alt:"Órdenes - Eliminar OC"
+%}
 
 > **Nota:** Al hacer cualquier ingreso o actualización sobre algunos de los conceptos anteriores se guardan automáticamente en la OT.
 
@@ -234,8 +324,13 @@ Para ingresar a esta opción, se debe dar clic en la pestaña **Gasto Real** de 
 
 Para la primera alternativa se muestra un ejemplo:
 
-![Procesar imagen](../../assets/images/cap09/chp09_img07_14.png)
-_**Imagen 91.** Órdenes - Pasar Presupuesto a Gasto Real_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_26.png"
+  alt:"Órdenes - Pasar Presupuesto a Gasto Real"
+%}
 
 Una vez se apruebe el Presupuesto se tienen dos alternativas:
 
@@ -245,8 +340,13 @@ Una vez se apruebe el Presupuesto se tienen dos alternativas:
 
 Para el caso de la primera alternativa cuando se traslada el Presupuesto al Gasto Real, el sistema muestra un mensaje de confirmación y la ventana de Gasto Real se visualiza de la siguiente manera:
 
-![Procesar imagen](../../assets/images/cap09/chp09_img07_15.png)
-_**Imagen 92.** Órdenes - Gasto Real_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_27.png"
+  alt:"Órdenes - Gasto Real"
+%}
 
 > **Nota**: Es posible modificar el Gasto Real en cualquier momento y en cualquiera de las alternativas anteriores. De igual forma cualquier modificación en él, establece una comparación contra el Presupuesto. Los valores en la matriz de los totales se muestran en rojo mostrando la  diferencia hasta que se envíe la OT a la Historia de Mantenimiento. 
 
@@ -258,8 +358,13 @@ En la zona inferior, aparecen los botones para ingresar Mano de Obra Interna, Ma
 
 **Ingresar Mano de Obra Interna**
 
-![Procesar imagen](../../assets/images/cap09/chp09_img07_16.png)
-_**Imagen 93.** Órdenes - Gasto Real Mano de Obra Interna_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_28.png"
+  alt:"Órdenes - Gasto Real Mano de Obra Interna"
+%}
 
 A través de la ventana de GR de Ingreso de Mano de Obra Interna se administra el Gasto Real de Mano de Obra de la OT.
 
@@ -291,23 +396,43 @@ A continuación se describen los campos que se deben diligenciar en esta ventana
 
 Una vez se diligencien estos campos se da clic en el ícono de Mas <span class="mdi mdi-plus-circle icon bg-gray cl-blue"></span> para agregar, como se muestra a continuación:
 
-![Procesar imagen](../../assets/images/cap09/chp09_img07_17.png)
-_**Imagen 94.** Órdenes - Gasto Real Ingresar MO_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_29.png"
+  alt:"Órdenes - Gasto Real Ingresar MO"
+%}
 
 En el caso de actualizar la información de Mano de Obra Interna se da clic en <a class="btn gray">Actualizar Mano de Obra Interna</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
 
-![Procesar imagen](../../assets/images/cap09/chp09_img07_18.png)
-_**Imagen 95.** Órdenes - Gasto Real Actualizar MO_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_30.png"
+  alt:"Órdenes - Gasto Real Actualizar MO"
+%}
 
 Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono <span class="mdi mdi-delete"></span> mostrando un mensaje alerta indicando al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn bg-gray cl-black">ACEPTAR</a> como se muestra en la siguiente imagen:
 
-![Procesar imagen](../../assets/images/cap09/chp09_img07_19.png)
-_**Imagen 96.** Órdenes - Gasto Real Eliminar MO_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_31.png"
+  alt:"Órdenes - Gasto Real Eliminar MO"
+%}
 
 **Ingresar Mano de Obra Externa**
 
-![Procesar imagen](../../assets/images/cap09/chp09_img08.png)
-_**Imagen 97.** Órdenes - Gasto Real Mano de Obra Externa_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_32.png"
+  alt:"Órdenes - Gasto Real Mano de Obra Externa"
+%}
 
 A través de la ventana de Ingreso de Mano de Obra Externa se administra el Gasto Real de Mano de Obra Externa de la OT.
 Es importante destacar que el Gasto Real de Mano de Obra Externa de una OT, se prepara a nivel del Responsable Ejecutor Externo, es decir, quiénes fueron los encargados de ejecutar la labor.
@@ -329,23 +454,43 @@ A continuación se describen los campos que componen esta ventana; cuando se qui
 Una vez se diligencien estos campos se da clic en el ícono <span class="mdi mdi-plus-circle icon bg-gray cl-blue"></span>
 para agregar, como se muestra a continuación:
 
-![Procesar imagen](../../assets/images/cap09/chp09_img09.png)
-_**Imagen 98.** Órdenes - Gasto Real Ingresar ME_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_33.png"
+  alt:"Órdenes - Gasto Real Ingresar ME"
+%}
 
 En el caso de actualizar la información de Mano de Obra Externa, se da clic en <a class="btn gray">Actualizar Mano de Obra Externa</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
 
-![Procesar imagen](../../assets/images/cap09/chp09_img10.png)
-_**Imagen 99.** Órdenes - Gasto Real Actualizar ME_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_34.png"
+  alt:"Órdenes - Gasto Real Actualizar ME"
+%}
 
 Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono <span class="mdi mdi-delete"></span> mostrando un mensaje de alerta que indica al usuario si está seguro de eliminar el registro. Para finalizar dar clic en <a class="btn bg-gray cl-black">ACEPTAR</a> como se muestra en la siguiente imagen:
 
-![Procesar imagen](../../assets/images/cap09/chp09_img11.png)
-_**Imagen 100.** Órdenes - Gasto Real Eliminar ME_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_35.png"
+  alt:"Órdenes - Gasto Real Eliminar ME"
+%}
 
 **Ingresar Materiales y Repuestos**
 
-![Procesar imagen](../../assets/images/cap09/chp09_img12.png)
-_**Imagen 101.** Órdenes - Gasto Real Materiales y Repuestos_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_36.png"
+  alt:"Órdenes - Gasto Real Materiales y Repuestos"
+%}
 
 A través de la ventana de Ingreso de Materiales y Repuestos se administra el consumo real de Materiales y Repuestos de la OT.
 
@@ -377,23 +522,43 @@ La segunda consiste en buscar el Material y Repuesto, a través del visor de Mat
 
 Una vez se diligencien estos campos se da clic en el botón <span class="mdi mdi-plus-circle icon bg-gray cl-blue "></span> para agregar, como se muestra a continuación:
 
-![Procesar imagen](../../assets/images/cap09/chp09_img13.png)
-_**Imagen 102.** Órdenes - Gasto Real Ingresar M y R_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_37.png"
+  alt:"Órdenes - Gasto Real Ingresar M y R"
+%}
 
 En el caso de actualizar la información de Materiales y Repuestos, se da clic en <a class="btn gray">Actualizar Material y Repuesto</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
 
-![Procesar imagen](../../assets/images/cap09/chp09_img14.png)
-_**Imagen 103.** Órdenes - Gasto Real Actualizar M Y R_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_38.png"
+  alt:"Órdenes - Gasto Real Actualizar M Y R"
+%}
 
 Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn bg-gray cl-black">ACEPTAR</a> como se muestra en la siguiente imagen:
 
-![Procesar imagen](../../assets/images/cap09/chp09_img15.png)
-_**Imagen 104.** Órdenes - Gasto Real Eliminar M y R_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_39.png"
+  alt:"Órdenes - Gasto Real Eliminar M y R"
+%}
 
 **Ingresar Otros Conceptos de Costo**
 
-![Procesar imagen](../../assets/images/cap09/chp09_img16.png)
-_**Imagen 105.** Órdenes - Gasto Real Otros Conceptos de Costo_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_40.png"
+  alt:"Órdenes - Gasto Real Otros Conceptos de Costo"
+%}
 
 A través de la ventana de Ingreso de Otros Conceptos se administra el Gasto Real de "Otros Conceptos" o Gastos indirectos de la OT.
 
@@ -417,29 +582,49 @@ A continuación se describen los campos que componen esta ventana; cuando se qui
 
 Una vez se diligencien estos campos se da clic en el ícono <span class="mdi mdi-plus-circle icon bg-gray cl-blue"></span> para agregar, como se muestra a continuación:
 
-![Procesar imagen](../../assets/images/cap09/chp09_img17.png)
-_**Imagen 106.** Órdenes - Gasto Real Ingresar Otros Conceptos de Costo_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_41.png"
+  alt:"Órdenes - Gasto Real Ingresar Otros Conceptos de Costo"
+%}
 
 En el caso de actualizar la información de Materiales y Repuestos, se da clic en <a class="btn gray">Actualizar Otro Concepto</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
 
-![Procesar imagen](../../assets/images/cap09/chp09_img18.png)
-_**Imagen 107.** Órdenes - Gasto Real Actualizar Otros Conceptos de Costo_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_42.png"
+  alt:"Órdenes - Gasto Real Actualizar Otros Conceptos de Costo"
+%}
 
 Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn bg-gray cl-black">ACEPTAR</a> como se muestra en la siguiente imagen:
 
-![Procesar imagen](../../assets/images/cap09/chp09_img19.png)
-_**Imagen 108.** Órdenes - Gasto Real Eliminar Otro Concepto de Costo_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_43.png"
+  alt:"Órdenes - Gasto Real Eliminar Otro Concepto de Costo"
+%}
 
 > **Nota:** Para finalizar, hacer clic en el botón <a class="btn gray">Ir a Matriz</a> para regresar a la ventana principal de Gasto Real y luego para acentar los cambios en el Gasto Real de la OT se debe dar clic en <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a>.
 
 ### Seguimiento y Cierre
 
-Para cerrar la OT, se debe contar con el permiso de Cerrar ortorgado por el usuario admistrador, este permiso sólo permite cerrar una OT individual y actualizar sólo la actual pestaña.
+Para cerrar la OT, se debe contar con el permiso de Cerrar otorgado por el usuario administrador, este permiso sólo permite cerrar una OT individual y actualizar sólo la actual pestaña.
 
 En el Seguimiento o Cierre se mantiene al día la información vital de ejecución de la OT, desde el momento en que se crea, hasta el momento en que se cierra para proceder a enviarla a Historia. Es aquí donde se registran las fechas, tiempos y demás básicos concernientes a la ejecución de la labor.
 
-![Procesar imagen](../../assets/images/cap09/chp09_img68.png)
-_**Imagen 109** Órdenes - Detalle Seguimiento y Cierre_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_44.png"
+  alt:"Órdenes - Detalle Seguimiento y Cierre"
+%}
 
 Para actualizar o hacer seguimiento de una OT, se deberán diligenciar los siguientes campos:
 
@@ -505,29 +690,49 @@ Valor del CO en la Generación: Este campo permanece bloqueado y muestra el valo
 
 En el Seguimiento o Cierre, además de los botones <a class="btn gray">Actualizar</a> seguido, se visualiza el botón <a class="btn gray">Bitácora</a>, el cual muestra en una nueva ventana el historial de cambios de la OT en: Estado, Prioridad y Responsable. Se muestra esta información solo si se han presentado modificaciones, de lo contrario los campos permanecen en blanco.
 
-![Procesar imagen](../../assets/images/cap09/chp09_img69.png)
-_**Imagen 110.** Órdenes - Detalle Bitácora en Seguimiento y Cierre_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_45.png"
+  alt:"Órdenes - Detalle Bitácora en Seguimiento y Cierre"
+%}
 
 > **Nota:** Nótese que para hacer efectivo el cierre o el cambio del estado de la OT se encuentra el botón <a class="btn gray">Actualizar</a> como se indica en las dos imágenes anteriores, este botón sólo cumple la función de actualizar únicamente la pestaña de seguimiento y cierre (tiempos y estado) ya que el botón de <a class="btn blue">ACTUALIZAR <span class="mdi mdi-pencil"></span></a> se inactiva una vez que se encuentre en esta pestaña, es por esto que si se desean guardar otros cambios se debe estar en las otras pestañas (ficha técnica, gasto real, multimedia).
 
 Una vez se actualice el sistema responde con un mensaje de advertencia, para continuar dar un clic en <a class="btn bg-gray cl-black">ACEPTAR</a>
 
-![Procesar imagen](../../assets/images/cap09/chp09_img70.png)
-_**Imagen 111.** Órdenes - Mensaje Alerta Seguimiento y Cierre_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_46.png"
+  alt:"Órdenes - Mensaje Alerta Seguimiento y Cierre"
+%}
 
 ### Evaluación de Servicio
 
 Se puede realizar la evaluación del servicio prestado por el personal de mantenimiento o de servicios en la OT seleccionada. La evaluación la debe realizar un usuario, previamente autorizado, quien fuera el receptor del servicio, una vez que se ha ya cerrado la OT, esta opción de evaluación se hace disponible, cuando se han definido las cinco preguntas de evaluación, en el módulo de "Administración", "Valores por Defecto", "Parámetros para Evaluación del Servicio. Es posible realizar la evaluación del servicio de una OT, cuando el solicitante se encuentra registrado como un usuario solicitante en el AM.
 
-![Procesar imagen](../../assets/images/cap09/chp09_img20.png)
-_**Imagen 112.** Órdenes - Evaluación de Servicio_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_47.png"
+  alt:"Órdenes - Evaluación de Servicio"
+%}
 
 > **Nota:** Una vez cerrada o cancelada la OT no es posible hacer cambios de estado, se debe de contar con el permiso del usuario administrador para efectuar cambios de estado a través de la transacción **Seguimiento o Cierre Masivo** que permite hacer cierre especial de Órdenes el cual se explica en la sección **Transacciones**.
 
 ### Multimedia
 
-![Procesar imagen](../../assets/images/cap09/chp09_img21.png)
-_**Imagen 113.** Órdenes - Multimedia_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_48.png"
+  alt:"Órdenes - Multimedia"
+%}
 
 En la gráfica anterior, Ventana Multimedia, se aprecian sus componentes y sus respectivos contenidos. A través de la ventana Multimedia se adjunta información adicional a la OT en cada una de sus carpetas asignadas. Esta opción permite asociar a la OT uno o varios documentos, con el objetivo de facilitar o guiar el trabajo a realizar o detallarlo minuciosamente. AM acepta documentos de extensiones .DOC, XLS, PDF, JPG es decir, de Microsoft Word o Microsoft Excel, Acrobat o Imágenes.
 
@@ -545,27 +750,52 @@ A continuación se describen las carpetas que componen esta ventana; cuando se q
 
 Para adicionar un documento, imagen o video, se debe dar un doble clic sobre la carpeta deseada, y luego seleccionar del ícono de nube <span class="mdi mdi-cloud-upload icon white"></span>, como se muestra a continuación:
 
-![Procesar imagen](../../assets/images/cap09/chp09_img22.png)
-_**Imagen 114.** Órdenes - Abrir Explorador Archivos_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_49.png"
+  alt:"Órdenes - Abrir Explorador Archivos"
+%}
 
 A continuación se abre el explorador de archivos, seguido de seleccionar el archivo dar un clic en <a class="btn bg-gray cl-black">Abrir</a>.
 
-![Procesar imagen](../../assets/images/cap09/chp09_img23.png)
-_**Imagen 115.** Órdenes - Seleccionar Archivos_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_50.png"
+  alt:"Órdenes - Seleccionar Archivos"
+%}
 
 De manera adicional u opcional se puede escribir un nombre en el siguiente campo para enfatizar de lo que trata el archivo:
 
-![Procesar imagen](../../assets/images/cap09/chp09_img24.png)
-_**Imagen 116.** Órdenes - Nombrar Archivo_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_51.png"
+  alt:"Órdenes - Nombrar Archivo"
+%}
 
 Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic sobre el nombre de una de las imágenes, se muestra la previsualización, como se muestra a continuación:
 
-![Procesar imagen](../../assets/images/cap09/chp09_img25.png)
-_**Imagen 117.** Órdenes - Previsualización de imagen_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_52.png"
+  alt:"Órdenes - Previsualización de imagen"
+%}
 
 Para desasociar un documento, o una imagen o un video, a la OT se da clic al icono de basura <span class="mdi mdi-delete"></span> que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro, finalmente confirmar con el botón <a class="btn bg-gray cl-black">ACEPTAR</a>
 
-![Procesar imagen](../../assets/images/cap09/chp09_img26.png)
-_**Imagen 118.** Órdenes - Desasociar un Archivo_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_53.png"
+  alt:"Órdenes - Desasociar un Archivo"
+%}
 
 Si se desea descargar un archivo adjunto a la OT, se debe dar clic en el ícono de nube con direccional hacia abajo <span class="mdi mdi-cloud-download icon white"></span> la nube con flecha hacia abajo que se encuentra al lado derecho del archivo que se quiere descargar.

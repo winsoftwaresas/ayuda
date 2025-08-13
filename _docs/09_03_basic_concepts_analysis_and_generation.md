@@ -14,8 +14,13 @@ Es posible sin embargo, por razones particulares, ejecutar este proceso a diario
 
 **AM** suministra una ayuda que indica cual fue el último período para el que se realizó una Generación Automática, ella se encuentra en la transacción de **“ANALIZAR/GENERAR”** en la parte inferior izquierda del rango a analizar.
 
-![Procesar imagen](../../assets/images/cap09/chp09_img01.png)
-_**Imagen 66.** Órdenes- Analizar/Generar_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_01.png"
+  alt:"Órdenes- Analizar/Generar"
+%}
 
 El periodo objeto de la Programación se define mediante las Fechas Desde y Hasta del Rango de fechas a analizar. Este proceso de generación se puede ejecutar con la anticipación que sea requerida.
 
@@ -25,7 +30,7 @@ Se recomienda que se programe al menos una semana, con una semana de anticipaci�
 
 Lograr un acuerdo con el programa de Producción o con el Responsable del Equipo para poder ejecutar la intervención planeada sin interferir con actividades productivas. Asegurar la disponibilidad, a tiempo, de Materiales, Repuestos u otros Conceptos de Costo requeridos en la ejecución de cada **OT** y programar el recurso humano necesario para ejecutarlas.
 
-### El CICLO DE VIDA DE UNA ÓRDEN DE TRABAJO
+### El CICLO DE VIDA DE UNA ORDEN DE TRABAJO
 
 El centro de actividad gerencial en **AM** es el ambiente de las Órdenes de Trabajo. Ya sea recién creada, o ejecutada hace varios años, **AM** dispone de herramientas que permiten la administración efectiva de cada una de ellas.
 
@@ -51,5 +56,4 @@ Como puede observarse, durante el ciclo de vida de la OT, ésta  pasa por  disti
 
 Al ser enviadas a Historia, las Órdenes de Trabajo allí conforman un centro de información y  consulta, para la generación de Índices,  del Balance de Gestión, de Estadísticas, Paretos y una gran variedad de reportes. De esta manera, **AM** brinda las bases para realizar una Gestión Integral del Mantenimiento de la organización.
 
-
->**Nota:** Para mayor información sobre esta transacción de analizar/generar Órdenes de Trabajo dirigirse a la sección _**Transacciones**_ de este capítulo.
+> **Nota:** Para mayor información sobre esta transacción de analizar/generar Órdenes de Trabajo dirigirse a la sección _**Transacciones**_ de este capítulo.

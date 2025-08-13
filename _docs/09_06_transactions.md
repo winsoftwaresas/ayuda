@@ -12,37 +12,67 @@ media: "../../assets/images/docs/"
 
 A esta opción se llega sobreponiendo el cursor sobre el módulo de OT donde se despliega un submenú de transacciones disponibles y luego se da clic en Analizar/Generar.
 
-![Procesar imagen](../../assets/images/cap09/chp09_img27.png)
-_**Imagen 119.** Órdenes - Analizar/Generar_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_54.png"
+  alt:"Órdenes - Analizar/Generar"
+%}
 
 Esta transacción abre una ventana que permite hacer el análisis a un conjunto de OT que debieran ser ejecutadas en un período seleccionado, para luego ser generadas como OT Programadas, como se visualiza en la siguiente imagen:
 
-![Procesar imagen](../../assets/images/cap09/chp09_img28.png)
-_**Imagen 120.** Órdenes - Ventana Detalle Analizar/Generar_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_55.png"
+  alt:"Órdenes - Ventana Detalle Analizar/Generar"
+%}
 
 El Procedimiento para efectuar un Análisis y posterior Generación de OTs es el siguiente:
 
 Digitar la fecha en el campo **Desde**, que corresponde al inicio del período a programar. AM sugiere la fecha del sistema en un rango de 7 dias. Luego, digitar la fecha en el campo **“Hasta”**, que corresponde al final del período a programar. **AM** sugiere la fecha de una semana después, pero es una fecha modificable a gusto. Normalmente el período a Analizar en este proceso, se trata de un período de corto plazo: tres días, una semana, una quincena o un mes. En la parte inferior, se encuentran los “Datos de la última generación” que indican la información del rango de fechas para el que se realizó un proceso de Generación de OT la última vez y el usuario que ejecutó el proceso. Una vez digitado el rango de fechas, dar clic en el botón <a class="btn white">ANALIZAR</a>, seguidamente, aparece un mensaje de alerta y dar clic en <a class="btn bg-gray cl-black">ACEPTAR</a>.
 
-![Procesar imagen](../../assets/images/cap09/chp09_img29.png)
-_**Imagen 121.** Órdenes - Comenzar Analizar/Generar_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_56.png"
+  alt:"Órdenes - Comenzar Analizar/Generar"
+%}
 
 **AM** recorre todos los programas de mantenimiento y establece cuáles deben generar OTs en el rango de fechas ya estipulado. Durante este proceso, puede visualizarse el estado de avance del análisis en la parte inferior izquierda. El sistema muestra un mensaje de las OTs analizadas del total de PM registrados en la base de datos. El proceso también se puede cancelar haciendo clic en el botón <a class="btn bg-gray cl-black">CANCELAR</a>. Entonces el sistema detiene el proceso sin ningún tipo de perjuicio, es decir, los datos no son afectados en absoluto.
 
-![Procesar imagen](../../assets/images/cap09/chp09_img30.png)
-_**Imagen 122.** Órdenes - Comenzar Analizar/Generar_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_57.png"
+  alt:"Órdenes - Comenzar Analizar/Generar"
+%}
 
 Una vez finalizado el proceso, se muestra el detalle del análisis y se muestra cuántas OT se detectaron y la opción de tres botones: <a class="btn gray">Ver Diagramas</a>, <a class="btn gray">Ver Reportes</a> y <a class="btn gray">Generar</a>. Los primeros dos botones son de gran utilidad para estudiar el período analizado antes de generar OT, como se muestra en la siguiente imagen:
 
-![Procesar imagen](../../assets/images/cap09/chp09_img31.png)
-***Imagen 123.** Órdenes - Finalización Proceso Analizar*
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_58.png"
+  alt:"Órdenes - Finalización Proceso Analizar"
+%}
 
 **Ver Diagrama**
 
 Para visualizar el diagrama de las OTs para ese periodo analizado, se da clic en el botón Ver Diagrama. A continuación, se abre una nueva ventana donde se visualiza a través de un Diagrama de Gantt, la información del Activo con su respectiva Tarea-Descripción y Criterio; a la derecha se muestra por colores (ver significado en el ícono parte superior derecha) el cronograma con las fechas proyectadas de las actividades, como se muestra en la siguiente imagen:
 
-![Procesar imagen](../../assets/images/cap09/chp09_img32.png)
-_**Imagen 124.** Órdenes - Giagrama de Gantt_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_59.png"
+  alt:"Órdenes - Giagrama de Gantt"
+%}
 
 Es importante aclarar, que hasta este punto, no ha sido generada ninguna OT. Solamente se ha detectado un grupo potencial de ellas que deberían ser ejecutadas de acuerdo, a los criterios de programación, si el análisis del planeador de mantenimiento lo decide.
 
@@ -50,8 +80,13 @@ Es importante aclarar, que hasta este punto, no ha sido generada ninguna OT. Sol
 
 A continuación, se procede a verificar si para las OT detectadas en el proceso de análisis, existen todas las garantías de ejecución, en el rango de fechas programado. Para esto, se procede a imprimir varios reportes que para el caso se presentan, tal y como se visualiza en la siguiente gráfica:
 
-![Procesar imagen](../../assets/images/cap09/chp09_img33.png)
-_**Imagen 125.** Órdenes - Reportes_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_60.png"
+  alt:"Órdenes - Reportes"
+%}
 
 **Los reportes disponibles en el análisis para efectuar esta revisión, son:**
 
@@ -77,18 +112,33 @@ Una vez se generan las OT, los PM que las generaron, se actualizan automáticame
 
 A esta opción se llega sobreponiendo el cursor sobre el módulo de OT donde se despliega un submenú de transacciones disponibles y luego se da clic en “Modificar Masivamente”.
 
-![Procesar imagen](../../assets/images/cap09/chp09_img34.png)
-_**Imagen 126.** Órdenes - ir a Modificación Masiva_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_61.png"
+  alt:"Órdenes - ir a Modificación Masiva"
+%}
 
 Esta transacción permite cambiar masivamente el Centro de Costos, Ubicación Física, Responsable, Centro Responsable, Causa de Falla, entre otras, de las OT previamente seleccionadas o de las que se encuentran en el Visor. Para ello se debe dar clic al link en azul <a class="btn white">Modificar Masivamente</a> ubicado al lado superior izquierdo de la ventana.
 
-![Procesar imagen](../../assets/images/cap09/chp09_img35.png)
-_**Imagen 127.** Órdenes - Visor Modificación Masiva_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_62.png"
+  alt:"Órdenes - Visor Modificación Masiva"
+%}
 
 Seguidamente se muestran las opciones de modificación masiva disponibles.
 
-![Procesar imagen](../../assets/images/cap09/chp09_img36.png)
-_**Imagen 128.** Órdenes - Visor Modificación Masiva_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_63.png"
+  alt:"Órdenes - Visor Modificación Masiva"
+%}
 
 Antes de efectuar cualquier modificación, en la parte inferior del recuadro general se muestran las siguientes dos opciones a tener en cuenta:
 
@@ -100,73 +150,143 @@ Las opciones de Modificación Masiva son las siguientes:
 
 **Modificar Centro de Costo:** Se modifica masivamente el Centro de Costo a las OT previamente seleccionadas.
 
-![Procesar imagen](../../assets/images/cap09/chp09_img37.png)
-_**Imagen 129.** Órdenes - MM Centro de Costo_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_64.png"
+  alt:"Órdenes - MM Centro de Costo"
+%}
 
 **Modificar Centro Responsable:** Se modifica masivamente el Centro Responsable a las OT previamente seleccionadas.
 
-![Procesar imagen](../../assets/images/cap09/chp09_img38.png)
-_**Imagen 130.** Órdenes - MM Centro Responsable_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_65.png"
+  alt:"Órdenes - MM Centro Responsable"
+%}
 
 **Modificar Comentarios:** Se modifican masivamente los Comentarios, de las OT que están previamente seleccionadas en el visor.
 
-![Procesar imagen](../../assets/images/cap09/chp09_img39.png)
-_**Imagen 131.** Órdenes - MM Comentarios_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_66.png"
+  alt:"Órdenes - MM Comentarios"
+%}
 
 **Modificar Contrato:** Se modifica masivamente el Contrato previamente definido a las OT que están previamente seleccionados en el visor.
 
-![Procesar imagen](../../assets/images/cap09/chp09_img40.png)
-_**Imagen 132.** Órdenes - MM Contrato_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_67.png"
+  alt:"Órdenes - MM Contrato"
+%}
 
 **Modificar Estado:** Se modifica masivamente el Estado de la OT que están previamente seleccionadas en el visor.
 
-![Procesar imagen](../../assets/images/cap09/chp09_img41.png)
-_**Imagen 133.** Órdenes - MM Estado_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_68.png"
+  alt:"Órdenes - MM Estado"
+%}
 
 **Modificar F/H Programada:** Se modifica Masivamente la Fecha y Hora Programada a las OT previamente seleccionadas en el visor.
 
-![Procesar imagen](../../assets/images/cap09/chp09_img42.png)
-_**Imagen 134.** Órdenes - MM F/H Programada_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_69.png"
+  alt:"Órdenes - MM F/H Programada"
+%}
 
 **Modificar Prioridad:** Se modifica Masivamente la Prioridad a las OT previamente seleccionadas en el visor.
 
-![Procesar imagen](../../assets/images/cap09/chp09_img43.png)
-_**Imagen 135.** Órdenes - MM Prioridad_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_70.png"
+  alt:"Órdenes - MM Prioridad"
+%}
 
 **Modificar Responsable:** Se modifica masivamente el Responsable, de las OT que están previamente seleccionadas en el visor.
 
-![Procesar imagen](../../assets/images/cap09/chp09_img44.png)
-_**Imagen 136.** Órdenes - MM Prioridad_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_71.png"
+  alt:"Órdenes - MM Prioridad"
+%}
 
 **Modificar Ubicación Física:** Se modifica masivamente la Ubicación Física a las OT previamente seleccionadas en el visor.
 
-![Procesar imagen](../../assets/images/cap09/chp09_img45.png)
-_**Imagen 137.** Órdenes - MM Prioridad_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_72.png"
+  alt:"Órdenes - MM Prioridad"
+%}
 
 **Modificar Tiempo Estimado:** Se modifica masivamente el tiempo estimado a las OT previamente seleccionadas en el visor. El tiempo puede ser en Días, Horas o Minutos.
 
-![Procesar imagen](../../assets/images/cap09/chp09_img46.png)
-_**Imagen 138.** Órdenes - MM Tiempo Estimado_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_73.png"
+  alt:"Órdenes - MM Tiempo Estimado"
+%}
 
 **Modificar TA:** Se modifica masivamente el TA a las OT previamente seleccionadas. Para que se habilite este campo, se debe elegir primero el TM.
 
-![Procesar imagen](../../assets/images/cap09/chp09_img47.png)
-_**Imagen 139.** Órdenes - MM TA_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_74.png"
+  alt:"Órdenes - MM TA"
+%}
 
 **Modificar Tipo de Mtto:** Se modifica masivamente el TM a las OT previamente seleccionadas en el visor, al seleccionar esta opción también se debe elegir el TA.
 
-![Procesar imagen](../../assets/images/cap09/chp09_img48.png)
-_**Imagen 140.** Órdenes - MM TM_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_75.png"
+  alt:"Órdenes - MM TM"
+%}
 
 **Evaluar el Servicio:** Se modifica masivamente la Evaluación de Servicio a las Órdenes de Trabajo previamente seleccionadas en el visor.
 
-![Procesar imagen](../../assets/images/cap09/chp09_img49.png)
-_**Imagen 141.** Órdenes - MM TM_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_76.png"
+  alt:"Órdenes - MM TM"
+%}
 
 **Adjuntar Documentos:** Se adjuntan masivamente documentos a las OT previamente seleccionadas en el visor.
 
-![Procesar imagen](../../assets/images/cap09/chp09_img50.png)
-_**Imagen 142.** Órdenes - MM TM_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_77.png"
+  alt:"Órdenes - MM TM"
+%}
 
 > **Nota:** Es de gran utilidad efectuar Modificaciones Masivas para subgrupos de OT para mejorar el rendimiento del sistema. Para continuar con la Modificación Masiva, se debe confirmar al sistema dando un clic en el botón superior <a class="btn blue">MODIFICAR <span class="mdi mdi-pencil"></span></a> y se debe dar en el botón <a class="btn bg-gray cl-black">ACEPTAR</a> dos veces.
 
@@ -176,20 +296,35 @@ Para acceder a esta transacción se requiere tener el permiso de **Cierre especi
 
 A esta opción se llega sobreponiendo el cursor sobre el módulo de OT donde se despliega un submenú de transacciones disponibles y luego se da clic en “Seguimiento o Cierre Masivo”.
 
-![Procesar imagen](../../assets/images/cap09/chp09_img51.png)
-_**Imagen 143.** Órdenes - Ir a Seguimiento y Cierre Masivo_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_78.png"
+  alt:"Órdenes - Ir a Seguimiento y Cierre Masivo"
+%}
 
 Para ingresar al Detalle del Seguimiento y Cierre de un registro, se debe dar clic en la OT del Visor de Seguimiento y Cierre Masivo:
 
-![Procesar imagen](../../assets/images/cap09/chp09_img52.png)
-_**Imagen 144.** Órdenes - Visor Seguimiento y Cierre Masivo_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_79.png"
+  alt:"Órdenes - Visor Seguimiento y Cierre Masivo"
+%}
 
 En el Seguimiento o Cierre de Órdenes se mantiene al día la información vital de ejecución de la OT, desde el momento en que se crea, hasta el momento en que se cierra para proceder a enviarla a Historia. Es aquí donde se registran las fechas, tiempos y demás básicos concernientes a la ejecución de la labor.
 
-![Procesar imagen](../../assets/images/cap09/chp09_img53.png)
-_**Imagen 145.** Órdenes - Detalle Seguimiento y Cierre Masivo_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_80.png"
+  alt:"Órdenes - Detalle Seguimiento y Cierre Masivo"
+%}
 
-En la gráfica anterior, Ventana de Seguimiento o Cierre de Órdenes de Traabjo, se aprecian sus componentes y sus respectivos contenidos.
+En la gráfica anterior, Ventana de Seguimiento o Cierre de Órdenes de Trabajo, se aprecian sus componentes y sus respectivos contenidos.
 
 > **Nota:** Para efectuar el cierre a un grupo de OT se deberá hacer uso de los subgrupos antes de ingresar a esta transacción.
 
@@ -221,7 +356,6 @@ Por ejemplo, si una OT correctiva tiene como fecha de Información de Paro XXXX/
 **Tiempo Total de Solución:** Este campo es calculado por el sistema y no permite corrección manual, equivale a la diferencia entre la Fecha de Paro y la fecha de Fin de Trabajos para las Órdenes Correctivas y para las OT preventivas o con otro tipo de mantenimiento es la diferencia entre la Fecha De Atención y la Fecha Fin de Trabajos.
 
 **Estado de la OT:** Una OT puede tener uno de los siguientes Estados:
-
 
 - E: En Ejecución
 - K: Cancelada o No ejecutada
@@ -267,30 +401,55 @@ Valor del CO en la Generación: Este campo permanece bloqueado y muestra el valo
 
 En el Seguimiento o Cierre, además de los botones <a class="btn blue">ACTUALIZAR <span class="mdi mdi-pencil"></span></a> y <a class="btn blue">CANCELAR <span class="mdi mdi-block-helper"></span></a>, se visualiza el botón <a class="btn blue">BITÁCORA <span class="mdi mdi-view-week"></span></a>, éste muestra en nueva ventana el historial de cambios de la OT en: Estado, Prioridad y Responsable. Se muestra esta información solo si se han presentado modificaciones, de lo contrario los campos permanecen en blanco.
 
-![Procesar imagen](../../assets/images/cap09/chp09_img54.png)
-**Imagen 146.** Órdenes - Detalle Bitácora Seguimiento y Cierre Masivo_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_81.png"
+  alt:"Órdenes - Detalle Bitácora Seguimiento y Cierre Masivo"
+%}
 
 Para continuar con la actualización de una OT o un subgrupo de OT se debe dar clic en el botón de la parte superior <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a>. El sistema muestra un mensaje alerta, para continuar dar clic en <a class="btn bg-gray cl-black">ACEPTAR</a>.
 
-![Procesar imagen](../../assets/images/cap09/chp09_img71.png)
-_**Imagen 147.** Órdenes - Mensaje Alerta Seguimiento y Cierre Masivo_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_82.png"
+  alt:"Órdenes - Mensaje Alerta Seguimiento y Cierre Masivo"
+%}
 
 Una vez se complete el cierre masivo, el sistema muestra la Ventana Visor con los respectivos cambios:
 
-![Procesar imagen](../../assets/images/cap09/chp09_img72.png)
-_**Imagen 148.** Órdenes - Actualización Seguimiento y Cierre Masivo_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_83.png"
+  alt:"Órdenes - Actualización Seguimiento y Cierre Masivo"
+%}
 
 ## Enviar a Historia
 
 A esta opción se llega sobreponiendo el cursor sobre el módulo de OT donde se despliega un submenú de transacciones disponibles y luego se da clic en “Enviar a Historia”.
 
-![Procesar imagen](../../assets/images/cap09/chp09_img55.png)
-_**Imagen 149.** Órdenes - Ir a Enviar a Historia_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_84.png"
+  alt:"Órdenes - Ir a Enviar a Historia"
+%}
 
 El objetivo de esta transacción es desplazar hacia el módulo de HM las OT que se hayan preseleccionado por subgrupo o de manera individual con **Estado:** Canceladas (K) o Cerradas (CE).
 
-![Procesar imagen](../../assets/images/cap09/chp09_img56.png)
-_**Imagen 150.** Órdenes - Visor Enviar a Historia_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_85.png"
+  alt:"Órdenes - Visor Enviar a Historia"
+%}
 
 En la gráfica anterior, Ventana de Seguimiento o Cierre, se aprecian sus componentes y sus respectivos contenidos.
 
@@ -303,41 +462,76 @@ Todas las OT del visor (cerradas y/o canceladas): Esta opción se realiza el env
 
 Para enviar a Historia, se selecciona una de las opciones y se hace clic en el botón <a class="btn gray">Enviar a Historia</a>, entonces aparece la siguiente ventana y se da clic en <a class="btn bg-gray cl-black">ACEPTAR</a>.
 
-![Procesar imagen](../../assets/images/cap09/chp09_img57.png)
-_**Imagen 151.** Órdenes - Enviar a Historia_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_86.png"
+  alt:"Órdenes - Enviar a Historia"
+%}
 
 Una vez que se acepte este proceso, las OT que hayan sido enviadas a Historia, no vuelven a ser OT activas, es decir, no pueden devolverse al módulo de OT.
 Una vez finaliza el proceso, aparece el siguiente mensaje:
 
-![Procesar imagen](../../assets/images/cap09/chp09_img58.png)
-_**Imagen 152.** Órdenes - Mensaje Envío OT a HM_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_87.png"
+  alt:"Órdenes - Mensaje Envío OT a HM"
+%}
 
 En caso de inexistencia de registros para ser enviados, aparece el siguiente mensaje:
 
-![Procesar imagen](../../assets/images/cap09/chp09_img59.png)
-_**Imagen 153.** Órdenes - Mensaje de Error Envío OT a HM_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_88.png"
+  alt:"Órdenes - Mensaje de Error Envío OT a HM"
+%}
 
 ## Dashboard de OT
 
 A esta opción se llega sobreponiendo el cursor sobre el módulo de OT donde se despliega un submenú de transacciones disponibles y luego se da clic en “DashBoard de OT”.
 
-![Procesar imagen](../../assets/images/cap09/chp09_img60.png)
-_**Imagen 154.** Órdenes - Ir a Dashboard de OT_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_89.png"
+  alt:"Órdenes - Ir a Dashboard de OT"
+%}
 
 Este comando permite visualizar en tiempo real el comportamiento de los registros de OT con el fin de usarse como una herramienta para análisis y toma de decisiones rápidas.
 
-![Procesar imagen](../../assets/images/cap09/chp09_img61.png)
-_**Imagen 155.** Órdenes - Dashboard de OT_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_90.png"
+  alt:"Órdenes - Dashboard de OT"
+%}
 
 La información del rectángulo de color naranja ubicado en la parte superior derecha como guía a modo de fracción (N/M), indica el número de registros del subgrupo en el visor(N) sobre el número total de registros de OT existentes en la base de datos (M). Si no hay preselección, los dos números en sus totales son los mismos.
 También un indicador de la existencia de un subgrupo, es el ícono de triángulo invertido con una pelota de color rojo que se ubica al lado derecho de dicha fracción.
 
-![Procesar imagen](../../assets/images/cap09/chp09_img62.png)
-_**Imagen 156.** Órdenes - Subgrupos Dashboard_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_91.png"
+  alt:"Órdenes - Subgrupos Dashboard"
+%}
 
 Para personalizar la vista de los gráficos o tener una información específica se recomienda hacer subgrupos a través del ícono de triángulo invertido. Asimismo los DashBoards permiten ocultar información con solo dar un clic sobre sus rectángulos de colores como se muestra en la siguiente imagen:
 
-![Procesar imagen](../../assets/images/cap09/chp09_img63.png)
-_**Imagen 157.** Órdenes - Subgrupos Dashboard_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_92.png"
+  alt:"Órdenes - Subgrupos Dashboard"
+%}
 
 Sí se desea restablecer la información, se debe dar clic al ícono <span class="mdi mdi-autorenew"></span>. En cambio, si se desea exportar el gráfico en un formato de imagen, es posible dando clic al ícono <span class="mdi mdi-download"></span>.

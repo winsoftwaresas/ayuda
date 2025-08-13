@@ -48,7 +48,7 @@ Una vez se definan para cada **OT** estos datos, es posible efectuar consultas y
 
 ## Órdenes de Trabajo Manuales vs Órdenes de Trabajo Programadas
 
-El módulo de Órdenes de Trabajo administra tanto las Órdenes generadas en forma **manual** como las **automáticas** que provenien de Programas de Mantenimiento.
+El módulo de Órdenes de Trabajo administra tanto las Órdenes generadas en forma **manual** como las **automáticas** que provienen de Programas de Mantenimiento.
 
 **Las Órdenes de Trabajo manuales se generan a medida que se requiere:** en el momento de presentarse una falla sobre un Activo/Equipo o cuando se debe realizar un trabajo que no es rutinario ni programado, por decisión técnica, operativa o administrativa. Una **OT** manual puede ser Correctiva, Preventiva Manual, Predictiva, de Calibración, de Lubricación, u Otro Tipo de Mantenimiento.
 
