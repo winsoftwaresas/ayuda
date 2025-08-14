@@ -14,8 +14,13 @@ media: "../../assets/images/docs/"
 Esta opción permite exportar los ítems o campos de la ficha técnica de PM, bien sea, para exportar todas los PM de la base de datos o las provenientes de un subgrupo a un archivo de Excel que se descarga automáticamente en la estación cliente.
 Para efectuar este proceso, se da clic en Exportar <span class="mdi mdi-download"></span> mostrando las siguientes opciones de exportación:
 
-![Procesar imagen](../../assets/images/cap06/chp06_img71.png)
-_**Imagen 70.** Programas - Exportar_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_71.png"
+  alt:"Programas - Exportar"
+%}
 
 En la gráfica anterior, se aprecian sus componentes y sus respectivos contenidos:
 
@@ -24,13 +29,17 @@ En la gráfica anterior, se aprecian sus componentes y sus respectivos contenido
 **Exportar Todos los Registros:** Esta opción exporta todas las OT, SS y PA existentes en la base de datos, sin importar cualquier subgrupo activo.
 Luego de escoger una de las opciones anteriores, en la parte inferior aparece seleccionado por defecto el recuadro <a class="btn white"><span class="mdi mdi-checkbox-blank-outline"></span> exportar todos los campos</a> pero si se prefiere uno o varios, se debe des-seleccionar y a continuación hacer clic en los recuadros a exportar, una vez elegida la información, se da clic en el botón inferior <a class="btn white">exportar</a> el cual genera un archivo de Excel que se descarga automáticamente. El objetivo de esta exportación es llevar toda la información de los PM a un archivo plano, para luego ser analizadas.
 
-
 ## Reportes
 
 Este comando permite visualizar los reportes relacionados a la programación. Existen los siguientes tipos de reportes básicos disponibles:
 
-![Procesar imagen](../../assets/images/cap06/chp06_img72.png)
-_**Imagen 71.** Programas - Reportes_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_72.png"
+  alt:"Programas - Reportes"
+%}
 
 Los anteriores reportes pueden ser seleccionados para una o varios registros a través de las siguientes opciones:
 

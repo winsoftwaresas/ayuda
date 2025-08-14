@@ -1,6 +1,6 @@
 ---
 title: Introducción
-subtitle: En este capitulo se da respuesta a todas las preguntas generadas de la seccion Historia de Mantenimiento.
+subtitle: En este capitulo se da respuesta a todas las preguntas generadas de la sección Historia de Mantenimiento.
 tags: [setup]
 author: win
 order: '10_01'

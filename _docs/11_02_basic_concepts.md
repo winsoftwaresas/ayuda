@@ -66,13 +66,12 @@ La FUG y la FIP son iguales la mayor parte del tiempo. Los únicos dos casos en 
 
 >**Nota:** En el campo Última Generación de OT en un PM es un campo sólo informativo, pues está protegido y es actualizado automático, después de la primera generación automática de OT.
 
-
 ## Criterios de Programación
 
 A través de ellos se establece cuándo ejecutar las labores de Mantenimiento. Se hace énfasis en éstos, pues su dominio y administración son la herramienta clave para distribuir la carga de  la actividad de Mantenimiento programado, permitiendo alcanzar una distribución factible de los recursos de Mantenimiento en un período,  que minimiza el tiempo improductivo de los Activos y por ende de los paros programados de Producción.
 
 **AM** ofrece tres Criterios de Programación: por Frecuencia, por Semanas del Año y por Contador. Sobre cada uno de ellos se presenta un breve estudio a continuación.
- 
+
 ## Frecuencia
 
 Define la periodicidad de tiempo con la cual un PM debe generar una OTs ; las frecuencias son: Días, Semanas, Meses. A cada Frecuencia se le especifica un Período que la complementa. Por ejemplo: Un PM con frecuencia Meses y período 1, significa que el PM genera una OT mensualmente; de igual forma, si la frecuencia definida es días y el período especificado es 10, significa que el PM genera una OT cada 10 días.
@@ -95,7 +94,7 @@ Para poder usar este criterio en un PM, es necesario que el Activo a programar, 
 
 Hay dos modos de definir el Criterio de Programación por Contador, el primero es por **Incremento**, el segundo es por **Límite.**
 
-En el primer caso, por **Incremento**, el PM genera una Orden de Trabajo múltiples veces, cada vez que el contador del Activo supere, en el valor de la **Recurrencia** al **“Valor del contador al inicio del período”** definido en el PM. Para establecer cuando generar una OT, se compara el valor actual del contador (Ficha Ténica del Activo) contra el valor contenido en el campo **“Última Generación de OT”**. Esta diferencia se compara contra el valor en el campo **“Recurrencia”** y si es mayor se genera una OT.
+En el primer caso, por **Incremento**, el PM genera una Orden de Trabajo múltiples veces, cada vez que el contador del Activo supere, en el valor de la **Recurrencia** al **“Valor del contador al inicio del período”** definido en el PM. Para establecer cuando generar una OT, se compara el valor actual del contador (Ficha Técnica del Activo) contra el valor contenido en el campo **“Última Generación de OT”**. Esta diferencia se compara contra el valor en el campo **“Recurrencia”** y si es mayor se genera una OT.
 
 En el segundo caso, por **Límite**, el PM solo genera una Orden de Trabajo cuando el valor actual del contador del Activo llegue al valor contenido en el PM, indicado en el campo Recurrencia (Valor límite, en este caso).
 

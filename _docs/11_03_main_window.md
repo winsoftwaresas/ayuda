@@ -8,8 +8,14 @@ order: '11_03'
 date: 2022-05-27T15:27:44.518Z
 media: "../../assets/images/docs/"
 ---
-![Procesar imagen](../../assets/images/cap06/chp06_img01.png)
-_**Imagen 1.** Programas de Mantenimiento_
+
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_01.png"
+  alt:"Programas de Mantenimiento"
+%}
 
 A esta ventana se accede desde un clic en el menú principal en el módulo <a class="btn blue">Programas</a> de **AM**. 
 
@@ -21,8 +27,13 @@ Desde esta misma ventana se hacen los procesos de Proyección de los PMs, para r
 
 Al ingresar al módulo lo primero que se visualiza es el **Visor de Programas**:
 
-![Procesar imagen](../../assets/images/cap06/chp06_img02.png)
-_**Imagen 2.** Programas de Mantenimiento - Visor_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_02.png"
+  alt:"Programas de Mantenimiento - Visor"
+%}
 
 Desde esta ventana es posible observar los Programas de Mantenimiento existentes. Se listan todos o un Subgrupo de ellos. El conjunto de los Programas de Mantenimiento se visualizan a través de páginas. La cantidad de registros es configurable desde la opción <a class="btn blue">Administración</a> en **Valores por Defecto** de la compañía por medio de un Usuario con permisos Administrativos. 
 
@@ -34,8 +45,13 @@ Para crear un programa se debe en visor dar un clic en el botón <a class="btn c
 
 ## Ventana Detalle de Programas
 
-![Procesar imagen](../../assets/images/cap06/chp06_img03.png)
-_**Imagen 3.** Programas de Mantenimiento - Ventana Detalle_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_03.png"
+  alt:"Programas de Mantenimiento - Ventana Detalle"
+%}
 
 En la gráfica anterior, Ventana Detalle de PM, se aprecian sus  componentes y  sus respectivos contenidos de un registro existente; aquí se encuentra la información relevante al PM seleccionado en el Visor y se administran los datos genéricos del PM. Es desde esta ventana se crean, se actualizan y administran los PM.
 
@@ -46,9 +62,13 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 La segunda opción de búsqueda es dando clic al Subgrupo <span class="mdi mdi-filter-variant icon white"></span>, luego éste abre una nueva ventana de Activos. Allí también se pueden hacer subgrupos o filtrar información por diferentes criterios por medio del subgrupo ubicado en la parte superior derecha: <span class="mdi mdi-filter-variant"></span>, luego se debe dar doble clic sobre el registro o en el botón ubicado en la parte superior continuar con <a class="btn white">ACEPTAR</a>. Se muestra una imagen a continuación de cómo seleccionar el Activo:
 
-
-![Procesar imagen](../../assets/images/cap06/chp06_img03_01.png)
-_**Imagen 4.** Programas de Mantenimiento - Ventana Activos_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_04.png"
+  alt:"Programas de Mantenimiento - Ventana Activos"
+%}
 
 Una vez que el Activo se ha identificado, aparece al lado derecho, la descripción del registro.
 
@@ -113,8 +133,13 @@ Cuando se genera la OT, desde el PM, sirven para especificar referencias importa
 
 ## Indicadores
 
-![Procesar imagen](../../assets/images/cap06/chp06_img04.png)
-_**Imagen 5.** Programas de Mantenimiento - Indicadores_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_05.png"
+  alt:"Programas de Mantenimiento - Indicadores"
+%}
 
 Es posible visualizar de manera inmediata, los Programas de mantenimiento activos, inactivos y con Multimedia, directamente desde la ventana visor, a través de la columna **“Indicadores”** que muestra una pelota de color que indica su estado y si tiene asociado Multimedia. El significado del color de cada pelota, se puede ver en el recuadro de Indicadores a través del ícono <span class="mdi mdi-message-alert"></span>, ubicado en la parte superior derecha de la ventana visor.
 
@@ -128,8 +153,13 @@ El significado de los colores que se listan son los siguientes:
 
 Se usa para seleccionar o filtrar grupos de  Programas de Mantenimiento que cumplen con un conjunto  de filtros o criterios. El objetivo para hacerlo es realizar un estudio posterior sobre los registros seleccionados en el subgrupo. Para ingresar a esta opción se debe dar clic al icono  <span class="mdi mdi-filter-variant"></span> ubicado en la parte superior derecha de la ventana Visor de Programas de Mantenimiento, como se muestra en al siguiente imagen:
 
-![Procesar imagen](../../assets/images/cap06/chp06_img05.png)
-_**Imagen 6.** Programas de Mantenimiento - Ir al Subgrupo_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_06.png"
+  alt:"Programas de Mantenimiento - Ir al Subgrupo"
+%}
 
 Luego de ingresar se lista el conjunto de criterios, cada uno de ellos trabaja en conjunto con los demás, con el operador intersección.
 
@@ -139,8 +169,13 @@ Cada criterio aparece inicializado en un valor global que permite mostrar todos 
 
 El programa permite entonces hacer selección de un grupo de Programas de acuerdo con los criterios seleccionados en la siguiente ventana.
 
-![Procesar imagen](../../assets/images/cap06/chp06_img06.png)
-_**Imagen 7.** Programas de Mantenimiento - Subgrupo_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_07.png"
+  alt:"Programas de Mantenimiento - Subgrupo"
+%}
 
 Los campos de datos que constituyen criterio de selección haciendo parte de la Ventana Subgrupo de PMs son los siguientes.
  
@@ -228,15 +263,25 @@ Las Vistas Parciales o Pestañas permiten complementar la información que se de
 
 Se ingresa mediante un clic en la pestaña **“Presupuesto”** en la ventana detalle de Programas  de Mantenimiento.
 
-![Procesar imagen](../../assets/images/cap06/chp06_img07.png)
-_**Imagen 7.** Programas de Mantenimiento - Presupuesto_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_08.png"
+  alt:"Programas de Mantenimiento - Presupuesto"
+%}
 
 Esta tabla resume los totales de los costos presupuestados de Mano de Obra Interna, Mano de Obra Externa, Materiales y Repuestos y Otros Conceptos de Costo que serán traslados a las OT una vez generadas. 
 
 **Ingresar Mano de Obra Interna**
 
-![Procesar imagen](../../assets/images/cap06/chp06_img08.png)
-_**Imagen 8.** Programas de Mantenimiento - MO_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_09.png"
+  alt:"Programas de Mantenimiento - MO"
+%}
 
 En la gráfica anterior, Ventana de Ingreso de Mano de Obra Interna, se aprecian sus componentes y sus respectivos contenidos.
 
@@ -266,24 +311,43 @@ Para ingresar MO se debe dar clic en el botón <a class="btn gray">Adicionar Man
  
 Diligenciados los campos anteriores, se debe dar clic en el icono <span class="mdi mdi-plus-circle icon white"></span> ubicado en la parte inferior del formulario, seguidamente, se observa que la información creada se muestra en la tabla de mano de Obra Interna, ubicada al lado izquierdo. 
 
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img09.png)
-_**Imagen 9.** Programas de Mantenimiento - Adicionar MO_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_10.png"
+  alt:"Programas de Mantenimiento - Adicionar MO"
+%}
 
 En el caso de actualizar la información de Mano de Obra Externa de algún registro existente, se debe seleccionar el registro y luego dar un clic sobre el botón <a class="btn gray">Actualizar Mano de Obra Externa</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img10.png)
-_**Imagen 10.** Programas - Actualizar MO_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_11.png"
+  alt:"Programas - Actualizar MO"
+%}
 
 Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">ACEPTAR</a> como se muestra en la siguiente imagen:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img11.png)
-_**Imagen 11.** Programas - Eliminar MO_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_12.png"
+  alt:"Programas - Eliminar MO"
+%}
 
 **Ingresar Mano de Obra Externa**
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img12.png)
-_**Imagen 12.** Programas de Mantenimiento - ME_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_13.png"
+  alt:"Programas de Mantenimiento - ME"
+%}
 
 En la gráfica anterior, Ventana de Ingreso de Mano de Obra Externa, se aprecian sus componentes y sus respectivos contenidos.
 
@@ -308,23 +372,43 @@ Diligenciados los campos anteriores, se debe dar clic en el icono <span class="m
 
 Se observa que la información creada se muestra en la tabla de mano de Obra Externa, ubicada al lado izquierdo. 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img13.png)
-_**Imagen 13.** Programas de Mantenimiento - Ingresar ME_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_14.png"
+  alt:"Programas de Mantenimiento - Ingresar ME"
+%}
 
 En el caso de necesitar actualizar algún registro existente, se debe seleccionar el registro y luego dar un clic sobre el botón <a class="btn gray">Actualizar Mano de Obra Externa</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img14.png)
-_**Imagen 14.** Programas - Actualizar ME_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_15.png"
+  alt:"Programas - Actualizar ME"
+%}
 
 Para eliminar se da clic al siguiente icono <span class="mdi mdi-delete"></span>. Luego, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn">ACEPTAR</a> como se muestra en la siguiente imagen:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img15.png)
-_**Imagen 15.** Programas - Eliminar ME_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_16.png"
+  alt:"Programas - Eliminar ME"
+%}
 
 **Ingresar Materiariales y Repuestos**
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img16.png)
-_**Imagen 16.** Programas - Eliminar ME_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_17.png"
+  alt:"Programas - Eliminar ME"
+%}
 
 En la gráfica anterior, Ventana de Ingreso de Materiales y Repuestos, se aprecian  sus componentes y sus respectivos contenidos. En esta opción se administra el Presupuesto de Materiales y Repuestos del PM.
 
@@ -352,55 +436,95 @@ Para ingresar Materiales y Repuestos se debe dar clic en el botón <a class="btn
 
 Para agregar dar clic sobre el icono <span class="mdi mdi-plus-circle icon bg-gray cl-blue "></span> ubicado en la parte inferior del formulario, seguidamente, se observa que la información creada se muestra en la tabla de Materiales y Repuestos, ubicada al lado izquierdo, como se muestra a continuación:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img17.png)
-_**Imagen 17.** Programas - Adicionar M y R_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_18.png"
+  alt:"Programas - Adicionar M y R"
+%}
 
 En el caso de actualizar la información de Materiales y Repuestos de algún registro existente, se debe seleccionar el registro y luego dar un clic sobre el botón <a class="btn gray">Actualizar Mano de Obra Externa</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img18.png)
-_**Imagen 18.** Programas - Actualizar M y R_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_19.png"
+  alt:"Programas - Actualizar M y R"
+%}
 
 Por otro lado, para eliminar un registro de la tabla, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-delete"></span>, sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn bg-gray cl-black">ACEPTAR</a> como se muestra en la siguiente imagen:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img19.png)
-_**Imagen 19.** Programas - Eliminar M y R_
-
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_20.png"
+  alt:"Programas - Eliminar M y R"
+%}
 
 **Ingresar Otros Conceptos de Costo**
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img20.png)
-_**Imagen 20.** Programas - OC_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_21.png"
+  alt:"Programas - OC"
+%}
 
 En la gráfica anterior, Ventana de Ingreso de Mano de Otros Conceptos de Costo, se aprecian sus componentes y sus respectivos contenidos, se deben diligenciar para crear un registro nuevo o actualizar un Concepto ya existente.
 
 Para crear registros de Otros Conceptos de Costo, se debe hacer clic en el botón <a class="btn gray">Adicionar Otro Concepto</a> , que se muestra en la ventana detalle de Otros Conceptos de Costo, se diligencian los campos y finalmente se da clic en el icono <span class="mdi mdi-plus-circle icon bg-gray cl-blue "></span> ubicado en la parte inferior del formulario. Seguidamente, se observa que la información creada se muestra en la tabla de Otros Conceptos, ubicada al lado izquierdo.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img21.png)
-_**Imagen 21.** Programas - OC_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_22.png"
+  alt:"Programas - OC"
+%}
 
 En el caso de actualizar la información de Otro Concepto de Costo de algún registro existente, se debe seleccionar el registro y luego dar un clic sobre el botón <a class="btn gray">Actualizar Otro Concepto</a>. Seguidamente, se observa que la información queda grabada en la tabla ubicada al lado izquierdo.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img22.png)
-_**Imagen 22.** Programas - OC_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_23.png"
+  alt:"Programas - OC"
+%}
 
 Para eliminar un registro de la tabla de Otros Conceptos, se ubica el registro a eliminar directamente en la tabla y se da clic, luego se da clic al icono <span class="mdi mdi-delete"></span> sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn bg-gray cl-black">ACEPTAR</a>.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img23.png)
-_**Imagen 23.** Programas - Eliminar OC_
-
-
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_24.png"
+  alt:"Programas - Eliminar OC"
+%}
 
 ### Acciones Técnicas 
 
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img23_01.png)
-_**Imagen 24.** Programas - Ir a Listado de Acciones Técnicas_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_25.png"
+  alt:"Programas - Ir a Listado de Acciones Técnicas"
+%}
 
 Esta opción conduce a la tabla de Acciones Técnicas en una nueva pestaña del PM. Esta tabla está ligada a la Infraestructura, creada con su mismo nombre, que contiene un listado de Acciones Técnicas frecuentes en un área de Mantenimiento. Con la información contenida allí, se pretende describir, breve pero concretamente, la actividad general que se realiza en la OT generada desde un PM. Las Acciones Técnicas en un PM se pueden definir, después de haber creado el PM y luego seleccionado en la Ventana Detalle en la pestaña **Información General** , la opción <a class="btn cl-gray bg-white btn-rounded"><span class="mdi mdi-circle cl-blue pr-1"></span><span class="pr-1">Listado de Acciones Técnicas</span></a>continuación se muestra la porción Acciones Técnicas de un PM:
 
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img23_02.png)
-_**Imagen 25.** Programas - Acciones Técnicas_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_26.png"
+  alt:"Programas - Acciones Técnicas"
+%}
 
 En la pestaña de Acciones Técnicas de la Ventana Detalle del PM aparece un nuevo recuadro en el que irán apareciendo las que se vayan adicionando a través del botón <a class="btn cl-blue bg-gray px-6"> Adicionar Acción Técnica </a>.
 
@@ -416,31 +540,49 @@ Al accionar el botón <a class="btn cl-blue bg-gray px-6"> Adicionar Acción Té
 
 Las Acciones Técnicas se seleccionan de la lista desplegable y se adicionan con el botón <span class="mdi mdi-plus-circle icon bg-gray cl-blue"></span>:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img23_03.png)
-_**Imagen 26.** Programas - Adicionar Acciones Técnicas_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_27.png"
+  alt:"Programas - Adicionar Acciones Técnicas"
+%}
 
-Es posible actualizar una Acción Técnicaa una vez se encuentre en el listado haciendo clic sobre ella:
+Es posible actualizar una Acción Técnica una vez se encuentre en el listado haciendo clic sobre ella:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img23_04.png)
-_**Imagen 27.** Programas - Actualizar Acciones Técnicas_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_28.png"
+  alt:"Programas - Actualizar Acciones Técnicas"
+%}
 
-
->**Nota:** Para eliminar o desasociar una Acción de un PM, se debe seleccionar la acción y hacer un clic sobre el icono <a class="fab cl-gray box-shadow"><span class="iconify icon cl-black bg-white" data-icon="mdi-delete"></span></a>. Estos cambios quedan automáticamente guardados en el PM y trasladados en la OT automática que se genere. 
-
+> **Nota:** Para eliminar o desasociar una Acción de un PM, se debe seleccionar la acción y hacer un clic sobre el icono <a class="fab cl-gray box-shadow"><span class="iconify icon cl-black bg-white" data-icon="mdi-delete"></span></a>. Estos cambios quedan automáticamente guardados en el PM y trasladados en la OT automática que se genere. 
 
 ### Criterio de Programación
- 
+
 Es la función que hace que automáticamente un PM, genere una Orden de Trabajo de mantenimiento Preventivo, Predictivo, Lubricación, Inspección, Metrología, Otro-Mantto u Otro. Ello se realiza sobre la pestaña que se muestra a continuación.
 
 **Son tres grupos:** por Frecuencia, por Semanas del Año y por  Contador, que pueden trabajar en forma  excluyente, aunque  se posibilita alguna combinación entre ellos, para criterios complejos. Entonces por ejemplo, el primero y tercero, pueden ser definidos simultáneamente, para lograr el efecto de generar una OT cuando cualquiera de los dos se cumpla.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img24.png)
-_**Imagen 28.** Programas - Criterios de Programación_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_29.png"
+  alt:"Programas - Criterios de Programación"
+%}
 
 #### Frecuencia
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img25.png)
-_**Imagen 29.** Programas - Criterio de Programación Frecuencia_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_30.png"
+  alt:"Programas - Criterio de Programación Frecuencia"
+%}
 
 Esta opción se selecciona cuando se trata de un PM a ser definido para un Activo que trabaja normalmente bajo una función uniforme en el tiempo. La frecuencia se define a través de uno de los siguientes modos: Días, Semanas, Meses. Tales intervalos de tiempo, definidos conjuntamente con el campo Periodicidad, se comienzan a medir a partir de la FIP en cada PM.
 
@@ -462,8 +604,13 @@ Esta opción se selecciona cuando se trata de un PM a ser definido para un Activ
 
 #### Semanas del Año (SA)
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img26.png)
-_**Imagen 30.** Programas - Semanas del Año_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_31.png"
+  alt:"Programas - Semanas del Año"
+%}
 
 Es el segundo criterio disponible. Al dar un clic en la opción Criterio por Semanas del Año, aparece la ventana de Semanas del Año, (figura anterior). En ella es posible escoger las semanas en las cuales se debe generar una OT para el PM en cuestión. Un PM puede tener seleccionadas una, algunas o todas las 52 semanas, en cuyo caso se comportaría como un PM que genera Órdenes de Trabajo por semanas del año-
 
@@ -475,17 +622,19 @@ Si un PM definió que se debe generar una Orden de Trabajo la semana X del año,
 
 El Criterio SA es excluyente con los demás Criterios de Programación, es decir no puede coexistir con ninguno otro dentro del mismo PM, se debe tener en cuenta, que es este criterio debe estar configurado en **Valores por Defecto** en la sección **Programas** en la opción **Inicio de la Semana #2 del año**.
 
-
-
 #### Por Contador
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img27.png)
-_**Imagen 31.** Programas - Semanas del Año_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_32.png"
+  alt:"Programas - Semanas del Año"
+%}
 
 **Contador:** Este campo aplica cuando el Criterio de Programación es por Contador. Al generar un PM que lo requiera, es en este campo donde se establece el valor real o aproximado del contador de la última vez que se realizó la labor que ahora se está programando como rutina. En adelante, el **AM**, en el momento de generar la Orden de Trabajo. Si el Activo tiene definido un contador, se debe dar clic en el botón <a class="btn gray">Adicionar Contador</a> luego, desplegar el campo para elegir el contador.
 
 Este Criterio puede trabaja conjuntamente con el Criterio de Frecuencia, tiene en cuenta la FIP, o sea que si el intervalo a Analizar/Generar se encuentra antes de la FIP, el PM no genera OT, así se cumpla el Incremento o el Límite por parte del Contador del Activo. Por lo que este criterio genera una OT si se cumple cualquiera de las dos condiciones.
-
 
 **Tipo:** Indica si el contador es por Incremento o por Límite.
 
@@ -545,14 +694,19 @@ Una vez que un Programa de Mantenimiento acaba de generar una OT, sobre el progr
 - **Fecha de Última Generación (FUG)** 
 - **Fecha de Inicio del Período (FIP)**
 
->_**Nota:** En **AM** es posible hacer la Programación de las Actividades de Mantenimiento para un período futuro, tanto para el corto como para el largo  plazo, a través de las funciones de Generación y de Proyección. La función de Generación se encuentra en el submenú de  “Órdenes de Trabajo”. La función Proyección se encuentra en el submenú de Programas de	Mantenimiento. Cabe anotar también que esta Programación se puede realizar con cualquier anticipación requerida, por lo tanto es posible que la Programación de una semana como la 32 se realice en la 28, por ejemplo.
-Finalmente se aclara que toda actividad que pretenda programar, proyectar o generar OT a futuro se fundamenta en la programación realizada con los PM._
+> **Nota:** En **AM** es posible hacer la Programación de las Actividades de Mantenimiento para un período futuro, tanto para el corto como para el largo  plazo, a través de las funciones de Generación y de Proyección. La función de Generación se encuentra en el submenú de  “Órdenes de Trabajo”. La función Proyección se encuentra en el submenú de Programas de	Mantenimiento. Cabe anotar también que esta Programación se puede realizar con cualquier anticipación requerida, por lo tanto es posible que la Programación de una semana como la 32 se realice en la 28, por ejemplo.
 
+Finalmente se aclara que toda actividad que pretenda programar, proyectar o generar OT a futuro se fundamenta en la programación realizada con los PM.
 
 ### Multimedia
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img28.png)
-_**Imagen 32.** Programas - Semanas del Año_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_33.png"
+  alt:"Programas - Semanas del Año"
+%}
 
 En la gráfica anterior, Ventana Multimedia, se aprecian sus componentes y sus respectivos contenidos.
 
@@ -572,34 +726,64 @@ A continuación se describen las carpetas que componen esta ventana; cuando se q
 
 Para adicionar un documento, imagen o video, se debe dar un doble clic sobre la carpeta deseada, y luego seleccionar del ícono <span class="mdi mdi-cloud-upload icon white"></span>, como se muestra a continuación:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img29.png)
-_**Imagen 33.** Programación - Multimedia_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_34.png"
+  alt:"Programación - Multimedia"
+%}
 
 A continuación se abre el explorador de archivos, seguido de seleccionar el archivo dar un clic en 
 <a class="btn bg-white cl-black">Abrir</a>. 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img30.png)
-_**Imagen 34.** Programas - Multimedia_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_35.png"
+  alt:"Programas - Multimedia"
+%}
 
 De manera adicional u opcional se puede escribir un nombre en el siguiente campo para enfatizar de lo que trata el archivo:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img31.png)
-_**Imagen 35.** Programas - Adjuntar Archivo_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_36.png"
+  alt:"Programas - Adjuntar Archivo"
+%}
 
 Para finalmente subir el archivo, imagen o video se da clic en el botón <a class="btn bg-white cl-black">Subir Archivo</a>.  Automáticamente sale en el sistema un mensaje alerta que indica si el archivo se adjunta exitosamente. 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img32.png)
-_**Imagen 36.** Programas - Nombrar Archivo_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_37.png"
+  alt:"Programas - Nombrar Archivo"
+%}
 
 Los archivos que se van adicionando van quedando guardados uno debajo del otro. Sólo los formatos de imagen tienen previsualización, solo basta con dar clic en alguno de sus campos, como se muestra a continuación:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img33.png)
-_**Imagen 37.** Programas - Vista previa imagen_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_38.png"
+  alt:"Programas - Vista previa imagen"
+%}
 
 Para desasociar un documento, o una imagen o un video, a al PM se da clic al icono de basura <span class="mdi mdi-delete"></span> que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro, finalmente confirmar con el botón <a class="btn bg-gray cl-black">ACEPTAR</a>.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img34.png)
-_**Imagen 38.** Programas - Desasociar archivo_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_39.png"
+  alt:"Programas - Desasociar archivo"
+%}
 
 Si se desea descargar un archivo adjunto al PM, se debe dar clic en el ícono de nube con direccional hacia abajo <span class="mdi mdi-cloud-download icon white"></span> la nube con flecha hacia abajo que se encuentra al lado derecho del archivo que se quiere descargar.
 
@@ -609,13 +793,23 @@ Si se desea descargar un archivo adjunto al PM, se debe dar clic en el ícono de
 
 A esta opción se llega al sobreponer el cursor sobre el módulo de Programas y en la parte inferior se muestra un conjunto de transacciones disponibles para el módulo de Programas, y a continuación se da un clic en **“Modificar FIP”**.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img35.png)
-_**Imagen 39.** Programas - Ir a Modificar FIP_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_40.png"
+  alt:"Programas - Ir a Modificar FIP"
+%}
 
 A través de la ventana de Modificar fecha de inicio de período **(FIP)** se especifica la nueva FIP del PM. Esta ventana inicia sugiriendo en el campo Fecha inicio período la fecha actual del sistema.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img36.png)
-_**Imagen 40.** Programas - Ventana Detalle Modificar FIP_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_41.png"
+  alt:"Programas - Ventana Detalle Modificar FIP"
+%}
 
 Cuando se quiera Modificar la Fecha de Inicio de Periodo, se deberán diligenciar los siguientes campos:
 
@@ -629,8 +823,13 @@ Si el Criterio de Programación no depende de una frecuencia, esta fecha FIP det
 
 A esta opción se llega al sobreponer el cursor sobre el módulo de Programas y en la parte inferior se muestra un conjunto de transacciones disponibles para el módulo de Programas, y a continuación se da un clic en **“Proyectar”**.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img37.png)
-_**Imagen 41.** Programas - Ir a Proyectar_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_42.png"
+  alt:"Programas - Ir a Proyectar"
+%}
 
 Cuando se posee la herramienta **AM** es posible hacer la Programación de  las Actividades de Mantenimiento para un período futuro, tanto para el corto como  para el largo plazo, a través de las funciones de Generación y de Proyección. 
 
@@ -650,9 +849,13 @@ La diferencia entre  Proyectar y  Analizar la podemos apreciar en  el  siguiente
 | **5\.**	Puede tr(../assets/                                                                                                                      | **5\.**	No se puede trabajar sobre un subgrupo, siempre se realiza sobre el total de los PM y los AC\.                                                 |
 | **6\.**	Los PM que no se generaron oportunamente, el sistema asume como si hubieran generado, y los proyecta para el periodo del rango de generación, respetándoles su FIP\. | **6\.** Los PM que no se generaron Oportunamente, el sistema los genera para el primer día del periodo del rango de análisis, alterándoles su FIP\. |
 
-
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img38.png)
-_**Imagen 42.** Programas - Ventana Detalle Proyectar_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_43.png"
+  alt:"Programas - Ventana Detalle Proyectar"
+%}
 
 En la gráfica anterior, Proyectar, se aprecian sus componentes y sus   respectivos contenidos.
 
@@ -673,18 +876,33 @@ Para proyectar de manera opcional con variaciones en los porcentajes respectivos
 
 Luego de haber definido el rango, hacer clic en el botón <a class="btn white">PROYECTAR</a> , a continuación aparece un mensaje alerta para confirmar si se desea proyectar, luego se debe dar clic en <a class="btn bg-gray cl-black">ACEPTAR</a>:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img39.png)
-_**Imagen 43.** Programas - Mensaje Alerta_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_44.png"
+  alt:"Programas - Mensaje Alerta"
+%}
 
 **AM** busca en todos los  Programas de Mantenimiento, cuáles deben  proyectar órdenes de trabajo en el rango de fechas estipulado. Durante el  proceso, puede visualizarse una barra horizontal que va avanzando a medida que se va analizando y el estado de avance de la proyección, en la parte superior derecha, y al finalizar dicho proceso, el sistema muestra el resultado de la proyección de los PMs proyectados del total de PMs registrados en la base de datos. El proceso también se puede cancelar haciendo clic en el botón <a class="btn bg-gray cl-black">CANCELAR</a>: en el cual sistema detiene el proceso sin ningún tipo de perjuicio, es decir, a los datos no son afectados en absoluto.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img40.png)
-_**Imagen 44.** Programas - Análisis Programas_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_45.png"
+  alt:"Programas - Análisis Programas"
+%}
 
 En el resultado de la proyección, se evidencia:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img41.png)
-_**Imagen 45.** Programas - Resultados Proyección_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_46.png"
+  alt:"Programas - Resultados Proyección"
+%}
 
 **Total de Programas seleccionados:** Muestra la relación entre la cantidad de Programas totales o los que están seleccionados en el visor en el módulo sobre la cantidad de Programas totales definidos en el módulo.
 
@@ -699,12 +917,17 @@ _**Imagen 45.** Programas - Resultados Proyección_
 Seguido, se presentan dos botones inferiores: 
 
 
-**Ver Diagrama Gannt**
+**Ver Diagrama Gantt**
 
 El análisis se presenta también por medio de una gráfica o Diagrama de Gantt, en el cual se muestra al lado izquierdo la información del Activo con su respectivo PM, mientras que al lado derecho se muestra por colores el cronograma con las fechas proyectadas de las actividades. Se puede varias la escala y el tamaño del gráfico. Para visualizar la programación se debe accionar el botón <a class="btn gray">Ver Diagrama</a>:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img42.png)
-_**Imagen 46.** Programas - Proyección Diagrama Gantt_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_47.png"
+  alt:"Programas - Proyección Diagrama Gantt"
+%}
 
 El significado de los colores se visualiza al sobreponer el mouse en el icono que se encuentra al lado superior derecho <span class="mdi mdi-message-alert"></span> y su correspondencia es:
 
@@ -720,8 +943,13 @@ Al desplegar la lista del campo **Escala**, permite observar el cronograma por d
 
 A continuación, se  procede a verificar si las OT detectadas por  el proceso  de proyección, sí son las órdenes que se esperan para el rango de fechas establecido.  Para esto, se procede a dar clic al botón <a class="btn gray">Ver Reportes</a> como se ve en la siguiente imagen:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img43.png)
-_**Imagen 47.** Programas - Proyección Diagrama Gantt_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_48.png"
+  alt:"Programas - Proyección Diagrama Gantt"
+%}
 
 Se muestran los reportes con los resultados proyectados de algunos, de la siguiente lista:
 
@@ -738,27 +966,39 @@ Se muestran los reportes con los resultados proyectados de algunos, de la siguie
 
 Los anteriores reportes deben ser seleccionados para **Todos los registros**, primero se debe seleccionar una de las opciones anteriormente mencionadas y luego de estar sombreado en verde se debe clic en el botón <a class="btn bg-gray cl-black">IMPRIMIR</a>: para ver el reporte en formato PDF y en la opción <a class="btn bg-gray cl-black">EXPORTAR</a>: para llevar este diseño a excel.
 
-
->**Nota:** Si al imprimir alguno de estos reportes, el usuario nota que alguna OT no debió ser proyectada, debe dirigirse al respectivo programa de mantenimiento y revisar sus criterios para volver a proyectar de nuevo los PM.
-
+> **Nota:** Si al imprimir alguno de estos reportes, el usuario nota que alguna OT no debió ser proyectada, debe dirigirse al respectivo programa de mantenimiento y revisar sus criterios para volver a proyectar de nuevo los PM.
 
 ### Modificar Masivamente
 
 A esta opción se llega al sobreponer el cursor del mouse sobre el módulo de Programas y en la parte inferior derecho se despliega el conjunto de transacciones disponibles para el módulo de Programas, luego se elige la transacción **“Modificar Masivamente”**.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img44.png)
-_**Imagen 48.** Programas - Ir a Modificar Masivamente_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_49.png"
+  alt:"Programas - Ir a Modificar Masivamente"
+%}
 
 Esta transacción permite cambiar masivamente el campos del Programa, Criterio, Ingresar Presupuesto, Eliminar Presupuesto, Modificar Presupuesto, Desactivar Programas y Adjuntar Documentos, de los Programas previamente seleccionados o subgrupos, que se encuentran en el Visor. Para ello se debe dar clic al botón  <a class="btn white">Modificar Masivamente</a> ubicado al lado superior izquierdo de la ventana:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img45.png)
-_**Imagen 49.** Programas - Modificar Masivamente_
-
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_50.png"
+  alt:"Programas - Modificar Masivamente"
+%}
 
 A continuación se muestran las opciones disponibles:
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img46.png)
-_**Imagen 50.** Programas - Modificación Masiva Opciones_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_51.png"
+  alt:"Programas - Modificación Masiva Opciones"
+%}
 
 A continuación se describen los campos que componen esta ventana de   información adicional.
 
@@ -768,111 +1008,198 @@ A continuación se describen los campos que componen esta ventana de   informaci
 
 **Modificar Centro de Costo:** Se Modifica Masivamente el Centro de Costo, del o los PM que están previamente seleccionados en el visor.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img47.png)
-_**Imagen 51.** MM - Centro de Costo_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_52.png"
+  alt:"MM - Centro de Costo"
+%}
 
 **Modificar Centro Responsable:** Se Modifica Masivamente el Centro Responsable de los PM que están previamente seleccionados en el visor.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img48.png)
-_**Imagen 52.** MM - Centro Responsable_
-
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_53.png"
+  alt:"MM - Centro Responsable"
+%}
 
 **Modificar Comentarios:** Se Modifica Masivamente los Comentarios de los PM que se están previamente seleccionados en el visor.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img49.png)
-_**Imagen 53.** MM - Comentarios_
-
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_54.png"
+  alt:"MM - Comentarios"
+%}
 
 **Modificar Contrato:** Se Modifica Masivamente el contrato previamente definido a los PM que están previamente seleccionados en el visor.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img50.png)
-_**Imagen 54.** MM - Contrato_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_55.png"
+  alt:"MM - Contrato"
+%}
 
 **Modificar Fecha de Inicio de Período (FIP):** Se Modifica Masivamente la FIP, del o los PM que están previamente seleccionados en el visor.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img51.png)
-_**Imagen 55.** MM - FIP_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_56.png"
+  alt:"MM - FIP"
+%}
 
 **Modificar Prioridad:** Se Modifica Masivamente la Prioridad de los PM que están previamente seleccionados en el visor.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img52.png)
-_**Imagen 56.** MM - Prioridad_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_57.png"
+  alt:"MM - Prioridad"
+%}
 
 **Modificar Responsable:** Se Modifica Masivamente el Responsable, del o los PM que están previamente seleccionados en el visor.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img53.png)
-_**Imagen 57.** MM - Responsable_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_58.png"
+  alt:"MM - Responsable"
+%}
 
 **Modificar Solicitante:** Se Modifica Masivamente el Solicitante, del o los PM que están previamente seleccionados en el visor. Solo se pueden escoger de los Terceros RI, activos en la infraestructura.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img54.png)
-_**Imagen 58.** MM - Solicitante_
-
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_59.png"
+  alt:"MM - Solicitante"
+%}
 
 #### Modificar Criterio
 
 **Modificar Criterio por Frecuencia:** Se Modifica Masivamente el criterio por Frecuencia, del o los PM que están previamente seleccionados en el visor.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img55.png)
-_**Imagen 59.** MM - Criterio por Frecuencia_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_60.png"
+  alt:"MM - Criterio por Frecuencia"
+%}
 
 **Modificar Criterio por Semanas del año:** Se Modifica Masivamente el criterio por Semanas del año, del o los PM que están previamente seleccionados en el visor.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img56.png)
-_**Imagen 60.** MM - Criterio por SA_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_61.png"
+  alt:"MM - Criterio por SA"
+%}
 
 #### Ingresar Presupuesto
 
 **Ingresar Presupuesto Materiales y Repuestos:** Se Inserta Masivamente el presupuesto de Materiales y Repuestos a los diferentes PM que están previamente seleccionados en el visor. Se Aumenta o Disminuye el valor del Presupuesto de los Materiales y Repuestos a los diferentes PM. El repuesto en este campo se busca a través del ícono de subgrupo <span class="mdi mdi-plus-circle icon white"></span>. 
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img57.png)
-_**Imagen 61.** MM - Materiales y Repuestos_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_62.png"
+  alt:"MM - Materiales y Repuestos"
+%}
 
 **Ingresar Presupuesto Mano de Obra:** Se Inserta Masivamente el presupuesto de Mano de Obra Interna a los diferentes PM que están previamente seleccionados en el visor. Se Aumenta o Disminuye el valor del Presupuesto de la Mano de Obra Interna a los diferentes registros.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img58.png)
-_**Imagen 62.** MM - Mano de Obra_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_63.png"
+  alt:"MM - Mano de Obra"
+%}
 
 **Ingresar Presupuesto Otros Conceptos de Costos:** Se inserta Masivamente el presupuesto de Otros Conceptos de Costos a los diferentes PM que están previamente seleccionados en el visor. Se Aumenta o Disminuye el valor del Presupuesto de Otros Conceptos de Costos a los diferentes PM.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img59.png)
-_**Imagen 63.** MM - Otros Conceptos de Costos_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_64.png"
+  alt:"MM - Otros Conceptos de Costos"
+%}
 
 #### Eliminar Presupuesto
 
 **Materiales y Repuestos:** Se elimina Masivamente el presupuesto de Materiales y Repuestos a los PM previamente seleccionados en el visor.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img60.png)
-_**Imagen 64.** MM - Eliminar Materiales y Repuestos_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_65.png"
+  alt:"MM - Eliminar Materiales y Repuestos"
+%}
 
 **Eliminar Presupuesto Mano de Obra:** Se elimina Masivamente el presupuesto de Mano de Obra Interna a los  PM que están previamente seleccionados en el visor.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img61.png)
-_**Imagen 65.** MM - Eliminar Presupuesto Mano de Obra_
-
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_66.png"
+  alt:"MM - Eliminar Presupuesto Mano de Obra"
+%}
 
 **Eliminar Presupuesto Otros Conceptos de Costos:** Se Elimina Masivamente el presupuesto de Otros Conceptos de Costos a los diferentes PM(s) que están previamente seleccionados en el visor.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img62.png)
-_**Imagen 66.** MM - Eliminar Otros Conceptos de Costos_
-
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_67.png"
+  alt:"MM - Eliminar Otros Conceptos de Costos"
+%}
 
 **Modificar Presupuesto:** Se Modifica Masivamente el presupuesto, donde se puede aumentar o disminuir en un porcentaje el presupuesto de Mano de Obra Interna y Otros Conceptos, de los PM que están previamente seleccionados en el visor
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img63.png)
-_**Imagen 67.** MM - Modificar Presupuesto_
-
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_68.png"
+  alt:"MM - Modificar Presupuesto"
+%}
 
 **Desactivar Programas:** Se realiza la opción de Desactivar Programas de los PM que están previamente seleccionados en el visor.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img64.png)
-_**Imagen 68.** MM - Desactivar Programas_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_69.png"
+  alt:"MM - Desactivar Programas"
+%}
 
 **Adjuntar Documentos:** Se Adjunta Documentos en los PM permitiendo la carga de archivos o anexos necesarios para el módulo.
 
-![Procesar imagen](https://ayuda.winsoftware.com.co/assets/images/cap06/chp06_img65.png)
-_**Imagen 69.** MM - Adjuntar Documentos_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"11_70.png"
+  alt:"MM - Adjuntar Documentos"
+%}
 
-
-
->**Nota:** Para efectuar los cambios para el conjunto de Programas previamente seleccionado en el subgrupo se debe dar un clic en el botón <a class="btn blue">MODIFICAR <span class="mdi mdi-pencil"></span></a>. El sistema mostrará dos mensajes alerta, uno seguido del otro, con el fin de preguntarle al Usuario si está seguro de hacer la modificación masiva, esta transacción es un permiso especial que se otorga desde el módulo de <a class="btn blue">Administración</a> en Permisos Básicos, en la opción **Masificar**.
+> **Nota:** Para efectuar los cambios para el conjunto de Programas previamente seleccionado en el subgrupo se debe dar un clic en el botón <a class="btn blue">MODIFICAR <span class="mdi mdi-pencil"></span></a>. El sistema mostrará dos mensajes alerta, uno seguido del otro, con el fin de preguntarle al Usuario si está seguro de hacer la modificación masiva, esta transacción es un permiso especial que se otorga desde el módulo de <a class="btn blue">Administración</a> en Permisos Básicos, en la opción **Masificar**.
