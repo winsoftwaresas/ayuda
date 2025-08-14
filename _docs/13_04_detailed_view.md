@@ -11,15 +11,25 @@ media: "../../assets/images/docs/"
 
 Cuando se ingresa a un consumo o cuando se crea uno nuevo el sistema muestra la información detallada o relevante de la carga de combustible. Para acceder a esta ventana hay dos formas:
 
-- En la ventana visor desde el botón <a class="btn cl-blue bg-white px-3"> NUEVO</a>, donde se debe diligeciar el formulario.
+- En la ventana visor desde el botón <a class="btn cl-blue bg-white px-3"> NUEVO</a>, donde se debe diligenciar el formulario.
 
-![Procesar imagen](../../assets/images/cap18/chp18_img04.png)
-_**Imagen 4.** Combustibles - Crear nuevo registro_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"13_04.png"
+  alt:"Combustibles - Crear nuevo registro"
+%}
 
 - Desde un clic a cualquiera de los registros se visualiza la información detallada. 
 
-![Procesar imagen](../../assets/images/cap18/chp18_img05.png)
-_**Imagen 4.** Combustibles - Formulario_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"13_05.png"
+  alt:"Combustibles - Formulario"
+%}
 
 En la gráfica anterior, Ventana Detalle del abastecimiento se aprecian todos sus componentes  y sus respectivos contenidos.
 
@@ -29,20 +39,23 @@ A continuación se explican brevemente los campos que componen el registro.
 
 **Vale de Consumo:** Es un documento o comprobante que se emite cuando se realiza un abastecimiento de combustible. Donde se detallan aspectos importantes, este campo es obligatorio. 
 
-**Contrato:** Es un campo despegable que muestra aquellos contratos asociados a los abastecimientos o consumos (definido en la ficha técnica del contrato desde su respectiva tabla en la <a class="btn cl-white bg-blue px-3">Infraestructura</a>). 
+**Contrato:** Es un campo despegable que muestra aquellos contratos asociados a los abastecimientos o consumos (definido en la ficha técnica del contrato desde su respectiva tabla en la <a class="btn cl-white bg-blue px-3">Infraestructura</a>).
 
 **Referencia:** Es un número o código único que se asigna a cada transacción o abastecimiento de combustible. 
 
-- **Datos del Vehiculo**
-
+- **Datos del Vehículo**
 
 **Código del Activo** Es un campo donde debe estar registrado el Activo/Equipo.  Se debe usar el subgrupo <span class="mdi mdi-filter-variant icon white"></span>. 
 Continue dando clic sobre el subgrupo y en la ventana ventana de Activos que se despliega, también es posible hacer búsquedas o subgrupo. Seleccione el Activo de interés con un doble clic o accione el botón 
 <a class="btn cl-blue bg-white px-6"> ACEPTAR </a> como se muestra en la siguiente imagen:
 
-
-![Procesar imagen](../../assets/images/cap18/chp18_img06.png)
-_**Imagen 5.** Combustibles - Seleccionar Activo_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"13_06.png"
+  alt:"Combustibles - Seleccionar Activo"
+%}
 
 **Conductor:** Se refiere al responsable del Activo/Vehículo. Es un campo desplegable que lista los Responsables Internos (RI) en la tabla de Terceros en <a class="btn cl-white bg-blue px-3">Infraestructura</a>. 
 
@@ -56,7 +69,7 @@ _**Nota:** El kilometraje o los galones por hora se configuran en la ficha técn
 
 **Tipo de combustible:** Este campo lista los tipos de combustibles configurados en la tabla de Combustible en <a class="btn cl-white bg-blue px-3">Infraestructura</a>.
 
-**Cantidad Consumida:** Este campo debe indicar la cantidad del abasteciiento según la unidad de medida ( litros, galones). 
+**Cantidad Consumida:** Este campo debe indicar la cantidad del abastecimiento según la unidad de medida ( litros, galones). 
 
 **Unidad de Consumo:** Se listan las unidades de medida o cantidad estándar que se hayan marcado para combustible en la tabla de unidades de medida en <a class="btn cl-white bg-blue px-3">Infraestructura </a>.
 
@@ -66,4 +79,3 @@ _**Nota:** El kilometraje o los galones por hora se configuran en la ficha técn
 
 Para finalizar accione el botón 
 <a class="btn blue">INSERTAR <span class="mdi mdi-plus-circle-outline"></span></a> o si está actualizando un registro el botón <a class="btn blue">ACTUALIZAR <span class="mdi mdi-pencil"></span></a>. 
-

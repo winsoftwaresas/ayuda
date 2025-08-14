@@ -7,14 +7,17 @@ order:      '13_06'
 media: "../../assets/images/docs/"
 ---
 
-
 ## Reportes
 
-Este comando <span class="mdi mdi-printer"></span>  permite visualizar los reportes o informes de la información relacionada a los Comsbustibles. Existen los siguientes tipos de reportes básicos disponibles:
+Este comando <span class="mdi mdi-printer"></span>  permite visualizar los reportes o informes de la información relacionada a los Combustibles. Existen los siguientes tipos de reportes básicos disponibles:
 
-![Procesar imagen](../../assets/images/cap18/chp18_09.png)
-
-_**Imagen 8.** Combustibles - Reportes_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"13_09.png"
+  alt:"Combustibles - Reportes"
+%}
 
 Los anteriores reportes pueden ser  seleccionados para uno o varios registros:
 
@@ -30,6 +33,4 @@ Para visualizar los reportes, se da un clic sobre el reporte y luego al botón <
 
 Para exportar el reporte accione el botón <a class="btn bg-gray cl-black">EXPORTAR</a>. Esto descarga automáticamente en la estación cliente el reporte en formato excel.
 
->**Nota:** Para la explicación de la nomenclatura de los códigos de reportes, remítase a la sesión del centro de ayuda **Trabajando con AM- Generalidades**. 
-
-
+> **Nota:** Para la explicación de la nomenclatura de los códigos de reportes, remítase a la sesión del centro de ayuda **Trabajando con AM- Generalidades**.

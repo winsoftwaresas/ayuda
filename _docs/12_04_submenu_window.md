@@ -13,9 +13,13 @@ media: "../../assets/images/docs/"
 
 Es posible saber cuáles registros de SS, OT y Paros, tienen Multimedia, Servicio Evaluado y Firma de Recibido (sólo para SS y OTs diligenciadas desde AMovil) directamente desde la ventana visor, sobreponiendo el cursor en el ícono de Indicadores <span class="mdi mdi-message-alert"></span> ubicado en la parte superior derecha de la ventana como se muestra a continuación:
 
-![Procesar imagen](../../assets/images/cap13/chp13_img12.png)
-_**Imagen 12.** Historia Archivada- Indicadores_
-
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"12_12.png"
+  alt:"Historia Archivada- Indicadores"
+%}
 
 El significado de los colores es el siguiente:
 
@@ -29,8 +33,13 @@ Se usa para seleccionar un grupo de información, sobre la que se estudiará uno
 
 Para ingresar a esta opción se debe dar clic al icono <span class="mdi mdi-filter-variant"></span>, ubicado en la parte superior derecha de la ventana Visor de HA.
 
-![Procesar imagen](../../assets/images/cap13/chp13_img13.png)
-_**Imagen 13.** Historia Archivada- Ir a Subgrupos_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"12_13.png"
+  alt:"Historia Archivada- Ir a Subgrupos"
+%}
 
 Cada criterio trabaja en conjunto con los demás, con el operador intersección.
 
@@ -42,9 +51,13 @@ El programa permite entonces hacer selección de un grupo de cualquier tipo de l
 
 Los campos de datos son los siguientes:
 
-
-![Procesar imagen](../../assets/images/cap13/chp13_img14.png)
-_**Imagen 14.** Historia Archivada- Ir a Subgrupos_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"12_14.png"
+  alt:"Historia Archivada- Ir a Subgrupos"
+%}
 
 **1. FILTRAR POR TIPO DE REGISTRO**
 
@@ -63,7 +76,6 @@ _**Imagen 14.** Historia Archivada- Ir a Subgrupos_
 **AC-Referencia:** Esta opción permite seleccionar las OT Históricas, SS y PA de acuerdo con su número de referencia.
 
 **AC-Serial:** Esta alternativa permite seleccionar las OT Históricas, SS y PA de acuerdo con el número serial del Equipo/Activo objeto de mantenimiento. El campo acepta comodines(%).
-
 
 **3. FILTRAR POR CAMPOS DE LA ORDEN DE TRABAJO**
 
@@ -132,7 +144,7 @@ _**Imagen 14.** Historia Archivada- Ir a Subgrupos_
 
 **Gasto Real Otros Conceptos:** Al seleccionar esta opción se habilita una lista despegable donde se escoge el criterio deseado, junto con un cuadro donde se digita el valor de comparación. Los criterios son: Igual (=), Mayor (>) y Menor (<). Estos criterios actúan en comparación con el valor digitado en la casilla que se activa al lado del operador aritmético. Ejemplo: si se escoge el criterio Mayor (>) y la cantidad es 100.000, eso significa que filtrara todas las OT Históricas cuyo Gasto Real en Otros Conceptos de Costo sea Mayor a Cien Mil Pesos o unidades monetarias.
 
-**Responsable por la Institución:** Filtra las OT Históricas de acuerdo al Responsable por Institución o la persona que recibe a satisfación. Existen dos formas de buscar el Responsable. La primera es seleccionándolo de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span> el cual se desactiva <span class="mdi mdi-lock-open-outline"></span> permitiendo digitar segmentos del nombre del Responsable, en el cual también es posible usar comodines (%). Cuando se utilizan comodines, es posible seleccionar las OT cuyo Responsable tenga una parte del nombre igual.
+**Responsable por la Institución:** Filtra las OT Históricas de acuerdo al Responsable por Institución o la persona que recibe a satisfacción. Existen dos formas de buscar el Responsable. La primera es seleccionándolo de la lista desplegable. La segunda es dando clic al icono de candado <span class="mdi mdi-lock"></span> el cual se desactiva <span class="mdi mdi-lock-open-outline"></span> permitiendo digitar segmentos del nombre del Responsable, en el cual también es posible usar comodines (%). Cuando se utilizan comodines, es posible seleccionar las OT cuyo Responsable tenga una parte del nombre igual.
 
 **Número de la OT:** Permite filtrar OT Históricas, con base en su número consecutivo. Para ello se define en el criterio un rango. Aparecen cuatro campos, para ubicar el comienzo del rango “Desde” (Año-Consecutivo) y el fin del rango “Hasta” (Año- Consecutivo). De no digitar los campos “Desde”, se buscan las OT Históricas cuyo número es inferior al digitado en “Hasta”. De no digitar los campos “Hasta”, se buscan las OT Históricas cuyo número es posterior al digitado en “Desde”.
 
@@ -179,29 +191,42 @@ Activo/Equipo.
 
 _**Nota:** Es importante tener en cuenta que cuando se están realizando los subgrupos, se pueden utilizar uno o varios de los criterios anteriores, simultáneamente. Además es posible hacer unión de selecciones. Esto significa que inmediatamente después de haber realizado una selección, es posible hacer otra y unir el resultado de las dos. Para ello, tras definir los criterios de la segunda selección, se da un clic al botón <a class="btn white">Mas <span class="mdi mdi-plus-circle"></span></a> o <a class="btn white">Menos <span class="mdi mdi-minus-circle"></span></a>en lugar de darlo al botón <a class="btn white">aceptar <span class="mdi mdi-check-circle"></span></a>._ 
 
-
 ### Buscar 
 
 Esta opción de búsqueda rápida se encuentra ubicada al lado superior derecho de la ventana Visor. Es una lupa <span class="mdi mdi-magnify"></span> que abre un campo al lado izquierdo y que indica digitar el número de la OT, SS o Paro. Luego de digitar la información, se presiona la tecla <a class="btn">Enter <span class="mdi mdi-subdirectory-arrow-left"></span></a> y a continuación se sombrea el registro deseado en el Visor:
 
-![Procesar imagen](../../assets/images/cap13/chp13_img17.png)
-_**Imagen 15.** Historia Archivada - Exportar las OT, SS y PA_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"12_15.png"
+  alt:"Historia Archivada - Exportar las OT, SS y PA"
+%}
 
 En caso de escribir el consecutivo con algún error o no existente, el sistema muestra un mensaje de alerta:
 
-![Procesar imagen](../../assets/images/cap13/chp13_img18.png)
-_**Imagen 16.** Mensaje Alerta - Ir a OT_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"12_16.png"
+  alt:"Mensaje Alerta - Ir a OT"
+%}
 
-Si se tiene un subgrupo establecido y se digita el consecutivo de una OT, SS o Paro que no esté dentro del subgrupo, el sistema muestra un mensaje de adventencia, donde se le pregunta al usuario si desea deshacer el subgrupo:
+Si se tiene un subgrupo establecido y se digita el consecutivo de una OT, SS o Paro que no esté dentro del subgrupo, el sistema muestra un mensaje de advertencia, donde se le pregunta al usuario si desea deshacer el subgrupo:
 
-![Procesar imagen](../../assets/images/cap13/chp13_img24.png)
-_**Imagen 17.** Mensaje Advertencia - Ir a OT_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"12_17.png"
+  alt:"Mensaje Advertencia - Ir a OT"
+%}
 
 ## Exportar
 
 Esta opción permite exportar los ítems o campos de la ficha técnica de OT, bien sea, para exportar todas las OTs o las provenientes de un subgrupo a un archivo de Excel que se descarga automáticamente en la estación cliente.
 Para efectuar este proceso, se da clic en Exportar <span class="mdi mdi-download"></span> mostrando las siguientes opciones de exportación:
-
 
 En la gráfica anterior, se aprecian sus componentes y sus respectivos contenidos:
 
@@ -210,8 +235,13 @@ En la gráfica anterior, se aprecian sus componentes y sus respectivos contenido
 **Exportar Todos los Registros:** Esta opción exporta todas las OT, SS y PA existentes, sin importar cualquier subgrupo activo.
 Luego de escoger una de las opciones anteriores, en la parte inferior aparece seleccionado por defecto el recuadro <a class="btn white"><span class="mdi mdi-checkbox-blank-outline"></span> exportar todos los campos</a> pero si se prefiere uno o varios, se debe des-seleccionar y a continuación hacer clic en los recuadros a exportar, una vez elegida la información, se da clic en el botón inferior <a class="btn white">exportar</a> el cual genera un archivo de Excel que se descarga automáticamente. El objetivo de esta exportación es llevar toda la información de a un archivo plano, para luego ser analizadas.
 
- ![Procesar imagen](../../assets/images/cap13/chp13_img15.png)
-_**Imagen 18.** Historia Archivada - Exportar_las OT, SS y PA 
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"12_18.png"
+  alt:"Historia Archivada - Exportar_las OT, SS y PA"
+%}
 
 ## Servicios
 
@@ -219,8 +249,13 @@ _**Imagen 18.** Historia Archivada - Exportar_las OT, SS y PA
 
 Este comando permite visualizar el reporte relacionado a la OT, SS y PA en Historia Archivada. Existe el siguiente reporte básico disponibles
 
-![Procesar imagen](../../assets/images/cap13/chp13_img16.png)
-_**Imagen 19.** Historia Archivada - Exportar_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"12_19.png"
+  alt:"Historia Archivada - Exportar"
+%}
 
 El anterior reporte puede ser seleccionado para una o varios registros a través de las siguientes opciones:
 
