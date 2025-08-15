@@ -18,4 +18,4 @@ hero:
 
 <!-- {% include team.html authors="evan, john, sara, alex, tom, daniel" title="Estamos aquí para ayudar" subtitle="Nuestro equipo está a solo un correo electrónico listo para responder sus preguntas" %} -->
 
-{% include cta.html title="¿No encontraste la respuesta?" button_text="WhatsApp" button_url="https://wa.me/573108304059" subtitle="Ponte en contacto con nosotros para obtener detalles sobre la configuración y los precios de servicios personalizados adicionales" %}
+{% include cta.html title="¿No encontraste la respuesta?" button_text="WhatsApp" button_url="https://wa.me/573218171789" subtitle="Ponte en contacto con nosotros para obtener detalles sobre la configuración y los precios de servicios personalizados adicionales" %}
