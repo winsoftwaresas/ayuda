@@ -35,7 +35,7 @@ module Jekyll
         <figure#{css_class ? " class=\"#{css_class}\"" : ""}>
           <img src="#{image_src}" alt="#{alt}" loading="lazy" />
           <figcaption>
-            <strong>Imagen #{number}</strong>: #{alt}
+            <strong>Imagen #{number}</strong> #{alt}
           </figcaption>
         </figure>
       HTML

@@ -26,9 +26,13 @@ Se identifican los campos relacionados en el formulario Servicio Solicitado para
 
 Ingrese a **AMsi** y elija la opción **Crear Nueva Orden**.
 
-![Procesar imagen](../../assets/images/cap12/chp12_img20.png)
-_**Imagen 32. Crear Nueva Orden**_
-
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"15_32.png"
+  alt:"Crear Nueva Orden"
+%}
 
 Este formulario trae los datos del solicitante previamente logueado en la ventana de acceso al **AMsi**. Contiene la información personal del solicitante, información del servicio solicitado, información del Activo/Equipo objeto de la OT de mantenimiento.
 
@@ -38,12 +42,15 @@ Una vez ingresados los datos del solicitante de manera correcta en el botón del
 
 ### Campos Del Formulario _Datos Del Solicitante_  para usuarios relacionado por Centros de Costo  
 
-![Procesar imagen](../../assets/images/cap12/chp12_img21.png)
-_**Imagen 33. Ventana Creación OT**_
-
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"15_33.png"
+  alt:"Ventana Creación OT"
+%}
 
 A continuación, se describen los campos que componen esta ventana Creación de OT. Sobre cada campo se da una breve explicación:
-
 
 **Nro. Documento:** Este campo muestra el número de Identificación de la persona solicitante.
 
@@ -91,9 +98,14 @@ Para seleccionar el Activo/Equipo se da clic en el icono de subgrupo (filtro azu
 <a class="btn blue">Enviar <span class="mdi mdi-send"></span></a> : Este botón envía inmediatamente la OT a la base de datos del AM para ser revisada por el área de mantenimiento encargada y proceder así con su análisis y asignación.
 Una vez enviada la OT, el sistema muestra un mensaje de notificación de registro exitoso, mostrando el número o consecutivo asignado. Se habilitan además las opciones de **Crear Nueva Orden** y **Consultar Mis Solicitudes:**
 
-![Procesar imagen](../../assets/images/cap12/chp12_img22.png)
-_**Imagen 34.**  Mensaje registro OT_
- 
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"15_34.png"
+  alt:"Mensaje registro OT"
+%}
+
 **<span class="mdi mdi-home"></span> :** Este botón lleva a la ventana de Menú Principal del Usuario.
 
 **<span class="mdi mdi-exit-to-app"></span> :** Este botón permite salir del aplicativo **AMsi**.
@@ -106,40 +118,65 @@ _**Imagen 34.**  Mensaje registro OT_
 
 Para ingresar multimedia se debe dar doble clic sobre una de las tres carpetas. 
 
-![Procesar imagen](../../assets/images/cap12/chp12_img23.png)
-_**Imagen 35.** Ir a Multimedia_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"15_35.png"
+  alt:"Ir a Multimedia"
+%}
 
 Se debe dar clic al botón <span class="mdi mdi-cloud-upload icon white"></span> para abrir el explorador de archivos:
 
-![Procesar imagen](../../assets/images/cap12/chp12_img2301.png)
-_**Imagen 36.** Multimedia_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"15_36.png"
+  alt:"Multimedia"
+%}
 
-
-![Procesar imagen](../../assets/images/cap12/chp12_img24.png)
-_**Imagen 37.** Explorador Archivos_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"15_37.png"
+  alt:"Explorador Archivos"
+%}
 
 Una vez elegido el archivo a adjuntar puede asignarse un nombre opcional en el espacio en blanco a continuación:
 
-![Procesar imagen](../../assets/images/cap12/chp12_img25.png)
-_**Imagen 38.** Nombrar archivo_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"15_38.png"
+  alt:"Nombrar archivo"
+%}
 
 Luego se debe dar clic en el botón <a class="btn white">subir archivo</a>  y el sistema confirmará a través de un mensaje que el archivo ha sido subido correctamente:
 
-![Procesar imagen](../../assets/images/cap12/chp12_img26.png)
-_**Imagen 39.** Mensaje Alerta Multimedia_
-
-
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"15_39.png"
+  alt:"Mensaje Alerta Multimedia"
+%}
 
 #### Creación de Órdenes de Trabajo para Usuarios relacionados por Compañía
 
 <iframe width="600" height="340" src="https://www.youtube.com/embed/lamMeqB2G18?si=-6AdZbxP2bT4y9M1" title="Actualizar perfil y crear órdenes de trabajo para usuarios relacionados por compañía" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen uk-responsive></iframe>
 
-
 Una vez ingrese a **AMsi** elija la opción **Crear Nueva Orden**, se visualiza el Formulario que muestra el detalle del servicio a solicitar:
 
-![Procesar imagen](../../assets/images/cap12/chp12_img26_01.png)
-_**Imagen 40.** Formulario OT_
-   
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"15_40.png"
+  alt:"Formulario OT"
+%}
 
 Se describen los campos a diligenciar:
 
@@ -165,22 +202,30 @@ Este recuadro es informativo y hace referencia a los Datos del Solicitante norma
 
 **Descripción:** En este campo se digita en forma concreta el servicio de mantenimiento requerido. Se detalla el problema, inconveniente, necesidad o avería a ser atendida.
 
-**Activo/Equipo:** En este campo se ingresa el  objeto de mantenimeinto relacionado a la OT. 
+**Activo/Equipo:** En este campo se ingresa el  objeto de mantenimiento relacionado a la OT. 
 
 
-Para seleccionar el Activo dirijase al botón dando un clic <span class="mdi mdi-filter-variant icon white"></span> que se encuentra en la parte derecha del campo:
+Para seleccionar el Activo diríjase al botón dando un clic <span class="mdi mdi-filter-variant icon white"></span> que se encuentra en la parte derecha del campo:
 
-![Procesar imagen](../../assets/images/cap12/chp12_img26_02.png)
-_**Imagen 41.** Asociar Activo/Equipo a la OT_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"15_41.png"
+  alt:"Asociar Activo/Equipo a la OT"
+%}
 
 La lista desplegada incluye los Activos/Equipos creados previamente en **AM** asociados a la compañía o centro de servicio referido en el formulario en estado activo y operante. En esta nueva ventana también hay posibilidad de hacer subgrupos <span class="mdi mdi-filter-variant"></span> o búsquedas rápidas que facilitan encontrar el Activo. (En la imagen anterior se muestra un Subgrupo dentro de la ventana detalle de Activos representado por el ícono <a class="btn bg-white fs-2"><span class="iconify btn-icon cl-black" data-icon="mdi-filter-variant"></span><span class="dot bg-af-red"></span></a> )
 
 Para seleccionar el Activo dar doble clic sobre el registro sombreado en verde. Cuando se cierra esta ventana automáticamente se observa que aparece el código y la descripción del Activo/Equipo, como se muestra a continuación:
 
-![Procesar imagen](../../assets/images/cap12/chp12_img26_03.png)
-_**Imagen 42.** Formulario correctamente diligenciado_
-
-
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"15_42.png"
+  alt:"Formulario correctamente diligenciado"
+%}
 
 **Prioridad:** Este campo viene predefinido con las prioridades Alta, Media y Baja. Lo utiliza el programador de mantenimiento como guía para establecer la agilidad (normal o priorizada) en la asignación del recurso humano de mantenimiento para la ejecución del trabajo solicitado.
 
@@ -190,48 +235,68 @@ Una vez se diligencie el formulario accione el botón  <a class="btn blue">ENVIA
 
 Después se habilitan las siguientes opciones:
 
-
-![Procesar imagen](../../assets/images/cap12/chp12_img26_04.png)
-_**Imagen 43.** Envío de OT_
-
-
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"15_43.png"
+  alt:"Envío de OT"
+%}
 
 <a class="btn blue">ANEXAR MULTIMEDIA <span class="mdi mdi-attachment"></span></a> : Permite una vez que se envíe la SS anexar archivos Multimedia, como documentos, imágenes o porciones de video siempre y cuando el usuario permanezca en esta ventana.
 
-
-
 Para ingresar multimedia se debe dar doble clic sobre una de las tres carpetas:
 
-![Procesar imagen](../../assets/images/cap12/chp12_img26_05.png)
-_**Imagen 44.** Multimedia_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"15_44.png"
+  alt:"Multimedia"
+%}
 
 Luego, dar clic al botón <span class="mdi mdi-cloud-upload icon white"></span> para abrir el explorador de archivos:
 
-![Procesar imagen](../../assets/images/cap12/chp12_img26_06.png)
-_**Imagen 45.** AMsi - Explorador de archivos_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"15_45.png"
+  alt:"AMsi - Explorador de archivos"
+%}
 
-![Procesar imagen](../../assets/images/cap12/chp12_img26_07.png)
-_**Imagen 46.** AMsi - Subir archivo_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"15_46.png"
+  alt:"AMsi - Subir archivo"
+%}
 
-Despues de adjuntar el archivo puede asignarse un nombre opcional para hacer referencia clara de lo que se está adjuntando en el espacio en blanco que se muestra a continuación:
+Después de adjuntar el archivo puede asignarse un nombre opcional para hacer referencia clara de lo que se está adjuntando en el espacio en blanco que se muestra a continuación:
 
-![Procesar imagen](../../assets/images/cap12/chp12_img26_08.png)
-_**Imagen 47.** Mensaje Alerta OT_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"15_47.png"
+  alt:"Mensaje Alerta OT"
+%}
 
 Luego, dar clic en el botón <a class="btn black">Subir archivo</a> y el sistema confirma a través de un mensaje que el archivo ha sido subido correctamente y continuar con <a class="btn bg-gray cl-black">ACEPTAR</a>:
 
-![Procesar imagen](../../assets/images/cap12/chp12_img26_09.png)
-_**Imagen 48.** Mensaje registro OT_
-
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"15_48.png"
+  alt:"Mensaje registro OT"
+%}
 
 <a class="btn blue">CREAR NUEVA SOLICITUD <span class="mdi mdi-plus-circle-outline"></span></a> : Se usa para crear nuevas solicitudes de servicio. Aplica cuando se ha enviado una SS y se desea generar una nueva.
 
 <a class="btn blue">CONSULTAR ORDENES <span class="mdi mdi-account-box"></span></a> : Este botón lo remite a una nueva ventana en la que puede realizar búsquedas y consultas de OT creadas previamente. Para mayor información al respecto se detalla en la sección de “Consultar Mis Ordenes” de este manual.
 
-
-
-
 **<span class="mdi mdi-home"></span>:** Este botón lleva a la ventana de Menú Principal.
 
 **<span class="mdi mdi-exit-to-app"></span>:** Este botón  permite salir de la aplicación **AMsi**.
-

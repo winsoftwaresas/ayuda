@@ -13,8 +13,13 @@ media: "../../assets/images/docs/"
 
 Esta transacción trae el listado de las OT que ha realizado el usuario solicitante. Tiene como finalidad de que el usuario pueda realizar constantemente y en tiempo real el seguimiento y consultas a sus OT. A esta ventana se llega al dar clic a la opción de Consultar Mis Órdenes en la ventana de Menú Principal.
 
-![Procesar imagen](../../assets/images/cap12/chp12_img27.png)
-_**Imagen 49.** AMsi - Consultar Mis Ordenes_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"15_49.png"
+  alt:"AMsi - Consultar Mis Ordenes"
+%}
 
 ### 8.1 Subgrupos
 
@@ -22,15 +27,25 @@ Inicialmente esta transacción trae el listado del total de las OT que se han re
 
 Sin embargo, es posible hacer Subgrupos  a través del ícono de triángulo invertido superior derecho <span class="mdi mdi-filter-variant"></span> y ver solo las OT creadas por el Usuario logueado. Esto tiene como finalidad de que el usuario pueda realizar constantemente y en tiempo real el seguimiento y consultas a sus OT. A esta ventana se llega al dar clic a la opción de **Consultar Mis Ordenes** en la ventana de Menú Principal.
 
-![Procesar imagen](../../assets/images/cap12/chp12_img28.png)
-_**Imagen 50.** AMsi - Ir a Subgrupos_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"15_50.png"
+  alt:"AMsi - Ir a Subgrupos"
+%}
 
 **AMsi** mantiene activo cualquier subgrupo, hasta que el usuario lo modifique o restablezca los valores estándar. Cuando el ícono <a class="btn bg-white fs-2"><span class="iconify btn-icon cl-black" data-icon="mdi-filter-variant"></span><span class="dot bg-af-red"></span></a> se muestra con una pelota roja, está indicando que lo que se visualiza en el visor es un subgrupo. El sistema permite entonces hacer selección de un grupo de OT de acuerdo con los criterios seleccionados.
 
 Una vez dado un clic sobre el ícono de subgrupos <span class="mdi mdi-filter-variant"></span>, se muestran los siguientes criterios de búsqueda:
 
-![Procesar imagen](../../assets/images/cap12/chp12_img29.png)
-_**Imagen 51.** AMsi - Subgrupo Órdenes_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"15_51.png"
+  alt:"AMsi - Subgrupo Órdenes"
+%}
 
 Los campos de datos que constituyen criterio de selección en la Ventana Subgrupo de **AMsi** son los siguientes:
 
@@ -62,8 +77,13 @@ Los campos de datos que constituyen criterio de selección en la Ventana Subgrup
 
 Para realizar la consulta de una OT, basta con dar clic a uno de los registros listados en el Visor, y a continuación se muestra en detalle toda la información allí contenida:
 
-![Procesar imagen](../../assets/images/cap12/chp12_img30.png)
-_**Imagen 52.** AMsi - Detalle de la Orden_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"15_52.png"
+  alt:"AMsi - Detalle de la Orden"
+%}
 
 Este visor contiene la siguiente información:
 
@@ -111,7 +131,12 @@ Estos campos solo son manipulados por los encargados del área de mantenimiento 
 
 **Comentario:** El campo comentario es un campo que no es modificable. A través de este visor que muestra el Detalle de la OT, es posible que el usuario realice comentarios relevantes e importantes para el área de Mantenimiento. Para realizar los comentarios, se debe dirigir al final de la Ventana Detalle de la OT y digitar el comentario en el campo llamado “Comentario”, para agregarlo a la OT se debe dar clic al botón <a class="btn blue">Agregar comentario</a>. Al dar clic aparecerá el comentario ingresado al lado derecho en una ventana tipo chat bloqueada y a su vez inhabilita la modificación de los comentarios que allí se encuentren; además de la fecha, hora y el usuario logueado que realizó el comentario. Estos comentarios también se visualizan desde el módulo de Ordenes de **AM**.
 
-![Procesar imagen](../../assets/images/cap12/chp12_img31.png)
-_**Imagen 53.** AMsi - Agregar Comentarios_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"15_53.png"
+  alt:"AMsi - Agregar Comentarios"
+%}
 
 > **Nota:** Los comentarios pueden ser el medio de comunicación entre el Usuario Solicitante y Mantenimiento, los comentarios quedan grabados uno debajo del otro en una ventana tipo chat. 
