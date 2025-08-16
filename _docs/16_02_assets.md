@@ -496,7 +496,7 @@ Se ilustra dentro del mismo ejemplo de inventario el registro de un Activo con l
   path:""
   css_class:""
   number:""
-  filename:"16_.46png"
+  filename:"16_46.png"
   alt:"AMovil - Inventario físico Continuar Inventario"
 %}
 

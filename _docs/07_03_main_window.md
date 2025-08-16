@@ -142,9 +142,6 @@ La funcionalidad de poder definir que el Solicitante sea el usuario logueado y n
 
 <a class="btn cl-blue bg-white">ir a la Orden de Trabajo generada >> </a> : Este campo en realidad es un enlace el cual se genera automáticamente cuando la SS es cerrada con OT (**CO** ó Cerrada como una Orden de Trabajo) y funciona como un vínculo directo a la Orden de Trabajo en el módulo de <a class="btn cl-white bg-blue">Órdenes</a>. En la ficha técnica de la OT también se crea un vínculo hacia la Solicitud de Servicio que le dio origen y se muestra como:  <a class="btn cl-blue bg-white"><< ir a la Solicitud que genero la orden </a>, a continuación se ilustra estos enlaces en las siguientes dos imágenes:
 
-![Procesar imagen](../../assets/images/cap07/chp07_img05_01.png)
-_**Imagen 5.** _
-
 {% set_image
   path:""
   css_class:""
