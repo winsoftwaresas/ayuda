@@ -37,7 +37,7 @@ A continuación, se describe la convención utilizada para la nomenclatura de lo
   path:""
   css_class:""
   number:""
-  filename:"01_13.png"
+  filename:"01_12.png"
   alt:"Nomenclatura de Reportes"
 %}
 
@@ -104,7 +104,7 @@ Es importante tener en cuenta que AM cambia el consecutivo u ordinal de las Órd
   path:""
   css_class:""
   number:""
-  filename:"01_14.png"
+  filename:"01_13.png"
   alt:"Ventana Valores por Defecto"
 %}
 

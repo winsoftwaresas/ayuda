@@ -17,21 +17,31 @@ Se explica el formulario a diligenciar para actualizar el perfil del usuario Sol
 
 La siguiente transacción permite que el usuario pueda actualizar la información personal cuando lo requiera y visualizar los Centros de Costos/Compañías asociados. Para acceder a esta ventana se da un clic a este botón ubicado en la ventana de Menú Principal.
 
-![Procesar imagen](../../assets/images/cap12/chp12_img03.png)
-_**Imagen 3.** Botón Actualizar Perfil_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"15_03.png"
+  alt:"Botón Actualizar Perfil"
+%}
 
 El sistema muestra automáticamente el Detalle del Formulario para Actualizar Perfil en la ventana de Menú Principal del usuario.
 
-![Procesar imagen](../../assets/images/cap12/chp12_img04.png)
-**_Imagen 4. Actualizar Perfil_**
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"15_04.png"
+  alt:"Actualizar Perfil"
+%}
 
 A continuación, se describen los campos que componen el registro. Sobre cada campo se da una breve explicación:
 
 ### Campos Del Formulario _Datos Del Solicitante_
 
-Este cuadro hace referencia a los Datos del Solicitante necesarios para la creación de una OT/SS. Algunos campos son obligatorios, estos datos se reconocen y se diferencian de los demás por el caracter asterisco (*) en color rojo que antecede el nombre del campo.
+Este cuadro hace referencia a los Datos del Solicitante necesarios para la creación de una OT/SS. Algunos campos son obligatorios, estos datos se reconocen y se diferencian de los demás por el carácter asterisco (*) en color rojo que antecede el nombre del campo.
 
->**Nota:** Este formulario sólo es configurado por el Administrador General del **AMsi** en Información del Solicitante. Para mayor información dirigirse al capítulo Configuración **AMsi**.
+> **Nota:** Este formulario sólo es configurado por el Administrador General del **AMsi** en Información del Solicitante. Para mayor información dirigirse al capítulo Configuración **AMsi**.
 
 **Tipo Documento:** Este campo se encuentra bloqueado y muestra el tipo de documento con el cual el usuario se identifica y es configurado por el Administrador General del **AMsi**. (Campo requerido).
 
@@ -48,7 +58,7 @@ Este cuadro hace referencia a los Datos del Solicitante necesarios para la creac
 Indicativo del país y de la ciudad + número telefónico fijo. Ejemplo:
 
 (602) 2345678, donde:
-(602) Indica el pais Colombia y la ciudad Cali
+(602) Indica el país Colombia y la ciudad Cali
 2345678	Indica el número de Teléfono Fijo
 
 **Extensión:** En este campo se asigna un número de extensión telefónico donde se puede localizar a la persona solicitante.
@@ -65,12 +75,9 @@ Indicativo del país y de la ciudad + número telefónico fijo. Ejemplo:
 
 Según la configuración de AMsi, este cuadro muestra los **Centros de Costo** autorizados o las **Compañías** (Centro de Servicio) a los que el Usuario puede solicitar servicios al área de Mantenimiento.
 
-
-
 Por configuración del sistema los Centros de Costos son amplios o restrictivos para la Creación de SS/OTs, es decir,  sólo se listan los Activos/Equipos pertenecientes  al Centro de Costo asociado a la SS/OT.  Esta asociación es configurada únicamente por el Administrador General de **AMsi**. Es posible asociar un solo Centro de Costo a un Solicitante,  Todos Los Centros de Costo de todas las compañías o solo algunos.
 
 Para actualizar  la información de este cuadro llamado _Centros de Costo Autorizados_, se debe realizar a través del usuario administrador de **AMsi** en la transacción **Administrar Usuarios.** Se da una explicación de los campos de la imagen anterior:
-
 
 **Centro de Servicio:** Hace referencia a las  compañías creadas en **AM.** Estas compañías (centros de servicios) son las directamente responsables de la ejecución de las actividades de mantenimiento al interior de la Organización. En el formulario se visualizan los Centros de Servicios o las Compañías a los que el solicitante está asociado.
 
@@ -81,7 +88,12 @@ De todos modos para una SS/OT en particular es posible cambiar el Centro de Cost
 Para un usuario Solicitante que tenga Todos Los Centros de Costo asociados, este formulario no se visualiza, sino que el Solicitante primero debe elegir el Centro de Servicio y acorde con la elección, se muestran los Centros de Costos correspondientes.
 Una vez se diligencien todos los campos de _Datos del Solicitante_ se deben guardar los cambios con el botón  <a class="btn blue">Actualizar <span class="mdi mdi-pencil"></span></a> ubicado en la parte inferior izquierda. Seguido, se muestra un mensaje de alerta confirmando la transacción.
 
-![Procesar imagen](../../assets/images/cap12/chp12_img05.png)
-_**Imagen 5.** Mensaje de Confirmación de la actualización del perfil_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"15_05.png"
+  alt:"Mensaje de Confirmación de la actualización del perfil"
+%}
 
-**Nota:** En la configuración  que relaciona los usuarios por compañía el formulario es el mismo, sólo que no se muestra información enla líneas referentes a Centros de Costo. 
+**Nota:** En la configuración  que relaciona los usuarios por compañía el formulario es el mismo, sólo que no se muestra información en las líneas referentes a Centros de Costo. 

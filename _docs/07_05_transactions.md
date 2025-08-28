@@ -164,9 +164,6 @@ En la parte superior se encuentra una nota en color rojo haciendo énfasis en el
 
 El sistema confirma cuando se ha terminado la transacción:
 
-![Procesar imagen](../../assets/images/cap07/chp07_img30.png)
-_**Imagen 31.** _ 
-
 {% set_image
   path:""
   css_class:""

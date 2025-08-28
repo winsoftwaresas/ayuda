@@ -290,9 +290,6 @@ Para acceder a esta transacción se sobrepone el cursor sobre el Almacén en cue
 
 Al ingresar se visualiza la ventana Visor de Reservas, cada título en azul permite organizar la información ascendente/descendente. 
 
-![Procesar imagen](../../assets/images/cap04/chp04_img47.png)
-_**Imagen 53.** _ 
-
 {% set_image
   path:""
   css_class:""

@@ -15,17 +15,25 @@ module Jekyll
       number = @params['number'] || ''
       css_class = @params['css_class'] || nil
       
-      # Lógica mejorada para obtener el número del nombre del archivo y eliminar ceros
+      # Lógica para obtener el número del nombre del archivo y manejar versiones
       if number.empty? && filename
-        if filename =~ /^(\d+)_(\d+)\./
-          # Convertimos los números a enteros para eliminar los ceros, y luego de nuevo a string
-          number = "#{$1.to_i}.#{$2.to_i}"
-        elsif filename =~ /(\d+)_(\d+)\./
-          number = "#{$1.to_i}.#{$2.to_i}"
+        if filename =~ /^(.*?)_(\d+)\./
+          version_part = $1
+          image_number_part = $2
+          
+          # Si la versión comienza con '0.', conserva el '0'. Si no, elimina ceros iniciales
+          if version_part.start_with?('0.')
+            version_formatted = version_part
+          else
+            version_formatted = version_part.split('.').map(&:to_i).join('.')
+          end
+          
+          # Elimina el cero inicial del número de imagen
+          image_number_formatted = image_number_part.to_i.to_s
+          
+          number = "#{version_formatted}.#{image_number_formatted}"
         elsif filename =~ /^(\d+)\./
-          number = $1.to_i.to_s
-        elsif filename =~ /(\d+)\./
-          number = $1.to_i.to_s
+          number = $1.to_i
         end
       end
       

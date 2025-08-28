@@ -18,20 +18,29 @@ Se orienta al Administrador en la creación y actualización de datos del Usuari
 * Asociar/Desasociar Centros de Costo/Compañías
 * Actualización de Usuarios
 
-
 Una vez ingrese por medio del Usuario Administrador, dar clic en **Administrar Usuarios** en la ventana de Menú Principal para continuar con la Administración de los Usuarios de **AMsi**.
 
-![Procesar imagen](../../assets/images/cap12/chp12_img41.png)
-***Imagen 64.** AMsi - Ir a Administrar Usuarios*
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"15_64.png"
+  alt:"AMsi - Ir a Administrar Usuarios"
+%}
 
 #### Ventana Visor de Usuarios
 
-![Procesar imagen](../../assets/images/cap12/chp12_img42.png)
-***Imagen 65.** AMsi - Visor Administrar Usuarios*
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"15_65.png"
+  alt:"AMsi - Visor Administrar Usuarios"
+%}
 
 El Visor de Administrar Usuarios lista el total de los usuarios registrados en el  **AMsi** .
 
-Los títulos en azul que encabezan las columnas son también botones que permiten ordenar la tabla, según el título seleccionado de orden ascendente/descente.
+Los títulos en azul que encabezan las columnas son también botones que permiten ordenar la tabla, según el título seleccionado de orden ascendente/descendente.
 
 Para elegir un registro de la tabla se da un clic sobre él.
 
@@ -45,8 +54,13 @@ En  la  parte inferior  derecha de esta ventana se observan también varios enla
 
 #### Ventana Detalle de Usuarios
 
-![Procesar imagen](../../assets/images/cap12/chp12_img43.png)
-***Imagen 66.** AMsi - Visor Administrar Usuarios*
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"15_66.png"
+  alt:"AMsi - Visor Administrar Usuarios"
+%}
 
 Es la porción de la pantalla en que se muestran los datos detallados del usuario seleccionado en la ventana Visor.
 
@@ -67,8 +81,13 @@ Para salir de la ventana Detalle se puede dar clic en la parte de afuera de esta
 
 <br>
 
-![Procesar imagen](../../assets/images/cap12/chp12_img44.png)
-***Imagen 67.** AMsi - Detalle Usuario*
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"15_67.png"
+  alt:"AMsi - Detalle Usuario"
+%}
 
 A este formulario se llega haciendo clic sobre el botón <a class="btn blue">NUEVO<span class="mdi mdi-plus-circle-outline"></span></a> de la ventana detalle del usuario. A través de ella se diligencian los Datos del Usuario y se asocian los Centros de Costo para la creación del mismo en **AMsi** . A continuación, se describen los campos que componen esta ventana de Creación de Usuarios.
 
@@ -100,8 +119,13 @@ Todos los campos marcados con asterisco (*) son de carácter obligatorio.
 
 **Compañía:** Está estructurado por un campo desplegable para seleccionar la compañía. Según la elección se listan los centros de costo de esa compañía en el recuadro inferior izquierdo para asignar manualmente los Centros de Costo al usuario como se muestra a continuación:
 
-![Procesar imagen](../../assets/images/cap12/chp12_img45.png)
-***Imagen 68.** AMsi - Elegir Compañía*
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"15_68.png"
+  alt:"AMsi - Elegir Compañía"
+%}
 
 En el campo anterior se selecciona la compañía deseada, y luego en el cuadro de la inferior e la izquierda se listan todos los Centros de Costo correspondientes a esa compañía. Mientras que, en el cuadro inferior de la derecha, se listan los Centros de Costo que se van asociando al usuario solicitante.
 
@@ -109,25 +133,31 @@ La funcionalidad consiste en seleccionar el Centro de Costo desde el recuadro de
 
 Para asociar varios Centros de Costo, se presiona la tecla “Shift” sostenido y con el cursor se eligen los Centros de Costo desde el cuadro izquierdo usando las fechas de traslado.
 
-![Procesar imagen](../../assets/images/cap12/chp12_img46.png)
-***Imagen 69.** AMsi - Asociar/Desasociar Centros de Costo*
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"15_69.png"
+  alt:"AMsi - Asociar/Desasociar Centros de Costo"
+%}
 
 Para visualizar la información completa de los Centros de Costo disponibles para ser asociados y los que se asociaron al usuario solicitante y facilitar su recorrido es posible realizar desplazamientos verticales del cursor tanto hacia el comienzo como hacia  el final del cuadro.
 
 > **Nota:** Una vez que se inserta un usuario nuevo o se actualice un usuario existente, el sistema muestra un mensaje de notificación de registro exitoso.
 
-
 Cuando se tiene la parametrización de Relacionar Usuarios por **Compañía** el proceso anterior es el mismo, sólo que en lugar de listar **<a class="btn black cl-gray"><span class="mdi mdi-checkbox-blank-outline"> Todos los centros de costo</span></a>** cambia a **<a class="btn black cl-gray"><span class="mdi mdi-checkbox-blank-outline"> Todas las compañias</span></a>**. El recuadro inferior en lugar de listar los Centros de Costo, lista las **Compañías**.Sin embargo, es el mismo proceso. Se muestra una imagen a continuación:
 
-
-![Procesar imagen](../../assets/images/cap12/chp12_img46_01.png)
-***Imagen 70.** AMsi - Asociar/Desasociar Compañias*
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"15_70.png"
+  alt:"AMsi - Asociar/Desasociar Compañías"
+%}
 
 Para mayor comprensión remitirse al siguiente video:
 
-
 <iframe width="600" height="340" src="https://www.youtube.com/embed/lVxeyoa4Uzg?si=AFz19vx80YZE6iPP" title="Parametrización AMsi - Creación de usuarios relacionados por Compañía" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen uk-responsive></iframe>
-
 
 <br>
 
@@ -135,7 +165,4 @@ Para actualizar un usuario, se debe seleccionar el registro y hacer las modifica
 
 <iframe width="600" height="340" src="https://www.youtube.com/embed/zXiMzC7gtz4?si=HTHPaCuLyyiRTU9_" title="Parametrización AMsi - Administración Usuarios - ¿Cómo actualizar un usuario?" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen uk-responsive></iframe>
 
-
 <br>
-
-

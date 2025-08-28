@@ -24,8 +24,13 @@ Como se indicó al inicio, sólo el Administrador encargado del **AMsi** puede a
 
 Para poder ingresar a la configuración de **AMsi** , el Administrador debe conocer el nombre de usuario y contraseña del Administrador del aplicativo. Tales datos se ingresan en la siguiente ventana de acceso:
 
-![Procesar imagen](../../assets/images/cap12/chp12_img32.png)
-_**Imagen 54.** AMsi - Inicio_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"15_54.png"
+  alt:"AMsi - Inicio"
+%}
 
 Una vez se ingrese, se puede observar el _Menú Principal del Usuario Administrador_ del  **AMsi** .
 
@@ -33,9 +38,13 @@ Una vez se ingrese, se puede observar el _Menú Principal del Usuario Administra
 
 La ventana de Menú Principal del Usuario Administrador muestra las transacciones que el usuario puede realizar a través del **AMsi**.
 
-![Procesar imagen](../../assets/images/cap12/chp12_img33.png)
-_**Imagen 55.** AMsi - Menú Principal_
-
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"15_55.png"
+  alt:"AMsi - Menú Principal"
+%}
 
 A continuación, se describen las transacciones que componen esta ventana.
 
@@ -53,28 +62,41 @@ A continuación, se describen las transacciones que componen esta ventana.
 
 Una vez se ingrese con los datos del usuario administrador, se debe dar clic a este botón ubicado en la ventana de Menú Principal para continuar con la Configuración de  **AMsi**.
 
-![Procesar imagen](../../assets/images/cap12/chp12_img34.png)
-_**Imagen 56.** AMsi - Configuración_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"15_56.png"
+  alt:"AMsi - Configuración"
+%}
 
 Los componentes de la ventana de Configuración General son los que se muestran a continuación.Sobre cada uno se da una breve explicación:
 
-![Procesar imagen](../../assets/images/cap12/chp12_img35.png)
-_**Imagen 57.** AMsi - Ir a Configuración_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"15_57.png"
+  alt:"AMsi - Ir a Configuración"
+%}
 
 **Botón Inicio <span class="mdi mdi-home"></span>:** Este botón lleva a la ventana de Menú Principal del Usuario Administrador.
 
 **Botón Cerrar Sesión <span class="mdi mdi-exit-to-app"></span>:** Este botón permite salir del aplicativo  **AMsi**.
 
-
 #### General 
 
-![Procesar imagen](../../assets/images/cap12/chp12_img36.png)
-_**Imagen 58.** AMsi - General_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"15_58.png"
+  alt:"AMsi - General"
+%}
 
 **Mensaje en la ventana de registro de la solicitud:** En este campo se digita un mensaje que se desliza y aparece en la parte superior del formulario del Servicio a Solicitar. Es de utilidad para dar información en caso de que el usuario tenga inquietudes. 
 
 **Generar automáticamente Órdenes al guardar la solicitud:** Marcar SI indica que el aplicativo se usa para la creación de Órdenes de Trabajo en lugar de crear Solicitudes de Servicio. En tal caso, los botones de **Crear Nueva Solicitud** y **Consultar Mis Solicitudes** cambian a **Crear Nueva Orden** y **Consultar Mis Ordenes**  respectivamente. El sistema entonces cambia su funcionalidad para **Crear y Consultar Órdenes de Trabajo**.
-
 
 **Solicitar fecha tentativa de entrega:** Marcar SI, permite mostrar el campo para ingresar la fecha en el formulario del Servicio a Solicitar con el fin de que el usuario solicitante sugiera una solución tentativa del servicio.
 
@@ -86,9 +108,13 @@ _**Imagen 58.** AMsi - General_
 
 En esta ventana se configuran los campos que serán exigidos en la sección Datos del Solicitante, bien sea para crear un nuevo Usuario o cuando se vaya a **Actualizar el Perfil**. Los componentes de la ventana de Información del Solicitante son los que se muestran a continuación. Sobre cada componente se da una breve explicación:
 
-![Procesar imagen](../../assets/images/cap12/chp12_img37.png)
-_**Imagen 59.** AMsi - Información Solicitante_
-
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"15_59.png"
+  alt:"AMsi - Información Solicitante"
+%}
 
 **¿El Teléfono es requerido?:** Marcar SI indica que este campo es obligatorio y se identifican con un asterisco * de color rojo entre paréntesis que antecede el nombre del campo. Además, indica que debe ser llenado por los usuarios. Marcar NO implica dejar el campo a manera opcional de diligenciamiento para el solicitante al momento de actualizar la información dese Actualizar Perfil o para el usuario administrador al momento de crear y actualizar los usuarios.
 
@@ -96,19 +122,21 @@ _**Imagen 59.** AMsi - Información Solicitante_
 
 **¿La Dirección es requerida?:** Marcar SI indica que este campo es obligatorio y se identifican con un asterisco * de color rojo entre paréntesis que antecede el nombre del campo. Además, indica que debe ser llenado por los usuarios. Marcar NO implica dejar el campo a manera opcional de diligenciamiento para el solicitante al momento de actualizar la información dese Actualizar Perfil o para el usuario administrador al momento de crear y actualizar los usuarios.
 
-
 **¿La Ciudad es requerida?:** Marcar SI indica que este campo es obligatorio y se identifican con un asterisco * de color rojo entre paréntesis que antecede el nombre del campo. Además, indica que debe ser llenado por los usuarios. Marcar NO implica dejar el campo a manera opcional de diligenciamiento para el solicitante al momento de actualizar la información dese Actualizar Perfil o para el usuario administrador al momento de crear y actualizar los usuarios.
 
 **¿El Correo Electrónico es requerido?:** Marcar SI indica que este campo es obligatorio y se identifican con un asterisco * de color rojo entre paréntesis que antecede el nombre del campo. Además, indica que debe ser llenado por los usuarios. Marcar NO implica dejar el campo a manera opcional de diligenciamiento para el solicitante al momento de actualizar la información desde **Actualizar Perfil** o para el usuario administrador al momento de crear y actualizar los usuarios.
-
 
 #### Servicio Solicitado
 
 En esta ventana se configuran los campos que serán exigidos en la sección Servicio Solicitado. Los componentes de la ventana de Servicio Solicitado son los que se muestran a continuación. Sobre cada componente se da una breve explicación.
 
-![Procesar imagen](../../assets/images/cap12/chp12_img38.png)
-_**Imagen 60.** AMsi - Formulario Servicio Solicitado_
-
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"15_60.png"
+  alt:"AMsi - Formulario Servicio Solicitado"
+%}
 
 **¿Cómo nombrar las compañías?:** Se refiere a los nombres de las Compañías creadas en el AM, es decir, los Centros de Servicio responsables de las diferentes actividades de mantenimiento del Cliente. Por defecto ellas son nombradas como Centro de Servicio y pueden ser renombradas a gusto según la cultura del Cliente.
 
@@ -126,13 +154,17 @@ _**Imagen 60.** AMsi - Formulario Servicio Solicitado_
 
 En esta ventana se configuran las opciones correspondientes para el campo de Activo/Equipo en el formulario Servicio Solicitado, en el proceso de creación de una SS y/o OT. Los componentes de la ventana de Identificación del Activo son los que se muestran a continuación. Sobre cada componente se da una breve explicación.
 
-![Procesar imagen](../../assets/images/cap12/chp12_img39.png)
-_**Imagen 61.** AMsi - Identificar Activo_
-
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"15_61.png"
+  alt:"AMsi - Identificar Activo"
+%}
 
 **¿Desea describir el Activo en lenguaje natural?:** Elegir SI en este botón, habilita un checkbox <a class="btn cl-black "><span class="mdi mdi-checkbox-blank-outline"> </span></a> al extremo izquierdo del campo Activo / Equipo. Al chequear este cuadro, inmediatamente se habilitan dos campos que pueden ser diligenciados. El primer campo es para describir en lenguaje natural el Activo o Equipo hasta con 50 caracteres, y el segundo campo es para describir también en lenguaje natural la ubicación física del Activo o Equipo referenciado hasta con 50 caracteres. De elegir NO, quedará disponible para definir el código de Activo/Equipo solamente del icono Subgrupo <span class="mdi mdi-filter-variant icon white"></span> y seleccionarlo del visor de Activos. 
 
->**Nota:** Es de tener en cuenta que cuando se elige la opción para crear y consultar **Órdenes**, la opción para describir el Activo en Lenguaje Natural no está disponible.
+> **Nota:** Es de tener en cuenta que cuando se elige la opción para crear y consultar **Órdenes**, la opción para describir el Activo en Lenguaje Natural no está disponible.
 
 **¿La ubicación física es requerida?:** Elegir SI indica que éste es un campo obligatorio que debe ser llenado por los usuarios en el formulario Información de la Solicitud. Marcar NO implica que el campo tiene un uso opcional de diligenciamiento para el solicitante.
 
@@ -142,22 +174,29 @@ Si el Activo/Equipo es seleccionado de una lista o ingresado con su respectivo c
 
 En esta ventana se establece el Usuario y Contraseña del Administrador del  **AMsi** , además se configuran los servidores de correo con usuarios y contraseñas. Los componentes de la ventana de Seguridad son los que se muestran a continuación. Sobre cada componente se da una breve explicación:
 
-![Procesar imagen](../../assets/images/cap12/chp12_img40.png)
-_**Imagen 62.** AMsi - Seguridad_
-
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"15_62.png"
+  alt:"AMsi - Seguridad"
+%}
 
 **Usuario Administrador:** En este campo se define el usuario Administrador con el cual se accede al sistema para la Configuración de **AMsi**.
 
 **Contraseña:** En este campo se asigna una Contraseña para el usuario Administrador, con el fin de acceder a la Configuración de **AMsi**. La Contraseña se muestra en blanco o sin diligenciar por seguridad.
 
-
 ### Configuración
 
-![Procesar imagen](../../assets/images/cap12/chp12_img40_1.png)
-_**Imagen 63.** AMsi - Configuración_
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"15_63.png"
+  alt:"AMsi - Configuración"
+%}
 
 **¿Usa Directorio Activo de Azure?:** De marcar SI, indica que debe hacer las configuraciones respectivas para que el logueo de cada usuario en **AMsi** sea por medio del directorio Activo. Esto debe configurarse con el equipo técnico de WIN Software.
-
 
 #### 9.3.6 Finalizando la Configuración
 
