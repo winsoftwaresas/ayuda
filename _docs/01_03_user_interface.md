@@ -42,7 +42,7 @@ En caso de estar trabajando con Gerente o un usuario administrador, esta barra s
   path:""
   css_class:""
   number:""
-  filename:"01_04.png"
+  filename:"01_03.png"
   alt:"Ventana Administración"
 %}
 
@@ -54,7 +54,7 @@ El submenú tiene un conjunto de transacciones que se usan para ejecutar funcion
   path:""
   css_class:""
   number:""
-  filename:"01_05.png"
+  filename:"01_04.png"
   alt:"Submenú AM"
 %}
 
@@ -64,7 +64,7 @@ El submenú tiene un conjunto de transacciones que se usan para ejecutar funcion
   path:""
   css_class:""
   number:""
-  filename:"01_06.png"
+  filename:"01_05.png"
   alt:"Ventana Visor"
 %}
 
@@ -92,7 +92,7 @@ En la parte inferior derecha de esta ventana se observan también varios enlaces
   path:""
   css_class:""
   number:""
-  filename:"01_07.png"
+  filename:"01_06.png"
   alt:"Ventana Detalle"
 %}
 
@@ -119,7 +119,7 @@ Para salir de la ventana Detalle se puede dar clic a la **X** que se encuentra a
   path:""
   css_class:""
   number:""
-  filename:"01_08.png"
+  filename:"01_07.png"
   alt:"Ventana menú de mas información"
 %}
 
@@ -139,7 +139,7 @@ Esta ventana se ubica en la parte superior derecha del menú principal. Contiene
   path:""
   css_class:""
   number:""
-  filename:"01_09.png"
+  filename:"01_08.png"
   alt:"Ventana Reportes"
 %}
 
@@ -161,7 +161,7 @@ Después de seleccionar el tipo de registro se procede a seleccionar el reporte 
   path:""
   css_class:""
   number:""
-  filename:"01_10.png"
+  filename:"01_09.png"
   alt:"Ventana Reporte Impresa"
 %}
 
@@ -237,7 +237,7 @@ Cuando se trata de la versión **AM** ST el sistema solicita el nombre de usuari
   path:""
   css_class:""
   number:""
-  filename:"01_11.png"
+  filename:"01_10.png"
   alt:"Ventana de Acceso AM"
 %}
 
@@ -247,6 +247,6 @@ Cuando se ha hecho el acceso exitoso al sistema se muestra por defecto una venta
   path:""
   css_class:""
   number:""
-  filename:"01_12.png"
+  filename:"01_11.png"
   alt:"Ventana de Acceso AM"
 %}
