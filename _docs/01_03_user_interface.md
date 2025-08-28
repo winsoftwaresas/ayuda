@@ -31,18 +31,10 @@ La porción de Menú Principal normalmente está conformada por la barra de opci
   css_class:""
   number:""
   filename:"01_02.png"
-  alt:"Ventana Menú Principal"
+  alt:"Ventana Menú Principal e Infraestructura"
 %}
 
 En caso de estar trabajando en Infraestructura, se muestra una ventana que se ubica debajo de ella y que detalla los nombres de cada una de las tablas de la Infraestructura. A través de ellas se posibilita el acceso directo al módulo.
-
-{% set_image
-  path:""
-  css_class:""
-  number:""
-  filename:"01_03.png"
-  alt:"Ventana Infraestructura"
-%}
 
 En caso de estar trabajando con Gerente o un usuario administrador, esta barra se complementa listando todas las compañías existentes.
 
