@@ -106,8 +106,6 @@ Finalmente para agregar la línea con la información del movimiento accione el 
   alt:"Kárdex - Agregar un movimiento"
 %}
 
-> **Nota:** En este paso de la transacción se pueden hacer modificaciones y eliminaciones antes de insertar el movimiento. Luego de insertar el movimiento no es posible hacer cambios.
-
 Luego de agregar, se visualiza la información del movimiento al insertar:
 
 {% set_image
@@ -117,6 +115,8 @@ Luego de agregar, se visualiza la información del movimiento al insertar:
   filename:"05_12.png"
   alt:"Kárdex - Agregar un movimiento"
 %}
+
+> **Nota:** En este paso de la transacción se pueden hacer modificaciones y eliminaciones antes de insertar el movimiento. Luego de insertar el movimiento no es posible hacer cambios.
 
 Para **Modificar** el movimiento se debe dar clic en el campo del **Código RP** y en la parte inferior se mostrará de nuevo el formulario anterior para que realice los cambios necesarios y luego accione el botón <span class="mdi mdi-autorenew icon bg-gray cl-blue "></span> y observe el cambio nuevamente en la línea de movimiento:
 
