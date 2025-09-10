@@ -499,7 +499,7 @@
     }
     .sidebar-docs {
         width: $docs-sidebar-width - $global-medium-gutter;
-        padding-right: $global-medium-gutter;
+        padding-right: $global-small-gutter;
         top: 112px;
         bottom: 70px;
         overflow-y: scroll;
@@ -514,11 +514,11 @@
     
     @media (min-width: $breakpoint-large) {
         .sidebar-fixed-width {
-            width: $docs-sidebar-width-l;
+            width: $docs-sidebar-width;
         }
         .sidebar-docs {
-            width: $docs-sidebar-width-l - $global-large-gutter;
-            padding-right: $global-large-gutter;
+            width: $docs-sidebar-width;
+            padding-right: $global-small-gutter;
         }
     }
     
