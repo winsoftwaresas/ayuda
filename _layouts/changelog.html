@@ -11,32 +11,37 @@ layout: default
             {{ content }}
         </div>
 
+        <ul uk-accordion>
         {% assign changelogs = site.changelogs | sort: 'date' | reverse %}
         {% for changelog in changelogs %}
-            <article class="uk-article uk-margin-medium-top">
-                <hr class="uk-margin-medium-bottom">
-                <div class="uk-position-relative">
-                    <h2>{{ changelog.title }}</h2>
-                    <div class="uk-position-center-left-out uk-position-large uk-visible@m uk-text-small uk-text-muted">
-                        {% if changelog.date %}
-                        <time datetime="{{ changelog.date | date_to_xmlschema }}" itemprop="datePublished">
-                            {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
-                            {{ changelog.date | date: date_format }}
-                        </time>
-                        {% endif %}
-                    </div>
-                    <div class="uk-hidden@m uk-text-small uk-text-muted uk-margin-bottom">
-                        {% if changelog.date %}
-                        <time datetime="{{ changelog.date | date_to_xmlschema }}" itemprop="datePublished">
-                            {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
-                            {{ changelog.date | date: date_format }}
-                        </time>
-                        {% endif %}
-                    </div>
-                </div> 
-                <div class="article-content">{{ changelog.content }}</div>
-            </article>
+            <li>
+                <a class="uk-accordion-title" href>{{ changelog.title }}</a>
+                    <div class="uk-accordion-content">
+                    <article class="uk-article">
+                        <div class="uk-position-relative">
+                                <div class="uk-position-center-left-out uk-position-large uk-visible@m uk-text-small uk-text-muted">
+                                    {% if changelog.date %}
+                                    <time datetime="{{ changelog.date | date_to_xmlschema }}" itemprop="datePublished">
+                                        {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
+                                        {{ changelog.date | date: date_format }}
+                                    </time>
+                                    {% endif %}
+                                </div>
+                                <div class="uk-hidden@m uk-text-small uk-text-muted uk-margin-bottom">
+                                    {% if changelog.date %}
+                                    <time datetime="{{ changelog.date | date_to_xmlschema }}" itemprop="datePublished">
+                                        {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
+                                        {{ changelog.date | date: date_format }}
+                                    </time>
+                                    {% endif %}
+                                </div>
+                        </div> 
+                        <div class="article-content">{{ changelog.content }}</div>
+                    </article>
+                </div>
+            </li>
         {% endfor %}
+        </ul>
 
     </div>
 </div>
