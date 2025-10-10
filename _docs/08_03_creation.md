@@ -36,6 +36,10 @@ Luego de ingresar al módulo o a la Ventana Visor de Paros dirigirse a la parte 
   alt:"Paros - Visor de Paros"
 %}
 
+## Ventana Detalle
+
+### Ficha Técnica
+
 A continuación se muestra la Ventana Detalle con el siguiente formulario:  
 
 {% set_image
