@@ -281,3 +281,9 @@ span.whatsapp-icon svg {
     left: -15px !important;
 }
 /* #endregion custom */
+
+/* #region switcher */
+.uk-switcher > :not(.uk-active) {
+    display: none !important; /* UIkit DEBERÍA usar !important internamente, pero si no lo hace, otra regla lo está ganando. */
+}
+/* #endregion switcher */

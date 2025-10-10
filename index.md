@@ -12,7 +12,7 @@ hero:
 
 <!-- {% include featured.html tag="featured" title="Artículos populares" subtitle="Artículos destacados seleccionados para comenzar rápidamente en AM" %} -->
 
-{% include videos.html columns="2" title="Video Tutoriales" subtitle="Módulo complementario AMsi" %}
+{% include videos.html columns="2" title="Video Tutoriales" subtitle="Selecciona el módulo complementario" %}
 
 <!-- {% include faqs.html multiple="true" title="Preguntas frecuentes" category="presale" subtitle="Encuentra respuestas rápidas a preguntas frecuentes de preventa realizadas por los clientes" %} -->
 
