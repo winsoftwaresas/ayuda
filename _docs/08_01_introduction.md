@@ -10,7 +10,7 @@ media: "../../assets/images/docs/"
 
 - ¿Qué es un Paro o  **FDA**?.
 - ¿cuál es el objetivo de un módulo dedicado a ellos?.
-- Quién puede definir  **FDA**.
+- ¿Quién puede definir  **FDA**?.
 - ¿Cómo se definen y cómo trabaja un Paro o  **FDA**?.  
 - ¿Cuál es su proceso, quienes los protagonistas y como se les hace seguimiento?.
 

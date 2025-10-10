@@ -74,69 +74,71 @@ Infraestructura, que se estaba ejecutando en el momento en que se produjo el FDA
 
 **Código del Activo:** En este campo se visualiza la información del código del Equipo/Activo seleccionado.
 
-**Elección de un Equipo/Activo:**
+**Elección de un Equipo/Activo:** Consiste en buscar el Equipo/Activo, a través del visor de Equipo/Activos. Para ello se da un clic sobre el subgrupo .    Acto seguido se muestra la ventana de visor de Equipo/Activos junto con la de subgrupo para poder ubicarlo. Una vez se encuentra el Equipo/Activo en la Tabla de visor de Equipo/Activos, se selecciona dando un clic sobre cualquiera de sus campos. A continuación se da un clic sobre botón “Aceptar” de   esa   ventana   o   se   hace   doble   clic   sobre   el   registro   seleccionado. Inmediatamente ese código aparece en el primer campo de la línea de Equipo/Activo en la forma de registro de paros. 
 
-Consiste en buscar el Equipo/Activo, a través del visor de Equipo/Activos. Para ello se da un clic sobre el subgrupo .    Acto seguido se muestra la ventana de visor de Equipo/Activos junto con la de subgrupo para poder ubicarlo. Una vez se encuentra el Equipo/Activo en la Tabla de visor de Equipo/Activos, se selecciona dando un clic sobre cualquiera de sus campos. A continuación se da un clic sobre botón “Aceptar” de   esa   ventana   o   se   hace   doble   clic   sobre   el   registro   seleccionado. Inmediatamente ese código aparece en el primer campo de la línea de Equipo/Activo en la forma de registro de paros. 
+**Descripción:** Muestra el nombre o la descripción del Activo seleccionado. Es un campo que no es modificable por el usuario.
 
-Descripción: Muestra el nombre o la descripción del Activo seleccionado. Es un campo que no es modificable por el usuario.
+**FF Fin Garantía:** Muestra la fecha en la que se vence la garantía del Activo seleccionado. Si se encuentra con fecha de garantía vigente se muestra en color negro, mientras que si se encuentra con fecha de garantía vencida se muestra en color rojo. Es un campo que no es modificable por el usuario.
 
-FF Fin Garantía: Muestra la fecha en la que se vence la garantía del Activo seleccionado. Si se encuentra con fecha de garantía vigente se muestra en color negro, mientras que si se encuentra con fecha de garantía vencida se muestra en color rojo. Es un campo que no es modificable por el usuario.
-
-Activo Fijo: En este campo se visualiza la información del Número de Activo Fijo del
+**Activo Fijo:** En este campo se visualiza la información del Número de Activo Fijo del
 Equipo/Activo que se haya establecido en la ficha técnica de este mismo. Es un campo que no es modificable por el usuario.
 
-Código de Inventario: En este campo se visualiza el código del inventario del Equipo/Activo que se haya establecido en la ficha técnica de este mismo. Es un campo que no es modificable por el usuario.
+**Código de Inventario:** En este campo se visualiza el código del inventario del Equipo/Activo que se haya establecido en la ficha técnica de este mismo. Es un campo que no es modificable por el usuario.
 
-Referencia Externa (Proveedor): En este campo se visualiza la información de la referencia del Equipo/Activo que se haya establecido en la ficha técnica de este mismo. Es un campo que no es modificable por el usuario.
+**Referencia Externa (Proveedor):** En este campo se visualiza la información de la referencia del Equipo/Activo que se haya establecido en la ficha técnica de este mismo. Es un campo que no es modificable por el usuario.
 
-Serial: En  este  campo se  visualiza  la información del  Serial  del  Equipo/Activo que se  haya establecido en la ficha técnica de este mismo. Es un campo que no es modificable por el usuario.
+**Serial:** En  este  campo se  visualiza  la información del  Serial  del  Equipo/Activo que se  haya establecido en la ficha técnica de este mismo. Es un campo que no es modificable por el usuario.
 
-Alias:   En este  campo se  visualiza la  información del  Alias  del  Equipo/Activo que  se  haya establecido en la ficha técnica de este mismo. Es un campo que no es modificable por el usuario.
+**Alias:** En este  campo se  visualiza la  información del  Alias  del  Equipo/Activo que  se  haya establecido en la ficha técnica de este mismo. Es un campo que no es modificable por el usuario.
 
-Solicitante:   En este campo se define el nombre del Solicitante del Paro y Avería. Cuando la OT es generada desde un FDA, este campo contiene el solicitante ingresado en el PA. El solicitante puede registrar su nombre en el espacio correspondiente. Sin embargo  es posible también seleccionar su nombre de la lista que se habilita como  desplegable al marcar la opción “Incluido en Terceros”.     
+**Solicitante:**   En este campo se define el nombre del Solicitante del Paro y Avería. Cuando la OT es generada desde un FDA, este campo contiene el solicitante ingresado en el PA. El solicitante puede registrar su nombre en el espacio correspondiente. Sin embargo  es posible también seleccionar su nombre de la lista que se habilita como  desplegable al marcar la opción “Incluido en Terceros”.     
 
-Incluido en TE (RI): Al seleccionar esta opción, en el campo “Solicitante” solo se despliegan los Terceros o Responsables Internos existentes en la tabla de Terceros en infraestructura. Se debe tener  en cuenta que de la tabla de Terceros solo se despliegan los Terceros de Tipo RI. La funcionalidad de poder definir el Solicitante del FDA, se  parametriza  en  Administración, se sobrepone el mouse en una compañía de la lista que se muestra y se da clic en “Valores por defecto”, en la etiqueta de Paros, se selecciona la opción “Preguntar Solicitante”.
+**Incluido en TE (RI):** Al seleccionar esta opción, en el campo “Solicitante” solo se despliegan los Terceros o Responsables Internos existentes en la tabla de Terceros en infraestructura. Se debe tener  en cuenta que de la tabla de Terceros solo se despliegan los Terceros de Tipo RI. La funcionalidad de poder definir el Solicitante del FDA, se  parametriza  en  Administración, se sobrepone el mouse en una compañía de la lista que se muestra y se da clic en “Valores por defecto”, en la etiqueta de Paros, se selecciona la opción “Preguntar Solicitante”.
 
 El  solicitante  del  FDA,  se  permite  parametrizar  para que  se  defina  el  usuario  logueado  al sistema,  bloqueando  el  campo  para  que  no  se  pueda  modificar.  Para  realizar  tal funcionalidad, se debe ir a Administración, se sobrepone el mouse en una compañía de la lista que se muestra y se da clic en “Valores por defecto”, en la etiqueta de Paros, se selecciona la opción “El solicitante es tomado del usuario logueado y no se puede modificar.”.
 
-Correo Electrónico: En este campo se define el correo electrónico del solicitante del FDA, cuando el solicitante es digitado manualmente. Si el solicitante se selecciona con la opción “Incluido en Terceros” y allí se tiene definido el correo electrónico, automáticamente se carga a este campo el e-mail definido en el módulo de Terceros. La funcionalidad del envío de correos electrónicos se parametriza en Administración, se sobrepone el mouse en una compañía de la lista que se muestra y se da clic en “Valores por defecto”, en la etiqueta de General, se selecciona la opción “Enviar correo electrónico al solicitante”. 
+**Correo Electrónico:** En este campo se define el correo electrónico del solicitante del FDA, cuando el solicitante es digitado manualmente. Si el solicitante se selecciona con la opción “Incluido en Terceros” y allí se tiene definido el correo electrónico, automáticamente se carga a este campo el e-mail definido en el módulo de Terceros. La funcionalidad del envío de correos electrónicos se parametriza en Administración, se sobrepone el mouse en una compañía de la lista que se muestra y se da clic en “Valores por defecto”, en la etiqueta de General, se selecciona la opción “Enviar correo electrónico al solicitante”. 
 
-Centro de Costo: Este campo permite seleccionar el Centro de Costo o Cliente que es responsable del Objeto de Mantenimiento. Cuando se define un Equipo u Objeto  de Mantenimiento válido, el sistema trae automáticamente a este campo el Centro de Costo asociado. Inicialmente se sugiere el Centro de Costo que tiene asociado el Activo Objeto de  Mantenimiento, aun así, puede cambiarse.
+**Centro de Costo:** Este campo permite seleccionar el Centro de Costo o Cliente que es responsable del Objeto de Mantenimiento. Cuando se define un Equipo u Objeto  de Mantenimiento válido, el sistema trae automáticamente a este campo el Centro de Costo asociado. Inicialmente se sugiere el Centro de Costo que tiene asociado el Activo Objeto de  Mantenimiento, aun así, puede cambiarse.
 
-Sub CC: Este campo siempre está bloqueado y muestra el Código Sub CC asociado al Centro de Costo elegido. 
+**Sub CC:** Este campo siempre está bloqueado y muestra el Código Sub CC asociado al Centro de Costo elegido. 
 
-Ubicación Física: Este campo permite seleccionar la   Ubicación Física en   la que  se encuentra el  Objeto de  Mantenimiento para  el  que  se  genera el PA. Cuando se  define  un  Equipo  u  Objeto  de  Mantenimiento  válido,  el   sistema  trae automáticamente a este campo la Ubicación Física asociada. Inicialmente se sugiere la Ubicación Física que tiene asociada el Activo Objeto de  Mantenimiento, aun así, puede cambiarse.
+**Ubicación Física:** Este campo permite seleccionar la   Ubicación Física en   la que  se encuentra el  Objeto de  Mantenimiento para  el  que  se  genera el PA. Cuando se  define  un  Equipo  u  Objeto  de  Mantenimiento  válido,  el   sistema  trae automáticamente a este campo la Ubicación Física asociada. Inicialmente se sugiere la Ubicación Física que tiene asociada el Activo Objeto de  Mantenimiento, aun así, puede cambiarse.
 
-Centro Responsable: Se define en este campo el nombre del grupo de Mantenimiento encargado de la ejecución del PA. Para ello, se selecciona uno  de  los  Centros Responsables  que   están  definidos  en  la  tabla  de   “Centros   Responsables” en  la Infraestructura.
+**Centro Responsable:** Se define en este campo el nombre del grupo de Mantenimiento encargado de la ejecución del PA. Para ello, se selecciona uno  de  los  Centros Responsables  que   están  definidos  en  la  tabla  de   “Centros   Responsables” en  la Infraestructura.
 
-Responsable: En esta lista se debe elegir la persona de mantenimiento que dió atención y estuvo al frente de la solución al PA. El responsable es obligante al escoger el estado “Cerrada Ejecutada” o “Cerrado con OT”. Para ello se selecciona uno de los Responsables que están definidos en la tabla de “Responsables” en la Infraestructura. Al lado derecho de este campo existe una caja de selección “Filtrar  por CR”, que al ser marcada filtra los Responsables por el Centro Responsable previamente seleccionado.
+**Responsable:** En esta lista se debe elegir la persona de mantenimiento que dió atención y estuvo al frente de la solución al PA. El responsable es obligante al escoger el estado “Cerrada Ejecutada” o “Cerrado con OT”. Para ello se selecciona uno de los Responsables que están definidos en la tabla de “Responsables” en la Infraestructura. Al lado derecho de este campo existe una caja de selección “Filtrar  por CR”, que al ser marcada filtra los Responsables por el Centro Responsable previamente seleccionado.
 
-Filtrar por CR: Al seleccionar esta opción, en el campo “Responsable” solo se despliegan los Responsables correspondientes al Centro Responsable elegido en la opción “Centro Responsable”. En otro caso, en el campo “Responsable” se despliegan todos los  “Responsables” existentes en la tabla respectiva.
+**Filtrar por CR:** Al seleccionar esta opción, en el campo “Responsable” solo se despliegan los Responsables correspondientes al Centro Responsable elegido en la opción “Centro Responsable”. En otro caso, en el campo “Responsable” se despliegan todos los  “Responsables” existentes en la tabla respectiva.
 
-Causa de Falla: Una vez se solucione el PAROS / FDA y se determine la causa, se debe seleccionar en esta lista la causa de la falla que ocasionó el PA. Si no existe la causa de falla en la lista que se despliega, ella se debe crear en la tabla respectiva, Causas de Falla, en el módulo de infraestructura.
+**Causa de Falla:** Una vez se solucione el PAROS / FDA y se determine la causa, se debe seleccionar en esta lista la causa de la falla que ocasionó el PA. Si no existe la causa de falla en la lista que se despliega, ella se debe crear en la tabla respectiva, Causas de Falla, en el módulo de infraestructura.
 
-Restricción: Indica si el Equipo/Activo que presentó el FDA, es restrictivo o no. Un Equipo/Activo es restrictivo si el hecho de que pare, detiene la línea de producción a la que pertenece.
+**Color:** Este campo permite ingresar una etiqueta que se puede usar como referencia según el proceso de producción.
+
+**Restricción:** Indica si el Equipo/Activo que presentó el FDA, es restrictivo o no. Un Equipo/Activo es restrictivo si el hecho de que pare, detiene la línea de producción a la que pertenece.
 
 T. Trabajo: –AM 4G– 	predefine  (aunque  pueden  personalizarse) cuatro  tipos  de trabajo: Mecánico (MEC),  Eléctrico (ELE),  Instrumentación/Electrónica (IEL)  y  Otro (OTR). Indica los Tipos de Trabajo que se realizan en el PA. Es posible definir más de un Tipo de Trabajo para un Paro. 
 
-T. Mtto: Este campo indica el Tipo de Mantenimiento a realizar en el Paro y Avería.  Todo Paro debe poseer uno. Si en el Paro se va a registrar un trabajo que no corresponde a una labor de mantenimiento, en este campo se elige “Otro” y a continuación, en el tipo de “Actividad” se especifica detalladamente, el tipo de labor. 
+**T. Mtto:** Este campo indica el Tipo de Mantenimiento a realizar en el Paro y Avería.  Todo Paro debe poseer uno. Si en el Paro se va a registrar un trabajo que no corresponde a una labor de mantenimiento, en este campo se elige “Otro” y a continuación, en el tipo de “Actividad” se especifica detalladamente, el tipo de labor. 
 
-T. Actividad: Aquí se establece el Tipo de Actividad a realizar en el Paro. La Actividad de Mantenimiento para un Paro y Avería, se elige desde la tabla “Tipos de Actividad” en el módulo de “Infraestructura”. Este campo trabaja en coordinación con el anterior (Tipo de Mantenimiento). Si en el campo anterior se ha hecho la selección de un valor diferente de “Otro”, en el tipo de Actividad se debe seleccionar el valor “Mantto”, lo que indica que se trata de una actividad que constituye mantenimiento. Si en el  campo  anterior se ha seleccionado el valor “Otro”, en el campo Tipo de Actividad se debe seleccionar un valor que defina consistentemente la labor a ejecutar. 
+**T. Actividad:** Aquí se establece el Tipo de Actividad a realizar en el Paro. La Actividad de Mantenimiento para un Paro y Avería, se elige desde la tabla “Tipos de Actividad” en el módulo de “Infraestructura”. Este campo trabaja en coordinación con el anterior (Tipo de Mantenimiento). Si en el campo anterior se ha hecho la selección de un valor diferente de “Otro”, en el tipo de Actividad se debe seleccionar el valor “Mantto”, lo que indica que se trata de una actividad que constituye mantenimiento. Si en el  campo  anterior se ha seleccionado el valor “Otro”, en el campo Tipo de Actividad se debe seleccionar un valor que defina consistentemente la labor a ejecutar. 
 
 Los campos “T. Trabajo, T. Mtto y T. Actividad”, se parametrizan de forma opcional desde el módulo de Administración, se sobrepone el mouse en una compañía de la lista que se muestra y se da clic en “Valores por defecto”, en la etiqueta de Paros, se selecciona la opción “Solicitar datos para definir proceso (Tipo Trabajo, Tipo Mantenimiento, Tipo Actividad)”.
 
-F/H Paro: Se registra en este campo la fecha y hora exacta en la que  se informa del PARO / FDA a Mantenimiento.
+**F/H Paro:** Se registra en este campo la fecha y hora exacta en la que  se informa del PARO / FDA a Mantenimiento.
 
-F/H Atención: Se registra en este campo la fecha y hora exacta en la que se dio atención al paro.
+**F/H Atención:** Se registra en este campo la fecha y hora exacta en la que se dio atención al paro.
 
-F/H Inicio Trabajo: Se registra en este campo la fecha y hora exacta en la que se dio inicio a la labor para solucionar el  PA. El trabajo correctivo da inicio una vez  que se cumplan con todos los requerimientos de la labor: Producción ha entregado el Equipo/Activo en estado de ser mantenido y Mantenimiento ha preparado todos los recursos necesarios.
+**F/H Inicio Trabajo:** Se registra en este campo la fecha y hora exacta en la que se dio inicio a la labor para solucionar el  PA. El trabajo correctivo da inicio una vez  que se cumplan con todos los requerimientos de la labor: Producción ha entregado el Equipo/Activo en estado de ser mantenido y Mantenimiento ha preparado todos los recursos necesarios.
 
-F/H Fin Trabajo: Se registra en este campo la fecha y hora exacta en la que se culminó la labor correctiva o de reparación del Equipo/Activo, para solucionar el PA.
+**F/H Inicio Ensayo:** Se registra en este campo la fecha y hora de inicio del tiempo de prueba o ensayo del equipo verificando que cumpla con las características técnicas de funcionamiento para solucionar el PA.
 
-F/H Cierre: El sistema registra en este campo, automáticamente, la fecha y hora exacta en la que el usuario encargado, cambia el estado del PARO/ FDA a uno de los estados de cierre.
+**F/H Fin Trabajo:** Se registra en este campo la fecha y hora exacta en la que se culminó la labor correctiva o de reparación del Equipo/Activo, para solucionar el PA.
 
-Sugerir Fecha / Hora: Este botón registra automáticamente la fecha y hora de creación del Paro, en los campos de F/H Paro, F/H Atención, F/H Inicio Trabajo y F/H Fin Trabajo. 
+**F/H Cierre:** El sistema registra en este campo, automáticamente, la fecha y hora exacta en la que el usuario encargado, cambia el estado del PARO/ FDA a uno de los estados de cierre.
 
-Comentarios Trabajo Realizado: Se registra en este campo la descripción y el trabajo realizado del PA.  Es importante cuando el PARO / FDA se va a cerrar con OT, y no se tiene activo el campo Descripción del FDA, este campo se utiliza para determinar la descripción de la OT.
+**Sugerir Fecha / Hora:** Este botón registra automáticamente la fecha y hora de creación del Paro, en los campos de F/H Paro, F/H Atención, F/H Inicio Trabajo y F/H Fin Trabajo. 
 
-Ir a la Orden de Trabajo generada: Cuando el PARO / FDA es cerrado con OT, el sistema crea un vínculo directo a la OT generada en el módulo de Órdenes de Trabajo. En la OT correspondiente también se crea un vínculo hacia el PAROS / FDA que le dio origen.
+**Comentarios Trabajo Realizado:** Se registra en este campo la descripción y el trabajo realizado del PA.  Es importante cuando el PARO / FDA se va a cerrar con OT, y no se tiene activo el campo Descripción del FDA, este campo se utiliza para determinar la descripción de la OT.
+
+**Ir a la Orden de Trabajo generada:** Cuando el PARO / FDA es cerrado con OT, el sistema crea un vínculo directo a la OT generada en el módulo de Órdenes de Trabajo. En la OT correspondiente también se crea un vínculo hacia el PAROS / FDA que le dio origen.
