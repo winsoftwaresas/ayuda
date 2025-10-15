@@ -1,5 +1,24 @@
 # Changelog page source
 
+
+
+- title: AM4G  Version 1.7
+  label: STABLE
+  date: September 17, 2025
+  list:
+   - Se adiciona la Tabla Clases de Almacén, que permite a los usuarios crear Clases dentro del Almacén para clasificar los Ítems del mismo.
+   - Se crea semaforización para alertar sobre los activos cuya fecha de vencimiento de Invima se encuentra próxima a vencer.
+   - Se desarrolla parametrización en Administracion para definir los Campos Obligatorios por pestañaen el modulo de Activos.
+   - Se adiciona el reporte ACU-FTEH Hoja de Activo con SubEquipos.
+   - Se adiciona el Reporte ACR-TREE Resumen de Activos en Árbol
+   - Se adiciona los Campos Color y FF Ensayo en el modulo de Paros.
+   - El campo OP.Actual (Paros) depende de la Referencia seleccionada y sus relaciones en la tabla de Infraestructura.
+   - La fecha de Paro se coloca de manera automática al crear la Orden, igualándola a la fecha de creación, aunque la fecha de Paro si la puede modificar el usuario.
+   - Al seleccionar un responsable al Paro el sistema agrega automáticamente la Fecha de Atención.
+   - Se permite modificar la Ubicación Física del Paro.
+   - Se permite a los usuarios registrar Materiales y Repuestos en los Paros, estos se pueden adicionar, modificar y eliminar.
+   
+
 - title: AM4G  Version 1.6
   label: STABLE
   date: May 18, 2025
