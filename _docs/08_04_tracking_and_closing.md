@@ -18,17 +18,7 @@ El proceso de cierre de un  **FDA** como tal, es similar, aunque más sencillo, 
   alt:"Ventana Principal de Paros/Averías"
 %}
 
-A esta ventana se llega haciendo clic sobre la opción Paros del Menú Principal. A través de ella se ejecutan todas las funciones dedicadas a administrar los PA. A continuación, se ilustran las porciones que la componen.
-
-## Ventana Visor de PA /  **FDA**
-
-{% set_image
-  path:""
-  css_class:""
-  number:""
-  filename:"08_05.png"
-  alt:"Ventana Visor de PA /  FDA"
-%}
+A esta ventana se llega haciendo clic sobre la opción Paros del Menú Principal. 
 
 Desde esta ventana es posible observar los PAROS /  **FDA** existentes. Se listan todos o   una selección o subgrupo de ellos. El conjunto de PAROS /  **FDA** disponibles a ser desplegado se muestra a través de  páginas. El tamaño  de  las  páginas  es  configurable  desde  la  opción Administración del menú principal, en la  sección **“Valores por Defecto”** por parte de un usuario autorizado.
 
@@ -36,13 +26,15 @@ Al hacer clic sobre algún registro de PAROS /  **FDA** del Visor, el sistema re
 
 Los títulos en azul que encabezan las columnas son también botones que permiten ordenar la    tabla, según el título seleccionado. Para elegir un registro de la tabla se da un clic del mouse sobre él o se desplaza el cursor con las teclas de desplazamiento.
 
-## Ventana Detalle de Paros/Averías
+## Vistas Parciales / Pestañas
+
+### Ficha Técnica
 
 {% set_image
   path:""
   css_class:""
   number:""
-  filename:"08_06.png"
+  filename:"08_05.png"
   alt:"Ventana Detalle de Paros/Averías"
 %}
 
@@ -117,6 +109,8 @@ El  solicitante  del   **FDA**,  se  permite  parametrizar  para que  se  defina
 
 **Causa de Falla:** Una vez se solucione el PAROS /  **FDA** y se determine la causa, se debe seleccionar en esta lista la causa de la falla que ocasionó el PA. Si no existe la causa de falla en la lista que se despliega, ella se debe crear en la tabla respectiva, Causas de Falla, en el módulo de infraestructura.
 
+**Color:** Este campo permite ingresar una etiqueta que se puede usar como referencia según el proceso de producción.
+
 **Restricción:** Indica si el Equipo/Activo que presentó el  **FDA**, es restrictivo o no. Un Equipo/Activo es restrictivo si el hecho de que pare, detiene la línea de producción a la que pertenece.
 
 **T. Trabajo:** –AM 4G– predefine (aunque pueden personalizarse) cuatro tipos de trabajo: Mecánico (MEC), Eléctrico (ELE), Instrumentación/Electrónica (IEL) y Otro (OTR). Indica los Tipos de Trabajo que se realizan en el PA. Es posible definir más de un Tipo de Trabajo para un Paro.
@@ -133,6 +127,8 @@ Los campos **T. Trabajo, T. Mtto y T. Actividad**, se parametrizan de forma opci
 
 **F/H Inicio Trabajo:** Se registra en este campo la fecha y hora exacta en la que se dio inicio a la labor para solucionar el  PA. El trabajo correctivo da inicio una vez  que se cumplan con todos los requerimientos de la labor: Producción ha entregado el Equipo/Activo en estado de ser mantenido y Mantenimiento ha preparado todos los recursos necesarios.
 
+**F/H Inicio Ensayo:** Se registra en este campo la fecha y hora de inicio del tiempo de prueba o ensayo del equipo verificando que cumpla con las características técnicas de funcionamiento para solucionar el PA.
+
 **F/H Fin Trabajo:** Se registra en este campo la fecha y hora exacta en la que se culminó la labor correctiva o de reparación del Equipo/Activo, para solucionar el PA.
 
 **F/H Cierre:** El sistema registra en este campo, automáticamente, la fecha y hora exacta en la que el usuario encargado, cambia el estado del PARO/  **FDA** a uno de los estados de cierre.
@@ -142,6 +138,81 @@ Los campos **T. Trabajo, T. Mtto y T. Actividad**, se parametrizan de forma opci
 **Comentarios Trabajo Realizado:** Se registra en este campo la descripción y el trabajo realizado del PA.  Es importante cuando el PARO /  **FDA** se va a cerrar con OT, y no se tiene activo el campo Descripción del  **FDA**, este campo se utiliza para determinar la descripción de la OT.
 
 **Ir a la Orden de Trabajo generada:** Cuando el PARO / **FDA** es cerrado con OT, el sistema crea un vínculo directo a la OT generada en el módulo de Órdenes de Trabajo. En la OT correspondiente también se crea un vínculo hacia el PAROS / **FDA** que le dio origen.
+
+### Materiales y Repuestos
+
+### Evaluar Servicio
+
+Se realiza a través de la pestaña Evaluar Servicio de la ventana Detalle, la evaluación del servicio prestado por el personal de mantenimiento o de servicios, en el Paro seleccionado. La evaluación la debe realizar un usuario, previamente autorizado, quien fuera el receptor del servicio, una vez se ha ya cerrado el Paro. Esta opción de evaluación se hace disponible, cuando se han definido  las cinco preguntas de  evaluación,  en  **“Parámetros  para Evaluación del  Servicio”**, en **“Valores por Defecto”**, en el módulo de **“Administración”**.
+
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"08_14.png"
+  alt:"Ventana de Paros FDA"
+%}
+
+### Multimedia
+
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"08_10.png"
+  alt:"Ventana de paros fda"
+%}
+
+En la gráfica anterior, Ventana Multimedia, se aprecian sus componentes y sus respectivos contenidos.
+
+A través de la ventana Multimedia se adjunta información adicional al PARO / **FDA** en cada una de sus carpetas asignadas. Esta opción permite asociar al **FDA**, uno o varios documentos, con el  objetivo de facilitar el trabajo a  realizar,  o guiarlo, o detallarlo minuciosamente. Se aceptan documentos de extensiones .DOC, XLS, PDF, JPG, es decir, de Microsoft Word o Microsoft Excel, Acrobat o Imágenes varias.
+
+**Los documentos anexos pueden contener:** ayudas necesarias en la ejecución de la OT que se genera desde este PA: planos, manuales técnicos, manuales de normas  técnicas de Mantenimiento o de especificaciones detalladas, normas de seguridad, enfoques de acción, procedimientos sobre cómo realizar la labor, checklists, protocolos de prueba y otra información estándar para su ejecución, en aras de optimizar los recursos de tiempo y de insumos a ser consumidos, como también en aras de preservar la  seguridad del recurso humano.
+
+A continuación se describen las carpetas que componen esta ventana; cuando se quiera actualizar o ingresar nueva información al  **FDA**, se deberán registrar así:
+
+**Cuadro Identificación:** Aparece con los campos bloqueados para que el usuario visualice la información básica del Paro al cual se le están definiendo las Características.
+
+**Documentos:** En esta carpeta se relacionan toda clase de documentación relacionada al PA. **Ejemplo:** Archivos en Word, pdf, Excel, entre otros.
+
+**Imágenes:** En esta carpeta se relacionan toda clase de imágenes relacionadas al PA. **Ejemplo:** Imágenes en formato jpg, png, entre otros.
+
+**Videos:** En esta carpeta se relacionan porciones de videos relacionados al PA. Ejemplo: Videos en formato wmv, entre otros.
+
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"08_11.png"
+  alt:"Ventana de paros fda"
+%}
+
+Para adicionar un documento, imagen o video, se debe dar clic en la carpeta deseada, luego se da clic al icono <span class="iconify btn" data-icon="cloud-upload"></span> Cargar, a continuación se abre una nueva ventana para realizar la búsqueda del archivo a subir, se selecciona el archivo y se da clic en <a class="btn">Abrir</a>.
+abrir.
+
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"08_12.png"
+  alt:"Ventana de Paros FDA"
+%}
+
+Una vez se da clic en <a class="btn">Abrir</a>, se evidencia al lado derecho el nombre del archivo elegido y aparece un campo en blanco, para que el usuario escriba un nombre adicional del archivo para ser usado como una referenciación del archivo adjunto. Luego, se da clic en el botón <a class="btn">Subir archivo</a>.
+
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"08_13.png"
+  alt:"Ventana de Paros FDA"
+%}
+
+Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic en uno de las imágenes, se visualiza la imagen adjunta.
+
+Para desasociar un documento, o una imagen o un video, al PARO /  **FDA** se da clic al icono de <span class="iconify btn" data-icon="mdi-delete"></span> eliminar (basura)) que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro y se da clic en el botón <a class="btn">Aceptar</a>.
+
+Si se desea descargar un archivo adjunto al PARO /  **FDA**, se debe dar clic en el icono de <span class="iconify btn" data-icon="mdi-cloud-download> la nube con flecha hacia abajo, que se encuentra al lado derecho del archivo que se quiere descargar.
 
 # Ventana Submenú de Paros / Averías
 
@@ -243,81 +314,6 @@ Mantenimiento que aquí se selecciona.
 **Tipo de Trabajo:** Este criterio de búsqueda filtra los Paros y Averías por el Tipo de Trabajo que aquí se selecciona.
 
 **Referencia:** Este  campo  preselecciona  los  Paros que  tengan  registrada  la  referencia elegida.  En este campo se pueden utilizar los comodines.
-
-## Vistas Parciales / Pestañas
-
-### Multimedia
-
-{% set_image
-  path:""
-  css_class:""
-  number:""
-  filename:"08_10.png"
-  alt:"Ventana de paros fda"
-%}
-
-En la gráfica anterior, Ventana Multimedia, se aprecian sus componentes y sus respectivos contenidos.
-
-A través de la ventana Multimedia se adjunta información adicional al PARO / **FDA** en cada una de sus carpetas asignadas. Esta opción permite asociar al **FDA**, uno o varios documentos, con el  objetivo de facilitar el trabajo a  realizar,  o guiarlo, o detallarlo minuciosamente. Se aceptan documentos de extensiones .DOC, XLS, PDF, JPG, es decir, de Microsoft Word o Microsoft Excel, Acrobat o Imágenes varias.
-
-**Los documentos anexos pueden contener:** ayudas necesarias en la ejecución de la OT que se genera desde este PA: planos, manuales técnicos, manuales de normas  técnicas de Mantenimiento o de especificaciones detalladas, normas de seguridad, enfoques de acción, procedimientos sobre cómo realizar la labor, checklists, protocolos de prueba y otra información estándar para su ejecución, en aras de optimizar los recursos de tiempo y de insumos a ser consumidos, como también en aras de preservar la  seguridad del recurso humano.
-
-A continuación se describen las carpetas que componen esta ventana; cuando se quiera actualizar o ingresar nueva información al  **FDA**, se deberán registrar así:
-
-**Cuadro Identificación:** Aparece con los campos bloqueados para que el usuario visualice la información básica del Paro al cual se le están definiendo las Características.
-
-**Documentos:** En esta carpeta se relacionan toda clase de documentación relacionada al PA. **Ejemplo:** Archivos en Word, pdf, Excel, entre otros.
-
-**Imágenes:** En esta carpeta se relacionan toda clase de imágenes relacionadas al PA. **Ejemplo:** Imágenes en formato jpg, png, entre otros.
-
-**Videos:** En esta carpeta se relacionan porciones de videos relacionados al PA. Ejemplo: Videos en formato wmv, entre otros.
-
-{% set_image
-  path:""
-  css_class:""
-  number:""
-  filename:"08_11.png"
-  alt:"Ventana de paros fda"
-%}
-
-Para adicionar un documento, imagen o video, se debe dar clic en la carpeta deseada, luego se da clic al icono <span class="iconify btn" data-icon="cloud-upload"></span> Cargar, a continuación se abre una nueva ventana para realizar la búsqueda del archivo a subir, se selecciona el archivo y se da clic en <a class="btn">Abrir</a>.
-abrir.
-
-{% set_image
-  path:""
-  css_class:""
-  number:""
-  filename:"08_12.png"
-  alt:"Ventana de Paros FDA"
-%}
-
-Una vez se da clic en <a class="btn">Abrir</a>, se evidencia al lado derecho el nombre del archivo elegido y aparece un campo en blanco, para que el usuario escriba un nombre adicional del archivo para ser usado como una referenciación del archivo adjunto. Luego, se da clic en el botón <a class="btn">Subir archivo</a>.
-
-{% set_image
-  path:""
-  css_class:""
-  number:""
-  filename:"08_13.png"
-  alt:"Ventana de Paros FDA"
-%}
-
-Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic en uno de las imágenes, se visualiza la imagen adjunta.
-
-Para desasociar un documento, o una imagen o un video, al PARO /  **FDA** se da clic al icono de <span class="iconify btn" data-icon="mdi-delete"></span> eliminar (basura)) que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro y se da clic en el botón <a class="btn">Aceptar</a>.
-
-Si se desea descargar un archivo adjunto al PARO /  **FDA**, se debe dar clic en el icono de <span class="iconify btn" data-icon="mdi-cloud-download> la nube con flecha hacia abajo, que se encuentra al lado derecho del archivo que se quiere descargar.
-
-### Evaluar Servicio
-
-Se realiza a través de la pestaña Evaluar Servicio de la ventana Detalle, la evaluación del servicio prestado por el personal de mantenimiento o de servicios, en el Paro seleccionado. La evaluación la debe realizar un usuario, previamente autorizado, quien fuera el receptor del servicio, una vez se ha ya cerrado el Paro. Esta opción de evaluación se hace disponible, cuando se han definido  las cinco preguntas de  evaluación,  en  **“Parámetros  para Evaluación del  Servicio”**, en **“Valores por Defecto”**, en el módulo de **“Administración”**.
-
-{% set_image
-  path:""
-  css_class:""
-  number:""
-  filename:"08_14.png"
-  alt:"Ventana de Paros FDA"
-%}
 
 ## Transacciones
 
