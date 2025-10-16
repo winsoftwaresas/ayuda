@@ -141,6 +141,14 @@ Los campos **T. Trabajo, T. Mtto y T. Actividad**, se parametrizan de forma opci
 
 ### Materiales y Repuestos
 
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"08_20.png"
+  alt:"Ventana de paros fda"
+%}
+
 ### Evaluar Servicio
 
 Se realiza a través de la pestaña Evaluar Servicio de la ventana Detalle, la evaluación del servicio prestado por el personal de mantenimiento o de servicios, en el Paro seleccionado. La evaluación la debe realizar un usuario, previamente autorizado, quien fuera el receptor del servicio, una vez se ha ya cerrado el Paro. Esta opción de evaluación se hace disponible, cuando se han definido  las cinco preguntas de  evaluación,  en  **“Parámetros  para Evaluación del  Servicio”**, en **“Valores por Defecto”**, en el módulo de **“Administración”**.
