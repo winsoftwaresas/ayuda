@@ -12,8 +12,8 @@ El proceso de cierre de un  **FDA** como tal, es similar, aunque más sencillo, 
   path:""
   css_class:""
   number:""
-  filename:"08_21.png"
-  alt:"Estados FDA / PARO"
+  filename:"08_12.png"
+  alt:"Estados Paros / FDA"
 %}
 
 A esta ventana se llega haciendo clic sobre la opción Paros del Menú Principal. 
@@ -34,8 +34,8 @@ Es posible visualizar de manera inmediata, los PAROS / **FDA** con Multimedia y 
   path:""
   css_class:""
   number:""
-  filename:"08_07.png"
-  alt:"Indicadores"
+  filename:"08_13.png"
+  alt:"Indicadores Paros FDA"
 %}
 
 El significado de los colores se visualiza al sobreponer el mouse en el icono que se encuentra al extremo superior derecho y su correspondencia es:
@@ -51,8 +51,8 @@ Se usa para seleccionar grupos de Paros y/o Averías que cumplen con un conjunto
   path:""
   css_class:""
   number:""
-  filename:"08_08.png"
-  alt:"Paros FDA"
+  filename:"08_14.png"
+  alt:"Icono Subgrupo Paros FDA"
 %}
 
 Cada criterio trabaja en conjunto con los demás, con el operador intersección.
@@ -67,8 +67,8 @@ El programa permite entonces hacer selección de un grupo de Paros de acuerdo co
   path:""
   css_class:""
   number:""
-  filename:"08_09.png"
-  alt:"Ventana de Paros FDA"
+  filename:"08_15.png"
+  alt:"Subgrupo Ventana de Paros FDA"
 %}
 
 Los campos de datos que constituyen criterio de selección en la Ventana Subgrupo de
@@ -135,7 +135,7 @@ A esta opción se llega al sobreponer el cursor del mouse sobre el módulo de Pa
   path:""
   css_class:""
   number:""
-  filename:"08_15.png"
+  filename:"08_01.png"
   alt:"Paros"
 %}
 

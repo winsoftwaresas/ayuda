@@ -10,9 +10,9 @@ media: "../../assets/images/docs/"
 
 # Creación de un Paro o FDA
 
-Crear un  **FDA** exige en primera instancia, que el usuario tenga los permisos en el sistema para poder hacerlo. Son potenciales generadores de **FDA** los técnicos y supervisores de Producción y también los de Mantenimiento.
+Crear un  ****PARO / FDA**** exige en primera instancia, que el usuario tenga los permisos en el sistema para poder hacerlo. Son potenciales generadores de **FDA** los técnicos y supervisores de Producción y también los de Mantenimiento.
 
-La creación de un  **FDA** normalmente está en manos del personal de Producción. Si no existen los medios expeditos para que Producción reporte el  **FDA**, es natural que el reporte del  **FDA** se haga por  otro medio: teléfono, alertas de sonido o visuales o un reporte persona-persona. Entonces, se concluye, que el reporte del  **FDA** puede ser registrado antes o después de   la   ejecución  de   la actividad correctiva del mismo.  Si es previo,  será Producción  el  área  encargada  del  registro,  y  si  es  posterior,  será  mantenimiento el encargado. Aunque la primera prioridad es resolver la situación de Paro/Avería. El registro del  **FDA** debería hacerse muy cercano a su ocurrencia.
+La creación de un  ****PARO / FDA**** normalmente está en manos del personal de Producción. Si no existen los medios expeditos para que Producción reporte el  **FDA**, es natural que el reporte del  **FDA** se haga por  otro medio: teléfono, alertas de sonido o visuales o un reporte persona-persona. Entonces, se concluye, que el reporte del  **FDA** puede ser registrado antes o después de   la   ejecución  de   la actividad correctiva del mismo.  Si es previo,  será Producción  el  área  encargada  del  registro,  y  si  es  posterior,  será  mantenimiento el encargado. Aunque la primera prioridad es resolver la situación de Paro/Avería. El registro del  **FDA** debería hacerse muy cercano a su ocurrencia.
 
 Un FDA se crea bajo las condiciones de ser ejecutado bajo una sola persona, a bajo costo y en corto tiempo. También es posible, que un FDA pueda dar origen a una Orden de Trabajo, con el fin de registrar todos los recursos empleados en la ejecución (Gasto Real).
 
@@ -99,7 +99,7 @@ Equipo/Activo que se haya establecido en la ficha técnica de este mismo. Es un 
 
 **Incluido en TE (RI):** Al seleccionar esta opción, en el campo “Solicitante” solo se despliegan los Terceros o Responsables Internos existentes en la tabla de Terceros en infraestructura. Se debe tener  en cuenta que de la tabla de Terceros solo se despliegan los Terceros de Tipo RI. La funcionalidad de poder definir el Solicitante del FDA, se  parametriza  en  Administración, se sobrepone el mouse en una compañía de la lista que se muestra y se da clic en “Valores por defecto”, en la etiqueta de Paros, se selecciona la opción “Preguntar Solicitante”.
 
-El  solicitante  del  FDA,  se  permite  parametrizar  para que  se  defina  el  usuario  logueado  al sistema,  bloqueando  el  campo  para  que  no  se  pueda  modificar.  Para  realizar  tal funcionalidad, se debe ir a Administración, se sobrepone el mouse en una compañía de la lista que se muestra y se da clic en “Valores por defecto”, en la etiqueta de Paros, se selecciona la opción “El solicitante es tomado del usuario logueado y no se puede modificar.”.
+El  solicitante  del  **PARO / FDA**,  se  permite  parametrizar  para que  se  defina  el  usuario  logueado  al sistema,  bloqueando  el  campo  para  que  no  se  pueda  modificar.  Para  realizar  tal funcionalidad, se debe ir a Administración, se sobrepone el mouse en una compañía de la lista que se muestra y se da clic en “Valores por defecto”, en la etiqueta de Paros, se selecciona la opción “El solicitante es tomado del usuario logueado y no se puede modificar.”.
 
 **Correo Electrónico:** En este campo se define el correo electrónico del solicitante del FDA, cuando el solicitante es digitado manualmente. Si el solicitante se selecciona con la opción “Incluido en Terceros” y allí se tiene definido el correo electrónico, automáticamente se carga a este campo el e-mail definido en el módulo de Terceros. La funcionalidad del envío de correos electrónicos se parametriza en Administración, se sobrepone el mouse en una compañía de la lista que se muestra y se da clic en “Valores por defecto”, en la etiqueta de General, se selecciona la opción “Enviar correo electrónico al solicitante”. 
 
@@ -121,11 +121,11 @@ El  solicitante  del  FDA,  se  permite  parametrizar  para que  se  defina  el 
 
 **Restricción:** Indica si el Equipo/Activo que presentó el FDA, es restrictivo o no. Un Equipo/Activo es restrictivo si el hecho de que pare, detiene la línea de producción a la que pertenece.
 
-T. Trabajo: –AM 4G– 	predefine  (aunque  pueden  personalizarse) cuatro  tipos  de trabajo: Mecánico (MEC),  Eléctrico (ELE),  Instrumentación/Electrónica (IEL)  y  Otro (OTR). Indica los Tipos de Trabajo que se realizan en el PA. Es posible definir más de un Tipo de Trabajo para un Paro. 
+**T. Trabajo:** Indica los tipos  de trabajo: Mecánico (MEC),  Eléctrico (ELE),  Instrumentación/Electrónica (IEL)  y  Otro (OTR) que se realizaron en el PA. Es posible definir más de un Tipo de Trabajo para un Paro. 
 
-**T. Mtto:** Este campo indica el Tipo de Mantenimiento a realizar en el Paro y Avería.  Todo Paro debe poseer uno. Si en el Paro se va a registrar un trabajo que no corresponde a una labor de mantenimiento, en este campo se elige “Otro” y a continuación, en el tipo de “Actividad” se especifica detalladamente, el tipo de labor. 
+**T. Mtto:** Este campo indica el Tipo de Mantenimiento a realizado en el **Paro / FDA**. Todo Paro debe poseer uno. Si en el Paro se va a registrar un trabajo que no corresponde a una labor de mantenimiento, en este campo se elige “Otro” y a continuación, en el tipo de “Actividad” se especifica detalladamente, el tipo de labor. 
 
-**T. Actividad:** Aquí se establece el Tipo de Actividad a realizar en el Paro. La Actividad de Mantenimiento para un Paro y Avería, se elige desde la tabla “Tipos de Actividad” en el módulo de “Infraestructura”. Este campo trabaja en coordinación con el anterior (Tipo de Mantenimiento). Si en el campo anterior se ha hecho la selección de un valor diferente de “Otro”, en el tipo de Actividad se debe seleccionar el valor “Mantto”, lo que indica que se trata de una actividad que constituye mantenimiento. Si en el  campo  anterior se ha seleccionado el valor “Otro”, en el campo Tipo de Actividad se debe seleccionar un valor que defina consistentemente la labor a ejecutar. 
+**T. Actividad:** Aquí se establece el Tipo de Actividad a realizar en el Paro. La Actividad de Mantenimiento para un **PARO / FDA**, se elige desde la tabla “Tipos de Actividad” en el módulo de “Infraestructura”. Este campo trabaja en coordinación con el anterior (Tipo de Mantenimiento). Si en el campo anterior se ha hecho la selección de un valor diferente de “Otro”, en el tipo de Actividad se debe seleccionar el valor “Mantto”, lo que indica que se trata de una actividad que constituye mantenimiento. Si en el  campo  anterior se ha seleccionado el valor “Otro”, en el campo Tipo de Actividad se debe seleccionar un valor que defina consistentemente la labor a ejecutar. 
 
 Los campos “T. Trabajo, T. Mtto y T. Actividad”, se parametrizan de forma opcional desde el módulo de Administración, se sobrepone el mouse en una compañía de la lista que se muestra y se da clic en “Valores por defecto”, en la etiqueta de Paros, se selecciona la opción “Solicitar datos para definir proceso (Tipo Trabajo, Tipo Mantenimiento, Tipo Actividad)”.
 
@@ -147,7 +147,7 @@ Los campos “T. Trabajo, T. Mtto y T. Actividad”, se parametrizan de forma op
 
 **Ir a la Orden de Trabajo generada:** Cuando el PARO / FDA es cerrado con OT, el sistema crea un vínculo directo a la OT generada en el módulo de Órdenes de Trabajo. En la OT correspondiente también se crea un vínculo hacia el PAROS / FDA que le dio origen.
 
-Una vez diligenciada la información del PARO / FDA. Se debe marcar el botón <a class="btn blue">INSERTAR <span class="mdi mdi-plus-circle-outline"></span></a> e ingresar nuevamente al elemento creado para acceder a las pestañas descritas a continuación.
+Una vez diligenciada la información inicial del PARO / FDA. Se debe marcar el botón <a class="btn blue">INSERTAR <span class="mdi mdi-plus-circle-outline"></span></a> e ingresar nuevamente al elemento creado para acceder a las pestañas descritas a continuación.
 
 ### Materiales y Repuestos
 
@@ -155,8 +155,66 @@ Una vez diligenciada la información del PARO / FDA. Se debe marcar el botón <a
   path:""
   css_class:""
   number:""
-  filename:"08_20.png"
-  alt:"Ventana de paros fda"
+  filename:"08_04.png"
+  alt:"Materiales y Repuestos"
+%}
+
+A través de la ventana de Ingreso de Materiales y Repuestos se administran aquellos items utilizados en el PARO / FDA.
+
+A la derecha es posible efectuar modificaciones a los ítems o ingresar nuevos. Para ingresar nuevos Materiales y Repuestos, se debe dar clic al botón <a class="btn gray">Adicionar Material y Repuesto</a> se deben diligenciar los siguientes campos:
+
+**Almacén:** Se elige el almacén dónde se encuentra el repuesto a ingresar al PARO / FDA.
+
+**Buscar Por:** Este campo se listan las siguientes opciones para hacer la búsqueda de un Material y Repuesto: Código, Referencia, Cod. Barra Int y Cod. Barra Prov. Se habilitará una vez se elija el Almacén.
+
+**M y R:** Este campo se habilita una vez se haya seleccionado el Almacén. Existen dos formas de seleccionar el Repuesto:
+
+La primera consiste de forma manual solo digitando el valor correspondiente al código, referencia, código de barras interno o proveedor del Material y Repuesto.
+
+La segunda consiste en buscar el Material y Repuesto, a través del visor de Material y Repuesto. Para ello se da un clic sobre el icono de filtro de Repuesto <span class="mdi mdi-filter-variant"></span>. Acto seguido se muestra la ventana de visor de Repuesto con la posibilidad de hacer allí subgrupos. Una vez se encuentra el Repuesto, se selecciona dando un clic sobre cualquiera de sus campos, seguidamente un clic sobre el botón <a class="btn white">ACEPTAR</a> de esa ventana o también es posible seleccionarlo dando doble clic sobre el registro seleccionado. Inmediatamente ese código aparece en el campo de M y R y automáticamente se actualizan los campos de UM y Valor Unitario.
+
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"08_05.png"
+  alt:"Ventana Emergente M y R"
+%}
+
+**Descripción M y R:** Es un campo de solo lectura, que muestra la descripción del material y repuesto seleccionado.
+
+**Cantidad:** Es la cantidad para el repuesto seleccionado.
+
+**Unidad de Medida:** Es un campo de solo lectura que muestra la unidad de consumo del
+repuesto seleccionado.
+
+**Vlr. Unitario:** Es el valor unitario del repuesto seleccionado. AM sugiere el valor unitario ya establecido del Repuesto en cuestión, sin embargo, puede cambiarse.
+
+**TT:** Este campo de solo lectura, muestra el TT para el cual se presupuesta el Material o
+Repuesto.
+
+**Vlr. Total:** Este campo es informativo y es calculado por el sistema, contiene el valor total del presupuesto para ese Repuesto. Es el producto entre el Vlr. Unitario y la Cantidad.
+
+Una vez se diligencien estos campos se da clic en el botón <span class="mdi mdi-plus-circle icon bg-gray cl-blue"></span> para agregar como se muestra en la imagen XXXX.XXX Materiales y Repuestos. 
+
+Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar un clic sobre el ítem registrado y luego finalizar con el botón <a class="btn gray">Actualizar Material y Repuesto</a>.
+
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"08_06.png"
+  alt:"Paros - Actualizar M y R"
+%}
+
+Por otro lado, para eliminar un registro de la tabla de Material y Repuesto, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-lock"></span> sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn bg-gray cl-black">ACEPTAR</a> como se muestra en la siguiente imagen:
+
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"08_07.png"
+  alt:"Paros - Eliminar M y R"
 %}
 
 ### Evaluar Servicio
@@ -167,8 +225,8 @@ Se realiza a través de la pestaña Evaluar Servicio de la ventana Detalle, la e
   path:""
   css_class:""
   number:""
-  filename:"08_14.png"
-  alt:"Ventana de Paros FDA"
+  filename:"08_08.png"
+  alt:"Evaluación de servicio PARO / FDA"
 %}
 
 ### Multimedia
@@ -178,12 +236,10 @@ Se realiza a través de la pestaña Evaluar Servicio de la ventana Detalle, la e
   css_class:""
   number:""
   filename:"08_10.png"
-  alt:"Ventana de paros fda"
+  alt:"Multimedia PARO / FDA"
 %}
 
-En la gráfica anterior, Ventana Multimedia, se aprecian sus componentes y sus respectivos contenidos.
-
-A través de la ventana Multimedia se adjunta información adicional al PARO / **FDA** en cada una de sus carpetas asignadas. Esta opción permite asociar al **FDA**, uno o varios documentos, con el  objetivo de facilitar el trabajo a  realizar,  o guiarlo, o detallarlo minuciosamente. Se aceptan documentos de extensiones .DOC, XLS, PDF, JPG, es decir, de Microsoft Word o Microsoft Excel, Acrobat o Imágenes varias.
+A través de la ventana Multimedia se adjunta información adicional al **PARO / FDA** en cada una de sus carpetas asignadas. Esta opción permite asociar al **PARO / FDA**, uno o varios documentos, con el  objetivo de facilitar el trabajo a  realizar,  o guiarlo, o detallarlo minuciosamente. Se aceptan documentos de extensiones .DOC, XLS, PDF, JPG, es decir, de Microsoft Word o Microsoft Excel, Acrobat o Imágenes varias.
 
 **Los documentos anexos pueden contener:** ayudas necesarias en la ejecución de la OT que se genera desde este PA: planos, manuales técnicos, manuales de normas  técnicas de Mantenimiento o de especificaciones detalladas, normas de seguridad, enfoques de acción, procedimientos sobre cómo realizar la labor, checklists, protocolos de prueba y otra información estándar para su ejecución, en aras de optimizar los recursos de tiempo y de insumos a ser consumidos, como también en aras de preservar la  seguridad del recurso humano.
 
@@ -197,14 +253,6 @@ A continuación se describen las carpetas que componen esta ventana; cuando se q
 
 **Videos:** En esta carpeta se relacionan porciones de videos relacionados al PA. Ejemplo: Videos en formato wmv, entre otros.
 
-{% set_image
-  path:""
-  css_class:""
-  number:""
-  filename:"08_11.png"
-  alt:"Ventana de paros fda"
-%}
-
 Para adicionar un documento, imagen o video, se debe dar clic en la carpeta deseada, luego se da clic al icono <span class="iconify btn" data-icon="cloud-upload"></span> Cargar, a continuación se abre una nueva ventana para realizar la búsqueda del archivo a subir, se selecciona el archivo y se da clic en <a class="btn">Abrir</a>.
 abrir.
 
@@ -212,21 +260,13 @@ abrir.
   path:""
   css_class:""
   number:""
-  filename:"08_12.png"
+  filename:"08_11.png"
   alt:"Ventana de Paros FDA"
 %}
 
 Una vez se da clic en <a class="btn">Abrir</a>, se evidencia al lado derecho el nombre del archivo elegido y aparece un campo en blanco, para que el usuario escriba un nombre adicional del archivo para ser usado como una referenciación del archivo adjunto. Luego, se da clic en el botón <a class="btn">Subir archivo</a>.
 
-{% set_image
-  path:""
-  css_class:""
-  number:""
-  filename:"08_13.png"
-  alt:"Ventana de Paros FDA"
-%}
-
-Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic en uno de las imágenes, se visualiza la imagen adjunta.
+Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic en uno de las imágenes, se visualiza la imagen.
 
 Para desasociar un documento, o una imagen o un video, al PARO /  **FDA** se da clic al icono de <span class="iconify btn" data-icon="mdi-delete"></span> eliminar (basura)) que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro y se da clic en el botón <a class="btn">Aceptar</a>.
 
