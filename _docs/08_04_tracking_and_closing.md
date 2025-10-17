@@ -6,7 +6,7 @@ author: win
 order: '08_04'
 media: "../../assets/images/docs/"
 ---
-El proceso de cierre de un  **FDA** como tal, es similar, aunque más sencillo, al de una  SS. consiste en cambiar el **“Estado”**, por uno de dos: **“Cerrada Ejecutada”** o  **“Cerrado con OT”**, Para mayor detalle se debe referir al acápite **“Seguimiento y Cierre”** de Solicitudes de Servicio.
+El proceso de cierre de un **FDA** como tal, es similar, aunque más sencillo, al de una SS. consiste en cambiar el **“Estado”**, por uno de dos: **“Cerrada Ejecutada”** o **“Cerrado con OT”**, Para mayor detalle se debe referir al acápite **“Seguimiento y Cierre”** de Solicitudes de Servicio.
 
 {% set_image
   path:""
@@ -18,17 +18,17 @@ El proceso de cierre de un  **FDA** como tal, es similar, aunque más sencillo, 
 
 A esta ventana se llega haciendo clic sobre la opción Paros del Menú Principal. 
 
-Desde esta ventana es posible observar los PAROS /  **FDA** existentes. Se listan todos o   una selección o subgrupo de ellos. El conjunto de PAROS /  **FDA** disponibles a ser desplegado se muestra a través de  páginas. El tamaño  de  las  páginas  es  configurable  desde  la  opción Administración del menú principal, en la  sección **“Valores por Defecto”** por parte de un usuario autorizado.
+Desde esta ventana es posible observar los Paros / **FDA** existentes. Se listan todos o una selección o subgrupo de ellos. El conjunto de Paros / **FDA** disponibles a ser desplegado se muestra a través de páginas. El tamaño de las páginas es configurable desde la opción Administración del menú principal, en la sección **“Valores por Defecto”** por parte de un usuario autorizado.
 
-Al hacer clic sobre algún registro de PAROS /  **FDA** del Visor, el sistema responde  mostrando la información de ese  **FDA**, en forma detallada, en una ventana llamada Ventana Detalle.
+Al hacer clic sobre algún registro de Paros / **FDA** del Visor, el sistema responde mostrando la información de ese **FDA**, en forma detallada, en una ventana llamada Ventana Detalle.
 
-Los títulos en azul que encabezan las columnas son también botones que permiten ordenar la    tabla, según el título seleccionado. Para elegir un registro de la tabla se da un clic del mouse sobre él o se desplaza el cursor con las teclas de desplazamiento.
+Los títulos en azul que encabezan las columnas son también botones que permiten ordenar la tabla, según el título seleccionado. Para elegir un registro de la tabla se da un clic del mouse sobre él o se desplaza el cursor con las teclas de desplazamiento.
 
 # Ventana Submenú de Paros / Averías
 
 ## Indicadores
 
-Es posible visualizar de manera inmediata, los PAROS / **FDA** con Multimedia y Servicio Evaluado, directamente desde la ventana visor, a través de la columna **Indicadores** que muestra una pelota de color que indica si tiene asociado Multimedia y/o si tiene el Servicio Evaluado. El significado del color de cada pelota, se puede ver en el recuadro de Indicadores, ubicado en la parte superior derecha de la ventana visor.
+Es posible visualizar de manera inmediata, los Paros / **FDA** con Multimedia y Servicio Evaluado, directamente desde la ventana visor, a través de la columna **Indicadores** que muestra una pelota de color que indica si tiene asociado Multimedia y/o si tiene el Servicio Evaluado. El significado del color de cada pelota, se puede ver en el recuadro de Indicadores, ubicado en la parte superior derecha de la ventana visor.
 
 {% set_image
   path:""
@@ -40,8 +40,8 @@ Es posible visualizar de manera inmediata, los PAROS / **FDA** con Multimedia y 
 
 El significado de los colores se visualiza al sobreponer el mouse en el icono que se encuentra al extremo superior derecho y su correspondencia es:
 
-- **Naranja:** PARO /  **FDA** que tienen asociados archivos de imágenes, videos y/o documentos en la pestaña Multimedia.
-- **Azul:** PARO /  **FDA** en estado Cerrada Ejecutada al que se le realizó la evaluación del Servicio.
+- **Naranja:** PARO / FDA que tienen asociados archivos de imágenes, videos y/o documentos en la pestaña Multimedia.
+- **Azul:** PARO / FDA en estado Cerrada Ejecutada al que se le realizó la evaluación del Servicio.
 
 ## Subgrupo
 
@@ -59,7 +59,7 @@ Cada criterio trabaja en conjunto con los demás, con el operador intersección.
 
 Cada criterio aparece inicializado en un valor global que permite mostrar todos los Paros. Lo que significa que de no escoger un criterio se obtiene como resultado del subgrupo el mismo conjunto de todos los Paros.
 
-**AM** mantiene activo cualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar.
+**AM** mantiene activocualquier subgrupo en cada módulo, hasta que el usuario lo modifique o restablezca los valores estándar.
 
 El programa permite entonces hacer selección de un grupo de Paros de acuerdo con los criterios seleccionados en la siguiente ventana.
 
@@ -80,21 +80,21 @@ Paros son los siguientes.
 
 **AC – Cód. de Barras Int.:** Permite seleccionar los Paros que se encuentran asociadas al Activo que se encuentre con el Código de Barras Interno que el usuario ingresa en este campo del subgrupo y que posea un Paro.
 
-**AC – Cód. de Barras Prov.:** Permite seleccionar los Paros asociadas a un   Activo que se encuentre ligado al Código de Barras del Proveedor que se ingresó al crear el Activo.
+**AC – Cód. de Barras Prov.:** Permite seleccionar los Paros asociadas a un Activo que se encuentre ligado al Código de Barras del Proveedor que se ingresó al crear el Activo.
 
 **AC - Código:** Esta selección agrupa los Paros cuyos Equipo/Activos coincidan con el relacionado en este criterio. Es posible definir el código completo o una porción del mismo. Por ejemplo: si se escribe 341%, se seleccionan todos los Paros cuyo código de Equipo/Activo inicia por 341. Si se escribe %1 se seleccionan todos los Paros cuyo código de Equipo/Activo finaliza en un **1**. El porcentaje (%) es un carácter comodín que significa **todos**.
 
 **AC-Descripción:** Selecciona los Paros asociados a los   Activos según criterios que se fundamenten  en  su  descripción.  Ejemplo: %Motor% selecciona todos los Activos, en cuya descripción, en cualquier posición, tengan la palabra **“Motor”**.
 
-**AC-Estado:** Este filtro permite seleccionar los PAROS / **FDA** de acuerdo con el Estado del Activo u Objeto de Mantenimiento. Así que se pueden filtrar los PAROS /  **FDA** para los cuales el AC correspondiente está activo o inactivo.
+**AC-Estado:** Este filtro permite seleccionar los Paros / **FDA** de acuerdo con el Estado del Activo u Objeto de Mantenimiento. Así que se pueden filtrar los Paros / **FDA** para los cuales el AC correspondiente está activo o inactivo.
 
-**AC-Número Activo Fijo:** Este campo preselecciona los PAROS / **FDA** para el o los Activos cuyo Número de Activo corresponde a los valores aquí definidos. En este campo se pueden utilizar los comodines.
+**AC-Número Activo Fijo:** Este campo preselecciona los Paros / **FDA** para el o los Activos cuyo Número de Activo corresponde a los valores aquí definidos. En este campo se pueden utilizar los comodines.
 
-**AC-Referencia:** Este filtro permite seleccionar PAROS / **FDA** de acuerdo con su número de Referencia.
+**AC-Referencia:** Este filtro permite seleccionar Paros / **FDA** de acuerdo con su número de Referencia.
 
 **AC-Serial:** Esta alternativa permite seleccionar los Paros de acuerdo con el número serial del Equipo/Activo objeto de mantenimiento. El campo acepta comodines.
 
-**AC-Ubicación Física:** Permite la selección de los PAROS / **FDA** cuyo Activo se encuentre en   una   Ubicación Física   determinada.  Cuando   se   utilizan   comodines, es   posible seleccionar PAROS / **FDA** cuyo Activo esté en una Ubicación Física  que tenga parte del nombre igual.  Por ejemplo: Cava% selecciona los PAROS / **FDA** a Activos cuya Ubicación Física empieza por la  palabra  Cava,  independientemente  de   si  se  está  hablando  de  la  Cava  de Fermentación, Maduración o Contrapresión.
+**AC-Ubicación Física:** Permite la selección de los Paros / **FDA** cuyo Activo se encuentre en una   Ubicación Física   determinada.  Cuando   se   utilizan   comodines, es   posible seleccionar Paros / **FDA** cuyo Activo esté en una Ubicación Física  que tenga parte del nombre igual. Por ejemplo:Cava% selecciona los Paros / **FDA** a Activos cuya Ubicación Física empieza por la  palabra Cava independientemente de si se está hablando de la Cava de Fermentación, Maduración o Contrapresión.
 
 **AC-Tipo:** Selecciona los PAROS / **FDA** asociados a los Activos que se   encuentran asociados al tipo ingresado por el usuario.
 
