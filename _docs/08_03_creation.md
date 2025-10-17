@@ -160,11 +160,11 @@ Una vez diligenciada la información inicial del Paro / FDA. Se debe marcar el b
   alt:"Materiales y Repuestos"
 %}
 
-A través de la ventana de Ingreso de Materiales y Repuestos se administran aquellos items utilizados en el PARO / FDA.
+A través de la ventana de Ingreso de Materiales y Repuestos se administran aquellos items utilizados en el Paro / FDA.
 
 A la derecha es posible efectuar modificaciones a los ítems o ingresar nuevos. Para ingresar nuevos Materiales y Repuestos, se debe dar clic al botón <a class="btn gray">Adicionar Material y Repuesto</a> se deben diligenciar los siguientes campos:
 
-**Almacén:** Se elige el almacén dónde se encuentra el repuesto a ingresar al PARO / FDA.
+**Almacén:** Se elige el almacén dónde se encuentra el repuesto a ingresar al Paro / FDA.
 
 **Buscar Por:** Este campo se listan las siguientes opciones para hacer la búsqueda de un Material y Repuesto: Código, Referencia, Cod. Barra Int y Cod. Barra Prov. Se habilitará una vez se elija el Almacén.
 
@@ -227,7 +227,7 @@ Se realiza a través de la pestaña Evaluar Servicio de la ventana Detalle, la e
   css_class:""
   number:""
   filename:"08_08.png"
-  alt:"Evaluación de servicio PARO / FDA"
+  alt:"Evaluación de servicio Paro / FDA"
 %}
 
 ### Multimedia
@@ -237,14 +237,14 @@ Se realiza a través de la pestaña Evaluar Servicio de la ventana Detalle, la e
   css_class:""
   number:""
   filename:"08_10.png"
-  alt:"Multimedia PARO / FDA"
+  alt:"Multimedia Paros / FDA"
 %}
 
-A través de la ventana Multimedia se adjunta información adicional al **PARO / FDA** en cada una de sus carpetas asignadas. Esta opción permite asociar al **PARO / FDA**, uno o varios documentos, con el  objetivo de facilitar el trabajo a  realizar,  o guiarlo, o detallarlo minuciosamente. Se aceptan documentos de extensiones .DOC, XLS, PDF, JPG, es decir, de Microsoft Word o Microsoft Excel, Acrobat o Imágenes varias.
+A través de la ventana Multimedia se adjunta información adicional al **Paro / FDA** en cada una de sus carpetas asignadas. Esta opción permite asociar al PA, uno o varios documentos, con el  objetivo de facilitar el trabajo a  realizar,  o guiarlo, o detallarlo minuciosamente. Se aceptan documentos de extensiones .DOC, XLS, PDF, JPG, es decir, de Microsoft Word o Microsoft Excel, Acrobat o Imágenes varias.
 
 **Los documentos anexos pueden contener:** ayudas necesarias en la ejecución de la OT que se genera desde este PA: planos, manuales técnicos, manuales de normas  técnicas de Mantenimiento o de especificaciones detalladas, normas de seguridad, enfoques de acción, procedimientos sobre cómo realizar la labor, checklists, protocolos de prueba y otra información estándar para su ejecución, en aras de optimizar los recursos de tiempo y de insumos a ser consumidos, como también en aras de preservar la  seguridad del recurso humano.
 
-A continuación se describen las carpetas que componen esta ventana; cuando se quiera actualizar o ingresar nueva información al  **FDA**, se deberán registrar así:
+A continuación se describen las carpetas que componen esta ventana; cuando se quiera actualizar o ingresar nueva información al  PA, se deberán registrar así:
 
 **Cuadro Identificación:** Aparece con los campos bloqueados para que el usuario visualice la información básica del Paro al cual se le están definiendo las Características.
 
@@ -269,6 +269,6 @@ Una vez se da clic en <a class="btn">Abrir</a>, se evidencia al lado derecho el 
 
 Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic en uno de las imágenes, se visualiza la imagen.
 
-Para desasociar un documento, o una imagen o un video, al PARO /  **FDA** se da clic al icono de <span class="iconify btn" data-icon="mdi-delete"></span> eliminar (basura)) que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro y se da clic en el botón <a class="btn">Aceptar</a>.
+Para desasociar un documento, o una imagen o un video, al PA se da clic al icono de <span class="iconify btn" data-icon="mdi-delete"></span> eliminar (basura)) que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro y se da clic en el botón <a class="btn">Aceptar</a>.
 
-Si se desea descargar un archivo adjunto al PARO /  **FDA**, se debe dar clic en el icono de <span class="iconify btn" data-icon="mdi-cloud-download> la nube con flecha hacia abajo, que se encuentra al lado derecho del archivo que se quiere descargar.
+Si se desea descargar un archivo adjunto al PA, se debe dar clic en el icono de <span class="iconify btn" data-icon="mdi-cloud-download> la nube con flecha hacia abajo, que se encuentra al lado derecho del archivo que se quiere descargar.
