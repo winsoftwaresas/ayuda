@@ -207,7 +207,7 @@ Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar 
   alt:"Paros - Actualizar M y R"
 %}
 
-Por otro lado, para eliminar un registro de la tabla de Material y Repuesto, se selecciona el registro y luego se da clic al ícono de eliminar <span class="mdi mdi-lock"></span> sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn bg-gray cl-black">ACEPTAR</a> como se muestra en la siguiente imagen:
+Por otro lado, para eliminar un registro de la tabla de Material y Repuesto, se selecciona el registro y luego se da clic al ícono de eliminar <span class="iconify btn" data-icon="mdi-delete"></span> sale un mensaje de alerta que indica al usuario si está seguro de eliminar el registro, finalmente se da clic en <a class="btn bg-gray cl-black">ACEPTAR</a> como se muestra en la siguiente imagen:
 
 {% set_image
   path:""
@@ -247,27 +247,26 @@ A continuación, se describen las carpetas que componen esta ventana; cuando se 
 
 **Cuadro Identificación:** Aparece con los campos bloqueados para que el usuario visualice la información básica del Paro al cual se le están definiendo las Características.
 
-**Documentos:** En esta carpeta se relacionan toda clase de documentación relacionada al PA. **Ejemplo:** Archivos en Word, pdf, Excel, entre otros.
+**Documentos:** En esta carpeta se relacionan toda clase de documentación relacionada al PA. Ejemplo: Archivos en Word, pdf, Excel, entre otros.
 
-**Imágenes:** En esta carpeta se relacionan toda clase de imágenes relacionadas al PA. **Ejemplo:** Imágenes en formato jpg, png, entre otros.
+**Imágenes:** En esta carpeta se relacionan toda clase de imágenes relacionadas al PA. Ejemplo: Imágenes en formato jpg, png, entre otros.
 
 **Videos:** En esta carpeta se relacionan porciones de videos relacionados al PA. Ejemplo: Videos en formato wmv, entre otros.
 
-Para adicionar un documento, imagen o video, se debe dar clic en la carpeta deseada, luego se da clic al icono <span class="iconify btn" data-icon="cloud-upload"></span> Cargar, a continuación se abre una nueva ventana para realizar la búsqueda del archivo a subir, se selecciona el archivo y se da clic en <a class="btn">Abrir</a>.
-abrir.
+Para adicionar un documento, imagen o video, se debe dar clic en la carpeta deseada, luego se da clic al icono <span class="iconify btn" data-icon="cloud-upload"></span>, a continuación se abre una nueva ventana para realizar la búsqueda del archivo a subir, se selecciona el archivo y se da clic en <a class="btn">Abrir</a>.
 
 {% set_image
   path:""
   css_class:""
   number:""
   filename:"08_11.png"
-  alt:"Ventana de Paros FDA"
+  alt:"Multimedia - Paros FDA"
 %}
 
 Una vez se da clic en <a class="btn">Abrir</a>, se evidencia al lado derecho el nombre del archivo elegido y aparece un campo en blanco, para que el usuario escriba un nombre adicional del archivo para ser usado como una referenciación del archivo adjunto. Luego, se da clic en el botón <a class="btn">Subir archivo</a>.
 
-Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic en uno de las imágenes, se visualiza la imagen.
+Los archivos que se van adicionando van quedando guardados uno debajo del otro y si se da un clic en uno de las imágenes, como se visualiza en la imagen 8.11 Multimedia - Paros FDA.
 
-Para desasociar un documento, o una imagen o un video, al PA se da clic al icono de <span class="iconify btn" data-icon="mdi-delete"></span> eliminar (basura)) que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro y se da clic en el botón <a class="btn">Aceptar</a>.
+Para desasociar un documento, o una imagen o un video, al PA se da clic al icono de <span class="iconify btn" data-icon="mdi-delete"></span> eliminar (basura) que se encuentra al lado derecho del archivo al que se le va a realizar la operación. Inmediatamente, sale un mensaje de alerta que pregunta al usuario si está seguro de eliminar este registro y se da clic en el botón <a class="btn">Aceptar</a>.
 
-Si se desea descargar un archivo adjunto al PA, se debe dar clic en el icono de <span class="iconify btn" data-icon="mdi-cloud-download> la nube con flecha hacia abajo, que se encuentra al lado derecho del archivo que se quiere descargar.
+Si se desea descargar un archivo adjunto al PA, se debe dar clic en el icono de <span class="iconify btn" data-icon="mdi-cloud-download"> la nube con flecha hacia abajo, que se encuentra al lado derecho del archivo que se quiere descargar.
