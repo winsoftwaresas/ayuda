@@ -9,16 +9,39 @@ published: true
 
             <div class="sidebar-fixed-width uk-visible@m">
                 <div class="sidebar-docs uk-position-fixed uk-margin-top">
-                    {% for section in site.data.navigation_docs %}
-                    <h5>{{ section.title }}</h5>
-                    <ul class="uk-nav uk-nav-default doc-nav">
-                    {% for doc in section.docs %}
-                      {% assign doc_url = doc | prepend:"/docs/" | append:"/" %}
-                      {% assign p = site.docs | where:"url", doc_url | first %}
-                      <li class="{% if doc_url == page.url %}uk-active{% endif %}"><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
-                    {% endfor %}
+            
+                    <ul id="docs-accordion" uk-accordion="multiple: false" class="uk-nav-default doc-nav">
+            
+                        {% for section in site.data.navigation_docs %}
+
+                            {% assign section_id = section.title | slugify %}
+                            
+                            <li data-section-id="{{ section_id }}" class="{% if doc_url == page.url %}uk-open{% endif %} uk-card uk-card-default uk-margin-small-bottom uk-border-rounded">
+                                
+                                <a class="uk-accordion-title uk-padding-small uk-flex uk-flex-middle uk-flex-between" href="#">
+                                    <div class="uk-text-bold">{{ section.title }}</div>
+                                    <span uk-accordion-icon></span>
+                                </a>
+                                
+                                <div class="uk-accordion-content uk-padding-small">
+                                    
+                                    <ul class="uk-nav uk-nav-default doc-nav">
+                                        {% for doc in section.docs %}
+                                            {% assign doc_url = doc | prepend:"/docs/" | append:"/" %}
+                                            {% assign p = site.docs | where:"url", doc_url | first %}
+                                            {% assign active_id = p.url | replace:'/docs/','' | replace:'/','' %}
+                                            
+                                            <li class="{% if doc_url == page.url %}uk-active{% endif %}" {% if doc_url == page.url %}id="active-nav-item-{{ active_id }}"{% endif %}>
+                                                <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+                                            </li>
+                                        {% endfor %}
+                                    </ul>
+                                </div>
+                            </li>
+                        
+                        {% endfor %}
+            
                     </ul>
-                    {% endfor %}
                 </div>
             </div>
 
@@ -66,6 +89,8 @@ published: true
                         offset: 120
                     });
                 </script>
+
+                {% include accordion.html %}
 
             </div>
         </div>

@@ -1,0 +1,91 @@
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const accordionContainer = document.getElementById('docs-accordion');
+        if (!accordionContainer) return;
+
+        const uiKitAccordion = UIkit.accordion(accordionContainer);
+        
+        // --- Paso CLAVE: Obtenemos el ID una sola vez al inicio (Búsqueda eficiente) ---
+        const activeDocLi = accordionContainer.querySelector('.uk-active');
+        const activeElementId = activeDocLi ? activeDocLi.id : null; 
+
+        // --- FUNCIÓN DE SCROLL BASADA EN EL ID ---
+        function scrollToActiveElement() {
+             // 1. Búsqueda por ID (la forma más rápida)
+             const targetElement = activeElementId ? document.getElementById(activeElementId) : null;
+             
+             if (targetElement) {
+                // 2. Usar scrollIntoView()
+                targetElement.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'center' // Centra el elemento en la vista
+                });
+            }
+        }
+
+        // --- LÓGICA DE PERSISTENCIA Y APERTURA INICIAL ---
+
+        function getSectionToOpen() {
+            const lastOpenSectionId = localStorage.getItem('open-doc-section');
+            let targetSection = null;
+
+            // Prioridad A: La página actualmente visitada
+            if (activeDocLi) {
+                targetSection = activeDocLi.closest('li[data-section-id]');
+                // Guardamos el nuevo estado inmediatamente
+                if (targetSection) {
+                    localStorage.setItem('open-doc-section', targetSection.getAttribute('data-section-id'));
+                }
+                return targetSection;
+            } 
+            
+            // Prioridad B: El estado guardado en localStorage
+            if (lastOpenSectionId) {
+                targetSection = accordionContainer.querySelector(`[data-section-id="${lastOpenSectionId}"]`);
+                return targetSection;
+            }
+            
+            return null;
+        }
+
+        const targetSection = getSectionToOpen();
+
+        if (targetSection) {
+            // Si la sección target NO está abierta (por ejemplo, al restaurar el estado)
+            if (!targetSection.classList.contains('uk-open')) {
+                // Abrimos el acordeón si no está abierto.
+                uiKitAccordion.toggle(targetSection.closest('li'), true); 
+            } else {
+                // Si ya está abierto (es la página activa o el estado guardado), hacemos scroll.
+                scrollToActiveElement();
+            }
+        }
+        
+        // --- MANEJADORES DE EVENTOS DE UIKIT (Sincronización y Scroll) ---
+
+        // Evento CLAVE: Ejecuta el scroll SÓLO después de que la animación 'shown' termina
+        UIkit.util.on(accordionContainer, 'shown', function (event) {
+            // Buscamos el LI activo con querySelector solo para confirmar si está en el acordeón recién abierto.
+            const activeLiInEvent = event.target.contains(activeDocLi);
+            
+            if (activeLiInEvent) {
+                // Hacemos scroll usando el ID pre-obtenido.
+                scrollToActiveElement(); 
+            }
+        });
+
+        // Persistencia: Limpiar el estado al cerrar
+        UIkit.util.on(accordionContainer, 'beforehide', function (event) {
+            if (event.target.closest('[data-section-id]')) {
+                localStorage.removeItem('open-doc-section');
+            }
+        });
+
+        // Persistencia: Guardar el estado al abrir
+        UIkit.util.on(accordionContainer, 'show', function (event) {
+            const openItemId = event.target.closest('[data-section-id]').getAttribute('data-section-id');
+            localStorage.setItem('open-doc-section', openItemId);
+        });
+
+    });
+</script>
