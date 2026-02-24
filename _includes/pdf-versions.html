@@ -1,0 +1,63 @@
+{% comment %} 
+   Obtenemos la versión más reciente del changelog para el botón principal
+{% endcomment %}
+{% assign current_version = "1.0" %}
+{% for entry in site.data.changelog %}
+  {% if entry.number %}
+    {% assign current_version = entry.number %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% comment %} Rutas base para los archivos {% endcomment %}
+{% assign current_folder = "v" | append: current_version %}
+{% assign current_pdf_url = "/pdf/" | append: current_folder | append: "/" | append: page.slug | append: ".pdf" | relative_url %}
+
+<style>
+  /* Estética de bordes redondeados selectivos */
+  .uk-button-group .uk-button {
+      border-radius: 0 !important;
+  }
+  .uk-button-group > .uk-button:first-child {
+      border-radius: 5px 0 0 5px !important;
+  }
+  .uk-button-group .uk-inline:last-child .uk-button {
+      border-radius: 0 5px 5px 0 !important;
+      border-left: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  /* Estilo para que el link ocupe todo el botón principal */
+  .uk-button-group .pdf-main-btn {
+      text-decoration: none !important;
+      color: #fff !important;
+  }
+</style>
+
+<div class="uk-button-group no-print">
+    <a href="{{ current_pdf_url }}" target="_blank" class="uk-button uk-button-primary uk-button-small pdf-main-btn">
+        <span data-uk-icon="icon: file-pdf"></span> Versión {{ current_version }}
+    </a>
+
+    <div class="uk-inline">
+        <button class="uk-button uk-button-primary uk-button-small" type="button">
+            <span uk-icon="icon: triangle-down"></span>
+        </button>
+
+        <div uk-dropdown="mode: click; pos: bottom-right; boundary: !.uk-button-group; offset: 0">
+            <ul class="uk-nav uk-dropdown-nav">
+                <li class="uk-nav-header uk-text-small">Versiones Anteriores</li>
+                {% for release in site.data.changelog %}
+                    {% if release.number %}
+                    <li>
+                        {% assign folder = "v" | append: release.number %}
+                        {% assign file_url = "/pdf/" | append: folder | append: "/" | append: page.slug | append: ".pdf" | relative_url %}
+                        <a href="{{ file_url }}" target="_blank">
+                             v{{ release.number }} 
+                             {% if release.number == current_version %}<span class="uk-text-meta">(Actual)</span>{% endif %}
+                        </a>
+                    </li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>

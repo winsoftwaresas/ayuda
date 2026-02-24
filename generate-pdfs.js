@@ -5,13 +5,28 @@ const yaml = require('js-yaml');
 
 function getSiteVersion() {
   try {
-    const configPath = path.join(__dirname, '_config.yml');
-    const config = yaml.load(fs.readFileSync(configPath, 'utf8'));
-    let version = config.version || '1.0';
-    version = String(version);
-    return `v${version.replace(/^Version\s+/, '').trim()}`;
+    // Apuntamos a _data/changelog.yml
+    const changelogPath = path.join(__dirname, '_data', 'changelog.yml');
+    
+    if (fs.existsSync(changelogPath)) {
+      const changelog = yaml.load(fs.readFileSync(changelogPath, 'utf8'));
+      
+      // Buscamos el primer elemento que tenga la propiedad 'number'
+      // Esto ignora versiones antiguas o registros incompletos
+      const latestVersionEntry = changelog.find(entry => entry.number);
+
+      if (latestVersionEntry) {
+        let version = String(latestVersionEntry.number);
+        // Retorna v1.7 (limpiando prefijos si existieran)
+        return `v${version.replace(/^Version\s+/, '').trim()}`;
+      }
+    }
+    
+    console.warn('No se encontró la llave "number" en changelog.yml. Usando v1.0 por defecto.');
+    return 'v1.0';
+    
   } catch (e) {
-    console.error('Error al leer _config.yml:', e);
+    console.error('Error al leer _data/changelog.yml:', e);
     return 'v1.0';
   }
 }
