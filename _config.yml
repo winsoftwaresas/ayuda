@@ -9,7 +9,7 @@ title:              AM
 description:        Centro de ayuda.
 lang:               es
 company:            Win Software SAS
-version:            '1.6'
+version:            '1.7'
 
 # Site subpath, e.g. /blog
 baseurl:            ""
