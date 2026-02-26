@@ -34,7 +34,7 @@
 
 <div class="uk-button-group no-print">
     <a href="{{ current_pdf_url }}" target="_blank" class="uk-button uk-button-primary uk-button-small pdf-main-btn">
-        <span data-uk-icon="icon: file-pdf"></span> Versión {{ current_version }}
+        <span data-uk-icon="icon: file-pdf"></span> v.{{ current_version }}
     </a>
 
     <div class="uk-inline">
@@ -51,7 +51,7 @@
                         {% assign folder = "v" | append: release.number %}
                         {% assign file_url = "/pdf/" | append: folder | append: "/" | append: page.slug | append: ".pdf" | relative_url %}
                         <a href="{{ file_url }}" target="_blank">
-                             v{{ release.number }} 
+                             v.{{ release.number }} 
                              {% if release.number == current_version %}<span class="uk-text-meta">(Actual)</span>{% endif %}
                         </a>
                     </li>
