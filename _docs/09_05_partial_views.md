@@ -61,6 +61,11 @@ Las Acciones Técnicas se seleccionan de la lista desplegable y se adicionan con
 
 > **Nota:** Para actualizar o guardar los detalles de una Acción Técnica se hace un clic sobre ella y luego se acciona el botón <a class="btn gray">Actualizar Acción Técnica</a>. Para eliminar o desasociar una Acción de una OT, se debe  seleccionar y hacer un clic sobre el icono <span class="mdi mdi-delete"></span>. Estos cambios quedan automáticamente guardados en la OT. 
 
+//
+// ### Registro Metrológico
+//PENDIENTE INGRESAR INFOOOO!!!!! ESTEFANY!!!!
+//
+//
 ## Presupuesto
 
 En una OT Manual que se acaba de crear sólo se permite definir o modificar su Presupuesto si se ha establecido la opción <a class="btn cl-gray"><span class="mdi mdi-checkbox-blank-outline"> Control Presupuestal </span></a>, en la ventana detalle de la OT durante la creación de la OT. Esto significa que si a una OT no se le marcó el recuadro anterior, no tendrá la posibilidad de aceptar datos de **Presupuesto**, solamente de **Gasto Real**:
