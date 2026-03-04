@@ -143,7 +143,7 @@ Los que están Inactivos (bien sea No Operativos o Dados de baja temporal o tota
 
 **Comentario:** Aquí se ingresan los comentarios sobre un Activo o se especifica información adicional al AC.
 
-### Características
+### CARACTERISTICAS
 
 Esta opción permite definir para un determinado Activo/Equipo las Características técnicas que lo definen. En la parte izquierda de la ventana aparece un nuevo Visor en el que irán apareciendo las Características que se van creando en la ventana Detalle, mientras que en la parte derecha aparece los campos para crear o actualizar la información de las características.
 
@@ -282,7 +282,7 @@ Para eliminar un residuo accione <span class="mdi mdi-delete"></span> y continú
 
 > **Nota:** Para hacer efectivos los cambios finalice con el botón <a class="btn blue">ACTUALIZAR <span class="mdi mdi-pencil"></span></a>.
 
-### Vida Útil
+### VIDA ÚTIL
 
 {% set_image
   path:""
@@ -392,11 +392,15 @@ A continuación se describen los campos que componen esta Pestaña:
 
 **División de Escala:** Es la diferencia entre los valores correspondientes a dos trazos sucesivos de la escala.
 
+**Capacidad de Trabajo:** Es el rango dentro del cual el instrumento puede operar cumpliendo con las especificaciones del fabricante garantizando resultados validos
+
+**Tolerancia del Instrumento:** Es el error maximo permitido o variación aceptable sin comprometer la calidad, se expresa en un valor fijo de +/- (ejemplo: ±0,01 mm)
+
 **Rango de Medición:** Es el intervalo entre el valor máximo y el valor mínimo de una magnitud.
 
 **Rango de Trabajo:** es intervalo de medición del Activo/Equipo.
 
-**Puntos:** Son los ocho puntos de referencia de calibración o de verificación del Activo.
+**Puntos:** Son los seis puntos de referencia de calibración o de verificación del Activo.
 
 Luego de diligenciar el formulario agregue la magnitud con el botón <span class="mdi mdi-plus-circle icon bg-gray cl-blue "></span>. También es posible actualizar los campos en una magnitud ya agregada, para asentar los cambios en el formulario dar un clic en <a class="btn gray">Actualizar Magnitud</a>. PAra finalizar actualice el registro con el botón ubicado en la parte superior izquierda <a class="btn blue">ACTUALIZAR <span class="mdi mdi-pencil"></span></a>.
 
