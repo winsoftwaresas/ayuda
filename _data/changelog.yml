@@ -1,5 +1,12 @@
 # Changelog page source
 
+- title: AM4G Version 1.8
+  number: "1.8"
+  label: STABLE
+  date: March 04, 2026
+  list:
+   - 
+
 - title: AM4G Version 1.7
   number: "1.7"
   label: STABLE
@@ -7,16 +14,15 @@
   list:
    - Se adiciona la Tabla Clases de Almacén, que permite a los usuarios crear Clases dentro del Almacén para clasificar los Ítems del mismo.
    - Se crea semaforización para alertar sobre los activos cuya fecha de vencimiento de Invima se encuentra próxima a vencer.
-   - Se desarrolla parametrización en Administracion para definir los Campos Obligatorios por pestaña en el modulo de Activos.
+   - Se desarrolla parametrización en Administración para definir los Campos Obligatorios por pestaña en el módulo de Activos.
    - Se adiciona el reporte ACU-FTEH Hoja de Activo con SubEquipos.
    - Se adiciona el Reporte ACR-TREE Resumen de Activos en Árbol
-   - Se adiciona los Campos Color y FF Ensayo en el modulo de Paros.
+   - Se adiciona los Campos Color y FF Ensayo en el módulo de Paros.
    - El campo OP.Actual (Paros) depende de la Referencia seleccionada y sus relaciones en la tabla de Infraestructura.
    - La fecha de Paro se coloca de manera automática al crear la Orden, igualándola a la fecha de creación, aunque la fecha de Paro si la puede modificar el usuario.
    - Al seleccionar un responsable al Paro el sistema agrega automáticamente la Fecha de Atención.
    - Se permite modificar la Ubicación Física del Paro.
    - Se permite a los usuarios registrar Materiales y Repuestos en los Paros, estos se pueden adicionar, modificar y eliminar.
-   
 
 - title: AM4G Version 1.6
   number: "1.6"
@@ -30,9 +36,9 @@
    - Los usuarios podrán visualizar la unidad de medida de las características asociadas a los activos en el reporte ACD-FTE.
    - Los usuarios pueden consultar los reportes de los inventarios tomados desde AMovil.
    - En el módulo de Almacén de AM 4G, los usuarios pueden filtrar los repuestos según la cantidad disponible. 
-   - En el módulo de Kardex de AM 4G, los usuarios podrán ver el consecutivo del documento directamente en el detalle del movimiento.
-   - En el módulo de Kardex de AM 4G, se podrá visualizar la unidad de consumo en los documentos de entrada. 
-   - Cuando un documento de Kardex genere una salida que deje el inventario por debajo del punto mínimo de pedido, el sistema enviará automáticamente un correo al responsable del almacén. 
+   - En el módulo de Kárdex de AM 4G, los usuarios podrán ver el consecutivo del documento directamente en el detalle del movimiento.
+   - En el módulo de Kárdex de AM 4G, se podrá visualizar la unidad de consumo en los documentos de entrada. 
+   - Cuando un documento de Kárdex genere una salida que deje el inventario por debajo del punto mínimo de pedido, el sistema enviará automáticamente un correo al responsable del almacén. 
    - En el módulo de Programas de AM 4G, se permite registrar en el presupuesto la cantidad de horas correspondientes a la mano de obra externa. 
    - Se han añadido tres nuevos reportes en el módulo de Programas de AM 4G PRP-PRMPT, PRP-PRMR, PRP-PRMRT.
    - En el módulo de Solicitudes de AM 4G, los usuarios podrán registrar y editar la fecha programada de atención.
@@ -43,10 +49,9 @@
    - En el módulo de Órdenes de AM 4G, se permite registrar la cantidad de horas correspondientes a la mano de obra externa.
    - En el módulo de Historia de AM 4G, se permite registrar la cantidad de horas correspondientes a la mano de obra externa.  
    - Ahora los usuarios podrán visualizar la unidad de medida de las características asociadas a los activos en el reporte HMD-HIHV y HMD-HIHBVIO.
-   - El usuario administrador de la compañía ahora podrá personalizar los reportes en AM 4G, definir cuales se encuentran hablilitados y modificar su titulo.
+   - El usuario administrador de la compañía ahora podrá personalizar los reportes en AM 4G, definir cuales se encuentran habilitados y modificar su titulo.
    - Ahora el usuario administrador puede definir si se exige la evaluación del servicio antes de enviar solicitudes u órdenes a Historia. 
    - En los módulos de AM 4G que permiten el uso de contenido multimedia, ahora el sistema comprimirá automáticamente las imágenes al momento de cargarlas, antes de enviarlas al servidor.
-
 
 - title: AM4G Version 1.5
   number: "1.5"
@@ -56,17 +61,16 @@
    - Se permite a los usuarios relacionar un Encargado del Almacén.
    - Se adiciona a la Infraestructura los Registros de Residuos para relacionar con los Activos.
    - Los Usuarios podrán relacionar los residuos con los Activos.
-   - Se genera el indicador de Alertas de Tecnovigilancia, em el modulo de Activos.
+   - Se genera el indicador de Alertas de Tecnovigilancia, em el módulo de Activos.
    - Se crea el filtro para buscar por el indicador de Tecnovigilancia.
    - Se Genera una función para mostrar al sobrepasar el mouse sobre los indicadores de una Ubicación Técnica el código relacionado a la Ubicación Técnica.
    - Se Genera una función para mostrar al sobrepasar el mouse sobre los indicadores de un Componente Intercambiable el código del activo Padre.
-   - Se desarrolla una función que permite tomar la firma en los Movimientos de Salida, sea a través del mouse, pantalla táctil o un dispositivo Wacom. En el modulo de Kardex.
+   - Se desarrolla una función que permite tomar la firma en los Movimientos de Salida, sea a través del mouse, pantalla táctil o un dispositivo Wacom. En el módulo de Kárdex.
    - En el reporte KXR-RTF Informe de Salidas, podrán observar las firmas cargadas.
-   - Se desarrolla el modulode Tecnoviligancia.
-   - El sistema toma la informacion de la pagina del invima y la compara con el numero Invima de los activos registrados en el sistema.
+   - Se desarrolla el módulo de Tecnoviligancia.
+   - El sistema toma la información de la pagina del Invima y la compara con el numero Invima de los activos registrados en el sistema.
    - Los usuarios pueden hacer seguimiento a las alertas.
    - El usuario Administrador de la Compañía puede definir si se permiten o no valores repetidos en el campo Parte Número.
-   
 
 - title: AM4G Version 1.4
   number: "1.4"
@@ -77,13 +81,12 @@
    - Los usuarios Inactivos no podrán ingresar al módulo de AMsi a colocar solicitudes.
    - Se adiciona el indicador de Tipo de Rendimiento, con esto los usuarios pueden definir en un Activo que trabaja con Combustibles, si su medición se hace en Kms/Galón o Galones /Hora.
    - Se adiciona un control de auditoria para registrar los cambios de Estado de los Activos y se adiciona el reporte ACE-HICAES - Historial De Cambios De Estados. 
-   - Se ha optimizado el módulo de ingreso de datos en los movimientos de Kardex con el objetivo de mejorar la experiencia visual y facilitar el proceso de entrada de información para los usuarios. 
-   - Se configura la validación en Kardex, según la Configuración de la compañía no permita agregar repuestos a Ordenes cuyo Centro de Costo este Inactivo.
+   - Se ha optimizado el módulo de ingreso de datos en los movimientos de Kárdex con el objetivo de mejorar la experiencia visual y facilitar el proceso de entrada de información para los usuarios. 
+   - Se configura la validación en Kárdex, según la Configuración de la compañía no permita agregar repuestos a Ordenes cuyo Centro de Costo este Inactivo.
    - Se valida según el tipo de rendimiento seleccionado al activo el formulario solicite los Kilómetros recorridos o las Horas trabajadas.
    - Se desarrollan los reportes de Análisis de Consumo según el tipo de rendimiento seleccionado al activo. 
-   - Se adicionan a los campos de Exportación, los campos Si se Realizó la Evaluación de Servicio, Si se diligencio Firma Técnico y si diligencio Firma de Recibido en los Modulos de Solicitudes, Ordenes e Historia.
+   - Se adicionan a los campos de Exportación, los campos Si se Realizó la Evaluación de Servicio, Si se diligencio Firma Técnico y si diligencio Firma de Recibido en los Módulos de Solicitudes, Ordenes e Historia.
    - El usuario Administrador podrá elegir una imagen cargada en una Url para las notificaciones por correo.
-
 
 - title: AM4G Version 1.3
   number: "1.3"
@@ -91,16 +94,16 @@
   date: July 7, 2024
   list:
    - Se desarrolla la funcionalidad para relacionar Responsables de manera automática a las solicitudes de Servicio creadas en el módulo de AMsi y enviar un correo al Responsable.
-   - Se permite a los Usuarios dentro del modulo de Infraestructura definir si el Contrato se destina al Consumo de Combustibles.
+   - Se permite a los Usuarios dentro del módulo de Infraestructura definir si el Contrato se destina al Consumo de Combustibles.
    - Se crea un Indicador para los contratos que estén definidos para Combustibles
    - Se amplia el tamaño del campo email en la tabla de Terceros de Infraestructura para permitir hasta 100 caracteres.
    - El usuario puede definir en Infraestructura si la Unidad de Medida se debe listar en para la relación con Combustibles 
    - El usuario puede definir en Infraestructura los tipos de Combustibles que se relacionaran en las Consumos de Combustibles.
-   - Se adiciona el campo Fecha de Vencimiento para el Registro Invima a los Activos en las caracteristicas Biomedicas
+   - Se adiciona el campo Fecha de Vencimiento para el Registro Invima a los Activos en las características Biomédicas
    - Se desarrolla el reporte ACU-MYMO – Resumen de Activos con Marca y Modelo
    - Se adiciona la Columna Familia al Pop-UP para seleccionar los Materiales y Repuestos.
    - El usuario administrador define si la Compañía registra el Consumo de Combustibles
-   - Se desarrolla el modulo de Consumo de Combustible, donde los usuarios tendran acceso a entradas, registros , descargas y exportación  
+   - Se desarrolla el módulo de Consumo de Combustible, donde los usuarios tendrán acceso a entradas, registros , descargas y exportación  
    - Se consulta al usuario al momento de cerrar la solicitud con OT, si desea que esta lleve Control presupuestal.
    - Se adiciona el Indicador de Firma de Técnico a la grilla de Solicitudes.
    - Se adiciona el campo De Técnico Externo a las Ordenes de Trabajo
@@ -110,69 +113,67 @@
    - El usuario administrador debe definir si las Ordenes creadas desde AMovil tienen o no Control Presupuestal.
    - El usuario administrador debe definir si los técnicos en AMovil pueden o no Modificar los activos y el responsable de las Solicitudes de Servicio
    - El usuario administrador puede definir por Compañía el mensaje de contacto que se enviara en las notificaciones por correo.
-   - Se mejora el diseño de las notificaciones por Correo Electronico.
+   - Se mejora el diseño de las notificaciones por Correo Electrónico.
 
-    
 - title: AM4G Version 1.2
   label: STABLE
   date: April 26, 2024
   list:
    - Se realiza parametrización en activos para permitir dos Contadores en un Activo. 
    - Se desarrolla una función la cual generara automáticamente una Orden de Trabajo cuando una característica controlable adiciona una lectura fuera del rango.
-   - Se añade un campo de Recibido por en los movimientos de Salida en Kardex.
-   - Se añade un campo de Comentario en los movimientos de Salida en Kardex.
-   - Se añaden los filtros de búsqueda en Subgrupo por los campos Recibido por y Comentarios en modulo de Kardex.
-   - Se desarrolla reporte KXR-RST Informe de Salidas – Entregas en modulo de Kardex.
-   - Se adiciona una validación en Entradas que permite al Concepto 33 realizar movimiento de entrada con valor unitario en 0 en Kardex.
+   - Se añade un campo de Recibido por en los movimientos de Salida en Kárdex.
+   - Se añade un campo de Comentario en los movimientos de Salida en Kárdex.
+   - Se añaden los filtros de búsqueda en Subgrupo por los campos Recibido por y Comentarios en módulo de Kárdex.
+   - Se desarrolla reporte KXR-RST Informe de Salidas – Entregas en módulo de Kárdex.
+   - Se adiciona una validación en Entradas que permite al Concepto 33 realizar movimiento de entrada con valor unitario en 0 en Kárdex.
    - Se habilita el criterio de programación por dos contadores en Programas. 
    - Se permite relacionar en un programa Presupuesto y Acciones Técnicas en Programas.
    - Se desarrolla una validación al campo Comentario para que no permita Actualizar el detalle de la Solicitud si se encuentra un Comentario sin agregar en Solicitudes, Ordenes e Historia.
-   - Se agrega el Código de activo a la exportación a Excel en modulo de Solicitudes.
+   - Se agrega el Código de activo a la exportación a Excel en módulo de Solicitudes.
    - Se permite en una Orden manejar Acciones técnicas y control de Gastos en Ordenes e Historia.
    - Se desarrollan los check-list en acciones técnicas en Ordenes e Historia.
    - Se desarrolla el reporte 0TD-AT en el modulo Ordenes.
-   - Se modifican los procesos de Insertar y Actualizar en las matrices de gasto real y presupuesto en modulos de Ordenes e Historia.
+   - Se modifican los procesos de Insertar y Actualizar en las matrices de gasto real y presupuesto en módulos de Ordenes e Historia.
    - Se adiciona al registro en la bitácora de la Orden de trabajo los cambios de Activos en Ordenes e Historia.
-   - Se desarrolla el reporte HMD-AT en el modulode Historia. 
-
+   - Se desarrolla el reporte HMD-AT en el módulo de Historia. 
 
 - title: AM4G Version 1.1B
   label: STABLE
   date: February 05, 2024
   list:
-   - Se cambia en el modulo de Activos el concepto de Clasificación por procesos a Criticidad del Activo.
-   - Se adiciona en el modulo de Activos Ítem Equipos de apoyo hospitalario a la clasificación Biomédica en la ficha de Información Biomédica.
-   - Se adiciona en el modulo de Activos el campo Número de Expediente en la ficha de Información biomédica.
-   - Se adiciona en el modulo de Activos el campo Clasificación por Riesgo en los Subgrupos de búsqueda.
-   - Se adicionan en el modulo de Programas los filtros de Búsqueda de Clasificación Por Uso, Clasificación Por Grupo y Clasificación Por Riesgo.
-   - Se permite definir en el modulo de Adminisracion para las compañías que usan AMovil, si desean que solo se permita descargar a los técnicos las Ordenes programadas para el día actual.
+   - Se cambia en el módulo de Activos el concepto de Clasificación por procesos a Criticidad del Activo.
+   - Se adiciona en el módulo de Activos Ítem Equipos de apoyo hospitalario a la clasificación Biomédica en la ficha de Información Biomédica.
+   - Se adiciona en el módulo de Activos el campo Número de Expediente en la ficha de Información biomédica.
+   - Se adiciona en el módulo de Activos el campo Clasificación por Riesgo en los Subgrupos de búsqueda.
+   - Se adicionan en el módulo de Programas los filtros de Búsqueda de Clasificación Por Uso, Clasificación Por Grupo y Clasificación Por Riesgo.
+   - Se permite definir en el módulo de Administración para las compañías que usan AMovil, si desean que solo se permita descargar a los técnicos las Ordenes programadas para el día actual.
 
 - title: AM4G Version 1.1A
   label: STABLE
   date: December 05, 2023
   list:
-   - El administrador del modulo de AMsi puede definir si desea preguntar a los solicitantes Si se entrega el equipo limpio a mantenimiento. 
-   - Se adicionan los filtros de búsqueda por Familia y Parte Número en Almacen.
-   - Se corrige en Kardex el calculo del iva cuando las entradas tienen descuento, este se calcula en base al valor con el descuento incluido.
-   - Se adicionan en el modulo de Solicitudes los campos para registrar si el activo se entrega limpio a mantenimiento y si mantenimiento devuelve el activo limpio.
-   - Se adiciona en el modulo de Solicitudes el campo para registrar si mantenimiento devuelve el activo limpio.
-   - Se adicionan en el modulo de Ordenes los campos para registrar si el activo se entrega limpio a mantenimiento.
-   - Se adicionan en el modulo de Historia los campos para registrar los datos de entrega del activo en las diferentes Ordenes, Solicitudes o Paros.
-   - En el modulo de Administracion se podrá definir por cada compañía como deben aumentar los consecutivos de Kardex, si por almacén o por compañía. 
+   - El administrador del módulo de AMsi puede definir si desea preguntar a los solicitantes Si se entrega el equipo limpio a mantenimiento. 
+   - Se adicionan los filtros de búsqueda por Familia y Parte Número en Almacén.
+   - Se corrige en Kárdex el calculo del iva cuando las entradas tienen descuento, este se calcula en base al valor con el descuento incluido.
+   - Se adicionan en el módulo de Solicitudes los campos para registrar si el activo se entrega limpio a mantenimiento y si mantenimiento devuelve el activo limpio.
+   - Se adiciona en el módulo de Solicitudes el campo para registrar si mantenimiento devuelve el activo limpio.
+   - Se adicionan en el módulo de Ordenes los campos para registrar si el activo se entrega limpio a mantenimiento.
+   - Se adicionan en el módulo de Historia los campos para registrar los datos de entrega del activo en las diferentes Ordenes, Solicitudes o Paros.
+   - En el módulo de Administración se podrá definir por cada compañía como deben aumentar los consecutivos de Kárdex, si por almacén o por compañía. 
 
 - title: AM4G Version 1.1
   label: STABLE
   date: October 10, 2023
   list:
    - A partir de esta versión los usuarios de AMsi podrán interactuar con el aplicativo desde el móvil o tableta sin perder ninguna funcionalidad del sistema.
-   - Se realizan mejoras y validaciones en el modulo de administración de Amsi para evitar errores en el registro de nuevos usuarios.
+   - Se realizan mejoras y validaciones en el módulo de administración de Amsi para evitar errores en el registro de nuevos usuarios.
    - Se revisan las validaciones para la tabla de terceros, permitiendo la actualización fluida de los cambios en terceros.
    - Se establecen en Contratos 2 casos de tipo de servicio, el que se recibe y el que se presta.
    - Se bloquea la tabla de catalogo Tipos de mantenimientos. 
    - En el Submódulo de contadores se presentan los activos con ordenamiento alfabético.
-   - Se crea el campo de Usuario en la inserción del documento de Kardex.
+   - Se crea el campo de Usuario en la inserción del documento de Kárdex.
    - Se desarrolla la función de validación para los valores unitarios en las entradas.
-   - Se parametriza la opción para Congelar los documentos de Kardex.
+   - Se parametriza la opción para Congelar los documentos de Kárdex.
    - Se corrige el reporte PRP-PRYAMD para que muestre todos los criterios de programación.
    - Al momento de crear una nueva solicitud Correctiva el sistema tomara la fecha y hora automáticamente y la asignara a la fecha y hora de Paro.
    - Se adiciona el campo Ubicación Física a las opciones de descarga en el módulo de Solicitudes.
@@ -180,10 +181,10 @@
    - Se corrige la toma de tiempo improductivo automática para Ordenes con tipo de mantenimiento Correctivo.
    - Se elimina la validación para los campos obligatorios de Causa de Falla y Efecto de Falla al momento de cancelar una Orden.
    - En la Opción Agregar Responsable al gasto real de modificación masiva de Ordenes de Trabajo, se carga a su vez el tipo de asignación definida por el usuario.
-   - Al agregar un responsable ejecutor con la opción Modificación masiva si este responsable es un interno se selecciona a la vez de forma automatica como responsable por la Institución.
+   - Al agregar un responsable ejecutor con la opción Modificación masiva si este responsable es un interno se selecciona a la vez de forma automática como responsable por la Institución.
    - Se adiciona en Dashboard con los estados de las Ordenes.
    - Se adiciona Dashboard Interactivo por Tipo de Mantenimientos.
-   - Los consecutivos se ordenan por campo numérico en el modulo de Hitoria.
+   - Los consecutivos se ordenan por campo numérico en el módulo de Historia.
    - Se adiciona el filtro de Búsqueda por “Fecha de Envió a Historia”.
    - Se adiciona el campo de descarga por “Fecha de Envió a Historia”.
    - Se adiciona el reporte HMR-RECC Resumen De Costo En Ordenes De Trabajo Agrupado Por Centro de Costo.
@@ -192,10 +193,10 @@
    - Los registros por pagina se deben definir a partir de esta versión entre las opciones 60 0 100 registros por página.
    - El administrador de la Compañía debe definir si se toma o no el tiempo Improductivo para todas las Ordenes creadas desde AMovil.
    - El administrador de la Compañía debe seleccionar el Tipo de Mantenimiento, Tipo de Actividad y Tipo de Trabajo por defecto para las Solicitudes generadas desde AMsi. 
-   - Se adiciona la Opcion de un nuevo Correo al agregar un Comentario a las Solicitudes u Ordenes de trabajo.
+   - Se adiciona la Opción de un nuevo Correo al agregar un Comentario a las Solicitudes u Ordenes de trabajo.
    - Esta versión permite a los Administradores de Compañía definir los permisos básicos para cada usuario en AMovil.
    - Los clientes pueden Solicitar a Winsoftware manejar el Login de usuarios con multifactor a través de correo electrónico.
-   - Desde esta versión el sistema tiene una auditoria fuerte sobre el módulo de Kardex.
+   - Desde esta versión el sistema tiene una auditoria fuerte sobre el módulo de Kárdex.
    - Se crea una tabla de Login fallidos.
 
 - title: AM4G Version 1.0A
@@ -203,8 +204,8 @@
   date: June 12, 2023
   list:
    - Se desarrolla en AMsi la funcionalidad para relacionar los usuarios por compañías.
-   - Se realiza la validación para los tipos de documento según el tipo de movimiento en Kardex.
-   - Se desarrollan cambios de indicadores sobre los reportesde Indicadores en Historia.
+   - Se realiza la validación para los tipos de documento según el tipo de movimiento en Kárdex.
+   - Se desarrollan cambios de indicadores sobre los reportes de Indicadores en Historia.
    - Se desarrollan nuevas funciones en las 2 interfases de carga de archivos planos.
 
 - title: AM4G Version 1.0
@@ -214,19 +215,18 @@
    - Se desarrolla indicador en las carpetas de multimedia para informar al usuario cuando estas contienen archivos.
    - Se desarrolla función de búsqueda para usuarios en el módulo de administración del AMsi.
    - Se corrige la validación y ahora el sistema permite a los oficios con responsables internos llevar por defecto el valor Hora1 en 0.
-   - Se anexan los filtros de búsqueda por Fecha de Registro y Fecha de Ingreso al inventario (Modulo de Activos).
-   - Se desarrolla el reporte PMU-DPM	Detallado de Programas De Mantenimiento (Modulo de Programas).
-   - Se corrigen los colores en los tiempos de estado (Modulo de Solicitudes).
+   - Se anexan los filtros de búsqueda por Fecha de Registro y Fecha de Ingreso al inventario (Módulo de Activos).
+   - Se desarrolla el reporte PMU-DPM	Detallado de Programas De Mantenimiento (Módulo de Programas).
+   - Se corrigen los colores en los tiempos de estado (Módulo de Solicitudes).
    - Se desarrollan los links de enlace entre las Solicitudes cerradas con Orden y las Ordenes de trabajo que se encuentran en historia.
-   - Se anexa validación de Ubicación Física obligatoria para Ordenes de Trabajo (Modulo de Ordenes).
-   - Se anexa validación para no permitir el cierre de Ordenes sin definir el responsable ejecutor (Modulo de Ordenes).
-   - Se anexa validación para no permitir a los usuarios modificar el activo o tipo de mantenimiento en las Ordenes que vienen de Programas (Modulo de Ordenes).
-   - Se desarrolla el reporte OTR-LREP	Resumen de Materiales y Repuestos (Modulo de Ordenes).
-   - Se realiza un cambio en el back para permitir una carga más rápida de la grilla de inicio de modulo (Modulo de Historia).
-   - Se desarrolla el reporte HMR-EVAP 	Porcentaje de Evaluaciones por calificación (Modulo de Historia).
-   - Se permite al usuario administrador del sistema AM4G definir si los tecnicos de amovil deben o no realizar la evaluacion antes de la firma de recibido (Administración).
-   - Se configura el servicdor de correo a través de Javamail.
-
+   - Se anexa validación de Ubicación Física obligatoria para Ordenes de Trabajo (Módulo de Ordenes).
+   - Se anexa validación para no permitir el cierre de Ordenes sin definir el responsable ejecutor (Módulo de Ordenes).
+   - Se anexa validación para no permitir a los usuarios modificar el activo o tipo de mantenimiento en las Ordenes que vienen de Programas (Módulo de Ordenes).
+   - Se desarrolla el reporte OTR-LREP	Resumen de Materiales y Repuestos (Módulo de Ordenes).
+   - Se realiza un cambio en el back para permitir una carga más rápida de la grilla de inicio de modulo (Módulo de Historia).
+   - Se desarrolla el reporte HMR-EVAP 	Porcentaje de Evaluaciones por calificación (Módulo de Historia).
+   - Se permite al usuario administrador del sistema AM4G definir si los técnicos de amovil deben o no realizar la evaluación antes de la firma de recibido (Administración).
+   - Se configura el servidor de correo a través de Javamail.
 
 - title: AM4G Version 0.86
   label: STABLE
@@ -235,9 +235,9 @@
    - En los listados desplegables se cambia el seleccionador por un filtro.
    - Se desarrolla la parametrización para solicitar la Fecha Tentativa (AMSi).
    - Se desarrolla una validación para que la Fecha Tentativa ingresada por el usuario no sea Inferior a la fecha de la solicitud (AMSi).
-   - Se desarrolla en el modulo de Activos el submódulo Cruce De Activos.
+   - Se desarrolla en el módulo de Activos el submódulo Cruce De Activos.
    - Se desarrolla el reporte ACR-INV Resumen De Activos con su Último Mantenimiento Realizado.
-   - Se adicionan en el modulo de Programas los filtros de búsqueda por FF de Ultima Generación y Responsable por la Institución.
+   - Se adicionan en el módulo de Programas los filtros de búsqueda por FF de Ultima Generación y Responsable por la Institución.
    - Las Solicitudes Cerradas Ejecutadas y Cerradas No Ejecutadas luego de encontrarse en este Estado no permitirán el cambio de estado o FF De Atención.
    - Por defecto los usuarios no podrán realizar ningún cambio sobre una Orden Cerrada Ejecutada o Cancelada.
    - Se preselecciona siempre la opción Ejecución en tiempo Real al relacionar un responsable al Oficio en la matriz de Gasto Real.
@@ -254,10 +254,10 @@
    - Se verifica la funcionalidad para que solo los Usuarios que crean la solicitud de AMsi puedan hacer comentarios.
    - Se permite ingresar valores negativos al Valor de contador al Inicio del Periodo.
    - Se valida que el Activo/Equipo este en estado Activo antes de cambiar el estado de la SS a Cerrado con OT.
-   - Se desarrolla la función de exportación de datos de la grilla para el modulo de Paros.
+   - Se desarrolla la función de exportación de datos de la grilla para el módulo de Paros.
    - Se crea el submódulo Enviar a Historia Archivada.
    - Se crea el submódulo vista Historia Archivada.
-   - Se desarrolla la función de exportación de datos de la grilla para el submodulo Historia Archivada.
+   - Se desarrolla la función de exportación de datos de la grilla para el submódulo Historia Archivada.
 
 - title: AM4G Version 0.84
   label: STABLE
@@ -273,7 +273,7 @@
   - Se cambia la ubicación de Seguimiento y Cierre en el detalle de las Ordenes, ahora los usuarios no deben cambiar de Submódulo para ver el seguimiento y cierre de la Orden ya que se integra esta ventana como una pestaña al detalle del modulo principal. 
   - La modificación masiva de estados solo podrán realizarla los usuarios con permiso de Cierre especial.
   - Se adiciona a las búsquedas por campos del activo las opciones de Marca y modelo.
-  - Se adiciona a las búsquedas por campos de la Orden las opciones de Indicadores (modulos Ordenes e Historia).
+  - Se adiciona a las búsquedas por campos de la Orden las opciones de Indicadores (módulos Ordenes e Historia).
   - Se desarrolla el reporte OTR-CORECC.
   - Se cambia la ubicación de Seguimiento y Cierre en el detalle de las Historias.
   - Se desarrolla el reporte HMR-EVAV.
@@ -287,18 +287,18 @@
   - Se desarrolla la función para exportar los datos de la Grilla en AMsi.
   - Se ajustan los valores decimales en el cálculo de los contratos.
   - Se desarrolla la validación de valores en los contadores, según su tipo sean incremental o decremental y el estándar de planeación en relación al tiempo de actualización.
-  - Se agregan los campos Alias y Código de barra Interno a la función de modificación masiva en el modulo de Activos.
-  - Se corrige el campo Adicionar Comentario en modificación masiva modulo de Programas, ahora el sistema permite agregar comentarios a los programas sin borrar la información previa que contenía el programa en este campo.
-  - Se adiciona el campo Responsable por Institución en la función de modificación masiva en el modulo de Programas.
-  - Se corrige el campo de insertar Ingresar Presupuesto – Ingresar Materiales y Repuestos en modificación masiva en el modulo de Programas. El usuario debe seleccionar el Almacén desde donde tomara el repuesto antes de abrir la función de búsqueda.
-  - Se corrige el campo de búsqueda RP-Código, en el modulo de Programas, el usuario debe elegir primero el almacén antes de desplegar la ventana de búsqueda.
-  - Se agrega la columna Fecha de Cierre en la función de Exportar Grilla en el modulo de Solicitudes.
-  - Se adiciona modal que contiene la explicación correspondiente a los Colores en la columna de Estado en el modulo de Ordenes.
-  - Se habilita el campo Agregar Responsable de Gasto Real a la modificación masiva en el modulo de Ordenes.
+  - Se agregan los campos Alias y Código de barra Interno a la función de modificación masiva en el módulo de Activos.
+  - Se corrige el campo Adicionar Comentario en modificación masiva módulo de Programas, ahora el sistema permite agregar comentarios a los programas sin borrar la información previa que contenía el programa en este campo.
+  - Se adiciona el campo Responsable por Institución en la función de modificación masiva en el módulo de Programas.
+  - Se corrige el campo de insertar Ingresar Presupuesto – Ingresar Materiales y Repuestos en modificación masiva en el módulo de Programas. El usuario debe seleccionar el Almacén desde donde tomara el repuesto antes de abrir la función de búsqueda.
+  - Se corrige el campo de búsqueda RP-Código, en el módulo de Programas, el usuario debe elegir primero el almacén antes de desplegar la ventana de búsqueda.
+  - Se agrega la columna Fecha de Cierre en la función de Exportar Grilla en el módulo de Solicitudes.
+  - Se adiciona modal que contiene la explicación correspondiente a los Colores en la columna de Estado en el módulo de Ordenes.
+  - Se habilita el campo Agregar Responsable de Gasto Real a la modificación masiva en el módulo de Ordenes.
   - La bitácora de Ordenes de trabajo tomara el registro desde la Creación de la Orden y no desde la primera modificación cómo funcionaba actualmente.
   - Se adiciona el campo de Tiempo Total de Solución.
   - Se corrige la función de Actualización en Gasto Real Otros Conceptos.
-  - Se lleva al modulo de Seguimiento y Cierre el registro de Activo Limpio en el modulo de Historia.
+  - Se lleva al módulo de Seguimiento y Cierre el registro de Activo Limpio en el módulo de Historia.
   - Se desarrolla el reporte HMR-RCACD- Resumen De Costos En Ordenes De Trabajo - Agrupado Por Activo Raíz.
   - Se desarrolla el reporte HMR-RCACDXA - Resumen De Costos En Ordenes De Trabajo - Agrupado Por Activo Raíz y Activos. 
 
@@ -306,11 +306,11 @@
   label: STABLE
   date: Junio 3, 2022
   list:
-  - Se adiciona el campo de confirmar constraseña en AMsi.
+  - Se adiciona el campo de confirmar contraseña en AMsi.
   - AMsi No relacionado por Centros de Costo. Se adiciona la función de búsqueda con tabulador.
-  - Modulo de Infraestructura se corrigen todos los permisos de visualización.
+  - Módulo de Infraestructura se corrigen todos los permisos de visualización.
   - Se calculan y muestran todos los valores de Ejecución de contratos.
-  - Se adicionan las validaciones para compañias biomédicas y metrología en la vista de Árbol.
+  - Se adicionan las validaciones para compañías biomédicas y metrología en la vista de Árbol.
   - Se desarrolla el calcula del valor actual depreciado, Años de Uso y Años restantes del activo.
   - Se guarda la relación de contador con el criterio para que el historial del contador no se pierda.
   - Los usuarios con permisos restrictivos solo podrán exportar y modificar masivamente los registros a los que tienen acceso.
@@ -323,16 +323,16 @@
   date: Mayo 5, 2022
   list:
   - Se corrige la tabla de Infraestructura Referencias, se pueden realizar actualizaciones y eliminar.
-  - Se adicionaron 5 puntos de metrologia a los activos biomedicos. Total 8 puntos.
-  - Se desarrolla un nuevo filtro para Activos que permite la busqueda por Valor Nominal de las caracteristicas.
-  - Se habilita la funcion Eliminar Contadores en Activos; se borra tanto el contador como su historial.
-  - Se igualan los Indicadores en el visor de Asociar Activos del modulo de Almacen con el visor principal del modulo de Activos.
-  - Se desarrolla una validacion en Seguimiento y Cierre para indicar al usuario que hay registros en Mano de Obra Gasto Real sin asociar a Responsables.
-  - Se igualan los Indicadores en el visor de Seguimiento y Cierre con el visor principal del modulo de Órdenes.
-  - En Gasto Real Mano de Obra del modulo de Historia los usuarios podran ver los registros asi no esten asociados a un responsable.
-  - En la transaccion exportar a los campos de Fechas se les da un formato sin milisegundos.
-  - Los Dashboard de Activos, Almacen, Programas y Órdenes se programan para responder al subgrupo asignado.
-  - Se integra a valores por defecto la opcion de Notificaciones. 
+  - Se adicionaron 5 puntos de Metrología a los activos biomédicos. Total 8 puntos.
+  - Se desarrolla un nuevo filtro para Activos que permite la búsqueda por Valor Nominal de las características.
+  - Se habilita la función Eliminar Contadores en Activos; se borra tanto el contador como su historial.
+  - Se igualan los Indicadores en el visor de Asociar Activos del módulo de Almacén con el visor principal del módulo de Activos.
+  - Se desarrolla una validación en Seguimiento y Cierre para indicar al usuario que hay registros en Mano de Obra Gasto Real sin asociar a Responsables.
+  - Se igualan los Indicadores en el visor de Seguimiento y Cierre con el visor principal del módulo de Órdenes.
+  - En Gasto Real Mano de Obra del módulo de Historia los usuarios podrán ver los registros asi no estén asociados a un responsable.
+  - En la transacción exportar a los campos de Fechas se les da un formato sin milisegundos.
+  - Los Dashboard de Activos, Almacén, Programas y Órdenes se programan para responder al subgrupo asignado.
+  - Se integra a valores por defecto la opción de Notificaciones. 
   - Se desarrollan los reportes de Historia HMI-IND3 ,HMI-IND4 ,HMI-IND7 ,HMD-HIHV, HMD-HIHVBIO.
   - Se desarrollan los reportes de Órdenes OTD-G2XP,OTD-P2XP.
 
