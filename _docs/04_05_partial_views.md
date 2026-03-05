@@ -119,6 +119,8 @@ A continuación se describen los campos que componen el registro. Sobre cada cam
 
 **Referencia Proveedor 1, Referencia Proveedor 2,   Referencia Proveedor 3:** En estos campos se  registran las  referencias  con  las  que  cada  Proveedor  correspondiente  suministra  el  Material/Repuesto seleccionado.
 
+**Marca 1, Marca 2, Marca 3:** En estos campos se  registran las  marcas  con  las  que  cada  Proveedor  correspondiente  suministra  el  Material/Repuesto seleccionado.
+
 **Comentario:** Aquí se ingresan los comentarios sobre un Repuesto o se especifica información adicional al Material/Repuesto. Este campo cuenta con un espacio de 220 caracteres.
 
 #### Características Técnicas

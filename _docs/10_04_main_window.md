@@ -138,6 +138,18 @@ Para las OT que se hayan enviado a Historia con costos ABC, esta pestaña sólo 
   alt:"Historia - Acciones Técnicas de una OT"
 %}
 
+### Registro Metrológico
+
+Para las OT con TM Metrologia que se hayan enviado a Historia, esta pestaña permite consultar la fecha, error maximo e incenrtidumbre del error por cada magnitud registrada.
+
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"10_05.png"
+  alt:"Historia - Registro Metrológico de una OT"
+%}
+
 ### Gasto Real
 
 Para ingresar a esta opción, se debe dar clic en la pestaña “Gasto Real” de la ventana detalle de Órdenes de Trabajo Históricas.
@@ -148,7 +160,7 @@ Este refleja los costos registrados en la OT Histórica:
   path:""
   css_class:""
   number:""
-  filename:"10_05.png"
+  filename:"10_06.png"
   alt:"Historia - Gasto Real de una OT"
 %}
 
@@ -164,7 +176,7 @@ En la zona inferior, aparecen los botones para ingresar al detalle de <a class="
   path:""
   css_class:""
   number:""
-  filename:"10_06.png"
+  filename:"10_07.png"
   alt:"Historia - Gasto Real MO"
 %}
 
@@ -201,7 +213,7 @@ Una vez se diligencien estos campos se da clic en el ícono de Mas <span class="
   path:""
   css_class:""
   number:""
-  filename:"10_07.png"
+  filename:"10_08.png"
   alt:"Historia - Gasto Real Ingresar MO"
 %}
 
@@ -211,7 +223,7 @@ En el caso de actualizar la información de Mano de Obra Interna se da clic en <
   path:""
   css_class:""
   number:""
-  filename:"10_08.png"
+  filename:"10_09.png"
   alt:"Historia - Gasto Real Actualizar MO"
 %}
 
@@ -221,7 +233,7 @@ Por otro lado, para eliminar un registro de la tabla, se selecciona el registro 
   path:""
   css_class:""
   number:""
-  filename:"10_09.png"
+  filename:"10_10.png"
   alt:"Historia - Gasto Real Eliminar MO"
 %}
 
@@ -231,7 +243,7 @@ Por otro lado, para eliminar un registro de la tabla, se selecciona el registro 
   path:""
   css_class:""
   number:""
-  filename:"10_10.png"
+  filename:"10_11.png"
   alt:"Historia - Gasto Real ME"
 %}
 
@@ -257,7 +269,7 @@ Una vez se diligencien estos campos se da clic en el ícono de Mas <span class="
   path:""
   css_class:""
   number:""
-  filename:"10_11.png"
+  filename:"10_12.png"
   alt:"Historia - Gasto Real Ingresar ME"
 %}
 
@@ -267,7 +279,7 @@ En el caso de actualizar la información de Mano de Obra Externa, se da clic en 
   path:""
   css_class:""
   number:""
-  filename:"10_12.png"
+  filename:"10_13.png"
   alt:"Historia - Gasto Real Actualizar ME"
 %}
 
@@ -277,7 +289,7 @@ Por otro lado, para eliminar un registro de la tabla, se selecciona el registro 
   path:""
   css_class:""
   number:""
-  filename:"10_13.png"
+  filename:"10_14.png"
   alt:"Historia - Gasto Real Eliminar ME"
 %}
 
@@ -287,7 +299,7 @@ Por otro lado, para eliminar un registro de la tabla, se selecciona el registro 
   path:""
   css_class:""
   number:""
-  filename:"10_14.png"
+  filename:"10_15.png"
   alt:"Historia - Gasto Real M Y R"
 %}
 
@@ -323,7 +335,7 @@ Una vez se diligencien estos campos se da clic en el ícono de Mas <span class="
   path:""
   css_class:""
   number:""
-  filename:"10_15.png"
+  filename:"10_16.png"
   alt:"Historia - Gasto Real Ingresar M Y R"
 %}
 
@@ -333,7 +345,7 @@ En el caso de actualizar la información de Materiales y Repuestos, se da clic e
   path:""
   css_class:""
   number:""
-  filename:"10_16.png"
+  filename:"10_17.png"
   alt:"Historia - Gasto Real Actualizar M Y R"
 %}
 
@@ -343,7 +355,7 @@ Por otro lado, para eliminar un registro de la tabla, se selecciona el registro 
   path:""
   css_class:""
   number:""
-  filename:"10_17.png"
+  filename:"10_18.png"
   alt:"Historia - Gasto Real Eliminar M Y R"
 %}
 
@@ -353,7 +365,7 @@ Por otro lado, para eliminar un registro de la tabla, se selecciona el registro 
   path:""
   css_class:""
   number:""
-  filename:"10_18.png"
+  filename:"10_19.png"
   alt:"Historia - Gasto Real OC"
 %}
 
@@ -381,7 +393,7 @@ Una vez se diligencien estos campos se da clic en el ícono de Mas <span class="
   path:""
   css_class:""
   number:""
-  filename:"10_19.png"
+  filename:"10_20.png"
   alt:"Historia - Ingresar OC"
 %}
 
@@ -391,7 +403,7 @@ En el caso de actualizar la información de Materiales y Repuestos, se da clic e
   path:""
   css_class:""
   number:""
-  filename:"10_20.png"
+  filename:"10_21.png"
   alt:"Historia - Actualizar OC"
 %}
 
@@ -401,7 +413,7 @@ Por otro lado, para eliminar un registro de la tabla, se selecciona el registro 
   path:""
   css_class:""
   number:""
-  filename:"10_21.png"
+  filename:"10_22.png"
   alt:"Historia - Eliminar OC"
 %}
 
@@ -415,7 +427,7 @@ Se puede visualizar la evaluación del servicio del personal de mantenimiento o 
   path:""
   css_class:""
   number:""
-  filename:"10_22.png"
+  filename:"10_23.png"
   alt:"Historia - Evaluación del Servicio"
 %}
 
@@ -429,7 +441,7 @@ En el Seguimiento o Cierre en HM es posible corregir los tiempos, duración de l
   path:""
   css_class:""
   number:""
-  filename:"10_23.png"
+  filename:"10_24.png"
   alt:"Historia - Seguimiento y Cierre"
 %}
 
@@ -509,7 +521,7 @@ En el Seguimiento o Cierre, además de los botones <a class="btn blue">Actualiza
   path:""
   css_class:""
   number:""
-  filename:"10_24.png"
+  filename:"10_25.png"
   alt:"Historia - Detalle Bitácora en Seguimiento y Cierre"
 %}
 
@@ -521,7 +533,7 @@ Una vez se actualice el sistema responde con un mensaje de advertencia, para con
   path:""
   css_class:""
   number:""
-  filename:"10_25.png"
+  filename:"10_26.png"
   alt:"Historia - Mensaje alerta en Seguimiento y Cierre"
 %}
 
@@ -531,7 +543,7 @@ Una vez se actualice el sistema responde con un mensaje de advertencia, para con
   path:""
   css_class:""
   number:""
-  filename:"10_26.png"
+  filename:"10_27.png"
   alt:"Historia - Multimedia"
 %}
 
@@ -556,7 +568,7 @@ Para adicionar un documento, imagen o video, se debe dar un doble clic sobre la 
   path:""
   css_class:""
   number:""
-  filename:"10_27.png"
+  filename:"10_28.png"
   alt:"Historia - Abrir Explorador Archivos"
 %}
 
@@ -566,7 +578,7 @@ A continuación se abre el explorador de archivos, seguido de seleccionar el arc
   path:""
   css_class:""
   number:""
-  filename:"10_28.png"
+  filename:"10_29.png"
   alt:"Historia - Seleccionar Archivos"
 %}
 
@@ -576,7 +588,7 @@ De manera adicional u opcional se puede escribir un nombre en el siguiente campo
   path:""
   css_class:""
   number:""
-  filename:"10_29.png"
+  filename:"10_30.png"
   alt:"Historia - Nombrar Archivo"
 %}
 
@@ -586,7 +598,7 @@ Para finalizar dar un clic en el botón  <a class="btn white">subir archivo </a>
   path:""
   css_class:""
   number:""
-  filename:"10_30.png"
+  filename:"10_31.png"
   alt:"Historia - Subir archivo"
 %}
 
@@ -596,7 +608,7 @@ Los archivos que se van adicionando van quedando guardados uno debajo del otro y
   path:""
   css_class:""
   number:""
-  filename:"10_31.png"
+  filename:"10_32.png"
   alt:"Historia - Previsualización formato imagen"
 %}
 
@@ -606,7 +618,7 @@ Para desasociar un documento, o una imagen o un video, a la OT se da clic al ico
   path:""
   css_class:""
   number:""
-  filename:"10_32.png"
+  filename:"10_33.png"
   alt:"Historia - Desasociar archivo"
 %}
 
@@ -622,7 +634,7 @@ Se usa para seleccionar grupos de OT, SS y Paros  que cumplen con un conjunto de
   path:""
   css_class:""
   number:""
-  filename:"10_33.png"
+  filename:"10_34.png"
   alt:"Historia - Ir a Subgrupo"
 %}
 
@@ -638,7 +650,7 @@ Los campos de datos que constituyen criterio de selección son los siguientes:
   path:""
   css_class:""
   number:""
-  filename:"10_34.png"
+  filename:"10_35.png"
   alt:"Historia - Subgrupo"
 %}
 
@@ -798,7 +810,7 @@ Para efectuar este proceso, se da clic en Exportar <span class="mdi mdi-download
   path:""
   css_class:""
   number:""
-  filename:"10_35.png"
+  filename:"10_36.png"
   alt:"Historia - Exportar"
 %}
 
@@ -819,7 +831,7 @@ Este comando permite visualizar los reportes relacionados a OT, SS y PA en Histo
   path:""
   css_class:""
   number:""
-  filename:"10_36.png"
+  filename:"10_37.png"
   alt:"Historia - Reportes"
 %}
 
@@ -847,7 +859,7 @@ El reporte con código **HMI-CMDAP de Análisis Previo de Disponibilidad** es ne
   path:""
   css_class:""
   number:""
-  filename:"10_37.png"
+  filename:"10_38.png"
   alt:"Historia - Reporte Cargar Análisis Previo de Disponibilidad"
 %}
 
@@ -857,7 +869,7 @@ Primero se debe un clic en el botón <a class="btn white">cargar</a>. Una vez qu
   path:""
   css_class:""
   number:""
-  filename:"10_38.png"
+  filename:"10_39.png"
   alt:"Historia - Reporte Mensaje Análisis Previo de Disponibilidad"
 %}
 
@@ -869,7 +881,7 @@ A continuación se muestra la vista previa de impresión en formato pdf:
   path:""
   css_class:""
   number:""
-  filename:"10_39.png"
+  filename:"10_40.png"
   alt:"Historia - Reporte Vista Previa Análisis Previo de Disponibilidad"
 %}
 
@@ -879,7 +891,7 @@ Para imprimir o exportar el reporte **HME-CRMACC-Cronograma de Mantenimientos Ej
   path:""
   css_class:""
   number:""
-  filename:"10_40.png"
+  filename:"10_41.png"
   alt:"Historia - Valores OOAK"
 %}
 
@@ -889,7 +901,7 @@ Luego, se debe digitar el año del cual se quieren analizar los datos, como se i
   path:""
   css_class:""
   number:""
-  filename:"10_41.png"
+  filename:"10_42.png"
   alt:"Historia - Ingresar Valores OOAK"
 %}
 
@@ -897,7 +909,7 @@ Luego, se debe digitar el año del cual se quieren analizar los datos, como se i
   path:""
   css_class:""
   number:""
-  filename:"10_42.png"
+  filename:"10_43.png"
   alt:"Historia - Mensaje Alerta Valores OOAK"
 %}
 
@@ -907,7 +919,7 @@ A continuación, se debe refrescar la página, o bien dando clic derecho y eligi
   path:""
   css_class:""
   number:""
-  filename:"10_43.png"
+  filename:"10_44.png"
   alt:"Historia - Cronograma de Mantenimientos Ejecutados"
 %}
 
@@ -917,7 +929,7 @@ A continuación se muestra la visualización del respectivo reporte:
   path:""
   css_class:""
   number:""
-  filename:"10_44.png"
+  filename:"10_45.png"
   alt:"Historia - Reporte Cronograma de Mantenimientos Ejecutados"
 %}
 
@@ -937,7 +949,7 @@ Para enviar registros de **Historia** a **Historia Archivada**, previamente se d
   path:""
   css_class:""
   number:""
-  filename:"10_45.png"
+  filename:"10_46.png"
   alt:"Historia - Ir a Enviar a Historia Archivada"
 %}
 
@@ -947,7 +959,7 @@ Al ingresar a la transacción se muestra la siguiente ventana:
   path:""
   css_class:""
   number:""
-  filename:"10_46.png"
+  filename:"10_47.png"
   alt:"Historia - Enviar a Historia Archivada"
 %}
 
@@ -964,7 +976,7 @@ Luego de seleccionar una de las opciones anteriores dar clic en el botón <a cla
   path:""
   css_class:""
   number:""
-  filename:"10_47.png"
+  filename:"10_48.png"
   alt:"Historia - Mensaje Alerta Enviar Historia Archivada"
 %}
 
@@ -976,7 +988,7 @@ Cuando el proceso termine, el sistema muestra un mensaje alerta confirmando el p
   path:""
   css_class:""
   number:""
-  filename:"10_48.png"
+  filename:"10_49.png"
   alt:"Historia - Mensaje Alerta Envío a Historia Archivada"
 %}
 
@@ -986,7 +998,7 @@ Cuando el proceso termine, el sistema muestra un mensaje alerta confirmando el p
   path:""
   css_class:""
   number:""
-  filename:"10_49.png"
+  filename:"10_50.png"
   alt:"Historia - Mensaje de Advertencia"
 %}
 
@@ -998,7 +1010,7 @@ Para acceder a esta opción, se debe sobreponer el cursor sobre el módulo de Hi
   path:""
   css_class:""
   number:""
-  filename:"10_50.png"
+  filename:"10_51.png"
   alt:"Historia - Ir a Dashboard"
 %}
 
@@ -1008,7 +1020,7 @@ Este comando permite visualizar en tiempo real el comportamiento de los registro
   path:""
   css_class:""
   number:""
-  filename:"10_51.png"
+  filename:"10_52.png"
   alt:"Historia - Dashboard"
 %}
 
@@ -1022,7 +1034,7 @@ Es por lo anterior que esta fracción se verá afectada al realizarse un “Subg
   path:""
   css_class:""
   number:""
-  filename:"10_52.png"
+  filename:"10_53.png"
   alt:"Historia - Dashboard"
 %}
 
@@ -1032,7 +1044,7 @@ Al dar clic sobre los rectángulos de colores, se oculta la información corresp
   path:""
   css_class:""
   number:""
-  filename:"10_53.png"
+  filename:"10_54.png"
   alt:"Historia - Dashboard"
 %}
 
@@ -1042,7 +1054,7 @@ El valor que está ubicado dentro del rectángulo verde, indica el número total
   path:""
   css_class:""
   number:""
-  filename:"10_54.png"
+  filename:"10_55.png"
   alt:"Historia - Dashboard OT"
 %}
 
@@ -1052,7 +1064,7 @@ Sí se desea restablecer la información, se debe dar clic al icono de las flech
   path:""
   css_class:""
   number:""
-  filename:"10_55.png"
+  filename:"10_56.png"
   alt:"Historia - Dashboard SS"
 %}
 
@@ -1068,7 +1080,7 @@ Para ir a la transacción sobreponer el cursor sobre el módulo de  <a class="bt
   path:""
   css_class:""
   number:""
-  filename:"10_56.png"
+  filename:"10_57.png"
   alt:"Historia - Ir a Eliminar Masivamente"
 %}
 
@@ -1078,7 +1090,7 @@ Para eliminar un conjunto de registros se debe primero realizar un Subgrupo no m
   path:""
   css_class:""
   number:""
-  filename:"10_57.png"
+  filename:"10_58.png"
   alt:"Historia - Alerta Eliminar Masivamente"
 %}
 
@@ -1088,7 +1100,7 @@ Una vez se tenga el conjunto de registros preseleccionados proceder con la trans
   path:""
   css_class:""
   number:""
-  filename:"10_58.png"
+  filename:"10_59.png"
   alt:"Historia - Eliminar Historia"
 %}
 
@@ -1104,7 +1116,7 @@ Para continuar dar clic en el botón <a class="btn blue">eliminar historia</a> u
   path:""
   css_class:""
   number:""
-  filename:"10_59.png"
+  filename:"10_60.png"
   alt:"Historia - Mensaje Advertencia Eliminar Masivamente"
 %}
 
@@ -1114,6 +1126,6 @@ Para finalizar el proceso dar clic en <a class="btn blue">aceptar</a>, y el sist
   path:""
   css_class:""
   number:""
-  filename:"10_60.png"
+  filename:"10_61.png"
   alt:"Historia - Aviso Satisfactorio Eliminar Masivamente"
 %}

@@ -23,9 +23,13 @@ Al ejecutar esta transacción, se abre una ventana como se muestra a continuaci�
 
 En la gráfica anterior, se aprecian sus componentes y sus respectivos contenidos.
 
-<a class="btn cl-gray bg-white btn-rounded"><span class="mdi mdi-circle cl-blue pr-1"></span><span class="pr-1"> Exportar Visor </span></a>: Esta opción exporta todos los Activos seleccionados en el visor mediante un subgrupo.
+<a class="btn cl-gray bg-white btn-rounded"><span class="mdi mdi-circle cl-blue pr-1"></span><span class="pr-1"> Exportar Visor </span></a>: Esta opción exporta todos los ítems seleccionados del almacén teniendo en cuenta el visor mediante un subgrupo.
 
-<a class="btn cl-gray bg-white btn-rounded"><span class="mdi mdi-circle cl-blue pr-1"></span><span class="pr-1"> Exportar Todos los Registros </span></a>: Esta opción exporta todas los Activos existentes en la base de datos, sin importar cualquier subgrupo activo.
+<a class="btn cl-gray bg-white btn-rounded"><span class="mdi mdi-circle cl-blue pr-1"></span><span class="pr-1"> Exportar Todos los Registros </span></a>: Esta opción exporta todos los ítems existentes en el almacén, sin importar cualquier subgrupo activo.
+
+<a class="btn cl-gray bg-white btn-rounded"><span class="mdi mdi-circle cl-blue pr-1"></span><span class="pr-1"> Exportar Visor de Todos los Almacenes </span></a>: Esta opción consolida y exporta todos los ítems seleccionados de todos los almacenes teniendo en cuenta los visores mediante subgrupos.
+
+<a class="btn cl-gray bg-white btn-rounded"><span class="mdi mdi-circle cl-blue pr-1"></span><span class="pr-1"> Exportar Todos los Registros de Todos los Almacenes</span></a>: Esta opción consolida y exporta todos los ítems existentes en todos los almacenes, sin importar cualquier subgrupo activo.
 
 Luego de escoger una de las opciones anteriores, en la parte inferior aparece seleccionado por defecto el recuadro de selección <a class="btn cl-gray"><span class="mdi mdi-checkbox-blank-outline"> Exportar Todos Los Campos </span></a> pero si se prefiere uno o algunos campos se debe des-seleccionar y a continuación hacer clic en los recuadros a exportar.
 
@@ -38,3 +42,4 @@ Luego de escoger una de las opciones anteriores, en la parte inferior aparece se
 %}
 
 Una vez elegida la información, dar clic en el botón inferior  <a class="btn bg-gray cl-black">EXPORTAR</a> el cual genera un archivo de Excel que se descarga automáticamente. El objetivo de esta exportación es llevar toda la información de los Materiales/Repuestos a un archivo plano, para luego ser analizados.
+

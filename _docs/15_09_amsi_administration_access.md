@@ -126,6 +126,8 @@ En esta ventana se configuran los campos que serán exigidos en la sección Dato
 
 **¿El Correo Electrónico es requerido?:** Marcar SI indica que este campo es obligatorio y se identifican con un asterisco * de color rojo entre paréntesis que antecede el nombre del campo. Además, indica que debe ser llenado por los usuarios. Marcar NO implica dejar el campo a manera opcional de diligenciamiento para el solicitante al momento de actualizar la información desde **Actualizar Perfil** o para el usuario administrador al momento de crear y actualizar los usuarios.
 
+**¿Mostrar solo solicitudes del usuario?:** Marcar SI indica que los usuarios podrán visualizar únicamente sus propias solicitudes de servicio, reforzando la privacidad y el control de la información dentro del sistema
+
 #### Servicio Solicitado
 
 En esta ventana se configuran los campos que serán exigidos en la sección Servicio Solicitado. Los componentes de la ventana de Servicio Solicitado son los que se muestran a continuación. Sobre cada componente se da una breve explicación.
