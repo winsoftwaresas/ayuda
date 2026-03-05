@@ -3,9 +3,23 @@
 - title: AM4G Version 1.8
   number: "1.8"
   label: STABLE
-  date: March 04, 2026
+  date: March 03, 2026
   list:
-   - 
+- Se desarrolla parametrización en módulo AMsi para restringir la visibilidad de solicitudes, mostrando solo aquellas creadas por el usuario.
+- Al registrar un activo, el sistema almacena automáticamente la fecha de registro del activo en la vida útil.
+- En el módulo de Activos, se adicionan los campos de capacidad de trabajo y tolerancia del instrumento en la información de metrología.
+- En el módulo de Almacén, se adiciona el campo marca en el registro de proveedores.
+- Se desarrolla en el módulo de Almacén la funcionalidad de exportación para todos los almacenes, facilitando el acceso masivo a la información consolidada de inventarios.
+- Se desarrolla parametrización en módulo de Kardex que permite configurar el sistema para que el consecutivo de Kardex sea tomado automáticamente como el mismo valor del número de documento de Kardex.
+- Se adiciona el reporte KXR-AUD Resumen de Auditoría, que permite visualizar los cambios realizados sobre un documento de Kardex.
+- En el módulo de Órdenes, se adiciona la pestaña Registro Metrológico para aquellas órdenes con TM Metrología, permitiendo registrar los valores de Error Máximo e Incertidumbre del Error.
+- Se adiciona el reporte OTU-RMG Resumen de Registros Metrológicos, que permite consolidar los datos registrados y los presenta agrupados por Activo y por Magnitud Metrológica.
+- Se adiciona al Dashboard de Órdenes un gráfico de órdenes vencidas según tiempo de vencimiento.
+- Se adiciona el reporte OTU-TIORP Resumen de Órdenes de Trabajo con Tiempo, presentando un consolidado de las órdenes de trabajo y sus tiempos asociados.
+- Se adiciona el reporte OTU-MCC Resumen de Órdenes de Trabajo, el cual lista las órdenes de trabajo e indica si cada una de ellas cuenta con archivos multimedia y/o comentarios asociados.
+- En el módulo de Historia, se adiciona la pestaña Registro Metrológico para aquellas órdenes con tipo de mantenimiento de metrología.
+- Se adiciona el reporte HMU-RMG Resumen de Registros Metrológicos, que permite consolidar los datos registrados y los presenta agrupados por Activo y por Magnitud.
+- Se adiciona el campo FF de Cierre en Exportador de Datos, permitiendo incluir la fecha de finalización del proceso directamente en los reportes.
 
 - title: AM4G Version 1.7
   number: "1.7"
