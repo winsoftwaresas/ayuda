@@ -5,6 +5,7 @@
   label: STABLE
   date: March 03, 2026
   list:
+   - 
 - Se desarrolla parametrización en módulo AMsi para restringir la visibilidad de solicitudes, mostrando solo aquellas creadas por el usuario.
 - Al registrar un activo, el sistema almacena automáticamente la fecha de registro del activo en la vida útil.
 - En el módulo de Activos, se adicionan los campos de capacidad de trabajo y tolerancia del instrumento en la información de metrología.
