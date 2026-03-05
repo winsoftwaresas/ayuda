@@ -140,7 +140,7 @@ Para las OT que se hayan enviado a Historia con costos ABC, esta pestaña sólo 
 
 ### Registro Metrológico
 
-Para las OT con TM Metrologia que se hayan enviado a Historia, esta pestaña permite consultar la fecha, error maximo e incenrtidumbre del error por cada magnitud registrada.
+Para las OT con TM Metrología que se hayan enviado a Historia, esta pestaña permite consultar la fecha, error máximo e incertidumbre del error por cada magnitud registrada. 
 
 {% set_image
   path:""
