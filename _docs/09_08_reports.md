@@ -14,7 +14,7 @@ Este comando permite visualizar los reportes relacionados a OT. Existen los sigu
   path:""
   css_class:""
   number:""
-  filename:"09_94.png"
+  filename:"09_96.png"
   alt:"Órdenes - Reportes"
 %}
 

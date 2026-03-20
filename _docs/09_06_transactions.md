@@ -16,7 +16,7 @@ A esta opción se llega sobreponiendo el cursor sobre el módulo de OT donde se 
   path:""
   css_class:""
   number:""
-  filename:"09_54.png"
+  filename:"09_56.png"
   alt:"Órdenes - Analizar/Generar"
 %}
 
@@ -26,7 +26,7 @@ Esta transacción abre una ventana que permite hacer el análisis a un conjunto 
   path:""
   css_class:""
   number:""
-  filename:"09_55.png"
+  filename:"09_57.png"
   alt:"Órdenes - Ventana Detalle Analizar/Generar"
 %}
 
@@ -38,7 +38,7 @@ Digitar la fecha en el campo **Desde**, que corresponde al inicio del período a
   path:""
   css_class:""
   number:""
-  filename:"09_56.png"
+  filename:"09_58.png"
   alt:"Órdenes - Comenzar Analizar/Generar"
 %}
 
@@ -48,7 +48,7 @@ Digitar la fecha en el campo **Desde**, que corresponde al inicio del período a
   path:""
   css_class:""
   number:""
-  filename:"09_57.png"
+  filename:"09_59.png"
   alt:"Órdenes - Comenzar Analizar/Generar"
 %}
 
@@ -58,7 +58,7 @@ Una vez finalizado el proceso, se muestra el detalle del análisis y se muestra 
   path:""
   css_class:""
   number:""
-  filename:"09_58.png"
+  filename:"09_60.png"
   alt:"Órdenes - Finalización Proceso Analizar"
 %}
 
@@ -70,7 +70,7 @@ Para visualizar el diagrama de las OTs para ese periodo analizado, se da clic en
   path:""
   css_class:""
   number:""
-  filename:"09_59.png"
+  filename:"09_61.png"
   alt:"Órdenes - Giagrama de Gantt"
 %}
 
@@ -84,7 +84,7 @@ A continuación, se procede a verificar si para las OT detectadas en el proceso 
   path:""
   css_class:""
   number:""
-  filename:"09_60.png"
+  filename:"09_62.png"
   alt:"Órdenes - Reportes"
 %}
 
@@ -116,7 +116,7 @@ A esta opción se llega sobreponiendo el cursor sobre el módulo de OT donde se 
   path:""
   css_class:""
   number:""
-  filename:"09_61.png"
+  filename:"09_63.png"
   alt:"Órdenes - ir a Modificación Masiva"
 %}
 
@@ -126,7 +126,7 @@ Esta transacción permite cambiar masivamente el Centro de Costos, Ubicación F�
   path:""
   css_class:""
   number:""
-  filename:"09_62.png"
+  filename:"09_64.png"
   alt:"Órdenes - Visor Modificación Masiva"
 %}
 
@@ -136,7 +136,7 @@ Seguidamente se muestran las opciones de modificación masiva disponibles.
   path:""
   css_class:""
   number:""
-  filename:"09_63.png"
+  filename:"09_65.png"
   alt:"Órdenes - Visor Modificación Masiva"
 %}
 
@@ -154,7 +154,7 @@ Las opciones de Modificación Masiva son las siguientes:
   path:""
   css_class:""
   number:""
-  filename:"09_64.png"
+  filename:"09_66.png"
   alt:"Órdenes - MM Centro de Costo"
 %}
 
@@ -164,7 +164,7 @@ Las opciones de Modificación Masiva son las siguientes:
   path:""
   css_class:""
   number:""
-  filename:"09_65.png"
+  filename:"09_67.png"
   alt:"Órdenes - MM Centro Responsable"
 %}
 
@@ -174,7 +174,7 @@ Las opciones de Modificación Masiva son las siguientes:
   path:""
   css_class:""
   number:""
-  filename:"09_66.png"
+  filename:"09_68.png"
   alt:"Órdenes - MM Comentarios"
 %}
 
@@ -184,7 +184,7 @@ Las opciones de Modificación Masiva son las siguientes:
   path:""
   css_class:""
   number:""
-  filename:"09_67.png"
+  filename:"09_69.png"
   alt:"Órdenes - MM Contrato"
 %}
 
@@ -194,7 +194,7 @@ Las opciones de Modificación Masiva son las siguientes:
   path:""
   css_class:""
   number:""
-  filename:"09_68.png"
+  filename:"09_70.png"
   alt:"Órdenes - MM Estado"
 %}
 
@@ -204,7 +204,7 @@ Las opciones de Modificación Masiva son las siguientes:
   path:""
   css_class:""
   number:""
-  filename:"09_69.png"
+  filename:"09_71.png"
   alt:"Órdenes - MM F/H Programada"
 %}
 
@@ -214,7 +214,7 @@ Las opciones de Modificación Masiva son las siguientes:
   path:""
   css_class:""
   number:""
-  filename:"09_70.png"
+  filename:"09_72.png"
   alt:"Órdenes - MM Prioridad"
 %}
 
@@ -224,7 +224,7 @@ Las opciones de Modificación Masiva son las siguientes:
   path:""
   css_class:""
   number:""
-  filename:"09_71.png"
+  filename:"09_73.png"
   alt:"Órdenes - MM Prioridad"
 %}
 
@@ -234,7 +234,7 @@ Las opciones de Modificación Masiva son las siguientes:
   path:""
   css_class:""
   number:""
-  filename:"09_72.png"
+  filename:"09_74.png"
   alt:"Órdenes - MM Prioridad"
 %}
 
@@ -244,7 +244,7 @@ Las opciones de Modificación Masiva son las siguientes:
   path:""
   css_class:""
   number:""
-  filename:"09_73.png"
+  filename:"09_75.png"
   alt:"Órdenes - MM Tiempo Estimado"
 %}
 
@@ -254,7 +254,7 @@ Las opciones de Modificación Masiva son las siguientes:
   path:""
   css_class:""
   number:""
-  filename:"09_74.png"
+  filename:"09_76.png"
   alt:"Órdenes - MM TA"
 %}
 
@@ -264,7 +264,7 @@ Las opciones de Modificación Masiva son las siguientes:
   path:""
   css_class:""
   number:""
-  filename:"09_75.png"
+  filename:"09_77.png"
   alt:"Órdenes - MM TM"
 %}
 
@@ -274,7 +274,7 @@ Las opciones de Modificación Masiva son las siguientes:
   path:""
   css_class:""
   number:""
-  filename:"09_76.png"
+  filename:"09_78.png"
   alt:"Órdenes - MM TM"
 %}
 
@@ -284,7 +284,7 @@ Las opciones de Modificación Masiva son las siguientes:
   path:""
   css_class:""
   number:""
-  filename:"09_77.png"
+  filename:"09_79.png"
   alt:"Órdenes - MM TM"
 %}
 
@@ -300,7 +300,7 @@ A esta opción se llega sobreponiendo el cursor sobre el módulo de OT donde se 
   path:""
   css_class:""
   number:""
-  filename:"09_78.png"
+  filename:"09_80.png"
   alt:"Órdenes - Ir a Seguimiento y Cierre Masivo"
 %}
 
@@ -310,7 +310,7 @@ Para ingresar al Detalle del Seguimiento y Cierre de un registro, se debe dar cl
   path:""
   css_class:""
   number:""
-  filename:"09_79.png"
+  filename:"09_81.png"
   alt:"Órdenes - Visor Seguimiento y Cierre Masivo"
 %}
 
@@ -320,7 +320,7 @@ En el Seguimiento o Cierre de Órdenes se mantiene al día la información vital
   path:""
   css_class:""
   number:""
-  filename:"09_80.png"
+  filename:"09_82.png"
   alt:"Órdenes - Detalle Seguimiento y Cierre Masivo"
 %}
 
@@ -405,7 +405,7 @@ En el Seguimiento o Cierre, además de los botones <a class="btn blue">ACTUALIZA
   path:""
   css_class:""
   number:""
-  filename:"09_81.png"
+  filename:"09_83.png"
   alt:"Órdenes - Detalle Bitácora Seguimiento y Cierre Masivo"
 %}
 
@@ -415,7 +415,7 @@ Para continuar con la actualización de una OT o un subgrupo de OT se debe dar c
   path:""
   css_class:""
   number:""
-  filename:"09_82.png"
+  filename:"09_84.png"
   alt:"Órdenes - Mensaje Alerta Seguimiento y Cierre Masivo"
 %}
 
@@ -425,7 +425,7 @@ Una vez se complete el cierre masivo, el sistema muestra la Ventana Visor con lo
   path:""
   css_class:""
   number:""
-  filename:"09_83.png"
+  filename:"09_85.png"
   alt:"Órdenes - Actualización Seguimiento y Cierre Masivo"
 %}
 
@@ -437,7 +437,7 @@ A esta opción se llega sobreponiendo el cursor sobre el módulo de OT donde se 
   path:""
   css_class:""
   number:""
-  filename:"09_84.png"
+  filename:"09_86.png"
   alt:"Órdenes - Ir a Enviar a Historia"
 %}
 
@@ -447,7 +447,7 @@ El objetivo de esta transacción es desplazar hacia el módulo de HM las OT que 
   path:""
   css_class:""
   number:""
-  filename:"09_85.png"
+  filename:"09_87.png"
   alt:"Órdenes - Visor Enviar a Historia"
 %}
 
@@ -466,7 +466,7 @@ Para enviar a Historia, se selecciona una de las opciones y se hace clic en el b
   path:""
   css_class:""
   number:""
-  filename:"09_86.png"
+  filename:"09_88.png"
   alt:"Órdenes - Enviar a Historia"
 %}
 
@@ -477,7 +477,7 @@ Una vez finaliza el proceso, aparece el siguiente mensaje:
   path:""
   css_class:""
   number:""
-  filename:"09_87.png"
+  filename:"09_89.png"
   alt:"Órdenes - Mensaje Envío OT a HM"
 %}
 
@@ -487,7 +487,7 @@ En caso de inexistencia de registros para ser enviados, aparece el siguiente men
   path:""
   css_class:""
   number:""
-  filename:"09_88.png"
+  filename:"09_90.png"
   alt:"Órdenes - Mensaje de Error Envío OT a HM"
 %}
 
@@ -499,7 +499,7 @@ A esta opción se llega sobreponiendo el cursor sobre el módulo de OT donde se 
   path:""
   css_class:""
   number:""
-  filename:"09_89.png"
+  filename:"09_91.png"
   alt:"Órdenes - Ir a Dashboard de OT"
 %}
 
@@ -509,7 +509,7 @@ Este comando permite visualizar en tiempo real el comportamiento de los registro
   path:""
   css_class:""
   number:""
-  filename:"09_90.png"
+  filename:"09_92.png"
   alt:"Órdenes - Dashboard de OT"
 %}
 
@@ -520,7 +520,7 @@ También un indicador de la existencia de un subgrupo, es el ícono de triángul
   path:""
   css_class:""
   number:""
-  filename:"09_91.png"
+  filename:"09_93.png"
   alt:"Órdenes - Subgrupos Dashboard"
 %}
 
@@ -530,7 +530,7 @@ Para personalizar la vista de los gráficos o tener una información específica
   path:""
   css_class:""
   number:""
-  filename:"09_92.png"
+  filename:"09_94.png"
   alt:"Órdenes - Subgrupos Dashboard"
 %}
 

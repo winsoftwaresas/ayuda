@@ -61,11 +61,29 @@ Las Acciones Técnicas se seleccionan de la lista desplegable y se adicionan con
 
 > **Nota:** Para actualizar o guardar los detalles de una Acción Técnica se hace un clic sobre ella y luego se acciona el botón <a class="btn gray">Actualizar Acción Técnica</a>. Para eliminar o desasociar una Acción de una OT, se debe  seleccionar y hacer un clic sobre el icono <span class="mdi mdi-delete"></span>. Estos cambios quedan automáticamente guardados en la OT. 
 
-//
-// ### Registro Metrológico
-//PENDIENTE INGRESAR INFOOOO!!!!! ESTEFANY!!!!
-//
-//
+## Registro Metrológico
+
+Para habilitar la pestaña de registro metrológico, es necesario definir en la tipificación de la orden de trabajo el tipo de mantenimiento como **Metrología**, en la ficha técnica de la OT.
+
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_11.png"
+  alt:"Tipificación - Registro Metrológico"
+%}
+
+En la pestaña de Registro Metrológico aparece un nuevo recuadro en el cual es posible registrar las magnitudes calibradas (siempre que estas estén asociadas al activo), la fecha de calibración, el error máximo y la incertidumbre del error.
+
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"09_12.png"
+  alt:"Registro Metrológico"
+%}
+
+
 ## Presupuesto
 
 En una OT Manual que se acaba de crear sólo se permite definir o modificar su Presupuesto si se ha establecido la opción <a class="btn cl-gray"><span class="mdi mdi-checkbox-blank-outline"> Control Presupuestal </span></a>, en la ventana detalle de la OT durante la creación de la OT. Esto significa que si a una OT no se le marcó el recuadro anterior, no tendrá la posibilidad de aceptar datos de **Presupuesto**, solamente de **Gasto Real**:
@@ -74,7 +92,7 @@ En una OT Manual que se acaba de crear sólo se permite definir o modificar su P
   path:""
   css_class:""
   number:""
-  filename:"09_11.png"
+  filename:"09_13.png"
   alt:"Órdenes - Presupuesto"
 %}
 
@@ -86,7 +104,7 @@ Se muestra un ejemplo de una OT creada manualmente con manejo de Presupuesto:
   path:""
   css_class:""
   number:""
-  filename:"09_12.png"
+  filename:"09_14.png"
   alt:"Órdenes - Presupuesto"
 %}
 
@@ -98,7 +116,7 @@ En esta ventana se resumen los totales de los costos presupuestados de <a class=
   path:""
   css_class:""
   number:""
-  filename:"09_13.png"
+  filename:"09_15.png"
   alt:"Órdenes - Mano de Obra Interna"
 %}
 
@@ -133,7 +151,7 @@ Una vez que se diligencian todos los campos se da clic en el botón <span class=
   path:""
   css_class:""
   number:""
-  filename:"09_14.png"
+  filename:"09_16.png"
   alt:"Órdenes - Ingresar MO"
 %}
 
@@ -145,7 +163,7 @@ Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar 
   path:""
   css_class:""
   number:""
-  filename:"09_15.png"
+  filename:"09_17.png"
   alt:"Órdenes - Actualizar MO"
 %}
 
@@ -155,7 +173,7 @@ Por otro lado, para eliminar un registro de la tabla de Mano de Obra Interna, se
   path:""
   css_class:""
   number:""
-  filename:"09_16.png"
+  filename:"09_18.png"
   alt:"Órdenes - Eliminar MO"
 %}
 
@@ -165,7 +183,7 @@ Por otro lado, para eliminar un registro de la tabla de Mano de Obra Interna, se
   path:""
   css_class:""
   number:""
-  filename:"09_17.png"
+  filename:"09_19.png"
   alt:"Órdenes - ME"
 %}
 
@@ -193,7 +211,7 @@ Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar 
   path:""
   css_class:""
   number:""
-  filename:"09_18.png"
+  filename:"09_20.png"
   alt:"Órdenes - Actualizar ME"
 %}
 
@@ -205,7 +223,7 @@ Por otro lado, para eliminar un registro de la tabla de Mano de Obra Externa, se
   path:""
   css_class:""
   number:""
-  filename:"09_19.png"
+  filename:"09_21.png"
   alt:"Órdenes - Eliminar ME"
 %}
 
@@ -215,7 +233,7 @@ Por otro lado, para eliminar un registro de la tabla de Mano de Obra Externa, se
   path:""
   css_class:""
   number:""
-  filename:"09_20.png"
+  filename:"09_22.png"
   alt:"Órdenes - M y R"
 %}
 
@@ -255,7 +273,7 @@ Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar 
   path:""
   css_class:""
   number:""
-  filename:"09_21.png"
+  filename:"09_23.png"
   alt:"Órdenes - Actualizar M y R"
 %}
 
@@ -267,7 +285,7 @@ Por otro lado, para eliminar un registro de la tabla de Material y Repuesto, se 
   path:""
   css_class:""
   number:""
-  filename:"09_22.png"
+  filename:"09_24.png"
   alt:"Órdenes - Eliminar M y R"
 %}
 
@@ -277,7 +295,7 @@ Por otro lado, para eliminar un registro de la tabla de Material y Repuesto, se 
   path:""
   css_class:""
   number:""
-  filename:"09_23.png"
+  filename:"09_25.png"
   alt:"Órdenes - OC"
 %}
 
@@ -307,7 +325,7 @@ Es posible, actualizar un registro una vez ingresado. Se debe seleccionar o dar 
   path:""
   css_class:""
   number:""
-  filename:"09_24.png"
+  filename:"09_26.png"
   alt:"Órdenes - Actualizar OC"
 %}
 
@@ -317,7 +335,7 @@ Por otro lado, para eliminar un registro de la tabla de Otro Concepto de Costo, 
   path:""
   css_class:""
   number:""
-  filename:"09_25.png"
+  filename:"09_27.png"
   alt:"Órdenes - Eliminar OC"
 %}
 
@@ -333,7 +351,7 @@ Para la primera alternativa se muestra un ejemplo:
   path:""
   css_class:""
   number:""
-  filename:"09_26.png"
+  filename:"09_28.png"
   alt:"Órdenes - Pasar Presupuesto a Gasto Real"
 %}
 
@@ -349,7 +367,7 @@ Para el caso de la primera alternativa cuando se traslada el Presupuesto al Gast
   path:""
   css_class:""
   number:""
-  filename:"09_27.png"
+  filename:"09_29.png"
   alt:"Órdenes - Gasto Real"
 %}
 
@@ -367,7 +385,7 @@ En la zona inferior, aparecen los botones para ingresar Mano de Obra Interna, Ma
   path:""
   css_class:""
   number:""
-  filename:"09_28.png"
+  filename:"09_30.png"
   alt:"Órdenes - Gasto Real Mano de Obra Interna"
 %}
 
@@ -405,7 +423,7 @@ Una vez se diligencien estos campos se da clic en el ícono de Mas <span class="
   path:""
   css_class:""
   number:""
-  filename:"09_29.png"
+  filename:"09_31.png"
   alt:"Órdenes - Gasto Real Ingresar MO"
 %}
 
@@ -415,7 +433,7 @@ En el caso de actualizar la información de Mano de Obra Interna se da clic en <
   path:""
   css_class:""
   number:""
-  filename:"09_30.png"
+  filename:"09_32.png"
   alt:"Órdenes - Gasto Real Actualizar MO"
 %}
 
@@ -425,7 +443,7 @@ Por otro lado, para eliminar un registro de la tabla, se selecciona el registro 
   path:""
   css_class:""
   number:""
-  filename:"09_31.png"
+  filename:"09_33.png"
   alt:"Órdenes - Gasto Real Eliminar MO"
 %}
 
@@ -435,7 +453,7 @@ Por otro lado, para eliminar un registro de la tabla, se selecciona el registro 
   path:""
   css_class:""
   number:""
-  filename:"09_32.png"
+  filename:"09_34.png"
   alt:"Órdenes - Gasto Real Mano de Obra Externa"
 %}
 
@@ -463,7 +481,7 @@ para agregar, como se muestra a continuación:
   path:""
   css_class:""
   number:""
-  filename:"09_33.png"
+  filename:"09_35.png"
   alt:"Órdenes - Gasto Real Ingresar ME"
 %}
 
@@ -473,7 +491,7 @@ En el caso de actualizar la información de Mano de Obra Externa, se da clic en 
   path:""
   css_class:""
   number:""
-  filename:"09_34.png"
+  filename:"09_36.png"
   alt:"Órdenes - Gasto Real Actualizar ME"
 %}
 
@@ -483,7 +501,7 @@ Por otro lado, para eliminar un registro de la tabla, se selecciona el registro 
   path:""
   css_class:""
   number:""
-  filename:"09_35.png"
+  filename:"09_37.png"
   alt:"Órdenes - Gasto Real Eliminar ME"
 %}
 
@@ -493,7 +511,7 @@ Por otro lado, para eliminar un registro de la tabla, se selecciona el registro 
   path:""
   css_class:""
   number:""
-  filename:"09_36.png"
+  filename:"09_38.png"
   alt:"Órdenes - Gasto Real Materiales y Repuestos"
 %}
 
@@ -531,7 +549,7 @@ Una vez se diligencien estos campos se da clic en el botón <span class="mdi mdi
   path:""
   css_class:""
   number:""
-  filename:"09_37.png"
+  filename:"09_39.png"
   alt:"Órdenes - Gasto Real Ingresar M y R"
 %}
 
@@ -541,7 +559,7 @@ En el caso de actualizar la información de Materiales y Repuestos, se da clic e
   path:""
   css_class:""
   number:""
-  filename:"09_38.png"
+  filename:"09_40.png"
   alt:"Órdenes - Gasto Real Actualizar M Y R"
 %}
 
@@ -551,7 +569,7 @@ Por otro lado, para eliminar un registro de la tabla, se selecciona el registro 
   path:""
   css_class:""
   number:""
-  filename:"09_39.png"
+  filename:"09_41.png"
   alt:"Órdenes - Gasto Real Eliminar M y R"
 %}
 
@@ -561,7 +579,7 @@ Por otro lado, para eliminar un registro de la tabla, se selecciona el registro 
   path:""
   css_class:""
   number:""
-  filename:"09_40.png"
+  filename:"09_42.png"
   alt:"Órdenes - Gasto Real Otros Conceptos de Costo"
 %}
 
@@ -591,7 +609,7 @@ Una vez se diligencien estos campos se da clic en el ícono <span class="mdi mdi
   path:""
   css_class:""
   number:""
-  filename:"09_41.png"
+  filename:"09_43.png"
   alt:"Órdenes - Gasto Real Ingresar Otros Conceptos de Costo"
 %}
 
@@ -601,7 +619,7 @@ En el caso de actualizar la información de Materiales y Repuestos, se da clic e
   path:""
   css_class:""
   number:""
-  filename:"09_42.png"
+  filename:"09_44.png"
   alt:"Órdenes - Gasto Real Actualizar Otros Conceptos de Costo"
 %}
 
@@ -611,7 +629,7 @@ Por otro lado, para eliminar un registro de la tabla, se selecciona el registro 
   path:""
   css_class:""
   number:""
-  filename:"09_43.png"
+  filename:"09_45.png"
   alt:"Órdenes - Gasto Real Eliminar Otro Concepto de Costo"
 %}
 
@@ -627,7 +645,7 @@ En el Seguimiento o Cierre se mantiene al día la información vital de ejecuci�
   path:""
   css_class:""
   number:""
-  filename:"09_44.png"
+  filename:"09_46.png"
   alt:"Órdenes - Detalle Seguimiento y Cierre"
 %}
 
@@ -699,7 +717,7 @@ En el Seguimiento o Cierre, además de los botones <a class="btn gray">Actualiza
   path:""
   css_class:""
   number:""
-  filename:"09_45.png"
+  filename:"09_47.png"
   alt:"Órdenes - Detalle Bitácora en Seguimiento y Cierre"
 %}
 
@@ -711,7 +729,7 @@ Una vez se actualice el sistema responde con un mensaje de advertencia, para con
   path:""
   css_class:""
   number:""
-  filename:"09_46.png"
+  filename:"09_48.png"
   alt:"Órdenes - Mensaje Alerta Seguimiento y Cierre"
 %}
 
@@ -723,7 +741,7 @@ Se puede realizar la evaluación del servicio prestado por el personal de manten
   path:""
   css_class:""
   number:""
-  filename:"09_47.png"
+  filename:"09_49.png"
   alt:"Órdenes - Evaluación de Servicio"
 %}
 
@@ -735,7 +753,7 @@ Se puede realizar la evaluación del servicio prestado por el personal de manten
   path:""
   css_class:""
   number:""
-  filename:"09_48.png"
+  filename:"09_50.png"
   alt:"Órdenes - Multimedia"
 %}
 
@@ -759,7 +777,7 @@ Para adicionar un documento, imagen o video, se debe dar un doble clic sobre la 
   path:""
   css_class:""
   number:""
-  filename:"09_49.png"
+  filename:"09_51.png"
   alt:"Órdenes - Abrir Explorador Archivos"
 %}
 
@@ -769,7 +787,7 @@ A continuación se abre el explorador de archivos, seguido de seleccionar el arc
   path:""
   css_class:""
   number:""
-  filename:"09_50.png"
+  filename:"09_52.png"
   alt:"Órdenes - Seleccionar Archivos"
 %}
 
@@ -779,7 +797,7 @@ De manera adicional u opcional se puede escribir un nombre en el siguiente campo
   path:""
   css_class:""
   number:""
-  filename:"09_51.png"
+  filename:"09_53.png"
   alt:"Órdenes - Nombrar Archivo"
 %}
 
@@ -789,7 +807,7 @@ Los archivos que se van adicionando van quedando guardados uno debajo del otro y
   path:""
   css_class:""
   number:""
-  filename:"09_52.png"
+  filename:"09_54.png"
   alt:"Órdenes - Previsualización de imagen"
 %}
 
@@ -799,7 +817,7 @@ Para desasociar un documento, o una imagen o un video, a la OT se da clic al ico
   path:""
   css_class:""
   number:""
-  filename:"09_53.png"
+  filename:"09_55.png"
   alt:"Órdenes - Desasociar un Archivo"
 %}
 
