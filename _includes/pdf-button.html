@@ -1,0 +1,19 @@
+{% comment %} 
+   Obtenemos la versión más reciente del changelog para el botón principal
+{% endcomment %}
+{% assign current_version = "1.0" %}
+{% for entry in site.data.changelog %}
+  {% if entry.number %}
+    {% assign current_version = entry.number %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% comment %} Rutas base para el archivo actual {% endcomment %}
+{% assign current_folder = "v" | append: current_version %}
+{% assign current_pdf_url = "/pdf/" | append: current_folder | append: "/" | append: page.slug | append: ".pdf" | relative_url %}
+
+<!-- Botón único de descarga directa (con bordes redondeados normales de UIkit) -->
+<a href="{{ current_pdf_url }}" target="_blank" class="uk-button uk-button-primary uk-button-small no-print">
+    <span data-uk-icon="icon: file-pdf"></span> v.{{ current_version }}
+</a>
