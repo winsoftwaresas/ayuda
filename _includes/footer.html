@@ -34,3 +34,245 @@
 
     </div>
 </footer>
+
+<script>
+(function() {
+  const SCRIPT_ID = 'win-software-bot-v4';
+
+  if (document.getElementById(SCRIPT_ID)) return;
+
+  const style = document.createElement('style');
+  style.innerHTML = `
+    /* Contenedor principal: mantener posición del botón igual (25px), asegurar margen mínimo de 20px para el chat */
+    #win-bot-container {
+      position: fixed;
+      bottom: 25px;
+      right: 25px;
+      z-index: 2147483647;
+      font-family: Inter, system-ui, -apple-system, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+
+    #win-bot-row {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      pointer-events: auto;
+    }
+
+    /* Globo de texto: reducir padding para compactar */
+    #win-bot-bubble {
+      background: white;
+      padding: 8px 14px;
+      border-radius: 12px;
+      box-shadow: 0 8px 28px rgba(0,0,0,0.12);
+      max-width: 260px;
+      position: relative;
+      cursor: pointer;
+      animation: win-slide-left 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      border: 1px solid #e2e8f0;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      box-sizing: border-box;
+    }
+
+    #win-bot-bubble::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      right: -8px;
+      transform: translateY(-50%) rotate(45deg);
+      width: 14px;
+      height: 14px;
+      background: white;
+      border-right: 1px solid #e2e8f0;
+      border-top: 1px solid #e2e8f0;
+    }
+
+    #win-bot-bubble-close {
+      position: absolute;
+      top: -10px;
+      left: -10px;
+      background: #475569;
+      color: white;
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      border: 2px solid white;
+      cursor: pointer;
+      opacity: 0;
+      transition: opacity 0.2s;
+    }
+
+    #win-bot-bubble:hover #win-bot-bubble-close { opacity: 1; }
+
+    #win-bot-bubble-text {
+      color: #0f172a;
+      font-size: 13px;
+      line-height: 1.5;
+      font-weight: 500;
+    }
+
+    /* Botón flotante: debe quedarse exactamente igual */
+    #win-bot-trigger {
+      width: 64px;
+      height: 64px;
+      background-color: #2563eb;
+      border-radius: 50%;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 4px 25px rgba(37, 99, 235, 0.4);
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      border: 4px solid white;
+      flex-shrink: 0;
+    }
+
+    #win-bot-trigger:hover { transform: scale(1.1); background-color: #1d4ed8; }
+
+    /* Ventana del chat: tamaños base con límites para no salirse de pantalla */
+    #win-bot-window {
+      display: none;
+      width: 400px;
+      height: 650px;
+      max-width: calc(100vw - 40px); /* mantener 20px de margen mínimo a ambos lados */
+      max-height: calc(100vh - 40px); /* mantener 20px de margen mínimo arriba/abajo */
+      background: white;
+      border-radius: 14px;
+      box-shadow: 0 16px 48px rgba(0,0,0,0.22);
+      overflow: hidden;
+      margin-bottom: 12px;
+      border: 1px solid #e2e8f0;
+      animation: win-pop 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      pointer-events: auto;
+      box-sizing: border-box;
+      padding: 0; /* sin padding extra para el iframe */
+    }
+
+    #win-bot-iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+      display: block;
+      box-sizing: border-box;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    /* Escritorios grandes: 400x650 */
+    @media (min-width: 1920px) {
+      #win-bot-window {
+        width: 400px;
+        height: 650px;
+        max-width: calc(100vw - 40px);
+        max-height: calc(100vh - 40px);
+      }
+    }
+
+    /* Laptops: 360x560 */
+    @media (min-width: 1366px) and (max-width: 1919px) {
+      #win-bot-window {
+        width: 360px;
+        height: 560px;
+        max-width: calc(100vw - 40px);
+        max-height: calc(100vh - 40px);
+      }
+    }
+
+    /* Tablets: 340x500 */
+    @media (min-width: 768px) and (max-width: 1365px) {
+      #win-bot-window {
+        width: 340px;
+        height: 500px;
+        max-width: calc(100vw - 40px);
+        max-height: calc(100vh - 40px);
+      }
+    }
+
+    /* Móviles: ocupar ~95% ancho y 85% alto */
+    @media (max-width: 767px) {
+      #win-bot-container { right: 20px; bottom: 20px; }
+      #win-bot-window {
+        width: 95vw;
+        height: 85vh;
+        max-width: calc(100vw - 40px);
+        max-height: calc(100vh - 40px);
+        border-radius: 12px;
+      }
+
+      /* Evitar scrollbars y asegurar que iframe ocupe todo */
+      #win-bot-iframe { display: block; width: 100%; height: 100%; }
+    }
+
+    @keyframes win-slide-left {
+      from { opacity: 0; transform: translateX(40px); }
+      to { opacity: 1; transform: translateX(0); }
+    }
+
+    @keyframes win-pop {
+      from { opacity: 0; transform: scale(0.5) translateY(100px); transform-origin: bottom right; }
+      to { opacity: 1; transform: scale(1) translateY(0); }
+    }
+  `;
+
+  document.head.appendChild(style);
+
+  const container = document.createElement('div');
+  container.id = SCRIPT_ID;
+  container.innerHTML = `
+    <div id="win-bot-container">
+      <div id="win-bot-window">
+        <iframe id="win-bot-iframe" src="https://chatbot-am-asistente-de-mantenimiento-370338229250.us-west1.run.app/?mode=chat"></iframe>
+      </div>
+
+      <div id="win-bot-row">
+        <div id="win-bot-bubble">
+          <div id="win-bot-bubble-close">×</div>
+          <div style="background: #eff6ff; padding: 6px; border-radius: 8px;">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+          </div>
+          <div id="win-bot-bubble-text">¿Necesitas ayuda con AM? <br><b>Soy tu Asistente IA ⚡</b></div>
+        </div>
+
+        <div id="win-bot-trigger">
+          <svg id="win-icon-chat" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+          <svg id="win-icon-close" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="display:none"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </div>
+      </div>
+    </div>
+  `;
+
+  document.body.appendChild(container);
+
+  const trigger = document.getElementById('win-bot-trigger');
+  const chatWindow = document.getElementById('win-bot-window');
+  const bubble = document.getElementById('win-bot-bubble');
+  const bubbleClose = document.getElementById('win-bot-bubble-close');
+  const iconChat = document.getElementById('win-icon-chat');
+  const iconClose = document.getElementById('win-icon-close');
+
+  let open = false;
+
+  function toggle() {
+    open = !open;
+    chatWindow.style.display = open ? 'block' : 'none';
+    bubble.style.display = 'none';
+    iconChat.style.display = open ? 'none' : 'block';
+    iconClose.style.display = open ? 'block' : 'none';
+  }
+
+  trigger.onclick = toggle;
+  bubble.onclick = toggle;
+  bubbleClose.onclick = (e) => {
+    e.stopPropagation();
+    bubble.style.display = 'none';
+  };
+})();
+</script>
