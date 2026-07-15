@@ -63,20 +63,21 @@
       pointer-events: auto;
     }
 
-    /* Globo de texto (no modificado funcionalmente) */
+    /* Globo de texto: reducir padding para compactar */
     #win-bot-bubble {
       background: white;
-      padding: 12px 20px;
-      border-radius: 14px;
-      box-shadow: 0 10px 35px rgba(0,0,0,0.15);
-      max-width: 300px;
+      padding: 8px 14px;
+      border-radius: 12px;
+      box-shadow: 0 8px 28px rgba(0,0,0,0.12);
+      max-width: 260px;
       position: relative;
       cursor: pointer;
-      animation: win-slide-left 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      animation: win-slide-left 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
       border: 1px solid #e2e8f0;
       display: flex;
       align-items: center;
-      gap: 12px;
+      gap: 10px;
+      box-sizing: border-box;
     }
 
     #win-bot-bubble::after {
@@ -141,70 +142,74 @@
     /* Ventana del chat: tamaños base con límites para no salirse de pantalla */
     #win-bot-window {
       display: none;
-      width: 400px; /* default para pantallas grandes */
-      height: 650px;
+      width: 340px; /* default compacto */
+      height: 580px;
       max-width: calc(100vw - 40px); /* mantener 20px de margen mínimo a ambos lados */
       max-height: calc(100vh - 40px); /* mantener 20px de margen mínimo arriba/abajo */
       background: white;
-      border-radius: 20px;
-      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+      border-radius: 14px;
+      box-shadow: 0 16px 48px rgba(0,0,0,0.22);
       overflow: hidden;
-      margin-bottom: 20px;
+      margin-bottom: 12px;
       border: 1px solid #e2e8f0;
-      animation: win-pop 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      animation: win-pop 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275);
       pointer-events: auto;
+      box-sizing: border-box;
+      padding: 0; /* sin padding extra para el iframe */
     }
 
     #win-bot-iframe {
       width: 100%;
       height: 100%;
       border: none;
+      display: block;
+      box-sizing: border-box;
+      -webkit-overflow-scrolling: touch;
     }
 
-    /* Escritorios grandes: 1920x1080 o superiores */
+    /* Escritorios grandes: reducir un poco para que quepa completo */
     @media (min-width: 1920px) {
       #win-bot-window {
-        width: 400px;
-        height: 650px;
+        width: 340px;
+        height: 580px;
         max-width: calc(100vw - 40px);
         max-height: calc(100vh - 40px);
       }
     }
 
-    /* Laptops: 1366x768, 1440x900, 1536x864 (rango aproximado) */
+    /* Laptops: hacer más compactos */
     @media (min-width: 1366px) and (max-width: 1919px) {
       #win-bot-window {
-        width: 360px;
-        height: 560px;
+        width: 320px;
+        height: 480px;
         max-width: calc(100vw - 40px);
         max-height: calc(100vh - 40px);
       }
     }
 
-    /* Tablets */
+    /* Tablets: reducir un poco */
     @media (min-width: 768px) and (max-width: 1365px) {
       #win-bot-window {
-        width: 340px;
-        height: 500px;
+        width: 300px;
+        height: 420px;
         max-width: calc(100vw - 40px);
         max-height: calc(100vh - 40px);
       }
     }
 
-    /* Móviles: ocupar ~95% ancho y 85% alto */
+    /* Móviles: ocupar ~95% ancho y 80% alto para mejorar encuadre */
     @media (max-width: 767px) {
-      /* Mantener botón sin cambios; el contenedor sigue en bottom/right 25px
-         pero el chat se ajusta para no salirse y respetar 20px de margen. */
+      #win-bot-container { right: 20px; bottom: 20px; }
       #win-bot-window {
-        width: 95vw;
-        height: 85vh;
+        width: 92vw;
+        height: 75vh;
         max-width: calc(100vw - 40px);
         max-height: calc(100vh - 40px);
-        border-radius: 14px;
+        border-radius: 12px;
       }
 
-      /* Asegurar que el iframe respete el borde redondeado en móviles */
-      #win-bot-iframe { display: block; }
+      /* Evitar scrollbars y asegurar que iframe ocupe todo */
+      #win-bot-iframe { display: block; width: 100%; height: 100%; }
     }
 
     @keyframes win-slide-left {
