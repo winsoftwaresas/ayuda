@@ -23,7 +23,7 @@ A continuación, se presentan los conceptos básicos relacionados con la estruct
   alt:"Modulo de Administración"
 %}
 
-## **Valores por defecto**
+## **VALORES POR DEFECTO**
 
 La parametrización de valores por defecto permite configurar cada una de las compañías de AM de manera general, así como establecer parámetros específicos para cada uno de sus módulos, de acuerdo con las necesidades operativas de la organización.
 
@@ -408,3 +408,4 @@ En esta pestaña podremos modificar las 5 preguntas para la evaluación de servi
 
 Registro que permite a los usuarios entregar información manual al sistema con el objeto de generar índices y/o análisis comparativos con datos que no se encuentran presentes en el sistema. Para hacer uso de los campos del registro, se debe lograr un acuerdo con el Departamento de Desarrollo de WIN Software.
 
+## **VALORES POR DEFECTO**
