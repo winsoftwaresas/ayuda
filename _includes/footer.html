@@ -53,7 +53,6 @@
       display: flex;
       flex-direction: column;
       align-items: flex-end;
-      pointer-events: none; /* evita capturar eventos fuera de elementos interactivos */
     }
 
     #win-bot-row {
@@ -142,8 +141,8 @@
     /* Ventana del chat: tamaños base con límites para no salirse de pantalla */
     #win-bot-window {
       display: none;
-      width: 340px; /* default compacto */
-      height: 580px;
+      width: 400px;
+      height: 650px;
       max-width: calc(100vw - 40px); /* mantener 20px de margen mínimo a ambos lados */
       max-height: calc(100vh - 40px); /* mantener 20px de margen mínimo arriba/abajo */
       background: white;
@@ -167,42 +166,42 @@
       -webkit-overflow-scrolling: touch;
     }
 
-    /* Escritorios grandes: reducir un poco para que quepa completo */
+    /* Escritorios grandes: 400x650 */
     @media (min-width: 1920px) {
       #win-bot-window {
-        width: 340px;
-        height: 580px;
+        width: 400px;
+        height: 650px;
         max-width: calc(100vw - 40px);
         max-height: calc(100vh - 40px);
       }
     }
 
-    /* Laptops: hacer más compactos */
+    /* Laptops: 360x560 */
     @media (min-width: 1366px) and (max-width: 1919px) {
       #win-bot-window {
-        width: 320px;
-        height: 480px;
+        width: 360px;
+        height: 560px;
         max-width: calc(100vw - 40px);
         max-height: calc(100vh - 40px);
       }
     }
 
-    /* Tablets: reducir un poco */
+    /* Tablets: 340x500 */
     @media (min-width: 768px) and (max-width: 1365px) {
       #win-bot-window {
-        width: 300px;
-        height: 420px;
+        width: 340px;
+        height: 500px;
         max-width: calc(100vw - 40px);
         max-height: calc(100vh - 40px);
       }
     }
 
-    /* Móviles: ocupar ~95% ancho y 80% alto para mejorar encuadre */
+    /* Móviles: ocupar ~95% ancho y 85% alto */
     @media (max-width: 767px) {
       #win-bot-container { right: 20px; bottom: 20px; }
       #win-bot-window {
-        width: 92vw;
-        height: 75vh;
+        width: 95vw;
+        height: 85vh;
         max-width: calc(100vw - 40px);
         max-height: calc(100vh - 40px);
         border-radius: 12px;
