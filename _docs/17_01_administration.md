@@ -1,5 +1,5 @@
 ---
-title:      'Administración'
+title:      'administración'
 subtitle:   'El módulo de Administración permite parametrizar cada compañía y asignar permisos a los usuarios de acuerdo con las necesidades de la organización.'
 tags:       [setup]
 author:     'win'
