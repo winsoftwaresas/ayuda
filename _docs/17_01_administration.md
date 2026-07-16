@@ -7,7 +7,7 @@ order:      '17_01'
 media: "../../assets/images/docs/"
 ---
 
-## **Administración**
+### **ADMINISTRACIÓN**
 
 El módulo de Administración es parametrizable de forma independiente para cada compañía, permitiendo que AM se adapte a la estructura organizacional, los procesos de mantenimiento y las necesidades específicas de cada empresa.
 
@@ -20,7 +20,7 @@ A continuación, se presentan los conceptos básicos relacionados con la estruct
   css_class:""
   number:""
   filename:"17_01.png"
-  alt:"Modulo de Administración"
+  alt:"Módulo de Administración"
 %}
 
 ## **VALORES POR DEFECTO**
@@ -35,7 +35,7 @@ La parametrización de valores por defecto permite configurar cada una de las co
   alt:"Administración - Valores por defecto"
 %}
 
-## GENERAL
+# GENERAL
 
 **Logo de la compañía (Reportes):** Permite adicionar la imagen del logo de la compañía para el registro en los diferentes reportes del AM.
 
@@ -53,7 +53,7 @@ La parametrización de valores por defecto permite configurar cada una de las co
   alt:"Valores por defecto"
 %}
 
-## Seguridad en Acceso
+# SEGURIDAD EN ACCESO
 
 **CONTRASEÑA:** Permite ingresar longitud mínima y máxima de contraseña asi como el número de intentos permitidos previo al bloqueo del usuario.
 
@@ -77,7 +77,7 @@ La parametrización de valores por defecto permite configurar cada una de las co
 
 En línea con la norma ISO/IEC 27001:2022, especialmente con los controles relacionados con la gestión de credenciales y la protección de la información, WIN Software recomienda que las áreas de Tecnología de la Información (TI) asignen a los nuevos usuarios un nombre de usuario y una contraseña temporal al momento de la creación de su cuenta.
 
-Posteriormente, durante el primer inicio de sesión (first logon)., el sistema solicitará de forma obligatoria el cambio de la contraseña temporal por una contraseña definida únicamente por el usuario. Esta práctica fortalece la seguridad de la plataforma al garantizar que las credenciales de acceso sean conocidas exclusivamente por su titular, reduciendo el riesgo de accesos no autorizados y contribuyendo al cumplimiento de las buenas prácticas de seguridad de la información.
+Posteriormente, durante el primer inicio de sesión (first logon), el sistema solicitará de forma obligatoria el cambio de la contraseña temporal por una contraseña definida únicamente por el usuario. Esta práctica fortalece la seguridad de la plataforma al garantizar que las credenciales de acceso sean conocidas exclusivamente por su titular, reduciendo el riesgo de accesos no autorizados y contribuyendo al cumplimiento de las buenas prácticas de seguridad de la información.
 
 
 {% set_image
@@ -92,7 +92,7 @@ Adicionalmente siguiendo con los lineamientos de la norma ISO/IEC 27001:2022 el 
 
 **Mostrar compañía en AMsi:** permite mostrar u ocultar la compañía en AMsi en caso de que no se desee su uso como centro de servicio o se encuentre en proceso de implementación.
 
-**Permitir crear Solicitudes y Ordenes solo usuarios incluidos en Terceros:** Parámetro que obliga a definir como solicitante solamente a un Tercero valido.
+**Permitir crear Solicitudes y Órdenes solo usuarios incluidos en Terceros:** Parámetro que obliga a definir como solicitante solamente a un Tercero valido.
 
 **En los módulos de Activos, Kárdex, Programas, Solicitudes, Paros, Órdenes de trabajo, usar Centros de Costo inactivos en la creación de registros:** Parámetro que habilita los centros de costo inactivos para funcionalidad en los módulos mencionados.
 
@@ -138,15 +138,15 @@ Dato a ingresar: https://am.winsoftware.com.co:28063/AM4G/
 
 **¿Se requiere modificar Dirección y Ciudad para cada Ubicación Física?:** Parametrización que habilita/inhabilita el ingreso de dirección y ciudad en la tabla de ubicaciones físicas.
 
-**¿Usa Interfase Uno?:** Interfase que permite cargar saldos de almacén.
+**¿Usa Interfaz Uno?:** Interfaz que permite cargar saldos de almacén.
 
-**¿Usa Interfase Dos?:** Interfase que permite cargar repuestos en gasto real.
+**¿Usa Interfaz Dos?:** Interfaz que permite cargar repuestos en gasto real.
 
-**¿Usa Interfase Tres?:** Interfase que permite enviar datos a ERP o CRM externos.
+**¿Usa Interfaz Tres?:** Interfaz que permite enviar datos a ERP o CRM externos.
 
-**¿Usa la Interfase de Consumos?:** Interfase que permite enviar datos de consumos a ERP o CRM externos.
+**¿Usa la Interfaz de Consumos?:** Interfaz que permite enviar datos de consumos a ERP o CRM externos.
 
-**Generar token para las API's:** Campo que genera el Token para autenticar las API´s. Solo el token de la compañía 1 es válido. 
+**Generar token para las APIs:** Campo que genera el Token para autenticar las APIs. Solo el token de la compañía 1 es válido. 
 
 **Calendario de días Improductivos:** Parametrización que permite definir días improductivos para mantenimiento, días improductivos para producción, Turnos estándar para mantenimiento y Turnos estándar para producción
 
@@ -158,33 +158,33 @@ Dato a ingresar: https://am.winsoftware.com.co:28063/AM4G/
   alt:"Valores por defecto, General"
 %}
 
-## AMovil
+# AMÓVIL
 
-**Permitir Estado Cerrado Ejecutado desde AMovil:** Parametrización que permite definir la posibilidad a los tecnicos de usar el estado "Cerrado Ejecutado" en Ordenes y Solicitudes
+**Permitir Estado Cerrado Ejecutado desde AMóvil:** Parametrización que permite definir la posibilidad a los técnicos de usar el estado "Cerrado Ejecutado" en Órdenes y Solicitudes
 
-**Usa el Modulo de Pedidos:** Parametrización que permite definir el uso del modulo de Pedidos
+**Usa el Módulo de Pedidos:** Parametrización que permite definir el uso del modulo de Pedidos
 
 **¿Habilitar vista de deslizar hacia abajo en Transacciones?:**
 
-**Permitir Firma de Recibido sin Evaluación en AMovil:**Parametrización que permite definir la exigencia de la Firma de recibido pero sin evaluación.
+**Permitir Firma de Recibido sin Evaluación en AMóvil:**Parametrización que permite definir la exigencia de la Firma de recibido pero sin evaluación.
 
-**Permitir descarga de Ordenes programadas solo del dia Actual en AMovil:**
+**Permitir descarga de Órdenes programadas solo del dia Actual en AMóvil:**
 
-**Calcular Tiempo Improductivo en las Ordenes de Trabajo Creadas desde AMovil:**
+**Calcular Tiempo Improductivo en las Órdenes de Trabajo Creadas desde AMóvil:**
 
-**No permitir Cierre Sin Evaluación:** Parametrización que permite definir la exigencia de la evaluación del servicio prestado en Ordenes de trabajo y Solicitudes
+**No permitir Cierre Sin Evaluación:** Parametrización que permite definir la exigencia de la evaluación del servicio prestado en Órdenes de trabajo y Solicitudes
 
-**Usar Costeo por Presupuesto para las Ordenes Creadas desde AMovil:**
+**Usar Costeo por Presupuesto para las Órdenes Creadas desde AMóvil:**
 
 {% set_image
   path:""
   css_class:""
   number:""
   filename:"17_09.png"
-  alt:"Valores por defecto, AMovil"
+  alt:"Valores por defecto, AMóvil"
 %}
 
-## Activos
+# ACTIVOS
 
 **Permitir Seriales Duplicados:** Parametrización que habilita/inhabilita los seriales duplicados.
 
@@ -214,11 +214,11 @@ Dato a ingresar: https://am.winsoftware.com.co:28063/AM4G/
   alt:"Valores por defecto, Activos"
 %}
 
-## Almacen
+# ALMACÉN
 
 **Permitir Parte Número Duplicados:** Parametrización que habilita/restringe el ingreso de parte número duplicados.
 
-**Desea usar el Almacen Corporativo:** Parametrización que habilita/restringe definir un almacén corporativo para uso en clientes con versión pro.
+**Desea usar el Almacén Corporativo:** Parametrización que habilita/restringe definir un almacén corporativo para uso en clientes con versión pro.
 
 **Definir Almacén:** Permite definir el almacén corporativo.
 
@@ -235,10 +235,10 @@ Dato a ingresar: https://am.winsoftware.com.co:28063/AM4G/
   css_class:""
   number:""
   filename:"17_11.png"
-  alt:"Valores por defecto, Almacen"
+  alt:"Valores por defecto, Almacén"
 %}
 
-## Kardex
+# KARDEX
 
 **Utilizar IVA y Descuento:** Parametrización que habilita/restringe el manejo de IVA y descuento en los documentos de Kardex.
 
@@ -262,13 +262,13 @@ Dato a ingresar: https://am.winsoftware.com.co:28063/AM4G/
   alt:"Valores por defecto, Kardex"
 %}
 
-## Programas
+# PROGRAMAS
 
 **Inicio de la Semana #2 del año:** Permite definir el inicio de semana para el criterio de programación por semanas del año.
 
-**Opciones de traslado de Presupuesto y Gasto Real:** Permite definir si se copiara el presupuesto y gasto real en la OT o exclusivamente el presupuesto.
+**Opciones de traslado de Presupuesto y Gasto Real:** Permite definir si se copiará el presupuesto y gasto real en la OT o exclusivamente el presupuesto.
 
-**Manejar Planeación y Programación de Ordenes de Trabajo:** Permite automatizar que las ordenes generadas desde programas se creen con el estado **PL: Planeada** y ello le permite al planner manejar el estado de **PR: Programada** antes de definir el estado **E: En Ejecución**. En caso contrario las ordenes se generan siempre en estado E: En Ejecución.
+**Manejar Planeación y Programación de Órdenes de Trabajo:** Permite automatizar que las ordenes generadas desde programas se creen con el estado **PL: Planeada** y ello le permite al planner manejar el estado de **PR: Programada** antes de definir el estado **E: En Ejecución**. En caso contrario las ordenes se generan siempre en estado E: En Ejecución.
 
 **Al generar una Órden de Trabajo desde un Programa:** Permite definir si se aprobará el presupuesto, aunque sea cero o no aprobarlo si está en valor cero.
 
@@ -280,7 +280,7 @@ Dato a ingresar: https://am.winsoftware.com.co:28063/AM4G/
   alt:"Valores por defecto, Programas"
 %}
 
-## Solicitudes
+# SOLICITUDES
 
 **Para crear solicitudes y generar reportes asociados la dirección se toma de:** Permite definir si la dirección se toma del Centro de costo o de la ubicación física del equipo.
 
@@ -302,7 +302,7 @@ Dato a ingresar: https://am.winsoftware.com.co:28063/AM4G/
   alt:"Valores por defecto, Solicitudes"
 %}
 
-## Ordenes
+# ÓRDENES
 
 **Año OT:** Parametrización que permite definir el consecutivo de la codificación de las ordenes de trabajo. Se debe ingresar el año en los primeros días del mismo.
 
@@ -316,7 +316,7 @@ Dato a ingresar: https://am.winsoftware.com.co:28063/AM4G/
 
 **Mostrar mensaje de alerta al insertar órdenes de trabajo repetidas:** Parametrización que habilita/inhabilita los mensajes de alerta al identificar ordenes repetidas.
 
-**Exigir evaluación de Servicios en Ordenes y Solicitudes para enviar a Historia:** Parametrización que habilita/inhabilita la obligatoriedad de la evaluación de servicio previo al envio a historia.
+**Exigir evaluación de Servicios en Órdenes y Solicitudes para enviar a Historia:** Parametrización que habilita/inhabilita la obligatoriedad de la evaluación de servicio previo al envio a historia.
 
 **Transferir a Gasto Real el Presupuesto al momento de aprobarse:** Parametrización que habilita/inhabilita transferencia del gasto real al presupuesto al momento de aprobarse.
 
@@ -325,10 +325,10 @@ Dato a ingresar: https://am.winsoftware.com.co:28063/AM4G/
   css_class:""
   number:""
   filename:"17_15.png"
-  alt:"Valores por defecto, Ordenes"
+  alt:"Valores por defecto, Órdenes"
 %}
 
-## Notificaciones
+# NOTIFICACIONES
 
 En esta pestaña podremos parametrizar las notificaciones enviadas al correo electrónico, para esto es indispensable que los solicitantes actualicen su correo en el perfil de AMsi y para los responsables tener asignado un correo en la tabla de terceros, infraestructura para recibir las notificaciones.
 
@@ -392,7 +392,7 @@ En esta pestaña podremos parametrizar las notificaciones enviadas al correo ele
   alt:"Valores por defecto, Notificaciones"
 %}
 
-## Parámetros para evaluación de servicios
+# PARÁMETROS PARA EVALUACIÓN DE SERVICIOS
 
 En esta pestaña podremos modificar las 5 preguntas para la evaluación de servicio. WIN Software entrega 5 preguntas precargadas las cuales pueden ser modificadas si el cliente lo requiere, teniendo en cuenta que estas son generales para solicitudes y ordenes de trabajo.
 
@@ -404,7 +404,7 @@ En esta pestaña podremos modificar las 5 preguntas para la evaluación de servi
   alt:"Parámetros para evaluación de servicios"
 %}
 
-## OOAK (One Of A Kind)
+# OOAK (One Of A Kind)
 
 Registro que permite a los usuarios entregar información manual al sistema con el objeto de generar índices y/o análisis comparativos con datos que no se encuentran presentes en el sistema. Para hacer uso de los campos del registro, se debe lograr un acuerdo con el Departamento de Desarrollo de WIN Software.
 
@@ -442,13 +442,13 @@ En esta pestaña los permisos se encuentran en una matriz que relaciona cada uno
   alt:"Parámetrización usuarios, permisos en tablas"
 %}
 
-Al desplegar el módulo Infraestructura con el simbolo +, se visualizan de forma organizada las diferentes tablas que lo componen. Las tablas iniciales, que deben ser diligenciadas por cada compañía, comprenden desde Centros de Costo hasta Contratos.
+Al desplegar el módulo Infraestructura con el símbolo +, se visualizan de forma organizada las diferentes tablas que lo componen. Las tablas iniciales, que deben ser diligenciadas por cada compañía, comprenden desde Centros de Costo hasta Contratos.
 
-Posteriormente, se encuentra la configuración de Almacenes, donde es posible parametrizar los permisos de acceso de los usuarios, permitiendo restringir su consulta y operación a los diversos usuarios. Adicionalmente, se incluyen tablas relacionadas con la metodología ISO de Mantenimiento Clase Mundial, así como información necesaria para complementar las fichas técnicas de los activos y otras parametrizaciones fundamentales para el funcionamiento del sistema.
+Posteriormente, se encuentra la configuración de Almacénes, donde es posible parametrizar los permisos de acceso de los usuarios, permitiendo restringir su consulta y operación a los diversos usuarios. Adicionalmente, se incluyen tablas relacionadas con la metodología ISO de Mantenimiento Clase Mundial, así como información necesaria para complementar las fichas técnicas de los activos y otras parametrizaciones fundamentales para el funcionamiento del sistema.
 
 # Permisos para ejecución de procesos
 
-En esta pestaña se despliegan permisos para cada uno de los módulos los cuales se deben habilitar o inhabilitar de acuerdo al cargo del usuario y el alcance de este. Adicionalmente tambien hay permisos generales como la exportación de visores que aplican para todo el sistema. Es indispensable tener en cuenta que algunos permisos no habilitan solo restringen.
+En esta pestaña se despliegan permisos para cada uno de los módulos los cuales se deben habilitar o inhabilitar de acuerdo al cargo del usuario y el alcance de este. Adicionalmente también hay permisos generales como la exportación de visores que aplican para todo el sistema. Es indispensable tener en cuenta que algunos permisos no habilitan solo restringen.
 
 {% set_image
   path:""
@@ -458,7 +458,7 @@ En esta pestaña se despliegan permisos para cada uno de los módulos los cuales
   alt:"Parámetrización usuarios, permisos para ejecución de procesos"
 %}
 
-# Permisos restrictivos
+## Permisos restrictivos
 
 En esta pestaña se despliegan permisos principalmente enfocados a los técnicos de mantenimiento en función de restringir órdenes y solicitudes asignadas a su respectivo usuario.
 
@@ -470,32 +470,34 @@ En esta pestaña se despliegan permisos principalmente enfocados a los técnicos
   alt:"Parámetrización usuarios, permisos restrictivos"
 %}
 
-# Permisos basicos AMovil
+## Permisos básicos AMóvil
 
-En esta pestaña se despliegan los permisos básicos de AMovil por modulo donde si habilitamos el check brindamos el permiso a este usuario para cada acción en cada módulo o el permiso general para visualizar el módulo completo.
+En esta pestaña se despliegan los permisos básicos de AMóvil por modulo donde si habilitamos el check brindamos el permiso a este usuario para cada acción en cada módulo o el permiso general para visualizar el módulo completo.
 
 {% set_image
   path:""
   css_class:""
   number:""
   filename:"17_23.png"
-  alt:"Parámetrización usuarios, permisos basicos AMovil"
+  alt:"Parámetrización usuarios, permisos básicos AMóvil"
 %}
 
-# Permisos restrictivos AMovil
+## Permisos restrictivos AMóvil
 
-En esta pestaña se despliegan permisos principalmente enfocados a los técnicos de mantenimiento en función de restringir órdenes y solicitudes asignadas a su respectivo usuario en la aplicación AMovil
+En esta pestaña se despliegan permisos principalmente enfocados a los técnicos de mantenimiento en función de restringir órdenes y solicitudes asignadas a su respectivo usuario en la aplicación AMóvil
 
 {% set_image
   path:""
   css_class:""
   number:""
   filename:"17_24.png"
-  alt:"Parámetrización usuarios, permisos restrictivos AMovil"
+  alt:"Parámetrización usuarios, permisos restrictivos AMóvil"
 %}
 
-# Encargado
+## Encargado
 
 Campo desplegable donde encontraremos los terceros con el propósito de relacionar a un tercero con un usuario, esta acción es indispensable para los técnicos de mantenimiento y la visualización de las ordenes de trabajo asignadas.
 
-# Correo Electronico
+## Correo Electrónico
+
+Campo designado para el ingreso de correo corporativo del usuario.
