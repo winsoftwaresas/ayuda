@@ -7,8 +7,6 @@ order:      '17_02'
 media: "../../assets/images/docs/"
 ---
 
-## **VALORES POR DEFECTO**
-
 La parametrización de valores por defecto permite configurar cada una de las compañías de AM de manera general, así como establecer parámetros específicos para cada uno de sus módulos, de acuerdo con las necesidades operativas de la organización.
 
 {% set_image
@@ -19,7 +17,7 @@ La parametrización de valores por defecto permite configurar cada una de las co
   alt:"Administración - Valores por defecto"
 %}
 
-# GENERAL
+## General
 
 **Logo de la compañía (Reportes):** Permite adicionar la imagen del logo de la compañía para el registro en los diferentes reportes del AM.
 
@@ -37,7 +35,7 @@ La parametrización de valores por defecto permite configurar cada una de las co
   alt:"Valores por defecto"
 %}
 
-# SEGURIDAD EN ACCESO
+## Seguridad en acceso
 
 **CONTRASEÑA:** Permite ingresar longitud mínima y máxima de contraseña asi como el número de intentos permitidos previo al bloqueo del usuario.
 
@@ -142,7 +140,7 @@ Dato a ingresar: https://am.winsoftware.com.co:28063/AM4G/
   alt:"Valores por defecto, General"
 %}
 
-# AMÓVIL
+## AMóvil
 
 **Permitir Estado Cerrado Ejecutado desde AMóvil:** Parametrización que permite definir la posibilidad a los técnicos de usar el estado "Cerrado Ejecutado" en Órdenes y Solicitudes
 
@@ -168,7 +166,7 @@ Dato a ingresar: https://am.winsoftware.com.co:28063/AM4G/
   alt:"Valores por defecto, AMóvil"
 %}
 
-# ACTIVOS
+## Activos
 
 **Permitir Seriales Duplicados:** Parametrización que habilita/inhabilita los seriales duplicados.
 
@@ -198,7 +196,7 @@ Dato a ingresar: https://am.winsoftware.com.co:28063/AM4G/
   alt:"Valores por defecto, Activos"
 %}
 
-# ALMACÉN
+## Almacén
 
 **Permitir Parte Número Duplicados:** Parametrización que habilita/restringe el ingreso de parte número duplicados.
 
@@ -222,7 +220,7 @@ Dato a ingresar: https://am.winsoftware.com.co:28063/AM4G/
   alt:"Valores por defecto, Almacén"
 %}
 
-# KARDEX
+## Kardex
 
 **Utilizar IVA y Descuento:** Parametrización que habilita/restringe el manejo de IVA y descuento en los documentos de Kardex.
 
@@ -246,7 +244,7 @@ Dato a ingresar: https://am.winsoftware.com.co:28063/AM4G/
   alt:"Valores por defecto, Kardex"
 %}
 
-# PROGRAMAS
+## Programas
 
 **Inicio de la Semana #2 del año:** Permite definir el inicio de semana para el criterio de programación por semanas del año.
 
@@ -264,7 +262,7 @@ Dato a ingresar: https://am.winsoftware.com.co:28063/AM4G/
   alt:"Valores por defecto, Programas"
 %}
 
-# SOLICITUDES
+## Solicitudes
 
 **Para crear solicitudes y generar reportes asociados la dirección se toma de:** Permite definir si la dirección se toma del Centro de costo o de la ubicación física del equipo.
 
@@ -286,7 +284,7 @@ Dato a ingresar: https://am.winsoftware.com.co:28063/AM4G/
   alt:"Valores por defecto, Solicitudes"
 %}
 
-# ÓRDENES
+## Órdenes
 
 **Año OT:** Parametrización que permite definir el consecutivo de la codificación de las ordenes de trabajo. Se debe ingresar el año en los primeros días del mismo.
 
@@ -312,7 +310,7 @@ Dato a ingresar: https://am.winsoftware.com.co:28063/AM4G/
   alt:"Valores por defecto, Órdenes"
 %}
 
-# NOTIFICACIONES
+## Notificaciones
 
 En esta pestaña podremos parametrizar las notificaciones enviadas al correo electrónico, para esto es indispensable que los solicitantes actualicen su correo en el perfil de AMsi y para los responsables tener asignado un correo en la tabla de terceros, infraestructura para recibir las notificaciones.
 
@@ -376,7 +374,7 @@ En esta pestaña podremos parametrizar las notificaciones enviadas al correo ele
   alt:"Valores por defecto, Notificaciones"
 %}
 
-# PARÁMETROS PARA EVALUACIÓN DE SERVICIOS
+## Parámetros para evaluación de servicios
 
 En esta pestaña podremos modificar las 5 preguntas para la evaluación de servicio. WIN Software entrega 5 preguntas precargadas las cuales pueden ser modificadas si el cliente lo requiere, teniendo en cuenta que estas son generales para solicitudes y ordenes de trabajo.
 
@@ -388,6 +386,6 @@ En esta pestaña podremos modificar las 5 preguntas para la evaluación de servi
   alt:"Parámetros para evaluación de servicios"
 %}
 
-# OOAK (One Of A Kind)
+## OOAK (One Of A Kind)
 
 Registro que permite a los usuarios entregar información manual al sistema con el objeto de generar índices y/o análisis comparativos con datos que no se encuentran presentes en el sistema. Para hacer uso de los campos del registro, se debe lograr un acuerdo con el Departamento de Desarrollo de WIN Software.

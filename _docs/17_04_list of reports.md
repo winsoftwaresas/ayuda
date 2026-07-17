@@ -6,5 +6,3 @@ author:     'win'
 order:      '17_04'
 media: "../../assets/images/docs/"
 ---
-
-## **LISTADO DE REPORTES**

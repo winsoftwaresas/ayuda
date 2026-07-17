@@ -7,8 +7,6 @@ order:      '17_03'
 media: "../../assets/images/docs/"
 ---
 
-## **USUARIOS**
-
 La parametrización de usuarios permite que cada compañía defina, de acuerdo con los cargos de su organización, el alcance y los permisos de acceso tanto para los líderes de las áreas de mantenimiento como para los diferentes cargos técnicos. Estos permisos se configuran de manera específica para cada módulo, determinando las acciones que cada usuario puede realizar dentro del sistema.
 
 Inicialmente, WIN Software entrega tres usuarios predeterminados: Gerente, Administrador y Usuario. Para la creación de nuevos usuarios, se recomienda definir plantillas de permisos según el cargo; por ejemplo, una plantilla para los técnicos. De esta manera, la parametrización establecida podrá copiarse y asignarse fácilmente a cada usuario que desempeñe ese cargo, garantizando uniformidad en la configuración y agilizando el proceso de administración.
@@ -33,7 +31,7 @@ Estado de la sesión:**En esta pestaña podemos habilitar/inhabilitar el estado 
 
 ## Permisos básicos
 
-# Permisos en tablas
+## Permisos en tablas
 
 En esta pestaña los permisos se encuentran en una matriz que relaciona cada uno de los módulos y sus ventanas detalle con permisos de visualización, creación, modificación, masificación, eliminar y reportes donde si habilitamos el check brindamos el permiso a este usuario para cada acción en cada módulo o ventana.
 
@@ -49,7 +47,7 @@ Al desplegar el módulo Infraestructura con el símbolo +, se visualizan de form
 
 Posteriormente, se encuentra la configuración de Almacénes, donde es posible parametrizar los permisos de acceso de los usuarios, permitiendo restringir su consulta y operación a los diversos usuarios. Adicionalmente, se incluyen tablas relacionadas con la metodología ISO de Mantenimiento Clase Mundial, así como información necesaria para complementar las fichas técnicas de los activos y otras parametrizaciones fundamentales para el funcionamiento del sistema.
 
-# Permisos para ejecución de procesos
+## Permisos para ejecución de procesos
 
 En esta pestaña se despliegan permisos para cada uno de los módulos los cuales se deben habilitar o inhabilitar de acuerdo al cargo del usuario y el alcance de este. Adicionalmente también hay permisos generales como la exportación de visores que aplican para todo el sistema. Es indispensable tener en cuenta que algunos permisos no habilitan solo restringen.
 

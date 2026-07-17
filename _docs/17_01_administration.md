@@ -1,13 +1,11 @@
 ---
-title:      'administración'
+title:      'Administración'
 subtitle:   'El módulo de Administración permite parametrizar cada compañía y asignar permisos a los usuarios de acuerdo con las necesidades de la organización.'
 tags:       [setup]
 author:     'win'
 order:      '17_01'
 media: "../../assets/images/docs/"
 ---
-
-### **ADMINISTRACIÓN**
 
 El módulo de Administración es parametrizable de forma independiente para cada compañía, permitiendo que AM se adapte a la estructura organizacional, los procesos de mantenimiento y las necesidades específicas de cada empresa.
 

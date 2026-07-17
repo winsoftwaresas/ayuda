@@ -165,7 +165,7 @@
   - 16_04_requests
   - 16_05_orders
 
-  - title: administration
+  - title: Administración
   docs:
   - 17_01_administration
   - 17_02_default values
