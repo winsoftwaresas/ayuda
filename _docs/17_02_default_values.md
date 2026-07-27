@@ -142,21 +142,21 @@ Dato a ingresar: https://am.winsoftware.com.co:28063/AM4G/
 
 ## AMóvil
 
-**Permitir Estado Cerrado Ejecutado desde AMóvil:** Parametrización que permite definir la posibilidad a los técnicos de usar el estado "Cerrado Ejecutado" en Órdenes y Solicitudes
+**Permitir Estado Cerrado Ejecutado desde AMóvil:** Parametrización que permite definir la posibilidad a los técnicos de usar el estado "Cerrado Ejecutado" en Órdenes y Solicitudes. En caso de indicar NO, los tecnicos prodran usar el "Cierre Parcial"
 
-**Usa el Módulo de Pedidos:** Parametrización que permite definir el uso del modulo de Pedidos
+**Usa el Módulo de Pedidos:** Parametrización que permite definir el uso del modulo de Pedidos.
 
-**¿Habilitar vista de deslizar hacia abajo en Transacciones?:**
+**¿Habilitar vista de deslizar hacia abajo en Transacciones?:** Parametrización que permite definir el desplazamiento en transacciones cambiandolo del predeterminado lateral o deslizamiento.
 
-**Permitir Firma de Recibido sin Evaluación en AMóvil:**Parametrización que permite definir la exigencia de la Firma de recibido pero sin evaluación.
+**Permitir Firma de Recibido sin Evaluación en AMóvil:** Parametrización que permite definir la exigencia de la Firma de recibido pero sin evaluación.
 
-**Permitir descarga de Órdenes programadas solo del dia Actual en AMóvil:**
+**Permitir descarga de Órdenes programadas solo del dia Actual en AMóvil:** Parametrización que indica que a los técnicos solo les registrará las ordenes asignadas en el día actual teniendo en cuenta la Fecha de programación.
 
-**Calcular Tiempo Improductivo en las Órdenes de Trabajo Creadas desde AMóvil:**
+**Calcular Tiempo Improductivo en las Órdenes de Trabajo Creadas desde AMóvil:** Parametrización que indica la opcion de calcular el tiempo improductivo desde el AMóvil en pro de que los tecnicos habiliten o inhabiliten esta casilla.
 
 **No permitir Cierre Sin Evaluación:** Parametrización que permite definir la exigencia de la evaluación del servicio prestado en Órdenes de trabajo y Solicitudes
 
-**Usar Costeo por Presupuesto para las Órdenes Creadas desde AMóvil:**
+**Usar Costeo por Presupuesto para las Órdenes Creadas desde AMóvil:** Parametrización que indica la opcion de adicionar Presupuesto a una Orden de Trabajo desde el AMóvil.
 
 {% set_image
   path:""
