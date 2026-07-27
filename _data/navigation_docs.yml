@@ -168,6 +168,6 @@
 - title: Administración
   docs:
   - 17_01_administration
-  - 17_02_default values
+  - 17_02_default_values
   - 17_03_users
-  - 17_04_list of reports
+  - 17_04_list_of_reports
