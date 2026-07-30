@@ -13,7 +13,7 @@ El apartado Listado de Reportes es una herramienta que permite personalizar el g
   path:""
   css_class:""
   number:""
-  filename:"17_25.png"
+  filename:"17_26.png"
   alt:"Listado de reportes"
 %}
 
@@ -23,6 +23,6 @@ En la ventana Detalle se encuentra el botón para habilitar o inhabilitar el rep
   path:""
   css_class:""
   number:""
-  filename:"17_26.png"
+  filename:"17_27.png"
   alt:"Ventana detalle, Listado de reportes"
 %}

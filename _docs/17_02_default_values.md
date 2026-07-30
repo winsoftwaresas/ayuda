@@ -78,7 +78,15 @@ Adicionalmente siguiendo con los lineamientos de la norma ISO/IEC 27001:2022 el 
 
 **En los módulos de Activos, Kárdex, Programas, Solicitudes, Paros, Órdenes de trabajo, usar Centros de Costo inactivos en la creación de registros:** Parámetro que habilita los centros de costo inactivos para funcionalidad en los módulos mencionados.
 
-**Desea Usar Formato en Ubicaciones Física:** Permite definir un formato de codificación física separado por guiones de forma automática y con capacidad de 20 caracteres por cada nombre.
+**Desea Usar Formato en Ubicaciones Física:** Permite definir como primera parte de la descripción de una Ubicación Fisica un formato de codificación por niveles, donde los niveles estan separados por guiones y con capacidad conjunta de 20 caracteres entre todos los niveles
+
+{% set_image
+  path:""
+  css_class:""
+  number:""
+  filename:"17_06.png"
+  alt:"Formato de Ubicaciones Fisicas"
+%}
 
 **Servidor y Puerto para Evaluaciones de SS y OT:** Se debe ingresar la URL de Login hasta el nombre de la instancia. 
 
@@ -94,7 +102,7 @@ Dato a ingresar: https://am.winsoftware.com.co:28063/AM4G/
   path:""
   css_class:""
   number:""
-  filename:"17_06.png"
+  filename:"17_07.png"
   alt:"Valores por defecto, General"
 %}
 
@@ -112,21 +120,21 @@ Dato a ingresar: https://am.winsoftware.com.co:28063/AM4G/
   path:""
   css_class:""
   number:""
-  filename:"17_07.png"
+  filename:"17_08.png"
   alt:"Valores por defecto, General"
 %}
 
-**Se considera que el Tiempo de Ejecución fue oportuno si la acción se ejecutó dentro del mes de la fecha planeada. (En otro caso definir rango de dias):** Permite definir los tiempos de ejecución oportunos para las entidades no hospitalarias. El rango se refiere a un número de días anteriores o posteriores a la fecha programada. Por ejemplo: si el parámetro dice 3 días y la labor se debe ejecutar el día 15, se considera que fue ejecución oportuna si se ejecutó entre el 12 y el 18 del mismo mes.
+**Se considera que el Tiempo de Ejecución fue oportuno si la actividad se ejecutó dentro del mes de la Fecha Programada:** En caso de que se trate de una institucion hospitalaria. En otros casos se debe definir el rango de dias. Este rango se aplica para antes y despues de la Fecha Programada, de tal forma que si el trabajo esta programado para el 15 de agosto, y se define el rango de 3 dias, se considera que la actividad fue oportuna si se ejecuta entre el 12 y el 18 de agosto.
 
 **¿Se requiere modificar Dirección y Ciudad para cada Ubicación Física?:** Parametrización que habilita/inhabilita el ingreso de dirección y ciudad en la tabla de ubicaciones físicas.
 
-**¿Usa Interfaz Uno?:** Interfaz que permite cargar saldos de almacén.
+**¿Usa Interfase Uno?:** Interfase que permite cargar saldos de almacén.
 
-**¿Usa Interfaz Dos?:** Interfaz que permite cargar repuestos en gasto real.
+**¿Usa Interfase Dos?:** Interfase que permite cargar repuestos en gasto real.
 
-**¿Usa Interfaz Tres?:** Interfaz que permite enviar datos a ERP o CRM externos.
+**¿Usa Interfase Tres?:** Interfase que permite enviar datos a ERP o CRM externos.
 
-**¿Usa la Interfaz de Consumos?:** Interfaz que permite enviar datos de consumos a ERP o CRM externos.
+**¿Usa la Interfase de Consumos?:** Interfase que permite enviar datos de consumos a ERP o CRM externos.
 
 **Generar token para las APIs:** Campo que genera el Token para autenticar las APIs. Solo el token de la compañía 1 es válido. 
 
@@ -136,7 +144,7 @@ Dato a ingresar: https://am.winsoftware.com.co:28063/AM4G/
   path:""
   css_class:""
   number:""
-  filename:"17_08.png"
+  filename:"17_09.png"
   alt:"Valores por defecto, General"
 %}
 
@@ -162,7 +170,7 @@ Dato a ingresar: https://am.winsoftware.com.co:28063/AM4G/
   path:""
   css_class:""
   number:""
-  filename:"17_09.png"
+  filename:"17_10.png"
   alt:"Valores por defecto, AMóvil"
 %}
 
@@ -192,7 +200,7 @@ Dato a ingresar: https://am.winsoftware.com.co:28063/AM4G/
   path:""
   css_class:""
   number:""
-  filename:"17_10.png"
+  filename:"17_11.png"
   alt:"Valores por defecto, Activos"
 %}
 
@@ -200,9 +208,9 @@ Dato a ingresar: https://am.winsoftware.com.co:28063/AM4G/
 
 **Permitir Parte Número Duplicados:** Parametrización que habilita/restringe el ingreso de parte número duplicados.
 
-**Desea usar el Almacén Corporativo:** Parametrización que habilita/restringe definir un almacén corporativo para uso en clientes con versión pro.
+**Desea usar el Almacén Corporativo:** Parametrización que habilita o restringe el uso de un almacén corporativo en una instalación Pro o multicompañia.
 
-**Definir Almacén:** Permite definir el almacén corporativo.
+**Definir Almacén:** (Corporativo) Permite definir cual es el almacén que tendrá la caracteristica de corporativo.
 
 **Inventario / Saldo negativo:** Parametrización que habilita/restringe saldos negativos en el almacén.
 
@@ -216,7 +224,7 @@ Dato a ingresar: https://am.winsoftware.com.co:28063/AM4G/
   path:""
   css_class:""
   number:""
-  filename:"17_11.png"
+  filename:"17_12.png"
   alt:"Valores por defecto, Almacén"
 %}
 
@@ -226,7 +234,7 @@ Dato a ingresar: https://am.winsoftware.com.co:28063/AM4G/
 
 **El IVA constituye mayor valor al Costo Unitario:** Parametrización que habilita/restringe el IVA como mayor valor al costo unitario.
 
-**¿Desea congelar el documento al momento de Insertar los movimientos?:** Parametrización que habilita/restringe la acción de congelar los documentos de Kardex de forma automática al insertar los movimientos.
+**¿Desea congelar el documento al momento de Insertar los movimientos?:** Parametrización que habilita/restringe la acción de congelar los documentos de Kardex una vez se haya ingresado el ultimo movimiento.
 
 **¿Desea enviar Correo para capturar Firma de Recibido?:** Parametrización que habilita/restringe la notificación mediante correo electrónico para las firmas de documento recibido.
 
@@ -240,13 +248,13 @@ Dato a ingresar: https://am.winsoftware.com.co:28063/AM4G/
   path:""
   css_class:""
   number:""
-  filename:"17_12.png"
+  filename:"17_13.png"
   alt:"Valores por defecto, Kardex"
 %}
 
 ## Programas
 
-**Inicio de la Semana #2 del año:** Permite definir el inicio de semana para el criterio de programación por semanas del año.
+**Inicio de la Semana #2 del año:** Permite establecer cual es día en el que se inician las semanas en el AM y el día en que inicia la segunda semana del año. Esta información se usa para el criterio de programación por semanas del año.
 
 **Opciones de traslado de Presupuesto y Gasto Real:** Permite definir si se copiará el presupuesto y gasto real en la OT o exclusivamente el presupuesto.
 
@@ -258,7 +266,7 @@ Dato a ingresar: https://am.winsoftware.com.co:28063/AM4G/
   path:""
   css_class:""
   number:""
-  filename:"17_13.png"
+  filename:"17_14.png"
   alt:"Valores por defecto, Programas"
 %}
 
@@ -280,7 +288,7 @@ Dato a ingresar: https://am.winsoftware.com.co:28063/AM4G/
   path:""
   css_class:""
   number:""
-  filename:"17_14.png"
+  filename:"17_15.png"
   alt:"Valores por defecto, Solicitudes"
 %}
 
@@ -306,7 +314,7 @@ Dato a ingresar: https://am.winsoftware.com.co:28063/AM4G/
   path:""
   css_class:""
   number:""
-  filename:"17_15.png"
+  filename:"17_16.png"
   alt:"Valores por defecto, Órdenes"
 %}
 
@@ -340,7 +348,7 @@ En esta pestaña podremos parametrizar las notificaciones enviadas al correo ele
   path:""
   css_class:""
   number:""
-  filename:"17_16.png"
+  filename:"17_17.png"
   alt:"Valores por defecto, Notificaciones"
 %}
 
@@ -370,7 +378,7 @@ En esta pestaña podremos parametrizar las notificaciones enviadas al correo ele
   path:""
   css_class:""
   number:""
-  filename:"17_17.png"
+  filename:"17_18.png"
   alt:"Valores por defecto, Notificaciones"
 %}
 
@@ -382,7 +390,7 @@ En esta pestaña podremos modificar las 5 preguntas para la evaluación de servi
   path:""
   css_class:""
   number:""
-  filename:"17_18.png"
+  filename:"17_19.png"
   alt:"Parámetros para evaluación de servicios"
 %}
 

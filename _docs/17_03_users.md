@@ -25,7 +25,7 @@ Estado de la sesión:**En esta pestaña podemos habilitar/inhabilitar el estado 
   path:""
   css_class:""
   number:""
-  filename:"17_19.png"
+  filename:"17_20.png"
   alt:"Parámetrización usuarios"
 %}
 
@@ -39,7 +39,7 @@ En esta pestaña los permisos se encuentran en una matriz que relaciona cada uno
   path:""
   css_class:""
   number:""
-  filename:"17_20.png"
+  filename:"17_21.png"
   alt:"Parámetrización usuarios, permisos en tablas"
 %}
 
@@ -55,7 +55,7 @@ En esta pestaña se despliegan permisos para cada uno de los módulos los cuales
   path:""
   css_class:""
   number:""
-  filename:"17_21.png"
+  filename:"17_22.png"
   alt:"Parámetrización usuarios, permisos para ejecución de procesos"
 %}
 
@@ -67,7 +67,7 @@ En esta pestaña se despliegan permisos principalmente enfocados a los técnicos
   path:""
   css_class:""
   number:""
-  filename:"17_22.png"
+  filename:"17_23.png"
   alt:"Parámetrización usuarios, permisos restrictivos"
 %}
 
@@ -79,7 +79,7 @@ En esta pestaña se despliegan los permisos básicos de AMóvil por modulo donde
   path:""
   css_class:""
   number:""
-  filename:"17_23.png"
+  filename:"17_24.png"
   alt:"Parámetrización usuarios, permisos básicos AMóvil"
 %}
 
@@ -91,7 +91,7 @@ En esta pestaña se despliegan permisos principalmente enfocados a los técnicos
   path:""
   css_class:""
   number:""
-  filename:"17_24.png"
+  filename:"17_25.png"
   alt:"Parámetrización usuarios, permisos restrictivos AMóvil"
 %}
 
