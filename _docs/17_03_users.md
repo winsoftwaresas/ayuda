@@ -17,9 +17,9 @@ Inicialmente, WIN Software entrega tres usuarios predeterminados: Gerente, Admin
 
 **Modificar Contraseña:** En esta pestaña podemos ingresar y/o modificar la contraseña de un usuario.
 
-Modificar Acceso:** En esta pestaña podemos habilitar/inhabilitar el acceso a un usuario. Esta es usada en casos donde la persona ya no trabaje en la compañía o se genere un bloqueo de usuario podemos habilitarlo.
+**Modificar Acceso:** En esta pestaña podemos habilitar/inhabilitar el acceso a un usuario. Esta es usada en casos donde la persona ya no trabaje en la compañía o se genere un bloqueo de usuario podemos habilitarlo.
 
-Estado de la sesión:**En esta pestaña podemos habilitar/inhabilitar el estado de la sesión a un usuario. En casos donde a la persona le registra la alerta de sesión activa y no le permite ingresar, podemos cerrar la sesión y desbloquear el acceso.
+**Estado de la sesión:** En esta pestaña podemos habilitar/inhabilitar el estado de la sesión a un usuario. En casos donde a la persona le registra la alerta de sesión activa y no le permite ingresar, podemos cerrar la sesión y desbloquear el acceso.
 
 {% set_image
   path:""
@@ -97,7 +97,7 @@ En esta pestaña se despliegan permisos principalmente enfocados a los técnicos
 
 ## Encargado
 
-Campo desplegable donde encontraremos los terceros con el propósito de relacionar a un tercero con un usuario, esta acción es indispensable para los técnicos de mantenimiento y la visualización de las ordenes de trabajo asignadas.
+Campo desplegable donde se encuentran los terceros con el propósito de relacionar a un tercero con un usuario, esta acción es indispensable para los técnicos de mantenimiento y la visualización de las ordenes de trabajo asignadas.
 
 ## Correo Electrónico
 

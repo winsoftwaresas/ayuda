@@ -296,8 +296,6 @@ Dato a ingresar: https://am.winsoftware.com.co:28063/AM4G/
 
 **Año OT:** Parametrización que permite definir el consecutivo de la codificación de las ordenes de trabajo. Se debe ingresar el año en los primeros días del mismo.
 
-**Inventario permanente de OTs:** Parametrización que permite indicar si se utiliza la fecha de fin de trabajos o la fecha de envio a historia.
-
 **Opción de manejo de presupuesto y gasto real en seguimiento/cierre:** Parametrización que habilita/inhabilita el manejo de presupuesto y gasto real en seguimiento cierre.
 
 **Exigir el ingreso de comentarios al cerrar las órdenes de trabajo:** Parametrización que habilita/inhabilita la obligatoriedad de los comentarios en una orden de trabajo.
