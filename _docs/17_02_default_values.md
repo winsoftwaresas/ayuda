@@ -150,21 +150,21 @@ Dato a ingresar: https://am.winsoftware.com.co:28063/AM4G/
 
 ## AMóvil
 
-**Permitir Estado Cerrado Ejecutado desde AMóvil:** Parametrización que permite definir la posibilidad a los técnicos de usar el estado "Cerrado Ejecutado" en Órdenes y Solicitudes. En caso de indicar NO, los tecnicos prodran usar el "Cierre Parcial"
+**Permitir Estado Cerrado Ejecutado desde AMóvil:** Parametrización que permite definir si los técnicos pueden utilizar el estado "Cerrada Ejecutada" en las Órdenes y Solicitudes. En caso de indicar NO, los técnicos solo podrán utilizar el estado "Cierre Parcial".
 
-**Usa el Módulo de Pedidos:** Parametrización que permite definir el uso del modulo de Pedidos.
+**Usa el Módulo de Pedidos:** Parametrización que permite definir el uso del módulo de Pedidos (Se usa / No se usa).
 
-**¿Habilitar vista de deslizar hacia abajo en Transacciones?:** Parametrización que permite definir el desplazamiento en transacciones cambiandolo del predeterminado lateral o deslizamiento.
+**¿Habilitar vista de deslizar hacia abajo en Transacciones?:** Parametrización que permite configurar la forma de visualización de las transacciones de una Orden de Trabajo y/o una Solicitud de Servicio. Es posible seleccionar entre el modo de acceso individual en cascada, donde el técnico debe ingresar a cada transacción de manera independiente, o el modo de listado vertical, que presenta todas las transacciones en una única vista desplazable, permitiendo ejecutarlas de forma continua sin necesidad de regresar al menú principal.
 
-**Permitir Firma de Recibido sin Evaluación en AMóvil:** Parametrización que permite definir la exigencia de la Firma de recibido pero sin evaluación.
+**Permitir Firma de Recibido sin Evaluación en AMóvil:** Parametrización que permite definir si se permite registrar la firma de recibido sin haber realizado previamente la evaluación del servicio.
 
-**Permitir descarga de Órdenes programadas solo del dia Actual en AMóvil:** Parametrización que indica que a los técnicos solo les registrará las ordenes asignadas en el día actual teniendo en cuenta la Fecha de programación.
+**Permitir descarga de Órdenes programadas solo del día Actual en AMóvil:** Parametrización que permite definir si a los técnicos se les mostrarán solamente las órdenes cuya fecha programada corresponda al día actual.
 
-**Calcular Tiempo Improductivo en las Órdenes de Trabajo Creadas desde AMóvil:** Parametrización que indica la opcion de calcular el tiempo improductivo desde el AMóvil en pro de que los tecnicos habiliten o inhabiliten esta casilla.
+**Calcular Tiempo Improductivo en las Órdenes de Trabajo Creadas desde AMóvil:** Parametrización que permite definir si las órdenes creadas desde AMóvil calcularán el tiempo improductivo. Si se configura con el valor SÍ, todas las órdenes registradas desde la aplicación calcularán el tiempo improductivo; si se configura con el valor NO, no se realizará dicho cálculo. Si surge la necesidad de hacer cualquier corrección sobre los valores generados por este parámetro, deberá ser hecha posteriormente en el sistema AM4G.
 
-**No permitir Cierre Sin Evaluación:** Parametrización que permite definir la exigencia de la evaluación del servicio prestado en Órdenes de trabajo y Solicitudes
+**No permitir Cierre Sin Evaluación:** Parametrización que permite definir si la evaluación del servicio prestado es obligatoria en las Órdenes de Trabajo y/o las Solicitudes de Servicio.
 
-**Usar Costeo por Presupuesto para las Órdenes Creadas desde AMóvil:** Parametrización que indica la opcion de adicionar Presupuesto a una Orden de Trabajo desde el AMóvil.
+**Usar Costeo por Presupuesto para las Órdenes Creadas desde AMóvil:** Parametrización que indica la opción de adicionar Presupuesto a una Orden de Trabajo desde AMóvil.
 
 {% set_image
   path:""
