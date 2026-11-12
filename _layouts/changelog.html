@@ -5,15 +5,28 @@ layout: default
 <div class="uk-section">
     <div class="uk-container container-xxsmall">
 
-        <h2 class="uk-article-title">{{ page.title | escape }}</h1>
+        <h2 class="uk-article-title">{{ page.title | escape }}</h2>
+
+        {% if page.product %}
+            {% include changelog-tabs.html product=page.product view="posts" %}
+        {% endif %}
 
         <div class="article-content">
             {{ content }}
         </div>
 
         <ul uk-accordion>
-        {% assign changelogs = site.changelogs | sort: 'date' | reverse %}
+        {% assign changelogs = site.changelogs | sort: 'slug' | reverse %}
         {% for changelog in changelogs %}
+            {% if page.product == 'amovil' %}
+                {% unless changelog.product == 'amovil' %}
+                    {% continue %}
+                {% endunless %}
+            {% else %}
+                {% if changelog.product == 'amovil' %}
+                    {% continue %}
+                {% endif %}
+            {% endif %}
             <li>
                 <a class="uk-accordion-title" href>{{ changelog.title }}</a>
                     <div class="uk-accordion-content">

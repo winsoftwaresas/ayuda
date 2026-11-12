@@ -1,0 +1,41 @@
+<style>
+.changelog-tabs .uk-subnav-pill > .uk-active > a,
+.changelog-tabs .uk-subnav-pill > .uk-active > a:focus,
+.changelog-tabs .uk-subnav-pill > .uk-active > a:hover {
+    color: #ffffff !important;
+}
+</style>
+
+<div class="changelog-tabs uk-margin-medium-bottom uk-text-center no-print">
+    <!-- Selector de Producto: AM 4G vs AMovil -->
+    <div class="uk-margin-small-bottom">
+        <ul class="uk-subnav uk-subnav-pill uk-flex-center uk-margin-remove" style="display: inline-flex;">
+            <li class="{% if include.product == 'am4g' %}uk-active{% endif %}">
+                <a class="uk-border-rounded" {% if include.product == 'am4g' %}style="color: #ffffff !important;"{% endif %} href="{% if include.view == 'posts' %}{{ '/changelog-posts/' | relative_url }}{% else %}{{ '/changelog-timeline/' | relative_url }}{% endif %}">
+                    AM 4G
+                </a>
+            </li>
+            <li class="{% if include.product == 'amovil' %}uk-active{% endif %}">
+                <a class="uk-border-rounded" {% if include.product == 'amovil' %}style="color: #ffffff !important;"{% endif %} href="{% if include.view == 'posts' %}{{ '/amovil-changelog-posts/' | relative_url }}{% else %}{{ '/amovil-changelog-timeline/' | relative_url }}{% endif %}">
+                    AMovil
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Selector de Vista: Línea de tiempo vs Publicaciones -->
+    <div>
+        <ul class="uk-subnav uk-flex-center uk-margin-small-top">
+            <li class="{% if include.view == 'timeline' %}uk-active{% endif %}">
+                <a href="{% if include.product == 'amovil' %}{{ '/amovil-changelog-timeline/' | relative_url }}{% else %}{{ '/changelog-timeline/' | relative_url }}{% endif %}">
+                    <span data-uk-icon="icon: clock; ratio: 0.8"></span> Línea de tiempo
+                </a>
+            </li>
+            <li class="{% if include.view == 'posts' %}uk-active{% endif %}">
+                <a href="{% if include.product == 'amovil' %}{{ '/amovil-changelog-posts/' | relative_url }}{% else %}{{ '/changelog-posts/' | relative_url }}{% endif %}">
+                    <span data-uk-icon="icon: file-text; ratio: 0.8"></span> Publicaciones
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
