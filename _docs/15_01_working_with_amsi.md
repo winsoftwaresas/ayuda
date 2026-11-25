@@ -10,9 +10,7 @@ Contiene información básica sobre el ingreso al aplicativo, mostrando de maner
 
 **En este capítulo**
 
-- Qué es **AMsi**
-
-### Qué es AMsi
+### ¿Qué es AMsi?
 
 **AMsi** es una aplicación Web complementaria a **AM** que permite la Creación y de Órdenes (OTs) y/o Solicitudes (SS) de usuarios pertenecientes a una organización al área de Mantenimiento. Estos registros pueden ser consultados a través de ambos aplicativos; en **AMsi** por parte del usuario Solicitante y por el Equipo Técnico en **AM**.
 

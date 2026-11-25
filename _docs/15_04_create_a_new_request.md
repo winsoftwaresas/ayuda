@@ -191,6 +191,14 @@ Luego, dar clic en el botón <a class="btn white">Subir Archivo</a> y el sistema
 
 **<span class="mdi mdi-exit-to-app"></span>:** Este botón  permite salir de la aplicación **AMsi**.
 
+### Validación Solicitudes duplicadas 
+
+El módulo **AMsi** identifica posibles solicitudes duplicadas. Al intentar crear una nueva solicitud, el sistema verifica si ya existe un registro asociado al mismo activo y centro de costos.
+
+En caso de encontrar una solicitud existente, AMsi muestra una alerta emergente informando sobre el registro identificado y solicita al usuario confirmar si desea continuar con la creación de la nueva solicitud.
+
+Lo que permite prevenir la generación involuntaria de solicitudes duplicadas, facilita el control de los requerimientos reportados y contribuye a mantener organizada la información del módulo.
+
 #### Campos Del Formulario Servicio Solicitado para usuarios relacionados por Compañía
 
 <iframe width="600" height="340" src="https://www.youtube.com/embed/Sd7o6h16bb8?si=4u5BSOD5sLJAeo05" title="Actualización de perfil y creación de solicitudes para usuarios relacionados por compañía" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen uk-responsive></iframe>
