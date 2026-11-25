@@ -9,8 +9,11 @@
 - title: Blog
   url: /blog/
 
-- title: Registro de cambios
+- title: Registro de cambios (AM 4G)
   url: /changelog-timeline/
+
+- title: Registro de cambios (AMovil)
+  url: /amovil-changelog-timeline/
 
 - title: Contacto
   url: /contact/

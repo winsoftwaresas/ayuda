@@ -1,0 +1,10 @@
+# Changelog AMovil
+- title: AMovil Versión 1.0
+  number: "1.0"
+  label: STABLE
+  date: November 12, 2026
+  list:
+   - Lanzamiento de la versión inicial de AMovil en el Centro de Ayuda.
+   - Sincronización en tiempo real de órdenes de trabajo para gestión en campo.
+   - Consulta de activos, hojas de vida y especificaciones técnicas desde dispositivos móviles.
+   - Registro de novedades, firmas digitales y evidencias fotográficas.

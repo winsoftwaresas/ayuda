@@ -1,9 +1,11 @@
 ---
 layout: page
-title: Línea de tiempo del registro de cambios
+title: AM 4G - Línea de tiempo
 width: small
 ---
 
-A continuación se encuentra, a modo de resumen, el compendio de los cambios incluidos en cada versión de **[AM](https://winsoftware.com.co/am-administrador/)**.
+{% include changelog-tabs.html product="am4g" view="timeline" %}
 
-{% include changelog.html %}
+A continuación se encuentra, a modo de resumen, el compendio de los cambios incluidos en cada versión de **AM**.
+
+{% include changelog.html data=site.data.changelog %}

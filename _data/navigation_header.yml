@@ -11,11 +11,21 @@ left:
   - title: Registro de cambios
     dropdown:
 
+      - title: AM 4G
+
       - title: Línea de tiempo
         url: /changelog-timeline/
 
       - title: Publicaciones
         url: /changelog-posts/
+
+      - title: AMovil
+
+      - title: Línea de tiempo
+        url: /amovil-changelog-timeline/
+
+      - title: Publicaciones
+        url: /amovil-changelog-posts/
 
 
 # Navbar right menu navigation links

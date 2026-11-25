@@ -1,5 +1,6 @@
+{% assign changelog_data = include.data | default: site.data.changelog %}
 <div class="tm-timeline uk-margin-large-top">
-    {% for version in site.data.changelog %}
+    {% for version in changelog_data %}
     <div class="tm-timeline-entry">
         <div class="tm-timeline-time">
             <h5>{{ version.date }}</h5>
