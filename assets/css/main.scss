@@ -287,3 +287,38 @@ span.whatsapp-icon svg {
     display: none !important; 
 }
 /* #endregion switcher */
+
+/* #region asistente-am-widget */
+@media (max-width: 480px) {
+    #win-am-widget-root {
+        right: 12px !important;
+        left: 12px !important;
+        bottom: 12px !important;
+        max-width: calc(100vw - 24px) !important;
+        box-sizing: border-box !important;
+        pointer-events: none !important;
+    }
+
+    #win-am-widget-root > div,
+    #win-am-widget-root > button {
+        pointer-events: auto !important;
+    }
+
+    #win-am-widget-root > div {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: 540px !important;
+        max-height: calc(100vh - 160px) !important;
+        max-height: calc(100dvh - 160px) !important;
+        border-radius: 12px !important;
+        box-sizing: border-box !important;
+    }
+
+    #win-am-widget-root iframe {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: 100% !important;
+        display: block !important;
+    }
+}
+/* #endregion asistente-am-widget */
