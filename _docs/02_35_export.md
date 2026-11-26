@@ -3,7 +3,7 @@ title: Exportar
 subtitle: Cada uno de las tablas de Infraestructura tienen la función Exportar.
 tags: [setup]
 author: win
-order: '02_34'
+order: '02_35'
 media: "../../assets/images/docs/"
 ---
 
@@ -15,7 +15,7 @@ Al ejecutar esta transacción, se abrirá una ventana la cual se muestra a conti
   path:""
   css_class:""
   number:""
-  filename:"02_87.png"
+  filename:"02_90.png"
   alt:"Ventana Exportar"
 %}
 
@@ -37,6 +37,6 @@ Para continuar, el siguiente botón ya viene seleccionado por defecto <a class="
   path:""
   css_class:""
   number:""
-  filename:"02_88.png"
+  filename:"02_91.png"
   alt:"Ventana Descargar Exportación"
 %}

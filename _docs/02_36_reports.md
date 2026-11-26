@@ -13,7 +13,7 @@ Este comando <span class="mdi mdi-printer"></span> permite visualizar el reporte
   path:""
   css_class:""
   number:""
-  filename:"02_89.png"
+  filename:"02_92.png"
   alt:"Ventana Reportes"
 %}
 
